@@ -1,0 +1,29 @@
+﻿User Type,Username,Date,Text
+,novaz,2007-07-31T13:10Z,"The How to use metamap coords from the Joana Guide. (Found in the folder but I know most ppl don't look :P
+---
+Interactive Map Coordinates
+
+If you are interested in going a little bit beyond that, then Interactive Map Coordinates is the next step from that while using my guide, here are the instructions to do so.  Please note, using these are optional, although this can make things a bit easier while using my guide..
+
+   1. Download Meta Map here: http://ui.worldofwar.net/ui.php?id=3331 (I am NOT the author of the mod.)
+   2. Install Meta Map by extracting all the folders into your \World of Warcraft\Interface\Addons\ directory. If you've done it right, that directory should contain folders called MetaMap, MetaMapBKP etc.
+   3. Copy the MetaMapEXP.lua (http://www.joanaguides.com/MetaMapEXP.zip) into your MetaMapCVT directory.
+   4. Start WoW. Make sure all Meta Map modules are loaded by clicking the ""AddOns"" button on the character selection screen and checking everything called Meta Map.
+   5. Enter the world. Bring up the map. You'll notice it looks a bit different. You'll also see a new icon around the minimap. Hover the cursor over it to bring up a menu, then set ""Show Unexplored"" to on, if indeed that's what you want (it'll be a great help in new areas, believe me). Now for some customization (this is what I do personally): On the MetaNotes tab UNcheck ""Highlight last created note in red"". Check ""Highlight note selected for MiniNote in blue"". Uncheck ""Accept incoming notes from other players"". On the modules tab, check MetaMapFWM (it's the ""show unexplored"" module) and MetaMapBWP (it's the navigation system module).
+   6. Click the Database tab. Click imports module. Click the Import button under ""User File"" to the left. Click import. Close the window. Bring up the map.
+   7. You should see a list of coordinates at the right hand side of the map now. If not, either right click the Meta Map icon next to the Options button on the map (that will toggle the display of the sidelist) or select another zone (it may be that there are no coordinates in the zone you're in).
+   8. To sort the list, click the ""Sorted list"" / ""Unsorted list"" header. It's best to keep it sorted, in my opinion.
+   9. Left click on a note in the sidelist. It will highlight on the map so you can see it easily. Right click the note on the map. Select ""Set XX.YY as Waypoint"". Close the map. You should see a red arrow showing the direction and distance to the coordinate. You can move the arrow around if you right click and drag it. I always have it a bit below my character where it's easy to see but not in the way. The arrow will despawn when you get close to the location, i.e. ""arrive"". You can clear the destination or change some options by left clicking the navigation arrow.
+  10.  You will also see the note you selected on the minimap.
+  11. Once I have imported the coordinates I disable (from the ""AddOns"" menu on the character selection screen) MetaMapWKB, MetaMapTRK, MetaMapQST, MetaMapNBK, MetaMapBLT. There's probably a use for them, but I don't use them.
+  12. You can add your own notes by ctrl + left clicking the map and you can edit any note by simply clicking on it.
+  13. I wasn't too consistent with the color coding, but when I knew for a fact it was an NPC I marked it blue, items as green, mobs as red, and everything else as yellow. Doesn't really matter."
+,StoppableForce,2007-08-04T10:18Z,great! thx. updated guides for both faction from the forum which is only accessible by premium users these are what i need. :)
+,izigo,2007-08-07T18:24Z,Why on earth does the metamap database only contain Co-ordinats? it would be so much easyer with NAMES. the coords alone is useless and complicated. anyone know if its meant to show just co-ordinates or if its supposed to show a name in the list?
+,Darkslayne,2007-08-08T06:01Z,Anyone else seem to have issues with the images loading for Joan's guide? Neither Firefox nor IE7 seem to load the images.
+,Nilleman,2007-08-20T10:15Z,i Have problems with the Brian Kopp's leveling guide. when opened in Firefox it spits out new pages! what program should i use to make it work?
+,novaz,2007-10-21T02:02Z,"""Guys, if you're having problems with the images it is because the original poster didn't change the links (and left the ""copy protection"" untouched which probably cost him his joanasworld.com account).""
+
+I didn't buy them lol it's just like I said, got them and decided to share. Good deal on removing the protection, I didnt even mess with it."
+,nethie,2008-07-12T18:08Z,"Hey, i tried to open the pdf files on this and i was told it, ""there was an error opeing thid document. The viewer  cannot decrypt thid document"".  What am I missing here??"
+,thomasz132,2008-11-08T22:11Z,hey guys im a bit new on those torrents so when i got it its called .rar file what should i do to use it ingame ?

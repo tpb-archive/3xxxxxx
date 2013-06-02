@@ -1,0 +1,42 @@
+Avid|Softimage XSI 6.01 cracked by XFORCE.  Includes crack, install.txt, and setup.exe from Softimage\'s website.
+
+From the install.txt:
+
+***********
+
+
+
+1) Install XSI 6.01 If you have Avid Xpress pro HD select you want to install avid mojo software.
+
+If you have XSI 6.0 already installed, you have 2 options
+ a) keep your existing SPM lic server and you dont have to do anything .. just enjoy XSI
+
+ b) upgrade your spm license server to version 1414
+
+ b1) After installing go to start->all programs->Softimage products and select license manager.
+     select edit config. file and be sure that the voice DONGLE_PORT is setted to COM1 and not IBU.
+     If it\'s IBU just delete it and write COM1, save the file.
+
+ b2) From spm1414-win32-crack.rar, extract and overwrite files into c:\\spm\\ folder.
+     (you can delete the c:\\windows\\system32\\spm folder)
+
+ b3) From license server manager, start server and enjoy XSI.
+
+
+
+If you are doing a fresh install of XSI 6.01 :
+
+2) After installing go to start->all programs->Softimage products and select license manager.
+select edit config. file and be sure that the voice DONGLE_PORT is setted to COM1 and not IBU.
+If it\'s IBU just delete it and write COM1, save the file.
+
+3) From spm1414-win32-crack.rar, extract and overwrite files into c:\\spm\\ folder.
+4) From license server manager, start the server (install license server service if you didnt do yet, in server menu), close the window and enjoy XSI
+
+
+Linux: specify the windows machine (SPM_HOST) where you installed the spm server.
+
+***********
+
+
+Enjoy.

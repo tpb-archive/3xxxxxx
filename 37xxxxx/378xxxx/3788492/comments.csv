@@ -1,0 +1,38 @@
+﻿User Type,Username,Date,Text
+,rilaohan,2007-08-30T02:56Z,i need A10 for FSX   thx~~~
+,yo7,2007-08-30T18:24Z,"
+
+
+
+THx, please upload MAJESTIC SOFTWARE Dash 8
+>>>>http://www.majesticsoftware.com
+
+"
+,Amerialb,2007-08-30T23:51Z,Does ne1 know the secret to installing the Dreamfleet Bonanza A36 without it crashing FS9 due to the 500_a36.gau file crashing the program?
+,TD0607,2007-11-19T18:35Z,"If anyone has this for FSX, I'm VERY interested!  Or maybe there's some trick to make this work with FSX?"
+,Oliwa,2008-03-28T15:36Z,Can't get it to work... After the flight loades up the screen goes black and after a while FS9 CTD. Anyone can help me out?
+,Kiwi66,2008-04-19T09:50Z,"Try This -
+If you have a crash to the desktop when you load the A-10.
+Go into the Panel folder which is inside the Aerosoft A-10 aircraft folder and delete the -
+Aerosoft A-10 threat warning GAU File.
+I had the same problem until i deleted this file, do we need it, who cares, it works, you gets what you pay for......"
+,JoeGoFishFSX,2008-06-09T22:41Z,"It will work for FSX
+
+
+Just put everything into your FSX Folder
+
+
+gauges etc and effects and all
+
+
+And then most likely youll get a black bar at the bottom of your screen
+
+
+So look into its panel cfg file and find this:
+
+[Default View]
+X=0
+Y=0
+SIZE_X=8191
+SIZE_Y=XXXX "
+,Evertie,2010-02-09T14:15Z,How do the guns work? Even when I'm in the air and I press the trigger on the joystick the guns won't work.

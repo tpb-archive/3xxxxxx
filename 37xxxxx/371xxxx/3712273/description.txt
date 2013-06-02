@@ -1,0 +1,31 @@
+RedVex Diablo II Proxy
+Version 2.5 by FooSoft
+Update to 3 by Zoxc
+----------------------
+
+RedVex is a Diablo II proxy with plugin support. It supports plugins for all three
+types of Diablo II servers (chat, realm, game). To add a plugin simply add it to 
+the \"Plugins\" folder and it will be automatically loaded at application start. 
+I have included all of the source code to RedVex and the plugins in the hope
+that they will be useful to other developers.
+
+Connecting to Battle.net through RedVex is easy:
+
+	1) Select \"Edit | Options\" and pick the realm you wish to play on.
+	2) Select \"Edit | Realms\" then add a new realm, I called mine RedVex (doesn\'t 
+		matter though). Make sure it redirects to localhost. Pick the same
+		value for offset as the realm you wish to play on.
+	3) Select \"Proxy | Start\"
+	4) Start Diablo II and pick the realm you added as the realm you wish to play on.
+	5) You should now be able to connect and play using RedVex.
+	
+When using the plugin manager to unload/load plugins be carefull not doing that while Diablo II is running, it might lead to misfunctions and realm down. (Maybe even cd-key or account ban)
+
+Optional command line arguments:
+	-hide
+		Doesn\'t show the main window when you start
+	-run
+		Autostart proxy upon launch
+
+Homepage: www.redvex.net
+IRC: #redvex on irc.dal.net

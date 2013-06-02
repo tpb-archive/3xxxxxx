@@ -1,0 +1,249 @@
+ 	
+
+Welcome to MagicEngine homepage!
+
+MagicEngine is a PC-Engine console emulator.
+
+The PC-Engine - also known as the TurboGrafx-16 in the USA, was a nice little machine made by NEC. The first model came out in 1987 followed one year later by a CD extension that made the PC-Engine the first console to have CD games.
+
+This was quite an impressive machine, with good graphic capacities (16-bit video processor, 512 colors, 64 sprites) and a fast and powerful 8-bit CPU. It also had a very good game collection, with unique and high quality games. And even today some PC-Engine games are still without an equivalent on modern consoles. Of course if you only enjoy 3-D games, well, the PC-Engine may disappoint you a bit, but if you love good old 2-D games, especially shoot'em up, give it a try, it really has some excellent games!
+
+But we are sure that you already know all that.
+
+Go find those PC-Engine CD-ROMs that you stored in a cupboard a few years ago, remove the dust on them, and go downloading MagicEngine!
+
+And don't forget to register after...
+
+MagicEngine emulates the PC-Engine almost perfectly. The emulator has:
+
+    * full HuCard emulation!
+    * full SuperGrafx emulation!
+    * full CD-ROM and Super CD-ROM emulation!
+      (with a custom System Card - no BIOS ROM needed)
+    * full Arcade Card emulation!
+    * very accurate and fast emulation!
+    * game save/load feature!
+    * nice and easy to use graphical user interface!
+    * five players mode - fully configurable!
+
+
+                         MagicEngine v1.0.0 PR 10
+                         ========================
+              Copyright (c) 1997-2005 David & Cedric Michel
+              =============================================
+
+                         MagicEngine's Homepage
+                         ----------------------
+                       http://www.magicengine.com/
+
+
+    What's new?
+    ----------
+
+    v1.0.0 PR 10.1:
+
+          - fixed DirectX vsync bug
+          - fixed Street Fighter II' 6-button bug
+          - fixed a few more glitches in HuCard games
+
+    v1.0.0 PR 10:
+
+          - completed the DirectX driver! :)
+          - added a new command line option '-nocd' to disable
+            the CD driver; useful when running ROMs from a front end
+            program, this will speed up MagicEngine startup time
+          - new 'driver' option in the pce.ini file to select
+            the video driver (DirectX or OpenGL)
+          - new 'background_scrolling' option to enable/disable
+            MagicEngine logo scrolling in the GUI
+          - enabled alt+enter key to toggle between fullscreen<->windowed 
+          - fixed screen centering in Aoi Blink, After Burner II and
+            TV Sports Basketball
+          - fixed minor glitches in a few HuCard games
+
+    v1.0.0 PR 9:
+
+          - improved sound emulation; better volume envelope and better noise
+          - new sound interpolation mode : oversampling (x4)
+          - fixed missing raster colors (Soldier Blade, Power Drift,
+            Manji Maru, etc...)
+          - enabled Magic System; improved version with music player
+          - enabled CD-ROM cache; 'cache' and 'cache_size' options added
+            in the pce.ini file
+          - added keyboard/gamepad support in the sound and video config menus
+          - enabled mouse wheel support
+          - fixed screensaver problem
+          - added back the 'res_lock' and 'esc_key_mode' options
+          - added back support for old state files
+          - added support for CD patch files (PPF); to play YS IV in English :D
+            (http://rigg.arrowsmash.com/translations/ys4/)
+          - enabled internal CD-ROM database
+          - added two buttons in the video config panel to enable/disable
+            the FPS counter and the volume meter
+          - improved the speed of the high res mode by about 20%
+          - fixed Tenchi wo Kurau screen centering
+
+    v1.0.0 PR 8:
+
+          - added a 'frameskip' option in the pce.ini file and
+            in the gamepad/keyboard misc config menu
+          - added a 'slideshow' option for the 'load ROM' menu
+          - re-organized the video driver code; in planning of DirectX support
+          - added an icon to the .exe :)
+          - fixed a bug in the gamepad code (stuck directions bug)
+          - fixed Steam Heart's crash
+          - fixed Jantei Monogatari III crash
+          - fixed Gunbuster ADPCM looping bug
+          - fixed Yuna HuVideo movie
+          - fixed Exile
+          - adjusted Loom screen centering
+
+    v1.0.0 PR 7:
+
+          - added Game Express CD detection
+          - improved the 'boot cd' menu; it can now list up to 4 drives
+            and a file selector was added to set the system cards path
+          - fixed Populous
+          - fixed Dracula X graphics bug
+          - fixed Spriggan crash
+          - fixed music speed problem in Cross Wiber and Nazo no Masquerade
+          - changed the turbo mode button behavior
+          - added back the 'drive' and 'drive_letter' options
+            in the pce.ini file
+          - added back the sprite and background layer switches
+          - added more options in the gamepad/keyboard misc config menu
+          - added auto fire options
+          - added back the option to display ROMs filename in the load menu
+          - fixed the font size bug in the main menu
+
+    v1.0.0 PR 6:
+
+          - improved the CD audio emulation (the PCE CD player is fully
+            functionnal now)
+          - fixed Street Fighter 2' crash
+          - fixed Snatcher
+          - fixed It Came From The Desert
+          - fixed sound problems in Bloody Wolf, Photograph Boy and
+            The Lost Sunheart
+          - fixed flashy screen bug in Kabuki Den and a few other games
+          - changed the default sound settings (lowered noise volume)
+          - fixed the 'backup_ram' option in the pce.ini file
+            (old mode was not enabled) 
+
+    v1.0.0 PR 5:
+
+          - fixed the fullscreen bug of PR 4
+          - added little state boxes in the gamepad config menu;
+            you can now press a control on your gamepad and get
+            a visual feedback of its state, this will make easier
+            to match a control to its name in the list :)
+          - changed the boot cd menu so that you can also use
+            your gamepad to select the cd-rom drive
+          - fixed Final Match Tennis graphics bug
+          - improved the sound emulation (implemented an
+            undocumented noise mode)
+          - added new buttons in the video config panel to
+            configure the vsync and windowed options
+
+    v1.0.0 PR 4:
+
+          - new options to control the gamepad calibration
+          - ajusted the gamepad default calibration
+          - fixed a little bug in the sound emulation
+          - fixed a bug in the video emulation that could freeze
+            or crash the emulator
+          - fixed a bug in the cd-da player
+          - fixed a bug in the pce cd-rom detection
+          - improved the windowed mode (auto centering,
+            remember window pos, etc...)
+          - doesn't exit anymore if you don't have a cd-rom drive
+
+    v1.0.0 PR 3:
+
+          - changed gamepad code
+          - fixed a crash bug in the load menu
+          - fixed cd-da looping
+          - hide/show the cursor
+          - tiny fixes/improvements here and there
+
+    v1.0.0 PR 2:
+
+          - new cdda buffer code
+          - new options in the pce.ini file to control cdda playing
+          - new options to enable/disable the FPS counter and
+            the volume meter
+          - new option to enable/disable vsync, and a special vsync
+            mode when running in windowed mode
+          - cleaned up gamepad code
+          - additionnal gamepad debugging infos in the log.txt file
+          - quick and dirty fix for the boot cd menu bug
+          - enabled turbo mode
+          - saves rom directory path
+
+    v1.0.0 PR 1:
+
+          Oh, too many new things to list them all! :)
+
+          This version is a preview release, the final 1.0 version
+          will be released very soon!
+
+
+    Disclaimer
+    ----------
+
+    This software is provided 'as is', without any express or implied
+    warranty. In no event will the authors be held liable for any loss
+    or damage arising from the use, or misuse of this software -
+    YOU USE IT AT YOUR OWN RISK! If you do not agree with
+    these terms you should delete MagicEngine now.
+
+
+    Credits
+    -------
+
+    MagicEngine uses the following free libraries and ressources :
+
+        zlib
+        ----
+
+        http://www.zlib.net/
+
+        Copyright (C) 1995-2004 Jean-loup Gailly and Mark Adler
+
+        unzip
+        -----
+
+        http://www.winimage.com/zLibDll/unzip.html
+
+        Copyright (C) 1998-2004 Gilles Vollant
+
+        libpng
+        ------
+
+        http://www.libpng.org/pub/png/libpng.html
+
+        Copyright (c) 1998-2002 Glenn Randers-Pehrson
+        Copyright (c) 1996-1997 Andreas Dilger
+        Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+
+        PC-Engine TOC database
+        ----------------------
+
+        http://pce-toc-db.no-ip.com/
+
+        Copyright (c) 2003-2005 Necstasy
+
+
+    Want to contact us?
+    ------------------
+
+    If you have questions or comments about MagicEngine, feel free
+    to contact us.
+
+    We can be reached at this address:
+
+        e-mail     : info @ magicengine.com
+
+
+----
+David & Cedric

@@ -1,0 +1,29 @@
+The long wait is finally over after more than six months. This is a special iR Shell public release brought to you by AhMan & StoneCut. To news posters: Please retain the "Special thanks" section when posting the news.
+
+New features added since the last public release:
+
+    * Added support for Team M33's newest custom firmware (See note 1). If you don't want to update to M33, you will still be able to use this new release with older OE firmwares
+    * Launch and multi-task with PS1 games from within iR Shell (works also via USBhostFS and NetHostFS) (see note 2)
+    * Backup ISO plugins now integrated into iR Shell 1.5 EBOOT and 3.5x EBOOT (also supports USBhostFS and NetHostFS)
+    * Backup UMD Video ISO support (also supports USBhostFS and NetHostFS)
+    * Direct switching between 1.5 EBOOT and 3.5x EBOOT via new shortcut combo
+    * System-wide "Quick Exit" function to quickly shutdown games, homebrew etc and return to iR Shell
+    * Improved Autoboot to iR Shell plugin
+    * New Comic Reader plugin based on PSPComic for CBZ and CBR files by suloku - Original version by Archaemic
+    * Added the ability to flash/blink the menu highlighting cursor.
+    * Added support for adhoc PC nethostfs connection under 3.xx CFWs (some additional firmware files required)
+    * Added a new config item in configurator to turn on/off the Music button for screen capture.
+    * Other bugfixes and tiny improvements.
+
+Please Note:
+
+   1. CFW 3.51 M33 Original version, 3.51 M33-2 (patch 2 with WLAN fix) and 3.52 M33 are supported. 3.51 M33-3 to 7 (patch 3 to 7) are not supported due to a sceKernelLoadExecVSH bug which had been fixed in 3.52 M33.
+   2. The launching of PS1 games via USBHostFS & NetHostFS works on all OE firmwares and also 3.51 M33 Original & Patch 2. The latest 3.52 M33 firmware currently has issues when launching user converted PS1 games via USBHostFS & NetHostFS, but PSN store purchased games works fine. Team M33 is currently looking into the issue.
+
+Special thanks:
+
+    * Dark_AleX for his previous contributions & help in iR Shell development. We hope you had enjoyed hacking the PSP. Happy retirement and wish you best of luck in your future endeavors.
+    * Team M33 for continuing DA's work and their help in fixing M33 firmware compatibility issues with iR Shell.
+    * All iR Shell private forum members for their contributions, including donations, testing, skin making, plugins, etc. Without their support, especially StoneCut, you won't see this special public release.
+
+If you enjoy using this special public release and want to show your appreciation, you can make a paypal donation to ahmanhk@hotmail.com.

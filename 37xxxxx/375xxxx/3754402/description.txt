@@ -1,0 +1,57 @@
+IT IS POSSIBLE THAT YOUR AV MAY DETECT A HACK TOOL, THIS IS NORMAL. DO YOU THINK AV'S LIKE HACK TOOLS ?!
+
+LONGCAT FLOODER SERVER
+======================
+Welcome. This is a program made by Anon, for Anon.
+
+First off: If you can't run this you will need the .NET Framework 2.0,
+you can get this at www.microsoft.com
+
+When running this server you can accept Longcat Flooder clients. (v3.0 and up). 
+What you can do with this server is set a target:port and a protocol: SYN, UDP, HTTP.
+Then hit 'Save'. Now every client that connects to your server will receive those settings. 
+
+Now you're ready to start your flood, click the "Start" button. While you're running
+the flood, every client that connects will also start flooding automatically.
+
+This way you can ask friends to join in on the flood.
+
+Tests by the Anonymous Testing Laboratories have shown that for webservers UDP and HTTP (UDP|HTTP)
+flooding works best. In other cases it's been shown that a combination of SYN and UDP (SYN|UDP)
+works best to take down a connection.
+
+Go forth, go looooooooooong!
+
+Visit us at EFNET @ #insurgency where all great ideas are designed and developed.
+Or at pWnt @ #raids(= irc://irc.pwnt.cn/raids) for epic lulz raids
+
+
+LONGCAT FLOODER CLIENT (beta)
+======================
+Same as above, except on the receiving end. 
+If you wish to run the flooder without receiving server settings you can just hit Disconnect.
+
+
+SETTINGS EXPLAINED:
+=====================
+IP/Host: 
+DNS host or IP address of your target
+
+Port: 
+Port you will be aiming at (80 for webservers, 3306 for MySQL, 21 for FTP and 23 for Telnet)
+
+Method of attack: 
+Select the type of flooding you will be using. If you wish to use more than one
+just select the one that suits your needs. e.g. UDP + HTTP = "UDP|HTTP". SYN is a TCP based attack.
+
+Serverlist:
+Addresses (dns host or IP) of Longcat Flooder Servers where you can get certain settings from.
+That way you can always setup your own flooding operation yourself. To define more than one server
+(redundancy ftw!) you can add another address or IP and seperate them with a pipe |
+e.g. server1|server2|server3| .... etc.
+
+
+FUTURE RELEASES:
+================
+I'll try to release newer and more stable versions in the very near future (think weeks not months)
+you'll find them at the regular places.

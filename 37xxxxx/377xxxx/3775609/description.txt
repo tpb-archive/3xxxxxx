@@ -1,0 +1,80 @@
+
+GRAW 2 v1.0 to v1.03 Patch - GRAW 2 v1.0 to v1.03 Patch -GRAW 2 v1.0 to v1.03 Patch
+
+previous release was V1.3 only... 
+
+this one has all 3 updates included ( 1 EXE File, not 3 collected single exe's)
+
+
+
+The One Eyed Dude
+
+ provides you with
+
+
+:. title .:
+
+..:: Ghost Recon Advanced WarFighter 2 - v1.0 to v1.03 Update-Patch ::..
+
+GRAW 2 v1.0 to v1.03 Patch
+
+
+====Changes and fixes in v 1.03 =====
+- Fixed some firewall server browsing issues.
+- Fixed server sorting to sort on number of players instead of max.
+- Fixed save crash on Ageia Island when running Extreme Physics mode.
+- Fixed missing Rate of Fire sound on the HK21.
+- Enabled all Map Editor functions.
+- Added tutorials to public-toolstutorials (Only available in English)
+- Added various modding tools to public-tools - hud_visibility.xml added to settings folder, which enables advanced users to select transparency of hud elements.
+- hud_palett_2.xml added to settings folder, enables advanced users to change the colors of the hud and menus.
+- Fixed some issues with weapon mod equipping / removing.
+- Fixed some faulty server settings.
+- Fixed some collision issues on multiplayer maps.
+- Fixed bugs and occasional crashes.
+- Ghost speech properly disabled if you uncheck Voice Quotes in options
+- Additional fixes to the Serverlisting.
+- Fixed the bug when you tried to add favorites on a newly created profile.
+
+
+===== Changes and fixes in v 1.02 ====
+- Fixed some issues with server listing
+
+
+==== Changes and fixes in v 1.01 ====
+-Speedhacking antimeasure added.
+-Fixed bugs and occasional crashes.
+-Added server sorting to the server tab.
+-Added favorites to the server tab.
+-Fixed coop order commands if the server died and client became leader.
+-Fixed "Unnamed" Loyalists for clients in coop.
+-Fixed friendly markers for clients in coop
+-Fixed some gui alignment bugs
+-Fix for crouch leaning.
+-Fixed some Saving / Loading bugs.
+-Fixed some scoring issues in Multiplayer.
+-Interface fixes.
+
+
+Additional informations regarding dedicated servers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Multicore support
+
+GRAW2 makes full use of the available cores: when a game instance is started, it determines its main core, and will use the remaining ones for other systems (rendering and physics for instance). Therefore, you would get much better performances if you do *not* set the core affinity for the game executables. Several dedicated servers are also supported: the first instance will automatically use core 1 as its main core, the second instance core 2, etc.
+
+2. Running multiple dedicated servers
+
+Patch 1.03 adds new command line parameters to properly support multiple dedicated servers on a single machine:
+-dedicated_game_info : allows you to use a specific game info file (that can be created ingame), in which you can change the port number used by the game by adding (replace xxxxx by the new port number) inside the node.
+
+-port : this will override the default port, and the one defined in the game info file.
+
+You can also make use of multiple network cards:
+-network_list: prints the list of available network interfaces.
+-network_ip : selects the network interface by local ip address
+-network_index : selects the network interface by index. Network interfaces are enumerated from 0 and upwards.
+
+
+
+Released 1st by no one else than ....> ToeD! <

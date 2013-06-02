@@ -1,0 +1,50 @@
+------------------------------------------
+- Deutsches Telefonbuch als CSV-Rohdaten -
+------------------------------------------
+
+
+Die Daten stammen von der "TVG Das Telefonbuch"-CD, Stand: Frühjahr 2007. Das letzte Mal waren die Daten
+nur als SQL-Dump verfügbar, diesmal als CSV (kann man leichter in andere Datenbanken importieren, in
+MySQL aber genauso einfach).
+
+Dateien:
+b8acfba50af5b811734661175d0c5afe  cities.csv
+92f4e10a3a2d4a0d52681f2d65ab015c  phonebook.csv
+d1f09936590dd35d54af14d5e585d9dd  streets.csv
+
+-rw-rw-rw- 1 mysql mysql    4695540 2007-07-17 23:20 cities.csv
+-rw-rw-rw- 1 mysql mysql 3169739025 2007-07-17 23:26 phonebook.csv
+-rw-rw-rw- 1 mysql mysql    9413316 2007-07-17 23:27 streets.csv
+
+Importieren via:
+
+$ mysql
+mysql> CREATE DATABASE phonebook;
+mysql> ^D
+$ mysql phonebook < tables.sql
+$ mysqlimport --local -default-character-set=latin1 
+	-c id,nachname,vorname,suffix,branche,strasze_id,hausnummer,plz,ort,internet,vorwahl,telefon,telefon_voll,fax,fax_voll 
+	--fields-terminated-by=',' --ignore-lines 1 --fields-enclosed-by=""" --lines-terminated-by="n" 
+	phonebook phonebook.csv
+$ mysqlimport --local -default-character-set=latin1 
+	-c id,stadt,plz,uebergeordnet 
+	--fields-terminated-by=',' --ignore-lines 1 --fields-enclosed-by=""" --lines-terminated-by="n" 
+	phonebook cities.csv
+$ mysqlimport --local -default-character-set=latin1 
+	-c id,strasze 
+	--fields-terminated-by=',' --ignore-lines 1 --fields-enclosed-by=""" --lines-terminated-by="n" 
+	phonebook streets.csv
+
+Aus Performancegründen ist zu überlegen, ob man die Indices (Keys) manuell aus tables.sql entfernt, bevor man
+die Daten importiert und diese dann im Nachhinein erstellt (CREATE INDEX streets_strasze ON streets (strasze)).
+
+Außerdem könnten einigen Leuten die Feldnamen nicht gefallen, was man natürlich auch vorher anpassen sollte.
+
+Sinnvolle Anwendungszwecke:
+	- einiger Reverse-Lookup-Server, integriert in die Telefonanlage o.Ä.
+	- Data-Mining
+	- SQL-Spielwiese
+	- Stress-test/Benchmark von Rechnern mit nicht-synthetischen Berechnungen
+	- Daten zum Testen für Binary-Tree-Implementationen o.Ä.
+	- <dein Zweck hier>
+	- ...

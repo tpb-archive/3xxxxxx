@@ -1,0 +1,121 @@
+﻿User Type,Username,Date,Text
+,Team-MTF,2007-06-02T16:47Z,Enjoy
+,wknight40,2007-06-02T19:13Z,"I get one file, twwxuse.r11.  How do I make use of this?"
+,ahangmoda,2007-06-02T20:43Z,How many functions this Windows have?
+,joeybhoy,2007-06-03T02:06Z,cheers matey
+,oneshot1,2007-06-04T05:39Z,"Instructions, format USB on FAT/ FAT32?
+what all goes on root?"
+,muangming,2007-06-05T07:43Z,"Thanks, Great upload ;)"
+,Lester_Diamond,2007-06-07T22:57Z,"How do you go about using this? It seems like a really cool idea. Thanks
+
+LD"
+,seanpburke,2007-06-14T14:38Z,"Works really well, Its only really to get your system up and running to access files etc. Amazing though."
+,chaoseed,2007-06-14T23:46Z,Hej man thanks a looooots this usb edition save my ars. thanks a million
+,githead,2007-06-15T13:44Z,"OK, for those a little bit lost, here are the complete instructions for installing this. When complete, it boots you into Bart-PE, which allows you to rescue important files and other basic tasks.
+
+1. Get a USB stick with at least 256MB storage.
+2. Format stick in NTFS using the HP USB format utility. That can be found at http://files.extremeoverclocking.com/file.php?f=197
+amongst many places.
+3. Unpack the downloaded files.
+4. Run the LiveXP.bat file.
+5. Type 1 and enter the location of the installdir directory. Press Enter.
+6. Type 2 and enter drive letter for USB stick, eg. I:\     Press Enter.
+7. Installation will take a few minutes.
+8. Reboot pc and go into BIOS screens, where you will need to change the boot sequence. Now, some Bioses put USB drives under Removable, and some under Hard Drives. Either way, make sure that the USB stick is at the top of the list.
+9. Save Changes and Exit.
+10. Stick will now boot up into Bart-PE.
+
+Hope this helps. Why people who are clever enough to create these utilities neglect to include proper instructions beats me..."
+,lol2551408,2007-06-16T14:13Z,thx. works great!
+,dhenzcha,2007-06-16T17:21Z,"plssss help!!!!!!! i was able to do the given instruction, but still i cannot boot with the USB plsss help, i really needed it badly because my laptop was crushed and there is no cd room with it only usb port plssss help!!!! thanks....:)"
+,shivors,2007-06-19T04:55Z,I have tried NTFS and Fat32 on a cleaned SanDisk Cruizer 2GB with no success. It kicks off some kind  of media error.
+,shivors,2007-06-19T05:02Z,Also....the above instructions dont seem to cover everything. I have to then enter 5 and then 1 to start the file transfer.
+,somerandomasshole,2007-06-26T06:25Z,"hey this thing looks really cool! i wonder, though, if it is possible to install it onto the hdd? it would be great for light systems."
+,devo777,2007-06-29T06:37Z,WARNING!!!  When I extracted these files my hard drive was erased.  Had to do a complete reinstall.
+,thelolkiller,2007-06-29T15:46Z," devo777 at 2007-06-29 06:37 CET:
+WARNING!!! When I extracted these files my hard drive was erased. Had to do a complete reinstall.
+
+Then you're an idiot."
+,dsllnx,2007-07-03T18:15Z,"Don't work fo me. I have used those tools from HP, but stil don't work. I get this msg when boot computer with the stick: Non-System disk or disk error replace and strike any key when ready.
+
+And yes; my laptop is set to boot from usb. I use a linux distro on usb and works great. I want to use Win on other stick (Corsair GT 2GB)"
+,MiniBosson,2007-07-08T09:42Z,I try to install it on my 512 MG flash drive and it says it can't install peinst. What does that mean?
+,lsls,2007-07-09T14:04Z,"why installing xp to a usb stick whan you can do the same with linux  see pendrivelinux.com      
+ linux is much easier to install on a pendrive"
+,FatJoe junior,2007-07-17T18:41Z,Cant get to work.. I have tried two times with different memory sticks.. Can somene give me some tips...?
+,shirizaki,2007-07-17T22:32Z,"When installed it takes 161MB. 
+
+I haven't booted to it yet, but it's always a good measure to have something to experiment with."
+,robert266,2007-07-21T18:11Z,"installation worked good..
+when I select usb in my bios goed well
+but I cant see any difference between them
+same custom background and all?"
+,kumarr_005,2007-08-09T12:35Z,"PEINST:Installing ntdetect to H:\
+The system cannot find the file specified.
+
+PEINST:Aborted...
+
+anyone help me"
+,PerfectTool,2007-08-10T00:25Z,"is the usb-drives supposed to be listed in the bios? everything has been executed successfully, exept the fact that it wont boot. i started to wonder if it has someting to do with the bios. because none of the usb-drives is detected there."
+,DantheMan1107,2007-08-10T07:45Z,"Here's how I got it to work: Follow the instructions given by githead. But first move the unrared folder to the root of your hard drive. Then follow his instructions and it worked for me and the error message went away.
+
+-Cheers"
+,kubiakmaciek,2007-08-27T19:21Z,Can I burn it on CD?
+,Cor-vette,2007-09-01T13:31Z,Try burning it on a CD-RW ...... it MIGHT work (the file system might be rejected) 
+,dudew8,2007-09-14T16:45Z,"i am installing now,but the cd can't find many files!!!
+
+i hope this works,if not my new pc is without windows :/"
+,flamandu,2008-02-22T13:32Z,"I installed it on my USB stick but it is'nt booting from it.
+
+I set my boot sequence to boot from Hard disk because my stick is recognized as a hard disk. But is not booting from it. It says ""Disk boot faillure, insert........"
+,time2k6,2008-04-19T06:08Z,Some older bios may require you to format the USB drive as FAT16 before it will recognize it for bootup. Unfortunately this also limits your disk size to 2GB. 
+,debakaputite,2008-11-11T21:38Z,"Hi guys
+for these of you who can not boot, are you sure u are admins when you start the HP program ?
+And also you can try a small utility to make the USB bootable / I mean to set the partition to 80h/. It works fine, but Vista is giving trouble , and it's very small - 48KB. 
+I don't remember where I found it , so google it  ""dtidata_partition_repair_tool"" or DTIDATA , very easy stuff."
+,kira17,2008-11-18T21:24Z,yeah))works))
+,debakaputite,2009-05-09T11:13Z,"Let's seed please , it is a wonderful piece of work , and seeding costs us nothing !!
+Thanks"
+,CyberGRIM,2009-05-27T17:50Z,It's BartPE-XP.
+,tyskieh2o,2009-06-13T07:37Z,"For people having problem booting. Some USB drives don't have correct bootsector written. 
+
+Don't existing liveXP menu or HP format utility  to format but instead  use RMPREPUSB_1.9.70 from hxxp://www.boot-land.net/forums/index.php?showtopic=7739&st=95
+
+Choose FAT if you can for drives below 2GB and for above FAT32 or NTFS.
+Now important part: pick XP bootable from boot options. 
+Close RMPREPUSB and go back to LiveXP.bat menu and choose paths and option 5 to start installation."
+,xLychee,2009-07-20T23:42Z,"What do I choose as a source file?
+I saved the file in my C drive, getting rid
+of the PEINST error, but when I tried giving
+C:\\XPUSB as my directory, it told me that
+no files could be found. When I give it C:, it tries to copy every file from my C folder onto my USB."
+,xLychee,2009-07-20T23:46Z,"nevermind, disregard the above comment I figured it out."
+,quantumburnz,2009-10-04T18:18Z,"Doesn't have Bart's Stuff Test 5, Pro Edition.  Just the regular freeware version."
+,anoniempje112,2010-01-28T20:03Z,"dear all
+
+after screwing around with the settings, i found the following: to make this work, do the following: 
+0) copy container XPUSB to C drive main folder
+1) open the file folder
+2) rightclick livexp.bat and select edit
+3) change ""INSTALLDIR"" to install
+4) change the actual foldername of INSTALLDIR into INSTALL
+5) exec livexp.bat
+6) choose 1, and then type driveletter + ':'
+7) choose 2, and then type ""C:\XPUSB\INSTALL""
+8) if nescessairy [if flashdrive isnt formatted, or you doubt that it is], choose  4... then look for the size, and press the number according to it,... then format, by first choosing option to clean, then option to copy files to disk... confirm couple of times, then wait for format to complete... which could take a while
+9) after all of this is done, choose 5, and hit enter,... now things will copy correctly
+10) you got yourself a usbdrive containing xp
+11) have fun"
+,Bodzium,2010-03-06T09:13Z,THX 4 manual anoniempje112 - 100% working
+,dimchy,2011-02-18T20:42Z,":D dont even think this is a Windows XP, dont download trust me, u wont be sorry !!!!!!!!!!!!!!!!!"
+,EuGG,2011-03-14T07:54Z,"AH FARK!
+
+RM PREP USB + This stupid torrent killed my OS.
+
+BARTPE works and loads from my usb device, but after shutting down and rebooting off my normal HDD, it won't boot anymore....
+FFS
+"
+,smartboy007x,2011-09-13T00:10Z,fuck u asshole thisz windows is crouupt! u jerkoff!
+,instructor2,2011-12-20T02:15Z,"for God sake stop calling it ""Windows xp""
+its bart pe the next generation rescue tool for info about the project here 
+http://www.nu2.nu/pebuilder/"

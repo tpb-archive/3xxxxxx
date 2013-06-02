@@ -1,0 +1,86 @@
+HP iPAQ h6300 Pocket PC series
+EXT ROM EDITOR AND UPDATE TOOL
+
+first all files have to be on c:\\ghost
+nowere else unless u would like a not working program pack
+.
+
+┬╗  HP iPAQ h6310 Pocket PC 
+┬╗  HP iPAQ h6315 Pocket PC 
+┬╗  HP iPAQ h6320 Pocket PC 
+┬╗  HP iPAQ h6325 Pocket PC 
+┬╗  HP iPAQ h6340 Pocket PC 
+┬╗  HP iPAQ h6365 Pocket PC 
+
+TESTED AND WORKS .
+
+CURRENTLY THE EXT ROM IS FOR 6340....
+THE IT.IMG CONTAIN THE STUFF (header) TO BE CHANGED
+IN ORDER TO GET OTHER 6300 SERIES TO WORK...
+
+MAIL NAMOFU@HOTMAIL.COM FOR A NEW IT.IMG 
+if using other versions
+
+currently on a hard reset.. the ext rom is not really anywere to be found
+in the explorer..... im using resco with registry editor to UNHIDE the ext rom..
+it takes knowhow
+OR IF YOU FOR SOME REASON IS DUMB AND NOT USING THE SAME TOOL AS ME :-) RESCO EXPLORER
+THEN IV INCLUDED A FILE CALLED REGEDIT.EXE WITCH CAN EDIT THE 
+REGISTRY TO UNHIDE THE EXT ROM...copy the regedit.exe file to your device 
+and edit the key below yes u do that your self :-)
+My Device
+HKEY_LOCAL_MACHINE/sYSTEM/STORAGEMANAGER/PROFILES/TRUEFFS_DOC1
+delete MOUNTFLAGS  ... yes go ahead .
+
+if not so handy with registry editing then install resco explorer and reg plugin
+iv included the reg file called unhide.reg copy it to your ppc and klik on it
+then reset
+
+the ext rom can not be edit with the ppc dont ask WHY
+this is why we have to make the rom os self
+this is howto do it all.
+
+first all files have to be on c:\\ghost 
+iv included 3 bat 
+
+1. bat install the shit ! remember to reboot after this first bat!
+
+2. bat file mount a drive on your computer called Z: 4 mb..
+this is the rom we make before we put it inside the device
+
+3. bat file unmount the Z: drive and make the ghostit.nbf ext rom file
+
+4. it a modifyed hp rom update tool to update your rom finally
+
+ps iPAQ File Store is not deleted/edited after the ext rom update
+only a new modded ext rom on 4 mb has been unhidden 
+but a hard reset WILL happend when updating
+
+iv cooked this shit in a easy to use pack 
+dont mail me with stupid questions about howto .. its rigth here
+only the header questions and it.img
+
+tips
+making a folder in the root of the rom called Config , 
+can be used to auto intall cab files ... 
+just input the cabs in this folder and they will install 
+them self on a hard reset
+
+tips
+editing the splash screen fucks the picture up good :-)
+delete it instead :-o yes nothing bad happends
+
+tips
+editing the hard reset RES dir gif file is ok !
+
+Tstorm
+namofu@hotmail.com
+
+
+second post ... made this becoes of an hoppy ..
+
+it still is my hobby when im sad :(
+
+go for it and make your own rom ...
+
+regards .. himself

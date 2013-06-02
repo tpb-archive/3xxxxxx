@@ -1,0 +1,79 @@
+Overview
+
+    * Full featured VST 2.3 support.
+    * Extreme complex virtual digilog/anatal hybrid synthesizer.
+    * Extraordinary native high quality sound engine.
+    * Vector based (morphing) synthesis architecture.
+    * 8 x multi timbre, 24 voices polyphony (8 independent synthesizers mapped to MIDI channels).
+    * 8 stereo output channels.
+    * Real stereo processing architecture.
+    * Parameter smoothing, anti distortion technology.
+    * Advanced MIDI and SYSEX implementation.
+    * Sound bank with 1024 professional preset voices inclusive.
+    * Independent stereo effect processing per synthesizer channel.
+    * Integrated polyphonic phrase sequencer/arpeggiator per channel.
+    * Quick help and context sensitive help system.
+    * Performance/render mode quality switch.
+    * Supports additional its own external sound bank format with 1024 patches.
+
+Main features
+
+Oscillators
+
+    * 3 x three stage- morphing main oscillators (main/slave, additional) per voice.
+    * 1 extra sub oscillator.
+    * Conventional analog waves + 64 additive waveforms.
+    * Additive wave generator for user generated waveforms.
+    * Frequency modulation, pulse width modulation, oscillator synchronization with all waveforms (all at same time possible).
+    * Ring modulator and noise generator with adjustable noise color and amount.
+    * Twice unison mode without reducing the polyphony.
+    * Several poly, mono, legato and combination key modes.
+
+Filters
+
+    * 2(3) serial/parallel/split real time morphing analog modeling filters.
+    * 4/3/2 pole low pass, high pass, band pass, band stop filters in any combination and relationship.
+    * Filter resonance up to self oscillation.
+    * Embedded polyphonic saturation and effect unit between filters with 8 different algorithms.
+
+LFOs/Envelopes
+
+    * 3 advanced shape morphing low frequency oscillators with tempo sync.
+    * Each of the additive wave forms usable for LFOs.
+    * 2 assignable envelopes with additional sustain rise/fall time feature.
+    * Multiple assignable to the many modulation destinations.
+
+Modulation Matrix
+
+    * Advanced 9 stage modulation matrix with more than hundred assignable sources and destinations.
+    * Each conceivable combination, cross wire and multiple assignment possible.
+    * XGenerator for owner draw able modulation curves (only version 2).
+
+Effects
+
+    * Advanced independent stereophonic effect section for each voice/channel.
+    * Final distortion unit with different analog and digital drive curves.
+    * Analog booster and punch adjustment.
+    * Stereo chorus/flanger per.
+    * Multi stage phaser per.
+    * Stereo delay and hq reverb per channel/voice.
+
+MIDI
+
+    * All parameters controllable via MIDI and/or SYSEX control (requires host support).
+    * Full controller implementation incl. note- off velocity, aftertouch (channel pressure), sustain (hold) pedal and so on.
+    * Extended MIDI implementation (more than 128 standard controllers).
+    * Freely assignable via modulation matrix.
+    * Extended SysEx export features.
+    * Phrase Sequencer can be recorded to MIDI tracks.
+    * Pitch bend scale up to 64 semitones with bi-directional different amounts.
+
+GUI
+
+    * Simple to use multi page view with integrated help displays.
+    * New animated GUI controls combining bitmap and vector graphics.
+    * Context sensitive external help system.
+    * Many activity indicators, i.e. oscilloscope.
+    * Remote MIDI control watch and translation displays.
+
+Brought to you by The Jato Unit Aka MASter Moe

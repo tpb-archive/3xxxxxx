@@ -1,0 +1,62 @@
+This is the offical v1.00 to v1.04 patch. 
+
+ 	Tom Clancy's Ghost Recon: Advanced Warfighter 2
+Patch v1.04
+
+Please note that this patch can be used on both the US RETAIL (CD/DVD) version & the DOWNLOADABLE (D2D) version of the game.
+
+===========
+Patch History
+===========
+
+Changes and fixes in v1.04
+
+- GameSpy reporting and server info fixes.
+- Added clean versions of landscapes without backdrop buildings for modders
+- Tutorials updated.
+- Servers with unknown ping moved to bottom when sorting on ping.
+- Server Screenshot function updated.
+- Player list id number corrected in the console.
+- Server password settings fixed.
+
+Changes and fixes in v1.03
+
+- Fixed some firewall server browsing issues.
+- Fixed server sorting to sort on number of players instead of max.
+- Fixed save crash on Ageia Island when running Extreme Physics mode.
+- Fixed missing Rate of Fire sound on the HK21.
+- Enabled all Map Editor functions.
+- Added tutorials to \public-tools\tutorials\ (Only available in English)
+- Added various modding tools to \public-tools\
+- hud_visibility.xml added to settings folder, which enables advanced users to select transparency of hud elements.
+- hud_palett_2.xml added to settings folder, enables advanced users to change the colors of the hud and menus.
+- Fixed some issues with weapon mod equipping / removing.
+- Fixed some faulty server settings.
+- Fixed some collision issues on multiplayer maps.
+- Fixed bugs and occasional crashes.
+- Ghost speech properly disabled if you uncheck Voice Quotes in options.
+- Additional fixes to the Server listing.
+- Fixed the bug when you tried to add favorites on a newly created profile.
+
+ 
+
+Changes and fixes in v1.02
+
+- Fixed some issues with server listing.
+
+ 
+
+Changes and fixes in v1.01
+
+-Speed hacking antimeasure added.
+-Fixed bugs and occasional crashes.
+-Added server sorting to the server tab.
+-Added favourites to the server tab.
+-Fixed coop order commands if the server died and client became leader.
+-Fixed "Unnamed" Loyalists for clients in coop.
+-Fixed friendly markers for clients in coop
+-Fixed some gui alignment bugs
+-Fix for crouch leaning.
+-Fixed some Saving / Loading bugs.
+-Fixed some scoring issues in Multiplayer.
+-Interface fixes.

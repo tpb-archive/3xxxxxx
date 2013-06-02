@@ -1,0 +1,37 @@
+TRY THIS METHOD:
+
+1 Disconnect internet phisically.
+Be sure that HOSTS file in C:WINNTsystem32driversetc has no block to alcohol 
+website,which is once a key for versions earlier than v4719.
+
+2 Install RETAIL version.
+
+3 Do not reboot your PC yet.
+
+--------------------------------------------------
+BE SURE TO NOT LET ALCOHOL CONNECT TO INTERNET!!!! 
+If you miss this condition then it won't work!!!!
+--------------------------------------------------
+
+5 Replace file: star_syn_client.dll in alcohol folder 
+(usually: C:Program FilesAlcohol SoftAlcohol 120) 
+and then run Keymaker.exe
+
+6. Paste serial: 
+
+ALBMPH8MP8YDFB26BBBCDDDY4899QM37C7X4JXX92QR6KC3F6PQ6BM3T8G7T8BCVWY4W2T82R3HJKGHT8DF2GDDT8MP9FX36B6KBCBCBCBCBCBCRT6
+
+or
+
+ALBM3P4TVV96BM3T8M3T8BCDFDFPQXYC3YBV98YQRBBCDDD6B6B9QP4F6CDPQK2896KFGT82R9FBC6B342RDFT88967BC8P23MPJ9BCBCBCBCBCQR6
+
+7. Click Register.
+
+8. Click Activate. (Don`t touch .....- " Patch server check " cause keymaker is 
+for v4719 and does not match the new dll size.
+
+9. Block alcohol.exe or the IP address 195.137.236.101 with your firewall;
+(in my case using VirusBuster2007 for TCP all ports to IP 195.137.236.101 
+with Alcohol.exe)
+
+10. Then you can reboot your PC and connect to internet freely.

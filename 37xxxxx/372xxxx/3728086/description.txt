@@ -1,0 +1,10 @@
+Yes I know there is an audio sync problem.  I just figured it
+out that it's a problem with the transcoder programme I'm
+using.  I'll switch to mencoder for my next cap instead.  This
+is still very much a work-in-progress and it will
+take me a few tries to get everything right.  Please have patience with me as I learn the nuances of HDTV Firewire capping.
+
+Capper: mcpish
+Source: TSN-HD (Firewire > MythTV > Transcode)
+Video: 512x288 (Widescreen), xvid 1000k/bit sec (2-pass)
+Audio: 2 Channel 128k mp3

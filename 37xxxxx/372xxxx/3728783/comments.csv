@@ -1,0 +1,355 @@
+﻿User Type,Username,Date,Text
+,travisnj,2007-06-30T17:19Z,"I only have 4 Slots open at 20k Each to start seed; Please make sure your seeding this and not just leeching 100%;
+
+Even if you can spare 10k up to seed to peers would help everyone.. "
+,bradfantin,2007-06-30T17:55Z,what was removed in order to make this fit on a SL DVD?
+,XxOralSuicidexX,2007-06-30T18:55Z,"But those this work??
+will it not fuck up my comp??
+what rev is it?
+"
+,travisnj,2007-06-30T19:16Z,"This is verified to work; infact this torrent is being seeded from this distro.
+
+What was removed? Printer Drivers and Xcode..
+
+So, use Disk Utility and restore this image to your DVD-R... 
+
+Upon installation make sure you customize and uncheck printer drivers.
+
+There are no other alterations to this distro from the WWDC.
+
+What Rev is this? It is in the title of the torrent..
+
+Seeding is not going well, I have seeded 560MB so far and the largest peer out there right now only has 55MB.. I have seen others DL and leave.
+
+I will ONLY seed until 3.22GB is UL'd"
+,XxOralSuicidexX,2007-06-30T23:13Z,SEED DAM IT!!!!  i need this badly!!!!!!!
+,risko88,2007-07-01T00:15Z,"Hi,
+Thanks for the upload!, cant wait untill im done!
+
+I had a question about instalation!
+Im downloading on a pc, and ill put it on a mac via a harddisc or my ipod!
+then i will unpack the zip file, and then burn the dmg on a disk ? Then install leopard?
+Is that the way 2 install?
+Can you please help me travisnj!
+
+Thanks a lot!"
+,travisnj,2007-07-01T00:26Z,"I will write this step by step to help those that may have tried and failed:
+
+1. Download Zip file (this torrent)
+2. You MUST unzip on a Mac
+3. Goto Applications>Utility>Disk Utility
+4. insert a DVD-R into your burner
+5. You will see in Disk Utility the Image of ""Lepoard Boot.sparseimage""
+6. You will see the DVD-R as well
+7. Click on the DVD-R
+8. In the center of the right side of Disk Utility you will see tabs, click on ""RESTORE""
+9. You will then see two text boxes, one says source and one says destination
+10. Drag N Drop the DVD-R into Destination
+11. Drag N Drop the ""Lepoard Boot.sparseimage"" into Source
+12. Click ""RESTORE""
+
+Wait for it to be finished; reboot your Mac, when you hear the first ""TONE"" press and hold your ""C"" key; hold the ""C"" until the spiral starts and you can let go of the ""C"" key.
+
+Wait for about 5 mins or longer for you to see the installation screen...
+
+You will press, next a few times and pay attention to the button on the left side bottom that says ""CUSTOMIZE""; click on this and then uncheck PRINTERS; Click install....
+
+That is it... Your done and have installed Lepoard....
+
+BTW, I have tested on Imac G4, PowerBook G4, MacBook Pro and Mac Mini and all work perfect, with one exception...
+
+MacBook Pro looses the Bluetooth; it is not recognized; DO NOT INSTALL IF YOU NEED YOUR BLUETOOTH ON A MACBOOK PRO..."
+,cyantist,2007-07-01T00:30Z,"Thanks for the upload.. I DL'd the earlier 6+GB version and couldn't get it to work at all..
+
+And I seed ALL my dl's to at least +1, as should everyone else.. Don't be greedy now.. Problem is, I can't connect to any peers on this one.. I'll leave it going and see what happens..
+
+Thanks again.."
+,travisnj,2007-07-01T00:58Z,"I am running 4 slots at 25-37K each, I have 4 peers in those slots at almost 500MB now.. I see that the swarm has gone down to only 163k from over 900k; it is also showing an average 30-35k for peers.
+
+I hope this makes it out there for those that need the extra help.."
+,Marubeni,2007-07-01T02:21Z,"Thanks a lot!
+I'm going to set it up so I can boot from my iPod and throw this on my G3."
+,Marubeni,2007-07-01T02:22Z,"Also, as I am using acquisition, I can not set my upload speed, but it usually seeds at 20kbps"
+,Marubeni,2007-07-01T02:41Z,"You guys need to upload!
+I am connected to three people and not even getting 1kps"
+,pkr1991,2007-07-01T04:11Z,Marubeni: G3's doesn't run Leopard.
+,travisnj,2007-07-01T04:29Z,"I am having problems with connecting to the tracker; ""status: checking...""
+
+Any ideas?"
+,travisnj,2007-07-01T04:33Z,All is well; will hopefully have several full seeds out there by morning.. Laterz and good luck..
+,cyantist,2007-07-01T08:12Z,"Getting good speeds now.. 60k down, 30k up.. Keep it up until it's done.. The community needs this.. ;)"
+,risko88,2007-07-01T19:43Z,"Hi,
+
+I tried with the BOMarchivehelper 
+and get it unzipped,
+but when i try 2 restore it via disk utility it doesnt work!
+
+I can drag n drop the image, 
+and also drag n drop the disk,
+
+but i cant click restore button,
+i think it might be a prob with the dvd+r, i also tried dvd+rw.
+
+Can i also try with external HD?
+
+maybe someone can help me!"
+,risko88,2007-07-01T21:34Z,"Hi, thanks for the info,
+at first it was a bit confusing as i was thinking i should have pressed the restore button!
+I am now writing the disk, hope it work
+
+thanks
+"
+,cyantist,2007-07-01T21:44Z,Just about finished downloading.. I will install this today and report back on how I got it to work and my overall thoughts on Leopard.. Thanks again for sharing..
+,risko88,2007-07-01T21:57Z,"hi, i just burned the disk, and put it in my powerbook g4, 
+but it just keeps on spinning realy fast ( a lot of sound)
+and remains at the grey apple screen with the spinning circle!
+Do you guys know what is happening?
+"
+,bradfantin,2007-07-02T00:20Z,i cant even connect yet... damn. i kinda wanted this too. i will try again later. 
+,travisnj,2007-07-02T00:27Z,"All I can tell you is to simply WAIT... on a G4 12 took 10 minutes or longer... simply follow the steps and W A I T......
+
+performance after install is equal to or better than tiger....
+
+If you follow those steps 1.2.3...... exactly; you will have an install; but just ignore all the time it takes to boot the loader... it looks like it is doing absolutely nothing.. don't worry and W  A  I  T!!"
+,travisnj,2007-07-02T00:30Z,"For the ones trying an Ext. HDD... I have tried and to no success whatsoever; the only success with the image is to follow the steps; step for step and 1.2.3 in that order..
+
+I can guarantee you that if you follow these steps outlined; you will have an install; and most of all just WAIT FOR IT TO LOAD..
+
+You will boot and will hear your ROM go nuts for a long while.. G4 takes a L O N G time; Intel's take a little bit...
+
+Just W---A-----I-----T"
+,Dragon.76,2007-07-02T03:27Z,"Re-burning a startup disc is a BAD idea.  Apple uses some mojo to order the files on the disc so it loads quickly.  BTW, I downloaded, burned, waited the eternity for it to load (on a 2.16GHz CD) and it failed on install saying it couldn't verify the Essentials package.  So much for that."
+,cyantist,2007-07-02T03:29Z,"OK, downloaded and installed.. I'm using it now..
+
+Anyways, here's what I did:
+
+First of all, I made a DVD using Disk Utility.. Worked fine.. 
+
+Unzipped .sparseimage, double-click to mount image, run Disk Utility, burn disk image to DVD-R, reboot, hold down 'C', and wait 20+ mins.. (I've been hearing different results for the wait time, but I timed it to 25 mins on my MBP 2.33ghz C2D.. I haven't tried on my PB G4 yet)..
+
+Next, I got to the installer, deselected Printers under the 'Customization' dialog, started installing and ran into some random permissions error about half way thru..
+
+Sooo, I had an idea since I didn't want to wait thru the slowww boot process again.. I repartitioned my ext fw800 hdd into 2 partitions.. Made one partition as small as possible and called it Leopard Install, made the bigger one Leopard, restored the .sparseimage to Leopard Install, choosing 'Erase Destination' and waited about 2 mins.. Reboot holding down 'Option' key and pick Leopard Boot 1 from the list of bootable drives.. 
+
+I'm happy to say that it booted up in about 1 min (instead of 25 mins from the DVD) and was installing in no time!! Deselected everything but X11 in the 'Customization' dialog and it installed perfectly.. No errors this time..
+
+I think it would work either way, but to save a LOT of time, install it from an external drive..
+
+Good luck..
+"
+,travisnj,2007-07-02T04:12Z,"I always ""skipped"" verification.
+
+Sorry to not mention that... I do like the Ext. HDD but never got it to work.. I would use this image and an EXT HDD like Cyantist did!"
+,atdakore,2007-07-02T10:05Z,"Guys, please seed. it's really important to share the wealth. Please don't be greedy. We don't want money but we really want seeders. Cmon Seed"
+,risko88,2007-07-02T12:03Z,"i tried wating, and after a long time it came, but half way i had an error, and it said 2 reboot.
+Maybe ill try the external HD method.
+Can i also use an USB harddisk? or should i use a firewire? ( i think i still have an old ipod firewire, could that work as an external HD)
+
+ok thanks"
+,sjeggie,2007-07-03T12:19Z,"hi, i put in the dvd, my MBP makes some noise for a while, but i've waited like half an hour and still nothing happened? i've read that you should wait a while but half an hour seems a bit long..."
+,sjeggie,2007-07-03T16:49Z,"ok. i burned another dvd and now it works. i get the install screen i push next a few times, i deselect printers, he starts checking the disk. But then when he wants to start installation he gives an error, i checked the log and it says it didn't find the file (russian.pkg) or something like that. why is that?"
+,Dragon.76,2007-07-04T02:37Z,If you have to use an external hard drive to install the damn thing it defeats the point of being the size of a single-layer DVD.
+,nottheold,2007-07-04T10:52Z,Has anyone tried installing it on top of Tiger ie not a fresh install?? if so does it work??
+,linemasterjorbob,2007-07-04T17:51Z,I told my friend to seed this so thats one more person! :)
+,linemasterjorbob,2007-07-04T19:16Z,PLEASE SEED!
+,acmp,2007-07-05T02:03Z,any idea to burn it on a Windows PC? I have no DVD burner in any Mac available to me :(
+,acmp,2007-07-05T02:05Z,"I forgot to ask, could it be possible somehow to convert the image to .iso? Does anyone know of such a tool able to do that?"
+,dovomu,2007-07-05T08:54Z,"I tried to uncompress the file and the output is a file with 130Mb.
+
+I have a Mac OS 10.4.10 MacBook Pro. I tried unzip with MacOS Archive Utility (that dont uncompress) and with Stuffit, who makes an 130Mb output file.
+
+What could I do?
+
+Thanks"
+,paganaa,2007-07-05T10:37Z,"Hi guys, 
+i tried to install in my i-mac... and i wait about 20 minutes and after starts the installation...
+i skip the dvd check but after i get the error.. 
+somebody can help me??
+can i do the upgrade or i must format and install a new system??
+thanks"
+,tomcat551,2007-07-05T16:06Z,Hey I'm in windows xp.... how to burn this one with  NERO Burning Rom
+,tomcat551,2007-07-05T16:07Z,Hey I'm in windows xp.... how to burn this one with NERO Burning Rom
+,tomcat551,2007-07-05T16:07Z,Hey I'm in windows xp.... how to burn this one with NERO Burning Rom.......
+,tomcat551,2007-07-05T16:30Z,"Hey I'm in windows xp.... how to burn this one with NERO Burning Rom.......
+
+Can anyone Help me Pls"
+,linemasterjorbob,2007-07-05T17:11Z,Cmon people! We need seeders!
+,dorianstorrent,2007-07-05T19:53Z,"Everything works ok until I try to restore at which point I get a ""no such file or directory"" error.
+
+This happens on both a G5 Tower and a MacProTower
+
+Any ideas?
+
+Thanks,
+
+Dorian"
+,linemasterjorbob,2007-07-06T00:25Z,"@ ""dorianstorrent""...
+
+No...  I have No idea...  Sorry...  I wish I could help..."
+,linemasterjorbob,2007-07-06T00:29Z,"@ ""dorianstorrent""...
+
+Since you're done downloading it than can you please seed it?  Thanx..."
+,dorianstorrent,2007-07-06T00:47Z,"Once I get home, it should be available..."
+,ainrue,2007-07-06T06:11Z,mine will not unzip all the way in OSX. :( Bad download?!
+,ainrue,2007-07-06T06:15Z,"nvm, seems as if my client died at 99.9%  I am seeding now, and working on my headless azureus/ubuntu box, so I will seed as much as possible :) :) :)"
+,EyeOfBeauty,2007-07-06T10:18Z,"You must extract on MAC.
+
+Also you must burn with Disctools - else it won't boot.
+
+Open Disctools and select the file on your desktop and choose Burn (do not mount it).
+
+It will take aprox. 1 hour.
+
+When burned put it back in the drive and choose Startupdisk, and choose Boot from OSX Leopard.
+
+Start again and then you have to WAIT - after aprox. 25 minutes things began to happen.
+
+I have put in a new disc (40 GB, formattet it MAC OSX extended) and I installed it here so my old OSX 10.4.10 still works.
+
+Deselect printerdrivers in the Special install menu - they are not on the DVD!!! This will cause erros if you don't deselect.
+
+Continue install - and aprox. 45 minutes later you have a new OSX.
+
+No problems at all when I installed it.
+
+Don't prepare it on your PC - IT WILL NOT WORK!
+
+Enjoy.
+
+"
+,Yukimo,2007-07-06T11:42Z,"Since this is only half size of the full Leopard, wouldn't it missed some files to make it a complete Leopard?  If you know what I mean."
+,whentheashesfall,2007-07-06T17:55Z,it works!!! and to any1 using reason that works too
+,dakoellis,2007-07-07T09:18Z,"Hey, finished the download a little while ago, im now seeding and am around 2 ratio, but once I got the DVD and burned it, and did get it bootable.  however, once I got the DVD loaded, I could not get to the installation.  I had the normal gray startup screen, it went blue for a couple seconds, then went to a slightly darker gray screen, and I had a pointer on the screen, but nothing else happened.  I plan to try it again and see if I get anything different, but would like to know what this could be.  
+thanks"
+,Piguel,2007-07-07T14:23Z,"Hi I'm french. Leopard works nice. But did somebody try to import his email from Mail 2.x to Mail 3.0. For me it's doesn't work. When i did it MAil 3.0 tells me that a ""importation"" folder was created but i see nothing.. and Mail 3.0 bugs so i need to force to quit... An other problem is the trash that seems never empty and when i click on ""empty"", the Finder bug and relaunch... thx for your answers."
+,garabo,2007-07-08T11:07Z,I'm downloading @ very good speed and will keep seeding fully all day .. enjoy.. I'll write some comments about how it went ! :) ohh and thanks for sharing :)
+,garabo,2007-07-08T11:15Z,"i just have a question..
+doest it come with all the features mentioned in the WWDC ? (Spaces, Mail, Finder.. wah wah wah), i mean .. is it the WHOLE COMPLETE THING ? thanks for whoever replies this :P"
+,Piguel,2007-07-08T12:50Z,@garabo : Yes it comes with all this great features...
+,garabo,2007-07-08T21:26Z,"is it an update ? or do i have to erase and install.. i don't want my files to be gone :(. So, do I need to backup ?"
+,EyeOfBeauty,2007-07-09T12:23Z,"Hey Garabo!
+Its a new install - and if you only have one HD you must erase it first - you can't install on 10.4.10.
+
+I put in a extra HD (MAC OSX Extended - 40 GB) and installed on this. On the other HD i got 10.4.10. No problems. Remember to uncheck Printerdrivers in Special Install menu.
+
+Good luck!"
+,garabo,2007-07-09T23:35Z,"thanks a LOT ! for your answer !
+I'm installing it today and i'll write back to tell you how it went ;)"
+,neuronhaunt99,2007-07-10T00:26Z,"Cyantist!
+
+You're a genius!  Thanks for being sensible and practical.
+
+Your external HDD solution was MAHVELOUS."
+,stephensilber,2007-07-10T01:31Z,"alright, I downloaded the torrent, unzipped (ON A MAC), opened the image, burned in disk utilities and now it boots past the apple with a loader and to the grey screen but then it just stays at a mouse(not a loading mouse, just a mouse). Someone please help me out here, what did I do wrong?! I waited 17 hours to download this so being able to use it would be GREAT. Thanks in advance"
+,dorianstorrent,2007-07-10T07:30Z,where do i find disctool?  you don't mean disk utilities?
+,dorianstorrent,2007-07-10T07:37Z,I keep getting resource busy while trying to restore!
+,EyeOfBeauty,2007-07-10T11:33Z,"Dorianstorrent:
+
+Don't restore!!!!
+
+Use Diskutility - choose Mac OS X Leopard - and choose Burn - DON'T MOUNT IT!
+
+It will take aprox. 1 hour to burn it - let i verfify (for your own safety).
+
+Put it back in the drive - choose startupdisk - choose to boot from Leopard. (You can also hold down option key (ALT) while booting - and then choose it from here).
+
+My G4 took about half an hour - then the installation menu apperars (remember to uncheck printerdrivers) Special install!
+
+Installation was without problems.  Good luck!"
+,garabo,2007-07-11T00:22Z,"couldn't get it to work.. first, disk utility didn't allow to restore it (didn't know why), so i did it as EyesOfBeauty said.. burned it and then restart (neither de C key or the startup disk worked ¬¬). So at this point.. i'm beaten by it :("
+,EyeOfBeauty,2007-07-11T10:27Z,"Strange things happens!
+
+Some works - some don't - wonder if it could be a bad download - try to compare the original file with the one you burned (Diskutility) - that is one way to find errors - else i don't have a solution.
+
+I did'nt have difficulties installing the file i downloaded - only it took about 30 minuttes before the install menu apperared."
+,spetznatz,2007-07-11T12:47Z,Intersting...the read me say it only works on G4 & G5 processors. Install fails on Mac Pro after 'Customize...' stage -- can't find necessary resoucses or somesuch. Anyone else have this problem / a solution?
+,droland,2007-07-11T18:53Z,Can't seem to get a complete file. I've had 64 hash fails so far.
+,aznxmoney,2007-07-12T09:06Z,"for anyone having trouble installing this and cannot get past the special customize menu, that you have to uncheck optional printers at, try un-checking everything except X11. It will definitely work. if you have trouble after following this, then somethings wrong with the file you burned. this dmg works"
+,paperpaw,2007-07-15T17:19Z,"i was just curious how something like this gets out way before it's supposed to. i'm a little hesitant to install it. it can't be exactly the same, can it?"
+,byroncoughlin,2007-07-18T17:48Z,"Downloaded and restored to a firewire ipod. Started installing after 1 minute and took maybe 30 minutes to complete.
+Under the customized install, I unchecked everything.
+Working wonderfully."
+,Dr.Pepper,2007-07-21T14:58Z,How to install on a external HD?
+,paganaa,2007-07-22T10:45Z,"Hi there, i've install in my MBpro and it's working , but i tried to move the email from mail 2.x to mail 3.x (i copy directly  the mail folder inside the system ) ..but after some minutes the application start to be instable somebody can tell me how i can do to save/move the mails from old osx to leopard!??
+thanks "
+,kingshnez,2007-07-22T21:18Z,"This file needs to be unzipped on the mac you are going to burn the disk with. I have it working on a G4 mac mini 1.5gh. Must admit, still very slow and buggy. I wouldn't recommend installing on your main mac. Still interesting to have a play around with and i'll defiantly be purchasing a copy in october."
+,chaosdroid,2007-07-23T21:59Z,so u gonna feed handshaking jobs with ur stinking money huh? u suck definetly better than cartman.. ;)
+,crapbag2,2007-07-24T13:23Z,still spinning after an hour on my g4 400 is there anybody who has it running on a slow g4?
+,NJDevils44,2007-07-24T19:12Z,"Hi everyone, your help would be appreciated ASAP!
+
+I have a 320GB ACOMDATA EXTERNAL HDD via USB, um its 
+Partition Type : 	FDisk_partition_scheme 
+
+Now, I am currently downloading this file, but could somebody pleasseee tell me how to put it on the external HDD properly and boot from there to keep my current OS 10.4.10 safe?
+
+Thank you VERY much to whoever answers."
+,misterfox,2007-07-24T21:22Z,"omfg i'm getting 2.5KB/s here what is it with you people open up those damn upload limits and learn to use BT!
+
+goddamnit. 2.5KB/s is just retarded for a torrent with 38 seeders and 123 leechers"
+,NJDevils44,2007-07-24T21:59Z,"^^
+
+that's odd, I'm getting around 300kb/s - 360kb/s"
+,NJDevils44,2007-07-25T09:44Z,"Alright so I did everything, and I am now successfully booting and running from an external HDD. Now, while in Leopard I still have access to all my files, however I would like to not have to plug in my HDD every-time I want to use Leopard, I want to make it my official OS. Is it possible to install on my current internal HD without wiping it? Thanks."
+,canberra25,2007-07-25T13:31Z,"FOR PEOPLE WHO WANT TO BURN ON WINDOWS!!! LISTEN UP!!!!!
+
+1) Open Disk utility and mount Leopard Boot.sparseimage.
+2)Click the image and then click convert. This will convert the image to a DMG.
+3) After it is done converting, use this command:
+hdiutil convert /path/to/filename.dmg -format UDTO -o /path/to/savefile.iso
+
+
+Replace /path/to/filename.dmg with the path and name of the existing .DMG file, and replace /path/to/savefile.iso with the desired path and name for the converted image. 
+(THANK YOU macosxhints.com!!)
+
+You now have a windows burnable ISO!!!"
+,NJDevils44,2007-07-25T16:20Z,"**** I HAVE IT RUNNING OFF OF MY EXTERNAL HDD, IF I INSTALL VIA DVD ON MY MBP'S HDD, WILL I LOSE ALL MY FILES? ****"
+,paganaa,2007-07-29T16:23Z,"Hi guys 
+nobody knows where i can find the last release
+9A499
+thanks
+a"
+,sboysel,2007-07-29T21:18Z,"Great novelty, yet highly unstable. If your interested in having this merely because its the newest thing, your in luck. But if you plan to do anything worthwhile with it I would suggest partitioning and running tiger also, or simply holding off until the actual release"
+,tjrules,2007-08-02T03:19Z,"hey guys can anyone tell me how to use this single layer disc in windows and how to use its sparse image
+if anyone know bout this and plz tell me that how to use in windows ..............
+thanking you 
+tj"
+,nelsoon01,2007-08-14T18:59Z,"To burn that image you absolutly need Mac OS X to convert the .sparse image in a CDR master from the disk utility. After change the .cdr extension to .iso and this image can be burned on windows with any burner like nero or alcohol.
+
+To have Tiger and Leopard on the same hard drive whenthe tiger partition already take  all space. Just disable journaling: do this in terminal: 
+
+# diskutil disableJournal /Volumes/(TigerVolumeName)
+
+After you can use a linux live cd like Ubuntu ( powerpc version exist search on google ) and resize the tiger partition with gparted. After that you can install both, and you can too reenable journaling in tiger and leopard."
+,englen,2007-08-19T22:59Z,"I now restored the sparseimage onto a usb-drive, but when I try to install it, just after selecting the destination partition, I get the following errors (when looking in the logfile)
+
+installdb[132] unable to open recipt database
+
+osinstaller[129] failed to locate package
+
+it says something about not beeing able to find a file named canonprinterdrivers.pkg - but this occures after it fails to open the recipt database on the destination partition.
+
+I feel i tried a million things, anyone got ideas for me?"
+,panopticon36,2008-06-08T09:36Z,is this the entire OS as its supposed to run?
+,certa0,2008-06-16T05:15Z,"Hi :) I'm looking for a release anywhere where I can install it on pearpc or any emulator for pc, from a single layer dvd or disc image(any size). I'm not looking for a bootable for pc, my sound will absolutely not work with any version of mac it's pc only. So I'm trying to see if I can emulate it, looking to run garage band and/or Pro Logic studio 8."
+,richfiles,2009-04-03T09:26Z,"Only 1 seeder? Right now I'm not even getting a discernible transfer rate at all. OK, it is now bouncing between 0 and 2.8 K. Please seed people.
+
+I seed, and I only have economy internet. I still dedicate 24K up out of my measly 30-40K up capacity. When I'm not using the computer, I drop the up limits. I've seen it just skim the edge of 50K up before if I'm not doing anything else. People... Please learn to seed"
+,elmas_7777,2009-04-15T01:23Z,"this sucks, not  even ONE seeder that sucks!!!!!"
+,iDema93,2009-06-24T20:09Z,"It Works fine...
+
+HOW TO INSTALL:
+1. Download this torrent
+2. Unzip the file
+3. Go to Applications> Utility> Disk Utility and select the dmg. image just downloaded
+4. Insert blank DVD-R into your burner
+5. Click ""Burn""
+6. Wait ...
+7. Reboot your Mac; press and hold ""C"" key for some second...
+8. Wait some minutes to see the installation screen
+9. Click on ""Customize"" and uncheck printer driveres and other language...
+10. Complete the Installation...
+11. Enjoy :-)
+
+I tested it on iMac G4 1.25 GHz 1 GB Ram"
+,Minimum91,2010-01-07T23:16Z,Can anyone please reseed?
+,kaneis,2010-06-17T13:36Z,"Could somebody pls seed? I have a G4 1.25gh iMac with single layer DVD, so I really need this version."

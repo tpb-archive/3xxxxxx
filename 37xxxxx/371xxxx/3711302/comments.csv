@@ -1,0 +1,21 @@
+﻿User Type,Username,Date,Text
+,bengtsn,2007-06-12T18:56Z,same fiasco as last time?
+,ursule,2007-06-30T14:49Z,"The file is called La Linea - Dvd 1 [Pack 2-3].iso but it's actually dvd 2
+Tthe problem is that when you try to burn the iso you find that it's too big for a DVD5.
+Il you ""decompress"" the iso you find that it contains VIDEO_TS, AUDIO_TS and JACKET_P.
+Of course you don't need to burn JACKET_P but VIDEO_TS alone is still too big for a DVD+R single layer, plus Nero and dvdshrink will complain about missing file ""VTS_38_2.VOB""
+Still you can watch it on the computer but you can't burn it ""as it is""."
+,tempeZZt,2007-07-28T09:11Z,"You CAN burn it as it is. Worked just fine for me. Burn the iso with DVD Decrypter, ignore the message, and it works just fine on (at least mine) stand alone DVD-player."
+,redhammer,2008-09-30T14:39Z,lol couldnt burn it haha
+,diodorus,2008-10-05T12:24Z,"the ISO would fit on a DVD-R, but not on a DVD+R.
+
+however:
+
+two files in this ISO are corrupted: VTS_38_1.VOB and VTS_38_1.BUP. Now, the BUP wouldn't be a problem, as you could copy and rename VTS_38_1.IFO to VTS_38_1.BUP. But VTS_38_1.VOB is a problem: the 8 minute extra documentary will not play till the end.
+
+does anyone have a 100% working version?
+
+thanks!"
+,lurpasser,2010-11-23T17:00Z,"This is one of 10 I'll never stop seeding, S
+When it's finish
+But only online weekends. :-("

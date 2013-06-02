@@ -1,0 +1,33 @@
+﻿User Type,Username,Date,Text
+,kmfdmk,2007-08-20T05:44Z,"If you're looking for something that will fit on a 256MB thumbdrive then go check out the last revision which was half this size.  http://thepiratebay.org/tor/3757445/  It just doesn't include some of the extra AV, Firewall, and Internet programs."
+,kmfdmk,2007-08-21T10:48Z,BTW.  In case it's not absolutely clear the Thumbdrive Utilities Suite that I have here can be loaded by clicking on the AutoPlay.exe  file.  If you burn the Utilities to a CD then the Utilities will AutoPlay upon CD Insertion into the computer.  Unfortunately a registry hack/modification is required to get AutoPlay to work with removable media such as Flash Drives.
+,kmfdmk,2007-08-24T02:39Z,"FYI: (this will be added in the next release's info)
+
+AVG Anti-Spyware 7.5 w/ updates from 8-23-07 reports 3 issues with my Utilities:
+
+Adware.Hotbar - HotbarUninst.exe - This is LEGIT as it's the Hotbar UNinstaller
+Adware.PurityScan - oi_uninstaller.exe - This is LEGIT as it's the Outer Info spyware UNinstaller
+Not-A-Virus.PSWTool.Win32.NetScaPass.a - netscapass.exe - This is LEGIT as it's a Netscape Password Recovery tool"
+,crashcrew,2007-08-24T02:45Z,"Thank you for this! I'm still D/L'ing, but when I'm finished and if this works..you're awesome bro!! Thax again!"
+,kmfdmk,2007-08-27T23:04Z,"## Known bug ##
+If you try to run CCleaner from the USB/CD it will give you an ""Error 0"" message.
+
+Next revision will fully implement the portable version of CCleaner.
+
+http://www.internetrotsyourbrain.com/ccleanerportable/
+
+Rusty"
+,preludexl,2008-02-04T19:39Z,"Thanks Rusty. works great. I guess u didnt have time for a monthly update.
+
+How can we update the antivirus defintions outselves?"
+,kmfdmk,2009-08-24T06:15Z,"You can update the definitions yourselves by browsing the directories that are inside the image.  Simply remove the old updates and download the newer ones into their places.
+
+Also you can update the program versions, however without re-coding your local version, you would have to ensure that you kept the EXACT SAME filenames as the originals.
+
+That would mean changing new version of Firefox 3.5.2, to actaully say 3.0 or whatever it is.
+
+The program I used to make this is technically not supposed to be re-distributed, (Violating the EULA), however it was a simple CD Executable.  You can search for CD Auto-Runs.
+
+Also, on computers with AutoRun disabled (a lot nowadays) you'll have to manually run this (if from a CD).  
+
+With the advent of Flash Drives getting more and more popular (and larger) it's a lot easier to just keep this and update it on a Flash Drive."

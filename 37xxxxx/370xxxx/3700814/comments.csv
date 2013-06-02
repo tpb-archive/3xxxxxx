@@ -1,0 +1,387 @@
+﻿User Type,Username,Date,Text
+,NickeJoh,2007-05-30T13:44Z,Can you tell me how to sign this in a simple way please.
+,scouseruk1210,2007-05-31T13:55Z,"i cant use it coz dont know how to sign whatever your saying with my imei number, make it more clear please"
+,smohanv,2007-05-31T21:39Z,"Hi,
+
+Here is the step to have the mobile phone signed with IMEI.
+
+As advised by gpsunderground, sign on to www.symbiansigned.com
+
+go to this link https://www.symbiansigned.com/app/page/overview/latestProductUpdates
+to donwload DevCertRequest and install it in your PC
+
+Open the installed program ""Symbian Developer Certificate Request"" and follow steps and generate... select the required capabilities in step 4.
+
+Once the *.csr is generated go to
+https://www.symbiansigned.com/app/barclayhtml/devcert/requestupload.jsp
+
+follow the steps..
+
+wait for the page to load with your DevCert and download the same to your PC
+
+Install it in your Nokia 95 and proceed installing the downloaded route66 application...
+
+Hope it helps guys."
+,smohanv,2007-05-31T21:55Z,"for more easy tutorial please visit:
+http://www.gosymbian.com/forum/viewtopic.php?t=757"
+,Ruthlesstheone,2007-05-31T22:55Z,Can anyone help me out with a working version of Route66 or Tomtom 6 for a Nokia N91.
+,tobbeo,2007-06-02T01:11Z,"I have completed the steps and installed the signed sis file on my N95. But when I try to run the program route 66 it says ""Resource error"" Resource files are missing. Please reinstall the application. What am I doing wrong?"
+,Limpzz,2007-06-02T11:16Z,"Can anyone tell me how to get the FExplorer.sis-file? I get the certificate-file , the Private Keyfile (sultan.key) and signsis.exe and auto_signsis.bat, but where can I find the FExplorer.sis-file?  "
+,qrona,2007-06-02T15:07Z,"Same error with me:
+
+Resource error: resource files are missing. Please reinstall the application."
+,WoTs,2007-06-02T18:28Z,"It's working on my N95, internal GPS :)
+Great upload, thanks"
+,sturesol,2007-06-03T10:15Z,"It's working on my internal GPS
+
+ Nice upload!!"
+,cunzie,2007-06-04T11:42Z,"Hi Wots and sturesol can you please tell me how to get the cert onto my nokia N95. i have followed all the instructions in both tutorials and made the files but i can not get it onto the phone. i have placed it on the internal memory but the cert is not found.
+
+many thanks"
+,Limpzz,2007-06-05T08:46Z,"Hi, I have problem in step 11-12. I dont get the FExplorer_signed.sis. When I click on autosignsis I dont get a new file. Can anyone help me!? 
+Thanks!"
+,ttn,2007-06-05T22:56Z,"Same error with me: 
+Resource error: resource files are missing. Please reinstall the application."
+,bugluvver,2007-06-08T08:46Z,Has anyone else managed to get this to work and if so could you enlighten the rest of us as to what steps you followed.
+,*EL GRINGO*,2007-06-08T13:21Z,works great.. thanks :)
+,zpectre,2007-06-10T11:51Z,"I found out that the problem of getting resource missing message is that the maps are incompatible. I downloaded maps for 2005 and 2006, but these are incompatible with version 7. Anyone that feel the urge to upload scandinavian maps for version mobile 7?"
+,bugluvver,2007-06-11T21:54Z,"Thanks for that, looks like I need to dl newer maps as the ones I have from Route66 version 7.0.989 do not open but the resource error has gone.
+
+Cheers"
+,kiptok,2007-06-12T20:30Z,"Hi all, the signing process works just fine by me. The install process too. But when I start the program, it opens for 0,5 seconds and me see something about productactivation and then closes again. I already tried it with maps of 2005 and 2006 and also the maps of route 66 v7. How do you guys get the program running?"
+,kiptok,2007-06-12T21:45Z,"OK guys I finally found the solution: 
+1) Format your sd micro (backup first) and reinstall the symbian so your telephone will be like new. 
+2)Then install the program on (for example) your phone and add the maps on your sd micro! 
+Now its working on mine! (btw: still have to test it outside but i will give an update then!"
+,kiptok,2007-06-12T22:46Z,"ok, working just fine!"
+,loke.nor,2007-06-15T19:07Z,Anyone got a link to maps that will work with this program? I live in norway...
+,Matafin,2007-06-15T20:12Z,"Problem in ""smohanv's"" tutorial in step 8, after i send the .scr it says:
+
+ "" Request DevCert
+This applies to Symbian OS v9 only
+Your request has failed. Reason:""
+
+So i can't register that with n95 or what? "
+,mr_alex,2007-06-16T18:23Z,Have anyone got the internal GPS to work. Can?t find where to setup the gps dives.   
+,Matafin,2007-06-17T14:41Z,"I got it now in to my phone, but it only flashes with some text (licence things) then shuts down.. Maybe map-package wrong or something.. ? Any ideas,  you ppl? "
+,loke.nor,2007-06-18T01:12Z,"Link to scandinavian maps to this program, please!!!"
+,ApExii,2007-06-18T20:02Z," Matafin at 2007-06-17 14:41 CET:
+I got it now in to my phone, but it only flashes with some text (licence things) then shuts down.. Maybe map-package wrong or something.. ? Any ideas, you ppl?
+
+Delete sms then it should work."
+,loke.nor,2007-06-18T20:40Z,Seriously! Isn't there any newer maps that can be used with this software? If that's the case - why download only the software? Please make a upload of newer maps anyone...!!!
+,Roligafilmer,2007-06-19T09:40Z,"Är denna med kartor över sverige???
+Svara på alle.ja@hotmail.com"
+,Roligafilmer,2007-06-19T16:10Z,förklara på svenska tack.
+,Matafin,2007-06-20T06:10Z," ApExii at 2007-06-18 20:02 CET:
+Delete sms then it should work.
+
+How that can be helping rr6? explanation needed.. I can try, before i have backups.. "
+,bboy69,2007-06-21T15:02Z,"Hi all.  I have d/l this app and have gone through the registartion stuff.  I now have a .cer file, but when I place it on my N95 and try to run it on the phone, it just opens in note pad.
+
+Any ideas?"
+,johme,2007-06-21T22:06Z,2021 som laddat ner denna. NÅGON måste ju ha fungerande kartor till ? ? ?
+,amadeussss,2007-06-22T21:01Z,can i use this v7.3 on a N93
+,the-guvnor,2007-06-27T10:33Z,"Fungerar den här verkligen med n95, får igång programmet och kartorna!
+Men har alltid NO GPS
+Är det nån som har fått igång den med n95s inbyggda gps?"
+,dfuct,2007-06-29T22:39Z,"Why cant i request an certificate at the site?
+
+I just get the text:
+
+Your request has failed. Reason:
+Your are not enabled to request DevCerts. Please contact the system administrator."
+,spirp,2007-07-04T01:44Z,"I have the same problem. Symbian Signed says ""Your request has failed. Reason:
+Your are not enabled to request DevCerts. Please contact the system administrator."" .. I guess they've changed the certification-process? any ideas on how to get at certificate? please! i'd really like to try r66 :/ pleeeease :)
+
+well, thanks in advance!"
+,cactusthe2nd,2007-07-05T23:09Z,"Can't do request via http://www.symbiansigned.com/ 
+
+:(  Any1 else know how to get this to work?
+
+Developer Certificates are provided for testing purposes only and not for distribution purposes. This is clearly stated in the terms and conditions signed up to by all users. If you require Developer Certificates for testing an application you are developing please send an email with the following information to symbiansigned@symbian.com 
+Subject: Developer Certificate enable request: 
+
+User name 
+First Name Last Name 
+Application Name 
+Application Version 
+Company Name 
+Company Address "
+,Matafin,2007-07-06T22:39Z,"Argh.. It only flashes and says something like ""welcome to product activation, please select map from options"" or something like that.. Can read it because it does only flash.. Have anyone got this work with n95.. "
+,hamodey,2007-07-26T22:12Z,"hur får jag den att funka....resource file missing hela tiden...vad ska jag göra för att den ska funka.....har satt in kartor å så men funkar inte endå =(
+
+
+doesent work resource file missing...what should do?system/apps/route66/maps...installad a map there but didnt work..."
+,Lankanboy1,2007-07-31T05:31Z,any one got account @ http://www.symbiansigned.com ? please reply
+,Matafin,2007-07-31T19:09Z,"They are not anymore offering new accounts.. I got but with an very hard work.. 
+Just keep trying.. "
+,-=EPoX=-,2007-08-08T14:06Z,Registration works at http://www.symbiansigned.com again
+,nr1strange,2007-08-16T22:43Z,"http://thepiratebay.org/tor/3497214/S60_Route_66_Mobile_7.0.989_Program___10_bonus_maps
+
+
+In this you have many maps
+
+I denna har du en hel del kartor."
+,djrayon,2007-08-30T10:44Z,"Registration is closed @ symbiansigned.com - 
+could some1 loan me their username/password for 1 .cer - (i can use it for later releases).
+
+Im waiting about 2 weeks now. So please some1 loan me (A) very please.
+djrayon[at]gmail[dot]com"
+,DANISHBOW,2007-09-04T10:27Z,"Virker kanon her. Har lige installeret det idag..
+
+Works great here, have just installed it today..."
+,K9KAT,2007-09-04T17:18Z,"ive tried multiple versions of this, cracked too and all of them get right to the end of install then an error says ""Cannot install"" and thats it..... any ideas anyone???"
+,atlasrepza,2007-09-10T17:25Z,If u get this to work.... please write how u did!!!
+,handibror,2007-09-13T20:55Z,hey 
+,handibror,2007-09-13T20:56Z,"hey download this .rar file its a installer that is wery easy to use just need your .cer file and you good to go :D
+
+sorry for my bad english."
+,atlasrepza,2007-09-16T11:43Z,"Use this guide.. it works... 
+
+http://forum.gsmhosting.com/vbb/showthread.php?t=407706&highlight=route66+key&page=6"
+,koldie,2007-10-25T01:15Z,"What the fuck is a valid email adress to symbiansigned?! I try several adresses and always got note ""Your email has address has been rejected as we do not accept registrations from publicly available email domains (e.g. gmail, yahoo, hotmail etc).""  
+I lost my mind for this shit!"
+,GetriX,2007-11-15T23:46Z,"for those of you that get the no gps in this software start upp your ""original"" gps soft and turn it off....
+After that there shouldn't be any problems...
+
+(it fixed mine) 
+
+Works butifully....  creds to ul"
+,aadal,2007-11-23T19:41Z,er der nogle der kan skrive det på dansk hvordan man gør har en nokia 6110
+,rdm6265,2007-11-25T13:40Z,"having Major dramas..
+can't get signed for Route66.Mobile.v7.3.486.N95_unsigned.sis
+or Route66.Mobile.v7.3.486.N95_signed!!!.sis
+
+on nokia N80  my IMEI is 358814001977406..
+
+please send sertificate to rdm6265@hotmail.com
+
+PLEASE...anyone...  this is killing me  :(:(..Thanx guys."
+,pixaren,2007-12-09T18:38Z,"""Certifikatet är kanske inte giltigt, eller har det förfallit""  ??? öhh?"
+,hsm01,2008-01-03T17:22Z,"for all the help you need and for SIGNING goto
+
+http://thepiratebay.org/tor/3936825/Route66_for_Nokia_N95_with_SIGNING_SIS_by_HSM01_(WORKING_and_Tes"
+,justin_timberlak,2008-02-24T15:30Z,"hey could you please sign me in
+my emei is 354835017389108
+email is vishal_pitt@live.com.au
+let me know when u sing me up
+thanks a lot dude...................
+Previous"
+,justin_timberlak,2008-02-25T09:10Z,"i downloaded that software but m unable to locate the *.csr file 
+could any one here me here ????????????
+thanks a lot"
+,justin_timberlak,2008-02-26T08:12Z,"i have created the certificate but the web site (Symbian Signed ) asks about Publisher ID which i dont have ....................
+how to get one ?????????????"
+,justin_timberlak,2008-02-26T09:09Z,"m receiving the following error
+
+Your request has failed. Reason:
+- Developer Certificates will be ENABLED for users who have a Publisher ID ONLY. (during GMT office hours)
+- ONLY if you used a Publisher ID to create a .csr file with the DevCertCreate tool will you be able to use Open Signed Offline to create a Developer Certificate.
+- Developer Certificates are currently DISABLED for users without a Publisher ID. Users who DO NOT have a Publisher ID CANNOT request Developer Certificates or use Open Signed Offline.
+- Open Signed Online and Offline for users without a Publisher ID will NOT be available temporarily, an update will be provided during Week beginning 25th Feb
+- If you have recently obtained a Publisher ID and are unable to create a Developer Certificate using Open Signed Offline please request support through the Symbian Signed forum on the Symbian Developer Network"
+,Romario1987,2008-03-03T23:48Z,"Hi could you sign for me please?
+
+IMEI: 356983017389880
+
+Thanks !!
+
+Email:Ronna_kille87@hotmail.com "
+,manolito88,2008-03-06T18:57Z,I need someone to help me pleeeeeeeeaseeeeee.. i'm trying for 2 weeks to sign my routee 66 and i totaly failed!!!!!!!! can someone sign it for me pleaseeeeee???????? My IMEI is     356962010800275    and my e-mail is    bachlavas @hotmail.com       THANk you very much all of you people..! 
+,cityfc,2008-03-06T19:56Z,"Hi 
+Please help as symbian signed website will not let me upload.
+IMEI: 356983018244100
+
+Email: n1gels@hotmail.co.uk
+
+Thanks in advance"
+,bcfaigg,2008-03-07T20:14Z,"Another plea for somebody to sign this urgently - am off on holiday tomorrow, and would like to use Route66
+
+356983013043184
+
+bcfaigg@hotmail.com
+
+Thanks ever so much.
+Bcfaigg"
+,ufo95,2008-03-07T23:07Z,"Please sign me:
+
+EMEI: 352061022920975
+email: ufo95@yahoo.com
+
+Thanks in advance"
+,damroch,2008-03-08T18:42Z,"will anyone sign my nokia n95 8 gb
+imei    356983011646905
+
+email  damroch@inwind.it
+
+thanks in advance
+dan"
+,rubesuki,2008-03-09T16:04Z,"Pls Sign me.
+ my Imei:-
+
+352061020252660
+
+rubesuki@hotmail.com
+Thanks"
+,khola,2008-03-19T01:34Z,"hi
+could you sing me please
+IMEI : 352061024430718
+
+aram-uk@hotmail.co.uk
+thanks"
+,khola,2008-03-19T01:50Z,"please could you sing me
+imei: 352061024430718
+aram-uk@hotmail.co.uk
+
+
+Thanks"
+,Cristiano43,2008-03-21T13:07Z,"Please, please sign this for me too:
+
+IMEI: 352255014447282
+mail: cristi_necsoi@yahoo.com
+Thanks a lot!!!"
+,p.cip,2008-03-26T12:44Z,"Hi,i have a nokia e90 and i try on many sites to get the route 66 signed but nobody has reply to me!Please,somebody can sign this appl ?Anticipated thanks!
+
+IMEI 353659015656743
+p_cip_uk@yahoo.co.uk"
+,milad121,2008-03-26T14:46Z,"Could you pleas sign this IMEI n95 plizzzzzz
+358998010144817 
+thenks a LOTTTTT"
+,rosshipkins,2008-03-29T05:46Z,Does anyone know where I can get an up to date Australian map. Thanks
+,telthenipper,2008-03-29T14:13Z,"Please could some kind sole sign route66 for me?
+
+My IMEI number is 352061024446516
+
+My email is telthenipper@yahoo.co.uk
+
+Many thanks in advance"
+,kickboxerdan,2008-03-30T04:18Z,"ive been trying to get this working for sooo long now and its driving me mad.... 
+Id reaally appreciate it if someone would sign it for me?
+My IMEI no is: 352255018030670
+my email is: kickboxer_crosby@hotmail.com
+Thanks alot if anyone could. "
+,djramc,2008-03-30T18:58Z,"Please could some kind sole sign route66 for me?
+
+My IMEI number is 352255016690335
+
+My email is bart-lis@hotmail.com
+
+Many thanks in advance "
+,nicopott,2008-04-02T16:17Z,"Please could you sign this for me?
+
+nokia n95
+
+imei: 352255014035798
+
+email: nico_pott@hotmail.com
+
+many thanks."
+,mini1234568,2008-04-08T11:14Z,"hello,
+could you sign this for me, please?
+
+My Imei: 352061022279299
+
+my email: theminimesong@live.de
+
+Thanks a lot"
+,tsimpos,2008-04-09T13:47Z,HELLO MY IMEI IS 358998014178019...PLEASE CAN U SENT ME THE CERT...THANKS!!!
+,tsimpos,2008-04-09T13:50Z,SORRY MY EMAIL IS tsimpos@hotmail.com...thanks again!!!!
+,d0wnl0ader,2008-04-20T02:01Z,"nobody is getting the sis file back dont write ur imei  it could be cloned and ppl fuck around with it that is why nobody is getting reply and hacker is getting ur IMEI 
+
+dont be stupid"
+,stalker1984,2008-05-14T23:43Z,"Please could some kind sole sign route66 for me?
+
+My IMEI number is 353094025909736
+
+My email is stalker-xbox@gmx.de
+
+Many thanks"
+,deadnex,2008-05-19T15:15Z,Follow the guide at http://toja.smyr.net/unsigned/FP1.html for installing unsigned appz... Works like a charm for me.
+,die_avsenik,2008-05-19T21:16Z,"Please could some kind sole sign route66 for me?
+
+My IMEI number is 353659011955743
+
+My email is nsvaizer@gmail.com
+
+Many thanks"
+,Robbinfr,2008-05-26T13:08Z,"Please sign me up :o would be great
+IMEI : 356996012400098
+Email: robbinfr@gmail.com
+many ty's "
+,kilipailut,2008-06-12T17:24Z,"Please could some kind sole sign route66 for me?
+
+My IMEI number is 352061020863490
+
+My email is kilipailut@gmail.com
+
+Many thanks "
+,zeropositivo,2008-07-05T22:26Z,"Hello mate , Thanks so much for posting this torrent , i have just finished of install the garmin for my n95 and is working EXCELLENT !  the people must read the .pdf file to make it work :)
+
+Zermos."
+,eipii,2008-07-13T19:05Z,"Please could you sign this for me?
+
+nokia n95
+
+imei: 358064010130817
+
+email: aripecca@msn.com
+
+many thanks. "
+,grOyaBetariP,2008-07-27T18:10Z,"I cannot understand why so many idiots are still asking others to sign SIS files - get a grip of yourselves, go to 
+https://www.symbiansigned.com/app/page 
+create a user account, standard email addresses are of NO USE, avoid hotmail, tiscali, etc, etc....if you need a usable email address go here and sign up for one, 
+http://www.2ip.com/signup.php
+Then head to 
+https://www.symbiansigned.com/app/page/public/openSignedOnline.do
+LOGIN, then look down that page until you see a box where you put your phones IMEI, your newly made email address and point symbian to your SIS file for signing, if you dont see the word SUCCESS at the top of the page after uploading your SIS file, you fucked up, try again!.....when you've got that right, move on, read everything, follow all the prompts - its easy, if you fail in the end, stick a feather up your arse and do the funky chicken!
+Polite As Usual"
+,sonicjury,2008-08-13T22:33Z,"Please could you sign this for me?
+
+nokia n95
+
+Imei:358064012509281
+
+Email:juryreiner@freenet.de
+
+many thanks"
+,gast000,2008-08-14T23:46Z,"hello,
+could you sign this for me, please?
+my IMEI number is 355739020380170
+my email is gast000@hotmail.co.uk
+
+Many thanks in advance"
+,VMAXEN,2008-09-05T00:28Z,"enter my imei, email and path to file
+
+says source file to large....
+dunno what to do...
+"
+,logon_saral,2008-09-22T13:48Z,"Is it work with  n70 ??????
+
+pl....help"
+,frenchy81,2008-11-04T06:26Z,"Im desparate. Im leaving to go to the usa 2moro and want to take my phone for the gps. Ive got the usa maps, but they dont work with my current r66 version. Ive tried 4 different emails to register for symbian.signed, but they are either not accepted, or say my domain is invalid. can someone PLEEEAAASE get me a cert? 
+6110 nav
+354847013483603
+
+stuchy81@hotmail.com
+
+Thanks heaps if someone can do it asap."
+,Bird6,2009-02-25T21:55Z,"Please could you sign this for me?
+
+nokia n95
+
+imei: 356843027068744
+
+email: lr138317@gmail.com
+
+many thanks. "
+,horizont10,2010-01-30T12:22Z,"Please could you sign this for me?
+
+nokia n95
+
+imei: 356843024319470
+
+email: horizont10@hotmail.de
+
+thanks a lot !"
+,tonypolik,2010-05-02T13:21Z,The imei does not get back to you sent mine numerous times different account setups using 10 minute mail. Waited an hour at one time. Bag of fucking spanners if you ask me.

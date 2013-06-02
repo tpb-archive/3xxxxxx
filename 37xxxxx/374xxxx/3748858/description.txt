@@ -1,0 +1,105 @@
+DVDFab Platinum 3.1.5.0 FULL and PATCHED
+
+~~ patched by Ghosthunter ~~
+
+DVDFab Platinum is all you need to backup your DVDs. It's an all-in-one DVD decrypting/copying/converting/burning software. In just one or two steps you can copy any DVD to DVDR/PSP/iPod, with the power of 5 DVD to DVD copy modes and 3 DVD to Mobile copy modes. DVDFab Platinum 3 is brand new, completely rewritten and based on 5 years of DVD copy software development.
+ Changes in 3.1.5.0:
+ New: Added support for CPPM protection, which is used on DVD-Audio disc.
+ New: Copy DVD-Audio disc in "Full Disc" and "Clone" modes. To burn DVD-Audio backup disc, please use "Clone" mode for now.
+ New: Copy Non-DVD files, like "JACKET_P" folder.
+ New: Added options "Copy DVD-Video", "Copy DVD-Audio" and "Copy Non-DVD Files" in "Full Disc" mode.
+ New: Added profile for Archos 504/604, for "DVD to Mobile".
+ Fix: A crash problem when previewing in certain cases.
+ Fix: A crash problem when converting if subpicture is selected in certain cases, for "DVD to Mobile".
+ Fix: A crash problem when using VOB passthrough without subpicture, for "DVD to Mobile".
+ Changes in 3.1.4.8-Beta:
+ New: Added profile for Archos 504/604, for "DVD to Mobile". - Fix: A/V sync problem for Nintendo DS, for "DVD to Mobile". - Fix: A crash problem when selecting subpicture in certain cases, for "DVD to Mobile"
+ Changes in 3.1.4.5-Beta:
+ New: Added support for CPPM protection, which is used on DVD-Audio disc.
+ New: Copy DVD-Audio disc in "Full Disc" and "Clone" modes. To burn DVD-Audio backup disc, please use "Clone" mode for now.
+ New: Copy Non-DVD files, like "JACKET_P" folder.
+ New: Added options "Copy DVD-Video", "Copy DVD-Audio" and "Copy Non-DVD Files" in "Full Disc" mode.
+ Fix: A crash problem when using VOB passthrough without subpicture, for "DVD to Mobile".
+ Changes in 3.1.4.0-Beta:
+ New: Reduced time to open DVD (like SAW III) up to 50 percent.
+ New: Added VOB passthrough extraction with "idx/sub" subtitle support, perfect for Media Center PC! You can find the device "vob" in "Generic" mode.
+ New: Added support for Nintendo DS. You can find the device "nds" in "Generic" mode, and you can create a new option for it in "Settings -> General -> Customize UI".
+ New: Added profile for PVP iAudio X5 and Cellphone LG VX9400.
+ New: Updated language files.
+ Fix: Error 400(39...) when copying DVD in certain cases.
+ Fix: Corrupted DVD data problem when copying "24 Season 5".
+ Fix: Audio fast playback problem for "DVD to Mobile", as found on "Friends".
+ Fix: A/V sync problem for "DVD to Mobile", as found on "Alien" and "Aliens".
+ Fix: A/V sync problem for "DVD to Mobile", as found on "An Evening With Kevin Smith 2".
+ Fix: A crash problem when choosing "sub/idx" subtitle for "DVD to Mobile".
+ Fix: A crash problem when converting to PSP for "DVD to Mobile", as found on "24".
+ Fix: Subpicture may appear even if it's unselected for "DVD to Mobile".
+ Changes in 3.1.3.5-Beta:
+ New: Added support for Nintendo DS. You can find the device "nds" in "Generic" mode, and you can create a new option for it in "Settings -> General -> Customize UI".
+ New: Added VOB passthrough extraction. You can find the device "vob" in "Generic" mode.
+ New: Added profile for PVP iAudio X5 and Cellphone LG VX9400.
+ New: Updated language files.
+ Fix: Error 400(39...) when copying DVD in certain cases.
+ Fix: Corrupted DVD data problem when copying "24 Season 5".
+ Changes in 3.1.3.2-Final:
+ New: Improved support for authoring error as found on some DVDs.
+ Fix: An exit problem when copying DVD in certain cases. It's introduced in 3.1.3.0, sorry!
+ Changes in 3.1.3.0-Final:
+ New: Added support for a new CORE X2 protection as found on "The Final Countdown" (R2, Czech).
+ Fix: A crash problem when copying DVD in certain cases.
+ Fix: Over-compressed problem when copying "The Messengers" (US) in "Full Disc" mode.
+ Changes in 3.1.2.9-Beta:
+ Fix: A crash problem when opening HD-DVD in certain cases.
+ Fix: Video is missing in the end when using 2-pass encoding mode for "DVD to Mobile".
+ Fix: 24-bit 96kHz LPCM audio cannot be converted for "DVD to Mobile".
+ New: Updated language files.
+ Changes in 3.1.2.8-Beta:
+ New: Added support for new AACS protection as found on HD-DVD "Matrix 2 and 3" (US).
+ Changes in 3.1.2.6-Final:
+ Fix: A/V sync problem for "DVD to Mobile", when converting DVDs like "Blade Runner".
+ Fix: Option "sub/idx" subtitle cannot be memorized for "DVD to Mobile".
+ Changes in 3.1.2.5-Beta:
+ New: Improved support for ProtectDVD protection.
+ New: Updated language files.
+ Fix: A crash problem when using "Clone" in certain cases.
+ Fix: 24-bit LPCM audio cannot be converted for "DVD to Mobile".
+ Fix: Several minor problems.
+ Changes in 3.1.2.0-Beta:
+ New: Added support for a new ProtectDVD protection as found on "Apocalypto" (R2, Germany).
+ New: Improved copy protection removal engine.
+ New: Updated language files.
+ New: Rewriten A/V sync engine for "DVD to Mobile".
+ Fix: A/V sync problem for "DVD to Mobile", when converting DVDs like "Unforgiven".
+ Fix: A crash or freeze problem when choosing "sub/idx" subtitle for "DVD to Mobile".
+ Fix: Subtitle may be missing in certain cases for "DVD to Mobile".
+ Changes in 3.1.1.6-Final:
+ New: Added support for a new Sony ARccOS protection as found on "The Da Vinci Code" (R2, Greece). 
+ New: Improved copy protection removal engine. 
+ Fix: No sound after fast forward/backward when AVI file size is larger than 2GB. 
+ Fix: Outputted corrupt AVI or MP4 file when file size is larger than 2GB. 
+ Fix: Workaround for authoring error as found on "Shottas" (US). 
+ Fix: Workaround for authoring error as found on "The Patriot" special edition (US). 
+ Fix: Several A/V sync problems for "DVD to Mobile", when converting DVDs like "Night at the Museum", "Stargate", etc. 
+ Fix: Several minor problems.
+ Changes in 3.1.1.5-Beta:
+ New: Improved copy protection removal engine.
+ Fix: Several A/V sync problems for "DVD to Mobile", when converting DVDs like "Night at the museum", "Stargate", etc.
+ Fix: Several minor problems.
+ Changes in 3.1.1.3-Beta:
+ Fix: Outputted corrupt AVI or MP4 file when file size is larger than 2GB.
+ Fix: Workaround for authoring error as found on "The Patriot" special edition (US).
+ Changes in 3.1.1.2-Beta:
+ Fixed: No sound after fast forward/backward when AVI file size is less than 2GB.
+ Changes in 3.1.1.0-Beta:
+ New: Added support for a new ProtectDVD protection as found on "Das Parfum" (R2, Germany).
+ New: Added support for a new Sony ARccOS protection as found on "Zwartboek" (R2, Netherland).
+ New: Added profile for Playstation 3.
+ New: Updated language files.
+ New: Update VSO burning engine.
+ Fixed: Freeze when finalizing in certain cases.
+ Fixed: Slow encoding when using XVID video codec.
+ Fixed: A/V sync problem when copying multi-angle title, like Star Wars: Episode III.
+ Fixed: Conversion cannot be started when using profile "generic.mp4.h264.aac".
+ Fixed: A crash problem at startup in certain cases.
+
+~~ patched by Ghosthunter ~~

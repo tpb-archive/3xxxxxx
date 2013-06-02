@@ -1,0 +1,30 @@
+﻿User Type,Username,Date,Text
+,yvonnsan,2007-08-25T00:11Z,Tack ska du ha
+,charlie1001,2007-08-25T00:52Z,Tusen tack!
+,quizzen,2007-08-25T08:46Z,tackar och niger :)
+,callbo64,2007-08-25T13:40Z,Man Tackar
+,elakamatte,2007-08-25T14:23Z,!!!!!
+,eltjejen,2007-08-25T23:22Z,Tack så mycket!
+,Spjerne,2007-08-27T09:33Z,"Spåren verkar ligga lite i fel ordning... :-( 
+Men tack i alla fal!!"
+,eb#1,2007-08-29T08:26Z,Är det bara skivorna som ligger i fel ordning eller är det varje enskild fil? 
+,franqieboy,2007-08-29T12:58Z,"jävligt bra fråga, skumt blir det iallafall när man startar med CD2 och kapitel 3 och inte har en aning om hur ordningen ska vara..."
+,/Qkj.Mw4,2007-09-02T11:14Z,"Är ni säkra på att det bara inte är track 100 som spökar? 100 kommer ju efter 10 i en vanlig sortering. Testa att döpa om alla filer med tio- och ental så att de får lika måna siffror som de med hundratal, ex track010 eller track039."
+,rammis,2007-10-18T17:41Z,Skulle verkligen vilja höra hela den här boken ;) track 100 är epilogen så det verkar som det saknas en hel cd.
+,moderswea,2007-11-06T23:21Z,Finns de ingen som kan lägga upp hela boken i rätt ordning???? Känns som de fattas för mycket för att få ett sammanhang
+,nixxe99,2007-11-08T01:09Z,"Det är CD2,CD1,CD3,CD4 osv. Så 1&2 har bytt plats + att dom 3 sista kan komma fel när det sorteras. Ett sätt att fixa det hela är att skapa en .bat fil med följande (Gör en vanlig .txt fil och döp sen om den):
+------------------------------------------
+ren track-*.mp3 Track0*.mp3
+ren track0100.mp3 Track100.mp3
+ren track0101.mp3 Track101.mp3
+ren track0102.mp3 Track102.mp3
+ren track016.mp3 Traca016.mp3
+ren track017.mp3 Traca017.mp3
+ren track018.mp3 Traca018.mp3
+ren track019.mp3 Traca019.mp3
+ren track02*.mp3 Traca02*.mp3
+ren traca029.mp3 Track029.mp3
+------------------------------------------
+
+i mappen med filerna (Ta en kopia eller sluta seeda för det kommer bli fel annars). När du sen dubbelklickar på filen kommer det att döpas om så att boken blir i rätt ordning när den spelar alfabetiskt sorterad."
+,Emmet_10,2007-11-14T17:17Z,Kan ingen lägga upp den i rätt ording?? 

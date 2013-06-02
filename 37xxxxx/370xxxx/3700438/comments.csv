@@ -1,0 +1,402 @@
+﻿User Type,Username,Date,Text
+,artoo,2007-05-30T15:55Z,Anyone know if this one works on C710?
+,butte68,2007-05-30T16:13Z,"hur får jag in kartan på ett 256 mb kort ??
+det var inga problem att uppdatera från mio så nu måste jag bara ha in denna fil till min gps.
+Tack på förhand för den här uppdateringen :)"
+,bennkat,2007-05-30T21:21Z,"Nån som fått det att fungera?
+Har kört uppdateringen från mios hemsida.
+lagt över filerna på ett 1gb sd kort men inget händer.
+Vad gör jag för fel??"
+,Isoarska504,2007-05-31T13:34Z,"jag fick inte heller det att funka, inget hände när jag lagt filerna på sd kortet och in i min 269+ efter uppdatering, någon som kan hjälpa?"
+,bennkat,2007-05-31T15:14Z,Med tanke på att den är nedladdad 72 gåner borde någon fått i gång den.
+,mustang1,2007-05-31T16:01Z,Filerna som är i denna är inte till Mio 269 utan till A710 C210 C510 med flera. Om ni tittar på kartorna som är till 269 så ska ändelsen vara MAP.
+,oldnail,2007-05-31T17:03Z,"ive followed the mio update instructions and loaded to my 269+ but get an error cannot start miomap message on startup 
+
+any help?????"
+,hugin,2007-05-31T18:07Z,"@mustang1
+Kartorna till miomap V3 och uppåt ska inte ha filändelsen map utan fbl.
+
+Denna funkar för mio 269 har kört den tidigare, det är IGO dock som man kan se på exe ikonen.
+
+Du kan köra den med en upplåst mio26x och gapi för grafikens skull utan att ha patchat till senaste room.
+
+Jag misstänker att något saknas på SD kortet för att få programmet att gå igång automatisk om du inte har låst upp mio 26x och har även sett många som söker en miomap v3 som autostartar utan att man behöver låsa upp enheten. Kartorna är daterade 2006.1 på denna release då 2007.1 inte är 100% officiella det finns på villovägar en del 2007.1 kartor dock."
+,tobbbe21,2007-05-31T21:21Z,"Tja..
+Jag får det ... inte att funka. Vad gör jag för fel? jag har gjort precis som det står men det funkar inte endå. snälla kan inte någon förklara. jag har lagt in ny ROM image men det står fortfarande att jag har version 1.0 när jag startar den. Det är en mio 269
+Väldigt tacksam för svar //Tobbe"
+,SlowikPL,2007-06-01T11:22Z,"Hello , 
+
+Thanks a lot for this relase. Does anybody have the relase of the EAST-Europe 2007 voor the mio 268/+ 269/+ and want to share????"
+,SlowikPL,2007-06-01T11:24Z,"oldnail you neer to update the Mio 269 : Mio 269 MioMap V3 Update Patch ( check the model first if this is the + or non + edition) 
+
+http://www.mio-tech.be/en/support/269-downloads.php"
+,oldnail,2007-06-01T13:01Z,"i did follow all of the instructions on the mio web site but i get this error 
+i shall try again thanks for the reply
+anyone else installed to a 269+ with succes ??"
+,donBornitos,2007-06-01T16:24Z,"Hello
+
+I've installed the patche v3.0 from the mio site.
+I've ccpied the v3 software on the sd card.
+But it doesn(t work.
+The mio says 'no map was found on the sd or flash'
+can anyone help me?
+Grtz, Kris"
+,donBornitos,2007-06-01T16:25Z,"Hello
+
+I've installed the patche v3.0 from the mio site.
+I've ccpied the v3 software on the sd card.
+But it doesn(t work.
+The mio says 'no map was found on the sd or flash'
+can anyone help me?
+Grtz, Kris"
+,spids,2007-06-03T11:25Z,"It's a fuckin' FAKE, like all the other's around the web....."
+,hugin,2007-06-03T11:58Z,"@spids
+
+http://www.youtube.com/watch?v=Vv0hKP8gdJg
+http://www.youtube.com/watch?v=s_abFofRPx0
+
+Ok its spannish but in part2 you might see something interesting."
+,Alvojo,2007-06-03T16:29Z,A Belgian Forums said that there is some kind of security on the software. I have not found out if it is possible to get around that. www.mioforum.be (It is in Dutch)
+,SlowikPL,2007-06-03T17:48Z,"This is not working for me. I updated the firmware of my mio 268. But this MioMap V3 doe not work : The mio says 'no map was found on the sd or flash' 
+
+Can anybody tell me how can i put MioMap v3 on my 268?"
+,tossun,2007-06-03T20:10Z,"upgradera först mio från mios hemsida 
+Efter upgraderin Hardreseta mion innan
+den kan läsa kortet.Jag har instalerat mapen i
+själva hårddisken som är på 2 gig men kan
+även instalera på kortet.Och alting fungerar 
+
+                   mvh"
+,hugin,2007-06-03T20:11Z,"I belive they not got it to work on unmodified units, because i seen requests for that un answered. But i know there are at least 4-5 different working versions cracked. Require the correct sys.txt file for the unit though.
+
+And no you relly dont need to update firmware if you not going to buy the software, the firmware will work on your bought miomap SD but not on the cracked miomap you download."
+,sundaysailor,2007-06-04T22:02Z,"Tja jag har lösningen till att få kartan att funka!
+
+Ursäkta mig att det tagit sådan tid innan jag fick tummen ur att fixa detta!
+
+Kolla på denna torrent så ska det nog gå som en rälls!
+
+
+OBS! Man måste låsa upp sin gps  innan kartan funkar!"
+,sundaysailor,2007-06-04T22:03Z,"Glömde länken!  :) hehe!
+
+http://thepiratebay.org/tor/3705754/Unlocking_mio_268_-269_"
+,hugin,2007-06-04T22:08Z,Det även jag skrivit några gånger ;)
+,hugin,2007-06-04T22:10Z,"BTW. Fungerande 2007 kartor som funkar för mio 26x.
+
+OBS kräver att filerna avkodas med miomapdecode.
+
+http://mooshikam.mio-tech.be/updates/miomapc320c520/maps/"
+,sundaysailor,2007-06-04T23:04Z,"Grymt hugin! måste testa dessa kartor!
+
+Du verkar vara grym på detta med GPS!
+
+Vad menar du med att kartorna måste avkodas med miomapdecode?
+
+Måste man göra något särskillt?
+
+
+Tack för alla bra länkar till olika forum och tips hugin!
+
+MVH: Jagermister"
+,hugin,2007-06-04T23:25Z,"miomapdecode tar bort skyddet som ligger på kartorna så man kan köra dem med IGO senaste demo license. på detta vis kan du ha kartorna över USA, Cannada, Europa, Asien, Ryssland på enheten utan att behöva byta license nyckel.
+
+Sök google på MioMapDecode.exe eller bara MioMapDecode så bör det dyka upp något forum med programmet alternativt sök på torrents eller rapidshit.
+
+Tack jo jag har läst lite om mio speciellt då jag blev väldigt irriterad över att dom drog ut på v3 för äldre ägare som 268/269. Visst handlar det om pengar, men IGO miomap v3 fanns ju ute långt innan mitac släppte miomap v3 och det va inte på grund av teststadie som dom säger själva, redan nu finns V3.3 för 26x modellerna crackad på vissa pocket pc forum.
+
+Visst jag har beställt SD från mitac men jag tycker dom ska tänka på sina 2 år gammla kunder med inte enbart sina nya användare."
+,Jon Doh,2007-06-05T14:04Z,"Men hur är det då, funkar dessa kartor till min c210? ...och om inte, är det nån som har tips om var jag kan få tag på detaljerade kartor över europa? Vore mycket tacksam för lite hjälp. "
+,hugin,2007-06-05T15:02Z,"@Jon Doh
+Ja dom kartorna funkar till din C210 med.
+Du behöver ha MioMapDecode.exe för att få bort det skydd dom bakat in i kartorna bara.
+
+Själv verifierade jag bara med 2 kartor för att se att det verkligen va 2007.1 som låg uppe på uppdatering siten och de va det."
+,Jon Doh,2007-06-05T16:17Z,"Jag gjorde så här:
+Kopierade hela innehållet på ""miomap v3""-dvdn som man fick med i paketet, till en mapp på datorn. Sen la jag in alla .fbl-filer från denna torrent till den maps-mappen på datorn. Sen brände jag alltihop till en iso-fil och mountade den i deamon-tools. Då kunde man välja ""överföra kartor"" och överföra dom kartorna härifrån. Men eftersom flashminnet i gpsen bara e på 512 så får det bara plats med en region i taget, så för att få in italien (som jag e ute efter) var jag tvungen att ta bort norden. 
+Jag testade lite adresser i italien och det verkar funka. 
+Jag har alltså inte använt MioMapDecode.exe ännu.
+
+Så nu kommer mina frågor: Om jag köper ett sd-kort och stoppar i, hur får jag in kartorna då? Ska jag göra på samma sätt? (hittar mio-programmet sd-minnesutrymmet) Eller ska jag lägga in fbl-filerna på kortet själv och vad för mappar behövs på kortet i så fall? Och måste jag då använda det där MioMapDecode.exe?? (som jag för övrigt inte hittar) :D
+
+Mycket tacksam för hjälp!"
+,reddwarf101,2007-06-05T19:12Z,"Hello 
+
+
+I've installed the patche v3.0 from the mio site. 
+
+I've ccpied the v3 software on the sd card. 
+
+But it doesn(t work. 
+
+The mio says 'no map was found on the sd or flash' 
+
+can anyone help me? "
+,spids,2007-06-05T19:50Z,"It works now, but it's still a fake.
+
+The maps are both Western and Eastern Europe, and from 2006.01, not 2007 maps.
+"
+,reddwarf101,2007-06-05T20:09Z,hay spids how did you get it to work ??
+,spids,2007-06-05T20:18Z,"Unlock the Mio, and install GAPI_for_HPCs_v310.CAB
+
+http://thepiratebay.org/tor/3705754/Unlocking_mio_268_-269_"
+,spids,2007-06-05T20:23Z,"How to unlock.
+
+http://www.deemaac.dk/en/?Mio_269"
+,hugin,2007-06-05T21:01Z,"@Spids
+
+Maps on V3 here is 2006 because this IGO miomap v3 has been out a while. Also i recall evan Mitac release miomap v3 with 2006.1 maps but you are able to buy another upgrade for 2007.1 maps from mitac = $$$$$$$"
+,hugin,2007-06-05T21:04Z,Seam to be delivered with maps from 2007 according to mitac site. I read somewhere that it were 2006.1 they delivered miomap v3 with though but seam as that is wrong in that case.
+,spids,2007-06-05T23:47Z,"@hugin
+
+""BTW. Fungerande 2007 kartor som funkar för mio 26x.
+OBS kräver att filerna avkodas med miomapdecode.""
+
+http://mooshikam.mio-tech.be/updates/miomapc320c520/maps/
+
+Sure?
+I have tried to decode those maps - It seems to go all right, but when I open MioMap there are outdated cards.
+In card information there is a RIP sign.
+
+Maybe you have another miomapdecoder.?"
+,hugin,2007-06-05T23:56Z,"@Spids
+I not tryed V3 with 2007.1 maps though so you might need v3.2 for pnd and the following sys.txt 
+
+pna=""MIO269"" 
+[debug] 
+smart_2d=1 
+slowsim=1 
+loop_sim=1 
+
+[interface] 
+mio=1 
+landscape=0 
+portrait=1 
+width=320 
+height=240 
+base=""ui_mio/"" 
+basel=""ui_mio/"" 
+ed=38400 
+
+[speedcam] 
+usemio=-12,90,37,27 "
+,spids,2007-06-06T00:06Z,"the latest IGO license file. ??
+
+Where do I get that?"
+,hugin,2007-06-06T00:24Z,"@spids
+On www.thepiratebay.org
+Do a search for keyword use keyword ""IGO"" press search. Im sure i seen latest license file for igo in here just 2-3 days ago"
+,hugin,2007-06-06T00:27Z,"Or use google and keysearch for things.
+I wont give forums and direct links out here open because they started to be fast to kill the sources of the software the last weeks."
+,Jon Doh,2007-06-06T11:28Z,"@Hugin
+Du verkar ju väldigt kunnig och hjälpsam.. har du lust att kolla på min fråga sisådär 10 inlägg uppåt? vore jättesnällt =)"
+,hugin,2007-06-06T15:02Z,"@John Doe
+Vanligtvis för att få 2007.1 kartorna att funka behöver man köra med DEMO IGO all region crackad databas. Kan va så att du kör en enhet som har rätt license fil om du inte behöver decoda kartorna.
+
+Jag har miomap på SD kort tillsammans med lite andra applikationer och kartorna har jag lagt på hårdisken.
+
+Men i mappen maps kan man lägga kartorna med om man känner för det.
+
+Vet inte om det va det du sökte svar på."
+,hugin,2007-06-06T15:03Z,"@sundaysailor
+
+Är du på irc något ?
+Går ju inte skicka pm här verkar det som :("
+,Prtskovic,2007-06-06T19:07Z,"Tjenna Gubbar!
+
+Först, tackar för en kanontorrent!
+
+Jag har två små frågor bara, det kanske är lite off topic men jag gör ett försök ändå.
+
+Ni som har Mio269 (eller har kännedom om saken):
+
+Får ni in någon TMC satellit utan att ha någon extern ""antenn"" inkopplad?
+Jag kör med V2 utan någon antenn inkopplad och jag får inte in någon TMC signal, kan det vara min GPS som är kass eller är det inget ovanligt?
+
+Undrar även om det på något sätt går att söka på kordinater istället för adress o.s.v?
+Jag har inte hittat någon sådan funktion i V2, kanske det går i V3?
+
+Ha det bäst, och god fortsättning på nationaldagen! :)"
+,hugin,2007-06-06T23:52Z,"@prtskovic
+Mio 269 som jag har finns ingen TMC antenn i så den funkar TMC inte på utan extern antenn.
+Vet att det kom en rom uppdatering för mio 268/269 plus och vanliga modellerna för TMC dock, men som sagt vanliga 269 utan + har ingen TMC antenn i sig.
+
+Miomap V3 och uppåt har en knapp som heter koordinat när man går in i menyn från kartan där kan man skriva in Long och Lat, själv har jag inte använt mig av den funktionen men reflekterat på att den finns där."
+,[HUN]Csabesz,2007-06-07T13:44Z,"Hello! Is it works with mio C520 PNA?
+Somebody can help me?"
+,Prtskovic,2007-06-07T15:23Z,"Hugin, tackar för dina svar! :)
+
+Gud va komplicerat det verkar med V3 uppdatering och upplåsning och skit.
+Men om jag har fattat allt rätt så måste jag först ta och köpa mig ett SD-kort på minst 1GB för att det ens skall funka."
+,Jon Doh,2007-06-07T20:00Z,"@hugin 
+näe jag blev inte så mycket klokare tyvärr.  Jag kanske förklarade dåligt men jag har ju ett 512mb flashminne i min c210, och på det ligger själva miomap v3-programmet och kartor över en region (norden för tillfället) och MRE. 
+Men om jag ska lägga in fler kartor på ett minneskort, alltså bara flb-filerna, måste dom då ligga i en mapp som heter något särskillt?
+
+stort tack för att du engagerar i att hjälpa så mycket folk här! =)"
+,hugin,2007-06-07T22:10Z,"@Prtskovic
+Nä det räcker med 512 mb om du vill bara att du inte kan ha alla kartorna då utan får ta bort oaktuella kartor.
+
+Själv har jag 512 Mb SD kort i min enhet. Förvisso har jag lagt kartorna på mios hårdisk då."
+,hugin,2007-06-07T23:06Z,"@Prtskovic
+Jag har miomap v3 på 512 MB SD fast kartorna ligger på hårdisken. Alternativt behöver man inte ha med alla kartor bara fylla upp med dom viktiga man verkligen behöver."
+,hugin,2007-06-07T23:09Z,"@Jon Doh
+
+från http://mio.digiwalker.googlepages.com/
+
+Where and how to store new maps
+In order for extra maps to work on your device you have to copy them in one of the following directories:
+
+ \Storage Card\MIOMAP\MAPS\     (storage card = sd card)
+
+ \Storage Card\MAPS\
+
+\Storage Card\IGO\MAPS\
+
+\My Flash Disk\MIOMAP\MIOMAP\MAPS  (My flash disk = internal flash hard drive) 
+
+Of course you can also copy your maps directly on a sd card using a sd card reader.  Just make sure to make the correct directory first.
+
+After copying do a softreset and off you go.
+"
+,sundaysailor,2007-06-07T23:15Z,"@ hugin
+
+Ne tyvärr. Men man kan ju alltid gå med!
+"
+,hugin,2007-06-07T23:17Z,"@sundaysailor
+jo har du vägarna förbi abjects.net så har jag nick huggo. kunde xdcc:a något till dig där och dela med dig av. ;)"
+,sundaysailor,2007-06-07T23:25Z,"@hugin
+
+xdcc:a? vad betyder detta?
+
+Låter för övrigt som en bra ide!"
+,hugin,2007-06-07T23:36Z,"@sundaysailor
+Xdcc är kanske fel DCC är bättre det är filöverföring. jag sysslar inte med torrents själv nämligen, utom i nödvärn hehe."
+,sundaysailor,2007-06-07T23:38Z,"@hugin
+
+Okej!
+
+hur blir man medlem också vidare?
+
+vore jävligt ballt!"
+,hugin,2007-06-07T23:48Z,"@sundaysailor
+internet relay chat det är inte tvunget va medlemm på men det är bökigt om man inte varit där förr då det är text baserat.
+
+Annars kan du ge mig epost så drar jag iväg ett mail."
+,sundaysailor,2007-06-07T23:54Z,"@hugin
+
+matte_mattias_87 at hotmail dot com
+
+förresten sitter och pillar med miotransferhack 
+
+hur gör man? den frågar efter mut.dll 
+var hittar jag denna?
+
+Du kanske har lösningen!
+
+Tack på förhand!
+
+MVH Sundaysailor"
+,hugin,2007-06-08T00:00Z,"@sundaysailor
+Nope sorry har även haft det problemet själv men gav upp med det. fast det var för mioupdate jag hadde det problemet iofs"
+,Evlija,2007-06-08T20:29Z,"Jag har MIO 269 och har miomap V2 och vill lägga in miomap V3 men då måste jag upplåsa MIO. Kartorna tänkte jag sätta i MIO-s hårddisk och miomap på 512 SD kort.
+
+Hur låser man upp MIOn lättast och går det att ha kartorna på disken och miomap på SD kortet?
+
+"
+,hugin,2007-06-08T20:48Z,"@Evlija
+Finns en bra länk för att modda så du kommer åt winCe här som sundaysailor skapat.
+
+http://thepiratebay.org/tor/3705754/Unlocking_mio_268_-269_
+
+Själv använde jag mig av det första sättet och låsa upp på och det är bökigare än nyare generationers metoder.
+
+Ja jag har miomap v3 på SD och mina kartor på hårdisken så det går.
+"
+,Evlija,2007-06-11T06:22Z,"Nu har jag låst upp min miio 269, men nu har jag lite problem att linka den med PC. Activesync funkar inte??"
+,hugin,2007-06-11T16:14Z,"@Evlija.
+
+För att köra active synk gå in på kontroll panelen i mio och välj pc connection tryck på knappen change connection välj usb default och tryck sen ok.
+
+Starta upp active synk på din PC och sedan kör du resett på sidan av mio 26x enheten och pluggar i usb kabeln direkt efter.
+
+När mio sedan startar upp ska active synk på pc'n hitta din mio enhet.."
+,Evlija,2007-06-12T06:34Z,Jag fattar ingenting. Jag gjorde precis som du sa och försökte på andra sätt men Pc connection funkar inte med min MIO269
+,hugin,2007-06-12T07:20Z,"@Evlija
+Ok då är det något annat vajj i din enhet.
+Själv har jag installerat nico85activesync.cab på min mio och i datorn installerat Microsoft active sync V4.5.0 men körde mycket tidigare version av microsoft active synk tidigare.
+
+har inte gett mig några bekymmer ännu med activesync och tillvägagång sättet jag nämde.
+
+Kika på www.gpspassion.com och se om du kan hitta var felet ligger för din del."
+,Evlija,2007-06-12T17:08Z,Hur tar man bort det gamla miomap programmet från hårdisken i MIO?
+,hugin,2007-06-12T18:47Z,"@Evlija
+Jag tog bort dom manuellt. Inte alla filerna dock utan bara dom som va störst. Även mioshell ifrån windows mappen, fast man får då ta bort skrivskyddet på den filen först. Dom kommer även tillbaka om du gör stänger av enheten och slår på den igen. kartorna i map format är bara deleta."
+,Evlija,2007-06-13T19:29Z,"Nu funkar allt för mig. Men vill veta vad är skilnaden på V3 och V3,2? Efter många sökningar så hittade jag miomapdecode.exe men vet inte hur man ska gå till väga när man ska decoda mappar från 2007?
+Kan man instalera nyare operativsystem i MIOn??"
+,hugin,2007-06-13T23:51Z,"@Evlija
+
+Nyare os kan du inte installera i och med att det har med den rom uppgradering du får från mitac och göra.
+
+Finns skillnader mellan miomap v3 , V3.2 och V3.3 svar ja. 
+
+miomapdecode använder man med komandot
+
+miomapdecode.exe  
+
+ex
+
+miomapdecode I:\sweden.fbl I:\"
+,Evlija,2007-06-14T06:13Z,Men om jag uppgraderar till senaste ROM från mitac kommer jag kunna använda mig av IGOs mappar??
+,hugin,2007-06-14T17:43Z,"@Evlija
+
+Ja du kan använda enheten presis som nu.
+Sen kan man ju argumentera om hurvida det ger några fördelar eller ej. klart jag upptäckte man kunde köra miomap utan gaphi for hpc med nya rom samt att man fick ett tangentbord som va bra. Annars vet jag inte om det är nån större skillnad."
+,Evlija,2007-06-14T23:25Z,"@Hugin
+Jgg undrar om dom här kartorna funkar med Miomap V3?
+Eller har du V3,2??
+http://mooshikam.mio-tech.be/updates/miomapc320c520/maps/"
+,hugin,2007-06-14T23:49Z,"@Evlija
+
+Ja dom kartorna funkar med V3.2"
+,hugin,2007-06-14T23:50Z,"@Evlija
+
+Ja dom kartorna funkar för 3.2"
+,hugin,2007-06-15T01:02Z,"@evilja
+Jo jag kör 3.2"
+,ZoNe_dk,2007-06-17T11:34Z,"Nice.....thx M8 waiting 4 it a long time now ^^
+
+
+ZoNe"
+,AnelkaSweden,2007-06-30T03:44Z,"Tja!
+
+Funkar kartorna på en MIO C710??
+
+Mvh:
+F.B"
+,backside,2007-07-01T17:56Z,"Tack uploader för denna!
+
+Går det att köra både V2 och V3? V2 från hårddisken och V3-an från kortet? Jag har testat V3 nu och är inte helt imponerad av vad den hittar och inte hittar. Det skulle därför vara intressant att ha bägge versionerna. 
+
+Hur gör man? "
+,B.Mulf,2007-07-04T16:07Z,"Hey Is there anyone there can post the Mio A701 driver cd there comes with the packaged.... have thrown my away,,, need the win driver"
+,kalauz,2007-07-15T09:40Z,"Hej!! Jag har MIO 269 o har provat allt utan att lyckats har laddat dom kartor o patch men tyvär MIO 269 svara inte startar fortfarande med V.2 oavset att jag har kört pacht sen har jag provat att låsa upp den men på den DVD skiva med orginal program V.2 finns inte custom.cab fil sa jag e inte klok alls imatt om man har kört patch o MIO har svarat att patching är OK den borde starta med V.3 inte med V.2 jag ber er om hjälp om någon vet hur kan man lösa detta skulle vara jätte tacksamt.
+Min e-mail
+nove@limmared.com
+
+Tackar för hand för all svar "
+,SaKiS_71,2007-07-24T11:45Z,"Hej, Jag har Mio 269 och har provat allt utan att lyckats har laddat dom kartor och patch men tyvär Mio 269 svara inte,
+startar fortfarande med V.2 oavset att jag har kört pacht,
+jag ber er om hjälp om någon vet hur kan man lösa detta skulle vara jätte tacksamt, om man kan få lite bilder(screenshot)hur man gör.
+
+Min e-mail, msalkic@msn.com 
+"
+,divers,2007-09-05T20:01Z,"När jag lagt in alla filer på minneskortet och startar gpsen blir det att stå: unable to open application databas.............Vad är felet då? Jag har algt in alla filer i map som heter MIOMAP
+
+MvH Andreas"
+,timbac,2007-11-10T17:40Z,is there anyone that knows if this works on a C710??
+,paul0987,2008-06-14T18:01Z,How do I get this to run on my 269+
+,krilleha,2008-07-08T10:09Z,någon som vet om det finns mio c220 kartor att ladda 
+,tovi7777,2008-07-10T23:41Z,Funkar denna på c220 ?
+,ABAS_08,2008-09-21T21:38Z,snälla snälla hjälp! ja har en mio moov 330! men den har fan inte alla gator som man vill ha! jätte jobbigt... finns de nån uppdatering som ja kan fixa så ja få de till min nav? plzzz
+,Disorder84,2008-11-04T13:47Z,"Kan nogen hjælpe? hvordan for man gps´en til af tage det man har liggende på sd-kortet?
+har prøvet med et par af de versioner der ligger her på piratebay men den starter op fra HD hver gang. har opdateret de forskellige ting inden."

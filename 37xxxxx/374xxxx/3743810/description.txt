@@ -1,0 +1,9 @@
+This update fixes a secondary effect that 3.51 wlan.prx caused in 1.50 wlan.prx,
+which made wlan homebrew not to work.
+
+Ths issue was caused by sony code of 3.51 wlan.prx, and not by M33 code.
+It doesn't happen replacing 3.51 wlan.prx with 3.40 one.
+
+- M33 Team
+
+Just copy the eboot.pbp in /PSP/GAME150/ and enjoy...

@@ -1,0 +1,164 @@
+﻿User Type,Username,Date,Text
+,aussiefemale,2007-08-12T14:59Z,"I followed the instructions, but when it got to installing usbfilter_install.inf, it comes up with error ""the file does not support this method of installation"". The software will not run, comes up with error ""Security device not found""
+Any ideas on how to fix problem?"
+,HPDrifter2,2007-11-16T13:50Z,"I got the same error ""the file does not support this method of installation"", when trying this on Vista. I then tried it on XP Pro SP2 and it works  fine. The instructions are a bit messy. I will post my routine for installing after I do it from scratch again just to make sure."
+,HPDrifter2,2007-11-18T05:49Z,"WILCOM 2006 With SP2 INSTALL
+============================
+
+
+1. Install WILCOM 2006 (Wilcom 2006+crack_emulator\Wilcom2006 WORK\Setup.exe), you have to reboot
+   and upon startup it asks you to install your red usb dongle, just vlivk 'Cancel' then 'exit' from this.
+
+2. Now install SERVICE PACK 2 (Wilcom 2006+crack_emulator\Wilcom 2006 SP2\Wilcom 2006 SP2\WilcomESServicePack2.exe)
+   and reboot as required.
+
+3. Go To 'VIRTUALHASPUSB' FOLDER AND FIRST RUN 'WILCOM.REG' AND THEN 'INSTALL.BAT'
+   (WHEN RUN 'INSTALL.BAT' NEW HARDWARE INSTALLATION FOR HASP USB KEY WILL START, just click 'ok'.
+
+4. AFTER FINISH HASP KEY GO TO 'USBFILTER' FOLDER AND RIGHT CLICK ON 'USBFILTER_INSTALL.INF' AND CLICK INSTALL
+   (IT WILL ASK YOU TO RESTART YOUR COMPUTER AND DO SO)
+
+5. go to 'Serial Reader' Folder
+
+
+6. First Run 'Serial Reader.exe' and click on 'install Emulator' button.
+
+
+7. After that click on 'Get & Save Lock IDs' File.
+
+
+8. It will ask you to save the file.
+
+
+9. Save it naming it 'Lock.ID'. I just saved it to the desktop, anywhere will do.
+
+
+10. Now Close the 'Serial Reader.exe' and run the 'uninstall.reg' to uninstall emulator.
+
+
+11. Go to 'Keygen' folder
+
+
+12. run 'TOROActivatorGenerator.exe' and click the 'Generate for Wilxom 2006' button
+    It will ask for the 'Lock.ID' file you just created in step 9. The 'Browse for Folder' window pops up, I let 
+    it go to Desktop again. It takes a while to do its magic. But it will create a file called 'TORO_57FD245C.hasp' 
+
+
+13. COPY/move the file 'TORO_57FD245C.hasp' just created TO C:\WINDOWS\SYSTEM32
+
+
+14. RUN WILCOM 2006 ...ENJOY
+
+
+(NOTE: WILCOM WILL ONLY WORK ON THE PC THAT HAS GENERATED SERIAL FOR)
+(Note: This only Tested successfully for WinXP Pro SP2, wouldn't work on Vista)
+
+"
+,choosy,2008-01-06T15:53Z,Don't touch this it has a Virus in TORO
+,evilseric,2008-01-13T02:16Z,Has anyone verified this Virus?  Or is it overzealous antivirus software?  
+,cyborg2000,2008-01-15T14:27Z,Can you make a crack available without the wilcom installation files. I have Wilcom running on Vista and would like to try the emulator on it.
+,choosy,2008-01-19T16:31Z,I want this to work so much that I turned off my anti virus software to get the Toroactivator generator.exe to work BUT it won't let me run it - it says acess denied - Any ideas anybody?
+,adxxo,2008-01-24T08:08Z,does anyone know if it really is a virus
+,cyborg2000,2008-01-26T21:37Z,'TOROActivatorGenerator.exe' appears to be infected with something of impure intentions :-(
+,IOError,2008-02-06T12:16Z,"Many time cracks and keygens that are made to remove hardware dongles will look like they have virus like activity. 
+
+Just grab a test hard drive install it with no antivirus running and then take that drive and scan it with another computer after you delete the crack file ""TOROActivatorGenerator.exe"" which I assume you can remove once you finished with it and then see if it leaves any bad things on your hard drive. If you find bad things then yes it has a virus but virus like activity from a dongle crack is common the earliest cracks for dongles that went into serial ports had some pretty heavy modifications that need to be made and then they had to point the program to read something like an ethernet card to perform a loop back to allow the software to think it was talking to a dongle even when it wasn't.
+
+It is obvious by HPDrifter2's comments that it can be installed and until someone runs a virus check after the creation of the unlock keys and deletion of the crack will we actually know if it is a REAL virus.
+
+:)
+
+Thanks for the share either way. Very rare to see this sort of thing lurking on the torrent community. Nice work."
+,IOError,2008-02-06T12:19Z,And if you are going to say it has a virus please advise on what the AV software you used actually said about it and what AV software you have running that made the alert. :)
+,thirdeyeparabellum,2008-02-08T08:27Z,"Thanks HPDrifter2, worked fine in WinXP SP2.
+
+AVG gives a false positive on the TORO exe, just turn off the 'resident shield' if you're using AVG and try to run it again."
+,cyborg2000,2008-02-11T10:58Z,Has anybody got this application running properly? I got wilcom open but can't do anything with it. I get a message stating that there is not enough memory to complete the operation whenever I select a tool. I have tried this on 2 winxp pc's and get the same result on both. If I install service pack 3 it asks for a security device.  :-( Any ideas?
+,jbjoaopinheiro,2008-02-15T18:29Z,"hi there!
+i want to read the torrent of wilcom 2006 in my computer.
+how can i do it?"
+,demonoidbuster0,2008-03-01T01:35Z,"Alright I tried this but the prog was booting horribly slow on the XP pro sp1. Took almost 5 min. Am I the only one experiecning this?
+
+Thirdeyeparabellum, how yours running so far? 
+IOerror, is your opinion based on you running wilcom on your pc? 
+
+This has been asked many times over the internet. Has anyone tried on the Vista or willing to try on the Vista? I just don't have any Vista running PC available. So please answer the question if its running or not running."
+,choosy,2008-03-03T10:54Z,I've tried it on Vista - doesn't work!
+,cyborg2000,2008-03-11T14:48Z,"OK, This does absolutly not run on Vista. The USB Filter drivers load differntly and won't install on Vista. Runs beautifully on XPsp2. It's pretty quick on my Athlon X2 but loading takes about 8 mins on my Celeron laptop. Restart the PC after installing to avoid the message that says you dont have enough memory."
+,Casper1945,2008-04-01T04:06Z,"I have a version of this from another source and have been using it for several months.
+
+A few comments.
+
+After following BLADE8209 revised install directions after number 13 you still have to go to the original directions and continue from number 2.
+
+Toro IS NOT a virus but some virus protection programs it appears as one.
+
+The one big mistake user make while installing is in the original directions step 4. You must right click and click INSTALL, not run.
+
+I also had a problem after running Service Pack 3 and I think there is an upgrade for Vista, but I think the folks at Wilcom know about this crack version and made the upgrade make the crack version inoperatable.
+
+I also have several embroidery collections such as Dakota Collectibles 2002-2006 but nothing newer. anyone have the new collections?"
+,amyme81,2008-04-23T19:49Z,i installed it on my friend's PC. now whenever he's running the application he cant use any tool as message is showing not enought memory to run the application. any idea what to do? i suggested him to restart the PC altho i didnt do that after installing. any idea what to do?
+,amyme81,2008-04-23T19:50Z,"He also complains that it's running so slow. 
+
+still cant use any tool to work"
+,triton084,2008-05-28T01:29Z,"hey, i installed this program with no problem thx to HPdrifter2, but now i get this anoying error sounds, from time to time, no warning window or anything shows just de sound.
+I got nod32 AV but i turn it off to install.. a friend of my think is the register change, any know what can i do? or how to contact HPdrifter2-?"
+,wrongtoothbrush,2008-06-28T09:40Z,HPDrifter2 is a legend!
+,BLADE8209,2008-07-03T09:28Z,"Hello,  After installing the program, I do back up its program to another part of the disc, and when the program gave an error I just replace files on my old and departs without any problems."
+,kazablnka,2008-08-27T00:46Z,i have wilcom 2006 sp3 any body have crack fo sp3 service
+,JoJoey,2008-09-28T23:53Z,"Hi.. To all the ones who are commenting on here about the troubles with this software.. Guys!.. before you come up with such questions..you SHOULD first read the comments on here, you might find them really helpful. First, wilcom 2006 will only install on Windows XP SP2. It wont work on pc's with SP3... For better performance make sure your system meets the software requirements... that is it..
+The Wilcom ES 2006 wasnt made originally to run on vista, however I just learned that wilcom folks  released  SP4 for it... the pack is available on the web, but I havent tried yet.. i assume as someone else already said it.. It might come with something that will screw up this piece of art.. Good luck!   "
+,Priv1234,2008-12-21T10:24Z,"Do anyone out there know of a link to a working copy of TOROActivatorGenerator or can you guys tell me what I'm doing wrong, 'cause mine keeps telling me ""You may not have the appropriate permisions to access the item"". I'm using XP Home SP2. 
+
+HPDrifter2 you seem to know everything there is to know aout this app, so please help!
+
+Help in this regard will be sincerely appreciated."
+,keroppifrog,2008-12-31T00:50Z,"Priv1234, and others...
+AVG was not letting me run TORO, so i underinstalled avg, and toro worked perfectly....
+Follow HPDrifter2's instructions, and this install works perfectly, seemingly bug free so far...
+
+I've also uploaded to my emb machine using this program and serial cable.. kickass!!"
+,mike_kieu,2009-02-07T04:30Z,"i use XP pro sp2. when i ran file setup.exe , i got a message "".../setup.exe is not a valid win32 application"" . please hlp  me run it"
+,keroppifrog,2009-03-02T04:02Z,"by the way - thanks HPDrifter...  your instructions work perfectly, much apreciated.."
+,kazablnka,2009-03-05T00:48Z,i installed it on my friend's PC. now whenever he's running the application he cant use any tool as message is showing not enought memory to run the application. any idea what to do? i suggested him to restart the PC altho i didnt do that after installing. any idea what to do? 
+,vkfleus,2009-03-13T17:03Z,????? ??????? ?????????! ????????? ?? ?????????????? ??????????? ???????.
+,vkfleus,2009-03-13T17:06Z,?????????? ??? ??????? ????????? Wilcom 2006 + crack.
+,juggles420til187,2009-04-08T23:53Z,"Hey Blade, how the hell do I send you the zipped file to get the emu???"
+,Phazzed,2009-04-15T07:49Z,"I run Vista and it seems that there is no hope for me but I found this. Can anyone give it a try and get back to me on that. If you can that would be great!
+
+http://www.esnips.com/doc/f600e20b-d6aa-4ad7-a6f2-56a6c6dd2c3c/Wilcom-2006-Emulator-Working-on-Vista
+
+Aparently it is a Vista Emulator for Wilcom 2006. I want to use this program so bad so my dad can be proud of me for once (he is in the embroidery business).
+
+Thanks in Advanced!"
+,k12haw,2009-04-22T10:56Z,wer do i send the zip file?  
+,sumisilver,2009-04-23T19:28Z,"Does anyone know what I'm doing wrong?
+This is the second time I've install Wilcom the first time work perfect now I'm having trouble Install.bat (WHEN RUN INSTALL.BAT NEW HARDWARE INSTALLATION FOR HASP USB KEY WILL START)That window doesn't open it's just the command prompt window and nothing happens
+Thanks for your help!!"
+,kokyluis,2009-08-07T08:00Z,"Hello, I have a question, I installed wilcom 2006 on XP sp 2 running by VMWare on mac, on virtual hd, run ok the first time, but when I restart ,  then not run and have to install the usbfilter again, then work again.. but doing this several times, stop to work and have to reinstall full wilcom again...."
+,Peter_Munster,2009-12-09T12:18Z,Has anybody heard of any of the later versions being cracked ?
+,KOJAX69,2009-12-15T08:40Z,"Thanks, Works great!!!!!! "
+,freshwater1433,2010-01-06T08:48Z,"@Peter_Munster, I have SP4. Emulator works the same way (with a few updated files). Stitching quality is slightly better than SP2 and it works on Windows 7 x86 (32 bit).
+
+I will share if anyone can hook me up with Tajima X3."
+,Peter_Munster,2010-01-16T23:53Z,"Hi Freshwater1433, how about putting it up on here then I could use it. Thanks."
+,platinmg,2010-02-20T14:38Z,"I used HPDrifter2's instructions and reached untill i reached the part of running TOROActivatorGenerator.exe. A black widow opened with a few commands and disapeared without anything happening. So I went into the properties of TORO and copied the cmd line. i opened a new cmd and pasted it there and gave the error memory too low.
+
+I am using win XP sP2 with RAM of 512 mb. I really need help because im new to all this so please could someone help me, i want to impress my dad. THANKING YOU IN ADVANCE.
+
+could someone please inform me if wilcom e1.5 has been cracked"
+,morphonius_821,2010-08-11T02:33Z,"I tried a version of 2006 once (perhaps not this one) and it ran so painfully slow I could not bare to use it... V9 is out there and there  is not any significant differences really (as far as im concerned)
+You should consider it....(if its still available)
+Also as a side note i found after a while (perhaps due to system updates etc) that V9 became harder to get working and that (perplexedly) that intalling 2006 (without bothering to crack it) then installing V9 make V9 work! perhaps some registry entries ETC...
+
+P.S dont use 2006 unless you have a wide screen monitor and a fast PC!!!!!"
+,morphonius_821,2010-08-11T02:40Z,P.S v9 is XP only i think (no vista or win7 ETC) and it will not run under Xp emulation
+,crackslab,2010-11-20T16:51Z,hi
+,clownman2005,2011-01-28T05:28Z,as soon as i started downloading this it found two trojans on it!
+,EmbGirl,2011-04-05T19:30Z,"Loaded and worked... until I tried to save a design.  It gave me a generic write error.  Tried to save to the pc and it said there wasn't enough memory.  Not possible.. I7 with only operating system on it.
+
+Any ideas?
+
+Thanks!"
+,abobody,2012-02-28T19:05Z,thanks

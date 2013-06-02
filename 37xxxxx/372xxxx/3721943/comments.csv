@@ -1,0 +1,82 @@
+﻿User Type,Username,Date,Text
+,ursak,2007-06-23T20:04Z,If there is noone to seed its because those that have downloaded the files dont seed them and I had something else I needed the bandwidth for. I promise you that if that is the case I'll start seed again as soon as I'm done with whatever I needed to do first :)
+,ursak,2007-07-27T22:55Z,"I'm still seeding, just not 24/, have to play WoW to :P"
+,profetamaomeno,2007-08-30T15:37Z,I've got the same problem than watsonjoshd. can you give me some help??
+,ursak,2007-09-10T09:54Z,"I guess you mean that the download is stuck at some level? Cause whatever problem he had, he solved, and I don't really know what the problem was because this game works :)
+
+But I'm seeding, right now. :)"
+,profetamaomeno,2007-09-13T04:15Z,"I mean I have downloaded the entire archive, but I don`t know how to install it. in the game folder, there`s a cue and a bin file. how do I use the game? with SCUMMVM, as the other guy told? I tried, but it didn`t work out."
+,ursak,2007-09-15T20:52Z,"Ah, well... The .cue file really is just a small infofile about the .bin file. 
+
+The .bin file is a full copy of the CD. Also called an ""image"". Within the .bin file is all info from the cd.
+
+When you copy all the files from a cd to a folder on the hd, thats all you get. The files. But when u do a full CD image, you get all the ""invisible"" information from the cd to. This way it will be sure to work just as the original cd.
+
+To make this cd work you need to either burn it with a cd-bruning software (like nero, alcohol 120% etc.) or download an install an virtual cd-rom program that ""pretends"" to be a real cd-rom and uses the info in the .cue file to read the .bin file as a real cd.
+
+So. Either burn it by using ""burn image to cd"" in Nero or som equal program. Or download daemon tools (http://www.daemon-tools.cc/dtcc/announcements.php) and ""mount"" the binfile.
+
+If you plan to use the cd to play in scummwm, I suggest you download and install daemon tools. Read ther faq on how to mount the cd image and then read the faq on scummwm's site on how to proceed.
+
+I found out by a quick check that the files needed from the cd to make it work in scumm are:
+
+    * VIDEO folder
+    * DIG.LA0
+    * DIG.LA1
+    * DIGMUSIC.BUN
+    * DIGVOICE.BUN
+    * LANGUAGE.BND (Non-English versions) 
+
+Hope this helps. :)"
+,ursak,2007-09-21T10:05Z,"Since my computer broke down, I'm not seeding anymore. :("
+,arnearj,2007-10-23T19:49Z,"I got it running, (using DAEMON tools) but I can´t make the sound work. I can´t even find any soundcards to choose from in the setup.
+
+Anyone who knows how to solve this?
+Is there no sound at all? There should be since this is an ""image""-file, right?
+HILFE!"
+,ursak,2007-10-29T01:13Z,"To make the sound work in XP u need to ""emulate"" it with and sound emulator, like vdmsound, found here: http://sourceforge.net/projects/vdmsound/"
+,mixberg,2008-01-16T19:02Z,Hur gör man för att spara där man slutar spela.Någon som vet.???
+,ursak,2008-02-08T19:35Z,"MInns inte, men testa F5, brukar vara det på Lucasarts spel.-.."
+,jamesfadden,2008-04-14T00:07Z,"Ok, I am pretty new to this. You all say PLEASE SEED. What does it mean? I know that files with more seeds mean easier to download, but how do _I_ seed? And what does Leechers mean?"
+,kokola,2008-05-12T13:09Z,"Seed = Whom that open for other to download from your PC. In the torrent software, when you download 100% do not pause or stop the task let's keep going to share for other. For me, I'll keep going at least 8 hours/500MB torrent.
+
+Leecher/peers = Whom that downloading that torrent.
+
+sory for my English"
+,SleazyLizards,2009-01-07T00:47Z,The Sound doesn't work. I've downloaded that vdmsound-file but I don't have a clue what I'm supposed to do with it. This is really annoying. 
+,ursak,2009-04-21T05:19Z,"Download DosBox or even better, download D-fend Reloaded. 
+
+Just google on ""d-fend reloaded"" and you'll find it. It's a frontend to dosbox that makes running old games alot easier, plus gives you some extra features. It inkludes Dosbox so you don't need to download that separately.
+
+Just read their help."
+,Tol1as,2011-09-10T11:16Z,"I managed to run The Dig with DosBox on Windows 7
+
+Here's how you do it:
+
+(requires Daemon tools or Alcohol & DosBox)
+
+â–  Using Daemon Tools mount the cue file to a drive, for example F:
+
+â–  Create a folder in you hard disk and name it whatever (for example, C:\Oldgames)
+
+â–  Copy the Dig directory from the mounted image (F: in our example) to the folder you created (so it should be C:\Oldgames\Dig)
+
+â–  Run DosBox
+
+â–  (in DosBox) Type mount c: c:\oldgames (enter)
+
+â–  Type mount f: f:\
+
+â–  Type f: 
+
+â–  Type dig (enter)
+
+â–  Voila!
+
+And that should do it. On the configuration menu just hit play, sound should work fine (DosBox provides an emulated Sound Blaster). If sound doesn't work, play around with the  settings.
+
+What this whole thing does, is fool the system into thinking you're playing with the ""cd"" inside, that's why you need to mount both a HD & the CD drive in DosBox.
+
+If you don't know how daemon tools/dos box work, google it - they're both pretty simple to use."
+,turq_hex,2011-12-20T04:42Z,Worked perfectly... using a windows 7
+,c6burns,2012-07-12T10:14Z,At this point I would recommend running the game in scummvm instead of dosbox. It's easier :D Thanks for the torrent!

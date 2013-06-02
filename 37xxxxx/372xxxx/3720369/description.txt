@@ -1,0 +1,7 @@
+I needed this for a web application I was developing and had difficulty finding it, so I am seeding for other programmers out there. It is a complete United States geographical database from 1999, containing 42,122 locations. It has the following fields:
+
+geoCity, geoState, geoZip, geoAreacode, geoLAT, geoLON, geoCounty, geoTZ, geoDST, geoDMA, geoType, geoContinental, geoCountry, geoLATD, geoLOND
+
+For example, you can use it to get the city and state from a zip code, or determine the distance between two locations.
+
+This torrent contains the same file in three different formats: CSV, SQL and XML.

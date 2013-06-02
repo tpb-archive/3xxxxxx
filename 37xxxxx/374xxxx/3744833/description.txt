@@ -1,0 +1,48 @@
+After its enourmous success on the market V-Ray has become the renderer of choice in big production studios accross the world. Feature film productions, multi-million dollar game productions, huge and small architectual visualizations have trusted their visuals to V-Ray. Wouldn't you too?
+V-Ray has become a benchmark for speed used by many hardware vendors and other renderer developers to test against. Richest set of features, cost-effective and production-ready
+
+
+I. Architecture
+(*) Object-oriented API
+(*) Fully multithreaded
+(*) Unified quasi-Monte Carlo sampling system
+(*) Distributed rendering
+(*) Efficient shading system specifically optimized for ray-tracing 	II. Geometry
+(*) Efficient geometry handling
+(*) On-demand geometry creation
+(*) On-demand geometry loading from disk files
+(*) Displacement mapping
+(*) Catmull-Clark and Loop subdivision surfaces
+(*) Extensible with custom geometric primitives through the V-Ray SDK
+
+III. Image sampling
+(*) Different sampling methods.
+(*) Full-scene antialiasing.
+(*) Progressive path tracing.
+(*) Support for additional render elements (diffuse, reflection, GI etc). 	IV. Illumination
+(*) Physically accurate full global illumination solutions
+(*) Different GI algorithms: path tracing, irradiance cache, photon maps, light cache.
+(*) Reusable GI solutins for accelerated rendering of walk-through animations.
+(*) Physically accurate area lights.
+(*) Extensible with custom lights through the V-Ray SDK.
+
+V. Shaders
+(*) Advanced material
+(*) Blurry reflections/refractions
+(*) Accurate hilights
+(*) Sub-surface scattering
+(*) Extensible with custom shaders through the V-Ray SDK 	VI. Camera effects
+(*) Depth-of-field with bokeh effects
+(*) Accurate motion blur
+(*) Extensible with custom cameras through the V-Ray SDK
+
+VII. Extras
+(*) Toon effect
+(*) Fur generator
+(*) Extended matte/shadow capabilities
+(*) Support for Render-to-Texture mode of 3dsmax 	VIII. Frame buffer
+(*) V-Ray specific frame buffer with integrated color corrections and display of multiple rendering elements.
+(*) Direct rendering to disk for extremely large images. Rendered images can be converted to OpenEXR files or imported back into 3dsmax.
+
+
+Happy Holidays - eZfileZ

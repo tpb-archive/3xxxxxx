@@ -1,0 +1,61 @@
+﻿User Type,Username,Date,Text
+,neobb,2007-06-16T14:04Z,Download. It works !!!!! ;)
+,milo rambaldi,2007-06-16T14:39Z,"It works :)
+
+trojan = 0
+                             lol
+virus = 0
+"
+,neobb,2007-06-16T14:59Z,please leave a comment (:
+,Todde@Swe,2007-06-16T15:02Z,Some screenshots or a serious reference maybe... 
+,ericcarr,2007-06-16T15:10Z,I downloaded this once before and it was only 60MB. 
+,neobb,2007-06-16T15:23Z,ericcarr that was the xp Edition. the is the vista Edition
+,milo rambaldi,2007-06-16T16:09Z,"Extract the stuff. Run the file ""LiveXP.bat"" from the place where you extracted the files. Type in ""1"" and enter the path of the INSTALLDIR (eg. C:\Downloads\Windows.XP.USB.St... Press enter. Then type in 2, press enter, and then type the location of your USB Drive. Press enter and after a few minutes the installation is then finished. Now go to your BIOS screen by pressing Del when your computer starts and change the BOOT sequence. Removable Drive or something like that must be on the top of the list. Save Changes and Exit. Next time you boot your computer with the USB stick present in the USB port, you will be taken to the pen drive windows Vista edition"
+,tallviking,2007-06-16T21:46Z,"How come then that the files are all from 2004 and 2005 inside ???
+
+Piece of shit !"
+,FatJoe junior,2007-07-15T14:35Z,Is this working or just piece of shit?
+,charliepan,2007-07-17T17:14Z,"I'm very curious... gonna try it.
+Anyone know if you can have the XP and the Vista version on the same stick??
+
+I will comment back with my findings"
+,slidfis,2007-07-24T00:02Z,Seems like a classic trojan setup. Uploader and one a bit too helpful associate. 
+,xaiprojectcstatic,2007-08-03T00:43Z,"""ericcarr that was the xp Edition. the is the vista Edition""
+
+Yeah, because it's just the XP edition packed twice in one archive"
+,eggysplat,2008-01-21T03:32Z,""" ""ericcarr that was the xp Edition. the is the vista Edition""
+
+Yeah, because it's just the XP edition packed twice in one archive""
+
+I thought this comment was a comical joke at first... just looked at the download and, indeed the archive contains 2 folders: 
+
+Vista (usb)
+Vista usb
+
+Both of which have the identical BartPE XP USB Edition.
+
+Waste of time!"
+,DeadZedz,2008-01-30T14:56Z,"Vista live version for usb is here http://thepiratebay.org/tor/3661881/VistaPE_-_Windows_Vista_Bootable_off_CD
+instructions how to create bootable usb http://www.boot-land.net/forums/index.php?showtopic=1123&st=10
+
+Your flash drive needs to be plugged in with the Vista OS running.
+Go to the command prompt and type ""diskpart"".
+Type ""list disk"" to find your flash drive.
+select disk 1 (assuming disk 1 was listed as the jump drive.)
+clean
+create partition primary
+select partition 1
+active
+format fs=fat32
+assign
+exit
+
+Latest VistaPE http://www.winbuilder.net/"
+,flamandu,2008-02-22T13:31Z,"I installed it on my USB stick but it is'nt booting from it. 
+
+I set my boot sequence to boot from Hard disk because my stick is recognized as a hard disk. But is not booting from it. It says ""Disk boot faillure, insert........"
+,samsim01,2010-02-06T18:23Z,how the hell is it 120 mb?
+,Gavlaarr,2010-08-18T14:52Z,"do u hav to hav vista already installd on the computer 4 this to work?
+
+cos i hav xp on my laptop atm "
+,Gavlaarr,2010-08-18T14:53Z,do u hav to hav vista already installd on the computer 4 this to work? cos i hav xp on my laptop atm 

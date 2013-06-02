@@ -1,0 +1,59 @@
+﻿User Type,Username,Date,Text
+,Rayneman38,2007-06-08T21:46Z,"Note: Make Sure you have at least 4GB or more of free space on Local C: because the image will
+rebuild in My Documents. You can't browse for another location for some reason. When done you can opt to move the file to a different hard drive. Burn with Dvd Decrypter....peace"
+,Rayneman38,2007-06-08T22:52Z,"Please make a post or comment about your success because we can share iml files of PS2
+images and the glory is it's only kilobytes, which means quick help with your problem on PS2 DVD5 games. Note CdvdGen 2.0 and
+CdvdIml2iso is a must for these operations. Also you need preferably ISO Buster to extract files from the image and ISO Buster also shows the true order of the files so when you use CdvdGen 2.0 you can click and drag them in order because if not the game will not work. For those who haven't the foggiest idea what the heck I am talking about I apologize. This process can also be used on dual-layer games as well but a bit differently with the help of Apache 2 or 3...slater"
+,Rayneman38,2007-06-09T03:20Z,"QUICK HEADS UP BEFORE YOU DO ANYTHING OPEN NOTEPAD ON YOUR COMPUTER. GOTO FILE CLICK OPEN FILE OF TYPE CHOOSE ALL FILES FIND THE trae.iml FILE AND HIGHLIGHT AND OPEN SHOULD LOOK LIKE THIS:
+
+ [SYS]
+VERSION=1.00
+MEDIA=DVD
+TARGET=PS2
+DISCVERSION=1.00
+DATE=2007/06/08-12:26:25
+[/SYS]
+
+[CUE]
+DISCNAME=""SLUS-21555                      ""
+PRODUCER=""PLAYSTATION                     ""
+COPYRIGHT=""                                ""
+CREATIONDATE=20070608
+PSTYPE=2
+DISCCODE=02
+[/CUE]
+
+[LOC]
+# the number of entries: 28
+#Start   End      Mode Fno Source
+0        297      0.0  0   ""trae.ims""
+298      298      0.0  0   ""I:\New Folder\SYSTEM.CNF""
+299      1723     0.0  0   ""I:\New Folder\SLUS_215.55""
+1724     1729     0.0  0   ""I:\New Folder\MODULES\CDLOADER.IRX""
+1730     1737     0.0  0   ""I:\New Folder\MODULES\DBCMAN.IRX""
+1738     1743     0.0  0   ""I:\New Folder\MODULES\DS2U.IRX""
+1744     1746     0.0  0   ""I:\New Folder\MODULES\IMEMMAN.IRX""
+1747     1882     0.0  0   ""I:\New Folder\MODULES\IOPRP310.IMG""
+1883     1884     0.0  0   ""I:\New Folder\MODULES\IOPSND.IRX""
+1885     1888     0.0  0   ""I:\New Folder\MODULES\ISNDSTRM.IRX""
+1889     1903     0.0  0   ""I:\New Folder\MODULES\LIBSD.IRX""
+1904     1954     0.0  0   ""I:\New Folder\MODULES\MCMAN.IRX""
+1955     1958     0.0  0   ""I:\New Folder\MODULES\MCSERV.IRX""
+1959     1961     0.0  0   ""I:\New Folder\MODULES\MCXMAN.IRX""
+1962     1964     0.0  0   ""I:\New Folder\MODULES\MCXSERV.IRX""
+1965     1987     0.0  0   ""I:\New Folder\MODULES\PADMAN.IRX""
+1988     1992     0.0  0   ""I:\New Folder\MODULES\SDRDRV.IRX""
+1993     1998     0.0  0   ""I:\New Folder\MODULES\SIO2D.IRX""
+1999     2001     0.0  0   ""I:\New Folder\MODULES\SIO2MAN.IRX""
+2002     31130    0.0  0   ""I:\New Folder\PSS\ATT1.PSS""
+31131    70843    0.0  0   ""I:\New Folder\PSS\ATT1_W.PSS""
+70844    107292   0.0  0   ""I:\New Folder\PSS\I2_5.PSS""
+107293   143741   0.0  0   ""I:\New Folder\PSS\I2_5_W.PSS""
+143742   166758   0.0  0   ""I:\New Folder\PSS\INTRO.PSS""
+166759   189775   0.0  0   ""I:\New Folder\PSS\INTRO_W.PSS""
+189776   189776   0.0  0   ""I:\New Folder\TRAE.ARG""
+189777   1627732  0.0  0   ""I:\New Folder\BIGFILE.DAT""
+1637983  1637983  0.0  0   ""trae.ims"" 610304
+[/LOC]
+
+**Change all the  I: to C: or whatever drive you extracted the Tomb Raider files to make sure the extracted folder is simply named New Folder if not right-click and rename New Folder-sorry for the confusion. I know you got an error code on CdvdIml2iso. This is how you fix it now follow the instructions. To make it simple keep it all on your C:"

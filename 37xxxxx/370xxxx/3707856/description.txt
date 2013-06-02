@@ -1,0 +1,24 @@
+Alcohol 120% 1.9.6.5403 star_syn_client.dll replace
+----------------------------------------------------
+
+This package contains the previous betamaster keymaker, 
+along with the "star_syn_client.dll" file that you need to copy 
+over the original in alcohol install folder, in order for the program 
+to work.
+
+
+GUIDE:
+Replace file:
+Paste file "Star_syn_client.dll" to  
+(by Default) c:\ Program Files \ Alcohol Soft \ Alcohol 120 
+
+Apply the Patch
+Run the KeyMaker (Use keymaker with the known steps)
+Activate/Register Block Alcohol.exe with your firewall.
+Block alcohol.exe or the IP address 195.137.236.101 with your firewall.
+
+Your're Done!
+
+Please follow the steps and it WORKS FLAWLESSLY..
+
+Enjoy ~ ZERO_HOUR

@@ -1,0 +1,20 @@
+      _                 _    _                            _       
+  ___| |__   ___   ___ | | _| |_ ___  _ __ _ __ ___ _ __ | |_ ___ 
+ / _  '_  / _  / _ | |/ / __/ _ | '__| '__/ _  '_ | __/ __|
+|  __/ |_) | (_) | (_) |   <| || (_) | |  | | |  __/ | | | |___ 
+ ___|_.__/ ___/ ___/|_|_\_____/|_|  |_|  ___|_| |_|__|___/
+
+	       
+
+
+
+Title: Cisco IOS Cookbook
+
+Date Published: 2007
+
+Synopsys:
+
+Never has something cried out for a cookbook quite as much as Cisco's Internetwork Operating System (IOS). IOS is powerful and flexible, but also confusing and daunting. Most tasks can be accomplished in several different ways. And you don't want to spend precious time figuring out which way is best when you're trying to solve a problem quickly. That's what this cookbook is for. Fortunately, most router configuration tasks can be broken down into several more or less independent steps: you configure an interface, you configure a routing protocol, you set up backup links, you implement packet filters and other access control mechanisms. What you really need is a set of recipes that show you how to perform the most common tasks, so you can quickly come up with a good configuration for your site. And you need to know that these solutions work: you don't want to find yourself implementing a backup link at 2 A.M. because your main link is down and the backup link you set up when you installed the router wasn't quite right. Thoroughly revised and expanded, "Cisco IOS Cookbook, 2nd Edition" adds sections on MPLS, Security, IPv6, and IP Mobility and presents solutions to the most common configuration problems, including: configuring interfaces of many types, from serial to ATM and Frame Relay; configuring all of the common IP routing protocols (RIP, EIGRP, OSPF, and BGP); configuring authentication; configuring other services, including DHCP and NTP; setting up backup links, and using HSRP to configure backup routers; managing the router, including SNMP and other solutions; and using access lists to control the traffic through the router. If you work with Cisco routers, you need a book like this to help you solve problems quickly and effectively. Even if you're experienced, the solutions and extensive explanations will give you new ideas and insights into router configuration. And if you're not experienced - if you've just been given responsibility for managing a network with Cisco routers - this book could be a job-saver.
+
+More Info: 
+

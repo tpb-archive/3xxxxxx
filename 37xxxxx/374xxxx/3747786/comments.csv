@@ -1,0 +1,44 @@
+﻿User Type,Username,Date,Text
+,Theo_rell,2007-07-21T01:23Z,"I'm not feeling THAT stupid today. 
+WowLoader?
+
+Yeah, right..."
+,florint,2007-07-21T09:03Z,What ?
+,surfboi,2007-07-21T19:32Z,"Works fine on my system.
+A hassle though, to start the game..."
+,trogdor!,2007-08-11T20:46Z,wowloader stands for windows-on-windows. It lets you use Vista only dlls.
+,Erikssonjocke,2007-08-27T13:58Z,It works on internet ??
+,Fubar22,2008-05-21T12:06Z,"Ok, can someone give me a play by play on this one?
+1. Extracted
+2. Mounted the HALO 2 Image
+3. The confusing part....I have the loader on my desktop.  What would the file path be to run the loader and the startup simultaneously?  
+
+**The installation is the part I don't understand**"
+,Fubar22,2008-05-22T02:41Z,"ok so the path to my game is 
+
+C:\Loader.exe E:\Startup.exe
+
+It's still shutting down the installer after I get to the option that says the Driver is out of date.  I hit run, it shuts down without installing.  WTF is wrong with it?"
+,fabe96,2008-07-05T16:43Z,ok.fine.I play the game .I choose easy and press A and...nothing.the background remains the menu disappears.what do now?wait?
+,Sykotisk,2009-06-08T17:18Z,"1) Mount (or burn) the ISO.
+2) Copy the folder ""XP PATCH"" from the DVD to any place in your Hard Disk (Say D:)
+3) Go to Start>Run. (or use Win key + R)
+4) Type the following (assuming E: is your DVD drive and D: contains ""XP PATCH"" folder)
+
+""D:\XP PATCH\Loader.exe"" ""E:\startup.exe""
+
+As mentioned, here
+D:\XP PATCH\Loader.exe: Path where the ""Loader.exe"" exists
+E:\startup.exe : Path where the startup of the game exists
+
+5) Install the game using the Custom Install option.
+6) Install XLiveRedist1.0.6027.msi and vcredist.msi from the ""redist"" directory (located within the DVD)
+7) Copy the files: dwmapi.dll, mf.dll, MFPlat.dll in the directory where you installed HALO 2, from the ""XP PATCH"" directory.
+8) To play the game, go to Start>Run. (or use Win key + R) and type
+(Assuming the default installation directory (i.e. C:\Program Files\Microsoft Games\Halo 2))
+
+""D:\XP PATCH\Loader.exe"" ""C:\Program Files\Microsoft Games\Halo 2\halo2.exe""
+
+As before,
+""D:\XP PATCH\Loader.exe"" : Path where the ""Loader.exe"" exists
+""C:\Program Files\Microsoft Games\Halo 2\halo2.exe"" : Path where the ""halo2.exe"" exists"

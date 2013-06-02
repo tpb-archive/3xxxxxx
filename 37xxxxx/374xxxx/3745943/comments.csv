@@ -1,0 +1,86 @@
+﻿User Type,Username,Date,Text
+,cheinesen,2007-08-19T22:29Z,GlĂŚder mig til at se den. Er det god kval. Tak 
+,tonythecool,2008-10-23T15:23Z,"****** Instructions for DarkRP 2.2.15 with Spacetech's Simple Prop Protection v1.5 ******
+
+1)
+
+ Put ""Simple RP Prop Protection"" into your ""addons"" folder
+
+2) Put ""DarkRP"" into your ""gamemodes"" folder
+
+3)
+
+ Add DarkRP admins, cps, mayors, etc. for your server in DarkRP/gamemode/admins.lua, 
+
+following the instructions in the file
+
+-- philxyz
+
+
+
+
+- Simple Prop Protection was created by 
+
+Spacetech and is available at http://garrysmod.org/
+
+- I have his written permission to distribute this extended version 
+
+as a bundled component for the purpose of special RP compatibility 
+
+(Shared props).
+
+- Please do not separate Simple RP Prop Protection from this package and re-distribute it unless you
+
+ personally
+  have Spacetech's permission to do so.
+
+- This extended version is designed to be compatible with DarkRP >= 2.2.7 and should cause no problems at
+  all when used with a non-RP game.
+
+
+Frequently Asked Questions:
+
+Q) Why do the guns freeze in mid-air when I spawn them from a crate or using /buypistol?
+A) You need to install Counter-Strike: Source content on your dedicated server or purchase Counter-Strike: Source if you are creating a ""Listen Server"" (starting a server in-game). To install CSS content on your dedicated server, change into the root directory of your srcds server and use the command:
+
+[HldsUpdateTool.exe -command update -game ""Counter-Strike Source"" -dir .]
+
+...to install the content.
+
+
+Q) How do I get rid of letters?
+A) If you are a player, you can look at a letter and type /rm in the chat window or /removeletters to remove all your letters. If you are an admin, you can use rp_removeletters ...    or without the player
+
+ name to remove all letters that exist on the server.
+
+
+Q) Why was I sent to jail as soon as I connected to the server?
+A) You were naughty and tried to reconnect while arrested.
+
+Q) Why can't I spawn props in jail?
+A) Because they could be used to help you escape. Contact the Mob Boss if you want to be broken out of jail.
+
+Q) Why can't I use the tool gun on drug labs?
+A) So it's more difficult to hide them.
+
+Q) Where did rp_add go?
+A) rp_add was replaced with rp_grant and rp_revoke. You use these commands to give priveleges to players and take them away again. See admins.lua for more details.
+
+Q) Where has my money gone?
+A) The server-side SQL database was probably reset or tampered with by the server admin.
+
+Q) What is up with the new ""discount"" /buypistol and food prices?
+A) It was difficult for gun dealers or cooks to make money when /buypistol was available to all. However, a lot of people miss /buypistol so in 2.2.11 I have re-introduced /buypistol for all players, but Gun Dealers now receive up to a 12% discount on pistols. This way, a gun dealer can beat the price of 
+
+the /buypistol menu and they get the sale.
+
+Q) What's going on with Gun Labs and Microwaves?
+A) If you are a gun dealer and you buy from your own Gun Lab, you will pay the 12% discounted price for a P228. If you are not a gun dealer (but it is your gunlab you are buying from) you will pay the full /buypistol price like any other player. If it is not your gun lab, you will pay the ""Customer Price"" which is the price displayed when you move the mouse over a Gun Lab. To set the price of weapons sold from your Gun Lab, look at the lab and type /price  where Value is the price you want to sell P228s at. Microwaves work in the same way as Gun Labs, except that cooks receive an 18% discount on food.
+
+Q) Why did you change how the gunlabs/microwaves work?
+A) Because, what is the point in selling any guns other than a P228 when selling one from a gunlab makes you 185 pure profit? The new system means that the profit you get is based on how much more money you received over and above that which the gun cost you 
+to buy in. For example, a P228 costs you 162. The normal price for 
+
+selling P228s is 185. You make 185 - 162 = 23 in profit. If you have
+
+ set ""/price"" to something lower than what the gun costs you to buy normally"

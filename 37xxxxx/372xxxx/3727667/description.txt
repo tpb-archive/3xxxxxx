@@ -1,0 +1,62 @@
+Description: Fan-made Q3A TC mod.
+(That\\\'s Quake 3 Arena Total Conversion)
+
+Basically, Red (HAND or Red Dragon) Team vs. Blue (SWAT) Team.  Quite a blast!
+
+Also, check out Tremulous, Wolfenstein: Enemy Territory, Fighter Squadron: Screamin\\\' Demons Over Europe, and FreeSpace2 SCP DVD... also, kkrieger is a nifty little booger.  ;)
+
+Homepage: 
+http://www.urbanterror.net/news.php
+
+Linux / Mac / Windows download: (this torrent is Windows) 
+http://www.urbanterror.net/page.php?6
+
+FAQ: 
+http://www.urbanterror.net/e107_plugins/content/content.php?content.6
+
+Install Guide from: http://www.urbanterror.net/e107_plugins/content/content.php?content.9
+(Q3A not needed - you want Install 2), below 1), unless you have Q3A installed)
+
+
+Installing Urban Terror
+
+1) As a mod for Quake 3:
+
+Requirements:
+
+    * Quake III Arena
+    * Legal CD Key
+    * Point Release 1.32
+    * Urban Terror 4.0 Files
+
+
+Installation is extremely easy for Quake 3. Download the Urban Terror files from one of the download links. There is no difference between the .zip or .exe packages. The .exe just makes it simplier for new users to install the Urban Terror files. If you\\\'re using the .zip simply extract the \\\'q3ut4\\\' folder into your Quake III Arena folder (Eg: D:\\\\Games\\\\Quake III Arena\\\\q3ut4\\\\). After you have extracted the files you can create a shortcut using the instructions below. For those using the .exe installer. Simply run the installer. It will ask you for your Quake III Arena folder. Browse for it on your hard-drive and then select Next to have the installer place the files & folders where they belong. Remember to select your Quake III Arena folder, not the \\\'baseq3\\\' folder within.
+
+To create a shortcut for Urban Terror, right-click on your desktop and select \\\'New\\\', then \\\'Shortcut\\\'. A dialog box will appear asking for the location of the program we\\\'re creating a shortcut for. Browse to your Quake III Arena folder and select \\\'quake3.exe\\\'.
+
+shortcut_1.jpg
+Figure 1.1.1
+
+Press Next then enter in \\\"Urban Terror 4.0\\\" as the name, then press Finish. You should now have a shortcut on your desktop labeled \\\"Urban Terror 4.0\\\", but it still has the Quake 3 icon, and if you run it, it only opens Quake 3. Right-click on the shortcut and select Properties. Click on the \\\"Change Icon\\\" button and browse to your Urban Terror folder and select the \\\"q3ut.ico\\\" file (Eg: D:\\\\Quake 3 Arena\\\\q3ut4\\\\q3ut.ico). Hit OK. Next in the \\\"Target\\\" field we need to add some information to the existing line to tell quake3 to launch Urban Terror. After the last quote put in a space then type in \\\"+set fs_game q3ut4\\\" (without the quotes). Press the OK button and you now have a working Urban Terror 4.0 shortcut. But we\\\'re still not done yet. You\\\'ll need to enable Punkbuster to play online. Launch Urban Terror and once your at the main menu bring down the console by pressing the ~ key. Type in \\\"/pb_cl_enable\\\" then press enter. You should see some text appear that says the Punkbuster Client has been enabled. Now you\\\'re done. Go through the Options and System menus in the game to setup your config, then enjoy!
+
+2) As a standalone client (ioUrbanTerror)
+
+Requirements:
+
+    * ioUrbanTerror Installer
+    * Urban Terror 4.0 Files
+    * Battleye Patch (Win2K/WinME/Win98 & Linux Only)
+
+
+A lot of users are switching to the new standalone client. There are several benefits to doing this. Firstly you save on disk space because you do not need the additional Quake 3 PAK files which consume 490MB. The standalone client also features an updated ioquake3 engine. This includes tweaks, bug fixes, and security fixes. Some users have reported a much better experience using ioUrbanTerror rather than vanilla Quake 3. Things like lower ping, smoother movement, higher and more constant fps, etc.
+
+Download the ioUrbanTerror installer from one of the download links. Run the installer and choose a location to install to (Eg: D:\\\\UrbanTerror\\\\). The installer will take care of unpackaging and placing the files in their appropriate locations, as well as placing a shortcut to launch Urban Terror on your desktop. This does not take long. Once the installation is done you\\\'ll need to download the Urban Terror files from one of the download links. There is no difference between the .zip or .exe packages. The .exe just makes it simplier for new users to install the Urban Terror files. If you\\\'re using the .zip simply extract the \\\'q3ut4\\\' folder into your Urban Terror folder (Eg: D:\\\\Games\\\\UrbanTerror\\\\q3ut4\\\\). For those using the .exe installer. Simply run the installer. It will ask you for your Urban Terror folder. Browse for it on your hard-drive and then select Next to have the installer place the files & folders where they belong.
+
+Windows 2000/ME/98 and Linux Users
+As of April 7, 2007, you will need to download the Battleye patch to have properly functioning auto-updates. You can download this patch from here:
+
+Windows Client .dll
+Windows Server .dll
+
+Linux Client .so
+Linux Server .so

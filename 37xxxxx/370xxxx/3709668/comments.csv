@@ -1,0 +1,138 @@
+﻿User Type,Username,Date,Text
+,kurrivippan,2008-09-04T15:19Z,"Works great!!
+Thx"
+,LuckyLoo,2009-01-16T07:05Z,Avast picks up some Win32 Adware on it...
+,m_skokin,2009-06-25T17:24Z,Works prffct. Thanx. Symantec Antivirus checked - no virus.
+,-justy-,2009-11-25T22:17Z,"Thanx Sarre!
+
+You've done a great job, this crack saved me alot of time!
+
+jp "
+,pipeandbeard,2010-04-21T19:26Z,"Did the job for me,
+thank you "
+,senjacob,2010-08-26T21:25Z,"the rar file containes 2 files
+with SPR/PSW.pdfCracker.C.1 malware ???
+Scaned with avira antivir"
+,senjacob,2010-08-26T21:54Z,but its working perfectly :D
+,KOBKED-X,2010-09-12T05:12Z,mm I tdidn't work for me.. maybe NOD 32 stopped it..or was it spybot.. not sure :) NT tho
+,inmartie,2010-10-10T16:16Z,Application it's working propertly.
+,downloader979,2010-11-28T12:14Z,"Worked great for me (Windows 7 64-bit)- just make sure to extract all the files first - WinRAR wasn't extracting all files before running for me. Anyway, Thanks very much for the Small and effective upload!"
+[V],HolyRoses,2011-02-01T23:01Z,mysteriously it seems to work.
+,GUNITJEAN,2011-02-06T04:34Z,Norton has detected a virus with this file. please avoid downloading this file. Unless you have a very good Anti-virus or want your computer to stop working.  
+,odinrlives,2011-05-20T09:44Z,"Advanced PDF Password Remover is a small and easy-to-use tool to decrypt protected Adobe Acrobat PDF files, which have ""owner"" password set, preventing the file from editing, changing, printing, selecting text and graphics and copying them into the Clipboard, or adding/changing annotations and form fields.  Also It can remove the user/open password which protects the PDF files from opening if you know the password. Decryption is being done instantly. Decrypted files can be opened in any PDF viewer without any restrictions. All versions of Adobe Acrobat (including 9.x, which features 128-bit encryption) are supported.
+http://www.advancedpdfconverter.com/products/pdfpasswordremover.html"
+,frankyman_88,2011-09-08T08:08Z,"Finally, A password remover that works!!! I can also copy text from the protected document now! Thanks a lot!! "
+,dark8218,2011-10-27T03:31Z,"I wrote a batch file to make it easier to run. Copy the information as noted below, using the first line just above it as a file name (which tells you what it does). The .bat is important! DO NOT LEAVE IT OUT. As long as it's in the same directory as the program and PDF, it should work fine.
+
+
+
+Overwrite Original PDF - Security Removal.bat
+---------------------------------------------
+START COPY BELOW THIS LINE
+---------------------------------------------
+@Echo Off
+
+REM This command changes the file to the current directory the batch file is running in.
+CD /D ""%CD%""
+
+REM This is an explanation on how the batch file is set up.
+Echo The extension is not necessary to include if you 
+Echo type the first few letters of the document and 
+Echo then press tab. It will autocomplete the file name 
+Echo for you with the extension. :D Spaces and the current
+Echo working directory have already been accounted for, as
+Echo long as the PDF to be decrypted is in the same folder
+Echo as the program and batch file, this should work fine.
+
+REM This is a blank line in the batch file.
+Echo+
+
+REM This sets the input to a default value and displays the information so a file name may be stored.
+SET /P INPUT= Please enter the PDF to have the password removed: 
+Echo+
+
+REM This displays the filename you typed in. If correct, the file should be processed without a problem.
+Echo You typed: ""%INPUT%""
+Echo+
+
+Echo If this is incorrect, close this window and reopen the batch 
+Echo file to process the correct file.
+Echo+
+pause
+
+REM This runs the program and removes the password, overwriting the original file.
+Echo+
+pdfDecrypt.exe -i ""%INPUT%""
+Echo+
+pause
+---------------------------------------------
+STOP COPY ABOVE THIS LINE
+---------------------------------------------
+
+
+
+
+New PDF File - Security Removal.bat
+---------------------------------------------
+START COPY BELOW THIS LINE
+---------------------------------------------
+@Echo Off
+
+REM This command changes the file to the current directory the batch file is running in.
+CD /D ""%CD%""
+
+REM This is an explanation on how the batch file is set up.
+Echo The extension is not necessary to include if you 
+Echo type the first few letters of the document and 
+Echo then press tab. It will autocomplete the file name 
+Echo for you with the extension. :D Spaces and the current
+Echo working directory have already been accounted for, as
+Echo long as the PDF to be decrypted is in the same folder
+Echo as the program and batch file, this should work fine.
+
+REM This is a blank line in the batch file.
+Echo+
+
+REM This sets the input to a default value and displays the information so a file name may be stored.
+SET /P INPUT= Please enter the PDF to have the password removed: 
+Echo+
+
+REM This displays the filename you typed in. If correct, the file should be processed without a problem.
+Echo You typed: ""%INPUT%""
+Echo+
+
+Echo If this is incorrect, close this window and reopen the batch 
+Echo file to process the correct file.
+Echo+
+pause
+
+
+REM This sets the file to be created to a default value and displays the information so a file name may be stored.
+Echo+
+SET /P NEW= Please enter the new PDF filename: 
+Echo+
+
+REM This displays the new filename you typed in. If correct, the file should be processed without a problem.
+Echo You typed: ""%NEW%""
+Echo+
+
+Echo If this is incorrect, close this window and reopen the batch 
+Echo file to process the correct file.
+Echo+
+pause
+
+
+REM This runs the program and removes the password, overwriting the original file.
+Echo+
+pdfDecrypt.exe -i ""%INPUT%"" -o ""%NEW%"".pdf
+Echo+
+pause
+---------------------------------------------
+STOP COPY ABOVE THIS LINE
+---------------------------------------------"
+,dark8218,2011-10-27T03:48Z,"Slight error. The REM comment of the second batch file at the end was not updated.
+
+That line should read as below.
+
+REM This runs the program and removes the password, creating a new file and leaving the original untouched."
+,dark8218,2011-10-27T03:58Z,I know the GUI works but I wanted to see if I could get it to work in the command line too. :D Lol!

@@ -1,0 +1,79 @@
+﻿User Type,Username,Date,Text
+,maierm,2007-08-03T07:04Z,image is a compressed ecm file just use provided decompresor
+,dargonest,2007-08-15T06:11Z,"How does one decompress the file? Didn't see a readily available decompressor.  Please pardon my ""newbie""-ness with *.ecm files."
+,dargonest,2007-08-15T06:58Z,"Well, got the file unpacked, but now the game does not run.  Keeps asking for the cd.  What now? which emulator should I use, if any?  Thanks for any help."
+,maierm,2007-08-17T16:14Z,Youu have to burn it to a cd.
+,maierm,2007-08-17T16:18Z,no emulator needed. shouldnt even need to run in compatibility mode with windows. just burn and install.
+,gimenstedt,2007-11-14T02:11Z,sorry. tried to burn it. but it still dont work. do i burn it compressed or decompressed?
+,jaydub2000,2008-01-11T00:32Z,"Having a bit of trouble avoiding the CD-missing message
+
+Tried burning the iso file itself--that didn't seem to do anything. 
+
+Tried using daemon tools to mount the iso in a virtual drive and installing, THEN burning the  contents of the virtual drive to a CD--that didn't work either.
+
+Tried the only crack I can seem to find on the internet after installing the normal way--that also didn't work for me.
+
+Any suggestions?"
+,jaydub2000,2008-01-16T04:37Z,"NM, I finally got it. Not sure how, but I did."
+,Belerik,2008-02-01T00:58Z,"When running the install, I keep getting hung up with SETUP2.WAV. It says that it is not where it is supposed to be?"
+,Belerik,2008-02-01T01:11Z,"nvm...something caused a burn error, the that file was apparently skipped over while writing."
+,Ir0nfIsT,2008-02-12T05:25Z,"SORRY BUT I DONT GET A THING FROM WHAT YOU HAVE WRITTEN!
+
+I tried almost everything to burn,each file seperately,zipped or unzipped folders,trying to get it by not working...HELP!!!
+
+I need a bunch of DETAILED directions to get ths work...keeps asking the cd all the time...PLZ SOMEONE WHO DID IT HELP ME!!!"
+,Ir0nfIsT,2008-02-14T00:00Z,"LOL, itake it back.......
+I have Vista windows i had no chance to have the game installed, because when install finishes,it asks you to reinstall because it actually CAN NOT GET INSTALLED IN VISTA.Even control panel cant locate it.
+So i figured out a way to play the game in Vista,very simple....
+
+For those interested install Dosbox and install again through the program the game.When finishe,run L2D and the game works fine.
+
+Vista is a problem no more!!!LOTR2 works fine:)"
+,Corndog1225,2008-03-30T22:44Z,"I guess I'm still lost. I have Vista, and can't seem to avoid the No-CD message. I've tried burning the .bin image to a CD, but to no avail. What exactly do I need to do?"
+,Ir0nfIsT,2008-07-01T15:30Z,"SORRY FOR THE DELAY OF THE ANSWER,HOPE YOU FIGURED OUT THIS TIME..
+
+IF NOT AGAIN...
+
+1)Install a program called DosBox.Google to find it.
+
+2)When you install it run this program and read the instructions on how to mount the directory where L2D is downloaded.
+
+3)Then run install (ALWAYS THROUGH DOSBOX)
+
+4)Install finishes and run the game.ALWAYS DOSBOX.
+
+every time you want to play it you play through Dosbox.It's like an MS-DOS application for windows XP and Vista. "
+,spacebalts67,2008-07-08T20:06Z,"That last set of instructions is good.  Thank you for that.  I am getting so close to being able to play Lords of the Realm 2 again!  So I have the LOTR2 disc, I have DOSBox, I follow the instructions and actually get to the game through dosbox.  It still says that you must insert the disc to play.  Are you playing strait off of the CD or are you playing off of the files in the torrent on this site?  
+I either get this error or if I try to install it, no matter what I put down, it says invalid directory.  
+Any ideas on this?
+Thanks"
+,OstermanA,2008-08-24T13:56Z,"There is a known issue with LotR II where it doesn't recognize the CD. This happens with actual lexan CD's, so I assume it can happen with emulators too.
+
+Go to Start > Run and run 'sierra.ini'
+
+Once it opens, the last two lines will look like this:
+CDRomDrives=X
+CDROM=4
+
+Replace the X with the drive you have the disc in & it ought to work fine."
+,zarkos,2008-12-30T18:06Z,"There is a known issue with LotR II where it doesn't recognize the CD. This happens with actual lexan CD's, so I assume it can happen with emulators too.
+
+Go to Start > Run and run 'sierra.ini'
+
+Once it opens, the last two lines will look like this:
+CDRomDrives=X
+CDROM=4
+
+Replace the X with the drive you have the disc in & it ought to work fine. 
+
+
+
+thanks OstermanA
+that worked the first time i tried it!!!!!"
+,alxkd,2009-12-28T02:35Z,"i use windows xp. using power iso i manage to install the game. in Compatibility i choose win 95 , 256 colors and 640x480 res.
+when i try to start game it shows the game logo and the button ""play"" after the question ""are you redy to earn you right to throne""
+when i choose play a black screen shows and then nothing happents . just return to windows.
+can somone pls help me i realy want to play that game again."
+,andkore,2010-04-10T06:40Z,"http://www.squirtthecat.com/games/lords_of_the_realm_2/index.html
+
+For modern operating systems."

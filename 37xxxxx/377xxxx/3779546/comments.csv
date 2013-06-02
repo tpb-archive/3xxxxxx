@@ -1,0 +1,71 @@
+﻿User Type,Username,Date,Text
+,kokie07,2007-08-26T16:32Z,Working. Unfortinatly no notwork support. Anybody?
+,neo2kdk,2007-08-26T17:29Z,"For networking support, try adding the following to the vmx:
+
+ethernet0.present = ""TRUE""
+ethernet0.virtualDev = ""e1000""
+ethernet0.connectionType = ""nat""
+ethernet0.addressType = ""generated""
+ethernet0.generatedAddressOffset = ""0"""
+,herne_hunter666,2007-08-27T19:59Z,"It's OS X 10.4.1
+
+There is a much newer torrent here on the Pirate Bay, 10.4.7 -- you're better off using that one. And, for the poster who asked, yes you can just load the vmware image without installing OS X itself. "
+,herne_hunter666,2007-08-27T20:00Z,"The link to the other torrent, 10.4.7 is as follows: 
+
+http://thepiratebay.org/tor/3779546/Mac_OS_X_x86_VMWare_Image"
+,d06omtas,2007-10-24T16:42Z,"It can't be 10.4.1, as it was posted quite recently, and there is no intel version of 10.4.1, only 10.4.6 or above. "
+,jont51,2007-11-11T09:13Z,"G'day
+When I try load this in VMWare 6, it just goies into a loop from the boot screen to a quick flash of what appears to be some sort of Apple.  Anyone else having this problem, or can someone offer me some ideas? 
+Thanks...."
+,aeroseth,2007-11-11T14:57Z,"Unless your CPU supports SSE2 or SSE3 don't count on this running, Even in VMWare, even with Pear, or any emulator. This means unless you have a Pentium4 or Athlon 64 you are SOL."
+,jont51,2007-11-11T20:50Z,"Thx for the reply.
+Based on CPUZ, I have;
+Instruction sets	MMX, SSE, SSE2, SSE3, SSSE3, EM64T....
+If anyone else has this problem and somehow gets around it, could you please let me know?
+I am thinking of buying a Mac Mini anyway, but would like to play around with this 1st to see if it's worth the $$$$. (I know it won't be 'exactly' the same, but I'll get the idea)...
+Thanks......"
+,CptFastbreak,2007-11-29T17:47Z,"2herne & tippy:
+I think that other torrent you are referring to works only for Intel CPUs. I have an Athlon64, and this image works fine, while the other one did not boot properly."
+,Markstar.PB,2007-12-19T13:46Z,"@CptFastbreak: Yep, I have the same problem. This one works (and it is 10.4.1) while the other one doesn't. :("
+,djfrancis,2008-01-30T14:21Z,Anyone know the current password so i can add a user
+,sudeep_mib,2008-04-11T21:45Z,what is the current password
+,sudeep_mib,2008-04-17T20:38Z,"worked for me.
+Password is 'bovinity'"
+,kodenho,2008-07-05T09:23Z,You are OK. Release of TIGER. Tested and approved!
+,bb_slayer,2008-09-20T18:29Z,Do not waste your time downloading it. As someone stated before this restarts the VMM in a loop once the apple bootloader kicks in. I do have a C2D with SSE2/SS3.
+,geet7785,2008-09-20T19:00Z,"Great News guys. I am able to install and run vmware tools on this image. But i dont know the root password. Anyone can tell me whats the root password, so that I can install more software on it. 
+On this image even flash player is not installed.
+
+I dont have installation DVD so not able to reset the root password. "
+,yoyojordan,2008-10-26T22:55Z,"good download and i installed it on my computer and still works good. i have a acer aspire 64 bit
+and it works on intel
+
+SEED"
+,dmitry_k53,2008-11-16T02:02Z,"Works on Dell Inspiron 1525 -> Intel Core 2 duo.
+works great (but a bit slow)
+anyone know how to change the short name or w/e it is? it says ""curtis"" but i want to change that (i don't know how to use macs at all, only played around on one a couple of times)
+having some internet problems too... mainly that it doesn't work.
+
+help appreciated
+
+thanks."
+,123_123,2009-02-07T18:10Z,"i have mac os tiger 10.4 retail cd , i converted it to iso , patched using Maxxuss_Patch_Tiger_10.4.4_osx_x86_v1.0_8g1165 also added paevm=""true"" to vmware , also disabled i/o and diskette in vmware bios
+
+but i am still getting operating system not found message , please help"
+,battleaxe230,2009-07-07T11:45Z,"Mac OS X 10.5.5 VMWare
+
+http://thepiratebay.org/torrent/4798016/MAC_OS_X_Leopard_10.5.5_VMware_Image"
+,jordy805,2010-07-04T20:00Z,what is the password for the mac? It's already set...
+,subestrenos9,2010-10-23T20:41Z,"Hello uploader!
+
+You did a perfect job.
+Could you redo it with an fresher version of Mac OS X?
+I really would appreciate it.
+
+Thank you in advance."
+,I36364,2011-01-19T02:31Z,What the hell is the username and password?
+,orhancc,2011-01-22T21:05Z,works perfect. thank you 
+,crazyman500,2011-05-31T00:34Z,"Can't get the Mac online
+Can I restore it to make it new"
+,naveen056,2011-12-06T18:38Z,works great but no network
+,dezzydezo,2012-02-12T17:40Z,lol the password is 123 took me an hour to figure it out from the hint

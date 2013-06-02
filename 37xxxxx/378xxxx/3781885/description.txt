@@ -1,0 +1,68 @@
+ok, so this is basicly a ventrilo server for 2.3.1 cracked, tho it got a *17* user limit, this is a copy of the nfo, btw, this is already "cracked" all you gotta do is start ventrilo_srv.exe and off you go
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+APPLICATION : Ventrilo Server - Public - Version 2.3.1 *CRACKED 17 USER*
+	 OS : Win
+       TYPE : VoIP
+        WWW : http://www.ventrilo.com
+    RELDATE : 2006
+ PROTECTION : 8 User Limit and some other stuff..
+ CRKRELDATE : 30/3/2007
+    CRKDATE : 22/3/2007 a week of testing :)
+
+INSTALLATION: Install.
+              Copy .exe in crack dir. to install dir.
+              
+       NOTES: Where should we begin?!
+
+This crack has been tested as much as we can. We have worked several hours/days
+and weeks to get it to this state. First we would give you some background info.
+After allowing the 10th user in the problems started with disconnect problems.
+Server crashed and multi user logins appeared. Why? Well since the original
+8 user limit only removes old data for ONLY 8 users, we had to build our own
+disconnect routine that removes data for user connects over 8.. and it worked
+good as hell! nice :)
+
+Things got messy around the 17th user anyway. We told you about the removing data
+problem and the optimized 8 user shit.. and if we bring in the 18th user things
+crash, no space for that user, timestamps and stuff.. and we cant just change the
+main four almost identical loops that controls the users, it's messy!
+We took a look at the early builds of the server that didn't come with the a 8
+user limit.. and the four main loops.. almost the same but with a difference..
+rewritten to handle more users. If we got the time and want to.. we might try to
+rewrite this exe to work with 18 users or more.. but it's a hell of a job..
+we have already patched this proggie with around 200bytes or so.. do the math to
+fix memory shit for 18+ users.
+
+Anyway, we bring you this 17 user version as stable as it we made it.
+You can't login with a 18th user, we did fix that so it won't crash, it will
+result in a login timout instead for that user. We don't know if there is a issue
+on other OS's. It's tested on Vista and XP, and if you recive connect problems
+after a 18th user tried to login.. then just don't login with the 18th user ;)
+
+We also included the Ventrilo 2.3.2.Beta.3 Client patched to run multi instances.
+
+If it runs ok.. be happy! If it you got problems, do nothing!
+
+There IS a REASON why it's so FEW WORKING or non at all cracks to this app!
+
+Enjoy! /ONY and SEB-
+
+ps. tnx for all feedback at the forum.. you know who you are and what we talk about.. :)
+
+ABOUT:
+
+Ventrilo 2.3.1 is the next evolutionary step of Voice over IP (VoIP) group communications software. Ventrilo is also the industry standard by which all others measure themselves as they attempt to imitate its features.
+
+By offering surround sound positioning and special sound effects on a per user, per channel, per server or global configuration level the program provides each user the option to fully customize exactly how they wish to hear sounds from other users or events.
+
+Ventrilo is best known for it's superior sound quality and minimal use of CPU resources so as not to interfere with day to day operations of the computer or during online game competitions. It is also preferred for the simple user interface that any first time computer user can very quickly learn because the most commonly used features are immediately visible and can be activated with a single click of the mouse.
+
+To see what the program looks like and a list of some of the many features the program offers please click on the About link in the navigation menu. 
+
+Version 2.3.1 introduces more user control of how the main window is displayed. You can turn on and off the title bar, display the large buttons on the right or switch to toolbar mode with icons on the top to maximize the usable width of the window. Extended mode which hides the User Name, Server and Bindings options. Turn on and off grid lines in the user list window. You can also customize the user list window icons and toolbar icons.
+
+All of these changes still keep the most commonly used features at your finger tips by means of a single click of the mouse. No need to navigate clunky multi-stage menu options just send a comment to the other users.
+
+Version 2.3.1 is now compliant with the Microsoft XP Themes User Interface.

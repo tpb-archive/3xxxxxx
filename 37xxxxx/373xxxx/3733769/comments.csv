@@ -1,0 +1,42 @@
+﻿User Type,Username,Date,Text
+,limpistol,2007-07-09T17:47Z,"This torrent is a Matroska container (MKV file) with H.264 codec
+video and DTS multichannel audio.
+That's good for watching on a computer, but usually not so
+compatible to e.g. stand-alone media players. 
+Here are the commands I used to convert this to a more compatible
+AVI container with XviD codec video and MP3 audio. Maybe it will
+be useful to somebody. Using two free open source tools available
+to both Windows, Linux and other.
+I did this as two steps, first step mainly to change container,
+and audio channels, and second step to go to XviD and reduce the
+file size and frame size.
+The frame size change (-vf scale -zoom -xy 640) is not necessary, and
+the final video bit rate (1000) could maybe better be increased to
+preserve quality, but the result by below commands is not bad at all.
+This is just one way to do it. Probably the two steps can be combined
+by a different combination of all the many available options.
+
+ffmpeg -i Gedo.Senki.mkv -sameq -ac 2 -ab 160000 Gedo.Senki.ffmpeg.avi
+Around two hours.
+Video: FMPG4 ~1500 Kbit/s VBR, 24.390 fps, 672x432
+Audio: 160 Kbit/s CBR, 48KHz, MP2
+
+mencoder Gedo.Senki.ffmpeg.avi -noodml -oac mp3lame -ovc xvid 
+ -vf scale -zoom -xy 640 -xvidencopts bitrate=1000 -o Gedo.Senki.mencoder.avi
+Around six hours.
+Video: XviD 1000 Kbit/s CBR, no GMC/Qpel, 24.390 fps, 640x346
+Audio: 128 Kbit/s CBR, 48KHz, MP3
+
+Tools used:
+http://ffdshow.faireal.net/mirror/ffmpeg/ffmpeg.rev9494.7z
+http://www.mplayerhq.hu/design7/dload.html
+http://downloads.sourceforge.net/sevenzip/7z442.exe"
+,eyekeeper,2007-08-18T18:32Z,I am having a lot of difficulty to view this video. thank you for the advice limpistol. I only wish this was not such a long process. 
+,simmek,2008-01-08T16:19Z,Can't understand why one would want to have it in avi rather then mkv. To view mkv-files use the 'combined community codec pack' http://www.cccp-project.net/ It will install all codecs you need and 'Media Player Classic'. The settings can be hard for newbs to undestand but it's configured for standard usage so no need to change them unless you know what you want.
+,Gn2me,2008-01-25T03:44Z,its a whole hell of a lot easier to burn
+,Misterrandom,2008-01-27T10:06Z,"To Simmek:
+
+You know of many stand alone DVD players that will play MKV files?  My DVD player and PS3 both play XviD and DivX.  Thats why, in the absence of a full DVD5 or DVD9 rip AVI is preferred for a lot of people, myself included, who don't have a PC hooked up to their AV set up."
+,SmileyWitchFaerie,2008-02-04T02:20Z,"For those of you having issues viewing or getting a player to view it ... I suggest getting the matroska codec pack and use real alternative player as a view both together have never failed me in any format d/led , I also have installed the allin1 codec pack , which you can find any of these just by searching the net with the names I posted here . Hope this helps anyone . "
+,brohken,2009-08-16T18:07Z,thank you
+,brohken,2009-08-17T18:35Z,"VLC will play .mkv and will let you choose the language, under Audio/Audio Track"

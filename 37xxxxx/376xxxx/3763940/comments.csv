@@ -1,0 +1,74 @@
+﻿User Type,Username,Date,Text
+,cribeb,2007-08-05T19:59Z,"Note!
+This is NOT the same Miomap_english_20 as in the torrent ""Unlocking mio 268+-269+"".
+This one is specially assembled to make Miomap3.2 running automaticly."
+,cribeb,2007-08-05T20:35Z,"Ohps!
+Do NOT forget to update the ROM in your Mio!"
+,SaKiS_71,2007-08-06T23:39Z,Det funkar inte p0 min Mio269.
+,cribeb,2007-08-07T14:31Z,"Vad är det som inte funkar?
+Vid vilken punkt?
+Har du flashat din Mio med ny ROM?"
+,SaKiS_71,2007-08-07T15:49Z,"@cribeb
+så  här står det när jag försöker göra det, (MioStartUp-0725 och sen Clean all data in My flash disk.) ok eller nej då trycker jag nej, då står det (Error, No DM Found in HDD and SDMMC) sen när jag trycker OK blockerar den helt, jag har flashat min Mio till R23, vad kan det vara fel, nåt annat jag vill fråga dig, jag har laddat den Miomap v3.2 268+269+ norden kartor 2007-1 och det verkade funka på min Mio 269, sen tar jag en sväng och vill kola hur den funkar och så fick jag ett meddelande att jag har inte rät att använda den den e ilegal och sen
+bara stängde av kartan, vad kan det vara för fel, om du kan detta och kan hjälpa skulle jag vara jätte tacksamt."
+,cribeb,2007-08-07T17:00Z,"Hej.
+Se punkt 7 i beskrivningen. Du skall se en smal grå strinna längst ned på skärmen. Klicka på den vå visar taskbaren upp sig."
+,SaKiS_71,2007-08-07T18:50Z,"@cribeb
+Kan du  skriva det på Svenska jag kan inte Engelska alltså överästa allt det här på Svenska snälla, jag ser det men kan inte öppna"
+,cribeb,2007-08-07T19:40Z,"1. Kopiera MioMap_english_20.cab till ett SD minneskort.
+2. Stäng av din Mio 269 med strömbrytaren på baksidan.
+3. Sätt på den igen.
+4. Tryck och håll Volym-upp + Flagg-knappentills din Mio piper.
+5. Svara NO till ""erase flash""
+6. Klicka OK för nån fil som inte hittas.
+7. Klicka Taskbar-Start och öppna Windows Explorer
+8. Öppna \Storage Card\Installation\ och döp om MioMap_english_20.cab till MioMap_english_20.cab.old
+9. Kopiera MioMap_english_20.cab frpn SD kortet till \Storage Card\Installation\
+10. Stäng av din Mio 269 med strömbrytaren på baksidan.
+11. Sätt på den igen.
+12. Välj English 
+13. Ställin tid och datum.
+14. Nät du ser bilden med bilen rom körså vänta i 20 sec och tryck sedan Reset (hålet på höger sida).
+15. Nu när Mion startar kommer du att se Skrivbirdet. Om du har ett SD kort med Miomap 3.2 så kommer denna att 
+
+starta automatiskt.
+
+Noteringar:
+* Storage Card går inte att skriva till, skärmen blinkar. -Reset.
+* Mio Transfer funkar inte. Men du kan kopiera via minneskortet.
+* Om du vill köra gamla Miomap 2: använd strömbrytaren på baksidan och välj ditt språk (inte English).
+* Du kan använda valfritt språki stälet för English om du döper om filen till detta språk."
+,SaKiS_71,2007-08-07T21:36Z,"@cribeb
+Jag gör exakt som du skriver till nr.7 men sen går det inte (Klicka Taskbar-Start och öppna Windows Explorer) den vill inte öppnas jag ser det en smal grå strinna längst ned på skärmen det går inte att öppna den, vad ska jag göra snälla, tack för all hjälp."
+,SaKiS_71,2007-08-07T23:09Z,"@cribeb
+Måste jag läga in MIOMAP först på SD kort och kopiera MioMap_english_20 i MIOMAP jag provar allt det går inte, ska man packa upp MioMap_english_20 eller inte"
+,cribeb,2007-08-08T22:32Z,"9. Kopiera MioMap_english_20.cab från SD kortet till \Storage Card\Installation\
+
+Du skall inte packa upp MioMap_englich_20.cab!
+
+Mer finns att läsa om här: http://www.gpspassion.com/forumsen/forum.asp?FORUM_ID=37"
+,SaKiS_71,2007-08-08T22:58Z,"@cribeb
+Men problem e att jag kan inte gå vidare med det här instalation komer fram til nr.7 och den som du sa smal grå strinna längst ned på skärmen går inte att öppna, vad betyder det \Storage Card\Installation\ e det i sjelva Mio-n."
+,cribeb,2007-08-09T19:31Z,"@Sakis71
+Kolla om denna funkar:
+AutoUnlockingMio268(+)_269(+)"
+,cribeb,2007-08-09T22:00Z,"@SaKiS_71
+Kolla om demma funkar på din Mio269....
+
+http://thepiratebay.org/tor/3768050/AutoUnlockingMio268(_)_269(_)4_Miomap.zip
+
+??"
+,ChrisAmers,2008-01-21T00:03Z,"Help.
+I followed your instructions.
+However, at point 12) I could not change to English (still it said ""francais"", what I was initially installed, although had I changed the file to french_20.cab.old).
+okay, so I continued but then (After point 15) I do not see the desktop. Instead the ""moving car"" picture. Clicking on ""navigation"" says ""ERROR: not map found in SD and Flash"".
+
+I removed the ""english_cab"" file again and got the original ""french.cab"" file in again.
+But the ERROR remains.
+Please help me if you know what I can do.
+Thanks 
+Chris"
+,ChrisAmers,2008-01-21T00:06Z,"sorry I forgot to say, that before I installed
+the patch for V3 "
+,Ivanders,2009-05-26T13:20Z,please seed
+,akakhel,2009-08-14T18:53Z,"Hello everyone. I'm desperately trying to unlock to my Mio 269 but i guess I've messed it up. Before following this torrent, i used another method but it wasn't so clear. So now when im following the instruction in this torrent, after step 5, when i click ""No"" to erase flash, all it says is ""No DM found in HDD and SDMMC"" and when i click ""Ok"", nothing happens and there's nothing else on the screen i can click. Please help me out guys. I just wanted to update my map from V2 to V3 and just to let you know that I've lost my Miomap V2 DVD :-(. I'll appreciate any help."

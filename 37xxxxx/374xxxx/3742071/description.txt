@@ -1,0 +1,8 @@
+Changes in version 2.9.0 - 10th Jul 2007: 
+- Added support for DirectX 10 
+- Added option to monitor Desktop Window Manager under Vista 
+- Added Direct Stream sound recording for Vista 
+- Fixed screen tearing in video captured from DX9 games 
+- Fixed G15 LCD output running fast on Vista machines 
+- Improved resource sharing with multithreaded games 
+- Added numerous crash and compatibility fixes

@@ -1,0 +1,18 @@
+Esta potente utilidad supone una solución perfecta al problema de querer utilizar más de un sistema operativo al mismo tiempo, en el mismo PC.
+
+Virtual PC te permite utilizar distintos sistemas en un solo PC de una forma sorprendentemente sencilla y flexible, en la que cambiar de sistema operativo es tan fácil como pasar de una aplicación a otra. Entre los sistemas operativos preconfigurados se encuentran Windows 98, NT, 2000, 2003, XP, Vista y OS/2.
+
+Resulta de gran utilidad para probar con total seguridad aplicaciones en desarrollo en varios sistemas operativos, para aprender a manejar alguno distinto del que tienes instalado o para poder utilizar algún juego o aplicación que no soporte tu actual sistema operativo.
+
+Emulacion:
+
+Virtual PC, en el caso de la versión para Windows, no emula el procesador sino que deja que el mismo ejecute las instrucciones en el entorno emulado. Por el contrario, en la versión para MacOS emula un procesador Intel Pentium II. El resto del hardware que emula son: una placa con un chip Intel 440BX, una tarjeta de video S3 Trío32/64 con 4mb. de memoria SVGA, un chip de BIOS de American Megatrends, una tarjeta de sonido SoundBlaster 16 y una tarjeta de red.
+
+
+No presenta soporte para todos los programas, debido a que pueden existir fallos debido a errores en la sincronización de las operaciones o se pueden generar opcode fuera de tiempo. La emulación en Macintosh es de recompilación dinámica para traducir código X86 a código de un Mac con procesador PowerPC. En los Mac con procesador Intel no existe una versión de VirtualPC con lo que hay que acudir a otro tipo de soluciones.
+
+
+La emulación en Windows también es de recompilación dinámica, pero solo traduce el modo de kernel y el modo real x86 a código de usuario x86, mientras el usuario original corre en forma nativa o verdadera.
+
+? Para utilizar Microsoft Virtual PC necesitas:
+    * Sistema operativo: Win2000/XP/2003

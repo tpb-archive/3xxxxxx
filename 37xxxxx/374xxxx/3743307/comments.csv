@@ -1,0 +1,28 @@
+﻿User Type,Username,Date,Text
+,RandPC,2007-07-16T07:44Z,"How so?
+Task manager cannot enable/disable, or set to automatic any services at all.
+
+The most you can do is temporarily kill a service. If that service is set to automatic it'll soon be started up again anyway, so that's of precious little use.
+Task Manager, either in the default shipping version included with any MS OS's or the enhanced version through Sysinternals doesn't have any functionaly to control services.
+
+I don't see the program as particularly useful however as you can easily go into the services MMC and control all the services there, and check an explanation of what they all do what services are dependent upon what etc etc. which is more then this application does."
+,fightingscott,2007-08-27T04:40Z,"No, you should NOT be able to do this with Task Manager.  (at least not with xp and 2000... I don't know anything about vista)
+
+You CAN do this WITHOUT this program however. 
+Here's how: 
+
+Go to START menu and select ""RUN""
+Type (without quotes) ""services.msc""
+
+All major processes that could be running in the background are listed with a description of their function. 
+Highlight a process, right-click it and select ""properties"" 
+Go to the box that says ""Start up Type"" and left-click the drop-down box to the right of it.
+Select one of the following:
+""Auto"" for services you need
+""Manual"" for Windows to decide for you whether or not you need the service
+""Disable"" for services you don't need
+
+It's probably a good idea for anyone interested in fine tuning their computer's performance to better meet their needs to do this.  I would suggest googling any process that your unsure of before you disable.  "
+,Romerro,2008-05-18T01:33Z,Thanx dude..
+,debakaputite,2009-02-01T17:59Z,"seed please.
+I will try to revive some of the eXperience's works. What happened with this dude ?"

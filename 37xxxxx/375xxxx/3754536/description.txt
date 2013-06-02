@@ -1,0 +1,239 @@
+srs audio sandboxSRS Audio Sandbox with unlock password!
+=================
+
+DESCRIPTION
+===========
+Welcome to the SRS Audio Sandbox. The sandbox will allow you to process any audio
+in your system with one of four SRS technologies:
+
+WOW HD: Provides enhanced width, bass and definition for music sources.
+
+Headphone 360: Enhances both stereo and multichannel sources for headphone listening.
+
+TruSurround XT: Virtualizes multichannel content for listening on two speakers,
+    with post-processing enhancements.
+
+CircleSurround II: Decodes ANY stereo input into 5.1 surround sound.
+
+SUPPORTED SOUND CARDS
+=====================
+Only PCI-based (and PCMCIA) sound cards are supported. USB and FireWire
+devices are not supported at this time.
+
+The following devices have been tested and are known to work with the
+SRS Standalone driver:
+
+Creative Labs Audigy family (including Audigy 2 and Audigy 2 ZS)
+Creative Labs Sound Blaster Live! family
+SoundMAX-based codecs
+Realtek-based codecs
+Conexant-based codecs
+
+Some devices are supported, but may have minor issues:
+
+M-Audio Revolution
+Turtle Beach Santa Cruz - Supports 2-channel output only
+
+
+Other sound cards may work, but are not officially supported.
+
+For further information, please see the FAQ in the included help file.
+
+KNOWN ISSUES
+============
+- Sigmatel HD audio codecs will not allow multichannel input to the Audio Sandbox.
+
+
+REVISION HISTORY
+================
+
+Version 1.5.0.0
+---------------
+Date: 02/22/2007
+- Now uses new regiatration scheme
+- Fixed sync issues with UAA devices.
+- Fixes problem where advanced controls settings lost if a preset is loaded 
+  just before closing the application.
+- Added Vista compatibility
+
+Version 1.4.2.0
+---------------
+Date: 12/18/2006
+- No longer sets the "Run At Startup" value in on installation.
+
+Version 1.4.1.0
+---------------
+Date: 12/12/2006
+- Minor fixes for new trial method.
+
+Version 1.4.0.0
+---------------
+Date: 12/08/2006
+- Updated to new trial method.
+
+Version 1.3.4.0
+---------------
+Date: 12/05/2006
+- Modified mix of SAS theme music.
+
+Version 1.3.3.0
+---------------
+Date: 11/30/2006
+
+- Media player open detection no longer stops after 3 detections
+- "X" button no longer closes SAS completely, but behaves like the
+  "_" button.
+- On first run, the Quick Tour help window shows up beneath 
+  the main application window
+- The help window can be placed beneath the main application
+  which previously it was always on top of the application
+- Help updates, including information about the demo media
+- Update Available button displays properly when app is first
+  run.
+
+
+Version 1.3.2.0
+---------------
+Date: 11/27/2006
+- Added startup media file to play intro upon first SAS launch.
+
+Version 1.3.1.0
+---------------
+Date: 11/20/2006
+- Multichannel input files now just bypass the SAS when playing on multichannel systems.
+- Now properly saves the speaker configuration when rebooting.
+- Help file updates
+- Updates to tooltip texts
+- Fixed UI so that text does not overrun listbox windows under certain conditions.
+- Now optionally pops up when media players are started.
+- Configuration checklist dialog added (can be viewed through Options menu)
+- Graphic text replaced with translatable text strings
+- Other Minor UI changes
+
+Version 1.3.0.0
+---------------
+Date: 10/13/2006
+- Now automatically sets the default soundcard.
+- Automatically starts when Windows boots unless turned off in the Preferences dialog.
+
+Version 1.2.0.0
+---------------
+Date: 10/11/2006
+- Driver is now WHQL-certified.
+
+Version 1.1.0.3
+---------------
+Date: 10/04/2006
+- Renamed setup file to more standard setup.exe.
+- Digitally signed the setup file.
+
+Version 1.1.0.2
+---------------
+Date: 10/03/2006
+- Fixed some trial issues.
+- Made mini-mode button text more descriptive.
+
+Version 1.1.0.1
+---------------
+Date: 09/29/2006
+- Fixed activation when the trial is expired so that the user is not prompted
+  to activate by email until s/he tries to activate online.
+
+Version 1.1.0.0
+-----------------
+Date: 09/28/2006
+- Speaker configuration of SAS not set to 5.1 on panel startup.
+- Implemented new TruSurround XT.
+- Fixed TSXT startup parameters to make sure TSXT ends up in the right input mode.
+- Redesigned activation UI to be more intuitive.
+
+
+Version 1.0.0.255
+-----------------
+Date: 09/11/2006
+- Commercial release
+
+Version 1.0.0.19
+----------------
+Date: 09/07/2006
+- Added text to the installer instructing the user to turn off all audio enhancement.
+
+
+Version 1.0.0.18
+----------------
+Date: 08/31/2006
+- Installer now asks the user to reboot at the end of the installation.
+
+
+Version 1.0.0.17
+----------------
+Date: 08/28/2006
+- Final updates to help.
+- Added affiliate support to control panel.
+- Changed to a 14 day trial.
+- Added more descriptive error messages to the activation UI.
+- Implemented Buy Now button on activation UI.
+
+
+Version 1.0.0.16
+----------------
+Date: 08/21/2006
+
+- Now uses official SRS Audio Sandbox license.
+- Implemented new activation shell.
+- Fixed problem where the preferred device in a multidevice system
+  would not use the same soundcard upon reboot.
+- Added automatic update check.
+- Added Buy Now button to control panel.
+
+Version 1.0.0.14
+----------------
+Date: 08/10/2006
+
+- Fixed headphone 360 gain settings.
+
+Version 1.0.0.13
+----------------
+Date: 08/09/2006
+
+- Implemented help file fixes
+- Implemented gains for each technology to balance levels.
+
+
+Version 1.0.0.12
+Date: 08/08/2006
+
+- Renamed to SRS Audio Sandbox
+- Final control panel bug fixes for release
+
+Version 1.0.0.11
+Date: 08/01/2006
+- Fixed minor return value error in WOW HD DLL.
+- Some grammar fixes in the help file.
+- Upgraded to the latest TSXT code.
+- Added hotlink to control panel.
+- Installer now properly stops the installation if the user cancels the driver installation.
+- Added checkbox to installer for the user to confirm that he has read the warning
+  about non-WHQL signing.
+- Control labels in the Advanced panel now properly update when a preset is selected.
+- Mobile HD renamed to Headphone 360.
+
+
+Version 1.0.0.9
+Date: 07/14/2006
+- New Beta 2 release
+- Fixed driver versioning that was preventing upgrades from Beta 1 from working properly.
+- Fixed problem with the control panel not closing when Windows was shut down.
+
+
+Version 1.0.0.8
+Date: 07/12/2006
+- Beta 2 release
+
+Version 1.0.0.7
+Date: 06/27/2006
+- Beta release
+
+Version 1.0.0.5
+Date: 06/09/2006
+- Initial internal release

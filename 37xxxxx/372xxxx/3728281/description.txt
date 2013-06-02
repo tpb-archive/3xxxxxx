@@ -1,0 +1,21 @@
+Trillian? is a fully featured, stand-alone, skinnable chat client that supports AIM, ICQ, GoogleTalk, MSN, MySpace, Yahoo Messenger, IRC, and many more if you download the plugins that enable them. It provides capabilities not possible with original network clients, while supporting standard features such as audio chat, file transfers, group chats, chat rooms, buddy icons, multiple simultaneous connections to the same network, server-side contact importing, typing notification, direct connection (AIM), proxy support, encrypted messaging (AIM/ICQ), SMS support, and privacy settings.
+
+Without stealing your home page and with no other included software, pop-ups, or spyware, Trillian provides unique functionality such as contact message history, a powerful skinning language, tabbed messaging, global status changes (set all networks away at once), Instant Lookup (automatic Wikipedia integration), contact alerts, an advanced automation system to trigger events based on anything happening in the client, docking, hundreds of emoticons, emotisounds, shell extensions for file transfers, and systray notifications.
+
+=================================
+Trillian Astra Changelog
+Build 46 -> Build 47
+June 22 to June 28, 2007
+=================================
+
+======
+FIXES:
+======
+
+465 	Scott Werndorfer 	FIXED 	[ASTRA] Profiles not loading, IM accounts disappearing - profile server
+820 	Scott Werndorfer 	FIXED 	[ASTRA] Contact List changes aren't getting saved in time
+1236 	Scott Werndorfer 	FIXED 	[WEB] Cloned contacts do not respond to double-click
+1383 	Scott Werndorfer 	FIXED 	[ASTRA] XML corruption and proper timeout of connections
+
+2438    Kevin Kurtz  		FIXED  	[Message Window] Typing icon can get 'stuck' at yellow when using hide windows initially
+	Kevin Kurtz  		FIXED  	[Contact List] Contact list should sychronize if you update it in another location while you are still up

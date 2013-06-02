@@ -1,0 +1,16 @@
+                               Halo 2 Windows XP Patch
+
+
+
+Installation Instructions:
+1) Extract the archive.
+2) Insert the Halo 2 DVD
+3) Run Startup.exe on the Halo 2 DVD using the included Loader.exe
+    Ie.: Loader.exe D:\\Startup.exe
+4) Install the game.
+5) Install XLiveRedist1.0.6027.msi and vcredist.msi from the \\redists dir on the Halo 2 DVD.
+6) Copy the following files into the directory you installed Halo 2:
+    dwmapi.dll, mf.dll, MFPlat.dll
+7) Finished. To play the game, run halo2.exe using the included Loader.exe
+    Ie.: Loader.exe \"C:\\Program Files\\Microsoft Games\\Halo 2\\halo2.exe\"
+

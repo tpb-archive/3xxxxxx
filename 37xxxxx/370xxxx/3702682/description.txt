@@ -1,0 +1,45 @@
+Emule 0.48a MorphXT 9.6.most Wanted 1.1.0 basis official emule 0.48a
+
+
+eMule Morph Most Wanted
+
+Current release: 1.1.0
+
+eMule Morph Most Wanted is an improved version of the well-known Morph XT mod for eMule, adding new features, like the SSE compilation-time optimization in order to improve the file sharing, and other minor improvements in GUI, a moderated memory consumption and many other little improvements to optimize your use of eMule.
+
+Of course, eMule Morph Most Wanted includes also all the improvents that the Morph XT team makes to the offcial code of eMule.
+
+Changelog for eMule 0.47c MorphXT v9.2 Most Wanted 1.1.0
+28 May-2007
+MERGED: Merged to 0.48a eMule official release
+MERGED: Merged to 9.6 Morph XT code
+IMPROVED: Most Wanted UI elements redone from scratch
+ADDED: Button on the search window to make easy for the end user the task of clearing his/her searchlist
+ADDED: Strings that were on spanish on previous releases have been succefully localised to english
+ADDED: eMule ask exit dialog has been rearanged, the original was a bit 'unconfortable'
+REMOVED: The SSE 2 release has been removed from this awaiting the feedback of users from the previous SSE 2 release
+REMOVED: Many configuration files that were not needed are not included with this release in order to prevent 'config overwrintings'
+
+Changelog for eMule 0.47c MorphXT v9.2 Most Wanted 1.0.8
+13 Jan-2007
+ADDED: Stealth community fix has been implemented (Fix by tHeWiZaRdOfDoS)
+ADDED: eMule Morph Most Wanted now supports SSE 2, if you have a SSE2 capable processor use the emule_sse2.exe
+instead of the emule.exe (eMule.exe and emule_sse2.exe are only bundled TOGHETHER with the installer)
+Use eMule.exe if using the SSE2 Binaries Package
+ADDED: MediaInfo 0.7.4.3 DLL is now bundled with the release to identify advanced properties of the media files like
+bitrate, codec, etc.
+CHANGED: Splash screen was replaced in this release and is "redesigned"
+CHANGED: Minor changes with little relevance like adding includes, etc
+
+Changelog for eMule 0.47c MorphXT v9.2 Most Wanted 1.0.7
+13 Dec-2006
+CHANGED: Compilation-time optimizations were done in order to improve memory usage
+CHANGED: Splash screen changed due to Christmas time
+
+Changelog for eMule 0.47c MorphXT v9.2 Most Wanted 1.0.6
+30 nov-2006
+Initial Release
+ADDED: Recompiled with SSE to improve performance
+IMPROVED: RSS Feeds, you can read news within eMule with the bundled feeds
+IMPROVED: Some interface elements have been rearranged
+ADDED: The eMule.exe file has is checksummed

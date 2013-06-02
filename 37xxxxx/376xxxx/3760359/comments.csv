@@ -1,0 +1,78 @@
+﻿User Type,Username,Date,Text
+,aliast,2007-08-02T10:39Z,info....We want a description of what this is ...please
+,warewolf51,2007-08-02T15:43Z,"Sorry... here is the info I could find.
+
+CAMWorks? with Machining Intelligence for Automation? is the most advanced CAM programming software available for getting products to market faster, more efficiently and within budget. Introduced in 1997, CAMWorks is a new generation Windows-based CNC programming solution for producing molded parts from solid models. 
+CAMWorks is a SolidWorks速 Certified Gold Product for Manufacturing/CAM Software that provides state-of-the-art machining capabilities seamlessly integrated into the award winning SolidWorks? design software. As the first CAM solution to offer true knowledge-based machining capabilities, CAMWorks leads the way in advancements in Automatic Feature Recognition (AFR) and Interactive Feature Recognition (IFR). CAMWorks offers true associative machining automatically accommodating changes to the part model, which eliminates time consuming CAM system rework due to design updates. 
+
+The integration of CAMWorks into SolidWorks means:
+?	When you are using SolidWorks, the CAMWorks machining tree and commands are available with the click of a button. You never have to leave SolidWorks to generate toolpaths. 
+?	CAMWorks uses the same SolidWorks geometry to generate toolpaths to ensure the part you machine is the same part you have modeled. 
+?	Time-consuming file transfers using standard file formats such as IGES and SAT are eliminated. 
+
+
+Ease of Use
+
+CAMWorks uses the familiar SolidWorks interface, so it is easy to learn and easy to use. The CAMWorks trees are similar to the SolidWorks FeatureManager design tree. Items in the tree can be suppressed, expanded, renamed and moved using the same procedures as SolidWorks. Online help, an Installation and Quick Start Guide and tutorials help you generate toolpaths and code quickly. The tutorials are provided electronically in Adobe PDF files.
+
+
+Automatic and Interactive Feature Recognition
+
+CAMWorks is a feature-based machining CAM system that provides the ability to automatically recognize many prismatic features including tapers. Automatic Feature Recognition (AFR) analyzes the part shape and attempts to define the most common machinable features for mill such as pockets, bosses, holes and slots for mill. AFR also defines Turn features such as the outside diameter and inside diameter of the part, front face and grooves. AFR recognizes features on native SolidWorks part models or on solid parts imported via IGES, SAT, etc.
+CAMWorks also includes Interactive Feature Recognition (IFR) for defining features that are not recognized automatically or features that need to be defined for your particular machining requirements. IFR wizards, similar to SolidWorks feature wizards, provide a simple and quick method for defining machineable features.
+
+
+Machining Operations
+
+After machinable features have been defined, the user can take advantage of the machining automation in CAMWorks to generate operations. Machining operations include roughing, finishing, drilling, etc. Operations are associated to machinable features.
+
+
+Knowledge-Based Machining
+
+TekSoft?s proprietary TechDB, a Microsoft Access database, is the intelligence behind the machining automation in CAMWorks. Using Knowledge-Based Machining technology, the TechDB associates operation parameters to the machineable features. When you generate operations, CAMWorks applies these settings automatically. To further enhance the automation process, the knowledge-based rules in the TechDB are fully customizable to represent your current machining environment."
+[T],Micke_11,2007-08-03T11:05Z,probably a good soft but im no einstien nor employed by NASA
+,warewolf51,2007-08-03T20:01Z,"Do a few tutorials and play with the software a little. Its great for the basic 2.5 axis and good for 3 axis machining. They say is can do 4 axis but I have never tried. 
+
+The thing I love is its fully integrated into solidworks. The main key is do one thing per sketch. Don't make a bunch of different size holes, a contour etc all in one sketch because it won't be able to pick it up. But for the most part the auto feature recognition is really fast and easy. "
+,kriehl,2007-08-21T00:31Z,I think some of the files are missing. The tool section and some menus say there are missing files and or dlls. Anyone know about this.
+,warewolf51,2007-08-21T08:00Z,"@kriehl - I noticed that the last time I tried to run the program. It told me that I was missing to feeds and speeds settings. However, the program still runs and works fine. You just have to input your own feeds and RPM settings which you should probably do anyway. "
+,KaputXino,2007-10-06T05:15Z,"Mine doesn't work, i think the licence didn't work, am i missing something? I did everything as it is in the readme.txt
+
+When looking at the authorized modules, they all show ""available: no"" down the row...
+
+As the help file says, is the licence doesn't work, many functions are disabled, i think that's what's happening"
+,irvacle,2007-10-12T01:44Z,Is this a demo ver?
+,KaputXino,2007-10-22T01:26Z,"No, it's the full version.
+
+BTW, i did get it to work, but the guide is incomplete, in case it happens the same as me, open SolidWorks -> Help -> Camworks License (or whatever - where that last picture of the guide appears, with the checks on the licences), click ""select all"" and ""refresh licences"""
+,TOOL455,2007-12-20T11:55Z,The anticipation is killing me. I have been downloading this for 2 days. It is by far the slowest download EVER....not that I dont appretiate it because I do. I have been searching for camworks for quite some time. It is by far the best cam software you can get.
+,JumpIfNotZero,2007-12-20T23:48Z,"KaputXino is right, the license works, but the text file and doc file are horribly wrong. I wasted at least an hour on this. Do what the doc says and then make sure you go into the program, goto help > Licenses, then select them all, you may get an error on the ones you don't want anyhow.
+
+The UPG is almost required unless you have a spendy machine in their database. Its easy to use and get configured.
+
+This is EASILY the best CAM software for Solidworks files. 
+
+If you like it BUY IT. I want them to keep making new versions,
+
+Speaking of, REQ, IF ANYONE sees CamWorks 2008 please put it up!! No other versions will work with sw08."
+,nsmith40,2008-01-02T00:31Z,it looks like the feeds/speeds library is a separate download.  any chance you would be able to post that?
+,maxxxlogan,2008-08-07T04:27Z,"It works fine......
+
+Once you have setup your FlexLM server and in the status tab it reads ""Succeeded"" you are half way there. At the moment the authirized modules will all be ""NO"", they will only read ""YES"" while the CAMWorks is running and the appropriate modules are activated. They need to be activated through Solidworks first.
+
+Open Solidworks, make sure CAMWorks is active in Add-ins. Then go to 'Help' in the drop down menu. Move mouse over CAMWorks 2008, click on ""License Info...."". Click ""Select All"", click ""Update Licneses"", click ""OK"". Close everything, and restart computer, once back up just run Solidworks and create a part, then view FlexLM authirized modules tab.
+
+Same for 2007 and 2008 CAMWorks.....
+
+Enjoy..........."
+,BanjoHacket,2009-05-05T11:35Z, to warewolf51 Hi! saw you were looking for bendtech pro! wonder if you had any luck to find it? tried to find it myself for some time now but no luck at all :(
+,3dgat,2009-05-28T06:53Z,"I have now solidworks 2009, access 2007, should this work with these or do i need to find an older version of solidworks and access? I ask this because it wont even recognize that I have access when I try and install!!! help please!!!"
+,gerardmos,2009-12-23T17:09Z,"having trouble getting the license to get autherized?
+followed the direstions but the the authurized modules don't appear, any help out there."
+,Blink-,2010-03-17T19:42Z,"Hey guys. Usually I have no trouble cracking/patching software but this has me pulling my hair out.
+
+I've got SW2007, Access 2003, CW2007, and FlexServer installed. I encounter a problem when I try to ""Start"" the CW license service. I can get it ""installled"", but when I try to click start it doesn't work, the button gets depressed then returns to normal.
+
+Do I have to modify the .lic file? I've tried changing local_host or any_host or name, etc.
+
+Can anyone give me some insight as to why I can't get this figured out?"

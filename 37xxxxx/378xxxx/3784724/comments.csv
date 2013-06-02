@@ -1,0 +1,39 @@
+﻿User Type,Username,Date,Text
+,FieroGT42,2007-08-26T05:48Z,"By the way, MW3 really hates Windows XP.  It was crashing constantly for me until I updated to the very latest Microsoft .NET Framework.  It will also crash if you have bad RAM.
+
+BTW, there are registry hacks for hidden resolutions up to 1600x1200.  I've tried them and they work perfectly with the known downside that you can't hit escape to use the game menu while in the middle of a mission, as it will CTD."
+,FieroGT42,2007-08-26T05:53Z,"1024x768 Failsafe to return to normal settings:
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\MicroProse\MechWarrior 3\1.0]
+""InGameVMode""=dword:00000007"
+,FieroGT42,2007-08-26T05:54Z,"1152 x 864 resolution
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\MicroProse\MechWarrior 3\1.0]
+""InGameVMode""=dword:00000008
+"
+,FieroGT42,2007-08-26T05:54Z,"1280 x 1024 resolution
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\MicroProse\MechWarrior 3\1.0]
+""InGameVMode""=dword:00000009
+"
+,FieroGT42,2007-08-26T05:54Z,"1600 x 1200 resolution
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\MicroProse\MechWarrior 3\1.0]
+""InGameVMode""=dword:0000000a
+"
+,Churchills Dog,2007-08-26T14:08Z,"too bad, the opening cinematic is considered the best of all the Mechwarrior opening movies"
+,FieroGT42,2007-08-26T20:37Z,"I know, that intro is awesome, but it would have nearly doubled the package size.  I said I eliminated them purposely.  If you want it that bad, you can find it elsewhere online.
+
+By the way people, you can choose whichever registry/resolution hack you want, paste into a new text file, and rename to .reg.  Then you can just double click to process it.  Do the same with the 1024x768 failsafe, and you can swap between the two easily."
+,Ravenlofty,2007-09-08T01:35Z,"How do you get the game to work, as there is no registry information if you simply unextract the files."
+,Tramp-O-Holic,2007-09-25T05:13Z,This is bogus. Not pre-cracked or it wouldnt ask for the dang CD to be inserted lol. I'd love to find a no cd crack tho if anyone should come by one.
+,stupid m0nkey,2007-11-01T15:48Z,is any one else stuck at 61%
+,DSRT800,2012-04-01T03:33Z,SEED PLEASE 

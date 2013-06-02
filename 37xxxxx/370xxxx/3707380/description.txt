@@ -1,0 +1,741 @@
+WinTools.net Professional 8.4.1 
+ 
+http://www.wintools.net/
+support@wintools.net
+
+
+CONTENTS:
+
+1. What is WinTools.net?
+2. Features
+3. Version history
+4. License and distribution
+5. Contacts
+
+
+1. What is WinTools.net?
+
+A suite of tools for increasing operating system performance. 
+WinTools.net cleanly removes unwanted software from disk drives 
+and dead references from the Windows registry. WinTools.net puts
+you in control of the Windows start up process, memory monitoring
+and gives you the power to customize desktop and system settings 
+to fit your needs. Adds more speed and stability for your 
+connection. Ensures your privacy and keep sensitive information 
+secure. WinTools.net Professional contains tools: Clean Uninstaller,
+Scan Files, Scan Registry, Start Up, Tweak UI, Net Tweaker, 
+The Privacy... 
+
+System requirements. 
+OS Windows 98SE/Me/2000/XP/2003/VISTA x86
+Minimum screen resolution 800x600 
+Pentium processor
+5 Mb free disk space 
+
+Attention! To use this program you need the administrator`s rights. 
+Before working with the WinTools.net we recommend that you close 
+all other applications and create registry backup. 
+
+
+2. Features
+
+Wintools features the following tools:
+
+Clean Uninstaller - This tool is used for both correctly removing 
+software and for monitoring changes made to the hard drive, 
+MS Windows registry and system files during program installations.
+
+ When you uninstall different software, temporary files and files 
+not deleted in the process of uninstallation often remain on the 
+hard disk. These files are no longer used, they take up disk space 
+and increase disk access times. With the help of the tool "Clean 
+Uninstaller" you can solve that problem. You can also control the 
+installation process of program, monitor installed files and changes 
+made to the Windows registry system files during installation. 
+
+
+Scan Files - This tool is used for periodic cleaning of your hard 
+drive from dead references, junk and obsolete files produced by 
+different software. These files and references remain on the hard 
+disk and increase drive access time.
+
+ When different programs are running, temporary files necessary for 
+the proper functioning those programs are created on hard disk. 
+Quite often these temporary files are not deleted. The temporary 
+files remain on hard disk, occupy the space and sometimes slowing 
+the work of your computer. The tool "Scan Files" is used for periodic 
+cleaning of the computer from temporary and unused files. 
+
+
+Scan Registry - This tool is used for periodic cleaning of the 
+MS Windows registry from unused applications remained after 
+uninstallation and from invalid references which decrease system 
+speed and system loading time.
+
+ Many programs store information about themselves in the Windows 
+registry; these programs add new file extension associations and 
+install components of their own. Far too often, the unistallation 
+methods used by these programs fail to remove their information from 
+the registry adding unnecessary bloat. After several series of 
+installation/uninstallation, the Windows registry becomes bigger 
+and bigger; computer power declines and program access times increase. 
+The "Scan Registry" tool serves for periodic cleaning of the registry 
+and for correcting incorrect registry records.
+
+
+Start Up - This is a startup manager. This tool allows you to monitor, 
+add, remove, enable and/or disable individual startup items. You can 
+also adjust applications  initialized during the loading process of 
+the operating system.
+
+ Many programs "consider" themselves the most important programs in 
+a system: they place themselves in startup and in a System Tray of 
+a system. This leads to unreasonable using of system resources, of 
+random access memory; and finally, to reducing processor power. As 
+a rule, such programs write information about themselves not in the 
+Start section of the "Startup" menu, but in the Windows registry without 
+leaving the option to the user and complicating the process of checking 
+the autothread process. The "Start Up" tool monitors all records about 
+autothread and allows to delete/add and temporarily disable records. 
+
+
+Tweak UI - This is a set of additional adjustments related to safety, 
+system capacity and user preferences and which are not included into 
+basic components of MS Windows.
+
+ Adjustments are divided into six groups: 
+
+Global - adjustments which allow for changing system files and 
+registration information. 
+Desktop ? a set of adjustments that can be made to the desktop. 
+System ? system settings, ways of the loading of a system and devices. 
+StartMenu ? a change of the interface of a Start menu. 
+Security ? an adjustment of security of a system. 
+Ctrl Panel ? a manager of the bars used for the administration of 
+a system. 
+
+
+Net Tweaker - tool is used for speed increasing of data transfer by 
+changing hidden network settings. With equal speed connection on 
+different computers different speed of data transfer is possible. 
+The thing is TCP/IP is for transfer of packets of data. The packets 
+can be of different degree of compression, of different size, time of 
+life, can have different error repeats? That is why under different 
+settings, equal speed of connection completely different speed of data 
+transfer is possible. Changing settings with the help of "Net Tweak" 
+tool you can get more stable work with bad connection(at the same time 
+you can lose some speed) or you can get higher speed of data transfer 
+with good connection at the expense of stability which will be 
+provided by good connection line anyway.
+
+
+The Privacy - This is a kit of tools which ensure your privacy and 
+keep sensitive information secure.
+
+While you are working on your computer the system monitors the so 
+called "history" and saves it. All information about your work in 
+the Internet - when and which sites you visited, of what content, 
+which programs downloaded, with which documents you worked, which 
+and whom you wrote, what you looked for, which folders you opened, 
+what computers you connected to - all that and a lot of other 
+information is left on your computer. Any person who has an access 
+to your PC can easily access this information and monitor practically 
+your every step. Besides he/she can collect compromising information 
+about you. In that situation confidentiality can not be guaranteed. 
+So much accessible information about you not only destroys your 
+privacy but also slows down your computer. All this information is 
+kept on your hard drive, in the system registry. Besides the history 
+of started programs, history of the search, history of last opened 
+documents is constantly loading by the system and "eats" RAM of 
+your computer. "The Privacy" tool will let you work on the computer 
+not leaving traces of your activities. It consists of three basic 
+parts: "Objects to Erase", "Invisible Man" and "File Shredder". 
+
+
+3. Version history
+
+The history of the development (+ - added feature, * - bug fix):
+
+
+Version 8.4.1 (April 21, 2007)
+   + non-trasparent interface by default
+   + "Create control point" algorithm was updated
+   + "Analyze control point" algorithm was updated
+   + "Delete all files" algorithm was changed
+   + "Scan Files" algorithm was updated
+   + ScanReg exclude algorithm was changed
+   + hot keys of WinTools.net were changed
+
+
+Version 8.3.1 (March 23, 2007)
+   * bug in ScanFiles algorithm was fixed
+   * bug in SysInfo was fixed
+   * bug with system privileges was fixed
+   + transparent dialog was updated
+   + transparent algorithm was updated
+   + some program algorithms were updated
+   + Splash Screen was updated
+   + lng-files were updated
+
+
+Version 8.2.1 (March 03, 2007)
+   * problem with System Restore under VISTA was fixed
+   * problem with Defragmenter under VISTA was fixed
+   + program fonts were changed
+   + Transparent Window option was added
+   + ClearType Fonts option was added
+   + 93% transparent by default
+   + length of some strings was changed
+
+
+Version 8.1.1 (February 20, 2007)
+   * bug with program size was fixed
+   + Windows VISTA compatible
+   + program details were added
+   + ScanFiles algorithm was changed
+   + Excludes list was changed
+   + some file excludes were added
+   + lng-files were updated
+
+
+Version 8.0.1 (December 03, 2006)
+   * program crash in scan files process was fixed
+   + three new ScanFiles algorithms were added
+   + options page of ScanFiles was changed
+   + a new ScanReg algorithm was added
+   + list of ScanReg algorithms was updated
+   + icons of ScanReg tool were updated
+   + lng-files were updated
+
+
+Version 7.9.1 (September 01, 2006)
+   * full path for "User Temporary Files"
+   * problem with column size of ScanFls was fixed
+   * problem with ScnFls "remove" progress bar was fixed
+   * problem with ScnReg "remove" progress bar was fixed
+   + delete StartUp item by using DEL key
+   + "scan folder" algorithm was changed
+   + "remove files" algorithm was changed
+   + main algorithm of ScanReg was updated
+   + names of "Clean Folders" were updated
+   + new button "Group Policy" was added for MS Tools menu
+   + some buttons of ScanFls blocked in scan process
+   + some buttons of ScanReg blocked in scan process
+   + some algorithms of ScanReg and ScanFls were optimized
+   + some mistakes of lng-files were fixed
+
+
+Version 7.7.1 (July 27, 2006)
+   + Erasure dialog was added (The Privacy)
+   + Erasure algorithms were updated
+   + erasing status added
+   + program settings (by default) were changed
+   + minor changes of program interface
+   + lng-files were updated
+
+
+Version 7.4.4 (June 14, 2006)
+   * problem with UNDO files was fixed
+   + Uninstall Panel was updated
+   + algorithm of CleanUn was updated
+   + disable buttons in Scan Reg removing process
+   + minor changes of program interface
+   + lng-files were updated
+
+
+Version 7.3.1 (May 01, 2006)
+   * problem with "Bad Font" algorithm fixed thaks to Alen "Adept" Hairullin
+   * problem with progress bar fixed thaks to Nikita Deinega
+   * problem in "Shortcuts" status bar fixed
+   + minor changes of interface
+   + lng-files were updated
+
+
+Version 7.1.1 (March 21, 2006)
+   + warning message for CleanUn tool was added
+   + warning message for Searcher tool was added
+   + System Info list was updated
+   + lng-files were updated
+
+
+Version 7.0.0 (January 30, 2006)
+   + the main compiler of project was changed
+   + context menu for Clean Uninstall list was added
+   + context menu for Files list was added
+   + context menu for Registry list was added
+   + context menu for File Mask list was added
+   + context menu for Clean Folder list was added
+   + context menu for Excludes list was added
+   + context menu for Junk files list was added
+   + context menu for Shortcuts list was added
+   + context menu for Software list was added
+   + context menu for Uninstall list was added
+   + context menu for Backup/Undo list was added
+   + context menu for Searcher list was added
+   + context menu for Startup list was added
+   + context menu for Processes list was added
+   + context menu for Services list was added
+   + context menu for Invisible list was added
+   + context menu for Favorites list was added
+   + CPU Brand ID, Vendor, Type... for sysinfo list were added
+   + list Additional Platform Features was added
+   + algorithm of Favorites list was updated
+   + mouse double-click action for Favorites list
+   + mouse double-click action for Clean Uninstall list
+   + algorithm of Shortcut scan was updated
+   + tech support address was updated
+   + TreeView of Objects to Erase was updated
+   + language.exe was updated
+   * problem in ScanReg when lowarcase letters ignored was fixed
+   * problem with StartUp shortcut creating was fixed
+   * problem with creating Exclude folders was fixed
+
+
+Version 6.7.1 (December 07, 2005)
+   * problem with Windows themes was fixed
+   * problem with ScanReg Exclude was fixed 
+   * problem with Panda Antivirus was fixed
+   + main library of interface was updated
+   + lng-files were updated
+
+
+Version 6.5.1 (October 30, 2005)
+   * some problems of TweakUI were fixed
+   * algorithm of ScanReg was changed
+   + new file masks were added
+   + excludes for ScanReg and ScanFiles were added
+   + lng-files were updated
+
+
+Version 6.3.1 (September 30, 2005)
+   * memory problem of ScanReg algorithm was fixed
+   * bug with leakages in services was fixed
+   * NetTweak bug with options was fixed
+   + autoscroll for ScanFiles list was added
+   + autoscroll for ScanReg list was added
+   + mouse double-click action for "Startup" list
+   + NetTweak options were updated
+   + 10 new file masks were added
+   + lng-files were updated
+
+
+Version 6.0.1 (August 25, 2005)
+   * problem with virtual memory in list was fixed
+   + algorithm of scan registry was updated
+   + 15 new file masks were added
+   + traditional chinese.lng was added
+   + korean.lng was added
+   + lng-files were updated   
+
+
+Version 6.0.0 (August 07, 2005)
+   * problem with excludes(ScanReg) was fixed (thanx to Alexandr Burachewskij)
+   * problem with "Processes" list was fixed
+   * problem with "Control Panel" list was fixed
+   + new tool Searcher(ScanReg) was added
+   + button-menu was changed(TweakUI)
+   + some interface problems were fixed
+   + "Creation Time" for list "Applications" was added(ScanReg)
+   + "Creation Time" for list "Uninstall Menu" was added(ScanReg)
+   + some minor changes of interface
+   + lng-files were updated
+
+
+Version 5.7.1 (June 23, 2005)
+   * problem with lng files in CleanUn was fixed
+   * problem with interface in CleanUn was fixed
+   * problem with Stop button in Scan Files was fixed
+   * problem with number of processes in status bar was fixed
+   + major update of main algorithm of Scan Files
+   + major update of main algorithm of Scan Shortcuts
+   + major update of main algortithm of Scan Reg
+   + all main algorithms of Clean Uninstaller were updated
+   + disable windows in process of creating/analysing of control point
+   + window resizing in CleanUn was changed
+   + amount of changes for CleanUn in status bar
+
+
+Version 5.6.1 (May 17, 2005)
+   * empty item in Erase object`s tree was removed
+   * problem with folder type definition was fixed (Scan Files)
+   + algorithms of "Erasure" tool was optimized
+   + algorithm of file removing was updated (freeze effect fixed)
+   + new option: "Remove empty folders of Start menu" was added
+   + additional algorithm/option for "Shred Files" was added
+   + New tool "Fragment deleted files" was added
+   + lng-files was updated
+
+
+Version 5.5.1 (April 05, 2005)
+   * problem with "Delete Item" (Startup Manager) was fixed
+   * problem with CS products of Adobe was fixed
+   + File Shredder algorithm was updated
+   + compatibility with McAfee products was added
+   + lng-files was updated
+
+
+Version 5.3.1 (March 07, 2005)
+   * some problems in Scan Registry was fixed
+   + status for lists: Software, Installed, Services, Startup was added
+   + possibility of remove several items was added to Startup Manager
+   + services Tab was modernized
+   + processes Tab was modernized
+   + additional options for services was added
+   + some minor changes of interface
+   + points: Software Entries and Installed Software was added to System Report
+
+
+Version 5.1.1 (December 20, 2004)
+   * problem with "Loaded Processes" in "System Report" was fixed
+   * "Apply" button was enabled (Tweak UI - Ctrl Panel)
+   * some mistakes in lng-files was fixed
+   + czech.lng and polish.lng was added
+   + minor changes of interface 
+
+
+Version 5.0.1 (November 07, 2004)
+   * floppy drive not rattle in program loading
+   * increased speed of removing of files (Scan Files)
+   * some mistakes in lng-files was fixed (thanks to Gordan Djukic)
+   * some interface problems was fixed for Win9x
+   * increased speed of loading of program
+   * problem with hard drive definition was fixed (Win9x)
+   + new tool "Services"-tab was added (Start Up) XP/NT
+   + "Processes"-tab was modernised (Start Up)
+   + "Search and remove MS Windows log-files" option was added (Scan Files)
+   + "Remove log-files" object for erasing was added (The Privacy)
+   + "WinTools System Report" was added ("Action" point menu)
+   + "Command Prompt" was added ("Action" point menu)
+   + "MS System Restore" point menu was adeed in "MS Tools" menu
+   + some program icons was changed
+   + swedish.lng was added (thanks to Sture Bohlin)
+   + serbian.lng was added (thanks to Gordan Djukic)
+
+
+Version 4.9.1 (September 30, 2004)
+   * problem in "privacy" tool was fixed thanks to Gene Kim
+   * problem with tooltips for "Clean Shortcuts" tool was fixed
+   + algorithm of creating of control point was updated
+   + interface of "Scan Files" and "Scan Reg" tools for XP was changed
+   + algorithm of checking hard drives was changed
+   + buttons in Scan Files tab was changed
+   + some icons was changed
+   + hungarian.lng was added thanks to Jozsef Tamas Herczeg
+
+
+Version 4.7.1 (August 23, 2004)
+   * fixed bug in File Shredder tool
+   * fixed problem with icons under Windows 2000 
+   * fixed problem in "Software Entries" list with deleting items
+   * fixed bug in ScanFiles when disk is empty
+   + list "Software Entries" modernized 
+   + button "Search" for "Software Entries" list was added
+   + optimized some algorithms of program
+   + language file "french.lng" was added thanks to Colok
+   + language file "portuguese_br.lng" was added thanks to Alexandre Pina
+   + added progress bar when restore one undo file
+   + point menu "Action->Reboot Computer" was added
+   + Windows XP Service Pack 2 compatible
+
+
+Version 4.4.1 (June 27, 2004)
+   * Fixed mistake with minimal size
+   * Fixed mistake in message loop
+   * Changed resizing algorithm of main window
+   + Added possibility to scan only Windows folders in "Scan Shortcuts"
+   + Updated code of "Uninstall Menu" list
+   + Mouse double-click action for "Software Entries" list
+   + Mouse double-click action for "Uninstall Menu" list
+   + Mouse double-click action for "Undo Files" list
+   + Mouse double-click action for "Back Up" list
+   + "RegEdit" button for opening selected key in "Software Entries" list
+   + "RegEdit" button for opening selected key in "Uninstall Menu" list
+   + One "Undo" for one removing process
+   + Analytical info for uninstall Menu (Status column)
+
+
+Version 4.2.1 (May 25, 2004)
+   * fixed problem with program menu
+   + delete empty "Startup-" folders
+   + minor changes of ScanReg algorithms
+   + minor changes of interface
+
+
+Version 4.1.1 (April 12, 2004)
+   + window maximized size saved correctly
+   + Save Window Size by default
+   + added new points in SysInfo list
+   + added "Delete all undo" button
+   + minor changes of interface
+   * fixed bug in "Net Tweaker" (program crash in Win98SE)
+   * fixed problem with window moving
+   * fixed bug in option "Move to folder"
+
+
+Version 4.0.1 (March 12, 2004)
+   + "window-resize" possibility was added
+   + updated program interface
+   + compatibility with big fonts for menu was added
+   + added possibility to save size and position of WinTools.net window
+   + added menu point "Save Window Pozition"
+   + added menu point "Save Window Size"
+   * incorrect work of "Supress Screen Saver" was fixed
+   * problems with languages in dialog boxes was fixed
+
+
+Version 3.8.1 (February 10, 2004)
+   + WinTools.net Password Protection Mode
+   + open RegEdit with selected key in CleanUN and ScanReg
+   + Interactive lists:
+	- CleanUn: Files
+	- CleanUn: Registry Keys
+        - ScanReg: Invalid keys
+   + added in ScanReg: list of lnk-excludes
+   + in MS Menu added links for:
+	- Services
+	- Computer Management 
+   + added in ScanFiles (only for professionals):
+	- searching for files with zero size
+	- searching for empty folders
+   * save data in Status Bar
+   * fixed bug with "Scan"-button in ScanReg
+   * fixed bug with Progress Bar in ScanReg (in process of removing keys)
+
+
+Version 3.7.1 (January 17, 2004)
+   * fixed problems with interface
+   * fixed german.lng and ukrainian.lng
+   + autoclosing of programs in process of Uninstallation
+   + optimization of ScanReg algorithms (added scan speed)
+   + updated ScanReg algorithms: 
+     - "Broken Volume References"
+     - "Broken Data References"
+   + added new algorithm in ScanReg:
+     - "Scan HKEY_CLASSES_ROOT"
+   + arabic.lng added
+
+
+Version 3.6.1 (December 23, 2003)
+   * fixed serious problem in ScanFiles
+
+
+Version 3.5.1 (December 15, 2003)
+   * fixed bug with fonts in Lists and in Status bar
+   * fixed bug with "~*.*" mask
+   + Import/Export points added in "File" menu 
+   + added "MS Tools" point of menu
+   + "Run..." dialog for point of menu "Execute"
+   + in "ScanFiles -> Clean Folders" list added autodefines of temp folders:
+     - Internet Cookies Folder
+     - Internet History Folder
+     - Temporary Internet Files
+     - User Temporary Files
+     - Windows Temporary Files
+     - Prefetch Folder
+     (* - marked)
+
+Version 3.4.3 (December 07, 2003)
+   * problem in "Internet Favorites" was fixed
+   * fixed problem with "Invisible" control points
+   + added Net Tweak and The Privacy notices
+   + added russian.lng
+
+
+Version 3.4.1 (December 01, 2003)
+   + release of "Professional" edition
+   + Net Tweaker Tool
+   + The Privacy tools: Erasure, Invisible Man, File Shredder
+   + 800 pix size
+
+
+Version 3.4 (November 15, 2003)
+   * fixed bug in CD-ROM excludes of Scan Reg
+   * fixed bug with result lists
+   + minor changes
+
+
+Version 3.3 (November 09, 2003)
+   * fixed problem in list of junk files and registry broken links
+   * fixed bug in check boxes of options
+   + visualisation of 'Apply' in StartUp and TweakUI
+   + check box for option "Set notices by default"
+   + added romanian.lng
+   + minor changes in help files
+
+
+version 3.1 (October 17, 2003)
+   + minor changes
+   + added german.lng
+
+
+version 3.0 (October 12, 2003)
+   * bug in ScanFiles exclusions was fixed
+   + additionals to Tweak UI:
+     + Screen Savers TAB
+     + Commands Tab
+     + Hardware Tab
+     + more options in "Desktop", "System", "StartMenu", "Security"
+   + minor changes
+
+
+version 2.73 (September 24, 2003)
+   * bug in registry excludes was fixed
+   + added list of excludes
+   + added ukrainian.lng
+
+
+version 2.7 (September 15, 2003)
+   * memory leakage was fixed
+   * bug in processes Tab was fixed
+   * bug with "Always on top" was fixed
+   + added notices for tools
+   + RAM monitoring
+   + refresh drive size after delete files
+   + backups is changed
+   + MemoryBooster was removed for RAM monitoring use RAMSaverPro
+   + elapsed time since Windows was started
+   + german.lng was added
+   + 21-days trial period
+
+
+version 2.4 (August 10, 2003)
+   * ScanReg - bug with "-=[NAME]=-" folders was fixed
+   * size of "Uninstall" window was fixed
+   * ScanReg - exclusions` bug was fixed
+   * bug in MemoryBooster`s timer was fixed
+   + multilanguage support for MemoryBooster was added
+   + "Memory Booster" in "Tools" menu
+   + Shortcuts Scan - message box "disk not found" was supressed
+   + MemoryBooster, speed of optimization was increased
+   + progress bar in MemoryBooster`s tray
+   + added "Options" menu:
+        - Always on top
+        - Magnet Window
+        - Suppress "Screen Saver"
+        - Autostart Memory Booster 
+
+
+version 2.2 (August 03, 2003)
+   * the program lost dependence on shortcut
+   * the problem of compatibility with MS Office was solved
+   + new tool - "Memory Booster" was added
+   + single registration for all systems of the computer
+   + buttons for deleting of entries from change-lists were added
+   + changes in "CleanUn" algorithms
+
+
+version 2.0 Final (July 27, 2003)
+   + the program lost "Beta" status
+   + minor interface changes
+
+
+Version 1.91 Beta (July 21, 2003)
+   + algorithm for scanning registry is completely updated, the speed 
+     of scanning is added
+   + warning messages if analysing files are absent
+   + autofilling of report field
+
+
+Version 1.9 Beta (July 19, 2003)
+
+   * the possibility for optional removal of keys and files in 
+     uninstallations
+   * fixed bug in lng-files
+   * fixed bug which leads to damages of installations of MS 
+     applications
+   * fixed bug with fillings of templates` names
+   + algorithms for registry scanning in Scanreg and CleanUn 
+     are changed
+   + new possibility to remove old entries about installed drivers 
+     TweakUI->System->OEM drivers is added
+   + smooth scrolling occur while removing files
+   + smooth scrolling occur while removing registry keys
+   + additional information about free RAM is added
+   + algorithm for scanning files is completely updated, the speed 
+     of scanning is added
+   + algorithm for scanning shortcuts is completely updated, the speed 
+     of scanning is added
+
+
+Version 1.8 Beta (July 12, 2003)
+
+   * a mistake in documents templates is fixed
+   * program mistake while changing colourful icons is fixed
+   * mistake in the algorithm of searching removed fonts is fixed
+   * a mistake leading to removal swap-file is fixed
+   * while pressing button of control panels the list is updated
+   + the algorithm for registry scanning is changed
+   + english help-file is added
+   + additional possibilities in the "Control Panels" tab are added
+   + the button remove control point is added
+
+
+Version 1.75 Beta (July 08, 2003)
+
+   * while finding cpl-files which do not belong to control panels mistake 
+     does not pop up
+   + added possibility turn off problem tools in the start up process
+   + added tasks manager in the StartUp tool
+
+
+Version 1.7 Beta (July 05, 2003)
+
+   * mistake with descriptions for menu points is fixed
+   * changing adjustemets of Windows bootup mistake is fixed
+   * mistake with filling startup entries from win.ini is fixed
+   + possibility to hide control panels under Win9x is added
+   + work with panels registered in MMCPL
+   + documents template editor in TweakUI -> Desctop -> 
+     Templates is added
+   + sorting for lists with scanning results is added
+   + possibility to save disks adjustmets for uninstall is added
+   + message about changes made is added
+   + turning off of screen saving while scanning
+   + possibility to make exceptions while registry scanning
+   + insignificant changes of program interface
+
+
+Version 1.5 Beta (June 28, 2003)
+   
+   * mistake with F1 help is fixed
+   * mistake with help from Language Panel is fixed
+   * uninstall entries scanning algorithm is rewritten
+   * fixed problem with uninstallation of WinTools.net
+   + possibility to scan registry without administrator`s rights
+   + button App Wizard for quick loading of Add/Remove programs 
+     panel is added
+   + entries support with QuietUninstallString in uninstallation 
+     menu? is added
+   + descriptions for menu points are added
+
+
+Version 1.31 Beta (June 24, 2003)
+
+   * a number of mistakes in ScanReg leading to WinXP system crash is fixed
+
+
+Version 1.3 Beta (June 20, 2003)
+
+   + added help file
+   + added multilanguages support
+
+
+Feel free to send suggestions for features you want to be implemented in WinTools.net.
+
+
+4. License and distribution
+
+See license.txt.
+
+
+5. Contacts
+ 
+WinTools Software Engineering, Ltd.
+
+Please don't hesitate to send your questions and suggestions 
+regarding WinTools.net to e-mail: support@wintools.net
+
+Phone: +375297231337
+
+Official web site: http://www.WinTools.net/
+

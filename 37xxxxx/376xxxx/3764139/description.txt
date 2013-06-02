@@ -1,0 +1,38 @@
+WHAT IT IS:
+NUCLEAR SNOW is a graphical overhaul of Stalker, where the world mostly is
+black and white with strong contrasts whilst some objects, effects and blood
+is highlighted with color, making even more contrast between the edited graphics.
+The movie Sin City has been used as a reference (http://www.imdb.com/title/tt0401792/), which should give you an idea of what to expect.
+
+
+THE CHANGES:
+-Retexturing of over 3000 textures
+-Stronger bumpmaps
+-Stronger parallaxmaps
+-Bigger bloodmarks
+-Bigger bloodpuffs
+-Light from headlamp extended
+-Weathercolors altered
+-Fireparticles extended
+-Modified Carrymod2 inserted, compatible with Carrymod3
+
+
+HOW THIS RESULT WAS ACHIEVED:
+Several tests were made before I came up with a somewhat good result. What I had
+to do was to change many textures, sky, ground, foliage and actors to be able to
+see how the result might end up, so before making the final overhaul, there were
+plenty of hours photoshoping and batchrunning. The final retexturing took me several days, mostly because of the different settings for every texture to not loose alphachannels and to get a good result on the image - amongst the other textures.
+So, when I ended up with my favorite result, I recorded it in Photoshop as a macro and then ran it on a couple of files at the time, mostly the same group of textures, just to not loose track of where I was editing. To be able to edit and save into Stalker's textureformat I used Nvidias DDS-plugins for Photoshop.
+After that, the fun part took place, I started editing some images, like blood, artifacts and some other textures, to achieve the strong contrast in a gamescene. Then some shaderediting and lightcolorchanges in the engine took place, and finally it ended up with this result. Some time was also spent on looking for the grasstexture, which GSC has hidden well, thank you nokturnal over at oblivion-lost.de's forum for pointing them out.
+
+So, hopefully now you'll be able to play this with the amusement it was intended to give.
+
+
+INSTALLATION:
+To make this mod run correctly, all you need to do is to extract the folder 'gamedata' in the rar-package to your STALKER's rootdirectory, for instance: C:Program FilesTHQS.T.A.L.K.E.R.gamedata
+
+
+NOTE: 
+This mod should be installed on top of Carrymod3 (or just leave out the file
+system.ltx if you install Carrymod3 afterwards). 
+It is not compatible with any other mod that changes textures on ground, sky or models, it will run but it will not retain the intended overall look.	

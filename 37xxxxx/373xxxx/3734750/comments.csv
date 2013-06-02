@@ -1,0 +1,39 @@
+﻿User Type,Username,Date,Text
+,evilgenx,2007-07-07T19:38Z,Awesome. Tnx dude. :)
+,mroblivious1bmf,2007-07-26T09:53Z,"TONS OF VIRUSES! DON'T DOWNLOAD!
+
+PACKED TROJANS/MALWARE"
+,ShiningSun,2007-11-22T23:07Z,"Any chance of getting a seed on this? Been sitting on it for a while and haven't managed to get anything, so if anyone out there has this and can seed it, would be pretty awesome."
+,ShiningSun,2007-11-23T01:45Z,"I found a copy of this myself at 
+http://software.bbsdocumentary.com/IBM/WINDOWS/MAJORBBS/
+
+proceeded to load this into the torrent so i can seed and help out. For those of you that want it http, it's there in that link.
+
+mroblivious1bmf  is an idiot, theres no virus in here that any scanner i have can find
+AVG
+ClamWin
+Avast
+mroblivious1bmf  is jsut being a tard."
+,dogbolter0,2007-11-26T19:01Z,"hey was wondering if anybody had any luck with this?? I got the bbs up and running however, i cant seem to conenct to it via telenet from anywhere within the network or im assumeing outside... If anybody messes with this and got it fully funcioning could you maybe help me out, im pretty far in the setup, and it could just be the driver for telnet thats holding me back.... Thanks and also thanks for sharing this..."
+,dogbolter0,2007-11-26T20:36Z,"ShiningSun, maybe we could help each other out some how... i just want to get this up and running so a friend and I could playe Tele Arena, game was fun as hell back in the day, and would love to play it agian, ive seen some sites that have it but they want money, so screw that... "
+,ShiningSun,2007-11-30T07:11Z,"I ran into a couple snags along the way, ending up going through the readme file that came with it quite a few times. I think i had the same problem you do when i initially set it up.
+I assume you set the driver up. (swsvpkt, if you can really cal it a driver)
+by the sounds you did, if the bbs is running. now when you did the bbs setup, the ip you give it, CANNOT be the same as your computers. 
+when i set it up, i gave it my lan ip for my desktop which was 192.168.1.101, and i ahd the same issues, then i read again and again and figured it out, give the BBS it's own ip.
+i used 192.168.1.150, jsut make sure to have port 23 which is the port telnet uses, port forewarded. on the network, you'll connect to the bbs via your the bbs's network ip, while your freinds on outside internet connections will connect to your internet ip. 
+http://www.whatismyip.com
+
+i'll keep my eye on this torrent for replies. if this doesnt work, let me know we'll work from there."
+,dogbolter0,2007-12-10T06:42Z,"Hey thanks, i did change the ip to a different one other then my PC, actually used the same one as you .150  anyways, thanks again, now im going to try and forward port 23 and see if a friend can connect (telnet) to the BBS... I still have a few of the options i want to change in the configuration.. I love playing tele-arena, so i am pysched someone put this up, i have been looking to have my own copy of TA for years, mainly because i see it dying off rather quickly... I've even been thinking about putting up a bbs strictly for TA purposes... I wish i knew more ways of editing the game, i have found some sysop commands and got most of them to work, but there has got to be more and really wish there was a completel sysop guide to the game showing you how to edit maps/rooms, and ways to teleport to the exact room someone may be stuck in, as of now the teleport command seems to only bring you to the dungeon entrance and maybe some other place in town 1, i want to be able to teleport to the 3rd arena :)   ok man, thanks again for all your help, you defintley got me up and running... "
+,tonicfan,2007-12-15T07:46Z,"I cant get the darn driver to load!
+I follow the instructions but its not showing up in the list with the other stuff.  i dont know what im doing wrong.
+The windows TCPIP is listed there along with some other misc stuff but not the swsvpkt... very weird.
+anybody else have this problem?
+if not or if so how do i solve it, i really wanna get this to work :(
+
+thanks"
+,tonicfan,2007-12-23T11:11Z,"welp i got another dos packet driver to work and the bbs loads, but i cant figure out how to set up the rest of the IP address, gateways etc.  What are your guys settings for those?
+i tried changing the IP to .150 and i cannot connect via telnet :(
+Do u have the full list of the addresses examples tha tu use to get it to work?
+thanks"
+,reking,2009-03-27T13:24Z,Does anyone have a trade wars helper?

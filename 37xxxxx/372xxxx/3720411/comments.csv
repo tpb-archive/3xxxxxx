@@ -1,0 +1,492 @@
+﻿User Type,Username,Date,Text
+,cosminmihaiu,2007-06-21T22:14Z,Hy guys...it worked for a friend of mine ... i`m not quite the fan of shooters...but my friend gave it to me and it works .. ! Have fun (if it works ! )  :P
+,cosminmihaiu,2007-06-21T22:15Z,oh yea ... SEED ! :P
+,Captainrave,2007-06-21T22:18Z,well an xp patch is inevitable...will wait for someone else to say whether this works though!
+,jennysalala,2007-06-21T22:59Z,"Damn! I can't use vmware to test this if it's a virus or not, or if it's just a fake. Crossing fingers it'll work. I'll reply back if it does."
+,johndmes,2007-06-21T23:15Z,Will this work with a scene DVD< or do you have to have a original one for this patch to work?
+,jennysalala,2007-06-21T23:36Z,"Works with Razor1911 H2 release and others. So yes it works with ""scene"" releases. Performance goes up 30~40% with XP. I can finally set graphics detail to high! Everything loads faster too!"
+,cosminmihaiu,2007-06-22T00:20Z,glad it works... Have a nice time playin`  all!
+,raggen5,2007-06-22T01:52Z,buy vista better than xp
+,cosminmihaiu,2007-06-22T02:18Z,hey .. the Patch Came out for those who can`t affor a 200-300$  Vista .... if you don`t like it .. don`t download it ... hell ... Vista received like 3 awards for more dissapointing cause many programs don`t work on it .....
+,Nocturn3,2007-06-22T04:31Z,"Vista sucks at the moment.  I'll stick with XP for a while yet.
+
+And as for ""buying"", lol, that's what torrents are for."
+,jennysalala,2007-06-22T07:09Z,"Pegases, did you use Loader.exe to open the Startup.exe on your virtual drive.
+
+e.g code on cmd: \Loader.exe H:\Startup.exe
+
+Locate the path of your loader.exe and replace the H with drive you have halo2 mounted on."
+,crooked_hyeena,2007-06-22T08:18Z,"hey i havent still found what o do with loader.exe !!!!!!!
+
+when ever i click it t shows error"
+,cosminmihaiu,2007-06-22T08:51Z,"crooked_hyeena .... it`s simple ... go TO START -> RUN...THERE YOU WRITE : 
+{the location for the loader}/loader.exe {location  setup}/startup.exe
+Example :
+C: |Documents and Settings|MafiotuL|Desktop|Loader|Loader.exe G: |startup.exe
+God damn...it should work now ... uhm also, i found out that you have to have a good pc for it to work...gl & hf guys ... i`m leavin` town for 2 weeks
+"
+,crooked_hyeena,2007-06-22T09:30Z,"let me try !!
+
+ty "
+,crooked_hyeena,2007-06-22T09:31Z,"how the hell did u know bt my pc 
+
+lolzzzzz"
+,13ricsi13,2007-06-22T13:20Z,It doesn't work my computer. I click the Loader and a i can see a black window. And it's gone.
+,Drmonkeybutt,2007-06-22T13:45Z,"Hi Guys, I am having problems.  The loader allows me to get into the Halo 2 install menu but when I go to customise install and select 'full install do not start', the install menu shuts down and nothing happens."
+,Drmonkeybutt,2007-06-22T14:07Z,Oops - forget my previous problem.  Seems I had the 'wrong' startup.exe.
+,13ricsi13,2007-06-22T15:29Z,I can't do that:( Anyone can upload the way in pictures?
+,cosminmihaiu,2007-06-22T16:46Z,"problem .. big time .. if you install the game, and it works...you won`t be able to pass to level 2 ... you need the activation code ... :/ didn`t find any yet on the internet"
+,13ricsi13,2007-06-22T18:08Z,but I have the original DVD :D
+,gamerico,2007-06-22T18:58Z,"Hi thanks for the upload but i have a problem
+
+at the beginning of the installation it says it cant find vcredist.msi
+
+what to do."
+,jennysalala,2007-06-22T21:12Z,"If you have the original DVD (you bought the game) you can pass activation. For people who didn't buy it, you'll have to wait. 
+
+Has anyone tried using the MF.DLL patched by Razor1911 on XP."
+,denizen23,2007-06-22T21:35Z,what if its already activated on vista?
+,johndmes,2007-06-22T22:13Z,"@jennysala:
+
+The RAZR MF.DLL causes a crash during loading of the main menu, you have o use the copy provided in the XP patch.   Not sure what ACTIVATE.EXE on the disk does - will try it with the loader and see."
+,jennysalala,2007-06-23T00:20Z,"i just noticed. It gives an error dialog.
+
+And if it's already activated in Vista, you'll still have to activate it in XP. Don't worry, i did it as if I activated it in Vista. It'll work without anything wrong."
+,Kenny2525,2007-06-23T00:43Z,"Jennysala, plz tell me how u acivated it on XP..please"
+,jennysalala,2007-06-23T02:58Z,"I have the original game. I bought it from EB Games. So when I was playing, it asked me to activate and I said yes. And there on after Halo 2 was activated. You have to have the original."
+,jennysalala,2007-06-23T03:08Z,"Workaround for playing rest of game found!!!!!
+
+Everyone who can't activate now can! Not really but on the same border.
+
+1. Take the Loader version of MF.DLL and place it into you WINDOWS\system32 folder (ie.. C:\WINDOWS\system32\)
+
+2. Take RZR1911 version of MF.DLL and place it into your Halo 2 folder (ie.. C:\Program Files\Microsoft Games\Halo 2\)
+
+3. You should now be able to play all levels as if it's activated!!!!"
+,Oblivion_4,2007-06-23T04:07Z,"allright, this is a retarded question, but has anyone been able to play multiplayer using this on XP???? 
+
+Note: I don't care if you can't get on XBOX Live. I am talking more playing over a local area network."
+,denizen23,2007-06-23T08:03Z,"why does XLiveRedist1.0.6027.msi behave like it's installed already?  only the remove and repair options are enabled, and this is my first XP install"
+,denizen23,2007-06-23T08:28Z,"Nevermind,  IT WORKS!
+Using the original DVD,  the game works in windows XP!!!"
+,Bakkake,2007-06-23T12:08Z,"Seriously...
+
+Extract the content of the rar somewhere, like C:\wata
+
+To open a 'dos' window click on start -> run -> type ""cmd"" without the """" and press Enter.
+
+In the dosbox type ""c:"" to get to the C drive then type ""cd wata"" to get  into the wata folder.
+
+Now make sure that the DVD is in the drive or otherwise mounted. In the 'dos' box type
+""Loader.exe F:\Startup.exe""   (for F fill in your dvd drive letter""
+
+Now Setup starts. once its done, install the 2 other apps it requires and copy the files over as described in the readme.
+
+Now go back to the dos box and type in
+Loader.exe ""C:\Games\Halo 2\halo2.exe""
+(you HAVE to use the """" in the command line) If C:\games\halo 2\ is where you installed the game (substitute that path with wherever you installed your game)
+"
+,turkeyspit,2007-06-23T21:00Z,"Ok, I need some help here.  I've done all that the .nfo has told me to do, and I have the game working fine.  The only problem is that it keeps telling me to ""activate"" the game, and I can't seem to make that happen.  I don't want to have to download a 4 gig ISO from Razor just to make this work.  I have the original DVD w/ CD Key (I bought it) and I just can't activate it.
+
+Any help would be appreciated..."
+,azamba89,2007-06-23T21:48Z,"Hey...some1 help..
+I did all right...the dll files etc..
+I star the game, and in Menu Screen, to Choose Difficult level,i choose normal, and then...nothing happens!!!
+I found out that in the maps folder, all files was like this ""00a_introduction.maptnptemp"", without map extension.
+I rename to ""00a_introduction.map"" and they get the icon of Halo2.
+I Star the game again, and soon after i choose the difficult level, appear a Introduction Halo 2, just like when the game starts, and right after, a message show up..."" Insert the Original Disc"", and thats it!!
+I dont know what to do anymore....
+Someone can help me plz???
+
+Thx for the upload anyway.
+
+P.s: sry for my english..."
+,jennysalala,2007-06-24T00:02Z,"I posted how to activate the game in XP.
+
+Copy the mf.dll provided by the Loader.exe into your WINDOWS/system32 folder (e.g. C:\WINDOWS\system32).
+
+Then copy the mf.dll provided by Razor1911 into your Halo 2 folder and play. Halo 2 is now activated like in Vista!"
+,jennysalala,2007-06-24T00:06Z,"@azamba89: I found a work around. It's just a bug with XP.
+
+I had this problem, your maps now have odd file extensions so Halo 2 sits there doing nothing like a lemon because it can't find the files it is supposed to read, possibly a bug, go to your maps folder and change all the file extensions of the maps to "".map"" instead of "".maptmp""
+
+If it says ""please insert disk"" after you have done that, you will need to completely nuke halo 2 vista from your system (all reg entries, hidden folders .ect.) then reinstall it, that method worked for me., if you do not completely nuke it, the install will complain about it still being on your computer and telling you to click play)
+
+something that makes nuking it harder is the fact that halo 2 will not uninstall on XP so you need to manually track down all of it's files and reg entries then delete them.
+
+I recommend CCleaner, that will kill some things, but you will need to find the rest yourself."
+,Jerico,2007-06-24T02:02Z,"Is there away to change to default install directory, since my c: drive doesn't have the space Halo 2 needs....when I click change directory and select one of my larger partitions, it just tells me there isn't enough space even thou there is."
+,johndmes,2007-06-24T02:24Z,"Ran iinto the ""Please insert original disk"" glitch, and have deleted everything I can find, both on the disk and in the Registry - When I try to reinstall, it keeps telling me that the game is alreaqdy installed - Anyone have any info on what keys need killing OTHER than the obvious ""Halo2"" ones?"
+,denizen23,2007-06-24T03:03Z,is anyone else experiencing random pauses in the game?  the game keeps freezing for 2-5 seconds and then resumes
+,jennysalala,2007-06-24T03:10Z,"@johndmes: Yea there's some not so obvious ones. Look in your home folder (e.g. C:\Documents and Settings\Your Name\Application Data\)
+
+Look in Application Data, in the folders Microsoft\Halo 2 and Microsoft Game Studios. Delete both.
+
+Then try reinstall."
+,jennysalala,2007-06-24T03:16Z,"Also there's another entry in registry you have to delete.
+
+Go Start-->Run--> type regedit and press enter.
+
+Then browse to HKEY_LOCAL_MACHINE (HKLM)\Software\Microsoft and delete the entry name Halo 2 by right clicking the folder and selecting delete.
+
+Another entry is at HKEY_CURRENT_USER(HKCU)\Software\Microsoft\ Microsoft Games and again delete the entry named Halo 2.
+
+It should now all you to install the game again. And hopefully get you playing without problems.
+"
+,azamba89,2007-06-24T03:17Z,"OK...im done... i deleted all....i run the CCleaner too..all clear..
+BUT....now i get another error...worse...i think...when i try load the Startup with Loader.exe...
+
+""Files Are Missing or Damaged in the installation directory! Some Important files required to run this game are missing in the installtion directory.""
+
+And thats it....shit...is too much trouble for just a game, in just 1 day....
+Some1 able to help?
+Thx!!"
+,azamba89,2007-06-24T03:45Z,"i was able to fix that....but only after i executed the .exe files inside /redists directory, ""H2V-licr"" to be more especific.
+BUT...i went back to beginning...i cant ""install"" the game, only ""Play Halo 2 for Windows Vista"" is avaliable.
+So....here im again....if i delete all files HL2, then i cant run startup.exe, if i dont delete all HL2, i cant install the dam game.
+any suggestions??
+thx!"
+,johndmes,2007-06-24T05:32Z,"@jennysala -
+
+Tried all that, still says that the game's already installed.  Guess there's something somewhere else - at this point it's looking like a reformat/reinstall is the only option - and that's kinda overkill for one game.
+
+Ah well - anyone know when Overlord'll be available on TPB? :)"
+,draco7891,2007-06-24T09:58Z,"Works until ""Gravemind"" level. Then I get an ""Insert Original Disc"" error. Seems they added some level-side protection, as all levels previous to that worked flawlessly.
+
+For those with installation troubles: think harder about the options given to you. Installing the game is like a tiny puzzle unto itself, but anyone can do it. Just think beyond trying to find a direct install link. Remember that Microsoft's idea of ""repair"" is ""copy all the original files again"", and that trying to click things that say ""customize installation options"" is generally a good start. ;)"
+,tussilago4568,2007-06-24T10:03Z,"Hi, i try to install the game but when i have chosed the path and press ok everything goes away. Tried several times but it's always the same. The first time i tried, it said that i needed to make somekind of computer overview for the game to know what kind of hardware i got. I clicked don't show this again, and everything went away. Now, what kind of option is this? It was supposed to be located at the control panel but i can't find it. Someone know what to do?"
+,denizen23,2007-06-24T13:11Z,http://www.petitiononline.com/H2XP2000/petition.html
+,Qbaz,2007-06-24T16:48Z,Please tell me how activate Halo 2 on XP??
+,TuplaKatt,2007-06-24T18:02Z,"HOW DO YOU START LOADER.EXE`??`??? THE WINDOW JUST FLASHES THEN ITS GONE!!
+plz help"
+,denizen23,2007-06-24T19:45Z,"It seems this game may be optimized for superfetch..
+
+http://www.microsoft.com/windows/products/windowsvista/features/details/superfetch.mspx
+
+this may be the cause cause for slowdowns in XP.. anyone else have slowdowns?"
+,jennysalala,2007-06-24T19:49Z,"I'm almost certain it's not optimized to work in sync with superfetch. I disabled that slow piece of crap in Vista and played H2 without one hitch. In fact it made my performance 1000x faster.
+
+And for the last time...
+
+To activate in XP 
+
+1.copy the MF.DLL from the Loader.exe package (WoWLoader0.2) into your WINDOWS\system32 folder (C:\WINDOWS\system32\)
+
+2. Then copy the MF.DLL cracked to run on Vista provided by Razor1911 to your Halo 2 folder (C:\Program Files\Microsoft Games\Halo 2\)
+
+And whoa! You've got Halo 2 activated!"
+,denizen23,2007-06-24T20:06Z,"Indeed it is activated,  but it runs slower for me,  making constant pauses (even the mouse),  and then resuming,  it is very annoying.  The game worked fine under vista (although Vista still sucks major arse).. I wonder what is causing this.  it seems worse when MF.dll is replaced"
+,russbelluk,2007-06-25T09:55Z,"right okay, first off got the game running but then ran into the insert game disc when loading up first map, 
+then trying to nuke the game, deleted stuff in my docs, applicationa data/program files and registry, BUT still says i can only play Halo 2, not install it, am i missing something or not????"
+,scott1010,2007-06-25T19:45Z,"Game won't install.. freezes at around 65%.. in program files all the single player maps from 4b to 8b are still .maptnptemp files so the install has not completed.
+
+I reinstalled after deleting the install data and it freezes again.. so I cannot install completely. Any ideas? (Using razor release, had to switch the startup.exe - http://thepiratebay.org/tor/3712092/Halo_2_Repack-Razor1911)
+
+Is there any torrent of the installed map files? So I can copy them over? Or the complete installation.. as the ones on the CD need to be installed properly so they work.. so you can't just copy them over =\
+
+Scott"
+,Blader12,2007-06-25T21:38Z," azamba89 how did u fix this ---> i have that problem now..
+""Files Are Missing or Damaged in the installation directory! Some Important files required to run this game are missing in the installtion directory."""
+,cosminmihaiu,2007-06-26T00:56Z,"hey guys , for ALL of you out there .... Freakin` remember that the game was made for Windows vista ... and DirectX 10... Some BUGS HAD to appear on the ""Xp Version"".. and, from what i read, i think you have a problem with the PC, not the game. It works fine for me, and a lot of other players.... oh well....keep trying ... :P try harder :P  :))"
+,jennysalala,2007-06-26T01:26Z,Not meant for DX10. Only the Xinput version should be at 10 and they have a dll to fix it now. But as for gfx and other DX related stuff it's all DX9.
+,PiotrasHor,2007-06-26T11:42Z,"hell...every time i write in the dos window the command c:... i get a message that it can't run the program, can someone please help?"
+,Blader12,2007-06-26T14:26Z,"can somebody tell me how to fix this   ""Files Are Missing or Damaged in the installation directory! Some Important files required to run this game are missing in the installtion directory.""  "
+,puredude3,2007-06-26T17:25Z,Yeah i have the same problem as Blader12 if any one knows how to fix this please comment.
+,Jerico,2007-06-26T17:29Z,People drag n drop. Drag halo2.exe to loader.exe and it will work.....still you can't continue playing past Gravemind level....if somebody has some connections they should inform Razor1911 about this.
+,roadkill1,2007-06-26T17:47Z,"I also have a weird problem...after entering Loader.exe F:\Startup.exe at the command prompt i get the following error: The procedure entry point EncodePointer could not be located in the dynamic link library kernel32.dll .Any idea what this is, somebody? I have administrator rights, the halo2 dvd image is mounted with daemon tools 4.0.9 with all emulation options on"
+,PiotrasHor,2007-06-26T18:44Z,"already through with the problem of instaling but now theres another issue, did anyone experience a problem like this: when i start the game and start the first level the game just stops and can't do anything, the only thing i can do is restart my pc. anybody got a solution to that? could it be something with my hardware?"
+,WSOP,2007-06-26T19:00Z,"Just you to know...this ""patch"" doesn't work after Quarantine Zone - level...It asks original dvd if you wan't to continue to Gravemind - level...hope someone will work this out."
+,Stringt,2007-06-26T21:09Z,I got a xbox live gold account. can i play online?
+,GatorTex,2007-06-26T23:00Z,"WSOP is right.  There is a glitch in the loader when you reach the ""Gravemind"" map.  It asks to insert your original Halo 2 disc to continue gameplay and so far there is no work around.  I know the author of this patch quit working on it and released the source but hopefully he takes up the project again to finish the single player campaign."
+,Shadow5561,2007-06-26T23:51Z,"I have a problem, I had 75% of the installation completed when an error came up saying,'The procedure entry point RegGetValueA could not be located in the dynamic link library ADVAPI32.dll'. I have google searched about this error but nothing, does anyone know how I can fix this problem?"
+,PeterN2k,2007-06-27T13:13Z,"had the problem with the gravemind level (wouldnÂ´t load)
+
+i unziped the mapfiles from the dvd and put them in the halo2\maps folder (used programm called UnGZIP, found it on the filefront forum)
+
+http://files.filefront.com/UnGZIPexe/;7895795;;/fileinfo.html
+
+that actually worked (at least for me)"
+,WSOP,2007-06-27T14:57Z,"PeterN2k: I doubt that it will work...those files are already there unzipped. Are you playing in XP or Vista? Did it ask your ""original disc"" after you finished Quarantine Zone-level?"
+,PeterN2k,2007-06-27T16:48Z,"WSOP:
+
+im playing on xp (with the loader), and yes it asked for the original disk after Quarantine
+
+dont know why it worked (maybe an error with the installation)
+
+and i just finishd halo 2, and all i did was replace the maps (only the ones with .dtz as an ending)"
+,PeterN2k,2007-06-27T16:49Z,i mean maps with an .dtz on the halo2 dvd
+,Jerico,2007-06-27T17:38Z,PeterN2k...so did just copy the .dtz files from disc to the install directory or did first copy them to your hard drive and then extracted all the files with unGZIP?
+,PeterN2k,2007-06-27T18:05Z,"you need to copy them from dvd to the hdd (in another folder)
+
+then extract them using unGZIP (its only a very simple programm) and there is no progress bar, so be sure that it is finished
+
+then you have the maps and they are named like this
+
+01a_tutorial.map_ungziped.dtz
+
+then change the ending to .map 
+
+01a_tutorial.map
+
+and then copy them into halo2\maps (theres a map called single_player_shared.map.dtz, i unziped that too)"
+,Kibbie,2007-06-27T19:34Z,"Yeah.. what Peter said. It really works, so don't go doubting it ... now if I can just figure out how to kill those brutes with a energysaber.. (without getting mauled)
+"
+,Rock-it Man,2007-06-28T01:00Z,"doesn't work.  Gets to the H in halo on the program startup loading screen, then freezes, finally dies."
+,Rubix2k,2007-06-28T02:28Z,"I also got as far as rock-it man. After the crash i went to the event viewer to see what went wrong. I read the error message ""The procedure entry point RegGetValueA could not be located in the dynamic link library ADVAPI32.dll"". 
+
+I looked up ADVAPI32.DLL and apparently...
+
+From the online help of RegGetValue():
+
+Requirements
+Client: Requires Windows XP Professional x64 Edition.
+Server: Requires Windows Server 2003 SP1.
+
+Can anyone who has gotten it to run, specify if it worked on 32 bit winXP or the 64 bit version?
+
+Anyone else hating M$ even MORE now? Grrrrr"
+,hiker13526,2007-06-28T05:41Z,"If you're a dumass like me, you hit play instead of install, and you wound up with *.maptnptemp files in your maps directory :D
+
+To fix this, delete the entire Halo 2 dir in program files, and then delete ""C:\Documents and Settings\All Users\Application Data\Microsoft Games"", ""C:\Documents and Settings\All Users\Application Data\Microsoft\SL"", and ""C:\Documents and Settings\All Users\Microsoft""
+
+Now run the Startup.exe and the custom install option should work.
+
+Cheers!"
+,GatorTex,2007-06-28T09:25Z,"PeterN2K...thanks, heaps!  Your workaround worked!  There must be a glitch with the install on only the ""Gravemind"" map because the ones after it are just fine.  All I did was replace the old ""07a_highcharity.map"" with the new unzipped one from the Halo 2 DVD using ""unGZIP"" and the rest of the game played out beautifully.  Now, to get the LAN portion working...."
+,rusher18,2007-06-28T09:28Z,"If you have install/uninstall problems and get an error while clicking [CUSTOM INSTALL]
+
+then:
+
+Quote:
+Originally Posted by hiker13526
+To fix this, delete the entire Halo 2 dir in program files, and then delete ""C:\Documents and Settings\All Users\Application Data\Microsoft Games"", ""C:\Documents and Settings\All Users\Application Data\Microsoft\SL"", and ""C:\Documents and Settings\All Users\Microsoft""
+
+Now run the Startup.exe and the custom install option should work.
+
+^this also fixes all the tempmap problems
+
+
+BUT NOW IM HAVING THIS PROBLEM:
+
+http://www.youtube.com/watch?v=fUTCgqzjKzk
+
+anyone solve that one yet?"
+,robyleyes,2007-06-28T15:54Z,I have the gravemind problem too but I tried what you did about unzipping but I still got it... did you do anything different? I unzipped all of the maps! and nothing
+,hiker13526,2007-06-28T18:53Z,"Rusher18: My solution solves that problem. The problem is that Halo has these temp files, which are meant to be placeholders for the real map files which will be streamed to the disk while you play. When you go to load the first level, Halo only has temp files to load, and thus just sits there. Simply renaming these temp files will cause the 1/3 Halo loading problem, since when it tries to load the placeholder (it's just a blank file) it fails and says you need to insert your halo 2 disc. All these problems are solved by doing the custom full install."
+,robyleyes,2007-06-28T22:29Z,ok I found a way to play it! at first I had the game installed in c:\halo2 and always keep asking me for the original dvd after the quarentine level...but now what I did was cut the folder and put it in c:\program files\microsoft games\ .....then unzipped with ungzip the 07a_highcharity.map.dtz map from the dvd and it worked!!! 
+,xaxax,2007-06-29T02:53Z,"I did the ungzip thing, and I STILL CAN'T FUCKING LOAD GRAVEMIND. What the hell is wrong here."
+,rusher18,2007-06-30T01:46Z,"i found my fix at
+
+http://halo2xp.tk/"
+,smd,2007-06-30T15:39Z,ungzip workaround doesnt work for me either sadly .. as it looks now ill have to wait to finish this game until i get a better PC that can run vista and games at the same time :D
+,Hanska_-,2007-06-30T17:53Z,"I found a fix. There should be also a map with this name ""07a_highcarity.map"" (not highcharity) In your halo\maps folder
+I replaced it also with the ungzipped 07a_highcharity.map from the halo 2 dvd, just had to rename it first to 07a_highcarity.map and it worked! try it PS: remember to replace also the 07a_highcharity.map."
+,xaxax,2007-06-30T22:39Z,Still doesnt work...
+,Wiggilo,2007-07-01T00:54Z,Where is XLiveRedist1.0.6027.msi and vcredist.msi?
+,Wiggilo,2007-07-01T00:55Z,I can't seem to find them 
+,Wiggilo,2007-07-01T00:58Z,"Oh.. you have to right click on the drive and open it 
+nm 
+Wiggilo"
+,kreuwl,2007-07-01T01:00Z,"I have another problem entirely. I have used all the guidelines here. The prob I have is that the loadscreen with Halo 2 text and light comes up, and past that, but then it just gets black and jumps out into windows after 15 seconds"
+,Wiggilo,2007-07-01T01:15Z,"I don't know about that but 
+
+HOW DO YOU install vcredist.msi 
+
+It just loads in the pre thing up to one bar left then all the loading bars go away and after 3 sec the pre install thing goes away"
+,kreuwl,2007-07-01T01:34Z,So typicall that I get the one problem no one else gets :/
+,PerfectSin,2007-07-01T01:47Z,"Hey guys, I forged a guide for installing Halo 2 on XP and used various comments on the web to try and create a troubleshooting section.
+
+Visit the guide: http://ps3forums.com/showthread.php?t=81123
+
+And tell me what you all think."
+,hiker13526,2007-07-01T03:24Z,Can anyone run a crc check on their highcharity/gravemind extracted level? I'm still having problems with it. The crc I'm getting for 07a_highcharity.map is b56dde0e.
+,hiker13526,2007-07-01T04:45Z,"I figured out the gravemind problem!!!
+
+I believe it is Razor's fault. All the other maps work fine, except gravemind. For those stuck on gravemind using razor's release, it just plain won't work. What you can do, however, is skip gravemind.
+
+1) Move all your maps from C:\Program Files\Microsoft Games\Halo 2\maps to a different folder. Leave the fonts folder where it is.
+2) Move mainmenu.map, single_player_share.map, shared.map, 07b_forerunnership.map, 08a_deltacliffs.map, and 08b_deltacontrol.map back into the program files map folder. Basically, you moved every map to a different folder, and now you are moving back the maps you need.
+3) Rename the following:
+07b_forerunnership.map -> 00a_introduction.map
+08a_deltacliffs.map -> 01a_tutorial.map
+08b_deltacontrol.map -> 01b_spacestation.map
+3) Start the game, and when it asks if you want to resume the campaign, hit Star New Level, and start from the beginning. Alternatively, you can Start a new profile and have it start from the beginning, which will actually start from after gravemind.
+
+So, gravemind isn't actually fixed, but you can still finish the game."
+,Zocker61,2007-07-01T16:46Z,"Hi I have a problem bye installing the game because i have deleted so much files from the registry i became the message ""Files are damaged or missing for installation or sth"" What can i do to solve this problem. I have tried all."
+,pete1505,2007-07-01T22:47Z,"Another way to get past the gravemind problem is get the ""halo 2 vista patch"" off mininova. You just run the last batch file (highest numbered) and it resets the levels so that you get the last three levels when you click on the first three levels. You dont get to play gravemind, but oh, well. It works to bypass activation, too, but you have to use all the batch files in order to do that. "
+,Thuruster,2007-07-02T00:41Z,"its not work for me.. help mee. When I start "" Loader "" the Loader program shoting down .."
+,shadoww15,2007-07-02T17:05Z,im having the gravemind prob too but i really want to play that level. Maybe someone could upload a working 07a_highcharity level.
+,shadoww15,2007-07-02T17:08Z,U have to start loader from start\run...\cmd
+,neofritz,2007-07-03T04:20Z,"ok now i have got most of that stuff done... my only problem is that my computer crashed while trying to load metropolis... as in blue screen, but theres no text on the blue screen...
+
+and i cant download that ungzip, because its gone"
+,neofritz,2007-07-03T08:41Z,"ok fixed the blue screen problem... for sum reason it didnt like me having anti aliasing on... well atleast i think thats what it was, because when i turned anti aliasing off it worked... so now im just gonna have to work out how to get UnGzip... so i can get past gravemind."
+,neofritz,2007-07-03T14:42Z,DW it was just my download manager being an ass... i eventually got UnGzip
+,neofritz,2007-07-03T15:04Z,"ok now im not happy, i did all that stuff with ungzip, and i coppied the files into the map folder, and i still get taht (you need the disk) message at gravemind"
+,lordkhan,2007-07-04T19:11Z,"Well of course, duh."
+,neofritz,2007-07-05T06:22Z,so noone has found another way past that message... where i will still get to play that level??
+,Rubix2k,2007-07-06T02:32Z,"If anyone else had the problem with halo loading and the light starting to scroll to one side followed by a long wait then a crash to the desktop try updating to the latest directX
+
+http://www.microsoft.com/downloads/t...displayLang=en
+
+It worked for me! :D"
+,rusher18,2007-07-06T04:23Z,"Hey everyone!!
+
+the guy who made 
+
+http://halo2xp.tk/
+
+updated it!! 
+
+it now includes an ISNTALLER and an UNINSTALLER !!!
+
+i emailed the guy myself, hes legit"
+,vorazechul,2007-07-09T19:08Z,"Someone should really upload a working Gravemind level.
+It's deffinatly it's foult. i tried everything even renaming the level and make it the first but iven that doesn't work. All athers work till the end of the game"
+,Slimedude1,2007-07-11T02:28Z,"I found this on Usenet a few days ago, and damned if it didn't work.
+:)
+-----------------------------------------
+
+I found a workaround for the gravemind level in Halo 2 on XP, by accident, and it works for me.
+
+Most, if not all folks running Halo 2 on XP are running the XP loader authored by abcba (it can be found here on usenet and on the torrents in one form or another) but cannot get past the Gravemind level (level 12).
+People have tried renaming and reordering the map files to no avail and even folks running Vista have had problems at this level.
+
+	I was running a program called File Monitor, (available here http://www.microsoft.com/technet/sysinternals/FileAndDisk/Filemon.mspx)
+while loading the level to see what files were being accessed (maybe something was missing I thought)  and partway through loading the level, I got a ""insufficient resources"" tag returned while accessing the High charity map.  for yucks and grins, I downloaded the process monitor from the same site (http://www.microsoft.com/technet/sysinternals/FileAndDisk/processmonitor.mspx) and ran it while the level loaded to see what might be wrong.  To my surprise, it loaded! It takes a few minutes for it to happen, but the level does load!
+
+I don't have a clue as to why this works, but it did :)
+
+
+here's the procedure.
+
+install Halo 2 using the abcba loader and get it configured and running on XP (there's plenty of info on this on the net, use google)
+
+download and install Process Monitor (http://www.microsoft.com/technet/sysinternals/FileAndDisk/processmonitor.mspx)
+
+play the game until you get to the gravemind level, as the level tries to load you will get the message ""Sorry, insert you original Halo 2 disk""
+(inserting either the original or any other disk does nothing since the drive is never accessed).
+
+close and restart the game and let it get to the main menu screen.
+
+hit the windows key on the keyboard to minimize the game and open process monitor, let it run and monitor processes (the list wil fill rapidly).
+
+Click on the Halo 2 icon in the taskbar to re-maximize the game.
+
+click on ""Campaign"".   Do not resume, select new and then select the gravemind level. 
+
+Let it load (It will take awile because process monitor is slowing it down).  Don't wory about missing the intro Video, once the level loads, it can be restarted from within the level.
+
+Once it loads and starts, (wait for the intro to finish) minimize with the windows key again and close the Process monitor.
+
+Re-maximize the level, hit the escape key and select restart the level (if you want to see the intro again).  The level can be reloaded from checkpoints as long as you are within the level, if you quit the level for any reason, you will have to run the Process Monitor again while the level loads.
+You can load a saved checkpoint in this manner, so you don't have to complete the level at one sitting.
+"
+,shadoww15,2007-07-11T17:40Z,It Works!!!!! XD XD!!!!XD XD
+,Slimedude1,2007-07-13T01:52Z,"I just found it, I didn't discover it, wish I had.
+Feel free to spread the word"
+,devguy,2007-07-13T08:52Z,"It seems that everyone here playing on XP x64 can play the first two ""levels"", but when we start to load Cairo station, we get the ""insert original disc"" bull crap. I've even tried renaming cairo station map to one of the first two, but I get the same problem.
+
+Anyone working on fixing this for xp x64?"
+,SimpsonsLover,2007-08-03T18:42Z,"ok so i've installed it put the files in the folder, installed aliveredist1.0.6027.msi and vcredist.msi, but when it starts up i sign into live and than it has to update but when i update it crashes and has like a command error or something
+
+what can i do to fix  this"
+,RePlay_5,2007-10-03T18:07Z,"A comment for the patch from halo2xp.tk:
+10/03/2007 18:00:25: RSK-HIDEWINDOW.C MALWARE STOPPED by BOCLEAN!   
+Trojan horse was found in memory.
+E:\DOKUME~1\PETI\UTORRE~1\HALO2X~1\INSTALL\CMDOW.EXE contained the trojan.
+Active trojan horse WAS shut down. System now safe.
+
+-----------------------------------------
+Spotted by Comodo BOClean Anti-Malware.
+I have tried to run again, but it haven't found any trojan at second time."
+,awesomeness55,2007-11-10T02:24Z,"i do not understand step 3 Run Startup.exe on the Halo 2 DVD using the included Loader.exe
+Ie.: Loader.exe D:\\\\\\\\Startup.exe
+can anyone tell me how to do this"
+,axaxax3plx,2007-11-11T12:14Z,"hey awesomeness55 
+Loader.exe D:\\\\\\\\Startup.exe
+it means as you run in dos mode ie; example: format c:\
+rn loader as command in the directory where it is and with option d:\startup.exe this is the path of your halo dir!!! 
+cannot be clearer than this"
+,axaxax3plx,2007-11-11T12:21Z,"and by the way Loader.exe D:\\\\\\\\Startup.exe
+means loader.exe \path
+;)"
+,termospullo,2007-11-24T09:11Z,"so, do you mean that I need the halo2 for vista to use this?I have win XP and im not very good in english.I hope you understand what I mean"
+,1337xxile1337,2007-12-07T01:38Z,"i need HELP! i will tell u wut happened...
+This happened at the end of the level Quarantine Zone...
+While the last cutscene kept on going it froze...
+WTF?
+I waited for an exact 30 min and nothing went on. So i restarted the computer...
+then it said, do you want the computer to scan the disk yes or no?
+I clicked no(did i do somethin wrong?)
+when i logged in back to my comp file. I just played halo 2 again. It didn't work.
+(clicked it 20 times,still nothing)
+I unistalled Halo 2 Xp.
+Then i installed again.
+Then something came up...
+It said that ""The System Couldn't Find The Specific Registry Key or (i forgot wut the other one was) 
+
+Can Someone Help Me? 
+I WANT TO PLAY HALO 2 XP!!!"
+,keige,2007-12-17T01:50Z,"ok so i've installed it put the files in the folder, installed aliveredist1.0.6027.msi and vcredist.msi, but when it starts up i sign into live and than it has to update but when i update it crashes and has like a command error or something
+
+what can i do to fix this
+------------------
+I have the same problem.  What do I do?"
+,legohalflife2man,2008-01-09T03:40Z,"Alright, I am playing Halo 2 on XP and using this torrent and when I go to start the level ""Outskirts"" (level 4 on the main level selection list), I get an error. This is what the error says: ""SORRY - You need to activate this product to continue playing the game. Please close the game and re-insert the disk to reach your activation menu."" I am using this torrent and it worked fine for the first three levels when you were out in space but, before Outskirts starts, it gives me that error. I've tried many things but this specific problem hasn't yet been targeted.
+
+What's odd is that I have already activated my copy of Halo 2 with the serial key and it should be activated.
+
+So, can someone PLEASE help me with this problem? Thanks."
+,fermat1357,2008-03-06T05:15Z,"Halo 2 XP freezes after I killed Tartarus in Control room. After Tartarus is killed, a video loaded as normal then all I see is the Halo 2 Loading screen for a long time. My computer seems to be frozen. I have to unplug the power to turn it off. Any idea?
+
+Thanks"
+,zipperad,2008-04-08T01:26Z,"TRADE MY 2 SISTERS for HELP! PLEASE HELP ! I get the 'sorry-insert Halo2 disc' error toward the end of the Quarantine Zone. I am using this (XP patch) loader. Can anybody help? Your time would be very much appreciated! If you want my skanky sisters, you can have them!"
+,Fubar22,2008-05-21T13:39Z,"Ok, I need help on this one.
+
+1. I mounted the DVD image onto my F:\ Drive
+2. I placed the loader file and all of the contents in my C:\...
+
+**Contents of the crack**
+         a. loader.exe
+         b. dwmapi.dll
+         c. MFPlat.dll
+         d. Wow.dll
+         e. XTaskDlg.dll
+         f. MF.dll
+3.  I get the install screen but then the damn thing goes blank after I hit ok for it to install into the folder specified.  Nothing happens."
+,BMan1493,2008-07-02T19:39Z,ajutor ...am scos halo 2 standalone installer si am reusit sa-l instalez dar imi da o eroare ceva cu windows live...NEED ASSISTANCE WINDOWS LIVE PROBLEM AFTER INSTALING HALO 2!!!!!!
+,kdkdkd,2008-07-18T19:16Z,"i finish start installing halo 2 from my disk, and i know that before the loading starts several green lines go across the bar for several seconds.  mine has been going on for hours and ive tried literally every thing.  
+
+Help would be appreciated"
+,renerok1,2008-07-18T20:45Z,"Thanks for the XP Patch since I can now play it without downgrading my operating system. =)
+Vista received the ""World's Most Disappointing Software of the Year"" award by over 20 of the top sites.  Don't buy Vista because it runs slower, has over 2 times as many bugs as XP, its overall protection is much lower, and is to pricey (unless you pirate it).  Thanks again for the patch, it works great."
+,renerok1,2008-07-18T20:47Z,Oh and kdkdkd is your Halo 2 DVD an original or Pirate?  And what are the specs of your PC?
+,KraZed,2008-08-15T06:33Z,seems as if this doesnt work for almost everyone...
+,Vivek13,2008-09-25T02:35Z,"I DONT GET HOW TO DO THIS!! For number 2 it says insert the halo 2 DVD,wheres the dvd file??"
+,aditya_ramlochan,2008-11-01T02:38Z,"Works great until I get to the gravemind level.
+
+The issue occurs at the end of the third objective (retrieve the sacred icon). After the video of the Arbitor falling down the tunnel the game loads as normal but then asks to ""Please insert the original game disk"".
+
+Ive tried loading the same level multiple times with no luck. Any suggestions? please email me with help anyone adityaramlochan@hotmail.com
+i would gladly appreciate any who will help me. "
+,Aserenian,2008-11-16T04:26Z,"So i get into the install screen install it an ADVAPI32.dll error happens the one with the token or whetever but when  i try it again it shows another error adn it says
+halo2.exe - Entry Point Not Found
+The procedure entry point RegGetValueA could not be located in the dynamic link library ADVAPI32.dll.
+How do i get it to work from here"
+[T],troyBORG,2009-01-10T08:46Z,"It let me install it, but when I try to sign into live it tells me my product key is invalid.  What do I do so I can type in my actually key and not the cracked version?"
+[T],troyBORG,2009-01-11T05:13Z,"Never Mind my last comment I figured that out.
+
+But when I start Cyro Station it tells me that my checkpoint doesn't match the one on live and that I have to restart the level to get the achievement.  So I restart and I get the message again.
+
+Can I not get achievements with XP?"
+,mecrazyturkey,2009-03-15T19:33Z,"so i installed halo, the install seemed to be woing fine, but when i went to play a message popped up saying ""initalization failed. either insufficient system resources were found to run the game, or game data is midding or corrupted. reinstalling the game may fix this problem."" i checked when i got the game, i should have enough power to run the game: 3GHz processor, 2.5GB system memory. I tried to uninstall the game using the control panel add or remove programs. i hit the uninstall button and nothing happened. can somebody help me or tell me why it wont uninstall? i think it has something to do with uninstaller cant run on XP, but im not sure. please help."
+,fishcp2,2009-05-30T09:46Z,"thanks a lot, Slimedude1
+it does works perfectly!"
+,murderme,2009-08-06T15:08Z,"guys, just go to microsoft.com/games and install games for windows - LIVE! version 3.0
+
+
+heres the link to the page:
+
+http://www.microsoft.com/games/en-us/aboutGFW/pages/gfw3intro.aspx"

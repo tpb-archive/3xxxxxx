@@ -1,0 +1,124 @@
+PANORAMA VESA README
+
+July 1, 2007
+
+
+This README contains information about 
+Panorama VESA video driver for eComStation
+Version: 20070701
+
+
+CONTENTS
+________
+
+1.0  Description
+2.0  System requirements
+3.0  Installation
+4.0  Usage
+5.0  Copyrights and contact info
+
+
+
+1.0 Description
+_______________
+
+
+Features:
+* VBE 2.0 support
+* Shadow buffer
+* Enable Write Combine (UNI and SMP)
+* The only video driver optimized for SMP
+
+Supported subsystems:
+* PM, GPI
+* DIVE
+* Cairo
+* OpenGL 1.0
+* SDL 
+
+
+2.0 System requirements
+_______________________
+
+System requirements:
+* eComStation or OS/2 Warp 4.5 
+* ACPI.PSD 2.20 or higher
+* LCD monitor. VBE2 doesn't allow adjust refresh rate.
+* N Mb of RAM for Shadow buffer
+
+
+3.0 Installation over SDDGRAD
+_____________________________
+
+  !!! There is no need to reset to VGA !!!
+  If using IBM VGA then install SDDGRAD (Alt-F1 -> G,  Reset to IBM Gradd)
+  
+  
+  If SNAP or GENGRAD is already installed then
+
+  * copy VBE2GRAD.DLL to x:os2dll
+    copy PANOGREX.DLL to x:os2dll
+    copy GRADD.SYS    to x:os2
+  
+  * modify CONFIG.SYS:  
+      change 
+        SET C1=SDDGRADD
+        SET GREEXT=SDDGREXT      
+      to  
+        SET C1=VBE2GRAD
+        SET GREEXT=PANOGREX
+      
+  * Remove SNAP stuff:
+    rem device=x:os2sddhelp.sys
+    
+    Delete the file x:os2svgadata.pmi or modify it:
+      change 
+         #includecode "sddpmi.dll"
+      to   
+         #includecode "genpmi.dll"
+
+  * How to convince that VBE2GRAD is loaded?
+      * x:os2installgradd.log
+          should contain: "Module VBE2GRAD loaded successfully"
+      * Capabilities button should be enabled  
+      
+  * Setup:      
+      * shadow buffer is disabled by default. To enable, System setup -> 
+        Screen -> Capabilities button -> [X] Shadow buffer, reboot
+        
+        
+List of video adapters tested with Panorama VESA:
+(Send reports of success to panorama@ecomstation.ru)
+
+                                                          Vend:Prod SubSystemID
+--------------------------------------------------------------------------------
+ATI Radeon 8500                                           1002:514B
+ATI Mobility Radeon X600                                  1002:3150 1014:058E
+ATI Radeon 9600 AGP                                       1002:4150
+ATI Radeon 9600                                           1002:4E50
+ATI Radeon 9250                                           1002:5960
+ATI Radeon X300                                           1002:5B60
+ATI Radeon X800                                           1002:554D
+ATI Radeon X800XT                                         1002:5D57
+ATI Radeon X700                                           1002:5E4B
+ATI Radeon X700                                           1002:5E4F
+ATI Mobility Radeon X1400                                 1002:7145 17AA:2006
+ATI Mobility Radeon X1300                                 1002:7149 17AA:2005
+ATI Mobility Radeon X1600                                 1002:71C5 1043:10b2
+ATI Radeon X1650 Pro                                      1002:71C6
+ATI Radeon X1950XT                                        1002:7244
+
+NVidia GeForce2 Go/MX Ultra [NV11]                        10DE:0112 1028:00F3
+NVidia GeForce 6100 nForce 405                            10DE:03D1
+NVidia GeForce 6150                                       10DE:0240 
+
+S3 SuperSavage/IXC SDRAM                                  5333:8C2E
+
+Intel 945GM                                               8086:27A2 1025:0094
+Intel Integrated G965 X3000                               8086:29A2 1043:820B
+
+
+
+This adapters are not supported:
+* S3 Trio 64+
+* Cirrus 5430/5440		

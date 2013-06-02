@@ -1,0 +1,14 @@
+This is a LAMP image to run under QEmu. The archive is complete to run on an windows box and unleash the power of a linux webserver (LIGHTTP) combined with a powerfull database (MYSQL) and a splendid scripting language (PHP5). But thats not all. I have thrown in a mailserver (exim4) a spamfighter (spamassassin) a mailfilter (procmail) a pop/imap/ssl client (fetchmail) The best email client arround (mutt) and ofcourse your complete ssh thingies.
+
+Your personal server station in a box. Small enought to carry arround on a stickie.
+
+The image is currently in its virgin state under 500mb. Thanks to the qcow format it
+will resize and store all data you want. So your better get rid of that silly live
+image your still using.
+
+Everything was build on the best Linux distro arround being Debian Etch and is fully
+customizable. I intend to keep developing this baby and you may find its blog on 
+http://qlamp.assist.dyndns.biz. You like it, you tell me. You have wishes. You tell me. Like to contribute? You tell me.
+
+Have fun.....
+ 

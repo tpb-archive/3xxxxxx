@@ -1,0 +1,9 @@
+GLQuake I
+
+mods: Airquake, Ninja, BgBot
+
+maps airquake: air1-3, aircity
+maps ninja: NDM1-7
+maps quake: fragtwn1-7
+
+load bgbot with impulse 100

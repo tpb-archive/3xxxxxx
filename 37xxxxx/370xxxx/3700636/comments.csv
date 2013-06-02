@@ -1,0 +1,351 @@
+﻿User Type,Username,Date,Text
+,avatar1969,2007-05-30T05:17Z,i used to play this game and it was really funny. Just as point'n click adventures should be. You can download this one it gives you lots of fun and laughs!!!! great game
+,Vicar in a Tutu,2007-09-01T07:45Z,"How to play Toonstruck in Windows XP
+
+
+1. Install WinRAR 3.70 if it is not already installed on your computer.
+
+OFFICIAL SITE - http://www.rarlab.com
+DOWNLOAD FILE - http://www.rarlab.com/rar/wrar370.exe
+
+
+2. Open the CD 1 folder, right-click 'Toonstruck CD 1.part001.rar' and click 'Extract Here'. Once extracted, you may delete the RAR files leaving you with 2 files:
+
+Toonstruck CD 1.mdf
+Toonstruck CD 1.mds
+
+
+3. Open the CD 2 folder and follow the same proceedure with 'Toonstruck CD 2.part001.rar'.
+
+
+4. Install IsoBuster 2.2 if it is not already installed on your computer.
+
+OFFICIAL SITE - http://www.isobuster.com
+DOWNLOAD FILE - http://www.isobuster.com/dl.php?v=1&l=0
+
+
+5. Open 'Toonstruck CD 1.mds' with IsoBuster, right-click the small red ISO box and click 'Extract -' and when asked for a location, just select the Desktop. This should extract all the files in the image to a folder on the Desktop (named '-').
+
+
+6. Open 'Toonstruck CD 2.mds' and again, right-click the small red ISO box and click 'Extract -' and select the Desktop. A window will open to say 'File already exists'. Tick 'Yes to All' and click 'Yes. The files you overwrite are exactly the same on both images, so there is no need to worry. Once extracted, you will have the content of both CDs in one folder.
+
+
+7. Rename the folder 'Toonstruck' and move it to 'C:' (where Program Files and Windows is located).
+
+
+8. Install DOSBox 0.72 if it is not already installed on your computer.
+
+OFFICIAL SITE - http://dosbox.sourceforge.net
+DOWNLOAD FILE - http://prdownloads.sourceforge.net/dosbox/DOSBox0.72-win32-installer.exe?download
+
+
+9. Go to: Start > All Programs > DOSBox-0.72 > 'DOSBox.conf'. The file should open in Notepad.
+
+If it doesn't, go to: My Computer > C: > Program Files > DOSBox-0.72
+Right-click 'dosbox.conf'.
+Click 'Properties'.
+Next to 'Opens with', click 'Change...'.
+Select 'Notepad'.
+Click 'OK' then 'OK'.
+Go back to: Start > All Programs > DOSBox-0.72 > 'DOSBox.conf'.
+
+
+10. Copy all of the following text (in-between the lines).
+
+
+-------------------------
+[sdl]
+fullscreen=true
+fulldouble=false
+fullresolution=original
+windowresolution=original
+output=surface
+autolock=true
+sensitivity=100
+waitonerror=true
+priority=higher,normal
+mapperfile=mapper.txt
+usescancodes=true
+
+[dosbox]
+language=
+machine=vga
+captures=capture
+memsize=32
+
+[render]
+frameskip=0
+aspect=false
+scaler=normal2x
+
+[cpu] 
+core=auto
+cycles=max
+cycleup=500
+cycledown=20
+
+[mixer]
+nosound=false
+rate=44100
+blocksize=2048
+prebuffer=10
+
+[midi]
+mpu401=intelligent
+device=default
+config=
+
+[sblaster]
+sbtype=sb16
+sbbase=220
+irq=7
+dma=1
+hdma=5
+mixer=true
+oplmode=auto
+oplrate=44100
+
+[gus]
+gus=true
+gusrate=44100
+gusbase=240
+irq1=5
+irq2=5
+dma1=3
+dma2=3
+ultradir=C:\ULTRASND
+
+[speaker]
+pcspeaker=true
+pcrate=22050
+tandy=auto
+tandyrate=22050
+disney=true
+
+[bios]
+joysticktype=auto
+timed=true
+autofire=false
+swap34=false
+buttonwrap=true
+
+[serial]
+serial1=dummy
+serial2=dummy
+serial3=disabled
+serial4=disabled
+
+[dos]
+xms=true
+ems=true
+umb=true
+keyboardlayout=none
+
+[ipx]
+ipx=false
+
+[autoexec]
+MOUNT C C:\
+MOUNT F C:\Toonstruck
+F:
+INSTALL.BAT
+-------------------------
+
+
+Go back to the 'DOSBox.conf' window and press 'Ctrl+A' to highlight all the text. Press 'Ctrl+V' to paste the new text over the original. Save the file, but don't close the window yet.
+
+
+11. Run 'DOSBox 0.72'. It should load a DOS based installer entitled 'ToonStruck Installation Program'.
+
+
+12. Press the 'Down' arrow twice to highlight 'Install ToonStruck' and press 'Enter' to install the game.
+
+
+13. Next you'll want to configure the sound and video.
+
+
+On 'Configure Sound', press 'Enter'.
+On 'Start Sound Setup', press 'Enter'.
+Select 'Manual' and press 'Enter', select 'Sound Blaster' and press 'Enter' 4 times.
+On 'Test Settings', press 'Enter'.
+
+Hopefully you will heard a clear spoken (creepy) voice: 'Welcome to Toonstruck...'.
+
+If you don't then go back to 'Start Sound Setup', select 'Automatic' and test again.
+If there is still no sound or it is distorted etc. use"
+,Vicar in a Tutu,2007-09-01T07:45Z,"How to play Toonstruck in Windows Vista
+
+
+1. Install WinRAR 3.70 if it is not already installed on your computer.
+
+OFFICIAL SITE - http://www.rarlab.com
+DOWNLOAD FILE - http://www.rarlab.com/rar/wrar370.exe
+
+
+2. Open the CD 1 folder, right-click 'Toonstruck CD 1.part001.rar' and click 'Extract Here'. Once extracted, you may delete the RAR files leaving you with 2 files:
+
+Toonstruck CD 1.mdf
+Toonstruck CD 1.mds
+
+
+3. Open the CD 2 folder and follow the same proceedure with 'Toonstruck CD 2.part001.rar'.
+
+
+4. Install IsoBuster 2.2 if it is not already installed on your computer.
+
+OFFICIAL SITE - http://www.isobuster.com
+DOWNLOAD FILE - http://www.isobuster.com/dl.php?v=1&l=0
+
+
+5. Open 'Toonstruck CD 1.mds' with IsoBuster, right-click the small red ISO box and click 'Extract -' and when asked for a location, just select the Desktop. This should extract all the files in the image to a folder on the Desktop (named '-').
+
+
+6. Open 'Toonstruck CD 2.mds' and again, right-click the small red ISO box and click 'Extract -' and select the Desktop. A window will open to say 'File already exists'. Tick 'Yes to All' and click 'Yes. The files you overwrite are exactly the same on both images, so there is no need to worry. Once extracted, you will have the content of both CDs in one folder.
+
+
+7. Rename the folder 'Toonstruck' and move it to 'C:' (where Program Files and Windows is located).
+
+
+8. Install DOSBox 0.72 if it is not already installed on your computer.
+
+OFFICIAL SITE - http://dosbox.sourceforge.net
+DOWNLOAD FILE - http://prdownloads.sourceforge.net/dosbox/DOSBox0.72-win32-installer.exe?download
+
+
+9. Go to: Start > All Programs > DOSBox-0.72, right-click 'DOSBox.conf' and click 'Run as administrator'. The file should open in Notepad.
+
+If it doesn't, go to: Computer > C: > Program Files > DOSBox-0.72
+Right-click 'dosbox.conf'.
+Click 'Properties'.
+Next to 'Opens with', click 'Change...'.
+Select 'Notepad'.
+Click 'OK' then 'OK'.
+Go back to: Start > All Programs > DOSBox-0.72, right-click 'DOSBox.conf' and click 'Run as administrator'.
+
+
+10. Copy all of the following text (in-between the lines).
+
+
+-------------------------
+[sdl]
+fullscreen=true
+fulldouble=false
+fullresolution=original
+windowresolution=original
+output=surface
+autolock=true
+sensitivity=100
+waitonerror=true
+priority=higher,normal
+mapperfile=mapper.txt
+usescancodes=true
+
+[dosbox]
+language=
+machine=vga
+captures=capture
+memsize=32
+
+[render]
+frameskip=0
+aspect=false
+scaler=normal2x
+
+[cpu] 
+core=auto
+cycles=max
+cycleup=500
+cycledown=20
+
+[mixer]
+nosound=false
+rate=44100
+blocksize=2048
+prebuffer=10
+
+[midi]
+mpu401=intelligent
+device=default
+config=
+
+[sblaster]
+sbtype=sb16
+sbbase=220
+irq=7
+dma=1
+hdma=5
+mixer=true
+oplmode=auto
+oplrate=44100
+
+[gus]
+gus=true
+gusrate=44100
+gusbase=240
+irq1=5
+irq2=5
+dma1=3
+dma2=3
+ultradir=C:\ULTRASND
+
+[speaker]
+pcspeaker=true
+pcrate=22050
+tandy=auto
+tandyrate=22050
+disney=true
+
+[bios]
+joysticktype=auto
+timed=true
+autofire=false
+swap34=false
+buttonwrap=true
+
+[serial]
+serial1=dummy
+serial2=dummy
+serial3=disabled
+serial4=disabled
+
+[dos]
+xms=true
+ems=true
+umb=true
+keyboardlayout=none
+
+[ipx]
+ipx=false
+
+[autoexec]
+MOUNT C C:\
+MOUNT F C:\Toonstruck
+F:
+INSTALL.BAT
+-------------------------
+
+
+Go back to the 'DOSBox.conf' window and press 'Ctrl+A' to highlight all the text. Press 'Ctrl+V' to paste the new text over the original. Save the file, but don't close the window yet.
+
+
+11. Run 'DOSBox 0.72'. It should load a DOS based installer entitled 'ToonStruck Installation Program'.
+
+
+12. Press the 'Down' arrow twice to highlight 'Install ToonStruck' and press 'Enter' to install the game.
+
+
+13. Next you'll want to configure the sound and video.
+
+
+On 'Configure Sound', press 'Enter'.
+On 'Start Sound Setup', press 'Enter'.
+Select 'Manual' and press 'Enter', select 'Sound Blaster' and press 'Enter' 4 times.
+On 'Test Settings', press 'Enter'.
+
+Hopefully you will heard a clear spoken (creepy) voice: 'Welcome to Toonstruck...'.
+
+If you don't then go back to 'Start Sound Setup',"
+,NeverRAR,2008-09-13T08:58Z,"Non-RAR'ed version here:
+http://thepiratebay.org/torrent/3500015/
+
+It's even a smaller file!"

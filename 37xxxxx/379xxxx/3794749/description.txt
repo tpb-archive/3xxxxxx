@@ -1,0 +1,37 @@
+Windows Vista Ultimate/Enterprise Language Packs (32bit only!)
+NOTE: may work for other version as well. Tested on Vista Ultimate 32bit only!
+
+Chinese (Hong Kong SAR)
+Chinese PRC)
+Danish
+Dutch
+English (US)
+Finnish
+French
+German
+Italian
+Japanese
+Korean
+Norwegian
+Portuguese (Brazil)
+Russian
+Spanish
+Swedish
+
+--- Install Instructions ---
+
+1) Browse to C:\Windows>System32
+2) Browse to the folder of your language. For example German language is marked 'de-DE' or French is marked 'fr-FR'
+3) Copy/paste your selected language into this folder
+4) Run the .exe in this folder only!
+5) After running the .exe file, it will create a lp.cab file (within the language folder)
+6) Installation should begins automatically from here on
+
+If install does not start automatically:
+
+1) Type (without quotes) 'Regional and Language Options ' into the Search feature in the start menu
+2) Navigate to 'Keyboards and Languages'
+3) Under 'Display Languages ' choose 'Install Languages '
+4) In the pop-up maneu select 'Install Languages'
+5) Select 'Browse Folders ' and navigate to your selected language folder
+6) Select the lp.cab file and your good to go 

@@ -1,0 +1,18 @@
+The BS.Player? has always been easy to use and as technically perfect as possible. You yourselves have proven that the above statements are true. The BS.Player? has at least one huge, yet simple advantage ? it simply WORKS! It also uses the processor and RAM very efficiently, and even those with slightly less capable computers can still enjoy quality video playback and perfect sound.
+
+What is BS.Player??
+If the answer to the above question required one sentence only, it would be something like this: ?BS.Player? is a Windows ┬« video and audio player, which supports the playback of all types of multimedia files, such as aac, ac3, aif, asf, avi, divx, DV, m1v, m2v, mov, mpa, mp1, mp2, mp3, mp3, mp4, mpv, ogg, ogm, QT, rm, ram, SWF, vob, wav, wma, wmv?., with a special focus on video and divx.? Though if you really want to learn about our player, you will surely be interested in getting to know about some other aspects of it as well.
+
+Version 2.22.952
+includes following upgrades and bug fixes:
++ Added support for unicode subtitles
+* Improved subtitle editor
++ Added audio stream time correction option
++ Added support for ?One window only? skins
+* Improved random playback, previous items are now remembered
+* It?s now possible to define media type for every extension, which is also used in media library
+* ID3 tags can now be edited
+- Fixed borderless window resize
+- Fixed problem with .m3u, .pls, playlist loading, first item wasn?t loaded
+- Some vobsub fixes
+- Some other bug fixes

@@ -1,0 +1,27 @@
+﻿User Type,Username,Date,Text
+,Mekkmester,2007-06-28T16:20Z,"Important!
+Use ""Custom"" install during installation!"
+,apple][guy,2007-06-29T19:49Z,Updated 10.4.10 Nvidia kexts MAY not work on some AMD systems.
+,antt,2007-06-29T20:28Z,do you guys know if there is a 10.4.10 release for sse2? 
+,cbmaster,2007-06-29T22:08Z,"There is no SSE2 release yet. This update was just released and it's best to start off with SSE3.
+
+When you install automatically, your extensions are backed up at /10410backup in your OSX partition. If you fail to load after reboot because the Nvidia kexts did not work on your discount AMD system, boot with -f (safemode) and recover the kexts."
+,antt,2007-06-29T22:17Z,"I have an intel cpu with intel video... I'll try that anyway, thanks a lot for the tip.
+  CPU Type:	Intel速 Pentium速 D CPU
+  Number Of CPUs:	2
+  CPU Speed:	3.8 GHz
+  L2 Cache (per CPU):	2 MB
+  CPU Features:	FPU VME DE PSE TSC MSR PAE MCE CX8 APIC SEP MTRR PGE MCA CMOV PAT PSE36 CLFSH DS ACPI MMX FXSR SSE SSE2 SS HTT TM EST"
+,cvdgenugten,2007-08-12T14:55Z,"Updating now.. using easy install on my GX620 Dell computer from 10.4.9 (Jas Update) from 10.4.8.. Pressing restart now.. Please keep your fingers crossed, will post result in 10 minutes.. "
+,cvdgenugten,2007-08-12T15:08Z,"ok, works.. phew.. I updated with the easy install, but now my monitor (1908FP Dell) is not recognized, so I get a 1024x768 resolution. 
+Now doing a custom installation, checked the graphics kexts 10.4.10 and hoping for the best. 
+Otherwise, no performance increase, xbench still clocks me at around 80.0, which is good. No less, no more, I only installed the update to run iwork 08 and ilife 08 ;-)"
+,cvdgenugten,2007-08-12T15:20Z,"hmm.. resolution change didn't work, checking into other settings. just chnged the com.apple.boot.plist file to include the 1280x1024x32 entry.. that does work, but I would like to be able to change resolutions from the system preferences gui.. oh well. In any case, it all works like a charm now :D"
+,SAnsX,2007-08-31T17:44Z,"www.win2osx.net is gone, pirate bay has a forum, anything on building on of these there? What mobo and processor does this work on 100% out of the box?"
+,ncnoman,2007-09-04T04:22Z,"is this a combo update? i have jas 10.4.8, will it update right to 10.4.10 or do i need 10.4.9? anyone know?"
+,drdownload21,2007-09-27T16:14Z,"hi,
+
+used the mpkg and osx is no longer able to boot properly, however i can enter single user mode. any idea how to fix it from there?"
+,hot_skater_1989,2007-10-14T19:10Z,hello it took a long time for the update to install so i pressed restart what do i do now becuz it won't start anymore i had 10.4.6
+,sfxc13,2007-11-08T22:42Z,please reseed! There are no seeders online!
+,andsteele,2008-01-24T19:12Z,"I just installed this on my osx86 (10.4.8) After I installed, it wouldn't boot up. Just had to reinstall it. Did I do something wrong?"

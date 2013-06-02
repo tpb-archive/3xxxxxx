@@ -1,0 +1,78 @@
+﻿User Type,Username,Date,Text
+,ripture,2007-09-01T06:32Z,"Phew.  For a second, I thought you were posting another broken crack.  Until I saw the ""working"" and the smiley faces.  Awesome.  
+
+
+This whole scene has really gone to hell with douches posting fake torrents, attempting to slide trojans, posing as release groups.  Yeah.  This used to be way better.
+
+
+Not to mean you specifically, only if this torrent is another one of those ass ones.  Otherwise, cool beans.  I bought the game myself."
+,gigascsi,2007-09-01T13:14Z,"perfect :)
+on my aspire 5920 work!!!!"
+,mynameiznone,2007-09-01T21:42Z,"im going to be away for awhile so here is the post i made that will help you install bioshock with the crack (KainBG im trying to see if i flash my gpu bios from a 7300gt to 7600gs will fix the blue screen problem so far my video card hasent died trying to flash it)
+
+I had problems before with the new crack to (not the demo one i made it doesnt work sry) it not working do this and i garuntee it will work. (DO NOT INSTALL THE GAME YET!!!)(UNINSTALL IF YOU HAVE)
+
+1. Go to Start > Run > type regedit and then OK
+
+2.Go to HKEY_CURRENT_USER\Software\SecuROM
+
+3. Delete the SecuROM folder in the registry(it wont be able delete everything in the SecuROM folder but it doesn't matter)
+
+4.Open My Computer go to TOOLS > FOLDER OPTIONS > VIEW
+
+5. In the Hidden Folders and Files section enable Hidden files and folders by clicking the circle next to SHOW HIDDEN FILES AND FOLDERS if you haven't. Click OK and don't close the window
+
+6. Go to LOCAL DISK\Documents and Settings\YOURUSERNAME\Application Data
+
+7. Go inside the securom folder until you see the files not folders and delete all the files (it won't be able to delete everything again but it doesn't matter)
+
+8. Install Bioshock (with maxi image) (for added convience so you dont have to copy the game folder and all that also the game will show up in xfire and other programs like that)
+
+9. Copy Bioshock.exe and paste it in the Bioshock Release Folder [LOCAL DISK\Program Files\2K Games\Bioshock\Builds\Release]
+
+10.Copy the paul.dll and paste in the Bioshock Release Folder
+
+11. Go to Start > Run > type regedit and then OK again
+
+12. Go to HKEY_CURRENT_USER\Software\SecuROM
+
+13. Delete the SecuROM folder in the registry AGAIN (it wont be able delete everything in the SecuROM folder but it doesn't matter)
+
+14. Run secu.eg.reg
+
+15. Play the game by running Bioshock.exe
+
+I AM 100% sure this should work!!!!
+Tell me if it doesnt!!"
+,bigbeticeman,2007-09-02T10:29Z,"its a worker but i had to copy both folders before it tried to delete them after the online patch crap, but defo a worker"
+,D__T__M,2007-09-02T12:11Z,"CANOT INSTALL GAME,,,, get to (INSERT REAL DISC,GAME MUST CONNECT TO INTERNET))    PLEASE HELP"
+,dttnbguy,2007-09-03T01:30Z,"can someone please copy and paste the ""startup""
+config file if they got the game to run
+
+mine is currently like this
+[Filesystem]
+FilePath=..\..\Content\System
+FilePath=..\..\Content
+BakedFilePath=..\..\ContentBaked\PC\System
+BakedFilePath=..\..\ContentBaked\PC\
+ScriptPath=.\
+BakedScriptPath=BakedScripts\PC
+CensoredFilePath=..\..\ContentCensored\System
+CensoredFilePath=..\..\ContentCensored\
+
+and i think thats the problem"
+,dttnbguy,2007-09-03T01:34Z,"BTW i get the application failed to start because config is incorrect.
+
+did everything like everyone else did"
+,dttnbguy,2007-09-03T02:21Z,"aaaa sry for the spam,  but you have to install something on the disk to get it to work, not DX or securom (lol) the other one... C++ something when you click it"
+,slick7,2007-09-03T03:20Z,Y every time I install and get to the downloading Bioshock updates it says insert original disc.....and then when i press ok it closes and the installation is gone I need help to fix this problem im begging
+,Mean_man,2007-09-05T21:00Z,I't still not working. I followed mynameiznone instruction but there is two things wrong with it. I can delete all the keys and there is no  securom folder in my profile.
+,Mean_man,2007-09-05T21:46Z,I ran the vcredist_x86.exe on the dvd and now i'ts working
+,chansaw123,2007-09-09T00:38Z,to slick 7 you install the game. when it asks for the cd you just minimize copy everything in the install directory something like drive C/program files/2kgames cut and paste the whole bioshock folder into another folder in your program files than close the installation. afterwards apply the crack and it should work just fine
+,Dagguh,2007-09-12T16:19Z,"mynameiznone:
+It's not SecuROM what is the problem. The Producat Activation is impossible to pass by for me. Did you skip it somehow? Does your method forsee this?"
+,andr3w_ro,2007-09-30T07:33Z,This application has failed to start because the application configuration is incorect. Reinstalling the application may fix this problem. this is the error mesage i get after folowing all those steps... twice... pls reply asap.. 
+,Thoag,2007-10-09T04:10Z,I have no clue how to get this on my computer. every time I click the bioshock exe file it has a error. I also dont have a SecuROM and i dont know if this has anything to do with it. and the maxi image was giving me trouble. Any help would be apreciated. ill do my best to try and follow those instuctions again though.
+,fandango149,2007-10-18T03:04Z,"I'm having the same problem as andr3w. I've done some research of the error and it seems to happen if dll's are missing. But I'm pretty damn sure I was able to copy the ONE dll the crack has.
+
+Soooooo WTF."

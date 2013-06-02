@@ -1,0 +1,40 @@
+ 	Trillian? is a fully featured, stand-alone, skinnable chat client that supports AIM, Google Talk, ICQ, Jabber, MSN, MySpace, Yahoo Messenger, and IRC. It provides capabilities not possible with original network clients, while supporting standard features such as audio chat, file transfers, group chats, chat rooms, buddy icons, multiple simultaneous connections to the same network, server-side contact importing, typing notification, direct connection (AIM), proxy support, encrypted messaging (AIM/ICQ), SMS support, and privacy settings.
+
+Without stealing your home page and with no other included software, pop-ups, or spyware, Trillian provides unique functionality such as contact message history, a powerful skinning language, tabbed messaging, global status changes (set all networks away at once), Instant Lookup (automatic Wikipedia integration), contact alerts, an advanced automation system to trigger events based on anything happening in the client, docking, hundreds of emoticons, emotisounds, shell extensions for file transfers, and systray notifications.
+
+=================================
+Trillian Astra Changelog
+Build 48 -> Build 49
+July 2 to July 13, 2007
+=================================
+
+======
+FIXES:
+======
+
+1589 Scott Werndorfer FIXED [WEBSERVER] ImageMagick missing
+2409 Scott Werndorfer FIXED [Web] None of the accounts show up in Trilly Web
+
+1534 Rachel Blackman FIXED [GOOGLE] Orkut Support
+2056 Rachel Blackman FIXED Jabber connections no longer marked 'auto-connect' during migration
+2408 Rachel Blackman FIXED Jabber crashes trillian when long/complex urls are pasted
+2533 Rachel Blackman FIXED [GOOGLE] Unable to remove Google contacts
+2541 Rachel Blackman FIXED [GOOGLE] Cannot disconnect / reconnect with the Google Talk medium
+2376 Rachel Blackman FIXED Google talk password failure on login
+2537 Rachel Blackman FIXED [GOOGLE] Cannot open message window for offline Google contacts
+2507 Rachel Blackman FIXED [JABBER] Write with Jabber contacts from your GMail account
+
+=========
+FEATURES:
+=========
+
+(.) Auto-update technology re-implemented; supports notification of production versus beta releases for the future.
+
+-------------------------------------------------------------------
+
+Included:
+trillian-v4.0a-current.exe (build 49)
+blAde-T4a.UP_v2.exe (patch)
+Generic_Ads_Remover.exe
+irc.dll (IRC plugin)
+future builds download link.txt (this has the link and login to direct d/l the latest alphas)

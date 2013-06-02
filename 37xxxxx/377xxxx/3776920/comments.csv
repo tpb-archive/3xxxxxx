@@ -1,0 +1,112 @@
+﻿User Type,Username,Date,Text
+,robbo_nz,2007-08-18T08:49Z,"For my D840  (and U600)
+1. Transfer the .jad and .jar files to the 'Other Files' folder on the phone.
+
+You can transfer the files from Samsung PC Studio's 'Phone Explorer', Windows Bluetooth File Transfer or just transfer it straight to the memory card and move it over to 'Other Files' from the phone's menu.
+
+Create the .jad file with 'Jad Maker' program included.
+
+2. Exit all menus and type in this code: *#9998*4678255#. (*#JAVA*INSTALL#)
+You should now get an 'Activated' message. Java install is enabled.
+
+3. Go to the 'Other Files' folder and select the .jad file (should be 1kb).
+Press 'Options' (left touch key) and you should get a 'Do you want to install' question.
+Press 'Yes' to install.
+
+4. To deactivate the Java install, simply type the same code again.
+You should now get a 'Deactivated' message.
+
+Apparently the E900 is similar except the code to install is *#9998*5282# -> install MIDlet password: 235282
+
+plenty of more comprehensive install guides on the net. 
+cheers
+ROBBO_NZ"
+,robbo_nz,2007-08-18T09:23Z,"EDIT:
+On my D840 it was *#9998*52824678255#.
+(*#9998*JAVAINSTALL#)
+and the U600 it was *#9998*4678255#
+(*#9998*INSTALL#)
+
+cheers
+ROBBO_NZ"
+,robbo_nz,2007-08-18T15:28Z,"I have a D600 too and some will work but not all. Check H0CKEYS list on here for some D600 games. I have a good pack with some new games for the D600 I may upload later. Also see Flobots (google) for a good Bluetooth guide to install and some other games to DL. 
+Cheers
+ROBBO_NZ"
+,robbo_nz,2007-08-18T15:58Z,"The D600 has totally different metheod of installing java.
+ check this site for more info.
+http://315.fiberworld.nl/d500/ 
+cheers
+ROBBO_NZ"
+,buffyboy,2007-08-19T00:35Z,does anyone know how to install java on samsung sgh-f300
+,michael.hajjar,2007-08-20T19:55Z,Its not working it says Wrong with Java please help.
+,michael.hajjar,2007-08-20T19:57Z,I have U600
+,Migse,2007-09-16T12:14Z,"real nice stuff this,only do anyone know if it works on samsung e380. nad if so,how to make it work? (im totaly new at this :$)"
+,Migse,2007-09-16T12:14Z,and if so**
+,Footee,2007-10-09T17:46Z,"I have SGH-U600 and when I press Install, - Yes it gives me: Java Error. IO exception.
+Please help? :)"
+,ghdiffey,2007-11-28T23:12Z,need .ajr and .jad so these wont work
+,viracosha,2007-12-11T22:09Z,game sgh d840
+,viracosha,2007-12-11T22:10Z,i need game for sgh d840
+,fugger1981,2007-12-14T07:30Z,my samsung mobile is  E-250 can i posibly download this stuff?
+,swizzbeatz,2007-12-18T22:23Z,Does somone know the PASSWORD for samsung U700...pleeeaasee i need it * ???
+,Administrator01,2008-01-07T21:25Z,"to install on e900 :
+dial *#9998*5282#
+go to ""Install MIDlet""
+password : 235282
+Then select the .JAD file. if you havent got a .JAD file with the .JAR file then you need to download a JAD Maker Via google."
+,ithiz,2008-01-09T08:51Z,"it worked on my u600 with some bugs.. Mario worked only with 1/4 of the screen.. Bejeweled worked without the lowest line (where the time/score etc is) kinda boring.. If you having problem with ""readin java"" so remember to MOVE the files from your MemoryCard to the PHONE.. then choose ""options/valg"" :)"
+,zilverzurfarn,2008-01-09T21:27Z,I cant find either .jar or .jad files.. wtf?
+,DutchPsychoJR,2008-01-14T15:15Z,"I have a Samsung f330. the transfer and shizzle works but when i dail those install numbers the response is blocked by network, what can i do about it, please let me know!"
+,ammi453,2008-01-24T15:39Z,"plz seed plz seed
+tnx"
+,loope,2008-01-29T18:10Z,"Thanks for this great upload, worked perfect formy Samsung U600. Wouldn't have made it without the great guide from robbo_nz. Thanks once again guys :D"
+,_WooW_,2008-02-05T12:50Z,please can someone tell me the code for the samsung sgh-d900 please need it  :)
+,_WooW_,2008-02-05T16:09Z,"I allready know the code but im not sure (*#8999*5282) but when i press it i dunno what to do please can some one help me
+
+^^sorry for my english^^
+^^im from holland^^"
+,troykonsul,2008-02-10T01:40Z,Works great on my nokia 6280 240x320 :)
+,jrenza,2008-02-10T03:57Z,"i downloaded the games and i put two on my d900 already but when im going to play them it says ""JAVA game error"", can someone please help me out! ive been tryin to get games for this phone and when i finally get them this comes out, please tell me what can i do?"
+,belkin33w,2008-02-16T11:19Z,It works fine on my sonyericsson k750i
+,tommie1980,2008-02-16T22:01Z,i can't find JAR folder
+,tommie1980,2008-02-16T22:15Z,"I have SGH-U600 and when I press Install, - Yes it gives me: Java Error. IO exception.
+Please help? "
+,llih95,2008-02-20T14:30Z,"Help me to get it work I can't get it right.
+My phone don't know the format.
+plese help me!!!"
+,robvoros,2008-03-01T20:40Z,"hey guys ! I have SGH-U600 and when I press Install it gives me: Java Error. IO exception
+PLEASE HELP 
+THX
+Cheers 
+Rob"
+,danie1986,2008-03-23T12:07Z,"please can someone help me i have a samsung E900 have got the games downloaded onto computer and have the Jad maker but am very confused on how to actually get the games it comes up invalid format 
+thanx in advance"
+,jsc248,2008-05-13T15:10Z,"For the E900
+First use the JAD maker in this folder to create jad files for the games you want. Use drag and drop, simply drag the jar. game file onto the JAD maker box. Then bluetooth the jar. and jad. file for each game to your ""other folders"" on the handset. 
+Type *#9998*5282#
+Install Midlet
+Password 235282
+Then click on start and enjoy!"
+,sandersb14,2008-06-05T21:18Z,Works perfectly for E900!
+,jay9704,2008-06-06T00:58Z,eyup peeps wots the code for the samsung d900 n how do ya do it as av done it on my u600 but cnt to get it wot work on the gf's d900 n thats wot i wanted these for if i cnt get it workin am sorry but am gona av to delete em off me pc as no use to me so any help wld be greatful lol
+,dahti00,2008-09-04T09:49Z,"Well i have F489 Touchwiz.
+Basically no jouystick so most games suck on it. If anyone have troubles with unlocking their phones. Do what I did, upload the games on a server connect to it with your phone, and install the games from WAP. Sure it costs about 1/2 euro in data traffic cost but much easier."
+,stalina83,2008-10-06T01:56Z,"got Samsung Touchwiz and I dont get it to work om my phone? can anyone help me with my problem? I´m a firsttime user so please explain it to me like i´m stupid =)
+"
+,stalina83,2008-10-06T01:56Z,got Samsung Touchwiz and I dont get it to work om my phone? can anyone help me with my problem? I´m a firsttime user so please explain it to me like i´m stupid =)
+,stalina83,2008-10-06T02:01Z,got Samsung Touchwiz and I dont get it to work om my phone? can anyone help me with my problem? I´m a firsttime user so please explain it to me like i´m stupid =)
+,Dona_19_,2008-10-21T15:51Z,"I Have a samsung U900 soul, and I Cant get this to work on my phone, how should i do 
+HELP PLZ"
+,-xKarlijn,2008-11-16T15:58Z,"thanks, last year I had downloaded another game and then the pc get a blue screen with letters.. I thaught it was a virus or something xD
+So i finally dare to download this one and it works fine (till now haha)
+so thanks (:
+-sorry for my crappy english.."
+,sebbeyp,2008-12-07T13:38Z,Works in Samsung U600 but unlock the code is *#9998*4678255# (*#9998*install#)
+,just-in,2008-12-21T15:54Z,"It works fine!
+Thanks"
+,qwerty2007,2008-12-27T02:45Z,"Works on U600, thanks."
+,kamikaz28,2009-05-12T18:36Z,"What About The Cod Of D900
+It's Don't Work With ME
+Help Plz"
+,JustDownloader,2009-06-07T18:09Z,nice games downloading but i can't find anywhere assassins creed searching for it....
+,JustDownloader,2009-06-07T18:57Z,in my Samsung d900  they didn't wirk

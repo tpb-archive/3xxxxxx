@@ -1,0 +1,43 @@
+1. Microsoft Office Professional 2007
+Software: Microsoft Office Access 2007, Microsoft Office Excel 2007, Microsoft Office Outlook 2007, Microsoft Office PowerPoint 2007, Microsoft Office Publisher 2007, Microsoft Office Word 2007
+
+2. Microsoft Office Small Business 2007
+Software: Microsoft Office Accounting Express 2007, Microsoft Office Excel 2007, Microsoft Office Outlook 2007, Microsoft Office PowerPoint 2007, Microsoft Office Publisher 2007, Microsoft Office Word 2007
+
+3. Microsoft Office Home and Student 2007
+Software: Microsoft Office Excel 2007, Microsoft Office OneNote 2007, Microsoft Office PowerPoint 2007, Microsoft Office Word 2007
+
+4. Microsoft Office Standard 2007
+Programos: Microsoft Office Excel 2007, Microsoft Office Outlook 2007, Microsoft Office PowerPoint 2007, Microsoft Office Word 2007
+
+5. Microsoft Office Accounting Professional 2007
+
+6. Microsoft Office Groove 2007
+
+7. Microsoft Office OneNote 2007
+
+8. Microsoft Office Publisher 2007
+
+9. Microsoft Office Visio Professional 2007
+
+
+
+Installation notes:
+
+1. Install needed pach or software;
+
+2. After the installation do not start any of programs;
+
+3. Start text editor (eg. Notepad) and open the file::
+     C:Program FilesCommon FilesMicrosoft SharedOffice 12Office Setup ControllerProof.enProof.xml
+
+4. Find the lines on file cantaining text:
+     <Feature Id="SetupXmlFiles" Cost="1248">
+     <OptionRef Id="AlwaysInstalled"/>
+     </Feature>
+
+5. Replace "AlwaysInstalled" to "NeverInstalled";
+
+6. Save the file;
+
+Enjoy full versions programs of M$ Office!

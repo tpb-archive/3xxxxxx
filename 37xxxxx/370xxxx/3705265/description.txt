@@ -1,0 +1,30 @@
+BitComet 0.89
+
+
+GUI Improved: add "Hide this" to context menu of peer shared torrent list, no longer display the selected torrent files
+
+GUI Improved: add "copy title" to context menu of peer shared torrent list, copy the title of selected torrent file to clipboard
+
+GUI Improved: double click downloaded torrent file in peer shared torrent list to view corresponding task in task list
+
+GUI Improved: new icon in my shared torrent file list to show the shared, but not downloaded torrent file
+
+GUI Improved: peer shared torrent list will only refresh once when typing continuously in the filter edit box
+
+GUI Improved: items in peer shared torrent list will keep selected when auto-refresh
+
+GUI Improved: no torrent file will be displayed in shared torrent list in torrent file share disabled in perferences dialog
+
+GUI Improved: the default number to show in the shared torrent list is set to "unlimit"
+
+GUI Improved: new option of socket start interval(ms) in perferences dialog
+
+GUI Bugfix: upload rate displays text error in task list if max upload rate of task is set
+
+GUI Bugfix: operation to torrent will be misplaced after set filter to peer shared torrent list
+
+GUI Bugfix: task number in history task list is not refreshed upon 0 clock at midnight
+
+GUI Bugfix: "Open BC link" in file menu does not work if task summary pane is current active window
+
+Core Bugfix: Share ratio of BT task is always 0 if only uploading without any downloading.

@@ -1,0 +1,48 @@
+[IMG]http://i71.photobucket.com/albums/i122/Slickinator2006/X2D-box-lights.gif[/IMG]
+
+ConvertXtoDVD - 2.2.2 - Released 6th of June 2007
+=====================
+
+Complete rewrite of the AVI demuxer, for improvement such as:
+* accurate determination of audio start time, working with CBR/VBR audio (fixes most audio out of sync issues)
+* fault tolerance improved - very damaged AVI files (truncated, incomplete parts missing, wrong indexes) should be better handled now, and no longer produces out of sync audio.
+* lightning fast preview scroller, will give 99% of the time a perfect image
+* files with 'rec ' chunks are handled
+* accurate duration determination (fixes bogus or truncated AVI that used to need a parsing to obtain their accurate duration)
+
+some regression bugfixes also implemented
+- 0000914: [Crash] Click On Audio or Video Stream (Twice) will generates an Access Violation ! (wesson)
+- 0000819: [Information] Adobe Premiere 1.5 file producing audio sync issues (wesson)
+- 0000902: [Information] file to test: no image once converted (wesson)
+- 0000915: [Bug] regression with Photostory wmv file (wesson)
+- 0000916: [Bug] Video framerate problem after encoding (wesson).
+
+
+
+ConvertXtoDVD is a video converter software to convert and burn your videos to DVD. With ConvertXtoDVD and a few clicks you can backup your movies to DVD playable on any home DVD player.
+
+ConvertXtoDVD supports most popular formats such as AVI to DVD; Mpeg, Mpeg, Mpeg4, MP4, VOB, WMV, DV and stream formats to DVD. It converts your files into a compliant DVD Video set of files and burns it on a DVD media. The ConvertXtoDvd does not need an external AVI codec download. It uses its own AVI codecs.
+
+Key Features:
+
+    * Supported video formats: Convert AVI, Mpeg, Mpeg4, DivX, Xvid, MOV, WMV, WMV HD, DV, MKV, DVD to DVD and more...
+    * Supported sources: existing files from digital camcorders, TV/Sat, capture cards
+    * Can merge up to 4 hours of material from several movies or episodes
+    * Supported audio formats: AC3, DTS, PCM, OGG, MP3, and more...
+    * Handles subtitles files (.SRT .SUB/IDX .SSA) with color and font selection, and supports tags (italic, bold)
+    * Video format choice: NTSC, PAL, or automatic and PULL-DOWN
+    * Picture output: Widescreen, Fullscreen, or automatic
+    * Create Automatic chapters or edit your own
+    * Fast preview mode to check if the source is loaded correctly
+    * Save the DVD structure on hard drive or burn it to a blank DVD
+    * Reliable burn engine integrated (supports all DVD formats)
+    * Fast and quality encoder (typically less than 1 hour for converting 1 movie)
+    * Variable options and settings for advanced users
+    * Control of the conversion speed vs quality
+    * DVD Menu control (auto-start, loop etc)
+    * DVD Menu edition (background, font, color)
+    * Customizable interface (themes, dockable windows)
+    * Multilingual support (available languages...)
+    * Optimized for Windows 2000 / XP / Vista
+
+

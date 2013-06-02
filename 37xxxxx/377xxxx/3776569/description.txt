@@ -1,0 +1,37 @@
+A freshly created VMware image of Linux Mint KDE 'Cassandra'
+
+The KDE Edition of Linux Mint is a Community project and it is maintained by Jamie "Boo" Birse.
+
+This release is based on Bianca-KDE and compatible with all Feisty repositories. It comes with KDE 3.5.6 and a Linux kernel 2.6.20-15. Openoffice, Thunderbird and Sunbird replaced Koffice and Kontact. Beryl 0.2.1 is included with Beryl-Manager. 
+
+The default software selection includes:
+
+    * OpenOffice 2.2.0, Firefox 2.0.0.4, Thunderbird 1.5.0.12 (version 2.0 is available in the Software Portal) and Sunbird 0.6a1
+    * Dolphin 0.8.1 and Tasty Menu 0.8.2
+    * Amarok 1.4.6
+    * K3B 1.0 and K9Copy 1.1.0
+    * Scribus 1.2.5
+    * KMyMoney 0.8.5
+    * Sun Java 6
+    * DigiKam, Gimp, Gwenview, Kooka, Krita, KGet, KFTPGrabber, KNetworkManager, Kopete, Konversation, Inkscape, Hugin...etc
+    * mintInstall 2.4
+
+** EXTRA INFO **
+
+Created in VMware WS 6
+Kernel 2.6.20-16 (fully updated as of (17/08/07)
+VMware tools installed & auto starts
+Ethernet = Bridged DHCP
+Memory = 512MB
+HD 8GB = used 3.3G Avail 3.9G
+Language = Eng
+Timezone = London
+Keyboard = UK
+Monitor 1280x1024
+Superkaramba installed
+
+**** Username = user1 ****
+**** password = linuxmint ****
+**** sudo = linuxmint ****
+
+Visit http://jaraeez.no-ip.com/ for screenshots 

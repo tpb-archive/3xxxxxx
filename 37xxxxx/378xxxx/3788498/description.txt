@@ -1,0 +1,40 @@
+
+YABASIC PS2 (programming in BASIC on your PS2) + Win32 Port
+-----------------------------------------------------------
+
+YABASIC (Yet Another BASIC) is a free and open source BASIC interpreter for Windows and Unix platforms. YABASIC is currently developed by Marc-Oliver Ihm. YABASIC is relatively small in file size at around 250 kilobytes.
+
+A version of YABASIC is available for Sony's PlayStation 2.
+
+It is recommended to have an additional USB-compatible keyboard for the PlayStation version of YABASIC because programming with a gamepad is rather impractical. YABASIC programs created on a PlayStation can be stored on memory cards for later retrieval or swapping with friends.
+
+A Win32 Port of the version of YABASIC that was shipped with the PS2. This should allow people to more easilly develop programs and to test their programs before posting them on the internet.
+
+YABASIC can draw simple line graphics in colour as of version 2.760. As well as "conventional" features, YABASIC offers structured programming (various block structures, named subroutines with return values and code modules with separate namespaces). On the other hand, composite data structures are missing. Passing of arguments is always by value, except for arrays, which are always by reference.
+
+The interpreter is very lenient in syntactical matters - for example, both color and colour are legal variants for the same command. Likewise, there are a number of different versions for if and for constructs, giving the programmer freedom of choice in his design.
+
+Files:
+------
+YABASIC-PS2CD-NTSC.iso --- YABASIC 2.64 / PS2 version NTSC
+YABASIC-PS2CD-PAL.iso --- YABASIC 2.64 / PS2 version PAL
+YABASIC-PS2CD-SRC.zip --- YABASIC 2.64 / PS2 version Sourcecode (in C)
+
+ps2yabasic1.5.win.zip --- Win32 Port of YABASIC 1.5
+ps2yabasic1.6b3.win.zip --- Win32 Port of YABASIC 1.6 BETA 3
+ps2yabasic1.5.src.zip --- Win32 Port of YABASIC 1.5 Sourcecode (in C)
+
+yabsamples.zip --- COOL Sample Programs (TXT format) 
+
+External links:
+---------------
+  
+http://members.chello.nl/~a.vanarum8/Yabasic/index.html  
+http://sourceforge.net/projects/win32yabasic/  
+http://www.yabasic.de/
+
+Forum:
+------
+ 
+http://dbfinteractive.com/index.php?board=25.0  
+http://p205.ezboard.com/byabasicprogramming

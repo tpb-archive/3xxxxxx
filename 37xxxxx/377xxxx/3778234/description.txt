@@ -1,0 +1,23 @@
+kinda old but its the newest version and i didnt find it anywhere else and since http://www.nsaneproductions.com is going down i decided to upload it here :)
+
+
+PeerGuardian 2 is Methlabs' premier IP blocker for Windows. With features like support for multiple lists, a list editor, automatic updates, and blocking all of IPv4 (TCP, UDP, ICMP, etc), PeerGuardian 2 is the safest and easiest way to protect your privacy on P2P. Plus, by integrating with Blocklist.org, lists are built custom just for you.PeerGuardian 2 is Open Source, meaning the program code is available online for anyone who wants it. Not only does this allow you to make modifications or even branch off into your own project, but it encourages peer review of the code making sure any bugs are eliminated swiftly. Because PeerGuardian 2 is Open Source, you can rest assured there are no backdoors or spyware included.
+
+    * Changes in 2.0 RC1 Test 2:Vista: Connections do not need to time-out like they do in XP, which means faster browsing with ad blocking lists.
+    * Vista: UDP "connections" are detected, meaning only the first packet of a UDP protocol will be logged. This allows for much less CPU and disk usage in new P2P projects like Rodi and Freenet.
+    * Vista: Compatible with ALL firewalls.
+
+    * Changes in 2.0 RC1 Test 1:Ability ton completely disable LOGGING.
+    * Update of server of acres now car allowed while updating.
+    * Driver has been updated for higher performance and stability.
+    * Windows Vista support:
+          o Full blocking over IPv4 and IPv6.
+          o Detects IPv4 users masquerading under Teredo and 6to4 IPv6 of addresses.
+          o Compatible with UNIVERSE firewalls.
+    * â??pgfixâ?? recovery application NO more longer needed.
+
+    * Changes in 2.0 Beta 6c:Fixes a couple bugs.
+    * Updates some urls.
+    * Update servers will be auto-allowed while updating, and then go back to regular settings (ie if they are blocked) when it's done. this can be turned off via the config file AllowUpdates setting, but is not recommended!
+    * A performance enhancement in the driver.
+    * One installer fits all this time. needs testing especially on 9x.

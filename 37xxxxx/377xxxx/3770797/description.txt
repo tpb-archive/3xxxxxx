@@ -1,0 +1,64 @@
+Soldat Version 1.4.2
+By Michal Marcinkowski 
+http://www.soldat.pl/
+===================================
+
+
+
+===1.4.1->1.4.2 Changelog:
+- Added new DM map Veoto, new INF maps inf_Industrial, inf_Argy, removed ctf_Conquest
+- Added compatibility for pre 1.4 weapon mods
+- Added bullets from high ping players are rendered appropriately
+- Added password to join url - soldat://IP:PORT/PASSWORD/
+- Added seamless server support (switching servers in-game by server)
+- Modified most of the maps fixed and improved by Keron Cyst
+- Modified htf_Void tripped over 90 degrees
+- Modified logs and screenshots naming convention (first file ends with date and "01", second ends with "02" ...)
+- Fixed extreme player warping with decent ping
+- Fixed time passing by on game pause
+- Fixed auto-updater bug
+- Fixed knife could be thrown while invincible after respawn
+- Fixed middle map respawn
+- Fixed Vista BattlEye bug when installed under "Program Files"
+
+
+
+===Known issues:
+Lobby server might need 2-3 request clicks to work. This is an issue that will be fixed later.
+If there are any problems with fonts in the menu please restart the system after installation.
+If there are any font problems or low FPS please turn on Video Compatibility in the Setup, if it is not the case please don`t turn it on.
+If you experience freezing every 10 minutes on Vista turn Video Compatibility on.
+Old demos are not compatible with this version.
+
+
+
+===Description:
+Soldat is a unique side-view multiplayer action game. It takes the best from games like Liero, Worms, Quake and Counter-Strike and gives you fast action gameplay with tons of blood and flesh. Soldiers fight against each other on 2D battle arenas using a deadly military arsenal. This is what multiplayer was invented for.
+
+
+Most important features:
+It's free to play
+Game environment based on real physics rules
+Over 18 weapons available:
+- guns like MP5, Ak-74, M79, M249 Minimi, Barret M82A1, XM214 Minigun
+Multiplayer network game over the Internet or LAN
+Intelligent bots
+7 game modes:
+- Deathmatch
+- Pointmatch
+- Teammatch
+- Rambomatch
+- Capture the Flag
+- Infiltration
+- Hold the Flag 
+64 different maps
+Editors: Soldat Map Maker and Interface Maker
+Lobby server and dedicated server for Windows and Linux
+Large community creating mods, maps and tools
+
+===Links:
+Official Site: http://soldat.pl/
+Official Forums: http://www.soldatforums.com/
+Selfkill community: http://selfkill.com/
+Ultimate13 community: http://u13.net/
+SoldatPage community: http://soldatpage.u13.net/

@@ -1,0 +1,159 @@
+Description: Wolfenstein: Enemy Territory, free multiplayer relative of Return to Castle Wolfenstein from Splash Damage
+
+
+Site: http://www.planetwolfenstein.com/enemyterritory/
+
+FAQ:
+( http://www.planetwolfenstein.com/features/articles/pw_faq_et.shtml )
+
+Do I need to own or have RtCW installed to play Enemy Territory?
+
+No, you do not need to own or have Return to Castle Wolfenstein installed in order to play Wolfenstein: Enemy Territory. You will however be required to download the game and meet the following system requirements:
+
+    * Windows 98/ME/2000/XP OS (Windows NT 4.0 not recommended for clients)
+    * 100% Windows 98/ME/2000/XP compatible system (including all 32bit drivers)
+    * Intel Pentium III 600Mhz processor or equivalent
+    * 128 MB RAM
+    * 32 MB 100% fully OpenGL compliant 3-D video card
+    * Microsoft Direct X 8.1 or higher (not included)
+    * 271 MB total disk space for game files
+    * 500 MB free disk space for swap file
+    * 100% Microsoft Windows compatible keyboard
+    * 100% Microsoft Windows compatible mouse
+    * 100% Microsoft Windows compatible sound card
+    * For internet play, 100% Windows 98/ME/2000/XP compatible 56.6k modem or better internet connection. 56.6k modem play is not recommended for games with more than 8 players total; broadband players should be able to handle up to 32 depending on their connection with the server on which they're playing.
+
+The following video cards were fully tested with Wolfenstein: Enemy Territory:
+
+    * GeForce 4 Ti 4600
+    * GeForce 4 MX
+    * GeForce 3
+    * GeForce 2 Ultra
+    * GeForce 2 MX
+    * GeForce256
+    * Radeon 8500/64
+    * Radeon 7200/64
+    * Radeon 9700 Pro/128
+    * Xabre 400
+
+
+Is it true that Wolfenstein: Enemy Territory is a FREE game?
+
+YES! It's true! Wolfenstein: Enemy Territory is a free game. Thank you Splash Damage, id Software and Activision!
+
+
+Are there official bots for Enemy Territory?
+
+Sorry, there are NO bots for Wolfenstein: Enemy Territory.
+
+
+Where can I find out about classes, weapons, objects and map strategies?
+
+Be sure to read the Player Guide that comes with Wolfenstein: Enemy Territory. You can access the Guide through your Start Menu or find it located in your Wolfenstein - Enemy Territory\Docs directory.
+
+
+Why do I get a "Cannot load OpenGL subsystem error" when starting the game?
+
+Your video drivers need to be updated. Download and install the latest driver from your video card manufacturer's website. The most popular ones are nVidia and ATI. Please note that the drivers that came with Windows XP and Win2k do NOT support OpenGL. Replace them with the drivers you download.
+
+For further assistance with this error read this PW Forum thread.
+
+
+How can I boost my system performance for Enemy Territory?
+
+Taken from the Wolfenstein: Enemy Territory readme file:
+
+Wolfenstein: Enemy Territory allows you to customize your settings so that you can improve the visuals or decrease them. Some of them have a greater impact on performance than others. Below are some settings that will improve your performance, but at the expense of the visuals:
+
+   1. Set the system options to 'Fastest'
+   2. \com_maxfps (set to a high number i.e 400)
+   3. \cg_atmosphericeffects 0
+   4. \cg_wolfparticles 0
+   5. \r_fastsky 1
+   6. \r_picmip 3
+   7. \cg_drawgun 0
+
+
+I'm LAGGING in ET, how can I get rid of it?
+
+From Activision: Problems with choppy gameplay may be the result of not setting your connection speed when you create your profile. The connection defaults to ISDN, which is a rate of 5000. If your rate is set to something not appropriate for your connection, you'll get lag. If you're playing over a LAN or a DSL or cable modem, your rate should be set to 25000. To set your rate, pull down the console (~) and type "/rate (number)" without the quotes. You can also do this by choosing the "Options" button in the main menu, then choosing "System" and checking the connection speed (near the bottom of the screen). Be sure to press Apply.
+
+
+Enemy Territory crashes or freezes!
+
+First be sure that your system meets the minimum system requirements.. Make sure that you have the latest video and sound card drivers available for your hardware from the manufacturer's websites. Close down any other programs you may have running prior to running the game.
+
+If ET locks up shortly after joining a server you can try the following solution:
+
+Before joining a server press the Tilde " ~ " key to bring the console down, then type in the following: /pb_system 1
+
+
+How do I take a screenshot?
+
+From the Enemy Territory Main Menu go to "Options", then "Controls", in the "Miscellaneous" section you will see a place to bind a key to "Take Screenshot". You'll find the screenshot files in the Wolfenstein - Enemy Territory\etmain\screenshots\ directory.
+
+
+Why can't I zoom in when using the sniper rifle?
+
+You have to press the "Switch to Alternate" key first to get a zoomed view. To find out which key to press, go to the "Controls" menu where you can also choose to assign a different key if you want. After you press that button in the game, use the mouse wheel to zoom (or the keys listed in the Controls screen).
+
+
+Medic: How do I use 'adrenaline'?
+
+As a Medic, once you have gained enough Experience you will receive the special ability to give yourself "Adrenaline" shots. In order to use adrenaline you must bring up the syringe (5), then "Switch to Alternate" (bind Switch to Alternate key through the "Controls" menu), and then press your fire key to inject yourself with the adrenaline.
+
+
+There aren't any servers listed in the in-game browser!
+
+Make sure you have your "Source" set to "Internet" (upper left hand corner of the in-game browser).
+
+
+I'm connecting to a server and it says I have to install and enable PunkBuster to connect. However, I just installed it! What should I do?
+
+As the message says. You have to install AND enable it. Enable your PunkBuster client by clicking on the Enable PunkBuster button on the in-game browser screen.
+
+
+I have another PunkBuster question/problem. What do I do?
+
+Check the PunkBuster Frequently Asked Questions. Make sure you have the latest PunkBuster files. The easiest way to make sure you are up to date is to download PBWEB. Place the program in your "pb" folder and run it from that location. PBWEB will automatically update your PunkBuster files.
+
+
+How do I play a demo or a "replay"?
+
+To play a demo (or replays as they are called in ET) you must first record a demo. You may configure a key to record your replays in the "Options - Controls" menu. Once you have recorded your replay you can view it back by going to the "Replays" section off of the Enemy Territory Main Menu. Simply select a demo from the scrolling menu and click on the "View" option to watch your replay.
+
+
+My modem connection is craptastic, and I keep getting 'connection interrupted'. What should I do?
+
+Upgrade to broadband, next question. But seriously, you can get a playable connection using a modem is you do some basic stuff. It may not always work, but often it will. First, set your rate to 3500 to 4000 max. Do this by entering /rate 3500 in the console, or putting seta rate 3500 in your config file. Next, you may need to cap your fps. Some people cap it as low as 25, but that will get you booted from PB servers if the administrator is using the recommended PB cvar settings, so cap it to 43. Do that by typing /com_maxfps , or entering seta com_maxfps in your config. 43 has a double benefit. Not only may it help your connection, but it is also one of the magic numbers that allows you to jump higher due to the way the game engine handles physics, providing of course that your system can maintain 43 fps. Do that by typing /com_maxfps in the console.
+
+The last thing to do is to tweak your modem, and you can find info about it here: The PHHortress and UpsetChaps Gaming Connection Guide.
+
+
+
+How many players can I host on my cable/DSL connection?
+
+Most consumer cable/DSL connections are capped at 128kb/s upload. With that little bandwidth you can host for around 2 or 3 people, plus yourself locally.
+
+
+How much bandwidth is required to host a real server, and what sv_maxrate setting should I use?
+
+Note: The following was taken directly from the PW RtCW FAQ, the same information may not apply to Enemy Territory, stay tuned for more information as things become more clear.
+
+Rule of thumb is to take your upstream bandwidth and divide it by the number of clients you want to serve. That will give you the rough BW required for each client, in bits per second (b/s). Then, just set your sv_maxrate accordingly.
+
+The sv_maxrate represents the bandwidth in bytes per second (B/s), so just divide the bandwidth required (b/s) by 10 to get B/s. Yes, a byte has 8 bits, but just use 10s easier to calculate and it accounts for the header and footer information used in the TCP/IP (and UDP) protocol.
+
+So, if for example you have 500kb/s upstream bandwidth and want to host for 10 people, each client will use 50kb/s, or 50,000. 50,000 divided by 10 is 5000, so 5000 is your sv_maxrate.
+
+Here is a good explanation of server BW: Haqsau's Lab. The information is a little dated, but it's still a very good resource.
+
+
+Help! My question isn't answered in this FAQ!
+
+Look at the front page of PlanetWolfenstein for walk-throughs or other how-tos. Or, check Ifurita's site Return to Castle Wolfenstein 4 Dummies. All hail Ifurita! Server information can be found at gameadmins.com, network information at practicallynetworked.com, and a whole bunch of Q3 engine information can be found at Upset Chaps. It's written for Q3 and TA, but it pertains to RTCW also.
+
+
+HELP! I still don't have an answer!
+
+Go ahead and post a question in the PlanetWolfenstein Forums. ( http://www.forumplanet.com/planetwolfenstein/ )Make sure you pick the right forum to do so (i.e. Technical Support, Single Player Help, Server Admin Help, Level Editing or Modifications). Only post in General Discussion if your question does not belong to any of the other forums, and do not post in multiple forums because answers will get spread out in different threads and makes it harder for everyone to try and help.

@@ -1,0 +1,14 @@
+﻿User Type,Username,Date,Text
+,grepero,2007-06-29T13:34Z,"This is the 1st release and uses tovid-0.30 with svn version of the 'todisc' script (animated menus).
+http://tovid.sourceforge.net
+One bug: if using english you need to start tovidgui from command line with:
+LC_ALL=en_US.UTF.8 tovidgui
+as knoppix sets LC_ALL=""C"" which doesn't work.
+New version will be uploaded shortly
+with updated man page for todisc as well.
+
+grepero"
+,grepero,2007-06-30T21:47Z,"I've removed this torrent for now as a new version with bug fix from above comment included, as well as new enhancements for todisc."
+,grepero,2007-06-30T21:49Z,"Heh, can't edit your own comments it seems.  I meant to say a new version is on its way, so i've removed this one for now.  ( after waiting for someone to finish downloading the whole thing at 2 KB/PS :P
+
+grepper"

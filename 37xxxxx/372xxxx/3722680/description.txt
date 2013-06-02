@@ -1,0 +1,46 @@
+This torrent contains The Sims 2 with all its current expansion packs.
+The Sims 2 and its expansion packs are packaged in individual 7z archives, which
+need to just be extracted somewhere. The Sims 2 needs some registry entries too,
+however, so I wrote an installer program which extracts the selected 7z archives
+to where you choose and sets the registry entries accordingly. The installer
+also extracts the splash images of your selected language to the game's
+directory. The source for the installer is included too (using the GPL licence).
+
+Note that Happy Holiday Stuff is included in the core game, as the archive name
+tells, even though the installer reads different. Happy Holiday Stuff isn't
+kind of "stand-alone" like the other expansion packs, so I thought the most
+elegant solution would be to include it in the core game archive.
+
+As I briefly tested playing The Sims 2 without CD keys in the registry, it
+worked, but if there's a need for some generated CD keys regardless, I included
+pre-generated CD keys for each expansion pack as a .reg file (except Happy
+Holiday Stuff, which doesn't have one) and the core game. The installer allows
+you to set/edit them manually too, but this might save some time for someone.
+
+The file 'Uninstall data.reg' is included in case some external utility or a new
+expansion pack needs to be installed which might need these registry entries.
+The file paths, however, are fixed, and probably need to be modified (unless
+you use the same paths).
+
+The Sims 2 CD had VP6 video codec installer, which might be needed by some, so
+it is included too. Also included from the CD is the "Grow Your Sims" that is
+normally executed during the game's installation. I didn't write any helper
+script/program for it, but it's very simple to use it. Rename the files prefixed
+with the locale code you want to use to external.txt and Sims2Logo.jpg and
+execute First15.exe.
+
+The core game and all expansion packs that had a patch available were updated
+to the latest version, except for the first two expansion packs: University and
+Nightlife. For some reason I couldn't apply the patch to those two, but that
+probably doesn't matter if the patches only change the executable files.
+
+the directory mini-images contains mini-images for all expansion packs.
+The filenames are prefixed with the "short name" of each expansion pack or the
+game for convenience. The prefix is followed by the original filename.
+
+I made this torrent since I got tired of the time consuming install process
+which required too much user interaction and the amount of space the disc
+images used. This release requires the least user interaction (that I could do),
+while (hopefully) allowing to set all the same options and all game data is
+efficiently stored in 7z archives, which reduces the size to about 66% of the
+original discs.

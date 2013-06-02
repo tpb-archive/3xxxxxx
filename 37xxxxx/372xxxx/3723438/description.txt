@@ -1,0 +1,52 @@
+Appliance     : Gentoo 2007.0 'Secret Sauce'
+Processor     : Pentium 4 3.00 GHz
+Kernel        : 2.6.20-gentoo-r8
+Environment   : KDE 3.5.5
+VMwareTools   : 6.0.0-45731
+Virtual Disk  : 10 GB
+Size on disk  : 5.39 GB
+Resolution    : 1152x864
+Alocated Ram  : 560 MB
+Networking    : nat - vlance
+CDROM         : 1
+USB           : Present
+Audio         : ESonic - es1371
+
+
+Torrent Size  : 1.95 GB
+ 
+Highlights:
+===========
+	- All the applications in this image have 
+	  been compiled from source. 
+	- Cut/Copy/Paste to and from host enabled
+	- Drag and Drop to and from host enabled
+	- Automounter takes care of USB drives and
+  	  CD-ROMS. (/mnt/usb and /mnt/cdrom) 
+	- Network working
+	- Audio working
+	- Consistent GUI with qt-gtk engine
+	- Consistent fonts 
+	- DPI set to 96x96
+
+Login Info:
+===========
+UserName: root
+Password: mustang
+
+Applications Installed:
+=======================
+kdebase, kdeadmin, kdemultimedia, kdegames, kdeutils
+Firefox 2.0.0.4, Flash, Java, Mplayer, MPlayer plug-in, 
+Real Player 10, RedHat Artwork.
+And all the basic development tools of course.
+
+Paralel and Serial ports have been disabled. But they 
+can be enabled from gentoo.vmx file.
+
+I have kept the applications to minimum to let you
+customize it further.
+
+For advanced options run 'vmware-toolbox' from konsole.
+
+Send your comments/suggestions/requests at getsomeware@gmail.com 

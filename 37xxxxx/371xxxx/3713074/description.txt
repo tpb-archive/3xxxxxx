@@ -1,0 +1,14 @@
+Changelog 3.1.5 -> 3.2.0 | (2007-06-12)
+
+    * Updated ffdshow to revision 1282
+    * Updated x264 to revision 606
+    * Removed WMV9VCM
+    * Removed Indeo 3, ffdshow will now be used instead.
+    * Updated AC3Filter to version 1.45b
+    * Replaced AC3ACM with AC3Filter.ACM
+    * Added Haali shell extension
+    * Removed Orban AAC parser. DC-Bass Source is used instead.
+    * Updated Codec Tweak Tool
+    * Improved support for MPEG TS
+    * Automatic Speaker configuration based on Windows audio settings
+    * Minor changes

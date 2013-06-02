@@ -1,0 +1,14 @@
+100.0% complete
+Name        : Marc.Dorcel.Glamour.1-piger.free.fr-rlp.4_mobile_phones.mp4
+Length      : 1034.86
+Resolution  : qvga
+Audio       : 32000
+Channels    : 1
+Video Codec : mpeg4 simple profile
+Audio Codec : lc aac
+BPS         : 464k
+Command     : ffmpeg -i in_file -ar 32000 -ac 1 -acodec aac -s 320x240 -vcodec mpeg4 -b 400 -bt 50 -ab 64 -pass 1 ../h263/tmp.mp4
+            : ffmpeg -i in_file -ar 32000 -ac 1 -acodec aac -s 320x240 -vcodec mpeg4 -b 400 -bt 50 -ab 64 -pass 2 out_file.mp4
+
+        http://piger.free.fr/
+        http://piger.free.fr/mindex.html for mobile phones

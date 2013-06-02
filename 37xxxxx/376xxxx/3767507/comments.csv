@@ -1,0 +1,32 @@
+﻿User Type,Username,Date,Text
+,Mutton,2007-08-09T17:51Z,"*** IRC TROJAN ***
+http://securityresponse.symantec.com/security_response/writeup.jsp?docid=2004-031015-3147-99
+
+Internal file list of NIStudioSetup.exe:
+
+123.bat
+139.txt
+Advisory.nfo
+fixt
+httpget.exe
+kill.exe
+NortonPID.hlp
+ntinstall.ini
+OS32.ini
+pnc.exe
+ret.bat
+smnt.exe
+smnt.scr
+spsexec.exe
+tftp8675
+WINClock.exe
+winhelper.exe
+WinOS.hlp
+NIStudioSetup.exe"
+,bedata,2007-08-09T18:11Z,"Get rid of everything but NiStudioSetup.exe
+and the Crack dir. Then it seems ok.
+Don't run the downloaded file. Open in Winrar
+instead and extract the good files."
+,luap333,2007-08-10T08:12Z,"I extracted only the good files,installed,unzipped cracked files to the directory......Does not work."
+,j13oco,2007-08-10T16:49Z,"scanned with Kaspersky=>>infected, Trojan!!!"
+,jrgpnp,2007-08-29T16:56Z,VIRUS WARNING!!! DO NOT DOWNLOAD!!!

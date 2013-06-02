@@ -1,0 +1,17 @@
+100.0% complete
+Name        : Girls.of.thailand.2.xxx-piger.free.fr-rlp.x264.mp4
+Length      : 1005.51
+Resolution  : 512x288
+Screenshots : 
+http://mpggalaxy.mine.nu/www/screenshots/Girls.of.thailand.2.xxx-piger.free.fr-rlp.x264
+Audio       : 48000
+Channels    : 2
+Video Codec : h264
+Audio Codec : mp3
+BPS         : v-400064 a-80000
+Command     : mencoder -ovc x264 -x264encopts pass=1 -nosound -o tmp.mp4 in_file.avi
+            : mencoder -ovc x264 -x264encopts bitrate=600:pass=2 -oac faac -faacopts br=128 -o out_file.mp4 in_file.avi 
+
+        http://piger.free.fr/
+        http://piger.free.fr/mindex.html for mobile phones
+./Girls.of.thailand.2.xxx-piger.free.fr-rlp.x264

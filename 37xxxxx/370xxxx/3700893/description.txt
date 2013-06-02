@@ -1,0 +1,90 @@
+
+Ya está disponible Alegna Linux v2, está basada en la nueva Ubuntu Feisty Fawn y sus novedades son numerosas, entre ellas (aparte de las de ubuntu) destaca lo siguiente:
+
+-Codecs multimedia instalados
+
+-Sistema en español
+
+-Última version de firefox, con skin y multiples plugins
+
+-Java y flash instalado
+
+-Nuevo diseño gráfico personalizado
+
+-Solucionado múltiples bugs de programas
+
+-Beryl con estas
+
+-Programa buetooth
+
+-Miniaplicaciones de escritorio Gdesklets
+
+-Programa de dibujos vectoriales Inskape
+
+-Nueva versión de amsn, con skins, plugins, y antialising
+
+-Última versión de amule personalizada
+
+-Programa de chat Xchat
+
+-Estupendo cliente ftp en español Filezilla
+
+-Programa bittorrent Deluge
+
+-Programa p2p de la red gnutella Frostwire
+
+-Programa p2p de la red ares giftui
+
+-Programa p2p mas ligero de la red gnutella gtk-gnutella
+
+-Editor web nvu
+
+-Gestor de descargas download for x
+
+-Lector de feeds Liferea
+
+-Mensajería instantánea pidgin
+
+-Emulador supernintendo
+
+-Emulador de windows Wine
+
+-Juego Frozen bubble
+
+-Catalogador de películas griffith
+
+-Programa para crear VCDs y DVDs devede (última versión)
+
+-Editor de audio audacity
+
+-Editor de vídeo avidemux
+
+-Fantástico karaoke basado en java y adaptado para alegnalinux plarphebu
+
+-Programa de radio online streamtunner
+
+-Reproductor de mp3 con skin personalizado bmp
+
+-Reproductor clon de itunes songbird
+
+-Reproductor de vídeo con motor xine gxine
+
+-Reproductor de vídeo con motor propio mplayer
+
+-Reproductor de vídeo universal vlc
+
+-Programa de televisión tvtime
+
+-Ahora si funciona el driver bcm43xx y se ha incorporado el driver rt73 (hay2 versiones, la predeterminada con ndiswrapper que es la que mejor funcionamiento y velocidad (muy buena) tiene, y la rt73 oficial gpl, que entre otros fallos no muesta el nivel de señal, pero la incorporé porque soporta modo monitor, se puede activar haciendo un sudo rmmod -f ndiswrapper y después sudo modprobe rt73.
+
+-Aircrack
+
+-Cortafuegos (gui) firestarter
+
+-Ahora para instalar drivers de nvidia o ati no hace falta tener conexión a internet, sólo hay que ejecutar el gestor de controladores restringidos.
+
+-Diseño del menú gnome modificado (títulos y descripción de programas) para que sea más agradable a la vista.
+
+-Actualizaciones de seguridad y correcciones de bugs asta la fecha.
+
+Y muchas otras cosas que ahora mismo no me acuerdo :-)

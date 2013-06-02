@@ -1,0 +1,65 @@
+﻿User Type,Username,Date,Text
+,DJKamilion,2007-09-04T00:07Z,"17-aug-2007 - 1.0.2
+  o Added bracket highlighting.
+
+  o Pressing Ctrl-X when there is no selection now cuts
+    the current line. #45
+
+  o Ctrl-singleclicking now makes zero-length selection
+    (eg. to get multible active carets). #44
+
+  o Made some fixes to PHP indetation rules.
+
+  o F5 now works again for refresh in project pane.
+
+  o Some minor bugfixes.
+
+9-aug-2007 - 1.0.1
+  o Fixed bug that prevented state from being saved. #29
+
+  o Added command line option --clearstate. Makes e start up
+    without opening previous documents.
+
+  o Output is now re-selected after running bundle commands
+    from selections. #24
+
+  o Using Shift-Return to insert new line under current line
+    now respects indentation in snippets. #28
+
+  o Holding down ctrl when dragging text now results in a
+    copy. #20
+
+  o Double clicking disabled tab scroller no longer opens
+    new tab. #21
+
+  o New shortcuts:
+      F3       - Find Next
+      Shift-F3 - Find Previous
+      Ctrl-F3  - Find current word/selection
+
+
+7-aug-2007 - 1.0
+  o Removed dangling separator in menu after registration.
+
+  o Fixed delay on window activation.
+
+  o F2 now again works as rename in the project pane.
+
+  o Focus now returns to editor after project pane is closed.
+
+6-aug-2007 (135) - Release Candidate 2
+  o Fixed a rare bug that could cause corruption
+    when milestoning.
+
+  o Further improvements to the indentation handling.
+
+  o Fixed bug that messed up folding when changing syntax.
+
+  o You now get asked for confirmation when moving files
+    in the project pane (hold down shift to avoid). "
+,DJKamilion,2007-09-04T00:08Z,"Manual located here:
+http://www.e-texteditor.com/wiki/index.php/Main_Page"
+,DJKamilion,2007-09-04T01:14Z,"Thanks for sticking around, seeders! "
+,sayz,2007-10-28T19:27Z,Any seed ??
+,zoopzoop,2008-02-10T17:10Z,"Warning: patch.exe contains trojan TR/Agent.52259!
+DO NOT DOWNLOAD!"

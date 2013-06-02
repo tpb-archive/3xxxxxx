@@ -1,0 +1,102 @@
+﻿User Type,Username,Date,Text
+,Tech-Noir,2007-07-19T18:04Z,"Title Cutoff; This is FLAC LOSSLESS. Takes more space than MP3, but it contains full CD Audio data."
+,Tech-Noir,2007-07-19T18:10Z,"Also, I probably don't have the best .FLAC compressor, so forgive the fairly absurd size. If you are desperate for it to take less size, you can always convert to .wav and then use your own FLAC encoder, you shouldn't lose any data going between .wav and .FLAC as long as you keep the channels and samplerates.
+
+And, comments and criticism is welcome as always. :)"
+,Tech-Noir,2007-07-21T02:13Z,"bjohnsen74: cheers mate. :)
+
+If you like it (or dislike it for that matter) feel free to leave a little comment. Any views and opinions are welcome.
+
+I thought of adding a little comparison between ""my"" version and the original sound, but I opted against it. Any fans who have the original will probably be able to tell the difference though."
+,Tech-Noir,2007-07-22T15:44Z,"bgjognsen74: Cheers mate, thanks alot. :)
+
+I had thought of trying another metallica album now. I find myself enjoying these albums alot more after I have worked on them for a few days.
+
+I downloaded ""...And Justice For All"" 320k and I thought it sounded pretty weak aswell. What I hate the most is that all the instruments are so dry. The older albums have some great depth and reverb, the snare drum is reverbed nicely (and widely in the stereo sense), vocals are also reverbed, Everything basically has some amount of reverb. But this one really sounds like an acuostically dead recording studio. There are almost no reverb tails on anything, snare, kick, guitar. The vocals have some reverb, but it is very subtly mixed.
+
+I definately hold ""Master Of Puppets"" as my fav Metallica album so far. :)
+
+About the Remastered, I would be very happy if you would go through the work of ripping it and uploading it. I would gladly try my best with it, see what I can get out of it. :)
+I have a 320 rip, but not sure it is a remastered version, it doesn't mention it anywhere so I guess not. SO if you do upload it, let me know the link here and I will get right on it!
+
+
+Thanks again for the feedback, very appreciated indeed. :)"
+,Tech-Noir,2007-07-22T15:45Z,"Also, excuse my sad sad attempt at writing your screen name, I just woke up..."
+,Tech-Noir,2007-07-23T01:39Z,"Yeah, I would probably have been able to do even better had I had the instruments separate.
+
+As you say, purists would probably not like it, partly because I have introduced some sounds not there before, and because the original is THE sound for the album. Also, ""True"" mastering people probably have very little to no artistic freedom. You can't be sure that the artists didn't intend for the guitars to be muddy, or such. The solution would be to simply ask them what they want the end result to sound like, or such.
+
+But, there are some principles that almost always apply to all audio, and that is a balanced spectrum where all ranges have a similar energy distribution. Having things stick out too much is mostly undesirable (which was the case of the originals I worked with, stick a spectrum analyser in there and you have a rollercoaster rather than nice smooth straight line).
+
+Obviously, when working with the Stereo tracks, if I feel the vocal is too ""piercing"" in a frequency range, EQing that also affects the guitars and drums that occypy the same space. So it is alot easier when you can EQ tracks separately before mixing them, you don't need to compromise as much.
+
+For De-Noising I used a simple Waves DeNoiser VST. It is very basic (just a few parameters) but it can work great. The drawback with not having original tapes is that the denoise function has a threshold function. When the volume is low, the noise will be heard alot more since tapenoise is constant in volume, so if you only have one guitar playing softly, a higher % of the audiosignal will be comprised of tape noise, as opposed to having all instruments banging away). So when the audio for example fades out in track outros, if you crank the volume up, you will be able to hear the hi-freqs fade out more and more as the volume drops. if I had original tapes I could fade-out myself after the effect and thus completely avoid that. Also, if the recording was of instruments with no high-frequency content, then you would still be able to hear the tape-noise on loud parts. Rock and such with lots of nosie masks low nosie quite easily with cymbals, hihats and such.
+
+As for opening it up, it is simply a matter of leveling the frequency spectrum out by EQing. The original tracks have a very uneven frequency spectrum where some portions are much louder than others (and thus, some frequency parts are very low when you play it on normal volume). Since the ""air"" is mostly contained in the higher frequencies (where you don't have the guitars chugging away, but where you mostly only hear the cymbals and their reverbs), EQing helped bring those parts out more. I also used a high-frequency exciter which also adds a shimmer which works great for opening up the track.
+Now when you push the volume up, you get a very full sound without parts sticking out, or ""S""es that pierce your ears etc.
+
+
+Glad you really noticed the difference though. I think you now realize why I felt it was worth going through the trouble. :) I was going to include a ""sample"" with some short A-B-examples, but opted out because I didn't have a way of easily doing that without spending lots of time crossfading, editing etc. Might do it for any future ""versions"" though since A-B-ing makes it easy hearing the changes.
+
+And if you get that ""...And Justice For All"" rip up, let me now and I will grab it and take a listen. ;) No pressure though, I could probably find a FLAC somewhere, but something tells me the Remastered edition will be the hardest to find. :)"
+,FitMic,2007-07-23T13:56Z,"I first downloaded the mp3 torrent to get a feeling, what this would sound like.
+Since it blew me away, I'm going for the FLAC one too.
+
+Thanks a lot!!!
+
+AND PLEASE REMASTER ...And Justice For All
+"
+,Tech-Noir,2007-07-23T15:03Z,"FitMic: Thanks for the nice comment, appreciated. :) I am seeding now."
+,Lynx_TWO,2007-07-24T00:27Z,"Hey man this remastering job is top notch!  Must have spent some time with this.  The only thing I was wondering is if you have used any Linear-Phase eq's such as the one WAVES uses, or even the outstanding Algorithmix PEG Linear Phase equalizers.  I have a strong feeling you will be able to fix the loose bas you mentioned in your previous description.  Also, what program did you use to synthesyse the higher frequencies?  THANKS!"
+,Tech-Noir,2007-07-24T01:12Z,"Lynx_TWO: Thanks alot mate. :)
+
+My primary EQ is Elemental Audio's Firium (they are under a different ownership now I believe so it has changed name). It's a Linear Phase EQ, which also has a very nice and handy visual graph of the audiospectrum. I occasionally use less ""competent"" EQs for small precision stuff that Firium can't do.
+
+About the bass, I'm not sure there is much I can do. When I said ""loose"", I was referring to the bass sound itself. Sounds like they put it through a quite harsh amplifier that was driven to distort it quite a lot. So instead of a nice ""round"" bottom-end you sometimes get more of a crunched bassline with some wobbly-sounding/volume-unstable overtones as it distorts. Had I the original tapes I could EQ just the Bass Guitar to get rid of some of that harschness. As it was now, I couldn't remove/attenuate too much of the trouble areas without messing with the kickdrum punch and such. So that's what I meant if it makes a difference. ;)
+
+As for the high-frequency exciter, I use Dominion 1.2, which is a free plugin (http://www.digitalfishphones.com/main.php?item=2&subItem=4).
+
+It has a Tune knob for the Exciter which makes it very versatile. It also has a very nice saturation algorithm (although the nature of it means that ""lone"" sounds with an attack produce some very noticeable bassfrequencies that weren't there before (I think the creator referred to it as DC voltage, or AC, either way. :) But that can be nice aswell in some cases.
+
+Hope that answers the questions. Thanks for the comments and support, very nice of you! :)"
+,FitMic,2007-07-24T18:46Z,"Here's ...And Justice For All (FLAC-version)
+http://thepiratebay.org/tor/3751569"
+,Tech-Noir,2007-07-24T20:32Z,"Cheers mate. Am downloading now. :)
+
+Just to be clear, this is the original, and not a later remastered version?"
+,FitMic,2007-07-25T09:07Z,"Tech-Noir>>
+According to bjohnsen74 the torrent is the same as his remaster. So I guess it really is the remastered version of the ...And Justice - album."
+,Tech-Noir,2007-07-25T15:39Z,"Cheers for that info mate. :)
+
+Then I will use this FLAC as a source. I already had  an MP3 downloaded as a bit of preparation, and I think it is pretty much identical.
+
+Though, this album really does suck imho. Miles away from the big sounding reverbs and atmosphere of ""Master"" and ""Ride The Lightning"". I probably won't get this to a level that I want, but I will do my best. :)"
+,mojn12,2007-08-10T01:33Z,"Can't wait to hear it. Have some trouble connecting atm.
+
+I felt that the 24K Gold remaster did help bring life to these old records (this one and ride the lightning) so I'm very interesting in hearing what you have done with it.
+
+The biggest problem with the AJFA album is the missing bass line. I've heard a couple of mixes with added / enhanced bass and they have all come out in somewhat amateur quality so it has been hard to replace the old original recording with them."
+,Tech-Noir,2007-08-12T05:41Z,"I agree. AJFA will never sound ""good"" to my ears. It's just so oddly produced. It's like they intentionaly wanted the recording to sound ""dead"". Nothing wrong with that i suppose, but I need good production value to enjoy a recording completely, so they lost me with that one. :)"
+,FitMic,2007-08-23T13:48Z,"Tech-Noir>>
+Any update on ...And Justice For All?
+Have you abandoned the idea of remastering it?"
+,GENNAMIN,2008-01-29T05:41Z,thank you. this is great work. keep it up. i will seed for awhile.
+,icet87,2008-02-05T02:54Z,"I would like to thank you greatly for putting this up. I really admire the work that you did on remastering these Metallica albums. I am a person that appreciates music, especially when it sounds great. Keep on doing what you do!"
+,Camaro69z,2008-02-10T17:53Z,"Thanks a bunch! Much more colorful in the mids.
+
+How did you convert the FLAC version? Did you just take the MP3 version and convert it to FLAC? Reason I ask is because I sharply hear compression throughout. 
+
+You probably already know that MP3 to FLAC is useless since the MP3 compression cannot be altered into a lossless format once it's already compressed since the data is missing. Sorry, but compressed music is a pet peeve with me. ;)
+"
+,Tech-Noir,2008-02-10T20:34Z,"The Flacs are encoded directly from the .wav files, which were processed from the .wav files of the album. There has been no bitrate reduction at any point for the flac files.
+
+So not sure what would cause you to hear compression artifacts. But they aren't from bitrate compression atleast. ;)"
+,FatFreddy247,2008-03-24T23:13Z,"Will you be remastering, (or is it really remixing) 'Kill 'Em All' as that sounds so tinny in 2008?  I loved the remixed versions of the 'Ten' tracks on Pearl Jam's 'Rearviewmirror' so does anyone think Metallica will get out the masters on the early albums and get them sounding contemporary?"
+,Tech-Noir,2008-03-25T09:24Z,"I tried Kill Em All, but there was really nothing I could do.
+
+Not sure about Metallica remastering their catalogue, but some of them could do with some improvement. One can hope. :)"
+,JoshM22,2008-04-16T23:04Z,The MP3 remaster version of this album even sounds better than the Original Master Recording Vinyl. I picked up the vinyl edition of MoP and it is great. Anyways thanks for this. 
+,dirface,2008-07-19T19:47Z,"I really like the concept! However, there's certainly a lot of ducking present on this remaster. What's also pretty cool with the original is it doesn't suffer from the hugely annoying mastering wars of today where everything hits 0 all the time. In essence that takes out the dynamics and thus make for a far worse audio experience than the original. That might be a reason why some of the latest remasters are not just ""add bass and hit red""..."
+,ajajas,2008-09-14T17:00Z,Tack för en great upload
+,Tech-Noir,2008-10-24T23:02Z,Så lite så. :)
+,killmanz,2012-03-23T22:58Z,Seed anyone? stuck at 85.3% :(

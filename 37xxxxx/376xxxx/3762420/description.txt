@@ -1,0 +1,13 @@
+This program is to remove the drm protection on certain files, like wmv and wma.
+
+Quick steps how to remove the protection:
+
+1. Have The latest Windows Media Player installed. (Version 11)
+2. Run mirakagi.exe, which will replace some files in Windows media player catalog so the program will work
+3. If you have a drm protected file, you must first acquire the license to play it (a dialog to put in username/password comes up when you try to play it)
+4. When you have the license and the file plays correct shut down Windows media pleyr.
+5. Run FairUse4Wm.exe and just follow the instructions inside the program.
+
+Note: some files don't need any license to play, you can play them directly since you've alredy logged in to the site providing the files. In that case it won't work always. I have tried with 2 sites and 2 files. In 1 case it worked, in the other it didn't. So just try and it may work for you. But if you must accuire a license before playing the clip, then it always works.
+
+Enjoy!!!!

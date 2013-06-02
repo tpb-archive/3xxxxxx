@@ -1,0 +1,232 @@
+﻿User Type,Username,Date,Text
+,ilfo,2007-06-05T11:45Z,I  see now that there are only 3 seeders here. And I am seeding of 2 of them. Please seed it because It is the real idea - more people to have it.
+,ilfo,2007-06-12T23:04Z,"Downloaded 36times Seeders 6......
+Fuck off I will not seed anymore... egoists"
+,ilfo,2007-06-19T20:00Z,"Hi, downloads 74 seeders 6  thank you people, I thougt to delete the torrent but I will seed againn
+So much dead souls... just write a comment "
+,CybotTM,2007-08-04T18:42Z,not every download here does really start to download in torrent too ...
+,gvdrnk,2007-08-27T10:30Z,"Can someone please tell me how I can get this to work? I keep having the following error: NX License error: the license server hasn't been started yet.
+I don't know where to copy the cracked license file."
+,vandalisator,2007-09-01T11:56Z,I have also trouble finding the directory for the license file. Please write a more detailed desciption of were to put the files.
+,ilfo,2007-10-05T01:34Z,"ok... this is the MANUAL
+1. you must install license server first
+during the instalation of it you will be asked to ""finger"" the license file... this is the lic file
+2. after that you must install NX5
+3. you must copy files from
+DISK1\MAGNiTUDE\Program files and paste on it's places
+
+DO NOT JUST copy and paste DISK1\MAGNiTUDE\Program files over 
+C:\Program files
+copy and put file by file on it's place
+
+4. restart
+5.open START, All programs, UGS NX 5.0,NX Licensing Tools, License Options
+6.you will see Bundle Selection, so choose modules that you want to use
+7.you must choose only two of them simi....
+in original NX the situation is the same
+8. I am using for my normal work ADVDES and MOLD_DSNC
+9.close  Bundle Selection
+10.enjoy
+
+
+By the way there is exellent instalation guide on the disc1 writted by UGS... just read it"
+,philipoo,2007-10-09T21:50Z,please start seed this torrent. :(
+,jhorjz,2008-01-24T06:04Z,"no bundle license after installation, do i need to copy also the .lic file in he license progam on C:.... What file do i need to copy, the only file under the Magnitude/Program files/UGS/........including the .lic under magnitude. or all files under the Disk1.... pls. help"
+,avi_sham,2008-02-07T17:33Z,Thanks for UG NX5. I really required that.
+,jheard7000,2008-03-07T05:14Z,I am having problems getting Nastran to show my analysis results.  Does anyone know what I need to do?  I can open nastran and input all of my information but it will not show/calcuate results.
+,cuau02,2008-03-19T18:29Z,"I followed ilfo manual and still not getting it to work. I'm getting an unknown license error. Plz help, anybody!!!"
+,willzville,2008-04-13T18:16Z,"REAL INSTRUCTIONS FROM MAG:
+
+Installation Notes
+
+1.Run Launch.exe
+2.Install NX (license server must be installed first)
+3.Select Custom dialog and install all options
+4.Finish
+5.Open MAGNITUDE\nx5.lic using notepad
+6.Edit this_host in the first line to your computer name and 
+  Save to: NX5 instal dir.(Program files\UGS\NX 5.0\UGFLEXLM)
+7.Install UGS License Server
+8.When asked for license file,
+  Browse to: Program files\UGS\NX 5.0\UGFLEXLM\nx5.lic
+9.Finish 
+10. Copy MAGNITUDE\ugs_common.dll to Program Files\UGS\NX 5.0\NXPLOT,and Overwrite
+11. Copy MAGNITUDE\pdf\Ugs_common.dll to Program Files\UGS\NX 5.0\NXPLOT\bin\pdf and overwrite
+12. Copy MAGNITUDE\UGII\ugs_common.dll to Program Files\UGS\NX 5.0\UGII and overwrite
+13. Restart PC and enjoy."
+,willzville,2008-04-13T18:17Z,Oh yeah please seed this... it 100% works if you know how to crack it (follow above)
+,willzville,2008-04-13T18:19Z,"I have UGS CAST for NX5, but I don't know how to upload it for torrent soo... soz."
+,nx5xn,2008-04-16T17:43Z,warning .. after 60 days files prt will unable to open
+,CoupedUp,2008-04-16T18:36Z,"I am stuck...I have a few questions.
+
+1) What do you mean Install UGS License Server? Install it a second time? Or something to do with the Licensing Tools???
+
+2) Also in the .lic file, should it be:
+
+""SERVER this_host ID=""PCName""
+VENDOR ugslmd""
+
+Nothing after the PCName right? Or should there be a number after such as ""28000""?
+
+3) During install it asked for FlexLM Server(s). What should I put in there?
+
+4)After 60 days prt files will be unable to open? Huh?
+
+Thanks!"
+,gcgi1959,2008-04-17T00:58Z,Does it really quit after 60 days? Is there a workaround?
+,ilfo,2008-04-28T13:11Z,"/Does it really quit after 60 days? Is there a workaround?/
+I am gonna upload a torrent with an update of NX5"
+,ilfo,2008-04-28T13:15Z,the name of update torrent is UGS.NX5-MAGNiTUDE-update
+,ilfo,2008-04-28T14:19Z,"After instaling the update You will be able to use your old NX files.
+Also I am gonna to upload a NX5CAST(self teaching program)torrent - it's name will be UGS.NX5-MAGNiTUDE-CAST
+and update for NX5CAST - UGS.NX5-MAGNiTUDE-CAST-update"
+,gcgi1959,2008-05-08T16:41Z,Thanks so much info!
+,robithebest,2008-05-21T23:46Z,"Hello Everybody!
+
+Could somebody crack NX5.0.2.2 ?
+If somebody could do it, please write it down from the first step! Please!
+I would like to use it urgently, but I can't. :-S
+
+
+Thank you very much!"
+,kriok67,2008-08-21T00:54Z,"Hi,
+I,ve reintalled NX5 in my PC, and i can't open old files from nx5. My old files from nx3, from 2 year ago, I can. when I try, this message apears:
+""Microsoft Visual C++ Runtime Library
+
+Runtime Error!
+
+Program: C:\UGS\NX5\UGII/ugs_router.exe
+
+This application has requested the Runtime to terminate it in an unusual way. Please contact...
+""
+
+I'm running cracked NX 5.0.2.2 on windows xp pro.
+
+Any suggestions on what the problem might be?
+
+Thanks"
+,oz1627,2008-08-21T07:33Z,if anybody has the mold wizard package PLEASE!!!! upload that shit ..thanks 
+,likeathiefinthenight,2008-09-04T23:31Z,Anyone know where I can find either NX 5 or NX 6 for linux?  Anyone seen it around.  Can't seem to find a real one anywhere.  DL'd one already but turned out to be mislabeled and was for windows.
+,12345Vtech,2008-11-09T16:21Z,"will states 
+
+10. Copy MAGNITUDE\ugs_common.dll to Program Files\UGS\NX 5.0\NXPLOT,and Overwrite
+11. Copy MAGNITUDE\pdf\Ugs_common.dll to Program Files\UGS\NX 5.0\NXPLOT\bin\pdf and overwrite
+12. Copy MAGNITUDE\UGII\ugs_common.dll to Program Files\UGS\NX 5.0\UGII and overwrite
+
+But all I see after I open MAGNITUDE folder is Program Files, install and nx5. Where is ugs_common.dll located so that I can copy it and past it to the locations that he indicates?."
+,directprop,2008-11-11T05:43Z,"Does anyone know why I'm getting this error?
+
+Cannot connect to license server system.
+The server (lmgrd) has not been started yet, or the wrong port@host or license file is being used, or the TCP/IP port or host name in the license file has been changed"
+,directprop,2008-11-11T16:16Z,"Continued....
+
+1. When I launch License Options ther are no Bundle's shown to select.
+
+2.  When I launch NX 5.0 I receive this error;
+
+     Initialization error -
+     NX License Error: The license server has not 
+     been started yet, or UG_License_Server is 
+     set to the wrong port@host. [-15 ]
+
+3.  When I launch lmtools the server is running.
+
+4.  I also verified with task manager that  ""ugslmd.exe"" & ""lmgrd.exe"" are running.
+
+5.  I also verified that ""Sentinnel"" is running.
+
+6.  I added all the cracked files of ""ugs_common.dll and replaced what was in all directories.
+
+7. #10 on your ""Installation Notes"" I'm assuming is not correct.  You have to copy from cracked file ""Magnitude\ugs_common.dll"" which there is no .dll file there but there is one in cracked files \UGS\NX 5.0\NXPLOT which is the file I used to overwite this one.
+
+8.  I think I covered all my bases here but I still can't see any license bundles to select.  I even went to the UG Licensing guide and verifed everything was correct.
+
+If you could please respond with what I might be doing wrong it would be greatly appreciated.
+
+"
+,j33v3s,2009-01-05T18:08Z,"Right, after much searching on the internet I've got this working. I will now write how I did it in hopefully a simple to understand way, so anyone can install this brilliant program (and in my case, finally do my coursework :P)
+As alot of the guides say it's important to install the license server first I shall follow that order to avoid confusion, but it doesn't actually matter since I installed NX5 first.
+
+1) Run Launch to get the splash screen with four buttons
+2) Click install UGS License Server
+(alternatively, if you know what you're doing you can go directly into the license folder and run setup.exe)
+3) Open the NX5.lic file with notepad (it is in the MAGNiTUDE folder)
+4) Edit the first line so that it says
+""SERVER this_host ID=""PCName""
+VENDOR ugslmd"" 28000
+where this_host is your PC name (can be found by going Control Panel>System>Computer Name)
+5) Follow the instructions and when it asks for the location of the license file, locate it (doesn't matter where it is, I put it in C:/Program Files/UGS)
+
+6) Go back to the launch splash screen you opened earlier
+7) Click Install NX5
+(alternatively, if you know what you're doing you can go directly into the NX5 folder and run setup.exe)
+8) Select custom install and select all options
+9) At some point during install it'll ask for the server hostname or something similar (basically a test box where you have to type something), it should already be computer_name@28000. If not, write your computer name then @28000.
+10) Copy over the .dll files in the MAGNiTUDE folder into their correct places in the UGS/NX5 folder. Don't worry about NASTRAN if you haven't installed it.
+11) Restart computer (not sure if this is necessary, but I did)
+12) Start>All Programs>UGS NX 5.0>NX Licensing Tools>License Options
+13) Select whatever bundles you want (don't know what they actually do, if someone can enlighten me please do)
+14) Click ok, then run NX 5
+
+Hope this helps people
+Thanks to MAGNiTUDE for a great upload"
+,Hamidku,2009-01-24T22:40Z,"when I open the nx5.lic I have this at the top: 
+
+""SERVER this_host ID=20070424 28000
+VENDOR ugslmd""
+
+Should I change this to ""My computer name=20070424 28000 VENDOR ugslmd""???
+
+thanks"
+,Hamidku,2009-01-24T23:32Z,"by the way, will this work with vista???"
+,geotech,2009-01-28T04:59Z,"J33v3s  is correct with his method I can confirm it. though part of his instructions were slightly wrong. 
+In step 9 it says ""9) At some point during install it'll ask for the server hostname or something similar (basically a test box where you have to type something), it should already be computer_name@28000. If not, write your computer name then @28000.""  but that is wrong. It must be      28000@computer_name   then it will work. Small mistake everything else works ...Props to J33v3s"
+,Darude90,2009-02-05T01:19Z,"can anyone please help me on how to install nx5? im lost here:
+
+4) Edit the first line so that it says
+""SERVER this_host ID=""PCName""
+VENDOR ugslmd"" 28000
+
+so lets say my pc name is Laptop then it should be like this?
+
+""SERVER Laptop ID=""PCName""
+VENDOR ugslmd"" 28000
+
+or how?"
+,idcool,2010-02-12T13:16Z,"right lets clear this up! 
+
+because i was confused too.
+
+this is what i did with the license file and it works...
+
+
+what you do is find your pc name (which has already been explained on how to do that)
+
+then where it says ""this_host"" replace it with your computer name
+
+e.g. 
+
+you start with:
+
+SERVER this_host ID=20070424 28000
+VENDOR ugslmd
+
+
+if your computer name is    bob-5637
+
+then it will goto:
+
+SERVER bob-5637 ID=20070424 28000
+VENDOR ugslmd
+
+
+You can save this file anywhere when installing the license server.
+
+BUT when you have installed the NX5 program itself make sure you save this modified file in this folder:
+
+Program files\UGS\NX 5.0\UGFLEXLM\
+
+i recommend a look at willzville's guide on page 1
+
+hope that helps"
+,dscspbr,2011-11-05T01:01Z,Program does not display objects correctly. Is anybody having these same issues? Or any idea on how to solve this?

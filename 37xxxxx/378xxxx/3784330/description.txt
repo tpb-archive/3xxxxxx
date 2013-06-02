@@ -1,0 +1,12 @@
+PLEASE LEAVE THE TORRENT OPEN TO SEED (UNTIL RATIO 1.0) WHEN DONE DOWNLOADING!!!
+
+ 
+http://www.moofdev.org/ratiomaster
+
+RatioMaster 1.7.5 was released on February 16th, 2007.
+
+* Intro *
+
+RatioMaster is an application designed for spoofing uploads on BitTorrent trackers. It connects to a tracker and behaves like a normal BitTorrent client, but without actually uploading to / downloading from other peers in the swarm. It reports to the tracker that it's uploading (or downloading or both, it's your choice) at a certain rate, thus making it useful for artificially increasing your ratio on certain sites that track a user's overall ratio (total uploaded/total downloaded).
+
+RatioMaster has hardcoded emulations for the most commonly used BitTorrent clients, but it is also able to parse external files for emulation settings, thus making it easily extensible for your favorite client and easy to update when new versions of said clients are released. The client files (extension ".client") are actually renamed XML files and the syntax should be pretty straight-forward. The emulation layer includes support for parameter order in GETs, reproduction of HTTP headers, generation of application-specific peer_ids and keys and more. RatioMaster can also parse the tracker reannounce time from the tracker's HTTP response, and combined with the fact that you can specify down and up rates makes it pretty hard to detect by any anti-cheat scripts, if not downright impossible. Other features, like a TCP listener (so as to appear connectable on the tracker's peerlist) and a leecher counter (so as to stop any uploads when a torrent has 0 leechers) also contribute to RatioMaster's spoofing abilities. 

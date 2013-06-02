@@ -1,0 +1,33 @@
+System33r Socks5 v1.5b (private version) by System33r (k0nsl@msn.com)
+
+System33r Socks5 is a socks5 server with a 'trojan'-like behaviour (extremely stable)
+
+Main Features:
+- SubSeven CGI Notification
+- DLL injection with SRT library
+- Installation Routine (copies itself to sysdir/drivers/filename.exe, and adds registry entries)
+- If Registry entries are deleted the server adds them again
+- deleteself (melt)
+- identd
+- custom registry key (eg. Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run)
+- reasonable size
+- included my slightly modified Sub7 CGI Logger
+- editor remembers your settings
+- it's horribly stable
+
+Additional information:
+- Server written in cpp
+- Loader/Injector in ASM
+- XOR routine by drocon <3
+
+Problems:
+- if you get a message 'stub not found' check the folder 'stub' and see if there are two files named 'stub1.old' and 'stub2.old', rename these to 'stub1.dat' and 'stub2.dat' or just open the Editor and click Options > Update Stubs and download a new set of server stubs. If you cannot download new stubs with the 'Stubs Updater' tool please post a message at the board where you got this tool or email me and I will give you instructions so you can change the 'update server'.
+
+Changes in v1.5b3:
+- these new stubs does _not_ work with any of the previous editors (only use 1.5b editor or newer)
+- misc changes in the editor, tweaks and small fixes
+- changed meltserver routine in asm loader
+- minimalistic changes in the socks5 updater tool
+- rename pubsettings.ini to settings.ini if you dont want the editor to store anything in the registry, after you have renamed it run the editor and enter all the required fields (Options > Settings etc) since you cannot manually enter the username and password in the configuration file you must do it through the editor, everything else can be manually edited if you wish to do that.
+- the settings are not stored as plaintext anymore in the socks5 executable
+- added option to chose whether to inject into either Internet Explorer or Windows Explorer 

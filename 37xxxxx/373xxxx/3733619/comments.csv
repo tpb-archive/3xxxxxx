@@ -1,0 +1,39 @@
+﻿User Type,Username,Date,Text
+[T],drfunkenstein2k,2007-07-05T22:05Z,slight error in making the nfo sheet. have tagged .mp3 and .wav ;  but its assured all files FLAC and lossless
+,TehFreek,2007-07-17T08:49Z,"The files are improperly tagged.
+
+Sample output:
+
+$ metaflac --list --block-number=2 ""01. Z.flac""
+METADATA block #2
+  type: 4 (VORBIS_COMMENT)
+  is last: false
+  length: 328
+  vendor string: reference libFLAC 1.1.2 20050205
+  comments: 10
+    comment[0]: REPLAYGAIN_REFERENCE_LOUDNESS=89.0 dB
+    comment[1]: REPLAYGAIN_TRACK_GAIN=-9.05 dB
+    comment[2]: REPLAYGAIN_TRACK_PEAK=0.99761963
+    comment[3]: REPLAYGAIN_ALBUM_GAIN=-9.10 dB
+    comment[4]: REPLAYGAIN_ALBUM_PEAK=0.99838257
+    comment[5]: Album=Good Girl Gone Bad
+    comment[6]: Artist=Rihanna
+    comment[7]: Comment=LaR
+    comment[8]: Tracknumber=01 Umbrella [Feat
+    comment[9]: Date=2007
+
+Notice the incorrect Tracknumber tag and the lack of a Title tag."
+,RiRi89,2008-07-24T18:27Z,"any1 haz Good Girl Gone Bad: Reloaded (2008)?
+no, must bui then =D"
+,RiRi89,2008-07-24T18:27Z,i min in FLAC x)
+,RiRi89,2008-07-31T00:56Z,FIF i found Good Girl Gone Bad: Reloaded (2008) in FLAC =D
+,PJay-Z,2008-08-14T15:52Z,"RiRi89, please give me the link of ""Good Girl Gone Bad: Reloaded (2008) FLAC""
+PLEASE!!!"
+,PJay-Z,2008-08-17T07:00Z,"You can find ""Good Girl Gone Bad: Reloaded (2008) FLAC"" in projectw*com :p
+
+Have fun !"
+,RiRi89,2008-08-18T01:01Z,"omg itz not ""projectw*com"" itz projectw.org ;)
+btw i found it on another website =)"
+,PJay-Z,2008-12-21T12:43Z,"Wrong name xD
+Track2 is ""02 Rihanna - Shut Up And Drive (The Wideboys Club Mix).flac""
+And there's no ""S.O.S. [Special Remix]"""

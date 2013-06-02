@@ -1,0 +1,42 @@
+VideoRedo 2.5.4.507
+
+Great easy application for editing video files (and DVB .ts as used by Humax etc). Fixes lip synch problems too automatically. Set it to output as MPEG and then drag that file into ConvertXToDVD (http://thepiratebay.org/tor/3721633) and you have a perfect DVD.
+
+www.videoredo.com
+
+
+Complicated installation instructions? Sorry it's nice and simple, no unzipping, unrarring, jumping through hoops or having to put a pineapple on your head. Just double click the file to install. Paste the name and key click REGISTER KEY. Restart the program and that's it!
+
+Big thanks go out to Udo Engelhardt (whoever he/she is!) :p
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If you're updating this from an older version checkout these helpful tips from the older version (http://thepiratebay.org/tor/3664558) posted by Transient7:
+
+
+Transient7 at 2007-08-02 02:13 CET:
+Simply uninstalling does not remove all files/settings. If you're like me, you want an application 100% removed, not leaving behind files. X(
+
+This program writes all over the place, but I managed to remove the stored keys by observing it with Process Monitor.
+
+Below is what I removed on my PC. Maybe this will work for you too, or maybe it's different for different PC.
+
+1) uninstall VideoReDo
+2) load regedit
+3) remove HKey_Classes_RootCLSID{4FD11A18-7E4C-80CC-42B9-D836E268E95D}
+4) remove HKey_Local_MachineSoftwareLicenses
+5) remove HKEY_CLASSES_ROOTCLSID{3B394836-F59F-41C8-9E1C-590D0FB5BD70}
+6) remove HKEY_CLASSES_ROOTCLSID{890F1ED4-6E97-4FD7-98C6-1C2D0C4D6D25}
+7) remove HKEY_CLASSES_ROOTVideoReDo.Application
+8) remove HKEY_CLASSES_ROOTVideoReDo.VideoReDoSilent
+9) quit regedit
+10) delete all files in C:Documents and Settings(your username)Local SettingsTemp
+11) delete C:Documents and Settings(your username)Application DataVideoReDoPlus (maybe not there)
+
+That should be it! Worked for me anyway...
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+...but if your old version works OK then don't bother I'd say. Keep the newer one anyway for later ;-)

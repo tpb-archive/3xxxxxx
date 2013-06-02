@@ -1,0 +1,148 @@
+*All of this is located in the README. I just thought it would be worthwhile to put it on here so everyone who wants to download it can see everything that has been done to it.*
+
+I call this the performance Edition because Microsoft is notorious for adding so much bloatware and extras that are outdated or of absolutely no use. 
+
+This was built using the Eth0 April 2007 Release. It includes every windows update up until April 16, 2007.
+
+
+-Version 3 Differences-
+
+Added the Following:
+Firefox 2.0.0.3
+Thunderbird 2.0
+FileZilla FTP Client 2.2.32
+Net Framework 1.1 and 2.0 (I took out 3.0 - It added 2 new unnecessary services which I hated)
+K-Lite Codec Pack Standard 3.01 (This includes Windows Media Player Classic)
+
+Changes Made:
+USB Port Polling up to 500Hz now
+ScreenSavers are left in, but turned off by default
+All Languages and Keyboards are now supported
+ACM Cored Codecs and Intel Indeo Codecs have been left in by request
+NWLink IPX/SPX/NetBIOS Protocol has been left in on request
+
+The Following Has Been Removed:
+
+Applications:
+Briefcase
+ClipBook Viewer
+Games
+Internet Games
+Pinball
+
+Drivers:
+ATM Protocol
+Old Display Adapters (Download your own latest version from Nvidia or ATI)
+IBM PS/2 TrackPoint
+IBM ThinkPad
+ISDN
+Logitech WingMan
+Microsoft SideWinder
+Modems
+Multifunctional
+Portable Audio
+Printers (Use one's Provided from your Device's Company)
+Scanners (Use one's Provided from your Device's Company)
+SCSI/Raid
+Serial Pen Tablet
+Sony Jog Dial
+Sound Controllers
+Tape Drives
+Toshiba DVD Decoder Card
+
+Hardware Support:
+Brother Devices
+Gravis Digital GamePort
+Iomega Zip Drive
+Multi-port Serial Adapters
+Smart Cards
+Teletext Codec
+Windows CE USB Host
+
+Keyboards:
+All Keyboards are now Supported...
+
+Languages:
+All Languages are now Supported...
+
+Multimedia:
+ActiveX for Steaming Media
+AOL Art Image Format Support
+Luna Desktop Theme
+Media Center
+Midi Audio Support
+Mouse Cursors (Additional)
+Movie Maker
+Music Samples in My Music Folder
+Old CD Player and Sound Recorder
+Speech Support (If you want this you can always install it yourself)
+Tablet PC
+Windows Media Player
+Windows Sounds
+
+Networking:
+Client for Netware Networks
+Communication Tools
+Comtrol Test Terminal Program
+Connection Manager
+FrontPage Extensions
+H323 MSP
+Internet Connection Wizard
+IP Conferencing
+MSN Explorer
+Netmeeting
+Network Monitor Driver and Tools
+NWLink IPX/SPX/NetBIOS Protocol
+Peer-to-Peer (Microsoft Programs Only, Doesn't affect FileSharing Appz)
+Sync Manager
+Vector Graphics Rendering
+Web Folders
+Windows Messenger
+
+OS Options:
+Admin Templates
+Blaster/Nachi Removal Tools By MSFT
+Color Schemes
+Desktop Cleanup Wizard
+Disk Cleanup
+Doc Templates
+DR Watson
+FAT to NTFS Converter
+File and Settings Wizard
+Help and Support
+Input Method Editor
+Manual Install and Upgrade
+Private Character Editor
+Search Assistant
+Security Center
+Service Pack Messages
+Shell Media Handler
+NTSD
+Tour
+Web View
+Zip Folders
+
+Services:
+Alerter
+App Layer Gateway
+Automatic Updates
+Beep Driver
+Distributed Link Tracking Client
+Error Reporting
+Fax Service
+Indexing Service
+Messenger
+Network DDE
+QoS RSVP
+QoS
+Remote Registry
+Removable Storage
+Secondary Logon
+Service Advertising Protocol
+Uninterruptible Power Supply Support
+Volume Shadow Copy
+
+Directories:
+Docs
+Support
+ValueADD

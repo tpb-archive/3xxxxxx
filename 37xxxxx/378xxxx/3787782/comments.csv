@@ -1,0 +1,132 @@
+﻿User Type,Username,Date,Text
+,RexMundi,2007-08-29T14:30Z,15 mb?? Is this real?
+,RexMundi,2007-08-29T16:09Z,Never mind. It works like a charm. Just extract and overwrite in your EU3-directory.
+,--Imperator--,2007-08-30T11:53Z,Omg thanks medicamentor!!!
+,the_inquisition,2007-08-30T19:03Z,They charge people for 15 Mb of content!?
+,PandarenLord,2007-08-31T22:00Z,"That's because the content is not graphical. There are no (or very few) new graphics in the expansion, only new coded features and great code optimization. The actual content is good, it's just not graphical."
+,teembb,2007-09-04T13:04Z,"Yep, only 15.3, it works perfectly. 
+On gamersgate it says the expansion-file is about 16.8 mb so this one is real. The actual expansion is downloadable only."
+[T],Knaster,2007-09-04T18:30Z,the_inquisition Paradox is among the best developers around so quit bitchin
+,shadowebs,2007-09-06T03:26Z,"Paradox is one of the good guys in gaming today.  No DRM, and they develop the best strategy sims on the market.  They also actually listen to their customers, and interact with them on their website to give them some impact on the direction the titles take.
+
+If you enjoy EU3 and this exp pack, help them out and register a license.  Unlike the big studios mass producing games in sweathouse like studios, these guys deserve our support."
+,bingan1,2007-09-18T18:28Z,"Game starts but gets crash at the end of load seqence , any ideas ?"
+,bingan1,2007-09-18T18:40Z,"get this at loading - Clausewitz Error[texturehandler.cpp:106]: Couldn't find texture file: gfx\\mapitems\napoleon\gfxmapitems
+apoleoncloth.tga."
+,bingan1,2007-09-18T19:24Z,Ignore previos post. It works
+,abban,2007-09-29T09:33Z,"Don't forget to buy the original game from Paradox. It only costs 20 usd, and these guys deserve our money."
+,3ternal,2007-10-04T12:15Z,woooo paradox rules seriously they dont hav drm or anything. napolians ambition probably isnt worth $20 but the original is worth it guys so cmon and help the good guys and buy the game
+,pelotonpelle,2007-10-06T14:09Z,"""get this at loading - Clausewitz Error[texturehandler.cpp:106]: Couldn't find texture file: gfx\\mapitems\napoleon\gfxmapitems
+apoleoncloth.tga.""
+
+I'm having the same problem, what should I do about it?"
+,Sarmatios,2007-10-07T04:34Z,"I have a problem, all flags and national ideas icons are messed up, can anyone help?"
+,Sarmatios,2007-10-07T05:00Z,"I've noticed that the icons for the flags and national ideas are all TGA files, but I still haven't found out why there are swichted and oversized. 
+Help plz, it sucks playing France with half of the mamluk flag"
+,Waingro77,2007-10-07T23:01Z,What program should I use to extract the files?
+,elektromodulator,2007-10-10T20:41Z,"You can extract it with 7-zip (It's an archiver, works just like winzip). Download it from here:
+http://www.7-zip.org"
+,Sebbz0r,2007-10-24T15:52Z,Does anyone know I can run the patch with this?
+,svenskille,2007-10-25T06:56Z,"Yeah, seconding that.  Can't get the patch to take.  Anybody figured it out?"
+,hyperbaric,2007-10-25T17:18Z,"You can't get the patch to work with this, the proper NA install writes entries into your registry. The patch installer checks for these registries, thus without the proper install and not just overwriting files like this release does, the patch will not allow itself to install. Just that simple. "
+,Sebbz0r,2007-10-25T17:56Z,Well then.. If someone finds a Napoleons Ambition can you please link the site
+,noekk,2007-10-26T08:36Z,"Will this work with the original RELOADED release ?
+
+Will this expansion bring the original up to v1.3 ? I haven't found 1.3 cracks/patches anywhere and it looks like they really fixed things up with v1.3
+
+Thanks."
+,jomenicus,2007-10-30T21:35Z,"I installed the 1.3 patch over my reloaded version, worked like a charm. Get the 1.3 patch here:
+
+http://files.filefront.com/Europa+Universalis+III+v13+Patch/;7725962;/fileinfo.html
+
+After that, I installed this 15 MB file over my reloaded 1.3 game, and so far everything looks good. 
+
+Unfortunately, I cannot install the most recent 2.1 patch for the expansion for the registry reasons mentionned by hyperbaric.
+
+If anyone can make another 15 mb file or so that includes the 2.1 update, it would be much appreciated. "
+,alexender00,2007-11-04T18:54Z,"There's a torrent on Mininova with the installer. For the lazy folks, the key in the registry is:
+[HKEY_Local_Machine]\Software\paradox interactive\Europa Universalis III
+
+In that you put a String value called ""Napoleon"" and put it's value to 2.0
+
+that's it.
+
+Upgrade the game as usual."
+,black_library,2007-11-06T15:14Z,thx man that registry thing works...
+,XhePablo,2007-11-09T10:48Z,"Sorry for the post, I was just wondering how to get the 2.1 update to install correctly. Does anyone know?"
+,XhePablo,2007-11-09T18:15Z,"Never mind, I figured it out."
+,Mister_Devil,2007-11-19T18:03Z,I can't get it to work
+,PtW,2007-11-24T14:30Z,"Thanks alexander00, the reg fix worked like a charm. :)"
+,Jarlhen,2007-11-24T16:04Z,Chances are I'm just being stupid now but where do I put in the string value? Like could someone be so kind and explain how I make patch 2.1 work in a more thorough way?
+,Jarlhen,2007-11-24T16:14Z,Well ok so I figured it out myself hehe. But when I enter the registry there's already a string value called napoleon and set to 2.0. So I try to install patch 2.1 but it still won't work. Any ideas?
+,Jarlhen,2007-11-24T16:15Z,"Actually.. hehe, I was being stupid, my bad. Got it working!!"
+,rshalev,2007-11-28T20:40Z,Can someone please explain this to me. The value of that string is already 2.0. I can't update to the 2.1 version.
+,sergant_braten,2007-12-08T23:35Z,nån som kan berätta på svenska exakt hur man får  2.1 att funka? :) fattar inte vad han den som skrev på engelska menar eller var man ska skriva in detta.. :) tack på förhand ;p
+,tomaskling81,2008-01-11T17:33Z,"I bought the EU3 when it came out 2007. It´s a REAL strategy game. Best there is. 
+But for 15-16 Mb, I´m not willing to pay 20 ?."
+,HEIL.IonMota,2008-01-20T23:10Z,"Someone tell how you installed the update, to me says: Napoleons ambition isn't installed."
+,HEIL.IonMota,2008-01-20T23:23Z,"1: ersätt filer
+2: kör-> regedt32.exe
+3: [HKEY_Local_Machine]\Software\paradox interactive\Europa Universalis III
+4: redigera/nytt/strängvärde
+5: döp det till ""Napoleon""
+5: Högerklicka på den skapade ""sträng-nyckeln"" och skriv ""2.0"" i raden under ""Data""
+6: kör installationsfilen.
+7: Klart
+
+tacka Alexander
+Thank alexander"
+,Piddyx,2008-01-28T04:34Z,"The regedit method of tring to fix the game doesn't work with the 2.2 patch.  
+
+Apparently, the expansion is not very usefull without the newest patch.
+
+I also tried to fix the problem with the install file for the game, but it didn't allow me to patch the game either.  
+
+I think the only solution is to unpack the patch and manually copy the file over."
+,lowgravity,2008-02-08T17:30Z,"So no other way to patch to 2.2? I looked at updates and they are quite good! No more easy vassalization, better AI,..."
+,Karzakar,2008-02-15T23:21Z,"hm well this is my first torrent so how do i get it to work?..what files am I to overwrite? 
+and I get a error message when I am trying to start it something about you are trying to run it in an unusual way.. 
+plz help me!!"
+,Karzakar,2008-02-15T23:22Z,and I have 2.3 patch...
+,Karzakar,2008-02-15T23:26Z,oops...well how to install it?
+,Karzakar,2008-02-16T11:26Z,ignore my patch post plz XD
+,kingbaldur,2008-04-07T19:04Z,"I copied over napoleans game to my eu3 directory, but when I play it stops and the ""loading database"" screen,anyone help me with this?"
+,Forris,2008-04-21T16:17Z,"I've got just the same problem as Kingbaldur, it stops during the loading prosess. 
+But mine doesn't stop at ""loading databases"", but when it's finished and the main menu is about to appear. Then the the screen turns completely black and the ""error report window"" shows up. 
+
+Anyone know what I've done wrong, or haven't done at all?"
+,mythos1453,2008-05-07T20:58Z,"guys i had the same problem and couldn't install the patch. This is how i solved the problem:
+
+1) Go to start, then choose Run
+2) Type regedit
+3) Now you have 2 choices
+  a: Go to Edit, choose Find and type Europa or  paradox Interactive.
+  b: find it manually for xp64bit its under HKEY_LOCAL_MACHINE/HKEY_LOCAL_MACHINE\SOFTWARE\HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Paradox Interactive\HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Paradox Interactive\Europa Universalis III
+
+Once you go to Europa Universalis 3 folder, right cliq on the blank space in the right window. Select new String Value and name it ""Napoleon"". The right cliq on it and select Modify, in the Value Data type exactly ""2.0"" nothing else will do. Close and exit. 
+
+Many thanks to the OP for this method.
+*I'm running Windows XP 64 bit so it might be slightly different for you."
+,mythos1453,2008-05-07T20:59Z,"sorry the manual path is completely wrong for some reason here is the right one:
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Paradox Interactive\Europa Universalis III"
+,Aexiluus,2008-05-19T13:13Z,"I also get the error when I try to start the game, during ""loading databases"". The error is ""exception in discfile.cpp, line: 424 Description: Could not open file: common\common/technologies/land.txt"" 
+
+I can clearly see that there's an error there, a / where there should be \. But how do I fix this??"
+,Aexiluus,2008-05-19T13:14Z,oh uh I mean a \ where there should be /
+,Insanemus,2008-06-04T04:20Z,"Same issue can't get past loading map sprites, in vista ultimate 64bit. Reinstalling doesn't seem to help. Darn."
+,lolomg741,2008-06-17T00:35Z,"I'm having the same problem as Aexiluus. I installed the new expansion, and the problem is still there, but it doesn't give the error message anymore.
+
+I'm using Vista x64 btw"
+,boostHungry,2008-06-24T18:51Z,""" mythos1453 at 2008-05-07 20:59 CET:
+sorry the manual path is completely wrong for some reason here is the right one:
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Paradox Interactive\Europa Universalis III""
+
+THANKS MYTHOS. Went as far as making my own folders in the software folder, thxs for finding the actual folder under wow6432node.  After editing the registry and downloading the 2.2 patch manually the 3rd expansion installed no problem.  Now time to try and run the game.  
+
+PS I think you have Vista 64 you stated XP 64...."
+,boostHungry,2008-06-24T19:53Z,PS Everything works great.
+,boostHungry,2008-06-24T19:55Z,"PPS didn't even need to manually patch, 2.2 patch worked on it's own."
+,hillibill,2008-12-07T22:35Z,"Aexiluus, Insanemus: solution of loading database problem. the directories common/common/technologies and map/map didn't exist, so the discfile.cpp cannot find them, so one level of directories missing. so in the common and the map directory create another common and map directory and copy the files located in the originating directories the new ones. it should work. goog luck."
+,Gaastra_NAC,2008-12-08T18:24Z,thanks a lot for this addon !!

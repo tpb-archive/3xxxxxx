@@ -1,0 +1,16 @@
+﻿User Type,Username,Date,Text
+,death734,2007-07-08T03:38Z,"i only ask because its a non scene divx release, can you post any details on the file. like like resolution, frame rate (23.976 right?), source and such?"
+,death734,2007-07-08T05:25Z,"File Description
+Format: XviD/Mp3
+Runtime: 40:34.623
+Resolution: 848x480
+Aspect Ratio: 16:9
+Video Bitrate: 1003kbps
+Fps: 29.97 (no ivtc)
+Bits/pixel: .082
+Audio: 192kbps CBR, 2ch stereo, 48kHz
+
+a few encoding tips. 
+- always IVTC (inverse telecine. going from 60i to 24p (23.976fps)) stuff like this. if you open his video in vdubmod and browse frame by frame, you will notice that every 5th frame is a dupe frame of the last. thats because the frame rate is 29.97 when it should of been ivtc to 23.976.
+- at 350mb file size 640x352 resolution would actually look a lot better then 848x480 as far as quality goes. and be stand alone compatible"
+,VicVega,2008-10-09T12:14Z,"I agree, this is home-made crap. Anyone got proper widescreen rips of season 2?"

@@ -1,0 +1,61 @@
+﻿User Type,Username,Date,Text
+,Ghyll,2007-06-20T14:46Z,Awesome--I've been looking for this game for a while now.  Thanks!
+,Verwandlung-,2007-06-20T18:16Z,Thank you very much!
+,Verwandlung-,2007-06-20T18:21Z,"oh and can one play it in xp 
+or only with dosbox?
+"
+,Tattybogle,2007-06-20T19:06Z,Sounds like it is based on the Harlan Ellison short story with the same name. It's a story that still gives me nightmares 25 years later!
+,ursak,2007-06-20T22:15Z,It is based on those stories and is quite creepy to play haha
+,Tattybogle,2007-06-21T01:01Z,Good enough for me! (Gawd help me!)
+,filipskopec,2007-07-11T18:16Z,"Hi, I have a game i'd love to download more than those two. Lands of lore 3. Ive been desperately wanting to play this game forever, and never been able to find it or buy it anywhere. If ye could upload a torrent, i'd become your slave forever. :D"
+,ursak,2007-07-16T22:13Z,"Lands of Lore 2 and 3 are games I miss in my collection to, so I'm sorry but I can't upload it. If I get my hands on a copy I'll seed it right away thought. (Looking for sites that have it in stock to buy)"
+,ursak,2007-09-21T10:06Z,"Since my computer broke down, I'm not seeding anymore. :("
+,JELLY-j,2007-10-13T12:27Z,How do i open this??
+,ursak,2007-11-07T02:05Z,"No you mount it. You might need an DOS emulator like DosBOX (google it) to make it run on WinXP, not sure as I run it on my old trustworthy IBM 486 :)"
+,sarahvdv,2007-11-11T19:24Z,"Just to let everyone know... This game is now supported by ScummVM 0.11.0 SVN Version. Grab it from www.scummvm.org
+
+Enjoy!"
+,wolverineg,2007-11-22T02:51Z,"I was able to install the game, and configure sound.  Then, I installed the most recent version of DOSBox.  I was able to mount the game in DOSBox.  Every time I try to run the game, I get the following message:  ""Can't open music resource file"".  Can anyone advise please?  Thanks."
+,wolverineg,2007-11-22T16:40Z,"Sarahvdv:  I also tried installing ScummVM 0.11.0.  I can run ScummVM, but it doesn't recognize any game in either the Scream or the Scream/drivers directories.  If you have any advice, I'd appreciate it.  Thanks."
+,ursak,2007-12-16T17:54Z,"Scumm have info on how to make the games they support work in Scummvm. If you have trouble with this, try looking in their support section. 
+
+One short advice thought. Mount the cd-image and look it up with SvummVM, cause the emulator is supposed to use the game-cds to get the files it needs, not an image..."
+,StretchUk,2007-12-28T16:59Z,"How to get the game running using DosBox:
+
+http://home.earthlink.net/~infernofilecabinet2/XpSetupsF_J/Guest/IHNMAIMS_setupLewton.htm
+
+
+And thanks Ursak."
+,ursak,2008-02-08T19:34Z,"I'm sorry, but I don't know. It works so great with Scumm that I never bothered to try it in DosBox.
+
+But read up on mounting cds and things in the guide for dosbox and test your way forward? :)"
+,Threedots_dead,2008-04-12T15:27Z,"This is an awesome torrent. Works great in Dosbox.
+I use Daemontools to mount it though, instead of the built in mounter. HereÂ´s what you do:
+After setting up your standard folder for Dosbox and all that, just mount the image with Daemontools, and then check what drive it is (e:,i: etc...) Then in Dosbox type:
+MOUNT d i:\ -t cdrom (of course substitute ""i"" for whatever letter the virtual drive has).
+Now navigate in Dosbox to the root folder of the game and type ""s"". You can of course automate the mounting-part by inserting the relevant lines  at the end of ""dosbox.conf"" in your Dosboxfolder."
+,kreeloo,2008-06-16T09:26Z,"Thanks for seeding, I was searching for an original version because the french one has been censored (the character ""Nimdok"" is missing).
+I'll keep seeding !
+
+Well done fellows!"
+,Broken_Soul79,2008-09-15T09:53Z,"how do I mount this game? I'm new to the whole DOSBox thing, but I haven't had any problems getting other games to install and run... if anyone could help me out I would be forever grateful... I think out of all the games I've ever played this is the one that really stuck in my mind, I was amazed to even find it... Many thanks in advance to anyone that can be of assistance..."
+,adamsimon,2008-10-19T16:34Z,"Since I can't be the only one that looked at the .bin and .cue file and went ""Huh?""  You have to burn these to a CD first.  It'll turn into something familiar when it's on a CD.  Use something like Totally Free Burner and burn from a bin/iso image.  I was used to iso, but not bin."
+,Novacain,2008-10-24T20:01Z,No you don't have to burn it. Just mount the .cue file in Daemon Tools.
+,ono-ohyes,2008-10-26T03:48Z,"Hey guys, I found about this game and this torrent after reading this article on the ""Top Mature Games that are actually Mature."" Highly recommended: http://www.gamesradar.com/f/mature-games-that-are-actually-mature/a-20081014113316766003
+(Kotaku & Digg linked)"
+,dlbrody69,2009-01-30T08:40Z,"After reading the above review, I;m all into trying this out."
+,LiveInABox,2009-03-10T03:04Z,"Thanks alot for this! Works flawlessly with scumm. 
+"
+,ursak,2009-04-21T05:20Z,Run it with either ScummWM or D-fend reloaded (dosbox+frontend)
+,ministryhellie,2009-10-29T12:40Z,thanks alot!!!
+,csikcs,2009-10-31T21:33Z,I got this working almost perfectly: the game starts up I can hear the music and the sound effects but I can't hear the voices at all. Any help pls?
+,csikcs,2009-10-31T21:44Z,"HA! Got it sorry. I've installed the game and for some reason it didn't copy the ""voices"" files to the folder. Thanks for the upload!"
+,jurpo9,2010-07-30T17:54Z,"PEOPLE! This game is ScummVM supported, so Download ScummVM 1.10, its alot easier to use than DosBox with this. And this game is excellent, download it ASAP."
+,jurpo9,2010-07-31T13:24Z,"i have the instructions here. download this, then scummvm, install scummvm. then mount the nomouth cd with daemon or any good mounting software, then copy the insides of the cd to a one directory. choose it with the scummvm, (choose game), and play!"
+,lymur,2010-10-28T21:14Z,oh goooodddddddd please reseed! the 6 seeders arent connecting
+,denaron,2010-10-29T13:02Z,Thank you very much. I'll seed it for days!
+,dragonsfire07,2011-02-01T22:45Z,I wonder how many other people are going to come here after reading the top 10 list at GameFAQs today lol.
+,vizgun,2011-06-17T18:28Z,Thanks dude. Gud game. The game is a bit tough though!
+,admiralen1,2011-07-21T21:49Z,tyty seeders i luv u all
+,yujiberra,2011-11-13T11:36Z,"If you're using Mac OS, then you can get ""PowerISO for OSX"" here to open the .BIN:
+http://www.poweriso.com/download.htm"

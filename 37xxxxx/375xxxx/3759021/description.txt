@@ -1,0 +1,151 @@
+Windows XP Service Pack 2 Unattended Edition version 7
+
+
+
+Os presento WinXP Sp2 uE v7.
+Creo que todo el mundo sabe que es un Windows XP Professional SP2, actualizado, con algunos componentes eliminados, con algunos registros de optimizaciÃ³n para el uso comÃºn, que se instala desde cero (nada de actualizaciones - formatear) de forma desatendida y que incluye una lista de aplicaciones tambiÃ©n en su forma desatendida.
+
+
+Actualizaciones:
+
+msxml2.msi
+msxml2sp6-KB887606
+msxml4-KB927978
+msxml6_x86.msi
+WindowsInstaller-KB893803-v2
+WindowsMedia-KB911564
+WindowsMedia6-KB925398-v2
+WindowsMedia6-KB925398
+WindowsMedia9-KB917734
+WindowsUpdateAgent30-x86.exe
+
+KB873333 KB873339 KB885222 KB885250 KB885626
+KB885835 KB885836 KB886185 KB887472 KB887742
+KB887797 KB888111 KB888113 KB888302 KB889527
+KB890046 KB890830 KB890859 KB891781 KB893086
+KB893357 KB893756 KB894391 KB896256 KB896358
+KB896422 KB896423 KB896424 KB896428 KB896688
+KB897663 KB898461 KB899587 KB899588 KB899589
+KB899591 KB900485 KB900725 KB900930 KB901017
+KB901214 KB902400 KB904412 KB904706 KB904942
+KB905414 KB905474 KB905749 KB905915 KB906569
+KB907865 KB908519 KB908521 KB908531 KB909095
+KB909520 KB910437 KB911280 KB911562 KB911567
+KB911927 KB912812 KB912919 KB913446 KB913580
+KB914388 KB914389 KB914440 KB916281 KB916595
+KB916846 KB917344 KB917953 KB918005 KB918118
+KB918439 KB918899 KB918997 KB919007 KB920213
+KB920214 KB920342 KB920670 KB920683 KB920685
+KB920872 KB921398 KB921883 KB922582 KB922616
+KB922760 KB922819 KB923191 KB923414 KB923689
+KB923980 KB924191 KB924270 KB924667 KB924867
+KB925454 KB925486 KB925902 KB926247 KB926255
+KB926436 KB927779 KB927802 KB927891 KB928090
+KB928255 KB928388 KB928843 KB929120 KB929123
+KB929338 KB929969 KB930178 KB930916 KB931261
+KB931784 KB931836 KB933566 KB935448 KB935839
+KB935840 KB936357 KB938828 KB939373
+
+En total son 139.
+He quitado algunas que ya eran obsoletas porque estÃ¡n sustituidas por otras mÃ¡s nuevas.
+
+
+CaracterÃ­sticas bÃ¡sicas:
+
+â?¢ WGA 1.7 - Parche para Windows Geniune Advantage 1.7
+â?¢ WU6 - Windows Update 6
+â?¢ DirectX 9.0c - Agosto 2007
+â?¢ UXTheme - UXTheme.dll modificado para soportar temas no firmadas
+â?¢ 5.000 conexiones simultaneas sin terminar (antes 10)
+â?¢ SFC Deshabilitado - protecciÃ³n de archivos de sistemas deshabilitada
+â?¢ Sin requerimientos mÃ­nimos (RAM & HDD) para la instalaciÃ³n
+â?¢ Prefetch Cache - arranque
+â?¢ 95% instalable en cualquier particiÃ³n - ahora ya casi no es necesario que sea C:
+â?¢ OEM desactivado - podrÃ¡s cargar los controladores SATA desde el disquete como con cualquier Windows XP
+â?¢ Windows Firewall - desactivado
+â?¢ WPI ahora con barra de progreso - podrÃ¡ ver lo que falta para terminar la instalaciÃ³n
+â?¢ WPI ahora funciona en resoluciÃ³n 800x600 pero se recomienda 1024x768 como mÃ­nimo
+â?¢ Se limpian algunos registros despuÃ©s de la instalaciÃ³n
+â?¢ Limpieza automÃ¡ticamente despuÃ©s de la instalaciÃ³n (temporarios)
+â?¢ Ya no tiene contraseÃ±a
+
+
+Lista aplicaciones que se incluyen:
+
+1. .Net Framework 1.1 SP1 (+Up)
+2. .Net Framework 2 (+Up)
+3. Adobe Reader 8.1 (Lite)
+4. Alcohol 120% 1.9.6.5429
+5. BSPlayer Pro 2.22
+6. CCleaner 1.41
+7. Damn NFO Viewer
+8. DVD Shrink 3.2.0.16
+9. eMule 0.48a {Oficial}
+10. Everest Ultimate Edition 4.0.976
+11. GMail Drive 1.0.11
+12. Google Toolbar 4
+13. HashTab Shell Extension 1.11
+14. Image Resizer Powertoy
+15. ImageShack QuickLoad 1.0.36
+16. Internet Explorer 7 (+ 4 Up)
+17. Java RE Version 6 Up2
+18. K-Lite Codec Pack 3.3.0 Standard
+19. Live Messenger 8 (-Pub)
+20. Microsoft Office 2003 SP2 (OGA + Up)
+21. Mozilla Firefox 2.0.0.5 + Plugins
+22. Nero Burning Rom 7.10.1.0 Lite
+23. NOD32 Antivirus System 2.70.39
+24. Windows uE Sound Scheme v2
+25. Picasa 2.7
+26. Windows Media Player 11
+27. PowerDVD 7 Deluxe
+28. PuTTY 0.60
+29. QT Lite 1.11
+30. Real Alternative 1.52
+31. Shockwave 10.2.0.22
+32. Skype 3.2.32.175
+33. TaskSwitchXP Pro 2.0.11
+34. TuneUp Utilities 2007 6.0.2200.0
+35. Unlocker 1.8.5
+36. uTorrent 1.7.2
+37. Virtual Desktop Manager Powertoy
+38. Winamp 5.35 Pro + MMD3 Theme
+39. WinRAR 3.70
+40. WinSnap 2.0.7
+41. XPize 4.6 Lite
+42. Yahoo! Instant Messenger 8.1 (-Pub)
+
+
+Tweaks (registros para configurar opciones):
+
+43. Desactivar la barra de idioma
+44. Activar Auto-Arranque CD/USB
+45. Activar carpeta TEMP clÃ¡sica
+46. Activar la cuenta de Administrador
+47. Activar Restaurar Sistema
+48. Activar IMAPI - Grabador Windows XP
+
+
+Algunas especificaciones:
+
+â?¢ .Net Framework 1.1 SP1 (+ Actualizaciones) - incluye ademÃ¡s de SP1 - KB928366 y espaÃ±ol
+â?¢ .Net Framework 2 (+ Actualizaciones) - incluye KB928365 y espaÃ±ol
+â?¢ Adobe Reader 8.1 (Lite) - versiÃ³n bÃ¡sica
+â?¢ eMule 0.48a {Oficial} - versiÃ³n oficial - no modificada
+â?¢ Internet Explorer 7 (+ 4 Actualizaciones) - incluye KB929969 KB931768 KB933566 y Roots-Update: KB933566
+â?¢ Live Messenger 8 (- Publicidad) - incluye parche para quitar la publicidad
+â?¢ Microsoft Office 2003 SP2 (OGA + Up) - incluye OGA (Office Genuine Advantage) ademas de muchas actualizaciones
+â?¢ Mozilla Firefox 2.0.0.5 + Plugins - incluye plugins para Flash, Shockwave y Windows Media Player
+â?¢ Nero Burning Rom 7.10.1.0 Lite - version basica - incluye Nero Burning ROM y Nero Express
+â?¢ Windows uE Sound Scheme v2 - sonidos Ãºnicos de esta versiÃ³n - compilaciÃ³n realizada por AdrenalinE
+â?¢ WinSnap 2.0.7 - versiÃ³n PRO
+â?¢ Yahoo! Instant Messenger 8.1 (- Publicidad) - incluye parche para quitar la publicidad
+
+
+Importante:
+
+â?¢ No quitar el disco de WinXP Sp2 uE v7 hasta que finalice la instalaciÃ³n
+â?¢ Se recomienda formatear e instalar en C:
+â?¢ No es recomendable instalar todas / muchas aplicaciones (si quiere rendimiento), solo lo necesario
+â?¢ Antes de reportar cualquier problema, busque en el foro y en Internet, y piense bien si realmente es un problema de este OS
+â?¢ Encontrara una descripciÃ³n de cada programa en WPI, pasando el ratÃ³n por encima

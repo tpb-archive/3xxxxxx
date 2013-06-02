@@ -1,0 +1,4 @@
+ A person might want to change the MAC address of a NIC for many reasons:
+ 
+1.	To get past MAC address filtering on a router. Valid MAC addresses can be found by sniffing them and then the deviant user could assume the MAC of a valid host.
+...

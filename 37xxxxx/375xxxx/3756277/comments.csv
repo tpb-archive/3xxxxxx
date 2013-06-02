@@ -1,0 +1,31 @@
+﻿User Type,Username,Date,Text
+,a.squirrel,2007-10-12T18:34Z,"I installed it using Windows Vista, but I keep getting the dialogue pop-up saying ""Autodesk Revit has stopped working"" when I try to start the program.
+
+Is there a solution???  I've tried ""run as administrator,"" wondering if that was the problem... no luck.  Help please!"
+,vijayroja,2007-11-21T03:55Z,it shows some  error 
+,dogengo,2007-11-30T13:31Z,During install it showed some errors but that is because I selected extra options such as librairies that are not included in the package. Besides that it seems to work well. I'll try to get librairies from somewhere else. THX heavynetal2007
+,shamsunthedarkwalker,2008-01-30T00:32Z,i need help!in the middle of the install it says please insert disk and i cant get around it. instruct me please!
+,REEPER_,2008-04-02T18:39Z,any body know where i can get a keygen for revit mep
+,REEPER_,2008-04-02T18:40Z,2008
+,anniesball,2009-02-06T19:10Z,I'm getting an error message looking for the Revit 2008 DVD after I select the license agreement. Anyone find a way around this?
+,brunotvrs,2009-02-16T15:37Z,"Using Windows XP SP2 here.
+
+Also getting the ""Please insert the disk: Revit Architecture 2008 DVD"" dialog after successfully installing the DWF Viewer.
+
+Doing everything as said in the install.txt file (inside ""crack"" folder):
+
+""Install Autocad Revit Architecture 2008 (launch setup.exe)
+   Click on Configure (after accepting license agreement ..)
+   Select as Default Units: Metric "
+,brunotvrs,2009-02-16T15:42Z,"The drive label is ""200709130919"", which I suspect to be the date the iso was made: September 13th, 2007 @ 09:19 am.
+
+Ok, fine. Maybe that's something that makes the setup run weird? O.o
+
+Just wondering..."
+,brunotvrs,2009-02-16T15:54Z,"####SOLUTION####
+
+Found @ torrentz (solution by mauddib) in my own words:
+
+The secret is that you MUST copy all the files inside the .iso (either by usind a WinRAR-like app or by mounting it with MagicISO/Daemon Tools and copying the files normally) to a folder inside your hard disk (a desktop folder called ""revit"", for example).
+
+Then you should run the setup.exe and it won't ask for the DVD :)"

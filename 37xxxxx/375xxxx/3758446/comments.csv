@@ -1,0 +1,17 @@
+﻿User Type,Username,Date,Text
+,KRAK_JOE,2007-08-01T08:44Z,"Windows XP users will need to execute phz.exe from the command line, for some reason dragging and dropping doesnt work ......... Vista users can drag / drop"
+,yyyang,2007-08-01T14:43Z,"It works perfectly. Follow is the step:
+1) rename ""Microsoft Visual C++ 6.iso"" to ""Microsoft Visual C++ 6.phz"".
+2) drag and drop ""Microsoft Visual C++ 6.phz"" onto phz.exe."
+,KRAK_JOE,2007-08-01T15:24Z,"You shouldn't need to rename anything.
+
+The file inside the torrent is already named Microsoft Visual C++ 6.iso.phz, just drag and drop it onto phz.exe and it will create Microsoft Visual C++ 6.iso in the same directory as you dragged the phz file from.
+
+Glad it works for you, wanted to keep this one alive ......"
+,dalis llama,2007-09-04T00:53Z,"Umm.... What's the product's ID number?  or is there a way to install that doesn't require one?
+
+I currently have the .iso mounted on Daemon Tools... do I need to burn it first, or something?"
+,kaloian0193,2007-09-10T18:15Z,OMG LOL O.o i just discovered the ID lolol only zeros O.o!!!!! no hacking tool used just typed zeros ^_^ and it worked!!!!
+,charles338,2007-09-30T10:12Z,"I've got XP and all you have to do is put the phz.exe file in a directory. I called mine ""PHZ v0"" without the "". Then I right clicked on the mouse and scrolled down to send to Desktop (shortcut). You do not open the program you just drag the Microsoft Visual C++ 6.iso.phz file to the top of the shortcut on the Desktop, drop it there, then the program will open and start unpacking the file and on my computer in less than 1 minute you have your iso file in the directory the phz file was in. Piece of Cake and Thank you so much for the Torrent!"
+,klausgena,2007-10-16T19:08Z,"Dear Krakjoe, your site does not work so I cannot download your uncompressing tool. That is a pity!"
+,CX8B3,2012-03-17T08:59Z,"dalis llama: Many old Microsoft setup programs have a bug that allows the user to type 777-7777777, 111-1111111, or 111-1111112 in the product ID field and continue even though it is not valid."

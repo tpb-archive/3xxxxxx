@@ -1,0 +1,48 @@
+,------------------------------------------------------------------,
+|                     - wiiKey update v1.9b -                      |
+|------------------------------------------------------------------|
+|                                                                  |
+| "wheres teh update?"                                             |
+| ----------------------                                           |
+| right...first off, we like to apologize for the long wait. we    |
+| understand that some people have been very upset about it. all   |
+| we like to say is that the truth is often a bit more complex     |
+| than what people make up on forums, and shit happens. anyways,   |
+| those that didn't die of accumulated anger...                    |
+| welcome to wicked wiikey update!                                 |
+|                                                                  |
+|  so what's new ?                                                 |
+| ~~~~~~~~~~~~~~~~~~~~~~                                           |
+|  - audiofix fixed o_0                                            |
+|  - dual layer support (no bitsetting required)                   |
+|  - improved media support (all supported chipsets)               |
+|  - full Gamecube regionfree (no-swap/video setup)                |
+|  - various "smaller" improvements/fixes                          |
+|  - workaround for FW 3.0 gameid limitation                       |
+|    (existing wkb 1.2 discs will boot again)                      |
+|  - "on the fly" settings for gc games (by holding buttons)       |
+|       - toggle audiofix, diskspeed, force NTSC/PAL               |
+|                                                                  |
+|------------------------------------------------------------------|
+|  Full GC Regionfree                                              |
+| ---------------------                                            |
+| Boots GC imports directly using a small apploader hook to setup  |
+| the correct video mode. To enable this feature use the new       |
+| config disc (1.3). Make sure you also enable the basic region    |
+| feature, thats what gets you through the wii menu in the first   |
+| place. Unlike a real GC, the NTSC Wii doesnt output PAL50. That  |
+| means the game may run but theres no picture. PAL60 games will   |
+| work, however you need to enable it. The common way to bring up  |
+| the "use PAL60?" dialog on a game is to hold B while booting.    |
+| Forcing to NTSC may work as well. PAL consoles output NTSC just  |
+| fine.                                                            |
+|------------------------------------------------------------------|
+|------------------------------------------------------------------|
+|   This torrent was brought to you by a communist.                |
+|      Not like Lenin, Mao, or Stalin,                             |
+|    K    but like a normal worker craving greater freedom.        |
+|   KKK      Long live communism and digital piracy                |
+|  K /K        Greets to ParaDoX and PSX-Scene.com                |
+| KOPI-MI          -Taboo Tongue                                   |
+|------------------------------------------------------------------|
+"------------------------------------------------------------------"

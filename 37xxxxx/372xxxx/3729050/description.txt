@@ -1,0 +1,29 @@
+Classic-On-Intel v 4.0.1: ?chubby-bunny?
+
+What ?s this?: 
+COI is a application that gives Mac Intel owners the ability to run Classic (OS-9) programs.  The environment has networking, quicktime, a OSX mountable 400/800/1200 Meg HDs for your applications and access from the OS-9 desktop to your boot volume. Unzip and place the application anywhere. This release overcomes the following limitations of Sheepshaver (in general) and previous versions of COI: 
+
+1) No installer necessary, 
+2) The Application can be placed anywhere (the ?Utilities? folder is a nice place). 
+3) Blank HD?s for your old applications and data 
+4) Drag & Drop access to OSX
+5) Includes the ?NewOS? application so that you can replace OS9 with another OS (7 or 8)
+
+(Any or all of the extra HDs must be put in ?/Users/Shared? to automount in OS-9. Your /Users/Shared folder shows up on the OS9 desktop as ?Unix?)
+
+Stop reading here, click, install and enjoy
+?	or ? if you really need to know..  read below or the other readmes from previous versions. Feel free to distribute this to other mac users as you see fit, I read the top ?COI classic on intel? hits in google so if you have questions or wishlists, post them on one of those sites. If I had a way of making apple-legal happy I?d have a site and give this freely to the mac community, but for now?
+?	 gwalkabout
+
+Notes: 
+1.	COI will mount all of the following named volumes in ?/Users/Shared/? automatically: 400Meg.dmg,  800Meg.dmg,  1200Meg.dmg,  MyOldHD.dmg,  COIHD.dmg.
+2.	COI is essentially Sheepshaver pre-configured and pre-installed with the highest version of os9 that it will run. Its main advantage is that it is a move-anywhere, zero-install, no-configure, ?works out-of-the-box? version for people who have been using Macs because of their ease of use (but may not have the patience or ability to do a fairly complex install and configure procedure). 
+3.	I love macs and have had them since 1984. My intent is/was not to violate any apple copyrights (see Rant below), so unless you are in the realm of ?hacker? you will not be able to see, use or extract the any apple roms etc from this distro.  Future versions will possibly have more extreme protection measures such as encrypting apple?s stuff and checking the machine gestalts to make sure you  own apple hardware, check for an os9 instal CD, but for now?
+4.	Known problems/limitations: the network/appleshare functionality is limited by 9.04. I?ve removed printing and many/most of the features in os9 that are already available in os X ? you can put these back in when you install your own os9 from your old mac (see below) ? but remember, you should only use this for those few legacy apps in classic that have not osX equivalent (I had web-browsers, office apps, multimedia, etc. in previous demonstration versions but what?s here is stable and small). 
+5.	The ?NewOS? drag-and-drop application is needed to install your own os9 on COI ?Follow the directions below carfully. If you screw up it lets you undo and , of course, you can always unzip the whole thing again without screwing up your HDs in /Users/Shared. 
+
+
+Rant: 
+I?ll agree with others (many, it seems) that are disappointed that Apple didn?t see fit to include OS9 ?Classic? environment capabilities in their Universal Binary OS for the new Intel macs.  At best you can say that OS8 and 9 are actively-unsupported and restricted by copyright. I do have a nice collection of G5, G4, G3 and lower (PPC) macs in my house, lab and classroom some of which have software I paid big bucks for that don?t run on OSX (educational and scientific mostly). Bottom line: it?s a pain in the okole to dig one out, fire it up, copy screen-captures or files to my current mac and then print.  
+
+Tested on macbook, iMac, mac mini, and  macbook pro. 

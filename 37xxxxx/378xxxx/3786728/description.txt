@@ -1,0 +1,24 @@
+1. Install Daemon Tools (daemon4091-x86.exe)
+~ You may want to disable the "Search Bar" in the install.
+2. Mount CD1 (MW4_CD1.ISO) and start install (Easy Setup), replace with CD2 (MW4_CD2.ISO) when prompted
+3. Enable "all emulation options" by right clicking daemon tools in your task tray, and going to emulation
+
+You may stop at this point and play the original version of the game.
+You may also stop at this point and run the "setup.bat" file to make an attempt at automatically performing the following steps. You may need to reference back to this file during this step - if something doesn't go, resume from here:
+
+4. Run the PR1 patch (mercpr1.exe)
+5. Install MekPak 3:
+	a. Run WPApply.exe
+	b. Select patch file: mekpak302a(pr1).wnp
+	 (wait patiently while WPApply checks the file)
+	c. Click apply (backing up the files is optional, and is probably recommended... >_>)
+	 (wait patiently, more)
+6. Apply mekpak 3.02b patch (double click exe)
+
+Enjoy the game.  
+
+Also included are two .reg files which will allow you to switch between game trackers - Microsoft no longer supports this game, and their ZoneMatch is very sketchy.
+
+Thanks to the members of RolePlayGateway ( http://www.roleplaygateway.com ) for support.
+
+~ Crescendo

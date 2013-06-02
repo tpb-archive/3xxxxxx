@@ -1,0 +1,29 @@
+Mailplane Beta  v1.49
+
+You love them both: Your MAC and Gmail, right?
+But they are both from different worlds and aren?t friends, yet. That?s where Mailplane comes in to bring them together: Google Mail?s superb SPAM protection, endless storage and global access ? and the friendliness of your Mac.  
+
+
+Changes:
+
+1) Romanian translation: Thanks to Ovi Pascui Mailplane is now fluent in five languages! You can send translation related feedback directly to ovi@primacom.net.
+
+2) Documentation: The welcome screen, and help window now link to some online resources: A getting started screencast, FAQ, and known bugs: http://mailplaneapp.com/info/index.html
+
+3) Feedback window: The feedback now contains a new online news section. It displays known and confirmed bugs, possible workarounds, and if needed other news.
+
+5) Multiple accounts:  Sessions are now better managed, e.g., Mailplane refreshes the session when you switch to another account. If there is no internet connection, or there is a problem authenticating you'll get the login box with an error message. This prevents infinite "loading..." message. Plus: The "loading..." status sheet has now a "retry" button.
+
+4) Offline indicator preference: When you disconnect from the internet, you'll get an offline indicator on the right corner of your screen. For some users, it didn't go away after reconnect. You can now disable the offline indicator in "Advanced" preferences.
+
+5) Window size/position: The size and position of the "separate" window is now correctly remembered.
+
+6) PNG pictures attachments: When you attach a PNG file it will be optimized and resized, but the file type (PNG) is preserved. It used to get converted to JPG.
+
+7) Mailplane showed up as "Mailplane_" in the force quit dialog. It is now correctly displayed as "Mailplane". This should solve the "double notifier" problem some users reported.
+
+Other Bug fixes:
+- mailto and "Send Link" from browser did wrong decoding
+- When replying some keystrokes got executed instead of entered into the text field
+- Spell Catcher didn't work. An update to the latest WebKit did solve the problem.
+- Crash when closing separate window immediately after opening

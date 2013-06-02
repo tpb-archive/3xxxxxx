@@ -1,0 +1,22 @@
+Trillian? is a fully featured, stand-alone, skinnable chat client that supports AIM, ICQ, GoogleTalk, MSN, MySpace, Yahoo Messenger, IRC, and many more if you download the plugins that enable them. It provides capabilities not possible with original network clients, while supporting standard features such as audio chat, file transfers, group chats, chat rooms, buddy icons, multiple simultaneous connections to the same network, server-side contact importing, typing notification, direct connection (AIM), proxy support, encrypted messaging (AIM/ICQ), SMS support, and privacy settings.
+
+Without stealing your home page and with no other included software, pop-ups, or spyware, Trillian provides unique functionality such as contact message history, a powerful skinning language, tabbed messaging, global status changes (set all networks away at once), Instant Lookup (automatic Wikipedia integration), contact alerts, an advanced automation system to trigger events based on anything happening in the client, docking, hundreds of emoticons, emotisounds, shell extensions for file transfers, and systray notifications.
+
+=================================
+Trillian Astra Changelog
+Build 47 -> Build 48
+June 28 to July 2, 2007
+=================================
+
+======
+FIXES:
+======
+
+2403    Kevin Kurtz  		FIXED  	[CRASH] Crash on creating a new connection
+2489 	Kevin Kurtz 		FIXED 	[Widgets] Contact list widgets do not seem to show up in b47
+1686 	Scott Werndorfer 	FIXED 	[IM] Cannot save jabber or yahoo password across Astra runs.
+2446 	Scott Werndorfer 	FIXED 	[IM] confirm delete connection
+2452 	Scott Werndorfer 	FIXED 	[YAHOO] Yahoo idle state overrides an away state
+2130 	Scott Werndorfer 	FIXED 	[ASTRA] Astra "brb" icon is used instead of the idle clock icon
+2459 	Scott Werndorfer 	FIXED 	[ASTRA] I can't connect to my Trillian Astra account
+ 	Scott Werndorfer 	FIXED 	[ASTRA] Login fails over with large contact list XML

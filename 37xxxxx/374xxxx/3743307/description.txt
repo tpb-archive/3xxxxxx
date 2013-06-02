@@ -1,0 +1,75 @@
+                 Save System RAM Memory
+                 ----------------------
+
+ If you want to fine tune your system to have the fastest
+ possible boot times and to use the absolute minimum amount
+ of RAM memory possible, run the file included here and
+ answer the 25 quick questions about how you use your system
+ and what you need to have functioning, like for instance a
+ printer, or webcam.
+
+ This file is simply for disabling or enabling services.
+
+ You will need to reboot windows after you have answered all
+ the questions and the box closes.
+
+ No changes will occur if you answer "Y" (Yes) to every
+ question. You should always just answer "Y" if you are
+ not sure how to answer...
+
+ Answering "Y" will leave the service enabled (default).
+ Answering "N" will disable the service.
+
+ If you answer "N" (No) to every question, you will be left
+ with only four services running! Yes FOUR SERVICES!!!!!!!!
+ You would only have 11 processes running and Windows using
+ about 40Mb RAM.
+
+ The four services left running if you say no to all are: 
+
+ ---------------------
+ Event Log
+ Plug and Play
+ Remote Procedure Call
+ Windows Audio 
+ ---------------------
+
+ Event Log cannot be stopped.
+
+ Plug and Play should never be stopped, because this makes sure
+ your devices are detected. Basically, if you were to stop this,
+ then your sound card and video cards would not even be present.
+
+ Remote Procedure Call is without a doubt the most important service
+ in Windows. Almost all other services in Windows depend on this.
+ This service is pretty much the service that is the core of Windows
+ itself - Windows cannot possibly run without it. You cannot stop this
+ RPC service... even if you were stupid enough to want to!
+
+ Windows Audio service could be stopped, but then you would not
+ have any sound in Windows at all including from media players,
+ in any of your games, or anything.
+
+ ------------------------------------------------------------------------
+
+ ********************** IMPORTANT NOTE ABOUT DHCP ***********************
+
+                 (This is the question about Dynamic IP)
+
+ Be very careful if you say no to the question about having a Dynamic IP
+ address. If you do have an IP address that changes, then this service is
+ almost certainly needed. If you say "N" (No) to this question and get a
+ network tray icon that says "Aquiring IP address" and you cannot connect
+ to the internet, then it is because of DHCP being disabled.
+
+ This DHCP should never be disabled if you install Windows in VMware,
+ regardless of whether your real machine has a dynamic IP or not does
+ not matter. You cannot connect to the internet in VMware if you have
+ DHCP disabled... it is as simple as that.
+
+ However, some systems just don't need DHCP enabled. I personally
+ have a broadband connection that is Dial-Up (2Mbit) and I do have
+ a dynamic IP address too, and yet I can just disable DHCP with no
+ loss of connectivity, so it is hit and miss really. The general rule
+ is, if you have a dynamic (not static) IP address then you need this
+ service to be enabled - but not in all cases!

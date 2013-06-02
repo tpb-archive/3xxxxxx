@@ -1,0 +1,8 @@
+﻿User Type,Username,Date,Text
+,someware,2007-06-29T15:36Z,"Hey all, 
+
+Modify line in /etc/X11/xorg.conf starting with DisplaySize in the Monitor section to:
+    DisplaySize 304.8 228.6
+This will give you best font results in Linux you've ever seen.
+
+-sw"

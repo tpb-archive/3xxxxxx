@@ -1,0 +1,44 @@
+KMPlayer is a korean movie and audio player that supports a wide range of codecs and file formats. It has full VCD/DVD playback functionality. 
+
+- Supported Files or Devices 
+
+Incomplete/Damaged AVI file (Skip Damaged Frames) 
+
+Locked Media Files while downloading or sharing (with realtime index rebuilding under certain condition: AVI downloading in consecutive order) 
+
+HTTP Streaming (ASF/OGG/MP3/AAC/MPEG PS/MPEG TS: Only work with internal splitters) 
+
+Directshow playback (avi, mkv, mov, mp4, ogg theora, ogm, rmvb, mpeg1/2, http:// etc including almost every audio formats) 
+
+Async File Source(network) filter for memory caching 
+
+Compressed Audio Album Support(zip, rar) 
+
+Shoutcast (Including NSV), Icecast 
+
+DTS Wave, and AC3 files, AAC and OGG parser/decoder, Ape/MPC/Flac/Module etc 
+
+Real Engine + Directshow (needs Real Player or Alternative or its decoders) 
+
+Supprots surestreamed realmedia files with internal rm splitter(not by external one) 
+
+Almost all Real Media files are supported(directshow). 
+
+QuickTime Engine + Directshow (needs QuickTime player or Alternative or its decoders) 
+
+The formats of tested MOV samples with mp4/mov internal splitter(directshow) : MOV[AVC1+AAC], MOV[CVID+PCM], MOV[SVQ1+ARAW], MOV[SVQ3+QDM2], MOV[SVQ3+MP3], MOV[MP4V+AAC], MOV[CVID+TWOS], MOV[RLE+AAC], MOV[SVQ1+IMA4], MOV[SVQ3+IMA4], MOV[SVQ3+QCLP], MOV[Flash], MOV[MJPEG+PCM], MOV[DVC+PCM], MOV[SVQ1+PCM], MOV[MP4V+ALAC], MOV[MSVC+MP3] 
+
+Almost all MP4s are supported(directshow). 
+
+Mplayer Engine Support 
+
+Winamp Input Plugin(decoder) Support 
+
+DVD playback, ratDVD support(needs ratDVD filters) 
+
+Audio CD(2000, XP only / Win9x-Support by winamp plugin) 
+
+Video CD/SVCD/XCD : CDXA Format (2000, XP only) 
+
+VCD Image File (BIN/ISO/IMG/NRG) ; NRG needs mplayer.dll
+

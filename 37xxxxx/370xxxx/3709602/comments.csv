@@ -1,0 +1,32 @@
+﻿User Type,Username,Date,Text
+,elefantii,2007-06-09T22:48Z,61 leechers?..damn!
+,dddddd,2007-07-15T19:21Z,"Anyone played this successfully with wther VLC or Mplayer ? My Mplayer claims it canÂ´t find either a video, nor audio stream. VLC manages to find the DTS audio track but no video.
+Help would be appreciated."
+,hurrafor,2007-07-19T16:30Z,"ABSOLUTELY works....you just have to do a little digging:
+
+First, you need HDTVPump:
+
+http://www.dvbportal.de/projects/hdtvpump/
+
+And then (At least for any HD-DVD releases by HDTV_CHINA i have) you need Matroska Splitter
+
+http://haali.cs.msu.ru/mkv/
+
+You will also need to have a MPEG2 decoder previously installed. NVIDIA's works. If you can play a DVD - chances are you have a valid decoder.
+
+
+Install those and report back!
+
+KMPlayer to play HD from HDTV CHINA
+http://kmplayer.kde.org/download.php
+
+If you download those 3 and install them all downloads from HDTV CHINA will work Have downloaded 40 and all works"
+,BasseG,2007-07-23T02:39Z,"Okey, i imagine the aim is to create a perfect copy of a HD DVD, so on this subject can someone please inform on how to burn this with an HD DVD burner to play it on a HD DVD Drive..."
+,hurrafor,2007-08-03T22:16Z,You can`t this is not a hd dvd 
+,Evencry,2007-09-10T18:59Z,"Help, done all above and I have an MOEG2 Decoder
+does not work, bit of a disappointment after a 20+GB download!"
+,Evencry,2007-09-10T19:18Z,"Scrub that, now working in MP Classic."
+,weezl,2009-02-11T13:39Z,"all you need:
+good enough comp
+remove all crap codecs
+install cccp"

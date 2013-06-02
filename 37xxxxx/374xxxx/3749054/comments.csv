@@ -1,0 +1,111 @@
+﻿User Type,Username,Date,Text
+,jennysalala,2007-07-22T05:32Z,thanks!!
+,Psonyk,2007-07-24T02:17Z,"Wow. After trying all sorts of workarounds, level renaming and such, this is the only thing that actually worked.
+
+And boy was it easy. Kudos Grue697."
+,radu889,2007-07-29T17:31Z,It keeps saying insert original disk!
+,lifeline_009,2007-08-06T04:48Z,thanks dude finally a proper solution.
+,Predator13,2007-08-26T14:06Z,"THANK YOU!!!!! You're the greatest!
+
+I'm having another problem. At the level ""Uprising"" when you're playing with the Arbiter a BSD (blue screen of death) appears and the PC just reboots. Any ideas how can I fix it or what is causing it? Any help will be very appreciated! "
+,Anurlaiqar,2007-09-29T10:29Z,"Sorry if I come with a noob question, but where should I extract this file to make it work? I can't get it working..."
+,JoeRock,2007-10-02T03:29Z,"I copied the two files to the halo 2 directory.  I double clicked the loaderplus.exe in the dir, not with a short cut, and I see a quick flash of a command screen, but nothing happens.  whats the deal?  how could I possibly be doing this wrong?  I mean it's monkey simple......maybe not!"
+,Anurlaiqar,2007-10-13T18:04Z,Could someone just write a complete walkthrough of how this should be done?
+,kebabman211,2007-10-15T08:41Z,i cant start halo from loaderplus.exe but when i use original xp play halo2 it works untill i start gravemind why?
+,kebabman211,2007-10-15T08:44Z,"after reading all other coments i saw that i have the same problem as zzcool and thought that i could use his solution my email is 
+ge_mej_kebab@hotmail.com
+and i dont think its worth getting vista for one game"
+,markxing,2007-10-28T01:40Z,"@joerock
+
+You need to create a MS-DOS Batch file.
+
+Thanks very much grue697, ur my hero! xD"
+,sid-afc,2007-11-05T18:01Z,I've got Standalones version of Halo 2! Anyone else got it? Works great until the level called The Great Journey. Every time the computer crashes after I've played for 2-3 minutes of the level...if anyone got an idea or a solution i've would be happy..
+,Lolnooblet,2007-12-10T06:13Z,"**************************
+
+heres a complete halo 2 XP installation guide
+http://youtube.com/watch?v=V9HvfMlSkxQ
+
+**************************
+
+Enjoy!"
+,Jelle999,2007-12-10T16:08Z,Thanks lolnooblet - couldn't have done it without your vid :D
+,TheOccisor,2007-12-20T18:01Z,"@markxing
+
+I have the same problem as joerock... how exactly do you make a MS-DOS Batch file? "
+,markxing,2007-12-22T20:55Z,"OK, this is what I have as a batch:
+
+Copy this exactly into the notepad:
+
+@echo off
+cls
+title HALO 2
+cls
+Loaderplus.exe halo2.exe
+cls
+echo 
+
+Yeah.  Assuming you already have the loaderplus and wowmon into the halo 2 dir.  Then save as.  Name it Halo 2.bat.  The bat extension is important.  Put it into the halo 2 dir, and run it.  That's it, your done!"
+,akww,2008-01-26T14:45Z,pls a step by step guide for this...:S
+,Kazuhiro9000,2008-01-30T11:10Z,An excellent fix. You have succeced where all the others failed. Was also a breeze to use. (Well for the more technically minded.) Thanks!
+,MR0D0MAN,2008-02-17T22:06Z,could you help me make a batch file for the razor repack because this fix dosent work :(
+,zwaantje,2008-02-29T21:42Z,"I'm using HALO2 from Dopeman,meaning I play it in ""batch"",and for as far as I know that's some kind of ""bypass"" for the .EXE file,or loader,or installer,am I right?!?..So i've tried to put these 2 files into my DIR of HALO2..but it does nothing,like others say,you only see a glimp of a screen,and then nothing..
+
+So this does not work with the Dopeman's""work""
+But I'm perfectly able to play upto the graveyard level,and then it's over..
+
+I found something else I wanted to try..,a fix for Dopeman..he made 4 other BATCH files,which you have to put in the HALO2 FOLDERS map in the DIR..You could play HALO2 without activation till ""level3""..level1 intro,level2 weapons and control setup,and level3 the first level you get to fight,then you normally had to activate..well,these 4 BATCH files make you play level 4 when you play lvl1,Heretic..2=5..3=6.
+Then the 2nd Batchfile,same thing..makes 1=7..2=8..3=9..and so on with the last 2 batchfiles..,for those who had the same problem as I had..I'm just not smart enough yet,it's not working..but it's about why this fix does not work when you use to start the game with a BATCH file in stead of a .EXE file..."
+,daunis,2008-05-11T19:11Z,What do i need to do that i get that the game starts from loaderplus please HELP
+,whitelitr,2008-05-20T08:25Z,"Thank you VERY much, worked like a charm."
+,kaybaz,2008-05-24T07:34Z,"got this one yesterday and it worked like a charm:
+
+http://thepiratebay.org/tor/4039787/Halo.2.XP.Gravemind.Fix-TheBabeLover 
+"
+,Twistedtomsky,2008-06-01T17:01Z,"Everyone, it's actually very simple.
+
+Chuck these two files into your Halo 2 directory and then find the file called ""XP PLAY HALO 2"". Right click on this file and click edit and the following should appear in notepad:
+
+@echo off
+cls
+title HALO 2
+cls
+Loader.exe halo2.exe
+cls
+echo
+
+Just change it to the following:
+
+@echo off
+cls
+title HALO 2
+cls
+Loaderplus.exe halo2.exe
+cls
+echo
+
+And then run the game like normal. It'll do a few things differently but it'll work."
+,ToreThePirate,2008-06-10T21:33Z,If  anyone would be so kind to seed .. :D .. Just these 24.54 byte ^_^
+,ToreThePirate,2008-06-10T21:37Z,"Wauw, thanks. That was fast =D "
+,ToreThePirate,2008-06-10T21:38Z,Keeping the seed up for everyone =D .. Coz this is kinda annoying ! >:(
+,Trogdor2134,2008-07-23T18:25Z,"Don't waste your time with this. Get a program called the process monitor. You can get it at http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx. Run the process monitor in the background while you load the gravemind level and it will load. It worked for me.
+Note: The url I gave might not work because Microsoft is always changing around its website. If it doesn't just go to microsoft.com and enter ""process monitor"" into the search engine."
+,killller54,2008-08-07T04:06Z,"well, i guess it doesn't work for raxor1911's version of Halo2 :( been looking all over the internet for it"
+,CsNWoWPlayers,2008-08-10T11:17Z,"no one works i cant play NETWORK -,- e-mail/MSN: thimcederlund@hotmail.com if anyone can help me."
+,gamemania,2008-08-20T14:11Z,"@Twistedtomsky
+Thanks ."
+,bleeps001,2009-01-28T12:20Z,"Thanks,
+I took your instructions and modified the previosu fix I had in place. 
+Good work and lets see how far my son goes with Halo before I need more help."
+,Chasenuva1,2009-03-17T22:43Z,"Thank you so much! I've been trying for at least 2 months to find a fix that works! It is a little confusing though. For every one who can't get this to work, here is one solution. Step 1: download the torrent. Step 2: open the folder where you downloaded the torrent. Step 3: Right click on the file. Step 4: click ""open with"" and choose winRAR. Step 5: extract to a folder. Step 6: open the folder with the extracted files and open the readme thing. Step 7: follow the readme's steps. After you do this, you should now be able to play the gravemind level! Your welcome!"
+,superman101,2010-02-20T07:39Z,"@markxing
+
+Your batch file worked my friend, my thanks to you. Everyone, the instructions leave out how exactly to make a batch file which is what you need to make this work. Check out markxing and his instructions on how to make one (a page or two back) AFTER you have copied those two files within the Halo 2 directory. It works perfectly!!"
+,stenare,2010-05-03T03:30Z,"As I wrote about another Torrent; ""I've gotten as far as I've (Or rather they, the humans) retrieved the key, then I find myself on what seems to be me on a transport vessel back to earth, then there's this Flood-octo-thingamabob speaking somewhat retarded about some yada yada bla bla bla, then just as it seems it's about to start to load the next level, I'm thrown back to the starting-menu, ""Press any key to continue"" - Even if the game ended, shouldn't there be some end-credits or something??? "" "
+,bobkillingtim,2010-09-19T23:56Z,Works!!!!!!!!!! seeding!!
+,bobkillingtim,2010-09-20T00:00Z,Ya!!!!!!! Works!!!!!!
+,phat13h,2011-08-09T00:53Z,"Took alot of work trying to get it to work ( like 5 minutes lol ) great upload! Still seeding for anyone who needs it. I made my own XP version of halo 2 from my vista disc and this download is required for part of the game. 
+
+todays date auguest 7 and GREAT UPLOAD WORKS@!@!@"
+,onemasta,2011-08-09T20:01Z,Thanks! I already started to get worried :D
+,FarStryder,2012-05-31T08:33Z,"In case this didn't work out for you or can't download the torrent now (as is my case), try downloading Process Monitor software and start the level while having this program run in the background. It fixed my prob and played till the end."

@@ -1,0 +1,43 @@
+﻿User Type,Username,Date,Text
+,scorchiooo,2007-07-17T01:48Z,"Think twice about downloading files from HDTV China. Many people have not been able to get these files to play, regardless of the player and codecs used. So unless you have a lot of time to waste trying to get these to work I would suggest downloading from a different ripper.
+
+The logic of this guy eludes me. Why share files that very few people seem to be able to play.
+
+I would advise downloading from a different ripper. It will save you a lot of bandwidth and a whole lot of hassle. Prolific he may be, but quantity is no substitute for quality."
+,rickardkk,2007-07-17T10:55Z,"I use:
+Haali Media Splitter
+
+ffdshow (for audio codec, as PowerDVD Ultras audio codecs cannot be used inside of Vista Media Center)
+
+PowerDVD Ultra 7.3 (for video codecs)
+
+Vista Media Center frontend (Windows Media Player 11)
+
+Perfect playback...Have downloaded 15 releases (blu-ray and hd-dvd) from HDTV CHINA.
+
+PowerDVD Ultra gives me hardware decoding inside Vista Media Center (for nvidia 8500, 8600, ati 2400, ati 2600). If you own another card just use ffdshow for video decoding.
+
+Download TSSplitter and you can join all files into one big .ts. I hope they keep releasing titles in this fashion."
+,hurrafor,2007-07-19T16:17Z,"ABSOLUTELY works....you just have to do a little digging:
+
+First, you need HDTVPump:
+
+http://www.dvbportal.de/projects/hdtvpump/
+
+And then (At least for any HD-DVD releases by HDTV_CHINA i have) you need Matroska Splitter
+
+http://haali.cs.msu.ru/mkv/
+
+You will also need to have a MPEG2 decoder previously installed. NVIDIA's works. If you can play a DVD - chances are you have a valid decoder.
+
+
+Install those and report back!
+
+KMPlayer to play HD from HDTV CHINA
+http://kmplayer.kde.org/download.php
+
+If you download those 3 and install them all downloads from HDTV CHINA will work Have downloaded 40 and all works"
+,DVDguy,2007-07-24T15:16Z,Sounds like a lot of work.
+,qway747,2007-10-02T00:45Z,"Seed, please"
+,OneStepAhead,2007-11-11T03:02Z,quality requires work.. these are not n00b friendly nor do we want them to be :)
+,OneStepAhead,2007-11-11T03:03Z,china: i want to demux this and encode it with x264 you think you can send me a msg and tell me about the audio stream in this encoding

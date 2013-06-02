@@ -1,0 +1,34 @@
+Year: 2007
+Type: Action (Shooter) / 3D / 1st Person
+Developer: FASA Studio
+Publisher: Microsoft
+Platform: PC
+
+System Requirements:
+
+OS: Microsoft Windows Vista
+????????: Pentium 4 3.2 GHz or Better
+??????????: ATI X800 (256 ?? or more ), NVIDIA 6800 ( 256 ?? or more )
+RAM: 1 GB
+HDD Space: 4.5 GB
+
+
+
+
+INFO: Shadowrun is a round-based multiplayer first-person shooter that works a lot like Counter-Strike. At the front of each round, you're given a safe period where you can access a buy menu and purchase weapons, tech upgrades, and magic spells. So in addition to buying a submachine gun, you might pick up some aim enhancement in the form of the SmartLink tech upgrade, and the ability to teleport through walls, floors, and ceilings. These skills set the game a bit apart from the average team-based shooter as it lets you specialize. Spells like tree of life and resurrect let you heal and revive other players. Or you might get smoke, which lets you transform into a smoke form that can't be damaged by conventional weapons. Or perhaps you'll buy gust, which blows players around and, not so coincidentally, makes for a powerful counter against players using smoke. There's a pretty good collection of abilities to play around with, but the catch is that you can have only three of them equipped at any given time.
+
+You'll make another meaningful choice by choosing your race. Humans are better at using tech upgrades. Elves move faster and can't take as much damage as the other races, but they regenerate health. Trolls are big and tough, but they're also very slow and don't have as much essence, which is the meter that drains when you cast spells. Dwarves are little and hardy, though they don't regenerate essence very well on their own. But this is offset by the dwarves' ability to absorb essence from nearby players or other magical items. For what it's worth, it seems like most players pick elves most of the time, though the different races seem to balance out just fine.  
+
+
+
+Install Notes
+~~~~~~~~~~~~~
+
+1. Install
+2. Go into your installationfolder and delete the srsw_shadowrun.dll.
+3. Copy srs_shadowrun.dll and srsx_shadowrun.dll to your installationfolder.
+4. If you want the XP compatability, copy the files from the xp/ subdir to
+   your installationfolder.
+5. If you want a shortcut on your desktop, this is the time to make one!
+6. Play!
+7. Have fun!

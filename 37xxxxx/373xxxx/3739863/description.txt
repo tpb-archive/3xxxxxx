@@ -1,0 +1,104 @@
+=========================
+        .Bas XP 2        
+=========================
+
+This release of .Bas XP has been stripped a lot more than the first release. It also 
+
+contains many more extra stuff, like:
+
+- Some applications in an installer menu
+- Cool utilities added
+- Some tweaks
+- Vista wallpapers
+- Extra themes
+- IE7 and WMP11
+
+The following applications are in the installer menu:
+
+Adobe Reader 8.1
+.Net Framework 1.1 & 2.0
+Firefox 2.0.0.4 and extensions
+Windows Live Messenger 8.5 Beta
+Messenger Plus! Live 4.23
+Nero Micro 7.9.6.0
+Thunderbird 2.0.0.4
+uTorrent 1.6.1
+WinRAR 3.62
+
+The following DriverPacks have been integrated:
+
+DP_Chipset_wnt5_x86-32_706.7z
+DP_CPU_wnt5_x86-32_7041.7z
+DP_Graphics_A_wnt5_x86-32_706.7z
+DP_LAN_wnt5_x86-32_7062.7z
+DP_MassStorage_wnt5_x86-32_7071.7z
+DP_Sound_A_wnt5_x86-32_707.7z
+DP_WLAN_wnt5_x86-32_706.7z
+
+The Graphics B and Sound B packs have been left out to save some valuable disk space ;)
+
+The following components have been removed:
+
+;# Applications #
+Internet Games
+;# Drivers #
+Cameras and Camcorders
+IBM Thinkpad
+ISDN
+Modems
+Printers
+Scanners
+;# Hardware Support #
+Brother Devices
+Gravis Digital GamePort
+Iomega Zip drive
+Multi-port serial adapters
+;# Languages #
+All except Western Europe and US languages.
+;# Multimedia #
+Media Center
+Music Samples
+;# Network #
+Client for Netware Networks
+Communication tools
+Connection Manager
+FrontPage Extensions
+Internet Connection Wizard
+Internet Information Services (IIS)
+IP Conferencing
+MSN Explorer
+Netmeeting
+NWLink IPX/SPX/NetBIOS Protocol
+;# Operating System Options #
+.NET Framework
+Blaster/Nachi removal tool
+File and Settings Wizard
+Out of Box Experience (OOBE)
+Search Assistant
+Tour
+;# Services #
+Alerter
+Beep Driver
+Distributed Link Tracking Client
+Error Reporting
+Fax Service
+Indexing Service
+Remote Registry
+Removable Storage
+System Restore Service
+Telnet
+;# Directories #
+DOCS
+SUPPORT
+VALUEADD
+
+Known issues:
+
+- During installation, an INF error appears. This causes no other problems.
+- The CD autorun does not work, I forgot to change the path in autorun.inf before packaging 
+
+the ISO :P
+
+Enjoy this .Bas XP release. :) I'm also available for comments at the following mail address 
+
+(in English or Dutch please :) ): dotbasxp AT nospam dotbas DOT net (remove the nospam ;) )

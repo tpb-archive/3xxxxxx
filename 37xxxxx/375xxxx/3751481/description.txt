@@ -1,0 +1,69 @@
+
+
+
+
+DiRT? ColinMcRae PATCH 1.2 README (updated 2007-6-20) german - French - English
+
+
+GENERAL
+--------------------------------------------------------------------------------------------
+
+* Contact info:
+  http://www.codemasters.com
+  http://www.codemasters.com/support/
+
+* Patched and un-patched games will NOT be able to connect to one another in network sessions.
+
+* Following uninstallation of the patched game, there may be some files left in the DiRT? folder (in addition to the save game file, if that was chosen to be kept). It is perfectly safe to delete these files.
+
+
+FIXES
+--------------------------------------------------------------------------------------------
+
+PATCH 1.2:
+
+* Fixed a bug where some saved games were being corrupted during the save process. Saved games are only usable by the PC and user that created them.
+
+* Includes a new set of leaderboards. These are separate to the existing leaderboards which will remain visible for people playing version 1.0 or 1.1.
+
+* Also includes fixes of patch 1.1
+
+
+
+PATCH 1.1:
+
+* Fixed a bug where entering the options menu inside the game with no active sound card present would cause the game to crash.
+
+* The game will now display an error message and prompt the user to quit the game when graphics settings are set beyond their hardware capabilities.
+
+* Fixed an issue where on rare occasions vehicle's bonnets/wings would be invisible on entering a race.
+
+* Corrected the minor miss spelling of Portuguese in the game.
+
+* Fixed a bug that caused the game to crash when regaining focus from another application, or the desktop.
+
+* The sound mixer now defaults to SOFTWARE, for improved game performance. D3D and OPENAL are still available, for higher quality.
+
+* Increased maximum Head-cam movement speed by 50%
+
+* 5 axes mode support for Thrustmaster "RGT Force Feedback Pro" wheel
+
+* Fixed a bug where Force Feed Back on controllers would stop working after the user returned focus to the game.
+
+* Fixed a rare bug where it was possible to drive your vehicle before the start lights had gone green.
+
+* Ultra graphic settings modified slightly to be usable with hardware of today.
+
+* Improvements in performance of both internal audio, and external OpenAL drivers
+
+
+
+Note:
+
+unrar with latest Winrar!...
+
+delivered 1st by -ToeD
+
+
+
+

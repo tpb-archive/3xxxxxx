@@ -1,0 +1,440 @@
+=== eComStation 2.0 RC1 README ===
+
+!!! WHEN TESTING BETA SOFTWARE, ALWAYS BE SURE TO HAVE A TRIED AND TESTED 
+    BACK OF YOUR SYSTEM !!!
+
+Thank you for your interest in testing the latest version of eComStation 2.0. 
+A great deal of effort has been made to improve the usefulness to the 
+product. Please see the 'WHATSNEW.TXT' document for an overview of all 
+changes.
+
+This product is available for download to all registered users of Software 
+Subscription Services for eComStation.  For more information, please 
+visit:  http://www.ecomstation.com/subscription/
+
+This release offers a number of improvements that we would like to have 
+tested on a larger number of configurations.  These are:
+
+
+** Preboot harddisk integrity check **
+
+There are several situations which may cause installation problems with LVM
+in the install process. In this release, it is possible to disable the 
+integrity check at page 2 (miscellaneous) of the eComStation installer 
+preboot menu.
+
+- PBR problems:  Set when either the 'hidden sectors' or the geometry fields 
+in a bootsector do not match the position of the partition or the used 
+disk-geometry.
+
+- CHS problems:  Set when the CHS-values in a partition-table for a 
+  partition do NOT match the current disk-geometry used by the operating 
+  system.  This may lead to error from (mini)LVM about the disk being 
+  'corrupt'.  Another possible cause for this error is that if there are 
+  any partitions present on a disk that have NO LVM information at all, 
+  and are of a type that gets a default driveletter assigned in that case 
+  (by OS2LVM.DMD/OS2DASD.CMD)
+
+- Boot problems:  Set when extended-containers are marked ACTIVE, when 
+  multiple primaries are marked ACTIVE, or if any non-standard flagbyte 
+  values are used in the partitiontable.  These errors MAY lead to the 
+  system failing to boot properly!
+
+These will now be detected before the installer starts and an option to fix
+them is being presented.  If you choose not to fix them, you are not able 
+to proceed the installation. 
+
+This technology uses a custom DFSee 'engine' and should be safe, however, 
+neither Serenity Systems International nor Fsys can be held liable for any 
+damages that may occur to the data on your harddrive.
+
+
+** Harddisk volume resizing **
+
+This version has a custom DFSee engine that enables reliable RESIZING of FAT32
+and NTFS filesystems to allow shrinking an existing Windows installation to 
+make room for eComStation on the same system.  While this functionality has 
+been available in DFSee (and the OEM Engine) for quite a while, it was NOT 
+considered reliable enough to offer to end users during eComStation install.  
+Starting with DFSee release 7.12, and the OEM Engine based on that, the 
+reliability of resizing has improved to the point where it can be used 
+without hesitation for this purpose.  A Windows NTFS filesystem resized by 
+DFSee will pass a subsequent Windows CHKDSK with NO ERRORS now. The engine 
+included in RC1 is at level 8.08.
+
+The GUI to this tool has been updated and is now using a graphical interface. 
+To invoke it, please select 'Paritition Resizing Tool' from the Installation 
+Volume Manager which can be called during installation (choose 'New Volume' 
+to start MiniLVM). It will take a while to complete loading, when done, 
+please select Next to show the list of resizable volumes. If the list is 
+empty, this means there is no suitable volume detected that has enough free 
+space for it to be resized.
+
+
+** Bootable JFS **
+
+This release of eComStation contains the option to install the operating 
+system on a JFS volume. The advantage of doing this is that the amount of
+diskcache is only limited by system memory (typically 10% of available 
+memory is assigned)
+This increased cache size gives a huge gain in overall system performance. 
+To install onto a Bootable JFS volume, you will have to select 'JFS' as 
+filesystem type in the 'Format Volume' page of the installer.
+
+A number of analysis tools are available on the install CD:
+
+in \ECS\BOOTJFS
+
+cachejfs.exe   - query and set parameters of cache
+cstats.exe     - query usage of cache
+jfschk32.exe   - chkdsk launcher during boot (can be used instead of chkdsk)
+
+in \ECS\BOOTJFS\DEBUG
+
+chklgjfs.exe - show results of last chkdsk
+dumpfs.exe   - dump internal structure of JFS
+logdump.exe  - dump current state of log to \JFSLOG.DMP
+validfs.exe  - show current state of JFS
+xchkdmp.exe  - show results from chkdsk.new
+xchklog.exe  - dump results of last chkdsk to \chkdsk.new
+xpeek.exe    - utility for interactive work with structure of JFS
+
+
+** Genmac **
+
+This package provides generic driver support for several network interface 
+cards under OS/2 and eComStation.  Moreover, Genmac is enabled to support WPA 
+encryption with the Wireless LAN Monitor 3.x or better.
+
+Genmac and the Wireless LAN monitor will be installed when the appropriate 
+hardware is detected by the installer.  If it is not detected, you can 
+manually select the driver in the network installation dialog.
+
+Note:  only the selected driver will be copied onto your system, in order to 
+prevent problems with the MPTS installer later on.  This may seem confusing, 
+when you run MPTS in a later stage, it will not show all Genmac supported 
+NICs.
+
+A full list of supported NIC chipsets can be found in 'WHATSNEW.TXT'. 
+Support has been added to autodetect over 300 NICs that are using one of 
+these chipsets.
+
+
+** ACPI & APM **
+
+Support for ACPI is available in this release.  The current version is 2.22. 
+ACPI will be automatically enabled if appropriate hardware is detected. 
+You can manually enable or disable ACPI support at page 2 (miscellaneous) 
+of the eComStation installer preboot menu.  Even if not installed, the 
+corresponding documents are installed on your harddrive. You can find 
+detailed information and testdocuments in \ECS\DOC\ACPI and \ECS\DOC\APM
+
+Several tests can be performed, please refer to \ECS\DOC\ACPI\TESTER.DOC 
+and \ECS\DOC\APM\TESTER.DOC
+
+When ACPI is installed, there is a number of utilities from the ACPI 
+Toolkit you can use, see the list below:
+
+AcpiTree.exe            - Show ACPI tree
+ButtonJin.exe           - Wait press Power Button (as demon), GUI
+WaitButton.exe          - Wait press Power/Sleep button, VIO
+PowerOff.exe            - Power Off (immediate!!)
+SetGetThrtl.exe         - Get/Set throtlling CPU
+UpTime.exe              - Show uptime via PM Timer
+GetValue.exe            - Get current value from PM Timer
+AcpiIRQ.exe             - Show current IRQ routing
+IrqStat.exe             - Show IRQ calling statistics (SMP only)
+SetGetState.exe         - Get/Set frequency/power state
+EmbeddedEvent.exe       - Show events from Embedded controllers
+GetNotify.exe           - Show notify
+Thermal.exe             - Show temperature of thermal zone
+ScanPCI.exe             - Show PCI devices
+TmrTest.exe             - Test working of timer (testing IRQ0 timer 0)
+
+
+** multicore CPU support **
+
+This release supports the installation of eComStation on a MultiCore CPU
+computer. This includes Intel Core Duo , Core2 Duo and AMD 64 X2.
+To enable it, you can do so in the ACPI Wizard that is launched from the 
+Post Installation tasks at the end of the installation. Alternatively you
+can start the ACPI Wizard at any time from the install/remove folder in 
+the Local System folder on the desktop.
+
+The ACPI Wizard will try to determine your system configuration and set
+parameters accordingly. You can manually change them of course.
+
+Please note: many drivers are not SMP capable, which may cause
+instability or unexpected behaviour on your system.
+
+For more information please refer to \ECS\DOC\ACPI\ACPI_SMP.DOC
+
+
+** SMP support **
+
+It is also possible to install eComStation 2.0 RC1 on a regular SMP
+machine. You will have to activate it with the ACPI Wizard from the 
+Post Installation Tasks wizard that is started at the end of the 
+installation. This should enable you to properly finish installation, 
+before activating the SMP feature.
+
+
+** eComStation Virtual File System (Samba client support) **
+
+Samba is a SMB/CIFS protocols file and print sharing server/client set 
+originally made for UNIX world to cooperate with corresponding Windows and 
+OS/2 servers or clients.  eComStation has a native implementation of 
+SMB/CIFS server/client set - IBM LAN Manager and IBM Peer.  These products 
+have not been recently updated and may have some compatibility issues with 
+modern Windows SMB/CIFS implementations.
+
+Serenity Systems International has reached an agreement with Blueprint 
+Software Works for the inclusion of the 'eComStation Virtual File System' 
+driver which provides support for Samba Client.  Currently a GUI to 
+configure it is lacking, but an example of how to mount a Samba resource 
+can be found in \ECS\DOC\EVFS\REXX
+
+
+== REPORTING ==
+
+To tell us your findings, please create a report at:
+ 
+http://www.ecomstation.com/support/rc1report/
+
+You are also welcome to join the TestTeam if you want to discuss this beta 
+and future developments.  See http://ewiki.ecomstation.nl/TestTeam for 
+more details.
+
+
+== DISTRIBUTION / CREATING CDS ==
+
+This product is provided as a downloadable ISO file, this is a raw CD image 
+that you can burn on CD-R media.  For instructions on burning the CD image 
+to CD please consult the PDF document howtoburncds.pdf in the same 
+directory.
+
+The file to download is:  ecs20rc1_cd1_en.zip
+
+
+== REGISTRATION KEY REQUIRED FOR INSTALLING ==
+
+For the time being you can use the eComStation 1.2 (or 1.2R) key to install 
+this beta release of eComStation 2.0.
+
+
+(c) 2001-2007 Serenity Systems International
+
+[eof]
+
+==== WHATSNEW for eComStation 2.0 RC1 ====
+
+New Features:
+
+* Added ACPI Wizard that will detect system features and can be used to 
+  install ACPI and kernel options
+* Added TZ update for Java 2 SDK, Standard Edition - US DST timezone tool
+* Split up netlabs (kLIBC) and innotek (Odin Runtime) libraries, are now 
+  installed with WarpIn
+* Added support for the eComStation Installation Framework. Will always be 
+  installed. (XULrunner)
+* Added logic to load TESTCFG2.SYS when ACPI is selected, prevents hangs
+  on certain configurations
+* Added english helpfile to accomodate checkdisk help button
+* Added 47 NIC devices to the hw detect engine, like nForce and Broadcom 
+  (mainly GenMac)
+* New bootlogo and desktopbackground, reflecting "RC1" status
+
+Updated Applications:
+
+* Updated USBDock to 20070504 release
+* Updated WarpIn to version 1.0.15
+* New versions of UPDTBMGR, MINILVM
+* Updated ZIP to 2.32
+* Replaced outdated ArcView 1.2 helpfile with the one of ArcView 2.0
+* Updated eWorkPlace to 1.0.8
+* Updated Firefox to version 2.0.0.4
+* Updated Thunderbird to version 2.0.0.0
+* Updated UniClip 0.2.2
+* Updated Cairo to 1.2.4 and DSSaver to 1.7.5
+* Updated Dani IDE drivers from 1.7.7 to 1.7.10
+* Updated non-SMP (W4, not UNI) kernel to 14.104a
+* Updated SMP kernel to 14.104a
+* Updated firewall utility to version 1.2.4
+* Updated NewView to 2.19
+* Updated NewView en_us helpfile to 2.19
+
+Fixes since the previous beta release:
+
+* Updated PMMERGE.DLL and symbol files to 14.106 (APAR PJ31908)
+* IBM APAR PJ31319 (SYS3184 in PMCTLS.DLL)
+* IBM APAR PJ30811 (Trap in FTPD)
+* IBM APAR PJ30821 (Error in TELNET)
+* Updated syslevel.bdd to bdd fp3
+* Fix modal problem of status window of PMFormat (in installer)
+* Some applications (EPM amongst others) weren't installed in Beta 4
+* 'Advanced' button in Screen properties notebook now works
+* Opteron CPU now supported in SMP mode
+* 4OS2 windows now open a new session, defaults to root of bootdrive
+* Improved layout and wording of Preboot Disk Integrity check messages
+
+Updated / added drivers:
+
+* updated DANI tools to 1.7.10 level
+* updated DANIS506.DOC to 1.7.10
+* added ACPI package 2.22, can be manually selected in preboot menu
+* Updated ACPI and APM support to 26/05/2007 version
+* Added 47 NIC devices to the hw detect engine, like nForce and Broadcom 
+  (mainly GenMac)
+* UDF 2.16
+* IBM APAR PJ30964 (UDF.IFS update)
+* IBM1S506.ADD 10.161 (was 10.152)
+* Intel SpeedStep(R) (APM) 10.163 (was 10.156)
+* IBM Single Mouse driver 10.163 (was 10.152)
+* KBDBASE.SYS to 10.070 (was 10.056)
+* Updated IBM1S506.ADD to 10.161
+* Updated OS2CDROM.DMD to 10.163
+
+New features of previous release:
+
+* Lucide document viewer (Lucide GA release)
+* Added LxLite 1.3.3 to the distribution since resmgr uses it
+* added bzip2 to \ecs\bin
+* Security/2 added (optional from 'experimental features' in advanced
+  install
+* Added 4OS/2 to Additional Software
+* Added 4OS/2 prompt shadows to Command Prompts folders
+* Added Genmac 2.00 with support for 34 NIC chipsets, including many 
+  wireless
+* Added Wireless LAN monitor 3.00, will be installed when appropriate 
+  hardware is detected or selected.
+* Added Faxworks to CD1, it was on CD2 previously
+* Added Psi/2 Instant messaging application
+* Added Samba Client for eComStation. Right now without configuration GUI
+* Added OpenSSH Client for eComStation.
+* Added preinstall harddisk integrity check, can be skipped now from preboot
+  menu.
+* Updated TZ settings for locale page to conform to new rules. More info at: 
+  http://www.ibm.com/support/alerts/us/DST_FAQ_11-14-06.pdf
+* Added USBDock as a replacement of the USB resource manager
+* Added UniClip 0.2.1 to base installation, required by OpenOffice.org 2.0.4
+* eClock is no longer an install option
+* Added kLIBC coreutils
+* All libc versions and utils are in WPI packages now
+* Added MyIP by Alex Taylor to Baseutil
+* Added files to support reversing SMP installation (used by "Post 
+  Installation Tasks" wizard)
+* modified desktop scheme
+* Scitech SNAP to 3.1.8
+* Update realtek 1 gigabit driver
+* Added Broadcom 1 gigabit driver
+* Updated Uniaud to build RC2
+  - Latest code for sblive cards
+  - HDA works for DART (still buggy)
+  - APM fixes
+* Genmac adds support for the following NIC chipsets:
+   3Com/SKNet Gigabit [10B7:1700]
+   3Com/SKNet Gigabit [1148:4320]
+   3Com/SKNet Gigabit [11AB:4320]
+   3Com/SKNet Gigabit [11AB:4362]
+   ASUS Wlan RT2400 [1814:0101]
+   Atheros Wlan [168C:0012]
+   Atheros Wlan [168C:0013]
+   Atheros Wlan [168C:1014]
+   Broadcom A/B/G [14E4:4324]
+   Broadcom B/G [14E4:4318]
+   Broadcom B/G [14E4:4320]
+   Broadcom Gigabit [14E4:1654]
+   Broadcom Gigabit [14E4:165D]
+   Broadcom Gigabit [14E4:1677]
+   Broadcom Gigabit [14E4:167D]
+   CISCO mPCI [14B9:A504]
+   Dlink DWL-520+ [104C:8400]
+   Dlink DWL-G520+ [104C:9066]
+   GN-WI01GS RT61 [1814:0301]
+   GN-WI01GS RT61 [1814:0302]
+   GN-WI01GS RT61 [1814:0401]
+   Intel 10/100/1000 [8086:101E]
+   Intel 10/100/1000 [8086:1076]
+   Intel 10/100/1000 [8086:109A]
+   Intel 2100 Wlan [8086:1043]
+   Intel 2200 Wlan [8086:4220]
+   Intel 2915 a/b/g [8086:4223]
+   Intel 2915 a/b/g [8086:4224]
+   Intel 3945 a/b/g [8086:4222]
+   Marvel 802.11 b/g [11AB:1FA6]
+   Marvel 802.11 b/g [11AB:1FA7]
+   Rtl 8180 Wlan [10EC:8180]
+   nForce 2 10/100 [10DE:0066]
+   nForce 3 10/100 [10DE:00D6]
+   nForce 4 10/100/1000 [10DE:0057]
+
+Fixes and updates of previous beta releases:
+
+* Fixed GenMac NIF parsing by installer, fixes the PROTOCOL.INI errors
+* Applied Bootable JFS fix (20070104fix)
+* various fixes to eStyler installation (especially shutdown options)
+* Selecting VGA in preboot menu actually selects proper settings during 
+  further installation
+* Fixed GENGRADD installation
+* Changed behaviour of ACPI/APM to prevent failing suspend mode
+* Changed Danish locale to non-EURO 
+* Split up Thunderbird & Firefox, no longer required to be installed together
+* Disabled installation of USBRESMG.SYS by Tame
+* Shuffled packages in the package selection page of the installer, in an 
+  attempt to make it a bit more logical. Also, tried to shorten the lists.
+* Changed Daylight Savings to 'Daylight Saving'
+* Updated MINSTPM to accept eCS 2.0 install CD
+* Updated NETWORK.EXE to accept eCS 2.0 install CD
+* Added 'set tmpdir' variable to config.sys
+* Changed final SGUIDE to not show EscapeGL anymore and to change the 
+  default DHCP timeout to 0 sec.
+* replaced DOSCALL1.DLL with patched version that will first look for 
+  messages in msgfile, then in embedded msg, instead of the (incorrect
+  default) other way around
+* applied PJ31116 - fixed WPCONFIG.DLL to accomodate comet cursor + 
+  suspend (official APAR from IBM, now bld 14.105)
+* applied pj31068 - fix for more than 1024 printer in prdesc.lst 
+  (WPPRINT.DLL)
+* Binary fix to MPG.DLL number 2 by Sebastiaan Wittmeier. Fixes chipmunk 
+  audio playback.
+* Applied Yuri Proniakins patches to install ewps properly
+* Added WarpIN components needed for creation of eWPS WarpIN package
+* Fixed eWPS ACPI dependency
+* removed 'illegal' schemes from eSchemes WPI package 1.27
+* Java 142: Added missing path for the font registration (fixes bug 1165)
+* Bugfixes to ECSGUI packages and ESTYLER.
+* Wording improvements in installer.
+* Minor adjustments to desktop layout.
+* cleaned up reseller section and added link to eCSoft/2 in URL folder
+* Changed VIRTUALADDRESSLIMIT to 1536 (seems a popular compromise value)
+* Changed default DHCP timeout to 0.
+* SSES.SYS now uses /q (quiet) parameter when installed.
+* Changed some logfile names (FFOX, TBIRD, SSES) so they fit 8.3 characters.
+* Removed 'MOZILLA' from default Thunderbird & Firefox path in installer GUI.
+* Improved some more wordings in the English packages list and message file.
+* TCPCFG fix for Java 1.4 (CFG2NATV) is now always installed.
+* Various updates to eStyler so it actually works now (mostly).  The shutdown
+  properties notebook is broken, though.
+* Applied fixes in ECSGUI.CMD.
+* Updated SigmaMD5 to version 1.53
+* Updated 4OS2 to version 3.04b
+* Updated Newview to v2.18.1
+* Updated Tame/2 scanning application to 1.05 (to be selected in Bonus 
+  Applications)
+* Upgraded Archive Viewer to v2.0
+* Updated Minilvm to 2.20 with resize feature
+* Updated resmgr to the version posted by Chuck McKinnis dd 20060614 
+  at http://www.7cities.net/~mckinnis/code/resmgr.zip
+* Updated Doodle's screensaver to 1.7, added SlideShow module
+* Memdisk and OS2CSM to 20061030 build
+* Updated firewall to latest available version in Generic Network Utilities
+* Updated Java Runtime to 1.4.2_09
+* Updated eWorkPlace to 1.0.7, enabled these features: 
+  - Extended sorting
+  - xShutDown
+  - SortOrder
+  - FoldersFirst
+  - eComStation Kernel object
+  - improved traywidget icon
+
+[eof]

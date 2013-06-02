@@ -1,0 +1,9 @@
+Ankh 2 Osiris for Linux
+
+ISO + patch file
+
+You don\\\'t need to burn it to CD just mount it as ISO in a folder:
+
+sudo mount -o loop -t iso9960 /../Ankh.iso /media/data
+
+Go to /media/data and install it!

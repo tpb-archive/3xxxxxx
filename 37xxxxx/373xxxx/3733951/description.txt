@@ -1,0 +1,12 @@
+This is an update to the third person view. It adds two more additional third person views to the game. These ones take away the transparent model, making the model solid and not kinda invisble. And their more zoomed to the player, and not as far away as the original. These ones are IDENTICAL to the Socom US Navy Seal third person view. I highly recommend getting these ones. 
+
+Installation:
+Put amxmodx in this directory:
+CounterStrike1.6/cstrike/addons/  <<==drag it in there and overwrite it.
+Put config.cfg in this directory:
+CounterStrike1.6/cstrike/ <<==drag it in there and overwrite.
+
+
+Controls:
+"F" to change view to 3rd person zoomed + non see through model
+"C" to change view to fixed 3rd person view zoomed.

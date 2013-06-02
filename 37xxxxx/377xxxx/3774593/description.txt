@@ -1,0 +1,23 @@
+Service Pack 2 for old ver. Win XP that didn\\\\\\\'t include it.
+
+(Copy these instructions)
+
+Before installing, 
+ run regedit,browse to HKEY_LOCAL_MACHINE\\\\\\\\software\\\\\\\\microsoft\\\\\\\\windowsNT\\\\\\\\currentversion\\\\\\\\wpaevents
+
+Double click OOBETimer, delete the CA part of the (hex) value (or any part of it),
+click OK, then close regedit. 
+ Click START, RUN   %systemroot%\\\\\\\\system32\\\\\\\\oobe\\\\\\\\msoobe.exe /a   
+Click OK (note there is a space between the  .exe  and the /a )
+ Choose option 2 (phone activation)  click OK
+Click \\\\\\\'change product key\\\\\\\' at bottom of page.
+generate one yourself with xpkey.exe or use FH4HD-4JVJP-6G4GD-WWBGD-89JVH 
+
+Click \\\\\\\'update\\\\\\\' and close the window. (Don\\\\\\\'t do anything additional, just what it says here.)
+
+Restart windows 
+Run the same command again...    %systemroot%... /a (don\\\\\\\'t forget the space near the end)
+
+ It should say \\\\\\\'your copy of windows is already activated.\\\\\\\'
+
+Now you can install the separate SP2 you just downloaded. 

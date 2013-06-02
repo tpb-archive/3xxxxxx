@@ -1,0 +1,147 @@
+Applications : Windows : English
+You can install both Audacity 1.2 and 1.3 on the same machine.
+audacity-win-1.2.6
+audacity-win-unicode-1.3.3
+LADSPA_plugins-win-0.4.15
+vst-bridge-1.0
+lame-3.96.1
+
+Recording
+
+Audacity can record live audio through a microphone or mixer, or digitize recordings from cassette tapes, vinyl records, or minidiscs. With some sound cards, it can also capture streaming audio.
+
+* Record from microphone, line input, or other sources.
+* Dub over existing tracks to create multi-track recordings.
+* Record up to 16 channels at once (requires multi-channel hardware).
+* Level meters can monitor volume levels before, during, and after recording.
+
+Import and Export
+
+Import sound files, edit them, and combine them with other files or new recordings. Export your recordings in several common file formats.
+
+* Import and export WAV, AIFF, AU, and Ogg Vorbis files.
+* Import MPEG audio (including MP2 and MP3 files) with libmad.
+* Export MP3s with the optional LAME encoder library.
+* Create WAV or AIFF files suitable for burning to CD.
+* Import and export all file formats supported by libsndfile.
+* Open raw (headerless) audio files using the ?Import Raw? command.
+* Note: Audacity does not currently support WMA, AAC, or most other proprietary or restricted file formats.
+
+Editing
+
+* Easy editing with Cut, Copy, Paste, and Delete.
+* Use unlimited Undo (and Redo) to go back any number of steps.
+* Very fast editing of large files.
+* Edit and mix an unlimited number of tracks.
+* Use the Drawing tool to alter individual sample points.
+* Fade the volume up or down smoothly with the Envelope tool.
+
+Effects
+
+* Change the pitch without altering the tempo, or vice-versa.
+* Remove static, hiss, hum, or other constant background noises.
+* Alter frequencies with Equalization, FFT Filter, and Bass Boost effects.
+* Adjust volumes with Compressor, Amplify, and Normalize effects.
+* Other built-in effects include:
+o Echo
+o Phaser
+o Wahwah
+o Reverse
+
+Sound Quality
+
+* Record and edit 16-bit, 24-bit, and 32-bit (floating point) samples.
+* Record at up to 96 KHz.
+* Sample rates and formats are converted using high-quality resampling and dithering.
+* Mix tracks with different sample rates or formats, and Audacity will convert them automatically in realtime.
+
+Plug-Ins
+
+* Add new effects with LADSPA plugins.
+* Audacity includes some sample plugins by Steve Harris.
+* Load VST plugins for Windows and Mac, with the optional VST Enabler.
+* Write new effects with the built-in Nyquist programming language.
+
+Analysis
+
+* Spectrogram mode for visualizing frequencies.
+* ?Plot Spectrum? command for detailed frequency analysis.
+
+Windows 2000/XP/Vista: Audacity 1.2.6 
+
+
+
+
+Beta warning
+
+Audacity 1.3 is an unstable, beta version of Audacity. Users who want a completely stable, finished program should be using Audacity 1.2. Audacity 1.3 has hundreds of new features, but some features may be incomplete or confusing, it is more likely to crash, and you are more likely to lose data. You can install both Audacity 1.2 and 1.3 on the same machine.
+
+Windows 2000/XP/Vista: Audacity 1.3.3 installer
+
+
+
+
+How do I install VST plug-ins?
+
+Place the unzipped VST Enabler, along with your VST plug-ins, into the ?Plug-ins? folder in the Audacity installation folder.On Windows, it is usually under Program Files.)
+
+
+The next time you start Audacity, your VST effects will appear at the bottom of the ?Effect? menu.
+
+
+
+
+VLC media player
+VLC on Windows
+VLC - the cross-platform media player and streaming server
+
+VLC media player is a highly portable multimedia player for various audio and video formats (MPEG-1, MPEG-2, MPEG-4, DivX, mp3, ogg, ...) as well as DVDs, VCDs, and various streaming protocols. It can also be used as a server to stream in unicast or multicast in IPv4 or IPv6 on a high-bandwidth network.
+
+Streaming
+Overview of the VideoLAN streaming solution
+
+The VideoLAN streaming solution includes two programs:
+
+* VLC media player which can be used as a server and as a client to stream and receive network streams. VLC is able to stream all that it can read.
+* VLS (VideoLAN Server), which can stream MPEG-1, MPEG-2 and MPEG-4 files, DVDs, digital satellite channels, digital terrestial television channels and live videos on the network in unicast or multicast. Most of the VLS functionality can now be found VLC. Usage of VLC instead of VLS is advised.Also included Various Skins
+
+
+vlc/vlc-0.8.6c-win32.exe 
+
+
+vlc/Skins/Blissta.vlt
+vlc/Skins/chaos.vlt
+vlc/Skins/D-GFX_Dark_Skin.vlt
+vlc/Skins/Dalin_Media_Player.vlt
+vlc/Skins/DPlayer.vlt
+vlc/Skins/iPod.vlt
+vlc/Skins/itunes.vlt
+vlc/Skins/MediaPlayer.vlt
+vlc/Skins/psvlc.vlt
+vlc/Skins/solar.vlt
+vlc/Skins/vlcforkids.vlt
+vlc/Skins/vlcosx.vlt
+vlc/Skins/void.vlt
+vlc/Skins/vplayer.vlt
+vlc/Skins/WB.vlt
+vlc/Skins/winamp5.vlt
+
+
+
+
+VLC media player 0.8.6c, VideoLAN Security Advisory 0702
+
+
+2007-06-17
+
+VLC media player versions 0.8.6b and lower suffer from a security vulnerability in the CDDA, Vorbis, Theora and SAP plugins. More technical details are available in our advisory.
+An updated release of VLC is available which includes a few other fixes as well.  
+We strongly recommend all users to update to this new version.
+
+
+Audacity is for Audio Recording Editing Mixing Etc
+Vlc 086c is Media Player With Divx will play Audio Video mp3 plays mpegs dvd etc
+
+
+
+Please Seed If You Can Thanks 

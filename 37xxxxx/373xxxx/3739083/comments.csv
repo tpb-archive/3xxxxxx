@@ -1,0 +1,63 @@
+﻿User Type,Username,Date,Text
+,bobtentpeg,2007-07-12T00:52Z,"Or you can install with a partition
+
+Installing Mac OSX Tiger without a Dual Layer DVD
+
+PREP
+Have TWO blank partitions ready. One will be for the installer and the other will be where you install OSX Tiger.
+
+LET?S GO
+
+* With your disc image mounted, open the Disk Utility application (Applications -> Utilities).
+* Click the Restore tab (see it near the top of the Disk Utility window? Just after First Aid, Erase and RAID?)
+* Drag your DMG file from the list on the left of your Disk Utility window to the ?Source? field.
+* Then, drag the icon of the partition you want to put the installer on to the ?Destination? field. Again, do this from the left pane of your Disk Utility window. If you try to do this from the desktop (as I kept trying to do) you?re going to drive yourself bonkers.
+* Click the ?Erase Destination? check box so that it shows a check.
+* I also skipped the Checksum. You might or might not want to do the same. Your call.
+* Click Restore.
+* Wait until done.
+	This image has been resized. Click this bar to view the full image. The original image is sized 740x641.
+
+Once the above is complete you now have a bootable OSX Tiger Install partition."
+,glufs,2007-07-12T02:08Z,"my imac is late 2006. will this one work on it?
+
+10.4.7 didn't work..."
+,Wendy Whoppers,2007-07-19T13:01Z,dont dl image corrupted!
+,skinnyNGO,2007-07-19T17:00Z,I think your machine is currupted !!!
+,pawnage,2007-08-06T08:06Z,"I notice that you mentioned it works on MacBookPro 3.1, does this version has complete drivers for Geforce 8600GM, Intel 965 chipset and 802.11n WiFi?"
+,trevorcor,2007-09-28T01:09Z,"If this works the way this says, *thank you* thank you *thank you*"
+,bajatu,2008-01-29T08:58Z,"Thanks, it works.
+Only took about 33hours to download :D, but it's now burned on a DL DVD wich booted just fine on my macbook 2,1.
+Will seed for a while..."
+,WUTANG36CHAMBERS,2008-03-20T04:09Z,"Definitely wont work for;
+ Macbook 1,1 Core Duo Intel
+If that is what you want, you need this:
+http://thepiratebay.org/tor/3570134/Macbook_Mac_OS_X_Install_Disc_1
+---------------------------------------------------------------------------------
+Hopefully this torrent will work on Macbook 2,2 Intel Core 2 Duo. I will report back as soon as I can test it.
+-------------------------
+
+"
+,gtgoku,2008-04-15T06:28Z,"well this didnt work on a macbook (1,1)"
+,zxz555,2008-04-18T17:08Z,"works on a MacBook2,1 Intel Core 2 Duo 2.16 GHz if you burn to dvd with disk utility. It works just fine.
+
+Thnx to skinnyNGO, you r a star is wot u r !"
+,zwackunicum,2008-05-16T02:22Z,"Thanks for the share !!!
+Please keep seeding, the download is very very slow (4 ko/s)
+;-)"
+,diablogate,2008-12-14T23:38Z,"Worked like a charm on a (2006) MacBook Intel Core Duo.
+
+Tips: There are 7 installation steps. On the fourth step ""Installation Type"" click ""Customize"" and uncheck everything you can.  The ""Essentials"" is all you need and you can't uncheck it anyway.  Install is complete in under 20 minutes and then you can update from ""Software Updates"" in the apple menu.
+
+A++ upload, SkinnyNGO."
+,diablogate,2008-12-14T23:46Z,"Oh and another thing, don't let it ""verify your installation DVD"" it may want you to ""insert disk 2"" which means you're pooched and have to start over."
+,kesh108,2009-01-20T00:30Z,"worked on macbook 2,1, awesome work bro, i was pulling my hair out when i couldnt get 10.5.5 to go on it after wiping hd, will seed"
+,Forsaken64,2009-01-22T18:42Z,Can I use this on Powerbook G4 17 inch.? thanks
+,x5abeerx,2009-03-18T09:08Z,Would install in macbook 4.1  2.4 gh ????
+,Zenophobe,2009-07-03T08:18Z,"Thanks for putting this up.  You may be happy to know that I used this image to get OSX back up on Olivia Munn's Black 2006 2.1 MacBook.   
+
+I didn't believe it was hers until her asst. came to pick it up with a personal check made out from her and put in an official G4TV envelope hehe..."
+,painoff,2009-11-27T20:32Z,it is not working with MacMini IntelCore 2 Duo 2.0 GHz! Someone could help?
+,Cgoff87,2011-07-10T15:26Z,"@Zenophobe,
+
+Haha, nice!"

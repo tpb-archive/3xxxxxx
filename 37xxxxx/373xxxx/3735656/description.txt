@@ -1,0 +1,49 @@
+WinUAEX Amiga Emulator port for XBox v16
+
+What\'s New:
+
+ - AutoBoot games (see below)
+
+ - Test pattern for game screen resizing
+   Toggle between game screen and test pattern
+   Hide text while resizing
+   Change text color on resizing screen
+   Change size of test pattern on game screen resizing
+
+ - Trigger rumble when game memory changes
+   Idea shamelessly lifted from nes6502  :)
+
+ - Trigger rumble when pressing emulator button
+
+ - Trigger rumble via memory now has the following options:
+     + trigger when memory value changes
+     + trigger when memory value decreases
+     + trigger when memory value increases
+     + trigger when memory value =  specified value
+     + trigger when memory value != specified value
+     + trigger when memory value >  specified value
+     + trigger when memory value <  specified value
+
+ - View all potential cheat code items
+   Cheat Codes -> View Current Potential Matches
+   Cheat Codes -> Continue Search for Cheat Code -> View List of Matches
+
+ - View memory dump for cheat codes
+   Cheat Codes -> View Memory Dump
+   <get to list of potential cheat code items> -> <select an item> -> 
+      Jump to this Position in Memory Dump
+
+ - Poke values into memory
+   <get to list of potential cheat code items> -> <select an item> -> 
+      Poke value into selection
+   <get to memory dump> -> <select line> -> <select byte> -> Poke
+
+ - Added analog stick sensitivity configuration.  Use this to 
+   custom define your analog stick deadzones if you are experiencing
+   drifting:
+   Configuration -> Controller Configuration -> Controller # ->
+   Change Analog Stick Sensitivity
+
+ - Jump to Memory Dump from cheat code value
+
+ - More searchable memory locations for creating cheat codes

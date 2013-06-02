@@ -1,0 +1,18 @@
+Here's the Maple Story client (GMS), patch version .41
+
+Just in case the manual updater doesn't work, and you can\'t get it to auto-install.
+
+
+Delete your Maple Story folder (keep any screenshots you want and move them to another folder, because they *will* be erased when you delete the folder). Default is C:\Program Files\Wizet\MapleStory. After you've erased this folder, download the .zip in this torrent. Extract the contents of this .zip file (via WinZIP or WinRAR; Google them if you don't have either client... but in all honesty, you probably should) to where your Maple Story folder was originally.
+
+PROTIP: For extra assurance that this will work and not be a colossal waste of time, you should probably delete Maple Story (the client) altogether, not just the folder. Control Panel -> Add/Remove Programs -> Maple Story -> Uninstall.
+
+Also, deleting all registry keys for Maple Story couldn't really hurt (NOTICE: do not do this if you don't know what you're doing, and try not to delete other files by mistake. If you are in any way unsure of what you're about to do, DO NOT DO IT. Either go get a trained professional, a friend/family member/neighbor with some clue, or download a Registry Cleaner or somesuch (scanning for viruses/trojans, of course).) In any event, as long as you can follow directions fine, go to Start -> Run -> "regedit" (in the RUN dialog) -> HKEY_LOCAL_MACHINE -> SOFTWARE -> WIZET (delete this key).
+
+This zip contains all the files of a completely unblemished Maple Story directory. None of the files have been touched in any way, but I encourage you to scan this and any other download for viruses before using them.
+
+Anyway, if you install this folder, your Maple Story should run just fine. In case it doesn't, check your firewall settings (make sure to allow Maple Story as an exception; consult your firewall's documentation if you are unsure how to do this). Oh, and for God's sakes, make sure your system specifications are AT LEAST equal to the minimum specs required for the file (find them at http://maplestory.nexon.net/)
+
+ALL contents of this file are Â©2007 by Nexon of America, and I make no claim to them whatsoever. I am also not responsible if you somehow manage to screw up your computer (even though the installation of this is a very simple and incredibly harmless process) or are still unable to play the game after trying all the steps here described.
+
+Enjoy.

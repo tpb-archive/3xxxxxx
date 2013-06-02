@@ -1,0 +1,260 @@
+﻿User Type,Username,Date,Text
+,The Patient,2007-06-01T21:21Z,"haha just found this, just in case your still having trouble with the crack 
+
+http://www.youtube.com/watch?v=LEns5HLO_oQ"
+,markpucci,2007-06-03T19:59Z,"The Patient I need your help: I have windows vista home premium and this crack doesn't work...
+Installation is ok, no error messages, but even extracting the crack files and copying them into spm folder, the license manager's start server and stop server buttons, as well as the install and uninstall license server buttons under the server menu are obscured and I'm not able to have a product key.
+What can I do?
+
+Thanks."
+,The Patient,2007-06-04T17:32Z,"I dont know if this will help, but give it a shot.  Got if off xsi-blog:
+
+*****
+The catch to getting the License Manager to install and run the license service is by disabling User Account Control. Control Panel/User Accounts and Family Safety/User Accounts/Turn User Account Control On or Off. With it enabled, the Start Server/Stop Server was greyed out in the License Manager. Hopefully this will be fixed in the next point update, cause I?d like to enable this?.
+******
+
+A buddy of mine actually had a legal copy of XSI 6 x64 and Vista Ultimate x64, and he had some trouble getting it to work as well, and thats not using a crack.  It could just be XSI and Vista, can't say for sure.  Take a look around XSI's support forums."
+,markpucci,2007-06-05T01:46Z,"Thanks for your help The Patient, however I managed to do it alone reading this comments that i found over the net and I forgot to write it.
+
+FOR WINDOWS VISTA USERS:
+Version 6.01 has some bug fixes, but it's still a little unstable on vista, so it's not this torrent's fault if you experience some problems running xsi on windows vista. We hope in another update from Softimage team that fixes all, I asked this personally to them.
+
+However the instructions written on install.txt file are correct and work even with vista, only remember BEFORE RUNNING THE LICENSE MANAGER TO START THE SERVER, DISABLE THE UAC (USER ACCOUNT CONTROL) FROM  CONTROL PANEL/USER ACCOUNTS AND FAMILY SAFETY/USER ACCOUNT/TURN UA ON OR OFF, THEN YOU REBOOT THE SYSTEM AND FINALLY RUN THE LICENSE MANAGER AND START THE SERVER (IF THE BUTTONS ARE STILL OBSCURED INSTALL SERVER FROM SERVER MENU IN THE WINDOW).
+Then start Softimage and enjoy it.
+You can reactivate the UAC after running Softimage for the first time, there will be no problems, unless the computer would be less safe.
+
+Tell us if it is all ok, follow the instructions and there should be no problems.
+
+Marco"
+,markpucci,2007-06-08T17:36Z,"The Patient, does Softimage XSI work fine on your pc? Do you have windows xp?
+
+I ask you this cause I'm experiencing some problems running xsi on vista, like selecting objects or in the render region or scene crashes, do you notice these too?
+
+Marco"
+,The Patient,2007-06-10T03:31Z,"i have xp, and it seems to work fine for me.  i've always experienced random crashes here and there, even when i use the legal copy at school.  save often.
+
+sorry i can't help you more."
+,kazz145,2007-06-16T15:36Z,"The Patient ... pls tell me how many files there should be in the spm1414-win32-...  file? 
+
+i have only 1 ... spmd.exe ... but in the u tube video u've posted there are 3...?!?
+"
+,kazz145,2007-06-16T16:12Z,oh i found it... there is one hiden file in the spm1414 file... now it works... thnx
+,tenchimuyo,2007-06-19T22:52Z,"Major Problem - Once I hit the start server button to complete the installation, I get a message saying: The system time is far ahead of the timestamp in the dongle; and I risk losing licences?!?!
+
+I think this is a common problem as I found this link in wiki which is what I get: http://softimage.wiki.avid.com/index.php/How_To:_Reset_the_dongle_time
+
+Does anyone else get this, what should I do? I am 99% certain the time on my desktop (is this system time?) is correct."
+,elllfffe,2007-07-03T04:11Z,"Thank you !:))
+
+You rock !!!!!"
+,madrag,2007-07-17T15:34Z,"HI, i cant run xsi underwin xp pro sp2 - i've made everything like in install.txt, nut when i'm sytarting licence server, after 5 sec server is turning off what is the problem? What for is setup_SpmLicenseServer_1.1.11-1307_MSWin32.exe file?"
+,madrag,2007-07-17T16:46Z,"well licence server is running now but i get message like tenchimuyo, and xsi is freezeing.. not loading... any 1 can help me?"
+,chuachinghong,2007-08-26T05:26Z,"hi   madrag,
+
+I have the same problem as you. I am using XP SP2 and after 5 sec server is turning off. Can you guide me?
+
+Thanks very much."
+,demonstrius,2007-12-01T17:34Z,"i have a problem like when i turn on the setup it checks the package integrity and then it a dialog pops up saying PackagefortheWeb Error on the title. The dialog reads ""The contents of this file cannot be unpacked. The executable you are trying to run is corrupted. Please obtain another copy of the file verify its integrity and try again."" I redownloaded the torrent 2 times but I get the same message."
+,MeInClover,2007-12-06T18:54Z,"RE: XP SP2 and after 5 sec server is turning off
+
+Delete files overwritten from rar file in \spm
+In License Manager. menu Service \ Install License Server Service
+Close License Manager
+Apply rar file
+Run again License Manager
+hit Start Server button
+ditto
+Let me know if this works for you
+meInClover(at)yahoo.co.uk"
+,gh7mysterio,2007-12-12T07:30Z,Is this for mac too?
+,roboth,2007-12-14T01:45Z,"XP:
+Delete files overwritten from rar file in \spm
+In License Manager. menu Service \ Install License Server Service
+Close License Manager
+Apply rar file
+Run again License Manager
+**Change DONGLE_PORT=IBU to DONGLE_PORT=COM1**
+hit Start Server button
+Say yes, when a Danger / Alert window pops up.
+
+Server now wont stop after 5 seconds.
+
+Run XSI :D"
+,RawMeat3000,2008-01-09T05:54Z,Works perfectly for me on Vista Premium. Seeding now. Thanks a bunch!
+,TINTIN4321,2008-01-10T01:55Z,"Hello
+
+I am having problems with the instalation. I have tried to install and uninstall it at least 15 time and I come up with the same outcome every time. I am going to write down every step in detail  to see if its something small I'm missing. I would really appreciate the help if someone can see what I'm doing wrong and help me correct it.
+
+1) I open ""setup_XSI_6.01_Win32""
+
+2) I check the circle for the license agreement and hit ""next""
+
+3) I pick ""C:\Softimage"" location and hit ""next""
+
+4) I click the ""XSI Essentials or XSI Advanced (default)"" button
+
+5) I hit ""Typical Install (Default)""
+
+6) I hit ""Using this computer as my license server (Default)""
+
+7) on the next screen, I hit ""Next"" and it starts to install nicely.
+
+8) Once installed it gives me the finished promp and has two checkmarks for ""Activate license(s)"" and ""Start XSI"". I UNCHECK both and hit ""Finish""
+
+9) I go to ""START>PROGRAMS>SOFTIMAGE PRODUCTIONS>LICENSE MANAGER.
+
+10) I press ""Edit Config. File"" 
+
+11) In the 7th paragraph, at the end, I change the line ""DONGLE_PORT=IBU"" to ""DONGLE_PORT=COM1"" and hit ""Save""
+
+12) I open ""smp1414-win32-crack"" in WINRAR and extract to ""COMPUTER>C:>smp"" and comform that i want to replace the ""smpd.exe"" file. all three files of the rar are in the folder.
+
+13) I then go to the License Manager and go the the upper ""Server"" menu and select  ""Install new license Server"". It tells me I successfully instarted the SMP and I hit ""OK""
+
+14) I hit ""Start Server"".
+
+15) I go to Start>Programs>Softimage Productions>Softimage XSI 6.01>XSI Advanced.
+
+16) A black screen pops up for a split second and 40 seconds later a error message pops up saying ""Error: there is no interactive license abailable to run XSI. Do you want to start the License Manager?""
+
+Again. I would really like help on installing this program. 
+
+Thanks
+
+
+
+
+"
+,krkhammett,2008-02-10T14:16Z,"i did everything but when i go to license manager AGAIN to click on Install License Server Service it doesnt let me click on it.
+
+what do i do?"
+,panialga,2008-03-22T07:15Z,"Hi people.
+For any one....ANY1, whom can help me, Im basically having the same trouble that TINTIN4321 have. I downloaded version 6.5 and still can't make the app to work. I reallye need help, cause I want to use xsi, but I've been having this problem since version 5.11.
+I downloades 5.11, 6.0, 6.1 and recently 6.5. I follow the steps just as TINTIN did, and still I get the message that I have no interactive license.
+Thanks in advance."
+,jpg1491,2008-04-08T21:14Z,"If you're using Vista*
+Follow the instructions to the end, then Run the License Manager as Administrator[Right-Click >Run As Administrator], then press install license.
+After that, close the License Manager.
+Apply the crack files provided in the rar[again],
+Run again License Manager, hit Start Server button and viola!
+
+That's how I got it working. :D"
+,Slappywag,2008-04-12T08:27Z,"Panialga i'm having the same problem, after i extract the files to smp it will no longer let me click ""start server"", any help please?"
+,Slappywag,2008-04-12T08:37Z,"Alright, krkhammet, and anyone else who is having the ""i cant click start server button after i extract to the smp folder"", just click menu and hit ""install liscence server"" and then you should be able to click it, and just click yes on the Warning about time or w/e. (using XP Professional just FYI i'm not on vista so i dunno if vista has the same issue)"
+,Slappywag,2008-04-12T08:38Z,"OH and By the way thanks a bunch ""The Patient"" for this kickass torrent, works perfectly, appreciate it :D"
+,p_73,2008-06-02T11:54Z,"hi
+After installing firts time everything worKed properly. Next day I tried started XSI and I coudn`t. Decided reinstall XSI and then spmd.exe disappered so I cannot replace it with the file from the crack. Of course I cannot open XSI. How can I  replace spmd.exe if it does not exist? Eny guide?
+p.s.
+sorry for my english"
+,p_73,2008-06-03T17:07Z,I chose the wrong folder to exchange files. Now everything works ok!!!
+,Flemm,2008-06-09T21:36Z,"License server seems to work, but when I start XSI i get the error message: ""Unable to initialize the cross thread notfier""...?? XP."
+,apoligize,2008-06-17T15:53Z,"get an error: ""there is no interactive license available to run XSI. Do you want to start the License Manager?""
+
+wtf, help please?"
+,apoligize,2008-06-17T16:34Z,"ok, got it too work (XP sp2)
+
+this is what I did;
+
+1. TURN OF WINDOWS FIREWALL, or any firewall that MAY block the SPM 
+
+2. follow the steps in the readme
+
+3. make a new .ini file with this; 
+
+[Settings]
+# In this section general settings of the SPM system are defined.
+# The settings from the configuration file can be overridden by
+# command line options if applicapable for the specific program.
+# Settings are applied in the following order
+#   1) setting from command line option
+#   2) setting from configuration file
+#   3) setting from program internal default settings
+#
+# Define a keyfile path for the SPM system.  This is the default:
+KEY_FILENAME=C:\spm\spm-kf
+
+# Define a logfile path for the SPM system.  This is the default:
+LOG_FILENAME=C:\spm\spm.log
+
+# Activate the log for the SPM system.  Default is inactive:
+LOG_ACTIVE=TRUE
+
+# LOG_WRITE_MODE=1  logfile is kept open while program is running
+#                   (faster but logfile can't be renamed while spmd is running)
+# LOG_WRITE_MODE=2  logfile will be closed after each write (default)
+#                   (slower but logfile can be renamed while spmd is running)
+LOG_WRITE_MODE=2
+
+# Type of dongle for the SPM system:
+# 	SI0: serial or USB dongle.
+# 	ETX: MAC address based.
+DONGLE_TYPE=SI0
+# Select the port the dongle is connected to.
+# The IButton driver (tm321_32.exe) must be installed in order to use the iButton port.
+# Sentinel dongle on serial port: COM1 or COM2
+# iButton dongle on USB port: COM1
+# iButton dongle (DS1413) on serial port: IBZ1 or IBZ2
+# ETX: DONGLE_PORT is ignore for ETX DONGLE_TYPE
+DONGLE_PORT=COM1
+
+# If using ETX, you can specify which ethernet adapter to use in case many are available.
+# To find out all available ETX id run: ipconfig /all
+# Lines to look for from the output: Physical Address. . . . . . . . . : 11-22-33-44-55-66
+#ETXID=112233445566
+
+# License expiry warning time
+LIC_TERM_POST_WARN 5
+LIC_TERM_PRE_WARN  1
+DONG_TERM_PRE_WARN 11
+
+[Reserved_Licenses]
+# In this section licenses for specific users can be reserved
+# (floating licenses only).
+# A line to reserve licenses has four entries and looks like this:
+#   Manufacturer_name:program_name:usernames:license_num
+#     1) Manufacturer_name The name of the manufacturer of
+#                          the program/feature
+#     2) program_name      The program/feature name licenses are
+#                          reserved for
+#     3) user_names        Name(s) of user(s) participating in this group
+#                          (user names are comma separated)
+#     4) license_num       Number of licenses reserved for the user(s)
+# Examples: reserve 1 adv for marc and 1 ess for francis
+#   SOFTIMAGE:XSIWindows:marc,francis:2
+#   SOFTIMAGE:XSIAdv2X:marc:1
+#   SOFTIMAGE:XSIEss2X:francis:1
+
+4. save it
+
+5. install lisence server
+
+6. then override the cracks for the smp folder
+
+7. start server
+
+8. then close
+
+9. when the ""security"" s``` comes up, just click ""yes"" and ""next"" where ever possible
+
+10. then you go, XSI is now fully functional !!
+
+apo  "
+,rzlblrt417,2008-07-06T04:22Z,i did everything that the instructions said but still the start/stop server buttons are greyed out. What do i do??
+,arjitpiratebay,2008-07-06T14:44Z,"I am havin a problem that after I do everything, when I click start server, I get an error for that error starting the SPM licence server"
+,xhika,2008-07-07T12:52Z,"Do as TINTIN4321 said. It worked fine with me!
+If  you dont know what he means with the 13 step, (cause I got confused first) He means open License Manager then above Get License they're File, Server and help. Choose Server then Install License Server Service and then continue his steps :)"
+,konnn,2008-10-25T05:12Z,"Problem 
+
+When you start XSI, you get this error message: 
+
+ ""Unable to initialize the cross thread notifier""
+
+Solution 
+
+Exit XSI. 
+Click Start > All Programs > Softimage Products > SOFTIMAGE XSI 6.5 > Command Prompt. 
+In the XSI Command Prompt, type runonce.bat and press ENTER. 
+After runonce.bat is finished, start XSI. 
+
+
+"

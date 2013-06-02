@@ -1,0 +1,257 @@
+﻿User Type,Username,Date,Text
+,antoniox,2007-07-03T06:50Z,"You cannot use this if you have a RAID or SATA card that's not supported. The install does not work for my Intel RAID card (standard on many dell computers). I tried all 4 options. [The release has the drivers but somehow can't find them when it comes time to copy files over to the harddrive]
+
+=Please let me know if there is a quick fix...=
+
+The description is misleading - using option 2 and 4 will not allow you to press F6 and put in your own driver. Using your own drivers is not allowed in unattended mode!
+see: http://www.msfn.org/board/lofiversion/index.php/t43212.html
+check this article if you want to look into fixing the release to include your raid drivers - http://www.pcstats.com/articleview.cfm?articleid=1703&page=5
+
+=Please let me know if there is a quick fix...=
+
+I had to do a regular attended install to get the F6 to work since I was unsure how to integrate the raid driver in the release as the winnt.sif does not make use of OemPnpDriversPath "
+,jizac2,2007-07-03T13:49Z,"Probably because this is not his latest build... 
+The Build Date: 17.02.2007
+as in Feb. 17 2007
+
+This was originally released in a 7zip archive.
+
+If your checksum number is not the same as below, don't use release because it is not a genuine eXPerience release.
+
+97a125a644b767ac6c2d6e0d2da1c8c9
+c8c6f853d291276000a677a9266b097b
+da42868b25fabf4321a718f012ecb851
+f5bc9da9c7a98fca5a334c0ea52028c4
+
+Remember this checksum is NOT for the ISO file that is inside the 7z archive, it is the checksum for the 7z archive itself.
+
+Here are just a few of his rls since rev06:
+
+Windows TinyXP Platinum Edition 2
+Windows Server 2003 Datacenter Edition 
+Windows.TinyVista.Unattended.Activated.CD
+
+a few more have been released since. "
+,dude_123,2007-07-03T21:25Z,"Well i don't know why this isn't more widesprad on the net, the only place i found it was here: http://rancord.net/TinyXP-Rev06-t25583.html so I downloaded the parts from rapidshare and made the torrent since rapidshare sucks so much."
+,jaberwocky6669,2007-07-15T20:33Z,"Hi, 
+
+All that I want is this 'Save system RAM memory'.  Where can I get that utility? "
+,dude_123,2007-07-16T01:37Z,"Here ya go: 
+
+http://thepiratebay.org/tor/3743307"
+,jaberwocky6669,2007-07-23T07:30Z,"Thank you Dude_123. 
+
+I installed TinyXP Platinum2 but man does it use a lot of memory!  I think I will go to either rev6 or back to rev5 until a newer version of platinum comes out.  Thanks for your hard work eXPerience!  This is the way XP is meant to be!"
+,jaberwocky6669,2007-07-23T07:32Z,I forgot to add that I waited until eXPerience himself gave his blessing to this revision!  Now I will download this.    ;)
+,fin7pl,2007-07-26T18:43Z,Can i browse my other lan computer with this?
+,Corbet,2007-08-13T18:30Z,Anyone having problems with this? Got stuck on splash screen then the options screen.
+,ChazzMatt,2007-08-13T23:53Z,"Finally found a computer to install this on. Older Windows 98 era computer that was upgraded to Windows 2000 a couple of years ago so the owner could run her DSL. Now been upgraded to TinyXP Rev06!
+
+
+500Mhz Pentium III
+40GB hard drive
+187MB RAM (with 8MB integrated SiS 620 chip -- had to use Windows 2000 drivers on that, they didn't make XP drivers.)
+Sony 40X CD burner
+52x CD-ROM
+old barrel style keyboard plug  with PS/2 adapter for modern keyboards
+old serial port mouse plug -- but with PS/2 mouse port add-in card & 2 USB ports
+PCI ethernet jack plug-in card
+
+So, over the years the hardware had been upgraded some, but was now at the limit. The case, motherbaord and power supply are almost 10 years old! The major restriction was the 187MB RAM. Couldn't add anymore without spending more than the computer was worth! (plus I'm not sure they made larger RAM strips for that type RAM -- I think it was PC100).
+
+With Windows 2000, it used 197MB RAM on bootup -- even though it only had 187MB physical RAM! Wow, the magic of virtual RAM.
+
+With TinyXP rev 6 it now uses 124MB RAM -- less RAM than stock Windows 2000! Now has Windows XP PRO and all updates. I installed Office 2000 Pro instead of newer Office to keep the load as light as possible. 
+
+When I was installing everything I saw it ran faster without ANY anti-virus, but this computer will be hooked to DSL so it's gotta have some protection and NOD32 is the best and the lightest. I gave it NOD32, but had to forgo any 3rd party firewall. (Even Comodo made it run very SLOW.) So, I just enabled the Windows XP firewall and hope that NOD32 will get rid of the nasties for them. I loaded on Ad-Aware Pro and Spybot, but took off the Ad-Aware as that app was using 18MB RAM even in the background. I set Spybot to scan every day, auto update, auto immunize, auto fix, auto close. (yes you can do that). 
+
+Besides the WMP11 that came with TinyXP, I also installed Media Player Classic so they would have a choice.
+
+I set virtual RAM for a range of 1024 - 2048 MB, so it can run other stuff over the physical RAM limit -- but at least it boots up to the desktop and functions with less RAM than it has onboard. 
+
+Bottom line is this computer will never be a gaming machine.  But it will do simple word processing, e-mail & web surfing. Better if you do one task at a time, however... 
+
+But TinyXP rev06 installed great and ran fine. If it ran on this machine, it will work wonders with newer ones."
+,TexasTemo,2007-08-14T21:25Z,"Ok. Call me a ""noob"" but how do I make a Bootable CD out of this? "
+,h4cky0u,2007-08-17T02:48Z,"By printing removed does it mean spool service has been disabled and there are no printer drivers in, or printing all together is permanently removed?"
+,KaosBeast,2007-08-29T18:09Z,Having trouble installing Danish keyboard layout anyone know how to fix it ?
+,KaosBeast,2007-08-29T18:12Z,I get error msg : Windows could not properly load the Danish keyboard layout :(
+,Archion22,2007-09-04T19:30Z,"In order to change the keyboard layout language, you have to edit your registry.
+
+Start > Run > Regedit
+
+""HKEY_USERS\.DEFAULT\Keyboard Layout\Preload""
+
+There you will find a string named ""1"" with the digits ""00000409"", you will need to change the three last digits to your desired layout, a list can be found in ""HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layouts"".
+
+F.ex:
+
+00000809 for UK keyboard layout.
+
+
+
+"
+,Ergo_Dein,2007-09-08T06:00Z,This says that things like languages are taken out of options one and two. Does that mean they're available in other options? (I need Asian text support.)
+,Jordocs,2007-09-27T17:02Z,"I have an Athlon XP 1500 with 512MB DDR 333, 40Gig Maxtor and a Nvidia 6200 256MB 8XAGP.  It came with Windows XP Home genuine installed.  However I lost my recovery discs and I needed to reformat.  I had installed windows 2000 until I received a new recovery CD.  Which ran my games at a higher FPS!  However my MP3 player and some other games I play require XP.   If I install XP for those applications, my steam-based games will drop in FPS.  That is when I cam across this torrent.  I installed it and was quite impressed with my pc?s performance.  It seemed like and entirely new PC!  HL2, which I could not run before now, runs at 30FPS at 1024X768! And for the user ChazzMatt who installed this on a 500Mhz machine:
+Any Experienced Microsoft Certified Systems Engineer will tell you, setting your virtual memory higher than 2.5x YOUR PHYSICAL MEMORY WILL ADVERSLY AFFECT PERFORMANCE!  DUE TO HARD-DRIVE SPIN AND SEEK TIMES. ALSO YOU REFERED TO THE FIRST GEN OF DIMM MEMORY AS PC-100.  I BELEVE THE SYSTEM YOU HAVE USES PC-66."
+,Jordocs,2007-09-27T17:06Z,I forgot to mention I use AVG free and the goolge pack which gives me spy doctor and Norton security scan.
+,teleport,2007-09-28T06:51Z,THIS SHIT DOES ASK FOR A PRODUCT KEY !!!!!!!!
+,bob2002,2007-09-28T07:12Z,"Works great, but now a question:  what about monthly MS updates?  Is it safe to get them, or should I just leave Windows Update turned off?  TIA."
+,mattchazz,2007-10-05T16:41Z,"teleport said ""THIS SHIT DOES ASK FOR A PRODUCT KEY !!!!!!!!""
+
+NO, it doesn't -- if you have installed it right and burned it right.  When you unRAR the parts it's an ISO file.  
+
+Do NOT try to extract anything from ISO.
+
+Burn the untouched ISO slowly with Nero or ImgBurn -- 4x or slower.
+"
+,pudco,2007-10-24T09:32Z,"Hey guys, a friend of mine has this and said it's great so I wanted to get it for my laptop thinking maybe it'll run cooler and perhaps long battery life since it's not running all the extra stuff xp pro is running nwo. One thing though.. I need to use remote desktop and I mean that as a server not just a client.  Is that iincluded in this or no?  I'm 100% ready to just go back to windows 2000 but no remote desktop there so I thought of this.  Thanks!"
+,pudco,2007-10-24T09:33Z,"Also I understand now to do it, but why does it matter if you burn it at 4x or slower or faster?"
+,Beofres,2007-10-29T09:38Z,"Burning at 4x or slower decreases your chances of errors occuring in the burning process.  Most computers and equipment are good enough that this rule of thumb is pretty much unimportant, but good to follow if you are having disc writing issues."
+,dedjedik,2007-11-06T00:13Z,"i tried everything i could to install it but every time i install i get this ""fatal error"" alert that ""An error has been encountered that prevents Setup from continuing.
+
+One of the components that windows needs to continue setup could not be installed.
+
+Manifest Parse Error: An Invalid character was found inn text content.  blah blah""
+
+""sxsdll ""D:\XP01\I386\ASMS\52\POLICY\MSFT\WINDOWS\NETWORKING\RTCDLL\RTCDLL.MAN
+
+FAILED D:\XP01\I386\ASMS""""
+
+so wassup with this? does anyone else had this problem or is only me?  i burned like 3 cds at different speed and wasted. PLZ HELP"
+,jayrodathome,2007-11-17T20:12Z,"Absolutely great! installed on my SATA 300 drive perfectly. I'm now dual booting this so i get better fps in FSX. along side vista for general computing. 
+
+THank you for this great up! "
+,Daniel-Dane,2007-11-18T16:48Z,"Installed flawlessly! And I can recommend reading some comments before installing this, just so you won't freak out when the screen goes black for the five minutes during install.
+
+Installing Danish keyboard layout and setting regional settings to Danish worked flawlessly as well!
+
+How-to:
+Open ""C:\Documents and Settings\All Users\Desktop\eXPerience\Keyboard Settings\Quick Access.bat""
+
+From here, go to every tab and click every button and change everything to Danish. Then relog. Done."
+,Daniel-Dane,2007-11-18T18:24Z,"I'm back again!
+
+I can't use CTRL+A in the address bar in explorer/iexplore (and any other Windows application but Firefox). Minor but still annoying.
+
+Furthermore, I have done everything I could, but I can't get Windows Update to work (And the service is on, by using the RAM-freeing batch). It says ""Your security settings do not allow Web sites to use ActiveX controls installed on your computer."" Putting it into trusted zone and setting security to low changed nothing. I have COMODO installed, but setting it's security level to Allow All also did nothing.
+
+I need some updates for some vital programs."
+,Daniel-Dane,2007-11-18T18:25Z,"Whoops!
+
+its*"
+,vikking,2007-12-09T20:06Z,"I love tinyxp but I can't change my background! I click browse, choose my background and it doesn't appear in the list! Can someone  help me please?"
+,gasmask,2007-12-10T09:19Z,"hey hey, yesterday I installed my new tinyxp and everything has worked out great except for one thing. I can't change my keyboard setting, I've tried many different languages and I always get the same message
+""Windows could not properly load the [insert language] keyboard layout""
+I've tried downloading a new keyboard layout but it's the same problem.
+
+can anyone help me out please?"
+,TehCho,2007-12-28T11:32Z,"Great Torrent!
+
+Great OS!
+
+I love it!"
+,Mike1234567890,2008-01-01T21:42Z,"How does this work with Maya, Lightwave, Adobe CS3 Apps, etc.  Any problems?  Does this scaled down version of XP32 improve performance with those and other graphics/video apps?"
+,ChazzMatt,2008-01-21T05:40Z,"@ vikking wrote: 
+
+I love tinyxp but I can't change my background! I click browse, choose my background and it doesn't appear in the list! Can someone help me please? 
+
+======
+
+Yeah the regular way of changing the desktop backround with the Display console doesn't work.  Very minor issue considering the great benefits of this modified OS.  
+
+Here's a workaround:
+
+Open any JPG you want with IE, Windows Picture & Fax Viewer, or Office 2003 Picture Manager.
+
+Once the picture is open, RIGHT CLICK on the picture and choose ""Set as Desktop Background"".
+
+You now have a new desktop background!"
+,ChazzMatt,2008-01-21T05:44Z,"@ dgxz wrote: 
+
+can't get this to install on old 400 mhz pc, I always get cant copy file errors during install process after format? is it because i burned it too fast? it installs fine on my new pc so i think my older pc cd drive is to slow or something. 
+
+=========
+
+If the same CD installs fine on your other computer, then sound like your CD drive is bad on your slower computer.  It doesn't seem to be reading the CD good.  Try a slower burn, as slow as possible, and see if the old CD drive can read that.  
+
+If that doesn't work, open up the case and temporarily hook up the other CD drive to the old computer.  Then use that to install the OS."
+,LondonOntGuy,2008-01-26T21:14Z,"
+Does this have the SATA drivers for a 160 gig Western Digital WDC 1600JS-22NCB1 ?"
+,Daniel-Dane,2008-02-03T17:17Z,"It doesn't support my laptop's 250GB SATA HDD, but it DOES with my desktop's 250GB SATA HDD... Fucked."
+,YodaNub,2008-02-05T01:17Z,I can't get it to detect my laptop's HDD either.  Any help?
+,TehCho,2008-02-08T00:17Z,"I gave this link to a friend to use, he later installed original XP pro 'cause he said this version was using up his bandwidth.
+
+I haven't noticed it, have any of you guys noticed increased bandwidth usage when running TinyXP Rev6?"
+,jinxxdk,2008-02-13T18:39Z,"Trying to install this on my laptop, but I've run into a problem with some of the right-most buttons on the keyboard acting like they're the numpad or such, at least they print out numbers rather than what they're supposed to.
+
+This happens even when I install my laptop drivers, which usually works fine in my regular windows xp.
+
+Anyone have a clue why this happens and if there's a way to fix it while still using this release?
+
+Not sure if it matters, but the laptop and keyboard is danish, however it still prints numbers whether I go with an english layout or change to a danish one.
+
+Thanks in advance for any help."
+,rab15009,2008-03-02T21:09Z,Anyone know if Service Pack 3 will work with this or any previous revisions of TinyXP?
+,triqter,2008-03-25T17:07Z,"so is the reg key included somewhere?
+I get to the point where is asks for it and I don't have it?
+"
+,Daniel-Dane,2008-04-14T18:00Z,"Ok. News about sATA support!
+
+===================
+
+I messed with something in the BIOS and clicked the button to insert driver for SATA (during installed) and clicked cancel to continue... and weirdly enough it did find my drive this time!!!
+
+I can't recommend it, however, as this is specifically built for the desktop version. You will experience problems unique for laptops.
+
+==================
+
+@ "" gasmask p책 2007-12-10 09:19 CET:
+hey hey, yesterday I installed my new tinyxp and everything has worked out great except for one thing. I can't change my keyboard setting, I've tried many different languages and I always get the same message
+""Windows could not properly load the [insert language] keyboard layout""
+I've tried downloading a new keyboard layout but it's the same problem.
+
+can anyone help me out please?""
+
+Do read on.
+
+==================
+
+Having trouble changing language? Use the guide found on the first comment page, or do as I did:
+
+""Installing Danish keyboard layout and setting regional settings to Danish worked flawlessly as well!
+
+How-to:
+Open ""C:\Documents and Settings\All Users\Desktop\eXPerience\Keyboard Settings\Quick Access.bat""
+
+From here, go to every tab and click every button and change everything to Danish. Then relog. Done.""
+
+If this doesn't work do try the other solution. If it still doesn't work after you've tried both, then something is really wrong!
+
+==============
+
+@ "" triqter p책 2008-03-25 17:07 CET:
+so is the reg key included somewhere?
+I get to the point where is asks for it and I don't have it?""
+
+It shouldn't ask for a key at all...
+
+=================
+
+@ "" TehCho p책 2008-02-08 00:17 CET:
+I gave this link to a friend to use, he later installed original XP pro 'cause he said this version was using up his bandwidth.
+
+I haven't noticed it, have any of you guys noticed increased bandwidth usage when running TinyXP Rev6?""
+
+Nope, he might have caught a virus..."
+,Daniel-Dane,2008-04-14T21:01Z,"If you guys don't like messing with the registry then I've made a little program to do it for you. :)
+
+http://bsgprogrammers.com/gmc/ddane/Stuff/change_keyboard_layout_language.rar
+
+That link will hopefully be valid for some time. :)"
+,karltech,2008-04-14T22:02Z,"Option #4 sounds perfect for a Vmware install (as I'm running OSx got XP on boot camp, but also want to isntall a small virtual machine for testing purposes). And obviously vmware installs all its own drivers once booted. I'll comment again once I've finished downloading and have it installed and tweaked. "
+,sajjko,2008-10-31T03:30Z,DUDE_123 UPLOADER...... its wrong in INFORMATION - Syriac (Syria) SYRIAC IS NOT SYRIA... SYRIA = ARABIC (ARABS) - SYRIAC IS ARAMAIC and spoken of Arameans Chaldeans Assyrians and Arameans people from middle east so Syriac = Aramaic and not syria CHANGE IT PLEASE 
+,sajjko,2008-10-31T03:31Z,DUDE_123 UPLOADER...... its wrong in INFORMATION - Syriac (Syria) SYRIAC IS NOT SYRIA... SYRIA = ARABIC (ARABS) - SYRIAC IS ARAMAIC and spoken of Arameans Chaldeans Assyrians and Arameans people from middle east so Syriac = Aramaic and not syria CHANGE IT PLEASEE
+,sajjko,2008-10-31T03:31Z,DUDE_123 UPLOADER...... its wrong in INFORMATION - Syriac (Syria) SYRIAC IS NOT SYRIA... SYRIA = ARABIC (ARABS) - SYRIAC IS ARAMAIC and spoken of Arameans Chaldeans Assyrians and Arameans people from middle east so Syriac = Aramaic and not syria CHANGE IT PLEASEa
+,debakaputite,2009-08-01T15:33Z,"GOOD WORK DUDE, eXperience rules !!
+is there a Beast edition around , or I have to upload it , when I have unlimited internet?"

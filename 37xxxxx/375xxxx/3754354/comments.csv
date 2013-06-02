@@ -1,0 +1,37 @@
+﻿User Type,Username,Date,Text
+,KayeBeast,2007-10-21T03:13Z,this is for need for speed most wanted
+,legal_pirate,2008-07-04T20:15Z,"thanks man! hope this works... 
+btw, any servers to play online?"
+,JazzSteps,2009-02-24T03:33Z,MW- what's that?
+,murderme,2009-07-25T07:04Z,"ok u run this and regular Hamachi at the same time. then u edit the config file like this
+
+***********************
+
+Open the server.cfg file with notepad and
+
+Step 1 edit server.cfg
+##------------------------------------------------------------------------
+## DO NOT CHANGE ANYTHING BELOW HERE
+##------------------------------------------------------------------------
+
+TRUST=255.255.255.255
+TRUST_MATCH=%%bind(""5.x.x.x"") put ure hamachi ip here
+
+ACCOUNT=1
+MASTER=1
+SLAVE=1
+REDIR=1
+
+#
+# This line allows the server to determine on what interface to listen for
+# connections. It can be any publicly routable IP address (this is the case
+# even if the host is on a LAN that is isolated from the Internet). There is
+# no communication attempted with the IP address listed here.
+#
+ADDR=%%bind(""5.x.x.x"") put ure hamachi ip here
+
+
+Edit it to that and save.
+
+
+run MW-Hamachi and regular Hamachi and have people connect to ur network and u have a Online LAN server"

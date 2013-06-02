@@ -1,0 +1,15 @@
+With this package installed you will be able to use any media player (limited by the players capabilities) to play DVD's, movies and video clips such as quicktime, realmedia, avi, mpeg, Flv, swf, wmv, etc. Streaming video is supported in most web browsers. By default you shouldn't need to make any adjustments to enjoy your media content immediately.
+Changes in version 4.4.7 on July 01, 2007:
+- detect and remove 23 conflicting codec packages
+- improve FLV support
+- Update DC-Bass Source 1.1.0
+- Fix MPEG buffering (streaming content)
+- change MP3 decoding to DMO in Vista
+- change MP3 decoding to DC-Bass (as required) in XP
+- separate filetype icons from thumbnail creation
+- add support for MusePack audio
+- Update FFDshow to v1324
+- remove unused filters
+- update DC-Bass components to v1.10
+
+rarPass: warezcafe.org

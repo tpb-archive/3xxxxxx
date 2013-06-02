@@ -1,0 +1,109 @@
+	
+K-Lite Codec Pack is a collection of codecs and related tools. The K-Lite Codec Pack is designed as a user-friendly solution for playing all your movie files.
+ 	
+
+With the K-Lite Codec Pack you should be able to play all the popular movie formats and even some rare formats. This package is mainly for power users and people who do their own encodings.
+
+Features of K-Lite Mega Codec Pack 2.10 :
+
+? Player:
+- Media Player Classic [version 6.4.9.0+ SVN build 2007-03-25]
+? ffdshow:
+- ffdshow [rev. 1193]
+- extra plugins
+- ffdshow VFW interface
+? DirectShow video filters:
+- XviD [version 1.1.2]
+- DivX [version 6.6.1.1]
+- CoreAVC [version 1.3.0.0]
+- On2 VP6 [version 6.4.2.0]
+- On2 VP7 [version 7.0.10.0]
+- MPEG-1 / MPEG-2 (Cyberlink) [version 6.0.0.3402]
+- MPEG-1 / MPEG-2 (DScaler5) [version 0.0.8.0]
+- MPEG-1 / MPEG-2 (Gabest) [version 1.0.0.3 | revision 611]
+- MPEG-1 / MPEG-2 (MainConcept) [version 1.0.0.78]
+- MPEG-1 / MPEG-2 (Ligos) [version 4.0.0.77]
+? VFW video codecs:
+- XviD [version 1.1.2]
+- DivX Pro [version 6.6.1.1]
+- x264 [rev. 655]
+- Windows Media 9 VCM [version 9.0.1.1184]
+- On2 VP6 [version 6.4.2.0] [Encoding]
+- On2 VP7 [version 7.0.10.0] [Encoding]
+- Intel Indeo [version 5.2562.15.54]
+- Intel Indeo [version 4.51.16.2]
+- Intel Indeo [version 3.24.15.03]
+- Intel I.263 [version 2.55.1.16]
+- huffyuv [version 2.1.1 CCE Patch 0.2.5]
+- I420 (Helix) [version 1.2]
+- YV12 (Helix) [version 1.2]
+? QuickTime Alternative:
+- QuickTime codecs [version 7.1.5.120]
+- QuickTime plugin for Internet Explorer
+- QuickTime plugin for Firefox/Mozilla/Netscape/Opera
+- Extra QuickTime plugins
+- QuickTime DirectShow parser
+- QuickTime DirectShow decoder wrapper
+? Real Alternative:
+- RealMedia codecs [version 6.0.12.1741]
+- RealMedia plugin for Internet Explorer
+- RealMedia plugin for Firefox/Mozilla/Netscape/Opera
+- RealMedia DirectShow splitter [version 1.0.1.1]
+? DirectShow audio filters:
+- MP3 (Fraunhofer) [version 1.9.0.311]
+- AC3/DTS/LPCM (AC3Filter) [version 1.30b]
+- MP1/MP2 (MainConcept) [version 1.0.0.78]
+- Vorbis (CoreVorbis) [version 1.1.0.79]
+- AAC (CoreAAC) [version 1.2.0.575]
+- MusePack (RadLight) [version 1.0.0.4]
+- WavPack (CoreWavPack) [version 1.1.0]
+- OptimFROG (RadLight) [version 1.0.0.1]
+- DC-Bass Source [version 1.0.0.0]
+? ACM audio codecs:
+- MP3 (Fraunhofer) [version 3.4.0.0]
+- MP3 (LAME) [version 3.97]
+- AC3 (ffcHandler) [version 1.3.1]
+- Vorbis [version 0.0.3.6]
+- DivX ;) Audio [version 4.2.0.0]
+? DirectShow source filters:
+- AVI splitter (Gabest) [version 1.0.0.7 | revision 611]
+- AVI splitter (Haali Media Splitter) [version 1.7.121.0]
+- MP4 splitter (Haali Media Splitter) [version 1.7.121.0]
+- MP4 splitter (Gabest) [version 1.0.0.3 | revision 611]
+- Matroska splitter (Haali Media Splitter) [version 1.7.121.0]
+- Matroska splitter (Gabest) [version 1.0.2.9 | revision 611]
+- Ogg splitter (Haali Media Splitter) [version 1.7.121.0]
+- Ogg splitter (Gabest) [version 1.0.0.0 | revision 611]
+- FLV splitter (Gabest) [version 1.0.0.1 | revision 611]
+- MPEG TS splitter (Haali Media Splitter) [version 1.7.121.0]
+- MPEG PS splitter (Cyberlink) [version 1.0.0.4528]
+- MPEG PS splitter (Gabest) [version 1.0.0.3 | revision 611]
+- MPEG PS splitter (Haali Media Splitter) [version 1.7.121.0]
+- MPEG PS splitter (MainConcept) [version 1.0.1.20]
+- MPEG PS splitter (Elecard) [version 1.0.31.51211]
+- MPEG PS splitter (Ligos) [version 4.0.0.77]
+- CDDA Reader (Gabest) [version 1.0.0.1]
+- CDXA Reader (Gabest) [version 1.0.0.1]
+- AC3/DTS Source (AC3File) [version 0.4b]
+- AAC parser (Orban) [version 1.0.27]
+? DirectShow subtitle filter:
+DirectVobSub (a.k.a. VSFilter) [version 2.37 + fixes]
+? Tools:
+- GSpot Codec Information Appliance [version 2.70a]
+- VobSubStrip [version 0.11]
+- GraphEdit [build 041201]
+- AVI Fixed [version 2.0b1]
+- FourCC Changer
+- Bitrate Calculator
+
+Changes from K-Lite Mega Codec Pack 2.01 to K-Lite Mega Codec Pack 2.10 :
+
+- Updated ffdshow to revision 1193
+- Updated DivX decoder to version 6.6.1.1
+- Updated DivX encoder to version 6.6.1.1
+- Updated Haali media Splitter to version 1.7.152.18
+- Updated x264 VFW to revision 655
+- Added ffdshow whitelist feature. When enabled, usage of ffdshow will be restricted to a list of known compatible applications
+- Moved most ffdshow related things in the installer from Tasks to Components. This should make the available choices more clear
+- Uninstall your old version before updating to this version
+- Minor changes 

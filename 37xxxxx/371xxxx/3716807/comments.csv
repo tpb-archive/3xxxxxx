@@ -1,0 +1,375 @@
+﻿User Type,Username,Date,Text
+,MioModdaren,2007-06-18T14:19Z,"kontakta mig på min msn så berättar jag hur ni gör på en mio 268, 268+, 269, 269+ för en liten peng"
+,hugin,2007-06-18T16:25Z,"@miomoddaren
+
+Öhh tror knappast man behöver det va.
+Finns redan tråd om hur man låser upp sin enhet och denna sys.txt är fungerande som den är för mio26x enheter."
+,Nicke32,2007-06-18T18:25Z,"Jag har lite problem med den.
+Den fastnar i uppstarten."
+,wiruzz,2007-06-19T21:51Z,"Om man inte kan komma åt MIOMAP på GPS:n då? Ska den lägga sig som en enhet under ""Den här datorn""??
+ Får bara upp en vit skärm hur jag än gör. Kan ladda V3 programmet från MIO utan problem. Kommer inte vidare efter det.
+
+/m"
+,hugin,2007-06-19T22:14Z,"@wiruzz
+Du kommer åt Windows CE på din mio 26x enhet ?
+
+Att komma åt miomap V3 från mios SD kort man köppt är inte samma sak som att komma åt v3.2
+
+Behöver ha din enhet modifierad så du kommer åt winCE på den."
+,Zell77,2007-06-19T22:23Z,"@hugin
+Du verkar veta en del om miomap. Jag har en C250 med miomap 3.2. Har tankat hem 2006.01 kartor och lagt på SD-kortet, detta fungerar utmärkt. Men när jag fösöker samma sak med 2007.01 kartor så får jag upp att de är låsta, vad ska jag göra?"
+,hugin,2007-06-19T22:34Z,"@Zell77
+Om kartorna är låsta behöver du en annan license nyckel. license.db heter den och den som ligger med i denna torrent ska va den som funkar för 2007.1 samt 2007.4 kartorna.
+
+Byt helt enkelt ut den gammla license.db och lägg in den nya gör en mjukvaruresett och se om inte den tar kartorna efter detta."
+,wiruzz,2007-06-19T22:39Z,"hugin!
+
+Kommer inte åt Win CE heller. Kan som sagt lägga in V3 programmet utan problem men sen är det stopp.
+ Den är inte modifierad eller så.
+
+/m"
+,hugin,2007-06-19T22:44Z,"@wiruzz
+Jo jag har hört många som försökt köra crackade miomap v3; v3.1; v3.2 på omodifierade mio 26x enheter. 
+
+Ännu vet jag en request över en version för omodifierade mio 26x som inte är fylld. 
+
+Rådet jag kan ge är och ta tråden här inne för att modifiera din enhet så du når winCE på den, för då funkar det.
+
+OBS!! om du inte har nya bios patchen måste du ha gapi installerat med för annars funkar inte grafiken."
+,Zell77,2007-06-20T22:20Z,"@hugin
+Nja, fungerar tyvärr inte. Jag har kartorna på SD kortet bara, miomap 3.2 liggeri GPS:en. Att byta license.db på kortet hjälpte inte. Testade att kopiera hela miomap cd till hårddisken, byta ut license.db till nya, bränna ny cd och köra ny installation i GPS:en. Men detta fungerade inte heller, fel licensversion sa GPS:en då..."
+,Nicke32,2007-06-20T22:56Z,"@hugin
+
+Du verkar ju vara haj på det här.
+Vet du vad det är för fel hos mig??
+Jag har nya bios patchen inne, å det funkar inte med bara den. Så la jag in Gapi 3.10, å då fastnar den i uppstarten??
+
+Va gör jag för fel??
+
+"
+,hugin,2007-06-20T23:11Z,"@Nicke32
+Det är en mio 268 alternativt 269 du har ? För sys.txt i denna är skriven för mio 268/269 har man en annan enhet är det inte säkert det funkar utan att man ändrar sys.txt
+
+Modifierad verkar den ju va i och med du får in gapi.
+
+Skapas nån fil vid namn CRASH.TXT isåfall står det något i den."
+,Nicke32,2007-06-20T23:34Z,"@hugin
+
+Inte vad jag kan se.
+Kanske letar på fel ställe.
+Vart hittar jag den filen? CRASH.TXT "
+,Nicke32,2007-06-20T23:36Z,"@hugin
+
+Funkar kanske bättre om man lägger in den på hårddisken..???"
+,Nicke32,2007-06-20T23:39Z,"@hugin
+
+Sorry....  missade din fråga..
+Det är en 269 jag har.."
+,hugin,2007-06-21T00:17Z,"@Nicke32
+
+Mmm crash.txt brukar finnas i den folder du har miomap v3.2.
+
+Bör inte bli svart om du har gapi installerat korrekt och miomap på SD kort. Ser den är nerladdad 63 gånger, borde finnas mer som kommit upp med samma problem om nått vore kaiko."
+,Nicke32,2007-06-21T00:32Z,"@hugin
+
+Den blir inte svart. Jag ser en bild på en Audi + lite text typ GPS navigation. Längst ner i höger hörn rullar texten fram till starting, då den fryser."
+,Nicke32,2007-06-21T00:40Z,"@hugin
+
+Nope ingen Crash-fil."
+,hugin,2007-06-21T01:23Z,"@Nicke32
+Ok. den brukar skapa en sån när den stöter på nått fel. Detta innebär att miomap v3.2 inte krashat när du startat den.
+
+I och med att du har Gapi installerat och inställt för mio269 och du inte får nån crash fil så har jag inte mycket mer och gå på tyvärr."
+,hugin,2007-06-21T01:25Z,"@Nicke32
+Den fryser när den kommer till start nere i skärmen. kanske nån fil som är korrupt överflyttad till sd kortet ? Kanske inte men bara en ide. I övrigt när den kommer såpass långt lär det inte va i sys.txt som felet ligger då du inte kommit så långt då."
+,hugin,2007-06-21T01:27Z,"@Nicke32
+Va jag skulle testa är och stänga av mio på knappen. Göra om installations proceduren med gapi och det andra och föra över miomap v3.2 ytterligare en gång och testa igen."
+,Nicke32,2007-06-21T12:53Z,"@hugin
+
+Jag ska prova med att göra om allt en gång, lägga in WinCE imagen och framåt.
+Så får vi se hur det går. Annars får jag väl böja om helt från början med MioMap 1.0, och gå vidare därifrån.
+
+Men det är konstigt för MioMap v3 funkar ganska bra, men jag kan inte lägga in nya kartor där.
+Gör jag det och byter ut license.db så tiltar hela skiten ur.   =)"
+,Nicke32,2007-06-21T13:48Z,"@hugin
+
+Nej det funkade inte nu heller.
+Så jag kör om hele skiten. En fabriksåterställning och sen vidare därifrån.
+
+Räcker det med att köra den upplåsta versionen av miomap 2 ? eller måste jag installera miomap 2 först och sedan den upplåsta versionen?? när jag skriver upplåsta versionen antar jag att du vet vad jag menar... den som ligger på hårdisken med en ny MioMap_english_20.cab fil i."
+,Nicke32,2007-06-21T17:34Z,"@hugin
+
+Nu har jag installerat allt från början igen. hela återställningen och framåt. Den funkar inte nu heller.miomap 3.2 alltså.
+
+Har du nån ide´ ??"
+,Nicke32,2007-06-21T18:03Z,"@hugin
+
+Miomap v3 funkar. Alltså den med IGO ikonen.
+Men den låser sig m jag stänger av mitt i kartprogrammet. Så jag måste gå ur IGO för att stänga av utan att det ska fastna.
+
+Ska det vara så??"
+,hugin,2007-06-21T18:33Z,"@Nicke32
+Det låter inte som det ska.
+Borde va flera med dina problem om det va programmet dock.
+
+Glad midsommar för nu ska jag fira några dar utan datorer :D"
+,Motlef,2007-06-22T22:09Z,"@Nicke32
+
+Jag har haft samma problem som dig. Jag tog bort filen gx.dll som ligger  direkt under mappen då funkar gapi direkt men under uppstart kommer du antagligen inte få något bakgrundsljus, det fixar du i inställningar för dagtidsljus. (Dock så har jag en 269+)"
+,Motlef,2007-06-22T22:15Z,"@Nicke32
+
+Då pratar jag alltså om torrenten på denna sidan...."
+,Evlija,2007-06-23T07:37Z,"Denna funkade på min MIO perfekrt men sen gjorde jag nåt som jag inte kommer ihåg och då har jag samma problem som Nicke32.
+Har provat och återställa allt från början utan resultat. *AN
+Har också annat problem, så fort jag ska ta bort en fil eller en mapp från Disken i MIOn så blinkar hela skärmen som om det finns en spärr.
+Vad gör man då att ta bort den i så fall?"
+,Evlija,2007-06-23T07:50Z,"PÅ MIOs disk hittade jag en fil MiomapLauncherLog.txt Detta stod det i den:
+
+Buffer=[[SDPath]]
+Buffer=[\\SD Card\Miomap\Miomap.exe]
+Buffer=[[FlashPath]]
+Buffer=[\\MioMap\MioMap.exe]
+Launcher.ini SDPath=[\\SD Card\Miomap\Miomap.exe], FlashPath=[\\MioMap\MioMap.exe]
+Map=[\SD Card\Miomap\Miomap.exe] on SD not found
+Map=[\MioMap\MioMap.exe] on Flash not found"
+,Nicke32,2007-06-23T09:02Z,"@Evlija
+
+Jag har precis samma problen som du.
+Den filen du pratar om (MiomapLauncherLog.txt) får jag oxå. Med exaktsamma text.
+Hade även samma problem är jag skulle ta bort filer från disken.Skärmen blinkade.
+
+Jag gjorde så här.
+Hämtade hem ActiveSync 4.5 från microsoft och installerade på datorn. Tog sedan hem V2ActiveSyncPLUS.cab la den på ett sd-kort, och installerade den på mio:n.
+Då fick jag kontakt mellan datorn och mio:n. Så du kommer åt mio:n fullt ut. Som utforskaren ungefär."
+,Nicke32,2007-06-23T09:05Z,"@Motlef
+
+Tackar för tipset ska testa det under dagen..
+
+1000 tack.."
+,Nicke32,2007-06-23T10:53Z,"@Motlef
+
+Testade med att ta bort dx.dll filen men utan resultat. Samma som förut, låser sig med texten starting längst ner till höger på displayen.
+"
+,Nicke32,2007-06-23T10:55Z,sorry gx.dll ska det ju vara
+,Nicke32,2007-06-23T11:11Z,"Testade även att lägga in den på disken, med samma resultat. Men fick då en annan MiomapLauncher.txt.
+Där stod följande:
+
+Buffer=[[SDPath]]
+Buffer=[\\SD Card\Miomap\Miomap.exe]
+Buffer=[[FlashPath]]
+Buffer=[\\MioMap\MioMap.exe]
+Launcher.ini SDPath=[\\SD Card\Miomap\Miomap.exe], FlashPath=[\\MioMap\MioMap.exe]
+Map=[\SD Card\Miomap\Miomap.exe] on SD not found
+found Map=[\MioMap\MioMap.exe] on Flash
+Create process to launch map path=[\MioMap\MioMap.exe]
+
+Nån som har en ide??
+
+Nån som vet om man kan installera Miomap v3.2 för pda på mio 269??
+"
+,Nicke32,2007-06-23T11:15Z,"Har även hittat en sys.txt.
+Där står följande:
+
+pna=""MIO269"" 
+[debug] 
+smart_2d=1 
+slowsim=1 
+loop_sim=1 
+
+[interface] 
+mio=1 
+landscape=0 
+portrait=1 
+width=320
+"
+,Motlef,2007-06-23T12:36Z,"@Nicke32
+
+
+
+Vill bara kolla... 
+
+1. Har du låst upp enheten korrekt?(dvs. att du kommer åt din enhet fullt ut)
+
+2. Lägg alla filer på ett minneskort och kör därifrån(Fungerar för mig, dessutom blir mjukvaran svinsnabb iom den inbyggda disken är ganska slö)
+"
+,Nicke32,2007-06-23T13:03Z,"@Motlef
+
+Jag har låst upp enheten, och kommer åt den fullt ut. Har gjort om hele skiten två gånger, men den fastnar i samma läge alltid.
+
+Miomap v3 funkar däremot hyffsat. men kan inte byta kartor (till nyare)då den låser sig. Därför vill jag ha denna versionen."
+,Motlef,2007-06-23T14:40Z,"@Nicke32
+
+
+
+
+Jag har även kört med en annan v3.2 (http://emilio.aesinformatica.com/2007/02/01/mi-gps/) som du bara behöver byta license.db och lägga in kartmaterialet från denna torrent. "
+,Nicke32,2007-06-23T15:19Z,"@Motlef
+
+Jag lite problem med den sidan.
+Min spanska ä inte så bra, utan att skryta.
+
+Det finns ingen svensk länk till nåt liknande??"
+,Motlef,2007-06-23T15:37Z,"@Nicke32
+
+Denna spanska och denna på tpb är de enda jag hittat, du kan översätta sidan lätt genom att klistra in url:en på: http://babelfish.altavista.digital.com/babelfish/tr"
+,Nicke32,2007-06-23T19:01Z,"@Motlef
+
+Joo. Jag gjorde som det stod men fick samma problem där.....
+Miomap v3.2 på spanska startade, men fastnade som den svenska varianten gjorde.
+
+Jag börjar tro att det är nåt fel på min MIO.
+Kan man formatera hårddisken på en mio??
+Så rubbet försvinner.
+Lr det kanske man inte får göra??"
+,Motlef,2007-06-23T19:57Z,"@Nicke32
+
+Jag tror en hard reset och inläggning av mjukvaran återställer enheten(hardreset= on-off knapp på baksidan), var det ver. 2.0 du fick med gps:en?"
+,Nicke32,2007-06-23T20:32Z,"@Motlef
+
+Nope.
+Jag fick Miomap CE v1.0.
+
+Men jag har ju naturligtvis v2.0 på dvd som så fint kan laddas ner här...   =)
+
+Men det måste vara något galet med min Mio för jag har försökt på minst 10 olika sätt.
+
+Jag måste raderat nåt som man inte bör eller nåt..  Börjar bli lite småtokig nu."
+,Nicke32,2007-06-23T20:38Z,"@Motlef
+
+Varför kommer det inte en dvd med miomap 3.2 till mio 269??
+
+Hade varit lättare å installera den med miotransfer..."
+,Motlef,2007-06-23T20:43Z,"@Nicke32
+
+Jo, jag tycker också det låter som du kanske raderat någon viktig fil... det du bör göra är en total återställning till original sedan låsa upp enheten igen och inte röra några filer alls på enhetens lagringsmedia bara på minneskortet. (Själv så fick jag med ver 2.0, kan ju vara viss skillnad där....)"
+,Motlef,2007-06-23T20:46Z,"@Nicke32
+
+dvd med 3.2 - Menar du köpa från mio?
+annars ska ju denna version fungera på 268,269,268+,269+"
+,Nicke32,2007-06-23T21:40Z,"@Motlef
+
+Jag har gjort en total återställning 2 ggr.
+Allt blir ju återställt utom R23-rom:en
+Men den har jag lagt in på nytt oxå för att få allt helt fräscht. men samma fel varje gång.
+
+Men det är ju ändå anmärkningsvärt att miomap v3.0 fungerar relativt bra, förutom viss bugg.
+Men den har ju kartor som e lika gamla som miomap v2.0. Och jag kan inte byta kartor i den för då låser den sig oxå.
+"
+,Motlef,2007-06-23T22:29Z,"@Nicke32
+
+Ok, jag antar att r23 rom är en underliggande uppdatering som du lagt ver 2.0 på? jag har själv inte uppdaterat nånting förutom låst upp enhet och lagt miomap på minneskort, kan det vara r23:an som orsakar dessa problem? kanske måste du ha den för att få in miomap v2.0 ska fungera?"
+,Nicke32,2007-06-23T23:16Z,"@Motlef
+
+Ingen aning.
+Jag kan testa med å lägga in romen från miomap 2. r.21
+
+Det kanske löser allt, vem vet."
+,Nicke32,2007-06-23T23:43Z,"@Motlef
+
+Hajjar du lr......
+
+Det funkar... sååååå jävla grymmt.
+Bilden blev helt svart men det fixar man till i inställningar för bakgrundsbelyningen.
+
+Fan va bra..
+Tack för tipset Motlef..  svinschysst...
+Du fattar inte hur mycket jag har hållit på me det här alltså.."
+,Motlef,2007-06-23T23:56Z,"@Nicke32
+
+Varsågod :)"
+,Nicke32,2007-06-24T00:03Z,"@Motlef
+
+Om jag vill lägga in nya kartor nu så är det inget hinder lr?"
+,Nicke32,2007-06-24T00:09Z,"@hugin
+
+Jag får tacka även dig för jälpen och att du stått ut med mitt tjöt hela tiden, men jag började bli riktgt tokig nu på slutet.....=)
+
+1000 tack"
+,Evlija,2007-06-24T07:08Z,"@nicke32
+hur fixade  du det här med svarta bilden? var går man då? jag gjorde samma sak som du.."
+,Motlef,2007-06-24T08:19Z,"@Nicke32
+
+Alla kartor upp till 2007 verkar fungera."
+,ttodr,2007-06-24T10:56Z,Hej Jag tog gx.dll filen i gapi foldern efter att jag installerat gapi och bytte ut den som låg på sd kortet så funkade det
+,Evlija,2007-06-24T16:54Z,MEn vilken ROM har u?? R32 den senaste eller?
+,Nicke32,2007-06-24T19:50Z,"@ Evlija
+
+Du gå in å ändrar bakgrundsbelysningen till alltid på.
+Du sätter igång din mio.och du har en svart skärm men du kan tyda ikonerna hoppas jag.
+Längst ner till vänter är inställningsikonen. Truck på den. om du har ljudet på så hör du att den går vidare i menyn. Väl i inställningsmenyn finns 8 ikoner. den tredje på övre raden är inställningar för bakgrunds belysning. välj den. väl inne i den menyn finns fyra val. Den översta är till strömhanteringen. välj där och ställ den på alltid på.
+Klart."
+,hugin,2007-06-24T20:28Z,"@Nicke32
+Gött att du fick det att funkar.. Själv har jag varit ute och åkt några dagar och kunnat testa kamera varningen lite.  ;)"
+,Nicke32,2007-06-24T21:34Z,"@hugin
+
+Jo tack, jag e rätt lycklig nu =)   Men det har vart mycket bråk me maskinen innan det funkade.
+
+Själv då?
+Å det funkade bra antar jag..??   =)
+(kameravarningen)"
+,Evlija,2007-06-24T21:59Z,"Jag har fortfarande problem med min MIO269.
+Provade med ROM21 och bilden flamrade när jag startade den här miomapen, men på ROM23 så fastnar miomapen vid uppstarten..."
+,hugin,2007-06-24T22:17Z,"@Nicke32
+Jo kameravarningen är göbra måste jag säga. Varnar i god tid och hörs bra. Jag är helt nöjd med den biten. Jag är missnöjd med Teleatlas att dom inte sattsar mer på och uppdatera kartmaterialet utanför större städer dock.
+
+@Evilja
+Låter knepigt. Själv körde jag miomap v3.2 med r21 utgåvan tidigare innan patchen blev till av mitac. men r21 va mest uppdatering för TMC har jag för mig."
+,ttodr,2007-06-25T17:48Z,"evlija
+
+Som jag sakt tidigare om mio ""hänger"" sig vid uppstarten så beror det på att du måste byta ut gx.dll filen på ditt sd kort så att den är lika färsk som den gapi skapade"
+,Evlija,2007-06-25T19:53Z,"ah nånting är det fel.
+försökte med det med utan resultat.
+jag tror att det har och göra med när jag försökte instalera skins till winCe och efter det gick det nått snett."
+,Evlija,2007-06-26T20:27Z,"@hugin
+Har du möjlighet o ladda upp hela MIOs Windows mapp här?
+Jag tror att det fattas filer i min:("
+,hugin,2007-06-26T21:49Z,"@Evilja
+Jag pysslar personligen inte med torrents.
+Men fattas det filer i din windows mapp på mion så är det effektivaste att installera om från den skiva du har och sen göra om det andra för att få det att funka igen. Tror inte man kan göra nån effektiv backup av själva windows mappen heller. "
+,Evlija,2007-06-26T21:56Z,"Jag har fått Aplication CD och Miomap CE v1.0
+Ska det finnas windows på miomap CE v1.0 cdn?"
+,Evlija,2007-06-29T17:22Z,"Undrar om man kan formatera hela MIOs disk med hjälp av kontrollpanelen och installera Windows CE, eller kan man lägga in nyaste ROMen från mios hemsida???"
+,Evlija,2007-07-09T08:02Z,"ÄNTLIGENNNN
+Nu har jag fått det här o fungera.
+Instalerade om allt from början altså från miomap V1.0 och vidare till ROM R23.
+Jag behövde inte upplåsa MIOn utan efter installationen av ROMen R23 satte ja in CD kortet med miomap v3.2 och det funkade.
+Miomapen ska läggas i SD:\Miomap\
+Sen funkar den som om den är äkta miomap från MITAC.
+
+Ha det bra allihopa nu ska jag på semester ihaaa..."
+,Evlija,2007-07-09T08:03Z,"CD kortet är fel 
+Det ska va SD kortet :)"
+,Stan,2007-07-09T19:19Z,Funkar kanon att lägga filerna i /MIOMAP & jag hade min crackad så jag tog bara on/off på baksidan sen autostartade den kartan på SD kortet
+,divers,2007-07-10T19:03Z,"Allså måste man lägga in detta på ett SD kort?? Går det ej att lägga in det i hårddisken på miomap 269?????
+Andreas"
+,Evlija,2007-07-10T22:23Z,"Ju det går men då måste du låsa upp MIOn.
+d.v.s. komma åt WinCe på MIOn.
+
+Är det nån som vet var man kan hitta POIs för miomap v3.2 och hur gör man i inställningarna för att dom ska synas på kartan???????"
+,divers,2007-07-11T02:05Z,"Efter jag lagt in detta på SD kortet, hur gör jag sen då??? Allt ligger på kortet som det ska göra, men Hur får jag sedan gpsen att läsa dom kartorna från kortet???  Mia map 269???
+"
+,Stan,2007-07-11T18:59Z,Har du lagt alla filerna i en mapp som heter MIOMAP annars klarar den inte att läsa från SD kortet använd on/off eller reset när den e igång
+,Evlija,2007-07-11T21:36Z,"Japp det borde funka då!
+Men glöm inte att uppdatera MIOn till ROM r23
+Den laddar du ner från Mios hemsida..."
+,divers,2007-07-11T22:21Z,"Ska jag lägga in detta först:
+This patch makes your Mio 269 MioMap V3 compatible
+------------------------------
+Nej, jag har ej döpt någon map till MIOMAP på sd kortet, då ska jag göra det!!!!
+
+Någon av er som vill förklara lite på msn??"
+,rabarb,2007-07-17T21:39Z,Hittar ingen gx.dll i min GAPI-mapp... Går den att hitta någon annanstans?
+,SaKiS_71,2007-07-24T15:12Z,"Hej, kan nån hjälpa mig med detta v3.2, jag har gort allt att få in map på min Mio, men när jag startar om Mion då går det inte att starta SD kort alltså den kommer inte fram startar map 2 hur ska jag göra för att den SD kort ska startas med Mio map v3.2, Någon av er som vill förklara lite på msn.... e-mail, msalkic@msn.com
+
+Stort Tack"
+,SaKiS_71,2007-07-24T15:31Z,"Vill fråga, varför kan jag inte ansluta ActiveSync till Mio jag provade flera gånger det går inte att ansluta den, hur ska man göra e det fel på USB kabel eller e det nåt annat...."
+,Lojsan,2007-07-24T16:09Z,"Hej hej.
+Är det ingen som har program varan för Mio C710 som kan lägga ut den här?? Har slarvat bort min i flytten. 1000 tack på förhand."
+,SlowikPL,2007-07-28T01:33Z,I have the same problem as earlier installation. NO MAPS found error. So no installation in possible. Can anybody tell me how to install this on my Mio 268? (I flashed the mio with latest firmware).
+,SlowikPL,2007-07-28T13:07Z,"I have unlocked my Mio 268 , and try too load the miomap 3.2 but it hangs oSTARTING. how come and what too do ? "
+,SaKiS_71,2007-07-29T17:41Z,"@SlowikPL 
+Hur har du låst upp den, kan du förklara snälla.
+
+Tack"
+,kaffecarl,2007-09-09T13:57Z,Är det någon som vet hur man lägger in egna pois v3.2 versionen utan att behöva åka till platsen och göra det? Med poiwarner i v2 versionen så kunnde man lägga in det från datorn direkt.
+,YouPee,2008-03-17T23:18Z,är det nån som vet art jag kan få tag på kartor till min medion navigator??? tacksam för svar

@@ -1,0 +1,20 @@
+AnyDVD & AnyDVD HD 6.1.6.2 + PATCH
+
+
+
+ ** 15th June 1007 !! **
+AnyDVD is a driver, which descrambles DVD-Movies automatically in the background. This DVD appears unprotected and region code free for all applications and the Windows operating system as well. With AnyDVD's help copy tools like CloneDVD, Pinnacle Instant Copy, InterVideo DVD-Copy, etc. are able to copy CSS protected Movies. You can remove the RPC region code, thereby making the movie region free and viewable on any DVD player and with any DVD player software. With the help of AnyDVD you can watch movies with non matching region codes with every DVD Player Software you like! 
+AnyDVD is capable of removing unwanted movie features, including subtitles and prohibition messages such as copyright and FBI warnings. It also allows you to launch an external application whenever you insert or remove a disc, or prevent 'PC-friendly'software from automatically launching when you insert a video DVD. AnyDVD decrypts not just DVDs: AnyDVD allows you also to play, copy and rip protected Audio CDs! 
+Decryption is not all that AnyDVD offers. You can control the drive speed of your DVD drive, allowing you to reduce the noise level when watching movies on your PC. You can even adjust the display frequency of your monitor for both NTSC and PAL displays. 
+
+ 
+Changes in version 6.1.6.2, 2007 06 14:
+- New (DVD): Added support for a new copy protection to the option to remove "Protection based on unreadable Sectors", e.g. "Free Zone", R1, US
+- Change (DVD): Because of popular demand, the "bad sector count numbers" of versions before 6.1.6.0 are back
+- Change: Shows correct disc size with virtual drives
+- Change: Because of undesired side effects, the Sonic DLA behaviour before version 6.1.5.4 is back
+- Fix (DVD): Because of an internal overflow, some Sony Arccos protections were not removed correctly (e.g., "UFC65", R2, UK)
+- Fix (DVD): Possible hang if heavily scratched or damaged Video DVD was inserted
+- Fix (HD DVD & Blu-ray): In a rare situation, renaming the AACS directory could fail (e.g., "The Hulk", HD DVD, US)
+- Some minor fixes and improvements
+- Updated languages

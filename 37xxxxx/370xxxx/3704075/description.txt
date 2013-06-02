@@ -1,0 +1,30 @@
+PKT-0.1beta is hugely based on torrenthoster, the open-source torrent lister...
+
+Changes in Pr0xyk1LLs version:
+* Changed Layout and added the functionality of changing the layout and colour/theme in the config file.
+
+* Added The ability to edit the config from admin.
+
+* Added Torrent Rating.
+
+* Added Indervidual Torrent Update.
+
+* Added Ajax For Torrent details.
+
+* Added Copyright section.
+
+* Added Ibitzy Torrent Spider WITH STATS! Into Admin.
+
+* Added Files popup on main.
+
+* Added BBClone Stats.
+
+* Added Global downloads stat.
+
+* Changed Admin Layout.
+
+* Added BB Code for Torrent Descriptions.
+
+* Added Ad Rotator that can be edited from admin. Will show ads under menu, on top of the main page and in torrent details.
+
+*Added SBTv1 Tracker (Still in Beta, But it works) Next version will have better stats on each torrent. if you dont want an open tracker then delete announce.php and scrape.php from root.

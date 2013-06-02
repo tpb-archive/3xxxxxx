@@ -1,0 +1,16 @@
+Direct Download Link:
+  
+
+DAEMON Tools is an application for multiprotection emulation. It is further development of Generic Safedisc emulator and incorporates all its features. This program allows running backup copies of SafeDisc, Securom, or Laserlock protected games. Also included is a Virtual DVDROM drive enabling you to use your CD images as if they were already burned to CD. It works with all types of CD/DVDROM drives and supports nearly any CD protection.
+
+Latest changes:
+
+    * This new version supports silent setup now.
+    * Example: daemon408-x86.exe /S /D=F:Some Folder
+    * Note that no quotes must be used in installation path even if name has spaces.
+    * All critical errros will be still displayed no matter silent or not.
+    * Case of parameters is important, eg. /s will not work.
+    * Reboot prompt will not be shown.
+    * If SPTD was not present then it will be silently installed but PC will not be rebooted - it is assumed the administrator who performs unattended install will take care of reboot and restarts DT setup after reboot in this case.
+    * alot of Installation problems (f.e. invalid device, prob 12 etc).
+    * SPTD 1.37 fixes also problem reported with virtual drive from InterVideo DVD Copy 5.		

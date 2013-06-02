@@ -1,0 +1,79 @@
+I'm pleased to announce the immediate availablity of JustLooking 2.5. JustLooking is a program to view pictures and images on your Mac OS X (Tiger) based computer. JustLooking is and will always be very free.
+
+
+While JustLooking 2.5 looks completely unchanged from version 2.0, most of the important plumbing underneath has been replaced! I have completely substituted all of the NSImage based drawing in the old versions with new Core Image, OpenGL, and Quartz image handling code. This has made JustLooking significanly faster at processing images, and transitions between images should now be extremely smooth, even on slower G4 (and hopefully G3 machines too). I have tested the new code on a Mac Book Pro, PowerBook G4 (1.67) and a MacBook with shared video RAM. All were quite responsive and smooth.
+
+
+There has been one "regression" in the program, and that is that the main graphics viewing area is no longer transparent. It turns out that making the OpenGL window do this is quite tricky, and given how many people weren't thrilled about the semi-transparent background, I figured it would be okay to ship with this "limitation". Do you really miss it? Add a comment and let me know.
+
+I am now going to begin, in earnest, work on version 3.0. In addition to all sorts of new features that users have been requesting for a long time, there are a few ugly things in the current version that I simply have to fix:
+
+ * The scroll bars are always out of place.
+ * The default scaling algorithm, while fast, is totally ghetto and looks like crap.
+ * The current saving of rotated images is extremely primitive (except for the lossless JPEG rotation) and really needs to be fixed.
+
+
+New for Version 2.5:
+
+ * Core Image, OpenGL, and Quartz drawing for faster image processing and transitions.
+ * Deleting the last image in a directory caused an exception an error message bug fixed.
+ * Rotating zoomed images not updating scroll bars bug fixed.
+ * Dutch/Flemish version added (thanks to Olaf de Vries).
+ * Added some people to the credits whom I had forgotten. Apologies Emmanuel and Mathias!
+
+
+Version 2.0.2 fixed the arrow key navigation bug many users have seen as well as adds support for:
+
+* Portuguese
+* Traditional Chinese (Mandarin)
+
+Version 2.0.1 added support for:
+
+* Simplified Chinese
+* Swedish
+* Norwegian
+
+as well as fixes to French, German, and Italian.  
+
+
+New for Version 2.0:
+
+    * Based on the suggestions and feedback from some users, I have completely redesigned and rewritten the user interface for JustLooking, implementing the smoked-black look that a lot of applications are moving towards in Leopard.
+    * Image resizing has been made significantly faster and less memory intensive. Image rendering is also much quicker.
+    * There is now remote control support in slide show mode:
+          o next/prev image
+          o pause/restart
+          o exit
+          o increase/decrease show time by 2 sec
+    * Basic saving of rotated images for PNG, GIF (non-animated only), JPEG, TIFF, and BMP file formats.
+    * GIF file support has been completely fixed and is now properly working for all animated and transparent images.
+    * Hold down ?option? key on startup causes app to go to full screen slide show.
+    * I have fixed a number of bugs in the program.
+
+I have released JustLooking in all of the following languages:
+
+    * English
+    * Russian
+    * French
+    * Italian
+    * German
+    * Spanish
+    * Finnish
+    * Swedish
+    * Norwegian
+    * Portuguese
+    * Simplified Chinese
+    * Traditional Chinese
+    * Dutch / Flemish
+
+Introduction
+
+Welcome to JustLooking, an image viewing program for Mac OS X. JustLooking is intended to be used as an image viewer instead of the Preview application on your computer for browsing images. In particular, it has the following differences:
+
+    * It focuses on files and directories instead of lists of files. Thus, once you load a file, you can easily navigate through all other files in the same directory.
+    * It displays images at their native resolution instead of interpreting DPI information stored in the image meta-data. While images are printed at the maximum resolution possible, on screen they are displayed pixel-by-pixel.
+    * Being designed more for viewing of Images, it properly shows animated GIF files.
+    * The entire program can easily be manipulated and powered by simple keystrokes for a quick and pleasant viewing experience.
+    * JustLooking also supports such basic features as printing and rotating and will hopefully prove to be sufficiently functional for most users? needs.
+
+It should be noted that the application is not designed to completely replace Preview, as there are a number of features in the latter that JustLooking simply does not have, such as selecting and copying regions, saving images in various formats, and viewing of Adobe Portable Document Format (PDF) files.

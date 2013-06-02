@@ -1,0 +1,25 @@
+****************************************************************
+This pack contains 10.4.10 Mac OS X delta update for hackintosh!
+****************************************************************
+
+*****************
+Automatic install
+*****************
+
+MacOSXUpd10.4.10AMD.mpkg.zip - Update package for AMD
+MacOSXUpd10.4.10Intel.mpkg.zip - Update package for INTEL
+---- (Both packages comes with 8.10.1 kernel + decrypter) ----
+
+****************************
+Manual install requirements:
+****************************
+
+mach_amd - 8.10.1 xnu kernel (amd/intel/sse3/noNX/hpet/autofsb)
+mach_intel - 8.10.1 xnu kernel (intel/sse3/noNX/hpet/autofsb)
+dsmos.kext - binary decrypter
+
+Don't forget to backup your extensions!!!!
+
+For more informations search your favourite forums.
+
+- Credits goes to netkas,PascalW -

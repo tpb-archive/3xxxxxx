@@ -1,0 +1,27 @@
+AutoGK - THE tool for DivX / XviD backup utility.
+
+Homepage http://www.autogk.me.uk/
+
+Program features support of:
+
+- DVD/VOBs(unencrypted from hdd), MPEG2, MPEG1, transport streams (including multi-program ones) and AVI/DV input sources
+
+- XviD or DivX(5/6) output formats
+
+- AC3, DTS, PCM, MPA input audio tracks
+
+- AC3, DTS, MPA, CBR/VBR MP3 output audio tracks
+
+- two audio tracks in AVI
+
+- external (vobsub) or internal (burnt-in) subtitles (with support of forced subs)
+
+- HDTV input/output resolutions(upto 1920x***) and frame rates (50/60fps)
+
+- automatic crop and resize based on compressibility of the source to achieve best results
+
+- automatic detection of input source: PAL, NTSC, FILM, HYBRID
+
+- automatic deinterlacer and IVTC
+
+- automatic split into CD-sized chunks for main video and external subs

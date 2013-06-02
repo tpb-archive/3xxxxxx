@@ -1,0 +1,88 @@
+Foobar2000 with 3 best skins, tons of plugins and AlbumArtDownloader :D
+It's silent, sfx archive. It will extract all files to "%programfiles%foobar2000", install fonts and add shortcuts to Start Menu. If you want update this archive, just open with WinRAR and copy your files.
+----------------------------------------------------------------------------------------------------------------------
+What's new in my build??:
+- 3 cool skins (with different color versions)
+- AlbumArtDownloader
+- A lot of new, updated plugins (Winamp DSP bridge, Crossfader, Channel Matrix, send to/remove from IPod, AC3/DTS SPDIF, foo_Run and much more)
+- WMP11 Visualization, Egoh Spectrum Analyzer and Peakmeter
+- Miniplayer mode
+- Possibility to select between ulimited backgrounds
+- AlbumArt component for slideshows
+- New Options panel in Playlist (sort order, playlist color, playlist selector, album list panel)
+- New Options in Now playing panel (artist image, album cover, autoscale)
+- New Options in Lyrics Panel (compressed lyrics, expanded lyrics, timestamped lyrics)
+- Use Artist picture as background
+- Use small artist image / small album cover
+- Show/hide big album cover
+- Button to get lyrics using lyricsDB
+- Link to Artist website
+- Rating buttons
+- Artist images
+- Album covers
+- Black / White Playlist color
+- Full Albums / Singles mode in Playlist
+- PNG / JPG images format in Artist or Cover image
+- Auto scale images in Now Playing panel
+- Brightness / Shadow in settings panel
+- Font and fontsize selection (in the main layout)
+and much more...:)
+
+----------------------------------------------------------------------------------------------------------------------
+Screens:
+
+Cepiperez's Dark config 
+http://img58.imageshack.us/my.php?image=01aig6.jpg 
+http://img76.imageshack.us/my.php?image=02acl4.jpg 
+http://img58.imageshack.us/my.php?image=03aex5.jpg 
+http://img58.imageshack.us/my.php?image=04acy5.jpg 
+http://img76.imageshack.us/my.php?image=05aav3.jpg 
+http://img527.imageshack.us/my.php?image=06apo2.jpg 
+http://img76.imageshack.us/my.php?image=07ats1.jpg 
+http://img527.imageshack.us/my.php?image=08ahq7.jpg 
+http://img58.imageshack.us/my.php?image=09ags4.jpg 
+http://img527.imageshack.us/my.php?image=10agr6.jpg
+
+Aeroish Frame 1.0 
+http://img408.imageshack.us/my.php?image=newlook0ix7.png 
+http://img214.imageshack.us/my.php?image=newlook1il6.png
+
+Foo AvA (blue & black) - default skin 
+http://www.fotosik.pl/showFullSize.php?id=62181f188fa03dc2 
+http://www.fotosik.pl/showFullSize.php?id=9f1d087442f8be42 
+http://www.fotosik.pl/showFullSize.php?id=a56fd0759b371f0d 
+http://img74.imageshack.us/my.php?image=helpbiglu2.jpg 
+http://www.fotosik.pl/showFullSize.php?id=e22d83a53622a6eb
+
+-----------------------------------------------------------
+Useful links:
+
+Cepiperez's Dark config - HydrogenAudio Forum: http://www.hydrogenaudio.org/forums/index.php?showtopic=53703
+Foo AvA (blue & black) by dawxxx666 - Neowin Forum http://www.neowin.net/forum/index.php?showtopic=566958
+Foo AvA (blue & black) by dawxxx666 - Polish Forum: http://foobar2000.pl/index.php?showtopic=3068
+My topic on RyanVM forum:
+
+----------------------------------------------------------------------------------------------------------------------
+Important notes:
+Important notes:
+1. Default installation folder is "C:Program Filesfoobar2000"
+2. Front art should be called "*folder*.*" and back art should be called "*back*.*". You can also add "%artist%.*"
+  Those files must be placed with album, e.g. in:
+----------------------------
+D:MusicMETALLICAReload
+-TRACK1.mp3
+-TRACK2.mp3
+-...
+-TRACK13.mp3
+-folder.jpg
+-back.jpg
+-%artist%.jpg
+-----------------------------
+3. If someone have win 2000, try to install GDI+ http://www.microsoft.com/downloads/details.aspx?familyid=6A63AB9C-DF12-4D41-933C-BE590FEAA05A&displaylang=en
+4. Install VC8 SP1 Runtimes. You can find it here: http://acropolis.lokalen.org/2006/10/foobar2000/my-foobar2000-components
+5. You need Pentium 3+ or compatible computer, because some plugins use SSE instructions
+
+----------------------------------------------------------------------------------------------------------------------
+Moje GG: 8756521
+
+Ale w razie problemow prosze, uda? si? na polskie forum foobara2000 oraz HydrogenAudio i poczyta? troch? o tym najlepszym odtwarzaczu.

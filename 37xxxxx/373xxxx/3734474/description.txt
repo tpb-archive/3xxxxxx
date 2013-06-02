@@ -1,0 +1,29 @@
+Alcohol 120% 1.9.6.5429 Retail Incl Loader
+
+
+Alcohol 120% is CD/DVD emulation and recording software that allows users to copy discs. Store your most used or important CDs as images on your computer and run them at 200x speed from up to 31 virtual CD or DVD drives. Alcohol is compatible with more than 99% of drives available. It supports the latest image file types including - MDS, CCD, BIN, CUE, ISO, CDI, BWT, BWI, BWS, BWA and many more. 
+
+ 
+
+Changes in version 1.9.6.5429, 2007-07-02:
+- NEW b5t, b6t and isz in image finder and shell extension options
+- FIX Minor bugs found
+- FIX Automount problem
+- UPDATE Supported drive list
+- UPDATE SPTD to v1.50 
+
+
+----------------------------------------------------------------------------------
+
+Install notes :  Although I ideally do not like loaders,this works for me, do exactly as it says bellow and make sure the auto update option in settings is unchecked and ideally block with a real Firewall not XP one.
+
+
+1) Rename Alcohol.exe on _Alcohol.exe in install directory of Alcohol
+2) copy this Alcohol.exe in install directory of Alcohol
+3) start register.reg
+4) start Alcohol.exe in install directory of Alcohol !!
+
+Do not relink Alcohol.exe !!!
+
+
+I think it means do not run Alcohol with the orignal .exe or shortcut as it could fial to work, you can make a shortcut to the file you relaced it with and edit it so it does not say "shortcut" and "exe" on your neat desktop, but I have ignored this and ran it both ways and its not dead yet.

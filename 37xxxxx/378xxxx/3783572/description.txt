@@ -1,0 +1,39 @@
+August 25, 2007
+
+Released in to the public domain:
+
+A database snapshot of <http://piratebay.org/> from May 31, 2006, 
+and a query log between 15:00 wednesday and 11:00 friday six weeks later.
+
+ * 153904 torrents
+ * 559451 comments
+ * 145706 users
+ * 3,277,709 queries
+
+Data files are encoded with UTF8, tab separated and has a header. All identities have been normalized.
+
+
+torrents.txt.gz:
+
+||          id || num  || identity ||
+||    category || num  || ([1-9][0-9]*)([0-9][0-9]), where 1 is group and 2 is child ||
+||       added || num  || epoch, seconds since 1970 ||
+||    uploader || num  || user identity ||
+||   downloads || num  || number of completed downloads registered to the tracker by user clients ||
+||        name || txt  || title of the torrent ||
+|| description || txt  || details, may contain HTML ||
+
+
+comments.txt.gz:
+
+||  torrent id || num || identity of torrent this is a comment to ||
+||       added || num || epoch, seconds since 1970 ||
+||      author || num || user identity ||
+||     comment || txt || actual content, may contain HTML ||
+
+queries.txt.gz:
+
+||     session || num || session identity ||
+||        time || num || epoch, seconds since 1970 ||
+||    category || num || (0)|(([1-9][0-9]*)00), where 1 is all and 2 is all childs in group ||
+||       query || txt || user query input ||

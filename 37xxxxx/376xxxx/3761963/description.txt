@@ -1,0 +1,13 @@
+This contains the kernel patches and decrypts for Mac OS 10.5 Leopard builds 9A466 and 9A499 which will allow them to run on "vanilla" hardware. Enjoy.
+
+From the README:
+
+9a466 works great on Intel AMD and SSE2 Machines.
+9a499 is still a work in progress and isn't fully working on all machines yet.  Right now it's Intel/AMD.  Even though all the bugs haven't been worked out, it's still fun to play with.
+
+Just go into the appropriate directory and follow the instructions.  A patcher was made because it's all still beta software and it would be silly for you to have to download ANOTHER leopard beta DVD.
+
+Be sure to install on a drive that already has the Darwin Bootloader on it.  It might be necessary to install tiger first, as leopard DVD's do not install the bootloader.
+
+It's gonna be hard to find help with Leopard.  Imac has already stated they don't want anything to do with Leopard and will delete your posts about it, and Netka and Semthex's boards are just as bad.  About the only board you will find help is at http://www.osx86scene.com  They seem the most willing to help.  It's worth a shot.  And on IRC, .hu will not help you with it at all.  The people at irc.moofspeak.net will be the most willing to help you.  Have fun with Apple's newest big cat.
+The Mad Hatter

@@ -1,0 +1,31 @@
+﻿User Type,Username,Date,Text
+,GasGiver4711,2007-06-17T23:39Z,Could anyone >Please Help< us getting AppleMovieTrailers back to work ...
+,Tcip,2007-06-19T05:15Z,I can't find the sources.xml..
+,Tcip,2007-06-19T05:22Z,I tried to search in all files and folers for this text smb. It only find two files containing the text. None of them releted two smb-sharing.. Help..
+,Vader-,2007-06-19T16:05Z,"I used Slayers 2.7 final on 16 drives shared on 3 xboxes and Apple trailors all load and work fine from the MC360 dash. I will use this update on my blank drive ,see what happens. I will comment back when I get a result."
+,zethix,2007-06-19T17:32Z,Är detta samma som T3CH XBMC 2007-06-17 SVN rev9336 eller?
+,Vader-,2007-06-19T19:44Z,"Did nothing for me, I added in only the differences in this update and I see no reason to use it . Slayers 2.7 seems to have made no changes I can see from adding the update. I'll stick with slayers 2.7 for now. Even though Apple trailors are still working I noticed there were missing files in some sections of this update (namely scipts). Maybe this is why you can't use Apple Trailors??"
+,Vader-,2007-06-19T20:26Z,"It would also be nice if the boys made it so updating XBMC on your xbox wasn't automaticaly done on drive E only as all my stuff (XBMC included) is on F. The update should look for XBMC on All drives, then update when found.
+Just a Wish on a list....."
+,Tcip,2007-06-20T02:22Z,"zethix - Skriv på Engelska i dessa trådar då GasGiver4711 är Engelsktalande och många som har kunskapen kan inte Engelska. Men till din fråga, är det samma datum så lär det vara samma build"
+,Tcip,2007-06-20T02:23Z,"Joho, i need some help. :-P"
+,rebecca2,2007-06-20T13:17Z,"I use the build from post from 5-15, and apple trailer works fine for me, only thing that stopped working was the displaying of music visual from Xtv. Tcip whats with smb? you can edit it from smb network share press the white button (edit source), also other in network settings"
+,Tcip,2007-06-20T15:11Z,rebecca2: I have 4 computer in my network.. I wan't to access the file not edit in the xbmc
+,rebecca2,2007-06-20T18:43Z,Tcip: I don't understand. smb share should be seen automatically
+,GasGiver4711,2007-06-20T20:22Z,FINALLY - I got AMT working again - it works perfectly for me as long as i do not use my own  Profile and only use the Master User Profile. When using my own profile i needed to make a folder called script_data under my own userprofile directory - then AMT works ;-)
+,Tcip,2007-06-20T23:02Z,rebecca2 - In the old builds you edit the file sources.xml. This file contain your shared computer.. I can't find this file now..
+,peoplayer,2007-06-22T18:37Z,"Where do I find the ""ShortCut for -C-Drive.cfg""? I only find a ""ShortCut for -C-Drive.xbe"""
+,Tcip,2007-06-22T22:23Z,"peoplayer: 
+It's in the root. With
+ShortCut for -C-Drive (Read .nfo !).xbe
+ShortCut for -C-Drive (Read .nfo !).cfg"
+,rebecca2,2007-06-25T08:21Z,tcip: sources.xml is in userdata
+,Tcip,2007-06-27T14:30Z,rebecca2: Not here. I did get a error when i exctract the files..
+,Tcip,2007-06-27T16:23Z,"I tryed to download this again. I'l get this info when i extract
+
+17.Jun.2007.XBMC.XBOX.MediaCenter.2.0.GasGiver.r00: Cannot create scripts\Apple Movie Trailers\resources\skins\Default\PAL16x9\script-Apple_Movie_Trailers-settings.xml
+The system cannot find the path specified."
+,rebecca2,2007-06-30T16:58Z,"I dont know did download it, no need.. until they come out with something that plays youtube videos again its pointless..  theres no hekp here"
+,solis,2007-07-01T01:34Z,"Apple Movie Trailers (AMT) SVN pre-0.97.4
+http://thepiratebay.org/tor/3729219"
+,Tcip,2007-07-02T01:00Z,is the rar currupted?

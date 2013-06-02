@@ -1,0 +1,23 @@
+﻿User Type,Username,Date,Text
+,Boonaki,2007-06-23T18:51Z,"I was wondering why my torrents were only downloading
+at 30-40k a sec when they had 2000+ seeds, after a few
+hours of research and playing with peer guardian 2, I
+found 100's of connections per seconds comming from
+two sources. media defender and some other (forget).
+
+I added this to my firewall ACL.
+
+Deny All Protocol ANY 216.73.85.0-216.73.88.255 ANY Any
+Deny All Protocol ANY 209.62.175.0-209.62.177.255 ANY Any
+Deny All Protocol ANY 38.99.252.0-38.99.253.255 ANY Any
+Deny All Protocol ANY 64.93.88.0-64.93.93.255 ANY Any
+Deny All Protocol ANY 38.102.233.0-38.102.233.255 ANY Any
+Deny All Protocol ANY 64.93.0.0-64.93.255.255 ANY Any
+
+Boom, 400k a sec downloads once again.
+
+As soon as I started peer guardian I noticed the
+download speed going up, but it topped out when I
+added those to the ACL. 
+
+Beware mediadefender.com"

@@ -1,0 +1,23 @@
+Easy unlocking of Mio 269(+) for use with Miomap 3.2
+
+1. Copy MioMap_english_20.cab to an SD Card.
+2. Switch off your Mio 269 using the switch on the back.
+3. Switch it on again.
+4. Press and hold Volume-up + Flag button until your Mio sounds.
+5. Answer No to erase flash
+6. Klick OK for some file not found.
+7. Klick Taskbar and open Windows Explorer
+8. Open \Storage Card\Installation\ and rename MioMap_english_20.cab to MioMap_english_20.cab.old
+9. Copy MioMap_english_20.cab from the SD Card to \Storage Card\Installation\
+10. Switch off your Mio 269 using the switch on the back.
+11. Switch it on again.
+12. Select English 
+13. Set time and date
+14. When you see the familiar moving car picture, wait 20 sec and press reset.
+15. Now when the Mio starts up you will see the desktop. If you have an SD Card with Miomap in the root directory it will start automaticly.
+
+Notes:
+* Storage Card is not available for writing, the screen will go blinking. -Reset.
+* Mio Transfer will not work. But you are using an SD Card.
+* If you want to use the old Miomap 2: use the switch om the back and select your language (not English).
+* You can of course use any language instead of English if you rename accordingly.

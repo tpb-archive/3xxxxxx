@@ -1,0 +1,65 @@
+﻿User Type,Username,Date,Text
+,Skevast,2007-07-09T05:03Z,Witch drive do you have to use for this hddss.bin? Orginaly it is from a Fujitsu but I believe The Specialit only have support for the WD 120 GB hdd
+[T],igz172,2007-07-09T16:03Z,"His hddhacker tool only supports Western Digital BEVS type drives as of now. (Sata, obviously) "
+,Jimroc,2007-07-19T15:52Z,Please seed this some more.
+,BlakIdPea87,2007-07-28T07:51Z,"TheSpecialist's HDDHackr v0.90 - Adds Support for 120GB Drives!
+>> TheSpecialist sent us the update of HDDHackr(info) many of you were probably waiting for. With the release of an official 120GB drive by Microsoft you can now use this tool to make your own 120GB Xbox360 HDD using a Western Digital Scorpio BEVS-LAT drive (that's a cheap (~80usd for 120GB) SATA 2.5"" PC/laptop drive):
+[QUOTE]
+Attached is the latest version of the hddhackr. It works with the new 120 gb signature. However, this current version can not dump the hddss.bin file automatically from that drive, you'll have to manually dump sectors 16-22 with a tool like winhex and save them as 'hddss.bin'. After that, continue as normal with the hddhackr and everything will be fine.
+
+Also, I'd like to stress that there are 2 versions of the WD BEVS drive out there: the 'RST' and the 'LAT' version. This tool currently ONLY supports the 'LAT' version ! You can find on the sticker of the HDD which version it is. I'll hope to be able to support the RST version of the drive in a future version of this tool.
+[/QUOTE]
+
+From the official readme:
+[QUOTE]
+Hddhacker v0.90 by the Specialist.
+
+* DISCLAIMER:
+This tool has only been tested by me. It worked for me. While great care has been taken, this tool may contain bugs and therefore may seriously harm your HDD. Use at own risk !!!
+
+* What: This tool will allow you to use HDD's that are not 'certified' by Microsoft. This specific tool is written for use with the Western Digital BEVS series only !
+
+* How to use: Get yourself a Western Digital SATA BEVS HDD. To use this tool, you need a HDD security sector file ('hddss.bin'). If you don't have one, here's how to create one from a valid xbox 360 HDD:
+- Dumping the hddss.bin file
+Boot to dos from a writeable medium (like a floppy). Connect an *original* xbox 360 HDD to your SATA controller. Make sure it is the only SATA device that is connected. Now run 'hddhackr -d'. This will create a file 'hddss.bin' and it will save it to the path you've started the hddhackr from.
+- Modding your Western Digital
+Now turn off your PC and connect the Western Digital and boot to dos again.
+Type 'hddhackr -f' from the same path you have saved the hddss.bin file to.
+This will flash your FW. It will ask if you want to create an undo file. It is advised to do so. This will create an 'undo.bin' file that you need if you want to undo the hack.
+- Check if it worked
+Shut down your pc, reboot again to dos and again type 'hddhackr -f'. It should now tell you that the drive should work in your x360. If so, connect it to your x360 and go to your dashboard/system/memory where you should be able to format the drive.
+- Restoring your WD to original state
+If you don't want to use your modded WD in your x360 anymore and you want to flash it back to its original size, then you can now do so. Boot to dos again and run 'hddhackr -u'. This will use the undo.bin file you created before to restore the drive to its original state.
+
+FAQ:
+Q. I get an error when I try to dump hddss.bin from a 120 gb HDD.
+A. This version can't dump from an elite drive yet. You'll have to dump sectors 16-22 manually with a tool like winhex, save them as 'hddss.bin' and then continue like normal, with the hddhackr.
+
+Q. Will this tool allow me to connect a 500 gb drive to my x360 ?
+A. No. The information on sector 16 is signed and can't be changed. You can only use size where you have a valid signature for. In otherwords, if a bigger HDD comes out, you can use that signature.
+
+Q. With which HDD's does this work ?
+A. It currently only works with the 'LAT' version of the Western Digital Scorpio BEVS series. The 'RST' version of that drive is currently NOT supported
+
+Q. Do I need the same size WD HDD as the size on sector 16 states ?
+A. No. You can use bigger HDD's, but you can't use more than the size stated in sector 16. You can NOT use smaller HDD's than the size on sector 16 states. For example, you can use a 40 GB HDD with a sector 16 from a 20 GB HDD, but not the other way around of course.
+
+Q."
+,Tunt3maton,2007-12-11T21:13Z,"I used this to update my Wester Digital Scrorpio. It become to fujitsu drive and it worked in Xbox 360.
+
+If you want to move files to this drive you need Xplorer360 extreme2 version. ( http://360gamesaves.com/forum/index.php?showtopic=11656 )"
+,delateur,2009-01-07T09:28Z,"Just an FYI, this will now work with any of the BEVS series WD hard drives (The 'LAT' and the 'RST' versions) as long as you get the v0.91 version of the hddhackr tool. I just updated an RST drive and it worked like a charm."
+,Sadayoshi,2009-02-03T10:33Z,"Firstly, I would like to thank igz72 for the great torrent. I've just successfully upgraded my pain in the ass 20GB Seagate drive to a 120 GB WDC drive. I will note down some several key points for this file.
+
+1. The hddss.bin found in this torrent is extracted from a Fujitsu drive. However, it WILL WORK on your WDC 120 GB BEVS drive.
+
+2. After executing hddhckr, and choose your drive to be flashed, there will be a warning saying that your firmware is not compatible/correct for your BEVS drive. As I told you on point no.1, just go on!
+
+3. The hddhackr version 0.91 also support BEVS drives with ""UST"" version. So that makes it working for ""LAT"",""RST"" & ""UST"" WDC BEVS drive so far.
+
+4. No, I don't restore files (game saves, tags, profile, etc) from the old 20 GB drive as it might get complicated for some (including me) & a possible previous save games error, I think I'll live happy by playing all of them once more. However, I just found this out on restoring your files from your old drive. http://forums.xbox-scene.com/index.php?showtopic=668416
+
+Hope this helps you somehow.
+Cheers
+"
+,xandelolxd,2009-08-14T02:35Z,What can I do with this?

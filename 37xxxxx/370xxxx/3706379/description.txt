@@ -1,0 +1,25 @@
+This utility is a replacement for the spyware-infested WinZix program.
+
+Should you have been unfortunate enough to have downloaded a ZIX archive, this app helps you extract the contents.
+
+Check the readme file and the FAQ first, okay?
+
+News (version 0.0.7)
+=====================
+* Rewritten to handle multi-gigabyte ZIX archives.
+* Almost certainly will not get confused by unknown metainformation
+* Issues warnings about common hoaxes and virus-infected files
+* Performs a basic check on AVI files in the archive, and reports if
+  they are garbage (so you don't have to extract it).
+
+Oh, and two things:
+
+*   Please seed this for a while if you find it useful.
+
+*   Don't keep seeding downloads which contain ZIX archives. Others who
+    aren't as smart as you will be tricked into installing spyware.
+    Better they shold be annoyed about dead torrents than be tormented
+    by viruses and/or spyware. Show some cybermercy, would you?
+
+Cheers!
+//NeverShaveYourDuck

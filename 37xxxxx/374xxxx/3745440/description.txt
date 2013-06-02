@@ -1,0 +1,11 @@
+Notepad++ es un editor de código fuente libre, que admite varios lenguajes de programación y se ejecuta en Microsoft Windows.
+
+Este proyecto, basado en el componente de edición Scintilla, está escrito en C++ utilizando directamente la API de Win32 y STL, lo que asegura una velocidad mayor de ejecución y un tamaño más reducido del programa final. Se distribuye bajo los términos de la Licencia Pública General de GNU.
+
+Los lenguajes de programación admitidos son: C, C++, Java, C#, XML, HTML, PHP, JavaScript, archivos de recursos RC, makefile, Arte ASCII, doxygen, archivos INI, archivos por lotes (BAT), ASP, archivos VB/VBS, Shell script de UNIX, SQL, Objective-C, CSS, Pascal, Perl, Python, Lua, TeX, TCL, lenguaje ensamblador, Ruby, Lisp, Scheme, Smalltalk, PostScript, VHDL, FORTRAN, Ada, Caml, AutoIt, KiXtart, Matlab y Verilog. Además, los usuarios pueden definir su propio lenguaje usando User Language Define System incorporado, el cual hace al Notepad++ extensible, para tener resaltado de sintaxis y plegamiento de sintaxis.
+
+Admite autocompletado, búsqueda y reemplazo usando expresiones regulares, edición con pantalla dividida, Zoom de texto, marcadores de texto (bookmark), y resaltado de paréntesis e indentación. Admite macros y plugins. Hay incluido por defecto un plugin, escrito por usuario, llamado TextFX, que proporciona muchas opciones de transformación de texto.
+
+Notepad++ no es solamente editor de código fuente, también, gracias a su velocidad, es una alternativa al bloc de notas. Con su implementación de navegación por pestañas, moverse entre los archivos de texto abiertos es más confortable.
+
+Aunque Scintilla no permite búsqueda y reemplazo de expresiones regulares múltiples, Notepad++ permite el uso de plugins que ayudan a mitigar este hecho.

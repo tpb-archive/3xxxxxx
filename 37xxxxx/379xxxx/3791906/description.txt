@@ -1,0 +1,5 @@
+OpenOffice 2.2.1 for Slackintosh PowerPc
+
+Built with:
+
+./configure --disable-pam --with-jdk-home=/opt/IBMJava2-ppc-142/ --disable-mozilla --with-use-shell=bash --with-build-version="Built by Marco -Mc- Guolo for Slackintosh" --disable-qadevooo --disable-odk --disable-gnome-vfs --with-package-format=native

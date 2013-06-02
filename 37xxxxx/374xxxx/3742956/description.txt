@@ -1,0 +1,240 @@
+Applications : Windows : English
+Macintosh Emulator for Microsoft Windows - includes both the SoftMac XP 
+
+Classic Edition for Windows 95/98/200 and SoftMac XP Xpress Edition for 
+
+Windows XP
+
+Operating systems:
+
+* Windows 95/98/Me
+* Windows NT 4.0
+* Windows 2000
+* Windows XP *
+* Windows 2003 *
+* Windows Longhorn *
+
+* - 32-bit OS editions only
+
+Disk devices supported:
+
+* IDE and SCSI CD-ROM drives
+* 3.5 inch 1.44M floppy disks
+* 120M LS-120 floppy disks
+* Iomega ZIP and Jaz disks
+* external SCSI hard disks
+* external USB drives
+* Sony Memory Stick drives
+
+Additional drivers required:
+
+* Users of Windows NT 4.0 and Windows 2000 need to install Adaptec's latest 
+
+ASPI SCSI drivers for accessing Macintosh SCSI and CD-ROM devices.
+
+This is the full release of the SoftMac XP Suite version 8.2. It replaces all 
+
+earlier releases of SoftMac 2000 and adds compatibility with Windows XP and 
+
+Windows 2003. Use it to run System 7 and Mac OS 8 on your Windows computer at 
+
+speeds that rival most Power Macintosh computers!
+
+Windows users: the SOFTMAC.ZIP file is an executable self-extracting ZIP file. 
+
+We recommend that you click on the link to SOFTMAC.ZIP. When prompted by your 
+
+browser, select Save to save the file to your computer as the file 
+
+SOFTMAC_SETUP.EXE. Then run that file to install the SoftMac XP product suite 
+
+to your Windows computer and set up the appropriate Start menu shortcuts.
+
+If you wish to save the SoftMac release as a ZIP file, the SOFTMAC.ZIP file 
+
+can be saved to disk and extracted using PKUNZIP, WinZIP, StuffIt Expander, 
+
+the Windows XP Explorer, or other ZIP file extractor .
+
+This setup program installs two versions of SoftMac XP. If you are using an 
+
+older PC (Pentium II or earlier, Windows 98 or earlier) we recommend using the 
+
+SoftMac XP Classic Edition, as it is smaller and memory efficient. If you are 
+
+using a more current PC, we recommend using the SoftMac XP Xpress Edition 
+
+which is optimized for the Intel Pentium 4 and Windows XP, and also offers 
+
+higher limits on memory and graphics emulation. A 30-day trial activation is 
+
+required.
+
+Please read the full SoftMac documentation before trying to run SoftMac XP. 
+
+Severe damage to your PC can result if SoftMac XP is used improperly.
+
+Windows 95, Windows NT 4.0, and Windows 2000 users: You need to make sure ASPI 
+
+(the Windows driver WNASPI32.DLL) is installed on your system for Windows to 
+
+be able to read your Macintosh CD-ROMs and ZIP disks. Various versions of the 
+
+ASPI driver can be downloaded from Adaptec's web site and from here.
+
+Users of Windows 98, Windows Millennium, Windows XP, and Windows 2003 do not 
+
+need to download or install ASPI as your Windows release can already read 
+
+Macintosh CD-ROMs.
+
+It is also recommended that you update your video drivers and DirectX drivers 
+
+to their latest versions. Some older ATI RAGE PRO video drivers (used by 
+
+All-In-Wonder-Pro and similar cards) are known to be buggy and will cause 
+
+displays problems in SoftMac as well as Internet Explorer and other Windows 
+
+applications.
+
+
+Gemulator Explorer 2.03
+
+Operating systems:
+
+* Windows 95/98/Me
+* Windows NT 4.0
+* Windows 2000
+
+Disk devices supported:
+
+* IDE and SCSI CD-ROM drives
+* 3.5 inch 1.44M floppy disks
+* 120M LS-120 floppy disks
+* Iomega ZIP and Jaz disks
+* external SCSI hard disks
+
+Additional drivers required:
+
+* Adaptec's latest ASPI SCSI drivers for accessing SCSI and CD-ROM devices.
+
+
+ith Gemulator Explorer, you can access and copy files from any Macintosh 1.44M 
+
+floppy disk, Macintosh CD-ROM, Macintosh ZIP disk, external Macintosh SCSI 
+
+hard drive, Atari ST formatted floppy disk, Atari ST ZIP disk, Atari ST 
+
+formatted hard drive, and even disk image files.
+
+This utility is also great for creating disk images of your floppies and even 
+
+CD-ROMs, as these images can later be mounted in a Macintosh emulator. Floppy 
+
+disk images can also be copied back to a real floppy disk for fast disk 
+
+duplication or quick formatting of Macintosh floppy disks on your PC.
+
+Supports disk image files created by Mac OS Disk Copy, by various Macintosh 
+
+emulators (.DSK files from SoftMac 2000, .HFX/.HFV files from Executor, 
+
+Fusion, vMac, and Basilisk II), and by Atari emulators. Use Gemulator Explorer 
+
+to read disks and disk images that MS-DOS and Windows normally won't!
+
+To install, unZIP the contents of GEMXPLOR.ZIP and make sure you that you're 
+
+previously installed ASPI. Then run GEMXPLOR.EXE. The program will display a 
+
+list of available disk drives, including any SCSI devices such as CD-ROMs and 
+
+ZIP drives. Click on any drive and on the right half of the window you'll see 
+
+a disk directory of the files on that disk. Navigate the directory just like 
+
+any Windows directory, by double clicking on directory icons to go into a 
+
+directory, and pressing backspace to exit a directory.
+
+This free release is limited to copying a single file at a time from the Mac 
+
+or Atari disk to your PC's disk.
+
+
+Disk Image Creation Utilities
+
+MAKEDSK
+
+
+Operating systems:
+
+* Windows 95/98/Me
+* Windows NT 4.0
+* Windows 2000
+* Windows XP
+* Windows 2003
+* Windows Longhorn
+
+
+Utilities to create blank disk image files. The main use for this is to create 
+
+blank Macintosh hard disk images for use with SoftMac 2000 and other Macintosh 
+
+emulators, or to create blank Atari ST hard disk images for use by Gemulator. 
+
+To install, unZIP the contents of MAKEDSK.ZIP. There are two similar utilities 
+
+provided - MAKEDSK.EXE and MAKEIMG.EXE.
+
+MAKEDSK.EXE is used to create a large zero-filled file on your hard disk. This 
+
+can then be mounted by SoftMac 2000 and formatted using the Mac OS disk 
+
+formatting utility as a large Macintosh hard disk partition.
+
+MAKEIMG.EXE is used to create pre-formatted Macintosh hard disk and floppy 
+
+disk images. The images are formatted in standard HFS format and contain a 
+
+blank root directory. The files can then be mounted as .HFX files by SoftMac 
+
+2000 and other Macintosh emulators.
+
+From a command line prompt type MAKEIMG or MAKEDSK followed by the name of the 
+
+image file to create and the size in kilobytes. For example, to create a blank 
+
+formatted Macintosh floppy disk image, type:
+
+MAKEIMG UNTITLED.IMG 1440
+
+You can then use the Gemulator Explorer utility to write this image to a real 
+
+floppy disk, thus being able to format a Macintosh floppy disk on your PC! 
+
+Another example, to create a 500 megabyte Macintosh hard disk image for use 
+
+with SoftMac 2000, (which you can mount and format with the Mac OS).
+
+
+
+
+QEMU is an emulator for various CPUs. It works on Linux, Windows, FreeBSD and 
+
+Mac OS X. Windows version is in an alpha stage.
+
+What's New!
+Patches for VNC and VVFAT are added. (2006/11/25)
+Binary for all patches is updated.
+Debugging Tips is updated. (2006/11/08)
+Binary for SPARC with all patches is added. (2006/11/03)
+Binary for all patches is updated. (2006/10/30)
+Binary for keyboard is updated. (2006/10/28)
+Binary for all patches is updated. (2006/10/26)
+Binary for keyboard is updated. (2006/10/23)
+Binary for all patches is added. (2006/10/21)
+Binary for keyboard is added.
+
+Please Seed If You Can Thanks

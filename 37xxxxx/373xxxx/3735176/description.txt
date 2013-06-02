@@ -1,0 +1,9 @@
+FS Global 2008 is a Mesh-Scenery, which covers most of the whole earth. This exactly explains what FS Global 2008 is and what it is not.
+
+Mesh-Sceneries are Sceneries of the 3D world in Flight Simulator. They may have different resolutions. The higher the resolution (= LOD = Level Of Detail), the better and realistic this scenery will be in Flight Simulator. "Normal" scenery is displayed as LOD5. This is a resolution of about 1,2km. The USA are generally displayed as LOD6. But Microsoft has added small higher resolution sceneries as LOD9 (about 70m resolution) in some few areas. 
+
+A smaller LOD-number means a worse, a higher LOD-number means a better resolution. 
+
+These various LODs are displayed automatically in your Flight Simulator in a way, that the higher resolution mesh will be displayed above the lower resolution mesh. You do not to have to do anything yourself. Flight Simulator scans the files, finds the one with mesh content and displays them accordingly.
+
+However, not only resolution is important. The datasource is important as well! All LOD5 data are based upon so called GTOPO30 Data. These data are based on DCW data (back in 1998 part of the source for our first FS Global) plus additions which habe been generated in some unordinary and venturous way. Parts of these data have been created from drawn charts, which themselves have been made after travel descriptions! Parts of that more than 100 years old! Maybe you can understand now, why your FS looks "old" in some areas.

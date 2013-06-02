@@ -1,0 +1,97 @@
+~ System33r Stealth Downloader ~
+
+Written By System33r (k0nsl) from the devNET software group ( http://teksys.joshie.com/ )
+
+
+(Information is a virus. And we intend to infect all of you)
+
+
+Thanks alot to my friend r3l4x for the base source
+
+
+
+* What This Is... *
+
+In simple terms: It is a Web Downloader. It can be used to download any file you wish from any 
+website and then either execute it hidden, normal or just download the file without any execution.
+
+It has the ability to temporarily disable more than 800 Firewalls and
+Anti-Virus programs/services (They are all encrypted...)
+
+Server can, if defined, delete itself after execution. You also have the ability to pack it
+with either fsg or upx. The Server Builder has a sleek interface and is easy to use.
+
+* Extension Hint *
+
+Since these days its getting more and more difficult to find webservers who allow hosting of
+Win32 PE (EXE) files, so heres a little trick to bypass that:
+Just change the extension of your exe file to something else for instance system33r.jpg and
+upload it to your webhost. And in SSD when you add a new URL/Download just specify 
+http://you.yourhost.com/system33r.jpg and most importantly the local filename would be
+something like system33r.exe, don't forget that. SSD will download the system33r.jpg file and
+execute it as an Win32 PE (executable) File - Just don't forget to save the local filename to
+system33r.exe, for instance =)
+
+
+Email me at k0nsl@msn.com if you think that you can help out with anything, or if you want
+something added which isn't already.
+
+
+* Main Features *
+
+- Melt Server
+- Extreme FW/AV Kill (over 800 AV/FW in the list!)
+- Encryption
+- Fake Error Message
+- Small 32kb unpacked, with all options enabled (FW/AV kill, Melt, URLs etc)
+- Ability to pack with either fsg or upx!
+- Server has good Error Handling
+- Easy to-use GUI (small support for Skins.)
+- If UPX packing is specified it also scrambles the server =)
+- If it cannot kill a process it operates silently without errors
+- Runs in the background (hidden from taskmgr etc)
+- Ability to define wether downloads should be executed hiddenly, visible or don't execute at all
+- Undetected from ALL anti-virus software! (I hope)
+- Support for MANY downloads!
+
+
+* Testers: *
+
+- Gil (Vodka)
+- Sector-X
+- JakeKool
+- DelaCroix
+- Anyone else who wants to do testing before initial release send a msg to my msn k0nsl@msn.com
+
+
+* AV-issues: *
+
+None, I hope. It will of course be detected once the spies has gotten their hands on it, though
+
+
+* Compability Issues: *
+
+Hopefully none. I've implemented much error handling, which increased the size somewhat more
+
+
+* Thanks: *
+
+Alchemist for being a good sport and coder of a great RAT
+
+Special thanks to Joshie, Gil, DelaCroix and all the regulars in #trinity
+
+
+* Credits: *
+
+This application is based upon the source of Infinite Downloader v1.0 By r3l4x.
+modWin32Ver By Nick Campbeln
+ZoneAlarm Mutex Exploit By Alchemist
+
+
+* Warning *
+
+This file should have been found on common forums such as CIA, EES, AYF which I frequent the
+most.
+
+
+EOF

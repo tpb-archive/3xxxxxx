@@ -1,0 +1,57 @@
+﻿User Type,Username,Date,Text
+,jennysalala,2007-07-16T01:08Z,"Just to clarify, this won't work on SSE2 CPU's yet? And if that's correct, how long will it be until it comes.
+
+I hope I'm not being a pest."
+,eximer,2007-07-16T07:42Z,"Thanks for your ongoin work, myz. Will check it out.
+
+And thanks for the warning about  diskutil (although it seems some people just don't read the caveats in your nfo...)"
+,larry_the_cable_guy,2007-07-17T13:26Z,"SSE2 won't be coming until Apple releases the source code for the 10.4.10 kernel.  It is impractical to add the emulator via hex editing as is done for the current kernel hack.
+
+About MBR: if setting up partitions using Disk Utility, on the left, click on the hard drive (not any partitions).  On the right, choose the Partition tab.  Adjust the size(s) of the partitions as you want.  Then (very important!): click on the Options button at the bottom and select Master Boot Record."
+,go2mp,2007-07-17T19:39Z,hi after install i must cleanup the appleintelcpupowermanagement.kext.....	I've got kernel panik 	otherwise.
+,JohnDoe60914,2007-07-19T01:19Z,k Little help here. I installed using VMware (due to lack of discs lol) successfully got everything set up then when i try to boot into OSX Without VMware Either get a CPU Called Panic error or an error saying it couldnt mount the hfs. I did make sure that it was the MBR durring partitioning. Any ideas?
+,rafaelmnz,2007-08-07T02:41Z,Does anyone knows if this version works with SATA on nf410 mobo? Thx
+,ToOLoNgLyF,2007-08-15T04:25Z,"euuh... when i install this thing.. it stops at 14% and then tell me to reinstall it...
+anybody got that error ?"
+,htalabis,2007-08-21T08:47Z,"Thanks _TubGirl_! I got it working though i'm having some problem with my NIC. But for people who does not any clue what to do, here's some tips:
+
+You should have an SS3 processor. All Pentium D, Celeron D, Athlon64 and Sempron 2600+ up. Download CPUID to verify your SS3 CPU.
+
+Recommend HDD interface is PATA. Though my nForce SATA able to detect by OSX 10.4.10, previous version does not.
+
+OSX installer has a built in partitioning tool. Browse for it and use it.
+
+Download Acronis Disk Director Suite and use the feature ""Boot loader"". There is an easier way to boot but this is the way for n00bs.
+
+"
+,intrax,2007-09-12T18:31Z,Not ALL Athon64's have sse3 so check first !
+,bleachie,2007-09-14T08:46Z,"boots fine, but i tried the same fix for wireless as i was using for the jas 10.4.8 build. my card was already added in the first file, but the second file i needed to edit wasn't there. anyone know a fix for wireless in this build?"
+,MACinized,2007-09-23T05:28Z,is this just for amd? how about for intel?
+,rcore,2007-09-26T13:56Z,anyone have a prob d.ling this...seems everytime i get to about 68% bit torrent gives me errors and ends the download?
+,DisabledTrucker,2007-10-22T14:43Z,Will an update to this be forthcoming soon?  Will it include the 7 updates that are available for it?  Anyone have any trouble using those updates?
+,DisabledTrucker,2007-10-22T14:53Z,"I have to respond to some of these stupid comments here:
+
+1.  If you're looking for an Intel Version, keep looking, this is for AMD based systems and there are a plethora of Intel versions already out.
+
+2.  All you have to do is create the DVD of this image and put it in your computer when the first screen comes up, click on your language, the second screen, look for utilities and then for disk utility and then for partition, create the partition as stated in the info above, then exit the utility and continue with the install.  This is all you have to do, it will boot just fine like this, if you do run into any problems use -x -v -f to boot into it then modify your boot.plist file to read -f and add quiet boot = yes.  This will start it up just as if you were running on a regular computer.  You may want to install any other drivers not included on the image prior to changing the plist file though.
+
+3.  All AMD64's since San Diego all have SSE3 support."
+,micato,2007-11-14T14:32Z,Perfect Release for AMD SystemÂ´s.
+,intrax,2007-11-14T21:55Z,"@smartass disabledfucker
+amd athlon 64 fx-51, 3000+ and 3200+ have NO repeat NO sse3 support ! so you CANNOT run this BE AWARE !"
+,RadioGods,2007-11-19T06:31Z,"@intrax
+
+You're an idiot.  All Athlon 64's since Venice Stepping E3 and San Diego Stepping E4 have had SSE3."
+,Trust.No.One,2007-12-01T19:37Z,"Ok every one who is expereenceing low speeds on this torrent...=) i have come to your rescue! In 5 hours this download will be done for me (its been  going at 20 kb/s) and ill upload it again under the name Tubgirl's osx86 10.4.10 AMD
+
+PS- I have a 1.5 megabte upload rate and i can seed all the time execpt for 11pm - 5am EASTERN TIME this will be seeded on a seperate machine. so no lagg! =) that is all."
+,slinger2g,2008-02-07T01:06Z,"OH GOOD!!!!! MIND SEEDING NOW?
+
+PLEEEEEEEEEAAAAAAASE"
+,intrax,2008-03-11T19:25Z,"@RadioGods
+The idiot is YOU ! Not all Athlon x64's have sse3, see my comment before !"
+,Pegasus_69,2008-06-30T20:24Z,Great upload!Thank you! I just installed this and works great! Unfortunately it doesn't have drivers for Nvidia GeForce 6150 or Nvidia Gigabit LAN. Any suggestions where I might those? Thanks again!
+,nicholasblock,2008-07-07T07:32Z,"thanks for the genorus seeding!!
+keep it up!!!"
+,lars1110,2009-01-07T02:05Z,Omg please seed i need this realy bad even though its 10.4.9 im going to upgrade but none of my the other installs work people tell me this will work on my acer aspire 5000 so can you please seed for at least a day untill it downloads my top speed on my internet is 1mb a second :)
+,lars1110,2009-01-07T05:16Z,10 kb a second and only 3 seeders im not getting anywere with this i have to leave tomarow at 3 pm eastern time us and its 11:13 am now so i beg of you please i created a acount just and hour ago to ask you to please seed eve though this is an old version of mac os x :( i just need at least 100 kb o atleast something beter than 10 or 15 kb a second  

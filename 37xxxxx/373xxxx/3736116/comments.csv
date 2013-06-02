@@ -1,0 +1,9 @@
+﻿User Type,Username,Date,Text
+,david8704,2007-07-08T20:14Z,"hur fungerar det här? vad exakt gör programet?
+//
+how does this work? what is the app doing?"
+,mrnoname,2007-07-08T20:26Z,"Programmet lägger till 21 kända ip uppslag för TPB i din hosts-fil.  http://en.wikipedia.org/wiki/Hosts_file
+
+Din dator kommer sen förlita sig på information i hosts när den tex eftersöker domänen thepiratebay.org istället för att göra en namnuppslagning hos din ISP. (Din isp kan ju om de vill peka dig mot en helt annan server än TPB's riktiga, tex en Denied sida)
+
+"

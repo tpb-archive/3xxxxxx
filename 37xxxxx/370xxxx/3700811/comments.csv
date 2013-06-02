@@ -1,0 +1,12 @@
+﻿User Type,Username,Date,Text
+,sforester,2007-06-01T22:46Z,"I cannot figure out how to demux your .ts files. Please tell me how i can do this, or any easier way to reencode them into something more x360 friendly such as a wmv wrapper.
+
+Thanks for the great uploads by the way. Any help on this problem would be greatly appreciated."
+[T],HDTV CHINA,2007-06-02T01:00Z,"first uninstall all codes and filters, and then install windows media player 11 and finalcodec.
+encode for xbox you can use megui, but xbox it has limte bits. and you need long time to encode."
+,oswald1234,2007-06-02T08:30Z,"Dude  ,,,  use the  old  halli splitter. I  pulled my hair out on  these.try  old  versions.let  me   know
+"
+,sforester,2007-06-02T21:50Z,"Ok, I was mistaken, I can demux all of your ts files, except for Serenity. DGIndex tells me that it cannot find audio or video data, then tells me to check the PIDs. I can manually set the Audio PID, but when I try to set the Video PID it says that it does not contain a video header. The files play fine, both audio and video, I just cant demux them. Any ideas what the problem is?"
+[T],HDTV CHINA,2007-06-03T00:50Z,DGIndex not support for vc-1 and dd+.
+,sforester,2007-06-03T06:09Z,"Oh, well that makes me feel better. So what would be the best way to convert those files?"
+[T],HDTV CHINA,2007-06-03T12:41Z,Use Canopus ProCoder 2.04.02 vc-1 to mpeg2

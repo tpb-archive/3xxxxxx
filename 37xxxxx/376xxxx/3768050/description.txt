@@ -1,0 +1,27 @@
+SWEDISH:
+Denna metod för att låsa upp din mio är i princip hämtad här: 
+http://www.gpspassion.com/forumsen/topic.asp?TOPIC_ID=86112
+
+MEN. Jag har modifierat innehållet i vad som kopieras över till din Mio liksom en del ändringar i registret. Detta för att de program som skapas i din Mio skall funka. (I orginalet saknas vissa dll-er).
+
+Gör så här:
+1. Zippa upp innehållet till ett tomt SD-minneskort
+2. Kolla att roten i detta kort innehåller följande: Oscar100DM.exe, Oscar100DM.scp, MioAutoRun (en mapp)
+3. Sätt kortet i din Mio 26xx och stäng av med strömbrytaren på baksidan.
+4. Slå på strömbrytaren och omedelbart håll och tryck "Volym upp" och "Flagg-knappen" samtidigt ända tills Mion piper.
+5. På frågan "Clean all data in My flash disk" klickar du NO (nej).
+6. Efter automatisk reset ser du nu Windows CE skrivbord med bl.a. en genväg till MioMap på minneskortet "SD Card".
+
+ENGLISH:
+This methode to unlock your Mio is in principal got from: 
+http://www.gpspassion.com/forumsen/topic.asp?TOPIC_ID=86112
+
+BUT. I have modified what is copied to your MIo and did some changes in the registry to make the installed programmes to work. (Some dll:s was missing).
+
+Todo:
+1. Unzip to an emty SD Card
+2. Check that the root dir contains the following: Oscar100DM.exe, Oscar100DM.scp, MioAutoRun (folder)
+3. Put this SD Card in to your Mio26xx and switch off using on/off on the back.
+4. Switch on again and immidatly press and hold "Volyme up" and The "Flag button" at the same time until your Mio beeps.
+5. On the question ""Clean all data in My flash disk" click NO.
+6. After an automatic reset you should be able to see the Windows CE desktop.

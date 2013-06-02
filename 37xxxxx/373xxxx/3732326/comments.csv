@@ -1,0 +1,228 @@
+﻿User Type,Username,Date,Text
+,blaffe,2007-07-04T18:28Z,i was totally freaked out when i werer running around in that cornfield... scared the hell out of me..
+,ekdikeo,2007-07-05T05:09Z,"so far, i'm the only seed, and i've seen anywhere from 30-50 people downloading, so it's a pretty long struggle to get it out there.  
+
+Keep workin on it, and we'll eventually get it.  I've been trying to locate this retail for people for months, and it seems impossible :("
+,ekdikeo,2007-07-05T06:22Z,"oh, here's something else:
+
+You may want to also pickup a mod that fixes some other problems, as well:
+
+http://mods.moddb.com/8257/bladein/
+
+Install that after installing hte game, and the patch.  It includes a server launcher, as well as fixes for a major performance issue in game, and a bug that causes crashes when downloading from servers.  "
+,ekdikeo,2007-07-05T22:11Z,"Sorry about downtime for those stuck at 0K right now, the network drive that has the actual files on it is offline due to an impending lightning storm, and hopefully will be back soon."
+,hjorten1,2007-07-05T22:48Z,"hope u can get it to work soon,i am stuck in 96% now :-("
+,ekdikeo,2007-07-05T23:21Z,"coming back up in a minute, as the storms are passed, and i'm donig a Recheck on it right now"
+,ekdikeo,2007-07-06T00:18Z,"alright, it's almost distributed to the first people, so keep seeding it, and make sure you visit undeadgames.com for mods and support!"
+,hjorten1,2007-07-06T01:14Z,":-) Yeeahh have it now,and keeping seeding it.Thanks ekdikeo."
+,n4ku,2007-07-24T00:19Z,"ekdikeo, can you please tell me how i install the cd2? "
+,n4ku,2007-07-24T00:33Z,"blaffe, are you swedish? Because i need help how to install cd2.. because after a while.. the shit requires cd2, but i cant fix it.. :/ help please..."
+[T],Knaster,2007-07-24T04:30Z,lol swedes! crazy ppl
+,n4ku,2007-07-24T11:55Z,"Knaster, can you help me then?"
+,n4ku,2007-07-24T17:32Z,Lol.. i have done the whole game. :>>>>>>> It was pretty easy..
+,ekdikeo,2007-08-03T01:03Z,"The DNS name for the LOTD Master Server has expired. The server is still running, but to get to it, you'll need to: 
+
+Edit your LOTD.INI file (typically c:\program files\groove games\land of the dead\system\lotd.ini ) 
+
+Find the section titled 
+
+""[IpDrv.MasterServerLink]"" 
+
+Make the first couple lines of it look like: 
+
+[IpDrv.MasterServerLink] 
+;MasterServerAddress[0]=www.landofthedeadmatchmaking.com 
+MasterServerAddress[0]=68.179.42.242 
+
+
+ie, put a ; in front of the existing MasterServerAdddress[0] line, and add the new one there. 
+
+When the DNS problem is resolved, then you can remove the change, and it'll go back to the way it was. 
+
+* Server operators, of course, change your server's ini file, as well."
+,HSDeluxe,2007-08-06T13:22Z,"i have problem with playing the game. i am able to install and patch the game but when i want to start the game i just get this...
+No Label
+
+OS: Windows XP 5.1 (Build: 2600)
+CPU: AuthenticAMD Unknown processor @ 2012 MHz with 2047MB RAM
+Video: NVIDIA GeForce FX 5700LE (9371)
+
+Negative delta time!
+
+History: UGameEngine::Tick "
+,HSDeluxe,2007-08-06T23:07Z,"plz help me with this i want to play this game
+i've tryed reinstall and using no patchplz help"
+,HSDeluxe,2007-08-07T02:08Z,"hey guys i just get rid of the problem
+it was so easy that I didn't checked it"
+,0Billie0Joe0,2007-08-09T15:01Z,"omg I downloaded this and it's not working at all.
+
+When I try to open the LOTD icon a readme file pops up and it says: 
+
+Log: Log file open, 08/09/07 09:01:08
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows XP 5.1 (Build: 2600)
+Init: Version: 2226
+Init: Compiled: Nov  9 2005 12:37:21
+Init: Command line: 
+Init: Base directory: C:\Downloads\LOTD-Install\LOTD - Patch 1\System\
+Init: Character set: Unicode
+Critical: appError called:
+Critical: MisingIni
+Critical: Windows GetLastError: The system cannot find the file specified. (2)
+Critical: appInit
+Exit: Exiting.
+Uninitialized: Name subsystem shut down
+Uninitialized: Log file closed, 08/09/07 09:01:08
+
+How do I get those missing ini files???
+
+Thanks,"
+,ekdikeo,2007-08-10T23:56Z,"Looks like you're trying to run the patch before installing the game.  Mount the ISO images, and install the game first"
+,edde799,2007-08-20T09:43Z,ok ok what do u do once u install lotd??????? then when u install the patch where da hell do u pu it
+,edde799,2007-08-24T15:09Z," Label
+
+OS: Windows XP 5.1 (Build: 2600)
+CPU: GenuineIntel Unknown processor @ 3249 MHz with 511MB RAM
+Video: NVIDIA GeForce FX 5700LE (7730)
+
+General protection fault!
+
+History: LocalMapURL "
+,Dico1337,2007-09-02T21:55Z,Need seeders on 99% please help me :)
+,Immortal_Flesh,2007-09-06T23:05Z,"I am having the same problems as many who have downloaded this game. I was hoping someone could help. I have played this gameright up to the theatre level and when I complete the level and it starts to load into the nect level which is the docks I believe I get this Critical Error come up at desktop.....
+
+No Label
+
+OS: Windows 2000 5.0 (Build: 2195)
+CPU: GenuineIntel PentiumPro-class processor @ 497 MHz with 319MB RAM
+Video: NVIDIA RIVA TNT2 Model 64 (1240)
+
+Assertion failed: &Mips(MipLevel).DataArray(0) [File:UnTex.cpp] [Line: 1146]
+
+History: UTexture::ConvertDXT "
+,Immortal_Flesh,2007-09-07T05:05Z,"I wanted to let everyone know that I will be seeding this particular torrent for a month. Being that it took me 2 days to download this, I wanted to pass on the torch sort of speak. Also I will leave my pc over night with limited upload
+And one more thing, thanks to ekdikeo for this cool and fun torent, even though I still have problems with it"
+,Terrox,2007-09-15T13:25Z,how do i install it? i just got the patch and 4 other files
+,Terrox,2007-09-16T17:26Z,my friend helped me now :D
+,jameater,2007-11-25T07:55Z,why does azureus say there's no seeds?
+,qrahaon,2008-01-10T18:43Z,"From: http://www.groovegames.com/support.html#land_of_the_dead
+
+When launching the game you are getting the error message: Negative Delta Time 
+
+To solve the issue, follow these steps: 
+1) Right click on the Land of the Dead icon 
+2) Choose the properties option 
+3) Click on the compatibility tab on the menu that appears 
+4) Put a check mark in the ""Run this program in compatibility mode"" 
+5) In the dropbox underneath choose ""Windows 98/Windows Me"" 
+
+The game should be able to run now."
+,Davidos667,2008-01-27T10:21Z,"Somebody seed this motherfuckin son of a bitch file!
+
+I'm goin at 2.0 kb for two days straight now and it's pissing me off...
+
+
+'Please'"
+,heromilkshake,2008-02-12T15:53Z,how do i install it? i just got the patch and 4 other files.
+,yehello,2008-02-17T17:27Z,"God (not good) this is going fast for me 1.1mb/s fast for me, nice."
+,yehello,2008-02-17T17:58Z,can some one help me i cant create a profile in the game i press create but nothing happend
+,styrik1202235007,2008-03-06T01:19Z,same problem as Terrox please help me!!
+,stickgore,2008-03-20T23:12Z,I ugghhh how do I get it to work? I downloaded it and theirs 4 things and a patch what I do?
+[T],FuCtUpPuNk,2008-08-26T07:43Z,"I UPLOADED MAPS MY GF AND I MADE FOR ONLINE (below link)
+they are all deathmatch
+
+
+http://hosted.filefront.com/FuCtUpPuNk/"
+[T],FuCtUpPuNk,2009-02-15T08:40Z,"http://thepiratebay.org/torrent/4724514/Land_of_The_Dead__with_online_play_and_632_extra_online_maps
+
+this is the game of land of the dead (full game)
+
+you can play it online and it has extra maps to play online. it also has extra and modded weapons in it......ENJOY and please seed."
+,alexisonfirefan91,2009-12-16T08:53Z,can someone seed this for me...please its been at 0kbs for awhile now stuck at 41% :( common pretty please its almost xmas
+[T],FuCtUpPuNk,2009-12-25T12:33Z,"every lotd map ever made on filefront
+
+all 4 parts need to be extracted together. this contains every land of the dead: road to fiddlers green map/level ever made for multiplayer mode
+
+(PART 1) http://www.filefront.com/15205965/every-lotd-map-ever-made.7z.001/
+(PART 2) http://www.filefront.com/15206743/every-lotd-map-ever-made.7z.002/
+(PART 3) http://www.filefront.com/15206737/every-lotd-map-ever-made.7z.003/
+(PART 4) http://www.filefront.com/15206857/every-lotd-map-ever-made.7z.004/
+
+
+
+
+
+before downloading you must know that this is extremely compressed, when extracted it's 7.56 gigs while compressed it's 2.14 gigs. be sure to have about 12 gigs free. need both room to download the files and then more room so it can extract.
+
+Instructions
+download all of the ""every lotd ever map made.7z"" files and extract them all together (there are 4 parts). use 7zip (if you don't have it go to www.7zip.org it's free). highlight all the files and right click one of them, select extract. after it is fully extracted place all of the files in your land of the dead install directory ""C:\Program Files\Groove Games\Land Of The Dead""
+you'll notice the install directory ""C:\Program Files\Groove Games\Land Of The Dead"" and this update have all the same folders: animations, audio, levels, meshes, system, textures. so what you do is take the files from the folder in this update and place them in the same folder in land of the deads install directory. it's pretty easy.
+NOTE: Land of the Dead has a patch V1.1, this must be installed to use any custome made content including everything in this package. the patch can be obtained at http://www.landofthedeadmatchmaking.com/ (land of the deads master server site)
+
+DESCRIPTION OF WHAT THIS CONTAINS:
+this package contains every land of the dead road to fiddlers green map ever made by any player as of december 23, 2009. all the update packs (1 - 2, the map and audio packs (1 and 2), the infection pack, and trins lms packs maps are all included in here, plus so much extra. this contains everything lotd has to offer
+a total of 728 maps/levels and all the needed files to run them. all are intended for the online play of land of the dead.
+the game now has new weapon types modded into certain multiplayer maps, some may just be improved versions of other weapons or the same weapon with a different affect. there's also things like rocket launchers, flame throwers, dynamite, grenades, shovels, hammers, spiked bats, snipers, glocks, uzis, ak-74s, m16s, shotguns, chainsaws, weapons with flashlights attached, mp5s, miniguns, crossbows, reapers, ninjastars, cleavers, dawn rifles, glocks, ETC (way more).
+
+THE ONLINE GAMETYPES AND DESCRIPTIONS OF THEM:
+INVASION
+All Players vs the zombies. you run around and kill zombies. try to stay alive till the time runs out. some maps are so big it feels like you're playing in an actual city.
+
+CAPTURE THE FLAG
+A team based game where you are on 1 of 2 teams, red or blue. you start in your teams base with your teams flag, you must make it to the other teams base and grab their flag then get back to yours without dying, kill anyone or zombie that gets in your way. if you die the flag is left where u died until 1 of the teams grab it. if the opposing team gets the flag it goes straight to their base but if your team gets it, they continue to your base. this game type requires both going for their flag and guarding your own...you need both people leaving and guarding the base at all times
+
+TEAM DEATH MATCH
+team based game. start off on either red or blue team, kill players from the opposing team while trying not to be killed by the other team or zombies. the first team to get to the set score wins, or the team with the higher points total when the time runs out wins
+
+DEATH MATCH
+Every player for themselves. kill all the other players as many times as you can and die as few times as you can. gain the highest score and watch out for zombies during the set time. first player to reach the set score or the player with the highest score when the time runs out wins.
+
+INFEC"
+[T],FuCtUpPuNk,2009-12-30T21:47Z,"srry for second post but links below had broken files to all the maps. here are fixed links
+
+(PART 1) http://www.filefront.com/15205965/every-lotd-map-ever-made.7z.001/
+(PART 2) http://www.filefront.com/15249643/every-lotd-map-ever-made.7z.002/
+(PART 3) http://www.filefront.com/15250649/every-lotd-map-ever-made.7z.003/
+(PART 4) http://www.filefront.com/15251717/every-lotd-map-ever-made.7z.004/"
+,weedman1984,2010-01-14T21:21Z,"PLEASE SEED, i wanna this game!!"
+,weedman1984,2010-01-16T14:45Z,"No seeders,please someone SEED!!!! "
+,matsman123,2010-02-28T10:46Z,Lol i dont no how to seed xD
+,matsman123,2010-02-28T10:55Z,Yayyyy 0.1kb/s
+,thophs,2010-03-08T06:14Z,"seed please 
+stuck at 86 %
+seed it please"
+,Juniperlee,2010-05-16T21:31Z,"hey ekdikeo , im stuck at  99.8 % and its just been 4 days and im stuck at the same damn point , plz help , i  really lyk to play this game !"
+,SatorSquare,2010-07-30T21:17Z,Would someone mind seeding? I'm stuck at 99.8%.
+,Neo_Evo_Rocks,2010-08-21T23:59Z,"Anyone want to seed?
+
+i'm at 99.8... Shite"
+,Iroh,2010-12-09T13:26Z,Please say this works on Windows 7 !!
+,jonald145,2011-05-20T09:05Z,"hey guys i need your help...LOTD game is running just fine in single player..but when i reached the level that you and OTIS will go to the docks.. a message just pops up:
+
+No Label
+
+OS: Windows NT 4.0 (Build: 1381)
+CPU: GenuineIntel Unknown processor @ 1696 MHz with 511MB RAM
+Video: NVIDIA RIVA TNT2 Model 64/Model 64 Pro (Microsoft Corporation) (5673)
+
+Assertion failed: &Mips(MipLevel).DataArray(0) [File:UnTex.cpp] [Line: 1146]
+
+History: UTexture::ConvertDXT "
+,demonicperdition,2011-05-28T04:05Z,Thanks for a great game. I loved the movie and love the game even more.
+,sparky823,2011-08-29T06:57Z,hoping to see if this is a good game been trying to get my hands on it for a wile :) thnkz for the upload
+,muiGz,2011-12-03T12:48Z,"Working perfectly on windows 7 :)
+and i had one problem.. at first i launched the game it gave this error message: Negative Delta Time but i fixed that with this 
+
+1) Right click on the Land of the Dead icon 
+2) Choose the properties option 
+3) Click on the compatibility tab on the menu that appears 
+4) Put a check mark in the ""Run this program in compatibility mode"" 
+5) In the dropbox underneath choose ""Windows 98/Windows Me"" 
+
+Works for me :)"
+,Ninja1990,2012-01-18T04:49Z,how do i install game i stuck at insert disk 2 i thaught of mounting disk 2 but still diddnt work can someone tell me how to install i can seed for a month if someone tells me
+,Ninja1990,2012-01-18T04:52Z,what do u do at disk 2? i tryed mounting disk 2 but have no clue what to do help please and in return i shall seed for a month
+,militarycanadian,2012-02-04T22:30Z,"on the level heavy gunner   the game locks up and crashes....... after all that work of beating that far for nothing.  would have been nice to play the ending.
+
+just so you all know you wont be able to finish it!!"
+,militarycanadian,2012-02-05T22:05Z,thanks anyways tho uploader   game worked fine untill that level

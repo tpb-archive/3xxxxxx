@@ -1,0 +1,43 @@
+﻿User Type,Username,Date,Text
+[M],Q91,2007-09-05T10:14Z,"the lag is propably caused by dosbox, since it cant always be pre-configured for ALL computers.. heck personally 'I barely got it running (not for this torrent)"
+,lenonx,2007-09-06T11:38Z,"I've got no lag at all. New version of DosBox is wornking fine. Maybe that's why:
+
+This release fixes a few bugs that slipped through when releasing 0.71.
+Here a list of the changes:
+
+    * Fixed unitialized variable in joystick. (Fixes crashes on Vista and Mac OS X)
+
+    * Some bugfixes and speedups to the 64 bit recompiling core.
+
+    * Fixed sign flag on soundblaster dma transfers (Space Quest 6 intro)
+
+    * Fixed a bug in keyboard layout processing code and fixed certain layouts.
+
+    * Fixed Dreamweb.
+
+    * Improved speed unlocking when running cycles=max.
+
+    * Fixed a crash related to the tab completion in the shell.
+
+    * Improved aspect correction code. Should now be like how a real monitor handles it.
+
+    * Fixed a bug in the xms status report code. (Blake Stone 1.0 shareware)
+
+    * Added a lot more keyboard layouts.
+
+    * Fixed crash related to changing the scaler before a screen was created.
+
+    * Hopefully fixed compilation on *bsd.
+
+    * Enabled auto cpu core selection for recompiling core as well.
+
+    * Made the used joystick selectable when 4axis is specified.
+
+    * Added some hints for inexperienced DOS users to the shell. "
+,MazterL,2007-11-16T14:12Z,"This new version of DosBox, can you change the Frameskip and CPUCycle in it as well? 
+
+If so, try to speed up by adding more Cycles or maybe add 2-5 Frameskip to remove any lag you experience. So happens that you better PC you have, the worse you will experience some older games. So if someone with a PC much faster than yours configure DosBox, then you will experience lag since DosBox will see your machine as being much better and faster than it really is, hence it wil likely create lag. So slow down the emulation or add frameskip. 
+"
+,MazterL,2007-11-16T14:14Z,Any chance you can upload the DosBox alone? 
+,YbeRn00b,2008-05-02T22:13Z,Download dosbox from abandonia.com
+,some_j,2009-04-28T04:28Z,"can someone seed this one , thx for this "

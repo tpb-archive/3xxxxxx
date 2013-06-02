@@ -1,0 +1,71 @@
+﻿User Type,Username,Date,Text
+,umeboshi,2007-08-09T21:13Z,"Today, while browsing the list of recent torrents, Mildred Pierce flashed before me.  This led me to take a look at the list of torrents that you've posted.  Much of what you have uploaded, I've never bothered to even try to search for in the past, as those movies are pretty hard to find.
+
+While perusing your posts, I came across Black Narcissus and Peeping Tom.  I started to leech them, then noticed later that you had reposted them, and the older torrents appear to be gone now.  What should I do?  Should I continue with the older torrent, or should I switch to the newer one?
+
+I also noticed that Cactus Flower has no seeds, but a long list of peers at 99%.  Perhaps you may be able to seed it for a short while to let the others catch up and hopefully continue seeding.
+
+-----------
+The above was written yesterday, but not submitted.  This morning I woke up to a full hard drive.  I am trying to develop a policy that will let me seed for the maximum amount of time available until the hard drive fills.  I am somewhat new to messing with these torrents.  Is there a better place, like a forum to discuss topics not directly related to your torrents in a comment section?  I took a look a the forum link on the bottom of the tpb site, but didn't find any topics discussing how people manage their torrents.  I am going to use this spot here to briefly outline the policy and operating environment that I'm currently trying to follow.
+
+There is a central axiom that guides what is seeded by me --  ""The minority needs more help than the majority"".
+
+This means I am less likely to continue seeding a more popular torrent when there is a need for a less 
+popular torrent (that I happen to have and like).  It feels better and more satisfying to be able to provide a less popular, albeit valuable, torrent, than it does by simply being another drop in the bucket on a very popular one.  This axiom is one of the main reasons I decided to place this comment here, rather than on a more popular torrent.  Black Narcissus is not very popular with my peers.  Heck, I don't even think my mom knows that this movie even exists, and she likes old movies.
+
+Operating environment
+----------------------
+
+The torrent server is on an old pentium 2 with 640M ram and 80G hard drive devoted to torrents.  Needless to say this drive is not difficult to fill up.  I use rtorrent for my client.
+
+A torrent does not get removed from this drive until the drive is full (or really close).  The torrents are then removed according the their ratios.  Anything that is popular and r>1 is automatically removed.  I try to only free up enough space to continue leeching, which means that this is mostly a daily routine.  I do remove more when I plan to be gone for a whole weekend.
+
+
+Generally, when I get to burning dvd's of these torrents, I have a procedure for that too.  All dvd's with torrents have a top-level torrents directory that has a copy of the .torrent file for each torrent on that dvd.  All dvd's I burn (torrents or not) have an md5sums.txt file included (checked after the burn) to help maintain integrity.  I do this to prepare to reseed a torrent upon request.  This brings me back to this comment here.  I am looking for a way to list the torrents that I have burned and stored, and a method for people to request that I seed something.  I think that this will be helpful to many people, especially for the less common, yet frequently requested torrents.
+
+I apologize for the lengthy comment, but some of this has been sitting on my chest an needed letting out, and I couldn't think of a better place for it.
+ Thanks :)"
+,umeboshi,2007-08-10T03:47Z,"Ok, I figured out the answer for Black Narcissus ...
+--------------------------------------------------------
+
+umeboshi@shishi:/media/maxtor/share/torrent-dl/torrents$ btshowmetainfo Black_Narcissus.3641099.TPB.torrent
+btshowmetainfo 20030621 - decode BitTorrent metainfo files
+
+metainfo file.: Black_Narcissus.3641099.TPB.torrent
+info hash.....: 7868a4d4f158a809174fe1f9bf10f480420a2685
+directory name: Black Narcissus
+files.........:
+   Black.Narcissus.1947.CRiTERiON.DVDRip.XviD-BrG.nfo (8811)
+   brg-bn.avi (732776448)
+   brg-bn.idx (48651)
+   brg-bn.sub (4409344)
+archive size..: 737243254 (2812 * 262144 + 94326)
+announce url..: http://tpb.tracker.thepiratebay.org/announce
+comment.......:
+umeboshi@shishi:/media/maxtor/share/torrent-dl/torrents$ btshowmetainfo Black_Narcissus.3767397.TPB.torrent
+btshowmetainfo 20030621 - decode BitTorrent metainfo files
+
+metainfo file.: Black_Narcissus.3767397.TPB.torrent
+info hash.....: 7868a4d4f158a809174fe1f9bf10f480420a2685
+directory name: Black Narcissus
+files.........:
+   Black.Narcissus.1947.CRiTERiON.DVDRip.XviD-BrG.nfo (8811)
+   brg-bn.avi (732776448)
+   brg-bn.idx (48651)
+   brg-bn.sub (4409344)
+archive size..: 737243254 (2812 * 262144 + 94326)
+announce url..: http://tpb.tracker.thepiratebay.org/announce
+comment.......:
+umeboshi@shishi:/media/maxtor/share/torrent-dl/torrents$
+
+--------------------------------
+It's clear to me now that the info hash is what is used to identify the torrent.  It really makes no difference which torrent file I use.  This brings me to question why post another torrent when an equivalent torrent was already available?  It's no big deal, I'm just curious.  As I said above, I'm still kind of a noob with these torrents.
+
+Thanks again for this movie (This particular one I had a continuous gnutella search up for months, and only found a song with this name)."
+,gva71,2007-08-26T09:48Z,"Excellent quality, and such a great movie, thanks a lot for the upload"
+,khilji,2008-05-28T11:16Z,"Hi  Can I have this torrent?
+
+[11-10-2006] -> Aandhi.1975.DVDRip.XviD-BrG"
+,gratitude10,2010-05-26T01:09Z,Thank you.
+,shasham,2010-06-11T02:21Z,Thank you so much for this!!! It is very much appreciated. Will seed. Cheers!
+,snowbirds,2011-03-26T04:59Z,"aren't noobs like Umeboshi cute??? seriously.... he's writing his memoirs to understand this torrent thing, and he expects you jackasses to actually write him back and respond to him....  If only the whole world worked like you expect it to, Umeboshi... I for sure would be a lot happier... ;)"

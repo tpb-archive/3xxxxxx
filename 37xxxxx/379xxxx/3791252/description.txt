@@ -1,0 +1,11 @@
+heres a program to change mac and more on sb4100.sb4200,sb5100 without any cables nor jtag simply change network card ip to
+
+ip adress---192.168.100.10
+submask-----255.225.225.0
+default gateway--192.168.100.1
+
+make sure u first insall vb runtime which is in rar file--- VB6.0-KB290887-X86.exe
+
+then once vb6 is insatlled open uncaptoll.exe in rar file
+
+go to factory mode on/off acivate facory mode on then modem will reboot once it rebooted go to change mac put in new mac reboot modem and whallha all done no cables or jtag needed 

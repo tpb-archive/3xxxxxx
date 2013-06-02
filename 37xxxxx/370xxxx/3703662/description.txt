@@ -1,0 +1,59 @@
+Easy CD-DA Extractor - the "Swiss Army Knife of Digital Audio" is 4-in-1 software that rips Audio CDs, converts music files, and burns Audio CDs, MP3 CDs, WMA CDs, and Data CDs.
+Easy CD-DA Extractor supports all popular audio file formats - 3G2, 3GP, MP1, MP2, MP3, Windows Media Audio, Ogg Vorbis, MP4, M4A, AAC, aacPlus v1 (HE-AAC, AAC+), aacPlus v2 (HE-AAC v2, HE-AAC+PS, eAAC+), FLAC, Musepack, WavPack, WAV, AIFF, Monkey's Audio, Shorten, CUE and M3U. Also, the Nero Digital (Nero AAC) is supported if you have the Nero Burning ROM installed on your computer. State-of-the-art audio encoding technology - Easy CD-DA Extractor includes the most advanced audio codec available, the aacPlus from the Coding Technologies. Additionally, Easy CD-DA Extractor also supports command line (.exe) encoders. Easy CD-DA Extractor compatible with Windows 2000 and Windows XP. Available in 26 languages.
+
+Easy CD-DA Extractor actually contains four separate programs:
+? Audio CD Ripper - Rips audio CD's.
+? Audio File Format Converter - Converts audio files from one format to another.
+? Audio CD Creator - Creates audio CD's from audio files.
+? MP3/WMA CD Creator - Creates MP3 CDs, WMA CDs, MP3/WMA CDs, and any Data CDs.
+
+Features of Easy CD-DA Extractor 10 :
+
+? Audio CD Ripper features :
+- Hi-performance multithreaded buffered CD-ripping & encoding
+- Copies "Copy-Protected" CDs
+- Error Recovery, reads audio from badly scratched CDs
+- Download and upload disc information from/to the freedb, the Internet Compact Disc Database.
+- Volume Normalizer and Compressor
+- Fade In/Out
+- Silence deletion from the start and end of a song
+- Reads CD-Text
+- Output Formats: MP3, Windows Media Audio 8 and 9, Ogg Vorbis, MP4, M4A, AAC, FLAC, Musepack, VQF, WAV, AIFF, Monkey's Audio, and any command line encoder
+
+? Audio File Format Converter features :
+- Volume Normalizer
+- Volume Compressor
+- Fade In/Out
+- Silence deletion from the start and end of a song
+- Input formats: MP1, MP2, MP3, WMA, Ogg Vorbis, MP4, M4A, AAC, FLAC, Musepack, WAV, Shorten, and Monkey's Audio
+- Output Formats: MP3, Windows Media Audio 8 and 9, Ogg Vorbis, MP4, M4A, AAC, FLAC, Musepack, VQF, WAV, AIFF, and Monkey's Audio, and any command line encoder
+
+? Audio CD Creator features:
+- Supports all CD-recorders without need to update the program when a new CD-recorder becomes available, all CD-recorder parameters are automatically detected!
+- Writes CD-Text
+- Supports buffer underrun prevention technologies
+- Input Formats: MP1, MP2, MP3, WMA, Ogg Vorbis, MP4, M4A, AAC, FLAC, Musepack, WAV, and Monkey's Audio
+
+? MP3/WMA CD Creator features :
+- Writes MP3 CDs that can be played on MP3 compatible CD-players.
+- Writes WMA CDs, and standard Data CDs.
+- Supports Unicode and long filenames.
+- Uses BURN-Proof for error-free CD burning.
+
+Changes in Easy CD-DA Extractor 10.1:
+- Codec Update: WavPack 4.41 encoder and decoder
+- Codec Update: Support for M4B format
+- Codec Update: Support for 48kHz samplerates in WMA encoder.
+- 22% Smaller download
+- 37% Less memory usage (!!)
+- Significantly faster startup
+- Better handling of non CD-quality (44.1kHz) samplerates in Audio File Format Converter
+- All Windows ACM Codec formats are now available via ".wav (ACM Codecs)" output plug-in
+- LAME MP3 Encoder info-header is written to the CBR files also (previously only VBR)
+- Windows Explorer context menu option now available in the installer
+- Performance of the Audio File Format Converter filelist (cover art handling) improved.
+- WMA track number metadata is now zero-padded (e.g. 01, 02 and so on)
+- Ask to Erase CD-RW when inserted CD-RW is not blank
+- "Audiobook" category added
+- Bugfix: Now remembers the last used folders (again)
+- Bugfix: Changing the ID3V2 settings from Options / Settings did not apply until the program was restarted. Now works correctly.

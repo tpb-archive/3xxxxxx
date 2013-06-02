@@ -1,0 +1,82 @@
+﻿User Type,Username,Date,Text
+,uggenabben,2007-05-30T21:20Z,Great! Thanks!
+,DocWallabee,2007-05-31T00:59Z,"Thanks for the upload! I have downloaded every pack you have put out there! GREAT WORK!!!  Everything works great!!  I recommend M3 DS Simply or Supercard DS1. Both are very easy to use, just un-rar the files and transfer the .nds file to the card!   again.........THANKS!!!!"
+,kerasmus,2007-05-31T18:35Z,Hi I have some of your other packs. How can I change the .zip files to .7z? Do I need to upack them and then pack them again with .7z?. Thanks Keras
+[T],magumagu,2007-06-01T16:36Z,"@kerasmus
+Yes, you are correct; you basically need to unpack and repack every file. For myself, I use a batch-file script to do it for me.
+Basically you get 7z.exe from the command-line version of 7-Zip (http://www.7-zip.org) and grep.exe and sed.exe from the unxutils package (http://unxutils.sourceforge.net). Put those in the root rom-folder of yours and create a batch-file (I named mine 7z-repack.bat). Edit the batch file and put the following in it (Copy/Paste is your friend).
+-----------------8output.tmp
+for /F ""delims=/"" %%a in (output.tmp) do 7z e ""%%a.zip"" && 7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on -bd ""%%a.7z"" ""*.nds"" && rm ""%%a.zip"" ""*.nds""
+rm output.tmp
+-----------------8"
+[T],magumagu,2007-06-01T16:40Z,"Crap, the comment broke by using ""less-than"" signs in comment.
+
+Well, the code's supposed be:
+@echo off
+dir /B /S *.zip |sed ""s/\.zip//"" |grep -v .tmp >output.tmp
+for /F ""delims=/"" %%a in (output.tmp) do 7z e ""%%a.zip"" && 7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on -bd ""%%a.7z"" ""*.nds"" && rm ""%%a.zip"" ""*.nds""
+rm output.tmp
+
+
+
+Then run that batch file and it will:
+1) Scan the sub-folder structure of the current directory for any zip-files.
+2) Un-pack the zips, one at a time.
+3) Repack the rom from step 2 using 7z, maximum compression.
+4) Remove the original zip and the unpacked rom.
+5) Repeat for all found rom-zips.
+
+//joda"
+,bitslicker,2007-06-01T17:38Z,"its great to see that you got rid of the zip format and adopted the 7z format. this save a considerable amount of bandwidth for those with slower connections.
+
+@kerasmus, you can convert to the rar format and save about the same about of space as 7z. winrar has a convert feature that integrated into the windows shell. just select all your files and right click and convert."
+,whatstone98,2007-06-03T08:58Z,"Ok I'm a noob, but I have one question:
+
+What does the letter in the end of the gamenames mean?
+I understand that (J) means japan, but what does the other like (U) and (E) mean?
+please give me a list. or a link. "
+,dat12,2007-06-03T09:27Z,"whatstone98 
+
+the (U) means US
+the (E) means Europe"
+,Danne_Matte,2007-06-03T10:26Z,"ok jag är ""mega"" Noob på det här men kan man alltså köra alla dom här spelen på ett ds om man köper ett extreme kort t.ex.?"
+,Danne_Matte,2007-06-03T10:27Z,"ok i,m noob at this but can you play all these games on a ds if you get a Extreme card, for exampel"
+[T],magumagu,2007-06-04T12:30Z,"@Danne_matte
+Knåpade ihop en liten guide på:
+Made a guide on:
+http://joda.ordkunskap.se/nds.php"
+,EuroMartin,2007-06-04T16:47Z,Excellent releases! Many thanks! :)
+,rodan_424,2007-08-08T23:17Z,"Tack ifall:D:D min msn: rodan_424
+
+Men vet inte om spelen funkar har ite tankat hem dom än(:P jag har spelet den touch bomber man en gpng var fett roligt"
+,manjina,2007-08-23T08:55Z,"hehe. tuckered out joda? or just tired of the crappy games out for the DS?
+
+current release is at 1329."
+,oblachubs,2007-09-01T05:14Z,Any chance someone can seed this?  Much appreciated. 
+,zyxomaniac,2007-09-12T01:09Z,"Hepp!
+
+Thanks for excellent uploads and thanks for the repack-script.
+
+One note: remove the """" around ""*.nds"" or the rm won't work causing an increasingly large 7z to be created. At least if the zip-files are all in the same dir.
+
+after editing the scipt should look like this:
+@echo off
+dir /B /S *.zip |sed ""s/\.zip//"" |grep -v .tmp >output.tmp
+for /F ""delims=/"" %%a in (output.tmp) do 7z e ""%%a.zip"" && 7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on -bd ""%%a.7z"" ""*.nds"" && rm ""%%a.zip"" *.nds
+rm output.tmp
+
+peace."
+[T],magumagu,2007-10-15T16:05Z,"Finally new releases!
+Now complete up to 1500.
+
+http://thepiratebay.org/user/magumagu/
+
+//joda"
+,manjina,2007-11-19T16:06Z,"octo, you need to set the path to 7zip.exe:
+
+@echo off
+set sevenZ=""C:\Program Files\7-Zip\7z.exe""
+dir /B /S *.zip |sed ""s/\.zip//"" |grep -v .tmp >output.tmp
+for /F ""delims=/"" %%a in (output.tmp) do %SevenZ% e ""%%a.zip"" && %SevenZ% a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on -bd ""%%a.7z"" ""*.nds"" && rm ""%%a.zip"" *.nds
+rm output.tmp"
+,windowsxpbt,2009-10-23T11:31Z,SEED PLZ PLZ PLZ PLZ PLZ I NEED THIS SO BAD PLZ SEED 

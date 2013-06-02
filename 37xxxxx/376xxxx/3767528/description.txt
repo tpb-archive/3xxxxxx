@@ -1,0 +1,480 @@
+Hey all, this is a brand new release mod for Battlefield 2142. Here's the change list for you to gander at;
+
+Conflict 2142 MOD CHANGE LOG   
+____________________________________________________________________________________________
+--------------------------------------------------------------------------------------------         
+      ::::::::        ::::::::::         ::::::::          :::          :::         ::::::::  
+    :+:    :+:       :+:               :+:    :+:       :+:+:         :+:         :+:    :+:  
+   +:+              +:+                     +:+          +:+        +:+ +:+            +:+    
+  +#+              :#::+::#              +#+            +#+       +#+  +:+          +#+       
+ +#+              +#+                 +#+              +#+      +#+#+#+#+#+      +#+          
+#+#    #+#       #+#                #+#               #+#            #+#       #+#            
+########        ###               ##########       #######          ###      ##########  
+--------------------------------------------------------------------------------------------
+----------------------------------www.conflict2142.com--------------------------------------
+--------------------------------------------------------------------------------------------
+
+
+v2.0
+Compatible with EAs 1.25 patch
+Numerous performance enhancements.
+
+New Gamemode - Attack Or Defend
+One team starts with all the flags. They have to defend these flags from the other team. If they loose a flag they cannot recapture it.
+To take the control points the attacking team just has to touch the flag once, then 3 minutes later reinforcemnets will be able to spawn at the captured area. To win either one team out kills the other, alternatly the attackers can cap out the defenders. Defenders should not venture too far from their flags otherwise the rounds could be very short.
+
+Weapons
+All weapons have new skins.
+Fixed bug with shields/AMPs not sticking to vehicles
+Players can now place 3 APMs
+Knives are back, but with varied hit-points depending on where on the body you stab (Head-shots FTW) :)
+Fixed bugs with GAPR. (pulse seeking rocket)
+New static weapon for main base protection, codenamed "Shredder".
+Players kits now have correct camo patterns
+New Jungle cammo for players and vehicles
+Changed Orbital Strike to reduce lag.
+Balanced Carbine to standard of other assault rifles.
+Engineer has one Infantry PDS
+Orbital Strike is now request only from squad leaders.
+Assult now has emp nades
+Support now has smoke nades
+New handheld Anti Air pillum weapon.
+New Pickup Kits with specialist weapons
+
+
+Vehicles
+GCSI Piranah - Rib boat with granade launcher.
+IFAV - Fixed motion mine bug.
+EMP Effect has been increased on land vehicles.
+Merc Tank - Increased damage of rail gun
+New AA GUnships - New flight physics +Pilot has heat seeking missles and chain guns, gunner has bombs and wireguided missiles.
+Gunships  - Fixed bug with rotating pilot machine guns
+Mechs - Week-spot no longer takes damage from bullets.
+Hover Tanks - can now have passanger ride on the side.
+Hover Tanks - Fixed water movement.
+Hover Jeeps - can now go over water.
+Cattapult - New missile effects.
+FAV - Fixed 75% health bug.
+
+New Maps: 
+
+"Jungle Boogie"
+Pac and EU go head to head in an all out jungle warfare map. First map to fully feature "Attack or Defend". 
+
+"Operation Aqua"
+One of the many flooded cities became the perfect staging point for the PAC to set their ambush again the EU forces.
+
+"Route 66"
+This famous strech of US high way has become the staging ground of one largest battles fought in the conflict of 2142.
+
+"Karkand"
+Our favourite BF2 map has been ported over with all original buildings/textures and gamemode inc Coop and Single player and "Attack or Defend"
+
+"Smyrna" - Origanal map by Maranello
+The War between the Pac and the EU force rages on, the armies now fighting over control over the Middle East.
+
+"Nigeria Harbour"
+In 2143, the Pan Asian Coalition launched a secret attack into the Union Of African States territory of Nigeria, a large industrial center.
+The area contains an unfinished Harbor, which the PAC hope to use to supply further missions in Africa.
+
+"Oil PLatform" - Orignal map by SpFreak adjusted for use in cf2142
+
+"Wake Island" - A clasic bf2/1942 map ported over for you pleasure. 
+
+"Walker Battle" - Orignal map by Spfreak adjusted for use in cf2142
+
+
+
+
+
+All maps now use our custom skins.
+
+
+
+
+Menu
+New GUI
+Replaced dog tags with UICs (Unit Identity Chips)
+Players corpses last a lot longer
+Removed netbat visual aids. (Automated systems still working)
+
+------------------------------------------------------------------------------------------
+v1.04
+
+Compatible with EAs 1.20 patch.
+Northern strike unlocks tweeked to work in the mod. Only for people who have them unlocked.
+
+Weapons
+New Guided Anti Personel Rocket Launcher for assualt.
+Coloured smoke grenades replace knives. SLs get 3. (They work as a countermesure for the GAPR)
+Baur has 5 extra bullets per mag
+Assult rifle rockets no longer share ammo with shotguns
+Bestbuy assualt rifle/rockets/shotgun is now up to date with mod standard.
+Squad leader beacon returns
+Recon Carries 1 AP mine, can place 2.
+All Recon players have stabaliser by default.
+Smoke granade is temp replacement for stabaliser until new item is ready.
+
+New Vehicles
+ifav (GCSI Stealth Cat) - Invisible FAV that can carry 4 people
+Lav25 (Merc IFV) - Amphibious APC with Dual chainguns and motion mine laucher.
+Merc Tank - Similar to the standard 2142 tanks but has different loadout
+rfav (Rail FAV) - Both sides get a new FAV that has a machine gun/rail gun for the gunner. Driver can release smoke out the back.
+wz551 (merc mobile AA) - Anti Air amphib vehicle
+merc_apc - Tv guided missile firing apc
+
+Vehicle Changes
+All apcs and hover vehicles now work on water.
+Gunships have dumbfire missiles instead of heat seeking.
+Gunships HUD gives range to target targets
+Gunships pilots have altfire miniguns
+All vehicle skins are getting a make over plus 3 types of cammo.
+
+Communication
+Radio system reworked: 
+Radio chatter is for Squad leaders and Commanders only.
+No radio messages for spotting, just local sounds.
+Squad members can still comunicate, but only locally.
+
+Installer
+Now there will be 2 icons on your desktop.
+
+
+Replaced Squad leader beacon with coloured smoke granades.
+Knives are no longer 1 hit 1 kill
+Added a few tracers to numerous weapons
+Team specific tracers, Green for EU, Red for Pac.
+APMs and Shield can now stick to vehichles
+Support can place 2 shields
+Added MD5 checksums, to help prevent cheaters.
+
+Orbital Strike- Short, 3 very intense bursts. Very small chance of survival.
+Commander assets cant be repaired when destroyed
+PAC Walker can now fire through fences like the EU.
+Soldiers now bleed out once below 15 health.
+New minimap design to feature in custom maps.
+All air vehicles now have a radar.
+Gunship pilot rockets are a bit better against infantry.
+Clark Shotgun has vastly reduced in damage. (still better then default though)
+Fixed SMG deviation issue
+Medic Box, Ammo box and SL Beacon can now stick to vehicles
+Removed min player restrictions from SL unlocks
+Squad leaders now have a spare beacon (should help prevent no spawn bug)
+
+Gameplay
+Made Compatible with 1.10 Official EA patch.
+Updated with the new features.
+Weapons
+Silo missiles now explode, not emp.
+Fixed sway issue on LMGs
+New style ar rockets.
+Clark 15-B has more range.
+Sentry guns have greater verticle range 
+Sentry drones do more damage
+Sentry drones have greater verticle range.
+Removed Gun sway from Voss L-AR
+Improved acuracey of Voss L-AR
+Engineer sonar shows infantry
+Engineer sonar radius halfed
+Engineer now carry 2 sonars.
+Players can now lay up to 10 c4 packs.
+Effects
+4 brand new blood effects
+Vehichles
+New flight physics for the gunships
+Gunships gunner can now deploy flares
+Menu
+New Graphics
+New Music
+New Installer, with auto detect for 2142 install.
+
+Vehicles
+Gunships now have autofire rockets
+Transporter guns have a little increased splash damage.
+Improved handling of FAV.
+Weapons
+Heavy anti vehicle gun now has multiple zoom levels
+Heavy anti vehicle gun is more acurate
+Audio
+Removed enemy forces spotted messages.
+Menu
+Implimented Take Localization files
+Visual
+Flags updated with design by Rawenouss
+Fixed bug where you apeared to get free unlocks.
+
+Debuging
+
+
+Vehicles
+Fav can withstand much more impact damage.
+Some vehicles wrecks will stay (Good for cover)
+Wreck final destruction no longer damages infantry. 
+Weapons
+Sniper Scope tweaked to ajust for lesser and greater distances.
+
+
+Vehicles
+Pods now have 3rd person camera views.
+You can now exit pods at any time.
+AA guns reduced max lock distance.
+AA guns now do 2 seconds emp time instead of 3.
+Gave Pac hover tank Red glow effects
+Weapons
+Smgs now have working recoil
+
+
+Vehicles
+Added new tank clones.
+Incresed speed of apcs.
+APC pods allways go high now
+Created Heavy Anti Armour Tanks, for both armies (Hover)
+Created Light Anti Infantry Tanks, For both Armies (Tracked)
+Weapons
+Reduced damage of the Baur AR
+
+
+Weapons
+Smoke grenade produces more smoke
+Assault caries more smoke grenade's.
+Support gun reduced standing deviations.
+Tweaked advanced sniper rifle.
+Sentry gun damage to default.
+Sentry gun reloads after every 150 shots.
+2 sentry guns allowed on map per player, 1 in inventory
+4 APMs allowed on map per player, 2 in inventory.
+Fixed bug with assault rifle rocket.
+ 
+   
+ 
+V0.09 Minor tweaks during testing
+V0.08 Minor tweaks during testing
+ 
+   
+  
+
+Player Attributes
+Fixed issue where EU assult got free unlocks.
+
+Weapons
+Unl HMG brought up to mod standards.
+Unl carbine brought up to mod standards.
+
+Menu
+Started work on getting diferent colour for UAV to Vehichle sonar on minimap.
+ 
+   
+
+
+Player Attributes
+Tweeked skins with insignias.
+EU skins replaced orange patches with white.
+Weapons
+Further optimization of hand guns.
+Gun Unlocks tweaked (needs more testing)
+Tweaked Sentry gun, it now reloads.
+Tweak Sentry drone it also has to reload.
+
+Added more skin changes with insignias
+Improved handling of FAVs
+Reduced boost depletion time on FAV
+Fixed gears on FAVs
+Menu / Gameplay
+New team icons
+New flags
+New colour scheme
+New 3d map icons
+New minimap icons
+ 
+   
+ 
+V0.05 Minor tweaks during testing
+V0.04 Minor tweaks during testing
+ 
+   
+
+Weapons
+Re-optimised guns
+Much more deviation while standing with support gun.
+Added extra level of deviation to all guns, ie standing, crouched and prone.
+Removed burst fire
+Vehicles
+Added devision insignias to titans
+Started putting Coy Shields on vehicles
+Fixed the speed diffrences between tanks
+Increased main speed of FAV
+Added ammo to tanks top gun.
+Tweeked tv guided missile on gunship.
+Working on multi level zoom for gun ships gunner
+ 
+   
+
+ 
+Vehicles
+tanks add zoom to gunners seat.
+increased sprint on FAVs. time and speed.
+Added slight zoom to FAVs
+Tanks have more main gun ammo.
+Menu
+New graphics inc Conflict2142 logo
+New menu music
+Removed intro videos
+ 
+   
+
+
+Player Attributes
+Increased Stamina of both Heavy and Light soldiers
+Reduced Stamina recovery time.
+Reduced amount of stamina lost from jumping
+Vehicles
+Increased Top Speed of both tanks.
+Increased hill climbing ability of tanks.
+Improved heat resistance in all guns on walker.
+Weapons
+Support gun has no overheat.
+Reduced the deviation on all guns.
+Shotgun no longer shares ammo with the rocket launcher.
+Shotgun has bigger mags
+EU/PAC AR - Balanced, Tweaked Deviation, Tweaked to (7.62mm USR), Added Burst Fire
+UNL HAR - Tweaked Deviation, Tweaked to (13mm USR) Increased Magazine Size (from 20 to 25), Replaced Automatic Fire with Burst Fire
+UNL LAR - Tweaked Deviation, Tweaked to (5.56mm USR)
+EU/PAC AR_Shotgun - Balanced, Increased Magazine Size (From 3 to 6), Slightly Increased Reload Time, Removed Link to AR_Rocket, Tweaked to (10G USR)
+EU/PAC AR_Rocket - Balanced, Increased Velocity (from 40 to 50), Decreased Magazine Size (From 3 to 1), Removed Link to AR_Shotgun
+EU/PAC Handgun - Balanced, Tweaked to (9mm USR)
+EU/PAC MG - Balanced, Tweaked Deviation, Increased Reload Time (From 5.3 to 6), Increased Rate of Fire (From 900 to 110), Increased Heat Resistance, Increased Velocity (From 800 to 900), Increased Tracer Interval (From 2 to 3), Tweaked to (7.62mm USR)
+EU/PAC Sniper - Balanced, Tweaked to (7.62mm USR)
+EU/PAC SMG - Balanced, Tweaked Deviation, Tweaked to (9mm USR), Added Burst Fire
+UNL Shotgun - Increased Magazine Size (From 7 to 8) Increased Reload Time, Tweaked to (10G USR)
+Menu
+Mod structure has been created.
+New game icon.
+Community details, with link to forums. 
+
+
+///////////////////////////////README\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+The Conflict2142 Mod is a simple to use executable file (.exe)
+
+*Please note to remember where you downloaded the file
+
+*Quick Tip : Making an Intstaller Folder
+â?¢ Make a new folder on your desktop, name it "Installers"
+â?¢ Anytime you download an Installer, Executable, or any other file that will place a program into you computer - download it here and you will always know where to find it again in case you have to un-install the program for any reason.
+
+Now open the folder where the CF2142 v1.04.exe is located and double-click it to execute/run.
+
+Follow the prompts and leave the directory where it would like to install it alone.
+
+*For advanced users who have intalled your BF2142 into another drive : E, F, G, etc. then please change the directory listed as needed for correct install.
+
+Now after it installs there will be two shortcuts on your desktop :
+â?¢ CF2142 CD --> This is if you have the Disk Version
+â?¢ CF2142 DL --> This is if you have the EA Downloader Version
+
+Delete the one you do not need!
+
+If your shortcuts do not work for some reason:
+
+Right-click and select properties
+
+Now for each shortcut it is different so here you are:
+
+CF2142 CD
+Target: = "C:\Program Files\Electronic Arts\Battlefield 2142\BF2142.exe" +menu 1 +fullscreen 1 +modPath mods/CF2142
+Start In: = "C:\Program Files\Electronic Arts\Battlefield 2142"
+
+CF2142 DL 
+Target: = "C:\Program Files\Electronic Arts\Battlefield 2142\BF2142Launcher.exe" +menu 1 +fullscreen 1 +modPath mods/CF2142
+Start In: = "C:\Program Files\Electronic Arts\Battlefield 2142"
+
+Now Shortcuts should work!
+
+Map Install Instructions below!
+
+Also all your new Custom Maps need to go into this folder now
+--> C:\Program Files\Electronic Arts\Battlefield 2142\mods\CF2142\Levels
+
+Custom Maps Install instructions :
+
+C: Drive (Or the folder you installed 2142 into)
+Program Files
+Electronic Arts folder
+Battlefield 2142 folder
+mods folder
+CF2142 folder
+Levels folder
+
+Which reads --> C:\Program Files\Electronic Arts\Battlefield 2142\mods\CF2142\Levels
+
+Unzip/Extract the map and drop into the levels folder. Close everything back up and your done.
+
+It is your responsibility to have the Maps downloaded before Practice and Battles, they are located in the announcements thread and titled Battle # ; # = Current Battle Number. New versions may be released throughout the day on some occasions so your best option is to be on a few minutes early depending on your Internet Connection speed to have the new map version downloaded and ready for WAR! 
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Credits
+
+Design Team
+
+Jey (AKA The Jezus)- Mod Leader, Code, Models, 2D, Audio
+Smagma Dactyl - CO Leader, Code Genious
+Cutter wolf - Texture Artist, UV Unwraps, Menu
+Bumbumbanana - Texture Artist
+Loman - Texture Artist
+Havoq - Texture Artist
+Arcalane - Code
+Dober - Models, UV unwraps
+Darkfire - Texture Artist
+Soduka - Mapper
+Tonks950 - Code
+Ocon- Research, Maps
+Happy13ee- Research
+Raxiv- 2D Art
+
+
+
+
+Outside Help	
+
+AF Australian Forces (Marshall-007) - Mapping and support @ http://www.2142australianforces.com/
+
+Ffolks - Shortcut creator and menu code
+Dan- Localisation files
+Pandoras - code
+Gunnie - code
+Archangel- Texture/unwrap
+SPFreak - Map
+Maranello - Map
+winterhilf - Bots
+Blaze - Bots
+Mr.Burns - Bots
+ShaneJohn - Bots
+
+PR and more
+
+Dirtghost - Internal Coordinator Conflict2142 Tournament
+Thelastsuperman - Tech Support
+Georgia - Genaral PR and extensive server work
+
+Music by the following artists:
+Linkin Park
+Tool
+A perfect Circle
+Queens of the stonage
+Red Sparrows
+Deftones
+Prodigy
+Rob Dougan
+Laurent Garnier
+John Murphy
+Trance Fury
+
+
+Special thanks to http://www.vipertournaments.com/
+
+- Server provider, Forums, Teamspeak and Game server. Founders of Viper Tournaments.
+
+
+A special thanks to DICE games and EA Games for the BF2142 Game, and for letting us use content from BF2. 
+Thank you for allowing us to keep the modding comunity alive through 2142.

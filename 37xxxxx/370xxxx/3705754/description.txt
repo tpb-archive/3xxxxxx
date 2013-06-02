@@ -1,0 +1,110 @@
+ Tja alla sorry att det tagit sådan tid att fixa detta!
+ 
+ Man måste alltså låsa upp sin mio för att få Miomap V3 att funka.
+
+ Det finns inte någon releas vad jag kunnat hitta som autostartar och funkar utan 
+
+ att man hackar lite! ;)
+ 
+ Detta är tagit från www.gpspassion.com leta där om ni undrar de har svar på det 
+
+ mesta! 
+ 
+ 
+
+ 1: Detta är steg ett låsa upp sin mio. 
+
+ länk till forumsidan! 
+
+ (http://www.gpspassion.com/forumsen/topic.asp?TOPIC_ID=40297)
+
+
+
+
+I have found two ways to unlock the 286+/296+
+
+The second two ways does not require binary hacking.
+
+1. Copy the MioMap DVD to your hard disk so you end up with a folder called MioMap.
+
+2. Rename the custmio.cab to MioMap_english_20.cab
+
+3. Copy the MioMap_english_20.cab to \MioMap\install\cabs_268\ overwrite the original file.
+
+4. Switch on and connect your Mio to your PC via the UBS cable.
+
+5. Run the \MioMap\setup.exe
+
+6. Select English then select Install Mio Map 2.0
+
+
+7. Select Install now with all selected languages.
+
+8. PRESS CANCEL AS SOON AS YOU SEE ?REMOVING OLD FILES?.?
+
+9. Unplug the Mio and power off/on (using the switch at the back).
+
+10. Once the Mio is back on enter the date/time to continue the initialisation.
+
+11. Once the installation is complete press the reset.
+
+12. After the second installation you will be prompted to install Banana. Press enter (press down the round button on the left side of the Mio).
+
+13. Your should have unlocked your Mio and see the Wince desktop.
+
+Thank you for reading this?.
+
+
+
+
+2: Nu är det dags att installera GAPI (Grafikprogram för att kartan skall funka) 
+
+finns i torrenten filnamnet är:
+
+GAPI_for_HPCs_v310.CAB 
+
+Denna fil kopierar man till ett tomt minneskort och kör den 
+
+sedan från explorer i gpsn 
+
+öppna windows explorer som finns på skrivbordet 
+
+Klicka sedan på SD card och sedan klickar man på GAPI ikonen och installationen kör 
+
+igång!
+
+
+
+3: när detta är klart ska man göra inställningar i GAPI 
+
+klicka på ikonen GAPI setup på skrivbordet i din gps 
+
+under fliken setup klicka på "set device" längst ner i vänstra hörnet och välj din 
+
+gps 269.
+
+
+
+4: Dags att köra i kartan!
+
+Lägg hela kartan på ett 1G minneskort och stoppa i det i gpsn 
+
+öppna nu windows explorer på skrivbordet i din gps och öppna mappen SD card
+
+nu klickar du på ikonen med iGO (Miomap) och kartprogramet ska starta!
+
+
+
+OBS! Vill man ha en genväg på sitt skrivbord till kartan så markerar man iGO 
+
+(Miomap) väljer "File" uppe till vänster och sedan "send to" "Desktop as Shortcut"
+
+
+
+
+Jag har gjort precis såhär och det funkar för mig!
+
+Är det några problem så posta! Ska försöka hjälpa er så gott jag kan!
+
+
+MVH: Jagermister

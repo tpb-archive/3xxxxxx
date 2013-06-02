@@ -1,0 +1,12 @@
+found this while cleaning my Hd, 
+It's a patcher with all the required files (kernel, kexts, etc) to make a hackintosh bootable installation DVD of the 9a410 release of leopard that fits on a single DVD.
+Haven't tested it on 9a466 or 9a499, but hopefully someone will make something useful out of this.
+
+ (you need a leopard disk image)
+
+--If you're going to try this, please look at the sh file using a text editor so you know what it does before running it--
+--You also may need to edit the paths to your patched files (included) and your leopard disk image in the sh file for it to work--
+
+Havent tested this neither on a 9a466 or 9a499 disk image. Or on anything other than an SSE3 Intel machine.
+
+Please post your results
