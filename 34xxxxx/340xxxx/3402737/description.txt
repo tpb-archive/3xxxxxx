@@ -1,0 +1,41 @@
+Version 5.0.1 - compiled by EliteHackerName
+
+Changes in 5.0.1:
+- Includes Front Row.app now. D'oh!
+
+Changes in 5:
+- Included DVD Player 4.6.2 for DVD-playback in 10.4.2! (Thanks Macosurfer)
+- Removed AS-app as it was no longer necessary
+- This should be the final version since everything works.
+
+Changes in 4.1:
+- You now have three options to launch FrontRow. Cocoa-app might be the cleanest
+  and fastest (x2 launch-speed). - Thanks cybergamer!
+- Included speed-tests of different methods.
+- Cleaned up install instructions, added navigation instructions in separate
+  files for Keyboard and Salling Clicker.
+
+Changes in 4.0.1:
+- Framework replacement might not be necessary. Test first without.
+- Added warning :)
+
+Changes in 4.0:
+- Put an end to the dock icon once and for all
+- Added quit to AppleScripts to fix iTunes, Exposé, alt-tab and
+  third party keyboard program issues (ex. Sizzling Keys) ? Thanks LeftFieldSG!
+- Added SC Clicker Script
+- HID actually works ? Thanks ParaNox!
+
+.........................................................
+This package includes:
+Front Row 				    (cracked by JacksonBrown)
+ Icon						(by smpbox)
+For 10.4.2 users:
+  BezelServices.framework (optional)
+  DVD Player 4.6.2
+Launch Front Row:
+ Open Front Row (Cocoa)		(Cocoa App by Cybergamer)
+ Open Front Row (Script)	(AppleScript by Zeligh)
+Remote Controls:
+ Salling Clicker script 	(by Smpbox)
+ Sony Ericsson HID-control	(by ParaNox)

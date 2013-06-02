@@ -1,0 +1,285 @@
+﻿User Type,Username,Date,Text
+,unsui,2006-04-02T00:20Z,"Internetplay does not work :-(
+
+maybe t's my DualCore Intel mac that's the problem. Will try to patch it.
+
+Anyone have the soame problem ? (Game freezes as soon as i try to find servers...)
+
+But plays well offline."
+,kneskade,2006-04-03T16:51Z,"If you want to use a resolution that doesn't appear in the options panel.
+
+Just replace the numbers in the [MacDrv.MacClient] section in the Unreal Tournament.ini file. Like this:
+FullscreenViewportX=XXXX
+FullscreenViewportY=XXXX"
+,kronos_IriA,2006-04-05T18:49Z,"Dear users...
+I can't read this appz, i can read this error log when i try to open Unreal Tournament : 
+"" Unable to find DrawSpocket context : ""
+If anybody can help me!
+thank!"
+,albertii,2006-04-06T20:14Z,"Well does the network play work or not ????
+
+btw
+i have the original GOTY cd & i updated to utxp3 & network gaming doesn't work neither
+When i start gameranger ĂŠ go to UT servers there are none online neither , maybe this is the reason ?"
+,Scozzers,2006-04-12T03:00Z,"Albertii - Gameranger doesn't return UT servers because Epic cut the link for some reason. Gameranger would return the same servers that you find in game anyway.
+If it's the full UT then it will work online with the osx update - hosting and joining."
+,Hidden_Hunter,2006-04-14T02:16Z,"Works fine, I had no music for some reason (I tried copying the UMX files from my boxed copy for windows but no luck)
+
+On Tiger."
+,bbboy,2006-04-16T23:20Z,"Anyone assist me on installing this? I keep getting the error '"" Unable to find DrawSpocket context : "". I'm sure am doing something wrong can anyone help? Thanks!"
+,maetherlinck,2006-05-04T08:42Z,"I'm also getting that message: Unable to find DrawSpocket context :
+
+Please help!"
+,caixapostal,2006-05-05T00:18Z,"I'm too getting this ""Unable to find DrawSpocket context"".
+
+The game doesn't come over component loading screen.
+
+Tried on a 800 MHz eMac running Tiger."
+,almex,2006-05-17T08:10Z,i too am getting the unable to draw sprocket error right as UT loads... can anyone answer this? updates? please?
+,gee4,2006-05-19T11:49Z,"For those with the socket problem, you need to copy everything outta the dmg into for example a folder called Unreal Tournament within your application folder, open the dmg in the folder called 'mount this first UT CD.dmg' then run the program. Sorted. Well worked for me anyway."
+,M[I]cheL,2006-05-19T15:01Z,i still dont understand how it works whit mount this first UT CD.dmg?? i opend it and then the game itself bud it dind't word im still getting that stupid error!! 
+,windsurferpolo,2006-05-22T03:43Z,"has anyone run it on panther?
+At the begining i use to have the sprokets error, but i got rid of it. now a error window apears but nothing says.
+
+Please... Can anyone help
+
+thanks"
+,HckMstrDavid,2006-05-26T08:30Z,"Hi All to fix the Unable to find DrawSpocket context : problem reduce your fullscreen resolution in the UnrealTournament.ini
+Example:
+[MacDrv.MacClient]
+WindowedViewportX=640
+WindowedViewportY=480
+WindowedColorBits=16
+FullscreenViewportX=1024  "
+,HckMstrDavid,2006-05-26T08:31Z,"[MacDrv.MacClient]
+FullscreenViewportX=1024 "
+,Smithcraft,2006-06-28T08:32Z,"I'm guessing that the OS X Application is not included in this install? If you are getting a Sprokets error, then you are running the System 9 version.
+
+Anyway, go here for more info:
+http://www.veloffdesigns.com/utmac/index.asp"
+,zeal1,2006-06-29T20:14Z,^^^^ works perfectly with this
+,canberra25,2006-08-05T05:14Z,"i get the following error:
+
+cant find file for package 'windvr':
+
+anyone know how to fix this?"
+,kambouchashrooms,2006-08-18T19:38Z,"Internet play does NOT work, looking for a little help, anyone?
+
+PS: If you're getting DrawSprocket err, find the ini file and change the Fullscreen Viewport's X and Y to something other than the default. 
+
+Re-downloading to see if I can get multiplayer to work."
+,srpntdpulpiteer,2006-08-22T12:53Z,im in a bit of a pickle... no seeds and 5% away. will someone please seed?
+,Chrille_22,2006-09-22T12:07Z,I have the same problem as unsui. the game freezes as soon as i try to find internet servers. an i hava a iBook G4
+,Chrille_22,2006-09-22T12:10Z,i donÂ´t need the cd image
+,Touch78,2006-10-01T18:48Z,"Is someone have succeeded to connect for internetplay ?
+
+doesn't work for me... :-(("
+,vikk0,2006-10-07T22:26Z,plz seed someone!
+,Touch78,2006-10-08T19:02Z,"Auto-answer...
+
+TIP : if u have Little snitch installed, it blocked internet connections for UT (without alerts).
+
+All u have to do is create a new rule in little snitch allowing the UT app. to connect at the net !
+
+cheers !
+:-)"
+,dafser,2006-10-22T16:46Z,I downloaded the new one but internetplay does not work (>
+,smithythedon,2006-11-28T22:46Z,"Im so close!!
+Someone please please seed!"
+,Roker11,2006-11-29T21:13Z,"I TRied to Replace the UnrealTournament.ini file in the [MacDrv.MacClient] section like this:
+
+FullscreenViewportX=XXXX
+FullscreenViewportY=XXXX
+
+When i try to save the ini file it says that he can't save in SIPLE TEXT FORMAT that i must save in RTF
+
+HELP ME!"
+,R.I.P.,2006-12-17T19:46Z,i have the same problems as Roker11
+[V],ba1der,2007-01-04T17:10Z,"before you try to save the .ini file, make it plain text by going to Format->Make Plain Text. Then you can save it as simple text"
+,esstrom,2007-01-31T22:09Z,"hmm, im getting black screen, whats wrong?"
+,Jake2.0,2007-02-03T15:07Z,Someone know how to get the internet working?=D
+,filterfind,2007-03-04T23:33Z,"where can i download mac classic??? have been looking for the damn thing for ages, but can't ssem to find it anywhere at all... i've heard that a cd should have come with computer but have been unable to find one unfortunately..."
+,zcurley,2007-08-01T21:20Z,If anyone is still having problems with Drawsprocket just replace the UnrealTournament.ini file with this one :http://www.versiontracker.com/dyn/moreinfo/macosx/12059&mode=feedback
+,Samedi610,2007-08-11T19:29Z,"thx great game cant wait for ut3
+i cant get internet to work"
+,PoisonFist,2007-09-07T21:45Z,does anybody have UT2003 or 2004 for mac?........does post a torrent if u do thnx
+,daneww,2007-09-20T09:44Z,"I don't have the WinDrv, it says it needs it. help please :D"
+,tobsey,2007-11-01T03:02Z,"I get this error:
+The application ""Unreal Tournament"" could not be launched because of a shared library error: """" Whats wrong? please help me:)"
+,tobsey,2007-11-01T03:03Z,"The application ""Unreal Tournament"" could not be launched because of a shared library error: """""
+,wasabi25,2007-11-01T07:47Z,"Hey, I'm running Tiger but I'm getting a problem...I don't rly know how to install it, can anyone explain it to me? Cuz only extracting it gives me an error"
+,wasabi25,2007-11-01T07:48Z,"I get the same error, tobsey."
+,jakkop,2007-11-30T09:44Z,"Helluu.
+I've got a error message, when I have amounted ""amount this first"" and try to start UT start file, that says:
+
+""Unable to find DrawSprocket context""
+
+Why is that anyone?
+/Cheers"
+,isaacn86,2008-02-02T17:53Z,"I would like to say thanks for the Game. 
+
+Since no one else is helping to install this game, i will be the nice guy.
+I have OS X leopard
+
+1. Mount the .dmg file you just downloaded.
+
+2. go to http://www.veloffdesigns.com/utmac/upgrade-ut.asp#combined
+
+3. download 436_and_4BonusBack_Files.sit (59.3 MB)
+
+4. Download Stuffit Xpander (if you don't already have it)
+
+5. Use Stuffit to open the .SIT file you just downloaded from www.veloffdesigns.com
+
+6. Copy all files from the ""Unreal Tournament Full OSX.dmg"" to a new folder in Applications.
+
+7. Open the ""436_and_4BonusBack_Files"" folder. There you will see the UT icon, 2 .ini files, and a .log file. Copy and paste those to the  folder you made in Applications. It should ask to replace, make sure you replace all.
+
+8. Open the ""436_and_4BonusBack_Files"" folder. There you will see System, Textures, Map, and Help folders. Open each one, copy the files to the same folder in the one you made in applications. (IE: copy from ""System"" folder, put into ""system"" folder, replace all.) 
+
+9. After this you should be able to play. Online doesn't work for me, so if someone figures it out, please share your  knowledge.
+
+Any questions, just ask, i might be able to help.
+
+AS FOR PEOPLE WHO DID FIGURE IT OUT AND DID NOT HELP US. FUCK YOU!!!! IF YOU FIGURED IT OUT, DON'T JUST LEAVE A COMMENT SAYING ""WORKS GOOD, THANKS"". HELP THE REST OF US WHO ARE HAVING TROUBLE. THOSE ARE PROBABLY THE PRICKS WHO JUST DOWNLOAD AND UPLOAD SHIT. I UPLOADED THIS GAME LOTS, AND I STILL AM. I HATE THOSE DICKS. 
+
+Well everyone I hope I was able to help, Plz SEED."
+,huzza81,2008-02-24T00:27Z,"Online:
+
+The problem is that the netcode is no good in the UT preview 3 (the UT 99 OSX app, remember it is still a Beta).
+
+So when you choose online in UT99, it looks like everything freezes. But it does`nt. What ever you do, do NOT touch any buttons (inc. Keyboard/Mouse). Within 10 minutes you should see the game unfreezes and the server list updating it self.
+
+Enjoy your self:)
+
+
+
+It is a shame that Epic never ported UT99 to OSX or at least released to engine as open source.
+"
+,Gunner84,2008-02-26T18:39Z,"Unreal shuts down, and tells me to increase the memory. How can i do that?"
+,isaacn86,2008-02-27T23:17Z,"akyel !!   I am not sure why that is. The list I put is what i did, and it worked, I just replaced or moved all those files I downloaded, into their proper folders."
+,ViDER,2008-03-20T22:32Z,"kneskade: Thanks for the upload!
+isaacn86: I did as you said but, there was no excutable inside the update file, so no way I could run this :S. 
+I have OS X 10.4.11 on an iBook G3 700 (PowerPC 750FX) with Radeon 7500 16Mb.
+
+What did I do wrong?
+
+Thanks!"
+,ViDER,2008-03-21T07:12Z,"I managed to run it, but I still have no internet games :/.
+
+What I did:
+1) Download this 
+2) Mount it
+3) Creat a folder for ""games"" then inside it 
+    create a folder ""UT"", make it in your HD.
+4) Copy all the files from the dmg mounted file 
+    into the UT folder.
+5) Download the file from here:
+http://www.versiontracker.com/dyn/moreinfo/macosx/12059&mode=feedback
+6) Unpack it into your UT folder and overwrite all the 3 files.
+7) Run the game now! It worked for me
+
+NOTE:
+DO NOT RUN THE GAME AFTER YOU COPY IT 
+FROM THE DMG IMAGE, ONLY AFTER YOU APPLY
+THE FiX ! ! ! "
+,Jutonk,2008-03-27T10:17Z,"I've got a problem: I can't download the file from:
+http://www.versiontracker.com/dyn/moreinfo/macosx/12059&mode=feedback
+
+Does anyone have the same problem?"
+,azza9188,2008-03-29T12:21Z,"Guys..I had a lot of problems with this including the drawsprocket problem and the black screen....here is what I did and it works perfectly!:
+
+1. Download and copy everything in a new folder in Applications
+
+2. Download the 436_and_4BonusBack_Files from the here http://www.veloffdesigns.com/utmac/upgrade-ut.asp#combined
+
+3. Open with stuffit, open 436_and_4BonusBack_Files, open each folder 1 by 1 and copy all of the files in each folder to the corresponding folder that you made in applications.
+
+4. Download text"
+,azza9188,2008-03-29T12:43Z,"sorry....continued...
+
+4. Download Tex-Edit Plus from here http://www.pure-mac.com/textword.html if you havn't already got it.
+
+5. Right-Click the UnrealTournament.ini file (In the folder where you copied everything to) and Open with Tex-Edit.
+
+6. Scroll down the document only a little bit and you should see:
+FullscreenViewportX=1280
+FullscreenViewportY=1024 
+
+or something similar (It is under [MacDrv.MacClient]). Now change these both to the following:
+FullscreenViewportX=1024
+FullscreenViewportY=768
+
+7. Save it, and launch Unreal Tournament.
+
+Voila, and there you have a perfectly working Unreal Tournament for Mac OSX.
+I tried everything and this is what worked for me."
+,dr.byte,2008-04-18T19:23Z,"My version missies some maps, like the DM-arcaneTemple... Does this one have that map?"
+,abzorbera,2008-04-30T19:26Z,"azza9188. You are my god !!! Thx  for a wonderful (perfect) guide, it all worked great."
+,skunklife,2008-06-13T20:50Z,"seed plz, UT one rules!"
+,hasoon87,2008-07-06T05:02Z,"the link : http://www.veloffdesigns.com/utmac/upgrade-ut.asp#combined isnt opening for me, i get an error message on the page. Could someone please provide a link to that file, any help will be greatly appreciated! "
+,KennySja0,2008-07-17T18:27Z,SEEED !!!
+,jetmoose,2008-08-01T00:29Z,"EVERYONE!
+You will not be able to get online initially. Many have been noting of this. I found a way to get online. I have found it is still somewhat buggy. The problem I have is that if I start a practice session, I cannot connect to a server. It seems to me you can only connect if you just open the game and go to connect. Here's what worked for me:
+
+http://att.macrumors.com/attachment.php?attachmentid=109264&d=1206418339
+If this link does not work, go to:
+http://forums.macrumors.com/showthread.php?t=403795
+Half way down the page, socamx attaches his file.
+Follow the directions in the zip. You will need to place a file in the system folder, and edit maybe 8 lines in your INI file. Copy and paste jobs.
+
+Viola!
+
+Now if only I could fix the smoke trail bug, this would be flawless. But I am however extremely pleased to be playing this game online =) It's been a long time and I have always missed the online action of this game. I find most straight deathmatch to be rather boring these days, but this one just rocks on the right levels for me.
+
+Enjoy!"
+,rounak,2008-08-22T12:38Z,"http://www.veloffdesigns.com/utmac/upgrade-ut.asp#combined
+
+does not work
+
+any alternate link ?"
+,MKDrag0n,2008-11-09T20:03Z,"Well, i managed to fix the drawsprocket editing the file UnrealTournament.ini in the following places from: 
+
+FullscreenViewportX=1280
+FullscreenViewportY=1024 
+
+to
+
+FullscreenViewportX=1280
+FullscreenViewportY=800
+
+NOTE: IF YOU USE TEXTEDIT YOU'LL NOT BE ABLE TO SAVE SO GO TO THE TERMINAL AND USE PICO OR VI TO EDIT THE FILE!! ALSO IF YOU WANT TO PLAY INTERNET GAMES YOU SHOULD DO IT IN THE BEGINNING WITHOUT ENTERING PRACTICE SESSION!!"
+,asmodeus_82,2008-11-21T04:11Z,"Hey I've got it working but some maps are missing arcane temple ect. 
+This means i can't finnish the ladder.
+I downloaded the maps but don't know how to get UT to play them in the ladder (they only work in practise mode)
+
+I think i have to change something in the .ini but don't know what.
+
+Anyone know?"
+,soveet_g,2008-11-24T18:52Z,"thnx MKDrag0n !!
+
+ur trick works..
+
+d only thing is dat u need to use textmate to edit d file.."
+,asmodeus_82,2009-08-23T09:38Z,"Hey I have a problem.
+I have an OS X and OS9 and I want to play UT on both of them. How can I get this to run in OS 9.2 "
+,makaha50,2009-09-09T11:50Z,thanks very much all - my original disk is scratched beyond recognition.
+,diarrhea_jones,2010-05-01T07:25Z,"Thanks for the bare-bones torrent, dicktree. No music, resolution is a bitch to fix, sound FX are fuzzy, it crashes periodically (but the game auto-saves beforehand) and there is no multiplayer.
+
+I mean I guess you CAN play the game all the way through but you certainly don't get the full experience.
+
+FOR PEOPLE EXPERIENCING THE DRAWSPROCKET PROBLEM
+
+1) Basic installation: FIRST, go into your Applications folder inside your hard drive and create a folder called ""Unreal Tournament"".
+
+2) Open the Unreal DMG that you downloaded from here and copy EVERYTHING inside the DMG into the ""Unreal Tournament"" file that you created in your Applications folder.
+
+3) Go to this link http://www.pure-mac.com/textword.html and download the program called ""Tex-Edit Plus"" (under word processors). We will need this to change file within the DMG because Apple's Text Edit cannot do it, I assure you it's completely safe and completely necessary.
+
+4) Once ""Tex-Edit Plus) is downloaded, open it, and use it to open a file called ""UnrealTournament.ini"" found in the ""Unreal Tournament"" file that you created. Once it's opened, hit ""Apple+F"" on your keyboard to bring up the ""Find"" option and search for ""Fullscreen"", it should bring back a pair of words within the .ini file, one on top of the other, that say ""FullscreenViewportX=1280 and FullscreenViewportY=1024"". You need to change the top number (the X one) to 1024 and the bottom number (the Y one) to 768. Once this is done, close ""Tex-Edit Plus"" and save the ini document. This is what ""Tex-Edit Plus"" is good for, because Apple's ""Text Edit"" cannot save the .ini file for whatever reason.
+
+5) Double-click the Unreal Tournament icon in the ""Unreal Tournament"" folder within the Applications folder and launch the game, and enjoy!"
+,eXXo23,2011-03-28T14:16Z,"velioffdesign.com doesn't host file anymore... 
+you can download it from
+
+http://www.utpad.com/Downloads-index-req-getit-lid-60.phtml"

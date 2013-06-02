@@ -1,0 +1,79 @@
+﻿User Type,Username,Date,Text
+,vodkaeye,2006-06-09T14:25Z,there r 6 peers on 99.8 ill seed this up 2 100 when torrent is distributed more
+,ForzaArsenal,2006-06-09T15:06Z,"Man, awesome  torrents you have. Do you have also KOTOR i? 
+
+Thanks!"
+,hejminlilla,2006-07-08T14:53Z,"Is this the fixed version? When KOTOR2 was released on the XBOX it had a serious bug which made it impossible to play sometime into the game (at peragusus mining station, switching from main char to T3)."
+,FaxTheMad,2006-07-15T02:32Z,Language?
+,klasse2,2006-07-22T22:11Z,"u know i started the game and played then my mom said ""we eat now!"" then i close off my xbox... next time i turn it on it does`nt work!! whats the problem:("
+,klasse2,2006-07-22T22:12Z,you suck vodkaeye (fuck you
+,DEmaster,2006-12-13T02:58Z,"please seed.  
+And im not sure they fixed the bug, but my cousin and i found a way around it (after restarting) and for anyone who isnt patiant just get a trainer so you can open overy door. :)"
+,Jimler,2007-02-26T20:18Z,It´s easy burn the game cause it had a bug when your´re in that specific place in the game every things black but you can se the pause menu and so on it worked when i played it from the cd
+,Jimler,2007-02-26T20:19Z,"It´s easy burn the game cause it had a bug when your´re in that specific place in the game every things black, but you can se the pause menu and so on it worked when i played it from the dvd"
+,zetetic,2008-08-03T13:24Z,"http://forums.xbox-scene.com/index.php?showtopic=355253
+
+This is an annoying problem when playing the game backed up to the HDD. On Peragus, the game begins to act strangely. After your T3 droid gets zapped, the game goes to a black screen. The only way to resolve this is to save and load, then you find yourself in a situation where you are your Jedi character. This is a glitch! If you go back to the fuel depot you will turn into your broken T3 unit and not be able to do anything.
+
+I ran into this problem as well. I tried the original disc and found that that worked perfectly.
+
+To test, I created and burned an ISO onto DVD-R and found that the backup DVD worked perfectly as well. I then began poking around the game files I'd FTP'ed to my PC and I discovered the ""swdirsXbox.ini"" file that was previously mentioned here.
+
+This is the original INI file from the game as it appears on the original game disc:
+
+Original ""swdirsXbox.ini"" file from KotOR II
+CODE
+[Alias]
+HD0=d:\
+OVERRIDE=d:\Override
+ERRORTEX=d:\Errortex
+TEMP=z:\Temp
+MODULES=d:\Modules
+LOGS=t:\Logs
+LOCALVAULT=d:\LocalVault
+DMVAULT=d:\DMVault
+SERVERVAULT=d:\ServerVault
+STREAMMUSIC=d:\STREAMMusic
+TEMPCLIENT=z:\Tempclient
+SAVES=u:\
+CURRENTGAME=z:\currentgame
+TEXTUREPACKS=d:\texturepacks
+STREAMWAVES=d:\StreamWaves
+GAMEINPROGRESS=z:\GAMEINPROGRESS
+REBOOTDATA=z:\rebootdata
+LIPS=d:\Lips
+
+
+As you can It references the ""d:"" directory many times. I figured, why not change those instances to the actual game directory when running from the HDD?
+
+So I revised the file by replacing each mention of d: with f:\games\Star Wars KotOR II. The latter is the directory you are most likely copying to. This will be the directory that 99% of people have backed up to. If you backed up elsewhere, you will obviously have to change to the appropriate game directory.
+
+The resulting INI file should look like this:
+
+Modified ""swdirsXbox.ini"" file from KotOR II
+CODE
+[Alias]
+HD0=f:\games\Star Wars KotOR II
+OVERRIDE=f:\games\Star Wars KotOR II\Override
+ERRORTEX=f:\games\Star Wars KotOR II\Errortex
+TEMP=z:\Temp
+MODULES=f:\games\Star Wars KotOR II\Modules
+LOGS=t:\Logs
+LOCALVAULT=f:\games\Star Wars KotOR II\LocalVault
+DMVAULT=f:\games\Star Wars KotOR II\DMVault
+SERVERVAULT=f:\games\Star Wars KotOR II\ServerVault
+STREAMMUSIC=f:\games\Star Wars KotOR II\STREAMMusic
+TEMPCLIENT=z:\Tempclient
+SAVES=u:\
+CURRENTGAME=z:\currentgame
+TEXTUREPACKS=f:\games\Star Wars KotOR II\texturepacks
+STREAMWAVES=f:\games\Star Wars KotOR II\StreamWaves
+GAMEINPROGRESS=z:\GAMEINPROGRESS
+REBOOTDATA=z:\rebootdata
+LIPS=f:\games\Star Wars KotOR II\Lips
+
+
+After modifying the file the game worked perfectly. No black screen, no getting stuck as the broken T3 droid.
+
+I hope this helps people experiencing a similar problem when backing up to their HDD. smile.gif"
+,Loter200,2010-02-08T10:25Z,is it going to work on old Xbox classic console?

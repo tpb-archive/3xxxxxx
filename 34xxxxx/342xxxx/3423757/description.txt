@@ -1,0 +1,34 @@
+JaS 1111a Generic Patch Final PPF
+
+Well this Is the Completion Of 3-4 weeks of testing patches and trying to work out bugs in the patching and system in general.
+
+This patch will give you Nforce 2/ 3 /4 ATA support and VIA ATA /SATA To boot the dvd and also after the install.
+
+It includes the following patches by maxxuss:
+
+- Kernel Patch v3 (SSE3,SSE2 Emulation v3, no NX/DX, CPUID & RTC Fixed)
+- Anti-TPM Patch v1
+- Bootloader Patch (skips SSE3 check)
+-A directory on the root of the drive (Extra Kernels) containing the orginal kernel and SSE3 No NX/DX,And All the patches for the kernel so you can mix and match if you need to.
+
+The kernel has all the patches applied so that it will be compatible with
+the largest number of systems available from the get-go. You can replace
+the kernel with the version with fewer patches after installation if you
+wish. You can create your own kernel using maxxuss's patchfiles set in the Extra Kernels Directory 
+
+It also includes the following additional extensions:
+
+- AC97 Audio: supports Intel,VIA,nForce & Ensoniq ES1371(VMWare sound)
+- Parallel ATA: supports nForce & VIA 
+- PS/2 Controller: needed for PS/2 keyboard/mouse/trackball and VMWare
+- AMD PC-Net II: needed for VMWare networking support (by maxxuss)
+-SATA support for Intel and VIA
+MD5 sums 
+e893e3a5612d1ff5d4443041f18c6dec *JaS.1111a.Generic.Patch.Final.ppf
+3665735d1b651b5a4ad15ca59ab40142 *macosx_10.4.3_8f1111_for_dtk_userdvd.dmg
+f086fa1cdd01013c9787dfd1e92c2078 *macosx_10.4.3_8f1111_for_dtk_userdvdunpatched.iso
+fe8343e94089c80413aae80941055298 *macosx_10.4.3_8f1111_for_dtk_userdvdpatched.iso
+
+
+If the patched DVD still does not install on your system natively, try
+within VMware ( http://win2osx.net/forum/showthread.php?t=1689 ).

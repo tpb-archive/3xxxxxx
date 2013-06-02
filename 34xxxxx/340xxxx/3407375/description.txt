@@ -1,0 +1,76 @@
+Office 2003 Professionnel - CD1
+==========================
+
+  * Microsoft Word 2003
+  * Microsoft Excel 2003
+  * Microsoft PowerPoint 2003
+  * Microsoft Outlook 2003
+  * Microsoft Access 2003
+  * Microsoft Publisher 2003
+  * Microsoft InfoPath 2003
+
+
+Office 2003 Professionnel - CD2
+=====================
+
+  * FrontPage 2003
+
+
+Office 2003 Professionnel - CD3
+=====================
+
+  * Visio 2003 Professionel
+
+
+Office 2003 Professionnel - CD4
+=====================
+
+  * Project 2003 Professionnel
+
+
+Office 2003 Professionnel - CD5
+=====================
+
+  * OneNote 2003
+
+
+Les applications de la série Microsoft Office 2003 requierent Windows 2000 ou plus.
+Elles ne fonctionnent pas sur Windows 95, 98, Me ou NT 4.0
+
+
+
+A PROPOS DE CETTE COMPILATION
+-----------------------------------------
+
+1. La magie de CDImage
+-----------------------------
+La présente compilation réussit à contenir sur un seul CD les 5 CDs originaux de Office 2003, plus d'autres applications et utilitaires ! Vous pourrez vérifier qu'au total le CD compte près de 1.2 Giga de fichiers. Comment cela est-il possible sur un CD de 650 Meg seulement ? Compression ? Magie ?
+
+Non, simplement une technique de pointage de fichiers identiques. En effet, les 5 CD originaux de Office 2003 comprennent plusieurs centaines de megs de fichiers totalement identiques. Les applications de la série Office partagent naturellement plusieurs fichiers communs, comme les dictionnaires, les librairies d'affichage, les librairies de barre de boutons, l'éditeur VBA, etc. Comme il n'est pas sûr que l'acheteur du CD de Project 2003 soit aussi un acheteur du CD de Frontpage 2003, Microsoft a décidé de mettre en duplicata les fichiers communs mais nécessaires à ces applications. Cela paraît bien sûr logique, mais c'est ce qui explique le grand degré de duplication entre les CDs. Par exemple, le CD1, qui contient les applications de base de Office, a une taille de 330 Megs et le CD2, qui contient Frontpage, a une taille de 180 Megs. Donc 330 + 180 = 510 Megs ? Oui, mais entre les deux CDs il existe exactement 87 fichiers totalisant 160 Megs qui sont totalement identiques. Autrement dit, le CD de Frontpage n'apporte en réalité que 20 Megs de plus à ce qui existe déjà. Donc 330 + 20 = 350 Megs. Vous aurez compris le principe.
+
+Alors la magie ? C'est un petit utilitaire de création de fichier image CD au format ISO. Cet utilitaire s'appelle CDImage, et croyez-le ou non, il provient des ateliers internes de Microsoft. Ce qu'il fait, c'est simplement de créer une image ISO ordinaire, avec comme option très utile l'identification et la substitution par un simple pointage dans l'index du CD de tous les fichiers dupliqués. Par exemple, supposons que nous ayons les fichiers suivants sur un CD créé par CDImage :
+
+  1. APP1ABC.CAB - 10 Megs
+  2. APP1XYZ.CAB - 20 Megs
+  3. APP2DEF.CAB - 5 megs
+  4. APP2XYZ.CAB - 20 megs
+
+Un logiciel de gravure ordinaire comme Nero copierait naïvement les 4 fichiers et mobiliserait 55 Megs sur le CD à graver. CDImage lui, remplace la 4e entrée (pour le fichier XYZ.CAB dupliqué) par un pointeur vers la 2e entrée. Autrement dit, seulement les entrées 1, 2, et 3 sont véritablement gravées. Évidemment, c'est une technique qui fonctionne que si différentes installations sur un même CD partagent plusieurs fichiers en commun. La magie, c'est que votre système d'opération ne fait absolument pas la différence entre un pointeur et un fichier réel. La preuve est que si vous décidez de copier le contenu de ce CD sur votre disque dur, vous aurez besoin de 1,2 Giga d'espace !
+
+Le truc étant expliqué, il ne restait qu'à exécuter CDImage (version GUI) avec les bons paramètres pour avoir une image ISO prête à graver et contenant tous les CDs de Office 2003.
+
+Vous trouverez d'ailleurs sur cette compilation le logiciel CDImage. S'il vous vient l'envie d'en modifier le contenu, vous aurez l'outil nécessaire pour recompiler le CD.
+
+2. Office 2003
+----------------
+Les CDs de Office 2003 ont été récupérés sur le cyberespace d'un post de "Squeeze". Il s'agit de la version finale de Office 2003.
+
+En quelque sorte, les 5 CDs sont disponibles intègres sur ce CD. Il suffit de recopier le répertoire correspondant et d'en faire chaque fois un CD autonome pour retrouver le CD original. Toutefois, deux légères modifications ont été faites : l'ajout d'un fichier README.TXT dans chacun des répertoires correspondant à chaque CD d'origine, et la modification des fichiers Setup.ini dans les répertoires FilesSetup" de chaque application de manière à présenter automatiquement le numéro de série. Les puristes pourront, s'ils le désirent, effacer le fichier README.TXT et réhabiliter le fichier Setup.ini original sauvegardé dans un sous-répertoire intitulé tout simplement "Original".
+
+3. Des utilitaires et des compléments
+-------------------------------------------
+Même avec 5 CDs réunis en un seul, il reste de la place. La présente compilation est donc bonifiée de quelques compléments, livres et utilitaires. Toutefois, il reste encore beaucoup de place laissée volontairement libre, en prévision d'une prochaine compilation (que vous pouvez faire si vous le souhaitez) et qui incluerait des mises-à-jour et d'autres compléments.
+
+4. Une interface pratique, un CD documenté
+---------------------------------------------------
+Il aurait été facile et rapide de tout balancer sur un seul CD et de s'en tenir là. Toutefois, tout riche contenu mérite riche documentation, tandis qu'une navigation pratique apparaissait nécessaire. Comme vous pouvez aussi le constater, le menu est simple et pratique. Cette application (trouvée dans un forum de discussion) a l'avantage d'être facilement adaptable. Si vous décidez de modifier le contenu de cette compilation et de vous en créer une nouvelle, il vous suffira de modifier le fichier AUTORUN.INI en suivant quelques règles simples.

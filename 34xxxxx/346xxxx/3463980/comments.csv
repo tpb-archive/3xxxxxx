@@ -1,0 +1,9 @@
+﻿User Type,Username,Date,Text
+,Ola Norske-faen,2006-03-30T08:39Z,"noen som hvet hvorfor jeg ikke klarer å få lastet opp mer enn 80 kb/s når jeg har 700 kb/s opp?
+når jeg setter på maks 700 kb/s opp på Azureus, går det ikke reskere opp enn 80kb/s."
+[V],Zapf,2006-03-30T08:56Z,"Ah endelig.. : ) Takker og bukker for denne.
+Er ingen wiz, men hadde samme problem og dro en auto-configure i options og fikk fulle 150kb/s opp som jeg da satte ned til 120kb/s for å gi noe båndbredde til Azureus. Visstnok bedre for Azur. å ikke gi hele linja til opplasting. Tror dog egentlig ikke auto-config løser problemet ditt.. Noen andre som har tips?"
+,ballerall,2006-03-30T18:37Z,"Grunnen til at du ikke får lastet opp kjappere enn 80kb/s er at intternett leverandørene oppgir hastighet i kilobits i sekundet mens den aktuelle hastigheten blir målt i kilobyte i sekundet. Da må du dele antall kilobits med 8 for å få kilobyte. 700 kilobits dele på 8 = 87.5 kilobyte, som er max for linja di. Vil  også takke for alle borettslaget videonene. keep up the good work:D"
+,hals1,2006-03-30T21:08Z,"Uansett kjære Ola Norske Faen, så er jeg evig takknemmelig. Du vet ikke hvor mye glede du sprer i min vennekrets og, selvfølgelig, til meg. Du gjør en kjempe god jobb, en jobb som jeg og andre her, setter veldig pris på! Fortsett med det:)
+
+TUSEN, hjertelig, millioner takk:)"

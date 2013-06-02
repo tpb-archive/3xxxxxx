@@ -1,0 +1,17 @@
+v0.61 2006.1.10 
+ 
+http://www.bitcomet.com/doc/changelog.htm
+
+GUI Improved: enhnce BCTP link command to lunch preview window
+GUI Improved: support xp themes in the embedded browser
+GUI Improved: no longer popup script error message in the embedded browser
+GUI Bugfix: Possible buffer overflow when opening URL link using external browser. (Thanks to Dejun Meng of Fortinet for reporting this issue)
+GUI Bugfix: the clip board can work in some user interface
+Core Improved: support wmv/asf file in the preview window
+Core Bugfix: fix the bug that DHT is added for the 'private' torrent after task begins
+Core Bugfix: fix the bug that UDP port mapping is not released when bitcomet exit 
+
+
+Direct Download: 
+http://fileforum.betanews.com/detail/1078332329/1
+

@@ -1,0 +1,73 @@
+This is the 0.8.5 test (Beta) version of VideoLAN's awardwinning media player. It can play almost all audio and video formats without the need of any extra codecs. Recommended software!
+
+Features in VLC (VideoLAN Client) 0.8.5 :
+
+- Rewrite of the playlist (tree structure, input preparsing ...) 
+- Preferences improvements 
+- XML parsers 
+- Client-side SSL/TLS support 
+- Massive Matroska improvements 
+- Support for SOCKS proxy 
+- Support for Shoutcast Meta-data 
+- Support for (HE-)AAC raw-audio streams 
+- TiVo demuxer 
+- Samba (Windows shares) access module 
+- Dirac decoder and encoder 
+- PNG decoder/encoder 
+- Support for Apple Lossless Audio Codec 
+- Services discovery modules (brand new SAP module, HAL discovery, DAAP (iTunes shares), shoutcast) 
+- Support for 20/24 bits LPCM 
+- Video snapshot support (png or jpg) 
+- Image file video output (png) 
+- Mosaic (picture-in-picture system) 
+- Pocket PC port 
+- Brand new Internet Explorer ActiveX plugin
+
+Changes in VLC (VideoLAN Client) 0.8.5 test1 :
+
+? Core support:
+* Statistics collection (bitrates, packets, connections, ...)
+* Support for downloading updates
+? Input:
+* Initial support for RTSP-over-HTTP (to allow NAT traversal)
+* Linux DV (Digital Video - Firewire) input
+* Improvements to the Audio CD input
+- Separate playlist entries for the tracks 
+- Support for CDDB 
+* Support for more DVB (satellite) encryption modules
+* Improved subtitles encoding support
+* Improved support for playing MP4 files from the Web
+? Decoders:
+* Cook (Real audio) support
+? Playlist / Services discovery:
+* Podcast support
+? Audio output:
+* New JACK audio output
+? Video output:
+* New video filters: 
+- magnify: allows you to zoom on part of the image
+- gradient and edge detection: "cartoon-like" effect
+- bluescreen: overlay a video transparently on another one
+* Logo video filter: can now loop through multiple images
+* RSS video filter: display feed images. Support for Atom feeds.
+* Improvements to the subtitles rendering
+? Stream output:
+* Initial support for throttling users on VOD streams
+? Interfaces:
+* System to inform the user and request information 
+- HTTP authentication
+- Fatal errors
+- ...
+* wxWidgets
+- VLM (VideoLAN Media Manager) control panel
+- Improved media information panel (shows statistics, metadata, ...)
+- Drag & Drop support in the playlist
+* Skins2 
+- Support for Winamp 2 skins
+- Improved playlist handling
+- Support for popup menus, animated bitmaps, equalizer...
+* HTTP
+- New default interface pages for VLC and VLM
+- A bunch of new RPN functions
+? Windows Port:
+* MSN messenger "Now playing" support

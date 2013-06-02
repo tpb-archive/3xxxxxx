@@ -1,0 +1,173 @@
+In Honor Of H3llBoSS 
+
+H3llBoSS's Steam-Down & Non Steam-Down :: All Steam Games For Free And Online 
+
+------------------------------- 
+Contents: 
+A: Steam-Down Pack 10 Full - H3llBoSS
+B: Non Steam-Down Pro
+C: FAQ 
+------------------------------- 
+
+A:
+-------------------- 
+Steam-Down Pack 10 [NEW] and Steam-Down Pack 7 
+-------------------- 
+
+Steam-Down Is The Best Way To Get Your Steam Games....Free And Forever 
+
+STEAM-DOWN P10 - H3llBoSS 
+
+Features: 
+
+- Fixes Steam Update Error 
+- New launcher that makes it possible to auto-launch steam when you are offline 
+- VAC2 Compatible 
+- New Steam 3 Skin 
+- No more launcher 
+- No need for ppatcher and New fixed Steam.dll 
+- No Steamengine window 
+- No need for regular steam 
+- Get all games in the "My Games" list with any account 
+- Download all steam games for free 
+- Play through the "My Games" list without any problems 
+- Play third party games without any problems 
+
+* Ticket Expiration Bypass Method: Not Available/Not Included 
+* You May Delete "Steam.exe" Since Its Not Needed 
+* No need to change the steam.cfg. You are offline steamdown will recognize it but if you want to enforce offline mode just put a "#" before "BootStrapperInhibitAll=enable" 
+* If you get any trouble with the steamdown.exe just run steam.exe 
+
+Installation: 
+
+- Run the installer and install it to any folder of your choice. 
+- Always start Steam-Down with the Steam-Down EXE and not with the Steam EXE 
+- Put your New or Current steam account and password in the login and login. 
+- If you allready have downloaded GCF's, put them in the C:Program FilesSteam-DownSteamApps folder before you start Steam-Down so it detects them. 
+- The first time you start Steam-Down, it will download platform files promptly from Steam. 
+- Your antivirus or firewall programs may not recognize the running programs, so always give access to them. 
+
+On some antivirus scan, SD releases packages can reveal "Type_Win32", "Trojan_Type" virus etc. Don't be stupid, it's not a virus or anything else like that. Just some packers/cryptors which have same binary signature. 
+
+Things To Know Before Using: 
+
+-Do Not use your real Steam account with Steam-Down unless you want to take the risk of it being banned. Make a new account and use that one. 
+-When you use Steam-Down, you can only play online when: 
+
+1)You use your real account but take a risk of it being banned. 
+2)You use your new account and play in a fixed server. 
+3)You find a way to fix the Invalid Ticket problem. 
+
+Steam-Down gives you complete 100% access to the games. You can play the Single Player portion, through LAN or through fixed servers without a problem. Basically, you can play anywhere except in the Valid online servers. The Invalid Ticket Fix is being worked on, so be patient. 
+
+
+B:
+-------------------- 
+Non Steam-Down 
+-------------------- 
+
+Non Steam-Down Pro 
+
+All Games Work Online In Non Steam Servers 
+
+Non Steam-Down Pro Features: 
+
+- Ability to download and update games (need Steam-Down) 
+- Added third party games auto-detection 
+- GCF Aato-detection 
+- Automatic fixed server updated in favorites 
+- Launch options enabled for games 
+- Added dedicated server tools for both Source and HL1 
+- Automatic fixed server list update 
+- News Feed section 
+- Fixed Server Browser 
+- Master Server Patch 
+- X-fire Compatible 
+- Adds Fixed Servers Automatically 
+
+Installation: 
+
+1 - Close your steam client. 
+2 - Install to your steam folder (steam-down ,six, steam, etc) 
+3 - Run Non Steam-Down EXE 
+4 - The first time you play a game, it will take some time to install some GCF files. 
+5 - Install third party games to SteamAppsuserHL1root or SteamAppsuserHL2root, depending on the mod of-course.
+
+
+If you get wierd errors when you run the program, Download Visual basic runtime SP6 Code: 
+
+
+C:
+-------------------- 
+FAQ 
+-------------------- 
+
+Steam-Down: 
+
+Can I use my real Steam account when using Steam-Down? 
+-Do Not use your real Steam account with Steam-Down unless you want to take the risk of it being banned. Make a new account and use that one. 
+
+Can I play online with Steam-Down? 
+When you use Steam-Down, you can only play online when: 
+
+1)You use your real account but take a risk of it being banned. 
+2)You use your new account and play in a fixed server (download Non Steam-Down for this). 
+3)You find a way to fix the Invalid Ticket problem. 
+
+Steam-Down gives you complete 100% access to the games. You can play the Single Player portion, through LAN or through fixed servers without a problem. Basically, you can play anywhere except in the Valid online servers. The Invalid Ticket Fix is being worked on, so be patient. 
+
+What do I do when I get the error message "Invalid User ID Ticket?" 
+-You can't do anything for this because there is no fix for it. If you want to play in a fixed server, download Non Steam-Down. 
+
+I used the Steam-Down to have the CS:Source GCF files, but it downloaded only 1GB of it. How can I have the whole GCF file? 
+-You must be patient. Go to the monitor screen and wait till the download is 100% complete. 
+
+When I start CSS, I get 3 errors in the console: 
+
+--- Missing Vgui material vgui/steam/games/icon_cs 
+--- Missing Vgui material vgui/steam/games/icon_hl2mp 
+--- Missing Vgui material vgui/steam/games/icon_dod 
+
+And when I try to run the game without Steam-Down, it says gameinfo.txt doesn't exist in HL2. 
+-The best and easy solution is to delete all the GCF's of the games who are giving you problems and download them again with Steam-Down. The other solution, but complicated: Install GCFscape & Microsoft Framework 1.1 on your computer. Search for the GCF's who have the files that are missing and delete only that GCF and Download it again with Steam-Down. 
+
+There are certain times when I start Steam-Down and the console runs up but it crashes suddenly with error 108. How do you fix this? 
+-This error is just saying that the SteamEngine.exe is already running. Go to your task manager, under the processes tab, and close the SteamEngine.exe. Then restart Steam-Down and it should work fine. 
+
+Non Steam-Down: 
+
+Can you use this installer without having your GCF files put in Non Steam-Down folder? 
+-You can use it as long as you have the GCF files. It doesnt matter where,as long as you install the program to where you have them. 
+
+When I press the PLAY button in the Non-Steam Down menu, I can't see any games there. What am I doing wrong? 
+-Your GCF files are probably misplaced. You need them in your Non Steam-Down/steamapps folder. They can't be the shortcuts either. 
+
+Could you please explain the NSD folder? I don't have one of those in my SteamApps directory? 
+-It means Non Steam-Down. Inside there should be a SteamApps folder with your GCF's. 
+
+Could you explain what kind of people can join a fixed server? Legit, Fixed, or Emulators? 
+-Everyone can join. 
+
+Will my cracked server be visible to legit user's Steam server browser? 
+-Yes. 
+
+I don't understand this step for creating a fixed server. 
+
+"6. Chose LAN and put SV_LAN 1 , and start the server" 
+
+I can choose LAN, but where can i find SV_LAN 1? Where can I change this? 
+-Just type it into the console by pressing "~". 
+
+I keep getting this error when I try to join a server: 
+
+"Server is using different class tables" 
+
+How do you fix this? 
+-You should delete your user directory and it will work again. 
+
+How do you get Non-Steam Down to work with downloaded maps? 
+-Extract any downloaded map(s) to the "Steam-DownSteamAppsuserhl2roothl2mpmaps" directory.
+
+
+Torrent Brought To You By
+[www.themetalmulisha.com]

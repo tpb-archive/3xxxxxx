@@ -1,0 +1,11 @@
+RemoveWGA enables you to remove the Microsoft "Windows Genuine Advantage Notifications" tool, which is calling home and connect to Microsoft servers every time you boot. Futures updates of this notification tool will (officialy) setup the connection rate to once every two weeks.
+
+Once the WGA Notification tool has checked your OS and has confirmed you had a legit copy, there is no decent point or reason to check it again and again every boot. Moreover, connecting to Microsoft brings security issue for corporate networks, and privacy issues for everyone. It is also unclear which information are transmitted (Microsoft published an official answer, but an individual study brought some questions). All of that, along the fact that Microsoft used deceptive ways to make you install this tool (it was told you it was an urgent security update, whereas it is a new installation giving you no extra security) makes me calling this tool a
+spyware. 
+
+Also, Windows Genuine Advantage Notifications is different than Windows Genuine Advantage Validation. RemoveWGA only remove the notification part, phoning home, and does not touch the Validation part. As the time I'm writting this, the Validation part is mandatory for some not critical downloads from Microsoft, but the Notification part is not mandatory at all, and you are able to install all of the security updates without installing this one. This may change in the future thought, I don't know what are the Microsoft plans.
+
+Features
+* Tell you if the WGA notification tool is active on your system
+* Allows you to remove the WGA notification tool from your system
+* Accept the "-silent" command line parameter to silently check if the WGA notification tool is active on your system, and popup only if it is found (usefull for checking automatically at startup for instance)

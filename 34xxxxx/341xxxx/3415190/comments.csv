@@ -1,0 +1,67 @@
+﻿User Type,Username,Date,Text
+,asais777,2006-01-24T22:32Z,Where's some comments about seed???
+,asais777,2006-01-24T22:33Z,thanks!!!
+,kiljeaney,2006-01-26T00:03Z,"Love the post just one fucking annoying problem.
+
+When using the ""liveupdate"" it will encounter a problem Details:
+Error: ""Windows XP 5.5.0.1 SP1, Common Client , ccProxy 2.1.15,""
+
+If you go to symentecs support page and follow their trubelshoot list you will soon get the answer:
+
+Reinstall all symantec products???????
+Anybody with a solution???????"
+,Bongki,2006-02-22T23:33Z,Thanx a lot for sharing!!!
+,atarilover,2006-02-24T14:41Z,"does your key stop 24/2
+try this new one works for me!
+
+JGG84-8YM4W-KPPCRQXRJJ-XBFFK"
+,LbL,2006-02-25T15:47Z,"
+The Key has never been the problem!
+
+The problem is with the Phone Challenge Code, the one with 00000-00000 and so on.
+That one has been spotted, snd STOPPED, by Symantec, so if it's with that code, this download is Dead..."
+,nitromax,2006-03-08T09:51Z,"Uninstall NIS
+Uninstall Live Update
+Delete C:Program FilesNorton Internet Security (if there)
+Delete C:Program FilesSymantec (if there)
+Delete C:Program FilesCommon FilesSymantec Shared
+Start>Run and type %temp% and delete everything (unless it's being used)
+Search for myprofile.userprofile and delete it (hidden/system file that keeps your subscription logged even after uninstalling)
+Delete HKEY_CURRENT_USERSoftwareSymantec
+Delete HKEY_LOCAL_MACHINESoftwareSymantec
+Reboot"
+,nitromax,2006-03-08T09:52Z,"Install NIS and use one of the keys in this topic.
+Reboot
+Disable internet connection and try to activate. After it fails it will give you 2 options. Pick the phone one. In the space put all 0's except the last 3 should be 999 and click next.
+After it's activated, close out of that window and wait for the main NIS window to come up. Close out of Live Update if it comes up.
+Go to options for NIS and disable auto live update."
+,nitromax,2006-03-08T09:54Z,"Run Live Update and uncheck the box for ""Norton Internet Security Resource Updates"". That's the one that fixes the bug. Update all the rest of them and reboot."
+,nitromax,2006-03-08T09:55Z,"Since you don't have auto live update, just make a sheduled task to run daily and it to run C:Program FilesSymantecLive UpdateLUALL.EXE. "
+,nitromax,2006-03-08T09:55Z,Just make sure you don't update the NIS Resource Updates one. That's the killer
+,nitromax,2006-03-08T09:56Z,"sorry had to post so many time it would not let me write all of this in one go so i had to break it down.
+
+it has been tested and works 100%"
+,superpower,2006-03-09T04:39Z,"about the Activate code,just unplug the internet first,anthan click activate by phone,anthan just type oooooo oooooo oooooo oooooo oooooo ooo999 or 365, shound be okay , at the last part will show need reActivate or not ok, just close the window, anthan reopen again , done, remeber, unplug the internet ,"
+,norlen,2006-04-12T05:02Z,"I don't get it. Where am I supposed to search for ""myprofile.userprofile"" ?
+I have tried Start/Search and yes, I have checked to search in system folders/hidden folders.
+Or am I supposed to change it to ""myprofile.(my username)profile"" or something? Please help!"
+,Jonny_ekholm,2006-04-28T21:33Z,I made the installation info to my dad and its been working fine now for two months but im just wondering is there any security risks in the game if im not taking resource updates`?
+[V],_Bianc0neri_,2006-05-18T20:00Z,Thx for this Great Torrent. :) I gonna seed a While.
+,Mido99,2006-05-28T20:28Z,hey nitromax how the hell did u get to know all that lol thats awesome .....i take it thats why the first time i tried to install it and it fucked up and the second time it just wouldnt go?
+,Mido99,2006-05-28T20:35Z,and is it fine to delete all that %temp% stuff ....it doesnt arse up the computer does it?
+,yardape27,2006-09-06T04:44Z,"nitromax--
+the only thing i can uncheck when running live update is 'norton internet security program updates', which is the closest thing to 'norton internet security resource updates'.  is this the one i uncheck?"
+,yardape27,2006-09-06T05:02Z,"nitromax--
+i unchecked 'norton internet security program updates' , and when it finished downloading, i still saw that 'norton internet security resource updates' was downloaded.  how do i NOT download this if i cant uncheck it specifically?"
+,Richardz,2006-09-08T19:33Z,"It's the same shit for me... Nitromax, which one is it? I can't find the box for ""norton internet security resource updates"".... I only find program updates..."
+,Richardz,2006-10-04T03:27Z,"yardape27 >>> have you figured it out? I can't uncheck NIS Resource Updates specifically... it's impossible.
+
+Anyone who sees this... please let me know.
+
+Thanks"
+,skeba10,2006-11-21T23:39Z,"I just installed this... and it works. I downloaded ALL updates from live update and... it works.
+GREAT Release. I'm gonna seed this one a looong time. THANKS"
+,victorward44,2006-11-25T23:26Z,"Skeba10: after you updated it for the first time and restarted the comp, you have to start live update again, then it starts to download more, then again restart and then you'll see that the activation trick -for 2457 days has been set back to 15 days! So you have to do what nitromax suggests to bypass that update part that recognizes the trick!"
+,tobl87,2006-12-16T18:17Z,"i unchecked all updates with Norton Internet Security Resource Updates, and it worked for about a day, then suddenly nis was shutted down and they asked for a valid key. I had auto update but checked on ""notify me before downloading"" so that I could uncheck that update. wats wrong?"
+,the daddy,2007-01-23T18:45Z,seed it please thanx :-)
+,LsnilletS,2007-02-16T17:30Z,does this work with Windows Vista??

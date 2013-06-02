@@ -1,0 +1,30 @@
+KOMPAS-3D is designed for creating three-dimensional associative models for individual parts and assembly units containing both original and standardised structural elements. The parametric technology allows to quickly obtain models for typical products basing on a once designed prototype. Numerous service functions facilitate solving auxiliary designing and production maintenance problems.
+
+A key feature of KOMPAS-3D is the use of its own mathematical core and parametric technologies developed by ASCON specialists. 
+
+The basic problem being solved by the system is the modelling of products in order to considerably reduce the period of their designing and launch them into production as fast as possible. 
+
+The model export/import tools (KOMPAS-3D supports IGES, SAT, XT, STEP, VRML formats) provide functioning of complexes containing various CAD/CAM/CAE systems.
+
+The product modelling in KOMPAS-3D can be carried out by various methods, namely: down-top modelling (using finished components), top-dawn modelling (designing components in the context of a specific design), modelling based on a layout outline drawing (for example, on a kinematic diagram) or a combination of modelling methods. Such ideology provides obtaining easily modifiable associative models.
+
+The system has a powerful functional for the management of project including several thousand sub-assemblies, parts and standard products. It supports all the capabilities of three-dimensional solid-state modelling that have become a standard for medium-level CAD/CAM designs: 
+
+- Boolean operations on typical shape-generating elements; 
+- creation of surfaces; 
+- associative setting of elements parameters; 
+- construction of auxiliary straight lines and planes, outline drawings, spatial curves (broken lines, splines, various spirals); 
+- creation of structural elements, i.e. bevels, fillets, holes, stiffness elements, thin-walled shells; 
+- special possibilities facilitating the construction of foundry moulds, i.e. pattern draft, joint lines, cavities according to the part shape (including those with the setting of shrinkage); 
+- creation of any shape-generating arrays and assembly components; 
+- inserting standards products into the model from a library, generating user model libraries; 
+- component modelling in the context of assembly, relative determination of parts comprising the assembly; 
+- imposition of mating for assembly components (in doing so, a possibility of automatic imposition of mating considerably increases the rate of assembly creation); 
+- detection of the interpenetration of parts; 
+- a possibility of flexible editing of parts and assemblies, 
+- re-determination of the parameters of any element on any designing stage causing a re-construction of the whole model. 
+- Associative BOM-creation. 
+
+A significant novelty of the KOMPAS-3D V7 version is a functional for the modelling of parts from a sheet material. This set of commands for creating a sheet body, bends, holes and cutouts in the sheet body, angle closure as well as the performance of a developed view for the sheet body obtained (including generating an associative developed view drawing).
+
+New capabilities of KOMPAS-3D V7 are not limited by the bending functional only; they also include the following: document bookmarks, colour schemes, user profile saving, improvements in handling of parametric variables, element arrays, raster objects - these and dozens of other new elements make the designer's work to be much more convenient and effective that before. Releasing KOMPAS-3D V7, the developers have paid a considerable attention to the system performance improvement; as a result, a noticeable time reduction has been achieved for the processing of three-dimensional models and complicated associative drawings.

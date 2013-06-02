@@ -1,0 +1,28 @@
+Sorry, I seeded a version with wrong info in README, this one is correct.
+
+XboxMediaCenter (XBMC) 666 CVS T3CH build with MC360 Skin
+>> It's 06/06/06 6.66pm British Summer Time (or about)...
+T3CH released a new CVS compile of XboxMediaCenter(info). This 06/06/06 CVS build is the first with the MC360 skin, an X360 reproduction skin for XboxMediaCenter.
+This T3CH-compile is a complete snapshot of what is in CVS at the time the build was compiled, with just a few small additions.
+XBMC is in a FEATUREFREEZE at the moment. If you want to report bugs, please do it the PROPER way, see here.
+
+Noteworthy, XML and Script changes in this build:
+* The date 060606 brings us MC360 BETA version.
+* !THIS IS NOT XBMC 2.0.0, XBMC is still pre 2.0.0!
+* The change of location for GUI settings is a big change.
+You will have to redo all your GUI settings (unless you have them specified in AdvancedSettings.xml)
+Also changed is that all tags in AdvancedSettings.xml needs to be lowercase.
+* If you wondered what happened to XBoxMediaCenter.xml, More info here and here.
+* changed: redid master lock. thanks to smokehead for skin work! (won't work with MC360)
+* changed: Settings cleanup (simplified programs + video auto-switching, removed some that are no longer necessary)
+* changed: TDATA\0face008\settings.xml moved to UserData\guisettings.xml
+* Keymap.xml: no changes
+* XBoxMediaCenter.xml: All lockcodes (shares) must now be MD5 hashed!
+
+
+Special Note From Team Blackbolt:
+[QUOTE]
+Team Blackbolt would like to thank the many users who followed our project with great respect, Its not often a project like this gets this much attention, but you have made us welcome. We are very proud to present this 0.966 beta to you through T3CH. Thanks Again.
+- Team Blackbolt http://blackbolt.x-scene.com
+
+SEED!!!!!

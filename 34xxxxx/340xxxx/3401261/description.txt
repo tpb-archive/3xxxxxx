@@ -1,0 +1,9 @@
+For use with any Autodesk 3D Studio Max 8 release, even retail or the trial version.
+
+If you are getting the early "Installation Ended Prematurely" error, and nothing else fixes it such as disabling every antivirus/antispyware etc, then it probably is the result of you not having the required stock winxp files in your C:WindowsSystem32Driversetc folder, which is provided here.
+
+If you are getting the raysat error, the registry fix is also provided here.
+
+This may or may not fix both those problems, the raysat registry fix is an official fix, so that will work with that problem.
+But the Installation Ended Prematurely (before it even started to install), that may or may not be fixed.
+It was fixed for me after several days of email-troubleshooting with an Autodesk employee.

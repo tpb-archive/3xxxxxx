@@ -1,0 +1,56 @@
+This is the newest build of the Windows version of Opera 9.0 Technical Preview 2. It's really great! And the new installer is so much better and nicer.
+
+Changelog:
+
+-Tabbed browsing preferences have been moved to Preferences - Advanced - Tabs.
+-Fix for Shift+Click text selection.
+-Removed support for SGML comments in HTML. Comment parsing is now based on the Web ---Applications 1.0 draft.
+-Fix to allow object tags with an empty data attribute to load plug-ins.
+-Fix for loading PDF documents in a plug-in via the POST method.
+-Implemented stepUp and stepDown for Web Forms 2.0 date inputs.
+-Added support for Audio, as described in the Web Applications 1.0 draft.
+-Images held only in memory using the Image() constructor now report the correct --dimensions.
+-Added support for controlling plug-ins with site specific preferences.
+-Clicking a label for a checkbox now fires events for the associated input.
+-Formchange event is now fired when contents of the form are changed.
+-Several designMode improvements, including handling of queryCommandEnabled and --queryCommandState, and converting multiple paragraphs into list items.
+-Added support for dynamically generated script tags in SVG.
+-Allowed animating of flood-color in SVG using animateColor.
+-Fix for mouse events in widgets.
+-Dragging a scrollbar in a widget no longer drags the widget.
+-Fixed handling of :hover over block elements.
+-Improved handling of whitespace around inline elements.
+-Fixed aligning of fonts on buttons.
+-Self closing tags no longer break layout.
+
+
+Mac specific:
+
+Quote from mac developer minch: 
+This build is fantastic!
+
+Adobe has released a preview version of Macromedia Flash-plugin update for Intel-based Macs. This update is now compatible with Opera. Download is available at: <http://www.macromedia.com/go/2dda3d81>.
+
+
+Windows specific:
+
+For Windows users, this weekly build is only available in Windows Installer format. If your computer does not yet have the Windows Installer, it can be downloaded from the Microsoft download page.
+
+
+Windows Installer specific:
+
+Installers are notoriously difficult to set up correctly for all systems, there are just too many different computer setups in the world for us to think of all of them. Anticipating that some of you might find bugs in the installer, we've set the installer to write a local log as it progresses. This log is stored in the file 
+install_log.txt
+which is placed in the folder where the installer is run from. If you encounter problems while running the installer, we would very much appreciate it if you would file a bug report and provide the log as an attachment. The log will be overwritten if you run the installer twice, so please file the bug report first, and retry afterwords.  If your install goes smoothly, just ignore or delete the log.
+
+Known issues:
+
+(mac) Keyboard shortcuts with "ctrl" as modifier can cause Opera to crash.
+(Windows installer) A few files are not removed on uninstall and have to be deleted manually.
+ 
+http://www.microsoft.com/downloads/details.aspx?FamilyID=889482fc-5f56-4a38-b838-de776fd4138c&DisplayLang=en
+This is the Windows Installer if some users with old computers don't have it.
+
+Comments and thanks are appreciated.
+
+Downloaded from http://my.opera.com/desktopteam

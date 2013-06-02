@@ -1,0 +1,19 @@
+Xbmc with Web Browser integrated , run properly...
+New DVD & skin features. A nice release, please share it !!
+
+Changelog here => http://cvs.sourceforge.net/viewcvs.py/xbmc/XBMC/Changelog.txt?view=markup
+
+
+*************************************************************************************************************
+*************************************************************************************************************
+                                      MPlayer Core CHANGELOG
+************************************************************************************************************* 
+*************************************************************************************************************
+
+added/fixed: (dd-mm-yyyy) (please specify date in CET)
+  - 09-01-2006 added: additional fourcc codes in codec.conf
+  - 09-01-2006 added: ffmpeg data padding patch ( malloc padding to avoid access beyond allocated memory ) , hopefully fixes fast wmv's. 
+  - 09-01-2006 changed: explicitly disabled gif and jpeg instead of relying on autodetection
+  - 09-01-2006 fixed: xbmc wasn't compilable with mingw5, due to missing sleep function
+  - 01-01-2006 updated: libmp3 to mplayerhq cvs version as of now. fixes some mpegs that where only playing static audio
+...

@@ -1,0 +1,21 @@
+Release 80 Version 81.94 
+
+Issues Resolved in Version 81.94 
+
+This following are changes made and issues resolved since driver version 81.87 
+
+Single GPU Issues 
+
+? GeForce 7800 GT/GTX, GeForce 6800: Corruption of "Widescreen" great shot playback mode is corrupt with AFR2 mode set in Tiger Woods 2006. 
+? GeForce 7800 GTX/GT: Running OpenGL Games after Direct3D hangs the system. 
+? GeForce 6800: Incorrect rendering in Half Life 2 Lost Coast / Day of Defeat. 
+? GeForce 6 Series: With the latest FarCry 1.33 patch, HDR mode may not work. This is an issue with the application, and will be fixed in the next patch for the game. 
+? Quadro FX 1300, Quadro FX 3400: Using GLSL gl_ModelViewMatrixInverse generates warnings. 
+? GeForce FX 5950 Ultra: Battlefield 2 intermittently fails to show fog on some distant objects. 
+? GeForce4 Ti, GeForce FX 5600: Java applications crash upon exiting. 
+
+SLI Related Issues 
+
+? GeForce 7800 GTX, SLI:The PrintScreen function does not capture 8xS AA, 8x SLI AA, and 16xS SLI AA correctly in Half-Life 2 
+? GeForce 7800 GTX/GT, SLI: Halo hangs after playing for a few minutes. 
+? GeForce 7800 GTX/GT, SLI: Flat Out hangs or causes a system reboot when launched with SLI enabled.

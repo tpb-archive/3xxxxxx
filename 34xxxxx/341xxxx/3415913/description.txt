@@ -1,0 +1,5 @@
+The "Sothink SWF Decompiler MX 2005c build 51108"-torrent includes a patcher which bombs on Windows 2000, while works well on Windows XP. On versions lower than XP the patched executable displays the error "procedure entry point restorelasterror could not be located in the dynamic link library kernel32.dll". This is because this function doesn't exist on Win2K installations. But this executable is fixed after patching and works fine on my Win2KSP4 w/final rollups.
+
+The problem and solution to the problem - which manifests itself with several patcher programs and unpackers - is described here : http://forum.exetools.com/showthread.php?t=2618&goto=nextoldest
+
+Well, enjoy this torrent fix, or maybe you can apply the fix yourselves if you want. Either way, here goes!

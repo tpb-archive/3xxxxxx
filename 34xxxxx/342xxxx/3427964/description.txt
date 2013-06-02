@@ -1,0 +1,13 @@
+I always wanted XP Media Center Edition to be able to use itunes through the media center interface, but you can't even play itunes files(.m4a,.mp4,apple lossless...) let alone control your itunes library         But HP had already done what I wanted by writing their  own Media Center add-on called "hptunes". Too bad I will never ever buy a HP... So after more than a few hours with a friends HP recovery DVDs I managed to put together a package that'll install hptunes onto non-hp machines- giving you full control of itunes while in XP Media Center
+
+-I have only tested this on XPMCE 2005, I have no idea if it'l work on 2004. Let me know if you try.
+
+I hope someone else finds this useful.
+
+fezz
+
+Fixes:
+- Improves performance with Media Center.
+- Resolves visual issues in Now Playing view.
+- Resolves limitation in scrolling through a large music list.
+- Supports control of screen saver and performance optimization settings within HP Tunes

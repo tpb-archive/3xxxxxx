@@ -1,0 +1,46 @@
+﻿User Type,Username,Date,Text
+,simmerpilot,2006-06-11T21:55Z,"Arney, wtf have you gained by posting that link ??? download movies/music blah blah blah for free, then asks for your credit card details. nosher"
+,linkdup,2006-06-11T21:55Z,sorry all these are advanced
+,ripper_gonzales,2006-06-11T22:34Z,arnold1965: you forgot to mention that you'll have to pay money at your posted website. PB is free and that's worth a lot more than your piss site. Why don't you just crawl up your own rectum and disappear.
+,The Crow_666,2007-02-12T17:55Z,"gah :<
+
+i dont get how u crack it -.-Â´ the readme is really confusing.. i relly need it >< :( could some1 write a tutorial here? =) plzzzz?"
+,Davidow,2007-04-20T19:32Z,"You are supposed to type in your IP-adress when the install asks for the server, right?
+However, I still don't get it to work. :-K"
+,buriwww,2008-04-08T08:38Z,"Thanks for this torrent, works great, no prob with installation.
+Here's what I did:
+
+1.  Run and install ""setup_XSI_6.01_win32.exe"", leave everything the default setting.(you can change the path where it will be installed at). Don't run the program yet right after it is installed.
+
+2. Go to Start>Program>Softimage>License manager
+
+3. Click ""Edit config file"", scroll down and you'll see this:
+
+----------------------------
+# Select the port the dongle is connected to.
+# The IButton driver (tm321_32.exe) must be installed in order to use the iButton port.
+# Sentinel dongle on serial port: COM1 or COM2
+# iButton dongle on USB port: IBU
+# iButton dongle (DS1413) on serial port: IBZ1 or IBZ2
+# ETX: DONGLE_PORT is ignore for ETX DONGLE_TYPE
+DONGLE_PORT=IBU
+----------------------------
+
+change the DONGLE_PORT=IBU to DONGLE_PORT=COM1
+then click save. Close License manager.
+
+4. Go back to the folder where the original ""setup_XSI_6.01_win32.exe"" is, you should see a crack rar there (""spm1414-win32-crack.rar"").
+Unrar everything to the directory C:\spm
+Choose yes to all to overwrite the files.
+**note: make sure you unrar the cracks to the folder, not just unrar it somewhere else and then copy paste the files to C:\spm, because there is an important hidden file in the crack that you might miss**
+
+5. Go to Start>Program>Softimage>License manager again, click server>install license server service.
+Now click the ""Start Server"" button underneath.
+At this point I got a pop up warning about time and date or whatever, I just ignored it and clicked ok.
+After that close the License manager and you can run Softimage XSI smoothly."
+,superidolen,2008-04-18T07:52Z,"Hay, buriwww!
+
+I can't find the License Manager, and I've searched the XSI folders like an idiot. Where can I find it? :S
+
+Thanks in advance!"
+,Fai222,2009-07-23T23:57Z,"Please seed this. I cant get the download to work. Its just standing there at download speed: ""nothing"". Any help? I really need this program. Is it possible to activate the trial version of 5.11?"

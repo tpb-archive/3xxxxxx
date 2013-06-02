@@ -1,0 +1,48 @@
+Release.............: XBox Media Center 1.1.0
+ CVS/Compile Date....: 2005-12-06
+ Compiler Versions...: XDK 5933, Visual Studio .NET 2003
+
+ Skins...............: Project Mayhem III
+                       Project Mayhem III style webserver interface by KanadaKid
+
+ Visualisations......: ~1500 G-Force and ~7000 Milkdrop
+
+ Scripts.............: XBMC Scripts Installer and Submenueditor 1.1 available
+                       from the scripts menu.
+  
+ Custom Mods.........: Custom mplayer.dll compiled from latest CVS with GCC 3.4.4
+                       using --disable-libavformat. Greatly reduces the size of 
+                       the dll at the cost of not being able to demux a few
+                       obscure formats.
+                       WMV9, RealVideo and Quicktime codecs included and tested. 
+
+ XBMC Changelog......:
+
+ - 06-12-2005 fixed..: Using 'none' in PM3 freezes xbox after apx. half hour in
+                       non-English locales. Requires changing the vis off none,
+                       then back onto it to stop the freezing.
+ - 06-12-2005 fixed..: XBMC hangs when skipping to next video in My Videos
+                       playlist.
+ - 06-12-2005 fixed..: Bug in GUIFont::GetTextExtent() which could cause
+                       filenames with characters that were not present in the
+                       font to crash.
+ - 05-12-2005 fixed..: playlists button in My Music Files
+ - 05-12-2005 added..: frame dropping in video decoder when using ffmpeg in
+                       dvdplayer
+ - 05-12-2005 fixed..: saving playlists
+
+ MPlayer Changelog...:
+
+ - 04-10-2005 updated: ffmpeg to mplayerhq cvs version as of now. fixes a few
+                       avi's that where causing problems + a few other stuff
+ - 06-09-2005 changed: when resuming normal playback speed, video would jump
+                       ahead a couple of seconds. didn't work well
+ - 22-08-2005 updated: libvorbis interface to mplayer cvs (ad_libvorbis.c:1.18),
+                       fixes vorbis decoding in both matroska and ogm containers
+
+ PM III Changelog....: 
+
+ - 04-12-2005 fixed..: Small navigation problem in DialogVideoInfo (16x9).
+ - 04-12-2005 changed: Play button shows Play when FastForwarding or Rewinding.
+ - 01-12-2005 added..: FileBrowser.xml - initial skinning by BritneysPAIRS
+

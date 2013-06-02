@@ -1,0 +1,8 @@
+﻿User Type,Username,Date,Text
+,Maiken1,2006-06-19T22:14Z,Fungerar Tackar s책 mycket
+,Texaslambada,2006-06-30T09:10Z,"how do I register, and do you have to??... I entered the serial number, but which e-mail adress do i have to enter???"
+,toelicker,2006-07-02T14:12Z,How the **** did u get the registration to work?
+,toelicker,2006-07-02T18:43Z,"This site describes how to get past registration:
+http://www.9down.com/story.php?sid=6773"
+,Sysop100,2006-07-04T21:17Z,note: I have done some checking and this program process/pid when running uses port 3561 and 3562 to validate its registry info from the registration server. So I beleive blocking these ports will prevent unregistration as well. Then It is blocked regardless of what the server name is or its ip. I captured this data by running a netstat -b on a test machine running the software when a request was made. --- enjoy 
+,orion70,2007-03-14T10:54Z,virus: Trojan-Downloader.Win32.QQHelper.ki

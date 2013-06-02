@@ -1,0 +1,12 @@
+this file was somehow removed, so i think it should be put back again...
+
+ISO-Installimage of 10.4.4. Actually, you can customize your installation, so you can choose, whether the 10.4.5 update should be installed. And there, you choose the patches you need. Patches for Intel, AMD, SSE2 and SSE3 are provided, like in the title. 
+
+It works like a charm on my pc:
+
+Intel Celeron D 331, with SSE3 and NX and EM64T
+Asus P5LD2-VM, Skt 775, onBoard Sound ALC882, onBoard LAN(supported)
+ATI Radeon X300SE, no refresh rate change(60hz), supports QE and CI after another patch.
+1 GB DDR2-533
+
+So just download and burn it onto a DVD.

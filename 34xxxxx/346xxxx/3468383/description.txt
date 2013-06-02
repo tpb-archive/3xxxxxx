@@ -1,0 +1,36 @@
+WWW.TORRENTFLUX.COM
+TorrentFlux v2.1 - PHP based Torrent client
+----------------
+* Addes support for reading file size of files over 2.0 GB.
+* Added Queue Manager functionality
+  this will allow an admin to specify the following.
+       maximum torrent threads per server
+       maximum torrent threads per user
+       polling interval
+           amount of time the q manager waits in (seconds)
+           between each sweep of the queue
+       enable / disable of queuing
+  admins will have the ability to override the queuing
+  when starting a torrent in the start dialog.
+* Settings are now stored in a database table and can be
+  modified from the admin screens.
+* Torrents will not be able to be deleted until they have
+  shutdown -- prevents hanging threads.
+* Admin can specify what categories will be filtered out on
+  torrent searches.
+* User may continue browsing when downloading via package
+  downloading.
+* Using ADODB 4.80 for database connections.
+* Using BitTornado 3.15 Linux Source.
+* Support for Cookies for each user under profiles.
+* Updated RSS feed and Fetching of Torrents over a URL.
+* Added Rerequest Interval to the Startpop and Settings
+* Added modular search engine.  Support for several
+  popular torrent search engines -- you can build your
+  own.
+* Search Engine settings and filtering.
+* File Priority selection
+* Added btmakemetafile.py for Making Torrents
+* Users may download the torrent file from the list.
+* NFO / Text viewer
+* Download torrent meta file from main torrent list.

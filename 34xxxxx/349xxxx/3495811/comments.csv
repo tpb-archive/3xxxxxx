@@ -1,0 +1,37 @@
+﻿User Type,Username,Date,Text
+,TokyoElbow,2006-06-19T08:16Z,this looks 'cool' any seeders?
+,TokyoElbow,2006-06-19T08:18Z,"ok, I see the seeders now, tracker just a bit late, nice one cic"
+,TokyoElbow,2006-06-23T08:18Z,"I get an error when I try to burn to dvd using Nero.
+this bollocks:
+
+[quote]23.6.2006
+UDF/ISO compilation
+07:14:23	#1 DVDREALLOC 5 File DVDVideoCompilation.cpp, Line 965
+	Backup file 'VTS_06_0.BUP' should be identical to 'VTS_06_0.IFO'
+
+07:14:23	#2 DVDREALLOC 5 File DVDVideoCompilation.cpp, Line 965
+	Backup file 'VTS_07_0.BUP' should be identical to 'VTS_07_0.IFO'
+
+07:14:23	#3 DVDREALLOC 5 File DVDVideoCompilation.cpp, Line 965
+	Backup file 'VTS_08_0.BUP' should be identical to 'VTS_08_0.IFO'
+
+07:14:23	#4 DVDREALLOC 5 File DVDVideoCompilation.cpp, Line 965
+	Backup file 'VTS_09_0.BUP' should be identical to 'VTS_09_0.IFO'
+
+07:14:23	#5 DVDREALLOC 5 File DVDVideoCompilation.cpp, Line 965
+	Backup file 'VTS_10_0.BUP' should be identical to 'VTS_10_0.IFO'
+
+07:14:23	#6 Phase 117 File dlgbrnst.cpp, Line 1845
+	DVD-Video files compliance test failed
+
+07:14:42	#7 Phase 132 File dlgbrnst.cpp, Line 1845
+	DVD-Video files compliance ignored[/quote]"
+,cic,2006-06-23T19:07Z,"@TokyoElbow 
+These are not compressed winrar files but CloneDVD images.
+In Nero you can skip the burning wizard. Instead
+1. Go directly to File > Open... in Nero. 
+2. Select the DVD image. 
+3. You will get a Burn DVD dialogue. This will allow you to burn the CloneDVD images. Burn!
+4. Please post progress."
+,vriend,2007-04-02T09:11Z,Seed please
+,ktm78,2008-09-23T04:38Z,Dvd covers?

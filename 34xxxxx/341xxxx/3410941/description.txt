@@ -1,0 +1,10 @@
+For a start, here are the patched files (oah750 and oah750d). No installer yet (but will follow). Enjoy.
+
+MaxxussAntiTPM_10.4.3_v1_raw.zip
+
+
+Please note:
+
+- The SSE3->SSE2 kernel (version test2) crashes before the Mac Welcome form shows up. With SSE3 however, it works perfectly well. I'm looking into it and will post a new kernel SSE2 patch.
+
+- After copying, set ownership to "root:wheel", e.g. with the shell command "chown root:wheel oah750*". Do it e.g. in single user mode or from within 10.4.1.

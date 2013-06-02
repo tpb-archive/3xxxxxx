@@ -1,0 +1,162 @@
+_
+                                    |/ _
+                _                  ___/ ___                  _
+                               ._| .       |_.               /
+                          .  ___|_| .       |_|___  .
+                _/   . .:: |   :  .:         :   | ::. .   /_
+               _  ____  __|_  `. `S        .'  _|__  ____/  /_
+      _ _ __ _|       )/  :     `. `     .'   . :  (   /  /  |_ __ _ _
+         \_\_           |       `.   .'     | |      /  /   _//_//
+     _        |    /¯_  _ _|         `.'       ' |_ _  _¯/    |        _
+  _._/_______|_ _   /   |                      / / /    _ _|_______/_._
+ _)| /       :         `           X          / ' /  /      :       / |(_
+   |    .:::' |_      /¯_  |                   /|  _¯/      _| `:::::.. |
+_____/ `::    _        /  |¯         O         ¯| /         _   `:::':' |
+.       :   `         /¯ !                     ! ¯/        _|   ' : `  |
+ \       `  /___         :          R          :               _   '    | _
+ _       _ /    /__  ___________:_ ______________ __________ __ /_________ |
+|  ______ /____/   )/    _      |//     _       //     _      / ______   _
+|    _____. ______/       /      /      |/     _/|      /      /       /    .|
+|   /     |       .    _/      /|      |       |    ________/      _/     ||
+|__/      |__      \__________/ |______| _____  ___________________________|
+   ______|          _    . .                  (            _        .  .
+   /  .       _______/    : l        E                      _|   .  .:  |
+   .  :        _            | | .                 .            _    : :::  |
+   | :::..    |             | | :      D        | |             |  .:::::: |
+  _|__________:__      _ _ _| | l               | |_ _ _      __:__________|_
+   !        .   //        \| | |      !        : |//        \   .        !
+      _ /__/___/           \  |                 //           _____ _
+                     ____| |      X         /|____        /   /  /
+         +  _  _ _ _//____|                 / |____\_ _ _/  _/  +
+                   .        |         B       /  |        .
+          .  -  .  `       _|___ _         _ /___|_       '  .  -  .
+       .`          `  .     :   |/    O    /|   :     .  '          '.
+       .      .    H    ` . _ _ |_           _| _ _ . '    Q    .      ,
+         . _ .'    i  ._       |_|    X    |_| /      _.  u    `. _ .
+                   g  | `         |___   ___|         ' |  a
+                   h  !               _/               !  l
+                   e              .___   ___.              i
+                   s              |    /   |              t
+                   t              .    V    .              y
+                   :                   !                   :
+                                       ,
+                   .                                       .
+
+                   .                                       .
+                   .                                       .
+             _ _/  :   P r o u d l y   P r e s e n t s :   :  _ _
+       __________ _|                                       |_ __________
+ _____\ _                                                           _ //_____
+|       /                                                           /       |
+|                      Title..: Xored Trainer Launcher           `:: |
+| `                    Author.: acidflash                                   : |
+| :                    Date...: 11/28/05                                    . |
+| ::.                  Version: v2.1                                          |
+|______                                                                  _____|
+      //________ _                                          _ _________\
+             _ _  |                                        |   _ _
+                 |[ T r a i n e r   I n f o r m a t i o n]|  /
+                  : -------------------------------------- :
+       ___ _  _ . '                                        ` .  _  _ ___
+ _____\                                                               //_____
+|                                                                             |
+:                                                                             :
+.                                                                             .
+
+[CREDITS]
+	Launcher coded by acidflash
+	
+	Artwork by mikerowinsoft (Most of it)
+	
+	Original debug kernel etm hack by dootdoo
+		fixed for Retail kernels by acidflash & Starlight
+		
+	Next generation trainer format is based on the etm format
+		with some support functions by acidflash
+   
+[v2.0]
+	Help screen (Left Thumb to toggle)
+
+	Check_Usable ini option (only show trainers for games you have)
+
+	IGK combo to reload dashboard from launcher (back + black)
+
+	DVD gfx displayed on screen when a title is initialized in tray
+
+	SoundTrack support (Plays soundtracks from hdd saved w/ stock dash)
+		(default defined in ini and random play available)
+		
+	MOD, XMs, S3M File playback
+		
+	Previous position remembered when stepping backwards through scenes
+
+	Full Skining Support (see included examples)
+
+	GamePad B button added for scene backwards
+
+	Launch title without trainer
+
+	Multiple Game_Path's (20 max)
+
+	Support for next generation trainer format "xbtf"
+	
+	X3/SmartXX/Aladin4 LCD Support enbable / disable in ini file
+	
+	Debug.log file to help track down problems
+
+	Delete trainers from hdd (IGK)
+	
+[CHANGED]
+	New scene order:
+		(Games -> Trainers -> Trainer Options -> Launch)
+
+[FIXED]
+	Kernel patch routine should handle soft boots better now (IGR)
+	
+	Launcher misbehaving if no gamepads are plugged in on start up
+	
+	Ini parsing buggie
+	
+	Launcher should initialize faster now
+
+[v2.1]
+	Improved kernel patch routine (also attempts to unhook Evox TSR)
+	
+	Play_Mod_File no longer get sets to TRUE if no soundtracks are found
+	
+	New partition handling and xbe launching routines
+	
+	Fixed problem with DVD swaping not being detected 
+	
+	Launcher now runs at screen resolution 720x480 for nicer looking skins
+	
+	Added Skip_Intro (you must watch it once before this will work)
+	
+	6 sided cube in intro now skinnable (good if you have children)
+	
+[Note]
+	Please be sure to check/edit INI file to reflect your system configuration.
+	The INI file can be found in main laucher folder.
+
+	
+		For support please visit http://www.maxconsole.net	
+.                                                                             .
+.                                                                             .
+:                                                                             :
+|______                                                                 ______|
+      //__ _  _                                                 _  _ __\
+                 ` .                                       . '
+                   |                                       |
+   _         _______              :       _________        :    S!
+    ______  )     /__ ___________|______)    _  / _________/ ____________
+    __    )/    _/__    __     _      _      /________     ________    __
+  _/      __        /      /      /     _/     _/       /      /      /      /
+_//       /       _/     _/     _/|              _    _______/     _/      /
+ _______/_____________________________|________ /_______________________ /
+ / <------------------------------------------- / --------------------> /
+                   : ::::::::''' '                         :
+                   |_ `::::    X O R E D  2 0 0 5 !       _|
+                  _ /__ _``_ _____________________ _  _ __ _
+                  /                                       /
+
+

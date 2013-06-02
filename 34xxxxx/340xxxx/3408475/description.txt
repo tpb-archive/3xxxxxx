@@ -1,0 +1,105 @@
+Features overview 
+Antivirus kernel Automatic updates 
+Simple User Interface PUSH updates 
+Enhanced User Interface Virus Chest 
+Resident protection System integration 
+Script blocker Command-line scanner 
+P2P and IM Shields Integrated Virus Cleaner 
+Network Shield Support for 64-bit Windows 
+Web Shield Internationalization 
+
+Antivirus kernel 
+The latest version of avast! antivirus kernel features outstanding detection abilities, together with high performance. You can expect 100% detection of In-the-Wild viruses (viruses already spreading between users) and excellent detection of Trojan horses. 
+
+The kernel is certified by ICSA Labs; it frequently takes part in the tests of Virus Bulletin magazine, often yielding the VB100 award. 
+
+The avast! engine also features outstanding unpacking support. It can scan inside the following archives: ARJ, ZIP, MIME (+ all associated formats), MAPI (Outlook pst files), DBX (Outlook Express archives), RAR, TAR, GZIP, CAB, BZIP2, ZOO, ACE, ARC, LHA/LHX, TNEF (winmail.dat), CPIO, CHM, RPM, ISO, 7ZIP and SIS. It also supports a number of executable packers (such as PKLite, Diet, UPX, ASPack, PeShield, FSG, MEW etc.). 
+
+Last, but not least, it can also scan for viruses hidden in Alternate data streams on NTFS volumes. 
+
+Simple User Interface
+The Simple User Interface is used to start on-demand scanning, work with the results and change various options. Basic resident protection settings can be modified here. 
+
+The Simple User Interface is the main application of avast! 4 Home Edition. You can start additional avast! modules from here, such as the Virus Chest, Updater or Log Viewer. 
+
+The appearance of the Simple User Interface is very flexible. It supports so-called skins (changeable appearance of the application), so you can change the interface to suit you. The main package contains three skins, with additional skins available from our web pages. 
+
+Enhanced User Interface (Professional Edition only)
+In addition to the Simple User Interface, the Professional Edition presents the Enhanced User Interface, giving you access to all features and possibilities for extensive scanning control. 
+
+Unlike the Simple User Interface, the scanning is performed by so-called "tasks". First, you define a task, including various parameters - areas to scan, what to scan, how to scan, etc. Having the task, you can run it (possibly repeatedly). Each task generates a list of results, which you can work with later. 
+
+Another key feature, closely connected with tasks, is the Scheduler. This feature gives you the ability to schedule the tasks running, either one-time or periodically. 
+
+Additionally, it is possible to set all existing scanning options, a feature not available in the Simple User Interface. 
+
+Resident protection
+Resident protection (the real-time protection of the computer system), is one of the most important features of an antivirus program today. avast! features a powerful resident module that is able to detect a virus before it has any chance to infect your computer. 
+
+avast! Home Edition contains resident protection of the computer file system and a resident module for e-mails. 
+
+File system protection ensures that no virus will be started on the computer. It offers a wide range of settings, such as the possibility to specify that files will be scanned during copying, or scanning will include files with a given set of extensions only. 
+
+ E-mail/News protection consists of two independent modules; first, there is a generic scanner working on the SMTP/POP3/IMAP4/NNTP protocol level. It is capable of protecting any existing e-mail client that uses these protocols. Second, there is a special plugin for MS Outlook only; with mail scanning completely transparent, requiring no special settings. 
+
+A new feature of version 4 is heuristic analysis of e-mail scanners. This feature can protect against new, unknown viruses and worms that are not possible to detect by the usual means. The heuristic module performs a thorough investigation of every e-mail message and watches for suspicious signs that might announce virus presence. When the number of those signs exceeds the user-defined level, the message is considered dangerous and the user is warned. 
+
+Script Blocker (Professional Edition only)
+The resident protection of the Professional Edition includes an additional module, not contained in the Home Edition, called Script Blocker. This module watches all scripts being executed in the operating system (so-called WSH scripts - Windows Scripting Host), and scans all the scripts run as a part of a web page within your web browser (Internet Explorer, Netscape Navigator and Mozilla).
+
+P2P and IM Shields
+Avast features a module for the protection of IM (Instant Messaging, "chat") programs, and a module for the protection of P2P (peer-to-peer) programs. The list of supported IM and P2P programs is extensive, with more than 30 programs currently supported.
+
+While chat itself would not pose any serious security risks in terms of viruses, today's IM applications are far from being just chatting tools: most support more or less sophisticated file sharing methods - which may quite easily lead to virus infections, if not properly monitored.
+
+The P2P protection module doesn't need much explanation - today's P2P networks (such as Kazaa) contain potentially thousands of infected files, and effective protection is essential.
+
+Network Shield
+A new resident protection module was added to avast! 4.5: the Network Shield. This module provides protection against known Internet worms/attacks. It analyzes all network traffic and scans for malicious content. It can be viewed as a lightweight firewall (or, more precisely, an IDS (Intrusion Detection System)).
+
+The Network Shield is only available on NT-based systems (Windows NT/2000/XP/2003).
+
+Web Shield
+Web Shield is a unique feature of avast! that enables it to monitor and filter all HTTP traffic coming from Web sites on the Internet. Since an increasing number of viruses (and other malware, such as adware, spyware and dialers) are being distributed via the World Wide Web, the need for effective countermeasures has also increased. Web Shield acts as a transparent HTTP proxy and is compatible with all major web browsers, including Microsoft Internet Explorer, FireFox, Mozilla and Opera.
+
+Unlike most competitive solutions, Web Shield's impact on browsing speed is almost negligible. This is because of a unique feature called "Intelligent Stream Scan" that lets the Web Shield module scan objects on-the-fly, without the need of caching. Stream scanning is performed in operating memory only (without the necessity to flush the contents to disk), providing maximum possible throughput.
+
+Automatic updates
+Automatic updates are another key need in virus protection. Both the virus database and the program itself can be updated automatically. The updates are incremental, with only new or missing data downloaded: thus reducing the transfer heavily. The typical size of a virus database updates are tens of KB; program updates typically are in the hundreds of KB range. 
+
+If your Internet connection is persistent (such as an always-on broadband connection), then updates are performed completely automatically at fixed time intervals. If you connect to the Internet only occasionally, avast! watches your connection and tries to perform the update when you are online. 
+
+PUSH updates (Professional Edition only)
+A special feature of the Professional Edition is PUSH updates. It is a dramatic change in the philosophy of updates. Usually, every installed program checks occasionally for new version availability. PUSH updates, however, are initialized by our server; they result in your computer quickly responding and performing the necessary update. The system is based on the SMTP protocol (as used for e-mail messages). The update itself is controlled by the avast! resident e-mail providers (MS Outlook and Internet Mail).
+
+The whole system if protected by asymmetric ciphers and is resistant to unauthorized misuse. 
+
+Virus Chest
+The Virus Chest can be thought of as a folder on your disk drive, having special properties that make it a safe, isolated place suitable for storing certain files. You can work with the files in the Chest, though with some security restrictions. 
+
+The main properties of the Virus Chest are complete isolation from the rest of the operating system. No outside process, such as a virus, may access the files inside, and the fact that the files inside the Chest may not be run (executable), there is no danger in storing viruses there. 
+
+System integration
+avast! antivirus features outstanding integration into your system. A scan can be started directly from Windows Explorer, by clicking a folder or a file with your right mouse button and selecting the corresponding choice from the menu. 
+
+A special screen-saver is also provided, that, when running, performs virus scanning. avast! antivirus works together with your favorite screen-saver, so you don't have to change your personal settings to use it. 
+
+A new option in this release,is the boot-time scan (Windows NT/2000/XP/.NET only). This important feature allows a user to instigate scanning before a virus is activated, in the case that a virus is suspected to be active on your computer already. 
+
+Command-line scanner (Professional Edition only)
+For experienced users, the Professional Edition features a command-line scanner. Scanning can be controlled by many arguments and switches; to use as a pipe filter; and a special STDIN/STDOUT mode is available. 
+
+The module is intended to be used in BATCH programs. Its output is the same as the output from the Enhanced User Interface tasks (including the report files). 
+
+Integrated avast! Virus Cleaner
+Since version 4.1, avast! includes Virus Cleaner, a tool designed for the complete removal of most common infections from already-infected computers. So now avast! is capable of reliably healing, and not just detecting, the most common malware.
+
+The number of viruses/worms supported by the Virus Cleaner is constantly growing. For the most up-to-date information we suggest visiting Virus Cleaner's own page. Note: For emergency purposes, we also offer Virus Cleaner as a standalone product, capable of running without installing avast!. 
+
+Support for 64-bit Windows
+avast! Home/Professional now fully supports the 64-bit Windows platform. ALWIL Software is anticipating massive growth of this platform, as Windows XP 64-Bit Edition will support up to 32 GB of RAM and 16 TB of virtual memory, enabling applications to run faster when working with large data sets. Applications can preload substantially more data into virtual memory, allowing rapid access by the 64-bit extensions of the processor. This reduces the time for loading data into virtual memory or seeking, reading, and writing to data storage devices, making applications run faster and more efficiently.
+
+Regular (32-bit) antivirus applications are unable to operate correctly on the 64-bit Windows platform, because they rely on 32-bit kernel-mode drivers. The latest version of avast! uses native 64-bit drivers, delivering the same level of protection as the 32-bit Windows environments. The installation package is the same for 32-bit and 64-bit versions - the setup program automatically detects the operating system it is running on and installs all necessary files.
+
+Internationalization
+Commitment to internationalization is one of the key benefits of avast!. During the last 2 years, avast! has been translated to a number of languages, currently the list of supported languages is: English, Bulgarian, Czech, Dutch, Finnish, French, German, Hungarian, Italian, Norwegian, Korean, Polish, Portuguese, Japanese, Romanian, Russian, Serbian, Slovak, Spanish, Turkish. 

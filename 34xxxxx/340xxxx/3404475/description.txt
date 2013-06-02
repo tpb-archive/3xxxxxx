@@ -1,0 +1,12 @@
+*  High compression ratio in new 7z format with LZMA compression
+    * 7-Zip is free software distributed under the GNU LGPL
+    * Supported formats:
+          o Packing / unpacking: 7z, ZIP, GZIP, BZIP2 and TAR
+          o Unpacking only: CAB, ARJ, LZH, CHM, Z, CPIO, RPM and DEB
+    * For ZIP and GZIP formats 7-Zip provides compression ratio that is 2-10 % better than ratio provided by PKZip and WinZip
+    * Self-extracting capability for 7z format
+    * Integration with Windows Shell
+    * Powerful File Manager
+    * Powerful command line version
+    * Plugin for FAR Manager
+    * Localizations for 59 languages

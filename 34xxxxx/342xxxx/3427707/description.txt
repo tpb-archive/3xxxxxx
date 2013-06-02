@@ -1,0 +1,43 @@
+- New: Instant streaming of Beatport Preview clips.
+- New: Details panels are color coded according to the related
+  deck color.
+- New: Details panels can be assigned permanently to a single
+  deck.
+- New: "Growing Separators" allow to arrange Details panels right
+  adjusted.
+- New: (FS) Single turntable mode for up to 4 decks with seamless
+  transition into internal playback mode *and* back to timecode
+  mode.
+- New: Scroll-wheel support, "ghost-pointer" and incremental
+  sensitivities for faders and the cross-fader.
+- New: Show Full collection sorted by Artist, Genre,... when
+  clicking on the relative Collection subfolder.
+- New: "No Effect" for reducing overall CPU load on slow computers. 
+
+- Fixed: The import process from Traktor DJ Studio 2.x collections
+  did not automatically import the Stripes folder.
+- Fixed: The Beatport Online Store did not work on Mac OS X 10.4.3.
+- Fixed: Master output meters did not work in External Mixer mode.
+- Fixed: Hotkey control got lost in certain situations.
+- Fixed: crash when attempting to open history files.
+- Fixed: impossible numeric entry into the master clock tempo.
+- Fixed: crash when exporting playlists for printing. 
+- Fixed: pitch skips when switching decks in single timecode mode.
+- Fixed: auto-repeat on incremental tempo changes.
+- Fixed: "Hold" is now default when assigning a hotkey to a
+  triggered function (in version 3.0.0. "Toggle" was default).
+- Fixed: Native Mix recording did not preserve Key-Lock settings
+  when recording pitch-bends.
+- Fixed: Native Mix Recording did not correctly record tempo
+  synched master effects.
+- Fixed: Tempo-Skips when overdubbing Native Mix with Key Lock
+  enabled
+- Fixed: Starting Native Mix recording reset tempo on Deck A &
+  un-slaves the decks
+- Fixed: Cut button in Audio Recording panel was not working
+- Fixed: FS2 - audible artifact when switching to vinyl mode
+- Fixed: Play counter was not working
+- Fixed: List Select PgDn/Up skipped too much
+- Fixed: Connecting external drive caused Traktor to hang
+
+...and more bug fixes and performance optimizations.

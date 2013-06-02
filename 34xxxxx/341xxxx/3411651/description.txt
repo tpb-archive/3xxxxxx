@@ -1,0 +1,108 @@
+-----------------------------------------------------------------------------------
+
+Note The PIX 501 security appliance is not supported in software Version 7.0.4
+-----------------------------------------------------------------------------------
+
+Release by Gregorlan (PL)
+
+Great Polish Team deliver you a newest release of Cisco Pix Firewall OS Software...
+Now avaible to anyone...
+-----------------------------------------------------------------------------------
+Cisco PIX Firewall Security Appliance v. 7.0(4) Flash Image (OS for Cisco PIX)
+-----------------------------------------------------------------------------------
+Important Notes in Release 7.0.4
+
+Maximum Security Contexts and VLANs Supported 
+The maximum security contexts supported in release 7.0(4) for the PIX 535 are 50 tiers. The maximum number of VLANs supported are 150. For more information on the feature support for each platform license, see the "Platform Feature Licenses" section in the Cisco Security Appliance Command Line Configuration Guide 
+
+IKE Delete-with-Reason 
+IKE syslogs for Delete-with-Reason will not contain the reason text unless the clients support this feature. Currently the VPN 3002 Version 4.7 and PIX 501 Version 6.3(4) hardware clients do not support this feature. 
+-----------------------------------------------------------------------------------
+New Features 
+
+This section describes the new features in this release. This section includes the following topics: 
+
+? Auto Update Over a VPN Tunnel 
+
+? Crashinfo Enhancement 
+
+? Modular Policy Framework Enhancement 
+
+? Support GTP Load Balancing Across GSNs 
+
+? Downloadable Access Control Lists Enhancements 
+
+? Converting Wildcards to Network Mask in Downloadable ACL 
+
+? IPSec VPN: Add support for cascading ACLs 
+
+? Rate limiting of Syslog messages 
+
+Auto Update Over a VPN Tunnel 
+With this release, the auto-update server command has a new source interface argument that lets you specify an interface, such as a VPN tunnel used for management access and specified by the management-access command: 
+
+auto-update server url [source interface] [verify-certificate] 
+
+no auto-update server url [source interface] [verify-certificate] 
+
+For a complete description of the command syntax, see the Cisco Security Appliance Command Reference. 
+
+Crashinfo Enhancement 
+Output from the crashinfo command might contain sensitive information that is inppropriate for viewing by all users connected to the security appliance. The new crashinfo console disable command lets you suppress the output from displaying on the console. 
+
+For a complete description of the command syntax, see the Cisco Security Appliance Command Reference. 
+
+Modular Policy Framework Enhancement 
+The new set connection timeout command lets you configure the timeout period, after which an idle TCP connection is disconnected. 
+
+For more information, see the " Using Modular Policy Framework" section in the Cisco Security Appliance Command Line Configuration Guide. For a complete description of the command syntax, see the Cisco Security Appliance Command Reference. 
+
+Support GTP Load Balancing Across GSNs 
+If the security appliance performs GTP inspection, by default the security appliance drops GTP responses from GSNs that were not specified in the GTP request. This situation occurs when you use load-balancing among a pool of GSNs to provide efficiency and scalability of GPRS. You can enable support for GSN pooling by using the permit response command. This command configures the security appliance to allow responses from any of a designated set of GSNs, regardless of the GSN to which a GTP request was sent. 
+
+For more information, see the " Enabling and Configuring GTP Inspection" section in the Cisco Security Appliance Command Line Configuration Guide. For a complete description of the command syntax, see the Cisco Security Appliance Command Reference. 
+
+Downloadable Access Control Lists Enhancements 
+This feature adds a means of ensuring that downloadable ACL requests sent to a RADIUS server come from a valid source through the Message-Authenticator attribute. 
+
+Upon receipt of a RADIUS authentication request that has a username attribute containing the name of a downloadable ACL, Cisco Secure ACS authenticates the request by checking the Message-Authenticator attribute. The presence of the Message-Authenticator attribute prevents malicious use of a downloadable ACL name to gain unauthorized network access. The Message-Authenticator attribute and its use are defined in RFC 2869, RADIUS Extensions, available at http://www.ietf.org. 
+
+For more information, see the " Configuring Any RADIUS Server for Downloadable ACLs" section in the Cisco Security Appliance Command Line Configuration Guide. For a complete description of the command syntax, see the Cisco Security Appliance Command Reference. 
+
+Converting Wildcards to Network Mask in Downloadable ACL 
+Some Cisco products, for example the VPN 3000 concentrator and Cisco IOS routers, require that dowloadable ACLs be configured with wildcards instead of network masks. The adaptive security appliance, on the other hand, requires that downloadable ACLs be configured with network masks. This new feature allows the security appliance to internally convert a wildcard to a netmask. Translation of wildcard netmask expressions means that downloadable ACLs written for Cisco VPN 3000 series concentrators can be used by the security appliance without altering the configuration of the downloadable ACLs on the RADIUS server. 
+
+You can configure ACL netmask conversion on a per-server basis, using the acl-netmask-convert command, available in the AAA-server configuration mode. For more information about configuring a RADIUS server, see the "Identifying AAA Server Groups and Servers" section in the Cisco Security Appliance Command Line Configuration Guide. For a complete description of the command syntax, see the Cisco Security Appliance Command Reference. 
+
+IPSec VPN: Add support for cascading ACLs 
+Cascading ACLs involves the insertion of deny ACEs to bypass evaluation against an ACL and resume evaluation against a subsequent ACL in the crypto map set. Because you can associate each crypto map with different IPSec settings, you can use deny ACEs to exclude special traffic from further evaluation in the corresponding crypto map, and match the special traffic to permit statements in another crypto map to provide or require different security. The sequence number assigned to the crypto ACL determines its position in the evaluation sequence within the crypto map set. 
+
+For more information, see the " Defining Crypto Maps" section in the Cisco Security Appliance Command Line Configuration Guide. For a complete description of the command syntax, see the Cisco Security Appliance Command Reference. 
+
+Failover Key Command 
+The failover key command was modified to include the hex key keyword and argument. hex key specifies a hexadecimal value for the encryption key. The key must be 32 hexadecimal characters. 
+
+For a complete description of the command syntax, see the Cisco Security Appliance Command Reference. 
+
+Rate limiting of Syslog messages 
+The logging rate limit enables you to limit the rate at which system log messages are generated. You can limit the number of system messages that are generated during a specified time interval. 
+
+You can limit the message generation rate for all messages, a single message ID, a range of message IDs, or all messages with a particular severity level. To limit the rate at which system log messages are generated, use the logging rate-limit command. 
+
+For a complete description of the command syntax, see the Cisco Security Appliance Command Reference. 
+
+Important Notes 
+Important Notes in Release 7.0 
+This section lists important notes related to Version 7.0(4). 
+
+Maximum Security Contexts and VLANs Supported 
+The maximum security contexts supported in release 7.0(4) for the PIX 535 are 50 tiers. The maximum number of VLANs supported are 150. For more information on the feature support for each platform license, see the "Platform Feature Licenses" section in the Cisco Security Appliance Command Line Configuration Guide 
+
+IKE Delete-with-Reason 
+IKE syslogs for Delete-with-Reason will not contain the reason text unless the clients support this feature. Currently the VPN 3002 Version 4.7 and PIX 501 Version 6.3(4) hardware clients do not support this feature. 
+
+--------------------------------------------------------------------------------
+
+Note The PIX 501 security appliance is not supported in software Version 7.0. 
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,31 @@
+Most computer users have come to rely on the practicality and usefulness of Task Manager. It does a good job at telling you what?s going on with your computer, how many applications you?re running, computer usage and a little more, but recently, 
+with so many power users developing daily, people are starting to get a little fed up with not having the right amount of control or information at their disposal. It?s a common evolutionary need of companies, consumers, and humans? they want 
+more. More power, more control and more information is something that you?re going to get when you try out Process Explorer. 
+
+In their own words, Process Explorer is an advanced process management utility that picks up where Task Manager left off. It will show you detailed information about a process including its icon, command-line, full image path, memory statistics, user account, security attributes, and more. When you zoom in on a particular process you can list the DLLs it has loaded or the operating system resource handles it has open. A search capability enables you to track down a process that has a resource opened, such as a file, directory or Registry key, or to view the list of processes that have a DLL loaded. Let?s 
+see if it?s worth the download. 
+
+Process Explorer
+
+The first advantage of having Process Explorer is that it?s different from Task Manager. So if you ever do manage to acquire virus that typically targets your Task Manager, you won?t really have to worry about it. That?s only a side note in the grand scheme of things. You can view PE in two distinct ways, both in the same window. The difference between the single and dual window panes is that with the single view, you get to see your running applications and services, the dual window pane bumps the services to the top and underneath it either shows the list of DLLs loaded into the process selected in the upper pane, or the list of operating system resource handles (files, Registry keys, synchronization objects) the process has open; the view mode determines which information is shown in the bottom pane.
+
+You?re able to get in depth program and application properties giving you a multitude of information. You can get stats on the number of threads that?s tied to it to performance and performance graphs, to security and environment settings as well as a few more options. 
+
+In the upper window is where you get most of your functionality and adaptability. You can choose exactly what you want; Process Name, PID (Process Identifier), User Name, Description, Company name, Verified Signer, Version, Image Path, Window 
+Tile (this helps in easily separating the processes you have running), Windows Status, Session, Command Line, Comment, and finally DEP Status. You can also mess with the Handle, DLL, .NET, Status Bar, Process Image and Process Performance settings as well. 
+
+You?re able to bring up a mini CPU graph to get a broad picture of what?s happening with your PC. The little extra features that are added make this program a little better than the rest. I can?t help but think of SIW and the practicality (with the added little tools) that both programs give users. A nifty little feature I found extremely useful was the ?Find Window?s Process.? After clicking this button, you can drag over any open application or program and after unclicking, it will give you the process? information. This really helps when you have an unknown program that?s running and you absolutely don?t know where it?s coming from. 
+
+The System Info icon gives you some helpful advice as well. This little popup tells you about the total number of handles and threads you are processing, your physical and kernel memory, paging, you can view stats on your CPU and I/O, as well as your Commit Charge. 
+
+What it comes down to is that with process Explorer, you?re going to get a lot more information that?s significantly better and more in depth than anything you?ve ever experienced with Task Manager. You?ve got a program that goes a lot deeper than others and at no cost. The guys at Sysinternals have come up with a program designed fr power users. These guys sure know the definition of giving boys their power toys. 
+
+The Good
+
+There?s so much goodness, I don?t know where to start. All I have to say is that the next version of Windows should take a look at what these Sysinternals guys put together because that?s how it should have been done in the first place. A powerful
+tool made for power users gives every little bit of information about that individual application. Great and simple to use and understand. 
+
+The Bad
+
+It can be a little bulky at times, but that?s not saying it?s unclean. The GUI?s still intuitive and simple to understand if you know what you?re looking for.
+

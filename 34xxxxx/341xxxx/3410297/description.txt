@@ -1,0 +1,15 @@
+16-11-2005 changed: sf bug #1301380 System info Wrong HDD Key info! Removed until the detection is rewrote! [GeminiServer]
+16-11-2005 fixed: sf bug #1348614: ftp client: opening/copying folders with ."dot" should work again! [GeminiServer]
+16-11-2005 added: sf patch #1348694 F and G partition support to FEH [GeminiServer]
+15-11-2005 added: Skin Theme Support: [GeminiServer] Skin Themes, simply loading different Texture.xpr files from the current selected skin! To create new Themes, just add. a new MyThemaRed.xpr to the SkinSkinNamemedia*.*,which contained Theme referenced pictures! You can also use more Themes and the shared files [picutes] can be in root of media, which will be used if they are not in the defined theme! also new is to define the default used Theme in skin.xml <defaultthemename>textures</defaultthemename>, here you can define the simple XPR name! e.g. "My Theme Red.xpr" theme name is "My Theme Red"! All themes will be detected Automaticly, and can be selected true Settings Appearance Skin Theme! If there is no Theme defined, the default's will be used!
+15-11-2005 added: sf patch #1350866 modified playselected() python function
+15-11-2005 added: sf patch #1350867 new position() python function
+14-11-2005 fixed: (I hope it is fixed, haven't been able to test it) dvds start to stutter at the end of a movie when played with dvdplayer
+14-11-2005 fixed: when detectasiso was set to yes, most dvd's where not playable anymore with the dvdplayer (crash or back to menu)
+13-11-2005 fixed: My Music Library would highlight the wrong album on previous dir if there were multiple albums of the same name (aka Greatest Hits)
+13-11-2005 fixed: My Music could get stuck in the Now Playing window
+12-11-2005 fixed: My Movies "Query Info For All Files" now looks for "stackedname.nfo" like "Movie Information"
+12-11-2005 fixed: httpapi called via ASP would include inappropriate web header
+12-11-2005 added: Controller Rumble (controller vibration)! [GeminiServer] On menu action controller will Rumble! Rumble On/Off and Rumble sensitivity can set over: Appearance Look and Feel Rumble Controller!
+12-11-2005 added: rename in Context menu Music/Pictures/Video [GeminiServer] The renameing is in condition with delete function in the context menu! Settings description changed to "Allow File Renaming and Deletion"
+09-11-2005 fixed: more gracious handling of a missing alternate subtitle directory.

@@ -1,0 +1,46 @@
+4 Examples starting off with Hello World ending with a Video Game..
+
+Source Code contains the majority of the algorithms you need to get a basic
+game up and running easily.. Simply start off by reading Hello World, Than Random Pixels, then Knights Tour, than you can finish it off by MPGTA..
+
+Also contains source code for a few tools I wrote to use with this Pack..
+
+mxf2c - Translates MasterX Fonts (which really just translate truetype fonts to mxf) to C array
+bmp2c - Translates a 24bit Bitmap to a C data structure array
+mxFont2 - MasterX Font Editor.. With the ability to translate a windows truetype font to MXF to use in your PSP game..
+
+Full Source Code for everything is included and your free to use it change it destroy it do whatever you so please with it... Its all Free..
+
+oh yeah
+
+CrossGTA-0.2
+
+MasterPiecePSP (GTA Build) :
+Just run ./build_all_platforms.sh
+
+*IF* you have PSPSDK and SDL installed (both for your current platform and for PSPSDK)
+
+Also comes with Prebuilt Binarys for Everyone who dosent have a compiler..
+
+Updates:
+
+* Graphics
+* MasterX Fonts
+
+Based off Fanjita's Excellent work..
+
+How to run the game on 2.01 PSP's
+Copy the folders ULES00151S5
+and
+ULUS10041S5
+into your /PSP/SAVEDATA/
+folder
+than boot into gta like you normaly would.
+instead of loading your save gave it will boot into MasterPiece
+
+    LostSideDead
+#include"thehead"
+
+anyone get my joke??? i been sayin it for years and no one gets it
+haha
+or maybe they just dont say anything to be poliet

@@ -1,0 +1,29 @@
+﻿User Type,Username,Date,Text
+,Chikara,2006-01-24T03:48Z,"Dont mean to be a pain but how do you burn this so its readable with out a mod chip, I know that Gamecubes read disks from the outside in so does anyone know how to burn them like that?
+Thanks"
+,meermanr,2006-01-27T17:19Z,"Firstly, GameCube discs are written the usual way (in-to-out), it's just that the first file read from the disc (the bootstrap) is the last file written (hence being on the outer edge of the disc, where the linear speed is fastest).
+
+To read the disc on your GC you'll want to adjust the POT of the lazer so it reads DVD-R, you'll also want to use a DVD-R with RITEKG05 dye.
+
+To play without a ModChip you need a BroadBand Adaptor for your GC, and Phantasy Star Online, a PC with a network card and the appropriate cabling. You use PSO to send a soft BIOS to the GC, which then bypasses the copyright checks on the disc and plays it.
+
+Detailed instructions are available from http://modthatcube.pxn-os.org/"
+,toon2005,2006-02-13T13:06Z,OH HELLS YEAH
+,alexander3,2006-03-04T21:22Z,what kind of Dvds need I to burn out this to my nintendo Gamecube?
+,floyd2,2006-04-15T17:01Z,please seed
+,plutt94,2006-05-03T15:37Z,Does it work with emulator??if that the case good work!!
+,Gaggarin,2006-06-29T01:24Z,"You can also get the ""max drive pro"" mem card. Detailed instructions here :
+
+http://forums.afterdawn.com/thread_view.cfm/1/292668"
+,The_Kung,2006-09-24T16:35Z,"Why does the metod ""Chikara"" explains dont work? It would be much easier to use a burningprogram which burns the disks so the GC supports them. Im just wondering "
+,gustavopr,2006-11-06T13:37Z,"Hi,
+Could anyone seed this torrent? I'm stuck at 70%!
+Thanks a lot!"
+,pettan93,2007-06-14T16:54Z,do this torrent work on pc?
+,ijseter19,2008-12-27T21:42Z,SEED 
+,hamjr,2010-02-11T05:26Z,I can't open or extract the iso. I've tried with winrar and power iso.
+,TheBeatzProducer,2011-12-29T13:54Z,Stewie *_*
+,Jinx_Dojo,2012-03-25T06:49Z,"The RARs verify correctly with the provided SFV (thanks for including). However, in case anyone is curious, the ISO inside has MD5: 0254bb1cfc0fc048abcca9163d5feb1e and CRC32: 9d8a6d8f . Unfortunately, this does not match the ones listed on Redump.org.
+
+The game probably still works fine; I haven't tested it yet, and I doubt it'd still have seeders if it didn't work. I just thought I'd provide the information."
+,SpikeModZit,2012-04-04T21:11Z,"Tested working on GC Xeno Version 2 Using Panasonic DVD-R. YOU CANNOT PLAY THIS WITHOUT A MODCHIP. Unless you use the PSO method, there is no way to do it. Use ImgBurn to burn your discs and set the speed to 4x or less. I have also burned games to mini DVD-RW and they work fine too. Any questions?"

@@ -1,0 +1,31 @@
+﻿User Type,Username,Date,Text
+,leodime,2008-04-17T06:54Z,"Shake for Linux costs $4,000. I imagine nobody has a pressing need to buy the latest version."
+,omnidecay,2009-02-21T21:39Z,This doesnt work at all. Everything installs but it fails to launch...Not much documentation for proper install either. 
+,Jakalfakka,2009-02-26T14:33Z,"omnidecay is right, would be nice to get some proper installation instruction. i have tried 3.5 though and it does not launch as well, so it might be a hardware problem, maybe wrong openGL, links to libs or something, not sure yet... i'm downloading trial version from apple and try to work out if it's hardware problem. will let you know"
+,wongmai,2009-09-22T16:03Z,"Installation instruction:
+(Tested on a Ubuntu 64bit machine but should work with any linux)
+
+It's easy:
+
+1.) unpack shake to your home dir (~/shake-v4.00.0607)
+2.) install csh and tsh:
+2.1) sudo apt-get install csh
+2.2) sudo apt-get install tsh
+3.) open a terminal and type: 
+3.1) sudo chmod 755 * ~/shake-v4.00.0607/bin
+4.) download libX11.so.6 from http://drop.io/zj67n6m
+4.1) copy libX11.so.6 to ~/shake-v4.00.0607/lib
+to run shake: open a terminal, go to the shake dir and run shake with: csh ./shake
+
+Please post if this worked for you."
+,wongmai,2009-09-22T16:13Z,"SORRY!
+I made a mistake!
+
+It's 'tcsh' and not 'tsh'"
+,wongmai,2009-09-22T16:18Z,"Here is a screenshot:
+http://www.imagebam.com/image/133fc249696560"
+,wongmai,2009-09-22T16:25Z,"You can of course simply make a shortcut or menu entry and point it to ""csh shake-v4.00.0607/bin/shake"" to run shake with a single click."
+,muengo,2009-11-22T02:37Z,"Well, i did everything as you wrote, but i can't run it. I wrote 
+Sudo apt-get install shake
+but still can't do that
+I've got 32bit ubuntu"

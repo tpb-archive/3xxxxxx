@@ -1,0 +1,136 @@
+
+                  Release Notes for
+          McAfee(R) VirusScan(R) Enterprise
+             Version 8.0i with Patch 10
+ Copyright (C) 2004 Networks Associates Technology,
+                        Inc.
+                 All Rights Reserved
+
+
+==========================================================
+
+- DAT Version:         4442
+- Engine Version:      4.4.00
+
+==========================================================
+
+Thank you for using VirusScan(R) Enterprise
+software. This file contains important information
+regarding this release. We strongly recommend that
+you read the entire document.
+
+    IMPORTANT:
+    McAfee does not support automatic upgrading of a
+    pre-release version of the software. To upgrade
+    to a production release of the software, you
+    must first uninstall the existing version of the
+    software.
+
+__________________________________________________________
+WHAT'S IN THIS FILE
+
+-   New Features
+-   Changed Features
+-   Installation & System Requirements
+   -   Testing Your Installation
+-   Resolved Issues
+   -   McAfee Installation Designer
+   -   Version 8.0i
+-   Known Issues
+   -   Installing, Upgrading, and Uninstalling
+   -   Compatibility with other products
+       - Alert Manager(TM)
+       - Common Management Agent
+       - ePolicy Orchestrator(R)
+       - GroupShield(TM)
+       - ProtectionPilot(TM)
+       - Third Party Software
+   -   Access Protection
+   -   Adding File Type Extensions
+   -   AutoUpdate
+   -   Buffer Overflow Protection
+   -   Log File Format
+   -   Lotus Notes
+   -   Mirror Tasks
+   -   Scanning
+   -   Unwanted Programs Policy
+-   Documentation
+-   Participating in the McAfee Beta Program
+-   Contact Information
+-   Copyright & Trademark Attributions
+-   License & Patent Information
+
+
+__________________________________________________________
+NEW FEATURES
+
+This version of VirusScan Enterprise provides
+several new features that help to prevent and more
+effectively detect intrusions:
+
+-   Product Version Number
+
+    The new version is 8.0i.
+
+    The product version number has changed from 7.1
+    to 8.0 to reflect the major changes within the
+    product since the last release. See the
+    following "New Features" and "Changed Features"
+    for more information.
+
+    The "i" has been added to represent that McAfee
+    VirusScan Enterprise is the first anti-virus
+    product in the world that contains proactive
+    Intrusion Prevention Systems (IPS) protection
+    capabilities. These IPS capabilities are
+    provided in the Buffer Overflow Protection
+    feature which comes from McAfee Entercept, our
+    host intrusion prevention security product.
+
+-   Access Protection.
+
+    Use this feature to prevent intrusions by
+    restricting access to ports, files, shares, and
+    folders.
+
+    You can block ports by creating rules to specify
+    which ports to block and whether to restrict
+    access to inbound or outbound processes. You can
+    also exclude processes from the rule if you want
+    a specific process, or list of processes, to be
+    allowed access to the otherwise blocked port.
+    When you block a port, both TCP and UDP accesses
+    are blocked.
+
+    You can restrict access to shares by making them
+    read-only or blocking read and write access to
+    all shares.
+
+    You can block files and folders by creating
+    rules that specify which processes to block from
+    the files or folders you define, which file
+    actions to prevent, and what action to take when
+    an attempt is made to access a blocked item.
+
+    These Access Protection features can be very
+    effective in preventing intrusions. In the event
+    of an outbreak, the administrator can block
+    access to the infected areas until a DAT is
+    released.
+
+       NOTE:
+       If you block a port that is used by the
+       ePolicy Orchestrator agent or the Entercept
+       agent, the agent's processes are trusted by
+       the filter and are allowed to communicate
+       with the blocked port. All other traffic not
+       related to these agent processes will be
+       blocked.
+
+    This version of VirusScan Enterprise provides
+    some sample port blocking rules and some sample
+    file and folder blocking rules. With a default
+    installation, some of these rules are in warning
+    mode and others are in blocking mode.
+Just install and UPDATE ... and use
+                                    best regards  alexG

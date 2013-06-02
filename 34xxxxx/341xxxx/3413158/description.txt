@@ -1,0 +1,55 @@
+Mac OSx86 Build 8f1099 with Universal iTunes and Patched with Maxxuss PPF patcher + Extra maxxuss patches
+
+I didn't make any of it, I just compiled it into a nice ISO for complete N00bz :)
+
+Here are some things you should remember when installing this:
+
+1. If installing in vmware, do not mount the ISO with vmware, mount it with daemon tools or alcohol120% and set vmware to use that
+
+2. currently, you need PAE and SSE2 to boot this in vmware, however it will not boot native without NX
+
+After it is installed, you can look on the cd in dir "Maxxuss Extras" and you will find a few drivers from Maxxuss's site, this should make it easier to get a fully functional system without having to switch back and forth between Mac and Windows
+
+
+Here are the notes from Maxxuss:
+
+Booting and Installing
+
+The patched ISO image contains three different Mach Kernels. You need to boot the patched DVD/ISO with the right kernel for your CPU needs:
+
+    * mach_kernel (default): same as mach_kernel.sse2,
+    * mach_kernel.sse2: supports SSE2 CPUs, requires NX/XD CPU support,
+    * mach_kernel.nonx: supports SSE2 CPUs, does not require NX/XD CPU support,
+    * mach_kernel.orig: the original kernel, for use with SSE3 CPUs with NX/XD support.
+
+If you're fine with the default kernel, there is nothing to do. (If you get the error "Cannot load /com.apple.Boot.plist" after the boot prompt, enter the boot promt and hit Return; this might help.)
+
+But if you require for example "mach_kernel.nonx", then you should press F8 at the Mac Boot Prompt and enter "mach_kernel.nonx".
+Booting from the Installed Mac OS X Volume
+
+After the installation has succeeded, you can now boot your new system. As before, there are several kernels available for your CPU needs (see the list above: mach_kernel, mach_kernel.sse2, mach_kernel.nonx and mach_kernel.orig.
+
+To select your kernel of choice, you have several options:
+
+    * Enter the name at the boot promt, e.g. "mach_kernel.nonx",
+    * As root or with "sudo" copy the kernel file to "mach_kernel", e.g. "cp /mach_kernel.nonx /mach_kernel",
+    * As root or with "sudo" edit the file "com.apple.Boot.plist" in the folder "/Library/Preferences/SystemConfiguration".
+
+Notes
+VMWare
+
+If you boot Mac OS X 10.4.3 in VMWare please note:
+
+    * Set "paevm=true" in your .vmx configuration file
+
+    * Mount the ISO using Daemon Tools etc., not with the VMWare CD/DVD drive emulation.
+
+
+
+
+
+
+
+NOTE: THIS HAS BEEN TESTED!
+
+If you need assistance, you can always visit www.osx86project.org or http://win2osx.net/wiki/index.php/Main_Page OR on irc at irc.osx86project.org #osx86

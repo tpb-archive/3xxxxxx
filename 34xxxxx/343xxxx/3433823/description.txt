@@ -1,0 +1,89 @@
+DiskWarrior 3.0.3 revision 39 Original CD (G4.G5) [Updatable/Bootable] 
+http://www.alsoft.com/DiskWarrior/support.html#Tiger
+Thanks to Loopy for providing the original file.
+[keywords: disk warrior] That's right, it's one word, not two.
+
+If you use this successfully, please report back what system and computer you ran it on so that others will know it is working properly. ;)
+
+Serial Number#:
+Check Serial Box.
+
+How to Burn:
+1) Launch Disk Utility
+2) Click Burn (upper left)
+3) Navigate to and select the DMG file (do not drag and drop).
+4) Click CHOOSE or BURN
+5) Insert CD-R disk when prompted, click BURN.
+
+Why you might want *this* version:
+Older versions of DiskWarrior "updated" to version 3.0.3 can not be updated again. The Original CD from DiskWarrior is required in order to be able to update to future versions. Confirmed working with Tiger 10.4.3.
+
+This comes from an actual retail disk that was purchased from Alsoft and shipped via snail mail January, 2006. Comments were not changed or added from the original.
+
+Alsoft's own website says to go to the comments to see which revision it is: 
+http://supportdb.alsoft.com:591/FMPro?-db=alsoftsupport&-lay=main&-sortfield=Date&-sortorder=descend&Keywords=cd%20revision&Product=DiskWarrior&-op=lte&Date=%2f%2f&-max=15&-format=AlsoftSupport-qa.html&-script=counter&-token=81&-Skip=0&-find
+
+What's new in DiskWarrior 3.0.3?
+? DiskWarrior 3.0.3 is compatible with Mac OS X versions 10.2.1 through 10.4.
+? DiskWarrior 3.0.3 supports Tiger's new Access Control Lists (ACL) and extended file attributes. It also has improved journaling support.
+
+Why do I need DiskWarrior?
+DiskWarrior is the only program where there is never a risk of losing directory data and thus never a risk of losing access to your files.
+
+Only DiskWarrior has all of these features:
+? Uses directory data to quickly rebuild the directory structure
+? Eliminates risk of losing access to files other disk "repair" utilities attempt to fix the directory by patching the directory structure and risk deleting sections of the directory
+? Scavenges directory to find all salvageable file and folder data, even data contained in damaged nodes
+? Eliminates unseen directory errors, preventing minor directory errors from escalating into major problems
+? Recovers lost files and folders
+? Optimizes directory for maximum directory performance, speeding up overall disk performance
+? Monitors drive hardware for potential drive failure
+? Verification of replacement directory ensures data integrity
+? Comparison of original directory with replacement directory tells you which files and folders may have been affected by directory damage
+? Patented preview feature to view what the disk will look like after the directory is rebuilt, allowing you to view files and folders before any directory changes are written to disk
+? Repairs damaged boot blocks and blesses the system folder to ensure that the computer will start from the repaired disk
+? Checks custom icon files for corruption, eliminating a common cause of system crashes
+? Repairs problems with wrapper volume System files caused when HFS Plus disks are initialized under Mac OS 9.0 - 9.0.4
+? Safely permits interruptions of any kind, including power outages
+? Advanced "Verify Reads and Writes" technology protects your data
+? Supports bad block sparing software
+? Supports file journaling (Mac OS X 10.2.2 or later)
+
+What is DiskWarrior?
+DiskWarrior is the safest, the most technologically advanced, and the most powerful utility to eliminate directory damage available for any computer. DiskWarrior uses a different approach to disk directory repair than other programs. DiskWarrior is not a disk repair program in the conventional sense. Instead of patching the original directory, it uses a patent-pending technology to quickly build a new replacement directory using data recovered from the original directory, thereby recovering files and folders that you thought were lost and that no other program could recover.
+
+Conquer Disk Damage!
+DiskWarrior is the most highly decorated Mac disk repair utility ever. It repairs disks that no other program can repair. New hardware monitoring helps protect your data from drive malfunctions.
+
+How does DiskWarrior recover data no one else can?
+At Alsoft, we know that the most important thing when you are attempting to repair your disks is getting your data back. That's why the first thing DiskWarrior does is it scavenges your original directory to find all the file data it can. It then uses this data to build an entirely new replacement directory. DiskWarrior is the only product that finds all of your data. Its patent pending method always results in a perfectly rebuilt directory without any errors and that contains all of your file and folder data.
+
+DiskWarrior 3 and Mac OS X 10.4 (Tiger)
+In order to run DiskWarrior while started from Mac OS X 10.4 (Tiger) you will need to use DiskWarrior version 3.0.3. Earlier versions of DiskWarrior, while not compatible with Tiger, will not harm your disk. Attempting to rebuild a disk with DiskWarrior 3.0.2 or earlier, while started from Tiger, will result in an error stating that a "Mac OS Services" failure occurred.
+
+Attempting to rebuild a Tiger disk while started from a DiskWarrior 3.0.2 CD can also result in an error message stating that "This disk appears to have a newer version of the Mac OS disk format than this version of DiskWarrior." When started from earlier versions of the DiskWarrior CD, DiskWarrior may simply indicate that the disk cannot be repaired. In all cases, DiskWarrior 3.0.2 and earlier, will not harm your disk.
+
+When rebuilding your disk, the new version of DiskWarrior features support for Tiger's new Access Control Lists (ACL) and extended file attributes. It has improved journaling support and enhanced RAID support, including the new concatenated RAID volumes.
+
+DiskWarrior 3.0.3 is now shipping on DiskWarrior CD revision 39.
+All Mac models introduced as of 10/19/2005 and meeting the requirements for DiskWarrior can be started from the DiskWarrior CD. The new iBook models introduced on 07/26/2005, the new iMac G5 (with built-in iSight) models introduced on 10/12/2005 and the new Power Mac G5 (dual-core) and PowerBook models introduced on 10/19/2005 can be started from the current CD. Click here to learn how to repair the directory of a disk in a Mac model that cannot be started from the DiskWarrior CD.
+
+How does DiskWarrior safeguard data from hardware malfunction?
+Hardware failure presents a potential threat to your data. When a drive mechanism fails, the data on the drive can be lost, with an expensive data recovery service your only option to retrieve your data. DiskWarrior can be used to activate internal diagnostics that are built into disk devices to help determine if a drive is in danger of physical malfunction. If the potential for failure is indicated, DiskWarrior will notify you, giving you the opportunity to back up your data before the drive fails. These tests can be executed manually, or you can choose to have the tests run automatically every hour, day, or week. DiskWarrior also provides several notification options should the diagnostics report a problem.
+
+How Can I Rebuild My Startup Disk?
+DiskWarrior ships on a CD-ROM that will start up in Mac OS X on a Mac with a G3 or higher processor (including a G5) with built-in USB and 128 MB (256 MB recommended) of RAM.
+
+Once started from the DiskWarrior CD, DiskWarrior can be run from the CD to eliminate all damage to any HFS (Mac OS Standard) and HFS Plus (Mac OS Extended) disk directories, including your normal startup disk as well as journaled disks (but not case-sensitive disks). Version 2.1 of DiskWarrior, also included, runs and installs on a 68020 Mac or better when started from Mac OS 7.1 to 9.x. Either version of DiskWarrior repairs any supported disk no matter which version of the Mac OS is installed on the disk being repaired.
+
+Requirements for DiskWarrior
+To rebuild the directory on a Mac OS Standard (HFS) or Mac OS Extended (HFS Plus) disk, DiskWarrior requires a Mac OS computer with a G3 or better processor (such as a G4 or G5) with built-in USB and a minimum of 256 MB RAM (384 MB or more recommended) to start up and run from the DiskWarrior CD, regardless of what operating system is installed on the disk to be rebuilt. The computer must also have the latest firmware updates installed. The disk to be rebuilt must be locally connected, must not be write protected, must have a valid partition map and must have a case-insensitive directory. If you plan to rebuild the directory on your startup disk, you need to start up from another disk capable of starting up in Mac OS X 10.2.1 through 10.4, such as the DiskWarrior CD. (DiskWarrior cannot be run while started up from the Apple Mac OS X install CD.)
+
+If you wish to enable DiskWarrior's automatic hardware monitoring, you will need to install the DiskWarrior application on your Mac OS computer. To install the DiskWarrior application, you must have a Mac OS computer running Mac OS X 10.2.1 through 10.4 with at least 256 MB RAM. Installing DiskWarrior is not required to run the application from the DiskWarrior CD to rebuild a disk directory.
+
+Can't boot up off a disk?
+There are two workarounds:
+(1) Alternate Startup Disk: If you have another drive (such as an external FireWire drive or an iPod) you could install OS X (10.2.1 or higher) on that drive and then start from it. Install DiskWarrior on
+that drive's "Utilities" folder, (which is inside the "Applications" folder) and run DiskWarrior from there.
+
+(2) FireWire Target Disk Mode: Connect two Macs with a FireWire cable where the one is the "host" (your eMac in this situation) and the other is a "target". The host Mac should be running an OS X in which DiskWarrior 3.0.3 runs. In this scenario, the target Mac is the new iBook that cannot be started from the DiskWarrior CD. Start by shutting down the target Mac. Then turn it on while holding down the "T" key. The target Mac's drive will appear as a usable drive on the host Mac. Run DiskWarrior from the host Mac and rebuild the target Mac's disk.

@@ -1,0 +1,154 @@
+.:...............................................................................:.
+ ^                                                                               ^
+ :                    _____            _____  _                                  :
+ :                   |   __| ___  ___ |   __||_| _ _  ___  ___                   :
+ :                   |  |  || .'||_ -||  |  || || | || -_||  _|                  :
+ :                   |_____||__,||___||_____||_| |_/ |___||_|                    :
+ :                                                                               :
+ :  __ __ _____ _____ __ __    _____       _ _        _____         _            :
+ : |  |  | __  |     |  |  |  |     |___ _| |_|___   |     |___ ___| |_ ___ ___  :
+ : |-   -| __ -|  |  |-   -|  | | | | -_| . | | .'|  |   --| -_|   |  _| -_|  _| :
+ : |__|__|_____|_____|__|__|  |_|_|_|___|___|_|__,|  |_____|___|_|_|_| |___|_|   :
+ :                                                                               :
+.:...............................................................................:.
+ ^                                                                               ^
+                          XBMC - XBOX Media Center 1.1.0
+                        Release Date...........02.Feb.2006
+                        Release Size................4x15MB
+                        Release Language.....Multilanguage
+                        Operating System...........M$ XBOX
+
+.:...............................................................................:.
+ ^                                                                               ^
+   INFORMATION:
+
+   This package is my little "contribution" to the scene.
+   Hope you like it ... !! Comments & Suggestions are always welcome !!
+   Releases will be made available on a weekly basis, unless a serious bug
+   is found, or something else important happens that justifies an Update.
+
+   ALWAYS REMEMBER:
+
+   This is software in development - You should regard yourself as a BetaTester!
+   Please read the complete Changelogs to keep yourself informed.
+   Some features might still be in their initial development stages ...
+   You can find some Troubleshooting Tips further down this document.
+   Please read this .nfo - it has some useful information, really ;-)
+   Keep a tried and trusted XBMC Version handy, incase you need to go back !
+
+.:...............................................................................:.
+ ^                                                                               ^
+   SKINS INCLUDED:
+
+   Original Project Mayhem III Skin from CVS only.
+   It guarantees everything works perfectly and keeps Releases Small & Clean.
+   This skin is constantly changed and updated. I you want to use other skins,
+   make sure they are suitable for this particular CVS Version of XBMC.
+   Don┬┤t ask me about problems with 3rd Party Skins - You┬┤re on your own here !
+
+   The only thing that┬┤s changed is the look of the Webserver Interface.
+   I replaced the Original with the Project Mayhem III Style Webserver Interface
+   from KanadaKid (Scott). Looks very nice ┬┤coz it perfectly fits the PM3 style.
+   This also adds some small, but cool Functions to the Webserver Interface.
+
+   You can get more Skins here:
+   http://www.xbox-skins.net/forums/index.php?dlcategory=7
+   http://www.allxboxskins.com/skins/index.php?app=XBMC&cat=0
+
+.:...............................................................................:.
+ ^                                                                               ^
+   SCRIPTS INCLUDED:
+
+   FlexiBrowser / GameSaves / GameSpotPlus / GameTrailers
+   QuickTimeBrowser [fixed] (Movie Trailers) / SubmenuEditor 
+   WebRadio (simpleKML V2) / XBMCLyrics / XBMCScripts
+
+   All Scripts suit the Project Mayhem III style and appear in the Scripts Submenu.
+   You can change the Submenu appearance with the SubmenuEditor yourself. 
+
+   Get more Scripts via the XBMCScripts menu or @ http://www.xbmcscripts.com  
+
+.:...............................................................................:.
+ ^                                                                               ^
+   VISUALISATION ADDONS INCLUDED (All Zipped):
+
+   G-Force:  1507 total (including the CVS supplied ones)
+   MilkDrop: 7977 total (including the CVS supplied ones)
+              
+   I slightly modified some settings in /visualisations/milkdrop.xml
+   The Milkdrop Addon Pack with 7977 Presets is the default setting.
+   The original file from CVS has been renamed to milkdrop.xml.CVS
+
+.:...............................................................................:.
+ ^                                                                               ^
+   ABOUT TRAINERS:
+
+   There are 539 Trainers included to give you a good start.
+   I collected these from the net (including Mikerowesoft Packs 1-3) and deleted
+   all (binary) dupes. I absolutely don┬┤t know which ones work and which don┬┤t ! 
+   PLEASE do not ask me anything about the included Trainers.
+
+   Trainer files need to be in /system/Trainers - Use the context menu on a Game
+   listed in MY PROGRAMS to refresh the Trainer List or to change Trainer options. 
+
+   Get Trainers e.g. @ http://trainers.maxconsole.net (Free Registration required)
+
+.:...............................................................................:.
+ ^                                                                               ^
+   RELEASE NOTES:
+
+   "Trainer engine updated to v2.2. thanks to team xored!"
+   Hmmm - I think that means that .xbtf Trainers do work now ... ?!
+
+   Had many requests to leave the Trainer Pack in, so they are here to stay ;-)
+
+.:...............................................................................:.
+ ^                                                                               ^
+   CHANGELOG:
+
+   To keep this .nfo shorter, I only list the topmost 3 lines here, so you can
+   see what┬┤s included here. Always read the official XBMC Changelog at  
+   http://cvs.sourceforge.net/viewcvs.py/xbmc/XBMC/Changelog.txt?view=markup
+   You can also find it in /docs/Changelog.txt
+
+   02-02-2006 changed: OSD is closed when the user selects the DVD Menu.
+   01-02-2006 fixed: List and Thumb contents were cleared before the WindowClose
+                     animation was started.
+   01-02-2006 added: Rotation effect.  See online manual for more information.
+
+.:...............................................................................:.
+ ^                                                                               ^
+   TROUBLESHOOTING TIPS:
+
+   If you are experiencing all kinda weird problems using an updated version
+   of XBMC it is always a good idea to delete the XBMC┬┤s "SaveGame"
+   using the Micro$oft Dashboard.
+   Alternatively, just delete the E:/TDATA/0face008 and E:/UDATA/0face008 dirs.
+   This is especially important if you are updating from quite an old version.
+
+   To avoid problems you should also check - with every new release - 
+   if the included XboxMediaCenter.xml has been changed significantly.
+   You should then update your own customized XboxMediaCenter.xml accordingly.
+
+   If using XBMC as Dashboard, don┬┤t forget to update the files on DRIVE ┬┤C┬┤.
+
+.:...............................................................................:.
+ ^                                                                               ^
+   THANKS:
+
+   All the XBMC developers !!
+   Your program makes the XBOX worth soOo much more for all of us !
+   Everyone contributing to the scene !
+
+.:...............................................................................:.
+ ^                                                                               ^
+   PS:
+
+   Enjoy & Please Seeeeed !
+
+.:...............................................................................:.
+ :                                                                               :
+ : For Budget Reasons, the Light at the End of the Tunnel had to be switched Off :
+ :                                                                               :
+.:...............................................................................:.
+ ^ GasGiver                        ┬░02.02.2006┬░                         GasGiver ^

@@ -1,0 +1,1696 @@
+﻿Filename,Size,Unit
+/card_cfg.txt,107,B
+/cfg.txt,3.84,K
+/data/abc/abc.abc,93.68,K
+/data/dds/AC_auto1.dds,128.13,K
+/data/dds/AC_carpark1.dds,128.13,K
+/data/dds/AC_carpark2.dds,128.13,K
+/data/dds/AC_christmas.dds,8.13,K
+/data/dds/AC_drag1.dds,128.13,K
+/data/dds/AC_skipad1.dds,128.13,K
+/data/dds/AC_skipad1200FT.dds,128.13,K
+/data/dds/AC_skipad2.dds,128.13,K
+/data/dds/AC_skipad3.dds,128.13,K
+/data/dds/AC_skipad4.dds,128.13,K
+/data/dds/AC_uni_sign.dds,32.13,K
+/data/dds/ACftALPHA.dds,64.13,K
+/data/dds/ADBACK.dds,32.13,K
+/data/dds/ADS11.dds,128.13,K
+/data/dds/ADS12.dds,128.13,K
+/data/dds/ads5.dds,32.13,K
+/data/dds/ads7_dirty.dds,128.13,K
+/data/dds/ADS8.dds,32.13,K
+/data/dds/ADSKyoto2.dds,32.13,K
+/data/dds/amulance.dds,32.13,K
+/data/dds/ARMCO2.dds,128.13,K
+/data/dds/Armcoback.dds,128.13,K
+/data/dds/AST_ADS1.dds,32.13,K
+/data/dds/AST_bgALP24.dds,1,M
+/data/dds/AST_grass.dds,512.13,K
+/data/dds/AST_grassbank.dds,128.13,K
+/data/dds/AST_grassruf3.dds,512.13,K
+/data/dds/AST_pit2.dds,128.13,K
+/data/dds/ASTgrasshill.dds,128.13,K
+/data/dds/ASTgravel.dds,128.13,K
+/data/dds/ASTpitroad1.dds,128.13,K
+/data/dds/ASTrock.dds,128.13,K
+/data/dds/ASTtree1ATEST.dds,128.13,K
+/data/dds/ASTtree2ATEST.dds,128.13,K
+/data/dds/ASTtree3ATEST.dds,128.13,K
+/data/dds/Bale1.dds,32.13,K
+/data/dds/Bale1ALPHA.dds,64.13,K
+/data/dds/Bale1ATEST.dds,32.13,K
+/data/dds/barrier1.dds,32.13,K
+/data/dds/BUSALPHA.dds,64.13,K
+/data/dds/BUTTALPHA.dds,4.13,K
+/data/dds/BW_adback.dds,128.13,K
+/data/dds/BW_ADS1.dds,32.13,K
+/data/dds/BW_ADS2.dds,128.13,K
+/data/dds/BW_bgALP24.dds,1,M
+/data/dds/BW_cp1.dds,32.13,K
+/data/dds/BW_grassbank.dds,128.13,K
+/data/dds/BW_pits2.dds,128.13,K
+/data/dds/BW_walls.dds,128.13,K
+/data/dds/BWbridge.dds,128.13,K
+/data/dds/BWbushes5ATEST.dds,128.13,K
+/data/dds/BWcurbs1.dds,512.13,K
+/data/dds/BWfence1ALPHA.dds,1,M
+/data/dds/BWgrass1.dds,512.13,K
+/data/dds/BWgrassbank31.dds,128.13,K
+/data/dds/BWgrasspit1.dds,512.13,K
+/data/dds/BWgrassruf1.dds,512.13,K
+/data/dds/BWgravel.dds,512.13,K
+/data/dds/BWmountbit.dds,8.13,K
+/data/dds/BWnewroad.dds,512.13,K
+/data/dds/BWoldroad.dds,512.13,K
+/data/dds/BWpitroad.dds,128.13,K
+/data/dds/BWRalydirt.dds,512.13,K
+/data/dds/BWstonewall3.dds,128.13,K
+/data/dds/BWwalls2.dds,128.13,K
+/data/dds/BWwastebin.dds,32.13,K
+/data/dds/caravan.dds,32.13,K
+/data/dds/carbon.dds,8.13,K
+/data/dds/chalkALPHA.dds,64.13,K
+/data/dds/circuitinuse.dds,8.13,K
+/data/dds/CITY_ADS1.dds,32.13,K
+/data/dds/CITY_ADS2.dds,128.13,K
+/data/dds/CITY_ADS3.dds,128.13,K
+/data/dds/City_b1.dds,128.13,K
+/data/dds/City_b1ATEST.dds,128.13,K
+/data/dds/CITY_b2.dds,32.13,K
+/data/dds/CITY_b3.dds,32.13,K
+/data/dds/CITY_b4.dds,32.13,K
+/data/dds/CITY_b5.dds,32.13,K
+/data/dds/CITY_bricks.dds,128.13,K
+/data/dds/City_Road1.dds,128.13,K
+/data/dds/City_Road1arow1.dds,128.13,K
+/data/dds/City_Road1arow2.dds,128.13,K
+/data/dds/City_Road1arow3.dds,128.13,K
+/data/dds/City_Road1cover.dds,128.13,K
+/data/dds/City_Road1hatch.dds,128.13,K
+/data/dds/City_Road1hazrd.dds,128.13,K
+/data/dds/City_Road1linez.dds,128.13,K
+/data/dds/City_Road1SF.dds,128.13,K
+/data/dds/City_Road2.dds,128.13,K
+/data/dds/City_Road2cover.dds,128.13,K
+/data/dds/CITY_Road3.dds,128.13,K
+/data/dds/CITY_Road4.dds,128.13,K
+/data/dds/City_RoadXing.dds,128.13,K
+/data/dds/CITY_stoplite.dds,8.13,K
+/data/dds/CITYstreets.dds,32.13,K
+/data/dds/college1.dds,128.13,K
+/data/dds/concrete11.dds,128.13,K
+/data/dds/Cone2_blue.dds,8.13,K
+/data/dds/Cone2_green.dds,8.13,K
+/data/dds/Cone2_yellow.dds,8.13,K
+/data/dds/cone_blue.dds,8.13,K
+/data/dds/CONE_bottom.dds,8.13,K
+/data/dds/Cone_green.dds,8.13,K
+/data/dds/Cone_orange.dds,8.13,K
+/data/dds/Cone_red.dds,8.13,K
+/data/dds/Cone_red2.dds,8.13,K
+/data/dds/Cone_white.dds,8.13,K
+/data/dds/cone_yellow.dds,8.13,K
+/data/dds/Conebase2.dds,8.13,K
+/data/dds/cromotyres.dds,32.13,K
+/data/dds/Cromowheel2.dds,32.13,K
+/data/dds/Cromowheel_grip.dds,8.13,K
+/data/dds/Crowd1ATEST.dds,32.13,K
+/data/dds/CrowdupATEST.dds,32.13,K
+/data/dds/CTY_arches.dds,32.13,K
+/data/dds/CTY_B5.dds,32.13,K
+/data/dds/CTY_B5ATEST.dds,32.13,K
+/data/dds/CTY_barrier1.dds,32.13,K
+/data/dds/CTY_bush.dds,32.13,K
+/data/dds/CTY_bushATEST.dds,32.13,K
+/data/dds/CTY_carpark2.dds,32.13,K
+/data/dds/CTY_carprkflor.dds,32.13,K
+/data/dds/CTY_carprkroof.dds,32.13,K
+/data/dds/CTY_concrete1.dds,32.13,K
+/data/dds/CTY_concrete3.dds,128.13,K
+/data/dds/CTY_curbs.dds,128.13,K
+/data/dds/CTY_cycle.dds,128.13,K
+/data/dds/CTY_flags1.dds,32.13,K
+/data/dds/CTY_flat1.dds,32.13,K
+/data/dds/CTY_flat1ATEST.dds,32.13,K
+/data/dds/CTY_Frame2ATEST.dds,32.13,K
+/data/dds/CTY_FrameATEST.dds,32.13,K
+/data/dds/CTY_grasshill.dds,128.13,K
+/data/dds/CTY_Hotel1.dds,32.13,K
+/data/dds/CTY_logos.dds,32.13,K
+/data/dds/CTY_logos2.dds,32.13,K
+/data/dds/CTY_office1.dds,32.13,K
+/data/dds/CTY_pave1.dds,128.13,K
+/data/dds/CTY_pubs1.dds,32.13,K
+/data/dds/CTY_signs2.dds,128.13,K
+/data/dds/CTY_tramroad.dds,32.13,K
+/data/dds/CTY_trmroadhz.dds,32.13,K
+/data/dds/CTY_walls2.dds,128.13,K
+/data/dds/CTY_WtowerATEST.dds,32.13,K
+/data/dds/CTYbkgrndALP24.dds,1,M
+/data/dds/CTYbridge.dds,128.13,K
+/data/dds/CTYbushes1.dds,128.13,K
+/data/dds/CTYbushes1ATEST.dds,128.13,K
+/data/dds/CTYfenceALPHA.dds,64.13,K
+/data/dds/CTYgrass3.dds,128.13,K
+/data/dds/CTYmarkers2.dds,128.13,K
+/data/dds/CTYoffice2.dds,128.13,K
+/data/dds/CTYoffice2ATEST.dds,128.13,K
+/data/dds/CTYoffice3ATEST.dds,32.13,K
+/data/dds/CTYoffice4.dds,32.13,K
+/data/dds/CTYoffice4ATEST.dds,32.13,K
+/data/dds/CTYwall2.dds,128.13,K
+/data/dds/curb1.dds,32.13,K
+/data/dds/DaisyATEST.dds,32.13,K
+/data/dds/DiscATEST.dds,8.13,K
+/data/dds/DK_B1ATEST.dds,32.13,K
+/data/dds/DK_concrete1.dds,32.13,K
+/data/dds/DK_OB17ATEST.dds,32.13,K
+/data/dds/DK_OB3ATEST.dds,32.13,K
+/data/dds/DK_railATEST.dds,8.13,K
+/data/dds/DK_road1.dds,32.13,K
+/data/dds/DK_SPESH1ATEST.dds,32.13,K
+/data/dds/DUSTALPHA.dds,16.13,K
+/data/dds/F8_Interior.dds,512.13,K
+/data/dds/FB_pitroad1.dds,128.13,K
+/data/dds/floodlite1.dds,8.13,K
+/data/dds/floodlits2ATEST.dds,128.13,K
+/data/dds/FO_Interior.dds,128.13,K
+/data/dds/FO_Parts.dds,128.13,K
+/data/dds/freerail.dds,8.13,K
+/data/dds/FX_Interior1.dds,128.13,K
+/data/dds/FX_Interior2.dds,128.13,K
+/data/dds/FZ_Grill.dds,640,B
+/data/dds/FZ_Interior1.dds,128.13,K
+/data/dds/FZ_Interior2.dds,128.13,K
+/data/dds/FZ_Texture.dds,8.13,K
+/data/dds/gator.dds,8.13,K
+/data/dds/GERfence1ALPHA.dds,1,M
+/data/dds/Gloves_A.dds,32.13,K
+/data/dds/Gloves_B.dds,32.13,K
+/data/dds/gridALPHA.dds,64.13,K
+/data/dds/GrnStndATEST.dds,512.13,K
+/data/dds/GW_ArialALPHA.dds,16.13,K
+/data/dds/GW_concrete1.dds,128.13,K
+/data/dds/GWawning1.dds,32.13,K
+/data/dds/GWbitumen1.dds,32.13,K
+/data/dds/GWbricks.dds,32.13,K
+/data/dds/GWbridgeATEST.dds,128.13,K
+/data/dds/GWbushes1.dds,128.13,K
+/data/dds/GWbushes1ALPHA.dds,256.13,K
+/data/dds/GWbushes1ATEST.dds,128.13,K
+/data/dds/GWbushes3ALPHA.dds,256.13,K
+/data/dds/GWbushes3ATEST.dds,128.13,K
+/data/dds/GWcliff1.dds,128.13,K
+/data/dds/GWcurb1.dds,128.13,K
+/data/dds/GWfence2ALPHA.dds,64.13,K
+/data/dds/GWfenceALPHA.dds,256.13,K
+/data/dds/GWfootbridge1.dds,32.13,K
+/data/dds/GWgrass2.dds,512.13,K
+/data/dds/GWgravel1.dds,512.13,K
+/data/dds/GWpitdor.dds,32.13,K
+/data/dds/GWpitroad1.dds,512.13,K
+/data/dds/GWpost1.dds,8.13,K
+/data/dds/GWrail1ATEST.dds,32.13,K
+/data/dds/GWroad1.dds,512.13,K
+/data/dds/GWroad1BUMP.dds,128.13,K
+/data/dds/GWshithouse.dds,32.13,K
+/data/dds/GWtrunks1.dds,32.13,K
+/data/dds/GWtyreside.dds,32.13,K
+/data/dds/GWtyretops.dds,128.13,K
+/data/dds/GWwall2.dds,128.13,K
+/data/dds/GWwall2ATEST.dds,128.13,K
+/data/dds/GWwallz1.dds,128.13,K
+/data/dds/HGA_adback.dds,128.13,K
+/data/dds/HGA_ADS1.dds,128.13,K
+/data/dds/HGA_armco2.dds,128.13,K
+/data/dds/HGA_bushtop.dds,32.13,K
+/data/dds/HGA_curb2.dds,32.13,K
+/data/dds/HGA_curb42.dds,128.13,K
+/data/dds/HGA_grass4.dds,512.13,K
+/data/dds/HGA_grassbank.dds,128.13,K
+/data/dds/HGA_grasshill.dds,512.13,K
+/data/dds/HGA_grasshill2.dds,128.13,K
+/data/dds/HGA_grasspit1.dds,512.13,K
+/data/dds/HGA_grassruf3.dds,512.13,K
+/data/dds/HGA_office1.dds,32.13,K
+/data/dds/HGA_pitroad.dds,512.13,K
+/data/dds/HGA_pits.dds,128.13,K
+/data/dds/HGA_pits2.dds,128.13,K
+/data/dds/HGA_road4.dds,512.13,K
+/data/dds/HGA_tunnel.dds,32.13,K
+/data/dds/HGA_tyres1.dds,128.13,K
+/data/dds/HGAarrows.dds,32.13,K
+/data/dds/HGAbariers1.dds,128.13,K
+/data/dds/HGAfenceALPHA.dds,1,M
+/data/dds/HGAframeATEST.dds,128.13,K
+/data/dds/HGAmountALP24.dds,1,M
+/data/dds/HGAroadBUMP.dds,128.13,K
+/data/dds/HGAtree1ATEST.dds,32.13,K
+/data/dds/HGAtree2ATEST.dds,32.13,K
+/data/dds/HGAtree3ATEST.dds,32.13,K
+/data/dds/HGAtrelin1ALPHA.dds,256.13,K
+/data/dds/HGAwalls2.dds,128.13,K
+/data/dds/HGtrebitsATEST.dds,32.13,K
+/data/dds/HMV_B1ATEST.dds,32.13,K
+/data/dds/house1.dds,32.13,K
+/data/dds/houserailATEST.dds,8.13,K
+/data/dds/island1.dds,8.13,K
+/data/dds/JA_ADBACK.dds,32.13,K
+/data/dds/JA_ADS.dds,32.13,K
+/data/dds/JA_ads2.dds,32.13,K
+/data/dds/JA_ADS3.dds,32.13,K
+/data/dds/JA_ADS4.dds,32.13,K
+/data/dds/JA_ADS6.dds,32.13,K
+/data/dds/JA_ADS7.dds,128.13,K
+/data/dds/JA_ADS8.dds,32.13,K
+/data/dds/JA_Arrows.dds,32.13,K
+/data/dds/JA_BGALP24.dds,1,M
+/data/dds/JA_BKGRD1.dds,32.13,K
+/data/dds/JA_BKGRD1ATEST.dds,32.13,K
+/data/dds/JA_bush4.dds,128.13,K
+/data/dds/JA_bush4ATEST.dds,128.13,K
+/data/dds/JA_Curb.dds,32.13,K
+/data/dds/JA_Curb2.dds,32.13,K
+/data/dds/JA_fence2.dds,32.13,K
+/data/dds/JA_flag1.dds,8.13,K
+/data/dds/JA_gate.dds,32.13,K
+/data/dds/JA_gateATEST.dds,32.13,K
+/data/dds/JA_HILL_t1.dds,128.13,K
+/data/dds/JA_HILL_t1ATEST.dds,128.13,K
+/data/dds/JA_HILL_t2.dds,128.13,K
+/data/dds/JA_lineALPHA.dds,16.13,K
+/data/dds/JA_pitsign.dds,32.13,K
+/data/dds/JA_Pleaf2ATEST.dds,128.13,K
+/data/dds/JA_polsupATEST.dds,8.13,K
+/data/dds/JA_RALLYXcurbs1.dds,128.13,K
+/data/dds/JA_roadxtras.dds,512.13,K
+/data/dds/JA_Roof1.dds,32.13,K
+/data/dds/JA_rox1.dds,128.13,K
+/data/dds/JA_runoff1.dds,128.13,K
+/data/dds/JA_RX_dirt1.dds,128.13,K
+/data/dds/JA_RXroad2.dds,128.13,K
+/data/dds/JA_RXroadmix.dds,128.13,K
+/data/dds/JA_wallz2.dds,128.13,K
+/data/dds/JA_wallz3.dds,128.13,K
+/data/dds/JA_wallz3ATEST.dds,128.13,K
+/data/dds/JAbeach1.dds,128.13,K
+/data/dds/JAbridge.dds,128.13,K
+/data/dds/JAbridgeATEST.dds,128.13,K
+/data/dds/JAfence2ALPHA.dds,64.13,K
+/data/dds/JAfenceALPHA.dds,64.13,K
+/data/dds/JAgrass_t1.dds,512.13,K
+/data/dds/JAgrassbad_t1.dds,512.13,K
+/data/dds/JAgrassbad_t2.dds,128.13,K
+/data/dds/JApleaf2ATEST.dds,32.13,K
+/data/dds/JAroad_AD.dds,128.13,K
+/data/dds/JAroad_t1.dds,512.13,K
+/data/dds/JAshrub12ATEST.dds,32.13,K
+/data/dds/JAshrub1ATEST.dds,32.13,K
+/data/dds/JAskyday1_E.dds,128.13,K
+/data/dds/JAtree_T1ATEST.dds,32.13,K
+/data/dds/JAtree_T2ATEST.dds,32.13,K
+/data/dds/JAtree_T3ATEST.dds,32.13,K
+/data/dds/JAtrees4ATEST.dds,128.13,K
+/data/dds/JAtrees5ATEST.dds,128.13,K
+/data/dds/JAtreez2.dds,128.13,K
+/data/dds/JAtreez2ATEST.dds,128.13,K
+/data/dds/JAtrunks1.dds,32.13,K
+/data/dds/JAwallz1.dds,128.13,K
+/data/dds/K8_exhaust1.dds,32.13,K
+/data/dds/K8_pads.dds,8.13,K
+/data/dds/keepleft.dds,8.13,K
+/data/dds/KYO_ADS4.dds,128.13,K
+/data/dds/KYOframeATEST.dds,32.13,K
+/data/dds/KYOpalmATEST.dds,128.13,K
+/data/dds/KYOtrees1ATEST.dds,128.13,K
+/data/dds/KYOtrees2ATEST.dds,128.13,K
+/data/dds/LEAF0ATEST.dds,8.13,K
+/data/dds/LEAF1ATEST.dds,8.13,K
+/data/dds/LEAF2ATEST.dds,8.13,K
+/data/dds/LEAF3ATEST.dds,8.13,K
+/data/dds/linesALPHA.dds,64.13,K
+/data/dds/linezALPHA.dds,64.13,K
+/data/dds/logos2.dds,32.13,K
+/data/dds/logos3.dds,32.13,K
+/data/dds/lorry2.dds,32.13,K
+/data/dds/LX_GrillATEST.dds,640,B
+/data/dds/LX_interior1.dds,128.13,K
+/data/dds/LX_interior2.dds,128.13,K
+/data/dds/LX_Radiator.dds,32.13,K
+/data/dds/LX_Seat.dds,32.13,K
+/data/dds/markerpole.dds,8.13,K
+/data/dds/marquee.dds,32.13,K
+/data/dds/marquee2.dds,32.13,K
+/data/dds/MRT.dds,128.13,K
+/data/dds/Net_1ATEST.dds,32.13,K
+/data/dds/Old_Tyres1.dds,32.13,K
+/data/dds/Old_Tyrestack.dds,8.13,K
+/data/dds/padsz.dds,8.13,K
+/data/dds/palmtop1ATEST.dds,128.13,K
+/data/dds/palmtop2ATEST.dds,128.13,K
+/data/dds/palmtrunk.dds,32.13,K
+/data/dds/petrlpump1.dds,32.13,K
+/data/dds/PIT_GFX1.dds,512.13,K
+/data/dds/podium.dds,32.13,K
+/data/dds/polelineALPHA.dds,4.13,K
+/data/dds/pylon2ALPHA.dds,256.13,K
+/data/dds/pylon2ATEST.dds,128.13,K
+/data/dds/RA_Grill.dds,256,B
+/data/dds/RA_GrillATEST.dds,256,B
+/data/dds/RA_Parts.dds,512.13,K
+/data/dds/RA_seat1.dds,32.13,K
+/data/dds/RA_Texture.dds,2.13,K
+/data/dds/RACELINEALPHA.dds,16.13,K
+/data/dds/railingATEST.dds,8.13,K
+/data/dds/RALY_Arrows.dds,32.13,K
+/data/dds/RALY_mwaysign.dds,32.13,K
+/data/dds/RALY_pitdor.dds,32.13,K
+/data/dds/RALY_pole1.dds,32.13,K
+/data/dds/RALY_pole1ATEST.dds,32.13,K
+/data/dds/RALY_sp.dds,32.13,K
+/data/dds/RALY_spATEST.dds,32.13,K
+/data/dds/RALY_umbr.dds,8.13,K
+/data/dds/RALY_umbrATEST.dds,8.13,K
+/data/dds/RALYarmco.dds,128.13,K
+/data/dds/RALYconcrete3.dds,32.13,K
+/data/dds/RB_Interior1.dds,128.13,K
+/data/dds/RB_interior2.dds,128.13,K
+/data/dds/Right1.dds,8.13,K
+/data/dds/s_glassALPHA.dds,384,B
+/data/dds/S_LIGHTS.dds,32.13,K
+/data/dds/s_LX_winALPHA.dds,384,B
+/data/dds/s_UF_headALPHA.dds,384,B
+/data/dds/s_UF_winALPHA.dds,384,B
+/data/dds/s_windowALPHA.dds,384,B
+/data/dds/s_windxrALPHA.dds,384,B
+/data/dds/Seat1.dds,32.13,K
+/data/dds/Shopfront1.dds,32.13,K
+/data/dds/Shopfront2.dds,32.13,K
+/data/dds/Shopfront3.dds,32.13,K
+/data/dds/Shopfront4.dds,32.13,K
+/data/dds/Shopfront5.dds,32.13,K
+/data/dds/signbak1ATEST.dds,8.13,K
+/data/dds/signbak2.dds,8.13,K
+/data/dds/SKP_concret1.dds,32.13,K
+/data/dds/SKP_cone.dds,8.13,K
+/data/dds/SKP_cone2.dds,8.13,K
+/data/dds/SKP_conebase.dds,8.13,K
+/data/dds/SKP_HiSpwl.dds,32.13,K
+/data/dds/SKP_HiSpwlATEST.dds,32.13,K
+/data/dds/Sky_overcast3_E.dds,32.13,K
+/data/dds/Sky_overcast_E.dds,32.13,K
+/data/dds/SKY_semisun5_E.dds,128.13,K
+/data/dds/SKY_semisun7_E.dds,128.13,K
+/data/dds/SKY_semisun_E.dds,32.13,K
+/data/dds/Sky_sunset4_E.dds,32.13,K
+/data/dds/Sky_sunset_E.dds,32.13,K
+/data/dds/Skycloudysnst2_E.dds,32.13,K
+/data/dds/Skyovercast10_E.dds,128.13,K
+/data/dds/Skyovercast6_E.dds,128.13,K
+/data/dds/Skysunny6_E.dds,128.13,K
+/data/dds/Skysunny7_E.dds,128.13,K
+/data/dds/SMLBALPHA.dds,4.13,K
+/data/dds/speaker1.dds,8.13,K
+/data/dds/Standgfx.dds,128.13,K
+/data/dds/StandgfxATEST.dds,128.13,K
+/data/dds/Suncloudy1_E.dds,128.13,K
+/data/dds/sunsetoc1_E.dds,128.13,K
+/data/dds/tent.dds,32.13,K
+/data/dds/Trailer1.dds,32.13,K
+/data/dds/Trailer2.dds,32.13,K
+/data/dds/tramwiresALPHA.dds,64.13,K
+/data/dds/tramwiresATEST.dds,32.13,K
+/data/dds/Treebak2ATEST.dds,128.13,K
+/data/dds/treetex1_aATEST.dds,32.13,K
+/data/dds/trunks1.dds,32.13,K
+/data/dds/tunel_lite.dds,8.13,K
+/data/dds/TVstandATEST.dds,32.13,K
+/data/dds/TYRE.dds,128.13,K
+/data/dds/tyremarks1ALPHA.dds,64.13,K
+/data/dds/UF_Parts.dds,128.13,K
+/data/dds/UF_Texture.dds,2.13,K
+/data/dds/wheel_formula.dds,32.13,K
+/data/dds/wheel_formula2.dds,32.13,K
+/data/dds/wheelfelt1.dds,128.13,K
+/data/dds/windgen.dds,8.13,K
+/data/dds/wiperblade.dds,32.13,K
+/data/dds/WST_ADS1.dds,128.13,K
+/data/dds/WST_ADS2.dds,32.13,K
+/data/dds/WST_arrows.dds,32.13,K
+/data/dds/WST_curb.dds,128.13,K
+/data/dds/WST_grass.dds,512.13,K
+/data/dds/WST_grassbank.dds,128.13,K
+/data/dds/WST_grasshill2.dds,128.13,K
+/data/dds/WST_grasspit1.dds,512.13,K
+/data/dds/WST_grassroad.dds,512.13,K
+/data/dds/WST_grassruf3.dds,512.13,K
+/data/dds/WST_road.dds,512.13,K
+/data/dds/WST_roadBUMP.dds,128.13,K
+/data/dds/WST_tyres1.dds,128.13,K
+/data/dds/WSTgrsbldATEST.dds,128.13,K
+/data/dds/WSTmountALP24.dds,1,M
+/data/dds/XF_Interior1.dds,128.13,K
+/data/dds/XF_Interior2.dds,128.13,K
+/data/dds/XR_Interior1.dds,128.13,K
+/data/dds/XR_Interior2.dds,128.13,K
+/data/dds/XR_Texture.dds,2.13,K
+/data/drv/AI 1.drv,28,B
+/data/drv/AI 10.drv,28,B
+/data/drv/AI 11.drv,28,B
+/data/drv/AI 12.drv,28,B
+/data/drv/AI 2.drv,28,B
+/data/drv/AI 3.drv,28,B
+/data/drv/AI 4.drv,28,B
+/data/drv/AI 5.drv,28,B
+/data/drv/AI 6.drv,28,B
+/data/drv/AI 7.drv,28,B
+/data/drv/AI 8.drv,28,B
+/data/drv/AI 9.drv,28,B
+/data/drv/POKROCILY.drv,28,B
+/data/drv/PROFESIONAL.drv,28,B
+/data/drv/ZKUSENY.drv,28,B
+/data/hmn/helmet.sre,4.01,K
+/data/hmn/hmn.hmn,212.45,K
+/data/knw/AS1.trs,6.76,K
+/data/knw/AS2.trs,8.19,K
+/data/knw/AS5.trs,22.91,K
+/data/knw/AS5_AI10_FORMULAV8_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI10_FORMULAV8_ZACATECNIK.knw,27.26,K
+/data/knw/AS5_AI10_FORMULAXR_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI10_UF1000_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI11_FORMULAV8_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI11_FORMULAV8_ZACATECNIK.knw,27.26,K
+/data/knw/AS5_AI11_FORMULAXR_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI11_UF1000_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI12_FORMULAV8_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI12_FORMULAXR_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI1_FORMULAV8_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI1_FORMULAV8_ZACATECNIK.knw,27.26,K
+/data/knw/AS5_AI1_FORMULAXR_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI1_UF1000_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI2_FORMULAV8_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI2_FORMULAXR_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI2_UF1000_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI3_FORMULAV8_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI3_FORMULAV8_ZACATECNIK.knw,27.26,K
+/data/knw/AS5_AI3_FORMULAXR_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI3_UF1000_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI4_FORMULAV8_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI4_FORMULAV8_ZACATECNIK.knw,27.26,K
+/data/knw/AS5_AI4_FORMULAXR_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI4_UF1000_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI5_FORMULAV8_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI5_FORMULAXR_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI5_UF1000_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI6_FORMULAV8_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI6_FORMULAV8_ZACATECNIK.knw,27.26,K
+/data/knw/AS5_AI6_FORMULAXR_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI6_UF1000_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI7_FORMULAV8_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI7_FORMULAV8_ZACATECNIK.knw,27.26,K
+/data/knw/AS5_AI7_FORMULAXR_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI7_UF1000_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI8_FORMULAV8_ZACATECNIK.knw,27.26,K
+/data/knw/AS5_AI8_FORMULAXR_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI8_UF1000_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI9_FORMULAV8_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI9_FORMULAV8_ZACATECNIK.knw,27.26,K
+/data/knw/AS5_AI9_FORMULAXR_PROFESIONAL.knw,27.26,K
+/data/knw/AS5_AI9_UF1000_PROFESIONAL.knw,27.26,K
+/data/knw/AU4_AI1_XFGTI_PROFESIONAL.knw,2.32,K
+/data/knw/AU4_AI2_XFGTI_PROFESIONAL.knw,2.32,K
+/data/knw/AU4_AI3_XFGTI_PROFESIONAL.knw,2.32,K
+/data/knw/AU4_AI4_XFGTI_PROFESIONAL.knw,2.32,K
+/data/knw/AU4_AI5_XFGTI_PROFESIONAL.knw,2.32,K
+/data/knw/AU4_AI6_XFGTI_PROFESIONAL.knw,2.32,K
+/data/knw/AU4_AI7_XFGTI_PROFESIONAL.knw,2.32,K
+/data/knw/BL1.trs,11.19,K
+/data/knw/BL1_AI10_FORMULAV8_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI10_FORMULAV8_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI10_FORMULAXR_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI10_MRT5_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI10_MRT5_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI10_UF1000_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI10_UF1000_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI10_XFGTI_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI11_FORMULAV8_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI11_FORMULAV8_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI11_FORMULAXR_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI11_FORMULAXR_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI11_FZ50GTR_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI11_UF1000_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI11_UF1000_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI11_XFGTI_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI12_FORMULAV8_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI12_FORMULAV8_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI12_FORMULAXR_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI12_FZ50GTR_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI1_FORMULAV8_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI1_FORMULAV8_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI1_FORMULAXR_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI1_FZ50GTR_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI1_FZ50GTR_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI1_UF1000_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI1_UF1000_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI1_XFGTI_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI2_FORMULAV8_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI2_FORMULAV8_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI2_FORMULAXR_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI2_UF1000_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI2_UF1000_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI2_XFGTI_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI2_XFGTI_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI2_XRGTR_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI3_FORMULAV8_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI3_FORMULAV8_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI3_FORMULAXR_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI3_UF1000_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI3_UF1000_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI3_XFGTI_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI3_XFGTI_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI3_XRGTR_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI4_FORMULAV8_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI4_FORMULAV8_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI4_FORMULAXR_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI4_UF1000_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI4_UF1000_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI4_XFGTI_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI4_XFGTI_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI4_XRGTR_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI5_FORMULAV8_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI5_FORMULAV8_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI5_FORMULAXR_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI5_FXOGTR_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI5_UF1000_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI5_UF1000_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI5_XFGTI_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI5_XFGTI_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI6_FORMULAV8_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI6_FORMULAV8_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI6_FORMULAXR_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI6_FXOGTR_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI6_UF1000_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI6_UF1000_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI6_XFGTI_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI6_XFGTI_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI7_FORMULAV8_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI7_FORMULAXR_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI7_FXOGTR_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI7_UF1000_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI7_UF1000_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI7_XFGTI_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI7_XFGTI_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI8_FORMULAV8_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI8_FORMULAV8_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI8_FORMULAXR_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI8_UF1000_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI8_UF1000_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI8_XFGTI_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI9_FORMULAV8_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI9_FORMULAV8_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI9_FORMULAXR_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI9_MRT5_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI9_UF1000_PROFESIONAL.knw,13.33,K
+/data/knw/BL1_AI9_UF1000_ZACATECNIK.knw,13.33,K
+/data/knw/BL1_AI9_XFGTI_PROFESIONAL.knw,13.33,K
+/data/knw/BL2.trs,9.93,K
+/data/knw/BL2_AI10_FORMULAV8_PROFESIONAL.knw,11.82,K
+/data/knw/BL2_AI1_FORMULAV8_PROFESIONAL.knw,11.82,K
+/data/knw/BL2_AI2_FORMULAV8_PROFESIONAL.knw,11.82,K
+/data/knw/BL2_AI3_FORMULAV8_PROFESIONAL.knw,11.82,K
+/data/knw/BL2_AI4_FORMULAV8_PROFESIONAL.knw,11.82,K
+/data/knw/BL2_AI5_FORMULAV8_PROFESIONAL.knw,11.82,K
+/data/knw/BL2_AI6_FORMULAV8_PROFESIONAL.knw,11.82,K
+/data/knw/BL2_AI7_FORMULAV8_PROFESIONAL.knw,11.82,K
+/data/knw/BL2_AI8_FORMULAV8_PROFESIONAL.knw,11.82,K
+/data/knw/BL2_AI9_FORMULAV8_PROFESIONAL.knw,11.82,K
+/data/knw/BL2R.trs,9.93,K
+/data/knw/FE2.trs,10.23,K
+/data/knw/FE3.trs,13.86,K
+/data/knw/FE3_AI10_FORMULAXR_PROFESIONAL.knw,16.53,K
+/data/knw/FE3_AI10_FORMULAXR_ZACATECNIK.knw,16.53,K
+/data/knw/FE3_AI10_MRT5_ZACATECNIK.knw,16.54,K
+/data/knw/FE3_AI11_FORMULAXR_PROFESIONAL.knw,16.53,K
+/data/knw/FE3_AI11_FORMULAXR_ZACATECNIK.knw,16.53,K
+/data/knw/FE3_AI11_MRT5_ZACATECNIK.knw,16.54,K
+/data/knw/FE3_AI1_FORMULAXR_PROFESIONAL.knw,16.53,K
+/data/knw/FE3_AI1_FORMULAXR_ZACATECNIK.knw,16.53,K
+/data/knw/FE3_AI1_MRT5_ZACATECNIK.knw,16.54,K
+/data/knw/FE3_AI2_FORMULAXR_PROFESIONAL.knw,16.53,K
+/data/knw/FE3_AI2_FORMULAXR_ZACATECNIK.knw,16.53,K
+/data/knw/FE3_AI2_MRT5_ZACATECNIK.knw,16.54,K
+/data/knw/FE3_AI3_FORMULAXR_PROFESIONAL.knw,16.53,K
+/data/knw/FE3_AI3_FORMULAXR_ZACATECNIK.knw,16.53,K
+/data/knw/FE3_AI3_MRT5_ZACATECNIK.knw,16.54,K
+/data/knw/FE3_AI4_FORMULAXR_PROFESIONAL.knw,16.53,K
+/data/knw/FE3_AI4_FORMULAXR_ZACATECNIK.knw,16.53,K
+/data/knw/FE3_AI4_MRT5_ZACATECNIK.knw,16.54,K
+/data/knw/FE3_AI5_FORMULAXR_PROFESIONAL.knw,16.53,K
+/data/knw/FE3_AI5_FORMULAXR_ZACATECNIK.knw,16.53,K
+/data/knw/FE3_AI5_MRT5_ZACATECNIK.knw,16.54,K
+/data/knw/FE3_AI6_FORMULAXR_PROFESIONAL.knw,16.53,K
+/data/knw/FE3_AI6_FORMULAXR_ZACATECNIK.knw,16.53,K
+/data/knw/FE3_AI6_MRT5_ZACATECNIK.knw,16.54,K
+/data/knw/FE3_AI7_FORMULAXR_PROFESIONAL.knw,16.53,K
+/data/knw/FE3_AI7_FORMULAXR_ZACATECNIK.knw,16.53,K
+/data/knw/FE3_AI7_MRT5_ZACATECNIK.knw,16.54,K
+/data/knw/FE3_AI8_FORMULAXR_PROFESIONAL.knw,16.53,K
+/data/knw/FE3_AI8_FORMULAXR_ZACATECNIK.knw,16.53,K
+/data/knw/FE3_AI8_MRT5_ZACATECNIK.knw,16.54,K
+/data/knw/FE3_AI9_FORMULAXR_PROFESIONAL.knw,16.53,K
+/data/knw/FE3_AI9_FORMULAXR_ZACATECNIK.knw,16.53,K
+/data/knw/FE3_AI9_MRT5_ZACATECNIK.knw,16.54,K
+/data/knw/FE4.trs,23.96,K
+/data/knw/FE4_AI10_FORMULAXR_PROFESIONAL.knw,28.63,K
+/data/knw/FE4_AI11_FORMULAXR_PROFESIONAL.knw,28.63,K
+/data/knw/FE4_AI1_FORMULAXR_PROFESIONAL.knw,28.63,K
+/data/knw/FE4_AI2_FORMULAXR_PROFESIONAL.knw,28.63,K
+/data/knw/FE4_AI3_FORMULAXR_PROFESIONAL.knw,28.63,K
+/data/knw/FE4_AI4_FORMULAXR_PROFESIONAL.knw,28.63,K
+/data/knw/FE4_AI5_FORMULAXR_PROFESIONAL.knw,28.63,K
+/data/knw/FE4_AI6_FORMULAXR_PROFESIONAL.knw,28.63,K
+/data/knw/FE4_AI7_FORMULAXR_PROFESIONAL.knw,28.63,K
+/data/knw/FE4_AI8_FORMULAXR_PROFESIONAL.knw,28.63,K
+/data/knw/FE4_AI9_FORMULAXR_PROFESIONAL.knw,28.63,K
+/data/knw/FE5.trs,11.19,K
+/data/knw/FE6.trs,5.05,K
+/data/knw/KY1.trs,5.87,K
+/data/knw/KY1_AI10_FORMULAV8_PROFESIONAL.knw,6.99,K
+/data/knw/KY1_AI10_FORMULAV8_ZKUSENY.knw,6.99,K
+/data/knw/KY1_AI10_FORMULAXR_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI10_FZ50GTR_PROFESIONAL.knw,7,K
+/data/knw/KY1_AI10_XFGTI_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI11_FORMULAV8_PROFESIONAL.knw,6.99,K
+/data/knw/KY1_AI11_FORMULAV8_ZKUSENY.knw,6.99,K
+/data/knw/KY1_AI11_FORMULAXR_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI11_FZ50GTR_PROFESIONAL.knw,7,K
+/data/knw/KY1_AI12_FORMULAV8_PROFESIONAL.knw,6.99,K
+/data/knw/KY1_AI12_FZ50GTR_PROFESIONAL.knw,7,K
+/data/knw/KY1_AI12_XFGTI_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI1_FORMULAV8_PROFESIONAL.knw,6.99,K
+/data/knw/KY1_AI1_FORMULAV8_ZKUSENY.knw,6.99,K
+/data/knw/KY1_AI1_FORMULAXR_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI1_FZ50GTR_PROFESIONAL.knw,7,K
+/data/knw/KY1_AI1_XFGTI_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI2_FORMULAV8_PROFESIONAL.knw,6.99,K
+/data/knw/KY1_AI2_FORMULAV8_ZKUSENY.knw,6.99,K
+/data/knw/KY1_AI2_FORMULAXR_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI2_FZ50GTR_PROFESIONAL.knw,7,K
+/data/knw/KY1_AI2_XFGTI_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI3_FORMULAV8_PROFESIONAL.knw,6.99,K
+/data/knw/KY1_AI3_FORMULAV8_ZKUSENY.knw,6.99,K
+/data/knw/KY1_AI3_FORMULAXR_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI3_FZ50GTR_PROFESIONAL.knw,7,K
+/data/knw/KY1_AI3_XFGTI_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI4_FORMULAV8_PROFESIONAL.knw,6.99,K
+/data/knw/KY1_AI4_FORMULAV8_ZKUSENY.knw,6.99,K
+/data/knw/KY1_AI4_FORMULAXR_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI4_FZ50GTR_PROFESIONAL.knw,7,K
+/data/knw/KY1_AI4_XFGTI_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI5_FORMULAV8_PROFESIONAL.knw,6.99,K
+/data/knw/KY1_AI5_FORMULAV8_ZKUSENY.knw,6.99,K
+/data/knw/KY1_AI5_FORMULAXR_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI5_FZ50GTR_PROFESIONAL.knw,7,K
+/data/knw/KY1_AI5_XFGTI_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI6_FORMULAV8_PROFESIONAL.knw,6.99,K
+/data/knw/KY1_AI6_FORMULAV8_ZKUSENY.knw,6.99,K
+/data/knw/KY1_AI6_FORMULAXR_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI6_MRT5_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI6_XFGTI_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI7_FORMULAV8_PROFESIONAL.knw,6.99,K
+/data/knw/KY1_AI7_FORMULAV8_ZKUSENY.knw,6.99,K
+/data/knw/KY1_AI7_FORMULAXR_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI7_MRT5_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI7_XFGTI_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI8_FORMULAV8_PROFESIONAL.knw,6.99,K
+/data/knw/KY1_AI8_FORMULAV8_ZKUSENY.knw,6.99,K
+/data/knw/KY1_AI8_FORMULAXR_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI8_MRT5_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI8_XFGTI_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI9_FORMULAV8_PROFESIONAL.knw,6.99,K
+/data/knw/KY1_AI9_FORMULAV8_ZKUSENY.knw,6.99,K
+/data/knw/KY1_AI9_FORMULAXR_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI9_MRT5_PROFESIONAL.knw,6.98,K
+/data/knw/KY1_AI9_XFGTI_PROFESIONAL.knw,6.98,K
+/data/knw/KY2.trs,13.93,K
+/data/knw/KY3.trs,18.08,K
+/data/knw/KY3_AI10_FZ50GTR_PROFESIONAL.knw,21.72,K
+/data/knw/KY3_AI11_FZ50GTR_PROFESIONAL.knw,21.72,K
+/data/knw/KY3_AI1_FORMULAXR_PROFESIONAL.knw,21.68,K
+/data/knw/KY3_AI1_FZ50GTR_PROFESIONAL.knw,21.72,K
+/data/knw/KY3_AI2_FORMULAXR_PROFESIONAL.knw,21.68,K
+/data/knw/KY3_AI2_FZ50GTR_PROFESIONAL.knw,21.72,K
+/data/knw/KY3_AI3_FORMULAXR_PROFESIONAL.knw,21.68,K
+/data/knw/KY3_AI3_FZ50GTR_PROFESIONAL.knw,21.72,K
+/data/knw/KY3_AI4_FORMULAXR_PROFESIONAL.knw,21.68,K
+/data/knw/KY3_AI4_FZ50GTR_PROFESIONAL.knw,21.72,K
+/data/knw/KY3_AI5_FORMULAXR_PROFESIONAL.knw,21.68,K
+/data/knw/KY3_AI5_FZ50GTR_PROFESIONAL.knw,21.72,K
+/data/knw/KY3_AI6_FORMULAXR_PROFESIONAL.knw,21.68,K
+/data/knw/KY3_AI6_FZ50GTR_PROFESIONAL.knw,21.72,K
+/data/knw/KY3_AI7_FZ50GTR_PROFESIONAL.knw,21.72,K
+/data/knw/KY3_AI8_FZ50GTR_PROFESIONAL.knw,21.72,K
+/data/knw/KY3_AI9_FZ50GTR_PROFESIONAL.knw,21.72,K
+/data/knw/SO1.trs,7.16,K
+/data/knw/SO1_AI10_FXOTURBO_PROFESIONAL.knw,8.55,K
+/data/knw/SO1_AI10_UF1000_PROFESIONAL.knw,8.53,K
+/data/knw/SO1_AI10_UF1000_ZKUSENY.knw,8.53,K
+/data/knw/SO1_AI11_FORMULAV8_ZKUSENY.knw,8.55,K
+/data/knw/SO1_AI11_FXOTURBO_PROFESIONAL.knw,8.55,K
+/data/knw/SO1_AI11_UF1000_PROFESIONAL.knw,8.53,K
+/data/knw/SO1_AI11_UF1000_ZKUSENY.knw,8.53,K
+/data/knw/SO1_AI12_FORMULAV8_ZKUSENY.knw,8.55,K
+/data/knw/SO1_AI12_FXOTURBO_PROFESIONAL.knw,8.55,K
+/data/knw/SO1_AI1_FORMULAV8_ZKUSENY.knw,8.55,K
+/data/knw/SO1_AI1_FXOTURBO_PROFESIONAL.knw,8.55,K
+/data/knw/SO1_AI1_UF1000_PROFESIONAL.knw,8.53,K
+/data/knw/SO1_AI1_UF1000_ZKUSENY.knw,8.53,K
+/data/knw/SO1_AI2_FORMULAV8_ZKUSENY.knw,8.55,K
+/data/knw/SO1_AI2_FXOTURBO_PROFESIONAL.knw,8.55,K
+/data/knw/SO1_AI2_UF1000_PROFESIONAL.knw,8.53,K
+/data/knw/SO1_AI2_UF1000_ZKUSENY.knw,8.53,K
+/data/knw/SO1_AI3_FORMULAV8_ZKUSENY.knw,8.55,K
+/data/knw/SO1_AI3_FXOTURBO_PROFESIONAL.knw,8.55,K
+/data/knw/SO1_AI3_UF1000_PROFESIONAL.knw,8.53,K
+/data/knw/SO1_AI3_UF1000_ZKUSENY.knw,8.53,K
+/data/knw/SO1_AI4_FORMULAV8_ZKUSENY.knw,8.55,K
+/data/knw/SO1_AI4_FXOTURBO_PROFESIONAL.knw,8.55,K
+/data/knw/SO1_AI4_UF1000_PROFESIONAL.knw,8.53,K
+/data/knw/SO1_AI4_UF1000_ZKUSENY.knw,8.53,K
+/data/knw/SO1_AI5_FORMULAV8_ZKUSENY.knw,8.55,K
+/data/knw/SO1_AI5_FXOTURBO_PROFESIONAL.knw,8.55,K
+/data/knw/SO1_AI5_UF1000_PROFESIONAL.knw,8.53,K
+/data/knw/SO1_AI5_UF1000_ZKUSENY.knw,8.53,K
+/data/knw/SO1_AI6_FORMULAV8_ZKUSENY.knw,8.55,K
+/data/knw/SO1_AI6_UF1000_PROFESIONAL.knw,8.53,K
+/data/knw/SO1_AI6_UF1000_ZKUSENY.knw,8.53,K
+/data/knw/SO1_AI7_FORMULAV8_ZKUSENY.knw,8.55,K
+/data/knw/SO1_AI7_FXOTURBO_PROFESIONAL.knw,8.55,K
+/data/knw/SO1_AI7_UF1000_PROFESIONAL.knw,8.53,K
+/data/knw/SO1_AI7_UF1000_ZKUSENY.knw,8.53,K
+/data/knw/SO1_AI8_FORMULAV8_ZKUSENY.knw,8.55,K
+/data/knw/SO1_AI8_FXOTURBO_PROFESIONAL.knw,8.55,K
+/data/knw/SO1_AI8_UF1000_PROFESIONAL.knw,8.53,K
+/data/knw/SO1_AI8_UF1000_ZKUSENY.knw,8.53,K
+/data/knw/SO1_AI9_FORMULAV8_ZKUSENY.knw,8.55,K
+/data/knw/SO1_AI9_FXOTURBO_PROFESIONAL.knw,8.55,K
+/data/knw/SO1_AI9_UF1000_PROFESIONAL.knw,8.53,K
+/data/knw/SO1_AI9_UF1000_ZKUSENY.knw,8.53,K
+/data/knw/SO2R.trs,6.32,K
+/data/knw/SO2R_AI1_FORMULAV8_ZKUSENY.knw,7.55,K
+/data/knw/SO2R_AI2_FORMULAV8_ZKUSENY.knw,7.55,K
+/data/knw/SO2R_AI3_FORMULAV8_ZKUSENY.knw,7.55,K
+/data/knw/SO3.trs,5.68,K
+/data/knw/SO3_AI10_UF1000_ZACATECNIK.knw,6.79,K
+/data/knw/SO3_AI11_MRT5_ZACATECNIK.knw,6.79,K
+/data/knw/SO3_AI1_UF1000_ZACATECNIK.knw,6.79,K
+/data/knw/SO3_AI2_UF1000_ZACATECNIK.knw,6.79,K
+/data/knw/SO3_AI3_UF1000_ZACATECNIK.knw,6.79,K
+/data/knw/SO3_AI4_UF1000_ZACATECNIK.knw,6.79,K
+/data/knw/SO3_AI5_UF1000_ZACATECNIK.knw,6.79,K
+/data/knw/SO3_AI6_UF1000_ZACATECNIK.knw,6.79,K
+/data/knw/SO3_AI7_UF1000_ZACATECNIK.knw,6.79,K
+/data/knw/SO3_AI8_UF1000_ZACATECNIK.knw,6.79,K
+/data/knw/SO3_AI9_UF1000_ZACATECNIK.knw,6.79,K
+/data/knw/SO4.trs,12.5,K
+/data/knw/SO4_AI1_FORMULAXR_PROFESIONAL.knw,15.02,K
+/data/knw/SO4_AI2_FORMULAXR_PROFESIONAL.knw,15.02,K
+/data/knw/SO4_AI3_FORMULAXR_PROFESIONAL.knw,15.02,K
+/data/knw/SO4_AI4_FORMULAXR_PROFESIONAL.knw,15.02,K
+/data/knw/SO4_AI5_FORMULAXR_PROFESIONAL.knw,15.02,K
+/data/knw/SO4_AI6_FORMULAXR_PROFESIONAL.knw,15.02,K
+/data/knw/WE1.trs,14.87,K
+/data/knw/WE1_AI10_FORMULAXR_PROFESIONAL.knw,17.76,K
+/data/knw/WE1_AI10_FZ50GTR_PROFESIONAL.knw,17.8,K
+/data/knw/WE1_AI11_FORMULAV8_PROFESIONAL.knw,17.77,K
+/data/knw/WE1_AI11_FORMULAXR_PROFESIONAL.knw,17.76,K
+/data/knw/WE1_AI11_FZ50GTR_PROFESIONAL.knw,17.8,K
+/data/knw/WE1_AI12_FORMULAV8_PROFESIONAL.knw,17.77,K
+/data/knw/WE1_AI1_FORMULAV8_PROFESIONAL.knw,17.77,K
+/data/knw/WE1_AI1_FORMULAXR_PROFESIONAL.knw,17.76,K
+/data/knw/WE1_AI1_FZ50GTR_PROFESIONAL.knw,17.8,K
+/data/knw/WE1_AI2_FORMULAV8_PROFESIONAL.knw,17.77,K
+/data/knw/WE1_AI2_FORMULAXR_PROFESIONAL.knw,17.76,K
+/data/knw/WE1_AI2_FZ50GTR_PROFESIONAL.knw,17.8,K
+/data/knw/WE1_AI3_FORMULAV8_PROFESIONAL.knw,17.77,K
+/data/knw/WE1_AI3_FORMULAXR_PROFESIONAL.knw,17.76,K
+/data/knw/WE1_AI3_FZ50GTR_PROFESIONAL.knw,17.8,K
+/data/knw/WE1_AI4_FORMULAV8_PROFESIONAL.knw,17.77,K
+/data/knw/WE1_AI4_FORMULAXR_PROFESIONAL.knw,17.76,K
+/data/knw/WE1_AI4_FZ50GTR_PROFESIONAL.knw,17.8,K
+/data/knw/WE1_AI5_FORMULAV8_PROFESIONAL.knw,17.77,K
+/data/knw/WE1_AI5_FORMULAXR_PROFESIONAL.knw,17.76,K
+/data/knw/WE1_AI5_FZ50GTR_PROFESIONAL.knw,17.8,K
+/data/knw/WE1_AI6_FORMULAV8_PROFESIONAL.knw,17.77,K
+/data/knw/WE1_AI6_FORMULAXR_PROFESIONAL.knw,17.76,K
+/data/knw/WE1_AI6_FZ50GTR_PROFESIONAL.knw,17.8,K
+/data/knw/WE1_AI7_FORMULAV8_PROFESIONAL.knw,17.77,K
+/data/knw/WE1_AI7_FORMULAXR_PROFESIONAL.knw,17.76,K
+/data/knw/WE1_AI7_FZ50GTR_PROFESIONAL.knw,17.8,K
+/data/knw/WE1_AI8_FORMULAV8_PROFESIONAL.knw,17.77,K
+/data/knw/WE1_AI8_FORMULAXR_PROFESIONAL.knw,17.76,K
+/data/knw/WE1_AI8_FZ50GTR_PROFESIONAL.knw,17.8,K
+/data/knw/WE1_AI9_FORMULAV8_PROFESIONAL.knw,17.77,K
+/data/knw/WE1_AI9_FORMULAXR_PROFESIONAL.knw,17.76,K
+/data/knw/WE1_AI9_FZ50GTR_PROFESIONAL.knw,17.8,K
+/data/language/Castellano.txt,45.96,K
+/data/language/CatalÅ¯.txt,45.12,K
+/data/language/Cestina.txt,44.44,K
+/data/language/Dansk.txt,42.65,K
+/data/language/Deutsch.txt,45.11,K
+/data/language/English.txt,41.33,K
+/data/language/FranÃ§ais.txt,45.71,K
+/data/language/help.txt,11.55,K
+/data/language/help_Castellano.txt,5.91,K
+/data/language/help_CatalÅ¯.txt,5.04,K
+/data/language/help_Cestina.txt,11.94,K
+/data/language/help_Dansk.txt,11.77,K
+/data/language/help_Deutsch.txt,21.55,K
+/data/language/help_FranÃ§ais.txt,12.72,K
+/data/language/help_Italiano.txt,11.87,K
+/data/language/help_Nederlands.txt,12.11,K
+/data/language/help_Norsk.txt,2.04,K
+/data/language/help_PortuguÅs.txt,2.44,K
+/data/language/help_Suomi.txt,10.24,K
+/data/language/help_TÃ¼rkÃ§e.txt,11.35,K
+/data/language/Italiano.txt,44.04,K
+/data/language/Nederlands.txt,44.23,K
+/data/language/Norsk.txt,43.24,K
+/data/language/PortuguÅs.txt,45.51,K
+/data/language/Suomi.txt,44.9,K
+/data/language/TÃ¼rkÃ§e.txt,42.2,K
+/data/lesson/Acceleration - GTI.lsn,144,B
+/data/lesson/Acceleration - GTI.txt,598,B
+/data/lesson/Acceleration - GTI_Deutsch.txt,691,B
+/data/lesson/Acceleration - MRT.lsn,144,B
+/data/lesson/Acceleration - MRT.txt,252,B
+/data/lesson/Acceleration - MRT_Deutsch.txt,374,B
+/data/lesson/AS1_start.lyt,108,B
+/data/lesson/AS1_testdrive.lyt,76,B
+/data/lesson/AS2_start.lyt,108,B
+/data/lesson/AS2_testdrive.lyt,52,B
+/data/lesson/AS5_start.lyt,124,B
+/data/lesson/AS5_testdrive.lyt,76,B
+/data/lesson/Aston Overtaking - Formula XR.lsn,144,B
+/data/lesson/Aston Overtaking - Formula XR.txt,236,B
+/data/lesson/Aston Overtaking - Formula XR_Deutsch.txt,633,B
+/data/lesson/Aston Overtaking - FXO GTR.lsn,144,B
+/data/lesson/Aston Overtaking - FXO GTR.txt,236,B
+/data/lesson/Aston Overtaking - FXO GTR_Deutsch.txt,633,B
+/data/lesson/Aston Overtaking - RA.lsn,144,B
+/data/lesson/Aston Overtaking - RA.txt,236,B
+/data/lesson/Aston Overtaking - RA_Deutsch.txt,633,B
+/data/lesson/Aston Start - Formula XR.lsn,144,B
+/data/lesson/Aston Start - Formula XR.txt,248,B
+/data/lesson/Aston Start - Formula XR_Deutsch.txt,268,B
+/data/lesson/Aston Start - FXO GTR.lsn,144,B
+/data/lesson/Aston Start - FXO GTR.txt,248,B
+/data/lesson/Aston Start - FXO GTR_Deutsch.txt,268,B
+/data/lesson/Aston Start - RA.lsn,144,B
+/data/lesson/Aston Start - RA.txt,248,B
+/data/lesson/Aston Start - RA_Deutsch.txt,268,B
+/data/lesson/Aston Testdrive - Formula XR.lsn,144,B
+/data/lesson/Aston Testdrive - Formula XR.txt,137,B
+/data/lesson/Aston Testdrive - Formula XR_Deutsch.txt,181,B
+/data/lesson/Aston Testdrive - FXO GTR.lsn,144,B
+/data/lesson/Aston Testdrive - FXO GTR.txt,149,B
+/data/lesson/Aston Testdrive - FXO GTR_Deutsch.txt,181,B
+/data/lesson/Aston Testdrive - RA.lsn,144,B
+/data/lesson/Aston Testdrive - RA.txt,137,B
+/data/lesson/Aston Testdrive - RA_Deutsch.txt,181,B
+/data/lesson/AU1_Fast Slalom.lyt,1.3,K
+/data/lesson/AU1_MRT_AutoX_1.lyt,4.01,K
+/data/lesson/AU1_Quick Chicane.lyt,1.25,K
+/data/lesson/AU1_Slow Slalom.lyt,1.14,K
+/data/lesson/AU1_testdrive.lyt,92,B
+/data/lesson/AU1_Throttle Control#2.lyt,1.61,K
+/data/lesson/AU2_Throttle Control#1.lyt,572,B
+/data/lesson/AU3_accelerate.lyt,252,B
+/data/lesson/AU3_accellong.lyt,1004,B
+/data/lesson/AU3_braking.lyt,436,B
+/data/lesson/AU3_brklong.lyt,1.19,K
+/data/lesson/Autocross Course - MRT.lsn,144,B
+/data/lesson/Autocross Course - MRT.txt,382,B
+/data/lesson/Autocross Course - MRT_Deutsch.txt,188,B
+/data/lesson/BL1_acclong.lyt,196,B
+/data/lesson/BL1_brklong.lyt,188,B
+/data/lesson/BL1_finaltest.lyt,68,B
+/data/lesson/BL1_pitstop.lyt,316,B
+/data/lesson/BL1_start.lyt,108,B
+/data/lesson/BL2_braking.lyt,324,B
+/data/lesson/BL2_slalom.lyt,516,B
+/data/lesson/BL2_testdrive.lyt,76,B
+/data/lesson/BL3_acceleration.lyt,524,B
+/data/lesson/BL3_braking.lyt,1.18,K
+/data/lesson/BL3_carpark.lyt,116,B
+/data/lesson/BL3_Chicane_course.lyt,1.45,K
+/data/lesson/BL3_Fast Slalom.lyt,1.11,K
+/data/lesson/BL3_figure_8.lyt,1.74,K
+/data/lesson/BL3_figure_O.lyt,876,B
+/data/lesson/BL3_Slow Slalom.lyt,1.24,K
+/data/lesson/Blackwood Overtaking - GT Turbo.lsn,144,B
+/data/lesson/Blackwood Overtaking - GT Turbo.txt,361,B
+/data/lesson/Blackwood Overtaking - GT Turbo_Deutsch.txt,633,B
+/data/lesson/Blackwood Overtaking - GTI.lsn,144,B
+/data/lesson/Blackwood Overtaking - GTI.txt,361,B
+/data/lesson/Blackwood Overtaking - GTI_Deutsch.txt,633,B
+/data/lesson/Blackwood Pitstop - GT Turbo.lsn,144,B
+/data/lesson/Blackwood Pitstop - GT Turbo.txt,632,B
+/data/lesson/Blackwood Pitstop - GT Turbo_Deutsch.txt,608,B
+/data/lesson/Blackwood Start - GTI.lsn,144,B
+/data/lesson/Blackwood Start - GTI.txt,248,B
+/data/lesson/Blackwood Start - GTI_Deutsch.txt,268,B
+/data/lesson/Blackwood Testdrive - GT Turbo.lsn,144,B
+/data/lesson/Blackwood Testdrive - GT Turbo.txt,153,B
+/data/lesson/Blackwood Testdrive - GT Turbo_Deutsch.txt,181,B
+/data/lesson/Blackwood Testdrive - GTI.lsn,144,B
+/data/lesson/Blackwood Testdrive - GTI.txt,153,B
+/data/lesson/Blackwood Testdrive - GTI_Deutsch.txt,181,B
+/data/lesson/Braking - GT.lsn,144,B
+/data/lesson/Braking - GT.txt,893,B
+/data/lesson/Braking - GT_Deutsch.txt,1003,B
+/data/lesson/Braking - GTI.lsn,144,B
+/data/lesson/Braking - GTI.txt,893,B
+/data/lesson/Braking - GTI_Deutsch.txt,1005,B
+/data/lesson/Braking - MRT.lsn,144,B
+/data/lesson/Braking - MRT.txt,893,B
+/data/lesson/Braking - MRT_Deutsch.txt,1005,B
+/data/lesson/Chicane Course - FXO.lsn,144,B
+/data/lesson/Chicane Course - FXO.txt,246,B
+/data/lesson/Chicane Course - FXO_Deutsch.txt,328,B
+/data/lesson/Chicane Course - GT Turbo.lsn,144,B
+/data/lesson/Chicane Course - GT Turbo.txt,246,B
+/data/lesson/Chicane Course - GT Turbo_Deutsch.txt,328,B
+/data/lesson/Chicane Course - GT.lsn,144,B
+/data/lesson/Chicane Course - GT.txt,246,B
+/data/lesson/Chicane Course - GT_Deutsch.txt,328,B
+/data/lesson/Chicane Course - GTI.lsn,144,B
+/data/lesson/Chicane Course - GTI.txt,246,B
+/data/lesson/Chicane Course - GTI_Deutsch.txt,328,B
+/data/lesson/Chicane Course - LX4.lsn,144,B
+/data/lesson/Chicane Course - LX4.txt,246,B
+/data/lesson/Chicane Course - LX4_Deutsch.txt,328,B
+/data/lesson/Chicane Course - MRT.lsn,144,B
+/data/lesson/Chicane Course - MRT.txt,206,B
+/data/lesson/Chicane Course - MRT_Deutsch.txt,295,B
+/data/lesson/Chicane Course - RA.lsn,144,B
+/data/lesson/Chicane Course - RA.txt,246,B
+/data/lesson/Chicane Course - RA_Deutsch.txt,328,B
+/data/lesson/Fast Slalom Course - FXO.lsn,144,B
+/data/lesson/Fast Slalom Course - FXO.txt,495,B
+/data/lesson/Fast Slalom Course - FXO_Deutsch.txt,662,B
+/data/lesson/Fast Slalom Course - GT Turbo.lsn,144,B
+/data/lesson/Fast Slalom Course - GT Turbo.txt,495,B
+/data/lesson/Fast Slalom Course - GT Turbo_Deutsch.txt,662,B
+/data/lesson/Fast Slalom Course - LX4.lsn,144,B
+/data/lesson/Fast Slalom Course - LX4.txt,495,B
+/data/lesson/Fast Slalom Course - LX4_Deutsch.txt,662,B
+/data/lesson/Fast Slalom Course - RA.lsn,144,B
+/data/lesson/Fast Slalom Course - RA.txt,403,B
+/data/lesson/Fast Slalom Course - RA_Deutsch.txt,586,B
+/data/lesson/FE2_start.lyt,116,B
+/data/lesson/FE2_test.lyt,76,B
+/data/lesson/FE5_acceleration.lyt,308,B
+/data/lesson/FE5_slalom.lyt,572,B
+/data/lesson/FE5_start.lyt,108,B
+/data/lesson/FE5_test.lyt,76,B
+/data/lesson/FE6_start.lyt,92,B
+/data/lesson/FE6_test.lyt,68,B
+/data/lesson/Fern Bay Overtaking - FXO.lsn,144,B
+/data/lesson/Fern Bay Overtaking - FXO.txt,361,B
+/data/lesson/Fern Bay Overtaking - FXO_Deutsch.txt,633,B
+/data/lesson/Fern Bay Start - FXO.lsn,144,B
+/data/lesson/Fern Bay Start - FXO.txt,248,B
+/data/lesson/Fern Bay Start - FXO_Deutsch.txt,268,B
+/data/lesson/Fern Bay Testdrive - FXO.lsn,144,B
+/data/lesson/Fern Bay Testdrive - FXO.txt,150,B
+/data/lesson/Fern Bay Testdrive - FXO_Deutsch.txt,184,B
+/data/lesson/Highspeed Braking - FXO.lsn,144,B
+/data/lesson/Highspeed Braking - FXO.txt,912,B
+/data/lesson/Highspeed Braking - FXO_Deutsch.txt,1006,B
+/data/lesson/Highspeed Braking - GT Turbo.lsn,144,B
+/data/lesson/Highspeed Braking - GT Turbo.txt,912,B
+/data/lesson/Highspeed Braking - GT Turbo_Deutsch.txt,1006,B
+/data/lesson/Highspeed Braking - LX4.lsn,144,B
+/data/lesson/Highspeed Braking - LX4.txt,894,B
+/data/lesson/Highspeed Braking - LX4_Deutsch.txt,988,B
+/data/lesson/Highspeed Braking - RA.lsn,144,B
+/data/lesson/Highspeed Braking - RA.txt,924,B
+/data/lesson/Highspeed Braking - RA_Deutsch.txt,1006,B
+/data/lesson/KY1_pit.lyt,1.37,K
+/data/lesson/KY1_start.lyt,60,B
+/data/lesson/KY1_testdrive.lyt,84,B
+/data/lesson/KY2_start.lyt,108,B
+/data/lesson/KY2_testdrive.lyt,76,B
+/data/lesson/KY3_start.lyt,108,B
+/data/lesson/KY3_testdrive.lyt,76,B
+/data/lesson/Kyoto Overtaking - FZ50 GTR.lsn,144,B
+/data/lesson/Kyoto Overtaking - FZ50 GTR.txt,236,B
+/data/lesson/Kyoto Overtaking - FZ50 GTR_Deutsch.txt,633,B
+/data/lesson/Kyoto Overtaking - XF GTR.lsn,144,B
+/data/lesson/Kyoto Overtaking - XF GTR.txt,236,B
+/data/lesson/Kyoto Overtaking - XF GTR_Deutsch.txt,633,B
+/data/lesson/Kyoto Start - FZ50 GTR.lsn,144,B
+/data/lesson/Kyoto Start - FZ50 GTR.txt,248,B
+/data/lesson/Kyoto Start - FZ50 GTR_Deutsch.txt,268,B
+/data/lesson/Kyoto Start - XF GTR.lsn,144,B
+/data/lesson/Kyoto Start - XF GTR.txt,248,B
+/data/lesson/Kyoto Start - XF GTR_Deutsch.txt,268,B
+/data/lesson/Kyoto Testdrive - FZ50 GTR.lsn,144,B
+/data/lesson/Kyoto Testdrive - FZ50 GTR.txt,183,B
+/data/lesson/Kyoto Testdrive - FZ50 GTR_Deutsch.txt,216,B
+/data/lesson/Kyoto Testdrive - XF GTR.lsn,144,B
+/data/lesson/Kyoto Testdrive - XF GTR.txt,146,B
+/data/lesson/Kyoto Testdrive - XF GTR_Deutsch.txt,178,B
+/data/lesson/lessons.lll,3.18,K
+/data/lesson/Long Acceleration - GT Turbo.lsn,144,B
+/data/lesson/Long Acceleration - GT Turbo.txt,370,B
+/data/lesson/Long Acceleration - GT Turbo_Deutsch.txt,528,B
+/data/lesson/Long Acceleration - LX4.lsn,144,B
+/data/lesson/Long Acceleration - LX4.txt,500,B
+/data/lesson/Long Acceleration - LX4_Deutsch.txt,597,B
+/data/lesson/Long Acceleration - RA.lsn,144,B
+/data/lesson/Long Acceleration - RA.txt,405,B
+/data/lesson/Long Acceleration - RA_Deutsch.txt,516,B
+/data/lesson/Oval Overtaking - XR GTR.lsn,144,B
+/data/lesson/Oval Overtaking - XR GTR.txt,248,B
+/data/lesson/Oval Overtaking - XR GTR_Deutsch.txt,633,B
+/data/lesson/Oval Pitstop - XR GTR.lsn,144,B
+/data/lesson/Oval Pitstop - XR GTR.txt,521,B
+/data/lesson/Oval Pitstop - XR GTR_Deutsch.txt,555,B
+/data/lesson/Oval Start - XR GTR.lsn,144,B
+/data/lesson/Oval Start - XR GTR.txt,248,B
+/data/lesson/Oval Start - XR GTR_Deutsch.txt,268,B
+/data/lesson/Oval Testdrive - XR GTR.lsn,144,B
+/data/lesson/Oval Testdrive - XR GTR.txt,140,B
+/data/lesson/Oval Testdrive - XR GTR_Deutsch.txt,178,B
+/data/lesson/Rallyx Acceleration - RB4.lsn,144,B
+/data/lesson/Rallyx Acceleration - RB4.txt,194,B
+/data/lesson/Rallyx Acceleration - RB4_Deutsch.txt,296,B
+/data/lesson/Rallyx Braking - GTI.lsn,144,B
+/data/lesson/Rallyx Braking - GTI.txt,207,B
+/data/lesson/Rallyx Braking - GTI_Deutsch.txt,292,B
+/data/lesson/Rallyx Overtaking - GTI.lsn,144,B
+/data/lesson/Rallyx Overtaking - GTI.txt,361,B
+/data/lesson/Rallyx Overtaking - GTI_Deutsch.txt,633,B
+/data/lesson/Rallyx Overtaking - RB4.lsn,144,B
+/data/lesson/Rallyx Overtaking - RB4.txt,361,B
+/data/lesson/Rallyx Overtaking - RB4_Deutsch.txt,633,B
+/data/lesson/Rallyx Overtaking 2 - RB4.lsn,144,B
+/data/lesson/Rallyx Overtaking 2 - RB4.txt,361,B
+/data/lesson/Rallyx Overtaking 2 - RB4_Deutsch.txt,633,B
+/data/lesson/Rallyx Slalom - RB4.lsn,144,B
+/data/lesson/Rallyx Slalom - RB4.txt,573,B
+/data/lesson/Rallyx Slalom - RB4_Deutsch.txt,731,B
+/data/lesson/Rallyx Slow Slalom - GTI.lsn,144,B
+/data/lesson/Rallyx Slow Slalom - GTI.txt,573,B
+/data/lesson/Rallyx Slow Slalom - GTI_Deutsch.txt,731,B
+/data/lesson/Rallyx Start - RB4.lsn,144,B
+/data/lesson/Rallyx Start - RB4.txt,248,B
+/data/lesson/Rallyx Start - RB4_Deutsch.txt,268,B
+/data/lesson/Rallyx Start 2 - RB4.lsn,144,B
+/data/lesson/Rallyx Start 2 - RB4.txt,248,B
+/data/lesson/Rallyx Start 2 - RB4_Deutsch.txt,268,B
+/data/lesson/Rallyx Testdrive - GTI.lsn,144,B
+/data/lesson/Rallyx Testdrive - GTI.txt,153,B
+/data/lesson/Rallyx Testdrive - GTI_Deutsch.txt,191,B
+/data/lesson/Rallyx Testdrive - RB4.lsn,144,B
+/data/lesson/Rallyx Testdrive - RB4.txt,392,B
+/data/lesson/Rallyx Testdrive - RB4_Deutsch.txt,190,B
+/data/lesson/Rallyx Testdrive 2 - RB4.lsn,144,B
+/data/lesson/Rallyx Testdrive 2 - RB4.txt,163,B
+/data/lesson/Rallyx Testdrive 2 - RB4_Deutsch.txt,197,B
+/data/lesson/Slow Slalom Course - GT.lsn,144,B
+/data/lesson/Slow Slalom Course - GT.txt,566,B
+/data/lesson/Slow Slalom Course - GT_Deutsch.txt,709,B
+/data/lesson/Slow Slalom Course - GTI.lsn,144,B
+/data/lesson/Slow Slalom Course - GTI.txt,566,B
+/data/lesson/Slow Slalom Course - GTI_Deutsch.txt,711,B
+/data/lesson/Slow Slalom Course - MRT.lsn,144,B
+/data/lesson/Slow Slalom Course - MRT.txt,565,B
+/data/lesson/Slow Slalom Course - MRT_Deutsch.txt,711,B
+/data/lesson/SO1_start.lyt,92,B
+/data/lesson/SO1_testdrive.lyt,116,B
+/data/lesson/South City Overtaking - LX4.lsn,144,B
+/data/lesson/South City Overtaking - LX4.txt,361,B
+/data/lesson/South City Overtaking - LX4_Deutsch.txt,633,B
+/data/lesson/South City Start - LX4.lsn,144,B
+/data/lesson/South City Start - LX4.txt,248,B
+/data/lesson/South City Start - LX4_Deutsch.txt,268,B
+/data/lesson/South City Testdrive - LX4.lsn,144,B
+/data/lesson/South City Testdrive - LX4.txt,149,B
+/data/lesson/South City Testdrive - LX4_Deutsch.txt,184,B
+/data/lesson/Testdrive - FXO.lsn,144,B
+/data/lesson/Testdrive - FXO.txt,390,B
+/data/lesson/Testdrive - FXO_Deutsch.txt,292,B
+/data/lesson/Testdrive - GT Turbo.lsn,144,B
+/data/lesson/Testdrive - GT Turbo.txt,378,B
+/data/lesson/Testdrive - GT Turbo_Deutsch.txt,500,B
+/data/lesson/Testdrive - GT.lsn,144,B
+/data/lesson/Testdrive - GT.txt,407,B
+/data/lesson/Testdrive - GT_Deutsch.txt,625,B
+/data/lesson/Testdrive - GTI.lsn,144,B
+/data/lesson/Testdrive - GTI.txt,535,B
+/data/lesson/Testdrive - GTI_Deutsch.txt,698,B
+/data/lesson/Testdrive - LX4.lsn,144,B
+/data/lesson/Testdrive - LX4.txt,439,B
+/data/lesson/Testdrive - LX4_Deutsch.txt,292,B
+/data/lesson/Testdrive - MRT.lsn,144,B
+/data/lesson/Testdrive - MRT.txt,591,B
+/data/lesson/Testdrive - MRT_Deutsch.txt,292,B
+/data/lesson/Testdrive - RA.lsn,144,B
+/data/lesson/Testdrive - RA.txt,308,B
+/data/lesson/Testdrive - RA_Deutsch.txt,371,B
+/data/lesson/Throttle Control #1 - GTI.lsn,144,B
+/data/lesson/Throttle Control #1 - GTI.txt,428,B
+/data/lesson/Throttle Control #1 - GTI_Deutsch.txt,576,B
+/data/lesson/Throttle Control #1 - MRT.lsn,144,B
+/data/lesson/Throttle Control #1 - MRT.txt,520,B
+/data/lesson/Throttle Control #1 - MRT_Deutsch.txt,561,B
+/data/lesson/Throttle Control #1 - RA.lsn,144,B
+/data/lesson/Throttle Control #1 - RA.txt,518,B
+/data/lesson/Throttle Control #1 - RA_Deutsch.txt,559,B
+/data/lesson/Throttle Control #2 - FXO.lsn,144,B
+/data/lesson/Throttle Control #2 - FXO.txt,412,B
+/data/lesson/Throttle Control #2 - FXO_Deutsch.txt,587,B
+/data/lesson/Throttle Control #2 - GT Turbo.lsn,144,B
+/data/lesson/Throttle Control #2 - GT Turbo.txt,535,B
+/data/lesson/Throttle Control #2 - GT Turbo_Deutsch.txt,584,B
+/data/lesson/Throttle Control #2 - GT.lsn,144,B
+/data/lesson/Throttle Control #2 - GT.txt,523,B
+/data/lesson/Throttle Control #2 - GT_Deutsch.txt,586,B
+/data/lesson/Throttle Control #2 - GTI.lsn,144,B
+/data/lesson/Throttle Control #2 - GTI.txt,438,B
+/data/lesson/Throttle Control #2 - GTI_Deutsch.txt,590,B
+/data/lesson/Throttle Control #2 - LX4.lsn,144,B
+/data/lesson/Throttle Control #2 - LX4.txt,498,B
+/data/lesson/Throttle Control #2 - LX4_Deutsch.txt,584,B
+/data/lesson/Throttle Control #2 - MRT.lsn,144,B
+/data/lesson/Throttle Control #2 - MRT.txt,498,B
+/data/lesson/Throttle Control #2 - MRT_Deutsch.txt,584,B
+/data/lesson/Throttle Control #2 - RA.lsn,144,B
+/data/lesson/Throttle Control #2 - RA.txt,497,B
+/data/lesson/Throttle Control #2 - RA_Deutsch.txt,583,B
+/data/lesson/WE1_start.lyt,108,B
+/data/lesson/WE1_testdrive.lyt,76,B
+/data/lesson/Westhill Overtaking - FO8.lsn,144,B
+/data/lesson/Westhill Overtaking - FO8.txt,236,B
+/data/lesson/Westhill Overtaking - FO8_Deutsch.txt,633,B
+/data/lesson/Westhill Start - FO8.lsn,144,B
+/data/lesson/Westhill Start - FO8.txt,248,B
+/data/lesson/Westhill Start - FO8_Deutsch.txt,268,B
+/data/lesson/Westhill Testdrive - FO8.lsn,144,B
+/data/lesson/Westhill Testdrive - FO8.txt,152,B
+/data/lesson/Westhill Testdrive - FO8_Deutsch.txt,184,B
+/data/lesson/zzz_acc_gti.jpg,115.94,K
+/data/lesson/zzz_acc_gtt.jpg,116.37,K
+/data/lesson/zzz_acc_lx4.jpg,70.63,K
+/data/lesson/zzz_acc_mrt.jpg,85.7,K
+/data/lesson/zzz_acc_ra.jpg,83.11,K
+/data/lesson/zzz_acc_rb4.jpg,85.81,K
+/data/lesson/zzz_aux_mrt.jpg,101.18,K
+/data/lesson/zzz_bla_gti.jpg,99.7,K
+/data/lesson/zzz_bla_gtt.jpg,94.86,K
+/data/lesson/zzz_brk_fxo.jpg,102.58,K
+/data/lesson/zzz_brk_gt.jpg,124.39,K
+/data/lesson/zzz_brk_gti.jpg,121.77,K
+/data/lesson/zzz_brk_gtt.jpg,101.25,K
+/data/lesson/zzz_brk_lx4.jpg,98.63,K
+/data/lesson/zzz_brk_mrt.jpg,94.79,K
+/data/lesson/zzz_brk_ra.jpg,85.89,K
+/data/lesson/zzz_chi_fxo.jpg,75.64,K
+/data/lesson/zzz_chi_gt.jpg,117.9,K
+/data/lesson/zzz_chi_gti.jpg,118.72,K
+/data/lesson/zzz_chi_gtt.jpg,118.36,K
+/data/lesson/zzz_chi_lx4.jpg,110.45,K
+/data/lesson/zzz_chi_mrt.jpg,92.18,K
+/data/lesson/zzz_chi_ra.jpg,94.64,K
+/data/lesson/zzz_drv_ra.jpg,106.43,K
+/data/lesson/zzz_fer_fxo.jpg,125.8,K
+/data/lesson/zzz_ov2_rb4.jpg,92.54,K
+/data/lesson/zzz_ove_fo8.jpg,80.5,K
+/data/lesson/zzz_ove_fox.jpg,93.48,K
+/data/lesson/zzz_ove_fxo.jpg,129.87,K
+/data/lesson/zzz_ove_fxr.jpg,105.57,K
+/data/lesson/zzz_ove_gti.jpg,89.07,K
+/data/lesson/zzz_ove_gtt.jpg,121.7,K
+/data/lesson/zzz_ove_lx4.jpg,101.98,K
+/data/lesson/zzz_ove_ra.jpg,113.2,K
+/data/lesson/zzz_ove_xfr.jpg,95.02,K
+/data/lesson/zzz_ove_xrr.jpg,113.13,K
+/data/lesson/zzz_over_fzr.jpg,94.13,K
+/data/lesson/zzz_pit_xrr.jpg,98.36,K
+/data/lesson/zzz_pitstop.jpg,139.98,K
+/data/lesson/zzz_rbr_gti.jpg,101.03,K
+/data/lesson/zzz_rov_gti.jpg,108.43,K
+/data/lesson/zzz_rov_rb4.jpg,70.87,K
+/data/lesson/zzz_rsl_gti.jpg,128.09,K
+/data/lesson/zzz_rts_gti.jpg,124.12,K
+/data/lesson/zzz_rts_rb4.jpg,118.21,K
+/data/lesson/zzz_sct_lx4.jpg,90.69,K
+/data/lesson/zzz_sla_fxo.jpg,105.81,K
+/data/lesson/zzz_sla_gt.jpg,98.24,K
+/data/lesson/zzz_sla_gti.jpg,95.71,K
+/data/lesson/zzz_sla_gtt.jpg,118.27,K
+/data/lesson/zzz_sla_lx4.jpg,100.66,K
+/data/lesson/zzz_sla_mrt.jpg,83.49,K
+/data/lesson/zzz_sla_ra.jpg,88.64,K
+/data/lesson/zzz_sla_rb4.jpg,80.6,K
+/data/lesson/zzz_st1_rb4.jpg,92.63,K
+/data/lesson/zzz_st2_rb4.jpg,72.31,K
+/data/lesson/zzz_sta_fo8.jpg,87.39,K
+/data/lesson/zzz_sta_fox.jpg,87.4,K
+/data/lesson/zzz_sta_fxo.jpg,97.85,K
+/data/lesson/zzz_sta_fxr.jpg,119.01,K
+/data/lesson/zzz_sta_fzr.jpg,95.94,K
+/data/lesson/zzz_sta_gti.jpg,96.92,K
+/data/lesson/zzz_sta_lx4.jpg,118.45,K
+/data/lesson/zzz_sta_ra.jpg,130.23,K
+/data/lesson/zzz_sta_xfr.jpg,102.17,K
+/data/lesson/zzz_sta_xrr.jpg,84.73,K
+/data/lesson/zzz_te2_rb4.jpg,77.6,K
+/data/lesson/zzz_tes_fo8.jpg,83.86,K
+/data/lesson/zzz_tes_fox.jpg,94.13,K
+/data/lesson/zzz_tes_fxo.jpg,80.49,K
+/data/lesson/zzz_tes_fxr.jpg,70.08,K
+/data/lesson/zzz_tes_fzr.jpg,96.51,K
+/data/lesson/zzz_tes_gt.jpg,114.54,K
+/data/lesson/zzz_tes_gti.jpg,115.54,K
+/data/lesson/zzz_tes_gtt.jpg,115.3,K
+/data/lesson/zzz_tes_lx4.jpg,69.77,K
+/data/lesson/zzz_tes_mrt.jpg,89.13,K
+/data/lesson/zzz_tes_ra.jpg,86.09,K
+/data/lesson/zzz_tes_xfr.jpg,100.71,K
+/data/lesson/zzz_tes_xrr.jpg,93.54,K
+/data/lesson/zzz_th1_gti.jpg,90.89,K
+/data/lesson/zzz_th1_mrt.jpg,103.84,K
+/data/lesson/zzz_th1_ra.jpg,116.96,K
+/data/lesson/zzz_th2_fxo.jpg,90.5,K
+/data/lesson/zzz_th2_gt.jpg,99.27,K
+/data/lesson/zzz_th2_gti.jpg,102.84,K
+/data/lesson/zzz_th2_gtt.jpg,110.97,K
+/data/lesson/zzz_th2_lx4.jpg,92.87,K
+/data/lesson/zzz_th2_mrt.jpg,96.71,K
+/data/lesson/zzz_th2_ra.jpg,110.45,K
+/data/misc/bans.ban,16,B
+/data/misc/cfg.clb,268,B
+/data/misc/drv.nam,444,B
+/data/misc/f1.xxx,24,B
+/data/misc/f2.xxx,176,B
+/data/misc/f3.xxx,56,B
+/data/misc/F8.cvw,52,B
+/data/misc/fkeys.msg,1.01,K
+/data/misc/FO.cvw,52,B
+/data/misc/FZ.cvw,52,B
+/data/misc/MR.cvw,52,B
+/data/misc/Stan.ply,676,B
+/data/misc/wave.inf,112,B
+/data/move/sit_fz50.ban,1.48,K
+/data/move/sit_fz50_F.ban,1.48,K
+/data/move/sit_LX.ban,1.48,K
+/data/move/sit_LX_F.ban,1.48,K
+/data/move/sit_saloon.ban,1.48,K
+/data/move/sit_saloon_F.ban,1.48,K
+/data/move/sit_uf1000.ban,1.48,K
+/data/move/sit_uf1000_F.ban,1.48,K
+/data/move/sit_xfgti.ban,1.48,K
+/data/move/sit_xfgti_F.ban,1.48,K
+/data/move/steer_fsae.ban,11.68,K
+/data/move/steer_fsae_f.ban,11.68,K
+/data/move/steer_fxr.ban,17.5,K
+/data/move/steer_fxr_F.ban,17.5,K
+/data/move/steer_fz50.ban,26.25,K
+/data/move/steer_fz50_F.ban,26.25,K
+/data/move/steer_fzgtr.ban,23.33,K
+/data/move/steer_fzgtr_F.ban,23.33,K
+/data/move/steer_gtr.ban,23.33,K
+/data/move/steer_gtr_F.ban,23.33,K
+/data/move/steer_LX.ban,26.25,K
+/data/move/steer_LX_f.ban,26.25,K
+/data/move/steer_saloon.ban,26.25,K
+/data/move/steer_saloon_F.ban,26.25,K
+/data/move/steer_UF1000.ban,26.25,K
+/data/move/steer_UF1000_F.ban,26.25,K
+/data/move/steer_xfgti.ban,26.25,K
+/data/move/steer_xfgti_f.ban,26.25,K
+/data/move/steer_xfgtr.ban,26.25,K
+/data/move/steer_xfgtr_F.ban,26.25,K
+/data/ogg/entry.ogg,816.09,K
+/data/ogg/radio.rad,96,B
+/data/ogg/setupscreenloop.ogg,943,K
+/data/pic/bkg_credits.jpg,75.9,K
+/data/pic/bkg_entry.jpg,158.86,K
+/data/pic/bkg_garage.jpg,11.31,K
+/data/pic/bkg_lesson.jpg,11.31,K
+/data/pic/bkg_multi.jpg,153.6,K
+/data/pic/bkg_options.jpg,72.71,K
+/data/pic/bkg_setup.jpg,47.01,K
+/data/pic/bkg_track.jpg,125.45,K
+/data/pic/bkg_training.jpg,149.43,K
+/data/pic/Cityskyday.raw,768,K
+/data/pic/GLOVEB.jpg,31.34,K
+/data/pic/GLOVEG.jpg,29.67,K
+/data/pic/HE_Marshall.jpg,8.59,K
+/data/pic/JAskyday1.raw,3,M
+/data/pic/NGrignon.raw,3,M
+/data/pic/NGrignonALP24.raw,1,M
+/data/pic/Sky_overcast.raw,3,M
+/data/pic/Sky_overcast3.raw,3,M
+/data/pic/SKY_semisun.raw,3,M
+/data/pic/SKY_semisun5.raw,3,M
+/data/pic/SKY_semisun7.raw,3,M
+/data/pic/Sky_sunset.raw,3,M
+/data/pic/Sky_sunset4.raw,3,M
+/data/pic/Skycloudysnst2.raw,3,M
+/data/pic/Skyovercast10.raw,3,M
+/data/pic/Skyovercast6.raw,3,M
+/data/pic/Skysunny6.raw,3,M
+/data/pic/Skysunny7.raw,3,M
+/data/pic/small_01.jpg,57.71,K
+/data/pic/small_02.jpg,43.91,K
+/data/pic/small_03.jpg,55.98,K
+/data/pic/small_04.jpg,44.47,K
+/data/pic/small_05.jpg,52.38,K
+/data/pic/small_06.jpg,42.59,K
+/data/pic/small_07.jpg,44.32,K
+/data/pic/small_08.jpg,43.32,K
+/data/pic/small_09.jpg,54.7,K
+/data/pic/small_10.jpg,50.64,K
+/data/pic/small_11.jpg,46.52,K
+/data/pic/small_12.jpg,57.05,K
+/data/pic/small_13.jpg,38.9,K
+/data/pic/small_14.jpg,49.09,K
+/data/pic/SUITB.jpg,52.42,K
+/data/pic/SUITG.jpg,56.01,K
+/data/pic/SUITO.jpg,20.22,K
+/data/pic/SUITR.jpg,51.01,K
+/data/pic/SUITX.jpg,46.82,K
+/data/pic/Suncloudy1.raw,3,M
+/data/pic/sunsetoc1.raw,3,M
+/data/pic/x_FO8.jpg,21.23,K
+/data/pic/x_FOX.jpg,20.54,K
+/data/pic/x_FXO.jpg,26.13,K
+/data/pic/x_FXR.jpg,32.42,K
+/data/pic/x_FZ5.jpg,21.26,K
+/data/pic/x_FZR.jpg,29.51,K
+/data/pic/x_LX4.jpg,16.28,K
+/data/pic/x_LX6.jpg,17.64,K
+/data/pic/x_MRT.jpg,12.28,K
+/data/pic/x_RAC.jpg,19.07,K
+/data/pic/x_RB4.jpg,22.41,K
+/data/pic/x_UF1.jpg,18.41,K
+/data/pic/x_UFR.jpg,20.86,K
+/data/pic/x_XFG.jpg,20.55,K
+/data/pic/x_XFR.jpg,23.42,K
+/data/pic/x_XRG.jpg,21.09,K
+/data/pic/x_XRR.jpg,29.3,K
+/data/pic/x_XRT.jpg,24.21,K
+/data/settings/FORMULA V8_4P LFS.col,56,B
+/data/settings/FORMULA V8_LFSNL.col,56,B
+/data/settings/FORMULA V8_LFSW.col,56,B
+/data/settings/FORMULA V8_race_1.set,132,B
+/data/settings/FORMULA V8_SEV Systems.col,56,B
+/data/settings/FORMULA V8_st.col,56,B
+/data/settings/FORMULA V8_st.set,132,B
+/data/settings/FORMULA XR_4P LFS.col,56,B
+/data/settings/FORMULA XR_LFSNL.col,56,B
+/data/settings/FORMULA XR_race_1.set,132,B
+/data/settings/FORMULA XR_sta.col,56,B
+/data/settings/FXO GTR_4P LFS.col,56,B
+/data/settings/FXO GTR_ATL.col,56,B
+/data/settings/FXO GTR_BOVINIUM_10.col,56,B
+/data/settings/FXO GTR_BOVINIUM_9.col,56,B
+/data/settings/FXO GTR_HIBITE_125.col,56,B
+/data/settings/FXO GTR_HIBITE_126.col,56,B
+/data/settings/FXO GTR_LFSNL.col,56,B
+/data/settings/FXO GTR_LFSW.col,56,B
+/data/settings/FXO GTR_race_1.set,132,B
+/data/settings/FXO GTR_st.col,56,B
+/data/settings/FXO TURBO_4P LFS.col,56,B
+/data/settings/FXO TURBO_LFSNL.col,56,B
+/data/settings/FXO TURBO_LFSW.col,56,B
+/data/settings/FXO TURBO_race_1.set,132,B
+/data/settings/FZ50 GTR_4P LFS.col,56,B
+/data/settings/FZ50 GTR_ATL.col,56,B
+/data/settings/FZ50 GTR_INJEXT_72.col,56,B
+/data/settings/FZ50 GTR_INJEXT_73.col,56,B
+/data/settings/FZ50 GTR_LFSNL.col,56,B
+/data/settings/FZ50 GTR_LFSW.col,56,B
+/data/settings/FZ50 GTR_race_1.set,132,B
+/data/settings/FZ50 GTR_ST.col,56,B
+/data/settings/FZ50 GTR_TAKAI_BLK.col,56,B
+/data/settings/FZ50 GTR_TAKAI_RED.col,56,B
+/data/settings/FZ50_4P LFS.col,56,B
+/data/settings/FZ50_LFSNL.col,56,B
+/data/settings/FZ50_LFSW_52.col,56,B
+/data/settings/FZ50_LFSW_53.col,56,B
+/data/settings/FZ50_race_1.set,132,B
+/data/settings/LX4_4P LFS.col,56,B
+/data/settings/LX4_LFSNL.col,56,B
+/data/settings/LX4_race_1.set,132,B
+/data/settings/LX6_4P LFS.col,56,B
+/data/settings/LX6_LFSNL.col,56,B
+/data/settings/LX6_race_1.set,132,B
+/data/settings/MRT5_4P LFS.col,56,B
+/data/settings/MRT5_LFSNL.col,56,B
+/data/settings/MRT5_race_1.set,132,B
+/data/settings/MRT5_ST.col,56,B
+/data/settings/RA_4P LFS.col,56,B
+/data/settings/RA_LFSNL.col,56,B
+/data/settings/RA_LFSW.col,56,B
+/data/settings/RA_race_1.set,132,B
+/data/settings/RB4 GT_4P LFS.col,56,B
+/data/settings/RB4 GT_LFSNL.col,56,B
+/data/settings/RB4 GT_race_1.set,132,B
+/data/settings/UF 1000_4P LFS.col,56,B
+/data/settings/UF 1000_cab.col,56,B
+/data/settings/UF 1000_kindergarten.col,56,B
+/data/settings/UF 1000_LFSNL.col,56,B
+/data/settings/UF 1000_LFSW.col,56,B
+/data/settings/UF 1000_petepizza.col,56,B
+/data/settings/UF 1000_race_1.set,132,B
+/data/settings/UF 1000_st.col,56,B
+/data/settings/UF GTR_4P LFS.col,56,B
+/data/settings/UF GTR_LFSNL.col,56,B
+/data/settings/UF GTR_LFSW.col,56,B
+/data/settings/UF GTR_race_1.set,132,B
+/data/settings/UF GTR_RSC1.col,56,B
+/data/settings/UF GTR_RSC2.col,56,B
+/data/settings/UF GTR_sta.col,56,B
+/data/settings/XF GTI_4P LFS.col,56,B
+/data/settings/XF GTI_LFSNL.col,56,B
+/data/settings/XF GTI_LFSW.col,56,B
+/data/settings/XF GTI_race_1.set,132,B
+/data/settings/XF GTR_4P LFS.col,56,B
+/data/settings/XF GTR_LFSNL.col,56,B
+/data/settings/XF GTR_LFSW.col,56,B
+/data/settings/XF GTR_race_1.set,132,B
+/data/settings/XR GT TURBO_4P LFS.col,56,B
+/data/settings/XR GT TURBO_LFSNL.col,56,B
+/data/settings/XR GT TURBO_LFSW.col,56,B
+/data/settings/XR GT TURBO_race_1.set,132,B
+/data/settings/XR GT_4P LFS.col,56,B
+/data/settings/XR GT_LFSNL.col,56,B
+/data/settings/XR GT_race_1.set,132,B
+/data/settings/XR GTR_4P LFS.col,56,B
+/data/settings/XR GTR_ATL.col,56,B
+/data/settings/XR GTR_DRIFT.col,56,B
+/data/settings/XR GTR_LFSNL.col,56,B
+/data/settings/XR GTR_LFSW.col,56,B
+/data/settings/XR GTR_race_1.set,132,B
+/data/settings/XR GTR_SCAVIER_53.col,56,B
+/data/settings/XR GTR_SCAVIER_54.col,56,B
+/data/skins/FO8_4P_lfs.jpg,115.52,K
+/data/skins/FO8_DEFAULT.jpg,54.93,K
+/data/skins/FO8_E_B.jpg,86.18,K
+/data/skins/FO8_Gene6.jpg,87.93,K
+/data/skins/FO8_LFSNL.jpg,139.44,K
+/data/skins/FO8_LFSW.jpg,209.4,K
+/data/skins/FO8_Scavier.jpg,70.1,K
+/data/skins/FO8_SEV_Systems.jpg,53.92,K
+/data/skins/FO8_Tico.jpg,86.67,K
+/data/skins/FOX_4P_lfs.jpg,126.93,K
+/data/skins/FOX_DEFAULT.jpg,53.72,K
+/data/skins/FOX_LFSNL.jpg,134.95,K
+/data/skins/FOX_McGill_Black.jpg,72.31,K
+/data/skins/FOX_McGill_Blue.jpg,85.05,K
+/data/skins/FOX_McGill_Red.jpg,91.28,K
+/data/skins/FOX_RSC_Blue.jpg,166.28,K
+/data/skins/FOX_RSC_Green.jpg,170.13,K
+/data/skins/FOX_RSC_Red.jpg,160.73,K
+/data/skins/FOX_Scavier.jpg,52.2,K
+/data/skins/FXO_4P_lfs.jpg,114.29,K
+/data/skins/FXO_DEFAULT.jpg,63.95,K
+/data/skins/FXO_LFSNL.jpg,125.78,K
+/data/skins/FXO_LFSW.jpg,202.49,K
+/data/skins/FXR_4P_lfs.jpg,122.98,K
+/data/skins/FXR_ATL.jpg,214.09,K
+/data/skins/FXR_BOVINIUM_10.jpg,135.64,K
+/data/skins/FXR_BOVINIUM_9.jpg,135.66,K
+/data/skins/FXR_DEFAULT.jpg,62.33,K
+/data/skins/FXR_HIBITE_125.jpg,146.23,K
+/data/skins/FXR_HIBITE_126.jpg,148.65,K
+/data/skins/FXR_LFSNL.jpg,131.42,K
+/data/skins/FXR_LFSW.jpg,189.26,K
+/data/skins/FZ5_4P_lfs.jpg,115.08,K
+/data/skins/FZ5_DEFAULT.jpg,64.7,K
+/data/skins/FZ5_LFSNL.jpg,121.56,K
+/data/skins/FZ5_LFSW_52.jpg,181.43,K
+/data/skins/FZ5_LFSW_53.jpg,188.03,K
+/data/skins/FZR_4P_lfs.jpg,117.19,K
+/data/skins/FZR_ATL.jpg,212.18,K
+/data/skins/FZR_DEFAULT.jpg,70.01,K
+/data/skins/FZR_INJEXT_72.jpg,97.31,K
+/data/skins/FZR_INJEXT_73.jpg,97.8,K
+/data/skins/FZR_LFSNL.jpg,133.57,K
+/data/skins/FZR_LFSW.jpg,184.42,K
+/data/skins/FZR_TAKAI_BLK.jpg,106.01,K
+/data/skins/FZR_TAKAI_RED.jpg,141.05,K
+/data/skins/HEL_4P_lfs.jpg,22.84,K
+/data/skins/HEL_DEFAULT.jpg,15.7,K
+/data/skins/HEL_ESL.jpg,25.12,K
+/data/skins/HEL_HiBite_PRO.jpg,23.05,K
+/data/skins/HEL_Injext_PRO.jpg,22.15,K
+/data/skins/HEL_Injext_PRO_B.jpg,22.67,K
+/data/skins/HEL_KATT_PRO.jpg,23,K
+/data/skins/HEL_LFSNL.jpg,66.75,K
+/data/skins/HEL_Redexx_PRO.jpg,21.23,K
+/data/skins/HEL_Scavier_PRO.jpg,21.73,K
+/data/skins/HEL_SEV_PRO.jpg,24.78,K
+/data/skins/HEL_T-Fone_PRO.jpg,21.92,K
+/data/skins/HEL_Takai_Black.jpg,13.28,K
+/data/skins/HEL_Takai_Blue.jpg,16.84,K
+/data/skins/HEL_Takai_RSC.jpg,18.09,K
+/data/skins/HEL_Volante_PRO.jpg,24.63,K
+/data/skins/LX4_4P_lfs.jpg,113.58,K
+/data/skins/LX4_DEFAULT.jpg,68.18,K
+/data/skins/LX4_LFSNL.jpg,150.88,K
+/data/skins/LX6_4P_lfs.jpg,115.88,K
+/data/skins/LX6_DEFAULT.jpg,68.18,K
+/data/skins/LX6_LFSNL.jpg,151.17,K
+/data/skins/MRT_4P_lfs.jpg,89.93,K
+/data/skins/MRT_Black.jpg,116.38,K
+/data/skins/MRT_Blue.jpg,195.6,K
+/data/skins/MRT_DEFAULT.jpg,68.16,K
+/data/skins/MRT_Green.jpg,193.64,K
+/data/skins/MRT_LFSNL.jpg,124.64,K
+/data/skins/MRT_McGill.jpg,190.83,K
+/data/skins/MRT_RSC_Blue.jpg,174.65,K
+/data/skins/MRT_RSC_Green.jpg,160.61,K
+/data/skins/MRT_RSC_Grey.jpg,143.27,K
+/data/skins/MRT_RSC_Red.jpg,191.61,K
+/data/skins/RAC_4P_lfs.jpg,115.71,K
+/data/skins/RAC_DEFAULT.jpg,74.33,K
+/data/skins/RAC_LFSNL.jpg,133.71,K
+/data/skins/RAC_LFSW.jpg,198.56,K
+/data/skins/RB4_4P_lfs.jpg,103.1,K
+/data/skins/RB4_DEFAULT.jpg,61.6,K
+/data/skins/RB4_LFSNL.jpg,157.2,K
+/data/skins/UF1_4P_lfs.jpg,116.09,K
+/data/skins/UF1_CAB.jpg,157.48,K
+/data/skins/UF1_DEFAULT.jpg,52.65,K
+/data/skins/UF1_kindergarten.jpg,105.97,K
+/data/skins/UF1_LFSNL.jpg,123.14,K
+/data/skins/UF1_LFSW.jpg,228.3,K
+/data/skins/UF1_petepizza.jpg,108.92,K
+/data/skins/UFR_4P_lfs.jpg,114.96,K
+/data/skins/UFR_DEFAULT.jpg,66.64,K
+/data/skins/UFR_LFSNL.jpg,115.5,K
+/data/skins/UFR_LFSW.jpg,167.94,K
+/data/skins/UFR_RSC1.jpg,153.89,K
+/data/skins/UFR_RSC2.jpg,248.05,K
+/data/skins/XFG_4P_lfs.jpg,121.63,K
+/data/skins/XFG_DEFAULT.jpg,58.85,K
+/data/skins/XFG_LFSNL.jpg,128.97,K
+/data/skins/XFG_LFSW.jpg,195,K
+/data/skins/XFR_4P_lfs.jpg,115.25,K
+/data/skins/XFR_DEFAULT.jpg,58.53,K
+/data/skins/XFR_LFSNL.jpg,127.28,K
+/data/skins/XFR_LFSW.jpg,180.48,K
+/data/skins/XRG_4P_lfs.jpg,108.8,K
+/data/skins/XRG_DEFAULT.jpg,57.5,K
+/data/skins/XRG_LFSNL.jpg,116.23,K
+/data/skins/XRR_4P_lfs.jpg,123.87,K
+/data/skins/XRR_ATL.jpg,226.5,K
+/data/skins/XRR_DEFAULT.jpg,67.37,K
+/data/skins/XRR_DRIFT.jpg,185.47,K
+/data/skins/XRR_LFSNL.jpg,130.87,K
+/data/skins/XRR_LFSW.jpg,129.34,K
+/data/skins/XRR_SCAVIER_53.jpg,129.74,K
+/data/skins/XRR_SCAVIER_54.jpg,129.8,K
+/data/skins/XRT_4P_lfs.jpg,114.14,K
+/data/skins/XRT_DEFAULT.jpg,59.5,K
+/data/skins/XRT_LFSNL.jpg,124.66,K
+/data/skins/XRT_LFSW.jpg,173.97,K
+/data/snd/ButtonClick.raw,2.39,K
+/data/snd/DumpValve.raw,19.58,K
+/data/snd/Error.raw,172.15,K
+/data/snd/FinishRace.raw,1.13,M
+/data/snd/HORN1.raw,14.04,K
+/data/snd/HORN2.raw,7.55,K
+/data/snd/HORN3.raw,69,K
+/data/snd/HORN4.raw,32.38,K
+/data/snd/HORN5.raw,64.47,K
+/data/snd/InvalidKey.raw,7.9,K
+/data/snd/Message.raw,172.01,K
+/data/snd/Road.raw,101.39,K
+/data/snd/ScrapeHard.raw,110.26,K
+/data/snd/ScrapeSoft.raw,107.58,K
+/data/snd/SkidDirt.raw,107.58,K
+/data/snd/SkidGrass.raw,151.51,K
+/data/snd/SkidRoadHeavyMajor.raw,143.44,K
+/data/snd/SkidRoadHeavyMinor.raw,84.27,K
+/data/snd/SkidRoadHeavyPre.raw,76.68,K
+/data/snd/SkidRoadLight.raw,80.55,K
+/data/snd/SkidSand.raw,34.5,K
+/data/snd/SysMessage.raw,42.75,K
+/data/snd/Wind.raw,271,K
+/data/snd/WindExternal.raw,273.86,K
+/data/snd/WinRace.raw,1010.31,K
+/data/spr/temp.spr,8.14,K
+/data/spr/unnamed_AS5_UFR.spr,1.26,M
+/data/spr/unnamed_BL1_FO8_VYHRAL JSTE.spr,756.69,K
+/data/spr/unnamed_BL1_FOX_VYHRAL JSTE.spr,16.09,M
+/data/spr/unnamed_BL1_FZR.spr,1.59,M
+/data/spr/unnamed_FE4_FOX.spr,183.99,K
+/data/spr/unnamed_FE4_FOX_2.spr,848.38,K
+/data/spr/unnamed_FE4_FOX_VYHRAL JSTE.spr,10.12,M
+/data/spr/unnamed_KY1_FO8.spr,1.28,M
+/data/spr/unnamed_KY1_FZR_VYHRAL JSTE.spr,3.66,M
+/data/spr/unnamed_SO3_UFR.spr,714.23,K
+/data/spr/unnamed_SO4_FOX_VYHRAL JSTE.spr,3.45,M
+/data/veh/F8.vob,65.95,K
+/data/veh/FO.vob,66.48,K
+/data/veh/FX.vob,113.49,K
+/data/veh/FZ.vob,110.18,K
+/data/veh/LX.vob,78.61,K
+/data/veh/MR.vob,32.8,K
+/data/veh/RA.vob,93.75,K
+/data/veh/RB.vob,55.95,K
+/data/veh/UF.vob,65.27,K
+/data/veh/XF.vob,97.45,K
+/data/veh/XR.vob,137.52,K
+/data/wld/AS.lgh,22.65,M
+/data/wld/AS.lok,2.65,M
+/data/wld/AU.lgh,2.36,M
+/data/wld/AU.lok,982.65,K
+/data/wld/BL.lgh,15.12,M
+/data/wld/Blackwood.wld,2.55,M
+/data/wld/FE.lgh,29.57,M
+/data/wld/FE.lok,2.68,M
+/data/wld/KY.lgh,19.97,M
+/data/wld/KY.lok,2.79,M
+/data/wld/SO.lgh,22.44,M
+/data/wld/SO.lok,3.55,M
+/data/wld/WE.lgh,8.5,M
+/data/wld/WE.lok,1.23,M
+/deb.log,752,B
+/docs/Autocross.txt,2.15,K
+/docs/InSim.txt,25.04,K
+/docs/keys.pdf,82.55,K
+/docs/keys_deutsch.pdf,87.75,K
+/interface_cfg.txt,297,B
+/LFS.exe,1.44,M
+/README.txt,14.78,K
+/Unlocker.exe,52,K

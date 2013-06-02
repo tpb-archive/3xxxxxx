@@ -1,0 +1,37 @@
+X3: The Reunion (UK Dvd edition)
+---------------
+
+Whats included:
+
+- X3: The Reunion image (Alcohol 120% (Split up into 650mb files)) 
+- How to get it working instructions (Working)
+- SR7.Stop_1.0.exe
+- sfcure01 / sfcure03_64 (for 64 bit)
+- sfnightmare
+
+Whats needed:
+
+- 1.2.1.0 patch, get it from http://www.egosoft.com/download/x3/patches_en.php
+
+Instructions:
+-------------
+1) Unplug all cd/dvd drives
+2) Extract the contents of the .rar file
+3) Use Alcohol 120% to mount the image, 1 virtual drive only
+4) Extract sfcure01.zip or sfcure03_x64.zip for 64 bit processors
+5) go into a command console and run sfcures !start.bat
+6) load SFnightmare, hit disable node, disable cd, disable node
+7) Install the game
+8) Get the 1.2.1.0 patch and install it
+9) run the game, it will ask to reboot, reboot the comp
+10) Once restarted don't run the game yet
+11) go into a command console and run sfcures !start.bat
+12) load SFnightmare, hit disable node, disable cd, disable node
+13) get then load up the SR7.Stop_1.0.exe and hide virtual drives
+14) Play the game!
+
+It isn't necessary to keep the command prompt or sfnightmare open to run the game, just keep the CD/DVD drives unplugged
+
+No CD-Key is needed
+
+This should work if you follow it precisely, it does for me

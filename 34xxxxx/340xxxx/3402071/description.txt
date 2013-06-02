@@ -1,0 +1,162 @@
+// Copyright (C) 2003 Edgar Hucek<hostmaster@ed-soft.at> 
+// 
+// This program is free software; you can redistribute it and/or modify it 
+// under the terms of the GNU General Public License as published by the 
+// Free Software Foundation; either version 2 of the License, or (at your 
+// option) any later version. 
+// 
+// This program is distributed in the hope that it will be useful, but 
+// WITHOUT ANY WARRANTY; without even the implied warranty of 
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General 
+// Public License for more details. 
+// 
+// Xbox is a trademark or registered trademark of Microsoft Corporation. 
+// No relationship between the author(s) and Microsoft Corporation exists or is 
+// implied. 
+
+This is XEBIAN a debian system for 
+the XBOX (tm) and PC. 
+
+You get one main isofile : 
+
+VERSION.iso: 
+
+The Version could be for example : 
+
+1.1.0-xbox.iso. 
+
+This image is for installing. 
+
+On the iso image you have 2 additional 
+iso images : 
+
+boot_hdd.iso: 
+
+This image is for starting an native 
+partition installation. 
+
+boot_fatx_e.iso: 
+
+This image is for booting an installation 
+from the e: partition. 
+
+For burning the cd you can use cdrecord as follow: 
+
+cdrecord -dev=0,0,0 -dao -driveropts=burnfree -speed=4 <image> 
+
+For Example : 
+
+cdrecord -dev=0,0,0 -dao -driveropts=burnfree -speed=4 1.1.0-xbox.iso. 
+
+If you dont know the devicenumber of your burner use 
+
+cdrecord -scanbus 
+
+Default netconfig of the Debian cd after the first startup. 
+IP : 192.168.0.10 
+NETMASK : 255.255.255.0 
+
+Users and passwords : 
+
+live/live 
+root/xebian 
+
+
+Starting the installation : 
+
+If you have burned the install image boot it on your 
+XBox and wait until the graphical environment is started. 
+At this point you have the coice between an local 
+installation via usb keyboard, xpad or using the network. 
+For using the network you need an ssh client to connect 
+to the XBox. 
+For remote installation : 
+For the login use the username root and the password 
+xebian for login. 
+For a local installation: 
+Become the superuser. You can make this with: 
+su - 
+or 
+ssh root@localhost 
+For the login use the username root and the password 
+xebian for login. 
+The next step is to start the installation 
+programm. It is called XBOXLinuxInstall . Here you can select 
+the installation method. 
+
+"Installing XBOXLinux inside the Game Partition": 
+
+This installs linux in an file on the e: partition. 
+If you select this you will be asked for the filesize of 
+the swap and the rootfs file. 
+The maximum filesize for the rootfs is 2000 MB. 
+
+"Installing XBOXLinux in the unused space of the HDD": 
+
+This will install linux in a native partition after the e: 
+partition. This partition is also called f:. The original f: 
+partition will be overwritten. So backup data if you have 
+some on it. 
+
+Now the installation begins. This take some time. 
+Wait until the next dialog apears. 
+After the copy of the files is finished the installer ask 
+you some basic questions of the networksetup. 
+
+Now you can reboot the XBox and burn the right bootcd or 
+use the files on e:debian. 
+
+Remember: 
+
+boot_fatx_e.iso -> Game Partition installation 
+boot_hdd.iso -> unused space of the HDD 
+
+Or use the files on e:debian  
+
+Autologon. 
+
+To dissable the autologon edit the file /etc/inittab and serach for 
+the lines from: 
+
+1:12345:respawn:/sbin/mingetty --noclear --autologin live tty1 
+#1:2345:respawn:/sbin/getty 38400 tty1 
+
+to : 
+
+#1:12345:respawn:/sbin/mingetty --noclear --autologin live tty1 
+1:2345:respawn:/sbin/getty 38400 tty1 
+
+If you wanna have the MCE mode then change the line : 
+
+1:12345:respawn:/sbin/mingetty --noclear --autologin live tty1 
+
+to 
+
+1:12345:respawn:/sbin/mingetty --noclear --autologin mce tty1 
+
+The CD also contains the contruction kit for a new livecd. 
+It's in the file xbmake.tar.gz. 
+
+BIG FAT WARNING : 
+
+After the first boot login as root and change 
+the passwords of the following users : 
+
+root live mce 
+
+You can do this by running the command : 
+
+passwd <username> 
+
+If you don't do this, you let a big security hole 
+open. Everyone knows the passwdord of this three 
+users. 
+
+Hint : 
+
+If you run the live CD, don't mount anything on 
+/mnt . This wi'll stop working of the livecd. 
+Make a directory in /mnt and mount your things 
+there.
+
+For Help with this go to http://www.xbox360hackers.co.uk/viewtopic.php?p=4044#4044

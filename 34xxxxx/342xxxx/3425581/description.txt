@@ -1,0 +1,64 @@
+
+* XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC
+----------------------------------------------------------------------------
+XBMC CVS 2005-12-18 (18th of December 2005)
+
+This is a BAREBONE package, with just a few small additions compared 
+to what was in XBMC CVS repository when this build was compiled:
+
+   + BritneysPAIRS's ~110 choosen Milkdrop presets (visualisations: MD - BPs Selection)
+   ++ Modified Mouton's QuickTimeBrowser 1.37 SCRIPT (scripts: QuickTimeBrowser1.37-mod)
+   + EnderW's XBMCScripts Installer 1.0 SCRIPT (scripts: XBMCScripts)
+   + Codecs for mplayer (systemplayersmplayercodecs:*)
+----------------------------------------------------------------------------
+* T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH
+
+
+NOTEWORTHY CHANGES IN THIS BUILD____________________________________________
+   Sorry about the fuckup in last weeks build. The Submenu should be fixed now
+
+
+INFORMATION_________________________________________________________________
+   XBMC's online manual can be found at http://manual.xboxmediacenter.com .
+   Any questions or support issues, are best asked in the XBMC support forums, 
+   which are located at http://forums.xboxmediacenter.com, 
+   or in the official Irc support channel, #xbmc on EFnet. 
+   (NOTE folks in #xbmc can't help with info where to find THIS build)
+
+   If you want other skins (make sure they are up-to-date and compatible before installing them), see
+   o http://www.allxboxskins.com/skins/index.php?app=XBMC&cat=0  or
+   o http://www.xbox-skins.net/forums/index.php?dlcategory=7
+
+   If you want other scripts (extra 3rd party components), see
+   o http://www.xbmcscripts.com , or use the included script installer!
+
+   The xbe has been retail patched and was built using v5849 of the XDK.
+
+   If you want to remove the startup sound or logo, remove start.wav or splash.png from the media folder.
+
+   XBMC Changelog is included, see Changelog.txt
+   Skin Changelog is included, see Changelog_PM.txt
+
+
+APPLICATION INSTALL_________________________________________________________
+   Edit XBMCxboxmediacenter.xml to your liking.
+   Transfer _whole_ XBMC folder to your APPS folder.
+
+
+DASHBOARD INSTALL___________________________________________________________
+   Thanks to a new app called 'Team UIX's Xbe Shortcut Maker v1.0' by JbOnE, it's now extremely easy...
+   Edit XBMCxboxmediacenter.xml to your liking & transfer contents of XBMC folder TO 
+   (this is VERY important) "E:APPSXBMC". Rename <<RENAME_ME.xbe>> to something your bios can boot 
+   (see http://manual.xboxmediacenter.de/wakka.php?wakka=XBMCAsDash#h44-2 or read your BIOS README) 
+   and transfer to your C partition. No need to fiddle with HOME tag anymore, and future upgrades you won't 
+   need to worry about this file on C.
+
+
+TWEAKS BY T3CH______________________________________________________________
+   I've cleaned up the scripts menu, >>XBMCskinProject Mayhem IIIpaldialogsubmenu.xml<< 
+   (used for all resolutions) to only show the included QuickTimeBrowser & "XBMCScripts" scripts.
+   If you add scripts yourself, this is the file to edit or replace.
+
+
+LAST_WORDS__________________________________________________________________
+   Who is T3CH? - Revealed on a -need to know basis-

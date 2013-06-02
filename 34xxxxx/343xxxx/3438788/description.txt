@@ -1,0 +1,45 @@
+Codec pack 
+
+Vobsub :
+
+VobSub is a plug-in for VirtualDub that allows you to rip subtitles from DVD VOB files and to use the provided 
+DirectShow filter for DivX playback with subtitles.
+Package also contains other tools like SubResync which allows you to synchronize subtitles with your video file.
+
+FFDShow :
+
+FFDSHOW is a DirectShow decoding filter for decompressing several video formats, including DivX, XviD, WMV, MPEG-1 and MPEG-2 movies.
+
+Filter also supports nowadays decoding of virtually all audio formats used in movies, including AC3, DTS, MP3 and Ogg Vorbis, and several subtitle formats.
+
+Codec also features postprocessing capabilities, support for virtually all MPEG-4 video formats, support for various processor enhancements (such as SSE and MMX), etc. FFDSHOW is released as an open source software under GPL license agreement.
+
+To summarize its main idea, the FFDSHOW consumes way less CPU power than original DivX or XviD codecs, even with maximum post-processing. At the same time the post-processing seems to give excellent quality results and allows more configuring than the original DivX codec. It can even automaticly reduce post-processing if your CPU is getting overloaded. The noise filter adds a kind of a rasterising effect to the picture - might be useful in some cases.
+
+After our reviewers tried FFDSHOW they removed the DivX codecs from their PCs and never looked back.
+
+AC3Filter:
+
+AC3Filter - it is DirectShow filter for AC3 decoding to play .AVI with AC3 audio tracks and MPEG2 (DVD). Distributed absolutely for free (FREEWARE, OpenSource). Sorry if my English is bad, but I think it is better to have something than nothing.
+
+Main features:
+
+    * Full AC3 standard compliance.
+    * S/P DIF passthrough support.
+    * Decode MPEG2 PES streams.
+    * Multichannel output support.
+    * LFE support.
+    * Dynamic Range Compression (DRC) support.
+    * Overflow control and automatic gain control.
+    * Gain levels control.
+    * Bitstream information (channel format, bitrate, sample rate, coupling freq and maximun freq).
+    * Input/output levels.
+    * Matrix mixer with direct control of mixing matrix.
+    * Stereo to multichannel mixing.
+    * DolbySurround/ProLogic/ProLogicII downmixing.
+    * Delays for each channel.
+    * Equalizer.
+
+
+                                
+Torrent created by:  eMorpheus

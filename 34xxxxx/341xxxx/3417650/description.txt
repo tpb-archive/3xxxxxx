@@ -1,0 +1,48 @@
+Release.............: XBox Media Center 1.1.0
+ CVS/Compile Date....: 2005-12-05
+ Compiler Versions...: XDK 5933, Visual Studio .NET 2003
+
+ Skins...............: Project Mayhem III
+                       Project Mayhem III style webserver interface by KanadaKid
+
+ Visualisations......: ~1500 G-Force and ~7000 Milkdrop
+
+ Scripts.............: XBMC Scripts Installer and Submenueditor 1.1 available
+                       from the scripts menu.
+  
+ Custom Mods.........: Custom mplayer.dll compiled from latest CVS with GCC 3.4.4
+                       using --disable-libavformat. Greatly reduces the size of 
+                       the dll at the cost of not being able to demux a few
+                       obscure formats.
+                       WMV9, RealVideo and Quicktime codecs included and tested. 
+
+ Notes...............: Went back to regular rar format per request, so no
+                       fancy installer this time ;)
+
+ XBMC Changelog......:
+
+ - 05-12-2005 fixed..: saving playlists
+ - 04-12-2005 fixed..: memory leaks in video renderers
+ - 04-12-2005 added..: critical section tracking for dlls (should fix some small
+                       memory leaks)
+ - 04-12-2005 added..: dvdplayer initial ff/rw support in dvdplayer. only
+                       available in debug builds. 
+ - 04-12-2005 changed: cleanup of dvdplayer audio/video rendering with added
+                       support for dropping frames in decoder.
+ - 04-12-2005 fixed..: dvdplayer memory leak in libdvdnav
+
+ MPlayer Changelog...:
+
+ - 04-10-2005 updated: ffmpeg to mplayerhq cvs version as of now. fixes a few
+                       avi's that where causing problems + a few other stuff
+ - 06-09-2005 changed: when resuming normal playback speed, video would jump
+                       ahead a couple of seconds. didn't work well
+ - 22-08-2005 updated: libvorbis interface to mplayer cvs (ad_libvorbis.c:1.18),
+                       fixes vorbis decoding in both matroska and ogm containers
+
+ PM III Changelog....: 
+
+ - 01-12-2005 added..: FileBrowser.xml - initial skinning by BritneysPAIRS
+ - 30-11-2005 fixed..: DialogKaiToast background control id to 0 (1 could cause
+                       crashes)
+ - 24-11-2005 fixed..: music.jpg replaced with defaultAlbumCover.png

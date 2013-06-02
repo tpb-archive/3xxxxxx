@@ -1,0 +1,53 @@
+﻿User Type,Username,Date,Text
+[V],phade,2006-06-29T02:25Z,vjooom säger bilen
+,SolSlyng,2006-06-29T10:14Z,"Downloaders - Please tell if this is any good , and Format / size of the resulting Files"
+,lwaibasel,2006-06-30T01:40Z,"Är dessa 2 DVD skivor dvs 2 * 4,5 eller eln hel DVD9?"
+,dannymc,2006-06-30T11:53Z,"format is mpeg2 HDTV transport stream  .ts  
+1920x1080 resolution, aint seen this one yet but Shrek2 and Toy Story2 in same format are stunning, really need a big screen or projector to appreciate the quality of HD material though
+http://users.adelphia.net/~mwilczyn/mpeg2/ 
+
+use this to repair and join .ts files"
+,Enty,2006-07-02T11:46Z,"Ive been trying to combine the files into 1 using the above program.
+Cant figure out what the command line to do so should look like.
+Could some1 write an example for this file?
+Thanks."
+,dannymc,2006-07-02T13:26Z,"should have a very basic GUI, browse to first file and select, hit Find PID`s button, which is audio and video tracks, select repair and destination of repaired file, hit start and it will give you the option of selecting the remaining files to repair and away it goes
+another option is HDTVtoMPEG2 which is similar but gives you the option to select completed file sizes, either one big file or DVD size chunks for storage to DVD-R, set it to 4300 to fit onto a DVD"
+,dannymc,2006-07-02T13:28Z,"i use version 1.0.1.3 and in the folder is a readme with instructions, mine dont use a command line, just basic GUI"
+,dannymc,2006-07-02T13:34Z,i assume you are clicking on the film reel icon in the folder you extracted the files to from the zip
+,demisnoopy,2006-07-04T22:10Z,"hej
+hur ska jag göra föra tt bränna de här tc filer???
+jag har använt men program och har nu en stor fil (för varje disk) men mina brännar progs känner inte format.
+HJÄÄÄLP"
+,fuzzyka,2006-07-14T12:11Z,Are these films actually broadcast as upscaled or are they actually broadcasting from a full resolution 1080i source?
+,Korvibrödinen,2006-08-24T04:31Z,"Better than DVD, but 720p would not make any difference. The picture is not good enough for 1080i."
+,vicar013,2006-10-25T12:06Z,"yeh, 
+that last blokey's right, this is not native high definition.
+ Upscaling is not HDTV. there's a world of difference."
+,xiIix,2006-10-28T00:17Z,This is NOT upscaled DVD. It's true 1080i. Know your stuff before you spread mis-information. This quality of this movie is absolutely impeccable. The contrast is 100% correct and there is no macroblocking. The 720p version of this sucks compared to this.
+,vicar013,2006-11-02T19:23Z,"Sorry, I know it's not upscaled dvd, its from a hdtv channel, that don't mean it's not upscaled though does it.
+ Its good, but I can see blocky chroma noise. If this is real HD then why is the filesize (and bit rate) so low?
+ It'll do I spose. but its not native 1080i. "
+,Simba84,2006-11-08T17:55Z,Is anyone familiar in how to use the cmd merge commando to combine various files (such as splitted hd movies)? It's a simple commando that í´ve forgotten about copy merge ts*.* ????
+,yaani,2007-01-10T13:35Z,In DOS prompt go to the folder with TS files and type: copy /b *.ts anyname.ts. This comand will join all the ts files in your folder.
+,drys,2007-02-06T09:26Z,"just use dvdshrink to join the two files,
+if shrink dont like the protection use the RipIt4Me
+(little proggy that took over vhere  dvdshrink left.
+
+a sort of frontend for dvddecrypter dvdshrink and fixvts.
+
+enjoy
+
+http://www.ripit4me.org/"
+,Kainam,2008-01-07T22:55Z,"NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! NOT 1080! 
+
+It's nice but it's just a scaled up DVD. Sorry. Sorry for my 8Gb of bandwidth too."
+,bartjes44,2008-07-26T11:05Z,"Finding Nemo trailer:
+
+http://www.trailer-tube.com/movies/finding-nemo/608/"
+,TheSpenner,2010-01-08T22:15Z,"I d/l this, and the 4GB torrent http://thepiratebay.org/torrent/4561354/Finding.Nemo.2003.720p.HDTV.DTS.x264-ESiR has a nicer picture."
+,jelome1989,2010-01-22T13:40Z,"@Spenner
+
+Will this play full screen on 1920x1080 resolution? "
+,TheSpenner,2010-02-09T19:27Z,@jelome1989 - yes your TV will scale the other 720p one up to 1080 automatically - and it will look better than this one that is supposedly 1080.
+,jelome1989,2010-02-10T09:13Z,I see will try that out thanks

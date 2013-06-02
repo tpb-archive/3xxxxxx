@@ -1,0 +1,89 @@
+Terminator 2: Judgment Day (Extended Special Edition - 154 min)
+
+IMDB Link:
+
+http://www.imdb.com/title/tt0103064/
+
+----
+
+What a great movie this is.  There are three versions of this movie:
+
+1. The Original Theatrical release: 136 minutes
+2. The Special Edition release: 153 minutes
+3. The Extended Special Edition release: 155 minutes and 43 seconds
+
+THIS VERSION is the "Extended Special Edition"...clocking in at 2:35:43, it is the longest release known, and can ONLY be found as an EASTER EGG on the "Terminator 2: Judgement Day - Ultimate Edition" DVD:
+  
+http://www.currentfilm.com/dvdreviews/ultimatet2dvd.html
+
+This DVD has become quite rare it seems.  This release came in two formats; either a SINGLE DVD-18 disc or TWO DVD-9 Discs...the DVD-18 package is pretty rare, which is of course what I have. ;)
+
+I did some freakish encoding with this one...read below for details...
+
+----
+
+I've received many emails asking what the extent of my abilities are at encoding...so here is a demonstration.
+
+My normal routine:
+
+1,  Container: Audio Video Interleaved 
+2.  Audio: MPEG-1 Layer 3 - 128 kb/s VBR AVG Stereo @ 48K Hz  
+3.  Video: XviD 1.1.0b3, with an ESS compliant matrix 
+4.  Subtitles: Optional External: VOBsub format
+
+What I did with this:
+
+1,  Container: Matroska 
+2.  Audio: Digital Theatre Systems
+3.  Video: x264 Revision 389 
+4.  Subtitles: Optional Internal: UTF-8 Data Stream
+
+I hope this makes your eyes pop, and your ears bleed.  I ASSURE you, that this rip looks AND sounds better than anything you've ever seen for the size.
+
+Please give me some feedback on the features, and if you didn't find it too hard to play, I just might start doing all of my encodes with the x264 codec, as H.264 blows me away with it's quality.
+
+----
+
+Mini Plot:
+
+In the last movie a cyborg was sent from the future to kill Sarah Connor, but he failed. Now a much more powerful one sent from the future to kill Sarah's son- John Connor (Edward Furlong), the leader of the future rebels. A terminator (Arnold Schwarzenegger) was send from the future once more, but this time to protect Connor. The only problem is that the terminator who was send to kill Connor is much more powerful and clever than the one who was send to protect him. Moreover, none can help Connor, since they do not believe in robots. Now Connor and his protector has no choice but to survive on their own.
+
+or
+
+Sequel to Terminator. Skynet, the 21st century computer waging a losing war on humans sends a second terminator back in time to destroy the leader of the human resistance while he is still a boy. His mother is the only one who knows of the existence of the Terminators, human-like robots that exist only to kill and are nearly indestructible, and Sarah, the boy's mother is currently in a state mental hospital because of her 'delusions'. A second protector is sent back to the past by the Human resistance to protect John Connor, their future leader, at all costs.
+
+----
+
+Encoded by: sickboy88
+Codec: H.264 (x264 Revision 389)
+Container: Matroska
+Bitrate: 1559 kb/s AVG
+Aspect: 640x256 = 2.5
+Audio: DTS, 754 kb/s 5ch @ 48K Hz
+Subtitles: Optional Internal UTF-8: English
+Runtime: 02:35:43
+FPS: 23.976
+
+----
+
+If you are going to watch this, you'll want to install the following:
+
+1.  AC3Filter 1.01a RC5 (For decoding DTS):
+
+http://www.free-codecs.com/download_soft.php?d=21&s=12
+
+
+2.  x264 Video Codec rev. 389 - Xmas Edition (An open source H.264 codec):
+
+http://www.free-codecs.com/download_soft.php?d=455&s=266
+
+
+3.  Matroska Pack Full v1.1.2 (For working with Matroska containers, also includes "VSfilter" for the subtitles in this movie, and other good things, such as "FFDSHOW"...you should grab this:
+
+http://packs.matroska.org/latest/Matroska_Pack_Full.exe
+
+0r
+
+If you just want to keep it simple, you can also download the VLC player at:
+
+http://www.videolan.org/vlc/

@@ -1,0 +1,16 @@
+So you've seen all our raw dumps? but what can you use them for?
+       Nothing in their current form, yet! - But here we go with a nice
+       extractor tool so that you can extract the dumps and check out
+       the files, we even decided to release the source code, so that
+       you can figure out the filesystem and make even nicer tools and
+       clean up our horrible looking code, cause we are lazy and old!
+       Usage: extract360.exe gamename.360 <wildcard>...
+       For example:
+          extract360.exe pi-nfsmw.360
+       Sit back and relax, and enjoy, these xbox360 games are quite
+       large!
+       And a note to the tech guys:
+         Yes, once you get past the protections and down to the raw
+       bits on the disc, its just the standard xboxdvdfs, however the
+       offset and layer breakpoint are different!
+                               / Team PI Coder - over and out!

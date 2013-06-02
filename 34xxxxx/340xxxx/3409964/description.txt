@@ -1,0 +1,54 @@
+This is Serv-U version 6.1.0.5, a flexible FTP server (or Daemon) for all
+32-bit versions of MS-Windows (Win95, Win98, WinME, NT, Win2000,
+Win2003,XP). It turns any PC with a network connection into a powerful FTP
+site on the Internet.
+
+Serv-U offers the following:
+
+* Easy to set up and use.
+* A Windows standard, with over 85000 registered users!
+* Support for Secure-FTP through SSL/TLS.
+* Support for ODBC databases for accounts.
+* Support for Windows NT-SAM / Active Directory user accounts.
+* Support for automatic on-the-fly compression during file transfers.
+* Support for Windows' Event Logging.
+* Lots of security through passwords, read/write/append/modify rights per
+  directory or file for each user (including Anonymous), and access
+  restrictions based on IP address.
+* Fast and rock solid!
+* Multiple 'virtual' FTP servers can be set up on a single instance of
+  Serv-U.
+* Server can be administered remotely.
+* Supports S/KEY one-time passwords.
+* Can run as a native 'system service' in NT, Windows 2000/2003 and Windows
+  95/98/ME/XP.
+* Support for temporary accounts that are automatically deleted upon
+  expiration.
+* Support for UL/DL ratios, disk quota limitations, network bandwidth
+  limiting, and automatic anti-anti-time-out plus anti-hammering measures.
+* Full UNC path support.
+* Support for virtual paths. Directories or drives can be mapped to any
+  location in a user's directory structure.
+* Support for 'links' such as those used in UNIX.
+* Full support for all 'ls' directory listing options.
+* Support for messages to users, or from users to the server.
+* Users can be put into groups for easy maintenance of large numbers.
+* A complete implementation of the FTP standard in RFC959, RFC1123,
+  RFC1760, RFC2228, RFC2246, RFC2289, RFC2389 and the Secure-FTP draft.
+* Supports resuming of file uploads and downloads.
+* Configurable messages for sign-on, sign-off, login, and directory
+  changes.
+* Has time-out and time-limit features, so connections are automatically
+  cleared when idle, hung, or connected too long.
+* Easy to setup and maintain through a separate administrator program. For
+  automated maintenance the settings are stored in either an .INI file,
+  registry, ODBC database, or Windows NT-SAM/ Active Directory server.
+* Has an open architecture which makes monitoring, changing and extending
+  the server behavior possible through external DLLs.
+* Logs all transactions to file and screen that can be read by other
+  applications. Includes unique session IDs, time, and date stamps.
+
+Version 6.1 (6.1.0.5) Released 7 November 2005
+----------------------------------------------
+* Changed "150" connection response of STOU command to comply with RFC1123.
+* Fixed bug in handling 64-bit numbers caused by porting to MSVC compiler.

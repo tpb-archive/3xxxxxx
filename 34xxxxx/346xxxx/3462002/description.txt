@@ -1,0 +1,9 @@
+freeHLA- This is a version of HLA for Windows that uses only free software. Instead of MASM and the Microsoft linker, this version uses FASM and the Pelles C toolset. Note that this download includes all the software you need to run the free version of HLA (this download also includes the standard version of HLA, so you might want to download MASM32 below, as well, though this is not required). This download does not include RadASM.
+
+--------------------------------------
+
+The HLA (High Level Assembly) language was developed as a tool to help teach assembly language programming and machine organization to University students at the University of California, Riverside. The basic idea was to teach students assembly language programming by leveraging their knowledge of high level languages like C/C++ and Pascal/Delphi. At the same time, HLA was designed to allow advanced assembly language programmers write more readable and more powerful assembly language code. 
+
+With the publication of "The Art of Assembly Language" from No Starch Press (http://www.nostarch.com), the High Level Assembler has entered the mainstream. Tens of thousands of programmers the world over have discovered how easy it is to learn and write assembly language using HLA. What started out as a tool for teaching assembly language programming has blossomed into a popular Windows and Linux based software development tool.
+
+Today, several third party tool authors are supporting HLA as well. This includes a couple of integrated development environments, a debugger, and other tools. More are on the way!

@@ -1,0 +1,197 @@
+AutomatixCD-1.0rc1
+More info here: http://ubuntuforums.org/showthread.php?t=87382&page=7
+
+<< this file is in-sync with Automatix CD 1.0rc1 >>
+
+=========================================
+ AUTOMATIX CD - almost stable version :)
+   (although still a bit experimental)
+=========================================
+
+    Please read this text carefully before using Automatix CD - that way you'll
+avoid most of the common problems.
+
+    You can also take a look at "IMPROVEMENTS.txt" file.
+
+==============
+ INTRODUCTION
+==============
+    There is something that is called "Automatix". It is a small program written
+mostly by arnieboy, which downloads and install plenty of cool apps, which are
+not inside Ubuntu by default, but they are REALLY needed (like MP3 playback
+support, OpenOffice upgrade to 2.0.0, etc.). Automatix CD does almost exactly
+the same, but ...
+
+    ... INTERNET CONNECTION IS NOT REQUIRED!!! The CD is here for all those
+folks with modem or without the internet at all.
+
+    It contains all of the applications installed by Automatix, including those
+purely internet-related (P2P clients, etc.). It is not limited in any way (when
+compared to the original Automatix), so it can be also useful whenever you want
+to run Automatix on a lot of computers inside a network of your own. That way,
+you don't need to download the same files over and over again.
+
+    There is one exception, however (it is described at the end of
+the LIMITATIONS chapter).
+
+====================================
+ SUPPORTED SYSTEMS (x86 based only)
+====================================
+    These scripts SHOULD work under the following distributions:
+     - Ubuntu 5.10, with or without kubuntu-desktop,
+     - Kubuntu 5.10, with or without ubuntu-desktop,
+     - Ubuntu Server 5.10 with installed ubuntu-desktop, kubuntu-desktop or both.
+
+==============
+ INSTRUCTIONS
+==============
+    First of all - YOU CANNOT EXECUTE THE SCRIPTS INCLUDED HERE
+STRAIGHT FROM THE CD (but look below into option 3).
+
+    To use this CD properly, you have 4 options (at least ;) ):
+
+    1. for novice users:
+    Copy the "installer" directory from the CD to the location of your choice
+(you can use drag&drop in either Nautilus or Konqueror), then execute
+"Automatix-CD-install" from there.
+
+    2. for novice users with a lot of diskspace :)
+    You can also copy the whole contents of the CD, and that way everything
+will work from the harddisk (it means: faster and safer). This is the
+RECOMMENDED WAY, it is also needed if you intend to use the
+"download-restricted" script described above.
+
+    3. for slightly more advanced users:
+    Edit the "etc/fstab" file (as root) and add there the "exec" bit to your
+CD-ROM mount path. For example, you should exchange the following line:
+        /dev/hdc   /media/cdrom0   udf,iso9660 user,noauto   0   0
+    with the following one:
+        /dev/hdc   /media/cdrom0   udf,iso9660 user,noauto,exec   0   0
+
+    The contents of your /etc/fstab may be slightly different from the example
+above, so CREATE A BACKUP of that file beforehand.
+
+    After remounting the CD, you will be able to execute this script straight
+from the CD, without copying.
+
+    4. for "tweakers" (NOT FOR NEWBIES !!!):
+    You can execute the script "AutomatixCD-synaptic", or "AutomatixCD-shell".
+These will execute either Synaptic (even in Kubuntu) or bash shell within
+terminal with the "/etc/apt/sources.list" listing single repository - the
+contents of this CD. After exiting the "sources.list" is switched back. I found
+that very convenient while debugging this CD, but there are other useful
+applications of these scripts.
+
+    One of the applications of option 4 is, that you can add YOUR OWN PACKAGES
+to the "pool" subdirectory (and also update some of the original Automatix CD
+ones from the "debs", "debs-restricted" subdirectories), execute "refresh-pool"
+contained therein, burn the CD prepared that way, and then select your additional
+packages to install through "AutomatixCD-synaptic" by using the nicely designed
+Synaptic GUI :). The best part is that the changes introduced that way will be
+completely transparent to the "AutomatixCD-install" script.
+
+    Please also read the "LIMITATIONS" chapter below...
+
+    The file "LICENSES.txt" also contains (brief) information about all the
+licenses you have to agree to when you want to use this CD.
+
+============
+ IMPORTANT!
+============
+    Automatix CD has been tested ONLY on fresh installations without updates
+at all. So, you should install from Automatix CD even BEFORE APPLYING SECURITY
+UPDATES! It is POSSIBLE that it will work after updates, but I cannot guarantee
+that, and I cannot predict the future... so, if you decide to use this after
+altering your system previously - you risk blowing off your whole desk :)
+
+    In order to fully experience the "offline" nirvana you can just unplug
+your network cable during the installation phase of (K)Ubuntu :)
+
+    Small hint for newbies:
+    When you're disconnected and your system seems to hang during startup after
+displaying a message "Synchronizing clock to ntp.ubuntulinux.org" - simply
+press Ctrl+C. You can avoid this inconvenience by either reconnecting
+(physically) to the internet after using this Automatix CD
+or (if you don't intend to connect to the internet at all) by issuing a command
+"sudo update-rc.d -f ntpdate remove" from a terminal (Gnome Terminal in Ubuntu
+or Konsole in Kubuntu).
+
+    There is also a script - pool/refresh-pool. Use it whenever you have either
+added contents inside pool/debs-* directory or upgraded some packages on your own.
+
+    That is, whenever you have improved this CD - in that case, it could be also
+really nice if you'd like to share this with others :). This script ensures, that
+the *.gz files will be up to date, and will not confuse apt-get.
+
+==============
+ LIMITATIONS:
+==============
+    It is not an exact copy of Automatix, it is based on a mixture of various
+versions of main Automatix scripts, ranging from 4.0 and up to 5.5.5. Whether
+it is a limitation or not - depends on your expectations ;). The main effort
+here was to achieve almost exactly the same effect of executing the original
+Automatix, while doing it FASTER and not requiring internet connection at all.
+Small exceptions to that are pointed out below:
+
+ - just before Automatix CD installer exits, all Ubuntu/Kubuntu/Server
+installation CDs are commented out (disabled) from the sources.list; for
+every installation CD you intend to use after installing anything from the
+Automatix CD you need to issue the command "sudo apt-cdrom add" to re-add these
+after finishing work with Automatix CD).
+    Reason: actually it is rather the limitation of the dpkg itself;
+I still don't know how to force apt-get to "prefer" the unsigned repository
+over the signed one, so I have to clear the sources.list temporarily, but
+this has the side-effect of breaking the "cdrom:[...]" repositories), and
+signing the internal repository with GPG is just not worth the effort IMHO.
+    Even if we assume, that the problem above is solved, the whole script
+should be checked against "CD swapping"; it is not very convenient to
+swap CDs during the installation process ;), but for now, we just have to deal
+with that small glitch.
+
+ - both Firestarter and Azureus have been disabled (but not removed from the CD,
+commented out instead), If you want to try these anyway, and you really know what
+you are doing, you can try to install and configure these using option 4
+described above.
+    Reason: mainly because of the Ubuntu Server support; Firestarter seems not
+very stable, and therefore not very secure. Azureus seems broken, or at least
+not dpkg-aware; it tries to autoupdate itself, fails miserably in the middle
+of that, also it has some dependency problems: it uses some weird java libraries,
+and in turn conflicts with eclipse-3.1.1 packages.
+
+ - Windows' codecs and DVD playback capability packages are not included by
+default. If you want to install these offline - you can play with the script
+"download-restricted" (READ EVERYTHING INSIDE IT FIRST), then re-author the CD.
+Scripts should work unmodified after injecting these restricted packages.
+    Reason: all that "licensing" crap - No one wants to go to jail :)))
+
+=================
+ DESIGN FLAWS :)
+=================
+    This chapter is basically an excuse to bad programming habits :). Feel
+free to improve anything described here:
+
+ - The detection of the "pool" directory location is poor. If anything goes 
+wrong, delete the file ".automatix-cd/pool-location" from your home directory
+and try again. You can improve the situation yourself - inside the
+"installer/scripts-internal/locate-pool" the whole procedure is described in
+more detail.
+
+ - the password is asked only once thorough the whole installation process.
+However, it is achieved by temporarily reconfiguring "/etc/sudoers" - and
+I consider that an ugly hack :(. Maybe you'll have a better solution - take
+a look inside the "sudo-nopasswd" and "sudo-revert" scripts. Bear in mind,
+that any mistake here can result in a big disaster.
+
+ - expect some bugs here and there. It has been thoroughly tested on a fresh
+installation of all supported systems. Bear in mind, however, that testing
+everything is not possible, A LOT of small changes, and some big ones were
+introduced into Automatix, which itself has its own problems... I am short on
+time, so I cannot guarantee anything.
+
+Good luck!
+Michal Skrzypek <michals@math.uni.lodz.pl>
+
+(other contributors - most notably arnieboy, the author of the original
+ Automatix, are listed at the beginning of the file "automatix-main"
+ located inside the directory "scripts-internal". You can also see the
+ full list of contributors every time you run the main installer)

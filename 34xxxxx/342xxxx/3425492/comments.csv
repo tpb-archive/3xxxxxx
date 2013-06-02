@@ -1,0 +1,58 @@
+﻿User Type,Username,Date,Text
+,pozzman,2006-01-07T00:15Z,I don't quite understand the instructions in the readme ^^;
+,Sirjoha,2006-01-09T08:23Z,Not work
+,Sirjoha,2006-01-09T08:54Z,Now ok
+,Jimler,2006-01-10T11:51Z,works how??
+,timlox1337,2006-01-13T13:40Z,this is stupid can you make the Instructions alot more understading then what it is??? i dont get it i copied the exe file from the directory and put Egirl.new but it still doesnt work tell me how this should be exactly
+,remag192,2006-01-13T23:34Z,"Ignore the readme. Just copy ""cat.exe"", ""egirl15.bin"" and ""patch.bat"" to the Egirl folder. Then run ""patch.bat"" and your all set."
+,Ventyr,2006-01-16T12:10Z,Egirl.exe.new then patch make sure that the patch is in the same dir as the renamed egirl.exe.new
+,Elefunk,2006-02-09T16:48Z,seed!!!
+,SDude,2006-02-11T13:24Z,Either im using it wrong or it doesn't work. Well i did as the instruction asked. When i patch the exe it doesn't run. The pc blabs around that it isn't a valid win32 application. help guys ?
+,Jack Oneill,2006-02-14T22:25Z,"Hi!
+
+i noticed that you have problems to get egirl working so i made you new patching program
+it is working one i have tested it
+
+you can download it here
+http://koti.mbnet.fi/janig88/Egirl.1.5.crack.rar"
+,Jack Oneill,2006-02-14T22:27Z,"i hope you like it
+if it doesnt work contact me by email janig88@gmail.com using subject EGIRL v1.5
+or by msn messenger janig88@gmail.com"
+,Jack Oneill,2006-02-14T22:31Z,"sorry for the triple post but please send me email if you are using my patch because i want to know how many i made happy
+THANKS!!!!!"
+,Playing cs,2006-06-25T12:47Z,seed plxx!!
+,Sitarko,2006-07-22T17:30Z,this page is not workinghttp://koti.mbnet.fi/janig88/Egirl.1.5.crack.rar
+,Bigsmouke,2006-10-20T01:44Z,"Hey people!!! can you send me this file on my email
+onefeat@mail.ru!!!!! PLZ very neeeeeeeeeed!!!!!!! SPS"
+,SirFrancisDrake,2006-11-14T19:38Z,"Ok ppl, theres  bug in the patch. All you have to do is Right-click the file ""patch.bat"" > Edit and copy all this:""
+@echo off
+echo Patching EGirl 1.5...
+cat -l 0x210000 egirl15.bin -o 0x210000 -l 0x2187000 egirl.exe -o 0x210000 egirl15.bin egirl.exe.new
+del /f /q egirl.exe.bak
+ren egirl.exe egirl.exe.new
+echo done""
+
+
+then rename the ...Exe.New to .exe and run it in the game's root directory."
+,Snowflake85,2007-06-08T01:22Z,"Like i wrote on the 'working' upload of this.
+This is a very poor program, you cant do anything at all basicly and it doesnt do much on its own :P
+Dont waste your time on this, just get SexVilla..."
+,Barney_5,2007-09-23T22:34Z,this crap dont fly and as of now i am the only seed .....letting it die.
+,Hybrid_Styles,2008-02-08T04:01Z,"Ive tried everything to make this work, but to no prevail. DLed cracks from all over the internet but nothing seems to work. IM starting to think this crack is for an earlier version, maybe 1.2 or lower. Still trying though. Been working on it for the last 4 hours. Will keep you mucks posted."
+,Betaziod,2009-01-03T06:39Z,Crack dont work.
+,Kezaia,2009-07-11T02:07Z,"http://koti.mbnet.fi/janig88/Egirl.1.5.crack.rar
+
+this link actually works i tried putting it in the address bar and it didn't work so i just posted it into a search bar like google, yahoo, msn, etc and it works just go to the link it shows when you click on search, btw can someone tell me how to seed torrents or downloads? i would really appreciate it if someone told or showed me how to seed things ^_^"
+,intelfx,2011-01-16T22:26Z,"OK people listen everybody. There is indeed a bug in the patch, I've fixed it.
+Replace your patch.bat with the following lines (without cut here/end here lines):
+----CUT HERE----
+@echo off
+del /f /q egirl.exe.new
+del /f /q egirl.exe.bak
+
+echo Patching EGirl...
+cat egirl15.bin -o 0x212000 -l 0x2187000 egirl.exe egirl.exe.new
+move egirl.exe.new egirl.exe
+----END HERE----"
+,intelfx,2011-01-16T22:31Z,"Damn, that doesn't work on another systems. Disregard my previous post, sorry=("
+,Pengy,2011-02-03T16:39Z,Don't anyone got the crack for version 1.5.2?

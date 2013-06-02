@@ -1,0 +1,100 @@
+﻿User Type,Username,Date,Text
+,hobbe34,2006-02-10T20:09Z,"Thank you deepfire !
+I'll help you sedd when finished.
+Great upload, thanks again.
+Hobbe"
+,Nekton1,2006-02-11T10:41Z,"Är det någon som lyckats få igång programmet. Tycker jag gör allt rätt, eller också är det steg 8, det är väl den licens.lic filen man klistrar in i steg 4 man ska välja. När jag testar server så står bara timglaset  framme en stund och sedan kommer det fram att programmet svarar inte. Någon som vet något? Snälla"
+[V],plaztic,2006-02-11T14:18Z,Doesn't this one require a usb or lpt dongle?
+,jacobino,2006-02-27T07:25Z,"if anyone can help, i can't get it to run.  i followed the directions, but it says 'unable to stop server' no matter what i do.  please help, it took a week to download, i'd really like to have it work.  thanks."
+,skylmla,2006-02-28T11:02Z,could anyboday tell me how to download ArcGIS Desktop 9.1 here
+,skylmla,2006-02-28T11:03Z,I would like to say thank in adance.
+,skylmla,2006-02-28T11:04Z,i am a new user to this webpage.
+,rotstock,2007-02-21T20:43Z,"It works fine!! 
+
+Thanks a lot, _deepfire!"
+,Gkylu,2007-03-11T18:19Z,"Yep, this is the same ArcView license as the other download. I also need the additional functionality of the ArcInfo license, so hopefully that'll show up sometime."
+,Piraterum,2008-09-09T10:37Z,"For all of those having trouble when you get to the License manager part try doing this before running the license manager:
+
+
+License Manger Setup
+
+a. Create the following directories:
+i. C:\Program Files\ESRI\License\arcgis9x
+
+I think this one is easy. just create these folder.
+
+b. Copy license.lic to that directory.
+
+Included in the Torrent is a file named license.lic
+copy that to the folder you just made. 
+
+
+c. Edit the first line of the license.lic file
+
+i. SERVER this_host any
+ii.Change this_host to the name of your computer
+
+
+okay people made mistakes in this part and is one of the reasons for the diagnostics to fail.
+
+after you copied the license file, right click the file, select open with, then choose notepad. now you will see the first line that looks like this.
+
+SERVER this_host any
+
+Now change the word this_host with your computer name. for example my computer name is Shnoky so it would look like this.
+
+SERVER Shnoky any
+
+Then save
+
+d. Run LMSetup.exe
+i. Choose C:\Program Files\ESRI\License\arcgis9x\license.lic when prompted.
+
+It should be the first option. then browse the license that youve edited. if youve made the above instructions correctly by the time you click next, all licenses for Arcgis will be listed if not then you blew it. continuing is useless. please do it all over again. and read the instructions carefully
+
+ii. Do not restart.
+
+This is extremely important!! do not restart. choose restart later. 
+
+iii. Copy over ARCGIS.exe to C:\Program Files\ESRI\License\arcgis9x
+
+iv. Add ESRIFloat.reg to the registry.
+
+I think this part is easy. copy ARCGIS.exe to the folder youve made earlier. then overwrite when prompted. 
+
+then double click ESRIFloat.reg then select yes. if it doesnt work go to start, select run, type regedit then file, import, then browse ESRIFloat.reg file.
+
+e. Restart your computer.
+
+after youve done the above. this is the only time you will restart your computer. 
+
+now after restarting ...
+
+f. Launch StartMenu -> ArcGIS -> License Manager 9x -> Run License Manager Tools.
+
+g. Choose tab Service/License File, and check ""Configuration using Services"", and choose the ArcGIS License Manager.
+
+its the first tab. you wont miss it. just follow the instructions.
+
+h. Switch to tab Configure Services, make sure ArcGIS License Manager is in the Service Name listbox.
+
+
+i. Browse to the correct License file path (C:\Program Files\ESRI\License\arcgis9x) where you copied the license.lic file and choose it as license.
+
+this is important browse the license that you edited earlier. the license should be the file named license.lic. when you browsed the folder there will be a lot of licenses inside. find the one youve edited earlier.
+
+j. Check Start Server at Power up.
+k. Click Save Service to save the settings.
+l. Test the server by choosing the Start/Stop/ReRead tab, Click Stop server, then ReRead license file, then Start Server.
+
+
+alright oryxgazella please dont be dissappointed when it says it fails. I think this license manager that was included in the torrent is a bit old so there is no check box where it says Force shutdown. I have a new version on this and it has a check box to Force it to shutdown but its not in this version of license manager. when I installed Arcgis I used the one included in the torrent so I know what happens when you use this license manager . It does fail when you click stop server and reread license file. but it should work when you clicked the Start Server. if it fails click it again. if it fails again. restart then Stop server and reread. then Click start server. if it still fails go to the Configure Services tab and uncheck the checkbox Start server at powerup. then restart computer. after restarting. Run license manager. Choose configuration using Services on the first tab Service/License. Then go to Start/Stop/Reread then Click Start Server. If it still fails after youve Clicked Start Server. youve ran out of options. I would suggest Reviewing from the start before moving on."
+,dpcaka666,2009-01-26T17:54Z,"It doesn´t work!!!
+Even after I did exactly what was told, when I click in ArcMap shortcut appears a Registration Error window that says to register in Desktop Administrator.
+It seems that the file licence.lic doesn´t match to this version."
+,slsmith38,2010-04-19T20:31Z,"When I try to Save Services I get an error ""Failed to change FLEXlm License Server. You need to be an Administrator to perform this function"". Any ideas? Is this a Vista problem?"
+,-reflex-,2011-03-30T12:20Z,"Getting the same issue... Unable to start/stop/reread license.
+
+Anybody able to help, maybe the uploader?"
+,lordarkal,2011-06-07T07:54Z,"Run the License Manager Tools as Administrator (Right Click), so you can save the Service, but I still have problems to Stop, Start and Reread; maybe is a problem with the lmgrd file... 
+Tried running ""services.msc"", selected ArcGis license Manager, click on start service... But I'm stilll unable to start the service, which is related to the lmgrd.exe file as i can see..."

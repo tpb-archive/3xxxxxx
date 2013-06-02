@@ -1,0 +1,13 @@
+﻿User Type,Username,Date,Text
+,MrSpells,2006-01-30T11:56Z,"nice post.
+This works well but does show you what is lacking in the risc OS. On my set up the only browser that worked was oregano which wont let you download or save.The FTP prog works fine though.
+For PD progs for this emulator google 
+ANS Risc OS filebase    or
+Risc OS Software database"
+,rowdy,2008-01-03T12:00Z,someone please seed AmigaOS4 for A1
+,jonnybegood4ever,2008-02-24T21:06Z,cant get the damn thing to work. I have altered the model.cfg file as per the manual to take account of the API. hard reset/power cycle and break dont see to do anything...all I get is a blank black screen in the emulator window. It doesnt crash but doesnt do anything....harddisk4 has been added to the relevant driectory cant think what else to do/check..!!! any ideas??? (Arculator is far easier to use it seems... :(((   ) 
+,Wig24,2009-01-06T11:45Z,"This does work (and it obviously includes RiscOS 4, NOT AmigaOS 4), but the real-mode floppy driver isn't included. So you can't use real Acorn discs in your PC floppy drive. :("
+,nOmArch,2009-04-14T20:07Z,Shame its the shite version with no strongarm support which means its basically useless. oh well thanks for the up.
+[T],antiques,2011-02-18T10:56Z,"Forget this release, there are much better copies of VirtualAcorn around, as well as literally gigabytes of RISC OS software. We are a dedicated RISC OS/Acorn scene release group, and we only bring you the very best (and guaranteed working!).
+
+Check out our profile, including VA5000, VRPC-SE and VRPC-SA, as well as ROM image collections and softload upgrade CDs: http://thepiratebay.org/user/antiques"

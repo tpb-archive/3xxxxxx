@@ -1,0 +1,34 @@
+ http://xs72.xs.to/pics/06115/PSP_Media_Player.jpg 
+
+(See above pic for how beautiful it looks in PSP's Crossbar menu)
+
+Unrar the Media Player folders to the Memorystick. 
+
+Go to X:PSP/Game (where X is your PSP drive on your computer) and insert the two media player folders in it.
+
+>>>Tip<<< If you want all the corrupt icons in the PSP menu to stay at the bottom. Then go to PSP's 'GAME' folder , right click and choose 'Cut' to take out all the folders with % sign in their names and place them in any folder/desktop on your PC. Now start cut and pasting them back into the memory stick GAME folder one by one. The folder that you'll leave to put back as the last item will be shown as the first icon in the PSP crossbar menu.
+
+
+Media Player Support:
+---------------------
+It supports the following extensions and formats:
+ 
+- Video: AVI, MOV, MP4, OGM, MKV, NUT, ASF, WMV. Audio: MP3, M4A, WMA, OGG, WAV.
+- MPEG1/2/4 video(DivX, XviD), Windows Media Video, Ogg theora, Mpeg audio (MP2, MP3, AAC), AC3, OGG, Windows Media Audio
+
+>>>BUT<<< 
+
+I suggest use Xvid 1.1 stable to encode your movies to 480x272(anything above this res will slowdown PSP) and at 29.97fps with BVOP's unselected. Use single pass with bitrate 1024 as max. Don't use quantizer 3.0(super video slowdown). Use audio at 96kbps and 'make sure' it is synched properly or more slowdown. If you keep these two hints in mind. PSP player plays AVI files just fine.
+
+
+How to Use the Program:
+-----------------------
+ 
+- Left Shoulder  - Start from beginning
+- Right Shoulder - Go to Menu
+- Circle - Select the file
+- Triangle - Zoom
+- Square - Displays info
+- Home - Quit
+- D-pad Left - Rewind
+- D-pad Right - Fast forward

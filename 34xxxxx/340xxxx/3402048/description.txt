@@ -1,0 +1,19 @@
+DVD Original: LST0NNT6
+Image File: emd-losts1d6.img | 4,38 GB (4.704.419.840 bytes)
+Patch: emd-losts1d6-spasubs-argenteam.bdiff | 1,73 GB (1.868.238.368 bytes)
+
+Changes made:
+Added SPANISH subtitle to every episode, replacing original ENGLISH subtitle. Subtitles start automatically for every episode. Patch size is such because our friends from EMERALD left an error in the DVD Layout that generated another error in the DVD Menu once the disc was reauthored with both subtitles. Menu fully recompressed / reauthored so that the final image would fit a DVD+R/W.
+
+Final image size: 4,35 GB (4.673.335.296 bytes)
+
+The procedure to apply this patch is the following:
+
+- Unrar every file in the same folder.
+- Copy the original Image file to this folder where the .exe's and the patch is.
+- Double-click on start.bat and the program will do the rest.
+
+Special acknowledgements and eternal thanks to:
+- Grunjol, the code master, for writing this fine software
+- Pechón, who provided me the subtitles in-sync with the DVDs and tested the Patch
+- Special translation team for Lost in aT

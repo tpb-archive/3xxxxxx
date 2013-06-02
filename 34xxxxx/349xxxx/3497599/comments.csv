@@ -1,0 +1,18 @@
+﻿User Type,Username,Date,Text
+,nabil112,2007-04-07T17:52Z,seeders plz
+,kitsch209,2007-09-21T19:16Z,"hey anarxis
+
+thanx a lot for the anapod explorer. however, need to ask a couple of questions;
+
+i couldnt install it - when i plug the ipod in, and get to the anapod explorer, it asks me to activate the thing but the whole thing is grayed out so i cant even register it manually. any ideas?
+
+the other thing is it wont let me uninstall it - comes up with an error message that says the installer is damaged or corrupted - do u know of any way i could uninstall it? thanx
+
+kitsch"
+,anarxis,2007-09-29T07:49Z,"you have to add ""/NCRC"" at the end of the installer.
+
+Right click the uninst.exe file and add /NCRC at the end. Like this... That should work as the installer then skips the CRC check.
+
+""C:\Program Files\Red Chair Software\Anapod Explorer\uninst.exe"" /NCRC
+
+The first question i dont know anything about. Did you use the crack included? That kinda removes the activation thingy..."

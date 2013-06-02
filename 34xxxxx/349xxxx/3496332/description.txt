@@ -1,0 +1,238 @@
+-------Installert 1000 vis av ganger RE SEED-------
+
+TRENGER IKKE SN. HVIS DU BOOT'ER FRA CD'EN
+
+DU TRENGER KUN SN. HVIS DU KJØRER CD'EN FRA WINDOWS.
+SN. LIGGER PÅ CD'EN.
+
+SLÅ AV AUTOMATISKE OPPDATERINGER FOR Å UNNGÅ VALIDERINGS PROBLEMER.
+
+HVIS IKKE LIGGER DET VALIDATION CRACK PÅ CD'EN.
+
+BRENN IMAGE(ISO) FILA PÅ EN CD OG BOOT PÅ DEN !!
+
+------------------------------------
+
+Programmer PÅ CD'EN:
+
+WinRAR 3.40 NORSK + Crack
+
+Norton AntiVirus 2005 + Crack
+
+Cole2k.Media Codec.Pack.V6.0.4
+
+Lavasoft Ad-Aware SE Pro 1.06
+
+AC3 filter
+
+Dvd shrink 3.2
+
+Alcoho 120%.1.9.5.3105 + Crack
+
+Windows mediaplayer 10 Norsk
+
+-------------------------------------
+
+Windows Genuine Advantage Validation Crack 2006 hvis du trenger den.
+
+WINDOWS XP SP2 OPPDATERINGER FRAM TIL FEBRUAR 2006.
+
+DU TRENGER IKKE FLERE! Slå av automatiske oppdateringer etter innstalasjon!
+
+WindowsXP-KB873339-x86-NOR.exe
+WindowsXP-KB883939-x86-NOR.exe
+WindowsXP-KB884020-x86-nor.exe
+WindowsXP-KB884883-v8-x86-NOR.exe
+WindowsXP-KB885222-v2-x86-NOR.exe
+WindowsXP-KB885250-x86-NOR.exe
+WindowsXP-KB885835-x86-NOR.exe
+WindowsXP-KB885836-x86-NOR.exe
+WindowsXP-KB885894-x86-nor.exe
+WindowsXP-KB886185-x86-nor.exe
+WindowsXP-KB886677-x86-nor.exe
+WindowsXP-KB887472-x86-nor.exe
+WindowsXP-KB887742-x86-NOR.exe
+WindowsXP-KB887797-x86-nor.exe
+WindowsXP-KB888113-x86-NOR.exe
+WindowsXP-KB888302-x86-NOR.exe
+WindowsXP-KB889016-x86-NOR.exe
+WindowsXP-KB889527-v3-x86-NOR.exe
+WindowsXP-KB890046-x86-NOR.exe
+WindowsXP-KB890047-X86-NOR.exe
+WindowsXP-KB890175-x86-NOR.exe
+WindowsXP-KB890859-x86-NOR.exe
+WindowsXP-KB890923-x86-NOR.exe
+WindowsXP-KB891781-x86-NOR.exe
+WindowsXP-KB893066-v2-x86-NOR.exe
+WindowsXP-KB893086-x86-NOR.exe
+WindowsXP-KB893357-v2-x86-NOR.exe
+WindowsXP-KB893756-x86-NOR.exe
+WindowsXP-KB894391-x86-NOR.exe
+WindowsXP-KB896358-x86-NOR.exe
+WindowsXP-KB896422-x86-NOR.exe
+WindowsXP-KB896423-x86-NOR.exe
+WindowsXP-KB896428-x86-NOR.exe
+WindowsXP-KB896688-x86-NOR.exe
+WindowsXP-KB896727-x86-NOR.exe
+WindowsXP-KB897663-x86-NOR.exe
+WindowsXP-KB898461-x86-NOR.exe
+WindowsXP-KB899587-x86-NOR.exe
+WindowsXP-KB899588-x86-NOR.exe
+WindowsXP-KB899589-x86-NOR.exe
+WindowsXP-KB899591-x86-NOR.exe
+WindowsXP-KB900725-x86-NOR.exe
+WindowsXP-KB900930-x86-NOR.exe
+WindowsXP-KB901017-x86-NOR.exe
+WindowsXP-KB901190-x86-NOR.exe
+WindowsXP-KB901214-x86-NOR.exe
+WindowsXP-KB902400-x86-NOR.exe
+WindowsXP-KB903234-x86-NOR.exe
+WindowsXP-KB903235-x86-NOR.exe
+WindowsXP-KB904706-v2-x86-NOR.exe
+WindowsXP-KB905414-x86-NOR.exe
+WindowsXP-KB905749-x86-NOR.exe
+WindowsXP-KB905915-x86-NOR.exe
+WindowsXP-KB908519-x86-NOR.exe
+WindowsXP-KB910437-x86-NOR.exe
+WindowsXP-KB911927-x86-NOR.exe
+WindowsXP-KB912919-x86-NOR.exe
+WindowsXP-KB913446-x86-NOR.exe
+
+
+DETALJER OM CD'EN SOM ER LAGET I nLite:
+
+Env = 1.0 RC6 - 2.0.50727.42.Microsoft Windows NT 5.1.2600 Service Pack 2
+Target = Windows XP Professional Sp2 - build 2180 - Norsk (bokmål)
+
+[Tasks]
+Komponent Fjerning
+Personlig Oppsett
+Driver Integrering
+Hurtigfiks Integrering
+Patches
+Innstillinger
+Bootbar ISO Image
+Options
+
+[Components]
+;# Applikasjoner #
+Internett Spill
+;# Multimedia #
+Musikk Prøver
+;# Operativ System Innstillinger #
+Tur
+;# Compatibility #
+Compat01
+Compat02
+Compat03
+Compat04
+Compat06
+Compat07
+Compat08
+Compat09
+Compat10
+
+[KeepFiles]
+msconfig.exe
+
+[RemoveFiles]
+blastcln.exe
+clock.avi
+
+[Options]
+GuestName = ""
+AdminName = ""
+ProfilesDir = "%SystemDrive%\Documents and Settings"
+TargetPath = "WINDOWS"
+temp_dir = %USERPROFILE%\Lokale innstillinger\Temp
+AdvTweaks
+isovol = WinLite
+isoatt = -allow-multidot -relaxed-filenames -allow-leading-dots -N -l -d -D -joliet-long -duplicates-once -no-emul-boot -b boot.bin -hide boot.bin -hide boot.catalog
+
+[Patches]
+TcpIp = 10
+UsbPoll = 125
+DoSFC
+
+[Services]
+Alerter,4
+ALG,3
+AppMgmt,3
+LanmanWorkstation,2
+ClipSrv,4
+Browser,2
+CryptSvc,2
+DHCP,2
+TrkWks,2
+DNSCACHE,2
+IpInIp,3
+IpFilterDriver,3
+NwlnkFlt,3
+NwlnkFwd,3
+ERSvc,2
+EventLog,2
+HTTP,3
+HTTPFilter,3
+HidServ,4
+CiSvc,3
+IpNat,3
+PolicyAgent,2
+Ip6Fw,3
+Messenger,4
+NDProxy,3
+NetLogon,3
+Netman,3
+NetDDE,4
+NetDDEdsdm,4
+NLA,3
+xmlprov,3
+NtLmSsp,3
+SysmonLog,3
+PlugPlay,2
+ProtectedStorage,2
+RasAuto,3
+RasMan,3
+RpcLocator,3
+RemoteRegistry,2
+RemoteAccess,4
+seclogon,2
+SamSs,2
+LanmanServer,2
+SCardSvr,3
+SENS,4
+LMHosts,2
+TapiSrv,3
+Themes,2
+UPS,3
+VSS,3
+AudioSrv,2
+SharedAccess,2
+Wmi,3
+W32Time,2
+
+[Tweaks]
+Desktop-Recycle Bin icon-Hide
+Explorer-Show all files and folders
+Explorer-Show extensions of known file-types
+Internet Explorer-Set Homepage-www.google.com
+My Computer-Add Administrative Tools
+My Computer-Add Folder Options
+My Computer-Add My Network Places
+My Computer-Add Recycle Bin
+Privacy-Alexa Spyware fjerning
+Privacy-Clear most recently opened documents list on logoff
+Speed-Disable Optimize harddisk when idle
+
+[Unattended]
+UnattendMode = GuiAttended
+ComputerType = Automatisk
+BlankPassword
+CustomLocales
+MaximumDataStorePercentOfDisk = 12
+ProgFilesPath = "C:\Program Files"
+CommFilesPath = "Common Files"
+
+
+
+ENJOY EN FANTASTISK XP PÅ NORSK 
+

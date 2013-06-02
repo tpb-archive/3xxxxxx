@@ -1,0 +1,99 @@
+Release.............: XBox Media Center 1.1.0
+ CVS/Compile Date....: 2005-12-12
+ Compiler Versions...: XDK 5933, Visual Studio .NET 2003
+
+ Skins...............: Project Mayhem III
+
+ Visualisations......: The 110 best Milkdrop presets by BritneysPAIRS
+
+ Scripts.............: XBMC Scripts Installer by EnderW
+                       Submenueditor 1.1 by Rocko
+                       Changelog by SveinT
+                       CNN Videos v1.0.1 by Asteron
+                       FlexiBrowser v1.4 by Bernd
+                       Global Alternate News v0.1 by Accumulator
+                       KMLBrowse by Gabriel
+                       LaunchBrowser v1.8 by Flash
+                       Ooba v1.1 by Van der Phunck
+                       QuickTimeBrowser 1.37 by Mouton (Fixed version)
+                       Stupid Videos by Nishil
+
+ Optimizations.......: Custom mplayer.dll compiled from CVS with GCC 3.4.4
+                       using --disable-libavformat. Greatly reduces the size of 
+                       the dll at the cost of not being able to demux a few
+                       obscure formats.
+                       Reduced size of bloated scripts from 3601KB to 941KB.
+
+ Functionality.......: WMV9, RealVideo and Quicktime codecs included and tested.
+                       Scripts menu edited to include added scripts.
+                       Added weather display and IP address to home screen.
+                       Project Mayhem III webserver interface by KanadaKid.
+
+ Release Notes.......: Replaced the huge set of Mildrop presets with a set
+                       containing only the best ones.
+                       To remove either weather or IP address from home screen,
+                       edit skinProject Mayhem IIIPALHome.xml (or PAL16x9).
+                       At the bottom of the file, change <visible> from true to
+                       false for the items you want to remove.
+                       To use the original mplayer.dll instead, move it to
+                       xbmcsystemplayersmplayer. Download the file at: 
+                       http://cvs.sourceforge.net/viewcvs.py/xbmc/XBMC/system/
+                       players/mplayer/mplayer.dll 
+
+ XBMC Changelog......:
+
+ - 11-12-2005 fixed..: The All Songs item in Music Library
+ - 11-12-2005 changed: All Albums in Top 100 Albums, Recently Added Albums,
+                       Recently Played Albums is now a nested sql query for
+                       better performance
+ - 11-12-2005 changed: Moved the buttonscroller button list into the skin.  See
+                       online manual for more information.  It still reads from
+                       XboxMediaCenter.xml if skin version is less than 1.8.
+ - 11-12-2005 added..: Initial support for skin version 2.0 and backwards
+                       compatibility to v1.3 skins (skinners please see
+                       graphical design forum for information).
+ - 11-12-2005 fixed..: Workaround for a buffer overrun in DVDDemuxSPU.
+ - 11-12-2005 added..: Sliding and delayed visiblitity effects for GUI controls
+                       + dialogs.  See the online manual for more information.
+ - 11-12-2005 added..: Support for more URL combinations in nfo files.
+ - 11-12-2005 fixed..: [ 1094942 ] No Movie Bookmarks when started from Filemgr
+ - 11-12-2005 fixed..: Ignore The when Sorting had no effect in My Videos.
+ - 11-12-2005 fixed..: Directory names don't end in a space when truncating in
+                       the FTP server.
+ - 11-12-2005 fixed..: Thumbs now appear immediately for files in the current
+                       directory from where a Movie "Query Info for All Files"
+                       is initiated
+ - 11-12-2005 added..: Context Menu: Make the share Default [GeminiServer] In
+                       all share sections, with context menu, you can set the
+                       selected share as default! !<default>-</default> For more
+                       information see: http://manual.xboxmediacenter.de/wakka.p
+                       hp?wakka=BookMarksxml&v=kz4
+ - 11-12-2005 fixed..: SmartXX V3 detection returned the wrong ID [GeminiServer]
+ - 11-12-2005 added..: Skin controlled switchable condition/buttons:
+                       [GeminiServer] The skinner can show and hide a Visual
+                       with own predefined button! 5 conditions are availibe!
+                       The conditions are [true] by default!
+                       For Example: set a Weather Icon and controll [show/hide]
+                       it with a button in submenu!
+                       Get the state: use skin.ShowVisualx [x=a,b,c,d,e] e.g.:
+                       <visible>skin.ShowVisuala</visible>
+                       Change the state: use XBMC.skinshowvisual(x)[x=a,b,c,d,e]
+                       e.g.: <execute>XBMC.skinshowvisual(a)</execute>
+ - 11-12-2005 added..: HTTPAPI SeekPercentageRelative command and additional
+                       GetCurrentlyPlaying info
+
+ MPlayer Changelog...:
+
+ - 04-10-2005 updated: ffmpeg to mplayerhq cvs version as of now. fixes a few
+                       avi's that where causing problems + a few other stuff
+ - 06-09-2005 changed: when resuming normal playback speed, video would jump
+                       ahead a couple of seconds. didn't work well
+ - 22-08-2005 updated: libvorbis interface to mplayer cvs (ad_libvorbis.c:1.18),
+                       fixes vorbis decoding in both matroska and ogm containers
+
+ PM III Changelog....: 
+
+ - 11-12-2005 changed: Moved to version 1.8 compatible.
+ - 04-12-2005 fixed..: Small navigation problem in DialogVideoInfo (16x9).
+ - 04-12-2005 changed: Play button shows Play when FastForwarding or Rewinding.
+ - 01-12-2005 added..: FileBrowser.xml - initial skinning by BritneysPAIRS.

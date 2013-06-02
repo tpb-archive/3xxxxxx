@@ -1,0 +1,11 @@
+This torrent consists of a Windows based patch to fix the problem of being unable to activate Adobe Acrobat 7.x or other Adobe products in the CS 2 catagory. The Error "Your computer's configuration appears to have changed since..." and the effected Adobe application shutting down are the results.
+This patch is only made available by calling into Adobe technical support and to those with a ligitimate serial number.
+
+Issue 
+The following error message prompts you to reactivate the application each time you start Adobe Acrobat 7.0 or an Adobe Creative Suite 2.0 application on Windows: "Your computer's configuration appears to have changed since the time this product was activated. To continue using this product, please click OK to activate it again for your new system configuration, or click Cancel to exit." 
+
+Detail 
+You have already activated the product on a primary and/or secondary machine, as per the Adobe End User License Agreement (EULA). 
+Solution: Call Customer Service to request the Adobe License Management 2.70 Patch. Customer Services must make changes to your activation record before you can download and install the patch. 
+
+This problem occurs on RAID configurations or when you dock or undock a laptop computer.

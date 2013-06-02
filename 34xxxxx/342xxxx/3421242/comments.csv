@@ -1,0 +1,121 @@
+﻿User Type,Username,Date,Text
+,geographer,2006-01-09T10:58Z,thanks alot
+,rone__,2006-01-23T01:05Z,Having some trouble with the .reg file. When i try to open it i get an error -not valid win32 operation- any ideas?
+,misabelle100,2006-02-01T20:37Z,Same here - have no idea what to do to make it work. Nice it would be with some tips. THX
+,Shanna,2006-02-03T12:38Z,This is only the ArcView license version. Anyone know where to get an Info license?
+,Shanna,2006-02-03T12:40Z,And about the .reg file. It contains registry info. You should add this info to the windows registry. Usually it is associated to regedit and is installed when you double-click it. If it doesn't you might have to start Regedit.exe (Start-Run- Regedit.exe) and add it from there.
+,kassiko,2006-03-02T00:07Z,Can you help with opening the .bin file? please.. no idea what is it
+,mr_petit,2006-03-21T19:11Z,"Not everything works OK in this version (i.e. convert ASCI to raster), so something's fishy about this install"
+,hans_wendy,2006-07-16T14:23Z,"The program downloaded just fine, installed ok.  Now, how/where does one find the license file?"
+,alias84,2006-09-07T03:30Z,"I did the complete installation. Followed all licensing instructions, yet it only works with an ArcView license. You need the ArcInfo license to activate all features. It says it has the ArcInfo license, but it doesn't read it or activate it."
+,amazzoc,2006-09-19T21:02Z,"I downloaded the file and mounted the .cue file using Daemon Tools.  From there the software installs perfectly, but I can't find the Liscence Manager program to run as it says in the install instructions.  Any suggestions?"
+,aggelaki_m,2006-10-23T10:28Z,"I installed it and it works great!!Thanks a lot!! A tip about the license: In the installation instructions, betweeen steps 1 and 2, just add an extra step that will make your life easier. So, step 1b goes like: Copy the supplied license.lic (from the cd, in the CRACK dir) to the path ...\Program Files...\ESRI\License\arcgis9x (on your hard drive)."
+,luuk1985,2006-10-23T20:29Z,"Intalling the programm goes well. But at the end of the installing i get a kind of an error which says: 
+
+RegCat Runtime error 429 ActiveX cant create object
+After this everything goes well and i can install the LM and everything.
+But when i start Arcmap and i add data i get this error
+
+Runtime Error!
+
+Program:C:\Program Files\ArcGIS\Bin\Arcmap.exe
+
+This application has requested the Runtime to terminate it in an unusual way. Please contact the application's support team for more info
+
+After this the program terminates. Could someone tell me what i need to do with this. I would be very gratefull."
+,pcb_80,2006-11-15T16:23Z,IÂ´ve done everything as it is said in the instruction but i canÂ´t stop the server as in step 11. What should i do?? Please anyone who knows.
+,pexota,2006-12-02T19:01Z,"Pcb_80,
+
+I have exact same problem.  I have heard that it is something related to a new processor. 
+
+Let me know if you resolved it 
+
+Vik  "
+,helterskelter1000,2006-12-23T07:12Z,awg
+,Gkylu,2007-03-11T18:21Z,Step 11 is only to test the server. No big deal if it won't let you stop and restart the server--just try running the diagnostics. It should still work.
+,cos179,2007-04-22T15:10Z,is anyone have arcgis plts extension version 9.1. any help will be appreciated.
+,jantsekian22,2007-04-26T01:54Z,"this ArcGIS version, has the extensions used in Arcinfo or ArcEditor?"
+,zipaca,2007-10-30T02:46Z,"El softwre es exelente sin virus ni troyanos y lo instale sin ningun problema. Solo aconsejo hacerlo con mucho cuidado y despacio, porque si queda mal crakeado despues es casi imposible la instalacion.
+Las instrucciones de instalacion son bastante claras aun para mi que soy colombiano"
+,josh1899,2008-01-30T04:48Z,you are the man.  worked like a charm.
+,gibsteroon,2008-04-03T23:57Z,"I've followed the installation instructions exactly, but am having issues getting the license service running. After doing all of the steps leading up to the diagnostics, I checked services.msc and the ArcGIS license service is in fact installed. However, starting it through the License Manager Tool fails as does starting it myself through services.msc. Anyone else having trouble getting the license service running on Vista?"
+,gibsteroon,2008-04-03T23:58Z,"Oh, I should also add that during installation of the program itself, I get 3 error messages stating that several .dll files in Windows/system32 couldn't be initialized. Not sure if this is related to why it's not working for me."
+,Piraterum,2008-09-09T10:36Z,"For all of those having trouble when you get to the License manager part try doing this before running the license manager:
+
+
+License Manger Setup
+
+a. Create the following directories:
+i. C:\Program Files\ESRI\License\arcgis9x
+
+I think this one is easy. just create these folder.
+
+b. Copy license.lic to that directory.
+
+Included in the Torrent is a file named license.lic
+copy that to the folder you just made. 
+
+
+c. Edit the first line of the license.lic file
+
+i. SERVER this_host any
+ii.Change this_host to the name of your computer
+
+
+okay people made mistakes in this part and is one of the reasons for the diagnostics to fail.
+
+after you copied the license file, right click the file, select open with, then choose notepad. now you will see the first line that looks like this.
+
+SERVER this_host any
+
+Now change the word this_host with your computer name. for example my computer name is Shnoky so it would look like this.
+
+SERVER Shnoky any
+
+Then save
+
+d. Run LMSetup.exe
+i. Choose C:\Program Files\ESRI\License\arcgis9x\license.lic when prompted.
+
+It should be the first option. then browse the license that youve edited. if youve made the above instructions correctly by the time you click next, all licenses for Arcgis will be listed if not then you blew it. continuing is useless. please do it all over again. and read the instructions carefully
+
+ii. Do not restart.
+
+This is extremely important!! do not restart. choose restart later. 
+
+iii. Copy over ARCGIS.exe to C:\Program Files\ESRI\License\arcgis9x
+
+iv. Add ESRIFloat.reg to the registry.
+
+I think this part is easy. copy ARCGIS.exe to the folder youve made earlier. then overwrite when prompted. 
+
+then double click ESRIFloat.reg then select yes. if it doesnt work go to start, select run, type regedit then file, import, then browse ESRIFloat.reg file.
+
+e. Restart your computer.
+
+after youve done the above. this is the only time you will restart your computer. 
+
+now after restarting ...
+
+f. Launch StartMenu -> ArcGIS -> License Manager 9x -> Run License Manager Tools.
+
+g. Choose tab Service/License File, and check ""Configuration using Services"", and choose the ArcGIS License Manager.
+
+its the first tab. you wont miss it. just follow the instructions.
+
+h. Switch to tab Configure Services, make sure ArcGIS License Manager is in the Service Name listbox.
+
+
+i. Browse to the correct License file path (C:\Program Files\ESRI\License\arcgis9x) where you copied the license.lic file and choose it as license.
+
+this is important browse the license that you edited earlier. the license should be the file named license.lic. when you browsed the folder there will be a lot of licenses inside. find the one youve edited earlier.
+
+j. Check Start Server at Power up.
+k. Click Save Service to save the settings.
+l. Test the server by choosing the Start/Stop/ReRead tab, Click Stop server, then ReRead license file, then Start Server.
+
+
+alright oryxgazella please dont be dissappointed when it says it fails. I think this license manager that was included in the torrent is a bit old so there is no check box where it says Force shutdown. I have a new version on this and it has a check box to Force it to shutdown but its not in this version of license manager. when I installed Arcgis I used the one included in the torrent so I know what happens when you use this license manager . It does fail when you click stop server and reread license file. but it should work when you clicked the Start Server. if it fails click it again. if it fails again. restart then Stop server and reread. then Click start server. if it still fails go to the Configure Services tab and uncheck the checkbox Start server at powerup. then restart computer. after restarting. Run license manager. Choose configuration using Services on the first tab Service/License. Then go to Start/Stop/Reread then Click Start Server. If it still fails after youve Clicked Start Server. youve ran out of options. I would suggest Reviewing from the start before moving on."
+,mjl_79,2011-03-21T22:40Z,"Hey guys,
+is there any chance we get the new version. ArcGIS 10, I only need the full license for the tools."
+,bspang34,2011-03-23T20:09Z,Any hope that this will be able to run on Windows 7?  Apparently the license manager is not compatible with any OS released after XP.

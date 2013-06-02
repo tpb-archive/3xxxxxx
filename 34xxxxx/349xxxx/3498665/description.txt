@@ -1,0 +1,17 @@
+
+Quoted from http://wrt54g.thermoman.de/
+"
+As you might know, Linksys released the source code of the WRT54G firmware under GPL a while ago. Sveasoft (as well as other projects like WiFi-Box) took this code, added some features and patches and released an improved version of the firmware.
+This worked fine until one day, Sveasoft decided to close their firmware from public access and to charge 20$ from anyone who would want to download the code.
+So far so good, however since the GPL allows free redistribution of the obtained program (in this case firmware), one of their customers decided to put the firmware binaries on a P2P network, making them available for everyone.
+I don't know who this person is, but I thank him for his kindness and in order to help people out, I decided to mirror those files on this website.
+
+When Sveasoft figured out about the P2P versions, they posted an announcement stating they would be manipulated, corrupt your router's memory or even contain backdoors.
+To me, this was obviously a FUD strategy (fear, uncertainty and doubt) so I tried using those versions and they work just fine for me.
+My believe about FUD was confirmed when Sveasoft started deleting posts asking for (or containing) checksums of the firmware. Why wouldn't they provide checksums if their intend was to protect their users (paying or not) and the good name of their firmware?
+The only obvious answer is: those versions are identical to the ones released by Sveasoft, there probably has never been a manipulated version of their firmware on P2P.
+"
+
+This is the latest SVEASOFT linksys router firmware. Works for wrt54g v 2.0 and up. Add way more features to your router!
+
+Let me know if this works, first time uploading torrent!

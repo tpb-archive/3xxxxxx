@@ -1,0 +1,163 @@
+
+WINDOWS XP PRO Lite Edition SvPack2 Swedish
+
+Windows XP Lite Edition med Servicepack 2 installerad. 
+Svensk version, svenskt språk och tangentbord
+
+Mycket är borttaget från denna version.Drivrutiner av det mest vanliga i datorn
+ligger kvar.Installera egna drivrutiner om det behövs.
+Det grafiska gränssnittet är minimerat men du kan bygga upp det själv 
+med egna inställningar, bilder mm.
+
+Man kan inte behålla allt då är ju ingen lite ed.
+Man kan inte äta och ha kakan samtidigt :) :)
+
+En mycket snabb version av Winxp.
+Installationen tar ungefär 15 minuter på en AMD 2400+, 512 ram, 250GB.
+
+Start av windows tar c:a 20 sek. Avstängning tar under 10 sek.
+
+Med antivirus (AVG Free www.grisoft.com) och AdAware tar starten ca: 30 sekunder.
+Med Panda Platinum Internet security 2006 och AdAware får du får du lägga till 1 min. 
+Internet explorer är supersnabbt.
+
+Efter installationen kontrollera att alla dina maskinvaror fungerar,
+Komplettera med nya drivrutiner om det behövs.
+
+Har kört denna version på flera datorer
+utan några som helst problem.
+
+Bl.a 
+
+Ovanstående dator.
+
+Bärbar Celeron 700mhz, 56 mb ram, 10Gb hårddisk
+fungerar bra, installationen och uppstart tar självklart betydligt längre tid på denna dator.
+
+plus några till.
+
+Ladda ner iso-filen och bränn ner på en cdskiva Bränn på låg hastighet (4X) så slipper du problem
+Välj Disc-at Once bränning
+Bränn ner den på en CD-RW skiva så kan du radera den om du inte gillar den :( :)
+
+Det finns inga installationsfiler för installation i Windows. Boota om datorn. 
+Se till att du har cd-läsaren som första boot-enhet i bios.
+Installera, du behöver inte skriva in några nycklar, jag har lagt in dom redan.
+
+
+Borttagna komponenter
+
+Alexa spyware
+
+;# Applications #
+Accessibility Options
+Briefcase
+Charmap
+ClipBook Viewer
+Internet Games
+NT Backup
+Paint
+Pinball
+Screensavers
+
+;# Drivers #
+IBM Thinkpad
+InfraRed
+ISDN
+Logitech WingMan
+Microsoft SideWinder
+Modems
+Portable Audio
+Printers
+Scanners
+Sony Jog Dial
+Sound Controllers
+Tape drives
+Toshiba DVD decoder card
+
+;# Hardware Support #
+Sony Memory Stick
+Teletext codec
+USB Audio support
+Video Capture
+
+;# Keyboards #
+Allt utom Svenska och Engelska (US)
+
+;# Multimedia #
+Images and Backgrounds
+Luna Theme
+Media Center
+Mouse Cursors
+Movie Maker
+Music Samples
+Old CDPlayer and Sound Recorder
+Speech Support
+Tablet PC
+Windows Media Player
+Windows Media Player 6.4
+Windows Sounds
+
+;# Network #
+Communication tools
+Connection Manager
+FrontPage Extensions
+Internet Connection Wizard
+IP Conferencing
+MSN Explorer
+Netmeeting
+Peer-to-Peer
+Synchronization Manager
+Vector Graphics Rendering (VML)
+Web Folders
+Windows Messenger
+
+;# Operating System Options #
+Desktop Cleanup Wizard
+DR Watson
+File and Settings Wizard
+Help
+Manual Install and Upgrade
+MS Agent
+Search Assistant
+Security Center
+Task Scheduler
+Tour
+Web View
+Zip Folders
+
+;# Services #
+Alerter
+Autoupdate
+Error Reporting
+Fax Services
+Imapi
+Indexing Service
+Messenger
+Remote Registry
+Removable Storage
+Secondary Logon
+System Restore
+Telnet Server
+Uninterruptible Power Supply
+WebClient
+
+;# Directories #
+DOCS
+SUPPORT
+VALUEADD
+
+;# Compatibility #
+
+[KeepFiles]
+msconfig.exe
+scrnsave.scr
+
+[RemoveFiles]
+clock.avi
+blastcln.exe
+telenet.exe
+Alexa spyware
+
+
+Made by Uffe

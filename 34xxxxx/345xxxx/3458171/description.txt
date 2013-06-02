@@ -1,0 +1,55 @@
+This is the Nintendo Power Guide for Super Mario Rpg, plus the rom of the game. I also included a SNES emulator, to play the rom. I recommend this game to anyone who likes rpgs, because it has a damn near infinite amount of replay value. Sorry about the guide; you will have to zoom in most of the time. I tried to reduce the file size of the scans as best I could. Thanks! (Also, in the guide (it's powered by Flash), don't click play. All 100+ images will cycle through and you will end up back at the beginning.  Sorry about that!  It's sorta too late to fix it.  D:  )
+
+
+
+->>>>  Additional notes pertaining to the guide and game:  <<<<-
+
+
+The goombas that pop out when you have to sneak up on Croco will "respawn" (another one will jump out at you the next time you go past that spot).  I never really noticed this before because it was so easy to dodge them that I never fought them.
+
+The yoshi that holds cookies for you at Yo'ster Isle will only hold 200 cookies.  Any more won that you cannot hold are discarded.
+
+~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~
+I did not notice any problems after fighting Jonathan Jones (I am now almost to the Smithy Factory in save 000), but I did notice that all of the treasure boxes halfway through the Sunken Ship (including hidden ones) were like they had already been taken, but I did not possess their contents.  Not only that, I noticed my maximum flower points had been reduced to 6 (the only thing I can think of that I did was to use the Exp Booster in combination with the Lucky Jewel (to bring about the exp minigame with a positive, not neutral, outcome) in concert with a game genie code I made that set the experience points won for each battle that the code was active to 255).  This combination was used at some point in the Sunken Ship, so it is the likely culprit for my glitches.  The code (which modified the address 7EFA02 changing the value to FF (7EFA02FF)) had no discernable effect if used by itself in battles and turned off when not in battle, but it prevented the display of text in all of the menus out of battle.  It had been used on and off frequently up to that time.
+~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~
+
+If the real elder is not tickled at all, then he will give you a flower box upon his freedom.
+
+Hidden treasure box no. 23 is a KerokeroCola, not a flower.  (Sunken Ship's)
+
+Hidden treasure box no. 24 is a Red Essence, not a flower.
+
+Hidden treasure box no. 30 is a Frog Coin, not a flower (how did they make this many errors?).
+
+Hidden treasure box no. 31 is a flower, not a Rock Candy.
+
+"Hidden treasure box no. 35" is most certainly not hidden, nor is it a frog coin.  It is a flower, but is shown as hidden in the guide.
+
+----------Further Notes----------
+The guide is ambiguous about some of the accessories and armor (maybe the guide was compiled with data obtained directly from the development team, who later found that many aspects of the game were unbalanced, and were later changed; I don't know and probably never will).  Anyway, I used LAZY SHELL to look at the item stats:
+
+
+The Ghost Medal just increases Defense and M. Defense ("magic power" (comment from guide)).
+
+The Safety Ring also prevents all status ailments ("Wounded" is not a status ailment), and provides protection against all types of elemental attacks (extent unknown) ("protects wearer from magic attacks").
+
+The row in the guide that the Rare Scarf is listed in is correct IF each cell is shifted one to the right (think of a spreadsheet), with "0" meaning an empty cell (cause it doesn't matter).
+
+The Lazy Shell armor not only increases Defense and M. Defense, but also protects against all types of elemental attacks (extent unknown), and prevents all status ailments.
+
+The Attack Scarf also protects from instant death.
+
+The Super Suit also prevents status ailments, and affords protection against all types of elemental attacks (extent unknown).
+
+The B'Tub Ring decreases resistance to all types of elemental attacks, as does the Amulet.
+
+The Bright Card sells for 777 coins (ha ha ha).
+
+I just noticed that, in the back of the guide, on the accessories page, that it lists the Amulet, and, under "comments", states that you can win it in Booster's curtain contest.  :P
+
+
+
+If anyone should find any other major glitches, post them here, I  _guess_  (CONFIRM them--in detail--first).  I played a SMRPG rom that had the same Whirpool512 checksum as the one I uploaded (HEX:
+D56194A9139B338B8BBDE5CEF236C75AFF8D5A0CC4CC0EFB3E59067F547CBDAFB9BA7
+5287FC0FB5CE99099574764B29238F2AB9C9C0DF6EBAE7172747888B2C4), so if you rename the rom to "Super Mario RPG - Legend of the Seven Stars (U) [!]" (without quotes), these Snes9X v1.51 saves will work:
+(ThePirateBay now, for some reason, prohibits hyperlinks, so post "nhhdcy", without quotes, into Tiny URL).  You need a program like Peazip to open the archive.

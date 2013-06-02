@@ -1,0 +1,36 @@
+﻿User Type,Username,Date,Text
+,susanalic,2006-03-28T17:05Z,"excellent, thanks. "
+,Lindoff,2006-03-29T10:47Z,"N책gon som seedar, skulle inte vara s책 dumt."
+,Tourniquest,2006-04-01T11:27Z,"Picture quality isn't by any means good, but it's in *anamorphic* widescreen - which is great! Thank you!"
+,Tourniquest,2006-04-02T17:43Z,"Here is the problem:
+The movie isn't anamorphic after all. It just thinks it is, so everything is squeezed down by 22%. This is fine if you want to see Charlton Heston as a fat knight whosaves Spain. If not..."
+,Tourniquest,2006-04-02T17:44Z,"Here is how you fix it:
+If you don't already have it, download and install DVD-Rebuilder. It is free and you get it at: 
+http://dvd-rb.dvd2go.org/modules.php?name=Downloads&d_op=viewdownload&cid=14
+
+DVD-Rebuilder will also install avisynth and HCencoder on your computer. Configure DVD-RB (=DVD-Rebuilder) to use HCencoder (in the Mode menu) and set HC quality to best (in the Settings menu).
+
+(You can also use CCE to encode movies if you have it, but it isn't free, it isn't better, and it takes longer, but there's nothing to stop you if you want to...)"
+,Tourniquest,2006-04-02T17:48Z,"Next, download a filter called TomsMoComp at:
+
+http://www.doom9.org/Soft21/Filters/TomsMoComp.zip"
+,Tourniquest,2006-04-02T17:49Z,and extract it to avisynth's plugins folder (..Program FilesAviSynth 2.5plugins).
+,Tourniquest,2006-04-02T17:52Z,"Now, load El Cid in DVD-RB and turn on the 'Convert from LB 4:3 to 16:9' option. This will fix the aspect ratio problem."
+,Tourniquest,2006-04-02T17:52Z,"Unfortunately there will an ugly doubling of lines in the image, but TomsMoComp will get rid of those!
+In DVD-RB's filter editor, enter:
+
+TomsMoComp(-1,5,1)"
+,Tourniquest,2006-04-02T17:53Z,"Then encode the movie and it will turn out as good as it can with this source. Good luck.
+
+(No, you can not fix it in DVD-Shrink, but you can make it worse.)"
+,Tourniquest,2006-04-02T17:54Z,"Sorry about splitting the text into all those separate comments, but The Pirate Bay was making me do it!"
+,JeFeCiYo,2006-04-02T21:43Z,Thanks for your help about this
+,quatro27,2006-05-30T17:28Z,please seed i want to watch this !!!1
+,quatro27,2006-06-25T14:38Z,seed man !!!!1
+,mike18xx,2007-04-02T10:30Z,This transfer is complete shit. (I'm now DLing a 3-CC rip of a Russian/English version off eMule...hope it's better.)
+,mike18xx,2008-02-05T00:22Z,What this POS is: A 700mb rip bloated up to 7+gb and passed off as a DVD9.
+,mike18xx,2008-05-23T06:38Z,"My rip of the restored, anamorphic print is up: http://thepiratebay.org/tor/4198676/
+
+Included commentary track and spanish subtitles.
+
+-- Hopefully it'll finally kill off this monstrosity."

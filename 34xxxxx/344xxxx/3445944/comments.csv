@@ -1,0 +1,317 @@
+﻿User Type,Username,Date,Text
+,Igziabeher,2006-02-18T01:29Z,anyone know how to get this to work on xp?
+,SirTobey,2006-02-18T16:44Z,Can't seem to find the Alpha Centauri.ini file
+,nil7,2006-02-18T19:55Z,The .ini file should be in the root of the install directory. Both SMAC and SMACX works fine on xp in all the cases I've tried. But you might have to click continue or ok a few times to start the game.
+,Malak,2006-02-24T16:12Z,"SMAC alone works, but after installing Alien Crossfire the game stops functioning. I get to the menu where you choose between 'Alien Crossfire' and 'Classic'. After clicking either, it just shuts down. Any help would be appreciated."
+,Arkkis,2006-03-03T11:35Z,I've got the same problem... anyone knows how to fix this?
+,sets_01,2006-03-06T09:47Z,"had the same problem but now is everything ok.
+there is a crack file in the alien crossfire part, just use it. You have also to change this .ini thing to 1. Dont remember if I also used the official XP patch. Hope this will help."
+,Arkkis,2006-03-07T12:04Z,whaddya mean with changing the .ini thing to 1?? O_o
+,sets_01,2006-03-07T13:55Z,"Ok, the torrent contains a .txt file which describes everything you need to know (only to run this game, not for your life ;-)) but I am a user friendly guy so here you go:
+Find Alphacentauri.ini file  (or something like that maybe only alpha.ini) in your game directory and change the line 
+""ForceOldVoxelAlgorithm=0"" to ?ForceOldVoxelAlgorithm=1?. 
+If you cannot find the line, add it at the end of the file with the line [preferences] above it and dont forget to save. That is it.
+Hope this will help, if not I will write a step-by-step guide. ;-)"
+,sets_01,2006-03-07T13:59Z,"Damn keyboard.
+""ForceOldVoxelAlgorithim=0"" to
+""ForceOldVoxelAlgorithim=1"""
+,sets_01,2006-03-07T14:10Z,"I surely have an alcohol problem.
+This is definitely the right and last version ;-)
+change to: ""ForceOldVoxelAlgorithm=1""
+
+I really really hope this is right and I did not mess up anything again."
+,defect101010,2006-04-13T23:55Z,Where is the crack and how do I use it?(probably a stupid question but thanks)
+,defect101010,2006-04-13T23:57Z,Never mind
+,SnobbyBob,2006-04-19T20:51Z,"OK, I've got a whopper of a problem. I followed the instructions as far as I could. When I got to the .ini file and opened it with notepad this is what I saw:
+
+[Alpha Centauri]
+
+That's it. Everything in the file, nothing else. Oh there was a little square at the bootom. But that's it I swear. Any ideas? Help me please. I need this game. "
+,PopeZen,2006-07-05T19:33Z,"Crossfire does not work on my machine. When I go to edit alpha.ini all I see is this:
+
+[Alpha Centauri]
+MainFontSize=16
+InterludeFontSize=16
+Prefs Format=11
+Difficulty=1
+Map Type=3
+Top Menu=3
+Faction=4
+Preferences=10111011111000010101110110000010
+More Preferences=1111100111000111101000 
+Semaphore=00000000
+Announce=1010101001
+Rules=1101000001110
+Customize=0
+Custom World=2, 1, 1, 1, 1, 1, 1,                    
+Time Controls=1
+Latest Save=
+Latest Scenario=
+Main Volume=127
+Voice Volume=127
+Music Volume=127
+SFX Volume=127
+WinsFileBox=0
+
+Where do I edit the ""ForceOldVoxelAlgorithm=1"" line if it doesn't exist?"
+,nil7,2006-07-21T11:12Z,"If the line doesn't exist, just add it."
+,yami0601,2006-07-24T08:53Z,"I downloaded this and I extracted it, but I can't figure out how to get it to work. Would someone please help me."
+,nil7,2006-09-04T22:15Z,Since you don't describe your problem any further I assume you're having troubles with the ISO format - download and install daemon tools from http://www.daemon-tools.cc/ and use this to mount the .iso files. Daemon tools creates a virtual cd-rom drive from where you can install the game as usual.
+,staarbux,2006-12-01T14:31Z,"I doubt anyone is still checking this but here goes:
+
+I downloaded this file and installed SMAX to my already existing SMAC game. I'd read about the problems encountered so after I did it, I installed the XP patch and changed the dialouge file. Its still not helping. I can run the classic version of the game now (after clicking through the CPU error message) but it still cuts out when I'm trying to get to SMAX. What gives? The alpha.ini file definately says ForceOldVoxelAlgorithm=1 not ForceOldVoxelAlgorithm=0. "
+,SuckerPunk,2007-01-09T22:54Z,"I just got mine to work and I've encountered the problems mentioned before with the game just shutting down after selecting crossfire and the .ini file without the [preference] line
+
+first download the ""Alien Crossfire v2.0 update"" from 
+
+http://www.firaxis.com/games/downloads.php 
+
+after the patch the [preference] and ForceOldVoxelAlgorithm=0 line should be at the bottom for you to change it to ForceOldVoxelAlgorithm=1
+
+after i did that i ran crossfire and it asked me for the cd, so i just googled a no cd crack, this is the site i got it from and its worked for me 
+
+http://smac.2be.cc/tools.html 
+
+its about halfway down, the ""SMACX no CD crack"" one"
+,r00tabega,2007-01-24T06:00Z,"Can't seem to get this thing to install on XP... keep getting this error message:
+
+C:\WINDOWS\SYSTEM32\CONFIG.NT. The system file is not suitable for running MS-DOS and Microsoft Windows applications. Choose 'Close' to terminate the application.
+
+Any guesses? Is my VMWare windows image corrupted?"
+,Arcelor,2007-03-19T10:05Z,"Thanks for the program nil7, this game makes me feel like I am a part of the later generation that will be space travellers and new dwellers of a distant star:-)"
+,miststlkr,2007-04-04T17:24Z,One of my fav games and I never knew there was an expansion for it :-(
+,rickyd069,2007-04-21T15:01Z,"TO INSTAL ON WINDOW XP
+
+COPY
+
+""AUTOEXEC.NT"", IN 
+C:\WINDOWS\repair
+
+TO
+
+C:\WINDOWS\SYSTEM32 
+
+NO MORE INSTALL ERROR MESSAGE."
+,liamyum,2007-05-31T03:56Z,"thanks nil7 this game is awesome, a real classic. still as addictive as ever"
+,LongLivePiracy,2007-07-06T20:59Z,"Kay, The link for the no cd crack doesn't werk 4 me, I've been lookin for like 2 hours and I can't find one, can anybody help?
+plz! I really want this game to work.
+thanks"
+,Tyyk,2007-07-09T23:29Z,"I downloaded this and I am having real trouble with installing it. I hope someone can help with my problem. To mount the .iso I am using PowerISO and it loads up fine but when I click Install Alpha Cen I get a message saying :
+
+16 bit Windows Subsystem 
+C:\Progra~1\Symantec\S32EVNT1.DLL
+An installable Virtual Device failed Dll initialization. 
+
+Then I have the option of Close or Ignore.
+When I pick ignore another one pops up and then I have to use the Task Manager to close it.
+I thought I'd have to alter the ForceOldVoxel but couldn't find the place and I tried using the patch to run it on XP. 
+
+Any help would be appreciated."
+,Tyyk,2007-07-10T11:27Z,Sorry for the double post. But I was able to start it running. Great game. 
+,Khanz,2007-08-04T18:45Z,"Oi everybody, ok, ive got the Iso mounted, but im still being asked for the CD, i installed from the mounted iso and everything, got the patch, I tried the no cd crack provided in one of the other comments, but the web page wont load for me."
+,Manglobe,2007-08-28T16:40Z,"Great game, now if only I could get it to work... :)
+
+I'll seed this to 3.0 regardless, but any help would be appreciated - I've mounted, installed, patched for XP and SMAX 2.0, added the line in the *.ini file... what did I forget?
+
+The error is as has been described; it simply shuts down when I select either Alien Crossfire or Classic."
+,Sachaztan,2007-08-29T17:18Z,Please seed! Im desperate for Alien Crossfire!
+,xlatb,2007-12-09T21:34Z,"Try making the virtual cd-rom the first cd-rom in the system. Typically your real cd-rom is D: and your virtual one is E:. Try to make the virtual cd-rom D: and the real cd-rom into D:.
+
+This can be done in ""Control Panel -> Administrative Tools -> Computer Management""."
+,xlatb,2007-12-10T02:15Z,"Didn't get this one (terranx.exe) to work due to copy protection (after update to v2). terran.exe works but that was not what i was after.
+Got it to work using a different (preinstall) torrent found here.
+These ISOs have copy protection but they are not 1:1 copies.
+"
+,Wopatoolie,2008-02-25T17:22Z,"How I installed on Vista and XP with no cd:
+
+Open with Daemon Tools. DO NOT click auto-start, click open files to view and copy them to a separate folder you will remember (it helps to wait until after you do this to smoke that phatty)
+
+Now open with Daemon Tools again and auto start
+
+After the game is installed and it doesn't work for you in some way or another, find the folder in your hard drive program list where the installed game files are located (I click computer once, then double click on the C drive to bring up the Programs folder, it's in there under Fireaxis Games). Open the Fireaxis folder and leave it open but minimize the window
+
+Remember when I told you to open with Daemon Tools and DO NOT auto start but instead open the files to view and copy them to a folder you will remember? Go to that folder now
+
+Now open the crack folder and copy the two cracks (there is a third file - text - but I didn't need it so I left it alone)
+
+Open the Programs window you minimized earlier and paste the two cracks into the Fireaxis folder (NOTE: There is a significant difference in the size of the files and I wasn't sure if I wanted to completely copy over them, so I chose to paste them into the folder but kept all as separate files)
+
+Now, after I copied the cracks to the Fireaxis folder there is terranx and terranx(2). Double click the terranx(2) file. (or if you totally copied over them there will be only terranx, click that)
+
+NOW you can smoke your phatty and play the game, but make sure to place a shortcut on your desktop or next time you go to play a game you'll have a perfectly good one installed but won't remember it because you are STONED
+
+I just got started on bit torrents about a year ago after using normal p2p networks for about 3 years and I like torrents much better. So far here I have found at least a half dozen ways to get these games to work; what works for one person might not work for another so if this doesn't work for you I dunno what to tell you, look around here in Pirate Bay I'm sure you'll find the solution.
+
+If this works for you take a hit or two for me pls k tnx :P
+
+
+
+"
+,Wopatoolie,2008-02-25T20:13Z,"and i never said anything about updates because mine isn't updated, so if you fk around and update your copy then it doesn't work don't come back here and leave a msg to bitch 'cuz it's your own damn fault :P"
+,M-Cos,2008-02-28T04:40Z,"IF YOU HAVE HAD TROUBLE PLAYING THIS BECAUSE THE GAME CRASHES YOUR SAVIOR HAS ARRIVED!!! 
+
+1. Make sure you have done a complete installation of alpha centauri.
+2. Make sure you have done a complete installation of Alien Crossfire.
+3. Make sure you have this ForceOldVoxelAlgorithm=1 in your Alpha Centauri ini file. (Its the one with the gold thing on the notepad)
+4. Now you must google a valid no cd patch for Alien Crossfire. I know they are not easy to find as it took me quite awhile to find one that worked for me. I would link it but it is no longer a website. 
+
+Once you have done all this the game should work just fine. You just click ok if it says the CPU is not supported. If it still crashes you messed up on a previous step and must repeat. It took me like 3 tries of uninstalling and reinstalling. YOU DON'T NEED THE SMACX update on the firaxis website to get this to work!!!! Hope it helps some of you guys. I'm gonna go take over the Planet. "
+,ssilki,2008-04-02T13:59Z,"You can olso download this torrent here:
+
+http://www.nnm-club.ru/forum/viewtopic.php?p=531877#531877
+
+russian language suprime at that forum"
+,CCI,2008-05-20T19:26Z,"Hello fellows, I'm torrenting this naughty little strumpet as we speak; question is, is it possible to run this game off of an emulator, IE DOSBox?.. 
+
+Aside from that, great up!"
+,zoobezee,2008-08-05T05:47Z,"...Alpha Centauri works great, but when I try to run Alien Crossfire, it closes the program and returns to my desktop.
+...I'm running the program off of a virtual drive and not an actual CD, so I was wondering if that was the problem.
+In which case I need to get a ISO-Burner and a CD.
+Please reply, because I'm really bored with Alpha now. Besides that, this is a great torrent."
+,Topper42,2008-08-18T17:41Z,"I can't remember the direct link, but one of the links at www.gamecopyworld.com has a NoCD patch for SMACX"
+,warman506,2008-09-28T03:04Z,"i need help findin the NoCD patch
+
+i followed all the steps you guys saiid to follow and it goes to the screen where you choose which game to open, but when i open crossfire, it says it requires the cd
+
+i also have the cd but for some reason it doesnt work even when i put in the disk...what should i door where should i go?"
+,Roland19,2008-11-09T16:41Z,"i know this sounds utterly stupid because i've already read these comments and this question has been asked a lot, but i simply cannot find the alpha centauri.ini file on my computer.  I dont know what/where the game directory is. I looked in the Program Files, then under Firaxis Games and Sid Meier's Alpha Centauri, but I just can't find a file titled alpha centauri.ini or alpha.ini.  There was a different text file called Alpha Centauri, but all that contained was ""Alpha Centauri"" and then a little box.  Can someone PLEASE help me?"
+,Rekss,2008-11-14T20:58Z,"This is a great torrent good job! however can someone please assist me in finding a no cd crack for crossfire? cuz id really like to play it, i'll still look for it my self and if i find it ill put the link here but, not to much luck so if anyone knows where to find it id really apprciate it thank you :)"
+,Hal440,2008-11-26T23:33Z,"this did eventually work. thanks for uploading, seeding to 3.0
+
+rekss- when you extract the smax iso there is a folder which contains the crack"
+,Hal440,2008-11-26T23:35Z,i remember now actually... there is a folder that contains 2 files that you must place in the directory that you installed alpha centauri to.
+,Hal440,2008-12-02T00:26Z,"_ _  _ ___ __ ____        ___ __    ___        ____ 
+| |\ | [__    |  |__/ |   | |       |   | |    | |\ | [__  
+| | \| ___]  |  |  \  |__| |___  |   | |__| |  \| ___] 
+
+
+1.	deal with ?SMAC-E1_0Z? first. file comes in .iso format. I unpacked using PowerISO.
+2.	open up the folder you unpacked to. Double click on the file ?SETUP? (with the blue computer screen) to install the program. Be sure to perform a complete install when prompted.
+3.	do not play the game now or view the readme
+4.	Now do steps 1-3 with other iso you?ve just downloaded, titled ?SMACX?
+5.	Find the folder you?ve installed the game to. This should be somewhere like C:\Program Files\Firaxis Games\Sid Meier's Alpha Centauri
+6.	find the file that deals with the configuration settings. It is named ?Alpha Centauri?. Open it with notepad and copy and past the following 2 lines under what?s already written.
+
+[preferences]
+ForceOldVoxelAlgorithm=1
+
+7.	now open the folder you extracted SMACX to and find the folder named ?crack?
+8.	there are 2 files called terran and terranx. Drag these into the installation folder and replace the existing files
+9.	click on the file ?axstart? in the installation folder to start the game. You should make a shortcut to this and put it on your desktop
+10.	you can now delete the folders you extracted the first .iso?s to, but do not delete the original .isos 
+
+Now you?ve got a classic game in full working order. There is no way to legally download or purchase this game from the developers so its survival depends on people like you to seed it. As long as you don?t delete the original download folder (and there?s no need to) you will seed whenever your torrent client is running? at the moment I?m up to 3.5 ratio.
+"
+,Hal440,2008-12-02T00:31Z,"stupid comments can't even handle simple ASCII characters. trying again...
+
+_|_|_|  _|      _|    _|_|_|  _|_|_|_|_|  _|_|_|    _|    _|    _|_|_|  
+  _|    _|_|    _|  _|            _|      _|    _|  _|    _|  _|        
+  _|    _|  _|  _|    _|_|        _|      _|_|_|    _|    _|  _|        
+  _|    _|    _|_|        _|      _|      _|    _|  _|    _|  _|        
+_|_|_|  _|      _|  _|_|_|        _|      _|    _|    _|_|      _|_|_|  
+
+
+
+_|_|_|_|_|  _|_|_|    _|_|    _|      _|    _|_|_|  
+    _|        _|    _|    _|  _|_|    _|  _|        
+    _|        _|    _|    _|  _|  _|  _|    _|_|    
+    _|        _|    _|    _|  _|    _|_|        _|  
+    _|      _|_|_|    _|_|    _|      _|  _|_|_|                                                      
+
+1.	deal with SMAC-E1_0Z first. file comes in .iso format. I unpacked using PowerISO.
+2.	open up the folder you unpacked to. Double click on the file SETUP (with the blue computer screen) to install the program. Be sure to perform a complete install when prompted.
+3.	do not play the game now or view the readme
+4.	Now do steps 1-3 with other iso youve just downloaded, titled SMACX
+5.	Find the folder youve installed the game to. This should be somewhere like C:\Program Files\Firaxis Games\Sid Meier's Alpha Centauri
+6.	find the file that deals with the configuration settings. It is named Alpha Centauri. Open it with notepad and copy and past the following 2 lines under what?s already written.
+
+[preferences]
+ForceOldVoxelAlgorithm=1
+
+7.	now open the folder you extracted SMACX to and find the folder named crack
+8.	there are 2 files called terran and terranx. Drag these into the installation folder and replace the existing files
+9.	click on the file axstart in the installation folder to start the game. You should make a shortcut to this and put it on your desktop
+10.	you can now delete the folders you extracted the first .isos to, but do not delete the original .isos 
+
+Now youve got a classic game in full working order. There is no way to legally download or purchase this game from the developers so its survival depends on people like you to seed it. As long as you don?t delete the original download folder (and there?s no need to) you will seed whenever your torrent client is running? at the moment I?m up to 3.5 ratio.
+"
+,Hal440,2008-12-02T00:33Z,"one last attempt:
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|I.|N.|S|T|R.|U|C|T.|I.|O|N|S|
++-+-+-+-+-+-+-+-+-+-+-+-+ 
+
+1.	deal with SMAC-E1_0Z first. file comes in .iso format. I unpacked using PowerISO.
+2.	open up the folder you unpacked to. Double click on the file SETUP (with the blue computer screen) to install the program. Be sure to perform a complete install when prompted.
+3.	do not play the game now or view the readme
+4.	Now do steps 1-3 with other iso youve just downloaded, titled SMACX
+5.	Find the folder youve installed the game to. This should be somewhere like C:\Program Files\Firaxis Games\Sid Meier's Alpha Centauri
+6.	find the file that deals with the configuration settings. It is named Alpha Centauri. Open it with notepad and copy and past the following 2 lines under what?s already written.
+
+[preferences]
+ForceOldVoxelAlgorithm=1
+
+7.	now open the folder you extracted SMACX to and find the folder named crack
+8.	there are 2 files called terran and terranx. Drag these into the installation folder and replace the existing files
+9.	click on the file axstart in the installation folder to start the game. You should make a shortcut to this and put it on your desktop
+10.	you can now delete the folders you extracted the first .isos to, but do not delete the original .isos 
+
+Now youve got a classic game in full working order. There is no way to legally download or purchase this game from the developers so its survival depends on people like you to seed it. As long as you don?t delete the original download folder (and there?s no need to) you will seed whenever your torrent client is running? at the moment I?m up to 3.5 ratio."
+,Xiunte,2008-12-05T09:19Z,"Does anyone have the .pdf manual for this or know where I can download it?  There's not one on the disks(I hear that bitch was 250-pages long).  I've searched Google like mad but no one seems to have it.
+
+I remember when this first came out but I never bought it.  I've never played any Sid Meier games so I'm not used to this gameplay.  The game tries to teach you stuff as you play but I find that REALLY cumbersome.  I'd rather have a manual to read for myself."
+,Xiunte,2008-12-07T04:12Z,"Nevermind, found one!
+
+(For all those interested)
+http://www.replacementdocs.com/download.php?view.1072"
+,Dexcimus,2008-12-12T23:03Z,"Roland19  -or-  Anyone else having trouble finding the AlphaCentauri.ini file...   In the Program Files/Sid Meier's Alpha Centauri folder at the top click on Tools-Folder Options-View and in the list beneath 'Hidden Files and Folders' UN-check the box next to ""Hide extensions for known file types"".  You should now be able to see the .ini file."
+,Mazzifh,2008-12-14T15:33Z,"Hi!
+i mount the iso and then the first screen with install, readme and exit shows up. I click on the install button but i just exit to windows..Help! How do i solve the problem!
+thanx!"
+,Bacon_God,2009-02-20T09:57Z,"Thank you for the great torrent, it was weird though. I use Vista 64 bit and everything installed perfectly, after I swapped the exe files I didn't have to worry about anything else."
+,militius,2009-03-16T00:11Z,"Hey!
+
+I have the same problem as Mazzifh. When I click install it just exit after a few secs. I run vista 64-bit just as Bacon_God but I can't install."
+,erik_2099,2009-08-07T05:30Z,"I finally made it work, I also did have several problems I suggest you to burn both ISOs SMAC and SMAX in 2 cds, you can use http://www.freeisoburner.com/ (cause itsfree lol), and after the installation replace the file terranx (C:\Program Files\Firaxis Games\Sid Meier's Alpha Centauri) with the one in the cd drive D:\crack.
+
+ I did a complete install
+Its really simple.. I hope this helps, cause this is the best game ever!!!!!! "
+,Megalanius,2009-08-22T18:30Z,"Hi
+I have the same problem as Mazzifh and militus the setup just won't start. Burning iso onto the cd haven't solved the problem. 
+Plz HELP!!!"
+,garadark,2009-09-27T20:12Z,"If you are having issues running Alien Crossfire but not with running Alpha Centauri, try opening the ISO file using a RAR program like WinRar and Extracting the Terran.exe and Terranx.exe files over the ones already existing in the Alpha Centauri Sub Directory.
+The Alpha Centauri Sub Directory should be located at the following address:
+""C:\Program Files\Firaxis Games\Sid Meier's Alpha Centauri""
+If you need any farther details please leave a comment and i will try and help you. i am current running on Windows Vista and i am unsure if this helps those on XP.
+Good luck."
+,brooketh,2010-01-06T07:16Z,"I'm on Windows 7, I followed all of the instructions, but when I tried to save the altered .ini, it gave an access denied popup. I'm admin and I checked my security for the file and I have full permission. Could I get some advice?"
+,The_Pastmaster,2010-02-17T19:35Z,"Did what was told. Win7 X64 version
+
+Works flawlessly. 
+
++1"
+,retheldirood,2010-02-28T18:27Z,"Players with netbooks or more recent computers (i.e., those not normally capable of resolutions lower than 800x600) may need to set 640x480 compatibility mode in the program's Properties.  After installing the patches, this was the only bug I encountered."
+,rhodensia,2010-03-07T17:31Z,"I am having quite a bit of trouble getting this to work. The readme doesn't really describe much, but yes i have read it. FYI i am using windows 7
+
+I opened the autorun.exe and then the setup.exe from the smac-E1_OZ iso file. Then it exits to windows. This ""alpha.ini"" is no where to be found, i am assuming it is in the installed folder that doesn't exist yet. Also, is the .md5 file the crack? i have never seen that kind before"
+,copycat56,2010-06-11T02:06Z,"""
+1. Make sure you have done a complete installation of alpha centauri.
+2. Make sure you have done a complete installation of Alien Crossfire.
+3. Make sure you have this ForceOldVoxelAlgorithm=1 in your Alpha Centauri ini file. (Its the one with the gold thing on the notepad)
+4. Now you must google a valid no cd patch for Alien Crossfire. I know they are not easy to find as it took me quite awhile to find one that worked for me. I would link it but it is no longer a website. ""
+
+That did the trick, thanks to you :)
+
+However i didnt need a no cd patch, the terranx.exe provided in the crack folder worked just fin"
+,ZugBub,2010-10-06T19:54Z,"Does anyone know if it's possible to get this to run on a netbook with Windows 7 Starter? I can get it to go to the ""Choose Your World"" screen after clicking axstart.exe but then it just goes to the desktop, thinks for a little bit, and does nothing."
+,ZugBub,2010-10-06T20:01Z,Also my .ini file is almost completely blank
+,Darkfears,2010-12-19T17:33Z,"To people getting access denied popups in Win7 when editing files : 
+
+1) Rightclick the program you're using to edit the file (I recommend notepad.exe), and select Run As Administrator.
+2) Drag and drop the file you want to edit onto the open notepad, then edit and save it. "
+,pegasus8319,2011-04-27T07:39Z,damn i really wanted to play this game but i cant even get the install to work any help? i click on install and it just exits to windows........vista 64
+,salamlaith,2012-03-26T06:08Z,"i traid SMAC-E1_0Z and its working very good, no problems so far.
+i didn't have time to try the other one
+i have IBM T43 
+windows 7 / 32bit operation system"
+,teddyballgame9,2012-07-17T06:56Z,"I'm running Windows 7 and I also had an issue with the install screen disappearing on me. However, I was able to fix it by going into Task Manager and shutting down the install from there. Afterward, I got a pop-up asking if I wanted my settings to be altered so the install would run more favorably. I did, then tried again and it worked. I had to do this for both the game and the expansion. Afterward, I put in the patches and everything works just about perfectly. Sometimes the screen blinks to the desktop for a moment, but it jumps back to the game just as quickly."

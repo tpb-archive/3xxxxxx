@@ -1,0 +1,16 @@
+I took the original disk image (dmg) from:
+OSx86 10.4.3 Build 8F1111
+
+Then converted it to ISO and then applied ISO patches:
+JaS 8F1111A Generic Patch v4.2b. It includes all relevant Maxxuss patches and
+drivers, and allows you to install 10.4.3 8F1111A on any x86 system without hassle.
+
+And this is the resultant ISO file. I have burned it and booted it from a PC
+and proceeded to install OS X successfully and was able to get on the net.
+
+This has a working iTunes program, and the other features of 8F1111A are present,
+e.g., SSE3 emulation (so just the SSE2 instructions are mandatory).
+
+Please note there are CPUs and motherboards that are incompatible. Please see the
+hardware compatibility list in the OSx86Project Wiki at: 
+http://wiki.osx86project.org/wiki/index.php/HCL_10.4.3

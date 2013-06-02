@@ -1,0 +1,10 @@
+ http://ja2v113.schtuff.com/
+
+JA2 v1.13 is a mod for the Jagged Alliance 2 game.
+
+We started with the C++ CVS code that DeFrog so wisely ported over to C++.NET. We've located and fixed some bugs in the original and CVS code (as well as our own), and added a host of new features and improvements, as well as externalizing key bits of data to xml.
+
+1.13 is really more of an upgrade to the base game engine than a total conversion. So while we've added new resolutions, improved AI, weather effects and new items, we have left the original maps and quests intact. 1.13 has been structured in such a way that it can be used as a baseline for creating new mods.
+
+
+IMPORTANT: Make sure you read the entire readme before installing 1.13, as it makes significant changes to the game!

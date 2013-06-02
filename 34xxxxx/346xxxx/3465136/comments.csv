@@ -1,0 +1,171 @@
+﻿User Type,Username,Date,Text
+,dskathia@yahoo.com,2006-04-06T08:16Z,"good software
+but hoe to download"
+,Shanghai-J,2006-04-10T00:54Z,"Thx!
+Great Upload."
+,nwtym01,2006-04-13T04:55Z,does this need a serial key?
+,Kryos G.,2006-05-21T23:14Z,"Hi all
+How do I licence the software?
+I tried (unsuccesfully) changing the .lic file. 
+I don't know how to set up the licence in lmtools.exe.
+
+pls help"
+,J333,2006-07-19T23:04Z,"UGS NX3 used to be on THe BAy, but its gone... wheres it gone?  that one was cracked ok..."
+,Dragonad1985,2006-07-24T02:20Z,Pls show us how to change the lic file coz i made an attempt to change it but it always showd the uglmd is down. pls help us.
+,joshmxpx,2006-09-14T01:06Z,"anyone know where to get nastran package?
+
+advanced simulation not possible without it."
+,J333,2006-09-19T01:19Z,"Copied this from elsewhere, someone please post back here if you get it working!!
+
+-----------------------------------------------------
+INSTALLATION INSTRUCTIONS
+
+1. Edit the included ugnx4.lic file, replace the  on the first line with your host name.
+
+2. Install Unigraphics NX FLEXlm, when asked for license file, select the modified ugnx4.lic file.
+After license server installation completed, open C:\Program Files\UGS\License Servers\UGNXFLEXlm\ugnx4.lic
+and make sure the daemon's location is correct.
+eg: the 2nd line of ugnx4.lic shoud be
+DAEMON uglmd ""C:\Program Files\UGS\License Servers\UGNXFLEXlm\uglmd.exe""
+If you plan to install ugnx4 in different directory, please modify uglmd's path in ugnx4.lic
+
+3. Install Unigraphics NX4.
+--------------------------------------------------------
+
+Good Luck! 
+J."
+,Qvardroc,2006-09-25T10:35Z,"Hey J333...
+
+It's nice of you to make an instal guide, but it don't work.. I've try'd, several times and it still don't work.. Kan you come op whith a Good guide to make this software work...??"
+,blackhar,2006-10-19T04:01Z,Ok I downloaded the torrent and i don't see the .lic file.
+,blackhar,2006-10-19T07:04Z,"Ok. I found a .lic file from the previous time I downloaded this and I did everything. I get this message now when I try to open up the program.
+
+Initialization error -
+NX License Error:  The license server has not been started yet, or UGII_LICENSE_FILE is set to the wrong port@host. [-15]"
+,YamahaR1,2006-11-15T22:18Z,"Could somebody help me...?
+
+I've done all the steps in the installation instructions and I've got Nx 4 installed without problems. 
+
+The problem is that I can't open the programme at all. 
+I get this message; 
+Initialization error - UGII_TMP_DIR was set to a directory with an invalid (non-ASCII) character.
+
+What does this mean? I've tried to uninstall and reinstall a hundred times, and to repair the software and so on, but nothing seems to help.... "
+,cmm,2006-12-07T17:45Z,"The first line in the license file is
+
+SERVER ******* ANY 27000
+
+replace ******* with your host name
+
+
+The 2nd line shoud be
+
+DAEMON uglmd ""C:\Program Files\UGS\NX 4.0\UGFLEXLM\uglmd.exe""
+
+replace C:\Program Files\ with the directory you installed NX 4.0 in"
+,mister_jollies,2006-12-12T12:17Z,"how do i open ugnx4.lic, it keeps telling me i have the wrong program. thanks"
+,himmelma,2006-12-13T17:35Z,"is it required to extract all files before installing?
+
+error: cannot find ""data1.cab"" ....it is packed
+
+i tried all different instructions but i couldnt make it!
+
+has anybody more detailed instructions to install UG???
+
+thanks a lot"
+,bevu,2006-12-19T03:16Z,"A question for all troublepeople:
+Do you have internet explorer 7 installed ??
+If you do then there is a solution."
+,carbonraptor,2006-12-23T00:38Z,does anyone achually have this program up and running on their computer?? cus i really dont think anyone does... please let me know... i really like this program and i hae used it in the past but i have yet to see a cracked ugs nx4 achually work.....PLEASE SOMEONE LET ME KNOW IF THIS WORKS.....thanks 
+,bevu,2006-12-23T13:47Z,"I have it running with NO PROBLEM.
+I'm gonna ask this same question again if you need my help, ignore me is your lost:
+
+""A question for all troublepeople: 
+Do you have internet explorer 7 installed ?? 
+If you do then there is a solution."""
+,lburtrk,2006-12-31T19:40Z,"bevu,
+what is the solution if you IE 7?"
+,nospoons,2007-01-20T09:29Z,seed please
+,illblazer,2007-01-24T19:21Z,What is the solution if you have IE7??
+,carbonraptor,2007-02-11T05:52Z,"bevu...  i have internet explorer version 7.0.5730.11 but i still cannot get the program to run, all of us here are having difficulties getting it running we are not trying to ignore you but its hard to understand how using internet explorer 7 will allow the progam to run, ive used unigraphics nx4 at a company and am very fluent with it and still i dont see how the explorer has a affect on the program running or not, the only thing that runs internet explorer in nx4 is the help file when your doing tutorials, but still regardless i have internet explorer the version shown above and it dont work, if you really do have it working tell us exactly how you did it? its my understanding that knowone can hack this program sucessfully.... please respond back, thx"
+,dj_stian,2007-02-14T00:11Z,"you have to delete
+ the psapi.dll file from the
+ %UGII_BASE_DIR%/ugii for NX 4 
+
+and for simulation use vericut"
+,chrisjones,2007-02-16T01:11Z,"I got the program to successfully work with the instructions on this site.  One question I have is why is windows letting me know the program is trying to access the internet?  
+
+Second question where is FEA on NX4 located?"
+,apekatt_med_hatt,2007-02-22T00:57Z,"I have tried everything on this page, but it won`t work.
+I am using ZoneAlarm firewall, and have blocked uglmd.exe and other NX files from accessing the internet. Is that why it isn`t working?
+Should I let them connect, or can something bad happen?"
+,kjetilr,2007-03-02T15:20Z,"can someone make a good install guide for those who have ie 7?
+"
+,kwlewis,2007-04-14T21:00Z,"For all of you who still can not find a good install guide, it is in the first disc.  it is the readme notepad file next to the .lic file that you need to edit in the MAGNiTUDE folder"
+,rauul_the_pool_boy,2007-04-16T22:37Z,"for all having problems--fix is simple.  once installation is complete, please do a search on your pc for psapi.dll.  when pc finds these files there will be one or two that are in system directories.---do not delete these!!!! You do want to delete the psapi.dll file that is in the NX4 base directory.  this was in there due to an earlier conflict between windows nt and windows 2000.  IE7/windows xp already have a psapi.dll file so the one in NX4 is not needed and causes a new problem.  delete and re-start program.  problem solved!"
+,rauul_the_pool_boy,2007-04-16T22:40Z,"I have a new question.   Does anyone know where to get the NX4 ""CAST"" program. (Computer Assisted Self Teach).  It provides a great tutorial on NX4.---you know, so you can actually use the software."
+,seven_in_milan,2007-05-21T23:38Z,I've downloaded the other torrent of this program but I didn't get it installed. Hope to succeed with this one. Looking at the amount of downloads versus the posts posted I have quite high expectations. Anyone has any clarifications to come with that might help during installation?
+,libertybmx,2007-07-28T14:40Z,"hi,
+
+ive successfully downloaded this and have copied the files to cd.  when inserting the cd i need to install the NX FLEXlm.
+
+How do i edit the included ugnx4.lic file and replace the first line with my host name?"
+,libertybmx,2007-07-28T14:48Z,"just read that might not need to install the FLEXlm?  Is this the case?
+
+I tried going straight to the NX install.  But it asks for a License Server.  Any suggestions?
+
+Im not great with cracking software so any help would be great.  "
+,libertybmx,2007-07-30T23:12Z,"ok, ive managed to get this to work fine once i could alter the ugnx4.lic file.  No other mods neccesary.
+
+As previously stated tho, there is a installation guide in the MAGNITUDE folder next to the ugnx4.lic file."
+,dt_jjwoo,2007-09-22T22:10Z,"Hi there,
+
+I couldn't install the software. Would you guys please help.
+
+Thanks a lot"
+,jackito,2007-10-02T22:17Z,"hi just for you that want/need to know. to edit the ugnx4.lic file you just need to open it using notepad, then change the word 'host', on the first line to your computer name, next save the file.  then install the flexlm license server, during the instalation you will browse for the license, browse for the newly modified ugnx4.lic file.  once all installed every time before you use nx4 you will have to go to start>ugs>license options and then select the license bundle you wish to use. then once added you can use the program as you wish.  hope this helps "
+,scubadru,2007-12-24T06:33Z,"Thanks JACKITO...people follow his direction, worked great...it apears that you can only add the top 2 bundles, once done, run UG"
+,woody489,2007-12-25T20:07Z,"I'v finally got this to work
+
+1) Make sure the license file is correctly edited (use note pad). see previous comments eg
+SERVER computer2006 ANY 27000
+DAEMON uglmd ""C:\Program Files\UGS\License Servers\UGNXFLEXlm\uglmd.exe""
+
+2) Rename C:\Program Files\UGS\NX 4.0\UGII\psapi.dll   psapi-old.dll
+
+Many Thanks to the original uploader"
+,Potoka80,2008-02-02T00:54Z,"I have tried everything.
+-changed host with the name in the .lic
+-changed DAEMON uglmd ""C:\Program Files\UGS\License Servers\UGNXFLEXlm\uglmd.exe""
+-Rename psapi.dll  on psapi-old.dll
+
+then when I go in lmtools I set on configur using license file, I browse on the .lic then when I go on stop/reread.....License Server Not Found 
+
+Help!!!"
+,monster-rain,2008-02-10T18:35Z,"I had the same problem alot of ppl here had/have...
+and did what eveyone said, regarding changing the .lic file, and renamed psapi.dll on psapi-old.dll.. but it still didnt work, geving the ""UGII_LICENSE_FILE is set to the wrong port@host. [-15]"" error
+
+and the then chose the a bundle in licence options, and it finally started
+but finally reading j333's post, i installed Unigraphics NX FLEXlm from the nxflex040 folder, "
+,monster-rain,2008-02-10T18:38Z,"edit: I had the same problem alot of ppl here had/have...
+and did what eveyone said, regarding changing the .lic file, and renamed psapi.dll on psapi-old.dll.. but it still didnt work, giving the ""UGII_LICENSE_FILE is set to the wrong port@host. [-15]"" error
+
+but after reading j333's post, i installed Unigraphics NX FLEXlm from the nxflex040 folder,
+and the then chose the a bundle in licence options, and it finally started"
+,viewsonic2008,2008-05-17T22:57Z,"Good, working fine. Thanx. "
+,viewsonic2008,2008-05-17T22:58Z,Anyone knows where to find CAST.
+,rutholph,2008-07-26T12:24Z,"With Vista Ultimate Ihave done all tricks described here and in the enclosed installation instructions.
+When I try to Install UGS NX 4.0 FLEXlm I get the following error :
+Error 1920.Service Unigraphics License Server (uglmd) failed to start. Verify that you have sufficient privileges to start system services.
+
+Still I have turned off UAC and set System and Administrators rights to full control for the complete Program Files folder.
+
+Can anybody help me here ?"
+,philets77,2008-10-04T14:38Z,"Hi, I try to install nx4 on Vista. I tried 2 things:
+1- Install nx4 only and follow the instruction with the cd (change host name in the liscence and copy in where thet said). In the lmtools, I browse my liscence file and when I click on the Stop/Reread tab, I get the message that ''License Server Not Found''.
+2- I un-installed it. I re-install with installing first the liscense server but I get the following error: Error 1920.Service Unigraphics License Server (uglmd) failed to start. Verify that you have sufficient privileges to start system services.
+
+Does someone can help? Cheers"
+,69sam,2009-10-08T06:15Z,"for those with vista, it does work
+"
+,69sam,2009-10-08T06:16Z,just search on google for how to install nx4 on vista

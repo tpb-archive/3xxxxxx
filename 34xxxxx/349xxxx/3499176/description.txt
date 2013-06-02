@@ -1,0 +1,7 @@
+Tool for flushing the Prefetch log and controlling the Prefetch Parameters.
+
+What Is Prefetch
+
+Windows XP monitors the files that are used when the computer starts and when you start applications. By monitoring these files, Windows XP can prefetch them. Prefetching data is the process whereby data that is expected to be requested is read ahead into the cache. Prefetching boot files and applications decreases the time needed to start Windows XP and start applications.
+
+This information is logged and stored on your hard drive taking up space and requiring a process to be kept running monitoring which applications are being run. This has a performance impact on your PC. Disabling the Prefetch function or at least only enabling it for the Boot Files will allow you to free up some system resources and preserve some disk space.

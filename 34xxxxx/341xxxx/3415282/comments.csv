@@ -1,0 +1,48 @@
+﻿User Type,Username,Date,Text
+,Sebjo,2006-01-05T22:32Z,"Where do I find the serialkey and the other password stuff???
+Is this a beta or trail version??
+
+Sebjo"
+,theham,2006-01-25T23:22Z,"if someone could tell me how to get this working id appreciate it please :)
+
+got the keymaker, but all i get is a license.dat file,  but when i put it in the etc folder, maya give an error saying that it cant connect to the server..
+
+so if you got it working, could you please give a hint as to what im doing wrong.. thnx!"
+,Fisiltut,2006-01-26T14:47Z,"Hi!
+I`ve downloaded the keygen, and patched the file in the pluginfolder, but when I try to generate the licensefile I just get a error and the keygen shuts down.. Can anybody help me?"
+,psr75,2006-02-20T18:24Z,"6) Open up Maya and load up the plugin - window>settingspreferences>plugin-manager>renderman_for_maya.mll - Check loaded. 
+
+7) Close Maya and re-open it just to test if it's working - you should be able to access the plugin from Display Render Settings. 
+
+8) congratulations "
+,psr75,2006-02-20T18:24Z,"4) Go to pixar licence server 3.0 and also copy the file into there
+If you don't have the pixar license server 3.0 download(pixar_license_3.0.msi) and install it.  
+
+5) Start the server from start>run>services.msc - Highlight ""Pixar License Server"" from the list and choose Start."
+,psr75,2006-02-20T18:25Z,"Install
+
+1) Use your computer name as server 
+
+2) Use your Mac address (you'l find it Maya>licence utilities>Ethernet address) or by ipconfig /all from CMD in windows) 
+generate a licence file - license.dat - and patch C:Program FilesPixarRenderManForMaya7.0-1.0plug-ins 
+
+3) Copy the licence file - license.dat - to the C:Program FilesPixarRenderManForMaya7.0-1.0etc"
+,funkybuddha,2006-02-21T18:01Z,"The previous instructions look easy enough to follow, but the proble is when I run the keygen and try to generate the dat file it just says there's an error with keygen.exe and just shuts down.  Can't complete the rest of the procedure without a dat file.  anyone else have this problem or know of a solution?  Any help would be greatly appreciated."
+,sockdart,2006-03-15T03:38Z,"This site has a walkthrough of how to do it, and there's also the license 3.0 file on there somewhere.
+But it's in Russian, so babelfish it.
+
+http://www.stilia.ru/forums/index.php?showtopic=13"
+,sebbarker,2006-03-17T03:09Z,"Hey, folowed psr75's walk through, did the russian one as well. Still no joy, I am doing somthing wrong..
+
+When I try to render patch the Program FilesPixarRenderManForMaya7.0-1.0plug-ins folder, it just sais ""not patched"". I am sure this is my problem....... Any Idea's?
+
+Thanks."
+,niknakbearcub,2006-04-23T21:25Z,where do I find the pixar liceense 3.0 server?
+,sebbarker,2006-05-03T12:41Z,any one fancy uploading version 1.2 ;)
+,LatinMessiah,2006-07-03T18:01Z,"Where the hell to I download the Pixar License Server?
+
+-LM"
+,mokiloshi,2006-07-05T08:51Z,anyone know what must be done with the RenderMan_for_Maya.ini?
+,domezilla,2007-01-19T09:18Z,"this is ridiculous.  someone please post up some real instructions... the ones that psr75 went through were fine, i generated the license and patched the file but it STILL asks for login info.  someone please help!!!!!"
+,Joltting,2007-12-16T03:10Z,Please Seed this file.
+,Joltting,2007-12-17T06:14Z,Where can I get Licence Server 3.0?

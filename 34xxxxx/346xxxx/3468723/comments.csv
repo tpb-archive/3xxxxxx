@@ -1,0 +1,29 @@
+﻿User Type,Username,Date,Text
+,avkx,2006-05-09T12:39Z,Request: Vox ATC with AT&T Natural Voices
+,agnav67,2006-05-12T11:23Z,"Anyone reseed, please?! Thx"
+,gavind87,2006-07-09T23:40Z,Request : Radar Contact 4 with a working crack
+,David-7237,2006-08-02T22:15Z,"does it need to be cracked after the update? mine isn't cracked and need the crack anyway...
+"
+,illtrixtaj,2006-08-05T21:02Z,can someone point us toward a crack?
+,David-7237,2006-08-07T21:42Z,"IS THERE A crack?
+
+someone please answer...
+
+??!!!"
+,kendo66,2006-08-08T00:52Z,"There was a crack for RC4 posted on the old PB forums, but i guess its now lost in the mist of time.
+
+(the crack provided with it just gives a CTD - cant remember how to get round - something about a hex editor IIRC?)"
+,Bob_T,2006-08-13T22:19Z,"kendo66, I believe you are correct, you needed a hex editor of some sort to get it working. 
+
+Which is a shame, since I'm getting around to reinstalling RC4, but can't get it to work as I don't know what else we needed. 
+
+Hopefully someone can help us with that."
+,Trini86,2006-08-20T02:30Z,"Here is the info on the HEX editor..... you will need a copy of ""OllyDbg.exe """
+,Trini86,2006-08-20T02:34Z,How to use it is a long process that i will have to leave as a torrent for you to dl
+,Trini86,2006-08-20T02:48Z,you can find the information for using the hex editor for RC4 here: http://thepiratebay.org/details.php?id=3514247
+,obi3767,2006-08-20T09:11Z,Please seed~ stucka t 95.8%
+,DVA2855,2006-11-14T06:59Z,"The way I got mine to work was:
+
+Ran the normal installation file,
+Then ran that OLLYDBG after I copied the Dumpserial into the directory where I installed RC4,
+Then run the DumpSerial with OLLYDBG and it will bring you up to the registration screen, Put your name into the lower box where it says to input your key, hit the register button, and then it will go back to OLLYDBG, find your unicode, then exit out of OLLYDBG, and run the normal start exe for RC4, it will take you to the registration screen again, input your name and the key it generated for you and it works"

@@ -1,0 +1,58 @@
+I'm re-uploading this as it seems to have dissapeared during the raid. It's exactly the same torrent, so if you downloaded the last one you don't have to do anything.
+
+============================================================
+
+The Roswell crash was real. There were survivors. And there are descendants....
+
+Ripped with DVD::Rip 0.52.5 and Transcode 0.6.14
+
+[Video]
+Video format:          PAL
+FPS:                   25
+Size:                  704 x 400
+Video bitrate (kbps):  1041-1105
+Video codec:           xvid
+2-pass-encoded:        yes
+Fast resizing:         no
+Deinterlacer filter:   Zoom to full frame (slow)
+Antialiasing filter:   No antialiasing
+
+[Audio]
+Language:              en
+Audio codec:           vorbis
+Channels:              2
+Sample rate:           48000
+Audio quality:         4
+
+
+============================================================
+As there seems to be some general confusion, and someone explicitly asked last time, here is some info on the format of the rip.
+
+The episodes are ripped on a Linux system using only open source software, and the resulting files follows open standards, so in theory there should be no problems playing them.
+However, real life is another matter. The episodes all play just fine in Kaffeine on Linux, so the files aren't broken. However some players are.
+
+Short story:
+Use Kaffine (Linux), MPlayer (Linux), VLC (Linux, Mac OS X, Windows) or Media Player Classic (Windows) to play the episodes on a computer and you should encounter no problems.
+Neither Windows Media Player nor Winamp will work, as neither (correctly) supports the OGG container.
+Only a selected few hardware DVD players will be able to play the episodes. The keywords to look for in the supported formats section of the technical specification is "OGG", "Vorbis" and "Xvid". If you don't like reading technospeech you can just burn some episodes on a CD or DVD and try.
+
+Long story:
+All media files contains one or more tracks. Each track consists of one type of data (audio, video, text or metadata), and there can be multiple tracks of the same type (different camera angles, different spoken or subtitled languages etc). However, as often with computer stuff, there are no single standard on how to do so, but rather qite a few competing ones. Basically there are two things a player have to support to be able to play a file: the container format of the file (determining how to access the data of each track) and the codec of each track (determining how to interpret the data).
+
+These episodes are using an OGG container, Xvid encoded video and Vorbis encoded audio.
+
+OGG is a 100% open and patent-free container standard, and can freely be supported by any application (or DVD firmware) whose author wants to do so. The technical merits of the format includes support for any combination of multiple video, audio, subtitle and metadata tracks, using any codec. By convention you name files without video "*.ogg" and files with video "*.ogm", but there is no actual difference, and most applications will work just fine with files with the wrong file-name.
+
+AVI is a similar container, but it isn't open, and thus only Microsoft is able to *reliable* support it, as everyone else have to guess on how it works. It only supports exactly one video track (using any codec), and at least one audio track (with a limited codec support). It can't contain subtitles nor metadata. Files are usually named "*.avi".
+
+MPEG is another common container. It is an open standard, but patented, so application authors must pay to legally support it. It can contain audio, video and metadata, but only using MPEG sanctioned codecs. Video files are usually named *.mpeg or *.mpg, while audio-only files are named after the codec of the audio track: "*.mp1" for MPEG Audio Level 1, "*.mp2" for MPEG Audio Level 2 and "*.mp3" for MPEG Audio Level 3.
+
+Other (less used) containers are ASF (Video: *.wmv, Audio: *.wma, Either: *.asf), QuickTime (Video: *.mov), MPEG-4 (Video: *.mp4) etc.
+
+Some people incorrectly speak of ogg as an alternative to mp3. They usually mean an OGG container with only a single audio track, encoded with the Vorbis codec. Some players even incorrectly states "ogg support" when they only supports this combination. Such players won't work with these episodes. Winamp is one such player. Windows Media Player is not, but it doesn't support OGG at all.
+
+OGG (container format) and Vorbis (general-purpose audio codec), together with Speex (speech optimized audio codec), FLAC (lossless audio codec), Theora (video codec), OggWritt (text codec for subtitles or lyrics) and Ogg Metadata (metadata codec), are part of the Xiph.org family. They are all 100% open and patent-free standards freely available for anyone to support. Xiph.org also offers, free of charge, tools and libraries making support easy, both for open source and proprietary software and firmware. If your favorite player doesn't support them, complain and direct the author to www.xiph.org.
+
+I'm using Xvid instead of Theora as video codec, as it is a competing 100% open standard giving better quality on the same filesize. Most AVI files nowadays contains video encoded with the Xvid codec, so if you can play them the video of these episodes should impose no problems. OGG and Vorbis support is less common, but it does exist both in software media players and hardware DVD players.
+
+Good luck!

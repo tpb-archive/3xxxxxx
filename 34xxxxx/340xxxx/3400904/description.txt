@@ -1,0 +1,39 @@
+
+* XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC
+----------------------------------------------------------------------------
+XBMC CVS 2005-10-23 (23rd of October 2005)
+
+This is a BAREBONE package, with just a few small additions compared 
+to what was in XBMC CVS repository when this build was compiled:
+
+   + BritneysPAIRS's ~110 choosen Milkdrop presets (visualisations: MD - BPs Selection)
+   + Mouton's QuickTimeBrowser 1.37 SCRIPT (scripts: QuickTimeBrowser1.37)
+   + EnderW's XBMCScripts Installer 1.0 SCRIPT (scripts: XBMCScripts)
+   + Codecs for mplayer (systemplayersmplayercodecs:*)
+----------------------------------------------------------------------------
+* T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH
+
+
+NOTEWORTHY CHANGES IN THIS BUILD____________________________________________
+
+
+INFORMATION_________________________________________________________________
+   XBMC's online manual can be found at http://manual.xboxmediacenter.com .
+   Any questions or support issues, are best asked in the XBMC support forums, 
+   which are located at http://forums.xboxmediacenter.com, 
+   or in the official Irc support channel, #xbmc on EFnet. 
+   (NOTE folks in #xbmc can't help with info where to find THIS build)
+
+   If you want other skins (make sure they are up-to-date and compatible before installing them), see
+   o http://www.allxboxskins.com/skins/index.php?app=XBMC&cat=0  or
+   o http://www.xbox-skins.net/forums/index.php?dlcategory=7
+
+   If you want other scripts (extra 3rd party components), see
+   o http://www.xbmcscripts.com , or use the included script installer!
+
+   The xbe has been retail patched and was built using v5849 of the XDK.
+
+   If you want to remove the startup sound or logo, remove start.wav or splash.png from the media folder.
+
+   XBMC Changelog is included, see Changelog.txt
+   Skin Changelog is included, see Changelog_PM.txt

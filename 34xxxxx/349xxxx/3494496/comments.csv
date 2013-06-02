@@ -1,0 +1,12 @@
+﻿User Type,Username,Date,Text
+,brock_gonad,2006-06-11T21:56Z,"Doesn't work for me. I didn't have any notifications before, now I have the 4 second boot delay and the notifier on shutdown...
+
+XP SP2 in Canada"
+,sirdan,2006-06-11T22:26Z,"Same here, no go. Had to use system restore to get rid of the notifier."
+[V],Spoorkees75,2006-06-11T22:49Z,"It seems to me these patches don't work, or lead to the opposit, if no notification before, when applied to WinXP Corp versions.
+And after patching I still cannot enter the WU site without validation which, of course, fails."
+,PointlessName,2006-06-15T15:11Z,"Works ok, all I did was replace the legitcheckcontrol.dll in windows/system32 with the one in here.  
+
+Thats all thats required to get windows update working  (no need to run any program in the archive).  
+
+If your daft enough to of allowed the notification program to install then thats another story! ;-)"

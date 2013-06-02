@@ -1,0 +1,19 @@
+This is made by me a simple script utility which enables you to scan Windows (and other supported through MBSA products, like Office) for security vulnerabilities. The utility assumes, that you know the basics of MBSA 2.0 (which isn\'t difficult).
+
+The scripts are supposed to be used in the following way:
+1. On the beginning, on the target computer, you should install (one-time only) the MBSA client and possible security updates that are required for this client to run. You can do it by running the file \"setup.bat\". Some machines might need reboot in order to fully apply the \"WindowsUpdateAgent20-x86.exe\" update. However computer will not reboot on its own, you have to reboot it manualy.
+
+2. Upload all files to your pen-drive (or just the folder \"wsusscan\") and go to the internet cafe or any computer which is connected to the internet. 
+3. Run the file \"download.bat\" from the pendrive and wait until \"wsusscan.cab\" is downloaded. 
+4. Go back to the target computer, and run \"local_upload & scan.bat\", and wait until the security check is done.
+After the security check is done, the MBSA client will pop-up. If the scan was successful, you should see the results under \"view existing security reports\". You will have an option to download directly (or copy the link) of the missing security updates.
+
+
+Compatibility:
+These scripts will work on Polish and English version of Windows XP. They also asume, that user\'s Local settings are stored on the %systemdrive% (I haven\'t yet seen a computer where it wouldn\'t be the case)
+
+Note:
+a) The scripts have to temporarily turn on Windows Update service in order to let the MBSA do the scan. It is however disabled after the scan is complete (you don\'t need Windows Update anymore with this utlity, do you?) 
+b) You might still have a chance to download more files through the normal www.windowsupdate.com . But according to MS, the extra files will not be security patches but extra tools/drivers, because MBSA is certified to find all security upodates missing.
+
+Creation date: 8 VI 2006

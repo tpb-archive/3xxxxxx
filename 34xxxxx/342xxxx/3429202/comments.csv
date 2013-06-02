@@ -1,0 +1,98 @@
+﻿User Type,Username,Date,Text
+,pnutus,2006-01-09T21:24Z,Is this bootable?
+,jawsfun,2006-01-12T23:51Z,"I'm with pnutus, once burned to a CD is this image bootable? Also is it a straight OS 9 CD or is it one that came with a new computer (which will only allow install on an identical model machine)?"
+,dome-of-the rock,2006-01-15T14:23Z,"once burned to disc the image says""Power Mac G4 Install""
+Deson' t look like an universal installer.
+
+It doesn't boot either.
+
+:-("
+,dome-of-the rock,2006-01-15T15:48Z,"hi again,  the read me says:                                                 
+.................................................. just installed it onto 9.1 on my G4. It wouldn' t recognize the Tiger volume so I had to re-initialize it. Doesn' t seem to work on my G5."
+,dome-of-the rock,2006-01-15T15:48Z,"You can install this version of Mac OS 9.2 on any of the following computers: Power Mac G4, Power Macintosh G3, PowerBook G4, PowerBook G3 (except the original PowerBook G3), iMac, and iBook"
+,res1492,2006-01-21T13:15Z,"OK i have UP'ed the read me file from the image here
+http://thepiratebay.org/details.php?id=3433812
+Check it out before you DL and start flaming me"
+,res1492,2006-01-21T13:23Z,"This is the list of folders on the image 
+Looking at this i would say that it is Bootable...its got all the system floders it needs to boot from...
+Utilities(Folder)
+Mac OS Install(Installer)
+Install Macintosh Software(Installer)
+Install Mac OS 9.2.pdf
+Applications (Mac OS 9)(Folder)
+System Folder(Folder)
+Late Breaking News.txt
+CD Extras(Folder)
+Before You Install.txt
+Software Installers(Folder)"
+,Nostridamus,2006-01-23T21:36Z,Will this work for PearPC?
+,Nostridamus,2006-01-24T21:58Z,Anyone still seeding this?
+,Martinm74,2006-02-22T03:45Z,"Please help me
+Does anyone know how to burn this file using a PC with windows?
+using the dmg2iso utility, the dmg is converted into a corrupt iso file..."
+,Rhinoxx,2006-03-12T10:52Z,"No, PearPC only runs Mac OS 10, it will not boot on pearpc!"
+,speaker83,2006-04-20T15:44Z,"Apple really should make this freeware... every once in a while you come up with something that requires classic mode and there you are, your old OS 9 cd is somewhere in the basement and you havn't seen it in 4 years... Thx for this..."
+,enozcinex,2006-04-22T22:37Z,"Apple shouldn't make this freeware.
+
+Classic is still used a lot today. The 2 top reasons it is used is because:
+1. For those who don't like X 
+2. For software not supported by X
+
+For you jack a**es who are stealing Mac software you can goto hell.
+
+Just be a shame if apple found out about you guys that are downloading this illegally :D"
+,VaderHader,2006-05-04T02:33Z,"nor could I boot my B&W
+
+:'("
+,mark429,2006-09-30T06:25Z,"I can't get this to boot properly on a g3 600 iMac
+I've tried burning with Toast 7.1 Disk Utility and I've even tried the restore image to a partition trick It allows me to select it as a startup disk but then just flashes the floppy icon and never boots to an installer"
+,spiralgirl,2006-12-17T06:44Z,This is available free from apple.  That is how I upgraded my old iMac G3 from OS 9.0.4 to 9.2  You just update one by one.  After 9.2 it isn't free anymore.
+,themano,2007-02-20T07:00Z,"you need to burn this at a read speed of 1x and the lowest write speed you can.  as well as on top of that, it has to be on the fly.  if you can't do that, get a pc."
+,unrar,2007-04-12T18:22Z,"i have tried using this to install classic support, but i ran into a dead end.for those of us who are unfortunate enough to have a mac that doesn't boot from an os 9 cd, this will not work. if you mount the image from within os x, it says the volume isn't writeable. i can't boot the cd either. not to say it isn't bootable, but my mac doesn't support it. for those of you looking for classic support, try this one:
+
+http://thepiratebay.org/tor/3364073/Mac_OS_9.2.2_for_Classic_in_Mac_OS_X_in_16_languages
+
+i haven't tried it myself yet, but it seems to be the shit. as soon as i get it i will post aqain."
+,xXHustlerXx,2007-05-19T19:06Z,"How do I burn this? I have a iMac built year 1999. I think it only takes CD-R discs.
+So does it boot as soon as I put the disc in?
+I found the computer, so when I install this new version, will all the users and programs dissapear when I install the new one???"
+,xXHustlerXx,2007-05-19T20:58Z,"By The Way. It's Installed with 
+
+Mac OS 9.2 and I can't remember my password.
+
+What should I do? I have heard that there is two buttons I should press, but can't remember which.
+
+What should I do? Glad for any help."
+,sgshredhead,2007-05-22T06:38Z,"Um, downloaded over six thousand times... why can't I seem to be able to install OS 9... I burned the .dmg using the Disk Utility app under Utilities. Um.. then restart and hold ""C"" to install it on my other drive? All I get is this flashing question-mark folder and then OS X boots up... anyone? Help? Please?"
+,spirochete,2007-09-09T21:47Z,"I don't think there is a ""one disc fits all"" solution when it comes to Mac OS 9.2 - .... Apple switched from using a firmware-only boot ROMs in the machines to a soft-ROM at some point in the mid-90s. 
+
+If you look in the system folder you will see a file: - MacOS ROM..... This tends to explain why virtually every machine that arrived between 1999 and 2002 had its own 'localised' OS9 / restore disc, but I don't think the ROM file is the whole story on its own.
+
+Earlier versions (e.g. OS 7) contained a machine specific file called the 'enabler' and it was a case of working out which version suited which machine.
+
+After the dual 1.25 mirror door G5 direct OS 9 booting wasn't an option - just the classic environment under OS X.
+
+Don't think it was a case of Apple 'preventing' machines booting / using OS 9 but more a case of ceasing to write 'enabled' versions of OS 9 for later hardware configurations.
+
+IF you can find a copy of the discs for your specific model you'll be up and running"
+,spirochete,2007-09-09T21:50Z,Correction to above...should of course be :- 'Dual 1.25 Mirror Door G4 powermac
+,spirochete,2007-09-09T22:03Z,"TIP:-
+
+For getting Classic up and running
+
+If you can find a copy of an early OS X restore DVD (10.0 or 10.1) and open up / view the hidden files by using TinkerTool or similar - you may well find a 'hidden' OS 9 folder. Not all discs have it, the earlier the disc the more chance of it being there. Copy the hidden OS 9.2 system folder to your OSX boot disc and point 'Classic' at it - there is a good chance that it'll run OK.
+
+I've used this method quite a few times - its not a 'full-blown' copy of OS 9.2 but there's enough there to run most things under Classic.
+
+ALSO:-
+
+With OS 9 .1 or 9.2You'll may well get a prompt at some point to install a later version of Quicktime.  The 'last' OS 9 version available at Apple (6.0.3) is in fact a full version and not just an upgrade as their site states!
+
+If you have the right user name and password ( work that out for yourself from usual sources), it WILL install as a full version of QT 6."
+,pushf12,2008-02-23T21:27Z,"Guys, none of the G5 Power Macs can boot into Mac OS 9 natively.  The last and fastest Apple computer that can run OS 9 on the iron was the Power Mac G4 1.25 GHz ""Windtunnel"".
+
+G5 computers are limited to running Mac OS 9.2.2 in the Classic environment.
+
+... and it is a bummer that Apple removed the Classic Environment in Mac OS X 10.5."
+,eddie303,2010-02-04T18:30Z,"Hello, anybody tried this if it boots on an eMac ? I am desperately searching for a 9.2.2 version for a second generation eMac :("
+,narftroz,2010-02-13T17:28Z,I used emulation software after burning it with nero 8 and it mounted and installed just fine.

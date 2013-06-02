@@ -1,0 +1,33 @@
+
+
+OK some people have seen the batchfile,the registry file,and hide.exe and go shooting off messages
+about a possible VIRUS.Nothing could be further from the truth.
+
+hide.exe /w  C:\\\\WINDOWS\\\\system32\\\\cmd.exe  /k  cd  C:\\\\Program Files\\\\trayit &start /min trayit!.exe & exit
+
+this is the command inside trayit.reg the registry file,Basically hide.exe is hiding the windows command prompt
+the /k switch allows me to pass a command to the system in this case it is to go to(cd) C:\\\\Program Files\\\\trayit
+& means continue another command after the 1st in this case it is start/min trayit!.exe &exit
+start /min means trayit!.exe starts minimized no gui
+& exit means the command prompt exits.
+
+This was all done because if you check the box that says start with system in the trayit program the the program pops up in your face upon boot.I did not want that.hide.exe to hide the command prompt is simply to hide it so my users dont see it 
+flash (even if the did they would see this (cd  C:\\\\Program Files\\\\trayit &start /min trayit!.exe & exit) happening.
+that is it. No EVIL No VIRUS.
+
+                     \"the batch file\" RIGHT CLICK CLICK EDIT everything being done is right there every step
+                     of the installation.
+                     \"the registry file\" was just explained in the above paragraphs.its a registry entry to
+                     hide the gui when starting the application at logon.The 1st run of the application
+                     you will get a popup because the application is not configured yet,after that it will start  
+                     without bothering you.
+
+          here is an example of the no GUI trick.(note it doesn\'t work with every application)
+          EXAMPLE:make Windows Media Player the default for mp3 playback,place an mp3 on your desktop
+          click>start>run>type cmd>hit enter type in      cd desktop &start /min your.mp3   
+          Windows Media Player is now playing your mp3 without a GUI.
+          no EVIL no VIRUS just a nice feature of Windows XP.
+
+         People may look at hide.exe as a hacktool if it was rest assured that my up to date
+         Symantec anti-virus would have flagged it. Besides I got this from a system admin friend of
+         mine who uses it to hide the logon scripts from his users on a windows network.

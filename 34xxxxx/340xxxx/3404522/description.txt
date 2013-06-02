@@ -1,0 +1,30 @@
+X3: Reunion 
+
+X³: REUNION utilises a new generation game engine, developed to immerse the player into the most realistic, living universe, ever experienced. Extensive development has gone into the X³ engine, making full use of DirectX 9 technology, to create dramatic visual effects and stunningly realistic starships. The economy model in X³: REUNION is more complex than any previous X game. Coupled with the massively enhanced A.L. (Artificial Life) system, X³: REUNION will present players with an ever changing, evolving universe; where a player's actions really can shape the future of the universe. 
+
+Released: Oct 2005 
+Game Type: 3D Simulation 
+Developer: EgoSoft 
+Publisher: Deep Silver 
+
+Homepages: 
+Code: 
+http://www.egosoft.com/games/x3/info_en.php 
+
+
+Install: 
+(This may not apply to you)
+
+1. You need Windows XP SP2 
+2. IDE PCI Controller Drivers MUST be OS STANDARD IDE PCI Drivers 
+3. Unpack file sfcure01 located into archive sfcuretool.rar, 
+launch file !setup.bat through MS-Dos prompt and reboot your box 
+4. If you have AMD64, then use sfcure_x64 instead 
+5. Mount Alcohol 120 image and install the game 
+6. Once installation is complete, launch sfdrup 2 update StarForce3 drivers and reboot box 
+7. Launch !start.bat through MS-Dos Prompt, file located in the tools.rar pack 
+8. Use StarForce Nightmare & launch sfn.exe 
+9. Select in this order: "Disable node", "Disable CD", "Disable node", and the IDE channel you use for real CD/DVD units ( Pr. Slave, Sc. Master or Sc. Slave ), depending on how your IDE units are connected 
+10. Launch the game and when asked use the serial
+
+*When Daemon Tools 4 is released in 2 weeks you will no longer have to do any of this.

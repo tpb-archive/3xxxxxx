@@ -1,0 +1,24 @@
+-=[ Explanation ]=-
+ 
+FCE Ultra GC is a modified port of the FCE Ultra 0.98.12 Nintendo Entertainment
+system for x86 (Windows/Linux) PC's. In English you can play NES games on your 
+GameCube using either a softmod and/or modchip from a DVD or via a networked 
+connection to your PC. If you're unfamiliar with what softmods/modchips please 
+visit the site listed at the bottom of this document.
+
+-=[ What's New? ]=-
+ 
+* GX Graphic Filter Added - Super Fast/Smooth
+* Joilet FileSystem Support for DVD
+* Memory Card Idle Bug Fixed
+
+-=[ Features ]=-
+
+* NES Compatibility Based on v0.98.12
+* Sound Filters
+* Graphics Filters (GX Chipset, Cheesy and 2x)
+* 1-2 Player Support
+* Real Time Saving (RTS) from Memory Card
+* Load Games from ISO9660 DVD
+* Supports Joilet Filesystem w/Relaxed Options
+* Fast Load from Qoob or Viper

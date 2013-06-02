@@ -1,0 +1,27 @@
+25-11-2005 added: <loop> tag to MultiImage control.
+25-11-2005 fixed: Textures outside of Textures.xpr were failing to load.
+25-11-2005 fixed: Fading code for homepage could cause multiple images to show in some cases (eg PM2).
+23-11-2005 added: Skin.HasTheme(themename) visibility condition.
+23-11-2005 fixed: [ 1358363 ] AlbumInfo for none existing albums thanks to pade2.
+23-11-2005 fixed:   Removed invalid .jpg files from CVS.
+23-11-2005 changed: Default album cover in skin is now "defaultAlbumCover.png"
+23-11-2005 changed: Added flag to directory classes to specify whether they should prompt the user for authentication. Background scanners (picture thumb loader, RAM control) turn this flag off.
+23-11-2005 changed: Redid the skin theme code.  See the online manual for information on skin themes.
+23-11-2005 fixed: Buttonscroller didn't obey visibility conditions.
+23-11-2005 added: <randomize> and <keepaspectratio> tags to the multiimage control.
+21-11-2005 added: you can now specify where to store playlists. they are now separated in video and music sections.
+21-11-2005 fixed: delete in my video title view renamed to remove title to avoid confusion. also removed a file-level operation (rename file) from the title view context menu.
+21-11-2005 fixed: somehow a hack for dvd menu's was removed from the dvdplayer. Added it back again
+21-11-2005 added: New multiimage control.  A mini slideshow control.
+19-11-2005 added: you can now use relative paths in combination with $HOME in xboxmediacenter.xml. hi to jjsmither. WARNING: REMEMBER THAT $HOME IS Q: BY DEFAULT, NOT THE ACTUAL XBMC DIRECTORY PATH.
+18-11-2005 updated: Spanish language file (Thnx to jose_t)
+18-11-2005 updated: Norwegian language file (Thnx to vnm)
+18-11-2005 updated: Korean language file (Thnx to AkoXko)
+18-11-2005 updated: Italian language file (Thnx to kotix)
+18-11-2005 updated: German language file
+18-11-2005 updated: French language file (Thnx to flymaster)
+18-11-2005 updated: Finnish language file (Thnx to jutski)
+18-11-2005 updated: Danish language file (Thnx to hugener)
+18-11-2005 updated: Chinese (Traditional) language file (Thnx to omenpica)
+18-11-2005 cleanup: Removed some code duplication of the the delete/rename code in Pictures/Video/Music.
+17-11-2005 fixed: Location of the video preview window was incorrectly calibrated.

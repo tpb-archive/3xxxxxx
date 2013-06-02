@@ -1,0 +1,65 @@
+Release.............: XBox Media Center 1.1.0
+ CVS/Compile Date....: 2005-12-11
+ Compiler Versions...: XDK 5933, Visual Studio .NET 2003
+
+ Skins...............: Project Mayhem III
+                       Webserver interface by KanadaKid
+
+ Visualisations......: The 110 best Milkdrop presets by BritneysPAIRS
+
+ Scripts.............: XBMC Scripts Installer by EnderW
+                       Submenueditor v1.1 by Rocko
+                       Changelog by SveinT
+                       CNN Videos v1.0.1 by Asteron
+                       FlexiBrowser v1.4 by Bernd
+                       Global Alternate News v0.1 by Accumulator
+                       KMLBrowse by Gabriel
+                       LaunchBrowser v1.8 by Flash
+                       Ooba v1.1 by Van der Phunck
+                       QuickTimeBrowser 1.37 by Mouton (Fixed version)
+                       Stupid Videos by Nishil
+  
+ Custom Mods.........: Custom mplayer.dll compiled from CVS with GCC 3.4.4
+                       using --disable-libavformat. Greatly reduces the size of 
+                       the dll at the cost of not being able to demux a few
+                       obscure formats.
+                       WMV9, RealVideo and Quicktime codecs included and tested.
+                       Graphics of the webserver interface optimized.
+                       Reduced the bloated scripts from 3601KB to 941KB.
+                       Added weather display and IP address to home screen.
+                       Scripts menu edited to include added scripts.
+
+ Release Notes.......: Replaced the huge set of Mildrop presets with a set
+                       containing only the best ones.
+                       To remove either weather or IP address from home screen:
+                       Edit skin\Project Mayhem III\PAL\Home.xml (or PAL16x9).
+                       At the bottom of the file, change <visable> from true to
+                       false for the control you want to remove.
+
+ XBMC Changelog......:
+
+ - 11-12-2005 fixed..: CFileXBMSP::Stat(), set errno correctly (fixes
+                       dvdfolders).
+ - 10-12-2005 fixed..: Clicking on "All Albums" items in Top 100, Recently
+                       Played and Recently Added Albums (Note: Queueing is still
+                       broken.  It gets *ALL* songs from the database.)
+ - 10-12-2005 changed: analog buttons can't turn off screensaver. plasma owners
+                       with flaky controllers (hi poing!) rejoice.
+ - 10-12-2005 fixed..: browse for subtitles (forgot some code)
+ - 10-12-2005 fixed..: Top 100 items in Music Library
+
+ MPlayer Changelog...:
+
+ - 04-10-2005 updated: ffmpeg to mplayerhq cvs version as of now. fixes a few
+                       avi's that where causing problems + a few other stuff
+ - 06-09-2005 changed: when resuming normal playback speed, video would jump
+                       ahead a couple of seconds. didn't work well
+ - 22-08-2005 updated: libvorbis interface to mplayer cvs (ad_libvorbis.c:1.18),
+                       fixes vorbis decoding in both matroska and ogm containers
+
+ PM III Changelog....: 
+
+ - 04-12-2005 fixed..: Small navigation problem in DialogVideoInfo (16x9).
+ - 04-12-2005 changed: Play button shows Play when FastForwarding or Rewinding.
+ - 01-12-2005 added..: FileBrowser.xml - initial skinning by BritneysPAIRS.
+

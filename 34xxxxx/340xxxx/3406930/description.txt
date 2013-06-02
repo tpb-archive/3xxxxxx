@@ -1,0 +1,17 @@
+Minimalist anonymous mailer, use to scare the heck out of people (read:noobs)
+
+Or use simply as a much faster replacement for your hotmail or similar.
+
+Gots:
+3 buttons: send, about, exit
+Does it's own MX query (for the domain in the To: field.)
+That's it.
+
+Bads:
+Sometimes gets flagged as spam
+Requires Visual Basic runtimes (other OCXs already included.)
+You need to keep the serial around every time you run it
+No attachments :-(
+
+It's pretty small, so even if you don't need it but support the cause, seed it.
+The password is a single space, the same space as the filename of the included nfo.

@@ -1,0 +1,27 @@
+Package Tool:		GordianKnot 0.35.0
+
+Decrypting:		DVDFab Decrypter 2.9.7.2
+
+VOB Processing:		DVD Decrypter 3.5.4.0
+			DGIndex 1.4.3
+
+Video encoding:		XviD 1.1.0
+				2-pass, discard first pass
+				Smart Crop
+				AS@L5
+				MPEG Quantization
+				Quarter Pixel
+				Global Motion Compensation
+				Chroma Motion
+				Motion search precision (6 - Ultra High)
+				VHQ (4 - Wide Search)
+				Trellis Quantization
+				FourCC (Xvid)
+
+Audio Encoding:		LAME 3.96.1
+				--alt-preset standard
+
+DVD Information:	PAL 16:9
+			UK Retail
+
+Size:			2.4GB

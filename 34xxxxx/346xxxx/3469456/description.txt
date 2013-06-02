@@ -1,0 +1,585 @@
+1:Burn or mount with daemon tools or alcohol 120%...2:install...3:PLAY. !WARNING! THIS IS THE ORIGINAL DOS VERSION MAY NOT WORK ON XP.     
+             ?ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+             ?                                           ?
+             ?             RELEASE NOTES FOR             ?
+             ?      DESCENT: DESTINATION SATURN 1.0      ?
+             ?                                           ?
+             »ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+
+            ????????????????????????????????????????????????
+                       PLEASE DO NOT DISTRIBUTE!
+               DESTINATION SATURN IS A COMMERCIAL PRODUCT
+
+                       See section 8 for details
+            ????????????????????????????????????????????????
+
+
+                         ?ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+                         ? TABLE of CONTENTS ?
+                         »ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+
+                      1. Version Changes
+
+                      2. Manual Addenda
+
+                      3. Tips for New Pilots
+
+                      4. Using Thrustmaster controls, Logitech
+                         Wingman Extreme, Gravis Phoenix,
+                         or Logitech Cyberman
+
+                      5. VR Helmet Information
+
+                      6. Troubleshooting & Common Problems
+
+                      7. Descent CD-Enhanced Notes
+
+                      8. Distribution Information
+
+
+
+                         ?ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+                         ? 1. VERSION CHANGES ?
+                         »ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+
+Descent:               - Initial OEM release
+Destination Saturn 1.0   Code equivolent to Descent Shareware 1.2
+
+
+                          ?ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+                          ? 2. MANUAL ADDENDA ?
+                          »ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+
+The following items were added after the game manual went to print:
+
+DESCENT and OS/2
+????????????????
+To get Descent to run under OS/2, just increase your DPMI_MEMORY_LIMIT
+to 8 megs or more.  Descent should then run perfectly with full sound.
+If your joystick behaves strangely under OS/2 try using the "-JoyPolled"
+command line option.  Keep in mind that Descent does not officially
+support OS/2.
+
+
+DESCENT and Windows
+???????????????????
+Use the following settings in your PIF file:
+
+   Optional Parameters:  -JoyPolled
+            EMS Memory:  KB Limit -1
+            XMS Memory:  KB Limit -1
+         Display Usage:  Full Screen
+             Execution:  Exclusive
+
+If you use a joystick, the -JoyPolled option uses an alternate method of
+joystick reading that should increase performance under Windows.
+Keep in mind that Descent does not officially support Windows.
+
+
+DESCENT and INTERNET HEAD-TO-HEAD DEMON (IHHD)
+??????????????????????????????????????????????
+While playing Multiplayer Descent through the IHHD software is possible,
+it is not recommended.  The delay in packet delivery will almost
+certainly lead to strange results.  You may see players jump around
+suddenly, or even disappear for several seconds at a time.  You may also
+witness players not dropping powerups when killed, staying cloaked too
+long, or other unfavorable results.
+
+
+COMMAND LINE OPTIONS
+????????????????????
+The following command-line options were not mentioned in the manual:
+
+  -RInvul <n>    New multiplayer option.  Keeps the Main Reactor
+                 invulnerable until n minutes have passed where n is a
+                 value between 1-314.
+
+  -AutoDemo      Continuously cycles through all DEM files in directory.
+
+  -NoMusic       Disables music; sound effects remain enabled.
+
+  -JoyPolled     Reads joystick using the standard IBM PC polling method,
+                 instead of using the 1.19Mhz system timer.  This is useful
+                 for multitasking operating systems, like OS/2 and Windows,
+                 which support the polling method.
+
+  -JoyBios       Reads joystick using BIOS function 15h.  This will
+                 improve the joystick readings under certain operating
+                 systems and configurations.  This is not normally
+                 recommended for DOS users.
+ 
+  -Iglasses      Enables support for Virtual I-O's I-glasses! stereo-
+                 scopic rendering.
+
+  -VioTrack <n>  Enables Virtual I-O I-glasses! head tracking on serial
+                 port <n>.
+
+  -3dMaxLo       Enables support for the 3D-Max shutter glass system in
+                 320x200 interlaced mode.  3dbios must be installed!
+
+  -3dMaxHi       Enables support for the 3D-Max shutter glass system in
+                 320x400 interlaced mode.  3dbios must be installed!
+
+SCREENSHOT VIEWER
+?????????????????
+Included in your Descent directory is PCXVIEW.EXE.  This is a standalone
+utility that allows you to view any .PCX screenshots taken in Descent.
+PCXVIEW.EXE is public domain and freely distributable.  See your Descent
+Manual for more information on screenshots.
+
+
+                       ?ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+                       ? 3. TIPS for NEW PILOTS ?
+                       »ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+
+In addition to the following tips, your Descent box includes a "walkthrough"
+for level 1.  It explains in detail how to maneuver your way through level
+1 and explains the basics of gameplay.
+
+Here are a few things that help new players adjust to the fully 3D world
+and intelligent robots of Descent.  Heed these tips and you'll soon be
+blasting robot hordes (and your friends!) with ease.
+
+     o Use a quality joystick.  Thrustmaster, Advanced Gravis, and
+       CH Products provide full lines of controls well suited to 3D
+       flying.
+
+     o If you use a two-button joystick, try keeping one hand on the
+       A and Z keys to control your FORWARD and REVERSE.
+
+     o If you're up against a wall, try using REVERSE to back away 
+       instead of turning around.
+
+     o Learn how to SLIDE well.  Using vertical sliding instead of pitching
+       will help keep you upright.  If your joystick has a Hat Switch, 
+       use it to slide.
+
+     o Use SLIDE to evade enemy fire.  This will help keep the robots
+       in your sights.
+
+     o Sweep fire side-to-side to hit evading robots.  This is especially
+       important on higher skill levels where robots evade faster.  Also
+       try using lasers and missiles simultaneouslly against an evading
+       robot.
+
+     o Rescue the hostages!  If you rescue all hostages in a mine, you
+       receive a full rescue bonus.  But be sure you make it out after
+       picking them up - if your ship's destroyed, so are they.
+
+     o Try clearing a path to the exit before you attack the Main Reactor.
+       You may run out of time if you're battling hordes of robots on
+       your escape!
+
+     o The blast radius of a concussion missile is very effective 
+       against tight groups of robots.  
+
+     o Look for secret doors.  Weapons and ammo are often behind them.                      
+       They can be a different color, or have small seams running down
+       them.  Keep in mind, Descent is fully 3D, and secret doors aren't
+       only in the walls...
+
+     o DON'T SIT STILL.  The best way to stay alive is to keep moving.
+       Using SLIDE to circle a target while you're firing is very
+       effective.
+
+     o Learn to use your ship's Automap.  It can reveal things your
+       eyes may miss.
+
+     o Flares can help sniff out cloaked robots & players.
+
+
+               ?ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+               ? 4. USING THRUSTMASTER CONTROLS, LOGITECH   ?
+               ?     WINGMAN EXTREME, GRAVIS PHOENIX and    ?
+               ?             LOGITECH CYBERMAN              ?
+               »ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+
+Thrustmaster, Gravis Phoenix, and Logitech Cyberman controls are fully
+supported by Descent.  The device control files (DESCENT2.ADV, DESCENT.B50,
+DESCENT.M50, and DESCENT.PHX) can be found in your Descent directory.
+If you have a Wingman Extreme, you should use the Thrustmaster FCS option.
+
+       Thrustmaster FCS:  Choose "Thrustmaster FCS" under Options/Controls.
+         or Logitech      This is for players _not_ also using the WCS.
+        Wingman Extreme   If you use the WCS throttle with the FCS, follow
+                          instructions for the WCS below.
+
+     * Thrustmaster WCS:  Load the DESCENT2.ADV file into your WCS.  In
+           Mark II        Descent, choose "Joystick" under Options/Controls.
+                          Now choose "Configure Above" and change the
+                          THROTTLE entry to respond to the WCS (the Y2 axis).
+
+    * Thrustmaster FLCS:  Load the DESCENT.B50 & .M50 files into your FLCS. 
+                          If you also use a WCS throttle, no program should
+                          be loaded into the WCS.
+
+         Gravis Phoenix:  Load the DESCENT.PHX file into your Phoenix. In
+                          Descent, choose "Joystick" under Options/Controls.
+                          Now choose "Configure Above" and change the
+                          THROTTLE entry to respond to the throttle
+                          slider (the Y2 axis).
+
+      Logitech Cyberman:  You must have the Cyberman MOUSE.COM driver loaded
+                          before you run Descent.  If you have a standard
+                          mouse connected as well, you will need to use the
+                          "/dual" option when you load MOUSE.COM.  See
+                          Cyberman docs for details.  
+
+Calibration Note:  When using one of the analog throttles listed here or
+                   the CH Flightstick, you will be prompted to calibrate
+                   your throttle as well as your joystick.
+
+*  >> NOTE TO WCS and FLCS USERS:  Because these devices intercept the
+      keyboard signals, your ship may fly strangely when you also hold down
+      keyboard keys (like 'A' and 'Z').  If you keep the WCS or FLCS on
+      your system, it's recommended that you use those devices for throttle
+      control and sliding, not the keyboard.
+
+
+                       ?ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+                       ? 5. VR HEADSET INFORMATION ?
+                       »ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+
+Registered Descent fully supports all popular VR Head Mounted Displays.  
+If you have questions about the headsets, the manufacturers can be reached at
+the following numbers:
+
+      - VFX-1 Head Mounted Display, by Forte Technologies, Inc.
+        tel: 716-427-8595
+        fax: 716-292-6353
+
+      - CyberMaxx HMD, by VictorMaxx Technologies, Inc.
+        tel: 1-800-279-6880
+        fax: 708-267-0037
+
+      - I-Glasses, by Virtual I-O
+        tel: 800-646-3759
+        fax: 206-382-8810
+        net: vio@vio.com
+
+      - 3D-Max glasses, by Kasan
+        tel: 011-46-18-187777
+
+To enable support for a given VR device, see the command line help.
+During the game, the following keys are used for VR settings:
+  Shift+F5 or Alt+V:  Toggles the Cybermaxx between monitor and headset.
+  Shift+F6: Toggles high/low resolution mode.
+  Shift+F7: Reverses left/right eye.
+  Shift+F8: Toggles head tracking sensitivity.
+
+                 ?ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+                 ? 6. TROUBLESHOOTING & COMMON PROBLEMS ?
+                 »ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+
+Regardless of configuration, you should have no trouble running Descent.
+But in the unlikely case you do have problems, here are some helpful
+pointers:
+      
+General Problems
+????????????????
+=> Q:  I HAVE LESS THAN 10MB OF RAM, AND I'M LOW ON DISK SPACE.  DESCENT
+       HANGS/CRASHES ON ME.  WHAT CAN I DO?
+
+   A:  If Descent doesn't have enough free RAM available, it uses hard
+       drive space instead of RAM.  If this is the case, make sure you
+       have plenty of free disk space (at least 8-16MB free).
+
+=> Q:  DESCENT RUNS SLOWLY ON MY MACHINE, ESPECIALLY IN LARGE BATTLES.
+       WHAT CAN I DO?
+
+   A:  Try putting your detail level on a lower setting.  Also try using
+       F3 and +/- to change the size of the game window.  Lowering the
+       number of available sound channels in Options/Detail/Custom
+       menu can help significantly in large battles.
+
+=> Q:  I HAVE A SMALL GAME WINDOW AND A LOW DETAIL LEVEL, BUT DESCENT STILL
+       LOADS AND RUNS SLOWLY.
+
+   A:  Check your sound card settings in SETUP.  Incorrect settings
+       can cause significant slowdown.
+
+=> Q:  THE WALLS IN MY GAME SEEM TO JUMP AROUND IN THE DISTANCE.  WHY?
+=> Q:  I GET A COLORED WALL IN THE MIDDLE OF MY TUNNELS.  WHAT IS THIS?
+
+   A:  These are due to the Detail Level being set below the highest
+       setting.  Consult your Descent Manual.  
+
+=> Q:  MY COMPUTER HAS 4 MEGS OF RAM.  THE GAME IS SLOW AND ACCESSES THE
+       HARD DRIVE ALL THE TIME.
+
+   A:  If you have less than 8 megs of RAM, try running a disk cache (even
+       as small as 256k).  This can help immensely.  Also try using the
+       "-lowmem" command line option when running Descent.  You might
+       consider purchasing a memory upgrade.  Every meg of RAM you add will
+       increase performance.
+
+=> Q:  DESCENT LOCKS UP WHEN I RUN IT.
+
+   A:  Try running Descent with the "-nosound" option.  If this works, then
+       chances are it's a sound card problem.  Run SETUP and make sure
+       your card settings are correct.  If you don't hear digital sounds or
+       music when you test them in SETUP, try Autodetection.  If this
+       doesn't help, refer to your sound card manual for troubleshooting
+       instructions, or call Interplay Technical Support.    
+
+=> Q:  MY COMPUTER LOCKS UP WHEN AUTODETECTING SOUND CARDS IN SETUP.
+       WHAT'S WRONG?
+
+   A:  Due to hardware conflicts, autodetecting for sound cards is a
+       risky process.  If you know the brand, port address, IRQ, and
+       DMA of your sound card(s), it is recommended that you manually
+       configure these items.  Lockups are also common when autodetection
+       is used when no sound cards are installed.
+
+=> Q:  I CAN'T SELECT THE RIGHT PORT/IRQ/DMA FOR MY SOUNDCARD IN SETUP.
+
+   A:  If the proper selections don't appear in the SETUP, then you can
+       always select them manually by editing your DESCENT.CFG file
+       located in your DESCENT directory.  While we tried to account for
+       every possibility, some of the more exotic configurations may not
+       be listed.  Contact Interplay if your setup is not listed.  
+
+=> Q:  WHY DON'T I HEAR ANYTHING WHEN I TEST MY SOUND IN SETUP?
+
+   A:  You may have the wrong sound card selected, or incorrect port,
+       IRQ or DMA settings.  Volume may be set too low in your sound
+       drivers (or the volume slider on the back of your sound card).
+       Hardware conflicts or loose cables may be to blame as well.
+      
+=> Q:  MY JOYSTICK ISN'T RESPONDING IN THE GAME.  WHAT'S WRONG?
+
+   A:  Be sure you have JOYSTICK selected in the Options/Controls menu,
+       and that it's calibrated.  If your joystick connects to your
+       soundcard, make sure the joystick port jumper is ENABLED on the card.
+       Some soundcards have this disabled by default.
+
+=> Q:  HEY!  SOME OF MY POWERUPS DISAPPEARED.  WHAT HAPPENED?
+
+       Certain powerups will remove themselves from the game if they have
+       been around 4 or 5 minutes.  This only happens to Concussion
+       Missiles, Energy, and Shield powerups dropped by a dead player.
+    
+=> Q:  WHY DOES DESCENT ACT STRANGELY WHEN I RUN IT UNDER WINDOWS?
+
+   A:  While Descent may run under Windows, it isn't recommended.  You will
+       probably get odd behavior and slowdowns due to timer conflicts.
+       GUS users may get no sound at all under Windows.  If you are having
+       joystick problems, try using the -JoyPolled command line option.
+
+=> Q:  I HAVE A THRUSTMASTER WCS HOOKED UP WITH A JOYSTICK.  WHEN I USE
+       THE STICK TO FLY, AND THE 'A' AND 'Z' KEYS TO MOVE FORWARD AND
+       BACK, I START FLYING OUT OF CONTROL.  WHY?
+
+       Holding down keyboard keys will produce erratic results when the
+       WCS or FLCS controls are installed.  See note in Section 4 for
+       details.
+
+=> Q:  WHY ISN'T MY MIDDLE MOUSE BUTTON WORKING IN DESCENT?
+
+   A:  While Descent supports three-button mice, you still need to load
+       a mouse driver that supports three buttons.  Typically Microsoft
+       mouse drivers support two and Logitech drivers use three.
+
+=> Q:  I HAVE A GATEWAY 2000 P75.  THE COLORS IN DESCENT ARE COMPLETELY
+       MESSED UP.  WHAT CAN I DO?
+
+   A:  Do a hard reboot of your computer and enter the BIOS setup.
+       Find the "VGA Palette Snoop" option and disable it.  This should
+       fix the problem.
+
+=> Q:  DESCENT LOCKS UP AT THE TITLE SCREEN.
+
+   A:  Turn off the "Hidden Refresh" option in your BIOS Advanced settings.
+       Also make sure RAMBIOS.SYS does _not_ appear in your CONFIG.SYS
+       and that "Hardware Video Shadowing" is turned off in BIOS.
+
+
+Modem/Serial Problems
+?????????????????????
+=> Q:  WHEN PLAYING A MODEM/SERIAL GAME, MY GAME FREEZES ON THE "WAITING
+       FOR OPPONENT" SCREEN.  WHAT GIVES?
+
+   A:  This screen will appear if you have died in/escaped from an
+       exploding mine.  If the other player is still flying there can be
+       up to a 60 second delay.  This is normal.  However, if your game
+       sits at this screen much longer, chances are something is wrong.
+       Likely culprits:  opponent is having technical difficulties,
+       interference with unshielded serial cables, loose cables,
+       baud rate set too high, or uncorrected errors in the modem
+       transmission.
+
+=> Q:  MY MODEM GAMES ARE MUCH SLOWER THAN NORMAL ONE-PLAYER GAMES.
+
+   A:  Try using a higher baud rate in the Com Settings menu.  If your
+       computer does not have a 16550 UART, acquiring one will allow
+       up to 38400 baud when communicating with the modem.  Consult your
+       Descent Manual for details.
+
+=> Q:  STRANGE THINGS HAPPEN IN MY MODEM/NULL-MODEM GAMES.  WHAT CAN
+       I DO TO HELP THIS?
+
+   A:  This may be a result of dropped serial characters.  Some examples
+       of "strange" things:  players not dropping powerups when killed,
+       ships jumping from place to place on screen, or ships flying
+       through doors that appear closed.  If you get error messages during
+       play or during the "waiting for opponent" screen, this could be
+       the cause as well.
+
+       These problems may occur for several reasons.  Serial play adds an
+       additional burden to the CPU when playing the game, so a computer
+       capable of playing the game in single-player mode may have
+       difficulties with modem or serial play.  If you are using a
+       4-megabyte machine, the disk activity needed to run the program in
+       a small memory space can cause lost characters.  A lot of sound
+       activity can also cause lost serial characters.  Increasing the RAM
+       for the game or reducing the number of sound channels in the detail
+       settings menu can sometimes help.  Of course you can also reduce
+       the baud rate in the Com Settings menu to slow down the game
+       somewhat while improving reliability.  Also try setting your music
+       volume slider to 0 in the Options menu.
+
+       The best thing you can do to improve serial performance is to equip
+       your machine with a 16550 UART.  However, even with this UART 38.4k
+       baud rate can still be problematic if you have the burden of low
+       RAM or heavy sound activity, so don't be ashamed to run a 16550
+       UART at 19.2k baud if need be.
+
+
+Netgame Problems
+????????????????
+
+=> Q:  I HAVE A ZEOS PANTERA P60 WITH A SOUNDCARD AND WHEN I TRY PLAYING
+       A NETGAME IT LOCKS UP.  WHAT CAN I DO?
+
+   A:  Instead of doing a full login to your server, try loading only the
+       IPX drivers.  Descent Netgames only require this to function
+       properly.
+
+=> Q:  I'M GETTING AN ERROR SAYING MY IPX DRIVERS AREN'T LOADED PROPERLY.
+       WHAT DO I DO?
+
+   A:  First, make sure you have a reasonable amount of low memory
+       available.  Although Descent uses a DOS extender to avoid low-
+       memory hassles, some low memory is still needed for network buffers.
+       If this fails, make sure your IPX.COM and other network drivers
+       are loaded properly.  A good way to test this is to logon to
+       a network server, if one is available.
+
+=> Q:  MY NETGAMES SEEM SLOW AND UNRELIABLE.  WHAT'S UP WITH THAT?
+
+   A:  Try using a different socket number.  It's possible that some other
+       application on your computer uses socket 5100h and this is
+       preventing Descent from opening a proper network connection.  Try
+       large values for the -socket option (like 32 or 100).  Remember,
+       your opponents will need to use the same socket you do.
+
+=> Q:  DESCENT TELLS ME MY NETWORK CARD IS MISSING PACKETS.  WHAT THE
+       HECK DOES THAT MEAN?
+
+   A:  This can be a result of a slow network card, heavy traffic on the
+       network, or software conflicts in your system.  If you get this
+       message, you can rejoin the game and try again.  If the problem
+       persists, one of the following could be to blame:
+
+       - Loose cables.  Happens to the best of us.  Check the plugs on
+         the back of your computer, specifically the ones running to/from
+         your network card.
+
+       - Too many players.  While 8 players is offered as the maximum
+         in Descent, it's possible that your LAN or computer configuration
+         can only support 4-6 players reliably.
+
+       - Bad network card.  Some cards drop IPX packets even without
+         heavy loads or interference.  If you suspect your LAN card, try
+         swapping it with one from another computer.
+
+       - Software conflicts.  Other drivers may be running that cause
+         problems with the network interrupts.  These conflicts may not
+         emerge when performing other LAN tasks that either don't use
+         IPX or have layers of error-checking.  Try removing unneeded
+         drivers from your CONFIG.SYS and AUTOEXEC.BAT.
+
+       - Router problems.  Playing Descent with players on different sides
+         of a router may cause lost packets or delays.  Playing this way
+         is not recommended because it creates a significant load on the
+         router that may disturb other LAN users.
+
+
+                     ?ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+                     ? 7. DESCENT CD-ENHANCED NOTES ?
+                     »ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+
+Can't get enough Descent?
+
+In addition to Descent Registered/Commercial, a CD-Enhanced Descent will
+be released in Summer 1995.  New features expected to be in the CD-Enhanced
+version include MANY new levels (including Anarchy specific ones), new
+powerups, new enemies, animated cutscenes, new multiplayer features, and
+enhanced digital soundtrack and sound effects.
+
+Exact pricing for Descent CD-Enhanced has not been determined yet, but
+Registered owners will have an upgrade path for a minimal price.
+
+
+                      ?ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+                      ? 8. DISTRIBUTION INFORMATION ?
+                      »ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+
+Descent: Destination Saturn is a commercial product, and should NOT be
+redistributed in any way, shape, or form.  If you have not paid for this
+game, we strongly encourage you to do so by calling 1-800-INTERPLAY.  We
+need your support to continue bringing you groundbreaking games
+like Descent.
+
+For infomation on authorized distribution, contact any of the following
+distributors:  
+
+          ABCO, American Distributors, D&H Distributors, Handleman,
+          Ingram Micro, Josha Distributors, Merisel and Navarre
+          or call Interplay at 714-553-6655.
+
+
+Shareware Descent (as well as current updates) can be found at the following
+locations:
+
+     - Interplay BBS: 714-252-2822
+
+     - CompuServe: GO GAMBPUB, under INTERPLAY
+
+     - America Online: keyword: INTERPLAY
+
+     - Software Creations BBS: 508-368-4137 or telnet to swcbbs.com
+
+     - Redeye BBS: +49.89.5460535, Munich, Germany
+
+     - Internet FTP sites:
+          ftp.wustl.edu            in /pub/msdos_uploads/descent
+          janus.library.cmu.edu    in /pub/msdos/descent
+          ftp.cdrom.com            in /.5/descent
+          ftp.gatech.edu           in /pub/dos/games/descent
+          ftp.uwp.edu              in /pub/incoming/games
+          ftp.funet.fi             in /pub/msdos/games/interplay
+          csc.mc.edu               in /pub/games/descent
+          bell.ecs.soton.ac.uk     in /pub/pc/games/demos
+          ftp.uml.edu              in /msdos/games/temp
+          ftp.demon.co.uk          in /pub/ibmpc/games/misc
+          ftp.leo.org              in /pub/comp/platforms/pc/games
+          doomgate.cs.buffalo.edu  in /pub/descent
+          ftp.prairienet.org       in /pub/software/descent
+
+Other Descent related goodies can be found at the following World Wide Web
+Sites:
+          http://www.interplay.com
+          http://www.eskimo.com/~stickman/descent
+          http://doomgate.cs.buffalo.edu
+          http://www.primenet.com
+          http://fiction.isdn.uiuc.edu/~jeske/descent/
+
+
+???????????????????????????????????????????????????????????????????????????
+     DESCENT IS COPYRIGHT (C) 1994, 1995 PARALLAX SOFTWARE CORPORATION
+                          ALL RIGHTS RESERVED
+          DESCENT IS A TRADEMARK OF INTERPLAY PRODUCTIONS, INC.
+???????????????????????????????????????????????????????????????????????????
+
+-END OF FILE-

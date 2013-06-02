@@ -1,0 +1,44 @@
+Avisynth:
+
+Avisynth ist ein Frameserver, welcher es euch ermöglicht die Filme zu bearbeiten, ohne dass ihr sie hin und her konvertieren müßt.
+Es kann vergrößern, verkleinern, croppen sowie Logos entfernen.
+Die genaue Anleitung dazu findet ihr unter:
+ 
+http://www.avisynth.org/AviSynth+Deutsch
+______________________________________________________________
+
+
+Virtual Dub Mod & TMPGen
+
+Um die besten Einstellungen nicht von Hand austesten zu müssen hat sich VirtualdubMod sowie TMPGen bewährt.
+Hiermit könnt ihr euch die Menge der Frames anzeigen lassen die z.B. geschnitten werden müssen.
+Oder die Stelle herausfinden welche ein zu entfernendes Logo enthält, sowie wieviel Pixel beim croppen anfallen.
+
+Beide Programme können auch selbst zum konvertieren genutzt werden, wobei der TMPGen ziemlich langsam arbeitet.
+Die Registrierung ist hier per Registry-Eintrag implementiert, und wird beim Setup mit ausgeführt.
+
+______________________________________________________________
+
+CCE
+
+Der Cinema Craft Encoder (CCE) ist der schnellste und beste Encoder, da in Maschienensprache geschrieben.
+Wird in Verbindung mit Avisynth konvertiert, ist der CCE unschlagbar, denn er konvertiert mindestens in Echtzeit. (Abhängig natürlich von eurer Rechenleistung)
+
+siehe auch  
+http://german.doom9.org/
+______________________________________________________________
+
+Mpeg Video Wizard
+
+Falls ihr doch lieber von Hand schneiden wollt hab ich das kleine Proggy Mpeg Video Wizard beigelegt.
+Hiermit lassen sich Mpeg-Dateien framegenau und ohne erneute Konvertierung schneiden.
+
+______________________________________________________________
+
+DVDLab
+
+Zu guter Letzt lassen sich mit DVDLab nach kurzer Einarbeitungzeit in relativ kurzer Zeit ziemlich tolle DVD's selbst erstellen, welche Kauf-DVD's in nichts nachstehen.
+
+______________________________________________________________
+
+Dr. DIVX ist für all jene, die schnell mal ihre Filme ins Format AVI konvertieren möchten

@@ -1,0 +1,109 @@
+﻿User Type,Username,Date,Text
+,jaybird007,2006-01-27T06:42Z,Can someone post the info for how to switch it to English for those of us who DLed it from somewhere else?
+,mbeau,2006-01-27T09:20Z,Look at the comment I made. Read the readme.txt. It explains how!!
+,mbeau,2006-01-27T14:29Z,"Sorry, I read your comment at 2 in the morning and I was pretty tired...
+
+1) Install and run the application.
+
+2) Run regedit (or regedit32 for Windows 2000, in the system32 directory).
+
+3) Locate the KCOH (or similar, running from memory here) directory under Software/Cryptic
+
+4) Change the Locale value to 0
+
+5) Now modify the security permission for the KCOH directory and remove or deny all permissions except ""Read""
+
+Now run the app and it should run in English "
+,Lord Quintus,2006-02-15T03:11Z,"The instructions are a tad unclear. I did what I think I'm supposed to, but it's still in Korean."
+,mbeau,2006-02-23T18:51Z,Did you save the settings in your Registry before you closed the editor?? There's not much else I can say. 
+,Caern,2006-02-24T03:01Z,How do you change the local value?  There's nothing in regedit that's labeled local value.
+,mbeau,2006-02-27T22:40Z,I will try uninstalling it and re-installing it at home.
+,mbeau,2006-02-28T00:49Z,"I tried again at home. I removed it and re-installed it, and it kept the language as english. All I can say is to look through your registry entries for Cryptic and NCSoft and make sure that the locale setting is set to 0. Sorry I can't be more help."
+,Zero_Hawk,2006-03-18T06:54Z,"Seed, please."
+,aiarhynn,2006-03-19T06:42Z,"What in heck's name is the locale setting?!  Where do I find it, and how do I edit it?  Every time I try to use the program I get error messages, gibberish, and a big black box of nothingness.
+
+Would find step by step, rescue the not-so computer savvy person, intructions very helpful, PLEASE!"
+,aiarhynn,2006-03-20T04:41Z,"found the locale.  edited as directed.  Program now starts and appears to load, but then it takes over the entire screen (Which I know is normal for a game to do), and NOTHING happens.  It just sits there."
+,defektedtoy,2006-04-06T19:40Z,database error
+,defektedtoy,2006-04-06T19:45Z,"tpb.org keeps messing up, i am trying to post the info on how to make the program in english.
+
+all i get is ""database error"" and it wont let me post."
+,defektedtoy,2006-04-06T19:48Z,"Install the software. The buttons will be in Korean, but they probably say pretty much what you think they say.
+
+Right-click the ""COH Character Creator"" icon and select the ""Shortcut"" tab."
+,defektedtoy,2006-04-06T19:48Z,"
+In the ""Target"" text box, add the parameter "" -windowed"" to the end of the command line. So if the ""Target"" originally said
+
+""C:GamesCOH Character CreatorCharacterCreator.exe""
+"
+,defektedtoy,2006-04-06T19:49Z,"it would now say
+
+""C:GamesCOH Character CreatorCharacterCreator.exe"" -windowed
+
+Under ""Compatibility mode"", check the ""Run this program in compatibility mode for"" checkbox, and select ""Windows 98 / Windows ME"".
+"
+,defektedtoy,2006-04-06T19:50Z,"Run the program once.
+
+Exit the program.
+
+Run regedt32 (or your preferred registry editor)."
+,defektedtoy,2006-04-06T19:51Z,"Go to registry key 
+HKEY_CURRENT_USERSoftwareCrypticKRCOH
+Change the locale value to 1.
+Right-click the KRCOH key.
+Select ""permissions"".
+Click ""Advanced""."
+,defektedtoy,2006-04-06T19:53Z,"Un-check the box labeled ""Inherit from parent..."". Click ""Add"". Type ""Everyone"" in the ""Enter the object name"" box."
+,defektedtoy,2006-04-06T19:54Z,"Click ""Okay"".
+Double-click the ""Everyone"" entry. Check only ""Allow Read Control"". Click ""Okay"", ""Okay"", ""Okay"". Close the registry editor.
+The program should now display in English.
+
+sorry about posting the instructions all douchry, but piratebay wouldnt let me post it in a regular way for some reason. i hope it helps!"
+,MaR7oFiLa,2006-11-13T21:45Z,can you upload the game
+,beardown50,2006-11-26T04:01Z,I really want this game! Gonna buy it in about a week. It's a subscription game so I don't think you could get this for free and play it anyway!
+,Rywern,2007-01-16T02:01Z,"skulle behĂśvas en seeder hĂ¤r =), tack!
+------------------------------------------------------------------------
+we could need a seeder here, please"
+,zabadoh,2007-01-21T11:35Z,We could really use a seeder for this!!!
+,Xaratane,2007-04-15T13:56Z,Seed please ^^
+,antygravity,2007-06-10T16:16Z,Excuse me for the stupid question but if there s a coh character creator shouldnt it be a cov character creator
+,arkx,2007-06-20T06:40Z,hay sorta dumb qustion but for all the games like wow and city of heroes games is there a crack or somthing that lets u play the game without haveing to pay ?? or is it even possible to get that?
+,Ryver,2007-07-16T14:22Z,"Could really use a seed for this.
+
+arkx: No. No, there isn't WoW has 50 million ways of stopping piracy, and the long and the short of it is that you can install WoW however you like (even from a burned copy), but you need the Auth.Key from a retail package to create an account at all. I imagine City of Heroes is similar."
+,Daelon,2008-01-25T19:25Z,"anyone seeding ?
+
+i stucked at 84.5%...
+
+please "
+,Daelon,2008-01-26T08:04Z,"what are the system requirements ?
+
+i installed it, changed the registry, then run the program, but it's always freezes out after a few minutes.
+the pictures breaks into pieces, and then the pc do not respond to any command.
+
+i have a 3GB Pentium-4, 1GB RAM and NVIDIA GeForce4 Ti 4200 video card.
+
+any idea ?"
+,Daelon,2008-02-01T10:47Z,"i've done it. 
+it works, but only if i don't use the win98 compatible mode, and switch off the screensaver"
+,DarthVesper,2008-07-26T10:50Z,"The only way to play CoH/CoV for free is to download the free trial, unfortunately. 
+
+I play the game, avidly, and they recently cracked down HARDCORE on spammers and people trying to play for free. 
+
+As far as if you are interested in playing the game:
+
+Game Time Cards are the best way to go, especially if you don't intend on living on the game, I.E. you have a life outside of your computer, lol. 
+
+Buying Time through the site will automatically bill your credit card, or bank account every month, until you cancel it.
+
+To get the 30 day free time it offers on the game package, you have to have a time card to go with it. 
+
+Stupid FYI, but hopefully that clears some of the questions needing answers. 
+
+BITCHIN COOL Torrent by the way. Too bad it's not current with Issue 12, but all the important things are there :) "
+,Gryffinguy,2009-07-29T08:29Z,Why can't I see my mouse cursor when using the tool? Is that part of the download or do I need to adjust something?
+,outlawguy89,2009-08-13T21:43Z,"You can play games like WoW, and I imagine COH/COV, for free by using private servers.  It's all free, I'm playing WoW with a full game copy without paying a cent.  You're not playing on Blizzard's servers, but a ""private"" server hosted by a third-party.  Against their rules, but this is TPB, who cares about copyright, right?"
+,BobaFett2040,2011-06-25T23:36Z,"defektedtoy's guide works. Only one thing missing. I use Windows 7 Professional. When you're modifying the permissions for the registry entry, remove all users EXCEPT the following:
+""Everyone""
+""RESTRICTED""
+Both of those should be Read only. The program should now be in english."

@@ -1,0 +1,81 @@
+﻿User Type,Username,Date,Text
+,gottalovett07,2006-01-21T23:41Z,Does anyone have the s/n for this?? I can't find it anywhere.
+,gottalovett07,2006-01-21T23:42Z,Does anyone have the s/n for this??  I can't find it anywhere.
+,macgamer01,2006-01-23T19:14Z,"At several websites that supply serials, they all say ""see crack"" What the fuck does that mean?"
+,muahman,2006-01-24T03:24Z,"serial seeker, had some serial numbers for the individual ones. Slick Volume 1-6 is in there too. THere are some instructions for cracking it. They are simple as hell, but I haven't gotten them to work. Serial Seekers is good though, I'd get it if I were you it has serials for pretty much evrything. I think this is the first time it's let me down."
+,macgamer01,2006-01-25T03:46Z,"How do you crack it? What is ""cracking"" it? "
+,sailr,2006-03-10T07:20Z,I was unable to make the crack work.  Kept getting told the disk was locked and would not save changes when I tried the Resedit application.   
+,lwaa,2006-03-31T15:38Z,"resedit only works in OS9, I tried using Resknife (osx coco app) but it just corrupted the installer :-("
+,Hallatathraion,2006-04-24T01:04Z,Damn it! Is it possible no one in the world has this goddamned serial??? We are 6 billions people!
+,vakptg,2006-09-08T19:42Z,DON'T WASTE YOU TIME NO SERIAL ONLINE ANYWHERE.....
+,mac_topia,2007-02-20T02:51Z,This is for Power PC.  Ypu need a Universal Installer from GeeThree to make it work.  There is no serial available.
+,Willyhead,2007-04-17T06:54Z,"I got this to work by booting into Mac os 9, then mounting the image, then copying the Slick installer into another folder. Then following the instructions in SerialBox.
+
+Open Slick Installer in ResEdit,
+
+Delete CBeg resource.
+
+Save. Close. And reboot into OS X, then run installer."
+,Cynic821,2007-04-27T07:48Z,anyone have the universal installer?  NEED it really bad
+,running1954,2008-02-27T08:24Z,"Cynic821 
+Here are the Serial# for 1 thru 6
+
+Slick 1 Serial# SLICK-952-JN29-3C2
+Slick 2 Serial# SLICK-662-BT98-3V3
+Slick 3 Serial# SLICK3-NX9Y-85V4-7C99
+Slick 4 Serial# SLK4-6Z4-33GV-Y66M-M472
+Slick 5 Serial#SLICK4-F554-5R3-96PS
+Slick 6 Serial#SLICK6-7CW9-Y96M-P73
+
+HOPE THIS WILL HELP YOU OUT... HAVE FUN"
+,running1954,2008-02-27T08:33Z,"Sorry! 
+There's a correction on Slick 5
+The number should be SLICK5 instead of a 4"
+,A-kay,2008-02-29T11:57Z,"Has anyone got this fuckin program to work?
+were is the crack or serial?"
+,running1954,2008-03-01T00:03Z,"I know that they work because I have purchase these applications and have been using them... now, if you have downloaded the Plug-ins  hopefully the serials that I have provide here should work with them. 
+
+The Serial# are the original from the box that I have.
+
+If not, then try limewire and get each of the Plug-ins from there individually and install one by one
+"
+,ice345,2008-03-01T18:44Z,ok i got it to work on my mac here is what i did i put the files in another folder then i downloaded ResFork for mac opened up the file in there click on cbeg then click delete saved it open the slick installer then it loaded all the plugin's.It worked for me so it should work for you
+,karltech,2008-05-12T01:09Z,"Keep in mind, this release seems to be only for PPC computers, if you are using an intel based computer, even if you download iMovie 6 HD( since iMovie 8 won't support plugins ), you can't get these plugins to work cuz they're not universal binaries. "
+,themadness17,2009-01-02T03:15Z,"To run these plugins on a Intel Mac, you have to run iMovie in Rosetta. However, this is not normally possible. To run iMovie in Rosetta, follow these steps:
+
+1. Right-click on the iMovie application.
+2. Click ""Show Package Contents""
+3. A Finder window should show up entitled ""iMovie HD"", and there should be a folder called Contents.
+4. Open Contents, and double click ""Info.plist""
+5. Scroll down a ways to the bottom, and look for:
+
+LSRequiresNativeExecution
+
+
+6. Change  to , or just delete it.
+7. Save the file.
+8. Then, open ""Disk Utility"" and repair disk permissions.
+9. After permissions are repaired, go to /System/Library/ and delete Extensions.kextcache and Extensions.mkext.
+10. Simply reboot, and...
+
+...Voila! The ""Open Using Rosetta"" option should now be under there in ""Get Info"". This works for all of the other iLife '06 applications.
+
+If deleting Extensions.kextcache and Extensions.mkext doesn't do anything, try moving the application from one directory to another. Also, what will definitely do it, is duplicating the file, however that may take a while depeneding on the speed of your computer and the side of the file.
+
+Hope this helps."
+,themadness17,2009-01-02T03:18Z,"Sorry, steps 5 and 6 should read:
+
+5. Scroll down a ways to the bottom, and look for:
+
+>key/key<
+>true/<
+
+6. Change  to , or just delete it."
+,themadness17,2009-01-02T03:20Z,"well, the html isn't working for me so look for this:
+
+LSRequiresNativeExecution
+
+and on the next line you should see ""true""
+
+replace that with false."
+,bybullet,2009-12-03T11:32Z,"Hi TheMadness, i done all u wrote, but how install those plugins ? thanks"

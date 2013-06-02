@@ -1,0 +1,89 @@
+Release.............: XBox Media Center 1.1.0
+ CVS/Compile Date....: 2005-01-08
+ Compiler Versions...: XDK 5933, Visual Studio .NET 2003
+
+ Skins...............: Project Mayhem III
+
+ Visualisations......: The 110 best Milkdrop presets by BritneysPAIRS
+
+ Scripts.............: XBMC Scripts Installer by EnderW
+                       Submenueditor 1.1 by Rocko
+                       Changelog by SveinT
+                       CNN Videos v1.0.1 by Asteron
+                       FlexiBrowser v1.4 by Bernd
+                       Global Alternate News v0.1 by Accumulator
+                       KMLBrowse by Gabriel
+                       LaunchBrowser v1.8 by Flash
+                       Ooba v1.1 by Van der Phunck
+                       QuickTimeBrowser 1.37 by Mouton (Fixed version)
+                       Stupid Videos by Nishil
+
+ Optimizations.......: Custom mplayer.dll compiled from CVS with GCC 3.4.4
+                       using --disable-libavformat. Greatly reduces the size of 
+                       the dll at the cost of not being able to demux a few
+                       obscure formats.
+                       Reduced size of bloated scripts from 3601KB to 941KB.
+
+ Functionality.......: WMV9, RealVideo and Quicktime codecs included and tested.
+                       Scripts menu edited to include added scripts.
+                       Added weather display and IP address to home screen.
+                       Project Mayhem III webserver interface by KanadaKid.
+
+ Release Notes.......: Replaced the huge set of Mildrop presets with a set
+                       containing only the best ones.
+                       To remove either weather or IP address from home screen,
+                       edit skinProject Mayhem IIIPALHome.xml (or PAL16x9).
+                       At the bottom of the file, change <visible> from true to
+                       false for the items you want to remove.
+                       To use the original mplayer.dll instead, move it to
+                       xbmcsystemplayersmplayer. Download the file at: 
+                       http://cvs.sourceforge.net/viewcvs.py/xbmc/XBMC/system/
+                       players/mplayer/mplayer.dll 
+
+ XBMC Changelog......:
+
+ - 07-01-2006 fixed..: folder images in root of music library were horribly
+                       stretched if in big icons view
+ - 07-01-2006 fixed..: partial restoration of the filter label in my music
+                       library
+ - 05-01-2006 changed: music and video context menus for better consistency
+ - 05-01-2006 changed: speed improvement getting songs from the musicdatabase
+ - 04-01-2006 changed: enabled experimental FF/RW in dvdplayer. it's abit shaky
+                       still
+ - 04-01-2006 changed: iso9660:// protocol always tried to read a disc as a
+                       mode2 disc, even thou it was a mode1 disc.
+ - 04-01-2006 fixed..: creation of playlist locations (playlists/music and
+                       playlists/video)
+ - 03-01-2006 fixed..: music nav, Playitem does not work on "* All ..." folders
+ - 03-01-2006 changed: music playlists, playlists with music database items are
+                       now saved with the real path of the file instead of the
+                       musicdatabase URL
+ - 03-01-2006 fixed..: Sort order in My Pictures
+ - 02-01-2006 changed: moved list/thumb label formating to media window base
+                       class
+ - 02-01-2006 changed: moved item caching out of music nav and files into the
+                       FileItemList
+ - 02-01-2006 fixed..: Rumble controller option caused crashes with analog
+                       buttons.
+ - 01-01-2006 fixed..: mplayer.dll - some files with mp3 audio was misdetected
+                       and played only static.
+ - 01-01-2006 fixed..: duplicate string id resulting in "Target Temperature"
+                       incorrectly displayed in System Info
+
+ MPlayer Changelog...:
+
+ - 01-01-2006 updated: libmp3 to mplayerhq cvs version as of now. fixes some
+                       mpegs that where only playing static audio
+ - 04-10-2005 updated: ffmpeg to mplayerhq cvs version as of now. fixes a few
+                       avi's that where causing problems + a few other stuff
+ - 06-09-2005 changed: when resuming normal playback speed, video would jump
+                       ahead a couple of seconds. didn't work well
+
+ PM III Changelog....:
+  
+ - 29-12-2005 changed: Moved to version 1.86 compatible.
+ - 29-12-2005 changed: simplified the conditionals on home
+ - 29-12-2005 changed: volumebar now uses info labels
+ - 24-12-2005 fixed..: spincontrol positions in album & video info windows
+ - 24-12-2005 fixed..: navigation from cast button to spin control in video info
+                       window

@@ -1,0 +1,101 @@
+﻿User Type,Username,Date,Text
+,Iceberg86300,2006-04-13T05:23Z,"Anyone get this to work?
+
+Looks like something is missing for Nastran in the license.dat file, but I've never used this before so I'm just wondering.
+
+Regards"
+,OddSock,2007-03-04T17:39Z,"Can anyone explain how I can get the licenses to work for this torrent?  I'll reseed as soon as I can get the software to work.
+
+Thanks"
+,Ivan_26000,2007-12-22T11:17Z,"=====================================================
+
+1. Open the MSC_Nastran_Patran_2004 [LJ]License.dat file and change host on the first line to 
+
+your computer name.
+
+2. Run setup and install MSC.Licensing. 
+
+When prompted for a license file point the browser to the MSC_Nastran_Patran_2004 [LJ]License.dat file.
+
+3. Open Control Panel \ System. Select the Advanced tab and click on Environment Variables. Click 
+
+on New to create the following variable.
+
+Variable name: MSC_LICENSE_FILE
+Variable value: 1700@host (host being your computer name)
+
+4. Run setup and install MSC.Nastran. Use default settings.
+
+5. Run setup and install MSC.Patran. When prompted for licence point the browser to the C:\MSC.Software\MSC.Licensing\9.2\License.dat file (repeat two times if necessary). Use default settings (even when prompted for the location of Nastran do not change it - accept default).
+
+6. Restart your computer.
+
+7. Run Patran 2004.
+
+P.S. 8. If you want the Utilities Menu, copy the p3epilog.pcl file from C:\MSC.Software\MSC.Patran\2004\shareware\msc\unsupported\utilities to C:\MSC.Software\MSC.Patran\2004.
+
+This is a 100% working torrent, problem was that there is no crack explanation. Considering how, even today, it's hard and rare to find Patran/Nastran - this should clear everything up. Enjoy and keep seeding this torrent.
+
+====================================================="
+,Karloss29,2008-04-22T20:04Z,"In Vista I needed to set SETUP.exe to run in Compatibilty mode.
+
+Once I was able to run setup it all installed but did not except the modified Licence.Dat file saying specified server invalid.  Another words it wasn't tricked into thinking my computer was a server.
+
+Any thoughts?"
+,oluchbek,2009-12-27T11:03Z,"Using what Ivan_26000 had posted i have managed to get it to work using this changes
+
+
+
+1. Open the setup.exe file on the main folder
+
+2.start the MSC.Licensing
+
+3. the software will give you an ID number, Open the MSC_Nastran_Patran_2004 [LJ]License.dat file and
+change host on the first line to that ID number. 
+
+When prompted for a license file point the browser to the MSC_Nastran_Patran_2004 [LJ]License.dat file.
+
+4. Open Control Panel \ System (or right click on My Computer icon-> Properties). 
+Select the Advanced tab and click on Environment Variables. Click on New to create the following variable.
+
+Variable name: MSC_LICENSE_FILE
+Variable value: 1700@host (host being your computer name)
+
+5. Run setup and install MSC.Nastran. Use default settings.
+
+6. Run setup and install MSC.Patran. When prompted for licence point the browser to 
+the C:\MSC.Software\MSC.Licensing\9.2\License.dat file (repeat two times if necessary). 
+Use default settings (even when prompted for the location of Nastran do not change it - accept default).
+
+7. Rename the ID number on the C:\MSC.Software\MSC.Licensing\9.2\License.dat file to your computer name.
+
+8. Restart your computer.
+
+9, open the Start Menu\Programs\MSC.Software\MSC.Licensing 9.2\FLEXlm Configuration Utility
+
+	go to the start/stop/reread tab and press start server - you should get a ""server start successful"" message
+
+10. Run Patran 2004.
+
+P.S. 11. If you want the Utilities Menu, copy the p3epilog.pcl file from 
+C:\MSC.Software\MSC.Patran\2004\shareware\msc\unsupported\utilities to C:\MSC.Software\MSC.Patran\2004.
+
+This is a 100% working torrent, problem was that there is no crack explanation. 
+Considering how, even today, it's hard and rare to find Patran/Nastran - this should clear everything up.
+ Enjoy and keep seeding this torrent."
+,Malohm,2010-06-16T22:06Z,"Somehow it doesn't work, even with your description. Are there windows 7 problems? The ""ANY"" in the license file remains? The problem is, that the server wont start... "
+,Malohm,2010-06-23T17:11Z,Nastran is not writing a f06-file. So somehow it doesn't work...
+,1_2rhovsquared,2011-06-25T06:23Z,"Not having luck with this one... any help?  
+
+It's letting me start the server fine, and the licensing file it able to be read from LMTOOLS, but when I go to run Patran it gives me this error:
+
+You have requested to run MSC.Patran on a Windows LAPTOP(xxx) (Windows 5.1 (Build 2600: Service Pack 3)). There are no version 2003.0401 licenses installed to satisfy this request. License File: C:\MSC.Software\MSC.Licensing\9.2\license.dat:1700@laptop Please request your systems administrator to review the installation procedures for MSC.Software products on your system and/or contact your  Support Representative for further assistance.
+
+I'm running it on XP 32.
+
+Any help?  Have others had the same issue?
+
+Thanks folks."
+,doogz,2011-07-17T14:35Z,"1_2rhovsquared did you get this issue solved? I'm having the same problem with version 2007-0215 on 7 64.
+
+Cheers"

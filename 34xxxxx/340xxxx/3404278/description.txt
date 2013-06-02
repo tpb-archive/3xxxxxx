@@ -1,0 +1,9 @@
+This is the mds file that should come with the mdf image file in the Civ4 clone images. However, here on PirateBay it didnt as far as i can tell. I managed to get rid of the safedisc error by using this, and some people might get rid of the 'Wrong CD detected' error if using this. In any case, if you cant get Civ4 to run, try it.
+
+1. Place in same folder as mdf file.
+2. Mount mds file instead of mdf file in Alcohol or Daemon-tools.
+3. Run SD4Hide (what i used) or anti-blaxx (should work but havent tried).
+4. (Activate emulation in Alcohol or Daemon if needed)
+5. Run game.
+
+Hope this helps some people at least.

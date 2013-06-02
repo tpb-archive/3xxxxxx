@@ -1,0 +1,21 @@
+TaskInfo is a poweful utility that combines and improves features of Task Manager and System Information tools. It visually monitors (in text and graphical forms) different types of system information in any Windows system (95, 98, ME, NT 4.0, 2000, XP, 2003 Server, WinXP 64 bit, Server 2003 64 bit) in real time.
+
+TaskInfo shows information about all running processes and threads including 
+ring0 VxD threads. Information about each process includes:
+ 
+Most of the Processes that want to be invisible like worms, keyloggers and other spy software 
+All threads (with details including Thread Start Address and Call Stack with Symbolic Information if possible) 
+CPU usage (multiple CPU supported) 
+Memory usage 
+Scheduling rate 
+Path 
+Opened files and handles 
+Loaded modules (DLLs etc.) 
+Command line 
+Environment variables 
+Version information 
+Connections 
+and more! 
+
+More info: http://www.iarsn.com/taskinfo.html
+

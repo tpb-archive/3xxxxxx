@@ -1,0 +1,100 @@
+CALL OF DUTY(R) 2
+1.2 PATCH README
+Last Updated: 3/23/2006
+
+INTRODUCTION & IMPORTANT NOTES
+
+This document details numerous additions, fixes, and changes to Call of Duty 2 in the 1.2 patch.
+
+The Call of Duty 2 1.2 patch is an all-inclusive installation, containing all of the previous updates from the 1.01 patch. Information about updates included from the earlier 1.01 patch can be seen at the bottom of this document. 
+
+IMPORTANT NOTE:  Use of the in-game console is not supported by Activision(r).  Please do not contact Activision Customer Support with issues that arise from using console commands in-game.
+
+
+NOTES FOR MOD USERS:
+- It is recommended that any user modifications that have been installed to the Call of Duty 2 directory be removed before installing this patch. These modifications are not supported by Activision and may not be compatible with some of the new features that are included.
+- Call of Duty 2 does not support mods that have spaces in the mod's folder name.  Be sure that the folder that contains your mod does not have spaces; otherwise users will not be able to download the files.  For example, a mod in a folder called "My Mod" would be invalid, whereas "MyMod" or "My_Mod" would work.
+
+PUNKBUSTER(tm)
+
+Call of Duty 2 now includes PunkBuster Anti-Cheat software technology.  PunkBuster Anti-Cheat software technology and services combat online cheating in Call of Duty 2 Internet play.
+
+The use of PunkBuster Anti-Cheat software is optional and is provided without direct cost to our users.  For more information about PunkBuster or for PunkBuster support, please visit http://www.evenbalance.com/.
+
+Note for server administrators: When enabling PunkBuster for the first time, you must add "set sv_punkbuster 1" to the "config_mp.cfg" file to initialize PunkBuster. This file can be found by going to the "Call of Duty 2mainplayers" folder and looking inside the folder named after your profile. If the "sv_punkbuster" command already exists in your config file, you can simply change the value to "1".
+
+NEW FEATURES
+
+- Added two new multiplayer maps.  These maps support all current game types:
+
+mp_harbor  (Rostov, Russia)
+
+An important shipping port in southern Russia, Rostov fell to the Germans in November 1941. The Soviet 37th army quickly counterattacked and punched through the overextended and winter-weary German lines to the north, forcing the 1st Panzer Army out. The Battle of Rostov resulted in the first major German withdrawal of the war.
+
+Call of Duty veterans will recognize this location as an updated version of the original Harbor map. In addition to the graphical and performance updates, several new structures and flanking paths have also been added.
+
+mp_rhine  (Wallendar, Germany)
+
+The 2nd Rangers crossed the Rhine on March 24, 1945 at Wallendar, Germany in pursuit of retreating German forces. German forces harassed the advancing Allied units while withdrawing.
+
+Decimated by 5 years of war, the streets of Wallendar are covered with rubble and impact craters creating intense battle over difficult terrain with blown-out buildings providing cover. The Americans are attempting to take the German city on this map of urban combat.
+
+- New PunkBuster functionality included (as described above). 
+- Added a "PunkBuster" filter under the "Filters" section of the "Join Server" screen.
+- Added a "PunkBuster" display column on the "Join Server" screen. 
+
+- Added HTTP redirection for Servers running Mods or custom maps.  
+To enable redirection on the server, set sv_wwwDownload to 1.  Set sv_wwwBaseURL to the base directory where the files are stored. For example, if the server had a file named 'myfile' meant to be stored locally at Call of DutyMain, sv_wwwBaseURL should be set to "http://samplewebpage1.com/". The file should be stored at http://samplewebpage1.com/Main/myfile. To prevent clients from taking up a slot on the server while downloading, set sv_wwwDlDisconnected to 1. This will free up a slot for the duration of the download and the client will attempt to autoconnect when the download is complete. Set cl_wwwDownload to 1 to enable redirection downloading on the client.
+
+- Added a new Multiplayer welcome screen when joining a server that details the Map objectives and victory conditions. 
+- Added a "Message of the Day" for Multiplayer servers that will appear on the player's welcome screen upon joining. Server admins can control this text by setting the "scr_motd" dvar to whatever text is desired. 
+
+- Added Multiplayer spawning logic that will reduce instances of players spawning in front of enemy players. 
+
+GENERAL FIXES
+- Corrected an issue that occurred on certain systems using AMD(R) Dual-Core processors where player health would not replenish at the intended speed. 
+
+
+MULTIPLAYER FIXES
+
+- Fixed a potential exploit where players could get outside the map boundaries. 
+- Corrected an exploit that caused some servers to shut down unexpectedly. 
+- Please note that all "Message of the Day" text needs to be less than 1000 characters total. 
+- Hovering over an enemy player no longer causes the crosshairs to highlight in red. This change does not affect teammates and crosshairs pointed at a friendly player will still highlight green.
+
+Headquarters Changes
+- Adjusted the objective timers to ensure that the objective respawns more quickly once destroyed.
+- Removed compass icons for potential objective locations before the objective has spawned.  
+
+Capture the Flag Changes
+- Added HUD icons to show the flag post location when the flag is missing. 
+- Players in possession of the flag are now identified as flag carriers on the scoreboard.
+- When an Allied player picks up the flag, fellow teammates will now see the flag carrier's position displayed on the compass.
+
+NOTES FROM 1.01 PATCH
+
+Call of Duty(R) 2 Intel(R) Dual-Core Optimization Update README
+
+This update for Call of Duty 2 adds optimization, 
+specifically to take advantage of Hyper-Threading technology in 
+Intel processors. These optimizations will increase performance 
+in both Single and Multiplayer modes. While significant
+performance gains will be seen on Single-Core processors which 
+support Hyper-Threading, the greatest increase will be realized 
+on Dual-Core processors.
+
+HOW TO TELL IF YOU HAVE A SUPPORTED PROCESSOR:
+1. Hit Ctrl + Alt + Delete.
+2. Select 'Task Manager'.
+3. Select the 'Performance' tab.
+4. Select View CPU History One Graph Per CPU
+5. More than one graph side by side below the 'CPU Usage History'
+label indicates you have a Dual Core processor or a processor 
+with Hyper-Threading technology.
+
+AUTODETECT: Call of Duty 2 will automatically enable these 
+optimizations if it detects that you have a supported processor.
+
+
+
+

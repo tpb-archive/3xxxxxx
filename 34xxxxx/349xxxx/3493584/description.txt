@@ -1,0 +1,41 @@
+What's new in Winamp 5.2.3.670:
+* Improved: [gen_jumpex] jump-to-file speed improvements
+* Fixed: playlist saving with network share files
+* Fixed: Media Library preferences not loading in correct order
+* Fixed: main window not hilited when restoring from minimized state in classic skin.
+* Fixed: slow loading of playlists with URLs
+* Fixed: CD burning using third party input plugins
+* Fixed: classic skin winshade playlist time display
+* Fixed: [gen_ff] Wasabi XML font-related fixes from Martin Poehlmann
+* Fixed: [gen_ff] Map.getHeight() maki script function returning width instead
+* Fixed: [gen_ff] winshade global hotkeys broken w/ modern skins
+* Fixed: [gen_jumpex] 'Add to Queue' issues
+* Fixed: [gen_jumpex] NT4 incompatability
+* Fixed: [gen_jumpex] misc bug fixes
+* Fixed: [gen_ml] icon changes on drag+drop items
+* Fixed: [in_mp3] playback of AAC streams
+* Fixed: [in_mp4] seek bug when using right arrow key
+* Fixed: [in_wm] Playback restarts from beginning when editing tags of a currently playing .wma file
+* Fixed: [in_wm] protocol/extension reversed in config > filetype > edit
+* Fixed: [in_wm] 'Audio only' always checked for ASF/WMV in config
+* Fixed: [in_wm] seek bug when using right arrow key
+* Fixed: [ml_bookmarks] 'Edit Bookmarks' menu item not working when Media Library is hidden
+* Fixed: [ml_local] crash while rearranging media library views
+* Fixed: [ml_local] crash on close
+* Fixed: [ml_local] sort arrow reversed in some columns
+* Fixed: [ml_playlists] Import Playlists uses containing dir for title instead of filename
+* Fixed: [ml_playlists] No "Recurse" checkbox in Import Playlists From Folder
+* Fixed: [ml_playlists] Add Dir adds all filetypes (not just all-supported)
+* Fixed: [ml_playlists] rt-click enqueue not working & other issues
+* Fixed: [ml_playlists] Not saving playlists in some situations
+* Fixed: [ml_playlists] crash when loading badly formed WPL playlists
+* Fixed: [ml_playlists] drag&drop into playlist not adding to correct position
+* Fixed: [ml_playlists] root playlist screen not updating when adding new playlist
+* Fixed: [ml_playlists] reverting changes on send-to: playlist
+* Fixed: [ml_playlists] drag+drop m3u files broken
+* Fixed: [ml_pmp] Syncing duplicates finally fixed (thanks gordol)
+* Fixed: [ml_pmp] Removing items from a playlist not saving issue (thanks Nick)
+* Fixed: [ml_wire] some podcasts only display one item
+* Fixed: [pmp_ipod] Playlist sort now works again
+* Fixed: [out_ds] stop with fade (shift+v) issue
+* Updated: [in_cdda] CDDB 2.0.1.25

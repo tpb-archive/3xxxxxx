@@ -1,0 +1,79 @@
+eMule 0.47a [MorphXT 8.1]
+
+As of today, eMule is one of the biggest and most reliable peer-to-peer file sharing clients around the world. Thanks to it's open source policy many developers are able to contribute to the project, making the network more efficient with each release.
+
+
+What are the features of Morph
+
+   1. . Download
+         1. . Smart Category Control [Khaos] (SiRoB)
+               1. Show full category name in 'Cat' column
+               2. Show the 'Select category' dialog
+               3. Add new downloads to categories using view filters
+               4. Default to the active category for new downloads
+               5. Automatically increment and assign linear priority
+               6. Download small files first (<150KB)
+               7. Start # files when added to a new category 
+         2. . Smart A4AF Control [Khaos] (SiRoB)
+               1. Smart A4AF swapping
+               2. Advanced A4AF handling (Balanced, Stacked) 
+         3. . Remaining time display [Khaos] (SiRoB)
+         4. . Show download file in red [iCeCream] (SiRoB)
+         5. . Show download file in bold [iCeCream] (SiRoB)
+         6. . Source Load Saver [enkeyDEV] (Khaos/SiRoB)
+         7. . Only download complete files v2.1 [shadow] (AndCycle/SiRoB)
+         8. . Save Download file in a seperate thread [SiRoB] 
+   2. . Upload
+         1.
+               1. Smart Upload Control (SUC) [lovelace] (Yun.SF3/SiRoB)
+               2. Upload Speed Sense [zz] (Yun.SF3/Milobac/AndCycle/TAHO/SiRoB)
+               3. Dynamic Upload Switching [Yun.SF3]
+               4. Anti-Leecher [iCeCream] (SiRoB)
+               5. Anti-Credit hack [iCeCream]
+               6. Partial SNAFU system [eWombat] (SiRoB)
+               7. Show Progress of client queue [Commander]
+               8. Infinite Queue [SlugFiller]
+               9. Splitting Class Control [SiRoB]
+              10. SUQWT / Save Client Queue Wait Time [Moonlight] (AndCycle/TAHO/SiRoB)
+              11. Read file in async thread [SiRoB] 
+   3. . Share
+         1.
+               1. HideOS (Hide Overshare) [SlugFiller] (SiRoB)
+               2. Hide Over Share per file basis [SiRoB]
+               3. Selective chunk sharing[SlugFiller] (SiRoB)
+               4. Selective Chunk Sharing per file basis [SiRoB]
+               5. Share only the need [Wistily] idea of lovelace (SiRoB)
+               6. Share Only The Need per file basis [SiRoB]
+               7. Powershare [zz] (AndCycle/SiRoB)
+               8. Enable/Disable PowerShare internal File Priority [AndCycle]
+               9. Avoid Miss using of PowerShare [SiRoB]
+              10. Avoid Miss using of HideOS [SiRoB]
+              11. Show Share Permission [xMule] (Mighty Knife/SiRoB)
+              12. Pay Back First [AndCycle] (SiRoB)
+              13. [[English:Prefer_Share_All Prefer Share All] [SlugFiller]
+              14. Equal_Chance_For_Each_File[AndCycle/Stulle]
+              15. Known.met file expiration time [SlugFiller] (AndCycle) 
+   4. . Update
+         1.
+               1. Auto update ipfilter [Yun.SF3] (Milobac/SiRoB/Commander)
+               2. Auto update fake check [Yun.SF3] (Milobac/SiRoB/Commander)
+               3. Auto update iptocountry [Commander] 
+   5. . Miscallaneous
+         1. Chunk dot in progress bar [SlugFiller]
+         2. Enabled Chunk dot in progress bar [Pretender]
+         3. fakecheck [Milobac] (SiRoB)
+         4. IP to Country [AndCycle/Commander] (SiRoB)
+         5. Auto Backup & Double Backup [The Black Hand]
+         6. Plug and play UPnP - uPnP(Pretender/linekin/AndCycle/Mighty/SiRoB)
+         7. Rating icon [ePlus] (iCeCream/SiRoB)
+         8. Preferences Side Banner from TPT / Enable-Disable on the Fly / Banner Picture [Commander/SiRoB/iCeCream]
+         9. Webcache 1.2f + 2 fix 
+   6. . Improvement
+         1. Code Improvement [Maella]
+         2. Reduce ShareStatusBar CPU consumption [SiRoB]
+         3. Reduce SpreadBar CPU consumption [SiRoB]
+         4. Don't draw hidden rect [SiRoB]
+         5. Don't draw hidden columns [SiRoB]
+         6. Don't refresh hidden item [SiRoB] 
+
+enjoy

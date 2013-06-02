@@ -1,0 +1,33 @@
+Release Highlights:
+* WHQL Certified
+* Adds support for GeForce 7900 GTX, GeForce 7900 GT, and GeForce 7600 GT
+* New NVIDIA PureVideo features and enhancements. Please visit the NVIDIA PureVideo website for more information on PureVideo technology and system requirements.
+---Support for high definition H.264 hardware decode acceleration on GeForce 6 and 7 series GPUs.
+--- Support for high definition MPEG-2 inverse telecine.
+--- Support for high definition MPEG-2 spatial temporal de-interlacing.
+- Adds mixed vendor support for NVIDIA SLI.
+* TV-Out/HD-out support for NVIDIA SLI.
+* Added support for VSync on Direct3D games when running NVIDIA SLI.
+* Microsoft┬« DirectX┬« 9.0c and OpenGL┬« 2.0 support
+* For a full list of fixed and known issues please view the Release Notes.
+
+* This driver is WHQL certified for all GeForce 7 series and a limited number of GeForce 6 series GPUs.
+
+The following products are not supported in the current ForceWare Release 80 driver:
+- TNT2
+- TNT2 Pro
+- TNT2 Ultra
+- TNT2 Model 64 (M64)
+- TNT2 Model 64 (M64) Pro
+- Vanta
+- Vanta LT
+- GeForce 256
+- GeForce DDR
+- GeForce2 GTS
+- GeForce2 Pro
+- GeForce2 Ti
+- GeForce2 Ultra
+- GeForce2 MX Integrated graphics
+- Quadro
+- Quadro2 Pro
+- Quadro2 EX

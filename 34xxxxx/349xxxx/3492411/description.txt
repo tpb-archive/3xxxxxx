@@ -1,0 +1,47 @@
+Half.Life.2.Episode.One.SPANiSH.Web2k2
+--------------------------------------
+
+Esta version esta basada en la original de PROViSiON
+con su Update 1 para corregir los fallos que ocasionaba
+en tarjetas graficas que no soportan DirectX 9.
+
+El juego está totalmente traducido al Español, tanto
+textos como voces.
+
+Instrucciones.
+1- Descomprime el archivo RAR
+2- Ejecuta iniciar.bat
+
+
+
+FAQ
+
+- ¿Como hago un acceso directo en el escritorio?
+- Para crearlo es tan facil como hacer click derecho
+en hl2.exe, seleccionas Enviar a, y despues Escritorio
+(acceso directo).
+
+- He creado el acceso directo, pero no me funciona.
+- Haz click derecho en el acceso directo, selecciona
+Propiedades, y en la ruta Destino, añade esto despues de hl2.exe.
+-steam -game episodic -console
+
+IMPORTANTE
+
+Si has descomprimido el juego en una ruta con espacios (Por
+ejemplo c:\archivos de programa\Ep1) debes de dejar la ruta
+completa y el hl2.exe entre comillas ("). Deberia de quedar asi.
+"C:\Archivos de Programa\Ep1\hl2.exe" -steam -game episodic -console
+Si lo haces sin las " no funcionara!!!!
+
+
+- He iniciado el juego, pero los menus se ven en Ingles.
+- Ejecuta el archivo español.reg e inicia el juego de nuevo.
+
+- He ejecutado el archivo reg, pero se me sigue viendo en Ingles.
+- Descarga Steam desde http://steampowered.com/download/SteamInstall.exe
+y configuralo en Español.
+
+
+- El juego se me abre con la consola, pero no quiero verla al iniciar.
+- Edita el archivo iniciar.bat o el acceso directo y elimina el texto -console

@@ -1,0 +1,11 @@
+Get your OS X 10.4.3 dtk userdvd image, convert to ISO if needed.
+
+Run the PPF-o-Matic.
+
+Apply the whole patch set to your ISO and then burn it (it modifies the ISO in place, make sure you saved a backup of it first).
+
+Then the resultant DVD should boot on most PCs...
+
+For more info, check www.osx86project.org and/or the Wiki linked there.
+
+Who needs Vista?

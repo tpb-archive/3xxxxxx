@@ -1,0 +1,26 @@
+Here are some files that could come in handy if you want to play AOE3 over a "faked" LAN.
+
+You need:
+
+- AOE3 (doh)
+- Hamachi
+- the files in this package
+
+This package contains:
+
+- AOE3 1.03 official patch
+- Original age3.exe (some of you will need this)
+- AGE3vpn
+- AOE3 mini-image
+
+Installation:
+
+- Install the patch (you might get an error when updating age3.exe, this is because you have a cracked .exe, just ignore for now)
+- If you're using the cracked .exe extract the original .exe from age3.zip and overwrite the cracked one
+- Extract AGE3vpn to the AOE3 install dir
+
+To play AOE3 over LAN:
+- Mount the mini-image using Daemon Tools or some other mounting tool.
+- Start Hamatci
+- Run AOE3vpn.exe and make sure that the Hamachi IP is selected.
+- Enjoy!

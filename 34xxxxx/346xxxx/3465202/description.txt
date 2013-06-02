@@ -1,0 +1,39 @@
+***This must be done for MsgPlus!Live to work!***
+
+- Go to the following directory according to what Windows version you are using:
+
+Windows XP = C:WINDOWSSYSTEM32DRIVERSETC
+Windows 2K = C:WINNTSYSTEM32DRIVERSETC
+Win 98/ME = C:WINDOWS
+
+Open "Hosts"  with Notepad or something similar
+
+And add the following line:
+192.168.0.1 msgplus.net
+
+*Note*: This may prevent you from accessing the msgplus site, so remove it when you're done with using Plus!Live
+
+- If you are not happy with this method, use the following tool that will edit the Hosts file for you (it may require you to download some extra files, use google.com to find them):
+ 
+http://messserv.com/EnablePlusLive.exe
+
+Just run it and type (without quotes):
+
+"Enable"
+
+- If none of the above work, then disconnect from the internet BEFORE you try and install, then when it's installed, sign in (it may take a few tries before it works) and it should work fine.
+*If you use thi method, when you exit MSN and re-open it, plus will not run, so you have to disconnect from the internet and then run MSN. Then you will notice Plus is running too, and can re-connect to the internet for it to work as before.
+
+
+**Disclaimer**
+Remember this is a Beta, and may be unstable. Neither I, nor anyone else can be held responsible for any damage done to your PC that results after you have run anything mentioned in this ReadMe.
+
+Enjoy ;)
+
+
+
+
+
+~~~~~~~~~~~~~~~~~
+Written by Kangie, uploaded by Joe (.@raverba.be)
+~~~~~~~~~~~~~~~~~

@@ -1,0 +1,43 @@
+MythTV 0.19 on Xebian 1.1.4 for Xbox
+
+This is the third release of this dist. Let's call it 1.3
+
+Installation
+============
+
+Unzip mythtv_0.19_xebian_1.1.4_xbox.zip into E:debian on your xbox. You will probably need to edit your dashboard config file to add this directory to your menu. See your dashboard documentation for details.
+
+You will need to login from another machine using ssh. The IP address is configured to be 192.168.1.6. There are a few logins that are default for this dist:
+
+Login   Pass
+==============
+root    xebian
+live    live
+
+Once you are able to boot into linux, ssh into the box using the live account. Make any changes necessary.
+
+Changes you are likely to make include:
+=======================================
+Changing the IP Address by editing /etc/network/interfaces.
+Editing /etc/hosts to change the mythtv entry to point to your backend.
+Editing /etc/fstab to nfs mount the media directory from your backend.
+
+Notes
+========
+Currently MythTV is configured to point to a backend with the hostname 'mythtv' as defined in /etc/hosts. It currently points to 192.168.1.8.
+
+This installation is also configured to mount mythtv:/mythtv on /mythtv.
+
+You will also need to add permissions to your backend database so that this installation can access the database. I will not document that here. See www.mythtv.org for details.
+
+Changelog
+=========
+1.1 - Initial release. Torrent file does not specify versions.
+1.2 - xir.o and xpad.o kernel modules have been patched so that aftermarket (non-M$) remote will work. Much thanks to Vladan Bato for the fix.
+1.3 - Updated to MythTV 0.19
+
+Super big thanks to the MythTV developers, rpm package maintainers and how-to authors.
+
+Enjoy,
+
+Rob Anderson

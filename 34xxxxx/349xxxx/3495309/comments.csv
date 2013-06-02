@@ -1,0 +1,150 @@
+﻿User Type,Username,Date,Text
+,JER79,2006-06-15T16:25Z,Have any one managed to get this game to work?
+,dod333,2006-06-16T23:10Z,no
+,povuser,2006-07-18T05:57Z,"If you have Quicktime, try uninstalling it and install the version that is on the DVD. Worked for me on Windows XP."
+,jackchinook,2006-07-29T00:09Z,"I can't get it to work either.  Uninstalled Quicktime, attempted to install from disc...didn't allow me to.  
+
+Anyone have any luck on XP?  Any tips?"
+,povuser,2007-02-14T19:22Z,"Too bad the company that did the game kind of disappeared now. It would be great if they made available a WinXP upgrade, as well as a Mac OS X version... :("
+,allmektige.peder,2007-12-01T10:45Z,"Try this:
+
+1. Right-click the .exe-file, and then click Properties.
+
+2. Click the Compatibility tab, and change the compatibility settings to windows 95.
+
+It has worked for me."
+,forkball,2007-12-12T16:40Z,"yeah i got it to work great.  i had to install quicktime from the disc, then no problem.  great upload!"
+,bnetqc,2008-03-11T15:49Z,"On Mac osx? 
+
+Use This http://www.devklog.net/rivenx/"
+,DiabolicalFullmoonMysti,2008-05-28T00:16Z,"This is an iso file, that means that its just an image of the cd, or dvd in this case. to open this you should google daemon tools lite and download it, then when its open, right click on the icon in the bottom right hand corner of your screen, scroll to the ""virtual cd/dvd and then ""mount image"" and click. you should be able to get the rest done yourself."
+,VonMudra2,2008-05-31T12:25Z,"I just finished downloading, and I tried using Daemon tools with it.  I mounted the rar, was given an install menu, and clicked install.  It then proceeds to do nothing.  Help, anyone?"
+,zamooza,2008-06-04T00:21Z,"VonMurda heres how i did it..
+
+1. I used winrar to open the iso and extracted all the files to my hard drive
+
+2. I tried to play using the exe file from the new directory and the game wouldn't start because it was asking for the Riven DVD
+
+3. I used Daemon tools and mounted the iso like diabolical suggested and eureka! it worked perfect!!!"
+,lakecityransom,2008-08-04T00:59Z,"Didn't work on xp for me. ""Myst II - Riven (10th Anniversary DVD Edition)"" did fyi."
+,sevenveils,2008-10-01T02:52Z,"i use daemon to mount the ISO, but when i go to install (whether using win95 or win98 compatibility or not), i get as far as when it wants to install directX 5 (which it can't do since i have a newer version of directX).  then it says the installation is incomplete without directX 5.
+the files are installed and i can run the EXE, but it just causes a flash of black, a second of the hourglass, and then back to my desktop.
+
+any suggestions??"
+,TomSKP,2008-10-24T23:10Z,"povuser:  If you see this, would you please re-seed Riven_5CD_version
+Thanks
+TomSKP"
+,sunny33,2008-11-22T01:08Z,"Thank you so much!  I'm running Vista, so it took a bit of doing but it's working very well now.  I sure have missed this game!
+
+For anyone else using Vista, you may want to try this:
+
+1. Do not install QuickTime from the dvd.
+
+2. Download the Riven updater patch from UbiSoft:http://www.ubi.com/US/Downloads/Info.aspx?dlId=65.  This takes care of some movie bugs in the game.
+
+3. Download the Riven Vista patch: 
+http://files.filefront.com/Riven+Vista+Patch/;8014203;/fileinfo.html/1/1 . This has three files  that you copy into the Riven folder so you don't have to install QuickTime and one file that points Riven in the right direction in looking for QT files.
+
+4. Open up the Riven folder on the dvd and install the above files and patches in the Riven folder.  While you are there, look for mohawk.w32, open it with notepad, and change  fEnableAudioProxy=true to fEnableAudioProxy=false.
+
+5. Run in Windows 98, with 256 colours,  640x480, and disable visual themes.
+
+Start from a desktop icon, not autorun on dvd.
+
+Remember, this is for Vista only.  Good Luck!"
+,hakf,2009-01-16T20:40Z,"This probably works, but if you run Win XP or newer, it may not work for you, I have XP and believe me; i have tried all! And many others have the same lot of problems. But I think it works for some XP's .. give it a try :)
+
+PS: If you have not completed Myst (one), you should try that first! It's damed hard, but it's worth it!!! (It's not fun to use walk through or other cheats)"
+,hakf,2009-01-16T20:44Z,"Add to my comment:
+I would recommend ""Myst real"". It looks fantastic and works on newer systems."
+,AlceDoido,2009-01-19T15:10Z,"after you burn the ISO image to a Dvd (XP) - (clone dvd let it do it)
+
+1º - remove previous instalations of Quicktime
+2º - install Quicktime version from Riven's Dvd
+3º - before installing the game, click on setup.exe (burnt dvd) properties and change it's compatibility only for windows 95
+4º - do the same for the shortcut and/or riven.exe installed.
+
+5º - and the game is ready for playing"
+,AlceDoido,2009-01-19T15:36Z,"after you burn the ISO image to a Dvd (XP) - (clone dvd let it do it)
+
+1º - remove previous instalations of Quicktime
+2º - install Quicktime version from Riven's Dvd
+3º - before installing the game, click on setup.exe (burnt dvd) properties and change it's compatibility only for windows 95.
+4º - install the game by setup.exe (configured for win 95) 
+5º - before execute the game, do the same as in 3rd step to the shortcut and/or riven.exe installed.
+
+5º - and the game is ready for playing
+
+Thanks Povuser, what a classic. Being looking for this since 2000"
+,djpirate,2009-01-29T06:46Z,"Had no problems. Mounted with MagicISO  and installed to flash drive, only problem though is that it requires the CD/DVD to run. Anyone know of a way around this? Thanks povuser!"
+,plox93,2009-02-02T23:39Z,"I cant get this to work..i downloaded it, mounted the ISO with daemon tools, a screen popped where i could click install, i clicked, it loaded for a few moments and then...nothing. i have Vista, and tried to do what Sunny33 said. dont really think i understood exactly how to do it so a more further explanation would be nice :) anyone else know a good way to get this to work? i really want this game"
+,AlceDoido,2009-02-08T06:15Z,"only for XP
+
+1st - download daemon tools and mount a virtual drive from riven's iso or burn the iso image to a dvd with clone dvd or a family program.
+
+2nd - remove previous instalations of Quicktime you have
+
+3rd - install Quicktime version from Riven's Dvd
+
+4th - before installing the game, click on setup.exe exploring your mounted virtual drive or burnt dvd properties and change it's compatibility only for windows 95.
+
+5th - install the game by setup.exe (already configured for win 95) 
+
+6th - before executing the game, do the same with the compatibility business for the shortcut and/or riven.exe installed.
+
+and the game is ready for playing, works perfectly for me."
+,myboomstick,2009-03-13T09:21Z,I've managed to get this thing installed and running on my Vista machine but random crashes pissed me off. Looked everywhere I could online for help but all to no avail. Eventually gave up and uninstalled. Shame because I REALLY wanted to experience this wonderful game again :(
+,Jerzfusion,2009-03-21T21:05Z,I Have a Windows XP to Download it and a Windows 98 to play it
+,Porta_Pro,2009-03-29T21:33Z,"Is it a good game? 
+game play x/10?
+story x/10?
+graphix x/10?
+
+Over All x/10?"
+,crayZsaaron,2009-09-08T11:30Z,"Got it to work on my Mac OS X.  
+
+Win."
+,quaoar1987,2009-12-11T14:42Z,"Works Great!!!
+on Windows 7 x32
+
+Just install and play.
+
+It doesn't use Quicktime as the cd version. Instead of it, it use DirectX.
+
+And the documentary is fantastic! ^^
+"
+,fillvinf06,2010-01-09T19:50Z,"If there is not much seeds, you can also find a good version of Riven: The Sequel to Myst on another site, it is an ''.exe'', and its also an english version, just go on that web site:
+
+http://www.torrent411.com/torrents/RIVEN__the_sequel_to_myst_version_anglaise
+
+The website is in french, but the game is in english, and the download button is on the right of the screen (ITS CALLED ''Télécharger'') im not sure of the compatibility for the different platforms, but its Windows XP or previous for sure! Once downloaded,  the installation is made with the RIVEN1 CD.
+
+ENJOY!!! "
+,fillvinf06,2010-01-09T19:56Z,"And, if needed, send them all on CD's, using the clone dvd software, if not seeding, please do not delete the donwload, it'll give the other more sources!!"
+,flamable_steve,2010-06-14T00:33Z,"To djpirate;
+you have to have the iso mounted when you try to run the game. The mounted ISo will act as a cd."
+,madix33,2011-08-20T04:09Z,Boomstick an I have the same porblem.  Plays fine for a while and then freezes.  Ideas anyone?
+,madix33,2011-08-20T04:10Z,Boomstick an I have the same porblem.  Plays fine for a while and then freezes.  Ideas anyone?
+,LordRaz12,2011-08-21T13:41Z,"Hey. I'm on Windows 7 64bit and its not running. It's telling me I need to check the architecture type and determine if its compatible. So it apparently doesn't work on 64bit. No biggie, just wanted to let you know."
+,jsportive,2011-09-28T09:57Z,"i have the original 5 cd version.
+will this work instead? 
+if so, where will i find the cd-to-dvd converter exe?"
+,Pirate_Pedro,2012-04-26T16:09Z,"WARNING: I just wanted to warn anyone trying to install this version of Riven on Windows XP that you should probably pass.
+
+This version of Riven was not built for XP, but I went ahead and followed AlceDoido's installation advice, which allowed me to install this version of Riven and play it.
+
+However, when you try to save a game, this version of Riven crashes on XP, with the end-result being that the game isn't saved.
+
+Later, if you try to load a saved game, this version of Riven crashes on XP. So unless you can tie up your computer for days/weeks as you solve all of the puzzles, you will have to start all over from scratch the next time you play it.
+
+Worse, yet, is the fact that you can not easily uninstall this version of Riven from XP because Uninstall Shield hangs due to some supposedly corrupted file.
+
+To fully uninstall this version of Riven from XP, about your only option is to delete the Riven folder from your Program Files and all the shortcuts from your desktop and Start menu.
+
+And then you will have to use System Restore and restore to some date before you installed this version of Riven on XP if you want to fully cleanse your system.
+
+Otherwise, Riven will show up in your installed programs database from now on.
+
+Just a heads up."
+,nzdnbftw,2012-08-21T09:35Z,"Works great on my Windows XP 32-bit. I didn't experience any of the problems that Pirate Pedro has, even tested the uninstaller. Appreciate the upload! =D"
+,nzdnbftw,2012-08-21T09:51Z,"LordRaz12, Riven was designed to run on a 16-bit system. It is not possible for a 64-bit version of Windows to execute a 16-bit program, to the best of my knowledge only 32-bit versions of Windows will be able to do it."

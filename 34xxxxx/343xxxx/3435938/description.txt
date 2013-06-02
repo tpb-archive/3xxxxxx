@@ -1,0 +1,118 @@
+Species Trilogy 94-2004
+ 
+http://www.imdb.com/title/tt0114508/
+ 
+http://www.imdb.com/title/tt0120841/
+ 
+http://www.imdb.com/title/tt0410650/
+
+----
+
+I am not sure how many times that this series has been requested, but I am sure it's over 50 times.
+
+All three movies are here, in unrated format if they could exist that way.
+
+They are made with h.264 (x.264r409: 2pass, RDO 7, 3CBF's, 8x8 Trans w/16ref) and matroska for the container.  Fucking 30 hours of encoding.
+
+Optional external subtitles are embedded in each movie, which are available in: French, English, Or Spanish, depending on which film you are watching.
+
+If you want to extract the subtitles for whatever reason, do this:
+
+
+Download:
+
+mkvtoolnix:
+ 
+http://www.bunkus.org/videotools/mkvtoolnix/win32/mkvtoolnix-unicode-1.6.5.rar
+
+Unrar, and then download this:
+
+MkvExtractGUI:
+ 
+http://corecodec.org/frs/?group_id=55
+
+And unrar into the same directory as "mkvtoolnix".
+
+Click on MKvExtractGUI, then when it runs, simply drag the .mkv onto the screen of MKVextractGUI.  Wait for info to be displayed on the screen.  Choose your output folder by clicking the "other path" button, then click the box on the shit you want.  You can extract the audio, video, everything..it's very cool.
+
+----
+
+To watch this, you need only 3 things:
+
+1.  FFDSHOW 2005-12-21 SSE:
+ 
+http://www.afterdawn.com/software/video_software/codecs_and_filters/ffdshow.cfm
+
+
+2.  Matroska Pack Lite v1.1.2 (2005-10-15)
+ 
+http://packs.matroska.org/latest/Matroska_Pack_Lite.exe
+
+
+3.  A "DirectShow" media player, such as "Windows Media Player" or better yet,
+
+"Media Player Classic"
+ 
+http://sourceforge.net/project/showfiles.php?group_id=82303&package_id=84358&release_id=216658
+
+
+
+Or just use this, with none of the above:
+
+
+VLC Works great too:
+ 
+http://www.videolan.org/vlc/download-windows.html
+
+
+----
+
+Mini Plot:
+
+Species:  In 1993, the Search for Extra Terrestrial Intelligence Project receives a transmission detailing an alien DNA structure, along with instructions on how to splice it with human DNA. The result is Sil, a sensual but deadly creature who can change from a beautiful woman to an armour-plated killing machine in the blink of an eye. Government agent Xavier Fitch assembles a team of scientists and mercenaries to locate and destroy Sil before she manages to find a mate and breed.
+
+
+Species II:  An astronaut gets infected with alien DNA during the first mission on Mars and runs amok on earth. The surviving team members from the first film team up with a peaceful, genetically re-engineered Sil to track the monster down.
+
+
+Species III:  Sara (Sunny Mabrey), the daughter of Eve (Natasha Henstridge) begins her mission to mate with humans, while a specialist military team hunt her down to kill her before its too late.
+
+----
+
+Encoded by: sickboy88
+Codec: H.264 (x264 Revision 409)
+Container: Matroska
+Bitrate: 800-1000 kb/s AVG
+Aspect: 640x272-344 = 2.35-1.85
+Audio: Audio: English, 128 kb/s VBR AVG Stereo MP3 @ 48K Hz
+Subtitles: English, French, Spanish
+Runtime: 108min, 93min, 112min (unrated)
+FPS: 23.976
+
+----
+
+Some good reading:
+
+1.  Matroska FAQ:
+ 
+http://www.matroska.org/technical/guides/faq/index.html
+
+
+2.  MKV to DVD Conversion Guide, using DVD Santa 4.0:
+ 
+http://www.matroska.org/technical/guides/dvd/index.html
+
+
+3.  H.264 Whitepaper:
+ 
+http://www.ati.com/products/pdf/H264_Whitepaper.pdf
+
+
+4.  Doom9 2005 Codec Shootout:
+ 
+http://www.doom9.org/index.html?/codecs-final-105-1.htm
+
+
+5.  Wikipedia on H.264:
+ 
+http://en.wikipedia.org/wiki/H.264

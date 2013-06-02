@@ -1,0 +1,33 @@
+﻿User Type,Username,Date,Text
+,killalltheyuppies,2006-01-24T13:51Z,"I forgot to mention that all of the settings are currently for a 1080i Widescreen (1920X1080)
+-You can change this by changing the max x and max y values in the INI's for each emulator"
+,killalltheyuppies,2006-01-24T14:04Z,"any requests for more compressed xiso as far as homebrew goes or Xbox release's?
+give them a day or two to go up. I will let you know which one's I am working on, when I see requests."
+,willkill187,2006-01-25T22:16Z,"the snes emu. cant find the roms file,and it wont load all the files, how can i fix this thanks!!!!"
+,killalltheyuppies,2006-01-26T00:25Z,"the snes roms are at EMUSNESROMS
+
+the snes by default looks at EMUSMSROMS  (sega master system) OOOOPS change it to EMUSNESROMS that will fix the prob, sry"
+,killalltheyuppies,2006-01-26T00:50Z,"for xsnes9x
+
+Change the config.ini back to: 
+
+ROMPATH=d:roms
+PREVIEWPATH=d:Previews
+MEDIAPATH=d:MediaMusic
+""D:"" is a relative path. ""D:"" is defined as the directory from which the default.xbe file was launched."
+,killalltheyuppies,2006-01-26T00:52Z,"If you still have trouble with ROMS showing up in Xsnes9x:
+
+xSNES9x puts a working copy of the config.ini file into E:TDATA ffffdaed (I think that's the right location). You need to either go directly to that location and edit the ini file there or go to the game save manager in the standard XBox dashboard (aka MS Dash) and delete the save for xSNES9x and then start the emulator again."
+,willkill187,2006-01-26T07:23Z,:) thanks!!!!! i got it going. u da man!!!!!
+,willkill187,2006-01-26T07:25Z,"hey, do u know a tool i could use  to fix sum of the roms to work? thanks again."
+,killalltheyuppies,2006-01-26T09:04Z,I know there are a couple good progs to fix several diff types of roms.   just try some emu irc rooms or even just emu sites
+,markymark76,2006-01-29T10:01Z,How do i burn this torrent dvd decrypter does not recognise the file type
+,JuBe,2006-01-30T21:29Z,"Try changing the rom files extensions from .srm to .smc That worked for me.
+
+Example:
+Alien 3.srm -> Alien 3.smc"
+,killalltheyuppies,2006-02-04T08:37Z,"Thank you Jube. I did a batch rename or two so that they would be able to ftp ok, guess I F'd up somewhere.
+
+And as for burning this, it should be recognized by nero, roxio, recordNow, etc.  It was made an XISO by QWIX so you can just burn the image.  And no you can't just open it with any image extractor.  If you want to extract use QWIX or extract XISO.  
+
+but remember, if you use qwix you can just tell it to upload the ISO to your xbox, it will be extracted on your xbox Hard Drive."

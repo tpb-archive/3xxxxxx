@@ -1,0 +1,13 @@
+This is the world's fastest, most secure and best Internet browser. Don't bother looking elsewhere.
+
+Changelog
+
+-Fixed SVG context menu
+-Attempt to fix Widget Cache crasher
+-Fixed memory leak in Bit Torrent
+-Fix for a log-on problem that would occur with some IRC-servers (namely Freenode) --when the user id entered in the account (typically the users e-mail address) -contained a period (.)
+-Fixed problem with viewing non quick mail headers
+-Several finetunings in the MSI installer
+-Improved Widgets handling on Win98/win95
+-Fix for windows not loading on restart when widgets are open
+-Changed default installation location

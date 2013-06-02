@@ -1,0 +1,93 @@
+TOMTOM NAVIGATOR 5 with working POI and GB PLUS MAP (Updated to 5.1) + Detailed install instructions and Registry Editor
+
+This torrent is supposed to be used in conjunction with the larger 270MB torrent located at: http://thepiratebay.org/details.php?id=3358461
+
+This updated file contains the 5.1 version .CAB files for you to copy over the 5.0 version in the above torrent and a Pocket PC Registry Editor for you to use to get TTN5.1 working with your Pocket PC device.
+
+This torrent also contains detailed installation instructions for Windows Mobile 5.0 users and will likely help with other installation problems too.
+
+If you are having problems getting the torrent mentioned above to work then I strongly advise you to download this torrent and read the Step by Step Instructions for installation. Even if they don't apply dpecifically to your device they may point you in alternative directions to help you get your copy working.
+
+Here are the instructions included in the torrent....
+
+Installing TomTom Navigator 5.1
+-------------------------------
+
+This update to the popular SD card "release" of TomTom 5.0 contains the updated .CAB files from the 5.1 version of TomTom 5.0, a registry editing application for Windows Mobile 5.0 and some detailed install instructions (these).
+Before you begin, copy the four .CAB files over to the other Torrent in to the 2577 folder ( {Torrent}TTN52577 )
+
+
+
+After spending four hours with my brother attempting to get TomTom Navigator 5 running on an O2 XDA Exec running Windows Mobile 5.0 and eventually succeeding, we thought it best to create a step-by-step guide to allow us to repeat the process should it be necessary to hard reset the device.
+I have attempted to be as thorough as possible and give help and advice where possible but given the sheer number of different Pocket PC's, versions of Windows Mobile, GPS devices etc etc I can't cover all apsects and certainly don't know how to fix every problem. If there's something that I haven't covered here then there's always the rest of the internet to help! That is how we managed to get it going on the XDA Exec, reading from pages located on the following sites.
+
+Thanks to:
+
+xda-developers.com
+pocketgps.co.uk
+expansys.co.uk
+
+
+1. Ideally this install should be done on a blank SD card using a USB card reader. Although it shouldn't be necessary this is the recommended way to install. If you are having trouble with the install, go back-to-basics on the SD card and format it.
+
+2. Put your blank SD card in to the card reader.
+
+2. Within the "Crack" directory, copy the "TomTom" folder which contains a file called CurrentMap.dat to the SD card.
+
+3. Remove the SD card from your card reader and put it back in to your Pocket PC.
+
+4. Cut or copy the TomTom folder from the SD card and Paste it in to the My Documents folder on the Pocket PC. Don't put it in a My Documents folder on the SD card, it won't work.
+
+5. Remove the SD card from your Pocket PC and place it into your card reader.
+
+6. Copy the entire contents of the "TTN5" folder to the root of the SD card. Don't just copy the "TTN5" folder to the SD card. The six folders and START.EXE must be placed in to the ROOT of the SD card for this to work.
+
+7. Remove the SD card from your card reader and put it back in to your Pocket PC.
+
+8. Your Pocket PC may warn you about an application called AUTORUN.EXE. You can allow it to start if you wish but you may find that it does nothing other than make a sound similar to when you connect ActiveSync, display a TomTom graphic and then exit. If it goes ahead and installs all the applications then you can probably skip the next few steps. The autorun did not install the programs on an XDA Exec running Windows Mobile 5.0 that I was testing on so I needed to install the .CAB files manually.
+
+9. Using your Pocket PC, navigate to the 2577 folder on the SD card and install each of the four .CAB files. The .CAB files included in this release are the ones from the Version 5.1 update so should work fine on all recent devices. GPS.CAB, PIMADDIN.CAB, WZD.CAB and TTN.CAB. As far as I am aware, you don't have to install them in any particular order but I did install TTN.CAB last if that helps.
+
+10. Once all .CAB files are successfully installed you should perform a soft-reset of your device. The XDA Exec that I was testing on did not display the TomTom bar in the Today screen, even when it was specifically enabled. I think this is to do with incompatibility with Windows Mobile 5.0.
+
+11. Don't be tempted to start the application just yet please....! The biggest problem encountered with actually using TomTom Navigator was not that the application would not work, but you simply could not get TomTom to see the GPS device. On an XDA Exec running Windows Mobile 5.0, after four hours of searching we discovered how to do it... If you are running a recent Pocket PC device then you may find that this works. Again, this is all tested and confirmed to work on an XDA Exec running Windows Mobile 5.0.
+If you are struggling to set up TomTom to use your "Other Bluetooth GPS" device then please read through this section. If any part doesn't directly apply to your device or something doesn't work or isn't there, continue reading to see if there are any parts that can assist you. Again, I do not know if this process will work with Windows Mobile 2003 since I do not know if Windows Mobile 2003 even has a GPS icon or if it is installed by TomTom from the GPS.CAB file.
+
+12. Remove the SD card from your Pocket PC and place it into your card reader.
+
+13. Within the R-Edit folder in this archive, copy the relevant platform .CAB file to your SD card. Most PocketPC's use ARM type Intel processors but you can find out with trial and error if you wish.
+
+14. Remove the SD card from your card reader and place it into your Pocket PC.
+
+15. Using File Explorer, navigate to the .CAB file you copied to your SD card and install R-Edit on your Pocket PC.
+
+16. Run R-Editfrom the Programs Menu.
+
+17. Within R-Edit, navigate to the registry key "HKEY_LOCAL_MACHINEControlPanelGPS Settings"
+
+18. Within the registry key, delete the DWORD entry marked "Hide"
+
+19. Add a DWORD entry called "Group" and give it a Value of "2"
+
+20. Soft reset your Pocket PC.
+
+21. On your Pocket PC, go to Settings > Connections to ensure that the GPS icon is there. If it is not then I can only apologise but it may not be possible to get TomTom working with your GPS device. It is necessary for TomTom to see a specific GPS serial port that can (as far as I can tell) only be set by this GPS connection program. After you have paired with your Bluetooth GPS device you could try setting an Outgoing port to COM7: as that is a default COM port that TomTom Navigator can connect to. Do step 22 then skip to step 26.
+
+22. Turn on your Bluetooth GPS and stick it in a location that it's likely to get a signal. On your Pocket PC, enable Bluetooth and search for new devices. Establish a bond (pair) with your GPS device and ensure you check the "Serial Port" option.
+
+23. Go to Settings > Connections > Bluetooth. Create a new Incoming COM Port. I chose COM8 for this.
+
+24. Other guides on the Internet tell you to also create an Outgoing port and setting it as COM7 but doing this would not work on the XDA Exec that I was using so I had to create the Outgoing COM port on COM0. Either way you need an Outgoing COM port to be set. If you can set it as COM7: then you should do so, if not, use COM0:
+
+25. Go to Settings > Connections > GPS. Set the GPS communication port to the same Outgoing COM port that you set above. For the XDA Exec I was using, I had to set it as COM0 above so will set it here as COM0 also. The "Manage GPS Automatically" checkbox should already be checked but if it isn't, check it and OK out.
+
+26. Start up TomTom Navigator using the Programs menu and run through the setup procedure as normal but select "Other Bluetooth GPS" when asked to select a GPS device.
+
+27. TomTom will ask you to now pair your GPS device with your Pocket PC. We've already done that so click Continue.
+
+28. You will be given a list of ports that your GPS device is likely to be on. Remember that this is the Outgoing port that we created earlier in steps 24 and 25. Basically the COM port you set here must be the same as the one you set in step 24 and 25.
+
+29. Select the relevant COM port and then click Next. You will likely be taken straight in to the map view and with any luck your Pocket PC and GPS device will start communicating and your Pocket PC will show your position on the map.
+
+30. If you made a mistake in setting the COM port that your GPS device lives on, simply tap anywhere on the screen. Tap Preferences, tap Next three times until you see an icon that looks like a satellite labelled GPS status. Tap that icon and then tap configure to change the COM port.
+

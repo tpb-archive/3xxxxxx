@@ -1,0 +1,25 @@
+This includes debs for cedega, point2play, and mozctlinstaller
+
+ Cedega 5.0 Release Notes
+
+Released November 8, 2005.
+
+
+   Overview
+
+TransGaming is pleased to announce the release of Cedega 5.0, dubbed
+Cheddar, giving TransGamers access to more Windows games in Linux with
+greater ease. TransGamers are able to download Cedega in RPM, Debian and
+TGZ formats from the downloads section of TransGaming's website:
+http://www.transgaming.com/
+
+Cedega 5.0 is our first release to feature integration between the
+Cedega GUI (formerly known as Point2Play) and the core Cedega technology
+(now referred to as the Cedega engine). In addition to the usability
+improvements that accompany this fusion, we also give you the ability to
+play /Battlefield 2/, /Dungeon Siege II/, /City of Villains/, /Madden
+NFL 2006/ and /Madden NFL 2005/ on your Linux desktop today. And since
+this is Cedega 5.0, we also bring you technology advancements such as a
+scheduler for 2.6 kernel users, pixel shader 1.4 support, improved
+OpenGL VBO/VAR support for caching geometry on the video card, and
+preliminary OpenGL FBO support for faster render-to-texture performance.

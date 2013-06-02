@@ -1,0 +1,228 @@
+THE TEST ACCESS PORT AND BOUNDARY SCAN ARCHITECTURE - 
+Colin M. Maunder and Rodham E. Tulloss - 
+IEEE Computer Society Press
+
+TABLE OF CONTENTS
+
+Part I Background 
+
+1 Test Technology Prior to IEEE Std 1149.1 
+1.1 Test Technology for Loaded Boards 
+1.2 Trends in Design-for-Testability 
+1.3 The Effect of Miniaturization 
+1.4 The Need for a New Approach 
+1.5 References 
+
+2 An Introduction to Boundary-Scan 
+2.1 Scan Testing at the Board Level 
+2.2 The Value of Boundary-Scan 
+2.3 Testing a Board with Boundary-Scan 
+2.4 Boundary-Scan for ICs That Are Not Themselves Scannable 
+2.5 Boundary-Scan Compared to In-Circuit and Functional Test 
+2.6 Reference 
+
+3 The Development of IEEE Std 1149.1 
+3.1 The Joint Test Action Group 
+3.2 JTAG Version 0 
+3.3 JTAG Version 1.0 
+3.4 JTAG Version 2.0 
+3.5 IEEE Std 1149.1 
+3.6 References 
+
+Part II Tutorial 
+
+4 IEEE Std 1149.1: The Top-Level View 
+4.1 The IEEE Std 1149.1 Architecture 
+4.2 The TAP 
+4.3 The TAP Controller 
+4.4 The Instruction Register 
+4.5 The Test Data Registers 
+4.6 Reference 
+
+5 The Bypass and Device Identification Registers 
+5.1 The Bypass Register 
+5.2 The Device Identification Register 
+5.3 Learning the Structure of an Unknown Board 
+5.4 Reference 
+
+The Boundary-Scan Register 
+The Provision of Boundary-Scan Cells 
+The Minimum Requirement 
+The INTEST Instruction 
+The RUNBIST Instruction 
+Applications to Loaded?Board Testing 
+Taking Advantage of Boundary-Scan 
+Loaded-Board Testability Problems and Traditional Test Techniques 
+100 Percent Boundary-Scan Testing 
+Test-Access Strategies for Mixed-Technology Boards 
+Conclusion 
+References 
+
+A Test Program Pseudocode 
+Introduction 
+Initialization 
+Test Circuitry Check 
+Interconnect Check 
+BIST Part Check 
+The Remaining Chips 
+Comments on Diagnosis 
+Conclusion 
+Acknowledgment 
+References 
+
+Diagnosing Faults in the Serial Test Data Path 
+Objective 
+A Basic Path Test 
+Use of the Device Identification Register 
+More Complex Methods 
+Reference 
+
+In-Circuit Testing 
+Mixed In-Circuit and Boundary-Scan Testing 
+Method 1 
+Method 2 
+Method 3 
+Conclusions 
+
+The Boundary-Scan Register 
+The Provision of Boundary-Scan Cells 
+The Minimum Requirement 
+The INTEST Instruction 
+The RUNBIST Instruction
+
+Part III
+
+Applications to Loaded?Board Testing 
+Taking Advantage of Boundary-Scan 
+Loaded-Board Testability Problems and Traditional Test Techniques 
+100 Percent Boundary-Scan Testing 
+Test-Access Strategies for Mixed-Technology Boards 
+Conclusion 
+References 
+
+A Test Program Pseudocode 
+Introduction 
+Initialization 
+Test Circuitry Check 
+Interconnect Check 
+BIST Part Check 
+The Remaining Chips 
+Comments on Diagnosis 
+Conclusion 
+Acknowledgment 
+References 
+
+Diagnosing Faults in the Serial Test Data Path 
+Objective 
+A Basic Path Test 
+Use of the Device Identification Register 
+More Complex Methods 
+Reference 
+
+In-Circuit Testing 
+Mixed In-Circuit and Boundary-Scan Testing 
+Method 1 
+Method 2 
+Method 3 
+Conclusions 
+
+Part IV Implementation Examples and Further Applications 
+
+11 Applications of IEEE Std 1149.1: An Overview 
+11.1 Test Cost Reductions: Chip-to-System, Womb-to-Tomb 
+11.2 Applications During Design and Development 
+11.3 Applications During the Production Cycle 
+11.4 Completing the Leverage into Field Test 
+11.5 Conclusion 
+11.6 Reference 
+
+12 Benefits and Penalties of Boundary-Scan 
+12.1 Benefits 
+12.2 Penalties: Additional Circuitry 
+12.3 Other Penalties 
+12.4 Conclusion 
+12.5 References 
+
+13 Single Transport Chain 
+13.1 Introduction 
+13.2 The STC Architecture 
+13.3 The Transport Chain 
+13.4 Capture Element Design 
+13.5 Update Element Design 
+13.6 Transport Element Design 
+13.7 A Complete STC Register Cell Design 
+13.8 Conclusions 
+
+14 Boundary-Scan Cell Provision: Some Dos and Dont's 
+14.1 Clock Pins 
+14.2 Logic Outside the Boundary-Scan Path 
+14.3 Special Cases 
+14.4 Components with Inverting Input and Output Buffers 
+14.5 Complex Boundary-Scan Cells 
+14.6 Conclusion 
+
+15 Providing Boundary-Scan on Chips with Power or Output-Switching Limitations
+15.1 Problem Statement 
+15.2 Provide More Power Pins 
+15.3 Preventing Simultaneous Switching of Output Pins 
+15.4 Do Not Allow Pins to be Enabled Simultaneously 
+15.5 Acknowledgments 
+15.6 References 
+
+16 Tapping into ECL Chips 
+16.1 The Problem 
+16.2 Incorporating TTL/CMOS TAP Connections on ECL Chips 
+16.3 Using a Special ECL Input Buffer for TDI, TMS, and TRST* 
+16.4 Summary 
+
+17 Cell Designs that Help Test Interconnect Shorts 
+17.1 Introduction 
+17.2 The Problem 
+17.3 A Proposed Solution 
+17.4 Conclusion 
+
+18 Integrating Internal Scan Paths 
+18.1 Problems at the Chip Level 
+18.2 Problems at the Board Level 
+18.3 A Solution 
+18.4 Further Reading 
+18.5 References 
+
+19 Testing Mixed Analog/Digital ICs 
+19.1 The Location of the Boundary-Scan Path 
+19.2 Boundary-Scan Cell Design 
+19.3 Testing Analog Blocks Using Boundary-Scan 
+19.4 Further Reading 
+19.5 References 
+
+20 Adding Parity and Interrupts to IEEE Std 1149.1 
+20.1 Introduction 
+20.2 Why Use Parity? 
+20.3 Adding Parity to Instructions 
+20.4 Extending Parity to Received Test Data 
+20.5 Parity Coding of Output Data 
+20.6 Other Uses of TINT* 
+20.7 Conclusion 
+20.8 Acknowledgments
+ 
+Part V Bibliography and Reprints 
+
+21 Bibliography 
+
+Reprints 
+"Chip Partitioning Aid: A Design Technique for Partitionability and Testability in VLSI" 
+"LOCST: A Built-in Self-Test Technique" 
+"A Fast 20K Gate Array with On-Chip Test System" 
+"Interconnect Testing with Boundary-Scan" 
+"Testing and Diagnosis of Interconnects Using Boundary-Scan Architecture" 
+"Boundary-Scan with Built-in Self-Test" 
+"ASIC Testing in a Board/System Environment" 
+"A Universal Test and Maintenance Controller for Modules and Boards" 
+"The Impact of Boundary-Scan on Board Test" 
+"An Optimal Test Sequence for the JTAG Boundary-Scan Controller" 
+"A New Framework for Analyzing Test Generation and Diagnosis Algorithms for Wiring Interconnects" 
+"A Unified Theory for Designing Optimal Test Generation and Diagnosis Algorithms for Board Interconnects" 
+"A Self-Test System Architecture for Reconfigurable WSI" 
+"Designing and Implementing an Architecture with Boundary-Scan" 
+"A Language for Describing Boundary-Scan Devices" 344
+"Functional Test and Diagnosis: A Proposed JTAG Sample Mode Scan Tester"

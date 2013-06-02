@@ -1,0 +1,39 @@
+Another Quick Release of apples nifty things by yours truly.... Aperature coming by the end of the week *fingers crossed*
+
+
+
+
+Media Center Like App from apple
+
+
+more info
+
+http://www.apple.com/imac/frontrow.html
+
+
+
+
+
+
+
+
+OS X 10.4.3 users: Just run Front Row.app or copy to /System/Library/CoreServices/ and reboot.
+
+OS X 10.4.2 (and older?) users: Copy BezelServices.framework to /System/Library/PrivateFrameworks/, reboot, run Front Row.app
+
+This Front Row.app has been cracked to skip the remote check and should idle in the background once loaded.
+
+
+
+
+
+Installation:
+You need to take the FrontRow.app file and put it in two places, your Applications folder and your Core Services folder (hardrive -> system -> library -> core services)
+
+and then take the folder called ?BezelServices.framework? and put it in the PrivateFrameworks folder (hdd -> system -> library -> private frameworks)
+
+Then Restart
+
+Put the Front Row app in your dock next to your finder (or anywhere really) and click it so it shows up in your top left hand corner in the menu bar, then hold Esc for 5 seconds and Front Row will activate
+
+Enjoi Front Row

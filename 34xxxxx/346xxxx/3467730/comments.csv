@@ -1,0 +1,5 @@
+﻿User Type,Username,Date,Text
+,TheJonesy,2006-04-07T11:50Z,"Den här versionen har problem med åäö så ni vet.
+PGP desktop 8.1 har inte det problemet. Så ni som ska använda den i skarp miljö vet om det."
+,sopprot,2006-04-07T12:09Z,Vaddå för problem?
+,Metonomy,2006-04-07T14:49Z,"Angående åöä vid PGP Whole Disk Encryption (WDE). Använd engelskt tangentbord när passphrase anges. När sedan datorn startas om och passphrase skall anges så kommer PGP själv ihåg denna mappning, och när Windows sedan drar igång så är det svenska tangentbord igen. Inga problem. Kör visserligen ver 9.0.2 men det lär vara samma med 9.0.5. Utmärkt produkt för kryptering av hela hårddisken. PS. PS. Ställ in och skifta mellan engelsk/svensk tangentbord med Alt+Left_Shift."

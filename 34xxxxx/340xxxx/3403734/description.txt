@@ -1,0 +1,127 @@
+X operations Online Test - version 1.5 (Translated by Sub7)
+
+Multiplayer version of X operations is divided from the singleplayer version.
+This is a test version, therefore the program specification is still simple.
+This version is based on the singleplayer version, but is developed to some degree.
+
+Maximum players per server is 12.
+Currently there is only "team death match", where the players are automatically
+assigned to one of the two teams (BLUE / RED)
+A game ends when all the members in a team die or when time gets to the set limit.
+
+A player can freely control his/her view point after he/she dies.
+
+Here is the procedure for playing the game.
+Texts below are written on the assumption that you have the general knowledge of network,
+so refer something by yourself if there is anything you cannot understand.
+
+To play on client side, input server address and port number in the spaces provided
+and then click START button.
+
+You can also use the lobby server to get the server list. Click GET SERVER LIST button.
+(On purpose to reduce the load on the lobby server, this feature will then be unavailable for several seconds.)
+If there is any server operating, its name and maximum number of players are displayed.
+Choose one from the list. Then server address and port number are automatically input.
+The character F or E on the left side of the number means as follows:
+    F : There are more than or equal to half the limit in this server.
+    E : There are less than half the limit in this server.
+This information is updated at regular time intervals, therefore there may be difference
+between displayed status and actual status.
+
+When title logo is displayed, your PC is successfully connected to the server.
+Wait for the server to start the next game so you can join in.
+
+If processing rate shown on the upper-right corner of the window doesn't reach 100%, you will
+be at a disadvantage. Check FRAME SKIP in the first dialog box before connection.
+
+When disconnected, press F11, type "retry" and press return key to try reconnection.
+If reconnection fails repeatedly, it is highly possible that the server is down.
+Once quit the program - reopen - and try another server.
+
+You can also run a server with ease. In the first dialog box, check SERVER and type port number
+(which, of course, must be opened. Set up your routing machine and firewall in order to connect.)
+Check PUBLIC to put your server information to the lobby server. Uncheck it if you want to play
+with specific members or if you want on the LAN.
+Click START to run the server.
+
+In default configuration, automatic game start is at work. When there are more than two clients
+connecting to the server, one randomized mission automatically starts.
+To cancel this function, press F11, type "auto" and press return key. (Do the same to reactivate.)
+In this condition, the server administrator is supposed to choose a mission. 
+
+Press Esc to quit the current game, then going back to the mission select.
+
+You can not join the game with a program running as the server. If you want, run another one
+and then connect to your own server as a client. To connect to the server on the identical
+machine, type "127.0.0.1" into ADDRESS field.
+
+SERVER SETTING
+    SERVER NAME           : Text typed here is shown on the server list.
+    MAX PLAYERS (2 to 12) : Maximum number of players on this server
+    TIME LIMIT [second]   : Time limit of a game
+
+
+
+Functions
+    Hold F1         : Show log that you have for up to 10 lines
+    Hold F12        : Show players list and their scores
+                          [K : The number of times you have killed.     ]
+                          [D : The number of times you have been killed.]
+    
+    Press Return    : Then type a message and press Return to show the message to all the players.
+      (for 2 times) : (In other words, execute say without argument) Then type a message and press
+                      Return to show the message to specific players.
+                          [Surviving player : To all the members in your team]
+                          [Dead player      : To all the dead players]
+                          (In both the two cases, server can read all these messages.)
+
+Command Line Interface
+Press F11 to open command line. Commands prepared are as follows:
+    say <message>   : Show <message> to all the players (depending on dead/alive)
+    tsay <message>  : (Client only) Show <message> to specific players (see above)
+    wish red        : (Client only) Hope for being on RED team in the next game
+    wish blue       : (Client only) Hope for being on BLUE team in the next game
+    retry           : (Client only) Try to reconnect to the current server
+    auto            : (Server only) Toggle the automatic game start
+    kick <name/number>   : (Server only) Kick out the player of <number>
+    ban <name/number>    : (Server only) Kick out and ban the player of <number>
+    unban           : (Server only) Cancel all bans
+    help            : Show all the commands
+    envid <name/number>  : show Player Identity number(s)
+    
+
+    *Player number
+     All the players have numbers according to the player list (Hold F12).
+     0 for the top, and then sequentially numbered to the bottom.
+
+Shortcut Features
+You can use four function keys of F5 to F8 as the shortcut buttons.
+Top four lines in cmd.txt (of course you can edit the content) are assigned to F5, F6, F7 and F8.
+Press each key to execute the set command when command line is not opened.
+(In order not to be used as active jamming, the next shortcut key does not work before
+ 3 seconds pass.)
+
+Autokick
+A player that seems to perform fault plays or that interrupts the other player is automatically
+kicked out. It is sometimes applicable to those who edit the game data.
+Reasons For Autokick:
+	Speed    : This feature removes players using speed cheats.
+	Fill     : This feature removes players who are lagging the server by sending too much information.
+	Memory   : This feature removes players using memory modification cheats (infinite ammo etc).
+	Timeout  : This feature removes players that are experiancing connection trouble.
+	AFK      : This feature removes players that have been inactive for a while.
+
+1.4 to 1.5
+The revised points are as follows... 
+* Communication between client and server has improved reducing lag.
+* Modified communication data quantity delicately so it can flow better, the character strings are in a better order 
+* Console does not protrude from the picture, as requested by a lot of people. 
+* Server list is now indicated at 3 stages 
+* Map identification value addition
+*  The "envid" command has been added to help identify server jerks. Type "envid <player name>" and it will reveal the players number. This number can be noted down to identify players who are banned then change their ip to get access again. The numbers reveal the perpetrator. Autokick also reveals the number.
+* By the way, in the next version we will include new weapons; the FAMAS, the Mk23 and the M1 (Shotgun).
+* A Map editor and mission editor is on the schedule too.
+
+24/09/2005 written by Sub7 <sub7@themetalmulisha.com>
+http://www.themetalmulisha.com/xops
+Copyright 2005 team MITEI All Rights Reserved.

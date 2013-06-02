@@ -1,0 +1,5 @@
+YAFRR - Yet Another Front Row "Release"
+
+This "release" of front row uses launchd to run Front Row instead of WindowServer. Because of that, it does not exhibit the loss of minimization "bug."
+
+Test it out, and see if you like it. Make sure to read the Instructions.

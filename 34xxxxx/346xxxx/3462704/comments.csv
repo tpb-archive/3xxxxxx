@@ -1,0 +1,91 @@
+﻿User Type,Username,Date,Text
+,A_Rebel,2006-04-01T08:44Z,This doesn't have very good reveiws on VT. Use at your own risk.
+,A_Rebel,2006-04-01T08:45Z,This doesn't have very good reviews on VT. I would use with caution.
+,IOError,2006-04-10T16:10Z,Works fine used it for years on multiple iPods and computer systems. Newer version on the littleappfactory website this serial is in serialbox. :) Enjoy.
+,scunky,2006-04-13T11:08Z,"I have the 20gig with colour screen 
+and i love it!!!"
+,bopeezy,2006-11-07T04:56Z,what do i open this file with
+,sadlilstar,2007-05-08T23:58Z,"You don't need a program to do this.  All you have to do is: (it will take about 10 minutes to read and start process)
+
+1
+Enable your iPod for use as an external drive.
+In order for your computer to see the iPod's folders, where the music resides, you will need to enable it for use as an external disk drive. To do this, connect it to the computer you normally sync it to and wait for iTunes to start up. Then Ctrl-click your iPod in the left-hand menu pane and select iPod Options. You'll start out in the Music section, which is right where you want to be. Near the bottom of the screen, check the Enable Disk Use box if it isn't already.
+
+
+
+2
+
+Connect the iPod to the destination computer.
+Using either a FireWire or USB cable (the white one that came with your iPod), connect the iPod to the computer in which you're trying to copy the music. If iTunes comes up, ignore it without clicking anything; we're going to use OS X itself to copy the music.
+
+
+
+3
+Run the Terminal application.
+Open a new Finder window (double-click the hard drive icon or go to File > New Finder Window), then select Applications. Find Terminal.app. It may be located in the Utilities folder. Once you find it, double-click the Terminal application to fire it up. A window will pop up.
+
+
+
+4
+Tell OS X to view hidden files.
+Type or paste this exact text into the Terminal window:
+
+defaults write com.apple.finder AppleShowAllFiles TRUE
+
+Press Enter, then type:
+
+killall Finder
+
+Press Enter and do not close the Terminal window.
+
+
+Click to enlarge image
+
+
+
+5
+Find the Music folder.
+You should see your iPod on the desktop--an iPod icon with your iPod's name under it. Double-click it to open it, then double-click the iPod Control folder. Within that, you'll see the Music folder.
+
+
+Click to enlarge image
+
+
+
+
+6
+Copy the music.
+Drag the Music folder on to your desktop to copy the music. When it's done copying, rename the new desktop folder Transferred iPod Music or something easy for you to recognize, then drag it off the desktop and on to your hard drive.
+
+
+
+7
+Add the music to iTunes.
+In iTunes, select iTunes > Preferences > Advanced. Make sure the ""Keep iTunes Music folder organized"" and ""Copy files to iTunes Music folder when adding to library"" boxes are checked. Click OK. Leave iTunes open. In Finder, navigate to your hard drive and select the aforementioned folder where your newly transferred iPod music is stored. You'll see several subfolders with odd names such as F06. Open each subfolder individually to view the files inside--notice that these too have odd names (example: WPDQ). Select all the files inside and drag them into the iTunes window. Once the tracks are in iTunes, the ID3-tag info--album, artist, and so on--will show up. Repeat this for each subfolder.
+
+
+
+8
+Remove the extraneous music folder.
+When you've finished transferring all of your music to iTunes, go to your hard drive and delete the Transferred iPod Music folder. You no longer need it since iTunes automatically copies the new tracks to the iTunes Music folder; it even creates the appropriate Artist and Album subfolders.
+
+
+
+9
+Tell OS X to put away hidden folders and files once again.
+Once you've transferred all of the music files you want from the iPod to the computer, it's time to make OS X not see hidden files and folders anymore (you don't want them cluttering your view down the road). In that same Terminal window, type or paste the following exactly as it appears here into the Terminal window.
+
+defaults write com.apple.finder AppleShowAllFiles FALSE
+
+Press Enter, then type:
+
+killall Finder
+
+Press Enter.
+
+
+Click to enlarge image
+
+You're done! "
+,bob0172,2007-11-15T19:00Z,"reseed please!!! im wasting way to much time managing my music,,, realy need this, realy desparate ;)"
+,SmokinKush,2007-12-11T02:07Z,someone post the serial please!

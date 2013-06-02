@@ -1,0 +1,10 @@
+This program allows people to decrypt Linspire's .CNR files and turn them back into usable .DEB files for sharing with your friends.
+
+The package contains two files:
+
+cnrtodeb
+debtocnr
+
+The latter allows you to create .CNR files from .DEB files.
+
+This has been tested with Linspire 5.0

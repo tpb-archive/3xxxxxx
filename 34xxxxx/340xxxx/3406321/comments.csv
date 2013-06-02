@@ -1,0 +1,54 @@
+﻿User Type,Username,Date,Text
+,greto,2008-02-15T09:43Z,my god this is fantastic. thank you so much!
+,gdargento,2008-11-26T19:19Z,If anyone is out there...would you please seed this wonderful torrent?
+,Oblivilot,2012-07-11T04:44Z,"Interesting, I just read an article that they are releasing this box set again, in 2012. I wonder what, if anything, has changed in 7 years time since this torrent was uploaded in 2005?
+
+Incidentally, it took me a few minutes online to sort out what to do with these ""CDimage.ape"" and ""CDimage.cue"" files.
+
+First, you can burn those direct to disc, and the .cue file tells the burner which tracks are named what, and such.
+
+However, read this if you just want all this tagged and labelled in 320kbps MP3 format without spending hours and money, buying discs and burning discs and then ripping those discs back to iTunes.
+
+[NOTE! : There are ads all over these download pages, with graphic buttons that say ""DOWNLOAD"". These are not the right links, ignore them. I use Firefox with Flashblock, and Script block, which prevents all that extra crap from loading. It's also the best way to surf Pirate Bay, it blocks those ad bars to the left and right and top and bottom...]
+
+So, here ya go:
+
+1.) Get ""Foobar"". It's 100% free. Here: http://www.foobar2000.org/
+
+2.) And, get the ""Monkey Audio"" .APE plugin for Foobar. Here:
+http://www.foobar2000.org/components/view/foo_input_monkey
+
+3.) Next, get the LAME.exe MP3 encoder. Here:
+http://www.free-codecs.com/Lame_Encoder_download.htm
+
+Note: you can also convert direct from the CDimage.ape file to .WAV files, which it also tags properly, if you prefer to convert to MP3 using iTunes or some other conversion software.
+
+STEPS:
+
+1.) open Foobar, install the APE plugins. Extract and copy the LAME files into a folder, IE, Programs. You only need to tell Foobar where it is once.
+
+2.) ""File"" > ""open"" > Choose the .CUE file from the Mercury folder, of the CD you want to convert.
+
+3.) select all the files, right click, choose ""convert""
+
+3.) Click 'Output Format', choose FLAC, WAV, MP3, etc. Within the MP3 setting, you can change the quality up to 320kbps. Click 'back'
+
+4.) Click 'convert'. If you are doing MP3, it will now ask for you to tell it where you saved the LAME mp3 encoder, it is looking for ""LAME.exe""
+
+This process works quite well, and very quickly. Once you have the basics set you can save the conversion preset, to have the files saved into same source directory, or wherever you want them to go.
+"
+,Oblivilot,2012-07-11T04:48Z,"Well, I had typed up a totally awesome set of instructions on how to convert these CDimage.cue and CDimage.ape files into tracked out, tagged .mp3 files at 320kbps, but for some reason, Pirate Bay just deleted my comment. Thanks."
+,Oblivilot,2012-07-11T04:50Z,"Scratch, that, it's my web browser being naughty. Comment is safe and included! My bad....
+
+Yeah, Foobar is awesome and it's free.
+
+Works *really* fast. If I get ambitious enough, I may try to re-up this set as 320kbps tagged MP3's, but I suspect if you download this and follow the instructions in my comment, you will have the music in your iTunes library WAY faster than by waiting for me..."
+,Oblivilot,2012-07-11T04:52Z,"http://www.chicagotribune.com/entertainment/music/ct-ent-0711-classical-mercury-20120711,0,7548068.column
+"
+,Oblivilot,2012-07-11T05:25Z,"Note - the reason you add just the .CUE file, is that will tell the software how to extract each track from the CDimage.APE file. If you also add the .APE file, you will in addition to each of the tracks, also get an MP3 or WAV (whichever output format you choose) as one large file of the entire disc.
+
+The only additional step after importing into iTunes that is optional, is to add the album artwork to the files. Everything else is auto-tagged; track#, artist, album, name/title."
+,Oblivilot,2012-07-11T05:32Z,"I guess this answers my earlier question:
+
+""In 2012, Decca Classics, the current owner of the Mercury Living Presence label, issued a value-priced 51-CD box that included 50 of the 1990s CD titles (remastered by Wilma Cozart Fine) as well as a bonus CD containing an interview with Wilma Cozart Fine, and a deluxe booklet detailing the history of Mercury Living Presence. The CD was issued worldwide and was sold by Amazon and other major retailers. A limited-edition 6-LP box set was also issued. The CD set brings back into print dozens of titles that had not been available as manufactured CD's since the early 2000s."""
+,Oblivilot,2012-07-21T17:34Z,"Please seed! Attempting to complete this download, I have been grabbing it in chunks. On to the last batch of files, and not getting any seeding despite piratebay claiming there are 3 seeds online. THANK YOU!! :-)"

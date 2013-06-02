@@ -1,0 +1,29 @@
+﻿User Type,Username,Date,Text
+,pinny121,2006-01-25T22:30Z,thanks for the release
+,gazgiz2005,2006-01-26T08:01Z,"Give it to em Gas, hey this is sweet much props. riddle me this though, how do I get the web radio to work? Got the videos, trailers, ect but it locks up a bit or does nothing at all when I try out the web radio. Any Gasgiver loyalists who are cool enough to seed help me out?"
+,Kallelilltroll,2006-01-26T10:06Z,Thanx again. Good work! But it doesn't let you acces/navigate dvd- or iso-menus (=cant play them if not cursor is on play by default on dvd). I have x3.
+,FFWD,2006-01-26T10:10Z,@Gasgiver I've the same problem with the dvd menu's...
+,Kallelilltroll,2006-01-26T10:41Z,"Good. Then I'm not alone. This problem wasn't on my prev. upgrade (11.09.2005.XBMC.XBOX.MediaCenter.1.1.0.GasGiver). I've tested upgrades in between and at least two of them couldn't play/access iso's at all. So this is better, but not good."
+,GasGiver4711,2006-01-26T14:42Z,"I cannot ""recreate"" these dvd navigation problems here, it just works for me. The DVD player is still far from being perfect, but navigation is no problem here ... Delete everything including your profile and start from scratch with this release ? Anyone with ideas ?"
+,Kallelilltroll,2006-01-26T15:25Z,"I've deleted Udata and Tdata (according to the manual i dont remember exactly now), replaced default.xbe and the .xml file on C: and overwritten all xbmc files on F. Is there more to reset? "
+,Kallelilltroll,2006-01-26T15:25Z,cont. What do you mean profile? Strange when it works with navigation if i degrade back to 11/9-version.
+,Kallelilltroll,2006-01-26T15:36Z,"Forgot to tell. The menu comes up, the cursor-moving sound comes, but no movement. But u can click on whats highlighted. This happens on .iso and dvd-discs. Not on .img."
+,Kallelilltroll,2006-01-26T16:04Z,Sorry. one .img worked one didnt. Strange. Any ideas anyone?
+,redcap_be,2006-01-26T17:31Z,"First time I used a GasGiver release, and I think I'm gonna stay with it. (used CLEAN build before)
+First time Webradio works without problems!
+Thanks!"
+,FFWD,2006-01-26T17:36Z,@gasgiver It works fine now thanks
+,GasGiver4711,2006-01-26T19:28Z,"@all : please don´t forget that this is beta software you get for free  -  and one of the things, that i still consider ""very much beta"", is the dvd player ;-) some disks or images play, some play with problems and some just don´t.
+seems to be helluva job to code a good dvdplayer software, so good luck and THX to the devs ;-) "
+,FFWD,2006-01-26T20:03Z,The problems begun with the release last week. I don't know how I fixed this:P I completely uninstalled XBMC and reinstalled it into another map. (It was XBMC and now it is XboxMediaCenter)
+,Kallelilltroll,2006-01-26T20:48Z,@FFWD - What did you do to make it work?
+,Kallelilltroll,2006-01-26T20:52Z,"@FFWD: Thanx. I'll try again.
+@Gasgiver4711: Thank you anyway. I still apreciate your job. I just thought that maybe you changed something in the code for the player since it worked last time."
+,GasGiver4711,2006-01-26T23:02Z,"Kallelilltroll: I do not code a single line, as i am no developer. I just compile sources and put in some collected stuff, clean up and so on.
+All the REAL work is done by the developers!"
+,Kallelilltroll,2006-01-27T14:51Z,Thanx FFWD and GasGiver for your help. It works now. The only difference I did was create a new xbmc-folder lika FFWD said. Now i tworks and I'm so happy!
+,GanjaB,2006-01-28T00:11Z,"Nice build as usual m8, many thanks!"
+,bertilholma,2006-01-29T21:15Z,Hej nån som kan hjälpa mej hur man packar upp spelen ???? Tack på förhand
+,Kallelilltroll,2006-01-30T14:57Z,"@Gasgiver. Discovered another problem. My language selction in xbmc is swedish. But files with swedish letters like å,ä,ö just show a square-figure instead. I can live with that. But the problem is:"
+,Kallelilltroll,2006-01-30T14:59Z,"(cont) that xbmc won't let me play any files and won't let me access any folders with this square in the the name (where å,ä or ö was). Any ideas? Of course I can rename them, but is that the only way?"
+,fiskbullen75,2006-02-02T22:20Z,"Funkar skitbra tack Gasgiver, ser fram emot eventuell nästa version :)"

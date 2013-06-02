@@ -1,0 +1,16 @@
+PPF patch for http://thepiratebay.org/details.php?id=3451287
+
+This ppf adds Experimental Nforce3/4 Sata Support
+
+SecUpd2006-002Intel 
+
+10.4.4_SSE3_ONLY_KERNEL Unselected by default
+
+This kernel is Intel/AMD sse3 only and doesn't have NX/CPUID/RTC/SSE2 patches 
+so only use it if your cpu doesn't need any addictional patch , if your system panics at boot, type mach_kernel.old
+at Darwin boot prompt to boot with the old one
+
+md5 of the original iso where the ppf should be applied is d0bcd93dd9b40b072dc4cc4c6111d0b0 *MacOSX_10.4.4DVD.iso
+
+
+If the md5 doesn't match you will only screw your iso	

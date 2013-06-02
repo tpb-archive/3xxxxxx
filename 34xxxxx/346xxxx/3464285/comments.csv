@@ -1,0 +1,32 @@
+﻿User Type,Username,Date,Text
+,Mannenmyten,2006-05-21T17:07Z,Anybody knpw how to get the antivirus working? In older versions the integrated McAfee worked without licensefile.
+,phunk,2006-07-11T23:02Z,nice UL.. but i can't get the registration to work...
+,Bittmann,2006-09-08T14:21Z,"No seeding at the moment (last ours)
+Please seed
+thanx"
+,gigante1,2007-05-26T22:20Z,"The antivirus update feuture seems to stop working when installing a fake license-key.
+Tryed it in 6.2, 6.3.0, and 6.3.1....same error
+Please inform us if there is a way to get around the problem!
+It works fine in ver.5.6 (but ver.5 does not work OK with outlook-2007)"
+,gigante1,2007-05-26T22:34Z,"ItÂ´s a bitch.
+Perhaps an automated script that does this:
+1. stop the mail-engine.
+2. copy all files from C:\Program Files\Common Files\Network Associates\Engine to C:\Program Files\Kerio\MailServer\mcafee
+3. start the mail-engine.
+
+Anyone with a clue in how to make the script?"
+,gigante1,2007-05-27T00:32Z,"Probably solved easier than I thougt.
+Run McAfee antivirus on the same server as Kerio MS. And set McAfee to update every 2:nd hour or something like that
+Create a new txt-file and rename it to something.bat
+put in these rows:
+REM Update MCAFEE Kerio mailserver by Gigante
+net stop keriomailserver
+copy C:\Progra~1\Common~1\Networ~1\Engine\*.* C:\Progra~1\Kerio\MailServer\mcafee\
+net start keriomailserver
+
+Save it, and make a background-job run it every 2:nd hour
+I have not tested it yet, but I beleve it to work."
+,gigante1,2007-05-27T00:45Z,"Hmm.
+2 minor things I discovered:
+1.The Mailserver will be down for about 15-30 seconds wile this script is running, so it may be wise to let it run ones a day maybe 2 am or so, or at a time when their is no, or wery little traffic. 
+2. If you are connected to the admin-console all the time (like me) or when it runs, you will have to push the button ""reconnect"" to the admin-consol every day."

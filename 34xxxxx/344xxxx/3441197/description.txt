@@ -1,0 +1,106 @@
+dvd2xbox by WiSo
+
+
+
+v0.7.4 bugfix
+
+- fixed: games weren't launched when started via the game manager
+
+- fixed: DVD size might get incorrect if DVD was inserted before dvd2xbox was started
+
+- fixed: ftp server file corruption when transfer files from xbox to PC
+
+- added: simple character based scrolling for text, menu and browser items (not in use yet)
+
+
+
+v0.7.3
+
+Skinners: Please update your skins to use the new option menu in the main menu.
+
+dvd2xbox is sponsored by www.gamefreax.de.
+
+- skinning: added new item dvdxbeicon which displays the embedded xbe title image when a XBOX game DVD is loaded
+
+- added: support for SmartXX V3 and OPX LCD
+
+- added: MP3/OGG to Samba ripping
+
+- added: TheSpecialist unlocker code. This should fix the 11MB video issue which some softmods still have (hopefully)
+
+- added: a shutdown menu to the mainmenu (Reboot,Shutdown,Open/Close Tray, Launch DVD,press Y to activate)
+
+- added: dns lookup. The freedb IP could now also be a hostname
+
+- added: check if the SMB destination directory exists. if it exists a number to the directory name is added
+
+- added: text extensions for the viewer can be choosen in dvd2xbox.xml. Viewer called via the action menu displays all files
+
+- gui: some change to the file manager inputs to have it a little bit more like XBMCs file manager (Trigger for fast scrolling, black to open the drive menu, white to open the action menu, A to start xbe's and view text files, B to navigate one folder up, Y to highlight files)
+
+- fixed: Video DVD->SMB and ISO->SMB copy was broken
+
+- fixed: video replacement during copy GAME -> SMB
+
+- fixed: fileprogress greater than 100%
+
+- fixed: emergency key combo (LEFT+RIGHT TRIGGER + Y) sets the skin back to the right default skin
+
+- fixed: null byte files failed to copy via SMB
+
+- skinning: dvd2xbox checks for the file startup.xml to ensure a dvd2xbox skin
+
+- skinning: alignment for text and menu items <align>right</align> (left,right,center)
+
+- skinning: updated Project Mayhem III skin to the newest version
+
+
+
+v0.7.2
+
+- added: possibility for more than 1 samba share in dvd2xbox.xml ( Feature Request FT543 )
+
+- added: XBMC autodetection feature. dvd2xbox detects XBMC ftp server and vice versa
+
+- added: virtual keyboard to SMB copy to change destination directory ( Feature Request FT580 )
+
+- added: ACL delete/move/skip disabled per default. Can be controlled via the settings menu
+
+- added: function to replace xbox game videos (bik,sfd,wmv,xmv) by blank files. Disabled per default, can be enabled via the settings menu 	
+
+  ( Feature Request FT450, blank videos are in the dummyfiles folder )
+
+- added: implemented DVD/CD detection in another thread
+
+- added: dialog which warns in copy mode if no disc is inserted or disc is still being detected
+
+- added: copy retry and read retry functions
+
+- fixed a bug in the failed copy retry function which could crash dvd2xbox in certain cases
+
+- fixed a bug in the deletion function which could crash dvd2xbox when there's more than one file or directory selected
+
+- skinning engine: added vspace tag to menu and browser item to define the vertical pixel distance. If omitted the font height is used ( Feature Request FT543 )
+
+- skinning engine: added widthpx for the browser and menu items
+
+- skinning engine: added possibility to show ΓÇ£scrolling arrowsΓÇ¥ for file manager, disc drive dialog and game manager
+
+- skinning engine: fixed dialog ΓÇ£no games foundΓÇ¥ not shown in game browser
+
+- skinning engine: fixed a bug where the highlighted bar seems to be always behind the text when using fast scrolling
+
+- updated Project Mayhem III skin to the newest version
+
+- removed the old dvd2xbox theme because it is not longer supported
+
+
+
+Skinners please update your skins otherwise they'll break dvd2xbox.
+
+Another new skin of Jezz_X called Vista can be found at the usual places and in our forum http://forum.ws0.org/viewforum.php?f=14.
+
+Many thanks to Jezz_X and fan for all the support they gave me and to www.gamefreax.de my new sponsor.
+
+
+

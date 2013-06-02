@@ -1,0 +1,14 @@
+﻿User Type,Username,Date,Text
+,filipb,2006-02-06T08:59Z,Do they work?
+,Elros,2006-02-10T02:52Z,How does one install a new driver in Mac OSX ???
+,Sixer,2006-02-10T15:03Z,"Eiros, if it's a .kext or .mkext, put it in /System/Library/Extensions/
+
+If it's a .pkg or .mpkg, doubleclick on it"
+,Sixer,2006-02-10T15:23Z,"Ah, they're .bundle.
+
+Put them in /System/Library/Extensions/ and reboot."
+,Tortri,2006-02-10T20:22Z,So back to the first persons question.  Does it work?  For like... say a x800?  Anyone have any success?
+,RobNyc,2006-02-12T21:13Z,does it works for ati radeon 9200 pro ? radeon 9250 pro ?
+,fluffywithteeth,2006-02-18T17:52Z,"In short; no, these do not work. Even if they did, there'd be no point; they're no way superior to the 10.4.3 drivers unless you're running an x1600 with the right EFI module loaded...
+
+10.4.3 things work on 10.4.4, 10.4.4 things do not work on 10.4.3"

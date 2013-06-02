@@ -1,0 +1,65 @@
+Program Name : Let's Talk
+Version : 0.9.0.144 (15/Sep/2005)
+Description : LAN-Based Chatting Application
+Release : Number 2 (1st Release was on 12/Apr/2005)
+
+Notes: -This Version Is Much Bug-Free than the first Release(12/Apr/2005).
+-The Only Future Left before Version 1.0 is Released 
+is the 'Private Chat' Future.
+
+Program Futures(at the Moment):
+-------------------------------------
+- Chat with your Friends/Colleges anytime without Worrying about Having
+A Server ; Because this Program is Server-Less :).
+- Send Cool Emoticons and Smylies.
+- Get notified By Cool Sounds when someone Joins/Leaves the Chat or when
+You receive a Message and the Chat Program isn't Active.
+- Change Font Name/Size/Color/Style and the Background Color too.
+- Change your Status (Normal,Away,Busy,On The Phone).
+
+Keyboard ShortCuts:
+---------------------
+Shift+F10 : Show/Hide The Program(It acts like a Hotkey in Windows)
+Alt+F4 : Exit the Program
+Alt+A : Show the About Window.
+Alt+S : Show the Settings Window.
+Alt+C : Clear Text.
+Alt+H : Hide Program :)
+Alt+B : Boss Attack!! (Clear Text and Hide the Program... LOL)
+Alt+F5 : Change your Status to 'Normal'
+Alt+F6 : Change your Status to 'Away'
+Alt+F7 : Change your Status to 'Busy'
+Alt+F8 : Change your Status to 'On the Phone'
+
+Typed ShortCuts :
+---------------------
+'/?' : Used to View the Previous List of Keyboard Shortcuts.
+'/Cls' : Used to clear the Chat text too.
+'/Boss' : Boss Attack
+'/Normal' : Change your Status to 'Normal'
+'/Away' : Change your Status to 'Away'
+'/Busy' : Change your Status to 'Busy'
+'/Phone' : Change your Status to 'On the Phone'
+
+
+Network Tips:
+----------------------
+This Program is Intended to Work on TCP/IP LAN Networks ...
+the Program Uses the UDP Protocol In it's Communications...
+In order to Operate Correctly You and Your Chatters Must be on the Same
+Network; in other words if your IP is 10.11.12.13 then the Other chatters
+Must be on the same Network which Starts with 10.11.12.XXX where XXX is a
+Unique Number for Each PC ... in this case that all the PC's are running
+the Program and ARE on the SAME NETWORK ; they will be Able to chat without
+any Problems.
+Another Tip for FireWalled Users :) ...
+The Program Uses the Following Port 34232 
+BE SURE this Port is Open and Not Blocked by the FireWall or Else you will
+not be able to chat at all !!.
+
+Suggestions/Opinions/Bug Reports:
+----------------------------------
+If you have any Suggestions/Opinions or Bug Reports then Please don't
+Hesitate Contacting Me ... Your Voice is More than Welcome!.
+Website : http://ohdev.on.to
+Email : ohdev@hotmail.com

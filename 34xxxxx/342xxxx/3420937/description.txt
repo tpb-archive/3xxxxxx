@@ -1,0 +1,13 @@
+New features in 9.0.1.2: (update currently available for registered users only)
+Improvement: WavPack updated to v4.31
+Improvement: Wavpack now supported in Audio CD Creator
+Improvement: Handling of corrupt MP3 files improved
+Improvement: AAC formats iPod compatibility improved
+Bugfix: MP3 Highest Quality encoding mode fixed
+Bugfix: WavPack now correctly writes the WAV-header to the .wv files
+Bugfix: WavPack files now work via the Windows Explorer context menus
+Bugfix: Bug that may have caused the "Devices Not Found" (in Windows XP x64) fixed 
+Bugfix: Bug in Nero Output Plug-Ins fixed; Nero Digital now works! (with both Nero 6 and Nero 7)
+Bugfix: Error Closing Disc during CD-Text burning -bug fixed (occured with some CD-recorders because of the too small CD-Text writing cache-buffer)
+Bugfix: CD burning bug (where the tracks overlapped a little bit when other than .wav format was used as source) fixed (v9.0.1.2)
+Bugfix: CD burning bug (where the burning process sometimes froze the status window at the end) fixed (v9.0.1.2)

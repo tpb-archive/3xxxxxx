@@ -1,0 +1,137 @@
+﻿User Type,Username,Date,Text
+,mcspliff,2006-06-21T00:53Z,"hey ok.. i have this torrent and i am seeding but heres the deal..
+
+it is instaleld but keeps asking me for the cd..
+
+so i burned the damn thing.. and it still not liking what im giving it.. im new to this so can anyoneh elp me"
+,mcspliff,2006-06-21T00:55Z,im assuming i can jsut use windows to do this.. and that the dosbox is for linux cause i have the command prompt.. and do i have to cal lthe cd im burning fragile allegiance?? im so confused
+,flanders_ned_flanders,2006-06-21T14:41Z,"mcspliff: When you mount the CD in DOSBox, write -t cdrom after and it will look like a cdrom
+http://dosbox.sourceforge.net/wiki/index.php?page=FAQ%2FMy+CDROM+does+not+work
+dosbox is for both windows and Linux"
+,mcspliff,2006-06-24T19:41Z,"flanders
+
+ok i have tried dox box
+
+and daemon tools stil lthe same thing..
+
+i thin kit is the iso file itself.. i can only mount the iso file for fragile but its is in a .rar archive.. when i extract it there is no .iso file.. i have even mounted the extracted file in dosbox as the c drive and then the file again as a cdrom it stil lasks me the same question.. did i download the file wrong o what man.. thanks for ur help btw.. but can you jsut walk me through from the beginning.. maybe i smoke too much weed... lol"
+,Blackmarket,2006-06-29T04:11Z,If anyone who downloads this game and likes it uses dosbox send me a PM in here if you want to play multiplayer using dosbox id love to play
+,Son Of Mogh,2006-06-30T13:07Z,"I got myself a box today from the supermarket, then I put a disc in it with dos 6.01, so I had a dosbox. Then I put the disc with this game on it. But nothing happens, how do I connect the box to my computer? Man, I'm getting really confused..."
+,aznoxide1,2006-11-30T06:40Z,seed please!
+,dorkfromork,2006-12-27T22:13Z,haha..
+,Jason1701,2007-01-28T04:00Z,has anyone been able to get past the damn cd validation issue in dosbox?
+,AnticZ,2007-02-06T12:52Z,"For all of you who have problems with the CD validation. Its a simple problem with install paths.
+
+Edit c:\Fragile\config.ini file 
+inside you can find two strings with games true path and CD path 
+
+For more insights into how to get this baby to work on your system you can go to the link below. 
+
+http://www.ntcompatible.com/Fragile_Allegiance_c6321.html
+
+Now if just people could seed a bit faster :) I will when/if i get this old classic downloaded. hard to get a hold of the iso nowadays."
+,SuperFly2000,2007-02-26T14:29Z,"WOW, thanks man. I have been wanting to play this game for years but couldn't find a copy of it !
+
+Now after 10 years I finally get to play it LOL... 
+I just played a little and tried everything out and watched the tutorials... it still seems like a very cool game.
+
+And for those people having problems here is how to run it:
+
+First download this and mount with daemon tools.
+Also download and install dosbox.
+
+Then start dosbox with for example 8000 cycles. Edit dosbox configuration file etc to make those cycle changes or use control f11 and/or f12 to speed up etc. Anyway:
+
+
+First install the game from dosbox for example mount the iso image in dosbox as follows:
+
+Best is to simply mount the drive as follows:
+
+Suppose the windows cd rom drive is F: then do as follows:
+
+mount f: f:\ -t cdrom
+
+to mount the installation folder where you want it to go for example in windows d:\games
+
+mount c: d:\games
+
+ok this can be a bit confusing... the C: drive in dosbox is now really d:\games.
+
+install fragile to d:\games\fragile and it's done.
+
+The next time to start the game start dosbox again and type into dosbox:
+
+mount f: f:\ -t cdrom
+mount c d:\games\fragile
+fragile
+
+this will start the game, it's that simple.
+
+So for the game seems to work just fine... I have had only 1 crash when using communications/video or something... hopefully that won't happen again... so far the rest seems to work just fine.
+
+Later and BIG THANKS TO YOU PEOPLE.
+
+Dosbox is cool too.
+
+I tried it on Windows XP 64 bit and it's working ! AWESOME :D"
+,SuperFly2000,2007-02-26T14:34Z,"Woops some little typos one more try:
+
+First install procedure:
+
+1. Mount iso with daemon tools.
+2. Start DosBox
+3. Type:
+
+mount  \ -t cdrom
+
+For example:
+mount f: f:\ -t cdrom
+
+4. Run install.exe in dosbox by typing:
+f:\
+install.exe
+
+Then after it's done installing the game is run via:
+
+1. Start dosbox
+
+2. mount cdrom/iso image:
+mount f: f:\ -t cdrom
+
+3. mount game folder:
+mount c: d:\games\fragile
+
+4. start game:
+c:
+fragile
+
+Good luck !"
+,SuperFly2000,2007-02-28T16:51Z,"Well, I played this game a lot by now... it's a fascinating game and well programmed too :)"
+,Mirshann,2007-04-17T09:28Z,Some seeds would be wonderful ^^ I've been trying to find this game for quite some time now =/
+,stevetube,2007-07-11T20:21Z,mister flanders is there any way you could send me these files normally not through piratebay because there are not enough people seeding!
+,Nafinn,2007-12-12T08:01Z,"wow i am really excited about this, it's been years since i've played this game, thanks flanders"
+,iamaloser,2008-01-19T19:32Z,"yeah! just searched for this, never thought there would be a copy still up with seeders!  Love this game!"
+,gubbins,2008-02-25T19:36Z,"Wow! Thanks so much! I have to say this is my favourite game of all time .. 
+Sins of a Solar Empire, despite having nearly a decade on this game, still can't come close to the fun factor. Classic stuff. 
+Altho .. 0.5kb/s? Come on, please seed!"
+,gubbins,2008-02-25T23:33Z,"Sweet thanks to the help in this thread^ it works perfectly. 
+
+Don't suppose we can get the Multi to work?
+
+:)))"
+,gubbins,2008-02-26T00:26Z,"http://fragile.6.forumer.com/index.php
+
+irc.freenode.net 6667 #incantus
+
+Anyone wanting to discuss the game or strategy, organize multi drop by!"
+,carlh,2008-06-17T14:01Z,"I cant get it to work. I mount the file with daemon tools and install, try to play in windows 95 mode. Get to the game menu and try to start it and it all goes black."
+,Braincandy,2010-08-22T14:52Z,"I have had this game on and off for years.  Never seems to get dated.  I have run it successfully on XP & Vista using dos box, although the sound used to be a bit choppy.  
+
+Problem is with win 7 (home premium 64bit).......... I can get the game running fine through dos box, but can't get the sound active.  I have VDM Sound installed but it seems to make no difference.  
+
+Any help would be appreciated, i have searched the various forums but none seem to be mentioning win 7 yet.  Playing the game without sound doesn't feel quite right, those helpful  ""warning"" messages don't get noticed and loose you valuable time intercepting fleets and such :)"
+,green_machine420,2011-03-28T04:39Z,when i open the build menu the game crashes any help???? 
+,green_machine420,2011-03-28T04:40Z,when i open the build menu the game crashes saying _ma/ma file is missing any help???? 
+,green_machine420,2011-03-28T04:40Z,when i open the build menu the game crashes saying _ma/ma file is missing any help????
+,redsystems,2011-08-26T13:15Z,"green_machine420 
+instal the game acording to SuperFly2000 but select minimun install then go to the dir where the game is installed and remover everything exept the file ""CONFIG.INI"" efter that copy all the files back from the cd after that it works greetz from the nethetlands"

@@ -1,0 +1,380 @@
+Windows.XP.Pro.SP2.Optimise.V4.5.Finale.MkEx64
+
+version sans SATA
+
+French
+
+reseed hk47 - thx mkex64
+
+
+
+------------------------------------------------------------------------------
+nfo original
+----------------------------------------------------------------------------------
+
+
+ Windows.XP.Pro.SP2.Optimise.V4.5.Finale.MkEx64
+
+/_\/_\/_\/_\
+Version 4.5 Finale
+/_\/_\/_\/_\
+
+
+Windows Update fonctionnel malgré la nouvelle protection de Microsoft. (Windows Genuine Advantage) :-)
+
+/!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\
+
+ATTENTION, le fichier que vous avez téléchargé est une image ISO et pas un fichier .rar !
+
+Certaines personnes pourrons penser que c'est une archive RAR du fait qu'ils ont Winrar installés sur leur PC
+et que Winrar reconnaît le format .ISO !
+
+/!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\
+
+
+?????????????????????????????????????????????????????????????????????
+
+GRAVURE
+
+Donc pour graver avec Nero 6 :
+----------------------------------
+
+"Demarrer" >> "Tous les programmes" >> "Nero" >> "Nero 6 Ultra edition" >> "Nero Burning Rom"
+Puis
+"Graveur" >> "Graver l'image" >> "Ouvrez l'image ISO" >> "Graver" !
+
+L'ISO est bootable donc en suivant cette procédure de gravure, le CD sera Bootable.
+
+
+INSTALLATION
+
+Installation du Système d'exploitation Windows.XP.Pro.SP2.Optimise.V.4.5.MkEx64 : :
+-------------------------------------------------------------------------------------
+
+1 - Booter sur le CD au démarrage du PC.
+
+2 - Une fois arrivé à l'écran avec le ou les disque(s) ou la ou les partition(s):
+a - Si le disque ou la partition où vous voulez installer le système est libre (aucun système installé dessus) >> Sélectionnez le ou la puis faîtes "Entrer".
+Si votre disque est déjà formaté, avec ou pas des données dessus, il ne vous demandera pas de reformater et installera le système dessus. A partir de là tout ce fait automatiquement et donc il n'y a plus à intervenir.
+
+b - Si le disque ou la partition où vous voulez installer le système a déjà un système d'installé >> Sélectionnez le ou la, puis appuyez sur la touche "S", puis "Entrer", puis encore "S". (Attention a ce moment là vous perdez tout le contenu du disque)
+Maintenant sélectionnez l'espace libre, de la partition que vous venez de supprimer puis faîtes "Entrer".
+
+3 - A ce moment vous avez l'écran qui vous demande un Formatage. Choisissez un Formatage en NTFS, faîtes "Entrée".
+A partir de là l'installation ce fait automatiquement et donc il n'y a plus à intervenir.
+
+/////////////////////////////////////////////////////////////////////////////////////////
+Parfois, des personnes rencontrent des difficultés d'installation de Windows XP où pendant l'installation un fichier est mal copié ou bien un écran bleu etc..
+
+Celà vient, le plus souvent, d'une mauvaise gravure, ou d'un mauvais CD ou d'un mauvais lecteur, ou de la mémoire sensible...
+
+Si c'est la mémoire, il faut baisser ça fréquence et/ou son timming... Sinon c'est qu'elle peut être défectueuse. Pour s'en assurer, testez votre mémoire avec le programme "MemTest86+"
+Celà arrive parce que la mémoire est très sensible pendant une installation de Windows XP... Beaucoup plus sensible que pendant l'utilisation du système...
+
+Ca peut aussi venir d'un pilotes d'un controleur Sata/Raid mal installé ou pas du tout installé, pour ceux qui en ont un. Dans ce cas il vous faut donc intégrer vos pilotes de votre controlleur Sata au CD.
+
+?????????????????????????????????????????????????????????????????????
+
+MODIFICATIONS
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+- TRES STABLE
+- PAS DE BUGS
+- A JOUR
+- OPTIMISE
+- INSTALLATION RAPIDE et complètement AUTOMATIQUE
+
++ Uxtheme.dll >> Modifié pour accepter toutes sortes de thèmes.
++ TCPIP.SYS patché >> Augmentation de la valeur du nombre de connexions TCP simultanées à illimité au lieu de 10. (Pour les utilisateurs de peer2peer par exemple, peut aussi être très utile pour les scanners d'IP)
++ Désactivation entier du centre de sécurité. (avec posibilité de le reactivé sans problème)
+- Désactivation du Firewall XPSP2 (Vraiment à chier comme Firewall et qui creé que des problèmes, autant faire comme d'habitude installer sont propre Firewall avec le Firewall de XP desactivé)
+- Désactivation de la surveillance de l'antivirus
+- Plus d'infos bulle du centre de sécurité qui apparaissent sans cesse
+
+----------------------------------
+Composants qui ne s'installe pas ! (Mais quand même toujours présent sur le CD au cas où vous voudriez les installer...)
+
+- Deboggeur de script Microsoft.
+- Composants d'accessibilité.
+- Outils de dialogue téléphonique.
+- Programme de dialogue en direct. (Chat)
+- Outil Hyper Terminal.
+- Pointeurs de souris de Windows.
+- Composant Microsoft Message Queuing (MSMQ).
+- Les jeux inclut avec Windows XP ne s'installent pas mais sont toujours présent sur le CD. Pour pouvoir les installer via le panneau de configuration. ("ajouter ou supprimmer des programmes" >> "ajouter ou supprimer des composants Windows" >> "accessoires et utilitaires" >> "jeux")
+
+
+Composants supprimés :
+
+
+- MSN Exploreur
+- Windows messenger
+- Movie Maker
+- Pinball
+- Echantillons musicaux
+- Visite guidée
+- Répertoires inutiles : "DOCS" - "SUPPORT" - "VALUEADD"
+
+
+
+LES MISES A JOUR CRITIQUES SORTIES DEPUIS LE SP2 SONT INTEGREES. (Il y en a 56 en tout)
+Nouveau : Les MAJ critiques sont intégrées en natif. (Les avantages sont : Gain de place sur le CD et aucune perte de temps pendant l'installation)
+
+
+KB899589 (11 Octobre 2005)
+KB905414 (11 Octobre 2005)
+KB904706 (11 Octobre 2005)
+KB902400 (10 Octobre 2005)
+KB901017 (10 Octobre 2005)
+KB900725 (10 Octobre 2005)
+KB905749 (10 Octobre 2005)
+KB905414 (10 Octobre 2005)
+KB890830 (10 Octobre 2005)
+KB904412-V2 (7 Octobre 2005)
+KB896688 (5 Octobre 2005)
+KB897663 (1 Septembre 2005)
+KB896727 (9 août 2005)
+KB899588 (8 août 2005)
+KB896423 (8 août 2005)
+KB899591 (8 août 2005)
+KB893756 (8 août 2005)
+KB899587 (8 août 2005)
+KB903235 (12 Juillet 2005)
+KB901214 (11 Juillet 2005)
+KB898461 (27 Juin 2005)
+KB900930 (24 Juin 2005)
+KB884883-V8 (17 juin 2005)
+KB896358 (13 Juin 2005)
+KB890046 (13 Juin 2005)
+KB896422 (13 Juin 2005)
+KB896428 (13 Juin 2005)
+KB893066-V2 (13 Juin 2005)
+KB883939 (02 Juin 2005)
+KB894391 (18 Mai 2005)
+KB896626-V2 (13 Mai 2005)
+KB893803-V2 (12 Mai 2005)
+KB893357-V2 (29 Avril 2005)
+KB890923 (12 Avril 2005)
+KB893086 (11 Avril 2005)
+KB890859 (11 Avril 2005)
+KB886716-V2 (25 Mars 2005)
+KB867282 (08 Février 2005)
+KB891781 (07 Février 2005)
+KB890047 (07 Février 2005)
+KB888302 (07 Février 2005)
+KB888113 (07 Février 2005)
+KB885250 (07 Février 2005)
+KB873333 (07 Février 2005)
+KB890831 (12 Janvier 2005)
+KB890175 (10 Janvier 2005)
+KB885222-V2 (17 Décembre 2004)
+KB873339 (13 Décembre 2004)
+KB885836 (13 Décembre 2004)
+KB885835 (13 Décembre 2004)
+KB886185 (13 Décembre 2004)
+KB887742 (22 Novembre 2004)
+KB886677 (19 Novembre 2004)
+KB834707 (13 Octobre 2004)
+KB885894 (08 Octobre 2004)
+KB885523 (05 Octobre 2004)
+KB884020 (17 Septembre 2004)
+KB885626-V2 (14 Septembre 2004)
+
+Service Pack 2 (9 Aout 2004)
+
+
+
+?????????????????????????????????????????????????????????????????????
+
+OPTIMISATIONS
+
+??????????????????????????????????????????
+
+- Windows Update accessible même avec la protection de Micorosoft Windows Genuine advantage.
+- Décharge les DLL non utilisées de la memoire.
+- Optimisation de la Memoire.
+- L'explorateur de windows plus STABLE.
+- Supprime les 20% de bande passante réservable de Windows XP
+- Lancement des applications 16 bits dans des espaces memoire separes. (Plus de stabilité.)
+- Le Débogueur de script d'internet explorer Désactivé.
+- Affichage de messages d'erreurs HTTP simplifiés Desactivé.
+- Rapport d'erreur Desactivé.
+- Démarrage de Windows XP Optimisé.
+- Désactivation par défaut du raccourci pour les touches rémanentes. (Génant surtout pour les Gamers quand ils appuient 5 fois de suite sur la touche MAJ.)
+- Réglage du Swap à 768 Mo fixe.
+- Arrêt plus rapide des services. (Pour un arret plus rapide du PC)
+- Google en page de démarrage internet explorer.
+- Moteur de recherche google au lieu de Microsoft par defaut.
+- Accès réseaux accéléré.
+- Le système de gravure de Windows est désactivé, mais réactivable sans problème. (Il est déconseillé de graver avec ce système. Il faut utiliser un logiciel de gravure... Nero, Alcohol, etc...)
+- Support des disques ATAPI de plus de 137Go.
+- Optimiser les performances NTFS.
+- Protection contre ICMP
+- Protection contre flood ou spoof
+- DrWatson désactivé.
+- Défilement des pages dans Internet Explorer plus net
+- Gestion alimentation PC toujours actif configuré par defaut.
+- Désactivation de la souscription à passport suite a l'installation de MSN Messenger
+- Accélère le parcourt du réseau sur les dossiers avec beaucoup de fichiers ou des noms long.
+- La barre de lancement rapide est Activée.
+- Pas de barre de langues dans la barre des tâches. (Réactivable sans problème)
+- Rafraichissement automatique de l'explorateur.
+- Masquer automatiquement les icônes inactives dans la barre de tâches
+- La bande passante disponible Amélioré.
+- Surf plus rapide grace à une meilleure gestion des DNS
+- Prefetcher Optimisé.
+- Activation du pavé numérique au chargement de Windows XP
+- Gestion de la mémoire cache L2 du processeur optimisé.
+- Correction d'une faille de sécurité qui permet de voir vos cookies
+- Augmentation du nombre de téléchargements simultanés.
+- Désactive les partages automatiques invisibles Admin$, C$, etc. Pour plus de sécurité.
+- Affichage des icônes accéléré.
+- Montrer l'extension des fichiers connus.
+- Possibilité de Renommer la poubelle
+- Rafraîchissement automatique des fenêtres. (Après suppression d'un fichier par exemple)
+- Vacciné contre le Spyware ALEXA !
+- Enormément d'optimisations Réseau et Internet...
+- Protection contre ICMP
+- Protection contre flood ou spoof
+- Ajout de "Services" dans le clique droit sur le Poste de travail.
+- Ajout des racourcis "ajout/suppression de programmes", "Gestionnaire de périphériques", "Lancer RegEdit", "Quitter session", "Redémarrer", "Arreter", dans le clique droit du poste de travail.
+- Ajoute "Ouvrir une invite de commande ici" sur le clique droit d'un dossier.
+- Affichage des menus accéléré.
+- Visite guidée supprimé.
+- Permettre à media player de lire des dvd
+- Remise en ordre dans le menu démarrer et les favoris (classement par ordre alphabétique)
+- Plus d'avertissement très genant sur les fichiers telechargés qui rend impossible de les ouvrir. (cause > SP2)
+- Desactive le nettoyage du bureau embettant.
+- Afficher les fichiers cachés configuré par defaut.
+- La corbeille utilise 5% de l'espace disque au lieu de 10%.
+- Reste connecté à Internet après un changement de session.
+- Désactive la prévention enbettante à l'execution d'un fichier.
+- La fonction nettoyage du bureau desactivé.
+- Correction du problème de suppression d'un fichier *.avi.
+- Accès plus rapide aux dossiers medias contenant des fichiers *.avi.
+- Icône Poste de travail, Mes docs, IE, Favoris réseau, affiché sur le bureau.
+- Les flèches sur les îcones des raccourcis + le "raccourci vers" enlevés.
+- Quelques services désactivé et semis-désactivé.(en manuel)* (Réactivable sans problème si besoin)
+- Si Vous installez Winrar, une catégorie Winrar sera créé au menu contextuel du clique droit réunissant les fonctions de Winrar qui s'y trouvent habituellement. (Ajouter à l'archive / extraire ici etc...)
+- Et d'autres optimisations diverses...
+
+??????????????????????????????????????????
+
+SERVICES DESACTIVES
+
+??????????????????????????????????????????
+
+Les services inutiles Désactivés : (Réactivable sans problème si besoin)
+
+Assistance TCP/IP NetBIOS
+Avertissement
+Carte à puce
+Carte de performance WMI
+Client de suivi de lien distribué
+Client DNS
+ClipSrv
+DDE réseau
+DSDM DDE réseau
+Gestionnaire de session d'aide sur le Bureau à distance
+Horloge Windows : synchronisation de la date et de l'heure
+RemoteRegistry
+Journaux et alertes de performance
+MDM
+Messenger
+NLA (Network Location Awareness)
+Service de numéro de série du lecteur multimédia portable
+uploadmgr
+Onduleur
+mnmsrvc
+SCardDrv
+Routage et accès distant
+Service COM de gravage de CD IMAPI
+Service de découvertes SSDP
+Service de restauration système
+ERSvc
+CiSvc
+Telnet
+WebClient
+wscsvc
+
+Pour plus d'infos sur ces services désactivés vous pouvez aller là >> http://www.pcastuces.com/pratique/windows/services/page3.htm
+
+?????????????????????????????????????????????????????????????????????
+
+SATA / RAID / SCSI
+
+VALABLE UNIQUEMENT POUR LA VERSION PILOTES SATA INTEGRES
+La liste des Drivers SATA/RAID et SCSI intégrés se trouve sur le fichier
+"SATA.RAID.SCSI.html" à la racine du CD.
+Ou alors voir la liste à cette adresse >> SATA.RAID.SCSI
+
+?????????????????????????????????????????????????????????????????????
+
+
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+- TRES STABLE
+- PAS DE BUGS
+- A JOUR
+- OPTIMISE
+- INSTALLATION RAPIDE et complètement AUTOMATIQUE
+
+Le CD est Bootable avec clé intégré.
+
+Pas besoin d'activation puisque c'est une version Corporate.
+
+Sert pour une Installation complète (formatage + installation)
+
+La mise à jour d'un OS (2000/XP Vers ce XPSP2optimisé ou 98/ME vers ce XPSP2optimisé) n'est pas possible.
+Elle était incompatible avec l'intégration en masse des Drivers sata/raid et SCSI et finalement
+ça a comme avantages d'avoir un gain de place sur le CD pour cette fonction qui n'est pas conseillé pouvant provoquer des bugs, n'appliquant pas les optimisations etc...
+
+L'installation est complètement automatique.
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+
+
+Il n'y a aucun logiciel intégré !
+C'est une version qui ne vieillira pas à cause des programmes qui changent de version tout les mois environ.
+
+Il n'y a pas de thème, ni de bootscreen ni rien qui personnalise le système graphiquement, contrairement à presque tous les autres Windows unattend existants.
+C'est un Windows XP Pro Corporate COMPLET, A JOUR, avec pilotes Sata/Raid intégrés et plusieurs optimisations.
+Il n'y a aucun bridage d'option, comme souvent sur les Windows unattend, il est très STABLE et RAPIDE et utilise PEU DE RESSOURCES mémoire (Entre 60 et 70Mo après installation et un premier reboot)
+
+======================================
+
+
+QUOTE
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+Changelog depuis la Version 4.0a :
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+Changelog de la V4.0a à la Version 4.5 :
+
+- 16 nouveaux Hotfixs intégrés.
+- Windows Update fonctionnel malgré la nouvelle protection de Microsoft. (Windows Genuine Advantage) :-)
+- Plus d'icones en 4bits quand ont change l'affichage en 16bits. Elles restent normales cette fois ci.
+- Certaines applications/installeurs/pilotes/jeux provoquaient une erreur "la mémoire ne peut être read." quand on les fermait ou les ouvrait. C'est désormais RESOLU.
+- Ainsi que certaines applications/installeurs/pilotes/jeux etc... qui, quand on les exécutait, il n'y avait aucune réaction (phénomène très rare). C'est RESOLU !
+- Nouveaux éléments supprimés :
+* MSN Exploreur
+* Windows messenger
+* Movie Maker
+* Pinball
+* Echantillons musicaux
+- Les jeux inclut avec Windows XP ne s'installent pas mais sont toujours présent sur le CD (Sauf Pinball). Pour pouvoir les installer via le panneau de configuration. ("ajouter ou supprimmer des programmes" >> "ajouter ou supprimer des composants Windows" >> "accessoires et utilitaires" >> "jeux")
+- Rectifications des optimisations au niveau du registre.
+- Si Vous installez Winrar, une catégorie Winrar sera créé au menu contextuel du clique droit réunissant les fonctions de Winrar qui s'y trouvent habituellement (Ajouter à l'archive / extraire ici etc...)
+- Les flèches sur les îcones des raccourcis + le "raccourci vers" enlevés.
+- Ajout des racourcis "ajout/suppression de programmes", "Gestionnaire de périphériques", "Lancer RegEdit", "Quitter session", "Redémarrer", "Arreter", dans le clique droit du poste de travail.
+
+- Pour les personnes qui ont rencontrés des difficultés avec la création de comptes :
+  * (Après création d'un deuxième compte le compte Administrateur principal disparaissait ou encore impossible de creer un 2ème compte limité donc obligé de creer un admin, ou bien impossible de supprimer le 2ème compte)
+  * Vous ne rencontrerez désormais plus aucun de ces "problèmes" qui en fait n'en était pas vraiment un. C'était tout simpement dû au fait qu'il faut toujours au moins un compte UTILSATEUR Administrateur en dehors du compte administeur principal qui est habituellement caché. (Compte admin que l'on voit apparaître en mode sans échec normalement)
+  * Donc il n'y a plus aucun soucis de ce côté là maintenant. wink.gif
+
+- Les favoris par defaut de windows XP sont supprimés : "Guide des stations de radio" + "MSN.com" + "Liens >> "Hotmail" - "personnaliser les liens" - "Windows" - "Windows Media""
+////////////////////////////////////////////////////////////////////////////////////////////

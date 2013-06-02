@@ -1,0 +1,89 @@
+ICQ Spammer 2.0
+-------------------------------------------------------------------------
+System Voraussetzungen:
+Windows System (min. 95)
+Internet Anschluss
+ICQ
+Nachrichtensenden auf Alt + s eingestellt.
+-------------------------------------------------------------------------
+Anwendung:
+1. Starten der "ICQ Spammer v2.exe"
+2. Eingabe des Spam Textes. (rechts neben
+"Spam Text") Nach Wunsch Smily auswählen.
+3. Gewünschte Geschwindigkeit einstellen,
+wobei 1000 [ms] einer Sekunde entsprechen.
+Dies stellt man im Feld neber "Speed[ms] ein.
+4. Nach belieben das Häckchen vor Counter
+setzen. Dies bewirkt, dass der Spam Text mit
+seiner jeweils gezählten Stelle "gepostet"
+wird.
+5. Optional ein Häckchen vor "Anzahl der
+Posts festlegen" setzen und gewünschte
+Anzahl eingeben.
+6. Nun startet man ICQ und öffnet das Fenster
+des Users, den man zuspammen möchte.
+7. Nun klickt man innerhalb der Anwendung
+ICQ Spammer auf "Start", woraufhin das
+ein 12 Sekündiger Countdown startet.
+7. Per Klick das ICQ Fenster auswählen.
+8. Warten bis der Countdown abgelaufen
+ist. - Nun beginnt der Spamprozess.
+9. Um diesen kontinuierlichen Prozess zu
+beenden klickt man auf "Stop" oder wartet,
+wenn eingestellt, bis die voreingestellte
+Anzahl der Posts abgelaufen ist.
+10. Anschließend genügt ein Klick auf das
+Kreuz oben Rechts um die Anwendung zu
+beenden.
+-------------------------------------------------------------------------
+Für was braucht man dieses Programm?
+Dieses Programm ist für alle ICQ Nutzer die
+sich von Spammern genervt fühlen und bei
+einer "Spam - Attacke" wehren wollen.
+-------------------------------------------------------------------------
+Für was sollte man dieses Programm nicht 
+benutzen?
+Zum eigenem rumspammen.
+Bedenken Sie, dass ein User ganz leicht ihre
+IP Nummer herausbekommen kann, wenn
+sie ihn zuspammen.
+-------------------------------------------------------------------------
+IP Nummer?
+Ja, und zwar so:
+Start, Ausführen, "cmd" eingeben, im sich
+öffnenden Fenster "netstat -n" eingeben.
+Die IP des Users ist nun ganz leicht daran
+zu erkennen, dass hinter ihr ":5190" steht.
+Was man jetzt mit der IP anstellt, sei einem
+selbst überlassen.
+-------------------------------------------------------------------------
+Was ist neu in v.2?
+- Beschränkte Smily funktion
+- Countdown Funktion
+- Anzahl Funktion
+- Verbesserte Programmstruktur
+-------------------------------------------------------------------------
+geschrieben auf Basis des ICQ Spammers 1.0
+in Visual Basic 6.0
+Nur für Übungszwecke.
+Copyrights bei Comu
+Distanzierung des Autors zur Software
+Schädlingsfrei und getestet mit 
+eTrust Antivirus v. 7.1.194
+updatet am 10.12.2005
+Support unter www.comuboard.dl.am
+-------------------------------------------------------------------------
+Häufig gestellte Fragen:
+Könnt ich eine Kopie des Source Codes haben?
+- Nein, die Software ist absolut Virenfrei und das
+ist auch gut so.
+...
+-------------------------------------------------------------------------
+Release Datum:
+16.12.2005
+www.comuboard.dl.am
+
+In English:
+This is a kind of Anti Spamming Tool for ICQ.
+If somebody is spamming in your ICQ you can
+fight against him by spamming him.

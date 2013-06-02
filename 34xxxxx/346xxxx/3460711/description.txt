@@ -1,0 +1,22 @@
+This is FIX for IDN release of TES4: Oblivion.
+
+READ THE INSTRUCTIONS CAREFULLY!
+
+1. download the original release from "http://thepiratebay.org/details.php?id=3460538"
+2. download this file
+3. once you have both of them put the PAR files from this torrent together with the 001-086 files from the original release
+4. use quickpar from the APPS folder and install it
+5. once quickpar is installed click on one of the .PAR2 files
+6. quickpar will open, click ADD, and add all the 001-086 files to quickpar
+7. WAIT might take some time, when it's done click REPAIR and wait some more
+8. once extracted you will get a 4GB .zip file, RENAME that to tar.gz(If it's Oblivion-IND.zip, renami it to Oblivion-IND.tar.gz)
+9. use BSDTAR from APPS folder(Go Start->Run->type cmd and press enter. Find BSDTAR folder, enter /bin, type "BSDTAR -help"
+10. type "BSDTAR -xf <OBLIVIONLOCATION/Oblivion.tar.gz>". OFC RENAME THE FOLDER NAME AND FILE NAME IF NECESSARY
+11. BSDTAR will report error but it will extract the .mfd file
+12. NOW TYPE BSDTAR -xf <OBLIVIONLOCATION/Oblivion.tar.gz> .msd". THIS WILL EXTRACT THE MSD FILE
+13. LOAD IN DAEMON TOOLS
+14. INSTALL THE GAME, YOU WILL GET A CORRUPTED FILE ERROR. PRESS IGNORE
+15. Once it is install go to the game directory and enter /data directory, you will see "meshes.bsa". THIS IS THE CORRUPTED FILE.
+16. Go to "Special PAR..." folder in this torrent and copy the .PAR2 from there to the Oblivion/data folder. Run the PAR2
+17. QuickPar will open, Once done working click repair
+18. PLAY!

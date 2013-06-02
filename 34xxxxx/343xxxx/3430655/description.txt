@@ -1,0 +1,85 @@
+MilkDrop rocks!
+
+Over at the MilkDrop Resource Website < http://www.milkdrop.co.uk/ > there are 3601 additional presets available for download.  The last preset update package is from 8th October 2003, but Rovastar, the website's maintainer, promises updates after he finishes Winamp plug-in v1.05.  
+
+Now that XBMC supports zipped preset packs, I have decided to repackage this Update Pack.  I know that with my set up, transferring over 3600 little files from my PC to Xbox took almost ten minutes.  Because the 42 character filename limitation of the Xbox doesn't apply to files packaged in a zip file, I decided to go back to the original unmodified preset names.
+
+I took the 3601 presets from the MilkDrop Resource Website and placed them in a folder.  The 435 presets included with XBMC were taken from Winamp.  There was one extra preset not included with XBMC (Rovastar - twisted bytes.milk).  I copied the 436 presets from the current Winamp 5.092 build into that folder, allowing duplicates to be overwritten.  This gave a total of 3657 presets.  Based on the number of presets in my old Update Pack, I suspect there are probably 10 or so duplicate presets in the lot with slightly different filenames.  Based on how much effort it would be to find and eliminate these duplicate presets, I decided to leave them.  If someone wants to try to hunt them down, they are welcome to!  Just let me know which ones they are ;-)  Then I compressed all of the presets together into a Milkdrop.zip archive.  As per instructions on the XBMC forums < http://www.xboxmediaplayer.de/cgi-bin/forums/ikonboard.pl >, I've compressed this .zip archive in "store" mode.  This allows XBMC quicker access to the presets.  As an added advantage for anyone who wants to include this Update Pack in their XBMC builds, compressing the Milkdrop.zip archive with WinRAR in "best" mode brings the file size from 9.33MB to 651KB.  This huge compression savings doesn't work using any other zip mode besides "store".
+
+What's really nice about MilkDrop is how fast it runs on XBMC.  The problem is that it really runs too fast.  MilkDrop for XBMC now supports configuration through a milkdrop.xml.  This Update Pack also includes a modified milkdrop.xml.  After a lot of experimenting, these are the changes I made:
+
+I have <AnisotropicFiltering> set to true.  I have <MeshSize> increased from 32 to 48.  These two settings produce a noticeably higher quality image with minimal speed decrease.  Having a <MeshSize> of 64 looks beautiful, but runs very slow.  I have <TimeBetweenPresets> increased from 8 to 14 and <TimeBetweenPresetsRand> increased from 5 to 6.  This way, each effect lasts from 15-20 seconds, instead of 9-14.  Occasionally the current effect changes sooner because of the <HardCutLoudnessThresh> setting.  I increased <BlendTimeAuto> from 1 to 3.  I think the transition from one preset effect to another is one of the most interesting features of MilkDrop and I think the transitions work better at a longer 3 seconds.  I played around a lot with <MaxFPS> and decided that 36 (instead of 50) runs quickly, but is not as insane (or nausea-inducing).  Incidentally, the default <MaxFPS> is set on Winamp to 30, but I found 30 to be a bit too slow.
+
+I also wanted to mention that when MilkDrop for XBMC was first released, there was a problem with "too many presets."  This problem was fixed when milkdrop.xml was created and the default setting for <enablerating> was set to false.  This eliminated the slowdown and repeating preset problem that came with having too many presets.  There are still XBMC builds that mention in their build notes that you shouldn't use any extra presets because this causes problems, slowdowns, etc.  This is not true and refers to the old issue that has been corrected.  Now, granted, some of the presets in this Update Pack are complex and will run slower than 36 fps, but I estimate that this affects 1-2% of the included presets, possibly less.  Considering how infrequently this slowdown happens, I definitely think it's a worthwhile trade-off for the sheer variety of effects you gain.  I'm definitely taking a "quantity over quality" stance here.
+
+*UPDATE 2005-06-15:
+There have been some nice changes to the XBMC port of MilkDrop that I think are worth detailing.
+
+14-06-2005 added: Pixel ratio parameter added to the visualisation Create function and more Direct X exports.
+14-06-2005 changed: Milkdrop - now renders with correct aspect ratio.
+
+For users that have widescreen TVs, MilkDrop is no longer stretched from 4:3 to fill the 16:9 screen.  Finally, circular effects don't look oval anymore!
+
+14-06-2005 added: Visualisation settings, and ability to show, select and lock vis presets.
+
+If you tap the Display button on the remote or the Start button the controller, you will bring up a menu control.  In addition to being able to play or pause, fast-forward or rewind and go to the next or previous track, you can control many aspects of the vis.  You can now lock which preset is running, choose which vis to run, select a preset directly from a pageable list and open a nice configuration menu that lets you change all of the settings in the MilkDrop.xml file.  Nice!  If you tap the Black button on the controller or the Back button the remote, you will be able to see which preset is currently running.  Tapping the Back button on the remote more than once gives you the ability to lock (or unlock) the preset, preventing the preset from changing.  For some reason, this doesn't work with the controller.  Tapping the yellow Y button on the remote will bring up the pageable preset list.  Tapping the D-Pad on the controller up or down will change the preset.  There doesn't seem to be a way to do this on the remote.
+
+In browsing the Winamp MilkDrop forums < http://forums.winamp.com/forumdisplay.php?forumid=81 >, I found a couple of nice preset packs.  On 2005-06-12, Aderrasi 0.24 posted a complete collection of his 896 presets.  Assuming that these would be the most "current" versions, I copied the presets in allowing overwrites.  This added 717 presets to this Update Pack.  On 2005-06-02, Eo.S. posted a collection that adds a total of 736 presets.  I left file.dat from the pack in, simply because I don't know what the file is for and it is only 2K.  Eo.S. notes in his post:  "that zip file contains about 750 [weeded down from about 4000] presets by myself, Phat, Fishbrain, Zylot, Shifter, and Yin. Those are the authors we know the best so those are who we focused on. We tried to keep only the hottest stuff."  Hot stuff indeed!  These presets are complex and tend to run in the area of 20-30 fps, but are incredible to look at.  With these two packs added, our Update Pack is now up to 5110 presets!
+
+Also, I mentioned this back in the info file for the G-Force for XBMC Config Update Pack, but since I haven't mentioned it here, I figure I should.  Using filters for the GUI also affects MilkDrop.  On the XBMC home screen, select Settings and then Appearance.  Choose GUI Filters, set Flicker Filter to 0 and make sure Soften is not selected.  This will sharpen up the graphics in MilkDrop and also increases the speed by a few fps.  This is helpful for the more complex presets.
+
+*UPDATE 2005-06-26:
+
+I was unable to upload the last Update Pack to Xbox-Sky (kept getting "database error" for four days) so in addition to uploading it to Usenet, I also uploaded to PirateBay.org.  A user there named GasGiver found 80 duplicates in the build, so I deleted those.  He used a fairly complicated method for finding and removing the duplicates: "Made an SFV of all Presets Made small changes to SFV file Imported SFV file into Excel Saved as SFV#1.csv Killed all duplicates or "triplicates" with a Macro Saved as SFV#2.csv Generated a DIFF file with WinMerge Cleared up the DIFF file a bit."  Whew!
+
+ChokeManiac was nice enough to inform me about an German Xbox modding site called EVO-X - Das XBOX-Portal < http://www.evo-x.de/ >, where in the boards someone had posted a MilkDrop pack with 8841 presets!  I registered and found the thread < http://www.evo-x.de/wbb2/thread.php?threadid=115597&sid= >.  On 2005-05-22, Doerek uploaded an Update Pack that PhObO had put together on 2005-05-16 with 3813 presets.  On 2005-06-21, Doerek uploaded another pack with 8841 presets.  I don't read German and the Google translator made it unclear whether he put this together himself.  Finally, also on 2005-06-21, StyleHack posted a pack with 9821 presets.  From the Google translation, it sounds like he took all of the previous packs (including my own) and added any extras he already owned.
+
+I wanted to know who was adding what and I honestly couldn't make much sense of GasGiver's method.  Using Google I discovered a great program called NoClone (which I really should register) which compares directories, finding duplicate files using a "byte-by-byte comparison" method.  This finds files that are duplicate no matter what the filename is.  It also allows you to delete those duplicates.  Nice find.  I first ran it on my Update Pack with 5110 presets and it found the same 80 duplicates that GasGiver did!  I unzipped my Update Pack with 5030 presets and compared it to PhObO's presets.  There were 624 presets there not in my Update Pack.  Next, I did the same with the 8441 and 9821 packs.  The 8441 pack had better filename capitalization and I wanted to keep those first, so I compared PhObO's pack to the 8441 pack and deleted the duplicates out of PhObO's pack.  All of the 131 extra presets in the 8841 pack were also in PhObO's pack, so there were no new presets there.  Finally, I compared the 8921 pack to my Update Pack with the additional 624 presets copied in.  There were no additional presets there, either.  In the end, this update adds 624 presets from PhObO's pack, 131 of which were actually pulled from the 8441 pack because the filenames were better.
+
+I also made a change to the Milkdrop.xml update file.  I discovered that <AnisotropicFiltering> is only used during transitions between presets.  Because this is possibly slower than the default Bilinear Filtering and I can't see a image quality improvement either way, I restored this setting to "false".
+
+One other nice improvement made to the CVS that I failed to mention last update:
+
+06-06-2005 changed: VSync now always on.
+
+VSync was always on for video playback, but now it is on for the GUI and the various visualizations.  This change eliminates the annoying image tearing problem that occurred while MilkDrop is running. 
+
+**UPDATE 2005-08-12:
+
+Rovastar has updated the MilkDrop Resource Page with Regular & Newbie Packs for Q4 2003, as well as Q1-2-3-4 2004.  I unzipped the Milkdrop.zip preset pack from the last update into a temp folder and then upzipped the new packs into that folder, starting with the oldest and allowing overwrites.  Eo.S. has uploaded an updated pack to the Winamp MilkDrop boards under the filename "Eo.S.-Phat-submit-119.zip".  Here is some info she wrote about this Pack:
+
+--
+These have all been edited to compensate for fps, so people with way faster, or way slower machines see essentially the same thing [and so they still look right on PCs in 3 yrs].
+
+As for anyone else concerned about this for their own presets. If you have any code that looks like this...
+
+vol = (bass+mid+treb)*0.33;
+musictime = musictime + vol;
+
+the rate at which 'musictime' changes is affected by framerate. If you edit the 2nd line to...
+
+musictime = musictime + vol * (75/fps);
+
+You can compensate for framerate. Set the '75' in this example to whatever the framerate of the preset on your own computer is when it looks correct to you [i.e. if it runs 30fps on your box, and that's how it should look, the code should be '*(30/fps)'].
+
+If you use the copy and paste function it's really easy to add this change to a lot of presets [i just did 100 of them in 30 minutes].
+--
+
+I unzipped that pack of 119, again allowing overwrites.  This brought the total number of presets to 7134.  Eo.S. was nice enough to confirm that the mysterious "file.dat" is unnecessary, so I deleted it.  After removing 66 duplicates, this brought the new total to 7068 presets, plus one small .jpg file that I assume one of the new presets uses.  Also, manual setting of framerate in the GUI is in increments of 5, so to follow this pattern, I've changed the framerate from 36 to 35.
+
+One more quick comment.  In my opinion, one of the best things about MilkDrop is sheer variety of presets available.  Certainly, the older presets are not as sophisticated as the newer, but almost none of them are boring.  And besides, they flit across the screen so quickly that even if you don't like a particular preset, it will be replaced fairly soon.  It is for this reason that any "Top 100" preset pack makes no sense.  I started looking for additional presets because I always want to see something new.  With over 7000 different effects available, why in the world would someone want to limit themselves to 100 or even 1000?
+
+**UPDATE 2006-01-11:
+
+Well, it's been about five months since the last update, so it's time!  I extracted the 7068 presets from my last pack to a temp folder.  I then added the 265 additional presets newly included in Winamp 2.51 into that folder, allowing newer files to overwrite.  This brought the total presets to 7153.  NoClone found 10 duplicates, bringing the total down to 7143.  RovaStar hasn't added the 2005 presets from the Winamp MilkDrop board to his page yet, so I went through the posting for 2005 myself.  I downloaded 13 separate presets from Fyornulis & 224 compressed packs.  Extracted, this is 1513 presets.  I didn't include presets built for the beta version of MilkDrop as they probably won't work as expected.  I copied this into that temp folder, allowing newer files to overwrite.  This brought the total to 7956 presets.  NoClone found 71 duplicates and I deleted those (as always, keeping the filename that looked best), which brought the total to 7885.
+
+Over on Xbox-Sky, alalbaster upload a pack of 11657 presets.  It mentions that it was "Compiled From Many Different Presets".  As I've been pretty meticulous, I suspected that this pack may contain duplicates.  Using NoClone, I went through the pack.  There were 4304 files that were duplicates.  I deleted the oldest duplicates.  Then comparing the two directories with NoClone, I deleted 4366 Same Name duplicates and 2894 duplicates.  In the end, this left 92 additional presets.  I added this to the temp directory.  This brings the grand total for this pack to 7977 additional presets.
+
+One quick note, I believe it was RocafellaSqualie that started calling this update pack a "Megapack" in his builds.  I use the K-Lite Mega Codec Pack on my PC and I like the sound of MegaPack, so I'm going to steal it!  Thanks RS!
+
+
+INSTALLATION:
+Extract the visualisations folder into your XBMC folder and you're good to go!  You will be replacing MilkDrop.xml and Milkdrop.zip.  This Milkdrop.zip includes the 436 presets from the normal XBMC build,  plus the extras from the MilkDrop Resource Website and various boards, for a total of 7977 presets.
+
+Enjoy!
+Kevin Sartori

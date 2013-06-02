@@ -1,0 +1,45 @@
+Release.............: XBox Media Center 1.1.0
+ CVS/Compile Date....: 2005-12-08
+ Compiler Versions...: XDK 5933, Visual Studio .NET 2003
+
+ Skins...............: Project Mayhem III
+                       Project Mayhem III style webserver interface by KanadaKid
+
+ Visualisations......: ~1500 G-Force and ~7000 Milkdrop
+
+ Scripts.............: XBMC Scripts Installer and Submenueditor 1.1 available
+                       from the scripts menu.
+  
+ Custom Mods.........: Custom mplayer.dll compiled from latest CVS with GCC 3.4.4
+                       using --disable-libavformat. Greatly reduces the size of 
+                       the dll at the cost of not being able to demux a few
+                       obscure formats.
+                       WMV9, RealVideo and Quicktime codecs included and tested.
+
+ Release Notes.......: Todays CVS had to be manually fixed by adding 'unsigned
+                       long iOffset;' at line 19 of xbmclibUnrarXLibUnrarX.hpp
+
+ XBMC Changelog......:
+
+ - 08-12-2005 added..: SystemInfo: Total System Uptime, will show how long XBMC
+                       was used since first start! [GeminiServer]
+ - 08-12-2005 added..: SmartXX V3 Modchip Detection [GeminiServer]
+ - 08-12-2005 fixed..: previos changed settings was not saved if a restart follow
+                       to network Assignment change [GeminiServer]
+ - 07-12-2005 fixed..: rar directory masking.
+
+ MPlayer Changelog...:
+
+ - 04-10-2005 updated: ffmpeg to mplayerhq cvs version as of now. fixes a few
+                       avi's that where causing problems + a few other stuff
+ - 06-09-2005 changed: when resuming normal playback speed, video would jump
+                       ahead a couple of seconds. didn't work well
+ - 22-08-2005 updated: libvorbis interface to mplayer cvs (ad_libvorbis.c:1.18),
+                       fixes vorbis decoding in both matroska and ogm containers
+
+ PM III Changelog....: 
+
+ - 04-12-2005 fixed..: Small navigation problem in DialogVideoInfo (16x9).
+ - 04-12-2005 changed: Play button shows Play when FastForwarding or Rewinding.
+ - 01-12-2005 added..: FileBrowser.xml - initial skinning by BritneysPAIRS
+

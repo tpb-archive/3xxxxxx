@@ -1,0 +1,33 @@
+===================================================================================
+More and more people are buying and loving Macs. To make this choice simply irresistible, Apple will include technology in the next major release of Mac OS X, Leopard, that lets you install and run the Windows XP operating system on your Mac. Called Boot Camp (for now), you can download a public beta today.
+
+As elegant as it gets
+Boot Camp lets you install Windows XP without moving your Mac data, though you will need to bring your own copy to the table, as Apple Computer does not sell or support Microsoft Windows.(1) Boot Camp will burn a CD of all the required drivers for Windows so you don't have to scrounge around the Internet looking for them.
+
+ 
+Optional alt. At startup, hold down the option key (alt) to choose between Mac OS X and Windows.
+Run XP natively
+Once you?ve completed Boot Camp, simply hold down the option key at startup to choose between Mac OS X and Windows. (That?s the ?alt? key for you longtime Windows users.) After starting up, your Mac runs Windows completely natively. Simply restart to come back to Mac.
+
+What you?ll need
+Mac OS X Tiger v10.4.6 (check Software Update) 
+The latest Firmware update (check Support Downloads) 
+10GB free hard disk space 
+An Intel-based Mac 
+A blank recordable CD 
+A printer for the instructions (You?ll want to print them before installing Windows, really.) 
+A bona fide installation disc for Microsoft Windows XP, Service Pack 2, Home or Professional (No multi-disc, upgrade or Media Center versions.) 
+The Boot Camp course
+Boot Camp Public Beta provides a straightforward means of letting your Mac run Windows. Here?s how it works:
+
+ 
+Space maker. Meet the most elegant hard drive utility ever.
+First, you need to make sure your Intel-based Mac has the latest version of Mac OS X and the latest firmware update. These provide technologies that make Boot Camp possible. It?s also wise to print out the Installation & Setup Guide. 
+The Boot Camp burns a CD with the drivers Windows needs to recognize Mac-specific hardware. It is very important to do this before starting the Windows installation. 
+The software also helps you set aside hard drive space for the Windows installation, without moving any of your Mac files around. Just drag the intuitive slider to choose the size that?s right for you. Boot Camp also helps you remove the Windows partition, should you so desire. 
+Next, insert your Windows installation disc, restart and follow the Windows installation process. The only tricky part is selecting the C: drive manually. Be sure to get this right, or you could erase your Mac files accidentally. Remember, Apple Computer does not sell or support Microsoft Windows. 
+After the installation process is complete and your Mac has booted Windows, you?ll need the Macintosh Drivers CD you burned previously. When you insert the CD, it will automatically install the drivers. Follow the instructions in the Installation & Setup Guide for helpful hints. 
+Don?t forget to follow best practices for updating and protecting your Windows system (see ?Word to the wise? to right). 
+===================================================================================
+
+More info at : http://www.apple.com//macosx/bootcamp/

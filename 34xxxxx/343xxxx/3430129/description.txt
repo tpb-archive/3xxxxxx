@@ -1,0 +1,112 @@
+Release.............: XBox Media Center 1.1.0
+ CVS/Compile Date....: 2005-01-10
+ Compiler Versions...: XDK 5933, Visual Studio .NET 2003
+
+ Skins...............: Project Mayhem III
+
+ Visualisations......: The 110 best Milkdrop presets by BritneysPAIRS
+
+ Scripts.............: XBMC Scripts Installer by EnderW
+                       Submenueditor 1.1 by Rocko
+                       Changelog by SveinT
+                       CNN Videos v1.0.1 by Asteron
+                       FlexiBrowser v1.4 by Bernd
+                       Global Alternate News v0.1 by Accumulator
+                       KMLBrowse by Gabriel
+                       LaunchBrowser v1.8 by Flash
+                       Ooba v1.1 by Van der Phunck
+                       QuickTimeBrowser 1.37 by Mouton (Fixed version)
+                       Stupid Videos by Nishil
+
+ Optimizations.......: Custom mplayer.dll compiled from CVS with GCC 3.4.4
+                       using --disable-libavformat. Greatly reduces the size of 
+                       the dll at the cost of not being able to demux a few
+                       obscure formats.
+                       Reduced size of bloated scripts from 3601KB to 941KB.
+
+ Functionality.......: WMV9, RealVideo and Quicktime codecs included and tested.
+                       Scripts menu edited to include added scripts.
+                       Added weather display and IP address to home screen.
+                       Project Mayhem III webserver interface by KanadaKid.
+
+ Release Notes.......: Replaced the huge set of Mildrop presets with a set
+                       containing only the best ones.
+                       To remove either weather or IP address from home screen,
+                       edit skinProject Mayhem IIIPALHome.xml (or PAL16x9).
+                       At the bottom of the file, change <visible> from true to
+                       false for the items you want to remove.
+                       To use the original mplayer.dll instead, move it to
+                       xbmcsystemplayersmplayer. Download the file at: 
+                       http://cvs.sourceforge.net/viewcvs.py/xbmc/XBMC/system/
+                       players/mplayer/mplayer.dll 
+
+ XBMC Changelog......:
+
+ - 10-01-2006 fixed..: playlist hanging when randomize is enabled
+ - 10-01-2006 changed: disabled seeking when ff/rw in menu and partially fixed
+                       rewind. only fast rewinds work
+ - 10-01-2006 added..: workaround to the playlist problem with randomize that
+                       will prevent the hang, but the underlying problem still
+                       exists.
+ - 10-01-2006 fixed..: dvdplayer: some vobs reported a wrong totaltime, as
+                       playback progressed totaltime decreased rapidly and no
+                       seeking was possible. 
+ - 10-01-2006 fixed..: changed to use libmpeg2 for mpeg1 caused ffmpeg to be
+                       used for everything instead in dvdplayer
+ - 10-01-2006 fixed..: playlists found in subfolders off the music and video
+                       playlists locations will not be re-cached to the music or
+                       video playlist location.
+ - 09-01-2006 fixed..: Python list controls would crash.
+ - 09-01-2006 fixed..: Sort order in Filemanager is now by label for the
+                       bookmarks.
+ - 09-01-2006 fixed..: Crash switching from Fullscreen -> GUI.
+ - 09-01-2006 fixed..: Page up/down controls were rendered incorrectly.
+ - 09-01-2006 fixed..: Ripping a CD is an idle state for autoshutdown
+ - 09-01-2006 fixed..: Mute Function doesn't work well.
+ - 09-01-2006 fixed..: DVD-Player doesn't STOP on Eject Disc
+ - 09-01-2006 fixed..: Window Animations weren't reset when changing skins.
+ - 09-01-2006 fixed..: Rarred subs left a progress dialog on screen.
+ - 09-01-2006 changed: made dvdplayer use libmpeg2 for decoding mpeg1 video too
+                       and added reset code on decoding error
+ - 09-01-2006 fixed..: If nothings playing volume reports -1 from GetVolume
+ - 09-01-2006 changed: edit xbe title truncates to 39 characters so as not to
+                       corrupt xbe header
+ - 09-01-2006 fixed..: video stacking (no longer displays comma seperated file
+                       list)
+ - 09-01-2006 fixed..: Dialog box grammar error.
+ - 09-01-2006 changed: No TV mode in LCD doesn't auto-start in My Music anymore.
+ - 08-01-2006 fixed..: Default python values from references.xml were incorrect
+                       for skin version >= 1.85.
+ - 08-01-2006 changed: Skin version to v1.90.
+                       - includes.xml added.
+                       - 1 pixel font shadows added (use <shadowcolor> tag).
+                       - directional text added (use <angle> tag to state a
+                         degree) - label and buttons only.
+                       - font.xml can take a <color> and <shadow> tag for each
+                         font.
+                       - new animation system.
+                       - online manual is being updated with the new information
+ - 08-01-2006 fixed..: ProgressDialog title in the Filemanager on second
+                       copy/move etc.
+ - 08-01-2006 fixed..: Cast listcontrol in Video Info couldn't be focused.
+ - 08-01-2006 fixed..: Picture slideshows with transistion time less than 1
+                       second didn't display correctly.
+ - 08-01-2006 fixed..: httpapi PlayFile should now once again play remote media
+ - 08-01-2006 fixed..: full restoration of the filter label in my music library
+
+ MPlayer Changelog...:
+
+ - 09-01-2006 added..: additional fourcc codes in codec.conf
+ - 09-01-2006 added..: ffmpeg data padding patch (malloc padding to avoid access
+                       beyond allocated memory), hopefully fixes fast wmv's. 
+ - 09-01-2006 changed: explicitly disabled gif and jpeg instead of relying on
+                       autodetection
+ - 09-01-2006 fixed..: xbmc wasn't compilable with mingw5, due to missing sleep
+                       function
+
+ PM III Changelog....:
+  
+ - 09-01-2006 fixed..:    MusicVisualisation.xml was invalid.
+ - 08-01-2006 changed:    Moved to version 1.90 compatible.
+ - 08-01-2006 fixed..:    Listcontrol in DialogVideoInfo.xml couldn't be focused.
+ 

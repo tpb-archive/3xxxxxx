@@ -1,0 +1,145 @@
+﻿User Type,Username,Date,Text
+,UncleT,2006-01-11T17:22Z,Please seed. 
+,planki,2006-03-15T21:57Z,"This is a full CD-image of Rogue Squadron. Nothing is missing. The music is digitized, not CDA."
+,OmochaoAbuser,2006-03-17T23:37Z,Seed please.
+,OmochaoAbuser,2006-03-20T00:15Z,Seed!!!
+[V],mulle_bombad,2006-08-10T22:43Z,Måste bara få säga att det här är ett jävligt roligt lir för att vara så gammalt och skitlätt att klara ut :P !!! Jag har varvat det så många gånger att jag har tappat räkningen :P !!!
+,cmurphy,2007-03-04T23:39Z,"try setting the compatability mode to 95 or 98 first.
+
+if that dosnt work (this is only if you have a dual core processor) while the game is running ctrl+alt+delete, right click the rouge squadron process and select ""set affinity"", uncheck cpu 0.
+
+if either of those dont work uninstall, before you reinstall right click the setup.exe and set its compatability mode for win 95 or 98"
+,electron84,2007-11-07T14:29Z,please seed!!!
+,timetwosplitt,2008-01-16T12:14Z,"I got this working 100%
+
+1) First download ""Magic ISO"" 
+
+2) then open Magic Iso and extract contents from the Rouge Squadron MDF/MDS files into a folder somwhere.
+
+3) Once youve done that, go to this link> http://www.freeinfosociety.com/site.php?postnum=990 and download ""Crack for Version 1.3 ENG""
+
+4) Install the crack and follow the intructions after patching.
+
+then open the rouge sqaudron.exe and get ready to play.
+
+took me ages to finally get it to work, but now its working, and i didnt even need to download alcohol and burn it to a CD which is bullshit, cause it doesnt work that way.
+"
+,IWillRipYou,2008-01-23T03:45Z,"Seed this bloody thing - its really a nice game, i remember it from the old days.. sigh.. If you seed this to me, ill keep it seeded 100kb /sec for at least a month."
+,punkstereo,2008-03-24T00:01Z,"thanks for the torrent, brought back good old memories.  Only problem is that it keeps crashing every time ii complete a mission.  but oh well, it's still fun to play now and again."
+,tom2233,2008-10-02T06:55Z,"The game works perfect. win xp, vista.
+open with an iso reader, like Alcohol or deamon tools. either burn to disc or extract the files and run setup.exe.
+
+u can install v1.3 cd crack if u want or just leave the iso file mounted to play the game.
+
+Now then, if the game crashes to desktop after completing a mission, this is what u have to do:
+Compatibility mode settings are crap. dont use.
+
+The game crashes because of a memory fault, its trying to read a memory space that is blank.( 640x480 res memory block with new graphics cards).
+
+so download a hex editor. like Hex Editor Neo (trial version will do)
+Make a copy of Rogue Squadron.EXE
+
+open Copy of Rogue Squadron.Exe in Hex Editor.
+
+edit the following offsets to the new values ( whaaa!!?? just follow my instructions)
+
+Click Edit, Go to Offset
+17B889h  change the value to B8. the orginal value was 0F.  
+now repeat the process for the following offsets. they are all on the same line:
+17B88Ah to 00 
+17B88Bh to 00
+17B88Ch to 00
+17B88Dh to 00
+17B88Eh to 90
+17B88Fh to 90
+
+ Click File save as rogue squadron hex edited.exe
+quit Hex Editor. ( it will prompt to save file again, just overwrite rogue squadron hex edited or save to new name)
+now rename your original Rogue Squadron.Exe to Rogue Squadron.old
+
+rename rogue squadron hex edited.exe to Rogue Squadron.Exe
+
+Run 
+Rogue.Exe. check your hardware settings, video and joystick, then Launch the game!! woot!! fek me it dont crash anymore!! yay!! i love this game!!
+
+this info was provided by : 
+http://www.lucasforums.com/showthread.php?t=171387. the poster is Erwin_obs. Method 3. i have tried to make a monkey guide to his post. all props to erwin!
+
+:)
+"
+,marxm,2009-01-16T02:34Z,"dl@100 kb/s with 6 seeds.  Half an hour no problem.  Can't wait, I remember loving this game!"
+,marxm,2009-01-16T03:38Z,"Uh... mounted image using Alch120, Daemon, and extracted using MagicISO...  Double clicking setup.exe launches nothing.  Double clicking Rogue.exe goes to initial install window but clicking Install does nothing; just closes the window.  Any other ideas?"
+,lysergamideman,2009-02-02T06:50Z,"i AM HAVING TRouble also, when i try to install , i set the compatability to win 95 & run the setup, the little menu b ox comes up, i click install, then the menu box disappears, but it do3snt show anything being installed & when i check my running processes I have wowexec.exe, & setup.exe running, but the dont show to be using any memory or cpu ?? So i am confused &^ hoping this isnt a virus, lol. Any help any1 ?? "
+,Anthony817,2009-02-12T23:28Z,"Mine works perfect,No burnt disc image,and also no crack used.I just have the game mounted."
+,eruleptanero,2009-03-25T06:20Z,"This seems like it installs fine, but then trying to run the game (from both the launcher and the game .exe itself) result in an error message telling me to reinstall. Any others with this issue?"
+,bountyhunter79,2009-04-01T07:36Z,no go on 64 bit vista.... WHORES!!!! really wanted this game....
+,jevonski,2009-04-06T18:22Z,haha all this rubbish about compatiblity mode and hex editing i just mounted and played it fine with deamon tools and it isn't quiting after each level either i'm on vista as well so i don't know whats up with your pc's.
+,battle21,2009-05-27T03:47Z,"i have this working 100%
+1. Download Daemon Tools Lite
+2.now right click on daemon tools on the taskbar 
+3.Point to Virtual CD/DVD-ROM and point to Device 0[E} no media
+4.mount the mds file
+5.after you mount the installation will launch
+6.after the installation play the game now!
+
+you still have to mount the mds if its not mounted."
+,la_cross37,2009-09-12T01:18Z,"thanks! works great. no problem at all. I just mounted with daemon tools and installed it and then I just played. 
+
+thanks for ul!"
+,la_cross37,2009-09-12T01:19Z,by the way I use vista and it works.
+,LeDrewxcore,2009-10-06T20:33Z,Cant seem to get this to work .. the main menu is completely black for me while the intro plays fine :\
+,JayArgo,2009-11-10T02:01Z,"What a waste of time, the program launcher asks for the CD and the crack which was posted for this does not work. Even after locating the right folder it just states: ""unnamed file not present"". 
+
+C'mon, if you're gonna upload stuff to share, at least make sure you include everything required to get it working lol"
+,Talyn_Malasombra,2010-01-06T18:27Z,"Mine also goes to a black screen with music playing after the title screen, damn it! I loved this game on my 64 and have had it before on PC,it's awesome to play with a joystick! 
+Anyone know how to fix the black screen problem?"
+,Talyn_Malasombra,2010-01-06T18:33Z,"OK, if you don't put the crack in it lets you get as far as the pilot roster then freezes lol."
+,omnitank135576,2010-02-19T07:41Z,"I uploaded something like this recently.
+http://thepiratebay.org/torrent/5367213/roguesquadron_windows95_98_2000_ME
+
+I'm the only seeder though."
+,forresttales,2010-06-03T07:19Z,This would not install for me on Windows 7 Ultimate x64. Nor would it through a virtual drive. VDs don't see retail graphics cards anyway. I partitioned hdd and installed Win 7 with the x86 option (32 bit os). Rogue Squadron runs great!
+,jbscythe,2010-10-15T03:24Z,anybody out there looking for Star Wars - Force Commander pc game? here it is full and no install or crack needed. just extract and play. http://thepiratebay.org/torrent/5887563/Star_Wars_-_Force_Commander.rar
+,GamerRelic,2010-11-29T22:05Z,"Great torrent man,dl this if you want to play it on pc,no 64 emulator can do shit for rogue squadron"
+,Pogomark,2011-02-15T20:18Z,"This one isn't hexed; this is needed in XP. Otherwise it will crash every time.
+
+The torrent from MarcACE works like a charm."
+,MrJac15,2011-02-17T03:52Z,"how do i make this work if i'm using a acer labtop with windows 7, i think 64 bit?"
+,fxjlk,2011-04-16T23:17Z,"got this working under windows 7 64bit use this to install
+http://www.markusegger.at/Software/Games/Default.aspx
+
+then install 1.2 patch 
+
+http://www.gamefront.com/files/13444610/rogueupd12.exe
+
+then copy and replace no cd exe from
+
+http://m0002.gamecopyworld.com/games/pc_sw_rogue_squadron.shtml#Rogue Squadron v1.2 [ENGLISH] No-CD/WinXP Fixed EXE
+
+If you get black screen like i did check your bundle.000 and bundle001 and if they are less than 1000 kb find the larger version on the cd in the data folder and copy it to your installation directory.
+
+If you get frame skip within the game(it lags) then take off compatibility
+
+The joystick only works when in 98 compatibility mode but theres frame skip (apparently multi core problem) so if anyone knows a way around this it would be appreciated.
+
+If this isnt clear enough or you still cant get this to work, comment and ill try to help.
+
+Thanks "
+,Dman71586,2011-05-25T19:12Z,It isntalled and launched fine.. the only problem I have so far is how the graphics run. It's a bit choppy and skips a lot. The frame rate is all screwed up. How do I fix it? Even the intro video is messed up. 
+,row123,2011-09-16T00:27Z,"cant get the seeker missles to work ,i got the special yellow marker to get them but cant any of the buttons to activate them, im on the last map .need them to kill the last boss moff serdin,whatever."
+,row123,2011-09-16T08:53Z,"oh never mind, wrong fighter plane, hehe"
+,adam1516,2011-10-08T19:36Z,fxjlk - that link is bust. Care to share with us a new link?
+,93patte93,2011-11-03T22:56Z,Only says to me: please reinstall rogue squadron 3D from the original cd and try again any help ?
+,jotunheim47,2011-12-27T01:12Z,"I have downloaded every version of Rogue Squadron I can find on piratebay.org and none of them will work. Every one tells me to install from the CD-ROM, and when I run setup.exe it says it can't run because it's not compatible with 64-bit Windows or ... something.
+
+Any. Help. I love this game so much."
+,pabolton,2012-02-03T03:56Z,"HAVING PROBLEMS?????
+
+mdf ??? i couldnt run it, using virtual clone drive. found a solution rename that file type to BIN and then have a go, if nothing happens when you try  to install restart your computer and try again, worked for me.
+
+alternativily download alcohol"
+,i-copeland,2012-06-10T10:42Z,"Error Msg (Please help):
+The shadow setup program could not be run from launcher. you may try running SETUP.EXE directly from the shadows CD-ROM disk."
+,i-copeland,2012-06-10T12:08Z,Oh sorry wrong thread :D
+,i-copeland,2012-06-10T12:42Z,sory wrong thread
+,jackle86,2012-06-21T02:38Z,forresttales- you say it works with Win7 x86? THAT'S PERFECT! Now I can download the torrent knowing it will work

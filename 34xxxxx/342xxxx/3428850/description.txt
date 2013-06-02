@@ -1,0 +1,10 @@
+beta
+5.8.1.1, 2006 01 07
+
+- New: Improved the function to remove unreferenced VOBUs. This fixes
+problems (Error message "invalid navigation structure") with DVDShrink
+and Nero Recode with some titles.
+- Fix: Alpha DVD copyprotection detection. Some titles (e.g., "The Fifth
+Element - Remastered Deluxe Edition" R2, German) were incorrectly
+identified as protected with the "Settec AlphaDVD" copy protection.
+- Updated languages

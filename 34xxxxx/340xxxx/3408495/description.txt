@@ -1,0 +1,339 @@
+NOTE: This movie is encoded with Nero Digital H.264/AVC and contained in a Matroska (.mkv) multimedia container file. To play it, you WILL need a H.264 decoder (not necessarily Nero's) and a Matroska splitter. To view the subs, you will need a subtitling filter for directshow (i.e. vsfilter). ALSO NOTE THAT VLC 0.8.2 WILL NOT BE ABLE TO PLAY THIS MOVIE. To conclude the technobabble: to watch it on Windows, uninstall all other codecs/codec packs you have, then download and install CCCP ( http://cccp.kickassanime.org ). To watch on MacOS, Linux or BSD, a CVS build of MPlayer is recommended (NOT 1.0pre7try2, that one is known to have issues with h264 playback). In return for this, you get the most awesome video quality you've ever seen in a ripped movie.
+
+This torrent concludes the series of ZX Evangelion torrents on TPB. The series is now complete. Enjoy! -TheFluff
+
+Now, the NFO:
+                   -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                  «           Zhentarim DivX Presents           »
+                   -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+                           Title : The End of Evangelion (25: Air/26: My Pure Heart For You) - Renewal v3
+                        AnimeNFO : http://www.animenfo.com/animetitle,1055,jqwqwc,evangelion__end.html
+                           Parts : 1
+                           Genre : Action / Sci-Fi / Alternate ending / Brainfuck / Enlightenment catalysator
+                    Release Date : April 2005
+                  Feature Length : 1 hour 27 minutes
+                            Size : 1.36gb (Read further on how to split into 2x699mb)
+
+                           Audio : Japanese 5.1 HE-AAC (48khz), English 5.1 HE-AAC (48khz) & Dub crew's commentary, Vorbis quality 3
+                       Subtitles : English (srt), English kanji translations (srt) & German (srt)
+                Video Frame Rate : 23.97 fps
+                Video Resolution : 704x480 Anamorphic, displayed in original 16:9 format
+                     Video Codec : Nero H.264 avc
+                          Source : R2 NTSC DVD (video & Jap audio) R1 NTSC DVD (English audio & subs)
+                          Ripper : Rayek
+
+
+                 Additional info : http://anidb.info/perl-bin/animedb.pl?show=anime&aid=202
+                                   http://www.imdb.com/title/tt0169858/
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+ How to use mkv files:
+
+   If you haven't set up your system for Matroska playback, check the FAQ on this URL:
+
+   http://zhentarim.net/zx/playbackfaq.php
+
+  Note: To playback a Nero avc matroska file you will also need a avc decoder, preferably Nero's own.
+  The other alternative is ffdshow, included in the zx playback pack: http://zhentarim.net/zx-pp.php
+
+
+This encode is to replace the earlier version using 6chan ogg vorbis as Japanese audio, which proved to be a bad choice.
+Since avc/H.264 appeared and 5.1 ogg vorbis have downmix problems plus is inferior to 5.1 he-aac in all other aspects,
+a reencode was pretty obvious. Hybrid encode made from 2 DVD's; the video & 5.1 jap audio sources is from the new R2 renewal DVD,
+English audio & subs was taken from Manga's evil R1 release.
+
+Due to differences between frames in the new renewal and old original release retiming of the English audio was needed in the movies,
+as well as the episodes. Seems like the old evangelion masters basically were missing some frames here and there,
+and had too many at other places compared to the new renewal version.
+
+Editing & retiming the English 5.1 track was first done by making a 5.1 wav,
+then each of the 6 channels was edited & retimed separately. The editing included besides retiming,
+things like importing audio effects from the superior Japanese mix that?s not included in mangas rag-tag audiojob.
+Examples are the sound of Shinji's tears hitting Asukas face at the end of the movie, and the "growling" of unit 01 at 00:56:29,
+when its about to merge with the lance of Longinus. Since besweet pukes when trying to feed it audition made 5.1 wav files, 
+winamps discwriter plugin was used to make a copy that besweet liked.
+
+Irritatingly, all this proved to be for nothing since tinkering with a ac3 source,
+somehow introduce noticeable lower audio quality to the finished he-aac from the edited file.
+Thus having to drop the editing if decent audio quality was to be maintained, only retiming was done.
+This was achieved by subjecting the ac3 file to insane activity with Delaycut and besplit .lst files & joining.
+Using that method the different segments that was having delay added or removed, was joined to form the final track.
+So unless you are a total dub fanatic the Japanese track really is recommended,
+both acting & effects are better there. The commentary track was much less painfully retimed.
+
+The r1 English 5.1 track was also lower bitrate then the Japanese one (384kbps vs. 448kbps, standard Manga quality),
+since Mangle entertainment just upmixed the 2.0 track to 6 channels plus crammed 6 other audio tracks on the butchered r1 DVD.
+Therefore the English audio may appear even lower then the Japanese one, and if you are thinking downmixed 5.1 volume is too low,
+read up on 5.1 movie audio. As a hint the explanation has something to do with that when downmixing from 6 to 2 channels,
+and not make your 2 crappy loudspeakers/headphones puke at the same time, some things must be done with the audio.
+Movies' sound mixes are still made for cinema first and foremost, not for playback on a small stereo home setup.
+
+Fortunately volume can be turned up with obvious methods like turning the big round button on your receiver to the left,
+via audio controls on the control panel, and also further with ac3filter in zoomplayer if you are partially deaf (or want to be).
+Retiming also done with the subs using subtitle workshop and some small manual error fixing and editing to improve the translation.
+
+Very good source, little filtering had to be done to do pre-h264 damage control, so concentration could be put into improving the video.
+This since with h264 avc you can achieve both greater sharpness/details & less noise/blocks simultaneously on clean sources,
+without having the usual crap appear if you know what you're doing. A real win-win situation.
+
+
+In summary, the major differences from the previous encode is:
+
+ - Nero H.264 avc instead of divx5.11.
+
+ - Fixed some chapter errors & subtitle spelling.
+
+ - Fixed the subtitles at 00:09:21, there used to be too many %'s.
+
+ - Improved the subtitles at 00:21:22 --> 00:21:30 in the prime ministers office to appear in more sensible forms.
+   
+ - Also improved the subtitles at 00:22:52 --> 00:24:00, to make the "I don?t want to die" lines actually appear when they're spoken.
+   
+ - Same sort of improving done at 00:39:47 --> 00:40:28 on the "I'll kill you" lines. Mangas sub crew was either underpaid, lazy or both.
+
+ - Much more jumping scene changes/sectioning & frame errors fixed, the avs for this encode was noticeably bigger then the 3 sub tracks combined,
+   which means I used yatta & clicked the mouse a lot.
+
+ - Removed the annoying blue ripple effects in lower right corner at 0:03:51-0:04:01, 0:34:58-0:35:01 and 0:40:36-0:40:37 with Photoshop.
+   Amazing they at the studio didn?t remove this from a otherwise perfect source. Another proof corporate DVD authors are the scum of the earth.
+
+ - Subs (partial) for the halftime credits added to the 2nd sub track and the letters flashing at 01:15:54 have been translated,
+   and added at the end of this file, since there was no space for them in the movie plus only Superman could have read it fast enough anyway.
+   Now there?s also a German subtitle track.
+
+ - Last but not least, the Japanese surround track is now 5.1 he-aac instead of evil 6chan vorbis,
+   and the English track is now upgraded from 2.0 vorbis to 5.1 he-aac surround as well.
+
+
+Thanks to Carrie Asagiri for translating the in-movie letters, and nmap for hiring/threatening her into it.
+Also thanks to Buso-senshi and Tachikoma for the German subs, and Mentar for proofing them. Danke.
+
+
+How to split it into 2x699mb files: Learn to use Mkvtoolnix - http://www.bunkus.org/videotools/mkvtoolnix/
+Set max files to 2, and make the split at 699M, (Not 700M) this will have the file split exactly at a scenechange (00:56:29)
+
+
+ Credits: Come visit our web page at http://zhentarim.net/
+
+ BUY it! If you like this, please support the creators of this anime by purchasing it.
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Here follows a translation of the 24 frames flashing at 01:15:54, containing mails sent to Gainax/Anno in the aftermath of Eva's TV ending.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Note: (?) means that the text is cut in the original pic and I can?t translate those parts.
+
+Letter 01
+---------
+
+After seeing ?Evangelion? I felt very impressed, so I somehow sent this letter. I?m a middle school student like Shinji.
+First of all, I saw Eva and now it seems like I truly recognize myself, and this feeling is because of Eva. I want to say thank you for this.
+Why do I say this? To explain it would take a while, but Shinji and I are alike; depressed and helpless and introverted.
+I remember watching Eva and seeing Shinji being worried and troubled and I felt the same in my heart. In ?EVA?,
+there was an analysis that said how Shinji couldn?t run away from the pain or the unpleasant feelings that were attached,
+and I have felt like this way too. At the beginning, I really like it (?) that?s why this anime gives me that light feeling (?)
+but gradually Ms. Ogata (?)
+In the last scene on TV, Shinji accepts everyone and they all congratulate him; that was a very nice end and I felt very happy.
+Another friend (?) that last scene (?)
+This year I graduate from middle school, and now my focus is on being a high school student, and so that?s why I?ll now make my best effort.
+I?m going to see the EVA movie. I?m worried about what will happen to Shinji in the movie (but I like the last scene on the TV series a lot).
+And thanks to EVA, I?ve started like myself and that has made me very happy. (?) Mr. Anno, please keep working on EVA a lot more.
+(?) ? and thank you so much for everything!!
+
+
+
+Letter 02
+---------
+
+Is the same text as in Letter 1 but with different calligraphy.
+
+
+Letter 03
+---------
+
+Is the same text as in Letter 1 right side but with different calligraphy.
+
+
+Letter 04
+---------
+
+Is the same pic as Letter 3
+
+
+Letter 05
+---------
+
+(?) I also felt inside myself the same excitement that Shinji felt.
+The last scenes made me appreciate my own existence even more.
+The feelings of the very last scene parallel the feelings of the main character, Shinji.
+(?) everybody was finally witnessing (?) EVA?s last moments.
+
+
+Letter 06
+---------
+
+(?) that?s how I feel.
+Thanks to Mr. Anno and all the staff for helping to liberate our hearts and souls, and for all of these feelings. Thank you very much.
+
+
+Letter 07
+---------
+
+(?) Studying the grafitti, how is it possible that it says that? (?) ? it seems that some religious group (?) I?m not aware of my own evil? (?)
+
+Note: Letter 07 and Letter 12 are the same but together are kinda complete, even so there are missing parts.
+Due to this, is very difficult to be translated, because it seems to have no sense.
+But this email is about the graffitis in Gainax?s wall and the guy seems to be laughing about this,
+and about some religious groups and fans that maybe were the ones who made this paintings.
+
+
+Letter 08
+---------
+
+Tenchuu: Heaven?s punishment (well deserved)
+
+
+Letter 09
+---------
+
+Rapeman
+
+Note: I can?t understand the first kanji, is written in a way that is very difficult to be read. 
+
+
+Letter 10
+---------
+
+Die
+
+
+Letter 11
+---------
+
+On the left wall: Sex, bullshit
+On the front wall: rapeman
+Over ?Gainax shop? announce: Die
+
+
+Letter 13
+---------
+
+AT Field  03/23, 7:05
+(Ikid3655@mb.infoterm.ne.jp)
+Gainax made a terrible work!!!
+It?s also pathetic.
+I?ve been waiting since the summer for something like this?!
+Please, make it for the Golden Week.
+
+Note: This email is very difficult to be translated. This guy wrote in the most lower level of Japanese,
+      he has some orthographic errors and sometimes I don?t know if he is congratulating to Gainax or if he is just insulting them.
+      When I put (?) is because I don?t get it what he really wanted to say. And when he mentioned the Golden Week,
+      he is talking about a whole week of holidays in Japan in May. He must be talking about one of the movies,
+      and asking that the premiere could be in the Golden Week.
+
+Rentaruya  03/23, 6:07
+(amada@mxp.meshnet.or.jp)
+
+Amazing!!!
+What a great production of REBIRTH!! Even many days after I saw the movie, I still can?t stop thinking about it, this really astounded me!!!
+This movie really develops a very deep and serious theme.
+Shinji?s falls into despair and Asuka?s arrogance appears to be some sort of escape from the darkness in her heart.
+These people have difficulties in dealing with their feelings; and so in their own ways -- Shinji by totally collapsing and falling apart,
+and Asuka by letting her arrogance cover up her inner weakness -- they each work towards the same goal: to come to terms with themselves. 
+
+Note: the last part, after Asuka?s sentences, is the general idea, is like the guy is seeing in Shinji and Asuka,
+      two examples of escaping from reality with two different ways of do it. One falling apart and the other avoiding her own darkness.
+      But at the end both of them have the same expectations. Just in case it became a little confuse ;D, btw isn`t a literal translation,
+      I?m trying to take the main idea because that last sentence was difficult to explain in English in a literal way.
+
+
+Letter 14
+---------
+
+POW 03/23, 11:47
+(t-adachi@nisouiq.net)
+
+Is Gainax able to maintain their business? 
+REBIRTH ends in the middle, and since the beginning I couldn?t even understand it. Continuing (?) don?t make us have those dark expectations (*).
+That?s what I?d consider being successful in their work. But I think that not creating expectations is like a crime.
+Anyway, since this was released, Gainax has become well-known in the anime world. This time (?.) I?d like it. (*)
+I?m 16 years old, young, and talented, and this movie made me think about life and the meaning of our existence, and when I thought about this (?)
+
+Note: The (?) means that some part of text is missing, due to the fact that in the pic there was a cut part.
+      Due to this I can?t fully translate the last part since I?m missing the whole meaning.
+
+
+Letter 15
+---------
+
+The Tokumei 03/17, 6:54
+
+When I saw this movie, I knew Evangelion for the first time.
+When I looked at the main characters, I could see my high school self in them.
+I think that this anime has a lot of fascinating things, but the one that affects me the most is the main character?s mysterious charm. 
+I feel that the main thing that this movie teaches us is about the importance of being honest with our own lives.
+Today I started to find a lot of meaning inside Evangelion.
+After seeing this, I have a lot of expectations for the other movie.
+
+Haruhito Nomura 03/19, 1:08
+
+It was too long.
+My true mental state has various thoughts all mixed together, and this doesn?t allow me to think properly.
+This movie made me think about myself and really feel the emotions that are deep in my heart.
+I?m waiting for the next movie. Good luck and please make it your best!!!
+
+
+Letter 16-19
+------------
+
+Are the same as 20-23 but some parts are missing. 
+
+
+Letter 20-23
+------------
+
+Since is a whole letter split in 3 parts, I translated like a whole thing which was more easy, since some parts were twice between the parts.
+
+Toshiki Ueyama
+
+I went to see DEATH and REBIRTH Saturday night.
+?Why did I even see this movie?? ? that was the impression I had when I went out of the theater.
+Why, after I saw REBIRTH, were my teeth were chattering, and why was I shivering for nearly an hour?
+I didn?t understand why I was shivering, was it for something scarring or for something painful?
+When I was on the train, returning home, I had that terrible painful feeling, but also at the same time, happiness started to grow inside of me.
+Perhaps the shivering was a way to express all those confusing feelings of fear and euphoria.
+Regarding to Hideaki Anno?s mentality (meaning, Evangelion) I feel terrified, but at the same time I felt like I could identify with it too.
+About the movie?s contents ? it is just amazing.
+The animation?s quality, isn?t it the best animation now?
+However, the way in which is shown in the director?s cut the human?s fragility was very painful.
+I could feel the pain of the TV series again. I could feel inside my heart the feelings inside Hideaki Anno?s heart.
+So in my heart, I sympathized with ?I?m not alone. To feel loneliness is better.?
+I still feel a strange sensation even after watching the movie, because of these two opposite feelings mixing in myself.
+I?m waiting for the summer to see ?End of Evangelion?, and I know that that will be even more painful, but I will feel happy and enjoy it.
+I don?t think that there are many people who feel this way, but in my case, EVA made me think about myself and was like a mirror of myself.
+People of the staff, do your best with the summer movie, and good luck!!
+And until then, show us a ?painful? and ?happy? movie!!!
+
+
+Letter 24 (last)
+---------
+
+Anno, I?ll kill you!!!
+Anno, I?ll kill you!!!
+
+
+------------------------------------
+
+
+I felt exactly the same way as #24 after encoding this eva-madness for over a year now.
+Here ends longest nfo rant in recorded history.

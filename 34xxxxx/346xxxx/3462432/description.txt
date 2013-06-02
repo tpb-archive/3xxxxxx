@@ -1,0 +1,24 @@
+Fungerar Fint med Win xp, har provat själv!!!
+
+
+==============================
+==Red Alert 1 Windows XP Fix==
+==============================
+
+1. Uninstall Red Alert 1 if previously installed.
+
+2. Insert a Red Alert CD into your CD-ROM drive. When the autoplay menu appears, choose "Explore CD." 
+
+3. Find "Setup.exe," right-click, and choose "Properties." Click on the Compatibility mode tab and set the compatibility to Windows 95.
+
+4. Install Red Alert as you would normally, but do not reboot when it prompts you to.
+
+5. Open up My Computer and navigate to your Red Alert directory (usually C:WestwoodREDALERT).
+
+6. Right-click on a blank area in the folder, and "Sort by file type."
+
+7. Change the compatibility mode on all of the executable files (about 7-8) to Windows 95.
+
+8. Extract "Thipx32.dll" contained in this zip file to your Red Alert Directory, overwriting the existing Thipx32.dll.
+
+9. Boot up Red Alert and have fun!
