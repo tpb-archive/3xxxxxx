@@ -1,0 +1,12 @@
+100.0% complete
+Name        : Bobbi_Anal_Swallow_xxx_porn_sex.rlp.4_mobile_phones.mp4
+Resolution  : qvga
+Audio       : 32000
+Channel     : 1
+Video Codec : mpeg4 simple profile
+Audio Codec : lc aac
+BPS         : 464k
+Command     : ffmpeg -i in_file -ar 32000 -ac 1 -acodec aac -s 320x240 -vcodec mpeg4 -b 400 -bt 50 -ab 64 -pass 1 ../h263/tmp.mp4
+            : ffmpeg -i in_file -ar 32000 -ac 1 -acodec aac -s 320x240 -vcodec mpeg4 -b 400 -bt 50 -ab 64 -pass 2 out_file.mp4
+
+        http://piger.free.fr/

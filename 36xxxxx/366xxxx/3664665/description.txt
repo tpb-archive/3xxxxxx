@@ -1,0 +1,26 @@
+he CCCP (Combined Community Codec Pack) is a filter pack specifically built for playing anime. It has been assembled by some of the most knowledgeable people in the anime world, and one of the primary design goals is to play as much as possible with as little as possible. The CCCP attempts to be as unintrusive on your system as possible. The pack is also now officially endorsed by the Matroska Project, the developers who designed the MKV format. Supported OS: Windows Vista/XP/2K/9x/ME. 
+
+Combined Community Codec Pack ( CCCP ) includes :
+- FFDShow 2007-02-14 CCCP
+- Haali Media Splitter 2007-02-15
+- MPV (Mpeg2) Decoder 1.0.0.3
+- VSFilter 2007.01.09
+- CoreWavPack 1.0.3
+- Gabest's RealMedia Splitter 1.0.1.1
+- Windows Media 9 VCM
+- Media Player Classic 6.4.9.0
+- ZoomPlayer 5.00 Standard
+
+Supported media formats :
+* Container formats: AVI, OGM, MKV, MP4, FLV and TS
+* Video codecs: MPEG-2, DivX, XviD, H.264/MPEG-4 AVC, WMV9, FLV1, Theora, and Generic MPEG-4 ASP (3ivx, lavc, etc.)
+* Audio codecs: MP1, MP2, MP3, AC3, DTS, AAC, Vorbis, LPCM, FLAC, TTA and WavPack
+
+Changes in Combined Community Codec Pack ( CCCP ) 2007.02.22 :
+- Haali splitter shell extension can now easily be enabled when installing 
+- Switched to inno setup for the installer 
+- Haali splitter now takes precedence over nero ogg/ogm filters when enabled 
+- Possible (but not recommended) to avoid rebooting when upgrading and there are files remaining 
+- Moved filters to separate dirs 
+- Updated haali splitter 
+- Updated ffdshow, no multithreading since it isn't currently stable enough

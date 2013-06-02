@@ -1,0 +1,19 @@
+The following instructions are also in Instructiont.txt contained in this archive
+
+---------------------------------------------------------------------------------
+Copy the Catalog.Live Subscribe file into the Symantec LiveSubscribe Directory..... 
+
+Win 9X/Me : 
+C:\WINDOWS\All Users\Application Data\Symantec\LiveSubscribe 
+
+Win 2K/XP : 
+C:\Documents and Settings\All Users\Application Data\Symantec\LiveSubscribe 
+
+Change the attribute file to Read Only (Actually the file is Read-Only, but make sure to double check it). Apply Live Update from Norton, and voila, you have the update free till 2041.
+
+The file is made with Read Only attributes because LiveUpdate will change the expiration to the deafult value you had before.
+
+---------------------------------------------------------------------------------
+
+This thing will not let your norton live update expire before 2041
+enjoy!

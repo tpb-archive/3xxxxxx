@@ -1,0 +1,28 @@
+WinPE Ramdisk edition
+
+Based on Bart`s WinPE, this WinPE build loads directly into ramdik to run directly from your computers RAM memory. 
+This has sevreal advantages:
+- boots in just a few seconds
+- it is very fast, since in dosent have to load programs from the CD
+- you can remove the winpe CD after bootup and use the optical drive for something else eg. burn backup DVD`s with your files
+
+Programs included:
+- nu2 menu (start menu user interface)
+- nero burning rom
+- Image for windows (partition imaging software)
+- winrar
+- superpi
+- prime95
+- hddtach
+- Drive rescue (undelete deleted files)
+- partition magic
+- mbr fix utility (allows you to repare the master boot record, save/restore partition table from file and more
+- Power defragmenter
+- chkdsk utility (scan partitions for errors)
+- cd force copy (recover files from a damaged CD/DVD)
+- 2xExplorer (windows explorer like file manager)
+
+System requirements:
+- 512MB RAM
+- CD-Rom drive
+- .. a computer

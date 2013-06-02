@@ -1,0 +1,36 @@
+Key Features
+
+Supported video formats: Convert AVI, Mpeg, Mpeg4, DivX, Xvid, MOV, WMV, WMV HD, DV, MKV, DVD to DVD and more... 
+Supported sources: existing files from digital camcorders, TV/Sat, capture cards
+Can merge up to 4 hours of material from several movies or episodes
+Supported audio formats: AC3, DTS, PCM, OGG, MP3, and more...
+Handles subtitles files (.SRT .SUB/IDX) with color and font selection, and supports tags (italic, bold)
+Video format choice: NTSC, PAL, or automatic and PULL-DOWN
+Picture output: Widescreen, Fullscreen, or automatic
+Create Automatic chapters or edit your own
+Fast preview mode to check if the source is loaded correctly
+Save the DVD structure on hard drive or burn it to a blank DVD
+Reliable burn engine integrated (supports all DVD formats)
+Fast and quality encoder (typically less than 1 hour for converting 1 movie)
+Variable options and settings for advanced users
+Control of the conversion speed vs quality
+DVD Menu control (auto-start, loop etc)
+DVD Menu edition (background, font, color)
+Customizable interface (themes, dockable windows)
+Multilingual support (available languages...)
+Optimized for Windows 2000 / XP / Vista
+
+
+
+ConvertXtoDVD - 2.1.14.223 ( 13 Feb 2007 ) 
+==========================
+
+Target size accuracy
+
+- 0000626: [Bug] Significant overflow of target size when source contains AC-3 stream(s) 
+- 0000664: [Bug] Sound is too loud, with files with audio format mp3 128 44000Hz
+
+
+Close ConvertXtodvd before applying the patch!!! Patch Use: Open ConvertxToDvd_patch.exe > Patch > Yes > go to the directory where you installed the program and choose the exe > Open and you done. Also disable automatic updates in the settings. Enjoy
+
+More info: http://www.vso-software.fr/products/convert_x_to_dvd/

@@ -1,0 +1,130 @@
+﻿User Type,Username,Date,Text
+,muji786,2007-03-08T11:51Z,serial ????
+,muji786,2007-03-08T11:52Z,what's the serial ????
+,applelover,2007-03-09T20:58Z,serial!!!
+,docjynx,2007-03-10T03:54Z,It seams that by simply locking the qb 2007 pref file in ~/Library/Prefences the countdown halts. 
+,hughes40,2007-03-12T06:20Z,"W T F ? ! ? this release would be perfect if
+we could just get a serial and crack ! why
+even bother uploading, if we cant defeat timer ? ? ?"
+,herzan,2007-03-13T23:14Z,Download the program serialbox:-)
+,hughes40,2007-03-15T11:16Z,Its not in the latest serialbox :-(
+,whoohoo,2007-03-21T08:31Z,"mar 2007 serial box does not have a crack for this app. sorry guys. as of this posting, there is not crack i know of. this torrent is good though, but not cracked."
+,abjater,2007-04-21T18:22Z,"This might help someone: 
+License: 9636-9458-4939-500
+Product: 809-384
+
+Although I am still stuck without a work around for the 30-day activation period! 
+
+H.E.L.P. ! ! "
+,abjater,2007-04-21T18:23Z,"^^^^^ Sorry, the above serial if for Win ^^^^^^"
+,osiris24x,2007-05-22T19:31Z,"No, locking the preference file doesn't halt the timer. The timer simply doesn't appear on *every* launch of the program. Keep launching it and you'll see that the timer is still going.
+
+We really need a crack for this.   :("
+,goldseries,2007-05-28T10:42Z,anyone found a serial yet there is still nothing in the may version of serial box and I can't seem to find a crack.  
+,lalarr,2007-06-18T00:32Z,"Not exactly a full crack but it works...
+
+Find C:\Documents and Settings\All Users\Application Data\Intuit\Entitlement Client\v3\EntitlementDataStore.ecml and rename or delete the file. It will reset the expiration date back to 30 days."
+,xenodata,2007-06-19T15:47Z,The serial on this page works for windows version.
+,hughes40,2007-06-21T10:23Z,wow . . no solutions yet ? why even bother uploading torrent ?
+,hughes40,2007-06-22T16:44Z,this comment reflecting lelar's answer: dude its for mac not windows.
+,susanq,2007-06-26T16:29Z,NO Serial yet??? Anyone w/ it for MAC?????
+,El_Oso123,2007-06-29T01:00Z,"Any one seen this for Windows?
+Pro 2007? 
+Thanks"
+,leebrent,2007-06-30T18:25Z,"/Library/Application Support/Intuit/Entitlement Client/v1/Logs/username 
+
+Mac Instructions: 
+
+- Navigate to the directory above
+- Create a directory called test
+- Move the two files in the directory into test
+- Start Quickbooks,  you will no longer bel prompted for registration or expiry. 
+
+Note: Do not visit Register Quickbooks menu link after completing, and you will not have any problems. If you magically mess it up, just do the steps again. "
+,harryhermit,2007-07-01T19:03Z,"I can only find this directory: 
+/Library/Application Support/Intuit/Entitlement Client/v1
+
+When are these two directories made? 
+/Logs/username "
+,susanq,2007-07-03T23:32Z,"leebrent, 
+
+thanks for the info but I tried it, went through those steps & put the directories in the Test folder, but it still doesnt work. It is telling me I have 5 more openings then I have to register. Is there any other way?? ANYBODY!!?"
+,mistertest,2007-07-04T07:28Z,"To all who can't find the username directory...
+
+After you install quickbooks, go to the register page, enter the product number and reg code that were listed on this page.
+
+The program will say invalid code.
+
+Quit the program and voila, the directories will have been created.
+
+Then follow the instructions posted by leebrent.
+
+When you open quickbooks next, if it still promts you for registration and a countdown, just quit, shutdown your mac and restart.
+
+It should then work fine.
+
+Just don't register thing again or you'll have to repeat the steps before.
+
+Good luck!"
+,harryhermit,2007-07-04T08:13Z,"Thanks mistertest, worked like a charm"
+,gigagekkie,2007-07-22T19:08Z,"I confirm what hughes40 sais. The hint of mistertest doesn't work. After 4 or 5 times opening the application the countdown screen reapears.
+
+The july version of Serial Box still doesnt have the serial either :(( "
+,gigagekkie,2007-07-22T23:33Z,"OK I found it!!!
+
+The file you have to delete is 
+
+/users/home/library/preferences/com.intuit.QuickBooks2007.plist 
+
+What happens is that after you deleted, the counter jumps back to 15. So you have to delete that single file each 15 times you used it.
+
+It's no use trying to block the file  by changing the permissions, as someone above suggested.
+
+What you can do is making a very simple little app with Automater which deletes the file on a regular basis. For example you can can add the app to the startup items. Everytime you start up the computer the app will run and delete the file.
+
+good luck!
+How I did it: I"
+,hughes40,2007-07-29T17:41Z,"ok. awesome. buy, i think this uploader should have  uploaded the crack/fix n e way. why bother uploading a dmg witch can be downloaded on intuits website."
+,skyybear,2007-07-31T18:19Z,gigagekkie's method didnt work for me.  Anyone have a fix yet?
+,dustonio,2007-08-11T21:11Z,I can confirm the success of gigagekkie's suggestion.  I took the advice and created an App in Automator to delete the file every once in a while.  Now QB gets resets to 15 uses! :)
+,iamjoshbrown,2007-10-04T20:12Z,i did this. deleted the file in the preferences. and it reset to 15. but now i can't access any of my old accounts. any ideas? 
+,smokingmamba,2007-11-08T03:47Z,"This is what worked for me:
+
+This is just a launcher it does not alter the Quickbooks 2007 application bundle in anyway. It merely resets the trial period when used to launch Quickbooks. Install it anywhere but /Applications, it will NOT work if installed in /Applications ! It has been tested on an Intel. 
+
+here is the script (you can open it in script Editor): 
+
+do shell script ""defaults write com.intuit.QuickBooks2007 \""REGISTRATION:WindowIndex\"" \""\"""" 
+
+if (exists application ""QuickBooks Pro 2007"") is true then 
+try 
+activate application ""QuickBooks Pro 2007"" 
+on error 
+display dialog {""QuickBooks Pro 2007 couldn't launch. You screwed something up, or need to reinstall it.""} with icon stop buttons {""Darn""} default button 1 
+end try 
+else 
+display dialog {""QuickBooks Pro 2007 wasn't found! How can you [k] something that's not there in the first place?""} with icon stop buttons {""Moran""} default button 1 
+end if "
+,powerbookgal,2008-01-08T22:25Z,So does this really work or not?  What is the final answer?  I love you guys!!  Thanks for the great ups!!
+,smokingmamba,2008-01-11T18:21Z,"I've been using this for almost a year, using the script I've posted to reset the counter. It works flawlessly .
+
+Just copy the script, paste on script editor, save and run everytime the demo counter reaches zero."
+,scrapetorrent,2008-01-11T19:42Z,"just tried it for my limited company and guess what, you can't attach anything to payments - so you couldn't attach the original invoice to your purchases :( -- Anyone can recommend a good finance software for a small Ltd?"
+,steinpiaz,2008-01-17T20:57Z,"I followed the instructions by leebrent and mistertest, plus deleted the preference file (library/preferences/com.intuit.quickbooks2007.plist).  On a restart the preference file was not recreated and QB Pro 2007 works fine.  No prompt at all for registration and apparently an unlimited number of uses available.  Thanks all!"
+,steinpiaz,2008-01-17T23:13Z,"Sorry, I was so wrong.  I thought I had it fixed, but no go.  We really need a serial number."
+,steinpiaz,2008-01-18T01:26Z,"I think I've got it.  Got to user/library/preferences/com.intuit.QuickBooks2007.plist.   
+
+Click on this and get info for this file.  In the get info window, click on ""lock.""  QB 2007 apparently sees this as a valid preference file, but can no longer write to it.  The only real problem with this is that you can't adjust your preferences at all (like how often to backup) and you are stuck with the default preferences). 
+
+ One other thing is that you should open and reclose QB several times until it opens at a time when you no longer get the prompts to update or register.  Otherwise you will have those annoying prompts each time it opens.  If you open and close it 3 times before you lock the preferences, it always thinks it's the third time and opens without any prompts.  So far, it seems to work well.
+"
+,ubermick,2008-02-22T02:59Z,For the love of... would someone PLEASE score a password for this? It's FEBRUARY 08 and this STILL isn't even on Serial Box?!!?
+,FlightSimerr,2008-03-13T17:22Z,"The script obove works. Just drag your quickbooks app from your applications folder to your music folder or something. The open script editor and copy and paste the above script. Then save it as an application in your music folder beside quickbooks. Last but not least... drag the script app to your dock for an alias and just click on the alias everytime you want to open quickbooks and you'll have a fresh 15 uses everytime. 
+Thanks for the Awesome script dude! "
+,chaosmx,2008-05-15T23:03Z,To me the scrip works very well... until now!
+,Giggsy55,2008-05-15T23:40Z,"What is the point of UL a prog with no serial, every comment on his site wants to know - apart from the tech guys, who know what they are doing, ok, ok I will try to do the workarounds that you guys have posted - but it's so much easier with a SERIAL cause I'm a thick .......... whatever!!
+
+Try Turbotax. maybe?"
+,mrcubes2u,2008-05-20T08:08Z,Here is the fix. http://thepiratebay.org/tor/4196792
+,skankin1,2008-08-20T23:40Z,try this SN: 1000 816 361  its from serial seeker
+,saltamontes20,2009-01-05T04:39Z,"i got a license number but i still need the product number, the one listed on the comments didnt work can anyone help me?"

@@ -1,0 +1,145 @@
+
+
+
+
+                              ------------------------------------------------------------------------------
+                              <GMSi><GMSi><GMSi><GMSi><GMSi><GMSi><GMSi><GMSi><GMSi><GMSi><GMSi><GMSi><GMSi>
+                              ------------------------------------------------------------------------------                                       
+
+                               
+                             
+                                                                                     
+
+
+                                                                                                                                                   
+                                                                                   
+                                                                                                                 PRODUCT:  IsoBuster Pro v1.9.1.1
+
+                                   
+                                                                                            
+                                                                                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                                                                        xxx Brought to you by #GMSi xxx                                                               
+                                                                                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+
+
+
+  IsoBuster full feature list:
+
+
+
+    * Data recovery from all possible CD, DVD and Blu Ray (BD & HD DVD) formats :
+      CD-i, VCD, SVCD, SACD, CD-ROM, CD-ROM XA, CD-R, CD-RW, CD-MRW, ... DVD-ROM, DVCD, DVD-RAM, DVD-R, DVD-RW, DVD+R, 
+
+DVD+RW, DVD+MRW, DVD+R Dual Layer, DVD-R Dual Layer, DVD+RW Dual Layer, DVD+VR, DVD+VRW, DVD-VR, DVD-VM, BD-ROM, BD-R, 
+
+BD-R DL, BD-RE, BD-RE DL, BD-R SRM, BD-R RRM, BD-R SRM+POW, BD-R SRM-POW, BDAV, BDMV HD DVD-ROM, HD DVD-R, HD DVD-R 
+
+DL, HD DVD-RW, HD DVD-RW DL, HD DVD-RAM, HD DVD-Video, ... And the list continues ...
+    * All device access, media access, data gathering and interpretation is done exclusively by the software. It does not rely on Windows to 
+
+provide or interpret the data and so can work completely independent from Windows' limitations.
+    * Better Error handling and several retry-mechanisms to aid you in getting the data anyway.
+    * The use of both generic and alternative ways to get to the data, get the best out of your CD/DVD-ROM drive.
+    * The use of primary and secondary file-systems to get to the data and/or make use of file system data that might be ignored or ?forgotten? 
+
+by popular OS. Explore the alternatives.
+    * CDs stay 'readable' after problems (such as Buffer Under-run, ...)
+    * Read / Extraction from open sessions.
+    * All sessions, including older ones, are accessible and can be recovered.
+    * Supports mounting several virtual sessions inside a single DVD+RW or DVD-RW track
+    * Read and Extraction of files, CD/DVD images, tracks and sessions from all optical media.
+    * Scanning for lost UDF files and folders. Click here to read more about it.
+    * Scanning for lost ISO9660 / Joliet sessions.
+    * Scanning for files based on their file-signature
+    * Scanning for IFO / BUP / VOB file-systems on VIDEO and AUDIO DVDs
+    * Find lost data on CDs, DVDs, BDs or HD DVDs, created with integrated drag and drop applications, otherwise also known as packet writing 
+
+software. Optimized, but not exclusive, for :
+      Roxio Direct CD, Roxio Drag-to-Disc,
+      Ahead / Nero InCD,
+      Prassi / Veritas / Sonic DLA,
+      VOB / Pinnacle Instant-Write,
+      CeQuadrat Packet CD,
+      NTI FileCD,
+      BHA B's CLiP,
+      Mircrosoft Windows XP and VISTA,
+      Sony abCD, ...
+    * Support for Direct CD compressed files. Decompression on the fly.
+    * Built in UDF Reader, UDF 1.02 (e.g DVDs), UDF 1.5 (e.g. Packet writing on CD-R, DVDR, CD-RW and DVDRW), UDF 2.01, 2.50, 2.60 (e.g. 
+
+BD-R SRM+POW), ...
+    * Find lost pictures created and saved to CD or DVD with Sony Mavica, other digital cameras or other devices with embedded UDF write 
+
+functionality.
+    * Find lost movies created and saved to CD or DVD with Hitachi, other digital cameras or other devices with embedded UDF write 
+
+functionality.
+    * Auto find extensions based on file content to try and give an appropriate name to an orphaned file. This built in file identifier assigns the 
+
+proper extension to the file so that Windows applications can open the file. Only needed for orphaned files without a name.
+    * Support for Mount Rainier CD-RW and DVD+RW discs in MRW compatible and non-MRW compatible drives.
+      Auto detection and automatic remapping which can be switched of or forced at all times.Built in MRW remapper / reader. (Built in Method 3 
+
+remapper)
+    * Support for formatted CD-RW discs mounted in very old drives that do not know the CD-RW fixed packet format yet.
+      Auto detection and automatic remapping which can be switched of or forced at all times Built in Method 2 remapper.
+    * Built in HFS Reader, supporting HFS and HFS+, the Apple Mac file systems.
+    * Transparent built in support for Mac Resource Fork extensions in the ISO9660 File-System
+    * Transparent built in support for Mac Resource Fork extensions in the UDF File-System
+    * Supports multiple Mac Partitions on one medium (e.g. multiple partitions on a CD or in a dmg file)
+    * Includes a vast range of features for Mac files support on PC (HFS, ISO9660, UDF), including Mac Binary extraction of files.
+    * Recover data from blanked or quick formatted DVD+RW media.
+    * Mpg (*.dat) Extraction and dat2mpg 'in one' from SVCD and VCD
+    * Ability to create managed image files (*.IBP / *.IBQ).
+      Read more on this powerful feature in the help file.
+    * Enormous file system coverage and different ways to use them all (find the one suited best for your needs). CDs and DVDs often have 
+
+different file-systems pointing to the same files. This offers possibilities.
+    * Rock Ridge (e.g. for Commodore users, Server use, etc.)
+    * Finds VIDEO and AUDIO IFO / BUP / VOB file-systems independently from other file-systems
+    * Transparent support for (open) DVD+VR(W) discs, remapping of the content etc. Open +VR discs' files can be seen and extracted right away.
+    * Show (and allow to extract) the Nero project file if available on the optical disc
+    * Support for the CD-i file-system and the different behavior from drives trying to mount a CD-i disc.
+    * Information and file system properties (a must for FS developers)
+    * CD/DVD/HD DVD/BD Surface scan to see if there are physical read errors.
+    * Opens checksum files (*.md5) and automatically verifies the image with the checksum file.
+    * Check if all files and folders are readable without having to extract all data to HD.
+    * Single sector extraction. Extraction of CD/DVD/BD/HD DVD blocks (e.g. for engineering purposes)
+    * Sector Viewer. Check a sector's content in IsoBuster's editor and print or save to HD.
+    * Compile (and edit, save, print) lists of all files that contain physical read errors.
+    * Compile lists of all files, including their Logical block address (ideal to find the logical play order for mp3 CDs)
+    * CD-Text support from CD and various image files ( *.PXI, *.CCD, *.B5T and *.CUE image files).
+    * Creation of image files (*.ibp and *.ibq,*.iso, *.bin, *.tao)
+    * Creation of checksum files (*.md5)
+    * Creation of cue sheet files (*.cue)
+    * Conversion of all supported image files to bin/cue files.
+    * Handles opening of multi-file image files.
+    * Extraction of Audio tracks to wave files.
+    * Play audio analogue. Instruct the drive to play the audio through the analogue output.
+    * Ability to pause a number of seconds between retries to allow the drive to "recover" (useful for older drives in combination with 
+
+marginally readable media)
+    * Creation of multi-file image files or disc spanning to specified size
+    * Support for bootable CDs and DVDs. Support for the El Torito standard.
+      Perfect aid to slipstream Windows installation CDs
+    * Comprehensive help file (also available online)
+
+On top of this, IsoBuster interprets CD image files, such as:
+
+      *.DAO (Duplicator), *.TAO (Duplicator), *.ISO (Nero, BlindRead, Creator), *.BIN (CDRWin), *.IMG (CloneCD), *.CCD (CloneCD) , *.CIF 
+
+(Creator), *.FCD (Uncompressed), *.NRG (Nero), *.GCD (Prassi), *.P01 (Toast), *.C2D (WinOnCD), *.CUE (CDRWin), *.CDI (DiscJuggler), *.CD 
+
+(CD-i OptImage), *.GI (Prassi PrimoDVD), *.PXI (PlexTools), *.MDS (Alcohol), *.MDF (Alcohol), *.VC4 (Virtual CD), *.000 (Virtual CD), *.B5T 
+
+(BlindWrite), *.B5I (BlindWrite), *.DMG (Apple Macintosh), *.IBP (IsoBuster), *.IBQ (IsoBuster), *.NCD (NTI). 
+
+
+
+
+Enjoy!             
+
+/GMSi

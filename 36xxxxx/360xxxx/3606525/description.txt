@@ -1,0 +1,47 @@
+-----------------------------------------------------------------------------------------
+Office 2003 Genuine Advantage Patcher - Gennaio 2007 - by CLoNY
+-----------------------------------------------------------------------------------------
+
+Ulizzando questa procedura è possibile validare la proprio copia
+e scaricare gli aggiornamenti da Office Update.
+
+-----------------------------------------------------------------------------------------
+Procedura
+-----------------------------------------------------------------------------------------
+
+
+1.  Estrarre i file.
+
+2.  Avviare il generatore di seriale (Keygen.exe).
+
+3.  Cliccare su "Generate" e lasciare il programma aperto.
+
+4.  Start -> Esegui -> REGEDIT.
+
+5.  Posizionarsi su:
+
+      HKEY_LOCAL_MACHINE/Software/Microsoft/Office/11.0/Registration/<un-ID-di-32-cifre>.
+
+
+6.  Esportate un backup della chiave originale per sicurezza:
+    Menu? File -> Esporta.
+      
+
+7.  Rinominare la voce ?ProductID? in ?OldProductID?.
+
+8.  Eliminare la voce ?DigitalProductID?.
+
+9.  Avviare una qualsiasi delle applicazioni del pacchetto Office 2003 e inserire
+    il nuovo seriale.
+
+10. Visitare la seguente pagina:
+
+    http://www.microsoft.com/genuine/default.mspx?displaylang=it
+
+11. Dopo aver cliccato su "Convalida Office" installare l'applicazione
+    Office Validation Tool ActiveX quando richiesto.
+
+
+-----------------------------------------------------------------------------------------
+R I G H T  TO  C O P Y  2007  -  ClonySoft
+-----------------------------------------------------------------------------------------

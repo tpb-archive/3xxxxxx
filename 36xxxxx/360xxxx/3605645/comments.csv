@@ -1,0 +1,104 @@
+﻿User Type,Username,Date,Text
+,la ruine987,2007-02-07T08:09Z,"Un grand merci, FORMIDABLE fonctionne au premier coup. Bravo."
+,Delta009,2007-02-21T23:12Z,"salut jigsawdl
+j'arrive pas à changer ma clef de windows xp sp1 (qui commence par FCKGW-RHQQ2-...)
+j'ai pourtant suivi toutes les instructions a la lettre, et j'ai même essaye d'autres programmes que keyfinder, mais j'y arrive pas
+
+quelqu'un a la solution ???
+
+entk, merci quand meme"
+,Delta009,2007-03-04T00:15Z,"MERCI BEAUCOUP!!!
+;-)
+
+formidable!!!
+ca fonctionne!!!
+
+pour ceux qui n'arrivent pas à changer la clé de XP, utilisez l'outil d'activation officiel de Microsoft (google.ca --> ""change xp key"") en remmettant  le timer de windows a 0
+
+bravo
+
+aucun virus ni malware
+
+(in english : no viruses, no spywares, no trojan, 100% clean !!!)"
+,lubru91,2007-03-06T08:37Z,"Comment ouvrir ce pack, il fait 1ko. merci"
+,Delta009,2007-03-12T16:47Z,"lubru91, t'es nouveau avec les torrents? ;-)
+je vais t'expliquer
+premierement, il te faut un ""bittorrent client""
+je te conseille utorrent ( http://www.utorrent.com/ )
+le fichier que tu telecharge sur ce site n'est qu'un fichier .torrent : il faut les ouvrir avec utorrent.
+ce fichier contient un ""hash"" qui connecte le logiciel aux serveurs de The Pirate Bay qui lui te connecte aux ordinateurs des internautes qui ont le fichier que tu recherches. utorrent telecharge alors le fichier a partir de tous ces ordis qui ont le fichier que tu recherche, afin d'accelerer le telechargement.
+
+lorsque utorrent a fini le telechargement, il te le signale. seulement a partir de ce moment, tu disposeras du fichier que tu recherchais.
+
+voila!!!"
+,Delta009,2007-03-12T16:50Z,"ah, et lubru91, personnellement, je te deconseille les nicks comme ""lubru91"" qui se terminent par des chiffres comme 90, 91, 92, 93 ,94 ,95 ...
+ca laisse supposer aux gens que tu n'as que 15 ans et que tu es assez stupide pour donner ta date de naissance sur le web...
+
+sans rancune ;-)"
+,deamon_69,2008-01-06T01:35Z,"je m'excuse mais peut on me dire pourquoi personnes n'a trouvé de virus ou trojan dans ce petit programme voila ce que j'ai trouvé:
+Win32:TestAgent-C [Trj]"
+,Delta009,2008-02-01T20:34Z,"J'ai fait un scan avec VirusTotal (i.e. une bonne trentaine d'antivirus), et tout est clean...
+
+Toutefois, d'autres packs avec le même nom circulent sur Internet, et ils sont des ""fake"" et contiennent des virus (toujours selon mes analyses avec VirusTotal)
+
+Pas celui-ci.
+
+De plus, comme ces logiciels sont des ""hacktools"", ils peuvent être détecté comme ""Suspicious"" ou ""Hack"" ou ""Bloodhound"" ou ""Genric Trojan"", etc. par certains antivirus qui ont leurs réglages heuristiques au maximum et qui sont paranoïaques... Ça veut pas dire qu'ils sont réellement infectés...
+
+De toute façon, ça a marché pour moi. Si vous n'y croyez pas, eh bien laissez tomber... et changez pour Linux ou un autre OS gratuit..."
+,therealJL,2008-03-12T19:31Z,"Comment on remet le timer de windows a 0 ????
+(tu parle de l'horloge de windows ou bien ?)"
+,lolo62000,2008-03-20T21:17Z,"salut,sa marche pas pour moi,quand je fait MGADIAG ,sa marque a validation status :en rouge cryptographic errors detected.
+que faire?
+j'ai supprimé le fichier LegitControlCheck.dll  mais apréS je sais pas ou retélécharger wga ,je vais sur microsoft .com mais je voit pas ou c'est!
+merci de m'aidé."
+,thibo62,2008-06-12T09:45Z,"Merci, tout marche impeccablement
+
+:)"
+,Delta009,2008-07-01T22:34Z,"@ therealJL
+
+Il ne s'agit pas de remettre l'horloge de Windows à zéro, mais plutôt de faire un reset du compteur depuis l'activation de Windows : c'est donc comme si Windows n'avait jamais été activé, et il te demandera alors d'entrer une license, comme lors de l'installation.
+
+Un tuto ici : http://www.teknophobe.com/aide/09_activation/09_120_fr.html"
+,Delta009,2008-07-01T23:14Z,"Et, pour les sceptiques, voici les rapports de VirusTotal sur ces fichiers.
+
+À première vue, ils continnent des Trojan, mais, si vous observez bien, leurs noms sont ""Hacktool"", ""WinKeygen"" et ""FindKeyXP"", ce qui nous indique bien que les antivirus détectent ces fichiers seulement parce qu'ils sont illégaux, et non parce qu'ils sont dangereux.
+
+De plus, la plupart des antivirus n'y trouvent rien à leur reprocher.
+
+http://www.virustotal.com/fr/analisis/6feb0deeda2ebdf83f5c855ed2c7720f
+http://www.virustotal.com/fr/analisis/a04bef5e984b765b0bc4f6ca64f31461
+http://www.virustotal.com/fr/analisis/eb34513efbb8c7224cc441198ac0c6f0
+http://www.virustotal.com/fr/analisis/b326ca4f32f47ed30249af1a7e4619c1"
+,Delta009,2008-10-11T02:59Z,"If you are receiving the following information when running the WGA diagnostic tool, the problem is generally with corruption in the digital signatures of some files and they will have to be reregistered. 
+
+Diagnostic Report (1.5.0545.0):
+-----------------------------------------
+WGA Data-->
+Validation Status: Cryptographic Errors Detected
+
+Follow the steps below to resolve these cryptographic errors.
+
+1) Click on Start, click on Run
+2) In the Open box, type CMD and then click OK.
+3) At the command prompt type the following command and Press Enter
+
+regsvr32 softpub.dll
+
+4) You should receive a message that DllRegisterServer in Softpub.dll succeeded, click OK
+5) Repeat Steps 3 and 4 to re-register the following files
+
+    * wintrust.dll
+    * initpki.dll
+    * dssenh.dll
+    * rsaenh.dll
+    * gpkcsp.dll
+    * sccbase.dll
+    * slbcsp.dll
+    * mssip32.dll
+    * cryptdlg.dll
+
+6) After all the above files have been re-registered, type Exit at the command prompt to close it and return to Windows.
+7) Restart Windows and try to authenticate Windows again.
+
+Source : http://www.pchell.com/support/windowsgenuineadvantage.shtml"

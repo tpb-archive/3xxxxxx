@@ -1,0 +1,94 @@
+MuServer97d+99(items) + ReadMe !!!   by......    Mr.Kill3r
+
+Mr.Kill3r Sever :  http://weekendmu.no-ip.org
+
+
+
+
+ReadMe !!! 
+ 
+..::Setup SQL & MuServer::..
+
+..::SQL Server::..
+
+First of all download Microsoft SQL Server 2000 here!
+
+After u will download it open SQLEVAL.exe and extract it to C:SQLEVAL , after finishing extracting
+go to C:SQLEVAL and open autorun.exe
+After open it select this shits!
+
+Open SQL Server 2000 Components or Alt+C
+After open Install Database Server or Alt+S
+
+Press next 8 times and select Mixed Mode there put your password for "sa" user
+And next till finish!
+
+Go to Start>Programs>Microsoft SQL Server>Service Manager And start SQL it should appear a computer with a red ">"
+
+When u do this go to Start>Programs>Microsoft SQL Server>Enterprise Manager
+
+Open that 3 shits by using click to "+" and go to database , use the right click and create new database , name it MuOnline and press on it right click All Tasks > Restore Database select "From device" and type the button Add
+there will appear File name and a free space :D There select "...."
+And go to D:MuServer (Guide how to set MuServer) > db baks > MuOnline , press ok and go to Options there select "Force restore over existing database" and OK
+
+Same shit u do with Ranking database ( Create new one and restore it who's at MuOnline , there at D:MuServerdb baks select Ranking not MuOnline )
+
+::..MuServer..::
+
+Download MuServer 97d+99 MuServer 97d+99 by Darkav
+Password is riflemorre ( u will understand when u will try to extract the MuServer )
+
+Extract the MuServer in D:
+
+And it need to be named MuServer (D:MuServer)
+
+U will need to change the the ip from :
+D:MuServerCSConnectserverlist.dat
+D:MuServerCSdataConnectserverlist.dat
+D:MuServerCSdataServerInfo.dat
+D:MuServerCSdataServerList.dat
+D:MuServerdatacommonserver.cfg
+D:MuServerdataIpList.dat
+D:MuServerLinks4 & 8 (Edit the IP's)
+
+-----
+
+Edit in D:MuServerMU2003_EVENT_SERVERDATAsvconfig.ini
+
+Modify in mu2003_pass = to mu2003_pass = ur sa password (Example : mu2003_pass = kakas )
+
+same as in D:MuServerRankingServersvconfig.ini
+
+After u finish this shits u need ODBC.reg here!
+
+Set this in D:MuServerODBC.reg
+
+And open it
+
+After go to Start>Settings>Control Panel>Administrative Tools>Data Sources (ODBC)
+
+Open it and go to System DNS press "Add" and Select "SQL Server" and press "Finish"
+
+Name : MuOnline
+
+Description : 
+
+Server (What user u set in SQL to login) and "next"
+
+Select With SQL Server authentification using a login ID and password entered by user.
+
+Set there login "sa" and password for user "sa"
+
+Then "Next" and set Database MuOnline
+
+after "Finish" or "Next" i dun remember and "Test Data Source" and cancel
+
+Finished :D
+   
+
+
+
+
+
+
+Join To http://weekendmu.no-ip.org

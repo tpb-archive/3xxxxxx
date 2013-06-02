@@ -1,0 +1,37 @@
+
+	       -= Fullspeed HSF Conexant Modem drivers for Linux =-
+
+			  -= NFO by Sh00t3r =-
+
+
+Well, how we all know that, Linuxant (http://www.linuxant.com/drivers/index.php) provides drivers for the Conexant chip based modems. The fuck-off of the whole bullshit is that they make available free of charge and fully functional drivers for Micro$uck, but - very strange, and hard to understand - Linux/Unix versions costs $19,95 for dial-up modems, and $19,95 for wireless LAN modem drivers.
+
+We can use their modem driver free, but our modem will work only at 14,4 kbps speed without the fax option (if modem has such feature). Veeeery bothering, isn't?
+It was quite painfull to me to obtain this package, because it is so rare, and I've searching a lot till finded it finally. Just because I've think that's usefull and fair to share it with others.
+
+This is the fully functional driver source package for the HSF modems built on Conexant chips. It contains the sources for all types of modems (PCI, USB) and is the fully functional one, without any transmission speed restrictions or limits.
+
+In addition I've downed the latest (version 7.60.00.04) packages, sources, an utility and the documentation from Linuxant. All of them are in this package. Hopefully the newest one will work well too with the originally provided keymaker script. I hadn't tested it... YET  ;)  :P
+If don't, you still have the original package (version 7.18.00.03), thus can't be any prob here.
+
+I don't know who is this brave indian guy, which had provided us with such a great stuff. He deserves all of our gratitude and thanks (I call him IndyMDM^Boy).
+
+
+You'll find the following stuffs in this package:
+
+- HSF_Driver_Source_Package   ---> original driver source repackaged by me;
+- HSF_Modem_Driver_Keymaker   ---> keymaker script written in PERL for getting licence;
+- HSF_Original_Package   ---> IndyMDM^Boy's originally provided driver source package;
+- Modem_Scan_Utility   ---> a modem scan utility for identifying your modem's specs;
+- Ubuntu_Binary_Packages   ---> the 7.60.00.04 version for all 2.6.20-15 kernels;
+- RHEL5_Binary_Package   ---> the 7.60.00.04 version for 2.6.18-8.1.1.el5 kernel;
+- RH9_Binary_Package   ---> the 7.60.00.04 version for 2.4.20-31.9 kernel, i386 arch;
+- SuSE_Binary_Package   ---> the 7.60.00.04 version for 2.6.18.8-0.1-default kernel;
+- FC6_Binary Package   ---> the 7.60.00.04 version for 2.6.20-1.2944.fc6 kernel, i586;
+- Latest_Generic_Sources   ---> source code packages for all distros, version 7.60.00.04;
+- Linuxant_Documentation   ---> self explanatory;
+- 00_Read_First.txt   ---> this NFO file.
+
+I'm an Ubuntu Linux user (Edgy for now, later can change).This is the main reason why I've insisted on grabbing DEB packages. But think that other distros users can't complain about.
+
+Greetz flies to IndyMDM^Boy. You're rock my friend!  Regards, Sh00t3r.  LOL

@@ -1,0 +1,129 @@
+???ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß???
+??????????????????????????????????????????????????????????????????????????????????????????????????? 
+?                              S.T.A.L.K.E.R multiplayer TOOL v0.5.1                              ß  
+???ßßßßßßßßßßßßßßßßßßßßßßßßßßß???????????????????????????????????????ßßßßßßßßßßßßßßßßßßßßßßßßßßß??? 
+
+
+ßßßßßßßßßßßßßßßßßßßßß
+PROGRAM INFORMATION:ß
+ßßßßßßßßßßßßßßßßßßßßß
+
+   This little tool allow you to play online or on LAN with
+   S.T.A.L.K.E.R. - Shadow of chernobyl Multiplayer.
+
+
+ßßßßßßßßßßßß
+WHAT's NEW:ß
+ßßßßßßßßßßßß
+
+
+  0.5.1.0:
+
+   - Added options for Artefact's Count, Stay time and Respawn Delta
+   - Added Friendly Fire Damage options
+   - Added Dedicated Server, GameServer, Client Port options
+
+  0.5.0.0:
+
+   - Added option for start Dedicated Server
+
+
+ßßßßßßßßßßßß
+HOW TO USE:ß
+ßßßßßßßßßßßß
+
+
+   1.) Copy stalker_mp.exe to your S.T.A.L.K.E.R dir.
+
+   2.) Server start or join to a server:
+
+       First of all, you can start a  server  and  join  it  to  play  at  the  same  time,
+       but  if  you start dedicated server, you  never can  join to  that from the same pc.
+
+       You can join to  all dedicated server,  what  started  with  command  line  options,
+       but  the  server started  from  ingame  Network  option  you  can't.
+
+
+       So this tool allow you to connect:
+
+       - LAN Servers
+       - Dedicated Servers (only real dedicated standalone servers)
+       - Private Servers what created with this tool
+
+       Allow to create:
+
+       - Standalone Dedicated Server and  everybody can connect with the tool
+       - Start with join a private server
+
+
+
+                !!  Woking with all X3_RDA.exe files (original and cracked too) !!
+
+
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+
+
+ OK last and the best method against invaild key: go to your registry and find STALKER-SHOC
+ You find a key called InstallCDKEY there. Modify data to something, not need a valid cdkey
+ or something like that just enter something like this: 335dGFdgt433r5t3.
+
+ If have the problem, but I think nobody get a key like this, change it to an other!
+
+
+ßßßßßßßß
+ Other:ß
+ßßßßßßßß
+
+
+ Server  options  need  to  configure  in  user.ltx  file!  You need to  edit these  lines:
+ (This is a default config)
+
+   sv_vote_time 3
+   sv_vote_quota 0.100
+   sv_vote_enabled 1
+   sv_timelimit 30
+   sv_spectr_firsteye 0
+   sv_spectr_freefly 0
+   sv_spectr_freelook 0
+   sv_spectr_lookat 0
+   sv_spectr_teamcamera 1
+   sv_shieldedbases 0
+   sv_returnplayers 0
+   sv_remove_weapon -1
+   sv_remove_corpse -1
+   sv_pda_hunt 0
+   sv_friendlyfire 1.500
+   sv_friendly_names 1
+   sv_friendly_indicators 0
+   sv_fraglimit 50
+   sv_dmgblocktime 5
+   sv_dmgblockindicator 0
+   sv_forcerespawn 0
+   sv_dedicated_server_update_rate 33
+   sv_console_update_rate 33
+   sv_auto_team_balance 1
+   sv_auto_team_swap 1
+   sv_artefacts_count 30
+   sv_artefact_stay_time 30
+   sv_artefact_respawn_delta 30
+
+
+ If  you  haven 't got,  create  a   new  file  between  user.ltx   called  maprot_list.ltx
+ If these  lines  added  to  the  file,  you  have  got  a full  maplist  for your  server:
+
+   sv_addmap testers_mp_agroprom
+   sv_addmap testers_mp_atp
+   sv_addmap testers_mp_darkvalley
+   sv_addmap testers_mp_factory
+   sv_addmap testers_mp_lost_village
+   sv_addmap testers_mp_military_1
+   sv_addmap testers_mp_pool
+   sv_addmap testers_mp_railroad
+   sv_addmap testers_mp_rostok
+   sv_addmap testers_mp_workshop
+       
+
+???ßßßßßßßßßßßßßßßßßßßßßßßßßßß???????????????????????????????????????ßßßßßßßßßßßßßßßßßßßßßßßßßßß??? 
+??????????????????????????????????????????????????????????????????????????????????????????????????? 
+???ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß???
+                                                                       By: D!z@SteR, Elgh0r & BiTYe

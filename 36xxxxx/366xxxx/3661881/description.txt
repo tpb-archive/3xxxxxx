@@ -1,0 +1,34 @@
+VistaPE is a version of WinPE (Windows Pre-installation Environment) which was designed to boot off of a CD, DVD, or flash drive. It includes all necessary features for an emergency CD:
+
+Network Support (automatic IP)
+Several interfaces (Litestep, BS Explorer, Windows Explorer)
+Option to search for Windows installation to boot
+Built-in DOS
+ClamWin and Nod32 antivirus with latest updates
+CDRTFE and InfraRecorder CD burning programs
+TestDisk Data Recovery Software
+PCI Device Lister
+HDDScan
+PC Wizard 2007
+DefragNT
+MBRFix
+MBRWizard
+A43 File Management
+Total Commander
+7-Zip archiving utility
+Filezilla FTP Server/Client
+Firefox 2
+UltraVNC Client and Server
+Remote Desktop Support
+Word and PDF Viewers/Editors
+Registry Editors
+NT Password Changers
+
+
+You can use this to start a Windows install off a hard drive or over a network; you can use it to access files on a system that's not booting; you can use it to repair a corrupt copy of windows; you can use it to scan for virii and spyware; You can use it on a computer with no hard drive; You can... well, the list goes on and on.
+
+------------------------------------------------------
+
+Alright, I made this myself, and it took forever to do. It's set to use the Vista explorer.exe, but it didn't work so well in tests I did, so you might want to use Litestep (it has a menu to let you pick the shell).
+
+This torrent contains a file named VistaPE.ISO. You need a CD burning program, such as Nero, to OPEN this file (not burn to a disc, but OPEN it). If you simply burn this file to a disc, it WILL NOT WORK. You must OPEN the file in a burning program, and THEN burn it.

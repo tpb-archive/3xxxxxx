@@ -1,0 +1,13 @@
+Have Vista Installed, but either don\\\'t have a legitimate key, or your key is already in use? Extend your 12 days by disabling the activation!
+
+open msconfig:
+start\\\\run and type msconfig
+
+in the window move to the services tab.
+uncheck both of the following:
+Software Licensing Service and SL UI Notification Service
+
+This will keep the activation from running and the second stops windows from continually reminding you that this has happened.
+Your product is unregistered, but will continue to run. 
+
+The info shown here, are the same as in the torrent.

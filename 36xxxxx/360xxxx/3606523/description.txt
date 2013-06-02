@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------------
+Windows XP Genuine Advantage Patcher - Dicembre 2006 - by CLoNY
+--------------------------------------------------------------------------------------
+
+Ulizzando questa procedura potrete:
+
+    
+Scaricare gli aggiornamenti dai siti microsoft
+(http://www.microsoft.com/downloads/Search.aspx?displaylang=it)
+
+     
+Utilizzare Windows Update
+(http://update.microsoft.com/microsoftupdate/v6/default.aspx?ln=it)
+
+      
+Installare programmi che richiedono la convalida come Internet Explorer 7
+e Windows Media player 11.
+
+---------------------------------------------------------------------------------------
+Procedura
+---------------------------------------------------------------------------------------
+
+
+   1. Estrarre i file.
+
+   2. Avviare il generatore di seriale (Windows XP Keygen.exe).
+
+   3. Selezionare sotto la voce "Product Family" la voce ?Windows XP Pro. VLK?.
+
+   4. Cliccare su "Generate" e lasciare il programma aperto.
+
+   5. Avviare Magical Jelly Bean Keyfinder (keyfinder.exe).
+
+   6. Nel menu " Options" selezionare ?Change Windows Key?. 
+
+   7. Inserire il codice generato con il generatore di seriale.
+
+   8. Cliccare su "Change"
+
+   9. Accedere alla directory Windows\System32\drivers\etc\ ed editare il file 
+      Hosts inserendo la seguente stringa alla fine del file:
+      
+      127.0.0.1 mpa.one.microsoft.com
+
+  10. Cancellare, se presenti, i file LegitControlCheck.dll, WgaTray.exe e              
+      WgaLogon.dll nella directory Windows\System32
+
+  11. Accedere alla directory Documents and Settings\All users\Application Data e 
+      cancellare, se presenti, le sottodirectory ?Windows Genuine Advantage? e 
+      ?Office Genuine Advantage?.
+     
+  12. Visitare la seguente pagina:
+
+      http://www.microsoft.com/genuine/default.mspx?displaylang=it
+
+  13. Dopo aver cliccato su "Convalida Windows" installare l'applicazione
+      WGA Validation Tool ActiveX quando richiesto.
+
+  14. Eseguire il software "Microsoft Microsoft Genuine Validation Diagnostic Tool"
+      (MGADiag.exe).
+
+  15. Selezionando "Continue" nella schermata successiva alla voce "Validation 
+      status" dovrebbe comparire la dicitura "Genuine".
+
+---------------------------------------------------------------------------------------
+R I G H T  TO  C O P Y  2006   -  ClonySoft
+---------------------------------------------------------------------------------------

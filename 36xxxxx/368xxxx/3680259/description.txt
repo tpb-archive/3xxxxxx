@@ -1,0 +1,161 @@
+ http://discussion.treocentral.com/showthread.php?t=137462
+
+
+Bluetooth stack from vzw Treo 700wx install for other treo 700wx and 700w.
+==========================================================================
+
+This cab installs the vzw 700wx bluetooth stack. This is a one step 
+install.
+
+Preparation:
+Copy the vzw700wx_a2dp.cab to your storage card or some temp folder. 
+
+For best results turn off bluetooth and do a soft reset before installing
+to avoid locked file issues since this tweak installs over top of the existing 
+bluetooth stack. Also press and hold your Ok button to get to the task manager
+and close any running applications (especially Active Sync).  
+
+Steps:
+1) Use File Explorer to run the cab file.  The cab install makes
+the necessary registry changes and installs the rom files to Windows.
+The install will ask if you want to install on the device or storage card.
+If you have a sd card then choose storage card, else choose device.
+
+That's it!
+
+Turn on bluetooth and pair your stereo headphones. You may need to select
+Wireless Stereo from the bluetooth device list. Click and hold on the 
+device name to get to the popup menu to select Set as Wireless Stereo. 
+
+Play some songs and enjoy!
+
+
+UNINSTALL:
+Steps:
+1) Go to Start-Settings, select System tab, click on Remove Programs.  
+Select "hannip vzw 700wx A2DP" and click on the Remove button.  
+Soft reset.
+
+-Paul
+
+Details:
+
+Registry changes made by this install
+----------------------------------------
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOTCLSID{7AAC2B28-5DD1-4052-81DD-E17114EE96B6}]
+@="WMP Mobile A2DP Plugin"
+
+
+[HKEY_CLASSES_ROOTCLSID{7AAC2B28-5DD1-4052-81DD-E17114EE96B6}InProcServer32]
+"ThreadingModel"="Free"
+@="Avrcp_MPplugin.dll"
+
+[HKEY_LOCAL_MACHINESOFTWAREMicrosoftBluetoothA2DP]
+
+
+[HKEY_LOCAL_MACHINESOFTWAREMicrosoftBluetoothA2DPSettings]
+"MaxSupportedBitPool"=dword:00000028
+"BitPool"=dword:00000028
+"UseJointStereo"=dword:00000000
+
+[HKEY_LOCAL_MACHINESOFTWAREMicrosoftMediaPlayerUIPlugins]
+
+
+[HKEY_LOCAL_MACHINESOFTWAREMicrosoftMediaPlayerUIPlugins{7AAC2B28-5DD1-4052-81DD-E17114EE96B6}]
+"FriendlyName"="Windows Media Player Mobile A2DP Plugin"
+"Description"="Integrates Bluetooth A2DP functionality with Windows Media Player Mobile"
+"Capabilities"=dword:02000001
+
+
+[HKEY_LOCAL_MACHINESOFTWAREMicrosoftBluetoothServices 000110B-0000-1000-8000-00805F9B34FB]
+@="Wireless Stereo"
+"bthutil.dll"=dword:00000000
+
+
+[HKEY_LOCAL_MACHINEDriversBuiltInBtA2dpSnd]
+"Flags"=dword:00010002
+"Index"=dword:00000008
+"Order"=dword:00000008
+"Prefix"="WAV"
+"Dll"="bta2dp.dll"
+
+[HKEY_LOCAL_MACHINEServicesCarKitAtci]
+"UnsignedService"=dword:00000000
+"Description"=""
+"DisplayName"=""
+"BaudRate"=dword:00004B00
+"PortName"="COM2:"
+"FriendlyName"="Car Kit AT Command Interpreter"
+"Context"=dword:00000000
+"Index"=dword:00000000
+"Prefix"="CKS"
+"Keep"=dword:00000001
+"Order"=dword:00000009
+"Dll"="CarKitAtci.dll"
+
+
+[HKEY_LOCAL_MACHINEServicesCarKitAtciSmartSerial]
+"BaudRate"=dword:00002580
+"PortName"="COM2:"
+
+[HKEY_LOCAL_MACHINEControlPanelTHBKit]
+"Group"=dword:00000000
+
+[HKEY_LOCAL_MACHINESoftwarePalmTHBKit]
+"AutoWirelessMode"=dword:00000000
+"AutoAnswerPref"=dword:00000000
+"AutoAnswerRings"=dword:00000000
+"Enabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINESoftwareMicrosoftBluetoothNAI]
+"RLSD"=dword:00000080
+"DUN Timeout"=dword:000927C0
+
+[HKEY_LOCAL_MACHINESoftwareMicrosoftBTHATCI]
+"Port"=dword:00000007
+
+[HKEY_LOCAL_MACHINESystemCurrentControlSetControlPowerActivityTimersSTUartTx]
+"TimeoutMs"=dword:000003E8
+
+[HKEY_LOCAL_MACHINESystemStateAthena]
+"SmartSerialAttached"=dword:00000000
+"SmartSerialPeripheralID"=dword:00000000
+"CarKitReady"=dword:00000000
+"AutoAnswerRequested"=dword:00000000
+"CarKitAudioRequested"=dword:00000000
+"CarKitDetected"=dword:00000000
+"DeviceClass"=dword:00000000
+
+[HKEY_LOCAL_MACHINEDriversBuiltInAthenaDetect]
+"Index"=dword:00000001
+"Order"=dword:00000002
+"Dll"="AthenaDetect.dll"
+"Prefix"="ATH"
+-------------------------------------
+
+Files installed:
+
+02/21/2007  11:59 PM            15,120 AthenaDetect.dll
+02/21/2007  11:59 PM            11,536 Avrcp_MPplugin.dll
+02/21/2007  11:59 PM            38,672 BluetoothUart.dll
+02/22/2007  12:00 AM            53,520 bta2dp.dll
+02/22/2007  12:00 AM            51,472 btagext.dll
+02/22/2007  12:00 AM           363,280 btd.dll
+02/22/2007  12:00 AM            57,104 btdrt.dll
+02/22/2007  12:01 AM             7,952 bthamb.dll
+02/22/2007  12:01 AM            20,752 bthasplugin.dll
+02/22/2007  12:02 AM            16,144 bthcsr.dll
+02/22/2007  12:02 AM            41,232 bthhid.dll
+02/22/2007  12:03 AM             8,976 bthsc.dll
+02/22/2007  12:03 AM            13,584 bthsdio.dll
+02/22/2007  12:03 AM             8,976 bthuart.dll
+02/22/2007  12:03 AM            21,264 bthusb.dll
+02/22/2007  12:04 AM            72,976 CarKitAtci.dll
+02/22/2007  12:04 AM             3,856 CarKitAtci_enUS.dll
+12/14/2006  01:02 AM             1,210 PalmHelp_THB_CarKit-icon_PepF06.BMP
+02/22/2007  12:05 AM            18,704 sbc.dll
+12/14/2006  01:02 AM                42 THB Kit Support.lnk
+02/22/2007  12:05 AM            37,648 THBKit.cpl
+02/22/2007  12:06 AM            25,360 THBKit_enUS.dll

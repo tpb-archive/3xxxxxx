@@ -1,0 +1,8 @@
+﻿User Type,Username,Date,Text
+[T],HallanD6,2009-08-14T13:20Z,Film-noir at its best.
+,DASFF,2010-11-26T16:32Z,"Bad quality for its size, you're better of with 1.4 GiB version."
+,rippervanwinkle,2011-01-30T12:28Z,"The quality is down to the studio, Universal, doing a truly awful transfer to DVD.  This DVD is as good as it gets for Double Indemnity unless one day someone (and I hope it isn't Universal) decides to restore a print for a blu-ray transfer.  The NTSC and PAL DVD releases are both equally rotten, so there's no point in trying a different region disc.  The supposedly restored ""Universal Legacy Series"" DVD is reputed to be either exactly the same or almost the same low quality as earlier DVD releases but with some low quality extra features.  Universal really are greedy scumbags.
+
+I've downloaded ther 1.4GB version and it looks even worse than this DVD because as well as the DVD's issues you also get scaling and encoding artefacts.  At least with the DVD you have a little room for applying denoise and sharpening.  Amazingly this DVD looks OK if you run it through mplayer -vf hqdn3d=8:6:12,unsharp=c3x3:0.5:l3x3:0.5 and does make the basis for a reasonable encode with x264.  It will definitely look awful with Divx or xvid or similar older blocky encoders.
+
+Anyway thanks to the releaser and to the handful of people who kept it available all this time."

@@ -1,0 +1,12 @@
+ http://mpowers.net/executor/
+
+Executor turns your jar file into a Windows executable.
+
+Package your Java application as a jar, and Executor will turn the jar into a Windows exe file, indistinguishable from a native application. Simply double-clicking the exe file will invoke the Java Runtime Environment and launch your application.
+
+This allows you to distribute your Java application as a genuine Win32 binary executable. Your users will never need to run an ugly batch file to run your application. You will not have to distribute any temp or config files along with your executable. You will never need to learn JNI and have a C compiler to make a launcher for your application. You will save the hours of effort needed for writing a native launcher with this one tool.
+
+Your applications can interact more seamlessly with other programs and with NT Services. With Windows Explorer, you can associate document types to automatically invoke your program. Your application can have an icon and launch documents that are dragged onto that icon. 
+
+
+Awesome program for programmers who wants to turn Jars into .exe files with one step.

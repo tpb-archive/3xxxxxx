@@ -1,0 +1,15 @@
+Utility to extract the contents of ZIX archives.
+
+Use this instead of installing the spyware-infested WinZix software.
+
+This release contains a bugfix. The previous version (0.0.5) got confused if the ZIX archive contained unrecognized metainformation, such as folder structure information.
+This should work okay now.
+
+If you come across anything UnZixWin can\'t handle, then use the e-mail address in the contact_info.txt file to let me know. I\'ll take a look.
+
+<strong>Warning!</strong> Don\'t extract anything executable from a ZIX archive. It is highly likely to contain a virus or a trojan.
+
+Also, don\'t be tricked into installing any \'codec patch\' or any special player software to play the AVI inside. This is a trick to get you to compromise your system, much like WinZix does.
+
+Cheers,
+//NeverShaveYourDuck

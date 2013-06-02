@@ -1,0 +1,222 @@
+﻿User Type,Username,Date,Text
+,jean r,2007-03-07T17:40Z,"works fine, thanks!!!"
+,stapler101,2007-03-12T12:46Z,"Help a newbie! I am a brand new Mac user and I am lost!
+When I download the origninal game I get the following:
+Call of Duty (cod) 2 1.3 (k) dmg
+COD 2 1.3 update
+COD 2 sn txt
+COD 2.dMg
+and this new crack COD2 v1.3 nodvduub.crack
+
+would someone give me a step-by-step install.
+I keep getting the message that cod is not correctly installed, need cd, can't patch file,etc.
+I don't think I know how to do the first install.
+
+thanks for any help!"
+,zeagull,2007-03-12T18:53Z,"stapler101, congrats on getting a mac :) 
+My friend was having problems with cracking application, he had the same files and was doing the same steps that I did. Nothing worked, so I just zipped the app I had (already cracked) and made a torrent. 
+
+You should be able to just copy the COD2 folder to your applications, then replace the application with this file. Good luck."
+,stapler101,2007-03-12T22:56Z,"No matter what I do, I get the ""need original cd"" error.
+I want my PC back!!
+Just kidding, I am just so used to the pc that I am just going in circles trying this install."
+,treemaker,2007-03-13T16:35Z,error: can't find resources folder... do you have this too?
+,mckani7,2007-06-26T13:35Z,"seed plx :) downloaded the game already, just need this file to make it work "
+,eruin,2007-11-29T18:44Z,great! I've seeded this thing to death and eagerly awaiting the completion of cod2 itself. any chance you have the cracked mp app around?
+,dc4everyone,2007-12-02T12:23Z,"Thanks for posting this file.  Can I ask, was the v1.3 patch applied prior to the crack being run? ie: is this a cracked 1.3 app or the original?"
+,dc4everyone,2007-12-02T12:44Z,Never mind. Just replaced my v.13 install with this file and it works just fine.
+,CharlesRS6,2007-12-14T04:32Z,"anyone know some good hacked servers and how to put them in... i have the call of duty 2 multiplayer open and when i try to join a server it says ""key code in use"" how do i connect to the hacked servers???? and which are some good ones cause i cant seem to find any"
+,MOkaTemoku,2008-01-12T07:55Z,"this crack is usefull with Leopard. and a MACBook 2.2Ghz
+
+Thanks.
+"
+,MOkaTemoku,2008-01-12T07:56Z,you need just replace the original with this and it ask for serial. after that bum you can play.
+,hintzsche,2008-01-21T11:59Z,"with the v1.3 crack happens this
+
+Process:         iPatcher [6177]
+Path:            /Applications/Call Of Duty 2/Call of Duty 2 SP Crack.app/Contents/MacOS/iPatcher
+Identifier:      org.iPatch.iPatcher3
+Version:         ??? (???)
+Code Type:       X86 (Native)
+Parent Process:  launchd [80]
+
+Date/Time:       2008-01-21 11:55:18.402 +0100
+OS Version:      Mac OS X 10.5.1 (9B18)
+Report Version:  6
+
+Exception Type:  EXC_BREAKPOINT (SIGTRAP)
+Exception Codes: 0x0000000000000002, 0x0000000000000000
+Crashed Thread:  0
+
+Dyld Error Message:
+  Library not loaded: /usr/lib/libcrypto.0.9.dylib
+  Referenced from: /Applications/Call Of Duty 2/Call of Duty 2 SP Crack.app/Contents/MacOS/iPatcher
+  Reason: no suitable image found.  Did find:
+	/usr/lib/libcrypto.0.9.dylib: mach-o, but wrong architecture
+	/usr/lib/libcrypto.0.9.dylib: mach-o, but wrong architecture
+
+"
+,thabrandnew007,2008-02-05T06:40Z,"Hintzsche, this crack, along with what seems like countless others (including cs3), uses old versions of the ssl and crypto libraries, and Leopard apparently only installs PPC versions of these libs. So in your favorite Terminal, move the old versions of these libraries out of the way:
+
+$ cd /usr/lib
+$ sudo cp libcrypto.0.9.dylib libcrypto.0.9.dylib.old
+$ sudo cp libssl.0.9.dylib libssl.0.9.dylib.old
+$ sudo ln -sf libcrypto.0.9.7.dylib libcrypto.0.9.dylib
+$ sudo ln -sf libssl.0.9.7.dylib libssl.0.9.dylib"
+,stefthemonster,2008-02-06T23:14Z,"i try to open COD 2 but it just says its not in the same folder as the COD data folder. 
+What do i do?"
+,biglittlefish,2008-02-12T06:20Z,Thank you sooo much!! Works great on 10.5 MBP
+,Solistus,2008-02-26T22:05Z,"I'm getting the same crash with this copy that I get off a fresh install, a .13 patched install or an original Blade-cracked install.  I tried the lib fix above, to no avail.  
+
+Process:         Call of Duty 2 [3480]
+Path:            /Applications/Call Of Duty 2/Call of Duty 2.app/Contents/MacOS/Call of Duty 2
+Identifier:      com.aspyr.callofduty2
+Version:         ??? (???)
+Code Type:       X86 (Native)
+Parent Process:  launchd [115]
+
+Date/Time:       2008-02-26 16:00:16.166 -0500
+OS Version:      Mac OS X 10.5.2 (9C31)
+Report Version:  6
+
+Exception Type:  EXC_BAD_ACCESS (SIGSEGV)
+Exception Codes: 0x000000000000000d, 0x0000000000000800
+Crashed Thread:  0
+
+Thread 0 Crashed:
+0   com.aspyr.callofduty2         	0x0001df71 CDirect3DTexture::~CDirect3DTexture() + 151 (COpenGLTexture.h:101)
+1   ???                           	0x02d65929 0 + 47601961
+2   dyld                          	0x8fe12e76 ImageLoaderMachO::doModInitFunctions(ImageLoader::LinkContext const&) + 246
+3   dyld                          	0x8fe0e723 ImageLoader::recursiveInitialization(ImageLoader::LinkContext const&, unsigned int) + 307
+4   dyld                          	0x8fe0e809 ImageLoader::runInitializers(ImageLoader::LinkContext const&) + 57
+5   dyld                          	0x8fe04102 dyld::initializeMainExecutable() + 146
+6   dyld                          	0x8fe07b5f dyld::_main(mach_header const*, unsigned long, int, char const**, char const**, char const**) + 2975
+7   dyld                          	0x8fe01872 dyldbootstrap::start(mach_header const*, int, char const**, long) + 818
+8   dyld                          	0x8fe01037 _dyld_start + 39
+
+Thread 0 crashed with X86 Thread State (32-bit):
+  eax: 0x0001df71  ebx: 0x02d6611a  ecx: 0x00000000  edx: 0x0001de6f
+  edi: 0x00000001  esi: 0x000015d0  ebp: 0xbfffe1c8  esp: 0xbfffe19c
+   ss: 0x0000001f  efl: 0x00010246  eip: 0x0001df71   cs: 0x00000017
+   ds: 0x0000001f   es: 0x0000001f   fs: 0x00000000   gs: 0x00000037
+  cr2: 0x0001df71
+
+Binary Images:
+    0x1000 -   0x31ffcf +com.aspyr.callofduty2 1.3 (1.3) /Applications/Call Of Duty 2/Call of Duty 2.app/Contents/MacOS/Call of Duty 2
+ 0x2d7b000 -  0x2e06fff  com.apple.framework.IOKit 1.5.1 (???)  /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+ 0x2e2c000 -  0x2e38fe7  com.apple.opengl 1.5.6 (1.5.6)  /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+ 0x2e40000 -  0x3154fe2  com.apple.QuickTime 7.4.1 (14)  /System/Library/Frameworks/QuickTime.framework/Versions/A/QuickTime
+ 0x3213000 -  0x321afff  com.apple.agl 3.0.9 (AGL-3.0.9)  /System/Library/Frameworks/AGL.framework/Versions/A/AGL
+ 0x3221000 -  0x3221ffc  com.apple.audio.units.AudioUnit 1.5 (1.5) /System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit
+ 0x3226000 -  0x334afe3  com.apple.audio.toolbox.AudioToolbox 1.5.1 (1.5.1) /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+ 0x33b5000 -  0x3431feb  com.apple.audio.CoreAudio 3.1.0 (3.1)  /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+ 0x3486000 -  0x3486fff  com.apple.Carbon 136 (136)  /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+ 0x348a000 -  0x348aff8  com.apple.ApplicationServices 34 (34)  /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+ 0x3492000 -  0x34ebff7  libGLU.dylib ??? (???) /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+ 0x3500000 -  0x350effd  libz.1.dylib ??? (???) /usr/lib/libz.1.dylib
+ 0x3511000 -  0x3531ff2  libGL.dylib ??? (???) /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+ 0x3541000 -  0x3541ffa  com.apple.CoreServices 32 (32)  /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+ 0x3549000 -  0x35dcff3  com.apple.ApplicationServices.ATS 3.2 (???)  /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+ 0x3603000 -  0x36cefff  com.apple.ColorSync 4.5.0 (4.5.0) /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions"
+,ahmed14270,2008-02-27T08:33Z,"Please help me non of my torrent software is working
+Can any one give a direct link to the file
+or send it yo me by email
+ahmed14270@hotmail.com
+Thanx"
+,mac_gamer,2008-03-03T04:03Z," i have made the crack work for cod2 singleplayer but is there a crack to make multiplayer owrk?? 
+can anyone help me get cod multiplayer going on leopard?
+thx"
+,12stones,2008-04-03T09:11Z,"mac_gamer, what instructions did you follow to make it work? The nfo or something else?
+
+thabrandnew007, that might be my problem, but I have no idea how to do what you are talking about...I can't find those libraries or anything."
+,mac_gamer,2008-04-05T01:34Z,can someone post stepby step instructions to install this correctly? i put it in cod 2 folder and it works fine for SP but MP still says i need CD
+,baller0721,2008-04-06T22:23Z,when i go to open the game it asks me for to enter a key code which is located on the back of the manual. does anyone know what the code is?
+,Enemy04,2008-04-23T20:27Z,"GUYS LISTEN DO THIS..
+
+1. Mount [Open] the ""Call of Duty 2.dmg""
+2. Drag folder ""Call of Duty 2"" to your desktop
+3. Now open the update dmg thing and update it to 1.3 version
+4. Then open the crack, if it doesnt work..
+5. Go to applications/utilities/terminal.app
+6. IN TERMINAL TYPE:
+
+cd /usr/lib
+sudo cp libcrypto.0.9.dylib libcrypto.0.9.dylib.old
+sudo ln -sf libcrypto.0.9.7.dylib libcrypto.0.9.dylib
+
+The commands are safe, the problem is the ipatcher doesn't find a certain thing. It should work!
+
+6. Open the game and have fun!
+"
+,c3400,2008-05-03T10:19Z,"works great, even on 10.5.2 Leopard! no need to hack in the terminal, for me at least. hope you have as much luck as i had. Really fast download too, finished in a matter of seconds! "
+,tehsuperfox,2008-05-11T22:43Z,"I can't get the multiplayer to work either, it says I need to put in the CD. Any help?"
+,5killa,2008-05-13T01:11Z,ummm this works perfectly on my macbook 2.2 ghz with single player but where is the MP crack for leopard
+,siggivo,2008-05-16T23:04Z,please seed
+,homeyman,2008-08-10T01:56Z,"It works for me.
+But the Mouse laggs.
+Anyone got an idea?"
+,Rocking.Robot,2008-09-21T17:13Z,"so i dwnload cod 2,
+replace the app in that folder (after installation)
+with this, and input 
+
+$ cd /usr/lib
+$ sudo cp libcrypto.0.9.dylib libcrypto.0.9.dylib.old
+$ sudo cp libssl.0.9.dylib libssl.0.9.dylib.old
+$ sudo ln -sf libcrypto.0.9.7.dylib libcrypto.0.9.dylib
+$ sudo ln -sf libssl.0.9.7.dylib libssl.0.9.dylib
+
+into terminal and that makes it work?
+Im on leopard,
+thnx for the torrent btw"
+,maxval54,2008-10-13T03:05Z,"It works perfectly on my Macbook!!!
+
+Thank you very much!!"
+,Rocking.Robot,2008-10-17T13:58Z,"works 100%
+but my multiplayer doesn't work either :(
+help?"
+,chomnomnom,2010-08-30T09:30Z,"anyone needing a cd code, you can do 1 of two things;
+1) download KCNScrew (its an application that gives you CD codes, dont worry, its safe, its what I used. It is good in the long run, but if you can't be stuffed, do step 2)
+2) type this code into the 5 4 digit boxes
+DX38-WW8Y-GYPG-3SDW-9D86
+4YUE-HTDW-DSGH-G34H-6C3E
+HGGT-D2EW-UUKX-UXHD-743C
+GHTG-YHKG-YT28-8UGY-A6C7
+EXTP-T83H-E3SE-YTET-421B
+SEWY-WKDE-8PHS-TWSW-517F
+GX8P-3SYE-8GK2-WSG3-E5D5
+HD28-8T2P-G3EY-HUH8-F893
+8S8S-UEWS-DDPX-GK8U-2AB5
+8YG8-E3GU-KKUE-TT8E-A3E2
+DT4K-4X3P-T3PG-EDD4-F3F8
+3TU3-PTG8-TDPX-DE3P-3D79
+TT4W-S4WG-XWS4-UTTS-A6AE
+XEU4-2DWK-8UHD-4EX2-36F0
+32WK-D482-2U2W-X33D-2283
+PXEK-E23G-X33H-KSPE-1222
+2U4W-GUTU-YDHS-U32G-1065
+4EP2-8D28-EWUH-4T48-AFA0
+2D3X-KD48-2KHG-DH2K-6CE8
+EEKP-THP8-8UD8-HHET-4A8F
+EXEP-4KE2-PDT2-HWE4-9C10
+P2TD-GKTT-DSE4-YYPG-9544
+KY48-D8XD-YTWG-SDKD-602E
+DT88-K3W8-4UW2-EGDK-5970
+EDYD-G2YT-3XG4-2DEG-141A
+3S8U-GUW3-U32U-2K3G-5440
+E2G8-38U8-EXEG-EHE3-32A8
+EWTW-K8U8-KTT3-YPEK-B653
+WHPD-W8WS-3EXE-W3WW-8824
+WUGE-4WPU-TSW4-83W4-3A2D
+HPG2-UTDP-U3E4-W8HU-D71E
+U2G3-YGW4-GK8S-3EUY-A0D6
+X3YE-H4UY-G3SW-S3XH-6689
+DDWE-YYKE-4T8D-KKDY-EC2A
+YY8X-KK8Y-EDHU-33YK-5440
+8TYW-8GS8-XHTH-Y888-015B
+XD2E-H8KW-3YHK-HHXH-BEAF
+
+all of these should work, doesnt matter which one.
+Hope this helped anyone stuck without a CD code."
+,EndingKira,2010-09-20T13:29Z,Please you share one completes time T_T PLEASE!!!!
+,millspro,2011-08-29T00:41Z,how you go online?
+,Cole75,2011-08-30T03:07Z,"wont work an error message comes up that says ""Call Of Duty 2 could not locate the ""Call Of Duty 2 Data"" folder. Please make sure it is located in the same folder as the Call Of Duty 2 application"" any help?"

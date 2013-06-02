@@ -1,0 +1,19 @@
+﻿User Type,Username,Date,Text
+,Dr_DeadByte,2007-02-03T11:19Z,"A little note: Hope that you know, that after running .cmd file you must not remove the other file or move it to some other folder..
+
+That cmd file is just for registering the library (.ax) file."
+,Tommyz1,2010-06-12T21:19Z,"Alternative to running the .cmd file just run the following at the command promt:
+
+regsvr32 VodeiMPAVI.ax
+
+or
+
+regsvr32 VodeiMPAVI.ax /s
+
+Running without ""/s"" gives you a confirmnation that the registration was successfull.
+
+It worked for me. Thanks a lot. I hate vodei."
+,ijkmailru,2010-06-15T21:53Z,"Be Careful! It's vodei decoder file - don't install this.
+
+Article http://www.vladd44.com/video/vodei.php is a bit obsolete, now new easier solution is available: http://vodecoder.videoripper.org/ But, unfortunally, new solution works only for vodei 2.x encoded files - not working to decode vodei 1.0 	"
+,ijkmailru,2010-06-15T22:06Z,http://thepiratebay.org/torrent/5630115

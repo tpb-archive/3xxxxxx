@@ -1,0 +1,38 @@
+﻿User Type,Username,Date,Text
+,Marce1,2007-08-10T23:14Z,"cheers, this _is_ a classic
+
+subtitles filed seperately it 's less suited though for the one-click minded looking for an easy disc burn, like me (Mac OS X tips appreciated)"
+,jcfperes,2008-02-12T23:04Z,"Hi!
+THANKS FOR THIS!
+HUGZ FROM BRAZIL!
+
+ps.: LOVE, JUST LOVE that the subtitles ARE NOT riped/mixed with the movie. Then, we can watch this in the language you want. For us, we watch it with portuguese subtitles.
+
+THANKS AGAIN!
+AWESOME MOVIE!"
+,narareich,2008-03-01T01:31Z,"Doctorgin,
+
+Thanks very Much from Groningen."
+,zeinabqureshi,2008-03-10T23:16Z,"When I first watched it, I was 13 or 14. It sent me into a deep depression, the movie was so breathtaking. 
+
+The rip seems almost like a TV rip, but it's the only one around. Well, *doctorgin* was kind enough to upload this (on demonoid I believe) after so many requests and pleas had gone out.
+
+Great movie. Gong Li is devastating as 'My Grandma'. "
+,tinosbt,2008-12-09T02:52Z,"This **** HAVE TO BE ONE OF THE WORST*** looking rip I have ever seen.
+
+The proper aspect ratio is 1.83:1 or something but its distorted to 4:3
+
+That's not the problem if you use MPC.  But the interlacing complete ruin the picture.  It's very visible and make it unwatchable.  And don't let me start with the video quality.  Although the original DVD copy may be bad.
+
+It's quite unwatchable.  Don't waste your time on it.  I have used tpb for years and I never register an account.But I had to get one to warn you guys.
+
+I think I will rent it on netflix and make a rip myself.  If I can fix the interlacing I will upload it here."
+,tinosbt,2008-12-09T02:54Z,Oh well netflix doesn't have it I will look into the traditional Chinese rental stores.
+,zeinabqureshi,2009-01-13T13:52Z,"Yes, I agree. In terms of quality, this is easily one of the worst rips out there, but it has served a purpose. In case someone needs a widescreen (600:228, AR 2.65) rip, leave a note here...I have one that's just the right size. "
+,egress63,2009-04-19T13:55Z,"Its a bad rip. And there is a constant hissing noise in the background. Apparently the guy who ripped this movie needs to learn how to rip movies. Haha. None the less, we as beggars can't be choosers. Especially since there is just one copy of this movie (this one) floating on the internet. 
+
+So in the ends, thanks! :)"
+,egress63,2009-04-19T18:45Z,"FYI, the video looks a lot better in 221:100 resolution. :)"
+,m8rsh,2009-12-01T05:55Z,"This is a horrible rip, probably from TV. TV is interlaced, the ripper didn't use deinterlacing, even worse, they increased the vertical resolution afterwards, screwing up the aspect ratio and making it difficult to apply deinterlacing filters. To fix, reduce the vertical resolution to 256 (720x576 -> 720x256), apply a deinterlacing filter, and insure it outputs at 720x288 (for an aspect ratio of 2.35). For mplayer, do:
+
+mplayer -vf scale=720:256,pp=li -aspect 2.35:1 *avi"

@@ -1,0 +1,24 @@
+Concurrent Remote Desktop Sessions allows you to connect through Remote Desktop to a system that someone else is logged on to, under a different user account, and access the system without kicking the other user off.
+In Windows Vista the Remote Desktop feature is available for the Business, Enterprise and Ultimate editions. However, the Concurrent Remote Desktop Sessions feature is not available.
+By using a patched version of termsrv.dll, located in %SystemRoot%\System32\, this feature becomes available.
+
+The package contains 7 files:
+Vista_Concurrent_RDP_sessions.nfo:	This file
+termsrv.dll.original32bit:			The original unpatched termsrv.dll file for Windows Vista 32 bit
+termsrv.dll.original64bit:			The original unpatched termsrv.dll file for Windows Vista 64 bit
+termsrv.dll.patched32bit:			The patched termsrv.dll file for Windows Vista 32 bit
+termsrv.dll.patched64bit:			The patched termsrv.dll file for Windows Vista 64 bit
+patch_termsrv_32bit.bat:			A batch file for automatic patching on Windows Vista 32 bit
+patch_termsrv_64bit.bat:			A batch file for automatic patching on Windows Vista 64 bit
+
+How to patch (Automatic):
+Run either patch_termsrv_32bit.bat or patch_termsrv_64bit.bat, according to your operating system, AS AN ADMINISTRATOR. Use right-click, and select "Run as administrator".
+
+When for any reason this fails, try to do it manually:
+Take ownership of %SystemRoot%\System32\termsrv.dll and give yourself Full Control permissions.
+Rename or delete the original termsrv.dll.
+Copy the patched file (termsrv.dll.patched32bit or termsrv.dll.patched64bit) to %SystemRoot%\System32\
+
+You must reboot your system for the patch to take effect!
+
+- Pinobigbird

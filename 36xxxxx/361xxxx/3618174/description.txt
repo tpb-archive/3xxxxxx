@@ -1,0 +1,30 @@
+How to use this crack:
+
+How to use it: 
+1- Apply one of the "2099 trick" (eg: set install date to: 2099 and set date back 
+   after install...)
+
+2- Unpack the ZIP in a temp directory 
+
+3- Right-click on TimerStop64.sys, properties and Digital Signatures, details, Wiev Certificate, Install Certificate, follow the guide and use Trusted Root Certification Authories.
+
+4- The Next day:
+
+5- Launch install.exe 
+   It will prompt to launch as admin, since it is necessary to install the driver.
+ 
+6- Press the "Test" button, don't close the messagebox shown. 
+
+7- Launch a command prompt with admin rigths. 
+
+8- Type "slmgr.vbs -dlv", a dialog box should popup in 10-20s. 
+
+9- Note the number of minutes displayed on the last line, and close the dialog box 
+
+10- Wait a few minutes, and type "slmgr.vbs -dlv" again 
+
+11- If it works, the number of minutes should be the same. You can then close the messagebox shown in 3, and press the "install" button to run the driver at each start.
+
+Works on 32-bit (x86) and 64-bit (x64)
+
+Enjoy

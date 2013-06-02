@@ -1,0 +1,26 @@
+﻿User Type,Username,Date,Text
+,hurrafor,2007-05-26T17:40Z,"ABSOLUTELY works....you just have to do a little digging:
+
+First, you need HDTVPump:
+
+http://www.dvbportal.de/projects/hdtvpump/
+
+And then (At least for any HD-DVD releases by HDTV_CHINA i have) you need Matroska Splitter
+
+http://haali.cs.msu.ru/mkv/
+
+You will also need to have a MPEG2 decoder previously installed. NVIDIA's works. If you can play a DVD - chances are you have a valid decoder.
+
+Install those and report back!"
+,AIMBOT,2007-05-28T12:53Z,"Doesn't work for me. All other  H264 files are OK. Downloading the HDTV pump (actually not necessary for fast hardware) TS plugin from dvbportal caused a conflict with PowerDVD7's CLDemuxer.ax  1.0.0.4528)
+
+GSpot render = Warning: DirectShow crashed while attempting to render this file.
+
+This is usually due to damaged, misconfigured, conflicting, or poorly written codec drivers.  It is possible, perhaps even likely, that other media players will crash when they attempt to play this file as well, as most of them will also use DirectShow.  GSpot was able to intercept the crash, and has attempted to identify the codec or filter involved; uninstalling or reinstalling this codec or filter may solve the problem.
+
+The codec was tentatively identified as:
+
+C:\Program Files\Cyberlink\PowerDVD\NavFilter\CLDemuxer.ax"
+,duhprane,2007-08-17T23:39Z,fuck these giant files.... I'm all about full screen video out from the pc to the widescreen with an xvid or divx this is too much bullshit
+,duhprane,2007-08-17T23:40Z,ESPECIALLY FOR A FUCKING ****CARTOON****!
+,AIMBOT,2007-09-28T00:09Z,"It finally plays now that i have Cyberlink power DVD 7.3  on Vista, ( i have wmp 11 but it don't play on that one)   It is a CARTOON !"

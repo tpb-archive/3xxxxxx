@@ -1,0 +1,52 @@
+﻿User Type,Username,Date,Text
+,raidhowiefan,2007-05-04T03:10Z,THIS FILE SEEMS AWFULL SMALL. ARE YOU SURE  ITS ONLY 284 MiB?
+,Kris.NL,2007-05-04T07:51Z,"Yes, its that size.
+it's a exact copy of the cd "
+,Jackio,2007-05-04T09:23Z,Do you meen this is the Original SH game? not the latest one? If so; cool!
+,Kris.NL,2007-05-04T11:20Z,"yes, its the Original Silent Hunter Game!
+Version 1.31
+:)"
+,redhammer,2007-05-05T02:02Z,"neat:D
+
+Im on it!"
+,avatar1969,2007-05-06T15:57Z,i use dosbox but it still asks for the cd to insert can anyone help me get it run on win xp?
+,Kris.NL,2007-05-06T17:38Z,"-- copy de directory ""bud"" from de cd
+-- paste it into the SH directory on youre HDD
+--  find in directory SH (on youre HDD) the file: ""shpath.ini"" 
+--open it with notepad
+-- change it  to this:
+BUD     =BUD\
+DATA    =DATA\
+ART      =ART\
+SFX        =SFX\
+SPEECH =SPEECH\
+CINES    =CINES\
+SCEN   =SCEN\
+SAVE   =SAVE\
+
+see?  the ""bud"" is changed
+
+thats it
+"
+,avatar1969,2007-05-07T13:44Z,Thanx Kris! Yes its working fine now. This is a very good game. Thanx again!! I keep help seeding
+,tombaker,2007-05-20T01:03Z,"kris, im a bit new to all this torrent stuff. got the iso installed and emulated, running it in dosbox, did what you said about the game asking for cd but it still asks
+
+any ideas?"
+,Kris.NL,2007-05-20T12:32Z,"have you copied the ""bud"" directory  (from the image) to the SH folder on your HDD?
+
+that ""BUD"" directory must stay in the same place as the ""shpath.ini"" file.
+The shpath.ini  must look like this:
+
+BUD =BUD\ 
+DATA =DATA\ 
+ART =ART\ 
+SFX =SFX\ 
+SPEECH =SPEECH\ 
+CINES =CINES\ 
+SCEN =SCEN\ 
+SAVE =SAVE\"
+,Gaming,2007-05-21T06:31Z,"Kris.NL, thank you!  Great game."
+,Kris.NL,2007-10-24T16:08Z,"NO, you have to run in in an emu.
+or better: run in it dos modus of an W95 computer"
+,UltimateGTR,2010-03-12T14:28Z,"Thanks, looking for this one!"
+,drd2112,2010-11-05T18:29Z,"please seed, i would like to play this game... thanks! :D"

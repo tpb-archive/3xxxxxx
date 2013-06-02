@@ -1,0 +1,199 @@
+An old one!
+
+--------------------------
+
+                         Guide to Installation of
+                   Boeing 737-600/700/800 Authorware CBT
+
+
+Hardware Requirements
+
+To run Boeing 737 Authorware CBT in Windows 3.x or Windows 95 from 
+the CD-ROMs, the student station requires the following hardware:
+
+  486/66 CPU or better (Pentium recommended)
+  16 MB RAM (32 MB recommended)
+  1024x768 pixel, 256 color display
+  SoundBlaster compatible audio
+  Speaker or headphones
+  Mouse
+  CD-ROM reader (4x or faster)
+  Disk space for about 3.2 MB of overhead files and a 20 MB swap file 
+
+Depending on your system configuration, performance may be enhanced by 
+copying the contents of the CD-ROMs to your hard disk or server and 
+running the programs from there.  If you do this, you will not need the 
+CD-ROM reader to run them but you will need approximately the following 
+amounts of additional disk space to store them: 
+
+   220 MB for 737 Flight Differences CBT (English)
+   240 MB for 737 Flight Differences CBT (Metric)
+  1050 MB for 737 Flight Transition CBT
+   810 MB for 737 Maintenance CBT (including about 160 MB for ILCBT)
+
+
+Installing the Router and Other Overhead Files
+
+1. If you are installing 737 Flight CBT on a station that already has 737 
+   Maintenance CBT, or vice versa, rename the program group or Start 
+   Programs menu item for the CBT that is already installed (for example, 
+   "Boeing 737 CBT Router") to "Boeing 737 Flight CBT" or "Boeing 737 
+   Maintenance CBT" as appropriate.  (See "Renaming a Windows 3.x Program 
+   Group" or "Renaming a Windows 95 Start Programs Item" below.)
+
+2. Insert the first CD-ROM into the CD-ROM drive.
+
+3. Using the Windows 3.x File Manager or Windows 95 Explorer, find 
+   SETUP.EXE in the root directory of the CD-ROM.
+
+4. Execute SETUP.EXE by double-clicking it.
+
+5. Follow the on-screen instructions.
+
+   a. When SETUP asks for the "Installation directory", indicate the 
+      drive letter and directory where you want to install the overhead 
+      files.
+
+      (1) If you are installing CBT in place of a prior version of the 
+          same CBT, specify the same directory.
+
+      (2) If you are installing Flight CBT on a station that already has 
+          (or will have) 737 Maintenance CBT (or vice versa), specify 
+          a directory name that signifies Flight or Maintenance as 
+          appropriate (for example, 737F_CBT or 737M_CBT).
+
+      (3) If the "Installation directory" is a network (server) location 
+          and you want more than one student station to share it, be sure 
+          to specify the same location each time you run SETUP.
+
+   b. When SETUP offers you the choice of modifying your AUTOEXEC.BAT 
+      file or putting the changes in CMI_UP.BAT, select the latter and
+      click OK.  When a window advises you to exit Windows and run the 
+      CMI_UP.BAT program before running the CBT, ignore the advice and 
+      click OK.  (The modifications and CMI_UP.BAT were to enable use of
+      a Boeing CMI program that is no longer available.)
+
+   To enable you to start the CBT, SETUP creates a Windows 3.x program 
+   group containing icons or adds the name of the courseware to the 
+   Windows 95 Start Programs menu.  It also installs all of the system 
+   support files (such as fonts & DLLs) needed to run the CBT 
+   courseware.  It does not copy the lesson files to your hard disk or 
+   server. 
+
+6. If you are using Windows 95, proceed as follows:
+
+   a. If a window titled "C:WINDOWSStart MenuProgramsBoeing 737 CBT 
+      Router" remains when SETUP is done, close it.
+
+   b. If you wish to have an icon on your PC desktop for starting the
+      CBT, proceed as follows:
+
+      (1) Using the Windows 95 Explorer, find SROUTER.EXE where 
+          SETUP installed it.
+
+      (2) Click and drag SROUTER.EXE from the Explorer to your 
+          desktop.  (This leaves the SROUTER.EXE file in place but 
+          creates a shortcut.)
+
+      (3) Using your right mouse button, click the title (SROUTER.EXE) 
+          under the icon.  Select Rename.  Then type the new title (for
+          example, 737-700 Maintenance CBT) and press the Enter key.
+
+7. If you installed 737 Flight CBT on a station that already had 737 
+   Maintenance CBT, or vice versa, rename the "Boeing 737 CBT Router" 
+   program group or Start Programs menu item (for the CBT that you just 
+   installed) to "Boeing 737 Flight CBT" or "Boeing 737 Maintenance CBT" 
+   as appropriate. (See "Renaming a Windows 3.x Program Group" or 
+   "Renaming a Windows 95 Start Programs Item" below.)
+
+8. The LESSONS.LST file installed by SETUP expects the lesson files to be 
+   stored on drive D:.  If your CD-ROM reader is not D:, you must edit 
+   each line of the LESSONS.LST file in your "Installation directory" to 
+   change D: to the correct drive letter.  (See "Editing Files" and 
+   "LESSONS.LST:  List of Lesson Titles and File Locations" below.)  Then 
+   mark the file as read-only to avoid inadvertent changes to it.  (See 
+   "Marking a File as Read-Only" below.)
+
+9. Test the router installation:
+
+   a. If you are using Windows 95, click Start, Programs, Boeing 737 CBT 
+      Router (or Boeing 737 Flight CBT or Boeing 737 Maintenance CBT), and 
+      then 737 CBT Router, or on your desktop double-click your 737 CBT 
+      shortcut icon.
+
+   b. If you are using Windows 3.x, in Program Manager open the Boeing 
+      737 CBT Router (or Boeing 737 Flight CBT or Boeing 737 Maintenance 
+      CBT) program group and then double-click the 737 CBT Router icon.
+
+   c. Select a lesson, use it until you are satisfied it is running
+      satisfactorily, and then exit from the lesson.  Try other lessons
+      briefly.
+
+
+Installing the Courseware on a Hard Disk or Server
+
+The lessons can run from the CD-ROM drive.  However, depending on your 
+system configuration, performance may improve if you copy the contents 
+of the CD-ROM to your hard disk or server and run the lessons from 
+there.  To do this, complete steps #1-7 above on each station where you 
+want to run the courseware, and then proceed as follows:
+
+1. To learn how much disk space will be required to store the courseware 
+   from each CD-ROM, use Windows 3.x File Manager (click the CD-ROM 
+   reader and read the total disk space at the bottom of the window) or 
+   Windows 95 Explorer (right-click the CD-ROM reader and select 
+   Properties).  To learn if you have sufficient space on the drive(s) 
+   where you intend to install the courseware, use the same method but 
+   read the space free.
+
+2. Copy the CBT lessons to the hard disk of your station or server.  To 
+   accomplish this, "drag and drop" the directory (or directories) 
+   containing the lessons and modules (for example, SPCBT) from the 
+   CD-ROM to the installation directory.  The lesson and module files 
+   will then reside in their own directories with all their supporting 
+   files (*.MNU, *.SPT, *.PRC *.TXT, *.GLO, etc.), just as they do on the 
+   CD-ROM.
+
+3. If there is a directory called FIXDDISK on the CD-ROM, copy the 
+   LESSONS.LST file from that directory to the installation directory,
+   overwriting the one installed by SETUP.
+
+4. Edit the LESSONS.LST file in the installation directory:
+
+   a. If the optional [Volume|Volume_Title] is present, delete it 
+      everywhere it appears.
+ 
+   b. Make sure the path for each lesson file (*.APP) is correct.
+     (See the description of LESSONS.LST below.)  
+
+5. Mark the LESSONS.LST file as read-only to avoid inadvertent changes to 
+   it.  (See "Marking a File as Read-Only" below.)
+
+6. Test the installation as described in step #9 of "Installing the 
+   Router", above.
+
+
+The Router Program
+
+The 737 CBT Router is a program designed specifically to launch 737 CBT 
+lessons.  It is a simple menu system --- NOT a CMI program.  It does NOT 
+have student login, data collection, or reporting.  The 737 lessons were 
+designed for use with a separate CMI program compatible with version 1.9 
+of the AICC CMI Guidelines for Interoperability.
+
+
+Running the 737 CBT Router and Lessons
+
+To run the 737 CBT Router, see step #9 of "Installing the Router and 
+Other Overhead Files" above.
+
+If there are more than 14 lessons in your lesson list, they will be 
+broken into "pages" (14 lessons or fewer per page).  Use the "paging 
+arrows" at the bottom of the screen to move between pages.  The page 
+number is displayed at the bottom of the screen.
+
+To run a lesson, click its name on the menu.
+
+To quit the router, click the EXIT button.
+
+[etc...]

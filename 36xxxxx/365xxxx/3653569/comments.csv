@@ -1,0 +1,37 @@
+﻿User Type,Username,Date,Text
+,Xenomorph228,2007-04-03T03:15Z,thnx! :D
+,mjuad,2007-04-03T05:36Z,"No problem!  Nice piece of software innit?  I can't live without it anymore :D  Keep seeding it, this one should stay alive!"
+,Mikademus,2007-04-04T00:15Z,"Sorry, crack procedure followed to the letter fails totally. It won't crack. Following the instructions, after DEVENV crashes and the original .dll is replaced, it is uncracked and dead. "
+,mjuad,2007-04-05T00:35Z,"Mikademus:
+
+Give me a step by step list of what you did...NOT what the instructions say.  Just try to remember exactly what YOU did, and I'll see if I can help you.  Also, which version of MSVC, Windows, etc?  Hope I can help!"
+,Mikademus,2007-05-01T19:13Z,"mjuad:
+
+1) I installed the version of VAssist from the torrent
+2) I renamed the .dll from the folder into which VA had been installed
+3) I installed the registry keys from the enclosed file
+4) I copied the .dll from the torrent's crack folder into the va install folder
+5) I booted vstudio and entered the name/key
+6) After the crash I removed the .dll from step #4 and renamed the one from step #2 back to the original name
+7) VAssist is now fully uncracked and not working
+
+Using WXPSP2 and VStudio 2005 SP1."
+,zorro9k,2007-05-04T09:00Z,"crack doesn't work for me.
+
+after copy  crack dll and import new reg value,
+It doesn't show dialog for input key.
+
+After boot MSVC6 (+sp6)  , see some girls pic popup and directly go to msvc 6  without VA toolbar.
+
+PS: WinXP SP2   + MSVC 6"
+,lbolanos,2007-08-18T18:54Z,It works fine for me.  This is a very good addon to visual studio.  Thank you very much!
+,blubberfuck,2007-09-23T22:50Z,The approach to register it works fine for me as well. VAX is a great Visual Studio add-on and works fine.
+,metalmidget,2008-08-14T12:35Z,"I followed the instructions to the letter up until ""6. Start Visual Studio and enter the following serial:""
+When I open up VS 2008 pro, nothing happens...
+
+Is there something else I'm meant to do in VS like load visual assist into the IDE or something?
+
+Using vista home premium 32 bit..."
+,arhopkins3,2009-09-25T18:49Z,"Thanks, add-on works great with Visual Studio 2008 Team System on Windows 7 (x86), Norton reports no virus"
+,arhopkins3,2009-09-25T18:53Z,"Scratch that, this version doesnt work for me, I was referring to the version v10.5.____ which is also on TPB"
+,serentei,2012-03-11T08:01Z,"didn't work for me. When I start VS, nothing happens; Windows 7 64 bit, VS2010 sp1"

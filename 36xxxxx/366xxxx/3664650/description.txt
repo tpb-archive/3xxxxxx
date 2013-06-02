@@ -1,0 +1,53 @@
+This is the upcoming OpenBSD 4.1/i386
+
+Built from CVS release sources. Official release date is 2007-05-01.
+
+ISO File size: 426379264 bytes
+MD5 (openbsd-4.1-i386.iso) = 4c75b6b0aae1c4eb388d080896edaced
+
+CD is bootable and contains the entire x86 distribution + complete sources.
+
+CD contents (or see ls-alR in CD root directory):
+---
+00_OpenBSD-4.1
+01_Built_on_20070414
+4.1/XF4.tar.gz
+4.1/i386/CKSUM
+4.1/i386/INSTALL.i386
+4.1/i386/INSTALL.linux
+4.1/i386/MD5
+4.1/i386/base41.tgz
+4.1/i386/bsd
+4.1/i386/bsd.mp
+4.1/i386/bsd.rd
+4.1/i386/cd41.iso
+4.1/i386/cdboot
+4.1/i386/cdbr
+4.1/i386/cdemu41.iso
+4.1/i386/cdrom41.fs
+4.1/i386/comp41.tgz
+4.1/i386/etc41.tgz
+4.1/i386/floppy41.fs
+4.1/i386/floppyB41.fs
+4.1/i386/floppyC41.fs
+4.1/i386/game41.tgz
+4.1/i386/man41.tgz
+4.1/i386/misc41.tgz
+4.1/i386/pxeboot
+4.1/i386/xbase41.tgz
+4.1/i386/xetc41.tgz
+4.1/i386/xfont41.tgz
+4.1/i386/xserv41.tgz
+4.1/i386/xshare41.tgz
+4.1/src.tar.gz
+4.1/sys.tar.gz
+INSTALL.i386
+INSTALL.linux
+doc/obsd-faq41.pdf
+doc/obsd-faq41.txt
+doc/pf-faq41.pdf
+doc/pf-faq41.txt
+ls-alR
+
+---
+

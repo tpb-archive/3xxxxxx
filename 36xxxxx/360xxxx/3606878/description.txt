@@ -1,0 +1,40 @@
+Deze crack is gemaakt door - Messned 
+
+Geteste versie's:
+
+Windows Vista beta 6000(RTM Versie) NL
+
+Stap 1
+--------------------------------------------------------
+
+
+Ga naar C:\Windows\System32\nl-NL
+Zoek naar het bestand "user32.dll.mui"
+
+Doe dan rechtermuisknop eigenschappen op "user32.dll.mui"
+Dan Beveiliging
+Dan Geavanceerd
+Klik daarna op Eigenaar
+En dan vervolgens op Bewerken
+
+Klik hierna Administrators aan.
+Je kan nu een bericht krijgen klik dan op ok.
+Dan weer 2x ok klikken totdat je weer bij het tab beveiliging bent.
+Klik daarna op Bewerken
+Klik op admnistrators
+En vink dan bij toestaan alles aan.
+druk dan weer 2x op ok.
+Hernoem het bestand "user32.dll.mui" naar "user32.dll.bak" 
+je hebt nu een backup gemaakt van het originele bestand.
+
+Stap 2
+--------------------------------------------------------
+
+
+Kopieer nu vanuit de map patched user32 file het bestand naar C:\Windows\System32\nl-NL
+Herstart nu je computer en de watermark moet nu weg zijn.
+
+
+Tutorial + Patched user32 file zijn gemaakt door:
+
+Messned

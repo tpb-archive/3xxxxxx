@@ -1,0 +1,45 @@
+[Windows 98/ME/NT/2000/XP/2003]
+
+DynSite automatically updates your dynamic IP address each time it changes on one or many dynamic DNS services or by email. This allows anyone to connect to the servers (Web, FTP, NNTP, etc.) running on your own computer using a fully qualified domain name (e.g. myhost.dyndns.org, where myhost is a name of your choice). Since your host name never changes it makes accessing your servers much easier than using your IP address which changes each time you reconnect. This is also useful when you want to remotely control your PC.
+
+Main features
+
+        * Updates IP address on dynamic DNS services, DNS, FTP or LDAP servers, or 
+          by e-mail (SMTP)
+
+        * Secure Dynamic Updates to DNS servers (compatible with RFC2136, RFC2845 
+          [HMAC-TSIG] and RFC3645 [GSS-TSIG])
+
+        * Dynamic DNS services supported through the use of plug-in (text) files
+
+        * compatible with the most used dynamic DNS protocols (DynDNS.org, 
+          easyDNS.com, ZoneEdit.com, eNom.com, GnuDIP2)
+
+        * Simple Account Assistant to configure your host and domain names
+
+        * Manages multiple connections and binding of hosts to a specific 
+          connection
+
+        * LAN, Dial-up (RAS), RRAS and proprietary (AOL, MSN) connections 
+          monitoring
+
+        * Windows XP Visual Styles and menu à la Office XP (if Visual Styles are 
+          active)
+
+        * Supports UPnP, SNMP and HTTP compatible routers for external IP address 
+          detection
+
+        * Customizable text or HTML templates for FTP and e-mail updates
+
+        * Logs every event (updates, connections, disconnections) to a text file
+
+        * Error notifications by e-mail
+
+        * Can run applications or batch files upon connection and disconnection
+
+        * Automatic program and plug-in updates
+
+        * Multilingual: Dutch, English (default), French, German, Hungarian, 
+          Italian, Polish, (Brazilian) Portuguese, Russian, Simplified Chinese, 
+          Swedish and Traditional Chinese.
+

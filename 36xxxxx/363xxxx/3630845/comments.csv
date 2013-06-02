@@ -1,0 +1,72 @@
+﻿User Type,Username,Date,Text
+[T],kef71,2007-03-03T09:31Z,"
+Disc 1: http://thepiratebay.org/tor/3627838/Planet_Earth_1
+Disc 2: http://thepiratebay.org/tor/3629264/Planet_Earth_2
+Disc 3: http://thepiratebay.org/tor/3630189/Planet_Earth_3
+
+This release also includes all the DVD covers by Foxxen!"
+[T],kef71,2007-03-03T09:43Z,"EvilRitchy: Thanks a lot. :o)
+Everybody: If you think this is a great series, please consider buying it from http://www.bbcshop.com/"
+,Foxxen,2007-03-03T10:11Z,"Thanx Kef71! :-)
+And I will buy this masterpiece as soon as it comes out with swedish subs! Really worth the money!"
+,nerys,2007-04-08T23:33Z,This is a slightly defective torrent. The ISO is REGION 2 (parts 1 2 and 3 are fine 4 and 5 are region 2) when I rip the disc and reburn it simply says invalid disc in the DVD player (if I play the original burn it says invalid region and the computer says its region 2) how do I fix this? is there a region 1 torrent for discs 4 and 5 ?
+,dbot,2007-04-09T00:30Z,To change the region simply run it through DVD Decrypter 
+,Audiocracy,2007-04-15T09:35Z,"There is one file that preventing this DVD from loading in Region 1 DVD players. You must change the file VIDEO_TS.IFO from Region 2,4 to region free. 
+
+To do this:
+1. Extract the iso or copy the contents off the dvd if you have already burnt it onto the computer.
+2. Use DVD Decrypter to check the region information of the IFO files in the VIDEO_TS folder of the DVD/ISO. (You should only need to do this with VIDEO_TS.IFO as the others are region free)
+DVD Decrypter > Tools > IFO > Region Information > Navigate to the VIDEO_TS folder and select an IFO file
+3. Change the region information of the affected file (VIDEO_TS.IFO) to region free by going to DVD Decrypter > Tools > IFO >  Region Patch > Region Free > Navigate to the VIDEO_TS.IFO file.
+4. Reburn the files onto a DVD."
+,Knivez,2007-04-16T23:07Z,"I use this method to make any DVD Region-free:
+
+Tools needed: Daemon tools and DVD Shrink.
+
+-Mount the iso or img with daemon tools, open DVD-shrink and hit ""open disk"".
+
+-Select the mounted DVD
+
+-Don't do anything if you want the dvd exactly as the image you downloaded.
+
+-Hit ""back up""
+
+-Select region-free and save as ISO image, no transcoding is needed if the source image is a DVD5 (4.7GB)
+
+-Burn your newly created image
+"
+,stressedAsHell,2007-05-01T03:25Z,"If playing the dvd in its original file form on the PC with Deamon simply change the Region to Region 2 in Deamon.
+When I tryed to play this is asked me to change the Region itselves"
+,dooh1324,2007-06-23T13:56Z,Great up. Thanks.
+,airona,2007-07-27T17:25Z,THANKS SO FOR THEESE! Awesome quality and so beatiful movies.. Cant wait until i get down rest of them...
+,RawThang,2007-09-05T06:22Z,Please seed lads
+,mrnforum,2007-09-08T19:09Z,Seeding would be appreciated. At 99.9 as is parts 2 and 3 which ive commented on
+,Welfi,2007-09-29T23:53Z,seed please :) Really want this serie... It's so beautiful!
+,DeLaGoya,2007-12-16T06:24Z,"awesome, thanks!"
+,THE-REVIEW,2008-09-28T12:12Z,"----------------------------------
+Instructions!
+
+To burn this DVD
+1. Download Alcohol 120%
+2. In the program hit image burning wizard
+3. Select the iso. file
+4. Burn (btw...this is a copy of the dvd, so it has menus, ect...)
+
+To watch on computer
+1. Get alcohol 120%
+2. Open the program and go to image finder
+3. hit search...right click on the file and select add to alcohol
+4. Close that window (may need to open alcohol again)
+5. Right click on the file in the main window and select mount on device (pick one. In alcohol you can make virtual drives btw...)
+6. Now the DVD should launch as if in a DVD player. If not go your DVD drive and open it (under my computer)
+7. Thats it!
+8. When you are done, you can un-mount the dvd using step 5
+
+ENJOY!
+-------------------------------- "
+,gatonejo,2009-05-29T02:43Z,"NOTE:
+ THESE ARE ALL PAL and NOT NTSC"
+,harihara,2009-12-05T14:11Z,"Region are not patched! And quality of video is poor!
+I downloaded all 5 dvd via e-mule 2 years ago. But lost 4th and 5th DVDs. I re-download this one. It's a garbage.
+Don't waste your time!"
+,harihara,2009-12-05T14:16Z,p.s. Still search for quality release.....

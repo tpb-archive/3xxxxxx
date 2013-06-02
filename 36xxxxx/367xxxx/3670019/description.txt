@@ -1,0 +1,1606 @@
+Convenience Package 2 for IBM(R) OS/2(R) Warp Server for e-business 
+README
+-----------------------------------------------------------------
+
+This README contains installation instructions and other information 
+for the Convenience Package 2 for IBM OS/2 Warp Server for e-business 
+(hereafter referred to in this document as "WSeb C-Pak2").
+
+If there are any updates to this README after WSeb C-Pak2 ships, the
+updates will be placed on the "Network Computing Software Support 
+News" Web site (also called FIXNEWS). This Web site contains a list 
+of fix-related news items. The Web address for FIXNEWS is:
+ 
+http://ps.software.ibm.com/pbin-usa-ps/getobj.pl?/pdocs-usa/fixnews.html
+
+In addition to this README, a Technical Notes document is provided which
+contains non-installation related technical material and notes on a 
+variety of OS/2 topics. You can view the Technical Notes by opening the 
+Information Folder and clicking the TECHNOTE object.
+--------------------------------------------------------------------
+
+CONTENTS
+--------
+
+Convenience Package 2 for IBM OS/2 Warp Server for e-business 
+Version 4.52 README
+
+   1.0 System prerequisites
+   2.0 Installation instructions
+        2.1  Starting installation with diskettes
+        2.2  Installing from a CD        
+        2.3  Installing Multimedia device support
+        2.4  Installing the WSeb C-Pak2 over a previous 
+             version of OS/2
+        2.5  Installing and updating the HPFS386 feature
+        2.6  Installing a previous version of OS/2 after installing
+             the WSeb C-Pak2
+        2.7  Installing on a hidden partition
+        2.8  Installing on an IBM ThinkPad(R) computer
+        2.9  Customizing installation through a file command
+        2.10 Installing the WSeb C-Pak2 using CID
+        2.11 Troubleshooting installation        
+   3.0 Optional software
+        3.1  USB Support
+        3.2  PCI Yamaha YMF724 (DS-1) audio
+        3.3  PCI Ensoniq ES1371 audio
+        3.4  TrackPoint IV support 
+   4.0 Installing other software        
+        4.1  Installing IBM OS/2 Warp Developer Kit, Java(R) 2 
+             Technology Edition, Version 1.3
+        4.2  Installing Java 1.1.8 components
+        4.3  Updating Java 1.1.8            
+        4.4  UDF restrictions in PM mode
+        4.5  Migrating LAN services
+        4.6  Running a DB/2 server over NetBIOS/TCPBEUI on WSeb C-Pak2
+        4.7  Installing WorkSpace On-Demand 2.0 on a WSeb C-Pak2 server
+        4.8  Installing Netscape 4.61 for WSeb C-Pak2 RIPL clients
+        4.9  Using and Configuring Peer Service on RIPL DOS clients 
+        4.10 Fonts for DBCS users   
+   5.0 Additional Information
+        5.1  README files
+        5.2  Books
+   6.0 Appendix A. Notices
+   7.0 Appendix B. Trademarks
+
+-----------------------------------------------------------------------
+
+
+1.0 SYSTEM PREREQUISITES
+------------------------
+
+The following are the minimum system requirements for the WSeb C-Pak2:
+   
+   * 133 MHz Intel Pentium(R)-compatible CPU
+   * 32MB RAM; 64MB recommended
+   * 120MB for the base installation; 300MB minimum for the base
+     installation plus default installed components; 500MB recommended
+
+Note: 
+     WSeb C-Pak2 migration is supported only over a corresponding
+     C-Pak1 system. Otherwise, you must format the operating system
+     partition.
+
+-----------------------------------------------------------------------
+
+2.0 INSTALLATION INSTRUCTIONS
+-----------------------------
+
+If you must create installation diskettes to start the installation
+process, start with the section titled Starting installation with 
+diskettes and then proceed to the Installing from CD section. If your 
+system can boot from a CD, skip to the section titled Installing 
+from CD. If you have problems installing the WSeb C-Pak2 from CD, 
+follow the instructions below about creating and using installation 
+diskettes.
+
+If you are installing over a previous version of the operating system 
+(also referred to in this document as "migration"), it is important 
+that you follow the steps in this README file, including ensuring that 
+the Multimedia Device Support field on the System Configuration panel 
+is set to None during the initial migration. Multimedia Support 
+requires a second installation step, after completing installation of 
+the base operating system, using Selective Install. See step 7 under 
+Installing from CD and the section titled Migrating Multimedia support.
+
+Note:
+     If you are installing over a previous version of OS/2, you 
+     should back up your system before installing the WSeb C-Pak2. 
+     
+     WSeb C-Pak2 migration is supported only over a corresponding
+     C-Pak1 system. Otherwise, you must format the operating system
+     partition.
+
+2.1 Starting installation with diskettes
+----------------------------------------
+
+To create installation diskettes for installing the WSeb C-Pak2, 
+start with the section titled Starting installation with diskettes. If 
+you need to modify the diskettes for your particular system hardware, 
+see the sections under Modifying the installation diskettes for new 
+hardware.
+
+2.1.1 Creating installation diskettes
+
+If your system cannot boot from the WSeb C-Pak2 Installation CD, or if 
+you need to add device drivers before you begin installation, you must 
+create installation diskettes to start your system and begin the 
+installation process. You can create installation diskettes on any 
+system that is already started and that has a diskette drive and a 
+CD-ROM drive.
+
+To create installation diskettes:
+
+  1. Gather three blank diskettes and the WSeb C-Pak2 CD.
+  2. Label the three diskettes as follows:
+        o Installation Diskette
+        o Diskette 1
+        o Diskette 2
+  3. Insert the WSeb C-Pak2 CD.
+  4. Open an OS/2 window.
+  5. From an OS/2 command prompt, type e: and press Enter (where e: 
+     is the drive letter of the CD-ROM drive).
+  6. At the OS/2 command prompt, type CDINST and press Enter.
+  7. At the prompt Press any key when ready, press a key.
+  8. Insert the blank diskette labeled Diskette 1 and press Enter to 
+     copy the files.
+  9. Remove Diskette 1 from the diskette drive and press Enter.
+ 10. Insert the blank diskette labeled Diskette 2 and press Enter to 
+     copy the files.
+ 11. Remove Diskette 2 from the diskette drive and press Enter.
+ 12. Insert the blank diskette labeled Installation Diskette into the
+     diskette drive and press Enter to copy the files.
+     Note:
+          You are prompted to leave the Installation Diskette in the
+          diskette drive and to restart the system. Do NOT follow the
+          prompt. Instead, continue as instructed below.
+ 13. Remove the Installation Diskette from the diskette drive and 
+     press Enter.
+ 14. Close the OS/2 window.
+
+Now that the installation diskettes are created, you can either add 
+device drivers to them, or you can start the installation process. To 
+modify the installation diskettes for your particular system --for 
+example, to add device drivers to the diskettes-- see Modifying the 
+installation diskettes for new hardware and the sections that follow 
+it. To start the installation process, see Starting the installation 
+process with diskettes.
+
+2.1.2 Modifying the installation diskettes for new hardware
+
+The WSeb C-Pak2 includes support for many device drivers. If, however,
+support for your hardware is not included, you must create 
+installation diskettes, and then add the necessary device drivers to 
+the installation diskettes before starting installation. For example, 
+you might have a hard-disk controller with a CD-ROM drive attached to 
+it that is not supported by the operating system. If during the 
+installation process, you receive a message stating that your CD-ROM 
+drive is not supported, or if you are prompted to insert the CD, the 
+necessary device driver is probably not on the installation diskettes. 
+To locate the device driver you need, either contact the manufacturer 
+of the device or see the OS/2 Device Driver Pak Online at the 
+following Web address:
+ 
+http://service.software.ibm.com/os2ddpak/index.htm
+
+After you obtain the appropriate device driver, you can modify the
+installation diskettes to support the new hardware in one of the 
+following ways:
+
+   * Add a device driver to the installation diskettes.
+   * Replace a device driver on the installation diskettes.
+   * Add parameters to existing device drivers.
+   * If there is not enough space on the installation diskettes to 
+     copy the new device driver, see Creating space on the 
+     installation diskettes for device drivers.
+   * If you want to replace one or more system files with a newer 
+     version, see Replacing system files on the installation diskettes.
+
+Remember, if anything goes wrong, you can always recreate the 
+installation diskettes. See Starting installation with diskettes for 
+information for details.
+
+2.1.3 Adding a device driver to the installation diskettes
+
+Use this procedure when the device driver is new or is not included 
+with the WSeb C-Pak2. If there is not enough space on the installation 
+diskettes to copy the new device driver, see Creating space on the 
+installation diskettes for device drivers.
+
+To add a new device driver to the installation diskettes:
+
+  1. If your device driver requires a BASEDEV= statement in the 
+     CONFIG.SYS file, add your device driver to Diskette 1. 
+     Otherwise, the device driver uses a DEVICE= statement and is 
+     copied to Diskette 2.
+  2. Modify the CONFIG.SYS file on Diskette 1 as follows:
+       a. Make sure the following statement exists in the CONFIG.SYS 
+          file:
+
+          SET SAVECONNECT=1
+
+       b. Add the following statement to ensure that the device driver 
+          is copied throughout the installation process:
+
+          SET COPYFROMFLOPPY=1
+
+       c. Add the appropriate statements to the CONFIG.SYS file:
+
+          BASEDEV=driver_name
+          DEVICE=driver_name
+
+     Note:
+          If the connection to the hard disk or CD-ROM drive is lost 
+          during the installation process or when you restart your 
+          system, make sure the CD-ROM device driver statement is in 
+          the CONFIG.SYS file on the correct diskette, and make sure 
+          that the CD-ROM device driver is copied to the OS2BOOT 
+          directory. All device driver statements must include path 
+          information, such as DEVICE=C:OS2BOOTCOM.SYS.
+
+2.1.4 Replacing a device driver on the installation diskettes
+
+Use this procedure to install a newer version of a device driver that 
+was included with the WSeb C-Pak2. If there is not enough space on the
+installation diskettes to copy the new device driver, see Creating 
+space on the installation diskettes for device drivers.
+
+To replace a device driver that resides on Diskette 1 or Diskette 2:
+
+  1. Copy the new device driver file over the existing file on 
+     Diskette 1 or Diskette 2.
+  2. Add the following statement to the CONFIG.SYS file on 
+     Diskette 1:
+
+     SET COPYFROMFLOPPY=1
+
+The installation program uses the new device driver and copies the
+necessary files to the target volume.
+
+2.1.5 Adding or modifying parameters for existing device drivers
+
+Use this procedure when you need to add or modify parameters to 
+existing device drivers and these parameters must be copied to the 
+target volume during installation.
+
+To add or modify parameters for existing device drivers, modify 
+the CONFIG.SYS file on Diskette 1 as follows:
+
+  1. Add or modify the required parameters for the device driver's 
+     BASEDEV= and DEVICE= statements.
+  2. Make sure that the following statement exists in the CONFIG.SYS 
+     file on Diskette 1:
+
+     SET SAVECONNECT=1
+
+The installation program copies the modified lines to the CONFIG.SYS 
+file on the target volume.
+
+2.1.6 Creating space on the installation diskettes for device drivers
+
+If you must create free space on Diskette 1, depending on your system
+hardware configuration, you can try one or more of the following 
+procedures before you copy the new device drivers to the installation 
+diskettes. For each file you delete from the diskette, you must also 
+remove or comment out the corresponding statement from the CONFIG.SYS 
+file and from the SNOOP.LST file.
+
+   * If you are installing the WSeb C-Pak2 on a system that does not 
+     have a SCSI (Small Computer System Interface) adapter, you can 
+     delete one or more of the following files to free up to 700KB 
+     of diskette space: 
+
+      Filename    Size
+
+      SYM8XX.ADD  63,580
+      SYM_HI.ADD  67,140
+
+   * If you are installing the WSeb C-Pak2 on a SCSI system, 
+     determine which SCSI adapter you are using, and remove the 
+     SCSI drivers that you are not using. If you have a problem 
+     starting the system after removing the SCSI drivers, you have 
+     removed the wrong drivers from Diskette 1. Copy the SCSI drivers 
+     from the original Diskette 1 to the Diskette 1 you modified.
+   * If you are not using a RAID (Redundant Array of Independent 
+     Disks) array system, you can remove the IPSRAID.ADD file to 
+     free 20KB of diskette space.
+
+If you must create free space on Diskette 2, you can 
+remove certain files before you copy the new device drivers 
+to the installation diskettes. To avoid installation problems,
+do not remove any files other than the files listed below.
+Remove one or more of the following files to free up to 89KB of 
+diskette space:
+
+     TEDIT.EXE
+     TEDIT.HLP
+     RMVIEW.EXE
+     RMINFO.DLL
+     NPXEMLTR.DLL
+
+2.1.7 Replacing system files on the installation diskettes
+
+Use this procedure to install a newer version of one or more of the 
+system files included on the Installation Diskette. The system files 
+include the following:
+
+     OS2KRNLI
+     OS2LDR
+     OS2LDR.MSG
+     OS2BOOT
+
+To add a new system file or files to the Installation Diskette:
+
+  1. Copy the new system file or files over the existing file or files 
+     on the Installation Diskette.
+  2. Add the following statement to the CONFIG.SYS file on Diskette 1 
+     to ensure that the new system file or files are copied throughout 
+     the installation process:
+
+     SET COPYFROMFLOPPY=1
+
+2.1.8 Starting the installation process with diskettes
+
+To begin the installation process:
+
+   1. Gather the Installation Diskette, Diskette 1, Diskette 2, 
+      and the WSeb C-Pak2 CD.
+   2. Insert the Installation Diskette, and then when prompted,
+      insert Diskette 1 and Diskette 2.
+   3. Insert the WSeb C-Pak2 CD.
+   4. Turn on or restart the system.
+   5. Proceed as indicated under Installing from CD, picking up at 
+      step 3.
+      For more information, refer to the online help screens by 
+      pressing F1.
+
+2.2 Installing from a CD
+------------------------
+
+To install the WSeb C-Pak2:
+
+  1. Insert the WSeb C-Pak2 Installation CD and restart the system.
+  2. When prompted, remove the CD, insert the WSeb C-Pak2 CD, and 
+     press Enter.
+  3. Follow the prompts on the screen as directed. For more 
+     information, refer to the online help screens by pressing F1.
+  4. When the Installation Volume Selection panel is displayed, 
+     choose to accept the default volume or to specify a different 
+     volume for the installation and press Enter.
+
+     Notes:
+
+       1. WSeb C-Pak2 migration is supported only over a 
+          corresponding C-Pak1 system. Otherwise, you must format 
+          the operating system partition.
+
+       2. If you are installing the WSeb C-Pak2 on a system without 
+          an existing operating system, choose to specify a different 
+          volume. Doing so will start the Logical Volume Manager (LVM) 
+          and enable you to create a new volume for the installation. 
+          After you create a new volume and exit LVM, installation 
+          continues.
+
+       3. If you specify a different volume as the installation 
+          volume, the partition must be set to installable. You can 
+          set the partition to be installable with LVM.
+  5. Select one of the following formatting options to format the
+     installation volume and press Enter:
+
+          Do not format the volume      (migration)
+          Perform a long format         (installation)
+          Perform a quick format        (installation)
+
+  6. If you select either a long or quick format, select the file 
+     system for the installation volume and press Enter. A pop-up 
+     warning about overwriting existing data is displayed. Click OK. 
+     The installation volume is formatted. When the format is 
+     complete, the system is automatically restarted and installation 
+     continues.
+  7. On the System Configuration panels, specify the hardware and 
+     country or region options that you want and click Next. For 
+     information about these options, click Help. If you are installing 
+     over a previous version of the operating system, make sure the 
+     Multimedia Device Support field on the System Configuration panel 
+     is set to None. Multimedia Support requires a second installation 
+     step, using Selective Install, after completing installation of 
+     the base operating system. See "Migrating Multimedia support". This 
+     step is not necessary if you are formatting your install partition 
+     before installation.
+  8. On the Setup and Installation panels, select the operating system
+     features (such as printer utilities) to install and click Next. 
+     For information about these features, click Help. For additional 
+     information, click More. If you want Multimedia Software Support
+     select the Multimedia Software Support check box, even if you 
+     selected None in the Multimedia Device Support field in step 7.
+
+     Note:
+          Multimedia must be installed on the boot drive of the 
+          system.
+
+  9. Click Next to begin component installation.
+ 10. If the Information panel appears, enter your name and company 
+     information into the appropriate fields and click Next.
+ 11. Select the services that you want to install and click Next. 
+     For information about these services, click Help.
+ 12. The Configuration panel is displayed. The installation items 
+     that you can configure are listed on the left side of the window. 
+     The items with green check marks next to them are correctly 
+     configured. Any item with a red arrow next to it must be 
+     configured. 
+
+     To configure an item:
+
+       a. Click the item that you want to configure. The configuration
+          options for that item are displayed on the right side of the
+          window.
+       b. Make your configuration choices for the item.
+       c. When you are finished, click another item from the list to
+          configure.
+ 13. Click Install, and then click OK to complete the installation.
+     
+     Note:
+          Your system is restarted automatically twice during the last
+          phase of installation.
+
+
+2.3 Installing Multimedia device support
+----------------------------------------
+
+This section applies if you are formatting your install partition 
+before you install the WSeb C-Pak2. If you are installing the WSeb 
+C-Pak2 over an existing operating system (also called "migration"), 
+see Migrating Multimedia support. 
+
+Note: 
+     WSeb C-Pak2 migration is supported only over a corresponding
+     C-Pak1 system. Otherwise, you must format the operating system
+     partition.
+
+The installation process does not automatically detect multimedia 
+devices (audio cards); therefore, you must manually select the 
+Multimedia Device Support option during installation if you want 
+to install support for your device and configure its settings. 
+
+If your audio device does not appear in the audio device list during
+system configuration, select "None" and then contact the manufacturer 
+of the device or go to the OS/2 Device Driver Pak Online at the
+following Web address to obtain the driver:
+ 
+http://service.software.ibm.com/os2ddpak/index.htm
+ 
+If you choose not to install support for your multimedia device during 
+installation, you can set the operating system to automatically detect 
+the device and configure its settings after installation, as follows:
+
+  1. Delete the AUDFSAFE.TXT file from the OS2INSTALL directory in 
+     the installation volume. For example, if you installed the 
+     operating system on volume D:, delete the AUDFSAFE.TXT file from 
+     the D:OS2INSTALL directory.
+  2. From the Desktop, double-click OS/2 System.
+  3. Double-click System Setup.
+  4. Double-click Install/Remove.
+  5. Double-click Selective Install. The System Configuration 
+     window displays.
+  6. Click Multimedia Device Support to install multimedia 
+     device drivers and configure the settings. Click Next.
+
+Continue through the subsequent windows until the installation has
+completed.
+
+Note:
+     Multimedia must be installed on the boot drive of the system.
+
+2.3.1 Migrating Multimedia support
+
+Multimedia support requires a second migration step after you have
+completed migrating the base operating system. Additional manual 
+steps might also be necessary to install drivers and locate icons. 
+
+Note: 
+     WSeb C-Pak2 migration is supported only over a corresponding
+     C-Pak1 system. Otherwise, you must format the operating system
+     partition.
+
+2.3.2 Migrating Multimedia
+
+To migrate Multimedia support:
+
+  1. Double click the OS/2 System folder, the System Setup 
+     folder, and the Install/Remove folder, and then start 
+     Selective Install.
+  2. On the first panel, System Configuration, click the icon 
+     to the left of the Multimedia Device Support field. A list of 
+     available drivers displays. If you find the driver that you 
+     want to install, select it. If you do not find the driver, 
+     leave the selection blank. In either case, continue with 
+     Selective Installation to install the rest of the multimedia 
+     support. If the multimedia driver that you want to install is 
+     not in the list, see "Manually installing multimedia drivers" 
+     for information on how to install your driver.
+  3. Click Next to continue with migration.
+  4. At the OS/2 Setup and Installation panel (the third panel), 
+     select the Multimedia Software Support check box.
+     Note:
+          Multimedia must be installed on the boot drive of the 
+          system.
+  5. Select Next to continue with Selective Installation. Follow 
+     the directions on the screen.
+  6. At the end of Selective Install, restart your system. The 
+     multimedia drivers should be working correctly.
+
+2.3.2.1 Manually installing multimedia drivers
+
+For multimedia drivers that do not work after migrating the 
+multimedia support (for example, the VIDRMP.SYS driver for the 
+Real Magic Pro card), you must install the drivers manually.
+
+To install multimedia drivers manually, have your diskette ready, 
+and enter the MINSTALL command from an OS/2 Command Line window. 
+Follow the directions on the screen to complete installation.
+
+2.3.2.2 Recovering multimedia icons
+
+If icons for some of the multimedia programs are missing, open 
+the Previous Desktop folder and use, copy, or drag the icons from 
+there to your new desktop.
+
+2.4 Installing the WSeb C-Pak2 over a previous version of OS/2
+--------------------------------------------------------------
+
+Note:
+     WSeb C-Pak2 migration is supported only over a corresponding
+     C-Pak1 system. Otherwise, you must format the operating system
+     partition.
+
+Read the following information if you are installing the WSeb C-Pak2 
+over a previous version of OS/2. You have three options:
+
+  1. Install the latest FixPaks to attain the most current service
+     level, which is approximately equivalent to C-Pak2.
+  2. Migrate to C-Pak1 and then migrate to C-Pak2.
+  3. Install C-Pak2 and reformat the operating system partition.
+
+2.4.1 TrackPoint IV
+
+If you are installing the WSeb C-Pak2 over WSeb C-Pak1 and have been
+using the TrackPoint IV driver, you must reinstall the driver after
+migration. See the section "TrackPoint IV support" for installation
+instructions.
+
+2.4.2 CHKINST
+
+If CHKINST, a migration utility that scans your system for potential
+migration problems (such as corrupt partitions or LVM-incompatible 
+volumes) fails, check that:
+
+  1. Syntax and parameters passed to CHKINST are correct.
+  2. VCU.EXE and VCU.MSG are in the directory where you are using 
+     CHKINST. If these files are not in the directory, copy them 
+     from the root directory of the CD.
+
+2.4.3 CONFIG.SYS
+
+If you are installing the WSeb C-Pak2 over a previous 
+version of S/2, the installation process automatically migrates 
+your existing CONFIG.SYS file. However, if you changed any of the
+following statements, the changes are not migrated.
+
+   * BUFFERS
+   * FILES
+   * IFS
+   * IOPL
+   * SET
+   * AUTOSTART
+   * SET RESTARTOBJECTS
+   * Other statements that have been added by applications
+
+In audio device driver statements, parameters added after the 
+Device Name parameter are not migrated. For example, in a Pro 
+Audio Spectrum device driver statement, parameters after PAS161$ 
+are not migrated. To preserve your changes to these statements you 
+must manually migrate your CONFIG.SYS file.
+
+2.4.4 Japanese printer drivers
+
+If you are using Japanese 16-bit printer drivers (DESKJET.DRV,
+EPSON.DRV,ESCPAGE.DRV, PMLIPS3.DRV or PSCRIPT.DRV) on your current 
+system and you plan to migrate your system to the WSeb C-Pak2 without 
+formatting, you must manually replace the 16-bit drivers with 32-bit 
+drivers. All the printers supported by 16-bit drivers are supported 
+by 32-bit drivers. Below are the 16-bit printer drivers and their 
+newer equivalents:
+
+ 16-bit driver                       32-bit driver
+
+ DESKJET.DRV                         OMNI.DRV
+ EPSON.DRV                           OMNI.DRV
+ ESPAGE.DRV                          OMNI.DRV
+ PMLIPS3.DRV                         OMNI.DRV
+ PSCRIPT.DRV                         PSCRIPT2.DRV
+
+To install the 32-bit drivers during installation, select from the 
+proper printer model in printer selection panel and continue to install.
+
+To install the 32-bit drivers after installation, use "Selective
+installation" and select the appropriate printer model you want.
+
+Note:
+     OS/2 clients and servers must use the same level printer drivers.
+
+2.4.5 Response file migration
+
+Before performing a response file migration, run CHKDSK on the drive 
+where the operating system is installed to ensure that there are no 
+errors in the file allocation table or directory. If errors are found 
+in the file allocation table or directory, type the following command 
+to repair those errors:
+
+CHKDSK C: /F
+
+where C: is the drive where the operating system is installed.
+
+Note:
+     Using the /F parameter locks the drive that CHKDSK is scanning.
+     Because of this, the drive to be fixed cannot be the startup 
+     drive or the drive that contains the CHKDSK program. For more 
+     information about CHKDSK, see the Command Reference.
+
+2.4.6 Multiple SOMIR statements in CONFIG.SYS
+
+If you are installing the WSeb C-Pak2 over an existing copy of 
+the OS/2 operating system, after installation is complete, check your 
+CONFIG.SYS file to verify that you only have one SET SOMIR= statement. 
+If you find more than one, merge the two copies into a single 
+statement (eliminating any duplicate entries).
+
+2.4.7 LAN Distance Connection Server
+
+The WSeb C-Pak2 cannot be installed over a previously installed LAN
+Distance(R) Connection Server or LAN Distance Remote Server. Run 
+LDREMOVE to remove LAN Distance Connection Server before installing 
+the WSeb C-Pak2.
+
+If you plan to upgrade an installed LAN Distance Connection Server, 
+backup your current security user definition file before you run 
+LDREMOVE. The existing user definition file is overwritten during 
+the installation process.
+
+To backup the user definition file, copy the file named 
+WCBUSRF.ISF from the WAL directory onto a diskette. (This file 
+contains the user definitions.) After the installation of the 
+WSeb C-Pak2 is completed, copy the backed up file from the diskette 
+into the WAL directory.
+
+2.5 Installing and updating the HPFS386 feature
+-----------------------------------------------
+
+The old version of 386 HPFS (High Performance File System) access 
+control lists must be removed before migrating the operating system.
+
+To remove 386 HPFS access controls:
+
+  1. Stop the server by issuing the following command:
+
+     NET STOP SERVER
+
+  2. Type the following command to remove 386 HPFS access controls:
+
+     PREPACL /P /B:filename /D:drive
+
+     where /B:filename specifies a temporary file name to save the 
+     access controls to and /D:drive specifies the drive where the 
+     access controls currently reside.
+  3. Shut down and restart your computer.
+     
+     Note:
+          When removing 386 HPFS access controls, specify a unique 
+          output file for PREPACL. If you specify a file that 
+          already exists, PREPACL overwrites the file and loses the 
+          ACL information you stored when you first ran PREPACL.
+
+If you are installing the WSeb C-Pak2 on an empty volume, or if 
+you format the volume during installation, you must reinstall 
+the HPFS386 feature from your original WSeb CD.
+
+After completing the installation, you must update your HPFS386 
+feature to the latest fix level. You can get FixPak IP_8605 
+from one of the following Web sites:
+
+   * http://service.boulder.ibm.com in the
+     /ps/products/lan/fixes/warp_srv_e-bus directory
+   * http://ps.software.ibm.com
+
+If you are installing the WSeb C-Pak2 over a previous version of 
+Warp Server for e-business, you only need to install the FixPak.
+
+Note: 
+     WSeb C-Pak2 migration is supported only over a corresponding
+     C-Pak1 system. Otherwise, you must format the operating system
+     partition.
+
+2.6 Installing a previous version of OS/2 after installing the 
+WSeb C-Pak2
+----------------------------------------------------------------
+
+The WSeb C-Pak2 uses the Logical Volume Manager (LVM) to configure 
+and manage disk drives on the system. LVM replaces FDISK. Because 
+of this, if you want to install an older version of OS/2 (such as 
+OS/2 Warp 4.0) on the same computer as the WSeb C-Pak2, you must 
+use both LVM and FDISK during installation. After installation, use 
+LVM for all disk management.
+
+To install a previous version of OS/2 on the same computer as the 
+WSeb C-Pak2:
+
+  1. From the WSeb C-Pak2, use LVM to create an installable volume 
+     for the OS/2 version you want to install.
+       a. Start LVM by typing the following command at the command 
+          line:
+
+          lvm /si:fs /size:120
+
+       b. Install Boot Manager, if it is not already installed.
+       c. Create a compatibility volume for the OS/2 version.
+       d. Mark the compatibility volume as installable.
+       e. Save your changes and exit LVM.
+  2. Locate the installation diskettes for the OS/2 version. Replace 
+     all of the device drivers on the diskettes with their 
+     counterparts from the WSeb C-Pak2. Do not replace any of the 
+     device managers (.DMD files).
+  3. Add the following line to the CONFIG.SYS file on the OS/2 
+     installation diskettes:
+
+     SET COPYFROMFLOPPY=1
+
+  4. Install the OS/2 version.
+       a. Boot the system using the OS/2 installation diskettes you 
+          updated in step 2. Begin the installation process.
+       b. When you are asked to select a drive for the installation, 
+          do not accept the default. FDISK is displayed.
+       c. Find the FDISK partition you marked installable with LVM. 
+          (It appears with "--> LVM*" next to the name.)
+       d. Use FDISK to mark this partition installable. Press F1 
+          for help instructions on using FDISK.
+          Note:
+               Do not use FDISK to do anything other than mark the
+               partition installable.
+       e. Save and exit FDISK. The installation window displays.
+       f. Accept the default drive and continue with the 
+          installation.
+
+          Note:
+               FDISK is not supported as part of the WSeb C-Pak2. 
+               Any use of FDISK beyond the scope of these instructions 
+               could harm your system. Use LVM for any disk management.
+
+2.7 Installing on a hidden partition
+------------------------------------
+
+If you are going to install the WSeb C-Pak2 on a hidden primary 
+partition on a machine with multiple, hidden, primary partitions, you 
+must follow this procedure. This procedure is not necessary if you 
+are installing on a logical drive in an extended partition.
+
+As you are going through the installation process, a panel displays 
+that identifies the target partition where the operating system will 
+be installed. Do not accept the default drive; it might be pointing 
+at the wrong primary partition. Select the second option, Select 
+another drive, which starts the Logical Volume Manager (LVM) 
+program.
+
+The last drive you booted from (usually C:), should be highlighted. 
+If this is not the drive you intend to install to, press Enter and 
+select Hide Drive From OS/2.
+
+Next, highlight the volume on which you want to install the 
+operating system. Press Enter and select Change Drive Letter. The 
+default should be C: and you should select it.
+
+Select that the volume should be bootable, and supply a name for 
+the Boot Manager menu. With the new C: still highlighted, press 
+Enter again, and set the drive Installable.
+
+Press F3 to exit LVM, saving the changes. You will have to restart 
+the machine, as drive letters have changed.
+
+When you return to the panel that identifies the target partition 
+where the operating system will be installed, select the second 
+option again, to check that the proper drive is selected. Then 
+press F3 to return (you do not need to save again) and continue 
+with installation.
+
+Note:
+     After you have used LVM on your physical disk drives, you 
+     cannot use FDISK from Warp to work with your drives. The LVM 
+     program creates a compatibility volume, and replaces the drive 
+     names with "->LVM". From this point on, you must use LVM to 
+     manage your disk partitions.
+
+
+2.8 Installing on an IBM ThinkPad(R) computer
+---------------------------------------------
+
+The following IBM ThinkPad installation options are not supported 
+on the WSeb C-Pak2:
+
+   * Warm Docking support
+   * Infrared support
+
+If you are installing the WSeb C-Pak2 over C-Pak1 and have 
+been using the TrackPoint IV driver, you must reinstall the driver 
+after migration. See the section "TrackPoint IV support" for 
+installation instructions.
+
+2.8.1 System Hang or Hard Drive Hesitation
+
+The problem is the IDE chip sets on certain planars signal that they 
+support bus mastering but actually have a defect that prevents it 
+from working correctly. The driver detects bus mastering support, 
+enables bus mastering, and attempts to use it. Some symptoms are: 
+
+   * System does not restart with IBM1S506.ADD
+   * CHKDSK command does not work properly
+   * Hard drive stops or hesitates for minutes at a time
+
+This is a known problem with ThinkPad models 760E/ED/ELD/EL. 
+However the chip set can, and does, appear on planars of other 
+manufacturers. To correct the problem: 
+
+   1. Edit the CONFIG.SYS file on Diskette 1 or the boot drive. 
+   2. Disable bus mastering by adding the /!BM parameter to the 
+      BASEDEV statement defining the driver; for example: 
+ 
+      BASEDEV=IBM1S506.ADD /A:0 /!BM /A:1 /!BM 
+
+   3. Save the changes and restart the system.
+
+2.8.2 IBM Ultrabay(TM) and WarmSwap problems on IBM "T" and 
+600-line ThinkPad computers
+
+If you installed the appropriate UltraBay and WarmSwap support on 
+a "T" or 600-line ThinkPad computer, the secondary IDE channel must be 
+enabled in order for WarmSwap to function correctly.
+
+To enable the secondary IDE channel, the Configuration Utility 
+for DOS must be installed. If you need instructions on how to install 
+the Configuration Utility for DOS, refer to its manual. If this utility 
+is already installed, enable the secondary IDE channel by completing 
+the following steps:
+
+  1. Open a DOS window and go to the directory where the PS2.EXE is
+     located.
+  2. Type the following command:
+
+     PS2.EXE ? IDE2
+
+     This command provides the information on the current secondary 
+     IDE state. If the current state is Enable, go to step 5.
+  3. If the current state is Disable, you must change it to Enable
+     by entering the following command from the DOS command line:
+
+     PS2.EXE IDE2 Enable
+
+  4. Go to step 2 to verify if secondary IDE is enabled.
+  5. Close the DOS session. Reboot the ThinkPad if there was a 
+     request in step 3.
+
+2.8.3 USB port support for IBM ThinkPad docking stations
+
+To support the USB port on ThinkPad docking stations:
+
+  1. Open the CONFIG.SYS file in a text editor.
+  2. Add the following statement:
+
+     BASEDEV=USBUHCD2.SYS
+
+  3. Save and close the file.
+  4. Shutdown and restart your operating system after you have 
+     finished.
+
+2.9 Customizing installation through a file command
+----------------------------------------------------
+
+Note:
+     This procedure is only for experienced REXX programmers.
+
+To automatically update or add additional device drivers and other 
+system files during the initial installation and to prevent these 
+device drivers from being replaced by older versions, write a REXX 
+command file, INSTEXIT.CMD. This command file is executed at defined 
+points during the installation process, accesses the hard disk of 
+the target machine, and can make additional configuration changes 
+or copy additional files. The INSTEXIT.CMD can be placed on any of 
+the installation diskettes (and therefore is not applicable if you 
+install from CD).
+
+2.9.1 Installation phases
+
+The INSTEXIT.CMD file is called during the different phases of
+installation. The installation phases are described below:
+
+ Phase 1         The installation volume is selected and formatted. 
+                 The base OS/2 operating system files are copied.
+ Phase 2         Hardware, software, and networking products are 
+                 selected and configured. The remainder of the 
+                 operating system is installed.
+ Phase 3         Networking products are installed.
+
+2.9.2 INSTEXIT calls during installation
+
+The INSTEXIT.CMD file is called two times during installation; 
+during Phase 1 and during Phase 3. INSTEXIT is also called once 
+during Selective Install for Networking.
+
+   * Phase 1: The installation program calls the INSTEXIT.CMD 
+     file before the first reboot during installation. The following 
+     parameters are passed:
+       1. The target drive letter (example C).
+       2. The CD-ROM drive letter (example E).
+       3. The word PHASE1 to indicate the exit is being called in 
+          Phase 1 of installation.
+
+Example call:
+
+instexit.cmd C E PHASE1 1>nul 2>&1
+
+The INSTEXIT.CMD return code is logged in IBMINSTLOGSCONINST.LOG. 
+After INSTEXIT.CMD completes, installation continues.
+
+   * Phase 3: The installation program calls the INSTEXIT.CMD file 
+     at the end of Phase 3 if the file exists in the root directory 
+     of the installation volume. If the file is found, the install 
+     shield is disabled. The following parameters are passed:
+       1. The target drive letter (example C).
+       2. The CD-ROM drive letter (example E).
+       3. The word PHASE3 to indicate the exit is being called in 
+          Phase 3 of installation.
+
+Example call:
+
+instexit.cmd C E PHASE3
+
+The INSTEXIT.CMD return code is logged in OS2INSTALLNPINST.PRD. 
+After INSTEXIT.CMD completes, the install shield is restored and 
+the system automatically restarts.
+
+   * Selective Install for Networking: The installation program 
+     calls the INSTEXIT.CMD file at the end of Selective Install
+     if the file exists in the root directory of the installation 
+     volume. If the file is found, the install shield is disabled. 
+     The following parameters are passed:
+       1. The target drive letter (example C).
+       2. The CD-ROM drive letter (example E).
+       3. The word SELECT to indicate the exit is being called by 
+          Selective Install for Networking.
+
+Example call:
+
+instexit.cmd C E SELECT
+
+The INSTEXIT.CMD return code is logged in OS2INSTALLNPINST.PRD. 
+After INSTEXIT.CMD completes, the install shield is restored and 
+the system automatically restarts.
+
+Notes:
+
+  1. You must remove the exit command at the end of installation or
+     properly use the third input parameter to ensure proper 
+     processing in the exit for all three types of calls (Phase 1, 
+     Phase 3, and Selective Install for Networking).
+
+  2. During the call in Phase 3, some files for products installed 
+     might be locked until the system is restarted.
+
+  3. During Phase 1, user input prompts must be written using 
+     VIO calls. During Phase 3 and Selective Install for Networking, 
+     input can be made using REXX I/O methods. Alternately, REXX can 
+     call a program executable file to do user prompting.
+
+  4. The install shield is disabled during Phase 3 and Selective 
+     Install for Networking so your exit command can prompt users to 
+     insert your device driver diskette or provide other instructions. 
+     When the install shield is disabled, users can see the WSeb 
+     C-Pak2 Desktop. Discourage users from accessing the Desktop when 
+     the install shield is disabled.
+
+2.9.3 Sample INSTEXIT.CMD File
+
+You can use the following sample file as a template.
+
+/* REXX COMMAND FILE                                         */
+/* Installation Exit                                         */
+parse arg targetdrive cddrive installphase
+if installphase = 'PHASE1' then do
+ /* phase 1 processing */
+end
+if installphase = 'PHASE3' | installphase = 'SELECT' then do
+  /* phase 3 and selective install for networking processing */
+     end
+if installphase = 'PHASE3' then do
+ /* phase 3 specific processing */
+end
+return 0
+
+2.10 Installing the WSeb C-Pak2 using CID
+-----------------------------------------
+
+This section explains CID installation issues that were not included 
+with the README.CID file (see the section named README files).
+ 
+Note: 
+     WSeb C-Pak2 migration is supported only over a corresponding
+     C-Pak1 system. Otherwise, you must format the operating system
+     partition.
+
+2.10.1 CID migration of a C-Pak1 NLV version to a 
+C-Pak2 US-English version
+
+Some versions of C-Pak1 do not have an equivelant version of C-Pak2.
+In these circumstances, migrate to the US-English version of C-Pak2.
+During a CID install of Netscape 4.61, you would normally use the
+/A:U parameter to migrate to the updated Netscape in C-Pak2. This 
+however fails in this instance because you are migrating from one 
+language to a different language. For this situation, use the /A:I 
+parameter as if this was an initial installation, and the migration 
+completes successfully.
+
+2.10.2 Performance Tuning Assistant
+
+Note that the Performance Tuning Assistant (NSTUNE.EXE) is now 
+informational only. It provides a starting point from which you
+can begin tuning your servers and clients, but the "Apply" button
+has been disabled and the program does not make changes to your
+files.
+
+If you install one of the following components using CID and plan 
+to run the Performance Tuning Assistant, and if you want the 
+Performance Tuning Assistant to consider that component, you must 
+create a file named NPCONFIG.CFG in the OS2INSTALL directory on 
+the root drive of your system. This file contains information about 
+the component that the Performance Tuning Assistant uses. Available 
+components include:
+
+   * Remote Access Services
+   * Personally Safe 'n' Sound
+
+To create a NPCONFIG.CFG file:
+
+  1. Create a blank document with a text editor.
+  2. Add the following line:
+
+      All_Products=[component]
+
+     The parameters for the component are as follows:
+
+     PPPSRV (Remote Access Services)
+
+     PSNS (Personally Safe 'n' Sound)
+     Note:
+          You can add more than one component to the All_Products 
+          line by separating each parameter with spaces.
+  3. Save the file as C:OS2INSTALLNPCONFIG.CFG (where C: is 
+     the drive letter to which you installed).
+
+2.10.3 ClassPath entries
+
+If you perform a CID installation of IBM OS/2 Warp Developer Kit, 
+Java Technology Edition, Version 1.1.8 (JDK) to a volume other than 
+the boot volume, verify that the ClassPath entry in the CONFIG.SYS 
+file is correct after installation. If the ClassPath entry points 
+to the JAVA11 directory on the boot volume, correct the entry as 
+follows:
+
+  1. Open the CONFIG.SYS file in a text editor.
+  2. Find the ClassPath entry.
+  3. Change the drive letter from the boot volume to the volume 
+     on which you installed the JDK.
+  4. Save the CONFIG.SYS file, and then restart the system.
+
+2.11 Troubleshooting installation
+---------------------------------
+
+There are problems that might occur in certain circumstances during
+installation of the WSeb C-Pak2. This section lists some of the 
+known installation problems.
+
+2.11.1 Installing the Java demos on a drive other than the boot drive
+
+If you do not install the IBM OS/2 Warp Developer Kit, Java 
+Technology Edition, Version 1.1.8 (Java Technology Edition) on the 
+boot drive (for example, C:), the Java demos do not install correctly. 
+If you install the Java Technology Edition on a drive other than the 
+boot drive and you want the demos, you must install the Java 
+Technology Edition using Selective Install.
+
+If you install the Java Technology Edition on the boot drive, the 
+demos install correctly.
+
+2.11.2 WINOS2 installation dialog box
+
+When installing one language's version of WINOS2 over another's, you 
+might see a dialog box titled "Display Driver Install" that 
+notifies you that the version of a file being installed is older than 
+the version of the file that is already installed. The dialog box 
+prompts you for verification that you want to overwrite the target 
+file. The correct response is to accept the version being installed.
+
+2.11.3 Volume and partition errors
+
+You might experience problems during installation if your system BIOS 
+is unable to handle Logical Block Addressing (LBA) for drives over a
+particular size. This might cause the following errors:
+
+   * LVM does not allow bootable volumes to be created past the 
+     first 1024 cylinders of a disk, even though LBA mode is enabled 
+     in the BIOS. An error message might appear stating that bootable 
+     partitions must reside within the first 1024 cylinders of the disk.
+   * Installation proceeds normally through the Phase 1 (text mode). 
+     When you restart the system as instructed, any of the following 
+     errors might occur:
+        o Missing operating system. System halted message appears
+        o Boot Manager reports selected partition not formatted, even
+          though the partition is formatted and can be accessed when 
+          the system is booted from diskettes.
+        o Systems hangs at blinking cursor. ## OS/2 logo never 
+          appears.
+
+If any of these problems occur, try the following solutions:
+
+   * Make sure LBA mode is enabled within the system BIOS for your
+     system. See the documentation that came with your system for 
+     details on how to do this.
+
+     Note:
+          If you make changes to the LBA settings in BIOS, you must
+          repartition the hard disk.
+   * Contact the system manufacturer for a BIOS update.
+   * Common drive limits are 4.3GB and 8.4GB for newer systems. Check 
+     the documentation that came with your system or with your system
+     manufacturer to determine the largest bootable device that your 
+     system supports.
+   * Put the boot volume within the first 2GB of the drive.
+   * Disable LBA in the system BIOS, and ensure that the boot volume
+     resides within the first 500M of the drive.
+
+     Notes:
+
+       1. If you make changes to the LBA settings in BIOS, you must
+          repartition the hard disk.
+
+       2. Some drives have jumpers that can be set to overcome 
+          incompatible BIOS. Check the drive documentation for details.
+
+       3. Setting these jumpers typically reduces the usable space on 
+          the drive and requires you to repartition the drive.
+
+2.11.4 Error Code 1208 installing File and Print Services
+
+If the available space on the installation volume is between 4096MB and
+4098MB, the WSeb C-Pak2 might fail to install. The resulting error 
+message indicates that File and Print Services failed to install with 
+error code 1208.
+
+To solve the problem, copy one or more large files to a temporary 
+directory on the installation volume until the available space on the 
+volume is less than 4095MB. Then start the installation process again.
+
+After the WSeb C-Pak2 is installed successfully, remove the large 
+files that you copied to the temporary directory.
+
+2.11.5 Error message from the IBMINT13.I13 driver
+
+The following message is displayed if the IBMINT13.I13 driver 
+encounters a drive whose geometry cannot be determined or the drive 
+is greater than 8GB:
+
+ SYS732: IBMINT13.i13 found a drive greater than 8GB
+
+This message indicates there is a large drive on the system and it
+requires the appropriate OS/2 device driver to operate it. Refer 
+to the section "Modifying the installation diskettes" for new 
+hardware for details on how to correct this problem.
+
+2.11.6 IBM Ultrabay(TM) and WarmSwap problems on IBM "T" and 
+600-line ThinkPad computers
+
+If you installed the appropriate UltraBay and WarmSwap support on 
+a "T" or 600-line ThinkPad computer, the secondary IDE channel must be 
+enabled in order for WarmSwap to function correctly.
+
+To enable the secondary IDE channel, the Configuration Utility 
+for DOS must be installed. If you need instructions on how to install 
+the Configuration Utility for DOS, refer to its manual. If this utility 
+is already installed, enable the secondary IDE channel by completing 
+the following steps:
+
+  1. Open a DOS window and go to the directory where the PS2.EXE is
+     located.
+  2. Type the following command:
+
+     PS2.EXE ? IDE2
+
+     This command provides the information on the current secondary 
+     IDE state. If the current state is Enable, go to step 5.
+  3. If the current state is Disable, you must change it to Enable
+     by entering the following command from the DOS command line:
+
+     PS2.EXE IDE2 Enable
+
+  4. Go to step 2 to verify if secondary IDE is enabled.
+  5. Close the DOS session. Reboot the ThinkPad if there was a 
+     request in step 3.
+
+------------------------------------------------------------------------
+
+3.0 OPTIONAL SOFTWARE
+---------------------
+
+The WSeb C-Pak2 CD includes support for the following optional 
+software:
+
+   * Universal Serial Bus (USB) Devices
+   * Yamaha PCI audio adapters  
+   * Ensoniq PCI audio adapters   
+   * TrackPoint IV support
+
+3.1 USB Support
+---------------
+
+The USB base device drivers support the keyboard, mouse, speakers,
+modem, floppy disk drives, LS-120 drives, ZIP 100 drives, ZIP 250 
+drives, CD-ROM drives and CD/RW drives.
+
+3.1.1 Activating USB support
+
+The base USB stack and device drivers are already installed on 
+your hard file. To activate the stack and device drivers, follow
+the instructions below. You must activate the base USB stack. 
+Activating the base USB device drivers is optional.
+
+To activate the base USB stack (required):
+
+  1. Remove the REM from the following statements in the 
+     CONFIG.SYS file:
+
+       REM BASEDEV=USBUHCD.SYS
+       REM BASEDEV=USBD.SYS /REQ:USBUHCD$
+       REM BASEDEV=USBHID.SYS
+
+  2. Save the CONFIG.SYS file and reboot.
+
+To activate the base USB device drivers (optional):
+
+  1. In the CONFIG.SYS file, remove the REM for each of the 
+     devices you want to use. The devices in the CONFIG.SYS 
+     file are:
+
+       REM DEVICE=D:OS2BOOTUSBCOM.SYS     (Serial Port)
+       REM BASEDEV=USBMSD.ADD                (FDD, LS-120, ZIP drives)
+       REM BASEDEV=USBCDROM.ADD              (CDROM)
+       REM DEVICE=D:OS2BOOTUSBKBD.SYS     (Keyboard)
+       REM DEVICE=D:OS2BOOTUSBMOUSE.SYS   (Mouse)
+
+  2. Save the CONFIG.SYS file and reboot.
+
+3.1.2 USB audio
+
+To install support for USB audio:
+
+  1. Insert the WSeb C-Pak2 CD.
+  2. At a command prompt, change to the x:optionsUSBaudio 
+     directory, where x: is the CD-ROM drive.
+  3. Type MINSTALL.
+
+3.1.3 USB printer support
+
+To install or upgrade USB printer support:
+
+  1. Open an OS/2 Command Line window.
+  2. Using the MD command, create a temporary work directory
+     on your hard disk and CD into it.
+  3. From the newly-created temporary work directory created 
+     in step 2, type the following command:
+
+     x:OPTIONSUSBPRINTUSBPRT yy
+
+     Where x: is the drive letter assigned to your CD-ROM 
+     drive, and yy is the national language you wish to install
+     (for example, set yy to EN to install English).
+  4. Open the existing printer object properties window. If you 
+     do not have an existing printer object, create a new one.
+  5. Select the Output Port page.
+  6. Right-click on the LPT1 port icon, and select the Install 
+     menu option. Once the dialog has opened, click Install 
+     new port.
+  7. Once the Install New Port dialog opens, select the New port 
+     drivers radio button in the Port Drive Selection section, 
+     and enter the path to your temporary working directory into 
+     the Directory field.
+  8. Click Refresh.
+  9. Select the USB port and click Install.
+ 10. Shutdown and restart your operating system after you have 
+     finished.
+
+3.2 PCI Yamaha YMF724 (DS-1) audio
+----------------------------------
+
+To install support for PCI Yamaha YMF724 (DS-1) audio:
+
+  1. Insert the WSeb C-Pak2 CD.
+  2. At a command prompt, change to the x:optionsYamaha 
+     directory, where x: is the CD-ROM drive.
+  3. Type MINSTALL.
+
+3.3 PCI Ensoniq ES1371 audio
+----------------------------
+
+To install support for PCI Ensoniq ES1371 audio:
+
+  1. Insert the WSeb C-Pak2 CD.
+  2. At a command prompt, change to the x:optionsEnsoniq 
+     directory, where x: is the CD-ROM drive.
+  3. Type MINSTALL.
+
+3.4 TrackPoint IV Support
+-------------------------
+
+To install TrackPoint IV support:
+
+  1. Insert the WSeb C-Pak2 CD.
+  2. At the command prompt, change to the x:optionsTP4zz
+     directory, where x: is the CD-ROM drive and zz is the
+     national language.
+  3. Type INSTALL.   
+ 
+--------------------------------------------------------------------
+
+4.0 INSTALLING OTHER SOFTWARE
+-----------------------------
+
+You might need to take some extra steps when installing certain
+other software packages on the WSeb C-Pak2.
+
+4.1 Installing IBM OS/2 Warp Developer Kit, Java(R) 2 
+Technology Edition, Version 1.3
+--------------------------------------------------
+
+Netscape Communicator must be installed on your system before
+you can install IBM OS/2 Warp Developer Kit, Java 2 Technology 
+Edition, Version 1.3 (IBM Developer Kit V1.3) on the WSeb C-Pak2.
+To install the IBM Developer Kit:
+
+  1. Insert the WSeb C-Pak2 CD.
+  2. Open an OS/2 window.
+  3. Type J13KICK on the command line.
+  4. Follow the installation instructions on the screen.
+
+4.1.1 Setting up font directories for OS/2 Warp Developer Kit,
+Java 2 Technology Edition, Version 1.3
+
+By default, OS/2 Warp Developer Kit, Java 2 Technology Edition,
+Version 1.3 assumes that the system fonts are installed on the
+boot drive in the PSFONTS directory. If you install fonts on 
+other drives, including, for example, the JAVA13JRELIBFONTS
+directory, you must set the JAVA_FONTS environment variable in
+the CONFIG.SYS file.
+
+For example, if you install OS/2 on the C: drive, then you 
+install some Chinese OS/2 system fonts on the E: drive, then 
+you install the Java fonts on the D: drive, you must use the 
+JAVA_FONTS variable. Otherwise, the Chinese characters might
+not display correctly in programs that use the Java GUI 
+(graphical user environment), such as TCPCFG2 or LVMGUI. To
+correct this, you must add the following line to your 
+CONFIG.SYS file:
+
+SET JAVA_FONTS=C:PSFONTS;E:PSFONTS;D:JAVA13JRELIBFONTS;
+
+You must restart your system for the change to take effect.
+
+4.2 Installing Java 1.1.8 components
+------------------------------------
+
+The WSeb C-Pak2 automatically installs the Java 1.1.8 Runtime,
+RMI Runtime and the Swing Runtime components. The runtime and 
+toolkit components have been updated to the o118-20001004 
+service level.
+
+The Debugger, Toolkits and Samples are not automatically 
+installed from the WSeb C-Pak2 installation program. If you want
+to install these additional components, follow these steps:
+
+  1. Insert the WSeb C-Pak2 CD.
+  2. Create a temporary directory on a drive with approximately
+     100MB of free disk space.
+  3. CD into this directory and run the following commands:
+
+     y:javainrt -d
+     y:javainsr -d -ov
+     y:javainrm -d -ov
+     y:javainst -d -ov
+     y:javaintk -d -ov
+
+     Where y: is the CD-ROM drive.
+  4. Type install from the temporary directory. This starts
+     Netscape, which is used to install the rest of the Java 
+     components.
+
+4.3 Updating Java 1.1.8 
+-----------------------
+
+The Convenience Package includes Java (TM) 1.1.8 at the latest
+service level as of the date of the Convenience Package. Because 
+Java 1.1.8 may be frequently updated, there may be updates to 
+Java 1.1.8.
+
+The following are the most recent version of the Java 1.1.8 
+update files:
+
+   * runtime.exe            Runtime files which are always required
+   * toolkit.exe            Toolkit required to develop Java programs
+   * samples.exe            Sample Java programs
+   * os2jre.exe             Java Runtime Environment if required
+   * rmi-iiop-toolkit.exe   Remote Method Invocation - 
+                            Internet Inter Orb Protocol if required
+
+These files can be found at the following ftp site:
+
+  ftp://ftp.hursley.ibm.com/pub/java/fixes
+
+To update Java 1.1.8, use the following steps after Convenience 
+Package installation:
+
+
+  1. Stop any JVMs that use files in the JAVA11 directory 
+     before updating Java 1.1.8.
+  2. Copy the update file or files to the root directory 
+     where Java 1.1.8 is installed. For example, if Java 1.1.8 
+     is installed in the D:JAVA11 directory, copy 
+     RUNTIME.EXE to D:.
+  3. Type the following command from an OS/2 command line 
+     to run RUNTIME.EXE:
+ 
+     runtime -o
+
+  4. Perform each desired update in turn.
+
+The Java 1.1.8 directories and files are automatically updated.
+
+4.4 UDF restrictions in PM mode
+-------------------------------
+
+The current version of UDF file system driver does not 
+support PMFORMAT and PMCHKDSK utilities. You cannot use a 
+PM application to:
+
+   * Format (PMFORMAT) a writable CD or DVD.
+   * Check disk (PMCHKDSK) a CD or DVD.
+
+4.5 Migrating LAN services
+--------------------------
+
+Note: 
+     WSeb C-Pak2 migration is supported only over a corresponding
+     C-Pak1 system. Otherwise, you must format the operating system
+     partition.
+
+CID installation of IBM LAN service components in unattended mode 
+involves use of response files. Sample response files are
+available on the OS/2 Installation CD.
+
+Use the response files for an initial CID installation of 
+WSeb C-Pak2. When migrating, use LANINST on a server machine to
+create both server and client response files.
+
+When installing LAN service components on a system already 
+installed,you cannot omit any components that were installed 
+previously.
+
+When running LANINST to create a server response file, use the
+"Install or remove a component" and "Configure a component" 
+options to apply the changes.
+
+For CID migration on a server or client, select the "Update" or 
+"Install if required" option for migrating currently installed 
+components to the new level being installed.
+
+4.6 Running a DB/2 server over NetBIOS/TCPBEUI on WSeb C-Pak2
+-------------------------------------------------------------
+
+A DB/2 server running on an OS/2 machine and using 
+NetBIOS/TCPBEUI as the underlying transport mechanism, needs 
+resources such as NAMES,SESSIONS, NCBS and so on. Because the 
+LAN Server is also running on the same machine, the DB/2 server 
+might not start successfully because of contention for these 
+resources. Because of this contention, you must configure an 
+additional logical adapter for the transport mechanism used.
+
+There are two workarounds to the above problem:
+
+  1. Use two network adapters, configured with TCP/IP and 
+     NETBIOS respectively.
+  2. Create another logical instance for the single adapter.
+
+If using the second workaround, make the following additions
+in the Protocol.ini file to create a logical adapter:
+
+  1. Add the following line in the [NetBIOS] section:
+
+     [netbios]
+
+     Adapterx=netbeui$,x
+
+     Where x is the logical adapter number.
+  2. Add the following line in the [netbeui_nif]/[tcpbeui_nif]
+     section:
+
+     Bindings=IBMy_nif,IBMy_nif
+
+     Where y is the token ring / Ethernet driver name.
+  3. Save the changes in the updated Protocol.ini file.
+  4. Run LANINST to configure the server and adapters again.
+
+     This step modifies the network adapters and protocols in MPTS
+     and also updates the IBMLAN.INI and CONFIG.SYS files.
+  5. Shutdown and restart the system.
+
+4.7 Installing WorkSpace On-Demand 2.0 on a WSeb C-Pak2 server
+--------------------------------------------------------------
+
+To install IBM WorkSpace On-Demand 2.0 OS/2 Client (WorkSpace) 
+on a WSeb C-Pak2 server, you must take these extra steps.
+
+There are two methods for installing WorkSpace On-Demand 2.0 
+on a WSeb C-Pak2 server. The first is a CID installation;
+the second is a manual installation.
+
+4.7.1 CID installation of WorkSpace On-Demand 2.0
+
+To install WorkSpace using a CID installation, you must use
+a version of SYSLEVEL.OS2 from a previous OS/2 Warp Server 
+for e-business system.
+
+SYSLEVEL.OS2 is in the OS2INSTALL directory on your system's
+OS/2 boot drive. When you have a copy of this file, 
+follow these steps:
+
+  1. Save your current SYSLEVEL.OS2 file by renaming it 
+     to SYSLEVEL.ORG.
+  2. Copy the version of SYSLEVEL.OS2 from the previous OS/2 
+     Warp Server for e-business system to the OS2INSTALL 
+     directory on the boot drive of your new machine.
+  3. Install WorkSpace on your new machine.
+  4. After you have restarted your system, delete the 
+     SYSLEVEL.OS2 from the previous OS/2 Warp Server 
+     for e-business system and rename SYSLEVEL.ORG back 
+     to SYSLEVEL.OS2.
+
+4.7.2 Manual installation of WorkSpace On-Demand 2.0
+
+To install WorkSpace manually, perform the following steps:
+
+  1. Insert the WorkSpace On-Demand 2.0 CD.
+  2. Enter CD x:, where x: is the drive letter assigned to 
+     the CD-ROM drive.
+  3. Type the following command to start the installation:
+
+     install -nocheck
+
+  4. On the WorkSpace On-Demand Installation Panel, make sure 
+     that none of the components listed in the Select IBM 
+     WorkSpace On-Demand Manager section are selected. The 
+     components are:
+        o Command Line Interface and API Upgrade
+        o Remote Boot Services Upgrade
+        o TCPIP (Required for DHCP Boot Support)
+
+     Again, make sure that these components are not selected.
+  5. Continue with installation.
+
+4.7.3 Recopying files after installing DOS Remote IPL Service
+
+If you install DOS Remote IPL Service after you have installed 
+the WorkSpace On-Demand Windows Client Feature on the WSeb C-Pak2
+server machine, certain files loaded by the  Windows Client 
+Feature installed program will be removed. As a result,

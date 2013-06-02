@@ -1,0 +1,42 @@
+Easy Generic Downgrader Installer for 2.80 (TA-079, TA-082 and TA-086) 
+By the Noobz Team  ===================================================
+======================================================================
+
+A lot of people have asked for a downgrader for v2.80 that's both safe and simple to use.
+
+Why should you use this downgrader? Well, the major advantages are:
+
+* SAFETY - This downgrader has plenty of safety checks in place to try to avoid accidental bricks (but remember the previous warning)
+
+* CONVENIENCE - Because this downgrader works with an official firmware EBOOT.PBP file (included), and includes the TA-082 idstorage changer and HEN files. You don't need any other files to perform the downgrade. No more finding a v1.5 owner to get dumpfiles!
+
+* Latest TA-082/086 support - The bundled TA-082 registry fixer includes the latest fixes to make sure that USBHost support won't be messed up.
+
+* Also works for the old motherboard versions TA-079 and TA-081.
+
+
+This full pack includes:
+
+- HEN D for 2.80
+- Rotating Cube Sample
+- TA-079 / TA-081 / TA-082 / TA-086 Generic Downgrader
+- HW Ident v0.031
+- TA082 IdStorage Changer
+- Official SONY 1.50 Update File
+
+NOTES:
+
+* This pack CAN downgrade PSPs with the following motherboards TA-079, TA-081, TA-082 and TA-086. Therefore this Downgrader will work for ANY motherboards, as long as the installed firmware is not higher than 2.80.
+
+Credits to:
+
+- Dark_AleX / Mathieulh / Harleyg for the magnificent 2.71 Generic downgrader.
+- Dark_Alex for his Homebrew ENabler Rev. D (HEN D) for 2.71 Firmware.
+- Team C+D for finding the 2.80 Kernel Access Exploit.
+- Noobz Team for porting the downgrader and HEN D to 2.80 Firmware.
+- Harleyg for his Hardware Identifier (HWIdent 0.031)
+- Xuxo, for making the Easy Installer.
+- You, for using it.
+
+
+Further info available at http://kickme.to/150

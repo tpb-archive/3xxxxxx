@@ -1,0 +1,51 @@
+WinAVI Video Converter is a ALL-IN-ONE solution for video file converting and burning, easy to use and powerful for experts. Just one click to convert with beautiful user interface. Burning VCD/SVCD/DVD is supported. It supports almost all video file formats, including AVI, MPEG1/2/4, VCD/SVCD/DVD, DivX, XVid, ASF, WMV, RM, QuickTime MOV, Flash SWF. WinAVI Video Converter has the fastest video/audio decode/encode engine in the world, convert any media to DVD in 90 minutes with stunning video and audio quality. You can enjoy the film with your home & PC DVD Player.
+
+Features:
+- AVI to DVD
+- AVI to MPEG
+- AVI to VCD
+- AVI to MPG
+- Flash SWF conversion
+- It can convert all formats to MPEG1/2, VCD, SVCD, and DVD and burn to VCD, SVCD, or DVD disc.
+- It can convert all video formats to AVI/WMV/RM/ASF/Divx/Xvid
+- QuickTime MOV conversion.
+- Real DVD Navigator encoder included.
+- DirectAC3 technology supports AC3 5.1, which is state of the art technology. It is up to 20% faster with AVI files including AC3 audio.
+- Real Dolby AC3 audio encoder included.
+- Burning VCD/SVCD/DVD.
+- Stunning video and audio quality.
+- User-friendly interface that is easy to use.
+- Has the option to preview the video in real-time.
+- Has the option to automatically shutdown your computer when the conversion has been completed.
+
+Note: If you want to converter any format to RM, you should download RMSDK first, please click here>>,and unzip it to the sub-directory "HelixSDK" of the location which you installed WinAVI Video Converter 8.0 Beta.
+
+How to install RMSDK:
+1. The file only can be used for WinAVI Video Converter 8.0 (beta).
+2. In the normal way of installing the WinAVI Video Converter 8.0, the installation will run the RMSDK automatically; you have no need to do with the RMSDK.
+3. While the WinAVI Video Converter 8.0 haven't installed in the normal way, the RMSDK will be installed automatically under C:, please copy and save the directory under C:HelixSDK to \WinAVI Video Converter.
+
+What's new in WinAVI Video Converter 8.0:
+01. New DVD Menu/Navigation Information/Multiplex Video Mixing engines developed. Support to create DVD menu/naviagation information and input multiplex video mixing.
+02. Support rip DVD to any format, etc. Xvid+MP3....
+03. Support to select multiple audio and subtitle streams.
+04. Brand-new MPEG Encoder, which specifies more preferences.
+05. Support to output MPEG file in it's elementary streams.
+06. Support to output MPEG2 PS (Program Stream) and TS (Transport Stream).
+07. Support Closed GOP function.
+08. Support to encode MPEG C-VBR (Constant-Variable Bitrate).
+09. Support to encode Divx-HD format.
+10. Rewrite MPlex Component, which supports to encode any picture size and avoid buffer overrun/copy to speed up conversions.
+11. Support to select MPEG1/2 aspect ratio and automatically choose proper bitrate according to picture size.
+12. Support to synthesize DVD subtitle streams.
+13. Support to real time preview source video while doing settings.
+14. Support to adjust volume/brightness/contrast for output files.
+15. Add audio and video sync function.
+16. Add an indicator for final file size.
+17. Support to select video decoder/splitter. Solved the problem on the compatibility between different decoders.
+18. New method of MOV/Real Media decoding. Now converting MOV/Real Media to any format will be much perfecter.
+19. New DVD-burning engine, more stable.
+20. Support to set the start and end point of conversions.
+21. Fixed all known bugs.
+
+Homepage - http://www.winavi.com/en/index.htm

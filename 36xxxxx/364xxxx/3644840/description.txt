@@ -1,0 +1,61 @@
+Ravenloft : Stone Prophet -ISO
+
+Published by: Mindscape, Inc.
+Developed by: DreamForge Intertainment, Inc., Strategic Simulations, Inc.
+Released: 1995
+
+Platform: DOS
+	
+ESRB Rating: Kids to Adults
+Genre: Adventure, Role-Playing (RPG), Strategy
+Perspective: 1st-Person Perspective
+
+----------------------------------------------
+
+One of the early 3D RPGs to come out, Stone Prophet was the sequel to Strahd's Possession. Based in the AD&D Ravenloft setting, it was an advancement over the step-by-step adventuring found in Bard's Tale and Dungeon Keeper and was very original for its time.
+
+The Good:
+The graphics are a lot better. Particularly the character portraits; the NPC character portraits, for instance, gives you a feeling of the personality of the NPC. The NPCs are more interesting: for instance there is a were-jakal who can polymorph as a special ability, and a desert troll that heals slowly. Also, the game has added the ability to fly and levitate! There are also new magic items, one of the best being the Helm of True Seeing. Other than that, it's pretty much the same as Strahd's Possession.
+
+The Bad:
+There were a few problems with it: the game, despite installation, runs off of the CD, inevitably resulting in loading time when entering new areas. Also, although neat, the necessity of water to survive is fairly annoying: you have to waste inventory space carrying water around, risking the encumbrence of your character. (There -is- a create water spell, but I would rather memorize a defensive/offensive spell for fighting.)
+
+The Bottom Line:
+A solid first-person-perspective-3D RPG. It's actually great fun, and you get to transfer your characters from the first part, along with their weapons.
+
+----------------------------------------------
+
+This is a rare and fine release of a RPG that is hard to find that offers great RPG nostalgia for all of us 90's RPG fans!
+This CD features full speech and in-game cutscenes!!
+
+BONUS: Demo of Thunderscape inlcuded on the CD
+
+INSTALL INSTRUCTIONS:
+
+It can be a bit tricky to get it running on a fast computer, but here's what you need to do:
+
+1. Download with your favourite BitTorrent client
+2. Mount or burn .iso with Daemon Tools
+3. Run install.exe and install Stone Prophet to c:prophet
+4. Browse the .iso and run "DOSBOX.EXE" from the DOSBOX-0.65 dir
+5. Type the following into the DOSBOX window (hit ENTER after each line):
+
+   mount c c:\prophet
+
+   mount a X:\
+
+IMPORTANT!!! X: represents the drive where your Stone Prophet CD or .iso file is mounted! So you need to change it from "X:\" to the letter of that drive, i.e. if the drive name where your Stone Prophet CD is located is "e:" ,you need to type: "mount a e:" instead. Got it? (Stone Prophet will look for the CD on the drive a: so therefore it needs to be mounted on that letter.)
+
+6. Type into the DOSBOX window:
+   
+   c:\sound.bat
+
+   c:\prophet.bat
+
+You need to setup the sound first (sound.bat), when you've done that just run the game (prophet.bat).
+
+Hope this works for you, if not, just burn it to a CD and install it on an old genuine 486 PC with soundblaster.
+
+Once you get it working with DOSBOX, you might want to increase the FPS a bit. Hit CTRL + F12 a couple of times to increase CPU Cycles, the more times you hit it the faster it runs (and more CPU power it consumes)
+
+Good luck!		

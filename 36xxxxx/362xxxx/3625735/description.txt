@@ -1,0 +1,26 @@
+Inno Setup is a free, feature-packed installation builder. The application's features include a Windows 2000-style wizard interface; the ability to create a single EXE for easy, online distribution; support for disk spanning; and full uninstall capabilities. The program also includes customizable setup types, integrated file compression, support for installing shared files and OCXs, and the creation of Start menu icons, INI entries, and registry entries. Full Delphi source code is available on the author's Web site.
+
+    * Changes in 5.1.10:Added two new [Run]/[UninstallRun] section flags: 32bit and 64bit. Similar to the [Files] section flags of the same name, these override the install mode and affect which System directory the {sys} constant maps to on 64-bit Windows.
+    * Pascal Scripting:
+          o Added new EnableFsRedirection support function.
+          o On the Exec function, you can now pass '>' in the Filename parameter and it will use the value of the Params parameter as the full command line. This feature can come in handy when executing command lines obtained from UninstallString registry values; no longer is it necessary to separate strings into filename and parameter components manually.
+          o Fix: IsComponentSelected and IsTaskSelected didn't accept forward slashes.
+    * Improved Setup's folder tree view control (seen when a Browse button is clicked):
+          o On Windows Vista, it now uses the same theme as Windows Explorer.
+          o On Windows Vista, for consistency with Explorer, single-clicking in a node's text area no longer causes the node to expand.
+          o Like Windows Explorer, folder nodes now use the shell's "display names", as opposed to the actual directory names. This matters on localized versions of Windows Vista, where the on-disk names of system folders are always in English.
+          o The system "icon" font is now used instead of the default dialog font. This font defaults to Segoe UI on Windows Vista, and typically Tahoma or MS Sans Serif on earlier versions of Windows.
+          o Disconnected network drives are now listed; expanding one will restore the connection (on Windows 2000, Me, and later).
+    * On the Select Destination Location wizard page (as well as custom directory selection pages created using the CreateInputDirPage support function), if the letter of a disconnected network drive is entered, and the user is running Windows XP or later, it will now attempt to restore the connection automatically when Next is clicked. (It also does this on silent installs.)
+    * On Windows Vista, eliminated the flickering on Setup's progress bar (purely a cosmetic issue).
+    * On Windows Vista, Setup now calls SetProcessDPIAware to avoid bitmap scaling when Windows is configured to use Large Fonts and the "Use Windows XP style DPI scaling" option is unchecked (not the default setting).
+    * Compiler IDE changes:
+          o Added new option: Always launch Setup/Uninstall as different user. This forces the IDE to display a "Run as" dialog when launching Setup/Uninstall.
+          o The Stop Compile command now displays a confirmation message box.
+    * Added a "Vista-aware" manifest resource to ISCC so it doesn't request elevation on Windows Vista.
+    * Fix: ISCC didn't always print error messages when standard output was redirected to a file.
+    * When Setup fails to set the permissions on files, directories, or registry keys, the error code is now included in the log output.
+    * When Setup fails to expand a shell folder constant, a warning message containing the error code is now logged.
+    * Changed the way version information is read from VXD files to be more compliant with the MSDN docs.
+    * The uninstall program's version is now 51.45.0.0.
+    * Minor tweaks

@@ -1,0 +1,19 @@
+Google Video: http://video.google.co.uk/videoplay?docid=4823000450314464453&hl=en-GB
+
+Description:
+Dark_AleX's latest 3.03 Open Edition custom firmware. Revision C (3.03 OE-C) packs a lot of changes: 
+AVC videos bitrate limit patched. The firmware limited the bitrate of avc videos to only 768 Kbps. OE now forces the limit to be 16384 Kbps. (Note: this doesn't mean than the psp can handle such a high bitrate; this means than they won't show error. I don't know which is the real maximum bitrate than the psp can handle at full speed). 
+Speed of OE boot is now ~3 seconds faster than previous versions. (without plugins). 
+Cpu speed of XMB can now be changed. 
+Wifi can now work at 333 Mhz. 
+Added access to flashes 0 and 1 via usb in the recovery menu, based on the great idea of USBSSS by Booster. Note that writing is enabled, so this is intended only for advanced users that know what they are doing in each moment. (It is not a great idea to change anything from the kd folder). Because of this addition, the rest of flashing options were removed. 
+PSP isos can now be deleted as any normal memstick games. (also the size of the iso now shows fine when you press triangle->information). 
+When formatting memory stick, GAME150, GAME303 and ISO directories will be automatically created. 
+Changes in internal HEN core:
+If a EBOOT.PBP with a plain DATA.PSP had a data.psar, modulemgr took as size of the executable the size of data.psp+data.psar. Fixed. (this fix enables psx games to have plain data.psp without causing a memory error).
+Added a couple of patches found by Tyranid. One allows syscalls instructions to be used in kernel mode without causing a crash. The other allows sceKernelQueryModuleInfo to work with sceInit and previous modules.
+POPs: The writing is now a bit different. This avoid "Memory stick blinking too much" bug when using the plugin to load the 3.02 pops. 
+POPs: popstation now lets the use of non-encrypted DATA.PSP. If data.psp is in the same directory as the app, popstation will use that as the DATA.PSP of the eboot.pbp. Otherwise, it will use the one from BASE.PBP. A DATA.PSP that imitates the original sony one is included.
+
+EBOOT.PBP generated with a non encrypted data.psp won't need the file KEYS.BIN at all.
+USE AT YOUR OWN RISK!

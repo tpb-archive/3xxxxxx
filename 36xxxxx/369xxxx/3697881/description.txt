@@ -1,0 +1,21 @@
+This is x86 release of Fiesty Fawn Server (NO GUI). An excellent starting point so as to allow for a quick installation of base Ubuntu Linux Server. Apt-get your way to complete customization once installed. 
+
+Information from the site at http://www.ubuntu.com  :
+
+The Server Edition - built on the solid foundation of Debian which is known for its robust server installations ? has a strong heritage for reliable performance and predictable evolution. 
+
+Integrated and secure platform
+
+As your business grows, so does your network. More applications need to be deployed and more servers are required. Ubuntu Server Edition offers support for several common configurations, and simplifies common Linux server deployment processes. It provides a well-integrated platform enabling you to quickly and easily deploy a new server with any of the standard internet services: mail, web, DNS, file serving or database management. 
+
+A key lesson from its Debian heritage is that of security by default. The Ubuntu Server has no open ports after the installation and contains only the essential software needed to build a secure server. 
+Lower Total cost of ownership with automatic LAMP installation
+In around 15 minutes, the time it takes to install Ubuntu Server Edition, you can have a LAMP (Linux, Apache, MySQL and PHP) server up and ready to go. This feature, exclusive to Ubuntu Server Edition, is available at the time of installation. 
+The LAMP option means you don't have to install and integrate each of the four separate LAMP components, a process which can take hours and requires someone who is skilled in the installation and configuration of the individual applications. Instead, you get increased security, reduced time-to-install, and reduced risk of misconfiguration, all of which results in a lower cost of ownership. 
+Eliminate the cost of updating individual workstations
+Ubuntu Server edition includes thin client support using LTSP (Linux Terminal Server Project). LTSP-5, the latest release, offers a simple installation and easy maintenance. All the data is stored on the server, which will substantially diminish the cost of updating individual workstations and help to ensure their security. Notable benefits of Ubuntu's thin client support are:
+Simplified management: manage all clients from one system. Install new software, change their configuration, or even upgrade to a new version on the server, and all clients are instantly up to date. There is only one backup to take for all clients.
+Fully automatic installation and setup: installing a thin client server is as easy as installing a single desktop system, and once it's finished, new clients can be added with no additional administration on the server
+Lower TCO through shared resources: Common high-powered desktop workstations sit idle most of the day consuming power and costing your organization money. With a high-powered server and low-cost thin clients, you can get great performance and save money. Need higher performance? Just upgrade the server, and all clients instantly benefit.
+Quick failure recovery: If a client system fails, simply swap in a new one and continue working. No configuration is required, and all of the user's data and settings are intact.
+Locally attached devices: Users can access printers, cameras, iPods, USB sticks and other devices connected directly to the thin client.

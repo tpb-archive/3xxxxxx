@@ -1,0 +1,38 @@
+(OBS) Uppdaterad verision!!!!!!!!!!!!!!!!!!!!!!!!!(OBS)
+(OBS) Uppdated releas!!!!!!!!!!!!!!!!!!!!!!!!!!!!!(OBS)
+
+
+
+
+WoW TBC server för wow v 2.0.10
+
+All rates ar as normal wow. if you want to change that youst change som things in
+in a file in the instal location (the server's instal location) it's some things in
+the file called mangosd.conf you chould change. almoust in the botton of the page.
+(OBS) oppen the fille with notepad (OBS)
+
+Det ända du behöver göra är att instalera och sen ändra din ip till 192.168.0.112
+jag har gjort en användare medanvändarnamn \\\\\\\"test\\\\\\\" och lösenord \\\\\\\"test\\\\\\\" och gm level 6
+
+The only thing you have to do is to change your ip to 192.168.0.112
+I have included a user with username \\\\\\\"test\\\\\\\" and pasword \\\\\\\"test\\\\\\\" and gm level 6
+
+Glöm inte att ändra din realm list i WOW.
+
+Om du vill spela med dina kompisar är det bara att ni är på samma nätverk o att dom
+byter sin realm list i wow till 192.168.0.112
+
+och sen behöver du bara skapa en användare åt dom och det gör du antingen genom att
+skriva in 192.168.0.112 i webläsarn (det kan dom också göra) 
+
+Eller så skriver du in create användarnamn lösenord
+(efter att du trykt enter)
+
+sen setgm användarnamn 6
+
+(6\\\\\\\'an kan du endra till 1,2,3,4, eller 5 om du vill)
+
+text:
+create test test
+(enter)
+setgm test 6		

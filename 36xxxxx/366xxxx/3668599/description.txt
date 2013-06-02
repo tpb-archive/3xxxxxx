@@ -1,0 +1,45 @@
+Mail Direct Pro v2.5
+
+Apr 7, 2007
+
+
+
+Description
+
+
+
+Mail Direct is a program designed to send e-mail messages directly to recipients.
+
+No SMTP mail server is needed. Mail Direct ensures faster, safer, and easier mail sending.
+
+
+
+Mail Direct works with most e-mail programs, such as Outlook Express, The Bat, Eudora, Foxmail, and many more. It has a built-in SMTP server, which your e-mail client will use to send messages. It receives the messages from your client and then sends them directly to your recipient's mail server, bypassing your ISP's mail server. All you need to do is change the address of the outgoing mail server (SMTP) in your e-mail software from the name of your ISP's mail server to "localhost". Mail Direct will then be designated as your SMTP server.
+
+
+
+Mail Direct allows multi-threaded & high-speed mailing. At the time of transmission it can verify target e-mail addresses.
+
+
+
+Features:
+
+
+
+Fast mailing.
+
+Mail Direct will ensure instant delivery of your message because it bypasses your ISP's mail-server queue. Because it uses multi-thread delivery, it can send messages to many recipients' mail servers simultaneously. You can set it to send mail instantly or to hold your messages in its own queue until a time of your choosing.
+
+
+
+Direct sending.
+
+Mail Direct will obtain mail exchange (MX) host information from a DNS server and send your message directly to your recipient's mail server using SMTP protocol. If the recipient's mail address is wrong, the program will terminate delivery before sending any part of your message. This feature enhances the security of your e-mail communications and greatly reduces annoying and wasteful "bounce" messages.
+
+
+
+Easy to use.
+
+Mail Direct has a built-in SMTP server that receives messages sent from your mail client program. You will need to change the address of the outgoing mail server (SMTP) in your mail software from your ISP's mail server to "localhost". If you attempt to send mail to a server that will receive mail only from recognized ISP's, Mail Direct can be set to automatically switch from direct delivery and to send your message instead through a predetermined SMTP server of your choice.
+
+

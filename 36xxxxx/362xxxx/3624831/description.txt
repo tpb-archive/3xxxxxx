@@ -1,0 +1,114 @@
+This is the newest ROM for the HTC Mteor phone.
+
+I downloaded it from xda-developers.com. They had to shut down their ftp server, so I decided to post it here.
+
+The changes / improvements:
+
+
+------
+
+V1.32.251.1 RUU: v3.13.0.0
+
+Radio: v1.27.00.10
+OS: AKU2.3 (14955)
+IPL/SPL: 1.00/1.07.0000
+Language: ENG (UK), ENG (US), Finnish, Swedish, Norwegian, Danish, German, Italian, French, Spainish, Portuguese, Dutch, Greek.
+
+
+
+Changes:
+
+1 Phase in Streaming Player.
+2 Phase in HSDPA icon.
+3 Fix to ITS #1778 When enabling FDN, only 4 digits can be entered in the PIN2 box. PIN2 should allow up to 8 digits .
+4 Fix to Voda sim voice mail missing notification issue. Double check solution is in codebase.
+5 Set prefer data call to 3G
+6 Fix Radio become "no signal" issue
+7 Low volume of alert ting tone when breeze is waken up by an incomming call.
+8 Fix Wmodem would be stoped with Win2K OS.
+9 Fix cold boot lock up issue.
+10 Fix "found display turn off in one minute while playing a WMV file."
+11 Fix: Some the reset radio will fail while there is a command is waiting the response.
+12 Fix: The RIL driver will read wrong EF between 2G and 3G SIM.
+13 If ATA followed a "No carrier", fake a "OK" as a response and see the "No carrier" as a unsolicitd command.
+14 Fix "in voice call, if there comes another incomming call, uplink will be mute."
+15 Bluetooth HCI transport driver performance improvement.
+16 Remove all customization setting.
+17 Update Magneto O.S to AKU3.3 build 15671.
+18 [AKU 3.3] Incorrect "E" icon on the top of screen is displayed under 3G service.
+19 There is no error message when activating PDP with incorrect APN, and system will become strange after that.
+
+RADIO NEWS:
+
+1 PS data stopped after VT call.
+2 Fine tune BT quality by changing audio parameter.
+1. support AT@AMUX=0~3 for MFG
+3
+2. add Athena DPRAM gpio in AT@GPIO for MFG
+4 Protect AMSS.
+5 Call Forwarding setting does not work in FET due to redundant "time" included if not "NO REPLY".
+6 Remove SMS reply procedure.
+7 Don't handle the max length of phone number correctly.
+8 CE sent twice +GTKE(menu selection) to radio will cause radio hang.
+9 Phonebook will be locked once SIM is PIN1 blocked, and it will never come back until resetting.
+10 Send "Done" when rec empty SS_Release_Complete msg .
+11 Protocol stack still camps on network when PIN1 is blocked.
+12 +CREG may be sent before IMSI attach procedure is completed.
+The MO call CCBS no inband tone issue at Sweden 2g/3g network. By disabling the CMSP bit in Classmark 2 and
+13
+PCP bit in Setup.
+14 Return OK and no unsolicited +CREG and +CGREG sent out when manual selection to a forbbiden PLMN.
+15 Add debug output to ATDBG when Attach, LAU, and RAU rejected.
+16 CHLD=2 has no response when collision with MT disconnection.
+17 Add unsolicited +HTCerror to report EF extension full/over boundary condition.
+18 There is Incorrect bearer service code of call forwarding, when issue SS string "**21*09011111111*20#".
+Fix ORO SIM issue, when user make a MO call, ME perform IMSI detach and then call drop.
+19
+Unable to receive calls from PABX lines in Australia when calling party subaddress is included in MT setup. This is
+20
+due to incorrect CLIP format response sent to CE.
+When PIN1 is disabled and user forces to issue changing PIN, some SIM card will return incorrect sw1/sw2 and
+21
+cause wrong UI display.
+22 Implement +BANDSET functionality.
+GMAC will stock (PS service not possible) when CS_PS registered then LUP failed twice with cause
+23
+PLMN_NOT_ALLOWED (for instance)
+Add AT command at@clearall at@cleargps at@clearhot to manage the GPS data in EFS. Modify AT@setgps let
+24
+device can do warm and cold start without resetting the device.
+25 Implement the Test mode for GPS Cold and Warm start for n times.
+If remote call disconnected before STOP DTMF Ack received and modem WON'T response +VTS and reset by
+26
+WINCE finally.
+1. disable USB regulator at default
+27
+2. let radio USB go to suspend after @USBPOWER=0
+28 Add statistcc report for Test mode.
+1. Add logs for tracking RTC and Tun
+29
+2. Preload Almanac data of 20060904
+It can't camp on to STARHUB 3G (always seaching signal) while manual sitch to STARHUB 3G band under
+30
+STARHUB 2G band.
+31 When there is a active call, can't make a mo call.
+32 Add new +TTYMODE AT command to enable/disable TTY support in radio stack.
+33 During SIM Initialization, delay +COTA notification after phonebook cache finish.
+When edit the SetNetwork (edit PPLMN), If the user entered PLMN is not in the defult list. It will show "000000" to
+34
+WINCE. It's saved in SIM correctly but show not correct to user.
+35 USSD notification could not be sent to RIL and return USSD Busy to network.
+Reset or call failed will happen if network config T314 =0 and T315 !=0 when PS RAB +CS RAB and then radio link
+36
+failure happened.
+37 SMC procedure fails due to simultaneous SMC procedures triggered by Lucent UTRAN.
+38 Unable to answer the 2nd incoming call if end the first active call and attempt to answer the 2nd incoming call.
+39 It can transmit event for DIAG port to fix Embedded log stall issue.
+40 Fix time error of QXDM log.
+41 Showing EDGE indicator when Serving cell support EDGE (Enabled for CE after AKU3).
+42 Add AT+OSVER for CE to tell radio its version.
+43 Fix time error of QXDM log.
+44 Drop VT data when PCD=9,0
+Phonebook extension support: 1. EF files support (EF EMAILi, EF GRPi, EF GASi, EF IAPi) through AT+PHSM, 2.
+45
+Support over 1,000 phonebook entries.

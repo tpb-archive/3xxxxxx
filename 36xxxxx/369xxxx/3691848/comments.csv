@@ -1,0 +1,20 @@
+﻿User Type,Username,Date,Text
+,MENELAOS70,2007-06-05T22:23Z,du är bäst tackar
+,Master4you,2007-06-13T07:09Z,"It works perfect, thank´s"
+,Furio65,2007-06-16T11:12Z,Is this the navteq 064 version of the MN6_Europe map?
+,Furio65,2007-06-16T11:29Z,"I just tried and noticed that this IS the NT064 MN6 Europe map. With my HP RX3715 I'm experiencing problems with this map: memory allocatition errors, low memory messages etc.
+I changed application settings (memory split=0. check forrums) and than it works somewhat better. But then I get fault 459 on calculating some routes....
+Strange thing is:with all the individual NT064 maps (D.A.CH, Benelux region etc.) everything works like a charm! (esspecially after updating to version 6.2; a lot quicker)
+Does any of you have a sollution for the Europe map trouble? "
+,Furio65,2007-06-18T21:58Z,"I fixed it! It does help to change the applicationsettings.xml (use memory split=0) Then make sure there is about 8Mb for storage and the rest (in my case about 28 Mb) for the application. Else you get error 459 when calculating the route. Bluetooth GPS appears to be the spoiler in the whole thing! All this is offcourse for the good old WM2003 machines, like my RX3715"
+,ausgarius,2007-06-21T23:24Z,Which version of Navigon is this? Is it version 6.1 build 555?
+,rendben,2007-06-26T22:30Z,Thank you!! Works great with PNA 6.1.
+,Escher6,2007-07-02T11:03Z,"thus sombody have the new navigon maps
+https://www.navigon.com/site/nl/nl/shop/consumer/addons 
+or
+https://www.navigon.com/site/nl/nl/shop/consumer/mobilephones/1045"
+,Furio65,2007-08-12T22:33Z,"@Escher6
+Look here: http://thepiratebay.org/tor/3759788/Navigon6_Europe_Map_2007_2008"
+,Furio65,2008-11-25T20:46Z,"Latest ones:
+
+http://thepiratebay.org/torrent/4529113/Navigator_6_Q4_2008_Western__amp__Central_Europe_Maps"

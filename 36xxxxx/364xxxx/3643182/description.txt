@@ -1,0 +1,137 @@
+************************************************************************************
+This is a re-seed of the orginial torrent with a few extra lines added to the readme.  I've tested working with Vista Ultimate x32 on Nforce4 and Intel 915/945 chipsets.  See below for detailed instructions, but for those of you who prefer to jump straight in:
+
+1.Copy this crack to a flash drive/CDR/whatever (or do as I did and use ISObuster to add it to your Vista ISO)
+
+2.Install Vista without a CD Key and when prompted select the Choose Later option for Windows update
+
+3.Run the crack *before* installing anything else.
+Reboot
+
+As noted below there are some minor issues with NF4 boards,  I basically followed the advice and havent installed any of the Nvidia PCI drivers (GPU drivers are fine) and I've been running Vista for the past couple of weeks with no problems. As far as I can tell M$ thinks I'm running a legit OEM install of Vista and I've had no problems with Windows Update etc.
+
+************************************************************************************
+
+Microsoft Windows Vista Activator 2007 
+
+Release Date : 6 March, 2007 , Supplier : Rajpreet Singh 
+
+Description : Activate Windows Vista Completely 
+
+Windows Version to Activate 
+
+1. Microsoft Windows Vista Ultimate Edition 
+2. Microsoft Windows Vista Business Edition 
+3. Microsoft Windows Vista Starter Edition 
+4. Microsoft Windows Vista Enterprises Edition 
+5. Microsoft Windows Vista Home Basic Edition 
+6. Microsoft Windows Vista Home Premium Edition 
+
+How to Activate Windows Vista 
+
+1. Extract the archive 
+2. Run "windows vista 2007.exe" 
+3. Enter "User Account" Name and "Computer Name" 
+4. Enter the CD-KEY you used while installing your vista. 
+5. This will take a minute to activate windows vista. 
+
+NOTE : In instruction (4). Leave the box blank if you have installed vista without cd-key. 
+
+Here's some info on the nvidia nforce, it may help:
+
+Basically, do not install the NVIDIA PCI update, it conflicts with royal.sys and causes the blue screen upon boot.
+
+For nForce 2 boards the update is called: NVIDIA - system - NVIDIA nForce PCI System Management
+
+For nForce 4 (& onwards I believe) boards the update is called: NVIDIA - system - nForce4 PCI-Express Root Port
+
+Some quotes taken from a board and some reports that using an older PCI driver works (i.e. doesn't give a BSOD on boot). Remember to create a Restore Point if you try any update or changes that could affect royal.sys.
+
+Quote:
+
+For all those with nForce chipsets, the Paradox cracks should work from a fresh install (no Nvidia updates).
+
+I previously had all updates installed and got a BSOD with my Asus A7N8X-E Deluxe motherboard. I've just formatted, reinstalled and put the crack first thing - no BSOD and I'm dual booting with XP.
+
+In device manager I have 3 [!] devices with no drivers, all of which are from the nForce chipset:
+
+Multimedia Audio Controller
+
+SM Bus Controller
+
+Unknown Device (this appears to be the "Onboard Game Port" and the "Onboard Midi Port" ACPI\PNPB006, *PNPB006 - These devices are no longer supported by asus and will probably never be supported by Vista: http://forums.nvidia.com/index.php?showtopic=28540)
+
+In Windows Update, I have 2 Nvidia updates:
+
+NVIDIA - system - NVIDIA nForce PCI System Management
+
+NVIDIA Corporation - media - NVIDIA(R) nForce(TM) MCP Audio Processing Unit
+
+From some reports, the PCI System Management is apparently what causes the conflict with royal.sys and therefore the BSOD. I'll try this out later on.
+
+Edit: I've installed all updates except KB931573 (as people say it's best not to on a cracked version) and the PCI System Management update and Vista still boots without BSOD.
+
+So that's pretty much confirms it, don't install the PCI System Management update for nforce boards.
+
+Quote:
+
+It's fully working without the PCI System Management update, even installing the nForce Audio update is fine. There are only 2 devices with exclaimation marks beside them in Device Manager, SM Bus Controller and an Unknown Device.
+
+I'm not quite sure what these do, but it seems ok so far. I've not installed any proper games (I intend to install Steam/Counter Strike) or heavy duty software (like Photoshop) as of yet though.
+
+Another added benefit of not installing this driver/update is that the nForce conflict with ATI card is gone too (look up Code 43 error). It occurs with nForce 2/3 and ATI graphics cards, some sort of memory allocation conflict which Nvidia know about but are unlikely to fix.
+
+Basically this means I can actually use something other than a 60Hz refresh rate and Aero etc
+
+
+
+
+redguy666 wrote:
+
+The problem is the Update from Microsoft named Nforce4 PCI-Express Root Port (also included in Nvidia drivers)
+
+NVIDIA - system - nForce4 pci-Express Root Port Optional 24.09.2006
+
+The solution is:
+
+1. If you already installed it and got the BSOD, find a way (safemode or dualboot) to rename the file in \windows\system32\drivers\royal.sys to royal2.sys
+
+2. Your should not get the BSOD the next time you restart. Go to Control panel -> Device Manager.
+
+3. Under System Devices you should see the Nforce4 PCI-Express Root Port
+
+4. Right-click and choose Properties
+
+5. Under the Driver tab choose Roll Back Driver
+
+6. It should now look like this if you've uninstalled it.
+
+NVIDIA nForce PCI System Management
+
+NVIDIA nForce4 Hyper Transport Bridge
+
+PCI bus
+
+PCI standard ISA bridge
+
+PCI standard PCI-PCI-bridge
+
+PCI standard PCI-PCI-bridge
+
+PCI standard PCI-PCI-bridge
+
+PCI standard PCI-PCI-bridge
+
+PCI standard PCI-PCI-bridge
+
+7. Before you restart again, rename \windows\system32\drivers\royal2.sys back to royal.sys
+
+8. Restart now and it should be activated!
+
+Make sure you don't install the driver again, or you will get the BSOD!
+
+mr is back wrote:
+
+I can confirm that the old driver's for pci management work for nvidia 2 mobos the one's on your disk's.I can also say the one's from nvidia that are on there web site do not work and Bsod.....
+
+Hope this helps some of you :)

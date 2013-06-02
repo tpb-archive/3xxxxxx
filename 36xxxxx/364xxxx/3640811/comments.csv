@@ -1,0 +1,23 @@
+﻿User Type,Username,Date,Text
+,yesbox07,2007-03-18T07:07Z,thankx
+,yesbox07,2007-03-18T09:27Z,a question: what kind of image is this. Is it a image (copy) of a sd card with germany on it or  ? What program do I use to open image to my sd card ? I have tryed several without any succes.
+,yesbox07,2007-03-18T10:00Z,"can this image be 'invalid, damage ? I use DVD decrypter and it should manage img files but it says that is a invalid or unsopporded format."
+,yesbox07,2007-03-21T06:51Z,don't anybody else have any comments. does it work for you ?
+,emma81,2007-03-21T11:12Z,"this image is done with dd under linux. its a simple iso image from the microsd card under the label with the serialnumber on the backside.
+
+but it will not work if you copy it on your microsd card with dd, cause this is secured. maybe there is a security check if the serial number of the microsd card is the correct on.
+
+i tested it with a friends navman f20. my image doesn`t work on his navman.
+
+maybe someone will find a security hole.
+
+what ist dd?:
+http://en.wikipedia.org/wiki/Dd_(Unix)"
+,yesbox07,2007-03-21T18:49Z,maybe the esiest way would to try to get an image of German or europe on regular SD card to use in extra slot for sd card. Like the one you can buy for F20
+,Chupskie,2007-03-21T21:53Z,"I can't open it on a windows pc.
+So i download some DD unix programs for windows, but it didden't work :(
+
+Emma81, can you please upload a windows image. I would really appreciat that.
+
+-Dave, The Netherlands"
+,emma81,2007-03-26T12:21Z,"sorry, no. this is a simple bit to bit image. this is iso format."

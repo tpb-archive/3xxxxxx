@@ -1,0 +1,32 @@
+﻿User Type,Username,Date,Text
+,johndmes,2007-01-30T15:10Z,"So, is this the original for the Amiga platform, or is it it's DOS Counterpart, called Milennium 22 in  the USA?"
+,nepoleone,2007-01-30T21:42Z,"This is Deuteros, the second generation of Millenium 22 for Amiga."
+,adeptus72,2007-01-30T23:38Z,so how do i play it on my pc or do i need to pry my amiga from the cellar? i unpacked it but dosent seem to get it installed. do i need a special program to run it?
+,nepoleone,2007-01-31T10:32Z,"Ok heres what U need.
+1.Grab latest version of WinUAE http://www.winuae.net/ and install it under your windows.
+2.Download the amiga ROMs, http://thepiratebay.org/tor/3364964/All_Amiga_Roms
+3.WinUAE settings that is 100% compatible with Deuteros.
+-------
+Hardware:
+CPU 68000,CPU emulation fastest possible.
+
+ROM:
+main ROM, KS ROM v1.2 (A500,A1000,A2000) rev 33.180 (256k)
+extended, CD32 extended ROM rev 40.60 (512k)
+
+RAM:
+chip 8mbit, slow 1.8mbit
+
+Floppy drives:
+DFO, deuteros1.adf
+DF1, deuteros save disc.adf
+floppy emulation, turbo
+
+4.Start the WinUAE program with Deuteros1.adf in DF0 and save disc.adf in DF1(save disc not included in this torrent, plz download this torrent if U need a savedisc for deuteros,http://thepiratebay.org/tor/3607013/deuteros_including_savedisc.zip ).
+
+After starting the game the program eventually will ask for Deuteros data disc, now click on your middle mousewheel to release the mouse pointer ( U need a mousewheel of this to work ), look in ure right corner of windows, right click with mouse on the WinUAE symbol and choose floppy drives and click on DF0 drive and insert Deuteros2.adf
+Now switch back to the deuteros window and left click on it to lock the mousepointer to the deuteros program, then hit any keyboard key.
+
+Thats all, let me know if U need more help getting started.
+"
+,bongojiing,2012-09-03T04:12Z,Can someone please seed have been looking for a runable version for ages

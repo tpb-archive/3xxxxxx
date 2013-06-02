@@ -1,0 +1,22 @@
+﻿User Type,Username,Date,Text
+,zanoi,2007-02-16T15:38Z,Please seed.
+[T],nobody2007,2007-02-16T18:00Z,"load it from here and take the serial of the top and register
+
+http://plentycom.jp/steermouse/files/SteerMouse3.5.dmg"
+,adisor19,2007-02-16T18:23Z,"It doesn't work. Eventually it will call home and deactvate the serial. We need a patch like KCNscrew for v3.4
+
+Adi"
+,loadeddice,2007-02-17T04:07Z,Use Little Snitch to deny it the ability to call home or anywhere else.
+,bradfantin,2007-02-17T05:01Z,?
+,adisor19,2007-02-20T20:48Z,"It's a replacement mouse driver that fixes the annoying acceleration that is native in OS X and drives Windows users mad. It also ads lots of features to any mouse like complete customisation of mouse buttons.
+
+Adi"
+,applehadis,2007-03-09T14:37Z,Seed Please
+,ranodmgc,2007-10-03T05:29Z,"When it says the trial is over, simply go to system preferences, open steermouse, and start the application. When I do this  it works perfectly for a long time. Sometimes all day, even after a reboot. Until someone comes out with a decent crack, this will work just fine for me. :~)"
+,Megatherion01,2008-01-26T09:53Z,"Try pasting...
+
+ /Applications/Utilities/SteerMouse.app/Contents/Resources/SteerMouse Manager.app
+
+Directly into Little Snitch. Seems to work for me... so fa at least. Can't guarantee that it works for good though."
+,TriaXx,2008-08-19T23:23Z,"Does it only work on ""Mac"" or can i run in on ""HP"" to?"
+,archermitch,2008-09-28T04:09Z,It works if you use Little Snitch (a tiny firewall app used to deny apps from connecting outward) on Steermouse. Woks for me.

@@ -1,0 +1,14 @@
+﻿User Type,Username,Date,Text
+,alvarow,2007-05-06T01:38Z,"SPECIAL NOTE ON EXTERNAL USB-BASED HARD DRIVES
+
+Contrary to popular belief, Windows does NOT view external USB-based hard drives as
+removable media - they are considered to be hard drives, just like the internal hard drive in your
+system.
+Why do you care? B ecause individual hard drives can O NLY be encrypted during the original
+SGE installation. If you have an external USB hard drive, and you wish it to be encrypted, then
+attach it to your system, configure it as the ?D? or ?E? drive PRIOR to installation, and it will be
+encrypted at the time of installation.
+BUT, here?s the rub: Once that USB drive is encrypted, it cannot be unencrypted without
+decrypting the ALL the encrypted drives. Similarly, you can NOT uninstall the encryption
+software unless ALL the original physical hard drives that were connected at the time of
+installation are also connected at the time of the de-installation."

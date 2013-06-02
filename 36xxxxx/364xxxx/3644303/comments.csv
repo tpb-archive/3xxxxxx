@@ -1,0 +1,1072 @@
+﻿User Type,Username,Date,Text
+,oryxgazella,2007-09-26T16:50Z,Downloaded 800+ times and no comments!? Am I the only one having problem to register the software?
+,seamlessone,2007-10-04T02:27Z,Thanks for the torrent!  Does this download contain any type of keygen or crack?  Or is it just the 180 day trial license?
+,Shnoky,2007-10-08T03:32Z,Ive downloaded this and it works. you need to read the installation procedure and strictly follow it step by step for it to work. if anyone has some questions I'll try to answer it . 
+,Shnoky,2007-10-08T03:33Z,Thanks for the uploader been looking for this.
+,Shnoky,2007-10-08T03:37Z,seamlessone it doesnt have a keygen more likely a crack. and its not trial. but you need to configure the License manger for it to work. the instructions for configuring it is in the torrent. read it carefully. 
+,Shnoky,2007-10-08T03:37Z,oryxgazella tell me what the problem is. 
+,ageer,2007-10-08T22:12Z,"i have a problem.
+I follow instructions, but when i take a diagnostic in License Manager Tools, it tell me : ""This license can be checked out""...
+What is my problem?"
+,Shnoky,2007-10-09T05:18Z,"Try to stop the server, click reread and click start server. If it doesnt work. tell me step by step how you configure it from the very start and lets sort it out."
+,ageer,2007-10-09T17:23Z,"I have follow instructions step by step. But When i want reread the license it tell me ""Reread Server Failed"". I can reread the license just when i start the server before.
+In same, when i reread the license, i can't start the server directly (""Server Start Failed""). I have to stop the server before.
+Please, help me!!
+(Sorry for my english, I'm french, i hope you understand me).
+Thx"
+,oryxgazella,2007-10-09T21:55Z,"Hi Shnoky! I suppose my problem starts during 4.	installation of the ArcGIS Desktop. After accepting the license agreement I have to check either ""Browse for a License Manager on the network"" or ""Define the License Manager later (using the Desktop Administrator)"". I chose the latter and started the actual installation (complete version incl the toolboxes). Then when starting the ArcMAP program a license message appears: ""Provide your license server administrator with the following information: Cannot find SERVER hostname in network database..."" Hmm, I´ve looked up the name of my computer and put it in the license file instead of ""host_name"" as instructed."
+,Shnoky,2007-10-10T11:51Z,"ageer your english is fine. I cant pinpoint what the problem is. try uninstalling everything and tell me step by step how you installed it and I'll tell you if you did it correctly or not. I'll try to make some comments on each step so that it may help you. I know its gonna be a lot of work writing it. 
+
+now if you said that it fails. check your license the one you edited in first place. check if youve change it correctly. the word ""host_name"" should be change with your computer name. to check right click My computer, properties, then click on the computer name tab. remember to copy only the name and exclude the period after your computer name. most poeple made a mistake on this one. 
+
+if it doesnt work. please tell me step by step how you installed it. you might have missed something. 
+"
+,Shnoky,2007-10-10T11:57Z,oryxgazella you should have chosen the first option.  tell me how you installed it in the first steps. and I'll tell you where you might have went wrong. it would be wise to uninstall everything. and tell me how you installed it step by step. I know its gonna be a lot of work. I will try to help as much as I can. 
+,oryxgazella,2007-10-10T14:45Z,"No problems uninstalling. Glad you take your time supporting. I thought maybe I went wrong in step 2d iv. When adding ESRIFloat.reg I just doubleclicked the file and accepted it to my register when prompted. Anyway, after launching the License Manager Tools (at step 2m) I do not get any  features at all, neither OK or not OK. The diagnostics are just: Diagnostics
+--------
+FLEXlm diagnostics on (date time) 
+--------
+License file: C:\Program Files\ESRI\License\arcgis9x\license.lic
+--------
+"
+,Shnoky,2007-10-11T04:53Z,"oryxgazella I think thats alright when you added ESRIFloat.reg. that was correct. 
+
+Okay please take a look at these this is how I installed it step by step with comments. this is written in the instruction on the torrent. I just added some comments. please read it carefully.
+
+License Manger Setup
+
+a.	Create the following directories:
+        i. C:\Program Files\ESRI\License\arcgis9x
+
+I think this one is easy. just create these folder.
+
+b.	Copy license.lic to that directory.
+
+Included in the Torrent is a file named license.lic
+copy that to the folder you just made. 
+
+
+c.	Edit the first line of the license.lic file
+
+     i.	SERVER this_host any
+     ii.Change this_host to the name of your computer
+
+
+okay people made mistakes in this part and is one of the reasons for the diagnostics to fail.
+
+after you copied the license file, right click the file, select open with, then choose notepad. now you will see the first line that looks like this.
+
+SERVER this_host any
+
+Now change the word this_host with your computer name. for example my computer name is Shnoky so it would look like this.
+
+SERVER Shnoky any
+
+Then save
+
+d.	Run LMSetup.exe
+i.	Choose C:\Program Files\ESRI\License\arcgis9x\license.lic when prompted.
+
+It should be the first option. then browse the license that youve edited. if youve made the above instructions correctly by the time you click next, all licenses for Arcgis will be listed if not then you blew it. continuing is useless. please do it all over again. and read the instructions carefully
+
+    ii.	Do not restart.
+
+This is extremely important!! do not restart. choose restart later. 
+
+   iii.	Copy over ARCGIS.exe to C:\Program Files\ESRI\License\arcgis9x
+
+    iv.	Add ESRIFloat.reg to the registry.
+
+I think this part is easy. copy ARCGIS.exe to the folder youve made earlier. then overwrite when prompted. 
+
+then double click  ESRIFloat.reg then select yes. if it doesnt work go to start, select run, type regedit then file, import, then browse ESRIFloat.reg file.
+
+e.	Restart your computer.
+
+after youve done the above. this is the only time you will restart your computer. 
+
+now after restarting ...
+
+f.	 Launch StartMenu -> ArcGIS -> License Manager 9x -> Run License Manager Tools.
+
+g.	Choose tab Service/License File, and check ""Configuration using Services"", and choose the ArcGIS License Manager.
+
+its the first tab. you wont miss it. just follow the instructions.
+
+h.	 Switch to tab Configure Services, make sure ArcGIS License Manager is in the Service Name listbox.
+
+
+i.	 Browse to the correct License file path (C:\Program Files\ESRI\License\arcgis9x) where you copied the license.lic file and choose it as license.
+
+this is important browse the license that you edited earlier. the license should be the file named license.lic. when you browsed the folder there will be a lot of licenses inside. find the one youve edited earlier.
+
+j.	Check Start Server at Power up.
+k.	 Click Save Service to save the settings.
+l.	 Test the server by choosing the Start/Stop/ReRead tab, Click Stop server, then ReRead license file, then Start Server.
+
+
+alright oryxgazella please dont be dissappointed when it says it fails. I think this license manager that was included in the torrent is a bit old so there is no check box where it says Force shutdown. I have a new version on this and it has a check box to Force it to shutdown but its not in this version of license manager.  when I installed Arcgis I used the one included in the torrent so I know what happens when you use this license manager . It does fail when you click stop server and reread license file. but it should work when you clicked the Start Server. if it fails click it again. if it fails again. restart then Stop server and reread. then Click start server. if it still fails go to the Configure Services tab and uncheck the checkbox Start server at powerup. then restart computer. after restarting. Run license manager. Choose configuration using Services on the first tab Service/License. Then go to Start/Stop/Reread then Click Start Server. If it still fails after y"
+,oryxgazella,2007-10-12T20:13Z,"Sorry Shnoky,
+I can´t get it to work. I must admit that your guide is very detailed so there should be no misunderstandings. Finding my host name in XP is no problem (Right-click My Computer>Click Properties>Computer Name tab). The instructions up to 2l. does not pose any probems either. But then, as you point out, while testing the server strange things seem to occur. This happens to me at the Start/Stop/ReRead tab: Click Stop server (server stops) > Click ReRead license file (reread failed). The odd thing is that if I click Start Server (server starts) and then directly click ReRead license file the result ""Reread Server License File Completed"" appears after a while (5 sec), but then if I click Start Server the result always is ""Server Start Failed"". "
+,Shnoky,2007-10-13T14:53Z,"oryxgazella  I know how you feel about the Stop server and Reread. This has been bugging me since I cant get it to work too. Now try it again stop server then reread file if it fails ignore it! JUST IGNORE IT. click Start Server wait till it says SERVER STARTING. Now dont go to diagnostics. go to SERVER STATUS TAB. Click perform status inquiry. it should Say something like this:
+
+--------
+Status
+--------
+Flexible License Manager status on Sat 10/13/2007 05:41
+
+[Detecting lmgrd processes...]
+License server status: 27000@Shnoky
+    License file(s) on Shnoky: C:\Program Files\ESRI\License\arcgis9x\license.lic:
+
+explo-1ba90927e: license server UP (MASTER) v7.0
+
+Vendor daemon status (on explo-1ba90927e):
+
+    ARCGIS: UP v7.0
+
+Feature usage info:
+
+Users of ARC/INFO:  (Total of 555 licenses available)
+
+Users of ArcSdeConnects:  (Total of 555 licenses available)
+
+Users of ArcStormEnable:  (Total of 555 licenses available)
+
+Users of Viewer:  (Total of 555 licenses available)
+
+Users of Editor:  (Total of 555 licenses available)
+
+Users of Network:  (Total of 555 licenses available)
+
+Users of TIN:  (Total of 555 licenses available)
+
+Users of COGO:  (Total of 555 licenses available)
+
+Users of ArcScan:  (Total of 555 licenses available)
+
+Users of ArcExpress:  (Total of 555 licenses available)
+
+Users of ArcPress:  (Total of 555 licenses available)
+
+Users of ArcSdeServer:  (Total of 555 licenses available)
+
+Users of ArcSdl:  (Total of 555 licenses available)
+
+Users of ArcStorm:  (Total of 555 licenses available)
+
+Users of Arcview:  (Total of 555 licenses available)
+
+Users of ArcView3:  (Total of 555 licenses available)
+
+Users of ArcView31:  (Total of 555 licenses available)
+
+Users of ArcView4:  (Total of 555 licenses available)
+
+Users of Avenue:  (Total of 555 licenses available)
+
+Users of AV3D1:  (Total of 555 licenses available)
+
+Users of TIFFLZW:  (Total of 555 licenses available)
+
+Users of GeoStats:  (Total of 555 licenses available)
+
+Users of MrSID:  (Total of 555 licenses available)
+
+Users of Grid:  (Total of 555 licenses available)
+
+Users of StreetMap:  (Total of 555 licenses available)
+
+Users of Maplex:  (Total of 555 licenses available)
+
+Users of Publisher:  (Total of 555 licenses available)
+
+Users of AllEurope:  (Total of 555 licenses available)
+
+Users of Austria:  (Total of 555 licenses available)
+
+Users of Belgium:  (Total of 555 licenses available)
+
+Users of Denmark:  (Total of 555 licenses available)
+
+Users of France:  (Total of 555 licenses available)
+
+Users of Germany:  (Total of 555 licenses available)
+
+Users of Italy:  (Total of 555 licenses available)
+
+Users of Luxembourg:  (Total of 555 licenses available)
+
+Users of Netherlands:  (Total of 555 licenses available)
+
+Users of Portugal:  (Total of 555 licenses available)
+
+Users of Spain:  (Total of 555 licenses available)
+
+Users of Sweden:  (Total of 555 licenses available)
+
+Users of Switzerland:  (Total of 555 licenses available)
+
+Users of UnitedKingdom:  (Total of 555 licenses available)
+
+Users of MajorRdEurope:  (Total of 555 licenses available)
+
+Users of ArcMapServer:  (Total of 555 licenses available)
+
+Users of Tracking:  (Total of 555 licenses available)
+
+Users of Survey:  (Total of 555 licenses available)
+
+Users of Business:  (Total of 555 licenses available)
+
+Users of Schematics:  (Total of 555 licenses available)
+
+Users of SchematicsSDK:  (Total of 555 licenses available)
+
+Users of BaseBISData:  (Total of 555 licenses available)
+
+Users of DMTIData:  (Total of 555 licenses available)
+
+Users of AgsData:  (Total of 555 licenses available)
+
+Users of Reader:  (Total of 555 licenses available)
+
+Users of ReaderPro:  (Total of 555 licenses available)
+
+Users of Designer:  (Total of 555 licenses available)
+
+Users of Vector:  (Total of 555 licenses available)
+
+Users of Interop:  (Total of 555 licenses available)
+
+Users of Foundation:  (Total of 555 licenses available)
+
+Users of DataReViewer:  (Total of 555 licenses available)
+
+Users of MPSAtlas:  (Total of 555 licenses available)
+
+Users of Defense:  (Total of 555 licenses available)
+
+Users of Nautical:  (Total of 555 "
+,ageer,2007-10-13T23:48Z,"Some news.
+First time, really thx Shnoky to help me, to give time for problem we have.
+But the problem is resolved!!
+In fact i have continue the installation and all is right.
+Thx for all."
+,a3paters,2007-10-18T01:17Z,at the end of the installation it tells me i need a registration key to use the software.  anyone have info on this?  everything else is done but it wont seem to run without authorized registration
+,oryxgazella,2007-10-18T21:44Z,"Nope Shnoky, my status inquiry tells me something else:
+
+--------
+Status
+--------
+Flexible License Manager status on Thu 10/18/2007 21:29
+
+[Detecting lmgrd processes...]
+License server status: 27000@""my computer name""
+    License file(s) on ""my computer name"": C:\Program Files\ESRI\License\arcgis9x\license.lic:
+
+    ""my computer name"": license server UP (MASTER) v7.0
+
+Vendor daemon status (on ""my computer name""):
+
+And there it ends. You may send me your updated version of LM tools to oryxgazella@hotmail.com"
+,ariasraf,2007-10-19T09:38Z," people believe that what gives problems for the installation is the processor type, with the processors amd specifically. . . Sorry for my english"
+,Shnoky,2007-10-22T03:14Z,"Glad it worked for you ageer. for oryxgazella I think you should install arcgis now. you might not need the new lmtools if it says something like that. ariasraf I dont think its processors, its just a buggy lm tool. "
+,oryxgazella,2007-10-24T00:06Z,"Shnoky, I tried installing anyway as you suggested. I did not reach far. Already at the point where I had chosen ""Browse for a License Manager on the desktop"", during installation of the ArcGIS desktop, I was to enter the machine name. After entering the host name I got an error message saying: ""The desired vendor daemon is down (-97,380:10061 """")""."
+,ariasraf,2007-10-24T00:20Z,"well, thank you for the information shnoky! ! ! "
+,Shnoky,2007-10-24T04:01Z,"oryxgazella have you got this software ""ER Mapper"" in your computer? or any software that might support flexlm? cause if you do there might be a confilict on the software. I know I got ER Mapper and I never installed it in the same computer as ARCGIS."
+,Bomse-Anders,2007-10-24T13:12Z,"Shooky: Do you got a updates version of LM tools so I can try that? I'm having problem with licensing the ArcGIS, and I would like to receive the new version.
+
+Please e-mail to jakrokann(a)hotmail(dot)com"
+,Bomse-Anders,2007-10-24T13:28Z,"Here is my problem in the tag server status:
+
+--------
+Status
+--------
+Flexible License Manager status on Wed 10/24/2007 13:23
+
+[Detecting lmgrd processes...]
+License server status: @JonAnders
+    License file(s) on JonAnders: C:\Program Files\ESRI\License\arcgis9x\license.lic:
+
+lmgrd is not running: Cannot connect to license server
+ The server (lmgrd) has not been started yet, or
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   JonAnders
+License path:  27000@JonAnders
+FLEXlm error:  -15,10.  System Error: 10061 ""WinSock: Connection refused""
+For further information, refer to the FLEXlm End User Manual,
+available at ""www.globetrotter.com"".
+
+
+What to do, what to do?"
+,oryxgazella,2007-10-24T16:13Z,"Shnoky, nope I do not have ""ER Mapper"". My computer is brand new and I have relatively few programs installed yet, and definitely no GIS softwares. The only ""odd"" thing about the machine is that I have dual-booted it (Linux and XP). But I cannot see how this would result in any problems installing ArcGIS on XP."
+,Bomse-Anders,2007-10-25T22:00Z,"Update: I finally made it, and got 9.2 on my computer. Thanks for the help, I'm seeding!"
+,pafciopafcio,2007-10-26T20:17Z,"hi, i've got a problem, 
+
+it seems, that every step i've done is ok, because i can launch arcmap, arccatalog etc. 
+
+But after any operation (like opening a file) i've receive this common error window, where i can send a report to the microsoft, or not.
+
+Did you have similar problem with me?
+
+btw: sorry for my english:)"
+,phiend,2007-10-29T21:45Z,I have been trying to download this forever and it never seems to find any seeds what's the deal?
+,a3paters,2007-10-30T21:21Z,Anyone else having trouble with the spatial analyst tools?  some of the toolbox tools work fine others like the spatial and 3d analyst come up with an error saying I do not have the necessary license to execute... help?
+,c1112,2007-11-02T08:48Z,"Hi Shnoky,
+
+I read over your posts and found it very descriptive. I follow everything step by step, however I failed to start server, failed to stop server, and failed to reread server as well. It does not give me a list of available server. 
+
+Is it possible to send me your updated LMTools as it might solve this problem?
+
+my e-mail is: c11121987(at)gmail(dot)com
+Thanks!"
+,gepc26,2007-11-04T19:01Z,"Hello,
+
+I already got the License configuration step... but when I mount ArcGIS9.2 DVD.iso and try tu Run ESRI.exe, I get an error of ""Program too big to fit in memory"" 
+Do you know what's going on ?  Is this the right file that I have to run ? 
+Thank you
+"
+,ikram_bahi,2007-11-10T17:03Z,Hey there!! Guys i've downloaded eveything correclty and but when i open the DVD after mounting and perform two steps it asks me host name. i just enter my the same host name that i entered in the license but it says invalid.. can anybody help me with it?? thx
+,pafigeminis,2007-11-11T19:43Z,"Shnoky,
+I tried several times following your instructions, but nothing seems to work. Could you please, send the license manager updated file? My email is pafigeminis@yahoo.com
+I will really appreciate your kind help,
+Regards"
+,mantaz,2007-11-13T07:44Z,"Hi Shnoky,
+
+Can you send updated LM tools me too
+
+mantaz at gmail dot com"
+,TGDawg,2007-11-14T03:34Z,"Hi Shnoky,
+
+I too am having trouble trying to reread the license file. Is there anyway you could send me an updated file also? My address is gimpy(dot)gimperston(at)gmail(dot)com
+
+Thanks!"
+,oryxgazella,2007-11-16T14:37Z,"Shnoky, please send me your updated version of LM tools to oryxgazella(at)hotmail(dot)com"
+,gksfajngpeiurhngs,2007-11-20T09:17Z,I have trouble with the spatial analyst tools. The spatial and 3d analyst come up with an error saying I do not have the necessary license to execute.
+,justtrying,2007-12-05T06:19Z,"Hi Shnoky,
+
+You rock man!  That has to be one of the most informative and detailed instructions I have ever read.  Would you please send me the updated LM tool to help me out.  I would sure appreciate it.
+
+Thanks
+
+crazyboards@charterinternet.com
+crazyboards (at) charterinternet(dot)com"
+,justtrying,2007-12-06T05:35Z,"I have tried this and it worked on 1 pc, but I still get error after error when trying to load it on my laptop!  I know that I am doing all correctly, I would really like to get the updated LM that is being talked about.  I ditched my copy of ermapper and restore my registry.  I even scrubbed my pc and reinstalled windows xp pro and still get those same error messages.  One time I actually got the thing where it says that all was ok and I then loaded the program and it worked until I restarted my pc then it fails to work again and refuses to let me configure it to work.  Totally cant start/stop/reread license.  always fails.  Please help me anyone.   Would greatly appreciate someone forwarding me the updated LM tool.
+
+crazyboards@charterinternet.com"
+,r.riv.2008,2007-12-08T01:21Z,"could someone please send me the updated LMTools... im going crazy over here trying to get this to work!!  email is:
+
+ riviere.rob@gmail.com"
+,bebeonea,2007-12-12T20:57Z,"Hello to all,
+Can anyone send me that updated LM tool? Please.
+My address is:
+claudiu.onea@yahoo.com"
+,thelongster,2007-12-19T17:34Z,"TO get the 3danalyst and spatial analyst tools to work you first need to open  arcmap and select tools->extensions, then select the extensions you wish to use. Hope this helps"
+,cdarules,2007-12-19T19:02Z,"Hi Shnoky,
+
+Would you please send me the updated LM tool to help me out too. Thank you very much.
+
+Thanks
+
+pdavidson65@yahoo.com"
+,ghegal1822,2007-12-26T23:22Z,"Hi Shnoky,
+would you, pls, send me too the updated version of LM Tools? I'll be very grateful to you.
+Many thanks
+My e-mail is:
+ghegal1822@gmail.com"
+,aaaabbbbcccc,2007-12-28T14:38Z,"Hey all,
+
+I´ve had the same problem and solved it by doing the following:
+1. Before you reboot, make sure there the folder c:\flexlm is present.
+2. Copy the license.lic to this folder and rename it to license.dat.
+3. reboot
+4. Open a dos prompt and goto ""C:\Program Files\ESRI\License\arcgis9x"" and launch lmgrd.exe -z
+This will start  license service manually which is required to install the mounted iso. Now mount the iso and install, after installation is done everything should work ok.
+
+In Shnoky´s guide, the reg file has an entry that says f:\\flexlm, I changed this to c:\\flexlm. Finally, if you follow my instructions, you dont have to bother using the Licens manager tool.
+
+Good luck!"
+,dustoid,2008-01-04T01:21Z,"On two downloads the same problem occurs.  Everything goes well and ArcGis is installing until it gets to a certain point and this error message occurs:
+
+Error 1335.  The cabinet file 'Setup1.cab' required for this installation is corrupt and cannot be used.  This could indicate a network error, an error reading from the CD-ROM, or a problem with this package.
+
+Is it just a matter of a corrupt download, or is there something I am doing wrong???"
+,blubberer,2008-01-12T15:51Z,"So if there is anybody out here as stupid as me, using a Windows XP with another language than english, failing to install... don't create a folder named ""Program Files"", instead use the one containing your programs an create the folder ESRI in there... Somehow obvious but... Anyway, thank you a lot."
+,Alexal,2008-01-23T12:28Z,Please seed! I really need this stuff by tomorrow's evening(
+,Aessedai24,2008-01-27T21:07Z,"Hi, this is my first torrent download.... I'm not sure how to open it once it is downloaded...let alone install it.  I'm not very pc literate, but i am a fast learner.  But I don't know how to create a directory or even copy files to a specific location...help"
+,hannah2,2008-01-28T23:23Z,"Hello to all!
+
+Could someone please send me the updated LMTools... 
+
+email is:
+andreja.teraz@gmail.com
+
+tnx"
+,jck221,2008-02-02T17:14Z,"Hi everyone.  I was having incredible difficulty installing this application.  I know a lot of you are encountering the same issues as I was so I want you to check out this website, it saved me.  By the way, I am using Windows Vista 64-bit.  Go to http://forums.esri.com/Thread.asp?c=93&f=1148&t=241545    and read it.  If all you want is the new lmtools, there is a link for it..  Hope this helps someone."
+,case11,2008-02-14T10:56Z,"@Bomse-Anders I have the same problem as you, I get the an identical error message in the server status tag, how did you fix this problem?
+
+error message:
+
+lmgrd is not running: Cannot connect to license server
+The server (lmgrd) has not been started yet, or
+the wrong port@host or license file is being used, or the
+port or hostname in the license file has been changed.
+Server name: JonAnders
+License path: 27000@JonAnders
+FLEXlm error: -15,10. System Error: 10061 ""WinSock: Connection refused""
+For further information, refer to the FLEXlm End User Manual,
+available at ""www.globetrotter.com""."
+,case11,2008-02-14T11:04Z,"also i noticed this in my debug log:
+
+1:58:18 (lmgrd) Detecting other lmgrd processes...
+
+ 1:58:18 (lmgrd) FLEXlm (v7.0d) started on amanda (IBM PC) (2/14/2008)
+
+ 1:58:18 (lmgrd) FLEXlm Copyright 1988-1999, Globetrotter Software, Inc.
+
+ 1:58:18 (lmgrd) US Patents 5,390,297 and 5,671,412.
+
+ 1:58:18 (lmgrd) World Wide Web:  http://www.globetrotter.com
+
+ 1:58:18 (lmgrd) License file(s): C:\Program Files\ESRI\License\arcgis9x\license.lic
+
+ 1:58:18 (lmgrd) lmgrd tcp-port 27000
+
+ 1:58:18 (lmgrd) Starting vendor daemons ... 
+
+ 1:58:18 (lmgrd) Started ARCGIS (pid 2464)
+
+ 1:58:19 (ARCGIS) The system clock has been set back to the past.
+
+This is not allowed.
+
+Just to be sure I checked my BIOS to see what the system clock was set to, and it isnt set to the past so Im not sure how to proceed. Anyone have any bright ideas ?"
+,CreamW,2008-03-10T11:17Z,"I installed this but it doesn't have the familiar dos-like ARC/INFO command line. 
+
+Does this have the full ARCINFO licence?
+If it does is it possible to open the Command line window. 
+
+Or has this changed?"
+,kempfo,2008-03-10T15:11Z,"hi!
+
+got the same probs with lm. Flexible License Manager status on Mon 3/10/2008 15:08
+
+[Detecting lmgrd processes...]
+License server status: @thore.
+    License file(s) on thore.: C:\Program Files\ESRI\License\arcgis9x\license.lic:
+
+lmgrd is not running: Cannot connect to license server
+ The server (lmgrd) has not been started yet, or
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   thore.
+License path:  @thore.
+FLEXlm error:  -15,10.  System Error: 10061 ""WinSock: Connection refused""
+For further information, refer to the FLEXlm End User Manual,
+available at ""www.globetrotter.com"".
+
+maybe its because of the lm version?! i followed the manual step by step 2 or 3 times. would be nice if some1 could help me or send a new version of lm to : kempf0naut@web.de
+
+Ty"
+,birk86,2008-03-14T15:00Z,"Vista users can't use this crack without some modifications. You have to get the new version of LM tools and update lmgrd-exe and lmutil.exe. The problem is that the lmgrd.exe cant start at startup. 
+Therefore the problem have nothing to do with the license.lic file but is caused by and old version of these files:
+lmgrd.exe
+lmutil.exe
+lmtools.exe
+
+Sorry for my bad english"
+,gozoman,2008-03-23T15:52Z,"I successfully installed ArcGIS 9.2 on Windows XP SP2! I tried installing a few times. Even the help of Shnoky didn't work for me. Although his help was extensive (thanks for that). I also had problems with the License Manager Tools. I didn't receive the message that everything is ok. I downloaded a newer version via the ESRI forum (thanks for that jck221) but still wasn't the solution. Even after following the procedure very metacuously I didn't get ArcGIS to work. After Googling a bit I found out that there could be a problem with the firewall! When installing ArcGIS itself you have to indicate a license manager or later in the desktop manager. There was no way I could succeed in this. So I shut down the firewall (McAfee) and now I was able to indicate a license manager (the computer name)! And after that ArcGIS 9.2 works perfectly fine, even with the firewall turned on again. So the firewall has to be shut down temporarily only during indicating the license manager in the desktop manager or I guess during the installation of ArcGIS 9.2. I hope this tip works for the people still having troubles!"
+,mammoth_2k,2008-03-25T09:32Z,"I ahve been messing with this and read all of the comments . . still no luck in running the program. I have Vista, can get the license manager to work, installed the prog but when I go to start teh prog it says it can find the license server yet the server is started. Any ideas? "
+,gozoman,2008-03-26T02:14Z,"@mammoth_2k: Are you sure that you have indicated the right license manager in the desktop administrator? I was only able to change this with the firewall turned off! But I have Windows XP. And did you change in license.lic in the first line this_host into your computername? Because this name has to be filled in in the desktop administrator.
+For Vista read:
+http://forums.esri.com/Thread.asp?c=93&f=1148&t=241545
+This was already mentioned before in the thread... I hope it helps!"
+,khunt,2008-04-01T04:30Z,The program doesn't seem to have any of the extensions included (i.e 3d analyst). Does anyone know how to activate the extensions or where they can be accessed?
+,longerhair,2008-04-05T19:20Z,"Can someone please send me the updated LMTools, please help.  thanks.
+
+mr.smooth.operator @ gmail.com"
+,weboreg,2008-04-13T14:36Z,"hello,
+thx for the torrent!
+i am using a vista 64...
+i followed the instructions but i can?t seem to make it work (licence problem) 
+will updateded LMTools help me? 
+If so can someone please send them to me: webreg01@gmail.com
+If not can someone please help me? 
+Thank you..."
+,dogwarrior,2008-04-18T01:00Z,"Installation turned out ok, thanks Schnoky. But data interoperability won't check in the extensions. Neither will Tracking Analyst. Keep getting an error message of ""The extension could not be activated"". Anyone run into this?"
+,weboreg,2008-04-27T15:24Z,"well, after some help from you all i managed to get it running on vista 64-bit. 
+i pretty much updated the lmgrd files as well as the sentinel.
+i them changed the regitstry files for server and file path in both:
+1. HKEY_LOCAL_MACHINE\SOFTWARE\ESRI\License 
+2. HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node
+
+anyway thx for you all"
+,ivanilych,2008-05-01T16:55Z,perfect. awesome. thank you!
+,dozerdog,2008-05-08T23:35Z,Has anyone had any issues with getting ArcEditor to install.  The setup program is not even giving it as an option.  I have followed the steps very closely on two different machines.  Any help??
+,dozerdog,2008-05-09T01:18Z,"Please disregard my last message. I figured it out, lack of knowledge of the new program."
+,salimali82,2008-05-09T18:59Z,"tried all of the above - still no joy!! 
+i've got the same error message as case11
+please help!"
+,ReindeerNinja,2008-05-14T04:05Z,"Hey guys.  At instruction:  k.  Click Save Service to save the settings., I get the message ""You need to be an administrator to do this""...
+
+Also, how the Heck do you edit the .lic file??!!
+
+Thanks for any help!"
+,fengjun,2008-05-17T18:38Z,"installed with no problem on windows xp, running through parallels on a macbook pro!
+big thanks to k2_cult and shnoky"
+,bootjwdjj,2008-05-29T18:14Z,"I get everything loaded, start stop and reread license server but when I perfrom diagnostics I never see the licenses activate. Can anyone help ?"
+,husdat,2008-06-10T09:08Z,"hello guys,
+I installed everything. there is ArcMap and ArcReader and some other apps. however, where do I find ArcEditor and ArcInfo? thanks."
+,tronnix7,2008-06-10T23:54Z,"i am experiencing the same problem as dustoid:
+
+Error 1335
+
+this occurs during the actual ArcGIS Desktop install, and says something about Setup1.cab.
+
+i've tried installing both by mounting the ISO and extracting the files to a folder, then running setup.exe directly.
+
+any ideas?"
+,Milliardo,2008-06-12T00:16Z,"For those having problems...
+
+Update Sentinal Hardware Key Drivers
+http://www.safenet-inc.com/support/tech/sentinel.asp
+
+Update LMTools
+http://www.globes.com/support/fnp_utilities_download.htm
+
+Now follow the instructions provided with this torrent.
+
+Worked for me on Vista/64-bit"
+,yalin0205,2008-06-12T02:00Z,"I have the same problem as tronnix7 & dustoid, and when I perform a server diagnostic is seems ok.  I have disabled the AMD dep.  Installed the new lmtools and Sentinel Hardware Key Drivers.  Any help would be appreciated greatly.  I can be reached at mjm_vail@yahoo.com.
+
+Thanks"
+,tommysoft,2008-06-13T17:05Z,"ReindeerNinja!!!!!!!!! this is wat you do: 
+
+c. Edit the first line of the license.lic file
+
+i. SERVER this_host any
+ii.Change this_host to the name of your computer
+
+
+okay people made mistakes in this part and is one of the reasons for the diagnostics to fail.
+
+after you copied the license file, right click the file, select open with, then choose notepad. now you will see the first line that looks like this.
+
+SERVER this_host any
+
+Now change the word this_host with your computer name. for example my computer name is tommysoft so it would look like this.
+
+SERVER tommysoft any
+
+Then save
+
+Good luck"
+,jipiti,2008-07-04T11:24Z,"hi guys. 
+
+tx for the instructions. I am installing on vista and done everything recommended, Sys Diagnosis is OK. 
+
+But when i start ArcGis it says ""cannot find SERVER hostname in the network database. The lookup for the hostname on the SERVER line in the license file failed."" 
+
+what can i do?"
+,jipiti,2008-07-04T11:39Z,"Found solution to post above from ESRI site!
+
+Error Message
+When attempting to start ArcGIS Desktop or Workstation, the following error may occur:
+
+""Flexlm Error -14: cannot find server hostname in network database. Server name: Not_Set""
+
+Cause
+When the product was initially installed, a license manager was not selected or the license manager selection was skipped. The desktop administrator entry was then set to Not_Set to denote that it is not set yet.
+
+Solution or Workaround
+Set the Desktop Administrator's 'License Manager' setting to the correct hostname of the license server.
+
+   1. Determine the license manager computer's hostname by navigating to a command prompt by selecting Start > Run, type CMD, press Enter and type in the command HOSTNAME. This returns the hostname of the machine.
+   2. Open Desktop Administrator on the client machine by way of Start > Programs > ArcGIS > Desktop Administrator.
+   3. Navigate to the License Manager folder in Desktop Administrator.
+   4. Click 'Change' and type in the hostname obtained in Step 1.
+   5. Click OK to finalize the changes. 
+"
+,kekule1974,2008-07-26T04:50Z,"I have the same question as husdat.  I tried installing this on a computer with Vista, and got frustrated so I installed it on a computer with XP.  The installation went fine, except only ArcMap and ArcReader were installed.  I do not see ArcView, ArcInfo, etc.  Did I accidently choose to only install ArcMap and ArcReader or are these the only 2 programs on this torrent?  I assumed ArcDesktop would have all the programs."
+,Kristneder,2008-07-30T16:38Z,"Will this program gain from a dedicated graphicscard, or will an onboard do just fine?"
+,LMVM,2008-08-07T15:43Z,"hi eveyone!
+quick question about Step d. ""iv. Add ESRIFloat to the registry"" ... all i have to do is to copy this file to the same folder as the previous step (C:\ProgramFiles\ESRI\License\arcgis9x\)?
+I am not sure what a registry is...
+thanks a lot"
+,LMVM,2008-08-11T14:36Z,"It worked!!
+Thanks a lot k2_cult !"
+,naywinoo,2008-08-13T13:09Z,"Dear all,
+I'd like to download this ArcGIS 9.2 but I don't know how to download."
+,me_download?yeah!,2008-08-22T23:15Z,"Hey guys:) 
+
+My tips:
+
+First of all follow and do as the the ""word document"" says, which follows with the torrent! :P or follow what everybody says
+in the COMMENTS of the torrent...but one have to try and just give it all...to get it work, this DEMANDS a bit work ;)
+
+For Vista users:
+
+***************IMPORTANT**************************************************************************
+
+http://forums.esri.com/Thread.asp?c=93&f=1148&t=239973
+
+Download and install this update...dont know why, just do it, it worked:P
+
+http://support.esri.com/index.cfm?fa=downloads.patchesServicePacks.viewPatch&PID=17&MetaID=1351
+
+...and donwload this patch to a newer license manager tool:)
+
+****************IMPORTANT*************************************************************************
+
+It is also important that you can ""Perform a Status Enquiry"" test in the ""Server status"" TAB!
+And SO, try to start server, stop server or ReRead License File in the ""Start/Stop/ReRead TAB...it didnt work at once with me..
+but just try to click back and ""forth"" on the three different things...it will work at the end:) When u get the server
+up and running, START the arcGIS 9.2 ;)
+
+Greetings from from a Norwegian Geosubject student :P
+
+
+For Vista users:"
+,me_download?yeah!,2008-08-23T11:05Z,"..........For vista users...this is mainly for vista users...what I have written:)
+
+But anyway I got the program :D Thanks for the upload:D"
+,me_download?yeah!,2008-08-28T00:12Z,"Hi again ;)
+
+Where can I download ""Layers"" for ArcGIS 9.2?
+Did go in the ArcCatalog, did find some layers there, but Im denied access to these layers... :( :P
+
+Any help to get? :)
+
+Greetings from a Geo-science student ;) "
+,nareshu,2008-09-11T08:04Z,"hi guyz, having problem with licence file can any body post licence.lic file here.
+thanks"
+,nairb21,2008-09-19T12:10Z,please seed guys...
+,elek1975,2008-12-02T14:01Z,"Can someone please send me the updated LMTools, please help. thanks.
+fodorelek@hotmail.com"
+,lenticular,2009-01-23T20:14Z,Has anyone tried using this software with the online ESRI classes? Or does it require an online authentication/registration to use with these?
+,achte18,2009-01-31T00:07Z,"Are you required to have a hardware key to install desktop?
+Also, this comes up when I perform a status enquiry:
+Status
+--------
+Flexible License Manager status on Fri 1/30/2009 16:02
+
+[Detecting lmgrd processes...]
+License server status: @chad-91ec0b338b
+    License file(s) on chad-91ec0b338b: C:\Program Files\ESRI\License\arcgis9x\license.lic:
+
+lmgrd is not running: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   chad-91ec0b338b
+License path:  @chad-91ec0b338b;
+FLEXnet Licensing error:-15,570
+For further information, refer to the FLEXnet Licensing documentation,
+available at ""www.acresso.com"".
+
+Thanks"
+,hannah2,2009-03-11T11:34Z,"Where do I find license for ArcEditor and ArcInfo???
+Because this licence is only for arcview.
+
+help"
+,Azzaman,2009-09-19T23:12Z,"Hey Jipiti,  I follow your instructions and it says this when I change the host name to my computers name
+THE COMPUTER YOU CHOSE IS NOT A VALID LISENCE SERVER"
+,tommytits,2009-11-04T20:11Z,"This is a complete waste of time everybody par a select few who miraculously get ArcView to actually open without this dumb 'cannot find SERVER hostname in the network database. The lookup for the hostname on the SERVER line in the license file failed' message. After trying jipiti's method several times it simply does not work, entry of any new Licence returns the same generic message of 'THE COMPUTER YOU CHOSE IS NOT A VALID LISENCE SERVER'. 
+
+If the host's instructions were complete it could help us, at the stage where we install the torrent the option comes up asking to chose this elusive licence/server/hostname although the instructions have missed this section out which is giving everybody problems. I'd appreciate some help but looks like i'll have to try another torrent which will probly also fail. 
+
+I have now wasted 2 days of my life i'll never get back, cheers! "
+,grimreefa,2009-12-11T14:38Z,"This torrent definitely works because I and several others installed it no problems. With the .doc instructions and the comments on here, it is possible. To tommytits, you could always buy the software...."
+,ferydaboss,2010-03-09T12:53Z,"i can't get it working... i get the 'error 1335. The cabinet file setup1.cab ...is corrupt and cannot be used..."" what should i do? "
+,ferydaboss,2010-03-10T12:38Z,"now i managed to do that, now when i am at that step to start/stop/reread it gives me server failed...i did every step just like that and still i get this... can someone help me pls? ferydaboss at yahoo.com"
+,rmb502,2010-05-03T08:09Z,"For those of you needing some assistance:
+
+I had difficulty installing ArcGIS Desktop 9.2, and found that I needed to dowload an updated version of License Management Tools. ALSO, I had to edit the Registration Entries file (titled ESRIfloat) and enter the correct license path and server name. Once I did that, installed perfectly. Hope that helps."
+,skuppyq,2010-08-08T06:34Z,"The Definitive Method for Installing ArcGIS – Disregard all other Instructions
+
+1.	Download and install the Sentinal Hardware Key Drivers Update:
+http://www.safenet-inc.com/support/tech/sentinel.asp
+2.	Create the following directories:
+C:\Program Files\ESRI\License\arcgis9x
+3.	Copy license.lic to that directory.
+4.	Edit the first line of the license.lic file (SERVER this_host any) so that  “this_host” is the hostname of your computer. You can find your hostname by opening a command prompt and typing the command ‘HOSTNAME’ and hitting enter. Because my hostname is ‘skuppyq-PC’, mine would be ‘SERVER skuppyq-PC any’.
+5.	Run LMSetup.exe, choose C:\Program Files\ESRI\License\arcgis9x\license.lic when prompted.
+6.	DO NOT RESTART
+7.	Copy over ARCGIS.exe to C:\Program Files\ESRI\License\arcgis9x
+8.	Create a file called ‘flexIm.log’ in C:\Program Files\ESRI\License\arcgis9x
+9.	Go to C:\flexIm and copy your modified ‘license.lic’ to this directory as ‘licence.dat’. YOU MUST CHANGE THE EXTENSION FROM ‘.lic’ to ‘.dat’
+10.	Download LMUpdate:
+http://forums.esri.com/Attachments/27972.zip
+11.	Extract the 3 files (lmgrd.exe; lmtools.exe; lmutil.exe) and copy them into your c:\Program Files\ESRI\License\arcgis9x and overwrite when prompted.
+12.	Right click -> edit your ‘ESRIFloat.reg’ and edit the LICENSE_PATH so that it reads: ""LICENSE_PATH""=""C:\flexIm\""
+13.	Run ‘ESRIFloat.reg’ and add it to your registry.
+14.	Restart.
+15.	Launch StartMenu -> ArcGIS -> License Manager 9x -> Run License Manager Tools.
+16.	Choose tab Service/License File, and check ""Configuration using Services"", and choose the ArcGIS License Manager.
+17.	Switch to tab Configure Services, make sure ArcGIS License Manager is in the Service Name listbox.
+18.	 Browse to the correct License file path (C:\Program Files\ESRI\License\arcgis9x) where you copied the ‘license.lic’ file and choose it as license.
+19.	Browse to the correct log file path (C:\Program Files\ESRI\License\arcgis9x) where you created ‘flexIm.log’ file and choose it as the log.
+20.	Browse to the correct ‘lmgrd.exe’ file path (C:\Program Files\ESRI\License\arcgis9x) where you copied the ‘lmgrd.exe’ file and choose it as the log.
+21.	Make sure ‘Start Server at Power Up’ and ‘Use Services’ are checked. 
+22.	Restart.
+23.	Open License Manager Tools again and this time go to the ‘Start/Stop/Reread’ tab at the top.
+24.	Click ‘Stop Server’, then ‘Start Server’, and finally ‘ReRead License File’. If all three processes work, you are ready to mount and install ArcGIS!
+25.	Download and install PowerISO if you have not already (http://www.poweriso.com/download.htm).
+26.	Right-click the iso and use PowerISO to mount the image and then install. Choose your hostname at the install (it should be the first selection)  when it queries you about the license file.  "
+,rafguitar,2010-08-23T17:03Z,"Hello guys, I have Arcgis 10 but without the crack, if someone has the crack, or know where to get one that works, I upload here. Thanks"
+,gelin50,2010-09-02T14:48Z,"I've done the instructions given by the torrent and also the gone written by skuppyq, but when performs the status inquiry it says:
+Vendor daemon status (on Hugo-BG):
+
+    ARCGIS: The desired vendor daemon is down.
+ Check the lmgrd log file, or try lmreread.
+Feature:       ARC/INFO
+Vendor:Host:   Hugo-BG
+License path:  27000@Hugo-BG
+FLEXnet Licensing error:-97,121
+
+and if i do a server diagnostics it says:
+This license cannot be checked out because:
+Cannot connect to license server
+
+	... I will try to determine what the problem is...
+
+""telnet"" port (23) on node Hugo-BG does not respond
+->if Hugo-BG is a Unix system, it's probably down
+
+what can i do to fix this?"
+,Shermania,2010-10-07T20:54Z,"I'm having the same issue nalle...running vista.  I'm pretty sure that the folder also needs to be called ""flexlm"" not ""flexIM'...note the L instead of the I.  This was based on other tries before.  I'm trying it again, but any other comments would help."
+,jancoy,2010-10-08T19:42Z,"i m successfully install the license service, but when i open the archGIS app, it said that the software shoudl b registered, when i use the license included in the download, it said that it is for beta and rejected it...
+
+any help??"
+,hwater,2010-10-09T06:43Z,"I have it working on xp. Used the 'Definitive Method' after a fail of the included)The 'keys' driver is no longer available, just find the new one on the Safe-net site(no longer called 'keys' btw), it works fine.
+
+Anyone done a service pack upgrade?"
+,Shermania,2010-10-13T18:53Z,"Hey hwater, what is the Sentinel Hardware Key Driver called now?  Is it the protection thing?  If you could post a link to it, that would be great too."
+,maker4,2010-10-14T17:16Z,"thanks, it worked fine for me, followed skuppyq's instructions, runnin win7x68Pro"
+,maker4,2010-10-14T17:19Z,*x86
+,bsingwa,2010-12-11T16:37Z,"hi my friends.
+
+here is my suggestion to put the arcgis 9.2 torrent.
+
+it is simple and it works
+
+1.Download and install the Sentinal Hardware Key Drivers Update:
+http://www.safenet-inc.com/support/tech/sentinel.asp 
+Click Here for the latest Sentinel Driver. ( i think this step is not needed, try without using this, i think you can start from step2 )
+2.Install ArcGIS License Manager
+3.Replace C:\Program Files\ESRI\License\arcgis9x\ARCGIS.exe By__:\ArcGis Desktop 9.2\Crack\ARCGIS.exe
+( available inside crack folder )
+4.Reboot (restart) computer
+5.Install ArcGis Desktop
+6.Download LMUpdate:
+http://forums.esri.com/Attachments/27972.zip
+7.Extract the 3 files (lmgrd.exe; lmtools.exe; lmutil.exe) and copy them into your c:\Program Files\ESRI\License\arcgis9x and overwrite
+8.Start up (ArcGISî€€ License Manager (9.x)î€€ License Manager Tools) ( as administrator )
+8.1 SERVICE LICENSE FILE /configuration using services
+8.2.1 CONFIGURE SERVICES / path to the lmrd.exe file and browse for it in the ERDI folder
+8.2.2 path to the license file and browse for it in the crack folder (the .lic file)
+8.2.3 path to the debug log file delete all in the field
+8.2.4 both start server at power up and use services must be on
+8.3 START/STOP/RE-READ
+8.3.1 Stop
+8.3.2 re-read
+8.3.3 Start
+9. Start up (ArcGIS Desktop Administrator) as administrator
+10 LICENSE MANAGER /Change Write Â« Host_Name Â» of your computer/ Ok( your host name is available in my computer properties in computer name
+
+all done
+enjoy it!!!!
+
+best regards"
+,4ZakeN,2010-12-23T23:25Z,"Does this torrent work for anyone? I have tried 3-4 different ArcGIS torrents now, and so far I have´nt gotten 1Kb down. 
+
+I really freaking need this program, does anyone now where I can find a working torrent?!"
+,lagaras,2011-01-20T17:31Z,"Guys this torrent works seriously,9 mean it...there is a very important detail few people know,it is about a specific adjustment in windows administrator rights...it is a bit complicated i cannot analyse it here,anybody with a problem send me an e-mail to lagarasnikos@gmail.com to help you,i downloaded it from here and works perfect!"
+,jwebber001,2011-02-04T05:21Z,"Skuppyq good work on the ability to read the key from your PC!  Did you do this work, if so I also need the same thing done for Hypack.  Are you able to do this?"
+,fantanaman,2011-02-23T19:08Z,"These comments may have been addressed in earlier posts. Some notes for following skuppyq's guide in Win 7 64-bit.
+
+At step 2, be sure to use the directory 'Program Files (x86)', rather than simply 'Program Files'.
+
+Prior to step 4, navigate to 'C:\Program Files (x86)\ESRI\License\' and right-click -> 'Properties' on the folder 'arcgis9x'. On the 'Security' tab, click 'Edit' to alter permissions. Click 'Allow Full Control' for each of the various users. 
+
+At step 8, when you use Notepad to create the .log file, you'll have to 'File->Save as...' and be sure to select 'All Files' in the listbox. Otherwise you'll end up with a text file named flexlm.log, rather than a .log file named flexlm.
+
+Same procedure at step 9.
+
+At step 9, I had to create the directory 'C:\flexlm\'. (Note: here and elsewhere throughout the procedure, I used 'flexlm' rather than 'flexIm', as other posts have pointed out. I think either will work, as long as you are consistent.)
+
+At step 15, be sure to right-click->'Run as administrator', otherwise License Manager won't have permission to configure your services.
+
+At step 24, the 'Stop' button failed to stop the service, but 'Start' and 'Re-Read License' were successful. My install was successful anyway."
+,AGr007,2011-02-27T19:51Z,"@k2_cult
+Thank You Very Much For Uploading The File :)
+
+@skuppyq
+Thank You Very Much For The Explanation,It Works Fine For Me"
+,sirmarks,2011-03-14T23:53Z,"I get a message saying ""The desired daemon vendor is down"".
+
+Any idea how to fix this?"
+,curtw819,2011-03-15T00:25Z,"
+@sirmarks
+
+you just need to change all the files and folders you created that are ""flexIm"" to ""flexlm"".... a lower case L instead of I"
+,wouter9,2011-06-01T22:10Z,"Hey skuppyq, after I did all the things in your installation instruction manual... I can't get the server to be started/stopped and can't getno reread of my license... Can you help me out? I'm kinda bad with computers"
+,pauline5765,2011-07-27T10:04Z,"Thank you k2_cult for the wonderful torrent and skuppyq for the specific instructions. After 3 days of my mom's nagging to install this software, I've finally made it work! 
+
+Follow this instructions (modified a bit) : 
+
+1.	Download and install the Sentinal Hardware Key Drivers Update:
+http://www.safenet-inc.com/support-downloads/sentinel-drivers/
+
+Click the link on ""Click Here for the latest Sentinel Driver.""  and install it on your pc.
+
+2.	Create the following directories/folder:
+C:\Program Files\ESRI\License\arcgis9x
+
+3.	Copy license.lic to that directory.
+
+4.	Open and edit the first line of the license.lic file (SERVER this_host any) so that â€œthis_hostâ€ is the hostname of your computer. 
+
+You can find your hostname by opening a command prompt (start>run>type cmd and then OK) .... enter and type the command â€˜HOSTNAMEâ€™ and hitting enter. Because my hostname is â€˜paulineâ€™, mine would be â€˜SERVER pauline anyâ€™.
+
+5.	Run LMSetup.exe, choose C:\Program Files\ESRI\License\arcgis9x\license.lic when prompted.
+
+6.	DO NOT RESTART
+
+7.	Copy over ARCGIS.exe to C:\Program Files\ESRI\License\arcgis9x
+
+8.	Create a file called â€˜flexlm.logâ€™ (It's not flexIm.log... it's flexlm.log with a small L) in C:\Program Files\ESRI\License\arcgis9x 
+
+9.	Go to C:\flexlm (or just create a folder named flexlm in C) and copy your modified â€˜license.licâ€™ to this directory as â€˜licence.datâ€™. YOU MUST CHANGE THE EXTENSION FROM â€˜.licâ€™ to â€˜.datâ€™
+
+10.	Download LMUpdate:
+http://forums.esri.com/Attachments/27972.zip
+
+11.	Extract the 3 files (lmgrd.exe; lmtools.exe; lmutil.exe) and copy them into your c:\Program Files\ESRI\License\arcgis9x and overwrite when prompted.
+
+AT THIS POINT, TURN OFF YOUR WINDOWS FIREWALL. Because soon at startup, it will block lmgrd.exe from running. 
+
+12.	Right click -> edit your â€˜ESRIFloat.regâ€™ and edit the LICENSE_PATH so that it reads: ""LICENSE_PATH""=""C:\flexlm\""
+
+13.	Run â€˜ESRIFloat.regâ€™ (double-click) and add it to your registry. 
+
+14.	Restart.
+
+15.	Launch StartMenu -> ArcGIS -> License Manager 9x -> Run License Manager Tools.
+
+16.	Choose tab Service/License File, and check ""Configuration using Services"", and choose the ArcGIS License Manager.
+
+17.	Switch to tab Configure Services, make sure ArcGIS License Manager is in the Service Name listbox.
+
+18.	 Browse to the correct License file path (C:\Program Files\ESRI\License\arcgis9x) where you copied the â€˜license.licâ€™ file and choose it as license.
+
+19.	Browse to the correct log file path (C:\Program Files\ESRI\License\arcgis9x) where you created â€˜flexlm.logâ€™ file and choose it as the log.
+
+20.	Browse to the correct â€˜lmgrd.exeâ€™ file path (C:\Program Files\ESRI\License\arcgis9x) where you copied the â€˜lmgrd.exeâ€™ file and choose it as the log.
+
+21.	Make sure â€˜Start Server at Power Upâ€™ and â€˜Use Servicesâ€™ are checked. 
+
+22.	Restart.
+
+23.	Open License Manager Tools again and this time go to the â€˜Start/Stop/Rereadâ€™ tab at the top.
+
+24.	Check 'Forced Shutdown' and Click â€˜Stop Serverâ€™, then â€˜Start Serverâ€™, and finally â€˜ReRead License Fileâ€™. If all three processes work, you are ready to mount and install ArcGIS!
+
+25.	Download and install PowerISO if you have not already (http://www.poweriso.com/download.htm).
+
+26.	Right-click the iso and use PowerISO to mount the image and then install. Choose your hostname at the install (it should be the first selection) when it queries you about the license file. 
+
+27. During the installation, when it asks for the license file... there should be THREE options! Make sure you choose the first one with your Computer Name/HOSTNAME in it. If you only have two options, then you must be doing something wrong so go back to the steps and repeat anything that you might have missed. 
+
+28. When everything's installed, don't forget to SEED the torrent and take k2_cult for it! :)"
+,pauline5765,2011-07-27T10:05Z,"Thank you k2_cult for the wonderful torrent and skuppyq for the specific instructions. After 3 days of my mom's nagging to install this software, I've finally made it work! 
+
+Follow this instructions (modified a bit) : 
+
+1.	Download and install the Sentinal Hardware Key Drivers Update:
+http://www.safenet-inc.com/support-downloads/sentinel-drivers/
+
+Click the link on ""Click Here for the latest Sentinel Driver.""  and install it on your pc.
+
+2.	Create the following directories/folder:
+C:\Program Files\ESRI\License\arcgis9x
+
+3.	Copy license.lic to that directory.
+
+4.	Open and edit the first line of the license.lic file (SERVER this_host any) so that â€œthis_hostâ€ is the hostname of your computer. 
+
+You can find your hostname by opening a command prompt (start>run>type cmd and then OK) .... enter and type the command â€˜HOSTNAMEâ€™ and hitting enter. Because my hostname is â€˜paulineâ€™, mine would be â€˜SERVER pauline anyâ€™.
+
+5.	Run LMSetup.exe, choose C:\Program Files\ESRI\License\arcgis9x\license.lic when prompted.
+
+6.	DO NOT RESTART
+
+7.	Copy over ARCGIS.exe to C:\Program Files\ESRI\License\arcgis9x
+
+8.	Create a file called â€˜flexlm.logâ€™ (It's not flexIm.log... it's flexlm.log with a small L) in C:\Program Files\ESRI\License\arcgis9x 
+
+9.	Go to C:\flexlm (or just create a folder named flexlm in C) and copy your modified â€˜license.licâ€™ to this directory as â€˜licence.datâ€™. YOU MUST CHANGE THE EXTENSION FROM â€˜.licâ€™ to â€˜.datâ€™
+
+10.	Download LMUpdate:
+http://forums.esri.com/Attachments/27972.zip
+
+11.	Extract the 3 files (lmgrd.exe; lmtools.exe; lmutil.exe) and copy them into your c:\Program Files\ESRI\License\arcgis9x and overwrite when prompted.
+
+AT THIS POINT, TURN OFF YOUR WINDOWS FIREWALL. Because soon at startup, it will block lmgrd.exe from running. 
+
+12.	Right click -> edit your â€˜ESRIFloat.regâ€™ and edit the LICENSE_PATH so that it reads: ""LICENSE_PATH""=""C:\flexlm\""
+
+13.	Run â€˜ESRIFloat.regâ€™ (double-click) and add it to your registry. "
+,pauline5765,2011-07-27T10:09Z,"Sorry I don't know what happened with comment, but â€™ means a "" (quotation)"
+,pauline5765,2011-07-27T13:21Z,"
+14.	Restart.
+
+15.	Launch StartMenu -> ArcGIS -> License Manager 9x -> Run License Manager Tools.
+
+16.	Choose tab Service/License File, and check ""Configuration using Services"", and choose the ArcGIS License Manager.
+
+17.	Switch to tab Configure Services, make sure ArcGIS License Manager is in the Service Name listbox.
+
+18.	 Browse to the correct License file path (C:\Program Files\ESRI\License\arcgis9x) where you copied the â€˜license.licâ€™ file and choose it as license.
+
+19.	Browse to the correct log file path (C:\Program Files\ESRI\License\arcgis9x) where you created â€˜flexlm.logâ€™ file and choose it as the log.
+
+20.	Browse to the correct â€˜lmgrd.exeâ€™ file path (C:\Program Files\ESRI\License\arcgis9x) where you copied the â€˜lmgrd.exeâ€™ file and choose it as the log.
+
+21.	Make sure â€˜Start Server at Power Upâ€™ and â€˜Use Servicesâ€™ are checked. 
+
+22.	Restart.
+
+23.	Open License Manager Tools again and this time go to the â€˜Start/Stop/Rereadâ€™ tab at the top.
+
+24.	Check 'Forced Shutdown' and Click â€˜Stop Serverâ€™, then â€˜Start Serverâ€™, and finally â€˜ReRead License Fileâ€™. If all three processes work, you are ready to mount and install ArcGIS!
+
+25.	Download and install PowerISO if you have not already (http://www.poweriso.com/download.htm).
+
+26.	Right-click the iso and use PowerISO to mount the image and then install. Choose your hostname at the install (it should be the first selection) when it queries you about the license file. 
+
+27. During the installation, when it asks for the license file... there should be THREE options! Make sure you choose the first one with your Computer Name/HOSTNAME in it. If you only have two options, then you must be doing something wrong so go back to the steps and repeat anything that you might have missed. 
+
+28. When everything's installed, don't forget to SEED the torrent and take k2_cult for it! :)"
+,johnxyx,2011-08-10T01:26Z,"Can someone help.
+
+I have followed the instructions as best as I could. 
+I was able to get the license manager to work (I think). It let me stop start and reread the license.
+However when I install the program it will not let me select my computer it says that it is not a valid license server. 
+
+Is there somewhere I went wrong?
+If anyone can help it would be great.
+
+Thank you in advance
+"
+,johnxyx,2011-08-10T18:48Z,Ok started all over again and it is working. Thank you everyone involved! Really looking forward to getting working with this program
+,awsedge,2011-08-21T20:05Z,"I have the exact same problem as johnxyx.
+
+I did everything and everything has worked so far and I've been working on this for three hours now. 
+
+""I have followed the instructions as best as I could. 
+I was able to get the license manager to work (I think). It let me stop start and reread the license.
+However when I install the program it will not let me select my computer it says that it is not a valid license server. ""
+
+I changed everything asked for and I don't see where I went wrong and if someone could just tell me what I need to change I would be very thankful.
+
+"
+,pauline5765,2011-08-22T16:17Z,@awsedge: Try to start from Step 1 again and tell me where you stop and get an error. 
+,Jenjohj,2011-09-03T11:29Z,"@pauline5765
+
+Hi!
+
+I've been following your instructions but I still not manage to Reread the licence in  Licence Manager Tools. I have even started over the entire process twice! The only thing that is a bit different is when I create the .log file. I open Notepad, write "".LOG"" (enter) and save it as ""flexlm"". It saves as a .txt but it logs...is this wrong?
+
+Or do you have other suggestions to what my problem might be?
+
+Best Regards
+//Jenjohj
+"
+,Jenjohj,2011-09-03T11:30Z,"@pauline5765
+
+Hi!
+
+I've been following your instructions but I still cannot manage to Reread the licence in Licence Manager Tools (it says reread licence failed). I have even started over the entire process twice! The only thing that is a bit different is when I create the .log file. I open Notepad, write "".LOG"" (enter) and save it as ""flexlm"". It saves as a .txt but it logs...is this wrong?
+
+Or do you have other suggestions to what my problem might be?
+
+Best Regards
+//Jenjohj
+"
+,kugutsumin,2011-09-28T02:24Z,i've followed all the steps to the letter and just cant start server. Is this just not compatible with windows 7 x64?
+,sedme,2011-10-01T23:49Z,Can someone say exacly how to 'Create a file called ‘flexIm.log’ in C:\Program Files\ESRI\License\arcgis9x' ??
+,chemao,2011-11-02T18:18Z,Don't bother downloading this if you're using Windows 7 64 bit. It simple DOES NOT WORK.
+,sevkings,2011-11-15T13:11Z,Can u make the v10 available. i need it for a project please
+,Maserman,2011-11-24T23:14Z,"For the Vista/7 64bit users - keep in mind that you have to change the ESRIFloat.reg file from:
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ESRI\License]
+to
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ESRI\License] because ArcGis 9.2 is a 32 bit application and under 64bit OS it has to be emulated. 
+
+Thanks SKYPPYQ and his guide I've finally made it working under Win7 x64.
+
+Cheers."
+,Maserman,2011-11-24T23:16Z,SKUPPYQ* (sorry bro)
+,garrison_l,2011-12-03T09:14Z,"Please help!
+
+In Save Service, the message shown
+
+""Failed to change FLEXlm License Server. You need to be an Administrator to perform this function.""
+
+What should I do now?"
+,mjnovak,2012-02-05T02:41Z,"Awesome upload! Thanks for the instructions @SKUPPYQ and @Maserman! It took an hour of messing around but it works. I just followed the instructions of SKUPPYQ. For the record, the driver thing IS needed. I am running Win7 Home Premium 64bit"
+,nessule,2012-03-12T23:46Z,"Hi guys, I followed the install instructions but when I tried to check the Server Diagnostics I saw the following error message: ""This license cannot be checked out because: The desired vendor daemon is down"" and in the error log, it says: ""The Sentinel SuperPro hardware key has not been installed on this system, or has been removed.""
+
+I've gone to safenet-inc and downloaded and installed the updated Sentinal Hardware Key Driver, so I'm not sure what's going on.
+
+I've also tried following Shnoky's (you are awesome!) instructions, but when I go to the Server Status tab and click Perform Status Inquiry, I see this: ""ARCGIS: The desired vendor daemon is down
+ 1) Check the lmgrd log file, or 2) Try lmreread""
+
+Mercy! T_T Please help? My email is nessule at hotmail dot ca. CA, not COM. Thank youuuu! :D"
+,nessule,2012-03-25T06:33Z,"Ok, nevermind, ignore my last comment. IT WORKED!! I followed SKUPPYQ's instructions TO THE LETTER and ArcGIS Desktop now works fine. I can't believe I have it!! THANK YOU SO MUCH k2_cult, and THANK YOU SKUPPYQ FOR THE INSTRUCTIONS!!! Omgomgomg. THANK YOUUUUU ;A; "
+,shreddy4,2012-04-01T09:17Z,"Message for Maserman - Please Help
+You put a message as shown below.
+I have Vista.
+How do you do this procedure ????
+
+For the Vista/7 64bit users - keep in mind that you have to change the ESRIFloat.reg file from:
+
+[HKEY_LOCAL_MACHINESOFTWAREESRILicense]
+to
+[HKEY_LOCAL_MACHINESOFTWAREWow6432NodeESRILicense] because ArcGis 9.2 is a 32 bit application and under 64bit OS it has to be emulated. "
+,shreddy4,2012-04-01T09:22Z,"Maserman wrote :
+[HKEY_LOCAL_MACHINESOFTWAREESRILicense]
+to
+[HKEY_LOCAL_MACHINESOFTWAREWow6432NodeESRILicense] because ArcGis 9.2 is a 32 bit application and under 64bit OS it has to be emulated. 
+How do I do this procedure ?????"
+,MercGH,2012-07-02T06:24Z,"If you have Windows 7, for all the instructions, do you use the x86 directory???? and never the regular program files directory??
+
+
+I can't get this work and none of the three work: start, stop, and reread. I am using Windows 7 64 bit on a fairly new computer. I am suspecting that is why. I followed the directions to the T, and even Fantana man's Windows 7 instructions. I also edited the registry line as Mason said for Windows 7 users. The error message I get is: 
+
+--------
+Status
+--------
+Flexible License Manager status on Mon 7/2/2012 00:18
+
+[Detecting lmgrd processes...]
+License server status: @Gilly-HP
+    License file(s) on Gilly-HP: C:flexlmlicense.dat:
+
+lmgrd is not running: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   Gilly-HP
+License path:  @Gilly-HP
+FLEXnet Licensing error:-15,570
+For further information, refer to the FLEXnet Licensing End User Guide,
+available at ""www.macrovision.com"".
+
+Can anyone please help me get this running on Windows 7? I'll even consider providing a donation. email: gillyh69@hotmail.com"
+,MercGH,2012-07-02T06:25Z,"@shreddy 
+
+right click the ESRIfloat file that came in this torrent, click edit, and paste mason's windows 7 registry line"

@@ -1,0 +1,185 @@
+﻿User Type,Username,Date,Text
+,haac,2007-02-02T18:50Z,"Hi,
+
+thx for the ul.
+But....
+I can't find the license file...license.tmp!
+You have a copy or how do I proceed?"
+,Vidiii,2007-02-09T22:07Z,"goto the directory crack ansys
+follow these steps:
+Make sure your removed all folders relating to previous ansys versions
+if you made a dir c:\flexlm delete all the contents of this folder.
+
+copy keygen folder to your harddisk
+
+Goto x:\program files\ANSYS Inc\Shared Files\Licensing\intel (were x is probably c)
+
+
+
+	1) Run WinHostID.exe, output will be like this:
+
+
+
+	HOSTNAME: LineZero
+
+
+
+	FLEXID: 00xxxxxxxxxx
+
+
+
+	IDTYPE: E
+
+
+
+	PLATFORM: Intel
+
+
+
+	OS: Windows 2000 (x86)
+
+
+
+	OPTIONS: None
+
+
+
+	Open license.tmp in notepad, where you unpacked the keygen archive
+
+	replace: SERVER linezer0 000000000000 1055
+
+	with SERVER your-host-name, the zeros, replace with your flexid (all 12 chars!)=
+	delete the 12 0 and put your flexid instead even if it isn't 12 chars
+
+
+
+	2) SAVE! License.tmp. Now run ReCrypt.bat, you will get a license.dat created.
+
+
+
+		Run anslic_admin.exe,
+
+
+
+	Select ""Run license wizard.."" - STEP 1: Select YES
+
+	Then select option ""Load information from existing..""
+
+
+
+	Point to your newly created license.dat!
+
+
+
+	STEP 2: Select YES
+
+
+
+	select yourhost@1050
+
+
+
+	STEP 3: Select YES
+
+
+
+	You're done!.
+
+
+
+	dX!LineZer0
+
+Reboot perhaps.
+
+If this doesn't work make a folder x:\flexlm (were x is probably c)
+and copy your license.dat into this folder then 
+Goto x:\program files\ANSYS Inc\Shared Files\Licensing\intel
+and execute ""lmgrd -z"" or just execute ""lmgrd"" if you don't mind lot's of command
+windows popping up. this should start the license server so you can run Ansys. you'll have
+to execute lmgrd each time you wish to run ansys"
+,gopin,2007-04-19T19:29Z,"Vidiii, i cant unrstnd your explain. plz tell clearly.sorry"
+,karthik.srm,2007-11-15T02:24Z,"hi evy thing is ok.
+but it says that 
+THE FLEXlm ID in the file doesnot mathch with the the flexlm id in the system"
+,rajprince2987,2008-02-14T11:48Z,how 2 download .......i'm not getting it....can u help me out.
+,Viriatus2,2008-06-14T16:33Z,"hi when i run ReCrypt.bat, cryptlic.exe gives a few errors:
+""Counted FEATURE line missing SERVER line""
+
+and a bad license.dat is created. What am i doing wrong?
+
+i replace the server with HOSTNAME and the zeros with the FLEXID..."
+,db4elle,2008-06-30T18:39Z,"@Viriatus2
+
+When creating your licence.dat file, don't replace 'SERVER' with Hostname, you have to enter it like this: SERVER YOURHOSTNAMEHERE YOURFLEXIDHERE 1055
+
+YOURHOSTNAME: this is your computer name, you created a computer name when installing Windows. If you don't know what it is, go to: Control Panel->System->Computer Name
+
+YOURFLEXID: this is the MAC address of your ethernet adapter. I'm using my laptop which has two ethernet adapters, one for a direct LAN connection, and one for a Wifi connection. Use either one. To find the MAC address (or FlexID if you like), open command prompt window (Start->Run->cmd) and type: ipconfig/all
+The MAC address will be the 12 characters under the 'Physical address' title, minus the hyphens of course.
+
+Hope that helped.
+
+Cheers."
+,a001,2008-07-15T08:42Z,"
+
+Thanks. Tout est OK.
+Culd you lend me ANSYS 11?
+
+"
+,Bergieboost,2008-08-29T00:39Z,"Hi,
+Am i stupid or? I can't see the anslic_admin.exe
+Can't see it anywhere, what am I doin wrong? Please"
+,billysnowball,2008-09-24T00:04Z,"Hi
+
+Did what you said 
+
+got my my Hostname: xxxxx-xxxxxxxxx
+
+Flex ID: 014a5289853
+
+Went to license.tmp ran recrypt.bat
+
+Got license.dat
+
+Went to anslic_admin.exe
+
+Pointed to license.bat and it says 'invalid license file second line must begin with server or vendor'
+
+And I have checked my hostname and flex id
+........
+Any suggestions?"
+,illenomis,2008-11-05T10:49Z,"hey billysnowball...
+i'm hitting on your same inconvenient!! did you figure out how to get away with it? how can i substitute vendor with server in the second line of my license?
+
+thanks"
+,Bergieboost,2008-12-03T21:56Z,"Hi again,
+Finaly it worked out fine, can't remeber how I did but this morning (2008-12-03) I got this message:
+""The license for one or more ansys products will expire in 29 day(s). Please contact your Ansys  sales Representative or Ansys inc.""
+I changed the date (01-jan-2009) to (01-jan-2011) in license.dat at all places but I still get that jolly happy message!
+Thanks for sharing anyway, it helped me a lot."
+,Alexander_W,2009-02-13T09:13Z,"Hi,
+
+Can you please paste a license.dat file, which is working, here ?
+
+I am looking forward to get the file.
+
+Best regards
+
+Alexander"
+,Alexander_W,2009-02-13T10:07Z,"Hi,
+
+You can also send me the working license.dat file to alexander_oslo@yahoo.com
+
+Best regards
+
+Alexander "
+,messier4711,2011-02-17T17:40Z,"Download button link points to a trojan.
+
+http://get.whitesmoke.com/GeoInstaller/WhiteSmokeWriterGeo9171_en.exe 
+a variant of Win32/TrojanDownloader.FraudLoad.NAK trojan reported by NOD32 antivirus"
+,nafees53,2011-06-20T21:42Z,"here's some instructions given by chut147 in comment section:
+
+http://thepiratebay.org/torrent/3584325/Ansys_10
+
+I'll suggest everyone to follow the instructions."
+,trunksss,2011-07-28T20:19Z,everything worked grt but ansys MULTIPHYSICS OPENS WANT workbench

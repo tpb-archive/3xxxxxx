@@ -1,0 +1,40 @@
+NB! [b]This version is for all systems except systems with the Intel B/G wireless cards (IPW2200).[/b]
+
+
+
+
+
+[img]http://img115.imageshack.us/img115/489/hackingo3831165fj.jpg[/img]
+
+
+- Live CD with all the tools you need to hack a WLAN / wireless Access point -
+Linux Live-CD - OS runs from CD - 635 mb - .iso
+- also used by the FBI ...
+
+
+WEP Hacking - The Next Generation
+
+WEP is an encryption scheme, based on the RC-4 cipher, that is available on all 802.11a, b and g wireless products. WEP uses a set of bits called a key to scramble information in the data frames as it leaves the access point or client adapter and the scrambled message is then decrypted by the receiver.
+
+Both sides must have the same WEP key, which is usually a total of 64 or 128 bits long. A semi-random 24 bit number called an Initialization Vector (IV), is part of the key, so a 64 bit WEP key actually contains only 40 bits of "strong" encryption while a 128 bit key has 104. The IV is placed in encrypted frame's header, and is transmitted in plain text.
+
+Traditionally, crac*ing WEP keys has been a slow and boring process. An attacker would have to capture hundreds of thousands or millions of packets?a process that could take hours or even days, depending on the volume of traffic passing over the wireless network. After enough packets were captured, a WEP crac*ing program such as Aircrac* would be used to find the WEP key.
+
+Fast-forward to last summer, when the first of the latest generation of WEP cracking tools appeared. This current generation uses a combination of statistical techniques focused on unique IVs captured and brute-force dictionary attacks to break 128 bit WEP keys in minutes instead of hours. As Special Agent Bickers noted, "It doesn't matter if you use 128 bit WEP keys, you are vulnerable!"
+
+Basic Directions:
+
+1)Boot from cd
+
+2)get the wep key
+
+3)write it down
+
+4)reboot into windows
+
+5)connect using wep key.
+
+
+
+
+[size=5]By Soletti[/size]

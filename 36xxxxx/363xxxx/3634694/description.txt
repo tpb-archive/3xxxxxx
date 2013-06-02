@@ -1,0 +1,24 @@
+OpenOffice.org is a suite of office-productivity applications. It provides a word processor, presentation and spreadsheet applications, an HTML editor, and a drawing tool. It offers extensive file-format compatibility with Microsoft* Office, allowing users to better share files between platforms.
+
+Name:OOo-2.0.4-11.iso
+Size:440.4 MB 
+Platforms:Windows 2000/XP
+Localizations: Arabic, Portuguese (Brazil), Chinese (Simplified), Chinese (Traditional), Czech, Danish, Dutch, English, French (Canada), German, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Russian, Spanish, Swedish
+
+The Novell┬« Edition of OpenOffice.org contains enhancements that are not available in the standard edition. These include:
+- Enhancements to Writer: The Writer navigator allows a tree view of the document structure, giving a better navigation experience. We also have improved change-tracking interoperability, better HTML export, and improved printing of fonts. For CJK locales we auto-generate bold and italic fonts where they are commonly missing.
+- Enhanced Support for Microsoft Office File Formats: OpenOffice.org supports import and export of Microsoft Office file formats, even taking advantage of compatible fonts to match document length. Transparent document sharing makes OpenOffice.org the best choice if you are deploying it in a mixed Linux/Windows environment.
+- E-Mail as Microsoft Office Document: The standard edition of OpenOffice.org supports e-mailing of files as PDF files from within the OpenOffice.org application. With the Novell Edition of OpenOffice.org, you can also e-mail any document as a Microsoft Office file. For example, you can e-mail a Writer file as a Microsoft Word file, so the file is automatically converted and attached to an e-mail in your default e-mail application. 
+- Excel VBA Macro Interoperability: The Novell Edition of OpenOffice.org eases the migration of many macros from Microsoft Excel. Although not all macros can be successfully migrated, this interoperability offers more than the standard edition, which does not support migration of macros.
+- Improved Data Pilot Support: The Novell Edition substantially improves the Data Pilot so you can edit pilots after creation.
+- Enhanced Fonts: For the Novell Edition of OpenOffice.org, Novell licensed fonts from AGFA that use the same or similar names as the fonts available in Microsoft Office. The fonts also look similar to those used by Microsoft and have identical metrics. This allows OpenOffice.org to match fonts when opening documents originally composed in Microsoft Office, and very closely match pagination and page formatting.
+- ODMA Integration: The Novell Edition of OpenOffice.org for Windows includes initial release of ODMA integration such as GroupWise.
+- Multimedia Support in Presentations: Impress now supports audio and video files in presentations.
+
+The downloads includes the OpenXML Translator. The OpenXML Translator provides support for opening and saving Microsoft* OpenXML-formatted word processing documents (Word 2007 .docx') in OpenOffice.org. It also includes a language tool for grammar checking (English, German, Polish). Do not decompress them, install both with the packet manager ("tools") just as they are. 
+
+The interface of the program differs from the regular version of OOo. It is IMO much better, based on Gnome. Spelling checker is far better than the regular one (based on StarOffice?) and works better in multinational environments (check the right click of your mouse). I also see quite a lot of bugs cleaned.
+
+The program is free for everybody, except of the citizens of some countries like North Korea, etc. The problem is that the download demands long lasting and tedious registration, as well as the traffic is often congested. 
+
+My ADSL connection is weak (like almost every ADSL in Poland ;-)), so please seed and reseed the program. Thank you!

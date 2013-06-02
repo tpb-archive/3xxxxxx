@@ -1,0 +1,12 @@
+﻿User Type,Username,Date,Text
+,Acidrainisapain,2007-09-09T14:35Z,"What codec do I need to play it in Windows Media Player? The video opens as an audio file, I want to view the video!"
+,5eweryn,2008-01-29T20:51Z,"""KMPlayer"" will open it"
+,Cmama,2009-06-29T07:16Z,"Video and audio are in separate files. they both play with windows media player.
+
+My question is how do I included the music to the video to listen to both at the same time.
+The video plays with no sound and the audio plays with no video.
+How do I put both together.
+Can anyone help me."
+[T],Booster2,2010-05-22T23:29Z,"You need AC3 Filter codec installed if you want to have audio from the music video.
+
+http://www.ac3filter.net/projects/ac3filter/releases"

@@ -1,0 +1,1166 @@
+-Malware Cleaning Disc ver. 8-    
+by:  gobbin1_at_cyber-rights.net
+
+
+Release Date: March 3, 2007     
+Version: 8
+System:  NT/2K/XP
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MCD is an anti-malware toolkit intended for experienced 
+computer users.  The purpose of this compilation is to 
+provide an array of powerful malware analysis, detection,  
+removal, and prevention software in one download.  Also 
+included, are some relevant system utilities.  This can 
+make for a good emergency disc, a disc for cleaning 
+friends\' computers and preventing subsequent infection, or a 
+good starting point for those interested in computer security.
+
+The majority of files included are freeware standalones.  If 
+you like a program in this release, give some well deserved 
+thanks to its developers by donating to them.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+New in version 8:  25+ new tools, 10+ updates.  I\'ve included 
+a new guide that gives an outline of a quick & fairly thorough 
+malware scan, and updated the system optimization guide.  
+The only changes to the directory structure are the addition 
+of a \'process utilities\' folder inside the \'system tools\' folder 
+and a \'proxies\' folder in the \'internet tools\' folder.
+**See the last part of this read me for a list of new files**
+
+
+MCD Release History:
+v 1 - Oct 01, 2006
+v 2 - Oct 03, 2006
+v 3 - Oct 06, 2006
+v 4 - Oct 15, 2006
+v 5 - Nov 15, 2006
+v 6 - Dec 18, 2006
+v 7 - Jan 07, 2007
+v 8 - Mar 03, 2007 (by far the most advanced release to date!)
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Please note: each time this disc is released, someone invariably
+becomes alarmed when their anti-virus program alerts them of an
+infected file.  AV\'s use heuristics analysis, which 
+is basically a generic method for catching new malware.  The 
+problem is that an AV cannot tell what purposes a certain 
+application or string of code is being used for.  For example, look 
+at what the author of an included tool, SmitFraudFix, says on his 
+site:
+
+[ from http://siri.geekstogo.com/SmitfraudFix.php ]
+\"process.exe is detected by some antivirus programs (AntiVir, 
+Dr.Web, Kaspersky) as a \"RiskTool\". It is not a virus, but a 
+program used to stop system processes. Antivirus programs 
+cannot distinguish between \"good\" and \"malicious\" use of 
+such programs, therefore they may alert the user.\" 
+http://www.beyondlogic.org/consulting/processutil/processutil.htm 
+
+
+***************************************************************************
+Before making any alarmist posts, google the filename and see 
+if you can find information on the file in question, see the author\'s 
+page (often linked), e-mail it to your AV company, etc.  There is 
+no malware in this release!  
+
+A big reason for the continued release of this kit is precisely 
+because many people view their AV program as a magical, 
+complete security solution.  It\'s not!
+***************************************************************************
+
+
+
+
+
+
+
+I.      File Analysis
+II.      Anti Virus
+III.      Encryption
+IV.     Firefox
+V.      Firewalls
+VI.     General Cleaning Tools
+VII.    GRC.com tools
+VIII.   Guides
+IX.     Hardware Tools
+X.      Internet Tools
+XI.     Malware Programs/Tools
+XII.    Rootkit Detection
+XIII.   Sysinternals
+XIV.  System Tools
+XV.   Trojan Removers
+XVI.  New Programs
+
+
+
+
+
+
+
+
+
+
+
+
+I.  ANALYSIS TOOLS:
+HxD - A very lite and fast hex editor.  Also has a system RAM editor.
+See the site for the full (lengthy) list of features. 
+http://mh-nexus.de/hxd/
+
+
+IDA Pro - A demo version of one of the most powerful decompilers
+out there. 
+http://www.datarescue.com/
+
+
+JAD - A freeware, command line decompiler for java files. 
+http://www.kpdus.com/jad.html
+
+
+OllyDbg - A very nice assembly level debugger for win32 files. 
+http://www.ollydbg.de/
+
+
+PEid - Some more advanced file encryption, build, entry point, etc info.
+Useful for looking at obfuscated files. 
+http://peid.has.it/
+
+
+PE Tools - PE editor, task viewer, win32 file optimizer and more analysis/
+compiling/packing tools. 
+http://www.uinc.ru/
+
+
+Resource Hacker - A utility for editing inspecting resources of .exe files.  
+Useful for preliminary inspection of suspicious files.  Can also be used to 
+customize context menus/graphics in some programs. 
+http://www.angusj.com/resourcehacker/
+
+
+SISkit - A few Perl scripts useful for analyzing malware.  Can be used on
+many different platforms. 
+http://sistk.sourceforge.net/
+
+
+Truman - An excellent boot program that lets you test files in a \'sandnet\'.  
+Truman even creates a virtual internet for files to interact with, so you can
+test files without harming your machine. 
+http://www.lurhq.com/truman/
+
+
+
+
+
+
+
+
+
+
+II.  ANTI-VIRUS:  For info, see http://www.av-comparatives.org/
+
+1.  Programs:
+Antivir - This consistently ranks as one of the best anti virus apps, 
+and it\'s free. 
+http://www.avira.com/
+
+
+AVG Anti-Virus  - I\'d say the second best free anti-virus application.
+However, Antivir has better detection rates. 
+http://free.grisoft.com/
+
+
+~~
+
+
+2.  Standalone Scanners:
+Norton Remover - A small tool that completely removes Norton bloatware
+from a system. 
+http://service1.symantec.com/SUPPORT/tsgeninfo.nsf/docid/2005033108162039
+
+
+Sec Check - A small tool that scans for active viruses, trojans, and
+worms.  Your results are sent online and scanned by F-Secure and 
+Clam AV.  The results also display a projected scan accuracy for 
+each file. 
+http://www.mynetwatchman.com/tools/sc/
+
+
+Stinger - A small program that scans for ~40 viruses and their variants. 
+http://vil.nai.com/vil/stinger/
+
+
+Vcleaner - A tool from the makers of AVG that detects over 700 viruses
+and variants. 
+http://free.grisoft.com/
+
+
+
+
+
+
+
+
+
+
+III.  ENCRYPTION:
+AxCrypt - An easy to use, 128bit encryption program. 
+http://axcrypt.axantum.com/
+
+
+Bcrypt - A 63kb command line application that provides 448-bit, 
+blowfish encryption. 
+http://bcrypt.sourceforge.net/
+
+
+TrueCrypt - A program that provides low and high grade encryption,
+with plenty of algorithms to choose from. 
+http://www.truecrypt.org/
+
+
+
+
+
+
+
+
+
+
+IV.  FIREFOX:
+Includes Firefox 2.0.0.2 installer and some handy extensions. 
+http://getfirefox.com
+
+1.  Adblock - block ads on websites.
+
+2.  Adblockfilterset - works in conjunction with Adblock.  
+Updated blocking of the vast majority of advertisements.
+
+3.  Bugmenot - bypass login on many sites using right-click.
+
+4.  Customizegoogle - many different google customization and 
+privacy features.
+
+5.  NoScript - This blocks javascript for every site unless you
+specifically allow it. Proper use of this adds a huge layer of 
+security.
+
+6.  StumbleUpon - Select your interests from a long list, and
+this addon will let you \'channel-surf\' the web.  
+
+7.  IE Tab - View pages in IE through Firefox!
+
+
+
+
+
+
+
+
+
+V.  FIREWALLS:
+Comodo Firewall  - A full-featured, easy to use, freeware
+firewall.  Includes application/component monitoring, self-protect,
+application behavior analysis, etc.  
+http://personalfirewall.comodo.com/
+
+
+Jetico - Here is a freeware alternative to Outpost.  This firewall 
+has tested very well at http://firewallleaktest.com  Intermediate/
+advanced level.  At first a bit tough to use, but provides solid 
+protection. 
+http://www.jetico.com/
+
+
+Outpost Free - The last freeware version of Outpost for intermediate/
+advanced users. Takes up less system resources than the pro version,
+though not as rich in features. 
+http://www.agnitum.com/
+
+
+
+
+
+
+
+
+
+
+
+VI.  GENERAL CLEANING TOOLS:
+CCleaner Slim- Comprehensive deleting of temporary data. Also lets
+you scan for uneeded dll files.  The slim version comes sans Yahoo!
+toolbar. 
+http://www.ccleaner.com/
+
+
+Eusing Registry Cleaner - Though not as powerful as JV16, this freeware
+cleaner is one of the better alternatives. 
+http://www.eusing.com/free_registry_cleaner/registry_cleaner.htm
+
+
+JV16 Powertools Free - The last freeware version of this program was
+almost as powerful as the latest release. 
+http://oldversion.com/program.php?n=jv16
+
+
+JV16 Powertools 2006- Comprehensive assortment of registry and file 
+cleaning/defrag utilities.  You can even program your own scripts and 
+automate things like mass file renames with it.  The installer includes
+a detailed pdf handbook. 
+http://www.jv16.org/
+
+
+MRU-Blaster - Very comprehensive and customizable deletion of MRU 
+files from recently opened files lists. (note: this app does not delete 
+the actual files) 
+http://www.javacoolsoftware.com/mrublaster.html
+
+
+
+
+
+
+
+
+
+
+
+
+VII.  GRC APPS:
+Some very small apps from http://grc.com that take care of some 
+potentiality dangerous features of Windows XP.
+
+-Dcombobulator
+-Shoot the Messenger
+-Socket Lock/ Socket to me
+-Unplug n\' Pray
+-Leaktest
+
+
+
+
+
+
+
+
+
+
+
+VIII.  GUIDES:
+XP Services Guide - A guide with detailed info on XP services.  
+Can greatly improve system performance & security.  
+
+
+Guide to testing system security/performance - Provides 
+links to online browser exploit tests, firewall tests, virus tests, 
+internet speed & optimization tests, some security support forum 
+links, and more.
+
+
+Quick Scan Guide - A small guide that tells you how to do a quick
+& fairly comprehensive malware scan using some of the tools included 
+in this kit.
+
+
+
+
+
+
+
+
+
+
+IX.  HARDWARE TOOLS:
+AIDA32 - Complete system information utility.   
+http://www.majorgeeks.com/download181.html
+
+
+Cburst32 - Measure bandwidth/latency of computer memory/cache. 
+http://user.rol.ru/%7Edxover/cburst/
+
+
+CPU-Z - A modern system info tool.  Provides detailed motherboard info,
+voltage, core speed, bus speed, processor info, and more. 
+http://www.cpuid.com/cpuz.php
+
+
+HDspeed - Test hardrive read/write speed. 
+http://www.steelbytes.com/?mid=6
+
+
+Memtest - A small program that checks a system\'s RAM. 
+http://www.memtest86.com/
+
+
+PI Benchmark - Benchmark system speed by seeing how long it takes
+for a machine to calculte pi to a certain amount of digits.  Many programs
+like this use different methods, so results may vary.  See the website for
+more info. 
+http://momonga.t.u-tokyo.ac.jp/~ooura/pi_fft.html
+
+
+ScienceMark - A \'realistic stressing\', freeware system benchmarking tool. 
+http://www.majorgeeks.com/Science_Mark_d2835.html
+
+
+Speedfan - Check system temperatures, voltages (and even overclock
+your machine) 
+http://www.almico.com/speedfan.php
+
+
+
+
+
+
+
+
+
+
+
+X.  INTERNET TOOLS:
+HardenIT - An excellent program that helps protect a computer from
+several types of internet attacks.  This takes care of many common 
+attack pathways. 
+http://www.sniff-em.com/
+
+
+IP Tools - 20 network analysis tools.  Some of these tools are in
+the Console Tools. 
+http://www.ks-soft.net/ip-tools.eng/index.htm
+
+
+LSPfix - Used to fix regain internet connectivity (some CWS 
+strains leave you unable to connect!) [*note: if you have spybot 
+installed, it has this feature built in] 
+http://cexx.org/lspfix.htm
+
+
+Proxomitron - Makes your true computer identity incredibly hard to
+decipher by passing through multiple proxy servers. 
+http://www.proxomitron.info/
+
+
+Proxyrama - A program that checks the security & quality of proxy servers. 
+http://gaamoa.deny.de/
+
+
+Sandboxie - Creates a \'virtual sandbox\' to prevent data loss that can occur 
+while online (p2p, browsing...)   
+http://www.sandboxie.com/
+
+
+SecureIT - Another excellent tool similar to HardenIT.  This one proactively
+prevents many known and unkown exploits. 
+http://www.sniff-em.com/
+
+
+SNORT - Widely used network analysis woftware.  Track malware, attacks, etc. 
+http://www.snort.org/
+
+
+Tor - An excellent program that helps anonymize nternet surfing, instant
+messaging. SSH and more.  Their userbase is now in the hundreds of
+thousands. 
+http://tor.eff.org/
+
+
+Windows Worms and Doors Cleaner - a simple tool that lets you close
+ports that trojans commonly use. 
+http://www.firewallleaktester.com/wwdc.htm
+
+
+WinsockxpFix - An XP specific application similar to LSPfix. 
+http://www.majorgeeks.com/download4372.html
+
+
+
+
+
+
+
+
+
+
+
+XI.  MALWARE:
+
+1.  General Scanners/Tools:
+AIMfix - Excellent tool that removes all known AIM viruses 
+and malware. 
+http://jayloden.com/aimfix.htm
+
+
+BHOlist - Merijn\'s application that shows the toolbars you have 
+installed.  It also downloads a comprehensive list of malware toolbars 
+so you can make sure yours are safe. 
+http://merijn.org/programs.php
+
+
+Brute Forece Uninstaller - Simple scripting app that allows you to execute 
+commands.  This is good for uninstalling stubborn programs/files. 
+http://www.spywareinfo.com/~merijn/programs.php#bfu
+
+
+Bug Hunt - Small utility that detects 4,200+ unique types of malware executables. 
+http://bughunter.it-mate.co.uk/
+
+
+ComboScan - A replacement for ComboFix, which was pulled (deleted system
+files if run while certain malware was active on a system)  This release takes
+care of the issue. 
+http://www.short-media.com/forum/showthread.php?t=54508
+
+
+DLLCompare - Detects hidden dlls as often left by CWS spyware and other 
+malware, but only scans the System32 folder. 
+http://www.cybertechhelp.com/download/file/dll-compare 
+
+
+Ewido Microscan - A small but powerful standalone malware scanner. 
+http://www.ewido.net/en/onlinescan/
+
+
+EULAanalyzer - This scans end user license agreements, which can often
+be very long and complex, and alerts you if it finds any suspicious phrases. 
+http://www.javacoolsoftware.com/eulalyzer.html
+
+
+Get Services - A small utility that lets you analyze XP services in detail, to
+ensure that none are malware. 
+http://www.bleepingcomputer.com/files/getservices.php
+
+
+HijackThis! - Well known spyware/malware assessment tool.  Need help 
+analyzing your logfile?  Look here: http://www.hijackthis.de/ 
+http://merijn.org/programs.php#hijackthis
+
+
+
+HOSTS file - This comprehensive file blocks known malware sites from
+connecting to your computer.  On Windows XP/2K, this can slow down 
+internet speed - here is the solution to this:
+ 
+http://www.mvps.org/winhelp2002/hosts.htm
+Editors Note: in most cases a large HOSTS file (over 135 kb) tends to slow 
+down the machine. This only occurs in W2000 and XP. Windows 98 and ME 
+are not affected.
+
+To resolve this issue (manually) open the \"Services Editor\"
+
+    * Start | Run (type) \"services.msc\" (no quotes)
+    * Scroll down to \"DNS Client\", Right-click and select: Properties
+    * Click the drop-down arrow for \"Startup type\"
+    * Select: Manual, click Apply/Ok and restart. 
+
+
+
+
+jpegScan - San a system for infected .jpg files (an older XP exploit) 
+http://www.diamondcs.com.au/jpegscan/
+
+
+Neo\'s Safekeys - An onscreen keyboard useful for bypassing keyloggers. 
+http://wiki.castlecops.com/Lists_of_freeware_antikeyloggers
+
+
+PV Find - Another general malware scanner.  Useful for removing recent CWS 
+variants. 
+http://www.subratam.org
+
+
+regASSASIN - Delete stubborn registry keys! 
+http://malwarebytes.org
+
+
+RogueRemover - A tool that removes a long list of \'rogue anti-spyware\' products.
+These products do not protect well, are prone to false positives, and can be a pain
+to remove.  See the Guides section for a link to a Rogue spyware reference base. 
+http://www.malwarebytes.org/rogueremover.php
+
+
+Show New - Excellent tool  that logs system modifications of the last 
+90 days only. 
+http://forums.majorgeeks.com
+
+
+Silent Runners - A VB Script that helps detect hidden startup files. 
+http://www.silentrunners.org/
+
+
+Spybot 1.5 Beta update - Recently released updates to the scanning engine 
+and teatimer.
+Note: you need v 1.4 installed before applying this patch. 
+http://www.safer-networking.org/
+
+
+Spybot S&D - I like this better than Ad_Aware.  Includes some IE hijack 
+protection (blocking bad hosts, easy locking of the HOSTS file, teatimer 
+to monitor system changes, and many other tools) 
+http://www.safer-networking.org/
+
+
+Startup List - Merijn\'s more in depth application for detailed scrutiny 
+of possible hijack points/system settings. 
+http://merijn.org/programs.php#startuplist
+
+
+WinPFind - Another good general malware scanner, though it can come
+up with some false alarms. 
+http://www.bleepingcomputer.com/files/winpfind.php
+
+
+X Cleaner Free- Though this is not as comprehensive as Spybot, this 
+standalone cleaner find things Spybot misses.  Includes plenty of extra 
+features as well. 
+http://www.xblock.com/
+
+
+
+
+
+
+2.  Malware Specific:
+2 Brute Force Uninstaller scripts that automate removal of: Alcan, EDGA. 
+http://forums.majorgeeks.com
+
+
+About:Buster - Small app that cleans the many variants of this Internet 
+Explorer malware (CWS related). 
+http://www.malwarebytes.org/aboutbuster.php
+
+
+Alexa Remover - Removes the Alexa spyware toolbar.  Parts of this
+\"research software\" are included in Windows XP installs. 
+http://www.emco.is/
+
+
+Apropos Fix - Removes the Aprop malware. 
+http://forums.majorgeeks.com/showthread.php?t=77765
+
+
+CWSshredder - A tool that cleans some CWS variants. 
+http://www.intermute.com/spysubtract/cwshredder_download.html
+
+
+Cydoor Dummy dll - Some programs won\'t run if you delete Cydoor\'s 
+cd_clint.dll replace yours with the dummy file to stop ads and keep 
+program functionality! 
+http://www.cexx.org/dummies.htm
+
+
+E2Takeout - Removes the E2Give malware. 
+http://www.malwarebytes.org/
+
+
+Fix Wareout - A small program that removes Wareout and related spyware. 
+http://subratam.org/main/
+
+
+KazaaBegone - Removes all the leftovers Kazaa uninstallation misses. 
+http://merijn.org/programs.php#kazaabegone
+
+
+Look2me Destroyer - Removes the most recent versions of the malware. 
+http://www.atribune.org/content/view/28/
+
+
+QooFix - Removes the QooLogic malware. 
+http://www.malwarebytes.org/qoofix.php
+
+
+Smit Remove - Remove Smit, and related malware. 
+http://subratam.org/main/
+
+
+Smitfraudfix - Another tool to remove this annoying malware. 
+http://siri.geekstogo.com/SmitfraudFix.php
+
+
+Sp.html-Se.dll Fix - Removes this hijacking malware. 
+http://derbilk.de/malware/index.php
+
+
+Viewpoint Killer - Uninstalls this riskware. 
+http://prprogramsstudios.us.tc/
+
+
+VX2 Finder - I\'ve included two version of this tool to eradicate all 
+VX2 malware. 
+http://www.subratam.org
+
+
+
+
+
+
+
+
+
+
+
+XII.  ROOTKITS:
+Some of the best standalone scanners:
+--DarkSpy -             http://www.fyyre.net/~cardmagic/index_en.html
+--HookExplorer -      http://labs.idefense.com/labs-software.php?show=19
+--IceSword  -            http://www.blogcn.com/user17/pjf/index.html
+--RootkitRevealer  -  http://www.sysinternals.com/Utilities/RootkitRevealer.html
+--RKunhooker -        http://www.rku.xell.ru/
+--PWalker -             http://www.rku.xell.ru/  
+
+
+
+
+Aries Remover - Removes the rootkit technology distributed on over 4 million
+Sony CDs. 
+http://www.lavasoft.de/software/rootkit/
+
+
+Gromozon Remover - A tool that removes all variants of this new rootkit. 
+http://www.prevx.com/
+
+
+DefenseWall - This is probably the best malware/rootkit prevention program 
+that uses HIPS heuristics.  Very light on resources, and no signature file 
+updates needed.  30-day trial shareware version. 
+http://www.softsphere.com/
+
+
+HookExplorer - See what files are hooked by what.  Allows for advanced 
+system monitoring. 
+http://labs.idefense.com/labs-software.php?show=19
+
+
+Neoava Guard - This is a freeware alternative to DefenseWall.  It monitors
+the system for suspicious changes and prompts the user if any are
+detected.  Great rootkit/malware protection in addition to an anti-virus
+application (even the best AV\'s won\'t catch everything) 
+http://www.neoava.com/index.htm
+
+
+NISfilecheck - This is best used after a clean Windows install.  
+This checks the hash sum of various system files and allows you to 
+monitor changes to them (can occur when updating the system, but can 
+also occur when rootkits and other malware alter important system 
+files). 
+http://www.capimonitor.nl/Atguard%20&%20NIS/_loadurl.php?filename=niscrc.php
+
+
+
+
+
+
+
+
+
+
+XIII.  SYSTEM TOOLS:
+Bugoff! - Merijn\'s app for fixing 10 critical IE vulnerabilities that 
+haven\'t been patched (all fixes are undoable).  Prevents many CWS 
+variants from infecting a computer. 
+http://merijn.org/programs.php#bugoff
+
+
+Console Tools - A zip file with 25 very small and handy tools: getip, 
+cpuinfo, adapters, BIOSdump, and so on.  See the link for a complete list. 
+http://www.wilderssecurity.com/showthread.php?t=110265
+
+
+Dial a Fix - This simple utility makes things like re-registering 
+commonly used dll\'s very simple.  For example, it re-registers 
+files that could cause Windows Update or Windows Media Player 
+to stop functioning. 
+http://djlizard.net/
+
+
+IBProcman - Merijn\'s Itty Bitty Process Manager.  This is handy when 
+some piece of malware shuts down your anti-virus.  Use this to kill it! 
+http://www.spywareinfo.com/~merijn/programs.php#ibprocman
+
+
+InCtrl5 - A program that logs all files registry entry changes/additions made
+by a program install to an html file.  This way you can completely undo a
+program install. 
+http://www.devhood.com/public.aspx?user_id=0003BFFD809BA4EB
+
+
+Infiltration Recovery Tool - Gives you key system function when
+malware has made a computer non-funtional. 
+http://www.excessive-software.eu.tt/
+
+
+Killbox - A neat little program that deletes stubborn files. 
+http://killbox.net/
+
+
+John the Ripper - A program that\'s useful for recovering XP passwords.
+Especially useful for accessing the main admin account of a machine you\'re
+working on, since many users don\'t remember their passwords. 
+http://www.openwall.com/john/
+
+
+Microsoft Baseline Security Analyzer - A more comprehensive windows 
+update.  Scans for uninstalled system/MS Office patches and gives other 
+security suggestions. 
+http://www.majorgeeks.com/Microsoft_Baseline_Security_Analyzer_d4105.html
+
+
+Mozy Remote Backup -  2gb of free online file backup  
+https://mozy.com/registration/free
+
+
+MZ Tweaker - The most powerful freeware tweaking program i\'m aware of.
+Requires .NET 
+http://mztweak.googlepages.com/
+
+
+nLite - Well known program that lets you customize your windows installs 
+by deleting features you don\'t use and creating a new ISO.  It requires
+the .NET platform and works for Wndows XP/2003.  You can even integrate
+hotfixes, drivers, and tweaks into the install. 
+http://www.nliteos.com/
+
+
+PC De-Crapifier - This fully uninstalls a lengthy list of programs that
+are bloatware - large programs that hog resources and for which
+better, more efficient alternatives exist.  This is specific for the 
+programs that come on Dell PCs, but can be used on any computer 
+with any of these programs.  See full list: 
+http://www.yorkspace.com/pc-de-crapifier
+
+
+Powerdefragmenter - Uses the included sysinternals file contig.exe to make
+a GUI defragmenter. 
+http://www.excessive-software.eu.tt/
+
+
+ProcessUtil - A command line process viewer/killer. 
+http://www.beyondlogic.org/consulting/processutil/processutil.htm
+
+
+Reg Compact - A small program to defragment the Windows registry.  
+JV16 Powertools has a similar feature, but it\'s shareware.  This file
+requires the .NET framework. 
+http://experimentalscene.com/download.php?view.1
+
+
+Safe XP - Small app that secures against many little \'holes\' in IE, 
+Windows Media Player, MS Office, Windows Services, TCP, and more. 
+http://www.theorica.net/safexp.htm
+
+
+Security & Privacy complete - A program that complements Safe XP and x_py.  
+This includes a number of extra security & configuration options for Windows, 
+Firefox, and systems settings. 
+http://sourceforge.net/projects/cmia
+
+
+StatBar - A smal program that provides tons of vital system stats. 
+http://www.statbar.nl/
+
+
+UltimateDefrag - This software lets you select your most used files &
+programs, and defragments your drive so that they are in the outer portion
+of the hardrive.  This can equal big performance increases.  This program
+is a 7-day trial. 
+http://www.disktrix.com/
+
+
+Unknown Devices - Makes identifying unknown drivers on a pc much easier. 
+http://www.halfdone.com/
+
+
+Visual Basic 6 Runtimes (XP) - The latest version of the VB Runtimes.  
+Needed if you get errors when running some of these programs. 
+http://www.microsoft.com/downloads/details.aspx?FamilyID=bf9a24f9-b5c5-48f4-8edd-cdf2d29a79d5&DisplayLang=en
+
+
+Wholockme - Tells you what is preventing deletion of a file. 
+http://www.dr-hoiby.com/WhoLockMe/
+
+
+WindirStat - Useful program for seeing what\'s taking up your 
+hardrive space.   
+http://windirstat.info/
+
+
+WinTools - A .NET tool that provides conveniant access to often used
+XP programs like sysinfo, group policy, services, device manager, and
+plenty more. 
+http://www.kinyonsoftware.com/
+
+
+x_py - A very small utility that compliments Safe XP\' quite well.  
+This one has lots of extra performance, security, and general 
+customization settings. 
+http://xpy.whyeye.org/
+
+
+Yadis - A light, powerful, & easy to use backup program. 
+http://www.codessentials.com/
+
+
+
+
+
+
+XIV.  SYSINTERNALS:  http://www.sysinternals.com/
+AccessEnum - Displays who has access to files or registry keys in a 
+specific folder/part of the registry.  Good for tightening user permissions.
+
+
+Autorun - A small utility that gives you detailed autorun, boot execute, 
+winlogon, winsock providers, and more.
+
+
+Contig - A small, command line defragmenter.
+
+
+DiskMon - Monitor harddisk activity.
+
+
+Filemon - Detailed monitoring of disc activity in real time.
+
+
+Handle - Find out what program has a certain file/dir open.
+
+
+PageDefrag - Defragment the Windows Page file.
+
+
+Process Explorer - An advanced process manager from sysinternals.
+
+
+Procmon - Monitor the processes on a computer in real-time.
+
+
+PsTools - Includes the following tools: Psexec, Pskill, Psfile, Pssuspend, 
+and more.
+
+
+Regmon - Similar to Filemon.  Monitor registry activity in real time.
+
+
+Sdelete - A small tool for secure file deletion.
+
+
+Sigcheck - Provides file version info and verifies digital signatures of files.
+
+
+Strings - Scan a file for unicode/ascii strings.
+
+
+Sync - Flush cache data to disk.
+
+
+TcpView - Shows tcp and udp endpoints.
+
+
+TdiMon - Monitor tcp/udp activity.
+
+
+
+
+
+
+
+
+XV.  TROJANS:
+a2 Free - An excellent program to detect trojans, backdoors, and 
+spyware.  This is an optional addon to a setup with an AV program. 
+http://www.emsisoft.com/en/
+
+
+Peper Fix - Removes the Peper trojan. 
+http://subratam.org/main/  (Option Explicit Software)
+
+
+Trojan Remover - Small, well-updated shareware application for trojan 
+detection/removal (although any of the AV\'s plus other small, freeware 
+tools I\'ve included most often do the job) - 30 day trial 
+http://www.simplysup.com/
+
+
+VundoFix - Removes the Vundo trojan. 
+http://www.atribune.org/
+
+
+
+
+
+
+
+
+
+
+XVI.  NEW FILES:
+
+Cburst32 - Measure bandwidth/latency of computer memory/cache. 
+http://user.rol.ru/%7Edxover/cburst/
+
+
+Comodo Firewall  - A full-featured, easy to use, freeware
+firewall.  Included application/component monitoring, self-protect,
+application behavior analysis, etc. 
+http://www.personalfirewall.comodo.com/
+
+
+ComboScan - A replacement for ComboFix, which was pulled (deleted system
+files if run while certain malware was active on a system)  This release takes
+care of the issue. 
+http://www.short-media.com/forum/showthread.php?t=54508
+
+
+CPU-Z - A modern system info tool.  Provides detailed motherboard info,
+voltage, core speed, bus speed, processor info, and more. 
+http://www.cpuid.com/cpuz.php
+
+
+DarkSpy - An advanced rootkit detector. 
+http://www.fyyre.net/~cardmagic/index_en.html
+
+
+EULAanalyzer - This scans end user license agreements, which can often
+be very long and complex, and alerts you if it finds any suspicious phrases. 
+http://www.javacoolsoftware.com/eulalyzer.html
+
+
+Eusing Registry Cleaner - Though not as powerful as JV16, this freeware
+registry cleaner is one of the better alternatives. 
+http://www.eusing.com/free_registry_cleaner/registry_cleaner.htm
+
+
+Get Services - A small utility that lets you analyze XP services in detail, to
+ensure that none are malware. 
+http://www.bleepingcomputer.com/files/getservices.php
+
+
+HardenIT - An excellent program that helps protect a computer from
+several types of internet attacks.  This takes care of many common 
+attack pathways. 
+http://www.sniff-em.com/
+
+
+HDspeed - Test hardrive read/write speed. 
+http://www.steelbytes.com/?mid=6
+
+
+HookExplorer - Scans a processes dl files for hooks.  An advanced
+analysis application. 
+http://labs.idefense.com/labs-software.php?show=19
+
+
+HxD - A very lite and fast hex editor.  Also has a built in system RAM editor.
+See the site for the full (lengthy) list of features. 
+http://mh-nexus.de/hxd/
+
+
+IDA Pro - A demo version of one of the most powerful decompilers
+out there. 
+http://www.datarescue.com/
+
+
+InCtrl5 - A program that logs all files registry entry changes/additions made
+by a program install to an html file.  This way you can completely undo a
+program install. 
+http://www.devhood.com/public.aspx?user_id=0003BFFD809BA4EB
+
+
+MZ Tweaker - The most powerful freeware tweaking program i\'m aware of.
+A geek\'s dream! 
+http://mztweak.googlepages.com/
+
+
+Norton Remover - A small tool that completely removes Norton bloatware
+from a system. 
+http://service1.symantec.com/SUPPORT/tsgeninfo.nsf/docid/2005033108162039
+
+
+OllyDbg - A very nice assembly level debugger for win32 files. 
+http://www.ollydbg.de/
+
+
+PEid - Some more advanced file encryption, build, entry point, etc. info.
+Useful for looking at obfuscated files. 
+http://peid.has.it/
+
+
+PE Tools - PE editor, task viewer, win32 file optimizer and more analysis/
+compiling/packing tools. 
+http://www.uinc.ru/
+
+
+PI Benchmark - Benchmark system speed by seeing how long it takes
+for a machine to calculte pi to a certain amount of digits.  Many programs
+like this use different methods, and thus some are faster than others.  See
+the website for more info. 
+http://momonga.t.u-tokyo.ac.jp/~ooura/pi_fft.html
+
+
+ProcessUtil - A command line process viewer/killer. 
+http://www.beyondlogic.org/consulting/processutil/processutil.htm
+
+
+regASSASIN - Delete stubborn registry keys! 
+http://malwarebytes.org
+
+
+SecureIT - Another excellent tool similar to HardenIT.  This one proactively
+prevents many known and unkown exploits. 
+http://www.sniff-em.com/
+
+
+Silent Runners - A VB Script that helps detect hidden startup files. 
+http://www.silentrunners.org/
+
+
+SISkit - A few Perl scripts useful for analyzing malware. 
+http://sistk.sourceforge.net/
+
+
+SNORT - Widely used network analysis woftware.  Track malware, attacks,
+internet use, etc. 
+http://www.snort.org/
+
+
+StatBar - A smal program that provides tons of vital system stats. 
+http://www.statbar.nl/
+
+
+TrueCrypt - A program that provides low and high grade encryption,
+with plenty of extra features.   
+http://www.truecrypt.org/
+
+
+Unlocker - More advanced than Who Lock Me in that it allows you to 
+unload dlls, kill processes, delete index.dat, close handles, and more.
+Helpful when you need more info or Killbox fails to work.   
+http://ccollomb.free.fr/unlocker/
+
+
+Vcleaner - A tool from the makers of AVG that detects over 700 viruses
+and variants. 
+http://free.grisoft.com/
+
+
+Windows Worms and Doors Cleaner - a simple tool that lets you close
+ports that trojans commonly use. 
+http://www.firewallleaktester.com/wwdc.htm
+
+
+WinTools XP - A .NET tool that provides conveniant access to often used
+XP programs like sysinfo, group policy, services, device manager, and
+plenty more. 
+http://www.kinyonsoftware.com/
+
+
+Yadis - A light, powerful, & easy to use backup program. 
+http://www.codessentials.com/

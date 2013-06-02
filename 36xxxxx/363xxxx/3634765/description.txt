@@ -1,0 +1,106 @@
+This a self-made Utility Disc for your chipped, or soft modded Playstation 2 console.
+
+WARNING!!!
+-----------------------------------------------------------------------------
+Don't download this, if you don't have either a mod-chip or some other method
+of running backup/homebrew software. Also... there are a lot of readme-s and
+documentation missing. Don't blame me... I've created this dvd for myself.
+-----------------------------------------------------------------------------
+
+The disc contains a lot of useful things, for booth Linux and Windows. It's
+a simple collection of tools I use, as a PS2 user. The PS2 ELF-s are
+also awailable through the Crystal Chip Boot Manger (I created the necesary
+folders on the DVD).
+The DVD also contains some other useful CD/DVD images (Uncompressed).
+
+Most programs are (AFAIK) the newest versions available (2007.03.02).
+
+About seeding: I have a 10k outgoing connection only, so be patient. I will seed 24/7 for ca. 1 week.
+
+Here is the complete directory tree of the DVD:
+
+|-- Applications
+|   |-- CogSwap
+|   |-- ExecFTPs
+|   |-- HDLoader 0.8B
+|   |-- HDloader Server
+|   |-- LensChanger 0.1 Beta 6
+|   |-- Memory Card Loader 1.36
+|   |-- Reality Media Player
+|   |-- SMS
+|   |-- SNES-Station
+|   `-- ULaunchELF 4.12
+|       `-- SYS-CONF
+|-- BM
+|   |-- APPS
+|   |   |-- COGSWAP
+|   |   |-- EXECFTPS
+|   |   |-- HDLD_SVR
+|   |   |-- HDLOADER
+|   |   |-- LENS
+|   |   |-- MCLOAD
+|   |   |-- OSDSYS
+|   |   |-- PS2LINK
+|   |   |-- PS2MEDIA
+|   |   |-- SCEDVD
+|   |   |-- SMS
+|   |   |-- SNES
+|   |   `-- ULELF
+|   |       `-- SYS-CONF
+|   `-- THMS
+|       |-- BM1
+|       |-- DEFAULT
+|       |-- ITUNES
+|       |-- PSXSCENE
+|       `-- WEB
+|-- CDVD Images
+|   |-- Machine ID Changer
+|   |-- Swap Magic 3.6
+|   |-- VCD-DivX Player v1.1
+|   `-- ZoneLoader
+|       |-- CD
+|       `-- DVD
+|-- Documents
+|   |-- Crystal Chip 2.0 HOWTO
+|   `-- FUSES
+|-- HDL Compatibility Patches
+|-- Linux
+|   |-- Ps2Client
+|   |-- applyppf
+|   |   |-- linux-redhat
+|   |   |-- mac_os-x
+|   |   `-- w32
+|   `-- makeppf
+|       |-- linux-redhat
+|       |-- mac_os-x
+|       `-- w32
+`-- Windows
+    |-- CDGenPS2
+    |-- DVD92ISO
+    |   |-- Apache
+    |   |-- CDGEN
+    |   |-- CDVDGEN
+    |   `-- IML2ISO
+    |-- HD Handiness
+    |-- HDLoader Patcher
+    |-- IML2ISO
+    |-- Independence Exploit
+    |   |-- CDGenPS2
+    |   |-- DBMaker
+    |   |-- Exploit Files
+    |   |-- Independence Exploit Compiler 4.1
+    |   |-- Independence Exploit Compiler 5.0 Beta
+    |   `-- TITLE.DB With 800 Games
+    |-- PS2 ELF Packer
+    |-- PS2 SaveBuilder 0.8
+    |-- Sony CDVD Generator
+    |-- TITLE.DB Maker
+    |-- TOXIC DualLayer Patcher
+    |-- WinDIP 1.7
+    |-- WinHIIP 1.7.6
+    `-- ps2dis
+
+The DVD compressed with 7zip.
+Enjoy!
+
+-=LAC=-

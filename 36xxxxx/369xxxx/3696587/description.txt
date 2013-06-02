@@ -1,0 +1,200 @@
+PLEASE USE THIS FORUM FOR SUPPORT: 
+http://wowps.org/forum/showthread.php?t=796
+
+----------------------------------------------------------------------
+
+Quote:
+Hello all...
+
+Since the latest Antrix WoW emu has been released...
+I thought i would throw together a quick repack..
+This repack is using Antrix rev42 + scripts + maps...
+And the database is NOW a Project Silvermoon DB Antirx Port...
+all of which is freely available online if you know where to look...
+
+Also i have included a PHP web reg pack... Antrix [RegPage].rar...
+Very easy to setup... Just follow the included README.TXT...
+
+Kudos to everyone at the antrix project and all associated groups...
+Without all their hard pioneering work.. redesigning.. and dedication...
+There would not be a wow emulation scene as diverse as we have today...
+
+ORIGINAL THREAD: [Antrix] v2.0.12 Server RePack by DJRavine
+
+
+
+----------------------------------
+DOWNLOADS
+----------------------------------
+
+NOTE: All these are available @ Files.WoWps.org at 100-500kbs...
+Get more info here... -> Official WoWps.org Members
+
+TORRENT COMING SOON...
+
+[COMPLETE SERVER]
+DOWNLOAD: Antrix v2.0.12 RePack [COMPLETE].rar - 301,623KB [SendSpace.com] - UPLOADING ATM ETA 5 HOURS...
+DOWNLOAD: Antrix v2.0.12 RePack [COMPLETE].rar - 301,623KB [MIRROR]
+
+[SERVER PARTS]
+DOWNLOAD: Antrix v2.0.12 RePack [SERVER].rar - 7,612 KB [SendSpace.com]
+DOWNLOAD: Antrix v2.0.12 RePack [SERVER].rar - 7,612 KB [FileBeam.com]
+DOWNLOAD: Antrix v2.0.12 RePack [SQL].rar - 9,397 KB [SendSpace.com]
+DOWNLOAD: Antrix v2.0.12 RePack [SQL].rar - 9,397 KB [FileBeam.com]
+DOWNLOAD: MaNGOS v2.0.12 Server [MAPS].rar - 277.44 MB [SendSpace.com]
+
+[ANTRIX WEBPACK]
+DOWNLOAD: Antrix [RegPage].rar - 327 KB [SendSpace.com]
+
+---------------------------------------
+INSTALLATION
+---------------------------------------
+
+[quote]
+---------------------------------------------------------------
+HOWTO SETUP AN ANTRIX SERVER by DJRavine @ WoWps.org
+---------------------------------------------------------------
+[EXTRACTED FROM A README.TXT I HAVE IN THIS REPACK]
+
+This server repack is designed for use with the client and server on the same machine...
+
+1. Ensure all these files and folders are in the current directory...
+[Assume the current directory is 'C:/Antrix/']...
+
+
+[quote] 10 Files - 4 Directories
+
+22/05/2007 12:01 AM <DIR> script_bin
+24/05/2007 06:41 PM <DIR> sql
+22/05/2007 04:37 PM <DIR> maps
+22/05/2007 01:10 AM <DIR> dbc
+24/05/2007 07:17 AM 334,412 Antrix [RegPage].rar
+24/05/2007 06:40 PM 9,466 antrix.conf
+20/05/2007 12:02 PM 3,190,784 antrix.exe
+20/05/2007 09:45 AM 813,568 dbghelp.dll
+20/05/2007 09:44 AM 1,028,096 libeay32.dll
+20/05/2007 09:44 AM 1,531,904 libmySQL.dll
+24/05/2007 06:40 PM 2,738 logonserver.conf
+22/05/2007 04:05 AM 344,064 logonserver.exe
+24/05/2007 06:39 PM 4,096 README.TXT
+24/05/2007 06:39 PM 1,567 realms.conf
+
+2. Create a new database on your SQL server call it 'antrix_server'...
+
+3. Import the file '/sql/antrix.sql' into the 'antrix_server' database...
+
+4. Open up antrix.conf file... and the enter your SQL server login infomation...
+
+Quote:
+# Database Section
+#
+# Database.Host - The hostname that the database is located on
+# Database.Username - The username used for the mysql connection
+# Database.Password - The password used for the mysql connection
+# Database.Name - The database name
+# Database.Port - Port that MySQL listens on. Usually 3306.
+# Database.Type - Client to use. 1 = MySQL, 2 = PostgreSQL, 3 = Oracle 10g
+#
+
+Database.Hostname = 127.0.0.1
+Database.Username = root
+Database.Password = root
+Database.Name = antrix_server
+Database.Port = 3306
+Database.Type = 1
+
+5. Open up logonserver.conf file... and the enter your SQL server login infomation...
+
+
+Quote:
+# Database Section
+#
+# LogonDatabase.Host - The hostname that the database is located on
+# LogonDatabase.Username - The username used for the mysql connection
+# LogonDatabase.Password - The password used for the mysql connection
+# LogonDatabase.Name - The database name
+# LogonDatabase.Port - Port that MySQL listens on. Usually 3306.
+# LogonDatabase.Type - Client to use. 1 = MySQL, 2 = PostgreSQL, 3 = Oracle 10g
+#
+
+LogonDatabase.Hostname = 127.0.0.1
+LogonDatabase.Username = root
+LogonDatabase.Password = root
+LogonDatabase.Name = antrix_server
+LogonDatabase.Port = 3306
+LogonDatabase.Type = 1
+
+6. Open up realms.conf file... you can modify the names if you like, not important tho...
+
+
+Quote:
+LogonServerCount = 1
+
+LogonServer1.Address = "127.0.0.1"
+LogonServer1.Port = 8093
+LogonServer1.Name = "WoWps.org Logon"
+
+RealmCount = 1
+
+Realm1.Name = "WoWps.org Test Realm"
+Realm1.Address = "127.0.0.1:8129"
+Realm1.Icon = "Normal"
+Realm1.Colour = 1
+Realm1.Population = 1.0
+Realm1.TimeZone = 1
+
+7. Place the maps in the current directory...
+[You can use the maps for the v2.0.12 MaNGOS servers]...
+
+8. Load up logonserver.exe and antrix.exe... They should load and stay open...
+
+ANTRIX.EXE
+
+Quote:
+Threading system initialized, currently 11 threads are active.
+
+Server is ready for connections. Startup time: 36184ms
+
+Starting network subsystem...
+IOCP: Spawning 2 worker threads.
+
+>> loading realms and logon server definitions... 1 servers, 1 realms.
+>> attempting to connect to all logon servers...
+>> connecting to `WoWps.org Logon` on `127.0.0.1:8093`... ok!
+>> registering realms...
+>> realm `WoWps.org Test Realm` registered under id 1
+>> ping test: 49ms
+
+Process priority adjusted to high.
+
+LOGONSERVER.EXE
+
+Quote:
+================================================== =============================
+Antrix :: Logon Server (running under Win32)
+Compatibility is tested with 2.0.8. Revision 21.
+================================================== =============================
+The key combination <Ctrl-C> will safely shut down the server at any time.
+
+Loading Config Files...
+>> logonserver.conf :: ok!
+
+
+>> establishing database connection... ok!
+>> starting: thread manager...Connecting to MySQL Database on 127.0.0.1 with (mang : *********) ok!
+>> starting: account manager... ok!
+>> starting: information core... ok!
+>> precaching accounts... 2929 accounts.
+
+IOCP: Spawning 2 worker threads.
+Hooking signals...
+Registering realm `WoWps.org Test Realm` under ID 1.
+
+9. Open up your SQL Server and create a new entry in the 'accounts' table...
+Make sure you set the 'flags' field to '8'... or BC will not be enabled...
+
+10. Set your clients realmlist to 127.0.0.1... Then connect ... Enjoy...[/quote]
+
+BOUGHT TO YOU BY THOSE KIND FOLKS AT HTTP://WOWPS.ORG
+
+[/quote]

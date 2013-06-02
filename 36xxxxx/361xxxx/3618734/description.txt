@@ -1,0 +1,47 @@
+This is just the tokens.dat file for Vista
+
+THERE ARE TWO OPTIONS FOR DISTRIBUTING THIS FILE AND THE PKEYCONFIG FILE. THE FIRST AND SIMPLEST FOR ANYONE WITH DUAL BOOT OR A LIVE CD IS TO JUST OVERWRITE THE FILES AND W/E OTHER OS YOU ARE RUNNING. THE SECOND OPTION FOR PEOPLE WHO DON\'T UNDERSTAND WHAT I JUST SAID IS AS FOLLOWS. THE FOLLOWING INSTRUCTIONS AND THE FILE ATTACHED IS COURTESY OF ReeBSaw-TeaM:
+
+                                                                           ┬║
+ ┬║ 1. Install and logon Vista final (worked with the BillGates edition)       ┬║
+ ┬║    with the CDkey given by BillGates.                                      ┬║
+ ┬║                                                                            ┬║
+ ┬║ 2. Browse to Windows\\System32\\Licensing\\pkeyconfig\' folder,right-click     ┬║
+ ┬║   \'pkeyconfig.xrm-ms\' Open property, click Security > Advanced > Owner >   ┬║
+ ┬║    Edit > Administrators. Click OK and close the propertes.                ┬║
+ ┬║    Then re-open properties of the file, Click Security > Advanced > Edit > ┬║
+ ┬║    select Administrators and click Edit.                                   ┬║
+ ┬║    Click \"Full Control\", Click OK and close the properties.                ┬║
+ ┬║                                                                            ┬║
+ ┬║ 3. Reboot into safe mode                                                   ┬║
+ ┬║    Replace \'pkeyconfig.xrm-ms\' using the one in this package.              ┬║
+ ┬║    Go to Start > Run > type \"services.msc\" and find \"Software Licensing\".  ┬║
+ ┬║    Normally this ain\'t running, but if it is                               ┬║
+ ┬║    you need to stop it with the stop button above.                         ┬║
+ ┬║                                                                            ┬║
+ ┬║ 4. Goto Windows\\ServiceProfiles\\NetworkService\\AppData\\Roaming\\Microsoft   ┬║
+ ┬║    \\SoftwareLicensing                                                      ┬║
+ ┬║    Replace the tokens.dat from this package with the one there.            ┬║
+ ┬║                                                                            ┬║
+ ┬║ 5. Reboot into normal mode again.                                          ┬║
+ ┬║    Go to Start > Help & Support > type \"Activate\" in the search menu.      ┬║
+ ┬║    Click on the third topic \"Activate Windows on this Computer\"            ┬║
+ ┬║    This will start Windows Activation.                                     ┬║
+ ┬║                                                                            ┬║
+ ┬║ 6. Now here will start the other part. I can\'t give you a working key,     ┬║
+ ┬║    and this is why: The 2 files you have replaced earlier, are patched     ┬║
+ ┬║    from an earlier Beta release. You need a Beta1/Beta2/RC1/RC2 key to     ┬║
+ ┬║    Activate it succesfully. Since any beta/rc key would only work 10 times ┬║
+ ┬║    to register & activate Vista, you will have to get your own key.        ┬║
+ ┬║                                                                            ┬║
+ ┬║    And this is the funny part: Microsoft still allows anyone to get a beta ┬║
+ ┬║    key. The only thing you need to do is login with your passport.net      ┬║
+ ┬║    account and you\'ll get a vista beta key which will work on this final   ┬║
+ ┬║    RTM release with the patched files.                                     ┬║
+ ┬║                                                                            ┬║
+ ┬║    Here is the URL for getting your valid personal key:                    ┬║
+ ┬║    http://www.microsoft.com/windowsvista/PCTrialResults1.aspx              ┬║
+ ┬║    ?s=151&refer=%2Fwindowsvista%                                           ┬║
+ ┬║                                                                            
+
+The other file you will need (pkeyconfig) is located at http://thepiratebay.org/tor/3617871/pkeyconfig_file_for_Vista

@@ -1,0 +1,18 @@
+﻿User Type,Username,Date,Text
+,Mekkmester,2007-04-14T17:52Z,"INFO for this release!
+
+""""""""AMD 10.4.9 SSE3 Delta Update with netkas 10.4.9 autofsb kernel
+
+Nvidia kexts aren't installed by default , they are in a separate package that you can install later. Device id supported are:
+
+0x004010de 0x00f010de 0x022010de 0x014010de 0x016010de 0x009010de 0x01d010de 0x039010de 0x029010de 0x02e010de 0x032610de 0x016710de 0x016110de 0x039110de 0x032210de 0x032210de 0x039210de 0x004110de 0x039110de 0x016710de 0x00c310de 0x01df10de 0x004510de 0x00F610de 0x032610de 0x02e010de 0x014010de 0x02e110de
+
+if your card insn't listed there don't install them unless you know how to recover.
+
+During the first reboot you need to wait atleast 2mins because the rosetta cache and prebinding are rebuilt. Don't reset if you see any hd activity .
+
+Ati kexts are in extensions 10.4.9 disabled , feel free to try them if you know what you are doing, i haven't messed with them because i don't have an ati card and i also hate ati :P"""""""""""
+,jennysalala,2007-04-16T04:18Z,"I don't care for the nvidia drivers cause I don't mind the ones that came with 10.4.8 but do I just install this restart and it'll be updated to 10.4.9?
+
+I too hate ati and their lack of support. Funny thing that AMD bought ati and are now the owners. lol AMD 1900XT."
+,REKOiL,2007-05-06T14:08Z,whats the md5 hash for this?

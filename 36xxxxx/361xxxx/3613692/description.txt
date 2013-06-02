@@ -1,0 +1,53 @@
+.Bas XP is an new release on the UACD scene!
+
+---------
+New parts
+---------
+
+Classic setup
+Some apps added (Firefox, WLM, WMP11, .NET)
+5 cool visual styles
+Based on XP Student
+Dutch MUI pack :D
+
+-------------
+Removed stuff
+-------------
+
+;# Drivers #
+IBM PS/2 TrackPoint
+IBM Thinkpad
+ISDN
+Logitech WingMan
+Microsoft SideWinder
+Modems
+;# Hardware Support #
+Brother Devices
+Multi-port serial adapters
+;# Languages #
+All languages except the US and Western Europe languages.
+;# Multimedia #
+Music Samples
+;# Network #
+Internet Information Services (IIS)
+MSN Explorer
+;# Operating System Options #
+.NET Framework
+Blaster/Nachi removal tool
+Search Assistant
+Tour
+;# Services #
+Beep Driver
+Indexing Service
+
+------------
+Known issues
+------------
+
+The MUI pack does not install from the shortcut if DBXP is not installed on the C drive. Workaround: Start %systemdrive%\install\nlinterface.cmd.
+
+---------------
+How to install?
+---------------
+
+Download, burn to CD, boot from the CD. Nothing is needed. :) Uses 119 MB RAM after installation.

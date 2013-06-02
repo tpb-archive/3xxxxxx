@@ -1,0 +1,35 @@
+[url]http://www.virtualbox.org/[/url]
+
+InnoTek VirtualBox is a family of powerful x86 virtualization products for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU Public License (GPL). See "About VirtualBox" for an introduction; see "InnoTek" for more about our company.
+
+[url]http://www.virtualbox.org/[/url]
+
+Presently, VirtualBox runs on Windows and Linux 32-bit hosts and supports a large number of guest operating systems including but not limited to Windows (NT 4.0, 2000, XP, Server 2003, Vista), DOS/Windows 3.x, Linux (2.4 and 2.6), and OpenBSD.
+
+VirtualBox is being actively developed with frequent releases and has an ever growing list of features, supported guest operating systems and platforms it runs on. VirtualBox is a community effort backed by a dedicated company: everyone is encouraged to contribute while InnoTek ensures the product always meets professional quality criteria. 
+
+[url]http://www.virtualbox.org/[/url]
+
+[b]In order to run VirtualBox on your machine, you need:[/b]
+
+    * Reasonably powerful x86 hardware. Any recent Intel or AMD processor should do. 
+
+    * Memory. Depending on what guest operating systems you want to run, you will need at least 512 MB of RAM (but probably more, and the more the better). Basically, you will need whatever your host operating system needs to run comfortably, plus the amount that the guest operating system needs. So, if you want to run Windows XP on Windows XP, you probably won't enjoy the experience much with less than 1 GB of RAM. If you want to try out Windows Vista in a guest, it will refuse to install if it is given less than 512 MB RAM, so you'll need that for the guest alone, plus the memory your operating system normally needs. 
+
+    * Hard disk space. While VirtualBox itself is very lean (a typical installation will only need about 30 MB of hard disk space), the virtual machines will require fairly huge files on disk to represent their own hard disk storage. So, to install Windows XP, for example, you will need a file that will easily grow to several GB in size. 
+
+    * A supported host operating system. Presently, we support 32-bit Windows (primarily XP) and many Linux distributions. Support for Mac OS X and 64-bit operating systems is currently in the works. 
+
+    * A supported guest operating system. Besides the user manual (see below), up-to-date information is available at "Status: Guest OSes". 
+
+[url]http://www.virtualbox.org/[/url]
+
+[center][b]V_CLICK PIC FOR FULL SIZE SCREENIE_V[/b][/center]
+
+[center][url=http://www.virtualbox.org/attachment/wiki/Screenshots/3-setup-starting.png][IMG]http://i5.photobucket.com/albums/y185/binkles/3-setup-starting.png[/IMG][/url]
+
+
+
+[/center]
+
+[url]http://www.virtualbox.org/[/url]

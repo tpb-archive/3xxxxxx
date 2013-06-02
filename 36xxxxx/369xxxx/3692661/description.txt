@@ -1,0 +1,43 @@
+Full version of IDA pro
+
+IDA Pro is a Windows or Linux hosted multi-processor disassembler and debugger that offers so many features it is hard to describe them all ...
+
+Enjoy starting to "crack" your applications ;-)
+
+The official line is: IDA Pro combines an interactive, programmable, multi-processor disassembler
+coupled to a local and remote debugger and augmented by a complete plugin programming environment.
+Quite a mouthful, isn't it? We are aware that the above speaks only to geeks.
+
+IDA Pro is a disassembler.
+As a disassembler, IDA Pro explores binary programs, for which source code isn't always available,
+to create maps of their execution. The real interest of a disassembler is that it shows the instructions that are
+actually executed by the processor in a symbolic representation called assembly language. If the friendly
+screen saver you have just installed is spying on your e-banking session or logging your e-mails, a
+disassembler can reveal it. However, assembly language is hard to make sense of. That's why advanced
+techniques have been implemented into IDA Pro to make that code more readable, in some cases, quite close
+to the original source code that produced the binary program. The map of the program's code then be postprocessed
+for further investigations. Some people have used it as the root of a genomic classification of
+viruses. (digital genome mapping ? advanced malware analysis)
+
+IDA Pro is a debugger.
+But, in real life, things aren't always simple. Hostile code usually does not cooperate with the
+analyst. Viruses, worms and trojans are often armoured and obfuscated. More powerful tools are required.
+The debugger in IDA Pro complements the static analysis capabilities of the disassembler: by allowing to
+single step through the code being investigated, the debugger often bypasses the obfuscation and helps obtain
+data that the more powerful static disassembler will be able to process in depth. IDA Pro can be used as a
+local and as a remote debugger on the 80x86 (typically Windows/Linux) and the ARM plaform (typically
+Windows CE PDAs). Remote debuggers are very useful when one wants to safely dissect potentially harmful
+programs.
+
+IDA Pro is interactive.
+Because no computer can currently beat the human brain when it comes to exploring the unknown,
+IDA Pro is fully interactive. In sharp contrast with its predecessors, IDA always allows the human analyst to
+override its decisions or to provide hints. Interactivity culminates in a built-in programming language and an
+open plugin architecture.
+
+IDA Pro is programmable
+IDA Pro contains a complete development environment that consists of a very powerful macro-like
+language that can be used to automate simple to medium complexity tasks. For more advanced tasks, our
+open plugin architecture puts no limits on what external developers can do to enhance IDA Pro's
+functionality. One could, for example, extend IDA Pro with a MP3 player and make malware sing. However,
+we suspect our governmental customers are involved in more serious projects.

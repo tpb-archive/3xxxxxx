@@ -1,0 +1,57 @@
+﻿User Type,Username,Date,Text
+,LOKI_LOKI,2007-02-04T00:51Z,"Symantec AntiVirus Enterprise Edition for enterprise workstations and network servers within a scalable cross-platform virus protection. Use strategies to enhance the security and centralized management. Manager of Client and Server Management Group Logic. In addition, administrators can create, and the deployment strategy and the setting up of safety lock. and the latest state of the system at any time to maintain the correct configuration. Through centralized management console, administrators can audit network Recognition of the node and is not protected by Symantec AntiVirus Enterprise Edition, or Computer Associates. McAfee, and Panda. Trend Micro or Sophos anti-virus products to protect the nodes. This function of active defense before the accident occurred, managers can not protect the node, so as to ensure the normal operation of system and user efficiency."
+,kanuuna12,2007-02-04T14:14Z,this version DONT work with 64bit vista.
+,LOKI_LOKI,2007-02-04T17:45Z,"NOT True,
+You can go directly to symantec's website here
+http://www.symantec.com/vista/index.jsp
+and here
+http://www.symantec.com/vista/sav-vista.html
+
+It has all the info about Compatability issues with their software regarding Windows Vista, and I quote:
+""Vista Compatibility Information 
+Symantec AntiVirus Corporate Edition. Version 10.2 is compatible with 32-bit and 64-bit editions of Windows Vista. All Symantec AntiVirus customers with valid maintenance contracts are entitled to this release. Please visit the Symantec AntiVirus for Vista page for the latest information.
+
+Note: Customers currently testing pre-release builds of Windows Vista will need to move to the final version of Windows Vista. Symantec AntiVirus Corporate Edition 10.2 will not be supported on pre-release builds of Windows Vista.
+Symantec AntiVirus Enterprise Edition. Version 10.2 offers client antivirus/antispyware compatibilty with 32-bit and 64-bit editions of Windows Vista. Server components will not be affected in this release.
+
+All Symantec AntiVirus Enterprise Edition customers with valid maintenance contracts are entitled to this release. Please visit the Symantec AntiVirus for Vista page for the latest information. Symantec AntiVirus Enterprise Edition provides comprehensive malware protection for every network tier in an integrated, easy-to-deploy solution."""
+,LOKI_LOKI,2007-02-04T17:49Z,"To KANUUNA12,
+Do your homework before you comment, how's that saying go, OPEN MOUTH, INSERT FOOT!  You are probably using a PreRelease build of Windows 64bit Vista.  If you had actually tried to fix your problem then you would have noticed that Symantecs website says
+""Symantec AntiVirus Corporate Edition 10.2 will not be supported on pre-release builds of Windows Vista.""
+So if it's not working for you then there is a problem on your end."
+,kanuuna12,2007-02-04T18:52Z,"to loki loki:
+no , i have geniune ""vista ultimate oem"".
+instalation programs says :"" this version of symatec antivirus does not support 64-bit platforms. Please install symantec antivirus for Win64 instead."" ;)"
+,spammerdespam,2007-02-06T23:40Z,"Thanks! Works perfectly (on Windows Vista 32-bit, not even final retail version)"
+,Jimmy1Cool,2007-02-10T16:25Z,Thanks LOKI_LOKI
+,cplsyx,2007-02-17T13:44Z,"Sorry LOKI_LOKI, but this version does NOT work with Vista64. I'm running a retail copy, and it will not install. The 64bit edition must come as a separate app."
+,Xochi,2007-02-18T17:05Z,I can't run this on vista 64bit.  I get a message saying this version is not for 64bit vista. 
+,hertwig,2007-02-24T14:33Z,"Thanks buddy, works perfect on Vista 32-bit"
+,vista924,2007-03-03T14:21Z,this looks real good..thnx so much..got any other nice programs?
+,vista924,2007-03-03T15:36Z,does it have an expiring date? and how did you create it without serial codes or anything?
+,vista924,2007-03-03T15:46Z,"it says that im not connected to the internet , but i am:S please anybody..HELP!!!"
+,The_Pirate_Ghost,2007-03-10T02:39Z,ok... one question that im sure most are afraid to ask... does it work on vista 32 bit build 6000???
+,LOKI_LOKI,2007-04-19T05:39Z,Not sure why your install isn't downloading the updates.  It could be that the updater is being blocked by a firewall.  Do you have any firewalls installed that you know of.  You could also check to see if UPnP is turned on on your router.
+,LOKI_LOKI,2007-05-22T06:49Z,"I'm not sure, this is strictly the Anti Virus program.  Check to see if your version has more components to it than just the Anti Virus."
+,viramP,2008-01-03T13:57Z,"is this good for your personal single user laptops , how is it in comparison to norton internet security 2008"
+,RobrPatty,2008-01-22T06:03Z,What version is this...10.2.276 or 10.2.298?
+,headfog,2008-01-26T17:09Z,"This is version: 10.2.276
+I am running Home Premium X64 and I get an error stating that this version is not supported on X64.  If this *version* is supported on X64, this installer does not support it."
+,vit100,2008-03-14T22:37Z,"Well, it is very dangerous to install something that was infected before....
+
+If someone wants clean version, pls - 
+
+http://thepiratebay.org/tor/4080401/Symantec_10.2_Vista"
+,vit100,2008-03-14T22:45Z,Regarding my previous post - pls disregard - link is not valid....
+,LOKI_LOKI,2008-07-12T21:06Z,"Regarding vit100's post,
+Yes, while it may be dangerous to install something that was previously infected the thing to understand is that the program itself was not infected.  The file the other person had posted was a SELF EXTRACTING EXECUTABLE.  For those of you who don't know what that is a self extracting executable is basically a compressed file like winzip, winrar, 7zip that when ran, acts like a program extracting files to a certain location then, if set to do so, runs a file.    So the symantec antivirus program files themselves were not compromised  or infected in any way.  The basis of what the creator of the previous file had done was piggy backed a virus on a real file.  So when you would run what you think is the install file you were really running a self extracting executable that would attempt to install a virus and the program at the same time.  My antivirus software caught the virus and I recognized it for what it was which was a self extracting executable hiding a virus behind a legitimate installation.  So I merely removed the legitimate installation program from the self extracting executable, which I remind you is a compressed file, so now what is left is the legitimate installation program for symantec.  I hope this clears anything up about the program itself being compromised in any way, shape or form."
+,luvsnookie69,2009-06-20T01:53Z,I down loaded this for a friend. When it installed she said her internet access was blocked. She is using Vista32. Any suggestions on how I can get the program and her internet to work properly?
+,yxwz,2010-06-28T17:33Z,"It gets installed  ... but the live update doesnt work.
+There seems to be some problem with the live update.
+There is no point in downloading the software when u cant update it . Hence , This download is absolutely bogus.
+Please dont download it."
+,LOKI_LOKI,2012-08-28T11:06Z,"@ yxwz - I'm not sure what kind of setup you have but this download still works just fine.  I just finished installing it on an install of Windows 7 Ultimate 32-bit.  It installed fine and Live Update ran, downloaded and installed all the updates no problem.  There is a possibility that you may have previously installed some other download of Symantec AV and as a result some of those installs add entries to the hosts file blocking some of the symantec servers which is done to prevent the software from checking that you paid for it.  I highly suggest you check your own computer to make sure that it is working properly before you go making claims that it doesn't work.
+
+@ luvsnookie69 - not sure what your friend did but this software does not do anything to your internet access.  Maybe it wasn't even her, maybe it was her ISP.  If her internet access isn't working it's not because of this software.
+
+For everyone else,  to clarify something I put in the description.  I said that this version will only work on Windows Vista.  At the time Windows 7 was not released yet.  So this version will not work on Windows operating systems earlier than Windows Vista but will also work on Windows 7.  I have not tried installing this on a 64-bit version of window so if any of you try please let me know the result."

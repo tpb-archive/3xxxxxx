@@ -1,0 +1,228 @@
+An old one!
+
+-----------------
+
+INSTRUCTIONS FOR INSTALLING AND RUNNING
+757 and/or 767 FLIGHT CBT 
+
+This CD is configured for 767 Flight, GE, Fast/Slow, Bottom Mode, Std FMC, and Passenger.
+
+Hardware Requirements
+
+To run the Boeing 757/767 Flight CBT in Windows, 95 from the CD-ROMs, the student station requires the following hardware:
+
+  Pentium 90 CPU or better (Pentium 133 recommended)
+  16 MB RAM (32 MB recommended)
+  640x480 pixel, 16 bit color display
+  SoundBlaster compatible audio
+  Speaker or headphones
+  Mouse
+  CD-ROM reader (4x or faster)
+  Disk space for about 8.5 MB of overhead files and a 20 MB swap file 
+
+Depending on your system configuration, performance may be enhanced by copying the contents of the CD-ROMs to your hard disk or server and running the programs from there.  If you do this, you will not need the CD-ROM reader to run them but you will need approximately 1.1 GB of additional disk space to store them.
+
+Operating System and Network Environments
+
+This version of 757/767 Flight CBT can be installed and run in a Windows 95 environment.  At FlightSafety Boeing, we store it on an NT server, run it routinely on Windows 95 workstations, and have installed it on a Windows NT Workstation.
+
+Installing it for use on several PCs running Windows 95 (or Windows NT Workstation) and connected to an NT server should be a straightforward task for anybody who is proficient at setting up applications in an NT LAN environment.  There are many ways NT LANs differ from one another and various ways to accomplish the installation.  Therefore, FlightSafety Boeing does not provide specific step-by-step instructions for such installations and does not train customers in these tasks.  Information and training regarding such systems and tasks is likely available from your LAN supplier.
+
+Information about the Lessons
+
+On this CD-ROM you will find a file called 56PMENU.DOC (for PIP FMC courses) or 56SMENUN.DOC (for Standard FMC courses) that lists the lessons, describes each lesson briefly, and tells the approximate time required to complete each lesson.
+
+----------------------------------
+
+	Lesson	Run Time
+
+CBT Introduction	15 Minutes
+
+	Computer-Based Training Operations
+		Provides a general introduction to the CBT.  Explains how to navigate within each lesson and how the lessons are structured.  (Does not contain a practice section.)
+
+Airplane General
+
+	Airplane Familiarization	15 minutes
+		Provides general information about the airplane's capabilities, physical features, types of switches, and cockpit instrumentation.  (Does not contain a practice section.)
+	Lighting	20 minutes
+		Operating procedures and principles of cockpit, exterior, and emergency lighting controls and indicators.
+
+APU
+
+	Auxiliary Power Unit	15 minutes
+		Describes operation of the Auxiliary Power Unit under normal conditions and recognition of non-normal conditions.
+
+Electrical System
+
+	Electrical System Normal Operations	20 minutes
+		Explanations for establishing electrical power using either the APU or external power.  Describes proper procedures for securing electrical power from the airplane.
+	Electrical Power Distribution	40 minutes
+		Explains how the electrical system works.  Explains the battery and Standby power systems and the Main AC and DC power system.
+	Electrical System Non-Normal Operations	20 minutes
+		Indications of electrical system non-normal conditions and proper corrective actions.  Emphasis on Bus and Generator non-normals.
+
+Warning Systems
+
+	Crew Alerting and Warning System Part I	25 minutes
+		Describes the operation of the Engine Indications and Crew Alerting System (EICAS) and its relationship to the Master Warning and Caution indications.
+	Crew Alerting and Warning System Part II	25 minutes
+		Describes the EICAS Status and Maintenance displays.
+	EICAS Non-Normals	25 minutes
+		Description of EICAS operation under non-normal conditions and recognizing configuration warnings during takeoff and landing.
+	Ground Proximity and Windshear	25 minutes
+		Description of Ground Proximity Warning System operation and indications, and operation of the Windshear Warning system.
+	TCAS II	45 minutes
+		Indications and operation of the Traffic Alert and Collision Avoidance Systems installed on Boeing airplanes.
+
+
+Fuel System
+
+	Fuel System	20 minutes
+		Describes the basic fuel system.  Shows location of major components such as fuel tanks and cockpit controls and indicators and how to configure the controls for normal operations.  Introduces non-normal indications.
+	Fuel Jettison System (767 only)	15 minutes
+		Operation of the fuel jettison system on the 767-300ER airplanes.
+
+Powerplant
+
+	Powerplant and EICAS Engine Indications	30 minutes
+		Detailed explanation of the engine indications as displayed on the EICAS.  Includes Inflight Start Envelope indications.
+	Fuel, Oil, and Vibration Systems	30 minutes
+		Description of displays, indications, and general system operation.  Explanation of the automatic call-up features and operation of the lower EICAS screen.
+	Ignition and Starting Systems	25 minutes
+		Describes locations and operations of the controls and indicators.  Describes system operation during a normal start sequence.
+	Thrust Management System and Electronic Engine Control	35 minutes
+		Describes the functions and indications of the Thrust Management Computer (TMC) and Electronic Engine Control (EEC).
+	Thrust Reversers	20 minutes
+		Describes the operation and indications of the Thrust Reverser system.  Permits the user to interface with the system and recognize both normal and non-normal indications.
+
+Air Conditioning, Pressurization & Pneumatics
+
+	Pneumatics	25 minutes
+		Describes the normal operation of the Pneumatics system and how to correctly set the controls for proper operation.  Briefly describes the Pneumatics system interaction with other airplane systems.  Describes indications and corrective action for non-normal conditions.
+	Air Conditioning	20 minutes
+		Demonstrates normal operation of the Air Conditioning system during preflight and engine start and after start.  Provides information on non-normal indications and corrective action.
+	Equipment Cooling, Cargo Heat and Ventilation	25 minutes
+		Describes the operation and indications of the equipment cooling and cargo heating systems during normal and non-normal operations.
+	Pressurization	25 minutes
+		Describes the normal operation of the pressurization system during preflight and in flight.  Provides system description, indications, and operations during non-normal conditions.
+
+
+Navigation
+
+	Inertial Reference System	30 minutes
+		Describes the functions, operation, and indications of the IRS.  Enables the user to begin the alignment process from both the CDU and the IRS control panel.  Describes non-normal indications and proper corrective action.
+	Flight Management Computer Familiarization	20 minutes
+		Provides an introduction to the Flight Management System and operation of the CDU.
+	Flight Management Computer Pre-Departure Entries	25 minutes
+		Describes loading of navigation and performance data required for a normal flight.  Describes all required and optional entries during preflight of the CDU.
+	Flight Management Computer Route Entry Part 1	25 minutes
+		Emphasizes the Route Entry page to load Company and manual routes including runways and Standard Instrument Departures.  Shows interaction of the CDU and HSI to verify route information.
+	Flight Management Computer Route Entry Part 2	25 minutes
+		Describes the relationship of the Route Page with the Legs page.  Explains the purpose of the HSI Plan mode and its relationship to the Legs page.  Describes methods to modify a route after it has been entered.
+	Flight Management Computer Climb	25 minutes
+		Describes operation and use of the Climb page and how to modify airspeed and altitude constraints.  Describes relationship between the Autoflight system and LNAV/VNAV.
+	Flight Management Computer Cruise	25 minutes
+		Describes operation of the FMC during cruise and the functions of step climbs.  Describes how to modify cruise wind information to improve FMC estimates.  Discusses the cost index concept and how it affects cruise speed.
+	Flight Management Computer Descent	35 minutes
+		Describes the functions and information available on the Descent page.  Describes how to modify certain parameters to improve accuracy and how to add and delete constraints.
+	Flight Management Computer Progress and Miscellaneous Data	25 minutes
+		Describes information available on the Progress and Route Data pages.  Describes the method used to determine time and distance to an alternate airport.
+	Flight Management Computer Flight Plan Changes	30 minutes
+		Describes recommended methods for modifying a flight plan while enroute.  Describes the purpose and functions of the Direct, Intercept, and Offset functions.  Demonstrates how to add, delete, and bypass waypoints.  Describes various methods for defining waypoints.
+	Flight Management Computer Approaches, STARS and Diverts	35 minutes
+		Describes selection of Standard Terminal Arrival Routes (STARS) and Approaches.  Describes the purpose of transitions to provide continuous LNAV routing and the required information for the FMC to calculate a Top of Descent point.  Describes methods to divert to an alternate airport.
+	Flight Management Computer Lateral Offsets and Fix Information	20 minutes
+		Describes the function of and information available on the FIX page and HSI.  Describes creation of waypoints using information on the FIX page.
+	Flight Management Computer Holding	35 minutes
+		Describes use of the FMC Hold page.  How to enter/modify information on the Hold page.  Describes procedures for entering and exiting hold and how to recognize more than one holding fix in a route.
+	Miscellaneous Navigation Equipment	25 minutes
+		Describes the ATC transponder, radio navigation (including ADF, ILS, and VOR/DME radios), and weather radar.
+	Flight Management Computer Non-Normal Situations	30 minutes
+		Describes use of the FMC during engine out operations and failure of one or both FMCs.  Also covers the various FMC messages.
+
+Flight Instruments
+
+	Attitude Director Indicator	30 minutes
+		Describes the functions and indications available on the ADI.  Describes the operation and use of the Flight Director and ILS indicator.  Shows how to set a decision height on the ADI and explains indications associated with ADI non-normals.
+	ADI Speed Display	25 minutes
+		Describes the functions and indications of the Speed Tape or Fast Slow (depending on airline option) ADI speed indication.  Describes the interface to these indicators from the mode control panel and the existing aircraft configuration.  Describes non-normal indications associated with the indicator.
+	HSI Map and Plan Modes	30 minutes
+		Describes the controls, indicators, and display symbols on the HSI using the map and plan modes.  Shows the functions of the HSI mode switches and use of the weather radar.  Describes operation of the HSI in the map and plan modes with failure of one or both FMCs.
+	HSI VOR and ILS Modes	25 minutes
+		Describes the controls, indicators, and display symbols on the HSI using the VOR and ILS modes.  Describes the function of the heading reference switch and its impact on the HSI.  Describes the use of the Heading Reference bug and the difference between the Full and Expanded modes.  Shows how to tune the VORs, ADFs, and ILS.  Describes various failure flags that can appear in these modes.
+	Primary and Standby Flight Instruments	30 minutes
+		Provides information on the operation and displays of the Altimeters, VSI, Clock, RDMI, Flight recorder, and Instrument Source Selector.  Describes operation of the Standby flight instruments (attitude, heading, speed, and altimeter) and various failure indications of the Primary and Standby flight instruments.
+		
+Autoflight
+
+	Introduction to Autoflight	30 minutes
+		Describes the relationship between the major components of the Autoflight System.  Shows the input/output relationship between the autopilots, Flight Directors, Autothrottle, Flight Control computers, and Autothrottle computer.  The user will learn how to engage autopilots, autothrottles, and Flight Directors.  This lesson describes the various modes that are available during flight and how to engage these modes through the Mode Control panel.
+	Autoflight Modes Part 1:  Pitch and Roll	30 minutes
+		Detailed description of the various autoflight modes with emphasis on ADI annunciations.  Shows the relationship between pitch, roll, and thrust modes as well as the autoflight protective modes.
+	Autoflight Modes Part 2:  FLCH and VNAV	30 minutes
+		Detailed discussion of the Flight Level Change and Vertical Navigation modes of operating the autoflight system.  Demonstrates required actions to perform altitude changes and speed intervention in VNAV and Flight Level Change.
+	Autoflight Modes Part 3:  Takeoff and Approach	30 minutes
+		Covers the operation and available indications when operating in the automatic landing mode.  Covers the use of the Localizer (LOC) and Approach (APP) modes.  Also covers the Go Around functions of the autoflight system.
+	Autoflight Subsystems	20 minutes
+		Describes the purpose and functions of the altitude alerts associated with the Altitude window on the Mode Control Panel.  (Does not contain a practice section.)
+	Autoflight Non-Normals	30 minutes
+		Describes the indications and limitations associated with the failure of various components of the autoflight system.
+
+Hydraulic Systems
+
+	Hydraulic Systems:  Normal Operation	25 minutes
+		Describes the three independent hydraulic systems with their controls and indicators.  The quantity and pressure indicators on the status page are discussed.  Specific major components powered by each system and the automatic load shedding in the event of reduced electrical power are also covered.
+	Hydraulic Systems:  Backups and Non-Normal Conditions	25 minutes
+		Describes the function, purpose, and operation of the Ram Air Turbine (RAT), Reserve Brakes and steering system, and recognition of selected hydraulic failures.  The Power Transfer Unit (PTU 757) and the Pitch Enhancement system (PES 767) are also described.
+
+Landing Gear
+
+	Landing Gear	30 minutes
+		Describes the normal operation of the landing gear system with associated controls and indicators.  Also discusses operation of the Alternate Gear Extension system and introduces recognition of EICAS messages associated with the landing gear.
+	Brake System	25 minutes
+		Describes operation of the normal and alternate brake systems, including the parking brake and auto brake systems.  The antiskid functions and EICAS messages associated with the brakes are also covered.
+
+Flight Controls
+
+	Flight Controls:  Introduction	30 minutes
+		Provides an overview of the different flight control surfaces, the flight control shutoff switches, and how the RAT interfaces with the hydraulic system.  (Does not contain a practice section.)
+	Flight Controls:  Rudder System	30 minutes
+		Describes the controls and indicators associated with the rudder system.  It includes a discussion of the rudder trim, Yaw Damper, and Rudder Ratio systems.  The rudder system non-normal indications are also discussed.
+	Flight Controls:  Elevators and Stabilizer	30 minutes
+		Describes operation of the elevators and stabilizer trim systems.  Describes the green band settings on the trim system and discusses the difference between the electric and alternate stab trim systems.
+	Flight Controls:  Ailerons and Spoilers	30 minutes
+		Describes operation of the ailerons and spoiler systems.  Also covers aileron trim and automatic speedbrake systems.  EICAS messages associated with these systems are also covered.
+	Flight Controls:  Flaps and Slats	30 minutes
+		Describes the operation, controls, and indicators associated with the flap/slat systems.  Includes discussions of the "gate" positions on the flap selector and the alternate flap/slat system EICAS messages.
+
+Ice And Rain Protection
+
+	Ice and Rain Protection	25 minutes
+		Describes the purpose and operation of the Window Heat, Wing and Engine Anti-ice, and pitot heat systems.  Also covers EICAS messages associated with these systems.
+
+
+Communications
+
+	Communications	25 minutes
+		Describes the operations and controls for the Audio Selector Panel, Cockpit Handset, Service Interphone Switch, pilots' Call Panel, and the cockpit voice recorder.
+
+Fire Protection
+
+	Fire Protection:  Engines and APU	25 minutes
+		Describes engine and APU fire detection and extinguishing systems.  Also discusses the engine overheat detection system and the APU remote Fire Control panel.
+	Fire Protection:  Cargo Compartments, Wheel Well and Testing	20 minutes
+		Describes the indications and operation of the Cargo Fire protection system and Wheel Well Fire indications.  This lesson also discusses the operation of the Fire/Overheat test system.
+
+Fault Reporting
+
+	Fault Reporting Manual	15 minutes
+		Describes flight crew use of the Fault Reporting Manual.  Gives examples of specific system failure write ups.  Demonstrates how maintenance uses this information to correct discrepancies.
+
+	757/767 CBT MENU
+	Standard FMC
+
+
+	757/767 CBT MENU
+	Standard FMC
+

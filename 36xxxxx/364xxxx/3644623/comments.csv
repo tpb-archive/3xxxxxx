@@ -1,0 +1,60 @@
+﻿User Type,Username,Date,Text
+,carribean,2007-03-22T04:48Z,Nice plot
+,anakin66,2007-03-22T18:41Z,"Sorry about the seeding. I have never created a torrent before, and it was quite late by the time I figured it out. I usually have my computer running from about 12pm Canadian Atlantic time, until 1:30 am. Last night I set it to shut down at 3:30 am, but that still left about eight hours with my system shut down after only two or three hours seeding.
+
+Also, if anyone is familiar with uploading torrents, perhaps you could let me know if I should check the initial seeding box in utorrent, or if this will not significantly increase uploading speed. I tried to figure all this out last night, and ended up not getting the torrent uploaded until after 12 am (again, Atlantic time).
+
+Any help would be appreciated. A tutorial could have at least been provided. Luckily, I found one elsewhere."
+,anakin66,2007-03-25T21:33Z,"I have been initial seeding this file, but my upload rate is still really slow. Perhaps someone could offer a suggestion. I am using utorrent with a 10 Mbit cable modem (eastlink.ca). The maximum upload rate is 100 kBytes per second. I have my download rate set to unlimited and my upload rate set to 45 kBytes per second. Up until a month ago, my download speed was usually much faster, and my upload speed always used the full 45-47 kB per second. Then, for no apparent reason, my download speed dropped with utorrent, and my upload speed is usually around 20 kB or so, then spikes sometimes at night to my max of 45 kBytes.
+
+I was wondering if anyone with experience with uTorrent might have any idea what is going on. A perfect example is that I was uploading this torrent (Barbarian Queen), and the upload speed never exceeds 6 kB/sec even though my total upload speed is still hanging around only 20 kB/sec. Then, suddenly I finish downloading season 1 of angel and my total upload speed shoots right back up to 49 kBytes per second, but almost half of that is being allocated to Angel at an upload speed of around 25 kB/sec, and yet my own created Barbarian Queen torrent is still only uploading at between 0.5 and 5 kB/sec.
+
+Can anyone explain why uTorrent would not be using my full allocation of uploading bandwidth, especially with a torrent that I am trying to upload and a massive number of peers, but then suddenly start using the full amount when an unrelated torrent finishes uploading?
+
+Have any other uTorrent users noticed this problem with decreased downloading and uploading speeds happening? Until a month ago, I always used my full upload limit that I had set. What is going on? I feel awful having posted my first torrent, and then having such a slow upload speed. Please offer suggestions."
+,made-of-technetium,2007-03-25T22:10Z,"One thing you could try is double click on all the files you're downloading & set the Max upload to 1kB/s (especially if it's well seeded anyway). This will at least stop them from sucking up all your upload bandwidth, hopefully freeing up the bandwidth for your uploads."
+,anakin66,2007-03-26T00:21Z,"I tried your suggestion of double clicking on the torrents and lowering the upload speed. As I mentioned, only Angel season 1 had a huge upload rate bringing me up to about 48 kB per second. I set it to 10 kB instead, and sure enough, the upload rate changed to 10 kB/sec; however, the total upload rate for all torrents dropped accordingly. Instead of uploading at 46-49 kB/sec, it dropped to about 33 kB/sec, even though my global upload rate is set to 45 kB/sec.
+
+Since that meant utorrent was still not utilizing the extra upload bandwidth available, I reset the value to 0 which indicates unlimited. Instead of returning to uploading at about 26 kB/sec, it dropped to a few kB/sec, and the Total upload speed dropped even further to 22-24 kB/sec.
+
+That means at least 20 kB/sec of my upload speed is not being utilized. I never had this problem before a month ago. I have installed the tcpip.sys patch, and confirmed my upload and download speeds with Eastlink, and even had their tech support confirm that everything was working properly.
+
+Is this some sort of bug that utorrent introduced? I'm at a loss. All I can say to the 100+ people trying to download is please be patient. The file is only 700 MB, but at this speed, it is still going to take a while to upload.
+
+Any other ideas would still be welcome. Thanks to ""made-of-technetium"" for the attempt at assisting me."
+,made-of-technetium,2007-03-26T01:22Z,What happens if you stop all torrents apart from this one?
+,made-of-technetium,2007-03-26T01:30Z,"Try running this bit of software:-
+http://www.junegillespie.plus.com/UPnPTest.exe
+& check your port forwarding by clicking on the little green tick at the bottom of the window."
+,anakin66,2007-03-26T21:32Z,"O.K., I tried the software you recommended, and it said that I failed 5 of the eight tests. After doing my best to fix each problem, I got to test 7 and read that if I was using a cable ""modem"", UPnP Port mapping would not work. It would have been worth mentioning this before giving the instructions on how to fix the other problems if he was just going to say at problem number 7, ""never mind, it wont work if your device says modem anywhere on it.""
+
+Regardless, I saw something similar on the utorrent site concerning possible problems with Motorola Surfboard Cable Modems, but since I don't even know what UPnP Port forwarding means, and since I didn't have any problem until recently (no hardware changes, and running utorrent 1.6.1 for a while before problems started), I didn't make any connection.
+
+I have disabled UPnP Port Mapping, and there does seem to be some increase in upload speed, as well as download speed. Unfortunately, when I test port forwarding in utorrent, I get unstable results. Half the time it tells me the port is fine, and half the time it says there seems to be an error. I have tried before generating new ports, but still no improvement.
+
+Perhaps a different torrent program would help? Regardless, at least the upload of Barbarian Queen seems to be up to over 16% now. I don't know what else to do. It wouldn't have killed utorrent to have a technical support email, but I guess freeware is freeloader beware.
+
+Thanks for the help."
+,anakin66,2007-03-29T00:28Z,"I see I'm making progress. I apologize for the slow upload speed. I have been having problems with both download and upload speeds for the last month or so, although I didn't know uploading a torrent would be this bad. Can anybody tell me if Eastlink (my ISP) has recently started the practice of bittorrent ""throttling""? In other words are they restricting bandwidth when they suspect torrents are being used? This would have started about a month ago when my own download and upload speeds went way down, even though speedtests say that I actually have an even faster connection than others on eastlink who have done the same tests. "
+,bertvanhal,2007-04-06T09:44Z,"Thi will porbably be a stupud question but... how come I only have audio and no video when I play this file on my mediaplayer??
+please help me out"
+,anakin66,2007-04-11T23:33Z,"Unless others are having the same problem, in which case I screwed up my first time creating and uploading a torrent, there are two likely causes of your problem. One is that you are using a torrent program that doesn't do a very good job of checking for errors and something got corrupted during your download. The more likely possibility is that you do not have the correct video codec installed on your system. avi files frequently use divx,a free audio/video codec which can be downloaded from www.divx.com. Try installing the newest divx codec on your system and then playing the file. If anyone else is having the problem, then I screwed up, but a lot of other people should have complained before now with 223 downloads."
+,uros09,2007-07-06T22:21Z,It is working and I like this movie.Some scenes like firstone could be little longer.
+,anakin66,2007-07-10T22:47Z,"""Barbarian Queen 2 - The Empress Strikes Back"" is also available on this site, if you like the first one. Neither is beeing seeded by many people, and at some point I will probably discontinue both as there are others I am considering creating and seeding. I need a bigger hard drive, but it's been an expensive summer."
+,anakin66,2008-09-15T23:44Z,"Please seed for a while once you finish downloading. Not many download, but there are always a few, and I've been seeding this myself for a very long time."
+,weedjams,2009-04-14T03:57Z,"LOS ANGELES, California (CNN)  -- After about 30 hours of deliberation, a jury 
+on Monday convicted music producer Phil Spector of second-degree murder in the 
+death of actress Lana Clarkson more than six years ago.
+
+Phil Spector will not remain free on bail pending his May 29 sentencing.
+
+Wearing a black suit with a red tie and pocket square, Spector showed no 
+reaction as the verdict was announced. Now 69, he faces a sentence of 18 years 
+to life in prison when he is sentenced May 29.
+
+Asked if he agreed to the sentencing date, Spector quietly answered, ""Yes."""
+,VuzeBoy,2011-02-03T21:02Z,Classic! ^^) Thanks anakin66!
+,escalado,2011-03-09T13:46Z,Thankyou anakin66 4 a gr8 upload. Lana Clarkson was 1 hot piece of p...y pie bak then.
+,Hiram30,2012-01-16T15:29Z,"Codecs problems? No video on WMP, only audio."
+,io89,2012-06-04T12:01Z,"nice movie...
+please seds..."

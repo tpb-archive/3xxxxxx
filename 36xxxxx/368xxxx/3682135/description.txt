@@ -1,0 +1,28 @@
+Sorry i've screwed up the first ppf , if you got it just delete it, it was made against a modified 10.4.8
+
+This is a ppf patch for
+  
+http://thepiratebay.org/tor/3581873/OSX_1048_AMD_FINAL 
+
+MD5 OF THE TARGET: 2a896dfe1869ab092a4f5946ca7cb83e
+MD5 AFTER APPLYING THE PPF : de4262a555315da02356c7f4950b81da
+
+You'll get 10.4.9 + netkas universal sse3/sse2 kernel + secupdate-04 + iTunes 7.1.1 + QuickTime7.1.6 + Java Release5 5.0
+
+THE CPU IN ABOUT THIS MAC SHOWS UP AS A CORE2 LIVE WITH IT
+
+SATA DOESN'T WORK on nF430/MCP51 USE PATA
+
+NVIDIA 512MB CARDS DON'T WORK / NVIDIA 8xxx DOESNT WORK 
+
+ATI SUPPORT IS VERY EXPERIMENTAL, YOU'LL PROLLY GET BETTER LUCK WITH NVIDIA 
+
+MAKE SURE TO LOOK IN THE CUSTOMIZE INSTALLER SECTION DURING INSTALL
+
+usefull links: 
+  
+http://netkas.freeflux.net  
+http://www.hackint0sh.org/forum/index.php  
+http://diabolik1605.com/
+
+irc.osx86.hu #hackint0sh

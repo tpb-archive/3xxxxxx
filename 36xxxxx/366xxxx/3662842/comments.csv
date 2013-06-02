@@ -1,0 +1,18 @@
+﻿User Type,Username,Date,Text
+,jizac2,2007-04-13T05:28Z,i'll check it out thanks for the heads up... time & bw
+,stylemessiah,2007-04-14T00:32Z,"Dont bother with this.
+
+Though Vista sucks generally, one area where it excels is its networking. 
+
+Its far more optimised than any other Microsoft OS, and without the patch here you will see greater throughput than ever before.
+
+Fiddling with it in any way is likely to only actually slow throughput DOWN.
+
+Dont believe everything you read people. Yes the errors in event viewer as described, but theyre more informative than errors..... "
+,Donnydad,2007-04-14T00:36Z,"This patch will not affect your throughput in any way, positively or negatively.
+This patch will allow you to adjust your half open connections from the default (25 in ultimate). 
+This allows your operating system to make more simultaneous connection attempts. This does not increase overall connection numbers.
+I myself use this fix to help stabilize my connection as my P2P half open connection limit causes my Http to drop out until i reboot."
+,BuckShot1974,2009-12-03T00:17Z,"If you use this patch to increase half open connections, then configure your browser to make use of them, surfing (especially if you use multiple pages) should be increased slightly.
+
+Thanks u/loader."

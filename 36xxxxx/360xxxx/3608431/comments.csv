@@ -1,0 +1,21 @@
+﻿User Type,Username,Date,Text
+,CWORMAC,2007-02-01T16:55Z,"torrent has problems, no audio"
+,rodent,2007-02-01T17:14Z,"Ouch! No audio, is it possible to re-arrange it and put it up again? 
+
+This show is awesome, i never thought that they would release the final 7 ep."
+,death734,2007-02-01T17:18Z,"seriously, no audio? 
+why release with such big file sizes like 700mb? the abc web source is not that good"
+,H121,2007-02-01T17:44Z,i;ll check these out later today...any chance the audio doesnt work because you dont have the proper codecs?  try vlc player if you havent already....let me know if that fixes it
+,CWORMAC,2007-02-01T19:01Z,they don't have audio because I was a moron and didn't check to make sure it was recording before I ripped all 4 of them. duh. I'm working on re-encoding them now. should be up later today. :/
+,CWORMAC,2007-02-01T19:03Z,"i could probably get the file size down some, but i don't really know much about video encoding and all the settings. I'm only uploading them because it seems like no one else is going to any time soon for whatever reason. And I was ripping them anyways to watch at home."
+,H121,2007-02-01T19:27Z,go ahead and keep encoding them.  the more options out the better....
+,death734,2007-02-01T20:20Z,"to get the right file size do not use any bitrate calculators.
+have the video codec ask you to put the file size in and put in the file size (the video size not the total file size).
+to figure that out just open calc put in 348.5 * 1024 - audio size in kb.
+
+if the audio is 128k cbr then to figure out the audio size just calculate 16 * runtime in seconds or 16 * runtime in minutes * 60"
+,CWORMAC,2007-02-01T22:53Z,"The torrent has been reupped.
+http://thepiratebay.org/tor/3608745/Day.Break.S1.Ep7-10.WebRip"
+,i2mfan,2007-02-02T14:29Z,"Same rip as before episode 9 for those that want individual files(not pack). Compare resolution/codec/size
+
+http://thepiratebay.org/tor/3609198/Day_Break_S01E09_Webrip_Divx"

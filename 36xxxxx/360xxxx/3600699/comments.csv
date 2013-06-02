@@ -1,0 +1,31 @@
+﻿User Type,Username,Date,Text
+,Cmd_Chakotay,2007-01-21T18:24Z,"Very nice Spec-Chum.
+You don't happen to have the original 1080i TS file also? would be great if U could put that one up as well :)"
+,Krommie,2007-01-21T18:26Z,Any subs??
+,Spec-Chum,2007-01-21T18:40Z,"""You don't happen to have the original 1080i TS file also? would be great if U could put that one up as well :)""
+
+Unfortunately not, no, I only have a 720p HDTV so I always convert to x264 720p then delete the ts files.  I've only uploaded this as it's quite rare it seems, and I wanted to share the wealth :)
+
+On the note though, I'll be sure to upload both next time until there's a few seeds (PC is on 24/07, so no rush).
+
+Krommie, I haven't no, but I'm sure they're not hard to find :)
+
+Sorry for slow upload BTW, I'm only on 2Mb DSL..."
+,Spec-Chum,2007-01-23T19:15Z,"We're getting there...slowly :D
+
+Forgot to mention also, this is the 2h 23m ""normal"" version, not the 1h 59m ""cut"" version :)
+
+Info about the deleted scenes is here:
+http://www.imdb.com/title/tt0081505/alternateversions"
+,Rheya,2007-04-15T09:42Z,"Great upload - a wide-screen version of ""The Shining"" finally! - EXCEPT that none of my burning programs (and I have many) recognize this format as a video format, so that I can burn it and watch it on my TV.
+
+DVD-shrink does not recognize it, nor my DVD-copying programs.
+
+If this movie can only be watched on a computer in this format - why the extremely large file-size of >4 GB?"
+,GoranTornqvist,2007-07-06T16:19Z,"""If this movie can only be watched on a computer in this format - why the extremely large file-size of >4 GB?""
+
+4.3 GB is very small for a HD-movie ;)
+I download mkv/x264 movies and then convert them using ""ffmpeg"" to MPEG2 that my mediaplayer understand.
+Like:
+ffmpeg.exe -i ""movie.mkv"" -target pal-dv
+d -acodec copy -b 4096000 -r 23.97 -s 1280x720 -vcodec mpeg2video ""movie.mpg"""

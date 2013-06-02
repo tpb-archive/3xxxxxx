@@ -1,0 +1,15 @@
+Music from the computer game 'Jazz Jackrabbit' for the IBM PC.
+
+Original source unfortunately unknown.
+
+This has been converted from Jazz' internal representation to standard tracker module files (36 ScreamTracker III, one ImpulseTracker).
+
+If you run UNIX, use the included 'mksymlinks.sh' script to create symlinks to more sensible names then the internal ones. When running utilities from a random 3rd party (including this one!), check them before usage; they may be programmed to compromise your system.
+
+If you do not run UNIX, and aren't exactly keen on manually reading the script and linking/renaming/copying (whatever applies to your system), you may also download 'jj_music-named', which contains the exact same files with the more sensible names.
+
+Enjoy :^)
+
+--De Zeurkous.
+
+<shameless plug>BitchX: don't leave home without it! http://bitchx.org</shameless>

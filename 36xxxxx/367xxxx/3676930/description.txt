@@ -1,0 +1,172 @@
+Diese Distribution wurde von unserem Linux Profi Nemesis23 gemastert
+und versteht sich als kleine aber (sehr) feine Hacker Distribution.
+
+Mitlerweile hat er sie überarbeitet und es stehen neue Features zur Verfügung.
+U.A. ein neuerer Kernel und Beryl ;)
+
+
+Hier eine Liste von enthaltenen Programmen:
+
+nano (Editor) (GUI/SHELL)
+macchanger (MAC Adresse faken Netzwerk) (Shell)
+knocker (Scanner)+ (Shell)
+amap (Scanner) (Shell)
+nmapfe (Nmap Scanner Frontend)+ (GUI)
+aircrack (WLAN Paket Cracker)+ (Shell)
+rar (RAR-Archive unter Linux) (Shell)
+rkhunter (Rootkit-Scanner) (Shell)
+chkrootkit (Rootkit-Scanner) (Shell)
+dsniff (Netzwerksniffer) (Shell)
+sniffit (Netzwerksniffer)+ (Shell)
+tcpdump (Netzwerksniffer) (Shell)
+nikto (Web-Server Scanner) (Shell)
+aegis (Virus-Scanner) (Shell)
+satan (Browser basierter Scanner)+
+krusader (Window-Manager)+
+ethereal (Netzwerksniffer)+
+ettercap (Netzwerksniff + ARP Poisoning)+ (Shell + GUI)
+john (Passwortcracker)+ (Shell)
+lopster (Filesharing-Client) (GUI)
+dillo (Schneller Browser) (GUI)
+nero (Nero für Linux)+ (GUI)
+dosbox (Dos-Emulator-Shell)+ (GUI/SHELL)
+dnstracer (Tracer)+ (Shell)
+iptraf (Netzwerkverkehr überwachen)+ (GUI/SHELL)
+ethstatus (Netzwerkkarten überwachen)+ (GUI/SHELL)
+traceroute (Tracer)+ (Shell)
+gps (Prozessmanager wie Taskmanager)+ (GUI)
+fakeroot (Fake Rootrechte erlangen)+ (Shell)
+kismet (WLAN Sniffer + Cracker)+ (GUI/SHELL)
+airsnort (WLAN Sniffer + Cracker)+ (GUI)
+snort (IDS System) (Shell)
+ngrep (Überträgt die Möglichkeiten von grep auf den Netzwerkverkehr) (Shell)
+nbtscan (IP Netzwerkscanner)+ (Shell)
+bongosurfer (Für Modemuser)+ (GUI)
+hexedit (Hexeditor)+ (GUI)
+Knoppix Firewall+ (GUI)
+Mozilla Firefox (Browser)+ (GUI)
+Kbear (FTP-Client)+ (GUI)
+elinks (Consolen-Text-Web-Browser) (Shell)
+xchat (IRC-Client)+ (GUI)
+kcpuload (CPU Monitor in der Taskleiste)+
+knetload (Netzwerkmonitor in der Taskleiste)+
+
+desweiteren neu dazugekommen:
+
+802ether
+
+adept
+aegis
+aircrack
+aireplay
+airodump
+airsnort
+arp2ethers
+arpalert
+arpwatch
+arpspoof
+
+
+beryl
+berylmanager
+
+chkrootkit
+clamscan
+
+darkstat
+dnsspoof
+dnstracer
+dsniff
+dosbox
+
+etherwake
+ethstatus
+ethtool
+ettercap
+etterfilter
+elinks
+
+filesnarf
+firestarter
+firewall
+
+gftp
+gps
+gaim
+
+hammerhead
+hping2
+hping3
+
+iceweasel
+
+john
+
+ktorrent
+knocker
+kismet
+knocker
+krusader
+
+lopster
+
+mailsnarf
+macchanger
+
+pico
+
+qemu
+
+rar
+rkhunter
+
+snort
+sniffit
+synaptic
+
+tcptraceroute
+tcpdump
+
+urlsnarf
+
+wlanconfig
+wlassistant
+wlcardconfig
+wipe
+wpa_cli
+wpa_passphrase
+wpa_supplicant
+wireshark
+webspy
+wavemon
+
+nbtscan
+nast
+nano
+nemesis
+nasm
+niswrapper
+netcat
+netcardconfig
+ngrep
+nikto
+ninja
+nmapfe
+nmap
+
+xchat 
+
+Wine Tools
+
+--------------------------
+
+Weitere Infos:
+
+- Kernel: 2.6.19.4 - Pakete i386.deb X86
+- Snort startet automatisch mit dem Bootprocess auf eth0.
+  Kann aber in der snort.conf an die Netzwerkkarte angepasst werden.
+- Die Root-Shell auf dem Desktop erlaubt vollen Systemzugriff auf die Live-CD
+
+Saugen lohnt sich ;)
+Für Fragen, Lob oder Kritik besucht unser Forum:
+www.darkenedcore.dl.am

@@ -1,0 +1,462 @@
+ Latest SVN compiled with extra skins, few scripts and a bunch of codecs, tried to leave as clean as 
+ possible but still have enough functionality 'Out of the Box' to be the full experience from an awesome 
+ platform that is XBMC.
+
+ Included are the latest version of the following skins from xbmcskins svn...
+
+- CEOMR
+- Clearity
+- Containment *** NEW
+- MC360
+- PDM
+- Project Mayhem I *** Removed
+- Project Mayhem II *** Removed
+- Project Mayhem III
+- Project Mayhem III Lite *** Removed
+- Vision
+- Xbox-Classic
+- xTV
+
+ I have changed nothing just done a clean compile and added the above skins, any questions/bugs need to 
+ goto the original authors.
+
+ XBMC errors to http://www.xboxmediacenter.com/wiki/index.php?title=HOW-TO_Submit_a_Proper_Bug_Report
+ XBMC questions to http://www.xboxmediacenter.com/forum/
+
+ CEOMR - Ceomr
+ Clearity - Smokehead
+ Containment - CHI3f
+ MC360 - Team Blackbolt 
+ PDM - Smokehead
+ Project Mayhem I - Jezz_x
+ Project Mayhem II - Smokehead 
+ Project Mayhem III Lite - Smokehead
+ Vision - NineT9Mustang / Jezz_x
+ Xbox-Classic - Jezz_x
+ xTV - CHI3f 
+
+I will be building these on a weekly basis for those interested.
+
+Have now removed the older Project Mayhem skins, will add Slate at a later date if it ever gets a svn repository.
+
+LinksBrowser is now included.
+
+**!!!*** LINKS CHANGELOG ***!!!***
+
+Revision: 8925
+Author: ysc
+Date: 1:07:31 PM, Monday, May 14, 2007
+Message:
+- updated: linksbrowser: merged trunk r8592 -> r8922
+- fixed: linksbrowser: made XBMC_PC compile again, can't test if it works
+- fixed: linksbrowser: updated to new dll exports declaration & winsockx uses xbmc's emu functions
+----
+
+***!!!*** XMBC CHANGELOG ***!!!***
+
+Revision: 8922
+Author: elupus
+Date: 11:01:02 AM, Monday, May 14, 2007
+Message:
+changed: removed CanSeek() from filesystem, it was wrong in a few protocols and hardly used. Use Seek(0, SEEK_CUR) to check if protocol supports seeking.
+added: buffering system to CFile (quite untested, set READ_BUFFERED flag on Open to use)
+changed: move READ_TRUNCATED flag from CFile::Read to to CFile::Open as it is silly to pass along on each read request
+----
+
+Revision: 8921
+Author: elupus
+Date: 10:56:14 AM, Monday, May 14, 2007
+Message:
+changed: minimum rebuild setting for guilib to match other projects in solution
+----
+
+Revision: 8920
+Author: elupus
+Date: 10:49:19 AM, Monday, May 14, 2007
+Message:
+changed: don't look for stream info in unseekable streams in dvdplayer, should speedup startup of such streams (hdhomerun, maybe tuxbox)
+changed: make dvdplayer default for hdhomerun streams as mplayer fails miserable on them
+----
+
+Revision: 8909
+Author: jezz_x
+Date: 7:25:59 PM, Sunday, May 13, 2007
+Message:
+Changed : Moved all Project Mayhems III text colors out into TextColor.xml as includes in the hope we might get a few color variation themes in the future
+----
+
+Revision: 8900
+Author: spiff_
+Date: 4:16:02 AM, Sunday, May 13, 2007
+Message:
+fixed: thetvdb.com scraper updated to reflect dns changes.
+----
+
+Revision: 8895
+Author: elupus
+Date: 2:32:24 PM, Saturday, May 12, 2007
+Message:
+fixed: typo that cause dvdplayer to behave very oddly. big difference between && m_bStop and && !m_bStop. 
+----
+
+Revision: 8885
+Author: GeminiServer
+Date: 11:25:13 AM, Saturday, May 12, 2007
+Message:
+added: advancedsettings, ability to disable modchip detection/lookup; for X2 ModChip Series (http://www.xboxmediacenter.com/forum/showthread.php?t=25274)
+----
+
+Revision: 8883
+Author: smokehead
+Date: 6:32:07 AM, Saturday, May 12, 2007
+Message:
+Fixed: Includes.xml was b0rk..missing white space
+----
+
+Revision: 8882
+Author: elupus
+Date: 3:39:57 AM, Saturday, May 12, 2007
+Message:
+fixed: audio renderer in XBMC_PC would make dvdplayer play way to fast (try 2)
+----
+
+Revision: 8880
+Author: elupus
+Date: 3:10:13 AM, Saturday, May 12, 2007
+Message:
+changed: better solution to deadlocking dvdplayer
+----
+
+Revision: 8879
+Author: elupus
+Date: 2:59:52 AM, Saturday, May 12, 2007
+Message:
+fixed: audio renderer in XBMC_PC would make dvdplayer play way to fast
+fixed: potential deadlock in dvdplayer (very uggly hack to get around it, must solve it better)
+----
+
+Revision: 8875
+Author: spiff_
+Date: 1:01:51 PM, Friday, May 11, 2007
+Message:
+fixed: some issues with update video library
+----
+
+Revision: 8872
+Author: spiff_
+Date: 10:31:51 AM, Friday, May 11, 2007
+Message:
+fixed: thetvdb.com scraper didnt fetch genres correctly
+----
+
+Revision: 8871
+Author: spiff_
+Date: 10:16:30 AM, Friday, May 11, 2007
+Message:
+fixed: year / premiered didnt work with the thetvdb.com scraper.
+----
+
+Revision: 8869
+Author: spiff_
+Date: 9:40:17 AM, Friday, May 11, 2007
+Message:
+fixed: update video library wouldnt work if you didnt have any tvshows in your database.
+----
+
+Revision: 8868
+Author: spiff_
+Date: 9:33:29 AM, Friday, May 11, 2007
+Message:
+fixed: wrong image used in the new scraper
+----
+
+Revision: 8867
+Author: spiff_
+Date: 9:31:43 AM, Friday, May 11, 2007
+Message:
+changed: renamed zsori scraper to thetvdb.com to reflect site name change.
+----
+
+Revision: 8866
+Author: elupus
+Date: 9:21:14 AM, Friday, May 11, 2007
+Message:
+fixed: Ac97 audio renderer could sometimes add more packets than soundcard could handle
+----
+
+Revision: 8865
+Author: spiff_
+Date: 8:04:31 AM, Friday, May 11, 2007
+Message:
+fixed: if you used nfo url's, imdb wouldnt fetch the plot summary, only the outline.
+----
+
+Revision: 8863
+Author: spiff_
+Date: 6:31:39 AM, Friday, May 11, 2007
+Message:
+added: builtin command updatelibrary(music|video). can be used to schedule updates in combination with the http api. also reordered some methods in the video classes.
+----
+
+Revision: 8862
+Author: elupus
+Date: 5:52:38 AM, Friday, May 11, 2007
+Message:
+fixed: forgot to add files for CResamplerDirectSound to project.
+----
+
+Revision: 8860
+Author: blittan
+Date: 9:07:18 PM, Thursday, May 10, 2007
+Message:
+updated: Swedish language file by blittan (based on english 8851) .. Sorry for the lack of updates.
+----
+
+Revision: 8858
+Author: elupus
+Date: 1:37:31 PM, Thursday, May 10, 2007
+Message:
+fixed: xbmc_pc didn't compile after some of the audio renderer fixes.
+----
+
+Revision: 8857
+Author: elupus
+Date: 1:01:13 PM, Thursday, May 10, 2007
+Message:
+changed: some more cleanup of audio renderers. (annoyingly can't be done properly as mplayer seems to have a bug concerning certain chunksizes, explains why there was such a long history of changes regarding number of packets and chunksizes)
+----
+
+Revision: 8856
+Author: elupus
+Date: 12:20:46 PM, Thursday, May 10, 2007
+Message:
+changed: some more cleanup of audio renderers. (annoyingly can't be done properly as mplayer seems to have a bug concerning certain chunksizes, explains why there was such a long history of changes regarding number of packets and chunksizes)
+----
+
+Revision: 8855
+Author: elupus
+Date: 10:36:10 AM, Thursday, May 10, 2007
+Message:
+changed: simplify audio renderers by making resampler a separate renderer that calls on the other instead of built into the renderers them selfs
+----
+
+Revision: 8851
+Author: jmarshallnz
+Date: 9:56:51 AM, Thursday, May 10, 2007
+Message:
+fixed: String "Use folder or file names for lookup?" was reversed from the button order.  Changed to "Use file or folder names for lookup?".
+----
+
+Revision: 8849
+Author: jmarshallnz
+Date: 9:39:31 AM, Thursday, May 10, 2007
+Message:
+added: Ability to rate songs while they're playing.  Currently not keymapped other than keyboard in Music Visualisation
+----
+
+Revision: 8844
+Author: jezz_x
+Date: 8:42:39 PM, Wednesday, May 09, 2007
+Message:
+Fixed : PM3 Mouse support in the Weather Page
+----
+
+Revision: 8842
+Author: jmarshallnz
+Date: 7:44:40 PM, Wednesday, May 09, 2007
+Message:
+fixed: Playlist wasn't an applicable action during video library view.  Currently it's still unmapped (unless you're using a keyboard).
+----
+
+Revision: 8839
+Author: elupus
+Date: 12:49:08 PM, Wednesday, May 09, 2007
+Message:
+added: dvdplayer to XBMC_PC solution
+added: rudementary audio renderer for dvdplayer in XBMC_PC solution
+----
+
+Revision: 8837
+Author: jmarshallnz
+Date: 10:31:13 AM, Wednesday, May 09, 2007
+Message:
+changed: Wait for network before starting kai
+----
+
+Revision: 8836
+Author: jezz_x
+Date: 10:10:49 AM, Wednesday, May 09, 2007
+Message:
+Changed : Added a better Busy dialog and animation even if it is just temp
+----
+
+Revision: 8832
+Author: elupus
+Date: 8:04:15 AM, Wednesday, May 09, 2007
+Message:
+fixed: dvdplayer now builds if put into XBMC_PC project
+----
+
+Revision: 8827
+Author: charlydoes
+Date: 5:27:14 AM, Wednesday, May 09, 2007
+Message:
+added: "busy indicator" dialog (DialogBusy.xml, temporary graphics), dialog is rendered on top of everything when the main thread is busy doing lots of stuff except rendering.
+----
+
+Revision: 8826
+Author: elupus
+Date: 3:31:34 AM, Wednesday, May 09, 2007
+Message:
+fixed: unloading of system dlls in dlloader destructor is impossible as dllloadercontainer can already have been destroyed
+----
+
+Revision: 8823
+Author: elupus
+Date: 3:08:18 AM, Wednesday, May 09, 2007
+Message:
+changed: make DllLoaderContainer a static class, and make system dlls automatically register them selfs too. This allows system dll to just be static constructs of DllLoader with an export list. 
+----
+
+Revision: 8821
+Author: Silverscape
+Date: 7:23:05 PM, Tuesday, May 08, 2007
+Message:
+updated: German language file (Based on english strings version 8718)
+----
+
+Revision: 8820
+Author: jmarshallnz
+Date: 3:28:14 PM, Tuesday, May 08, 2007
+Message:
+fixed: Mouse could ruin startup transistion.  It's now disabled in startup.xml
+----
+
+Revision: 8810
+Author: jmarshallnz
+Date: 11:27:25 AM, Tuesday, May 08, 2007
+Message:
+fixed: WMA now uses WM/AlbumArtist for album artist, and Author for track artists.
+----
+
+Revision: 8809
+Author: jmarshallnz
+Date: 11:17:12 AM, Tuesday, May 08, 2007
+Message:
+fixed: Controls within groups would be highlighted by the mouse even if there was another control over the top of them.
+----
+
+Revision: 8807
+Author: elupus
+Date: 5:10:54 AM, Tuesday, May 08, 2007
+Message:
+fixed: forgot to fix calls to entry function after changing typedef
+----
+
+Revision: 8800
+Author: jmarshallnz
+Date: 6:12:31 PM, Monday, May 07, 2007
+Message:
+added: Sort by Name (filters on the label you set in music settings) to songs views in music library.
+----
+
+Revision: 8799
+Author: jmarshallnz
+Date: 5:06:15 PM, Monday, May 07, 2007
+Message:
+fixed: More mouse fixes.  All controls should now work with the mouse.
+----
+
+Revision: 8798
+Author: elupus
+Date: 2:08:08 PM, Monday, May 07, 2007
+Message:
+fixed: errors and inconsistencies in DllLoader as noticed when porting to linux branch
+----
+
+Revision: 8792
+Author: spiff_
+Date: 8:34:45 AM, Monday, May 07, 2007
+Message:
+updated: french language (thanks to frostbox)
+----
+
+Revision: 8790
+Author: spiff_
+Date: 8:08:23 AM, Monday, May 07, 2007
+Message:
+fixed: deleting an item from the video library now clears the path hash so new scans can be performed on the folder
+----
+
+Revision: 8789
+Author: elupus
+Date: 7:45:12 AM, Monday, May 07, 2007
+Message:
+changed: export is a reserved keyword on with some compilers
+----
+
+Revision: 8788
+Author: spiff_
+Date: 7:42:43 AM, Monday, May 07, 2007
+Message:
+fixed: tv show thumbs didnt get assigned to the folders.
+----
+
+Revision: 8786
+Author: deanrparry
+Date: 5:37:53 AM, Monday, May 07, 2007
+Message:
+fixed : changed string id in MyVideoNav.xml as the description was showing incorrect.
+----
+
+Revision: 8784
+Author: elupus
+Date: 5:12:55 AM, Monday, May 07, 2007
+Message:
+changed: killed some warnings in the UnrarXLib build in preparation for moving it into standard solution
+----
+
+Revision: 8782
+Author: elupus
+Date: 5:08:46 AM, Monday, May 07, 2007
+Message:
+fixed: image distortion when doing direct rendering with mplayer ( still has too many issues to be enabled in code )
+----
+
+Revision: 8775
+Author: spiff_
+Date: 11:18:51 PM, Sunday, May 06, 2007
+Message:
+fixed: issues with thumb assignment to dirs during rarred movie scans.
+----
+
+Revision: 8774
+Author: jmarshallnz
+Date: 10:48:34 PM, Sunday, May 06, 2007
+Message:
+fixed: Various mouse issues.  Many controls (eg spinners, lists) still won't work correctly.
+----
+
+Revision: 8773
+Author: spiff_
+Date: 10:23:50 PM, Sunday, May 06, 2007
+Message:
+fixed: remove content in video library didnt remove path hashes (rescan wouldnt work afterwards even if you assigned new content).
+----
+
+Revision: 8772
+Author: spiff_
+Date: 10:13:42 PM, Sunday, May 06, 2007
+Message:
+updated: Finnish language (thanks to mikko)
+updated: Icelandic language (thanks to sholafsson)
+updated: Chinese (Traditional) language (thanks to omenpica)
+updated: Chinese (Simple) language (thanks to pc-man)
+----
+
+Revision: 8765
+Author: elupus
+Date: 8:17:08 AM, Sunday, May 06, 2007
+Message:
+fixed: invalid types for dllaccept function
+----

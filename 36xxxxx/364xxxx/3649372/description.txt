@@ -1,0 +1,43 @@
+Command & Conquer 3 Tiberium Wars Update v1.1
+
+28/03/2007: Rel.date . protection: Securom
+1: crack(s) . genre: RTS
+
+This patch for Command & Conquer 3 Tiberium Wars fixes several
+bugs and exploits:
+
+Exploits
+Scrin Mastermind's Teleport Units ability maximum range reduced
+GDI Engineers, Nod Saboteurs, and Scrin Assimilators can no
+longer capture structures when under the effects of the Scrin's
+Phase Field support power
+
+Optimizations
+Improved video playback on low-end system configurations
+
+Balance Changes
+Scrin Storm Column cost / build time increased to 3,000 credits
+/ 30 seconds
+Scrin Buzzer health reduced to 75 and weapon damage type changed
+to SNIPER
+
+Bug Fixes
+* Fixed an error that would occasionally result in a crash in Nod
+vs. Nod matches on the multiplayer map Deadly Sertao
+* Fixed issues with automated map transfer feature in multiplayer
+* Fixed an error that would sometimes cause a Commentator's
+telestrator drawings to not erase as intended while viewing
+BattleCast replays
+* Fixed issues with replay file playback
+* Fixed placeholder text and chat log errors with the Comrade in
+game chat window
+
+Other Changes
+Fixed an error in README.txt file regarding location of saved
+game files in Windows Vista; added references to EA Link
+version of the game; added disclosure about in-game advertising
+
+(Note: the EA Link version of the game ships with this updated
+ReadMe file)
+References to Nod's "Avatar Warmech" unit have been changed to
+"Avatar".

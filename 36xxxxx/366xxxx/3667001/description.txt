@@ -1,0 +1,37 @@
+NEW FEATURES
+
+1.  Modified the game rendering to accept FSAA and fixed high resolution rendering.
+2.  Added "Volumetric Fog" as a stand alone option, no longer member of the "Environmental Effects".
+3.  Added a new sound volume option, "Radio Volume", that controls the Radio and Gramophone volume.
+
+GAMEPLAY CHANGES
+
+1.  Tuned the submarines efficiency mechanics 
+2.  Fixed the damage model for the Kinposan Maru/Medium Modern Split Superstructure Freighter
+3.  Tuned the malfunction rates for torpedoes. Mk 10 Torpedoes will be more reliable now, as per historical data. Go Sugar boats!
+4.  Improved the Periscope/TBT torpedo status panel by making only the currently loading tube blink, instead of all that are in the queue
+5.  Tuned the submarines damage model
+6.  Added a new tuning option for the radio news/music volume ratio
+
+
+BUG FIXES
+
+1.  Fixed a sound volume issue where some sound volumes were ignored in the game.
+2.  Removed crashes in replay and multiplayer.
+3.  Fixed a bug where refit in friendly harbors would not refit the cannon ammunition.
+4.  The "Maintain Current Depth" command (letter 'A') crash was fixed.
+5.  Position Keeper for negative bearings fix.
+6.  Fixed a bug where explosions were played in the scene after a load or a replay even if the explosion took place a long time ago.
+7. Fixed the 'invisible monolith' that, if looking at it, will greatly reduce FPS.
+8. Fixed a bug where the difficulty settings of the game were ignored in multiplayer. The game now starts with the selected settings from the session page.
+9. Fixed a bug where, sometimes, if pressing the Stadimeter button the game would crash.
+10. Fixed a bug where, When hovering over highlatable objects in 3d career room, the texture would dissapear.
+11. Fixed a bug where, when pressing SHIFT+F2 in any 2d page the game would crash.
+12. Fixed the bug in adversarial where the Escort Commander could see your submarine on the navigation map even if the sub was underwater.
+13. Fixed a bug where the name on the captain's watch appears to be "Stevens". Nah, just kidding :)
+14. Fixed the SD Air Search radar so that it no longer detects ships.
+15. Fixed the Torpedo drag model. Now high speed torpedoes will hit fine.
+
+------------------------------------------------------
+
+No crack in here, I will upload it when I found one. Seed when youre done, I dont have all day!

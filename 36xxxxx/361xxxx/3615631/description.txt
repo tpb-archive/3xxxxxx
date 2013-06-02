@@ -1,0 +1,20 @@
+Esta distribucion esta basada en  basada en la version  1.0.8 de Puppy Linux. Sus principales caracteristicas, heredadas de la distribucion original, son:
+
+    * Ocupa muy poco espacio, alrededor de 50 megabytes, esta caracteristica es fundamental, porque de ella se derivan las que siguen.   
+    * Se puede instalar en el disco duro sin necesidad de tocar la tabla de particiones ni de sobrescribir el sector de arranque (MBR).   
+    * Tambien se puede crear en el disco duro, aunque arranquemos desde CD, un archivo donde guardar datos o instalar programas de forma permanente.   
+    * Se puede instalar en una memoria USB, arrancable desde las BIOS de muchos ordenadores nuevos y no tan nuevos.   
+    * Se ejecuta totalmente en RAM, siempre que tengas al menos 128 megas. Esto hace que todos los programas se carguen mas deprisa, y que puedas sacar el CD una vez has arrancado.   
+    * Entorno grafico basado en el escritorio/gestor de ventanas Fvwm95, y el servidor X XVesa Kdrive, de pequeno tamano pero compatible con la mayoria de las tarjetas de video actuales.
+
+Las características personalizadas, que la diferencian de la distribucion original Puppy Linux son:
+
+    * Algunos de los programas mas utiles para realizar auditorias de seguridad en redes inalambricas y ethernet.
+    * Una buena coleccion de drivers para tarjetas inalambricas.
+    * Kernel 2.6.15.7
+_______________________________________________________________________________
+Para mas informacion visita: 
+http://hwagm.elhacker.net/htm/minidistro.htm
+_______________________________________________________________________________
+Password:
+seguridadwireless.net

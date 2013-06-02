@@ -1,0 +1,127 @@
+﻿User Type,Username,Date,Text
+,tczupta,2007-02-14T05:25Z,"This torrent contains all the files found in the virtual machine created by VMware 5.5.1. It was created using Jas's 10.4.7 OS X install disk with SSE2 enabled. This should work for most people even those with SSE3 machines. If your a total noob heres what you have to do. Go to vmware.com and download a program called vmplayer, its free. Then choose to open a VM, and direct it to the vmdk file that is within the torrent. This is obviously after unrar-ing the file. Good luck, post any problems."
+,milosiul,2007-02-14T05:49Z,"cool, thanks."
+,tczupta,2007-02-14T05:59Z,"more useful info:
+
+user name: osx86
+Password: osx86"
+,suprxz,2007-02-14T20:17Z,Hi there wouldn't it be better to Upgrade it to latest 10.4.8 and then release it as a torrent. 
+,tczupta,2007-02-14T21:44Z,"I tired installing with the 10.4.8 disk, it proved unsuccessful, but if you'd like to do that go right ahead... then post the link here.
+"
+,Chad0487,2007-02-15T06:18Z,All I get when I boot in VMplayer is the grey apple screen and the throbber for about 10 sec then it goes black andflashes white words over and over... anyone same problem?
+,suprxz,2007-02-15T15:37Z,I think you need to apply the_defiant patch. http://forum.insanelymac.com/index.php?showtopic=38125
+,suprxz,2007-02-15T15:37Z,"I think you need to apply the_defiant patch. http://forum.insanelymac.com/index.php?showtopic=38125
+
+To install 10.4.8 in Vmware"
+,duderino2,2007-02-20T12:26Z,I got the same problem as Chad0487. Does anyone know of a solution to the problem?
+,herne666,2007-04-12T07:11Z,Any chance of getting the root password?  I want to try installing some better sound drivers for the es1371.
+,c4n0n,2007-04-15T12:47Z,"Does anyone know if this is for intel or AMD? Does it make a difference? I have tried running it with VMWare 5.5.3 and keep getting a segmentation fault for launchd/nibindd...running AMD Athlon(tm) 64 X2 Dual Core Processor 4800+
+
+Thanks"
+,007Spekkie,2007-04-17T19:52Z,"Works great, thnx for the upload, is it safe to upgrade to 10.4.9??"
+,lectrick,2007-06-24T04:10Z,"In case any of you are native OS X peeps (like me) and want to try this in VMWare Fusion, it won't work (as of Beta 4). Damn..."
+,theblane,2007-08-29T19:51Z,"yeah i get the gray apple screen and then 10 seconds and it starts all over again!!!  Help anyone, there are a few people with this problem."
+,supaphr33k,2007-09-02T06:18Z,"If you get the rebooting problem, change the ""Guest OS"" setting from ""Free BSD"" to ""Windows NT"".
+
+Fixed it for me.  This might only apply to people with Dual Core 2 machines, not sure..."
+,Stillframe,2007-09-07T23:19Z,How do I change the Guest OS setting in VM ware player?
+,Stillframe,2007-09-07T23:46Z,"Ok now I've chenged the guest os but I get an error message ""guest operating system windows nt is not supported"""
+,devilstar666,2007-09-13T00:37Z,Anyone know the root password????
+,devilstar666,2007-09-13T00:47Z,"I changed the root password with this 
+
+sudo passwd root"
+,Mr-OsX,2007-09-13T16:01Z,"2 things:
+
+1. Is anyone working to get v10.4.10 functional in VMWare?  This version is required to run iWork '08 and it would be really cool to be able to run this software in my VM.
+
+2. I ran into the reboot issue as well and I changed ""Guest OS"" to ""winnt"" and it worked just fine.  Now to figure out how to get a display setting in OS x86 higher than 1024 x 768.....
+
+"
+,darkguard10,2007-09-13T18:31Z,It appears that it doesnt work on AMD systems - i have the reboot problem on my AMD system and it started right up on my Intel system.
+,Mr-OsX,2007-09-13T20:22Z,"I appreciate the size of the RAR File.  Anything bigger would have been too big.  Any suggestions on the best way to extend the size of /dev/dsk0s1 from 5GB (with about 2.5GB useable) to something larger?
+
+Any suggestions on how to run with a resolution higher than 1024 x 768?"
+,karakkas,2007-09-16T22:31Z,Will this run under a Mac with the latest VMware Fusion?
+,velmanny,2007-09-22T05:17Z,It will work under VMWare fusion. Be sure to edit the FreeBSD.vmx file and change guestos to 'winnt'.
+,muster021,2007-09-23T15:39Z,"Is everyone experiencing descent performance?? Mine is awfull, it takes forever to do something like install a program. I'채ve increased the virtual memory to 1024 mb (i have 2 gb physical ram) and it still sucks. Any suggestions?"
+,giommie,2007-09-27T13:36Z,"I had a fully workint 10.4.7 VMWare stuff. I have upgraded it to 10.4.10 and the ""repetitive rebooting"" (start booting, gray apple screen, restart booting, etc.) turned back. I have tried to change the guest os to winnt (and other windows), to various unixes, to FreeBSD, to other, etc., but without success. Do you have any idea what can help to boot in order? thanks in advance"
+,Bravo3000,2007-10-12T21:33Z,"why you don't buy a real mac?
+Since Lisa the PC is just rubbish"
+,karakkas,2007-10-14T15:21Z,"After editing the ""Network Port Configuration"" within OS X in the System Preferences, bridget networking functions. I also had to change to ""winnt"" guest.
+Changing the screen resolution doesn't work, my main problem is I can't get USB working. I'm using VMWare Workstation 6, and the USB port shows up as ""Cypress USB Device"" but OS X does not recognize the attached USB HFS+ device. 
+
+Bravo3000, I own a Mac, still I have need for this. BTW what are you doing here if you don't need it yourself?"
+,drunkrd,2007-10-23T23:38Z,"For those who want to expand the disk size...
+
+1 - Create a new virtual disk with the wanted size.
+2 - Use something like Symantec Ghost (win32) or G4L (Linux) to clone the  original virtual disk to the larger virtual disk...
+
+G4L ISO Image: http://sourceforge.net/project/showfiles.php?group_id=119810&package_id=130506
+
+Good Luck!
+
+
+
+"
+,hxh103,2007-10-25T23:13Z,"Yea, I am getting the same problem as a lot of people on here regarding the reboot. How do I change the guess OS setting from ""Free BSD"" to Windows NT like it has been suggested above by supaphr33k?"
+,hxh103,2007-10-26T21:43Z,"Here is the error message I am getting, even after changing guess OS from freebsd to winnt, winxp, etc:
+
+*** VMware Player internal monitor error (bug 9297) ***
+
+The guest operating system you are running is using the Physical Address Extension (PAE) processor option.  
+
+Tried going there, but suggestions  from their site did not work.  I also went to the patch that someone posted earlier, but looks like all the patch links are down. Any help?"
+,Djrelmz,2007-11-26T08:32Z,This is not a Mac Game.. WHy clutter up the games with crap that is not games???
+,SoulSlinger,2008-02-12T15:21Z,"""why you don't buy a real mac?""
+ BWAHAHHAHAHAHHAHAA
+seriously, because they are overpriced (and kinda crap hardware wise). I just need this to run Logic Studio... I hope it works"
+,partyboy911,2008-02-27T21:45Z,"Is internet available? I have ""Ethernet"" on, and i also have no sound. Can anyone help me out. I have a HP a350"
+,partyboy911,2008-02-27T21:48Z,Scratch the sound issue. I'm getting it. But how about Ethernet?
+,partyboy911,2008-02-27T21:51Z,"lol! sorry. Scratch the network thing too! I did some changing and yeah, its working. Anyways great upload, if only the virtual computer could be faster :("
+,jay101,2008-06-18T06:28Z,FUCK YOU THIS IS SHIT I CAN'T GET IT TO WORK!!! PLEASE PROVIDE A WAY OF GETTING IT TO WORK YOU SHIT HEAD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+,larry141094,2008-06-19T05:59Z,"this is great! internet works sound works! just one question, could i upgrade too leopard without issue? im thinkin of buying leopard"
+,kgcs,2008-08-01T02:33Z,im getting the boot cycling too.... changed guest os but still the same problem... any ideas how to fix it??
+,supercar1001,2008-10-16T05:53Z,What is the admin password ???
+,supercar1001,2008-10-16T05:54Z,nevermind... thks
+,supercar1001,2008-10-16T05:55Z,never mind... thks
+,j108,2008-12-15T19:06Z,"I also had the problem with the rebooting loop. After changing to guestOS = ""winnt"" in FreeBSD.vmx AND removing FreeBSD.vmss it worked! I tried without removing the .vmss and then the reboot was still happening."
+,morphirr,2008-12-18T19:52Z,"Hope this one works tried Mac OS X 10.5.5 VMware image Xelabo but it didnt work, just get apple splash screen does this one work on a system with SSE SSE2 only???
+
+Interested to try a Mac out never used one"
+,morphirr,2008-12-18T20:58Z,How do you apply the PPF patches to VMware images??
+,morphirr,2008-12-19T03:18Z,"Ok got this VMware working, thanks for the up.  Its a little slow on this Dell Inspiron 1300 with Mobile Intel Celeron M 370, 1500 MHz with 2GB of ram.I was also able to get internet working by changing Network Adapter to NAT rather then the default of Bridged. Are there any links to help with this particular release also wondered how do you install VMware Tools on this system, I using VMware Workstation 6.5, hope you can help tczupta"
+,rrconan,2009-01-07T02:44Z,".
+.
+
+
+Working on VMWare server console 1.0.2. 
+Network and sound working. 
+
+.
+
+GREAT DOWNLOAD ! TK'S TCZUPTA.  !!!!
+
+.
+
+Some issues:  ===========
+
+---> rebooting loop. 
+
+Changed to guestOS = ""winnt"" in FreeBSD.vmx and this was solved.
+
+---> network not worked first time, but using Mac OS network config wizard solved the problem. (vmware in ""bridged"" network configuration)
+
+---> don't needed to remove FreeBSD.vmss  (haven't this file) 
+
+.
+."
+,nengiharu,2009-01-26T19:32Z,"Using VMWare Fusion 2 i cant get this to work. it loads into fusion. and then sits on Powering On forever. anyone know a solution?
+cheers"
+,nengiharu,2009-01-26T19:56Z,"cancel that. now im just getting a ""VMWare Fusion Internal Monitor Error...."""
+,PyroHax,2009-04-01T21:49Z,I keep getting segmentation faults and then it just freezes! What do I do? I have and AMD Turion RM-70 [SSE2 SSE3 + others] Damnit I need tiger to get my leopard vm to run on my amd processor!!!
+,ciperlone,2009-10-14T19:01Z,didn't work for me... but this releas did! http://thepiratebay.org/torrent/4865026/Leopard_10.5.6_Hackintosh_AMD.iso#filelistContainer
+,roumor,2010-04-08T22:24Z,"its working awesome thanks.
+
+had to switch os to Windows NT though instead of FreeBSD. and add paevm=""true""  to vmx file"
+,itzyup,2011-05-26T05:36Z,"how to install it,,,plzz explain;;"
+,itzyup,2011-05-26T05:39Z,HOW TO MOUNT THIS;;THERE IS NO IMAGE!!!!!!!!HELP PLZZZZZZZZZZZ

@@ -1,0 +1,300 @@
+﻿User Type,Username,Date,Text
+,grammarye,2007-08-14T16:26Z,"Worked for me! Yesssss!!  
+
+The detailed instructions are good, but  remember that a870.sentinel, etc are found within the LEGEND folder within the ISO directory (in my case burnt to a CD).  Also, I found that I couldn't run the LicGen.exe until I copied the LEGEND folder onto a writeable disk (ie my hard disk)
+
+You might have to get the Microsoft .NET framework from the net, just google and download it. I downloaded version 2.
+
+Also, when running wechoid.exe, I thought it best to uncheck IP address as one of the ""Lock"" system attributes which presumably Accumark checks at runtime against the licence to ensure it matches. That's because my IP address is dynamically allocated.
+
+As warned, I got the first error message after running LicGen.exe, but as the instructions pointed out, it doesn't affect anything and my LaunchPad turned brown indicating the licence was accepted! Now I just have to LEARN how to use the damn thing to make digital, gradeable patterns!  Yep, sure, once I make some money I'll buy the program, but I'd NEVER be able to afford it before then."
+,Faaya,2007-09-01T03:48Z,I get an error everytime I type in the licgen xx ????? working.lic part (with the respective required info filled in).  I am not able to get a working code.  Does anyone know how to fix this?  It's beyond my level of expertise.
+,Faaya,2007-09-01T16:33Z,I should be more specific - I get a debug assertion failure in visual c++.  Have tried it on two different computers and both get the same error.
+,smurf323,2007-09-11T22:13Z,Im having problem cracking this program. It where i have to change the synatx to the selcetor and code. So can some one please help me out because i have tryed everything.
+,LDawg247,2007-09-30T19:04Z,I can not download this program.  I get errors telling me that it can't read dll files.  I won't download the security files.  Is there anyway you can send me this software again.  Maybe I'm not doing something right.
+,hxh103,2007-10-14T08:04Z,"Hi, I've done everything in the instructions, except when I run wechoid.exe it will not give me 1c or 1e like it's suppose to in the instructions. I will only give me 0xE or 0xC if I uncheck the IP box. Any help please? I have installed everything it told me during installations..."
+,hxh103,2007-10-16T19:53Z,"I got this to work on my desktop, but not my laptop. When I run wechoid.exe to get the values, it gives me different options to check and uncheck to give me 1C or 1E. Also I could not get it to work with 1E, only with 1C. Does anyone know if this will work on a laptop?"
+,fox1463,2007-10-21T02:51Z,well its working for me after 2 days of work  u guys need licgen bat file
+,furygan,2007-10-26T23:14Z,"This file works well but infects your computer with thousands od viruses. It was hell removing them and then the program doesn't work once the viruses are gone.
+
+Very upseting"
+,HiiCamm,2007-11-13T13:33Z,Have you a Accumark V-stitcher?
+,kpchak,2008-01-23T03:52Z,"Hi, I installed as per the instructions, but when I run wechoid.exe it will not give me 1c or 1e like it's suppose to in the instructions. I will only give me 0xE or 0xC if I uncheck the IP box. Pls help i badly need this softare. and any body having vsitcher?
+thx in advance"
+,fio23blue,2008-03-16T19:54Z,"why when i write licgen xx ????? working.lic , i always have debug assertion failure in visual c++...
+what's the problem? can help me with this?
+i really need this software..pleaseeeeee......thx"
+,i-k.b,2008-04-07T15:40Z,Seed please :)
+,bears1234,2008-04-14T02:52Z,can anyone please help me download this torrent it does not seem to work for me thank you
+,bcr213,2008-05-21T14:12Z,"The instructions I got with the Team Legend torrent incomplete and don't
+work for me.
+
+I have re-worked them some [see below] but the licence generated still
+will not work...
+
+Any suggestions
+Thanx
+Bill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+DETAILED INSTALL INSTRUCTIONS
+
+=========================================================================
+A.      INSTALLING THE PROGRAM
+=========================================================================
+        [Note - E: signifies the drive letter of your CD-ROM drive.]
+
+1.      Burn the .ISO file to a CD-rom or mount using Ultra ISO.
+
+2.      Start the Setup.exe from the root directory and your web browser    
+        opens.
+        This gives you some information about the programs
+
+3.      Test for minimum requirements.
+
+        a)      You must have Microsoft 1.1 and 2.0 .NET framework installed.
+                Yes, both installed - Go figure!
+                Probably in order...
+
+                        1.1 .NET framework
+                        1.1 .NET framework Service Pack 1
+                        2.0 .NET framework
+
+                Trying to find some ""how to"" information on .Net Framework is    
+                like trying to find Brittany at a custody hearing.
+
+        b)      Now test to see if you meet the minimum requirements using
+                E:\SysReq\setup.exe
+                Doing this will prove valuable to avoid problems later.
+
+                It checks to see what you have and don't have.
+                        - The appropriate Operating System
+                        - The minimum service packs to your OS
+                        - The minimum RAM
+                        - The minimum processor
+                        - The minimum free disk space
+                        - Adobe Acrobat Reader : Even if you have a more recent    
+                          version of Adobe Acrobat Reader you will still get a    
+                          ""NOT FOUND"" message
+                          when you run E:\SysReq\setup.exe.
+                          Just ignore it and move on.
+                        - Internet Explorer 6.x
+                        - Microsoft Management Console (MMC)
+                        - .NET Framework
+
+                You can find out more about these requirements at
+                E:\Docs\AccuMark\Requirements.htm
+
+4.      Start installation of ""AccuMark TM"".
+
+        a)      Although the .htm setup file gives you the options for    
+                installing the programs install each program individually:
+
+        b)      Install Adobe Acrobat Reader only if you need it.
+                It reads the .pdf files included on the disc.
+
+                        E:\Acrobat Reader V5.1 English with Search
+                        \AcroReader51_ENU_full.exe
+
+                If you have a more recent version of Adobe Acrobat Reader you    
+                will still get a ""NOT FOUND"" message when you run
+                E:\SysReq\setup.exe.
+
+                Just ignore it and move on to the next step.
+
+        c)      Install AccuMark(tm) Professional Edition Software using
+                E:\AccuMark\install.exe
+
+        d)      If you want any other programs included on the disk then you
+                will need to read the respective .pdf's
+
+        e)      Documentation includes the following...
+
+                (i)     Release Notes - E:\AccuMark\Program Files\
+                Gerber Technology\AccuMark V8\AccuMark\relnot_pe.pdf
+                (ii)    What's New -
+                        E:\AccuMark\Program Files\Gerber Technology\
+                AccuMark V8\AccuMark\whatsnew_pe.pdf
+                (iii)   Configuration Notes - E:\AccuMark\Program Files\
+                        Gerber Technology\AccuMark V8\AccuMark\confignotes.pdf
+                (iv)    Training Materials - e:\training docs
+
+        f)      Read the AccuMark(tm) Professional Edition release notes for    
+                other important information.
+
+        g)      If during the Ac"
+,sisirab,2008-05-28T09:42Z,Tell me how to download this ISO file
+,Peachie,2008-06-29T06:52Z,"The part I don't get is after you go to run and type in ""cmd.exe"" and press enter. Then you open the folder where LicGen is, where do you type in the code and selector. Am I making a folder that is called LICGEN XX ????? WORKING.LIC or do I type LICGEN XX ????? WORKING.LIC in the cmd.exe dialog box? And if so, I don't know how to. 
+
+Also, I thought maybe I open the LICGEN (under LENGEND) and type in LICGEN XX ????? WORKING.LIC. if this is true my Licgen dialog box won't stay open. It appears and then disappears. 
+
+Please tell me how to use cmd.exe (if I'm suppose to type anything into the box) and LICGEN. Thanks a million!"
+,cametino,2008-07-09T15:36Z,"Please make sure your IP is not 127.0.0.1 when running wechoid.exe to get 1E and 1C in the selector.
+Also make sure keep the same IP whe running the lunch pad."
+,cametino,2008-07-10T17:33Z,"Make sure not just run LicGen.exe.
+
+The proper way is to copy the ""LEGEND"" folder to harddisk 
+and then open the console window by ""START -> RUN -> CMD.EXE"" 
+at the console window change the directory to ""LEGEND"" folder by ""cd"" comment
+and then type ""LicGen XX ????? WORKING.LIC"" to run the LicGen.exe. 
+then you will fould a new file appear in ""LEGEND"" folder Named WORKING.LIC
+Hope this help "
+,malda77,2008-09-09T09:51Z,"Hi... I have a problem with the licence:
+SintinelLM: Error [18]: No licence code is avaliable for feature ""AM_sysmgt ver.8.2"" on host ""no-net"".
+
+Anybody who knows what to do?
+And if not, does anybody have any recommendations for a good design program for cclothing?
+
+Thank you..."
+,fffashion,2008-09-24T21:41Z,"HI
+I have an error,don't create order in accumark explorer:     and i click OK appear  and 
+,but and all working perfect.
+Help me please anybody.
+"
+,fffashion,2008-09-24T21:44Z,"HI
+I have an error,don't create order in accumark explorer:   
+
+ and i click OK appear  
+and 
+,but and all working perfect."
+,fffashion,2008-09-24T21:48Z,"
+
+Design program: Investronica/Lectra/Geminicad.."
+,fffashion,2008-09-24T21:55Z,"Sory,but i don't send my message correct."
+,fffashion,2008-09-24T21:56Z,"SentinelLM:error :[0xc8001006]:All licensing tokens with server ""no-net"" for feature ""AM_SYSMGT ver 8.2"" are already in use"
+,fffashion,2008-09-24T21:58Z,"And SentinelLM:error [1]: Unable to obtain licensing token for feature""Unknown""
+No license found for this application"
+,fffashion,2008-09-24T22:09Z,"At that working all perfect.
+Help me please anybody.
+Sory for misspellings,but don't speak English very well."
+,chesthar,2008-10-27T00:13Z,"every one forget to mention that when U run ""LICGEN XX ????? WORKING.LIC"" from CD U should set where to be writen this file ""working.lic""it can't be writen on read-only CD there's why it blow Up with C++ error Faaya.So try ""LICGEN XX ????? c:\WORKING.LIC"".
+
+Any way in my PC it generates the file and copy to gerber's licence folder when start nstallLic.exe it gives me ERROR - Licence file not locked to this key.
+I have icrosoft .NET framework 2.0 ->win 2003
+I have Sentilel System Driver 5.42.0 (32bit)
+And i know how to run CMD and did everyting
+And i have amd processor.
+and the install dir is not in C:\program files but
+D:\program files
+
+I don't know why but all the installed pograms works fine although the licence fails.
+
+CHEERS!"
+,bianco_mwg,2008-11-11T16:14Z,"I haven't been able to process an order, because i get the sentinel error every time i try it.
+Do you guys have any solution????"
+,highatlas,2008-11-22T12:51Z,"The program accepted the licence and it seems like everthing is working ok; however, i have a problem with edit order. after opening and clicking on save, the following error comes up : SintinelLM: Error [18]: No licence code is avaliable for feature ""AM_sysmgt ver.8.2"" on host ""no-net"".
+
+Please i want to know the cause because as you know that the order task is very important in the overall marker-making process. i feel stuck here. many thanks in advance."
+,fffashion,2008-11-24T00:15Z,"Rename order ahead process. exemple (xxxx-1 or -P)
+Apear error,but generate a new order and marking.
+Thank very very much for keygen."
+,fffashion,2008-11-24T00:37Z,Have enyone crack for 8.3 version?
+,highatlas,2008-12-12T21:28Z,hi. regarding the order process problem v 8.2 i got the solution. when you get the order of accumark v 7.6.5 and you want to copy it on v 8.2 you get an error of sentinel because the tables library of buffering & annotation are not created yet in v 8. then you should create those first therefore processs it.   
+,maysian,2008-12-21T18:37Z,"When I type the code in cdm this appears: c:\legend>licgen 1e 96899 working.lic
+team-legends gerber 8.2 license generator
+Error
+Error
+Error
+Error
+Error
+......
+
+What am i doing wrong? Thanks!! "
+,atlas08,2009-01-01T18:18Z,"hello
+
+please,i'am looking or a software named  GERBER NESTERserver v8.2.0.57  or v 8.3,  please, i 'am searching it and i need it so much
+
+i need your help,
+if some one got it,sent it mine please.
+thanks in advance"
+,atlas08,2009-01-18T03:51Z,"hello friends..
+please i'am searching for v-stitcher of browz wear  .thanks in advance"
+,Fashguy,2009-02-17T07:41Z,Hey I am trying to install Accumark and It tells me I need service pack 4 for windows 2000 I run Vista... what do I need to install?  also if someone does have VStitch that would be great thanks
+,tb88111,2009-03-26T12:46Z,thanx. this is working fine. any of you guys have the gerber accumark 8.3
+,dollymachina,2009-04-11T10:15Z,"I cannot get LicGen to run in the commands. I type everything the way its supposed to and I keep getting ""access is denied""  For some reason, it won't copy to a hard disk either. Any help?"
+,nahid1,2009-04-16T05:42Z,Can any one help! i have everything installed except the gtlicense software won't install. I keep getting a message error 1722 the installer package can't install the software. i am not sure if the problem is the software is 32 it and my operating system is 64 bit but i can't get the rest of the software to work with out the licensing portion. Does anyone know a solution?
+,longcack,2009-08-01T04:47Z,"I have v8.3.1.446 but the 8.2.0.156 crack doesn't work with it.  I've already tried it.  It requires a new activation method and includes newer version of the Sentinel System Driver.
+
+Here are the version numbers for v8.3:
+
+The AccuMark? Family CD-ROM contains the following Gerber Technology Products:
+*	AccuMark? Version 8.3.1.446
+*	GERBERplanner	Version 8.3.1
+*	Made to Measure System Version 8.3.1
+*       AccuNest? Version 8.3.1.446
+*       AccuScan	Version 8.3.1.446
+
+Installed with AccuMark? and WinPlot:
+*	Problem Report Utility	Version 8.3.2
+
+Third party packages included on the CD-ROM
+*	Adobe Acrobat Reader Version 8.0
+*	MMC (Microsoft Management Console)	Version 1.2
+*	Rainbow Security
+*	Sentinel System Driver Version 7.4.0
+
+This version is supposed to work with Vista.  If anyone has the crack for v8.3, let me know and I can try it out.  If it works, I'll try to find some way to get it on here with both CDs and the crack."
+,fffashion,2009-08-12T13:56Z,"hi 
+
+the method is good.but the licgen and emulator internal code is don't good for 8.3....."
+,fffashion,2009-08-13T18:42Z,"Everybody have geminicad software crack??????
+The home page for it is www.geminicad.com
+thankssss"
+,fffashion,2009-08-26T12:01Z,"Here is the accumark 8.3 ,but I don't understand how joining the files. Help me everybody
+http://www.filestube.com/b60a423be650885003e9,g/Latest-Gerber-AccuMark-Family-CD-V8-3-0-263-Complete-Crack-Part-1.html"
+,Mallion,2010-01-17T00:58Z,Does anyone know where I can get the newest version of Gerber Omega?
+,kd1,2010-02-23T01:24Z,"I got a Trojan alert on LicGen.exe
+
+Extracted it again ignoring alert and now struggling with running licgen from cmd, as not savvy cmd line user.
+
+From the licgen location what do I type?
+c:\Gerber\LEGEND>
+
+It seams that whatever I try I get ""access is denied"""
+,ollysebay,2010-05-26T04:13Z,"For those of you who have the 
+error
+error
+error
+error
+error...
+
+problem whilst creating the license file I have a solution that worked for me.
+
+First of all either copy and run the legend folder and and licgen to your HDD or make sure the syntax for the licgen includes a local folder for the working.lic file ie change in the syntax to c:/working.lic
+
+The main cause for the error error error was that the emulator was not running. Insure that when this is installed the the compatibility settings are on windows xp service pack 3 and run as admin. In fact do this for all apps that you need to run if using vista or win 7. When the emulation installs although nothing visual happens you should be able to see an hour glass and hear your comp installing it for a split second.
+
+ps i have it working on win 7."
+,HawkWrok,2010-06-19T20:02Z,"Hi im new here so i want elp can you tell me how to start LICGEN.EXE ??????
+BAREE CONFUSEDD"
+,riz306,2010-10-11T05:42Z,"I have all kind of CAD software like Gerber accumark from v8.2 to v8.4.0.93 with auto nester, Lectra all versions, Investronica v7 to v8r2c4, 100% working cracks, only US$ 100 each, contact me at invcad@ymail.com"
+,Arrslaan,2011-03-02T14:26Z,"I need gerber accumark vstitcher any version can someone please help me out i'l be thankful, 
+
+catch me at
+
+arrslaan@gmail.com"
+,cad12,2011-04-27T16:05Z,"hello ...
+visite web site :
+www.cad-soft-wares.hooxs.com"
+,cad12,2011-04-27T16:06Z,"contact -me : garment.simen@gmail.com
+site web :       www.cad-soft-wares.hooxs.com"
+,cad12,2011-08-06T23:52Z,"Hello
+
+i have all kind of softwares ,
+just check my web site 
+
+http://cad-soft-wares.hooxs.com/t8-topic#8
+
+To search for the desired program quickly press Ctrl +F   
+
+i am a Fashion Designer by Accumark Gerber v8"
+,nextvi,2012-07-29T21:23Z,"
+Gerber ACCUMARK  8.5. 146 full with working emulator crack for unlimited use and other earlier working versions two. dont hesitate to contact me.
+softex.fashion@gmail.com
+softex.fashion@hotmail.fr"
+,nextvi,2012-08-29T16:10Z,"J'ai une collection de logiciels textiles qui fonctionent tres bien. je ss obessede par la mode e jai une collection de logiciels de textile et fashion derniere versions comme gerber accumark, optitex, lectra modaris, geminicad, browz-wear vs-stitcher .. etc. contactez moi si vs voulez bien porur de l`aide sur :
+
+mom email c : softex.fashion@gmail.com
+
+cordialement"

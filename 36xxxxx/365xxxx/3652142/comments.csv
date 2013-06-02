@@ -1,0 +1,24 @@
+﻿User Type,Username,Date,Text
+,gp-poppe,2007-10-06T15:45Z,How can I burn this?? to a audiocd?????
+,xny675,2007-11-26T07:43Z,"These files are not intended for burning to CD [even DTS-CD] as-is.  They are intended for playback with software that works with them directly [such as Foobar2000, for which the files have APEv2 tags, and VLC player]."
+,xny675,2007-11-26T11:21Z,"For those who are confused by what these files are for:
+
+These are NOT DTS-CD format [which has a different samplerate from DTS audio from DVDs]. They are NOT intended to be burned in DTS-CD format. To do so, you would have to resample and transcode them back into DTS.
+
+These files ARE intended for playback on computers running media player software that include a DTS codec. 
+
+If you want to make a DVD with them, you'll have to use software which allows the remuxing of DTS audio streams [such as DVD-Lab Pro] to interleave them with blank [or whatever] MPEG-2 video of the same length as each track. 
+
+There are also some DVD players [such as certain models from Philips] which are capable of playing DTS files directly from CD- or DVD-R [as well as MP3s, ac3, et al]. I have not seen many of these, but they do exist.
+
+Apologies for the confusion - I prefer to separate the audio and keep it on its own, to save space and reduce resource requirements during playback.
+
+Foobar2000 [unfortunately Windows-only] plays them as-is [if you go hunting for the DTS codec], in surround, with decent EQ, full seek support, APEv2 tags, and does so gaplessly."
+,xny675,2007-11-26T11:25Z,"Oh, and as a last comment .. 
+
+If you want a playable DVD image, SEARCH FOR IT.  Try ""beatles DTS"" or ""beatles love"" .. because the DVD-A copy tracked here is exactly where this extracted audio came from in the first place, and it's playable on DVD players as-is.
+
+Cheers."
+,ctofct,2010-10-21T21:40Z,"If anyone has this DTS version Beatles For Sale could you please seed it for me? Please see below, thx.
+
+Beatles - 1964 - Beatles for Sale [cue wav dts-upmix by ppp]"

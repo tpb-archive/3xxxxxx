@@ -1,0 +1,26 @@
+muBlinder Changes 3.4 (03-March-2007):
+
+* Works with MS Update 1.7.18.1 (1.7.0018.1)
+* Both Microsoft Update AND Microsoft Download Center are working.
+* Removed popup when hash fails while running a blinder.
+* Experimental fix for rare bug when downloading a blinder (file already in use/does not exist error).
+* Fixed Portuguese translation (thanks to Saulo Benigno)
+
+muBlinder Summary:
+
+Ever got frustrated trying to update your Windows OS through Microsoft Update only to discover that for some mysterious reason it won't work? Maybe a corrupt DLL, conflicting software, firewall, other problems? muBlinder could be of use to you!
+
+muBlinder Description:
+
+muBlinder ( Microsoft Update Blinder ) is an application that bypasses Microsoft Update's Genuine Windows Validation and allows you to view, choose and install all available updates in addition to downloading programs off of the Microsoft Download Center. Incase you have installed the Genuine Windows Notification update muBlinder allows you to get rid of those nagging popups.
+
+In addition, muBlinder can help you install applications that contain WGA protection with the use of external blinders (plugin patches). You can even create your blinders for others to use!
+
+muBlinder does not need to be installed and can be placed on a floppy disk or flash memory stick. Just unzip to a folder of your choice and run it. For removal, simply delete the muBlinder.exe file and its folders.
+
+Enjoy!
+
+For details:
+  
+http://www.p2plife.com/forums/Official_muBlinder_Page-t320.html	
+

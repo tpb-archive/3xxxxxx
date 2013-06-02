@@ -1,0 +1,61 @@
+﻿User Type,Username,Date,Text
+,Ha1fpint,2007-04-14T18:39Z,Does this work?
+[T],ripthejacker420,2007-04-15T08:18Z,"it does for me. just run the .exe file, no install necessary:)"
+,Leischna,2007-05-23T06:19Z,"I've got just one problem with it.
+I can't change the system settings so i have to play it with a terrible resolution.
+Can you tell me how to change the settings or how to let my computer save those settings so that i can restart and they are enabled?"
+[T],ripthejacker420,2007-05-27T07:42Z,i'm sorry man. changing the system settings works fine for me. but i do have to change all my settings every time i play because for some reason it doesn't save them.
+,Bo Rock,2007-05-28T23:41Z,"Is it ver. 1.3 ?
+"
+,Bo Rock,2007-05-29T09:02Z,"In the file doomkey.......
+There`s missing a part....
+Is it like ;      -5G      ???????
+
+It works online using another key........"
+,Pendaz,2007-05-30T19:38Z,"game runs fine, but it deosnt save settings after close, so i cant change my resolution or detail settings, controls work fine, but they also reset after closing the game 
+"
+[T],ripthejacker420,2007-06-05T05:51Z,same here pendaz:( but im just glad the game works:)
+,Xcorekid88,2007-07-25T09:54Z,Great seeding.
+,slaahg,2007-08-22T22:31Z,The reason that u can't save the changes is that since u haven't installed the game (but rather just extracted them) there are no registry settings. the registry directory is created on install.
+,ainrue,2007-08-26T18:38Z,"Hi guys,
+did a bit of fumbling around with this one, To save config settings, you just need to go into the 'base' directory and make 'DoomConfig.cfg' and 'doomkey' writeable (by de-selecting read-only)
+
+the version # is 1.0.something but I cant seem to be able to patch it because the 1.1 patch and the 1.3 patch cant find teh proper install version (I think it might be looking for a registry key, which doesn't exist)
+
+My question is: does anyone know if/how to patch this version? I'd probably need to add a key/value to the registry  stating the doom 3 version number, but I wouldn't know where to do so. maybe someone should post the installer script from the original CD?"
+,ainrue,2007-08-26T19:04Z,"Wow. I just noticed that I had these CDs kicking around from 2 years ago. I've installed the game from the CDs and I will post my findings for those who need to update with the patches.
+
+I mean, I have a quad core 2@2.4 with 8800GTS and I was getting 4 fps with this install, on lowest settings, 640x480. Something's obviously wrong."
+,ainrue,2007-08-26T21:23Z,"Okay, I have done a bit more investigating. I made this image http://i178.photobucket.com/albums/w271/ainrue/d713b6b5.jpg?t=1188155815
+to show off the registry keys of an actual installed doom 3
+
+I'm now using a crack I found here: http://crackdb.org/get_43493_Doom.3.and.Doom.3.Resurrection.of.Evil.v1.3.KeyCheck_crack.html
+(I scanned it with AVG antispyware and AVG antivirus, both came up clean)
+
+Im not sure if any of this will work, but i think if you add teh folder Id, and then a subfolder doom3 (like it shows in my image) then you might be able to run the patch to 1.3, which can be found here:
+http://download.activision.com/doom3/D3_1_3.exe
+(thats right from Id software's site)
+
+now, i dont know much about reg editing scripts, but maybe someone could write one and seed with the patch...
+
+this all seems like a lot of work... but, i hope I can help some people. Email me at tagrant 'the hot spot' if you have any further questions.
+:) cheers"
+,ainrue,2007-08-26T21:26Z,"^^ sorry for my newb ness.
+
+the email addy is: ta ""underscore"" grant ""at"" the hot spot.. you know which one ;)
+
+cheers"
+,arskis93,2007-08-29T06:51Z,SEED!! i really want this game!!!
+,arskis93,2007-08-30T06:26Z,Seed!
+,Igheimer,2007-09-04T15:08Z,seeda lite va
+,Igheimer,2007-09-06T17:39Z,"great works perfectly 
+
+anyway thx for all the saves.. so i can go where ever I want 2 thx again"
+,Sejtan666,2007-09-07T18:53Z,is the file safeprotected or something like that..writeprotected..skrivskyddad..on swe..
+,FlemminZ,2007-10-05T14:40Z,Seed plz :)
+[T],ripthejacker420,2007-10-18T00:33Z,"thanks 4 the input guys. i lost dsl and now have dial up, so i cant really seed my torrents anymore so please keep them alive.   there is no write protection or safeprotection or anything."
+,krakt,2008-03-22T23:41Z,"To change graphics settings, go into \DOOM 3\base\ and remove the ""Read Only"" flag on doomconfig.cfg.  After that you'll be able to edit it manually, or use the configuration to adjust your graphics settings."
+,DrD00M,2008-06-08T20:08Z,"3 seeders at 10kb/s might as well go buy it.
+My time is worth more that how long it takes to DL 8("
+,Suntzao,2008-09-10T13:36Z,PLZ!!! SEED!!!
+,PRgunMan,2012-07-14T19:28Z,it didnt strt downloding can u plz help

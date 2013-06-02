@@ -1,0 +1,7 @@
+Install .NET framework 2.0
+Use a LG-8164b or LG-8163b or LG-8162b dvd drive. It might even work with other hitachi drives. It works if you get a readable DVD name.
+Copy unscrambler.exe and plscsi.exe to the rawdump directory.
+Start rawdump.exe
+Unscramble the .wod file after ripping the image.
+This version lets you continue a dump after you have stopped an unfinished job.
+Patched unscrambler.exe and no need to modify dump.bat

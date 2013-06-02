@@ -1,0 +1,39 @@
+﻿User Type,Username,Date,Text
+,bapb454,2007-02-06T04:21Z,"works as advertised!
+Thanks anonoymous_2012
+
+I just want to note though that my other backups are made with ghost 8.3.
+
+The standard version of this which makes your cd/dvd bootable is ghost 8.2  which wouldn't even touch the image made with 8.3.
+
+Hope that helps.
+
+I went ahead and made a bootable back up with this and verified it. No problems found.
+
+Is this common procedure for ghost not to work with it's own files?"
+,DarthBubba,2007-02-06T09:24Z,"So how do you tell which .ISO is which?  They both have the same names.  The dates and sizes are a little different, but that doesn't help."
+,bapb454,2007-02-06T13:20Z,"In my torrent there are two folders. Each has a ghost torrent in them. The folder named ""multi standard with image-restoremenu"" has the .ISO in it that makes the image bootable which is 6.68 MB in size. It is the smaller of the two files.
+
+There is a HOW TO USE text file also. Might help if you read it. Might not... :)"
+,DarthBubba,2007-02-06T17:07Z,"bapb454: 
+The folders are only visible in Winzip if you run it fullscreen; the Path is truncated if Winzip opens as a smaller window.  A simple mistake, much like expecting an older version of Ghost to read an image made by a later version.  :)
+
+The How To isn't written very well.  Giving each .ISO a distinctive name would've been more helpful."
+,bapb454,2007-02-07T04:03Z,"DarthBubba :
+
+""A simple mistake, much like expecting an older version of Ghost to read an image made by a later version. :)"" 
+
+umm. I don't believe I wrote that I was expecting anything other than what was offered. I noted my observations, asked a question, and answered your questions truthfully.
+
+Did you get it figured out or are you still reading the HOW TO USE.txt?
+
+The HOW TO USE.txt file is written well enough that I understood what was going on with one read of it. 
+Maybe if you trash winzip and use a respectable file archiver those problems you are having wouldn't exist.  Try winrar if you use windows, IMHO it's a far superior program than the proprietary archiving winzip uses,  and also the default zip manager in XP will let you view the hierarchy of the file system...
+With Linux I use fileroller as the archive manager http://fileroller.sourceforge.net/.
+
+
+Hope that helps you :)"
+,anonoymous_2012,2007-02-07T15:27Z,"thanks for the feedback.
+I'm not perfect and the files were zipped with winrar
+and put into seperate folders with different names.
+as far as the iso sizes they uses different drivers and etc.the menus are just text in a config file.I just posted a newer version with ghost 11.0"

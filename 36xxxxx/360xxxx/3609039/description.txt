@@ -1,0 +1,33 @@
+This release is for Hackintoshes 10.4.8 kernel ONLY. 
+
+This is the new release 1.1. 
+This release finally works. The reason it didn't work earlier was that I simply had to zip all the pkgs before posting them!!   
+
+For more information, read http://forum.insanelymac.com/index.php?showtopic=34388&hl=. 
+
+1) B612.GMA900Support.pkg. 
+
+This uses the same logic of JaS' support, but it is faster. It doesn't give you the possibility to change your screen resolution, but it sets it to 1280x1024, so I guess it satisfies everybody. 
+
+2) B612.GMA900.back.to.10.4.8.pkg 
+
+I think this package is essential for those who want to undo all the changes of JaS' GMA900Support and of course B612's Support as well. After applying this pkg, the PPC applications work perfectly well and everything works well, even though the speed of the GMA is much slower than in the other version. 
+This release also takes off the setting of 1280x1024 from your com.apple.Boot.plist. 
+
+then I have made two pkgs that you can use after applying the B612.GMA900Support.pkg to instantly switch between the PPC and the fast GMA mode. 
+
+3) B612.OpenGLPPC.pkg 
+
+I use this package when I need to work in Powerpoint or in other PPC programs that use video. 
+
+Then, after using those applications, I simply (and quickly) click on 
+
+4) B612.OpenGLfast.pkg 
+
+and I get back to the fast GMA, as it was after the B612.GMA900Support.pkg, without the need of rebooting. 
+
+I forgot to say that with none of these packages you need to fix your permissions. 
+
+I don't take any responsibilities for those who screw their systems, especially without reading the above. 
+DO NOT use these packages if you don't have a GMA 900! 
+Bye!

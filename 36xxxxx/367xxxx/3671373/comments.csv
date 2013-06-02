@@ -1,0 +1,43 @@
+﻿User Type,Username,Date,Text
+,Aeroglass,2007-04-23T20:38Z,"Ultimate: 6F2D7-2PCG6-YQQTB-FWK9V-932CC 
+Business: 72PFD-BCBK8-R7X4H-6F2XJ-VVMP9 
+HomePremium: 8XPM9-7F9HD-4JJQP-TP64Y-RPFFV 
+HomeBasic: 762HW-QD98X-TQVXJ-8RKRQ-RJC9V
+
+******************************************************************************************
+* TODO EL ENTORNO GRÁFICO DEL PARCHE ESTÁ PROGRAMADO EN VISUAL STUDIO 2005 POR IRONCATAN *
+******************************************************************************************
+
+Este sistema está basado en el método PARADOX (llamado así por el desarrollador de parche inicial). 
+
+Microsoft dá a determinadas compañias de equipos informáticos unas Keys llamadás OEM. Estás Keys son para instalaciones en esos equipo que las compañias venden a sus clientes con el Sistema ya Activado (para no causar molestias a los clientes). Bueno pues para que estos equipos esten activados, deben de coincidir varias cuestiones como son:
+
+- La BIOS de los equipos OEMs, un certificado que emite microsoft para cada marca de equipo y la KEY anteriormente dicha.
+
+Bueno pues con estos datos se ha creado el parche. Instala un driver que simula la BIOS de un equipo OEM (sin tocar la BIOS claro), instala un certificado ORIGINAL de Microsoft y por último se instala la Key OEM para la versión de Windows Vista que tengais.
+
+
+IMPORTANTE:
+
+- Para que funcione correctamente este parche, debe de ejecutarlo en modo administrador (Botón derecho sobre el parche-->Ejecutar como Administrador).
+
+
+Novedades/Modificaciones:
+
+*Versión 2.5
+
+- Añadido el Certificado Original de DELL
+- Añadido el Certificado Original de SONY
+
+*Versión 2.0
+
+-Añadida la comprobación para que solo se ejecute en Windows Vista 32 Bits
+- Añadido el Certificado Original de ACER
+- Añadido el Certificado Original de LENOVO
+- Añadido el Certificado Original de HEWLETT-PACKARD
+
+*versión 1.0
+
+-Versión inicial del programa
+
+El bios que he probado es asus!"

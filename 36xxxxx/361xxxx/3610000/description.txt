@@ -1,0 +1,35 @@
+This package includes everything you need to host your own website on your own P.C. ,
+using your existing broadband connection. (HTML editor not included, but some tools to start up your website with are..
+
+You need a webserver. Three are included. The simplest is Server2Go, which can run from a
+CD or even a USB keychain drive. The CD mode is sloer than HDD, but hack-proof,
+portable, and good for a post-crash recovery.
+You need a free URL redirection service which will cloak your origin IP addres (from your ISP
+among others) and let you use a port of your chocie, since your ISP likely blocks Port 80.
+The homepage for DynSite (see next item) lists many. Recommended : 2mydns.com .
+The Dynsite software updates your records with the redirection service with your current
+IP address, which with some/most ISPs will change with each reboot. Dynsite runs at
+bootup time, so that HTTP requests for the front-end URL the redirections service gives you
+will immediately start going to the changed IP. Dynsite FAQ is included here.
+We also include an FTP server, Button Studio 2, Amara Flash Menu and Button Maker, 
+PayPal Shop Builderm and Shop Factory.
+With this an basic HTML skills and/or software, you can run your own ecommerce website.
+The servers handle PHP and MySQL, so with Vbulletin (not included here, as we wanted to
+keep the package down to one Rapidshare download, but readily available) you can set up and operate your own forums.)
+UniServer3_2a.zip
+ShopFactory-pdxsfd5a-2004-01-30.rar
+server2go.zip
+PayPal.Shop.Builder.1.0.zip
+f4-wfs16-2003-12-15.rar
+dynsite.zip
+DynSite.v1.11.790.4.Multilingual.Incl.Keymaker-ACME.zip
+DynamicLinkPromoter-tbelip14-2005-10-07.rar
+cssbs2ik-2005-08-10.rar
+amarafmb.zip
+Self-Hosting AIO Readme.txt
+paypalsb.exe
+ftpsetup.exe
+DynSite - FAQ.pdf
+dlp10.exe
+buttonstudio2.msi
+Amara Flash Menu and Button Maker.v2.0 Regged.pdf

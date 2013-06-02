@@ -1,0 +1,53 @@
+﻿User Type,Username,Date,Text
+,goot55,2007-04-07T01:50Z,"If someone find other Myst games, please post a url here, would be nice if someone made a Myst-pack or something =)"
+,NisseP,2007-04-07T08:31Z,could it work on OS X too?
+,goot55,2007-04-07T10:59Z,"It does, if you've got classic... (and classic-quicktime)"
+,goot55,2007-04-11T17:57Z,"I'll only be able to seed this on full speed during night (Sweden, GMT+1). Daytime it's proboably be limited to 40 kb/s or something like that. So Keep Sharing!! :D "
+,rucaxoxo,2007-05-18T23:05Z,"Hi, thanks for the game.
+I have a question - I have OS X, and the game runs... but it is a little glitchy and it is not letting me save.  
+
+Everytime I try to save it, it then goes to a new window asking me where... basically just not working... 
+
+How should I run the game on my OS X? Just double click the Myst icon? Thanks!!!"
+,goot55,2007-05-20T16:12Z,"You should have Classic installed, and the appropriate (latest i believe) quicktime player for classic. Maybe it's not the game that's not working, try to repair your harddrive or something.. I also dont know weather this game works on INTEL macs or not..."
+[T],nobody2007,2007-06-01T15:59Z,IÂ´ve read on other forum that this game doesnt work on Intel Macs.
+,hagenisse,2007-06-15T22:03Z,"I have an intel mac, OS X. Does one need classic?Or does this rosetta thing work?"
+,Stucazzo,2007-06-26T22:16Z,"Have same problem as rucaxoxo.  Running on G5, 10.4.9 but can't save.  Any suggestion?"
+,goot55,2007-07-26T23:55Z,"I've read somewhere that Myst isn't packed very well, and sometimes there is trouble with permissions, that's proboably why you can't save. Try this: 
+1. Open the Terminal. 
+2. Type: sudo chmod -R 777 [now find the Myst program in Finder, and drag it into the terminal window so you get the path to the program here instead of this text :P (without brackets!!!) eg: /Applications/Myst4.app]
+3. Press enter, you may then have to enter the administrator password.
+4. Launch the game, see if it works better."
+,southpaw896,2007-07-30T19:48Z,I has mac OS X and need to get classic?  could anyone help me out on what to do?
+,goot55,2007-08-04T20:53Z,Isn't there a preference-panel for classic under Systempreferences > System? (Atleast there are in 10.4.10
+,Blackhawk1969,2008-02-16T08:49Z,the classic os is only available on ppc macs..there is no classic option for intel macs. 
+,dutindude,2008-12-28T06:37Z,Macs are huge rips offs and work for shit as gaming computers. Upload the REAL game! (windows/dos verion)
+,petspam,2009-01-16T17:40Z,"Really, I had to register just to make this post regarding dutindude's post.  The ""real"" game was the Mac version.  Every single game made back then was the Mac version.  I know your just being a troll, but in 1993 we didn't even have the windows you know and warship today.
+
+Also, regarding the torrent:  Thanks, I just got 4 new old Mac's and my original Myst disk is scratched!  Many Thanks!"
+,Peanus,2009-02-04T05:29Z,"Okay so a lot of people are asking for help on how to run this game. I will attempt to answer these the best I can.
+
+******** Running on PPC Mac's
+0) This will NOT work on 10.5 'Leopard' at all.
+1) You need 'Classic' support installed. To do this, you put a MacOS9 CD in your hard drive. I deon't remember off the top of my head what you do after this. I suggest you ask how on the forums on Apple.com or just google it.
+
+******* Running this game on Intel Macs
+You CAN run this using 10.5 Leopard!
+(OR 10.4 Tiger!)
+
+This game was made for PRE-OSX PPCs. Leopard does not natively support this. But it is possible. What you will need to do is install a 'Mac OS 9 emulator'. I reccomend one called 'SheepShaver'. Google it.
+
+***********
+
+In short, the best way is to use an actual G3 macintosh that can boot into OS8 or OS9. Failing that, you are going to have to put in some considerable effort (about an hour) to get this to work. But you CAN do it! And you will end up learning a ton about computers in the process.
+
+-p"
+,Peanus,2009-02-04T05:52Z,"Update:
+
+I did a little more work on trying to get this to work on my OWN computer, and came up with some links for others trying tyo get this game to work:
+
+http://www.users.bigpond.com/pear_computers/BasiliskII.html
+"
+,dutindude,2009-06-24T03:45Z,yeeahh well i was just pissed that day but macs are rip offs
+,Sixwings,2009-10-21T21:36Z,Awesome. Thanks so much for seeding. I love this game.
+,motbax,2010-10-03T13:53Z,"To run this in the BasiliskII Mac-emulator, it's recommended to run the .dmg-file through the dmg2img tool first. It's what I had to do at least."

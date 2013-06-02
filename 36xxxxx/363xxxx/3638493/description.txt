@@ -1,0 +1,3 @@
+.shp, .lyr, .tif
+
+.shp can be viewed with most free GIS programs, including qgis, www.qgis.org, .lyr is proprietary and can only be viewed (as far as i know) with ESRI software, their free viewer (ArcExplorer) cannot view .lyr.  .lyr's main purpose is to hold metadata, such as color and labels, so there is no info in them that is different than the info in the shapefiles.

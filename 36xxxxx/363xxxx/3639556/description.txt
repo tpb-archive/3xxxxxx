@@ -1,0 +1,42 @@
+Sequence Frame 551255(2-I) / Time 2:33:16 :
+AudioError: Corrupted AC3 frame of 1534 payload bytes at file offset 13126504248
+
+Sequence Frame 634536(5-P) / Time 2:56:26 :
+AudioError: Corrupted AC3 frame of 1534 payload bytes at file offset 15229710820
+
+Sequence Frame 703068(13-B) / Time 3:15:29 :
+Info: End of MPEG2 sequence
+
+Sequence Summary:
+
+File Size Processed: 15.78 GB, Play Time: 03h:15m:29s
+1280 x 720, 59.94 fps, 25.00 Mbps (10.71 Mbps Average).
+Average Video Quality: 21.81 KB/Frame, 0.19 Bits/Pixel.
+AC3 Audio: 3/2 Channels (L, C, R, SL, SR) + LFE, 48.0 kHz, 384 kbps.
+Dialog Normalization: -27.0 dB, Center Mix Level: -3.0 dB, Surround Mix Level: -3.0 dB
+0 of 703068 video frames found with errors.
+2 of 366547 audio frames found with errors.
+0 corrupted video bytes in file.
+0.000000 seconds of video timestamp gaps.
+0.000000 seconds of audio timestamp gaps.
+
+End of Log
+-----------------------------------------------------------------------
+Output Complete
+ 
+http://www.oscars.org/79academyawards/
+
+Input Sequence Errors: 18
+Video resync frames removed: 177
+Audio resync frames removed: 28
+TS Video packets: 86578901
+TS Audio packets: 3665480
+TS PSI packets: 233798
+TS Null packets: 0
+TS MUX Rate (Mbps): 19.31118
+Video output frames: 703068
+Audio output frames: 366548
+Processing time (secs): 1739
+Processed frames/sec: 404.19
+Actual Video Bitrate: 10.82 Mbps
+03:15:29.00

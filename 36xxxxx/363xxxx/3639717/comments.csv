@@ -1,0 +1,78 @@
+﻿User Type,Username,Date,Text
+,Bullet,2007-03-24T11:07Z,Nice uppload  ;o))
+,BearCat,2007-04-20T07:23Z,"What about the hardware-lock, does it come with a working crack ?"
+,gloiden,2007-05-19T10:50Z,"is there anybody that get this working ?
+How ?"
+,Snoddas10,2007-06-24T19:34Z,"Anyone who knows how this works??
+
+http://thepiratebay.org/tor/3642804/Crack_til_ETKA_Versjon_7"
+,kaliptu,2007-06-28T17:35Z,"hi, i cant put the seat and skoda working? anyone can help?"
+,darobin,2007-07-10T22:24Z,"I ran it in daemon, cant install it on c: cause install.ini or some couldnt be copied from source disc (install file...). Got it to install on my backupdrive d: but i didnt have enough space there so it stopped at 97%. Thought id try to burn it properly on a disc, how do i burn an .iso file to a disc so it works like the original disc?"
+,CyberThug,2007-08-22T22:43Z,"hvordan oppdaterer man ETKA? Jeg f책r ERROR RR12 p책 update 598...
+
+Noen som vet?
+----------------------------
+Anyone know how to update to 598?
+i get ERROR RR12"
+,chipukizi,2008-09-21T20:19Z,"To add SKODA and SEAT
+
+Browse to C:\etka\prog and edit;
+ETKA_VW.INI
+ETKA_AU.INI
+ETKA_SE.INI
+ETKA_SK.INI
+
+as follows, under the title KONZERN, add SK and SE:
+
+[KONZERN]
+firmen=VW,AU,SK,SE
+
+Once this is done, they will appear on the main menu but will run with a few errors. To rectify, Go to Maintenance, INI-EDITOR and change the settings to be similar to VW and AUDI"
+,haakon82,2008-10-05T11:33Z,"I just installed etka 7, 597.
+The program is in german, anyone knows how to change language?? "
+,oleg333,2008-10-19T18:05Z,"about language.
+1. start etka for any brand
+2.right upper corner, first column, second row quadrate - press, SPRACHAUSWAHL - select your
+language"
+,Mister White,2009-01-22T23:48Z,"This works excellent. Full ETK version with updates included. Readme files with easy explanation how to install are included. Installation goes flawless. Recommended to anyone with a VW produkt.
+
+Many thanks for this torrent!!!"
+,bossman187uk,2009-05-27T17:36Z,why cant i search older cars like a golf mk2 1985 or a T3 camper 1983??
+,cjackolass,2009-07-14T22:02Z,Marche tres bien et en francais
+,lgnd91,2009-09-09T09:01Z,"I have a problem :)
+Bunt to dvd started setup.exe then I run into the following error message:
+
+This system is no fatclient or etmaster 2000 server. Installation will be aborted.
+
+Any thoughts? Thanks!"
+,KrahvK,2009-12-20T19:16Z,Same shit: This system is no fatclient or etmaster 2000 server. Installation will be aborted. Is it because Vista?
+,rexx101,2010-10-01T20:49Z,"If you get ""This system is no fatclient or etmaster 2000 server"" error, then try and install using a virtual drive instead of burning the image, it worked for me."
+,cgiksy,2010-11-23T15:35Z,"There are some C:\%Windows Directory%\System32 files that need to be removed. 
+delete
+C:/windows/etkinst.ini
+and there are 2 other files I think, starting with ETK*. Delete those, too."
+,OrvoTM,2010-11-25T09:02Z,"Install went flawless ! No errors whatsoever. Just that after installing each update, at the start-up screen I only get Audi and Volkswagen, no Seat or Skoda ... And I actually needed it for a Seat Ibiza ... What is to be done in this case ? Thanks ..."
+,sangodin,2011-01-22T21:55Z,"Installation went seamless on W7 but, dammit, it takes a loooot on a quadcore with 4 GB RAM  running W7. Also the updates are endless. Do not cancel thinking that the program entered on a loop. Look at the update number that runs from 597 to 622. GREAT JOB pal!"
+,KeewayDriver,2011-02-28T19:12Z,"i've downloaded this torrent, but it doesn't work at me. when i have installed it and try to run it, i get an error -> Error 7: Hardlock not found.
+anyone know how to fix this? or knows a working torrent? Thnx :)"
+,danielbp,2011-03-28T21:29Z,er det p책 norsk? 
+,Gornil,2011-07-26T23:56Z,"For those who gets the ""This system is no fatclient or etmaster 2000 server"" error do the following:
+
+Many thanks for the advice, successfully reinstalled ETKA 7.0. 
+
+Files need to be deleted in other area (use the Search option of Windows to find those related files):- 
+
+1. C:\windows\prefetch and look for ET* or other extraneous etka related files w/ a recent timestamp.. or even setup.*.. whack anything suspicious. 
+
+2. Removed a ETK7.INI from C:\Documents and Settings\\Local Settings\Temp (look for other etka looking files in here, too, such as a cached version of the setup executable. 
+
+3. If any, also removed C:\Documents and Settings\All Users\Start Menu\Programs\ETKA.
+
+4. delete
+C:/windows/etkinst.ini
+
+Taken from http://forums.mytouareg.info/viewtopic.php?t=18 by user HHSDVT.
+
+It fixed the problem for me atleast"
+,trooprm02,2011-09-11T19:57Z,Thanks Gornil! Doing that after I got the error and mounting the .iso instead of burning it do a disc made the installation run perfectly on Windows 7 64 bit! :)
+,RedWabbit,2011-11-20T23:00Z,If someone has the full torrent please seed.  for some reason I lost my vw and skoda updates and need to redownload them.  once I have them I can leave the torrent open for a few weeks so others can dl it.

@@ -1,0 +1,22 @@
+Driver disks and CD for Gravis Ultrasound Plug and Play sound card.
+
+
+ULTRAPNP_CD.ISO is the CD that was shipped with the card.
+gus_pnp_dos,win311_v22.IMA   is the latest driver disk for DOS and windows 3.1
+gus_pnp_win95_v22.IMA        is the latest driver disk for windows 95 (98&Me ?)
+gus_pnp_winnt_beta2.IMA      is the latest driver disk for windows NT (beta)
+gus_pnp_windecks_win95.IMA   is a disk with music player tools for Windows.
+
+Use winimage to write them to disk.
+
+
+Getting this monster to work in both dos and windows is a pain.
+Here\'s a hint how it might look in the autoexec.bat (no entry in config.sys)
+
+SET PATH=C:\\GUS
+SET INTERWAVE=C:\\GUS\\IW.INI
+C:\\GUS\\GETIWENV.EXE > C:\\GUS\\SETIWENV.BAT
+CALL C:\\GUS\\SETIWENV.BAT
+
+
+Doing like that, It won\'t use any base memory. :D

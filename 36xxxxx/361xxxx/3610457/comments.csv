@@ -1,0 +1,36 @@
+﻿User Type,Username,Date,Text
+,Autronic,2007-02-04T05:11Z,damn you FFF dont tell how it ends ;)
+,NinjaWanker,2007-02-04T19:53Z,"Peace for the paranoid.
+
+If you have files on your computer that are very personal, embarrassing or plain illegal, you probably want to use encryption. There are a number of solutions out there, both free and commercial. My recommendation goes to truecrypt ( http://www.truecrypt.org ) which is free, open-source and very easy to use.
+
+Truecrypt can create a file on your computer that has to be ""mounted"" to a drive letter (like F:) before it can be read. It then shows up under 'my computer' much like a CD player or something, ready for use.
+
+The file itself can be named anything and placed anywhere on your hard drive, or a CD, USB key etc. And if you analyze it without having the pass-phrase it will look like a random sting of numbers.
+
+The default algorithm for truecrypt is AES, which the US department of defense deems strong enough even for 'top secret' documents.
+
+How to use truecrypt is well enough described on the website. Go to http://www.truecrypt.org/docs/ and click 'Beginner's Tutorial'.
+
+I'd like to add some notes though:
+Pick a strong password. You have up to 64 characters so use a whole sentence. A quote from a movie or a line of a song works well. If you want something shorter go for something purely random. 
+You can strengthen it further by using keyfiles. Any file that never changes can work as a key file. Now you adversary not only have to crack your password, but also has to know which files on your HD to give as key files. 
+It's overkill for most situations, but if you keep some home made MP3-files on a USB drive and use these for keys you have the dual protection of something you must have (USB key) plus something you must know (pass phrase). 
+
+If you live in a country where use of encryption is in itself illegal, or considered suspect do the following:
+* Use the hidden volume feature of truecrypt. This creates two volumes baked into one, with different passwords. If you are forced to reveal the password you can give out the one to the wrong volume. 
+(Where you have conveniently stored some embarrassing but perfectly legal Pr0n. What if you were to die suddenly and your mom got your computer! Plausible deniability).
+Another similar option, is to simply create another encrypted volume with some non-critical stuff in it. This gives you an easy out if someone asks why you are using an encryption program.
+
+* Hide the volume file itself. Give it a name and location that is similar to a TMP or system file like 'WINDOWS/Temp/~GH7876.tmp'. Given that the file itself doesn't advertise what it is finding it becomes very very hard. Many applications dump random stuff in tmp dirs. Another nice place is hidden folders beginning with $ in the WINDOWS dir. These are uninstallers for windows update, but they are almost never used. Be creative.
+I think this is better than keeping it on a separate medium like as CD (why did you burn a block of random numbers to CD, huh?). especially if you need to work on the files.
+
+* You can use TrueCrypt in 'traveler mode' which means you don't have to install the program itself. You can keep it on a CD or something. I find this awkward though. 
+
+Most of the above is overkill to me though. How far to take it is a trade-off between convenience and paranoia. But it's not illegal to use encryption in most of the world so there is no particular reason to obfuscate it. Better to be prepared with a good answer if someone asks. Either way, unless you have NSA on your ass, your adversaries will never get into your files without your pass-phrase.
+
+Help out by copying this text and spreading it around. Help people protect their privacy."
+,SuperHomme,2007-02-04T22:38Z,where do you find free clips with bilara FFF. I love her work. Keep up the good work you are doing
+,FatFuckFrank,2007-07-22T03:29Z,http://thepiratebay.org/user/FatFuckFrank
+,pitter223,2008-05-31T20:36Z,I watch movies from hentaithat. They have a chat box too. You can chat there while watching movies.
+,atluknipal,2009-05-26T01:15Z,"What the fuck? This is the worst quality I've ever seen on the net.. It's just a waste to share or download.. On top of all, the content of the crappy videos is pure shit too.. "

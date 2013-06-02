@@ -1,0 +1,82 @@
+ http://www.plextools.com/info/info.asp
+
+PlexTools Professional XL features:
+
+The GUI of PlexTools Professional XL consists of 3 independent windows:
+The device window contains the hardware device tree of the PC.
+The functions window shows all available functions for information of the drive or disc, the players and recording modules and the test functions.
+Both windows can be closed, leaving only the main window available.
+This window, where all devices and functions can be selected as well, will show the information and the test results.
+All 3 windows can be repositioned and resized independently.
+
+In order to facilitate the update process, PlexTools Professional XL has an option that allows the program to automatically check the drives' firmware for the latest version and update immediately if necessary. An internet connection to the PlexTools website is used for this function.
+No information besides the drive and firmware version is exchanged and the function can be disabled at any time.
+A similar routine is available to check the PlexTools software version.
+
+Following language packs are available for download: Dutch, French, German, Spanish, Portuguese, Italian, Russian.
+
+
+Optical Disc Drives
+
+    * Drive Functions
+          o Drive Information lists the drive's hardware, including serial number, firmware version and jumper settings, and shows the capabilities of the drive.
+          o Drive Settings controls the drive's adjustable parametres (basic and advanced). There is a separate page for VariRec, GigaRec, SecuRec and Silent Mode.
+    * Disc Functions
+          o Disc Info reveals extensive information about the inserted disc like format, sessions and tracks, manufacturer, CD TEXT, etc... and has a Disc Contents viewer.
+      Audio-related:
+          o Multimedia Player uses the installed MCI devices for playback of MIDI, Audio and Video files.
+          o AudioCD Player uses the installed MCI devices for playback of AudioCD's.
+          o Both the AudioCDMaker and Disc Extraction functions have been expanded with CueSheet support and extra options.
+          o Digital Extraction delivers high-precision WAV, MP3, OGG, WMA and APE files from audio tracks, with extra features like a choice of smart Advanced DAE Error Recovery Strategies, freedb support, and CD TEXT editing as well as ID3-tag editing when MP3 encoding.
+            For flexibility, external command-line encoders can be used, and also data tracks can be extracted to file.
+          o AudioCD Maker creates personalised Audio CD's from WAV, MP3, OGG, WMA and APE files, with editable CD TEXT or ID3-tag and freedb support.
+          o The AudioCD Player can now playback CD+G (KaraokeCD). CD+G tracks can be extracted in Disc Extraction and used to make a new CD+G by means of the AudioCD+G project in Disc Maker.
+      Recording-related:
+          o Disc Maker gives the opportunity to create standard CD-ROM's and DVD-ROM's by a simple Drag&Drop&Burn action. This handy function can be used for storage or backup of files and folders, as well as an easy way to transport data between computers.
+            The Disc Maker function has the option to load and save projects and a new DVD-Video project has been added that allows burning an existing DVD-Video image to disc.
+            MultiSession is supported for CD's and DVD's.
+            Overburning is supported on CD-R and also on DVD+R on some drives.
+          o Disc Copy for accurate CD and DVD duplicating with the capability to add CD TEXT or freedb information and even create or burn ISO images.
+            (Note: only discs without copy-protection can be copied.)
+          o Disc RW Functions erases CD-RW and DVD RW discs so data can again be written to them.
+          o The AudioCD Maker, Disc Maker and Disc Copy functions of PlexTools Professional XL have been enhanced with a powerful, automated Verify function. This allows the blank disc to be tested before writing, the data integrity to be checked after writing through 1:1 compare, low-level diagnostics to be run on the written disc and also allows all results to be compiled into a professional report without user- intervention.
+    * Diagnostic Functions
+          o The test functions have been updated with new, stylish graphical displays.
+          o CD/DVD Read Test scans your disc for uncorrectable errors and identifies potential read errors.
+          o Read Transfer Rate Test performs a sequential reading of all sectors on the disc while calculating the transfer rate at the same time.
+          o Write Transfer Rate Test performs a sequential write test while calculating the transfer rate at the same time.
+          o Q-Check C1/C2 Test measures the quality of a written or pressed disc by counting the number of low level errors.
+          o Q-Check FE/TE Test measures the mechanical characteristics of blank media.
+          o Q-Check Beta/Jitter Test shows the write quality by checking the jitter rate and the beta value of written media.
+          o Q-Check PI/PO Test measures the quality of a written or pressed disc by counting the number of raw data errors.
+          o Q-Check TA Test measures the quality of the written DVD media by checking the pits and lands for compliance with the DVD specifications.
+          o In the tradition of the Automated Verify function, the All-In-One Test can deliver the same functionality on existing media content.
+    * Other Functions
+          o Backup Maker offers the user a simple way to back up files and directories to disc. A programmable scheduler can start the backup projects on daily or weekly basis.
+
+Hard Disk Drives
+
+    * General
+          o Support for Hard Disks has started and will be expanded with more interesting functions in the future.
+    * Drive Functions
+          o Drive Information lists the drive's hardware, including serial number, firmware version, capacity, transfer mode and smart status.
+          o Drive settings controls the password protection function.
+    * Diagnostic Functions
+          o Sequential read test detects the read speed on the whole disk from beginning till end.
+          o Random Access read test shows the read speed when accessing random located sectors on the hard disk.
+    * Other Functions
+          o Backup Maker offers the user a simple way to back up files and directories to disc. A programmable scheduler can start the backup projects on daily or weekly basis.
+
+Video Devices
+
+    * General
+          o Support for Plextor Video Capture Devices PX-M402U and PX-TV402U.
+          o Video Preview with Full Scale and Full Screen mode.
+          o Programmable scheduler for capture tasks with support for Multi Video Capture.
+    * Device Functions
+          o Device Settings for Plextor Video Capture Devices to control video source, compression mode, resolution and bitrate, etc...
+    * Multimedia Functions
+          o Audio Capture: retrieves and saves the audiostream from Plextor Video Capture Devices to a file.
+          o Video Capture: streams AV from Plextor Video Capture Devices, Webcams and DV Cameras to the hard disk.
+          o Multi Video Capture: preview or capture from 4 video sources.
+

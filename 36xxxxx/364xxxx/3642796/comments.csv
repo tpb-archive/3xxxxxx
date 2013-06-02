@@ -1,0 +1,18 @@
+﻿User Type,Username,Date,Text
+,martis1002,2007-03-19T22:47Z,"Great upload ;)
+This is a must have codec.
+
+Very early release... you cant even buy it yet (only selected costomers gett it)"
+,m!g,2007-03-20T23:37Z,"please post contents of
+""HKEY_CURRENT_USER\Software\CoreCodec\CoreAVC Pro""
+branch of registry (basically serial/user data), it wont work without it"
+,heion,2007-03-21T02:29Z,How do you install this? I must be stupid...
+,christopherw,2007-03-21T03:28Z,"filter appears to be broken / corrupt, fails to register correctly and errors out nastily when I try to manually register it. Try 1.2 or use 1.6 pro."
+,m!g,2007-03-24T23:45Z,"1.6 pro? wtf there is no such thing so i assume it was a typo, 1.2.0.0 (nov 15) is latest working avilable
+the 1.3.0.0 is also a joke in terms of an update because no real bugs were fixed (according to changelog)
+and this is usless if we dont have mentioned registry branch or whatever they came up to enforce copyrights, well pfff we still have FREE ffdshow"
+,Osaka,2007-06-04T15:57Z,"To ""install"" the CoreAVC decoder, open MediaPlayerClassic (MPC), go to Options->External Filters->Add Filters->Browse...-> and locate the .ax file.
+
+Then set it to Prefer.
+
+Very simple."

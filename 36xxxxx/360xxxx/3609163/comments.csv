@@ -1,0 +1,146 @@
+﻿User Type,Username,Date,Text
+,sljuba,2007-02-02T13:57Z,Ok. But where is download for Vista Ultimate..... 
+,dudew8,2007-02-02T13:58Z,"LOL check filesize the original activation was on 1gig
+dont dl this!!!!!"
+,spok70,2007-02-02T14:30Z,"Hi, Thanks for sharing this crack it works perfectly!
+
+I have used this method that is more easy:
+
+1. Install Vista Ultimate
+
+2. Setup fully complete
+
+3. Open Command Prompt as Administrator 
+
+4. Type: ""Date"" and then change the date to December 31, 2099 
+
+   My Date showed as 02/02/2007, I changed  to 12/31/2099 
+
+5. Hit enter
+
+6. Type slmgr.vbs -rearm 
+
+7. Wait, then it will say to reboot (Don't) 
+
+8. Type Date again, and change your date back to the original, in my  case 02/02/2007. 
+
+9. Close Command Prompt 
+
+10. Run the VistaCrack.exe as administrator 
+
+11. Click Crack 
+
+12. Your system will reboot, and the crack should run on start-up. 
+
+13. Once it has finished, open command prompt and type: slmgr -dlv 
+
+14. If it works, you should have a pop-up saying ""Time Left: 43200 minutes (30 Days)
+"
+,Sangeki,2007-02-02T15:13Z,"Thanks, works just fine."
+,davenator,2007-02-02T23:55Z,"Works great, thx.
+
+dudew8......are you drunk?"
+,Josmuser,2007-02-03T09:49Z,any luck with the Retail?
+,clony_patcher,2007-02-03T12:23Z,"If you don't want to reinstall you version of Windows Vista you can try
+to use this method before to apply the patch and to test it.
+
+1_step:
+
+1. Open registry editor.
+
+2. Navigate to the following registry key:
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SL
+
+3. Edit the registry subkey of ?SkipRearm? (you should see current value as dword:00000000)
+   and set the ?SkipRearm? value to any positive integer (such as 1).
+
+4. Open command prompt with administrative rights.
+
+5. Type ?slmgr -rearm? or ?Rundll32 slc.dll,SLReArmWindows?.
+
+6. Restart computer. You should now has a fresh 30-day of trial period on Windows Vista, which
+   by end of 30-days time bomb, you can repeat the procedures again to skip Vista activation.
+
+Now you can follow the 2 and 3 step that you find in my zip file."
+,FuckCopyrights,2007-02-03T12:55Z,dudew8 is fucking kike
+[T],Robin86,2007-02-03T16:26Z,And you're a fucking sand nigger.
+,maxigawa,2007-02-03T18:51Z,yes this works with the retail version . thanks
+,Gunaa2,2007-02-03T18:54Z,will i be able to use windows update after installing the crack?
+,Darcwolf,2007-02-04T03:51Z,"@ Robin86
+
+You got a problem with arabs? GO FUCK YOURSELF! Im quarter arab and I don't have to sit behind a pc and talk shit about another nationality.
+
+Now thats out of the way...... Anyone got this crack to work with x64, it partially works on my pc, I just have to reboot the pc every few days and it resets the timer."
+,consall,2007-02-04T12:10Z,"
+med windows vista ultimate
+----------------
+
+om administatör
+
+1.skapa en genväg på ""Vista RTM Crack.exe"", 
+2 högerklicka på genväg ""Vista RTM Crack.exe""
+3 välj egenskaper - genväg-fliken - avancerat - kryssa för ""kör som administratör""
+
+----------------"
+,maxigawa,2007-02-04T15:03Z,"this works and you can use the windows update -but remember to install only the updates which have nothing to do with activation.
+ why after every restart does it say crack failed ?
+anyone have an answer ?
+but at least it still says 30 days left!
+ I seem to have had a few problems after instal ing this crack eg: programmes not starting up properly at start up ! 
+anyone else ?"
+,XweAponX,2007-02-04T20:06Z,"You fuckers can drop the fuckin racist talk, and tell me if this works or not? Any comment that says after reboot ""crack failed"" seems to say that this does notwork. Does it? Or skip ths and keep looking?"
+,layth_90,2007-02-04T22:57Z,"hej någon som kan hjälpa mig med att cracka det , snälla ? "
+,rambodan,2007-02-08T17:34Z,mine says 43197 mins 29 days after I've used the crack... does that matter? before I cracked i had about 12 days left.... should that be okay?
+,alias20,2007-02-09T03:11Z,"I am unable to get past step 6. I am logged on as admin with password, but I get a message: ""access denied, this action requires elevated privileges."" 
+How do I increase my privileges?"
+,jones8430,2007-02-10T10:43Z,"hi, i upgraded my xp with the windows anytime upgrade that came with my wifes new laptop,i then run the cmp crack listed above and it works fine, it say's that i have 3 days left to activate,(been like that for 10 days now,i have even updated it ,havnt come accross any activation updates yet thou,,
+i upgrade from xp mce to vista home premium
+hope this helps"
+,teme2,2007-02-11T14:23Z,finnish...... please
+,ÜberNabben,2007-02-11T22:54Z,"ive installed the crack, but if i try to turn my computer on without the Vista DVD it just says ""BOOTMGR is missing"". Why is that? "
+,nemanja.petrovic,2007-02-14T02:33Z,"hello everybody.please can anybody send me this rtm 2099 crack on my mail adress because my bit torent program never works when i try to download something.my adress is srbin_foreal@yahoo.com
+thanks very much, 
+nemanja from southern europe."
+,Kurpitsa,2007-02-14T12:44Z,"Is there anyway to set back the clock AFTER you've installed Vista? Just wondering, since i didn't have any problems until today when suddenly a small icon popped up at my taskbar saying i had only 25 days left (which doesn't make sense since i installed it at least 8-9 days ago), and i'm really starting to panic! I'm actually so sacred that i don't dare to turn of my computer :P 
+
+Thanks in advance"
+,clony_patcher,2007-02-14T18:01Z,"I suggest you to download the new version:
+
+http://thepiratebay.org/tor/3618299/Windows.Vista.All.Versions.x86.x64.Final.Crack-CLoNY
+
+Bye
+
+CLoNY"
+,Kurpitsa,2007-02-14T21:43Z,"Thanks a lot m8, works like a charm now! 
+
+Guess i can finally let the computer (and me) go to sleep :)"
+,clony_patcher,2007-03-04T21:28Z,"Good news for us!
+For x86 windows vista (32 bit) there is a new my crack that really activate your Vista.
+
+NO Timerstopper
+NO modify your Vista bootloader!
+
+http://thepiratebay.org/tor/3631799/Vista.All.x86.OneClick.Activator.4st.March-CLoNY
+
+If you have installed 'Windows.Vista.All.Versions.x86.x64.Final.Crack-CLoNY' 
+you can install the new one with no problem without fresh installation.
+
+If you have installed 'Windows.Vista.Crack.Activation.Beta.1-CLoNY' or
+'Windows.Vista.Crack.Activation.Beta.2' you can use Vista Manager Pro
+to rebuilt the bootloader and than you can apply the new one.
+
+Download the software:
+http://www.vistabootpro.org
+
+Guide:
+In Vista Manager Pro select 'BootLoader', select 'Reinstall the original bootloader'
+and then click 'Apply'.
+
+For x64 Windows Vista (64bit) I suggest, for now, to continue to use
+'Windows.Vista.All.Versions.x86.x64.Final.Crack-CLoNY'
+
+http://thepiratebay.org/tor/3618299/Windows.Vista.All.Versions.x86.x64.Final.Crack-CLoNY
+
+CLoNY"
+,dudew8,2007-11-13T23:27Z,"STFU U Cunts,wtf? im not drunk..im sure not a kike...and yes,im going to bed soon.....and im serious about the filesize on the original vista crack was on 1gig...cus u needed a big fucking program to trick the windows servers to activate the product.....so fuck off u dipshit fuck!"

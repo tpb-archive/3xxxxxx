@@ -1,0 +1,45 @@
+﻿User Type,Username,Date,Text
+,zarooch,2007-05-22T20:25Z,"hey guys, please seed this torrent for a while, I want to download this and the no. of seeders is falling, please seed for 48 more hrs... please! I'll seed it for a whole week, maybe on demand also, so please seed this for a while..."
+,dragon433,2007-05-23T14:44Z,"after  i run the program i get error about SHA.EXE entry point not found
+the procedure entry point_resetstkpflw could not be located in the dynamic link library msvcrt.dll"
+,dragon433,2007-05-23T15:42Z,83 times d loaded and no one seems to comment about it cd 2 works fine and cd3 cd 1 waste of time
+,zarooch,2007-05-23T19:14Z,damn! I got the same error! I wonder why nobody else has complained about it.
+,zarooch,2007-05-24T09:48Z,"alright people! for those who are having problem with msvcrt.dll file, I figured out a solution to that problem, either you can google it yourself or... 
+
+look here for a difficult way to solve the problem
+
+http://support.microsoft.com/kb/324762
+
+or do it the easy way, as:
+copy msvcrt.dll from C:\Windows\System32\
+
+and paste it [Drive_Where_You_Installed_Sierra]:\Sierra\
+
+and that's it! happy drawing :)"
+,zarooch,2007-05-24T09:51Z,"********** IMPORTANT CORRECTION **********
+
+file: msvcrt.dll
+
+copy the file from C:\Windows\System32\
+
+and past it in [DRIVE_WHERE_YOU_INSTALLED_SIERRA]:\\Sierra\SHA\
+
+and that's it."
+,dragon433,2007-05-24T13:04Z,"thanks mate works a treat 
+i was wondering how i can put the 3 iso images to 1 dvd and boot from there any ideas"
+,zarooch,2007-05-24T17:12Z,"well... you can use Nero and select its option to not to finalize disc after burning ISO image, then burn cd1.iso cd2.iso and finally cd3.iso (I haven't tried it, but it should work). Otherwise just burn cd1.iso cd2.iso and cd3.iso on the dvd (Data DVD) and use either Nero ImageDrive to mount the image or any of your preferred tool, hope this helps."
+,chris07s,2007-06-02T22:11Z,"Sorry guys have been on holiday for a week, i have not found any problems with installing the software but i have not burned it to CD yet.  so therefore i haven't come accross the error.
+
+Sorrry"
+,Tideri,2007-08-08T14:57Z,"Could anybody please seed?
+
+Is this program great for designing a garden, ...?
+
+Greetz and thanks"
+,Felicienne,2008-02-20T06:34Z,"Thank you so much Chris.
+In return a valuable tip:
+If after updatind msvcrt.dll your program works a while and then passes out, oleaut32.dll also needs updating. You might also consider retiring all the grand papa dlls if your program faints.
+Cheers"
+,joshlance,2011-04-11T12:51Z,"Hey there! Could anyone let me know what to do when it gives the same error on Windows Ultimate 7 x64. 
+I tried the .dll file copy thingy but now it says the application was unable to open correctly."
+,utpaljoshi123,2011-10-01T12:13Z,Please seed!

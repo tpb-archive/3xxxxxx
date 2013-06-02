@@ -1,0 +1,88 @@
+This script allows you to hide categories and unwanted content from the recent list on ThePirateBay.org. You can edit the scrip to suit your needs.
+
+Requires:
+
+FireFox - http://www.mozilla.com/en-US/firefox/
+GreaseMonkey - https://addons.mozilla.org/firefox/748/
+
+Here is the full script if you don't want to download the torrent:
+
+------------------------------------------------------------------------
+
+// ==UserScript==
+// @name          Customize Pirate Bay Recent List 1.0
+// @namespace     http://thepiratebay.org/customize
+// @description   Allows you to hide unwanted categories & listings on ThePirateBay.org recent list.
+// @include       http://thepiratebay.org/recent*
+// ==/UserScript==
+
+
+// ----------------------------------
+// BEGIN USER EDIT
+// ----------------------------------
+//
+// Fill the arrays with categories &
+// words you do not want to list. 
+//
+// Examples:
+//
+// var unwanted_categories = new Array( "501" , "502" , "503" , "504" , "599" );
+// var unwanted_titles = new Array( "porn" , "sex" );
+//
+
+var unwanted_categories = new Array( );
+
+var unwanted_titles = new Array( );
+
+// ----------------------------------
+// END USER EDIT
+// ----------------------------------
+
+
+var allItems = document.evaluate("//a[@title='More from this category']", document, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);
+for (var i = 0; i < allItems.snapshotLength; i++)
+{
+	var cat = allItems.snapshotItem(i).getAttribute("href");
+	var ok = true;
+
+	for (itm in unwanted_categories)
+	{
+		if( unwanted_categories[itm] != "" )
+		{
+			if( cat.indexOf(unwanted_categories[itm]) != -1 ) ok = false;
+		}
+	
+	}
+
+	if( ok == false )
+	{
+		var td = allItems.snapshotItem(i).parentNode;
+		var tr = td.parentNode;
+		tr.parentNode.removeChild(tr);
+	}
+}
+
+var allItems = document.evaluate("//a[starts-with(@title, 'Details for')]", document, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);
+for (var i = 0; i < allItems.snapshotLength; i++)
+{
+	var name = allItems.snapshotItem(i).getAttribute("href");
+	name = name.toLowerCase();
+	var ok = true;
+
+	for (itm in unwanted_titles)
+	{
+		if( unwanted_titles[itm] != "" )
+		{
+			if( name.indexOf(unwanted_titles[itm].toLowerCase()) != -1 ) ok = false;
+		}
+		
+	}
+
+	if( ok == false )
+	{
+		var td = allItems.snapshotItem(i).parentNode;
+		var tr = td.parentNode;
+		tr.parentNode.removeChild(tr);
+	}
+}
+

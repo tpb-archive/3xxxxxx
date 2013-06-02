@@ -1,0 +1,167 @@
+[MaNGOS] v2.0.12 The Burning Crusade Server
+
+
+FOR MORE INFO GOTO THIS LINK... 
+http://wowps.org/forum/showthread.php?t=712
+
+
+Hello all...
+
+I have just update my last repack to get a full v2.0.12 mangos TBC Server...
+The repack is currently using rev 3483...
+
+Here is the MaNGOS\'s Core Changelog... 
+http://www.mangosproject.org/ChangeLog.xml
+
+This is once again a hybrid repack from alot of servers...
+alot of kudos to the Project SilverMoon Team...
+without there pioneering work this repack wouldn\'t exist...
+and i have also included abit of my own work also..
+there are a total of 3,467 TBC maps now... and NO map errors...
+
+Also, if you have any suggestions and comments..
+Please feel free... as i\'m always looking to improve...
+
+KUDOS & CREDITS TO: 
+http://emupedia.com/forums/showthread.php?t=5285 
+http://emupedia.com/forums/showthread.php?t=3512 
+http://emupedia.com/forums/showthread.php?t=3389 
+http://www.gamerzplanet.net/forums/s...-t_103439.html 
+http://www.gamerzplanet.net/forums/s...d.php?p=646038
+
+
+
+---------------------------------------------------------------------
+MaNGOS TBC v2.0.12 SERVER F.A.Q.
+---------------------------------------------------------------------
+
+What client does this server support?
+You will need ONE of the following clients to access thie server...
+
+    * WoW TBC v2.0.10.6448
+    * WoW TBC v2.0.12.6546
+
+If you dont have a client... scroll to the bottom of this post...
+
+What do I need to run this server?
+You require a mySQL v5+ server and an apache websrver running...
+if you dont have either already... i would check out XAMPP...
+
+How do i install the SQL database?
+After all my SQL work... i have found SQLyog to be the best...
+Install the \"Community version\" so you have all the features enabled...
+After which you can open it and login to the SQL database...
+
+Are the new Teir 4 & Tier 5 & Tier 6 items included?
+I know the Tier 4 & Tier 5 & Tier 6 are now included...
+
+Are the all The Burning Crusade items, quests & etc. included?
+No... No... and No... Sorry guys.. There maybe a few...
+But... No one has made them all yet...
+
+Commonly found bugs?
+If you find a simple spell not working and / or items not working 100%...
+i am sorry but we cannot offer support for your issues...
+for the amount of data included in the repack is rather excessive...
+and i myself do not have the time to do this...
+
+---------------------------------------------------------------------
+MaNGOS TBC v2.0.12 INSTALLATION
+---------------------------------------------------------------------
+
+1.
+Download a copy of the MaNGOS TBC v2.0.12 [COMPLETE].rar to get everything you need in one hit...
+
+
+2.
+Extract the downloaded file into a directory...
+eg.. C:\\MaNGOS\\...
+OPTIONAL - Use the new TBC_ad.exe to create your own maps...
+
+3.
+Create 2 new databases in your SQL server...
+mangos_bc and realmd_bc...
+Import the 2 SQL files from the SQL folder into the appropriate databases...
+
+4.
+Modify the mangosd.conf... Do the same with realmd.conf...
+Code:
+
+# Database connection settings for the world server. # Default: hostname;port;username;password;database LoginDatabaseInfo = \"127.0.0.1;3306;USERNAME;PASSWORD;realmd_bc\" WorldDatabaseInfo = \"127.0.0.1;3306;USERNAME;PASSWORD;mangos_bc\"
+
+
+5.
+Run the restarter, MaNGOS.exe to start both server/daemons...
+BTW, while setting up your server test each of them individually...
+Using the appropriate ***.exe...
+
+6.
+Connect to the server with a compatible client...
+and dont forget to change your realmlist after the last update...
+
+
+
+INFORMATION:
+ok.. here is a little info... for all you boys and girls...
+
+Quote:
+
+Locations
+
+.tele outland dark portal - to get to the dark portal...
+.go -248.598190 964.617.249 84.336288 530 - NEW OUTLAND LOCATION...
+.go 120.438 1772.12 43.4402 568 - Zul\'Aman (instance in Ghostlands)
+.go 1154.43 165.231 313.603 37 - Azshara Crater Ally Entrance (BG in Azshara)
+.go 344.8 508.784 293.522 37 - Azshara Crater Horde Entrance (BG in Azshara)
+.go 2183.2463 1571.4164 1159.3687 566 - Eye of the Storm (New BG in BC)
+
+Flying Mount ID\'s
+
+ID\'s
+32240 Snowy Gryphon Mount
+37015 Swift Netherdrake
+32235 Golden Gryphon
+32239 Ebon Gryphon Mount
+32242 Swift Blue Gryphon
+32289 Swift Red Gryphon
+32290 Swift Green Gryphon
+32292 Swift Purple Gryphon
+33943 Flight Form
+32243 Tawnu Windrider
+32244 Blue Windrider
+32245 Green Windrider
+32246 Swift Red Windrider
+32295 Swift Green Windrider
+32296 Swift Yellow Windrider
+32297 Swift Purple Windrider
+32345 Phoenix
+
+Riding Skill ID\'s
+
+Skill\'s
+33388 - Apprentice Riding
+33391 - Journeyman Riding
+34090 - Expert Riding
+34091 - Artisan Riding
+
+Spell\'s
+33389 - Apprentice Riding
+33392 - Journeyman Riding
+34092 - Expert Riding
+34093 - Artisan Riding
+
+
+
+----------------------------------------------------------------
+TBC PUBLIC TEST SERVER DETAILS
+----------------------------------------------------------------
+
+Would u like to try b4 downloading?
+Check out DJRavine\'s Public TBC Test...
+Hosted by NADAsoft Inc
+
+Account Creation: NADAsoft WoW Server
+RealmList: stormwind.faction120.com
+
+
+This release was brought to you by those kind folks @ HTTP://WOWPS.ORG ...

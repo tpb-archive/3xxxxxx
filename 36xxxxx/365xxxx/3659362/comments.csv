@@ -1,0 +1,51 @@
+﻿User Type,Username,Date,Text
+,oldschoolie,2007-11-23T07:24Z,"Am I the only one having login problems?
+
+it asks me for a user name and password during setup, then after setup is completed, it doesn't let me in with the user name and password I gave. anybody else?"
+,oldschoolie,2007-11-23T20:25Z,"problem solved. it asks for an ADMINISTRATOR password during setup. so you must do your first login as administrator, then go in and change the way you login as administrator to make it more user friendly."
+,nawcom,2008-04-17T22:07Z,"This is nice. especially for people who run windows xp from a virtual machine (VMware Fusion for you Mac OS X people), or people who simple prefer other operating systems and only use windows for games.
+
+I installed this, and instead of the usual explorer.exe shell i  run evildesk - it feels like I'm running windows 2000 speed-wise.  I use it on a laptop, and an up-to-date computer, so it's not like windows xp was too slow. I just want more memory and more focus to go into the games, not the operating system. 
+
+Wanna see what evildesk looks like? here are a few screenshots and the url for it. its free, of course.
+http://www.nawcom.com/img/evildesk.jpg
+http://www.nawcom.com/img/evildesk2.jpg
+
+http://evildesk.netevil.org"
+,Liebo,2008-05-05T13:33Z,"Installed this on my PIII 600 laptop with 384mb RAM.
+
+Boots much quicker than XP Pro SP2 (clean install) on the same hardware.
+
+Administrator password I typed during setup wasn't accepted on login so used ERD Commander 2005 to reset it.
+
+To enable auto login or create other accounts, you can used ""Control userpasswords2"" from the Start - Run box."
+,n1nj4Lo,2008-06-03T08:31Z,"Also to get DirectX jus choose in optional components installation method where you choose what programs you want to install, So include windows media play, Thats how you get DirectX... 
+
+To successfully login and then get around entering the administrator and your usernames password, Jus download TweakUI from PowerToys for XP off microsofts website... Then fallow these steps... 
+
+Login as administrator with Password you entered 
+for your user name on install... 
+
+Then get around login everytime with: 
+start>control panel>administrator>local security settings 
+and under Local Policies>Security Options find Interactive logon: Do not require CTRL+ALT+DEL and set it to enabled. 
+
+Open TweakUI and then select login while in admin user account and click on the login menu and expand it's tree then click on Autologon and enter your password... 
+
+Now to get around the ugly logon screen jus download StyleXP or LogonStudio and choose a logon of your choice to download and bam you've successfully changed the logon, It's also possible to change the bootscreen as well"
+,n1nj4Lo,2008-06-03T08:33Z,"DO NOT Login as your username!!!!
+Login as adimistrator and type the password you entered for your username, I know it sounds funky but it works that way.. 
+IT'S JUS THAT SIMPLE"
+,ryuchao009,2008-08-17T04:03Z,lol now I find this. I had a 98mb pII 266mhz machine I just gave away. It might have been able to run this better than it did windows 2000. oh well ;)
+,mansoorz2003,2009-03-26T19:04Z,"doesn't work for me, setup.exe cannot run, anyone help"
+,siiix,2009-05-12T23:31Z,works great from a usbstick in a asus eee
+,protector2020,2009-07-04T04:04Z,"works just fine; faster than Windows 2000 SP4, with the security capabilities of XP and even themes.
+tx 4 tip about login as Administrator at 1st boot.
+
+mansoorz2003 -you need to boot up from cd"
+,0Raik,2010-09-06T08:10Z,"For all with problems with first setup (yeah, you oldschoolie) and all with the Login issue use your first login with:
+
+User name: ADMINISTRATOR
+Password: [the one you used in the setup]
+
+Done."

@@ -1,0 +1,245 @@
+﻿User Type,Username,Date,Text
+[T],wacko506,2007-05-22T10:41Z,Ok everyone leave comments and seed ill seed for a while
+,irontowngeek,2007-05-22T16:46Z,"Pretty much a dodo these days. Can't find good
+recent software or tools that will go back that far to make anything out of it.
+
+It does however make for a fast thin client running CygWin and the KDE Desktop port.(no bulk) I use it from my hack-box to connect to my Fedora Core6.(no bulk)
+IF you like the VM route,get the ""experience""
+version of Windows 2003.
+I run it as a VM under ZenWalk."
+[T],wacko506,2007-05-22T19:04Z,huh??
+,irontowngeek,2007-05-23T01:27Z,"Which ""huh"" are you refering to?"
+[T],wacko506,2007-05-23T11:52Z,lol im not too sure what you mean =-)
+,irontowngeek,2007-05-23T13:12Z,"I was refering to you using 98 with VirtualPC.
+
+I haven't tried Vpc out yet,I think you can still get it from MS >?
+
+I used 98  with VMware for Linux and kept it around for WINE,for the native *.dll's.
+CygWin is a Unix X server for Windows so I can run a few Unix apps on my Windows 2000 PC.
+without having to boot out of Windows into 
+Linux. I have WinLinux 2003 residing on the same drive.
+ZenWalk is a virtualized version of Linux.
+I found a Windows 2003 ""lean"" model on the
+""bay"". built by ""eXPerience"",that runs pretty
+good as a VM and fits my needs under
+VMware. 
+Most companies are phasing out 98 support,and
+limits its use down to ""play"" ware.
+I thought since you seem to be a gamer,you
+might want to try out a newer OS that has some ""fat"" trimmed down,to use with Virtual PC for
+the newer games.
+(I don't know your PC resources.)
+
+I wasn't trying to ""dis"" your upload,it was my
+point of reference in comparing  my use to your VM use.
+
+Regards.
+"
+[T],wacko506,2007-05-23T16:19Z,"ok thank you for clearing that up and i wanted to ask a question do you multiboot and if you do can you give me a rough idea how to im only 12 years old but im very computer knowhow i know how to build a computer what all the specs mean i was currntly trying to run mac 0sx tiger n like a multi boot i am donloading the thing where you copy the files and there but i dont want to completly  install just wanted to multiboot  i know like acronis disk director but every timee i try that i brek my cpmputer so if you can help please!!
+      Jack Docherty"
+[T],wacko506,2007-05-23T16:23Z,"ohh and m,y main os on my desktop is windows vista ultimite =-)"
+,irontowngeek,2007-05-23T16:55Z,"I'm not really familiar as a user with MAC X.
+It is however,Unix based.
+
+Give me a better idea or scenerio on what you
+want to try do,and I'll try to answer your question  if I can.
+
+First,try to answer these questions the best you
+can.
+
+Are you trying to run Windows or another OS other than in VM ? You want to install to HD.
+
+Did MAC X come with your PC and is it
+a full install edition? Can U upgrade from CD.
+
+Does MAC X take up all available space on
+HD?
+
+In my home scenerio,i could ""share"" my files
+with MAC X thru my Linux Box,using SAMBA.
+My Win 2000 has a 50 Gig mapped drive on my
+Fedora 6 PC. (to me,it looks local.) I have a
+network.
+
+You can send me an email if it is going to be
+lenghy.
+
+Regards
+
+irontongeek@yahoo.com"
+,irontowngeek,2007-05-23T17:10Z,"Your message can while I was answering your
+reply.
+
+You will need to get Partition Magic or a 
+Partitioning software that will split your 
+drive to make room for MAC X.
+Partition Magic will split NTFS or FAT 32 
+drives.
+Once you partition the drive to make 
+what ever size you allow,boot to the
+MAC X CD and follow the directions to
+the letter.
+The main thing is to use
+""available free space"" in any partitioning
+U do in MAC.
+
+The lettering will NOT look like it does in
+Windows.
+Linux uses;
+
+fd0 for first floppy drive
+hda for first hard drive.
+hda1,hda2,hda3,etc to represent different
+partitions.
+
+You will need to add the MAC X boot loader
+in the MBR.
+
+If this message breaks up and is
+un-readable,just e-mail and I'll attach a text
+file to give you some idea on what to expect.
+
+Regards."
+,irontowngeek,2007-05-23T17:20Z,"Yo.Wacko,
+
+Go do a key word search for ""pearPC"" on the
+bay,and you will find a program to run
+MAC X.
+From the discription,it installs directly to
+drive C: No partitioning.
+(similiar to my WinLinux2003)
+I'm going to download myself,just to try out.
+
+U can find it around page 10 to 11 on the
+board.
+Best of luck to U.
+
+
+Regards."
+[T],wacko506,2007-05-23T20:38Z,"thanks for the tip and ipreciate you tellling me i would very much like to keep contact with you, you let me know you getting on and how i am i will download pearpc and again thanks very much 
+            Jack Docherty"
+,irontowngeek,2007-05-24T08:45Z,"Glad I could help some.
+
+Always take the opportunity to learn new
+things,even if you ""crash and burn"" a few 
+times.
+That's how I learned,but there is enough
+info posted these days,U can learn more 
+than a person should.
+I do a little programming now and then,
+nothing to speak of,but enough to inspect 
+inside a few ""dodgie"" software posted.
+Keep a level head playing this ""game"",wish 
+you the best in your schooling.
+
+Mind your mama and stay out of the porn
+section.
+(ha!)
+
+Regards,
+
+Lars Bailey
+
+irontowngeek@yahoo.com"
+,adajad,2007-05-24T18:43Z,What language release is this?
+[T],wacko506,2007-05-24T20:46Z,this is english enjoy!!! seed seed seed!!!
+[T],wacko506,2007-05-24T20:48Z,ok thanks for that lars yeh i know dont worry about the porn.. umm do you have any requests of oses or applications i can put them up for  you and seed  
+,irontowngeek,2007-05-25T07:34Z,"Yeah,I'm going to post a neat little NAT/Proxy
+Server I found on the Web,called ComTunPro.
+Beats the hell out of setting up RRAS in Windows.
+If your upload gets some attention,I may build
+a RAR of some 98 compatible software gathering
+dust.
+Hell,I may go ahead and do it anyway.
+
+If anyone is interested in ComTunPro before
+hand its;
+
+www.linkbyte.com
+
+Rates real high with me :>)
+
+Regards"
+,irontowngeek,2007-05-25T07:37Z,"Oh,yeah,I had downloaded this version of 98
+before hand and I was going to re-seed but it
+was deleted from my bucket.
+I re-downloaded it so I will seed it for you.
+
+Cheers"
+[T],wacko506,2007-05-25T19:42Z,"hey thanks everyone who is seeding keep it up poeple  and does anyone have any upload requests?? bye!!!
+           Jack Docherty"
+[T],wacko506,2007-05-26T22:15Z,"ok heres the link to my windows 2000 http://thepiratebay.org/tor/3697566/Windows_2000_Proffessional_  
+
+it doesnt have internet explorer but just donwload mozilla or what ever umm im not sure with interenet but try if doesnt work tll me umm and about your question it is possible if your processor isent too powerfull if it is you will gte errors during setup but if its a week processor then yes if you have any problems let me know =-)
+
+                         Jack Docherty"
+[T],wacko506,2007-05-26T22:16Z,"i mean download an interenet client on a flash drive or some sort of storage device to use with 2000 and yo might need the driver CD good luck!! 
+             Jack Docherty"
+,irontowngeek,2007-05-27T15:48Z,"I think anyone who hasn't used Win2000,should
+download it.
+It was the only Windows version I liked till I became a Linux user.
+I have been out of the loop.finishing up a 
+dedicated server just for seeding.
+It runs 2000 Advanced Server,even though
+I have 2003.
+I can add my own ""goodies"" without"" having to
+disable all of Microsoft's B.S.
+
+Yo,wacko....
+What's VPC like? I have *.iso.
+Was thinking about installing.
+I installed PEARPC and it was different,to say
+the least.
+
+Regards."
+[T],wacko506,2007-05-28T02:28Z,"virtual PC for the comp is great you can pretty much run any microsoft os and any linux (i Think) not sure bout the intel macs if you have intel processor umm if you got at least 512MB of Ram and wont be running any really big os then go for it but if you have 1 gig your set for life its very user friendly easy to use so give it ago heres the link 
+
+http://www.microsoft.com/windows/products/winfamily/virtualpc/default.mspx
+
+ good luck 
+
+                   Jack Docherty"
+,gObE,2007-06-06T12:07Z,SEED!!!!
+,Montagnard6634,2007-06-06T15:20Z,"SEED please , i need just 2% more to finish the upload. : )"
+,DoddiLitli,2007-06-28T22:36Z,I can't get this to work with virtual pc 2007. Can you help me?
+[T],wacko506,2007-06-29T14:51Z,"Ok Whats the problem? what happens when you choose, capture iso does it not boot or did you burn it to a cd and use that? tell me what you done nd what happens"
+[T],wacko506,2007-06-29T14:52Z,if anyone has any upload requests or problems just email me at wackdoc@hotmail.co.uk
+,DoddiLitli,2007-06-30T12:23Z,"Well, it doesn't work when I capture the file with virtual pc. I reboot but the same message comes, that the program didn''t find anything and that I should do it again."
+[T],wacko506,2007-06-30T14:37Z,"im not too sure, the only thing i can think of is, you need to make a VHD Named windows 98 and where you select what os you will be doing click that windows98, the last thing mybe when you start the virtual machine tap del go into the virtual bios and check tha its set too first boot priority cd rom i dono try that if that dont work then i dont know."
+,DoddiLitli,2007-06-30T16:23Z,It doesn't work :(
+,Dexxus,2007-07-15T07:55Z,the product key doesn't work :\
+[T],wacko506,2007-07-19T21:23Z,the product key workd for me and all my friends....
+,robert266,2007-07-21T18:29Z,seed..
+,robert266,2007-07-21T19:48Z,"OK it does work in virtual pc 2007,,
+installation 33 % ;)
+
+first, make the UIF file a ISO file , with magic iso
+then make a new vhd,, capture the just maked iso file
+and start installation
+
+oh and don't worry that the setup is really formatting your C:\,,
+its just the virtual one ;)
+
+nice upload,,
+I'll see soon if the product key works.."
+,robert266,2007-07-21T20:10Z,key works
+[T],wacko506,2007-07-22T03:27Z,"yup told ya, thanks for the comment."
+,robert266,2007-07-22T10:47Z,np dude ;)
+,lala123,2007-08-20T12:40Z,"I've downloaded the  UIF file to my Mac. Now I want to burn it to a CD so I can use it with an old PC as I've lost my Windows 98 SE installer CD. Can someone explain how I get this onto a bootable CD from my Mac, please?"
+,steinlanguage,2007-08-20T22:22Z,Thanks! -Nick
+,ORBAT,2007-09-15T12:38Z,Can't any of you stupid bastards use ISO files like the rest of us and not some idiotic proprietary formats.
+,Placebonaut,2007-10-03T18:12Z,Isn't it ironic that .uif stands for UNIVERSAL image format? I wanted this for Virtual PC on my mac. Should've checked the file extension first! Now I have to download another windows os so I can put MagicISO on it and unzip this. 
+,hollowichigo256,2007-11-10T00:13Z,seed pls ppl  i need this  for a emergency computer problem 
+,hollowichigo256,2007-11-10T01:47Z,seed pls seed make download more then 2  kb
+,spiderjoy,2007-11-28T09:42Z,thanks my friend this is just what i was looking for
+,spiderjoy,2007-11-28T13:34Z,"hi jack, at the end of dl it say's : ""system cannot find file specified""
+what does it mean?? "
+,gurgel,2007-12-11T04:29Z,It means that your system cannot find the file specified.
+,gse7en,2008-02-16T23:57Z,""" ORBAT at 2007-09-15 12:38 CET:
+Can't any of you stupid bastards use ISO files like the rest of us and not some idiotic proprietary formats.
+""
+
+THIS."
+,modman3,2008-06-08T15:50Z,"the key does not work but, it is a good torrent"
+,neil101,2008-10-16T08:28Z,it works the torrent and the code works!!
+,s133t,2009-01-16T21:39Z,I didn't download this.. product key does works on a win98 SE.

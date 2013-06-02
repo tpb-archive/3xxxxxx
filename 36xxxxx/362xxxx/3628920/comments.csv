@@ -1,0 +1,13 @@
+﻿User Type,Username,Date,Text
+,elyk1212,2007-03-13T16:46Z,"DJ(tm), I will help you.  This is a development environment for programming C/C++ (or what ever other languages it may have compilers for...) for the xbox.  
+
+It produces X86 object code (as that is the architecture the xbox uses, if I am not mistaken)... but as the other fellow rudely said, if that doesn't make sense it may be a waste of your time.... right now anyhow.
+
+I would suggest learning about computer science, software engineering concepts, programming for embedded systems, etc.  I would start with by learning about the C programming language (but any programming concepts in general will help)
+
+It all really depends on what you know already. Once you learn basic C, you can mess around in embedded environments, like the xbox, with little troubles.  However, you must know about lower level concepts such as registers and things to be able to program for an embedded system (video game console).  This is due to many interrupts driven by setting certain bits in registers, as well as timers, and many other hardware details.  
+
+I have not done anything for Xbox, yet, but it is likely very similar to the many embedded systems I have done work on (GBA, microchip test boards,etc).  It is possible, that Microsoft has encapsulated lower level concepts, like register settings, with API calls.  So you may not have to worry too much.
+
+Let me know if that helps."
+,DARKSUPR3MACY,2010-05-19T21:22Z,Thanks for the upload man! :)

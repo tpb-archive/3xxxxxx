@@ -1,0 +1,73 @@
+﻿User Type,Username,Date,Text
+,therealduckie,2007-04-08T22:50Z,"Look, I appreciate you sharing this, but some info would be nice.  Like who compiled it, what is included, if it is an ISO, DMG, or Ghost image...etc.
+
+Details, man...DETAILS!"
+,bradfantin,2007-04-09T01:49Z,"also, how would u interact with it once its loaded up?"
+,DxQ,2007-04-09T06:08Z,"It's a .img file that you can restore to another disk. You boot OS X by holding down menu and minus at startup (if it's on an external). You will need to run ""sudo cleanup.sh"" after every bootup to keep it working (this will be fixed in another release). Username and password for everything is ""frontrow"". SSH and VNC are enabled by default so you can control if it if you are booting from an external (once again, username/password = frontrow).
+
+
+Good luck."
+,therealduckie,2007-04-09T17:02Z,Does the drive need to be blessed?  Is there a read me in this image?
+,garyz88,2007-04-10T15:44Z,"how to restore the *.img file to harddisk? Anyway, thousand thanks for your goodies"
+,rstwork,2007-04-13T11:24Z,"hello,
+
+Very thanks for this job  .. "
+,vilder,2007-04-13T18:38Z,"I tried the restore with dd if=osx.img of=/dev/sda bs=1024k , but apple tv does not boot from it with Menu and - pressed.
+
+What restore app do I need?"
+,garyz88,2007-04-17T17:05Z,"I also tried the restore with dd if=osx.img of=/dev/sda bs=1024k
+
+Never success... even applied DxQ aTVOSX_0416 patch..
+
+DxQ, any hints for us?"
+,hackmac78,2007-04-22T11:18Z,"- Format the Disk with GUID Partition ...
+
+- restore the *img file to the Disk ...
+
+change Partition Type ...
+
+1. Open Disk Utility
+2. Select the external disk from the left pane. Right click and select ""Information""
+3. Take note of the ""Disk Indentifier"". In my case, it is ""disk3"". For safety reasons, the rest of this guide is written with ""diskX"". Replace the X with the number of your drive.
+4. From Terminal:
+gpt -r show /dev/diskX
+5. You'll get something similar to this back:
+	start       size  index  contents
+          0          1         PMBR
+          1          1         Pri GPT header
+          2         32         Pri GPT table
+         34          6         
+         40     409600      1  GPT part - C12A7328-F81F-11D2-BA4B-00A0C93EC93B
+     409640   77757488      2  GPT part - 48465300-0000-11AA-AA11-00306543ECAC
+   78167128     262144         
+   78429272   77610032      3  GPT part - 48465300-0000-11AA-AA11-00306543ECAC
+  156039304     262151         
+  156301455         32         Sec GPT table
+  156301487          1         Sec GPT header  
+
+6. A little explanation here is in order. The first real partition is on the line beginning with 40. In this case, it runs from 40 through 409600. (I'm guessing these are bytes) Next to the size is the index, 1. The very next line is the one we are interested in. This is the partition that contains your bootable install. It is index 2. You may or may not have and index 3)
+
+7. Unmount the disk:
+disktool -u diskX
+
+8. Now, we remove the entry in the table for the 2nd partition
+gpt remove -i 2 /dev/diskX
+
+I got this back:
+gpt remove: /dev/disk3: 1 partition(s) removed
+
+9. Mac OS will remount any remaining partitions. Unmount them:
+disktool -u diskX
+
+10. Now, we add a new entry to the table. For index 2, take note of the start, and the size, as you'll need them here. Replace the START and SIZE strings with your values.
+
+gpt add -b START -s SIZE -i 2 -t ""5265636F-7665-11AA-AA11-00306543ECAC"" /dev/diskX
+
+Note that it doesn't tell you anything back.. You just get a prompt."
+,vadimr,2007-06-19T06:18Z,"This image sucks, it does absolutely nothing on an external drive. I tried every possible way, the partions structure is very odd and is not GUID and cannot be modified accordingly. It never boots off an external drive no matter how long u hold menu and the minus"
+,Froztizen,2007-07-21T01:03Z,Is the audio working?
+,Giggsy55,2008-04-03T01:53Z,"Think I'll just wait for a dmg or something.
+Wow what lot of pissinq about, just turn you're TV on!
+
+Don't know much about this app - Apple TV is new to me - is a US based app?"
+,perennial,2012-04-03T23:11Z,I just got one of these superbadass OG 1st Apple TVs (the best media center since Xbox1 when hacked it's amazing) and would absolutely LOVE it if any seeders could come outta the woodwork to help us new blood get these lost files like this and any other files! Viva ATV1! gracias por favor

@@ -1,0 +1,24 @@
+Miscellaneous
+TS Special Edition 3.1 Special Edition by Xam - Based off of sourcecode stolen from Tbdev.net 
+
+This is the UPDATED FIXED latest version of Xam's 3.1 TS source nulled by bind. 
+
+In this version Xam made a public announcement on his forums about my nulling his 3.0 source and in quote said "This version has "special" security and can not be modified." 
+
+Well 3 decrypted pages later here you go. 
+
+Heres a brief description: 
+
+If you've ever wanted to create your own torrent site, this guy Xam took an opensource project and on his website http://templateshares.net charges $45 dollars for this source. Source he basically stole from the people at Tbdev.net so now I'm returning the source back to the community I hope you all enjoy. 
+
+This source of his is in no way shape or form supported by the people at tbdev.net so if you have any problems with the installation don't go there asking questions as they will be promptly ignored. 
+
+I have nullified this script, it used to call home if you changed the version footer that no longer happens the function has been completely removed for your convenience. 
+
+BTW: for any of you programmers who are interested in seeing Xam's security implementations, I decoded the 3 encrypted files check them out. 
+
+admin/settings.php - where the callhome function is located. 
+admin/usergroups.php 
+include/config.php 
+
+Enjoy.

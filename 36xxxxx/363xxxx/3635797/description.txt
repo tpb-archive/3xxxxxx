@@ -1,0 +1,210 @@
+=== eComStation 2.0 beta 4 README ===
+
+!!! WHEN TESTING BETA SOFTWARE, ALWAYS BE SURE TO HAVE A TRIED AND TESTED 
+    BACK OF YOUR SYSTEM !!!
+
+Thank you for your interest in testing the latest beta of eComStation 2.0. 
+A great deal of effort has been made to improve the usefulness to the 
+product. Please see the 'WHATSNEW.TXT' document for an overview of all 
+changes.
+
+This product is available for download to all registered users of Software 
+Subscription Services for eComStation.  For more information, please 
+visit:  http://www.ecomstation.com/subscription/
+
+This beta offers a number of improvements that we would like to have tested
+on a larger number of configurations.  These are:
+
+** Preboot harddisk integrity check **
+
+There are several situations which may cause installation problems with LVM
+in the install process. In this Beta (4), it is possible to disable the 
+integrity check at page 2 (miscellaneous) of the eComStation installer 
+preboot menu.
+
+- PBR problems:  Set when either the 'hidden sectors' or the geometry fields 
+in a bootsector do not match the position of the partition or the used 
+disk-geometry.
+
+- CHS problems:  Set when the CHS-values in a partition-table for a 
+  partition do NOT match the current disk-geometry used by the operating 
+  system.  This may lead to error from (mini)LVM about the disk being 
+  'corrupt'.  Another possible cause for this error is that if there are 
+  any partitions present on a disk that have NO LVM information at all, 
+  and are of a type that gets a default driveletter assigned in that case 
+  (by OS2LVM.DMD/OS2DASD.CMD)
+
+- Boot problems:  Set when extended-containers are marked ACTIVE, when 
+  multiple primaries are marked ACTIVE, or if any non-standard flagbyte 
+  values are used in the partitiontable.  These errors MAY lead to the 
+  system failing to boot properly!
+
+These will now be detected before the installer starts and an option to fix
+them is being presented.  If you choose not to fix them, you are not able 
+to proceed the installation. 
+
+This technology uses a custom DFSee 'engine' and should be safe, however, 
+neither Serenity Systems International nor Fsys can be held liable for any 
+damages that may occur to the data on your harddrive.
+
+
+** Harddisk volume resizing **
+
+This beta has a custom DFSee engine that enables reliable RESIZING of FAT32 
+and NTFS filesystems to allow shrinking an existing Windows installation to 
+make room for eComStation on the same system.  While this functionality has 
+been available in DFSee (and the OEM Engine) for quite a while, it was NOT 
+considered reliable enough to offer to end users during eComStation install.  
+Starting with DFSee release 7.12, and the OEM Engine based on that, the 
+reliability of resizing has improved to the point where it can be used 
+without hesitation for this purpose.  A Windows NTFS filesystem resized by 
+DFSee will pass a subsequent Windows CHKDSK with NO ERRORS now. The engine 
+included in Beta 4 is at level 8.08.
+
+The GUI to this tool has been updated and is now using a graphical interface. 
+To invoke it, please select 'Paritition Resizing Tool' from the Installation 
+Volume Manager which can be called during installation (choose 'New Volume' 
+to start MiniLVM). It will take a while to complete loading, when done, 
+please select Next to show the list of resizable volumes. If the list is 
+empty, this means there is no suitable volume detected that has enough free 
+space for it to be resized.
+
+** Genmac **
+
+This package provides generic driver support for several network interface 
+cards under OS/2 and eComStation.  Moreover, Genmac is enabled to support WPA 
+encryption with the Wireless LAN Monitor 3.x or better.
+
+Genmac and the Wireless LAN monitor will be installed when the appropriate 
+hardware is detected by the installer.  If it is not detected, you can 
+manually select the driver in the network installation dialog.
+
+Note:  only the selected driver will be copied onto your system, in order to 
+prevent problems with the MPTS installer later on.  This may seem confusing, 
+when you run MPTS in a later stage, it will not show all Genmac supported 
+NICs.
+
+A full list of supported NIC chipsets can be found in 'WHATSNEW.TXT'. 
+Support has been added to autodetect the 284 NICs that are using one of 
+these chipsets.
+
+** ACPI & APM **
+
+Support for ACPI is available in this beta.  The current version is 2.18.  
+ACPI will be automatically enabled if appropriate hardware is detected. 
+You can manually enable or disable ACPI support at page 2 (miscellaneous) 
+of the eComStation installer preboot menu.  Even if not installed, the 
+corresponding documents are installed on your harddrive. You can find 
+detailed information and testdocuments in \ECS\DOC\ACPI and \ECS\DOC\APM
+
+Several tests can be performed, please refer to \ECS\DOC\ACPI\TESTER.DOC 
+and \ECS\DOC\APM\TESTER.DOC
+
+When ACPI is installed, there is a number of utilities from the ACPI 
+Toolkit you can use, see the list below:
+
+AcpiTree.exe            - Show ACPI tree
+ButtonJin.exe           - Wait press Power Button (as demon), GUI
+WaitButton.exe          - Wait press Power/Sleep button, VIO
+PowerOff.exe            - Power Off (immediate!!)
+SetGetThrtl.exe         - Get/Set throtlling CPU
+UpTime.exe              - Show uptime via PM Timer
+GetValue.exe            - Get current value from PM Timer
+AcpiIRQ.exe             - Show current IRQ routing
+IrqStat.exe             - Show IRQ calling statistics (SMP only)
+SetGetState.exe         - Get/Set frequency/power state
+EmbeddedEvent.exe       - Show events from Embedded controllers
+GetNotify.exe           - Show notify
+Thermal.exe             - Show temperature of thermal zone
+ScanPCI.exe             - Show PCI devices
+TmrTest.exe             - Test working of timer (testing IRQ0 timer 0)
+
+** multicore CPU support **
+
+This beta supports the installation of eComStation on a MultiCore CPU 
+computer. This includes Intel Core Duo , Core2 Duo and AMD 64 X2. To enable 
+this support, please select the appropriate feature in the installer 
+hardware page. It is listed under ACPI support, and you will have to select 
+what type of computer you are installing on. It is also possible to enter 
+your own parameters for the ACPI PSD driver, for more information on those 
+please refer to the document listed below. The SMP kernel will be installed 
+and activated immediately, when that is appropriate.
+
+Please note: many drivers are not SMP capable, which may cause instability 
+or unexpected behaviour on your system. For more information please refer 
+to \ECS\DOC\ACPI\ACPI_SMP.DOC
+
+** SMP support **
+
+It is also possible to install eComStation 2.0 Beta 4 on a regular SMP 
+machine. To do so, please select this option under "System and Kernel 
+Options" in the hardware page. This will *not* immediately install the SMP 
+kernel, you will have to activate it with the Post Installation Tasks 
+wizard that is started at the end of the installation. This should enable 
+you to properly finish installation, before activating the SMP feature.
+
+** eComStation Virtual File System (Samba client support) **
+
+Samba is a SMB/CIFS protocols file and print sharing server/client set 
+originally made for UNIX world to cooperate with corresponding Windows and 
+OS/2 servers or clients.  eComStation has a native implementation of 
+SMB/CIFS server/client set - IBM LAN Manager and IBM Peer.  These products 
+have not been recently updated and may have some compatibility issues with 
+modern Windows SMB/CIFS implementations.
+
+Serenity Systems International has reached an agreement with Blueprint 
+Software Works for the inclusion of the 'eComStation Virtual File System' 
+driver which provides support for Samba Client.  Currently a GUI to 
+configure it is lacking, but an example of how to mount a Samba resource 
+can be found in \ECS\DOC\EVFS\REXX
+
+** eSchemes **
+
+eSchemes version 1.37 is included in this Beta (4). This provides a new way 
+to configure the look and feel of the desktop.  eSchemes software is still 
+in development and may create stability issues for the user. Because of 
+this, eSchemes can only be installed with Advanced Installation, under 
+"Experimental Features". The option to select is "Interface customization".  
+
+Traditional "eStyler" functionality is lacking, for example the titlebar 
+customization.  Feedback on eSchemes is highly appreciated.  You can find 
+documentation on eSchemes in \ECS\DOC\ESCHEMES\. eSchemes can be applied 
+by rightclicking them from the Appearance folder and select 'apply scheme' 
+this wil take a while of diskactivity, but no progress indicator is shown.  
+After application you should reboot to enable the scheme entirely.  A 
+scheme can be edited after a doubleclick, but this functionality is not 
+implemented entirely.
+
+eSchemes' inclusion in the GA of eComStation 2.0 will be determined by 
+the end-user feedback from this Beta (4).
+
+== REPORTING ==
+
+To tell us your findings, please create a report at:
+ 
+http://www.ecomstation.com/support/beta4report/
+
+You are also welcome to join the TestTeam if you want to discuss this beta 
+and future developments.  See http://ewiki.ecomstation.nl/TestTeam for 
+more details.
+
+
+== DISTRIBUTION / CREATING CDS ==
+
+This product is provided as a downloadable ISO file, this is a raw CD image 
+that you can burn on CD-R media.  For instructions on burning the CD image 
+to CD please consult the PDF document howtoburncds.pdf in the same 
+directory.
+
+The file to download is:  ecs20beta4_cd1_en.zip
+
+
+== REGISTRATION KEY REQUIRED FOR INSTALLING ==
+
+For the time being you can use the eComStation 1.2 (or 1.2R) key to install 
+this beta release of eComStation 2.0.
+
+
+(c) 2001-2007 Serenity Systems International
+
+[eof]

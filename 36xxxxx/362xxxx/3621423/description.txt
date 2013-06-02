@@ -1,0 +1,39 @@
+A retrogamers dream come true - try Pocket C64 now for super-fast graphic and sound emulation - includes widescreen mode. VGA and Windows Mobile 5.0 now supported. Version 2.52 also includes a slight speed increase of version 2.50
+
+New Features in Pocket Commodore 64 :
+
+# BIOS roms BUILT-IN ! Choose from 7 Kernal ROMs and 2 disk ROMs !
+# Support for both NTSC and PAL timings.
+# Support for stereo sound.
+# Speed is now nearly 90% above PocketC64 v2.0, depending on the PocketPC model.
+# Full menus, keyboard and paddle controls in landscape mode.
+# Support for assigning the touchscreen to controllers (use the touchscreen as a fire button for landscape modes).
+# Customizable skins.
+# Settings saved in state files for games (individual game settings). This can be disabled in the settings, too.
+# Screen mode display can now controlled by a hardware button, or the touchscreen.
+# Screen can be turned off (LCD and backlight) for sound only use. This can be set in the settings as with the other screen modes.
+# On screen joystick controller for older iPAQ's in Portrait modes.
+# On screen paddle controller in all display modes.
+# Volume setting in preferences.
+# Four direction cursor control keys for easy cursor movement. These can also be set to the hardware controls.
+# More game compatibility.
+# User specified BIOS ROMS are also supported, enabled in the settings.
+# Built in speedometer (turn on/off in settings).
+# Expanded full screen modes for optimal display usage.
+# No leaks and no memory overwrites
+# MIPS versions are now much faster, but there are a few limitations: no stereo sound and sound is sampled at 11025Hz
+
+The list goes on ......
+
+# Support for .d64, .t64, .prg, .lnx, bas files and now .p00 and cartridges !!
+# Now with zipped rom support and paddle support
+# Multiple screen orientation/resolution support with auto-adjusting of joystick direction.
+# Fast access directory tree with expansion of virtual disks and autoloading of individual files from within virtual disks.
+# Full save/load emulator state support
+# Live adjustment of user preferences, including video color controls, speed, etc - see the effects as you make them!
+# Keypad to C64 Keyboard mapping !
+# Video (VIC) emulation: Very fast Line-based emulation, all display modes, sprites with collisions/priorities, DMA cycles, open borders, all $d011/$d016 effects.
+# Sound (SID) emulation: Real-time digital emulation (16 bit, 44.1kHz), including filters.
+# Full 6510 emulation: All undocumented opcodes, 100% correct decimal mode, instruction/cycle exact emulation.
+# Supports advanced programming tricks like FLI, FLD, DYCP, open borders, multiplexed sprites, timing dependent decoders, fast loaders etc.
+# True 1541 emulation for exact-sector access (Allows many copyprotected games to run)

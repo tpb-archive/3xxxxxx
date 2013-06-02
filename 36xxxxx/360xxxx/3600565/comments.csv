@@ -1,0 +1,53 @@
+﻿User Type,Username,Date,Text
+,blackd0g,2007-01-21T15:48Z,who wants to install Vista on a PC with only 256Mb of RAM?
+,thereleas0r,2007-01-21T16:11Z,"on 256mb ram vista would be so slow, you couldnt do anything with it. 2GB is recommended."
+,downloading king,2007-01-21T16:11Z,HOW HAS A COMPUTER WITH 256MB AND 2GHZ PROSSESOR
+,AiFiLTr0,2007-01-21T16:48Z,"I myself have a a 1.6 Ghz processor (overclocked to 2.0) and 256mb ram. (So I had to make the patch)  After installation and some tuning windows vista was quite usable, but... heh... still sucking to kubuntu (linux distro i use) so I wiped it after ten days of testing =)"
+,thomasnm,2007-01-21T17:11Z,"I got 3.4 Ghz - 2 mp RAm -- ....
+
+I wont a vista to my com . but were ? :P"
+,AiFiLTr0,2007-01-21T17:58Z,2thomasnm: search the torrents. if you don't find winvista distr0 here see btmon dot com or demonoid. They have for sure.
+,AiFiLTr0,2007-01-21T19:21Z,the dll displayed in the caption of the open file dialog. that should be in /sources dir.
+,AiFiLTr0,2007-01-21T20:14Z,Try copying the file to the sources dir.
+,AiFiLTr0,2007-01-21T20:16Z,"btw, have you copied the files to your hdd? If D:\ is your cdrom - the patch will ofcource complain"
+,AiFiLTr0,2007-01-21T20:45Z,"Copy THE WHOLE DISTRIB to your hdd to, say, C:\VISTADISTR\ and apply the patch to the winsetup.dll
+Now you can start installing it by executing C:\VISTADISTR\sources\setup.exe file. The install requires about 10gb of hdd space minimum, so make sure you partition your hdd properly beforehand not to mess up your WinXP or whatever installation. Good luck."
+[V],jnd,2007-01-22T01:09Z,"Excellent, so I can now finally install Vista even on my 128 MB machine?!"
+,Fast007,2007-01-22T02:11Z,"install vista on 128mb ram ?
+
+HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA"
+,AiFiLTr0,2007-01-22T13:23Z,P.S. I'm not sure about 128 mb ram... it was only working on my 256 without slowups after about 3 three hours of tuning. Without tuning it was kindof WinXP on pentium 3 with 64 ram =)
+,drsvenne,2007-01-22T17:57Z,"i have a computer with 256 Mb ram and 2 GHZ prossesor
+my ram is broken so
+no work and no mony to by new :-(
+shit"
+,drsvenne,2007-01-22T17:58Z,"LOL canÂ´t write 
+hm "
+,AiFiLTr0,2007-01-22T19:50Z,"[quote]
+LOL canÂ´t write
+hm
+[/quote]
+Yep sometimes it will complain. The patcher was made in quite a hurry, and I must have left a bug there: it won't apply the patch sometimes until you copy it to the folder, where the file to patch is: to sources dir. Sorry for that one guys - I've just noticed it myself."
+,hogballs,2007-01-24T02:47Z,sophos av sbe 2.0 - Mal/Packer detected
+,AiFiLTr0,2007-01-24T12:02Z,"I don't use sophos, but if you're curios i can tell you that I've packed this patch with WinUpack exe packager. So it's not a trojan. To make myself sure I checked with kaspersky on viruslist.com: 
+Scanned file:   vista_nomem.exe
+
+Statistics:
+Known viruses:	261284 	Updated:	24-01-2007
+File size (Kb):	86 	Virus bodies:	0
+Files:	1 	Warnings:	0
+Archives:	0 	Suspicious:	0
+So what's the fuss about ? =)"
+,AiFiLTr0,2007-01-24T12:06Z,"[quote]
+This torrent should have been placed in the
+Porn | Other | Hardcore Mazohism
+section...
+[/quote]
+If one will go setting vista ona 128 - that's hardcore. But on my 256 after some tuning it ran quite smoothly, though not for too long: crashed below any recovery upon instalation of alchohol 120%. bsod.. anyway, I'm quite happy with kubuntu, since with beryl's 3d desktop vista sucks even more =)"
+,-andres-,2007-02-03T17:41Z,"Hey mate, can you make a patch for the acpi 2.0 check that the vista installer does too? i think its on winsetup.dll too .. theres lots of people that can install vista cause of this .. :("
+,velezbb,2007-02-12T14:39Z,"Also looking for a patch to disable ACPI check. I've send a pm to AiFiLTr0, hopefully he will read it. Anyway -andres-, what makes you think that winsetup.dll does the ACPI check?"
+,drenqiqi,2007-03-14T00:58Z,Hey man how can I make this work for the bootable DVD version?
+,AiFiLTr0,2007-11-06T19:59Z,"Hi, all again. It took me some time to find my login and pass here. 
+I don't think I'll dig into acpi since after having som ""vista xperience"" one my new pc I decided to abandon the whole window platform. it sucks. sorry."
+,jap12214,2008-02-23T04:31Z,i get a errors
+,parokyanipao,2008-04-22T14:26Z,shit! SEED DUDES!

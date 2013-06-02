@@ -1,0 +1,67 @@
+AutoPatcher Fevereiro PT-Br update
+
+changelog:
+
+[quote]==============================
+ module inclusions
+==============================
+KB885626
+KB918118
+KB923723
+KB924667
+KB926436
+KB927779
+KB927802
+KB928090 (IE6)
+KB928090 (IE7)
+KB928255
+KB928843
+KB931836
+root cert update (18th jan 2007)
+==============================
+ module updates/fixes/changes
+==============================
+kb831240 - LCID_language for detection was 2070 and it should be 1046. fixed. but don't be surprised if this shows also not installed. it may be already installed with 2070 LCID (pt-pt) or any other LCID too.
+KB924191_MSXML3  - fixed detection
+MSXML4SP2 - fixed detection
+KB925876_RDC6 - ENU version replaced by PTB version released at 29th jan 2007
+Windows Live Messenger v8.1.0178.00
+==============================
+ modules removed
+==============================
+KB898458
+KB921398
+KB922616
+KB925454
+KB928089 - replaced by KB928090
+KB928388
+KB927544 - was in english and it wasn't running on a pt-br system due language issues.
+==============================
+ modules not included
+==============================
+google toolbar
+IE spell
+Windows Defender
+==============================
+ modules included in this version, but don't at english version
+==============================
+KB887472 - needed if you don't install windows messenger to 5.1
+winrar
+7zip
+unlocker
+KB928388 - windows update shows it also needed
+
+==============================
+ modules in foreign language (english)
+==============================
+eu font update
+WGA (it was in english and i forgot. sorry)[/quote]
+
+small issue regarding it: you may stay without foxit and winrar modules after update. booth version was freeware/shareware, so you just need manually download booth, if you wanna install it in a fresh machine.
+
+you need January full version to install this version. just choose "atualizar um release FULL"
+
+
+SAP: há uma questão menor envolvendo esta atualização: você pode acabar sem os módulos Foxit e Winrar após o update. ambas as versões eram freeware/shareware, então você só precisa baixar e instalar ambos manualmente, se deseja instalar eles em uma nova máquina.
+
+você precisa da versão completa de janeiro para instalar esta versão. apenas escolha "atualizar um release FULL"

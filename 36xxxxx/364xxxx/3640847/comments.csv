@@ -1,0 +1,95 @@
+﻿User Type,Username,Date,Text
+,[TR],2007-03-17T21:14Z,"Thanks GasGiver.
+
+I've had a problem with viewing pictures on the last 2 XBMC builds I've tried (one by you, another by Tech).
+When I zoom in a picture I can no longer go to the next or previous ones. It gets stuck on that picture and to change to another I have to press B and navigate to it. If I never zoom in I can navigate normally with the D-Pad or triggers.
+This didn't happen before and I don't know if it's something I can change in the options or just some bug. If it is a bug, is it fixed now?"
+,Bruket,2007-03-18T08:44Z,"Tack GasGiver, 
+Ska bli roligt att testa den nya ""Music playlist editor"""
+,aiks,2007-03-18T14:58Z,Fungerer denne på vanlig Xbox? eller er det bare Xbox360
+,zernox_swe,2007-03-18T15:29Z,Me like GASGiver!!! 
+,ZeNiTH_NL,2007-03-18T19:59Z,Tnx m8! Works great on my 5 year old Xbox
+,Tcip,2007-03-18T23:38Z,aiks - This is NOT for 360. 
+,dmc1281,2007-03-20T04:24Z,"Thanks for this.
+
+XBMC is the best media center.
+
+I do have one issue though, at some point it stopped allowing you to browse the internal hard drive. I still have a previous version and with that I can view the C-F drives on my X-Box. The past 2 months or so, I don't see that option.
+
+Keep up the good work though"
+,reconhead,2007-03-20T13:22Z,"YES!
+Gasgiver 4 President! :)"
+,[TR],2007-03-20T16:21Z,"@dmc1281: You probably have to edit the sources.xml file and add the paths for the HDD partitions, or I think there is a way of adding sources inside video/pictures/music modes. Press the White button or something and there should be an option for it.
+In future versions all you should have to do is copy your Userdata folder from the one release to the next."
+,supafly94,2007-03-20T23:42Z,how do you get it onto your xbox and i have a              evo x chip so will it work ???
+,0rr,2007-03-21T03:59Z,tcip: have you found any bugs up to now?
+,Tcip,2007-03-21T17:52Z,supafly94 - You need to tranfcer it with FTP
+,Tcip,2007-03-21T17:52Z,0rr - I have ben lacy. I have this on my computer. But not transferred it to my Xbox
+,karrakarra,2007-03-23T10:51Z,"Har böjat få problem med nyare ver av XBMC..
+
+med Qwix !
+
+Någon mera som det strula för ?
+Jag har inte provat denna ver ...
+"
+,gigante1,2007-03-23T22:51Z,"Har också problem med Quix.
+Men har en gammal release som jag startar den med från ""bios 2"", när jag för över ISOs.
+/ Gigante"
+,karrakarra,2007-03-24T10:28Z,Funkar Qwix mot på denna ver ???
+,karrakarra,2007-03-24T17:13Z,"Gick till baka till denna inga prob nu längre med Qwix !
+
+
+
+XBMC - XBOX Media Center 1.1.0
+                        Release Date...........09.Aug.2006
+                        Release Size................5x15MB
+                        Release Language.....Multilanguage
+                        Operating System...........M$-XBOX"
+,Tcip,2007-03-25T06:36Z,"karrakarra: Jag använder alltid FlashFXP. Qwix, Quix ska alltid göra det besvärligt för sig själv"
+,Nizerion,2007-03-25T10:35Z,"Thx, but where have all the scrips gone?
+I had to install an old version, because I could not find the scrips. ;-)"
+,karrakarra,2007-03-25T16:55Z,"Tcip
+
+Hur gör du när du läger in ett spel med FlashFXP ?
+
+Har alltid fundera på det men inte provat .."
+,Tcip,2007-03-27T05:17Z,karrakarra - Jag kommer att skriva en guide sen när jag har tid och orken till det... Men asså det är ju lika dant som att använda andra program ex Qwix. Dom alla använder samma teknik (ftp överföring). FlashFXP är ett ftp-program. Man skriver in ip-adressen till sin Xbox och lösenord och användarnamn (lösenordet och användarnamnet är xbox om du inte har rört i inställningarna). Sen är det klart
+,Tcip,2007-03-27T05:20Z,"1. Ladda ner denna torrent
+2. Packa upp torrenten
+3. Jag brukar döpa om mappen till år|månad|dag (ex: 070317)
+4. Öppna FlashFXP
+5. Anslut till Xboxen (vet du ip-adressen till xboxen?)
+6. Dra över mappen 070317 till den anslutna ""servern"" (xboxen då)
+7. Luta mig tillbaka =)"
+,karrakarra,2007-03-30T23:48Z,"Tackar !
+
+Tcip behöver du inte packa upp iso filen på pc först ?
+
+Tex. med xISO sedan skicka över det med ftp klient..
+
+Som du skrivet ..
+
+1. Ladda ner denna torrent 
+
+2. Packa upp torrenten 
+
+3. Jag brukar döpa om mappen till år|månad|dag (ex: 070317) 
+
+4. Öppna FlashFXP 
+
+5. Anslut till Xboxen (vet du ip-adressen till xboxen?) 
+
+6. Dra över mappen 070317 till den anslutna ""servern"" (xboxen då) 
+
+7. Luta mig tillbaka =)"
+,Tcip,2007-03-30T23:51Z,karrakarra: Det finns ingen iso fil med här.. Bara rar-filer
+,Tcip,2007-03-30T23:52Z,karrakarra: När det gäller spel så måste man oftast göra det. Men aldrig när det kommer till XBMC
+,0rr,2007-03-31T20:10Z,"""0rr - I have ben lacy. I have this on my computer. But not transferred it to my Xbox""
+
+Same here. I will try soon."
+,jilden,2007-04-01T13:13Z,"Hej!
+
+Kan det här mediacenter spela upp x264, även kallat h.264 eller AVC.Om det nu inte funkar vad kan jag ladda hem för något isåfall."
+,Tcip,2007-04-03T02:54Z,"rolleboal: Den kan spela alla mina filer (""snor"" dom ifrån b.la YouTube)"
+,Tcip,2007-04-03T02:55Z,0rr: there is a new out now. http://thepiratebay.org/tor/3653216/
+,Tcip,2007-04-03T02:56Z,jilden: Den kan spela upp allt som innehåller ljud och bild

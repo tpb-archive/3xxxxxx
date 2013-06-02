@@ -1,0 +1,79 @@
+
+
+BLOCKET_MONITOR V1.0.
+
+- Första versionen
+
+BLOCKET_MONITOR V1.1.
+
+- Du kan spara dina inställningar
+- Du kan testa din SMTP server (så slipper du vänta i evigheter)
+- Om blocketservern inte svarar så dödar den inte processen. (förut så återgick programmet i startläge) nu hammrar jag :-)
+- lite lusar kom till o några försvann.
+
+BLOCKET_MONITOR V1.2.
+
+- timern va fel i v1.1.  (Den gick på sekunder inte minuter) 
+
+BLOCKET_MONITOR V1.3.
+
+- Skickar nu HTML-mail med länkar till objekten.
+- Lägger sig i trayen
+
+BLOCKET_MONITOR V1.4.
+
+- indikerar med ett plus om det finns bild i annonsen och ett minus om det inte finns någon bild.
+
+BLOCKET_MONITOR V1.5.
+
+- Man kan välja ett max och min pris som filter för sökmotorn. Detta är en bättre funktion än blockets eftersom du kan på ?pengen? sätta gränsvärden. Om du skulle sätta ett minvärde större än maxvärde så 'resettas' allt till min:0 max 99.999.999 som är det maximala intervallet programmet kan hantera.
+
+BLOCKET MONITOR V1.6.
+
+- Jag fick lite förfrågningar om jag kunde implementera 'SMTP AUTH" så att man kan logga in på sin SMTP server. Har mekat till den kodan nu. Hör av dig om den inte funkar för jag har inte debuggat ijäl mig. o man måste göra en massa MIME, char alignment,  base64 o sånt tjaffs i SMTP AUTH.
+
+- Progget sparar nu även checkboxarna
+
+BLOCKET MONITOR V1.7.
+
+La till två önskemål. 
+
+- Man kan nu få progget att spela en WAV-fil när den har hittat det man söker. Du kan byta ut filen 'sound.wav' till det ljud du vill.
+
+- En knapp som testar om man kan nå blocketservern från den plats man befinner sig på.
+
+
+VAD ÄR DETTA?
+
+Ett litet program som jag slängde ihop för att monitorera det du söker på blocket. Jag satt själv o kollade på blocket när jag letade efter en sak. o guud va tråkigt det är. DÄM!!... Bättre att låta en agent ligga o söka det man vill o sedan få mail/SMS om det dyker upp. badabing badabong..
+
+INSTALLATION:
+
+Kopiera filerna i zipen till disken o kör blocket_monitor(ver).exe
+
+HANDHAVANDE:
+
+Gör en sökning på det du vill ha på blocket. Ta URL:en o kopiera in i programmet. Peta in din SMTP server o mail. Tryck sedan start så mailar progget dig när det är nått nytt som matchar dina krav. .
+
+Testa din mailserver genom att klicka på "testa mail". Vissa SMTP sevrer kräver användarnamn och lösenord. klicka då i boxen 'SMTP Login' och mata sedan in Användarnamn och läsen.
+
+EXTRAINFORMATION:
+
+*Om blocket uppdaterar mer än en websida med ny information så kommer du gå miste om det som är överskjutande en sida så att säga. (o jag kommer inte att fixa det om jag inte ser seriöst mycket pengar på mitt konto.. :-) )
+
+*Jag tror inte att blocketägarna är så himla glada om det är ett par hundra eller nått som ligger o hammrar deras servrar, så ha inte inte intervallet så kort. 10 minuter borde vara ok för även den tokigaste av alla blockomaner.
+
+*Vissa operatörer som t.ex TELE2. Där kan man ju maila sin mobil o få det som SMS om man nu vill. (det är så jag gör).. Då piper det till i telefonen om det man vill ha dyker upp på blocket.
+
+*Mailet som skickas till dig är taggat med "[blocket]" så använder du nån mailklient med inboxrewls eller liknande så kan du 'blinga' med nått fett script..
+
+VAD KOMMER I FRAMTIDEN:
+
+Ja vad vill du ska komma i nästa version? du kan ju maila mej eller nått. gdvatos@hotmail.com
+
+
+
+Hoppas att du har nytta av detta lilla hack. Vi hörs,
+
+
+/AN

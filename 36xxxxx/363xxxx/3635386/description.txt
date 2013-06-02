@@ -1,0 +1,27 @@
+Applications : Windows : English
+
+Windows 2003 SP2 R2, Media Center Edition (Codename Freestyle, Codename DotNet)
+Bootable DVD Image, En-US, x86 (1.893.818.368 bytes)
+v1.1, March 2007, by Dexter Inside
+
+After some work on the special setup routine, I have decided that Windows PE 1.6 is not suitable for deploying Windows XP/2003, so I rolled it back on Windows PE 1.2 (due to driver issues that were preventing people to install on certain mass storage devices). If yours is not supported, use F6 when first booting the DVD, as now it works fine.
+
+I have chosen to use the recovery functionality from Norton Ghost 10, but unfortunately Dynamic Disks are still not supported. Symantec Backup Exec 11d would have been better but the CD is full with security that I can\'t yet bypass.
+
+The setup routine, as well as an engineered piece of WIM ensures the deployment part. Compression is around 2.3 to 1. You will need at least 2644 Mb of free space on the target partition. It was taken from Codename Longhorn build 4074.
+
+Media Center 2005 rollup 2 is present and working smoothly. You can even use XP Media Center video drivers (remember to adjust acceleration from troubleshooting, as on Server 2003).
+
+I have tested Software RAID from Disk Management and it works very well. I\'d recommend you use it rather than custom made RAID drivers (like nForce). If you want performance, use RAID-0 (span stripe) for swap and RAID-1 (mirror) for windows partition. You will need 2 hard drives of any type, and to convert the windows partition to Dynamic after it is installed.
+
+Both Windows Product Activation (WPA) data for Server 2003 Enterprise and XP Media Center 2005 is present in registry, and the provided evaluation key is Genuine (it should remain so for at least 18 months). Be careful if changing the serial key after windows is installed, as it might restrict existing functionality.
+
+Server components can be installed either through Manage My Server wizard, or using Add/Remove Windows Components. None of them will make problems when used together with Media Center. R2 is preinstalled, and Diskeeper 10 Server Enterprise is configured to auto-defrag the system partition when required.
+
+Internet Explorer 7 will most likely not work properly on this build of windows, so it\'s better not to try to install it.
+
+Windows Media Player 11 and URGE should function well, even if you install Streaming Media Services on the server.
+
+TweakNT is provided in All Programs -> Extras, in case you can\'t install certain programs. You will not have problems converting it to XP Professional and back as many times as you need it. A registry backup is made each time.
+
+Enjoy!

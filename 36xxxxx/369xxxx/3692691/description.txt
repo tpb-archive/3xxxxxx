@@ -1,0 +1,33 @@
+[b]IBM┬« Rational┬« Rose┬« Enterprise provides a common modeling language for enabling faster creation of quality software[/b]
+
+It offers a modeling environment that supports code generation from models in Ada, ANSI C++, C++, CORBA, Java?/J2EE?, Visual C++┬« and Visual Basic┬«.
+
+* Includes Unified Modeling Language? (UML?) support and is one of the most comprehensive products in the Rational Rose family
+* Supports Analysis, ANSI C++, Rose J and Visual C++ patterns, Enterprise JavaBeans? 2.0, and forward and/or reverse engineering for some of the most common Java 1.5 constructs
+* Offers code quality analysis abilities and code generation, with configurable model-to-code synchronization capabilities, as well as more granular management and use of models with the separately controllable model components feature
+* Integrates with other IBM Rational lifecycle development tools as well as any SCC-compliant version control system, including IBM Rational ClearCase┬«
+* Includes a Web Modeling Add-In, which provides visualization, modeling and tools for developing Web applications
+* ? Provides UML modeling for database designs, with the ability to represent the integration of data and application requirements through logical and physical designs
+* Creates XML document type definitions (DTD) for use in your application
+* Operating systems supported: Windows
+
+
+[b]System Requiriments[/b]
+[b][i]Operating Systems:[/i][/b] Windows 98 SE, Windows ME, Windows NT 4.0 - Service Pack 6, Windows 2000 - Service Pack 1, Windows XP Professional, Windows XP
+
+[b][i]Hardware Requirements:[/i][/b] Pentium-based 300 MHz minimum, 600 MHz recommended, PC-compatible computer system
+128 MB memory minimum, 256 MB memory recommended
+[u]Note:[/u] Memory requirements increase with the size of the Rose model. 
+500 MB disk space (230 to run Rose, 270 to download/install) 
+
+
+[b][i][u]Install notes[/u][/i][/b]
+1) Run the setup, and choose install before licensing.
+2) Put rational_server_perm.dat in C:Program FilesRationalCommon (or wherever you installed)
+3) Enjoy!
+
+NOTE:  On some machines, the installer wouldn't copy "suite objects.dll" and  licensing.dll"
+If this happened to you, copy those files manually to your Windows System directory.
+
+Uploaded by TonhaoSemAcento
+Keep Sharing

@@ -1,0 +1,38 @@
+Known Issues:
+- Installing and running localized languages is not recommended at this time
+- MacBuddy may not run after installation. Rebooting will launch MacBuddy
+- Using the \\\'Open\\\' command may cause longer opening times
+- NFS mounted files cannot be accessed
+- iSync\\\'s plug-in maker requires CFBundleIdentifiers to be unique per plugin to avoid corruption when multiple plug-ins are installed
+- Heavy paging may result in zeros being written to the address space
+- User cannot copy text from applications launched via SSH
+- Disconnecting from your network while connected to servers may hang your machine
+- Syncing calendars through iSync does not work at this time
+- A system panic may occur with ATI cards while running QuickTime Player with iChat and Preview
+- \\\'Add Printer\\\' dialog appears behind frontmost windows
+- QuickLook\\\'s full screen mode may not quit in certain situations
+- Unable to restore from Time Machine backups created in MacBuddy
+- Application Launch Restrictions in Parental Controls not being enforced at this time
+- User cannot install the Adobe Suite
+- Cannot enable accounts for Windows Sharing
+- Finder may quit in certain situations when using the Cmd-Tab keys
+- Terminal: Ctrl-Space does not send any data to the shell which may cause issues with the mark in Emacs
+- Terminal: Performance with millions of lines of text is currently limited
+- Upgrades from the WWDC Developer Seed are not supported
+- Upgrades from previous releases are not recommended
+
+Changes in Leopard Since 9A321
+- HIToolbox provides new HIRect/Point/Shape-based Window Manager API for resolution independence compatibility
+
+Terminal:
+Settings are now stored in Terminal \\\"Profiles\\\" rather than .term files. There are two ways old .term settings are migrated to the new Terminal:
+- Automatic import of default .term file and terminal settings at the first launch 
+- Importing of arbitrary .term files other than your default one
+After migrating settings a new Terminal window will open and you should save the window settings as new profiles using Shell->Save Profile
+
+- Tab support
+- Terminal now lets you save a multi-window configurations through workspaces which are available through the \\\"Terminal\\\" menu.
+
+QuickLook
+- QuickLook APIs have been updated
+- quicklookd can be used to test your QuickLook generators. Use \\\"quicklookd -h\\\" to see the list of options.

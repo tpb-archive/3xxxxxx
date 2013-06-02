@@ -1,0 +1,19 @@
+Adobe Fireworks CS3 netgraffiti Logo Fix - proper
+-------------------------------------------------
+
+This package removes the "netgraffiti" logos of some myspace youngsters at the
+Adobe Fireworks CS 3 package.
+
+Unlike a manual correction released a few days ago, this one uses the *original*
+files extracted from the Adobe Creative Suite 3 Web Premium Package
+
+
+HOWTO:
+
+replace "Fireworks Resources.dll" at
+C:/Program Files/Adobe/Adobe Fireworks CS3/English/resources/
+
+replace "banner.png" at
+C:/Program Files/Adobe/Adobe Fireworks CS3/English/Movies/resources/images
+
+(or whatever your installation folder is)

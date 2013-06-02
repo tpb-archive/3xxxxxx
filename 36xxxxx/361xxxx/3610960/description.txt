@@ -1,0 +1,21 @@
+This is My Revised version of RipIT4Me
+In the zip file are two versions a install version 
+which just copies the files to C:program files and makes shortcuts
+and a NON INSTALL version to just place on the desktop and run
+
+installer changes
+1.the installer now DOES NOT copy shortcut.exe to your system
+(I am assuming this is what everyone was crying about)
+2. the installer now uses messagebox.exe to prompt the user
+   the installer DOES NOT copy messagebox.exe to your system
+
+OK if you don't want the shortcuts DON'T use the installer.
+
+The installer places shortcuts to the following locations
+
+C:documents and settingsall usersstart menuprogramsRipIt4Me
+C:documents and settingsall usersdesktop
+
+the installer copies the files to C:Program filesRipIt4Me
+the uninstaller is available from the start menu and in 
+C:Program filesRipIt4Meuninstall.

@@ -1,0 +1,34 @@
+IsoBuster is an award winning , highly specialized and easy to use CD and DVD data recovery tool. It supports all CD and DVD formats and all common CD and DVD file-systems... Rescue lost files from a bad or trashed CD or DVD disc, save important documents, precious pictures, video from the family, your only system backup, ...
+ Start up IsoBuster, Insert a CD or DVD, select the drive (if not selected already) and let IsoBuster mount the media. IsoBuster immediately shows you all the tracks and sessions located on the media, combined with all file-systems that are present. This way you get easy access, just like explorer, to all the files and folders per file-system. Instead of being limited to one file-system that the OS picks for you, you have access to "the complete picture". Access data from older sessions, access data that your OS (e.g. Windows) does not see or hides from you etc. 
+ 
+ Changes in version 2.0:
+ - BD (Blu Ray) and HD DVD support.
+ - UDF 2.6.
+ - Implemented the ability to use other system installed code pages, such as MAC, SYMBOL, UTF8 etc., for ISO9660.
+ - Properties for drives show, next to CD and DVD, also BD and HD DVD Read and Write capabilities.
+ - Installation and IsoBuster.exe are now code signed to make Windows (more or less) happy.
+ - Implemented ASynchronous Drag and Drop (file extraction) on VISTA systems to avoid the VISTA over-write dialogue to become stuck under the IsoBuster window, which looks like a hang, but it isn't.
+ - VISTA style directory icons when ran on a VISTA system.
+ - Start with font Tahoma on XP or Segoe UI on VISTA.
+ - Smaller changes here and there.
+ 
+ Improvements:
+ - Default to SPTI on a VISTA system, even when the app is not running in admin mode.
+ - Now possible to drag files immediately to the XP writer drive letter (staging area)
+ - HTML help would not launch on VISTA due to OS changes. This is now correctly implemented.
+ - On VISTA the Panel with image-file-name was often not properly painted. Changed the Panel with a another Windows component.
+ - File-extension associations setting in the installer now improved with 'set all', 'clear all' buttons.
+ - HFS(+) Mac File System, with multiple of 512 byte blocks support.
+ - Cut long boot image-file name to spec value (if not delimited by terminating zero) to avoid illegal filename according to Windows.
+ - Improvements in the file-type-recognition code (files found based on their signature): *.qt, *.kbf
+ - Added *.VRO to the file-type list that gets the dialogue that also offers to replace with all zeroes on read errors.
+ - Directory (Folder) names are now ALWAYS trimmed on the right side, if the file-system contains such folder names. Windows cannot create a folder name with a trailing blank, so file extractions to that folder would fail.
+ - Release SPTI handle immediately of all non-optical devices. No reason to keep it open during program execution.
+ - Do not automatically suggest to create an IBP/IBQ file anymore if the "drive" is in fact an image file ! (any image file).
+ - Properties' dialogues for files and folders now show the attributes (A,R,S,H,C)
+ - Various small improvements here and there.
+ 
+ Fixes:
+ - In certain situations, with certain DVD discs, on certain DVD drives, not all sessions were seen. This is now fixed in the new CD/DVD recognition engine.
+ - Fix in Boot Emulation size determination. Before, the actual amount of 512 byte blocks was not correctly taken in account. In real life however the implementation was correctly dealing with most situations out there.
+ - Fixed that +VR recording-sizes were wrapped when the recording is larger than 4 GB

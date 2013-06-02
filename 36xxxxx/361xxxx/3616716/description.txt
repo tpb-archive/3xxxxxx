@@ -1,0 +1,41 @@
+Install Windows Vista Ultimate edition (or other edition) without product key.
+Windows Vista needs to be applied with 2099-ReArm trick, so that the counter of minutes to no activation required period will not return to normal after reboot. Click on Start Orb button.
+Select ôAll Programsö, then ôAccessoriesö.
+Right click on ôCommand Prompt, then select ôRun as Administrator (A)ö.
+If User Account Control (UAC) prompt a warning message, click on ôContinueö.
+In the command prompt, type date and press Enter. You will see the following: 
+
+Microsoft Windows [Version 6.0.6000]
+Copyright (c) 2006 Microsoft Corporation. All rights reserved. 
+
+C:Windowssystem32>date
+Current date: 12/19/2006 Thursday
+Enter new date: 
+Enter 12/31/2099 (December 31, 2099).
+Next, type cscript slmgr.vbs -rearm. You will see something like the following: 
+
+C:Windowssystem32>cscript slmgr.vbs -rearm
+Microsoft (R) Windows Script Host Version 5.7
+Copyright (C) Microsoft Corporation. All rights reserved. 
+
+The command completed successfully.
+To make the change effectively, please restart the system. 
+Then reset the date of the system to current date again by typing date again. You will see the following: 
+
+Microsoft Windows [Version 6.0.6000]
+Copyright (c) 2006 Microsoft Corporation. All rights reserved. 
+
+C:Windowssystem32>date
+Current date: 12/31/2099 Thursday
+Enter new date: 
+Type in current date, i.e. 12/19/2006.
+Exit from command prompt, but do not restart the computer.
+Download StopTimer.zip, StopTimer.zip, StopTimer.zip or StopTimer.zip torrent.
+Extract the downloaded archive file into a folder. It should contains ôVista test crack.exeö and ôtimerstop.sysö.
+Execute or run the ôVista test crack.exeö by right click on ôVista test crack.exeö, and select ôRun as Administrator (A)ö.
+Optional: Press in Test button, and it will pop up a message says 4 timers are stopped. At this time, the counter should be freezed, Check with slmgr.vbs -dlv command, with the minutes left should be the same after a few minutes interval. If itÆs the case, continue with the following steps to run the crack every startup.
+In the Vista test crack window, click on ôInstallö button. You will be prompted with ôService installedö message if everything is done properly and correctly. The crack will copy the patched stoptimer.sys to system folder and install a new service named ôtimerstopö to stop kernel-mode timers in spsys.sys system file.
+Exit from the crack, and restart the computer.
+The hacking is basically done. Next few steps to to verify that the activation grace period built-in countdown timer is actually stopped and disable the timers from working properly, and make sure that the crack is installed properly. After restart, log on to Windows Vista. Run for a few minutes.
+Press on Windows + R keys.
+Type slmgr.vbs -dlv to check the time left to activate Windows Vista. If the time left is 43200 minutes thatÆs mean the crack is successful.

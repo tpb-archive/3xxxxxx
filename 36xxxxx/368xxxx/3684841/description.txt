@@ -1,0 +1,48 @@
+This is a custom made DragonFly BSD 1.8.1/i386 Live and install CD
+
+It differs from the official release as it contains:
+* DragonFly user manual
+* Full sources
+* DragonFly logotype images
+
+How to burn this CD:
+1. Unpack DragonFly_BSD-1.8.1.iso.bz2
+   You may use 7-zip (www.7-zip.org) on the Windows platform
+2. Burn DragonFly_BSD-1.8.1.iso with your favourite CD burning program.
+3. Boot from the CD
+
+Compressed BZ2 file size: 164880144 bytes
+MD5 (DragonFly_BSD-1.8.1.iso.bz2) = 07330366cae8ce0bb19b4e81762bd8af
+MD5 (DragonFly_BSD-1.8.1.iso) = 75dc565e0ae0ecaaf67d687e46e52915
+
+CD root contents (see ls-alR in CD root directory for full listing):
+---
+.cshrc
+.profile
+00_DragonFly-1.8.1
+01_20070509
+03
+04_Documentation/
+05_Logo_images/
+06_Source/
+07
+COPYRIGHT
+README
+README.USB
+bin/
+boot/
+dev/
+etc/
+etc.hdd/
+kernel
+kernel.BOOTP
+ls-alR
+mnt/
+modules/
+proc/
+root/
+sbin/
+sys/
+tmp/
+usr/
+var/

@@ -1,0 +1,10 @@
+these are three bootable cdrom iso image files with ghost 11.0 for dos.
+Please read the read me text.Ghost will back up linux partitions also
+even though I have only done an ext2 system.
+1 Multi boot manual everything means you use the ghost gui for everything
+ this version can not make bootable images.
+2 multi boot standard makes bootable CD DVD images and I made a restore menu item
+  that can grabs your image from the CD DVD and automatically starts the restore  process you can also do it manually.
+3 single boot just like #1 this can not make bootable images.
+1 and 3 use eltorito.sys cdrom driver that even works on the newer sata DVD drives
+2 uses a standard oakcdrom type driver.

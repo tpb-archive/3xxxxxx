@@ -1,0 +1,34 @@
+﻿User Type,Username,Date,Text
+,elyk1212,2007-02-11T17:37Z,Anyone know the difference between the GasGiver version and the normal XBMC from cvs?
+,R00RMONG3R,2007-02-12T07:42Z,"@GasGiver
+
+It would be cool if you included my skin in with your releases. It is xTV, an Apple TV replica. You can find it in the XBMC Skinning Project found in Sourceforge.
+
+I would really like to see it get to more people.
+"
+,Tcip,2007-02-12T21:32Z,The weather works in this. 
+[V],Qadmin,2007-02-12T23:10Z,How do I upgrade my xmc from v2 to this later version?
+,elyk1212,2007-02-13T08:50Z,"Thanks for the info!
+
+@Qadmin 
+Just drop it in your apps folder, and you can create a link to the new application from your setup file.  Provided you are using EvoX, it would be evox.ini.. it is added in the clause Root, example:
+
+Section ""Root""
+{
+....
+        Item ""Xbox Media Center - XBMC"",""f:\Apps\XBMC\default.xbe""
+        Item ""Xbox Media Center - XBMC (rev7731)"",""f:\Apps\XBMC_rev7731\default.xbe""
+.....
+}
+
+Notice I left the old one there.  I always leave the original in case there is a setup issue with the new one, or if it is ever a bad build for me."
+,elyk1212,2007-02-13T08:51Z,"BTW, please take note of my App path in the ini example.  That will be the default for my distro of EvoX (and likely many others)."
+,elyk1212,2007-02-13T08:53Z,"Although, that isn't really an ""upgrade"" method, but the cleanest way to do things is a new install with its own config files.  No telling how new builds do their parsing and what directives are deprecated... etc."
+,Tcip,2007-02-13T14:37Z,Qadmin - Upload this and delete the old one
+,g54pcys,2007-02-14T14:12Z,"Thanks again GasGiver. I agree, these are the best XBMC releases. Hope you make one for MC360 v1.0 when it's out (16 Feb I think)."
+,GasGiver4711,2007-02-15T13:07Z,"R00RMONG3R:
+Could u give me an exact path i can throw at Tortoise SVN / CVS ? so i can have a look at it :-)"
+,afour98,2007-02-16T01:40Z,"https://svn.sourceforge.net/svnroot/xboxmediacenter/xTV
+
+I'm hooked on xTv. Great job R00RMONG3R"
+,R00RMONG3R,2007-02-16T06:29Z,"Thanks. I have spent alot of time coding it, and I am still hard at work everyday smashing bugs and making improvements. If you do use the skin you should update often as I am fixing things daily."

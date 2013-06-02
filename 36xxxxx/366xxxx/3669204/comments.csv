@@ -1,0 +1,96 @@
+﻿User Type,Username,Date,Text
+,speedx008,2007-04-21T18:00Z,"Title....: Terminator 3: Rise of the Machines
+Genres...: Action, Adventure, Sci, Thriller
+Year.....: 2003
+Rating...: 6.8/10 with 50,671 ratings
+Plot.....: More than 10 years after 'Terminator 2', John Connor now exists only as a drifter - living 'off the grid', so no more Terminators from the future can hunt him down. Unfortunately, SkyNet does send another one back - and this one is called the T-X, even more powerful & advanced than the dreaded T-1000. However, another CSM-101 Terminator is also sent back to protect John against the T-X. Now, Skynet is patiently assuming control of civilian computer systems, under the guise of a computer virus. John has also met his future wife, Kate Brewster, whose father - a U.S. Air Force General - is in charge of the military computer systems & is leery of up linking SkyNet. However, when the SkyNet virus infects the U.S military computers & leaves the country open to attack, the machines begin their horrific takeover. Soon a nuclear war will result - and the war against the machines will begin. Can the outdated CSM-101 Terminator eliminate the highly advanced T-X - or will a darker future await man following the nuclear attack?
+Filmed in: USA
+Language.: English"
+,oswald1234,2007-05-02T07:20Z,"Just download the smallest video file  on high priority.That way ,you can abort if it dont play.Some of these are great,some dont play for me either.Get every player...hope that helps."
+,worunner,2007-05-02T16:31Z,I cant find a player for this either. Any help?
+,Adhmuz,2007-05-06T04:18Z,"also having trouble playing video, some help would be much apriciated"
+[T],HDTV CHINA,2007-05-07T23:50Z,"Finalcodec Player download                   
+http://download.pchome.net/php/tdownload2.php?sid=10544&url=/multimedia/media/FinalCodecs17_0408.zip&svr=1&typ=0
+
+You need a powerfull computer to play VC-1 codec HD
+Recommended: INTEL Core2 DUO or AMD X2 4800+ and NVIDIA 8500GT
+
+Other movies viste                
+http://thepiratebay.org/user/HDTV%20CHINA
+
+Enjoy....								"
+,oswald1234,2007-05-08T08:26Z,"No worky,,,final codec player I dont have.I have all other ones,why dont you just upload a finalcodec player on here for us IF it works.Pirated Operating systems sometimes do not do language packs well.Gimme the shit to play this one...."
+,Adhmuz,2007-05-09T02:42Z,I have an instaled the final codec player but all i get is sound no vidoe it does the same thing in vlc and media player (windows) any more help?
+,oswald1234,2007-05-12T11:35Z,"It doesnt worky,,,get it. Research on doom9 if you want to sucseed. Stay away from the VC-1 and AVI files on these 1080ps if your a newb. Download the smallest video file on high priority,see if it works.ABOVE ALL post your findings here,,,good or bad."
+,xFred,2007-05-16T00:10Z,"ABSOLUTELY works....you just have to do a little digging:
+
+First, you need HDTVPump:
+
+http://www.dvbportal.de/projects/hdtvpump/
+
+And then (At least for any HD-DVD releases by HDTV_CHINA i have) you need Matroska Splitter
+
+http://haali.cs.msu.ru/mkv/
+
+You will also need to have a MPEG2 decoder previously installed. NVIDIA's works. If you can play a DVD - chances are you have a valid decoder.
+
+
+Install those and report back!"
+,oswald1234,2007-05-16T03:42Z,"It does work, Thanks. Installed media player 11 and that other stuff you said and it works on KM player. YAY"
+,something1234,2007-05-26T01:28Z,"Expanding on what xFred wrote, for me, for the VC-1 encoded torrents, I didn't need an MPEG-2 decoder, nor HDTV Pump. 
+
+I did need the Windows Media codecs capabile of decoding VC-1 (a Microsoft codec). To get those, the easiest way was to install WMP11 and Windows Media Format 11 SDK (google for it, Microsoft download).
+
+I also needed the latest version of MatroskaSplitter. Make sure you don't have the one installed w/ CCCP, as it didn't work for me.
+
+On OSX, these play natively w/ MPlayer (and only MPlayer), but you'll need to compile the latest from SVN and pass -vc ffvc1 on the command line to mplayer."
+,rc71,2007-05-29T18:49Z,"I've done everything listed nothing.  I've viewed HDTV China's releases before so I don't think they are MPAA fakes, but every tool I've used says there is no MPEG2 Stream.  I've tried 2k, XP, OSX, media player classic, vlc, wmp11+sdk, video Redo, NOTHING plays any video.  The link for codec downloads fails to complete.  
+IF the codec works, please include it in the torrent.  Thanks."
+,hurrafor,2007-07-19T16:35Z,"ABSOLUTELY works....you just have to do a little digging:
+
+First, you need HDTVPump:
+
+http://www.dvbportal.de/projects/hdtvpump/
+
+And then (At least for any HD-DVD releases by HDTV_CHINA i have) you need Matroska Splitter
+
+http://haali.cs.msu.ru/mkv/
+
+You will also need to have a MPEG2 decoder previously installed. NVIDIA's works. If you can play a DVD - chances are you have a valid decoder.
+
+
+Install those and report back!
+
+KMPlayer to play HD from HDTV CHINA
+http://kmplayer.kde.org/download.php
+
+If you download those 3 and install them all downloads from HDTV CHINA will work Have downloaded 40 and all works"
+,marcusmae,2007-07-30T00:20Z,I've installed hdtvpump and haali. On my Windows Media Player (running Windows Vista .6000) got only video. No sound. Any suggestions. What audio codec to search for?
+,marcusmae,2007-07-30T13:37Z,"arny000, thanks. But not too much better : after installing FinalCodecs now I have only audio. No video :( Moreover, I guess they might be incompatible, because audio is playing straight : i can't forward/rewind/search on track.
+
+Before installing FinalCodecs, should I uninstall hdtvpump and/or haali splitter? Something else might be wrong?
+
+Also I've got VideoLAN, and it's the first time I see it cannot play the .ts file correctly."
+,AIMBOT,2007-08-10T10:48Z,Why force everyone to load up all these unpopular foreign players and codecs ... unless there is a sinister plot. What's wrong with using the current standards. 
+,CaptainMorgan2600,2007-09-09T23:26Z,"SIMPLE
+
+The CCCP (Combined Community Codec Pack) already has the Haali filter for plating a .TS.
+
+http://www.cccp-project.net/wiki/index.php?title=Main_Page
+
+This movie is beautiful in ZOOM player.
+
+
+.
+"
+,arny000,2007-10-13T18:12Z,"Look ,marcusmae. I installed clean copy of winxp64 then i've installed  windows media player 11 and then finalcodecs. Also I set mpeg2 splitter to Haali, Mpeg2 v.decoder to nVidia and mpeg2 a.decoder to ffdshow. And in my player(windows classic player) all was fine.
+if you'd like to hear dolby digital sound via external dolby decoder you need to put mark in ffdshow audio decoder configuration->output on ac3"
+,sk8rphink,2007-12-31T20:43Z,"something1234 said ""On OSX, these play natively w/ MPlayer (and only MPlayer), but you'll need to compile the latest from SVN and pass -vc ffvc1 on the command line to mplayer.""  Can you explain this further or does anyone know any other way to get these movies to play on a mac?"
+,sk8rphink,2008-01-02T01:38Z,"For Mac users: I was able to use ffmpegX to convert the TS files to MOV files.  Then they play with Quicktime and VLC.  MPlayer was able to give me the audio, but no video.  If anyone can tell me how to play them without the long conversion process, I'd love to hear it.  "
+,sk8rphink,2008-01-02T01:48Z,"Also, the video is a little bit choppy.  I have a 17' MacBook Pro with 4 gigs of ram, so I don't think it is my hardware.  Does anyone know a better format to convert to.  Divx looked like crap."
+,Ysangkok,2008-05-17T11:46Z,"sk8rphink: read http://www.mplayerhq.hu/DOCS/README
+
+You shouldn''t need to convert anything. When you are done compiling, run mplayer with ""-vc ffvc1"" and the filename."
+,cornerback1,2008-06-15T04:28Z,"sk8rphink, is there any way to make all of the .ts files one big movie file?
+
+-thanks"

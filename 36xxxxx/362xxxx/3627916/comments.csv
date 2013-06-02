@@ -1,0 +1,52 @@
+﻿User Type,Username,Date,Text
+,zoltan_jeff,2007-02-27T19:12Z,"Är inte detta samma som ""WOW fre offline server""?
+Eller vad är skillnaden? Det är NT_Messup som gjorde den, verkar vara dom som gjort denna också? Var snäll skriv skillnaden, om det är någon! 
+Lätt att få upp den online förresten, om de går?"
+,zoltan_jeff,2007-02-27T19:13Z,"..Är det inte samma som denna mena jag*
+""http://thepiratebay.org/tor/3592438/Wow_Free_offline_server"""
+,bljardkungen,2007-03-02T14:44Z,den enda skilnaden är att jag kopierat system filerna så du behöver inte ändra några filer för att spela eller för att ha datorn som en lan server.
+,bljardkungen,2007-03-02T14:48Z,"för att lägga ut den online så gör du så här
+1.) Go to www.no-ip.com or www.dyndns.com and create a free account.
+2.) go to www.whatismyip.com and write down your IP address.
+3.) Log in at no-ip or dyndns and create a static IP that directs to your IP you got from www.whatismyip.com
+4.) Press the windows start button and select run. Type in cmd and hit run.
+5.) in the command prompt type in ipconfig and write down the IP it gives you next to the word ""IP Address"" above (subnetmask) (eg 192.168.1.101) Write down the address it gives you next to ""default gateway""
+6.) Enter the address you got next to default gateway into an internet browser (firefox or IE). Forward your ports 8080, 8085, and 3724. (i recommend to forward 1-65535 to allow almost everyone to play).
+7.) Open the realmlist table in the realmd database in navicat and edit the ip to the your static IP from no-ip or dyndns.
+8.) lastly open ""hosts.ics"" with notepad in C:\WINDOWS\system32\drivers\etc. Edit it and add at the bottom:
+127.0.0.1 yourstaticdns
+youripaddress yourstaticdns
+yourexternalip yourstaticdns
+where ""yourstaticdns"" is the IP you got from no-ip or dyndns, ""youripaddress"" is the address next to IP address in ipconfig, and ""yourexternalip"" is the ip you got from whatismyip.com."
+,bljardkungen,2007-03-02T14:51Z,och den ip dy för på dyndns sätter du in i relmd och mangosd sen på hemsidan dy får upp när du startar sql så skriver du in den ip'n på dom 3 privilgeis du får upp sen på realm databasen på sidan går du in på realm trycker browse så skriver du bara in den ip du fått på den realm du tänkt använda
+,ympanson,2007-03-08T03:39Z,so this dosent work with burning crusade?
+,[Spooky],2007-03-10T15:41Z,Vore jättebra om nåfon med 100% seedade med. Tack för uploaden btw.
+,peeweesweden,2007-03-10T20:08Z,"Om du måste lägga ut sån här skit, kan du väl i alla fall se till att skriva rätt information, newb. ^^
+
+Ditt interna IP beror på hur du ställt in din router och dina nätverksinställningar. 
+
+Om du inte vet hur du gör det, försök inte ens leka. Skaffa ett McJobb och betala för den riktiga varan istället. "
+,bljardkungen,2007-03-12T14:53Z,"It aint working with TBC bout sheeck out this torent http://thepiratebay.org/tor/3635966/MaNGOS_WoW_Server_2.0.10_-_DJ_eXeCute
+
+bout soon i will seed the wow-TBC server this way. soo you dont need to instal or configurate youst change your ip to 192.168.0.112"
+,bljardkungen,2007-04-13T11:42Z,"Lägger upp tbc server idag. den är lika dan som den här det enda du behöver göra är att ändra din ip till 192.168.0.112 så funkar den som en lan server. har också gjort en användare som heter ""test"" med lösenordet ""test""  och den är GM lvl 6."
+,bljardkungen,2007-04-13T11:43Z,http://thepiratebay.org/user/bljardkungen
+,bljardkungen,2007-04-13T15:00Z,NU har jag lagt ut en TBC server bara att ändra din ip till 192.168.0.112 så fungerar den som en lan server.
+,bljardkungen,2007-04-13T15:00Z,http://thepiratebay.org/tor/3663145/TBC_server
+,bljardkungen,2007-04-15T22:34Z,"http://thepiratebay.org/tor/3665014/Mangos_TBC_Server
+
+check it out TBC server. same as this. the only thing you have to do is to change your ip to 
+192.168.0.112"
+,zeretul,2007-04-21T11:37Z,"I think this is the same as normal just u can get items same items , non paying...."
+,zeretul,2007-04-21T11:38Z,"i can now tell its nothing like virus but its wont open for me....
+
+
+the maps"
+,bljardkungen,2007-04-21T19:04Z,"I have had the same problem as you and i think that the problem is that you have not change your ip, or mabe you have more than one network card enebled."
+,mirrekatten,2007-06-09T21:16Z,PLOX SEED SEED SEED >.> hehe MesosPlox
+,Sphankey,2007-09-16T22:56Z,This crap isn't working! How do I write in the console? What patch do I need?
+,bljardkungen,2007-11-02T00:04Z,"have you tested downloading other server's then make shure that they are nuninstaled or are not running att the moment....
+and another time i wan't to remind you to change your ip' to 192.168.0.112 and do you have another firewal then windows build in then close it..."
+,bljardkungen,2007-12-22T13:04Z,http://thepiratebay.org/tor/3943634/TBC_Server_v_2.3.0_%5BBljardkungen%5D
+,whteshark,2008-08-21T23:01Z,"Hey there.....wish you would give some info about the wow and if it works or not!-----im downloading this one http://thepiratebay.org/torrent/4354005/World_of_Warcraft_and_Burning_Crusades_fully_patched_and_a_FREE_
+this one is growing fast with a bunch of comments, more trust worthy "

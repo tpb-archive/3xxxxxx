@@ -1,0 +1,32 @@
+Detta är en cs 1.6 server som funkar fint.
+
+Det innehåller allt som behövs för att lägga upp en populär server.
+Klart måste man ha snabbt bredband.
+Jag sitter med 8 mbit och det har inte laggat än.
+
+Det är den senaste versionen av amx-mode.
+
+Om du vill hämta fler plugins så är det bara att klicka sig in på: http://www.amxmodx.org
+
+--------------------------Guide--------------------------
+
+1. Spara och packa upp.
+2. Starta hlds.exe och välj namn, port och annat.
+(Har du router måste du öppna samma port som du ställer in. te.x "UDP 27016")
+3. När den har startas så är det bara att skicka ut ip till era kompisar och lira.
+4. Ifall det står 192.168... så är det lan ip. Den kan du inte skicka ut så då får du ta reda på din internet ip. 
+http://jeppesson.awardspace.com/index3.php?page=blandat&view=ip = Internet ip
+
+internet ip:27016
+
+-----------------------Plugins---------------------------
+1. Hlserver/Cstrike/addons/amxmodx
+2. Har du en .amxx fil så lägger du in den i "Plugins" mappen
+3. Har du en .sma fil så ska du lägga den i "scripting" mappen
+4. Gå in i "Configs" mappen och öppna filen "plugins.ini"
+5. Om du har lagt till ett plugin så ska du skriva in fil namnet som du la in i "Plugins mappen".
+Te.x "hpk.amxx"
+
+OBS: Inga "" eller ; för de plugins som ska fungera. Om du har ett plugin du inte vill använda sätter du bara ; framför i Plugins.ini filen.
+
+//Lycka till

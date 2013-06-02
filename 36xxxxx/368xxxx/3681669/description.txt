@@ -1,0 +1,15 @@
+This is a full blown hard drive encryption software. It encrypts the FAT/NTFS partitions and asks for password BEFORE booting. Everything in on the fly, minimal performance hit after the disk is encrypted, thanks the AES algorithm.
+
+If a mobile device or data medium does not have adequate protection, thieves could, for example:
+
+    * Boot a PC using an external medium like a CD or USB memory stick and access all the saved data without activating the operating system?s access control.
+    * Find confidential documents and information and either use it themselves or sell it to a third party.
+    * Use the PC or data medium to import undesirable data and sneak in harmful programs like trojans or viruses that then compromise system stability.
+
+For more info, see 
+
+ 
+http://www.utimaco.com/C12570CF0030C00A/CurrentBaseLink/W26K9K5M068OBELEN
+
+
+Tested on Windows XP.

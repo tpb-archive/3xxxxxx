@@ -1,0 +1,11 @@
+Changelog 2.01 -> 2.1.0 | (2007-05-22)
+
+- Updated ffdshow to revision 1193
+- Updated DivX decoder to version 6.6.1.1
+- Updated DivX encoder to version 6.6.1.1
+- Updated Haali media Splitter to version 1.7.152.18
+- Updated x264 VFW to revision 655
+- Added ffdshow whitelist feature. When enabled, usage of ffdshow will be restricted to a list of known compatible applications.
+- Moved most ffdshow related things in the installer from Tasks to Components. This should make the available choices more clear.
+- Uninstall your old version before updating to this version
+- Minor changes

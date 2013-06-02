@@ -1,0 +1,38 @@
+﻿User Type,Username,Date,Text
+,hurrafor,2007-05-26T17:34Z,"ABSOLUTELY works....you just have to do a little digging:
+
+First, you need HDTVPump:
+
+http://www.dvbportal.de/projects/hdtvpump/
+
+And then (At least for any HD-DVD releases by HDTV_CHINA i have) you need Matroska Splitter
+
+http://haali.cs.msu.ru/mkv/
+
+You will also need to have a MPEG2 decoder previously installed. NVIDIA's works. If you can play a DVD - chances are you have a valid decoder.
+
+Install those and report back!"
+,rc71,2007-05-29T18:54Z,"I've done everything listed nothing.  I've viewed HDTV China's releases before so I don't think they are MPAA fakes, but every tool I've used says there is no MPEG2 Stream like an MPAA fake.  I've tried 2k, XP, OSX, media player classic, vlc, wmp11+sdk, video Redo, NOTHING plays any video.  The link for codec downloads fails to complete.  
+IF the codec works, please include it in the torrent.  Thanks."
+,acerview,2007-05-29T23:51Z,"have same problem and i can play all the other releses from HDTV China but no this one, DL a Bluray verson to check if that functions"
+[T],HDTV CHINA,2007-05-30T12:55Z,http://down.silu.info/zhongjijiema/FinalCodecs/FinalCodecs1.7.0408.exe
+,stardude,2007-05-30T17:39Z,"@hurrafor
+
+thnx! getting both sound and images.
+
+only problem is that video is lagging after sound
+but that may be because of my comp hardware
+which is about 3 years old."
+,stardude,2007-05-30T20:00Z,"!!NOTE!! I installed FinalCodecs and suddenly the sound was gone in the movie =\\
+
+uninstalled FinalCodecs and reinstalled HDTVPump and Matroska but no go =~(
+
+SUGGESTION: start with HDTVPump and Matroska.
+if you get image and sound then DON'T install the FinalCodecs pack."
+,walapayo,2007-07-04T20:11Z,"I installed HDTV pump, Matroska Splitter and NVidia  . I can hear the audio but I cannot see the video . Any assistance will be highly appreciated. "
+,hurrafor,2007-07-21T19:13Z,KMPlayer to play HD from HDTV CHINA
+,hurrafor,2007-07-21T19:18Z,"All HD works for me 
+HDTVPump
+Matroska Splitter
+KMPlayer
+"

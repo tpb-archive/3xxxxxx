@@ -1,0 +1,11 @@
+Name        : Napoleon Dynamite
+Resolution  : 768x416
+Audio       : 48khz
+Channel     : 2
+Video Codec : h264 avc (x264 encoder)
+Audio Codec : mp3
+BPS         : 630
+Command     : mencoder -ovc x264 -x264encopts pass=1 -nosound  -o np.mp4 Napoleon_Dynamite_Swesub.avi
+            : mencoder -ovc x264 -x264encopts bitrate=500:pass=2 -oac copy -o np.mp4 Napoleon_Dynamite_Swesub.avi
+
+        by rlp.

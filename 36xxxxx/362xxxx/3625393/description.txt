@@ -1,0 +1,120 @@
+Mac OS X 10.4.9 8P127 PPC
+
+Known Issues 
+- None 
+
+Focus Areas 
+Please focus your testing on: 
+- .Mac Connectivity 
+- Adobe Flash 
+- AirPort 
+- Apple\'s USB Modem 
+- Audio 
+- Automator 
+- bash 
+- bind 
+- Bluetooth 
+- Bonjour 
+- Dashboard Widgets 
+- Disk Images 
+- FireWire 
+- Fonts (OpenType fonts) 
+- gnutar 
+- Graphics 
+- iCal 
+- iChat Video Conferencing 
+- iSync 
+- OpenSSH 
+- Rosetta 
+- sudo 
+- USB 
+
+Areas of Change 
+New in this seed: 
+- Fixed issue with ImageIO and importing FCP files 
+- Fixed problem with network printing and AppleTalk 
+- Fixed issue with Rosetta and float conversion 
+- Fixed issue with automatically joining trusted AirPort networks after reboot 
+- Fixed issue with OpenGL and ATI PBO 
+
+From previous seeds: 
+- Fixed issue with OpenGL Programmability 
+- Fixed problem with OpenGL Framework and gleCommandProcessor 
+- Fixed issue with GraphicsDrivers Common Code and memory leaks 
+- Fixed issue with CoreImage and the cropping of multiple images 
+- Fixed issue with Sync Services Engine 
+- Fixed issue with ImageIO and the exporting of ISO data 
+- Fixed problem with CoreData Framework 
+- Fixed issue with iSync and phone conduit 
+- Fixed issue with OpenGL Rosetta and DrawBuffersSimple 
+- Fixed problem with USB and isoch endpoint 
+- Fixed issue with OpenGL and VM_ALLOCATE 
+- Fixed issue with CoreImage and exporting 
+- Fixed problem with File Manager and FSReadFork/FSWriteFork 
+- Fixed issue with Text Services Manager and background documents 
+- Fixed issue with CoreAudio where sound may fade in and out in some cases 
+- Fixed problem with Smartcard and securityd 
+- Fixed issue with X11 Xplugin and 256 color mode 
+- Fixed issue with Rosetta and print 
+- Fixed problem with dyld 
+- Fixed issue with USB Isoc receivers 
+- Fixed issue with wake from Sleep and SecurityAgent 
+- Fixed issue with Rosetta and cache 
+- Fixed issue with Bluetooth and Bluetooth mouse when waking from sleep 
+- Fixed issue with ConsoleUser/SecureConsoleUser and IOKit Kernel 
+- Fixed issue with \'at\' command and system_cmds 
+- Fixed onkeyup/onkeydown issue with WebCore Javascript 
+- Fixed problem with rsync and extended attributes 
+- Fixed issue with NAT-PMP and port mapping 
+- Fixed issue where KEV_DL_IF_ATTACHED was not being received by kext 
+- Fixed issue with Color Sync and V4 profiles 
+- Fixed issue with MSDOS FS 
+- Issue where .m4v file extensions may not be recognized has been fixed 
+- Fixed issue with copying read-only files Xsan/UFS-backed AFP volumes 
+- Fixed issue with DVD Player 
+- Fixed problem with Crash Reporter 
+- Fixed issue with headset pairing and Bluetooth 
+- Fixed issue with incorrect time zones in certain areas 
+- Fixed problem with enabling/disabling Bluetooth 
+- Fixed issue with rsync and the copying of mod times 
+- Fixed problem with .Mac and Sync Services 
+- Addressed issue with USB modem recording level 
+- Fixed syncing issue with internal and external modem driver 
+- Fixed DRON/DROF issue with USB modem 
+- Fixed problem where USB modem may not detect busy tone 
+- Fixed issue with CFNetwork and network-aware USB devices 
+- Fixed issue with Sync Services and Address Book 
+- Fixed problem with USBInterfaceOpen and IOUSBLib 
+- Fixed issue with QC Engine 
+- Fixed problem with Kerberos OpenSSH patch 
+- Fixed problem with Open SSH and LaunchDaemon 
+- Fixed issue with HLTB Events (Carbon) 
+- Fixed issue with HLTB Accessibility (Carbon) 
+- Fixed issue with HLTB Control Manager (Carbon) 
+- Fixed issue with HLTB Windows (Carbon) 
+- Fixed issue with HID and IOKit 
+- Fixed problem with PDFKit and MalloGuardEdges 
+- Fixed issue with CoreAudio and MIDI files 
+- Fixed gssapi-with-mic and Open SSH issue 
+- Fixed issue with Unix \'at\' command 
+- Fixed problem with CUPS 
+- Fixed issue with Network Diagnostics and WPA2 encryption 
+- Fixed issue where internal modem may not sync with external modem driver 
+- Fixed problem with CFNetwork and network-aware USB devices 
+- Fixed problem with Apple internal modem and busy tone detection 
+- Fixed issue with SMB File Server 
+- Fixed problem with IOkit Kernel 
+- Fixed issue with connecting a system to display while in Sleep mode 
+- Fixed problem with WebCore Javascript and onkeyup/onkeydown event handler 
+- Issue where .m4v file extensions may not be recognized has been fixed 
+- Fixed issue with File Systems and copying read-only files 
+- Fixed issue with Software Update and format string 
+- Fixed issue with Universal Access preferences pane 
+- Fixed problem with USB Modem and caller ID 
+- Fixed problem with Bluetooth and device pairing 
+- Fixed issue with CoreGraphics and HID Manager 
+- Fixed issue with PDFKit and MallocGuardEdges 
+- Issue with Automator Actions and generated text fixed 
+- Fixed issue with .Mac and syncing	
+
+Works in Transmission

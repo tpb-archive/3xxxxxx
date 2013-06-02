@@ -1,0 +1,198 @@
+﻿User Type,Username,Date,Text
+,GasGiver4711,2007-04-02T18:31Z,"Sorry, I screwed up the last Release :-(
+Here´s the revised one ..."
+,Matzen,2007-04-02T18:38Z,"What was wrong with the old one, I'm running march 17 version without any problems.
+
+Btw,you're awesome for doing these releases. Yours are the only ones I've used for a looong time :)"
+,GasGiver4711,2007-04-02T18:58Z,"You´re right man - LOL - I fucked up the 02.Apr.2007 Release which, now i deleted it, noone can see anymore ;-) That was the release i meant ... Don´t u love these Mondays too ..."
+,Trialdi,2007-04-02T19:44Z,"Thanks a lot for your releases.
+keep up the good work."
+,Tcip,2007-04-02T20:00Z,Any new bug(s)
+,sukki,2007-04-03T10:13Z,"Thanks GasGiver, you and your program kicks ass!"
+,agent 47,2007-04-08T12:32Z,hmm does this help me run pirate games
+,Tcip,2007-04-09T10:31Z,jroc261 - You need to chane the xml file. To play pirate games you need a chip in your box
+,Tcip,2007-04-10T23:53Z,"Here is my Evox.ini. I'm running XBMC as my Dash
+
+[Misc]
+
+AutoLaunchGames	= No
+AutoLaunchDVD	= No
+DVDPlayer	= ""f:\apps\dvd2.0\default.xbe""
+AutoLaunchAudio	= No
+#AudioPlayer	= ""c:\xboxdash.xbe""
+MSDashBoard	= ""c:\xboxdash.xbe""
+UseFDrive		= Yes
+UseGDrive		= Yes
+SkinName		= Original
+#SkinName	= RuDeDuDe2
+UseItems		= No
+ScreenSaver	= 5
+Fahrenheit	= No
+ShadeLevel	= 90
+EnableSMART	= Yes
+HDD_Temp_ID	= 194
+ChameleonLed	= 15
+TSR_Type		= 0
+IGR		= No
+GameRegion	= 0
+
+[Network]
+
+SetupNetwork	= Yes
+StaticIP		= Yes
+Ip		= 192.168.0.5
+Subnetmask	= 255.255.255.0
+Defaultgateway	= 192.168.100.1
+DNS1		= 0.0.0.0
+DNS2		= 0.0.0.0
+SetupDelay	= 0
+SkipIfNoLink	= No
+
+[Clock]
+
+JumpToMsDash	= No
+JumpIfNoLink	= Yes
+Use24		= Yes
+SwapDate		= No
+SNTP_Server	= 0.0.0.0
+
+[FTP]
+
+Enable		= Yes
+Password		= xbox
+
+[Telnet]
+
+Enable		= Yes
+
+[RDTOOLS]
+
+Enable		= Yes
+Name		= XBOX_V1.0
+
+[BIOS]
+
+#
+ROM		= ""EvoX 2.0"",0x76fd88337b8d8c1f116f85f3984b98b6
+ROM		= ""EvoX 2.1"",0x99487615bb30670cb65993388fcf2a63
+ROM		= ""EvoX 2.2"",0x220ade778785cfc3c98bb5ea8bbd8608
+ROM		= ""EvoX 2.3"",0xd79bc87c2caa1a50dcc7016adf2ccc0a
+ROM		= ""EvoX 2.4"",0xe3ce66b99957a92fdac40af951c3f1fd
+#
+Flash		= 0x01d5,""AMD - Am29F080B"",0x100000
+Flash		= 0x04d5,""FUJITSU - MBM29F080A"",0x100000
+Flash		= 0xadd5,""Hynix - HY29F080"",0x100000
+Flash		= 0x20f1,""ST - M29F080A"",0x100000
+Flash		= 0xbf61,""SST - 49LF020"",0x40000
+#Flash		= 0x378c,""AMIC - A29002"",0x40000
+Current		= 0x0f958097de566aec7f91b881c5dfc9b4
+
+[Skin_Original]
+
+#
+#    	=
+#     		=
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+#
+Text	=       30,37,0.5,0x000000,0,""""
+Text	=       28,39,0.5,0x808080,0,""""
+Text	=       620,420,0.5,0x000000,1,"" V""
+Text	=       618,422,0.5,0x808080,1,"" V""
+Text	=       620,37,0.5,0x000000,1,""""
+Text	=       618,39,0.5,0x808080,1,""""
+Text	=       30,420,0.5,0x000000,0,""RD Name : ""
+Text	=       28,422,0.5,0x808080,0,""RD Name : ""
+LogoType	=	0
+
+[Menu]
+
+Section ""Root""
+{
+	Item ""Launch DVD"",ID_Launch_DVD
+	Item ""Trainers"",ID_trainer
+	Item ""MS Dashboard"",ID_MS_Dash
+	Item ""Reboot"",ID_Quick_Reboot
+#	Item ""Power Cycle"",ID_Full_Reboot
+	Item ""Power Off"",ID_Power_Off
+#	Item ""Lock Harddisk"",@210
+#	Item ""Unlock Harddisk"",@211
+	Section ""System Utils""
+	{
+		Item ""Settings"",ID_Settings
+		Item ""Flash BIOS"",ID_Flash_Bios
+		Item ""Backup"",ID_Backup
+		Item ""Skins"",ID_Skins
+	}
+	Section  ""Launch Menu""
+	{
+ 		Section ""Games""
+		{
+			AutoAddItem ""e:\games\""
+			AutoAddItem ""f:\games\""
+			SortAll
+		}
+		Section ""Apps""
+		{
+			AutoAddItem ""e:\apps\""
+ 			AutoAddItem ""f:\apps\""
+			SortAll
+		}
+	}
+}
+
+[Action_10]
+
+LogFile          = ""f:\lock.log"" 
+Info ""This function will lock your XBOX Harddisk""
+Warning ""You will now lock your XBOX harddisk and will be able""
+Warning ""to boot from an original XBOX bios""
+#
+hddlockenable
+
+[Action_11]
+
+LogFile          = ""f:\unlock.log"" 
+Info ""This function will unlock your XBOX Harddisk""
+Warning ""You will now unlock your XBOX harddisk and will not be able""
+Warning ""to boot from an original XBOX bios""
+#"
+,J1C__TPB,2007-04-11T16:28Z,Tcip visste inte att du lir Xbox har du chip eller Softmod Skicka PM
+,pooken_,2007-04-11T18:30Z,"does this version support the X264 movies?
+"
+,Tcip,2007-04-12T23:22Z,J1C__TPB: Jag spelar inte så ofta på min Xbox. Streamar främst film och musik genom den. Jag har chipet: X-ecuter 2 PRO + 120Gb-Hdd
+,Tcip,2007-04-12T23:22Z,pooken_ - Don't know. Test it...
+,Tcip,2007-04-12T23:23Z,No bug so for.. 
+,0rr,2007-04-14T16:45Z,sounds good. =)
+,Tcip,2007-04-18T05:12Z,0rr - Here is cool bars under the information now. I think it's thw right English word :$ 
+,0rr,2007-04-19T17:00Z,I'm not sure I understand what you mean. Where?
+,eyed,2007-04-20T13:17Z,This version refuses to play some of my MP3s that older versions do play.
+,Tcip,2007-04-20T14:31Z,http://www.tcip.se/temp/screenshot000.bmp
+,robbekema,2007-04-20T15:04Z,"I found a (script) way to look at the short movies
+of loltv. Is there any way that the movies just play after each other instead of running the script over and over? I want the movies playing all day long on a big screen at a convention."
+,sveno2,2007-04-27T17:32Z,"Hallo 
+Några av mina spel har blivit Japanska eller slutat fungera e de nån som har ett förslag?
+Ps har alltid kört gasgiver."
+,Tcip,2007-04-28T12:30Z,"sveno2 - Öhm, dina spel? det är inte bara ditt språk i XBMC som har ändrats? Annars låter det bara som om den har slagit över till NTSC."
+,sveno2,2007-04-29T11:37Z,"Hade det bara varit så enkelt :)
+Har provat alla regionsettings från bios till xbmc.
+Jag tror ja måste börja från början.
+Jag har et smart xx chipp. vilken bios rekomenderar ni till den om jag vill använda gasgivers media center? Vilka andra saker kan ni rekomedera om jag ska blåsa allt."
+,Tcip,2007-05-01T13:41Z,Scavenger - Dom fungerar?
+,Tcip,2007-05-01T13:42Z,sveno2 - Att den byter språk vet jag inte varför. Förstår inte hur den kan göra det. Ställ frågan på psxcares forum annars..
+,Tcip,2007-05-05T23:03Z,boegroeff - http://thepiratebay.org/user/GasGiver4711/
+,Summer1980,2007-05-29T13:34Z,"Where are the newest Release from Gasgiver?!
+
+Only new T3CH I found in the Internet.
+
+Can everybody tell me....."

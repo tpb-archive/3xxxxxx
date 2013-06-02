@@ -1,0 +1,37 @@
+ConvertXtoDVD (formerly DivXtoDVD) is a software to convert and burn your videos to DVD. With ConvertXtoDVD and in a few clicks you can backup your movies to DVD playable on any home DVD player.
+ConvertXtoDVD supports most popular format such Xvid, MOV, VOB, Mpeg, Mpeg4, MP4, AVI, WMV, DV and stream formats. It converts your files into a compliant DVD Video set of files and burns it on a DVD media.
+The aspect ratio can be automatically selected or forced to a specific format. The program works for NTSC and PAL video formats and creates chapters automatically. Multiple audio tracks are supported. Version 2 uses a completely rewritten interface with subtitles support and a lot of new settings.
+
+FEATURES:
+- Supported video formats: DivX, Xvid, MPEG4, MOV, AVI, WMV, WMV HD, DV, and more...
+- Supported sources: existing files from digital camcorders, TV/Sat, capture cards
+- Can merge up to 4 hours of material from several movies or episodes
+- Supported audio formats: AC3, DTS, PCM, OGG, MP3, and more...
+- Handles subtitles files (.SRT .SUB/IDX) with color and font selection, and supports tags (italic, bold)
+- Video format choice: NTSC, PAL, or automatic and PULL-DOWN
+- Picture output: Widescreen, Fullscreen, or automatic
+- Create Automatic chapters or edit your owns
+- Fast preview mode to check if the source is loaded correctly
+- Save the DVD structure on hard drive or burn it to a blank DVD
+- Reliable burn engine integrated (supports all DVD formats)
+- Fast and quality encoder (typically less than 1 hour for converting 1 movie)
+- Variable options and settings for advanced users
+- Control of the conversion speed vs quality
+- DVD Menu control (auto-start, loop etc)
+- DVD Menu edition (background, fond, color)
+- Customizable interface (themes, dockable windows)
+- Multilingual support (available languages...)
+- Optimized for Windows 2000 / XP / Vista
+
+Changes in ConvertXtoDVD - 2.1.19.243:
+===============================
+fixes problems with AAC sources and cosmetic
+- 0000834: [Feature Request] add warning when about to burn something of poor quality (wesson)
+- 0000829: [Information] Why don't we see the AC3 (Copy) Streams in the log ? (wesson)
+- 0000842: [Feature Request] watermark timing (wesson)
+- 0000845: [Bug] A few issues with .MKV file (Audio h264 / Audio AAC) (wesson)
+- 0000649: [Bug] "Floating point division by zero" with .MKV file (Video h264 / Audio aac) (wesson)
+- 0000849: [Bug] Erreur Exception [Division by zero] thought to be caused by aac (wesson)
+- Contains latest VSO Burning SDK 2.1.2.323, with improved finalization performance.
+
+Homepage - http://www.vso-software.fr/products/convert_x_to_dvd/

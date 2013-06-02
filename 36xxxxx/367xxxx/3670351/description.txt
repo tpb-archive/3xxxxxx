@@ -1,0 +1,18 @@
+
+Microsoft Command Shell Monad (msh), a powerful shell scripting environment for Vista has been formally renamed as Windows PowerShell. They have even changed the name of the shell program msh.exe with PowerShell.exe while the new file extension is .ps1
+
+For those not familiar, Monad or Windows Powershell is powerful command line shell (like CMD.exe or BASH, KSH, CSH) plus a scripting language (like Perl, SED, AWK) with one major difference - contrary to cmd.exe and Unix/Linux shells, Monad operates on objects, not text when passing data between scripts and executables. Here are some practical examples of using the Monad Shell vs Korn Shell:
+
+Example 1: Change the case of a string from lower to upper
+ksh: $ echo "this is a string" | tr [:lower:] [:upper:]
+MSH> "this is a string".ToUpper()
+
+Example 2: To stop all processes that begin with the letter "p"
+ksh: $ ps -e | grep " p" | awk '{ print $1 }' | xargs kill
+MSH> get-process p* | stop-process
+
+Example 3: Insert string "ABC" after the first character in the word "string"
+ksh: $ echo "string" | sed "s|(.)(.*)|1ABC2|"
+MSH> "string".Insert(1,"ABC")
+
+Windows Powershell supports Windows Server 2003, Windows Vista and Windows XP Operating systems but requires the .NET Framework Version 2.0 Redistributable Package preinstalled. PS won't be shipped with Vista or Windows Server 2007 but it will debut with Exchange 12

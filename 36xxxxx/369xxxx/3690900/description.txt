@@ -1,0 +1,131 @@
+ Latest SVN compiled with extra skins, few scripts and a bunch of codecs, tried to leave as clean as 
+ possible but still have enough functionality 'Out of the Box' to be the full experience from an awesome 
+ platform that is XBMC.
+
+ Included are the latest version of the following skins from xbmcskins svn...
+
+- CEOMR
+- Clearity
+- Containment *** NEW
+- MC360
+- PDM
+- Project Mayhem I *** Removed
+- Project Mayhem II *** Removed
+- Project Mayhem III
+- Project Mayhem III Lite *** Removed
+- Vision
+- Xbox-Classic
+- xTV
+
+ I have changed nothing just done a clean compile and added the above skins, any questions/bugs need to 
+ goto the original authors.
+
+ XBMC errors to http://www.xboxmediacenter.com/wiki/index.php?title=HOW-TO_Submit_a_Proper_Bug_Report
+ XBMC questions to http://www.xboxmediacenter.com/forum/
+
+ CEOMR - Ceomr
+ Clearity - Smokehead
+ Containment - CHI3f
+ MC360 - Team Blackbolt 
+ PDM - Smokehead
+ Project Mayhem I - Jezz_x
+ Project Mayhem II - Smokehead 
+ Project Mayhem III Lite - Smokehead
+ Vision - NineT9Mustang / Jezz_x
+ Xbox-Classic - Jezz_x
+ xTV - CHI3f 
+
+I will be building these on a weekly basis for those interested.
+
+Have now removed the older Project Mayhem skins, will add Slate at a later date if it ever gets a svn repository.
+
+LinksBrowser is now included.
+
+**!!!*** LINKS CHANGELOG ***!!!***
+
+Revision: 8979
+Author: ysc
+Date: 11:04:35 AM, Wednesday, May 16, 2007
+Message:
+updated: linksbrowser: merged trunk r8922 -> r8965
+fixed: linksbrowser: dll exports cleanup
+fixed: linksbrowser: moved main loop into DoRender() as it blits to d3d surfaces and that's not thread-safe
+fixed: linksbrowser: got rid of XFONT in LinksBoks.dll
+----
+
+***!!!*** XMBC CHANGELOG ***!!!***
+
+Revision: 8965
+Author: jmarshallnz
+Date: 9:21:19 PM, Tuesday, May 15, 2007
+Message:
+fixed: Song rating wasn't updated for the currently playing item when done via Song Information dialog.
+----
+
+Revision: 8964
+Author: jmarshallnz
+Date: 9:19:39 PM, Tuesday, May 15, 2007
+Message:
+changed: Music library hashing includes thumbs (.tbn/.jpg), so Update Library will pick up newly added thumbs (assuming the album doesn't already have one)
+----
+
+Revision: 8963
+Author: jmarshallnz
+Date: 9:08:19 PM, Tuesday, May 15, 2007
+Message:
+fixed: Mouse didn't select in DialogSelect.
+----
+
+Revision: 8955
+Author: elupus
+Date: 9:42:58 AM, Tuesday, May 15, 2007
+Message:
+fixed: system dll's would crash in destructor
+----
+
+Revision: 8954
+Author: elupus
+Date: 9:37:50 AM, Tuesday, May 15, 2007
+Message:
+fixed: coff loader could crash in destructor if it had never loaded a dll (backported from linux branch)
+fixed: if a export from xbmc resolved to null, dllloader stopped searching for exports (backported from linux branch)
+----
+
+Revision: 8943
+Author: charlydoes
+Date: 7:45:42 AM, Tuesday, May 15, 2007
+Message:
+fixed: if the skin loaded on start was missing a window the next skins loaded wouldn't reset the invalid status of the window.
+----
+
+Revision: 8942
+Author: charlydoes
+Date: 7:44:57 AM, Tuesday, May 15, 2007
+Message:
+changed: busy dialog is now disabled if progressdialog is on screen.
+changed: doubled the amount of missed frames before busy dialog pops up.
+changed: busy thread is exited if the skin doesn't have a busy dialog.
+----
+
+Revision: 8932
+Author: elupus
+Date: 2:49:28 AM, Tuesday, May 15, 2007
+Message:
+fixed: auto interlace mode should do bob for HQ Pixelshader V2 renderer
+----
+
+Revision: 8923
+Author: elupus
+Date: 12:58:28 PM, Monday, May 14, 2007
+Message:
+fixed: lpcm 20/24 bit played as just noise (third time's a charm)
+----
+
+Revision: 8922
+Author: elupus
+Date: 11:01:02 AM, Monday, May 14, 2007
+Message:
+changed: removed CanSeek() from filesystem, it was wrong in a few protocols and hardly used. Use Seek(0, SEEK_CUR) to check if protocol supports seeking.
+added: buffering system to CFile (quite untested, set READ_BUFFERED flag on Open to use)
+changed: move READ_TRUNCATED flag from CFile::Read to to CFile::Open as it is silly to pass along on each read request
+----

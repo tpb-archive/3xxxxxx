@@ -1,0 +1,28 @@
+# BIOS roms BUILT-IN !
+# Very good game compatibility.
+# Support for .prg, .p00 and cartridges
+# Support for true VGA resolution
+# Redefinable hardware control keys
+# Sticky keyboard option
+# Built in speedometer
+# Expanded full screen modes for optimal display usage.
+# Support for native and software landscape modes for pre-WM2003SE devices
+# Full menus and keyboard controls in landscape mode.
+# Full save/load emulator state support
+# External keyboard support (preliminary)
+# Full 7501 (CPU) emulation: All undocumented opcodes, 100% correct decimal mode, instruction/cycle exact emulation.
+# Video (TED) emulation: Very fast Line-based emulation, all display modes, DMA cycles, open and expanded borders, some FLI modes, FLD
+effects, DYCP. Timer and raster interrupts, raster line exact hardware cursor & flash
+# Sound (TED) emulation: Real-time digital emulation (8 bit, 11.025 -
+44.1kHz)
+# full ROM banking, support for the built-in C+4 programs
+# Full joystick and keyboard emulation
+# DOS-based 1551 drive emulation (disk loading and saving from/to the Pocket PCs directory)
+
+
+Version 1.1 changes:
+# faster, raw screen access mode option for non-VGA devices
+# better VGA display support
+# selectable speed
+# user interface improvements
+# various bugfixes

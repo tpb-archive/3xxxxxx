@@ -1,0 +1,43 @@
+Microsoft Access 2007
+Microsoft Enterprise 2007
+Microsoft Excel 2007
+Microsoft Groove 2007
+Microsoft InfoPath 2007
+Microsoft OneNote 2007
+Microsoft Outlook 2007
+Microsoft PowerPoint 2007
+Microsoft Professional Plus 2007
+Microsoft Project Professional 2007
+Microsoft Project Standard 2007
+Microsoft Publisher 2007
+Microsoft SharePoint Designer 2007
+Microsoft Office Standard 2007
+Microsoft Visio Standard 2007
+Microsoft Visio Professional 2007
+Microsoft Word 2007 
+
+This link is direct from Microsoft. 
+
+Download This: 
+
+CODE:  http://msft-dnl.digitalrivercontent.net/msoffice/pub/X12-30196/X12-30196.exe
+
+Run the installer and DO NOT PUT IN A SERIAL! 
+
+After Office is installed, DO NOT OPEN ANY OFFICE PROGRAM!! 
+
+Navigate to C:Program FilesCommon FilesMicrosoft SharedOffice 12Office Setup ControllerProof.en 
+
+Inside the folder, edit the xml file in notepad... 
+...find where it says 
+
+<Feature Id="SetupXmlFiles" Cost="1248"> 
+<OptionRef Id="AlwaysInstalled"/> 
+</Feature> 
+
+and replace "AlwaysInstalled" with "neverinstalled" and save. 
+
+Now you can enjoy your fully working Office 2007 - Direct from MS
+
+
+

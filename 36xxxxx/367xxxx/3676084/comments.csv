@@ -1,0 +1,101 @@
+﻿User Type,Username,Date,Text
+,Rappakaljaa,2007-04-29T19:50Z,PLS SEED!
+,the seal giver,2007-04-30T00:00Z,"Ehm, how do I get this server running?"
+,the seal giver,2007-04-30T00:31Z,"When I try to use the MaNGOS.exe a error occure saying ""Error! Please ensure MaNGOS Restarter restart.conf file are in the same folder as this program!"" What shall I do?"
+,F1977,2007-05-04T18:07Z,"about 1000 revisions old, use the latest revision by connecting to SweWoW, more info here: http://www.swewow.com"
+,MBenjo,2007-05-08T17:37Z,Where u got the spells/skills/items IDs?
+,Monsumie,2007-05-09T12:12Z,OK all seems to work except one thing how do i create my GM(admin) Account? and other accounts so m and my friends caan play together?
+,MBenjo,2007-05-10T14:05Z,"Monsumie! Wait until   mangosd.exe   loads up (the text stops scrolling in it) and there will be a list of commands (or if not, type .help). There you can find the commands like:
+
+.create - create and account
+.setgm - set someones account to be a GM
+
+if you only type .create or .setgm you will see the syntax like:
+
+syntax: .create  
+
+syntax: .setgm  
+
+------------------------------------------------------------------------------------     MBenjo"
+,MBenjo,2007-05-10T14:08Z,"lol it wont write down here... :@
+
+so syntaxes:
+
+.create    account name   account password
+
+.setgm    account name   GM level"
+,Mogff3,2007-05-19T16:39Z,"please, someone help me. add agent_bulldog89@hotmail.com if u think u could help please, im having trouble with MySQL with creating 2 new databases, please help!"
+,necm6,2007-05-29T17:44Z,"Vad ska man skriva som gm för att få mer penga?
+Har testat .money och några andra varianter men inget funkar..."
+,jihad33,2007-06-02T07:41Z,umm yea i ran all the sql files and everything but! when i go to restart server it crashes saying cannot find database help me out.
+,Skurt93,2007-06-03T12:21Z,"How do i create 2 new databases in SQL server? i got the program, but i cant figure it out how i suppose to do....
+
+O|SKURT|O"
+,Emaan,2007-06-05T16:18Z,"A few gm commands; 
+
+
+Learn to use a flying mount: 
+
+
+.learnsk 762 
+
+.learnsk 762 300 300 
+
+
+Find the .additem code for flying mount peep the phoenix; 
+
+
+.lookupitem peep (or phoenix) 
+
+
+You cal learn all skills/ spells when u search the code (spell/skill ID) with these commands; 
+
+
+.lookupspell (example: Pyroblast) 
+
+.lookupskill (example: two-handed swords) 
+
+
+You can add npc's aswell by using this command; 
+
+
+.lookupcreature (example ragnaros) 
+
+.addspw (spawn the creature) 
+
+
+Remember to use .del on the by you spawned npc because it wil be spawning forever untill you delete it. 
+
+
+You can make npc's horde or alliance by using these commands; 
+
+
+.npc (you get information about the selcted npc) 
+
+.faction (you can see the number by factionid in the npc info) 
+
+
+
+
+-------------- 
+
+btw, if you want to make your server L@n; press in the control window ""server administration"" and then follow the steps. Use the ip; 127.0.0.1 (this can differe with routers. You have to use CMD and use the standard gateway ip! 
+
+
+To make is a ONLINE server, do the same but then use the IP found at http://www.whatismyip.com 
+
+
+
+This was made to help ppl with their server by Eazymaantje.. Hope I helped y'all ! 
+
+
+you can contact me @ emmk89@msn.com"
+,Emaan,2007-06-06T09:41Z,"Due to a ery lot of adds on msn im no longer accepting msn adds. You can still email me for help.
+"
+,ROG360,2007-07-05T04:10Z,"Anyone know how to fix?Mangos 
+crashes when initaliing scripts...Please......"
+,joinix,2008-03-17T11:38Z,Thanks! I will seed if it works
+,PunkBuster09,2009-03-21T01:16Z,"Vid and guide of how to set up a private server
+
+http://www.d3scene.com/forum/wow-private-server-info-help/2423-how-make-your-own-wow-server-tbc.html"
+,PunkBuster09,2009-03-21T01:20Z,Seed plz

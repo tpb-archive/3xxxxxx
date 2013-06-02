@@ -1,0 +1,99 @@
+﻿User Type,Username,Date,Text
+,wackopath,2007-03-03T21:50Z,"damn! who thought Paradogs would make this happen?? ;)
+any one tried it yet and have it working?
+
+Peace!"
+,wackopath,2007-03-03T21:51Z,"btw. scanned ALL files and found NO malware , if anyone wonders..."
+,Â¤,2007-03-03T21:57Z,"Real release name is: OEM_BIOS_Emulation_Toolkit_For_Microsoft_Windows_Vista_X86.v1.0-PARADOX
+
+But piratebay dont support torrentnames that long.."
+,rcdzip2007,2007-03-03T23:32Z,"Shiiiittttt this works... THX """"X"""""
+,rcdzip2007,2007-03-03T23:33Z,"This works... THX """"X"""""
+,wackopath,2007-03-04T00:25Z,"i've tried this exactly as the readme says and i can't make it work. does this work on swedish vista too?
+i get the blue-screen after reboot saying something like ""royal.sys"" trying to write acces to read-only-memory bla bla bla...something...
+- any ideas??
+i had to uninstalled the emulation driver in safe mode and rebooted...
+some feedback would be nice, thx...
+
+Peace!"
+,The.hot.sex.,2007-03-05T13:02Z,Works... you guys rock :)
+,leomax,2007-03-05T16:58Z,"Thanks,Thats works :)"
+,confused20007,2007-03-06T08:48Z,"So if I buy an Asus notebook that supports SLP2.0 and has home premium  pre-installed, and I want to upgrade to ultimate, I can just re-install with ultimate, skip the driver, and just install the certificate and enter the new key?"
+,jordgubben.daniel,2007-03-17T16:29Z,"wackopack wrote:
+""i've tried this exactly as the readme says and i can't make it work. does this work on swedish vista too? 
+
+i get the blue-screen after reboot saying something like ""royal.sys"" trying to write acces to read-only-memory bla bla bla...something... 
+
+- any ideas?? 
+
+i had to uninstalled the emulation driver in safe mode and rebooted... 
+
+some feedback would be nice, thx... 
+
+
+Peace!""
+
+
+You don't happen to have nforce4 system on your computer. I have it and the same thing happened to me when i installed the SMbus driver. Well, your computer works without it, if its not already installed during the install of vista(mine was) i dont know, but there are ways to get around it..search for ""orbit30""(a user) or something, his cracks and you'll see there how to do=)...another update to btw, that fucks up royal.sys, cant remeber it right know though..."
+,newronuk,2007-03-21T11:54Z,"i get the blue-screen after reboot saying something like ""royal.sys"" trying to write acces to read-only-memory bla bla bla...something... 
+
+- any ideas?? 
+
+i had to uninstalled the emulation driver in safe mode and rebooted... 
+
+some feedback would be nice, thx... 
+
+SOLUTION:
+
+The BSOD error is caused by the Update from Microsoft named Nforce4 PCI-Express Root Port (also included in Nvidia drivers). 
+
+This is a guide to solve the problem: 
+
+1. If you got the BSOD, find a way (safemode or dualboot) to rename the file in windows > system32 > drivers > royal.sys to royal2.sys 
+
+2. Your should not get the BSOD the next time you restart. Go to Control panel - Device Manager. 
+
+3. Under System Devices you should see the Nforce4 PCI-Express Root Port. 
+
+4. Right-click and choose Properties. 
+
+5. Under the Driver tab choose Roll Back Driver. 
+
+6. BEFORE you restart rename windows > system32 > drivers > royal2.sys back to royal.sys 
+
+7. Restart now and it should be activated."
+,m0nstrosity,2007-04-18T20:31Z,"I try open this file and its asking me for a password to open it! its encrypted WTF!
+
+anyone know the pw?"
+,glitch21,2007-04-25T03:27Z,"hi need some help with this, kinda new to all this so any better clear guidlines would be great, im stuck on this part 
+
+4. Install the OEM certificate matching your OEM selection during driver installation by running
+
+   SLMGR.VBS -ilc .XRM-MS
+
+   (e.g. ""SLMGR.VBS -ilc C:\ASUS.XRM-MS"" if you chose to install the default driver and extracted
+    the certificate file to C:\)
+
+not really sure wot they mean on driver installation either 
+
+thanks people"
+,cRiMiNaL_Genius,2008-01-12T01:34Z,"Its PARADOX and yes it works, for ppl with brains that is..."
+,k-u-b-e-n,2008-01-19T13:19Z,"cant get it too work, only get this: ""the emulation driver could not be installed.
+Please make sure you are running this tool with administrative privileges.
+Otherwise please instal the driver manually.""
+
+i am running it as admin, when i install the driver manually windows wont work after reboot,
+
+what is the problem here??"
+,Rumudiez,2008-03-02T23:21Z,"""
+Windows Script Host
+
+Run 'slui.exe 0x2a 0x35' to display the error text.
+Error: 0x35
+""
+installed, rebooted, and ran SLMGR.VBS -ilc C:\ASUS.XRM-MS for step 4 - during which this came up.
+help?"
+,rmac,2008-04-25T00:26Z,"http://apcmag.com/its_official_pirates_crack_vista_at_last.htm
+
+
+Found this info about this product. Dont know but worth a shot."

@@ -1,0 +1,32 @@
+﻿User Type,Username,Date,Text
+,xenu dot net,2007-02-17T13:08Z,Thank u!
+,Cade78,2007-02-17T19:20Z,"Thanks again GasGiver, I only download/use your releases. They're the best! Keep up the good work!"
+,Tcip,2007-02-17T20:18Z,Any bugs in this one?
+,broder_o,2007-02-17T22:44Z,"Thanks GasGiver!
+
+Your releases are the best I've found so far of this excellent media player!"
+,g54pcys,2007-02-18T02:17Z,"Thanks GasGiver! Note to all, MC360 has been updated to 1.01, get it from their website."
+,R00RMONG3R,2007-02-18T15:15Z,"It is a shame that the new MC360 sucks ass. It looked way better before. The skin is all hype, there are better skins out there like clearity and xTV that actually have some style."
+,Tcip,2007-02-18T23:29Z,rolleboal - I'm lacy *blush*
+,newyorkricanbs90,2007-02-21T01:38Z,is there any way i can put this on a dvd-r and boot it up on my xbox i have it modded im not good with ftp some 1 help me i will gladly apreciate it holla
+,Tcip,2007-02-21T05:51Z,newyorkricanbs90 - It's easyer to ftp over the files.. You can't burn it and transfer it to your xbox. You need some tool/program to copy the files frome the dvd/cd to the harddrive.. So it is easest with ftp
+,R00RMONG3R,2007-02-23T08:31Z,"@TCIP and newyorkricanbs90:
+
+See what you could do is take the xbmc folder and copy it the put in the other xbmc folder. Then you could make a disc that has the contents of the ""outer"" xbmc folder in the root of the disc. Now because the defualt.xbe for xbmc is in the root of the disc it can be booted just like a xbox game. After being booted you will be using xbmc, then you could use it's file explorer to transfer the other xmbc folder you put in there to you desired location. But ftp'ing is way easier."
+,0rr,2007-02-23T09:44Z,for some reason I can't get info from IMDB.com. xbmc hangs when fetching info. anybody else having that problem?
+,0rr,2007-02-23T14:06Z,"went back to the release from january, 10th. IMDB requests work in this release but it doesn't put the thumbnails to the files anymore. I guess this is due to the changes on IMDB.com. they've been changing their website quite a bit. so, I'm waiting for the next release hoping to have that fixed. cheers."
+,fiende,2007-02-23T21:32Z,thanx gasgiver :)
+,naturaldisasta,2007-02-25T00:29Z,"The IMDB lookup fails at some folders where movies are rar'ed up. Unrar them and then it works without freezing.  Until this is recompiled using the latest source from XBMC since the IMDB layout change, you won't get much else other than thumbnails in any case..."
+,Tcip,2007-02-25T00:30Z,R00RMONG3R - Why tell me that?
+,naturaldisasta,2007-02-25T00:43Z,"More info on IMDB freezing or issues here:
+
+http://forums.xbox-scene.com/index.php?s=919f08b20b69989f76c4b0d73171ba1b&showtopic=562554&pid=3904174&st=15&#"
+,naturaldisasta,2007-02-25T01:04Z,"Found update scraper fixes most issues with IMDB layout change.  Download from here:
+
+http://xbmc.svn.sourceforge.net/viewvc/*checkout*/xbmc/trunk/XBMC/system/scrapers/video/imdb.xml
+
+Put in XBMC/system/scrapers/video and replace existing imdb.xml file.  Now grabs all video information instead of just thumbnails!"
+,Semi_Dead,2007-02-25T20:29Z,"how do you play video's and mp3's and such. like when i goto my videos, theres a bunch of options, but my hard-drives aren't listed, so i dnon't know how to select my video? - Any help (if i goto filebrower they are their)"
+,stoner81,2007-02-26T22:36Z,"works 100%.. nice 1 dude ur stuff has always worked for me...    Semi_Dead  if u mean ur pc hd, have u set-up a network??? if so just go to workgroup share, it should find ur pc, and the folders u have shared will be in there...
+dont share My Music or My Videos in My Documents 
+coz it wont work..... Windows wont let it. "

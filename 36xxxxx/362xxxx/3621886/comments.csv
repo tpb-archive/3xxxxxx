@@ -1,0 +1,30 @@
+﻿User Type,Username,Date,Text
+,Salem874,2007-03-03T22:53Z,"No need for a crack, it just works. Give it  a try. Only thing that wil not work is the AMG feature, all the rest works"
+,kiwi-guy,2007-03-06T07:35Z,"Hey, first of all thanks for the upload. Only thing is im experiencing this everytime i go to convert a file.
+
+CLI Encoder has not been configured, open the file \Program Files\Illustrate\dBpowerAMP\Encoder\CLI Encoder\encoder.txt and change the extension.
+
+All very good and well but what does one change it to?
+
+Can you help please?
+
+It still works but is annoying as it comes up every time.
+
+Also - will we need to register this at all? I see no crack is needed, just curious as to why - how?
+
+Many thanks on the upload."
+,antria1983,2008-11-18T09:06Z,don't download it!my antivirus found virus!!!
+,yadayadaya,2008-11-20T14:40Z,"antria1983 and I bet you antivirus is AVG, the POS false positive generator.  Seriously, AVG users should go away."
+,over4325,2009-05-05T06:28Z,"worked like a charm, so far anyway!"
+,camposanto,2010-03-30T12:07Z,"Answering to kiwi-guy:
+
+CLI Encoder uses external compressors (not native to dBpoweramp) to handle compression.
+
+Using a CLI encoder requires intermediate to advanced computer skills.
+
+If there is a choice to use a pre-created dBpoweramp codec (such as dBpoweramp's Ogg Vorbis codec, rather than oggenc.exe) then use dBpoweramp's instead, it will have better error reporting and ID tagging abilities.
+
+If your CLI Encoder isn't configured for dbPowerAmp and doesn't like to uninstall it, open encoder.txt in CLI ENCODER folder at: \Program Files\Illustrate\dBpowerAMP\Encoder\CLI Encoder\encoder.txt
+and change "".ext"" text into file to "".cli"" (ej.).
+
+It's all. DbPowerAmp will never report this error again."

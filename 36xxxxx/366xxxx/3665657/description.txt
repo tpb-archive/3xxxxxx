@@ -1,0 +1,33 @@
+FairUse4WM - a WM/DRM removal program and FairUse Commander, an improved front end.
+
+FairUse4WM is a GUI version of drmdbg that supports individualization version .3930 and some WM11 versions.
+
+FairUse Commander is an improved  FU4WM front-end.  
+*It will save your path settings
+*It will batch up calls to FairUse so it will call it 1 time for X files (in some cases it may have to make multiple calls to FairUse)
+*It allows you to specify a separate output path
+*It allows you to delete the original encrypted files (assuming you use the seperate output path)
+*It has the option to keep or remove the NoDRM prefix.
+
+NOTICE: This program is designed and intended to enable fair-use rights to PURCHASED media. Although the program will strip the DRM from any PlaysForSure file, whether you've purchased or just rented the song, it's your responsibility to ensure fair use of this program and your music. While there isn't support for license expiration/rental detection, please don't use this to abuse rental licenses.
+
+Basic requirements
+1. Windows XP
+2. Works with both individualized content and some DRMv1 files.  This means you need access to obtain new valid licenses for Purchased Media.  ie, you must own the content
+3. Supports WM9, WM10 and WM11beta1 and 2
+
+NOTICE: Do not install Windows Media Player Updates!!!!
+
+*******THIS PROGRAM WILL NOT WORK ON WINDOWS VISTA, THE ZUNE MARKETPLACE, OR UPDATED VERSIONS OF WMP BEYOND 11.0.5705.5043******
+
+You may downgrade your WMP to a working version by following the instructions at the links below.
+
+Instructions for installing FairUse4WM:  http://www.xarus.net/index.php?act=fair_use_4_wm&page=instructions
+
+Having problems?  Have questions?  See this link: http://forum.doom9.org/showthread.php?p=979596#post979596
+
+Need to download an older version of WMP 10 or 11 to make this work? 
+http://www.xarus.net/index.php?act=downloads&step=2
+
+The thread that started it all: 
+http://forum.doom9.org/showthread.php?t=114916

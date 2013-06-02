@@ -1,0 +1,139 @@
+This is the easiest way to create a wow private server. THIS ONLY WORKS ON WOW 1.12.x VERSIONS! Ill try to find a stable TBC Emu but its very rare.
+
+You can find the GM commands here: http://thegoldenknights.forumcircle.com/viewtopic.php?t=6&sid=fc5fb0f23cc57a2821379c15160c61e3
+
+
+Try and upload it as much you can. I have a small bandwith.
+
+
+
+---------------------------------------------------------------------------------------------
+
+System Requirements
+:
+
+Minimun:
+800+ MHz
+256 Ram
+Windows Server 2003
+
+Recomended:
+2 GHz
+1 GB Ram
+Windows XP
+
+(No special video or sound card is needed for the server)
+
+
+---------------------------------------------------------------------------------------------
+
+Instalation:
+
+
+
+1. Install ManGOS Platinum
+
+2. Go to mangos server folder and copy the file called ad.exe to your wow root folder (for example C:Program filesWorld of warcraft). Then make a folder called "maps" inside the WoW root folder.
+
+3. Run ad.exe
+
+4. When ad.exe has finished, cut the folder "maps" and paste it into the Mangos server folder.
+
+5. Run Mangos.exe, and click on "start-SQL". Two web pages will pop up. If they are showed without any problem, then the Mysql server is completely opened.
+
+6. Once the Mysql server is opened, go to Mangos.exe again and click on "Start Realmd" and "Start MangosDB". It will take up a minute more or less (depending on your PC) to completely load.
+
+7. Go to your WoW folder, and open the file called realmlist.wtf with notepad. Change the us.login..... to 127.0.0.1 . Save and cose the file.
+
+8. Open Wow and play!
+
+
+Note 1: Be sure you dont have Skype open! This program makes the SQL database (run.bat) unable to run correctly.
+
+Note 2: Be sure you dont have any MySQL or Apache running when you run start.bat! Close down your current MySQL server if you have one running (uninstall is not required, just close it - Use: ctrl+alt+del, and find process "mysql-nt" and close it.. Also close "Apache" if any of those are running.)
+
+Note 3: To make sure that start.bat is loaded successfully, a webpage comes up. When it comes up, wait 5 seconds, and then refresh it. If the page cannot be accessed or showed anymore, you have something that blocks for mysql to start! If it comes up with the exact same page again, loading was a success and you can go on.
+
+
+
+
+---------------------------------------------------------------------------------------------
+
+
+Useful tips:
+
+
+
+Creating an account:
+
+There are to ways of creating one.
+
+1. Go to the acc creation page and make one.
+2. Go to mangosd.exe console and type "create NAME PASSWORD" and hit enter.
+
+Making a player GM:
+
+Go to mangosd.exe console and type "setgm ACCOUNT GMLEVEL"
+
+The gmlevels are:
+0 = Player
+1 = Moderator
+2 = GameMaster
+3 = Administrator
+
+The gm commands can be found here: 
+
+Changing the xp and drop:
+
+Open "mangosd.conf" and edit where it says:
+
+Code:
+# Drop rates
+# Default: 1
+Rate.Drop.Items = 1
+Rate.Drop.Money = 1
+
+# XP rates
+# Default: 1
+Rate.XP.Kill    = 1
+Rate.XP.Quest   = 1
+Rate.XP.Explore = 1
+(1=Normal ; 2=double ; 3=Triple ; etc)
+
+Making the server Online:
+
+1. Open any web browser and go to this address: http://localhost/a/
+
+2. You should be now at your phpMyAdmin server. On the left upper side, there is a dropdown field;Click on it and select the realmd (4) Database.
+Again on the left side, at the bottom of realmd (4), click on the realmlist entry.
+ 
+http://img402.imageshack.us/img402/9...dminpg1.th.jpg
+
+3. Now, at the upper left part (where you can see Browse / Structure / SQL / Search / Insert / Export /Import / Operations),
+Press the Browse tab.
+Press Edit on the lower right tab (the green pencil)
+Now you should see following:
+
+4. Upper left, the actual server name (1) and server -address (2) is shown.
+Change the Server name as you wish.
+Change the IP to your internet IP ( www.whatismyip.com )
+Check if the dropdown says "Save" (3) and press Go (4)
+SQL Settings done.
+Close your browser-windows; click the [STOP SQL] button at ManGOS.exe
+
+5. Configuring WWW Registration/Realm Site for Users
+
+Go into your /diskw/www/ folder of ManGOS
+Open index.php and pomm_conf.php with notepad and search for the next line:
+
+Code:
+$server = "localhost";                  // Server adress (for realm status)
+6. Change localhost to your LAN/ INTERNET IP
+
+7. Enjoy your internet mangos server!
+
+
+Thanks to: 
+Skite2001 for the original and first MP
+DXP for the MP rev. 2865 and ignarausch for the tutorial.
+

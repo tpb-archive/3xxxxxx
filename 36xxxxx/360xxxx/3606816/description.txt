@@ -1,0 +1,15 @@
+Damn Small Linux 2.1 RC1 
+Damn Small Linux (DSL) is a very versatile 50MB mini desktop oriented Linux distribution. It includes a fully automated remote and local application installation system and a very versatile backup and restore system which may be used with any writable media including a hard drive, a floppy drive, or a USB device. It has a nearly complete desktop, and many command line tools. All applications are chosen with functionality, size and speed in mind. It includes XMMS (MP3, CD Music, and MPEG), FTP client, Dillo web browser, links web browser, FireFox, spreadsheet, Sylpheed email, spellcheck (US English), a word-processor (FLwriter), three editors (Beaver, Vim, and Nano [Pico clone]), graphics editing and viewing (Xpaint, and xzgv), Xpdf (PDF Viewer), emelFM (file manager), Naim (AIM, ICQ, IRC), VNCviwer, Rdesktop, SSH/SCP server and client, DHCP client, PPP, PPPoE (ADSL), a web server, calculator, generic and GhostScript printer support, NFS, Fluxbox window manager, games, system monitoring apps, a host of command line tools, USB support, and pcmcia support, some wireless support.
+
+___________________________________________________________________________________
+
+Damn Small is small enough and smart enough to do the following things:
+
+    * Boot from a business card CD as a live linux distribution (LiveCD)
+    * Boot from a USB pen drive
+    * Boot from within a host operating system (that's right, it can run *inside* Windows)
+    * Run very nicely from an IDE Compact Flash drive via a method we call "frugal install"
+    * Transform into a Debian OS with a traditional hard drive install
+    * Run light enough to power a 486DX with 16MB of Ram
+    * Run fully in RAM with as little as 128MB (you will be amazed at how fast your computer can be!)
+    * Modularly grow -- DSL is highly extendable without the need to customize

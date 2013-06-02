@@ -1,0 +1,79 @@
+TFR changes (added to several a/c)
+Mirage 2000 plock fix
+Delete INS as an option in config editor
+NWS roll linking in cfg
+skin fixes
+- transparency in ships
+- F-16 transparency
+DF map UI fix
+Deuky's tod.lst made the current one (alleviates HUD visisbility issue)
+dogfight fixes
+tacetool.scf fix
+F-22 .dat fix
+object fixes
+
+
+PS 1.61
+- secondary explosions now will come from targets, and not from weapons. 
+Bombs used to generate secondaries even when targets was destroyed already. this is now fixed. 
+
+- Vehicles' smoke trails smaller.
+
+- CBUs effect is more realistic now, spreading differently and more 
+depended on bombs velocity.
+
+- Vehicles now will produce their own secondary explosions when 
+destroyed.
+
+- Burning fire smoke plumes are now more dense near the ground.
+
+- Fire texture tweaked.
+
+- Spyder trails tweaked.
+
+- more random types of AA missiles and AC explosions.
+
+- AAA tweaked.
+
+- Gun hit effect now has a surrounding "light" added to it. 
+
+CTD fixes
+- FIXED CTD if a missing DDS, a missing DDS will now make a surface white but no CTD
+- FIXED CTD when player requesting clearance for landing on carrier
+- FIXED CTD when combat AP trying to change radar mode
+- FIXED CTD Threat Circles in UI
+- FIXED CTD Caused by missing DF variants
+- FIXED CTD in Munitions UI
+
+OTHER
+- FIXED Displays out of place with SA Bar on
+- FIXED DLZ Out of place on Hud
+- FIXED Labels overlapped by distance labels in ACMI
+- FIXED Cloud shadows disappearing with uncaged weapons
+- FIXED Floating buildings in 2D Pit
+- FIXED 2D Pit Scaling in spare resolutions
+- FIXED 2D Pit Low Black Stripe in some non 4:3 resolutions like 1280x1024
+- FIXED HUD Infinity projection to be used on any 3D pit
+- FIXED Entry Pie 5 Hang
+- FIXED altitude for choppers to a more realistic value
+- FIXED Viper Engine performances to something more realistic
+- FIXED AGM MFD See thru
+- FIXED AGM-88 midair explosions and exlosions direct after launch when launched maddog
+- FIXED AI visullay spotting at extreme long range
+- FIXED MP Parking Bug
+- FIXED MP ATC not Calling clients
+- FIXED MP Autopilot on while entering the game
+- FIXED DF Map Arena entry point
+- FIXED DF Weapons Load Bug
+
+- ACMI Labels distance no more depending on F4 Patch setting... now it defaults to 150 Miles
+- ADDED multiple kneeboards support in the same 2d cockpit 
+- ADDED router support on client side (no port forwarding needed anymore for clients)
+
+- Tanker using now a bigger LOITER DIstance to make easier refuelling
+- SAR missions back -> more atmosphere in campaign
+- Air Mobile now 2 - 4 ships regardless how many ground units to pick up
+- Air Mobile battalions now bigger... have better chance to survive
+- All AC wich have IFF now can use EWS programs
+- Leave Splash Screen now scaled to any resolution size
+- 3D World window now appearing always in the center of the display in windowed mode

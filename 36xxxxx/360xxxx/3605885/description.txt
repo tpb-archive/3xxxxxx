@@ -1,0 +1,52 @@
+Secure EAC rip + FLAC 1.1.3a encoding. Single large FLAC audio file, with CUEsheet file and EAC log.
+
+Use an app like CUE Splitter to split to individual songs, or something like burnatonce to burn an exact CD copy.
+
+Track Listing:
+==============
+01 - 9 to 5
+02 - Gatheration
+03 - Random
+04 - Public Warning
+05 - Love Me Or Hate Me
+06 - My England
+07 - Tango
+08 - A Little Bit Of Shhh
+09 - Hoodie
+10 - Those Were The Days
+11 - Blah Blah
+12 - Fiddle With The Volume
+13 - Love Me Or Hate Me (Remix ft. Missy Elliott)
+
+
+And here's a paste of the EAC log:
+----------------------------------
+EAC extraction logfile from 19. January 2007, 16:58 for CD
+Lady Sovereign / Public Warning
+
+Used drive  : _NEC    DVD_RW ND-3520AW   Adapter: 0  ID: 0
+Read mode   : Secure with C2, accurate stream, NO disable cache
+Read offset correction : 0
+Overread into Lead-In and Lead-Out : No
+
+Used output format : Internal WAV Routines
+                     44.100 Hz; 16 Bit; Stereo
+
+Other options      : 
+    Fill up missing offset samples with silence : Yes
+    Delete leading and trailing silent blocks : No
+    Native Win32 interface for Win NT & 2000
+
+
+Range status and errors
+Selected range
+     Filename D:FLACArchive6Lady Sovereign - Public Warning.wav
+
+     Peak level 100.0 %
+     Range quality 100.0 %
+     CRC EFBAF27C
+     Copy OK
+
+No errors occured
+
+End of status report

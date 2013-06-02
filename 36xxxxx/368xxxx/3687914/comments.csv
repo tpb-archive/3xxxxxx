@@ -1,0 +1,77 @@
+﻿User Type,Username,Date,Text
+,LatinSniper,2007-05-14T16:01Z,"All I got to say is that it works .
+Fuck paying Extra for Ultimate."
+,manneman32,2007-05-14T18:27Z,"I know this works... but itÂ´s only a question of time until Microsoft finds a solution via Windows Update... 
+I wonÂ´t be surprised if a legal copy of Vista Home Premium, or other version, will be banned after patching this... and for what use? 
+
+Not worth it, man..."
+,spamedd76,2007-07-21T01:30Z,"MY GOD ARE YOU FULL OF SHIT, THIS DONT WORK,  I TRYED AND ALSO A VERY GOOD FRIEND OF MINE WHO IS A WIZZ ON A COMPUTER TRYED AND NIETHER OF USE COULD INSTALL IT, SO TAKE YOUR PIECE OF SHITE AND RAM IT AS FAR AS YOU CAN,,,,,,,,,,,DAMN FECKIN PRICK WASTIN TIME,"
+,jnd,2007-08-11T15:41Z,Always be skeptic of people writing in all caps. :-p
+,rturner2,2008-01-01T15:28Z,BEWARE of torrent it does not work
+,hoppedurre,2008-02-10T21:52Z,"its possible you have to change language on windows to english before installing it., and after the install, you can change back to your own language., i havent tried it my self, i have ultimate, so no need ;) but this is only a thought i have.., please post a answer if it works., "
+,Eastcoast_pirate,2008-03-07T20:50Z,Works fine retards
+,herc01111,2008-03-09T10:20Z,"this definately does work...however if you do the above install as directed and it still dont work try this...
+
+1. Download the patched DreamScene files as above and unpack to a folder.
+2. Copy DreamScene.dll to %WinDir%\System32\ folder.
+3. Copy DreamScene.dll.mui to %WinDir%\System32\en-US\ folder.
+4. In Windows Explorer, navigate to %WinDir%\System32\ folder.
+5. Right click on themecpl.dll file, and click on Properties on right click menu.
+6. Select the Security tab, then click Advanced.
+7. Subsequenly select the Owner tab, click Edit button. Press Continue (or log in if you?re not Administrator) on any User Access Control prompt.
+8. Select your Vista logon user name, then click OK button. Then click OK in any dialog window that pops up, and press OK again at Advanced Security Settings window.
+9. On Security tab, click the Edit button. Press Continue (or log in if you?re not already an Administrator) on User Access Control prompt.
+10. Click Add button, and click on Advanced button. Next press Find Now button, and then select your logged on user name. Press OK when done.
+11. Click OK again on Select Users or Groups dialog.
+12. On Permissions for themecpl.dll window, highlight your user name, and check the box next to ?Full Control? under ?Allow? column. Hit OK when done, and confirm any message. Click OK twice to exit from ownership taking process.
+13. Rename the file themecpl.dll in %WinDir%\System32 to themecpl.dll.original.
+14. Copy the patched version of themecpl.dll to %WinDir%\System32\ folder.
+15. Repeat step 4 - 12 on themecpl.dll.mui file located in %WinDir%\System32\en-US\ folder.
+16. After taking ownership, rename the file %WinDir%\System32\en-US\themecpl.dll.mui to themecpl.dll.mui.original.
+17. Copy the patched version of themecpl.dll.mui to %WinDir%\System32\en-US\ folder.
+18. Create a new folder in %windir%\Web named ?Windows DreamScene? (without quotes). This is the location to place all your videos want to set as DreamScene wallpaper, and can be easily configured via Control Panel Personalization applet.
+19. Lastly, import and merge DreamScene.reg to registry.
+20. Reboot computer.
+
+I know it seems like alot, but trust me its good. 
+also you will need to find some vid's for it as it comes with none. the just ""right click"" and enjoy"
+,Reynardin,2008-09-10T08:07Z,"not working for me, and i can't access ""personalization"" in my control panel anymore.. i think it has something to do with that registry. Any way i can undo this?"
+,X-machina,2008-09-12T17:08Z,"This works fine, do as it says.
+
+some idiotic comments here, bish bash bosh, simple u have it.
+
+Don't be put off by the file size, your computer is already capable to perform this action.
+
+Dreamscene is a product, money as is Ultimate.
+
+For the average computer this will affect cpu speeds....... bear this in mind.
+
+yes some idiotic comments here."
+,omegastar013,2008-11-14T11:46Z,herc01111 thank you that worked!
+,ecstas_z,2008-12-02T00:48Z,It worked fine for me...  East to install too!   now I'm on a quest for more movies.  
+,jabmanthehutt,2008-12-12T17:44Z,"Works excellent on my 32bit Vista Home Premium, thanks!"
+,McSeedingtons_The_Name,2009-01-21T21:59Z,"great upload... i followed steps 1-20 n it worked perfectly, i couldn't even wait to restart the pc so i just restarted explorer"
+,pixeljunky,2009-07-08T02:35Z,"Use at your own risk. I just tried this and now when i right click on my desktop and go to personalize i get ""the page failed to load"". Anyone got any idea how to fix this? =/"
+,Hobbes203,2009-08-13T06:50Z,"I followed the instructions both in the comments and the guide by the author. Both lead me to ""the page failed to load"" Any help?"
+,blahspam1,2009-09-08T07:52Z,"Installed on vista 64 bit and did not work, in addition when I right click on the desktop and click personalize it says that the window cannot be displayed.  I ran a system restore which repaired windows and then downloaded a different dreamscene installer (the 64-bit one for windows 7) which worked fine on vista 64 bit.  Beware of this torrent as a quick google search will show a lot of people are having this same problem.  It may work for some... but clearly not others"
+,Stupid_banget,2009-10-11T16:40Z,"dats work fine..just do a simple think,
+
+1.copy ur original themecpl.dll.mui and copy themecpl.dll to any folder (for back up if it not succes)
+2.then copy the download dreamscene.dll and dreamscene.dll.mui and themecpl.dll.mui and  themecpl.dll to system32 in windows folder
+3.run as administrator ""installdreamscene.bat) click y
+3.then copy the download again= dreamscene.dll and dreamscene.dll.mui  themecpl.dll.mui and themecpl.dll to system32 in windows folder again
+4.merge DreamScene.reg to registry
+
+log off and enjoy it :)
+i tried in Vista Home Premium, work 100%
+Already stupid,my english still no improving"
+,Stupid_banget,2009-10-12T17:26Z,==>> Correction
+,Montecarloo,2009-11-23T11:20Z,"100% works, thanks!!
+
+""1.copy your original themecpl.dll.mui and copy themecpl.dll to any folder (for back up if it not succes)
+2.then copy the download dreamscene.dll and dreamscene.dll.mui and themecpl.dll.mui and themecpl.dll to system32 in windows folder
+3.run as administrator ""installdreamscene.bat) click y
+3.then copy the download again= dreamscene.dll and dreamscene.dll.mui themecpl.dll.mui and themecpl.dll to system32 in windows folder again
+4.merge DreamScene.reg to registry
+
+log off and enjoy it :) """

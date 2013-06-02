@@ -1,0 +1,24 @@
+1: download the torrent.
+
+2: make a backup of C:windowssystem32slmgr.vbs (in case the keygen works, replace it back with the original)
+
+3: use slmgr.vbs from the zip-file to replace the one in C:windowssystem32. If you have problems with permissions, select file...goto properties....take ownership....then change permissions.
+
+4: write down your partial or entire productkey. You can check your key with "magic jellybean" (from our pack)
+
+5: goto Start > Run, type "cmd" and OK. Now type "C:windowssystem32slmgr.vbs -ipk generate". A process called "wscript.exe" will start and can take quite a lot of CPU resources. It will check aprox. 10000 keys per 30 minutes.
+
+6: now the waiting begins. It can take very very very long before you get some results
+
+7: after some time (hours, days) check your productkey with "magic jellybean" again to see if it has changed
+
+8: if your serial has changed try to activate Vista by going to Start > Run. Now type the command "C:windowssystem32slmgr.vbs -ato"
+
+DONE!
+
+KEYGEN PROVIDED BY SRIXON...thanks folkes for your "patience!" Laughing
+
+DISCLAIMER: under no circumstances should anyone sell the key that they generate. I do not support Piracy, this was simply an experiment in which i used to practice my vbscripting. This was just for fun and was a complete accident! sorry for cracking your beautiful operating system BILL GATES
+
+
+SrixTorrent@Gmail.com

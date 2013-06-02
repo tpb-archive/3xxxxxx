@@ -1,0 +1,159 @@
+ Latest SVN compiled with extra skins, few scripts and a bunch of codecs, tried to leave as clean as 
+ possible but still have enough functionality 'Out of the Box' to be the full experience from an awesome 
+ platform that is XBMC.
+
+ Included are the latest version of the following skins from xbmcskins svn...
+
+- CEOMR
+- Clearity
+- Containment *** NEW
+- MC360
+- PDM
+- Project Mayhem I *** Removed
+- Project Mayhem II *** Removed
+- Project Mayhem III
+- Project Mayhem III Lite *** Removed
+- Vision
+- Xbox-Classic
+- xTV
+
+ I have changed nothing just done a clean compile and added the above skins, any questions/bugs need to 
+ goto the original authors.
+
+ XBMC errors to http://www.xboxmediacenter.com/wiki/index.php?title=HOW-TO_Submit_a_Proper_Bug_Report
+ XBMC questions to http://www.xboxmediacenter.com/forum/
+
+ CEOMR - Ceomr
+ Clearity - Smokehead
+ Containment - CHI3f
+ MC360 - Team Blackbolt 
+ PDM - Smokehead
+ Project Mayhem I - Jezz_x
+ Project Mayhem II - Smokehead 
+ Project Mayhem III Lite - Smokehead
+ Vision - NineT9Mustang / Jezz_x
+ Xbox-Classic - Jezz_x
+ xTV - CHI3f 
+
+I will be building these on a weekly basis for those interested.
+
+Have now removed the older Project Mayhem skins, will add Slate at a later date if it ever gets a svn repository.
+
+LinksBrowser is now included.
+
+
+***!!!*** XMBC CHANGELOG ***!!!***
+
+Revision: 8765
+fixed: invalid types for dllaccept function
+
+Revision: 8763
+fixed: crashes in dvd player due to misunderstanding of std::stringstream usage after TinyXML change to use std::io
+
+Revision: 8762
+fixed: minor type in CFileStream which hindered the use of a backbuffer
+added: seeking using internal buffer in CFileStream for offsets from current position
+
+Revision: 8760
+changed: use new CFileStream to read playlists, means file need not be completly buffered into memory before attempting to parse it.
+
+Revision: 8759
+changed: allow play using on playlist files ( will only actually play first item with the selected player ). normally only single item playlists are considered playlists anyway ( unless playlistsasfolders is disabled ).
+
+Revision: 8758
+changed: removed logging of statting in emulation layer, python logged a silly amount on that.
+
+Revision: 8757
+fixed: emulated bind function would fail on localhost address "127.0.0.1" and on xbox ip address.
+fixed: emulated accept function would return xbox socket pointer instead of index to emulation socket.
+
+Revision: 8756
+fixed: play using didn't work on stacked items
+
+Revision: 8754
+fixed: very odd usage of bool pointer during python ListItem_Select. It worked by pure chance :).
+
+Revision: 8752
+fixed: Albums weren't removed from the library when all the songs had been removed if an albuminfo lookup had been performed.
+
+Revision: 8751
+added: Ability for contextmenu buttons to use vis conditions, to allow different looks for different places in the skin.
+
+Revision: 8743
+Author: jmarshallnz
+changed: Multipaths are now the default.
+
+Revision: 8742
+added: support for vp7vfw.dll in DllLoader and by that in mplayer. don't expect very high performance as it seems about as complex to decode as h264
+
+Revision: 8741
+fixed: compile error
+
+Revision: 8740
+fixed: Song information showed up in context menu on a smart playlist.
+
+Revision: 8739
+Fixed : PM3 Navigation in Smart Playlist Editor 
+Changed : PM3 Layout of SmartPlaylistRule.xml to better match rest of pm3 dialogs 
+
+Revision: 8738
+fixed: New smart playlist dialogs didn't have strings assigned to them.  They're smartplaylisteditor and smartplaylistrule.
+
+Revision: 8737
+added: Python methods select() and isSelected() to the listitem
+changed: Python documentation for listitem
+
+Revision: 8736
+added: loop="true" ability to conditional animations.
+
+Revision: 8735
+fixed: Comment reading in id3tags just read the first comment.  Now reads the first non-empty comment.
+
+Revision: 8734
+fixed: And the rest of the build profiles.
+
+Revision: 8733
+fixed: XBMC_PC release build.
+
+Revision: 8732
+fixed: Compile issue with release build.
+
+Revision: 8731
+fixed: Wrong item was highlighted in music when playing in sort by file mode.
+
+Revision: 8730
+fixed: typo in previous commit about multiple buffers during render
+
+Revision: 8729
+changed: added xbmc root to default include directory and changed stdafx.h includes to not use ../stdafx.h specification. those won't normally be detected as precompiled headers anyway.
+
+Revision: 8728
+fixed: HQ Pixelshader - V2 would not display any image in window mode / calibration
+
+Revision: 8727
+changed: minor fix for deletion of buffers when allowing direct rendering
+
+Revision: 8726
+changed: added prototype for CApplicationMessenger as some places manage to include Application.h without stdafx.h
+
+Revision: 8725
+added: CFileStream layer based on std::istream, allows using >> functions from files
+changed: enabled TiXML STL functions to allow direct reading from CFileStream objects, skipping string buffering
+
+Revision: 8724
+changed: don't include stdafx.h from .h files
+
+Revision: 8723
+changed: don't registry access in DllLoader normally as wm9 dll's loag a huge ammount then.
+
+Revision: 8722
+changed: defining static string arrays in .h files which is included in every file isn't the best.
+
+Revision: 8721
+fixed: Parent file items were missing from cached file lists - missed the path.
+
+Revision: 8720
+fixed: Parent file items were missing from cached file lists.
+
+Revision: 8719
+added: Workaround for invalid iTunes id3v2 tags (eg TCP and TCMP).  Wish they would just stick to the standard!

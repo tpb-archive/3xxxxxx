@@ -1,0 +1,25 @@
+Patch for Open Falcon V 4.3
+
+(see hxxp://thepiratebay.org/tor/3616283/Open_Falcon_4.3)
+
+Unzip this hotfix then copy and paste into your Falcon 4 folder after installing OFV4.3. Override the files and u are good to go.
+
+All other Hotfixes 1,2 and 3 are now obsolete.
+
+Some of the fixes include:
+- Fixing Parent error on Mirage 2000 giving a CTD when going AB.
+- 4.2 A-10 3d cockpit back (new one has the stick texture broken)
+- Too big shadow on AM-NL, AM-NO and 52+ fixed
+- 3dbuttons.dat fixed.
+- HAD in DTC fixed.
+- Old ALQ-131 skins back.
+- PRI/SEC switch callbackslot number on art/ckptart/16_ckpit.dat fixed.
+- 600 fuel tank in SSD for CCIP and HAF F-16s.
+- Fixed CTD with Storage tank (Parent 288) + damaged texture for it. (DrawPolyATGL).
+- Fixed 600 gal tank last lod with Ptype9 and no texture which could causes a CTD.
+- Replacement of a missed old taxisign at Kimpo.
+- Fixed campmap (default art/resource folder) which were broken (BIG_AWACS_MAP_ID one). Before, the awacs view was not displayed when asked in F4Patch. It is now. Same maps as before.
+- Updated textures for F-16C-40/42/50/52 and F-16D-40/52 bottom to have 4 dispensers on it.
+- Updated dispensers for F-16C-40/42/50/52 and F-16D-40/52 in acdata to have 4 dispensers.
+- Fix for wrong taxisigns on Wonsan/Kadena
+- Rack 2 bombs and Rack 4 bombs fixed for Mirage 2000

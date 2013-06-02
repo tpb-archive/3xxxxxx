@@ -1,0 +1,16 @@
+Opis ze strony autora:
+
+ Program jest oddzielnym podprojektem, którego zadaniem by?o stworzenie programu potrafi?cego z grupy skrzynek pocztowych zrobi? wirtualny dysk twardy. Program korzysta z standardów opracowanych na potrzeby projektu E-Swapp w zakresie kodowania i automatycznego dzielenia/??czenia plików/porcji danych. Program jest kompatybilny z standardem MIME, dzi?ki czemu mo?na zobaczy? pliki na "wirtualnym dysku" b?d?ce za??cznikami standardowych listów. W tym przypadku jednak przyj?te zosta?o uproszczenie polegaj?ce na skanowaniu tylko pocz?tku listu (dalsze za??czniki nie b?d? rozpoznawane).
+
+Ogólnie z kilku skrzynek pocztowych tworzy on wirtualny dysk.
+Istnieje mo?liwo?? dodawania folderów itd. Szybko?? pracy zale?y od szybko?ci ??cza.
+Oczywi?cie dane mo?na udost?pnia? bez udost?pniania u?ytkownikom 3cim danych na temat kont na których sie znajduj? pliki. Ma tak?e mo?liwo?? miedzy-Edkowej wymiany plikami .
+
+Wi?cej informacji na stronie: http://bora-komp.pl/e-swapp.php3?dzial=64&aid=1
+
+Osobi?cie u?ywam do przetrzymywani plików programów do których wychodz? cz?sto aktualizacje i nie op?aca sie nagrywa? a nie mam ochoty ?ci?ga? za ka?dym razem.
+
+W paczce: E-Dek.zip wersja najnowsza czyli 1.79 .NET frameworkc1.1 (niezb?dny do dzia?ania) oraz mój dysk jakby kto? chcia? sprawdzi? czy dzia?a.
+
+P.S Program darmowy ale prawdopodnobnie nikt o nim nie s?ysza? dltego wystawiam.
+P.S2 Aby unikn?? pyta? kiedy? mi chodiz?o na NET framework 2.0 ale ostanio jako? szala?o mo?e dltego ?e wina zmieni?em.

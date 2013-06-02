@@ -1,0 +1,16 @@
+Craagle v1.91 itself is not a trojan, but this torrent is: 
+ 
+http://thepiratebay.org/tor/3621595/Next_generation_of_Crack_search_engine_Craagle 
+
+It makes a directory C:\WINDOWS\SYSTEM32\SYS32, sets the attributes to system (+S) so windows cant see it and installs the trojan YERM.EXE. This trojan makes frequent screenshots of your desktop and tries to upload them to a server. 
+
+YERM.EXE is NOT shown in taskmanager thanks to microsoft.
+
+Actions to take : 
+
+1. use utilities from sysinternals to manually monitor your PC (from before they were
+   taken over by microsoft)
+
+2. use a firewall with tight security (try Kerio)
+
+3. configure automatic full system virusscanning of your pc every night.

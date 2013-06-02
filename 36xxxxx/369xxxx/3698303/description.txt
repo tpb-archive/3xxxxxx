@@ -1,0 +1,25 @@
+3D GameStudio A6 Pro (AckNEX Engine)
+____________________________________
+
+3D GameStudio is an excellent package for complete game developement environment.
+
+It contains
+
+Level Editor / World Editor (WED) - To design complete levels for your game, and with simple WYSIWYG editor
+
+Model Editor (MED) - Import 3DS or DirectX model in this editor and rig it, animate it as per your wishes. Easy to understand. You can even make your own models (Characters - Player.. Enemy.. Ally.. Etc., Sprites, Decoration etc.)
+
+Script Editor (SED) - After making the level, and filling it with live models, you will have to do some coding to actually make them behave in a certain manner. The language of programming is C-Script (a very easy version of C) which can be learned  and mastered within a week. SED is the editor for C-Script language, and its really excellent..
+
+(To decrease size, reference manuals were ripped which can be downloaded from conitec download page for free.. You can also download additional CScript samples, Workshop, WED tutorial for FPS games etc.. 
+http://www.conitec.net/english/gstudio/download.php )
+
+
+The acknex engine
+_________________
+
+The engine is the core of the development system - it generates the 3D image and controls the behavior of the virtual world. GameStudio's A6 virtual reality engine was developed in 2003. Due to its combined BSP-Tree and terrain renderer, it handles indoor and outdoor sceneries equally well. Its lighting engine supports static and dynamic shadows cast from moving light sources. The threefold culling algorithm renders huge worlds extremely fast even on old hardware. Programmers can use plugins for adding new effects and features.
+
+You can use this acknex engine (WHICH IS IN-BUILT, you can find it in Bin Folder of installation dir.) to code in C++ (Microsoft VC++ or Borland C++ or whatever you like) instead of C-Script. But that is for very advanced users, for beginners C-Script is recommended.
+
+THIS IS A PROFESSIONAL QUALITY ENGINE.. so if you can master the language, you will be able to make professional quality games!

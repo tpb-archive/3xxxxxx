@@ -1,0 +1,84 @@
+﻿User Type,Username,Date,Text
+,BigGuy43,2007-01-22T12:57Z,"This software installs with the German language. All you need to do is go into basic settings and change it to your language then its done. If you dont have much SD card space,or not enough for the map, delete all the non-used sound sfs files from the sounds directory, should save you 50MB or so :)"
+,cyanopsis,2007-01-28T11:12Z,do you need a working map (unlocked) just to take a look at the program itself? I put the files on an empty sd-card.. but couldn't get anywhere... Using a transonic 6000 pna.
+,morbror67,2007-01-28T20:45Z,is it possible to update a Mio 269+ running with Navigon 5 and use the .map files that also work on a PDA..?
+,cyanopsis,2007-01-28T21:14Z,I would guess that the maps for the PDA is the same as the PNA (look in the PDA torrent for the nordic map)... they have the same filename.. but they need to be unlocked nevertheless.
+,Spliffmaster,2007-01-29T03:08Z,"when i try to install MN6 it just said, writing remove programs. It´s not installing like it should, its a median 240t navigator. Please Help"
+,vidik,2007-02-02T19:39Z,"The same problem with installation on PNA Medion 240T, can not install.... Any help appreciated. "
+,rendben,2007-02-06T19:12Z,Works great on my PNA6000T with Nordics_MN60.map from http://thepiratebay.org/tor/3592519/Mobile_Navigator_6_PDA_[Pocket_PC]_Navigon_[Multi] Thank you!
+,magh,2007-02-09T21:19Z,"Hi Guys
+
+I have Transonic PNA6000T with Navigon 5.2.
+Is it possible to upgrade it to versin 6 with this update and use the MN6 maps from here (TPB).
+
+I am a newbie in this area, if possible could anyone post a short instruction.
+
+Thanks a lot."
+,ZukaDL1000,2007-02-10T22:18Z,"Instruction for updating Transonic PNA6000 from MN5.2 to this MN6 version:
+
+1. Download this torrent. Extract the ZIP-archive.
+
+2. Copy all the files to a SD-card. I used a 1Gb SD. After that moment, it'll be a MN6-folder with files and subfolders, and two ROOT-files (MNAVDCE.CAB and AUTORUNCE.EXE) on the SD-card. I use an USB Multicard-reader to copy files and folders directly to the SD-card from my HDD.
+
+3. Download the Nordics_MN60.map as shown above in the forum. Copy this mapfile in the ROOT of the SD-card too. Although it is originally for PDAs, it works fine with the PNA too. I seems that PDA and PNA mapfiles are the same.
+
+4. Place this SD-card in your PNA6000, and turn the ON/OFF hardware-switch in the bottom to OFF. Then turn it to ON again.
+
+5. Start the PNA, and the upgrade process starts. Choose the language you want. I chose SWE, and it works 100%.
+
+Good Luck!"
+,Matscher,2007-02-10T23:14Z,"Hi!
+
+Thx ZukaDL1000...I have updated my Transonic PNA6000T from Navigon 5.2 to 6, successfully. 
+
+The PDAs Maps and the PNA Maps are the same.
+
+It works great with the Germany_MN60.map from http://thepiratebay.org/tor/3592519/Mobile_Navigator_6_PDA_%5BPocket_PC%5D_Navigon_%5BMulti"
+,ZukaDL1000,2007-02-11T18:19Z,"More tips! Surf to www.navigon.com and click their ""download center"". Then click ""Update MN6.1 PNA available"". This update works 100% and upgrades the 6.0 to ""MN6.1-build 555"" with releasedate 061222.
+Faster calculating routes, new logbook etc included.
+Follow the instructions, Good Luck!"
+,magh,2007-02-12T21:43Z,"Thanks a lot ZukaDL1000.
+I did the same, but my mistake was not to reset the device.
+Thanks again.
+Is there anyone who has the British-Island map from MN6?"
+,basse17,2007-02-24T13:02Z,"Can it be installed on a medion pna400
+and if so ,how."
+,basse17,2007-02-25T11:53Z,"it can but there are files missing in the cab file,
+got the fulle sd version there the cab file ,contains 3 more files and then it worked
+so this one sucks"
+,Rutor,2007-02-28T22:51Z,"PNA 6000T
+Kanske du kan hjälpa mig? min mjukvara till själva GPSen är trasig, så jag behöver någons backup som kan återställa mina filer.   
+I Microsofts Active sync (som medföljer hårdvaran), finns det ett program fixar backup filer för mjukvaran.
+Den måste ju gå att kopiera, Jag vore evigt tacksam om någon kunde hjälpa mig. 
+min email: ulfnordstrom@hotmail.com"
+,calyps82,2007-03-19T17:55Z,"Någon som har provat att installera på en Transsonic 6000T ?
+
+GPS:en säger att den inte hittar installationsfilerna på SD-kortet, trotts att installationen av programmet gick utmärkt till sd-kortet.
+
+Någon som vet mer om detta?"
+,roccostanicic,2007-07-08T22:22Z,it works on my transonic pna 6000T - thanx a million!
+,ceprove,2007-07-27T00:19Z,"I'm new.  How do I download a torrent?
+cp"
+,swegot,2007-08-14T20:57Z,"Jag försöker installera navigon 6 på min Medion 350
+
+men den startar om hela tiden under installationen
+Den kommer till ""removing previus version"" sedan startar om, och samma sak igen.
+
+Jag använder navigon 5 och den funkar bra.
+men går det att uppgradera till MN6
+
+Har on testat eller kan hjälpa
+skulle vara tacksam"
+,swegot,2007-08-14T21:10Z,"I´m trying to update my Medion 350 like ZukaDL1000 wrote in his comment
+
+I have MN5 on my Medion 350
+but when upgrading my Medion 350 it restart in the middle of the installation.
+
+It tried to delete previous program, but crashes
+when it restart the installation begins and I get a massage that I have Navigon already installed press OK to reinstall
+
+When I press OK it crashes and restart, and it repeats itself.
+
+is it possible to install MN6 on Medion 350, if yes how ??"
+,pandaone,2007-10-20T16:06Z,"Er det kun mig der har en Medion PNA 150.Efter der skulle være solgt over flere 1000 i danmark.Er det mærkeligt at hvis man spørger i ferskellige forums er der ingen der svare på ens spørgsmål..........................................Jeg prøver igen,jeg har downloaded denne her fil + Europe mn60.map,kopiere det hele over på et SD kort,som jeg har formatteret i FAT.Når jeg sætter kortet i GPS installere den ikke.Hvorfor.TAK"
+,redmann91,2008-01-26T09:17Z,I have a transonic 3002 with navigon 5 can i update it to navigon 6 and download us maps for it will it still work

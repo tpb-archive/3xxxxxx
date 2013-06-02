@@ -1,0 +1,96 @@
+﻿User Type,Username,Date,Text
+,JANHUBERT,2007-02-19T20:38Z,What type of files are that?
+,lawin,2007-02-19T20:58Z,How do you listen to it?
+,JANHUBERT,2007-02-19T21:23Z,Open the files with WINRAR and rename them to mp3.
+,BlackCat944T,2007-02-20T14:02Z,"Sorry about that.... I don't know how that happened (re: the file type)
+
+Anyhow... you can go to your command promt, cd (change directory) to the location of each disc and type ""ren *.* *.mp3""
+
+This means... 'REName' all files in the directory with the same name and extension of .mp3
+
+I hope this helps... Thanks"
+,BlackCat944T,2007-02-20T14:03Z,"Sorry about that.... I don't know how that happened (re: the file type)
+
+Anyhow... after you extract all the files, you can go to your command promt, cd (change directory) to the location of each disc and type ""ren *.* *.mp3""
+
+This means... 'REName' all files in the directory with the same name and extension of .mp3
+
+I hope this helps... Thanks"
+,magician2000,2007-02-20T14:53Z,"The collection is very nice, however after changing the file extension to .mp3, the files are only ripped to 96Kbs, it has a sound like listening to an old AM radio. All the files are there, but the quality of the Rip is barely above that of an old cassette player."
+,BlackCat944T,2007-02-20T23:59Z,"Up untill the mid 80's CDs did not exist, let alone recording originals in digital formats.
+
+The bulk of these recordings are from Analog masters and even the remastered CDs have limitations, since you can't re-record an Analog recording and expect it to get better.... in actuality ""better"" means being able to hear all the imperfections.... a good example of this is.... Led Zeppelin... I can't remember the track, but on a few songs you can hear John Bonams squeaky pedal on the bass and in another song you can hear a phone ring.
+
+Anyhow, these CDs were encoded using a retail version of Nero's mp3 Pro.... Promising quality without the added space.
+
+I will try to re-encode them in the future, so look out for another torrent ;)
+
+What program would you suggest ?
+Maybe you can tell what song in particular you would like to hear at a higher bit rate, then you can see if there is an actual difference.
+
+IMHO... I convert Vinyl LPs and 45's to CDs.... nothing beats a huge wave file :)"
+,andrejm,2007-02-23T18:42Z,"Hi guys...i did what BlackCat said, and it worked perfectly...the sound quality is very good at winamp player. 
+thanks a lot!"
+,BlackCat944T,2007-03-01T20:25Z,No Problems Man... I'm glad you understand ;)
+,Annajohanne,2007-03-09T22:53Z,thank u so mutch!
+,berlingo,2007-04-02T07:36Z,"hur gör jag för att kunna spela in dom här skivorna med Nero ? Kan lyssna på låtarna en och en i Windows mediaplayer, men vill ha dom på cd.
+Tacksam för hjälp och råd."
+,10Kfists,2007-04-02T21:42Z,"how do you do the thing blackcat944t said where you change the file type, what do i go to on the computer to change it? how do you get to the command prompt?"
+,BlackCat944T,2007-04-04T22:58Z,"to get to the command prompt...
+
+Click start....goto run....
+and type....
+
+cmd 
+
+hit enter.... you will be defaulted to... C:\Documents and Settings\User\>
+
+from there you Change Directory (CD) to where ever you extracted the files... once you get there, follow the previuos instructions ;)"
+,BlackCat944T,2007-04-04T23:00Z,"PREVIOUS DIRECTIONS ;)
+
+Anyhow... after you extract all the files, you can go to your command promt, cd (change directory) to the location of each disc and type ""ren *.* *.mp3"" 
+
+
+This means... 'REName' all files in the directory with the same name and extension of .mp3 
+
+
+I hope this helps... Thanks
+"
+,10Kfists,2007-04-05T16:42Z,thank you very much
+,10Kfists,2007-04-05T16:52Z,"shoot, it didn't work, i think i screwed up on the CD thing, i couldnt figure out what to write"
+,berlingo,2007-04-05T20:35Z,Någon som kan förklara på svenska ??
+,BlackCat944T,2007-04-11T21:47Z,"When you people extract the file....
+
+Choose something simple, for example, extract the file to:
+
+c:\stones
+
+then it wont matter from where you type:
+
+cd\
+cd stones
+
+then you can take a directory listing:
+
+dir
+
+this will list the other directories created, and from there you would use the cd command again to enter those directories.
+
+Finally, from each of those directories is where you would use the rename command....  ren
+
+you can all reread my previous instructions."
+,beow123,2007-07-26T08:22Z,"On linux, go to each Disc directory and run
+$ for i in *; do mv ""$i"" ""$i.mp3""; done
+and all files are renamed with right ending."
+,big_chikz,2007-09-21T20:15Z,Thank you! Works great :)
+,Wopatoolie,2007-09-29T19:04Z,how bout u re-do ur torrent the right way so that more than 2 in 10 people can figure it out. this would be a great collection to dload n seed if u knew wtf u were doing bfore u posted it
+,Pkshadow,2007-10-02T10:58Z,"Is ""EASY"" guys!
+If can not figure it out just go to the folder where extracted the files and ""Right Click"" then ""Rename""
+then ""Right Arrow Key"" and then Type "" .mp3 "" and then click any place in the folder.
+Yes it is a chore or there are plenty of mp3 programs that do mass renames."
+,Pkshadow,2007-10-02T11:01Z,Of yea and quality is not bad using alternative old media player and Realtek HD Audio Equalizer.
+,wennZone,2008-10-23T03:44Z,"All you guys are suck,,,, its simple don't make things complicated, Follow the instruction of Pkshadows... Very simple,,
+
+Regards Great upload.."
+,rh1327,2009-01-28T02:34Z,I'm sorry I finally just finished downloading this and I am not understanding how to listen to it.  I have a Mac so I can't follow the instructions that you have posted.  Is there any way that I can make it listenable on a Mac?  Thanks.
+,emillo108,2011-01-10T18:43Z,"I don't know the fast way to change the file type on a mac, but just type .mp3 after the filename, then click 'add' if asked. Repeat this for all the files."

@@ -1,0 +1,32 @@
+﻿User Type,Username,Date,Text
+,interntminne,2007-02-09T23:59Z,"Scan taken on 09 Feb 2007 22:51:01 (GMT) 
+AntiVir 	Found ADSPY/DollarRvenue.J adware 
+ArcaVir 	Found Trojan.Bifrose.Acs 
+Avast 	Found nothing
+AVG Antivirus 	Found nothing
+BitDefender 	Found nothing
+ClamAV 	Found Trojan.Pakes-248 
+Dr.Web 	Found nothing
+F-Prot Antivirus 	Found W32/Backdoor.ACMF 
+F-Secure Anti-Virus 	Found Backdoor.Win32.Bifrose.acs 
+Fortinet 	Found W32/Bifrose.ACS!tr.bdr 
+Kaspersky Anti-Virus 	Found Backdoor.Win32.Bifrose.acs 
+NOD32 	Found nothing
+Norman Virus Control 	Found nothing
+VirusBuster 	Found nothing
+VBA32 	Found Backdoor.Win32.Bifrose.acs"
+,nix090,2007-02-11T04:29Z,"Yes i got had by this too, but ive found out what it IS and how to get rid of it.
+
+Its called Bifrost and its a smart little program. Goto http://www.megasecurity.org/trojans/b/bifrost/Bifrost1.2.html for more info, it has keyloggers (change your passwords NOW!), screen shots, remote access, even through your firewalls!
+
+You need to start with either a boot CD that supports NTFS and delete the folder: c:\Program Files\Bifrost\ it is hidden so use `attrib` to unhide it, or use `deltree c:\Program Files\Bifrost` ... or try booting into safe mode and deleting it (i havnt tried this way).
+
+It start up on start up by running that server.exe and it hides in registery: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{9B71D88C-C598-4935-C5D1-43AA4DB90836}
+
+delete this key, also search the registry for 'bifrost' and delete ALL folders that has any data inside.
+
+Reboot and you should be trojan FREE! :)
+
+In the future, NEVER trust a key generator thats more than 50-100Kbytes in size!!
+
+Hope this helps, and nice work Paradox, you almost got me! ;)"

@@ -1,0 +1,101 @@
+﻿User Type,Username,Date,Text
+,Zoracic,2007-04-16T10:32Z,"A handy tip.
+
+You can import a DVD to this and edit it and save it as an MPEG (and then maybe use ConvertXToDVD ( http://thepiratebay.org/tor/3665333 ) or Nero Vision etc to move back to a DVD).
+
+Open the folder (either on a disc or your desktop) with the DVD files so you can see them and press CTRL (and keep it pressed) and one by one click on the VOB in order. You can then choose ""Combine"" and you have one editable file.
+
+Great app so please seed."
+,Zoracic,2007-04-17T08:20Z,"Another handy tip.
+
+If you are trying to import a file to Redo that can't be imported (like AVI) then use WinAVi Convertor ( http://thepiratebay.org/tor/3666144/  ) Choose to convert to DVD or MPEG then when it's done use VideoRedo to import and edit."
+,Zoracic,2007-04-17T11:48Z,"One last tip (promise!)
+
+You can use DVDShrink ( http://www.dvdshrink.org / http://thepiratebay.org/search/dvdshrink/0/0/300 ) with this.
+
+How? Well let's say you have several bits of DVD video you want to edit into one file and those videos are on different drives/DVDs/folders etc. Open up DVDShrink and add the titles as you would normally (dragging over to the left) and then save everything in one folder ready to open with VideoRedo and (as mentioned in the above tip) use CTRL (keyboard bottom left) and click on the VOBs in order. You then have one combined file.
+
+I know there are several other apps that do this job well but Redo is VERY easy to use unlike most. It also works very well."
+,rogero,2007-04-17T22:42Z,Thanks for the upload :-)
+,Radioman62,2007-07-18T15:59Z,"I had an older version, 2.1.1.413, before with a working user and serial number. After upgrading to this one, no user or serial work for any version.
+I' am not even able to go back to the older one again :-(
+Trial version is all I get.
+I have cleaned the windows register throughly and restarted without Internet conection and still ......
+
+It's a bit to much money to buy, for the use I have of it. I have an old registred version of the Wombles mpeg-vcr software that have to do for the moment.
+Videoredo is better though. I never get any audio videosync problems with it.
+
+Cheers // Radioman"
+,Zoracic,2007-07-21T06:45Z,"Sorry you had problems :)
+
+Yes, it's better not to update because VideoRedo notices the key. I tried removing old versions too but could never get the newer version completely removed from my system. I tried lots of cleaners and searches but VideoRedo obviously has something hid very deeply on our PCs.
+
+Best thing: reinstall, and it works fine.
+
+Anyone found the files or guess where they are?"
+,Transient7,2007-08-02T02:13Z,"Simply uninstalling does not remove all files/settings. If you're like me, you want an application 100% removed, not leaving behind files. X(
+
+This program writes all over the place, but I managed to remove the stored keys by observing it with Process Monitor.
+
+Below is what I removed on my PC. Maybe this will work for you too, or maybe it's different for different PC.
+
+1) uninstall VideoReDo
+2) load regedit
+3) remove HKey_Classes_Root\CLSID\{4FD11A18-7E4C-80CC-42B9-D836E268E95D}
+4) remove HKey_Local_Machine\Software\Licenses
+5) remove HKEY_CLASSES_ROOT\CLSID\{3B394836-F59F-41C8-9E1C-590D0FB5BD70}
+6) remove HKEY_CLASSES_ROOT\CLSID\{890F1ED4-6E97-4FD7-98C6-1C2D0C4D6D25}
+7) remove HKEY_CLASSES_ROOT\VideoReDo.Application
+8) remove HKEY_CLASSES_ROOT\VideoReDo.VideoReDoSilent
+9) quit regedit
+10) delete all files in C:\Documents and Settings\(your username)\Local Settings\Temp
+11) delete C:\Documents and Settings\(your username)\Application Data\VideoReDoPlus (maybe not there)
+
+That should be it! Worked for me anyway...
+"
+,wirthith,2007-08-06T20:03Z,"thanks alot! =) working program and serial, and for you guy Â´who uses Media Center Edition, this is the best way to cut your recorded shows, and then burn to DVD without the crap you dont want in a movie"
+,Zoracic,2007-08-27T10:50Z,"Great tip, thanks! :-)
+
+Newer version 2.5.4.507 http://thepiratebay.org/tor/3785792"
+,Zoracic,2007-10-09T10:31Z,Fix for reinstalling/uninstalling/updating: http://thepiratebay.org/tor/3835229
+,judoka_pl,2008-01-25T09:29Z,"yeah works fine
+thx"
+,bruno212,2008-09-06T04:28Z,"Ok, so i'm one of those nutcases who tried to ""update"" the software online. Now, it won't run anymore and says my Trial has expired.
+
+I uninstalled the software and ran jv16 PowerTools 2008 and found that this crap left behind 28 entries in my Vista registry:
+
+HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache\D:\Tools\Video\VideoReDoPlus\VrdConfigWizard.exe : VrdConfigWizard  Configuration Tool For VideoReDo Plus
+HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache\D:\Tools\Video\VideoReDoPlus\VideoReDo.exe : VideoRedo.exe
+HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache\D:\Tools\Video\VideoReDoPlus\unins000.exe : Setup/Uninstall
+HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\MuiCache\D:\Tools\Video\VideoReDoPlus\VrdConfigWizard.exe : VrdConfigWizard  Configuration Tool For VideoReDo Plus
+HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\MuiCache\D:\Tools\Video\VideoReDoPlus\VideoReDo.exe : VideoRedo.exe
+HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\MuiCache\D:\Tools\Video\VideoReDoPlus\unins000.exe : Setup/Uninstall
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.VOB\OpenWithList\i : VideoReDo.exe
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectDraw\MostRecentApplication\Name : VideoReDo.exe
+HKEY_CLASSES_ROOT\CLSID\{3B394836-F59F-41C8-9E1C-590D0FB5BD70}\@ : VideoReDo.VideoReDoSilent
+HKEY_CLASSES_ROOT\CLSID\{3B394836-F59F-41C8-9E1C-590D0FB5BD70}\ProgID\@ : VideoReDo.VideoReDoSilent
+HKEY_CLASSES_ROOT\CLSID\{890F1ED4-6E97-4FD7-98C6-1C2D0C4D6D25}\@ : VideoReDo.Application
+HKEY_CLASSES_ROOT\CLSID\{890F1ED4-6E97-4FD7-98C6-1C2D0C4D6D25}\ProgID\@ : VideoReDo.Application
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{3B394836-F59F-41C8-9E1C-590D0FB5BD70}\@ : VideoReDo.VideoReDoSilent
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{3B394836-F59F-41C8-9E1C-590D0FB5BD70}\ProgID\@ : VideoReDo.VideoReDoSilent
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{890F1ED4-6E97-4FD7-98C6-1C2D0C4D6D25}\@ : VideoReDo.Application
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{890F1ED4-6E97-4FD7-98C6-1C2D0C4D6D25}\ProgID\@ : VideoReDo.Application
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VideoReDo.Application\{KEY} : {KEY}
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VideoReDo.Application\@ : VideoReDo.Application
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VideoReDo.Application\CLSID\{KEY} : {KEY}
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VideoReDo.VideoReDoSilent\{KEY} : {KEY}
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VideoReDo.VideoReDoSilent\@ : VideoReDo.VideoReDoSilent
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VideoReDo.VideoReDoSilent\CLSID\{KEY} : {KEY}
+HKEY_CLASSES_ROOT\VideoReDo.Application\{KEY} : {KEY}
+HKEY_CLASSES_ROOT\VideoReDo.Application\@ : VideoReDo.Application
+HKEY_CLASSES_ROOT\VideoReDo.Application\CLSID\{KEY} : {KEY}
+HKEY_CLASSES_ROOT\VideoReDo.VideoReDoSilent\{KEY} : {KEY}
+HKEY_CLASSES_ROOT\VideoReDo.VideoReDoSilent\@ : VideoReDo.VideoReDoSilent
+HKEY_CLASSES_ROOT\VideoReDo.VideoReDoSilent\CLSID\{KEY} : {KEY}"
+,baileyjack2007,2009-06-19T06:49Z,"Hi Zoracic,
+
+I was hoping you could help me with a little problem I have using videoredo. I have it installed & up and running fine but I can't open some of my videos.
+
+ I've been using tubehunter to get some episodes of hells kitchen off youtube & want to combine them into one episode (the episodes are usually split into 5 parts). When I download them off youtube it converts it to MPEG movie but when I try opening it in videoredo it comes up ""unable to open file"". However I have another MPEG movie that it did open. Any suggestions? 
+
+Tubehunter actually gives you the choice of what you can convert the movie to when you download it, should I change it to something else instead of MPEG? "

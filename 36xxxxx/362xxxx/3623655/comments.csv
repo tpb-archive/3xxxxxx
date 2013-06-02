@@ -1,0 +1,16 @@
+﻿User Type,Username,Date,Text
+,Emod,2007-02-22T09:55Z,"Ok, I don't know where the double slashes came from in the description..  I also posted the wrong startup files, here's what it should look like:
+
+Config.sys:
+DEVICE=C:\GUS\IWINIT.EXE ID=GRV00001 INTERWAVE=C:\GUS\IW.INI
+
+autoexec.bat:
+SET ULTRADIR=C:\GUS
+SET INTERWAVE=C:\GUS\IW.INI
+SET IWDIR=C:\GUS
+C:\GUS\IWINIT.EXE
+C:\GUS\GETIWENV.EXE > C:\GUS\SETIWENV.BAT
+CALL C:\GUS\SETIWENV.BAT
+
+Still won't use base (or any) memory."
+[T],Huggybaby,2008-02-06T23:50Z,"Thanks, I've never seen the CD version before."

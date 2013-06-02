@@ -1,0 +1,39 @@
+﻿User Type,Username,Date,Text
+,rstran,2007-01-25T13:42Z,"it is asking for the ""Run"" disk, there is only 1 iso here"
+,dtreize,2007-01-25T14:53Z,"This used to be 2 CDs. But why using 2 CDs when you can get 1 DVD?
+
+It installed well on my computer without asking for anything else (it usually ask for the ""Run disc"" when installed from CDs)"
+,cek4021,2007-01-28T16:18Z,It's asking me for a run disk. What do I do?
+,rstran,2007-01-28T23:50Z,"dispose of the software, it does not install properly"
+,rstran,2007-01-29T00:30Z,"The North America version of MapPoint 2006 freaks out on the setup unless the setup volume name is GEO13NA. I burned it in ISO mode, I'm not sure if UDF mode will have different results. 
+
+
+You can thank Microsoft for this fix, they describe exactly how to fix this problem in Help and Support Center article: http://support.microsoft.com/kb/914346/en-us"
+,bernyr,2007-02-20T00:50Z,"First you have to use iso buster (or other) in a folder on your desktop, install from thatr folder  et voila!!!"
+,DetCochese,2007-02-21T02:21Z,"Does this have to be burned to a DVD instead of a CD-R because of it's size? If we don't have a DVD Burner, then what?"
+,xaneth,2007-03-15T17:14Z,"Then you buy one, dumbass!  Jesus..."
+,spacetanker,2007-03-29T12:33Z,"rstan's fix link did the trick, but here is a little clarification since the link does NOT specifically address the issue.
+
+When burning the files to DVD, you must give the DVD the volume name GEO13NA.  This allows the installer to skip the ""Insert Run disk"" prompt.  
+
+Also, you will receive a message when you insert the DVD that MapPoint has not been installed.  Close the message and browse to the setup application on the DVD.  Open that puppy and you should be set to go!"
+,kmfdmk,2007-04-03T00:54Z,"The fix for this was originally posted by rstran.
+
+http://support.microsoft.com/kb/914346/en-us
+
+If you mount the ISO as is it will ask for Disk 2 during the install and then fail. 
+
+You can install this without re-burning to another DVD by:
+
+1.  Mount the ISO with ISO Buster and extract all the files to a folder location.
+2.  Create a DVD project in Nero, select IMAGE RECORDER as the destination drive.
+3.  Set the Disk / Volume Label to : GEO13NA
+4.  Burn the ISO to your hard drive.
+5.  Mount and install with Daemon Tools."
+,SSMino,2007-12-11T00:15Z,does work rename the file for burn under GEO13NA for those who speak english.............
+,squirrel4268,2008-01-11T14:58Z,"Even after renaming the file, installation still askes for run disk."
+,loucarey,2008-03-11T07:49Z,I loaded the ISO in MagicISO and renamed the volume label there and it worked. 
+,kmspade,2008-05-17T04:32Z,"Mount with daemon tools. Open Nero. Drag all files on virtual ""DVD"" to the compile area and burn to new ISO image. Change volume label to GEO13NA. Mount new image with daemon tools and it will install without a problem."
+,omre,2008-08-03T23:14Z,"Renaming the ISO label from ""MapPoint2006NA"" to ""GEO13NA"" using MagicISO worked. Thanks!
+
+However, program isn't for me, so I unistalled."

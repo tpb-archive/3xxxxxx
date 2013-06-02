@@ -1,0 +1,37 @@
+Contains proper file set.
+
+
+Dev-hack - Vista Bluetooth hack - Widcomm Drivers 5.1.1100 
+http://www.dev-toast.com/2007/01/05/uncrippling-bluetooth-in-vista-rtm
+
+
+
+
+Notes:
+
+1) Create a restore point running rstrui and following instructions to Create
+
+2) The ID you're looking for in Step 2, #5 is the hardware ID.  Write it down.  You'll probably need it in Step 7.
+
+
+
+To undo the entire procedure:
+
+1) Physically remove your bluetooth transciever
+2) Uninstall the WidComm drivers in control panel
+3) Uninstall the Bluetooth Enumerator in device manager
+4) rename/move bth.inf.old and bth.pnf.old back
+5) Restart and put in your transceiver
+If this fails, restore to the restore point you made.
+
+
+
+Included is the Mouser tool from LifeHacker.com; which allows you to move the mouse and click with the keyboard.
+
+Instructions:
+ Hit ctrl+m to begin control of the cursor.
+ Use the arrow keys to move around until you're focused.
+ Use the K key to left-click.
+ Use the R key to right-click.
+ 
+:: http://lifehacker.com/software/mouser/hack-attack-more-on-mouseless-navigation-217420.php

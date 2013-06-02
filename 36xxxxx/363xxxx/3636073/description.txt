@@ -1,0 +1,22 @@
+New Features:
+
+Microsoft Vista Support and bug fixes:
+I-Doser 4 now supports the Windows Vista Operating System and fixes bugs. This should resolve ctrl_skinableform, comdlg32.ocx, invalid picture error 481, and can't open audio device 16-bit stereo errors.
+
+Smoothed Skin Code:
+The code that runs the 3 built in skins has been optimized. There should be less graphic glitches in application. There has been no change to the number or variety of skins.
+
+End Dose Notification:
+I-Doser now allows you to choose if your computer will play a system beep when the dose ends. This can be enabled or disabled. To use: You can select this from the Options/Beep After Dose menu item.
+
+TrueAdjust Volume Slider:
+The TrueAdjust Volume Slider allows you to change the volume of the playing dose without changing the dose strength. To use: adjust the slider to a comfortable listening level.
+
+TimePause:
+TimePause allows you to pause a playing dose. After 2 minutes of being paused, a warning will notify you that the dose is losing potency and should be resumed. You can then continue to play the dose. To use: As a dose is playing, just click the pause button. To resume, click the pause button again.
+
+Brain Visualizer:
+Brain Visualizer is a visual aid that displays a series of basic brain frequency simulated EEG line graphs - it acts as a visual representation of how I-Doser is changing brain HRZ levels. This can be viewed from a panel within the I-Doser Application or full screen. To use: select Panel, Fullscreen, or None from the Options/Visualizations menu.
+
+New Doses:
+I-Doser includes two brand new doses with the install: Content and Alcohol.

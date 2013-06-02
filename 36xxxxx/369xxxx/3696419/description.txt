@@ -1,0 +1,39 @@
+ConvertXtoDVD (formerly DivXtoDVD) is a software to convert and burn your videos to DVD. With ConvertXtoDVD and in a few clicks you can backup your movies to DVD playable on any home DVD player.
+ConvertXtoDVD supports most popular format such Xvid, MOV, VOB, Mpeg, Mpeg4, MP4, AVI, WMV, DV and stream formats. It converts your files into a compliant DVD Video set of files and burns it on a DVD media.
+The aspect ratio can be automatically selected or forced to a specific format. The program works for NTSC and PAL video formats and creates chapters automatically. Multiple audio tracks are supported. Version 2 uses a completely rewritten interface with subtitles support and a lot of new settings.
+
+FEATURES:
+- Supported video formats: DivX, Xvid, MPEG4, MOV, AVI, WMV, WMV HD, DV, and more...
+- Supported sources: existing files from digital camcorders, TV/Sat, capture cards
+- Can merge up to 4 hours of material from several movies or episodes
+- Supported audio formats: AC3, DTS, PCM, OGG, MP3, and more...
+- Handles subtitles files (.SRT .SUB/IDX) with color and font selection, and supports tags (italic, bold)
+- Video format choice: NTSC, PAL, or automatic and PULL-DOWN
+- Picture output: Widescreen, Fullscreen, or automatic
+- Create Automatic chapters or edit your owns
+- Fast preview mode to check if the source is loaded correctly
+- Save the DVD structure on hard drive or burn it to a blank DVD
+- Reliable burn engine integrated (supports all DVD formats)
+- Fast and quality encoder (typically less than 1 hour for converting 1 movie)
+- Variable options and settings for advanced users
+- Control of the conversion speed vs quality
+- DVD Menu control (auto-start, loop etc)
+- DVD Menu edition (background, fond, color)
+- Customizable interface (themes, dockable windows)
+- Multilingual support (available languages...)
+- Optimized for Windows 2000 / XP / Vista
+
+Changes in ConvertXtoDVD - 2.2.1.253 - Released 24st of May 2007:
+===================================================
+Win98 fix
+deinterlacer fix
+some subtitle problems fixed (support of some ASS/SSA tags yet to be added, see 0000907)
+
+- 0000905: [Feature Request] when checked 'add orginal file to DVD (if possible)' request for subtitles to be added too
+- 0000906: [Bug] Video Camera DVD (Panasonic VDR-D300EG) are not recognized
+- 0000869: [Unsupported file/stream format] Request for .ASS subtitle support
+- 0000904: [Bug] Pal to NTSC subtitles always show and cant be disactivated
+- 0000885: [Bug] vertical green line on right border on some video
+- 0000896: [Bug] Not enough free space issue with version 2.2.0.251 (Windows 98)
+
+Homepage - http://www.vso-software.fr/products/convert_x_to_dvd/

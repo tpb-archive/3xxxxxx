@@ -1,0 +1,68 @@
+﻿User Type,Username,Date,Text
+,Zachriel,2007-06-17T10:55Z,"Hell yeah! this game is awsome ^^
+Thanks dopeman! love ya"
+,12566654,2007-07-06T12:00Z,how do i start it
+,zerge93,2007-07-25T11:44Z,DAMN... it's goes like a rally car to download from u dopeman... 
+,NO_BS,2007-09-09T01:51Z,"Thanks again, dopeman...
+
+You have alot of releases... What is your favorite genre? I noticed you have released all of the good rally games in a timely manner.
+
+Me: Flight sims, racing sims, shooters, strategy, then whatever else is lying around."
+,Dextrozol,2008-01-20T02:40Z,TNX Dopeman
+,fast-eddie48,2008-02-09T17:22Z,"wtf,only 2ks d/l for 28seeds. am i going mad or what?"
+,Mychaels,2008-02-24T01:13Z, Hey Man! Great game. If people want their stuff to download faster. Seed the torrents. Mine run between 40-150kb/s. I hope with my seeding things for a long time. I will continue getting things fast.
+,Destroy850,2008-03-11T20:07Z,"the fuckk 12 seeders and im not cennected to any of them!?
+the fuck!?
+COMEON!"
+,Norskpirat,2008-03-11T22:56Z,Thanx for the upload:D
+,effodick,2008-05-05T13:15Z,+++++++ great game. works 110%
+,Kaitaine,2008-05-08T00:37Z,Thanks Dopeman good work on all your torrents.keep blazing .peace
+,hejehuja5,2008-06-25T13:48Z,seed please!!
+,marquesdeSade,2008-06-28T18:35Z,Great game. Thanks a lot!
+,mr_creutz,2008-07-21T22:09Z,What kind of viedocard I need for this? When I start the game i get a message about videocards. 
+,Twin_tip,2008-08-08T15:30Z,You just gotta love dopeman. . .
+,crazybud,2008-11-20T08:36Z,dopeman your the shit this game is awesome just like you said it was ive downloaded quite a few games from you and with just getting 500gb more space expect me to download a shitload more and i always seed oh and to anyone else this has been tested and ran great on vista FYI!! 
+,kb_cobra,2009-03-16T00:21Z,"Fast download, im still seeding! But I am having trouble getting this to install on xp 64bit.
+I run the setup.reg then try to launch RALLIS_1.EXE and I get the message. 
+
+""Unable to find language Registry keys. Please reinstall Rallisport Challenge""
+
+Any thing specific I should try?"
+,sweborg,2009-05-15T05:12Z,Thanks for the upload! This is nostalgia.
+,lernatix,2009-07-14T08:08Z,"Nice one as usual DM.
+
+I'm having a problem with this one however.
+Every time I try to change my controller config
+I get a BSOD!  Useless game without control."
+,Volvo-240,2010-04-13T21:44Z,"Xaluber:
+It doesn't work =(
+I tried it.. I also tried to make a QWORD 64-bits value.. That didn't work either =("
+,TerraRoot,2010-06-29T18:23Z,"that you Xaluber and dopeman, was have the ""language Registry keys"" problem, solved now :)"
+,somken,2010-07-30T09:07Z,"Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Microsoft Games\RalliSport Challenge\1.0]
+""LangID""=dword:00000009
+
+
+Put that into a .reg file.  Should be good to go if you're having issues."
+,termite43,2010-09-27T23:48Z,"Yeah, well I'm running win7 x64 and the registry already has this setting.  
+
+Name  LangID
+Type   REG_DWORD
+Data   0x00000009 (9)
+
+Oh well, I guess my version of Win7 x64 must be different than any other on the planet.  Too bad, because this game has the best physics out of any racing I have ever played (I used to have it on XBOX original and it did work on Vista 32).  Strange.
+"
+,kzanova,2011-02-05T21:51Z,"hey DOPEMAN, u're the shitt!! this game is awsome, its works sucessfully, great Job guys
+i just thank u"
+,Sladen88,2011-02-11T06:29Z,Thanks for the grat upload dopeman. And thank you somken for the reg entry. This is a GREAT racing game. I only wish they would have made the 2nd for pc.
+,Ardi4n,2012-01-08T22:56Z,"Unable to find language registry keys..
+
+I'we did press the setup before run the RALLI_1
+How can i fix this..
+Awnser please :D"
+,phlook,2012-06-13T16:50Z,"IF NOT WORKING IN WINDOWS 7 64-BIT: Open Regedit, and search for ""Rallisport"" all through your registry. Add a 32-Bit DWord Value called ""LangID"" and put the value as 00000009.
+
+It is missing from one or two spots in the registry. If I remember correctly, there was one folder called ""WinNode"" or something similar that I added the LangID value to. Now it works!
+
+Good luck, awesome game, lots of nostalgia."

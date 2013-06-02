@@ -1,0 +1,190 @@
+﻿User Type,Username,Date,Text
+,Karsten85,2007-03-26T20:05Z,"Anyone got the x64 version...
+
+Vista Ultimate x64 sux bigtime when you aint got any x64 progs... ;-)"
+,Karsten85,2007-03-27T08:18Z,Anyone?
+,asmodyus,2007-03-29T20:35Z,"Aslo looking for the Autocad Architecture 2008 64bit 
+anybody got it yet"
+,glase,2007-04-15T09:36Z,"Could someone else dl this from atomico.sytes.net and then upload it here? My bandwith is so poor that it would take weeks to upload it.
+Quick instructions: download, rename iso to AutoDesk.AutoCAD.Architecture.2008.DVD.iso and disable everything else from this torrent."
+,glase,2007-04-16T11:33Z,"MD5 of the iso file:
+2D78FACD6050678106EDCA8E787138E3
+and size 2 285 010 944 bytes"
+,snusman,2007-04-17T21:00Z,"Thanx for upload!!!!
+
+Please seed...stuck at 99.9 % :P
+
+Thanx!!!"
+,glase,2007-04-18T07:55Z,"I think you already got the whole packege. Try to calculate first MD5 of the iso using e.g:
+http://www.fastsum.com/download/fsum.zip
+I think the last 512 bytes are from that avi -file which I don't have and don't know where to even find."
+,dowlod,2007-04-23T15:59Z,"Someone seed please. I have 98,5% of this file. "
+,mikey24p,2007-04-23T22:28Z,please seed. stuck at 98%
+,glase,2007-04-24T07:33Z,Did you already check the MD5 sum of the iso file ?
+,dowlod,2007-04-24T17:20Z,"My file stops on 98,5% - Using the FSUM I got  output file says: 2,13GB. But I can´t open it. What program do I need to open it ? I have tried PowerISO. Please Help!!"
+,glase,2007-04-25T10:43Z,"OK, then you won't be able to download it from here. As the avi file is missing, I don't know how to upload the final part (512 bytes) of the iso -file. Well don't know even which part is missing as I have the whole file but uTorrent says that I have 99.9%.
+Perhaps if someone could try to calculate the MD5 check sums of some file parts, I could upload only the missing part.
+- download rar containing the calculator from: http://www.yourfilelink.com/get.php?fid=320400
+- check that the file size of the iso is exactly 2 285 010 944 bytes by using the DOS prompt or file properties (make sure it is written in bytes not KB/GB)
+- then using given tool calculate the following sums:
+MD5p AutoDesk....iso 0 1048576
+1bb2c4321f0f60465f0c5c205a90509b
+MD5p AutoDesk....iso 0 536870912
+4b186a092e0b44eab82cf3015f1ca15a
+MD5p AutoDesk....iso 536870912 1073741824
+313741c953487095d953e7856b2e9baa
+MD5p AutoDesk....iso 1073741824 1610612736
+230422127c495dbc7f5c83763e81b8df
+MD5p AutoDesk....iso 1610612736 2147483647
+a48a2e377e73e997b07250c69c9c9176
+MD5p AutoDesk....iso 2147483647
+12b8eb706034c4b752be97950e8e8120
+
+- report which part was wrong"
+,dowlod,2007-04-26T12:16Z,Does anyone have this program 100% ? I need it
+,glase,2007-04-26T13:29Z,"Yes, I have it. But it's quite hard to know which part is missing if nobody gives any info.
+
+dowlod: Did you try the file link which I sended to you earlier (check your messages) ? I mean did it work or not ?"
+,dowlod,2007-04-26T15:03Z,"I have tried it, but I can´t open the file. I tried PowerISO.  Do I need something else to open the files ? Is it possible to upload the file again ?"
+,glase,2007-04-26T16:11Z,"I have tried to upload it several times but the problem is that I have the correct file but other people won't get all parts correctly. My copy opens correctly using PowerIso and WinRar.
+But as I wrote before, if you give me info which part is wrong, I will upload the missing part. The checksums of diffent parts and tool to calculete them were given earlier."
+,glase,2007-04-26T18:21Z,"Here is a link to another tool that will change some parts from the begining of the iso file: http://www.yourfilelink.com/get.php?fid=320438
+Please give some info if it corrects the problem or not."
+,thatkindasucks,2007-04-27T05:53Z,"After patching (a window popped up for split second...that was it...so i'm not sure if it actually patched the file)
+
+I ran fsum and it said:
+blablabla.partia...
+
+DCDA57DE7B4B9AB51A0895EE7B4C55BC
+Calculation summary:
+Proceded 1 file in 0 folder with total size 2.16 Gb
+
+Elapsed time...blabla
+
+surprisingly it said 2.16 Gb, though when i tried to open it with IsoBuster...the files opened but the installer gave an error so did every .exe file either saying contact the vendor or there was an error...so i presume my file is still incomplete, and my guess was right...cause i opened it in shareaza and it still says. 98.50% at 2.128 Gb
+
+...any help? "
+,thatkindasucks,2007-04-27T06:10Z,"something else I thought...
+if this doesn't work out then this other torrent should work well, since it has more than a single seeder.
+http://isohunt.com/download/18055477/architecture
+its 1.62 Gb...about 500 Mb less than this one(if the .avi file in this torrent is 500 Mb then u don't really need it i guess...in which case that other torrent is probably the next best option for us who are stuck at 98.5)"
+,glase,2007-04-27T08:20Z,"Did you follow the instructions provided in the archive ? The program runs on dos prompt and gives the info there, so all errors can be viewed from the dos screen. If you prefer not to use the prompt, write following two lines to patch.bat file:
+patcher
+pause
+(remember to add a linebreak after the last word ""pause"")"
+,glase,2007-04-27T10:08Z,"I did some testing and downloaded the whole package (excluding the avi) from here using uTorrent. After all available pieces were downloaded, uTorrent says that 512kB left to download (99.9% done). I stopped the torrent and run the MD5 calculator and got for whole file:
+297522ED16E1F4A5A26CD82A7D48D047
+and for the first megabyte (0 1048576):
+9dab5351f647ba72f7d1da82c6d105df
+
+As you can see, the sum is same as dowlod got earlier. Then I run the patcher and got MD5 for the whole file:
+2D78FACD6050678106EDCA8E787138E3
+and for the first megabyte (0 1048576):
+1bb2c4321f0f60465f0c5c205a90509b
+
+So now I'm sure that the problem is in first megabyte and the patcher really works :)
+http://www.yourfilelink.com/get.php?fid=320438
+If you are using other torrent clients, I don't know if the patcher helps at all. It's propably easier to switch to uTorrent.
+It's however easier to download the package from somewhere else than here (using thatkindasucks's provided link)."
+,glase,2007-04-27T11:52Z,"Here's link to instructions on how to switch to uTorrent if the checksum is incorrect (other than 297522ED16E1F4A5A26CD82A7D48D047 before patching or 2D78FACD6050678106EDCA8E787138E3 after patching):
+http://www.yourfilelink.com/get.php?fid=321122
+The instructions are for those who have downloaded nearly all but don't want to download the whole package again."
+,thatkindasucks,2007-04-27T16:10Z,"Didn't work out for me. It might work out for others. I tried, I'm just goin to switch to the other torrent...thanks for the help though
+
+but just to double check...was the .avi file actually 500 Mb or does this torrent have some more files and addons than the other one? any idea...otherwise help was appreciated. "
+,glase,2007-04-29T18:51Z,This is same as on other sites - this torrent is unpacked version. The packed version is about 500 MB smaller.
+,dowlod,2007-05-02T08:01Z,"I installed the program but when I start the program I got a message that says:
+
+FATAL ERROR: Unhandled c000000dh Exception at 781477a9h
+
+Someone who now what this mean ?"
+,glase,2007-05-02T12:02Z,"Probably because of your os. I'm using XP sp2 (us version) without any problems.
+Try to run using admin rights. If that doesn't work, you will have wait for next service pack for Architecture."
+,DarkAngelid3000,2007-05-12T22:07Z,Please send !
+,joselovr,2007-05-16T11:13Z,"Problem to Apply de Patch:
+""AutoCAD-Architecture-2008-keygen.exe"" 
+
+Error__________________________________
+""internal error #2 - Please be sure the app is running and on the license screen!
+______________________________________
+
+I need de Patch !!"
+,coldhaxxor,2007-05-23T18:21Z,seed ffs !! i'm stuck at 98.5 % plz seed !! only downloading in 0.1 kb/s  :/
+,SirScrape,2007-05-24T00:45Z,Just a guess but the 1st file of this torrent is an Avi of 32 megs and thats not available. did you look and see if the Iso is in the folder?
+,coldhaxxor,2007-05-24T17:13Z,"SEED THIS SHIT FFS !!    
+
+i've downloading it in many houres and it doesn't MOVE !!!  
+
+My english is not so good ;)"
+,glase,2007-05-24T22:11Z,"Yes, the avi is unavailable as the original seeder does not want to seed. If you want avis, it is easier to look them from video or porn section of tpb.
+Please read the instructions from page 1 if you want working version of the iso file."
+,Yamma,2007-06-18T23:23Z,"Kan någon ge mig del 2001 snälla, min är trasig!!!!"
+,Laej,2007-06-20T17:08Z,this is extremley gay. they should ban this uploader
+,Laej,2007-06-20T17:24Z,glase if this works you are a genius =)  it patched to the checksum and seemed to mount correctly in daemon tools :) ...will have to wait and see if it installs correctly now
+,Devilisher,2007-06-30T18:52Z,"SEED
+SEED"
+,humankind2006,2007-07-06T12:33Z,Pleeeeeeeeeaaaaaaseeeeeee SEED!
+,kilomonk,2007-07-08T06:34Z,"I checked this out - it was uploaded by so-king.com  They sell discount (china style) software. $85 for this via Western Union. Forget the .avi file. I think maybe uploader doesn't want us to have the missing 0.1% of the .iso file. I've been seeding this forever and finally, the whole planet has 98.5% of all - and 99.1% of the .iso (2,231,456 KB) "
+,kilomonk,2007-07-08T10:12Z,"I just tried this - from Glase back on page one - and it worked - except the serial in the so-king file comes up invalid, but for now, I have a fully working 30 day trial. Gives me time to find correct info.
+From Glase:
+Here is a link to another tool that will change some parts from the begining of the iso file: http://www.yourfilelink.com/get.php?fid=320438"
+,glase,2007-07-13T15:21Z,kilomonk: -please take a look at the crack directory. There's some installation instructions and keygen.
+,ildarius,2007-07-14T23:34Z,"Can someone seed pls!
+98.5% done"
+,g_stoilov,2007-07-17T06:42Z,Can someone find me AutoCAD Civil 3D 2008 & AutoCAD MEP 2008 pls.
+,glase,2007-07-17T17:55Z,Civil 3d can be found using search on mininova and mep from atomico or ilovetorrents
+,tsaki,2007-07-26T19:52Z,"Can anybody seed please? I only need the last 2 % of the file please.
+
+Thx."
+,jasperelk,2007-08-08T04:04Z,wtaz going on?ol of us are stuck.. am stuck 3 days at 98.5% pls..help seed....so-king..pls help seed.
+,052jostor,2007-08-10T08:51Z,"please seed. stuck at 98,5%, seven days!!"
+,applearch,2007-08-11T20:52Z,so-king ESAD ... 
+,mix84,2007-08-22T22:29Z,"Why bother uploading when you can't hold the seed for some days!
+
+Is there any way to complete the download without waiting for ""anti seed king"" to reappear?"
+,Spawnbg,2007-08-23T15:57Z,Please seed
+,duhprane,2007-08-28T05:25Z,You can forget about so-king seeding the rest of this file....
+,Maikel205,2007-09-01T01:09Z,"I made a new torrent:
+
+http://thepiratebay.org/tor/3791145"
+,Maikel205,2007-09-17T00:29Z,"if you seed the 100% iso here, it goes back to 98% after recheck. Strange, but so it does work the other way around. 
+
+but why are people still leeching this torrent?"
+,hiteshp,2007-09-21T15:52Z,"the trick by 
+
+ripprasternode 
+
+Works
+
+The .iso is the same file as
+http://thepiratebay.org/tor/3791145 so overwrite with your nearly complete .iso from this torrent and you will be done in 1 minute.
+
+1 start downloading http://thepiratebay.org/tor/3791145
+
+2 stop the torrent.
+
+3 replace ACD-A2008.iso with AutoDesk.AutoCAD.Architecture.2008.DVD.iso renamed to ACD-A2008.iso
+
+4 force recheck(utorrent)
+
+5 start the torrent
+
+Torrent starts 98% done. Thanks Maikel205"
+,Funk67,2007-09-22T07:12Z,What I want to know is when installing it asks to insert disc 1. Now what do I do?
+,patrickcref,2007-09-23T16:52Z,"Has anyone figured this out?  Please help. Thanks
+
+Problem to Apply de Patch:
+""AutoCAD-Architecture-2008-keygen.exe"" 
+
+Error__________________________________
+""internal error #2 - Please be sure the app is running and on the license screen!
+______________________________________
+
+I need de Patch !! "
+,kigkig2,2008-05-21T12:08Z,"DON'T DOWNLOAD THIS .... THIS FUCKER IS FAKE.... EVERY 1 STUKE IN 98,5 % ... JUST LIKE ME AND  OTHER GUYS... SO PLZ DONT USE U TIME ON THIS SHIT!!!"
+,GaltJohnGalt,2009-03-25T20:42Z,"Not sure how I ""replace"" the ACD-A2008.iso with AutoDesk.AutoCAD.Architecture.2008.DVD.iso renamed to ACD-A2008.iso
+How is it that I do that? New to torrents so could use some help.
+I'm downloading the torrent but expect it to stop at 98% like I've been reading...then what? "
+,GaltJohnGalt,2009-03-25T20:46Z,How do I force recheck with Bit Torrent instead of utorrent?
+,lefree,2010-12-30T10:12Z,"Good morning and happy new year!
+I am from Greece, working on a program that works with the Autocad. The version I have is for 2004. I wanted to ask if they'll be easy to send you the 2008 version and if you could help me with your knowledge to crack the program. If you have any doubt about who I am, the website of the company that sell it is www.art-cad.gr but the bad news is that you can not download a trial version like in Autocad, if you could find a solution I will be grateful. I wish you the best for the new year!"

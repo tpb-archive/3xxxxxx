@@ -1,0 +1,134 @@
+Le Live DVD XP va vous faire decouvrir une nouvelle vision des live CD...
+
+Beaucoup de travail a été nécessaire pour accomplir ce DVD :
+	- Il contient les même outils que le OCManBootCD ( ubcd4.0.3fr/Hiren 8.9 )
+	- l'OCManXPE fait place à l'OCman LiveX
+
+OCMan Live XP ??? Késako?
+
+L'OCMan Live XP est en tout point identique à l'OCMan XPE au niveau de l'interface mais : 
+	- Il inclus les drivers Graphique 
+	- Il inclu les drivers Audio
+	- Il inclu les drivers Wifi/Ethernet/Stockage
+
+Tous les drivers ce charge automatiquement au démarrage qui est certes, et c'est son seul 
+inconvenient, un peu plus long.
+
+
+J'ai également rajouté à la demande de certains :
+	- Des outils de Wipe de Disque Dur( effacement sécurisé )
+	- Acronis True Image 10.0.4972 ( la derniere version FR!!)
+	- VLC avec le skin media player FR ( pour les divx,dvd et autres formats multimedia)
+	- WinAmp 2.81 ( pour le lecture des mp3...)
+	- OpenOffice 2Fr
+	- 3Dmark2001 et 2003 ( et oui ont peu grace aux pilotes chargés faire les tests de 
+	  stabilité 3D directement sur un live CD!!! du jamais vu!).
+
+
+Voila comme d'habitude, un petit don serait sympa pour le boulot fournit même si personne ne donne jamais rien :-(....
+Paypal : ocman2000@hotmail.com
+
+Merci a tous!
+
+RAPPELS DU OCMan BOOT CD : 
+
+La version 2 de OCMan Boot CD FR est enfin arrivée!!!
+
+Beaucoup de changement dans cette release, le principal étant la création complete du XPE et non des modifications d'un minipe existant ( meme si le XT-Pe etait excellent, sa vieillesse en faisait un mauvais support pour les nouvelles configurations.)
+
+L'OCMan Boot CD est un CD de déplantage diagnostic qui je l'espère sera utilisé par le plus grand nombre d'entre vous, amis francophones!!!!
+
+Voici le contenu de cette dernière mouture : 
+- HirenBootCD 8.9, patch keyboard FR
+- OCMan XPE
+- UltimateBootCD 4.0.3 FR ( modifié pour incorporé Ghost/DriveImage & Partition Magic 8)
+
+
+J'ai dans la mesure du possible intégré le plus possible d'outils en français pour les neophytes, mais je n'est pas eu le courage de traduire l'Hirenboot CD , dont les mises a jours sont trop fréquentes pour qu'une traduction ait une quelconque utilité, deplus il est réservé aux plus pros d'entre vous qui trouveront peut etre dans HirenbootCD des outils intéressants.
+
+--Infos sur l'HirenBootCD : http://www.hiren.info/pages/bootcd
+	(Remerciement à son auteur pour le formidable travail :-) )
+
+--Infos sur l'UltimateBoot CD 4.0.3 : http://www.ultimatebootcd.com/
+	Egalement Remerciement à ses auteurs et traducteurs ( c'est pas moi qui l'est traduit 		celui là, j'ai juste rajouté Ghost 8/2003, Drive Image2002 et Partition Magic8 
+	dans la section Disque Dur)
+
+--Info sur l'OCMan XPE : 
+	Je vous présente donc fièrement la nouvelle mouture créé de A à Z par mes soins,
+	Un grand ménage a été effectué depuis la mod du miniPE-Xt, je n'est gardé que le plus
+	efficace des outils dont voici une petite description ( le gif animé vous montre 
+	l'arborescence du menu démarrer du XPE)
+
+
+L'OCManXPE inttégre la quasi totalité des driver de stockage et Réseau (LAN), ce qui lui permettra de tourner sur toutes les PC récents !
+
+Voici l'arborescence du menu démarrer : 
+
+Programmes=>
+	-Antivirus-Spy=>
+		-Ad-AwareSE FR : charge le registre du pc hote pour un scan efficace!
+		-SpybotSnD FR : on ne le présente plus
+		-Antivir 6 : antivirus gratuit, mise a jour possible
+		-Antivir 7 : idem mais nouvelle version, mise a jour possible
+		-BitDefender 8 Free : gratuit et efficace, mise a jour possible
+	
+	-Bench-SysInfo=>
+		-CPU-Z : toutes les infos sur votre CPU/RAM
+		-PC-Wizard 2007 : Informations générale sur le systeme ( comme AIDA-Everest)
+		-Stress Prime : Utilitaire de stressCPU, version Mono/Dual Core.
+		-Speedfan : Monitoring de température, à lancer en parallele de StressPrime.
+	
+	-Connexions=> Paramètrage LAN...
+	
+	-Deplantage=> Windows ne boot plus, la solution est là!
+		-Regedit/Runscanner : Editer le registre du PC hote !
+		-ERDCOmmander : Script permettant la restauration systeme, mod.Mot de passe,etc.
+		-NirSoft MyUninstaller : Désinstaller proprement des logiciel du PC hote.
+		-Restauration Registre : Restaure le registre d'un point de restauration.
+		-ServicePE V1.0a : Modifier les services du système hote.
+		-Spercleaner 2.84 : Retire les fichiers inutile de votre DD
+		-Windows Registry Recovery : opération de maintenance sur le registre hote.
+	
+	-Disque Dur => Partition, MBR, Clonage de DD.
+		-DriveImage : DI2002 et PQI explorer pour explorer les images.
+		-Ghost : Ghost32 et Ghost Explorer.
+		-Checkdisk : script lançant l'utilitaire Chkdsk de microsoft.
+		-MBR fix : répare le secteur de boot du DD ( utilisateur avertis!!)
+		-Norton Disk Doctor : un bon outil de vérification de DD.
+		-Partiton Magic 8 : qui ne connait pas???
+		-Partition Table Doctor : réparation et edition de la table de partition d'un DD
+		-Testdisk : le meilleur outil pour récupérer une partition corrompu en "RAW".
+		-DriveImageXML : gratuit et performant, par les createur de GetDataBack 
+	-Gravure => 
+		-SlientNight MicroBurner FR : gratuit et si pratique!!
+		-Nero 6.6.0.5 : pour les inconditionnels de NERO
+
+	-Mot de Passe-clés=>
+		-MAgical Jelly Bean KeyFinder : pour retrouver tous les S/N du PC hote.
+		-Windows Password Renew 1.1BETA : pour faire sauter un mot de passe session.
+
+	-Outils =>
+		-7Zip : gratuit et si parfait :-)
+		-DoubleDriver: faites un backup des drivers du PC hote avant réinstallation!
+		-Fab's AutoBackup : backup complet d'un compte utilisateur!
+		-Migration Wizard : un peu comme Fab's Autobackup.
+		-Renamer: renommer des fichiers en lot!
+		-Detection Pixel Mort : un outil pour tester les ecran LCD :-)
+
+	-Recup Données=>
+		-Easy Recovery6 : le plus connu mais pas le meilleur :-)
+		-Getdataback FAT & NTFS : v3.03 le meilleur pour la récupération!
+		-Handy Recovery1 : gratuit et performant
+		-PC Inspector File recovery : gratuit, à tester
+		-PhotoRec : par le créateur de Testdisk, interface austere mais pratique pour 			    recuperer les jpeg.
+		-Restoration : pour récupérer les fichiers récemment effacés.
+		-UndeletePlus : Idem que restoration.
+
+	-Web=>  - UltraVNC : ça peut servir ;-)
+		- FileZilla2.2.19a : ca aussi ca peut servir, un bon petit client FTP gratuit.
+
+Inclu également 2xExPlorer, petit Explorateur de fichier en 2 arborescence.
+
+Voilà j'espère que vous prendrait bien du plaisir à manipuler cette suite d'outils.
+Si vous appréciez mon travail et qu'il vous est utile, vous pouvez me soutenir en me faisant un don,
+paypal :  ocman2000@hotmail.com

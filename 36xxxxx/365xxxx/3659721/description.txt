@@ -1,0 +1,35 @@
+The language is bulgarian
+Tv is BTV.
+
+Bit rate             : 1314 Kbps
+Writing application  : VirtualDubMod 1.5.4.1 (build 2178/release)
+Writing library      : VirtualDubMod build 2178/release
+
+Video #0
+Codec                : DivX 5
+Codec/Family         : MPEG-4
+Codec settings/Packe : Yes
+Codec settings/BVOP  : Yes
+Codec settings/QPel  : No
+Codec settings/GMC   : 0
+Codec settings/Matri : Default
+Bit rate             : 1195 Kbps
+Width                : 512 pixels
+Height               : 384 pixels
+Aspect ratio         : 4/3
+Frame rate           : 25.000 fps
+Resolution           : 8 bits
+Chroma               : 4:2:0
+Interlacement        : Progressive
+Bits/(Pixel*Frame)   : 0.243
+Writing library      : DivX503b1988p
+
+Audio #0
+Codec                : MPEG-1 Audio layer 3
+Codec profile        : Joint stereo
+Bit rate             : 106 Kbps
+Bit rate mode        : VBR
+Channel(s)           : 2 channels
+Sampling rate        : 48 KHz
+Resolution           : 16 bits
+Writing library      : LAME3.97 

@@ -1,0 +1,211 @@
+﻿User Type,Username,Date,Text
+,garminfriend,2007-01-23T07:30Z,What's the problem?
+,brolleman,2007-01-23T11:12Z,The maps need to be unlocked...
+,zippoh,2007-01-23T23:03Z,Would be very nice if someone had a solution to the unlock-problem. or is this map maybe worth the money (compared to standard friluftskartan ?
+,zippoh,2007-01-24T11:43Z,"After reading som comments on other garmin maps, it seems like it is quite hard to break garmins     system. But it seems that it is easier if you just want to use it on a computer. Does anyone have a regfile for this map?"
+,dinkelman,2007-01-24T16:28Z,"Well, I don't have the unlock code. But on example for registry enries would be like:
+
+--
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_798]
+""ID""=hex:1e,03
+""IDX""=""C:\\Garmin\\FAMILY_798\\FAMILY_798product.mdx""
+""MDR""=""C:\\Garmin\\FAMILY_798\\FAMILY_798MDRMAP.img""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_798\1]
+""Bmap""=""C:\\Garmin\\FAMILY_798\\basemap.img""
+""Loc""=""C:\\Garmin\\FAMILY_798""
+""Tdb""=""C:\\Garmin\\FAMILY_798\\product.tdb""
+
+[HKEY_CURRENT_USER\Software\GARMIN\MapSource\Codes]
+""XXXXXXXXXXXXXXXXXXXXXXXXX""=""Friluftskartan PRO Götaland - PC unlock only""
+--
+
+So someone needs to provide the 25 chars to replace all the X:s above!"
+,zippoh,2007-01-24T19:44Z,Tack för registerdatan! Nu kan jag i alla fall se den i datorn. 
+,brolleman,2007-01-24T23:29Z,"Now we are getting somewere, please continue, you guys wtith the know-how......"
+,laser2,2007-01-29T23:04Z,"zippoh, hur lyckas du se den i datorn, vad använde du för serialno.?"
+,Mollar,2007-01-30T10:56Z,"To view the maps on the PC, use serial DEMO"
+,laser2,2007-01-30T22:57Z,"I'm sorry, but I can only see very low detailed maps and also the grid of the detailed maps.
+Have tried unlock code ""DEMO"" but it does not work."
+,tuchwood,2007-02-02T21:49Z,Check your Mapsource version. I have 6.10.2. Go to Utilities-Unlock Maps-Yes I have a 25 character unlock code - just write DEMO. It should work.
+,laser2,2007-02-04T19:31Z,"I have now tried old versions of MapSource including 6.10.2 both in swedish and english, but still only low detailed maps. DEMO works for City Navigator NT9, so it works for some maps but not these."
+,jonis500,2007-03-04T23:27Z,"DEMO works perfectly for watching these maps in PC. If anyone know how to generate a key, PM me or make a comment here.."
+,laser2,2007-03-08T23:05Z,"When I looked in my registry file the other day I found the error and now it works fine in the computer. But  I found that one disadvantage of having DEMO maps in Mapsource is that also unlocked maps uploaded to the GPS will lock the GPS to Demo-mode only, which means that no GPS reception can be achieved. So when you have to update the maps in your GPS you must first delete the DEMO maps in the unlock wizard."
+,snettanranger,2007-03-18T23:08Z,"someone who can fix a crack? I want it to work on my gps. Only ""demo"" mode... sucks"
+,nodh,2007-07-12T14:34Z,"Copy the Family folder to the other folders in the in the Garmin program folder.
+Restart Mapsource and enter the code that I dont have. :(
+Can anyone supply a code?"
+,cmjohansen,2007-07-24T15:35Z,I can get the details in the map even if demo code is used.. anyone have a 25 didgit code to use here?
+,Lasaruz,2007-08-02T20:26Z,Don't use DEMO! It will sett all other maps to demo. I have to install all agn.
+,gargammell,2007-10-10T10:03Z,"Funkar det inte som med gamla Friluftskartan, att köra in en stenåldersvariant(crackad/tweakad?) av Mapsource (3.*) kopiera över kartorna, sedan uppgradera upp mapsource. 
+Har inte möjlighet att kolla nu på jobbet, ska kolla när jag kommer hem"
+,snettanranger,2007-10-28T00:07Z,gargammell -> fick du det att funka?
+,SuperDOS,2007-12-03T13:47Z,anyone got a code yet?
+,GarminClaus,2007-12-08T02:36Z,"Well, I helped another guy with a key... guess I can post here too... He gave me a list of these maps, I gave him keys good till 2015... This torrent seems rather old, but the comment from the bottom is from 4 days ago... if you want a key email GarminClaus at live dot com ... The other guy asked for another one in this series, but I don't have the ID for it (I don't have it installed... Don't live anywhere close to where you'd need these)... Also, am looking for Carribean map data for a friend if anyone has it.  Anyway, I'm offering codes till the end of December... Then Christmas is over.
+
+I don't sell codes, I give them away, in case you see otherwise."
+,Nitrox_Diver,2007-12-22T18:22Z,"Hur installerade du Götaland till Mapsource?
+När man packar upp den får man ju bara en mapp ""Family XXX"" typ?
+Tänkte sedan använda Jetmouse på den vid överföring till GPS, men först måste jag ju få in kartorna i Mapsource...???? "
+,klumpfot1,2007-12-26T21:34Z,"Undrar också hur man installerar kartan i Mapsource. Har lagt mappen med alla filer på samma ställe som de andra kartorna men det fungerar inte.
+Någon som har Friluftskartan Pro Södra och Mellersta Norrland?"
+,Nitrox_Diver,2007-12-29T14:13Z,"Skumt.... hur importera kartorna till Mapsource så man kan föra över dom till GPS sen???
+
+Weird.... How do you import the maps to Mapsource so tah you can transfer them to you gps?
+
+Help needed!!! :))"
+,Nitrox_Diver,2007-12-29T14:20Z,"Anyone got a 25 character key for unlocking the Fri Pro Götaland in the PC??
+
+Tack på förhand!"
+[T],NightyNinetY,2007-12-29T23:31Z,"Denna är ju rätt enkel =)
+1. lägg mappen FAM_798 i C:\Garmin
+2. kör registerposten FAM_798.reg så infon läggs till i registret!
+3. Thats it!
+4. Funkar det inte så är det någon sökväg som e kass, bara att öppna FAM_798.reg i anteckningar & jämföra med vad som ligger i c:\Garmin\FAM_798
+5. Såhär ska FAM_798.reg se ut om ni lägger det under c:\Garmin\Fam_798
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_798]
+""ID""=hex:1e,03
+""IDX""=""C:\\Garmin\\FAM_798\\product.mdx""
+""MDR""=""C:\\Garmin\\FAM_798\\MDRMAP.img""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_798\1]
+""Bmap""=""C:\\Garmin\\FAM_798\\basemap.img""
+""Loc""=""C:\\Garmin\\FAM_798\\""
+""Tdb""=""C:\\Garmin\\FAM_798\\product.tdb""
+
+Här har ni en Produktnyckel som fungerar i mapsource för denna, ej med eran GPS:N854Y-MMCRT-PX9MT-6X2QS-2ASEY "
+,Nitrox_Diver,2007-12-30T10:42Z,Måste vara rätt färsk så här på förmiddagen... men jag hittar ingen .reg-fil när jag packat upp grejorna.....??? 
+[T],NightyNinetY,2007-12-30T17:58Z,"Längesen jag tog hem denna, men finns det ingen reg fil kan du enkelt skapa en själv. Det är bara att kopiera infon jag skrev innan & klistra in i notepad, spara den sedan som FAM_798.reg.. Se till så den inte blir en txt fil bara"
+,Nitrox_Diver,2007-12-30T21:34Z,"Nu funkar det!
+
+Med lite namnbyten, path-byten och annat smått och gott så funkar det klockrent!
+Nu väntar jag bara på nya SD-kort så jag kan ladda över kartorna!
+Tusen tack för hjälpen!! :))"
+,biglnodog,2008-01-03T10:08Z,"Hej... Behöver lite hjälp att skapa reg filen.
+Förstår inte var jag hittar notpad.
+Har xp"
+,snuffe173,2008-01-03T12:34Z,Någon Som vet kart ID till pro götaland?
+,superken,2008-01-04T18:50Z,"jag har en Garmin Nüvi 200!!!
+
+Nån som vet om jag kan trycka in friluftskartan i den??"
+,sunehjort,2008-01-05T23:53Z,kartid är 798
+,Merkurius66,2008-01-16T02:49Z,"Finns det nån som kan lägga upp Friluftskartan Pro Mellersta & Södra Norrland? 
+Skulle vara grymt schysst!
+
+Det är den enda av de 4 kartområdena som nu saknas..
+
+Can someone please upload 
+Friluftskartan Pro Mellersta & Södra Norrland?
+Thanks! "
+,stvikt,2008-01-21T22:45Z,Är det någon som har lyckats få denna karta att fungera på sin GPS tex Nuvi360?
+,stvikt,2008-01-23T17:35Z,"Japp, Jag fick den att fungera genom att ladda upp IMG filerna med IMG2GPS och lade in koden i en speciell ruta för detta"
+,Tompasj,2008-02-06T22:54Z,"Hur får man denna att fungera i Mapsource?
+Får den inte att fungera när jag lägger in produtnyckel."
+,BadCash,2008-03-03T02:25Z,"stvikt, hur fick du den att unlocka kartorna i GPS'en? Fungerar inte när jag använder koden som fanns längre upp i kommentarerna i Img2GPS. Jag har en Garmin GPSmap60, och det funkar finfint i MapSource, men GPS'en säger ""Couldn't unlock maps""...."
+,lttsaab,2008-03-09T09:09Z,Får inte regfilen att funka...står DEN ANGIVNA FILEN ÄR INTE REGISTERSKRIPT...Har provat att göra en själv....Har fått det att funka med GPS (60CSx) med att föra över med ett annat prog men vill få det funka i Mapsource.Är väldigt tacksam för hjälp om någon kan....
+,lttsaab,2008-03-12T18:50Z,"Nu funkar det!!!!!!!
+
+Tackaaaaaaar"
+,duploboss,2008-03-15T17:29Z,Please help ! I installed this map on my Mapsource but have no routing :( When i chose new route and set 2 waypoints on a road then i get straight line between these points and not a route on the road ... Any idea why ?
+,crko,2008-03-15T19:39Z,Kan någon skriva en steg för stegbeskrivning på hur man skapar registerfilen och får det hela att funka i Mapsource? Har kört fast alltför många gånger nu. Tack.
+,patwil,2008-03-15T21:20Z,Har fått den att fungera i mapsource men hur får jag över den i min gps. Står att kartorna inte har låsts upp för enheten när jag ska föra över dem.
+,duploboss,2008-03-15T22:56Z,"Is this map routable ?? I just installed in Mapsource Friluftskartan ( not Pro) and can`t make any route ... Please answer and help ..
+Thanks"
+,crko,2008-03-16T21:54Z,"patwil, skriv exakt hur du gjorde är du hygglig."
+,mster,2008-03-17T23:44Z,Jag använde ovanstående REGfil men fick då ändra mappnamnen i datorn där Garmin är installerat så att de stämmer med det som står i REG filen. T.ex. mappen C:\Garmin\Family_798 fick bli: C:\Garmin\Fam_798 eftersom det står så i REG filen. Ändrade även filnamnen som inte stämmer.
+,mster,2008-03-17T23:48Z,"Produktnyckeln ovan funkade bra den också. 
+Kan nu välja Friluftskartan i Mapsource och i Training Center.  TACK!
+Förresten så är den här kartan INTE värd sina pengar. Fattar inte att man kan sälja något så här undermåligt till de stålarna den kostar. Men det är ju klart bättre en Training Centers ordinarie skitkarta. "
+,poliskomisarie,2008-03-27T09:30Z,"Produktnyckeln fungerade ju endast för att låsa upp en lågupplöst version av kartan. OM man zoomar in till med än 10 km så blir det ""överzommat"". Förklaringar eller lösning någon?"
+,sven_elken,2008-04-14T22:04Z,"Full version of
+Friluftskartan Pro - Mellersta och Södra Norrland w/ install
+
+http://thepiratebay.org/tor/4134775"
+,SWEwillow,2008-07-15T15:03Z,"vart hittar man hårdvaru id,hittar inte det är novis på detta,har bara mapsource än skall köpa en gps snart,är det så att man måste ha en gps först för att få hårdvaru id eller?"
+,SWEwillow,2008-07-16T07:40Z,"funkade nu bara en fråga hur för jag över alla kartor till gps,från mapsource eller det kanske inte går eller hur gör man annas,är novis på detta"
+,craph,2009-02-27T00:10Z,"Lägger man in kartan direkt i GPSen eller hamnar det på minneskortet i GPSen? kanske en dum fråga.
+
+Jag ska nämligen bränna ut till en kompis.
+Måste man ha den GPS som ska ha kartan ipluggad i datorn eller kan jag lägga in lartorna genom min gps och sedan ge honom kortet.
+har givetvis använd hans id nr"
+,mster,2009-05-14T22:43Z,"Installerade om det här idag och hade inte sparat hur man gjorde. Fan det var krångligt då infon är utspridd.
+Här kommer en guide som utgår från att du vill aktivera Friluftskartan för användning på dator med MapSource och Training Center.
+Guiden bör vara komplett. Lycka till.
+________________________________________
+
+Installation av Friluftskartan Pro Götaland till Training Center genom MapSource.
+
+1. Installera Training Center
+2. Installera MapSource - uppgradera inifrån programmet.
+3. Packa upp Friluftskartan Pro götaland till: C:\Garmin\FAM_798
+4. Ladda ner Garmin Unlock Generator 1.3 eller 1.5
+
+_________________________________________________________________________________
+
+Gör en registerfil.
+
+1. Öppna notepad (anteckningar).
+2. Kopiera in följande:
+
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_798]
+""ID""=hex:1e,03
+""IDX""=""C:\\Garmin\\FAM_798\\FAMILY_798product.mdx""
+""MDR""=""C:\\Garmin\\FAM_798\\FAMILY_798MDRMAP.img""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_798\1]
+""Bmap""=""C:\\Garmin\\FAM_798\\basemap.img""
+""Loc""=""C:\\Garmin\\FAM_798\\""
+""Tdb""=""C:\\Garmin\\FAM_798\\product.tdb""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_798]
+""ID""=hex:1e,03
+""IDX""=""C:\\Garmin\\FAMILY_798\\FAMILY_798product.mdx""
+""MDR""=""C:\\Garmin\\FAMILY_798\\FAMILY_798MDRMAP.img""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_798\1]
+""Bmap""=""C:\\Garmin\\FAMILY_798\\basemap.img""
+""Loc""=""C:\\Garmin\\FAMILY_798""
+""Tdb""=""C:\\Garmin\\FAMILY_798\\product.tdb""
+
+[HKEY_CURRENT_USER\Software\GARMIN\MapSource\Codes]
+""N854Y-MMCRT-PX9MT-6X2QS-2ASEY""=""Friluftskartan PRO Götaland - PC unlock only""
+
+
+3. Döp filen till FAM_798.reg och spara. Se till så att den absolut inte heter .txt på slutet när du har sparat den.
+4. Kontrollera så att filnamn och sökvägar i registerfilen stämmer med verkligheten i din FAM_798 mapp.
+5. Kör FAM_798.reg filen och importera infon till registret.
+
+___________________________________________________________________________________
+
+Aktivera kartan i Mapsource.
+
+
+1. Starta MapSource
+2. Starta Garmin Unlock Generator
+3. Skriv in ditt unit id (Hårdvaru-id på din garminprodukt som du hittar under hjälpprogram i mapsource)
+4. Hoppa över Software Product.
+5. Select map product > custom mapset> skriv in mapID: 798, för Götaland och tryck OK.
+8. Tryck sedan generate. Kopiera unlock code.
+9. I Mapsource tryck hjälpprogram> Hantera kartprodukter> gå vidare till fliken ""lås upp regioner -> lägg till"" 
+10. Ange koden du fick i programmet ""Garmin Unlock generator"" och sedan OK.
+11. Du får nu upp en rulllist uppe till vänster där du kan välja friluftskartan.
+12. I Training Center kan du nu också välja Friluftskartan i en rullist.
+13. Happy Ending.
+
+
+
+779 = Norra Norrland
+796 = Mellersta och Södra Norrland
+797 = Svealand
+798 = Götaland "
+,jokkep,2009-08-09T22:37Z,"Nu har jag lckats se kartan i MapSource och laddat över den till min Colorado 300 utan problem, men Gps:en säger att kartorna inte är upplåsta. Var gör jag nu?"
