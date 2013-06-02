@@ -1,0 +1,63 @@
+Listen up soldiers!
+
+We have some great news for you regarding the upcoming 1.4 patch!
+The work on the greatest Battlefield 2 patch is finally completed and we are ready to release it. The release is today and downloads will be available on various large mirrors!
+
+The patch will be released in two versions: one full patch (1.x to 1.4) and one incremental patch (1.3 to 1.4).
+Both patches will be available for download at:
+
+* ftp://largedownloads.ea.com
+* http://files.i3d.nl 1000 mbit mirror
+
+
+All i3d.net gameservers will be switched to version 1.4 and the new BF2CC 1.4.2421 today at 19:00 CET. Please download this patch in time, serveradmins, upgrade your BF2CC install to the newest version BF2CC 1.4.2421 files.i3d.nl 1000 mbit mirror
+
+Have fun with this new patch, and we would like to invite you to tell us how you experience the patch on our forums: http://forum.i3d.nl/
+
+The full releaselog:
+=========================================================================
+Battlefield 2?: V1.4
+ReadMe File
+June 30, 2006
+=========================================================================
+
+
+=========================================================================
+Patch v1.4
+=========================================================================
+
+
+GAMEPLAY TWEAKS
+
+- The vehicle drop has been modified to help prevent exploits such as blocking
+enemy vehicles, destroying vehicles and commander assets, or as an alternative
+to artillery.
+- C4 tossing distance has been reduced.
+- A prone->crouch delay has been added.
+
+
+BUG FIXES
+
+- Fixed the Linux server hangs when trying to load a Special Forces Co-Op map.
+- Another attempt at fixing the Red/Blue nametag bug.
+- Fixed the missing server info on the map briefing screen.
+- Fixed the server browser issues with updating info.
+- Fixed the filter by maps size option in the server browser.
+- Fixed a low reproducibility crash bug related to the vehicle drop.
+- Fixed a crash in Co-op after a player is revived without a kit.
+- Fixed a server crash on Linux 32 when trying to rotate maps in Coop Mode.
+- Fixed the occasionnal red distance marker appearing on the ground.
+- Fixed the bug that caused the player's arms to become invisible when switching
+weapons.
+- Co-Op bot console commands now function on local servers.
+- Fixed the excessive damage taken by the Muscle Car.
+- Adjusted the minimum number of players to start the round on ranked servers.
+The new values for 16, 32 and 64 players are 6, 6 and 8 respectively.
+- Re-enabled unlocks on unranked servers.
+- Commander options are no longer available whilst commander is dead.
+- Fixed bug where a spawn point is shown as selected when it is not if player has
+spawned in during the preview round.
+- Co-Op (Local Server) - Fixed the issue where no other players may join the server
+if the server host is kicked and banned.
+- Ranked Servers now force unlocks.
+- Added support for multiple gamemodes in single maplist for mods

@@ -1,0 +1,82 @@
+Questions and Answers:
+
+Q:What is this?
+A:A livecd image with Starcraft:Broodwar on it.
+
+Q:What is this for?
+A:To play the game Starcraft on about every PC with at least a cdrom player in it (and a network card to 
+
+play on a LAN)
+
+Q:How do I use this?
+A:
+1-Burn the iso to a cdrom with Nero Burning Rom or Alcohol120% or whatever application can do.
+
+2-Boot from the cdrom (change BIOS boot setting if required)
+and select press ENTER at the blue menu
+
+3-After it is done loading, SINGLE click the computer icon on the desktop to get an explorer, run the file 
+enable_ipx_bartpe.bat from the cdrom to start the IPX protocol (for multiplay)
+
+4-watch the jpg\'s starting with number 1 and do the exact same (fix IPX for Starcraft )
+
+5-run setup.exe inside the scbroodw folder (nocd crack)
+
+6-run StarCraft.exe inside scbroodw (Play!)
+
+Q:How did you make this?
+A:I made a bootable cd with a WindowsXP sp2 UK image and UBCD4WIN (http://www.ubcd4win.com/)
+Then I copied Starcraft:Broodwar v1.04 to the cd, with nocdcrack included, then I looked up how to get IPX 
+
+to work with UBCD4WIN and provided instructions, and I made up some Starcraft ID\'s to play with, not 
+
+much work at all.
+
+Q:Can I play over Battle.net with this?
+A:No, buy the game if you want to.
+
+Q:Can I play this over the internet with friends?
+A:Yes, but you and your friends needs the exact same Starcraft version (v1.04) and hamachi from 
+ 
+http://www.hamachi.cc/
+
+Q:Does this have sound enabled?
+A:No, I don\'t know how to get sound enabled on this, I did however included a huge bunch of drivers, in the 
+
+files \'DP_Sound_A_wnt5_x86-32_6061.7z\' and \'DP_Sound_B_wnt5_x86-32_606.7z\'
+
+Q:Help I cannot create extra ID\'s (usernames) or save the game?!
+A:That\'s right, you are running it from the cd, and since the game cannot write to the cd, it cannot create 
+
+the ID for you, if you really need to create a new ID, copy the whole game (the \'scbroodw\' folder) to a 
+
+medium like a harddisk or usb drive, then run it from there, you should be able to create new ID\'s now.
+I did include some names to play with, so it can be run from the CD.
+
+Q:What are all these tools included on the cd?
+A:System tools to perform troubleshooting for a numerous amount of things.
+Credits goto http://www.ubcd4win.com for this!
+
+Q:Can I look and write at/to my own harddisk with this?
+A:Yes.
+
+THANKS TO:
+-Microsoft for providing Windows XP, works fine (after 2 service packs and a gazillion updates that is)
+-Blizzard for creating Starcraft:Broodwar, the best RTS game ever made.
+-http://www.ubcd4win.com for providing me with a way to create a windows live cd with a bunch of nice 
+
+tools and the tip on how to get IPX to work
+-the Twilight group, for bringing out the Twilight release containing SC:B a while ago
+-RAZOR 1911: for providing the actual release
+-Me (Zaggynl) for just putting this together
+
+HOPEFULLY COMING:
+new version with following changes:
+-automatic enabled IPX with right settings
+-automatic enabled sound
+-last SC:B version with nocd crack
+-desktop shortcut to easily launch SC:B
+-simple way of storing SC:B characters on ramdisk so they can be created
+-updated tools, they are nice but most of them are outdated
+Above mostly depend on a new UBCD4WIN version
+

@@ -1,0 +1,112 @@
+﻿User Type,Username,Date,Text
+,taikon,2007-01-07T20:09Z,---
+,bittrucker,2007-01-08T11:03Z,Thanks. Already have this though - you wouldn't happen to have the latest updates also?
+,taikon,2007-01-11T11:41Z,"Sorry, no updates.
+
+Im dreaming about a Tech 2 scan tool (if the price is right), so if anybody have Tech2 related software please share it.
+
+User id and password for GM techline, anyone? ;-)
+
+By the way is this download working for you?"
+,m2c,2007-01-13T03:06Z,Thanx for sharing!!!
+,edinjersey1,2007-01-26T21:06Z,"Help!  Downloaded it twice and I keep getting invalid format messages.   Trying to open using poweriso.
+
+does this file work?"
+,m2c,2007-02-04T23:00Z,Either burn to a DVD as iso image or mount it in daemontools http://www.daemon-tools.cc/dtcc/download.php?mode=ViewCategory&catid=5
+,edinjersey1,2007-02-09T21:52Z,Thanks.  Had to download 2x-first time corrupt. 2nd time worked.
+,sundelin666,2007-03-13T00:21Z,How do i open it? do i need some other prog to? Just loads a internet site?????
+,soul_seeker77,2007-06-23T17:44Z,"SEED Please, 37days 10hrs left on my d/l.. >:("
+,Ryhelios,2007-07-08T07:57Z,do they have something for older GM like Olds 442?
+,TheTwistOfCain,2008-02-24T18:36Z,"I am having a prob too installation completed without a flaw it seems, but it keeps trying to connect to some server, opens up browser.... please help BECAUSE THIS IS A VERY USEFUL TOOL to e and many others....
+
+PS even though i cant get this bad boy running im still seeding in hopes someone finds a cure :)"
+,TheTwistOfCain,2008-02-24T18:40Z,"This is what the site sais:
+"" The SI Stand-alone application has been installed. You must install the SI Stand-alone data before using the SI Stand-alone application.""
+
+how the phuck do i do that? anyone?"
+,wcs2059,2008-03-03T05:37Z,"I got this to work just fine...if anyone is still having issues, run the video in the VIDEO_GUIDE directory (after you've created the dvd) and follow all the instructions."
+,Larry767,2008-03-03T17:36Z,"This is awesome.  If anyone has access to a newer version of this DVD, please consider sharing it.  Would also be great to get access to the online informaiton on GM's website.  What about Ford or Chrysler manuals?  Would be awesome to get those too.
+
+Thanks for the share."
+,goodman08,2008-03-15T14:05Z,"Hi!
+
+I have the same problem as ""Thetwist ofchain"", no problem til install, but to open. Message:
+"" The SI Stand-alone application has been installed. You must install the SI Stand-alone data before using the SI Stand-alone application.""
+And that's it. What now?"
+,ChevyHoe,2008-03-27T19:00Z,"There have been some problems with the install.
+For instance, the first time I installed it everything worked fine, but then I uninstalled, and all hell broke loose.
+Got the same error as mentioned above.
+
+Haven't really figured out why, but this seems to do the trick:
+
+1. Restart the computer, and do not open any applications.
+2. Insert/mount the DVD.
+3. Follow the instructions on screen
+4. Once finished, open the DVD with Windows Explorer and copy the folder named Copy_to_HardDrive to your desktop. (In some cases, it works better if you copy the folder to the destination folder (ex: C:/Program files/GM SPO))
+5. When finished copying, remove the DVD and open the Copy_to_HardDrive folder.
+6. Double click SETUP
+7. Follow the instructions on screen
+8. Installation is now complete. Delete the Copy_to_HardDrive folder.
+
+
+PS: In some cases, it has helped to copy the folder to another harddrive. 
+Dunno why it happends, but I've got it working on both of my computers now.
+
+And no, I haven't downloaded this one yet, so I don't know the instructions in this DL.
+Got mine from a ""friend"" off eBay a long time ago.
+
+Hope this'll help you get it up and running :)"
+,cadillacjerk,2008-05-03T04:04Z,"cool download....need Cat, Cummins, Detroit, Volvo info/diagnostics....help a priate out! "
+,zigzag644,2008-05-07T03:16Z,"How to install:
+
+1) Download, burn ISO to DVD or mount volume.
+
+2) Run the installer, but don't run the program afterwards.
+
+3) Browse the DVD to the folder SI_DATA and run the SI_DATA.EXE self-extracting RAR file.
+
+4) Extract the files to a temp folder on your hard drive.
+
+5) Start watching a movie while the files unpack. Check back half-way through the movie.
+
+6) Run the SETUP.EXE file in the temp folder and use the default path settings (C:\Program Files\GMPRO\eSI\). 
+
+5) Finish watching the movie, the final setup should be complete.
+
+6) NOW run the program. 
+
+This worked for me.  Watching a movie is optional to those who prefer the excitement of staring at a stalled setup dialog window and a flickering HDD light."
+,grunsel,2008-10-07T05:34Z,"Problem when I run program is says:
+Windows cannot find 'http/127.0.0.1:9001/servlets/Home?app=SI'. Make sre you typed name correctly, and then try again. To search for a file.......
+Any ideas?
+Heeeeelp.
+Thanks"
+,grunsel,2008-10-07T05:52Z,"I found an answer to my problem from above...
+Possible solution found at
+http://pc-surgeon.net/images/cforum/instructions/GM%20Service%20Manual%20Installation%20Instructions.pdf"
+,kccode1,2009-06-08T14:09Z,"This is awesome!  I only needed one manual for the car I just bought, but this is great.  Now I have all of them.
+
+No virus and Installed perfectly.
+
+I will seed for a while. I have good bandwidth. "
+,funforus,2010-02-07T19:41Z,"So does this run on Windows 7, or is there an updated version?"
+,ozc,2011-03-24T19:49Z,"It works in Windows 7 Home Premium 64bit but you need to take the following steps.
+
+-Disable UAC with TweakUAC (maybe maybe not)
+
+-copy msvcr71.dll from the java's directory into \GM SPO\eSI\Apache Group\Tomcat 4.1\bin 
+
+-go to admin tools > services > SI Tomcat and start it.
+
+-enable UAC if you had to disable it.
+
+-Restart. 
+
+Working for me right now, should still work after I restart.
+
+Someone really needs to crack a new version of eSI..."
+,ultronics4u,2011-06-25T14:21Z,"thank you so much for this uploader, great program, i was searched for everywhere, and this reduced nearly 800$ of spareparts cost of my chevy"
+,ultronics4u,2011-06-25T14:22Z,pls guys seed it more faster .........
+,loner_wolf_69,2011-07-02T07:18Z,"i can get a disk of new version if anyone knows how to copy/crack it.   email me lonerwolf64@gmail.com ps this one works fine.you just need to follow instructions exactly.  
+
+http://pc-surgeon.net/images/cforum/instructions/GM%20Service%20Manual%20Installation%20Instructions.pdf"

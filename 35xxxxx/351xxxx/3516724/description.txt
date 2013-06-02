@@ -1,0 +1,10 @@
+Cedega 5.2.5 Released
+Issued on Tuesday August 22, 2006
+
+August 22nd 2006, TransGaming releases Cedega 5.2.5 codenamed Spearfish, a point release to correct a number of issues with EVE Online, the ATI drivers, and some fixes for a variety of other games.
+
+EVE Online's update, entitled Dragon, brings with it a slew of new security features designed to protect the game world and its inhabitants. Just in time for its release, Cedega 5.2.5 includes the necessary low-level improvements required for these security features to work under Linux. With this update, players can continue to enjoy running their favorite game seamlessly under Linux. We would like to thank CCP for their involvement, providing us with early access to this update, and helping to make this happen.
+
+Spearfish also includes a work-around for a long standing ATI driver bug. This work-around allows more games to work through Cedega with the official ATI FGLRX drivers. Numerous games that previously crashed with an ATIFGLRXDRI or BadValue error may now be working, including Grand Theft Auto III, Grand Theft Auto Vice City and Star Wars Battlefront. TransGaming would like to thank the ATI Linux driver development team for providing assistance and insight into the nature of the problem, as well as for continuing to work to provide a better gaming experience for all Linux ATI users.
+
+Also in Cedega 5.2.5 are fixes for the recent Battlefield 2 mouse issues that users have been experiencing with the latest versions of Xorg, incorrectly aligned mouse pointers in Cedega's desktop mode, several game installers that previously crashed with Fedora Core 5, and a startup issue that prevented Far Cry from running on recent distributions.

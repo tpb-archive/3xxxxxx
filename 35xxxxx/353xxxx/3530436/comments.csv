@@ -1,0 +1,18 @@
+﻿User Type,Username,Date,Text
+,hallavej,2006-10-12T00:44Z,"Watch out, this what clamav has to say:
+
+clamscan ""FairUse4WM Setup.exe"" 
+FairUse4WM Setup.exe: Trojan.Downloader.Zlob-606 FOUND
+
+----------- SCAN SUMMARY -----------
+Known viruses: 72833
+Engine version: 0.88.4
+Scanned directories: 0
+Scanned files: 1
+Infected files: 1
+Data scanned: 0.12 MB
+Time: 2.045 sec (0 m 2 s)"
+,Zedrick,2006-11-10T14:11Z,"NOD32 can't find any malware, and I thrust NOD32 over just about anything else on Windows-machines."
+,ShAQ2000,2006-12-30T13:37Z,"@hallavej:
+
+Update your ClamAV - its a false positive! I already reported that to them!"

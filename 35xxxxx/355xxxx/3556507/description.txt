@@ -1,0 +1,95 @@
+* XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC
+----------------------------------------------------------------------------
+XBMC 2.0.1 Final Pointrelease (13th of November 2006)
+
+This is a complete snapshot of what is in CVS at the time
+the build was compiled, with just a few small additions:
+
+   + Killarny & Nuka1195 & Pikes AppleMovieTrailers (AMT) 0.93.5 (scripts: Apple Movie Trailers)
+   + BritneysPAIRS's ~110 choosen Milkdrop presets (visualisations: MD - BPs Selection)
+   + EnderW's XBMCScripts Installer 1.0 SCRIPT (scripts: XBMCScripts)
+   + Rockstarr's Snake 1.0 SCRIPT (scripts: Snake)
+   + Codecs for mplayer (system\players\mplayer\codecs\:*)
+
+----------------------------------------------------------------------------
+* T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH
+
+
+MESSAGE FROM T3CH___________________________________________________________
+   This is the standard build I've been releasing for a while now. AMT has been updated to 0.93.5 since 2.0.0.
+   I have also added Rockstarr's SNAKE Python game since 2.0.0. This build is based on 2.0.1 sourcetree as found on Sourceforge.
+   The only changes since XBMC 2.0.0 are bugfixes, it is recommended to upgrade!
+   Like last time around, a FAT build is coming, so if you want that, stay tuned!
+
+
+INFORMATION_________________________________________________________________
+   XBMC's online manual can be found at http://www.xboxmediacenter.com/wiki .
+   Any questions or support issues, are best asked in the XBMC support forums, 
+   which are located at http://www.xboxmediacenter.com/forum , 
+   or in the official IRC support channel, #XBMC on EFnet. 
+   (NOTE folks in #XBMC can't help with info where to find builds)
+
+   If you want other skins (make sure they are up-to-date and compatible before installing them), see:
+ o http://www.allxboxskins.com/skins/index.php?app=XBMC&cat=0  or
+ o http://www.xbox-skins.net/forums/index.php?dlcategory=7 
+   there's a list of 2.0 compatible skins here:
+ o http://www.xboxmediacenter.com/forum/showthread.php?t=19374
+
+   If you want other scripts (extra 3rd party components), see
+ o http://www.xbmcscripts.com or use the included script installer!
+
+   If you want trainers, grab them at
+ o http://www.xboxtrainers.net (no registration required) or
+ o http://www.google.com/search?q=xbox+trainers
+
+   The xbe has been retail patched and was built using v5849 of the XDK.
+
+   If you want to remove the startup logo, remove splash.png from the \media folder.
+   If you want to remove the startup sound, remove start.wav from the \skin\Project Mayhem III\sounds\ folder.
+
+   XBMC Changelog is included, see Changelog.txt
+   Skin Changelog is included, see Changelog_PM.txt
+
+
+APPLICATION INSTALL_________________________________________________________
+   Fresh Install: Transfer _whole_ XBMC folder to your APPS folder (or where you want it).
+
+   Upgrade: Backup the XBMC\UserData folder. Transfer whole XBMC folder to Xbox. 
+            Overwrite UserData folder with your backed up copy. 
+
+
+DASHBOARD INSTALL (SOFTMODS)_____________________________________________
+   ARE NOT COVERED IN THIS README, SEE http://forums.xbox-scene.com/index.php?showtopic=406656
+
+
+DASHBOARD INSTALL___________________________________________________________
+   Option 1. Team XBMC's shortcut tool. 
+   It's included in the _tools folder as <<SHORTCUT by TEAM XBMC.xbe>> + <<SHORTCUT by TEAM XBMC.cfg>>.
+   Instructions here: http://www.xboxmediacenter.com/wiki/index.php?title=As_a_Dashboard (Option 1).
+   Rename the <<SHORTCUT by TEAM XBMC.xbe>>+.cfg & also EDIT the .cfg so it matches your config. 
+   See APPLICATION INSTALL above.
+
+   Option 2. Thanks to an app called 'Team UIX's Xbe Shortcut Maker v1.0' by JbOnE, it's now easy...
+   Transfer contents of XBMC folder (this is VERY important since the tool is hardcoded) 
+   TO "E:\APPS\XBMC\". Rename <<SHORTCUT by TEAM UIX.xbe>> to something your bios can boot 
+   (see http://www.xboxmediacenter.com/wiki/index.php?title=As_a_Dashboard or read your 
+   BIOS README) and transfer to location your mod solution boots. No need to fiddle with HOME tag anymore, 
+   and future upgrades you need not to worry about this file (unless you move XBMC).
+
+
+UPGRADE TIPS________________________________________________________________
+   If you're updating from a VERY old/bad build you may get issues. Follow these simple rules:
+ o Replace (FTP OVERWRITE) all files in your XBMC folder with fresh ones from your new build
+ o Delete old settings (from UserData/guisettings.xml)
+ o In some rare cases some of the database files in UserData/Database/*.db may need manual deletion 
+   (usually if they are very old). Note: This loses all per file settings you made with the old build!
+
+
+TWEAKS BY T3CH______________________________________________________________
+   I've cleaned up the scripts menu, >>XBMC\skin\Project Mayhem III\pal\dialogsubmenu.xml<< 
+   (used for all resolutions) to only show the included QuickTimeBrowser & "XBMCScripts" scripts.
+   If you add scripts yourself, this is the file to edit or replace.
+
+
+LAST WORDS__________________________________________________________________
+   Who is T3CH? - Revealed on a -need to know basis-

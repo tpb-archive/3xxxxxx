@@ -1,0 +1,143 @@
+****************************************
+* Readme COC_UnifiedArtillery          *
+****************************************
+This is the Chain of Command Unified Artillery v. 1.1 (Battle Kings).
+
+Documents (user manual and all the others) are in your ofp/@CoC/Documents directory.
+
+stuff in Addons Directory (CoC_Arty.pbo and all the others) goes into your ofp/@CoC/addons directory.
+
+stuff in Missions Directory (ChainOfCommand Folder) goes into your ofp/Missions directory.
+
+stuff in MPMissions Directory (ChainOfCommand Folder) goes into your ofp/MPMissions directory.
+
+Stuff in the Editor Missions Directory goes in your ofp/users/"your username" directory
+
+If the user is running WGL, WGL_UAMortars.pbo goes into the ofp/@WGL5/addons directory. Also, excessive FPS slowdowns can probably be fixed by adding the following lines to the init.sqs
+
+@WGLWeaponFXInit
+~1
+WGLMGTypes=[]
+WGLfuncRifle={}
+
+
+Please report any bugs to me or on the CoC Forums (forums.thechainofcommand.com)
+
+some known bugs:
+   A) On some very big missions, after a certain amount of time, a Crash-To-Desktop may occur on Retry, or (in MP) on reloading the Briefing screen (#Restart).
+   B) In multiplayer on a dedicated server, between rounds, the firing units elevate their barrels to 90 degrees. This does not effect the firing of the rounds; it just looks weird.
+   C) The missions are in various states of disarray. They _should_ work.
+
+-dinger (dinger-at-thechainofcommand.com)
+
+
+The Contributors to Unified Artillery include.
+The Chain of Command dinger, jostapo, denoir, bn880, walker
+For models artwork and integration into the WGL5 package WGL Phaeden, Tactician, AngusHeaf, Killswitch bn880
+And the following Mod teams and authors generously permitted the use of and or integrated their models and artwork into this package for this release:
+SEB Mod SelectThis, 
+DKM Mod Gen.Carnage, 
+UK Forces Mod jonno 
+Swedish Forces Pack Mod granQ and shar,  
+DDAM Mod Frandsen.
+Hawk of http://www.of.fpp.pl/
+
+Models and artwork of the above authors remain their respective copyright and are used in this release with their very kind permission.
+
+We would like to thank all the beta testers, especialy those at Zeus, and others too numerous to mention who contributed their time and effort to making Unified Artillery possible.
+
+Websites:
+The Chain Of Command 
+http://www.thechainofcommand.com/
+
+WGL: 
+http://ofpc.de/wargames/
+
+UKF: 
+http://www.project-ukf.com/
+
+DKM: 
+http://www.dkm.gotf.net/
+ 
+http://www.ofpec.com/ 
+
+BAS: 
+http://www.ballisticaddonstudios.com/
+
+SFP: 
+http://swepack.game-host.org/
+
+DDAM  
+http://frandsens.blogspot.com/
+
+Hawk: 
+http://www.of.fpp.pl/
+Zeus
+
+
+Please Read the License Agreement
+---------------------------------
+
+
+Unified Artillery by default is installed in the following structure asuming the default install
+
+If you wish to unistall Unified Artillery delete these files
+
+Section "Addons" SEC01
+in Operation Flashpoint\@CoC\Addons\"
+CoCDKMM_M46.pbo"
+CoCHWK_2S19.pbo"
+CoC_Arty.pbo"
+CoC_Cobra.pbo"
+coc_fed.pbo"
+CoC_M55.pbo"
+CoC_NS.PBO"
+DKMM_M46.pbo"
+SFP_ARTHUR.pbo"
+SFP_ssg120.pbo"
+
+
+"SPMissions"
+in Operation Flashpoint\Missions\The_Chain_of_Command\"
+cocshield.jpg"
+coc_ua11intro.noe.pbo
+coc_uaintro.Noe.pbo
+coc_uatut1.abel.pbo
+coc_uatut2.Abel.pbo
+coc_uatut3.Abel.pbo
+coc_uatut4.Abel.pbo
+coc_uatut5.Noe.pbo
+coc_uatut6.Noe.pbo
+coc_uatut_clgp.Abel.pbo
+Overview.html
+UA1_1demo.Noe.pbo
+
+"MPMissions"
+in Operation Flashpoint\MPMissions\The_Chain_of_Command\"
+co21_checkpoint.occasus.pbo"
+co27_hamilton_perimeter.occasus.pbo"
+PointyEnd.avignon.pbo"
+PointyEnd.Eden.pbo"
+
+
+"WGL5_Mortar"
+in Operation Flashpoint\@wgl5\Addons\
+WGL_UAMortars.pbo
+
+
+"Editor_Missions"
+in Operation Flashpoint\users\coc\UA11Template.Intro
+UA11Template.Intro\description.ext
+UA11Template.Intro\mission.sqm
+
+
+"Documents"
+in Operation Flashpoint\@CoC\Documents\
+BLOWING STUFF UP.pdf
+DKMM_M46_Readme.txt
+readme_CoCarty.txt
+UA11Docs.pdf
+Unified_Artillery_License.rtf
+Unified_Artillery (shortcut file)
+
+On your Desk Top Unified_Artillery Shortcut

@@ -1,0 +1,14 @@
+PC DOS 7.0 (IBM PC DOS 2000) Revision 1 engelsk version
+
+ + Y2K Compliant
+ + PCMCIA Support
+ + REXX Language Support
+ + Stacker Compression
+ + IBM AntiVirus
+ + Easy Memory Management
+ + 100% MSDOS Compatible
+ - FAT16 ONLY!  :(
+
+Extrahera filerna till tex C:PCDOS12, C:PCDOS34 osv..
+Gå till katalogen C:PCDOS12 via DOS-promten
+Skriv LoadDskF C:PCDOS12PCDOS_#.dsk A:

@@ -1,0 +1,122 @@
+﻿User Type,Username,Date,Text
+,attila2003,2006-11-15T07:33Z,"i do not downloadit itt stop always  43.5%
+wath i have to doo too download 100% "
+,thayk,2006-11-15T10:27Z,"patience is vitue :) dont wori, i leave my PC running 24/7....itll donwload soon"
+,luuk1985,2006-11-20T18:37Z,"i have two questions;
+
+1. does this version work?
+2. thoes this version include arcmap? "
+,thayk,2006-11-23T13:10Z,"Downlaod and see for yourself. yes, this version includes ArcMap. "
+,luuk1985,2006-11-23T14:29Z,"DUDE you Rule!!!
+
+Thx alot for this software. I downloaded a few others and they didn't work but this one thoes. 
+
+Thx again \m/"
+,thayk,2006-11-25T13:43Z,"Salamat (Thank you), luuk1985. hope you use it in practical manner. oops, but then again, please be aware that what we are doing are illegal (in US and some US-like territories). "
+,hmx_ryan,2006-12-07T02:48Z,"Hi... can you also give me a copy of your Crack for Arcview 9.1... I do have one but its an Evaluation Copy only for 60 days... Please.... Just a Crack of it... If you send it to my E-mail, would be better... Here's my E-mail Address: hmx_van@yahoo.com...Salamat ng Marami..."
+,cowincup,2007-02-20T03:49Z,"everything went well till I got to the License manager tools/Start/stop/Reread tab. Stop server gave me a ""unable to stop server"" at bottom. The centre square 'Agis license manager' was greyed out.  Reread server failed. Server started but diagnostic through up many errors.
+Any ideas?"
+,diogenes.peirates,2007-02-26T23:34Z,"want to view the .lyr files?  a torrent for ArcView GIS 9.1 is available on PirateBay:
+http://thepiratebay.org/tor/3557330/GIS_Arc_View_version_9.1plus_crack.zip"
+,Bob-o28,2007-04-13T15:48Z,I'm having the same trouble as cowincup:  It seems when I run the LMsetup.exe it doesn't install the license server.  I'm never prompted on whether or not to overwrite the files.  Everthing else runs as it should till I get to the start/stop/reread tab.  Unable to stop server and reread failed.  What am I doing wrong?
+,nthena,2007-08-25T16:15Z,have the same problem as cownincup and bob-028. Anyone know what to do
+,edizana,2007-09-06T11:16Z,everything went well till I got to the License manager tools/Start/stop/Reread tab. Stop server kept saying stopping server. start server kept saying starting server and Reread license file threw up errors. wot could be the problem
+,bosango,2007-09-23T21:15Z,"Everything seemed to be going along fine - diagnostics in the License Manager all checked out.  But, when I went to first use ArcMap and was prompted for a registration authorization file, I directed it to the license.lic file and it told me that the file was for a beta version of ArcView.  Any suggestions?"
+,bosango,2007-09-23T21:25Z,Hmmph!  I just reinstalled the registry file and now it's all working nicely.  Well done thayk!
+,edizana,2007-09-27T16:43Z,"crank_ed
+everything goes well till i get to step 11 , when i press  stop server it saays that unable to stop server. what could be the problem can someone please help me"
+,Shnoky,2007-10-11T09:02Z,Try the New one ARCGIS 9.2. That one works
+,zaza1851983,2008-02-15T03:07Z,Thank you very much for this nice post
+,xlivetodayx,2008-03-28T22:05Z,Nice.  But there's no StreetMap USA locator file making geocoding impossible.  Know where I can get it?
+,keithman808,2008-05-15T15:13Z,"H thayk, I have downloaded the arcview 9.1 file but cannot get it to run, the lincense configure test always shows errors!! maybe i'm makeing an error with the first few lines of the install text???"
+,euthan,2008-07-26T10:08Z,"well, try editing the .reg file and change the path of the flexm folder from ""LICENSE_PATH""=""f:\\flexlm""
+to ""LICENSE_PATH""=""c:\\flexlm""
+"
+,Piraterum,2008-09-09T10:38Z,"YAY I FINALLY GOT IT WORKING!!!
+
+For all of those having trouble when you get to the License manager part try doing this before running the license manager:
+
+
+License Manger Setup
+
+a. Create the following directories:
+i. C:\Program Files\ESRI\License\arcgis9x
+
+I think this one is easy. just create these folder.
+
+b. Copy license.lic to that directory.
+
+Included in the Torrent is a file named license.lic
+copy that to the folder you just made. 
+
+
+c. Edit the first line of the license.lic file
+
+i. SERVER this_host any
+ii.Change this_host to the name of your computer
+
+
+okay people made mistakes in this part and is one of the reasons for the diagnostics to fail.
+
+after you copied the license file, right click the file, select open with, then choose notepad. now you will see the first line that looks like this.
+
+SERVER this_host any
+
+Now change the word this_host with your computer name. for example my computer name is Shnoky so it would look like this.
+
+SERVER Shnoky any
+
+Then save
+
+d. Run LMSetup.exe
+i. Choose C:\Program Files\ESRI\License\arcgis9x\license.lic when prompted.
+
+It should be the first option. then browse the license that youve edited. if youve made the above instructions correctly by the time you click next, all licenses for Arcgis will be listed if not then you blew it. continuing is useless. please do it all over again. and read the instructions carefully
+
+ii. Do not restart.
+
+This is extremely important!! do not restart. choose restart later. 
+
+iii. Copy over ARCGIS.exe to C:\Program Files\ESRI\License\arcgis9x
+
+iv. Add ESRIFloat.reg to the registry.
+
+I think this part is easy. copy ARCGIS.exe to the folder youve made earlier. then overwrite when prompted. 
+
+then double click ESRIFloat.reg then select yes. if it doesnt work go to start, select run, type regedit then file, import, then browse ESRIFloat.reg file.
+
+e. Restart your computer.
+
+after youve done the above. this is the only time you will restart your computer. 
+
+now after restarting ...
+
+f. Launch StartMenu -> ArcGIS -> License Manager 9x -> Run License Manager Tools.
+
+g. Choose tab Service/License File, and check ""Configuration using Services"", and choose the ArcGIS License Manager.
+
+its the first tab. you wont miss it. just follow the instructions.
+
+h. Switch to tab Configure Services, make sure ArcGIS License Manager is in the Service Name listbox.
+
+
+i. Browse to the correct License file path (C:\Program Files\ESRI\License\arcgis9x) where you copied the license.lic file and choose it as license.
+
+this is important browse the license that you edited earlier. the license should be the file named license.lic. when you browsed the folder there will be a lot of licenses inside. find the one youve edited earlier.
+
+j. Check Start Server at Power up.
+k. Click Save Service to save the settings.
+l. Test the server by choosing the Start/Stop/ReRead tab, Click Stop server, then ReRead license file, then Start Server.
+
+
+alright oryxgazella please dont be dissappointed when it says it fails. I think this license manager that was included in the torrent is a bit old so there is no check box where it says Force shutdown. I have a new version on this and it has a check box to Force it to shutdown but its not in this version of license manager. when I installed Arcgis I used the one included in the torrent so I know what happens when you use this license manager . It does fail when you click stop server and reread license file. but it should work when you clicked the Start Server. if it fails click it again. if it fails again. restart then Stop server and reread. then Click start server. if it still fails go to the Configure Services tab and uncheck the checkbox Start server at powerup. then restart computer. after restarting. Run license manager. Choose configuration using Services on the first tab Service/License. Then go to Start/Stop/Reread then Click Start Server. If it still fails after youve Clicked Start Server. youve ran out of options. I would suggest Reviewing"
+,julian.k,2009-03-11T18:52Z,"ahhh I don't get step 3, help!"
+,Azzaman,2009-07-22T05:33Z,"It seems I've tried everything here, I cannot get it to work, Start Server always fails.   Darn I really wanted this one!!"
+,Azzaman,2009-07-22T05:52Z,"piraterum, are you sure you didnt need a diferent liscence file or something?"
+,amm4real,2010-05-08T16:23Z,i cannot get t working i am being asked to register the programme can someone help me?
+,freeze889,2010-05-21T15:11Z,Does this work with vista 32bit?
+,freeze889,2010-05-21T15:14Z,Does work on vista
+,freeze889,2010-05-21T15:15Z,Does it work on vista?(32 bit)
+,caiuss,2010-12-13T17:36Z,downloading this torrent now but it's a bit old were working with 9.3.1 at school. any chance you could upload a newer version? thanks in advance 
+,jiranimo,2011-07-22T10:31Z,Thanks dude! Works fine... 
+,GreatLeader2,2012-08-21T20:02Z,"Having the same ""Unable to stop server"" error as the others, even after carefully following Piraterum's instructions, but I'm running a cracked Windows 8 preview, so that may add to the problem --in case it helps anyone"

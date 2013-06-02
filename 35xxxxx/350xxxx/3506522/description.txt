@@ -1,0 +1,41 @@
+Overview
+If you've been yearning to create games but have been frustrated by the complexity of programming languages such as C++ or Java, you've come to the right place!
+
+Blitz3D provides a simple yet powerful environment for game creation - simple, because its based around the popular and easy to use BASIC programming language; and powerful, thanks to a highly optimized underlying 2D/3D engine.
+
+Blitz3D includes many commands to help you out with game creation - but not too many! Rather than confuse you with tons of commands, Blitz3D's command set has been carefully designed to provide maximum flexibility for minimum effort.
+
+And if you get stuck, there is always the huge Blitz3D user community to call upon for help. Buying Blitz3D provides you with access to the official Blitz Research forums, home to thousands of dedicated and talented Blitz3D enthusiasts.
+
+Can you write commercial quality games in Blitz3D? Why not - others are! Great titles such as Best Friends, Wonderland and Juno Nemesis were written in Blitz. In fact, many shareware authors are moving to Blitz from languages such as C++ due to the faster development time.
+
+Curious? Why not check out the demo! Read on for a brief description of just some of Blitz3D's features...
+
+Super flexible entity system
+Blitz3D is designed around the idea of entities. Typically, a 3D game will consist of many types of 3D elements such as cameras, lights, meshes and so on. In Blitz3D, these are all considered to be entities. This means that the same commands can be used to manipulate and deal with a wide range of 3D objects - for example, the TurnEntity command can be used to turn a camera, a light, a mesh, or even a massive terrain!
+
+Meshes
+Meshes are the workhorse of any 3D engine. Blitz allows you to either create your own meshes from scratch, or load existing meshes in either X, 3DS or B3D format. The B3D format is unique to Blitz3D, and has been designed to provide for all the features of the Blitz3D engine. B3D exporters are available for a wide range of modelling software including 3D Studio, Lightwave and Truespace. Blitz3D meshes provide features such as vertex colors and multiple texture coordinate sets.
+
+Terrains
+Blitz3D terrains can be used to generate apparently HUGE scenes! This is achieved through a trick known as LOD (level-of-detail) reduction. This completely automatic process works by picking a set of polygons which approximates the shape of a very high resolution heightmap. Blitz3D terrains can also be modified in realtime - great for blowing holes in things!
+
+Sprites
+Sprites are simply textured 2D rectangles - easy to setup and great for things like particle effects, heads-up-displays and so on. Sprites can be setup to automatically orient themselves to face the camera, giving the illusion of a spherical object, but without the overhead of drawing a ton of polygons.
+
+Cameras
+Blitz3D cameras offer the programmer direct control over viewport, zoom, clipping range, fog effects and even offer an isometric mode. Multiple cameras are also no problem - simply use CreateCamera as many times as you want!
+
+Lights
+Blitz3D offers directional lights, point lights and spot lights. You can control the color, range and 'cone' of lights with ease.
+
+Super flexible brush system
+Blitz3D makes extensive use of the idea of brushes to color, texture and otherwise manipulate the appearance of entities. Brushes offer a wide range of effects such as tinting, multitexturing and specular highlights.
+
+Multitexturing
+Multitexturing allows you to apply up to 8 layers of texture to an entity. This can be used to achieve such effects as lightmapping, detail texturing, specular highlights and a host more. The multitexturing system in Blitz3D also allows you to precisely control how textures are combined together.
+
+Environment mapping
+Environment mapping creates the illusion of reflections with in a scene. Blitz3D provides 2 forms of environment mapping - spherical or cubic. Cubic environment maps can even be updated in realtime, providing for awesome, dynamic reflection effects.
+
+And a whole lot more...

@@ -1,0 +1,107 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ------------------------------------------------------------%
+┬ñ                      ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ-----------%
+┬ñ┬ñ  ┬ñ┬ñ  ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ     ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ        ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ    ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ----------%
+┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ    ┬ñ┬ñ    ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ   ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ---------%
+┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ    ┬ñ┬ñ┬ñ     ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ   ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ--------%
+┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ     ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ        ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ        ┬ñ┬ñ┬ñ     ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ-------%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ     ┬ñ┬ñ┬ñ          ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ------%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ      ┬ñ┬ñ┬ñ    ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ-----%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ        ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ        ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ----%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ                      ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ---%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ----------------------------------------------------%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\                                                                                 \
+\                     //==================================\\                      \
+\                      |                                  |                       \
+\                      |      Little Big adventure:       |                       \
+\                      |       aka. Relentless (US)       |                       \
+\                      |                                  |                       \
+\                      ====================================                       \
+\                      |                                  |                       \
+\                      |            Contents:             |                       \
+\                      |                                  |                       \
+\                      |   1CD                            |                       \
+\                      |                                  |                       \
+\                      |   LBA.iso                        |                       \
+\                      |                                  |                       \
+\                      |   LBAWIN 0.8.1                   |                       \
+\                      |                                  |                       \
+\                      |   lbaptch2a.rar -if LBAWIN don't |                       \
+\                      |   work                           |                       \
+\                      |                                  |                       \
+\                      |             Size:                |                       \
+\                      |                                  |                       \
+\                      |   ~334MB                         |                       \
+\                     \\==================================//                      \
+\                                                                                 \
+\            For updates and extras related to this game please visit             \
+\                                                                                 \
+\                Useful links:                                                    \
+\                http://lbawin.akoonet.com/                                       \
+\                http://www.geocities.com/e_swensen/                              \
+\                http://en.wikipedia.org/wiki/Little_Big_Adventure                \
+\                                                                                 \
+\                                                                                 \
+\   Note: those links provided here may not be related to the                     \
+\   original game developers, they are only included to give you a point in the   \
+\   right direction if trouble should occur.                                      \
+\                                                                                 \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\                                                                                 \
+\                REPLAY - brings you the best of classic gaming...                \
+\                                                                                 \
+\  We're a bunch of guys that like old games. NO, we LOVE them! Some of us has    \
+\   grown up with titles like this one... and we want to give you and others      \
+\      the opportunity to share yet a game that was just a little bit to          \
+\                           good to be forgotten.                                 \
+\                                                                                 \
+\        We will release more classic titles like "Total Annihilation",           \
+\        "Diablo", "Sunts" the C&C series and more to come...                     \
+\                                                                                 \
+\                                                                                 \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\                                                                                 \
+\                               INSTRUCTIONS                                      \
+\                                                                                 \
+\    Mount the image file with a program like alcohol120% or daemon-tools.        \
+\                                                                                 \
+\    Follow the software's instructions, install and run. Enjoy!                  \
+\                                                                                 \
+\    http://www.daemon-tools.cc/dtcc/download.php                                 \
+\                                                                                 \
+\                                                                                 \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\                                                                                 \
+\                            LBA: (aka. Relentless in the US.)                    \
+\                                                                                 \
+\ Twinsun is a relatively new planet on the outskirts of a remote galaxy. Its     \
+\ rotational plane has stabilized between two suns. There is a huge mountain      \
+\ range running along its equator, that divides the planet in half: each          \
+\ hemisphere is warmed by a single sun. The Northern hemisphere, with its orange  \
+\ sky, is warmer than the Southern hemisphere. Except for a polar region, the     \
+\ planet's climate is clement. The formation of life forms on the planet was      \
+\ thus favourable. Four species developed over the course the centuries: the      \
+\ Spheros, the Rabbibunnies, the Quetches and the Grobos. They all lived in       \
+\ harmony until a tyrant named Dr Funfrock reared his ugly head.                  \
+\ Ever since Funfrock's rise to power, the population has been living under a     \
+\ reign of terror. FunFrock set up a police state where suspicion is              \
+\ omnipresent. He is all powerful and controls the people with an iron fist.      \
+\ He has at his disposal two high-tech weapons that ensure his power: cloning     \
+\ and teleportation. FunFrock can clone any of the species at will, and           \
+\ subsequently recruit these clones into his ranks. He can then deploy these      \
+\ clones instantly through a network of telepods that are dispersed over the      \
+\ entire planet.                                                                  \
+\                                                                                 \
+\ A few years ago, under the guise of protecting the population, Dr. FunFrock     \
+\ herded the planet's habitants* into the southern hemisphere. The repression     \
+\ is harsh. Every day brings more and more arrests, and the people slowly begin   \
+\ to lose hope. In an effort to keep their spirits up, the people sometimes       \
+\ evoke an ancient legend along with the name of a goddess, Sendell. The          \
+\ mentioning of the legend or Sendell has since been forbidden by Dr. FunFrock.   \
+\                                                                                 \
+\ Meanwhile, a young quetch named Twinsen has been having strange dreams.         \
+\                                                                                 \
+\                                                                                 \
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

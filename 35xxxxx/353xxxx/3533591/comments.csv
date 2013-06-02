@@ -1,0 +1,33 @@
+﻿User Type,Username,Date,Text
+,reatta32,2006-10-04T18:56Z,"Check out the 4 other modified XPs in the Windows XP JACKED release series and find the JACKED edition that's right for you.
+
+LINK: http://thepiratebay.org/user/reatta32
+
+reatta32 "
+,Anton_norton,2006-10-07T11:58Z,Does windows update work on the jacked versions?
+[V],Mortenaa,2006-10-09T17:50Z,how do i get norwegian keybord layout it looks like all keybord layout exept US is triped
+[V],Mortenaa,2006-10-09T17:57Z,Striped*
+,HansMarius,2006-11-15T10:20Z,Isn't there possible to mount this image and run setup from within Windows? Dont have cd-r discs available right now...
+,LucisFerens,2006-11-20T07:20Z,"it is surely, but you need a good old windows start floppy, I guess you can find some basic-dos floppy
+if nothing else works, install win 98 and make a start floppy (it's in control panel, add/delete software, second tab). Win 98 is available here on TPB.
+Boot from that floppy
+type C: end hit enter to get to your C: drive or another letter to get to the drive where you have the files you extracted from the image.
+Let's say for example that your setup.exe is in C:\extracted\i386 (not sure whether i386 is the right folder, it was on NT4...)
+to go to that directory you do
+cd extracted\i386
+(cd = change directory)
+Then all you have to do is type the word 'setup' (no quotes) and hit enter 
+The installation sequence should start. DO NOT choose ""format the drive"" when prompted (duh).
+...but that will leave a lot of junk in your drive.
+The best thing to do is to have two partitions (or two physical drives) so you can store your extracted imagen on  D: and format C: when the install program prompts you to do so.
+In that case, when I said C: do D:"
+,LucisFerens,2006-11-20T07:21Z,"I mean, mounting the image and running the install from withing windows should be possible, but that will leave a lot of junk behind..."
+,ps2cho,2006-12-05T00:57Z,Good fast system...but you removed way too many dll's such as setting up a network...So really its only made for Gaming and goes online thats it. Not worth having really.
+,karl30,2008-02-05T09:25Z,"i want to use this in a vpc on my mac put how do i set the net up i have tried everything ?????
+plz help"
+,karl30,2008-02-05T20:40Z,"need help with the net i got it working in other pcs in vpc 7 but not inside xp on the vpc
+
+plz plz plz help and i will seed at 5mb/s 
+24/ 7 "
+,Aphoticom,2009-06-08T23:09Z,"Seed, please."
+,copycat1717,2009-07-08T04:48Z,Is my external hardrive will detect from this OS reatta32?

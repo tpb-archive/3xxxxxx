@@ -1,0 +1,22 @@
+Fugawi Global Navigator 4.0.12.1051 Svensk-Engelsk-Tysk version. + Kartmotor från Lantmäteriet som stöder RIK formatet.
+
+PS Någon annan får seeda de stora RIK kartorna, för seg lina för det.
+
+
+
+Installation och crack av Fugawi Global Navigator 4.0.12.1051 :
+
+1. Installera fugawi4012.exe
+2. Ersätt därefter orginal exe med den som ligger i "cracked exe" mappen
+
+För att få Lantmäteriets kartor i .RIK format att fungera i Fugawi Global Navigator 4 gör följande:
+
+1. Lägg filen Lmvk32.exe i
+
+C:\Program\Delade Filer\Fugawi\Lib	- gäller svensk windows
+ 
+C:\Program Files\Common Files\Fugawi\Lib 	- gäller engelsk windows
+
+2. Dubbelklicka på Lmvk32
+
+3. Starta Fugawi, nu ska import och användning av RIK-kartor fungera

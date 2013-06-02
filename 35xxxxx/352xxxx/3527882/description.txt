@@ -1,0 +1,61 @@
+VMware Image:
+
+PCLinuxOS 0.93a (aka Big Daddy). This is a full version of the PCLinuxOS Distribution. After installing PCLinuxOS to your computer, you can access an additional 5000 programs and libraries from their free software repository. If you are tired of Windows constantly crashing all the time, the blue screens of death, the nasty viruses/trojans, constant pop-ups, and sluggish performance then PCLinuxOS is for you.
+
+[url=http://jaraeez.no-ip.com/img/pclinuxos.gif][img]http://jaraeez.no-ip.com/img/pclinuxos.gif[/img][/url]
+
+Operating system:  PCLinuxOS 0.93a Big Daddy
+
+Virtual Disk 3GB
+
+Login Details:
+
+user = user1
+pass = user1
+user = root
+pass = root
+
+Kernel:
+2.6.16.27
+
+Memory Allocation:
+256MB
+
+Screen Resolution:
+1280x1024
+
+License:
+GPL
+
+
+Applications:
+
+Standard Install -
+VMware toolbox -
+kbfx -
+
+
+
+Customisation:
+
+Added top panel (applications will cover both top & bottom panels - to get to the panels while the application is open just move your mouse to the far left top of the screen for the top panel to show it's self & the far bottom of the screen for the bottom panel to show it's self)
+
+Left the terminal window open (to move the terminal window just press 'alt' & keep it pressed then with your mouse move it. To get your window back just right-click inside the terminal window.
+
+The login screen & splash screen can be changed by going into the KDE control center (start > configuration) as well as most other cosmetic changes)
+
+To change hardware & most system settings you will need to go to PClinuxOS control center (start > configuration).
+
+Firefox 1.5 Vista theme installed.
+
+New kicker button style (kbfx 0.4.9.1-2tex)
+
+Superkaramba - is similar to say Yahoo widgets on XP. This has been confiured to auto start with the session. I have opened & installed liquid weather, clock, & dbcalendar to get you on your tracks. To install further themes just right-clight on the superkaramba icon to the right at the bottom of the taskbar.
+
+Language: US English
+VMware-tools installed
+Timezone: UK London
+
+Any problems please visit http://jaraeez.no-ip.com/ubuntu.html
+
+Enjoy

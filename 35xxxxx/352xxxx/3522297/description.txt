@@ -1,0 +1,110 @@
+The DVD-lab PRO version 2.0 is a next step in DVD authoring for advanced users who need accessible and easy to learn tool with full range of DVD features.
+
+Most of the existing tools are either very expensive and hard to master or are limited in implementing DVD specifications. Many tools that are often marketed as advanced or for professional use are actually only more expensive consumer applications with pre-cooked DVD structure and questionable user interface.
+
+DVD-lab PRO is based on the idea of original DVD-lab. Instead of insulting the users with an overdone flashy interface, DVD-lab and DVD-lab PRO put strong emphasis on the usability of it. The Modern Windows GUI can be tweaked and reorganized to everybody taste even across multiple monitors.
+
+DVD-lab PRO is also one of the very few applications on the market that grows with your requirements and knowledge. Users of other applications usually either outgrow them very soon or they need to study a long time before they are able to create even simple project. 
+
+We put a lot of effort to the DVD-lab PRO so it offers benefits of both worlds. It is easy to start making first DVD's but it doesn't stop there. As you continue to master the craft you will realize that DVD-lab PRO offers an unlimited range of design flexibility and delivers the goods even for most demanding designers.
+
+
+Not to repeat what was said about the standard version of DVD-lab, we will highlight the new features. 
+The PRO2 icon indicates the feature is new in 2.0 version.
+
+Flexible DVD structure
+DVD-lab PRO is a full Multiple-VTS application, that means you can put different aspect ratios or movies with different audio channels on one DVD. But unlike other Multi-VTS applications in this category, DVD-lab PRO does not force you to use any predefined DVD structure. Each Video Title Set can be as complex or as simple as you want. The full flexibility of creating the DVD structure is one of the strongest point of DVD-lab PRO.
+
+Multiple Audio and Subtitle Channels
+Each title in DVD-lab PRO can have up to 8 audio channels: AC3, MPA, LPCM or DTS and also number of subtitle streams. You have the ability to add 8 subtitle channels, import from popular formats. 
+
+Multiple Angles/BOV
+The 2.0 adds many high-end features such as multi-angle, Buttons over Video, Multi-PGC title and more.
+
+Compile faster than ever
+We reduced the amount of large hard-drive data shuffling during compillation and by using in-place compilling we eliminated the need for having large temporary space. In addition we added Smart compile options that will recompile only changes in menus and keep the pre-build vobs.
+
+More Menu Effects 
+DVD-lab PRO can use even more effects on menu objects. You can use various Texture Fills and new Effects such as Metal Shine for cool effects such as metal, gold chrome, marble etc..
+With the perspective transformation you can design a fresh, new non-planar menus and use powerful Package object that will simplify complex menus.
+
+Dynamic effects
+DVD-lab and DVD-lab PRO has strong integrated menu designer with multiple Undo/Redo. DVD-lab PRO adds also new DynamicFX textures that can be animated for Motion menus.
+
+Cells and Delayed menu buttons
+We added delayed menu buttons for motion menus so you can create motion menu with a loop point for seamless transition from intro. This also works together with Render Motion where you can now specify an intro effect.
+Each menu can now have up to 30 additional still/audio cells with audio that can span across the cell boundaries.
+
+Play Lists, Counter Lists, Random Lists, Chapter List etc.
+DVD-lab Pro has also ability to add number of different play lists. If you like to play your movies or chapters in alternative order you don't have to add the files to DVD multiple times. All you need to do is to make one or more play list.
+
+Special Navigation Objects
+There are other special navigation object such as Condition Splitter, Case List or Return to last menu that you can incorporate into your layout.
+
+Audio-Only Track
+A 'Movie' can now have also audio track(s) only. This is a good option for distributing large amount of music on a DVD. As addition you can also edit the still screen that will be displayed during the audio playback. (For example a song title)
+The new version adds second channel and the ability to insert new still image on any audio mark. 
+
+Rich virtual Editing tools
+Chapter List object adds a new chapter sequence into Movie without taking additional space. Chapters can then play in any order, can be skipped or repeat in any fashion
+Skip Selection allows you to simply skip over any unwanted part of a movie (commercials) without re-compilling, cutting or transcoding the movie.
+Splice Point can virtually divide one movie into separate, fully addressable blocks, each with own chapter points.
+Movie Segment adds many small movies as one chapter into one large Movie object.
+You can now pause playback on any chapter or let the movie pause at the and and wait for user to press play button. This is a great way to create presentations or assited guides.
+
+Multiaspect Widescreen menus
+DVD-lab PRO can create widescreen menus that will play correctly on both widescreen and 4:3 TV. 
+
+Connection
+The connection window is the heart of your DVD structure even more now with the PRO version. You have additional ways to organize your objects where Connections window allows for easier work with table view, split-view or snap-to-grid features. Besides the Title Button, you can now program also Menu button on remote. 
+The Connection window is even more powerful in the new version with multiple selections, Subviews that can separate project into smaller blocks or with Visible VM commands. 
+
+Smart Components and Scripts
+DVD-lab PRO integrated scripting language will enable you to make your own wizards, smart components or effects that can help you with repetitive tasks. 
+
+Virtual Machine Commands
+If you still feel you don't have enough features, DVD-lab PRO will give you full access to the PRE and POST commands of any object where you can add your own virtual machine code with a self-checking VM Command Scripting language and an unique VM Command Debugger
+
+Lean Abstraction Layer
+We know that you want to tweak your DVD so we took a special care designing the default abstraction layer to be lean yet powerful. We reserve only few necessary registers (and their meaning is described in the help) for all the work done inside DVD-lab's abstraction layer and the rest is yours!
+
+Ability to Compile without Abstraction Layer
+For special needs DVD-lab PRO can compile DVD without its Abstraction layer. This will work like the expensive high-end systems where you can (and have to) define all the links and structure by yourself.
+
+High Educational Value
+DVD-lab Pro is an excellent tool to learn and understand all fine aspects of advanced DVD authoring while still being fun to use. It will put you to the front seat with the whole structure clearly in front of you.
+
+Grows with your requirements
+As you get more experienced with DVD authoring you will be happy to learn that DVD-lab PRO is always ahead with its features. It is not easy to outgrow our software because we designed it for creative users like us.
+
+.. and More
+We didn't even mentioned other new things like Film Strip menus or 360 Panorama menus. But there are still more things to discover...
+
+For Windows 98/NT/2000/XP
+
+Note: You need at least FAT32 on W98 (support up to 4GB file size). However a NTFS volume in Windows 2000 or XP is strongly recommended (no size restriction)
+
+Features DVD-lab/Studio DVD-lab PRO 
+Multiple VTS more...   
+Subtitle 0-1  
+Mix aspect ratios on DVD more...   
+Multi-aspect 16:9 menus more.. Studio  
+Integrated Scripting more...   
+VM command sequence more...   
+Play, Counter, Random lists more... 
+(PlayList in Studio)  
+Chapter Branching more...   
+Other special objects   
+Audio-Only Track more...   
+Use w/out Abstraction Layer more...   
+Menu Cloning more...   
+Delayed menu buttons more...   
+Number of Movies 99 99 per VTS** 
+Number of Menus 250 640 per VTS 
+Audio Streams 1-2 8 
+Multi-Angle   
+Buttons over Video   
+For full detailed Comparison go here
+ 
+TV System NTSC, PAL NTSC, PAL 
+Regular Price $99-$129 $245 

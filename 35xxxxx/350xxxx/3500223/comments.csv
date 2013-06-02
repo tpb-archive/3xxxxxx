@@ -1,0 +1,24 @@
+﻿User Type,Username,Date,Text
+,dark_requiem,2006-07-02T05:55Z,"I'm curious.  Is this meant to report back to MS that the copy of Windows is legit, regardless?"
+,azbox5000,2006-07-02T05:57Z,it lets you skip their validation check so that you can update windows normally
+,Maria1984,2006-09-07T21:12Z,"Thanks...   But I have some problems with replacing the files. Just one of them can be replaced, but not WgaLogon.dll and WgaTray!! It says that the file can'r be replaced because some programs use them!!  And I tried to go to the Task Mananger for close the winlogon.exe from there, But I couldn't..   Any idea what I can do??? Plz. I'll be gratefull if u could help. Thanks buddy"
+,NNT~Dark Deity,2006-09-08T06:27Z," It's not really all that hard when you think about it...especially when you've got multiple hard drives with an OS on each. I've got 3...2 with Win 2k Pro and 1 with XP Pro Corp. If you have more than 1 HDD with windows then boot onto the second HDD and replace the files on the first HDD while logged into the second HDD...windows can't skrew you that way because the files aren't running. If you can't do that then heed these words from  :If you can't replaced the file ""WgaLogon.dll"" nether in normal mode or safemode do the following thing: 
+
+
+Copy the ""WgaLogon.dll"" to the root direcory on C: (you can in fact put in anywhere, but this requires smallest amount of typing :) 
+
+
+Boot up with your windows CD and choose the recovery console. 
+
+
+Go to the root directory on C: and type ""copy WgaLogon.dll c:\windows\system32"" (without the """" of course) 
+
+
+Type ""exit"" and you're done :)
+
+(To:  Sry for the plaigerism m8....but copy and paste is quicker...besides...it's helpful advice, lol....couldn't have put it better myself [^.^])"
+,NNT~Dark Deity,2006-09-08T06:30Z,"er....sry about that....the secondary advice was from a guy on here named Xhypo....forgot that [] makes it not show up, lol....sry Xhypo....good advice though if you read it...thx for it"
+,Maria1984,2006-09-08T20:52Z,"Hi, Thanks for ur answer. :) But I didn't really understand what u meant. Well, I have 2 Harddisk, but only one windows installed on my computer. :)
+And u wrote: ""Go to the root directory on C: and type ""copy WgaLogon.dll c:\windows\system32"" (without the """" of course) and so on. What u exactly mean with the ROOT DIRECTORY  on C???   And u also write that I can start the windows installation cd and choose to recovery(Ig I understood corect)???  And shall I copy the WgaLogon.dll (from this torrant)first before I type the following? ""copy WgaLogon.dll c:\windows\system32"" ??   I'm sorry if I 'm difficult, but my english is not really good. I speek danish if u can and also Persian. :) 
+I hope u can help me. thanks alot.
+"

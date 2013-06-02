@@ -1,0 +1,65 @@
+﻿User Type,Username,Date,Text
+,MrWise.dev,2006-10-19T01:33Z,But won't text and stuff in the game still be in german?
+,Sanjurolol,2006-10-19T09:18Z,"Just go to ge.ini file and chance subtitles to english then go to your data folder and take out german speach pak and put in english speach pak, then rename speach_english.pak to speach_german.pak.
+You will trick the game and will have fully english version."
+,Picakus,2006-10-19T10:34Z,"If you need english subtitle download this http://www.gamershell.com/download_15929.shtml and change in ini like that 
+VoiceLanguage=German
+SubtitleLanguage=German
+
+to
+
+VoiceLanguage=English
+SubtitleLanguage=English"
+,zygus1,2006-10-20T01:14Z,"I have downloaded speech_english.pak (699mb) 
+and puted it in \data\ Change in ini file:
+text:English
+audio:English
+and in mountlist.
+But it doesnt work. There are no speech at all.
+Do you have any ideas why? Maybe version 667 will work?"
+,ltamas14,2006-10-21T09:27Z,"it doesn't work
+:|"
+,gothic3333,2006-10-23T11:40Z,"its works
+
+FIRST STEP:
+put this file English.pak to  \\Gothic III\\Data
+
+SECOND STEP: change the file \\My Documents\\gothic3\\UserOptions.ini, change
+
+VoiceLanguage=German
+SubtitleLanguage=German
+
+to
+
+VoiceLanguage=English
+SubtitleLanguage=English
+
+THIRD STEP: 
+change the file \Gothic III\Ini\mounlist.ini change 
+
+Data/Speech_German=Data/Speech_German
+;Data/Speech_French=Data/Speech_French
+;Data/Speech_English=Data/Speech_English
+
+TO
+
+;Data/Speech_German=Data/Speech_German
+;Data/Speech_French=Data/Speech_French
+Data/Speech_English=Data/Speech_English
+
+ see the difference ;
+
+THATS ALL"
+,SarumanCZ,2006-10-24T21:26Z,"I did it twice, i tried it twice and it still doesnt work.when I start the game,in menu there isnt any word not even a letter and in game arent any sounds at all.this is one big shit,fuck I was so looking for G3.
+I ran it in germany version and its a biiiiig shit game  I can tell u.Some orcs looks like a russian soldiers from CoD2
+this game is very very BAD and it makes me sad when i have to say GOTHIC1/GOTHIC2 RulezZzZzZzZzZzZ"
+,joebro5434,2007-02-01T00:43Z,"Could someone please seed, I have been at 97.0% for like two days. Please seed. Thanks."
+,snooze33,2007-08-22T03:19Z,its no seeders on this one. so its imposible to download. how do we find it from some one other?
+,WonderKid08,2008-02-25T20:31Z,"someone seed plssssssssssssssssssssssssssssssssssss
+I will really appreciate"
+,WonderKid08,2008-02-27T22:42Z,plssssssssssssssssss someone seed
+,jklmasd,2009-03-31T02:24Z,"someone seed pls:)
+
+I will really appreciate "
+,jklmasd,2009-03-31T02:25Z,"someone seed plssssssssssssssssssssssssssssssssssss
+I will really appreciate "

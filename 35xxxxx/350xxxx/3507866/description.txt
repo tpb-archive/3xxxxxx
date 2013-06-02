@@ -1,0 +1,140 @@
+K-Lite Mega Codec Pack 1.55
+Released July 27, 2006
+www.codecguide.com
+
+K-Lite Codec Pack is a collection of codecs and related tools. It has a couple of major advantages compared to other codec packs:
+
+* It it always very up-to-date with the latest versions of the codecs.
+* It is very user-friendly and the installation is fully customizable, meaning that you can install only those components that you really want.
+* It's easy to make an unattended installation.
+* It has been very well tested, so that the package doesn't contain any conflicting codecs. It tries to avoid potential problems with existing codecs and even fixes some problems.
+* It is a very complete package, containing everything you need to play your movies.
+
+The K-Lite Mega Codec Pack combines the contents of three codec packs:
+
+* K-Lite Codec Pack Full
+* QuickTime Alternative
+* Real Alternative
+
+
+Features of version 1.55:
+
+Players:
+
+* BSplayer [version 1.39.829]
+* Media Player Classic [version 6.4.9.0 rev. 611]
+
+ffdshow:
+
+* ffdshow [rev. 2543]
+* extra plugins
+* ffdshow VFW interface
+
+DirectShow video filters:
+
+* XviD [version 1.2.0-dev build 2006-04-20]
+* DivX Pro [version 6.2.2]
+* CoreAVC [version 0.0.0.4]
+* On2 VP6 [version 6.4.2.0]
+* On2 VP7 [version 7.0.10.0]
+* Cyberlink DVD decoder [version 6.0.0.2023]
+* InterVideo DVD decoder [version 7.0.27.191]
+* MPEG-1/2 (Ligos) [version 4.0.0.77]
+* MPEG-1/2 (Gabest) [version 1.0.0.3]
+* MPEG-1/2 (MainConcept) [version 1.0.0.78]
+
+VFW video codecs:
+
+* XviD [version 1.2.0-dev build 2006-04-20]
+* DivX Pro [version 6.2.5.34]
+* x264 [rev. 536]
+* Windows Media 9 VCM [version 9.0.1.369]
+* On2 VP6 [version 6.4.2.0] [Encoding]
+* On2 VP7 [version 7.0.10.0] [Encoding]
+* Intel Indeo [version 5.2562.15.54]
+* Intel Indeo [version 4.51.16.2]
+* Intel Indeo [version 3.24.15.03]
+* Intel I.263 [version 2.55.1.16]
+* huffyuv [version 2.1.1 CCE Patch 0.2.5]
+
+QuickTime Alternative:
+
+* QuickTime codecs [version 7.0.4.80]
+* QuickTime plugin for Internet Explorer
+* QuickTime plugin for Firefox/Mozilla/Netscape/Opera
+* Extra QuickTime plugins
+* QuickTime DirectShow parser
+* QuickTime DirectShow decoder wrapper
+
+Real Alternative:
+
+* RealMedia codecs [version 6.0.12.1483]
+* RealMedia plugin for Internet Explorer
+* RealMedia plugin for Firefox/Mozilla/Netscape/Opera
+* RealMedia DirectShow splitter [version 1.0.1.1]
+
+DirectShow audio filters:
+
+* MP3 (Fraunhofer) [version 1.9.0.311]
+* AC3/DTS/LPCM (AC3Filter) [version 1.02a test8]
+* AC3/DTS/LPCM (InterVideo) [version 7.0.27.191]
+* MP1/MP2 (Ligos) [version 4.0.0.77]
+* MP1/MP2 (MainConcept) [version 1.0.0.78]
+* Vorbis (CoreVorbis) [version 1.1.0.79]
+* AAC (CoreAAC) [version 1.2.0.573]
+* AAC (3ivX Pro) [version D4 4.5.1]
+* MusePack [version 1.0.0.3]
+* Monkey's Audio [version 1.00]
+* WavPack (CoreWavPack) [version 1.0.3]
+* FLAC (illiminable) [version 0.71.0946]
+* Voxware MetaSound [version 1.0.0.12]
+* AAC encoder (3ivX Pro) [version D4 4.5.1]
+
+ACM audio codecs:
+
+* MP3 (Fraunhofer) [version 3.3.2]
+* MP3 (LAME) [version 3.97b2]
+* AC3 (ffcHandler) [version 1.21]
+* Vorbis [version 0.0.3.6]
+* DivX ;) Audio [version 4.2.0.0]
+
+DirectShow source filters:
+
+* MP4 splitter (Haali Media Splitter) [1.6.224.23]
+* MP4 splitter (Gabest) [version 1.0.0.3]
+* Matroska splitter (Haali Media Splitter) [1.6.224.23]
+* Matroska splitter (Gabest) [version 1.0.2.9]
+* Ogg splitter (Haali Media Splitter) [1.6.224.23]
+* FLV splitter (Gabest) [version 1.0.0.1]
+* MPEG-TS splitter (Haali Media Splitter) [1.6.224.23]
+* MPEG demuxer (Elecard) [version 1.0.31.51211]
+* MPEG demuxer (Gabest) [version 1.0.0.3]
+* MPEG demuxer (MainConcept) [version 1.0.1.20]
+* MPEG demuxer (Ligos) [version 4.0.0.77]
+* SHOUTcast Source [version 1.0.0.1]
+
+DirectShow subtitle filter:
+
+* DirectVobSub (a.k.a. VSFilter) [version 2.37]
+* DirectVobSub (a.k.a. VSFilter) [version 2.33]
+
+DirectShow audio filters (general purpose):
+
+* Matrix Mixer [version 0.30b]
+* Morgan Multimedia Stream Switcher [version 0.9.9]
+
+Encoding tools:
+
+* LAME CLI and DLL [version 3.97b2]
+* LameDropXPd [version 3.97b2]
+
+Tools:
+
+* GSpot Codec Information Appliance [version 2.52 beta 1 build 2004-09-15]
+* Sherlock [version 2.0]
+* VobSubStrip [version 0.11]
+* GraphEdit [build 041201]
+* MMCompView [version 1.10]
+* AVI Fixed [version 2.0b1]
+* FourCC Changer
+* Bitrate Calculator

@@ -1,0 +1,26 @@
+﻿User Type,Username,Date,Text
+,heteroabsolutist,2006-09-17T17:56Z,Please keep seeding this after you download it.
+,heteroabsolutist,2006-09-18T04:00Z,"--=UPDATE=--
+TO MAKE A WORKING DVD:
+
+1. Make a new folder on your desktop and call it whatever you want.
+2. Double-click on that folder and make 2 new folders within it. Name one VIDEO_TS & the other AUDIO_TS.
+3. Copy the following files to the VIDEO_TS folder: VTS_01_1.VOB, VTS_01_2.VOB, VTS_01_3.VOB, VTS_01_4.VOB.
+4. Download IfoEdit (http://www.afterdawn.com/software/video_software/dvd-r_tools/ifoedit.cfm) and run it.
+5. Click ""Create IFOs"" at the bottom.
+6. Under ""Output Stream"", point ""1st VOB of Title-Set"" to your VTS_01_1.VOB file.
+7. Check the ""Destination directory for IFO files Same as Source"" box and click ""Ok"".
+8. After the process is done, close IfoEdit, then re-open it.
+9. At the bottom, click ""open"", then click the VTS_01_0.IFO file.
+10. Select ""Get VTS sectors"", then ""Yes"" when prompted and on through any other prompts that appear. Then save & close.
+11. Download and/or run DVD Shrink (http://www.afterdawn.com/software/dawnload.cfm?mirror=0&software_id=519).
+12. Click ""Open Files"", select the VIDEO_TS folder, then ""OK"".
+13. Once it's loaded, click ""Backup!"", then tell it what to call the ISO file and where to put it. Click ""OK"".
+14 After it's done encoding, close DVD Shrink & burn the ISO file to DVD with your program of choice."
+,heteroabsolutist,2006-09-18T04:21Z,"I know two people downloaded it completely, but those asshats aren't seeding, a couple of people were at ~80%... so I'll check back in a week to see if everyone has caught up.
+
+If not, you're all S.O.L.... blame the asshats who leeched w/o seeding."
+,artemis+,2006-09-18T16:46Z,"thanks for this.
+i am at 56% and will seed when done.
+if it is worthwhile, i could fix it and then reseed."
+,kamiru,2008-01-26T04:28Z,Would someone please (pleeease) seed this? I'm stuck at 14.4%. There's no where else to get it that I know of.

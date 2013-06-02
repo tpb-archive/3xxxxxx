@@ -1,0 +1,146 @@
+
+                            A Studio Stök Production
+              _______  _______ __________________ _______  _
+             (  ___  )(  ____ \__   __/__   __/(  ___  )( (    /|
+             | (   ) || (    /   ) (      ) (   | (   ) ||    ( |
+             | (___) || |         | |      | |   | |   | ||    | |
+             |  ___  || |         | |      | |   | |   | || ( ) |
+             | (   ) || |         | |      | |   | |   | || |    |
+             | )   ( || (____/   | |   ___) (___| (___) || )    |
+             |/     |(_______/   )_(   _______/(_______)|/    )_)
+              _______           ______   _______  _______  _______
+             (  ____ |     /|(  ___  (  ___  )(  ____ )(  ____ 
+             | (    /(    / )| (   ) )| (   ) || (    )|| (    /
+             | |        (_) / | (__/ / | |   | || (____)|| |
+             | |           /  |  __ (  | |   | ||     __)| | ____
+             | |         ) (   | (    | |   | || ( (   | | _  )
+             | (____/   | |   | )___) )| (___) || )  __| (___) |
+             (_______/   _/   |/ ___/ (_______)|/   __/(_______)
+
+
+Before reading any further, please notice that the latest version of Action
+Cyborg will ALWAYS be available at the official website, located at:
+ 
+http://www.terrorpunksyndicate.org/actioncyborg/
+
+
+--------------------------------------------------------------------------------
+About the game
+--------------------------------------------------------------------------------
+Action Cyborg is a small retro 2D platform/action-game written in C and SDL by
+John Karlgren, and released by Studio Stök. The game is still in it's beta phase
+and is to be considered *unfinished* software for the moment. This release
+features only a few early levels, but more content is planned to be added as new
+versions of the game are released. By the time of release of version 1.0.0,
+Action Cyborg should have matured into a full game with complete levels and
+content. But for now, that still lies in an unknown future!
+
+
+--------------------------------------------------------------------------------
+The background story
+--------------------------------------------------------------------------------
+The story takes place in a dark, technological future, which is actually not
+much further away than one or two centuries from now. The improvement of
+technology and endlessly expanding powers of mega-corporations has led to a
+severe decay of mankind, resulting in people of lower social status living under
+more or less miserable circumstances in the unimaginable big cities. The
+technology is, however, available to absolutely anyone because of it's cheap
+price. Walk right out in the street and you can buy the latest military
+technology, computers, synthetic drugs and weapons for a non-important price.
+And you will need it, unless you want the next person ending your life just so
+he can scavenge on what little you have left.
+
+You play a cyborg (cybernetic organism), a human being who through implants and
+technological modifications has had his body and reflexes enhanced for superior
+strength and agility. Our hero is not an AI (artificial intelligence) however.
+He was once a human being, just like anyone else, before his kalcium-based
+skeleton was swapped for solid aluminium, muscles injected with synthetic
+steroid hormones, heart exchanged for an electronic pump and eyes replaced with
+Sony colour-videolenses. He is not immortal though. His flesh is still sensitive
+to heat, and the bullet from a gun would still splice his nervous system and
+result in a collapse.
+
+This may not have been something our hero wished for. It is very much possible
+that he once suffered a nearly fatal attack on himself, and ended up either
+crippled for life or with his brain in a glass jar. And it's very possible that
+he would still be there, had he not done this transformation.
+
+Now, positioned in the streets and surroundings of BAMA (the Boston-Atlanta
+Metropolitan Axis), aka "The Sprawl", our hero is set out on a vigilantistic
+mission of both survival and revenge.
+
+
+--------------------------------------------------------------------------------
+How to play the game
+--------------------------------------------------------------------------------
+When you launch the executable, you are presented with the title screen and main
+menu. Navigate the menu with UP and DOWN arrow keys, and select an option with
+ENTER. You can always go back to this menu by pressing ESCAPE after you have
+launched a new game.
+
+The in-game controls are very easy. Move the cyborg left and right with the LEFT
+and RIGHT arrow keys. Press Z to make him jump, and X to fire the weapon. You
+can swap weapons with 1, 2, 3 and 4. You can only swap to a weapon if you have
+picked it up, so if you press 2 (for shotgun) and nothing happens, then you need
+to find and pick up a shotgun first.
+
+You complete a level by reaching the exit (usually the far right end of the
+level), and you are automatically taken to the next level when doing so.
+
+The enemies (everyone but you!) will do their best to stop you from reaching the
+exit. They will try to kill you on sight by fireing their weapons at you. You
+can respond to this by shooting back and killing them, or you can try to run
+past them if you have ran out of ammunition, or if there are too many of them.
+
+Do your best to avoid getting hit by their bullets, or you will take severe
+damage. You can find and pick up medkits to restore your health back to normal.
+If you get hit by an explosive rocket (fired by enemy cyborgs armed with rocket
+launchers), you are instantly killed.
+
+
+--------------------------------------------------------------------------------
+Troubleshooting
+--------------------------------------------------------------------------------
+Action Cyborg is still beta software and far away from bug-free, but is
+guaranteed to not contain any code that would seriously damage your computer
+or operating system. It does not attempt to access any files outside it's
+directory, and neither does it contain any file-altering code, except for the
+screenshot function (accessed by pressing F12).
+
+If for some reason the executable doesn't run, please examine the file
+errorlog.txt first and see if it has reported something. There could be a file
+missing, or you could have unpacked the game in a wrong way. If it still doesn't
+work and errorlog.txt reports nothing (or it's not there), then please e-mail me
+and inform me of the problem, and of your computer setup and operating system.
+
+
+--------------------------------------------------------------------------------
+Contact information
+--------------------------------------------------------------------------------
+If you're having problems with Action Cyborg, have found a bug, would like to
+suggest something, or if you just wanna let us know how good (or BAD!) you think
+the game is, then please e-mail me (John Karlgren, the programmer) on address:
+cyborg@terrorpunksyndicate.org.
+
+Also, you can always get the latest version of Action Cyborg at: 
+http://www.terrorpunksyndicate.org/actioncyborg/
+
+
+--------------------------------------------------------------------------------
+Developer credits
+--------------------------------------------------------------------------------
+Game engine and level editor programming by John Karlgren
+Graphics by Joel Segerbäck
+Additional graphics by John Karlgren
+Music and sound effects production by Terror Punk Syndicate
+Additional sound effects were taken from various royalty-free sources
+Beta levels ("Night City", "Down In The Park", "Skid Row") by John Karlgren
+
+Released by Studio Stök, Örebro, Sweden
+
+SDL (Simple DirectMedia Layer) by Sam Lantinga (http://www.libsdl.org)
+FMOD by Firelight Technologies Pty, Ltd. (http://www.fmod.org)
+Basic Compression Library by Marcus Geelnard (http://bcl.sourceforge.net)
+
+
+Now, go try Action Cyborg and see if you have what it takes to survive!

@@ -1,0 +1,78 @@
+﻿User Type,Username,Date,Text
+,bepprman,2006-09-06T00:47Z,"Need a seed, are you there?"
+,ph0en1xs,2006-09-06T02:03Z,back and seeding
+,ph0en1xs,2006-09-06T02:12Z,"here is something,but i dont know if it works!
+
+first i have download bf2 from torrent and tried to use the vitaly key gen.but it did not work....suprise.
+
+after that i have bought the game with a working online key.patched it to 1.3(full patch!).
+
+but when i have tried to start a onlinegame with the new key they said to me it is not a ""validate key"".
+
+sounds fishy
+
+i go to the ea homepage to find a solution.
+
+its from the ea-faq:
+
+if the messege is shown:
+
+""cd-key in use""
+
+-edit the windows registry
+
+go to ""start"" -> ""run""
+
+enter ""regedit""
+
+goto:
+
+HKEY_LOCAL_MACHINE \ SOFTWARE \ Electronic Arts \ EA Games \ Battlefield2 \ ergc
+
+(at this moment if registred that bf2 have not create the folder ""ergc""
+
+because of that my cd-key is not ""valid"" because he was not created at the installation or was deleted as i have patched the game)
+
+-create a folder named ""ergc"" and insert your key without ""-""
+
+if this will not work then try to insert this ""x9392""
+
+and then write your key behind this(big and without ""-"" ->like this:""x9392YOURONLINEKEY""
+
+ea say that this solute the problem with the message ""cd-key in use"" AND with the message
+
+""invalidate cd-key""!!!!!!!
+
+maybee it work also with generated keys.
+
+go to ea homepage:bf2 faq's to read it again
+
+there is also a tool called ""BF2SF_Key_Repair_1.0.0.4""
+
+cause the 1.3 patch sometimes damage the online-key and other values at the registry.
+
+try and error method.
+
+good luck to everyone.....
+
+see you all on the battlefield
+
+somthing to explain!!!
+
+goto:
+
+HKEY_LOCAL_MACHINE \ SOFTWARE \ Electronic Arts \ EA Games \ Battlefield2 \ ergc
+
+at the ""ergc"" folder is your cd-key stored
+
+normaly uncrypted with big letters and without the ""-"" signs
+
+if you run e.g. the 1.3 patch the key will also be crypted.when the key is crypted the five first letters look like this:x9392.......
+
+i tried to run the game with both versions of the key(crypted and uncrypted)
+
+first it only works with the crypted key what is (i think) impossible,but i was online!!!!
+
+now i play with the uncrypted.
+
+on ranked servers!!!!"

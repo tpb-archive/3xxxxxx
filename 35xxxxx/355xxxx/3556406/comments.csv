@@ -1,0 +1,85 @@
+﻿User Type,Username,Date,Text
+,txman4462,2006-11-13T01:39Z,sure would be nice if ya seeded it
+,F@TMAN,2006-11-13T01:54Z,what is the meaning of MSDN?
+,oktan,2006-11-13T01:59Z,F@TMAN    MSDN=microsoft developing network
+,F@TMAN,2006-11-13T02:00Z,"more specifically, what is the difference between MSDN and the RTM releases already on the net? Activation etc?"
+,Jlang,2006-11-13T02:09Z,glad to see that im not the only one confused... does anyone know exactly what this prog does?? I downloaded it and it doesn't like my iso
+,-=robotnick=-,2006-11-13T02:16Z,"it's about ""true"" and ""proper"", if you dont want use a _ostensibly_ messed up ""BillGates"" .iso
+
+but rtm activation (not rc2 like) still an actual issue."
+,-=robotnick=-,2006-11-13T02:25Z,"""BillGates"" iso has a little difference from original MS iso. this patch fix it."
+,RobrPatty,2006-11-13T03:07Z,"Ok this patch fixes difference in BillGates ISO so
+it matches MSDN ISO. But does this help with the
+ACTIVATION?!"
+,k5xbx,2006-11-13T03:09Z,Patch to MSDN Iso? Vista isn't on MSDN yet.
+,joe180,2006-11-13T03:09Z,What exactly is changed with this patch?
+,Cuthalu,2006-11-13T03:53Z,"""What exactly is changed with this patch?""
+
+Installation with BillGates version didn't work, and with this it does.
+
+Dunno if there's something else..."
+,F@TMAN,2006-11-13T04:11Z,"I don't think installation is an issue, most newbs have simply tried to install w/o formatting their hdd. Many ppl claim successful install using billgates with rc1 patch. Still not sold as to why MSDN is better than RTM?"
+,-=robotnick=-,2006-11-13T04:20Z,"""BillGates"" .iso has been changed In comparison with original ""Microsoft RTM Retail"" .iso, for reason, i think, for that their registration number would work.
+""BillGates"" .iso has ""Checksum did not match"" error In following files:
+*sources\install.wim (!!!)
+*sources\migcore.dll
+*support\migwiz\migcore.dll
+This patch does these files Genuine.
+Afterall, ""BillGates"" .iso gave only 3 days for activation, proper Microsoft Retail .iso without any serials gives 30 days trial.
+Thats enough for a first time. =)"
+,F@TMAN,2006-11-13T04:34Z,"the reason some users have only 3 days to activate is if they enter an INCORRECT cd-key, not anything to do with the ISO image as far as I'm aware"
+,skowfritt,2006-11-13T06:05Z,"How the hell could you possibly go thru installation with an incorrect cd-key??? I could not install with the BillGates version. After 30% of files copied I got a message saying the rest of the files are corrupt. after applying this corrective patch everything went a-ok. Thanx robotnick, you`re a real life-saver."
+,F@TMAN,2006-11-13T09:29Z,"skofritt, I believe you'll find you don't have to use a cd-key at all and the installation will still continue (windows has an in-built key for testing purposes), it will simply mean that you will need to enter one within the 30 day period. If vista thinks the cd-key you do enter is incorrect, it will only allow you 3 days to activate, otherwise restricting the user to limited access...."
+,smoke420,2006-11-13T10:04Z,"I installed the original BillGates version on VMware and the installation worked fine, so what is the reason for this -=robotnick=-?"
+,smoke420,2006-11-13T10:51Z,"Is this ""http://thepiratebay.org/tor/3556232/MSDN_Vista_RTM.iso"" the proper torrent to download vs the BillGates one? If the BillGates really was changed from the original MSDN ISO then why isn't this one on nforce?"
+,-=robotnick=-,2006-11-13T11:54Z,"skowfritt: it is not necessary to thank me. AlexBX - here the present hero who has made this patch! Many thanks AlexBX, Suzuki, xxxalien, Samlab, SHV. "
+,smoke420,2006-11-13T14:00Z,"If what you are saying is true, then indeed we owe you many thanks. I'm just curious as to how you guys did this when the image is not on MSDN yet. How did you know which files were changed and how to change them to what they should be?"
+,tugunska2,2006-11-13T14:17Z,"Robotnick
+
+is this file usable within AIO 32 and 64 its (4.42 GB) file??? "
+,-=robotnick=-,2006-11-13T14:59Z,"smoke420: If the image is not accessible to DL with MSDN it doesn't mean that does not exist at all (in any case, i think, that a MS Partnership provides different levels of access). Guys have taken original Microsoft image and a ""BillGates"" image and have compared, then a difference have been released like a patch. Probably, after 17th on MSDN will be other image which is distinct from 02.10.06 (if MS will want, rebuild will not borrow a lot of time).
+
+tugunska2: of course not. it's for ""BillGates"" release only."
+,-=robotnick=-,2006-11-13T15:07Z,02.11.06 of course.
+,denlion,2006-11-13T16:17Z,"But you still need a valid key if you want to use it for more than three days. You can use the Patch to make it run but it would still be an invalid key for all the online verifications available. Like Windows Update, ultimate extras and so on. "
+,smoke420,2006-11-13T16:44Z,"Thank you for your explanation -=robotnick=-. Could you please let us know about ""http://thepiratebay.org/tor/3556232/MSDN_Vista_RTM.iso"" Does this file have the same MD5 as BillGates after using your patch (d1ff9802d93871c9b90fe5542e84f89e) ???"
+,hafina,2006-11-13T17:42Z,"The patch screwd up my iso. It freezes during the end of the installation. The 'pure' Gates works allright, though - with the key provided and (later) with my msdn-key for activation."
+,smoke420,2006-11-13T17:48Z,Can anyone else confirm this?
+,skowfritt,2006-11-13T19:02Z,"Well, the only key I have is the RC2 one. Burning this stuff onto a DVD is not an option for me as I do not have a DVD-RW drive. Daemon tools has not worked with the most recent RC isos So I extract everything from the iso with POWERiso, put the contents in a folder and copy the whole kittenkaboodle over to my external firewire drive and run setup.exe from there. Always works eacept with this glitch with the BillGates iso. After applying this patch the glitch was gone. Right now my machine is running vista home basic. I`ve used the small app called ""windows vista activation reset"" which runs SLReArmWindows after every boot and thereby hangs the tale with me. Yes, my activation time is only 3 days."
+,skowfritt,2006-11-13T21:50Z,That activation reset crap did not work. Neither did the ReeBSaW thing. It screwed up the whole activation process and welcome center screen.
+,denlion,2006-11-13T22:51Z,"The ReeBSaW thing worked for me. I now have a fully functional ""evaluation"" version with build 6000. I don't know if it expires after 30 days but when that happens I will probaly have a valid key."
+,skowfritt,2006-11-14T03:07Z,iSEPIC`s activation instructions WILL activate vista.
+,skowfritt,2006-11-14T03:14Z,"My screen now says ""Windows is activated"" and off to the left is that blessed MICROSOFT GENUINE SOFTWARE logo."
+,smoke420,2006-11-14T09:57Z,Where can we find iSEPIC instructions?
+,jtrieu,2006-11-14T11:07Z,"iSEPIC instructions
+
+http://thepiratebay.org/tor/3555558/Windows.Vista.RTM.Activation.Crack"
+,-=robotnick=-,2006-11-14T11:15Z,"skowfritt: whos a hell talks about activation?! it's an .iso image patch. thats it.
+
+denlion: ReeBSaW crack replaces original files with the old from RC1 (pkeyconfig.xrm-ms; tokens.dat) to it the key from RC1 also works, but it does impossible reception of next RTM updates (windowsupdate will think youre still on the RC1(2) build). it's a crap.\
+IMHO Most useble behavior for a present  moment - 30 days trial + Rearm 2-3 times and patience =)) (for take a 30 days trial win must be installed without any crapy keys)"
+,smoke420,2006-11-14T11:37Z,"OK, so this is the best method to use if you want to use RC2 files. What about the method of changing your BIOS to year 2099 before install? Can anyone confirm this working?"
+,skowfritt,2006-11-14T21:51Z,"robotnick, you`re an idiot. activation is accomplished. you wanna split hairs over this thread pertaining specifically to the patch???"
+,skowfritt,2006-11-14T22:00Z,"besides, if you`re such a bright boy, how come you didn`t come up with the activation formula before iSEPIC? silly me. I keep forgetting. activation`s not important...especially in this thread."
+,tugunska2,2006-11-16T18:12Z,"robotnick
+
+thanks for the answer!
+I'll try both systems!!"
+,skowfritt,2006-11-17T01:58Z,its your time to waste.
+,BuK0,2006-11-19T13:24Z,"i have the BillGates thing , when i try to install it has error on 48% ... i download this patch but he is giving me error too ... it says that cant open iso file .... what to do ?"
+,vampir0000,2006-12-25T20:37Z,thankssssssss
+,kasutori24,2007-02-21T13:50Z,"""If you dowload Vista x86 ""BillGates"" release
+(md5 = c7792c31aeea98be645ab295d35e8eef, size - 2 678 614 016),
+
+It is possible to transform this release into legit MSDN release
+(md5 = d1ff9802d93871c9b90fe5542e84f89e, size - the same).
+
+Start ppf-o-matic3, choose the ISO from BillGates, and a patch bg-msdn.ppf to apply,
+and at you a proper image from MSDN.
+For check the resulted md5 control sums are applied of an image before patch, and after,
+and finaly a md5 of MSDN image contents.
+
+Enjoy.""
+
+Do you proofread your writing before you submit? This is horrible English. FFS, either proofread what you write before you submit, or relearn English!"
+,temporaryuser,2009-12-20T00:01Z,"Need seeders, please."

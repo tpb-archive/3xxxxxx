@@ -1,0 +1,16 @@
+::: THIS IS FOR THE PROJECT OSx86 :::
+
+Question :  I have a SSE3 CPU but I can't run PowerPC applications (no iTunes)!
+
+Answer :  It's because that image has had SSE3 support patched-out. The file patched-out is called CoreGraphics. Here's how to fix it:
+
+Find an untouched version of the "CoreGraphics" file (this download) and put it on your OSX86 Mac. Rename the CoreGraphics file to CoreGraphics.bak Move the file (CoreGraphics.bak) to:
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A
+
+Go into Terminal, type "cd /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A" , then type:
+chmod 755 CoreGraphics.bak - "ENTER"
+sudo chown root:wheel CoreGraphics.bak - "ENTER"
+sudo mv CoreGraphics CoreGraphics.i386 - "ENTER"
+sudo mv CoreGraphics.bak CoreGraphics - "ENTER"
+
+Okay, now just reboot your computer! After reboot, you computer will have better graphics, and will be able to run PowerPC applications!

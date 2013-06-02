@@ -1,0 +1,23 @@
+﻿User Type,Username,Date,Text
+,Gelegrodan,2006-12-28T19:32Z,"""No, AACS Was Not Cracked
+
+All that happened was the method Cyberlink to decrypt AACS used was semi-compromised.  Their implemention kept the key in memory, a key which is needed to legally decrypt the content protection.  What is likely going to happen is that specific key will be revoked, and Cyberlink will have to issue an update in order to play newer titles.  CSS didn't have a good way to revoke the keys, AACS does.
+
+Waiting to see what Cyberlink and AACS said happened, but I don't see that AACS was cracked.""
+
+http://msmvps.com/blogs/chrisl/archive/2006/12/27/454492.aspx"
+,doppelter,2006-12-28T19:39Z,"http://forum.doom9.org/showthread.php?t=119871
+
+^^"
+,Shylock,2006-12-30T07:25Z,every message I've seen from asia4all has been repeated virus warnings. not sure if he's FOS or what though.
+,ioakou,2006-12-30T18:51Z,@ASIA4ALL-ITS VERY ANNOYING TO SEE YOUR NAME IN EACH TORRENT SPREAD THE SAME LIES...ACTUALLY STUPID LIES-EACHONE WITH COMMON SENSE SHOULD IGNORE THAT SPAM PERSON & DW WHATEVER U LIKE...AS ABOUT THE UPLOADER WELL JUST GOOGLE MY NICKNAME-MERRY XMAS TO EVERYONE..EVEN THE STUPIDS...
+,ioakou,2007-01-02T05:55Z,"uploader note>>> According to reports the AACS (Advanced Access Content System) DRM used on both HD DVD and Blu-Ray movies has been circumvented. A hacker by the name of muslix64 has released a tool called BackupHDDVD including its source code, and posted a video at Youtube showing how a movie is decrypted and then played back from a hard disk drive.
+
+According to muslix64 he managed to locate unencrypted decryption keys in the memory while playing back a HD DVD movie on PC. This sounds awfully similar to the first CSS decrypting programs, which used a key obtained from a poorly designed DVD playback software to decrypt DVD movies. The BackupHDDVD package made available does not, however, include the decryption keys.
+
+A new version of the software is scheduled for early January, which will hopefully shed some light on how the decryption keys are obtained. If there's a vulnerability in PowerDVD that allows the keys to be extracted, the software will most likely be removed from the list of allowed playback keys in future HD DVD movies. Nevertheless it will always be possible to extract the decrypted data stream in some manner as long as computers and operating systems are ""insecure"" (from software's point of view).
+
+With the AACS decryption method out in the wild, it will probably not take too long until HD DVD movies surface on the Net and P2P networks.
+
+If you're interested in the software, you can download it from our download server here. Basically all it does is decrypt the AES encryption on the movie using a key from TKDB.cfg config file. "
+,smartass69,2007-03-31T00:52Z,"Just needed 30 mins to break the first pair of sony arccos discs so why should this be a prob heyy Thanx, needed this one for my archive"

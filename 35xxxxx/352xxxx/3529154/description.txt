@@ -1,0 +1,25 @@
+PHP-Nuke v8.0 Features:
+
+- Several cosmetic changes has been made in the News administration
+- Added a Publish Now function for all Scheduled News listed in the main administration area
+- Banners list in Advertising administration module now are ordered by position and banner name
+- Advertising clients list is now ordered by client name in Advertising module's administration
+- Forums, Members List and Private Messages modules are now not so dependent from core system. Many files has been moved from /includes/ folder to /modules/Forums/includes/
+- Added new BBtoNuke (phpBB Forums port) version 2.20
+- Removed useless and not working search engine links from Downloads and Web Links modules search result pages
+- Added a new function in mainfile called info_box() which creates a nice message box with a related graphic. Values for the graphic (located in /images/system folder) are: warning, caution, tip and note
+- Cosmetic changes to Surveys module. Last 5 polls block now goes under the current results block
+- Minor cosmetic changes to Feedback module
+- Minor cosmetic changes to Add New Download form display in Downloads module
+- Minor cosmetic changes to IP Ban system list display
+- Several cosmetic changes in Submit News module
+- Added duplicate title and story text check in news submissions
+- Added a new DoS/Flood attack protection that prevents multiple pages views in few seconds
+- Cosmetic changes to Downloads module administration.
+- Changed the display list method of new submitted files in Downloads module administration by a single selection with the title and a separated validation page for each new file has been added
+- Added installation system in /install/ folder. (Based on Joomla Web Installer)
+- Fixed a bug in the client login function in Advertising module (Thanks to keg01)
+- Increased Advertising client cookie life from 1 hour to 24 hours
+- Minor optimizations in HTTP Referers system display
+- Fixed a bad use of define(INSIDE_MOD) in the mainfile.php that made useless this feature
+- Added a new redirection system to be used by admin to not reveal as referer the admin filename when clicking on a link

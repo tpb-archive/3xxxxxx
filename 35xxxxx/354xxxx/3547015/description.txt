@@ -1,0 +1,34 @@
+OK, here\'s the PROPER version of XBBMC FahxBahx. I accidentally included multiple copies of files in my other release. Hopefully this slimmer, trimmer version will work better for everyone. If you downloaded or are downloading the other version, stop and delete it. This one works better, and is MUCH smaller! I apollogize, and will work to ensure it NEVER happens again.
+
+
+XBMC 2.0 10-27-2006 FahxBahx
+
+
+I\'m back from my vacation, and I come bearing a brand new release just in time for the weekend. All those of us who use Daylight savings time, make sure to make the most of your extra hour! I have heard some scripts haven\'t been working in some releases, so I\'m going to take some time to weed them down and fix that for my next release. As per usual, there\'s MC360 and Manturafs & Roormonger\'s mods in here, along with some images roormonger put together. Remember, put the folder named \"LiveContent\" at the root of your E: drive. Well, I hope you all enjoy!
+
+*************************************************************************************************************
+*************************************************************************************************************
+                                     Xbox Media Center CHANGELOG
+************************************************************************************************************* 
+*************************************************************************************************************
+
+added/fixed: (dd-mm-yyyy) (please specify date in CET)
+ - 26-10-2006 fixed: [ 1584930 ] useAvpackSettings broken. thanks to markeen.
+ - 25-10-2006 fixed: added some thread saneness to the hddsmart query.
+ - 25-10-2006 fixed: [ 1580744 ] Can\'t Get PC DVD-ROM to Work Properly with Xbox Media Centre
+ - 25-10-2006 fixed: cosmetic bug in filemanager handling of rar files.
+ - 24-10-2006 fixed: .tbn file support for hard drive foldernames containing periods
+ - 23-10-2006 fixed: users with bad luck could end up with errors on initial opening dvd images or dvd\'s (use of uninted variable). likely the start at 90 min in the movie syndrom
+ - 23-10-2006 fixed: potential segfault in libdvdnav.dll if a read returned 0 data.
+ - 23-10-2006 fixed: segfault in libsmbclient on invalid dates returned in a directory query (lan drives especially)
+ - 22-10-2006 added: httpapi QueryMusicDatabase command
+ - 22-10-2006 changed: httpapi SetResponseFormat to take multiple format pairs
+ - 21-10-2006 fixed: sets Media Source Name if blank for protocols instead of just being blank
+ - 20-10-2006 fixed: fixed the python threading exception when exiting a script
+ - 18-10-2006 fixed: resume video didn\'t work if fps adjustment was used for ntsc video\'s on pal systems
+ - 17-10-2006 fixed: [ 1577855 ] can\'t handle some rar files correctly
+ - 17-10-2006 updated: norwegian language file.
+ - 17-10-2006 fixed: forgot to sort images in root of cbr/cbz files.
+ - 15-10-2006 fixed: httpapi TakeScreenShot download parameter now works
+ - 15-10-2006 fixed: httpapi GetCurrentSlide now returns \"[None]\" rather than an empty string if no slide is showing
+ - 15-10-2006 changed: httpapi Help command text has been updated and now includes a link  to http://www.xboxmediacenter.com/wiki/index.php?title=WebServerHTTP-API

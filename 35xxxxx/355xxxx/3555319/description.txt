@@ -1,0 +1,32 @@
+Fully cracked!
+
+V3.60
+Phase:			IV. = Texture support
+Status:			Unfinished
+Release date:		November 12, 2005
+File size:		1.462.267 bytes
+Supported file formats:	426
+New features:		Textured view
+			Drag and Drop support (to load object)
+			Enhanced Batch Converter module
+New modules:
+	3DO Builder				*.3DT/3DE	Load
+	AeroFly (trilist only)			*.OBJ		Load
+	Celestia ASCII (trilist only)		*.CMOD		Load
+	Celestia Binary (tlist,tstrip,tfan only)*.CMOD		Load
+	Darwinia				*.SHP		Load / Save
+	Dead Days				*.WTF		Load
+	Gray ASCII				*.XML		Load
+	Gray Binary				*.BIN		Load
+	HOOPS 3D Metafile			*.HMF		Save
+	IGES (entity 110/102)			*.IGS		Save
+	InSpeck FAPS				*.NET		Load
+	Jane's┬« F-18				*.3DG		Load
+	LDraw (triangles, quads only)		*.LDR,*.DAT	Load
+	Marcin Vorbrodt's CMF Format		*.CMF		Load
+	NeoEngine ASCII				*.NSCE		Save
+	POV-Ray ASCII (triangles only)		*.POV,*.INC	Load
+	Pepakura Designer			*.PDO		Load
+	Ragnarok				*.RSM		Load
+	Tecnomatix ROBFACE (Composite Curve)	*.RF		Save
+	Tecnomatix ROBFACE (Facet Block)	*.RF		Save

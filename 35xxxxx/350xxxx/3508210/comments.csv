@@ -1,0 +1,83 @@
+﻿User Type,Username,Date,Text
+,sfy,2006-09-11T16:09Z,"Some questions: First of all, the saving and restoring takes very long time. Second, when I try to restore a game I always end up in the same location (library facing ceiling). I'm running the game under XP in compability mode."
+[T],WinstonSmith6079,2006-09-16T05:57Z,"Good game!  This is a good find!  You rock, Zorcher!
+
+sfy: Try running it under Win95 Compability Mode.  It should work fine like normal then.  :)"
+,"Storm, Earth, and Fire",2006-09-22T05:57Z,"This game is great! Thanks, Zorcher.
+
+sfy: Win95 compatibility mode should make the game work right, although restoring facing the library ceiling is a part of the game, as such, it can't be changed."
+,AnarchyX6942,2006-12-08T04:23Z,"I cant get the videos(? whatever they are) to play. Theres no animation in game, like the book movies don't play and the image projector next to the docks doesn't work. Any suggestions? I copied the QTW folder from the CD to the myst folder but that didn't work either (and yes it is in win 95 compatibility mode). thx"
+,bu7ch3r,2006-12-26T02:52Z,"Great game =) last time i played i couldn't finish it off, just found the game in the stack of old cd's but the disc is to messed up... so i hope i'll be able to finish it this time. anarcy, you might have to degrade your version of quicktime to the version the myst disc... not just copy but install it."
+,Cheeky,2007-03-22T15:33Z,"AnarchyX6942: i kompatibilitetsinställningarna, ändra till att spelet ska köras i 640*480 och 256 färger! funkade för mig!"
+,Cheeky,2007-03-22T15:35Z,"AnarchyX6942: in compatibility settings, choose ""run in 640*480"" & ""256 colours""! worked for me!"
+,haleq,2007-03-30T22:49Z,this is probably a dumb question but how do i use a .bin and a .cue file?
+,Phoncible,2007-05-09T03:20Z,"i cannot get it to work. i get the autorun to start, and when i press install it goes away and nothing happens. the run-button is grayed out.."
+,paul1532,2007-05-30T00:41Z,"Every time I try to save the game crashes and dumps me back into windows, what do I do?! I have it in compatability mode already, 640x480 and 256 colors"
+,Servo333,2007-06-14T04:13Z,Same thing happens to me as paul1532.  Any help?
+,miaerowyn,2007-12-16T17:23Z,"Alright, I got to run it in compatibility mode, and I've even tried all of them, it runs upside down for me. I even changed the properties of my monitor to upside down, and it still didn't work. Anyone know what to do with this problem?"
+,Undead505,2008-01-18T14:03Z,how do you make the game load a saved game faster
+,annaM87,2008-02-02T06:18Z,"Absolutely best feeling to hear the music that comes when you look at the star map in the dentist's office!
+
+LOVE THIS FREAKIN' GAME! :D"
+,alepro,2008-04-11T09:10Z,Same problem as Phoncible. I'm using PowerISO to mount it. I can get to the auto-start screen but then when I click install it just goes away. Nothing happens. PLEASE HELP! I LOVE THIS GAME AND WANT TO PLAY IT BADLY!!!!
+,ppcrnptrl,2008-04-19T17:52Z,Same problem as miaerowyn.
+,ppcrnptrl,2008-04-19T18:01Z,"Found the upside-down fix
+
+http://ubisoft.custhelp.com/cgi-bin/ubisoft.cfg/php/enduser/std_adp.php?p_faqid=10326&p_created=1111173684&p_sid=iKtrrsmi&p_accessibility=0&p_lva=&p_sp=cF9zcmNoPTEmcF9zb3J0X2J5PWRmbHQmcF9ncmlkc29ydD0mcF9yb3dfY250PTI0JnBfcHJvZHM9ODgsMTA1JnBfY2F0cz0wJnBfcHY9Mi4xMDUmcF9jdj0mcF9zZWFyY2hfdHlwZT1hbnN3ZXJzLnNlYXJjaF9ubCZwX3BhZ2U9MQ**&p_li=&p_topview=1"
+,ClaireRedfield,2008-05-03T01:34Z,"dammit, i have the same problem as Phoncible and alepro... nothing happens after i press ""install""."
+,slurvic,2008-05-18T00:51Z,"Argh!! I tried opening the .bin file using a virtual drive device (VCDControl) and it won't run the installer or anything.  Is my only option to burn it to a cd? Will Nero do that?
+
+Any help would be much appreciated."
+,thatkevinkid89,2008-05-28T08:09Z,"ok. how do i get this to work. i have absolutely no idea, and i want to play it. help, anyone?"
+,legionmint,2008-06-03T12:33Z,"Use DAEMON tools when opening the bin file, it works just fine.  
+http://www.daemon-tools.cc/dtcc/download.php"
+,msmignonne,2008-06-07T09:43Z,"For those having an issue with Myst being upside down, try this:
+
+
+Set game to Win 95 compatibility mode then go to graphics properties for your video card. You will need to set a scheme for Myst. (Basically, you have to tell the computer to use specific settings when you open Myst.) In my case, I was asked to browse for the location of the program. 
+
+The settings, then, should be 640x480, 256 colors and 'enable rotation' unchecked(if not already). 
+
+This worked for me using Intel 82685G Graphics Controller. "
+,msmignonne,2008-06-07T09:48Z,"If you are having problems with the .bin, try to load the .cue in a program like Alcohol 120% worked like a charm for me. If you don't have it, just use the handy search above and you can get it  + no viruses. "
+,sylvainking,2008-06-15T14:30Z,thanks to you 
+,Lhuntarn,2008-06-25T12:41Z,"Well, I have downloaded the game, opened with Daemon Tools, installed and played without any compatibilty problem. It worked perfectly. 
+
+But I can't say the same thing for the game. I didn't like it. Controls and camera angles are awful. To find direction is really difficult to get used to. But I can get along with it, considering the production year."
+,PL4STOR,2009-01-07T05:24Z,"For people with Windows XP, there shouldn't need
+to be any further adjustments needed at all to the
+exe. You have to explore the iso once its mounted
+using my computer, go to:
+
+:\Myst32\QTWSETUP and
+manually install quicktime. Skip the drive check,
+and do the complete install. Should work fine. I
+have a 9600gt PCI-E and Myst runs perfectly."
+,someperson15,2009-02-05T05:06Z,ahhh... nothin beats a good ol' pre-rendered game....
+,animal09,2009-03-14T23:22Z,"So okay, Ive mounted it and all that, but now when I try to start the game up, the screen goes black for a moment, flips upside down, and then gives me a message box saying that the CD I have in there is not the right one.."
+,Daejien,2009-05-11T04:55Z,"I can't even get this game to install, help please?"
+,bchill1962,2009-05-20T14:32Z,"ok...getting tired of this...sure it's something i am doing...Win XP SP2, Daemon Tools Lite.
+
+Compatability mode = Win 95
+
+Screen rez changes and that's all she wrote...never gets any farther. Help? Suggestions? Tx"
+,mangomush,2009-08-13T04:59Z,"Thanks, works great ^_^"
+,Slanverse,2009-09-27T23:31Z,Every time I try to save in this game it automatically closes. Has anyone found a solution to this problem?
+,FreeTibet,2009-10-16T23:07Z,"@paul1532, Servo333 etc. 
+
+If you can't get Myst to work even if the compatibility mode is turned on, you must to downgrade your Quicktime. Uninstall the QuickTime version you have, and install the one that comes with the game.
+
+This sucks, because iTunes won't work with the older versions of QuickTime and you have to choose between being able to play Myst and being able to run iTunes. Meh."
+,AmyLuthien,2009-10-24T17:34Z,"Thanks Zorcher!
+
+Skullfire20, fifiperoto offers a copy of Myst Masterpiece Edition - just search ""myst me"" or ""Myst Masterpiece Edition"" to find it (sans the quotation marks, of course.)"
+,lazabar,2011-04-19T23:57Z,"a little HUGE WARNING!!
+
+there is a pretty big virus in the quicktime installer!
+it almost fried my computer, spent an entire day doing nothing but scans, repairs etc. 
+
+just thought you should know"
+,PCArchive,2012-03-21T04:56Z,"Anyone having issues with the mechanical age? (the one with the sprocket to get to the age).
+
+I'm playing this on a Win98 machine and it crashes when i get to that age. The rest is fine."
+,heartattack360,2012-07-25T20:29Z,when are the uploaders going to learn. you don't need to mount it. just extract it with winrar.

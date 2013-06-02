@@ -1,0 +1,427 @@
+﻿User Type,Username,Date,Text
+,sinsliveforever,2006-07-02T00:46Z,"this is gold! 
+Thank you !
+ ------> neverRAR is the man / women"
+,nwadel,2006-08-02T21:41Z,"Thank you so much, this is a great game :)"
+,[NSP]Ullvanten,2006-09-13T23:30Z,Anyone know how to get this to run @ Win XP?
+,NeverRAR,2006-10-07T10:07Z,"[NSP]Ullvanten
+
+If you'd read the .nfo, you'd have noticed the link I referred to:
+
+http://home.earthlink.net/~infernofilecabinet4/XpSetupsP_T/Toonstruck_Setup.htm
+
+This links to a guide to get this game to run under Windows XP, which I found browsing the web."
+,baltz,2007-01-04T13:41Z,"this game is so cool, thanks a lot!"
+,Skogtur,2007-04-29T23:00Z,Run the game using DOSBox. Works perfectly!
+,Vicar in a Tutu,2007-09-01T07:37Z,"please scrap my previous posts (and this).
+
+the following posts are what you should read!
+
+thanks"
+,Vicar in a Tutu,2007-09-01T07:38Z,"How to play Toonstruck in Windows XP
+
+
+1. Install IsoBuster 2.2 if it is not already installed on your computer.
+
+OFFICIAL SITE - http://www.isobuster.com
+DOWNLOAD FILE - http://www.isobuster.com/dl.php?v=1&l=0
+
+
+2. Open 'Toonstruck.English.CD1.iso' with IsoBuster, right-click the small red ISO box and click 'Extract -' and when asked for a location, just select the Desktop. This should extract all the files in the image to a folder on the Desktop (named '-').
+
+
+3. Open 'Toonstruck.English.CD2.iso' and again, right-click the small red ISO box and click 'Extract -' and select the Desktop. A window will open to say 'File already exists'. Tick 'Yes to All' and click 'Yes. The files you overwrite are exactly the same on both images, so there is no need to worry. Once extracted, you will have the content of both CDs in one folder.
+
+
+4. Rename the folder 'Toonstruck' and move it to 'C:' (where Program Files and Windows is located).
+
+
+5. Install DOSBox 0.72 if it is not already installed on your computer.
+
+OFFICIAL SITE - http://dosbox.sourceforge.net
+DOWNLOAD FILE - http://prdownloads.sourceforge.net/dosbox/DOSBox0.72-win32-installer.exe?download
+
+
+6. Go to: Start > All Programs > DOSBox-0.72 > 'DOSBox.conf'. The file should open in Notepad.
+
+If it doesn't, go to: My Computer > C: > Program Files > DOSBox-0.72
+Right-click 'dosbox.conf'.
+Click 'Properties'.
+Next to 'Opens with', click 'Change...'.
+Select 'Notepad'.
+Click 'OK' then 'OK'.
+Go back to: Start > All Programs > DOSBox-0.72 > 'DOSBox.conf'.
+
+
+7. Copy all of the following text (in-between the lines).
+
+
+-------------------------
+[sdl]
+fullscreen=true
+fulldouble=false
+fullresolution=original
+windowresolution=original
+output=surface
+autolock=true
+sensitivity=100
+waitonerror=true
+priority=higher,normal
+mapperfile=mapper.txt
+usescancodes=true
+
+[dosbox]
+language=
+machine=vga
+captures=capture
+memsize=32
+
+[render]
+frameskip=0
+aspect=false
+scaler=normal2x
+
+[cpu] 
+core=auto
+cycles=max
+cycleup=500
+cycledown=20
+
+[mixer]
+nosound=false
+rate=44100
+blocksize=2048
+prebuffer=10
+
+[midi]
+mpu401=intelligent
+device=default
+config=
+
+[sblaster]
+sbtype=sb16
+sbbase=220
+irq=7
+dma=1
+hdma=5
+mixer=true
+oplmode=auto
+oplrate=44100
+
+[gus]
+gus=true
+gusrate=44100
+gusbase=240
+irq1=5
+irq2=5
+dma1=3
+dma2=3
+ultradir=C:\ULTRASND
+
+[speaker]
+pcspeaker=true
+pcrate=22050
+tandy=auto
+tandyrate=22050
+disney=true
+
+[bios]
+joysticktype=auto
+timed=true
+autofire=false
+swap34=false
+buttonwrap=true
+
+[serial]
+serial1=dummy
+serial2=dummy
+serial3=disabled
+serial4=disabled
+
+[dos]
+xms=true
+ems=true
+umb=true
+keyboardlayout=none
+
+[ipx]
+ipx=false
+
+[autoexec]
+MOUNT C C:\
+MOUNT F C:\Toonstruck
+F:
+INSTALL.BAT
+-------------------------
+
+
+Go back to the 'DOSBox.conf' window and press 'Ctrl+A' to highlight all the text. Press 'Ctrl+V' to paste the new text over the original. Save the file, but don't close the window yet.
+
+
+8. Run 'DOSBox 0.72'. It should load a DOS based installer entitled 'ToonStruck Installation Program'.
+
+
+9. Press the 'Down' arrow twice to highlight 'Install ToonStruck' and press 'Enter' to install the game.
+
+
+10. Next you'll want to configure the sound and video.
+
+
+On 'Configure Sound', press 'Enter'.
+On 'Start Sound Setup', press 'Enter'.
+Select 'Manual' and press 'Enter', select 'Sound Blaster' and press 'Enter' 4 times.
+On 'Test Settings', press 'Enter'.
+
+Hopefully you will heard a clear spoken (creepy) voice: 'Welcome to Toonstruck...'.
+
+If you don't then go back to 'Start Sound Setup', select 'Automatic' and test again.
+If there is still no sound or it is distorted etc. use trial and error to find a combination that works.
+
+Press the 'Down' arrow to 'Exit Sound Setup' and press 'Enter'.
+
+
+On 'Configure Video', press 'Enter'.
+On 'Start Video Setup', press 'Enter'.
+Select 'OK' to everything, following the instructions as they come.
+You should eventually see a clear, colour image. Press any key to continue.
+On 'Exit Video Setup', press 'Enter' and on 'Exit Installation', press 'Enter'.
+
+
+11. To play Toonst"
+,Vicar in a Tutu,2007-09-01T07:40Z,"How to play Toonstruck in Windows Vista
+
+
+1. Install IsoBuster 2.2 if it is not already installed on your computer.
+
+OFFICIAL SITE - http://www.isobuster.com
+DOWNLOAD FILE - http://www.isobuster.com/dl.php?v=1&l=0
+
+
+2. Open 'Toonstruck.English.CD1.iso' with IsoBuster, right-click the small red ISO box and click 'Extract -' and when asked for a location, just select the Desktop. This should extract all the files in the image to a folder on the Desktop (named '-').
+
+
+3. Open 'Toonstruck.English.CD2.iso' and again, right-click the small red ISO box and click 'Extract -' and select the Desktop. A window will open to say 'File already exists'. Tick 'Yes to All' and click 'Yes. The files you overwrite are exactly the same on both images, so there is no need to worry. Once extracted, you will have the content of both CDs in one folder.
+
+
+4. Rename the folder 'Toonstruck' and move it to 'C:' (where Program Files and Windows is located).
+
+
+5. Install DOSBox 0.72 if it is not already installed on your computer.
+OFFICIAL SITE - http://dosbox.sourceforge.net
+DOWNLOAD FILE - http://prdownloads.sourceforge.net/dosbox/DOSBox0.72-win32-installer.exe?download
+
+
+
+6. Go to: Start > All Programs > DOSBox-0.72, right-click 'DOSBox.conf' and click 'Run as administrator'. The file should open in Notepad.
+
+If it doesn't, go to: Computer > C: > Program Files > DOSBox-0.72
+Right-click 'dosbox.conf'.
+Click 'Properties'.
+Next to 'Opens with', click 'Change...'.
+Select 'Notepad'.
+Click 'OK' then 'OK'.
+Go back to: Start > All Programs > DOSBox-0.72, right-click 'DOSBox.conf' and click 'Run as administrator'.
+
+
+7. Copy all of the following text (in-between the lines).
+
+
+-------------------------
+[sdl]
+fullscreen=true
+fulldouble=false
+fullresolution=original
+windowresolution=original
+output=surface
+autolock=true
+sensitivity=100
+waitonerror=true
+priority=higher,normal
+mapperfile=mapper.txt
+usescancodes=true
+
+[dosbox]
+language=
+machine=vga
+captures=capture
+memsize=32
+
+[render]
+frameskip=0
+aspect=false
+scaler=normal2x
+
+[cpu] 
+core=auto
+cycles=max
+cycleup=500
+cycledown=20
+
+[mixer]
+nosound=false
+rate=44100
+blocksize=2048
+prebuffer=10
+
+[midi]
+mpu401=intelligent
+device=default
+config=
+
+[sblaster]
+sbtype=sb16
+sbbase=220
+irq=7
+dma=1
+hdma=5
+mixer=true
+oplmode=auto
+oplrate=44100
+
+[gus]
+gus=true
+gusrate=44100
+gusbase=240
+irq1=5
+irq2=5
+dma1=3
+dma2=3
+ultradir=C:\ULTRASND
+
+[speaker]
+pcspeaker=true
+pcrate=22050
+tandy=auto
+tandyrate=22050
+disney=true
+
+[bios]
+joysticktype=auto
+timed=true
+autofire=false
+swap34=false
+buttonwrap=true
+
+[serial]
+serial1=dummy
+serial2=dummy
+serial3=disabled
+serial4=disabled
+
+[dos]
+xms=true
+ems=true
+umb=true
+keyboardlayout=none
+
+[ipx]
+ipx=false
+
+[autoexec]
+MOUNT C C:\
+MOUNT F C:\Toonstruck
+F:
+INSTALL.BAT
+-------------------------
+
+
+Go back to the 'DOSBox.conf' window and press 'Ctrl+A' to highlight all the text. Press 'Ctrl+V' to paste the new text over the original. Save the file, but don't close the window yet.
+
+
+8. Run 'DOSBox 0.72'. It should load a DOS based installer entitled 'ToonStruck Installation Program'.
+
+
+9. Press the 'Down' arrow twice to highlight 'Install ToonStruck' and press 'Enter' to install the game.
+
+
+10. Next you'll want to configure the sound and video.
+
+
+On 'Configure Sound', press 'Enter'.
+On 'Start Sound Setup', press 'Enter'.
+Select 'Manual' and press 'Enter', select 'Sound Blaster' and press 'Enter' 4 times.
+On 'Test Settings', press 'Enter'.
+
+Hopefully you will heard a clear spoken (creepy) voice: 'Welcome to Toonstruck...'.
+
+If you don't then go back to 'Start Sound Setup', select 'Automatic' and test again.
+If there is still no sound or it is distorted etc. use trial and error to find a combination that works.
+
+Press the 'Down' arrow to 'Exit Sound Setup' and press 'Enter'.
+
+
+On 'Configure Video', press 'Enter'.
+On 'Start Video Setup', press 'Enter'.
+Select 'OK' to everything, following the instructions as they come.
+You should eventually see a clear, colour image. Press any key to continue.
+On 'Exit Video "
+,Pe3er,2007-10-14T13:08Z,"is it 2 cdÂ´s??
+or yust disk 2 of 2, and ont include 1? 
+an serusly.. WHY IS NO ONE SEEDING THIS GOOD GAME FFS!! and do some one know were i can downoad this ""full game"" from a site there thay dont need seeders but the server is giving out the file,
+
+sorry for my english, /swedish"
+,Pe3er,2007-10-14T13:10Z,"im only on 0,01% done,, wtffff!!! no one seeds, and iv donloaded this shit for a month ago!! whyyyyyyyy no one seeds!!
+
+(agin my english is bad)"
+,Pe3er,2007-10-21T19:44Z,"iv have now downloade it !!:D:D:D yay but the adio suks ass .. btw thanks for all instruktions but i cant stil hear quite what thay ate saying its like ""we,,wel we welco wellcon "" hard to tell.. but any of you nice guys know a ting or 2? ... i have don everysingel one of your tips:P email me pe3er_killer@hotmail.com.. thanks"
+,DaVince21,2007-10-25T00:25Z,"If you have it, please keep seeding? Once I have the full 100% I'll keep seeding for a while, because having only 1 seeder for such a good game is really miserable."
+,rizla12,2008-01-29T23:31Z,"To fix stuttering sound:
+
+1. Go to the directory where you installed toonstruck and open toonstrk.cfg with notepad.
+
+2. Replace everything under [DIGITAL] with this
+DeviceName = Sound Blaster           
+DeviceIRQ = 5
+DeviceDMA = 1
+DevicePort = 0x220
+DeviceID = 0xe000
+DeviceMonoID = 0xe000
+Stereo = 0
+TimerRate = 60
+Flip = 0
+
+If that doesnÂ´t work, try changing DeviceIRQ = 5 to DeviceIRQ = 7
+
+
+If you have problems with disappearing graphics, run toonstrk.bat with the variable -b
+
+i.e when I run toonstruck in dosbox it looks like this:
+
+c:\toonstrk\toonstrk.bat -b"
+,zooka,2008-01-30T00:59Z,SWEET !
+,zooka,2008-01-30T23:08Z,"Works perfect !
+Thanks NeverRAR
+and Vicar in tatu !"
+[T],Huggybaby,2008-02-15T21:02Z,"Works great, thanks!"
+,didvid,2008-08-12T22:11Z,"PLEEEEAASSEEEE!!!!!  could someone seed this?
+i really want this game but noone will seed it."
+,Mulv87,2008-12-04T12:01Z,"Vicar in a Tutu:
+
+I've been following your instructions to install the game, but every time I get to step 8 nothing installs, Dosbox just comes up with this -
+
+F:\>INSTALL.BAT
+Illegal command: INSTALL.BAT
+
+Can someone please help because I really want to play this game!!"
+,dX4_GothmoG,2009-01-13T09:15Z,"Thanks alot! Awesome game, just finished it!
+
+To bad the sequel was never realeased.
+
+A comment on the graphics, in Vista I had trouble with the fullscreen outcome, with alot of lag, but I just changed the Fullscreen=true to false and it worked like a charm!"
+,jasoneds,2009-03-14T02:12Z,Thanks Uploader
+,maxtoonstruck,2009-06-03T04:17Z,How do i get it to load fullscreen not working its little screen
+,ZeRaWaKH,2009-07-21T18:38Z,"Thanks for the great up! While cycles=max in DOSBox is usually a good idea, there's a certain passage in the game where the execution speed greatly surpasses that given by the recommended Pentium 133 MHz running native."
+,Pole_Star,2011-01-10T02:41Z,"Thanks. Works perfectly with the guide.
+
+I can't believe I was able to play this one perfectly on Windows 7 x64. :D"
+,Pole_Star,2011-01-10T02:43Z,"However. Do note that you may need to decrease the speed of DosBox at certain points of the game to accomplish some tasks. Some scenes would be too fast to handle. Nothing to worry about though.
+
+I read it somewhere that it also works on ScummVM. Anyone tried?"
+,peepingjoe,2011-04-22T04:17Z,i've managed to fumble my way through this but get to the point of setting up the video an keep getting an error.. 'crashed while attempting to configure UniVBE'.. then another error saying its crashed trying to use something other than UniVBE.. any help please? 
+,zubizabata,2012-04-22T13:00Z,"===Toonstruck on Vista/Win7===
+
+The game seems to be perfectly emulated by ScummVM, so basically all you need to do is follow the first 4 steps of Vicar in a Tutu's (awsome) guide, then run ScummVM (you can get it here: http://www.scummvm.org/downloads/?p=downloads), click add game and then browse to your Toonstruck folder in your hard disk drive. This method saves you from lots of glitches, the installation process, sound problems and it guarantees the best optimizes emulation possible. 
+
+So far I've played the intro and the first 4-5 screens of the Cutopia and everything seems to work marvelously. 
+
+Enjoy. "

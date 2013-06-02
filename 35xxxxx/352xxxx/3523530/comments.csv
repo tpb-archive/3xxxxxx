@@ -1,0 +1,151 @@
+﻿User Type,Username,Date,Text
+,pirate2000,2006-09-13T15:28Z,"thank you so much for this great stuff, maybe you have also the ""Sports Injuries The Shoulder 2nd Edition"", it can be very helpfull, thank you again 
+
+..http://www.primalpictures.com/Shop/ShowProductDetails.aspx?ProductID=49"
+,Fasthand,2006-09-13T16:53Z,"Again:
+Thank you very much Ulysses56.
+
+Very solid contribution to the virtual community!"
+,reichert,2006-09-13T17:16Z,May I add....: A very valuable and much appreciated solid contribution to the virtual community!
+,farija,2006-09-13T23:01Z,Hopefully someone will seed all the time so we all can upload and join seeding all the different series
+,farija,2006-09-13T23:02Z,Forgot to say wonderful seed
+,toofan,2006-09-15T01:16Z,great torrent. great seed speed. thanks alot mate!
+[T],ulysses56,2006-09-15T08:48Z,"From LordP666 - 2006-09-12 19:50 GMT: 
+
+First I want to thank ulysses56 for uploading these, it seems that he had a hard time with 
+
+it but he still did it. Thanks. 
+
+
+OK, I think I found a solution for those having a problem with the Anatomy Primal CDs. This 
+
+works for me at least and if someone else could try it and let us know if it works for them 
+
+it would be a good thing. 
+
+
+I'm going to illustrate with ""Anatomy Primal 3D Interactive Series 3 Hands"" which is the 
+
+only one I have as of now. 
+
+
+
+Use Magic ISO and extract all the files to a folder. 
+
+
+Use ""Safedisc 2 Cleaner v1.2.0"" to clean ""hand2000.exe"" which is in the ""setup"" folder 
+
+- the cleaner will make a file called ""SD2cleaned.exe"" for you to test. 
+
+
+When you run this test file it will tell you that it can't find ""APPSETUP.TXT"" (it's in 
+
+the ""shared"" folder). What I did is to tell it where to find APPSETUP.TXT and it worked 
+
+like a charm. 
+
+
+Just to be safe I placed a copy of ""APPSETUP.TXT"" to the ""setup"" folder. 
+
+
+Now all I had to do is delete ""hand2000.exe"", rename ""SD2cleaned.exe"" to ""hand2000.exe"" 
+
+and burn the whole thing to a CD using the original CD name of ""HAND2000"". 
+
+
+Works nice. 
+
+
+You can find the cleaner here: w w w.cdmediaworld.com/hardware/cdrom/cd_utils.shtml"
+,toofan,2006-09-16T03:00Z,"after I install the program, I keep getting the error message that I need to eject cd & re-insert it. everytime I start the application. & it dont work! :("
+,toofan,2006-09-16T03:16Z,btw ulysyss..I used the sfaedisc steps ...but when I try the safedisk on the exe file it says protected files are not supported yet!
+,toofan,2006-09-16T12:26Z,"here's the error I get when I try to run it:
+http://www.home.no/jigarjooni/primalhead.jpg"
+,toofan,2006-09-16T13:08Z,ok ..used deamon tools to mount. works pefect now :)
+,violentjrn,2006-09-17T06:40Z,Thank you very much for the entire series!!  I have continued to seed as promised.
+,mazdon,2006-09-17T17:55Z,"What a sad story.... hmmm
+I can get some of these torrent to work... with a lot of trouble.... burning CD:s that doesent work, loading down diffrent programs that doesenÂ´t work to crack this torrent...so sad, I really looked forward to get this torrents as I have a lot of friends that are nurses or working in that area.
+But I can see that it will be far to complicated for them to manage this downloads.... so sad.... ;(
+
+Anyway ulysses56, thanks for trying...best regards Maxthegun"
+,drjagroopsingh,2006-10-15T14:31Z,"it requires safe disc version 2.8 to fix where can i find it, else tell me how to install head and neck"
+,drjagroopsingh,2006-10-19T00:47Z,"he don't worry i got the solution
+MAKE ISO
+MOUNT ISO ON VIRTUAL DRIVE
+INSTALL FROM VIRTUAL DRIVE
+NOW EXTRACT ISO
+COPY SPINE TO SETU FOLDER OF HEAD, SPINE WAS CREATED BY SAFEDISK FOR SPINE
+RENAME SPINE TO HEAD
+USE THIS FILE RUN HEAD"
+,Ironbyte,2006-10-29T19:14Z,The *.ccd file is missing
+,Ironbyte,2006-10-29T19:27Z,The *.sub is also missing
+,s336336anl,2006-11-26T04:31Z,"I have all of the cd's working.
+
+Mount with Daemon tools. You will come up with various errors like appsetup.txt not found or unable to read c:\program Files\Primal..\contents.txt..etc  
+
+To fix this:
+
+I mounted the cd. Used Safedisc emulation. Copy the cd over to where the files are installed ie put appsetup and contents.txt etc in the main directory where I installed the primal cd. I did this, the program started but there were no images. So I moved all the image files from the shared folder to the main folder too and works without error. It should work for the other CDs. Mind you all except thorax and abdo, head and neck mounted with daemon tools first go without error.
+
+Cheers.
+s336336anl"
+,s336336anl,2006-11-26T04:34Z,"How to backup Safedisc 2x using various software including guides. See link..
+
+http://forums.afterdawn.com/thread_view.cfm/23699"
+,nopanik,2006-12-02T23:56Z,please could somebody send me appsetup.txt because i dont find it (tanks very much to ulysse)
+,bvS87,2007-02-04T02:14Z,"hi, i've actually borrowed the cd from someone and made and iso of it. i've tried daemon but it still gives me 'insert correct cd' when i try to run it. safedisc cleaner doesn't seem to think that it is 'protected with safedisc 2' . does anyone have any idea how to fix this?
+and, is the file seeded here directly 'iso-ed' from the cd? the cd i borrowed is abt 596MB, why is this 700MB?"
+,saguigt380,2007-04-12T07:35Z,"Smooth install. No need for safedisc. Mounted with Daemon 4.03HE, XP Pro SP2. The save with 3 other Anatomy Primal CDs. Thank U, ulysses56!"
+,haroo,2007-05-20T12:51Z,"I too was having lots of trouble getting these programs to work, but i think i have found the solution.
+
+For some reason, using daemon tools 4.08 only allowed me to run discs 2,3,4,5,8 and 9, but by installing the older version daemon tools 3.47 (this is available from the website), i was able to get the whole series working by mounting the .img/.iso file with safedisc emulation (missing files torrent is not neccessary). Hope this helps others having trouble.
+
+also to those who dontt like the files taking up their hard drive (neither do i) just burn all the files onto one disc using nero express (so that the .iso/.img files remain as .iso/.img files) and run the programs through daemon tools directly off the disc. abit slower but saves space:)
+
+A huge thanks to ulysses56 for these! I highly recommend these programs, they have helped me hugely with my studies as a med student
+"
+,razory,2007-09-05T22:03Z,"hi everyone,i'd really love to download 3d Anat.series,im a med studnet and this would be really helpfull to me.Im not so good with comp.so i'm afraid if i dowload this i wont be able to run it anyways since i've red some comment about not being able to run the cd's.
+So pls if anybody can tell me for sure that he/she successfully installed these CD's i'd be glad.thanks"
+,pentiumer,2008-02-22T09:44Z,Wow.  I have been using Internet and computers for last 16 years.  This is the best use of computers and Internet so far. (I hope it works.)  Thanks Ulysses56!
+,sexy-beast,2008-02-26T14:30Z,"hey guys, everytime i try to run this program i get an address volation, can anyone help??"
+,Ishanka,2008-02-27T13:30Z,"PLEASE HELP!
+
+I first mounted this IMG file with MagicDisc and installed it but then I got this error:
+
+========================
+Cannot locate the CD-ROM
+Please insert the correct CD-ROM, select OK and restart application.
+========================
+
+So I made an ISO with MagicDisc and burned it to CD using Nero Express. And now when I run the headneck.exe in my hard disk with the CD in my CD-ROM drive I get this error:
+
+===========================
+Primal Pictures Application
+Primal Pictures Application has encountered a problem and needs to close. We are sorry for the inconvenience
+If you were in the middle of something, the information you were working on might be lost.
+For more information about this error, click here.
+===========================
+
+So when I click on ""click here"" I get this:
+
+===========================
+Primal Pictures Application
+Error signature
+ AppName: headneck.exe    AppVer: 3.23.00   ModName: ~df394b.tmp
+ ModVer:0.0.0.0   Offset: 0004e8ed
+
+To view technical information about the error report, click here.
+===========================
+
+So when I click on ""click here"" I get this:
+
+=============================
+Error Report Contents
+---> a long list of info "
+,mojitor,2008-04-16T12:40Z,":)!! I just managed to get primal anatomy working, it's absolutely fabulous. I was just wondering, isn't there some kind of risk of getting caught with this downoading. After all it's a multi thousand dollar application that we get off the internet. No feelings of guilt here however!"
+,ggteaca,2008-06-20T15:03Z,"Thanks ulysses56, most of these programs work. I have tried 4 thus far on they work. I am getting butt cramps though so I will take a break from sitting at my desk but I think the rest should work if no problems. It takes a bit of manipulation with the different tools(daemon and sickclean etc) out there that's all. Thanks I am a very happy medical student now. :)"
+,drneshu,2008-09-16T19:35Z,"downloaded it today, gr8t upload, thank u very much.
+it works fine, used daemon tools"
+,bobmarley2,2010-10-25T21:47Z,"So how have people got this to work.  Done everything that LordP666 said and still can't get the program to find appsetup.txt.
+
+Is there another way???  Would love to get this working"

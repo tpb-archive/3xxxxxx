@@ -1,0 +1,72 @@
+﻿User Type,Username,Date,Text
+,NeoEndymnion,2006-07-30T00:55Z,"I have this, but it won't install. It says it has an error and needs to close every time. Anyone know why?"
+[T],WinstonSmith6079,2006-07-30T09:06Z,Dunno.  It installed fine on my system.
+[T],WinstonSmith6079,2006-09-02T13:09Z,Try bypassing the splash-screen by double-clicking '{CD root dir}\Install\SETUP.exe'.
+,jordan81,2006-12-17T14:39Z,what program do you use to decompress the bin file.  what do you do with the bin file?
+[T],WinstonSmith6079,2006-12-18T14:03Z,"You don't decompress it.
+
+Use such as Nero or (better yet) Alcohol 120% to open the .CUE file with.  The .CUE file will ""cue up"" the .BIN file which is the virtual CD-ROM in a file.
+
+If you use Alcohol 120%, you can burn these files to a blank CD, or you can use the files (virtual CD-ROM) from your HD on a virtual DVD & CD drive that Alcohol 120% creates.
+
+It's not as hard as it seems, and is quite easy, really hehehehe"
+,Bo Rock,2007-05-28T14:33Z,"Can someone seed this ?
+
+28 maj  2007......."
+,Bo Rock,2007-05-29T12:36Z,"I am seeding this now.....
+
+Can someone seed  pack 2,,,ground zero  ???"
+,GrizzlyG88,2008-03-11T00:44Z,"I'm unable to install as well, InstallShield(R) experiences an APPCRASH whenever I try. Splash screen doesn't screw it up or anything. 
+
+I'm wondering if I could use a different installer to get the deed done."
+,GrizzlyG88,2008-03-11T01:44Z,"If anyone knows of a different way to install and then play the game, please share here. I hope that I can play this as I had been wanting to for over half a dozen years."
+,riplikethat,2008-05-16T22:27Z,"Yup. I can confirm the crash as well. No matter how you start the setup (from autorun or direct setup with compatibility on) it crashes the moment Installshield wizard starts.
+
+I can run Quake 2 fine on XP x64 and it's funny that it won't install the expansion which was released after the game on the same system. Probably will have to go back to win 98 for this :P"
+,AxE4EVER,2008-05-31T00:46Z,"i usually copy the pak0 from it, put in \xatrix then write a parameter in shortcut +set game xatrix. i also had the same problem with ground zero but this way it worked for me"
+,Pulsar_11,2008-06-01T19:09Z,"To manually install the game (necessary if the installshield keeps crashing)
+Do the following. 
+1) Double-click the My Computer icon. 
+2) With the game CD in the CD-ROM drive, right-click on the game CD and select Explore. 
+3) Double-click the Data folder. 
+4) Open the ALL folder and copy the contents of the ALL folder into the C:\QUAKE2\XATRIX folder. 
+5) If you do not have a C:\QUAKE2\XATRIX folder, you will need to create one manually. 
+6) If asked to overwrite the gamex86.dll file, select Yes. 
+6) Download and install the Quake II 3.20 patch from our website.This is absolutely required. 
+7) From the expansion disc, open the Data\Max folder and then open the Xatrix folder. There will be a video folder. 
+8) Copy the video folder to the C:\Quake2\xatrix folder. 
+9) There should now be a Docs and Video folder in the xatrix folder. There should also be a gamex86.dll and a pak0.pak file. 
+10) After successfully ""manually"" installing the Mission Pack, Click on the Start button > Run and type in: 
+
+C:\quake2\quake2.exe +set game xatrix 
+
+This will load the Mission Pack. If your Quake II is located in a folder other than C:\quake2, then substitute the proper location when running the Mission Pack. 
+
+or create a shortcut for the quake2.exe and then right click on it and go to properties. 
+
+In the target line make sure it looks like this: 
+
+C:\quake2\quake2.exe +set game xatrix"
+,Dadoslandes,2008-06-19T20:57Z,"I have another good option.
+
+Create a shortcut to {CD root dir}\Install\SETUP.exe, activate and change the compatibility mode to ""Windows 95"". Then, run the shortcut.
+
+Worked fine for me."
+,zarathustra2k1,2008-08-03T23:20Z,"I have the originals, & came across this torrent by searching for the solution to the XP crashing syndrome.
+
+I can happily confirm that opening the folder containing the setup.exe, & right-clicking & selecting 'Properties', then selecting run in 98/ME compatibility mode allowed this (AND Ground Zero) to be installed correctly.
+
+Thanx for the help.
+
+zar =]"
+,xenith800,2009-12-15T00:26Z,"downloading this now is gruesomely slow, at about 15 kB/s "
+,BAunderground,2010-05-19T08:02Z,"I dunno why but I'm completely spacing out on this one...
+
+They're coming up as VLC media files so I've tried mounting them using magic disk, but if I try either of them they just open up to another file, something like ""?€??`? ?°?À?Ð?à? ?ð?"" and it says I may not have permission to access them whenever I try opening them... Should I just burn both files to a disk or what? I am at a complete loss and feel pretty stupid..."
+,BAunderground,2010-05-19T09:03Z,lol nevermind... turns out it doesn't work unless you burn it to a cd. Sorry for sounding retarded
+,vjs310,2011-01-06T11:32Z,"I've downloaded Q2 ""The Reckoning"" and get a .bin file and a .cue file.  I use Nero to create and image disc that doesn't open so I tried copying it to a CD.  Now all I've got is the .bin & .cue files on a CD.  Can anyone help a total novice at this with how to get this all to work.  Really, it needs to be step by agonizing step.
+
+Thanks
+vsj310"
+,liam1997,2011-07-10T22:39Z,"When I try to install the maps, a message comes up saying I need the full version of Quake 2, even though I have the full."
+,popovichh,2012-07-05T13:16Z,"Thanks mate, seeded back to ratio of 1. Cheers!"

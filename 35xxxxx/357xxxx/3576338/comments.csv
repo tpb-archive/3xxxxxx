@@ -1,0 +1,259 @@
+﻿User Type,Username,Date,Text
+,ash9696,2006-12-14T01:55Z,"exactly how did u get this game to work? 
+i have been trying for 4 friggin days"
+,illlili,2006-12-14T02:57Z,"man i was stumped too..
+
+heres what to do.. 
+
+(btw i uninstalled and all to make sure this is accurate)
+
+this guide is retard proof.....
+
+using winrar...
+
+1. open rainbow six filder highlight the first unl-rb6v.rar  then click 'extract to' icon... 
+
+2.  extract wherever you like,  for this guide i extracted to desktop..
+
+3.  using  deamon tools with all opt's enabeled mount your .mds file (the smaller file!) and install....
+
+4. run yasu.. it should tell you that your virtual drive is now hidden, click ok..
+
+5. from start menu run the game!
+
+6. realize you need an 8800 series card!!!!
+
+"
+,ash9696,2006-12-14T03:07Z,"i will try it and let you know.
+if it doesn't work then i think the problem is with yasu. tells me that it has hidden stuff from safedisc 4 but was unable to find anything to hide from securom 7x........"
+,illlili,2006-12-14T03:18Z,"i had the same problem you are having... you need to be mounting the smaller mds file... not the mdf..  you must extract the initial rar file to get both the mds and mdf...  im willing to bet that all you had been seeing was the larger mdf file. correct?   the mds file is the translating file, the mdf is the bootleg source."
+,illlili,2006-12-14T03:27Z,i apologize for the capped 100 KB/s up
+,ash9696,2006-12-14T03:55Z,"Still doesn't work
+goes to the update window and doesn't find one, the the icon turns into a spinning cd. then another window comes up that says ""conflict with emulation software""
+i have mounted the mds file and it does that still"
+,ash9696,2006-12-14T03:59Z,"windows vista ultimate
+
+amd athalon 3800+ dual core
+g-force 6600 256 mb
+2 gigs of ram
+
+yasu 1.04
+daemon tools 4.06
+
+i have no other emulation software installed"
+,illlili,2006-12-14T04:00Z,rerun yasu.. let me know
+,ash9696,2006-12-14T04:27Z,"Y.A.S.U had found and hidden devices from SafeDisc 4.x.....
+Y.A.S.U was unable to find any device(s) to hide from SecuROM 7.x.....
+
+...to restore your device(s) either re-run Y.A.S.U or restart your computer."
+,illlili,2006-12-14T04:34Z,"open ""tom clancys rainbow............""
+
+right click first rar file ""unl-rb6v"" chose 'extract files'
+
+chose destination...
+
+using deamon tools mount r6vegas.mds
+
+if you havnt already installed, install.
+
+when complete run yasu... yasu should ""found and hidden devices....""   click ok
+
+re run yasu until you see this message if you didnt the first time..
+
+now start-programs-ubisoft run the game!!!
+
+
+
+DO NOT download any updates until you find a no-cd
+"
+,ash9696,2006-12-14T05:37Z,"and how long am i supposed to do this for?
+
+run and re-run yasu till it hides from securom 7
+
+been doing it over and over for an hour now and still nothing"
+,ash9696,2006-12-14T05:44Z,"o.k FUCK IT!
+i give up on this piece of shit i will wait for a no-cd
+4 days almost five now is too much for me........."
+,ash9696,2006-12-14T09:40Z,"MiLeS : Look i have done exactly what you said....
+
+followed those 5 easy steps to a tee, and it still will not work.
+i uninstalled everything! then re-installed everything! and still no worky worky
+
+did your Y.A.S.U tool say it found devices to hide from SecuRom 7 x...     ??????"
+[T],Knaster,2006-12-14T13:15Z,"You can also try Securom Loader 1.2 after yasu. That works too, atleast for me!"
+,T[!]kki,2006-12-14T14:21Z,Hey Guys. will a Nvidia Gforce 7800GS work with this game??? 
+,RawSnake,2006-12-14T14:28Z,I just mounted installed and ran yasu (still with the mds mounted) and then just played. And dont know if daemon tools 4.08 makes any difference from 4.06 but thats what i use with all emulation options on.
+,omega55,2006-12-14T15:32Z,hey assholes lets seed this a little ok?
+,pro50mustang,2006-12-14T17:02Z,"Couldn't get the game to work with yasu either, game would start to load then would crash with unrecoverable error.  MAKE SURE YOU GUYS DON'T DOWNLOAD THE VEGAS CRACK 1.79MB IN SIZE, IT IS A PW STEALER..YOU'VE BEEN WARNED."
+[T],Knaster,2006-12-14T18:05Z,there ARE no crack yet
+,sunchild023,2006-12-14T18:56Z,"Varför står det: Yasu had found/hidden Safedisc, Yasu was unable to find7hide Securom 7 ???? För sedan när mankör spelet så står det: En obligatorisk säkerhetsmodul kan inte startas (7000)......"
+,penis123,2006-12-14T20:48Z,"uhm guys, I'm just wondering if anyone knows about a fixed image for the patch. because the game crashes in the same place everytime."
+,minapengar,2006-12-14T21:17Z,"fuck I blew it, i installed patch lol 
+CUNT!"
+,Konsulten,2006-12-14T22:34Z,I only get it to work with Daemon tools 4.06...
+[T],Knaster,2006-12-14T23:56Z,im running it with daemon 4.08
+,ciracara,2006-12-15T00:01Z,"i need a mds file , could someone please post it ?"
+,TmS86,2006-12-15T01:23Z,"Can someone help me please?
+First i want to say tanks to all the step by step. because i downloaded the update.. then it wont work.. i u dont do that the game starts! :) 
+But my game wont go past ""Loading"", it says an unknown error happend. I've tried several times and every time it happends.. someone here that could help me please? "
+,ash9696,2006-12-15T04:16Z,"MiLeS
+
+mine says 
+
+yasu has found and hidden devices from safedisc 4x....
+
+yasu was unable to find any devices to hide from securom 7 x......
+
+click ok blah blah blah
+
+any body know what the cause of this is and how to fix it?
+i do not have any traces of blindwrite or alcohol 120 on my pc
+i am using daemon tools 4.08 
+i have used daemon tools 4.06 and it had the same effect WHICH IS NOTHING
+7 days now i have been trying over and over and over"
+,YuberEightFold,2006-12-15T05:08Z,"HMm.. I tried both Daemon 4.08 AND 4.06
+
+YASU said it hid some drives from Safedisk 4 but nothing was found for Securom 7. Just like what others are experiencing. SO it means mine didn't work.
+
+
+But hold on, i have my yasu.exe in my desktop, is it supposed to be somewhere else? or should it be working properly anywhere else?"
+,ash9696,2006-12-15T10:32Z,"YuberEightFold:
+
+for me it does not matter where it is, if it is on the desktop, in the same download folder as the game,in program files etc....."
+,suprasupra,2006-12-15T13:55Z,Please SEED! 
+,rrodger99,2006-12-15T16:04Z,"Works for me.
+
+Mount, install run YASU and play.
+
+The trick is to NOT launch the game with R6Vegas_Launcher.exe, instead launch it with R6Vegas_Game.exe.
+
+If you have alredy done it with the launcher, you will need to uninstall, run a registry cleaner & then reinstall the game."
+,Metal_Micke,2006-12-15T18:23Z,It really sucks that you need SM3.0. I only got 2.0 :(
+,YuberEightFold,2006-12-15T18:54Z,@rrdodger99: Where can i Find a registry cleaner?
+,illlili,2006-12-15T18:58Z,"sombody want to help me seed!?!?
+
+j/p sorry for the slow up, what % are you guys at with the download?   thanks!
+
+
+
+also what video cards and hardware setups do you guys have who are playing this game?
+
+it runs like crap for me, had to order an 8800gts
+
+current setup is..
+
+p4 3.6
+2gb ddr2
+6800 ultra
+raid0 on 10k raptors"
+,illlili,2006-12-15T19:02Z,"@YuberEightFold 
+
+just regedit - local machine- software - righ click delete ubisoft.. 
+
+then reinstall
+
+this also works if you accidently download the updated game patch "
+,suprasupra,2006-12-15T19:30Z,"Please Seed! I download with only 30 to 60 kb/s!
+SEED!"
+,YuberEightFold,2006-12-15T19:35Z,I dont see Ubisoft under Software... =(
+,penis123,2006-12-15T19:55Z,"stooooop capping you upload speed!
+and seed plz, i'll seed every night"
+,YuberEightFold,2006-12-15T20:20Z,"Hmm. It seems when you uninstall the game, the Ubisoft registry files also gets deleted so i dont think the ubisoft registry contains the black listing. Yasu still doesn't work for me as it said it didn't find anything to hide from securom 7 but it DID hide something from Safedisk."
+,illlili,2006-12-15T20:43Z,"did you look under each software section in the registry?  ive reinstalled and deleted reg keys each time..  the local machine might not be right for you, i havnt restarted my box since i started seeding 3 days ago, so my key might have been in a diff spot...  try current user - software... 
+
+how close is everybody do downloading the file? what %??"
+,ash9696,2006-12-15T22:27Z,"YuberEightFold, I am having the same problem with yasu as you are. i am using vista, but i don't think that is the problem.i have been trying everything i can thinik of and every suggestion i have been given but still can't get it to work......
+
+this is the most frustrating game i have ever tried to get started, it makes no sense as to why it works for 99% of the peeps who have it......
+but for peeps like us ? WTF?!!!
+please let me know if you get it working and how"
+,Fenk@,2006-12-16T00:35Z,"Put the YASU-file in same folder as ""R6Vegas_Game.exe"" is located and then run YASU.
+
+Worked for me....
+
+- AMD Athlon XP 3200+ (2.2GHz)
+- 2 Gb RAM (2 x 1Gb)
+- nVIDIA XFX GeForce 7800GS 256Mb eXTreme Gamers Edition
+- 2 x 74Mb 10000rpm Raptor (RAID0)
+- Logitech G5 Laser Mouse
+- Logitech G15 Gaming Keyboard"
+,YuberEightFold,2006-12-16T05:22Z,"I also put my YASU along with the R6vegas_game.exe, still doesn't work.
+
+BTW, im not using Vista, I was also reading earlier post. It seems i have BlindWrite installed. Does this affect YASU or something?
+
+BTW, i have found the Ubisoft in regedit under local_machine -> Software but it was only there if the gae is installed, it goes away when you install the game."
+,penis123,2006-12-16T10:29Z,"it used to work for me, but it crashes on one place. think something's wrong with the MULTI5 dvd. because some file's were missing during the installation..so : /. have to download this too..."
+,penis123,2006-12-16T10:31Z,"and, I run the game smoothly with; 
+-X1900XT
+-AMD 4200´+ Manchester
+-2048 GB ram
+-and some crappy disks"
+,suprasupra,2006-12-16T11:13Z,"Why am I downloading with only 30 kb/s?
+Is it any settings I should do to make my download speed faster?"
+,Yobo1987,2006-12-16T13:02Z,"Put or let yasu.exe be in the folder tool that is in the download section where the game is downladed to. It should be together whit unl-rb6v.yasu.sfv in order to work. 
+
+I have get tha game to work and when i installed it i got green checks at the ""see if your computer can handle the game"" I have the highest graph and everything else on the highest possible and the game dosent lag. But the graphic is messed up. Everything exept the background gets trancperent. Any 1 knows why? any 1 have that problem? If the game should lag it would be becaus my computer cant handel it but acording to the green checks it can... So PLZ help. And im helping u to seed. Otherwise..."
+,Marxist,2006-12-16T14:37Z,i ve read that you need GF8800GTS to run it on full graphs with no problems
+,suprasupra,2006-12-16T19:28Z,"the game crashes every time i play it...
+what shall i do to make it work normaly?"
+,justren,2006-12-17T00:43Z,"The mds is located in the last .rar file, for anyone who wants to know. The securom error comes up because you mount the mdf instead of the mds. I had the same problem :)."
+,Yobo1987,2006-12-17T08:37Z,"Well it dosent lag, averything just gets transperent. I have the exact problem whit double agent too."
+,pdrx,2006-12-17T14:23Z,can you ppl seed ffs!! i only have 1kbs! omg!
+,SeedOfEvil,2006-12-19T02:43Z,just 6 seeders? comeon people.... *sigh*
+,jon_melon,2006-12-19T18:35Z,16 seeders........and i have one whyyyyy?!
+,jon_melon,2006-12-19T18:36Z,"maximum 30 kb/s, it's always like this when i download something from this crappy site....MAAAAN."
+,penis123,2006-12-19T21:04Z,"damn guys, decided to buy the game. now it works...
+sorry for defecting :P"
+,RawSnake,2006-12-21T02:41Z,With the new version of yasu (1.05) you can play it even after patching the game :)
+,Pete_nebraska,2006-12-24T21:38Z,"Hey guys... I can't extract the files, it says i don't have enough disk space, but i have like 150 gig.... this is the message i get: write error:only NTFS  file system supports files larger than 4 gb. what can i do?"
+,gllmd,2006-12-25T12:46Z,"can some one tell when no-cd comes, how long it usually takes?"
+,SamSteal,2006-12-30T22:09Z,"For Vista users: Run YASU as administrator. (Right-click)
+
+
+
+Win."
+,i8sme,2006-12-30T23:36Z,thnx for the help it work fine fro me.going to enjoy many hours of this game now..thnx again for the help & the one who posted this torrent
+,Halbermunken,2006-12-31T17:13Z,Bah. Get an error that there's something wrong with dx9.1dll or something despite that I have a fully functional x1900xt with the latest non-beta drivers.
+,TheLithium,2007-01-01T21:28Z,"This is how I got the game to work.
+
+1) First I uninstalled Alcohol 120% and PowerISO, both programs creates fake CD/DVD devices. The only ""fake divice program"" you should have installed is the latest version of Daemon Tools, (4.08).
+
+2) I then ran YASU 1.04, (included in this release).
+
+3) After that I monted the .mds file with DT and turned all emulators on. (Right click on icon -> Emulators).
+
+4) The game will install just fine.
+
+5) I then went into the Programs->Ubisoft->Tom Clancy's Rainbow Six Vegas->Binaries dir and ran R6Vegas_Game.
+
+The game started just fine.
+
+Note: Do not download any new patches, yet!
+
+Also, you should go to Start->All Programs->Ubisoft->Tom Clancy's Rainbow Six Vegas->Requirements Tool and check if your computer is able to run the game."
+,Mortenjan,2007-01-02T21:14Z,"Hello, i think the problem is that you need Admin rights to fix the ""Y.A.S.U was unable to find any device(s) to hide from SecuROM 7.x"" problem.. I just pushed ""Run as Administrator"" in vista and it worked smooth after hours trying to get it work... T
+ry to get admin rights, it may work as it did for me"
+,dkitzman,2007-01-02T21:37Z,alright i see that everyone is having some problems... I did at first too. Make sure that dameon is updated first. then mount the smaller game file install the game run yasu so that it hides the cd and run the game. I have updated and it still works for me. If the it says to use your physical cd rom drive just go into your operating system and disable it. everything should work fine
+,peticsu,2007-01-03T04:56Z,it works with the update but when is someone goin to make a keygen so we can play online?
+,karl500,2007-01-06T09:40Z,"Just install the game & use the No-DVD crack available at
+
+http://thepiratebay.org/tor/3590767/Rainbow_Six_Vegas_PC_Crack.7z"
+,bladass,2007-01-07T12:57Z,pls seed
+,darrenj,2007-01-10T21:51Z,"hello dudes
+THe game installs, the menu works I then start playing and it crahes. I am using this EMUDVD9-unleashed version.
+
+my specs are Core 2 Du0 e6400
+P5B mobo
+1024mb ddra 667mhz ram
+PNY7800GT
+DX9.0c december
+
+this rig runs Double agent like milk!
+
+Do I need to upgrade to 1.02?
+THen the dvd protection kicks in and overides Yasu
+
+help!!!"
+,daneww,2007-01-11T13:53Z,please get more Kb/s !! almost done. want 250kbs please. 30 is to low
+,zkillZor,2007-01-17T19:33Z,Isn't there anyway to play the game even if the computer doesn't fill some of the requirements ? plz answer..
+,insanelogic7,2007-12-27T19:36Z,"dont give up hope... there are a few video options that you can tamper with, like detail of shadows and stuff.  if you put those on low you might be able to run it, aslong as you are somewhere close to the requirements."

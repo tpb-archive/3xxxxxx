@@ -1,0 +1,46 @@
+Changelog:
+* New: Unicode filename and title support
+* New: M3U8 (Unicode) playlist support
+* New: [ml_pmp] Playback now works for playsForSure and Creative NJB devices
+* New: [ml_pmp] "Copy to Library" - transfer songs from any device to your local library (uses CD rip settings)
+* Improved: 24bit EQ support
+* Improved: fullscreen video seekbar
+* Improved: ATF updates
+* Improved: DC filter on spectral visualization, to remove bass bias
+* Improved: [in_mp3] 24bit MP3 playback, 64bit internal precision
+* Improved: [in_mp3] streaming id3v2 support
+* Improved: [in_mp3/in_mp4] 24bit AAC playback
+* Improved: [ml_pmp] Only relevant columns shown in song views
+* Improved: [ml_pmp] "Getting Metadata" now much faster
+* Fixed: Burning files that require resampling
+* Fixed: multiple copies of Winamp when opening too many files/folders from explorer
+* Fixed: freeze when exiting via System Tray icon
+* Fixed: Delay/hang when loading dead stream url's
+* Fixed: [enc_lame] broken vbr presets
+* Fixed: [gen_ff] layerfx not being redrawn on colortheme change
+* Fixed: [gen_ff] gradient drawing glitch and crash
+* Fixed: [gen_ff] custom color themes bug
+* Fixed: [gen_jumpex] hang when suspending or hibernating
+* Fixed: [in_cdda] cutoff of last few sectors
+* Fixed: [in_midi] truncated playback of some MIDI files
+* Fixed: [in_mod] title display bug for module streams with no title
+* Fixed: [in_mp3] crash when editing ID3 tags
+* Fixed: [in_mp3] ID3v2 and ID3v1 Comment & Genre tags shared
+* Fixed: [in_mp3] Inaccurate Time Remaining display for AAC files
+* Fixed: [in_wm] DRM Video playback on certain hardware
+* Fixed: [in_wm] freezeup when seeking a paused wma
+* Fixed: [in_wm] Hang with dead WMV link in pledit in Repeat mode
+* Fixed: [ml_disc] CD ripping / playlist generation bug
+* Fixed: [ml_playlists] losing stream titles
+* Fixed: [ml_playlists] sort by title
+* Fixed: [ml_playlists] Send To from local media to ml playlist replaces instead of enqueues
+* Fixed: [ml_playlists] Enqueue as default broken in left pane
+* Fixed: [ml_playlists] Playlist title > rt-click > New Playlist = broken
+* Fixed: [ml_playlists] tracklength bug
+* Fixed: [ml_playlists] playlist paths issue
+* Fixed: [ml_pmp] Transfers stalling after encountering a dupe
+* Fixed: [out_ds] volume not hitting 0dB when using log or hybrid volume control
+* Fixed: [pmp_ipod] Artist list on iPod not sorting "The" correctly
+* Updated: [gen_jumpex] Jump-to-File 0.97.6
+* Updated: [gen_ff] Freetype 2.2.1
+* Updated: [libmp4v2] MPEG4IP mp4v2 1.5

@@ -1,0 +1,1145 @@
+I've triple checked and I cannot believe that nobody has uploaded the new version of this application.... well crew... here it is!
+
+----------------------------------------------------------------------------------
+dvd2xbox by WiSo
+
+
+
+v0.7.6
+
+- added: remotecontrol.xml to “control” dvd2xbox from another app: http://wiki.ws0.org/wakka.php?wakka=remotecontrol.
+
+  A stripped down skin and a python script to call dvd2xbox from XBMC can be found in the dvd2xbox forum: http://forum.ws0.org/index.php?c=4
+
+- added: support for DHCP (implemented XBMC network layer)
+
+- added: network mode setting. “dash” to obtain settings from dash, “DHCP” to get it from a DHCP server and “static” to use the settings in dvd2xbox.xml
+
+- added: support for usb keyboards. Use it to control dvd2xbox and to write with the virtual keyboard (english layout only)
+
+- changed: the virtual keyboard is only showing the last directory in string now
+
+- changed: pressing B in the virtual keyboard simulates backspace
+
+- changed: the unlocker is disabled per default now since it seems to be the cause of crashes on some boxes
+
+- fixed: two functions former available via the main menu: BLACK to show infos about the inserted XBOX game, BACK to start auto detection of the DVD manually
+
+- skinning: added the attribute “direction” to the text item. The value “vertical” specifies vertical text
+
+- skinning: added new item “shortcut” which let you switch to different contexts without using the main menu
+
+
+
+v0.7.5
+
+- beta: added iso ripper to dvd2xbox. Please note that the raw ripping highly depends on the reading
+
+  capabilities of your DVD drive. Couldn't test it due to missing softmodded box. Any reports are
+
+  appreciated (http://forum.ws0.org/viewforum.php?f=9)
+
+- fixed: added a workaround to avoid screen flashing when switching context
+
+- fixed: limitation of 1024 files and directories in the file manager
+
+- fixed: remap of d: to the dvd drive when started and no disc is inserted
+
+- added: quick scan when starting the game manager
+
+- added: some simple gui sounds
+
+- changed: reboot from main menu does a soft reset now
+
+- changed: text scroller has now pixel based movement
+
+- skinning: added item defaultmenuback for default menu background images
+
+- skinning: added item activexbeicon to show the game save image of the highlighted game
+
+- skinning: added variable mbpersecond to display the average transfer rate in MB/s
+
+- updated PM3 skin (thanks to Jezz_X)
+
+
+
+v0.7.4 bugfix
+
+- fixed: games weren't launched when started via the game manager
+
+- fixed: DVD size might get incorrect if DVD was inserted before dvd2xbox was started
+
+- fixed: ftp server file corruption when transfer files from xbox to PC
+
+- added: simple character based scrolling for text, menu and browser items (not in use yet)
+
+
+
+v0.7.3
+
+Skinners: Please update your skins to use the new option menu in the main menu.
+
+dvd2xbox is sponsored by www.gamefreax.de.
+
+- skinning: added new item dvdxbeicon which displays the embedded xbe title image when a XBOX game DVD is loaded
+
+- added: support for SmartXX V3 and OPX LCD
+
+- added: MP3/OGG to Samba ripping
+
+- added: TheSpecialist unlocker code. This should fix the 11MB video issue which some softmods still have (hopefully)
+
+- added: a shutdown menu to the mainmenu (Reboot,Shutdown,Open/Close Tray, Launch DVD,press Y to activate)
+
+- added: dns lookup. The freedb IP could now also be a hostname
+
+- added: check if the SMB destination directory exists. if it exists a number to the directory name is added
+
+- added: text extensions for the viewer can be choosen in dvd2xbox.xml. Viewer called via the action menu displays all files
+
+- gui: some change to the file manager inputs to have it a little bit more like XBMCs file manager (Trigger for fast scrolling, black to open the drive menu, white to open the action menu, A to start xbe's and view text files, B to navigate one folder up, Y to highlight files)
+
+- fixed: Video DVD->SMB and ISO->SMB copy was broken
+
+- fixed: video replacement during copy GAME -> SMB
+
+- fixed: fileprogress greater than 100%
+
+- fixed: emergency key combo (LEFT+RIGHT TRIGGER + Y) sets the skin back to the right default skin
+
+- fixed: null byte files failed to copy via SMB
+
+- skinning: dvd2xbox checks for the file startup.xml to ensure a dvd2xbox skin
+
+- skinning: alignment for text and menu items <align>right</align> (left,right,center)
+
+- skinning: updated Project Mayhem III skin to the newest version
+
+
+
+v0.7.2
+
+- added: possibility for more than 1 samba share in dvd2xbox.xml ( Feature Request FT543 )
+
+- added: XBMC autodetection feature. dvd2xbox detects XBMC ftp server and vice versa
+
+- added: virtual keyboard to SMB copy to change destination directory ( Feature Request FT580 )
+
+- added: ACL delete/move/skip disabled per default. Can be controlled via the settings menu
+
+- added: function to replace xbox game videos (bik,sfd,wmv,xmv) by blank files. Disabled per default, can be enabled via the settings menu 	
+
+  ( Feature Request FT450, blank videos are in the dummyfiles folder )
+
+- added: implemented DVD/CD detection in another thread
+
+- added: dialog which warns in copy mode if no disc is inserted or disc is still being detected
+
+- added: copy retry and read retry functions
+
+- fixed a bug in the failed copy retry function which could crash dvd2xbox in certain cases
+
+- fixed a bug in the deletion function which could crash dvd2xbox when there's more than one file or directory selected
+
+- skinning engine: added vspace tag to menu and browser item to define the vertical pixel distance. If omitted the font height is used ( Feature Request FT543 )
+
+- skinning engine: added widthpx for the browser and menu items
+
+- skinning engine: added possibility to show “scrolling arrows” for file manager, disc drive dialog and game manager
+
+- skinning engine: fixed dialog “no games found” not shown in game browser
+
+- skinning engine: fixed a bug where the highlighted bar seems to be always behind the text when using fast scrolling
+
+- updated Project Mayhem III skin to the newest version
+
+- removed the old dvd2xbox theme because it is not longer supported
+
+
+
+Skinners please update your skins otherwise they'll break dvd2xbox.
+
+Another new skin of Jezz_X called Vista can be found at the usual places and in our forum http://forum.ws0.org/viewforum.php?f=14.
+
+Many thanks to Jezz_X and fan for all the support they gave me and to www.gamefreax.de my new sponsor.
+
+
+
+
+
+v0.7.1
+
+- fixed skinning function in game manager: relX,relY now working for menu 2222 ( Bug Report FT440 )
+
+- skin engine: fixed ${fileprogress} and ${allprogress} no filled with the percentage for the actually file copied and the whole disc ( Bug Report FT496 )
+
+- updated to XBMCs libdvdcss version 1.2.9
+
+- fixed ACL function RM. Now supports placeholders ? and *. Example: ${DEST}\fo?.x* ( SF#1184873 )
+
+- file manager: action menu also available via START
+
+- skin engine: added startup.xml for the startup screen
+
+- added screenshot functionality (press left thumbstick)
+
+- skin engine: added widthpx for the text item to specify width in pixel
+
+- added support for the remote control ( Feature Request FT443 )
+
+- fixed a bug in the ftp client which causes copy failures when copying dvd2xbox->dvd2xbox ( Bug Report FT488 )
+
+- added ACL files: The Incredible Hulk:Ultimate Destruction and NBA Inside Drive 2004 (NTSC)
+
+- added new Project Mayhem 3 skin by Jezz_X as default skin now - Original graphics by Chokemaniac
+
+
+
+v0.7.0 
+
+Second bugfix. No need to update if you're using the existing skins.
+
+- fixed relX/relY not working in game manager and submenus of the actionmenu.
+
+- added delay for memory calculation to avoid distorted text.
+
+- added Jezz version of the Projekt Mayhem III skin (not the default skin yet, enter the settings to activate it).
+
+
+
+
+
+v0.6.9
+
++ updated to tinyxml 2.3.4 to fix special character issue in skins
+
++ added possibility to set y position of the virtual keyboard
+
++ item text of main menu and action menu now changeable (settings menu will follow later)
+
++ fixed some smaller bugs in the skinning engine 
+
+
+
+Since no major bugs of the skinning engine were reported I see it as stable. 
+
+Visit the skin forum http://forum.ws0.org/viewforum.php?f=14 for examples of the first skins.
+
+
+
+
+
+v0.6.8 the "pimp my app" release
+
++ simple skinning engine
+
++ fixed a crash when selecting LCD and "use lcd" is turned off
+
++ fixed a filemanager memory leak
+
++ changed CDDB ip and fixed the exception handling 
+
+
+
+The skinning engine is still beta and this version should only be used by those who wanna play with the dvd2xbox look and feel. Look at 
+
+the default skin for examples. I'll try to get a documentation ready soon so please have a look in the wiki for updates. If you encounter 
+
+problems with a new skin press left+right trigger and Y together in the main menu to activate the default skin.
+
+I hope to see some new skins in the future. Please post it and bugs in the dvd2xbox forum at http://forum.ws0.org/index.php?c=4.
+
+
+
+
+
+v0.6.7
+
++ fixed a bug in the fatx renaming function which could crash dvd2xbox with certain long file names
+
++ speed up directory browsing for directories in the file browser (especially for ISO9660 CDs)
+
++ buildin ftp server checks now for fatx conform filenames and renames it if needed
+
++ reduce memory consumption by decreasing the background image size to a power of 2 (512x256)
+
++ completly rebuild the settings system. added some more settings for the LCDs
+
++ added a option to disable LCD scrolling
+
++ some disc copy optimizations
+
++ fixed a bug where dvd2xbox stated zero bytes vob as "failed"
+
+
+
+Known issues:
+
+- cddb request not working. Stick on a older version if you need it.
+
+
+
+v0.6.6
+
++ fixed the virtual keyboard texture issue
+
++ added extra cursor scrolling for the virtual keyboard. Press the triggers for character based scrolling and the left
+
+  thumbstick for fast scrolling.
+
+
+
+Sorry for the bunch of bugfixes but less time less tests. Report all bugs to X-S or the dvd2xbox forums.
+
+
+
+
+
+v0.6.5 
+
++ hopefully fixed the X3 backlight being to dark.
+
+
+
+Thanks to SniperKilla and morpheus26441 for reporting the bug and testing. Unfortunately one reports it works the other that
+
+it doesn't. Please test and form your own opinion.
+
+
+
+
+
+
+
+v0.6.4
+
++ added support for X3 LCD
+
++ LCD: fixed '\' being 'ö' and some other character issues on X3 and SmartXX
+
++ LCD: fixed text flickering
+
++ LCD: redesigned some output
+
++ added a simple screensaver (not configurable yet, active after 2min, use dpad or buttons to deactivate it)
+
++ main menu now browseable
+
++ added bitmap display for each item on the main menu ( background and item icons are simple bitmaps which can be easily 
+
+  replaced, redesign not final yet, more to come)
+
+
+
+Note: Installing this release will set all dvd2xbox settings to its defaults.
+
+Thanks to www.rokey.net for his smooth metal icon set.
+
+
+
+
+
+
+
+v0.6.3
+
++ fixed a bug with game not shown in the gamemanager if the titlename is emtpy.
+
++ fixed a bug which shows "path already exists" when choosing the destination dir and the current game title has no titlename.
+
++ fixed a bug which shows a blank text box when renaming directories which contain a default.xbe with no titlename.
+
++ fixed: enabled back button in xbe info screen.
+
++ added: change led color to reflect ripping status (orange ripping,red error, green done/idle). You can enable/disable it via
+
+  the settings menu (default is off).
+
++ removed the entry «patch media check 1/2» from filemanager as ACL processing provides the same function.
+
++ added xbmc's filezilla ftp server. enable / disable it via the settings menu (default is off).
+
++ added configure option for naming ripped cdda tracks (see dvd2xbox.xml for more).
+
+
+
+Note: Installing this release will set all dvd2xbox settings to its defaults.
+
+
+
+
+
+
+
+v0.6.2
+
++ added a hdd auto detection for f: and g:. Set autodetectHDD in the XML File to 0 to disable it.
+
++ updated to the current libcdio of xbmc.
+
++ changed the samba config to have it similar to XBMC.
+
++ fixed copy mode for plain udf discs.
+
++ fixed a bug in the full ISO/VCD/SVCD -> SMB copy routine.
+
++ changed the rename function to use the relative path rather than the absolut path.
+
++ file manager: added support for samba share.
+
++ file manager: create directory, copy file/dir, delete file/dir and rename file/dir are now fully 
+
+  working with FTP/UDF/SMB
+
++ beta: added a simple game manager where all your games are listed. There you can start the games,
+
+  delete it, delete only the savegame or delete all. Configure the pathes where to search for games
+
+  in the dvd2xbox.xml. Add there additional directories between the gamedir tag.
+
+  Remember the gamemanager is still beta. Report all bugs related to it and the rest of the aaplication
+
+  on xbox-scene.com or via the sourceforge project page.
+
++ added some startup info texts.
+
+
+
+v0.6.1
+
++ fixed the copy retry function and added support for ISO9660 and Video DVD.
+
++ added log texts for CDDA ripping.
+
+
+
+
+
+Not all planned changes found their way in 0.6.0 but anyway, enjoy the new release and as usual report all bugs
+
+to me at forums.xbox-scene.com or the sourceforge project page.
+
+
+
+v0.6.0
+
++ started to rewrite the underlaying file reader/writer classes (udf,dvd,iso9660,ftp)
+
++ ISO: fixed a memory leak in the ISO9660 copy module
+
++ DVD: fixed the long key crack time when copying .vob files
+
++ DVD: added cache for storing title keys
+
++ DVD: removed title crack method per default and let libdvdcss decide
+
++ FTP client: fixed a few bugs
+
++ Added the newest samba library from xbmc
+
++ replaced simplexml by tinyxml
+
++ added a lot of comments to dvd2xbox.xml
+
++ added a xbe information page to the main menu (press black to obtain informations about the inserted game)
+
+  and to the disc browser (use the action menu to obtain informations about any xbe on hdd)
+
++ added a new ACL function called SR (set game region). The syntax is similar to SM (set media). See dexbe
+
+  for allowed region settings. Default is all regions for all xbe's (SR|*.xbe|00000007|)
+
++ fixed ACL processing for multiple selection in disc browser (SF1042562)
+
++ fixed logfile writing when calling ACL processing manually
+
++ finally added the missing drives (c,x,y,z)
+
++ all ACL files from dvd2xbox.xbox-scene.com
+
+
+
+
+
+v0.5.9
+
++ ACL: added possibility to patch NTSC and PAL titles separately. dvd2xbox tries to detect it from the xbox eeprom
+
+  and then searches for [titleID]_pal.acl or [titleID]_ntsc.acl. dvd2xbox uses its standard behaviour if the video 
+
+  standard couldn't be obtained or the pal/ntsc acl file isn't found.
+
++ ACL: added ppf3 patcher sources and the makeppf3.exe binary as ppf2 seems to produces some error in conjunction with
+
+  dvd2xbox (http://www.paradogs.com/pdx_ppf3.htm for more information).
+
++ linked to the newest OggVorbis and Lame libraries compiled by the XBMC team. This almost doubles speed for ripping
+
+  /encoding to ogg and mp3. Kudos to the developer.
+
++ fixed a bug which could cause dvd2xbox to crash while ripping to ogg vorbis.
+
+
+
+v0.5.8
+
++ added a backup retry mode. If for any reason some files failed to copy a window will pop up and ask you
+
+  to retry or to cancel (maincopy mode).
+
++ Testing: added a simple ftp client to the disk browser which lets you copy files from your xbox hdd (only hdd!)
+
+  to a ftp server and vice versa (xbox<->xbox). Supported are basic functions like copy/delete,mkdir and rmdir/file.
+
++ added a simple text viewer. View your logfile directly in dvd2xbox after ripping etc (currently only support for
+
+  files from UDF).
+
++ fixed a minor bug in the rename function (thanks to hubevolution and murdo).
+
++ removed acl.all from processing because it confuses to many people.
+
++ added a new ACL command (see ACLSyntax.txt for more):
+
+  AP - applies patches in ppf format to a file (see http://www.paradogs.com/pdx_ppf2.htm for more info. The win
+
+  binary makeppf.exe is included to create ppf files).
+
++ updated to the newest cdrip from cdex cvs.
+
++ fixed some smaller bugs.
+
+
+
+Note: the ACL files changed. Remove your old copy and replace it by the files provided with this package.
+
+To all ACL writers: the SM operation needs to be done in every acl file from now on due to the removal of the 
+
+all.acl file.
+
+Sorry if there're some bugs left but I don't have much time at the moment. Just report them to xbox-scene.com
+
+and I'll try to fix them in the next version.
+
+The Webpage will be updated when the ftp is back.
+
+
+
+
+
+v0.5.7 bugfix
+
++ fixed the negative progress bar issue and freezes which may occur with it.
+
+
+
+v0.5.6
+
++ added possibility to rip to WAV. dvd2xbox now supports audio cd ripping to WAV, Ogg Vorbis and MP3.
+
++ added possibility to disable the automatic media change detection in the settings menu.
+
+  Afterwards the media detection needs to be started manually with the BACK button in the main menu.
+
+  This is only useful for those where external drives don't detect the media change. dvd2xbox may freeze
+
+  when you press the BACK button and no media is present.
+
++ changed dumpdir tags in dvd2xbox.xml. You could now add as many dumpdirs you want.
+
++ added basic SmartX and Xenium LCD support. Enable it via the settings menu. (not tested due to lack
+
+  of hardware. Please report bugs/non bugs to me at forums.xbox-scene.com).
+
++ removed auto patching item from settings as it confuses to many people and is obsolete.
+
++ fixed: dvd2xbox freezes after copying more than 50 files with long names (please test it with MotoTrax,
+
+  I couldn't get a hand on it).
+
++ fixed: title editor overwrites the title id which makes game saves unusable.
+
++ small bugfixes and improvements.
+
+
+
+Attention: the dvd2xbox.xml syntax has changed ! Use the xml provided with dvd2xbox and change it
+
+           to your needs.
+
+
+
+
+
+v0.5.5
+
++ added lame encoder for audio ripping. Now dvd2xbox supports ogg vorbis and mp3.
+
++ added a second page to the settings menu for the audio parameters (left/right
+
+  dpad for switching).
+
++ disk browser supports multi select for copy and rename option.
+
++ ACL: added xbe filename caching. *.xbe is much faster now and enabled per default.
+
+  This may fix issue with games that have more than one xbe's which needs to be patched
+
+  (was already default by auto patching mode).
+
++ from 0.5.4 release: added xbe title editor.
+
++ fixed: sticky right disk browser window bug.
+
+
+
+v0.5.4
+
++ ACL: fixed RM command
+
++ ACL: replaced ED and EF by EP (exclude path). Multiple entries are supported.
+
++ Maincopy: added samba client for XBOX game, DVD and ISO mode. ACL processing and auto patching aren't
+
+  supported via smb (Thanks to darkie).
+
++ added a online settings menu and moved several entries from dvd2xbox.xml to it.
+
++ added a option to disable RM command while processing ACL.
+
++ ported newest libdvdcss because it is supposed to fix some bugs on windows platforms. However I still
+
+  got some dvds which aren't properly decrypted. Therefore I changed the decryption to 'title' which
+
+  produces some better results. That's from the readme:
+
+	"title is the fallback when all other methods have failed. It does
+
+	not rely on a key exchange with the DVD drive, but rather uses a
+
+	crypto attack to guess the title key. On rare cases this may fail
+
+	because there is not enough encrypted data on the disc to perform
+
+	a statistical attack, but in the other hand it is the only way to
+
+	decrypt a DVD stored on a hard disc, or a DVD with the wrong region
+
+	on an RPC2 drive."
+
++ moved logfiles to dvd2xbox/logs to keep the game directory clean.
+
++ many internal improvements and bugfixes.
+
+
+
+
+
+v0.5.3
+
++ added changes from 0.5.2 tc1
+
++ moved ACL entries to the acl directory. Instead of having one file with all entries each title got its own
+
+  file (titleID.acl). 
+
++ added all.acl which is processed for each title while default.acl is processed when no titleID.acl file is
+
+  found.
+
++ moved excludeDirs and excludeFiles to the ACL system as items ED and EF.
+
++ improved wildcard searching for RM/SM/HR. See ACLSyntax.txt for details.
+
++ increased xbox native cache. This may improve copy performance for some XBOX games.
+
++ ACL processing could now be started over the action menu any time you want.
+
++ some minor changes to hdd browser.
+
++ changed video dvd copy mode. the dvd key is only calculated once now. However there're some issues with some
+
+  titles not decrypted properly (Alien copied in less than 15 minutes and decrypted, TNG EU via hdd browser not decrypted).
+
+
+
+
+
+v0.5.2tc1/tc2
+
+This build is supposed to be a test candidate for those who have crashing problems with dvd2xbox
+
+while pressing A in the main menu.
+
+The archive contains two builds:
+
++ default.xbe	tc1
+
++ default.xbe_tc2 tc2 without title image
+
+
+
+Use tc2 if you've also problems with tc1. If this helps the code will be merged in the main branch
+
+otherwise other tc builds will follow (but probably not before new year). Sorry for the inconvenience
+
+but this is needed because I can't reproduce the crash issues.
+
+Please post your findings at xbox-scene.com.
+
+
+
+
+
+v0.5.2
+
++ added: Action Control List (beta). Now you're able to control the post processing for each title 
+
+         using the dvd2xbox.acl file and the titleID. if it doesn't work for you or you do not
+
+         like it set enableACL to 0 and standard patching is used.
+
+         Currently acl supports four commands: SetMediaType,HexReplace,CopyFile and RemoveDir/File
+
+         (see dvd2xbox.acl for more informations and the syntax).
+
+         The acl list can only grow with the help of the community. Test it, add new entries and write
+
+         me if you need new commands or to fix existing ones.
+
+         Todo:  Print more information on report screen.
+
++ added: possibility to take network settings from dash when xboxip,netmask and gateway are empty.
+
++ added: newest ISO9660 sources from XBMC.
+
++ fixed: logfile writing disabled when setting logfile to 0.
+
++ fixed: some smaller bugs.
+
+
+
+v0.5.1
+
++ added a generic patcher interface. put files similar to the adr patcher syntax
+
+  in the patches dir and you can patch any file via the disk browser.
+
++ fixed a bug in the patcher engine.
+
++ added a action menu to the disk browser. now all functions are accessible via
+
+  a drop down menu.
+
++ added config options "excludeFiles" and "excludeDirs". Insert comma seperated
+
+  file and dir names which should be excluded from being copied (for medias which 
+
+  are detected as XBox games).
+
+  Note: leave empty to gain maximum copy speed.
+
++ removed partition checking from iosupport and rearranged the detection class. This 
+
+  may solve the "11mb video_ts" issue which mostly occure with thomson drives (please 
+
+  report to xbox-scene).
+
++ added the XBMC VirtualKeyboard to the main copy module and the disk browser.
+
+  Latter one allows you to rename directories and files. If there is a default.xbe in
+
+  the directory the proposal for the new name is taken from the game title.
+
+
+
+Please report any bugs to http://sourceforge.net/projects/dvd2xbox/.
+
+
+
+v0.5.0
+
+g: drive bugfix.
+
+The g: drive wasn't shown even when enabled due to a typo in the source.
+
+Please test and report.
+
+
+
+v0.4.9
+
++ fixed a bug where ISO files weren't copied in the main copy module (not disk browser) 
+
+  when they're in the root dir.
+
++ fixed a bug where not all encrypted DVDs are decrypted properly (still needs some
+
+  tweaking to prevent css key generation for each vob separately. So dvd2xbox isn't
+
+  crashed it's just generating the keys :-).
+
++ implemented newest ISO9660 sources from XBMC (Thanks to XBMC development and team Avalaunch.
+
+  Seems to be a little slower but much more reliable. The most of my ISO CDs are working now).
+
++ added cdio library for iso9660 and CDDA detection (Thanks to XBMC development).
+
++ incorporated the newest source for lba48 support from XBMC (guys, what would I do without you ?).
+
+  Should fix some issues with larger f:\ drives > 120GB.
+
++ added 'enableFdrive' do dvd2xbox.xml for boxes without f: drives.
+
++ renamed 'enablePart7' to 'enableGdrive' in dvd2xbox.xml.
+
++ fixed a bug where xbox games with a d:\video_ts folder are wrongly detected as video DVD.
+
++ fixed a bug where CDDA tracks with the same first 42 letters overwrites itself.
+
++ fixed a bug where dvd2xbox randomly crashes while counting the XBOX game size.
+
+
+
+v0.4.8
+
++ changed ISO9660 to the newest from XBMC (Thanks to XBMC development and team Avalaunch).
+
++ added fullpath to 'rename file' logging.
+
++ added the percentage as digits to the progress bars.
+
++ fixed a bug where box crashes while copying files (for more information use the search
+
+  on http://forums.xbox-scene.com/index.php).
+
++ fixed a bug where .ogg tracks with too long file names weren't dumped.
+
+
+
+Again a big thank to the xbox-scene community. Keep up the good testing. If you encounter
+
+any other bugs post them in the forum with as much information as possible.
+
+
+
+
+
+v0.4.7
+
+This version is only a bugfix for 0.4.6. It removes the double slash problem and should now copy
+
+all files without problems. Thanks to the xbox-scene community for testing and pointing me to 
+
+the problem.
+
+Supplemental for the 0.4.6 changelog: I removed the copy retries because I agree that it makes
+
+not much sense.
+
+
+
+
+
+v0.4.6
+
+Last holiday update (work starts next week). The new dvd copy module is much more compatible than
+
+in previous versions (older versions wrote vobs in 1GB chunks, current version makes an 1:1 copy).
+
+
+
+Disk browser:
+
++ added support for encrypted DVDs (vob copy)
+
++ made left thumbstick less sensitive.
+
++ added a remove 'read only' file attribute before patching (to patch even files which aren't copied 
+
+  with dvd2xbox :-).
+
++ added window refresh after changing media.
+
++ Helpscreen now always available via black button.
+
++ fixed bug where browser crashes when encounter disks with more than 100 files in one directory.
+
+
+
+Main copy module:
+
++ all main copy modules switched to the new sources (CDDA working again).
+
++ added a 'total' progress bar to UDF/DVD copy module.
+
++ added display of remaining bytes to copy (UDF/DVD) and remaining free space (all types).
+
++ added a copy report which displays files copied,files failed to copy and files renamed
+
+  (GAME COPY + files patched with media check 1 and media check 2 long or short hex string).
+
+
+
+
+
+v0.4.5
+
+Currently I fully reprogramming the app to have it more structured and reliable using classes
+
+and threads. Therefore the obvious changes may be rather small. You may notice that I focus work
+
+on the disk browser. When it's finished the main copy module will also switch to the new sources.
+
+
+
+Disk browser:
+
++ added support for the DVD drive and the following formats: UDF/ISO9660/CDDA
+
++ added copy support for UDF/ISO9660/CDDA. CDDA using CDDB naming. (comment fields are not filled
+
+  for the time being. DVD copy and decryption support will follow in one of the next releases).
+
++ added a progress bar during file copy for UDF/ISO9660/CDDA+encoding using threads.
+
++ fixed a bug which crashes the box when activating partition7 support.
+
++ fixed a bug which crashes the box while copying files with zero size.
+
+
+
+Main copy module:
+
++ added config option to disable/enable the auto eject tray feature.
+
+- CDDA copy module still not working. Please use 0.4.3 instead or copy track wise via the disk
+
+  browser.
+
+
+
+
+
+v0.4.4
+
++ added support for partition7. enable it via enablepart7 in dvd2xbox.xml
+
+  (not tested due to lack of a large hard drive).
+
++ improved visual gui (not through all sub menus due to underlaying architecture.
+
+  Will be done later but has lower priority).
+
++ improved HDD browser. Now gui similar to WinCommander. 
+
+  New features:
+
+  - Copy files/dirs from one partition to another.
+
+  - Show filesize.
+
+  - Show XBE title saved in *.xbe.
+
+  TODO: Support for DVD/CD-R (UDF/Video DVD/ISO9660)
+
+
+
+v0.4.3
+
++ added logfile writing for XBOX DVD and ISO copy mode
+
+  (enable/disable via logfile param in dvd2xbox.xml. for those who can't read so fast. ;-)
+
++ changed set media type from 0x000000FF to 0x400001FF to enable start of app even from
+
+  unlocked hdd.
+
++ added manual media check remover in browser mode. browse your hdd, select *.xbe file
+
+  and press start to patch it.
+
+
+
+v0.4.2
+
++ added freedb support (audio cds are now recognize over freecddb.org and
+
+  the encoded ogg files are named after title and artist. ogg tags are
+
+  also filled in).
+
++ media patcher now checks all .xbe files after the dump (only default.xbe
+
+  was patched in previous versions).
+
++ changed game title folder name parser from alpha numeric to fatX conform.
+
++ added background picture (still not the final one but I don't find an
+
+  image which fits to a file manager app).
+
+
+
+Please use the newest dvd2xbox.xml !
+
+
+
+
+
+v0.4.1
+
++ added 2 phase default.xbe media check (thanks to Xeero):
+
+  first search for the 19 byte string. if found patch it and exit.
+
+  if not found search for the 8 byte string. if found patch it and exit.
+
++ added config tag autopatch to enable/disable auto patching
+
+
+
+v0.4.0
+
++ added iso9660 filename parser (not fatx compliant characters will be filtered out
+
+  and length will be cutted down to 42 letters)
+
++ added <copyretries> to dvd2xbox.xml. choose how many copy retries dvd2xbox should
+
+  accomplish before it fails copying a file (iso9660 and UDF mode, reminds me on old
+
+  Amiga days :-)
+
++ added simple Hdd browser with the following features:
+
+  + delete highlited file or directory tree
+
+  + launch game / app within directories (highlite default.xbe)
+
+
+
+Please use always the newest dvd2xbox.xml file. The current XML parser hangs when
+
+config entries aren't found !
+
+
+
+v0.3.9
+
++ added XBMP iso9660 reader for dumping ISO CDs (thanks to XBMP)
+
+  (a lot of CDs doesn't work but don't ask me why because the code is almost 1:1 taken from XBMP)
+
++ added standard VCD and SVCD to media detection 
+
+  (both dumped via XBMP iso code. same limitations than above)
+
++ Video DVD / XBOX DVD media size calculation now based on counting each file (thanks to BenJeremy)
+
+  (takes a little bit longer but is much more accurate than GetDiskFreeSpaceEx)
+
++ only display warning if DVD media size is greater than free space
+
++ set UDF dump mode as default to try dumping if media detection fails
+
+
+
+v0.3.7
+
++ added display of media size (XBOX app / Video DVD)
+
++ added display of free space available
+
++ added check if dump media fits on hdd
+
++ added title parser which removes non alpha numeric characters from dump dir names
+
++ added progress display to Video DVD ripper
+
++ added creation of favorite dump directories when not found
+
+
+
+v0.3.6
+
++ increased Video DVD ripping speed
+
++ get name from Video DVD (unfortunately this functions failes for some encrypted discs,
+
+  same function works in copy mode !?)
+
++ added CDDA and Data CD to media detection
+
++ added CDDA to ogg ripping/encoding using CDRipXlib (only vbr quality setting for the 
+
+  time being, 0.1 lo up to 1.0 hi)
+
++ added config settings for background color (nothing mind but requested)
+
++ reenabled open tray notify
+
+
+
+v0.3.4
+
++ added config file. configure your favorite dump positions
+
++ added media detection (XBOX DVD / Video DVD)
+
++ copying Video DVDs using libdvdread/libdvdcss :-)
+
+  (testing. still needs some speed improvements if possible. If DVD isn't
+
+   authenticated, restart box and try again)
+
+
+
+v0.3.2
+
++ displays a warning and the filename if there are files with more than 42 letters
+
+
+
+v0.3.0 
+
++ set media type to 0x000000FF 
+
++ removes media check 2 
+
+  (for newer games like Red Faction 2, Tao Feng, etc.) 
+
+
+
+v0.2.1 
+
++ fixed getTitle from xbe. 
+
+
+
+v0.2 
+
++ extracts dirname from .xbe 
+
++ multiple dvd copies without reboot ! 
+
++ opens tray when copy is done (notify) 
+
+
+
+
+
+thanks to all bug reporters and XBMP/XBMC for some ported libs and code snippets.
+
+thanks to piet for the background pic and the Xcddb library.
+
+please contact me over http://forums.xbox-scene.com/ for bug reports or feature requests.
+
+Have a look at http://dvd2xbox.xbox-scene.com/ for news about dvd2xbox.
+
+If you like this software you may donate to the dvd2xbox PayPal account which would allow me to
+
+buy new hardware to test different settings (see http://dvd2xbox.xbox-scene.com/info_donate.html
+
+for more).
+

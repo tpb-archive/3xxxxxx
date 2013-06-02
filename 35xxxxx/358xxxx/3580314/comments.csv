@@ -1,0 +1,112 @@
+﻿User Type,Username,Date,Text
+,godisvoid,2006-12-21T19:34Z,Beautiful.  I'll dedicate 20KBps seed power for a couple months.  Another 20KBps when the 2nd disc finishes.
+,evilethics,2006-12-22T08:11Z,"im ready please let me be the 2nd
+if its understandable 
+one comment 
+2 seeders"
+,azerty2000,2006-12-22T16:38Z,"at last some stuff is leaking...yeahhh !
+
+
+
+http://justfuckit.free.fr (FluoChaos)"
+,NINman,2006-12-23T05:10Z,"""Leaking""? lol, not exactly.
+
+thanks a bunch for this Trent and Merry Christmas"
+,Smoke_,2006-12-23T16:56Z,"This is special, Thank you Trent."
+,gmenright,2006-12-23T17:01Z,"is an IMG file the same as ISO?? (ie, has the IMG extension been simply added on manually?)
+
+I want to burn to DL DVD. Am I wasting my time downloading if all I have is Nero Express OEM, which doesn't mention support for IMG files?"
+,ripmixburn,2006-12-24T05:33Z,Yes!  Fred Fredburger said it best.  Thanks to TR & RS... and the seeders staying on to keep the data flowing quickly.
+,vacantenigma,2006-12-28T22:31Z,"i changed the file extention from .img to .iso and it burned and played fine, for both disc 1 and 2."
+,Smoke_,2006-12-29T16:24Z,"I just finished downloading. Im uploading as much as I can. I hope its going faster than 1.0 kbs for you all.
+goddamn, Cant wait for that BYIT dvd!"
+,Kezveek,2006-12-30T21:20Z,"PLEASE POST LINKS TO THE OTHER VERSIONS AS COMMENTS!!!! TPB's searchsystem sucks butt, bigtime"
+,sharkbait226,2007-01-02T07:19Z,"ok im a big noob to pirate bay but a huge NIN fan and i know that TR out this on here but when i ""downloaf the torrent"" it olny takes like 2 seconds (which i know is wrong) and then will not play... can someone please tell me what im doing wrong?"
+,dyematrix4,2007-01-03T01:11Z,"
+i have a mac and am using toast and for some reason disc 2 burned fine but when i try to burn disc 1 it says: the driver reported an error: sense key: illegal request sense code: 0x26 invalid feild in parameter list. Does anyone know how to fix this?                              "
+,crabbyguy,2007-01-13T10:03Z,"I had the same problem using Toast on a mac: ""the driver reported an error: sense key: illegal request sense code: 0x26 invalid field in parameter list"".
+I tried burning using Dragon Burn (my back up burning app), and it completed the burn, but the disc sticks/had errors every few minutes, yet the downloaded files play fine on the mac with DVD Player. HELP!!!!????"
+,rpb113n,2007-01-18T07:50Z,"What media player can this be played in?
+
+Please respond..."
+,crabbyguy,2007-01-20T02:01Z,"Please, any other mac users have problems burning this DL DVD with Toast? If not, what did you do???
+I really need the help/tips. Cheers!"
+,noir.na,2007-01-22T05:08Z,"""Please, any other mac users have problems burning this DL DVD with Toast? If not, what did you do???""
+
+Why don't you just try burning with Disk Utility?"
+,dyematrix4,2007-01-23T21:52Z,"Even when i tried using mac utility it woldnt play on my dvd player.
+Does any one have any other ideas."
+,tibstah,2007-01-31T03:36Z,"Trent - you're awesome man. I'd been waiting so long for this. I hope all the legal crap works out. 
+
+THANK YOU!"
+,iconoclast3,2007-02-08T22:47Z,".seed0 is indeed the shit
+
+don't worry about the spitters in camden.  i happened to be right next to hairy oaf and gave him a lovely kidney spank.
+"
+,S04p,2007-03-26T00:39Z,"If you're having trouble burning the .img file to a DVD+R DL DVD (I'd like to take this opportunity to strongly suggest Verbatim, since they're the only DL media right now that don't suck) it simply means the layer break information is not correct or missing from the .img file. This DOES NOT mean it can't be burned.
+
+All you'll need is a simple image mounting tool like Alcohol 120% or Daemon Tools. Mount the image as a virtual drive, load up Imgburn, select Build Mode, and use the ""add a folder"" button to add the root folder of the virtual drive. Once you've done that, make sure you've selected ""ISO9660 + UDF"" as the file system, enter the necessary volume labels (if you want), and burn the thing. Heck, if you want to even make an ISO image with the proper layer break information before you burn, you can do that too so you won't have to go through this procedure again if you want to make more copies.
+
+Happy burning."
+,S04p,2007-03-27T09:46Z,"If that method doesn't work for you, try copying the DVD files to your hard drive via your virtual drive. Then use a free program called PgcEdit to rearrange the order of the title sets. Good luck."
+,gunhed127,2007-03-31T00:13Z,have tried the method above with imgburn and daemon tools. i get message that it cant find the cell/file to make the layer break.  any ideas how i can burn this thing to a dual layer dvd
+,sebzapata,2007-04-26T23:56Z,"I am not sure about this because i dont think i have downloaded a dual layer dvd before but in dvd shrink you can open a disc image (Ctrl+I). then could you take out the languages ou dont want and stuff and burn it to a single layer dvd? 
+
+anyone know what to do? thanks."
+,Continuity2,2007-05-01T08:10Z,"Great upload....I didn't even know it was leaked until I was just casually browsing torrents and then i struck gold with this. 
+
+Thanks whomever leaked ;-)"
+,theresaj,2007-05-03T02:25Z,Please seed ;~;
+,jac726,2007-06-05T01:15Z,Any word on the single layer version?  My computer isn't particularly technologically advanced so the dual layer isn't working for me.
+,scrapsoflife,2007-07-29T05:06Z,"Seriously. Did I miss something, or is this going to be re-released in a three-part for singlayer DVD+Rs? The way I understood it, there was a way to seperate the files into .iso and burn on a regular DVD+R. ""...depending on how you view it."" Does that mean It's our preference as to which one we use? I'm very very confused. Please help me out..."
+,scrapsoflife,2007-08-09T08:07Z,"*UPDATE*
+I went out and bought some dual-layer DVD+Rs (pricy little fuckers cost almost sixteen bucks for three) and they burned perfectly. Ninjaw has a three-disc version available for those of you who are tired of waiting...
+
+And if you can't play the files alone, get VLC Player. It can play .img and .iso files as physical DVDs. For burning, I used Alcohol 120%. I have a regular LightScribe DVD-(or)+R writer and it worked for me.
+
+I hope I helped someone."
+,Depdep,2007-10-18T09:14Z,"Thank you.
+Very Much.
+For this.
+
+This is one of the best torrents ever.
+Thank you."
+,Instrumentallyinsane,2008-02-16T17:17Z,"One of the best things to happen with torrents.  Thank you, Trent!"
+,MeXPaiN,2008-03-12T15:38Z,Thank you SO much Trent!
+,pirateG,2008-04-05T12:09Z,"a rare gem! been sailin' the seas for a while!
+something like this doesn't come along every day!
+well done!
+jump back on it to seed!"
+,sramberg,2008-04-09T03:41Z,Had to have been Trent. Thanks man for this and EVERYTHING else. Fucking awesome. I was getting scared to even play my mint condition vhs set anymore afraid something might mess them up.
+,rustynotarednek,2008-05-13T02:51Z,"could someone please seed this for the next few days, it stopped midway and now there is no activity"
+,rustynotarednek,2008-05-16T04:59Z,"keep seeding guys, just a few more days.  I will make sure to seed this for at least a week when i am finished."
+,rustynotarednek,2008-05-19T01:12Z,"my internet sux, i could use a few more days of seeding
+i'll seed this for a month when through"
+,netfire_,2008-06-20T13:54Z,"I might have to complain about the video quality, if I went to the store and bought it, as it is this is damn impressive, I'm  going to seed this forever"
+,timmy101,2008-09-11T02:20Z,"Serves interscope right for not releasing the fucker already. Way to go seed0, whoever you are."
+,phunman1,2008-10-17T10:08Z,"seed0, Thank you so much!"
+,fallacy00,2009-01-10T05:49Z,"I GOT THIS SAME ERROR MESSAGE!!!
+sense key: illegal request sense code: 0x26 invalid field in parameter list
+SOMEONE PLEASE HELP ME, AND YES I AM NEW TO THIS, USING 
+
+iMac 2.0 ghz 20in.
+Toast 9 Titanium!!
+Memorex discs
+
+PLEASE HELP ME!!! I'll be your friend!!!"
+,weitulong,2009-01-16T16:09Z,"Good god I'm a dummy. These did burn properly, turns out that our dvd player/recorder will just not play dual layer discs. I think because of the recorder aspect of it. This one (D1) is playing fine in the PS3 so far. 
+
+(crawls under desk to hide shame)"
+,trippalhealicks,2009-03-23T18:29Z,"Holy shit.  I've been trying to get this for quite some time.  As a former owner of the VHS set, I can say this was definitely worth the download.  Fucking perfect.  THANK YOU SO MUCH!"
+,mmiles1,2010-03-25T21:28Z,"I#ve got the same problem as fallacy00, error message: sense key: illegal request sense code: 0x26 invalid field in parameter list.
+Where is the mistake?"
+,figrindan,2010-06-26T16:51Z,"Thank you, seed0.  You rock!"
+,jerrywexler,2011-08-15T10:46Z,"This is amazing. I bought Closure the day it came out. I loaned my tapes to a friend and never saw them again. I bought another set, kept them a while, loaned them, never saw those again either lol (you'd have thought I'd learn a lesson)
+
+When I first found this torrent I was elated. 
+
+It had 2 seeders when I found it, and it took me over a month to get both of these discs and broken. 
+
+I have to say, it was worth every second of waiting. 
+
+seed0, you're a hero!"

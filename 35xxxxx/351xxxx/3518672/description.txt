@@ -1,0 +1,16 @@
+This is an updated version of FairUse4WM that works with the latest version of Micrsofot's DRM components. (They updated it to make FairUse4WM not work anymore, so viodentia fixed it!)
+
+This program will quickly and lossless remove the DRM from just about any protected WMA or WMV file you have the license for.
+
+Changelog: 
+--- Works with the new IBX version being pushed by Microsoft on new individualizations.
+--- DRMv1 support for files you ripped yourself with protection enabled
+--- Now should work with WM9 (individualized) 
+--- Includes a Workaround for WM11beta2
+--- Subdirectory support - takes a directory as the command-line parameter
+
+
+For more info:
+  
+http://digg.com/music/FairUse4WM_strips_Windows_Media_DRM  
+http://forum.doom9.org/showthread.php?t=114916	

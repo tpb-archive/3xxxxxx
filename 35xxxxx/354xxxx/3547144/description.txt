@@ -1,0 +1,118 @@
+GnU3zer LaunchPad
+
+a POC project 
+with thanks to all the good people providing
+good and free (as in free beer) software.   
+   
+
+[IMG]http://img157.imageshack.us/img157/6049/startupga6.jpg[/IMG]
+  The GnU3zer LaunchPad after inserting U3 stick
+
+This is a replacement LaunchPad for U3 enabled
+USB Flash-drives.
+It has been tested and works on the sandisk cruzer
+but should work on ALL U3 drives with a \"LaunchPad installer \"
+available.
+ISO containing the GnU3zer LaunchPad , ready to test !
+The mfg-made update-tools 
+ALL the files needed in a 7zipped folder.This allows you to
+run the whole thing from your HDD in writeable mode 
+and set it up like YOU want,save the settings and build your OWN version !!
+REMEMBER : The CD-drive is READ-ONLY !!!
+
+READ THIS BEFORE USING : FIRST BETA RELEASE !!
+ADMIN RIGHTS MAY BE NEEDED FOR SOME FUNCTIONS
+autorun must be enabled on host for autorun function to work.
+
+ Since the U3 Launchpad is slow ,ugly,not easy to customize
+and SUCKS for trying to force people to use their stupid zipped
+(pay)programs , I decided to make my OWN launchpad based on
+available FREE (mostly ,GPL/GNU etc) programs and some recently 
+discovered way to REPLACE the CD-iso with your own.
+
+If you would like to make your own launchpad,this torrent
+will provide you with tools to do so.
+If you just want to try it before using any time making your own
+version you can just load the ISO to your U3 with the LPupdater.
+(for SanDisk:Place the ISO and the updater in the same folder,
+rename the ISO to \"cruzer-autorun.iso\" and run the updater..
+wait a few seconds... your new launchpad will autorun. 
+Didn\'t like it ? remove the ISO from the folder,
+run the updater again and it will download and install 
+the original U3 loader).
+NOTE : You can do this from the flash-drive!! it wont
+format your flash-drive,only update the LaunchPad.
+Or mount it in Daemon-tools or other VirCD.
+
+There seems to be a limit to the ISO-size : 6MB Max for SanDisk 
+and some say only 5 for Memorex.
+If you have a Memorex you must
+check the max-size of the ISO.You could remove the 
+TrueCrypt user-guide.pdf from the ISO and save
+700k
+
+ A U3-enabled stick has a controller that allows it to behave 
+like 2 DEVICES , one being a (read-only)removable CD drive , 
+the other a normal removable flash-drive.
+ The CD-DRIVE!! (its seen by windows as a DEVICE , 
+not a \"partition\" or \"virtual\" or \"fake\" drive) 
+can perform autorun on ENABLED winXP systems,
+removable DEVICES with a writeable filesystem 
+(like FAT and NTFS) can NOT !!
+ The windows CD autorun function can execute ANY program
+specified in the autorun.inf file provided it knows the path.
+
+To provide instant autorun and access to
+the GnU3zer LauncPad on BOTH drives the GnU3zer.ISO
+provided uses a .vbs script,located on the CD,
+called \"go.vbs\" to search for a file called \"\\WIP\\CMD\\go.cmd\"
+on the flash-drive and executes it when found.
+\"go.cmd\"then executes any program specified,
+in the GnU3zer iso provided it calls nircmd.exe
+to run PStart from the flash-drive.
+This method allows you to customize the autorun feature
+as you like even if you decide NOT to use PStart on the
+flash-device.Simply add line(s) with the command(s) 
+you want nircmd to execute and save the file.
+(thanks to all the people at www.hack5.org for this one)
+
+[IMG]http://img157.imageshack.us/img157/3850/cdexpanduy0.jpg[/IMG]The GnU3zer CD 
+with expanded menu
+
+
+The GnU3zer LaunchPad can run ANY portable program you want,
+including all of John T Hallers excellent apps
+(www.portableapps.com).
+You can use it as a security-tool to (auto)mount encrypted TrueCrypt
+volumes on you PC ( 50 key-files are included on the CD or use any other file on it.better:generate your own and put them in the ISO)
+Save your passwords in a KeePass .db encrypted file etc etc etc.
+
+[IMG]http://img129.imageshack.us/img129/1310/traynj0.jpg[/IMG]
+
+Included on the CD is Liberta AutoStart ,a NICE (and NEW) drive-tool.
+It provides tray-icons for each removable drive including
+mounted TrueCrypt volumes and removable usb-HDD!!,the EJECT-DRIVE function and right click context-menu with program access etc..
+
+[IMG]http://img157.imageshack.us/img157/7950/libertarightclicpx6.jpg[/IMG]
+
+If you LEFT-CLIC the drive-icon it will launch the app specified
+by \"shell=ProgramName\" in the \"autorun.inf\" in the drive-root.
+This allows you to drop \"go.vbs\" if you dont like that rather
+script-kiddie way of doing it and only have PStart (and all
+its \"run on start\" \'run on exit\" options) one click away.
+
+You will also find the famous \"HP-Format tool\"
+this may not be a \"free\" program :) ) 
+that allows you to format your stick as bootable.
+It is recommended to use FAT(16) or FAT32 unless you REALY
+need the functions of NTFS.This should cause less wear on the 
+flash-RAM.
+If you use TrueCrypt encrypted drives NTFS should not be used.
+
+Its my hope that this torrent will inspire people to try
+out what the U3 drive can do . 
+Feedback , tips and ideas are wellcome......
+
+Known issues : PStart on the CD does not auto-close.
+TrueCrypt requires Admin-priv OR that an Admin ran the program
+once.

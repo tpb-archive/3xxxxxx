@@ -1,0 +1,98 @@
+------------------------------------------------------------------
+Birdy Hitachi friendly Flasher with Xtreme v1.2 All versions
+------------------------------------------------------------------
+
+
+RELEASE INFO:
+
+
+  Friendly Flasher (Windows application) for Hitachi drives
+  Includes Xtreme hack 1.2 for All versions
+
+FEATURES:
+
+- Auto-Detect Hitachi Drive connected to Windows and its
+  firmware version
+
+- Can restore / flash with user friendly interface
+
+- Auto Retry if flashing or restoring fails
+
+- Auto Verify if Flash / Restore went sucessfully
+
+- Xtreme Hack 1.2 contains all the goodies mentioned on 
+  previous releases (see releases from birdy and garyopa)
+
+
+Currently I am working on merged version with the F900 (extract 
+security sectors) and with a Stealth mode. Stay tuned.
+
+
+
+Technical details
+-----------------
+Security sectors are read in this order:
+
+Reads Xbox 360 security sector from PSN 04FB1F (Layer 0)
+Reads Xbox 1 security sector from PSN 605FF (Layer 0)
+Reads Xbox 360 security sector from PSN FD021E (Layer 1)
+
+Flashes sector 9003e000 (Master Checksum)
+Flashes sector 90035000 (Security Sector Read)
+Flashes sector 9001c000 (Drive Response Table Decrypt)
+Flashes sector 90003000 (Custom Code)
+Flashes sector 90027000 (Challenge Response) (v46/v47/v59)
+Flashes sector 90026000 (Challenge Response) (v32/v36)
+
+
+Flashing your drive
+-------------------
+*  This application automatically makes a backup of your firmware and asks for save
+   location.
+** Make sure you are flashing over an ORIGINAL image on your drive, if needed first
+   do a RESTORE.  Undesired results can be achieved if you flash over a previously
+   flashed image.
+
+- Plug SATA cable from DVD drive to PC
+- Power cable drive still connected to Xbox 360
+- Ensure drive is in mode b either by two wire trick or slax linux boot cd
+- Go to Windows
+- Run hitachiflash.exe and if the drive is properly connected it should get detected
+- Choose the Action: "Patch your firmware with xtreme 1.2"
+- Hit go and wait, 
+- There will be a prompt asking where you want to place the backup of the original
+  firmware (before patching)
+- The flash must start, if some "retry" windows appears hit YES/OUI until finished
+- At the end the application will check for 100% so you can shut down the system
+
+Thats all
+
+
+Restoring your drive (Requires previously saved Firmware Image)
+---------------------------------------------------------------
+- Plug SATA cable from DVD drive to PC
+- Power cable drive still connected to Xbox 360
+- Ensure drive is in mode b either by two wire trick or slax linux boot cd or if you
+  have the Xtreme 1.2 then use the TWEAK starting the box with the tray opened
+- Go to Windows
+- Run hitachiflash.exe and if the drive is properly connected it should get detected
+- Choose the Action: "Restore Original firmware"
+- Hit go and wait, 
+- There will be a prompt asking for your original UNENCRYPTED image
+- The restore must start, if some "retry" windows appears hit YES/OUI until finished
+- At the end the application will check for 100% so you can shut down the system
+
+Thats all
+
+
+
+Thanks:
+----------------
+To everyone at Xboxhacker.net and x360.gx-mod.com for all their discussions.
+To Seventhson for flashsec and memdump.
+To Commodore4Eva for the original Hack Release.
+To Spectrum4Eva for the F900 release.
+To Loser for firmcrypt.
+To Garyopa for ppf files and port the hack to all versions.
+Also thanks to
+DJTOTO and carranzafp for beta testing the software

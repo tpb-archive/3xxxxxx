@@ -1,0 +1,67 @@
+A freshly created VMware image of BackTrack v.1.0
+ 
+http://www.remote-exploit.org/index.php/BackTrack
+
+\"Backtrack security collection is a Live-System based on Slax. With no installation whatsoever, the analysis platform is started directly from the CD-Rom or RAM and is fully accessible within minutes. Independent of the hardware in use, the Backtrack security collection offers a standardised working environment, so that the build-up of know-how and remote support is made easier.\"
+
+This has been installed to a VMware Virtual Hard Drive (4GB uncompressed)for a much quicker response time.
+
+Kernel sources have also been installed just in case you fancy compiling your own bits ;)
+
+The Image will boot to a login screen where you would login as root & if you want the GUI type startx & hit enter (but you already know that!!).
+
+BackTrack does not enable auto dhcpcd.
+
+To get an IP via DHCP, enter the command :
+
+dhcpcd ethX
+
+where ethX is your ethernet card (eg, eth0)
+
+Manual IP Configuration
+
+For manual IP configuration, try the following commands (change the IP\'s accordingly):
+
+ifconfig eth0 192.168.0.5/24
+route add default gw 192.168.0.1
+echo nameserver 192.168.0.1 > etc/resolv.conf (I did it manually & the above commands all work as stated)
+ 
+
+user = root
+password = toor
+
+
+Installed Software
+
+Backtrack has several neat features, some listed below, in no specific order:
+
+    * Rich python development environment
+          o Scapy
+          o WAL
+          o Impacket (Core Impact Python Modules)
+          o Core Impact samrdump and rpcdump modules
+          o PyMySQL / PyPgSQL
+          o PyGoogle 
+
+    * Updatable Exploit Archives
+          o Exploit updates from both milw0rm and Securityfocus via CVS
+          o Searchable Database of Exploits 
+
+    * One Clicks:
+          o One click Snort Setup
+          o One click Nessus Setup
+
+Extra comments: 
+ 
+vmware-tools (auto starts & minimizes)
+screen size = 1280 x 1024 16 bit
+
+
+md5sum 6af1beb8aaf0524bce7a83a7d4297ec5
+
+Further images can be found at http://jaraeez.no-ip.com
+
+Have a nice day!
+
+
+		

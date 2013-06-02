@@ -1,0 +1,48 @@
+﻿User Type,Username,Date,Text
+,gibben22,2006-12-12T23:02Z,"Kjempegreier.
+Takker så mye
+Hvis du trenger hjelp med seedingen så er det bare å gi beskjed.
+Oc2 fiberlinje her :) så jeg kan seede i noen år uten det gjør meg noe.
+lol
+Takk igjen"
+,krokan,2006-12-12T23:05Z,"Seeding er alltids ønskelig. Må IP-telefon så jeg må begrense uploadhastigheten her hos meg, men kjører det linja klarer mellom 00-06"
+,aklophus,2006-12-13T01:35Z,"Seeder alt linja orker her oxo :-)
+Har du Østerdalen kartene oxo?
+Bor midt i mellom....så jeg trenger fire kart for og dekke opp rundt her :-("
+,OlaOlaD,2006-12-13T09:59Z,"Er ikke noe teknisk geni og får ikke lasta desse kartene inn i mapsource.. har forsøkt det som står i txt fila men får det ikke til...er det muligt å få denne fila som iso? eller som zip slik som Hamar f.eks??
+Please.."
+,aklophus,2006-12-13T12:32Z,Du klarer vel og pakke ut filene.....og installere dem.....ikke noe forskjell om dem hadde vært ett iso image...må fortsatt installere
+,OlaOlaD,2006-12-13T12:43Z,"Joda..får pakka de ut..men finner ikke noen måte å installere på slik som på isofilene, der er det jo egen installasjonsfil. Som sagt, ikke noe teknisk geni her...I mapsource så finnes de andre karbladene som f.eks Oslo, Hamar osv. mne Bergen, som jeg trenger, får jeg ikke frem i mapsource...Og om noen også har Stavanger, så blir jeg kjempe happy..bor på grensa av de to.."
+,aklophus,2006-12-13T13:51Z,Du kopierer den mappa du pakka ut til garmin katalogen din på c:\ og kjører FAM_890.reg
+,rantanplan_ger,2006-12-13T15:35Z,"Thanks for uploading and sharing!!
+
+@OlaOlaD: I can´t read norsk, but it sounds like you may have a problem with the install ;). 
+The install is quite simple, just extract the content of the zip file to your garmin directory, most likely it´s ""c:\garmin"", unless you changed it. Then have a look in the subfolder FAM_890 (c:\garmin\FAM_890 for example). There is a FAM_890.reg-file which contains data that needs to be added to your windows registry. But before double-clicking this file, you need to edit it, because it points at ""c:\data\garmin\"", which isn´t your path most likely. You´ll have to right-click on the reg-file and open it with a text editor like notepad. Simply adjust the six pathes that they match your directory structure. If ""c:\garmin"" is your mapsource folder, than simply delete the string ""data\\"" from each path line for example. Now you can double-click the reg-file and that should be all ;).
+
+Anyone seen CD 1 Stavanger and CD 2 Kristiansand available ??? ;)"
+,OlaOlaD,2006-12-13T16:30Z,"Takker for tipsene, og nå finner sannelig mapsource Bergenskartene og jeg får overført til 60CS min, meeeen den pokkers gpsen finner de ikke....jajaj er ikke lett for gamle sløve, gubber uten teknisk innsikt gitt. Kanskje det skulle være en øvre aldersgrense for GPS? ;-) Har sjekka div gps forum men ikke funnet noen svar på dette.."
+,harryhoover,2006-12-28T02:18Z,"Kan noen legge ut HELE denne kartserien og ikke bare installasjonen med reistry fil ?
+"
+,Vandraren81,2007-01-27T23:48Z,"Kan dere vere snille og seede litt meir, trenger virkelig detta kartet:-):-)"
+,Vandraren81,2007-01-28T17:10Z,"Kom an, ver litt greie no, har stoppa heilt opp på 77,8% :-("
+,Thorminator,2007-04-23T13:50Z,"Using the reg.file does NOT work on Vista 64.
+Any ideas???
+
+Å bruke reg.filen funker IKKE på Vista 64 bit.
+Noen idéer folkens???"
+,Thorminator,2007-05-24T05:13Z,"Fant ut av det selv.
+Registeret i Vista 64 er annerledes og det trengte litt selvmekking for å få alt til å stemme."
+,runar71,2008-03-25T19:12Z,Hei. Fersking her. Hva betyr det å seede?
+,runar71,2008-04-04T13:39Z,Jeg trenger litt hjelp med seedingen. 
+,kjelli92,2008-05-05T00:28Z,"Thorminator at 2007-05-24 05:13 CET: 
+
+Fant ut av det selv.
+Registeret i Vista 64 er annerledes og det trengte litt selvmekking for å få alt til å stemme. 
+
+hva var det du gjorde???  
+har det samme probleme selv!"
+,blaser93,2008-08-25T21:04Z,Hva gjør eg galt når eg ikke får åpnet det på vista maskina (NY MASKIN)
+,asegun,2009-02-05T22:04Z,"Do I need a MicroSD card to download this map to my Garmin Etrex Legend HCX GPS? I have mapsource, though"
+,tomo10,2009-04-08T16:57Z,"Når jeg legger inn kartet for Bergen i registeret så vil ikke Mapsourse starte og jeg får en feilmelding. Jeg har lastet ned forskjellige versjoner og det samme skjer hver gang.
+Det er kun Bergens kartet som lager problemer, alle andre kart jeg har lagt inn g\fungerer feilfritt.
+Er det noen andre som har opplevd samme problemet?"

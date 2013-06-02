@@ -1,0 +1,7 @@
+New Super Mario Bros (U)
+
+Tested and work on M3 Movie Player.
+
+This is the way you do it with a M3:
+
+(Trim-Rom, Fastboot, 4xDMA, Software Reset) or (Normal Boot, No Trim ROM, No Software Reset) ("Mario vs Luigi" doesn't work with Fastboot)

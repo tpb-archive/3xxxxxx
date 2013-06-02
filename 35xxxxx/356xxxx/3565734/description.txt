@@ -1,0 +1,49 @@
+The Gene Machine is a VERY underrated point-and-click adventure game for DOS.
+
+Instructions:
+-------------
+
+UnEMC the BIN file before mounting/burning.
+
+The Gene Machine works wonderfully under DOSBox.
+
+Here are the settings -- change the mount points to specify your file architecture:
+
+#BEGINNING
+
+[dosbox]
+memsize=63
+
+[cpu]
+core=dynamic
+
+[gus]
+gus=false
+
+[sdl]
+autolock=false
+sensitivity=200
+
+[speaker]
+disney=false
+tandy=off
+pcspeaker=false
+
+[dos]
+ems=false
+
+[autoexec]
+mount c \\\"(INSTALLED LOCATION)\\\"
+imgmount d \\\"(INSTALLED LOCATION)GeneM.cue\\\" -t iso
+c:
+cd \\\\
+call GENE.BAT
+exit
+
+#EOF
+
+Also...
+
+There is a file in the installed The Gene Machine directory called \\\"GENE.INI\\\". In that file there is a line that says \\\"/DD\\\". Change the END character to the letter of your CD drive, mounted drive, or emulated drive.
+
+Ex: The emulated CD-ROM drive is H, so change it to \\\"/DH\\\".

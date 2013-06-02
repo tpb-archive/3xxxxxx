@@ -1,0 +1,20 @@
+I found this patch, and i think it would be usefull for others to,
+
+the patch worked for me.
+
+
+
+
+
+
+This patch corrects the problem when the main movie starts with
+the \"comment audio stream\" on a standalone DVD player.
+
+If you havent yet burned the iso from the extracted rars, patch the iso with
+the PPF-file, then burn.
+
+If you already did burn the iso. Create a new iso from your burned copy,
+and then patch it with the PPF-file, then burn the iso again.
+
+To make an iso of your burned copy, you could use \"DVD Decrypter\"
+which you can download for free, just google.

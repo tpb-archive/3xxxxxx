@@ -1,0 +1,33 @@
+﻿User Type,Username,Date,Text
+,standOnIT,2007-04-23T17:49Z,"
+Does anyone have the SaloonGirl-font..? 
+http://www.myfonts.com/fonts/fontmesa/saloon-girl/ 
+
+"
+,marvin_5586,2007-04-24T21:19Z,"I downloaded this torrrent and installed the fonts, it crashed my mac at 5000 fonts being installed and now my machine is running like it has a virus, real buggy and it takes almost two minutes to start up.
+
+Also, this is what text is showing up as in some of my applications.
+
+http://img.photobucket.com/albums/v462/marvin_5586/Picture1.jpg
+
+Does anyone know how I can fix this problem?
+
+thanks,
+marvin_5586@yahoo.com"
+,SysGhost,2007-05-01T14:29Z,"I haven't tested this release yet, but I'll write a few advices:
+
+Don't install all the fonts.
+The more fonts you install, the more memory they take, cause they will be loaded as the OS is loaded. Only install the fonts you need. Consider using a font manager. 
+
+Don't use any installer that comes with a particular font or font-collections.
+Many times those ""installers"" contains and installs a spyware/adware, or even a trojan/virus if your unlucky. Free stuff from the Internet ain't so free as you might think it is.
+Extract and install the font files by your own by simply copy the fonts themselves to the font directory in your system, for example C:\Windows\fonts.
+
+If a font is packed within an EXE-file, then consider it to contain spyware/adware and other stuff aswell that gonna annoy you with random popups about Viagra and such things. Happened to me when I tried out a few fonts from the ""free fonts here, hohoo!"" -sites that was pcked within a self-extracting EXE-file
+
+Good luck"
+,pashe,2007-07-19T11:37Z,"Yeah, installing thousands of fonts is a good way to make the os really run buggy. I'd recommend to use a font manager, such as Linotype FontExplorerX (free, win & mac) 
+
+http://www.linotype.com/fontexplorerX
+
+With a font manager, you can activate fonts you need at the moment, and deactivate them if you do not need them. "

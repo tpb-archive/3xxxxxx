@@ -1,0 +1,20 @@
+XBMC 2.0 11-10-2006 FahxBahx Linksboks Integrated
+
+Here's my second release of XBMC with Linksboks Integrated before the others even have their first. I have updated a few scripts, but not all yet. (It's been a busy week) I have also included more images in the LiveContent. I need to thank skyzerr33, Loaded Gun Complex, Warlion, jonboy666, FredPJ, Mbezik and Roormonger for the images. I also need to thank Manturafs for the Livemark mod and Roormonger for his work on Livemark as well as all the hard work he put in adding Linkboks support to MC360 and Blackbolt Classic. Yes, you read that right. Roormonger has given us the ability to use Linksboks in BBC. Now every major skin can use Linkboks. I hope you enjoy this release.
+
+	Fahxbahx changes:
+Added Linksboks support for BBC and added newer images for Linksboks support of MC360 (Thanks a million Roormonger!)
+Updated a small handful of scripts.
+Added more images to LiveContent
+Dupe checked Trainers, so that's why there are less.
+
+*************************************************************************************************************
+*************************************************************************************************************
+                                     Xbox Media Center CHANGELOG
+************************************************************************************************************* 
+*************************************************************************************************************
+
+added/fixed: (dd-mm-yyyy) (please specify date in CET)
+ - 07-11-2006 fixed: in folders wich only contain a video_ts folder, the folder wouldn't stack to a single item.
+ - 07-11-2006 fixed: remote number keys must be mapped to buttons in the dvd when in dvd menu, some dvd's make use of that.
+ - 07-11-2006 changed: better logging of failed mplayer attempts

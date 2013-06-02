@@ -1,0 +1,29 @@
+﻿User Type,Username,Date,Text
+,rebecca2,2006-11-11T06:16Z,"can anybody tell me how I get my game icons back after upgrading from xmbc 1.0 to the new xbmc 2.0.  Only about ten of the thumbnail are there, the rest are missing.   Thanks"
+,bthoem,2006-11-12T17:38Z,"Installed the package in a directory under \apps. XBMC works fine, but Linksboks hangs the xbox after a couple of seconds of trying to load the startpage.
+Anyone able to help me out?"
+,R00RMONG3R,2006-11-13T05:25Z,"@rebecca2
+If you save your UserData folder before you upgrade you can ftp it back in after the upgrade and you will retain all of your bookmakrs,network settings,thumbs, and all other settings.
+
+@bthoem
+Make sure the dns settings on your xbox are set correctly. If they are set properly then try just editing the homepage by opening up the XBMC folder then going to system\LinksBrowser\ and open the file LinksSettings.xml and look for this
+http://www.google.com/
+and change it to whatever you want.
+
+How is everyone enjoying the web browsing in the Blackbolt Classic skin? It is my least favorite skin but I think I did a better job on that then MC360."
+,KingNoid,2006-11-16T00:45Z,"Thanks for Compile But the Linksboks never works it just freezes in the first seconds of trying to load the home page , it did the same thing in ur first compile u uploaded here, i tried the advice u gave the other guy but still no go just freezes xbmc.
+I dont knwo how you got urs to work, i tried everything to my knowledge to get it to work. but thanks again for takin the time to compile and uplaod this for us.
+i got this the day u uploaded here but just didnt feel like registering and logging in i thought other people would post the same problem but only one did and he did reply after u told him what else to do. "
+,R00RMONG3R,2006-11-16T03:18Z,"I am not the one who compiled this, I just made the skins internet compatible. You know, like adding the buttons and OSD for linksboks in the skins MC360 and the Blackbolt classic skin.
+
+No one else has reported this problem or replied to my suggestions.
+
+Have you configured your network settings properly? Check to see if your rss feeds work.
+
+I did not have to do anything special to get mine to work in either release, I just installed it and away I went."
+,KingNoid,2006-11-16T04:17Z,"yes my rss feed works, xbmc just freezes when linksboks goes into the homepage.
+
+network settings are on automatic dhcp."
+,ghrayfahx,2006-11-19T03:33Z,"Sorry this new build is late, I'm having trouble compiling."
+,hallwal,2007-04-19T16:12Z,"I LOVE this build of xbmc!  It works great for me -- just copied it over like any other build and it works great.  I love having linksboks built in to the main menu and also not having to reboot.  Please don't let the few complainers discourage you.  This is a great idea, and I can't believe it hasn't been updated, and that no one else has built a broswer into their xbmc versions either!  It's unbelievable!  Please give us an updated build one of these days.  I really appreciate your work!  THANKS!!!  :-)"
+,ghrayfahx,2007-04-28T23:03Z,"Hey all, if you enjoy this, look forward to another build coming soon. That's right. I'M BACK!"

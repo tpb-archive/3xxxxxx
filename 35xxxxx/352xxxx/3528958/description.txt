@@ -1,0 +1,31 @@
+[General]
+Title:                 NewWhoresOnTheBlockBonusDisc
+Data source:           DVD
+DVD title number:      1
+Runtime:               00:52:42
+
+[Video]
+Video format:          NTSC
+FPS:                   23.976
+Size:                  0 x 0
+Video bitrate (kbps):  1700
+Video codec:           ffmpeg
+AF6 codec:             h264
+2-pass-encoded:        no
+Fast resizing:         no
+Deinterlacer filter:   
+Antialiasing filter:   No antialiasing
+
+[Audio 1]
+DVD audio track id:    0
+Language:              drc
+Audio codec:           vorbis
+Channels:              2
+Sample rate:           48000
+Audio bitrate (kbps):  128
+Volume rescaling:      none
+Audio filter:          Normalizing (mplayer filter)
+
+[Programs]
+dvd::rip version:      0.98.1
+transcode version:     1.0.2

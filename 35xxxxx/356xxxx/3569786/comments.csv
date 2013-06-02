@@ -1,0 +1,200 @@
+﻿User Type,Username,Date,Text
+,mizar,2006-12-03T19:55Z,Thank you very much for great uploads!
+,mickedick,2006-12-07T13:01Z,"doesn't work for me, anyone else having problems with this one?"
+,blueskeletor,2006-12-29T00:38Z,"kick ass upload, so it makes me sad that it doesn't work... i get 'cannot find resource files, please reinstall' when opening my sequencer.
+
+anyone else?"
+,blueskeletor,2006-12-29T00:41Z,or are they actually missing? seems strange that a fat synth like this is only 40 MB... 
+,dogen,2007-01-12T08:33Z,I just got it working as stand alone. :/ Not with cubase sx3
+,Jmraub86,2007-02-20T19:59Z,Thanks Guys I Just About Wasted 56kbs On This :S
+,kajooga,2007-07-18T14:57Z,"Great torrent thanks for this!
+
+P.s. anyone who thinks this was a wasted download, the only way this differs from the shelf version is that it doesnt include the presets...try learning to programme the synth for yourself instead of using other peoples sounds...then you might actually create something original! (lightbulb above head)"
+,patton303,2008-04-15T11:21Z,"Works great for me.
+Using as vsti in Ableton Live6..."
+,flantastic,2008-08-24T23:49Z,"I received the ""cannot find resource files"" as well. It wouldn't even load the VSTi.  
+
+I'm using Fruity Loops XXL 8, Win XP SP2. 
+
+I just re-installed and found out you have to use the DXi, not the VSTi for fruity loops. So be sure to install and use the DXi, then it should work."
+,xenomorph1138,2008-08-30T03:17Z,"Installed fine. Only one seemingly minor problem. I guess it depends on what your trying to do with it. For instance pad sounds and sounds at low decibels are accompanied by little cracks and pops that wouldn't be noticed in other sharper, louder more complex sounds like drums or lead sounds but makes a big difference if your trying to create music and not just make some cool sounds (aka) noise. This was the only NI Massive I found on PB. I guess files get corrupt sometimes after being compressed and broken  up ninto a bunch of little pieces and transported all over cyberspace and then reassembled on ones desktop. Oh well! :) Try another."
+,xenomorph1138,2008-08-30T03:20Z,PS: It does come with all the presets. A whole shit load of them anyway.
+,mofo2000,2008-09-06T17:05Z,"So, who else got mayor problems with this?
+After using it a while, massive crashes my sequencer into thin air. I guess this is its protection, but there isn't a service installer in this one is there? 
+
+
+So, anyone here using this sucessfully? And i dont mean a minute every 3 months, but extensively in a project? You surely will crash too, right?
+
+Other downloads have the same problem, even from AIR! "
+,jackjones.sb.,2008-09-26T13:39Z,"Anybody using Reason.7 having any trouble ??
+
+Will give it a blast anyway. Cheers
+
+JJ"
+,c10h12n2o,2008-10-13T20:45Z,"yeah, definitely problems when i was checking around regarding the cracked massive itself.
+
+it can work in small doses, but after a certain point it will crash and it wont be repairable. in fact, the only way to open the file is to move the .dll or delete it. no current solutions."
+,robomook,2008-11-15T00:24Z,"If anyone has trouble installing, try selecting all the plug-in formats (RTAS, VST & Stand-Alone) when prompted, it didn't work for me when I tried to install only the VST.
+
+Great upload by the way, it's much appreciated!"
+,mofo2000,2008-11-22T15:47Z,"Thanks robomook, so to be clear; you too had troubles with a crashing audio app like cubase, as c10h12n2o described?
+
+and installing ALL versions like rtas solved it? Also, did you clean your register or reformat between these tries or JUST reinstalled massive with all rtas/dxi etc versions?"
+,posslet,2008-12-03T17:42Z,Thankyou.
+,asw162pp,2008-12-12T20:59Z,"can anyone help me, i need serial numbers for NI MASSIVE, BANDSTAND, REAKTOR5, ELECTRIC PIANO . EVERTIME MY AVG DETECTS THE KEYGEN  AS A THREAT. CAN SOMEONE COPY SERIAL NUMBER FOR THESE PLEASE. THANKYOU"
+,xf0,2009-01-20T19:26Z,"IF MASSIVE IS CRASHING UPON LOADING DO THIS:
+
+Go to the following folder
+C:\Documents and Settings\YOUR USERNAME\Local Settings\Application Data\Native Instruments\Massive
+
+Delete or move the file called NIMassiveDataBase.
+
+An error message may pop up next time you start stand-alone Massive. This is fine. The program should resume working properly."
+,xf0,2009-01-24T02:45Z,"one more thing, some or all of your sounds in Massive may dissapear. You WILL have to load them indivudually. unfortunately there is no way that I know of yet to avoid this. 
+
+you load them from this folder
+C:\Program Files\Common Files\Native Instruments\Shared Content\Sounds\Massive"
+,distill,2009-01-28T00:40Z,"Well, don't install this version, there's a newer one that works better. Remember the directory C:\Program Files\Common Files\Native Instruments\Shared Content\Sounds\Massive though! But there is File -> Options -> Browser -> Add + Rebuild DB (to get all the instruments at once)."
+,Crudson,2009-05-07T00:01Z,K I'm not having any problems with it crashing standalone or in fruity loops. But I can't hear anything. I changed to to my soundcard and everything but still nothing.
+,meatfoam,2009-06-22T18:26Z,"cheers! works fine.  To get the presets  turn on the brain, ok"
+,HCR32,2009-08-23T13:57Z,"Thanks chip, working fine for me in FL Studio 8. Presets are there (someone said they werent)."
+,badaski82,2009-09-16T20:45Z,"this keeps crashing on start up, plus where the crack? lol looking like a waste of time folks"
+,ZOINTS,2009-12-14T06:57Z,"worked fine for me, and i run vista..
+thanks uploader!"
+,junior-spesh999999,2009-12-21T22:04Z,hi im using acid pro 7 and ive installed massive and tried to scan for it using plugin manager and then 'configure vst' but it hasnt picked it up ....sorry im a beginer ......what can i do? thanks in advance 
+,cxccxccxcc,2010-02-08T22:04Z,"***** SOLUTION FOR CRASHING MASSIVE ******
+
+
+After using Massive for a while, it starts crashing randomly. Up to a point it becomes unworkable.
+
+
+I've got a workaround for it:
+
+
+You have to delete a file called ""NIMassiveDataBase_ul""
+
+Which, in Windows 7, is located at:
+
+
+C:\Users\YOUR USERNAME\AppData\Local\Native Instruments\Massive
+
+
+(In Vista or XP don't know the patch, but it will be similar)
+
+
+As it the problem will occur after few days/weeks of using Massive; I created a batch file, to delete the file at startup. Works like a charm.... (="
+,cxccxccxcc,2010-02-08T22:05Z,Sorry for my typo's...
+,SouthernPirate,2010-02-26T12:27Z,"Thanks to cxccxccxcc I've been trying to sort that out for ages!
+
+I have not downloaded this torrent but I have tried this using Vista & Massive version 1.1.3 and it works. The file is in the same place, you have to 'view hidden files' in folder options"
+,Doin_it,2010-03-09T12:34Z,Awesome! Works perfectly
+,ODMASTA,2010-06-11T01:28Z,"I DONT KNOW WHAT THE PROBLEM IS WITH SOME PEOPLE ,BUT I HAVE THIS ON FL9.. WINDOWS XP , AND ITS WORKS PERFECT...GOOD LOOKIN OUT TO AMPLIFY......  "
+,bergerking,2010-07-18T21:33Z,worked great for me! a++ windows 7 64 bit
+,kerlmeister,2010-08-10T00:24Z,"Works perfect on Windows 7. Only thing is I can't seem to find the presets. I know I could learn how to program them myself, but they would also be helpful ;)"
+,kerlmeister,2010-08-10T00:25Z,NVM. Found the presets lolz
+,iferhat,2010-09-23T16:42Z,Downloading now gonna see if it works or what????? standby
+,Fito33,2010-10-03T22:21Z,"It doesn't work with acid pro7, I see the dll in the plugins folder, I have several other NI synts working fine, but this one is a nut. Anybody know how to make it work? the stand alone works fine..."
+,ARTofRU1N,2010-10-25T03:00Z,"Great torrent, works fine for me (Vista, running the  DXi on FL Studio 9 XXL)
+
+Kudos to AMPLiFY!! you guys rock!!"
+,fabalabadingdonghoophoo,2011-01-15T00:48Z,"it works fine when i use the stand alone version. however, if i try to use it in fruity loops every time i change anything it stops outputting any sound. so i tweak the sound and it just doesnt work until i reopen it or whatever. is there a way to fix this?"
+,alexxj220,2011-01-22T03:18Z,"Worked amazing for about 2 weeks, then crashed, so i updated it with the other patch thing, and again worked fine for a moth or 2, but now i try and load my own sounds and it crashes. Im using FL (Legal) and Win 7 (Legal) so its not them :S any ideas ? "
+,Reptile151,2011-01-22T08:21Z,"Hey this is driving me nuts and I can't figure it out. Massive installed fine, however when I open the plug-in in FL Studio, I cannot resize or scroll down the plug in window to see the entire thing, as it goes off screen halfway through. Any ideas? I can't figure this out and I've tried everything I can think of."
+,Reptile151,2011-01-22T08:24Z,"Works just fine for me, however, when I open Massive in FL Studio, I am unable to change the size of the plug-in window, or scroll down, and the plug-in window is so large that in goes off-screen halfway through, so I cannot access the lower half of the plug-in. I've tried everything I can think of, and this is driving me insane. Any ideas or solutions?"
+,Cbags,2011-01-23T22:58Z,Please help.. I can't install this ive downloaded it and opened the dmg files on my mac but when i click on the installer is says it can't open it and i need to choose an application that will open it. Im quite new to macs so im sure it will be something stupid but i have no idea.
+,MrGaryGaza,2011-02-04T20:21Z,"Working fine for me, only extract the only .RAR file. The setup is in there. 
+Thanks mate!"
+,d_demon,2011-02-11T02:22Z,Where is the crack?????
+,Dub_King,2011-02-24T02:15Z,Its workin perfectly for me :) and I run Vista 
+,prs_fan,2011-03-03T02:18Z,"Great download, works fine for me! I am currently using its VSTi plugin with Sonar 8 Producer Edition.
+
+At first, I also had ""could not find resource file"" problem. Originally, I installed the VSTi plugin to Sonar's VSTi folder. This is when I got the error message when I booted Sonar up. I uninstalled and reinstalled everything in Massive to its own folder (the default folders it will create. I.e. this time, the VSTi went into ProgramFiles/VSTplugins, instead of ProgramFiles/Cakewalk/Sonar8ProducerEdition/VSTplugins.) I then simply copied the ""Massive.dll"" file from the ProgramFiles/VSTplugins folder and pasted it into Sonar's VSTi Plugins folder, and then did a VSTi search function within Sonar to find Massive and import it as a usable VST plugin. From there, it has worked perfect with me. 
+
+We will see if it crashes in a few weeks, as it has done with others. If so, I will delete the NIMassiveDataBase file and report the progress then.
+
+Thank you AMPLiFY!"
+,JonnyPaine7,2011-04-25T09:49Z,"I have fruity loops and this works amazing!
+
+Do it how I did it and I guarantee it'll work :]
+
+-Go to your desktop and make a folder called massive
+
+-Download the torrent into that folder
+
+-Once it's done, extract the first .rar file to the SAME folder
+
+-Go back to the folder and run the setup
+
+-Once it's installed, find the .dll file
+
+-drag that file into your ""vst"" foler (programfiles/image-line/Fruityloops/plugins/vst) and you will see a lot of files like it
+
+-Add massive however you would add a new instrument (go to channel, hit insert. go to more, and massive will be there)
+
+-MAKE SOME HEAVY WOMPS!!!!!"
+,Dscosnach,2011-05-23T08:14Z,"Hey guy this torrent works great but it was loaded in 06 its out dated im uploading 1.1.5 in a little bit and it will be as simple as 3 major steps 
+
+if you are interested also check my other vst downloads
+
+http://thepiratebay.org/torrent/6410281/IL_Freestanding_Top8_Plugin_Cracks_(VSTi)_NEW_PITCHER
+
+i will link massive 1.1.5 to the page in the link above"
+,Dscosnach,2011-05-23T13:32Z,"heres the latest massive torrent version 1.1.5
+http://thepiratebay.org/torrent/6415795/Massive_1.1.5_VST_dscosnach_copy_crack"
+,ChristoMania,2011-06-14T02:26Z,"Hey, got a problem with massive, if someone will take a look at this, see if they can spot anything i'm doing wrong
+
+Downloaded Massive 1.0.1... installed fine worked great, but i've got some ksd files that can only be played in the up most up to date version of massive, so ...
+
+I Downloaded the update to 1.5 everything looked good, no errors or anything until i try to load the ksd files, error message of the top of my memory is ""cannot read file"" or ""cannot open file""... please help, been trying to do google this for the last 2 days! read the manual and everything :)
+
+ty"
+,Daeshan,2011-08-15T16:14Z,"@ChristoMania
+the only ideas i got for yu is to reinstall and do exactly what the readme says, other than that i cant help yu mate.
+Been lookin for this a little, thanks chipxsd"
+,rmak321,2011-08-23T08:31Z,"***Ableton users, Please help.***
+
+Massive opens fine in Windows but I cannot use it through Ableton. I've set my plug-in sources and rescanned but nothing. In my file-browser within Ableton, the Massive folder is there but no Executable file to drag into the Ableton workspace. I've searched online but haven't found anyone else experiencing problems like this. 
+
+I'm using a PC, windows 7 64 bit, updated version of Ableton Live 8 (legit, non-pirated), and this torrent of Massive. 
+
+Can anyone help??"
+,evilcherub,2011-09-03T20:57Z,"D/l'ed and installed it, all good so far, but then when I tried to open it standalone, AVG said it was malware and put it in the virus vault. Anyone else had this problem? Running Win XP by the way"
+,deniro7,2011-09-16T16:40Z,Cool! Thanx
+,Seckpr,2011-09-19T13:16Z,"Cubase 5 : Had the ""Couldn't find resource files"" problem. I only had the VST installed. I installed the Standalone and now the VST works fine. Strange solution, maybe the VST uses the Standalone to locate the files. Who knows..."
+,robseeds,2011-09-29T15:35Z,"would this work on a mac?? I'm thinking it would because it's just a plugin, but i'm questioning if the installer would work. I'm running Pro Tools 8"
+,tmanstext,2011-10-15T09:38Z,"SICK! Worked like a charm. Took a little learning to figure out how to run it, but it worked. :)"
+,maaticious,2011-10-27T11:41Z,Yeah it downloads but there is no sound 
+,iGotBalls,2011-11-23T21:29Z,"everything installs fine but when i launch it it gives no answer!! please help!
+win7 64bit"
+,WhyPaywhenUcanPirateBay,2011-12-01T23:02Z,"works fine for me, use youtube as a guide if you're having problems. "
+,bl4cksal34th,2012-02-11T08:55Z,"For ABLETON USER!!!!
+
+in ableton go to option>Preferences> Plugin sources> Browse
+
+Find File C: programs vst plugins 
+
+Rescan and massive will work "
+,pastaisyellow,2012-03-11T13:50Z,"HELP: I'm getting the same problem as fabalabadingdonghoophoo.
+It works fine when i use the stand alone version. however, if i try to use it in fruity loops every time i change anything it stops outputting any sound. so i tweak the sound and it just doesnt work until i reopen it or whatever. is there a way to fix this?
+All my other plugins work fine."
+,EricWill,2012-05-14T03:53Z,"I downloaded the torrent and ran setup.exe, but whenever I try to run it, it just doesn't respond. Sorry if I sound stupid, I'm kinda new to this"
+,dubwank,2012-05-29T06:21Z,this has a trojan in it... thanks for that
+,HeywoodFloyd,2012-06-30T16:11Z,"To all those complaining about trojans found in warez,
+it's exactly the same for keygens,
+antiviruses will always see them as trojans or at least as any kind of threats...
+But it doesn't mean it'll infect your computer.
+It's just a trick to keep you far from warez..."
+,amtlib.dll,2012-07-04T03:48Z,"@rmak321
+
+Its not just for ableton, its for any DAW software.
+
+If you are looking forward to using this software as a plugin, do not get this torrent.
+
+This torrent uses a modified installer, which does not install the ""VST Plugin"".
+
+If you need the plugin, go back to the pirate bay and dwonload a different version, a version with the original installer. And make sure to select ""Install VST Plugin"""
+,amtlib.dll,2012-07-04T03:51Z,"*** IF YOU WANT TO USE MASSIVE AS A PLUGIN***
+
+If you want to use massive as a plugin, do not get this torrent, get this one instead: 
+
+http://thepiratebay.se/torrent/6802301/Native_Instruments_Massive_STANDALONE_VSTi_RTAS_v1.3.0_x86_x64_-"

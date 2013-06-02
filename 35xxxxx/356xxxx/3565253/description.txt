@@ -1,0 +1,28 @@
+Azureus 2.5.0.0
+
+Azureus implements the BitTorrent protocol using java language and comes bundled with many invaluable features for both beginners and advanced users:
+
+    * Multiple torrent downloads
+    * Upload and download speed limiting, both globally and per torrent
+    * Advanced seeding rules
+    * Adjustable disk cache
+    * Only uses one port for all the torrents
+    * UPnP sets the forward on your router
+    * Can use a proxy, for both tracker and peer communications
+    * Fast resume
+    * Can set a default download dir and move completed files
+    * Can import torrents automatically from a set dir
+    * Highly customizable interface
+    * IRC plugin included for quick help
+    * Embedded tracker, host your own torrents, automate your shares (periodic scanning of a dir)...
+    * Distributed Hash Table: host on it a completely decentralised torrent and/or benefit from it when the tracker is offline.
+
+
+Many useful plugins are available:
+
+    * Auto-adjustment of your upload and download speeds according to your network charge with Autospeed
+    * Auto-download torrents with RSS Feed Scanner
+    * Schedule upload and download speed limits with Speed Scheduler
+    * Receive a mail when a download finishes with Status Mailer
+    * Add numerous info on torrents (Extra seeding columns, Country Locator)
+    * Remote control Azureus through the Swing Web Interface or the HTML Web Interface

@@ -1,0 +1,14 @@
+﻿User Type,Username,Date,Text
+,dinan,2006-10-18T08:37Z,"thanks...
+
+
+seed?"
+,stilez,2006-10-18T08:47Z,"Hmmm, im not sure why it's not seeding, for some reason i cant get rid of my constant red NAT icon either, and i've done everything, forwarded ports, put my PC outside of the router. . .so many complications sometimes i feel like i'm going through pregnancy when i'm trieng to debug my PC problems, and i aint even a chick but i know bitches be screamin when they have kids and thatz what i feel like doin right now. . .
+
+-John"
+,AcidReign,2006-10-18T19:10Z,"Do you use Azureus, and do you use a router? If you use a router, go into it's settings. Find settings to add a port, and create one. Make it something like port 50987, and enable it for both TCP and UDP ports, incoming and outgoing. Some routers won't let you allow a port to have both settings TCP and UDP, and if that's the case, create 2 port rules, 1 for TCP and 1 for UDP.
+
+On your PC, add the same port and rules (again for both TCP and UDP) to whatever firewall program you use (like Windows Firewall). 
+
+Now, under Azureus, in the menu, go to Tools>NAT/Firewall Test. The port number you created, add it to the text field, then 'Test'. When it says, ok, hit apply. If it don't work, restart your PC, modem, router, etc., open Azureus again, and do the NAT/Firewall test again. Hope that helps you, stilez."
+,Serrated,2007-10-25T05:05Z,Seed please!

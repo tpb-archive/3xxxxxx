@@ -1,0 +1,18 @@
+Sockets, Shellcode, Porting & Coding
+
+Reverse Engineering Exploits And Tool Coding For Security Professionals
+
+Authors:    James C. Foster, Stuart McClure
+Publisher:  Syngress, First Edition (March 21, 2005)
+Pages:      697
+ISBN:       1597490059
+
+Synopsis
+This book is logically divided into 5 main categories with each category representing a major skill set required by most security professionals:
+1. Coding: The ability to program and script is quickly becoming a mainstream requirement for just about everyone in the security industry. This section covers the basics incoding complemented with a slue of programming tips and tricks in C/C++, Java, Perl and NASL.
+2. Sockets: The technology that allows programs and scripts to communicate over a network is sockets. Even though the theory remains the same communication over TCP and UDP, sockets are implemented differently in nearly ever language.
+3. Shellcode: Shellcode, commonly defined as bytecode converted from Assembly, is utilized to execute commands on remote systems via direct memory access.
+4. Porting: Due to the differences between operating platforms and language implementations on those platforms, it is acommon practice to modify an original body of code to work on a different platforms. This technique is known as porting and is incredibly useful in real world environments since it allows you to not recreate the wheel.
+5. Coding Tools: The culmination of the previous four sections, coding tools brings all of the techniques that you have learned to the forefront. With the background technologies and techniques you will now be able to code quick utilities that will not only make you more productive, they will arm you with an extremely valuable skill that will remain with you as long as you make the proper time and effort dedications.
+
+Note: Chapter 12 contains a very good guide to writing exploits for the Metasploit Framework!

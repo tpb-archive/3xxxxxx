@@ -1,0 +1,21 @@
+﻿User Type,Username,Date,Text
+,NomIg.,2007-01-16T23:21Z,"this torrent contains par2 files which don't decompress for me (an internal error occurs while processing).  the ts files have no audio?  can anybody explain to me what is going on with this torrent?  should the ts files have audio tracks?  what are the par2 files for?  
+
+any help appreciated."
+,NomIg.,2007-02-05T02:11Z,"confirmed:  no audio playback from vlc.  par2 files don't compress. 
+
+wouldn't recommend the download......."
+,hurrafor,2007-07-22T17:44Z,"ABSOLUTELY works....you just have to do a little digging:
+
+First, you need HDTVPump:
+
+http://www.dvbportal.de/projects/hdtvpump/
+
+And then (At least for any HD-DVD releases by HDTV_CHINA i have) you need Matroska Splitter
+
+http://haali.cs.msu.ru/mkv/
+
+You will also need to have a MPEG2 decoder previously installed. NVIDIA's works. If you can play a DVD - chances are you have a valid decoder.
+
+Install those and report back!"
+,pesicvladica,2007-12-01T15:04Z,How do i burn this files on disc?

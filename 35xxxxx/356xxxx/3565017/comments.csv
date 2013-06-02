@@ -1,0 +1,27 @@
+﻿User Type,Username,Date,Text
+,reichert,2006-11-26T04:13Z,"
+...""First, u need to goto Start, then run. Type in regedit in the box. Next, 
+goto the folder HKEY_LOCAL_MACHINE\System\CurrentControlSet\VxD\MSTCP 
+Now, find the string DefaultRcvWindow. Now, edit the number to 64240
+then restart your computer. There you go. High speed cable modem now 
+with out dloading a program. Original value is 373360 ""....
+
+Ok... and how does this work, what does this do....? 
+"
+,csquid,2006-11-26T05:57Z,"This is hopelessly outdated.  HKLM\System\CurrentControlSet\VxD?  That key doesn't even exist on PCs more recent than Windows 98/ME... if you're running 2k/XP it's worthless, they don't even have VxDs.  And second, changing the TCP window size is not going to have a very big impact on performance.  Somebody just put together a collection of semi-random changes to network settings for really old OSs... it's mostly harmless, but won't benefit you any."
+,reichert,2006-11-26T06:03Z,"
+...""First, u need to goto Start, then run. Type in regedit in the box. Next, 
+goto the folder HKEY_LOCAL_MACHINE\System\CurrentControlSet\VxD\MSTCP 
+Now, find the string DefaultRcvWindow. Now, edit the number to 64240
+then restart your computer. There you go. High speed cable modem now 
+with out dloading a program. Original value is 373360 ""....
+
+Ok... and how does this work, what does this do....? 
+
+
+
+Thanks csquid... I thought so as well.... This why I did ask, maybe there ws someting I did not know.
+"
+,doctor.anti,2006-11-26T18:24Z,i'm sorry guys i didnt know this was out dated but i did it my self a couple of years ago and it dobbled my connection speed
+,ea001,2006-11-26T18:29Z,RIGHT
+,oktan,2006-11-27T20:05Z,bright guy !

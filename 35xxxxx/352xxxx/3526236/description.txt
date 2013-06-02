@@ -1,0 +1,71 @@
+TEAM YAG presents:
+                   Gene6 G6 FTP Server v3.4.0.16 Professional
+
+
+Release-Date: 2004-01-29
+Program Typ : ftp server
+URL         : http://www.g6ftpserver.com
+
+
+Release-Notes:
+==============
+
+Gene6 FTP Server is a professional Windows FTP Server featuring speed, reliability and customization. Its
+main assets are remote administration, encrypted (SSL 128-bits) connection and ease of use.
+Gene6 FTP Server has been developed for demanding business and corporate use. With SSL support it can be
+used to transfer important files over internet with security like medical information and sensitive data.
+
+
+Main features:
+
+-Remote administration over secure connection.
+-Secure SSL 128-bits FTP support (implicit / explicit).
+-HIPAA Compliant.
+-SSL certificates management.
+-Administrative accounts (admin, super admin).
+-Unlimited domains, user & group accounts.
+-Bandwidth management (min/max, upload/download, entire server, domain, user).
+-Activity, traffic monitoring.
+-Virtual directories (UTF-8 support).
+-Scripts (VB, JS), plugins.
+-MODE Z - Zlib on the fly compression
+
+
+Features and options:
+
+-Intuitive interface which can be localized
+-NT authentication; (use of windows password), Use already defined Windows accounts.
+-One Time Password S/Key (MD5); Do not submit your password in clear over internet connection.
+-IP based access; Choose who can and who cannot connect to your server (user account or server level).
+-Maximum connections limitation (IP, domain, user); Manage your network and system resources efficiently.
+-Custom commands and messages definition; Expand available commands and messages in your FTP server and
+ customize it to your needs.
+-Unlimited Accounts; Create as many accounts as you need.
+-Accounts expiration; Do not let old accounts be available forever, just set them an expiration date.
+-\'Kick User\' and \'Stop Transfer\'; You are the boss on your server!
+-Live administration; No need to restart the whole server to apply changes, adjust any settings you
+ want to be changed at runtime.
+-Events manager; React on file upload (want to check files for virus ? send an e-mail when a file is
+ uploaded ?), file download ...).
+-Time of day access; Schedule your bandwidth usage per day or week.
+-Ratio, disk quota system; Give when someone gives you.
+-MDTM Support; Your users can change the date-time stamp of files.
+-File types/size restriction; Restrict kinds of files hosted on your server and their size.
+-Built in integrity check commands (CRC, MD5); Be assured files were transferred without problems.
+-Upload/Download resuming; Do not let a connection problem waste your time, just resume your transfer
+ instead of restarting from zero.
+-Detailed and customizable logging per domain; Review logs and know what parts of your server users
+ are interested in.
+-System service; Starting with Windows, it does not require user\'s intervention.
+-COM Objet; You can interact with the server properties from your application to add, modify settings
+ such as domains or user accounts.
+
+
+
+Install-Notes:
+==============
+
+install & copy the license file from crack dir to your install dir.
+
+NOTE: BEFORE you copy the license file, close all g6 tasks, after installation \'G6FTPServer.exe\' is running!
+   ...just check your taskmanager.

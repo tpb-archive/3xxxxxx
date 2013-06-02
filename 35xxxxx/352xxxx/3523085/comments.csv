@@ -1,0 +1,53 @@
+﻿User Type,Username,Date,Text
+[V],felch,2006-09-28T02:44Z,hola amigo - does this only work with the 82915G express chipset?
+,iggi_,2006-10-27T10:07Z,"Hey Amigo does this osx works on dual core amd?
+and could it be installed on sata hdd?"
+,Seal401,2006-10-28T02:11Z,"According to the summary, no, it won't work on AMD Dual Core...But I don't really know, I just speak Spanish."
+,qapak,2006-11-03T21:30Z,"Hey
+
+I can´t download download so big file.
+Contact me if U are interested to sell in DVD..."
+,wizztoorr,2006-12-04T23:25Z,"gapak: You must have NTFS partition, FAT32 will not work."
+,braso,2007-01-12T08:28Z,is there's any forum for drivers installation ?
+,oddape,2007-01-31T16:40Z,"faen i hælvete. har lasta ned 6 forskjellige, og ingen funker på mac. har en g4 imac.
+hva gjør jeg feil? brenner i diskverktøy og alt faen ass"
+,aknot01,2007-02-18T16:28Z,"this is for intel & amd cpu solely mate ;)
+installing this on a imac g4 wont be succesful ;)"
+,huckle-b-finn,2007-03-07T14:46Z,is this mac os x for ordinary (spelling) pc:s??
+,pcastell,2007-07-10T19:32Z,"requirements:
+  intel mainboard and chipset
+  cpu: any processor that support SSE2 and SSE3 extensions (it should work with only SSE2, but some applications may fail)
+  video: ati / nvidia / intel 915g (or any other recent intel IGP)
+
+on windows you can check your hardware with lspci, and your cpu instruction set with cat /proc/cpuinfo (take a look at flags list)
+
+you can found more info here: http://www.osx86.theplaceforitall.com/howto/ and here http://www.osx86project.org/ and you probably like this too: http://www.x-devian.com
+
+hope this help.
+Pablo"
+,pcastell,2007-07-10T19:34Z,"my bad ...
+*on linux you can check your hw with lscpi and cat /proc/cpuinfo
+on windows i have no idea, but for sure you can find an answer on google :P"
+,ph00x,2007-10-20T02:00Z,"For everyone asking if this is English or Spanish MacOS X: MacOS is localizable in any language through free in-OS downloads via SoftwareUpdate. It's not like Windows, where you need to buy the localized version from the get-go.
+
+Point: even if this is Spanish, it doesn't matter, just download the English localization in SWU."
+,ParadiseKiss,2008-08-28T13:49Z,"hi dude.. i want to know if this runs on my computer
+--> Core2Duo E6750 2.66GHz 
+--> Asus P5KR Chipset P35
+--> 3 HDD SATA Hitachi 500GB
+
+
+It runs??"
+,PROTEOUS271158,2010-06-01T08:23Z,"Works great! Me GUSTU!!!
+Thank you very much.
+Anybody know how to update to 10.4.11? 
+I had 10.4.11 installed but made the mistake of trying to install the very last security update(Intel) and it killed it. Then i realised my disk was missing for install and it's disappeared from all the sites I've checked.
+My Specs:An old Intel D915PGN Board
+                         Pentium4,3.8Ghz
+                         with see2,see3,EMT64
+                         3GB Ram
+                         GeForce9500GT-1GB
+I've got a shitload of games and software for older macs and hate the thought of throwing all that money down the drain because the new systems are purposely made incompatible to get us to waste or hard earned wages while providing a high tech billboard for the tons of adverising you see.
+Thanks again !  "
+,bevi14,2010-06-23T02:19Z,"cool app
+try found in http://bestappsmac.blogspot.com/"

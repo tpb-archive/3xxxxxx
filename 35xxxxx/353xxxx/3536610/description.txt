@@ -1,0 +1,19 @@
+This is an Atari 2600 Self Boot CD For the Dreamcast wiith games It took several tries to figure it out how to set it up and burn it, so that it will run on the Dreamcast. 
+
+They key to getting it to work is the burn options needed by the dreamcast. So just follow the simple burning method for the Disc Juggler program and bingo.
+
+How to burn .cdi files
+You need a:
+1.DiscJuggler program
+2.Brain
+
+Open Discjuggler. Go in File and then New and press Burn Cd and DVD images.
+Click on the CD and the papper image and browse for the .cdi file. After you have done that
+go in the \\\"Advanced\\\" tab.
+Change Mode to Mode1/DVD and TOC should be CD-ROM/DVD.
+In the misc area chech the box RAW Write and Overburn CD.
+Go back to \\\"Source & Destination\\\" tab and click start. And don\\\'t forget to insert the CD..
+All .cdi files is often selfbootable so no need to use boot cd
+
+Follow the above instrtuctions or your disk will not work.
+

@@ -1,0 +1,41 @@
+﻿User Type,Username,Date,Text
+,Sanctos,2006-07-13T12:17Z,Awsome! riktigt jävla bra =) ^^ har spelat dark forces 2 i en massa långa år nu =)
+[V],mulle_bombad,2006-08-11T13:48Z,"Hey come on please seed ffs i am stuck at 99,3% I really want this game !!!
+
+Kom igen nu seeda snälla jag vill verkligen ha det här spelet !!! Det är bara några kB kvar nu !!!"
+[V],mulle_bombad,2006-08-11T21:30Z,"C'mon seed ffs I am stuck at 99,9% !!! 
+
+I will seed as much as I can later if someone could just seed a few seconds !!!"
+,Slim-T,2007-02-04T21:00Z,är det här värkligen den gamla Star Wars DARK FORCES?! Den är omöjlig att hitta att ladda!
+,Slim-T,2007-02-04T21:01Z,och fresten den är från 1995
+,domientius,2007-07-17T12:21Z,"game asks for a CD, the text files included here don't explain how to get around this."
+,Slim-T,2007-08-08T15:02Z,"How to install it?!
+Hur installerar man det?!"
+,spaggysteve,2007-08-20T05:56Z,"I remember when I had the Mac version, you could get around the CD check by just making any type of drive with the same name as the master CD (i think it was just Dark Forces). For example, I just copied all the files from the CD to a Zip Disk and named it Dark Forces, and the program worked fine. Maybe a virtual drive with all the files will work the same way. "
+,nutbucket,2008-02-14T23:18Z,spaggysteve is right.
+,Sulaco(HU),2008-03-14T08:51Z,Seed pls.!!!!
+,Lost_and_High,2008-05-09T22:15Z,seed!!!!!!
+,5inister,2008-07-14T06:52Z,If you still can't get it to work try coping the files to a folder and mount on dosbox (http://www.dosbox.com/)
+,Tatsh,2008-09-12T00:34Z,"If you are using DOSBox or DOS in a VM, copy CD.id to a drive and then edit under the installation folder DRIVE.CD to the letter where CD.id is located."
+,chaosheritage,2010-07-17T00:00Z,"Thanks, I have to try dosbox. I will seed this."
+,Loredaen,2010-07-19T22:58Z,"This is great!  Except for the fact that my computer can't read any of the Sound effects or music during the gameplay.  In fact, it can't read the sounds.gob period!  And the VDMSound thing doesn't make a difference either."
+,propagator4,2011-05-25T18:18Z,"I've found a few suggestions to fix the problem Loredaen mentioned. I should start out by mentioning that I am running OSX. If there's a simpler way, someone say so. This is my first time working with DOSBOX. 
+
+In OSX. I copied the install.exe file from the dark forces directory into the dark directory.
+
+Then, in DOSBOX, I mounted as C the dark directory, and mounted as D the darkforces directory as a CD ROM drive (-t cdrom).
+
+After that, every time I play I just make sure I mount the DarkForces directory as a cdrom, and the Dark directory as a separate directory. Tell Dark Forces to look for the CD in the mounted CDROM directory, and the sound and everything will work.
+
+Sources:
+
+http://www.dosbox.com/wiki/Talk:GAMES:Star_Wars:_Dark_Forces
+
+http://www.dosbox.com/comp_list.php?showID=711&letter=D
+
+http://www.lucasforums.com/archive/index.php/t-119594.html
+"
+,Resilience777,2012-04-14T04:31Z,"Hey, I found a Windows port for this game, called XL Engine. It's still a work-in-progress that will also support like 3 other games, but it looks stable enough to run Dark Forces.
+
+http://xlengine.com/?page_id=50"
+,oblivion119,2012-08-13T04:12Z,"when i type install.exe i get an error that says ""An error occurred while trying to read the jedi.cfg file."" what am i doing wrong here?"

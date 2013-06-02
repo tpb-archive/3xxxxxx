@@ -1,0 +1,17 @@
+This is the latest version of the Knight Online client program available from K2.  I am offering it thru bit torrent because even though I have broadband, it took me over 7 hours to download the software thru download.com because it would only let me go at 20K.  Also, when I installed this version of the client, it had an error where it couldn\'t contact the update server and would refuse to start.  After reviewing a couple posts on the official forums, it appears the \"server.ini\" file should be modified to read as follows:
+
+================================================================
+
+[Server]
+Count=1
+IP0=login.knightonlineworld.com
+
+[Version]
+Files=1461
+
+[Join]
+Registration site=http://www.knightonlineworld.com/joinus.asp
+
+=====================================================================
+
+You may have an update error upon running the client for the first time.  To resolve this, you can either go into the directory where you installed Knight Online, erase the contents of the original \"server.ini\" file and replace it with the above text, or you can simply cut and paste the modified \"server.ini\" file I have included with thise release.  But remember to seed where possible so that others may benefit from the swarm speed.  This is the client as it appears on download.com, there is no bundled malware of any sort.  Download, install, and enjoy!

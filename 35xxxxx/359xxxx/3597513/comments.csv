@@ -1,0 +1,31 @@
+﻿User Type,Username,Date,Text
+,oxbeast,2007-01-19T10:32Z,Seeding would be a good idea !!
+,nacos,2007-01-20T12:07Z,"Not working - error mesage:
+Error finding MDR image file.
+MDR file name: FAMILY_706MDRMAP.IMG"
+,garminfriend,2007-01-22T07:55Z,"@nacos
+I found a patch for this problem on www.garmin.at
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_706]
+""ID""=hex:c2,02
+""MDR""=""C:\\garmin\\FAMILY_706\\MDRMAP.IMG""
+""IDX""=""C:\\garmin\\FAMILY_706\\product.mdx""
+""UnlockURL""=""http://www.garmin.com/cartography/mpc/""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_706\1]
+""Bmap""=""C:\\garmin\\FAMILY_706\\basemap.img""
+""Tdb""=""C:\\garmin\\FAMILY_706\\product.tdb""
+""Loc""=""C:\\garmin\\FAMILY_706"""
+,garminfriend,2007-01-22T07:58Z,"topo austria does ONLY WORK ON A PC. it is NOT POSSIBLE to submit maps to a gps-unit like etrex.
+what is the sense of a torrent like this???"
+,B.A.Funky_Monkey,2007-01-22T14:42Z,The reason it's useful is that you can still use them on your PC in conjunction with a Garmin GPS.  The Topo maps are a bit less useful than others ...since you probably won't be hiking with a laptop.
+,hugo5,2007-03-18T14:31Z,"To BlueBeaver
+
+How would uploading work? Could you please exlain.
+
+Thanks!"
+,hugo5,2007-03-18T23:40Z,"By the way, the above code is not working. There is no error when I try to unlock, but the map stays locked in Mapsource.
+
+So neither GPS nor PC use with this one. :-/"

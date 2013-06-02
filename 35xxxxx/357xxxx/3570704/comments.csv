@@ -1,0 +1,154 @@
+﻿User Type,Username,Date,Text
+,mrulrich,2006-12-04T22:39Z,"S/N for this:
+
+XSVR-104-000-N-6GC-SS3-D42-WVL-GFV-L7P-M "
+[V],pythonx,2006-12-05T08:48Z,"md5sum mac_os_x_server_v10.4.7_universal_build_8k1079.dmg
+
+eca2735c84897ff59b49b7c7b9759084  
+"
+[V],pythonx,2006-12-05T08:53Z,"sha1sum mac_os_x_server_v10.4.7_universal_build_8k1079.dmg
+e71b683b16c13cf7f086f4b6ce4579f7da1d53e6 "
+,hagren,2006-12-05T20:21Z,"The search is over...
+I just wanna say to pythonx:
+I LOVE YOU! SO MUCH!
+THANK YOU! THANK YOU! THANK YOU!"
+[V],pythonx,2006-12-20T21:34Z,"nrj33445566:
+
+Basically you don't
+
+There's converters available for converting dmg 2 iso (google for dmg2iso) but i'm unsure about how well those works."
+,Janvitos,2006-12-27T18:29Z,"This image file doesn't appear to be bootable. I have tried burning it with several iso utilities such as UltraISO, MagicISO, i have tried converting it in many ways but the DVD simply wont boot. Most utilities label it as ""not bootable"" as well."
+,Janvitos,2006-12-27T18:30Z,Has anyone actually got this to boot ?
+[V],felch,2006-12-30T05:44Z,Sometimes I have found that using DiskUtility to burn these images helps - try that and let me know if it's bootable if you use DiskUtility to burn the DVD...
+,emrwe,2007-01-01T13:13Z,use ultraiso to convert.
+,metal10is,2007-01-23T03:11Z,"OK well everytime i open it, it says that i have to restart the computer and when i do, the dmg is gone and nothing happens so i open the dmg again and copy all the files and it says you do not have sufficient privelages to copy some stuff but most of it gets copied then I open it again with the new copy and it says The application ""Intall Mac OS X Server"" cannot be used from this disk.
+To install Mac OS X, please use the application povided on the Mac OS X Server installation disk.
+What do I do? Help please."
+[V],pythonx,2007-01-24T11:16Z,"metal10is :
+
+You burn it to a DVD and install it just as the normal OS X version."
+,metal10is,2007-01-25T03:54Z,how do you burn it without copying it onto the dvd
+,metal10is,2007-01-25T03:54Z,i tried to just drag and drop but it says i dont have privelages again
+,metal10is,2007-01-25T03:59Z,i cant copy system>library>file systems and some other stuff too
+[V],pythonx,2007-01-27T19:05Z,"Metal101s:
+
+Go to Disk Utility, Select the image and choose Burn  Disc and burn it to a DVD. Or use Toast or any other application that's for burning DVDs (Firestarter fx). You aren't supposed to Drag the files to a burnable folder and burn it, you aren't even supposed to mount the image.
+"
+,seej,2007-01-30T00:44Z,"This image is bootable, you just have to burn it using disk utility. Plain and simple instructions for OSX users:
+
+1) Pop a blank DVD-R in your DVD-writer.
+2) Find the .dmg file.
+3) Right-click/Ctlr-click on the file and choose 'Open with' > 'DiskUtility.app'.
+4) Click the burn/nuke icon in the top left-hand corner of the disk utility application. If the icon isn't enabled, make sure that the image is selected."
+,xxdesmus,2007-02-08T23:59Z,"Installed, rebooted, entered 
+
+XSVR-104-000-N-6GC-SS3-D42-WVL-GFV-L7P-M
+
+Which works by the way, and then about 2 minutes later everything stopped working and it says ""invalid serial number"" and everything no long works.
+
+So this is pretty much useless unless we block the Server from calling home to Apple.
+
+The funny thing is how people make fun of Microsoft for its anti-piracy methods. At least Microsoft asks before it calls home, Apple just does it in the background without you even knowing it."
+[V],pythonx,2007-02-09T22:59Z,"xxdesmus:
+
+You don't have 2 OS X Servers running on the same subnet with the same Serial? In those cases it will immediately complain."
+,AE-Torrents,2007-02-16T19:37Z,"ThX a lot!
+
+But there is one Problem:
+
+md5-Checksum: not equal!
+damn! Re-downloading...
+
+Next time please use an Archiver and split it to filesizes of max. 100MB. When Checksum fails in one file you don't have redownload the whole package.
+
+I believe some people here tried to burn a broken image... like ""metal10is""
+Check the image before burning (and seeding)!
+Thx..."
+,AE-Torrents,2007-02-17T01:47Z,"Now I have downloaded it again!
+
+Same MD5 as before:
+d41d8cd98f00b204e9800998ecf8427e
+
+When i want to burn the image using TransMac it can't decompress the image... :(
+
+Hope someone can help."
+,pythonx,2007-02-19T20:02Z,"AE-Torrents:
+
+I'll create a few PAR2-archives and upload as torrent as soon as I get the time (Expect it within 24 hours)
+
+Will post a link as soon as i've done so."
+,snowhow,2007-02-20T04:08Z,"I found a workaround in a forum on another site--- if you already have JaS 10.4.6 DVD or have a working install, once you download the server .dmg extract out these files:
+
+ApplicationsServer.pkg
+QuickTimeStreamingServer.pkg
+ServerAdministrationSoftware.mpkg
+ServerAdminTools.pkg
+ServerEssentials.pkg
+ServerSetup.pkg
+
+You can find them in Systems\installation\packages
+
+double click each file to install. once all are installed, have your key ready:
+XSVR-104-000-N-6GC-SS3-D42-WVL-GFV-L7P-M
+That's what I did and it works with no problem."
+,snowhow,2007-02-20T04:19Z,"EDIT:
+After all files are installed, REBOOT and have your key ready. Enter the key, login with username and password that you supplied during initial setup, and welcom to OS X Server.
+
+NOTE: *DO NOT* install any ""core"" updates offered by the update utility. It will crash your system!!!"
+,snowhow,2007-02-22T04:33Z,"Your best bet to burn this in a pc is with TransMac. Here is a link to a torrent I know works:
+
+http://thepiratebay.org/tor/3623850
+
+It's TransMac 7.5 activated. It works."
+,pythonx,2007-02-27T22:01Z,"As Promised, PAR2 files for this file as some of you seems to have problems downloading it:
+
+http://www.thepiratebay.org/tor/3628290/mac_os_x_server_v10.4.7_universal_build_8k1079_PAR2_FILES"
+,Dave68030,2007-03-23T16:29Z,My download became hopelessly corrupted from what appears to be an application crash- I feel bad because I didn't have a chance to seed afterward (bittorrent now refuses to deal with the corrupted .dmg)- so I basically downloaded 3.3 gigs from y'all and uploaded something like 400megs (!). My apologies to everyone.
+,halo37253,2007-04-11T05:33Z,why would anybody want a mac sever. they are the most unstable and the most useless sever ever its has so little futures. i have a mac pro intel what i bought because i was stupid. i will never buy mac's again and windows os works much better i think. it felt 2 much like linux 2 me what i dint cair 2 much for. i have mac os x dual booted with windows 2004 sever. get a real sever if you really want a sever. linux sever is great if you no how to configure them 2 work great with windows and such. 
+,PsyMan2000,2007-04-23T13:17Z,"To be honest, if you don't know how to burn a dmg file to CD or DVD then you are not going to get on with this torrent at all, I run 8 OSX servers serving over 1000 macs and in my opinion life is very simple, mac servers in a mac environment is so much simpler than the windows alternative (which I reluctantly also run) however the 8 linux servers I have are a lot trickier to maintain. Baically, if you don't know OSX then this really aint for you."
+,enzo1503,2007-07-27T08:05Z,"1. Download the DMG.,DO NOT OPEN IT!
+2. Open disk utility and make a new image file of the DMG. as CDR/Master.
+3. Then use Disk Utility to burn the CDR/Master image to a DVD."
+,0xff,2007-08-22T20:30Z,"All these comments confuse me a bit...
+First of all I have a brand new MacBook Pro with the desktop Tiger version updated with the latest updates from Apple. I just want to install the server components upon my existing installation.
+Should I install manually the packges as 'showhow' wrote or I can start the installer from the mounted DMG and choose from there, as the documentation recommends?
+Has anyone done that (either method of installing upon a desktop system)?Will updating the system after that crash / mess up my installation? To what extend? Because not updating after installing the server stuff doesn't seem right to me.
+
+Thanks &&
+Let the source be with you!!!
+;-)"
+,0xff,2007-08-23T06:28Z,"A clarification: When I wrote 'start the installer from the mounted DMG and choose from there, as the documentation recommends', I ment starting the MacOSXServerInstall.mpkg from the Other Installs directory as the 'Read Before You Install Server.pdf' suggests."
+,heyyderr,2007-09-08T04:19Z,Is this the version that's limited to only 10-clients? Anyone know where I can get the unlimited clients version?
+,snowhow,2007-11-13T04:44Z,"To clarify my previous comment:
+   If you are running Apple hardware, you can install updates from Apple. If you are running one of the JaS releases on a PC, those kernels are different than the ones you download from Apple because the Intel chip in Apple hardware is different which is why you need, for example, the Semthex SSe2 SSe3 kernel patch available in JaS 10.4.8.
+   If you are doing this on a PC, the manual instructions in my previous comment are the way to go because you won't have to worry about installing a new kernel when you upgrade to Server. It's after that *ON A PC* that you should not update the system. If you are on *APPLE* hardware, update away.
+   In Mac you can burn this image with the disk utility from Images - Burn and select the file. If all you have is Windows, the TransMac link I gave earlier should burn it for you.
+
+   Hope this helps,
+SnowHow"
+,troisd,2008-01-26T21:44Z,is this retail or patched?
+,Ge64,2008-04-26T08:21Z,"Actually this build is for Mac Pro only. I tried it on my iMac and it doesnt work, not compatible it says. Wikipedia says this build is the 10.4.7 update for Mac Pro, there is another build that should work on all macs but this isnt it."
+,rockit99,2008-05-17T18:01Z,"pythonx: never mind all those who simple can't be bothered to look up installation or product details on the Apple web site... 
+
+Thanks for the 10.4.7 Server upload, it DOES install on anything without any problems. If you've had any experience of installation of OS's or servers then it's exactly the same. Easy peasy.
+
+I only had a (legit) PPC version and needed the Universal after a sudden change of Mac (to Intel Mac mini) by a client...
+
+Apple updates can be downloaded as normal."
+,meisterproper,2008-09-03T18:46Z,"Hi i downloaded succesfully but if i want to install it it allways hangs on at the select pages at the beginnin. 
+
+I have G4 400Mhz with 128MB of RAM but 1GB is on the way home!
+
+Need Help, please"
+,Mikie104,2009-01-23T18:31Z,Can people PLEASE SEED? Very slow torrent and need this ASAP. Thanks !
+,riqay1,2009-02-12T20:58Z,"Had no problem with this download, and installation is going smoothly.
+
+Also wondering if anyone out there has the install CDs for Max OS X 10.3 Server (Panther). I actually only need disk 1 (of 3), and can't find it anywhere. Any leads?"
+,Shadymedia,2009-02-21T20:03Z,Seed Please seed!!!!
+,sw83,2009-11-06T09:17Z,"WOA!
+This file appears to be tracked by the copyright holder (Business Software Alliance / baytsp), who was not shy about sending my ISP a legal threat - passed on to me - for downloading this. 
+Now I'm not a torrent noob, but this is the first time I've received anything like this. Anyone else had problems? / rec'd legal threats / complaints? or am i just unlucky?
+regards.
+ps. massive props to piratebay for STAYING OPEN!!! "
+,Kasm279,2011-04-24T03:40Z,"I can't get this to install on my PowerMac or iMac, both of which are G3/400MHz with the iMac having 512MB of RAM and the PowerMac G3 (a B&W) haveing 1GB. Both machines tell me that ""This version of Mac OS X 10.4 cannot be installed on your computer."" Any ideas? I'm trying a PPC only version btw, will post results..."
+,patddfan,2011-06-04T23:53Z,can this run classic?

@@ -1,0 +1,35 @@
+Click on the following links:
+
+FFD Show 
+http://mirror01.x264.nl/x264/ffdshow-2546-gcc4.0.3-sse-x264.nl.exe
+
+H264 INSTALL 
+http://mirror01.x264.nl/x264/revision531/x264-531-install.exe
+
+nsv_x264.zip
+Click Me or Click Me
+
+Ok lets Install Now
+
+Before we install please make sure you have all necessary programs and
+winamp then:
+
+1. Unzip nsv_x264.zip to a temporary folder and then copy the codec nsvdec_x264.dll to
+winamp plugins which should be located program files > winamp > plugins.
+
+2. Now install the first download FFD show.
+
+3. And now install h264 install.
+
+4. And last but not least configure FFD show like this:
+
+click start menu->programs -> ffdshow -> VFW Codec configuration.
+
+In there you will see 2 "Tabs" at the top. click the Decoder tab click and highlight "Codecs" on the top left and a list of installed Codecs will appear on your right.
+
+Look for h264 in the list and right click on it and select from the menu that pops up "Set all stable formats to libavcodec". Then click "Apply" and "OK" to save and close the window.
+
+
+If your still having trouble playing your NSV files then try MPlayer
+ 
+http://www.free-codecs.com/MPlayerUI_download.htm

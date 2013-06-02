@@ -1,0 +1,16 @@
+Windows XP con sp2, desatendido, inicio de aplicaciones mas rapido.
+
+- Incorpora los drivers de nvidia 93.71 optimizados.
+- Se a cambiado la direccion de Documents and Settings en la Particion o Unidad D: para no perder datos a la hora de formatear C: y volver a instalar.
+- El theme por default es el mismo de Ubuntu, y se pueden instalar themes sin firmar puesto que se a modificado el UXTheme.
+- 50000 conexiones simultaneas sin terminar.
+- Sin requerimientos minimos (RAM & HDD) para la instalacion.
+- Restaurar Sistema solo usa 3% del disco duro.
+- QoS ya no se reserva ancho de banda el servicio Quality of Service.
+- IE solo reserva 20Mb de cache y se limpia su historial cada 5 dias para evitar perdida de espacio en disco y agilizar el IE.
+- SFC Deshabilitado proteccion de archivos de sistemas deshabilitada.
+- Prevencion de cuelgue de windows cuando lo hacen las aplicaciones, estas finalizan enseguida dejando trabajar en windows.
+- Limpieza de documentos recientes al cierre de sesion.
+- Deshabilitado el molesto mensaje de poco espacio en disco duro.
+- Deshabilitado el seguimiento de accesos directos erroneos.
+- Teclado latinoamericano.

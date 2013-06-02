@@ -1,0 +1,14 @@
+MythDora 3.1 fixes/additions
+
+- Turned off mythbackend at boot time
+- X now restarts after the setup menu and allows Nvidia module to be probed
+- Created workaround for network connection during setup
+- Updated to MythTV-0.20-147
+- Redid saa7134 capture card setup
+- Added in newer k9copy package
+- Readded Imon remote control
+- Split MySQL mythtvsetup commands into two files
+- Added the pcHDTV 5500 to setup menu
+- Removed stale release notes with new ones
+- Added in powersave program with dependencies
+

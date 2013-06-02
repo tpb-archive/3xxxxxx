@@ -1,0 +1,189 @@
+30/04/2006                                               v.0.1
+
+           -== War-Driver's Essential Toolkit ==-
+
+
+:: Introduction ::
+                    - http://en.wikipedia.org/wiki/War_driving
+
+"Wardriving is searching for Wi-Fi wireless networks by moving
+vehicle. It involves using a car or truck and a Wi-Fi-equipped
+computer, such as a laptop or a PDA, to detect the networks."
+
+I have been Wardriving for a few years now and over time I
+have gathered more tools and equipment. Through use and
+experience I bring you this first toolkit release that I have
+gathered together and consider to be a good essential package
+for every War-Driver to have in their arsenal.
+
+I provide you with tools to detect, analyse, hack and even
+secure yourself and your data.
+
+I am mostly a Windows user; so all the tools here are for
+Windows XP. Some of the best hardc0re wifi tools run on
+Linux & other OS's, however they generally require a lot more
+technical know-how, and thats not what this toolkit is about.
+But if you do like Linux and like to dable I recommend learning
+about Kismet and other wifi linux apps out there.
+
+All software provided in this package is freely avaliable
+on the internet, there are no cracks, serials or warez here,
+Just quality freeware utilities.
+
+If you are unfamiliar with any of the terms used within this
+ReadMe.txt then please use http://en.wikipedia.org/ to get
+detailed definitions of termonology.
+
+                                      ~Freedom of Information!
+                                           Nightwalker | 2006
+            -========================-
+
+
+ -== dpl.html ==- http://www.phenoelit.de/dpl/dpl.html
+
+The War-Driver's must have! Default Password List.. this is a
+list of default usernames and passwords that manufactorurs
+give their routers. A good war driver will memorise the easy,
+default ones for popular brands.
+
+
+
+-== eraser53.zip ==- http://www.tolvanen.com/eraser/
+
+Good for security, this handy little tool adds a "Erase"
+function to your right click menu. Simply right click on
+file(s) or folders and select erase to have files securly
+scrubbed from your hard disk.
+
+
+
+ -== Ethereal v.0.10.14 ==- http://www.ethereal.com/
+
+Ethereal is a powerful packet sniffer. Here is their website's
+spiel: "Ethereal┬« is used by network professionals around the
+world for troubleshooting, analysis, software and protocol
+development, and education. It has all of the standard features 
+you would expect in a protocol analyzer, and several features
+not seen in any other product. Its open source license allows
+talented experts in the networking community to add enhancements.
+It runs on all popular computing platforms, including Unix, Linux,
+and Windows."
+
+
+
+-== superscan4 ==-
+ 
+http://www.foundstone.com/resources/proddesc/superscan4.htm
+
+"Powerful TCP port scanner, pinger, resolver."
+
+
+
+-== Tor ==- http://tor.eff.org/
+
+Tor allows you to utilise a special network to allow you to
+browse the web with true anonimity.
+
+"Using Tor can help you anonymize web browsing and publishing,
+instant messaging, IRC, SSH, and other applications that use
+the TCP protocol. Tor also provides a platform on which software
+developers can build new applications with built-in anonymity,
+safety, and privacy features."
+
+
+
+-== klitekpp241e.exe ==-
+
+A version of Kazaa Lite that in the past has proven itself
+to be useful to me. The installation is free of viruses or spyware
+and the network still works, so I consider it to be one of the
+best kazaa network apps.
+
+
+
+-== lalsetup250.exe ==- http://www.lookatlan.com/
+
+Another essential part of the War-Driver's kit; Look@LAN is a
+superb freeware application for monitoring networks easily.
+It offers an entire suite of very handy intergrated tools that
+make life easy and do a lot of the work for you quickly.
+
+Just on opening the application it will do a full port-scan
+of your active network interface, it will alert you off changes
+to the network, nodes coming online or offline etc. Simply
+double-clicking a online node will scan the system for ports and
+open services, its truly superb. Heres the company spiel:
+
+"While Look@LAN lets you be able to entirely monitor a complex
+and wide network, with Medas VNS (Visual Network Statistics) you
+can keep under control your network primary nodes, such as routers,
+firewalls, NATs, switches, HUBs. Medas VNS gives you detailed
+statistics about any node that supports SNMP: network interface
+stastics and correlated analysis, protocol statistics about any
+TCP/IP layer, active TCP and UDP connections and services, TCP/IP
+networks list, routes list. This is a perfect software solution for
+anyone who wants to carefully monitor and manage a network by
+keeping under strict control its primary nodes."
+
+
+-== macshift.zip ==- http://devices.natetrue.com/macshift/
+
+"The definitive free command-line MAC changing utility for Windows XP"
+This is one of few applications that will effectively and quickly
+change the hardware MAC code of your WiFi network card. It is a 
+command line application for WinXP. Learn how it works, its switches
+and then make batch scripts to execute all the commands for you when
+you need them.
+
+For example; on my War-Driving system I have a file on my desktop
+name: "macshift.bat" that contains the following text:
+
+cd C:\Windows\system32\
+
+macshift -i "Wireless Network Connection"
+
+exit
+
+
+
+-== NetStumbler ==- http://www.netstumbler.com/
+
+"NetStumbler is a tool for Windows that allows you to detect
+Wireless Local Area Networks (WLANs) using 802.11b, 802.11a and
+802.11g."
+
+Another essential for the War-Drivers Toolkit, this application
+is nice and easy to introduce you novice's to the game. Great
+handy free app for detecting wifi networks, still gets used by
+me every time :)
+
+
+
+-== Port Scanner.exe ==- http://www.radmin.com/
+
+A dedicated free application for port scanning. A good all-round
+port scanner with nifty features etc.
+
+
+
+-== truecrypt-4.1.zip ==- http://www.truecrypt.org/
+
+"Free open-source disk encryption software for Windows XP/2000/2003
+and Linux" This free open-source software is superb for data
+encryption and security. It takes a little learning but you can soon
+be encrypting whole disks, partitions or volumes. It supports
+on-the-fly encryption which (once auth'd) you can drag and drop data
+onto a drive and it will encrypt the data for you.
+
+You can choose your own strength and algorithm of encryption.
+
+You can even create hidden encrypted volumes, so not only would
+someone not be able to break the encryption, but it would be imposible
+for them to tell if there was even encrypted data on the system at all.
+
+=======================================================================
+Credit:
+
+                                                            Nightwalker
+                                               He who walks the shadows
+Please post comments & feedback.

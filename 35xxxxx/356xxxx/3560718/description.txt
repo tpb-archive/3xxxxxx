@@ -1,0 +1,9 @@
+DAEMON Tools is an application for multiprotection emulation. It is further development of Generic Safedisc emulator and incorporates all its features. This program allows running backup copies of SafeDisc, Securom, or Laserlock protected games. Also included is a Virtual DVDROM drive enabling you to use your CD images as if they were already burned to CD. It works with all types of CD/DVDROM drives and supports nearly any CD protection.
+
+
+Changes in version 4.0.8: 
+- This new version supports silent setup now. Example: daemon408-x86.exe /S /D=F:Some Folder
+Note that no quotes must be used in installation path even if name has spaces.
+- All critical errros will be still displayed no matter silent or not.
+- Case of parameters is important, eg. /s will not work.
+- Reboot prompt will not be shown.

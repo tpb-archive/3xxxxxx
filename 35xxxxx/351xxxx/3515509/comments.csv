@@ -1,0 +1,51 @@
+﻿User Type,Username,Date,Text
+,iskoptrixx,2006-08-23T22:54Z,Starting seeding 23.08.2006... Be patient!
+,jizac2,2006-08-24T22:32Z,Thanks for sharing 
+,lozartist,2006-08-27T07:37Z,"wondering how to get the activator to work?
+i get a message saying that the file is corrupt or invalid...."
+,jizac2,2006-08-27T12:50Z,"It's not working I downgraded back to version 1.9.5.3823 which works fine and as expected.
+
+Don't forget to clean your registry after uninstalling this one before going back to an older one."
+,iskoptrixx,2006-08-30T18:07Z,"jizac2 what is the problem? I have the same one and its workin' fine.. 
+Well ok downgrade you, but why are you posting how to downgrade, or what to do before you downgrade?
+Go and make shitty comments another place.."
+,ponyup,2006-09-07T00:37Z,"I'm having trouble with registering, won't seem to accept it."
+,urgay,2006-09-09T06:46Z,"to all of you who upload, thx in advance
+hopes it works"
+,ehagglun,2006-09-09T11:19Z,"You see, this is what really pisses me off.
+
+iskoptrixx, thanks you sharing. If this works for you, fine.
+
+All you 810 people that has downloaded, I guess that at least some of you, say 10 % has installed it, or tried at least. Lets say another 10% of you, that has installed it could actually bother to post a comment on it so the rest of us know wether it works or not. Shitheads.
+
+Now I have to try it myself, and fuck all of you (except isoptrixx) if it doesn't work, you could have told me."
+,iskoptrixx,2006-09-13T20:46Z,"ehagglun
+Thanks for backing me up..!!
+Other comments are being ignored"
+,bakawally,2006-09-19T18:20Z,"I found a method off another site, tested and works for me
+
+""1. install
+2. activate&register&forbid url
+3. check your Windows\System32\drivers\etc\hosts for this lines:
+
+127.255.255.255 serial.alcohol-soft.com
+127.255.255.255 www.alcohol-soft.com
+127.255.255.255 images.alcohol-soft.com
+127.255.255.255 trial.alcohol-soft.com
+
+3. block all outgoint communication to IP 195.137.236.101 (in Kerio Personal Firewall is it very easy)
+
+OR
+
+Start->Run->cmd and type
+route add 195.137.236.101 mask 255.255.255.255 192.168.X.0 -p
+(where X is from your IP or you can replace IP 192... with any non-exist IP in your LAN)
+
+if you can problem with this route, for abort this route type
+route delete 195.137.236.101"""
+,bakawally,2006-09-19T18:29Z,"Oh some clarifications,
+
+The method uses the keymaker file in this torrent, 
+
+activate, register and forbid url (I use the default info and key and the ""route add"" way)."
+,klant_nickex,2006-09-21T22:22Z,Thank u!

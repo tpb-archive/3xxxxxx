@@ -1,0 +1,4 @@
+﻿User Type,Username,Date,Text
+,Rhyus,2007-07-01T04:52Z,"Are these files for poser/daz3d?  If so, where do you place them so they work with the programs?  There doesn't seem to be any kind of exe file to install them directly."
+,Vulcan262,2009-06-23T03:35Z,"For Daz you have to install in the content folder and runtime libraries and such, if there are folders named libraries, runtime, and such those are the areas you install them. If it is all character and poses, then install them in the content and pose areas. I hope this helps."
+,ellenpea,2009-08-31T09:28Z,"Yeah, it's just what Vulcan said for Poser also.  For any version Poser, there's a folder called ""Runtime"".  Copy the ""runtime"" folder in the download to X://Program Files/SmithMicro/Poser 8 (for example) & MERGE the runtime folders.  You should find the new contents with existing in libraries next time you open Poser."

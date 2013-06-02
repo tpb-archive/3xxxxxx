@@ -1,0 +1,392 @@
+﻿User Type,Username,Date,Text
+,sammy08,2006-12-25T08:29Z,A little christmas joke eh? Very funny. Obviously there is nothing there...
+,planetbug,2006-12-25T08:56Z,virus
+,txman4462,2006-12-25T09:04Z,why zip a 222kb file ?
+,Darthvoy,2006-12-25T09:08Z,"This works...amazing.  Tried several keys and they checked out, in fact, i reinstalled it with a key from the key-gen."
+,kattastrof,2006-12-25T10:53Z,"planetbug: Don't just shout ""virus"". Tell us which software detected it and what virus it is.
+
+Get it. Got it? Good!
+"
+,kallstrom_74,2006-12-25T10:59Z,dont work on Swedish enterprice :(
+,thereleas0r,2006-12-25T14:37Z,"Antivirus Version Update Result 
+AntiVir 7.3.0.21 12.24.2006  no virus found 
+Authentium 4.93.8 12.22.2006  no virus found 
+Avast 4.7.892.0 12.21.2006  no virus found 
+AVG 386 12.25.2006  no virus found 
+BitDefender 7.2 12.25.2006  no virus found 
+CAT-QuickHeal 8.00 12.23.2006 (Suspicious) - DNAScan 
+ClamAV devel-20060426 12.25.2006  no virus found 
+DrWeb 4.33 12.25.2006  no virus found 
+eSafe 7.0.14.0 12.25.2006 suspicious Trojan/Worm 
+eTrust-InoculateIT 23.73.98 12.24.2006  no virus found 
+eTrust-Vet 30.3.3271 12.23.2006  no virus found 
+Ewido 4.0 12.25.2006  no virus found 
+Fortinet 2.82.0.0 12.25.2006 suspicious 
+F-Prot 3.16f 12.22.2006  no virus found 
+F-Prot4 4.2.1.29 12.22.2006  no virus found 
+Ikarus T3.1.0.27 12.25.2006  no virus found 
+Kaspersky 4.0.2.24 12.25.2006  no virus found 
+McAfee 4925 12.22.2006  no virus found 
+Microsoft 1.1904 12.25.2006  no virus found 
+NOD32v2 1938 12.25.2006  no virus found 
+Norman 5.80.02 12.22.2006  no virus found 
+Panda 9.0.0.4 12.25.2006  no virus found 
+Prevx1 V2 12.25.2006  no virus found 
+Sophos 4.12.0 12.24.2006  no virus found 
+Sunbelt 2.2.907.0 12.18.2006 VIPRE.Suspicious 
+TheHacker 6.0.3.136 12.24.2006  no virus found 
+UNA 1.83 12.22.2006  no virus found 
+VBA32 3.11.1 12.25.2006  no virus found 
+VirusBuster 4.3.19:9 12.25.2006 no virus found "
+,Smith,2006-12-25T17:30Z,kallstrom_74: Finns Office 2007 Enterprise volymlicens på svenska än? Hittar ingen info om det på MSDN..
+,jappe6,2006-12-25T19:33Z,Finns ju en svensk version som trial här på PB - men hur gör man för att starta den mer än de 25 gångar som ingår?
+,jappe6,2006-12-25T19:38Z,"vet nån om den här fungerar med den svenska ""trial"" som finns här på PB?"
+,Darthvoy,2006-12-25T20:39Z,just so you guys know this keygen worked on the english wink release.
+,Fenk@,2006-12-26T11:04Z,Funkar inte med den svenska!
+,BlueGyver,2006-12-27T12:46Z,"Works like a charm...this is NOT a virus.  This is a LEGITIMATE WORKING KEYGEN FOR Office 2007 Enterprise.
+
+Now...if we can only get keygens for Visio 2007 and Project 2007...
+
+FYI...you DO NOT NEED TO REINSTALL TO USE A NEW PRODUCT KEY.  See:
+
+http://bloggingabout.net/blogs/mglaser/archive/2006/12/12/Change-Office-2007-Product-Key.aspx
+
+Essentially, the steps are:
+
+1.	Close all Microsoft Office applications.
+
+2.	Click Start, click Run, type regedit in the Open box, and then click OK.
+
+3.	Locate the following registry subkey:
+HKEY_LOCAL_MACHINE\Software\Microsoft\Office\12.0\Registration
+Note You may also find another subkey that resembles the following subkey:
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\12.0\Registration\{30120000-0011-0000-0000-0000000FF1CE}
+
+4.	If you find additional subkeys that reference Microsoft 12.0 registration, open each subkey, and then identify the product by the ProductName entry. For example:
+ProductName=Microsoft Office Professional Plus 2007
+
+5.	When you find the subkey for the product from which you want to remove the existing product license key, delete the following entries:
+?	DigitalProductID
+?	ProductID
+
+6.	Exit Registry Editor.
+
+The next time that you try to run an Office application, you will be prompted for a new product license key."
+,Capt Pugwash,2006-12-27T17:52Z,"Nothing happens when I try to extract or run the file with WinRAR. The rar file is empty?
+
+No virus is found in the file with AVG, but a full system scan right after I tried to run the file gave me ""Trojan Horse Downloader. Generis3.ECM"" in an infected file ' mscw32.exe ' at c:\Program Files\Common Files\Microsoft Shared\MSWNInfo\ 
+
+This never showed up yesterday, and I have only downloaded this file and run it since then."
+,phatav8r,2007-01-02T16:17Z,Slicker than pig snot on the killing floor... worked like a charm. down with the virus monkeys!!!
+,leovdb,2007-01-02T19:34Z,Sweet =) works fine in Word
+,Pusher65,2007-01-05T15:10Z,"Thanx, works great. Installed on both my PC's with 2 different generated keycodes.
+
+NO VIRUS'S EITHER !!!"
+[V],jnd,2007-01-07T04:02Z,"Worked on my English install of Office 2007 Enterprise. This one is a winner. :)
+
+If you've installed with a blacklisted key and can't install e.g. the ""Save As PDF"" plugin...
+http://www.microsoft.com/downloads/details.aspx?familyid=4D951911-3E7E-4AE6-B059-A2E79ED87041&displaylang=en
+
+... then here is the procedure to change the Office 2007 product key:
+http://keznews.com/2002_Change_Office_2007_Product_Key
+
+It's what I did, and it worked for me too.
+
+You won't have to reinstall despite the button in the end will say so."
+,ScareKrow,2007-01-13T19:03Z,"Worked fine, had to re-install office but that took like 2 minutes? Thanks!"
+,SlabbZter,2007-01-16T21:05Z,"I dont get this to work, how do you do it? ehe... I downloaded the English versjon. Am I going to write something in the Keygen box? I have tryed several times. Help!"
+[T],zZoooZz,2007-01-20T09:53Z,"Hahaha! Very funny...
+But it's work..."
+,dave330r,2007-02-01T07:23Z,"i use mcaffe antivirus, mine screamed at me and deleted the file as soon as i opened it....VIRUS!!!"
+,Tasslehoff Burrfoot,2007-02-02T10:31Z,"I use mcafee too, no viruses with latest 4954 dats.  Works fine.  Legit keymaker."
+,Rama74,2007-04-07T15:14Z,"it works
+
+thanx a million"
+,stardude,2007-04-29T22:49Z,Thnx!! Works perfectly! =)
+,Zoo11,2007-05-20T16:18Z,not scene=virus/trojan
+,skuzzmeister,2007-06-24T06:45Z,Works like a charm.  Only I don't understand why you zipped a RAR?
+,studbolt88,2007-06-30T07:07Z,When I run the .exe I get a little box that says whats for xmas turkey?  Is this some kind of joke?
+,Zoo11,2007-08-19T00:57Z,"AhnLab-V3	2007.8.18.0	2007.08.18	-
+AntiVir	7.4.1.62	2007.08.18	-
+Authentium	4.93.8	2007.08.17	-
+Avast	4.7.1029.0	2007.08.17	-
+AVG	7.5.0.484	2007.08.18	-
+BitDefender	7.2	2007.08.18	-
+CAT-QuickHeal	9.00	2007.08.18	(Suspicious) - DNAScan
+ClamAV	0.91	2007.08.19	-
+DrWeb	4.33	2007.08.18	-
+eSafe	7.0.15.0	2007.08.16	suspicious Trojan/Worm
+eTrust-Vet	31.1.5069	2007.08.18	-
+Ewido	4.0	2007.08.18	-
+FileAdvisor	1	2007.08.19	-
+Fortinet	2.91.0.0	2007.08.18	-
+F-Prot	4.3.2.48	2007.08.17	-
+F-Secure	6.70.13030.0	2007.08.17	-
+Ikarus	T3.1.1.12	2007.08.18	-
+Kaspersky	4.0.2.24	2007.08.19	-
+McAfee	5100	2007.08.17	-
+Microsoft	1.2803	2007.08.19	-
+NOD32v2	2469	2007.08.18	-
+Norman	5.80.02	2007.08.17	-
+Panda	9.0.0.4	2007.08.18	-
+Prevx1	V2	2007.08.19	Generic.Malware
+Rising	19.36.52.00	2007.08.18	-
+Sophos	4.20.0	2007.08.12	-
+Sunbelt	2.2.907.0	2007.08.18	-
+Symantec	10	2007.08.18	-
+TheHacker	6.1.8.170	2007.08.17	-
+VBA32	3.12.2.2	2007.08.17	-
+VirusBuster	4.3.26:9	2007.08.18	-
+Webwasher-Gateway	6.0.1	2007.08.18	Win32.Malware.gen!80 (suspicious)"
+,Bananturbo!,2007-09-14T21:32Z,Works with the norwegain version
+,1stsim144,2007-10-23T08:33Z,"WAIT, just wanna make sure before me downlaod this thing. DOES THIS PROGRAM HAVE ANY VIRUS?"
+,Xerv,2007-10-23T22:10Z,Dont download! its an Worm! im not lying if you want a virus free computer dont download cause my avast did go nuts!
+,jschenk,2008-01-14T02:20Z,TROYAN!!!
+,yamazaki408,2008-01-29T04:02Z,"Damn it, wtf is up with all these keygen's hiding trojan's on them. AVG pwns all your hidden shit :P jackasses"
+,szinglad,2008-04-24T18:13Z,"OH SH-! 
+
+Im so FREKKIN tired of all you GOD DAMNED noobs saying ""Oh nooo, there's an virus/troyan/worm in it!""  
+No shit sherlook?
+BU-frekkin-HU!
+
+ALL keygens come's up as troyans/worms/viruses. 
+
+Learn your shit before you judge it on the smell."
+,murkk,2008-05-01T16:09Z,"Just to reassure others - this keygen is fine. It LOOKS like a prank at first but that's just someone's sense of humour. Just use the Search button to generate a valid serial.
+
+I'm well pleased with this as I used a published serial number before that was  blocked by MS. So thanks for the upload, kopimi, and to whoever made this file! :)"
+,jhansman,2008-05-16T04:33Z,"Scanned with Avast 051508 signatures, clean as whistle, generates valid key. "
+,Sachaztan,2008-05-18T20:48Z,"wtf!? Ok, this keygen just works fine but what idiot rars a 220 kb file and then rars it again!?"
+,bekim07,2008-06-03T01:03Z,don't download is fucking viruse 
+,linkpothead,2008-06-12T15:59Z,the cocksucker put it inside 2 rar archives so the antivirus wouldnt notice it ...avg ..gdata ..nod32 all says it was a virus and 2 trojan horses ..being gdata the best antivirus of the moment ..i dont think i have reasons to doubt the antivirus result ...bit yes to doubt this son of a hore ..lying cocksucker ..i hope ..someday someone fucks you up and you computer
+,Dasinator,2008-06-19T12:49Z,Yeah this one is sweet used it many times numerous computers ALL GOOD
+,Dasinator,2008-06-22T07:27Z,Not sure actually trojan i think but the you want is the one that comes up about a xmas turkey i know that one works 
+,unknown234,2008-06-28T12:05Z,"ok for all you fucking morons who kno nothing about pirating--
+
+All keygens come up as viruses or trojans!! Its because the combination of SO MANY letters and numbers in one small spaces are detected just the same as spyware code to antivirus programs.
+
+I got this keygen and it works great. NO VIRUS."
+,SpankyPants,2008-07-15T02:07Z,"http://virusscan.jotti.org/
+
+A-Squared - Found nothing
+AntiVir - Found nothing
+ArcaVir - Found nothing
+Avast - Found Win32:Trojan-gen {Other}
+AVG Antivirus - Found Delf.DOQ
+BitDefender - Found nothing
+ClamAV - Found nothing
+CPsecure - Found nothing
+Dr.Web - Found nothing
+F-Prot Antivirus - Found nothing
+F-Secure Anti-Virus - Found nothing
+Fortinet - Found nothing
+Ikarus - Found not-a-Virus.Hacktool.Keygen.office2007
+Kaspersky Anti-Virus - Found nothing
+NOD32 -  Found nothing
+Norman Virus Control - Found nothing
+Panda Antivirus -  Found nothing
+Sophos Antivirus - Found Troj/Agent-GAU
+VirusBuster - Found nothing
+VBA32 - Found nothing
+
+Seems good enough to me :)"
+,954blade,2008-09-14T20:46Z,"Works great, no probs. Thanks kopimi"
+,xcoreychaoticx,2008-09-16T23:30Z,haha cute :)
+,xcoreychaoticx,2008-09-16T23:31Z,"ANYONE HAVING TROUBLE WITH AVAST....
+
+right click on bottom tray and select stop on-access protection. then when you're done with the gen go and turn it back on :D"
+,Viruser,2008-09-20T02:28Z,"AND I ADD:
+KASPERSKY INTERNET SECURITY 2009 UPDATED 2 MINS AGO:
+FOUND NOTHING"
+,Vandey0,2008-09-30T02:51Z,"Oh yes, like a VIP is gonna put a trojan in a keygen he released 2 years ago. Dumbasses..."
+,bgarrett,2008-10-09T23:58Z,"RW886-RR279-WR769-9X3VD-Q6YYJ
+VFPPH-JT36Q-VK23R-RP7BW-CJ8BJ
+TB9R6-G8TGC-FGW2D-9DKWR-CQGHW
+QMX6G-CGCG9-4DVF7-2R93Y-YFMYJ
+C93YG-DCRBP-R3BGJ-Q288Y-FGPVW "
+,soynot,2008-10-27T18:38Z,"Works spot on m8, cheers.
+Clean as a whistle so don't know why all the others have their panties in a twist over nothing!"
+,pandaking,2008-11-05T23:15Z,"Worked great, and was quite funny too!
+Just click ""search"" and it will display a key :D"
+,mdajk,2008-11-23T06:34Z,"The keygen isnt working for me.
+I downloaded the trial version and it wont accept the keys from the keygen. I got the trial from: 
+
+http://www.microsoft.com/downloads/details.aspx?familyid=2D1189BF-D86A-4ACF-9DCC-4D61F500AD6D&displaylang=en
+
+Is this the wrong version or something? Help me please!"
+,tlalk18,2008-12-10T00:42Z,"For all of you who don't want to download it yourself:
+
+M9G3J-HTD9D-TT3VM-RDXTF-BCFMJ
+
+C3X6P-WBVMF-6BJ3J-FG7QQ-3B6HW
+
+CYGGC-BXMW7-38MRD-YH3B2-RR87W
+
+TY9QG-CPKJR-FWCDW-2KGHB-7T6HW
+
+FBYPW-P9FR2-7F7HM-8KHRW-T94MJ
+
+H8GMD-HMH6Y-XY7HP-2X74R-T4CVW
+
+VHGGJ-F8JFJ-2C2TV-8K98J-4CFMJ
+
+WC767-J76PV-QTMMP-663JK-7QW7W
+
+BCHGG-FVFVC-4DGF7-D36J2-BKMYJ
+
+C9BF8-TRYVV-HWJ8P-P2JM7-BMDQ8
+
+There, 10 codes.  I better not get yelled at for this xD"
+,timmyhawky,2008-12-10T16:36Z,"THanks tlalk18, great post. It made me lose a risk of virus infections :)"
+,metalchick101,2009-01-08T01:03Z,Cheers tlalk18 that was a great help for me!!!!
+,Motsux99,2009-01-14T13:35Z,I don't know why people just don't run keygens and such in sandboxie. Get what you need and shut it down.
+,DemPlayaz,2009-01-21T18:31Z,"Downloaded the Enterprise version here: http://www.microsoft.com/downloads/details.aspx?familyid=2D1189BF-D86A-4ACF-9DCC-4D61F500AD6D&displaylang=en
+
+But the keys WON'T WORK.
+
+Should I use another keygen or could somebody post a key for me ?
+
+thx
+
+"
+,usarmylcorley,2009-01-31T05:08Z,"This keygen does not work for the trial version.  I am positive it is intended for use with a full, non activated version of Enterprise, like when you have the cd, but lost the original product key.  I am trying to download a full, unlicensed version now to see if it will work with that.  I am not sure if it will work though.  The only two keys I have found on the net that work are trial version keys.  They are not full version keys.  I will continue to search high and low until I come up with a solution to my problem."
+,WendigoO,2009-02-04T05:54Z,I have full version (came w/ PC) but none of keys listed below work and none of the keys this keygen gave me work.
+,da_300_squirrels,2009-02-17T11:25Z,"@wendigoO
+same shit keeps happening to me.
+
+does anybody know a ( for us ) working keygen??!?   "
+,andyness,2009-04-14T15:17Z,"no-one believes your fucking trojan BS, look who uploaded it and stop wasting your time.
+
+Btw, can't extract the .rar in Sandboxie? :S 
+
+cuz AVG goes nuts"
+,sqamsam,2009-04-23T04:09Z,for all of you idiots using AVG its time for an upgrade http://thepiratebay.org/torrent/4839669 NOD32 is way better
+,ss6ixspeed,2009-05-29T07:58Z,"DO NOT DOWNLOAD. This is a rootkit Trojan which took 4 hours to remove from my machine. The keygen opens but generates false codes. Meanwhile, it's infecting your PC with uacinit.dll which cannot be removed via system restore, malwarebytes, spybot, windows MRT, or adaware. The only way to remove this Trojan is with Combofix which I hadn't heard of until this happened."
+,Witherstone,2009-06-20T23:58Z,"Lots of key codes for those who don't trust the torrent:
+
+C3MTC-3HWHY-4JXJT-XVDHQ-JVFMJ
+MB4CX-Y3CWK-3CVGQ-9H4GF-QR87W
+GJHY9-K6BX9-2D98J-2W3MP-FBJBJ
+TBRK9-8X838-JHX2W-VHJGD-KVWBJ
+BWBK7-C4F4K-98RQX-9D9FR-BKMYJ
+B6X47-3VTCM-DDR8H-X78H3-HXHD8
+FVT8J-WKVQG-3PJM7-PPYX9-RWBYJ
+KVCXP-JHY9V-JX2PB-GY9YV-F6VD8
+FY97C-JBPC6-JT87J-KPVK9-CPJ7W
+RGJVG-KV3MB-M8HQ2-JMDB3-QK87W
+VXQ24-JP6F4-24VKR-7HC73-HYDQ8
+BRQHF-737V6-JWFBX-VGJHM-83W7W
+TMX4B-87KBF-67D77-TCKT8-WG938
+RWVGT-Q3DR8-CMF8M-WHFMT-2FCVW
+W7X97-WMW8H-6KDWC-BMBT7-HCFMJ
+HD384-98WTY-2WT67-CKHQT-G9THW
+PG2VH-BXT8M-K2RFT-WK7CF-VBYYJ
+H6YGM-9XBVY-C947H-BJK8R-JYJBJ
+VPJ98-96HDJ-JJXMC-36V7T-H94MJ
+VGK4G-T4CDC-RVCKC-99W2Q-WC7D8
+
+Twenty of them. I can verify this torrent works, though. The chicken for xmas thing at the beginning is just a joke, and by the way:
+
+Most keygen's aren't viruses! The heuristics (byte by byte check) of antivirus software just picks them up as malware because of all the code incorporated. As for the double rar, it might have been trying to help with the false alarm some antiviruses trigger.
+
+And get rid of that AVG shit and download Comodo firewall."
+,ramone85,2009-08-16T20:03Z,"Hey, 
+Thanks a lot for puttin up this torrent. I bet it works fine........ for the enterprise edition :)
+
+All you guys who got office 2007 pre-installed with ur laptops probably got home and student edition. So you need the torrent at the link below.
+http://thepiratebay.org/torrent/3775675/Microsoft_Office_Home_and_Student_2007_Activation_Keys
+
+Moral: Always know exactly which software you need the key for ;)
+
+Glad to help. I had to register just to write this comment..."
+,yzaj,2009-09-13T11:49Z,"5T0PW-H1N1N-GY0US-TUP1D-CUNT5...
+
+Thankyou, kopimi."
+,JakFrost,2009-09-16T20:45Z,"Not a Virus.
+
+Checked it with Process Monitor and it does not do any registry sets or file writes.  It only loads itself, a few necessary DLLs and then exists.  Nothing on the system is changed at all.
+
+Below are the filtered results of the monitor after taking out Registry Query/Close and File Open/Close events.
+
+Process Name	PID	Operation	Path
+keygen.exe	3444	Process Start	
+keygen.exe	3444	Thread Create	
+keygen.exe	3444	QueryNameInformationFile	C:\Documents and Settings\User\Desktop\keygen.exe
+keygen.exe	3444	Load Image	C:\Documents and Settings\User\Desktop\keygen.exe
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\ntdll.dll
+keygen.exe	3444	QueryNameInformationFile	C:\Documents and Settings\User\Desktop\keygen.exe
+keygen.exe	3444	QueryInformationVolume	C:
+keygen.exe	3444	FileSystemControl	C:
+keygen.exe	3444	QueryDirectory	C:\
+keygen.exe	3444	QueryDirectory	C:\
+keygen.exe	3444	QueryDirectory	C:\Documents and Settings
+keygen.exe	3444	QueryDirectory	C:\Documents and Settings
+keygen.exe	3444	QueryDirectory	C:\Documents and Settings\User
+keygen.exe	3444	QueryDirectory	C:\Documents and Settings\User
+keygen.exe	3444	QueryDirectory	C:\Documents and Settings\User\Desktop
+keygen.exe	3444	QueryDirectory	C:\Documents and Settings\User\Desktop
+keygen.exe	3444	QueryDirectory	C:\WINDOWS
+keygen.exe	3444	QueryDirectory	C:\WINDOWS
+keygen.exe	3444	QueryDirectory	C:\WINDOWS\system32
+keygen.exe	3444	QueryDirectory	C:\WINDOWS\system32
+keygen.exe	3444	QueryDirectory	C:\WINDOWS\system32
+keygen.exe	3444	QueryDirectory	C:\WINDOWS\system32
+keygen.exe	3444	QueryDirectory	C:\WINDOWS\system32
+keygen.exe	3444	QueryDirectory	C:\WINDOWS\system32
+keygen.exe	3444	FileSystemControl	C:\Documents and Settings\User\Desktop
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\kernel32.dll
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\advapi32.dll
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\rpcrt4.dll
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\secur32.dll
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\comctl32.dll
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\gdi32.dll
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\user32.dll
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\oleaut32.dll
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\msvcrt.dll
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\ole32.dll
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\version.dll
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\imm32.dll
+keygen.exe	3444	RegSetValue	HKLM\SOFTWARE\Microsoft\Cryptography\RNG\Seed
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\MSCTFIME.IME
+keygen.exe	3444	Load Image	C:\WINDOWS\system32\uxtheme.dll
+keygen.exe	3444	Thread Exit	
+keygen.exe	3444	Process Exit	"
+,majax79,2009-10-09T06:13Z,Thank you so much. Keygen and program both worked perfectly.
+,miller126,2009-11-21T22:44Z,"man i feel so sorry for you all...... what the f**k do you think a keygen is??????? it is a hack tool!!!!!!!!!!!!!!!! your ""wonderfull"" AVG is picking it up because viruses hack into your system...... DUH??????????? common sense will tell you that.....
+
+and by the way...........GET RID OF A...V...G...
+"
+,Macuser23,2009-12-17T17:06Z,Can I use this keys also for the german version of office 2007? 
+,mahvvandit,2009-12-22T01:19Z,"ok, it worked for me. tks tlalk18. "
+,blkrdr59,2010-01-03T16:11Z,"why does it say powered by (win) Melinda???
+
+is that the maker?"
+,Phixtit,2010-02-04T03:37Z,"Works Great! 
+Clean file!
+Thanks for the Up GMT!!
+Much Appreciated!!!"
+,joost0107,2010-02-14T10:55Z,"thanks tlalk18
+it saves me lots of viruses!!!"
+,scizzer12,2010-03-07T18:04Z,But have no moneh 4 new brain...
+,FR05TB1TE,2010-04-23T00:23Z,keygen.exe file scanned after being extracted from the .zip & .rar compressed files. No virus found by Kaspersky AntiVirus v8.0
+,xxRiffmanxx,2010-05-16T08:16Z,Works fine but keys do not i am sad :(
+,nirgoen,2010-06-13T17:21Z,Many Thanks
+,pocketpolio,2010-06-29T17:20Z,"Scanned with AVG, found to be a trojan. :("
+,hawkeye2309,2010-09-20T08:46Z,thanks heaps man scanned with antivir and was clean works great
+,Matthew2010,2010-09-20T14:42Z,"Perfect, cheers :)"
+,hcalex666,2010-10-06T07:59Z,DON'T DOWNLOAD if you have a version that came preinstalled. Keygen doesn't work for it.
+,maykaDK,2010-11-25T14:45Z,"it is without viruses (scanned by KIS 11.0.1.400), but keygen didn't help me. codes just didn't fit."
+,muphrie,2010-12-15T11:55Z,I don't have money for a New Brain :(
+,muphrie,2010-12-15T12:03Z,Cos it doesn't work for me. I tried 10 keys and non work. Too old maybe. 
+,JohnShit,2011-02-16T23:28Z,"I get ""setup cannot find Word.en.us\WordLR.cab. Browser to a valid installation source and click OK"".
+
+What does this mean?"
+,TheSur5all,2011-04-05T10:30Z,Dont work
+,Trapt94,2011-04-17T10:11Z,"Great, it worked! 
+tyvm;)"
+,josh_W,2011-06-30T08:19Z,dint work!
+,raindeux,2011-07-14T06:34Z,"Ain't a fuckin virus you fail trolls. This shit works perfectly. First download to actually work for me thanks. Worked on the 1st key it gave me. Just double click the torrent, and click search, copy-paste the key it gives you into the box for Enterprise activation and hit Enter. Done."
+,SecretAgentWoman,2011-07-26T17:54Z,"Sure, the keygen gives a serial, but will it ACTIVATE? That is where I keep getting stuck."
+,Dynasty11,2011-09-07T19:12Z,Works fine for me.
+,everlasting.divinity,2011-09-14T20:10Z,"I have Microsoft Pre-installed, you know with the laptop when it came, will it still work or will I have to download another version? Or something.."
+,daniel4567,2011-10-06T01:07Z,"Worked perfectly well for me :) on Microsoft Office Enterprise 2007. Some antyviruses may say its a trojan, but dont worry it is not. It is often the case that antywiruses find cracks and keygens as a virus. If the program doesnt work make sure you have extracted all the files into one folder. From the first .rar (mo2007ek) you will get the second .rar (keygen) extract the second one as well into the same folder than run keygen exe and press search. Enjoy your key ;). Hope i helped, sry for my bad english"

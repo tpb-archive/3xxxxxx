@@ -1,0 +1,142 @@
+.:...............................................................................:.
+ ^                                                                               ^
+ :                    _____            _____  _                                  :
+ :                   |   __| ___  ___ |   __||_| _ _  ___  ___                   :
+ :                   |  |  || .'||_ -||  |  || || | || -_||  _|                  :
+ :                   |_____||__,||___||_____||_| |_/ |___||_|                    :
+ :                                                                               :
+ :  __ __ _____ _____ __ __    _____       _ _        _____         _            :
+ : |  |  | __  |     |  |  |  |     |___ _| |_|___   |     |___ ___| |_ ___ ___  :
+ : |-   -| __ -|  |  |-   -|  | | | | -_| . | | .'|  |   --| -_|   |  _| -_|  _| :
+ : |__|__|_____|_____|__|__|  |_|_|_|___|___|_|__,|  |_____|___|_|_|_| |___|_|   :
+ :                                                                               :
+.:...............................................................................:.
+ ^                                                                               ^
+                           XBMC - XBOX Media Center 2.0
+                        Release Date...........27.Dec.2006
+                        SVN Revision..................7442
+                        Release Size................5x15MB
+                        Release Language.....Multilanguage
+                        Operating Platform.........M$-XBOX
+
+.:...............................................................................:.
+ ^                                                                               ^
+   INFORMATION:
+
+   This package is my little "contribution" to the scene.
+   Hope you like it ... Comments & Suggestions are always welcome.
+   Releases will be made available on TPB once a week, unless serious bugs
+   are found, or something else important happens that justifies an Update.
+
+   I take no credits for anything supplied here. I┬┤m not related to the developers
+   in any way. I just compile the sources, collect some stuff and add it.
+
+   ALWAYS REMEMBER:
+
+   This is software in development - You should regard yourself as a BetaTester!
+   Please read the complete Changelogs to keep yourself informed.
+   Some features might still be in their initial development stages ...
+   Please read this .nfo - it has some useful information, really ;-)
+   Keep a tried and trusted XBMC Version handy, incase you need to go back !
+
+   This is FREE SOFTWARE made by nice people in their valuable spare time !
+   If you don┬┤t like it - Please Do Not Complain !!! Just stop using it !
+
+.:...............................................................................:.
+ ^                                                                               ^
+   SKINS INCLUDED:
+
+   Original Project Mayhem III Skin from CVS.
+   Added Weather Display to Home Screen (visible only with Internet connection)
+   It displays the currently selected city from the Weather menu.   
+
+   MC360 from Team Blackbolt - incl. Superman Returns Theme + Carbon Fibre Theme 
+
+.:...............................................................................:.
+ ^                                                                               ^
+   SCRIPTS INCLUDED:
+
+   Apple Movie Trailers / FlexiBrowser / GameSpot Plus / GameTrailers RSS Reader
+   Submenu Editor / WebRadio (SimpleKML V2) / XBMC Changelog / XBMC Lyrics
+   XBMC Scripts / YouTube
+
+   Get more Scripts via the XBMCScripts menu or @ http://www.xbmcscripts.com
+
+.:...............................................................................:.
+ ^                                                                               ^
+   VISUALISATION ADDONS INCLUDED (All Zipped):
+
+   G-Force:  1507 total (including the CVS supplied ones)
+   MilkDrop MegaPack: 8265 total (including the CVS supplied ones)
+   MilkDrop: BritneysPAIRS 110 favorite MilkDrop Presets
+              
+   Switch Vis to "Milkdrop GAS" or "MilkDrop BritneysPAIRS" to use them ... 
+
+.:...............................................................................:.
+ ^                                                                               ^
+   ABOUT TRAINERS:
+
+   There are 1443 Trainers included to give you a good start.
+   I absolutely don┬┤t know which ones work and which don┬┤t ! 
+   PLEASE do not ask me anything about the included Trainers.
+
+   Trainer files reside in /UserData/Trainers. Use the context menu on a Game
+   listed in MY PROGRAMS to refresh the Trainer List or to change Trainer options. 
+
+   Get Trainers e.g. @ http://trainers.maxconsole.net (Free Registration required)
+
+.:...............................................................................:.
+ ^                                                                               ^
+   HOW TO MAKE XBMC YOUR DASHBOARD:
+
+   A configurable Shortcut for your -C-Drive is included in the ROOT dir.
+   It points to E:/Apps/XBMC/default.xbe by default. If your XBMC Directory is
+   elsewhere you must change its Application Path by editing the .cfg file !! 
+   Rename the "ShortCut for -C-Drive.cfg" and the "ShortCut for -C-Drive.xbe" to
+   something your BIOS can boot (evoxdash.xbe + evoxdash.cfg) + copy both files to
+   your -C-Drive. !! Double check !! you did everything right then reboot - Voila ! 
+
+.:...............................................................................:.
+ ^                                                                               ^
+   RELEASE NOTES:
+
+   Added a fixed Version of Apple Movie Trailers Script.
+   Hope that all of you had a nice Xmas Time - Happy new Year, CU in 2007 !
+   
+.:...............................................................................:.
+ ^                                                                               ^
+   CHANGELOG:
+
+   These are the topmost 3 lines of the changes included in this Release.   
+   You can find the complete Changelogs in /docs/Changelog.txt.
+
+   2006-12-27  7441  fixed: after the vista fix, if server closed an idle
+                            connection next request would fail. now if a
+                            connection is idle for more than 10 sec,
+                            it's completly verified before reuse.
+   2006-12-27  7440  fixed: Infomanager cache wasn't reset at the end of each
+                            render, meaning incorrect states could be carried
+                            over after a windowclose animation.
+   2006-12-27  7439  fixed: Moving focus onto the list did not perform the
+                             focuseditem's focus animations.
+
+.:...............................................................................:.
+ ^                                                                               ^
+   THANKS:
+
+   All the XBMC developers !!
+   This Software makes the XBOX worth soOo much more for all of us !
+   Everyone contributing to the scene !
+
+.:...............................................................................:.
+ ^                                                                               ^
+   PS:
+
+   Enjoy & Please Seeeeed !
+
+.:...............................................................................:.
+ :                                                                               :
+ : For Budget Reasons, the Light at the End of the Tunnel had to be switched Off :
+ :                                                                               :
+.:...............................................................................:.
+ ^ GasGiver                        ┬░12.12.2006┬░                         GasGiver ^

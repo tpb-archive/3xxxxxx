@@ -1,0 +1,53 @@
+﻿User Type,Username,Date,Text
+,strife1013,2006-07-10T22:19Z,That doesnt work anymore...the 000999 thing
+,jankro,2006-07-11T16:39Z,"Nope, sure doesn't!
+"
+,Oye,2006-07-19T02:07Z,"get e keygen and do that man
+there's some keygen that could unlock phone reg"
+,Oye,2006-07-19T02:08Z,i ment keygenS not just one
+,aly88,2006-08-05T13:35Z,this is a fake...doesn't work...
+,blackasian,2006-08-28T03:46Z,this works but only for a short time. i installed in on my machine it work fine but once you update the virus defs and other stuff when you run live update it does something to the app and the serial is then scraped so unless you got a good working keygen this is useless. the app rocks compare to 2005 version so it will be sweet if someone can upload a working keygen.
+,Nautic,2006-11-15T16:16Z,"Try this one.   (Haven't tested it .... )
+
+S/N: WK2WK4T7B8TPFGX27JJC6D8MX"
+,Madkitty,2007-02-21T15:53Z,"A keygen isn't needed, some Registry hacking is.
+
+Install the program suite as per the instructions, get to the point where it tells you that you need to activate in 15 days (usually by attempting yo use a program like Windoctor), choose ""Activate later"" then close the program you opened.
+
+Now, go to Start, then Run, then type
+
+Regedit.exe
+
+(I am assuming you'll be confident in Registry navigation when I describe the following process.)
+
+Go to this key:
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Symantec\CCPD\SuiteOwners\{05858CFD-5CC4-4ceb-AAAF-CF00BF39736A}
+
+(That's what it is on this machine. If yours is different, look for the folder inside ""Suite Owners"" that has a list of items on the right when you click it, such as ""ActivationDirectory"", ""ActWiz"", ""BRDIName"" etc etc. Either way, that will be the folder you want to work your magic on.)
+
+Next, set the Permissions on this key so that the ""Everyone"" group is DENIED ALL ACCESS. This means ""Full Control"" and ""Read"" should both be checked ""Deny"".
+
+Do this like so:
+
+Right-click this ""folder"" mentioned above, click ""Permissions"", click ""Advanced"", remove the check from ""Inherit from parent..."", click the ""Remove"" button, click the ""OK"" button.
+
+You'll get a dialog box telling you you're denying everyone access. Click ""Yes"".
+
+Now click the ""Add..."" button, type ""Everyone"" (without quotes of course), click the ""Check names"" button. ""Everyone"" should underline itself, this means you've done things correctly so far.
+
+In the top box, the ""Everyone"" group will now appear and should be the only item. Click it, then in the bottom box put a check in the Deny column for both ""Full Control"" and ""Read"". Click the OK button. (It may occur that putting a check in ""Full Control"" will automatically put a check mark in ""Read"" underneath as well. If it does, this is fine.)
+
+The Systemworks programs (ie Disk Doctor, Windoctor etc) will no longer cry for activation if you do this.
+
+I've tested it by setting the permissions to Allow, opening the programs, and seeing that they want activating... Then setting this to Deny, opening them again and voila! No activation whining!
+
+I have not tested whether Norton AntiVirus 2006 works with this same key or whether it uses a different activation checking method; nor am I sure whether the ""Norton Update to 2197"" item found at http://bbs.betabbs.com/index.php?showtopic=77060 works with this either.
+
+Lastly... Full credit goes to the creator of that 2197 file, I did not create it and do not know the author personally either, I am simply mentioning it here as a possible convenience.
+
+Those so inclined, please test it and comment here as to your findings.
+
+As for how I worked this activation hack out... That's my secret. :) Let's just say I'm inquisitive and determined.
+
+Enjoy!"

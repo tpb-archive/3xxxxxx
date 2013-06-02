@@ -1,0 +1,51 @@
+﻿User Type,Username,Date,Text
+,winzentween,2006-09-19T06:51Z,"hi this doesnt work?
+even in safemode when run through supercard software to convert to nds it comes out as a 0 k file?
+faulty!!!"
+[T],BeastG,2006-09-19T08:12Z,works fine on my g6lite..
+,winzentween,2006-09-19T11:01Z,"ahhh i see it is the beast, yes i am v grateful to u 4 all your good work so i must say thanks but it doesnt work when converted? any ideas..."
+,winzentween,2006-09-19T11:02Z,"beast,  i am desperarte for the new rockman / megaman xl  or something can you advise"
+[T],BeastG,2006-09-19T20:57Z,"sure.. :D
+
+Check out my latest torrent.. "
+[T],BeastG,2006-09-19T21:12Z,"On your problem to get the game to work..there is a patch until the supercard team releases their latest convert software...
+
+you should find it here..
+http://l33t.spod.org/ratx/DS/SC/misc/lsw_sc.zip"
+[T],BeastG,2006-09-19T21:13Z,"heres a guide to use the patch..:
+
+
+Use the SC software to make the save file and the 0kb file on your SD card, delete the 0kb file 
+Rename the save file to Lego Star Wars II.nds.sav 
+
+Using the patch file, unzip contents to c:\ 
+Unzip the .nds file from your Lego Star Wars II rom to c:\ and rename it to clean.nds 
+Go to START>RUN and type cmd 
+
+type in c:\bspatch.exe clean.nds ""Lego Star Wars II.nds.dsq"" lsw_scl.bdf 
+
+Close the black window and navigate to c:\ 
+
+Copy Lego Star Wars II.nds.dsq to where you put your .nds files on your SD card. 
+
+If you've done this correctly, in your Nintendo DS Games folder, along with all your other games, you should have two called.... 
+
+Lego Star Wars II.nds.dsq 
+Lego Star Wars II.nds.sav 
+
+Put the SC in your DS and run it like normal! "
+,winzentween,2006-09-20T11:36Z,"hi not sure if it works yet but thanks for making the effor all the same, good to see you on the job, keep up good work"
+,winzentween,2006-09-20T15:41Z,"hi i did the cmd and it says c:\bspatch oldfile newfile patch file  
+then i look in c directory but alls the same no new lego starwars? just clean.nds
+
+spiderman / megaman and lego star wars wont run on current conversion software so could you take a look at instructions again and see if theres a cmd typo of mistake?
+
+regards to the beast"
+,winzentween,2006-09-20T15:51Z,it keeps saying cannot find lsw_scl.bdf but its there?
+,winzentween,2006-09-20T17:12Z,"ok megaman works now the gba card access enabled but no go with lego and ultimate spidermans in french, any us / uk versions?
+
+regards"
+,winzentween,2006-09-20T17:19Z,"anyone have pointblank ds, cant find a copy anywhere?"
+,filip_xb95,2006-12-13T16:25Z,"can somebody tell me how to do this useable i have g6 but its dosen`t vork.
+need help"
+,lancebunny,2011-09-18T03:52Z,it works! im using r4 with old ds and it works thanks for upload

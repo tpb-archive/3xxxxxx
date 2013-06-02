@@ -1,0 +1,69 @@
+Setting up the WebUI
+---------------------
+Make sure that you're using the current beta, which should 1.5.1 build 460 (latest as of
+writing). If you do not have this build you can always get it from uTorrent's download
+page. (http://utorrent.com/download.php)
+
+Place the webui.zip file in the folder which contains the settings.dat file; this is a must.
+Most likely this will be your %AppData%\uTorrent folder (default location). 
+(Type %AppData%\uTorrent into the run box and hit enter).
+DO NOT EXTRACT the zip, uTorrent uses the zip file itself.
+
+The settings for the WebUI are nested under "General" in the Preferences (Ctrl + P).
+If you expand the "General" section you should see "Web UI;" just click on it and the
+settings for the WebUI will automagically appear. Obviously you'll have to enable
+the WebUI and then you can set a username and password to secure the WebUI a bit.
+If you'd like you can also enable the guest account, but this is not recommended at
+this point, because the html UI isn't really made for a guest account. There is no 
+password for the guest account (duh!?). If you'd prefer the WebUI to be accessed on
+a different port than uTorrent is using you can set that under "Connectivity." In addition
+to changing the port, you can also restrict access to a list of IPs.
+
+Accessing the WebUI
+---------------------
+The URL format is this: 
+http://Username:Password@YourIP:UTport/gui/index.html
+
+Make sure you follow that exact format or it won't work. Remember that you cannot use
+username:password in the URL when using Internet Explorer.
+
+*************
+uTorrent WebUI Team
+
+
+Changelog
+------------------
+
+Notes:
+- [Opera] Right-clicking and key shortcuts are not working correctly; these are Opera bugs
+  and a bug reprt has been filed.
+- [Safari/Konqueror] The text in the torrent list seems to display off-centre.
+- Shortcuts:
+	Delete: Removes selected torrent(s)
+	Ctrl + A: Select all torrents
+	Ctrl + Space: Deselect all torrents
+	Ctrl + O: Show the form for adding a torrent
+	Ctrl + P: Show the settings window
+	F2: Show the about window
+	F4: Hide/show the toolbar
+	F7: Hide/show the category list
+- At the moment there is no tertiary sorting being done, so if you secondary sort a column
+  that has like values the items will randomly switch at each update
+- If you have allot of items on your list it will use allot of CPU power (obviously trying
+  to reduce it).
+
+
+***14/04/2006 - Version 0.103
+- Fix: Active/inactive torrents show up when appropriate label is clicked
+- Fix: Files tab/other actions do not "freeze" the interface anymore
+- Fix: [All] Resizing now works properly
+- Fix: [IE] Scrollbars are now shown properly
+- Fix: [Opera] Torrents are now selectable
+- Change: Column resizing is temporarily disabled
+- Change: Code clean-up, more object-oriented code is now used
+- Change: Fonts now used are: Tahoma, Verdana, Arial, Helvetica, and sans-serif
+- Feature: Requests will time out after 10 seconds
+- Feature: Download progress bar
+- Feature: Secondary sorting
+- Feature: Set update interval
+- Feature: Sorting indexes and update interval are [now] saved in cookies

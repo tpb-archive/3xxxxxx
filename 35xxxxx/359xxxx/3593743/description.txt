@@ -1,0 +1,44 @@
+TITLE
+Dawn.of.the.Dead.h264.vorbis.R3DFLY
+
+RELEASE YEAR
+1978
+
+DIRECTOR
+George Romero
+
+IMDB 
+http://www.imdb.com/title/tt0077402/
+
+CONTAINER
+matroska
+
+LENGTH
+127 minutes
+
+VIDEO
+640x416
+23.97602 fps
+h.264 video at 744 kbits/sec (678 megabytes)
+
+AUDIO
+stereo vorbis English soundrack (normalized) 82 kbits/sec (76 megabytes)
+5.1 AAC English soundtrack 219 kbits/sec (204 megabytes)
+mono vorbis English director commentary (normalized) 33 kbits/sec (31 megabytes)
+
+SUBTITLES
+no subtitles
+
+OTHER INFO
+If you need to burn this movie to a cd you can mux out the AAC audio and the file will be 785 megs, which you can burn to a 700 meg cd in mode 2 (XCD) or just use an 90 minute CD.
+
+SSIM Mean Y:0.9876866
+PSNR Mean Y:46.396 U:49.794 V:50.666 Avg:47.299 Global:46.582 kb/s:744.07
+
+pass=1:bframes=16:turbo=1:bitrate=744:ssim:psnr
+
+pass=2:bitrate=744:bframes=16:b_pyramid:8x8dct:frameref=4:mixed_refs:subq=6/
+:brdo:bime:nodct_decimate:weight_b:me=hex:me_range=16/
+:trellis=0:ssim:nofast_pskip:partitions=all:psnr
+
+filters used: pullup,softskip,crop=720:464:0:6,scale=640:416,hqdn3d=2:2:3,harddup

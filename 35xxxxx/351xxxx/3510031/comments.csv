@@ -1,0 +1,234 @@
+﻿User Type,Username,Date,Text
+,koshman,2006-08-07T21:00Z,"I own a 2CD version of this game. Is the DVD version enhanced in any way? Less compressed graphics maybe, like in the Myst style games?
+Btw. its a great game, I love zorklike humour. Its better (and wackier) than Hitchhikers Guide to Galaxy :)"
+,Zorcher,2006-08-08T18:25Z,"Actually, this DVD I own is one I got with a special deal included with a Gateway computer I bought.  This DVD version does not contain Zork Nemesis like the actual DVD does, but it does contain all the content on one DVD.
+
+However, there seem to be some heavy DVD decoder requirements to run the movies in high quality, but even if you don't, it should run as the CD version has."
+,bbart55,2006-08-12T17:26Z,Been at 46% for 3 days now. Please SEED!!!
+,Son Of Mogh,2006-08-16T07:07Z,"Hope you will continue uploading as we are all stuck at 46.8% for almost a week now. If you have trouble with hardware or isp issues, good luck with solving..."
+,gilou37,2006-08-18T00:55Z,"Stuck at 46.8 for 9 days now! 
+Zorcher is in holiday?
+Zorcher=asshole?
+Zorcher=never download him again?
+Zorcher=banned?"
+,Zorcher,2006-08-21T04:18Z,"I must apologize for the late comment.
+
+I did recently lose my hard drive that hosted this file and the image file itself.  When I reinstalled Alcohol 120% on another computer, it completely refuses to remake the image file.  It stops at 0% and calls it done.
+
+Until I can solve this problem, I can't send.  I don't know what to do.  :("
+,Zorcher,2006-08-21T07:50Z,"There, finally got the image recreated.
+
+Again, sorry for the lack of seeding lately.  It should  be up now."
+,Greyson,2006-08-23T02:42Z,"how do you get this to work? every time i try to play the game, it says insert dvd. ive dried daemon and alcohol and theyre both a no go"
+,Zorcher,2006-08-23T03:25Z,"This DVD is too old to have any encryption of any type on it.  I'm assuming it's looking for the DVD in the first drive, it only uses the first DVD ROM drive it finds.  Try burning the image and using your physical drive or remove the physical and switch the daemon drive to your default."
+,Zorcher,2006-08-25T03:38Z,"I would appreciate it if any downloaders would leave some comments.  You did wait 9+ days for me to seed the damn thing, plus a few more to actually download the whole thing.  =P
+
+Is it working?  Having fun?"
+,providen,2006-08-26T22:15Z,"Zorcher, you the MAN !
+
+I've been looking for the DVD version for 8 months now, on torrentsites, on DC and nada.
+And now: wooohooooo !!!
+
+I am not done yet, so can't tell how it worked, but I guess an alcohol clone can't go wrong."
+,Zorcher,2006-08-30T06:34Z,"I've done some research and the reviews say that the Zork DVD requires certain codecs to play those videos well.  However, those codecs really don't exist anymore.  Do you remember during install that it said the movies would play using standard quality because a DVD decoder wasn't found?  There's nothing really that can be done about it, sorry.
+
+The codecs aren't offered on the DVD, which seems pretty pointless to me, but if you do some searching, maybe you could allieviate the problem."
+,Zorcher,2006-09-08T22:35Z,Thank you for the post.  I'm sure that will be a big help.  :)
+,Temptation,2006-09-10T15:43Z,"anyone have Zork Nemesis ?  
+
+Zorcher, someone uploaded ""Journeyman 2"" a few days ago... but it was the normal CD version.. I know you mentioned the DVD version in your comment above, but I just thought I would let you know in case you were looking for any version.  I'm not sure how much better the DVD version would be for an older game anyway."
+,Zorcher,2006-09-15T17:23Z,"I got em, thank you."
+[T],WinstonSmith6079,2006-09-16T06:04Z,"gilou37 = spoiled, whiney, ungreatful bitch who doesn't appreciate free stuff.  What the hell have you u/led yourself, gilou37!?
+
+Good torrent; great find!  Thanks, Zorcher!"
+,KWP,2006-11-18T15:42Z,"Is this working for you guys? I just cannot make it work. When I try to install, a message says ""Unable to load a necessary bitmap"", and then it quits. I tried to mount it with Daemon Tools, and Alcohol. Tries to turn the regional preferences to English. I even tried to install under Windows 98, but it does the exact same thing.
+
+Can anybody help me with this problem?
+
+Thanks a lot.
+
+Tom"
+,emalog,2007-02-06T18:06Z,"Hi!
+I've finally downloaded Zork and have left it to be seeded.  Unfortunatelly, I have the same problem as Grayson.  I've tried to start the game with Alcohol 120% but it keeps telling me to insert the DVD...  Help pls...  I've waited for this for a long time (Zorcher, thanks heaps), and I don't know what to do now...  :-(("
+,bol247,2007-06-27T17:01Z,"Hi everyone, emalog in particular, i've had some troubles with this and found some things to work around the problems, which I'm wanting to share to save someone else a future headache.
+
+I admit i wrestled with this file for half of this evening trying to get it to work... First alcohol wouldn't recognise it, then the DVD wouldn't burn... eventually alcohol caught up and I could at least mount the game to the virtual drive.
+
+So then i tried to install, and it crashed partway through.  Solution: go to ""my computer"" and find the virtual drive, (in my case, J:\), right click, and ""explore"" the drive.  Should open a folder of the game files.
+
+Find ""setup.exe"", right click it, go to properties, then on the compatibility tab select ""run this program in compatibility for windows 98/ME"" or something like that.  Click ok.  After that, it should install fine.
+
+Next problem - it installed fine, but refused to play.  Would ask me to install the DVD in the drive - naturally, I don't have it.  I can't burn DVD's, and from what i'm seeing online, even if you do burn a dvd, it doesn't necessarily mean it's going to work (most times it apparently doesn't).
+
+SO, for emalog and anyone else experiencing this problem, you need to copy the files to your hard drive and then tell your game files not to look for a DVD.  (Need about 3gb space on your HDD.)
+
+Go to C:\program files\activision\zgi_dvd (your newly created zork folder) and create a new folder here, call it 'DVD'.
+
+open the virtual drive that alcohol uses (in my case, J:\) with explorer.  Copy the contents of the zork virtual dvd, and paste them into C:\program files\activision\zgi_dvd\dvd (the folder you just made.)
+
+Next, in C:\program files\activision\zgi_dvd find the inquis.zix file, open it using notepad.
+
+Replace the first part of the inquis.zix file with this:
+
+007575
+0 C:\Program Files\Activision\ZGI_DVD\DVD ' Zork Grand Inquisitor DVD
+----------------------------
+DIR: .
+DIR: .\cursor.zfs
+DIR: .\scripts.zfs
+DIR: .\subtitle.zfs
+DIR: .\death.zfs
+DIR: .\zgi_mx
+DIR: .\DVD\zgi_e\zgi_mx
+DIR: .\DVD\zgi_e\zgi_mx\minmax
+DIR: .\DVD\zassetsc\zassets1\global
+DIR: .\DVD\zassetsc\zassets1\portfooz
+DIR: .\DVD\zassetsc\zassets1\jail
+DIR: .\DVD\zassetsc\zassets1\monast1
+DIR: .\DVD\zassetsc\zassets1\underg1
+DIR: .\DVD\zassetsc\zassets1\lucyqst
+DIR: .\DVD\zassetsc\zassets1\griffqst
+DIR: .\DVD\zassetsc\zassets1\castle
+DIR: .\DVD\zassetsc\zassets2\global
+DIR: .\DVD\zassetsc\zassets2\monast2
+DIR: .\DVD\zassetsc\zassets2\underg2
+DIR: .\DVD\zassetsc\zassets2\dmlair
+DIR: .\DVD\zassetsc\zassets2\grueqst
+DIR: .\DVD\zassetsc\zassets2\guetech
+DIR: .\DVD\zassetsc\zassets2\hades
+DIR: .\DVD\zassetse\eng_anim
+DIR: .\DVD\zassetse\eng_pix
+DIR: .\DVD\zassetse\eng_aud
+DIR: .\DVD\eng_mpeg
+DIR: .\DVD\zassetsc
+----------------------------
+
+FYI: The next line you have that wasn't replaced, should be:
+ 1 cursor.zfs
+and everything after should remain the same.  Save it.  
+
+Then open inquisc.zix file in notepad, replace first section using this text:
+
+007575
+0 C:\Program Files\Activision\ZGI_DVD\DVD ' Zork Grand Inquisitor DVD
+----------------------------
+DIR: .
+DIR: .\cursor.zfs
+DIR: .\scripts.zfs
+DIR: .\subtitle.zfs
+DIR: .\death.zfs
+DIR: .\zgi_mx
+DIR: .\DVD\zgi_e\zgi_mx
+DIR: .\DVD\zgi_e\zgi_mx\minmax
+DIR: .\DVD\zassetsc\zassets1\global
+DIR: .\DVD\zassetsc\zassets1\portfooz
+DIR: .\DVD\zassetsc\zassets1\jail
+DIR: .\DVD\zassetsc\zassets1\monast1
+DIR: .\DVD\zassetsc\zassets1\underg1
+DIR: .\DVD\zassetsc\zassets1\lucyqst
+DIR: .\DVD\zassetsc\zassets1\griffqst
+DIR: .\DVD\zassetsc\zassets1\castle
+DIR: .\DVD\zassetsc\zassets2\global
+DIR: .\DVD\zassetsc\zassets2\monast2
+DIR: .\DVD\zassetsc\zassets2\underg2
+DIR: .\DVD\zassetsc\zassets2\dmlair
+DIR: .\DVD\zassetsc\zassets2\grueqst
+DIR: .\DVD\zassetsc\zassets2\guetech
+DIR: .\DVD\zassetsc\zassets2\hades"
+,Zorcher,2007-09-03T15:41Z,"Thanks heaps for the above comment.  That's sure to come in handy.
+
+It seems this program doesn't like virtual drives too much, according to the file you posted, it seems to only search one CD drive when you could have many."
+,Daemit,2008-01-29T01:01Z,"I'm at 93,6%, no seeds. Seed please!"
+,_theprizefigther_,2008-04-14T20:22Z,"come somebody please seed?
+thanks."
+,scar13567,2008-04-18T19:00Z,"hi guys...i got a problem with this
+i mounted it in daemon tools, however even after changing set-up .exes compatability all that happens when i click install is the screen goes black for a few seconds, then the computer beeps and it goes back to desktop...can anyone help with this?"
+,Woof_Wuf,2008-06-30T11:06Z,"Thanks ALOT for uploading this great game. One of the best adventure game series to date. Inquisitor is better than ever - great gameplay, classic Zork humor, great puzzles - A masterpiece. 
+
+Yes there are a few problems with Virtual drives and all, but these flaws can easily be corrected. Visit this site:
+http://home.earthlink.net/~infernofilecabinet4/XpSetupsU_Z/Guest/zorkgi.htm
+
+The game works 100% BTW finished it a week ago. Thanks again for the upload...Ill seed this for as long as I can....
+
+Nice links:
+Themes etc:
+http://thezorklibrary.com/theinquisition/1067gue.htm
+
+Multiplayer Patch:
+http://www.the-underdogs.info/game.php?id=4000
+
+Nice Review:
+http://www.justadventure.com/reviews/ZorkGI/ZorkGI.shtm
+
+Cheats:
+http://www.cheatpatch.com/index.php?action=search&ID=6524&gamename=Zork%20Grand%20Inquisitor
+"
+,useresq,2008-08-30T11:06Z,"Downloaded. Didn't take very long actually. I've done everything everyone has suggested and it's still not running. It's installed; it's running from the hard drive instead of the virtual drive; it's running in Windows 98 compatibility. I downloaded the MPEG-2 decoder.
+
+And it's still working like crap. I can run the program, but all I get is a black screen with the pointer and access to ""restore"" ""prefs"" and ""quit"". ""Restore"" and ""prefs"" crash the program. ""Quit"" works properly, lucky me. That anyone would say this works beautifully completely baffles me.
+
+What's anyone suggest? Thanks."
+,ewokwom,2008-09-09T12:12Z,"hey!
+got a little problem... the game is working perfectly, until i use the ""spell-maker"" in the spell-lab.... then my cursor dissapears and all i can do is save, restore etc. i can take things from my inventory, but i can't use them..... any one knows how to fix this problem??? thanks!
+
+ps. thanks for uploading this game! great!"
+,rand333nah,2008-11-28T01:58Z,i just downloaded this and i cant even open the file... im running vista (32 Bit) what gives? the only program that windows reccomends for an .mdf is RegCure... any suggestions?
+,burn2ash,2008-12-06T15:52Z,"@bol247 
+
+
+thanks alot dude!  Your method of installing worked perfectly for me! "
+,Payne010,2008-12-21T21:44Z,"For those still having trouble with this game, I found a way to make it work.  The site Woof_Wuf posted has almost all the answers, but it still didn't work at first for me.  I tweeked the theory a little bit and got it working.  The way I did it is where the site tells you to copy this line: 
+
+C:\Program Files\Activision\ZGI_DVD\DVD
+
+to replace:
+
+g:\..
+
+instead, do that, but DO NOT add the DVD at the end.  Instead, where it's telling you to change the CD0: lines to lines like:
+
+CD0: zgi\zgi_e\zgi_mx
+to
+DIR: .\DVD\zgi_e\zgi_mx
+
+change them to lines like this:
+
+DIR: .\DVD\zgi\zgi_e\zgi_mx
+
+Keep that first ""zgi""
+
+After that, go into the ZGI directory (the real one, not the DVD folder you just made) and right-click on ""zgiwin"" and go to Properties/Compatibility and change it to Windows 98.
+
+My theory is that because of the way the site was changing the log, it had DVD in the directory to search, and then it was looking for another folder called ""DVD"" within that directory and couldn't find it.  This way, it searches for the DVD folder only once, and then gets all its information out that way.  Those were the changes I made and it works perfectly.  Hope this helped, and enjoy a great game!!!"
+,nassik,2009-01-19T11:18Z,"when I mount the dvd (from physical or virtual drive)
+I get a black screen and a ""failed to load a necessary bitmap"" warning.... I can't even install. does anyone have a clue?!?!"
+,Zorcher,2009-02-15T20:20Z,"Wow, I'm surprised people are still downloading this torrent, incredible...
+
+I'm sorry to all those who have had trouble and many thanks to all who have been attempting to post solutions.  This DVD has never given me any of the problems that anyone has suggested, but when the drive letters are not ""normal"", IE, D: isn't a CD-ROM, it's another Hard drive, then it starts to cause issues.
+
+For the bitmap issue, no idea, sorry..."
+,timmdimm,2009-03-24T16:19Z,"I have this game working on xp but I can't get it to recognise DVDExpress is installed. Or can't find the correct version. Anyway, is there a way to force the higher quality video?
+Also I would like to install the 1.2 update, but it complains of bad install of something, is there any way to install it manually?
+I had an issue where the game would freeze upon trying to play a video and had to start a new save game."
+,dannypickle,2010-04-12T00:53Z,"Tried getting it to work, no luck. Replaced the inquis.zix and inquisc.zix files with what was needed and it did not work. Applied compatibility tweaks and still no luck."
+,Lilith777,2010-09-08T18:10Z,"Мой способ решения проблемы с установкой (для Windows XP):
+ZGI_DVD -> Setup.exe -> Вкладка ""Свойства"" -> Вкладка ""Совместимость"" -> Windows 98/Windows Me
+
+To install the game on Windows XP try this:
+ZGI_DVD -> Setup.exe -> Properties -> Compatibility -> Windows 98/Windows Me"
+,shalashashka,2010-12-18T23:42Z,"Hey all, Before i get into it i just want to say this is a sorely anticipated torrent for me so thanks soooo much.
+
+I am running ZGI on a netbook. i have gone through the instilation fine, and when i try to open the programme it's asking me to insert a DVD, i know others are having the same problem, and I have tried the solutions offered to them, however when i get to the save the changed Notepad file it isn't letting me it comes up with the propt: access denied. I have admin rights, so it's not that.
+The only thing i can think of is that it might be because i'm running it on windows 7 starter.
+Can anyone help me, please. i've been waiting for this game for about seven years. :(("
+,shalashashka,2010-12-18T23:45Z,"Hey all, Before i get into it i just want to say this is a sorely anticipated torrent for me so thanks soooo much.
+
+I am running ZGI on a netbook. i have gone through the instilation fine, and when i try to open the programme it's asking me to insert a DVD, i know others are having the same problem, and I have tried the solutions offered to them, however when i get to the save the changed Notepad file it isn't letting me it comes up with the propt: access denied. I have admin rights, so it's not that.
+The only thing i can think of is that it might be because i'm running it on windows 7 starter.
+Can anyone help me, please. i've been waiting for this game for about seven years. :(("
+,sambucaman,2011-03-13T11:32Z,"Hi
+Downloaded and finally got running on Win 7 (64bit) using methods shown here - thanks guys ;)
+Only problem I have is, the game is TOO fast. When turning left and right, the scenery just zooms by. I can slow down by controlling with arrow keys, but this makes for very annoying gameplay. Panaview turned to slow as possible in options. 
+Anyone else having this problem, or know of a way to slow down the game? 
+Thanks, and thanks Zorcher for u/l"
+,halofubar,2011-11-15T01:51Z,"Best bet for anyone running Windows 7 is to get the ""GOG"" version of the game, which has been revised/revamped to work properly on newer Windows operating systems. The GOG version installs and plays flawlessly, even on 64-bit Windows 7 (tested on my PC). You can go to http://www.gog.com/en/gamecard/zork_grand_inquisitor for information and to buy the game, or just search for ""zork grand inquisitor GOG"" to find it for download."

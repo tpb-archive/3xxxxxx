@@ -1,0 +1,21 @@
+Included here are the three classic Super Mario Bros. titles for the Nintendo Entertainment System (NES) (a.k.a. Nintendo Family Computer (Famicom) in asia), which was quite a popular video game console in the 1980's. An emulator, which enables you to play these games on your PC, is also included (FCE ultra 0.98.12 for windows).
+ 
+http://en.wikipedia.org/wiki/Nintendo_Entertainment_System 
+http://en.wikipedia.org/wiki/Super_Mario_Bros. 
+http://en.wikipedia.org/wiki/Super_Mario_Bros._2 
+http://en.wikipedia.org/wiki/Super_Mario_Bros._3
+
+
+files:
+NES Super Mario Bros. 1 + 2 + 3.zip	576.848 bytes
+
+
+in the archive:
+fceu.exe				629.760 bytes
+Super Mario Bros. 1.nes			 40.976 bytes
+Super Mario Bros. 2.nes			262.160 bytes
+Super Mario Bros. 3.nes			393.232 bytes
+
+
+How to handle:
+Extract the files in the zip archive to a location of your desire. Run fceu.exe. From the menu, choose file->open and select the game you want to play. Choose config->input from the menu to set the controls. By default, the arrow keys on the keyboard are used as well as "ctrl" (button B), "alt" (button A), "tab" (select button) and "return" (start button). I'd recommend to use an external keypad instead. Hold down "alt" and press "return" to switch between windowed and fullscreen mode. Have fun.

@@ -1,0 +1,18 @@
+﻿User Type,Username,Date,Text
+,allen_x,2006-11-19T17:57Z,what exactly is this ?
+,duder1,2006-11-19T18:30Z,"It's an update to a module that is used in Microsoft Flight Simulator 2004.
+
+A little note on this module.  I don't kbnow if the serial in this torrent will allow other programs such as Activesky work with FS2004 after registering the module.  If it does not allow Activesky too connect, then this is what you need to do.  After registering make all your setting changes in FSUIPC, then exit the game.  Go to the modules folder and rename the FSUIPC.key file.  Restart flight sim and all the settings that you have set in FSUIPC should still work.  And also Activesky will be able to connect again as you have unregistered the module.  "
+,ravw,2006-11-19T18:58Z,"I need the Captainsim B757 update for  FS X 
+En all FS X  are welcome :)
+"
+,4X-AXG,2006-11-19T20:53Z,duder is right..the serial provided does register the module but 3rd party addons such as ActiveSky won't work with it
+,soubibi,2006-11-20T09:35Z,"Request : all ""BasePack Autogen"" for FranceVFR Sceneries. FS2004 (& Patch for FSX)
+Thank you."
+,busfreak,2006-12-04T00:55Z,req.. fsuipc 4+
+,davmast,2009-02-02T16:51Z,"So everyone trying to get active sky to work with this FSUIPC. Insert the .dll into the modules folder but don't put the .key into there. Open the .key using notepad and note the registration info. Now go into FS and in FSUIPC register it using the info from the .key file. Restart FS and ASV6 will work. The thing that makes it work is not putting the .key into the modules folder. Let FSUIPC put the key in when you register it. And for the other people asking for the new version of FSUIPC. Just download this, register it by doing what I just said, then download the newest  version from the peter dowson website and replace the old .dll with the newly downloaded one, it will still be registered.
+
+you're welcome"
+,gotbutchi,2010-12-29T18:51Z,"Hey thanks a lot for the trick but it doesn't work with version 3.98 though!
+Request: Qualitywings 757 and FSUIPC 3.98!"
+,plasmahottie,2011-01-28T07:42Z,"active sky 6.5 and ase still connect just fine with it. i stepped up to 3.75 for ase, but i registered it normally, with the serial that came with the torrent, and everything works fine, didnt have to rename anything.  the best i can tell, you dont even need a registered version to use active sky, or any other program that ive tried so far.  in fact, ive only seen one program that actually required a registered copy.  aside from joystick functions, and hotkey mapping, you dont even really need to worry about it, all the weather/cloud functions are handled by your weather sim anyway.  so you could prolly just go to the site and download the newest version, if you dont need it for anything special."

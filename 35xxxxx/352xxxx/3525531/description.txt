@@ -1,0 +1,20 @@
+A freshly created VMware image of Ubuntu 6.06.
+
+user = user1
+password = user1
+
+
+Installed Software
+
+Automatix
+vmware-tools (auto starts & minimizes)
+screen size = 1280 x 1024 16 bit
+network card = dhcp
+vncserver 3.3.7
+screenkast 0.1.3
+libinstrudeo 0.1.3
+gftp 2.0.18
+swf-player 0.3.6
+automatix 6.5-3-6
+
+3GB HD

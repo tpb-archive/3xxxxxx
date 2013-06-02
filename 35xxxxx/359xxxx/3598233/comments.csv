@@ -1,0 +1,13 @@
+﻿User Type,Username,Date,Text
+,taddict84,2007-01-18T12:52Z,"hey im just uploaded this torrent but it seems that im only able to seed at a rate of up to 45-50 kbps. For other torrents that I seed it only lets me go up to that amount. I used utorrent and i have the max at 100 and had it at 150 and also used the original bittorrent and still will only give me a max of 45-50. My router is the linksys WRT54G i think version 2 and all firm ware is up to date and i tryed to call and they really dont give help for p2p sharing. So if anyone has had this problem or knows how to fix it help me out so i can get this torrent going a little bit faster.
+
+Thanks taddict"
+,taddict84,2007-01-18T23:14Z,"If anyone know how to fix my previously problem so i can speed up this download please comment or if you don't have an account please email me at c-rodd@lycos.com. A response would be much appreciated.
+
+Thanks taddict"
+,jgabriel,2007-01-25T19:16Z,"A bit late, but:
+
+Some ISP's throttle Bittorrent traffic on the 6881 port. Try changing your Bittorrent port to something in the 49000 - 51000 range.
+
+In uTorrent, the setting is under Options | Preferences | Connection. If it's not already an open port, you might have to open it in both your router and operating system or software firewall. 
+"

@@ -1,0 +1,10 @@
+No seed with the other torrent so I made my own patch.
+
+Change :
+
+- Lan enabled
+- Skirmish with AI Enabled
+- A lot of debug line removed (performance improvement against AI)
+
+Install :
+extract lua.scd in Supreme Commander\\\\gamedata directory

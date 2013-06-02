@@ -1,0 +1,7 @@
+BSplayer 2.12 with new features is released! 
+
+* all configuration files will now be saved in common folder, by default configuration files are in Application Data folder (C:\Documents and Settings\\Application Data\BSplayer), if you wish to have all files in BSplayer installation folder then just copy/create file BSplayer.xml there and all configuration files will be saved in installation folder
+
++ added 'Jump to file' option
+
++ added experimental support for IPTV (multicast MPEG2 TS streams (udp://@x.x.x.x:PORT))

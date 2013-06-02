@@ -1,0 +1,16 @@
+Pulled from virgin, never booted up S3 HD TiVo...
+
+Arguments used to create image: 
+mfsbackup -f 9999 -6so /mnt/tivo/Tivo.Series.3.TCD648250B.Virgin.Image.Supafly.mfs /dev/hdx 
+ 
+Use the following command to restore to the SATA drive of your choice: 
+mfsrestore -s 127 -zxpi /mnt/tivo/Tivo.Series.3.TCD648250B.Virgin.Image.Supafly.mfs /dev/hdx 
+ 
+Where "x" is the S3 TiVo HD on your PC. 
+ 
+See the following thread for more information:  
+http://www.dealdatabase.com/forum/showthread.php?t=50977 
+ 
+Happy Hacking! 
+ 
+-Supafly

@@ -1,0 +1,13 @@
+For those who have downloaded the German version of Gothic 3, this is the Speech_English.pak, i.e. the speech file of English version of Gothic 3. So you don\'t need to download the whole image of English version again.
+
+Just put it in \\Gothic III\\Data, then open \\My Documents\\gothic3\\UserOptions.ini, change
+
+VoiceLanguage=German
+SubtitleLanguage=German
+
+to
+
+VoiceLanguage=English
+SubtitleLanguage=English
+
+save and play.

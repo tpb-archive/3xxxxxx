@@ -1,0 +1,53 @@
+The companion CDROM for the book Game Programming Gems 6 (ISBN 1584504501)
+ 
+http://www.amazon.com/exec/obidos/ASIN/1584504501
+
+Note: It's the CDROM only, not an OCR of the book itself. Even so, I thought some might find it interesting.
+
+I've stripped out most of the redistributable stuff (DirectX, GLUT, GLEW)
+
+Contains accompanying code, examples, demos and/or videos for the following articles:
+
+Section 1: General Programming
+
+1.1 Lock Free Algorithms
+1.2 Multicore Processors Using OpenMP
+1.3 Computer Vision Using OpenCV
+1.5 BSP Techniques
+1.6 Closest String Matching
+1.7 Using CPPUnit For Unit Testing
+1.9 Faster File Loading
+1.10 Asset Hotloading
+
+Section 2: Math and Physics
+
+2.1 Floating Point Tricks
+2.4 Efficient Sequence Indexing
+2.5 Exact Buoyancy
+2.6 Particle Based Fluid Simulation
+
+Section 4: Scripting and Data Driven Systems
+
+4.2 Binding C Objects To Lua
+4.3 Lua Coroutines
+
+Section 5: Graphics
+
+5.1 Realistic Idle Motion
+5.2 Spatial Partitioning Using ABT
+5.5 GPU Terrain Rendering
+5.6 GPU Fluid Dynamics
+5.7 Fast Per-Pixel Lighting
+5.8 Rendering Road Signs Sharply
+5.9 Practical Sky Rendering
+5.10 HDR Rendering
+
+Section 6: Audio
+
+6.5 Cheap Doppler Effect
+6.6 Faking DSP Effects
+
+Section 7: Networking and Multiplayer
+
+7.1 Streaming 3D Animation Data
+7.4 MMOP Using Second Life

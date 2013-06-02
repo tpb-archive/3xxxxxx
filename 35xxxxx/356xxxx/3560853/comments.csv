@@ -1,0 +1,145 @@
+﻿User Type,Username,Date,Text
+,WinnieXL,2006-11-20T02:09Z,Thnx for the hard work.
+,rrodger99,2006-11-20T03:13Z,"Thanks for this....that was a lot of work to do.
+
+I liked this pack better than the Adobe package....seems like airports like Gatwick didn't have enough traffic"
+,pavcho,2006-11-20T06:01Z,"Greatly appreciated
+Thanks"
+,belga1,2006-11-20T06:42Z,Despite I keep the AI traffic at  the minimum..(for avoid polution and respect Kyoto convention) I tell you thank's for the effort... :)
+,BlackEight,2006-11-20T14:00Z,"How do I unistall the Adobe Traffic 4.4 Pack in order to install this one? 
+C2007, what AI aircraft have you used in the compilation? Aardvark,....
+Is it as frame friendly as the Adobe Pack?"
+,C2007,2006-11-20T17:38Z,"How do I unistall the Adobe Traffic 4.4 Pack in order to install this one?
+
+C2007, what AI aircraft have you used in the compilation? Aardvark,....
+
+Is it as frame friendly as the Adobe Pack?
+
+-----
+Im maybe not the right person to ask, i got but havent used Adobe Traffic 4.4 myself. But it should be some kind of uninstall function as AT 4.4 comes with a installer. In case it does, uninstall AT 4.4 and after that take a look in aircraft folder and see if you can find some suspicious AT 4.4 AI aircraft left-overs.
+And then take a look in scenery>world>scenery folder and see if the traffic .bgl for AT 4.4 has been removed. I dont know what the filename of the AT traffic .bgl is though, but it should start with traffic.
+
+With this package everything is removed with the uninstall option.
+
+The AI arcrafts are exactly the same as the original Sim Traffic 2006. That is Aardvark, EvolveAI, FSPainter, Project AI, RetroAI and some other smaller specialized developers.
+
+It should at least be as FPS friendly as Adobe Traffic 4.4. I havent tried it uot fully myself yet. But i get 23-27 FPS on Heathrow wit traffic slider on 60% (UK2000 Heathrow pro, Core 2 Duo E6600, 1Gb ram, ATI x1600xt)
+But maybe you can find out more about that at the release of the original Sim Traffic 2006 v1.0 Beta package: http://thepiratebay.org/tor/3552435/FS2004_Simtraffic_2006_V1.0_Beta
+
+Hope it helps!"
+,BlackEight,2006-11-20T17:52Z,Thanks a lot for the response C2007.
+,4X-AXG,2006-11-20T19:22Z,"I'll try it out, very nice repack, thanks!"
+,BritneysOrifice,2006-11-20T23:17Z,"C2007: Thanks very much for the repack. Just out of curiousity, do the traffic sliders work better than Adobe TP 4.4? If you aren't familiar with it, the Adobe 4.4 pack had some funky sliders since any slider setting between 4% and 100% would still give 100% traffic (thus, not a lot of choice... it's either all or nothing).  How do the sliders work in this particular pack?  Incidentally, I'd be amazed if this pack equalled the framerate-friendliness of Adobe 4.4 since the latter was literally outstanding. I assume Keiron (and you) used similar high-quality -- though FPS friendly -- models?"
+,rrodger99,2006-11-21T04:22Z,"I have used both this & the ATP (yes there is an uninstaller for ATP & the other simtraffic)
+
+Both packes use just about the same models. I found the repaints to more current with simtraffic. I didn't see any loss in fps.
+
+I did see a lot more consistency in the amount of traffic I had at airports such as Gatwick. Gatwick seemed empty with ATP but with simtraffic I have the same amount of traffic I had with Traffic 2005.
+
+The sliders do work with Simtraffic. I backed mine down from 100% to 80 & I saw a difference.
+
+Simtraffic has no GA or Military AI so I am still using the Tantris addon from ATP."
+,PopArt,2006-11-21T05:26Z,"Guys, just to let you know I am 80% done with my very own traffic pack. It will have the best of all packs out there, including this one. Believe me, it is massive! I will keep you posted, expect it around new-year.. ;-)"
+,PopArt,2006-11-21T05:28Z,"BTW, C2007, thanks for this package. You just saved me some more work. I know how time-consuming it can be... (y)"
+,BritneysOrifice,2006-11-21T07:27Z,"rrodger99: thanks for the comments. You stated all I need to know; looking forward to more current repaints as well.  Thanks again! [And PopArt... very much looking forward to seeing your pack as well; major work in this stuff, I know, and it is absolutely superb that some people have put together a total package for AI, unhampered by the screaming freeware livery artists that their rights have been violated. Thanks for your efforts, too!]"
+,C2007,2006-11-21T11:28Z,"PopArt, your welcome :-)
+And i'm curious on your traffic pack, and looking forward to see it too.
+Hey, what if we started a small competition, wouldn't the community love that? ;-)
+Just kidding, who's got the time anyway.
+
+And all others, glad you liked the work."
+,PopArt,2006-11-21T18:47Z,One question for you guru's out there: should a texture have mips or not? Please let me know what you think... ;-)
+,4X-AXG,2006-11-23T17:02Z,"I've done a little research and compared three AI packages:
+
+-The_FrankO v4.3
+-SimTraffic 2006 v1.0 beta (repack edition)
+-Adobe's Traffic Pack v4.4 (excl. Tantris GA & Military)
+
+here are the results:
+
+The number of files in all the aircraft folders:
+
+1. SimTraffic: 7401
+2. FrankO: 5622
+3. Adobe: 3657
+
+The total amount of used disc space:
+
+1. SimTraffic: 5.3 GB
+2. FrankO: 4.0 GB
+3. Adobe: 2.55 GB
+
+The size of the traffic.bgl file:
+
+1. FrankO: 90 MB
+2. Adobe: 77 MB
+3. SimTraffic: 66 MB
+
+The amount of airports inside the traffic.bgl file:
+
+1. Adobe: 23.970
+2. SimTraffic: 23.964
+3. FrankO: 3236
+
+The amount of aircraft inside the traffic.bgl file:
+
+1. SimTraffic: 11.777
+2. FrankO: 3.518
+3. Adobe: 2.410
+
+The amount of flight plans inside the traffic.bgl file:
+
+1. FrankO: 17.448
+2. Adobe: 15.114
+3. SimTraffic: 11.908
+
+The number of legs inside the traffic.bgl file:
+
+1. FrankO: 561.149
+2. Adobe: 495.357
+3. SimTraffic: 360.917
+
+The number of aircraft folders:
+
+1. SimTraffic: 164
+2. FrankO: 130
+3. Adobe: 128
+
+Is General Aviation incorporated?
+
+In all packages there is SOME G.A.
+
+Is Military traffic incorporated? (fighters and bombers only, no cargo aircraft/flights)
+
+In SimTraffic there is some; in FrankO and Adobe there is not
+
+***CONCLUSION***
+
+there hardly is any. FrankO is by far the best when it comes to amount of flight plans and legs. SimTraffic has the most Airports and Aircraft inside it's traffic.bgl file. Adobe doesn't stand out at all, except at the amount of airports inside the traffic file.
+
+Since FrankO's package is relatively old, and SimTraffic is very new, I'd say I'd recommend SimTraffic, but of course, this is all very personal. If there are any questions or comments..shoot!"
+,PopArt,2006-11-24T01:40Z,"Good job! I have come to more or the less the same conclusions, that's why I am combining this three packages + the packages of RATS / WoAI / PAI and some found on Avsim in one MAJOR package. It will leave all the commercial packages waay behind lol.
+
+In all packages there are companies which are already defunct, rebranded or anything else. I will leave them out. I am planning on keeping it up to date and releasing updates as it is progressing.
+
+I need 2 things though:
+1) should I include mips or not?
+2) how to make an installer
+
+Again, thanks for the comparison and stay tuned ;-)"
+,4X-AXG,2006-11-24T02:22Z,"I can't help you with that I'm afraid..I have no clue about mips..creating installers, same thing, but can't you do something with the Microsoft SDK? doesn't that involve creating .msi installers?
+
+can't wait for your AI package :)"
+,Crodge,2006-11-26T15:05Z,"Great package, just needs tidying up in North America. No Easy Jet flights at KBTV, nor Air France or Lufthansa flights from KCLE. Odd to see a China Airways 737 flying from Montreal Airport. Get the schedules fixed and this package will rock. Great work in cleaning it up and removing the duplicates. 
+Models are top notch, better than UT and Traffic 2005."
+,monstert,2006-11-27T11:14Z,"Long live simtraffic! CharlesD of EvolveAi is a CUNT! Woooo lol..hi Charles haha
+Splendid job on Simtraffic guys!"
+,C2007,2006-11-28T14:31Z,"Cleaning and fixes are in the works. Some of them are included in my new traffic pack:
+
+SkyTraffic 2007 v1.0
+http://thepiratebay.org/tor/3566479/FS2004_-_SkyTraffic_2007_v1.0_RELEASE"
+,dtr51751,2007-05-03T17:46Z,"Hello,
+
+Thanks for all the great work, but could someone seed Sim traffic 2007.
+
+Thanks"

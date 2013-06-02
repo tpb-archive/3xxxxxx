@@ -1,0 +1,303 @@
+This will update your WoW client to the current test patch version(the Pre-Burning Crusade patch) so that you can test out a slew of the new changes to come in The Burning Crusade expansion including the new talent trees and abilities up to the 41 point talents.
+
+The patch notes are as follows:
+
+--------------------------------------------------------------------------------
+- World of Warcraft Test Patch 2.0.1
+--------------------------------------------------------------------------------
+
+The latest patch notes can always be found at  
+http://www.worldofwarcraft.com/info/underdev/
+
+General
+-  All players will have talent points reimbursed and will have access
+   to new talents throughout their trees; this includes the 41-point 
+   talents. Several new abilities have also been added for all classes.
+-  All pets now receive a percentage of their master\\\'s armor, spell 
+   damage, spell resistances, attack power, and stamina.
+-  Low-level spells cast by high-level players will receive smaller 
+   bonuses from +healing and +spell damage.
+-  HoTs, DoTs, and channeled spells have been re balanced to receive a 
+   more appropriate (higher) percentage of +spell damage and +healing.
+-  HoTs from different sources will now stack (i.e. multiple druids can
+   cast the Rejuvenation spell on 1 target).
+-  New item property \\\"Resilience\\\" has been introduced. Resilience 
+   reduces your chance to be the victim of a critical strike, and 
+   reduces the amount of damage critical strikes do to you.
+-  Weapon Skill now does the following:
+-  Weapon skill will no longer reduce the percentage damage lost due to
+   glancing.
+-  The player will gain 0.1% to their critical strike rating per weapon
+   skill against monsters above their level.
+-  When casting a buff on a low level target, the appropriate rank of 
+   the buff will be automatically be applied.
+-  Crowd Control effects in PvP will last no longer than 12 seconds 
+   instead of the full duration, with a chance of a heartbeat resist.
+-  Players will no longer lose faction when under the influence of 
+   \\\"Mind Control\\\" or the Gnomish Mind Control Cap.
+
+PvP
+-  Honor System Revamp
+   Current honor totals have been reset.
+   Players may display their highest lifetime rank title (accessible 
+   from character sheet).
+   Honor points earned each day may now be spent as a form of currency.
+   Check the PvP tab of your character sheet to see your honor 
+   information.
+   PvP rewards are no longer unique.
+-  Marks of Honor earned from battlegrounds are no longer turned in for
+   reputation or honor.  They are now used in addition to honor points 
+   in order to purchase rewards.
+-  Two New Arenas are now available in three different modes.
+   2v2, 3v3, and 5v5 matches
+   Players may queue up at Goblin NPC\\\'s in Stormwind, Ironforge, 
+   Orgrimmar, Undercity, and Gadgetzan
+
+Druids
+-  The talent \\\"Swiftmend\\\" will now include bonus healing from the 
+   talents \\\"Improved Rejuvenation\\\" and \\\"Empowered Rejuvenation\\\".
+
+Hunters
+-  Traps can be set while in combat, but require a 2 second arming time.
+-  Auto shot will be automatically enabled if the Hunter steps out of 
+   melee range while in combat with target.
+-  1 agility will now grant 1 ranged attack power.
+-  Auto shot is now reset when casting Aimed Shot.
+
+Shaman
+-  Shaman with the appropriate talent spec are now able to dual-wield. 
+   Both main and off-hand weapons can be affected by self-weapon buffs 
+   such as Windfury.
+-  Rockbiter\\\'s weapon functionality has been changed. It is now a 
+   damage proc instead of a flat attack power bonus.
+-  Windfury Weapon and Rockbiter Weapon enchantments will only benefit
+   the weapon with the enchantment on it.
+
+Warlocks
+- Range of \\\"Drain Life\\\" and \\\"Drain Mana\\\" spells have been increased.
+
+Warriors
+-  Rage generation from dealing damage has been normalized.
+-  All Rage awards are averaged with our expected rage per swing 
+   (adjusted for weapon speed).
+
+Items
+-  The \\\"Far Sight\\\" effect has changed so that the camera now zooms in
+   to a distant location, rather than instantly showing the distant 
+   view. This also affects the items: Ultra-Spectropic Vision Goggles, 
+   the Ornate Spyglass, and the Hunter ability \\\"Eagle Eye.\\\"
+-  Spells can now require either a totem item or a totem category item 
+   to cast a spell. This means that the Enchanting Rods now count as 
+   all of the lower level enchanting rods as well, so you only need a 
+   single enchanting rod instead of all six. This also means that 
+   \\\"Finkel\\\'s Skinner\\\" now counts as a Skinning Knife. Several weapons 
+   that are picks have been flagged as counting as a Mining pick as 
+   well.
+-  Items that give bonuses, such as + to crit, have been modified to 
+   adhere to a combat rating system.
+-  All current items will provide the exact same benefit from ratings 
+   at level 60 as they provided before the ratings system.
+-  Thrown weapon items no longer stack, but use durability instead. One
+   unit of durability is lost per throw, and these items can be repaired.
+-  The tool tip for the Great Staff of the Guardian now shows the 
+   proper increase of 28 to the party spell critical rating.
+-  Items that are useable from player inventory with a cooldown will 
+   now update the cooldown in real-time.
+-  Players will no longer be able to sell the \\\"Blue Skeletal Horse\\\" to 
+   vendors.
+-  The damage Proc from the item \\\"Misplaced Servo Arm\\\" will no longer 
+   break the Rogue ability \\\"Gouge\\\".
+-  The \\\"Skull of Impending Doom\\\" has been changed and will now increase
+   run speed by 60% for 10 seconds, but deals damage equal to 60% of 
+   your maximum health and drains 60% of your maximum mana for over 10 
+   seconds.
+-  The Backfire effect on the \\\"Net-O-Matic\\\" will no longer break on 
+   damage.
+
+Professions
+-  All of the profession-made items that have been created up to now 
+   have been given proper stats based on the current expansion item 
+   level progression table.
+-  Most of the items made by Tailoring/Leatherworking/Blacksmithing 
+   have had their creation time reduced. Now the cap on time required 
+   to make an item in those professions is based on quality and level.
+-  New Max times required.
+   Level 31+ Green Items at least 8 sec
+   Level 31+ Blue Items at least 15 sec
+   Level 31+ Purple Items at least 25 sec 
+   Skill level now determines what items you can disenchant.
+   Skill 1= Level 1-20
+   Skill  25= Level 20-25
+   Skill  50= Level 25-30
+   Skill  75= Level 30-35
+   Skill 100= Level 35-40
+   Skill 125= Level 40-45
+   Skill 150= Level 45-50
+   Skill 175= Level 50-55
+   Skill 200= Level 55-60
+   Skill 225= Level 60-65
+-  Players will no longer lose an item when attempting to disenchant 
+   on a boat when the loading screen appears.
+
+User Interface
+-  Meeting Stone gossip options have been removed from Innkeepers in 
+   preparation for the new LFG system.
+-  LFG/LFM UI
+   Tips have been added to Loading Screen tips and new player tips
+   Meeting Stones now function similar to a Warlock Summon spell.
+   Player\\\'s select party member to be summoned and right click the 
+   stone.
+   A second party member then clicks the portal to summon.
+-  Enchanting UI has been vastly improved.
+-  Raid UI now supports frame for Main Tank.
+-  Spell Alert (Enemy Cast bar)
+   Defaults to off
+   Enabled through Interface Options
+   Displays targeted enemy\\\'s cast bar when they are casting.
+   May also be displayed with \\\"V\\\" key functionality.
+-  Auto-loot may be enabled with just one click in the Interface 
+   Options.
+-  Character sheet UI now displays more precise melee, ranged, and 
+   spell stats.
+-  Players can now cast item targetable spells on items that are in 
+   your action bar. For instance you can cast feed pet and have the 
+   food you want the pet to be fed in one of your action bars.
+-  Semi-charged items can no longer be placed in the Auction House.
+-  A knowledge base has been added to the in-game UI.
+-  Searchable database of FAQ\\\'s and common support issues.
+-  Keyrings have been expanded to hold more key-type items and will now
+   size dynamically for the number of keys in possession.
+-  The Hunter ability, \\\"Mend Pet,\\\" will now turn red when a pet is out 
+   of range.
+-  Players will now be able to disable ability messages in the floating
+   combat text.
+-  Players will now be able to scroll down their ignore list if it 
+   extends beyond one page.
+-  The tooltips for the Show Dispellable Debuffs and Show Castable 
+   Buffs options will now specify they only apply to raid pullout 
+   groups.
+-  Significant changes have been made to User Interface customization.
+   For specific details, please visit 
+   http://forums.worldofwarcraft.com/thread.html?topicId=36975623&sid=1.
+
+Bugs
+-  The Rend Blackhand arena event in Upper Blackrock Spire will now 
+   properly reset after a wipe.
+-  Players will no longer resurrect with low mana and health if they 
+   died and released on a Zeppelin or Ship.
+-  Fixed an issue where effects with 100% chance to be applied were 
+   being resisted.
+-  Fixed an issue where high level players were not being properly 
+   credited the right amount of faction reputation.
+-  Party members will now be properly credited for completing the 
+   \\\"Dead Man\\\'s Plea\\\" quest when a totem or pet gets the killing blow 
+   on Baron Rivendare.
+-  Slowing abilities and spells will no longer decrease the speed of a
+   player when traveling by Gryphon.
+-  Fixed an issue where players were re-taining talent based abilities 
+   even after re-training.
+-  Fixed an issue where the Warlock spell \\\"Shadowburn\\\" was improperly 
+   consuming two Soul Shards.
+-  Fixed an issue where players were unable to click on anything if 
+   they had any add-ons installed.
+-  Fixed an issue where players were able to use \\\"Mana Burn\\\" on mobs 
+   and players without mana.
+-  Fixed an issue where spells that proc while a player was standing 
+   would not proc if they were sitting or lying down.
+-  Fixed many interface overlapping graphic issues.
+-  Fixed an issue where Seal of Justice (Rank 2) will now refresh with
+   melee strikes.
+-  Blood Elf mobs in Azshara will now have the correct model.
+-  Fixed an issue where a spell with two procs would be reflected and 
+   one of the procs would still hit the player that reflected the spell.
+-  Fixed an issue that was putting Hunters back into combat when they 
+   have the \\\"Spirit Bond\\\" Talent or have the Cryptstalker set bonus.
+-  Fixed an issue where players were being awarded the wrong item when
+   double looting a corpse under the master loot option.
+-  Fixed an issue where players interrupted while casting would have a
+   longer cast time than normal.
+-  Fixed an issue where players could not see enchants when inspecting
+   another player.
+-  Fixed an issue where extra attacks from \\\"Windfury Weapon\\\" would not
+   proc \\\"Flurry\\\" when they crit.
+-  Fixed an issue where players that were killed in freezing traps 
+   would be stuck there until releasing.
+-  Fixed an issue where Warlocks were able to despawn a pet to gain a
+   free \\\"Soul Shard\\\"in the Battlegrounds.
+-  Warrior \\\"Shield Slam\\\" and \\\"Shield Bash\\\" will no longer trigger a 
+   proc from an equipped weapon.
+-  Fixed an issue where players were able to consume a Mana Emerald at
+   full mana.
+-  The totem, \\\"Wrath of Air,\\\" will no longer be useable in \\\"Ghost Wolf\\\"
+   form.
+-  Fixed an issue where Warrior \\\"Battle Shout\\\" was causing too much 
+   threat.
+-  Fixed an issue where computers with ATi video cards were sometimes 
+   having problems when displaying a certain texture.
+-  Fixed an issue where the Warlock spell \\\"Death Coil\\\" gained double 
+   the benefit from the talent \\\"Shadow Mastery\\\".
+-  Player pets will no longer attack CC\\\'ed targets while in Passive 
+   mode.
+-  \\\"Prayer of Spirit\\\" will no longer cast on the user if there is no 
+   other target selected.
+-  \\\"Lightning Shield\\\" will now have the appropriate cool-down time 
+   between uses.
+-  Fixed an issue where materials were being consumed if a player 
+   logged out before an enchantment had finished being applied.
+-  The Hunter, \\\"Auto Shot,\\\" ability will no longer activate on 
+   resurrection.
+-  Fixed a bug where \\\"Inner Focus\\\" was not being consumed when using
+   \\\"Mind Soothe.\\\"
+-  Fixed a bug where Rogues were able to use the ability 
+   \\\"Ghostly Strike\\\" when not facing their target.
+-  Warlock pet dismiss sounds will now play properly.
+-  Fixed an issue where Fist weapons were sheathing improperly.
+-  Bags will no longer overlap the Bank UI when the game window is 
+   resized.
+-  Players will no longer be able to whisper to enemy players in 
+   Battlegrounds.
+-  The Skeletal Gryphon ride for the Eastern Plaguelands PvP event will
+   now fly at its correct speed.
+-  Players will no longer be able to whisper to enemy players in 
+   Battlegrounds.
+-  Players will no longer be able to jump onto the top of the Dun 
+   Baldur Fortress in Alterac Valley and get behind the terrain to 
+   attack other players.
+-  Shapeshifting will now break \\\"Nogginfogger Elixir\\\" effect.
+-  You will no longer die when Feign Death is finished channeling.
+-  \\\"Scatter Shot\\\" will now properly do damage even if the target is 
+   immune to the confuse effect.
+-  \\\"Aspect of the Cheetah\\\" will now properly trigger with absorbed 
+   damage.
+-  Casting a lower rank polymorph on a target that is already under the
+   effect of a higher rank will cause an error message and not consume 
+   mana.
+-  The talent, \\\"Master of Elements,\\\" will now properly proc off of 
+   totems.
+-  Players will no longer be attacked by same faction guards when using
+   mind control on an enemy player to attack.
+-  \\\"Vanish\\\" will now properly un-target the Rogue from the attacker 
+   when the attacker is in the same party.
+-  The talent, \\\"Improved Chain Heal,\\\" will now properly add to the base
+   healing done.
+-  \\\"Healing Wave\\\" Ranks 11 and 12 will now benefit from the Shaman 
+   talent, \\\"Healing Way.\\\"
+-  \\\"Improved Curse of Agony\\\" will now properly increase the base and 
+   spell power.
+-  Warlocks will now be properly credited a Soul Shard from their pet 
+   when they take a flight path.
+-  Warlocks will now be properly credited a Soul Shard from their pet 
+   when they are dead at the end of a Battleground match.
+-  Warlocks will now be properly credited a Soul Shard from their pet 
+   when they enter an Arena.
+-  Casting \\\"Dark Pact\\\" after exiting combat will no longer put you back
+   in combat.
+-  The tool tip for the \\\"Great Staff of the Guardian\\\" now shows the 
+   proper increase of 28 to the party spell critical rating.
+-  Several Chest spawns in Dustwallow Marsh will now properly spawn 
+   above ground.
+-  Items that can give +Stamina/Intellect from random suffixes will now
+   properly apply while dead.
+-  \\\"Beastmaster\\\'s Gloves\\\" will now give the proper 2% crit chance for 
+   Hunter pets.
+-  Various graphical errors will be noticeable while viewing maps.

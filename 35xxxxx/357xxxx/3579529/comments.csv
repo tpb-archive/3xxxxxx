@@ -1,0 +1,77 @@
+﻿User Type,Username,Date,Text
+,secondtoughest,2006-12-19T00:46Z,is it NTSC or PAL?
+,Jellien,2006-12-19T01:32Z,"Thanks, man! Great upload!!!"
+,Iamcloud,2006-12-19T03:08Z,Hi thanks for uploading this. I have a question. I have download RE games before but they all seem to be protected. I don't have this problem with other games they play fine on my ps2. Do you have a salution for me?  Thanks in advance 
+,amoren,2006-12-19T03:36Z,"Thx m8:)
+
+Sony all the way;)"
+,magnusgn,2006-12-19T16:58Z,"Iamcloud: what kind of chip/method do you use for booting up games? -all i know is that if you use swap magic or similar boot discs you have to load up with another swap disc that can boot PSX games, after booting up with swap magic (Breaker Pro for ex.) When it comes to mod chips on PS2 i unfortunately have very little experience. you could buy a cheap sony lookalike gamepad and use it with ePSXe. that's what i do! hope this helps."
+,magnusgn,2006-12-19T17:01Z,"secondtoughtest: they are all SLUS (that is non-eurpean, NTSC)."
+,Iamcloud,2006-12-19T19:28Z,I use a neo 2.2 chip with combination of a wireless chip and use action replay to load games. The thing with RE games is that they have protection on them. I was hoping you could help me with that. I will try your method of using epsxe btw hehe.
+,TigerMale,2006-12-19T20:47Z,"aaaaaarhhhhhhhhh! great upload. if it weren't for the fact that i gave away my psx, and i can't play it on my ps2 without a psx memorycard:( otherwise it'd be nice to play through all three:P in one night:)"
+,quazzi,2006-12-20T18:37Z,"Looks like he did answer. NTSC.
+
+magnusgn ""secondtoughtest: they are all SLUS (that is non-eurpean, NTSC)."""
+,Jellien,2006-12-21T10:48Z,"Seed, please? Are stuck on 85,6%."
+,Iamcloud,2006-12-21T16:24Z,I am stuck at 95% someone seed. Once I am finished I will seed for the rest :)
+,Jellien,2006-12-22T21:11Z,"What program do you burn RE1 & 2 in? I've tried Alcohol 120, but that is not working for me. Can someone help?"
+,magnusgn,2006-12-23T13:20Z,"Jellien: Some games have to be burned in mode2/xa. You can convert the images to this mode, or extract the data and burn in mode2/xa (nero works fine if i remember correctly). Do you use a psx or ps2? (non-modded ps2's can't boot psx games with swap discs unless you have a psx loader. See my message to Iamcloud). Good luck!"
+,Joana8,2006-12-27T20:29Z,"Is it Playstation 2 or Plastation???
+
+Let me know
+Thanks"
+,Joana8,2006-12-27T20:31Z,"One more thing:
+
+Are PSX games going to work with PS2 system?
+
+Let me know
+Thanks"
+,magnusgn,2007-01-06T18:50Z,"btw, i experienced some sound issues in the voice acting in RE3. Here's the sound config that'll fix it:
+
+sound plugin P.E.OP.S. DSound Audio Driver 1.8
+Configuration:
+Mode 2: Use SPUasync (must be supported by the emu)
+Volume: 3: loudest
+Reverb: 2: PSX reverb (best quality)
+Interpolation: 2: Gaussian interpolation (good quality)
+
+and then the only option in config checked is under
+XA music
+""Enable XA playing""
+thats the only one
+and of course check first three options on the main config sound
+
+""Enable Sound (Select to enable ADPCM sound)""
+""Enable CDDA Sound (Select to enable CDROM sound)""
+""Enable XA sound (Select to enable XA sound in MDEC)"""
+,Fikret,2007-02-10T13:08Z,"Hey, I've downloaded this torrent but after I burn it (with Alcohol 120% and Nero) and I've inserted the disc in my PS2, the game never starts, it just stops when the PlayStation trademarket shows up! I would been really nice if you could tell me with wich programe I should burn the game and why the game stops when the PS trademarket shows up? please? PS: if you're a swed write back in swedish!"
+,Pellish_,2007-07-10T23:13Z,Isn't there any .cue file for RE 1 ?
+,Advantage_7,2007-09-05T00:30Z,please please can someone Seed i really need this thanks!!!
+,lyndor97,2007-11-26T23:17Z,can someone help every time i burn resident evil 2 (Mode 2/XA) i boot it in my PS1 and it the game plays prefeclt but there is no sound during cutsceans and no voices in diolouge? HELP!
+,Jesse_Kessu,2008-02-24T12:29Z,Can i just burn the iso files to the disc and then play it on my ps1 or do i have to extract the files or something? Btw im seeding the file for 20-30kbs so it wont get stuck anymore. THX.
+,Jesse_Kessu,2008-02-24T13:23Z,What program should i use to burn the game for psx?
+,Nitro666,2008-03-15T22:43Z,seed i went from having 112kb/  to 7kb/
+,dill3377,2008-04-03T09:54Z,"PLAY BACKED UP GAMES NO MOD
+PLAY BACKED UP GAMES NO MOD
+PLAY BACKED UP GAMES NO MOD
+
+The trick is you have to first take ur FAT ps2 and turn it around, the eject the tray and take off the front cover, depending on the model there might be screws or not, just take off the side things, very breakable and take off the front, now go onto youtube and find how to make a SLIDE CARD, make this and ake sure you have an original psx game, download ur game and burn the IMAGE file to a cd using alcohol 120%, just get the trial and find a crack, dont need one but it only lasts 30 days, then burn the image to a cd DO NOT FORMAT THE CD, then go into ur ps2 browser and stick in the original psx game, then use the slide card to open up the disc tray, researh how to do it, DO NOT PRESS THE EJECT BUTTON, then stick in the backed up game and push the tray back in, the push the little white thingy back into place, just for you people who are lazy, the little slot has to go into a little white pin about 2 inches in, pretty easy to find, must slide it to the right and then the left after putting the game in, then click on the game and itll work"
+,LittleJoy,2008-06-21T23:43Z,WTF??? In Re 2 no sound during cutsceans! i burn with UltraISo programm in x4 x10 x16 x32...no effect? 
+,LittleJoy,2008-06-22T14:02Z,"I got it:) 
+Programm UltraIso
+Speed X4
+You need to convert .img to (.bin/.cue) in that programm and burn....all works with sound!"
+,The Stow,2008-07-20T23:34Z,"Might sound stupid but will this work on a psx emulator on my pc.
+
+Thanks in advance"
+,joonkimdds,2008-07-21T22:35Z,I just ran it. RE2 cutscene has NO voice! and the game runs too fast to play. How do I adjust the speed of the game into normal? I am running it on ePSXe 1.6 that is included here.
+,stojshic,2008-08-09T14:19Z,"Works great on ePSXe, but there is no sound on any game on my PS2. Tried Directors Cut, RE2 CD1 and Nemesis, not working :( I don't know how LittleJoy did it, I tried with his method, but it's same again..."
+,SgtFurby,2008-08-10T06:25Z,popsloader...psp... :)
+,Sunny_engg,2008-10-03T03:46Z,"Dear friends, after you open the epsxe emulator, click on Config > Sound and check the option which says ""Enable XA playing (Select to enable XA sound in MDEC). It worked for me in Street Fighter EX2 plus Game :)"
+,RayningBlood,2008-11-21T07:28Z,f-ing seed please
+,peterthelemon,2009-03-24T22:00Z,jesus h. christ will people seed  this thing... god!
+,FiZZ52,2010-02-10T08:22Z,"Hey i used win rar to extract no go, then i used win zip no go, Finally 7zip worked will test it on my modded ps2 and let ull know"
+,FiZZ52,2010-02-10T11:08Z,"Game works on ps2 fat version but no sound during cut scenes
+
+NE HELP ?????"
+,beatax,2011-08-15T17:26Z,check the playground: http://www.gamestia.com/video/resident-evil-1-c56s1.html

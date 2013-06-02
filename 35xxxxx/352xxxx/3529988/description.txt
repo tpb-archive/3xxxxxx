@@ -1,0 +1,34 @@
+Back in the old  days you could remove  the vocal from a  stereo track by
+subtracting the left channel from the right.
+
+  * You only got mono output,
+
+  * The bass was missing,
+
+  * The mix sounded terrible,
+
+  * You could only remove the vocal, not isolate it,
+
+  * It only really worked on old tracks, before they started using stereo
+  reverb.
+
+Voice trap offers two sophisticated DSP algorithms: 
+
+  * FFT-based center channel suppression / isolation,
+
+  *  Cepstral  liftering  (an   advanced  technique  that  can   identify
+  harmonically rich elements in a mix).
+
+Together these allow Voice Trap to overcome those problems:
+
+  * The output is stereo,
+
+  * The bass frequencies are left untouched,
+
+  * The mix is largely preserved,
+
+  * You can choose to remove the vocal OR isolate it,
+
+  * Good results possible on some modern tracks (ie, with stereo reverb).
+
+www.awesomeaudio.org

@@ -1,0 +1,23 @@
+J\'ai écrit ce manuel petit à petit au fur et à mesure que je compilais moi-même toutes les sources pour me fabriquer une station Linux complète et totalement à mon goût.
+En général, je n\'aime pas les distributions Linux standard car elles ne permettent pas vraiment de comprendre Linux et la façon dont il fonctionne.
+C\'est la raison pour laquelle j\'ai choisi de suivre les instructions de LinuxFromScratch (www.linuxfromscratch.org) et de devenir ainsi un utilisateur averti et quasiment indépendant de toutes distributions.
+Lorsque j\'installe un package, je n\'ai pas besoin de rpm ou de deb mais seulement du code source, ce qui a en outre comme excellent avantage de pouvoir compiler des versions du logociel encore en développement.
+La liberté et l\'expertise que m\'a donné le projet LinuxFromSctrach (LFS) est énorme.
+Elles m\'ont permis de m\'affranchir totalement du système Windows et d\'être un utilisateur de Linux totalement indépendant des distributions.
+Quasiment aucun package ne me résiste à la compilation.
+Je livre au public ces quelques 260 pages d\'installations afin qu\'elles servent à ce que plus de gens parviennent à cette extraodinaire liberté que représente Linux et le monde libre.
+Pour des raisons personnelles, je n\'ai pas eu le temps de formater ce document comme il l\'aurait mérité et je le livre donc ainsi, tel que je l\'ai construit au fur et à mesure des mois.
+
+Il m\'a fallu quelques mois à temps plein pour arriver à une station Linux complète, dont je connais les moindres recoins et que je maitrise totalement.
+
+Mais l\'aventure en vaut la peine; elle donne le sentiment de liberté énorme de ne plus être inféodé aux grandes puissances de ce monde qui essaient de verouiller totalement l\'univers informatique et l\'internet, afin de mieux nous manipuler au travers leurs publicités, leurs cookies et leurs logiciels propriètaires destinés au renseignement et au marketing.
+
+L\'install proprement dite commence avec le chapitre intitulé \"INSTALL LFS Chapitre 5 avec le LiveCd et le hint de Dupré\"
+Auparavant, il y a des notes sur des principes généraux ou sur des choses que j\'ai commencées à installer et que j\'ai ensuite abandonné pour passer à LFS.
+
+J\'espère qu\'il vous sera possible de tirer un grand bénéfice de tout ce que j\'ai mis pas écrit.
+Si c\'est le cas, diffusez-le grâce au P2P.
+
+ENJOY !!
+
+Yves ? Octobre 2006

@@ -1,0 +1,9 @@
+* Fixed problem with user not being returned to the offline main menu when losing their connection.
+
+* Users are no longer returned to the offline main menu after a LAN race.
+
+* Fixed host hanging in an empty game room after exiting a race.
+
+* Users are now able to find LAN races created through Quick Race.
+
+* Fixed issue where the game will softlock and lose focus when clicking on 'Continue' in the [create new account] screen when information is entered but not confirmed in one of the first four fields.

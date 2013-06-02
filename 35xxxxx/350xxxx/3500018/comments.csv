@@ -1,0 +1,182 @@
+﻿User Type,Username,Date,Text
+,NeverRAR,2006-07-01T12:10Z,"Oh, and this is the DVD-version incase you didn't bother with the title. No need for 6CD's. Enjoy!"
+,Frosen69,2006-07-01T15:32Z,"Thanks man.
+Can some one uppload the first one, i wuld be werry greatful."
+,NeverRAR,2006-07-01T17:24Z,"It's are already up. If there aren't any seeders then I've got that one too, but I suggest you try one of these torrents:
+
+English Version:
+http://thepiratebay.org/details.php?id=3262247
+
+Swedish Version:
+http://thepiratebay.org/details.php?id=3432316"
+,Frosen69,2006-07-02T17:04Z,"Thanks again, i try one of thoes."
+,1031982,2006-07-07T12:47Z,"Good, I played through part one, and now that I can finally play through the second one (got an empty box, no one will do anything about it) I can find out what happens!"
+,nwadel,2006-07-26T06:04Z,"Can't get this to work. Giving me the error ""wrong disc inserted, please insert the original ""dreamfall cd/dvd"" Any suggestions? Using Daemon tools"
+,nwadel,2006-07-26T14:56Z,"OK got it to work but crashes immediately, any suggestions? It doesn't say what happens it just says it crashes and to send the dmp & txt to funcom. "
+,NeverRAR,2006-07-29T15:45Z,"nwadel, you used the crack that was on the disc-image right?"
+,warreng777,2006-07-31T09:09Z,Anybody knows where I can download a patch for this version of dreamfall? The game crashes in chapter 7 after the altar... 
+,nwadel,2006-08-02T02:07Z,"I went into the No cd file, copied the Dreamfall application, pasted it in the Dreamfall file (which replaced the one that installed) and it doesn't run, it just gives an error that it crashed and to send the dmp & txt files to funcom. Did i do it right?"
+,NeverRAR,2006-08-02T22:03Z,"nwadel,
+
+It seems correct.
+
+It also seems like there are more than a few people having problems with this game.
+I'd recommend searching the web for bugfixes and/or check some forums about compability (this goes for all of you with probs)."
+,NeverRAR,2006-08-02T22:03Z,"It might be that your gfx card is too old or that your drivers aren't updated for example.
+
+Sorry I can't be of more help than that."
+,niborn,2006-08-28T00:55Z,when I have read the license agreement and pushed the next button it says that I don't have enough space to install. but I hadn't even chose where the game should be installed and I have 170gb free!!!
+,Zarbotac,2006-09-02T18:33Z,Can someone explain what to do with the cue and bin file? I tried to burn it in NERO but I got a new nrg file??? Help!!!
+,Tantonta,2006-09-05T15:00Z,This torrent has a Trojan downloader in it.
+,NeverRAR,2006-09-08T12:42Z,"niborn,
+this is a common problem with this game. If you don't have enough free space on your first drive, it won't even let you choose where to install.
+Look on the internet and you'll find a fix.
+
+Zarbotac,
+You need to choose something like ""burn from image"". I'm not sure how to do it exactly in Nero, since I use Ashampoo Burning Studio 6, which I think is much better.
+
+Tantonta,
+And your mother has my **** up her ***.
+There is NO trojan in this. I'm 99% sure. My antivirus hasn't complained and no one else who downloaded this has complained either.
+
+Seemingly, there are those who enjoy typing ""this is a trojan"" on every torrent they find. Myself, I find this really annoying since I wish to know which torrents are secure and which are not. But I guess my own antivirus is the only one I can rely on nowdays."
+,Norwegianange,2006-09-11T21:04Z,"Hei,
+Thanks a lot for the game. Works perfect for me... except that when I get to Winter (and that crazy girl scares the hell out of me... The Ring inspired???)... the game crashes... that means the graphics get fucked up but I can still move, pick up things and even fight some shitty monsters... any help I can get?"
+,NeverRAR,2006-09-19T19:14Z,"Norwegianange,
+I have heard of someone else with a similar problem at a different place in the game.
+Unfortunately I can't help more than to recommend you to upgrade your gfx-drivers and reinstall the latest directx (if this game needed dx, don't rember)."
+,Luona,2006-10-17T12:18Z,"Can't get it to work. Just getting upp an error message: wrong disc inserted, please insert the original ""dreamfall cd/dvd.
+Downloaded the file but can only see 2 files, dvd-file and .cue file. Can't find the crack. :/
+Any suggestions?
+
+*Using Daemon Tools*"
+,NeverRAR,2006-10-21T15:06Z,"Luona,
+Yes, you should mount the "".cue""-file with daemon-tools (which then links to the "".bin""-file in the same directory).
+
+...or you could of course mount the .bin directly (don't know if there's any difference really)...
+
+As the DVD is mounted you should find my .nfo-file on the disc, the .nfo from PLEX and the .nfo from Reloaded. BUT MOST IMPORTANTLY, you should find the crack for the game on there too, which you will need to be able to play."
+,csb2,2006-11-06T10:19Z,"seed, everybody, seed! pls!"
+,kukruneskuk,2006-12-04T01:24Z,Thanx man the game works great and I just change the installpath in regedit.....crack´s good to.
+,imaculate,2006-12-27T07:10Z,wholy shit... 11 seeders and only dling at 2kbs WOW i'm uploading it faster than that!!! come on!!!  this is turning out to be THE LONGEST DOWNLOAD
+,tingtong,2007-01-07T22:01Z,Just saw this review on Gamespot and looked interesting. Thx for the upload and the Link to the 1st version NeverRAR
+,Mysko,2007-01-14T14:07Z,"Hittade nått som kan vara intressant:
+
+""Hello,
+Apparently if you install Dreamfall, and if the drive of your default install directory (usually like c:\program files\) does not have 7 gigs free, it will not even let you get to the screen where you can choose a different drive/partition.
+
+This is pretty annoying, and backwards, since it should let you choose a drive, before it checks to see if there is enough space.
+Here is how you can change your default windows install directory to allow it to install your game.
+
+Go to Start -> Run:
+Type RegEdit
+
+Navigate to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Curr entVersion
+
+On the right side is something called: ProgramFilesDir
+
+*Write down the current path of the ProgramFilesDir, you'll need to change it back after install*
+
+Change this value to a drive that contains 7+ gigs of space
+
+Install Dreamfall
+
+*Go back into the Registry, to ProgramFilesDir, and change it's value back to what it originally was.*
+
+Don?t mess up your registry by doing anything else.
+
+-Dan""
+
+Creds till Supeman"
+,blackcraft,2007-01-17T17:11Z,seed plx :) 
+,badtz,2007-01-19T17:18Z,"System Requirements
+
+Minimum System Requirements:
+* OS: Windows XP (with service pack 2)
+* CPU: Intel Pentium 4 1.6 GHz or AMD Sempron 2800+ or higher
+* Memory: 512 MB RAM
+* Hard Drive: 7 GB free disk space
+* Sound Card: DirectX 9.0c compatible
+* Video Card*: 3D Hardware Accelerator Card Required - 100% DirectX 9.0c compatible 128 MB with latest drivers
+* Disc Drive: 8x speed CD-ROM drive or 2X DVD-ROM drive
+
+Recommended System Requirements:
+* CPU: Intel Pentium 4 2.5 GHz or AMD Athlon XP 3500+
+* Memory: 1 GB
+* Video Card*: 256 MB 3D Hardware Accelerator Card
+* Sound Card: Creative Audigy Series Sound Card"
+,badtz,2007-01-19T17:35Z,tantonta shut your fuckin mouth
+,badtz,2007-01-19T17:37Z,thanks neverrar for sharing :)
+,skribb,2007-01-22T02:00Z,"Please consider buying this game, your purchase might impact on whether there will be a sequel!"
+,victorsays,2007-01-30T05:55Z,"How much disk space is required for this game? It's telling me I don't have enough space without letting me choose which drive to put it on.
+
+Thanks a million."
+,NeverRAR,2007-02-02T16:11Z,"victorsays,
+Check the guide that Mysko posted. I haven't tried it myself, but I know for a fact that many people have discovered the problem that the game won't let you install unless you have 7 gigs free on c:."
+,BerserkTomte,2007-02-12T09:46Z,"Will definitely seed it, as soon as it's down. Sounds like a quality game. "
+,lotta38,2007-02-16T00:27Z,"Hi I have just played the longest turney, but in swedish is this in sweish to And can I use deomtool to mount  the game or is it ready to play and  where ca n I find some hints I know I will need it.Ty I  loved  the game"
+,lotta38,2007-02-16T00:34Z,"Were should I replace the crackIs it in were the games replace?I just Have to play this  to Just finished whit the first one I I bee sad then i finnished it,This game is realy  a good gameAnd u have to use ur brain to
+....."
+,lotta38,2007-02-16T00:42Z,Cant u give some more  speed on ur seeding?lol cant wait
+,Primus Avatar,2007-03-08T16:28Z,"Thx... im starting my download now....all seed 1 year long if needed (if its realy a good game)
+
+thx guys for specific instructions and great comments i hope this game is as good as Game spy sez ;)"
+,Primus Avatar,2007-03-08T16:28Z,"Thx... im starting my download now....all seed 1 year long if needed (if its realy a good game)
+
+thx guys for specific instructions and great comments i hope this game is as good as Game spy sez ;)"
+,Primus Avatar,2007-03-08T16:30Z,"Thx... im starting my download now....all seed 1 year long if needed (if its realy a good game)
+
+thx guys for specific instructions and great comments i hope this game is as good as Game spy sez ;)
+
+long live the pirates"
+,KunfusedOne,2007-05-02T01:20Z,"Cool game I finished. Now, How do I get it off my computer? I try deleting the BIN file and it says it's being used by another program??? "
+,Tranceallstars,2007-06-09T12:48Z,Detta är inte The Longest Journey 2. Jävla waste of time!
+,punkster91,2007-09-13T16:54Z,"i've downloaded the game... i mounted the image with daemon tools v4... when i want to install, after i agree with the terms an error appears saying that i don's have enough disk space... i have at least 20 more gb free... help?"
+,punkster91,2007-09-13T18:03Z,"done!
+i've found out how to repair this.. if you don't have enough space on your primary drive.
+1.go to start, run... and type ""regedit""
+2.enter HKEY_LOCAL_MACHINE, SOFTWARE, Microsoft, Windows, CurrentVesrion
+3.on yor right you'll find ""ProgramFilesDir""
+4.change it to your secondary drive, and install where you have more space.
+
+NOTE: After instalation change back to the way it was because this might affect other programs"
+,grothras,2007-11-10T01:13Z,Punster that didn't work for me:/
+,grothras,2007-11-10T02:09Z,"It is not compitable with less then 7 gb free on your systemdisk and windows xp pro x64
+
+Googled on it and nothing that i tried worked. F*cking sucky nstaller. Won't get installed even after chaning 5 tabs in regedit."
+,hyacinthjade,2007-12-17T04:43Z,"hello, NeverRAR (and EVERYBODY willing to help)! 
+
+I'm currently still downloading the game.
+Could you please give me a step by step procedure on how to use daemon tools to get this game to work so that i'll be able to play after installing it? i'm kinda confused about all this mounting business. and what version of daemon tools do i download?
+
+Sorry, i'm so lost. Kinda new to this stuff.
+
+Thanks!"
+,MaxwellO,2008-01-17T16:50Z,"MaxwellO
+I have downloaded and installed without any problems (thanks for the wonderful tips) but it won't work as I can't find any .nfo-files so I suppose I can't introduce the crack. Could you tell me where exactly to look and where exactly to put the crack"
+,joansill,2008-01-23T00:14Z,Please seed....! I love this game!
+,wehefix,2008-01-29T18:20Z,"okey, at the end of my install a window pops up and it says: Feature tranfser error
+                  Component:  Default component
+                  File:
+                  Error: Access is denied
+
+                              [OK]
+
+WHAT SHOULD I DO ??!! :S"
+,danirams,2008-03-29T19:28Z,"whitch langues is this in???
+
+plizz answer"
+,ms.strange,2008-07-09T23:23Z,"I only got this to work (sorry, didn't see any .nfo files) after I replaced my dreamfall.exe with this cracked dreamfall.exe file from a different torrent.
+Since it doesn't seem to be available anymore, I uploaded it at:
+
+http://thepiratebay.org/tor/4284996"
+,NeverRAR,2008-09-13T08:44Z,"There's a folder called No-CD crack on the disc, including:
+
+dreamfall.exe   --- Cracked .EXE!
+reloaded.nfo     --- The .nfo that comes with the crack by reloaded!"
+,ScorpioNovem,2008-09-26T01:44Z,"If you have an Nvidia Gforce 7xxx series graphics card you may need a patch if your games graphics are messed up.
+Get it here: http://support.empireinteractive.com/default.aspx?MID=60568495217F&PID=5B4F056A-966E-412B-9409-CB1CCF37F281
+
+Or google it."
+,baGK8,2009-08-02T23:45Z,"There was no folder that downloaded for me, either.  Nothing whatsoever that indicates a crack.  I wish I would have tried it before I changed dreamfall.exe files with ms.strange's, though, because that doesn't work for me and it took me about 2-3 weeks to download this."
+,baGK8,2009-08-03T04:50Z,"OK, I reinstalled it and I had the same problem."

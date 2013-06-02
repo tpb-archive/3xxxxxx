@@ -1,0 +1,349 @@
+﻿User Type,Username,Date,Text
+,Mr_Ecks,2006-08-14T17:56Z,As useless as the ather translators. Learn the friging languages Yourself instead. 
+,LOKI_LOKI,2006-08-14T19:39Z,"-----------------------------------------------------
+Mr_Ecks at 2006-08-14 17:56 GMT: 
+
+As useless as the ather translators. Learn the friging languages Yourself instead. 
+-----------------------------------------------------
+
+You shouldn't be so negative.  Everyone learns differently.  Just a few comments about you.  You are obviously unaware that this is not a translator program.  It teaches you the language.  So, Yes, you are learning the language yourself.  Second, before you make a comment like you did, you should do your homework on the topic first so you don't look like an idiot when you open your mouth.
+Just my 2 cents, so take it for what it's worth."
+,xenu dot net,2006-08-14T23:42Z,"rosetta stone is also considered to be the best language learning program in almost every review I have read
+
+thank you LOKI LOKI"
+,nitzer ebb,2006-08-27T23:05Z,"LOKI,
+
+Other than US II, someone reported Italian I erroneous on the other Western pack. Is it fixed on this one?
+
+Many thanks"
+,LOKI_LOKI,2006-09-02T18:36Z,"The only .rar file I had trouble with was the US Level 2, no problems with the italian.  I have been working with them for quite a while now without any problems at all.  If you experience any problems please let me know and I will do my best to help you out.
+
+P.S. - as a tip, if you guys want the DVD to autostart when it is inserted after you have burnt it, simply make sure that the Application V2.0.8.1a.rar is on the root of the DVD instead of in it's own folder."
+,therimsthatis,2006-09-16T22:42Z,"I got the DVD to work, however, when Rosetta Stone starts up it says that it can't find any language packages. Help."
+,LOKI_LOKI,2006-09-30T12:05Z,"You need to make sure that all of the .rar files get extracted to their own folders on the DVD.  If the .rar files are not extracted then the rosetta stone program will be unable to find the language packs.  Put each .rar file in to its own folder except for the program itself, put the program on the root of the DVD not in any folder whatsoever.  Please let me know if you are having any more problems."
+,wolfding,2006-10-03T15:20Z,"I can't get it to run eiter (no languages detected) :(
+My Dvd Structure looks like this
+
+ROOT\Application
+        \
+        \
+        \*.trs
+        \Extras
+        \Documentation
+
+I unpacked the application into the root (for the autostart)
+I didn't burn it yet, just created an ISO (label: RosettaStone) and mounted it in DT.
+
+Anone any clue what's wrong?
+"
+,wolfding,2006-10-03T15:22Z,"Ahh comment was messed up, here the Structure again
+""ROOT\Application""
+""\each language in it's own dir""
+""\pic folders""
+""\*.trs""
+""\Extras""
+""\Documentation""
+\Documentation "
+,bobuk,2006-10-07T21:23Z,"BIG PROBLEM please help
+
+I have burned program to CD in root and Spanish languages in separated folders.
+
+The program auto runs perfect but the program can?t find any languages pack. 
+
+I can see other have the same problem like me. 
+
+What are we doing wrong? 
+
+??"
+,bobuk,2006-10-09T00:08Z,"PLEASE HELP
+
+I have now for 2 days trying to get Rosetta Stone to work ? but cant get it up and running. 
+
+I have downloaded the main program and installed it and it is working fine. 
+
+But it can?t find the languages files that I have burned to a CD.
+
+How do I do this? 
+
+I want it to be on a CD only don?t want to mount the file on HD. 
+
+Do anybody know if it is possible to make a CD that you just put in your PC and the it is working. (like when you buy the program in the shop) :o))
+
+I have tried everything now, burned application with and without the languages files, burned the languages files alone, made an ISO file and burned it but nothing is working. I have also tried to name the CD with different names (don?t know if that is necessary or not?)
+
+If anybody would be so kind to explain step by step (for dummies) how it can be done so it runs from a CD even my grandmother can use.
+
+Thanks BOB"
+,LOKI_LOKI,2006-10-10T01:42Z,"I'll type something up, give me some time, I'm Pretty busy but I promise I will get it posted soon."
+,LOKI_LOKI,2006-10-10T03:58Z,"Alright folks, here goes
+I'm gonna try to break this down so everyone can understand it.  If there is a step you don't know how to do please ask.  I will try to be as thorough as possible.  For those of you who are computer savvy please bear with me.
+
+First let's start with what a compressed file is.  A compressed file is a single file which contains multiple smaller files and folders.  When the files and folders are added together they are also COMPRESSED.  Doing this frees up space and makes it easier for storage and transfering the information from place to place.  There are different kinds of file compression.  The most popular forms of file compression are .RAR & .ZIP.
+
+The files used here for Rosetta Stone are stored in the .RAR format.  In order to access the data stored in the .RAR file you have to EXTRACT the smaller compressed files and folders contained within the .RAR file first.  In order to do that you need a program that can extract the data contained within the .RAR files.
+
+You can download a free trial version of WinRAR, a .RAR file extractor at http://www.winrar.com
+
+I won't go in to how to extract the files except to say that you can read the instructions for whichever compression program you choose to use.
+
+You want to create a directory on your computer.
+preferably somewhere you know how to get to.  My suggestion would be to open ""My Computer"" and create a folder on the root of the ""C:"" drive called Rosetta stone.
+Way too often people download, save or extract files and they don't know where the files ended up.  You need to know where you create the folder, be able to navigate to it and be able to extract the .RAR files to that folder.
+
+To create a folder in ""My Computer"" you would open up ""My Computer"" double ""left"" click on the ""C"" drive.
+Choose FILE, NEW, FOLDER
+A new folder will appear and it will have the default name of NEW FOLDER and will be highlighted in blue.  Change the name to Rosetta Stone.
+
+Once you have extracted the data from the .RAR files you will have a much larger set of files.  When you begin the extraction process the files will be extracted to their own folder.
+
+The ""Application V2.0.8.1a"" IS THE Rosetta Stone Program.
+
+Find the ""Application V2.0.8.1a"" folder and move all the files from within that folder up one level by doing a CUT & PASTE.  Example.
+
+C:\rosetta stone
+	C:\rosetta stone\Application V2.0.8.1a
+	C:\rosetta stone\Application V2.0.8.1a\""files""
+move the files to:
+	C:\rosetta stone\""files""
+
+So to do this you will need to open up ""My Computer"" and navigate to the folder where you extracted the Rosetta Stone files.
+
+I only use ""C:"" drive as an example
+where you extracted the files may be a different location.
+AGAIN, PLEASE REALIZE THAT THE PATH MENTIONED HERE IS USED FOR EXAMPLE PURPOSES ONLY AND MAY BE DIFFERENT FROM WHERE YOU CHOSE TO EXTRACT THE FILES. 
+
+Once you have navigated to ""C:\rosetta stone"" open the folder ""Application V2.0.8.1a""
+choose ""EDIT"" from the menu
+Choose ""SELECT ALL"", it will highlight all the folders contained in the folder.
+Next, go to ""EDIT"" again, and choose ""CUT""
+Click the ""UP"" or ""BACK"" arrow once and ONLY ONCE.
+You should now be back at the ""C:\rosetta stone"" folder
+Click on ""EDIT"" again and choose ""PASTE""
+This will Place all the files from the application folder to the rosetta stone folder.
+You can now delete the Application V2.0.8.1a folder as it should now be empty and no longer needed.
+
+Along with the files from the Application folder you need to make sure that these other files are also in the Root of the Rosetta Stone folder:
+
+Readme.txt
+catmpc.trs
+cdid.trs
+credits.trs
+
+Without these files in the root of the folder the disc has no chance of working.  The only reason for moving the files contained in the application folder is to allow the disc to autostart when it is inserted in to the drive but it is not a necessary step.
+
+
+
+Ok, now that the files have been extracted and moved to the appropriate folders you need to bur"
+,pmdci,2006-10-11T12:04Z,"Hello Loki!
+
+Thanks a lot for this torrent! I am using it without any problems as an ISO (mounted with Alcohol) however I can burn it to a DVD because the file is too big. Perhaps you could anyone give me a little hint?
+
+All I did is to create a directory called Rosetta Stone extracted ALL RARs inside of it (I deleted the ""extras"" folder, though). But now the ISO is 4,866,115,584 bites long, and I can't fit it on a DVD.
+
+I really don't know how this happened. The ISO has 3165 Directories at the root, and 4 files (- Readme.txt and the 3 *.TRS). If I had accidentaly extracted something twice (very unlikely) how come it didn't overwrite the existing ones?
+
+Any help would be greatly appreciated.
+
+Thanks a lot,
+P."
+,Racer23,2006-10-18T11:41Z,"Not sure why this is happening but, I unrar all the files to one dirrectory, moved all the files from the application folder up one level in to the root folder and it still won't find any languages. How do I install the languages?"
+,nefrit,2006-10-24T22:54Z,"AT LAST.. FINALY I GOT IT TO WORK!!!
+I have spent some good hours figuring out how to work. Did exactly how LOKI told, but the program file would not locate the language files. So I tried different combination until I found it.
+ So.. 1. copy content of application folder to root.
+2.  when copying the desired language files, dont just take the whole ""english"" folder but go into it and unzip all folders in it ""EBR01_01 - EBR08-12"" and copy all the folders to the ROOT. Do the same with coresponding PCT files.  You can find it in the extras folder under README folder.
+So now you have the install files and a bunch of lanuagefiles i.e  BR01_01....etc in the ROOT.
+3. copy those 3 trs filed and 1 readme file into the root.
+4. Burn that root folder with its contents or make an IMAGE file.  Insall from image or CD, then run it.
+"
+,LOKI_LOKI,2006-10-31T06:38Z,"Sorry if I didn't make that clear.  All of the language FOLDERS like ""ENG01_01"" ""ESP01_01"" need to be in the ROOT of the disc.  If they are not in the root of the disk then it won't work properly.  I apologize if this confused some of you and wasn't made clear."
+,Trady,2006-11-05T15:55Z,"working, but not easy to follow the description ;)
+
+Cheers"
+,adriest,2006-11-07T17:32Z,omg man maybe a video  Tutorial pff I'm getting despered here...
+,LOKI_LOKI,2006-11-08T19:35Z,"Ok here goes, I wish I could post a picture here, it would make things much more simple.  The root of the disk should have filies in there that look like this
+
+setup.exe
+credit.trs
+cdid.trs
+catmpc.trs
+autorun.inf
+autorun.ico
+autorun.exe
+autorun.apm
+- readme.txt
+
+then you should have a list of the folders similiar to this
+_Documents
+2000
+Classic
+Contact
+Docs
+Macintosh OSX
+PCT01_01
+PCT01_02
+PCT01_03
+PCT01_04
+PCT01_05
+PCN01_01
+PCN01_02
+PCN01_03
+PCN01_04
+PCN01_05
+FRA01_01
+FRA01_02
+FRA01_03
+FRA01_04
+FRA01_05
+ESP01_01
+ESP01_02
+ESP01_03
+ESP01_04
+ESP01_05
+
+Obviously these aren't the only folders you will have in the root of the folder but this is only to show you how the root of the folder should look for the file and folder structure.
+
+I hope this helps"
+,LOKI_LOKI,2006-11-12T00:50Z,"In the above post I made one small mistake that may confuse people which was this:
+--------------------------------------------------------
+Obviously these aren't the only folders you will have in the root of the FOLDER but this is only to show you how the root of the FOLDER should look for the file and folder structure. 
+--------------------------------------------------------
+
+seeing that now,  I realize how it must sound.  In the above sentence I capitalized the word FOLDER.  Both times where it is capitalized it should say DISK!
+
+So the statement should read:
+Obviously these aren't the only folders you will have in the root of the DISK but this is only to show you an example of how the root of the DISK should look like for the file and folder structure.
+
+
+I am also thinking of just posting another Torrent which will be these files as an Image file that will autostart. So you'll have to download the whole thing before you can use it but it will eliminate the hassle of having to create the disk yourself.  The way it is now allows people to download all or part of the Rosetta Stone files and in that way be able to create the disk the way you want it so I'll post it when I can and just allow everyone to decide for themselves which way they choose to download.
+
+Once again, if you guys have any questions please feel free to ask as I will do my best to answer the questions. "
+,LOKI_LOKI,2006-11-16T22:00Z,"This may seem like a silly comment but I thought I'd better mention it anyways.
+
+If you get the error message ""No languages detected.""
+
+Please make sure you have the Disc in the Drive when trying to launch the rosetta stone program.  The installation only copies and installs the program files to the hard drive.  It does not copy all of the language files to the hard drive so the disc needs to be in the drive in order for it to work.  That is just the way they set the program up to work.
+
+Like I said, it seems basic enough but I thought to mention it just in case.
+
+Also I have posted another torrent which is the same as this but it is a working ISO image file which autostarts so you no longer have to worry about creating a disc.  So if you can stand a slightly longer download time and don't want the hassle of having to create the disc yourself, check it out, I think you'll be pleased."
+,msredwun,2006-12-26T20:49Z,"someone please help!!!!!!
+
+ i keep getting this message ""No Language Data Found"" what should i do. i have been trying to figure this out for a month!
+
+please send a response to lilmariemarie@hotmail.com
+
+thanks all"
+,msredwun,2006-12-26T20:56Z,"Which files to i actually need to burn to a CD in order to get the program to recognize the language data?
+
+someone please help!!!!!! 
+
+i keep getting this message ""No Language Data Found"" what should i do. i have been trying to figure this out for a month! 
+
+
+please send a response to lilmariemarie@hotmail.com 
+
+thanks all"
+,LOKI_LOKI,2006-12-27T18:51Z,"The information you need IS contained within the comments.  You can read the comments I have posted which will tell you all you need to know so I don't have to retype it here.
+
+The one piece of NEW advice that I can give is that through recent trial and error I have found that another reason someone might get the ""No language data found."" error message is because they are trying to just run the program after downloading and unzipping it.
+
+THE ROSETTA STONE PROGRAM MUST, I REPEAT MUST MUST MUST BE BURNED TO A CD IN ORDER TO RUN, OR AT THE VERY LEAST CREATE AN IMAGE FILE OF ROSETTA STONE AND MOUNT IT TO A VIRTUAL CD/DVD DRIVE.
+
+For those of you who are not familiar with mounting an image file I can't go in to it here but you can look it up online.  There are plenty of resources for you to find out how to do it.  To give you the basic gist, mounting an image file allows you to use an image file as a REAL physical disc and the computer doesn't know the difference so since the computer dosn't know the difference the Rosetta Stone program won't know the difference either.
+
+I even tried to run the rosetta stone program from a Flash drive with all the files at the root of the flash drive but it didn't work so one more time I REPEAT PLEASE BURN THE SOFTWARE TO A DISC OR MOUNT AN IMAGE FILE TO GET IT TO WORK.
+
+Hope this helps"
+,filipino,2006-12-29T02:44Z,"Hi,
+
+Thank you very much! for i downloaded this torrent. There is is, must was it best language program to learn new language. IÂ´m very happy! Do you have a torrent of language of Tagalog?"
+,Sane-Mantis,2007-01-07T03:18Z,You don't seem to have included Hebrew I in the CATMPC and CDID files. Therefor it will not work.
+,crackerjack07,2007-01-14T04:11Z,"Great Torrent, didnt dl all the languages cuse i only Thanks!"
+,pmdci,2007-01-18T19:05Z,"BEAR IN MIND, I re-download this torrent and the contents DOES NOT FIT ON A DVD unless I waste a dual layer DVD with it. "
+,LOKI_LOKI,2007-01-20T20:04Z,"To address the above questions:
+
+filipino,
+Hi, I'm sorry, no I do not have Tagalog?
+
+Sane-Mantis,
+(You don't seem to have included Hebrew I in the CATMPC and CDID files. Therefor it will not work.)
+I know for a fact that Hebrew will work as I sat with some friends of mine who are jewish and went through different sections of the Hebrew language files.  Not all of the languages are included in the CATMPC AND CDID files but they still work, why they still work, I don't know but they do.  So your reasoning is incorrect here, the files are all good.
+
+pmdci,
+(BEAR IN MIND, I re-download this torrent and the contents DOES NOT FIT ON A DVD unless I waste a dual layer DVD with it.)
+The content WILL FIT on a NORMAL DVD IF you do it correctly.
+If you attempt to simply extract the files and then burn the files to a DVD disc using nero or EZCD Creator it WON'T fit.
+
+In order to get it to fit on a regular DVD what I did was to FIRST CREATE an image file using MAGIC ISO.
+I then burned the image file I just created using Nero burning rom, voila!
+Try that and let me know.
+
+There is something about how Magic ISO creates the image files, maybe it's in the compression algorithem it uses but whatever it is about Magic ISO it works if you do it that way because I ran in to the same problem but the only reason I stumbled on to this was because I first created the image file using MAGIC ISO so I could mount it to a virtual drive using Alcohol 120% and test it first to make sure it worked.  After I successfully tested it and made sure the file size was ok I then burned it to disk but when I went back and burned the DVD straight from Nero it said there wasn't enough room on the disk so the way to do it is to first create the image file using Magic ISO and then burn the image file so as to get it to fit.
+
+If you do what I do, you'll get the same results I get, Enjoy!!
+
+P.S. - for those of you who are still having trouble here is the link to the ISO Image file I created and posted here on Pirate Bay.
+
+http://thepiratebay.org/tor/3558754/The_Rosetta_Stone_-_Western_Languages___Application_-_DVD_ISO_Im
+
+If you download this and burn it or mount it properly, IT WILL WORK for you.
+
+The only difference between that image file and the sets of files here is that Hebrew is not included on the image file.  I made a mistake and forgot to add it.  Before I realized it, there were too many people downloading the image file for me to justify deleting the torrent and adding hebrew to the image file.
+Again, to address the comment above about the fact that this content does not fit on a regular DVD disk, one might argue that the reason Hebrew is not included on the image file which is the link I gave above is because it doesn't fit.  To that end, the hebrew .rar file is only 87.8Mb's in size and the image file is 4.37Gb and the standard DVD disc holds 4.7Gb which leaves 330Mb's of free space which is more than enough room for Hebrew to fit on the image file
+but like I said before, IT HAS TO BE DONE PROPERLY, if not, it won't fit, if it IS DONE PROPERLY IT WILL FIT.
+
+Good Luck to you all"
+,wolverine_matt,2007-01-24T22:18Z,"Well, nominally a DVD holds 4.7GB, but in reality the capacity is actually 4.7 Billion bytes, which is different... roughly equal to 4.377 GB to be precise..."
+,LOKI_LOKI,2007-01-26T05:06Z,"still, no matter how you slice it, if you do what I said above it will fit on 1 regular sized DVD"
+,jn1009,2007-03-11T05:40Z,"I downloaded it and it worked great up to german level 1, unit 3, lesson 7.  After that I get a ""director player error"" that says ""index out of range"".  it asks continue yes/no.  I click continue 10000000 times and it just keeps asking, I click no and the program closes. 
+I can not use any of the lessons after unit 3 lesson 7, have tried every unit after 3, but I can redo the ones before unit 3 lesson 7 and the lessons in level 2 work fine.  But, I have 6 more units in level 1.  ANyone else get this or know how to fix it?"
+,LOKI_LOKI,2007-03-30T07:35Z,"To jn1009, the problem you are experiencing must either be a problem with your computer software or your download.  Please try to download the file again to make sure you didn't get a corrupted download.  I have just tried playing the rosetta stone software for the German lesson level 1, unit 3, lesson 7 and even went further to level 8 & 9, then went on to play lesson 1 from units 4 & 5 to check and everything played fine.  Please check your install and if that doesn't work re-download the file and try again as it may have gotten corrupted.  Good Luck"
+,LOKI_LOKI,2007-04-24T07:58Z,"Thought to mention to you guys that I have begun seeding this torrent again.  I've noticed the low number of seeders and will continue to seed it for a while longer but others need to step up and seed this after they have finished downloading it.
+It also appears that my other torrent where I turned these files in to an ISO image seems to have become more popular.  Although the ISO image is about 1Gb larger download than this one there is a fair trade off.  I created the ISO image file for you newbies out there so you wouldn't have to waste your time trying to figure out how to turn these files in to an image file and then burn your own WORKING Rosetta Stone DVD.
+For all you seasoned veterans of torrent downloading and just plain savvy computer users I will try to keep this one active because you can choose which languages to download so if you don't want all the languages and just want to compile your own disk you can download the language(s) of your choice along with the Program and create your own disc.
+
+I currently only see 1 person downloading this torrent.  If, after that user has finished downloading this and no one else has begun downloading it again I will stop seeding it.  If that happens, and you wish to download it, message me and I will reply as soon as I can but don't be disgruntled if it takes a while as I don't stop in here on a very regular basis to check my messages but I will do the best I can to help out as always."
+,grizzly1971,2007-06-25T15:12Z,hello.can any1 tell me how long this actually takes to download 3 days so far.lol
+,padmablue,2007-08-02T09:23Z,"Hi, 
+you seem to be an expert, please help me!
+I must have Farsi, but I can't find it. If I understand well, I have to download the application + the language I want.
+Thanks"
+,romesz,2007-10-02T23:06Z,"The shvines who down load and don't seed should seed for the rest of us.
+Other wise what good is the torrent?"
+,xhammerx,2007-11-28T02:52Z,thanks for seeding (only leecher)
+,SuperJew8989,2007-12-23T20:18Z,So this might be a dumb question... but will this work on a Mac? or is there something special i have to do 
+,whippet7,2008-01-30T21:57Z,"Hi 
+Just downloaded this torrent and extracted it to a folder. i then opened that folder and copied all contents on to dvd. on trying to run program it tells me that no luangage cd available any ideas
+
+MANY THANKS FOR SEEDING"
+,LOKI_LOKI,2008-07-16T20:46Z,"If you are having trouble following the directions required to get this to work just follow this link
+
+http://thepiratebay.org/tor/3558754/The_Rosetta_Stone_-_Western_Languages___Application_-_DVD_ISO_Im
+
+in order to download the DVD ISO of these files so you don't have to waste your time trying to make the DVD.  I created the DVD ISO image just for that reason.
+However, if you are able to follow the directions, and only want some of the languages mentioned here then you can go ahead and use this torrent downloading the specific languages that you want.
+
+Good Luck :-)"
+,omfgapolarbear,2008-08-07T19:26Z,Downloaded this torrent because I didn't want any of the languges but German and Hebrew (at the moment) and the application. Thanks.
+,sudox,2008-09-10T12:17Z,does anyone know where i can get hebrew lvl 1-3 not just lvl 1 ???? please comment back or pm me =) 
+,pauloloy,2008-10-03T06:25Z,"Dear LOKI_LOKI  or anybody else; when we have the image (iso) It's only mount with daemons tool e.g. and it loads to de app. but, with french level I, theres a zipped file; when a try to make it an iso it doesnt load. any suggestion on how to solve that.
+Tnx. 
+Paul."
+,LOKI_LOKI,2008-11-16T11:44Z,"pauloloy,
+Please go back and read the comments from page 1 where I outlined how to work with these files.  Merely changing the zip file to an iso will not work.  If you are not going to add all the languages to a DVD you still need to follow the basic instructions I outlined on the first page just don't use all the languages.  If nothing else, please download this file
+
+http://thepiratebay.org/tor/3558754/The_Rosetta_Stone_-_Western_Languages___Application_-_DVD_ISO_Im
+
+which I posted for the express purpose of helping people avoid problems like the one you are facing now."
+,AkaPhsyco,2009-01-05T22:04Z,"I am in a similar boat as sudox, I need swedish lvls 1,2,3 and I know they exists, the question is do they exist as a torrent?"
+,huntakilla4,2009-04-16T22:16Z,"Hi, I downloaded Greek 1 and 2, and I wasnt sure what other files i needed, which pc things do i need to use greek 1 and 2, i looked in the extras list, but greek is excluded from it for some reason. Also, I have the application working, and i just cannot figure out how to get the languages on it, i used iso burner to try and burn the greek 1, 2 and pc files to the dick, but it errored half way through and the program froze, pleas ehelp me with using this"
+,kev_iw,2009-04-18T14:30Z,"Hey guys, i know this is going to sound really stupid but i am at a complete end!
+When i extract the language i want, i get 100s of .swa files. I made these into an .Iso file and mounted it but it isn't working. Can anyone explain the process to me, because i am fairly useless at this! Cheers"
+,LOKI_LOKI,2009-04-21T11:10Z,"For the last 2 guys that posted questions about how to burn these files to disk  and anyone else having problems please go back and read my comments on page one of this torrent for instructions.  If after reading my posts and those posted by others please go here
+
+http://thepiratebay.org/torrent/3558754/The_Rosetta_Stone_-_Western_Languages___Application_-_DVD_ISO_Im
+
+and download everything as one single DVD.  It is the same torrent only as a DVD ISO image which requires you to simply burn the image file to disk or mount it on a virtual CD/DVD drive, nothing else.  It will make your life much easier.  It is the reason I posted it there in the first place."
+,LOKI_LOKI,2009-07-26T16:08Z,"@ KOCAKburik
+
+Thanks for the compliment :D"

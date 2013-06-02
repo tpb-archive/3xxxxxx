@@ -1,0 +1,48 @@
+ http://www.iulabs.com/iuvcr/download.shtml
+
+iuVCR is a Windows 2000/XP intended universal video recording program. Have a TV tuner or a video capture card installed on your Windows 2000 or XP system? Now you can easily record your favorite TV programs and videos in *.AVI or *.WMV format. iuVCR has got a simple and plain interface, allows to capture video of any format, resolution and duration, can automatically start when scheduled and has a number of other useful features.
+
+There is a number of video capture programs in the world but the most of them work quite poorly in Windows 2000/XP, as a brand new multimedia technology called DirectShow is used there. The programs not using DirectShow give a rather middling result. iuVCR is a video recording DirectShow-based application. It uses the newest multimedia technologies developed by Microsoft corporation and ensures that you are getting the most from your video capture card.
+
+As any DirectShow application, iuVCR allows to record *.AVI files of any size, overriding a file size limitation of 2GB inherent to old video capture programs. Using Windows 2000/XP and NTFS file system, you can record *.AVI files of size, limited only by your harddisk capacity. So, using iuVCR in conjunction with recommended hardware, you will be able to record with no frame loss long-lasting videos in any resolution with ease.
+
+Rich filters set for realtime video processing:
+
+    * TimeStamp filter
+    * Motion detector filter
+    * Deinterlace filter
+    * Crop filter
+    * Histogram filter
+    * ImagePlus logo overlay filter by ECP-Soft company 
+
+and others.
+
+Since version 4.8.5.335 the Alparysoft Deinterlace filter by Alparysoft R&D company included into the native filters set.
+
+Main features of iuVCR:
+
+    * IEEE 1394 devices support.
+    * TV channels tuning.
+    * Video capturing with frame size up to 768x576.
+    * Arbitrary choice frame size.
+    * Microsoft Windows Media Format support and Windows Media Encoder integration.
+    * Matroska format support
+    * Video stream preview during capture without frame size limitations.
+    * Most settings autostored in system registry.
+    * Integration with Windows scheduler.
+    * Splitting captured video stream to several files.
+    * Continuous capturing across several disk partitions.
+    * API for third-party remote control applications.
+    * Support for DirectShow filters for realtime video processing. 
+
+System requirements:
+
+    * Windows 2000 or Windows XP (Windows 98 and Windows ME also supported but not recommended).
+    * DirectX 7 or higher.
+    * Microsoft Windows Media Encoder if Windows Media Format is needed.
+    * Processor: Pentium II or higher (600Mhz PIII or higher recommended).
+    * 128Mb RAM.
+    * DirectX compatible sound card.
+    * DirectX compatible graphics adapter card.
+    * Video capture PCI card or IEEE-1394 controller with WDM-drivers installed (bt848/bt878-based cards recommended as a good tested device).
+    * Free HDD space: 2 Mb for program files; 0,05-60 Gb for video clips. A 7200rpm IDE harddrive and an UDMA66-UDMA100 IDE controller such as Promise or HotRod recommended

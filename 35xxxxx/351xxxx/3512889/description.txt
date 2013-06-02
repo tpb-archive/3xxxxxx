@@ -1,0 +1,37 @@
+COD2 1.3 MP server fix
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To install:
+
+1.> Make a backup of your existing CoD2MP_s.exe as you will need to put it back if a new patch for COD2 ever comes out.
+
+2.> Copy the CoD2MP_s.exe file from within this RAR into your Call of Duty dir.
+
+3.> Enjoy hosting games with no more failed keychecks! :)
+
+
+Notes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+How & Why:
+Nobody released a fix for COD2 MP (at least I couldn't find one that worked) so I made my own.
+
+This one doesn't rely on the stupid 30 minute timeout, which was affected simply by hex'ing the exe to change the cod2master.activision.com string to something like green.co.uk.  I appreciate the effort guys, but the 30 minute timeout sucked :)
+
+Anyway, my version works by changing the string that is checked for acceptance by the auth server.  By default, the COD2 server checks to see if it receives "accept" from the auth server (cod2master.activision.com) when it does a key check each time a new client connects.  If it receives "deny" or doesn't receive a reply it keeps trying for ages (30 minutes plus) until it eventually times out and lets clients connect regardless.  I simply changed "accept" to "deny" so that each time a client tries to connect, it still lets them join even though the auth server rejected their key :)
+
+The only problem I could foresee with this is that a *legitimate* key may get rejected, since the auth server would return "accept" which would end up actually rejecting the user.  In practice, however, I've found this doesn't occur since all the "deny" messages I received were for invalid_client not bad_key so it ends up just letting anybody connect since they all get "deny".
+
+Anyway, forget *how* it works unless you're interested.  Suffice to say it works, and only the server needs to have the crack in place - clients don't need the exe, so you only need this if you are planning to run a server (whether it is at a LAN or online, it doesn't matter, it still works).
+
+
+NOTE: I haven't tested this with a dedicated server, but I don't see how that would be any different since it uses the same exe and the same keycheck code.
+
+NOTE #2: NO, this does not allow you to join uncracked online servers.  There is no way to do that since the server is the one that checks the cod2master auth for your key validity.  This is a *server* fix, so only get it if you plan on hosting games, it does nothing for clients.
+
+NOTE #3: Be aware that this sill connects to cod2master.activision.com so do NOT block it with your firewall.  If you do, you're back to the 30 minute wait while the auth code times out.  I don't know if I recommend running this on a 24/7 dedicated box since every single keycheck from your IP will show up as *failed* at the cod2master end... I don't know if they check that sort of thing but it might look suss.
+
+NOTE #4: Even though it will work fine, I only made this for LAN play with my friends as we don't have a permanent internet connections at our LANs.  As always, BUY the game like I did - publishers won't continue making good games if you keep ripping them off.
+
+Cheers!
+Zoo Antelope...

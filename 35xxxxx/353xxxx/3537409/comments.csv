@@ -1,0 +1,7 @@
+﻿User Type,Username,Date,Text
+,saveO,2006-10-11T11:43Z,Vad som hänt i de olika uppdateringarna kan hittas i updateLoggen här: http://www.mediamonster.se/development/superfetch/update/updateLog.txt
+,saveO,2006-10-12T02:39Z,"Superfetch klarar nu att behandla fuskertaggar.
+T.ex. om man kopierar http://www.exempel.com/bild[1-99].jpg så tar superfetch hem alla till dig.
+Hoppas funktionen kommer till nytta."
+,saveO,2006-10-13T00:24Z,Superfetch har i och med version 0.31 fått ett bättre stöd för fusker (läs uppdateringsloggen för mer info). Nu fungerar även wildcard (*) som fuskertagg. T.ex. http://www.exempel.com/bild*01-99*.jpg
+,saveO,2008-07-28T13:20Z,Latest version can be found here: http://www.workingart.se/program.php

@@ -1,0 +1,212 @@
+"EXTRA MAME"      *   README FILE   *      Version 4.2
+
+Site:   http://www.godlikedevelopers.com/
+
+
+CONTENTS:
+
+1. What is "EXTRA MAME"?
+2. System requirements: 
+3. Version history
+4. License and distribution
+5. Contacts
+
+
+
+1. What is "Extra M.A.M.E."?
+
+Q. - What is "Extra M.A.M.E."?
+A. - "Extra M.A.M.E." is a small MS Windows compatible GUI wrapper
+     for M.A.M.E., the Multiple Arcade Machine Emulator authored by Nicola
+     Salmoria and the MAME team. M.A.M.E. let's you play thousands of
+     old-school arcade games on your computer.
+
+
+Q. - What makes "Extra M.A.M.E." better than other GUI wrappers for M.A.M.E.?
+A. - "Extra M.A.M.E." is smaller and easier to use. It doesn't force you to 
+     fuss with difficult configurations and it's compatible with all M.A.M.E 
+     games.
+
+
+Q. - How do I use "Extra M.A.M.E."? What additional files do I need?
+A. - "Extra M.A.M.E." is easy to use, just follow these steps.
+
+     1. Download the latest version of "Extra M.A.M.E." from our 
+        official site http://www.godlikedevelopers.com/ [Link]
+
+     2. Download the latest version of the Windows command line version of 
+        M.A.M.E. from http://www.mame.net/downmain.html [Link]
+
+     3. Install "Extra M.A.M.E." into a folder of your choice. 
+        For example: "C:ExtraMAME"
+
+     4. Install "Windows command line version of MAME" into 
+        this folder as well: "C:ExtraMAME".
+
+     5. Run "Extra M.A.M.E.". It displays two lists, "supported" and 
+        "available". The supported list displays the names of games that are 
+        compatible with M.A.M.E. The available list displays the names of games 
+        that are actually present on your system. After a fresh install, the 
+        available list should be empty. You'll also need to download special 
+        M.A.M.E. game files. These files are named "bios" files and "rom" files.
+
+
+Q. - What are these "bios" files?
+A. - These "bios" files enable MAME to emulate various kinds of game 
+     hardware.
+
+
+Q. - Where do I find these "bios" files?
+A. - On the internet! These files are named
+
+     NEOGEO.ZIP, PGM.ZIP, CVS.ZIP, DECOCASS.ZIP and PLAYCH10.ZIP
+
+     You can find them using google. For example, 
+     http://www.google.com/search?q=neogeo.zip+decocass.zip+mame+download [Link]
+
+     or press "Get BIOS" button in "All Another" tab of "Extra M.A.M.E.".
+
+     Save these files to the "roms" sub folder of the M.A.M.E. installation 
+     directory. For example, "C:MAMEroms". Do not unpack these files. 
+     Leave them zipped.
+
+
+    Aslo you can find BIOS-files there: http://www.extratorrent.com/ 
+    http://www.extratorrent.com/- the greatest file archive of the world!
+
+
+Q. - Where do I find these "ROM"-files? What are they?
+A. - On the internet! These "rom" files are the actual game files themselves. 
+     For example, say you want to play the game "Bad Dudes vs. Dragonninja"
+
+     1. Find this game in the "Supported" list of "Extra M.A.M.E.". Internal name
+        for game "Bad Dudes vs. Dragonninja" is "baddudes". Name of "rom"-file is 
+        "baddudes.zip".
+
+     2. Press "Get Game" button. It help you to find "baddudes.zip" file in 
+        Internet.
+
+     3. Select a site from which to download 'baddudes.zip'. Save the file to 
+        the "roms" sub folder of the M.A.M.E. installation directory. For 
+        example, "C:MAMEroms". Do not unpack the file. Leave it zipped.
+
+     4. Use the "Extra M.A.M.E." "Refresh" button. The game should 
+        appear on the "available" list. Double click on the name in "Available" 
+        list or highlight it and press the play button.
+
+
+    Aslo you can find game files there: http://www.extratorrent.com/ 
+    http://www.extratorrent.com/- the greatest file archive of the world!
+
+
+Q. - How to play the games?      
+A. - Run the game. Press "O" button and next press "K" button on your keybord if
+     game is asked you (OK). Please wait for game loading. You not forget that for
+     play the games in Arcade Machine you need to have coins? :) Press "5" button
+     for insert coin. Press "5" again and again, not feel greed. :) 
+     Now press "1" button for one player and "2" button for two players. About 
+     additional commands and hot keys read in "Manual" section of "Extra M.A.M.E.".
+
+
+Q. - How to create Screen Shot for game?
+A. - Press "F12" button in game. Don`t forget do it in any game. It help you for
+     work with "Extra M.A.M.E.".
+
+
+Q. - How do I set up my joystick in Extramame?
+A. - Please visit http://www.mame.net/mamefaq.html page and check 
+     "HOW DO I...?" section.
+
+
+Q. - Where can I find additional information about M.A.M.E.?
+A. - The best source for information about M.A.M.E. is the official web 
+     site for M.A.M.E. http://www.mame.net/mamefaq.html
+
+
+
+2. System requirements: 
+     OS Windows 98SE/Me/NT/2k/2k3/XP
+     Minimum screen resolution 800x600 
+     Pentium processor and above 
+     16 Mb RAM 
+     5 Mb free disk space 
+
+
+
+3. Version history
+
+
+Version 4.2 (January 17, 2007)
+   + MAME 0111 compatible
+   + joystick enabled by default
+
+
+Version 4.0 (December 07, 2006)
+   * fixed bug with main banner
+   + MAME 0110b supported
+   + joystick option was added
+   + new gamelist.txt file
+   + portuguese_br.lng was added
+   + documentation was updated 
+
+
+Version 3.9 (September 07, 2006)
+   + MAME 0108b supported
+   + minor interface changes
+   + new gamelist.txt file
+   + documentation was updated 
+
+
+Version 3.7 (June 15, 2006)
+   * crash of All Games list was fixed
+   + refresh algorithms were updated
+   + minor interface changes
+   + gamelist.txt was updated
+   + documentation was updated 
+
+
+Version 3.0 (November 27, 2005)
+   + M.A.M.E. 0.10X compatibility 
+   + Search button was added
+   + main interface was updated
+   + gamelist.txt added by default
+   + five free games were added
+   + txt-files were updated
+   + lng-files were updated
+
+
+Version 2.0 (August 07, 2005)
+   + txt-files were updated
+   + lng-files were updated
+
+
+Version 1.9 (May 25, 2005)
+   + "Description" for "All Another" list was added
+   + description for any BIOS file
+   + algorithm of enumerate files was changed
+   + lng-files were updated
+
+
+Version 1.7 (April 03, 2005)
+   + main menu of program was updated
+   + new points in menu was added
+   + progress bar for Apply button was added
+   + lng-files was updated
+
+
+Version 1.5 (February 15, 2005)
+   + WindowsXP theme support
+   + multilanguage support
+   + russian.lng was added
+
+
+
+4. License and distribution
+
+See license.txt.
+
+
+
+5. Contacts
+ 
+Official web site: http://www.godlikedevelopers.com/

@@ -1,0 +1,66 @@
+DETAiLs:
+Avira NTFS4DOS enables, NTFS drives to be provided for 
+MS-DOS and other DOS-based operating systems under a new 
+drive letter for applications. 
+
+Thanks to the unique technology developed by Avira, it is 
+possible to access NTFS drives from Windows NT4, Windows 2000, 
+Windows XP and Windows Server 2003 with one single boot 
+diskette ? completely independently of its service pack status. 
+
+The private, non-commercial use of Avira NTFS4DOS Personal is 
+free.
+
+-----------------------------------------------
+
+NTFS4DOS by Avira
+
+Converted by 001010 for the needed and the willing...
+
+Sometimes you are messing with boot configuration files
+when you realize that you just screwed with the wrong
+one. This in turn makes your system not boot up due to you
+overwriting or renaming a much needed file.
+
+Not only that! But you also need it in CD/DVD format so that
+your new fancy laptop that DOESN'T have a non-USB floppy
+drive can boot up properly.
+
+(If you can't tell, this is from personal experience)
+
+Well look no further!
+
+I noticed that someone (bootdisk.com) was asking $4 for
+this software package that was initially FREE in the first 
+place, but only converted over to a CD. Granted that this $4
+included other softwares. Feeling that this was lame, and 
+if something is FREE then it should be FREE no matter what 
+format it is in.
+
+I did the work becuase I needed this package. And I share my
+personal work (all of 20 minutes) with you folk. You may be 
+more experienced then myself and not wanted to bother or less 
+experienced and in desperate need. So this will help all of us.
+
+What is included:
+-ISO of NTFS4DOS filesystem that is to be burned to a CD using
+ UltraISO. (UltraISO is the only one that I found to be stable
+ through the process)
+-BIF (bootimage file) that is also used in UltraISO to map the
+ bootable portion of the CD _IF_ the ISO doesn't contain it.
+ (I only tried with the BIF AND ISO, not just the ISO, I only 
+  needed one CD. So why try many times?)
+-ntfs_h.exe - This is the freeware downloaded software from 
+ Avira (http://www.free-av.com/) that was used to create the 
+ original boot floppy that  was later turned into the ISO image 
+ for CD. If you JUST need a floppy diskette, then this is really 
+ all you need.
+
+ Have fun and remember to share little kiddies...
+
+Instructions:
+
+-Simply use the ISO in UltraISO (the only one i found to be stable 
+ through this process) to open the image.
+-Load the BIF as the boot file (Bootable > Load Boot File...)
+-Burn...

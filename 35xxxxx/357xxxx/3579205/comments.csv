@@ -1,0 +1,78 @@
+﻿User Type,Username,Date,Text
+,nerull69,2006-12-18T16:21Z,Thanks a lot!  I have not played this since it came out on the 3DO console!    
+,animusyosho,2006-12-19T03:15Z,No problem! I've been looking for this game since 1995 myself. Finally found it recently.
+,bthoer,2006-12-19T09:18Z,"thanks for your cool share !
+
+get dosbox here (best dos emulator):
+http://dosbox.sourceforge.net/download.php?main=1
+
+get dfend here (one of the better dosbox frontends):
+http://members.home.nl/mabus/"
+,bthoer,2006-12-19T09:43Z,"for those who use emule, here is a huuuuge list of ed2k links to  oldies:
+http://forum.sharevirus.com/viewtopic.php?t=685&postdays=0&postorder=asc&start=0
+(you probably need to register to see the thread)"
+,odinask,2006-12-20T21:15Z,"i give up,can`t get this game to work.14 errors."
+,bthoer,2006-12-21T10:18Z,"get old dos adventures here -> 
+
+httpwwwdemonoidcom/files/details/576545/"
+,Psion,2006-12-31T13:19Z,Thank you so much! I have been dying to plat this classic again.
+,animusyosho,2007-01-26T03:01Z,"I have been seeding. If you're not getting it, it's probably because of port settings on your NAT or something. :P"
+,Efreeti,2007-08-20T11:38Z,if anyone else can seed pls do so
+,onkelmonokkel,2008-07-12T22:08Z,"I have a problem getting this up and running. I am a real newb when it comes to emulation, but when using D-fend, i can't get the damn thing to recognize my mounted image as the CD.. since all speech and stuff is stored on the CD, this would be quite damn useful.. Any ideas?"
+,TheColdTruth,2008-09-13T19:26Z,"Hey bthoer your link is dead.  I'm new to emulating DOS games, will DOSbox alone work or will I need a ""front-end""?  Not sure what a front end is but I'd REALLY like to play this game.  I remember playing Star Control 2 on 3d0 and it was just awesome.  Can't wait to play SC3!"
+,Wizardling,2008-09-30T14:13Z,"Damnit - why are people uploading stuff in non-standard formats? An ISO image could have been useful for me *sigh*
+
+Ok, I'll try to be constructive - is there any decent free software for .bin images?"
+,NoSoup4you22,2008-10-15T09:42Z,3 wasn't a classic - Star Control fans hate the hell out of this game. I don't think it was that bad though.
+,tekproxy,2009-06-11T15:23Z,"I played SC3 first when I was really young. All I remember is it was a blast and my imagination ran wild all the time. Now I'm beating SC2. The Ur-Quan Masters has an open source version, great game. Fanboys will always hate shit because they're fanboys and can't see their own dicks, fuck them.
+
+Hey, space is a tough place, where wimps eat flaming plasma death."
+,Tartacus,2009-07-06T23:48Z,Thanks! 
+,NoseMan79,2009-08-19T02:27Z,"@tecproxy
+ugh...
+this is why oldfags hate newfags"
+,TheColdTruth,2009-10-05T06:40Z,"Anyone give a run down on how to play this thing?  Newfag/oldfag thing aside (I can't imagine SC3 being better than SCII though), can someone just give a brief tutorial or link to one?  "
+,Banzay27,2011-10-09T02:13Z,"On Windows Vista or 7, 32 or 64-bit, we need DOSBox to even install the game.
+http://dosbox.sourceforge.net/download.php?main=1
+Pick a version of it there. But, if you prefer an easier interface, more Windows-like, look for the link to D-Fend Reloaded on that same page. I only read the intro on their website's homepage, and it says their front end comes packaged with DOSBox, so it's a single installation.
+Either get DOSBox as is, or that package.
+
+I'd already installed Star Control 3 on vanilla DOSBox before I read about D-Fend Reloaded, so I didn't use it.
+
+1. Start up DOSBox.
+You can learn how to do it, as I did, by typing Intro and just reading through. I'll admit that even that small tutorial wasn't an enjoyable read, not in the mindset for programming and DOS commands, so I'll do you a turn and give you all the steps.
+This is if you're using Win 9x, otherwise you should be able to just mount the image on Daemon Tools and install it.
+
+2. Mount the StarControl3.cue with Daemon Tools.
+
+3. Since DOSBox basically emulates an entirely seperate computer, it requires you to create a drive for it, its own C:\.
+It can be your Window's C:\, C:\Program Files\ specifically, or any other drive or a directory inside it.
+I use D:\ for games. So I created the folder D:\DOSGames\. I will use this for the example here.
+Now then, to create DOSBox's drive, type in ""mount c D:\DOSGames\"", or whichever directory you chose instead in place of D:\DOSGames\.
+
+4. Next you need to mount a real or virtual CD-Rom drive in DOSBox. If you type in ""Intro"", it will show you different levels of commands for it, each with an added detail, but the basic one sufficed for me. Or rather, it was the only one to work for me, since I first tried the advanced one with highest level of support.
+My virtual drive is G:\, so I typed in: ""mount d G:\ -t cdrom"".
+This works pretty much like with the other drive.
+
+5. Enter D:\ to go into the cd-rom drive through DOSBox now.
+
+6. Enter install.exe next, to start up the installation from the cd (the image which you mounted on Daemon Tools, don't get confused).
+
+7. Select the option to begin installation.
+Select C:\ as the drive to install to.
+Select Maximum installation, just in case.
+Next select the installation path.
+Since I had made D:\DOSGames\ the DOSBox C:\, I reduced the path to ""C:\STARCON3\"" - it doesn't like spaces.
+
+8. You'll have a little setup for the sound now. Just pick the first option for each type of sound. That worked for me. If it gives you trouble, you're on your own. Fiddle with it, pick other options.
+Exit the setup.
+
+9. It should have taken you automatically to C:\STARCON3\ now, or whichever installation path you chose.
+You need only type in SC3.exe to start the game.
+
+10. BONUS: you'll need to know this command after you close DOSBox and come back to play again - when you're already on C:\, type in ""cd [game directory]"" to go into the directory, from where you can type in sc3.exe to run the game again.
+This is all for those who've never handled DOS before.
+
+I realize this wasn't as brief and clear cut as I intended it to be, but if you don't get it, your other option is reading thru Intro and making sense of that yourself. It's simpler, but not exactly clearer.
+
+Enjoy the classic! I remembered it only vaguely, but playing it now, all of it feels familiar. Even if I never immersed myself in the campaign the first time I had the game, I was a kid playing on my brother's PC, the exotic machine that it was."

@@ -1,0 +1,163 @@
+﻿User Type,Username,Date,Text
+,urun4fun,2006-12-26T16:00Z,"Please seed!!  
+
+This is a rare one..
+
+"
+,cozappz,2006-12-27T20:30Z,please seed. i'm stuck at 71%
+,jeronantropis,2007-01-16T15:09Z,"@Kalanenos
+
+You have to remove the license.dat file from the install dir.  The reselect the license.dat file.
+
+If that doens't work: run the server program included.
+
+I don't know it exactly anymore - it's been a while since I used the program ..."
+,Hamidku,2008-04-05T15:58Z,"Hi!
+When I run Anslic_admin and run the license file it's ok, but when I try to start the license manager the error message comes up: Error Occured. What the hell does that mean and does anyone know how to get rid of this error message so I can start Ansys????
+
+/Hamidku"
+,db4elle,2008-06-30T18:26Z,"I had some trouble with the licencing myself. Here's what I did:
+
+Follow the instructions found in the 'Magnitude' directory, in the 'install.txt' file. It will tell you to open the 'ansys.dat' file and change the 00000000 to your computer HOSTID (which is your network card Mac ID - to get this open a command prompt and type: 'ipconfig/all' and it will be the 'Physical Address', not including the hyphens), and change where it says 'host' to your computer name (find this in Control Panel->System->Computer Name).
+
+You will then be told to run the keygen.bat that will create a 'licence.bat' file in the same directory. When prompted to select a licence file, select this newly created file. *Make sure that the C:\Program Files\ANSYS Inc\Shared Files\Licensing folder doesn't contain any licence.dat files.* or you will get the error 'Licence already exists' or something to that effect.
+
+To set the environment variable ANSYSLMD_LICENCE_FILE 1055@host (where host is your computer name), open the ansyslmd.opt file in notepad, and enter that line into it. Save, close it and forget about it.
+
+I followed these steps as described in the 'install.txt' file and it still didn't work for me. It turns out, that I had to: 
+1) change the second line in the licence.dat file from starting with DAEMON to starting with VENDOR
+2) duplicate the last INCREMENT statement at the end of the licence file, so that there are two of the same statment. For some reason, the diagnostic was seeing the last licence, but Workbench wouldn't see it. Upon duplicating the last one, and saving the licence.dat file, it worked. 
+3) you may have to 're-read' the licence file after you make these changes. To do this, launch the FLEXIm ANSLIC_ADMIN utility and press the 'Re-read the Licence File' Button. You may also find this utility for reloading the licence file if you are making changes to it by 'trial and error' as I was. *Just remember to delete the old licence file, or you won't be able to load the new one*
+
+Sorry for the length. I dont normally leave comments, but it took me a long time to figure this out, and I wished someone posted a comment about it, so I hope it works for others. 
+
+Cheers!"
+,arunprasadvr,2008-07-23T01:22Z,"Hi.... Please Help me
+
+It says ""No License Found""
+
+when I run the Anslic_admin utility, the License manager is running fine...
+
+pl help. I`m in great need to complete my project"
+,tomiswe,2008-08-18T13:38Z,"I did everything right and when I finally started ansys, it said:
+
+Product: ANSYS Multiphysics (feature `ane3fl`)
+
+Checkout failde for the above product.
+FlexLm error message: 
+Cannot connect to license server system. (-15,10:10061 ""WinSock: Connection refused"")
+
+Anyone knows what should I do? 
+"
+,ejfreeze,2008-09-12T06:02Z,"tomiswe,
+
+I received the same error when I tried it. I found out that I typed my host name wrong. I actually had a period behind my host name that I didn't notice.  The first line of your license file should look like this:
+
+SERVER HostID MacAddress 1055
+
+It may be silly, but check for a period.
+
+Then I ran the Anslic_admin utility and clicked ""Install License File"" It installed and worked fine from there."
+,Jegecske,2008-11-10T10:03Z,"ejfreeze,
+
+Thank you for your comment it helps me..i was bother with the installation for 2 days...but the license manager did not start..that period was the problem...Again..thanx a lot"
+,chut147,2009-01-07T06:38Z,"how to install and crack ANSYS 8.0 or 10.0: - RiDo
+
+1.  mount image of CD or burn.
+2.  click Install ANSYS 8.0 -> ""install now""  or run AutoExec
+3.  do normal installation next>next etc. 
+    (if possible please install in C:\program files... the defaults)
+4.  It may say that ansys need 1024x768 resolution, just click OK
+
+           AFTER installation it will ask:
+
+5.  DO u want to do licensing setup??   click YES
+6.  Is this a license server?   Click YES
+7.  Do u have the license file?      click NO
+8.  Do u want to continue with installation of licensing?   click YES
+9.  after completion of license setup, copy the magnitude folder from CD to
+	 c:\program files\Ansys inc (or anywhere)
+10. open ansys.dat with notepad (its in the magnitude folder that u have just copied).
+11. make sure that ansys.dat and license.dat are NOT READ-ONLY.
+    if they are, remove them from read-only as we have to make changes in them.
+12. click START > all programs>ANSYS FLEXlm License Manager> FLEXlm LMTOOLS Utility
+13. System setting tab>    copy the COMPUTER/HOSTNAME and paste it instead of host 
+    in the ansys.dat file
+14. Copy the Ethernet Address from the LMTOOLS window, and paste it in ansys.dat file
+    instead of 00000000000
+
+    so original ansys.dat file was:
+	SERVER host 00000000000 1055
+	DAEMON ansyslmd ""C:\Program Files\Ansys Inc\Shared Files\Licensing\intel\ansyslmd.exe""
+
+    and modified on reads as:
+        SERVER compname ur_ethernet_ID 1055
+	DAEMON ansyslmd ""C:\Program Files\Ansys Inc\Shared Files\Licensing\intel\ansyslmd.exe""
+
+    the rest of the file remains the same
+15. save and close ansys.dat now
+16. double click Keygen.exe in the crack folder
+17. close the DOS window by striking any key, it has now created a license.dat 
+    file in the crack folder.
+18. copy this license.dat file and paste it to 
+        C:\Program Files\Ansys Inc\Shared Files\Licensing
+19. in the LMTOOS window, go to CONFIG SERVICES tab.
+20. Path to lmgrd.exe file -> click browse. the file is in
+         C:\Program Files\Ansys Inc\Shared Files\Licensing\intel
+      click open
+21. Path to the license file -> click browse. the file is in
+         C:\Program Files\Ansys Inc\Shared Files\Licensing
+      click open
+22. Leave the debug log file as it is, it will be created by default
+23. check and turn on both: USE service and START server at power up.
+24. click SAVE SERVICE
+25. Go to START/STOP/Reread tab and click START SERVER.
+26. THATS IT !!!!! U have installed ANSYS 8.0 successfully (hopefully)
+27. Starting Ansys> ansys 8.0>configure ansys products  
+    select any product under the license category. and select the working directory from FILE management
+
+yaaaaawn.... im tired now of writing this file. bye, going for snax
+
+catch me on DC++ if u have any problems
+
+RiDo
+Mtech LLR OENA"
+,Kosh2260,2009-01-15T16:36Z,"I've got a tricky problem.  I've got this torrent to install many times in Windows xp 32-bit.  I am trying to get this installed in Vista Ultimate 64 bit.  The program installs fine, but the ""ANSYS FLEXlm license manager"" service will not start, and errors out with ""Error 1053: The service did not respond to the start or control request in a timely fashion.""  I went into the LMTOOLS config util and pointed the license file and the lmgrd.exe paths like chut147 said, but the same error persists.  Any Ideas?
+
+Thanks"
+,what_do_i_know,2009-02-26T06:33Z,"I can't get the ansys.dat file to save...
+it says it cannot find path or filename incorrect...
+I did copy Magnitude into Ansys Inc folder
+I compared file path and it is the same...
+don't know what I'm doing wrong...
+Oh, and will this program integrate with Autodesk Inventor Pro 2009?  It already uses a dumbed down version of Ansys"
+,what_do_i_know,2009-03-01T00:57Z,"No affence, but the classic version instructions are just as complicated as this one, except it includes sandbox.
+My problem is something really simple...just for some reason in the folder Magnitude, I'm trying to change the ansys.dat file server name and ip address....just won't save after changes....says ""cannot create the c:/program files/Ansys Inc.....Make sure that the path and file name are correct.
+Seems like maybe its and admistrator problem, authority issue...i don't know?
+Thanks for the link"
+,what_do_i_know,2009-03-01T02:57Z,"I got it to work!
+I made and saved the computer name and ethernet address to the downloaded file, then copied to c:/Program Files/Ansys Inc/
+Plus by following chut147 instructions I did change 23. check and turn on both: USE service and START server at power up....to turning OFF both :use service and start server at power up
+For me, the program worked after changing that setting"
+,nkweng,2009-06-18T16:25Z,how can i download?
+,totallamp,2010-03-05T13:19Z,".
+
+
+Works great!
+I followed chut147's procedure and I could install it on Windows XP just fine. But had no luck doing that on Vista.
+
+
+Thanks!!!
+
+
+."
+,buebun,2010-11-18T19:55Z,Please seed!
+,messier4711,2011-02-17T17:44Z,"This download button is also a link to a trojan.
+
+http://get.whitesmoke.com/GeoInstaller/WhiteSmokeWriterGeo9171_en.exe 
+a variant of Win32/TrojanDownloader.FraudLoad.NAK trojan reported by NOD32 antivirus"
+,Ructile,2011-04-02T08:58Z,When I do all the stuff outlined it just comes up with cannot connect to the FLEXIm license server. Does anyone know how to fix the problem
+,nafees53,2011-06-20T21:39Z,thanks chut147 for your comment. I followed his instructions and it worked. I'll suggest everyone to follow the instructions given by chut147.  
+,bobby2sox,2012-03-19T22:57Z,"So the directions that chut147 here gives is for Ansys 8.  This is Ansys 10.0... there is no ISO to mount, so I am assuming I just double click the setup file instead.  I did that... and click next a couple times, then it takes me to a screen that says ""Configuring the system for ANSYS 10.0. Please wait...""  and it has just sat here for a half hour... I tried starting over and it happened again... anyone else have this issue? 
+
+Thank you! "

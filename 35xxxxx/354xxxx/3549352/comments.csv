@@ -1,0 +1,22 @@
+﻿User Type,Username,Date,Text
+,Molokk,2006-11-01T12:11Z,"I tried this one.
+
+It seems to help a little in early games, but it still goes down to 3 or 4 frames-per-second after about 15 minutes, on any maps and even against only two A.Is at 50 population cap each.
+
+Either it doesn't work as intended, or the removal of the debug lines alone isn't enough to really make a difference in the long term.
+
+Gas Powered Games indeed disabled the A.I for a good reason as I can see now. I'll keep playing on-line, where the true performance resides for me."
+,nagaaa,2006-11-01T16:40Z,"Don't forget to move the old lua.scd in another directory, if it is renamed lua.something the game still use it oO
+
+Yes it 's true, on large map the game goes slow after about 1h on my computer (without my patch : ~20mn) , but it's much better on 10kmx10km map on my computer, I played against 3 AI without  slow down."
+,Tigermoth,2006-11-01T17:23Z,"Thanks!
+works great for me"
+,dxreaper,2006-11-05T04:15Z,"somehow can't get to 'build' nuke missiles, not sure if it's a bug issue with the game or this lua file, since I can't find anything regarding the missing 'build missiles' icon on structures like nuke defense and such."
+,KingMoila,2006-11-06T15:31Z,"Maybe they thought that nukes are a ""secret"" and they shouldn't be released in beta... or something."
+,dxreaper,2006-11-09T09:38Z,"nah, not secret. this also applies to the tier 2 tactical missile defense. but it seems to only happen later in the game which makes it weird... if you do build them quick enough you'll get the 'build missile' button"
+,Molokk,2006-11-10T02:38Z,"Can you create a speed hack for version 1.0.30 ?
+
+If you don't want to, can you let us know how to do it ? Which line(s) of code do we need to delete/edit ? Is it just in the .LUA file ?
+
+Thanks."
+,krypet007,2008-03-29T17:41Z,I hope this works better than the last I tried (the game would not even start)

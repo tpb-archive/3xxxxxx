@@ -1,0 +1,23 @@
+About BitLord
+A powerful C++ BitTorrent Client. BitLord is a p2p file-sharing freeware program fully compatible with Bittorrent, which is the most popular p2p protocol designed for high-speed distribution of 100MB or GB sized files. BitLord is a powerful, clean, fast, and easy-to-use bittorrent client. It supports simultaneous downloads, download queue, selected downloads in torrent package, fast-resume, chatting, disk cache, speed limits, port mapping, proxy, ip-filter, etc.
+
+Why use BitLord
+NO SPYWARE in the program. Built in Torrent search, find anything without having to visit bad websites. Ability to chat with other downloaders (disabled by default). Multiple simultaneous downloads & ability to add priority for a torrent. Ability to limit the upload speed as well as download speed.
+Advanced advantages
+? Completely new core written in C++, stable and fast, very low CPU usage.
+? Intelligent Connection, Auto Optimization for different connections.
+? Smart Rate Control, optimize the upload distribution to get the max download rate.
+? Disk Allocating, no long-time disk allocation, decrease disk fragment to almost zero.
+? Intelligent Hash Scan, no time-consuming scanning when seeding / resume.
+? Firewall and NAT Traversal, users behind differect NAT can connect to each other.
+? Compatiable with Windows XP SP2 TCP/IP restriction (new in v1.0).
+? Ability to block IP temporarily or permanently, compatiable with eMule ipfilter.dat.
+? Using only one TCP listening port.
+? Auto config ICF and ICS in Windows XP.
+? Auto config port mapping in router (UPnP support is required, Windows XP is required).
+? Support Multi-tracker, and utf-8 extension, UDP tracker Protocol v2.
+? Auto Update Checker.
+? Muti-Language supported, support 20 language now.
+? No need to install, but install/uninstall packages are provided.
+? [Please Note]: Reports say Zone Alarm 5.0 conflict with BitLord (and other p2p maybe).
+? Intelligent Disk Cache, decrease the potential damage to the hard disk when high-speed downloading (>500KB/s) by decrease the read / write frequency, extra memory usage is the cost.

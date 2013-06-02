@@ -1,0 +1,57 @@
+WGA Patcher Permanent Edition!**************
+
+Make Your Pirated PC, Genuine 100%!
+
+About:
+
+These Prorames included, Enables Pirated PC to become Genuine.
+
+- You No longer need to find cracks via the internet!
+- You Can Download products from Microsoft that uses WGA, Such as Windows Defender, WMP11, IE7, etc
+- Use Windows Update!
+-Another Cool thing is that you can Install Program that Require Validtaion, and you won't need a crack such as WGA Patcher Classics!
+It i'll say your PC is Genuine!
+
+THE tools included in the ZIP Files DOES NOT have SPYWARE or ADWARE, according to there owners!
+I do Not OWN the Product inside the Package. I only titled it WGA Patcher!
+___________________________________________________________________________________
+Follow ALL Instruction
+
+1. Open The Winodws XP Keygen included with the package, to generate a genuine Serial key for WINXP!
+When the Program opens, under Prouct Famly, click the box and choose "WIndows XP Pro. VLK". then click the botton "Generate".
+A Serial will appear on the buttom, live the proram open!
+
+2. Open the Proram "keyFinder" which displays your Product key for any WIndows PC and Office Product. Also allows you to change your Product Key!
+Make sure the "Microsoft Windows" tab is open. Then Click on the Options Menu, followed by "change Windows Key"
+In the boxes enter the Serial key, from the Keygen Program! followed by clicking the button "Change". a pop up will appear!. And follow what ever it says!
+
+3. Now open the proram wga-fix, if a pop up comes out simply click Yes, don't worry about the unreadable language.
+
+4. Open the program MGADiag (Microsoft Genuine Validtaion Diiagnostic Tool. To Control Your WGA Status! Click the Button Continue! One
+the process is finish click OK!
+
+5. Finaly if you have any cracked LegitControlCheck.dll, Delete it from the System32 Folder "C:\Windows\Sytem32". and download
+the WGA tool from Microsoft and there you have it! Your PC is 100% Genuine no need to by a PC!
+
+Works with:
+-Microsft Download Center and Windows Update! 100% all times, wether or not MSFT updates its tool!
+-Works with other browsers besides IE6/7. Such as Firefox, or Netscape or a Browser powerd by IE(such as MSN Explorer or AOL Explorer)
+-IT EVEN Works with Programs that require validtaion, such as IE, WMP11, Windows defender, etc. No need for WGA Cracks!
+and more!
+
+Requres a Pirated Windows XP PC, Capable for Pirated Windows 2003
+_________________________________________________________________________________________
+Troubleshoot:
+
+-If you have a Security Protection Software such as Antivirus or Firewall, you may recive a pop up saying that it may be a risk for harming the PC.
+Just Temporarily  allow the program to be used. Later you can block it. IT DOES NOT Contain Spyware, Trojen or other unwanted things,
+according to the owners of the files. I tested it too which worked fine! Use these Programs at your Own Risk!
+
+-DO NOT run the prorams via safemode, it WILL NOT work!
+
+For Questions, updates or to get the WGA Patcher Crack only. Go to the site you got this from!
+
+2006 WGA Patcher for Windows!
+Programs included in this Kit, is owned by their owners on the Internet not by the place you got this from!
+
+Last Updated-11/11/06

@@ -1,0 +1,361 @@
+﻿User Type,Username,Date,Text
+,BadboyZ,2007-01-17T17:09Z,"Is it realy so hard to say how to make the license to work??   
+
+
+Swe/eng "
+,mbow,2007-01-17T19:38Z,the same way as in previous versions..
+,Joana8,2007-01-17T22:55Z,How to work Maya 8.5?? I need a serial from this program but the crack didn't work for me.
+,art420,2007-01-17T23:59Z,"3) Make a folder in your home drive called ""FlexLM"" and place the contents of the ""Crack"" directory in it.
+
+4) Run ""FlexLM License Utilities"" and find your Ethernet Address.
+
+5) Open the file ""aw.dat"" with Wordpad and change ""your_host"" to whatever your Ethernet Address is without the quotes. Then change 7.000 to 8.000. Save.
+
+6) Drag and drop the aw.dat on the awkeygen file.
+
+7) Run Maya."
+,sanjayayogi,2007-01-18T14:37Z,"I am getting the following on running the Maya8.5 installer from this torrent.
+
+Popup: Maya 8.5 Installer Information
+
+1.The InstallScript engine on this machine is older than the version required to run this setup. If available, please install the latest version of ISScript.msi, or contact your support personnel for further assistence.
+
+I searched Google and got this URL:
+
+http://consumer.installshield.com/kb.asp?id=Q108322
+
+However, I cannot seem to determine which version I need. Any help would be appreciated...
+THX!"
+,stikke,2007-01-18T20:02Z,"can someone please explain abit better?
+how do i get it to work???
+
+Thank you"
+,smaragden,2007-01-22T12:45Z,Any1 know where i can find the mac version of this?
+,soubibi,2007-01-23T00:15Z,"To install :
+1.  First Create a directory on the c: drive (even if you install maya on different drive) called
+    FLEXLM
+2.  Copy the aw.dat and awkeygen.exe file to this directory.
+3.  Install Maya
+4.  Goto start-->all programs-->Autodesk-->common utilities-->FlexLM license utilities
+5.  Under system settings copy Ethernet address
+6.  Open the file (from the directory FLEXLM) aw.dat with Wordpad and replace the words ""your host""
+    with the copied Ethernet address. Save and close wordpad
+7.  Using the run utility and type: awkeygen.exe aw.dat
+8.  Goto start-->all programs-->Autodesk-->Maya 8.0-->Install license
+    select ""I would like to install license from a file""
+9.  Browse to the path of the file aw.dat
+10. Click install
+11. Restart computer"
+,soubibi,2007-01-23T00:15Z,"I'm looking for SYFLEX FOR MAYA 8, please SEED it.
+Thanks."
+,stikke,2007-01-23T20:22Z,"mine dosent say ""your host"" anywhere, it says 
+
+
+FEATURE MayaUnltd sgiawd 8.5000 permanent uncounted 0 \
+	HOSTID=000000000000
+FEATURE MayaClothSim sgiawd 8.5000 permanent uncounted 0 \
+	HOSTID=000000000000
+FEATURE MayaClothSimf sgiawd 8.5000 permanent uncounted 0 \
+	HOSTID=000000000000"
+,stikke,2007-01-23T20:29Z,"ahhhh, nevermind. i got it to work :)))"
+,djmj,2007-01-24T20:17Z,"IÂ´ve got this to...
+
+//1.The InstallScript engine on this machine is older than the version required to run this setup. If available, please install the latest version of ISScript.msi, or contact your support personnel for further assistence//
+
+BTW I run Win2000 sp4 with all up to date updates etc.....:(
+Installed ISScript 7.0, 8,0 and 9.0. Installed IKernelupdate Nothing helped..... I only used one ISScript at the time ofcourse...."
+,jos_031,2007-01-28T05:43Z,Heard we require isscript 12 but couldnt get any source to download it
+,bookki,2007-01-30T14:30Z,"Run first step installation of Maya 8.0...this will install PROPER InstallScript engine and than  cancele further installation....
+
+To install Maya 8.5 win32:
+
+1. First Create a directory on the c: drive (even if you install maya on different drive) called
+
+FLEXLM (i.e. C:\FLEXLM)
+
+2. Copy the aw.dat and awkeygen.exe file to this directory.
+
+3. Install Maya
+
+4. Goto start-->all programs-->Autodesk-->common utilities-->FlexLM license utilities
+
+5. Under ""System Settings"" copy Ethernet address
+
+6. Open the file (from the directory FLEXLM) aw.dat with Wordpad and replace the numbers 000000000000 in
+
+HOSTID=000000000000 with the copied Ethernet address. Save and close wordpad
+
+7. Using the run utility and type with quotes: ""C:\FLEXLM\awkeygen.exe"" ""C:\FLEXLM\aw.dat""
+
+8. Goto start-->all programs-->Autodesk-->Maya 8.5-->licensing
+
+select ""I have a license that I need to install"", than choose ""I would like to install may license from a file""
+
+9. Browse to the path of the file aw.dat
+
+10. Click install
+
+11. Restart computer 
+
+These were my steps"
+,Jesus Kristus,2007-01-31T22:09Z,"sanjayayogi: Got the same error, found the same link and tried the same procedure. In the end I just downloaded InstallScript v.11, cause I think the 12 is Vista-exclusive. Finally I downloaded and installed this version instead: http://thepiratebay.org/tor/3602763/AUTODESK.MAYA.UNLIMITED.V8.5.HYBRID.DVD-ISO"
+,bookki,2007-02-02T10:45Z,"For everyone with InstallScript engine problem:
+Autodesk_Maya_8.5_Unlimited_Win32 works only with InstallScript v8.1.0.304 which you can not find on http://consumer.installshield.com/kb.asp?id=Q108322
+I've tried every InstallScript from that URL and nothing helped
+I've solved this by running first step of Maya 8.0 installation and than canceled further installation....
+That's how I've got PROPER InstallScript - v8.1.0.304....."
+,Lanceman,2007-02-08T13:05Z,"I'm stuck at step 7 ""7. Using the run utility and type: awkeygen.exe aw.dat"". . What do you mean with this. Where should I type this? Somewhere in LMTOOLS?"
+,bookki,2007-02-10T03:15Z,"Using the run utility(goto start-->run) and type with quotes: ""C:\FLEXLM\awkeygen.exe"" ""C:\FLEXLM\aw.dat"""
+,bookki,2007-02-10T22:35Z,"TROUBLESHOOTING:
+
+If you are getting the following popup on running the Maya8.5 installer:
+
+============================================================
+1.The InstallScript engine on this machine is older than
+the version required to run this setup.If available,
+please install the latest version of ISScript.msi, or
+contact your support personnel for further assistence.
+============================================================
+
+Unpack ""InstallShield_v8.1.0.304.rar"" to ""C:\Program Files\Common Files\InstallShield""
+
+...and than run Maya8.5 installer again.
+
+Download ""InstallShield_v8.1.0.304.rar"" from http://depositfiles.com/files/612920"
+,echo_zoom,2007-02-13T21:38Z,"thax, got it running^^"
+,TWF152,2007-02-18T20:55Z,"When I select the ""C:/FLEXLM/aw.dat"" in the License File Selection window, it tells me that the file contains invalid data. 
+
+can someone tell me what I'm doing wrong."
+,pele_ns,2007-02-28T20:52Z,"n2n wrote:
+I downloaded this software but i cannot figure out how to install it as all the files have this .bc! extension. i remove this extension but it was not of any help can please somebody help me with this
+
+If your file extension is .bc! that mean you're not finished torrent download, .bc! is part file extension."
+,super speed,2007-03-06T19:53Z,"ive done that with flxlm and all that but when i trie too use my aw.dat thing it just dont work! 
+
+help plz"
+,super speed,2007-03-11T15:12Z,is it any difrense if i got the previos version of this program??
+,KenGuy5472,2007-03-15T22:28Z,"Ok, first of all props to mbow for such a kickass VIRUS-FREE torrent.  Second of all, I understood bookki's instructions perfectly, except for something that a few people may still be suffering from:
+Editing aw.dat's ethernet address.
+All you have to do is copy the FIRST HALF of the address, not both, and paste it over the zeros.
+It's that simple.  Cheers. :p"
+,super speed,2007-03-19T13:26Z,"when i try to do the licensing thing it say instalation compleate but then when i try to run the program it gives me a messedge ''maya 8.5 could not be started because ther are no appropriate licenses installed on this computer''
+
+i love to do 3d animation and movies and stuff like that soo plz help"
+,bk1985,2007-03-20T16:48Z,im having the same problem...
+,bk1985,2007-03-20T22:39Z,"got it working now...tried reinstalling, seems to have done the trick"
+,super speed,2007-03-21T18:52Z,reinstall the program only??
+,super speed,2007-03-22T23:22Z,"i have restarted the program but i still gets the same messege.
+
+
+when i use aw like a licens its says ''instalation compleated'' but then licensing thing comes back when i try to start it and i got an aw1 in my file.
+
+
+
+help plz!!"
+,guitargodleach,2007-03-24T16:16Z,"I'm getting a popup that says the InstallShield engine is not installed on my machine......I've downloaded the ISScript.msi, ran it and nothing. I downloaded the .rar file that Booki mentioned and still nothing. If anyone has any helpful info on how to get this installed, I would be grateful. Thanks."
+,guitargodleach,2007-03-24T16:54Z,"Ok, got it to install and everything, now I'm having a problem with the .dat file. I do everything as instructed and it says that the .dat file has invalid data. What's up with that?"
+,chirri_80,2007-04-09T18:58Z,"hi I`m looking for InstallShield_v8.1.0.304.rar for installing Maya 8.5, I search in this link http://depositfiles.com/files/612920 but I don`t find anything. 
+
+helppppppp"
+,Jecminek,2007-04-09T20:35Z,Please upload the InstallShield_v8.1.0.304 again. It is deleted :( Thanks very much
+,super speed,2007-04-26T15:28Z,"i got the same problem as guitargodleach, its something wrong wiht the dat.aw file.
+
+help plz!? "
+,SirDestructo,2007-05-27T23:59Z,"For everyone with the ISScript.msi problem. Go to this discussion http://discussion.autodesk.com/thread.jspa?threadID=540053
+
+At the bottom of the page is a link to setup file. Just run it and then run the Maya script."
+,civi2345,2007-07-15T18:10Z,liscensing is not working. It says installation complete and then will not start up.
+,killer93yo,2007-07-22T16:46Z,Where can I find my ethernet adresse?
+,josy666,2007-07-25T13:47Z,"That's true, to make it works, just copy/past ONLY the first part of the HOSTID (without the quotes) during the Lincencing process.
+
+It's worked for me under VISTA 32b."
+,civi2345,2007-07-30T02:03Z,It was working fine for me and then the licensing stopped working. When i checked the common utilities my ethernet address said ffffffff. I can't change it and need help. Someone  please tell me how to get it working again.
+,mxman,2007-07-31T22:54Z,"Thanks@
+Bye..."
+,josepfring,2007-08-02T06:46Z,"I din't try it yet, but i hope it will works, cause i just down load the other Maya 8.5 but nobody help how to install that software, please explain how to open it and install it, and i hope it will not turn me to disappointment, please ""mbow"" tell me how."
+,E3Revolution,2007-08-02T23:59Z,Why is this only 307MB when some of the others are like 1.5GB?
+,Oscar0Wilde,2007-08-04T13:00Z,"ok to get the ISScript files just go to
+
+http://usa.autodesk.com/adsk/servlet/index?siteID=123112&id=7635018
+
+And download the MAYA 8.5 PLE. that way you can make it work... because all the other stuff people said doesn't work with my pc lol :P"
+,Slanni,2007-08-13T14:08Z,Its so damm easy i cant se the big problem in this if you just read the instructions and complete them step by step its work perfectly for me
+,robertish,2007-09-06T03:24Z,"ive installed maya many a time. my only problem is finding the goddamn instructions. 
+feeling a bit frustrated with this simple question, any help?"
+,Sirhc405,2007-09-13T22:04Z,"Hi everybody, I got as far as the browse for licence bit but when i select aw.dat it says ""The file contains invalid data. Line one has unrecongnized format."" Anyone know how to stop this? PS: for anyone with the script problem, just download the PLE version from autodesk website and then install that before this version. (should be able to uninstall PLE version after installed this version)"
+,Sirhc405,2007-09-13T22:18Z,"OOOOOHHHH you have to put the eathernet adress in every 000000000 space, thanks for the help guys, lol. IT WORKS!"
+,masterattila,2007-09-14T19:20Z,"Important: ignore the """" signs!
+
+I assume you have extracted the ""awkeygen.exe"" and ""aw.dat"" files from the ""WinRAR archive"" to the desktop!
+
+1.  After you installed ""Maya"" click on ""Start"" -> ""All Programs"" -> ""Autodesk"" -> ""Common Utilities"" -> ""FlexLM License Utilities""
+__________________________________________________________________________________
+
+2.  Under ""System Settings"" copy the code from ""Ethernet Address"" to the ""aw.dat"" file and save, (you must open it with wordpad to do this!)
+
+
+Normally it will look like this:
+
+FEATURE MayaUnltd sgiawd 2008 permanent uncounted 0 \
+        HOSTID=your_host
+
+
+Insert the ""Ethernet Address"" replacing the ""your_host"" to:
+
+FEATURE MayaUnltd sgiawd 2008 permanent uncounted 0 \
+        HOSTID=001a92d7e859
+
+
+Remember that ""001a92d7e859"" is my ""Ethernet Address"" so it will not work for you!
+__________________________________________________________________________________
+
+3.  Inside your ""Local Disk"" (C:) drive create a folder named ""FlexLM"" and send ""awkeygen.exe"" there.
+
+4.  Drag and drop the ""aw.dat"" file you just edited on top of ""awkeygen.exe"" then double click on the ""awkeygen.exe"".
+
+5.  Now click on ""Start"" -> ""All Programs"" -> ""Autodesk"" -> ""Autodesk Maya 2008"" -> ""Licensing"" select ""I have a license that I need to install."" -> ""Next"" -> ""Next"" -> ""Browse"" find aw.dat located on the desktop click ""Select"" -> ""Next"" and you're done! Enjoy."
+,anonymousmonk187,2007-10-12T04:55Z,"When I try to open maya 8.5 I get a pop-up that says something like ""Fatal Error. Attempting to save in C:/DOCUME~1/(Name)~1/LOCALS~1/Temp/Name.(date).(time).ma"" then the ""Autodesk Maya Error Report"" comes up (which I just exit it out of).  I've tried installing it twice, no idea what to do."
+,vinc3nt1n0,2007-11-23T06:03Z,"I follow step by step the cracking guide but it doesn't work!
+
+My ethernet address is ""ffffffff""...Is this the problem?
+
+I try to use all the crack and aw.dat file but still results [no appropriate licenses installed on this computer]
+
+someone can help me? I'm trying by myself but there's no way out!
+
+pliiiiiiiiiz!! 
+vinc3nt1n0 at 2007-11-20 00:25 CET: 
+
+thi is my aw.dat file:
+
+FEATURE MayaUnltd sgiawd 2008 permanent uncounted 64F19F4EE603 \
+HOSTID=ffffffff
+
+------------
+
+and thi is what maya says if I past my license file:
+License Installation Report
+
+Installing from license file (text).
+Input license contains 1 license(s) matching this computer.
+
+License #1
+
+Attempting Installation to license file: C:/FLEXlm/aw.dat
+Destination file C:/FLEXlm/aw.dat contains errors and/or warnings. Please see below for detailed information.
+
+Successful Operations:
+Added feature line: FEATURE MayaUnltd sgiawd 2008 permanent uncounted 64F19F4EE603 HOSTID=ffffffff
+
+
+Warnings:
+Feature MayaUnltd on line 2 has a sign value 0 of invalid length. FLEXlm may not recognize this feature. Source: C:/FLEXlm/aw.dat
+
+
+Errors:
+Feature MayaUnltd on line 1 of source file (text) was compared with feature MayaUnltd on line 1 of destination file C:/FLEXlm/aw.dat. Both features are equivalent.
+Feature MayaUnltd on line 1 of source file (text) was compared with feature MayaUnltd on line 3 of destination file C:/FLEXlm/aw.dat. Both features are equivalent.
+
+
+End of license installation report."
+,zap_them,2007-12-24T18:59Z,"WORKS PERFECT FOR ME!!
+
+Remember to copy the ehternet adress to all ""your_host"""
+,gulshan,2008-01-19T13:58Z,is that version wil work on window vista. wil be nice if someone can give me link for maya for window vista
+,VampyreBlood,2008-04-02T19:34Z,works for vista
+,killswitch123x,2008-08-25T18:54Z,"i installed may fine but wen i came 2 change the your_host bit it sed FEATURE MayaUnltd sgiawd 8.5000 permanent uncounted 0 \
+	HOSTID=000000000000 instead what did i do wrong?"
+,killswitch123x,2008-08-26T13:01Z,thnx a bunch mbow mint pro nd thnx loads masterattila ure installation instructions worked perfect wooow i hav fukin maya 8.5 lol
+,zucatruca,2008-09-13T08:34Z,"No more problems on installing this version.
+
+This is de way:
+
+1.  First Create a directory on the c: drive (even if you install maya on different drive) called FLEXLM
+
+
+2.  Copy the aw.dat and awkeygen.exe file to this directory.
+
+
+3.  Install Maya
+
+
+4.  Goto start-->all programs-->Autodesk-->common utilities--> ""FlexLM license utilities""
+
+  4a. Under Services/License File select ""Configuration using License File""
+
+
+5.  Under ""System Settings"" copy Ethernet address
+
+
+6.  Open the file (from the directory FLEXLM) aw.dat with Wordpad and replace the words ""your host""
+    with   
+
+  the copied Ethernet address (without quotes). Save and close wordpad
+
+
+7.  Using the run utility and type:      C:\FLEXLM\awkeygen.exe aw.dat ---> OK 
+
+
+8.  Goto start-->all programs-->Autodesk-->Maya 2008-->Licensing
+ and select:
+
+    a)""I have a license that I need to install""  ---> Next
+
+    b)""I would like to install license from a file"" ---> Next
+
+
+
+9.  Browse to the path of the file aw.dat
+
+
+10. Click install
+
+
+11. Restart computer
+
+THIS... WORKS... ON WINDOWS VISTA (Like a... Virgin)"
+,anlsh,2008-09-20T04:39Z,"IGNORE THE OTHER METHODS, THEY ARE CONFUSING
+
+THIS IS A COMPLETE FULL GUIDE ON HOW TO INSTALL Autodesk_Maya_8.5_Unlimited_Win32 :
+
+
+Many of ur getting errors in licensing because the other licensing method posted here only works for the other rips.
+
+This is tutorial for THIS rip.
+
+1. First Create a directory on the c: drive  called
+FLEXLM (i.e. C:\FLEXLM)
+
+2. Copy the aw.dat and awkeygen.exe file to this directory.
+
+3. Install Maya
+
+4. Goto start-->all programs-->Autodesk-->common utilities-->FlexLM license utilities
+
+5. Under ""System Settings"" copy Ethernet address. COPY THE FIRST 12 LETTERS(there is a space between the 2 sets of numbers, copy the first half!, NOT THE WHOLE TEXT(without the quotes!)
+
+6. Open the file (from the directory FLEXLM) aw.dat with Wordpad and replace the numbers 000000000000 in
+
+HOSTID=000000000000 with the copied Ethernet address. Do the same thing(copy paste) for other 000000000000 numbers, Save and close wordpad
+
+7. Using the run utility(start>run) and type with quotes: ""C:\FLEXLM\awkeygen.exe"" ""C:\FLEXLM\aw.dat""
+
+8. Goto start-->all programs-->Autodesk-->Maya 8.5-->licensing
+
+select ""I have a license that I need to install"", than choose ""I would like to install may license from a file""
+
+9. Browse to the path of the file aw.dat
+
+10. Click install
+
+11. Restart computer.
+
+And you should be good to go!"
+,ssls1,2008-09-25T23:14Z,will this work on a g5?
+,Skogtrollet,2009-10-20T06:46Z,working (arbeider) :D 
+,tigerace123,2010-01-09T21:36Z,"For those who have the isscript.msi error problem:
+
+1. Download the free trial version of Maya PLE (PLE = Personal Learning Edition)
+2. Install Maya PLE
+3. Now you can install Maya 8.5 from this torrent without the stupid isscript.msi error"
+,PRIIEETY,2012-05-01T19:41Z,just drag  awkeygen.exe file over aw.dat file and then use dat file as your license

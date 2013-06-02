@@ -1,0 +1,16 @@
+Reseed of Superfetch.
+
+Superfetch is a tiny program that makes it easier to download files from the net.
+It makes use of the clipboard, so you basically copy an URL that goes to a file 
+on a webbserver and Superfetch handles the rest. When you copy a URL it ques up 
+in a downloadlist so you can theoretically copy 10 URLs/second.
+
+Superfetch handles:
+- single clipboardURLs
+- single/dual instances of fuskertags
+- bitmapcompiling
+- copied text
+- automatic updates
+
+
+For more info, visit: http://www.mediamonster.se/

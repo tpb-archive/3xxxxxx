@@ -1,0 +1,44 @@
+﻿User Type,Username,Date,Text
+[T],Ythan,2006-07-05T20:17Z,Don't be greedy help me seedy! ;)
+,shvarci,2006-07-05T20:30Z,"Prey-CloneDVD-MDAtje [NUKED] beta !!!
+
+NForce doesnt mention anything about a ""beta"" nor this release being nuked !!!"
+,loko08,2006-07-06T08:58Z,Is this one the full game?
+,krutan,2006-07-06T12:26Z,"shvarci: Since it's not a retailrelease, yes it's a beta, but a beta that is as close as it can be to a retailversion. Works perfectly in single-mode."
+,path15,2006-07-06T18:20Z,I got this installed but it says the CD key is incorect
+,Twiztid,2006-07-07T03:27Z,well ive been playing this for 1 hour or more...and it seems to be legit...
+,whitetalon,2006-07-07T03:39Z,"yeah, and what file are you supposed to add? are you supposed to go to 127.0.0.1 preymaster.humanhead.com to get a file? or just put a text file in c:windows/system32/drivers/etc that says 127.0.0.1 preymaster.humanhead.com? wtf? "
+,moiseman,2006-07-07T04:38Z,fil is Host
+,loko08,2006-07-07T15:11Z,works like hell!!! also its ready to LAN!! Thanks Ythan!!
+,KMHP,2006-07-07T15:54Z,He means edit your host file in notepad and add that line. This way Prey will associate the main server I assume with your loopback IP. The file itself is located at c:windows/system32/drivers/etc File is called hosts edit it in notepad add the line after 127.0.0.1 localhost.
+,PoutineBBQ,2006-07-07T23:29Z,"how do you install the game? i went to the mentioned directory, added the line like this: 127.0.0.1       localhostpreymaster.humanhead.com 
+but now i dont understand how the install the game. can someone help me?"
+,KMHP,2006-07-08T02:57Z,Host the image as you would normally or burn the iso image. It should install as any other game. The editting of the hosts file was to make sure you don't actually contact preymaster or whatever when it asks for the cd key on first startup.
+,x-z3r0,2006-07-08T15:59Z,"Is this one the full game? :S Only 1,57 gb.."
+,xontos,2006-07-09T14:59Z,Doom 3 was only 1.5GB too and Quake 4 only 2.2GB.
+,Pavonen,2006-07-09T19:56Z,Works just fine! crashed once after 1 hour of playing but thats nothing. Worth trying!
+,Dilelefant,2006-07-13T13:24Z,"where is the image that u need to use for this, i cant find it"
+,Lajjt,2006-07-19T19:44Z,Can't find the image?
+,blaze7,2006-07-26T12:16Z,"Extract archive with WinRAR by right clicking prey.part01.rar and selecting extract to..., then chose a locationwith plenty of space. 
+Works fine, full game and it's pretty good!"
+,blaze7,2006-07-26T13:07Z,"  Oreans32.sys is not a virus/malware but a licensed part of protection system, which does not monitor any activity on user's PC apart from protecting software from hacking/reverse engineering.
+  Some trojans can infect this file, though I could find no trace of any variants that use oreans32.sys even though ZoneAlarm Anti-spy identifies it as Win32.Trojan.Spy.Banker.bai.
+I'm monitoring the file but it seems safe and Antivirus/Spyware programs have said it is clean so far. There are also no files in the system or entries in registry from any of the variants. So enjoy the game and I'll post back if I notice anything suspicious.
+
+You add the following to hosts and save using notepad BELOW the line 127.0.0.1 localhost
+
+127.0.0.1 preymaster.humanhead.com 
+
+not
+
+127.0.0.1 localhostpreymaster.humanhead.com
+
+you have accidently added localhost infront of preymaster
+
+
+
+
+
+"
+,blaze7,2006-07-29T15:34Z,actually I'd remove that oreans32 file as it appears it could have been altered. Doesn't seem to do any harm removing it anyway.
+,PoutineBBQ,2006-08-05T00:08Z,"sry, i never installed downloaded games before, so i dont know anything about it, could someone send me a link to somewhere it explain it step by step or just could tell me how to do so?"

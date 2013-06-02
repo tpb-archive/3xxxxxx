@@ -1,0 +1,96 @@
+﻿User Type,Username,Date,Text
+,lioncat,2006-11-23T19:33Z,howe about serial and activation.....great info...nothing at all
+,Shiva,2006-11-23T20:46Z,It might be hard to get a serial before it is released ...
+,skowfritt,2006-11-27T04:32Z,Can anyone confirm just what the hell this is?
+,m3ggs13,2006-11-30T23:09Z,"doubt anyone can confirm what it is, there are zero full downloads. my best guess is that it's a trial, just like the other versions that have been uploaded on the pirate bay so far."
+,Loser1979,2006-12-04T10:36Z,"KMS method to activate your Vista !! (Business edition only)
+
+About KMS - 
+Microsoft now employs a new technology to activate Volume License Business Vista, called KMS.
+KMS activiated Business Vista is required to get re-activation every 180 days against a KMS server.
+The Chinese community already setup few KMS servers over the Internet to activate Business Windows Vista.
+This is not a crack, this is a REAL activation. 
+Don't download potentially harmful cracks, they can damage your systems.
+Do Activate your Windows Vista Business Edition against a KMS server is the proper way!!
+Few KMS servers operated by Chinese IT professional now online to provide activation services free of charge. One of them, sito.kmip.net, now operate 24 hours a day 7 days a week.
+
+**********************************************************************
+Step 01:
+
+Install Vista FINAL RELEASE with Key YFKBB-PQJJV-G996G-VWGXY-2V3X8
+Choose ""Business edition"" ONLY not others !!
+
+Step 02:
+
+When Windows setup completed and Internet access setup completed.
+Open the Command Prompt under ""Administrator Mode"", 
+That is, right click the Command Prompt icon, select ""run as admin""
+
+Now activate your Business Vista against the KMS server, sito.kmip.net 
+(This is a KMS server for Volume License 2.0a activiation, the server is backup by the Chinese local authorities and won't get shut down). 
+
+At command prompt (Admin mode)
+key in (followed by Enter at end of each line) - 
+
+cscript c:\windows\system32\slmgr.vbs -skms sito.kmip.net
+cscript C:\windows\system32\slmgr.vbs -ato
+
+Your Windows Vista Business Edition has activated !!
+If there's error, 
+- check if you run command prompt under ""Admin mode""
+- check if your Vista is final release Business Edition
+- try another time, the KMS server might off for maintainence
+
+After activated your Vista Business Edition, you may want to check the activation status
+
+type and followed by Eneter -
+
+cscript c:\windows\system32\slmgr.vbs -dlv
+
+*********************************************************************
+KMS Volume License activated Vista is required to do re-activation every 180 days.
+The subsequenced re-activation should be performed automatically. If not, repeat step 2 after 6 months.
+
+In case, KMS sito.kmip.net get shutdown, go to Yahoo China at www.yahoo.com.cn do a search on keyword KMS, there should be other KMS server available.
+
+Note: Only works for Business Vista and Enterprise Vista, not other editions!!"
+,ma678,2006-12-05T22:08Z,The above KMS server doesn't work any more.
+,Loser1979,2006-12-09T17:28Z,"For Your Information ONLY
+
+Latest KMS server (updated Dec 9, 2006)
+
+This new KMS server, kms.vbs.net.cn (or vbs.net.cn), claims to operate 24 hours, 
+
+#01) Install Vista Business Edition with key YFKBB-PQJJV-G996G-VWGXY-2V3X8
+#02) Setup your Internet access, then 
+
+- From STAR menu, ACCESSORIES, Run ""COMMAND PROMPT"" as admin
+(Right click the ""COMMAND PROMPT"" icon, select ""Run as Admin"" from the sub-menu)
+
+#03 In Command Prompt (Admin mode) dialog, type
+
+cscript c:\windows\system32\slmgr.vbs -skms kms.vbs.net.cn
+OR
+cscript c:\windows\system32\slmgr.vbs -skms vbs.net.cn
+
+wait for response, then type 
+cscript C:\windows\system32\slmgr.vbs -ato
+
+wait for few seconds, Vista Business edition now activated !!!
+To check status, 
+cscript c:\windows\system32\slmgr.vbs -dlv
+
+If error occurs, check -
+is your key YFKBB-PQJJV-G996G-VWGXY-2V3X8 ???
+is your Vista Business edition???
+is your Command Prompt under Admin mode???
+or try another time.
+
+The above message is translated from 
+http://www.vistafans.com:80/viewthread.php?tid=71750"
+,karl500,2007-01-12T10:11Z,"Windows Vista activation & MSDN patch are available at
+http://thepiratebay.org/tor/3594524/180_SERIALS__KEYS___KEYGENS__amp__CRACKS"
+,PLCharlie,2007-01-17T20:05Z,okay. I didn't download this but I've had Vista ultimate for about 15 days.. And I gotta say that nothings really changed.. I mean - yeah some cool animated layouts which make it look more attractive.. but thats about.. unless you're a real lover of it and checked it all out. but my point.. WAIT until its out proberbly.. nottin is designed to vista and I had a lot of problems with different apps and stuff.. but my advice to those who want it to work from scratch is WAIT!!!
+,chadzky,2007-06-20T10:15Z,"I have already a Windows Vista Ultimate in my workplace and it's working. I have downloaded a Crack from the internet and it says my Windows Vista is licensed and I can download updates from M$.
+I also tried installing the Windows Vista Business Premium it it also works.
+Now I am enjoying Windows Vista thanks to the one who uploaded the crack on the internet."

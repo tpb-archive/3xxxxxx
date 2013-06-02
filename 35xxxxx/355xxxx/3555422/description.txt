@@ -1,0 +1,17 @@
+???  New features in PGP Command Line include:                      ??????
+  Ì???¦  * Full support for Signing Subkeys, as used in PGP Desktop     Ì???¦
+   ???¦  9.5.                                                           Ì???
+   ???¦  * Support for notation packets, such as those used for         Ì???
+   ???¦  preferred encoding formats as represented in PGP Desktop 9.5.  Ì???
+   ???¦  * Significantly improved support for X.509 certification       Ì???
+   ???¦  import and full support for the new PGP bundle keys.           Ì???
+   ???¦  * Native support for OS X Intel.                               Ì???
+   ???   * Improved automatic entropy discovery for random number        ???
+   ???   generation in headless environments.                            ???
+   ???   * FIPS 186-3 support for the new 2048 and 3072 DSA key sizes.   ???
+   ???   Note that PGP Command Line 9.5 is the only part of our          ???
+   ???   product line currently able to generate these key sizes, and    ???
+   ???   only in Advanced mode.                                          ???
+   ???   * Improved support for static linking.                          ???
+
+LINUX VERSION IS INCLUDED!

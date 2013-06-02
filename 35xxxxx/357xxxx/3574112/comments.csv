@@ -1,0 +1,42 @@
+﻿User Type,Username,Date,Text
+,kellenberger,2006-12-10T08:06Z,porque no lo puede bajar un amigo de bs as ? :@
+,kellenberger,2006-12-10T08:15Z,"AHORA SI, ya esta bajando :D:D:D:D"
+,Loser1979,2006-12-10T10:06Z,"For Your Information ONLY 
+
+Activate your Windows Vista Business by KMS 
+(This is not a crack but a formal activation)
+
+Latest KMS server (updated Dec 9, 2006)
+
+This new KMS server, kms.vbs.net.cn (or vbs.net.cn), claims to operate 24 hours, 
+
+#01) Install Vista Business Edition with key YFKBB-PQJJV-G996G-VWGXY-2V3X8
+#02) Setup your Internet access, then 
+
+- From STAR menu, ACCESSORIES, Run ""COMMAND PROMPT"" as admin
+(Right click the ""COMMAND PROMPT"" icon, select ""Run as Admin"" from the sub-menu)
+
+#03 In Command Prompt (Admin mode) dialog, type
+
+cscript c:\windows\system32\slmgr.vbs -skms kms.vbs.net.cn
+OR
+cscript c:\windows\system32\slmgr.vbs -skms vbs.net.cn
+
+wait for response, then type 
+cscript C:\windows\system32\slmgr.vbs -ato
+
+wait for few seconds, Vista Business edition now activated !!!
+To check status, 
+cscript c:\windows\system32\slmgr.vbs -dlv
+
+If error occurs, check -
+is your key YFKBB-PQJJV-G996G-VWGXY-2V3X8 ???
+is your Vista Business edition???
+is your Command Prompt under Admin mode???
+or try another time.
+
+The above message is translated from 
+http://www.vistafans.com:80/viewthread.php?tid=71750"
+,sefueporalla,2007-02-04T08:15Z,"Wow!! exelente! funciona a la perfeccion, y no es la version beta, si no la final.."
+,vampshychadelic,2007-02-09T15:31Z,"que version es?, ultimate, bussines, home premium o home basic?"
+,exivao,2007-02-24T08:31Z,"vampshychadelic creo que no leiste la info que esta aqui, Windows Vista Business by KMS "

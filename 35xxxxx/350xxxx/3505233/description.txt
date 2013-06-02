@@ -1,0 +1,60 @@
+===========================================
+Windows XP Multilingual User Interface Pack
+===========================================
+
+The MUI Pack allows each user of a workstation to select one of the installed User Interface languages
+This selection is then stored in their user profile
+When a user logs on, the appearance of the system change to the selected language
+
+We have put the following languages in our release :
+
+Arabic
+Danish
+Dutch
+Finnish
+French
+German
+Italian
+Portuguese
+Russian
+Spanish
+Swedish
+Turkish
+
+So in short, it means that you can change our english XP to ANY of the languages listed above
+
+Here is a quick example on how this works :
+
+Install our release like normal and make sure to install the MUI Pack from WPI
+
+When everything is installed and your pc has rebooted do the following :
+
+- Click Start > Controlpanel
+
+- Click on "Date, Time, Language, and Regional Options"
+
+- click on "Add Other Languages" or "Regional and Language options" and a small window will pop up
+ 
+- first tab "Regional Options" fill in your country
+
+- second tab "Languages" choose your own language
+
+- third tab "Advanced" optional (just leave as is)
+
+Next hit apply and ok etc and reboot your pc again. Your windows will now be in your own language
+
+==============
+Special Note :
+==============
+
+MUI can take up to 15-30 minutes to install
+
+If you just want to install your own language in stead of all of them do this :
+
+- Skip the MUI install from WPI
+- Upon first reboot go to the dvd by right clicking on it and select open
+- Browse to the folder "Retestrak/MUI
+- Double click MUISETUP.EXE
+- Install your own language and your done
+- Dont forget to reboot ;)
+

@@ -1,0 +1,43 @@
+ISBN 0-9735898-2-5 (php|architect NanoBooks)
+336 pages
+Publication Date: July 25th, 2005 (available for purchase now!)
+Written by Jason E. Sweat
+
+Technical review by Marcus Baker
+
+You have probably heard a lot about Design Patterns---a technique that helps you design rock-solid solutions to practical problems that programmers everywhere encounter in their day-to-day work.
+
+Even though there has been a lot of buzz, however, no-one has yet come up with a comprehensive resource on design patterns for PHP developers---until today.
+
+Author Jason E. Sweat's book php|architect's Guide to PHP Design Patterns is the first, comprehensive guide to design patterns designed specifically for the PHP developer. This book includes coverage of 16 design patterns with a specific eye to their applications in PHP when building complex web applications, both in PHP 4 and PHP 5 (where appropriate, sample code for both versions of the language is provided).
+
+As you can expect from a php|architect book, this Guide is very focused on its topic, with none of the fluff that accompanies the large, expensive "500-page monsters" you sometimes find at the bookstore. Naturally, this doesn't come at the expense of depth of coverage or clarity: the book contains tens of scripts that give you a practical overview of every topic covered, from top to bottom.
+
+Table of Contents
+
+   0. Preface
+   1. Programming Practices
+   2. The ValueObject Pattern
+   3. The Factory Pattern
+   4. The Singleton Pattern
+   5. The Registry Pattern
+   6. The MockObject Pattern
+   7. The Strategy Pattern
+   8. The Iterator Pattern
+   9. The Observer Pattern
+  10. The Specification Pattern
+  11. The Proxy Pattern
+  12. The Decorator Pattern
+  13. The Adapter Pattern
+  14. The ActiveRecord Pattern
+  15. The TableDataGateway Pattern
+  16. The DataMapper Pattern
+  17. The Model-View-Controller Pattern
+  18. Conclusion
+
+Appendices:
+
+   1. Patterns Quick Reference
+   2. SimpleTest Testing Practices
+
+Download the code for this book: http://www.phparch.com/code-downloads/GPDP-code.zip

@@ -1,0 +1,34 @@
+A little something for the 4th
+
+
+
+Ground Environment Pro
+
+Thanks to all the testers & the original poster MyLife
+
+Thanks to UrRight for the fix
+
+Great thanks to B-52H, MyLife, TheFlyingDutchman, FlyGuy, Mrow, Bodger, mdamstel for all the great posts without which the posts here would not be.
+
+
+Make sure you read the readme for the fix carefully...it mainly applied to a rip & may not be as crucial with the installer.
+
+If your system asks to reboot after install copy the fix before rebooting.
+
+The DownloadMetar.dll needs to be activated in the registry:
+
+Do this:
+
+Click: Start - Run
+
+Type: regsvr32 c:\windows\system32\MetarDownload.dll
+
+Press enter. That'll do it as long as you have the Metardownload.dll
+in the system32 folder.
+
+^^^^^thanks to crazyball for that tip.
+
+
+==============================THIS HAS NOT BEEN FULLY TESTED==================
+
+That being said don't complain about it.....help us make it work.....this has been a true team effort so let's keep it that way.

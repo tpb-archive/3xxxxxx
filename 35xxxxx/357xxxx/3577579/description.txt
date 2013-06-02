@@ -1,0 +1,13 @@
+Ok, I hope the following explanation is better:
+
+The file posedon-fm07.rar contains a posedon-fm07.iso file. This is a file to fool the system. The system read the file as like the original fm07 cd. However to use this, you need a original installation of FM07. So don\'t overwrite the fm.exe file in any way. Otherwise this \'tool\' won\'t work. If you overwrite the fm.exe file with a nocd patch, you will get version 7.2.1, this is the version WITH the double transfer prices. You want version 7.0.1, the good working (patched) version of fm07. 
+
+So the first thing you need to do to use this is uninstall fm07 when you have used a nocd patch. You can do this by going to the configuration screen and then choose software -> delete (or something like this). Choose fm07 and uninstall it. The savegames plus edited databases will NOT be deleted. 
+
+Then install a fresh installation of FM07, without replacing the fm.exe file. Use the patch, so fm version will be 7.0.1. (patch can be downloaded from sigames.com). 
+
+Now unrar the posedon-fm07.iso file to any folder in the system (I unrarred it in my fm07 folder, for convience). Download the Sd4Hide tool and put this in the same folder as the .iso file. Use sd4hide when mounting the iso file. Otherwise you have a chance that you receive a blacklist registration from daemon tools (whatever the hell that is). 
+
+Now mount the .iso file and enjoy your fm!
+
+Great thing about this way of working is that it works on all patches, you never need to download a nocd patch cause you work with the \'original\' cd.....Den här filen innehåller både posedon-fm07.rar filen och även Sd4Hide tool.MYCKET NÖJE.

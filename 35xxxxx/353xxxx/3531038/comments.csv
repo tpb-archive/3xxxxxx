@@ -1,0 +1,469 @@
+﻿User Type,Username,Date,Text
+,Drudwy,2006-09-29T02:42Z,does this include a crack?
+,Zade911,2006-09-29T16:08Z,"Seed, when i'm done, i'll seed from 2 computers. :)"
+,eldkvarn2,2006-09-29T16:43Z,Where is th key
+,Nordik,2006-09-29T16:48Z,where can i get a securom loader?
+[V],harry_hemp,2006-09-29T17:46Z,Do i need securom 1.2 or vil secruom 1 do? Cant find securom 1.2 anywhere.
+,t0bbi,2006-09-29T18:13Z,cd - key??
+,Grayman,2006-09-29T18:14Z,"http://www.daemon-tools.cc/dtcc/download.php?mode=ViewCategory&catid=2
+
+Here You'll find the securom loader 1.2
+
+Have fun ;)"
+,yang_damian,2006-09-29T19:01Z,I can't install deamon tools because the scsi driver it installs ****s up my computer. Does any body know any other mounting program that works with this game?
+,Failer,2006-09-29T19:25Z,"Installed it by mounting it with daemon tools. used the serial and tryed to start it by doing:
+
+asr.exe -r ""C:\Games\Caesar IV\CaesarIV.exe""
+
+Got a dialog where I had to choose the CaesarIV.exe file instead but when I choose it I get:
+
+A required security module can not be activated.
+This program can not be executed (12004).
+
+Anyone got a solution to this problem?"
+,yang_damian,2006-09-29T20:16Z,Yes. You need to start the game from c4exec.exe not from caesariv.exe
+,Johnny Zero,2006-09-29T21:17Z,"im not sure about the full game but with the demo the old Curerom didn't work (fucking demos with copyright protection...).
+however, downloading the latest Curerom did it. it's version 2.0.3.3"
+,Failer,2006-09-29T21:34Z,"Using c4exec.exe solved one thing. However, now I get:
+""Please remove disc from current CD/DVD drive and insert the original ""Caesar IV"" disc
+in drive F:.""
+
+F: is my actuall DVD and the Caesar IV is mounted on H:. I tried to switch the device letters but that did not help. Any other suggestions for this problem?"
+,Sneltrekker,2006-09-29T22:21Z,"I use alcohol 1.9.5.4512 and Securom 2.0.3.3. Also tried with Securom Loader 1.2, pr0t.st0p, Securom Loader 7.96, and about every other securom disabler I could find. Also tried it with Daemon Tools. Neither option seems to work. I did use C4Exec.exe every time and still get the securom error that there's an emulator running."
+,Cornflower,2006-09-29T22:48Z,"""im not sure about the full game but with the demo the old Curerom didn't work (fucking demos with copyright protection...). 
+
+however, downloading the latest Curerom did it. it's version 2.0.3.3""
+
+Nope... Or, could you please tell me how you got it to work? I upgraded Deamon Tools, installed Curerom 2.0.3.3, still doesn't work."
+[V],harry_hemp,2006-09-29T22:54Z,cant find any cd key. Can anyone pls post?
+,redly,2006-09-29T23:14Z,"the cd keys are in the .nfo file. 
+
+However, like the above posters, after installing I cannot run the game. Keep getting Emulation Detector error. And yes, Im using securom 1.2 correctly....someone give us a bone here..."
+,redly,2006-09-29T23:52Z,"Seems a possible MS update might have screwed some of us over...found this while perusing for info:
+
+""Did some more digging KB917422 breaks Securom 7 Games which includes Ceaser IV Demo and FEAR amoung others.""
+
+which can be found at:
+
+http://forums.vugames.com/thread.jspa?threadID=29475&tstart=0
+
+For me, this update says that it is ""unremovable"". Sigh."
+,redly,2006-09-29T23:53Z,"And yes, I realize this isn't the demo, but I'm sure they'd use the same protection scheme."
+,BuK0,2006-09-30T00:24Z,i cant start it too .... i use the asr.exe with every exe in the ceaser's dir and no luck ... if i burn it to cd's and install it from there will it run ???
+,redly,2006-09-30T00:27Z,"No, i tried that too :)"
+,Sneltrekker,2006-09-30T01:00Z,"The update thing seems to talk about runtime errors. Not about Securom that somehow manages to squirm it's way through CureROM.
+
+I did remove the update in question, turned off auto-updating. Then rebooted, and I still get the error that it detects a CD emulator."
+,Takezo,2006-09-30T01:14Z,"Well i got it to work. I used the newest Daemon Tools and Curerom(the newest one) but i didn't patch the Exe file with it. Then i used securrom loader 1.2 used it on CaesarIV.exe and it worked.
+
+tried like hell with C4exec at first but it kept saying that i need to unload a disc or load a disc so i tried the orignal exe file just for kicks and it worked. was suprised like hell when the opening movie jsut started haha:D"
+,Takezo,2006-09-30T01:15Z,and BTW.. havn't updated anything
+,redly,2006-09-30T01:40Z,"Could you please explain in detail how you did it? I am also using Dameon tools, the latest CureRom, and Securom 1.2 but still get the Conflict error.
+
+What do you mean when you say you used Curerom but did not patch the .exe? I see only one option and that is to enter in an .exe or else you cannot create a profile. (Sorry never used Curerom before)"
+,redly,2006-09-30T02:31Z,"Well, Im going insane trying to get this to work.
+
+Since you haven't updated anything, I can only assume that one of the windows updates is messing things up here, as I'm doing everything you are, in every concievable combination and still no luck."
+,Geez48,2006-09-30T02:58Z,"Works fine with the Procyon loader that you can google if you don't have it already included with some other clone releases, or some people have had success with renaming the securom loader file !!"
+[V],harry_hemp,2006-09-30T03:01Z,"When i finaly got it to work, there is a graphic bug.  Videos anddd menus runs fine, but the actual game map(where is hold build my city) is just white. The menus for choosing different structures etc is working corectly. i can even build roadetc and when i do i see it on minimap, but the game map stays white.  Anyone got any ideas?  I use Gforce fx 5600.
+
+thx"
+,Baltimore Dank,2006-09-30T05:57Z,"tried securom, procyon, curerom, and i cant get it to work=("
+,redly,2006-09-30T06:11Z,"Okay i got it to work finally. I dont know exactly how, really, after the 3rd hour of trying different methods it finally worked. I think for one thing, you have to turn OFF all emulation on the deamon tools but have CD#1 mounted of course....and don't need Curerom....and use Securom Loader 1.2....should be good to go...
+
+Played first 3 missions....good stuff....but man, small first couple of maps."
+,Cornflower,2006-09-30T09:26Z,"Found this, but haven't tested yet:
+
+--------
+Had the same problem with SecuROM Loader. After googling around i found a solution. 
+1. If by starting the game you get an error message like 
+""emulation detected"", you should upgrade to the latest Daemon Tools 4. If the error message is something like ""please insert original disk in drive X"" then upgrading DT is not necessary.
+2. Download SR7.Stop, start it, push Hide then close it.
+3. Start the game using asr.exe as in the NFO.
+4. Don't forget to start SR7.Stop after the game, and unhide the virtual drive.
+The game is running just fine.
+
+You can find SR7.Stop here: http://www.cdmediaworld.com/hardware/cdrom/cd_utils_8.shtml
+
+-------------------"
+,Baltimore Dank,2006-09-30T10:35Z,"dude, that worked...but, the main reason why i was stumped was that i forgot to mount cd 1 up, i still had cd2 hidden=P so the wrong disc was actually the wrong disc^^ ty"
+,CommanderX123,2006-09-30T10:53Z,"Hmm i still can''t get it to work, 
+ive tried every method posted but still get this error: "" A required security module can not be activated.
+This program can not be executed (7000). ""
+
+anybody have any other ideas, or maybe just a crack i can put over it? ^^
+
+All ideas are welcome"
+,Sneltrekker,2006-09-30T11:00Z,Commander. The Security Module error is because you load Caesar IV .exe instead of C4Exec.exe
+,Sneltrekker,2006-09-30T11:08Z,And cornflower: the way you described works perfectly. Thanks so much mate. You win the internet.
+,CommanderX123,2006-09-30T11:20Z,"Sneltrekker: ive done the C4exec file numerous times with both securerom loader and prycon. Also used Curecom to see if that worked but no luck. any other ideas or possibly any idea what im doing wrong?
+
+thanks in advance"
+,Zade911,2006-09-30T12:22Z,"I've done all that you've said still, i get ''Conflict with Disc Emulator Software detected.''. I'm not sure i did it all right, but i think i did."
+,Zade911,2006-09-30T12:26Z,"I've done all that you've said still, i get ''Conflict with Disc Emulator Software detected.''. I'm not sure i did it all right, but i think i did.
+
+Tried some more times and then i got this.
+''A required security module can not be activated.
+This program can not be executed (5010).''"
+,Sarco,2006-09-30T12:48Z,"Wow this release has som issues... or, since a lot of you actually got it to work it might just be my computer thts f**ked up. After I have installed it the hole game just vanishes from my computer after like 20 seconds. I haven't even had time to try the securom loader... The folder, the shortcuts the whole installations just ceases to exist."
+,Freedomfighter13,2006-09-30T14:22Z,"Thanks Masseur!!!
+
+I faced similar problems as was posted, until 
+I followed Cornflower's guide, it worked.. thanks
+Here's what i did...u don't have to follow exactly if u know how
+1) Uninstall C4
+2) Mount with Daemon 4+
+3) Install
+4) Do not run/launch C4 yet!! (thats what i did)  but mount back CD1
+5) Run SR7.Stop, Hide then close
+6) Use SecuROM_loader v1.2 using asr.exe to launch ""C4Exec.exe""
+7) Have fun!!
+
+Hope it helps"
+,BuK0,2006-09-30T16:36Z,"i try this and still get 
+A required security module can not be activated.
+This program can not be executed (5010).
+
+ :(((((((((((((((((("
+,CommanderX123,2006-09-30T16:53Z,"Aaa its useless, im just gonna wait for them to bring out a crack or something....
+
+used freedomfighters guide 3 times now but still no results so ill wait.
+
+thanks for al the help"
+,Freedomfighter13,2006-09-30T17:00Z,"Commander, when uninstall C4, try to delete any reference of C4 in your registry b4 u re-install... that might help."
+,Zade911,2006-09-30T17:15Z,"I made it work, cheers all of you who tried to help. :)"
+,CommanderX123,2006-09-30T18:01Z,"ok ill give that a try, gonna get on it right now"
+,Forza77,2006-09-30T18:21Z,Not working ! i have been trying everything !!
+,Citizen-X,2006-09-30T20:46Z,"I finally got it to work as well. Had to upgrade to latest version of Daemon Tools. Loaded with procyon. Kept given a request to load the CD/DVD in drive.
+
+Always wanted it in my actual DVD drive, not the daemon drive. So, I just disabled my DVD drive temporarly. Works.
+
+The game was doing a number on my system though, system would make a ticking noise and video would pop. But that may be my box. "
+,bubuherodes,2006-09-30T22:22Z,"i Have the same problem as harry_hemp, ive instaled the game and the game is working, but when i start a misson, the building menus r all OK, but can't see anything on the left part of the screen, does any1 know why???
+thnx"
+,bubuherodes,2006-09-30T22:44Z,"OK then i instaled the new drivers of nvidia, nad started working ;)"
+,Forza77,2006-10-01T07:31Z,how did you get it to work??
+,Baltimore Dank,2006-10-01T12:44Z,"for more help, uninstall
+
+get newest daemon tools
+
+install game
+
+keep it mounted but  close daemon tools, so that its    still loaded as  a drive(gotta have the game onthe cd/dvd drive) cuz it has to read the drive, but sr7 hides the drive emulation
+
+run  sr7.stop.exe and hide thedrives
+
+run asr or procyon and use casesariv.exe(that hides the emulation to beat securom)
+
+remember to mount cd1 to play.
+
+alot of good info onthese comments, thank you everyone above"
+,JacquesSmoothie,2006-10-01T16:16Z,where do I find a cd-key for this game?:O
+,Rowena,2006-10-01T16:18Z,Cant open the NFO file can someone post the cd key please =)
+,krisha,2006-10-01T17:18Z,"ahhhrrrghhh I'm loosing my mind here, cant get it to work no matter what i try - a no cd crack please !"
+,JacquesSmoothie,2006-10-01T18:48Z,Could someone write the cd key for this game on this page?:S because I can't find it in the map..
+,magic12345,2006-10-01T19:15Z," 2. Burn or mount with Daemon tools.
+  3. Install the game. Use one of the following serials:
+
+     a9e9-aa2c-7140-f02a-d009
+     b9e9-aa2c-7140-f02b-d009
+     c9e9-aa2c-7140-f02c-d009
+     d9e9-aa2c-7140-f02d-d009
+     e9e9-aa2c-7140-f02e-d009 "
+,magic12345,2006-10-01T19:24Z, WEW6-LYJ6-CAZ4-XYG7-6255  i put wrong keys above sorry this 1 works
+,krisha,2006-10-01T19:29Z,so .. does the key that came in the NFO is the one making trouble?
+,cyborg51,2006-10-01T20:01Z,"Someone please CRACK this... Everybody has 20 different opinions on how to run it, and out of 20, sorry, but none work.
+
+SOMEONE PLEASE RELEASE A CRACK.  We'll all love you for it."
+,vish23,2006-10-01T22:17Z,"first of all masseur thanks a ton for the game!!!
+
+finally got the game working after like 10 hrs of haarowing on it...but now the game keeps on crashing...something abt the VPU hardware acceleration problem...any solutions to that..."
+,JacquesSmoothie,2006-10-01T23:52Z,where can I find the ASR.EXE file?:S:S
+,d@_StixX.com,2006-10-02T05:26Z,hi guyz!! i've a lill problem with that torrent. the first CD is in a .mdf format which requests a .mds description file. but it isn't included! how did you solve that? i've the latest version of d-tools..
+,NativeOne,2006-10-02T12:01Z,"I have tried the way described by Baltimore Dank but i still get this message ""A required security module can not be activated.
+This program can not be executed (5010)."" Can anyone help?"
+,Jovy,2006-10-02T13:11Z,Just rename .mdf in to .mds and load it with d-tools...
+,neodarksaver,2006-10-03T02:30Z,"http://thepiratebay.org/tor/3532880
+
+I just uploaded the crack above. No-CD."
+,josejr,2006-10-03T03:46Z,"I did everything and its still not working for me..
+
+when i'm runnig sr7stop and click in ""hide"" appears this mesage: nothing to ride.
+
+But i can see my virtual drive... what am i doing wrong?
+
+PS: DT 4.06 SR7stop v1.0
+PS2: sorry about the poor english"
+,dxreaper,2006-10-03T06:36Z,"Guys, all I did was had the latest Daemon Tools mounting first disc + emulation options and disabling my physical Optical Drive (DVD-ROM). You can do this by:
+First right clicking ""My Computer""
+""Properties""
+""Hardware""
+""Device Manager""
+
+Right click your Optical Drive and disable it.
+
+The game's running now and I don't have to use the original disc I purchased to run it."
+,Baltimore Dank,2006-10-03T11:40Z,"dont forget to close yur s7.stop thing after you hide, caesar will detect it and say security module^^....also the i'm using this technique with the patch too....the thread rocks....once again
+
+1. install game
+2. close yur daemon tools, but leave the game on the cd drive
+3. run sr7.stop and hide, THEN CLOSE IT
+4. run asr or procyon on caesariv.exe"
+,josejr,2006-10-03T12:45Z,i did all this and still not working. 
+,Baltimore Dank,2006-10-03T14:06Z,"well, yur doing something wrong then^^, make sure daemon tools is off(the new version 4 one) also uninstall any old versions of daemon tools...make sure you dont have alchohol on or something, just back track and problem solve, if i was able to follow all this knowledge, you should too, once you get it, yur like, ""oh"""
+,cyborg51,2006-10-03T19:47Z,"He's not doing anything wrong.  He's not the only one it doesn't work for.  There's an army of us that can't get it working, and you can't say none of us can follow simple directions.
+
+It seems that it works for some and doesn't work for most, which is why a NO CD CRACK would be a wonderful idea."
+,Zetoss,2006-10-04T02:26Z,"Just another confirmation; This game honestly isn't possible to start on some computers, I'm sure many like me have spent literally hours trying their very best with any software they could get their hands on, but in many cases it obviously doesn't work. Now I'm gonna go marinate a sob and then go to bed and hope to wake up to a beautiful new day with a flaming hot new crack for the game I've been dreaming about for years."
+,Vice Admiral Jack Sparrow,2006-10-04T13:40Z,"Baltimore Dank wrote: ""well, yur doing something wrong then^^,""
+
+Well, actually, Balty, your instructions are wrong.  SecuROM_loader should be pointed at c4exec.exe NOT CaesarIV.exe to get this working.
+
+I cannot help peeps who are having trouble running the game due to their PC's being too low spec, as mine too is inadequate.  It looks like this game really does need an up to date graphics card, and many of the problems described above are clearly down to hardware/driver issues.
+
+However, after much agonising, I finally got this installed and here's how I did it:
+
+Download the latest Daemontools
+http://www.daemon-tools.cc/dtcc/download.php?mode=ViewCategory&catid=5
+
+Securom_loader 
+http://www.daemon-tools.cc/dtcc/download.php?mode=ViewCategory&catid=2
+
+and PrOt.StOp
+http://cdmediaworld.com/hardware/cdrom/cd_utils_8.shtml#Pr0t.St0p
+
+INSTALLATION
+
+1. Unpack and install CaesarIV using one of the serials in the .nfo file
+2. Delete the 'Play Caesar IV!' shortcut from your desktop (it will never work anyway)
+3. Unpack SecuROM_loader to the game directory
+4. Rename the SecuROM_loader exe (asr.exe) to something else - suggestion: srmldr12.exe
+5. Create a shortcut to the renamed SecuROM_loader, by dragging the renamed exe to your desktop 
+6. Right-click on the shortcut, select Properties and in the Target box, add this at the end:
+ -r c4exec.exe
+(Do NOT point to the game exe CaesarIV.exe at this stage)
+So it should read something like: ""C:\Program Files\Caesar IV\srmldr12.exe"" -r c4exec.exe
+7.  While in the shortcut Properties, you may also want to click 'Change Icon...' and then browse for the game exe (CaesarIV.exe) to give your new shortcut the appropriate icon, and click the General tab and rename the shortcut to 'Play Caesar IV!'  or whatever you like
+8. Install PrOt.StOp anywhere
+
+PLAYING THE GAME
+
+1. Mount CaesarIV disc 1 image (ccd-cr4a.mds) using Daemontools and click 'Exit' if/when the autorun starts the CaesarIV install/play menu
+2. Shut down Daemontools (leaving the disk image mounted)
+3. Use Pr0t.St0p v1.0 (or similar) to hide all emulated drives... 
+4. Uou *may* also have to disable any real optical drives you have - right click and select properties in Explorer, or do it via Control Panel > System > Device Manager.  They can be reenabled from Device Manager without having to reboot.
+5. Check your running services to see that Alcohol's Starwind service isn't running
+6. Run the shortcut and enjoy!
+
+"
+,lacabarat,2006-10-04T19:12Z,"HI Vice Admiral Jack Sparrow !
+in the same way doing you have write, and the link strating 
+""""C:\Program Files\Sierra\Caesar IV\srmldr12.exe"" -r c4exec.exe""
+ and I am reading on new window: ""no cd or dvd drive""!!  
+?????"
+,cyborg51,2006-10-04T22:27Z,"Vice Admiral Jack Sparrow,
+
+I followed your instruction, and same result...
+
+""A required security module can not be activated.
+This program can not be executed (5007).""
+
+I did uninstall the game completely (too many times to mention), and did make sure each and every time that the registry entry for sierra/caesar is removed.
+
+I'm not running (do not even have Alcohol120% installed).  I followed all directions (yours and others' too) all with the same result. "
+,Karstoft,2006-10-04T23:00Z,"Okay guys, I've got it!
+
+Do exactly as Vice Admiral Jack Sparrow says first. 
+Then in stead of using the ""asr.exe"" file (secuROM_loader 1.2) you need the new version (Securom 7.26). The name of the .exe is here ""procyon.exe"" 
+This version works with the ""CaesarIV.exe"" and NOT the ""c4exec.exe"". 
+I also renamed the ""procyon.exe"" to a random name. In my case I called it ""nuri"". So the desktop shortcut in this case should be like this ""C:\Program Files\Caesar IV\nuri.exe"" -r CaesarIV.exe
+
+
+My problem with Vice Admiral Jack Sparrow's instructions was, that when loading the ""c4exec.exe"" with securom 1.2 NOTHING happened. So in short, what did I do different?
+1. I used Securom 7.26 instead of Securom 1.2
+2. I loaded ""CaesarIV.exe"" in stead of ""c4exec.exe"" So if nothing else works for you, this is the solution.  Please give feedback!"
+,cyborg51,2006-10-05T00:59Z,"Karstoft,
+
+Tried it your way too - same result."
+,D@NNY,2006-10-05T01:06Z,I'v tried it both ways. Both don't work. I guess this is why everyone was downloading the other C IV torrent and not this one . Anyway maybe a no dvd patch will be released or these people that claim to have got it to work be more specific i'v done exactly as kara and sparrow.
+,Vice Admiral Jack Sparrow,2006-10-05T01:59Z,"I'm sorry to see peeps still can't get it working, even though *they say* they've followed my instructions.  I confess I'm no cracking guru, I just hadn't seen anyone post full instructions before, and after I'd read all the threads about this release on every website in the world and tried everything everyone had ever suggested and finally got it working, I thought I'd report back how it worked for me as specifically as I thought possible. :-)
+
+I humbly suggest that those with no disk messages haven't mounted the image properly and those who are still seeing messages like: ""This program can not be executed (5007)"" have not succesfully hidden ALL their disk emulators.  I got that very message when I had anti-blaxx running, but shutting down anti-blaxx it changed number to (12004).
+
+As I understand it Securom 7.26 and Securom_loader 1.2 are different apps and work in slightly different ways."
+,shutmeup,2006-10-05T03:14Z,"Ok people, as frustrating as this game is, it DOES WORK! After mounting the image with daemon, run the securom v7.26 and make sure to use the game file from your programs directory and use the CaesarIV one. It works fine for me, also I think you need a fairly up to date video card. Here's where I learned this from, comment 27 http://www.rlslog.net/first-clone-of-caesar-4-released/"
+,cyborg51,2006-10-05T03:37Z,"Vice Admiral Jack Sparrow:
+
+You said something nobody else did before... ""anti-blax"" - Great catch.  I had anti-blax running, which was causing for the constant error - as soon as I turned anti-blax off, the game started."
+,cyborg51,2006-10-05T03:52Z,"Great!
+
+I ran the game twice... Then the game crashed saying there was something wrong with the save directory... now it won't start again.
+
+Runtime Error!
+
+Program: C:\Program Files\Sierra\Caesar IV\CaesarIV.exe
+
+This application has requested the Runtime to terminate it in an unusual way.  Please contact the application's support team for more information.
+
+
+Folks!  This game is like cancer... it mutates!  Hahaha.. took hours to get it working, and then it worked twice only to get me in front of yet another type of error.  With the time invested trying to run this game, one could probablly write a book, or even build a whole game from scratch.   All I've got to say is... 
+
+WHERE IS THE CRACK?"
+,megamorten2k,2006-10-05T16:59Z,"Ok... I think I've read everything I need to 
+
+make this game work, but I can't seem to find 
+
+somewhere to download Securom 7.26. If 
+
+anyone could tell me where to download 
+
+Securom 7.26 I would be most grateful.
+
+Over and out!"
+,zosma,2006-10-05T17:50Z,"Karstoft
+
+This worked fine for me. The first way I didn't get to work."
+,zosma,2006-10-05T17:51Z,"megamorten2k 
+
+I found it att GameCopyWorld."
+,Zetoss,2006-10-05T19:42Z,"Anybody feel like making a site with rankings for cracks, like if a group cracks a game first, they get an award and great reputation? :) How that would be related to this game? A few thousand ppl desperately want a working foolproof damn crack and such a site would show how much we appreciate the groups that crack things and maybe it could help their motivation... :/ wonder if they know how much we really love them"
+,cyborg51,2006-10-05T19:51Z,"Zetoss,
+
+Good idea, however I'm in the U.S. and would have the FBI breathing on my neck in no time - see the case of isonews.com."
+,Zetoss,2006-10-06T09:51Z,"Maybe it could be done in Sweden, the home of Pirate Bay... There's a few interesting laws over here that could make such a site perfectly legal, but I think asking a lawyer would be a good idea, just to be sure of how to dodge the police :P Anyone know any cheap .swe web hotel that doesn't care too much about the contents on their users sites?"
+,3ndy,2006-10-06T12:02Z,"Hi I have had a lot of problems getting this image to worke. But I finaly found a way, its not pretty nifty or some super leet way. its just pure presistens. I had read a lot of post about this problem all over the net. And I finaly came to the conclusion that I did every thing right and there was literaly nothing left for me to try. So here come my advice ""If at first you don't succede, try try again"" I know you might think it wont work and im not sure it will for every one, but for me and on this computer it did, if I just keep on trying like 20 or 30 times in a row, it let me in.
+Btw her is my setup:
+1. Install the game.
+2. Use the Latest Version of Daemon Tool's
+3. Mount the Image you Installed the game with for me it's ""D:\Spil\Caesar IV\CD1\ccd-cr4a.mds"" but i guss you can use the mini Image as well.
+4. run using Procyon.exe(SecuROM_Loader_v7.26). I use the shortcut on the desktop with a modifide strin so it looks like this """"E:\Games\Sierra\Caesar IV\had.exe"" -r CaesarIV.exe"". it just makes it easier if you have to try it like 30 times!!!
+5. Just keep on hitting that button boy.
+I was borred and there was Hollowman in the tv that was why I tried this approch ;)
+I hope this can help some one. but I guss you have to be pretty desperate to try this...
+Btw this ""works"" with version 1.1 as well"
+,SpaceZvi,2006-10-06T17:48Z,"Got this problem:
+The game worked. Installed it, used daemon tools with emulation options and securom loader 7.26.
+Worked just fine!!! UNTIL I tried to start the game the next day and then - ""Insert the original CD and not backup""... any clues?"
+,Segersten,2006-10-06T22:22Z,"It works just fine Vice Admiral Jack Sparrow ... 
+It takes 10-15 min if you guys do like Vice says .
+You do gona need all tree programs "
+,mrgreenfur,2006-10-06T22:24Z,"jack sparrow's comments worked great for me. I used dtools and securom 7.26, just like he said."
+,hitmizzle,2006-10-07T04:51Z,"the directions posted using sr7.stop program works great. if you are following those directions make sure you use daemon with all options unchecked. then run the sr7.stop program and COMPLETELY CLOSE Daemon (rightclick close) as well as the stop program before using the ASR program to open the game, works 100% of the time even with the patch."
+,D@NNY,2006-10-08T01:02Z,"Here's what I did ran daemon tools all emulation options -OFF.
+Mounted the .mds file
+Exited out of daemon tools
+Copyed sr7 and protstop both info my C4 folder and ran them and hide the emulation drives.
+Then I clicked the asr.exe program renamed srmldr12 a few times and kept getting  Security module cannot be activated like I'm missing some security files or something. I followed Sparrows and hitmizzles directions what steps am I missing hitmizzle and sparrow?"
+,The_Precious,2006-10-08T03:18Z,"Where can i find securom loader 7.26. From where can i download it, can somebody plz tell me."
+,The_Precious,2006-10-08T03:27Z,"I've done exactly what Vice Admiral Jack Sparrow said and i couldn't run the game because whenever i click on the shortcut, i keep getting the message: 
+Conflict with Disc Emulator Software detected. See http://www.securom.com/emulation_detected for more details. 
+
+So i wanna try Karstoft's method by using Securom 7.26 in stead of Securom 1.2 but i' m looking for Securom 7.26 to download it but i can't find it. 
+
+So can anybody plz tell me where i can find Securom 7.26."
+,The_Precious,2006-10-08T14:23Z,Btw i tried Gamecopyworld as zosma suggested and it lead me to a different site where it's not for free. So if anybody knows another way to get Securom 7.26 please let me know.
+,D@NNY,2006-10-08T20:37Z,Its there at gamecopy world but using securom 1.27 or 7.6 your still going to get the same results.
+,tiivi,2006-10-09T22:02Z,"This may sound stupid, but:
+What files i should have? I get CD1, CD2 and info file. In cd file's there's rar-packed files and after unpacking those are mdf, mds and bin files.
+
+So how can i install this game?"
+,oboelcke,2006-10-10T00:04Z,"TY for the torrent. Mounted in Daemon ripped to ISOs, burned to disk, installed then applied game copy crack after patching. 
+works flawlessly."
+,D@NNY,2006-10-10T18:56Z,what's the gamecopy crack a cracked .exe? Also how do you burn image with daemon does that mean mount it? You didn't need daemon or securom to run after installing it and applying the patch?
+,D@NNY,2006-10-10T18:57Z,how did you patch from version 1.0 to 1.1 to apply the crack?
+,oboelcke,2006-10-10T19:45Z,Mount disks with daemon tools. Convert the virtual disks to ISOs. I used NTI CD/DVD copy but you can use anything. Burned the ISOs to CDs. Used the Cds to install the game. Applied the official patch to ver.1.1. Applied the craked exe found at www.gamecopyworld.com
+,_Lightfoot_,2006-10-11T19:41Z,thank you all for taking your time helping... some of us idiots including myself really appreciate your support....
+,neodarksaver,2006-10-13T04:52Z,"http://thepiratebay.org/tor/3537970/Ceasar_IV_no-cd_patch_(working)
+
+New working crack!"
+,mhammett,2006-10-25T04:52Z,"I am using the latest Daemon tools with SecureROM 1.2 and the asr application referencing the c4exec.exe file.  I do not get any error windows.  Whenever I try to run the game, the mouse pointer turns to the arrow\hourglass for a second or two, then goes back to the arrow without running the game.  Any ideas?  I'd rather not buy the game again after I scratch the disk because its used."
+,Zaphod9901,2006-10-26T18:46Z,"Well, been following these instructions *to the letter* for hours now. No offence to Jack Sparrow and others, but what worked on your machine doesn't necessarily work on ours.
+
+I have so far downloaded and used:
+
+Daemon Tools 4.06
+SR 1.2
+Securom 7.26 aka procyon.exe
+SR 7Stop
+AlkiSecuROM
+
+I uninstalled and scoured the registry repeatedly, changed file names when suggested, unchecked DT options, hid emulators, unpacked into the CIV directory, closed Stop and DT when in use, made sure I had disc one mounted, made shortcuts, added batch files then tried without batch files.. NO SUCCESS, people. All I did was shift the module error message code around (the latest being 5007).
+
+I have work tomorrow morning and am going to sleep. I've downloaded the latest crack, also, and it doesn't seem to help. I am out of ideas. Anyone have any new ones, I'm all ears."
+,Zaphod9901,2006-10-26T18:54Z,"OK, un-f**king-believable. When that title screen starts up, it's pure joy.
+
+That new crack works.
+
+I have no idea if all the other protocols were necessary, but I wasn't taking any chances and so used DT and procyon in the recommended way, too. Man oh man. Long night."
+,tubarao21,2006-11-02T00:43Z,"So, like a big majority of us, it was hard for me to put it to work. I was having the error:
+
+""A required security module can not be activated.
+This program can not be executed (5007)."" 
+
+But i got it!
+
+Worked with me. I hope it works for you.
+
+I uninstalled Caesar IV, and Alcohol 120%. I was working with Alcohol, it could work, but as i have seen in great part of this comments, i changed to Daemon Tools.
+
+After uninstall this, i used Registry Mechanic hoping to clean values of Caesar IV from my Registry.
+
+From here, i installed Daemon Tools 4.06 ( http://www.free-downloads.net/downloads/Daemon_Tools/ ). Then, i mounted the image with Daemon and installed the game. In this process, you have to mount CD2 image (of course).
+IMPORTANT: after installing, don't forget to mount the CD1 image again.
+
+Then, i used Securom Loader 7.26 Procyon ( http://ww2.cdmediaworld.com/hardware/cdrom/cd_utils_8.shtml  ). 
+I put Procyon.exe in the Caesar IV directory ( C:\Program Files\Sierra\Caesar IV\ ), and then double click it. Now specify the game executable (CaesarIV.exe).
+
+Now, it should work.
+
+NOTE: Don't forget to shut down Anti Blaxx, shut it in Task Manager to be sure :)
+
+Hope it works."
+,Juhnny,2006-11-25T15:32Z,"Thanx for the upload, but I need a serialnumber to make it work."
+,straightjacketguy,2006-12-01T17:32Z,"This is the message i get after installing the game
+
+1.The CAESARIV.EXE file is linked to missing export KERNEL32.DLL:GetFileSizeEx
+
+2. Application has generated an exception that could not be handled
+Process ID=0xf849ab61 (-129389727), Thread Id=0xf849ce7d (-129380739)
+
+Click OK to terminate application
+CLick CANCEL to debug application
+
+3. No registered JIT debugger was specified
+Click on Retry to have the process wait while attaching a debugger manually
+Click on cancel to abort the JIT debug request
+
+
+I really need help in this guys."
+,Wanhunglo,2006-12-14T06:55Z,"Lol, hi guys, I'm not gonna beat around the bush, I'm a newb.. I would really like to play this game, but its been years since I have used any of the tools mentioned in this torrent info... I down loaded a Caesar torrent, all I see is 2 folders, CD1-CD2 and an info file..? I have no idea what to do with them, I have Daemon Tools and Winrar.. can somebody help me out.. I'm a great seeder, and I can ad to the casue!
+
+-mIx"
+,nightspydk,2007-01-24T06:05Z,"@Wanhunglo/Weiss88
+
+- Install winrar.
+- Extract CD1 and CD2 by rightclicking the ccd-cr4a.rar and ccd-cr4b.rar respectively.
+- Install Daemon tools.
+- Install game by mounting CD1 with Daemon. ALT-TAB to mount CD2 when prompted.
+- Get securom loader here http://www.daemon-tools.cc/dtcc/download.php?mode=ViewCategory&catid=2 
+- Run the securon loader (asr.exe?) and point the way to the game .exe on harddisk in the game installation dir.
+- enjoy. :)"
+,Nanitta,2007-02-11T07:21Z,D: Er. Kind of need more seeders. ^^; I'll even seed- I'm 16 megabytes away from finishing. =o
+,nyer,2007-03-10T22:26Z,"I downloaded this torrent, unrared, mounted on daemon manager version 4, patched the game to V1.1 copied the crack, tried using securomV1.2 and Securomn loader 7 but its the same thing. everything is fine till i try to play the game. Then the game starts( atleast I can hear the music and everything) but I only get a white screen. When i press ESC my cursor turns to a hand and then thats it I cant move the mous4e and the screen's just a big blank white thing but the background music is runing. Anybody able to help me?? Greatly appreciate your help guys"
+,ca_bufi,2007-07-16T16:42Z,"I have a problem: The game starts and I can hear all the sounds (music and intro voice) but I can`t see anything, Its all black. I only see the hand-cursor and I can move it. Any1 knows the answer???? THANX"
+,kremenko,2007-08-05T20:41Z,"Hello... I am so new to all this. I yust simply wanted to play dam game... How did it get so complicated? Wasted so much time, and I still have no idea will it finnaly work. Somebody, pls, yust kill me!"
+,tyro2010,2007-08-19T23:52Z,ive tryed everything>.
+,tyro2010,2007-08-19T23:54Z,ive tryed everything i got the game to work n all but the game lags.....horribly...i can play but it wont stop lagging......and i kno for a fact my pc can run it??? help pls!!!
+,Okiza,2007-11-22T13:55Z,"As many others i can make this work.
+I have deamon tools and WINrar 
+help me^^"
+,Adi_din_Oradea,2007-11-28T14:48Z,"Does anyone have a 4 minute fix? I've invested so much time at this point, if it can't be fixed in 4 minutes it I'm losing money and would be better off spending the $19 to buy the game. 
+
+I get an all white screen that plays music over and over and over. That's it. No error messages no nothing. Just a white screen with music and the little hand-pointer."
+,GroggyMan,2008-03-13T21:01Z,Somebody seed!!plz
+,jayman2008,2008-06-06T04:37Z,"I D/L'd Caesar 4 from one of these guys, don't recall who. Prob I have now is when I launch the game I get ""C4Exec has encountered a problem and needs to close. Sorry.. blah blah."" Any ideas? During install I got some dotnet install errors, but I got them attempting the demo version from Sierra's site. They refused to help me cuz they ""don't support demo's.""
+Also, I s'pect I need the patch, but Caesar's site seems to no longer load for Firefox nor IE. Patch wasn't included in my d/l version."
+,DreadN,2009-01-01T00:29Z,PLEASE seed! i beg you! SEED! SEEEEEED!
+,DreadN,2009-01-01T00:58Z,SEED YOU GREEDY BASTARTS!!!!!!!
+,DreadN,2009-01-01T00:58Z,*BASTARDS
+,VitaminTHC,2009-03-29T00:22Z,i had that same problem with the actual disk itself when i purchased it i couldnt get anything besides a white screen

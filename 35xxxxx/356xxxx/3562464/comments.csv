@@ -1,0 +1,128 @@
+﻿User Type,Username,Date,Text
+,vankis,2006-11-22T20:25Z,"Everything installs fine but when I launch Maya it gives me this error.
+
+fatal error. attempting to save in C:\DOCUM... etc.
+
+I've tried pretty much every single release of Maya Unl 8 and followed all instructions and tips exactly but still get that error.
+Anyone know how to fix it?"
+,woodensnot,2006-11-23T04:52Z,"yur fucking comp sux balls.......now that I got a better comp, I've been getting all the modeling shit programs.........SAVE MONEY, AND GET A FUCKING      NEW COMP.....that helped ME..........................seriously............ "
+,vankis,2006-11-23T13:15Z,It's kinda hard to take anything you say seriously...
+,Barx,2006-11-26T03:42Z,"Alright. Here is the definitive way to get Maya 8 working.
+
+1) Find the torrent called ""Autodesk Maya 8.0"" It's size is 3.34GB. In the torrent are 3 files.
+
+ a) Autodesk Maya 8.0 UNLIMITED CD1
+ b) Autodesk Maya 8.0 UNLIMITED CD2
+ c) Maya Training DVD
+
+The checksum for the install disks are:
+
+CD1 = c6c30873a20cf8ba17e5bb0146fc6c8a
+CD2 = c5f8ea099b2e903425e299524d7cd59c
+
+2) Find a torrent for Maya 7.0.1. There is one called ""Alias Maya Unlimited 7.0.1"" with a size of 322MB. Download this and extract the ""Crack"" folder from the RAR file.
+
+RAR file = 913a88b01d2a1d035e0127b1cb71aadf
+
+2) Mount the disks and install as normal.
+
+3) Make a folder in your home drive called ""FlexLM"" and place the contents of the ""Crack"" directory in it.
+
+4) Run ""FlexLM License Utilities"" and find your Ethernet Address.
+
+5) Open the file ""aw.dat"" with Wordpad and change ""your_host"" to whatever your Ethernet Address is without the quotes. Then change 7.000 to 8.000. Save.
+
+6) Drag and drop the aw.dat on the awkeygen file.
+
+7) Run Maya."
+,vankis,2006-11-27T02:53Z,"@Barx: Your procedure is the same as I used before only you use an older keygen. But I decided to download Maya again and give it one more try, but I still got same error. I did some more searching and found out that this has been a common error message since atleast Maya 4 for ATI users. So I made some trial and error with the ATI driver settings and eventually found that it was the ATI Catalyst A.I. that was the problem, turning it off solved everything. So thanks for making me try it one last time. :)"
+,Barx,2006-11-28T09:35Z,@vankis: Awesome. Glad you got it going.
+,Cargonnas,2006-11-29T14:11Z,"Hey, Have any of you guys experienced a license-loop.. eventhough I have gotten a "" Installation Complete "" it still ask for license again.
+I have no idea what to do:
+I followed the instructions to the best of my knowlegde but it still asks for the Damn License again and again.
+
+I did the following:
+1: made the "" flexlm "" folder and copied everything from the ""crack "" folder into it.
+
+2:Pasted my "" Ethernet Address "" into the aw.dat file
+
+3: Ran the "" keygen "" inside the "" flexlm "" ( this is the part I was abit unsure of what to do )
+
+4: Ran the Install license and pointed at the aw.dat in the "" flexlm "" ( The license said = Instalation complete = )
+
+Rebooted and ran Maya... now It keeps asking for the damn license.
+
+Please Help :)"
+,Cargonnas,2006-11-29T14:15Z,"God dammit... Im a retard.... forgot to drag the aw.dat into the keygen.exe.... lol
+
+well, anyways thanks for the torrent "" thumbs up """
+,Barx,2006-12-03T02:52Z,Good that you got it going.
+,crackenup,2006-12-04T02:56Z,"Can someone help? I am kind of new. When I down loaded this torrent, I don't get a zip folder icon, and it doesn't appear to be zipped at all? What did I do wrong?"
+,tedsandyman,2006-12-06T05:05Z,"Hey, I could use some help. I do everything the instructions say, but when I run aw.dat inside awkeygen.exe the resulting aw.dat says ""Invalid license file syntax"" and the validation doesn't work.
+
+When I replaced the ethernet address I noticed the aw.dat is strangely formatted (with block characters as if it doesnt understand the language). I'm guessing this might have something to do with it."
+,happyhourj2,2006-12-10T18:52Z,Is the keygen supposed to do something when I drag the .dat file in it?
+,Straiter,2006-12-25T19:28Z,"I also get the ""fatal error. attempting to save in C:\DOCUM..."" message."
+,jonasei,2007-01-08T23:27Z,"j0, ive done everything thats writting in the list but still it ask for lisence. But i think i knowthe answer, is it very important that the FlexLM is copied into C:\ ? Cus when i installed a Multidisc station took every letter from A: to G: and that included C.\ ofc. My HD (my only one) ended at H:\. 
+
+And when i install the lisence file, it says ""create folder C:\FlexLM"" and ofc it cant create that folder since there isnt any HD at C:, so then i need to find another folder with another .dat file, i guess it can be any .dat file since i made one myself and it accepted it and the installation where completed. Still it ask for lisence.
+
+Can anyone confirm of disconfirm this info, and help me to get this installed plx :>
+
+ty "
+,wow master,2007-02-01T17:25Z,"i cant find the torrent ""Autodesk Maya 8.0"" where is it?"
+,MPI999,2007-04-19T15:31Z,Does this badass work on 64bit systems?
+,vinc3nt1n0,2007-11-23T06:25Z,"I follow step by step the cracking guide but it doesn't work!
+
+My ethernet address is ""ffffffff""...Is this the problem?
+
+I try to use all the crack and aw.dat file but still results [no appropriate licenses installed on this computer]
+
+someone can help me? I'm trying by myself but there's no way out!
+
+pliiiiiiiiiz!! 
+vinc3nt1n0 at 2007-11-20 00:25 CET: 
+
+thi is my aw.dat file:
+
+FEATURE MayaUnltd sgiawd 2008 permanent uncounted 64F19F4EE603 \
+HOSTID=ffffffff
+
+------------
+
+and thi is what maya says if I past my license file:
+License Installation Report
+
+Installing from license file (text).
+Input license contains 1 license(s) matching this computer.
+
+License #1
+
+Attempting Installation to license file: C:/FLEXlm/aw.dat
+Destination file C:/FLEXlm/aw.dat contains errors and/or warnings. Please see below for detailed information.
+
+Successful Operations:
+Added feature line: FEATURE MayaUnltd sgiawd 2008 permanent uncounted 64F19F4EE603 HOSTID=ffffffff
+
+
+Warnings:
+Feature MayaUnltd on line 2 has a sign value 0 of invalid length. FLEXlm may not recognize this feature. Source: C:/FLEXlm/aw.dat
+
+
+Errors:
+Feature MayaUnltd on line 1 of source file (text) was compared with feature MayaUnltd on line 1 of destination file C:/FLEXlm/aw.dat. Both features are equivalent.
+Feature MayaUnltd on line 1 of source file (text) was compared with feature MayaUnltd on line 3 of destination file C:/FLEXlm/aw.dat. Both features are equivalent.
+
+
+End of license installation report.
+"
+,FlarePhoenix,2008-11-20T08:32Z,"19 comments, 1 seeder?
+C'mon ! :P"
+,DaMux,2009-12-27T19:52Z,"My only problem is windows installer.
+It says that Windows Installer is installed wrong 
+-.-
+I have no idea of what to do.
+I'm just looking for a modeling program that can be used in valve games.
+If anyone have any idea of a good link with a not SO big torrent or another program, then please write to Maxomiko@yahoo.se
+
+Thank you!"

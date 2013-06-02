@@ -1,0 +1,39 @@
+What's New in Version 3.1 
+
+GUI 
+New: Progress bar has been moved under the tree and can be activated individually 
+New: Shortcuts have been moved under the list and can be activated individually 
+New: Browser buttons labeled with icons 
+New: Better visibility of sorted colum in playlist 
+
+USABILITY 
+New: Loop lenghts, beatjumps and knob sensitivities recalled after restart 
+New: Shows selected track in Mac Finder / Windows Explorer 
+New: Shows playlists (NML) and mixfiles (NMX) in TRAKTOR Explorer 
+New: Autoplay proceeds in listed sequence 
+New: Undo function for sorting and for removal of tracks from playlists 
+New: Recalls Master Tempo after restart 
+New: Starts and pauses preview of selected track with a single command 
+New: Draging playlists on occupied shortcut slots replaces shortcut 
+New: Shift dragging playlists on occupuied shortcut slots appends their content 
+New: Shift+Up/Dn now works for group selection in playlists 
+New: Shows latest playlist as first 
+New: BPM search range narrowed to +/- 2.5 BPM 
+New: The "Renumber" button has been replaced by a "Lock" function in the context menu of each playlist. Locked playlists do not recall changes made to them during a Traktor session. Permanent changes to playlists have to be applied in unlocked mode. Sorting by the numbered column (#) restores the original sequence of the playlist. All old playlists are initially locked by default. 
+NEW: Save option in context menu of playlists 
+NEW: Controlling Phase Sync via mouse scroll wheel 
+
+INFO 
+New: AAC (.m4a) metadata now fully supported (writes Traktor metadata into .m4a files) 
+New: Determines total track time during import 
+New: Shows number of tracks, total time and total size of selected playlist 
+
+BUGFIXES 
+Fixed: Shifting beatgrids of AAC encoded files 
+Fixed: Untight mix recording when usind AAC encoded files 
+Fixed: Autoselection of stored loops and loop jump 
+Fixed: Missing backup folder on Mac 
+Fixed: Explorer does not sort playlists alphabetically 
+Fixed: Wrong estimation of variable bitrates 
+Fixed: Fade-In/Out markers do not work in autoplay 
+Fixed: Track history in mixed playlists not correctly displayed

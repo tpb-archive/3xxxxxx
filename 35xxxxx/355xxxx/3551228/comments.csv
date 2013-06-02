@@ -1,0 +1,11 @@
+﻿User Type,Username,Date,Text
+,meanhoe,2007-11-14T10:30Z,can someone reseed plz?
+,Paktor,2008-05-12T21:20Z,"This torrent includes both the free Mmm and the updated Mmm+. This seems to work, but there are a couple of buts in there:
+
+1) This program stays resident i.e. it introduces a new process, namely mmm.exe, that takes around 1200K of system resources.
+
+2) After a while, an hour or so, the process tries to connect to the Internet. netstat and my firewall show at least two TCP connections attempts. These attempts are targeted to 66.225.192.3 and 64.177.143.172 that both map to http://hace-software.com/, the program manufactures home page. When the connection is blocked by firewall, the process suddenly takes around 5500K of system resources. At that burden stays there until the process is killed!
+
+POTENTIAL SPYWARE - DO NOT INSTALL."
+,nncg,2008-10-28T12:20Z,"Damn, looks like the seeders gave up on this."
+,skulldragon,2012-02-20T02:47Z,"This is abandoned, because this tool is not worth it anyway.."

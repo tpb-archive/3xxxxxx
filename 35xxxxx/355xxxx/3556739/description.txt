@@ -1,0 +1,20 @@
+"BluePrint Presents"
+
+The Scoop:
+
+The same day the XBOX360 HD-DVDROM Addon was released to the public in USA, we at blueprint figured out how to use it in windows, now as of this moment, officially, the movie that came with the hardware "King Kong" is currently a Dual Layer (30GB) disc so it would appear the studios are aiming for that size minimally for the majority of movies to start off with at least, this of course mean's you will not be directly copying any hd-dvd's as of yet. However, the most important thing is were now able to read the UDF (Universal Disc Filesystem) v2.5 which is currently used by the Toshiba Corp with there first generation HD-DVDRom drives. You can see the entire contents of the HD-DVD Media when in the drive. You can see the Label of the movie title next to the drive letter, you can copy the entire contents of the disc to your hdd, we have thus far only tested this in windows explorer, were anxious to hear about how folks take things from here, better methods of ripping the movies will come in the future, were also looking at the drives since there toshiba/samsung to possibly rip games in the future, of course thats not something were personally working on, but were pretty damn sure it will be possible. in any event, onto the direction's for installation/recongizing your drives contents in windows xp sp2.
+
+
+The Install:
+
+Right click on "thdudf.inf" and choose Install from the list of menu options. once this is complete, you should reboot your machine for a full installation of the new UDF 2.5 File system recognition. From here your drive should no longer just say CD-ROM when examining it in windows.
+
+** Notes **
+
+Again, these are litterally Toshiba Corp drivers for the file system used with HD-DVD. We did not create these drivers ourselves, so we cannot modify them, however there availability is limited to specific machines which were familiar with from our places of business, and we will continue to get the latest updates of these drivers and make them available to you as they're released to us.
+
+If you would like to contact us about possibily contributing to the cause you can find us at pilgram@gmail.com please label the subject matter very specificly or your email will likely be over looked or even disreguarded due to the volume of questions we will recieve. we do not offer you any files via email. and you are on your own as far as getting these movies are concerned. Good luck to all of you who will take it from here and write some nice applications to use these methods more efficiently we anxiously await your mail.
+
+This would be possible with our Mosb3rg and Watchy thanks very much guys your speed on cracking this was pretty amazing and also thanks for spending the money upfront so everyone else could enjoy there addon much more than if they just purchased before hand without this information.
+
+www.chipit.se

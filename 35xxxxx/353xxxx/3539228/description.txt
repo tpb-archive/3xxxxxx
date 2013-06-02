@@ -1,0 +1,15 @@
+XBMC 2.0 10-13-2006 FahxBahx
+
+Well, here we go again. Here's this week's FahxBahx release for your viewing and listening pleasure. As usual, I've included a ton of scripts and Team Blackbolt's MC360 Skin. Also included is Manturafs' Livemark Mod along with Roormonger's SuperMod. New this time around is some extra blades, andmations and gamercards courtesy of Roormonger. I've put these in the Livecontent folder. Remember, put the folder named "LiveContent" at the root of your E: drive. And to clear up any earlier confusion, this is NOT somehow just the T3ch release. This is compiled by me from CVS that I downloaded just prior to posting. I hope you enjoy. I love to get any feedback as to how you feel about these releases and what I can do to make them better. (Just remember that I am not a member of the XBMC team and can't change the code to add in or fix features)
+
+*************************************************************************************************************
+*************************************************************************************************************
+                                     Xbox Media Center CHANGELOG
+************************************************************************************************************* 
+*************************************************************************************************************
+
+added/fixed: (dd-mm-yyyy) (please specify date in CET)
+ - 11-10-2006 changed: better solution for multichar ftp listings, wich also fixes issues introduced in last attempt
+ - 11-10-2006 added: [ 1574092 ] New Infolabel Musicplayer.DiscNumber, thanks to buttergemuese.
+ - 11-10-2006 changed: Added building of Textures.xpr to build.bat, and removed Textures.xpr from CVS.
+ - 11-10-2006 fixed: Partymode would repeat tracks if the next song was unavailable (server offline etc.)

@@ -1,0 +1,23 @@
+Advanced Archive Password Recovery v3.01 EN/RUS	
+	 
+Advanced Archive Password Recovery (or ARCHPR) is a program to recover lost or forgotten passwords to archives (compressed files) of the following types: ZIP/PKZip/WinZip, ARJ/WinARJ, ACE/WinACE (1.x), RAR/WinRAR.
+
+The key features of ARCHPR are:
+
+    * The program has a convenient user interface
+    * The program is very fast: for ZIP with traditional encryption, brute-force attack speed is up to fifteen million passwords per second on modern CPUs like Pentium 4 (Prescott)
+    * Guaranteed decryption (usually, within the hour) of many WinZip archives (created in versions 8.0 and below, with 5+ encrypted files) is available; it works regardless the password complexity and length
+    * The program can work with archives containing only one encrypted file
+    * Archives created by various software packages are supported
+    * Strong WinZip encryption (AES) is supported
+    * Self-extracting archives are supported
+    * The program is customizable: you can set the password length (or length range), the character set to be used to generate the passwords, and a couple of other options
+    * You can select the custom character set for brute-force attack (non-English characters are supported)
+    * Dictionary-based attack (with word mutations) is available
+    * The \\\\\\\"brute-force with mask\\\\\\\" attack is available
+    * Very fast known-plaintext attack is available (ZIP and ARJ only)
+    * You can interrupt the program at any time, and resume from the same point later
+    * The program can work in the background, using the CPU only when it is in idle state
+
+
+series in the archive

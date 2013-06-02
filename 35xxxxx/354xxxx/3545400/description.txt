@@ -1,0 +1,38 @@
+------------------------------------------------------
+Xtreme firmware 4.2A and 4.2B for TS-H943 Xbox 360
+------------------------------------------------------
+
+FirmGuard, Dual Speed, Media Stealth, One Firmware, Xbox 360 backup and extraction firmware modification!
+
+
+Features
+-----------------
+
+(v4.2)  Security Sector read order now based on actual PFI from disk resulting in faster better booting for backups.
+
+
+(v4.1)  Improved FirmGuard.
+(v4.0)  MS28 core firmware. Also better and faster media detection.
+(v4.0)  FirmGuard added. On by default. Firmware cannot be Read/Written by 360 console. Can ONLY be turned off (Read/Write enabled) via Enable0800 mode.
+(v4.0)  4.0A firmware. 4.0A is default Fast Read Speed mode. Quite/Slow Read mode for backups activated via any Xbox 360/Xbox 1 Original game disk.
+(v4.0)  4.0B firmware. 4.0B is default Quiet/Slow Read Speed mode. Fast Read mode for backups activated via any Xbox 360/Xbox 1 Original game disk.
+
+(v3.3)	Dual Read Speed mode (Quite/Slow Read mode for backups activated via any Xbox 360/Xbox 1 Original game disk.) 
+(v3.2)	Improved Media speed patch, forced full speed on all media types!
+(v3.1)	Added Booktype overwrite patch (bitsetting to Dvdrom no longer required)
+(v3.1)	Added Media speed patch (drive treats backup disc speed rating same as original)
+(v3.1)	Fixed DVD Movie backup/Xbox 1 backup read bug.
+(v3.0)	Stealth Media implemeted into firmware. Backups now appear exactly as original disk regardless of which disk check command used by Xbox 360
+(v3.0)	Enable0800 mode supports extraction of raw PFI (Physical Format Information) and raw DMI (Disk Manufacturing Information)
+(v3.0)	Support for loading of extracted PFI and DMI from disk 
+(v3.0)	Non-Stealth Backups automatically enhanced with embeded PFI for Xbox 360 and Xbox 1 
+(v3.0)	Included new Video.iso for Xbox 360 and Xbox 1 backups, now the same as originals
+(v3.0)	Security placeholders/bad sectors for 360 backups are outside both valid psn ranges so they cannot be read/checked by 360 host
+(v2.0)	Extraction part of firmware enabled with Enable0800 DVD. ISO included.
+(v2.0)	In Enable0800 mode, allows drive to function natively under Windows without any hardware conversion/adaptors
+(v1.0)	Boots all Xtreme Xbox 360 backups
+(v1.0)	Boots all Xtreme Xbox 1 backups
+(v1.0)	Boots all Xbox 360 originals
+(v1.0)	Boots all Xbox 1 originals on Xbox 360
+
+Use on Xbox Live at own risk

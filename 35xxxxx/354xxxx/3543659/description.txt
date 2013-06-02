@@ -1,0 +1,162 @@
+(Version 2.36)
+
+-> fixed the "Cannot change Visible in OnShow or OnHide" bug
+
+----------------------------------------------------------------------------
+(Version 2.35)
+
+-> lpcm (wav) extraction
+
+----------------------------------------------------------------------------
+(Version 2.34)
+
+-> fixed the "wrong arguments" bug
+-> new command line option (-sn => no ASPI calls)
+
+----------------------------------------------------------------------------
+(Version 2.33)
+
+-> deleted the lpcm stream header creator
+
+----------------------------------------------------------------------------
+
+(Version 2.32)
+
+-> command line parameter 
+   (-> SR Script.txt)
+   to skip the ASPI-Calls try (NoASPI.bat)
+
+-> max. key search intensity is 5
+
+----------------------------------------------------------------------------
+(Version 2.31)
+
+-> fixed the Win9X start bug
+
+----------------------------------------------------------------------------
+(Version 2.30)
+
+-> create info file
+-> added default streams selection in stream processing
+
+   examples for stream selection: 
+   StreamProcessing->ShowDefaultStreams...
+
+                              D:* => select all streams (direct stream copy)
+                         F:Audio* => select all audio streams (to file)
+   V:Audio English AC3(6Ch) 48kHz => select Engl.AC3.. stream (to extra vob)
+                              ... => ...
+
+----------------------------------------------------------------------------
+(Version 2.29)
+
+-> added ASPI-ripping
+   Settings->VobFileAccess: normal, aspi, aspi(1GB)
+
+----------------------------------------------------------------------------
+(Version 2.28)
+
+-> fixed the "Terminator 2 UE" ifo-parsing bug
+-> bugfixes in multiangle detection
+-> added "VobID / CellID" in "chapter->cell" display
+
+----------------------------------------------------------------------------
+(Version 2.27)
+
+-> bugfixes in "audio stream parsing"
+
+----------------------------------------------------------------------------
+(Version 2.26)
+
+-> "lost chapter bug" fixed
+
+----------------------------------------------------------------------------
+(Version 2.25)
+
+-> Authentication "error 5" fixed
+-> "Can't copy IFO-File" fixed
+
+----------------------------------------------------------------------------
+
+(Version 2.24)
+
+-> completely rewritten authentication routine
+
+----------------------------------------------------------------------------
+
+(Version 2.23)
+
+-> bugfixes in stream processing
+
+----------------------------------------------------------------------------
+
+(Version 2.22)
+
+-> indexfile bug fixed
+-> better authentication
+
+----------------------------------------------------------------------------
+
+(Version 2.21)
+
+-> bugfixes in stream processing
+
+----------------------------------------------------------------------------
+
+(Version 2.20)
+
+-> added stream processing (M2V,AC3,MP2,WAV,DTS,SDDS,SUB)
+-> added built-in authentication
+-> added eject-button
+
+----------------------------------------------------------------------------
+
+(Version 2.18)
+
+-> better file-splitting
+
+----------------------------------------------------------------------------
+
+(Version 2.17)
+
+-> added PTS timing info
+-> creating AudioVOBs
+
+----------------------------------------------------------------------------
+
+(Version 2.16)
+
+-> creating indexfile
+   ...
+   
+      LBA    |  Frame#  |       Type
+   ----------|----------|-----------------------
+     000001  |  000000  |  IBBPBBPBBPBBPBB (15)
+     000028  |  000015  |  IBBPBBPBBPBBPBB (15)
+   ...
+
+-> writing listfile and moviename to registry
+   HKEY_LOCAL_MACHINE\Software\Rip\SmartRipper -> ListFile
+                                               -> MovieName
+
+----------------------------------------------------------------------------
+
+(Version 2.15)
+
+-> some optimisations on audio stream handling
+-> audio demuxer (only ac3 streams)
+
+
+----------------------------------------------------------------------------
+
+(Version 2.14)
+
+-> audio stream handling (you can choose your language now)
+
+----------------------------------------------------------------------------
+
+(Version 2.13)
+
+-> readerror handling while ripping
+-> creating directories in target-selection-window
+-> some fixes in thread-control-unit (for W2K)

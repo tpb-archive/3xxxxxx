@@ -1,0 +1,21 @@
+Play almost every movie format* in Quicktime / Frontrow on a Mac Intel.
+
+These Quicktime .component files are needed to play all kind of XVID, DIVX, AC3, etc etc files in Quicktime. If Quicktime can play these files it means that FrontRow can also play these files.
+
+Add all files located in this Quicktime.zip, put them in your /Library/Quicktime/ folder.
+Replace files when asked.
+Make a Backup, just in case...
+Dont know about changing permissions. (might be wrong?)
+if so, open terminal and type:
+chown YOURUSERNAME /Library/Quicktime/*   [enter]
+
+
+
+included:
+- Read Me
+- Quicktime folder with .component files
+- Torrent downloaded from Demonoid.com.txt
+
+not included:
+- FrontRow
+- Quicktime

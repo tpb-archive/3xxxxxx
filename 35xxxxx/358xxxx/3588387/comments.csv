@@ -1,0 +1,330 @@
+﻿User Type,Username,Date,Text
+,jokerkillen,2007-01-02T21:20Z,"works maps for tt6 for pda:s for exampel scandinavian maps.
+and were to put the map?"
+,tinus007,2007-01-02T21:24Z,"Any map for TT6 should work. Just activate it using the keygen. Maps are plenty available on Piratebay. 
+
+Just copy the folder containing the map to the root of the memstick and you will be ok."
+,bablefish,2007-01-02T22:56Z,Thanks!
+,arne_414,2007-01-03T00:06Z,some information about the game please?
+,tinus007,2007-01-03T08:15Z,Well.. it's TomTom... you know.. navigation software... Duh..
+,nisse59,2007-01-03T09:53Z,Thanks!!
+,maapse,2007-01-04T15:04Z,The key generator doesn't work for the Scandinavia v652.1204 map :-(
+,JamJam76,2007-01-04T19:43Z,Has anybody got it working on a SE P990??
+,JamJam76,2007-01-04T19:43Z,And if so how did you do it?
+,piliskin,2007-01-04T20:57Z,Thankz alot !!! hope this works on my M600i
+,tinus007,2007-01-04T23:16Z,"To get it working on a P990:
+
+On device:
+1. Copy all files to the root of the memorystick, 2. Put the stick in the phone,
+3. Go to menu: Tools - Control Panel - Other
+4. Select Install
+5. Follow onscreen instructions and start TomTom
+6. TomTom will ask for activation
+7. Select manual activation
+8. TomTom will give you a product code
+
+On PC:
+9. Copy the Guam.mid file from the Guam folder to the keygen folder
+10. Open a dos box and go to the Keygen folder
+11. Run the commandline: TT6_kg_4_C4Pda.exe Guam.mid
+12. Enter the product code and press enter
+13. You will get the activation code
+
+On device:
+14. Enter the activation code
+
+Voila...
+
+(I can't make it easier than this... sorry)"
+,redpirate,2007-01-05T16:24Z,"I got this working on my SE w950i phone. Works perfect! Included keygen worked for the included GUAM map and with the maps found in the torrent with Western_Europe_660.1256
+
+SE w950i users: make sure you copy everything
+to the media memory root using fast transfer mode (USB disk mode)
+Make sure you don't have other existing destination directory's using the same names. If so copy the source files one by one or else the existing destination directories might get lost.
+
+Anyone know how to get these maps placed correctly on my PC so that TomTom HOME recognizes them?
+
+Thanks for a great torrent! I think I'm going to buy this one after testing it on a trip next week."
+,friendly,2007-01-05T16:29Z,"This is great. 
+Dl at ones.
+
+Tack för p990i-torrents."
+,Thomson486,2007-01-06T20:06Z,"I cant make it work, unable to copy file to phone, unbable to install via SE installprogram"
+,tinus007,2007-01-07T12:19Z,"Use a memorycard reader/writer to copy files to memorystick. You can't use the PC software from SE to install this software. 
+
+Some SE phones allow direct read/write of memorystick through cable connection: you can also use that directly from the Explorer in Windows."
+,beggz,2007-01-11T21:14Z,"well i got a w950i and i cant get it working on mine , anyone help and provide an idiots proof guide cos im tearing my eyeballs out here .....
+much appreciated"
+,Drauka911,2007-01-13T11:42Z,"I tried to install this on a P990i and somehow this doesn't work. It asks me if I want to install it and when I click INSTALL, it starts, but never finishes. After just 1 second the install-screen goes away and nothing happened. I copied all the files to the root of an empty memory stick, just like it says.
+Has anyone been able to install it to a P990i?
+
+Thanks for the help."
+,diudiu,2007-01-14T22:26Z,"Help!
+
+My phone is p910i and when I put all the files to the root of an empty MD all goes well until I take a look at the phone. Theres NO installation option to be found! Dont know whats wrong since I got TT5 working easily. Install.bif is surely at the root of the MD. 
+
+Help someone!?"
+,mrhol,2007-01-17T02:33Z,"Troubleshoot: Help - All files where unpacked down to the rootfolder of the MS (memorystick). Tools - Control Panel - Other -Install. The sys file for TomTom shows up, and I choose INSTALL. A meter appears and goes up to 100%, but then nothing happens. 
+Anyone who has an idea why this occurs?
+The phones has the newest software installed."
+,mrhol,2007-01-17T02:35Z,"Reply diudiu. 
+
+This version does'nt support UIQv2 (P910 etc), but ONLY UIQv3 (P990, M600, W950)."
+,bigjimpa,2007-01-17T19:39Z,i hawe sonyericsson m600i and i hav a error when i start the program KERN-EXEC NR 3 HELP
+,bigjimpa,2007-01-17T20:55Z,"Hi
+Ware can i find working maps for scandinavian
+
+Help pls."
+,mrhol,2007-01-18T00:36Z,"Copy the scandinavia folder from this torrent into the memorystick, and run the whole activation again. http://thepiratebay.org/tor/3550145/Tomtom_6.10_(7750)___Scandinavia_V650.1111"
+,bigjimpa,2007-01-18T15:26Z,Thx its working yeha :-) were can i find TomTom Safety Camera for sweden??
+,AnaK,2007-01-18T21:18Z,Does this work whit nokia n70?
+,joshiestevens,2007-01-20T02:30Z,"Yes, the same thing happens if you run the SIS file in the location \private\10202dce. It asks you to continue installing on the phone.  You click install, the green bar loads, and then Application Installer says ""Install aborted"".
+
+Something is stopping Navigator from installing, we just have to work out what it is!"
+,Tiberun,2007-01-20T09:00Z,"For all of you (beggz, Drauka911 etc) that this wont work, that the installation wont proceed.
+
+You need to copy the files in the Navigator 6 (Symbian UIQ 3rd edition) folder (13 files) into the root of the MS or handset (W950) not the single folder. Then it will work."
+,joshiestevens,2007-01-20T13:00Z,"I have inserted the MC card into the PC and copied it straight there into the card, not in any folders.  It asks me to overwrite ""Private"" folder etc."
+,joshiestevens,2007-01-20T13:38Z,"Right, I have sussed it.
+
+Anyone having installation problems.  Format your Memory Sick on the PC using the FAT system.
+
+Once formatted, copy all the files over to the memory stick, insert into your phone, the Voila!"
+,Gupe046,2007-01-20T16:35Z,"Hi!
+Can someone tell me where i get the produkt code and where i get the device code.
+
+I have got a device code when i install the program direct on the phone.
+
+But where do i get the activation code.
+The one the TT6 gives me dont work. (when i run the crack in the computer and tries to activate the code.)
+
+can some one tell me the activation code on device code ANEAJ D2FEN
+The one i get is this: 8EFYT F7CUT 7GXGA
+That dosent work!
+
+Thanks a lot
+
+Gunnar
+"
+,upsite2k1,2007-01-22T14:08Z,"Hi don't no what is wrong with my phone (m600i) or what i'm doing wrong. got a 1gb m2 card formated it to fat and copied all 13 files&folder to the root of the card. I inserted the card and the phone promted me if i want to install. if i hit INSTALL a progress bar apears but make no progress. after 1 second the install-window closes and thats all. if i go to control panel/other/uninstall and choose the m2 card, it says that tomtom mobile binpda 1009kb is installed. but i have no link to start tomtom in any menu. any ideas ??? firmware is R9EA001"
+,upsite2k1,2007-01-22T15:00Z,"nevermind,
+solved the problem.
+previuosly installed the s30uiq9.1 tomtom which fucked up the install of the uiq3. after uninstalling&master reseting the device it works now"
+,jblonde002,2007-01-24T20:16Z,"If anyone here can tell me how to get this installed and working on a W950 (step by step) with a working map of Britain I will be so grateful. I've lost two evenings to this now, I have to get it to work."
+,nickadp,2007-01-29T18:52Z,"i have a SE W950i and am struggling to get this to work.   Can any1 tel me where i can get a map of great britain for this?
+
+please email me if you can help with this, help on installing this software.
+nickadp@hotmail.com
+
+thank you"
+,Leffep,2007-01-31T22:10Z,"The installation go ok on my P990, but how to activate??
+When i try to run TT6 kg...exe file its stay less then 1sec. on my screen, then it´s dissaper.
+I run Win XP proff.
+Help needed to activate...."
+,mad_dogbrk,2007-02-04T21:31Z,"Ok i got it to work with guam, but how do i activate the scandinavian version instead? i cant find a option in tomtom to activate another map...I have the scandinavian map tha mr.hol added, but how do i activate it?
+
+It wouldnt activate when i tried before activating guam, it said wrong code.
+
+/andreas "
+,chlorhexamed2006,2007-02-06T23:17Z,Thank you guys for this tutorials and links!! Does anybody know where I can find working maps from Austria/Germany? Thank you in advance!
+,abdulleh,2007-02-16T13:53Z,"Hi i have activated the GUAM map on my SE p 990i
+but i am unable to get the activation code for Great britain and ireland maps
+my DEVICE code is
+ANGAL A2JD6
+can some body plz tell me the activation code for great britain and ireland plzzzzzzzzzzzzzzzzzz
+many thanks in advance
+"
+,damien69,2007-02-20T14:24Z,fungerar perfekt. hade lite problem i början men att installera skandinavia map men använde samma crack som Guam. tack
+,fjantas,2007-03-16T16:19Z,"bigjimpa - 2007-01-18 15:26 CET:
+
+you can find pois of  speed camera for sweden here http://www.poidatabase.se/
+"
+,HangLoose,2007-04-02T18:26Z,"Problem har försökt allt, laddat ner den TOMTOM med GUAM och installerat i min SonyE M600, install startar automatiskt när jag sätter i Minneskortet M2, 2gig och stapeln går snabbt fullt ut, sen händer ingenting, finns INGET ens att avinstallera,
+Så för att testa min nya Gsat 559 installerade jag gratis-proget från nav4all.com och det funkar perfekt (men kartor & allt ska laddas via WAP automatiskt oroande oberänelig kostnad).
+Jag skulle hellre ha TOMTOM om det gick att installera.
+Ska kanske försöka hitta en annan TOMTOM äldre version ?."
+,HangLoose,2007-04-03T04:39Z,"Den här versionen funkade perfect, det va en annan likadan med GUAM där det fattades en fil i. TomTom-mappen, men i denna fanns den filen med.
+Funkade att aktivera Scandinavien kartor också"
+,luddee1,2007-04-09T17:37Z,Hej jag har en k800i frågan är om det går till den också?? Någon som vet? Och koppla till en Bluetooth GPS mottagare om det går?(ja vilka problem man har)
+,gambinski007,2007-04-10T12:09Z,"guys
+have all the files - have tried the master reset for the 990. Before the master reset the install came up and disappeared. After the reset the status bar ""loads"" on the phone - and - um that is it. I have tried FAT 32 formatting of the memory card etc etc and reloading etc - bit at a loss - any ideas Pleeeeeeeeeze???"
+,sir_erken,2007-04-26T18:51Z,"Why, god Why!
+It dosent work with any other maps than Guam.
+After downloading and activating other maps it closes and sys : Kern-exec
+number 3
+
+Can anybody help me? plz?"
+,mrcoops1984,2007-05-26T20:10Z,"OK, I am still having huge problems installing this on my Sony Ericsson P990i. I have copied all the files over to my 4GB Memory Stick. The navigator 6 folder is there and when opened all the others are too. I have click install and the .SiS file seems to install. The install bar goes right the way across but theres no sign of it in the control panel etc and no tom tom screen appears either.
+
+This is really annoying as I have been looking for this version for ages, and having just tried it - it doesn't appear to work. Saying that, a lot of other people seemed to have it working. Am i doing something wrong? I have tried a master reset and formatting the memory stick and starting over but still no luck :S
+
+....Please help!!!"
+,mrcoops1984,2007-05-26T21:00Z,"Ok, Problem SORTED!!....well that one at least. All those of you who have a SE 900i like myself you must copy and paste folders from the navigation 6 folder to your memory stick rather than just dragging over the navigation 6 folder over.
+
+One last problem.... I need to activate TomTom but not having any luck whatsoever. How do I generate an activation code. does anybody have any idea? There's a keygen in this torrent but i have no idea how to get it working....."
+,Colonel_doolittle,2007-06-01T21:17Z,"hi there guys! Im getting mad about this GPS-program... could anyone please, please generate the code for me? I dont get it.
+ANGS6 CJQGW
+
+Im most thankful!"
+,pitbullone,2007-06-09T11:08Z,thanks!! really appreciate it
+,don_diego_2007,2007-06-10T11:28Z,"hello world,
+I cannot run the keygen:
+the code is ANCAQ CSEDS
+does anyone generate the activation code for me, please? my email is don_diego_2007 (at) yahoo (dot) it
+tks in advance"
+,steno,2007-06-11T13:08Z,Tip! I only got it to work when an formatted my memorycard with FAT32 instead of FAT
+,tellboy,2007-06-13T13:27Z,"im new but i have tom tom6 with maps for sony ericcson P990I(uiq3), tom tom 5 for pda and a few ones for nokia fones,dont know how to download them to here either. now i need advice i am seeding a film using bit torrent T-0.3.7 (BIT TORNADO) but download rate is low (8kb)ish any way to speed it up or diff torrent? thanks."
+,tellboy,2007-06-13T13:28Z,so i understand FAT32 is a format for  windows system and FAT is for mobile phones is P990i
+,bobbarley,2007-06-22T22:57Z,"FAT and FAT32 are both Windows partition formats, as it NTFS.  FAT and FAT32 were both ditched when XP came out in favour of NTFS.  Anyway, point is most memory cards still use a FAT system of some kind.
+
+This download works perfectly.  I downloaded and installed on my Sony Ericcson w950i without any problems, highly recommend it!!"
+,jkd4eve_879,2007-07-02T15:27Z,will this on work on Sony Ericsson w880i?
+,Rahi,2007-07-04T05:58Z,"Hi I have SE990i the first part of the instruction (tinus007) has listed no problem but when it comes to the bit about PC instruction number instruction number  9 that?s when I get confused because ther is no file  called the Guam.mid file inside the Guam folder they are all (8) .dat files, (1) guam and (1) .pna file  can anybody please help thanks"
+,falukorven666,2007-07-18T21:25Z,"Hej, ja har lite problem med detta, ha precis köpt en p990i, och försökte installera tomtom6 men ja lyckas inte, ja lägger in det på telefonen, och sen ska ja installera det och det gör det men ja får inte skriva in aktiveringskåden lr ngt sånt, och ja hittar inte programmet sen, hur ska ja få in det på minnet utan att göra det genom usb till telfonen? tack för svar"
+,roathan,2007-08-15T12:58Z,Can i use this on my P1? 
+,Stefan1986,2007-08-18T13:45Z,"Eey tinus ik wil dit dus installen op mijn p990i maar als ik wil installeren zegt ie:
+De upgrade is mislukt omdat het pakker dat is geinstalleerd geen geldige upgrade is.
+
+Ik snap er niks van.
+Had eerst tomtom lopen op mun 64 MB kaartje maar toen paste de benelux map niet meer erbij dus heb ik de telefoon een master reset gegeven.
+Nu wil ik opnieuw installen op mijn 1gb kaartje maar nu krijg ik dus die melding.
+Codes werkten perfect.
+maar nu kan ik dus ff niks.
+
+Iemand een idee>>
+groeten Stefan"
+,freddy85,2007-08-20T02:18Z,Yes roathan i use  it on my p1i with the scandinavian maps and it works great.
+,gabi8898,2007-08-23T00:48Z,"Hej Hej 
+I have got the device Id from my P990i like this-ANEAQ BJPESNa-and I tried to generate witk keygen the activation codes for  maps but does not work so I change  the last small letter-a-to capital-A-in device ID request line and Ihave got activation codes for every map which I hack with keygen but when I entered code to phone ,it says than activation code is not valid for the map.Does anybody know whot  it can be the problem with that,I tried plenty maps but nowone work--gabrielsalon@yahoo.com--thankvery much for any advice"
+,P1i,2007-08-29T18:44Z,"Denna funkar kanon med en SE P1i
+Lägg in filerna i roten på kortet så startar det utav sig själv. 
+Kör sedan cracket för respektive karta i mapen key
+C:\key\TT6_kg_4_C4Pda.exe Vad den kartan heter.mid"
+,andmat,2007-08-29T21:35Z,"Någon som vet vilket lösenord det skall vara för att ansluta till ""TomTom trafik""?
+Användaren är ju ""anonym""."
+,Lamelyme,2007-09-28T06:08Z,"Thank you tinus007 for this great upload.
+Was looking for a navigation sys to my W950i(UIQ3). Tested a couple with incompatible issues(Route 66), til i found this superb torrent.
+Works like a charm.
+Transfered John Cleese to the voice folder on the memory card, choosed John Cleese as Voice Navigation and laugh my ass off.
+http://thepiratebay.org/tor/3387316/TomTom_Voices_-29-The_Complete_Series_of_TT_voices-HotShot
+In this TomTom 6.02 UIQ release there arent all TomTom's Default System Voices from the CD, so for them who doesnt like the swedish Astrid voice, can get the patrick male voice instead from:
+http://thepiratebay.org/tor/3387459/TomTom_s_Default_System_Voices_-_HotShot
+Big credits goes to TheHotShot for upped these TT Voice torrents.
+
+I lift my hat in thanks"
+,kenntoft,2007-09-29T01:54Z,Wow! Works like a dream on my P1i! I had problem with the installation going away but I just resetted the phone. which was annoying but worth it! and then i added the scandinavian map. amazing. thanks to tinus007's explanation on page one! check it out! its so easy when u think about it. If any one have any questions about P1i install ask me. 
+,tomaz108,2007-09-29T13:09Z,"kenntoft, 
+i'm also trying to install tomtom on my p1i device. But I don't know what is my device id. Where can i find it? "
+,tomaz108,2007-09-29T17:55Z,"Actually when I try to install on p1i, instalation is started and after few seconds it's just closed, nothing happened."
+,tomaz108,2007-09-29T21:16Z,I installed it on p1i an it works! One should install this apllicaiton using USB cable connection not bluetooth.
+,MAS17,2007-10-17T00:31Z,"Help, please.
+Have installed it on my P1i.
+But don´t get how to use the keygen.
+I can´t se a mid file in the guam map.
+My device id i got ANASE CJRD2.
+Help, someone?"
+,tomaz108,2007-10-22T16:44Z,"1] unzip the attached zip file and extract it to the directory that contains your map data. (This directory MUST have ""map_name.mid"" file, as in the map that you are going to register).
+2] Open the windows command prompt and cd into the directory.
+3] Execute the EXE file as shown below:
+TM6_kg_4_C4PDA.exe your_map.mid
+4] It will ask you for your device ID, put that in and it will give you the unlock code
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+1)make a folder in C:\ to make it easier, call it keygen.
+2)Put your .mid file in there and TT6_kg_4_C4Pda.exe in there.
+3)Now open command prompt ""Start-Programs-Accessories-command prompt
+4)Then type as follows cd C:\ [Press Enter]
+5)now you wiill have C:\> in command prompt.
+6)Then type: cd keygen : You will then see c:\keygen>
+7) Then type : TT6_kg_4_C4Pda.exe North_america.mid :
+Don't forget the space between .exe and North.
+8)then put in your code ID and then enter."
+,tomaz108,2007-10-22T16:48Z,"key for ANASE CJRD2 is:
+7RZ8Y PR8ED XFGGS"
+,samas1972,2007-10-26T15:42Z,I tested the software on SE m600i and it works perfectly. I unlocked 3 different maps using that KeyGen utility too. Thanks tinus007 :)
+,plickplick,2007-10-29T15:58Z,"For some reason I can't activate any other map than Guam with the methods described above. But after activating Guam I do not need to activate the other maps, they work perfectly anyway. 
+
+I just put them in the root and start TomTom activate Guam when asked, then when the program starts go into
+ =>settings => handle maps => 
+change to the map I need. Do not ask me why this works I have no idea. But if you have problems you might want to give this a try.
+
+My device is sonyericsson m600i"
+,jetski05,2007-11-03T20:56Z,"Can someone please please run a code for me, I can't get the keygen to work.
+my device ID is: 
+ANFAE AAGCW
+Thank you in advance.
+CHEERS!"
+,xyquil,2007-11-17T09:55Z,kenntoft - where can i find or how will i know my device ID? and where can i get maps for UK? ur help will be much appreciated. Id like to test it in my new P1. tnx
+,bernhard29,2008-01-14T22:49Z,"Hello
+
+Can please someone help me. I installed the programm on my telephone. Now i must enter the activation code.
+
+I tried it the way like tinus007 sayed it, but i can not get a code with the keygen.
+
+My device code is ANFA4 D2CFN
+
+Please can someone help me?"
+,Alex V,2008-02-13T16:50Z,"works beautiful on my p1i.. thx tinus! Does somebody have:
+- mahjongg deluxe 
+- brain genius
+- impossible sudoku
+
+all for the p1i ofcourse (uiq3)..
+
+thx in advance"
+,trifid2,2008-02-20T13:40Z,"Installation on Sony Ericsson P1i:
+
+On device:
+1. Copy all files to the root of the memorystick (Keygen, Guam, itn, licenses.... should be in root of the memory card)
+2. Go to Main menu/Control panel/Other/Install
+4. Select Install TomTom-NAVIGATOR.sis
+5. Follow onscreen instructions and start TomTom
+6. TomTom will ask for activation
+7. Select manual activation
+8. TomTom will give you a product code
+
+On PC:
+9. Copy the Guam.mid file from the Guam folder to the keygen folder
+10. Open a dos box and go to the Keygen folder
+11. Run the commandline: TT6_kg_4_C4Pda.exe Guam.mid
+12. Enter the product code and press enter
+13. You will get the activation code
+
+On device:
+14. Enter the activation code"
+,equilimbrium,2008-02-29T18:55Z,Hi! Could anyone help me? Device code : ANHS4 DADF2
+,mazzse,2008-03-18T06:45Z,"What to do if the devicecode doesnt work?
+W960i SE (Sym OS, UIQv3)
+Can someone pls tell us what to do/ or try for the next step?
+
+/Mazz"
+,Masternitro,2008-05-25T00:33Z,"Does this work on a sony ericson k550i?
+and how does it work, via internet?
+if so does it cost me money to use it?"
+,jeyleo,2008-06-16T05:57Z,how do i download this file i have no clue
+,mussi-8220,2008-07-03T09:54Z,help plzz i am going to holiday and the keygen dosent work and i connot find the guam.mid help help
+,queen_of_frogs,2008-07-05T12:30Z,"Hej, I got the program installed on my p1i. works great, thanx! now i am trying to install some maps for scandinavia. do i need to copy the in the guam folder?"
+,queen_of_frogs,2008-07-06T13:41Z,"allright:-) I found out! maps were already in the root of the memory stick, I just had to find them in tomtom. great! works! thank you very much!!!"
+,fertzy,2008-07-16T13:05Z,"Hi all
+Really need a little help here as this is driving me mad! I follow the instructions about to Install the .sis file; the phone says installing, but afer it completes I can't find the installed app at all.
+Don't think the install is working but I don't understand why.
+Grateful for any help as I am determined to get this working!"
+,AlexWayne,2008-07-26T01:29Z,"Thanks tinus. Works awsom on my SonyEricsson P1i.
+
+:-)"
+,zerounu,2008-08-07T20:17Z,"Can anyone confirm that works on Se M600i?
+
+And if works i guide will be welcome to..."
+,lolonia,2008-08-27T23:52Z,"Hi i've a real problem with instalation on my SE P1i.
+
+I read all th advices but it doesn't work at all.
+
+First of all when i tried to copy all files to main folder on Memory Stick as you said,  appears info that this opperation is not possible.
+
+Does anyone know what to do? "
+,superbaggo82,2008-12-11T23:38Z,"So I got this to work on my p1i, great. Now just need maps, anyone know where to find them, or which ones will work. Guam is great, though I do not get to visit it as often as I would like to."
+,Gulla-Bull,2008-12-25T11:41Z,Excellent..... Working on a SE W960i - Nice!!
+,krispo91,2008-12-30T21:27Z,Wil this work on sony ericsson c905?
+,Bass-tingle,2009-10-24T16:20Z,Anyone manage to figure this out for the Samsung Omnia HD?
+,JAY-REDEYED,2010-01-15T00:41Z,GUYS HOW THE HELL DO I FIND MY DEVICE CODE I HAVE GOOGLED AND LOOKED AROUND PLEASE SUM1 HELP I NEED THIS TO GO AND SEE MY DAUGHTER WHO LIVES 100S OV MILES AWAY THANKS IN ADVANCE 
+,JAY-REDEYED,2010-01-15T00:43Z,MY PHONE IS A NOKIA N95 8 GB IF THAT HELPS SO PLEASE ANY1 HELP ME FIND MY DEVICE CODE MANY THANKS YOUR ALL LIFE SAVERS IF U HELP ME THIS IS THE ONLY PART I CANNOT DO 

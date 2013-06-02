@@ -1,0 +1,55 @@
+﻿User Type,Username,Date,Text
+,jeebee,2006-09-04T10:08Z,thanx
+,LordP666,2006-09-12T19:50Z,"First I want to thank ulysses56 for uploading these, it seems that he had a hard time with
+it but he still did it. Thanks.
+
+OK, I think I found a solution for those having a problem with the Anatomy Primal CDs. This
+works for me at least and if someone else could try it and let us know if it works for them
+it would be a good thing.
+
+I'm going to illustrate with ""Anatomy Primal 3D Interactive Series 3 Hands"" which is the
+only one I have as of now.
+
+
+Use Magic ISO and extract all the files to a folder.
+
+Use ""Safedisc 2 Cleaner v1.2.0"" to clean ""hand2000.exe"" which is in the ""setup"" folder
+- the cleaner will make a file called ""SD2cleaned.exe"" for you to test.
+
+When you run this test file it will tell you that it can't find ""APPSETUP.TXT"" (it's in
+the ""shared"" folder). What I did is to tell it where to find APPSETUP.TXT and it worked
+like a charm.
+
+Just to be safe I placed a copy of ""APPSETUP.TXT"" to the ""setup"" folder.
+
+Now all I had to do is delete ""hand2000.exe"", rename ""SD2cleaned.exe"" to ""hand2000.exe""
+and burn the whole thing to a CD using the original CD name of ""HAND2000"".
+
+Works nice.
+
+You can find the cleaner here: w w w.cdmediaworld.com/hardware/cdrom/cd_utils.shtml"
+,toofan,2006-09-16T12:26Z,"heya.
+
+here's the error I get when i try to run the app:
+http://www.home.no/jigarjooni/primalhead.jpg"
+,mazdon,2006-09-17T18:04Z,"What a sad story.... hmmm
+I can get some of these torrent to work... with a lot of trouble.... burning CD:s that doesent work, loading down diffrent programs that doesen´t work to crack this torrent...so sad, I really looked forward to get this torrents as I have a lot of friends that are nurses or working in that area.
+But I can see that it will be far to complicated for them to manage this downloads.... so sad.... ;(
+
+Anyway ulysses56, thanks for trying...best regards Maxthegun"
+,Alexiito,2009-02-05T17:36Z,"Hi have solved the problem!
+
+Konvert all de sec. (knee, hip,shoulder, etc) to iso. file with poweriso! 
+Extraxt them to new folder.
+Then mount them with alcohol 120% (NOT the HIP, KNEE or SHOULDER!!)
+And every time you would like to use one of the programs mount them with Alcohol120%
+
+And for the KNEE, HIP and SHOULDERS mount them with Daemon tools Lite but you´ll have to set the ""emulation settings"" on ALL OPTIONS ON!! (safedisc,securom,laserrom and etc!!
+and its the same there, you´ll have to mount them on daemon tools if you want to use them.
+
+PS: the HAND program doesn´t work for me. It ask for appsetup.txt
+
+I´ve hope I have helped you!! =D"
+,bobmarley2,2010-10-25T21:56Z,"So how have people got this to work.  Done everything that LordP666 said and still can't get the program to find appsetup.txt.
+
+Is there another way???  Would love to get this working  "

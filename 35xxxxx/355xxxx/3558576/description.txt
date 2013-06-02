@@ -1,0 +1,46 @@
+---------------------------------------------------
+Maximus XTREME 1.6 For GDR-3120L V0078FK 
+---------------------------------------------------
+
+
+WHATS NEW ON THIS RELEASE:
+--------------------------
+	- Changed Boot order to allow some newer
+          Original games boot without problem (Ver 1.6)
+
+
+This release has been FULLY TESTED ON A 78 DRIVE !!!, 
+*If not works for you maybe you messed something on the 
+drive pcb or flash chip.*
+
+Boot of originals was tested with an Original of 
+Gears of War that was not booting on 1.5 rev 2 
+and now boots fine with 1.6. Backups are not affected.
+
+
+FEATURES:
+-------------
+ - ModeB when poweron with tray open 
+ - Media Detection V2 
+ - Xtreme 800 to load backups 
+ - No F900 core, maybe later
+ - No Firmware Stealth (maybe not needed anymore with this one)
+
+
+INSTALLATION:
+-------------
+Use at your own risk.
+
+You need to remove the chip and program it external since no
+software tools at the moment. Make sure you know what you are
+doing.
+
+Contents of the folder:
+78_16.bin : The hacked firmware version 1.6 (use this file)
+78.bin    : The original 78 included only as reference
+
+Dont forget to put your keys onto it before flashing 
+Dont forget to crypt the file before flashing
+You can use firmware toolbox 2.0 for both tasks
+
+Visit www.chipit.se for newest firmwares and tools.

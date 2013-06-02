@@ -1,0 +1,30 @@
+Superfetch is a tiny program that makes it easier to download files from the net. It makes use of the clipboard, so you basically copy an URL that goes to a file on a webbserver and Superfetch handles the rest. When you copy a URL it ques up in a downloadlist so you can theoretically copy 10 URLs/second.
+
+
+Superfetch handles:
+- single clipboardURLs
+- fuskertags
+- bitmapgenerations
+- copied text
+
+
+How to:
+-------
+
+Single clipboardURL: Copy a files location (f.i. http://www.example.com/image.jpg) and Superfetch will automatically start the download of the file to your preset downloadfolder.
+
+Fuskertags: A fuskertag looks like this - http://www.example.com/image[01-99].jpg - When a similar address is copied to the clipboard, Superfetch will que them up and begin your download emidiately of the files it can find. If the fuskertag f.i. looks like this - http://.../*01-99*.jpg - the program will convert the wildcardsymbols to real fuskertags.
+
+Bitmapgenerations: When a bitmap is copied to the clipboard Superfetch will automatically generate this to a bitmap to your harddrive. So, if you f.i. take a printscreen Superfetch will build a bitmap and save it in your downloadfolder.
+
+Copied text: Any text that isn\'t an URL will be stored in a textdocument in your downloadfolder.
+
+
+
+No temporary files or logs are created, everything is source -> RAM -> harddrive.
+
+
+Screenshot: 
+http://www.mediamonster.se/development/superfetch/superfetch.jpg
+
+Updatelog can be found here: http://www.mediamonster.se/development/superfetch/update/updateLog.txt

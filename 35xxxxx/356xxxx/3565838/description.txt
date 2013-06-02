@@ -1,0 +1,13 @@
+What is Gentoo?
+
+Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized and customized for just about any application or need. Extreme configurability, performance and a top-notch user and developer community are all hallmarks of the Gentoo experience.
+
+Thanks to a technology called Portage, Gentoo can become an ideal secure server, development workstation, professional desktop, gaming system, embedded solution or something else -- whatever you need it to be. Because of its near-unlimited adaptability, we call Gentoo a metadistribution.
+
+What is Portage?
+
+Portage is the heart of Gentoo, and performs many key functions. For one, Portage is the software distribution system for Gentoo. To get the latest software for Gentoo, you type one command: emerge --sync. This command tells Portage to update your local "Portage tree" over the Internet. Your local Portage tree contains a complete collection of scripts that can be used by Portage to create and install the latest Gentoo packages. Currently, we have more than 10000 packages in our Portage tree, with updates and new ones being added all the time.
+
+Portage is also a package building and installation system. When you want to install a package, you type emerge packagename, at which point Portage automatically builds a custom version of the package to your exact specifications, optimizing it for your hardware and ensuring that the optional features in the package that you want are enabled -- and those you don't want aren't.
+
+Portage also keeps your system up-to-date. Typing emerge -uD world -- one command -- will ensure that all the packages that you want on your system are updated automatically.

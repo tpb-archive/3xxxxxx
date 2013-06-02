@@ -1,0 +1,25 @@
+﻿User Type,Username,Date,Text
+,erika21,2006-08-07T21:03Z,hej jag har en fråga: vad är det för filändelse på filmen jag har aldrig sett den förut (Att_gora_en_pudel.mkv). 
+[T],DasBot,2006-08-07T21:10Z,".mkv = Matroska, det är ett container format ungefär som AVI, MP4.
+
+Du behöver en Matroska splitter för att kunna spela upp i t.ex. WMP10 eller BSplayer. VLC har detta inbyggt.
+
+Ladda ner Matroska Pack Full eller Haali's Media Splitter:
+
+http://www.matroska.org/downloads/windows.html
+http://haali.cs.msu.ru/mkv/"
+[T],DasBot,2006-08-07T22:00Z,"Oops, Matroska Pack Lite / Full är tydligen obsolete:a och finns inte längre => Kör med Haalis Media Splitter istället."
+,Cacka,2006-08-08T13:01Z,Är det någon kvalitetsskillnad mellan formaten Mkv kontra Avi eftersom du gärna använder Mkv-formatet. Själv laddar jag ner i Avi-format för att sedan göra en Dvd i ?VSO ConvertXtoDvd? för att kunna se filmen på Tv. Finns det något program som konverterar Mkv direkt till Dvd.
+[T],DasBot,2006-08-08T16:26Z,"Ingen kvalitetsskillnad då AVI resp. MKV bara är s.k. containrar. Jag kör med det som passar mig och min Linux HTPC bäst. Sedan får övriga acceptera eller ignorera.
+
+Innehåller MKV filen XviD + MP3 kan man enkelt packa om detta till en ""vanlig"" AVI utan någon extra omkodning. Det går däremot inte att lägga AVC/AAC saker i en AVI."
+,elinasofie,2006-08-08T22:18Z,hur gör jag för att bränna ner denna film?c vad behöver jag för brännarprogram för att kunna bränna ner denna MKV-fil? =/
+[T],DasBot,2006-08-08T22:50Z,Vad tänkte du bränna? En DVD för att kolla i en DVD spelare? Om ja => skaffa en DVDrip istället och bränn den. Slipper du en massa omkodning och får bättre kvalitet.
+,mumrich,2006-08-20T17:16Z,Jag får inte bilden att funka när jag försöker spela upp filmen i VLC.. har laddat ner Matroskasplitter men förstår inte vad man ska göra med det för att få filmen att fungera?
+[T],DasBot,2006-08-24T22:11Z,Kör du VLC (helst den senaste 0.8..5) behöver du ingen Matroska splitter. VLC sköter allt.
+,RagingLynx,2007-01-02T16:39Z,"Seed please!
+
+The statistics show 1 seeder, but no one shows up during download... :("
+[T],DasBot,2007-01-21T22:16Z,Jag hoppar in och hjälper till lite grann...
+,myssan1,2007-01-22T11:27Z,hej vrf kan man inte få fram en ikon när man har laddat ner filmen...jag har exstract den men det funkar inte en då att få fram någon ikon...
+[T],DasBot,2007-01-23T14:27Z,Om du associerar .mkv filer med den spelare du vill ha så kan du säkert få en ikon. Mina filmer har en snygg(?) BSplayer ikon.

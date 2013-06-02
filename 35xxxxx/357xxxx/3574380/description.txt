@@ -1,0 +1,11 @@
+It has gnome-2.14, gcc-4.1.1, vlc with xvid, and an overlay with Lu_zero's 2.6.16 kernel - it is currently set to boot from the standard SCE kernel.
+
+***warning***
+1) The tarball is unchecked as I don't have the time to do a test install
+2) Gnome is pretty well untested - I ran a terminal and used vlc - so don't moan to me if nothing else works:) I prefer the command line.
+3) distcc is installed, remember to change the host ip's if you enable it:)
+
+Visit http://forums.gentoo.org/viewtopic-t-443551.html (Gentoo on PS3 thread)for more info
+
+
+Thanks tokka!

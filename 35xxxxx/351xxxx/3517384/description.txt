@@ -1,0 +1,107 @@
+ http://www.xbox-inf.org/forum
+
+Xtreme firmware 3.2 for TS-H943 Xbox 360
+------------------------------------------------------
+World first Media Stealth One Firmware Only Xbox 360 backup and extraction firmware modification!
+R.I.P. Poochini - A mans best friend!
+No Firmware posting or request for it.
+Features
+-----------------
+Improved Media speed patch, forced full speed on all media types!
+Added Booktype overwrite patch (bitsetting to Dvdrom no longer required)
+Added Media speed patch (drive treats backup disc speed rating same as original)
+Fixed DVD Movie backup/Xbox 1 backup read bug.
+Stealth Media implemeted into firmware. Backups now appear exactly as original disk regardless of which disk check command used by Xbox 360
+Enable0800 mode supports extraction of raw PFI (Physical Format Information) and raw DMI (Disk Manufacturing Information)
+Support for loading of extracted PFI and DMI from disk
+Non-Stealth Backups automatically enhanced with embeded PFI for Xbox 360 and Xbox 1
+Included new Video.iso for Xbox 360 and Xbox 1 backups, now the same as originals
+Security placeholders/bad sectors for 360 backups are outside both valid psn ranges so they cannot be read/checked by 360 host
+Extraction part of firmware enabled with Enable0800 DVD. ISO included.
+In Enable0800 mode, allows drive to function natively under Windows without any hardware conversion/adaptors
+Boots all Xtreme Xbox 360 backups
+Boots all Xtreme Xbox 1 backups
+Boots all Xbox 360 originals
+Boots all Xbox 1 originals on Xbox 360
+Use on Xbox Live at own risk
+Technical details
+------------------------
+Backups now automatically have pre-locked PSN range same as stated in extracted PFI sector if exists, or embeded PFI, therefore cannot read extracted SS/PFI/DMI sectors from disk. Currently all original 360 games have same PFI sector but maybe not in future, hence new feature of extracting PFI in Enable0800 mode and read from backup at PSN $4fb1d (Xbox 360) and $605fd (Xbox1) or if these sectors are blank embeded PFI will be used
+Backups now support loading of DMI sector. This sector is different for every original 360 game but is currently not checked for, but maybe in future hence DMI can now be extracted also in Enable0800 mode and read from backup at PSN $4fb1e (Xbox 360) and $605fe (Xbox1)
+Firmware checks for Enable0800 security sector @ PSN 04FB1F and if found, enables 0800 mode of firmware.
+ISO image Enable0800.iso included. Just burn and insert into drive when you wish to extract security sectors or dump games.
+0800 mode of firmware deactivated by inserting game backup (Xbox 360 or Xbox 1) or DVD movie or turning off console.
+Reads Xbox 360/Xbox 1 security sector from PSN FD021E (Layer 1)
+Reads Xbox 360 security sector from PSN 04FB1F (Layer 0)
+Reads Xbox 1 security sector from PSN 605FF (Layer 0)
+Security sector must be extracted using Enable0800 DVD for Xbox360 games and Xbox 1 games
+Flashing your drive
+---------------------------
+For ms28 firmware versions of drive you will need to use the Vcc method or the VIA SATA 10 sec method to read/write flash. Refer to http://forums.xbox-scene.com/index.php?showtopic=535222
+Advisable to make a backup of your dvd drive firmware first.("mtkflash r /m orig.bin")
+In Windows, copy orig.bin to same directory as this release (same directory as xtreme31.bin and X360SAM.exe)
+Double click "Make X31.bin" to create x31.bin (Xtreme31 firmware with your key from orig.bin). Thanks to eXOBeX for X360SAM.EXE
+Copy x31.bin to boot disk
+Power off PC
+Plug SATA cable from DVD drive to PC. Power cable drive still connected to Xbox 360
+Power on Xbox 360
+Power on PC
+Boot with standard dos boot disk with included mtkflash utility
+Run "mtkflash w /m x31.bin"
+Extracting Security Sector
+---------------------------------------
+Ensue SATA cable is plugged from drive to PC.
+(This is very important as may be possible in future for console to detect modified firmware due to Inquiry routine enabled for Windows)
+Power on Xbox 360.
+Insert Enable0800 DVD into drive. Wait 5 or so seconds then remove the Enable0800 DVD. Drive now in 0800 mode.
+Turn on PC and wait for Windows to boot
+Insert original game disk into drive and wait for windows to detect disk change
+Run DVDinfoPro
+Enter the following four custom cdb commands:
+AD 00 FF 02 FD FF FE 00 08 00 01 C0
+AD 00 FF 02 FD FF FE 00 08 00 03 C0
+AD 00 FF 02 FD FF FE 00 08 00 05 C0
+AD 00 FF 02 FD FF FE 00 08 00 07 C0
+Then save hexadecimal display as bin file as SS.bin
+Extracting PFI (Physical Format Information) Sector
+-------------------------------------------------------------------
+Run DVDinfoPro
+From Advanced Commands pull down menu choose Send Custom Command
+From Preset Commands pull down menu choose "00h Physical Format Information" from under the Read DVD Struct Commands heading
+Click Send
+Then save hexadecimal display as bin file as PFI.bin
+Extracting DMI (Disk Manufacturing Information) Sector
+-------------------------------------------------------------------
+Run DVDinfoPro
+From Advanced Commands pull down menu choose "04h Disc Manufacturing Info"
+Click OK on Read DVD Structure Option window
+Then save hexadecimal display as bin file as DMI.bin
+Creating a game backup
+-----------------------------------
+Drive is still in 0800 mode.
+Extract Isobuilder.rar
+Insert original game disk into drive and wait for windows to detect disk change
+Run DVDinfoPro
+Enter the following custom cdb command to unlock drive: (game data visable)
+FF 08 01 01
+Run Isobuster
+Right click on DVD and select Extract From-To
+Click Length and enter number of LBAs as follows:
+Xbox 1 Original Number of LBA to read 3431264 decimal
+or
+Xbox 360 Original Number of LBA to read 3567872 decimal
+Select User Data (2048 bytes/block)
+Click Start Extraction
+Enter filename as game.iso and click Save
+Upon read error dialogue box choose fill with blank zeros for sector and select use this selection for all errors
+Copy game.iso, ss.bin, PFI.bin and DMI.bin to the relevent isobuilder directory (Depending on Xbox 360 or Xbox 1 game)
+Run build360.bat (Xbox 360 game) or build.bat (xbox 1 game).
+These batch files now expect PFI and DMI bin files
+Burn with CloneCd and choose the image.dvd file
+Turning off 0800 mode of firmware
+------------------------------------------------
+Either insert game backup (Xbox 360 or Xbox 1) or DVD movie. This de-activates 0800 part of firmware or turn off console.
+Thanks to everyone on #FW, Xboxhacker.net , Xbox-Scene.com, Maxconsole.com and Xbins.Org for their support. Keep up the good work everyone.
+Commodore4Eva@gmail.com
+ 
+http://www.xbox-inf.org/forum

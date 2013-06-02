@@ -1,0 +1,23 @@
+XBMC 2.0 11-05-2006 FahxBahx Linksboks Integrated
+
+Yes, you read that right, LINKSBOKS INTEGRATED! Your good ole pal GhrayFahx is here with the FIRST major release of XBMC 2.0 with Linksboks integrated right into it. And thanks to Roormonger's hard work, it is even supported in MC360. Yet another first ladies and gents. I hope this squashes the belief that I just cop builds by others. Just go to the XBMC Live blade and it's right there under internet. I've also included a new splash that I think you all should like. Well, without further ado, here's the build.
+
+
+
+*************************************************************************************************************
+*************************************************************************************************************
+                                     Xbox Media Center CHANGELOG
+************************************************************************************************************* 
+*************************************************************************************************************
+
+added/fixed: (dd-mm-yyyy) (please specify date in CET)
+ - 03-11-2006 updated: Dutch language file (Thnx to MrNice).
+ - 03-11-2006 changed: XBMC.ResetSkinSettings() now resets the settings instead of removing them.
+ - 02-11-2006 changed: .flv files default to the dvdplayer
+ - 01-11-2006 fixed: [1586248] http api would not show errors for GetSystemInfo and GetSystemInfoByName
+ - 01-11-2006 fixed: random slideshow screensaver wouldnt always be random
+ - 01-11-2006 fixed: increased the speed of archive extraction a notch.
+ - 01-11-2006 changed: additional logging for replay-tv filesystem to hopefully figure out why it doesn't work anymore for mplayer.
+ - 30-10-2006 changed: memory allocation for dll loader, saves around 100k
+ - 30-10-2006 changed: httpapi GuiSetting to accept String type by EQ2K
+ - 29-10-2006 changed: now disables navsounds during playback. behaviour can be reverted using advancedsettings.xml

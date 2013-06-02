@@ -1,0 +1,70 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ------------------------------------------------------------%
+┬ñ                      ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ-----------%
+┬ñ┬ñ  ┬ñ┬ñ  ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ     ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ        ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ    ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ----------%
+┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ    ┬ñ┬ñ    ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ   ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ---------%
+┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ    ┬ñ┬ñ┬ñ     ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ   ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ--------%
+┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ     ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ        ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ        ┬ñ┬ñ┬ñ     ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ-------%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ     ┬ñ┬ñ┬ñ          ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ------%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ      ┬ñ┬ñ┬ñ    ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ-----%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ        ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ        ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ----%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ                      ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ---%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ----------------------------------------------------%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\                                                                                 \
+\                     //==================================\\                      \
+\                      |                                  |                       \
+\                      |             STUNTS               |                       \
+\                      |                                  |                       \
+\                      ====================================                       \
+\                      |                                  |                       \
+\                      |            Contents:             |                       \
+\                      |                                  |                       \
+\                      |   2 discs 1 folder               |                       \
+\                      |                                  |                       \
+\                      |   Disk A, Disk B                 |                       \
+\                      |   3 different cracks             |                       \
+\                      |                                  |                       \
+\                      |             Size:                |                       \
+\                      |                                  |                       \
+\                      |   zip ~1,03MB/~1,03MB (unzipped) |                       \
+\                     \\==================================//                      \
+\                                                                                 \
+\            For updates and extras related to this game please visit             \
+\                                                                                 \
+\                      http://www.kalpen.de/stunts/downldst.htm                   \
+\                                                                                 \
+\                                                                                 \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\                                                                                 \
+\                REPLAY - brings you the best of classic gaming...                \
+\                                                                                 \
+\  We're a bunch of guys that like old games. NO, we LOVE them! Some of us has    \
+\   grown up with titles like this one... and we want to give you and others      \
+\      the opportunity to share yet a game that was just a little bit to          \
+\                           good to be forgotten.                                 \
+\                                                                                 \
+\        We will release more classic titles like "Total Annihilation",           \
+\        "Diablo", "Fallout" the C&C series and more to come...                   \
+\                                                                                 \
+\                                                                                 \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\                                                                                 \
+\                               INSTRUCTIONS                                      \
+\                                                                                 \
+\    This is how I did.                                                           \
+\    Unzip one of those crackfiles with (winrar or winzip or similar)             \
+\    to a folder together with disk A and disk B's contents.                      \
+\    I unzipped "bb11crac" (this crack seems to work best for me to a             \
+\    folder called simply "stunts" and copied the contents from "disk b" to that  \
+\    folder. After that I copied all the contents from the "disk a" zip and       \
+\    overwrited any files it asked about. Then it was only to run the gamefile    \
+\    called "stunts_k". When the prompt for a special word to be typed in         \
+\    appears; just press the forward key to skip it.                              \
+\                                                                                 \
+\    Follow the software's instructions, install and run. Enjoy!                  \
+\                                                                                 \
+\    http://www.rarsoft.com                                                       \
+\                                                                                 \
+\                                                                                 \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

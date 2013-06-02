@@ -1,0 +1,114 @@
+﻿User Type,Username,Date,Text
+,Phrexian0,2006-12-17T15:53Z,"Thank God for you! I love this, the read me was VERy VERy helpful. Please tell me you have fallout2 as well? I've tryed it with other people, but it won't work. But yours did. Is there anyway you could help me with fallout2?"
+,kuromori,2007-03-26T22:01Z,"Phrexian0, I'm glad that I helped you.
+
+I'm sorry to say that I do not have Fallout 2 (at least on a CD), I had to download it via a torrent.  There are a few good torrents that contain it.. just keep looking. :)"
+,Don_Fuk Wit_Yuk,2007-05-22T19:54Z,seed baby
+,Verwandlung-,2007-07-09T11:19Z,amazing game!!!
+,Verwandlung-,2007-07-09T11:22Z,"also :
+http://www.nma-fallout.com/forum/dload.php?action=category&cat_id=3"
+,oinkdamnit,2007-07-17T06:13Z,ok im really new at the torrent downloads i need help on how to install the game do i need to burn it to a cd using the iso???please help 
+,oinkdamnit,2007-07-17T12:56Z,it wont let me install the direct3d from the install screen???but i went and downloaded it from another site and when i click install it freezes what the hell help???if you can
+,JesusEatsBabies,2007-10-10T02:59Z,"I can't get it to work. Burnt the ISO to a CD-R and the burn went fine, popped it back in and installed the game and installation went fine, unzipped the patch into the folder fine but when i click on it to play i get an error message that says I don't have enough free disk space, that I need at least 20 MEGAbytes free but i have almost 50 GIGAbytes free so WTF?"
+,Lack85,2007-11-13T19:38Z,"Realy good game. and to al of you that have NOT found the G.E.C.K ....serch in NCR ;)
+
+:- some1 found the iss that is needed to sail out on oil rig?"
+,kuromori,2008-02-07T20:07Z,"@jesus
+
+this is a common problem with the fallout config file.  go to the fallout folder, and look for ""fallout.cfg"".  open this and under [system], change free_space to equal 1.
+
+fallout seems to have a problem with large hdds."
+,MozzoO,2008-04-15T17:30Z,"seeds plz
+
+thnx.. o_O"
+,Silent_Screams,2008-11-06T11:48Z,"Downloaded it and it seems to work fine, Though my PC will just turn itself off at random times while playing Fallout, did this once so i installed up to patch 1.3.4 (unofficial) the problem still hasn't been resolved. Other then that Great Job giving this game to the masses. :-)  "
+,Chipsoft,2009-04-06T23:37Z,"Awesome, works amazing!
+Thx for this one :D"
+,mizushinzui,2009-04-26T01:12Z,"Great Upload dude, just finished fallout3 and wanted to play through 1 and 2 again awsomeness :P"
+,outcastking,2009-06-02T09:42Z,"I have a problem. I was able to install everything fine but I got up to the point in the game where I'm just about to leave the Vault when an error pops up saying I don't have enough disk space to save the map. I have 142 GB left!!! Surely I can't need more than that. I saw your solution for jesus and followed that but when I arrive at fallou.cfg there is no free_space under systems
+Here is what I'm seeing:
+[system]
+critter_dat=C:\Program Files\Interplay\Fallout\critter.dat
+critter_patches=C:\Program Files\Interplay\Fallout\data
+master_dat=C:\Program Files\Interplay\Fallout\master.dat
+master_patches=C:\Program Files\Interplay\Fallout\data
+art_cache_size=1047
+Please help. I want to leave the Vault"
+,kuromori,2009-06-06T04:15Z,"@outcastking
+
+just add free_space=1 
+
+@chip, mizu
+
+you're welcome =D"
+,Arg_the_pirate,2009-08-27T03:05Z,"I am having the same problem as Frost. When I click install,  it notifies me of a more recent version of DirectX (I have 9.0c) and when I click not to install it, the screen goes black and I'm forced to end it through Task Manager (it becomes unresponsive).
+
+Any idea on how to fix this?"
+,Arg_the_pirate,2009-08-27T03:53Z,"I found a solution. 
+
+Right click on the mounted disk in ""My Computer"" and click ""Explore"".
+
+You're going to see SETUP.EXE. Click the one that DOESN'T say Interplay Productions under it. I didn't click that one, so I don't know if it works.
+
+When you do, it will guide you, and the screen might turn completely blue. Just use your mouse to clear it; move it around.
+
+This is how I got it to work. However, there is one more problem ahead.
+
+It will tell you that it will proceed to play a promo video after finishing installation. The video froze on me and became unresponsive; if it does this, just end it through the Task Manager.
+
+Afterward, go back to FALLOUT in My Computer, click on it, and the ""Play"" button should be highlighted. 
+
+Hopefully this will solve Frost's problem and others if it happens to them."
+,Alluboy,2009-09-05T21:06Z,"I'm having a problem here. After I install the game, and launch the game, the screen just gets black like for two secs and then it just closes the game. I'm using XP btw.
+
+Help would be appreciated. "
+,Alluboy,2009-09-08T06:23Z,"Okay...I got it working, but I can't exit the damn vault now. I just step  to the exit but it doesn't enter the map, it just stays here. Sometimes it gives me the application error."
+,ChenH,2009-11-01T20:34Z,Awesome download speed!
+,SpartanMarine88,2010-01-15T03:50Z,"I find this site useful for all things fallout, they have created mods and have walk throughs to make the game work perfectly
+
+http://www.nma-fallout.com/article.php?id=1593"
+,barrador,2010-01-24T10:49Z,"Interplay did a good job with this game...
+Bethesda ruined it...
+
+at least Interplay has the rights to make the MMORPG version.. :)"
+,Gamejunkiez,2010-09-16T16:53Z,"- Mount and install to any location.
+
+- Open the install dir and delete the ereg files.
+(So it will not bug you each time you start)
+
+- Crash explorer.exe using the task manager.
+- File --> New task ---> and enter path to your game.
+(Example: E:\Games\Fallout\falloutw.exe)
+
+Now the game will launch without mixed up colors and without ereg crap.
+
+After you finished playing do this:
+- File --> New task ---> explorer.exe
+
+Enjoy. :)"
+,Jimmyjkjr,2010-09-30T02:12Z,Has anyone gotten around the compatibility issues with Windows 7? 
+,D34D_1N_D1TCH3S,2010-12-05T00:22Z,"urmm, hey if anyone is still looking at this, using windows 7, having some difficulties sorting out the directory or something, help appreciated :)"
+,areyde,2011-01-06T13:10Z,"Have anybody got problem like that:
+I can't install the game to HDD called D. Even if I choose it, the installation installs it to C. Everything is allright with Fallout 2."
+,joszii,2011-01-15T22:28Z,"To have the best experience, use the following patch compilation:
+
+http://www.nma-fallout.com/forum/viewtopic.php?t=57362"
+,Severen_Caine,2011-10-26T06:15Z,"The solution to the problem of garbled colors for Fallout in Windows7.
+
+Right click on desktop and select screen resolution option. A window will pop up, prompting you to select resolution and orientation etc. Leave the window open and start the game. Starcraft will run with proper colors right away. For Fallout, do an additional step of running the game in compatibility mode with WinXP or Win98 (right click on game executable and make the selection in the compatibility tab)
+
+This issue is caused by the change in WDDM model done for Windows7, and affect some directdraw based games when they go full-screen.
+
+Another fix for all these games is to kill the Explorer task through the process tab in Task Manager. After finishing game session, you can restart explorer by clicking on ""New Task"" in applications tab of task manager. You won't see any problems in DirectDraw games.
+
+In any case, leaving ""screen resolution"" window open is the most convenient work around."
+,snGussharing,2012-01-13T00:56Z,"This is a good torrent, works great.
+
+Game is good and perfect for netbooks."
+,lane_levesque,2012-06-13T03:10Z,Great torrent! Thank you so much :)
+,lane_levesque,2012-06-13T03:10Z,"Oh, and Phrexian0
+
+http://thepiratebay.se/torrent/4399057/Fallout_2[US][Unofficial_Patch_Included]
+
+There's Fallout 2 for ya! :)"
+,NirvanaObituary,2012-08-09T22:21Z,Sweet

@@ -1,0 +1,52 @@
+﻿User Type,Username,Date,Text
+,blankbox,2006-10-28T18:15Z,Hey...if it works for you....seed this son-of-a-bitch gonna fuck up a lotta ISP's day!!!
+,blankbox,2006-10-28T18:47Z,"Here's a list of IPs
+
+hXXp://www.azureuswiki.com/index.php/Bad_ISPs
+
+are you on one of these????
+
+Ohhhhh....and aftershve.....take a fukkin shower...deoderant only works so long.."
+,Shiva,2006-10-28T19:24Z,wtf is this?
+,oktan,2006-10-28T19:24Z,"Hm? hXXp ?????? vad är det för fucked up adress?
+luktar spyware o virus lång väg detta."
+,blankbox,2006-10-28T19:30Z,I don't post live links...copy the link ....paste ...and make the change yourself.
+,raaon,2006-10-28T21:06Z,"this didn't do too much for me
+
+autospeed works better for azureus. get it from the plugins installation wizard..."
+,blankbox,2006-10-28T21:43Z,"raaon
+THANX guy...feedback good or bad at least its feedback!! This isn't the cure-all for everybody. Never used Azeurius so...don't know. Have had enough feedback to know it helps some folk ...so if not you ...find another solution that does. Perhaps also....you don't have a slow torrent problem to fix???"
+,blankbox,2006-10-29T17:46Z,"General_300_200_100.....maybe....just maybe....you should take a DOS 101 course 'ya know the stuff that preceeded xp - win98 - win95 - etc before ""ya open your cake hole ....and if you can't sniff for virus infections LAWD HAVE MERCY...watcha doing in here then 
+no offense...but take a PROZAC or something.."
+,Lenin,2006-10-29T22:39Z,Nån som läst kodningen till filen? Finns det någon rimlig chans att det kan funka?
+,bakela00,2006-11-01T16:07Z,"haha.. fun...
+
+this shit pings your local macine 240 times after it has flushed all dns/mac + renewed you local ip.... then, it loops back again and flushes everyting and keep on pinging youself 240 times... its simple a neverending loop-.....
+
+heres the code:
+
+:START
+ipconfig /renew
+arp -d
+nbtstat -R
+nbtstat -RR
+ipconfig /flushdns
+ipconfig /registerdns
+ping 127.0.0.1 -n 240
+GOTO START"
+,blankbox,2006-11-01T16:26Z,Yeppers!!! you got it.....but it sure keeps things running smooooth...and just might give your ISP a frikkin headache figgering out why your downloads keep running maxed!!
+,blankbox,2006-11-01T16:32Z,oh...should mention....that 240 ....is seconds...can change to your own value...no problem...240 just works best for me..
+,bakela00,2006-11-01T18:10Z,"""but it sure keeps things running smooooth...""
+
+I'm really woundering how this could be possible.... when a pc's ip is renewd it loses its connection... how the heck can that speed up anything.... 
+
+HOAX"
+,blankbox,2006-11-01T19:09Z,..wish i could post a pic here cause i got one that speaks for itself..
+,blankbox,2006-11-01T19:38Z,direct link no workee....just copy and paste
+,samtheman11,2007-04-04T15:13Z,"Yo I'm at 0% 
+so can someone seed fer like... 30 sec
+Thanks!"
+,Proxp7,2008-03-19T05:59Z,"Ok.I followed the instructions by bakela00 since there is no seeders and WOW.I was downloading at 5kb/s now 79kb/s!
+What a difference!!!Thank you 1000000000 times !
+By the way, is this going to affect how my computer works or God forbit corrupt my files?
+I am dumb, I sould've asked this before I followed these steps.Still, good to know."

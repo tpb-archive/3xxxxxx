@@ -1,0 +1,96 @@
+﻿User Type,Username,Date,Text
+,Freakydriver,2007-01-15T02:48Z,"Thx ^^ Good game, caught some big fishes. Attention: But i cant use my left mouse button in game or in menu :/ you must press enter to get thru the menu, and reele in the line with enter! not a problem for me. but now everbody knows :D"
+,jdrake_2,2007-01-15T14:49Z,I had no control problems.  Mouse worked find to cast and reel in.
+,niteplyr,2007-01-15T17:55Z,won't work  mfc client error
+,swejoe2,2007-01-15T20:35Z,wonderfull game 
+,Netrom89,2007-01-16T11:47Z,This is a virus.... Dont download.. Kaspersky Go cracy
+,shpid1,2007-01-16T15:30Z,"This game works fine, thanks for the download"
+,L i Q U i D,2007-01-17T00:22Z,"Hey u Guys!
+I cant use the Mouse in this game! Any pointers?"
+,to_rent ,2007-01-17T01:25Z,SPELET FUNGERAR INTE ....DET CRASHAR I FÖRSTA MENYN ....TAR MAN NER CONSOLLEN STÅR DET ERROR OVS ...PS-den säger nått annat kan dra åt helvete ! ! ! 
+,titta,2007-01-17T02:18Z,the game works but not perfect! i cant use mousebuttom to swing out the line!! space dont work either... this game looks very nice exept that bugg or what it is....! 
+,piscus,2007-01-17T02:49Z,I'm having trouble loading up after it is installed. A black screen pops up describing processers or something... then it just seems to freeze. Anyone else having this issue? Solutions?
+,athsucks,2007-01-18T11:55Z,it worked only once for me!then i have to restart my pc to play again and after some time it crashes!its great game to kill some time but...anyone who can help..?
+,JustAkid,2007-01-18T14:32Z,"funkar, inget virus. mus knapparna funkar inte får trycka enter istället"
+,jokkeroel,2007-01-20T22:15Z,"im just getting the ; vivendi games, big island games blablabla registered trademark, and it doesnt get past that screen. "
+,jokkeroel,2007-01-21T15:15Z,"would someone care to share? i cant get past the first screen
+and it says: bink example player(not responding)
+plz?"
+,HasseSWE,2007-01-22T18:37Z,Spelet funkar men inte knapparna på musen..Annars inga problem.
+,p`LAN,2007-02-03T02:49Z,when it got done downloading i opened the folder and all i see bunch of files half of them winrar and half of them bin files....how do i play the game...help please?
+,p`LAN,2007-02-03T02:50Z,aka....i dont know how to install it..lol help me please
+,dee1231,2007-02-03T20:42Z,"im sure the game works fine, it must be something im doing wrong...but when i go to install the game it just sits at ""making temporary folder"""
+,dee1231,2007-02-03T20:44Z,help...please
+,dee1231,2007-02-03T20:54Z,"!!CORRECTION!!  it does not say ""Making Temporary folder""......it says ""Creating Temporary File""
+
+ Thanks again for any help!"
+,jockecombat,2007-02-06T11:06Z,"Wokrs OK! If the game  stops when ""creating tempory files"" just wait, i wait and it took a while then it started. And one more thing, the mouse buttons dont work in this game"
+,Danne_Matte,2007-02-08T21:02Z,"Works perfect for me.
+No trouble with the mouse or nothing thanx fo a superb Game!"
+,ncls,2007-02-09T20:49Z,"fungerar inte för mig, det står ""Error in initrenderer, Shutting down"", nån som har bra info om problemet:)?"
+,edleen,2007-02-13T10:43Z,"I cant get it to work, not with mouse nor keyboard, anyone have a solution?"
+,Gtgoon,2007-02-13T20:12Z,"Works, but its weird for me. The screen is disoriented and. The mouse button doesn't work. However, to be honest this isn't really a fun game."
+,evileducator,2007-02-28T12:58Z,"Hi can anybody help me? I dont even know what to do with the 49 files.
+
+thanks"
+,Sisuu,2007-03-04T20:45Z,I've got the same mouse control problem. Can't do anything with mouse. Is there any way to fix it?
+,beercat,2007-03-06T19:03Z,The game is a dud to say the least..i haven't been able to adjust the resolution to match the desktop and i can't save any of the tournaments...too many problems to even fool with..going back to the old pro bass fishing
+,bollinger109193,2007-06-17T23:43Z,"Hi everybody. Several people reported malfunctioning of mousebuttons when they play Trophy Bass Fishing Hole 2007. We figured out this problem occurs with people that have a non-English Operating System. The game was intended for sale in North America only.
+
+Anyway, there is an easy way to fix this:
+
+    * Open ""autoexec.cfg"" which is located in the TB2007 install folder.  By default this is C:/program files/Trophy Bass 2007/WORK/bin. 
+    * replace rangebind ""##mouse"" ""Button 0"" 0.000000 0.000000 ""Shoot"" with rangebind ""##mouse"" ""##Button 0"" 0.000000 0.000000 ""Shoot""
+    * replace rangebind ""##mouse"" ""Button 1"" 0.000000 0.000000 ""QuickReel"" with rangebind ""##mouse"" ""##Button 1"" 0.000000 0.000000 ""QuickReel"" "
+,bollinger109193,2007-06-18T00:31Z,Får inte inte tangentbordet att fungera så ställer ni om språkinställningarna till engelska så skall det fungera perfekt.
+,ryssken,2007-07-18T21:39Z,can somebody explan better so i can understand there is no button1 just z-axis:S plssssssssssss beskriv på svenska tack!!!!
+,marjacques,2007-08-08T20:34Z,"thanks to bollinger109193 for the code. 
+
+in my autoexec.cfg didn´t exist a line like ""rangebind ""##mouse"" ""Button 0"" 0.000000 0.000000 ""Shoot"". 
+there eas only codes like this: 
+""rangebind ""##mouse"" ""##z-axis"" 0.000000 0.000000 ""Axis3"" 
+scale ""##mouse"" ""##z-axis"" 0.040000
+
+so the only thing to do is ad these two lines (leaving the other lines as they are) after
+- enabledevice ""##mouse"":
+rangebind ""##mouse"" ""##Button 1"" 0.000000 0.000000 ""QuickReel"" 
+rangebind ""##mouse"" ""##Button 0"" 0.000000 0.000000 ""Shoot"" 
+
+i´m using my mouse ok now. i hope it help somebody"
+,knyken,2007-12-10T13:21Z,ge mig en påsa ris
+,svensk_huvudverk,2008-01-09T21:11Z,här får du en!!
+,13Kima,2008-02-04T18:07Z,Seeda Snella seeda snella
+,Szed,2008-02-08T20:04Z,"thanks bollinger109193 and marjacques, but sorry .. I dont really understand you :S
+first, you said: open autoexec.cfg, what program do I have to open it with?
+
+the other thing you wrote about might be a little easier to understand when I have past this problem.. I guess
+
+thank you ;)"
+,roeseph24,2008-08-07T07:12Z,"the initial load works fine, then i get some init. rendering error and the game crashes.  ive re-installed it twice now...any help?"
+,jon1687,2008-08-15T00:40Z,"When I load the game it goes through the opening scenes and then aborts to my desktop with the caption...""Error in InitRenderer(). Shutting Down.
+Has this happened to anyone else?  Is there a way to fix this? "
+,Nyack.blk,2008-09-30T04:52Z,"jon1687 at 2008-08-15 00:40 CET: 
+
+When I load the game it goes through the opening scenes and then aborts to my desktop with the caption...""Error in InitRenderer(). Shutting Down.
+Has this happened to anyone else? Is there a way to fix this? 
+
+I have the same problem"
+,minime1977,2009-08-26T19:12Z,"THE PROPER FIX FOR THE MOUSE BUG (at least for swedish operating systems):
+
+Open ""autoexec.cfg"" which is located in the TB2007 install folder. By default this is C:/program/Trophy Bass 2007/WORK/bin. Under the line "" enabledevice ""##mouse"" "" input:
+
+rangebind ""##mouse"" ""##Button 0"" 0.000000 0.000000 ""Shoot""
+rangebind ""##mouse"" ""##Button 1"" 0.000000 0.000000 ""QuickReel""
+
+This will make the file look like this at the end of the textfile:
+enabledevice ""##mouse""
+rangebind ""##mouse"" ""##Button 0"" 0.000000 0.000000 ""Shoot""
+rangebind ""##mouse"" ""##Button 1"" 0.000000 0.000000 ""QuickReel""
+rangebind ""##mouse"" ""##z-axis"" 0.000000 0.000000 ""Axis3"" 
+scale ""##mouse"" ""##z-axis"" 0.040000
+rangebind ""##mouse"" ""##y-axis"" 0.000000 0.000000 ""Axis2"" 
+scale ""##mouse"" ""##y-axis"" 0.004625
+rangebind ""##mouse"" ""##x-axis"" 0.000000 0.000000 ""Axis1"" 
+scale ""##mouse"" ""##x-axis"" 0.004625
+ModelAdd 0.000000 0.000000 0.000000"
+,D-man1985,2011-10-21T12:51Z,"please please seed, this game is a must have for us fishing freaks in South Africa.. ;)"

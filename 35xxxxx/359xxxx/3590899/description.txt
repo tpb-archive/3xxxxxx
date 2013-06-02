@@ -1,0 +1,13 @@
+Extra Drive Creator Pro - suite of tools for creating Extra drives on your computer. The program includes tools for creating Encrypted drives, Virtual CD-ROMs, Virtual Drives based on files, Virtual Drives based on folders, RAM-drives...
+
+Extra Drive Creator contains tools:
+
+Crypted Drive - tool is used for creating Crypted drives on your computer. On this drive you can store confidential information which you`d like to keep secret from other users. The drive is crypted by 256-bit (32 symbols) password using "AES256" algorithm in real-time mode (this ensures steady protection of your data against hacking).  
+
+Virtual CD - tool is used for creating and reading ISO-images of CD-ROMs and also for mounting them as Virual CD-ROMs on your computer. On creating Virtual CD in Explorer of your computer will appear Virtual CD-ROM and ISO-image on your hard drive on which information from created drive will be kept. 
+
+File to Drive - tool is used for creating extra drive without partitioning hard drive of your computer on additional drives. This tool uses file as basis for extra drive. After creation, Windows Explorer will show an extra drive and container file on your hard drive on which will be kept information from created drive.
+
+Folder Drive - tool is used for creating an extra drive without creating more partitions on the hard drive of your computer. This tool uses a folder as a basis for the extra drive and serves for making access to frequently used folders of your computer more easy.
+
+RAM Drive - tool is used for creating an extra drive without creating more partitions on the hard drive of your computer. This tool uses RAM memory as a basis for an extra drive. All information kept on this drive will be lost after reboot of your computer. Similar drives are used for storing temporary information (TEMP/TMP computer variables) or for applications which need maximum access speed to drive.

@@ -1,0 +1,17 @@
+*** PATCH 4.1.7 CHANGELOG ***
+
+Additions:
+* Pistol 40, credits to FDF mod
+* Ra145
+* Markers, mostly for CTI gameplay.
+* Easy Artillery. Use the "weapon" Ra145 or Ra180 with their magazine.
+* Weapons can jam.
+* CTI mission included, no other addons needed and both sides play with SFP soldiers.
+
+Fixes:
+* M58 and M59 soldier models updated.
+* Patira terrianConf lowered.
+* Fixed eventhandlers that used type of instead of countType.
+
+
+NEED Operation Flashpoint Resistance version 1.96 to work.

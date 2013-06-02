@@ -1,0 +1,139 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ------------------------------------------------------------%
+┬ñ                      ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ-----------%
+┬ñ┬ñ  ┬ñ┬ñ  ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ     ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ        ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ    ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ----------%
+┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ    ┬ñ┬ñ    ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ   ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ---------%
+┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ    ┬ñ┬ñ┬ñ     ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ   ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ--------%
+┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ     ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ        ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ        ┬ñ┬ñ┬ñ     ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ-------%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ     ┬ñ┬ñ┬ñ          ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ------%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ      ┬ñ┬ñ┬ñ    ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ-----%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ  ┬ñ┬ñ        ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ        ┬ñ┬ñ   ┬ñ┬ñ┬ñ  ┬ñ┬ñ┬ñ┬ñ   ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ----%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ                      ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ---%
+┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ┬ñ----------------------------------------------------%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\                                                                                 \
+\                     //==================================\\                      \
+\                      |                                  |                       \
+\                      |  Little Big adventure 2(LBA2):   |                       \
+\                      |       Twinsen's Odyssey          |                       \              
+\                      |                                  |                       \
+\                      ====================================                       \
+\                      |                                  |                       \
+\                      |            Contents:             |                       \
+\                      |                                  |                       \
+\                      |   1CD                            |                       \
+\                      |                                  |                       \
+\                      |   LBA2.nrg                       |                       \
+\                      |                                  |                       \
+\                      |   XP/W2k-patch - For Compability |                       \
+\                      |                                  |                       \
+\                      |             Size:                |                       \
+\                      |                                  |                       \
+\                      |   ~618MB                         |                       \
+\                     \\==================================//                      \
+\                                                                                 \
+\            For updates and extras related to this game please visit             \
+\                                                                                 \
+\                Useful links:                                                    \
+\                http://lbawin.akoonet.com/                                       \
+\                http://www.geocities.com/e_swensen/                              \
+\                http://en.wikipedia.org/wiki/Little_Big_Adventure_2              \
+\                                                                                 \
+\                                                                                 \
+\   Note: those links provided here may not be related to the                     \
+\   original game developers, they are only included to give you a point in the   \
+\   right direction if trouble should occur.                                      \
+\                                                                                 \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\                                                                                 \
+\                REPLAY - brings you the best of classic gaming...                \
+\                                                                                 \
+\  We're a bunch of guys that like old games. NO, we LOVE them! Some of us has    \
+\   grown up with titles like this one... and we want to give you and others      \
+\      the opportunity to share yet a game that was just a little bit to          \
+\                           good to be forgotten.                                 \
+\                                                                                 \
+\        We will release more classic titles like "Total Annihilation",           \
+\        "Diablo", "Sunts" the C&C series and more to come...                     \
+\                                                                                 \
+\                                                                                 \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\                                                                                 \
+\                               INSTRUCTIONS                                      \
+\                                                                                 \
+\    Mount the image file with a program like alcohol120% or daemon-tools.        \
+\                                                                                 \
+\    Follow the software's instructions, install and run. Enjoy!                  \
+\                                                                                 \
+\    http://www.daemon-tools.cc/dtcc/download.php                                 \
+\                                                                                 \
+\                                                                                 \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\                                                                                 \
+\                            LBA2: Twinsen's Odyssey                              \
+\                                                                                 \
+\ The sequel to the epic Little Big Adventure had been long waited for. Adeline   \
+\ wanted to create something new with LBA2 as they did with LBA1, while           \
+\ maintaining the feeling and sense of adventure of LBA1. After a year and a half \
+\ in production, LBA2 was finally released late in the summer of 1997.            \
+\                                                                                 \
+\                                                                                 \
+\ Twinsen chattingStory: LBA2 takes place a couple of years after the defeat of   \
+\ the tyrant Dr. Funfrock in LBA1. The planet has adjusted to life without        \
+\ FunFrock in power, and everything is peaceful. You start off on a quest to find \
+\ the weatherman, as bad weather is preventing you from travelling. But as you    \
+\ find him, and he clears the sky of dense rain clouds, UFOs land, and friendly   \
+\ Aliens emerge. The story revolves around those Aliens and their somewhat vague  \
+\ intentions at times. You travel across the three planets, Twinsun, Emerald      \
+\ moon, and Zeelich in an attempt to discover the truth regarding their           \
+\ intentions.                                                                     \
+\                                                                                 \
+\ Graphics: The Adeline team had, at the time, always been a pioneer in the field \
+\ of graphics. First implementing 3d into Alone in the Dark, then using           \
+\ incredibly detailed static backgrounds in LBA1, and pushing the boundaries with \
+\ prerendered backgrounds in Time Commando. It was obvious from the start they    \
+\ were going to do something new with LBA2 yet again. And they did.               \
+\                                                                                 \
+\ LBA2 boasts a full 3D world, something not so common in the world of adventure  \
+\ gaming during that time. LBA2 is a world of detailed and lush terrain, fluidly  \
+\ animated characters, and special effects rarely used during its day was the     \
+\ norm in LBA2, such as the rain on Citadel Island when you first start the game, \
+\ or the fiery lava on Celebration Island.                                        \
+\                                                                                 \
+\ LBA2 also used a completely rewritten game engine, the "Nectar", which made all \
+\ the graphics possible in LBA2. One thing can be said about LBA2's graphics      \
+\ without uncertainty; they leave the game playable to this day with little       \
+\ complaints.                                                                     \
+\                                                                                 \
+\ Audio: Philippe Vachey, who composed the soundtrack for LBA1 continued to       \
+\ compose music for LBA2. The music of LBA2 had a more epic feeling to it, aimed  \
+\ at emphasising the feeling of battle. Unlike LBA1, LBA2 features a fair amount  \
+\ of fighting, with soldiers far more common and aggressive, and even better      \
+\ equipped. The soundtracks adjust to that, so say a location you visit is        \
+\ over-run by the emperors soldiers, the music track would blend into a track     \
+\ with a more epic upbeat feeling to it. Also, like LBA1, there are voice overs   \
+\ for all the characters. One word comes to mind while were on the topic of voice \
+\ overs, Mosquibees...                                                            \
+\                                                                                 \
+\                                                                                 \
+\                                                                                 \
+\ Franco's IslandGameplay: The gameplay in LBA2 has not changed much compared to  \
+\ the one of LBA1, except for some small new functions. You can still use the     \
+\ same behaviour scheme with the Normal, Athletic (now called 'Sporty'),          \
+\ Aggressive and Discreet modes. As an addition Twinsen can now avoid projectiles \
+\ with  some dashing moves that are different in all four behaviour modes. The    \
+\ health meter, magic meter and clover boxes are still there. There are again     \
+\ four levels of magic in which the magic bar will extend and the magic ball will \
+\ become more powerful. In the beginning of the game you start with the first     \
+\ level of magic again. There is still place for twenty-eight different items.    \
+\ There are more weapons than in LBA1, including a laser pistol and an            \
+\ upgradeable blowgun.                                                            \
+\                                                                                 \
+\ Overall: LBA2 expands upon the sense of adventure displayed in LBA1. While the  \
+\ game is at times lacking in puzzles, or scenarios requiring you to think your   \
+\ way out, it is an improvement over its predecessor in terms of gameplay. Its    \
+\ strongest point is its ability to fully immerse the player in a world that is   \
+\ unique and funny.                                                               \
+\                                                                                 \
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

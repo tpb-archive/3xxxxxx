@@ -1,0 +1,20 @@
+TCPIP.Sys Patcher by X3d
+
+Operating Systems:
+Windows XP or Windows 2003 Server SP1 beta 
+
+What's this all about?
+After almost everybody knows the <<EventID 4226: TCP/IP has reached the security limit imposed on the number of concurrent TCP connect attempts>>, I wrote this program to automaticlly fix it for you.
+
+Unfortunately there exists no REG-key which could easily be set (would be so nice and easy, right? *smile*). The file TCPIP.SYS in the directory C:\WINDOWS\SYSTEM32\DRIVERS and C:\WINDOWS\SERVICEPACKFILES\I386 has to be changed (system dependend eventually in C:\WINDOWS\SYSTEM32\DLLCACHE, too).
+
+What's been fixed:
+To say it easy: the before 10 half-open connections are beeing increased to 50 (can be changed during runtime and with the parameter /L) and the CRC is been corrected. And that's it! (Basiclly it allows more connections; for downloads, etc)
+  
+Comments:
+The method described here, should only be used by users who know how to handle all the described. With the download of this published program the user know that changes are made on third party files. For damages in every kind I cannot be hold responsible for. However tests worked fine here and nothing is impossible.
+Info: When error occurs, the patcher can change the TCPIP.SYS back to the original, so you should be fine.
+  
+Instructions:
+Just download the patcher and execute it. It will automatically find the windows directory decrease it, if it has already been increased it will then decrease.
+After a successful patch, the new TCPIP.SYS will be automatically installed. After that, the computer should be restarted. 

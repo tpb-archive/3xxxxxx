@@ -1,0 +1,20 @@
+Play .AVI movies (divx, Xvid, Mpeg4)
+
+Xvid-1.1.2-01112006 _Final Release
+
+Based on CVS from 01.11.2006 14:30h MET
+
+Changelog to Xvid-1.1.0:
+
+Xvid-1.1.2-01112006:
+- {core}: Fixed bug when frame-drop (N-VOP) feature is used in combination with
+packed B-frames
+- {core}: Fixed potential crash on AMD64/EMT64 architecture.
+- {core}: Fix for visual_object_verid vs. video_object_layer_verid problem.
+- {core}: Ensure intervening bytes are preserved in BitstreamInit()
+- {vfw}: Prevent segfault when encoding application calls compress_end with NULL
+codec context
+- {vfw}: Profile definitions updates.
+
+Xvid 1.1.2 fixes also a bug with unaligned bitstream buffers still present in
+Xvid 1.1.1.

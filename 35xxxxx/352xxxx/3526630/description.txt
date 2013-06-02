@@ -1,0 +1,37 @@
+How to use this boot image file:
+
+Burn with Nero Burning Rom.
+Here is How:
+NEW of course.
+.
+Select DVD/CD Boot option
+In Boot tab, select "Image file" and browse for ghost_boot.ima.
+Very important:
+Select "Enable expert settings" and set "Kind of emulation" to "Floppy Emulation 2.88MB"
+.
+.
+Label=>NEW
+.
+.
+Add your GHO image file to the DVD/CD, or any file (to enable burn)
+.
+.
+BURN BABY! BURN!!!
+
+
+You will find in this pakage:
+Norton Ghost 8.3.0.1331
+- extracted from Hiren's Boot CD v8.4
+LOGITECH MS-DOS Mouse driver Release 6.43
+- found on a wild search for an answer to the "mouse.com" unreadable floppy error
+Universal Host Controller Interface
+- USB Mouse driver
+Open Host Controller Interface driver
+- just in case
+
+
+BIG THANKS to:
+Hiren, of course.
+
+
+PS: If you have another(new) version of Norton Ghost for MS-DOS, feel free to use WINIMAGE to replace the one in this package with your own version

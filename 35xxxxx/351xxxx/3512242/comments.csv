@@ -1,0 +1,281 @@
+﻿User Type,Username,Date,Text
+,060846,2006-09-04T16:03Z,Has anyone been able to get this work?  After the crack registers the program it goes back to unregistered when you use it.
+,dreadlocks,2006-09-07T01:28Z,"im having same issue, it showes that its registered then when I use it it goes back to unregistered.."
+,The.FirstHustler,2006-09-11T18:56Z,"Yes it works !!
+But you can not have another vag-com program installed at the same time...i bugs the crack."
+,The.FirstHustler,2006-09-11T19:07Z,"Okay you are right !!
+I dont work anymore !!
+Only in shareware mode !!
+Maybe someone has been telling..."
+,060846,2006-09-20T15:29Z,Does anyone have a version and crack that works?
+,Rattle,2006-10-06T22:30Z,A working crack would have been nice.
+,cap-de-neamt,2006-11-15T03:14Z,"anyone knows a diagnoise software for  bmw 2001,x5?,,or this will work to?? thanks"
+,T_S_E,2006-12-14T01:18Z,"***Be aware that this is for a SERIAL connection, NOT a USB connection!**Can you use a converter cable from usb to serial?"
+,IDontNow,2006-12-29T16:13Z,I need vag-com 311.2... have any that? 
+,bako61,2007-04-03T01:08Z,thank you
+,joaquim_santos_silva,2007-07-21T12:10Z,"Hi, what do I do after I download this file, I renamed it to:Volkswagen_Passat_Official_Factory_Repair_Manual_1995-1997.pdf
+but when I hopen it it does not work
+
+joaquimsantossilva@vodamail.co.za"
+,joaquim_santos_silva,2007-07-21T12:10Z,"Hi, what do I do after I download this file, to make it  work
+
+joaquimsantossilva@vodamail.co.za"
+,Morteliuse,2007-09-21T00:18Z,"This works! Little buggy but works.
+
+1. Install Vag Com
+2. Copy crack to vag folder
+3. Run crack
+4. Run Vag Com
+5. Delete d1,d2 and d3 every time u are finito with one vag com roundt
+6. Do 3-5 whene you want to run vag com again"
+,Coolshrek,2008-01-03T21:56Z,"So, anyone has a VAG-COM 409.1 cracked that works with the USB connection?
+Thanks Morteliuse!  "
+,hmsm3,2008-01-20T01:55Z,"ummm yes this DOES work with USB. it does not work if u do ""auto scan"" u have to do it one by one by selecting ""select control module"" but u have to be sure to run the crack after scanning or erasing the cel because it will delete the crack everytime. kind of annoying but hey beats paying $100"
+,erk11,2008-02-05T23:47Z,"I simply wrote a short batch program that checks if d1, d2 and d3 exists and, if not, copies d1, d2 and d3 from another location.
+The program loops forever (until I close it).
+No more problems with copying the files after every module."
+,mattsux,2008-02-11T18:25Z,It's no problem - just do a full scan without the crack applied then if any errors are highlighted make a note of the controller. Apply the crack and go back to the specific controller and scan again.
+,wesleys,2008-02-17T21:25Z,Is anyone using this with third party USB type cable that works using the COM setting in VAGCOM? When I try to recode in central conveniece for example even though the files exist (after copying them over) it says registered version required even though they're there!
+,wesleys,2008-02-17T21:56Z,"My bad, recopying the files does work with USB serial type converter cable and recopying the files. Instructions of the looping batch file would be nice"
+,erk11,2008-03-14T17:51Z,"wesleys:
+
+This how my batch file looks:
+*******************************
+@ECHO OFF
+
+:STRT
+
+if not exist c:\program\vag-com\d1.bin copy c:\vagcopy\d1.bin c:\program\vag-com\d1.bin
+if not exist c:\program\vag-com\d2.bin copy c:\vagcopy\d2.bin c:\program\vag-com\d2.bin
+if not exist c:\program\vag-com\d3.bin copy c:\vagcopy\d3.bin c:\program\vag-com\d3.bin
+
+GOTO STRT
+***************************************
+
+Change 'c:\program\vag-com' to the path to your vag-com install directory and 'c:vagcopy' to the directory where you have the .bin files."
+,Least1,2008-07-05T19:21Z,"Hi
+I have refined the bat file a little.
+Copy this to a file with an extension .bat and change the paths as appropriate.
+This bat will start vag-com and runs with a wait time between loops to save the cpu going nuts.
+
+Least
+
+********************
+@ECHO Off
+
+start """" /D""c:\program files\vag-com"" ""c:\program files\vag-com\vagcom.exe""
+
+:STRT
+
+if not exist ""c:\Program Files\VAG-COM\d1.bin"" copy ""c:\Program Files\vagcopy\d1.bin"" ""c:\Program Files\VAG-COM\d1.bin""
+if not exist ""c:\Program Files\VAG-COM\d2.bin"" copy ""c:\Program Files\vagcopy\d2.bin"" ""c:\Program Files\VAG-COM\d2.bin""
+if not exist ""c:\Program Files\VAG-COM\d3.bin"" copy ""c:\Program Files\vagcopy\d3.bin"" ""c:\Program Files\VAG-COM\d3.bin""
+
+echo Starting!
+echo Wscript.Sleep 6000> sleep.vbs
+start /w wscript.exe sleep.vbs
+echo Done!
+del sleep.vbs
+
+GOTO STRT
+
+*************************"
+,erk11,2008-09-19T18:14Z,"@Least1: great improvement!
+I just saw I was calling an external little program to get a five second pause.
+(Haven't used this for about a year, so I missed that...)"
+,Subbus,2008-10-12T13:48Z,Can this be used with Vista?
+,flatspot,2008-10-31T14:39Z,Works great thanks
+,Carlpb,2008-11-19T20:52Z,"Works great, I just had to change the timer from 6000 to 5000 to get the auto-scan to work.
+
+
+Thanks much for your all efforts!!!"
+,01GTvert,2008-12-01T02:13Z,"Guys, I'm stuck. I can't get the crack to work on my Dell laptop running XP and ebay usb cable. I installed the 409 version contained in this crack and deleted the previous version.  
+
+The crack generates the d1,d2 and d3 files and says Im using a registered copy in the ""about"" section but when I enter the 03_ABS Brake module to bleed the ABS the ""d"" files dissappear and VAGCOM tells me I need a registered version to access the module.  
+
+I copy the ""d"" files back into the D:\Programs\VAG-COM directory but as soon as I attempt to read the Brake modules the files dissappear again.  When I attempt to read the Basic Settings block it gives the message that I need a registered version.
+
+thx!"
+,ubercam,2008-12-06T09:43Z,"Why have the batch file recreate sleep.vbs on each run? That's redundant. Why not just create a file called sleep.vbs and not dynamically create and delete it each time? Seems a bit more efficient, no?"
+,ubercam,2008-12-06T10:04Z,"I just tested my batch file, works great! I tested by deleting the bin files manually.
+
+My batch looks like this:
+==============================
+@ECHO OFF
+
+start """" /D""C:\Program Files\VAG-COM"" ""C:\Program Files\VAG-COM\VagCom.exe""
+
+:START
+
+if not exist ""c:\Program Files\VAG-COM\d1.bin"" echo * %time% - D1 missing, copying!
+if not exist ""c:\Program Files\VAG-COM\d1.bin"" copy ""c:\Program Files\VAG-COM\c\d1.bin"" ""c:\Program Files\VAG-COM\d1.bin""
+
+if not exist ""c:\Program Files\VAG-COM\d2.bin"" echo * %time% - D2 missing, copying!
+if not exist ""c:\Program Files\VAG-COM\d2.bin"" copy ""c:\Program Files\VAG-COM\c\d2.bin"" ""c:\Program Files\VAG-COM\d2.bin""
+
+if not exist ""c:\Program Files\VAG-COM\d3.bin"" echo * %time% - D3 missing, copying!
+if not exist ""c:\Program Files\VAG-COM\d3.bin"" copy ""c:\Program Files\VAG-COM\c\d3.bin"" ""c:\Program Files\VAG-COM\d3.bin""
+
+start /w wscript.exe sleep.vbs
+
+GOTO START
+==============================
+
+Sleep.vbs looks like:
+==============================
+Wscript.Sleep 1000
+==============================
+
+It gives the following timestamped output to the command line if the bins are deleted:
+==============================
+*  2:58:44.37 - D1 missing, copying!
+        1 file(s) copied.
+*  2:58:44.37 - D2 missing, copying!
+        1 file(s) copied.
+*  2:58:44.37 - D3 missing, copying!
+        1 file(s) copied.
+==============================
+
+I read in another thread that unless you do it every second it bitches or doesn't work that well, but you can easily play with this value  yourself. It is in milliseconds. This setup uses about 20% of the CPU time to handle the script, not bad.
+
+YMMV"
+,ipv6freely,2008-12-18T02:08Z,Just wanted to say ubercam's script worked perfectly! Thank you!
+,rotorgoat,2009-01-09T23:43Z,hi guys. Is there a possibility someone could explain to me/others how to compile this batch file method. I kind of guess you copy and paste the script into note pad and save as something.bat?  Thanks a lot 
+,upops,2009-01-14T11:21Z,Has anyone tried the crack and batch on a newer version of this software? 
+,a1mo,2009-01-29T07:52Z,"so can anyone tell us basic computer users how we can patch vag-com. i tried to make patch with the information here to told. but less success.
+d1, d2, and d2 are the vag-com folder and they stay there when i use the program, but still it says that ""you have to register"""
+,a1mo,2009-01-29T07:54Z,"use the email if you don't want to write it here:D
+a1mo@hotmail.com"
+,Amrita1,2009-04-08T23:28Z,"this might be to easy to work but u never know before u tryed ^^
+
+how about just write protect the files to prevent them from being deleted in the first place ;)
+
+this solution has worked in similar situasjons before
+i'm for shure gonna try it, cost's hell of alot less cpu and time then doing this script thingi
+
+
+even if i hope i wont need em it's still good work
+so cudos to the script makers in here ^^"
+,garence,2009-04-17T00:24Z,you can buy the cables off amazon.co.uk for ÂŁ9.49 gutted if you just paid $200
+,OatcakeBuSter,2009-09-14T18:19Z,"Any chance of giving some people including myself a little bit of help ? 
+Im fucking puzzled right now with ubercams method, thats kinda complicated for a half whit like me."
+,Death_boy,2009-12-17T16:56Z,"I use this one:
+
+------------------------------
+
+@ECHO Off
+
+start """" /D""c:\program files\vag-com"" ""c:\program files\vag-com\vagcom.exe""
+
+:STRT
+
+if not exist ""c:\Program Files\VAG-COM\d1.bin"" copy ""c:\Program Files\VAG-COM\vagcopy\d1.bin"" ""c:\Program Files\VAG-COM\d1.bin""
+if not exist ""c:\Program Files\VAG-COM\d2.bin"" copy ""c:\Program Files\VAG-COM\vagcopy\d2.bin"" ""c:\Program Files\VAG-COM\d2.bin""
+if not exist ""c:\Program Files\VAG-COM\d3.bin"" copy ""c:\Program Files\VAG-COM\vagcopy\d3.bin"" ""c:\Program Files\VAG-COM\d3.bin""
+
+echo Starting!
+echo Wscript.Sleep 6000> sleep.vbs
+start /w wscript.exe sleep.vbs
+echo Done!
+del sleep.vbs
+
+GOTO STRT
+
+----------------------
+
+
+For all you who don't know what to do:
+
+copy past the script (text between my ------------------------------) to notepad and save as for example vag.bat. 
+
+NOW:
+
+start """" /D""c:\program files\vag-com"" ""c:\program files\vag-com\vagcom.exe""
+"
+,Death_boy,2009-12-17T17:01Z,"OW:
+
+start """" /D""c:\program files\vag-com"" ""c:\program files\vag-com\vagcom.exe""
+
+remember to change the 2 paths there to where your vagcom.exe is located.
+
+do the same to the 3 lines under where it checks if the files still is there and copys em if not.
+
+put the 3 files d1-d3 in a folder falled vagcopy in your vag-com folder.
+
+the number 6000 is how often in milliseconds it checks if the files are there. personally I use 1000.
+
+Thats it, hope ya get it to work"
+,jimmy154,2010-01-07T02:21Z,"Will this cracked version work with a Passat MK5 and an ""ebay"" cable?  The cable states it does not work with the Passat MK5, but I'm not sure if that is because the vag com software requires a licensed cable for this model car, which this crack is able to work around.  Does any one know if the cracked software lets me use an ""ebay"" cable on a car the ""ebay"" cable would otherwise not work on?"
+,sampekimpa,2010-11-12T14:50Z,I can't download this torrent
+,maniacse,2012-01-21T13:40Z,"Thank U very much! Batch working, crack working! Great job boys!"
+,dead_valentine,2012-03-21T13:17Z,"It's pretty simple... download this.. DISCONNECT from the internet, install, crack and use whilst still DISCONNECTED from the internet..."
+,janebrink,2012-05-22T02:42Z,"Can anyone tell me what driver I should use for a eBay USB cable? I have already converted one of my USB ports into a COM3 port, but as I tried to install a newer version of VAG-COM something went wrong and now I don't really know which driver I should use... 
+
+//Janebrink."
+,janebrink,2012-05-22T02:51Z,"wait... Do I need to have the cable plugged in to a car when hitting ""test"" after selecting COM3 in the VAG-COM program options?"
+,iruzal,2012-08-12T01:01Z,"This is not working anymore..  i Tested the recopying bat file to keep the 3 .bin files and it worked the first time. now it keeps saying you need to register.   
+
+I got it to work for one output test. by rerunning the crack and recopying the files. 
+
+Anyone have any suggestions?   "
+,iruzal,2012-08-12T04:13Z,"Windows Xp instructions. (Using Ebay Blue Vag-Com Cable)
+
+AS FAR AS I KNOW VAG-COM 409.1 WILL NOT WORK ON WINDOWS 7. But you can now register your ebay vag-com cable with Rosstech for $99 and it will work on Windows 7 with there Vag-com lite registered software. it will unlock all features like adapting sensors but not Can-Bus. for Can-Bus you need an original rosstech cable.
+
+This is what you need to do. to get it to run on windows xp.  make sure the location paths for Vag-com in step 4 are the same as on your computer. This is the default location if your using windows xp home if not change them to match yours.
+
+Making this Simple for people.
+
+Step 1
+-Install Vag-com
+
+Step 2
+-Run Vag-com 409.0 Crack it will ask for the location where you installed vagcom. and will install 3 files. Named D1 D2 D3.
+
+Step 3
+-Open the Vag-com Directory in program files. and Create a new folder named C now copy past the 3 files named D1 D2 D3 into the folder called C.
+
+Step 4
+-Open Notepad and copy past this into it.
+
+start """" /D""C:Program FilesVAG-COM"" ""C:Program FilesVAG-COMVagCom.exe""
+
+:START
+
+if not exist ""c:Program FilesVAG-COMd1.bin"" echo * %time% - D1 missing, copying!
+if not exist ""c:Program FilesVAG-COMd1.bin"" copy ""c:Program FilesVAG-COMcd1.bin"" ""c:Program FilesVAG-COMd1.bin""
+
+if not exist ""c:Program FilesVAG-COMd2.bin"" echo * %time% - D2 missing, copying!
+if not exist ""c:Program FilesVAG-COMd2.bin"" copy ""c:Program FilesVAG-COMcd2.bin"" ""c:Program FilesVAG-COMd2.bin""
+
+if not exist ""c:Program FilesVAG-COMd3.bin"" echo * %time% - D3 missing, copying!
+if not exist ""c:Program FilesVAG-COMd3.bin"" copy ""c:Program FilesVAG-COMcd3.bin"" ""c:Program FilesVAG-COMd3.bin""
+
+start /w wscript.exe sleep.vbs
+
+GOTO START
+
+
+
+
+Step 5
+-Save the notepad file as vag.bat on your desktop
+
+Step 6
+-Open Notepad and copy past this into it
+
+Wscript.Sleep 1
+
+
+Step 7
+-Save the file on your desktop as sleep.vbs
+
+
+Step 8
+Now run Vag-com using the Vag file you created on your desktop. just doubble click it.
+
+Done.
+This is what i did to make mine work
+
+Hope this helps good luck. 
+"

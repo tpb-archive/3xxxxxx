@@ -1,0 +1,67 @@
+THIS IS THE PROPER VERSION
+
+Changes in Version 6.0
+
+-Added additional Vista related applications:
+|-thoosje's brand new Vista Sidebar
+|-VisualTooltip (Taskbar thumbnail view and also have docking mode)
+|-Styler with Kaye Irene's Vista Perfection X4 Styler Toolbar
+|-Blaero's Start Orb (fix cutting edge start orb in msstyles)
+|-Stianu89 and Blue Eyes' Vista Live Messenger RC skin
+-Added applying Vista setup screen transformation in setup integration
+-Added browsable System files source for uninstallation so user can restore original system files from setup CD during uninstallation
+-Added display configuration for the best view of machine's display
+-Added fixing file's PE checksum after resource patching to keep files more secure
+-Added Launch & Maintenance Center in transformation destination in case user already have transformed the system
+-Added missing modifype.exe for Windows XP operating system
+-Added partially x64 support for Vista visual stuff but not for system files (experimental)
+-Added option to reserved updated system files after uninstallation or not
+-Added skipping system file verification patch on setup integration
+-Added Vista RTM system applications transformation:
+|-Photo printing wizard
+|-Remote Desktop Connection
+|-Volume Control
+|-Windows Task Manager
+|-System Restore
+|-Connection Manager
+|-Windows Update Client
+|-Media Center
+-Fixed bugs caused by deleting important files from integration after transformation
+-Fixed bugs in file-patching engine for uxtheme.dll and resources data
+-Fixed missing files during the installation caused by setup integration
+-Fixed resources patching failure during setup integration
+-Fixed themes uninstallation problem (Themes still exist)
+-Fixed user picture's frame border disappearance in logon screen
+-Fixed uxtheme.dll patching system (now I use patched files to avoid possible patching problems)
+-Removed additional boot screen resources removal
+-Removed manual transformation and let user decide to modify system files or not instead
+-Removed un-neccessary system files operations
+-Removed unattended transformation and servicces stopping for Norton Antivirus and System Restore (obsolete)
+-Updated license agreement dialog (User must click "I accept" radio button before clicking Next button)
+-Updated system files transforming method to use PendingFileRenameOperations trick
+-Updated updating the transformation to act like never applying the transformation before
+-Updated Vista RTM boot screen
+-Updated Vista RTM icons
+-Updated Vista RTM logon background
+-Updated Vista RTM screensaver
+-Updated Vista RTM sounds scheme
+-Updated Vista RTM system dialogs
+-Updated Vista RTM wallpapers
+-Updated visual styles
+|-Changed theme'structure to be the same with different shellstyles
+|-changed visual stylees' name to match with Vista RTM
+|-Fixed CaptionButton alignment problem when maximized in Vertical shellstyle WindowBlinds theme
+|-Fixed ToolbarBackground sizing mismatched from real Vista style
+|-Fixed shellstyle background color mismatch in some areas
+|-Updated frame border in Windows Aero visual style
+|-Updated StartGroupToolBarButton
+|-Updated TaskBandButton back to default ones
+|-Updated TaskBandGroup's backgroun and button
+
+
+This release has successfully archived full setup integration support (no more experimental) and add covering on x64 partial support (experimental). Plus, I added many new 3rd-party applications to make your system looks more like Vista such as Styler, Sidebar, Taskbar thumbnail preview, Start orb fix for msstyles, etc. and update many new resources for system files. It's definitely the best release that I ever made!
+
+Homepage: http://www.jcxp.net/forums/index.php?showtopic=13415
+MD5 Hash: 0658C9A2CBD0FB48BAC3A4E46A3EFD33
+
+Screenshot: http://xup.raidrush.to/ndl_c3af54ca25daa3d2aa02841666d87/		

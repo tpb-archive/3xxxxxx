@@ -1,0 +1,1267 @@
+Hi guys and girls,
+
+Below is a rough txt version on the softmod installer manual so you can have a read through and decide if you want to download it or not.
+
+the file is in rar form at had has the pdf version of the manual included.
+I have and use this software my self and it works great, I have only used the splinter cell version of the installation. 
+
+Softmod Installer Deluxe 4.5 N-Knave Edition 
+Official Users Manual 
+
+DISCLAIMER: We do not take any responsibility for any damage or loss of data that 
+may be caused by this program. Always only use at your own risk, and remember to 
+read this manual CAREFULLY before proceeding to use this package. If you do not 
+read this and do something incorrectly, it is your own fault. 
+
+This document is not affiliated with Microsoft Corporation. 
+\'Microsoft\' and \'Xbox\' are trademarks of Microsoft Corporation. 
+
+Chapter 1: Introduction 
+
+ 
+Welcome to the most advanced, easiest, yet safest Softmod in the History of Xbox 
+
+Exploits. This softmod offers many options for those who want a simple softmod, just to 
+boot to it And load their favorite dash and get on with their mod going, also it?s made for 
+those who Are into playing Xbox Live!, and that want a softmod as well. IN NO WAY THIS 
+ALLOWS YOU TO PLAY BACKUPS ON XBOX LIVE, AND WHEN YOU RUN SOFTMOD IT WILL 
+BLOCK XBOX LIVE! ON BOOT. There exists 2 dual boot features and 1 single, as they go 
+like this. 
+
+ 
+
+Single Boot (boots Dash) 
+
+- This is as simple as it gets, open tray, and closed tray will boot your softmod. 
+
+
+Dual Boot Open=Gamesave 
+
+- This will make it so when your Xbox DVD tray is open, it will boot to SID 4 Installer, 
+while 
+- When the tray is closed, it will boot normal Softmod, and your dash of choice. 
+
+Dual Boot Open=Retail (NDURE) 
+
+- This will make it so your Xbox will run in retail mode when you power on with open 
+DVD tray. 
+- Allowing you to play your original Xbox live games on Xbox Live! Without having to 
+remove your softmod via the Gamesave, and it?s 100% proven to work, but you 
+must have an account made already, as this will not access Xbox Live! After you 
+install softmod to create a New Account! 
+
+
+Xbox Color LED Indications. 
+
+Now you?ll know what is running and what is going on, by the LEDs of you Xbox on your 
+front panel. The following Chart will explain what they mean, and how they work. 
+
+
+Green/blinks when DVD tray opens. 
+
+- Retail Mode by the Ndure Install, or simply your Xbox is not modded. 
+
+
+Green/does not blink when DVD tray opens. 
+
+- Modded state, yet color of lead could have been changed by a Dashboard or an 
+Application. Config Magic, Avalaunch can cause this, it is not dangerous or bad. 
+ 
+
+Orange/blinks when DVD tray opens. 
+
+- not scripted, nor program to do so, but this is what is usually done by Linux Distros, 
+nothing to do with SID. 
+
+Orange/does not blink when DVD tray opens. 
+
+- This is when your Gamesave is running. When you boot SID 4, or power with open tray menu 
+having Gamesave to boot, this is the color of LED you?ll get, and it?s for you to know. 
+
+
+Red/blinks when DVD tray opens. 
+
+- Never heard of it. 
+
+
+Red/does not blink when DVD tray opens. 
+
+- This is when your softmod is active. It specifies that softmod is running, can run 
+unsigned code, Linux, homebrew and all that good stuff you?re here for. 
+
+
+Cycle/where the lights cycle through all colors. 
+
+- This means that your dashboard target was not found by nkpatcher 11, none of the 
+3, now, don?t worry as SID 4 was scripted to rescue your dash if it?s lost by the 
+press of ?A? when your at that menu, however if you accidentally formatted your 
+HDD, you?ll loss all other files and we are not responsible for that loss. SID 4 strictly 
+stays to its system and will only keep safe of its function to the point that it takes 
+care of boot, and important files to keep your Xbox alive, and has nothing to do 
+with your OTHER files. 
+
+
+- It can also mean your video cables aren?t plugged in the back of your Xbox. 
+
+Chapter 2: Features 
+
+
+1. - Features 3 different Install Methods. 
+
+- Single Boot. Where it will only boot your dash of choice installed. 
+
+- Dual Boot. Where it will boot your softmod when tray is closed and something else 
+when your DVD tray is open. 
+
+
+2.- Features all new Ndure (New Dimension Uber Rmenhal Exploit) for those who 
+want to be able to have a softmodded Xbox, and still get to play on Xbox Live!, of course 
+you must use only original games, and have an account already made. 
+
+ 
+3. ? Nkpatcher 11 and the following features put to its best use ever. 
+
+- Virtual C (ShadowC), having mount a file to replace your C drive Having your MS 
+Dash in it so you can use it, yet hiding your real C files to prevent deletetion, 
+tampering of critical files that can break your softmod. 
+
+- Virtual EEPROM, Taking your true eeprom backup, patching it to prevent 
+applications from unlocking your HDD!!! Something never ever done!!! OF COURSE 
+IF YOU MESS LONG ENOUGH WITH IT YOU MIGHT BREAK IT AS WELL, SO PLEASE 
+DON?T MESS WITH IT TOO MUCH, AS ALL MAN MADE CAN BE UNMADE, SO PLEASE 
+DON?T TRY TO MESS WITH FILES , THAT IN THIS CASE A HIDDEN JUST TO COME 
+UP WITH AN ERROR CODE. 
+
+ 
+4. - Having 3 Dashboard targets and a hidden rescue dash. 
+
+ - e:\\evoxdash.xbe, e:\\dash\\default.xbe, and e:\\dashboard\\default.xbe. 
+
+- If none of the dash targets are found, then it will boot to 
+C:\\rescuedash\\default.xbe, where it will load a menu to restore your dash for 
+security reasons. 
+
+ The following has been disabled, and the consequences. 
+
+- Since it boots to a hidden xbe file, it?s another nkpatcher system allowing 
+the use of all partitions normally. THIS CAN BE DANGEROUS IF MESSED 
+WITH, SINCE IT HAS YOUR TRUE SOFTMOD FILES ACCESSABLE, SO PLEASE 
+FOLLOW THE ONSCREEN INSTRUCTION BY PRESSING ?A? AND LET IT WORK 
+IT?S WAY TO AVOID ANY PROBLEMS. 
+
+- Since files are exposed, we have disabled all possible tampering with it, by 
+denying all FTP access, and even the boot of a CD (non-original), to prevent 
+you from messing something up. 
+
+- You cannot boot discs while this is running, only originals, but they must 
+be cold booted, and they are cold booted, then you don?t get true access, 
+unless your booting the game you used for the softmod. 
+
+
+5. - High Definition Patch 
+
+ - SID 4 now lets you run your Xbox in High Definition mode correctly. 
+ 
+
+6. - Full support by all the Admins/Moderators from www.xbox-hq.com
+
+ - Forums for this installer are in the above link and we support it in everyway. 
+
+ - Please feel free to post any bugs, or behavior reports to www.xbox-hq.com. 
+
+Chapter 3: Checking your Dashboard Version 
+
+ 
+To make your job easier the Softmod Installer, it is recommended that you use the latest 
+version of Xbox Dashboard which is available (1.00.5960.01). This is how you would check 
+your Xbox?s Dashboard version. 
+
+? MS Retail Dashboard ? 
+
+
+1) Click on the Settings button on your 
+Xbox Dash, press A. 
+
+ 
+? MS Dashboard Settings Screen ? 
+
+2) Scroll down to the System Info at the 
+bottom of the next menu, press A. 
+
+The System Info screen will give you all the 
+information you need to know about your 
+Xbox console including your kernel version 
+and dashboard version. 
+ 
+? MS Dashboard System Info Screen ? 
+
+3) In the system info it will display your 
+Dashboard versions This is 
+a screenshot of something similar to 
+what you will want to see. The section 
+highlighted in red shows you what your 
+Dashboard version is. If the Xbox is not 
+showing this version, and you wish to 
+keep this dashboard, you will have to use 
+the Auto-Installer Deluxe 3.0 Final 
+DVD to finish off your installation. 
+
+
+Alternatively you can try loading a game 
+such as Halo 2, Burnout Revenge, Splinter 
+Cell 2 or 3 (1 is too old), and this can 
+update your dashboard for you. 
+
+Chapter 4: Installing SID 4.5 on your Xbox 
+
+ 
+Copying the Gamesave to your Memory Card / USB Device 
+
+ 
+The three most popular ways to install the Gamesave (which is the .zip or .gsx files that 
+you have in this directory) are the following: 
+
+ 
+Action Replay: US Official Website - European Official Website
+
+Game Shark: Official Website
+
+Mega X-Key: Official Website
+
+
+Just a quick tip about memory cards, reports have come in about 3rd-party cards not 
+working properly, you can check the Xbox-Hq Memory Card Database for more 
+information. The most reliable way would be a Mega X-Key in my opinion, which uses the 
+same format as Action Replay for Gamesave. 
+
+The Action Replay and Mega X-Key will only be able to use the .zip files, and the Game 
+Shark can only use the .gsx files. 
+
+
+To copy the game save over to your device, these programs support the drag and drop 
+feature just like Windows. So, open your desired program and then drag and drop the .zip 
+or .gsx file to the memory card. In about half a minute or so it should be done. 
+
+
+There are 5 files in the SID package, you will need to transfer TWO of these to your Xbox 
+(this is a little different from the older SID systems so please beware). You need the main 
+installer file, and the Gamesave for the game you wish to use. Here?s what the files do: 
+
+SID4.Installer .. The main Installer 
+
+SID4.Loader.007AUF .. Loader for 007 Agent Under Fire 
+
+SID4.Loader.Mechassault .. Loader for Mechassault 
+
+SID4.Loader.SplinterCell.NTSC .. Loader for Splinter Cell (NTSC Version) 
+
+SID4.Loader.SplinterCell.PAL .. Loader for Splinter Cell (PAL Version) 
+
+Copying the Gamesave to your Xbox 
+
+Insert your USB Device or memory card into your Xbox before you start it up. 
+
+Once you?ve started your Xbox, the MS dashboard should appear. 
+
+? MS Retail Dashboard ? 
+
+1) Select Memory from the menu 
+and press A. 
+
+? MS Dashboard Memory Screen ? 
+
+2) Now, select the memory card that you 
+inserted and press A. 
+
+3) Shown below are screenshots of each Gamesave. Select the Gamesave you want to 
+copy to your Xbox HDD by pressing the A button on your Xbox controller. A Menu will 
+appear. 
+
+
+? SID 4.5 Installer ? 
+
+? 007 Agent Under Fire ? 
+ 
+? Mechassault ? 
+
+? Splinter Cell (PAL) ? 
+
+4) Choose the copy icon (as shown in the images below) and press A to copy the 
+Gamesave you have selected to the Xbox. We are using 007 as an example. Be sure to 
+check your Xbox region if you are using Splinter Cell. Eg. NTSC/PAL. 
+
+? Choose Copy and Press A ? 
+
+? Select the Xbox Hard Disk and Press A ? 
+
+5) Once you have successfully copied over all required Gamesave to your Xbox HDD you 
+can now continue to boot the original game (007, Mechassault, or Splinter Cell) and install 
+your Softmod. Restart your Xbox and load the game of your choice into your Xbox DVD-
+Rom drive. 
+
+Chapter 5: Running the Game Save via the Game 
+
+The following screenshots show what you have to do to launch the Softmod installer. If you 
+see any other screens besides this, something is obviously gone wrong with transferring 
+the game to the Xbox, or you don?t have the correct version of the game. 
+
+007 Agent under Fire 
+
+ 
+
+ 
+? 007 Main Menu Screen ? 
+
+ 
+
+1) Once the game is at the main menu, 
+select the Load Mission option? 
+
+
+ 
+? 007 Load Mission Screen ? 
+
+
+2) Now select the Xbox Hard Drive option 
+(which loads the Gamesave from HDD). 
+
+ 
+? 007 Loading Mission Screen ? 
+
+3) It will show a loading screen to confirm 
+it is working. 
+
+
+
+ 
+
+♀
+Mechassault 
+
+ 
+
+ 
+? Mechassault Main Menu Screen ? 
+
+
+1) Once the game is at the main menu, 
+select the Campaign option? 
+
+ 
+
+ 
+? Mechassault Campaign Screen ? 
+
+ 
+
+2) Now select the Run Linux Gamesave. 
+Please note that the following information 
+MUST be the same on your Xbox otherwise 
+you have got a bad copy of Mechassault. 
+
+ 
+
+Controls: Normal 
+
+Difficulty: Regular 
+
+Current Level: Going Down Hard 
+
+
+
+ 
+
+Splinter Cell 
+
+ 
+
+ 
+? Splinter Cell Main Menu Screen ? 
+
+
+1) Once the game is at the main menu, 
+select the Start Game option? 
+
+ 
+
+ 
+? Splinter Cell Start Game Screen ? 
+
+ 
+
+2) Now select the Linux Gamesave. 
+
+ 
+? Splinter Cell Checkpoints / Levels Screen ? 
+
+3) Select the Checkpoints option. 
+
+
+
+ 
+
+♀
+Chapter 6: The SID 4.5 Final Main Menu 
+
+ 
+
+ 
+
+ 
+
+All menus will be self explanatory, and will go to the point, but make sure of the following 
+tips to complete a successful softmod. 
+
+ 
+
+1. - Must have a retail MS Backup, either made by this installer or a previous SID installer 
+that supports the target E:\\backup\\MS\\, this backup must not be modded, and must have 
+retail files, no dash version is specified if not installing Ndure. 
+
+ 
+
+2.- If you plan to Install Ndure, YOU MUST have MS Dash 5960 either in your MS Backup 
+or your True C drive (newest 1.6 Xboxes have this). 
+
+ 
+
+3. - Backup of your EEPROM must be made no matter what to complete the install. This is 
+due to the fact that an eeprom backup is needed to be patched, and put into your hidden 
+boot files to be loaded with the all new nkpatcher system, allowing this eeprom to be 
+loaded instead of your real one to prevent apps from unlocking your HDD, and if you mess 
+with your eeprom, then it?s just your virtual eeprom and not the real one, leading to a 
+broken Xbox. 
+
+ 
+
+4. - The Uninstall Feature is picky. You must have a retail, non modded, MS Backup to it 
+can proceed, it also pay attention to what it tell you, so you don?t make mistakes, and you 
+select ?YES? or ?NO? wisely. 
+
+ 
+
+Please be aware that SID 4 will take around 15-30 seconds to install a file called 
+\"shadowc.img\", so if you see that it looks like if it froze, don\'t panic, and let it run.
+
+♀
+Chapter 7: Backup and Restore. 
+
+ 
+
+You have options to backup and restore your ms dash, as well as your softmod, but you 
+may not restore your mod backup if an MS Backup is not present, so some limitations are 
+there to prevent you from messing up your softmod, or losing valuable files of your Xbox. 
+If you plan to use Xbox Live!, you don\'t need to do this, simply install the Ndure feature, 
+but make sure you have an account before you do, cause once softmod is install, you 
+cannot make an account. 
+
+ 
+
+ 
+
+Chapter 8: Removing the Softmod. 
+
+This is by far the easiest thing to do if you use the installer, simply have you MS Backup 
+not modded, and run ?Uninstall Softmod? and all will be done automatically, just make 
+sure you read the onscreen options so you don?t run into any mistakes when it comes to 
+deleting all other files on E:\\. 
+
+ 
+
+The Uninstall feature will do it all for you, but you?ll get prompt for special actions, on 
+prompts, you don?t have to say ?YES? unless it?s what you want to do. 
+
+ 
+
+ 
+
+ 
+
+♀
+Chapter 9: Virtual Eeprom Patching 
+
+ 
+
+This chapter will teach you how to set up your eeprom after the install of SID 4.5 if you 
+want that extra step in the security of a softmod. 
+
+ 
+
+WARNING!!! 
+
+?X-Man9? from www.xbox-scene.com official developer of the nkpatcher systems after 
+Rmenhal, has stated that some games cannot keep Xbox Live! Data in HDD if your Xbox 
+HDD is nulled, we haven?t had any issues, but he has stated that games like ?Ghost Recon? 
+will automatically delete your Xbox Live! Maps from your HDD if your HDD serial is not 
+valid. 
+
+ 
+
+We/I will not be held responsible for data loss, do this at your own risk. 
+
+ 
+
+STEP 1: Getting to access true files on your Xbox C drive. 
+
+ 
+
+First you must understand how ftp works, this tutorial will not teach you how to ftp. 
+
+ 
+
+First you must have an nkpatcher *.xbe loaded that will not mount the virtual, this *.xbe 
+can easily be the one you booted SID 4.5 and it?s how this tutorial will show it to you. 
+
+ 
+
+1. - Cold boot game of Choice or use a file manager to navigate to save. 
+
+ 
+
+2. - If you boot SID 4.5 from game of exploit, simply fix your Network Settings to a proper 
+way to access your Xbox from ftp. If your going to use a file manager, the file to be 
+executed is NOT menu.xbe, you?ll execute ?install.xbe?, this file is nkpatcher 11-01 with no 
+virtual mounts. Directory for manual boot is: E:\\UDATA\\21585554\\000000000000\\ 
+
+ 
+
+3. - you?ll get the eeprom.bin found in C:\\ from your real partition, to know if it?s your real 
+partition, you should be able to see the following files (not all files or folders are mentioned 
+here. 
+
+ 
+
+\\Audio 
+
+\\SID4 
+
+\\fonts 
+
+\\xboxdashdata.185ead00 
+
+\\xodash 
+
+\\msdash.xbe 
+
+\\shadowc.img <<<< if you see this, you?ll know it?s your real C partition. 
+
+\\Xbox Book.xtf 
+
+\\Xbox.xtf 
+
+\\xboxdash.xbe 
+
+\\eeprom.bin <<<<< this is the dump file you?ll ftp to computer to make your changes. 
+
+ 
+
+ 
+
+ 
+
+♀
+STEP 2: Making Changes on the eeprom.bin dump 
+
+ 
+
+First you?ll open up LiveInfo.exe. (This tutorial should have it for you, if it doesn?t, please 
+download in either Xbins, Xbox-Hq downloads, or any other place that hosts these files for 
+you. 
+
+ 
+
+This is how live info will open up to be like. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+This is usually how you?ll 
+see it when it opens up. 
+Now the Next pictures will 
+go in order as you must 
+follow the tutorial, if you 
+already familiar with Live 
+Info, just go to the last 
+picture to see what needs 
+to be done. 
+
+ 
+
+ 
+
+
+ 
+Open the File by choosing 
+?Load EEPROM? 
+
+ 
+
+
+♀
+ 
+
+ 
+
+This picture will show you what need modification and WHAT NOT to modify. 
+
+MAC address is very important, as well as the hash of the eeprom to be a valid file, this is 
+the reason why we are doing this manually, since most of the PAL users can?t get a good 
+eeprom patch by previous versions of SID 4/SID 4 separate fix 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+♀
+This is what?s to be modified. You don?t have to make them all Zeros, it can be anything 
+randomly, just make sure you don?t randomly make it correct. 
+
+ 
+
+ 
+
+ 
+
+After all this is done, simply use the ?Save as .BIN? and either overwrite the old 
+eeprom.bin or name it differently, just make sure you have a proper backup of the eeprom 
+your self, and not the modified, if you try to make new HDD with this modified eeprom 
+you?ll never get it to work, since it?s only going to give you invalid HDD keys, and your 
+HDD will result in error 06 on your Xbox. 
+
+ 
+
+Make sure that you ftp the modified file named eeprom.bin to overwrite the old file in C:\\, 
+after you have completed this, simply turn off Xbox, and power back on, most apps/dashes 
+including ConfigMagic will display your unlock key, but when it?s time to call the eeprom to 
+unlock is when it will fail. To see if your changes are in fact active, please use ConfigMagic, 
+and see what you get onscreen, UnleashX and other dashes will always display the correct 
+unlock key in the settings or info screen. 
+
+♀
+Appendix A: Xbox Error Codes 
+
+ 
+
+Error 
+
+Cause 
+
+Description 
+
+ 
+01 
+
+
+ 
+Bootloader 
+
+
+ 
+Motherboard Error 
+
+
+02 
+
+
+Bootloader 
+
+
+Eeprom check failed 
+
+
+03 
+
+
+Bootloader 
+
+
+Unknown 
+
+
+04 
+
+
+Bootloader 
+
+
+Ram check failed 
+
+
+05 
+
+
+Kernel 
+
+
+HDD not locked (retail BIOSes require the HDD to be locked) 
+
+
+06 
+
+
+Kernel 
+
+
+Cannot unlock HDD 
+
+
+07 
+
+
+Kernel 
+
+
+HDD timeout 
+
+
+08 
+
+
+Kernel 
+
+
+HDD not found 
+
+
+09 
+
+
+Kernel 
+
+
+HDD parameters (PIO/DMA/or size {debug}, certain size 
+minimum is required for debug) 
+
+
+10 
+
+
+Kernel 
+
+
+DVD drive timeout 
+
+
+11 
+
+
+Kernel 
+
+
+DVD not found 
+
+
+12 
+
+
+Kernel 
+
+
+DVD parameters (PIO/DMA) 
+
+
+13 
+
+
+Kernel 
+
+
+Dashboard launch fail (due to missing/bad key, or anything 
+else that would prevent it from running) and the dashboard 
+didn\'t specify why it failed 
+
+
+14 
+
+
+Dashboard 
+
+
+Error loading dashboard (dashboard generic error) 
+
+
+15 
+
+
+Kernel 
+
+
+Unknown 
+
+
+16 
+
+
+Dashboard 
+
+
+Other files to do with dashboard / dashboard settings (specific 
+dashboard error) 
+
+
+17 
+
+
+Kernel 
+
+
+Unknown 
+
+
+18 
+
+
+Kernel 
+
+
+Unknown 
+
+
+19 
+
+
+Kernel 
+
+
+Unknown 
+
+
+20 
+
+
+Kernel 
+
+
+The dashboard has attempted to load and failed: It was a cold 
+boot, and the dashboard didn\'t specify why it failed, but it (for 
+some reason) needed to be noted that the DVD passed the 
+challenge/response authentication 
+
+
+21 
+
+Anywhere 
+
+Typically means you\'re missing .dip files on your c: Drive or 
+you have .xip\'s from a different (wrong) dashboard version. To 
+fix simply restore a complete backup of the c: drive. 
+
+
+
+ 
+
+♀
+Appendix B: Softmodding Tutorials 
+
+ 
+
+Special thanks to Pirrup for these tutorials. 
+
+
+Hard Drive Upgrade using a Modchipped Xbox 
+
+ 
+
+Hardware Needed: 
+
+
+- Hex Screwdriver Set 
+
+- Computer 
+
+- A modded Xbox (chip) 
+
+- A softmodded Xbox with retail disk. 
+
+- A bigger HDD 
+
+ 
+
+Software Needed: 
+
+
+- FTP software (FlashFXP) 
+
+- EvoX dash (to make eeprom backup, install it on both Xboxes) 
+
+- Xbox-HQ Auto Installer Deluxe Boot Disk. 
+
+- Config magic (install it on chipped and softmodded Xbox) 
+
+ 
+Steps: 
+
+
+1. Use EvoX to make an eeprom backup from your chipped Xbox and the softmodded Xbox 
+(you can install EvoX as a dashboard) 
+
+ 
+
+2. FTP the backup Eeproms to your PC, also transfer your C and E drive (softmodded Xbox) 
+to your pc. 
+
+ 
+
+3. Put the big HDD you need to prepare in your chipped Xbox. 
+
+ 
+
+4. Run Xbox-Hq Auto Installer Deluxe Boot Disk and make the big HD ready. (Don?t forget 
+to install Config magic on this HDD) 
+
+ 
+
+5. Open the Config magic folder and delete the contents in the data folder and transfer 
+your backup of the C and E drive to the data folder. 
+
+ 
+
+6. Update your chipped Xbox eeprom from the bin file. (Eeprom backup from softmodded 
+Xbox). 
+
+ 
+
+7. Reboot the Xbox and open Config magic and lock the HDD. (Now it\'s locked with the 
+eeprom from the softmodded Xbox) 
+
+ 
+
+8. Turn off Xbox and remove the big HDD out the chipped Xbox. 
+
+ 
+
+9. Put it in the softmodded Xbox 
+
+ 
+
+Now, the HDD will work in the softmodded Xbox. 
+
+ 
+
+*** Optional if you play on live with your chipped Xbox *** 
+
+ 
+
+10. Run Config magic again on the chipped box and update eeprom. (This time with the 
+eeprom backup from chipped Xbox). This will restore your chipped Xbox eeprom back to 
+original. 
+
+ 
+
+♀
+Hard Drive Upgrade using a PC 
+
+ 
+
+Hardware Needed: 
+
+ 
+- A PC, a blank CD-R/W and a CD Burner 
+
+- Torx 10 + Torx 20 Screwdrivers (to open your Xbox) 
+
+- A Large HDD 
+Software Needed: 
+- XboxHDM 1.9 
+
+- FTP Program (FlashFXP) 
+
+- EvoX dash (can be installed as an app) 
+
+- DVD Decrypter 
+
+ 
+
+Steps: 
+
+ 
+
+1. First make a backup from your retail disk (C, E drive and your eeprom), you can use 
+EvoX to backup eeprom (eeprom backup can be found on E). 
+
+ 
+
+2. FTP your backup data to your PC using a FTP program. 
+
+ 
+
+3. Unpack XboxHDM onto your pc 
+
+ 
+
+4. Put the eeprom backup in the xboxhdm\\linux\\eeprom folder, put C and E folder into the 
+xboxhdm\\linux folder and overwrite the ones already there. 
+
+ 
+
+5. In the root of xboxhdm is a file named \'make-iso-win\', run this file and wait for it to 
+finish. 
+
+ 
+
+6. It will make an .iso file. (You can burn this file with DVD Decrypter) 
+
+ 
+
+7. Take out all your hard disks in your PC and put the new hard disk (for the Xbox), make 
+sure its primary master and first boot is CD-ROM. 
+
+ 
+
+8. Put the disk you made in the CD-ROM drive and boot your PC. 
+
+ 
+
+9. You will get a menu, now choose Option 1 (by typing ?1?) and press enter to boot VGA 
+console with Xbox-drive utilities (default). Type ?xboxhd? when it asks you for a login. 
+Another list of options will show up, choose option 1 again (the one that says ?Build a new 
+Xbox HD from scratch?) and it will begin to format and write the partition table etc. If you 
+put your C:\\ and E:\\ onto the CD then when it asks you about them type yes and when it 
+asks you if you would like an F select yes. 
+
+ 
+
+10. Reboot your PC (we are almost done) 
+
+ 
+
+11. Now for locking the hard drive. This time type ?3? and hit enter to boot Linux with 
+locking/unlocking utilities. Next, type in ?lockhd ?a?. It will now search for the eeprom on 
+the CD and will automatically lock the hard drive. Now turn off the PC and take out the 
+hard drive when it has finished locking. Put the disk in your softmodded Xbox. 
+
+ 
+
+You just upgraded your hard drive and can be used in your softmodded Xbox. 
+
+ 
+
+♀
+Hotswap Tutorial - Recover a HDD without Eeprom Backup 
+
+ 
+
+Hardware Needed: 
+
+ 
+
+- A PC (remove all HDD\'s), blank CD-R/W and A CD Burner 
+- Torx 10 And Torx 20 Screwdrivers - To Open XBOX 
+Software Needed: 
+
+
+- XboxHDM 1.9 
+
+- DVDdecryptor (http://www.dvddecrypter.com) 
+
+- C drive backup or latest MS dash 
+
+ 
+
+IMPORTANT: Make sure the Xbox and PC are close to each other 
+
+ 
+
+Steps: 
+
+
+1. If you got a backup of your C you don\'t need to download latest MS Dash, if you don\'t 
+have a backup download MS Dash and keep it ready on your PC. 
+
+ 
+
+2. Unpack xboxhdm onto your PC. 
+
+ 
+
+3. Put the MS Dash in the C folder into the xboxhdm\\linux folder and overwrite the ones 
+already there. 
+
+ 
+
+4. In the root of xboxhdm is a file named \'make-iso-win\', run this file and wait for it to 
+finish. It will make an .iso file. 
+
+ 
+
+5. Burn this file with DVD Decrypter, and leave the CD in the PC. 
+
+ 
+
+6. Unplug the Xbox DVD-ROM IDE cable, take the power cable off the DVD-ROM. 
+
+ 
+
+7. Turn on the PC, Before the PC BIOS looks for Hard Drives, hit the Pause/Break key. It 
+should pause at this time. 
+
+ 
+
+8. Turn on the Xbox. 
+
+ 
+
+9. It will boot to an error code (#11) regarding the DVD-ROM, but the Hard Drive will be 
+unlocked, this way you\'ll get xboxhdm to access it on first attempt 
+
+ 
+
+10. Hit space bar to continue booting the PC. If it takes a long time to boot (several 
+minutes), then the HD has not been unlocked. 
+
+ 
+
+11. You will get a menu, now choose Option 1 (by typing ?1?) and press enter to boot VGA 
+console with Xbox-drive utilities (default). Type ?xboxhd? when it asks you for a login. 
+Another list of options will show up, choose option 1 again (the one that says ?Build a new 
+Xbox HD from scratch?) and it will begin to format and write the partition table etc. when it 
+asks you about C type yes and when it asks you if you would like an F select yes . 
+
+ 
+
+12. Power down PC and Xbox. 
+
+ 
+
+13. Put the Hard Drive back in the Xbox and boot. 
+
+ 
+
+PLEASE NOTE: If you get a message about a frozen drive, just disable auto detect for the 
+drive (xboxhdm will detect the HDD even if it\'s disabled!) 
+
+ 
+
+♀
+Hard Drive Cloning using Chimp 
+
+ 
+
+Hardware Needed: 
+
+ 
+
+1. A Y power splitter (or use an external power source for the second HD, like another PC 
+or external disk box etc.) 
+
+2. Torx 10, 15, 20 Screwdrivers to open Xbox and replace the HD 
+
+
+Software Needed: 
+
+
+3. Chimp (installed as an app) 
+ 
+Steps: 
+
+
+1. Open the box with the Torx 20 Screwdriver. 
+
+2. Use the Y splitter so both Hard Drives would have power when Xbox is on. 
+
+3. Loosen the DVD\'s IDE, but must still be bootable (it minimize the remove chance of IDE 
+damaging as it is really not designed for hotplugging). 
+
+4. Boot Xbox. 
+
+5. Launch chimp. 
+
+6. Swap the IDE cable from DVD to the new HD. 
+
+7. Follow the menu (the first item must be run before others). 
+
+Xbox 1.6 problems? 
+
+If you have a 1.6 box and you can\'t see the Linux prog (graphics). In that case, you need 
+to telnet into it, the menu will be same. 
+
+Appendix C: Frequently Asked Questions 
+
+1.- I can\'t get gamesaves into the memory card with Action Replay? 
+Make sure you have original Microsoft Memory card or another brand that it\'s known to 
+work, not all memory cards will allow files that\'s aren\'t game related to be added, like zips, 
+rars and non-xbox default files. Also make sure you drag and drop 2 zips, the SID4 
+Launcher.zip and your game of choice, and you\'ll add both gamesaves to your xbox, since 
+the launcher are the files that install the softmod, and the other gamesaves are to boot to 
+Launcher, so no launcher and gamesave can lead to ERROR 21, black screen, or MS Dash 
+reboot. 
+2.- I get just a black screen when i boot it. 
+Make sure you only do it to retail xbox, that means no other softmods installed, if you 
+have a previous softmod install, remove it and leave C in retail, all other files will not be 
+affected, also make sure that\'s the only gamesave you have, and no other gamesaves in 
+hdd of that 1 game. Another issue is that if you are trying to boot SID 4 when running 
+modded from SID 2 or other PBL based softmod, it will lead to freeze or black screen, this 
+is due to the fact that PBL doesn\'t allow nkpatcher to load, PLEASE BE IN RETAIL! 
+3. I can\'t install any of the softmods in SID 4!!! 
+Did you read the manual? Did you read the on-screen warnings?, It will NOT INSTALL if 
+you don\'t have a retail MS Backup and eeprom made by the installer. 
+4.- I can\'t install the Ndure. 
+Once again, did you read things right?, you CANNOT install unless you have MS Dash 5960 
+Installed on true C before install. 
+5.- I successfully installed SID 4, but i can\'t use the retail mode to go on xbox live. 
+It should work, as it\'s proven to work, make sure you power on the xbox with eject button 
+so it loads retail mode, wait till it loads MS Dash, and put game disc in, after ingame sign 
+in with an already made xbox live! gamer tag account. YOU CANNOT MAKE AN ACCOUNT 
+AFTER YOUR MODDED. 
+6.- Why do i have to set my clock every time i power on the xbox? 
+You should only have to set it once after softmod is installed, and only after you unplugg 
+after 4 hours. So make sure YOU SET YOUR CLOCK, and press \"A\" to save it to xbox, then 
+IGR or power off, and on so it takes effects, that way you shoudln\'t have to set your clock 
+again, unless of course you cut power for more than 4 hours. 
+7.- When i ftp i can see F and G, but i can\'t access them. 
+You cannot access to what you dont\' have, by default SID 4 is set to enable both of these 
+so you don\'t have to worry about updating your lb48 patch etc, some xbox stock hdds 
+have F, some have G, the only real way to know if you have an F, is by using file explorer 
+with UnleashX or SID 4, and if you see F you have it, if you don\'t see F, then you don\'t! 
+8.- When i boot retail mode, all i get is a hang, and black screen. 
+Make sure that ms dash was not modded at all, but here\'s a manual solution if you have 
+this. Boot SID 4, use the file manager, go to C, and look for the file called: 
+settings_adoc.xip, make sure you don\'t have it in C, or C:\\xboxdashdata185ead00, this 
+can make it hang, also this file is to be deleted automaticly by the installer, and it\'s also 
+the reason why you must set your clock when you boot you xbox after the install of SID 4. 
+
+9.- When i boot Ndure retail mode, all looks good, but i choose the xbox live tab from MS 
+Dash and it goes to a black screen. 
+Simply is cause xbox live tab from MS dash loads it\'s own dash files from C:\\xodash, but 
+that\'s where the exploit fonts are located, so if you choose that it will freeze cause it will 
+try to load the fonts again, leading to wanting to boot softmod, which will end up freezing, 
+you will also get a black screen if you try to PUT A BACKUP GAME when running Ndure. In 
+no way Ndure allows you to run backups in Xbox Live!. Use FuckMS for that, but we will 
+not help you do this, and you can get into serious problems and get your credit card 
+blacklisted if caught. 
+- Always sign in to xbox live from ingame, not from MS Dash. 
+10.- I get \"BATCH PROCESS FAILED\"!!! 
+
+ 
+
+Then simply you need to read this manual over again and make sure you haven?t missed 
+anything. 

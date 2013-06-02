@@ -1,0 +1,18 @@
+German phonebook from end of 2006 as SQL-dump
+
+This is approximately 2,7 GB large (uncompressed).
+
+The database includes the following fields:
+| id            | int(11)    |      | PRI | NULL    | auto_increment | 
+| nachname      | text       |      |     | NULL    |                | 
+| vorname       | text       |      |     | NULL    |                | 
+| suffix        | text       |      |     | NULL    |                | 
+| branche       | text       |      |     | NULL    |                | 
+| strasze       | text       |      |     | NULL    |                | 
+| plz           | text       |      |     | NULL    |                | 
+| ort           | text       |      |     | NULL    |                | 
+| internet      | text       |      |     | NULL    |                | 
+| telefonnummer | bigint(20) |      | MUL | 0       |                |
+Not all fields may be filled with really useful content, but most contain at least a proper telephone number.
+
+You could use this for data-mining or a *really* fast reverse-lookup running at your own server/workstation at home ;-).

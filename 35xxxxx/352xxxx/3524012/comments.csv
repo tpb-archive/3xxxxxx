@@ -1,0 +1,38 @@
+﻿User Type,Username,Date,Text
+,Todde@Swe,2006-09-14T18:31Z,Gå in på http://machman.gotdns.com/index.php så har du ALL info du behöver plus lite till :)
+,Todde@Swe,2006-09-14T18:32Z,Vilken version är detta då? Är den brandad eller unbranded...? Bra med lite mer info.... TYP! :)
+,lonetree,2006-09-14T20:45Z,Det är 54.08.00 full no lock och sen måste ni flasha med 54.08.09 Generic plus unbranded 
+,lwaibasel,2006-11-01T19:40Z,"Kompis... Du verkar bara snacka en massa skit här ""lonetree""... Vad i helvette gör du med din mobil... Om bara 3 vet vad du håller på med med. Aoooo.... I alla fall ring Turk5 på 08555555 om du behöver hjälp... eeaaa   du råkar inte ha en Joystick till min A1000??"
+,tomas28,2007-01-09T22:58Z,"54.08.09 Är mycket Bra, telefonen startar mycket snabbare utan massa odljud och den klyddar inte Mer. Tack för Denna /T "
+,sivan_mezoo,2007-07-07T13:22Z,"Funkar prima ! Working perfect 
+but how do I do ?
+First flash by 54.08.00 as :
+1) kill bouth Mrouter service in taskman Alt+Ctrl+Del
+2) fully charge battery,switch off phone (remove SIM and memory card) sett battery back again shut down the phone and 
+3) press both game buttons ""o"" and ""oo"" and hold them 
+4) connect phone (game buttons are still pressed) with usb-cable and power cable (power in to usb first and then ) (DONÂ´T UNPLUG THE PHONE AT ANY TIME) 
+5) let both game buttons go -> phone is showing something like ""AP is on CE-Bus"" 
+6) run RSD lite 1.6 (if it is not already startet) 
+6) Windows will probably find a new device (if you get an error message saying that the device was not correctly installed just shut down your PC and restart; after restart donÂ´t forget to kill the two mRouter tasks and run RSD lite 1.6 once again) 
+7) click on ""show device"" 
+8) select flash file 
+9) click ""start"" 
+10) during the flash process Windows will find 3 new devices; either select automatic driver installation or manually point to the MotPCSDrivers directory 
+
+The first time I flashed my A1000 I got an error message after 100%: flashing failed (once again: DONÂ´T PANIC). If you get the same error message (DONÂ´T UNPLUG PHONE FROM USB CABLE) go on with 11) otherwise (if everything goes OK) go on with 16): 
+
+11) close RSD lite 1.6 
+12) switch off phone (1/0 switch on the right side of the phone) 
+14) now you have to unplug phone from USB cable 
+15) start from 3) once again (after the second time flashing succeeded) 
+-- 
+16) after flashing shows 100% phone will restart (DONÂ´T UNPLUG FROM USB CABLE) 
+17) do all the initial settings (language, time etc.) 
+18) RSD lite 1.5.1 will show: status finished; result PASS 
+19) Now you may close RSD lite 1.6 und unplug USB cable
+
+now restart your PC and do the copying explaind in readme file of the 54.08.09 and then flas it by doing all steps again.
+the guide from http://www.a1k.it/indice.php?origine=http://www.a1k.it/about3077.html"
+,sivan_mezoo,2007-07-07T13:25Z,förresten jag har en Tre låst A1000 vill ni låsa upp det kan ni kontakta mobilbanken.se ( jag har inga som helst ekonomiska intresse i detta tips det var bara svårt att hitta någon som kunde utföra det på min telefon som hade en hög version av bootloader)
+,sivan_mezoo,2007-07-07T13:26Z,f. a. n. det blev lite fel som jag skrevi jag hade (den är olåst nu) och ni som har en sådan kan bla bla .. ni vet 
+,sweden_oskar,2008-01-29T20:55Z,Kan man låsa upp mobilen med detta program?

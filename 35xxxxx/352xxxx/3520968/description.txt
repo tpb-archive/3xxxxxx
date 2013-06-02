@@ -1,0 +1,24 @@
+These are the liveries from the 1.0 installer made to work with the 1.1 install.
+
+I have these installed & everything works fine.
+
+
+
+
+
+A warning before you download.
+
+
+
+This is each aircraft type in a rar file.  These will not extract to the correct directories so you will need to extract each 1 to a temp file & them cut & paste the files to their respective directories.
+
+On the 757-RR Rear Hatch...The 1.1 install calls for a model.h to be used. In order for this to work, the aircraft.cfg file has been altered for these planes to use the model.o (thanks to Sander3 for that tip). When the model.h is used the fuselage refuses to paint. I flew with both models & honestly could not tell the difference.
+
+The edited aircraft.cfg files are included for each aircraft. There also an aircraft.bak.txt file that is the original aircraft.cfg file that came with the 1.1 installer in case you want to go back. Just rename it to aircraft.cfg.
+
+Maybe someone that has the experience can get this to work with an installer...I for 1 have never dealt with an installer & didn't want to start with this set.
+
+It's a small .rar file but this will expand to about 800+mb when extracted.
+
+
+Enjoy

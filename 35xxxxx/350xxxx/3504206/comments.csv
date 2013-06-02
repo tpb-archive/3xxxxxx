@@ -1,0 +1,81 @@
+﻿User Type,Username,Date,Text
+,BlankWyman,2006-07-17T08:05Z,"You all better be happy, i've got 2 of my 3 512kb connections seeding this right now :P"
+,wankan,2006-07-17T20:22Z,"Winiso comes up with an error ""This image file has multi-tracks or sessions"" , so will only extract 356mb of the data .
+Are there multitracks ?"
+,k-t-m,2006-07-18T00:18Z,"iirc, worms 2 has cd audio. so just ignore winiso's whining, or mount the image in daemon tools instead"
+,samleng,2006-07-18T12:55Z,"I can't get it to work!
+
+On Windows 2003 Server R2 it says ""No CD in drive"" (I have tried mounting the image in Daemon Tools and Alcohol 120%), and on a Windows XP SP2 machine it says something about the 16 bit application not compatible with NT subsystem.
+
+Disc image appears fine I can see that track 1 is data and the rest music."
+,BlankWyman,2006-07-18T13:20Z,"Thats strange, it works fine on Win XP (tested and works on my 133Mhz Compaq lappy, running Win XP Pro)"
+,samleng,2006-07-18T14:22Z,"Managed to get it to work now on Windows 2003 Server R2. Daemon or Alcohol needs to be mapped to D: (Legacy Windows 95 limitation I expect) otherwise it won't find the CD.
+
+Will try other things with a WinXP SP2 machine."
+,ringstroom,2006-10-13T17:20Z,mamamamamamamamamammqa kaching
+,Tobbe_j,2006-12-29T12:36Z,"Thanks :) my old cd got scratched and i've been dying to play it again
+
+With other words: Thanks "
+,mjjka,2007-01-23T13:56Z,Works fine!
+,Lord_Nerd,2007-01-25T00:27Z,I can't get it to work with demontools either.  I can't map it to D: ... I will try to burn it though and see how it goes.
+,Best-man,2007-02-17T23:39Z,takes long to time to download???
+,mublakcor,2007-02-23T16:36Z,"It seems that you actually do have to remap the deamon cd rom to D:
+To do so just deactivate your original cd rom
+right click on the deamon tool quick lunch icon 
+select the device that has worms mounted and press set device parameters
+your game should now run without any problems
+hope it helps"
+,Fager87,2007-03-22T23:34Z,"I've got win XP SP2, with C, D, and E as disc driver, F and G are my CD/DVD drives, and thus daemon becomes H... This hasn't been a problem before, but if I have to make Daemon to D to play it... Long story short, is there any other way around it?"
+,343434,2007-03-24T20:53Z,"maybe a crack had be fine?, the most usually problem: if you are loading the cd file in daemon with normal settings and runs worms 2.exe you will get an error like these: no cd in drive! so do any1 have a crack for this? (add haavar_@hotmail.com)"
+,cisP,2007-07-24T03:23Z,Good that it does not comes with a crack!
+,BlankWyman,2007-10-30T07:52Z,"sorry about this, i haven't been on here for quite a while. I don't have these files on my computer anymore."
+,Duttisatjone,2007-11-23T19:25Z,"It doesn't work for me... I changed Daemon tools to D: and installed the game without any problems, but when I'm trying to start a game this screen comes up and the game crashes.. http://www.fuskbugg.se/pub/misc/felwww.JPG
+
+Anyone who knows why?"
+,BlankWyman,2007-11-27T07:01Z,i'm guessing you'll need to use compatiblity mode.
+,Chernobylties,2007-12-12T23:59Z,"For anyone who's interested in how to make 
+Worms  2 work on vista (and probably some versions of XP):
+- First, change every .exe file within the worms 2 folder in compatibility mode 'Windows 95'
+- Second, download Deamon Tools to mount iso
+- Third, go to 'start' --> rightclick on 'my computer'  --> 'management' --> open 'storage' --> click 'diskmanagement' --> select the device the drive with letter 'd' and rightclick --> look for 'change station letter and path (or something, i've got dutch language)' --> now, change it to for example 'H'. Do so the same with the virtual disk that's displayed (if deamon tools had been installed and configured), and change it to drive letter D. Now mount the 'worms 2 iso', with patch installed, and it should work like hell!"
+,urgulax,2008-04-15T16:43Z,"Gave the cd to my friend one year ago.
+And Worms 3D isn't so funny as Worms 2D so thanks for this awesome backup!"
+,ducksilverNL,2008-05-29T13:58Z,"chernobylties are you dutch?
+
+Zo,ja werkt dit spel goed met deamon tools?"
+,gelbherz,2008-07-25T18:29Z,"Our Hero is here to make this clear.
+You must indeed remap the drive containing the game or game image to be ""D"". God and Team17 know why...
+This is done in control panel/administrative tools/computer management/storage/disk management. Right click a drive, to free up ""D"" to use for daemon tools or alcohol or such, or to make your cd drive ""D"". Easy peasy!"
+,gelbherz,2008-07-25T18:30Z,"I own all the worms' but they're packed up and I need something to do on a long train trip, so thanks uploader and forgive me, Team 17!"
+,Kristoff999,2008-11-30T01:19Z,"On Windows XP SP2 there write ""No CD in drive""
+
+What i can do ?
+Please HELP, thx in advanced"
+,JuhaT,2009-01-11T20:30Z,"I got it fully working, but i have no music in it. I do have all the sounds from weapons and the worms sayings. Anyone else having the same problem? Got a solution for this? I did infact find the music, it is included in this package, but..."
+,Anarith,2009-01-28T16:32Z,does worms 2 have background music then?
+,Anarith,2009-01-28T16:33Z,"how can it be 700 mb?!
+i expected like 50-100mb"
+,AxisDSTC,2009-03-22T23:48Z,peace and love from a phat fan! :P thanks!
+,Anti-Noob,2009-08-25T15:11Z,"Well ive got the game and as far as I know it does have background music and stuff. But whenever I applied the crack it would always crash whenever I tried to start a game.
+
+So im guessing, if it doesnt work properly that is, the best thing to do is burn it."
+,Anti-Noob,2009-08-25T15:20Z,"Or if you want to mount an iso im guessing that instead of messing with your drives you just change the CD registry value from D: to F: or whatever. Might work, might not.
+
+Seriously, hkey_current_user/software/team17softwareltd/worms2 in regedit.
+
+ill try it later."
+,EnoKrad,2010-03-12T06:15Z,"Do what anti noob said;
+""Seriously, hkey_current_user/software/team17softwareltd/worms2 in regedit.""
+
+You have to change it to 'D:' and if your using daemon tools or any other virtual drive it HAS to be named D: drive. If you already have a drive by that name right click My Computer > click manage > Go to disk management > rename the drive that is currently D to any other letter so you can have D as a virtual drive. If this messes anything up you can always go back and undo your changes by following the same steps"
+,NSBill,2010-08-05T15:06Z,"I've got the game to start. I've used all the advice on these pages, such as using Virtual Drive d:\ and running as administrator.
+
+But when I start the game the opening sequence plays and then it says 'Worms2 is not responding' and the game crashes. What's going wrong?"
+,DemonicOx,2010-08-15T04:07Z,"If you're having trouble with the ""no disk in drive"" problem, I may have found a workaround, but I'm not entirely sure if it will work on other computers. My disk drive is NOT D:, and the virtual drive i have the virtual disk in isn't D: either, but you can get around the ""No disk inserted"" error by having the virtual disk loaded and any other physical disk in the physical drive. That should trick it into thinking there is the worms disk inserted, but as I said, it might not work for everybody."
+,Sylvarion,2010-09-09T14:01Z,need more seeders plz.. so want this game
+,PoshRocks,2011-02-27T04:34Z,"What patch do i do? The ""W2P005_English.exe"" or just ""Patch.exe""??? I don't know :S
+Also thanks so much for uploading this!!!"
+,Paja31249,2011-04-10T14:14Z,"it says no cd in drive 
+
+what to do????"
+,Mole18,2012-08-17T10:30Z,"I try and try, but it never work..."

@@ -1,0 +1,29 @@
+﻿User Type,Username,Date,Text
+,uraphake,2006-08-20T10:38Z,"[WindowsXP] Some people report that bootvis doesn't work. This is true -- not *all* systems will benefit from using bootvis. Most will, however. Make sure you defrag your HDD prior to using bootvis."
+,uraphake,2006-08-20T10:44Z,"Run bootvis and click on ""Trace."" Select ""Next Boot + Driver Delays."""
+,uraphake,2006-08-20T10:45Z,"When ""Trace Repititions"" dialog appears simply accept the defaults and click on ""OK"" and then re-boot your system."
+,uraphake,2006-08-20T10:46Z,Wait until bootvis restarts after Windows loads. Note your boottime in the graph(s).
+,uraphake,2006-08-20T10:47Z,"Again, select ""Trace"" and ""Optimize System."" Your computer will reboot and bootvis will remap startups and drivers on your HDD for quicker start ups. Run another ""Trace"" as in the first step above and check to see if there was any decrease in boot times."
+,uraphake,2006-08-20T10:48Z,Some systems can achieve up to a 10 or 12 second decrease with bootvis. Others may not experience any benefit at all.
+,greybigtop,2006-08-20T20:21Z,"""Some systems can achieve up to a 10 or 12 second decrease with bootvis""
+
+Who the fuck cares about 10 seconds?"
+,lap87,2006-08-21T05:48Z,I do... is it something wrong with that? I'd like not to wait forever for my comp to boot up each time i tweak some settings.... 
+,BadSwe,2006-08-21T12:17Z,"Agree with grey... Who the hell cares if it boots in 60 sec then 70-80... 
+Stupid noobs, messing with thing they dont know about.... Hope u all crach ur partitions... "
+,hansolos,2006-08-21T19:35Z,"bootvis is buggy, I had problems with it and the ati control center - after removing botvis, everything works well, microsoft didnt removed it for fun"
+,uraphake,2006-08-23T10:45Z,"Microsoft quote: ""The boot optimization routines invoked by Bootvis.exe are built into Windows XP. These routines run automatically at pre-determined times as part of the normal operation of the operating system."""
+,uraphake,2006-08-23T10:50Z,"So, what the MS quote means is this: You will ""crach ur partitions"" by using Windows XP. I've used bootvis on dozens of systems and it works. If you ""crach ur partitions"" using a simple tool like bootvis, then you have EBKAC syndrome. ""Error Between Keyboard And Chair."""
+,uraphake,2006-08-23T11:29Z,"No, MS didn't remove it from their site: http://download.microsoft.com/download/whistler/BTV/1.0/WXP/EN-US/BootVis-Tool.exe"
+,uraphake,2006-08-23T11:30Z,"Does BootVis work? --
+http://www.softpedia.com/reviews/windows/BootVis-Review-11957.shtml
+http://www.tweakhound.com/xp/bootvis/
+http://www.helpwithwindows.com/WindowsXP/tune-19.html"
+,uraphake,2006-08-23T11:33Z,"BootVis.exe simply calls up this routine built into Windows XP which you can run directly from the ""Run"" dialog box:
+
+Rundll32.exe advapi32.dll,ProcessIdleTasks"
+,uraphake,2006-08-23T11:34Z,"The routine above will take ten to fifteen minutes to run in the background, so give it enough time to do its thing."
+,uraphake,2006-08-23T11:43Z,"The direct download link I provided to bootvis is smaller in size because it doesn't actually install on your system as an application as does the download from emrwe. The MSI (MicroSoftInstaller) creates a program link. The .exe from Microsoft is the direct executable itself and doesn't ""install."" I personally prefer the MSI version."
+,emrwe,2006-09-16T07:24Z,thanks for info!
+,emrwe,2006-09-16T07:25Z,its exe and working
+,SDiggles,2008-10-25T00:27Z,If you don't know how to use this...just don't even bother. 

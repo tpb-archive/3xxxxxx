@@ -1,0 +1,16 @@
+FairUse4WM is a GUI version of drmdbg that supports individualization version .3930 and some WM11 versions.
+
+Basic requirements
+1. Does not work with Win98 or similar.
+2. Works with both individualized content and some DRMv1 files
+3. Supports WM9, WM10 and WM11beta1 and 2
+
+The program\'s functioning can be verified with \"Demo\" DRM files from fairuse4wm.com and ezdrm.com, as well as those from other Microsoft Solution partners.
+
+This program is ONLY designed and intended to enable fair-use rights to PURCHASED media.
+- While I haven\'t been able to support license expiration/rental detection, please don\'t use this to abuse rental license
+- This code does NOT allow import of KID/SID pairs to preclude its use for piracy
+
+Note that some WM installations will have multiple ECC key-pairs, so you will likely have to \"Extract Keys\" using multiple licensed files. If you find a file that doesn\'t convert, try extracting keys wth it. Once your whole set of keys is extracted, you will no longer need to run WM per file.
+
+Finally, I\'d like to thank the people who helped me test this program. Thanks for the suggestions, and yes, even the problems. With your help, I hope I am able to release a stable tool for Wm conversion.

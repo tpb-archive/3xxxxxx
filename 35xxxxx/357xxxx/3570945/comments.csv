@@ -1,0 +1,50 @@
+﻿User Type,Username,Date,Text
+,koolburger,2006-12-06T10:19Z,Any chance of seeing a no dvd patch ? Haven't had any luck with either mounting nor burning using Toast as well as Diskutil... Thanx for the upload tho'.
+,koolburger,2006-12-06T14:10Z,"What I meant to say was, I can easily install it, it won't however launch, keeps asking for the original disk to be inserted. Just to elaborate..."
+,btenhaaf,2006-12-06T20:51Z,i don't have a no dvd patch either. :(
+,btenhaaf,2006-12-07T18:31Z,http://thepiratebay.org/tor/3572531/Civilization_IV_Warlords_(MAC)_[k]_NoCD
+,metalbaby,2006-12-13T05:14Z,Which build is this?
+,dtearth7542,2007-01-15T04:15Z,Where can I get CIV IV so I can use this patch?
+,RomanSPQR,2007-05-27T05:17Z,"Excellent download, thanks.  The patch on this site works too."
+,gnat92,2009-03-04T02:41Z,"I've installed it correctly, and applied a crack, but when i try to open it, nothing happens.
+this happening to anyone else, or did I do something wrong?"
+,SpudsBM,2009-08-24T05:30Z,"ok download bteanhaafs http://thepiratebay.org/tor/3572531/Civilization_IV_Warlords_(MAC)_[k]_NoCD
+after this one then follow my post there"
+,SpudsBM,2009-08-24T05:43Z,"for all you lazy people you wont read my post over there here it is REMEMBER DOWNLOAD http://thepiratebay.org/torrent/3570945/Civilization_IV_Warlords_%28MAC%29
+
+AND
+
+http://thepiratebay.org/torrent/3572531/Civilization_IV_Warlords_%28MAC%29_%5Bk%5D_NoCD
+
+AND
+
+http://thepiratebay.org/torrent/3872926/Civilization_IV_for_MAC__universal
+
+then use these instructions for both the civilization 4 and warlords
+
+: Original post by
+leechoid at 2008-09-15 23:56 CET:
+
+To make things easier, a compiled list of how to make this work on Leopard:
+
+After you mount the main game files, now what is left to do is to apply the updates and warlords patches. The cracks that are included with them arent the ones that are the drag, drop and replace. These are applications that ""patch"" the existing executable files. So in order that these ""patches"" can work, you need to give them permission to fuck around:
+
+1. Right click on the civ4 warlords executable and choose SHOW PACKAGE CONTENTS
+2. Right click on CONTENTS and choose GET INTO
+3. At the bottom of the panel should be a lock. click the lock, type in the password, and then change ALL of the options to READ AND WRITE
+4. Then click the gear-like tool on the very bottom and choose apply to enclosed, then click OK in the confirmation dialog.
+
+Now, the patches themselves need to be edited to properly execute. We need to update their iPatcher to fix them. To fix the crack patchers so they work on Leopard (same procedure on both patches):
+
+1. Download the latest iPatch from ipatch.org.
+2. Mount the downloaded iPatch dmg, right-click the iPatch app, choose ""SHOW PACKAGE CONTENTS"".
+3. Locate ""Contents/Resources/iPatcher"" (448 K), right-click it and choose ""SHOW PACKAGE CONTENTS"".
+4. Locate ""Contents/MacOS/iPatcher"" (212 K).
+5. COPY it.
+
+6. Copy the patches from the .dmg to your harddrive so they can be modified. I keep them with the executables they are going to patch.
+7. Right-click on a patch, choose ""Show package contents"", locate the file ""Contents/MacOS/iPatcher"" (208 K)
+8. Replace (PASTE) the file from the iPatch download ""iPatcher"" (212 K) over the ""iPatcher"" (208 K) in the crack patch.
+9. Launch the crack, it should not crash if you did it right (obviously).
+10. Run the crack and drag the warlords game executable into the crack to patch it.
+11. Run the game "

@@ -1,0 +1,168 @@
+﻿User Type,Username,Date,Text
+,Verwandlung-,2006-11-03T17:40Z,thanks !
+,dd_unlimited,2006-11-03T20:34Z,Crack doesn't work. Gives an error message. Someone please give a fixed version :(
+,kris33,2006-11-03T22:01Z,"Wrong. IT DOES work for me, and has worked for countless other people. Are you sure you copied it over in the right directory????"
+,dd_unlimited,2006-11-03T22:05Z,"I copied both files over to the data/ directory, where the original files were, and overwrote them. I got an error telling me to reinstall. I tried manually copying over files and it seems to be the .mll one giving me the problem. I'm going to retry on a different computer. I LOVED Sam and Max so I really wnat to play it, don't get me wrong, so trust me when I say it's not accidental."
+,dd_unlimited,2006-11-03T22:28Z,"I installed it onto a completely different computer. Copied the crack files to the s & m data directory. Overwrote the existing ones. Tried running it. Same error:
+
+There was an error during startup. Please re-install
+
+So, this isn't just a random coincidence. I'd like to hear what the 'countless others' have to say."
+,S3ZAi,2006-11-03T22:39Z,"Downloaded this release from another source and been playing it this evening. No prob whatsoever. Do a hash-check and make sure your download is 100%. Don't know what else to make of it.
+Sam and Max are still great fun btw!"
+,dd_unlimited,2006-11-03T22:42Z,Who was your other source? I've only dled it from Piratebay. I re-downloaded it for this computer. Possibility that the crack in PB is corrupted. Link?
+,dd_unlimited,2006-11-03T23:47Z,"I should add that the demo works fine, so hardware issues aren't a factor. 
+
+Can anyone tell me EXACTLY where they copied the crack files?"
+,fnurf,2006-11-04T00:23Z,"Try downloading it again, i just installed it exactly as instructed and it works great. (installed it to default location and put the crack in the ""data"" folder and overwrite the old ones)"
+,Skeeter111,2006-11-04T01:05Z,"I know how all about using cracks and this crack doesnt work for me either so other bloke is correct.
+
+using xp pro here btw with sp2."
+,fnurf,2006-11-04T01:15Z,"I'm also using win xp pro sp2 (with the latest direct x) however i never installed the demo, if both of you did then maybe thats the answer.
+
+I installed it to the default location (which would be C:\Program Files\Telltale Games\Sam & Max - Culture Shock\ in my case)
+and the crack files (both of them) ended up in C:\Program Files\Telltale Games\Sam & Max - Culture Shock\Sam & Max - Culture Shock Data
+
+Not sure what else could be different.
+
+If you did install the demo make sure you uninstall it completely and if that doesn't help do a search with regedit and remove everything connected to sam'n'max (in HKEY_LOCAL_MACHINE bla bla bla software)
+
+For other people reading this, the release does work but it seems some are having problems with the crack for some unknown reason."
+,Skeeter111,2006-11-04T01:19Z,"Ok found a temp fix.
+
+Only copy the .exe to from the crack folder to the game install dir (right place on ur comp) dont copy the other file.
+
+You will get a error about a key but click ok and the game will load."
+,Skeeter111,2006-11-04T01:20Z,"No i havent downloaded a demo of this game, it was this torrent only and thats only sam and max thing i got off the net."
+,Skeeter111,2006-11-04T01:23Z,Hmm my fix only seems to make the trail run.  Ah well.  It is the .mll file i think is the problem as when i try to use the cracked version of the .mll thats when i get the problem with startup mesage.
+,fnurf,2006-11-04T01:55Z,Are you running a windows version with a different language perhaps?
+,Skeeter111,2006-11-04T02:32Z,Just uk (british) version mate.
+,dd_unlimited,2006-11-04T03:31Z,"Skeeter, maybe we can do some joint troubleshooting seeing as we seem to be the only ones with the problem
+
+I installed it on to two computers. The similarities between the two (as far as I can gather) are as follows:
+
+1) They are both Windows XP Sp2, fully updated
+2) They both have Norton Goback. They both had norton antivirus but I decided to uninstall it to troubleshoot. Goback is time consuming to get rid of.
+3) Agnitum outpost firewall
+4) wireless keyboard/mouse
+5) NVIDIA video cards with latest drivers
+
+That's all for significant similarities.
+
+Now, I did find something interesting. When I run the game in SAFE mode, it does actually start loading up but then stops because there is no direct x available (since no vid cards were loading).
+
+I really can't figure what it is. Let me know if you have any of these things in common,."
+,dd_unlimited,2006-11-04T03:42Z,"I should add that I also tried running it under a new, different account, still no go. I have no idea what could be wrong, short of reinstalling windows, and I don't think i have the patience to do that."
+,Skeeter111,2006-11-04T05:01Z,"Btw this 72mb file is the demo and full game in one, the full game is unlocked via a key of sorts from buying online.  Presumably crack provided circumvents this but isnt with us.
+
+Win xp pro corp using
+amd 3500+
+2gb ram
+gf 6800 256mb 84xx drivers (dont like new ones)
+dx 9.0c latest from a recent game install the game was released recently so dx is latest of 9.0c
+
+nod32 antivirus in use.
+zonealarm pro in use
+
+im a very above average computer user so human error i cant see being the thing.
+
+Only thing that springs to mind is the game access gametap or telltale and the key we use is being detected and game is prevented loading.
+
+I have tryed stoping net access to the game but still no go."
+,dd_unlimited,2006-11-04T05:06Z,"The problem is that other people have been able to use the game without problems, so I don't think the crack is at issue. Like I said, it worked when I was in safe mode (just didn't run because there was no video driver loaded)
+
+The only thing I can think of is that it's software-related, and has something to do with either Windows or my Nvidia drivers. I don't know how I could fix that however."
+,Skeeter111,2006-11-04T05:13Z,"I would like to know where there game ends when there playing the ""cracked"" version.  As i can play the game using my ""fix"" method up to where you go out the door, then the game closes. (trial)
+
+If they get past this and can go to other places then i agree its a problem our end.
+
+At first i thought it was cos i installed it in a custom drive/folder as i like to keep things in a games partition and folder.  But i tryed installing it (after uninstalling) into default dir i.e c:....
+
+No effect."
+,dd_unlimited,2006-11-04T05:19Z,"Ive read of people being able to go to other places in the game. Besides that, even if it's just the demo they're playing (which I doubt) they'd still be able to play after copying over the crack.
+
+As I've said, I think it's a software problem on our end. I have some customized settings but for the life of me I can't figure out what the problem would be."
+,spastic_man,2006-11-04T06:52Z,"It doesn't work for me either. but i didn't put the crack on before i played it, so that is probably the problem"
+,dd_unlimited,2006-11-04T07:15Z,"I don't think that's the problem. On my second computer, I hadn't played the demo before and I tried putting the crack on the first time. Didn't work.
+
+I suspect that either tweaked windows settings or Nvidia drivers have something to do with it, as that's been the only similarity so far.
+
+Do you guys mess around with your windows settings?"
+,spastic_man,2006-11-04T08:11Z,"i've messed around a bit, but i can't remember what"
+,spastic_man,2006-11-04T09:10Z,it also doesn't run in safe mode on my pc
+[V],bimmer,2006-11-04T11:11Z,It's work fine thanx for this
+,fnurf,2006-11-04T13:01Z,"Are you sure you are running the latest version of direct x? (There was a re-release of 9.0c in august and it brought some weird errors along with it, broken sword 4 for instance wont run without it.)
+
+Something i noticed though is that both of you are running nvidia cards, i don't know about kris33 but I'm running on an ATI card (9800xt)"
+,kris33,2006-11-04T13:05Z,I am running a Nvidia 6600GT. Uninstall the demo and try again
+,Skeeter111,2006-11-04T13:11Z,"I have.
+
+Still doesnt allow you to play the (unlocked) full game.
+
+Can you confirm (i asked before) if those who can use the crack and get in game, get past the sam and max office as in go to other places and do other things as game ends for me when you leave office.
+
+And there is no demo ever released, this is the trail and full game rolled in one.  To unlock full game you need to activate it with a key of sorts from telltale games site (presumably crack fixes this so u dont have to) but crack isnt ""activating"" and unlockin the game for us and just giving us ""please reinstall"" errors."
+,Cassiel,2006-11-04T14:53Z,"i got the same problem as you. luckyly, i had a ghost image of my barebone xp system. i restored it, installed graphic and sound drivers, and then the game ran fine (with the fix, of course ). so, there has to be a program installed in your systems that the fix doesn't like. weird, huh?
+
+btw, Sam and Max rocks!  i'm buying this masterpiece :)"
+,Skeeter111,2006-11-04T16:20Z,Got mate to dl and test and worked for him.  Damn what the hell can it be.
+,S3ZAi,2006-11-04T18:12Z,"Hey guys, I downloaded the file from demonoid, but it is possible that it is the exact same release. 
+I didn't have any problems, just installed it, copied over the files and run it. I finished the office part and went outside, talked with a funny little guy etc. Then I stopped, becoz I had to go to sleep and will be able to play again tomorrow, but it seems to work.
+
+I have nvidia 7300 gt, 256 mb, with latest drivers, so it cannot be nvidia (or it should be some specific chip of a 6600 card or something).
+
+I have latest direct x, 9.0c, it comes nowadays with every new game, so you should have it on your pc for a long time now. so that can't be it either.
+
+I also mess around with windows a lot, use my own settings for almost everything, so that shouldn't give any problems either. 
+
+One thing you guys could try, oh well, you never know what will help, go to:
+
+start/control pannel/system/advanced/performance/data execution prevention
+
+switch to ""turn on dep prevention for all programs except"" and enter sam and max there. I had to do this with Dark Messiah to get it to work. This means though that some apps will not work as long as you have the ""turn on dep for all programs"" on. Some processes I use were blocked, for example AdMuncher. You can chose to enter those too manually, but you can also live with it for a while and change the settings back when done with Sam and Max. 
+
+Hope this helpt. If I can think of something else, I will post here."
+,dd_unlimited,2006-11-04T18:25Z,"Hey guys. I can't say I came down with a solution but I finally got it to work. My dualboot XP x64 system wasnt working for some reason before, but I finally managed to get it to work. It's sort of barebones itself, but I got all the drivers etc. installed so it's already usable.
+
+Anyway. I ran Sam n Max and of course, it worked, and it's the full version. I can't explain it. The only thing that's possible is that the sound card might have been screwing around with the game (i have a crappy Soundmax internal card for both machines but the x64 version has nvidia board drivers) or just a general corruption in the x32 xp platform.
+
+All I can suggest is re-installing windows, as silly as that is, or installing another partition and OS onto your system. Hope this helps."
+,Verwandlung-,2006-11-04T18:26Z,"works fine for me (6600 gt card) 
+only problem is when i exit the game my computer freezes but the game itself works great
+
+thanks to uploader"
+,kylebo1,2006-11-05T13:27Z,"hey guys, this is a great game but you really should download it (read it: buy it) from the site as it's only about $10 USD after tax and the adventure genre is struggling enough as it is. i honestly don't care about pirating ridiculously priced FPSes and such but this is cheap and helps helps to revive the adventure genre
+
+thanks"
+[V],Lautsprecher,2006-11-05T19:36Z,"Crap game!
+All it gives me is a black screen. If i printscreen, i get the menu that's 'hiding' behind the blackness"
+,T0nT0n,2006-11-06T01:41Z,The one from DELiGHT was nuked on NFOrce for lacking key.
+,kylebo1,2006-11-07T02:12Z,"i always find it funny when people say a game sucks because either they're too dumb to make it work on their system or too dumb to realize that it's generally a lot more difficult to get pirated games to work...
+
+like i said, it's $10 and it helps bring the genre that i at least love back to life... but whatever"
+,RHilland,2006-11-07T04:00Z,Man I can't get this to work either.  Same error.
+,ciantic,2006-11-08T14:40Z,"ATI Mobility Radeon 9700, Crackfix does *NOT* work, throws the notorious ""Please re-install"" -error at the startup.
+
+Although in other computer (has Nvidia) it works just fine. Could it be ATI related bug in crackfix?"
+,Skeeter111,2006-11-08T14:52Z,I have 6800 256mb card with 84x drivers and doesnt work so dont think its ati/nvidia issue.
+,Thesaya,2006-11-08T16:38Z,Is this US or international version?
+,Skeeter111,2006-11-17T12:13Z,Found a fix
+,Skeeter111,2006-11-17T12:17Z,"Sam.And.Max.Season.1.Culture.Shock.Random.Crashfix-DELiGHT
+
+Get this for startup errors like some of us got, fixed for me and can play ok now.
+"
+,galemann.,2006-11-27T12:36Z,"So why the fuck don't you post a direct link to the fix also then smartass..,"
+,Skeeter111,2006-11-28T21:52Z,"Pirate bay wont let me post compeitor links, you try posting a link to a torrent and you will see a database error come up.
+
+Smart arse.."
+,alex1515,2007-01-06T10:30Z,All warking
+,LLortti,2007-01-09T21:09Z,Does anyone have the second episode Situation: Comedy?
+,changchang,2007-02-19T17:04Z,it works!!! thx
+,XthelordinatorX,2007-02-22T18:29Z,how do i open a .rar file?
+,Richard7666,2007-02-23T09:01Z,"Right, I know this is a month late but to those having trouble with the game quitting when you exit Sam's office even after using crack, you MUST NOT play without using the crack as I assume this makes a little thing in the registry that detects the exe size changing or something in order to detect if it's been replaced with a crack. What you must do is install game(well, demo as it really is) then copy crack. DO NOT attempt to play before cracking.
+
+If you mess up I'm not sure if reinstalling works without going into the registry etc. It's easier just to do a system restore (so make a restore point before installing the game and attempting to crack)"
+,Richard7666,2007-02-23T09:09Z,ah crap nvm mind it didn't work. Great. My ideas are Brilliant.
+,JohnFore,2007-03-11T14:04Z,will this be the full game...also full game OF culture shock...i ALWAYS having problems with games i download...as i think is full game...but not...then i find out it was the full game...but dont know how to get it...But i am stupid...:P but just LOVE sam & Max...(The Game) :P
+,Pyro8,2007-05-19T13:47Z,WTF 6166 downloads and 17 seeders FFS ppl seed that got damn file! or i'll put my keyboard in your ASS!
+,BioShockerr,2011-06-28T17:11Z,Seed plz.. ://

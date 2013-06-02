@@ -1,0 +1,14 @@
+﻿User Type,Username,Date,Text
+,vargpojke,2007-01-11T00:07Z,"How's the quality compared to the other versions out there? 995.99 MB sounds like a promising size, but if you disappoint me, I will destroy you!"
+,metallicaguy43,2007-01-11T04:41Z,"I guess when I include a video sample, 5 screenshots, a psnr value, a ssim mean value, and all my video encoding parameters I'm wasting my time?  ;-p c===(    < ( :"
+,vargpojke,2007-01-11T09:09Z,"Yeah, pretty much ;) But to my defence, this section is for dumb remarks and baching seeders only ;)"
+,wetlegs6,2007-01-21T13:45Z,"Sorry to be a dunce but what program will convert this through to say a DivX/XviD avi file?
+
+Ive tried a few and they either only convert the video or only the audio."
+,metallicaguy43,2007-01-22T04:17Z,"Install Mplayer or VLC to play it back easily. Install mencoder to convert it easily.
+
+mencoder(.exe) /path/to/inputfile.mkv -ovc xvid -xvidencopts bitrate=-7000000 -oac mp3lame -lameopts cbr:mode=2:br=96 -o /path/to/outputfile.avi -vf scale=640:352 -aid 0 -af resample=44100 -srate 44100 -mc 0 -noskip
+"
+,wetlegs6,2007-01-23T08:24Z,"I guess that's a command for command prompt? :P
+
+I tried it and it gave me some form of error I think LOL. Im not really sure what happened :P"

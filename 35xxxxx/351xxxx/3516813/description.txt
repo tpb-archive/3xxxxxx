@@ -1,0 +1,112 @@
+------------------------------------------------------------------------
+Birdy Hitachi friendly Flasher with Xtreme v1.3 - v2.0 (46) All versions
+------------------------------------------------------------------------
+ 
+http://www.xbox-inf.org/forum
+RELEASE INFO:
+
+
+  Friendly Flasher (Windows application) for Hitachi drives
+  Includes Xtreme hack 1.3 for All versions and 2.0 for 46 versions
+
+
+NEW FEATURES:
+
+- Support all firmware version
+- Geremia tweak -> version 1.3
+- Greeting windows, you know what version of firmware your flashing
+- Upgrade a firmware over an existing xtreme
+- Reverse patch without original.bin
+- Customizable firmware : you can select the tweak you need : tray tweak, f900, geremia etc..
+- New functions in SCP.
+- Extra tool include : scpcreator.
+- You can repatch a allready patched firmware (if you change a option)
+
+ !!! This tool is for hacker only !!!!, it help to create a new scp file for new firmware revision.
+ You select an original firmware, your modified firmware and than it generate a SCP file auto.
+ No need to use scpcreator to flash your drive !!
+
+
+FEATURES:
+
+- Auto-Detect Hitachi Drive connected to Windows and its
+  firmware version
+
+- Can restore / flash with user friendly interface
+
+- Auto Retry if flashing or restoring fails
+
+- Auto Verify if Flash / Restore went sucessfully
+
+- Xtreme Hack 1.3 contains all the goodies mentioned on 
+  previous releases (see releases from birdy , geremia and garyopa)
+
+
+Currently I am working on merged version with the F900 (extract 
+security sectors) and with a Stealth mode. Stay tuned.
+
+
+
+Technical details
+-----------------
+Security sectors are read in this order:
+
+Reads Xbox 360 security sector from PSN 04FB1F (Layer 0)
+Reads Xbox 1 security sector from PSN 605FF (Layer 0)
+Reads Xbox 360 security sector from PSN FD021E (Layer 1)
+
+
+Flashing your drive
+-------------------
+*  This application automatically makes a backup of your firmware and asks for save
+   location.
+** Make sure you are flashing over an ORIGINAL image on your drive, if needed first
+   do a RESTORE.  Undesired results can be achieved if you flash over a previously
+   flashed image.
+
+- Plug SATA cable from DVD drive to PC
+- Power cable drive still connected to Xbox 360
+- Ensure drive is in mode b either by two wire trick or slax linux boot cd
+- Go to Windows
+- Run hitachiflash.exe and if the drive is properly connected it should get detected
+- Choose the Action: "Patch or upgrade your firmware with xtreme 1.3 or 2.0"
+- Hit go and wait, 
+- There will be a prompt asking where you want to place the backup of the original
+  firmware (before patching)
+- The flash must start, if some "retry" windows appears hit YES/OUI until finished
+- At the end the application will check for 100% so you can shut down the system
+
+Thats all
+
+
+Restoring your drive (Requires previously saved Firmware Image)
+---------------------------------------------------------------
+- Plug SATA cable from DVD drive to PC
+- Power cable drive still connected to Xbox 360
+- Ensure drive is in mode b either by two wire trick or slax linux boot cd or if you
+  have the Xtreme 1.2 then use the TWEAK starting the box with the tray opened
+- Go to Windows
+- Run hitachiflash.exe and if the drive is properly connected it should get detected
+- Choose the Action: "Restore Original firmware"
+- Hit go and wait, 
+- There will be a prompt asking for your original UNENCRYPTED image
+- The restore must start, if some "retry" windows appears hit YES/OUI until finished
+- At the end the application will check for 100% so you can shut down the system
+
+Thats all
+
+
+
+Thanks:
+----------------
+To everyone at Xboxhacker.net and x360.gx-mod.com for all their discussions.
+To Seventhson for flashsec and memdump.
+To Commodore4Eva for the original Hack Release.
+To Spectrum4Eva for the F900 release.
+To geremia for the disc recognition tweak
+To Loser for firmcrypt.
+To Garyopa for ppf files and port the hack to all versions.
+Also thanks to
+DJTOTO and carranzafp for beta testing the software
+ 
+http://www.xbox-inf.org/forum

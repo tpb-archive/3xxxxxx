@@ -1,0 +1,79 @@
+Nettiasennus
+------------
+
+Note: This program is originally designed to Finnish users and Windows XP SP2 Finnish OS but now it works in ENG/FIN: XP,MCE2005 & W2K3. (W2K - half working...) Details, homepage and also program itself language is Finnish.
+
+Kotisivu: http://www.jyrkihuovinen.net/nettiasennus/nettiasennus.htm
+Versio: 1.05 pvm: 26.9 2006
+Koko: 230kt
+
+Nettiasennus -ohjelma lataa ja asentaa internetistä automaattisesti käyttäjän valitsemat ilmaisohjelmat. Nettiasennus on tarkoitettu ensisijaisesti käytettäväksi Windows XP Home tai Pro SP2 Finnish -käyttöjärjestelmässä joka on ns. "puhdasasennus". Suurin osa ohjelmien asennuksista toimii kuitenkin silti jos vain normaaliin tapaan poistaa koneeltaan ensin aikaisemman version kyseisestä ohjelmasta. Suurin osa ohjelmista asennetaan oletusasetuksin muutamia poikkeuksia lukuun ottamatta. Esim. Daemon Toolssin mukana ei asenneta mainoskompononenttia. Daemon Toolssin asennus käynnistää tietokoneen uudelleen automaattisesti asennuksen loppuvaiheessa ja jatkaa asennusta automaattisesti seuraavan kirjautumisen yhteydessä. Nettiasennus ohjelmaan on otettu mukaan vain niitä ilmaisohjelmia jotka eivät pakotetusti asenna mainoskomponenttia tai muuta vastaavaa haittaohjelmaa.
+
+Nettiasennusta ei tarvitse erikseen asentaa koneelle.
+
+Nettiasennus ei jää koneeseen pyörimään taustalle paitsi jos asennat Daemon Tools ? ohjelman. Daemon Toolssin asennuksesta johtuen Windows\system32 ? kansioon jää asennuksen jälkeen Jalkiasennus.exe. Tiedosto ei jää silti mitenkään jatkossa pyörimään ja sen voi poistaa halutessaan Daemon Toolssin asennuksen jälkeen.
+
+Nettiasennus on ns. freewarea eli vapaasti käytettävissä ilmaiseksi. Käytät Nettiasennus ohjelmaa täysin omalla vastuullasi. Ohjelmien lataus tapahtuu tällä hetkellä 3 eri palvelimelta (Funet, Saunalahti ja Vuokrapalvelin.net). Nettiasennus päivittää itsensä automaattisesti jos uusi versio saatavilla netistä. Ohjelmaa päivitetään tällä hetkellä n. kerran kuukaudessa.
+
+Nettiasennus 1.05 sisältää seuraavat ohjelmat:
+
+    * Adobe Reader 7.08 (FIN)
+    * Stickies 5.2b (ENG) - Kätevä "muistilappu" -ohjelma
+    * IZArc 3.5 beta 3 (MULTIL.) - Hyvä purku- ja pakkausohjelmaa
+    * Windows Media Player 10 (FIN)
+    * Mozilla Firefox 1.5.0.7 (FIN)
+    * Mozilla Thunderbird 1.5.0.7 (FIN)
+    * Windows Live Messenger 8.0.0812 (FIN) - Uudempi versio "MSN Messenger" -ohjelmasta
+    * RevConnect 0.674p (ENG) - Parempi kuin DC++ ;)
+    * Winamp 5.24 (ENG)
+    * Bitcomet 0.70 (MULTIL.) - torrentsofta
+    * Picasa 2 (MULTIL.) - Googlen tekemä suomenkielinen yksinkertainen kuvien katselu- ja käsittelyohjelma
+    * Avira AntiVir PE Classic 7 (VDF:9.6.06) (ENG) - Tehokas, automaattisesti päivittyvä virustorjunta
+    * FileZilla 2.2.25 (ENG) - Hyvä FTP-client
+    * AVS DVD Player 2.2 (ENG)
+    * OpenOffice 2.0.3 (FIN) - Hyvä vaihtoehto maksulliselle Microsoft Officelle.
+    * Daemon Tools 4.03H (ENG)
+    * DivX 6.2.5 (ENG)
+    * AC3 Filter 1.09a (ENG)
+    * Real Alternative 1.50 Final (ENG)
+    * QuickTime Alternative 1.75 (ENG)
+    * Sysinternals: Autoruns 8.51 (ENG) - Hallitse Windowseissa käynnistyviä ohjelmia
+    * Process Explorer x32 10.11 (ENG) - Hyvä vaihtoehto tehtävien/prosessien hallintaan
+    * Nutty 0.55 (ENG)
+    * XviD 1.1.0 final stable (30.12.2005) (ENG)
+    * GIMPshop 2.2.8 (ENG) - Hyvä korvike Adobe Photoshopille harrastemielessä
+    * IceChat 7.0 Beta (27.7.2006) (ENG) - Messenger tyylinen "karkki" -IRC-client
+    * Sysinternals: TCPView 2.4 (ENG) - Tarkkaile TCP-yhteyksiä
+    * F-Secure Blacklight beta (17.9.2006) (ENG) - Etsii koneelta rootkittejä ja poistaa
+    * VLC 0.8.5 (MULTIL.) - Videosoitin
+    * SpyBot 1.4 (MULTIL.) - Poistaa mainos- ja haittaohjelmia koneelta
+    * Weather Watcher 5.69 (ENG) - Näyttää säätiedot työpöydällä
+    * SpeedFan 4.28 (ENG) - Tarkkaile koneen lämpötiloja ja säädä koneen tuulettimien nopeuksia (ei toimi kaikissa koneissa)
+    * PC Inspector Filerecovery 4.0 (ENG) - Hyvä ilmainen vaihtoehto poistettujen tiedostojen palauttamiseen
+    * Wireshark 0.99.2 (ENG) - Analysoi verkkoliikennettä, entinen Ethereal
+    * Foobar 2000 0.9.3.1 (ENG) - Kevyt mediasoitin
+    * uTorrent 1.6 (MULTIL.) - torrentohjelma
+    * CDex 1.70 b2 (ENG) - "cd-rippausohjelma"
+    * Opera 9.01 (MULTIL.) - Vaihtoehtoinen nettiselain
+    * VobSub 2.23 (ENG) - Tämän avulla saat tekstitystiedostot toimimaan lähes millä tahansa videosoittimella
+    * Inkscape 0.44 (ENG) - Vektorigrafiikkaohjelma
+    * Skype 2.5 (MULTIL.) - Keskusteluohjelma
+    * GSpot 252b01 - Tällä ohjelmalla pystyt tarkistamaan mitä kodekkeja koneeltasi puuttuu jos et pysty katsomaan jotain elokuvaa tai kuule elokuvassa ääniä tms.
+    * FFdshow-20060821-rev2546
+    * BSPlayer 1.37.826 (MULTIL.) - Hyvä vaihtoehto leffojen katseluun
+
+
+Nettiasennuksen laitevaatimukset jne.:
+
+    * Suomen- tai englanninkielinen Windows XP Home tai Pro jossa SP2 asennettu. Toimii myös Windows 2003 Server SP1:ssä sekä MCE 2005:ssä. Huom. jos käyttöjärjestelmä on englanninkielinen pitää maa- ja näppäimistöasetukset käyttöjärjestelmästä olla asetettuna suomalaisten asetusten mukaisesti.
+    * Internetyhteys täytyy olla toiminnassa (laajakaista)
+    * Windows asemassa väh. 1,5 Gt vapaata kovalevytilaa
+    * Sinun täytyy olla kirjautuneena Windowsiin käyttäjätunnuksella jolla on Järjestelmänvalvojan oikeudet käytössä.
+    * Nettiasennus on testattu ja optimoitu 1,5Ghz tai nopeampiin tietokoneisiin.
+    * Kaikkien koneen komponenttien ajurit on hyvä olla valmiiksi asennettu toimimisen varmistamiseksi. Esim. jos Äänikortin ajuria ei ole asennettu ? Winamp asennus jää kesken.
+    * Käytössä ei saa olla palomuuria joka kysyy lupaa internetyhteyden käytölle. Esim. Kerio tai F-Secure Internet Securityn kanssa Nettiasennus ei toimi. Ainoa palomuuri joka on tuettu / jolla toimii on Windowssin oma palomuuri.
+
+Tiedossa olevat ongelmat:
+
+    * Joissakin koneissa ohjelmien lataus näyttää jäävän 1%:n kohdalle paikoilleen. Todellisuudessa kyseinen ohjelma kuitenkin silti latautuu taustalla loppuun saakka ja asentuu myös.
+    * Nettiasennuksen käyttöliittymä ei näy / toimi kunnolla jos Windowsissasi on käytössä ?Suuret fontit?.

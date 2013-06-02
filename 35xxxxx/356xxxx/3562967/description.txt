@@ -1,0 +1,35 @@
+. . . . . . . Final Fantasy VII Original Sound Track . . . . . . .
+
+Ripped in Exact Audio Copy with Secure Mode to Musepack .MPC audio.
+
+<-===============================================================->
+
+MPC Settings:
+
+--quality 7 (also known as Insane)
+
+<-==============================->
+
+About MPC:
+
+MPC (aka Musepack) is far superior to MP3 in terms of quality and compression.
+
+--quality 7 produces better audio quality than MP3s 
+encoded with LAME with the -V 0 --vbr-new switch, 
+while maintaining approximately the same filesize.
+
+And many times, MPC audio at even lower settings 
+than 7, or Insane, sounds better than MP3 would at 320-CBR. 
+
+MPC is pure VBR and is designed to be as transparent as possible. 
+
+<-=============================================================->
+
+Winamp users:
+
+Copy in_mpc.dll to the Winamp plugins folder, then restart Winamp.
+
+Make sure you NEVER have the equalizer on when playing MPC!
+It will mess up the sound, so make sure it is OFF!
+
+...................

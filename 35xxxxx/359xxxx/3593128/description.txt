@@ -1,0 +1,63 @@
+Spyware Doctor Enterprise Features
+Spyware Doctor Enterprise provides an effective corporate-level anti-malware solution that detects, removes and protects computers on your network from spyware, adware, Trojans, keyloggers, spybots and tracking threats.
+New features in this version of Spyware Doctor Enterprise include
+Policy implementation that facilitates management of predefined rules and settings to computer groups
+Spyware Doctor Enterprise implements policies, which define scan schedules, OnGuard settings, and ignore list selections for specific computer groups. This provides easier management of Spyware Doctor Enterprise Client settings at the computer group level. Computers assigned to a specific group are governed by the current policy assigned to that group.
+
+Customizable OnGuard settings
+The settings of individual OnGuard tools can be specified through a Spyware Doctor Enterprise policy. Within a policy, each OnGuard tool can be selectively enabled or disabled. Some OnGuard tools provide additional options, which permit fine tuning of their behaviors on Spyware Doctor Enterprise Clients.
+
+Enhanced infection and summary reports
+The Spyware Doctor Enterprise Reports feature has been expanded to provide a greater range of reporting capabilities, including the abilities to print report pages and list infected computers on your network by names of specific threats or threat risk levels. Summary and trend summary reports have also been updated with additional information and new graphical results.
+
+Enhanced Console interface and functionality
+A number of features have been introduced into the Spyware Doctor Enterprise Console interface, making the Console more informative and easier to use. These include a customizable computer list view showing a greater degree of computer status details, computer names included in infection alerts, and the ability to reboot Spyware Doctor Enterprise Client computers remotely.
+
+Spyware Doctor Enterprise's main features include:
+Centralized anti-spyware management for client computers on a network
+Spyware Doctor Enterprise Console allows system administrators to manage and operate Spyware Doctor on networked client computers (Spyware Doctor Enterprise Clients) centrally in a multiple server and client environment. Spyware Doctor Enterprise efficiently detects and removes malware from your network.
+Enhanced Spyware Doctor Enterprise Server reliability through the use of Managed Domains
+Spyware Doctor Server installations are organized into Managed Domains. A Managed Domain may consist of one primary and multiple backup Spyware Doctor Enterprise Servers, and behaves as a single Enterprise Server. Managed Domains provide uninterrupted Enterprise Server functionality, since a backup Enterprise Server is automatically activated if the primary Enterprise Server becomes unavailable due to maintenance or unexpected hardware failure.
+
+A scalable server and client architecture
+Spyware Doctor Enterprise can manage one to thousands of client computers as required. The scanning engines of Spyware Doctor Enterprise are installed on each client computer to ensure maximum Server performance.
+Spyware Doctor Enterprise Client computers powered by the effective Spyware Doctor scan engine
+Spyware Doctor Enterprise is designed to utilize the powerful Spyware Doctor scan engine on client computers. This provides these computers with some of the latest scan, malware removal and protection features offered by Spyware Doctor, including rapid Spider Scanning Technology, malicious Kernel Level Process Killer, Rootkit scanning, and malware detection and removal in Alternate Data Streams.
+
+A secure server and client architecture
+The Spyware Doctor Enterprise system is secure, requiring domain administrator permissions to log into a Spyware Doctor Enterprise Managed Domain. This requires NT domain authentication, consisting of a domain administrator account User ID, password and domain name details. Furthermore, data passed between Spyware Doctor Enterprise Managed Domain and Clients is encrypted.The Spyware Doctor Enterprise Console also recognizes Windows domain administrator user login credentials, allowing such users the ability to connect to a Managed Domain without subsequent authentication.
+
+An easy and intuitive Console interface
+Spyware Doctor Enterprise's Console interface is easy to use, allowing system administrators to set up Spyware Doctor Enterprise on their networks rapidly, and to conduct a network-wide scan of clients for potentially damaging malware.
+
+Active Directory support
+Client computers can be added to a Spyware Doctor Enterprise Managed Domain using computers in a Microsoft Windows Active Directory, Domain or Workgroup.
+Centralized Smart Updating of Spyware Doctor Enterprise Clients
+Once a Spyware Doctor Enterprise Managed Domain has been updated with the latest component updates from PC Tools, they can then be dispatched to one or more Spyware Doctor Enterprise Clients or groups through a single Smart Update command.
+
+An intelligent Smart Update Server component
+The Smart Update Server component of a Spyware Doctor Enterprise Server installation operates independently of the Enterprise Server component and is capable of retrieving updates from other Managed Domains. This can provide faster update retrieval and reduced Enterprise Server workload.
+Automated retrieval of Smart Updates by the Spyware Doctor Enterprise Managed Domain to Clients
+The Spyware Doctor Enterprise Managed Domain can be scheduled to retrieve Smart Updates from the PC Tools web site at regular intervals. Furthermore, any new Smart Updates can automatically be pushed to Spyware Doctor Enterprise Clients following a Server update.
+
+Centralized management of Scan Scheduling
+Spyware Doctor Enterprise allows the creation of multiple Scan Schedules for either Scan and Report or Scan and Fix commands. These Scan Schedules can be assigned to one or more Spyware Doctor Enterprise Clients groups through a Policy. If required, e-mail notifications can be configured to advise the administrator of the scan results.
+
+Real-time reporting of infected computers on the network
+After a Scan and Report command is completed, the scan results are sent back to the Spyware Doctor Enterprise Server. The System Administrator can then view scan results that indicate the current state of Spyware Doctor Enterprise Client computers as well as historical scan data, via the Console.
+
+Immediate notification of infections or other warnings via e-mail
+The Spyware Doctor Enterprise Server can be configured to send e-mail notifications to the administrator when client computers have been infected with malware, and for other issues requiring attention on the Server or Client.
+
+Small footprint
+The Spyware Doctor Enterprise Server, Console and Client components do not consume a substantial amount of hard drive space upon their initial installation, and only require about 10-20 MB of virtual memory when active.
+Comprehensive auditing of logins and commands sent to Spyware Doctor Enterprise Clients
+Spyware Doctor Enterprise provides comprehensive logging capabilities for logins, errors and warning events. All commands sent and their results are logged in the Spyware Doctor Enterprise Server's information logs. Each event uses transaction IDs, which allow commands to be traced from their inception to their final result.
+
+ODBC Support
+Spyware Doctor Enterprise utilizes the common Object DataBase Connectivity (ODBC) interface, which provides applications with the potential to access a wide range of databases on a network. Spyware Doctor Enterprise currently supports Microsoft SQL Server Desktop Engine (MSDE) and Microsoft SQL Server 2000 databases.
+
+Easy Spyware Doctor Enterprise Database backups
+The Spyware Doctor Enterprise Database component can be installed on a separate server to Enterprise Servers in a Managed Domain. Multiple Managed Domains can connect to this database, which greatly simplifies the task of backing up the Spyware Doctor Enterprise Database on a multiple server and client network.
+
+Be sure to read the ?Read Me? text file before installing

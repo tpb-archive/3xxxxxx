@@ -1,0 +1,60 @@
+﻿User Type,Username,Date,Text
+,ravw,2006-10-26T19:20Z,"I need a new flightone frapper for FSX plane to frap
+
+thx. 
+
+or someone have to share it with us planes or what for FSX"
+,baabis,2006-10-26T19:24Z,Thx Mate :-)
+,Proctologist,2006-10-27T00:21Z,Awesome!! But is this thing legal???
+[T],stevekasian,2006-10-27T06:53Z,Hahahaha... legal - that's a good one!
+,blankbox,2006-10-27T17:51Z,hmmmm.....is Proctology legal??? my dictionary definition seems awful kinky to me...
+,blankbox,2006-10-27T18:36Z,"hey everybody...
+
+If this bat seems to not run properly...DELETE THESE 2 LINES
+
+REM Execute the ipconfig /flushdns command every 240 seconds.
+REM You can set your own value to suit.
+
+They are just comments anyway...but they might just confuse XP..."
+,Panodilo,2006-10-27T20:25Z,"Do I need to do anything? Can the included bat be used? When I start it it just scrolls endlessly 'set your own value'. Sorry for being an autistic cock slobbering noob, but I must ask. What values worked for you, Blankbox?"
+,blankbox,2006-10-27T20:44Z,"Panodilo
+see my previous post....open the bat in notepad....delete those two lines then save.
+should now look like this:
+
+:START
+ipconfig /renew
+arp -d
+nbtstat -R
+nbtstat -RR
+ipconfig /flushdns
+ipconfig /registerdns
+ping 127.0.0.1 -n 240
+GOTO START
+
+sounds like they are interfering on your PC"
+,Panodilo,2006-10-27T20:56Z,"Oh, ok. And this bat runs in the background then.
+It's scrolling renew. This is normal then?"
+,blankbox,2006-10-27T21:08Z,"yep...in the background for as long as the torrent runs then you can close it..
+
+ping 127.0.0.1 -n 240
+
+I used the ping 127.0.0.01 command as a timer it will actually run 240 pings then reset. 240=4 minutes that's the number you can fuck around with ....just that it's the sweetspot for me"
+,Panodilo,2006-10-27T22:40Z,"Excellent, Blankbox. Hey, you said fuck!! Ten hail marys!"
+,Jackio,2006-10-28T00:09Z,"to Proctologist:
+
+What on earth are you talking about?
+
+If you want legal stuff, then what are you doing here? Here we are, fighting against the law on a site that was closed down due to being ""ilegal""
+There are parties around the world, like the swedish pirates partie, and you are her talking about if a file here is legal?
+
+Im sorry, but I have one word for you: w00t?!"
+,blankbox,2006-10-28T01:22Z,...said ten hail marys....threw in a coupla mantras too.....now what???
+,belga1,2006-10-28T04:04Z,Thank's for the RS link Tupolev 134
+,belga1,2006-10-28T08:11Z,Hmmm..drawback about the Tupolev 134A...the crack no work...only the plain noze available..and only view cockpit active...lol.....before or after activation ...lol.
+,fjelrev,2006-10-28T11:39Z,Crack for Tu-134 is working it been tested many times on differents PC.After aktivation both models you have to restart FS.All info you can find i PDF files.
+,smart_fun,2006-10-28T15:03Z,"REQ. FSX - cloud9 Xclass Europa
+
+thanks!!! "
+,cronos12,2007-02-02T07:18Z,"PLEASE SEED
+
+THANKS MUCH!"

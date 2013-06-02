@@ -1,0 +1,23 @@
+1) Extract to WoW Directory\\Interface\\AddOns
+2) In game type /btm to bring up help and configure preferences
+3) Open AH and type /btm start to begin scanning.
+
+--DVS
+
+
+From the site before it was taken down:
+
+BottomFeeder is an AddOn for World of Warcraft that allows the scanning, evaluation and even buying of auctions that meet criteria which you can configure to suit your tastes / server economy.
+What it does
+
+As it\'s name suggests, BottomFeeder feeds from the bottom (or last page) of the auction house, fishing for bargains. When it finds an auction that matches it\'s configurable parameters, it will buy it out and then you can go to your mailbox to retrieve the goods and relist it, in the process earning a bunch of cash.
+
+It comes out-of-the-box with a preset list of cross-server prices, so it\'s going to be reasonably inaccurate if you don\'t have Auctioneer loaded up with a decent set of scans. It\'s still useable, but it does make the odd expensive mistake.
+
+If you have Auctioneer loaded, it will combine the two sets of data and be a heap more accurate.
+
+If you also have Enchantrix running, it will find and buy disenchantable items
+
+It will also buy vendorable items when they can be resold for more than the buyout price.
+
+There is nothing illegal about this AddOn. It does nothing that any user couldn\'t do manually (albeit slower and more mundanely) if they figured out that new auctions always appear at the end of the auction listings. Auctioneer users have been doing this for years, but have had to scan the whole auction house and then manually snap up the bargains.

@@ -1,0 +1,29 @@
+Pasted from README:
+
+I own a network printer and ran into this problem with TinyXP r5, when attempting to install a network printer such as any Dell laser that's on TCP...a Failed to load TCPMib.dll or such error occurs. I'm sure there are alot of other elegant ways to fix this out there, but I dropped these files into ..Windowssystem3 and rebooted. Add TCP printer wizard now works as it should thru the "local printer" option.
+
+
+****INSTALLATION****
+
+1. Copy all listed files in this package, from your WindowsSystem32* folder to a backup folder...just in case this does not work! in other words....DO A BACKUP of these files before proceding!
+
+2. Boot into safe mode, and copy the files in this package to WindowsSystem32* and overwrite.......ONLY AFTER BACKING UP THE ORIGINALS AS STATED ABOVE!!!
+
+3. Reboot into windows as normal, and Add Printer as you would normally depending on your printer make/model.
+
+Windows Add TCP Printer wizard should now work under add local printer settings as is needed for alot of Dell/Xerox models. I don't even know how many others.
+
+I believe these are post SP1 files, save one which is build 2600.0, yet still works with post SP2 installs it seems.(which are numbered 2600.2180 or higher afaik)
+
+This was a quick and easy fix for my R5 problems getting my Dell 3100cn network laser to install properly.
+
+Hope this helps!
+
+
+m0deth
+
+
+
+PS: MANY thanks go out to the authors of both the TinyXP series...eXPerience, and to the author of nLite, which allowed such beautiful pieces of software to be constructed with such grace as to leave the "headache" out of system installs using Windows XP.
+
+Kudos fellas!

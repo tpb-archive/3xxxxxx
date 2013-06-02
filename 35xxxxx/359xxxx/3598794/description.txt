@@ -1,0 +1,4 @@
+Lightweight modification of Slackware. Makes configuration and maintenance much easier, has common applications installed and configured.
+  Uses icewm/rox-filer for window/file managers. Has backup of fluxbox/fox pathfinder.
+Installer is same setup as Slackware, with a couple changes. Automatically installs  all packages that weight in at 1.74Gb when complete. 
+Latest release features a rewritten installer. Still text-based -- but has much better control and also has an UPDATE option, which will only update newer packages than the currently installed version. See at http://www.pcbypaul.com/absolute/index.html for details.

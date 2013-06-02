@@ -1,0 +1,28 @@
+Sokoban (???, Japanese for "warehouse keeper") is a transport puzzle in which the player pushes boxes around a maze, viewed from above, and tries to put them in designated locations. Only one box may be pushed at a time, not two, and boxes cannot be pulled. As the puzzle would be extremely difficult to create physically, it is usually implemented as a video game.
+
+Sokoban was created in 1980 by Hiroyuki Imabayashi, and was published in 1982 by Thinking Rabbit, a software house based in Takarazuka, Japan. Thinking Rabbit also released three sequels: Boxxle, Sokoban Perfect and Sokoban Revenge.
+
+Implementations of Sokoban have been written for numerous computer platforms, including almost all home computer and personal computer systems. Versions also exist for several hand held and video game consoles, including mobile phones. Many other puzzle games, such as Chip's Challenge and Rocks and Diamonds, implement Sokoban-based gameplay. The roguelike computer game NetHack contains a sequence of dungeon levels deliberately designed to simulate a Sokoban game. (wikipedia)
+
+
+---
+
+This version:
+
+Sokoban
+Version 2.2.5 (for Microsoft Windows)
+
+(c) 1992
+Allan B. Liss
+
+All rights reserved. Permission is granted to freely distribute this program
+
+
+---
+
+files:
+packed: 		sokoban.zip	18.274 bytes
+files in archive:	sokoban.exe	45.056 bytes
+
+notes:
+Game contains the 50 original levels from 1982. The increasing difficulty and the fact, that levels must be solved in given order (progress can be saved) make it a real challenge. Help file seems to be missing, but the game should be to a great part self-explaining. Use the keyboard arrows for control. The yellow boxes should be pushed to the black spots. A level is solved when all black spots are covered by boxes. Despite its small filesize, this is not scam, but a fully functional logic game with hours of hard thinking (of fun, if you prefer).

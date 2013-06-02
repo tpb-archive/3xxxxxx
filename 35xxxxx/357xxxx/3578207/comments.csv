@@ -1,0 +1,112 @@
+﻿User Type,Username,Date,Text
+,Iraes,2007-01-07T22:39Z,"BAD ASS!!!!!
+Works Perfectly, Burns like a mofo.
+Add chapters easier, modify sounds faster.
+TY Chris"
+,majorawol,2007-02-01T17:10Z,"Here's a problem:
+CONFIGURATION ERROR
+This software requires certain hardware or software which is missing.
+
+? AGP graphics card.
+
+According to Apple:
+
+Final Cut Express HD 3.0: Configuration error when using with iMac G5 (iSight) and Power Mac G5 (Late 2005)
+If you open Final Cut Express HD 3.0 on certain computers, you'll get a ""Configuration Error"" message that indicates that your computer is missing certain hardware or software, or possibly an AGP graphics card. This can happen with:
+
+iMac G5 (iSight)
+Power Mac G5 (Late 2005)
+Power Mac G5 (Late 2005 Dual 2.0 GHz)
+Power Mac G5 (Late 2005 Dual 2.3 GHz)
+Power Mac G5 (Late 2005 Quad)
+To resolve this issue, update to Final Cut Express HD 3.0.1 using Software Update or by downloading it from here.
+"
+,majorawol,2007-02-01T17:11Z,...does anyone have a solution for this without registration?
+,Frozensmokeprod,2007-02-07T19:14Z,"Major, are you using a Macmini, they do not have the graphics support for FCP. You'll need to put it on a G5 or better"
+,anarkid,2007-02-11T02:23Z,"U need an AGP graphics card, which my mac doesnt have of course"
+,stapler101,2007-03-21T17:56Z,"where is the serial #?
+thanks!!"
+,ruharvey1987,2007-03-23T15:15Z,"If you get the AGP Card Error
+Here?s how to fix it:
+
+    * Go to Applications folder
+    * Right click on Final Cut Pro HD & choose Show Package Contents
+    * Double click on Contents folder
+    * Open up info.plist with TextEdit
+    * Search for ?AGP? and replace it with ?PCI?
+    * Save
+
+That?s it! Easy, wasn?t it?"
+,mac_davis,2007-03-27T20:47Z,"I tried that solution with Final Cut Express 3, over here, replacing AGP with PCI, the program actually started, and I clicked ""Register Later,"" but only to allow it to always quit unexpectedly. :("
+,mac_davis,2007-03-27T21:57Z,It works! Thanks a lot man :) I just had to restart the computer and it worked perfectly.
+,marymglyn,2007-06-28T03:37Z,I need help. basically i bought a macbook pro. gave them 4k for it just to find out my final cut pro 4 does not work and they want 700.00 for the upgrade. i bought the up grade and i sit here with no serial number from the old final cut pro 4. im devistated i spent 700.00 for nothing. i have no way to make this thing work. please if anyone out there has a final cut pro 4 for mac serial number please post it please!!!!!
+,Takenlastsunday,2007-07-18T08:23Z,Does this work on Windows OS?
+,noyfb,2007-08-11T18:39Z,"This is not the full install it is the 4.5 update cd.
+You install 4.0 then 4.5 plus you have to install all the components manually. At first glance you can not tell if the application is in English cause of the asian folder text."
+,northbeachfilms,2007-09-08T02:10Z,"hope this reaches the right person! thank you for your help in getting FCP 4.0 to run on my macbook pro. what can i say, replacing AGP with PCI worked perfectly, and your instructions were easy to understand. caitlin maynard, north beach films. 
+
+If you get the AGP Card Error
+Here?s how to fix it:
+
+* Go to Applications folder
+* Right click on Final Cut Pro HD & choose Show Package Contents
+* Double click on Contents folder
+* Open up info.plist with TextEdit
+* Search for ?AGP? and replace it with ?PCI?
+* Save
+
+That?s it! Easy, wasn?t it?"
+,elliotlolxz,2007-11-11T14:47Z,"when i try to install this, it says it cannot install because there is nothing to install. any help? thanks :)"
+,gabriel84,2007-12-07T16:49Z,thanks to ruharvey1987 and cdlaire
+,ant_mgr,2008-04-01T00:35Z,s/n any one?
+,adhd8888,2008-04-09T08:02Z,"hey guys i installed 4.0 and 4.5 and i'm getting the same problem, after it installs it brings up a dialog box that says, ""to complete the installation, run the installer on the soundtrack lopps DVD""  HELP!!!  also when i try to start final cut, it stops loading when it says ""loading audio filters""
+
+HELP ME PLEASE!"
+,adhd8888,2008-04-09T08:02Z,soundtrack loops*
+,MeloDaDon,2008-07-14T17:52Z,I cant find the ?AGP? can any1 help plz thanks
+,alexak,2008-08-22T13:05Z,Can anyone seed this for me? I'm stuck at 55% D:
+,NxtPh3n0m,2009-06-17T06:46Z,"Alright so if you are having a problem with the AGP thing here is what to do.
+
+First go to FCP and get package contents>Contents>info.plst
+
+Open it up and hit command f and search AGP and it should show up about 10-12 lines down.
+
+Next try to replace it with the letters PCI and this may work
+
+If that doesn not work then go back and select the line That used to say AGP (it may say PCI if you changed it) then you select the line containing those three letters and the line above it and DELETE THEM.  make sure there is not an empty line in where you deleted the Lines.
+
+Congratulations You have just CORRECTLY installed FCP HD 4.5 on a mac!!!!!!! "
+,venkatesh_bashetty,2009-12-29T07:30Z,"Hey cdelaire,
+
+does this software works in Windows 7 ?..."
+,sk_tamilan,2010-07-07T01:09Z,to all of those who are asking if it ll work on windows the answer is NO! it won't it was only made to work for MAC OS!
+,nithin862001,2010-12-30T19:26Z,is there any windows versions for final cut?
+,biscuit11,2011-03-13T12:33Z,"Ok, my problem is this. Just brought a Macbook Pro - does this torrent work on Mac Laptops?
+
+Because I'm getting this error message. (I have already taken the advice of the previous comments and fixed the AGP thing):
+
+CONFIGURATION ERROR
+
+This software requires certain hardware or software is missing.
+
+*Power Macintosh g4/350 megahertz (MHz) or faster."
+,biscuit11,2011-03-13T12:45Z,"Also guys, I'm really fucking worried about the registration process, surely if I register this product with the cracked serial no.s given, Apple are going to find me out and charge and fine me!
+
+Can I register this without serial no's? Is it safe to register these serial no's?"
+,biscuit11,2011-03-13T12:56Z,"By the way, if I don't end up in prison thanks to that registration process. (Thanks for the in depth instructions 'cdelaire')
+
+I solved my own problems with the following warning:
+
+CONFIGURATION ERROR
+
+This software requires certain hardware or software is missing.
+
+*Power Macintosh g4/350 megahertz (MHz) or faster.
+
+First go to FCP and get package contents>Contents>info.plst
+
+(You get that by holding the 'control' key while clicking on the program icon of FCP by the way, you'll see a drop down box with a list of options, choose 'show package contents')
+
+and find any lines that read 'G4' or '350' and delete them, making sure not to leave a space where you've just deleted. 
+
+So it's just like the solution to AGP problem."

@@ -1,0 +1,32 @@
+keyGen for TomTom 6 tested with PalmOS.
+
+1] unzip the attached zip file and extract it to the directory that contains your map data. (This directory MUST have "map_name.mid" file, as in the map that you are going to register).
+
+2] Open the windows command prompt and cd into the directory.
+
+3] Execute the EXE file as shown below:
+
+	TM6_kg_4_C4PDA.exe your_map.mid
+
+4] It will ask you for your device ID, put that in and it will give you the unlock code 
+
+
+27-10-2006 - Eng
+
+After the manual activation the Palm "tried" to connect to internet! I have, obviously, denied the connection!
+
+I believe it was just for the "plus" services because I have found a log file into the SD root with references to a connection made for the "plus" services.
+
+Into the SD root I have found a file called "ttnavigator.bif" with references for my TomTom account and password (becasue my TTN5 was regolarly registered).
+
+I have deleted the file and removed my reference into the "plus" menu and now there isn't any account/pwd and neither tries to connect to internet...
+
+27-10-2006 - Ita
+
+Dopo l'attivazione manuale ha "cercato" di connettersi a Internet! Io, ovviamente, ho rifiutato la connessione!
+
+Credo fosse solo per i servizi "plus" in quanto ho poi trovato un file di log nella root della SD con riferimenti alla connessione per i servizi "plus".
+
+Sempre nella root ho poi trovato il file "ttnavigator.bif" con riferimenti al mio account e pwd (dato che ero registrato con TT5).
+
+Ho cancellato il file e rimosso i miei riferimenti nel menu "plus" ed ora non c'è nessun utente/pwd e neppure mi chiede di attivare la connessione a Internet...

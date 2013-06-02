@@ -1,0 +1,44 @@
+﻿User Type,Username,Date,Text
+,mski69,2007-09-03T10:10Z,"Great, but when i've tried putting it on a dvd, on a couple of episodes there is full audio, but the picture is frozen. The file does contain the full episode as i can watch on my pc, or put on memory card and watch in laptop. Can anyone advise as to a problem, i'm using convertxtodvd to put onto the dvd.
+all help greatly appreciated. 
+I've had same problem with final episode on the series 2 torrent file too, but series one worked without a blip."
+,tofusoldier,2009-02-13T04:49Z,"@mski69:
+The problem is with your encoding software (or possibly the discs you're using, or possibly your DVD burner-but if you've burned other videos sucessfully, then that's not the case), not the files themselves-though it's possible that the program you're using to burn the DVDs isn't smart enough to convert from one resolution/framerate to another.  Depending where you live, your ""DVD's"" are either PAL (UK, EU, etc) or NTSC (N. America) format.  It could be that because this is a british show, it's from pal, 25frames per second at.. what was it 720x422 or something, (can't be bothered to look it up), and you're trying to burn an NTSC dvd at 29.97 fps and 700x400 or whatever it is (I can't think off the top of my head) and the software you're using sucks balls and can't do that conversion.  Most programs can, though it's quite time consuming.  Try a different program. I think Nero's still a decent encoding program, but I'm a mac user, so I'm not up on the latest windows trends.  (I assume you're using windows)  If I convert to DVD Iso on a mac system, it's with toast titanium, which generally does the job.  Toast 7 is really user friendly, too.  They're up to toast 9 now, but it's more complicated than it used to be, so I recommend using 7 to my n00b friends.  That said, you're probably not on a mac, anyway.  Next time you ask for advice, you might want to give some background of what sort of system you're using and what sort of DVD you're trying to burn and not just assume we'll know.
+Also, encoding always takes ages to do, I'm not patient enough.
+I'd recommend that you just buy a DivX dvd player, then burn the .avi files onto the disc as a file system rather than a DVD ISO.
+
+It's a lot faster to burn discs when you don't have to encode it, generally you have better resolution because it doesn't have to encode from one file type to another, they'll convert from PAL to NTSC automatically (if you get a good one)and the DivX Dvd players are only $25 bucks these days (at least in N America), maybe more in europe, less in asia.
+
+Hope that helps you out,
+and that I didn't offend too many people with the lazy ntsc/pal specs nonresearching."
+,MEals,2009-07-26T02:24Z,"I don't know if its my torrent client or people just aren't seeding very high but i can only get speeds down of about 5kbs but my upload is at around 150kbs. i don't know whats going on, little help?"
+,hurdler49,2010-01-03T02:53Z,Seed please!
+,nitefly1,2010-01-18T16:02Z,"PLEASE SEED !!!
+
+THIS IS SEEDING AT A SNAIL'S PACE..."
+,pondok99,2010-09-04T11:51Z,pls seed ...at 97%
+,digimike50,2011-03-30T17:50Z,Many thanks!
+,Austere,2011-05-11T17:30Z,Seed Please
+,starchart,2011-09-01T17:19Z,"Hi, PLEASE SEED 
+      Many, many Thx."
+,starchart,2011-09-02T01:18Z,"Please SEED, I have been downloading for 5 hours
+at 12 KB !!!
+  thx."
+,popeye013,2011-09-03T13:35Z,"Please seed this, i need something to watch while i am bored all day and have tv in a different language, and its going to take all day to download! PLEASE SEEED"
+,starchart,2011-09-04T00:24Z,Please Seed!!!!!
+,immagical,2011-12-30T12:43Z,"@mskie69.   you may have to (in the convertXtodvd) setting and switch of the ""dont fix audio discontinues"" setting or dont fix audio gaps"" it the setting like i say..   
+i had this issue with a file once.    
+Infact it was an ""blade trilogy"" movie, it would play well but when i had used ""convertxtodvd 4""  to convert something, that setting about the fixing audio gaps was automatic and fixing audio discontinues or something along those lines.  but it set it to off so it just converted everything ells without making automatic updates to the audio anfd then it was fine,   its worth noting down incase it work for this prob.. and any other similiar audio sinc prob's you may come accross
+
+i think its cause if you convert all episodes at ones each episode must have a diference in the audio set up and convertx gets lost somewhere trying to fix it but instead of stoping and telling the issue it completes succefully and lets you work it out your self..  so my guess is either turn off that setting i mentioned above or do one episode at a time..  "
+,immagical,2011-12-30T13:34Z,"@tofusoldier,,  Covertxtodvd does better than any other convereter out there it actualy does everything you say its balls about..  you just have to know how it work or use the automatic setting wich will convert to your regoin and to the best possible bit rate depending on the soyurce file..   if what the guy is saying is audio probs; its more or less becuase he is converting a hole series at once with the ""fix automatic sync/ gaps"" set to atou where it should be turned of so it will convert with the same audio as the source file.   if your audio on the source files is good there is no need to tell convert x to fix gaps or sync problems as it will remove part of the audio and cause gaps later in the movie as the audio will be shortend the further the movie gets and when it gets to a part or series where that particular show is a diferent build of audio it confuses itself and yhou get the issues you say..  this seems to only hap[pen mostely on trilogys or series when doing them all at same time only becuase you have one setting to controll diferent types of audio because some movies/serios are made at diferent times so have a different set up..  
+
+sorry if this is hard to understand but i not good at words so hope you can understand what i tryen to mean and no in future with the audio prob's when converting using convert..
+
+remeber eather do one episode/movie at a time or put them all to one and turn off the ""fixs audio syncronize/  or sometime it says ""fix audio discontues remove""  just turn that of you will get the same sound as the origanal file before converting it...."
+,olibritt,2012-06-09T18:49Z,Thanks!!!!
+,JB8269,2012-06-25T00:09Z,"For those of you who do better with step-by-step instructions, here are the steps to try to help with the frozen screen issues when converting files with the software X to DVD.
+Step 1. Open program/select settings.
+Step 2. Select Audio
+Step 3. Place check mark in box at bottom of screen that reads 'Do Not Fix Audio Discontinuities'
+Good Luck!"

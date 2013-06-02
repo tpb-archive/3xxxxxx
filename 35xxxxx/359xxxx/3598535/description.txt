@@ -1,0 +1,44 @@
+Features:
+- Handling large volumes of e-mail
+- Anti-spam Protection
+- Efficient Antivirus Protection
+- Unique MailTicker(TM)
+- Comprehensive Scheduler
+- Smart Sorting Office
+- Handy Message Templates
+- Quick Templates
+- Microsoft Exchange Connectivity
+- Message Parking
+- Built-In Backup and Restore
+- Mail Synchronisation
+- Extended Support of National Codepages
+- Convenient Message Dispatcher
+- Fast Address Book
+- Multilanguage Interface
+- Submission Forms
+- Strong Cryptography
+- Powerful Import Wizard
+
+Fast, Built-in Image Viewer
+The Bat! has built-in image viewer supporting GIF, PNG, BMP, ICO, WMF, EMF and JPEG formats. You don't have to wait until an external image viewer gets loaded.
+
+
+
+TheBat Pro 3.95.08 Pro - 17 Jan 2007
+
+what's new:
+
+    * Windows Vista restart manager can update The Bat! and system components
+
+(DLLs) used by The Bat! without restarting Windows. It only restarts The Bat!
+and the other applications that use these DLLs. During the restart of The Bat!,
+all open message editors are closed, and the messages are saved as "draft" in
+the Outbox. You will then be able to open these drafts for further editing. To
+update The Bat! via the MSI (thebat_pro_X-XX-XX.msi), you don't even need to
+close The Bat!. Just run the MSI and follow the instructions.
+[-] Fixed label placement in the SMTP authentication dialog.
+
+    * Enlarged the windows of the installation wizard (select OTFE mode and
+
+application data directory) to conform to the larger Segoe UI 9pt font under
+Windows Vista. The windows are now 640x480 pixels.

@@ -1,0 +1,35 @@
+I've had a lot of trouble (me and the rest of the world it seems) to get this game to work, and I can honestly say that there's no playing this game without patching to at least v.1.15 (stops the crashing, but apparently it doesn't do a lot to fix the memory leak later in the game which causes annoying freezes/slowdowns), but at least you can play longer than 5 minutes ;). This worked for me:
+
+1: apply included patch 1.00 -> 1.11
+
+2: open config.ini in your root directory and change the following 
+
+// Language for localization
+Language = "english"
+
+to
+
+// Language for localization
+Language = "german"
+
+
+3: go to the "Resource" directory, open loca.txt and change the following
+
+ENG to GER
+
+
+This allows you to apply the german patch to your english installation. Note that you only have to do this with an English game.
+
+4: Now apply the included 1.11 -> 1.15 patch
+
+5: After applying the patches, undo the changes you made in steps 2 and 3.
+
+6: mount the included mini image in Daemon V.4.06 (latest), turn on all emulation options and you\'re good to go (without crashing after 5 minutes without fail I might add).
+
+
+I stress that this is not something I made, I just collected the parts and information from various websites; regrettably I can't remember who did make the img or I would give them due credit for it... Just thank whoever takes the trouble of helping people like you and me out in times like these eh ;)
+
+Matt 
+
+
+

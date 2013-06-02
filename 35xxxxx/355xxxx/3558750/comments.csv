@@ -1,0 +1,82 @@
+﻿User Type,Username,Date,Text
+,legacy5k,2006-11-16T18:15Z,"fuck I put it in the wrong category... should be games > handheld... can that be moved?
+
+ah well who gives a fuck.... its here"
+,Utelias,2006-11-17T15:18Z,I've been waiting someone to comment about this but.. which emulator is this supposed to work? I've tested like 6 Nintendo DS emulators but seems to not work.
+,legacy5k,2006-11-17T16:56Z,"Sorry man, you'll have little to no luck running this on an emulator.  I can play the rom because I've got one of these:
+
+http://eng.supercard.cn/
+
+So that's your only bet at this time..."
+,Eteoneus,2006-11-18T01:07Z,"Doesn't seem to be working for me. When I boot up the rom with my G6 Lite, the screen goes blank.
+
+Any specific settings I should use while writing the rom?
+
+Thanks"
+,Eteoneus,2006-11-18T01:58Z,"Soft Reset - Yes
+DoFAT+Force R/W - Yes
+Trim ROM - Yes"
+,Yarr9080,2006-11-18T03:34Z,"So... does anyone know for sure that this works on a Flash Cartridge?
+
+I really don't feel like bricking a DS... I'd like some confirmation from someone."
+,legacy5k,2006-11-18T05:43Z,"Yeah bro, it works for me.
+
+And you can't brick your DS with a rom like this.  You can only fuck it up if you are flashing the firmware with an image, which can only be done while the jumper in the battery compartment is activated... so you can play roms with no worries."
+,Yarr9080,2006-11-18T17:17Z,"Well, it didn't brick.
+
+But it didn't work either.
+What settings did you use? Maybe I shouldn't've trimmed it... but it was still a good 753Mb trimmed o_O"
+,Utelias,2006-11-18T18:22Z,"If someone has gotten this to work with emulator, pls post the site or name of the emu"
+,legacy5k,2006-11-18T20:32Z,"hmm, I dunno man.  I was using all settings in my supercard software.... trim, restart, dma, and ""faster play game""...
+
+What kind of card are you using?"
+,Yarr9080,2006-11-18T22:30Z,G6 Lite... I've tried most of the possible combinations...
+,legacy5k,2006-11-18T22:56Z,"Looks like Eteoneus up there has a g6 lite and got it to work with the combination he posted...
+
+I dunno what to tell you man but I hope you can get it working..."
+,Yarr9080,2006-11-19T00:02Z,"Hmm... I tried it w/those except I dunno what ""Force R/W"" is... it's not on my menu."
+,Yarr9080,2006-11-19T23:45Z,"Aha, I figured out the problem - my firmware wasn't updated. "
+,Altus-Scipio,2006-11-20T15:57Z,No need to update firmware or anything. I'm using an M3 mini adapter and Eteoneus' instructions worked perfectly. I'm not sure what DoFAT means but I found Force R/W alright. Great torrent!
+,Utelias,2006-11-20T17:02Z,Just if i could find a working emulator.. im too lazy to buy that supercard thing..
+,Utelias,2006-11-22T17:53Z,"That many downloads already.. come on ppl, wich emulator is this supposed to work with or any other program.. i dont think everyone has that supercard thing.."
+,Utelias,2006-11-22T17:53Z,which*
+,legacy5k,2006-11-22T21:50Z,"Dude, like I said.  There's no emulator for DS which is going to let you play this ROM.  It doesn't exist.  If it did exist, it would be a big deal and it wouldn't be hard to find.
+
+Sorry."
+,Ciceroxx,2006-11-25T23:02Z,I've need help to play this on a supercard. The screen is just blank and I don't know where to change the settings on my supercard software... anyone know where I can find em?
+,legacy5k,2006-11-26T16:23Z,"The settings in the software?
+
+You access the settings for a game simply by double clicking it in the list of games in the patching program.
+
+As for which settings will work, I just used the first four settings and it worked ok... also, of course, make sure that your patching software AND firmware are both at the latest version."
+,Crusader66,2006-11-28T06:05Z,This works perfectly on my SuperCard. Thank you. Perfectly other than the fact that every time I save it it only makes a corrupt save file. I will try to change the settings and repatch the original file again. I assume it is user error as usual. If you know about this problem please post and again Thank you.
+,Spacy51,2007-01-02T17:35Z,"The file is valid, I checked it with clrmamepro and a no-intro dat file, so do not worry. The game works fine using my SuperCard Lite with current software and patcher.
+www.supercard.tk"
+,Countra,2007-01-05T00:32Z,"seed this man! (please?)
+if ya gonna upload stuff then seed it for mr beans
+sake! (yeah, u heard me, MR BEAN! now move
+ya ass and SEED!!!)"
+,Countra,2007-01-05T00:33Z,"yarr, good 'ol seeders helped me, thanks y'all!"
+,Countra,2007-01-05T02:52Z,this BITCH ain't working man! 
+,Countra,2007-01-05T03:03Z,"GAH! mr Firmware is da mob! & THATS why im w8ing here now for it to update.. stupid m3 with their stupid slow server uptime and stupid stuff..
+those ass whopping bastardas has got me waiting now for WHA-X-Time.. (couple of minutes) 
+Wait until i get their ass! i gonna smash them, knock-out-kung-fu! WHAAAAAA!!! *K-O*
+(them: M3 makers, my slow net connection, you, bill gates/doors, an old neighbor, the queen of england) FUCK those guys! (yeah, queen of england, ""Fuck those -guys-!"", ya get it? :P)"
+,Balthasar00,2007-04-04T18:51Z,"awesome! 
+
+now there is a way to play FF III on your PC.
+
+follow No$gba emulator releases,  No$gba v2.4a support FF III. Full speed -without sound and near full speed with sound. Depend of your PC. mine is 2 years old! wich could mean that with a top nuch PC. this game may run full speed + sound!"
+,siim258,2007-07-30T22:16Z,"No$gba DOES emulate the game but on my laptop it is nowhere near full speed. But I guess if you really need to play it, then it's playable :P"
+,shaggymike,2008-01-20T22:28Z,"does work with http://www.emulator-zone.com/doc.php/gba/nocashgba.html
+ just dl it its free no gay card thing haft to have a good pc to run it though gl and have fun"
+,RageBot,2008-11-23T16:01Z,"When I try to run Final Fantasy III on an emulator, it says ""Unable to access Backup Memory"". Is something wrong with the game I downloaded or should I do something with my emulator? It's no$gba, in case you're wondering."
+,RageBot,2008-11-23T16:12Z,"Oh damn, either version 2.5c does'nt run this game (WHY???) or the other torrent I downloaded really is faulty. It SUCKS!!! Where can I find version 2.4a?"
+,RageBot,2008-11-24T15:48Z,"Nevermind, I'VE GOT IT!!! All you need to do is to go to ""Emulation Setup"", and in ""NDS Backup Media"" pick ""EEPROM 8KBytes"". Works like charm!"
+,RageBot,2008-11-24T16:24Z,"AAAAAAAARGH!!!!
+Oh shit, now it seems my emulator has memory leak or something, and I can't load saved data!"
+,Me2222222,2009-01-01T03:18Z,"OHMYFUKINGGOD
+i thought all my hope was lost!
+Thank YOU SO FUKING MUCH RAGEBOT!!! YOU MADE  IT HAPPEN!!!!!! ^^"
+,shazzanova,2009-07-28T08:02Z,i have an R4 file doesn't load
+,suloseki,2011-05-17T12:08Z,"I'm using No$gba and the game works just fine. If you want it to save properly, go to Options> Emulation Setup > NDS Cartridge Backup Media> EEPROM 64KByters. Remember to save the options."

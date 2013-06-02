@@ -1,0 +1,553 @@
+Windows.XP.Pro.Corporate.SP2.32 bit.French.Optimise.V4.8.MkEx64.iso
+
+
+/_\\/_\\/_\\/_\\
+Version 4.8
+/_\\/_\\/_\\/_\\
+
+Vérifiez le MD5 Sum de l\'ISO qui devrait être : b996b66694462287bd1e79ab15e5e286
+Vous pouvez facilement vérifier ça grace à http://www.nullriver.com/downloads/Install-winMd5Sum.exe (winMd5Sum) qui vous donne le MD5 Sum, pour être certains que ce soit la bonne ou qu\'elle n\'est pas corrompu.
+
+Windows Update fonctionnel malgré la nouvelle protection de Microsoft. (Windows Genuine Advantage) :-)
+
+/!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ 
+
+ATTENTION, le fichier que vous avez téléchargé est une image ISO et pas un fichier .rar !
+Certaines personnes pourrons penser que c\'est une archive RAR du fait qu\'ils ont Winrar installés sur leur PC 
+et que Winrar reconnaît le format .ISO !
+
+Lisez bien le descriptif. 
+Beaucoup de personnes ne lisent pas avec attention le descriptif et posent des questions auquels ce descriptif leur aurait répondu.
+
+Suivez bien la procédure de gravure et d\'installation. 
+Là aussi des personnes se trompent, surtout dans l\'installation, ce qui est compréhensible puisque la procédure d\'installation au niveau du formatage, n\'est pas tout à fait la même que sur un XP original dans certains cas.
+
+Pourquoi c\'est différent ? Parce qu\'avec un Windows XP unattended, comme ici, il y a un fichier de réponse pour l\'installation automatique et il fait sauter l\'étape de la recherche d\'un éventuel système d\'exploitation installé sur un disque ou partition et la proposition de formater celui-ci et finalement ne formate rien.
+
+Il faut donc bien suivre la procédure d\'installation ci-dessous, pour faire une installation propre avec formatage de l\'OS et donc éviter les instabilités et bugs que pourrez causer une installation sans formatage.
+
+/!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ /!\\ 
+
+
+?????????????????????????????????????????????????????????????????????  
+
+  _____                               
+ / ____|                               
+| |  __ _ __ __ ___   ___   _ _ __ ___ 
+| | |_ | \'__/ _` \\ \\ / / | | | \'__/ _ \\
+| |__| | | | (_| |\\ V /| |_| | | |  __/
+ \\_____|_|  \\__,_| \\_/  \\__,_|_|  \\___|
+
+
+Donc pour graver avec Nero 6 :
+----------------------------
+
+\"Demarrer\" >> \"Tous les programmes\" >> \"Nero\" >> \"Nero 6 Ultra edition\" >> \"Nero Burning Rom\"
+Puis 
+\"Graveur\" >> \"Graver l\'image\" >> \"Ouvrez l\'image ISO\" 
+
+Dans la fenêtre qui s\'ouvre, choisissez de préférence >> A \"Méthode d\'écritue\" >> \"Disque entier\" ou \"Disc AT Once (DAO)\"
+Cochez \"Finaler le CD\"
+Vitesse d\'écriture >> 4x ou 8x (Selon la qualité du graveur et du CD, vous pouvez mettre une vitesse plus rapide... Soyez en sûr)
+
+>> Cliquez sur >> \"Graver\" !
+
+L\'ISO est bootable donc en suivant cette procédure de gravure, le CD sera Bootable.
+
+ _____          _        _ _       _   _             
+|_   _|        | |      | | |     | | (_)            
+  | | _ __  ___| |_ __ _| | | __ _| |_ _  ___  _ __  
+  | || \'_ \\/ __| __/ _` | | |/ _` | __| |/ _ \\| \'_ \\ 
+ _| || | | \\__ \\ || (_| | | | (_| | |_| | (_) | | | |
+ \\___/_| |_|___/\\__\\__,_|_|_|\\__,_|\\__|_|\\___/|_| |_|
+
+Installation du Système d\'exploitation Windows.XP.Pro.SP2.Optimise.V.4.8.MkEx64 :
+
+1 - Booter sur le CD au démarrage du PC.
+
+2 - Une fois arrivé à l\'écran avec le ou les disque(s) ou la ou les partition(s):
+	a - Si le disque ou la partition où vous voulez installer le système est libre (aucun système installé dessus) >> Sélectionnez le ou la puis faîtes \"Entrer\".
+	Si votre disque est déjà formaté, avec ou pas des données dessus, il ne vous demandera pas de reformater et installera le système dessus. A partir de là tout ce fait automatiquement et donc il n\'y a plus à intervenir.
+	
+	b - Si le disque ou la partition où vous voulez installer le système a déjà un système d\'exploitation d\'installé >> Sélectionnez le ou la, puis appuyez sur la touche \"S\", puis \"Entrer\", puis encore \"S\". (Attention a ce moment là vous perdez tout le contenu du disque)
+	Maintenant sélectionnez l\'espace libre, de la partition que vous venez de supprimer puis faîtes \"Entrer\".
+
+3 - A ce moment vous avez l\'écran qui vous demande un Formatage. Choisissez un Formatage en NTFS rapide ou NTFS (plus long forcément), faîtes \"Entrée\".
+A partir de là l\'installation ce fait automatiquement et donc il n\'y a plus à intervenir.
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+Parfois, des personnes rencontrent des difficultés d\'installation de Windows XP où pendant l\'installation un fichier est mal copié ou bien un écran bleu etc..
+
+Celà vient, le plus souvent, d\'une mauvaise gravure, ou d\'un mauvais CD ou d\'un mauvais lecteur, ou de la mémoire sensible...
+
+Si c\'est la mémoire, il faut baisser ça fréquence et/ou son timming... Sinon c\'est qu\'elle peut être défectueuse. Pour s\'en assurer, testez votre mémoire avec le programme \"MemTest86+\"
+Celà arrive parce que la mémoire est très sensible pendant une installation de Windows XP... Beaucoup plus sensible que pendant l\'utilisation du système...
+
+Ca peut aussi venir d\'un pilotes d\'un controleur Sata/Raid mal installé ou pas du tout installé, pour ceux qui en ont un. Dans ce cas il vous faut donc intégrer vos pilotes de votre controlleur Sata au CD.
+
+
+-------------------------
+INSTALLATION PILOTES SATA (Pour ceux qui doivent obligatoirement installer les pilotes SATA et/ou RAID à l\'installation de Windows, pour pouvoir installer Windows XP.)
+-------------------------
+ATTENTION !!! Il n\'y a aucune diférence avec un Windows XP Original pour installer cette version. 
+Alors pour ceux qui ont des doutes, si vous n\'avez jamais eu affaire à des pilotes SATA ou quoi que ce soit pendant l\'installation d\'XP, ici ça sera pareil.
+
+- Si vous avez un Controller SATA qui vous oblige une installation des pilotes SATA pendant l\'installation de Windows XP, 
+voici un tutorial qui vous aidera pour une installation avec disquette (ou clé USB ou lecteur de carte) et la touche F6 au démarrage de l\'installation d\'XP.
+ 
+http://www.xperience-fr.net/tutorial.php?tutorial=12078
+
+- Deuxième solution : Intégrer les pilotes SATA au CD... Voici des tutoriaux pour ce faire :
+
+Celui ci >> http://www.blue-hardware.com/dossiers/cdrom_windows_personnalise/page7.php
+Ou celui ci >> http://www.win-web.be/?act=show&code=page&id=113&id_page=55&resume=0&frompage=
+
+- 3ème solution : Intégrer avec nLite. Je n\'ai pas trouvé de Tuto dédié à cette manip, mais la dedans il faut suivre les pages suivante seulement :
+Page 6 
++ Page 7 
++ Page 8 (mais à l\'étape 4 choisir seulement \"intégration des pilotes\" et \"Image ISO Bootable\")
++ Page 10
+Et pour finir Page 14 et 15
+
+>>> http://www.pcastuces.com/pratique/windows/creer_cd_windows_xp/page6.htm
+
+
+- Et 4ème Solution, c\'est la méthode que j\'utilisais pour intégrer les pilotes SATA en masse :
+
+	* Extraire tous les fichiers de l\'ISO dans un dossier.
+	* Il vous faut télécharger ceci >> http://www.driverpacks.net/DriverPacks/download.php?pag=b (Sur la page cliquez sur \"term of Use\", puis fermer la nouvelle page qui s\'ouvre pour activer le lien de téléchargement)
+	* Puis ceci >>  http://www.driverpacks.net/DriverPacks/download.php?pag=m (pareil que l\'autre)
+	* Exécutez le premier fichier que vous avez téléchargé, \"BTS_DriverPacks_BASE_Vxxx.exe\". Vous aurez extrait ici des fichiers et dossiers.
+	* Placez le deuxième fichier que vous avez téléchargé, \"DriverPack_MassStorage_Vxxx.7z\", tel qu\'il est, dans le dossier \"DriverPacks\".
+	* Exécutez \"BTS_DPs_Slipstreamer_Vxxx.cmd\". Une fenêtre dos va s\'ouvrir vous demandant de choisir une méthode d\'installation en tapant : 1 ou 2 ou 3.
+Moi je choisit la méthode 2 en général... Mais la méthode 1 peut être aussi choisi. La 3 je n\'ai jamais essayé et je crois qu\'elle est encore au stade expérimental.
+A vous de voir. Ensuite tapée \"Entrée\" puis une fois qu\'il appuyez sur n\'importe quel touche (il vous le demande)
+	* Un dossier nommé \"UWXPCD_ROOT\" est apparu. Copier tout son contenu puis collez ça à la racine du dossier que vous avez créé et où vous avez extrait tous les fichiers de l\'ISO.
+	* Exécutez \"RUN_ME.cmd\" et laissez le faire ces tâches sans fermer les fenêtres. Vous avez juste à appuyez sur n\'importe quel touche quand il vous le demande.
+	* A un moment il vous demande \"setting 1: method to execute the installation finisher\" \"[G]UIRunOnce / [R]unOnceEx\". Choisissez plutôt \"G\" puis Entrée.
+	* Puis \"setting 2: Keep the Drivers (KtD) available after Windows setup\" \"[Y] to enable KtD, [N] to disable KtD (default)\". Choisissez \"N\"puis \"Entrée\".
+	* C\'est terminé ! Enfin, il ne vous reste plus qu\'à recréer l\'ISO avec Nero par exemple, ou bien nLite... Il y a plusieurs possibilités. Et puis graver.
+
+Tant qu\'on y est... 
+Sur ce site : http://www.driverpacks.net vous pourrez trouver plusieurs pack pour intégrer d\'autres pilotes au CD. (Carte graphique, son, Chipset, etc..)
+Il suffit de mettre tous les packs des pilotes que vous voulez intégrer dans le dossier \"DriverPacks\" avant d\'excuter le \"BTS_DPs_Slipstreamer_Vxxx.cmd\" et continuer les étapes ci-dessus.
+
+
+
+?????????????????????????????????????????????????????????????????????
+
+ __  __           _ _  __ _           _   _                 
+|  \\/  |         | (_)/ _(_)         | | (_)                
+| \\  / | ___   __| |_| |_ _  ___ __ _| |_ _  ___  _ __  ___ 
+| |\\/| |/ _ \\ / _` | |  _| |/ __/ _` | __| |/ _ \\| \'_ \\/ __|
+| |  | | (_) | (_| | | | | | (_| (_| | |_| | (_) | | | \\__ \\
+|_|  |_|\\___/ \\__,_|_|_| |_|\\___\\__,_|\\__|_|\\___/|_| |_|___/
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+- TRES STABLE
+- PAS DE BUGS
+- A JOUR
+- OPTIMISE
+- INSTALLATION RAPIDE et complètement AUTOMATIQUE
+
++ Uxtheme.dll dernière version 6.0.2900.2523 du 20 Mars 2006 >> Modifié pour accepter toutes sortes de thèmes.
++ TCPIP.SYS dernière version 5.1.2600.2827 patché >> Augmentation de la valeur du nombre de connexions TCP simultanées à illimité (comme sur XP et XPSP1) au lieu de 10 (XPSP2). (Pour les utilisateurs de peer2peer par exemple, peut aussi être très utile pour les scanners d\'IP)
++ Désactivation entier du centre de sécurité. (avec posibilité de le reactivé sans problème)
+- Désactivation du Firewall XPSP2 (Vraiment à chier comme Firewall et qui creé que des problèmes, autant faire comme d\'habitude installer sont propre Firewall avec le Firewall de XP desactivé)
+- Désactivation de la surveillance de l\'antivirus
+- Plus d\'infos bulle du centre de sécurité qui apparaissent sans cesse
++ Intégration de Windows Media Player 10
++ Mise à Jour de DirectX9.0c de Avril 2006
+
+----------------------------------
+
+Composants qui ne s\'installe pas ! (Mais quand même toujours présent sur le CD au cas où vous voudriez les installer...)
+
+- Deboggeur de script Microsoft.
+- Composants d\'accessibilité.
+- Outils de dialogue téléphonique.
+- Programme de dialogue en direct. (Chat)
+- Outil Hyper Terminal.
+- Pointeurs de souris de Windows.
+- Composant Microsoft Message Queuing (MSMQ). 
+- Les jeux inclut avec Windows XP ne s\'installent pas mais sont toujours présent sur le CD. 
+Pour pouvoir les installer via le panneau de configuration. (\"ajouter ou supprimmer des programmes\" >> \"ajouter ou supprimer des composants Windows\" >> \"accessoires et utilitaires\" >> \"jeux\")
+
+
+
+Les seuls composants supprimés du CD :
+
+- MSN Exploreur (Si vous voulez le retrouver, la dernière version est téléchargeable là > http://www.clubic.com/telecharger-fiche10118-msn-explorer.html ou bien sur le site de Microsoft)
+- Windows messenger (A ne pas confondre avec MSN Messenger ou Windows Live Messenger... Mais là aussi vous pouvez télécharger la dernière version là > http://www.01net.com/windows/Internet/communication/fiches/18626.html ou bien sur le site de Microsoft)
+- Netmeeting
+- Pinball (On en trouve des bien meilleurs et gratuits sur internet : Ex: http://www.futurepinball.com
+- Echantillons musicaux
+- Visite guidée
+- Répertoires inutiles : \"DOCS\" - \"SUPPORT\" - \"VALUEADD\"
+
+================================================================================
+
+LES MISES A JOUR CRITIQUES SORTIES DEPUIS LE SP2 SONT INTEGREES. (Il y en a 90 en tout)
+Nouveau : Les MAJ critiques sont intégrées en natif. (Les avantages sont : Gain de place sur le CD et aucune perte de temps pendant l\'installation)
+
+090- KB913580	(25 Avril 2006)
+089- KB900485	(25 Avril 2006)
+088- KB908531	(25 Avril 2006)
+087- KB917425	(20 Avril 2006)
+086- KB904942	(18 Avril 2006)
+085- KB911565	(11 Avril 2006)
+084- KB912812	(11 Avril 2006)
+083- KB911567	(10 Avril 2006)
+082- KB911562	(10 Avril 2006)
+081- KB319740	(20 Mars 2006)
+080- KB889673	(20 Mars 2006)
+079- KB907265	(13 Mars 2006)
+078- KB913538	(21 Février 2006)
+077- KB913446	(14 Février 2006)
+076- KB911927	(14 Février 2006)
+075- KB911565	(14 Février 2006)
+074- KB911564	(14 Février 2006)
+073- KB901190	(14 Février 2006)
+072- KB912945	(10 Février 2006)
+071- KB913296	(02 Février 2006)
+070- kb895316	(18 Janvier 2006)
+069- KB908519	(09 Janvier 2006)
+068- KB912919	(05 Janvier 2006)
+067- KB904706	(13 Décembre 2005)
+066- KB896427	(12 Decembre 2005)
+065- KB908521	(12 Decembre 2005)
+064- KB910437	(12 Decembre 2005)
+063- KB905915	(05 Decembre 2005)
+062- KB898900	(30 Novembre 2005)
+061- KB896424	(07 Novembre 2005)
+060- KB888656	(26 Octobre 2005)
+059- KB906569	(18 Octobre 2005)
+058- KB899589	(10 Octobre 2005)
+057- KB905414	(10 Octobre 2005)
+056- KB902400	(10 Octobre 2005)
+055- KB901017	(10 Octobre 2005)
+054- KB900725	(10 Octobre 2005)
+053- KB905749	(10 Octobre 2005)
+052- KB904412	(07 Octobre 2005)
+051- KB896688	(05 Octobre 2005)
+050- KB893803	(02 Septembre 2005)
+049- KB897663	(31 août 2005)
+048- KB896727	(10 août 2005)
+047- KB899588	(08 août 2005)
+046- KB896423	(08 août 2005)
+045- KB899591	(08 août 2005)
+044- KB893756	(08 août 2005)
+043- KB899587	(08 août 2005)
+042- KB903234	(18 Juillet 2005)
+041- KB903235	(12 Juillet 2005)
+040- KB901214	(11 Juillet 2005)
+039- KB887606	(08 juillet 2005)
+038- KB898461	(27 Juin 2005)
+037- KB900930	(24 Juin 2005)
+036- KB883939	(14 Juin 2005)
+035- KB896358	(13 Juin 2005)
+034- KB890046	(13 Juin 2005)
+033- KB896422	(13 Juin 2005)
+032- KB896428	(13 Juin 2005)
+031- KB893066	(13 Juin 2005)
+030- KB894391	(18 Mai 2005)
+029- KB896626	(13 Mai 2005)
+028- KB893357	(29 Avril 2005)
+027- KB890923	(12 Avril 2005)
+026- KB893086	(11 Avril 2005)
+025- KB890859	(11 Avril 2005)
+024- KB889016	(05 Avril 2005)
+023- KB886716	(25 Mars 2005)
+022- KB867282	(08 Février 2005)
+021- KB891781	(07 Février 2005)
+020- KB890047	(07 Février 2005)
+019- KB888302	(07 Février 2005)
+018- KB888113	(07 Février 2005
+017- KB885250	(07 Février 2005)
+016- KB873333	(07 Février 2005)
+015- KB890831	(12 Janvier 2005)
+014- KB890175	(10 Janvier 2005)
+013- KB885222	(17 Décembre 2004)
+012- KB887797	(13 Décembre 2004)
+011- KB873339	(13 Décembre 2004)
+010- KB885836	(13 Décembre 2004)
+009- KB885835	(13 Décembre 2004)
+008- KB886185	(13 Décembre 2004)
+007- KB887742	(22 Novembre 2004)
+006- KB886677	(19 Novembre 2004)
+005- KB834707	(13 Octobre 2004)
+004- KB885894	(08 Octobre 2004)
+003- KB885523	(05 Octobre 2004)
+002- KB884020	(17 Septembre 2004)
+001- KB885626	(14 Septembre 2004)
+
+Service Pack 2	(9 Aout 2004)
+
+
++ Windows Update intégré
++ Mise à jour de Avril 2006 de DirectX9.0c intégré
+
+?????????????????????????????????????????????????????????????????????
+  ____        _   _           _           _   _                 
+ / __ \\      | | (_)         (_)         | | (_)                
+| |  | |_ __ | |_ _ _ __ ___  _ ___  __ _| |_ _  ___  _ __  ___ 
+| |  | | \'_ \\| __| | \'_ ` _ \\| / __|/ _` | __| |/ _ \\| \'_ \\/ __|
+| |__| | |_) | |_| | | | | | | \\__ \\ (_| | |_| | (_) | | | \\__ \\
+ \\____/| .__/ \\__|_|_| |_| |_|_|___/\\__,_|\\__|_|\\___/|_| |_|___/
+       | |                                                      
+       |_|
+
+
+
+??????????????????????????????????????????
+
+- Windows Update accessible même avec la protection de Micorosoft Windows Genuine advantage.
+- Décharge les DLL non utilisées de la memoire.
+- Optimisation de la Memoire.
+- L\'explorateur de windows plus STABLE.
+- Supprime les 20% de bande passante réservable de Windows XP
+- Lancement des applications 16 bits dans des espaces memoire separes. (Plus de stabilité.)
+- Le Débogueur de script d\'internet explorer Désactivé.
+- Affichage de messages d\'erreurs HTTP simplifiés Desactivé.
+- Rapport d\'erreur Desactivé. 
+- Démarrage de Windows XP Optimisé.
+- Désactivation par défaut du raccourci pour les touches rémanentes. (Génant surtout pour les Gamers quand ils appuient 5 fois de suite sur la touche MAJ.)
+- Meilleur réglage de la \"Mémoire Virtuelle\" que le réglage par défaut de Windows XP et l\'ancien réglage à 768Mo fixe des versions 4.0a 4.5 4.6 4.7 qui d\'ailleurs provoqué des dépassements de mémoire virtuelle en utilisation intensif.
+En effet Windows XP règle la mémoire virtuelle par une valeur minimale de 1,5X la RAM et 3x la RAM en Max. Ce qui est beaucoup trop et inutile, surtout pour les machines avec 512Mo à 2 Go et plus de mémoire...
+Ici elle est donc automatiquement réglée selon votre Ram et votre utilisation du PC avec un minimum de 320 Mo et un maximum de 1536 Mo.
+- Arrêt plus rapide des services. (Pour un arret plus rapide du PC)
+- Google en page de démarrage internet explorer.
+- Moteur de recherche google au lieu de Microsoft par defaut.
+- Accès réseaux accéléré.
+- Le système de gravure de Windows est désactivé, mais réactivable sans problème. (Il est déconseillé de graver avec ce système. Il faut utiliser un logiciel de gravure... Nero, Alcohol, etc...)
+- Support des disques ATAPI de plus de 137Go.
+- Optimiser les performances NTFS.
+- Protection contre ICMP
+- Protection contre flood ou spoof
+- DrWatson désactivé.
+- Défilement des pages dans Internet Explorer plus net
+- Gestion alimentation PC toujours actif configuré par defaut.
+- Désactivation de la souscription à passport suite a l\'installation de MSN Messenger
+- Accélère le parcourt du réseau sur les dossiers avec beaucoup de fichiers ou des noms long.
+- La barre de lancement rapide est Activée.
+- Pas de barre de langues dans la barre des tâches. (Réactivable sans problème)
+- Rafraichissement automatique de l\'explorateur.
+- Masquer automatiquement les icônes inactives dans la barre de tâches
+- La bande passante disponible Amélioré.
+- Surf plus rapide grace à une meilleure gestion des DNS
+- Prefetcher Optimisé.
+- Activation du pavé numérique au chargement de Windows XP
+- Gestion de la mémoire cache L2 du processeur optimisé.
+- Correction d\'une faille de sécurité qui permet de voir vos cookies
+- Augmentation du nombre de téléchargements simultanés.
+- Désactive les partages automatiques invisibles Admin$, C$, etc. Pour plus de sécurité.
+- Affichage des icônes accéléré.
+- Montrer l\'extension des fichiers connus.
+- Possibilité de Renommer la poubelle
+- Rafraîchissement automatique des fenêtres. (Après suppression d\'un fichier par exemple)
+- Vacciné contre le Spyware ALEXA !
+- Enormément d\'optimisations Réseau et Internet...
+- Protection contre ICMP
+- Protection contre flood ou spoof
+- Ajout de \"Services\" dans le clique droit sur le Poste de travail.
+- Ajout des racourcis \"ajout/suppression de programmes\", \"Gestionnaire de périphériques\", \"Lancer RegEdit\", \"Quitter session\", \"Redémarrer\", \"Arreter\", dans le clique droit du poste de travail.
+- Ajoute \"Ouvrir une invite de commande ici\" sur le clique droit d\'un dossier.
+- Affichage des menus accéléré.
+- Visite guidée supprimé.
+- Permettre à media player de lire des dvd
+- Remise en ordre dans le menu démarrer et les favoris (classement par ordre alphabétique)
+- Plus d\'avertissement très genant sur les fichiers telechargés qui rend impossible de les ouvrir. (cause > SP2)
+- Desactive le nettoyage du bureau embettant.
+- Afficher les fichiers cachés configuré par defaut.
+- La corbeille utilise 5% de l\'espace disque au lieu de 10%.
+- Reste connecté à Internet après un changement de session.
+- Désactive la prévention enbettante à l\'execution d\'un fichier.
+- La fonction nettoyage du bureau desactivé.
+- Correction du problème de suppression d\'un fichier *.avi.
+- Accès plus rapide aux dossiers medias contenant des fichiers *.avi.
+- Icône Poste de travail, Mes docs, IE, Favoris réseau, affiché sur le bureau.
+- Les flèches sur les îcones des raccourcis + le \"raccourci vers\" enlevés.
+- Quelques services désactivé et semis-désactivé.(en manuel)* (Réactivable sans problème si besoin)
+- Si Vous installez Winrar, une catégorie Winrar sera créé au menu contextuel du clique droit réunissant les fonctions de Winrar qui s\'y trouvent habituellement. (Ajouter à l\'archive / extraire ici etc...)
+- Réglage du cache Temporary Internet Files à 256 MO fixe au lieu de 5% de l\'espace disque.
+- Ajout d\'un mini programme, TweakUI de Microsoft, dans le Panneau de Configuration, qui ajoute plein d\'options cachées de Windows XP. (Exemple d\'option : Pour ceux qui souhaitent retrouver la petite flèche sur les raccourcis, en deux clique c\'est fait avec TweakUI)
+- Options suplémentaires dans les propriétés de personnalisation du menu démarrer.
+- Options suplémentaires dans les Options des dossiers (Outils >> Options des dossiers >> Affichage)
+- Et d\'autres optimisations diverses...
+
+??????????????????????????????????????????
+
+ _____   _____   _____    _     _   _   _____   _____   _____  
+/  ___/ | ____| |  _  \\  | |   / / | | /  ___| | ____| /  ___/ 
+| |___  | |__   | |_| |  | |  / /  | | | |     | |__   | |___  
+\\___  \\ |  __|  |  _  /  | | / /   | | | |     |  __|  \\___  \\ 
+ ___| | | |___  | | \\ \\  | |/ /    | | | |___  | |___   ___| | 
+/_____/ |_____| |_|  \\_\\ |___/     |_| \\_____| |_____| /_____/ 
+
+??????????????????????????????????????????
+
+Les services inutiles Désactivés : (Réactivable sans problème si besoin)
+
+Assistance TCP/IP NetBIOS 
+Avertissement
+Carte à puce
+Carte de performance WMI
+Centre de sécurité
+Client de suivi de lien distribué
+ClipSrv : Gestionnaire de l\'Album afin de stocker les informations et les partager avec des ordinateurs à distance.
+DDE réseau
+DSDM DDE réseau
+ERSvc : rapport d\'erreurs
+Horloge Windows : synchronisation de la date et de l\'heure
+RemoteRegistry
+Journaux et alertes de performance
+MDM : Visual Studio Debuggers
+Messenger : services d\'alertes entre les clients et les serveur
+Service de numéro de série du lecteur multimédia portable
+uploadmgr
+Onduleur
+mnmsrvc : Service de Bureau à distance Windows avec NetMeeting
+Routage et accès distant : N\'empêche quand même pas la possibilté de faire du routage ou de l\'accès à distance, si désactivé.
+SCardDrv : Permet la prise en charge des lecteurs de cartes à puce non Plug-and-Play hérités
+Service COM de gravage de CD IMAPI : Service qui permet la gravure avec Windows XP, intutile si logiciel de gravure pour graver.
+Service de restauration système
+CiSvc : Service d\'indexation. Son utilité est complètement obsolète.
+Telnet : Désactivé pour la sécurité. Si vous utilisez Telnet, vous pouvez le réactiver mais redésactivez le ensuite.
+WebClient
+
+Pour plus d\'infos sur ces services désactivés vous pouvez aller là >> http://www.pcastuces.com/pratique/windows/services/page3.htm
+ou là >> http://www.depannetonpc.net/article250-comprendre-et-configurer-les-services-windows.html
+
+
+
+?????????????????????????????????????????????????????????????????????
+ _____  _                    
+|  __ \\(_)                   
+| |  | |___   _____ _ __ ___ 
+| |  | | \\ \\ / / _ \\ \'__/ __|
+| |__| | |\\ V /  __/ |  \\__ \\
+|_____/|_| \\_/ \\___|_|  |___/
+                             
+
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+- TRES STABLE
+- PAS DE BUGS
+- A JOUR
+- OPTIMISE
+- INSTALLATION RAPIDE et complètement AUTOMATIQUE
+
+Le CD est Bootable avec clé intégré. 
+
+Pas besoin d\'activation puisque c\'est une version Corporate.
+
+Sert pour une Installation complète (formatage + installation)
+
+La mise à jour d\'un OS (2000/XP Vers ce XPSP2optimisé ou 98/ME vers ce XPSP2optimisé) n\'est pas possible.
+Ca a comme avantages d\'avoir un gain de place sur le CD pour cette fonction qui n\'est pas conseillé pouvant provoquer des bugs, n\'appliquant pas les optimisations etc...
+
+L\'installation est complètement automatique.
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+
+Il n\'y a aucun logiciel intégré !
+C\'est une version qui ne vieillira pas à cause des programmes qui changent de version tout les mois environ.
+
+Il n\'y a pas de thème, ni de bootscreen ni rien qui personnalise le système graphiquement, contrairement à presque tous les autres Windows unattend existants.
+C\'est un Windows XP Pro Corporate COMPLET, A JOUR, avec plusieurs optimisations.
+Il n\'y a aucun bridage d\'option, comme souvent sur les Windows unattend, il est très STABLE et RAPIDE et utilise PEU DE RESSOURCES mémoire (Environ 70Mo après installation et un premier reboot)
+
+?????????????????????????????????????????????????????????????????????
+
+ _____   _   _       ___   __   _   _____   _____   _       _____   _____   _____  
+/  ___| | | | |     /   | |  \\ | | /  ___| | ____| | |     /  _  \\ /  ___| /  ___/ 
+| |     | |_| |    / /| | |   \\| | | |     | |__   | |     | | | | | |     | |___  
+| |     |  _  |   / / | | | |\\   | | |  _  |  __|  | |     | | | | | |  _  \\___  \\ 
+| |___  | | | |  / /  | | | | \\  | | |_| | | |___  | |___  | |_| | | |_| |  ___| | 
+\\_____| |_| |_| /_/   |_| |_|  \\_| \\_____/ |_____| |_____| \\_____/ \\_____/ /_____/
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+Changelog de la V4.7 à la Version 4.8 :
+
+- Ajout de 17 Hotfixs (Mises à jour) Microsoft + Mises à jour de certains Hotfixs...
+- Taille de l\'iSO passant de 494 Mo à 452 Mo, car cette fois-ci les mises à jour de DirectX9.0c (d\'avril 2006) sont intégrées en natif au CD, comme toutes les mises à jour d\'ailleurs.
+- Améliorations des optimisations Internet pour le Haut débit...
+- Ajout d\'une fonction de \"Personnalisation des dossiers\" au clique droit, menu contextuel des dossiers. Permets par exemple de 
+rajouter une image de fond dans la fenêtre d\'un dossier. (Option qui était disponible sur les versions précédentes de Windows, mais pas sur XP)
+- Réintégration de Movie Maker 2.1 (Car très demandé et comme on ne peut pas télécharger la version 2.1, mais seulement la 2.0...)
+- Correction d\'un Bug : Une sécurité, pouvait empêcher l\'installation d\'activeX, voulu, avec Internet explorer. Exemple : \"EA téléchargement\"
+- Suppression d\'un hotfix \"optionnel\" (KB884883) qui apportait quelques bugs. C\'est un hotfix qui ne corrige aucune faille et que Windows Update ne propose pas a télécharger. 
+Exemple de bug : Quand on avait deux sessions, et qu\'une des deux avait un mot de passe et qu\'on 
+ferme la session (pas en fermant en suivant qu\'elle est ouverte, mais en attendant 1 minute au moins) qui n\'a pas de mot de passe, puis qu\'on clique sur la session avec mot de passe, parfois, le curseur pour écrire le mot de passe n\'apparaît pas et il était donc impossible d\'écrire le mot de passe.
+- Correction d\'un Bug : On retrouve l\'option qui permet de réafficher le menu \"documents récents\" dans le menu démarrer, 
+dans les paramètres de la personnalisation du menu démarrer ainsi que le bouton pour effacer les raccourcis des fichiers récemment ouverts.
+- Nouvelle version de Uxtheme.dll V6.0.2900.2523 du 20 Mars 2006 >> Modifié pour accepter toutes sortes de thèmes.
+- Mise à jour du WGA ( LegiCheckControl.dll version 1.5.526.0) pour windows update et pour passer la vérification d\'authentification WGA sur le centre de téléchargement de Microsoft.
+- Réglage du cache Temporary Internet Files à 256 MO fixe au lieu de 5% de l\'espace disque.
+- Correction d\'un bug qui provoque un dédoublement de certaines fonctions dans le menu contextuel des lnk. exemple : avec le logiciel 7zip qui rajoute des fonctions dans le menu contextuel.
+- Ajout d\'un mini programme, TweakUI de Microsoft, dans le Panneau de Configuration, qui ajoute plein d\'options cachées de Windows XP. (Exemple d\'option : Pour ceux qui souhaitent retrouver la petite flèche sur les raccourcis, en deux clique c\'est fait avec TweakUI)
+- Meilleur réglage de la \"Mémoire Virtuelle\" que le réglage par défaut de Windows XP et l\'ancien réglage à 768Mo fixe des versions 4.0a 4.5 4.6 4.7 qui d\'ailleurs provoquait des dépassements de mémoire virtuelle en utilisation intensive.
+En effet, Windows XP règle la mémoire virtuelle par une valeur minimale de 1,5X la RAM et 3x la RAM en Max. Ce qui est beaucoup trop et inutile, surtout pour les machines avec 512Mo à 2 Go et plus de mémoire...
+Ici elle est donc automatiquement réglée selon votre Ram et votre utilisation du PC avec un minimum de 320 Mo et un maximum de 1536 Mo.
+- Options suplémentaires dans les propriétés de personnalisation du menu démarrer.(Propriétés >> personnaliser...)
+- Options suplémentaires dans les Options des dossiers (Outils >> Options des dossiers >> Affichage)
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+Changelog de la V4.6 à la Version 4.7 :
+- Ajout de 15 Hotfixs (Mises à jour) Microsoft.
+- Activation par defaut de la fonction de Mise à jour automatique. \"windows update\".
+- Suppression de la fonction de création automatique du compte \"Admin\" et remise en place de la page de création de comptes, à la fin de l\'installation de Windows XP. (Comme sur un Windows XP original, \"normal\")
+- Mise à jour du WGA (version 1.4.410) pour windows update et pour passer la vérification WGA sur le centre de téléchargement de Microsoft.
+- Réactivation du téléchargement automatique des codecs avec Windows media Player.
+- Intégration de Windows Media Player 10.
+- Mise à jour de DirectX9.0c, de février 2006.
+- Nouvelle version de TCPIP.SYS patché. (V5.1.2600.2827)
+- La méthode d\'installation des pilotes de controlleur SATA et/ou RAID, via disquette (ou clé USB ou Lecteur de Carte) et F6 pendant l\'installation de Windows XP, fonctionne maintenant sur cette nouvelle Version.
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+Changelog de la V4.5.1 à la Version 4.6 :
+- 2 nouveaux Hotfixs
+- Correction d\'un bug avec certains firewalls (Exemple Look\'n\'Stop) 
+Il pouvait y avoir un ralentissement après utilisation de logiciel P2P ou bien des pages Web inaccessibles. 
+Ce n\'est pas tellement un bug, mais plutôt une optimisation que les Firewalls ne supportent pas par défaut sans un réglage spécifique. 
+Bon c\'est donc corrigé donc plus de soucis.
+- Correction du bug qui, quand on se connecte à un réseau ou à internet pouvais rester à l\'etat :\"Lecture de l\'adresse réseau\"...
+- Révision totale des optimisations réseaux et Internet, avec améliorations et corrections...
+- WGA mis à jour, (Windows update fonctionnel et les téléchargements protégés par authentification WGA passe aussi ;))
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+======================================
+======================================
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+Changelog de la V4.5 à la Version 4.5.1 :
+- 1 Nouvel hotfix (le KB896424 du 07 Novembre 2005)
+- Des mises à jour des pilotes SATA
+- 2 à 3 petites corrections et modifications 
+comme - Ajout des raccourcis \"ajout/suppression de programmes\", \"Gestionnaire de périphériques\", \"Lancer RegEdit\", \"Quitter session\", \"Redémarrer\", \"Arreter\", dans le clique droit du poste de travail.
+qui avaient été oubliés dans la 4.5
+- Correction d\'un Bug qui empêchais l\'installation d\'Office 2000.
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Remerciements à ceux qui ont participé aux tests et correction de Bugs.
+
+
+/_\\/_\\/_\\/_\\
+Version 4.8
+/_\\/_\\/_\\/_\\
+
+Enjoy !

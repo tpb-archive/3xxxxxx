@@ -1,0 +1,66 @@
+﻿User Type,Username,Date,Text
+,ruva,2006-11-11T22:01Z,"I pay for the program but the silly aktivation did me to a pirate,"
+,jedla,2006-11-21T21:25Z,"Pls help, how to crack the portable edition? I did crack the desktop edition successfully only."
+,k9182000,2006-11-23T18:32Z,just copy the license.rfo located in the My RoboForm Data
+,Trushka,2006-12-06T18:01Z,"Copying license.rfo located in the My RoboForm Data (notebook) into the USB drive didn't work.  It's still saying that the evaluation period is over.
+
+Note:
+I had a trial version of Roboform portable in my USB drive before.  I formatted the USB drive before reinstalling Roboform portable."
+,Trushka,2006-12-06T18:15Z,"Finally figured out how to make Portable work.
+
+Copying license.rfo from computer to USB drive didn't work.
+
+Running rf60lic.exe -p didn't work.  It just created another license.rfo in the computer.
+
+Running ""rf60lic.exe folder"" worked (specifying the USB drive.  The license.rfo it generated in the USB drive cancelled the evaluation over/expiry limitation."
+,okenes,2006-12-13T07:52Z,"Trushka,
+
+I did not understand how you made the Portable work?
+
+I click on the rf60lic.exe file, a DOS program starts and says that it will change the licence file on my harddisk.
+
+Can you please be more specific on details, thanks"
+,flogage,2007-01-19T22:39Z,"I tried to get portable to work without success. Can someone give more detailed instructions, please. Thanks"
+,angel6353,2007-01-26T19:30Z,I tryed with the same result!
+,uamistad,2007-01-26T20:55Z,"FINALLY I DID !!!
+
+I found a file called rf60lic.exe and the thing I did is the following steps:
+
+1. Execute the file AiRoboForm-Portable.exe that was in the same pack where I found the rf60lic.exe (I recomend that AiRoboForm-Portable.exe file because it is probed).
+
+2. Copy rf60lic.exe to the ""/My RoboForm Data/Default Profile/"" folder of your USB, or where you find the file license.rfo
+
+3. Open MS-DOS, go to the folder where you copied rf60lic.exe file and write the following:
+
+rf60lic .
+
+(NOTE THE PERIOD (.) NEXT TO THE ""rf60lic"", that say that the current folder is where it will apply the license.
+
+4. The program ask me for rewrite the existing license. The original license was changed to license.rfo.bak
+
+Greetings !!"
+,angel6353,2007-01-30T18:49Z,"I tried on 3 computers and I can?t get to USB drive from Command prompt!
+Any Ideas?"
+,k9182000,2007-02-20T22:44Z,"Sorry if I was a bit blunt out getting the usb version to work. So here goes.
+
+1. install the portable version of your usb drive (for the example my usb drive is drive E). This will also copy you passwords to the usb drive. 
+
+2. next click start run and type cmd.
+
+3. Now in the prompt window navigate to where the ""rf60lic.exe"" file is.
+
+4. Now ype the following without quotes ""rf60lic.exe E:\My RoboForm Data\Username""  Remember that E is my letter to my USB drive. Also where I typed Username replace this with my name you use to register roboform.
+
+And that's it. this will over ride the license. 
+
+O and I have tried the usb drive on a computer that doesn't have roboform installed on it and it work.
+
+have fun as always"
+,Trushka,2007-04-14T09:17Z,Can you make this work in PDA/pocket pc?  Or do you have roboform for pocket pc?  Thanks.
+,4365nokb6,2007-04-27T00:41Z,"Trushka, you are a God and we are but peasants.  Thank you very much for your instructions.  I love the ""rf60lic ."" bit!  I never would have found the "".""."
+,kaytow,2007-06-28T00:55Z,more portables http://myportables.freehostia.com/
+,mexicanDJ,2007-07-15T11:31Z,"the trick is so easy...just install portable roboform as usual...then copy rf60lic.exe to the desk........next open the folder MY ROBOFORM DATA on your usb,take the default profile or any profile you have created and put over the rf60lic.exe (without open this exe!) vuala! the magic is done! check the about of.... must be say  (fxd).......have a nice day!!"
+,mexicanDJ,2007-07-15T12:04Z,one detail!! close the application and open again.....ready!! everything is fine.
+,M1911,2008-03-26T20:31Z,"mexicanDJ Has the easiest way. put the rf60lic.exe in your My RoboForm Data Folder, you should have the exe in the folder along with your profile folder. Then just drag your profile folder on top of the rf60lic.exe and bang as mexicanDJ said Magic Done. (I tried the other ways and they didn't work)"
+,7evenor,2010-05-26T08:05Z,"Somebody plssssss seed. 
+THANKS!!!"

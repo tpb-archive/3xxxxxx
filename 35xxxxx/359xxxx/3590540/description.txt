@@ -1,0 +1,15 @@
+SQL (Structured Query Language) is a standard programming language for generating, manipulating, and retrieving information from a relational database. If you're working with a relational database--whether you're writing applications, performing administrative tasks, or generating reports--you need to know how to interact with your data. Even if you are using a tool that generates SQL for you, such as a reporting tool, there may still be cases where you need to bypass the automatic generation feature and write your own SQL statements.
+To help you attain this fundamental SQL knowledge, look to Learning SQL, an introductory guide to SQL, designed primarily for developers just cutting their teeth on the language.
+
+Learning SQL moves you quickly through the basics and then on to some of the more commonly used advanced features. Among the topics discussed:
+
+ - The history of the computerized database
+ - SQL Data Statements--those used to create, manipulate, and retrieve data stored in your database; example statements include select, update, insert, and delete
+ - SQL Schema Statements--those used to create database objects, such as tables, indexes, and constraints
+ - How data sets can interact with queries
+ - The importance of subqueries
+ - Data conversion and manipulation via SQL's built-in functions
+ - How conditional logic can be used in Data Statements
+
+Best of all, Learning SQL talks to you in a real-world manner, discussing various platform differences that you're likely to encounter and offering a series of chapter exercises that walk you through the learning process. Whenever possible, the book sticks to the features included in the ANSI SQL standards. This means you'll be able to apply what you learn to any of several different databases; the book covers MySQL, Microsoft SQL Server, and Oracle Database, but the features and syntax should apply just as well (perhaps with some tweaking) to IBM DB2, Sybase Adaptive Server, and PostgreSQL.
+Put the power and flexibility of SQL to work. With Learning SQL you can master this important skill and know that the SQL statements you write are indeed correct.

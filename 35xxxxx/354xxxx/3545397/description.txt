@@ -1,0 +1,50 @@
+-----------------------------------------------------------------------
+Maximus-Garyopa_XTRM-HITACHI_v2_3_Stealth 8in1
+-----------------------------------------------------------------------
+*** MOST OF THE WORK IS FROM garyOPA, even most of this Readme File ***
+
+WHAT IS NEW:   Change booting order to counter-attack the fake ss that
+               appears to be on some EA games.
+
+I have not tried it since here on America we dont have yet any of this
+games. In the worst case will not harm your box.
+
+**If your drive is flashed USE A RESTORE FIRST**  
+(Use the restore included on this package)
+
+
+FEATURES (my contribution on this release):
+
+* Removed old media detection and replaced with better media detection 
+  (media detection ver 2) from Geremia. 
+* Incorporates Maximus Firmware Stealth (Full Firmware Stealth)
+* Added support for 59b firmware (what a stupid fw)
+* Not yet Media Stealth... I have not heard news on this topic
+
+
+Three Commands (for flashing use only one: Flash16s or Flash23s, no both):
+
+FLASH23S.BAT: Flashes your drive with 2.3 Fw Stealth (Media Detect 2, 
+              F900 core and Firwmare Stealth
+
+FLASH16S.BAT: Flashes your drive with 1.5 Fw Stealth (Media Detect 2, 
+              and Firwmare Stealth, (NO F900 Core)
+
+RESTORE.BAT:  Return your drive to original State, even if you have
+              firmware stealth in your drive
+
+
+*RECOMENDATION: If you have flashed your drive in the past use RESTORE
+first. If it is a brand new drive use directly the Flash command you 
+like. If you dont plan to use your drive to dump games use the 
+flash16s.bat 
+
+
+* ALL NEW XTREME V2.3 FIRMWARE FOR ALL BUILDS OF THE HITACHI DRIVES!
+
+   - Now includes \"Security Sector Extraction\" for all Hitachi Drives
+
+   - Included media detection 2 from Geremia and Maximus Firmware
+     Stealth, this release just supports SS Extraction within Windows 
+     without the need to re-flash your drive back and forth between 
+     PLAY & RIP!

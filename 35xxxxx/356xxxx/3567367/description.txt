@@ -1,0 +1,27 @@
+BitComet is a p2p file-sharing freeware fully compatible with Bittorrent, which is one of the most popular p2p protocol designed for high-speed distribution of 100MB or GB sized files. BitComet is a powerful, clean, fast, and easy-to-use bittorrent client. It supports simultaneous downloads, download queue, selected downloads in torrent package, fast-resume, chatting, disk cache, speed limits, port mapping, proxy, ip-filter, etc.
+
+What's New:
+
+GUI Improved: change the display font in Statistics View to monospaced font
+GUI Improved: improve the task delete confirm dialog
+GUI Improved: add a button to rename download file by serverval rules in HTTP task properties dialog
+GUI Improved: new proxy setting page in preferences dialog
+GUI Improved: now can select which columns to display in task list by right click task list header
+GUI Improved: now can import Flash files (.swf) when select download all links or download videos in webpage
+GUI Improved: change the default operation for close button on main window to minimize main window
+GUI Bugfix: fix the focous switch order when press Tab key in the HTTP task properties dialog
+GUI Bugfix: fix the problem that the redownload button does not work when import a new task but a exist task with the same URL is detected
+GUI Bugfix: fix the problem that the download left time is displayed as zero when download rate is zero
+Core Improved: add support for connection via HTTP, SOCK4, SOCK5 proxy server
+Core Improved: enhance the function of download videos in webpage, optimize for mainstream video websites
+Core Improved: improved Rmvb file version and Real codec version detection algorithm, avoid most crash when play rmev files
+Core Bugfix: fix the problem that unable to download file from certain FTP server
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Codec Packs & P2P Downloads :     
+http://kppfree.altervista.org/
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -1,0 +1,32 @@
+Just released yesterday....
+
+------------------------------------------
+dvd2xbox by WiSo
+
+
+
+v0.7.7
+
+- added SmartXX RGB LED support (thanks to www.modcontrol.com for a sample)
+
+- added possibility to disable the file manager and iso ripping to hdd via dvd2xbox.xml
+
+- updated: IR remote control layer to newest from XBMC
+
+- added a new setting to calibrate the screen
+
+- added soften and flicker filter
+
+- changed: file manager starts now with the root tree of all available devices
+
+- fixed: a bug which could crash dvd2xbox during Video DVD copy
+
+- updated: Samba client library to newest from XBMC
+
+- skinning: added item setrgbled to set the color of the SmartXX RGB led
+
+- updated: PM3 skin (thanks to Jezz_X)
+
+
+
+Note: Don't forget to update your dvd2xbox.xml file.

@@ -1,0 +1,48 @@
+﻿User Type,Username,Date,Text
+,jennysalala,2007-01-07T20:03Z,"Oh and if you were wondering about region, it has PAL/NTSC selector so don't worry about where you live."
+,Iamcloud,2007-01-07T20:27Z,To play this I need a moded ps2?
+,jennysalala,2007-01-07T20:37Z,Yes or independence exploit to run the elf file.
+[V],aoottis,2007-01-08T13:29Z,how 2 run the elf file ? i have burnd the iso file and it loads up and all. but hven it`s come 2 start game it hangz up every time !!
+,jennysalala,2007-01-09T02:52Z,"Make sure you chose the right region for your game (e.g. you chose NTSC but your game is PAL)
+
+Resolution should be correct cause if it ain't, then it won't even show anything on screen.
+
+If you have those 2 correct tell me the games your using. If you're using just one, try another. "
+,secondtoughest,2007-01-11T00:01Z,"omg this is very good :)
+
+Will the normal PS2 cable do the job through SCART?"
+,jacko709,2007-01-12T00:57Z,have tried this with swap magic it just hangs on the loading screen
+,dastly75,2007-02-04T09:08Z,"After searching and searching and spending so much time I finally figured out why it hangs on the loading screen.  Before you launch the .elf file from the loader, you HAVE to have the ps2 game you plan on upconverting in the console.  After that, just load xploder, adjust it, and run the game, it works then.
+
+Hope this helps you all out."
+[V],mondo,2007-02-06T14:22Z,"If  I burn the ISo on a CD, is it just to boot up the PS2 with the CD and change settings, then put the game in and (hopefully) run it? I catÂ´s test it now cause I wait for my Ps2 to be chipped, just wants to confirm that this is the way to do this..
+
+What do I do with the .ELF file? Is that one for HD loader? Or perhaps, do I need a HD loader for my PS2 in order to get this to work? 
+"
+,jennysalala,2007-02-11T05:26Z,"Yes mondo, thats exactly what to do. 
+
+As said, you insert Xploder HDTV Player, adjust graphics settings (480i, 480p, 576p, 720p, 1080i  PAL, NTSC) to your likings, insert your game and play. 
+
+The .elf is for a boot loader. Most reccomended is uLaunchELF. Search for it and how to use it. It's called the PS1 Exploit and lots of people including me use it, even though I have a modchip. Good luck with this and your new modchip."
+,morpheousx,2007-02-20T11:07Z,"where is this elf? i would like to use the elf as i have a v7 ps2 with a modchip installed using HDloader to load games off hdd with ulaunchelf as a elf launcher,somone please tell me where to get this please :ol"
+,morpheousx,2007-02-20T12:53Z,"every game i try it stays stuck at the ""starting game""prompt,i tried it via elf file and then burned the iso to a cd-r and got the same results.....WTF?"
+,darthpunk,2007-03-10T07:25Z,"I tried this on my US NTSC console and it just hangs at the starting game screen on everything.
+
+I checked the official website and there are two versions, NTSC and PAL so I have to assume there is some sort of region lock.
+
+Even though it offers both NTSC/PAL settings, I would imagine that it has more to do with the option of your TV set and not the PS2 console.
+
+Can you tell me if the original source of this is PAL or NTSC?
+
+Thanx."
+,dastly75,2007-03-10T22:31Z,"umm darthpunk and morpheous, maybe you should read my earlier comment?"
+,xXHustlerXx,2007-05-20T06:32Z,"How do I see my version for the PS2?? I have had it chipped, downloaded this and it all worked great, but I still don't know what version I have.
+
+I have the new remade (the thin PS2) and it's a matrix modchip. What version do I have and how do I find out??"
+,Norbikkka,2007-12-26T19:07Z,"Does it work at anybody at all ?
+The program works well, but when I wanna start the game, the ps isn't load that!
+(I don't use HDloader!)"
+,realviper78,2008-01-09T09:38Z,i am having trouble as well. no hd loader or elf file. i havea old style modded ps2. always used burned games. it loads up to screen i select my res. insert game wait a min for game to register hit start and hangs on starting game nothing happens. any suggestions?
+,antmiu2,2008-03-23T16:36Z,"hello jenny i have a ps2 with hdloader with a hard drive am tired of downloading ps2 games and then they would never load in hdloader so i was seaching on the net and found this and i figured maybe its the incapability of the resolution or watever so i downloaded it but i dont really know what to do with it, i load my game into the hard drive with winhiip and i think it wont read the .elf file but the .iso yes , should i put it in my hd... and then?? please help me!! if u have msn please add me for better explanation...         :{"
+,antmiu2,2008-03-23T16:37Z,ant23.g@hotmail.com  
+,lolfacey,2012-04-30T01:59Z,Can you Upload Xploder for Ps3?

@@ -1,0 +1,30 @@
+
+-Added Apply Vista Setup screens transformation
+-Fixed applying missing Vista UI transformation to setup files bug
+-Fixed language id debug dialog when repair in Maintenance Center
+-Fixed missing resources patching for Media Center and Tablet PC Edition
+-Fixed missing some files during Vista UI transformed setup installation preparation
+-Fixed new updated files missing after uninstallation when use re-apply Vista UI transformation mode
+-Fixed obsolete language id checking bug in repair function
+-Fixed rebuilding icon cache console dialog disappearance bug
+-Fixed rebuilding icon cache incompleteness problems (I programed it to delete IconCache.db so it should be better)
+-Fixed resource extracting using Resource Hacker bug on some non-English langude id with letter
+-Fixed SideBar obsolete uninstallation that might cause problems to Vista SideBar
+-Fixed Start orb misalign for VistaStart (by 1 pixel)
+-Fixed system files uninstallation bug (system files restored after uninstall, all same)
+-Fixed Vista Toolbar Throbber animation bug
+-Fixed Vista Visual Pack's execution problem on Vista UI transformed setup files that doesn't have GUIRunonce.
+-Fixed WindowBlinds installation path detection bug
+-Fixed WindowBlinds skin installation on Vista UI transformed setup install launch bug
+-Fixed Windows logo in System Properties overlapping bug
+-Fixed wordpad.exe patching failure (wrong file location)
+-Fixed unable to execute "ResourceHacker.exe" on Vista UI transformed setup install bug
+-Fixed uxtheme.dll patcher execution issues (couldn't execute file xxx.com, patch doesn't work, etc.)
+-Fixed uxtheme.dll patching issues on Windows Server 2003 with Service Pack 2 Beta
+-Fixed x64 Edition detection failure on x86 OS with x64 CPU
+-Updated Vista cursors from Pre-RC1 build
+-Updated Vista icons from Pre-RC1 build
+-Updated Vista tray icons from Pre-RC1 build
+-Updated Vista logon background from Pre-RC1 build
+
+/pliex

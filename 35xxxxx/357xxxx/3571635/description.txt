@@ -1,0 +1,43 @@
+Wild Magic Vesion 4.0 includes 1,587 source files and 105 sample applications, equating to 249,860 lines of code. The Windows, Linux and Macintosh platforms are supported, using OpenGL renderers. The Windows platform also has a Direct3D renderer whose performance is comparable to that of the OpenGL renderer. Multiple versions of Microsoft\'s C++ compilers are supported - versions 6, 7.0, 7.1, and 8.0 (Professional and Express Editions). The MINGW compiler and MSYS environment are also supported on the Windows platform. The Linux platform uses the g++ compiler, and the Macintosh platform uses Apple\'s Xcode tools.
+
+Aimed at the working Visual C++ game developer, 3D Game Engine Design provides a tour of mathematical techniques for 3-D graphics, and the source code that\'s used to implement them in state-of-the-art video game engines. If you work in the game industry (or would like to), this book will serve you well, because it delivers excellent best practices for algorithms and programming techniques that\'ll help your software keep up with the competition.
+This text is a virtual encyclopedia of expertise that\'s based on the author\'s own work and research in the gaming industry. It provides the mathematical notation, algorithms, and C++ code (on the accompanying CD-ROM) that are needed to build fast and maintainable game engines. Early sections start with the basics, with the math that\'s used to work with common 3-D objects (like spheres and boxes). Highlights include a high-powered review of quaternion algebra--in many cases, the preferred way to transform 3-D data.
+
+The chapters on graphics pipelines explain the math that\'s behind representing and rendering a 3-D world in 2-D with intervening effects like lighting and texture mapping. A variety of current algorithms are provided for representing 3-D scenes, efficient picking (which allows a programmer to determine the object in a 3-D world that has been selected), and collision detection (in which objects collide virtually). In the game software of today, curves--and not individual triangles or polygons--often are used to represent 3-D objects. Algorithms that are used to turn curves into rendered surfaces are provided, too.
+
+Later sections look at the current thinking about animation techniques for characters (including key frames, inverse kinematics, and skinning (in which digital skin is fitted over digital bone to create more realistic-looking movement)). How to represent terrain inside virtual worlds also is explained. The book closes with excellent material on such cutting-edge special effects as lens flare and projected shadows, which can add an extra level of realism to a video game. An appendix examines guidelines for designing object-oriented game software in C++.
+
+Filled with mathematical insight and expert code that puts each principle or algorithm to work, 3D Game Engine Design provides an expert view of what goes into building a state-of-the-art game engine. --Richard Dragan
+
+Topics covered: 
+
+Mathematical methods and sample source code for 3-D game development 
+Geometrical transformations 
+Coordinate systems 
+Quaternions 
+Euler angles 
+Standard 3-D objects: spheres, oriented boxes, capsules, lozenges, cylinders, ellipsoids 
+Distance methods for a variety of shapes 
+Introduction to the graphics pipeline 
+Model and world coordinates 
+Projecting perspective 
+Camera models 
+Culling techniques 
+Surface and vertex attributes 
+Rasterizing 
+Efficiency issues for clipping and lighting 
+Hierarchical scene representation, using trees and scene graphs 
+Picking algorithms for a variety of 3-D shapes 
+Collision detection for static and dynamic graphical objects 
+Oriented bounding-box (OBB) trees 
+Basics of curves and special curves (including Bezier curves and various splines) 
+Curves (generating surfaces from curves by using different techniques) 
+Character animation, using keyframe animation and inverse kinematics 
+Skinning 
+Geometrical level of detail considerations 
+Techniques for generating game terrain 
+Spatial sorting and binary space partitioning (BSP) 
+Special effects: lens flare, bump mapping, volumetric fogging, projected light and shadows, particle systems, morphing techniques 
+C++ language features for effective object-oriented design 
+Reference to the numerical methods required for game mathematics
+--This text refers to the Hardcover edition. 

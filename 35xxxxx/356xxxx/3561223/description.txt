@@ -1,0 +1,24 @@
+JustLooking is an image viewer for Mac OS X designed to replace the Preview application.  It has the following features, along with others:
+
+
+- It focuses on files and directories instead of lists of files. Thus, once you load a file, you can easily navigate through all other files in the same directory.
+- It displays images at their native resolution instead of interpreting DPI information stored in the image meta-data. While images are printed at the maximum resolution possible, on screen they are displayed pixel-by-pixel.
+- Being designed more for viewing of Images, it properly shows animated GIF files.
+- The entire program can easily be manipulated and powered by simple keystrokes for a quick and pleasant viewing experience.
+- JustLooking also supports such basic features as printing and rotating and will hopefully prove to be sufficiently functional for most users\\\' needs.
+
+
+Running JustLooking is quite simple, and the only requirements are:
+
+- Mac OS X 10.4 or greater
+- 256MB RAM
+- 2MB free disk space
+
+JustLooking is installed on any new machine by simply dragging it into the Applications folder.
+
+more information at http://chipmunkninja.com.
+
+We need help with localisation.  If you speak a language other than english fluently, and have 2 hours or so to spare, please let me know -- the more languages the better!!!
+
+This is version 1.0.1, which contains a couple of bug fixes related to deleting files and operations on files that no longer exist.
+		

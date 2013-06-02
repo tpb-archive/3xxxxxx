@@ -1,0 +1,12 @@
+If you dowload Vista x86 "BillGates" release
+(md5 = c7792c31aeea98be645ab295d35e8eef, size - 2 678 614 016),
+
+It is possible to transform this release into legit MSDN release
+(md5 = d1ff9802d93871c9b90fe5542e84f89e, size - the same).
+
+Start ppf-o-matic3, choose the ISO from BillGates, and a patch bg-msdn.ppf to apply,
+and at you a proper image from MSDN.
+For check the resulted md5 control sums are applied of an image before patch, and after,
+and finaly a md5 of MSDN image contents.
+
+Enjoy.

@@ -1,0 +1,36 @@
+Superfetch är en liten hjälpreda för att ta hem filer från webben. Programmet använder sig av clipboard, så det är i princip bara att kopiera önskat sökmål så tankas filen hem till en förinställd mapp. Programmet bygger upp en lista på alla kopierade webbadresser så det går i teorin att kopiera 10 länkar i sekunden (stora som små filer) och ändå få hem alla eftersom. 
+
+
+
+Superfetch hanterar:
+- Alla former av filer från webben
+- Skärmdumpar och alla slags kopierade bitmaps (ej i filhanteringsnivå)
+- Vanlig kopierad text
+- Igenkänning av filduplicering
+- Automatiska uppdateringar
+
+
+Superfetchs GUI
+- Blå knappen: slår av och på. Skulle du behöva kopiera och klistra något i windowsmiljön så måste du slå av Superfetch.
+- Dokumenten: slår av och på hotsearch-funktionen (läs mer om den nedan).
+- Mappen: Väljer sökmål för dina hemtankningar.
+- Högerklick i infofältet: tar dig till mappen dit du tankar hem (nytt explorerfönster öppnas).
+
+
+Snabbaste sättet att kopiera en bildadress:
+i FireFox: Högerklicka -> \"Copy Image Location\" eller \"Copy Image\"
+i Internet Explorer: Högerklicka -> \"Kopiera\"
+
+
+Superfetch känner automatiskt av vad det är för innehåll du vill spara, så om det är en bild du kopierat med hjälp av endast URL:en så kommer bilden att sparas, där du valt att lägga alla hemtankningar, med samma namn som på servern. Om du kopierar ett stycke text så kommer en textfil att sparas vid namn Copied text_nummer_datum_klockslag.txt. Om det är en bitmap du vill spara, t.ex. om du tryckt PrtScr så bygger programmet en bmp-fil vid namn fetched_datum_klockslag.bmp.
+
+I någon version snart så kommer en hotsearch-funktion, som automatiskt kommer söka efter bilder. T.ex. om man kopierar URL:en till en bild som heter \"chucknorris01.jpg\" så kommer \"chucknorris02.jpg\" osv. att tankas hem till en separat mapp. Detta kan förhoppningsvis underlätta surfningen då man slipper spara varje bilds URL separat. Dock så måste en sån här funktion vara perfekt när den levereras så den inte går lös och skriver 1000 filer till era datorer, därav dröjsmålet.
+
+Varje gång man startar Superfetch så kollar den automatiskt efter uppdateringar, så man behöver bara ta hem installern en gång.
+
+Screenshot: 
+http://www.mediamonster.se/development/superfetch/superfetch.jpg
+
+
+
+Om ni upptäcker något underligt så säg gärna till så jag kan åtgärda så snabbt som möjligt. Kom gärna med förslag på förbättring och funktioner ni skulle vilja se fanns med i ett sånt här program.

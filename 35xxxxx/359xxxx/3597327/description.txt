@@ -1,0 +1,43 @@
+NAME
+Chronicles of Narnia, the Lion, the Witch, and the Wardrobe
+
+IMDB 
+http://www.imdb.com/title/tt0363771/
+Release Year: 2005
+Director: Andrew Adamson
+Plot: Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance a mystical lion.
+	
+FORMAT
+mp4 container
+
+LENGTH
+143 minutes 
+
+VIDEO
+656x320 frame size
+2.425 aspect ratio
+23.976 fps 
+avc video codec 
+800 kilobits/second 
+Profile High @ Level 5.1
+
+AUDIO
+All tracks are 48000 Hz and encoded with nero.
+track 1: English 5.1 AAC 145 kilobits/second
+track 2: English commentary mono AAC 25 kilobits/second
+track 3: French stereo AAC 45 kilobits/second
+track 4: Spanish stereo AAC 45 kilobits/second
+
+SUBTITLES
+Exterior .srt files for maximum compatibility.
+English, Spanish, French, and Swedish.
+
+SAMPLES
+5 PNG bitmap screenshots
+5 megabyte mp4 video 
+
+MISC NOTES
+This movie should play find in VLC or or Mplayer. I believe 5.1 output of HE AAC files in VLC is broken, but only playing two channels works fine. Most video players will automagically detect your preferred subtitle if you make a copy of it and save it as the same name as the video file, only with the srt extension. The video was denoised before being encoded so you may prefer to use a noise filter to hide the small amounts of color banding that can occur. 
+
+Example:  
+$ mplayer(.exe) myvideo.mp4 -vf noise=3t:3t

@@ -1,0 +1,30 @@
+﻿User Type,Username,Date,Text
+,shenkeee,2006-12-17T11:59Z,"P.s.:
+This is a 16-bit application, so there would be some bugs with the intallation under SP2 Windows platform.
+
+But it's a very good program, so
+
+If somebody know how to fix it, please write the method to comments!
+Thanks a lot!"
+,MrshGold,2006-12-17T15:51Z,"Typically to get around the problem, right click the install file, choose properties, select the compatibility tab, select compatibility mode for Windows 95... Done!"
+,shenkeee,2006-12-17T21:29Z,"Thank You,
+But (in my case) not so easy to solute the problem.
+I've tried it, but doesn't work.
+
+It the installer is started, but freeze when start to coping files...
+
+Any other tipp?"
+,Thcpirat,2007-01-30T22:08Z,thx a lot 
+,shenkeee,2007-04-18T22:02Z,"Heureka!
+
+If there are problems with installation, try to install it in safe mode. For me it's work...
+
+Bye"
+,tkimitkiy,2007-10-03T13:11Z,"I'f you got a problem ""Runtime error: Out of memory"", just go to Start - Run ""msconfig"" - Boot.ini - Advanced settings - MaxMeM => 512 and the problem should be solved ... :)"
+,aggresor,2008-01-10T18:14Z,"Seed plz, one last time"
+,love2share,2008-04-17T20:35Z,"I could find no serial with this release!!
+Help please!!"
+,love2share,2008-04-17T20:37Z,"Sorry, made a stupid mistake no serial needed!!"
+,psaikoski,2009-09-29T17:58Z,"the trick with the msconfig is indeed working. but it's very frustrating, because the computer then is very slow. it works only with 512megabyte memory.
+
+is there no other solution to this problem??"

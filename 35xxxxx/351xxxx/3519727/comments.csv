@@ -1,0 +1,624 @@
+﻿User Type,Username,Date,Text
+,groovyjaxx,2006-09-05T13:32Z,"Just install the game and patch it, the patch is all over the net so it wont take long untill u find the patch. "
+,Lardzor,2006-09-18T19:40Z,"Does anyone know if this is the US version, or the UK version?"
+,maul_inc,2006-11-01T12:33Z,THx man :D
+,N.M.I.,2006-12-26T14:11Z,"Thank you, I've been really waiting for this one! :D
+Please seed, guys!
+Thx."
+,fair_tao_clitus,2006-12-27T17:59Z,"Everytime I try to play it I get a ""please insert the correct CD"" message. Anyone else have this problem?"
+,feed420,2006-12-30T05:01Z,"Yeah, I get the same error. Halp plz."
+,skymiles77,2006-12-31T13:58Z,"Hi everybody. Thx for this upload! Sounds like a ""killer""! 
+Unfortunately, i have the same problems as the guys above (""...insert the CD...""). I've been trying to find out how to bypass this but have not been successful. 
+Does anyone have any suggestions? It would be much appreciated. Thx."
+,samuraidd,2007-01-03T22:33Z,"OK, so I patched it to 2.13, got a No CD patch, the intro goes well, the game launches, main menu... But as soon as I begin a new game, it freezes. Just freezes. And I got to terminate process. Anyone got this problem?"
+,groovyjaxx,2007-01-20T17:21Z,"I didnt get the error message, install the patch and try use the compability option on the .exe file and the cd. "
+,DrColossus,2007-03-25T12:41Z,If you a multi-core system (IE hyper-threading /dual core) you must use the task manager to disable affintity for System Shock 2 on one of the cores. Otherwise it will just freeze like you said.
+,policia,2007-04-11T14:47Z,"If you a multi-core system (IE hyper-threading /dual core) you must use the task manager to disable affintity for System Shock 2 on one of the cores. Otherwise it will just freeze like you said.
+
+and we would do that how?"
+,leonjensen,2007-04-12T09:04Z,"I've got this game... but i lost the disc... and i dont want to spend a fortune on finding it again, thx man"
+,part7,2007-06-01T03:25Z,"You know, you could always mount the ISO on a virtual drive. 's not that hard, and you dont have t deal with any silly no-cd patches! try it."
+,redswirl,2007-06-11T04:36Z,every time i try to play i get a error the game dosent even launch /=
+,Semptimilius,2007-06-23T01:16Z,"Game Issues With Multiprocessor/Hyperthreading Systems
+
+
+If you're reading this you probably already know that Thief, Thief Gold, Thief 2, System Shock 2, as well as Grim Fandango don't like multiprocessor/hyperthreading systems.
+The non-permanent way to fix this problem is to:
+
+   1. Start the game(go only as far as the menu).
+   2. Alt-Tab out of it.
+   3. Bring up the task manager(Ctrl-Alt-Del then T).
+   4. Click on the processes tab.
+   5. Find thief.exe / thief2.exe as well as thief2.icd for thief 2 / grimfandango.exe for Grim Fandango.
+   6. Right click on it/them and go to set affinity.
+   7. Uncheck one of the cpus.
+   8. Alt-Tab back into the game and play. 
+
+This will need to be done every time you start the game as this is not a permanent solution.
+
+
+The permanent way to fix this problem(without turning off Hyperthreading) is this:
+
+   1. Download imagecfg.
+   2. Unzip it to Windows\system32\ as well as Windows\system32\dllcache\.
+   3. Make a backup copy of your exe and icd(for Thief 2 and System Shock 2) files.
+   4. Open notepad and enter the following for Thief/G:
+      imagecfg -u thief.exe
+      imagecfg -a 0x1 thief.exe
+      pause
+
+      For Thief 2 it's:
+      imagecfg -u thief2.exe
+      imagecfg -u thief2.icd
+      imagecfg -a 0x1 thief2.exe
+      imagecfg -a 0x1 thief2.icd
+      pause
+
+      For System Shock 2 it's:
+      imagecfg -u shock2.exe
+      imagecfg -u shock2.icd
+      imagecfg -a 0x1 shock2.exe
+      imagecfg -a 0x1 shock2.icd
+      pause
+
+      For Grim Fandango it's:
+      imagecfg -u GRIMFANDANGO.EXE
+      imagecfg -a 0x1 GRIMFANDANGO.EXE
+      pause
+   5. Save the file in the game directory as ""processor.bat"" including the quotes.
+   6. Double click the file processor.bat (must be in the game directory). You will see something similar to the following:
+      D:\Games\Thief2>imagecfg -u thief2.exe
+      thief2.exe contains contains no configuration information
+      thief2.exe contains a Subsystem Version of 4.0
+      thief2.exe updated with the following configuration information:
+      Image can only run in uni-processor mode on multi-processor systems
+      Image can only run in uni-processor mode on multi-processor systems
+
+      D:\Games\Thief2>imagecfg -u thief2.icd
+      thief2.icd contains no configuration information
+      thief2.icd contains a Subsystem Version of 4.0
+      thief2.icd updated with the following configuration information:
+      Image can only run in uni-processor mode on multi-processor systems
+      Image can only run in uni-processor mode on multi-processor systems
+
+      D:\Games\Thief2>imagecfg -a 0x1 thief2.exe
+      thief2.exe contains the following configuration information:
+      thief2.exe contains a Subsystem Version of 4.0
+      Image can only run in uni-processor mode on multi-processor systems
+      thief2.exe updated with the following configuration information:
+      Process Affinity Mask: 00000001
+
+      D:\Games\Thief2>imagecfg -a 0x1 thief2.icd
+      thief2.icd contains no configuration information
+      thief2.icd contains a Subsystem Version of 4.0
+      Image can only run in uni-processor mode on multi-processor systems
+      thief2.icd updated with the following configuration information:
+      Process Affinity Mask: 00000001
+
+      D:\Games\Thief2>pause
+      Press any key to continue . . .
+7. Load the game and play. "
+,Semptimilius,2007-06-23T01:19Z,"http://www16.brinkster.com/salvage/thief/imagecfg.zip
+
+
+Also, note that there can be problems with the game running in Vista.  (Should come as no surprise, really.)"
+,Dragemis,2007-08-10T01:37Z,"I installed the game Full
+Applied the patch in the iso
+changed the SHOCK2.exe
+but when I try to apply the NO-CD exe it says CRC-check failed (and the game crashes as soon as I try to run the shock2 exe)
+ideas anyone?"
+,petepi3,2007-08-23T17:56Z,"""I installed the game Full
+Applied the patch in the iso
+changed the SHOCK2.exe
+but when I try to apply the NO-CD exe it says CRC-check failed (and the game crashes as soon as I try to run the shock2 exe)
+ideas anyone? ""
+
+Dragemis, you have to copy the crack SHOCK2.exe over into the SHOCK folder LAST, after the games been patched. 
+
+Just reinstall it, patch it, run that no cd eyeball thing, then copy the SHOCK2.exe into the SHOCK folder."
+,petepi3,2007-08-23T22:24Z,^^ forget that... the game crashes at the point where I choose which core to join... fucking pos game anyway hahahaha!!ÂŹ!!1!!
+,Chattermouth,2007-08-26T18:42Z,"I'm on Vista, and it works like a charm with the patch and NoCD.
+This game is WAY better than Bioshock as well, in my opinion."
+,jessy503,2007-09-01T07:50Z,"Yeah lesse i relly need help, i click play and then its says ""were sorry for the inconvenience, system shock 2 has encountered a problem"" crap. help"
+,falseusername,2007-09-04T05:26Z,How exactly do I get the NoCD to work? I copied it into the program folder and tried to run it but it gives me various messages of failure.
+,Daveyboy1978,2007-09-06T04:36Z,"System Shock 2 WinXP/2000 Fix
+
+http://mods.moddb.com/6832/system-shock-2-winxp2000-fix/"
+,Shamshel,2007-09-14T17:20Z,"I need some help installing.
+
+When I click Setup, nothing happens. 
+And when I click panel.exe, I don't get an option to install. 
+Just 'Play'.
+
+Which I've clicked several times and nothing happens.
+
+Any tips?"
+,Shamshel,2007-09-16T00:06Z,"Never mind. Got it to install.
+
+
+Now it freezes after the intro, and the solutions above aren't working. :/ "
+,freelancerx,2007-09-19T12:48Z,"Thank you, the game works perfect on WinXP"
+,Kitad,2007-09-21T23:14Z,"Thanks for the torrent but i cant seem to get it to work:
+
+steps:
+1) installed the game
+2) ran the patch and patchet it sucessfully to the latest version
+3) replaced the exe files with the cracked one and opened the nocd file
+
+the game started fine, got to the first menu, but when i tried to start a game, the fmv plays, then it starts loading something but after it finishes, it freezes and gives me the following message:
+
+ERROR
+Error: Direct3d device driver does not accurately report texture memory usage.
+Contact your 3d accelerator vendor for updated drivers.
+
+----
+
+Im running on XP, with 512 RAM, pentium 4, and a GeForce2  mx(yeah I know)
+
+
+if someone can help me, it would be greatly apretiated, i have been seeking this game for a long time"
+,Kitad,2007-09-21T23:15Z,"BTW, i tried using the XP fix but it requires the CD"
+,razziv,2007-11-22T07:59Z,"After I choose a branch of service, I get an error. Any suggestions?"
+,Jonesing,2008-01-14T17:20Z,"Thanks for the torrent, I finally got the game working with cut scenes and all after a few hours today :)
+
+
+Here's a link to a good troubleshooting FAQ which helped me get the cutscenes going
+
+http://www.ttlg.com/forums/showthread.php?t=60930"
+,ScrawnyPaleMan,2008-02-10T21:25Z,it won't let me drag items around in the inventory. any help?
+,Vanterion,2008-02-19T10:12Z,"Well, for Intel users, here's how I got it to work without having to search around looking for a damn No-CD patch:
+
+1) Make a full installation
+
+2) Download and apply this patch to upgrade the game from 1.5 to 2.3
+- http://www.irrationalgames.com/shock2/files/_temp_shkpatch.exe (if this doesn't work, remove the two underscores and the ""temp"" part)
+
+3) Download and apply the ""System Shock 2 WinXP/2000 Fix"" patch
+- http://www.moddb.com/downloads/mirror/1639/1/20157c244662d574757083f037b98b41
+
+4) Download and install this Indeo codec
+- http://www.free-codecs.com/download_soft.php?d=1686&s=188
+
+5) Follow Semptimilius' ""permanent fix"" directions
+
+That's pretty much all I did and it worked perfectly. I have to give a big thanks to Semptimilius for the fix."
+,Vanterion,2008-02-19T11:11Z,"Shit, I didn't even realize this came with cracks. 
+
+Don't bother downloading the 1.5 to 2.3 patch because this file comes with it."
+,JenxRodwell,2008-02-21T21:27Z,"Ok, this really is getting on my nerves, this is the 3rd SS2 torrent that fails to work.
+
+I install the game (full installation)
+I copy the patcher exe to my game directory and patch the game to 2.03
+Then when I copy the NoCD exe and try to run it, it tells me that the size of Shock2.exe is not correct. I copy the Shock2.exe from the crack directory, replace the old one, then try to run the NoCD again. But then it gives me the error:
+""CRC check failed! Wrong version or already patched!"", yet it IS the right version. And when I try to run the game, it just gives me a ""System Shock 2 has encountered a problem and needs to close blah blah blah"" error. 
+ANY ideas on what the hell is wrong with it and how to fix this?"
+,JenxRodwell,2008-02-24T20:12Z,"Ok this really IS weird. I dug up some old old iso of System Shock 2 I had forgotten I downloaded. Now, I am sure that one worked, so I installed it, patched it up with the patch that goes with it....and when I try to start the game, the same thing happens that does with this version.
+
+I am thinking - Can this be in any way connected to me installing Service pack 2? I didn't have it installed before, and the game ran perfectly well, yet now it refuses."
+,deebsboy,2008-03-05T03:08Z,"This a pain in the ass to get to work. I ended up giving up on the no cd patch and burning the game to a CD. Works like a champ. That being said, this game is worth the trouble. Best FPS I have ever played. Creepy as hell."
+,kissenger,2008-03-26T20:40Z,"I can't get this, or the other 2 versions I've downloaded, to work.
+
+Why doesn't some badass computer hacker dude just simplify this whole ordeal and re-engineer a version of SS2 which works on all platforms with minimal installation fuss and no in-game glitches."
+,Tru3Blu3,2008-03-27T05:30Z,"When I pass the intro cinematic and the game loads, I get this error...
+
+""ERROR: Direct3d device driver does not report texture memory usage. Contact your 3d accelerator  vendor for update drivers.""
+
+How can I fix this?"
+,Rudie22,2008-05-29T23:42Z,"I downloaded and installed this with no issues, but when I click ""Play"" on the game panel, it tells me to insert the correct CD, and the ""No CD Patch"" isn't working for me! Please help!"
+,Statsevich,2008-06-17T10:46Z,"ERROR
+Error: Direct3d device driver does not accurately report texture memory usage.
+Contact your 3d accelerator vendor for updated drivers.
+
+how i can fix this?"
+,Shiny-15,2008-06-22T02:05Z,"Great game! Here's how to get it to work:
+
+1) Mount the Image
+2) Install the game
+3) Patch it up to 2.03
+4) Copy over the No-CD Crack (SHOCK2.exe)
+5) Got to th install directory, like C:/Program Files/System Shock 2 for me
+6) Right-Click SHOCK2.exe and in the compatibility tab, select Windows 2000
+7) Hit apply and off you go!
+
+However, if you have a Dual or Quad-core machine, as soon as the game starts, ALT+TAB out of it and bring up the Task Manager (CTRL+SHIFT+ESC) Right-Click on SHOCK2.exe and select ""Set Affinity"" uncheck all but one CPU and it should work!
+
+Thanks for the upload man!!"
+,silentasassin1993,2008-06-22T07:28Z,classic game its good but it think people should seed a bit im going 0.8-1kb thanks man
+,03fb,2008-06-29T01:29Z,"Ive done everything right to get it working ( I hope)
+but i have an issue, if anyone could please help
+When i run the game,some patch final appears and document viewer.Preventing me of playing SS2"
+,Anir551,2008-06-29T04:22Z,test
+,Anir551,2008-06-30T23:46Z,"Man...after trying to run the game for 3days I, thought I could never run it on my PC - even after applying all Win Xp patches (My OS: Win XP with SP2).
+
+After going through various search results....i found a link to a topic on the Nvidia forums regarding SS2.
+
+The reason why this game won't run on many systems (including mine) is because of the architecture of Nvidia 8800 series gfx cards (7 & 9 series also) as well as their drivers. I have an 8800 GT & ForceWare driver 175.16 installed on my system. Even ATi cards suffer from these issues.
+
+System Shock 2 is a ""Dark Engine"" game, its rendering & dithering method is not supported by these modern GPUs & their drivers, the engine also suffers from texture corruption....reason for the game not being able to run. So, it?s a hardware as well as software issue.
+
+Check out these articles:-
+http://forums.nvidia.com/index.php?showtopic=35500
+
+http://timeslip.chorrol.com/ddfix.html"
+,Anir551,2008-07-01T00:04Z,"I have also written a guide regarding installation & proper running of SS2. Along with all the neccessary files, I have uploaded the guide here
+
+http://myfreefilehosting.com/f/f57e53b68e_5.27MB
+
+Hope this helps......"
+,Anir551,2008-07-01T00:17Z,"..........forgot to mention, yes now the game runs
+normally without any issues on my system......""DDfix"" made all the difference....."
+,teamsamson888,2008-07-12T00:35Z,il check this out thnx
+,teamsamson888,2008-07-12T01:44Z,"ERROR
+Error: Direct3d device driver does not accurately report texture memory usage.
+Contact your 3d accelerator vendor for updated drivers.
+
+
+dont work "
+,Anir551,2008-07-13T10:55Z,"Hi   teamsamson888
+
+I suppose you have Win XP & DirectX 9.0c installed on your PC. After that, DDfix should take care of the error you are getting.
+
+btw, during the main game installation, i hope u didn't install DirectX 6, when the prompt came for the same.
+
+Try uninstalling & then reinstalling the game again. Go through all the points I mentioned in my guide.........it should get u up & running..."
+,psychothumbs,2008-07-14T05:30Z,"Sorry, I'm totally new at this, how do I install the game.  I've downloaded the file, but when I go into the folder I just get a list of files.  What do I click on?  Thanks"
+,psychothumbs,2008-07-14T06:10Z,"Okay, I solved my where to click problem, but now whenever I click install I get a message with the heading 
+
+""16 bit WIndows Subsystem"" 
+
+that says 
+
+""C:\WINDOWS\SYSTEM32\AUTOEXEC.NT. The system file is not suitable for running MS-DOS and Microsoft Windows applications.  Choose 'Close' to terminate the application."
+,Anir551,2008-07-14T08:59Z,"Hi psychothumbs,
+
+I suppose you are talking about the ISO image file of the game you just downloaded. Either write the image file onto a blank CD using Nero
+or mount the image file using Daemon tools software (download from here -  http://www.disc-soft.com/download/daemon/free)
+
+Then install the game.
+Use my installation guide - http://myfreefilehosting.com/f/f57e53b68e_5.27MB"
+,Anir551,2008-07-14T09:04Z,"......btw for installation, just double-click on the setup.exe file - it's just as simple as that."
+,psychothumbs,2008-07-14T17:51Z,I mounted the image but I am still getting an identical error message.  Thanks for your help
+,Anir551,2008-07-15T06:43Z,"Try this - Open a command prompt. Change the directory to your CD drive and type 
+
+setup -lgntforce
+
+Press enter, see if this helps.
+
+btw, wht's your OS ? Mine's Win XP + SP2, donno if things will work on Win Vista for example.........."
+,ylib,2008-07-18T18:31Z,Another mod you can use to make the game look better is the Shock Texture Upgrade Project (SHTUP).... you can find it at SHTUP homepage
+,ylib,2008-07-18T18:32Z,oops... the url is http://shtup.home.att.net/
+,negativethree,2008-07-22T11:33Z,Thanks!
+,JDude151,2008-08-04T01:09Z,"Argh.
+
+Installed, patched, cracked it fine, but when I play, I can't drag stuff or use anything in my inventory, access anything in my PDA, hack...
+
+What is going on?"
+,bobo1234,2008-08-12T21:13Z,"I installed the patch and the no cd crack, even put the DDfix patch on it and it works fine...except, I cant save without it crashing and I have no audio. I am using Vista but what else do I need to know to fix this ???"
+,bobo1234,2008-08-12T21:20Z,"Also wanted to mention that I cannot use inventory items and the game crashes right after I enter the training facilities for Navy, Marines, etc"
+,17eacon,2008-08-16T02:46Z,"basically right after i start the game
+it says im missing the CD
+which would make no sense if thats what Daemon Tools is supposed to do"
+,addnan34,2008-08-16T20:03Z,HOPE THIS WORKS!!!!!
+,Anir551,2008-08-17T23:42Z,"Hi JDude151,
+
+I know this might sound stupid, which copy of the game did you install ? The one available in this torrent or from some other place ?
+
+You see, many people install pre-moded versions of the game they got hold off from some other place - then go through my guide - things screw up - & finally they email me complaining ab't problems like yours etc.
+
+The guide I wrote is meant for the original pure un-moded version of the game, like the one available in this link.
+"
+,Anir551,2008-08-17T23:43Z,"Also, I have tested everything on Win XP + SP2/SP3........dunno about Win Vista, though things should work there as well"
+,Anir551,2008-08-17T23:57Z,"Hi bobo1234,
+
+Same for you too, I hope you have downloaded
+the game from here only.
+
+No sound ? Can't see the game cutscenes ? Well I haven't tested things on Win Vista. However as a last resort, try this - 
+
+Go to the directory where u installed the game. Now, remember the DDfix files u copied into there ? Find & open ""ddfix.ini"" using notepad.
+
+You will find a line - 
+
+;Set to 1 to fix the duel core related crash
+MultiCoreFix=1
+
+Make sure its set to 1 & not 0
+
+Now the next line-
+
+;Set to 1 to automatically register lgvid.ax each time thief is started up
+VideoFix=0
+
+Change the value 0 to 1.
+
+There's also a line which goes as ""Turns on the 32 bit texture loader........"" Make sure the value for that is set to 1 (beside Thief2Extensions)
+
+Finally, when u scroll down to the end, there is a line-
+
+OverlayColourKey=0xf81f
+
+Make sure the value is ""0xf81f"" & not ""0x0000""
+Now save the changes & exit. See if the game works."
+,JDude151,2008-08-21T05:59Z,"Anir, I downloaded the one from this page."
+,Anir551,2008-08-22T13:54Z,"JDude151
+
+Hey, did u patch ""shock2.exe"" in ur game directory with DDfix ? If even that doesn't solve ur issues, then plase go through what I told bobo to do in the prvious comment.
+
+Please note that I have tested things on Win XP +SP2/SP3 only. i dunno if things will work with Win Vista. Hey, can guys using Win Vista share their experiences here ?
+
+btw, everything's working flawlessly on my Win XP+SP3 system."
+,teamsamson888,2008-08-27T20:43Z,thanks alot Anir551 il try that out..
+,djTeka,2008-09-12T06:04Z,"I don't know if anyone will see this, but I've got a problem as well.
+
+I'm running WinXP + SP3.
+I have to patch it to even get it to start, of course.
+The videos work just fine, but after the game loads after the ""New Game"" video...
+
+The whole screen goes black, appears to be changing resolutions, then freezes when the black screen comes back.
+It doesn't even get to the in-game graphics before messing up.
+
+I know it could be my BUILT-IN graphics card (don't laugh too hard, it runs Max Payne 2, Serious Sam, all the PC GTAs, if that's saying anything at all [on normal settings]), but since this is an older game, I think I might be able to run it.
+
+Anyone got any ideas?"
+,njd26,2008-09-15T04:34Z,"I looked it up, this game is incompatible with Vista. There seems to be some complicated way to make it compatible, but like I said, it's complicated."
+,xnx1,2008-10-19T11:11Z,"when I start the game it freezes and I get this note:
+""were sorry for the inconvenience, system shock 2 has encountered a problem"""
+,xnx1,2008-10-19T14:38Z,"I had to reinstal the game, but then the direct 3d problem occured. If that happens just find the ""cam.cfg"" file and open it in notepad then paste this to the bottom:  safe_texture_manager
+"
+,Zerotrousers,2008-10-25T01:26Z,"I mount the ISO, I get the installation menu, and I click install. It crashes.
+
+I've tried using the Extract and Play torrent, too. With that one I managed to kill one enemy before the game crashed. After that, the menu was all pink and ugly, and crashed whenever I went into a new area.
+
+I am using a Dual Core Intel Pentium 4 1.8 GHz, 2GB DDR2 RAM, and a nVidia 8500 GS.
+
+Can someone please halp?"
+,Anir551,2008-10-28T08:40Z,"Zerotrousers,
+
+Use my installation guide - http://myfreefilehosting.com/f/f57e53b68e_5.27MB"
+,freeze7,2008-10-28T19:30Z,"when i starting the game clicking new game,this game crashes in loading!!!
+what i gonna do?"
+,KLHLord,2008-12-02T04:38Z,"Alright. First of all, thanks for this torrent.
+
+Problem:
+The game plays fine until I choose a career and after playing that spaceship cut scene.
+The game loads about 80% of the way and then BAM-- it stops and I get:
+""ERROR: len of 80 exceeded by 82.
+ current\station.avi
+ C:\Documents and Settings\Owner\Local Settings\Temp\rar$ex06.8\""
+
+""rar$ex06.8"" said 04.8 last time and back then it also didn't work.
+
+A similar ""len of 80"" problem happens to others when the path is not set to C:\Games... Mine IS.
+
+I don't have a dual core; compatability is set to win2000; I used DDfix, 2.3 patch, and SHOCK2.exe; movies play fine; once again PATH is set to default!
+
+Why on earth can't I enjoy this game?
+I would GREATLY appreciate some feedback, but looking at the dates of replies, it might take a while."
+,OnlyFoolsDNLDCAMS,2008-12-02T15:45Z,"Don't even bother trying to get this to work on XP or Vista...Download the pre patched extract and play version.
+
+THIS UNPATCHED VERSION ONLY WORKS ON WINDOWS 98.
+"
+,plkuchcik,2008-12-05T16:47Z,yep
+,jafu,2008-12-21T11:43Z,"Game works 100% in my win XP
+first had some problems but got them solved quite fast
+
+1. install game full and follow instuctions what are in crack folder (readme)
+2. open the file cam.cfg from the shock2 install directory using notepad and add the line safe_texture_manager to the bottom
+
+now game should work perfectly =)
+
+if u still have some proplems please read this http://www.ttlg.com/forums/showthread.php?t=60930"
+,jafu,2008-12-21T11:47Z,"ou and i changed compatibility mode to windows nt from desk top icon
+right click -> compatibility -> compatibility mode and choose win nt "
+,MonkeyOnKeyboard,2009-01-10T06:16Z,When I Installed the game I got a Windows File Protection Error stating that windows file needed to run it were replaced by unrecognizable one. What just happened? 
+,Alpha Nox,2009-01-12T03:44Z,"For people having trouble playing this and those who want graphical mods check this website: http://www.strangebedfellows.de/index.php/topic,392.0.html"
+,poyson,2009-01-18T19:37Z,"I got the game to work rather easily on vista, I don't know what they're talking about.
+
+The only problem I ran into was it crashing at the loading screen, but this is because it gets all frightened and confused when presented with a dual core, so just go to your processes and set the affinity so it's only running on one of the CPU's. Should be fine.
+
+Other than that, I installed everything normally, replaced the .exe for the cracked one and everything was fine."
+,HPH,2009-03-03T17:53Z,"This worked flawlessly on XP 32bit, even unpatched. Don't let the computer illiterate fool you."
+,Chryseus8,2009-03-16T13:11Z,"Work great, thanks.
+I made a tutorial on installing it here: http://www.orangeswarm.com/forum-t568.html"
+,Tarball75,2009-03-19T20:20Z,Absolutely no problems on Vista 32 bit.  Thanks!
+,MikeDecipher,2009-04-04T13:07Z,"**[Please Help]: I'm not an illiterate when it comes to this stuff.**
+
+(I have Windows XP [Just in case that matters])
+
+-I went through the processes perfectly:
+
+-I used the ISO to install the game.
+
+-I installed the patch.
+
+-I replaced the original Exe with the crack.
+
+(all very simple and easy stuff...)
+
+But when I tried to use the NoCD patch, it doesn't work. It says that it failed.
+
+After that, I went along to the cam.cfg to add the line: ""safe_texture_manager"" (which, by the way, thanks to the person who posted that suggestion...)
+
+**************
+
+The game works perfectly. But I only downloaded it so me and my friend can play online co-op from our different locations... We both have this same problem with the NoCD patch, and when we try to join each other's servers, it says ""connection fail.""
+
+I went along to many different archives to download a different NoCD patches. I considered the notion that perhaps our lack of unique registry (or cracks) is preventing us from playing on each other's servers.
+
+I'm doing so much research and run around to troubleshoot this problem. Any help from this thread will be greatly appreciated."
+,josslynn,2009-04-16T00:40Z,"Downloaded in good time and got it working fine on WinXP Pro SP2.
+Just mount it using Daemon Tools (or whatever), do a full install, go into the CRACK folder in the mounted drive for SYSTEMSHOCK2, and follow the instructions in the README.nfo file (use Notepad to read it). Do NOT try to run the game in Win98 compatibility mode, it just caused more problems for me."
+,067875369,2009-04-17T04:43Z,keeps crashing on Windows XP service pack 3 when i try to install it
+,Ayantae,2009-04-18T14:09Z,"I'm sure I'm missing something really obvious here. Mounting the ISO doesn't work on my crappy VISTA system, so I burn to CD and install. This installation works perfectly, but then of course it won't play: same old error as anyone else. I'd love to fix it with the crack, but I can't actually find it as this torrent only has one file which is an ISO, and no crack is in the install directory. All of the great directions people have given here aren't much good if a nubcake like me can't find the right files! ^_^'"
+,josslynn,2009-04-22T08:12Z,"Ayantae:
+try mounting using Daemon Tools, since Power ISO didn't work for me. the CRACK folder appears in the virtual drive. if that still doesn't work, you can even use WinRAR or I believe WinZip to extract the CRACK folder from the .iso file just like you would for a .zip or .rar file."
+,Deesotilio,2009-05-08T17:28Z,"Holy fucking hell, I never thought I'd say this, but System Shock 2 is confirmed working, problem-free, on Windows Vista. It took me a bit of tweaking, but it runs like a dream now :P"
+,S53,2009-05-16T06:02Z,"Problem running it on dual core? When the game starts, ctrl+alt+del to Task Manager. Right click on process running game, and select ""set affinity"". Set it to 1. A lot of older games don't how to work with Dual Core Processors."
+,Braver,2009-05-26T01:08Z,"For Vista users, here are some more clearer instructions for those having trouble getting this to work:
+
+1. Mount the .iso file with Daemon Tools
+2. Full install
+3. Open the .iso with PowerISO
+4. Run the 2.3 patch
+5. Copy the SHOCK2.exe file in the .iso to wherever you installed the game (replacing the installation SHOCK2.exe)
+6. Copy the 2.03 NoCD patch and run it (this personally didn't work for me, but I don't know if it had any effect. Run it anyways however).
+7. Start playing it, if it doesn't work, switch the compatability mode of the shortcut or SHOCK2.exe file to Windows XP
+
+Hope that clears up and problems and questions.
+"
+,chizum11,2009-06-20T01:04Z,"I get this when I try to install the game with daemon tools:
+
+""This product cannot be installed on Windows NT due to a Microsoft DirectX 6.1 limitation.""
+
+I'm on vista. No ideas. Also, I don't see an ISO anywhere in the extracted RAR, daemon  tools just happens to mount something when I click on the RAR itself."
+,tikkig0d,2009-07-02T02:29Z,"do what jafa said..works fine on xp, 
+>>>>>>>>>>>>>>>>>>>>>Game works 100% in my win XP
+first had some problems but got them solved quite fast
+
+1. install game full and follow instuctions what are in crack folder (readme)
+2. open the file cam.cfg from the shock2 install directory using notepad and add the line safe_texture_manager to the bottom
+
+now game should work perfectly =)
+
+if u still have some proplems please read this http://www.ttlg.com/forums/showthread.php?t=60930>>>>>>>>>>> if the nocd write protection thing doesnt work try it anyway.. i got it 2 work no probs and also d/l the coop patch"
+,tikkig0d,2009-07-02T02:30Z,and chizum u shouldnt have a rar at all it should be an iso file u d/l lol
+,Polarbulf,2009-07-21T01:42Z,"""I installed the game Full
+Applied the patch in the iso
+changed the SHOCK2.exe
+but when I try to apply the NO-CD exe it says CRC-check failed (and the game crashes as soon as I try to run the shock2 exe)
+ideas anyone? ""
+
+I'm getting this same issue.  I read through the comments and didn't see any solution to it though.  Running XP SP3."
+,Stu85,2009-10-13T03:37Z,"Hey Polarbulf, I'm having the same problem. :( When I try to install the NoCD patch it tells me CRC check has failed!"
+,SNES_VS_PS1,2010-01-06T22:19Z,i installed the game & after the training courses the game crashes-it always does this:(
+,Webberjo,2010-10-11T04:58Z,"Installing is so easy, you don't even have to mount the ISO.
+
+1. Download the SS2 torrent.
+2. Extract all the files to a new folder on your desktop.
+3. Go into the folder when it's done and run ""panel.exe"".
+4. Install the game to wherever you like. (I prefer C:\Program Files\System Shock 2)
+5. Download this simple patcher. http://www.systemshock.org/index.php?action=dlattach;topic=392.0;attach=3560
+6. Run it, and check Patching up and Bug Fixes. If you have a widescreen monitor, check DDfix + WideScreen Mod too.
+7. Click Next, then Install, and wait for it to finish.
+8. When it asks where to install the Start menu directory, simple erase ""\Games"" from the line and continue. You're now done and free to play!
+
+If you have a widescreen monitor and checked the widescreen box, it will  launch a command prompt asking you to input its dimensions. If you did not, ignore this.
+9. Say no you don't want to read the readme, input the horizontal (left right) length of your monitor, the vertical (up down) height of your monitor, and for field of view put in 100. Say yes to all that and you're now done and free to play!
+
+Hope that helps at least some people."
+,Webberjo,2010-10-11T05:02Z,"Oh, and you can delete the folder and the patcher once you're done."
+,bboycircus,2010-11-03T23:20Z,"Okay whenever I run panel.exe I click on install but it doesn't run anything
+Any suggestions?"
+,Puma__84,2010-11-05T05:03Z,I love this game : ) Is a classic ; D
+,Puma__84,2010-11-05T06:20Z,"when to instal the game as it comes up a window that says you must have Windows NT due too the microsoft direct x6 I have windows 7 home premium 64-bit. Can anyone help me? Say what you can do to make it work, PLEASE?"
+,Steba93,2010-11-08T22:12Z,"Okay, could someone help me. I have downloaded all the patches I need but still I can't get this to work. The tutorial actually goes really well without problems but when I can enlist at marine, navy etc. then it freezes, everytime. I don't even have dual core processor because I have heard that this doesn't run on dual core. Cutscenes are also not showing"
+,danii555,2010-12-21T17:44Z,"Ok, here is a guide on how to get it to work on Win7.. Probably works on vista too.
+
+1. Download and install. If you can't install, copy the files in the ""SHOCK"" folder to C:\Sshock2\
+
+2. Install SS2Tool v3.4 (It's a autopatcher, buggfixer and tweaks the game so that it gets better) from http://www.systemshock.org/index.php?topic=392. Choose the options you want, if you don't have a widescreen screen, uncheck the widescreen mod.
+
+3. Now you are ready to play. But if you want better graphics, follow the following steps.
+
+4.Go to http://www.shtupmod.net/files.html and download SHTUP BETA 6.
+
+5. Copy-Paste all the files to your root SS2 folder (C:\Sshock2\).
+
+You are good to go now. If it doesn't start/crashes on startup, run in compatibility mode for Win XP Service pack 3.
+
+Enjoy!"
+,danii555,2010-12-21T17:52Z,"Also! If you have a multi-core processor you got to start the task manager, go to SS2:s process, then click processor affinity and uncheck all but one.
+
+And if you can change the resolution in the CAM.cfg
+And if the cutscenes don't work add ""safe_texture_manager"" in the CAM.cfg
+Btw, if you are wondering about multiplayer, go here: http://plebmedia.co.nz/shock/Multiplayer"
+,xdi3hardx,2011-01-07T01:20Z,"ANYONE HAVING DIRECT X 6.1 BLAH BLAH BLAH ISSUE?
+
+Run the Panel .exe in WIN 98 COMPATABILITY MODE"
+,xdi3hardx,2011-01-07T01:27Z,"After everything, It crashes when starting a new game on windows 7 "
+,muffinman21,2011-01-18T00:40Z,i got windows 7 ultimate 64 bit....dl and tryed everything...mouting it...installing it...burning to cd...patching even downloaded the tool thats the auto patcher....no matter what cant get the game to work...tryed compatibility mode as well and nothing!
+,calhix,2011-01-23T19:49Z,"ive downloaded this game a while ago and let me thank groovyjaxx for a great upload. this is one of the best games ive ever played so far, prob the best. i was just wondering if anyone else is having trouble with sounds playing? my guns will make a sound when i shoot but glass, doors opening and when i use my wrench on a guy it makes the swish sound but no hitting noise."
+,ccrocker58,2011-01-24T06:17Z,"Downloaded and patched up; works great on Vista Home Premium...but I have a somewhat unconventional question, does anyone know how I could get this to work on Win 9x/ME/2000, if it's possible? Just wondering since I inherited an old desktop recently and would kinda like to put all my older games on it if possible."
+,ccrocker58,2011-01-24T08:34Z,Ignore that last part about 9x/ME/2k; I couldn't get it to work with 98 or 2k for some reason...incredibly it worked perfectly for ME...actually runs smoother on that system than my Vista PC.
+,Alsius,2011-02-20T03:25Z,"So, um, yeah. Maybe it's because I'm on 7, but when I try to install, (open panel, hit install) it doesn't actually do anything. Like, nothing opens after panel.exe closes. Am I doing something wrong? I've done this so many times before, so I'm kind of baffled it's not working.
+If it matters, I've also made it go on Run as Windows 98. Still no dice."
+,Damurus,2011-02-23T19:37Z,I can start it but when i am going to start a new game everything just goes black. i can hear sounds  but no visuals
+,-twisted-,2011-02-26T19:56Z,"Thanks, I had small problems running it on Win7 but comments had been helpful.
+
+It's running perfectly now :)"
+,Kolya_,2011-03-09T18:36Z,"To learn how to get the game running, mod it, etc:
+See the SS2 Technical FAQ: http://www.systemshock.org/index.php?topic=106.0"
+,LemonFury,2011-03-17T21:08Z,Well i got it working quite easily but i can't drag stuff around in the inventory... Anyone have a fix for this?
+,LemonFury,2011-03-18T09:29Z,Okay SS2 Mod Manager fixes the problem goto tools and fix the use mode keybind file.
+,CPT_Waffle,2011-04-30T23:14Z,"Okay so everything worked fine, the download and patcher worked great (except the mod part, I didn't check that because I don't like to mod my games), but when I try to start a new game, I select the difficulty, click start, and the program crashes.
+
+I get this when I click more info on the crash screen:
+
+  Problem Event Name:	APPCRASH
+  Application Name:	shock2.exe
+  Application Version:	1.0.0.0
+  Application Timestamp:	37d87290
+  Fault Module Name:	shock2.exe
+  Fault Module Version:	1.0.0.0
+  Fault Module Timestamp:	37d87290
+  Exception Code:	c0000005
+  Exception Offset:	0000973b
+  OS Version:	6.0.6002.2.2.0.768.3
+  Locale ID:	4105
+  Additional Information 1:	69c6
+  Additional Information 2:	034a2436dee3ec257e931c51e0c1fe7f
+  Additional Information 3:	d0a4
+  Additional Information 4:	eaef3bb2ad4cb57a9bb5ec4f46de28eb
+
+
+So does anyone know what I need to do?"
+,Gyrolin,2011-05-14T07:55Z,Ran fine in Win2000 Compatibility Mode
+,BUGBUSTERs,2011-06-03T01:29Z,oh waw is this game really that awesome?
+,mr_peruna,2011-06-12T23:02Z,"I mounted the disc and the install/readme menu showed up. But every time i press install, it downloads the install menu up to 99% and then crashes without saying anything. Any help guys please?"
+,Bodhar,2011-06-16T09:53Z,"I mounted the disc and then clicked install, then the window closes and nothing happens. =\"
+,Alenthas,2011-06-21T17:42Z,"I installed the full game in ""H:\Program Files\System Shock 2"" folder. Patched it. Then I tried to run the nocd program but it said incorrect file size. So instead I cracked the game, it runs up but then it crashes imidiately. So changed hardware 1 to 0 and game didnt even start after then. Some little window would pop up for a second called ""2.03 nocd"" or something like that and just goes away instantly. I tried almost anything I can find on the internet. Help you guys."
+,zasadar,2011-06-28T13:04Z,"you could try ss2 mod to install all the fixes for windows 7 here
+
+http://www.ttlg.com/forums/showthread.php?t=128197
+
+
+OR you could try the open source engine here
+
+http://sourceforge.net/projects/opde/files/opde/opde-0.2.9/"
+,yobobly,2011-07-07T08:34Z,My game crashes every time I shoot a gun.
+,joshboy42,2011-08-22T11:26Z,"Nice, worked fine for me. If anyone is having trouble getting the game to run here is a great guide.
+
+http://www.systemshock.org/index.php?topic=106.0"
+,wiserat4,2011-08-25T19:05Z,"if you exprience game crashing or the screen freezes when loading try this:
+1. go to Start in Windows XP
+2. Run ""msconfig""
+3.click tab Boot.ini
+4.click advance option
+5.switch number of processors to (NUMPROC) to ""1."" 
+6. Restart computer
+
+I find that older games in the mid- and late 90's such as Grim Fandango, Thief, and System Shock can't function with a dual-processing computer. Hope this helps."
+,Kingdom272,2011-09-12T01:23Z,"Can some one help me? Iv burnt it to disc, but when I go to install it the loader to start to 99-100%, then an error comes up saying something about my Direct X not being able to run it do to its limitations."
+,ramiere,2011-10-07T05:10Z,I can't install this game! I downloaded it and mounted it on both PowerISO and Daemon Tools and when it comes to installing it I get an error saying it detected Windows NT... but i'm using a Windows7!
+,wiserat4,2011-10-24T22:17Z,Semptimilius is a genius. Love you MAN! 
+,ramiere,2011-11-01T01:21Z,"If there's any problems, just visit http://www.systemshock.org/index.php?board=15.0 and download the SS2Tool to configure and update the game, there's also other neat mods you can download and a FAQ if you're having any trouble. I don't think you have to mount this game at all, just open the game and that's it."
+,WhateverHardstyle,2011-12-22T20:58Z,"Really disappointing torrent, following the instructions it turned out the no-cd patch was useless since the crack covers it, and the game crashes due to a problem with this file - lgvid.ax... So overall - couldn't play it."
+,jmm1233,2012-01-12T03:12Z,"use the sstools 3 for nocd as well as fixes for modern graphics with ddfix http://www.systemshock.org/index.php?topic=392.0 
+thanks for the share "
+,Gladosayx,2012-01-23T09:12Z,"Hi guys, I had the freeze after intro movie bug, and here is how I fixed it (its stupid simple):
+
+Right click your shortcut or the game exe, set compatibility mode to Windows XP SP2.
+First I couldnt even start the game, then I set it too Windows 95, then I got the freeze after intro, so I set it too windows 2000, then I got in the game and immediatly froze, so I set it to xp sp2 and now it works. If it fails for you keep playing around with different compatibilities!"
+,Psyki113r,2012-03-11T11:57Z,"I don't know how worthwhile it is asking, but could anybody help me out? I've tried running both setup.exe and panel.exe, with all possible compatibility options, all to no avail. The panel opens, but clicking install just makes the panel close after a few moments, and when I try to launch setup.exe directly, it'd doesn't even appear as a system process. It just never opens, and I can't figure out why. Any ideas?"
+,crpger,2012-03-19T19:54Z,"Don't install using the setup included with the ISO. Instead copy the shock folder from the ISO root directory into C:/games/sshock2 and then download and run SS2tool.
+http://www.systemshock.org/index.php?topic=392.0"
+,ext23,2012-04-02T12:48Z,"i'm on windows 7. to get this running, just mount the image, copy the 'SHOCK' folder to wherever you want on your hard drive. then run the SS2tool (linked in other comments). 
+
+for me, i had to rename LGVID.AX to LGVID.AX.BAK, disable desktop composition in the compatibility tab, and run as administrator. now it works perfectly! don't even need the ISO anymore. 
+
+good luck everyone!"
+,ext23,2012-04-02T17:47Z,"actually, i noticed my cutscenes weren't playing properly...if you are on win7 and your cutscenes aren't playing or the game crashes when there's supposed to be a cutscene, read this thread http://www.systemshock.org/index.php?topic=3430.0 and reinstall your game, but this time patch it with SS2tool version 3.1 instead of the latest version (link is in that thread). after that, my game was still crashing, but worked when i changed compatibility to win XP sp2."
+,sebastian69,2012-07-22T20:35Z,"when i try to install it says: the product cannot be installed on windows NT due to directx 6.1 limit
+
+HELP"
+,Saicotico,2012-08-03T01:03Z,Works beautifully. Thanks for the upload groovyjaxx!

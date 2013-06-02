@@ -1,0 +1,60 @@
+﻿User Type,Username,Date,Text
+,Shiva,2006-11-04T07:39Z,"Thanks, great movie."
+,Mr_NOrway2,2006-12-02T16:01Z,"Hvordan spiller man denne filem?
+Må man ha en spesiell avspiller, eller må man brenne den før man kan se den?
+Må jeg pakke den ut, eller bygge den sammen på noen måte?
+
+How do you get to see thils film?
+Do you need to burn it to an cd before you get to see the film?
+Do I have to zip, or build it in any way?"
+,JohnyFiama,2006-12-16T04:02Z,"@Mr_NOrway2
+
+Here is my late response to your questions: 
+
+1) You may use VideoLAN (a free media player with built-in codecs) in order to preview the movie prior to burning it on a DVD-R. It plays numerious video/audio formats, which it does very efficiently.
+
+2) No, you could be watching it on your PC as well under the condition that you have it running as an image on a virtual DVD drive. This can be easily achieved by using ""DVD Shrink"" (freeware) to open up the files and then choose it to create an image file of those files. Next step is to create a virtual DVD drive and mount the image file to the virtual DVD drive, without having an actual disc inside your real DVD drive. On that note, I would recommend either ""Alcohol 120%"" (shareware) or ""Deamon Tools"" (freeware). 
+
+3) No, you can easily burn it with your burning application of choice, as the movie is most likely not write-protected anymore (usually the protection is defeated by the same person who uploads the torrent). The DVD files already have a proper structure. All you have to do is to specify the ""Video_TS"" folder as your source and let the burning application take care of the rest for you.
+
+Good luck!"
+,Cor86,2006-12-17T04:03Z,"JohnyFiama, I was just wondering if you could answer a quick question for me as well.
+
+In the past when I've gone to burn a DVD that involved .iso files I haven't been able to get an audio file, so when I go to burn the DVD I have video but no audio.
+
+Any help would be appreciated, Thanks."
+,JohnyFiama,2006-12-18T01:52Z,"@Cor86
+
+Hey. Unfortunately, that has never occured to me. But I guess the ISO file you were burning either lacked a proper DVD structure (it must contain two folders: Video_TS and Audio_TS) or otherwise would be digitally corrupt/damaged whatever the reason might be. Or maybe something went wrong when you burnt it. It may even be your sound settings. I can explain these in greater detail below: 
+
+>> MY THEORY >>
+The important thing when burning ISO files (or any image file for that matter), as far as DVDs are concerned, is that they must have a proper DVD structure within themselves. That is, there must be two folders included within the image file: Video_TS and Audio_TS (this one may be empty but at least it should be there). If the Audio_TS folder is missing, I would assume that you won't hear any sound. But, at the same time I'm not even sure if the DVD will be playable at all. However, since this has never occured to me, I cannot prove anything. Either way, I would recommend that you check the ISO file with ""DVD Shrink"" (or any similar software of your choice) and see if it is accessable. If it is, then it means that the image isn't damaged or corrupt. I don't think that your problem has anything to do with copy-protection. But, if that happens to be the case, ""Slysoft AnyDVD"" (shareware) should take care of the issue since it is able to break the latest encryption algorythms like ARccOS, PuppetLock, etc. Also, you might check your sound settings on your DVD/TV. 
+
+>> PERSONAL STRATEGIES >>
+1) One strategy that always has worked for me when it comes to ISOs is that you: a) open up the image file with ""DVD Shrink"" to see whether it works, b) burn it with ""Alcohol 120%"" (shareware). You may use other burning applications as well, but I highly recommend ""Alcohol 120%"".
+
+2) If you were dealing with non-image files, I would do this: a) open the files inside the Video_TS folder with ""DVD Shrink"", b) create an image file (by the same program) It will automatically create the DVD structure. c) Finally, burn it with ""Alcohol 120%"". You could as well do all the three steps with ""DVD Shrink"" since it integrates itself with Nero. But since I don't like the bloated Nero, I rather burn it with ""Alcohol 120%""."
+,Cor86,2006-12-18T03:35Z,"Thanks JohnyFiama.
+
+I would extract all the 90+ files fine and it would come out as a .img file. It would have video but no audio. So I think my problem was not using a program like DVD Shrink. Because other people didn't seem to have a problem with it.
+
+Thanks for your help and I'll be downloading ""DVD Shrink"" and ""Alcohol 120%""."
+,JohnyFiama,2006-12-18T18:14Z,"@Cor86
+
+You're welcome! :)
+
+Sorry, I forgot to mention one fundamental thing as far as testing whether the image works. That is to have the image running on a virtual DVD drive by using softwares like ""Alcohol 120%"" or ""Deamon Tools"". Both of those are excellent when it comes to mounting/creating virtual drives. The only major difference between them is that the latter has no burning support. The reason why I'm saying this is that it has happened to me that I once downloaded a DVD image, which didn't open up properly in ""DVD Shrink"" for some strange reason, but when I tested it on a virtual drive, it was working great, which apparently turned out to be true when I finally tested it on my DVD player. Even so, ""DVD Shrink"" is well-worth a try because it is very powerful and yet very compact. But, since it is no more being developed, it has fallen short to the latest copy-protection algorythms, although it does a great job in ripping/compressing/modifying a DVD. FYI, if you want to create a backup of a DVD you were renting, I would use ""AnyDVD"" by Slysoft to decrypt the DVD, then rip/compress it with ""DVD Shrink"" and finally burn it with ""Alcohol 120%"" (it supports numerious image files and is able to decrypt some write-protected discs - extremely powerful). Very reliable and efficient. Sorry, I could write a whole book on this. But, you're more than welcome to hit me back if you have any further questions on this matter. I can easily be reached at JohnyFiama [AT] hotmail [DOT] com. Wish you good luck!"
+,Cor86,2006-12-19T02:23Z,"Thanks for the info JohnyFiama.
+
+I'm not new at downloading movies, but I am new at working with .img, .iso, etc. related to DVD files. I've downloaded axxo's torrents for a while. They're decent quality for the file size, but I have a surround sound system and want to start using it when it comes to torrent movies.
+
+Also, I'm still downloading at a slow rate, only averaging around 7 KB/s. On the weekend it was very slow only going at about 3 KB/s, but has been a little faster today. I know there's only 3 seeders, but just incase not all are seeding anymore, could you start up again and help a poor man out?  Thanks. :)"
+,JohnyFiama,2006-12-19T11:31Z,"@Cor86: No problem. I get you! I'm also relatively new when it comes to image files related to DVDs, so I'm defenitely not an expert on it. Of course it isn't easy the first time you're dealing with such stuff, like anything else. But, from my own experience, after reading a couple of tutorials (like those on http://www.videohelp.com/ , http://club.cdfreaks.com/ , http://www.afterdawn.com/ and http://www.digital-digest.com/), written by experienced users, things got so much easier. That's, by the way, how I started. 
+
+Unfortunately, I havn't downloaded any materials from aXXo, but thanks for you tip. :) I can look into it as soon as my ""Bad Taste"" torrent (http://thepiratebay.org/details.php?id=3301196) is fully downloaded. Sure, I would like to help you out with the seeding (if I have the same torrent as you, of course!). After all, that's what torrent file sharing is all about. What a horrible experience to download at such poor speeds! Sounds very painful. :S Well, hope it works out for you. Would be great to get to play a DVD on a true surround system. Anyways, if you need me just let me know! :)"
+,Cor86,2006-12-20T03:27Z,"Haha, thanks for the support JohnyFiama. Still going slow for most of the day again, only @ 9.0% right now, but there's 7 seeders instead of 3 now so it's starting to pick up. Thanks to those who have been seeding. :)
+
+Thanks for the sites. I'll give them a read through."
+,Cor86,2006-12-29T01:57Z,"When I have the audio on English I don't get any of the verbal dialogue, just background noise.
+
+Anyone know how to fix this? Thanks."

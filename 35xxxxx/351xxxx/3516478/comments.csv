@@ -1,0 +1,107 @@
+﻿User Type,Username,Date,Text
+,redarrows,2006-09-05T04:26Z,Cheers for this m8 PS: NO VIRUS IN THIS 
+,Rooboo,2006-09-08T20:59Z,"Om man en gång har laddat ner från www.fraps.com 
+
+Kan man inte då änvända sig av en regad ?"
+,dirtygirl,2006-09-10T07:23Z,"Jag har laddat ner, installerat men jag kan inte öppna det?. Vad är felet? det blinkar till när jag trycker sen händer inget:("
+,woicer,2006-09-11T21:11Z,"HJÄLP! Jag gjorde misstaget att installera en demo-version innan, och nu kan jag inte starta den här. Hur kan jag göra? Jag hittar ingen lösning!"
+,MamboX,2006-09-17T13:01Z,"tack för denna, funkar kanon!"
+,Swedishbanshee,2006-09-23T16:05Z,"Hello, to solve problem with this getting locked if you had Demo version installed. Just simply open Regeditor. (Click on start then Run then write regedit). In regeditor you press Ctrl+F and Write Fraps and press search, then delete the file you get marked then press F3 and delete and repeat until done."
+,Tonze92,2006-09-23T19:20Z,"thanks swedishbanshee, working now 100% :o"
+,woicer,2006-09-25T15:02Z,"Don't work for me. I have uninstall the trial-version, delete all fraps-things in the regediator, but i cant run the real-version....
+whats the problem?"
+,Jaaaag,2006-09-26T14:45Z,"same here?! not working even when i have done all the tings in regedit.
+Skulle gärna ha en förklaring/lösning på svenska."
+,xxxLesy,2006-10-07T11:31Z,"SOLUTION!!!!
+
+For all of you that had the discomfort of Fraps not running because you installed the demo first, here is the solution. It's a long and complicated process but it works ;)
+
+1. Download Regmon (its a free registry monitor) - http://www.sysinternals.com/Utilities/Regmon.html
+2. Extract and run it
+3. Run Fraps, click back on Regmon window and wait untill the sandclock on your cursor disappears then quickly press Ctrl+E to stop new entries being added to Regmon.
+4. Now use search (Ctrl+F) and look for ""HKCR\CLSID"".
+5. You will find a line like this ""HKCR\CLSID\{7D028A55-8EDE-2854-1EFE-4D6FAC5A7AB8}"" (note: the numbers will not be the same on your computer)
+6. Select it and press Ctrl+J to jump to regedit.
+7. Delete this folder (to be safe also run a search for those numbers in Regedit)
+8. Now go back to Regmon and search for ""HKLM\Software\Licenses"".
+9. Like before, select the entry and press Ctrl+J to find it in Regedit and delete all entries in the Licenses folder (you wont be able to delete ""(default)"" but thats ok).
+10. Now everytime you wish to start Fraps you will have to open Regmon first or it wont work! (If you forget to do this you will have to go to Regedit (Start\Run\Regedit), then HKEY_LOCAL_MACHINE\SOFTWARE\Licenses and delete the content of that folder again)
+
+The only other way to make it work is to format your c:\ and make a clean install without the demo.
+
+Enjoy ;)"
+,themegaloser1,2006-10-07T13:30Z,"To get it work if you had the demo version earlier. 
+
+Delete the following keys in HKLM\Software\Licenses
+
+{07F9ECD69182A4E6B}
+{K7C0DB872A3F777C0}
+{I7F9ECD69182A4E6B}
+
+You can use regedit for example to do this "
+,Hedonist83,2006-10-08T17:27Z,"WHat the hell, why isnt this working, i installed the file i press the exe. file and nothing happens, what is the problem?? please help"
+,woicer,2006-10-09T07:40Z,"Thank you, that works xxxLary.
+But do you know a thing so i dont need to start regething everytime..?"
+,Hmmkk,2006-10-09T16:33Z,themegaloser1 has the solution!=) Thnx! It worked fine!
+,Steven288474783,2006-10-14T13:34Z,hey i can´t load it down. do i need a program for this or how to download it
+,<JesC>,2006-10-15T15:26Z,"Why doesnt it work, I have the sameproblem as Hedonist83. HeLP!"
+,<JesC>,2006-10-15T15:28Z,And btw i had trial version but i uninstalled it about 1.5 year ago. Does it matter?
+,Steven288474783,2006-10-15T15:42Z,can you pls say me how i can load it down i only can load the torrent but wenn i open it there´s nothing i can use
+,Eara,2006-10-15T18:42Z,Hur öppnar jag torrenter? Eller filen .torrent?
+,Steven288474783,2006-10-15T22:16Z,i don´t understand that
+,Steven288474783,2006-10-17T20:53Z,plz say me how to download an use this think plz
+,Sebasabi,2006-11-11T23:30Z,"I deleted these regs:
+
+{07F9ECD69182A4E6B} 
+
+{K7C0DB872A3F777C0} 
+
+{I7F9ECD69182A4E6B} 
+
+And it still doesn't work"
+,allemann,2006-11-17T21:52Z,"To open a torrent, u have to download a Torrent program... i like µTorrent and BitTorrent the most...
+using those, u add the .torrent file u downloaded, and let it download.
+a good thing is to read the comments and describtion (spelling?), because it can be hard to know what to do after downloading..."
+,Apollan,2006-12-20T11:44Z,"xxxLesy,
+
+Thanks much, got it working for me.
+Going to make some WoW PvP vids now :P"
+,unborn,2007-01-11T04:55Z,"worked nice for me :)
+
+bf2, ship simulator, x3, rainbow six lv and flightsim videos on the way :)"
+,cr3ative89,2007-01-12T22:22Z,xxxleasy guide works
+,Quackster,2007-02-15T13:36Z,Jag löste problemet med att jag hade installerat demon innan och inte kunde köra denna versionen så körde jag helt enkelt en systemåterställning till dagen innan. Funkar fint =)
+,setherbater,2007-03-08T07:39Z,Wow on regmon why after i opened one it says you already have on open no matter what i do 
+,kryptonian11,2007-03-22T19:29Z,[>>>]
+,Jockersswe,2007-03-25T21:18Z,tack Quackster samma problem för mig ;)
+,Augustus21,2007-06-18T19:42Z,My avast scanner detected this as a virus
+,Augustus21,2007-06-22T16:16Z,Well as soon as I opened the file my pc slow to slideshow speed till it was removed
+,niyo331,2007-07-28T13:24Z,This torrent works! You can not have the demo installed or it won't work! 
+,kalimar,2007-08-02T23:58Z,hmmm does this one work in Vista??
+,Force_93,2007-08-15T20:44Z,"För mig, Virus"
+,wirthith,2007-08-16T21:15Z,"Cheers m8! ....... You gave me a fucking trojan virus! lucky a removed it succsessfully, you fucking jerk,   DONT DOWNLOAD; TROJAN VIRUS!"
+,kefepofabe,2007-08-21T17:22Z,"Sign of ""Win32:VB-DAP [Wrm]"" has been found in ""F:\Downloads\Fraps.v2.7.4.Full.Reg.exe"" file.  "
+,Andeerssson,2007-08-25T15:06Z,plz seed :D:D
+,paider,2007-09-04T19:59Z,awsom :P
+,ild_ild,2007-09-04T21:01Z,"Its A Virus Searched it with http://www.virustotal.com/
+
+Its a backdoor"
+,Hei_på-deg,2007-09-06T22:44Z,AVG found a virus in the .exe file.
+,Givijoarna,2007-09-09T23:23Z,"This works, great,, there is no virus here,, just download,,,,, now iam going to record on BIOSHOCK :D"
+,Raceai,2007-09-11T16:28Z,Watch it ppls! My Virusprot. detected a trojan horse.
+,exterill,2007-09-18T22:15Z,Virus backdoor... hmm.. too kreepy for me to try...
+,TheFlyingWallaby,2007-10-27T01:19Z,Nice virus dipshit
+,kristjanpold,2007-11-08T15:00Z,seedseedseed   :-)
+,snooptwo,2007-12-07T16:19Z,didnt work  thanks
+,Sajhe,2008-01-10T00:28Z,THIS IS A VIRUS. DO NOT DOWNLOAD!
+,Boroko,2008-01-31T09:19Z,Almost every one of the fraps sems to have virus (T_T)
+,AlctraZzzzz,2008-05-01T16:21Z,"DO NOT DOWNLOAD, IT IS A VIRUS.
+THIS IS A VIRUS!!!!"
+,Galbatrorix,2008-12-21T23:55Z,Trojan! Don't download!
+,nikvo01,2009-01-25T11:47Z,Lol this is Virus Free! So dont shit and say its virus cuz its not!
+,Theo95,2009-03-21T18:06Z,download mine. its without virus. i promise you.
+,Ancient-X,2009-03-23T18:05Z,"THIS HAS A TROJAN INSIDE !
+Scanned with NOD32 database version 3954, detected a Variant of Win32 Trojan etc.... 
+Trojan will be detected upon installation."
+,xT1lVlx,2011-03-15T22:39Z,"I don't care about a ""virus"", but does the program actually work?"
+,navigatoras96,2011-05-27T15:27Z,@ xT1LVLx: are you idiot? dont care about virus? this is my first time of my life that i heard this!

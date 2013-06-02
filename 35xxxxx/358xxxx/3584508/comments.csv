@@ -1,0 +1,50 @@
+﻿User Type,Username,Date,Text
+,sidewinder310,2006-12-31T10:32Z,"What do you extract the archive with?
+Winrar doesn't recognise this format."
+,Schlimmy,2007-01-02T21:36Z,But how to extract? There are 22 setup files. Thx for advising!
+,Schlimmy,2007-01-04T23:27Z,"I did. Then what?
+I might still sound ignorant but I'm working on it.
+Thanks again!"
+,yxzie,2007-01-05T01:55Z,"WinRar of ""old"" versions accepts a sequence of files named as;
+*.rar, *.r01, *.r02, *.r03 and so on - up to *.r99
+
+This is also true for the newer WinRar versions, but they also have a more relaxed style available - which apparantly has been used here.
+
+Rename the files as indicated above and you will probably have it work.
+
+The cygwin/Linux bash shell command sequence to do this is:
+
+for (( i=2; i"
+,yxzie,2007-01-05T01:56Z,"Ouch, TPB is parsing HTML where one shouldn't be. SLOPPY!"
+,yxzie,2007-01-05T01:57Z,"One more try:
+
+The cygwin/Linux bash shell command sequence to do this is:
+
+ for (( i=2; "
+,yxzie,2007-01-05T01:58Z,"Nope, doesn't work: Here then
+
+The cygwin/Linux bash shell command sequence to do this is:
+
+ for (( i=2; i LESSTHAN 23 ;i++ )) ;do f=""000$i""; f=""${f: -3}"" ; t=""00$(( i - 2 ))""; t=""r${t: -2}"";mv setup.$f setup.$t ;done ; mv setup.001 setup.rar
+"
+,Schlimmy,2007-01-07T20:09Z,"Thx benny_hill., it worked. And thx, yxzie for trying to help, even that went beyond my horizon."
+,timpirate,2007-01-18T01:45Z,"Can't rename these files. I try to give it the r00 and r01 and such but an error msg comes up that says, ""Cannot rename Setup: It is being used by another person or program. Close any programs that might be using this program and try again.""
+
+Help, please?"
+,Mr.Nomore,2007-01-18T15:25Z,"Right mouse button 001 > open with > choose winrar
+Choose destination, ready"
+,maticony,2007-01-19T12:26Z,"Can any of you get the ""Create Bootable Rescue Media"" function to work ? 
+
+Nothing happens when i click on it. Any ideas ?"
+,Truvbay,2007-01-24T01:38Z,"Even easier way: JUST rename setup.001 to setup.r00 .
+ Extract that file. When it wants you to find the next file in the series, point it to setup.002 .
+WinRAR is then smart enough to do the rest, which is great, but shame on the uploader for making it so difficult."
+,ddialogue,2007-01-31T13:42Z,"After renaming the files to the proper WinRar format, this torrent works like a champ.
+
+T H A N K S ! !"
+,felix222,2007-03-13T08:51Z,"Dear  Garya807
+Sorry but I have to say, You are an asshole, 
+for making this with rar  files. 
+"
+,dvdfan,2007-05-02T10:01Z,i got the trial  key maker is it working  with the trial and where i put the code
+,VampireSwizzy,2009-03-26T23:22Z,will you please seed it? there is a seed which don't seed anything! i'm connected but get nothing... open your damn ports!!

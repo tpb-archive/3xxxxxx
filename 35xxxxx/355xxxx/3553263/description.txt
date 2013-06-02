@@ -1,0 +1,27 @@
+------------------------------------------------------
+Xtreme firmware 4.2A and 4.2B Update for TS-H943 Xbox 360
+------------------------------------------------------
+
+FirmGuard, Dual Speed, Media Stealth, One Firmware, Xbox 360 backup and extraction firmware modification!
+
+
+Features
+-----------------
+
+(v4.2)  Updated firmware and Make files for Error 66 swapped drives/motherboards from Hitachi XBox 360 and for MS25 consoles manufactured around/after end of May/start of June 2006. There is no change for drives already running Xtreme 4.2x
+
+(v4.2)  Security Sector read improved. Should help with Open Tray/Rubberband error.
+
+(v4.1)  Improved FirmGuard.
+
+....
+
+Technical details
+------------------------
+
+Fall update 2006 included DVD Drive version lockdown on consoles manufactured around end of May/start of June 2006. These consoles are now locked to the version of DVD drive that came with the console. If the DVD drive is different than original drive, Error 66 will be displayed. The response of the Atapi Inquiry command is compared to the stored original drive response to achieve this. (Thanx to DeViLs360 for initial find. :) Consoles manufactured before end of May 2006 do not perform this comparison. Only MS25 drives affected by Error 66 with Xtreme 4.x should use the Make file for MS25. 
+
+Changes have also been made to the resulting Hitachi/MS25 reporting firmware to make them more similar to their original firmwares.
+
+To use the updated Make files (only if getting Error 66), just copy your existing Samsung firmware to the extracted directory and rename it to orig.bin. Then run the corresponding Make file for your Original drive. This will create the modified X42a.bin/x42b.bin.
+

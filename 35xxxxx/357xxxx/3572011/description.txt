@@ -1,0 +1,28 @@
+unlike windows xp and volume activation 1.0 windows vista doesnt have any corporate
+keys which will permanently activate it. volume activation 2.0 requires a corporate
+user to either do a one time activation through microsoft servers (mak) or companies
+can host a local activation server which does not talk to microsoft (kms). the only
+difference is kms requires re-activation once every 180 days. however as long as
+theres a local kms server its simple to keep windows activated.  this release is a
+vmware image of a permanently activated kms server which allows local activation of
+windows vista business/enterprise edition. volume activation 2.0 is only built into
+those two editions.
+ 
+install vista business/enterprise edition with the key xxxxxxxxxxxxxxxx.
+ 
+using the latest vmware workstation, boot the image. disable vmware firewall.
+ 
+on the non vm vista right click the command prompt icon and run as admin. type ...
+ 
+cscript c:\\windows\\system32\\slmgr.vbs -skms vm_vista_ip
+ 
+cscript c:\\windows\\system32\\slmgr.vbs -ato
+ 
+windows should now be activated.
+ 
+to check activation status type ...
+ 
+cscript c:\\windows\\system32\\slmgr.vbs -dlv
+ 
+tested using echos windows vista enterprise and vmware workstation 5.5.3 but seems to
+have issues with the billgates windows vista business.

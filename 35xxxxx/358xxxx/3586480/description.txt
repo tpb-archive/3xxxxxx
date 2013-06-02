@@ -1,0 +1,77 @@
+First off I take no credit for the crack, description, or files here. Just 
+figured after all the cool shit I\'ve got from you guys I would try to give 
+you guys something that I know actually works to crack Vista. Check the link 
+contained in this folder to get to the site for a full description on how this thing works. This has been scanned with Anti-Vir, AVG, and Avast so no viruses to my knowledge. Don\'t ever download anything without scanning it before you run it! 
+
+How to Install:
+
+
+For a new Windows Vista installation:
+1. Go to your BIOS, set the year to 2099.
+
+2. Disconnect Internet (physically pull out your LAN cable if you will)
+
+3. Install Vista. DO NOT enter any key while installing, and select the 
+Ultimate edition.
+
+4. Once vista boots up for the first time, set the year back to 2006 (from 
+within Vista). Remember, internet should still be disconnected.
+
+5. Reboot, and check date in BIOS to make sure its 2006.
+
+6. Use enclosed patch
+
+7. Unzip the patch and run the exe.
+
+8. Click on test. It should say 4 timers stopped.
+9. Click on the install button.
+
+10. Reboot.
+
+11. Connect Internet
+
+12. Test by typing \"slmgr -dlv\" in the command prompt (in administrator 
+mode), and note the minutes.
+
+13. After about an hour of use, reboot and redo step 12. The minutes should 
+remain same!
+
+14. Enjoy!
+
+
+
+
+If you already have Vista installed, you don\'t need to re-install it. You can 
+just re-arm in 2099. Steps:
+
+1. Go to your BIOS, set the year to 2099.
+
+2. Disconnect Internet (physically pull out your LAN cable if you will)
+
+3. Boot vista, open command prompt in administrator mode and type \"slmgr 
+-rearm\". Wait for the command to complete, and then reboot.
+
+4. Once vista boots up, set the year back to 2006 (from within Vista). 
+Remember, internet should still be disconnected.
+
+5. Reboot, and check date in BIOS to make sure its 2006.
+
+6. Use enclosed patch
+
+7. Unzip the patch and run the exe.
+
+8. Click on test. It should say 4 timers stopped.
+
+9. Click on the install button.
+
+10. Reboot.
+
+11. Connect Internet
+
+12. Test by typing \"slmgr -dlv\" in the command prompt (in administrator 
+mode), and note the minutes.
+
+13. After about an few minutes of use, reboot and redo step 12. The minutes should 
+remain same!
+
+14. Enjoy!

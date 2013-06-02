@@ -1,0 +1,42 @@
+﻿User Type,Username,Date,Text
+,24februari,2006-10-02T10:48Z,"Can someboby explain this:
+ERROR [10:47 AM]
+Problem connecting to tracker - "
+,24februari,2006-10-02T10:49Z,ERROR [10:47 AM] Problem connecting to tracker - 
+,24februari,2006-10-02T10:50Z,"
+Problem connecting to tracker - urlopen error no host given"
+,wackopath,2006-10-02T19:21Z,"why all these fucking WGA cracks all the time?
+if you have the working cracked files , which i
+prosume everybody (mostly) knows, try to
+make a batch file (.BAT) with these lines:
+
+@echo off
+cls
+taskkill /IM wgatray.exe
+ren %systemroot%\system32\wgatray.exe wgatray.exe.old
+ren %systemroot%\system32\wgalogon.dll wgalogon.dll.old
+copy LegitCheckControl.dll %systemroot%\system32\ /Y
+copy WgaLogon.dll %systemroot%\system32\ /Y
+copy WgaTray.exe %systemroot%\system32\ /Y
+pause
+
+
+now you must have the cracked files in the same
+dir as the .bat file and run it from there...
+any questions?
+
+btw. the latest cracks are v1.5.540.0
+
+Peace"
+,JJJBBB,2006-10-02T22:26Z,word wacopath... word. Seems we keep gettin' dis chit over an over.
+,Tcip,2006-10-03T20:04Z,There is a ton off this apps olready ... Why upload more off them?
+,RatKing,2006-10-07T17:14Z,"This .torrent has a invalid tracker URL. To fix the error connecting to tracker, change the tracker from http:\\blahblah   -->  http://blahblah"
+,b1788964,2011-05-30T10:34Z,"Hey wackopath
+I created that .BAT file but when I open it:
+ERROR: The process ""wgatray.exe"" not found.
+The system cannot find the file specified.
+The system cannot find the file specified.
+The system cannot find the file specified.
+The system cannot find the file specified.
+Press any key to continue . . .
+and when I press any key the window closes :("

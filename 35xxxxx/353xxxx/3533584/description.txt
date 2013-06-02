@@ -1,0 +1,43 @@
+For information or help 
+click here http://www.xbox-inf.org/forum
+
+NOTA DEL AUTOR
+versión 3.0 Del Hitachi Patcher ahora OPA-Xtreme v2.1 firmware - v32/v36/v40/v46/v47/v58/v59
+Esta version está creada con flash y prgramacion en bat.
+Como la version anterior, ésta tiene la ventaja de crear un respaldo directamente en el disco duro de nuestro pc; la cual te permite ver el dIA que el respaldo fue creado y modificado, para estar seguros de la restauración y modificación del lector
+Los backUp se encontraran en ?C:/Firmware?. El backup se creará cada ves que lo ejecutes. Es importante guardar este file ya que es el original de tu lector. Nosotros nos hemos encargado de que se guarde bien con fecha de modificación y ejecución, por ello se crearán cinco archivos directamente en el disco duro.
+La interfase ha sido mejorada al máximo y su manejo de base de datos mejorado y limpiado de cualquier código innecesario. Ahora contaremos con una aplicación que nos ayudará mejor y nos dará mejor desempeño a la hora de implementar el Mod Firmware de Garlopa 7-1?
+Con tan sólo pulsar el boton ?A?, nos saldrá una pantalla con un menú con las posibles ubicaciones de nuestro lector Hitachi. Al nosotros asignarle al programa la letra de nuestro lector, que en esos momentos ya debe estar en modo B, el programa se encargaró del resto. Solo se agregaron unas pausas para mejorar su rendimiento.
+NOTA MUY IMPORTANTE:
+No apagaremos ni reiniciaremos nada hasta que el programa no deje de asignar más códigos al lector y nos pregunte si queremos flashear otro lector o salir. Cuando eso ocurra, el programa habrá erminado con éxito.
+Repito: debemos asegurarnos de que el "MODO B" está activo y que todo ha ido a la perfección. Entonces apagamos todo y probamos?.
+MEJORAS EN EL PROYECTO
+Nuevas opciones:
+- respaldo de 5 archivos - todos los procesos
+- Respaldo opcional en Unidad A: - opció a elegir por el usuario
+- Respaldo automático en C: - ruta C:\firmware\
+- Se agrega Nuevo Titulo al Flacheador
+- Se agrega Nuevo Titulo al Restaurador
+- Colores para mejor precentacion
+- Presentacion Flash
+- Mejor interface con windows - desglosa errores y posibles soluciones en caso de encontrarlos
+- Creación de carpeta con nombre de la fecha y hora al momento de la modificacion
+- Se agregan más de 80 lineas de comandos
+Cabe destacar que éste creará una copia en c:\firmware\
+en una carpeta independiente que tendrá el nombre del dia, mes, año, hora y minutos; y, asimismo, en la misma carpeta donde tengas guardada esta aplicación:
+Ejemplo:
+Hitachi-07-18-2006-01-18AM/
+donde copiará los siguientes archivos:
+- key.bin - el key
+- was.bin - el drive antes de ser modificado
+- gdrXX.bin - el firm sin tocar (anteriormente "orig.bin")
+- XX_21.bin - el parche del Firmware Xtreme21
+- now.bin - y el firmware despues de modificar
+¿porqué se hace así? Está pensado de esta manera por si ustedes flashean más de un lector; o si por algun error ustedes flashean más de una vez su lector, separe los originales sin sobrescribir ningún firm y así no perderlo.
+La restauracion es muy parecida. Sólo que esta vez apretaremos el boton "X" que abrirá una ventana donde nosotros pondremos el nombre de la carpeta que queremos usar para restaurar nuestro Firmware.
+Se pensó de este modo para que se eviten errores al intentar restaurar el lector con algun firmware diferente.
+Uno de los primeros pasos es poner el dvd rom del 360 en modo debug (modo B) este pueden ver como se hace siguiendo estos tutoriales
+despues de guardarlo en disco duro tendran que descomprimirlo para ejecutarlo y ejecutaran el "Hitachi Patcherv30.exe" y eso es todo
+
+For information or help 
+click here http://www.xbox-inf.org/forum

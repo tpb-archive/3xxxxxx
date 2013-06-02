@@ -1,0 +1,22 @@
+Vista Activation Crack
+
+1. Install and logon Vista final (worked with the BillGates edition) with the CDkey given by BillGates.
+
+2. Browse to WindowsSystem32Licensingpkeyconfig\\\\\\\' folder,right-click \\\\\\\'pkeyconfig.xrm-ms\\\\\\\'
+ Open property, click Security > Advanced > Owner > Edit > Administrators.
+ Click OK and close the propertes.
+ Then re-open properties of the file, Click Security > Advanced > Edit > select Administrators and click Edit.
+ Click \\\\\\\"Full Control\\\\\\\", Click OK and close the properties.
+
+3. Reboot into safe mode
+ Replace \\\\\\\'pkeyconfig.xrm-ms\\\\\\\' using the one in this package.
+ Go to Start > Run > type \\\\\\\"services.msc\\\\\\\" and find \\\\\\\"Software Licensing\\\\\\\". Normally this ain\\\\\\\'t running, but if it is
+ you need to stop it with the stop button above.
+
+4. Goto WindowsServiceProfilesNetworkServiceAppDataRoamingMicrosoftSoftwareLicensing
+ Replace the tokens.dat from this package with the one there.
+
+5. Reboot into normal mode again.
+ Go to Start > Help & Support > type \\\\\\\"Activate\\\\\\\" in the search menu. Click on the third topic \\\\\\\"Activate Windows on this Computer\\\\\\\"
+ This will start Windows Activation. You can use almost any key here, if you have gotton a Beta1/Beta2/RC1/RC2 key from Microsoft
+ you could bestly use this one for it. If you don\\\\\\\'t got a key, use this one: xxxx

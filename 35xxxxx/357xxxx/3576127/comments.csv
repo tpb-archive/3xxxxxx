@@ -1,0 +1,172 @@
+﻿User Type,Username,Date,Text
+,micros43,2006-12-13T18:57Z,"It's Seeding, But its not been shown here.. try to download and see..."
+,sindexxx,2006-12-13T19:11Z,Digg med norsk da! :D Men funker den? Er det bare å laste ned Ultimate og aktivere med denne?
+,micros43,2006-12-13T19:13Z,"Jepp.. Ikke vanskeligere;)
+
+Gjør som det står i instrukene;)"
+,micros43,2006-12-13T19:47Z,"Seed when you have download this torrent please, 
+
+Thanks."
+,fiTz.,2006-12-13T20:46Z,Does it really work? Could you translate the readme please?
+,micros43,2006-12-13T21:01Z,"I can give a tray, Wait."
+,micros43,2006-12-13T21:06Z,Yes! It work..
+,micros43,2006-12-13T21:08Z,"READ ME (ENGLISH):
+---------------------------
+
+ACTIVATE YOUR VISTA ULTIMATE!
+------------------------
+
+
+Step 1
+
+Take ownership and full control of file:
+c:\Windows\System32\Licensing\pkeyconfig\pkeyconfig.xrm-ms
+Replace the file:
+c:\Windows\System32\Licensing\pkeyconfig\pkeyconfig.xrm-ms
+with that you have get in your package
+
+Step 2
+
+Stop the service 'Software Licensing'
+(Go in the controlpanel, And klikk on Admin. Tools, And services and find Software Licensing and stop it.)
+Take ownership and full control of file:
+c:/Windows/ServiceProfiles/NetworkService/AppData/Roaming/Microsoft/SoftwareLicensing/tokens.dat
+Replace the file:
+c:/Windows/ServiceProfiles/NetworkService/AppData/Roaming/Microsoft/SoftwareLicensing/tokens.dat
+That in your package
+
+
+-REBOOT computer
+
+
+
+
+--------
+
+01) Install Vista Ultimate Edition with key YFKBB-PQJJV-G996G-VWGXY-2V3X8
+
+02) Setup your Internet access, then
+
+- From STAR menu, ACCESSORIES, Run ""COMMAND PROMPT"" as admin
+
+(Right click the ""COMMAND PROMPT"" icon, select ""Run as Admin"" from the sub-menu)
+
+03) In Command Prompt (Admin mode) dialog, type
+
+cscript c:\windows\system32\slmgr.vbs -skms kms.vbs.net.cn
+
+OR
+
+cscript c:\windows\system32\slmgr.vbs -skms vbs.net.cn
+
+wait for response, then type
+
+cscript C:\windows\system32\slmgr.vbs -ato
+
+wait for few seconds, Vista Ultimate edition now activated !!!
+
+To check status,
+
+cscript c:\windows\system32\slmgr.vbs -dlv
+
+If error occurs, check -
+
+is your key YFKBB-PQJJV-G996G-VWGXY-2V3X8 ???
+
+is your Vista Ultimate edition???
+
+is your Command Prompt under Admin mode???
+
+Have you replace the file and Reboot your computer??
+
+or try another time."
+,Pope John Paul 2,2006-12-13T21:09Z,"is this for Vista Ultimate, or just the ultimate way of activating the business version of Vista  -little help here!"
+,micros43,2006-12-13T21:11Z,"It activate the ultimate via KMS, And it work.. It dows not goes out next year:D"
+,T-Dude,2006-12-13T21:18Z,If this actually works it would be a god send since my copy expires in 3 days and I was about to reformat... I'm just having trouble copying the files since it won't give me access to the folder.
+,T-Dude,2006-12-13T21:24Z,"err, yea, so just for my information, how DO you take ownership of that file?"
+,magnet14,2006-12-13T21:35Z,"> T-Dude
+
+I think that with admin rights. Maybe."
+,micros43,2006-12-13T21:49Z,"Yes is work. Take end rightclick and choose properties, And switch over to security, and check out there.."
+,Pope John Paul 2,2006-12-13T22:04Z,"try as I might, I just can't over-write the pkeyconfig file - all I get is ACCESS DENIED!.. I believe I have admin rights, and when I go an edit the properties via security, (ticking full control) it just what apply the change!! Anyone got any smart sugesstions???"
+,fiTz.,2006-12-13T22:07Z,"TY for translation!
+It combines 2 ways for activating Vista, using another version activation files + Enterprise KMS activation
+Smart idea, but will it work forever contrary to RC2 activation?
+Will windows update still be available?"
+,micros43,2006-12-13T22:23Z,"Yes, I'm using Ultimate and its work for Ultimate Too.. Use the Readme i'm giving you in english and 
+do what it saying there and then you have Ultimate activated with Volume Licensing.
+
+USE: Rightclick on the file and click properties and click advanced and owner check yourself and clik OK and go out to the file. And then go in again and click edit and check yourselvf and click OK And go out and try again.)"
+,T-Dude,2006-12-13T23:13Z,"Yes, well the only problem is all the options are blanked out, there is no way to actually click any of those or take ownership. I'm just using Windows Explorer so I have no idea what else to do."
+,Pope John Paul 2,2006-12-13T23:18Z,Thanks for the help Micros43... just stuck on the second phase (software lic). Says the media is copy protected??? Any further great suggestions? 
+,fiTz.,2006-12-13T23:32Z,lol i can't access to control panel anymore oO
+,OverNight,2006-12-13T23:46Z,"The file c:\Windows\System32\Licensing\pkeyconfig\pkeyconfig.xrm-ms that you provided is the same of mine, and I have the ultimate trial!"
+,skyclad,2006-12-13T23:56Z,"Nei så koselig. Noe på Norsk oxo....:)
+It's great"
+[T],Booster2,2006-12-14T00:06Z,Er dette bare på 32 Bit eller går det på både 32 & 64 Bit?!
+,mattchazz,2006-12-14T01:38Z,"This crack basically turns your Ultimate into Enterprise or enhanced Business.  Media Center does not work.  Enterprise has everything Ultimate has except for Media Center.  Business has a lot of features and uses the key mentioned.  Enterprise does not need a key.  Both Business and Enterprise are activated with KMS servers.  So, what this crack does is let you use a Business key, activate with KMS, but then Media Center does not work -- so you are left with ""Enterprise"" set of features -- everything but Media Center.
+
+Why not just download and activte Enterprise?"
+,mattchazz,2006-12-14T01:40Z,"Since you are not getting Media Center anyway, if you download and activate Enterprise, you do NOT need a key, you do NOT need to ""take control"" of anything.  Much simpler and easier process and you know exactly what you are getting.  With this crack on this page, you think you are activating Ultimate but all the workarounds turn it into Enterprise or enhanced Business.  It is NOT Ulitmate set of features when finished."
+,OverNight,2006-12-14T01:42Z,"So, pay attention:
+
+this will transform your Ultimate in Business edition, without Media Center, Extra and Bitlocker.
+Also if you see Ultimate Edition it's a Business Edition, because you will substituite the files with the one from Business.
+So now I have a Business Edition with the stamp Ultimate!
+Better to make a clean install and set Business at the start, without to change any files."
+,Ben-dover4287,2006-12-14T03:25Z,"**REAL** Directions How To Crack Vista.. 
+
+
+
+Before U Install A FRESH Vista 
+
+
+1.Unplug your PC?s Internet connection. 
+
+
+2.Turn on your PC (or restart if it?s already on) and boot into your BIOS (usually hitting the key before initialization; otherwise refer to your instruction manual). 
+
+
+3.Set the date to December 31, 2099 (December to prevent accidents from happening when setting the year back to 2099 for any reason; as Vista keeps the most amount of days you passed the time you installed it, so if you pass the 30 days after you install it and boot up Vista, it will remember that every time you reboot and not allow you to log on). 
+
+
+
+4.Save & exit the BIOS and install Vista, leaving the product key textbox blank and un-checking the ?Automatically activate Windows when I?m online? checkbox. (You can either burn the ISO file to a DVD using software like DVD Decrypter or mounting it to a virtual drive with DAEMON Tools 
+
+
+5.When Windows shows the time settings when you?re setting it up, do not change anything (not even the time zone), just click ?Next? and finish. Now Windows will test your system performance. 
+
+
+6.After it finishes, log on. Click on the time on your taskbar, click the ?Change date and time settings?? link, go to the ?Internet Time? tab, hit the ?Change Settings? button, and uncheck the ?Synchronize with an Internet time server? checkbox. Then set your date back to today. Also, you can set the time zone to your own. 
+
+
+7.Plug in your PC?s Internet connection and download updates as necessary 
+
+
+8.Now the 30-day trial period will last until year 2099. You will not be able to activate Windows, but WGA still works and you can download anything from Microsoft just like a legitimate copy of Windows can. This trick goes the same for Windows XP. The activation status in System Information (Control Panel à System) will say 30 days. 
+
+"
+,T-Dude,2006-12-14T03:45Z,"Okay, great so now I know what it does, I don't really mind turning my copy into a Business / Enterprise edition... I just can't copy the files and I would really like to."
+,micros43,2006-12-14T14:50Z,EVRYTHING WORKS!
+,laotazoana,2006-12-15T05:41Z,someone said on keznews that this only works for 7-10 days? (for ultimate)
+,laotazoana,2006-12-15T05:42Z,"never mind, mattchazz just explained it above, ok"
+,micros43,2006-12-15T14:00Z,"TRY! Don't belive it, Just try?"
+,rullatormisbruker,2006-12-16T16:28Z,Cannot find the AppData/Roaming/Microsoft/SoftwareLicensing/tokens.dat  in the serviceprofile in the windows catalog...any idea were it is?? I have done all the readme file said...And i have the Ultimatum version..help
+,piratpasjon,2006-12-17T14:26Z,"To show the appdata file you need to search on ""folder options"" press it, then choose ""show files"". Cause appdata is a hidden file.;) "
+,mattchazz,2006-12-19T02:15Z,"micros43,
+
+Stop it with ""this is Ultimate!"" crap.  Does Media Center work?  Does Movie Maker work?  NO.  Then, what you have done is turn your Ultimate into Business/Enterprise with a fake label.  It may say ""Ultimate"" but REAL Ultimate has working Media Center and Movie Maker.  Enterprise has all the features of Ultimate except those.  Why not just download Enterprise and activate it?  Simpler and Microsoft can't kill it like they can your ""Frankenbuild""."
+,fredrikhh,2006-12-22T11:07Z,"Hello, Can somewhone tell me how i can get ""ownership"" over Licensingpkeyconfigpkeyconfig.xrm-ms
+in the windows folder ?
+Svar gjerne på Norsk..
+
+Takker for svar..."
+,benki1,2006-12-23T22:17Z,"Ben-dover4287 please tell me does yours way realy works???????????????????????/
+Please or anyone else"
+,dioX[NOR],2007-01-17T18:53Z,"The thing with the clock works
+but MS has developet a patch
+that fix this.
+so you need to find out the number of the
+ uppdate and stop that download.
+
+Then everything works!"

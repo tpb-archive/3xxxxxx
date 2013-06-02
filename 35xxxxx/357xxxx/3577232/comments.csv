@@ -1,0 +1,46 @@
+﻿User Type,Username,Date,Text
+,boknÃ¶rd,2006-12-15T20:05Z,tack :)
+,animal44,2006-12-21T13:46Z,thanks
+,Hannibal2k5,2006-12-23T16:32Z,"I know its tricky  , but how do I get the files on a cd , so I can use them on a DVD ?   Only thing I can find is "" copy a karaoke CD""  OR if its an image file. I cant find a prg which will allow me to write the mp3/cdg   on a cd."
+,crusie,2006-12-27T02:17Z,"think what you are looking for is this 
+http://www.freedownloadscenter.com/Multimedia_and_Graphics/Misc__Sound_Tools/Power_CD_G_to_Video_Karaoke_Converter.html"
+,RaVeNsEdGe,2006-12-29T02:18Z,how do i put this on disc to play on karaoke player?
+,oxygirl,2007-01-25T12:37Z,"thax for files mate,it's abity I could not get Mariah carey to play but rest is good,all the best for 2007"
+,mackeyu1977k,2007-12-22T16:24Z,"well m8 up untill last week i didnt have a clue about putting onto disk to play on tv untill iread this ,follow this u will not go wrong
+
+you will need a program called mp3+g toolz to convert the both files into a .bin file.
+
+
+1) Install and run MP3+G Toolz
+2) Select File>MP3+G to Bin (or Zip to Bin if files are zipped)
+3) Select folder where files are stored, click OK
+4) Click Start, MP3+G will now convert all of your files to Bin format (1 per track) and create a cue sheet
+5) Once finished converting close MP3+G Toolz
+6) Launch Nero, close the wizard
+7) In Nero v6 select Recorder>Burn Image
+ Choose the Cue sheet just created by MP3+G Toolz and click Open
+9) Click Burn, you now have a Karaoke CD+G disc
+
+there is also a similar way to do it in clone as some ppl experience sound and no graphics.
+Procedure to burn MP3+G with an unsupported MP3+G Burner
+
+(NOTE: Your burner must however be able to write RAW MODE)
+
+Start with normal MP3 & CDG files in its own folder
+Next convert these files with Mp3+G Toolz using the mp3+g to bin option
+(this will convert the files into the same dir as your original files)
+Next open Cue2Ccd choose your .cue file on the top option
+Next choose where you want the .ccd (CloneCD image) to be saved
+(normally keeping everything together is the best option)
+Next click convert (this should be finished quite quick 2 mins max)
+Next open CloneCD click on the option second in (write image to disk)
+Next locate your ,ccd file for burning
+Next click next
+Next choose the multimedia audio option
+Next choose speed (4 speed max as the graphics break-up on higher speeds)
+Next choose write
+Next there is no next you now have a CD+G CD created on a non-supported writer!!!!!!
+
+Software Used
+Cue2Ccd 
+CloneCD"

@@ -1,0 +1,239 @@
+For help http://www.xbox-inf.org/forum
+
+-----------------------------------------------------------------------
+Maximus-Garyopa_XTRM-HITACHI_v2_2_Stealth 8in1
+-----------------------------------------------------------------------
+*** MOST OF THE WORK IS FROM garyOPA, even most of this Readme File ***
+*** TESTED MANY TIMES ON 46/47/59/59B, other versions not tested ***
+
+
+FEATURES (my contribution on this release):
+
+* Removed old media detection and replaced with better media detection
+(media detection ver 2) from Geremia.
+* Incorporates Maximus Firmware Stealth (Full Firmware Stealth)
+* Added support for 59b firmware (what a stupid fw)
+* Not yet Media Stealth... I have not heard news on this topic
+
+
+Three Commands (for flashing use only one: Flash15s or Flash22s, no both):
+
+FLASH22S.BAT: Flashes your drive with 2.2 Fw Stealth (Media Detect 2,
+F900 core and Firwmare Stealth
+
+FLASH15S.BAT: Flashes your drive with 1.5 Fw Stealth (Media Detect 2,
+and Firwmare Stealth, (NO F900 Core)
+
+RESTORE.BAT: Return your drive to original State, even if you have
+firmware stealth in your drive
+
+
+*RECOMENDATION: If you have flashed your drive in the past use RESTORE
+first. If it is a brand new drive use directly the Flash command you
+like. If you dont plan to use your drive to dump games use the
+flash15s.bat
+
+
+* ALL NEW XTREME V2.2 FIRMWARE FOR ALL BUILDS OF THE HITACHI DRIVES!
+
+- Now includes "Security Sector Extraction" for all Hitachi Drives
+
+- Included media detection 2 from Geremia and Maximus Firmware
+Stealth, this release just supports SS Extraction within Windows
+without the need to re-flash your drive back and forth between
+PLAY & RIP!
+
+
+
+Flashing your drive
+-------------------
+FLASH22S.BAT automatically makes a complete backup of your firmware system
+
+* To FLASH a drive, it must be in "Mode B" and have "Drive Letter"
+* Then just run FLASH21 from "Command Prompt" while inside windows
+* Prompt must be at the same directory with the rest of the files!
+
+* FLASH22S needs two variables, the assigned "Drive Letter", and any 4
+numbers for the BACKUP directory, use a new unique number like 1572
+
+- This is used to make your BACKUP directory!
+
+- For Example: FLASH22S.BAT H 1572
+
+- Will cause the FLASH after running to have, a BACKUP directory
+"X22-1572" and the program will store FIVE firmware files:
+
+---- key.bin ---- DRIVE KEY /// DRIVE KEY
+---- was.bin ---- Your drive before FLASH
+---- gdrXX.bin ---- The untouch original fw
+---- XX_22.bin ---- The patched Xtreme22 fw
+---- now.bin ---- Your drive after FLASH!
+
+- Where the XX in the above names will be the version of your Hitachi
+
+* Program will not start unless a BACKUP is correctly made and stored!
+
+* Flash will auto-detect your firmware build of your Hitachi drive.
+
+* You can flash any drive, even "v1.1" or "f900" or your own hacks.
+
+* System will check flashed firmware, and redo until 100% completed.
+
+* Once you get the PASS / DONE line, you can shut-down the system.
+
+
+FLASH15S.BAT is the same as above but, without F900 core, use this
+if you dont want to extract SS with your drive.
+
+
+
+Restoring your drive
+--------------------
+RESTORE.BAT automatically restores your drive back to original state
+
+* To RESTORE a drive, it must be in "Mode B" and have "Drive Letter"
+* Then just run RESTORE from "Command Prompt" while running windows.
+
+* The new RESTORE does not need any backup, it will 100% restore your
+drive back to "ORIGINAL" state as long as it is visible in Windows!
+
+* Program will not start unless it detects the version of your Hitachi!
+
+* You can restore any drive, even "v1.1" or "f900" or your own hacks.
+
+* System will check flashed firmware, and redo until 100% completed.
+
+* Once you get the PASS / DONE line, you can shut-down the system.
+
+
+Features
+--------
+Here it is, the long awaited World's first Xbox 360 backup firmware
+modification to boot game backups on Hitachi GDR-3120-L DVD drives!
+
+But, now complete with "Security Sector" Extraction to make your
+own backup of original Xbox 360 and XBOX 1 games on your system.
+
+Boots all Xtreme Xbox 360 backups
+Boots all Xtreme Xbox 1 backups supported by emulator
+Boots all Xbox 360 originals
+Boots all Xbox 1 originals supported by emulator
+
+Use on Xbox Live at your own risk
+
+
+Technical details
+-----------------
+Security sectors are read in this order:
+
+Reads Xbox 360 security sector from PSN 04FB1F (Layer 0)
+Reads Xbox 1 security sector from PSN 605FF (Layer 0)
+Reads Xbox 360 security sector from PSN FD021E (Layer 1)
+
+Flashes sector 90003000 (Xtreme Custom Code)
+Flashes sector 9003e000 (Master Checksum)
+Flashes sector 90035000 (Security Sector Read)
+Flashes sector 90034000 (Media Detect)
+Flashes sector 90027000 (Challenge Response 2/2)
+Flashes sector 90026000 (Challenge Response 1/2)
+Flashes sector 90025000 (Mode B to A 2/2)
+Flashes sector 90024000 (Mode B to A 1/2)
+Flashes sector 9001d000 (Game Unlock)
+Flashes sector 9001c000 (Drive Response Table Decrypt)
+Flashes sector 9000a000 (UNDO Tray Tweak)
+Flashes sector 90006000 (Mode B Tweak)
+
+
+Extracting Security Sector
+--------------------------
+
+* Drive first be FLASHed with our Xtreme v2.0 firmware.
+
+* Ensure SATA cable is plugged from Hitachi drive to PC.
+
+* Ensure XBOX video cable is pluggd into back of console.
+
+* Power on the Xbox 360 console.
+
+* Open the drive Tray, by pressing the EJECT button.
+
+* Pull the power plug on xbox 360 from back of console.
+
+* This will force the console to leave the tray in the OPEN position.
+
+* Plug the power brick back into the Xbox 360.
+
+* Power on Xbox 360 using the "power" button.
+
+* Drive is now in Mode B.
+
+* Turn on your PC and wait for Windows to boot.
+
+* Insert original game disk into drive.
+
+* And wait for windows to detect disk change.
+
+* Run the included "GETSS.EXE" program from a "command prompt" like so:
+
+- GETSS H SS.BIN
+
+- Replace the "H" used in the above example
+with the correct assigned "Drive Letter"!
+
+
+Creating a game backup
+----------------------
+
+* Full info above to make the "SS.BIN" file first.
+
+* Extract the included "ISOBUILD.RAR" package.
+
+* Insert original game disk into drive.
+
+* And wait for windows to detect disk change.
+
+* Run Isobuster
+
+- Right click on DVD and select Extract From-To
+
+- Click Length and enter number of LBAs as follows:
+
+- Xbox 1 Original Number of LBA to read 3431264 decimal
+
+or
+
+- Xbox 360 Original Number of LBA to read 3567872 decimal
+
+- Select User Data (2048 bytes/block)
+
+- Click Start Extraction
+
+- Enter filename as game.iso and click Save
+
+- Upon read error dialogue box choose fill with blank zeros
+for sector and select use this selection for all errors
+
+* Copy game.iso and ss.bin to the relevent isobuilder directory
+(Depending on Xbox 360 or Xbox 1 game)
+
+* Run build360.bat (Xbox 360 game) or build.bat (xbox 1 game)
+
+* Ensure your burner will set the booktype of DVD+R DL to DVDRom
+
+* Burn with CloneCd and choose the image.dvd file
+
+
+Support & Thanks
+----------------
+Thanks to everyone at Xboxhacker.net for all their discussions.
+Thanks go to Seventhson for flashsec and memdump.
+Thanks go to Loser for firmcrypt.
+Thanks go to Team Avalaunch for their support.
+
+Many thanks to "Commorode4eva" for the original v47 release...
+Many thanks to "Spectrum4eva" for the original F900 release...
+Many thanks to "Birdy" for the Mode B tweak...
+Many thanks to "Geremia" for the better media detection...
+Many thanks to "Exobex" for Windows 2000 support.
+
+For help http://www.xbox-inf.org/forum

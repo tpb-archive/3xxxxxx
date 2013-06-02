@@ -1,0 +1,112 @@
+﻿User Type,Username,Date,Text
+,hwerk,2006-09-07T15:30Z,No iso and after making an iso program would have the original cdrom. Its useless torrent. Other Anatomy 3D works right.
+[T],ulysses56,2006-09-15T08:45Z,"From LordP666 - 2006-09-12 19:50 GMT: 
+
+First I want to thank ulysses56 for uploading these, it seems that he had a hard time with 
+
+it but he still did it. Thanks. 
+
+
+OK, I think I found a solution for those having a problem with the Anatomy Primal CDs. This 
+
+works for me at least and if someone else could try it and let us know if it works for them 
+
+it would be a good thing. 
+
+
+I'm going to illustrate with ""Anatomy Primal 3D Interactive Series 3 Hands"" which is the 
+
+only one I have as of now. 
+
+
+
+Use Magic ISO and extract all the files to a folder. 
+
+
+Use ""Safedisc 2 Cleaner v1.2.0"" to clean ""hand2000.exe"" which is in the ""setup"" folder 
+
+- the cleaner will make a file called ""SD2cleaned.exe"" for you to test. 
+
+
+When you run this test file it will tell you that it can't find ""APPSETUP.TXT"" (it's in 
+
+the ""shared"" folder). What I did is to tell it where to find APPSETUP.TXT and it worked 
+
+like a charm. 
+
+
+Just to be safe I placed a copy of ""APPSETUP.TXT"" to the ""setup"" folder. 
+
+
+Now all I had to do is delete ""hand2000.exe"", rename ""SD2cleaned.exe"" to ""hand2000.exe"" 
+
+and burn the whole thing to a CD using the original CD name of ""HAND2000"". 
+
+
+Works nice. 
+
+
+You can find the cleaner here: w w w.cdmediaworld.com/hardware/cdrom/cd_utils.shtml"
+,mazdon,2006-09-17T18:04Z,"What a sad story.... hmmm
+I can get some of these torrent to work... with a lot of trouble.... burning CD:s that doesent work, loading down diffrent programs that doesenÂ´t work to crack this torrent...so sad, I really looked forward to get this torrents as I have a lot of friends that are nurses or working in that area.
+But I can see that it will be far to complicated for them to manage this downloads.... so sad.... ;(
+
+Anyway ulysses56, thanks for trying...best regards Maxthegun"
+,Sunspear,2006-09-27T00:00Z,"I have only first 6 ... and thanks ulysses56 for your help,i`m study at university anatomy and it`s helpfull for me,if you guys have another interactive programs,let us know andd thanks.I From this 6 cd`s that i got 3 out of 6 to work.Cd 2,3 and 4 works fine,1,5 and 6 i didn`t find how to make them to work.If someone know how to make them work ... please post itThanks ... i`ll continue seed them"
+,drjagroopsingh,2006-10-19T00:48Z,"MAKE ISO
+MOUNT ISO ON VIRTUAL DRIVE
+INSTALL FROM VIRTUAL DRIVE
+NOW EXTRACT ISO
+COPY SPINE TO SETU FOLDER OF HEAD, SPINE WAS CREATED BY SAFEDISK FOR SPINE
+RENAME SPINE TO HEAD
+USE THIS FILE RUN HEAD"
+,feror2,2007-01-21T16:35Z,"I found the solution: 
+
+download this crack: 
+
+http://www.bestsharing.com/files/F6ocK208343/anatomy3d.zip.html 
+
+after installation of anatomy 3d products extract the 2 files in \primal pictures\knee or other... 
+
+and rename the executable shoulder to the executable folder name 
+
+i tried it only with knee, shoulder and hips i don't know about the others... 
+
+Sorry my bad english... 
+
+Enjoy :-) 
+
+Dr. Fernando Rosa - Brazil 
+
+Special thanks to ulysses56"
+,Dr. Reef,2007-03-27T11:53Z,"Anyone have the ""anatomy3d.zip"" from Dr. Fernando Rosa..? 
+
+
+Could those persons please seed it or upload it somewhere again? 
+
+
+Thansk to both ulysses56 and Dr. Fernando Rosa..
+
+Btw. For the shoulder, I found out that mounting the cd on 2 virtual drives at the same time will make it work.."
+,m3n70r45,2007-05-03T13:53Z,"Well, i think that i found the solution. This one is tested for shoulder cd and it works fine (at least for me). So, you have to download clonecd and daemon-tools. I dont know if this really matters but just make sure that you the latest versions. You install both programs. After that, you run  clonecd firstly. You choose to burn a cd from an image file. In our case, the image file is the shoulder one that you download in your hard disk. When it will ask you about what kind of image is this just choose protected game and burn this. You install the shoulder software form this cd if this isnt already installed and then you run deamon-tools. You choose from emulation safedisk option (or just to be sure set all options ON) and then you mount the image file that you have already burned with clonecd, through daemon-tools' virtual drive. So to resume, at the end you must have a cd inserted in your drive that contains shoulder software and the mounted image of shoulder on deamons-tools' virtual cd. After all you have just to run your application. In our case ""shoulder.exe"". If it asks you about 
+a APPSETUP.TXT file just set the path for the ""shared"" folder that lays on the cd that you burned with clonecd.
+
+
+Sorry if my english were bad."
+,haroo,2007-05-20T12:54Z,"I too was having lots of trouble getting these programs to work, but i think i have found the solution.
+
+For some reason, using daemon tools 4.08 only allowed me to run discs 2,3,4,5,8 and 9, but by installing the older version daemon tools 3.47 (this is available from the website), i was able to get the whole series working by mounting the .img/.iso file with safedisc emulation (missing files torrent is not neccessary). Hope this helps others having trouble.
+
+also to those who dontt like the files taking up their hard drive (neither do i) just burn all the files onto one disc using nero express (so that the .iso/.img files remain as .iso/.img files) and run the programs through daemon tools directly off the disc. abit slower but saves space:)
+
+A huge thanks to ulysses56 for these! I highly recommend these programs, they have helped me hugely with my studies as a med student"
+,MeInClover,2007-12-08T16:16Z,"PrimalAnatomy was unable to find the Hip-CD.
+How I solved this problem?
+I mounted .CCD file (not .IMG file) with UltraIso 8.6. When Primal run for the first time, asked for folder with appsetup.txt. I pointed to the folder shared. ThatÂ´s it.
+You can get UltraIso here:
+rapidshare(dot)com/files/5139533/uiso8601936.rar.html"
+,MeInClover,2007-12-09T01:17Z,"forget about UltraISO.
+as haroo said, use Daemon Tools 3.47.
+configure to Emulation: Safedisc.
+Mount img file"
+,joelico,2008-09-11T01:16Z,"The problem with the safedisc bypassers is that most of the cd's are safedisc v1.40, and the programs that decypher it are from 99... So they won't work on XP or Vista... So I guess we're kinda stuck here... :("

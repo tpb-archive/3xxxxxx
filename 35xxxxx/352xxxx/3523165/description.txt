@@ -1,0 +1,383 @@
+Screen Shots http://media.pc.ign.com/media/015/015224/imgs_1.html
+
+VIDEO's  http://media.pc.ign.com/media/015/015224/vids_1.html
+
+
+Published by: Hasbro Interactive
+Developed by: Microprose
+Genre: Action
+Number of Players: 16
+Release Date:
+US: April 19, 2001
+Japan: Unreleased
+Europe: Unreleased
+
+ESRB Content Descriptors: Animated Blood, Animated Gore, Animated Violence
+
+Minimum Requirements:
+Win 95/98/Me
+P233MHz
+32MB RAM
+8xCD-ROM
+500MB free disk space
+4MB SVGA card
+
+
+X-Com Enforcer is a third person game built with the Unreal Tournament engine. Unlike some of the other titles in the X-Com series, Enforcer should appeal more to the run and gun action crowd. The player takes control of an android that will be deployed throughout the world to fill in where X-Com's forces cannot go.
+
+
+
+
+
+
+
+X-COM ENFORCER v1.0 README!
+***************************   
+
+Table of Contents
+-----------------
+I.    Required & Recommended System Specs
+II.   Setup & Installation
+III.  Controls
+IV.   Manual Corrections, Additions, Multiplayer & Misc.
+V.    Performance
+VI.   Troubleshooting
+VII.  How to Build Enforcer Levels (for the experienced level designer)
+VIII. License Agreement, Warranty & Warning Statements
+IX.   Technical Support, Web Addresses
+X.    Legals
+
+
+FOR MORE INFORMATION ABOUT X-COM ENFORCER, 
+BE SURE TO CHECK OUT WWW.XCOMENFORCER.COM!
+
+
+I.
+SYSTEM REQUIREMENTS
+-------------------
+
+Operating System:	Windows┬« 95/98/Me
+Processor:		Pentium┬« 233 MHz or higher with Hardware Acceleration
+			Pentium┬« 266 MHz or higher without Hardware Acceleration
+Memory:			32 MB RAM
+Hard Disk Space:	500 MB Free
+CD-ROM Drive:		8X Speed
+Video:			4 MB Windows┬« 95/98/Me-compatible SVGA video card*
+Sound:			1 MB Windows┬« 95/98/Me-compatible sound card*
+DirectX:		DirectX version 8.0 (included) or higher
+Modem:			56kps baud (for modem/Internet play)
+
+* Indicates device should be compatible with DirectX version 8.0 or higher.
+
+
+RECOMMENDED
+-----------
+
+Operating System:	Windows┬« 95/98/Me
+Processor:		Pentium┬« 400 MHz or higher with Hardware Acceleration
+Memory:			64 MB RAM or higher
+Hard Disk Space:	500 MB Free
+CD-ROM Drive:		8X Speed
+Video:			3D Accelerator (Voodoo, TNT, GeForce families)
+Sound:			1 MB Windows┬« 95/98/Me-compatible sound card*
+DirectX:		DirectX version 8.0 (included) or higher
+Modem:			Broadband Internet Connection (for modem/Internet play)
+
+* Indicates device should be compatible with DirectX version 8.0 or higher.
+
+
+
+II.
+SETUP AND INSTALLATION
+----------------------
+
+1.  Start Windows 95/98/Me.
+2.  Insert the X-COM ENFORCER CD-ROM into your CD-ROM drive.
+3.  A title screen should appear.  If it doesn't, double-click on the "My Computer" icon 
+    on your Win95/98/Me desktop.  Next, double-click on your CD-ROM icon to install the 
+    game.  If the install screen still does not appear at this point, locate the 
+    "SETUP.EXE" file on the X-COM ENFORCER CD-ROM and double-click on it.
+4.  Follow the remainder of the on-screen instructions to finish installing X-COM 
+    ENFORCER.
+5.  Once installation is complete, click on the Windows Start button on your desktop, 
+    and choose Programs/Infogrames Interactive/X-COM ENFORCER/X-COM ENFORCER to start 
+    the game, or just double-click on the X-COM ENFORCER shortcut on your desktop if 
+    that option was selected during the installation. 
+
+Note: You must have the X-COM ENFORCER CD-ROM in the CD-ROM drive to play.
+
+
+Installation of DirectX 8.0
+---------------------------
+X-COM ENFORCER requires DirectX 8.0 or higher in order to run. If you do not have this 
+installed on your computer, you will be prompted to install DirectX 8.0 while installing 
+the game. Click "yes" when prompted to install DirectX 8.0 and continue installing the 
+game.
+
+
+
+III.
+DEFAULT KEY CONTROLS
+--------------------
+
+Fire Weapon           = [LeftMouseButton] or [Alt]
+
+Expert Aiming         = hold down [RightMouseButton] or [M]
+
+Jump Jets             = [SpaceBar] or [Ctrl] 
+
+Move Forward          = [Up Arrow]
+
+Move Backward         = [Down Arrow]
+
+Strafe Left           = [Left Arrow] or [,] (comma)
+
+Strafe Right          = [Right Arrow]
+
+Strafe                = ['] (single quote)
+
+Look Up               = [Delete]
+
+Look Down	      = [PageDown]
+
+Center View           = [End]
+
+Professor's Hints     = [H]
+
+CutScene Fast-Forward = [F]
+
+Pause / Main Menu     = [Esc]  
+
+Chat		      = [T] 
+
+Show Briefing / Score = [F1]
+
+Screen Shot           = [F9]
+
+Brightness            = [F11]
+
+Toggle Full Screen    = [F12]
+
+
+DEFAULT JOYSTICK CONTROLS
+-------------------------
+
+Fire                  = Joystick Button 1
+
+Jump Jets             = Joystick Button 2
+
+Strafe                = Joystick Button 3
+
+Look                  = Joystick Button 4
+
+Strafe Left           = Joystick Button 5
+
+Strafe Right          = Joystick Button 6
+
+
+FREE LOOK
+---------
+This is an unsupported feature!!!  X-COM ENFORCER was designed with fixed camera 
+perspectives in mind, and players were never intended to be able to look up.  Most 
+players have found the standard camera more than sufficient for the style of play,
+but a few still said they wanted the capability, notably for DeathMatch games.  Please
+keep in mind that if you choose to use Free Look, you are viewing and playing the game 
+as it was NOT intended to be viewed or played.
+
+To bind a key to Free Look;
+
+1.  Locate and open the X-COM ENFORCER directory found on your hard drive.  The default
+    location for this folder is: C:/Program Files/Infogrames Interactive/X-COM ENFORCER.
+2.  Locate and open the SYSTEM directory found within the X-COM ENFORCER directory.
+3.  Locate and open the file labeled "USER.INI".  (If you have yet to run the game 
+    successfully and are unable to find this file, open the "DEFUSER.INI" instead.)
+4.  Scroll down until you see the section that lists the key assignments (first few lines
+    below):
+
+    LeftMouse=Fire
+    RightMouse=Look
+    MiddleMouse=
+    Tab=
+    Enter=
+    etc. etc. etc.
+
+5.  Locate the key or button that you'd like to use for Free Look.
+6.  Change or add to the line following the "=" to so that it reads (ex.);
+
+    RightMouse=XFreeLook
+
+6.  Save and close the file.
+7.  Run X-COM ENFORCER.
+
+To bind a key to toggle Free Look on and off (rather than having to hold the button down),
+follow the above directions, using "XFreeLookToggle" instead of "XFreeLook".
+
+
+
+IV.
+MANUAL CORRECTIONS, ADDITIONS, MULTIPLAYER & MISC.
+--------------------------------------------------
+
+Purple Identifier Rings beneath Weapons and Power-Ups
+-----------------------------------------------------
+Occasionally during missions, you will come across an item with purple identifier rings 
+beneath it instead of the standard red and yellow ones.  These purple rings indicate that 
+the Weapon or Power-Up has yet to be unlocked on the R&D screen.  If you try out the item 
+and like its capabilities, collect Data Points and Unresearched Objects to unlock it and 
+make it regularly available during play!
+
+Information on the Aliens, Weapons and Power-Ups
+------------------------------------------------
+For details about X-COM ENFORCER's enemies and arsenal, please visit www.xcomenforcer.com
+
+
+---MULTIPLAYER---
+   
+X-COM ENFORCER offers full Cooperative and DeathMatch Multiplayer Modes; find the game 
+that's right for you!  Be sure to Choose Your Enforcer (accessible through the Multiplayer
+Menu) before Joining or Hosting a Multiplayer game.
+
+
+Finding and Joining a Multiplayer Game
+--------------------------------------
+To find and join a Multiplayer game, first make sure that you've got a connection to
+the internet (or to your Local Area Network for LAN games).  Once that's been established, 
+run X-COM ENFORCER.  Select the Multiplayer option from the Main Menu, then select Join 
+Game from the Multiplayer Menu.  This should bring up a browser with a list of games.
+
+Click on the LAN tab for LAN games, or the Internet tab for internet games.  Once you've
+found a game you'd like to join, simply double click on the game in the browser, or click
+to highlight it and press Enter to join that game.
+
+
+Hosting a Multiplayer Game
+--------------------------
+To Host a Multiplayer game, first make sure that you've got a connection to the internet
+(or to your Local Area Network for LAN games).  Once that's been established, run X-COM
+ENFORCER.  Select the Multiplayer option from the Main Menu, then select Host Game from
+the Multiplayer Menu.  This should bring up a menu with three tabs; MATCH, RULES, and 
+SERVER (information below).  Once you're happy with these settings, simply click on the
+START button in the lower right corner of this menu to launch your game.
+
+Under the MATCH tab, you may select the Game Type, the Maps used, and any Mutators you may
+wish to have for the game you're creating.  
+
+Game Type:  This allows you to choose between a Cooperative or DeathMatch game.  This 
+            option will determine the maps available for each mode of play.  See below 
+            under "Incorporating and Naming User-Created..." for more information on this.
+
+Map Name and Map List:  The Map Name and Map List options allow you to set which maps your
+                        Multiplayer game cycles through.  After clicking on the Map List
+                        button, you are presented with two windows representing the maps
+                        that are and aren't cycled through.  Clicking on a map's name in 
+                        one window will move it to the other.
+
+Mutators:  Clicking on the Mutator button will present you with a list of available 
+           Mutators for your game.  Mutators define certain gameplay parameters for all 
+           players, and frequently alter the way a game is played.  The Mutators that come
+           with X-COM ENFORCER include modifiers such as "Run Fast", "Jump High", "No 
+           Nukes" and "Minimum Upgrade Level 1-4".
+
+Under the RULES tab you may establish limits and other settings for the game.  The 
+options available will change based on your selection of either Cooperative or DeathMatch 
+play under the MATCH tab (see above).
+
+For DeathMatch play, you can set your game's Max Players, Frag Limit, and Time Limit.
+For Cooperative play, in addition to setting the game's Max Players you are able to
+select the game's level of Difficulty, Exit Timer Bonus, and Friendly Fire setting.
+
+Max Players:  This sets the maximum number of players allowed to join your game.
+
+Frag Limit:  This determines the amount of kills it takes to win a match.  When a match
+             is won, the game will reset the scores and cycle to the next map (or restart
+             the map, if no others are set to be cycled).  [DM only]
+
+Time Limit:  Instead or in addition to the Frag Limit, you may set a Time Limit to
+             determine when the match ends.  [DM only]
+
+Difficulty:  This slider allows you to set the game's Difficulty level, the left side
+             representing the easiest game and the right side representing the hardest.
+             We reccomend adjusting this slider in relation to the number of players
+             expected or allowed to play for the best balance possible.  [Coop only]
+
+Exit Timer Bonus:  Once all of a map's objectives have been completed, the established
+                   Exit Timer Bonus will be displayed and start to decrease.  This is a 
+                   special Data Point Bonus awarded to players as they exit the map 
+                   through the teleportation platform.  The sooner the platform is reached,
+                   the more Data Points are awarded to that player. [Coop only]
+
+Friendly Fire:  This checkbox determines whether or not players' can hurt eachother.  If
+                you want to be able to shoot other players in addition to the aliens, make
+                sure this box is checked. [Coop only]
+           
+Under the SERVER tab, you may set information and parameters about the game server you're 
+creating.  This includes the names and information you want displayed, as well as specific
+settings for LAN and Internet play.
+
+Optimize for LAN:  Check this box to get the best performance from LAN games.
+
+Advertise:  To have your game appear under the list of Internet servers, make sure this 
+            box is checked.  Otherwise, other players connecting through the Internet 
+            won't be able to see and join your game.
+
+
+GameSpy and GameSpy Arcade
+--------------------------
+
+X-COM ENFORCER uses GameSpy's Master Server to track its internet games.  If you are a
+GameSpy or GameSpy Arcade user, you may join X-COM ENFORCER using GameSpy's software.  
+If you don't use GameSpy or GameSpy Arcade but would like to, you can find downloadable
+versions of the software at http://www.gamespy.com and http://www.gamespyarcade.com.
+
+
+Incorporating and Naming User-Created Cooperative and Death Match Maps
+----------------------------------------------------------------------
+To make user-created maps available for play, you must first place them in the X-COM 
+ENFORCER "MAPS" folder.  The default installation directory for this folder is 
+c:\program files\infogrames interactive\x-com enforcer\maps.
+
+To make a map appear in the Cooperative map list, its filename must begin with "map"
+(example: Map03.xcm).  For a map to appear in the list of Death Match maps, its filename
+must begin with "dm" (example: DM_Sewers01.xcm).
+
+
+Playing a Single Player Game with User-Created Maps
+---------------------------------------------------
+If you would like to play a Single Player game with user-created maps, simply Host a
+Cooperative Multiplayer game and make sure that "Advertise Server" is NOT checked under
+the MATCH tab.  Clicking the "Map List" button (also under the MATCH tab) enables you
+to set which maps your game will cycle through.  
+
+
+
+V.
+PERFORMANCE
+-----------
+
+To improve game performance, go to the game's Options Menu and try lowering settings such
+as texture detail, sound quality and screen resolution.  You may also wish to change your 
+Video Driver, though X-COM ENFORCER will automatically attempt to detect your system's
+optimal settings.
+
+Memory
+------
+X-COM ENFORCER's performance is highly dependent on the amount of RAM you have in your 
+machine, and the amount of memory that is available.  Machines with less memory will 
+access their hard disk more frequently to load data, which causes sporadic pauses in 
+gameplay.  Thus, if you have a 32 megabyte (or less) machine, you should make sure that 
+you don't have other unnecessary programs loaded in memory when playing X-COM ENFORCER.
+
+How the game will perform under different RAM conditions: 
++ 32 megabytes or less: A lot of swapping, marginally playable. 
++ 48 megabytes: Some swapping; use the Video Options to select "low texture detail" to 
+  improve this. 
++ 64 megabytes: Great, with a bit of swapping. 
++ 128 megabytes: Oh Yes!
+
+CPU Speed
+---------
+The game is also very sensitive to CPU speed, memory bandwidth, and cache performance. 
+Thus, it runs far better on leading-edge processors such as Pentium II's than it does on 
+older ones such as non-MMX Pentiums.
+
+

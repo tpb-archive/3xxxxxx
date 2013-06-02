@@ -1,0 +1,45 @@
+WinZip brings the convenience of Windows to the use of ZIP files and other archive and compression formats. The optional wizard interface makes unzipping easier than ever. WinZip features built-in support CAB files and for popular Internet file formats such as TAR, gzip, UUencode, BinHex, and MIME. ARJ, LZH, and ARC files are supported via external programs. WinZip interfaces with most virus scanners.
+WinZip is available as Standard or Pro. WinZip offers powerful new compression technology that creates even smaller Zip files. And the new Explorer-style view makes working with complex, multi-folder Zip files a snap. WinZip Pro includes the WinZip Job Wizard, a powerful tool that offers predefined data backup jobs, the ability to customize and schedule zipping tasks, and FTP-upload functionality. And with WinZip Pro, you can zip and burn directly on CDs/DVDs! 
+
+WinZip 11.0 includes features that build on the solid foundation established with WinZip 10.0. We applied user feedback to help improve the Job Wizard, and added a number of compression and usability enhancements, as well as the ability to open .BZ2 and .RAR files.
+
+A few of WinZip\\\'s many other features: 
+* Zip, unzip, and one-click Zip and E-mail directly from Windows Explorer or My Computer. 
+* Automatically install software, desktop themes, and screen savers contained in Zip files. 
+* Quickly find your Zip files with Favorite Zip Folders. 
+* Instantly access recently used Zip files and other WinZip features from the Windows taskbar tray icon. 
+* Take full advantage of Windows XP features including fast user switching and XP themes. 
+* Decode most popular Internet file formats, including MIME, UUEncode, XXEncode, TAR, BinHex, and many others. 
+* Split Zip files into smaller parts to overcome e-mail size constraints. 
+
+Like WinZip 10.0, you can select WinZip 11.0 with Standard or Pro features, and both offer compression enhancements that make WinZip 11.0 the most versatile WinZip ever. Our new \\\"best compression\\\" option allows you to let WinZip decide the best compression method for each file based on the file type. This will ensure that you maximize the compression of every file that you add to your Zip file. WinZip 11.0 also allows you to better zip .wav music files without compromising the integrity of the file or its sound quality. What\\\'s more, if you need to open a .BZ2 or .RAR file, WinZip can now be your tool of choice.
+
+If you depend on WinZip Pro\\\'s Job Wizard to back up data sets, archive important documents, or distribute information to others on a regular basis, you\\\'ll appreciate the enhancements available in WinZip 11.0 Pro. Now you can configure the Job Wizard to email the log file and/or resulting Zip file automatically after completion, use our new \\\"browse\\\" feature to find a specific folder on an FTP server, and select custom jobs directly from the Job Wizard and Quick Pick menus.
+
+WinZip Job Wizard Enhancements :
+WinZip introduced the \\\"WinZip Job Wizard\\\" with WinZip 10.0 Pro. This powerful productivity and automation tool allows you to create Zip \\\"jobs\\\" that identify the \\\"what, where, when, and how\\\" of virtually any repetitive zipping task. For WinZip 11.0, we\\\'ve listened to your feedback and we have made the Job Wizard even better. With WinZip 11.0\\\'s Job Wizard, now you can:
+
+- Program the Job Wizard to Email Reports and Zip Files Automatically:
+You can create a custom Zip job to run automatically or at the click of a button, and now the Job Wizard will send you an email to confirm whether the job completed successfully or alert you of problems. You can also configure the Job Wizard to email the resulting Zip file and/or the Job\\\'s log file.
+- Use Browse Button to Find FTP Location
+You still need to specify the FTP server location; however, you no longer need to know the exact folder name. Simply use our new browse feature in the FTP dialogue box to navigate to the desired folder.
+- Passive (PASV) FTP Support
+It can sometimes be a challenge to FTP when you\\\'re sitting behind a firewall, but PASV mode can help. Simply put, this feature instructs the FTP server to wait for you to initiate contact, rather than actively pinging your firewall (and having your firewall deny access). When the client initiates contact (rather than the server) through the appropriate port for a specific action, the firewall is more likely to allow the FTP.
+- Select Custom Jobs from Quick Pick and Job Wizard Menus
+If you create custom jobs with your WinZip Job Wizard, you can now select them quickly and easily within WinZip from the Jobs menu, or outside of WinZip from the WinZip Quick Pick taskbar tray icon.
+
+Basic Image Navigation Support:
+- View Thumbnails within WinZip Without Launching Separate Application
+If you have any images in a Zip file, you can now browse through them viewing the thumbnails without first extracting the images from the Zip file. This makes it a lot easier and quicker to work with images in Zip files.
+- View Full-Size Images with WinZip\\\'s New Image Viewer
+If you need a closer look, sometimes a thumbnail just won\\\'t do. Now you can view images without manually extracting the image from the Zip file.
+
+Other Changes in WinZip 11.0:
+- Zip and E-Mail Directly from WinZip\\\'s File Menu
+If you need to email your Zip file, WinZip 11.0 makes it easier with the new \\\"send to\\\" option available directly from the WinZip file menu.
+- Send to FTP or CD/DVD
+With WinZip 11.0 Pro, you can extend the benefit of our new \\\"send to\\\" feature with the ability to send to a remote FTP server and/or burn directly to CD/DVD.
+- Extended Time Stamps
+WinZip 11.0 now uses NTFS time stamps (vs. DOS time). This allows for greater time stamp granularity/accuracy, and the use of Greenwich Mean Time (GMT) helps assure clarity when sharing Zip files outside of your local time zone. This is particularly useful with Zip data backups.
+- Definable Alternative Extensions
+In an effort to improve network security, many administrators block various file extensions. If your administrator has a blanket policy to block .zip extensions, but you want to be able to exchange Zip files with a reliable source, you can now agree on a fictitious alternate extension (e.g., \\\".abc\\\") and simply associate WinZip with that extension. This will increase the likelihood that you will be able to send and receive Zip files, and WinZip will open them just as it opens any .zip file.

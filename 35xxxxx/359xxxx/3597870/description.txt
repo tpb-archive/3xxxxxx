@@ -1,0 +1,10 @@
+This is a test version of a windows installer for ubuntu, as described at the following links:
+ 
+http://ubuntuforums.org/showthread.php?t=338279&page=15 
+https://wiki.ubuntu.com/install.exe/Prototype
+
+Currently, it\'s at the alpha testing stage, and primaraly here for developers to test, although other users can test it.  As the installer is designed to work in a low risk way, the chances of the system being damaged by the installer are very low, but the chances that it won\'t work are quite high (since it\'s alpha).  An uninstaller is included, so you can always uninstall it and have your system back to how it was before)
+
+Understand that this is unofficial test software, no guarantees are made about this!
+
+You must have 7.5GB of free disk space to install.

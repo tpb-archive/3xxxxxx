@@ -1,0 +1,78 @@
+﻿User Type,Username,Date,Text
+,Bosanek,2007-01-18T12:29Z,"Just one question: Is the CD from which you copied an ordinary CD (DATA-only), or is it a Mixed-Mode CD (DATA+Audio)?
+
+I am asking this because there's another guy seeding Warcraft I, which is 540MB large (http://thepiratebay.org/tor/3428542/[PC_-_GAMES]Warcraft_Orcs_and_Humans_by_Skyl3lazer).
+
+This suggests that his CD is Mixed-Mode.
+
+If yours is also, then you DID NOT copy it properly. The only way to PROPERLY copy a Mixed-Mode CD is to make an RAW (BIN+CUE) image of it.
+
+Please inform me what yours CD is, because I would really like to have the proper copy!
+Thanks for your time!
+
+P.S.: If you need help for making a proper copy, I can help. Making a RAW image is not that simple if you want to make an error-free copy."
+[T],WinstonSmith6079,2007-01-19T04:26Z,"Hmm, I never thought about all that....
+
+AFAIK, my original CD-ROM is a data-only type.  Given that the game is so old (for DOS) and doesn't use the CD to play the game (only to install), it seemed okay to simply copy the files & fldrs from the CD which can then be put in a separate fldr, that fldr mounted in DOSbox as a CD-ROM, and then installed.
+
+As far as this being a ""proper"" copy, I am pretty sure that this is as I get the same results (the full game, nothing lacking) whether I install from these files or from the real CD-ROM.
+
+Give it a try as this bundle is less than 50MB anyway, man."
+,Bosanek,2007-01-19T09:47Z,"OK, if your CD is Data-only, then you have made nothing wrong. In other words, your copy is fine because this is an old DOS game which does not use autorun.inf files or some CD copy-protections (as you said).
+
+FYI: Some old DOS games do come on Mixed-Mode CDs (like Worms United, Warcraft II, Quake, ...).
+Some games also use Mixed-Mode CDs where the other part is Video, not Audio (or even both) (Duke Nukem 3D, Blood,...).
+
+
+Most people just copy the data (like you did).  The ""problem"" is that most of these games will still work without that special content, so people don't realize that it isn't a 1:1 copy.
+
+For example, I've downloaded a Worms United torrent (around 80MB) a couple of months ago. 
+It was an ISO (2048secs) CD image. The game worked just fine, but soon I've realized that the original game comes on CD with a dozen of audio tracks.
+
+If the seeder made a RAW (BIN+CUE) image instead of an ordinary data ISO image, it would include all the content. But it would be around 500MB large :)"
+[T],WinstonSmith6079,2007-01-20T05:56Z,"Yeah, more often than not, I release games in .BIN & .CUE CD images, such as I have with Quake { http://thepiratebay.org/tor/3507179/Quake }, Dune { http://thepiratebay.org/tor/3585250/Dune }, and Betrayal at Krondor { http://thepiratebay.org/tor/3594894/Betrayal_at_Krondor }, and various other games for Windows.  But in cases like this game and such as Dune II: The Battle for Arrakis { http://thepiratebay.org/tor/3593455/Dune_II__The_Battle_for_Arrakis }, all that's necessary for the full games are simply copying the files from which they are installed (i.e., copying the files from the CD-ROM).
+
+Hope you enjoy these full games, 'coz no one likes an ""edited"" game hehehehe"
+,Bosanek,2007-01-21T11:58Z,"Oh, thanks for the Quake man!
+
+I think that I have realised your copying methodology. When you want to copy a Mixed-Mode CD, then you make a BIN+CUE image. That is OK! But when you want to copy an ordinary Data CD (for example Caesar III, Worms Armageddon, Unreal Tournament, etc.) you simply copy its contents via ""windows explorer"" way. 
+
+That way of copying a Data CD does work, but there is other, ""optimal"" method. That is making an ISO image of a Data CD. 
+
+The benefit the ISO image has over standard file-copying is this:
+- ISO image preserves file and directory layout of the CD (can be important for some games)
+- ISO image keeps CD metadata like CD ID number, meaning that a CD-R made of such an image will have the same ID as the original.
+- The result of this is that a CD-R burned from an ISO image will be a twin of the original CD. That is what we want.
+
+P.S.:
+The difference between ISO and BIN+CUE image formats is that ISO reads files from CD on the file-system level (2048 bytes/sector), and BIN+CUE reads the CD in RAW mode (low-level) (2352 bytes/sector).
+
+In english, when making a copy in BIN+CUE mode, the CD-ROM drive does not perform error correction and it just copies the CD on ""blind"", drito. All errors/bad sectors (caused by scratches, dirt, etc.) are ""transferred"" as well.
+
+In ISO mode, the drive correctes any errors during reading (if it can, if not the process aborts).
+
+Saying this, ISO mode is optimal for ordinary Data CDs, but BIN+CUE mode MUST be used when a Data CD has got a copy-protection or if the CD is Mixed-Mode (Data+Audio), pure Audio CD, or Video CD.
+
+P.S.: DOSBox can mount an ISO image to be a CD (here's from FAQ: ""You can also dump your original CDs to ISO images and mount them in DosBox. This may help to bypass some issues with CD checking (e.g. with Command & Conquer: Tiberian Dawn). You can do it this way:
+imgmount D ""c:\images\game.iso"" -t iso"").
+
+
+I am just trying to be helpful for us all here, not to be a pain in the *ss. 
+
+Cheers man!"
+[T],WinstonSmith6079,2007-01-22T05:42Z,"Nah, you're not being a pain-in-the-ass at all.  On the contrary most people don't know that stuff, but should with some of the things they try to do all too often.
+
+Thanks for the info, man.  :)"
+,LordoftheGeeks,2007-02-03T15:11Z,"Hey Winston!
+
+Have you tried listening on the CD with your favorite CD-playing application?
+
+There should be 1 datatrack and 7 audiotracks. And if there are audiotracks, could you please do as Bosanek suggested? I would also like to have this CD as complete as possible and Skyl3lazers release has some errors in the audiotracks.
+
+TIA"
+,Bosanek,2007-02-07T21:26Z,"I have downloaded Winstons' edition and tested it myself. It seems to be COMPLETE. In other words, it looks like the game he has does not feature audio tracks (there are various Warcraft editions in existance, so this is not surprising).
+
+I have come to this conclusion because the game NOWHERE mentiones audio CD in the documentation or in the program itself.
+This edition is still better than the ordinary floppy edition because it features video scenes."
+,dequec64,2011-09-19T00:20Z,"i've followed all the instructions int the .txt file, but when i type install, DOSBox says that it's an illegal command. i don't understand why. PLS HELP!"
+,dequec64,2011-09-19T02:10Z,sorry... i found how to do! thanks for this great torrent!

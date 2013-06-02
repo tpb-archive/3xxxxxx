@@ -1,0 +1,94 @@
+﻿User Type,Username,Date,Text
+,trabed,2006-11-14T18:07Z,does not work for me
+,Talzaroff,2006-11-14T18:22Z,"Doesn't work for me either... I d/l'ed the new Daemon tools, and tried 2 of the images supplied at the Pirate Bay, but neither of them works. Which one does?
+Or should we wait for a cracked 1.01 exe?"
+,frankzoekt,2006-11-14T18:34Z,Doesn't work.
+,MrPetteroes,2006-11-14T19:44Z,Make sure you dont have any other programs like alcohol120 etc installed. Will not work if you have other mounting tools. This IS working. YASU hide the securom 7.26 that is the protection on the cd.
+,Talzaroff,2006-11-14T20:06Z,"MrPetteroes, which image are you using then? I don't have anything else installed besides Daemon."
+,frankzoekt,2006-11-14T21:51Z,"I have no alcohol 120 or anything other then daemon tools, I installed 4.06 just for this one but I can't get it to work."
+,trabed,2006-11-14T21:55Z,"I tried different immages. I can only get version 1.00 working with the ""fixed exe"".
+I have DT 4.06 installed (all emulation options on) and no other virtual drives."
+,Gladiatorpk1,2006-11-15T08:17Z,whats the script? is it working or not?
+,OziOn,2006-11-15T22:53Z,Doesnt work for me.
+,Klemc,2006-11-16T07:28Z,Doesn't work here also!
+,Gladiatorpk1,2006-11-16T10:05Z,"I tried it exactly has it says in the description and it doesn't work, MrPetteroes you fucking noob , don't post anything if it don't work, ARTARD!!!
+
+Guess we gotta wait for a decent crack."
+,raevloek,2006-11-17T01:24Z,"MrPetteroes!
+
+Please, where did you find the image file you are using?
+"
+,Trawn,2006-11-17T11:49Z,Works with http://thepiratebay.org/tor/3542895/Sid.Meiers.Railroads.Working.BWCLONE-FLATBATTERY image.
+,raevloek,2006-11-18T00:06Z,"K, so I dled the above mensioned, 
+extracted the blindwrite files and mounted the bwt into DT 4.0.6, 
+installed the game. 
+Updated to 1.01, 
+disabled all my physical drives manually, 
+ran YASU, 
+and when I try to start the railroads.exe IT WON'T RUN. ..has encountered a problem and needs to close. 
+I don't have A120% installed. 
+
+We REALLY need a fix for the 1.01 exe, this game is just genius (except for all the bugs in the 1.00 version). Want to try the updated version before I go to the store and buy the game... :)"
+,trabed,2006-11-18T06:30Z,"raevloek, 
+I did the same as you and it works for me.
+This is how I disabled the drive: (with thanks to Norrkk)
+
+To disable a CD/DVD drive, right click on my computer, choose Manage. In the next window you'll have, on the left, Disk Management. 
+
+Choose your drive, right-click it, choose Drive letter and path. You'll see a box with the current drive letter (such as e:). Click ""remove"", confirm. the drive still exists but can't be seen in my computer. just click add and choose a drive letter when you need to enable it again. 
+
+Alternatively, open your psyhical compter and unplug the drive!
+"
+,trabed,2006-11-18T06:41Z,It appears that using the blindwrite image is indeed essential. Other images don't work
+,Gladiatorpk1,2006-11-18T09:24Z,It appears some people like to talk out of their fucking arses. Just wait for a proper crack ffs. Will be out within the week I reckon.
+,trabed,2006-11-18T10:31Z,lol
+,pistolgrip,2006-11-18T18:45Z,"OK.. I found the solution.
+1) First get this IMAGE if you havent already 
+http://thepiratebay.org/tor/3542895/Sid.Meiers.Railroads.Working.BWCLONE-FLATBATTERY
+2) Install game using daemon tools 4.06 with the   latest SPTD (v1.37 http://www.duplexsecure.com/downloads/)
+3) Install patch
+4) Make sure no emulation options are enabled in DAEMONTOOLS (or try securom)
+5) Go into regedit.. HKEY_LOCAL_MACHINE\system\mounteddevices
+6) Rename the ""\dosdevices\e:""  to something like ""1\dosdevices\e:"" . If your virtual drive isn't E: substitute the correct drive letter
+7) Try and play the game. If it crashes.. you have some leftover ""entries"" in the mounteddevices registry area. Delete ANY drives shown with the \dosdevices which are no longer on your system.
+8) 1 out of 5 runs it asks me to insert the original disk.. simply rerun railroads.exe to try again and it should work next time.
+
+100% guaranteed to work.. took me 3 hours after downing that good image.
+"
+,pistolgrip,2006-11-18T18:46Z,"One more thing.. make sure you rename the ""1\dosdevices\e:"" back to ""\dosdevices\e:"" after you finish playing.
+
+Also you don't need any loaders or anything with what I just gave."
+,pistolgrip,2006-11-18T18:54Z,"Finally if RAILROADS is crashing.. it is because of leftover entries in the mounteddevice registry area.. BE CAREFUL deleting the old virtual drives. DO NOT DELETE \dosdevices\c: for instance.
+
+I had 2 entries which were causing it to crash.. a g: and I: entry. After deleting them the crash went away. Leave the \??\ registry keys alone. Only delete drives which have \dosdevices\ in them which are no longer on your system."
+,pistolgrip,2006-11-18T20:40Z,Also I have no physical drives in my computer.. so make sure you disable your real drives like the other posts said to.
+,Oddredsock,2006-11-22T02:52Z,There are no seeds for the torrent of thr blindwrite image. Any help would be appreciated.
+,BlacknRedGT,2006-11-25T01:08Z,"Thanks pistolgrip, Been trying to get this shit to work for hours with the new patch. Your way works. Sucks having to d/l the game over again but its all good."
+,didimau,2006-11-27T10:33Z,"check out the big brain on pistolgrip!
+
+thanks man!
+works great!"
+,raevloek,2006-11-29T00:49Z,"Beautiful! Thanks for helping us less gifted individuals enjoy ourselves... 
+
+Works!"
+,pistolgrip,2006-11-30T11:06Z,"NP guys.... this game still needs a little more spice to be fun over the long term... but its good for a few hours here and there. :)
+
+I hope they add more in a patch. BTW The fix I outlined here also fixes some other games.. Neverwinter Nights 1.02 being one with the same crash bug as this due to SECUROM."
+,Jouko123,2006-12-03T14:47Z,did work 4 me...just update DT to 4.08E and run YASU
+,ad23,2006-12-05T10:35Z,"hope this helps ...
+
+if you still can't get the game to load just to disable the ez-play function in blindwrite.
+
+I tried all the steps listed here by pistolgrip but still wasn't able to play the game until I realised it was because of the ez-play function in blindwrite. Just run the ez-play tool and select to uninstall it. 
+
+Pistolgrip's guide works for me but so does just running YASU.
+
+I am running DT 4.08 and YASU 1.03"
+,Lesardah,2006-12-14T07:43Z,"This absolutely works, just as written.
+
+You MUST have the blindwrite image, as the poster said. Once you mount it under DTools 4.08 and run YASU (included in this torrent), it'll fire right up.
+
+In my case, I didn't even have to disable the drives to run it.
+
+Good friggin job!"
+,Magisken,2007-02-25T16:02Z,how does Daemon tools work !!?? i dont know how to open or run it plzzz help!
