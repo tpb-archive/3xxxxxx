@@ -1,0 +1,230 @@
+﻿User Type,Username,Date,Text
+,JimmyTheGent,2008-01-18T09:10Z,"Brand new to Linux, what is the best version? This seems to be the newest and most popular torrent.   Is this x86 and x64?
+Thanks, Jimmy"
+,JimmyTheGent,2008-01-18T12:55Z,"never mind. 
+I'm trying Sabayon first."
+,uhsarp,2008-01-18T18:14Z,it's 32-bit
+,aTanCS,2008-01-19T20:29Z,Why is it Exclusive?
+,JimmyTheGent,2008-01-20T01:48Z,I could not get the ISO to extract
+,uhsarp,2008-01-20T23:25Z,"@JimmyTheGent 
+
+Don't try to extract the ISO file. try to burn it to a DVD using Nero/Magic Iso or any other burning software.
+
+For Nero, click on file->open (select the ISO file) and then burn it.
+
+@ aTanCS
+
+Well ...ony 5 CD version of RHEL 5 is available. The is the only DVD version (other than the one or two releases found on the internet)"
+,adrak,2008-01-24T17:29Z,thanks !!!  I will seed it till u post another update for this
+,tipu2185,2008-01-27T09:22Z,What is its serial No.????
+,blackmantis1,2008-01-28T11:57Z,"This dvd is not bootable. Does anyone have any info on how to make it bootable.
+
+Thanks"
+,uhsarp,2008-01-28T23:16Z,"@blackmantis1 
+
+The DVD is bootable. Just don't extract the ISO. burn it directly using Nero or MagicIso and use it. If you're still having problems, then open the boot.iso file with magicIso, extract the contents of the DVD iso and add them to the boot.iso (already opened in MagicISo), save the image with a new name and you can use it instead!"
+,blackmantis1,2008-01-29T03:44Z,"@uhsarp
+Thanks for your reply! I burned the iso and it didnt work in 2 different systems. I also extracted the iso with poweriso and recreated and burned with the same result. Both systems boot fine with my Solaris and SuSe install dvds. I downloaded the 5cd's and it boots fine. Thanks for your help."
+,AkashKalgude,2008-01-30T06:17Z,doesnt boot for me either.
+,AkashKalgude,2008-01-30T23:31Z,"well, it does show bootable but it sure didnt boot.
+i burned the .iso using nero, now im burning it with magiciso. i'll let u know what happens.
+i've got my fingers crossed."
+,WaR2k,2008-01-31T00:04Z,"Same thing for me. It shows ""bootable"" but it doesn't work. I tried burning it with nero (first time) and I tried with magic iso after that (rebuilt) and it still doesn't boot."
+,AkashKalgude,2008-01-31T05:42Z,"kz, burned it with MagicISO, still doesnt boot. i dont understand whats the problem, has it got something to do with the drive???"
+,blackmantis1,2008-02-02T01:24Z,"Tried booting just the iso file with VMWARE and its not detected. There is something wrong with this ISO I would love to get it working so i can load vmware test server.
+
+Thanks"
+,tipu2185,2008-02-03T10:28Z,"Ok I found the installation No. so share with you guyz
+2515dd4e215225dd
+For me bootable DVD so enjoy"
+,evil_stroker,2008-02-05T08:25Z,It's working fine with VMWare. Use the iso image directly with VMWare or burn it if you want to install it onto a physical Machine.
+,evil_stroker,2008-02-05T08:31Z,"@gmeanie
+
+Even if you manage to get a Serial Number somewhere from the internet, it's gonna get blocked soon as it spreads everywhere. So there's no point in using it. If you insist on updates, refer to CentOs repo. It's the opensource clone of RHEL."
+,d0wnl0ader,2008-02-10T14:21Z,"it working great with VMware and i am sure it would work with dvd installation as well if you know how to burn it first in dvd.
+
+i thought that linux is open source but the redhat cost you alot of money? it sucks . atleast they shouldnt block the installation number :_("
+,khoolguy,2008-02-28T06:49Z,"Chk any of these:
+
+* Red Hat Enterprise Linux (Server including virtualization):
+   2515dd4e215225dd
+
+  + Red Hat Enterprise Linux Virtualization Platform:
+    49af89414d147589
+
+Client:
+
+* Red Hat Enterprise Linux Desktop:
+   660266e267419c67
+
+  + Red Hat Enterprise Linux Desktop + Workstation Option:
+    da3122afdb7edd23
+
+  + Red Hat Enterprise Linux Desktop + Workstation + DualOS Option
+    (Virtualization):
+    7fcc43557e9bbc42
+
+  + Red Hat Enterprise Linux Desktop + DualOS Option (Virtualization):
+    fed67649ff918c77"
+,iabhijit,2008-03-25T09:57Z,"I'm still dl'ing....so haven't had a chance to try any of these... got em off emule.
+
+Does 2515dd4e215225dd not work??
+
+@@@@@@@@@@@@
+
+
+Server:
+
+* Red Hat Enterprise Linux (Server including virtualization):
+   2515dd4e215225dd
+
+  + Red Hat Enterprise Linux Virtualization Platform:
+    49af89414d147589
+
+Client:
+
+* Red Hat Enterprise Linux Desktop:
+   660266e267419c67
+
+  + Red Hat Enterprise Linux Desktop + Workstation Option:
+    da3122afdb7edd23
+
+  + Red Hat Enterprise Linux Desktop + Workstation + DualOS Option
+    (Virtualization):
+    7fcc43557e9bbc42
+
+  + Red Hat Enterprise Linux Desktop + DualOS Option (Virtualization):
+    fed67649ff918c77
+
+@@@@@@@@@@@@@@
+some more:
+
+a client key
+0000000e0017fc01
+
+a server key
+000000e90007fc00
+
+A server key with Cluster
+00000065000bfc00
+
+A server key with ClusterStorage
+000000ab000ffc00
+
+server with HPC
+000000e30013fc00
+
+server with Directory
+000000890017fc00
+
+server with SMB
+00000052001bfc00"
+,llsz,2008-04-12T10:07Z,Thanks :)
+,arebokert,2008-04-19T00:03Z,"why do i get this in every file?:
+
+C:\Documents and Settings\Sclaeo P\Mina dokument\Downloads\redhat\rebuilt.RHEL_5_prashu.net.part02.rar: packed CRC failed in RHEL_5.iso. Volume is damaged"
+,russel2005,2008-05-26T08:54Z,"thanks ""khoolguy"" ur server cd key was working on my stallation.  i'm greatful to you."
+,darkspaceboy,2008-06-04T12:43Z,i was trying to install it on a  IBM xseries 350 server with 4 700MHZ CPU's and 2 gigs of ram. and it worked all the way up tell it asked if i wanted to test the cd media. i selected skip. then it asked if i wanted to use the GUI interface or text interface. i selected GUI. then it just went to a black screen with a X for the muse courser.    
+,darkspaceboy,2008-06-04T14:57Z,and does anyone have a sub. key that works. and ant spamed all over the internet
+,darkspaceboy,2008-06-04T15:27Z,umm ya. i got it to work. it just had a brain fart the first time i tried it.
+,darkspaceboy,2008-06-04T16:57Z,welll fuck. now it dont want to boot. it keep giving me errors. and had to reboot. now it dont want to go past the black screen with the x for the mouse curser
+,chemika,2008-06-23T14:49Z,"is it workstation support or desktop edition??????? pls reply i want cleint edition of Redhat Linux Enterprise 5 !!!
+so which one i should install for cleint nodes"
+,chemika,2008-06-23T14:52Z,"hei i forget is this x86-64 edition or 32 bit edition pls reply
+
+i want x64 bit client edition for servers 
+
+thanks in advance"
+,Naraleitz,2008-09-20T16:39Z,Why aren't you just using CentOS instead?
+,Dj-mamali,2008-09-29T13:06Z,"i cannot install it..
+it comes only error like unable to find install image /tmp/cdrom
+
+what is it? :O
+plzz help "
+,nivix,2008-10-03T13:56Z,"Hi Friends !,
+
+Kindly some one seed, I need this OS very urgently please...
+
+Advance Thanks for all those seed.
+
+Regards,
+SMR..."
+,nivix,2008-10-19T06:45Z,"Hi,
+I have problem in booting. I burnt the ISO file using nero 6.6 but it doesn't boot in any of the systems I have(?). I'm not sure how to change or modify the ISO to make it bootable.. Kindly some one give me clear steps to do that.. I would be greatful for the Help... I have MagicISO 5.4 installed... Advance thanks for the Help...
+
+Nivix... "
+,2SpiLoT,2008-11-01T04:27Z,"Hello everyone.
+
+I've installed it succesfully but whenever I start RedHat Enterprise 5 It gives me an error ""USB 1-2: Device not accepting address -2, 71"". Hope someone helps me."
+,2SpiLoT,2008-11-01T04:28Z,"Ah and I forget to mention that after the error by 10~12 seconds the screen goes ""Out of Range!"""
+,Naffnuff,2008-11-25T16:34Z,Nice of you to mention that this is the Server ed.
+,linux_box,2008-12-08T18:02Z,"Folks,
+i have notice that in the 12 years i have been computing os's seem to be a problem untill now. im a great fan of fedora, i have been running the server app for several years. as you know its free!. it is 7.1 with a new coat of paint, its self upgradeable. i will offer too help you . i have been around the barrel many times and lost thousand's of hours experimenting. i have the core 8 running currently on 686, i have booted it on 386 but not well.  this is wonderful. if you are having trouble with linux contact me at fedora_help@yahoo.com and i can make you a live cd or flash drive and never fool around again"
+,newberemis,2008-12-11T23:53Z,not support disk SATA.  
+,ravi1188,2009-01-08T13:23Z,"can anyone pls seed ,i m stuck at 96%,pls help me by seeding"
+,criminalverse,2009-04-04T22:58Z,WAY TOO MANY RAR FILES  BRO NO WAY I DOWNLOADED THE LINK ABOVE!
+,vaghig,2009-04-14T22:01Z,can any one please extract the boot files of the RED HAT ENTERPRISE LINUX 5 DESKTOP DVD as an ISO file and send it to my email vaghig@gmail.com or upload it somewhere so i can download it .
+[T],Malkavius,2009-04-15T16:31Z,"Lassik, I was wondering how long it would take someone to mention that...
+
+I'm running CentOS on my two Proliant servers."
+,fearfears,2009-04-17T15:00Z,i downloaded the red hat.iso.....and i burned it using nero burning rom in a dvd..it was burned...but it didnt boot from dvd..i have problem...but i want to learn redhat os...i dont know how to write in magic iso..please anyone help me..plsssssssssssssssssssss.... 
+,vaghig,2009-04-19T16:37Z,please someone upload the boot iso of this torrent .. i need it
+,muhkkhan,2009-05-01T11:52Z,hey can any one tell me how to boot frm that image i am not able to make a bootable DVD with this image 
+,yai63,2009-05-09T01:03Z,"wats the password guys 
+when i visited at http://prashu.net
+i didnt find the site can anyone tell me the password for extracting in the win rar"
+[T],Ferrelas,2009-05-16T19:40Z,http://prashu.net is the password :P
+,Grafixx01,2009-06-14T05:22Z,I've downloaded this and tried to burn it directly with PowerISO and Roxio. Three DVDs and NONE boot up as everyone says they're supposed to. Can anyone assist me with this? I see nothing remotely close to any type of EXE file. I have just 6 folders and then a bunch of HTML files on the DVDs.
+,rob2uk,2009-07-07T23:09Z,"@Grafixx01:
+
+Are you trying to run the DVD from within Windows or are you starting your PC with the DVD in the drive?
+
+If it's the 2nd one, you need to check that your PC is set to boot from CD/DVD in the BIOS"
+,MPG187,2009-09-18T05:34Z,This the newest version as of now?
+,tennisboy1222,2009-10-01T09:45Z,"can i use this on VMware?
+i have a 64-bit machine, thats why im asking...
+this seems like a 32-bit os..."
+,T-Sneaky,2009-10-02T02:22Z,"@tennisboy1222
+
+Yes you can.
+Explanation: You can run a 32 bit OS on a 64 bit Machine. You can't run a 64 bit OS on a 32 bit Machine.
+
+Cheerz!"
+,sevenkom,2009-12-21T19:10Z,"Hi good torrent
+
+but now, i don't have the install key, just skip this step.
+
+after configure my repo, i try to use yum so i receive this message: Error: Cannot open/read repomd.xml file for repository: dvd.
+
+Please i need the help to continue.
+"
+,sevenkom,2009-12-27T01:33Z,"Hi 
+sorry, so this install number is fine.
+
+Merry christmas "
+,vinaytejareddy,2010-01-01T06:45Z,is this full version or trial
+,jamesmk2003,2010-01-02T02:18Z,If you can not boot your DVD it is because some DVD's are not compatible. It is the only reason. Lend DVD from your friend and try again.
+,mmmwww,2010-01-17T01:56Z,"I used 2515dd4e215225dd and was able to install. But now when I try and access the red hat network during setup I get
+The entered subscription number can only be used by the installer.
+
+Do I need a seperate subscription number?"
+,GreyZer0,2010-01-27T00:21Z,"Thanks ,Please Seed!"
+,swexpert,2010-03-08T16:49Z,"Winrar does not extract the file, says CRC error on Part 15. I downloaded part 15 again but still the problem. Something wrong in the archive. There are total 26 parts but progress reaches 90% reading part 14...
+
+Thanks anyway
+SG"
+,joshpop,2010-05-29T17:41Z,"I am having some serious issues downloading this.  Transmission says ""unregistered torrent pass"".  I'm confused as to how I am supposed to get this going.  Helpz?"
+,getthu4u,2010-06-15T09:34Z,how to write it into dvd?i get some winzip file aftr dwld.anybody pls help me..how to write it into dvd
+,h64,2010-07-08T02:30Z,RARS SUCK YOU SUCK
+,sycoslicer,2010-07-13T09:20Z,Seed this please.
+,LinuxLair,2010-07-17T17:29Z,"To Know More About Linux,friends in India can send an SMS having text:rnrnON LinuxLairrnrnrnto 9870807070"
+,mofobun,2010-09-29T11:48Z,"Why not just use CentOS? Is it the icons, or what?"
+,imhaywire,2011-01-05T08:29Z,To all that are bitching about the rars....it goes faster when broken up into small pieces. Double click the first rar and extract it's that simple. quit crying it's free. Works fine on my VMware. I'm running windows 7 ultamate 64bit. I just mounted the image on Daemon tools and used that for the drive to install in VMware....had issues just using the iso file for some reason.
+,cm0nster6,2011-03-06T22:32Z,"Try isorecorder, thats wut i use"
+,syedabbas,2011-04-13T11:51Z,"Hi, These are 26 RAR files, when I try to extract 1st file, it asks for password. Will somebody help me???"
+,syedabbas,2011-04-13T12:12Z,Yeah I've got it and it's working. Thanks a bundle
+,stigglr,2011-05-02T09:29Z,"Worked for me on VMware速 Workstation 7.1.3. I had to reconnect the ISO to the VM during installation, but it only took a minute to figure that out.
+
+Thanks for the upload, uhsarp!"
+,weezykid,2011-07-30T01:18Z,Randmate - skip the disk check and it will install
+,soham1986,2011-12-19T03:41Z,Password not working 

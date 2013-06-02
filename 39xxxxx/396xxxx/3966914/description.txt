@@ -1,0 +1,25 @@
+DVDFab Platinum 4.0.4.0 Beta Full Setup - Custom Style
+
+InnoSetup-dev Theme styled (+ ~1MB)
+ 
+2 Profiles rip to mp4 for standard MP4 DVD Players with pre settings added:
+- Generic rip to DivX CD/DVD Profile
+- Generic rip to XviD CD/DVD Profile
+with enabled MP3 Lame 112 kb/s added. FPS NTSC/PAL selectable in range by default.
+640x480 added to selection, which is fullscreen by 4:3 movies standard DVD Player / TV Set compatible.
+- integrated Patin-couffin driver Access layer test and configuration tool v1.37, shortcut added
+
+
+Jan 6, 2008
+DVDFab Platinum 4.0.4.0 Beta:
+- New: Improved PathPlayer performance, the DVD opening time is reduced from 3-4 minutes to 1-2 minutes in most cases.
+- New: Improved PathPlayer accuracy to detect real unplayable cells.
+- New: PathPlayer is enabled by default now.
+- New: Select correct main title for "Simpsons Movie" (US), with help of PathPlayer.
+- New: Improved compatibility with some standalone DVD players.
+- New: Updated language files.
+- Fix: "Jump to main title when disc inserted" doesn't working when copying "Eastern Promises" (US).
+- Fix: A reading error problem when copying some copy protected discs.
+- Fix: "Split" backup disc cannot be played on standalone DVD player in certain cases.
+
+Full patched extended Installer with theme style 7,37 MiB (7.732.540 bytes)

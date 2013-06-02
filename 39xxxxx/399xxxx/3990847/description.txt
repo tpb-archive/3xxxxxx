@@ -1,0 +1,46 @@
+This is a wow server for version 2.3.2! (Ascent)
+
+Ok u maby will need some intructions. Sorry for my english if i wirte wrong.
+
+Step 1 : First install the file to C:/ (recomended)
+
+  Then open ur foler (Server folder) and find a fiel called ad.exe or ad.-gb.exe
+  Put that in your main wow folder and make a file called \"maps\"
+
+Step 2 : Start ur ad.exe and wait to finish ..can take a wile. depends on ur computer
+
+  Now put ur map folder in ur main server file
+
+Step 3 : Now click on a thing called start backround.
+
+  Start ur Ascent.exe and your logonserver.exe
+
+Step 4 Connection : Now go to your realmlist file in WoW folder open using notepad.
+
+  And change it to set realmlist 127.0.0.1
+
+--------------------->NOW LOGIN AND PLAY !<------------------------
+
+If u want ur friends to play u can download a program called hamachi.
+Then start a hamachi server.
+
+Step 1 : Go into ur realm.conf in ur server file
+
+Step 2 : Then u go to Realm 1 and change address to ur hamachi ip. 
+
+Example : Adress = \"5.161.224.30:8129\" Remember to have :8129 there !!!!
+
+( U can change ur server realm here to under Name.
+
+Now ur friend need to join ur hamachi server and then ur wow server.
+
+---------------------->NOW UR FRIENDS CAN PLAY<-----------------------
+
+OBS ! OBS ! OBS !
+
+To create a account u need to do it from the GM acc ( Gm acc = Name = admin password = admin)
+
+Type createaccount name password email flag  (if flag 8 =the nu have BC)
+
+     
+UR  LOGON.EXE and ASCENT.EXE MOSTE BE UPP FOR PLAYING !!	

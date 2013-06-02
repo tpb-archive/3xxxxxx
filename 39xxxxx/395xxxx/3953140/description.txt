@@ -1,0 +1,21 @@
+ http://events.ccc.de/congress/2007/Fahrplan/events/2285.en.html
+
+Speakers:    	 Arien Vijn
+
+10GE monitoring live!
+
+How to find that special one out of millions
+
+There are many open source tools available to do packet capturing and analysis. Virtually all networkers use these tools. However millions of packets per seconds are just too much for general-purpose hardware. This is a problem as 10 Gigabit networks allow for millions of packets per second.
+
+The obvious solution for that issue is to lower the data rates by filtering out ?uninteresting? data out before it gets processed by the general purpose computer hardware.
+
+This can be accomplished in a specialised Network Interface Card (NIC). The specialised NIC presented in this talk was originally developed for security purposes, but it allows for modifications since it is built around programmable logic (FPGAs). This was presented as slide-ware during last years congress as most of it was not working back then. This year it is possible to demonstrate results.
+
+This presentation will consist of three parts, namely:
+
+1/ Introduction 10 Gigabit Ethernet frame and data rates. Problem description, with some empirical data on the performance of modern generic computer hardware.
+
+2/ Overview of the architecture of the proposed solution, its MISD architecture and the homegrown firm and software.
+
+3/ Technical details and demonstrations on the implemented features.

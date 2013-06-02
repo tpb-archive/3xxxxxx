@@ -1,0 +1,55 @@
+VSO ConvertXtoDVD 2.2.3.258h Registered - FullVersion Setup *by AxMan [RE]
+
+ConvertXtoDVD converts and burns your internet movie files to a Movie DVD.
+It's a 1 click solution to convert your movie files to a Movie DVD playable on any old non DIVX/MP4 supported home DVD player.
+
+You will not get a higher quality by converting to a bigger filesize!
+It's usefully if your DVD Player do not support other formats as standard DVD's and (VCD-SVCD) playback to make movies compatible with old players.
+
+Supports most popular format such Divx, Xvid, MOV, VOB, Mpeg, Mpeg4, AVI, WMV, DV and stream formats.
+It converts your single files into a compliant DVD Video set of files and burns it on a DVD media.
+The aspect ratio can be automatically selected or forced to a specific format.
+The program works for NTSC and PAL video formats and creates chapters automatically.
+Multiple audio tracks are supported.
+The version 2 uses a completely rewritten interface with subtitles support and a lot of new settings.
+
+ConvertXtoDVD changes history
+
+ConvertXtoDVD - 2.99.6.412
+==========================
+Compiler updated
+menus fixes when using several titles
+text resizing fixes
+- 0001494: [Bug] Title length calculated on subtitle length (wesson)
+- 0001489: [Suggestion] field selection behaviour (wesson)
+- 0001478: [Bug] Access violation in the logs using specific Subtitle Files (wesson)
+- 0001474: [Suggestion] v2.99.3.408: Input Stream 1 becomes Output Stream 0 in the logs (wesson)
+- 0001487: [Information] Grayed out fields in panels ? (wesson)
+- 0001498: [Information] Expand tree (wesson)
+
+ConvertXtoDVD - 2.2.3.258h
+Licensed by AxMan Changes:
+===============================
+- All embedded windows registry entries for affiliate removed
+e.g (www.vso-software.fr/?ap=affiliateprogram&aid=affiliateID)
++ Valid Key embedded
++ patin-couffin DVD/CD Driver and Config Engine Control Shortcut added to Program Group
+- piracy url by "call home" send/check Lic Key in program removed!
+- update url with customer IP check gone (http://www.vso-software.fr/update/)
+Setup Compiler updated to 5.2.3-dev cvs
+program exe compressed with UPX 3.02
+
+ConvertXtoDVD - 2.2.3.258g
+===============================
+- compiled with latest innosetup 5.2.2
+- ASPack removed - ConvertXtoDVD is now eXe Protection free for better compatibility!
+
+ConvertXtoDVD - 2.2.3.258f
+=========================
+- update the installation script for affiliate with custom build feature :
+e.g http://www.vso-software.fr/?ap=affiliateprogram&aid=affiliateID
+where affiliate program can be regnow, avangate, shareit and the affiliateID associated to this affiliate program.
+
+ConvertXtoDVD - 2.2.3.258d
+=========================
+- fix a problem of packaging with new unstable dlls.

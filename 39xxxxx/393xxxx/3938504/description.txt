@@ -1,0 +1,16 @@
+54 complete broadcasts and 16 partial broadcasts of the much beloved, but now cancelled CBC Radio 2 programme Brave New Waves. Episodes span from November 28, 2006 to the final broadcast on March 16 2007. Each complete broadcast consists of a one hour portion with live guest DJ's Helen Spitzer or Joshua Carpati followed by three hours of "The Best of Brave New Waves" pre-recorded with the traditional host Patti Schmidt. 
+
+The files were ripped directly from the live CBC Radio 2 Toronto stream (i.e., don't blame me for the format or quality) with
+
+mplayer -playlist http://origin.www.cbc.ca/mrl2/livemedia/cbcr2-toronto.asx -dumpstream -dumpfile $date.wma
+
+and subsequently "repaired" to allow seeking with the "Lost Chunks" facility of AsfTools3.1.
+
+Should you wish to convert them to mp3, you might try 
+
+mplayer $date.wma -ao pcm:file=$date.wav
+lame --preset standard $date.wav $date.mp3
+
+This will however increase the file size and probably add further lossyness, hence why they are still in this atrocious format.
+
+If others have old recordings of the show, please upload!

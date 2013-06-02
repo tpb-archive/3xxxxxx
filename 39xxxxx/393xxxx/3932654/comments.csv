@@ -1,0 +1,96 @@
+﻿User Type,Username,Date,Text
+,bobtentpeg,2007-12-13T23:07Z,"all you did was remove the serial.bundle
+
+this isnt a [k]"
+,malutemol,2007-12-13T23:29Z,"bobtentpeg ,this file works ¡¡"
+,bobtentpeg,2007-12-13T23:56Z,"I'm aware of that, I was mearely saying its not a [k]"
+,bobtentpeg,2007-12-14T00:43Z,[k]=krack
+,bobtentpeg,2007-12-14T01:41Z,"No :P, all I;m saying is calling it [k]'ed is incorrect.  There was no crack or patched applied. "
+,DEATHMOVE,2007-12-15T03:09Z,"i didn't download this, but if it works its [k]"
+,Vertiphon25,2007-12-20T11:27Z,"Don't bother with this, go get MacFuse:
+http://code.google.com/p/macfuse/
+
+Install then restart.
+
+Then get this:
+http://www.soft32.com/Download/Free/NTFS3G/4-200394-1.html
+The catacombae NTFS-3G plugin will automatically mount your NTFS partitions.  Install it, restart."
+,desmomini,2007-12-24T01:33Z,"I installed it, and my ntfs disks could no longer be mounted.
+
+I installed the trial version of paragon NTFS downloaded from their site, and it worked.
+
+Uninstalled the trial, and again I can't mount NTFS partitions any more.
+
+How do I uninstall this one??? help!"
+,simonhojland,2008-01-01T22:28Z,"Don't bother downloading this, download http://thepiratebay.org/tor/3956898/Serial_Box_01-2008
+and then download the trial from their website
+http://www.paragon-software.com/home/ntfs-mac/download.html
+
+It works, just tryed it. This one installs, and does not work.
+
+enjoy!"
+,jojolavideo,2008-03-11T12:50Z,"yes serial box give a good sn it work on my G5 nothong to do just use ntfs like hfs so cool
+but the serial dont work on my labtop why ???
+how it can happen ?"
+,xalexas,2008-04-12T19:59Z,"Don't install this! It's crap which will cause your system to be unable to mount NTFS AT ALL! If you have that problem already read this:
+
+http://forum.osx86scene.com/viewtopic.php?f=13&t=3117&p=22636#p22636"
+,enyceexdanny,2008-05-05T02:44Z,"xalexas, the later versions (6.0, 6.5) doesn't exhibit this issue.
+
+I used 6.0 for about a week, but it is still a bit unstable. But overall, the write speed is much faster than MacFUSE+ntfs3g.
+
+I ended up uninstalling, and downloaded a trial for 6.5. And it's much more stable now.
+
+While I'm on the subject, can anyone get the crack/serial for 6.5?
+
+The serial number scheme seems to be different now. It doesn't accept certain characters.
+
+Thanks =)"
+,vitods,2008-09-22T21:06Z,"please can someone help me uninstall this? After installing I can't even mount the windows partition!!
+
+xalexas it seems like your post would be useful but the link is now dead... can you help me please????"
+,montinhoman,2008-11-22T20:05Z,"how to uninstall this:
+get Pacifist and open it, insert your Mac OSX install CD / DVD and click Open Apple Install Discs in the Pacifist window.
+In the window that will open, select your the disc then click Choose.
+Navigate to: Contents of OSInstall.mpkg\Contents of EssentialSystemSoftware\Contents of EssentialSystemSoftwareGroup\Contents of BaseSystem.pkg
+from this package select those files:
+
+/System/Library/Extensions/ntfs.kext
+/System/Library/Filesystems/ntfs.fs
+/System/Library/Filesystems/nfs.fs
+/sbin/mount_ntfs
+/sbin/mount_nfs
+
+Click Install and insert your password, if it asks to replace a file, click replace (for all files)
+after that, restart your mac and thinkgs should be back to normal."
+,montinhoman,2008-11-22T23:19Z,"How to UNINTALL this thing (UPDATED):
+get Pacifist and open it, insert your Mac OSX install CD / DVD and click Open Apple Install Discs in the Pacifist window.
+In the window that will open, select your the disc then click Choose.
+Navigate to: Contents of OSInstall.mpkg/Contents of EssentialSystemSoftware/Contents of EssentialSystemSoftwareGroup/Contents of BaseSystem.pkg
+from this package select those files:
+
+/System/Library/Extensions/ntfs.kext
+/System/Library/Filesystems/ntfs.fs
+/sbin/mount_ntfs
+/sbin/fstyp_ntfs
+
+Click Install and insert your password, if it asks to replace a file, click replace (for all files)
+
+now, delete the folowing files from your HD:
+
+/sbin/fsck_ntfs
+/sbin/newfs_ntfs
+/System/Library/Filesystems/paragon_ntfs.fs
+/usr/local/lib/libUFSD.dylib
+
+after that, restart your mac and things should be back to normal."
+,Kabooka,2008-12-25T07:12Z,"this thing is absolute crap , it sux ass. it totally fucked up my system . i cant even mount my ntfs disks anymore.
+
+
+die & suck your mothers cock malutemol"
+,chimitron,2009-03-07T23:47Z,"¡¡¡ IMPORTANTE !!!
+
+Como bien está comentando otra gente, no instalen esta aplicación. 
+He probado otra versión de Paragon NTFS y funciona perfectamente pero, la versión de este torrent hace que no vuelvas a montar particiones NTFS y tengas problemas con los discos externos. 
+
+NO RECOMIENDO ESTE TORRENT PARA NADA!!!"

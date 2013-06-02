@@ -1,0 +1,37 @@
+MPEG2Repair: K:Lights.Camera.Girls.ADULT.1080.DD51.ts
+
+
+Sequence Frame 249(2-I) / Time 0:00:08 :
+AudioError: Corrupted AC3 frame of 2702 payload bytes at file offset 19267264
+AudioWarning: Timestamp gap of 0.031989 sec. ending at file offset 19474636
+
+Sequence Frame 8849(5-P) / Time 0:04:55 :
+AudioError: Corrupted AC3 frame of 2702 payload bytes at file offset 681397688
+AudioWarning: Timestamp gap of 0.032000 sec. ending at file offset 681536188
+
+Sequence Frame 8876(13-B) / Time 0:04:56 :
+VideoWarning: TemporalRef gap of 1.  Timestamp gap of 0.033367 sec. ending at file offset 681252824
+
+Sequence Frame 44942(8-P) / Time 0:24:59 :
+AudioError: Corrupted AC3 frame of 2702 payload bytes at file offset 3460928564
+
+Sequence Frame 44947(10-B) / Time 0:24:59 :
+AudioWarning: Timestamp gap of 0.032000 sec. ending at file offset 3461289336
+
+Sequence Frame 66188(13-B) / Time 0:36:48 :
+Info: End of MPEG2 sequence
+
+Sequence Summary:
+
+File Size Processed: 4.75 GB, Play Time: 00h:36m:48s
+1920 x 1080, 29.97 fps, 65.00 Mbps (17.56 Mbps Average).
+Average Video Quality: 71.51 KB/Frame, 0.28 Bits/Pixel.
+AC3 Audio: 3/2 Channels (L, C, R, SL, SR) + LFE, 48.0 kHz, 384 kbps.
+Dialog Normalization: -31.0 dB, Center Mix Level: -3.0 dB, Surround Mix Level: -3.0 dB
+0 of 66188 video frames found with errors.
+3 of 69011 audio frames found with errors.
+0 corrupted video bytes in file.
+0.033367 seconds of video timestamp gaps.
+0.095989 seconds of audio timestamp gaps.
+
+End of Log

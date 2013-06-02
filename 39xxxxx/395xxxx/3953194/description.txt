@@ -1,0 +1,13 @@
+ http://events.ccc.de/congress/2007/Fahrplan/events/2303.en.html
+
+Speakers:
+	lucy
+
+
+Debunking Mac OS Myths
+
+Many buzzwords are associated with Mac OS X: Mach kernel, microkernel, FreeBSD kernel, C++, 64 bit, UNIX... and while all of these apply in some way, "XNU", the Mac OS X kernel is neither Mach, nor FreeBSD-based, it's not a microkernel, it's not written in C++ and it's not 64 bit - but it is UNIX... but just since recently.
+
+This talk intends to clear up the confusion by presenting details of the Mac OS X kernel architecture, its components Mach, BSD and I/O-Kit, what's so different and special about this design, and what the special strengths of it are.
+
+The talk first illustrates the history behind BSD and Mach, how NEXT combined these technologies in the 1980s, and how Apple extended them in the late 1990 after buying NEXT. It then goes through the parts of the kernel: Mach, which does the typical kernel work like memory management, scheduling and interprocess communication, BSD, which provides the POSIX-style syscall interface, file systems and networking to user mode, and I/O-Kit, the driver infrastructure written in C++. In the end, a short overview on how to extend the kernel with so-called KEXT will be given, as well as an introduction on how to hack the (Open Source) kernel code itself.

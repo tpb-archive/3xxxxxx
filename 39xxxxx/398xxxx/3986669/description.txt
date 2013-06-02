@@ -1,0 +1,8 @@
+Dark Alex's new firmware has finally hit the web, bringing it inline with Sony's version 3.80 firmware. One lovely new feature under the hood though is the ability to upgrade your firmware without having to trek through websites, copy it to your card and the rest of the monotonous process.
+
+Update Includes:
+HEN core: user mode can load now signchecked files from flash. recovery: flash1 format will create flash1 directories after format. This could fix some flash1 issues with the previous versions. Network update from dark-alex.org page. By default is enabled. You can turn it off in recovery (when off, network update will download sony updates as usual). Nids resolver for various kernel libraries.
+
+Instructions Included, in english.
+
+Bazzach.

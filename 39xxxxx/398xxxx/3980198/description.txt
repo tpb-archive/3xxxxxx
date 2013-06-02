@@ -1,0 +1,72 @@
+EVEREST Ultimate v4.20.1257 + Corporate Edition v4.20.1255 + Everest Home Latest Beta Registered Multilanguage FULL
+
+EVEREST Ultimate Edition is a system diagnostics and benchmarking solution
+for enthusiasts PC users, based on the award-winning EVEREST Technology.
+During system optimizations and tweaking it provides essential system and overclock information,
+advanced hardware monitoring and diagnostics capabilities to check the effects of the applied settings.
+CPU, FPU and memory benchmarks are available to measure the actual system performance and
+compare it to previous states or other systems. Furthermore, complete software, operating system
+and security information makes EVEREST Ultimate Edition a comprehensive system diagnostics tool
+that offers a total of 100 pages of information about your PC.
+
+Latest Changes:
+
+*Intel 45nm processors support
+*Enhanced support for Intel Itanium and Itanium 2 systems
+*Support for the latest ATI and nVIDIA DirectX 10 graphics processors
+*AES multi-threaded data encryption benchmark
+*New bandwidth efficient mode for Remote Control
+*System Stability Test with flexible hardware monitoring
+*Support for the cutting-edge technologies
+*full support for Radeon HD 3850 and 3870
+*labeling temperature readings fixed
+*more motherboards supported
+*implemented Apple SMC support
+*add GeForce 8800 GTS 512 GPU support
+*implemented support for nForce 780i SLI chipset
+*updated the FB-DIMM slots numbering logic, and fixed the +5V reading.
+*extended the chipset information
+*updated the GeForce 8xxx and 9xxx texel fillrate calculation method
+*added some new Mass Storage and Composite USB device IDs
+*fixed display pages changed after resuming from sleep mode
+*fixed Aux <-> CPU temperature issue
+...
+reference adviser account by esupport set to 00 and driveragent change to google search by your hardware manufacture latest updates driver and bios revisions
+ 
+Key's embedded
+
+================================================================================
+
+EVEREST Home Edition is free for personal and for non-commercial use only.
+
+Everest Home Edition v2.20.475 Multilanguage Freeware *FINALY FIXED*
+This is the last Freeware Everest Home Edition
+Files incl. freeware everest.bin upx'ed with latest upx v3.02 (open source)
+- everest.dat taken from latest Trial Beta
+- Language Files taken from everesthome_build_0466
+- kerneld wnt, ia64, amd64, w9x taken from everestultimate220 (kerneld.wnt.475 from build .0475 included for testing rename to: kerneld.wnt)
+- everest.exe (loader for everest.bin - freeware edition) taken from Everest Ultimate Edition 2.20
+Together it enable to shows by old + new hardware:
+- Motherboard
+- SPD
+- Chipset Info
+- Optical Devices Info
+...
+Limitations:
+- CPU Temp may shown incorrect as Aux; CPU temp => Aux temp
+- Dual Core Cpu Types may shown as 'unknown'
+- w/o the new + features from 'Ultimate' (CPU Benchmark, Monitor Diag, OSD,...)
+
+...more info in Installation Program FilesEverest Home Editioninfo.txt
+> read info.txt (includes all web catch downloads, all Beta's, pre etc.. and test versions since the program exist. Include browse back in time till now for changelogs, specials...)
+
+Instead of rar (sfx) or zip archiving, compressed with inno setup builder, all supported Languages enabled with latest versions.
+================================================================================
+To see and verify what the installer installs run the setup file: filename.exe with parameter /log (execute with parameter)
+e.g.: everest-all-versions-v4.20.1256-Full-setup.exe /log
+A Text file with detail info 'setup record log' will be created in your temp folder
+browse to your temp folder and open the file looks like:
+Local SettingsTempSetup Log 2008-01-16 #001.txt
+open with notepad to ensure I do not embedded any crap such as viri, trojans and others
+
+Have fun

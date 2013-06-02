@@ -1,0 +1,59 @@
+﻿User Type,Username,Date,Text
+,priester,2008-01-28T15:10Z,Please SHARE!!!!!! if you finish the download!!
+,priester,2008-01-30T21:27Z,"Ill stop sharing, i have more torrents to share on other sites.. sorry.. Please help each other! THNX!"
+,CheapBeer,2008-10-20T08:01Z,"Sweet!!!
+Excellent collection...
+Nicely packaged...
+Thanks my friend. Added to perma-seed."
+,a25zkmiz,2009-02-23T17:12Z,"WOW!!!!!! :O
+5 GB!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+,adsbaer12,2009-04-22T11:44Z,"here is what i did after finished downloading:
+
+first: continue seeding this torrent!
+
+second: extract the entire archive to a folder of your choice
+
+third: create a batch-file and paste the following lines:
+
+==========
+
+@echo off
+title WAIT !
+
+Set ""sourceDir=C:\thelocationoftheextractedarchive""
+Set ""destinationFolder=C:\Windows\Fonts""
+Set ""_report=C:\logxcopy.txt""
+
+IF NOT EXIST ""%sourceDir%"" (echo.Could not find %sourceDir% &GoTo:done)
+
+:: overwrite previous log
+>""%_report%"" (
+      echo.%date% - %time%
+      echo.---------------------------------------------------
+      echo.
+)
+
+:: copy files
+For /F ""Delims="" %%! in ('Dir ""%sourceDir%\"" /b /s /a-d 2^>nul') do (
+   @echo.%%! &(
+   @xcopy ""%%!"" ""%destinationFolder%\"" /i /y /h /f /c >>""%_report%"",2>&1)
+)
+
+:done
+title,Done.......
+
+echo.&pause>nul
+
+==========
+
+this batch file will copy all files from all subdirectories to the windows\fonts-folder without creating new subfolders. so there will be no copied folderstructure in the windows\fonts-folder! :)
+
+this is not my batch-file. i strubled across searching the internet. thanks to the original author.
+
+have fun!"
+,CLIFFX,2010-04-19T05:55Z,"can someone please post the list of fonts in this torrent? or at least say if it contains the infinity font?
+
+
+
+
+"

@@ -1,0 +1,31 @@
+Nero 6.6.1.15c (last Nero 6 Version) without toolbars - full setup
+
+Setup winrar sfx recompiled and toolbars ripped from setup.cfg/Setupx.exe script and all appended useless toolbar files.
+
+Updated:
+LightScribe API Version 1.10.27.1 [December 2007] added
+Keys embedded in setup for all Plug-Ins
+Nero CD-DVD Speed 4.7.7.15 [Jan. 2008] updated
+Nero Info Tool 5.2.3.0 [December 2007] updated
+
+Batch install process:
+1. import all Nero Keys include Plugins (no registration required)
+2. call nero setup without toolbars (ripped from installer0
+3. installs Light scribe support (optional can be skipped)
+
+Installs automatically Nero 6 Ultra Edition + all 11 Plugins fully registered
+
+A complete CD/DVD burning suite installed > 76,8 MB (optimized, nothing ripped)
+Setup installer size: 40 MB with embedded LightScribe setup
+
+Version 6.6 does not support securedisk & blue ray, if your drive support it, you may need Nero 7 (installed about 450 MB). Product freaks may use Nero 8 in full installation 700mb - 1gig.
+
+rem: with a enabled 'editing of locked archives edition from winrar' you can edit the batch process in 'winrar comment' for example:
+setup start:
+w/o registering (later manual registration required & w/o light scribe setup
+change:
+Setup=run.bat
+to:
+Setup=setupx.exe /SFX 
+
+Nero's unattended switches can be used besides Pre registration Key solution to embedded it in windows setup cd's.

@@ -1,0 +1,218 @@
+﻿User Type,Username,Date,Text
+,Nitrox_Diver,2007-11-23T12:46Z,Does it work?
+,ricko16,2007-11-23T13:51Z,"Thanks man Hope it works
+
+req, Just Flight F-16"
+,Nitrox_Diver,2007-11-23T14:14Z,No feedback yet?
+,ricko16,2007-11-23T14:33Z,i am trying it now 
+,we473,2007-11-23T14:36Z,"Thanks man!!!
+req, Airac0712"
+,ricko16,2007-11-23T14:39Z,The PLane Works great but the screens  still go out after a few minutes please fix that for us Derice
+,ricko16,2007-11-23T14:47Z,"No wait the screens only work on the ground not in air
+
+I think you can fix that Derice thanks "
+,Derice,2007-11-23T14:49Z,"I'm sorry, but I've only spotted this on usenet and turned it into a torrent.
+I don't know enough about this sort of stuff to be able to fix that bug. 
+
+Maybe someone else can?"
+,ricko16,2007-11-23T15:07Z,"What do you mean with this Derice 
+
+
+and in the registry under HKLM/SOFTWAREAbraxisTheftTrackingMBXhtvx1"
+,Derice,2007-11-23T16:11Z,"Like I said before, I've found this on usenet, I didn't crack it myself.
+
+But to answer your question, it's a registry path.
+
+HKEY_LOCAL_MACHINE-SOFTWARE-Abraxis-TheftTracking-MBX-htvx1
+
+With a value:
+
+c2e80520102f0800e790160704de90760a1b3801
+
+this value corresponds with the SHA1 in the aircraft.cfg file(s)."
+,FUCKWOS,2007-11-23T18:41Z,"I posted the working crack along time ago in the original PMDG747_400_FSX post by CaptainKirkard
+
+http://thepiratebay.org/tor/3872453/PMDG747_400_FSX_UPDATE.zip
+
+this method you have here was since tried way back when he released it, where the hell were you? 
+
+check that thread i uploaded the crack to rapidshare, if its dead let me know i will reupload it!
+
+cheers"
+,FUCKWOS,2007-11-23T18:43Z,"heres because people are prolly too lazy to go to that thread and search heres my original post:
+
+FUCKWOS at 2007-11-04 14:42 CET:
+
+heres the bypasser 100% working NO virus!!
+
+READ THE INFO
+
+rapidshare com/files/67338888/PMDG744X_Validation_Bypasser.rar
+
+after rapidshare is a . (dot)
+
+cheers, d:-)"
+,jayrodathome,2007-11-23T20:57Z,Make sure you have the latest nvidia drivers. they came out with new drivers for the 8800 last month..Second if you have xp make sure that you do not have the DX10 preview checked. if you have vista just make sure you have the updated drivers. Good Luck. 
+,spoutnik0,2007-11-23T21:45Z,"It works perfectly. The Primary Flight Display does not shut down after 1 min. It is mandatory to add abraxis regs key or it will not work !
+Thanks Derice."
+,MBroony,2007-11-24T02:53Z,hey can someone help. when i load it in fsx it closes fsx? whats wrong
+,nilisvd,2007-11-24T11:13Z,"Hmmm, both the crack in the torrent as the validation bypasser are not working in my case. I cannot click the next button on the validation tab in the installation dialog.
+I'm running vista. Anyone an idea why it is not working."
+,ltdnightcrawler,2007-11-24T12:26Z,"not working, when I click on the pmdg plane in fsx, fsx freezes en closes, 
+
+I'm running fsx under vista ? i think the validation bypasser is still not compatible under vista"
+,Daxe24,2007-11-24T12:44Z,"Hi Fuckwos That file from rapidshare dosn't work i heave download it , i can not open that file.
+
+That file crasht............. new on plz"
+,Derice,2007-11-24T13:16Z,"I've finally been able to test it myself and it works for 100%
+(Vista x64, 4GB, FSX + SP1).
+
+Please note that when running a x64 OS you have to modify the registry keys provided!
+
+Original key:
+[HKEY_LOCAL_MACHINE-SOFTWARE-Abraxis]
+
+X64 key:
+[HKEY_LOCAL_MACHINE-SOFTWARE-WOW6432Node-Abraxis]
+
+At first I didn't do this on my machine, resulting in the screens shutting down after 1 minute, once I changed the key it worked!
+
+This also works with the updated version posted http://thepiratebay.org/tor/3872453/PMDG747_400_FSX_UPDATE.zip
+
+You don't need the crack FUCKWOS posted.
+My anti virus (Trend Micro Officescan) reports a virus in that one (no offence).
+
+I'm happy with my 744X!"
+,Daxe24,2007-11-24T13:50Z,work at with another windows like winxp sp2 32 bit enz...............
+,Koosey,2007-11-24T18:08Z,"Doesn't work for me, when I try to load the plane in FSX it shuts the program down saying there's an error. Any ideas?
+
+Vista 32, 2GB RAM, 7950GTX 512MB"
+,NSX01,2007-11-24T18:48Z,Does it keep on working when you fly a normal FMC flight. With the other upload all cockpit gauges and controls freezes after 5 min. of flight
+,yo7,2007-11-24T20:09Z,please request: DREAMTEAM LSZH Zurich for fs2004
+,c402_rog,2007-11-24T20:46Z,Does not worj for me. Running XP pro 32bit
+,Daxe24,2007-11-25T00:16Z,req... fsuipc 4.... for fsx
+,chalk06,2007-11-25T01:59Z,"I had the gauge problem, they disappeared after a minute or so. Ran add/remove pro and cleaned the reg. Then edited the registry for the abraxis key. Also I edited the aircraft cfg files before I ran the reg files, and finally now it works."
+,nilisvd,2007-11-25T13:11Z,I cannot click the next button in the validation diaglog during the installation. It remains gray...  does anyone of you had this problem and know how to solve it??
+,chalk06,2007-11-25T15:05Z,"nilisvd, yeah you need to use the 'enable button' at the validation screen, then just lick next. "
+,nilisvd,2007-11-25T15:47Z,"I am using the ""enable button"". So I start the installation, click next one time to reach to the validation dialog. Then I start the enable button program, click the next button but nothing happens... In the enable button program the following is listed: current window: f03ca, parent window: 2404a4, Menu title: PMDG 747-400/400F for FSX - Installshield wizard,  Class name:#32770, Menu handle :  "
+,nilisvd,2007-11-25T15:51Z,"Finally it works!! I had to run the enable button as administrator first, the start the setup en now the next button was enabled!"
+,Daxe24,2007-11-25T16:08Z,"Folow the normal instruction's,, by Derice and ist's work great. Y fly all more than an 90 minutes and the display's stil on, ye good work Derice..........
+
+Volg de normale instucties, van Derice en het werkt prima. Ik vlieg all meer dan 90 minuten en de display's blijven aan, goed werk Derice
+
+
+Maby you can Fs Dream Team Airport Zurich for fs9 and Fsx
+
+more info http://www.fsdreamteam.com"
+,zeophex,2007-11-25T21:43Z,"great torrent by the way, but i followed all the instructions and i even changed the first line of the pmdg1 reg key and FSX crashes every time i select any PMDG 747 plane. All my other addons work even the PMDG Beech but just not this one. THX for any help u guys can give me"
+,Derice,2007-11-25T22:24Z,"Just to confirm for everyone:
+
+I've done a return FMC/IFR flight from Amsterdam to London and everything works perfectly!
+No issues what so ever.
+
+@zeophex have you tried it with a clean install of FSX? That's how I tested it, works like a charm."
+,zeophex,2007-11-26T01:00Z,"no dice. tried to use it after a re-install of FSX and SP1. Then i tried uninstalling the PMDG and reinstalling it and still didnt work. My reg key looks like this
+
+[HKEY_LOCAL_MACHINE-SOFTWARE-WOW6432Node-Abraxis]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Abraxis\TheftTracking]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Abraxis\TheftTracking\MBX]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Abraxis\TheftTracking\MBX\htvx1]
+@=""c2e80520102f0800e790160704de90760a1b3801""
+
+is this right? is there anything else that im doing wrong? plz help me. All help is greatly appreciated THANKS IN ADVANCE!"
+,DeakStarwalker,2007-11-26T01:03Z,They need to find the fsx registry install location?
+,chalk06,2007-11-26T05:29Z,"The only thing that I can think of, is it still sounds like you may have pieces of PMDG left over after your uninstall. I removed my old PMDG FSX attempts by using add/remove pro (uninstall and remove entry commands.)
+
+ The only other thing that I did different than the readme calls out, is that I added the ---begin sha--- values before I ran the reg files, both in the the reg and the aircraft.cfg files. My feeling is that these issues seem to be in the registry. Once I had purged it from all PMDG references, it worked a treat. One thing I noticed right away, is that I got thumbnails for the planes as opposed to question marks so that could be an indicator for you without having to load a flight to save time."
+,chalk06,2007-11-26T05:33Z,"Oh and to add one thing, thanks to you Derice, I also just finished a FMC flight and it was just awesome!! "
+,Derice,2007-11-26T09:23Z,"@zeophex it should be like this (ONLY IF YOU ARE RUNNING A x64 OS!)
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Abraxis]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Abraxis\TheftTracking]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Abraxis\TheftTracking\MBX]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Abraxis\TheftTracking\MBX\htvx1]
+@=""c2e80520102f0800e790160704de90760a1b3801"""
+,ltdnightcrawler,2007-11-26T13:04Z,"I got i working
+
+did A clean fsx install , than installed pmdg , but you have to edit the aircraft cfg's before adding the regfiles.
+"
+,zeophex,2007-11-26T22:02Z,aah that might work let me try that again
+,zeophex,2007-11-26T22:26Z,"ok now heres the problem, I dont know if im running a x64 or x32 any solutions?"
+,zeophex,2007-11-26T22:38Z,WOW took some time to do the research and found that having the Core2 duo means i have to have a x32 OS. (how did i not know that considering that i built my PC??) Anyways GREAT UPLOAD flies like a charm THANKS DERICE for the upload and help!!!!
+,Derice,2007-11-27T08:53Z,"@zeophex having a Core 2 Duo doesn't mean you have a x32 OS. I have a Core 2 Duo and am running x64 Vista. ;)
+The Core 2 Duo supports both OS-es.
+
+But that's for a different topic. I'm glad it worked out for you!"
+,mattlock80,2007-11-27T11:19Z,"Pay attention guys !
+One of the two register keys is made to track You."
+,matkal,2007-11-27T20:04Z,How to run it @ Vista??? 
+,ltdnightcrawler,2007-11-27T21:38Z,"@ matkal
+
+it's working on vista , I have vista ultimate 64x and it's working "
+,DeakStarwalker,2007-11-28T01:47Z,It show funny geometry on Details and FSX quit when I launch it in game Why?
+,HighSpeedSonic,2007-11-28T04:38Z,"Hello Everyone.
+First i like to thank you for the nice file...
+Founded a problem with the gauges, but i followed ""chalk06"" exampel, and now it works =D thanks for the info. "
+,HighSpeedSonic,2007-11-28T04:38Z,"Hello Everyone.
+First i like to thank you for the nice file...
+Founded a problem with the gauges, but i followed ""chalk06"" exampel, and now it works =D thanks for the info. "
+,plguzman,2007-11-28T05:43Z,"My problem is different. The plane bounces erratically on the runway, my engines are off @ start, and the fuel is 0. Anybody else with this problem?. It fully works tho lol."
+,plguzman,2007-11-28T07:21Z,Nevermind... Found a solution. The regional settings were messed up and affected the 747.
+,[420],2007-12-02T06:17Z,"I was at my wits end trying to get this damn plane to work without the CRT displays turning off after 20 secs, then i found a comment by ""guybrush_threepwood"" on the FS9 torrent for the same plane.  
+
+http://thepiratebay.org/tor/3536203/PMDG_Boeing_747-400_Passenger_and_Boeing_747-400F_Cargo_with_ALL
+
+Run the installer, when you get to the validation page, enter any email, any number combo [i used 20 digits, don't know if it matters], and any password.  Hit 'Validate' and an error will happen.  THEN use the 'enablebutton.exe' file, hit 'OK' for the error, and continue installing.  DONT use the registry keys that come with the file, just run the game.
+
+This worked for me... The displays stay on.  I took off and cruised at 35000ft and left the game running for about 2hrs.  The displays were still on when i came back and everything seemed to be working OK.  I didn't bother trying to land, and I didn't try using the FMC, but as far as I can tell, all the aircraft systems are working properly.  If there is still some kind of protection in the works, then it hasn't come up yet.  Hopefully this helps someone as I have been looking for days on how to get this to work...
+
+Thanks goes to ""guybrush_threepwood"" for his posting.  CHEERS."
+,fan_thomas,2007-12-04T15:03Z,"All systems in the bird works good, but when i was flying with her a few minutes later, the filght simulator stepped out. While I'm flying other aircraft the FS works good.
+Fresh FSX install, latest version of graphic card software, Nvidia GeForce 7950 GT graphic card.
+Has anybody idea? 
+"
+,Pocus1981,2007-12-09T13:20Z,"guybrush's method works for the passenger version but not the Cargo version. 
+
+The 747-400f installer just terminates when you enter in false details and hit the Validate button, so you can install it but your displays go after 1min 15seconds once you start the bird.
+
+Has anyone found a way around this?? I have the 747-400 working nicely but not the 747-400f :("
+,ciuuwb,2007-12-11T14:01Z,"i have major graphic problems, the left side of the body is transperant, the only moving parts are the elevators and some small bits on the wings, the cargo version is also missing the nose wheel aswell as the problems on the PAX version. im running onboard graphics atm with lastest drivers, will be getting a 8600GTS soon.
+
+Any ideas on how to fix? Thanks."
+,volleyjl,2007-12-15T11:37Z,"Question. When I try to install, I first get the message that my version of FSX is newer then the PMDG people have tested. (I have first update and accelation). I press okay and get to the validation. I open the enable program and when I click to validate, I get a message that validation was not able because of my firewall settings. When I disengage it, same problem. Anyone has a solution?
+
+Jeroen"
+,fighter512,2008-04-10T06:08Z,Request: Vox ATC Voice Recognition for FSX please! and one that works thanks!
+,zhd,2009-03-02T06:36Z,Where SP2.1 Crack??
+,nimitz924,2009-03-15T04:54Z,REQUEST:FSX LEVELD 767 working including the las four digit of the credit card which are needed in order to proceed the installation
+,eddytheedmond,2009-03-29T21:07Z,"Thank you very much!
+I needed the whole day but now it works.
+
+A question: Can I download liveries from the PMDG-website? Because when you download a livery for the PMDG Md-11 the livery-installer will check if you payed for the Software. If not it will delete the MD-11 folders in Simobjects\Airplanes.
+
+It is the same with the 747?
+----
+If you get a CTD (Crash to Desktop) when you choose the PMDG 747 in the ""Select Aircraft"" window, try the following:
+http://ops.precisionmanuals.com/wiki/How_to_Fix_Your_FSX_DLL.XML_File
+
+If it doesnÂ´t help, try this:
+
+http://ops.precisionmanuals.com/wiki/PMDG_747-400X_FAQ#Can.27t_find_PMDG_dll_files_CTD
+
+Important for Vista Users if you didnÂ´t read the 1st site with comments:
+Open the regedit.exe and search for:
+[HKEY_LOCAL_MACHINE-SOFTWARE-WOW6432Node-Abraxis-TheftTracking-MBX-htvx1]
+Change the value in c2e80520102f0800e790160704de90760a1b3801"
+,John5700,2009-05-30T03:49Z,Thanks for the upload!
+,nimitz924,2009-06-09T02:26Z,REQUEST: FSX CATPAINSIM 727-100 Pro-Pack(which comes with Virtual Cockpit) 
+,a040608,2009-06-17T21:22Z,"ANYONE KNOWS WHAT THE HELL IS WITH THIS?
+I deinstalled at least 20 times! followed so much instructions, all of them twice! and still the displays go black, my plane fails to load, or o do'nt get the gauges at all! what the hell do i have to do to get it working? I had it working before perfectly, and now i doesn't!
+please respond at renzooke@hotmail.com
+
+thankyou!"

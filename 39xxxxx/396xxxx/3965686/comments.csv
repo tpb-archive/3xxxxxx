@@ -1,0 +1,73 @@
+﻿User Type,Username,Date,Text
+,namsid,2008-01-12T02:47Z,"XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC
+----------------------------------------------------------------------------
+XBMC SVN 2008-01-06 (6th of January 2008) rev11247
+
+This is a complete snapshot of what was in SVN at the time
+the build was compiled, with just a few small additions:
+
++ Killarny & Nuka1195 & Pike's Apple Movie Trailers (AMT) SVN pre0.99.2 rev1804 [scripts/Apple Movie Trailers]
++ EnderW & Blittan's XBMCScripts Installer 1.8 SCRIPT [scripts/XBMCScripts]
++ Team XBMC Lyrics 1.5.5 rev1771 SCRIPT [scripts/XBMC Lyrics]
++ Asteron's Tetris 1.1 SCRIPT [scripts/Tetris]
++ BigBellyBilly's T3CH Upgrader 1.2 [scripts/T3CH Upgrader]
++ Nuka1195 & Dataratt's AOL Videos Plugin 1.1.1 [plugins/video/AOL Videos Plugin]
++ Codecs for mplayer [/system/players/mplayer/codecs/*]
++ PM3 Red Theme + PM3 Blue Theme by Jezz_X
+
+If you want to report bugs, please do it the PROPER way, see http://xboxmediacenter.com/wiki/index.php?title=HOW-TO_Submit_a_Proper_Bug_Report
+----------------------------------------------------------------------------
+* T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH
+
+
+_MESSAGE FROM T3CH__________________________________________________________
+New year! Did you think I was gone for good ? Haha
+NOTICE NOTICE NOTICE ::: You must install PM3 skin CLEAN if you use PAL16x9, otherwise you get font issues ::: NOTICE NOTICE NOTICE
+T3CH Upgrader updated to 1.2, see readme & Changelog.txt in it's folder
+AMT including it's bundled plugins updated to rev1804.
+I'm including the XBMC Win32 PC environment.exe that is meant for skinners & python developers, read more about the concept here http://xboxmediacenter.com/forum/showthread.php?p=115893 It was built using Microsoft DirectX Summer 2004 SDK.
+I've tweaked the win32 run_me_first.bat so it runs and then unmounts the virtual drives when you exit.
+
+
+_NOTEWORTHY SVN CHANGES SINCE LAST T3CH (according to T3CH)_________________
+
+
+_INFORMATION________________________________________________________________
+XBMC's online manual can be found at http://xboxmediacenter.com/wiki
+Any questions or support issues, are best asked in the XBMC support forums, which are located at http://xboxmediacenter.com/forum or in the official IRC support channel, #XBMC on Freenode IRC network (irc.freenode.net).
+My builds can be downloaded freely from http://t3ch.yi.se no login etc. required :)
+
+If you want other scripts (extra 3rd party components), see
+o http://www.xbmcscripts.com or use the included script installer!
+
+If you want trainers, grab them at
+o http://www.google.com/search?q=xbox+trainers
+
+The xbe has been retail patched and was built using v5849 of the XDK.
+
+If you want to remove the startup logo, remove splash.png from the /media/ folder.
+If you want to remove the startup sound, remove start.wav from the /skin/Project Mayhem III/sounds/ folder.
+
+XBMC Changelog is included, see Changelog.txt
+
+
+_APPLICATION INSTALL________________________________________________________
+Fresh Install: Transfer whole XBMC folder to your APPS folder (or where you want it).
+
+Upgrade: Backup the XBMC/UserData folder. Transfer whole XBMC folder to Xbox. Overwrite UserData folder with your backed up copy.
+
+
+_DASHBOARD INSTALL (SOFTMODS)_______________________________________________
+ARE NOT COVERED IN THIS README, SEE http://forums.xbox-scene.com/index.php?showtopic=406656
+
+
+_DASHBOARD INSTALL__________________________________________________________
+Option 1. Team XBMC's shortcut tool.
+It's included in the _tools folder as SHORTCUT by TEAM XBMC.xbe + SHORTCUT by TEAM XBMC.cfg.
+Instructions here: http://xboxmediacenter.com/wiki/index.php?title=As_a_Dashboard (Option 1).
+Rename the SHORTCUT by TEAM XBMC.xbe+.cfg & also EDIT the .cfg so it matches your config.
+See APPLICATION INSTALL above.
+
+Option 2. Thanks to an app called Team UIX's Xbe Shortcut Maker v1.0 by JbOnE, it's now easy...
+Transfer contents of XBMC folder (this is VERY important since the tool is hardcoded) TO /E:/APPS/XBMC/.
+Rename SHORTCUT by TEAM UIX.xbe to something your"

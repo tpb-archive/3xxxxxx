@@ -1,0 +1,40 @@
+Codebreaker Version 9.3 Patched
+
+This version of codebreaker will NOT boot de CD/DVD in your tray after choosing the cheats, instead, it will boot any file/program/elf called "CB_launch.elf" or "BOOT.ELF" in these locations, in this order:
+
+hdd0:/__boot/CB_launch.elf
+mass:/BOOT/CB_launch.elf
+mc0:/BOOT/CB_launch.elf
+hdd0:/__boot/boot.elf
+mass:/BOOT/BOOT.ELF
+mc0:/BOOT/BOOT.ELF
+mc0:/B?DATA-SYSTEM/BOOT.ELF
+mc1:/BOOT/BOOT.ELF
+mc1:/B?DATA-SYSTEM/BOOT.ELF
+"?" means region code.
+
+This hack is made so u can load HDLoader instead of a CD/DVD based game so u can use cheats with the games u have on your HDD!
+
+So, boot this program from MC, MASS, HDD or CD, CodeBreaker will start, choose your cheats, then 'start game' and HDLoader will start.
+
+after that, just choose the game u have loaded the cheats for and play :)
+
+I have included both the patched codebreaker 9.3 and HDLoader version 8b.
+
+So this COdebreaker is only for ppl with HDD and HDloader!
+
+Normally u have to load cheats, then put in the HDLoader CD and then 'start game'
+
+after that HDLoader will start and u can start your game from HDD with cheats.
+
+with this patched codebreaker 9.3 u dont have to use HDLoader from cd, but u can just sit back and relax while HDLoader boots from any of the above paths.
+
+just make sure u RENAME your HDLoader.elf file to CB_launch.elf or BOOT.ELF and place it in one of the above paths! 
+
+Have fun!
+
+any questions?
+
+Go here: http://psx-scene.com/forums/ps2-homebrew-dev-emu-scene/61167-patched-cb9-2-launching-hdloader-directly-without-cd-dvd-3.html
+
+Greetz, Hax0R

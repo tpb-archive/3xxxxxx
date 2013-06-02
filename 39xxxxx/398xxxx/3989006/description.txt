@@ -1,0 +1,46 @@
+(================================================= ============Program Info============================================== =================)
+
+Over the years, the one point that has been continually driven home to us is performance,
+whether it means operational speed or memory consumption.
+We've made some great strides in this realm with Trillian Astra.
+
+Start chatting faster
+Between loading multiple plugins, parsing and initializing XML-driven skins, and establishing connections to your IM accounts,
+the time it takes to fully load Trillian has a tendency to decay over time.
+We've improved performance across the board when loading Trillian to eliminate the needless "wait time" between
+launching the application and actually using it.
+
+Redrawing times improved
+Little things make a big difference. For Trillian Astra, we spent time discovering why certain controls (a scrollbar, an icon, etc.)
+took longer to redraw than others and optimized these routines when possible.
+The differences are measured in milliseconds, but when you're drawing 60+ user icons in a contact list these sub-second times
+can be the difference between a quick product and a sluggish one.
+
+Network connections are more efficiently managed
+Another minor detail in speeding things up involves the connections Trillian makes to IM services.
+With Trillian Astra, the routines to handle both incoming and outgoing data have been heavily
+optimized to ensure a speedy overall IM experience.
+
+Memory usage reduced
+You spoke, we listened. Trillian Astra represents the ultimate in flexible,
+efficient memory usage; we've reduced the amount of memory required for our XML routines by roughly
+5MB and trimmed things here and there whenever possible to decrease footprint further.
+If pretty graphics aren't for you, using a barebones skin drops memory usage even further.
+
+Memory leaks plugged
+As with all releases of Trillian, time has been spent plugging memory leaks wherever they're found.
+
+Skin variety with memory in mind
+For the absolute minimalists among us,
+we'll be featuring a super stripped-down skin that will barely register in overall memory usage!
+As well, we're extending invitations to all current and past skinners to bring their skins into modern Trillian times.
+We hope to offer as many possibilities as we can by the time our final product is ready,
+including various best-of-breed third party skins.
+
+
+(================================================= ============Patch Info============================================== ===================)
+
+1. Unpack the zip to a temporary folder
+2. Install the program using the included installer.
+3. Run the patcher and select the Trillian main executable.
+4. Enjoy!

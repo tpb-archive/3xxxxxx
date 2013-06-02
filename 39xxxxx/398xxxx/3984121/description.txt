@@ -1,0 +1,132 @@
+Cisco CCNA certification proves your professional worth. It tells prospective employers that you can handle the day-to-day work of running a a mid- to large-sized Cisco network.
+
+The two-exam CCNA process covers lots of innovative features, which better reflect the skills and knowledge youâ??ll need on the job. Passing both exams is your first step towards higher-level Cisco certification.
+
+CBT Nuggets Trainer Jeremy Cioara responded to Ciscoâ??s second exam with a video series carefully mapped to that test.
+
+Every mid- to large-sized business today uses VLANs. Jeremyâ??s training gives you all the information you need to design, configure and manage in a VLAN environment.
+
+Jeremy also offers you a foundational understanding of OSPF, the most popular routing protocol in the world. And, by the time youâ??re done, heâ??ll have you performing some pretty snazzy NAT-configured stuff as well.
+
+Hereâ??s how one user described Jeremyâ??s training: "By the way Jeremy Cioara has to be by far one of the BEST Cisco Trainers I have ever had the privilege to learn from overall. He not only keeps your attention but his energy is contagious and he provides the information at a level where you grasp it rather easily."
+
+Watch the attached free video and see for yourself just how good CCNA training can be.
+
+Here's what you'll learn from the Cisco CCNA - Exam-Pack 640-816: ICND2 videos:
+
+
+    Video 1 - "Review: Rebuilding the Small Office Network, Part 1" Jeremy begins the ICND2 series by rebuilding much of the network that existed in ICND1 as a "cram-session" review of key concepts. This video focuses on the LAN (switch-based) environment.
+
+    Video 2 - "Review: Rebuilding the Small Office Network, Part 2" The ICND1 network rebuild continues. This video focuses on the key router concepts and configurations.
+
+    Video 3 - "Review: Rebuilding the Small Office Network, Part 3" The ICND1 review wraps up with a full implementation of RIP routing across the office network.
+
+    Video 4 - "Switch VLANs: Understanding VLANs" VLANs have absolutely changed the face of networks over the last decade; it is rare to walk into any large network that is not build upon a VLAN foundation. This video walks you through the definition of VLANs and discusses how to architect VLANs for your network.
+
+    Video 5 - "Switch VLANs: Understanding Trunks and VTP" The VLAN discussion continues through the ideas of VLAN Trunking and the VLAN Trunking Protocol (VTP). These allow VLANs to stretch through your entire organization rather than remaining on a single switch.
+
+    Video 6 - "Now that the concepts are in place, let's configure some VLANs!" This initial VLAN configuration video walks you through the setup of trunking and VTP.
+
+    Video 7 - "Switch VLANs: Configuring VLANs and VTP, Part 1" The VLAN configuration wraps up as we assign the switchports to the necessary VLANs and implement Inter-VLAN routing using a router-on-a-stick configuration.
+
+    Video 8 - "Switch VLANs: Configuring VLANs and VTP, Part 2" Installing redundant switch links in a network environment is absolutely critical to a network's success. At the same time, installing redundant links in a network environment can cause the entire network to crumble in a few seconds. Interested? Join Jeremy as he discusses the place of the Spanning Tree Protocol (STP) in network environments.
+
+    Video 9 - "Switch STP: Configuring Basic STP" While STP is operational on every Cisco switch by default, it needs to be modified to work optimally. This video walks you through the initial STP implementation and optimization.
+
+    Video 10 - "Switch STP: Enhancements to STP" Because STP was created many years ago, it is not optimized for the speedy convergence that networks require in our modern times. This video discusses the recent STP optimizations implemented through the Rapid STP protocol.
+
+    Video 11 - "General Switching: Troubleshooting and Security Best Practices" To wrap up the LAN section of the ICND2 series, Jeremy walks you through switch troubleshooting best-practices and hits common trouble spots in a LAN environment.
+
+    Video 12 - "Subnetting: Understanding VLSM" If there's one concept everyone in the Cisco must know, it's IP subnetting. ICND2 expands on the subnetting foundations of ICND1 by introducing Variable Length Subnet Masking (VLSM). Keep in mind, the original subnetting videos from the ICND1 series are available as an appendix to this series.
+
+    Video 13 - "Routing Protocols: Distance Vector vs. Link State" The ICND1 series focused primarily on Distance Vector routing protocols such as RIP. The ICND2 series branches into the Link State and Hybrid routing protocols. This video explores the difference between these routing protocol categories and discusses the problems associated with Distance Vector routing loops.
+
+    Video 14 - "Routing Protocols: OSPF Concepts" OSPF is, by far, the most popular routing protocol in the world. Despite its popularity, it is also one of the most complex routing protocols in existence. In this video, Jeremy discusses the key concepts behind the OSPF routing protocol.
+
+    Video 15 - "Routing Protocols: OSPF Configuration and Troubleshooting" It's now time to implement the OSPF concepts in our network. This video walks you through the conversion of the ICND2 office network from RIP to OSPF. Jeremy goes quite a bit beyond the standard CCNA curriculum to demonstrate a multi-area OSPF configuration that includes route summarization!
+
+    Video 16 - "Routing Protocols: EIGRP Concepts and Configuration" Cisco created EIGRP to combine the best features of Distance Vector (easy to configure) and Link State (many features) into a single routing protocol. This video discusses the concepts and configuration of the EIGRP routing protocol.
+
+    Video 17 - "Lists: The Rules of the ACL" Cisco access-lists are used not only for security purposes, but for just about every major network configuration you will find on a Cisco router. This video discusses the key concepts behind access-lists and their configuration.
+
+    Video 18 - "Access-Lists: Configuring ACLs" Access-lists in action! This video walks you through the configuration of standard access-lists in practical scenarios.
+
+    Video 19 - "Access-Lists: Configuring ACLs, part 2" The access-list action continues! This video walks you through the configuration of extended access-lists in practical scenarios.
+
+    Video 20 - "NAT: Understanding the Three Styles of NAT" You'll be hard-pressed to find any network in operation that is not using Network Address Translation (NAT) in some form. In this video, Jeremy walks through the three forms of NAT implemented in today's networks.
+
+    Video 21 - "NAT: Command-line NAT Configuration" It's time to provide Internet access to our ICND2 office network. This video explores the configuration of each of the three forms of NAT.
+
+    Video 22 - "WAN Connections: Concepts of VPN Technology" It's time to turn our attention to the Wide Area Network (WAN). One of the fastest growing "WAN technologies" is not really a WAN technology at all: Virtual Private Networks (VPNs). VPNs use existing Internet connections to connect remote offices and users. In this video, Jeremy walks you through the place of VPNs in today's network and the basics of VPN security.
+
+    Video 23 - "WAN Connections: Implementing PPP Authentication" Leased Lines are one of the more conventional ways to interconnect office networks. There are two data link protocols used to operate leased line connections in the Cisco realm: HDLC and PPP. This video reviews the benefits of each and reconfigures the ICND2 office network to use PPP authentication.
+
+    Video 24 - "WAN Connections: Understanding Frame Relay" Packet Switched networks are still the darling of the WAN link industry, combining the best of two worlds: performance and price. Frame Relay continues to reign as one of the more popular Packet Switched network types. This video discusses the concepts, terminology and design of a Frame Relay network.
+
+    Video 25 - "WAN Connections: Configuring Frame Relay" There are two possible ways to configure a Frame Relay network: using a Multipoint or Point-to-Point configuration. In this video, Jeremy sets up both and offers some advice as to what the best Frame Relay design.
+
+    Video 26 - "IPv6: Understanding Basic Concepts and Addressing" Welcome to the Next Generation: TCP/IP version 6 (IPv6). Everything is changing and changing fast. The Internet2 is growing with new networks every day. This video prepares you for the upcoming IPv6 transition by walking through the new addressing standards and communication types.
+
+    Video 27 - "IPv6: Configuring, Routing, and Interoperating" Cisco routers have begun to support TCP/IPv6 configurations. This video walks you through the configuration of IPv6 addresses on your routers and even shows the configuration of RIP Next Generation (RIPng)! Finally, Jeremy wraps up this video by discussing strategies to migrate your network from running IPv4 to IPv6.
+
+    Video 28 - "Certification: Some Last Words for Test Takers" To wrap up the CCNA series, Jeremy gives some last words to test-takers on how best to prepare for the ICND1, ICND2, and CCNA certification exams.
+
+
+Appendix: subnetting videos from the Cisco CCNA/CCENT Exam-Pack 640-822 ICND1 video series:
+
+
+    Appendix Video 1 "Advanced TCP/IP: Working with Binary" - This video begins the move to the world of advanced TCP/IP addressing. More specifically, you will learn the skill of IP subnetting. One of the most foundational skills in subnetting is converting from decimal to binary and back. This video carefully explains this skill and provides many examples to practice.
+
+    Appendix Video 2 - "Advanced TCP/IP: IP Subnetting, Part 1" - The first style of subnetting you'll need to learn is the ability to separate IP addresses into subnets based on the number of networks an organization needs. This video walks through the initial style.
+
+    Appendix Video 3 - "Advanced TCP/IP: IP Subnetting, Part 2" - The second style of subnetting you'll need to learn is the ability to separate IP addresses into subnets based on the number of hosts an organization needs in each network. This video explains this style.
+
+    Appendix Video 4 - "Advanced TCP/IP: IP Subnetting, Part 3" - The final style of subnetting you'll need to learn is the ability to reverse engineer subnets based on the IP address and subnet mask that has been given. This video discusses this final style.
+
+On-the-job Cisco network administrator skills plus prep for the CCNA/CCENT Exam
+
+The CBT Nuggetsâ?? Cisco CCNA - Exam-Pack 640-816: ICND2 shows you the hands-on skills you need manage a mid- to large-size Cisco network. This video series also teaches you the essential skills for passing the CCNA certification exam. The CCNA is a required prerequisite for individuals looking to move on to any higher-level Cisco certification (CCSP, CCNP or CCVP).
+
+Completion of the CCENT-ICND1 certification is recommended before viewing this training.
+
+Prerequisites
+
+A fundamental understanding of computers and networking, such as the Comptia A+ or Networking+ or equivalent knowledge is recommended before viewing this training.
+
+Here's what you'll learn from the Cisco CCNA - Exam-Pack 640-816: ICND2 videos:
+- Review: Rebuilding the Small Office Network, Part 1
+- Review: Rebuilding the Small Office Network, Part 2
+- Review: Rebuilding the Small Office Network, Part 3
+- Switch VLANs: Understanding VLANs (free video!)
+- Switch VLANs: Understanding Trunks and VTP
+- Switch VLANs: Configuring VLANs and VTP, Part 1
+- Switch VLANs: Configuring VLANs and VTP, Part 2
+- Switch STP: Understanding the Spanning-Tree Protocol
+- Switch STP: Configuring Basic STP
+- Switch STP: Enhancements to STP
+- General Switching: Troubleshooting and Security Best Practices
+- Subnetting: Understanding VLSM
+- Routing Protocols: Distance Vector vs. Link State
+- Routing Protocols: OSPF Concepts
+- Routing Protocols: OSPF Configuration and Troubleshooting
+- Routing Protocols: EIGRP Concepts and Configuration
+- Access-Lists: The Rules of the ACL
+- Access-Lists: Configuring ACLs
+- Access-Lists: Configuring ACLs, Part 2
+- NAT: Understanding the Three Styles of NAT
+- NAT: Command-line NAT Configuration
+- WAN Connections: Concepts of VPN Technology
+- WAN Connections: Implementing PPP Authentication
+- WAN Connections: Understanding Frame Relay
+- WAN Connections: Configuring Frame Relay
+- IPv6: Understanding Basic Concepts and Addressing
+- IPv6: Configuring, Routing, and Interoperating
+- Certification: Some Last Words for Test Takers
+
+Appendix:
+- Advanced TCP/IP: Working with Binary
+- Advanced TCP/IP: IP Subnetting, Part 1
+- Advanced TCP/IP: IP Subnetting, Part 2
+- Advanced TCP/IP: IP Subnetting, Part 3
+
+All trademarks and copyrights are the property of their respective holders.

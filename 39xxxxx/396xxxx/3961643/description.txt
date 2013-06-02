@@ -1,0 +1,56 @@
+       ooooo        zzzzzzz       fffff        l         iiiiiii      k    k
+       o     o              z      f            l           i          k   k
+       o     o            z        f            l           i          k  k
+       o     o          z          fff          l           i          kk
+       o     o        z            f            l           i          kk
+       o     o      z              f            l           i          k  k
+       o     o    z                f            l           i          k   k
+        ooooo      zzzzzzz         f           lllll      iiiiiii      k    k
+
+
+
+
+
+How to install:
+
+Copy the .rockbox folder into your ipod dircetory ( the folder that has the other folders named calendars,notes,contacts .ect) When the .rockbox folder is in you ipod directory run the bootloader (included) It will tell you what kind of ipod video you have. It will ask you if it is ok to install the firmware type "y" then hit enter. After it is install safe eject your ipod video and it wiill restart into the rockbox firmware. You you want to start up your ipod in the normal firmware. Hold down the center button and the menu button to restart then turn the hold switch on during the boot up. The you want to start your ipod in the rockbox firmware turn the hold switch off.
+
+I have already added in the games pac-man and doom in to the dir so they are ready to go.
+
+
+
+
+What is rockbox?
+
+Rockbox is a free software replacement for the firmware held on various forms of digital audio players (DAPs). Rockbox offers an alternative to the host device's operating system firmware (in many cases without removing the original firmware) which provides a plug-in architecture for adding various enhancements and functionality to DAPs which are not present in the original OS. Enhancements include PDA functionality, applications, utilities, and games. Rockbox can also retrofit video playback functionality onto DAPs first released in mid-2000
+
+    * Gapless playback
+    * Replay Gain[2]
+    * 5 band fully parametric equalizer[2]
+    * OTF ("on the fly") playlists
+    * True random shuffle (fresh randomly shuffled list every time)
+    * Custom UI themes
+    * Stereo recording to WAV/AIFF/WavPack (lossless) and MP3[3] (supporting devices)
+    * FM radio, including FM recording (supporting devices)
+    * Remote control (supporting devices)
+    * Digital SPDIF input/output (supporting devices)
+    * Last.fm support (even on players lacking RTC)
+    * Cue sheet support
+    * Changeable selector bar
+    * Album art [4]
+
+[edit] Plug-ins
+
+Developers of Rockbox are able to create new plug-ins, which provide the user with other enhancements that may not be available on various firmware modules.
+
+At the current development stage, the following plug-ins are available.
+
+    * JPEG viewer (16 bit color/33 shade greyscale) [5]
+    * Rockboy Game Boy emulator (port of Gnuboy) [6]
+    * ZXBox ZX Spectrum emulator (port of Spectemu) [7]
+    * Doom (port of the PrBoom engine)
+    * WAV to MP3 encoder
+    * WAV to WavPack encoder
+    * MPEG video player [1]
+    * Various games including sudoku, solitaire, minesweeper, pong and many others (see http://www.rockbox.org/twiki/bin/view/Main/PluginIndex for an official list of plugins)
+    * MIDI player, realtime on some targets. Requires external instrument set, available on Rockbox page.

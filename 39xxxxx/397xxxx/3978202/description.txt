@@ -1,0 +1,172 @@
+MANZZON.COM XBOX INSTALLER - DEN BÄSTA INSTALLERN FÖR DIN XBOX!
+
+
+Bränn imagen på en dvd±r skiva och boota med skivan i xboxen.
+
+
+Problem med att bränna imagen? 
+ 
+http://www.imgburn.com (rek program för att bränna image filer)
+
+
+Problem med att ladda hem installern?
+ 
+http://www.utorrent.com (rek bittorent klienten)
+
+
+
+VAR LADDAR JAG NER DENNA INSTALLER?
+----------------------------------
+ 
+http://thepiratebay.org/search.php?q=manzzon.com
+
+
+
+VAD FINNS PÅ SKIVAN?
+--------------------
+
+- Xbox installer som innehåller allt som behövs, hdd verktyg, biosflasher mm.
+- Xbox Media Center som dashboard och suverän mediaspelare.
+- DVD2XBOX kopierar spel, musik och filmer från dvd till hdd.
+- Enigmah Videomode Switchdisc låter dig ändra mellan pal/ntsc.
+- Emulatorer som emulerar nintendo, sega, amiga och många fler.
+
+
+Bios för 512k+ chip... (SmartXX, Xecuter, DuoX 2, Akira mfl..)
+
+x2_5035.06_v1.0-1.5_512k.bin (v1.0-1.5 & HDD 8 - 250GB) 
+
+x2_5035.67_v1.0-1.5_512k.bin (v1.0-1.5 & HDD 250 - 400GB) 
+
+x2_5035.06_v1.6_512k.bin (v1.6-1.6b & HDD 8 - 250GB)
+
+x2_5035.67_v1.6_512k.bin (v1.6-1.6b & HDD 250 - 400GB)
+
+
+Bios för 256k chip... (Aladdin, Matrix, Cheapmod mfl..)
+
+x2_4983.06_v1.0-1.5_256k.bin (v1.0-1.5 & HDD 8 - 250GB) 
+
+x2_4983.67_v1.0-1.5_256k.bin (v1.0-1.5 & HDD 250 - 400GB) 
+
+M8plus.06_v1.6_256k.bin (v1.6-1.6b & HDD 8 - 250GB)
+
+M8plus.67_v1.6_256k.bin (v1.6-1.6b & HDD 250 - 400GB)
+
+
+
+HUR FUNKAR MENYERNA I INSTALLERN?
+---------------------------------
+
+"REBUILD HDD 10-400GB" Detta val fixar allt som behövs för hårddiskar på 10-400GB,
+allt på disken kommer raderas så ta backup på eventuella sparfiler (E:Udata, 
+E:Tdata & E:XbmcUserData) mm som du vill ha kvar.
+
+
+"REBUILD HDD 8GB" Detta val fixar allt som behövs om du har en hårddisk på 8GB, allt
+på disken kommer raderas så ta backup på eventuella sparfiler (E:Udata, E:Tdata 
+& E:XbmcUserData) mm som du vill ha kvar.
+
+
+"UPDATE XBMC, MS DASH, APPS & EMULATORS" Gör precis det som står. Du förlorar inga
+eventuella spel mm på F: men allt på E: & C: kommer raderas så spara eventuella
+sparfiler (E:Udata, E:Tdata & E:XbmcUserData) som du vill ha kvar. 
+
+
+"FLASH MODCHIP or ONBOARD TSOP" Här hittar du de bästa bioserversionerna för att
+flasha nytt bios på chippet, välj ett bios som passar din xbox version och chip.
+
+
+"EEPROM / HD MANAGEMENT" Här kan du låsa och låsa upp hårddisken vid eventuellt
+hårddiskbyte, du måste låsa den nya disken om du ska kunna boota på originalbioset.
+
+
+
+HUR BYTER MAN HÅRDDISKEN?
+-------------------------
+
+1. Stoppa i denna installer, välj "EEPROM / HD MANAGEMENT" och sedan unlock i
+menyerna  detta gör att du kan använda disken till annat (låt skivan sitta kvar). 
+
+2. Ta ur gamla och sätt i nya hårddisken som ska vara ställd på cable select.
+
+3. Starta xboxen och eftersom skivan sitter i kommer den boota på denna.
+Välj "REBUILD HDD 10-400GB", när det är klar väljer du Lock HDD. 
+
+
+
+VAD HAR UPPDATERATS I DE OLIKA VERSIONERNA?
+-------------------------------------------
+
+2008-01-13
+*Added XBMC-SVN_2008-01-13_rev11320-T3CH
+*Added ZsnexBox 3.3
+*Added Surreal64xxx beta v5.0
+*Added Mednafenx Nes v9
+*Added Adamx v3
+*Added Atarixlbox v6
+*Added Mednafenx Lynx v3
+*Added Mednafenx Pce v4
+*Added Mekax v2
+*Added Neogenesis v22
+*Added PCSXBox v19
+*Added Vice64X v8
+*Added Winuaex v17
+*Added Xboyadvance v21
+*Added z26x v6
+
+2007-05-07
+*Added XBMC-SVN_2007-05-07_rev8807-T3CH
+*Added ZsnexBox 3.0
+*Added dvd2xbox 0.7.8
+*Added Surreal64xxx beta 4.95
+
+2006-12-12
+*Added ZsnexBox 2.99b1 and fixed problem with black screen
+
+2006-11-12
+*Added 12.Nov.2006.XBMC.XBOX.MediaCenter.2.0.GasGiver
+
+2006-09-30
+*Added 30.Sep.2006.XBMC.XBOX.MediaCenter.2.0.GasGiver
+*Added PCSXBox v18
+*Added Virtualboyx v1
+*Added z26x v5
+*Added SuperVisionX v2
+*Added dvd2xbox 0.7.7
+*Added ZsnexBox 2.98
+
+2006-08-18
+*Added 18.Aug.2006.XBMC.XBOX.MediaCenter.1.1.0.GasGiver
+*Added shortcuts for programs, emulators & games in my programs
+*Added winuaex_v16.zip
+*Added vice64x_v7.zip
+
+2006-06-11
+*Added beta_update_3408.bin
+*Added dvd2xbox07_6.zip
+*Added MAMEoX128_Plus_ver20060505.rar
+*Added mednafenx_lynx_v2.zip
+*Added mednafenx_nes_v8.zip
+*Added mednafenx_pce_v2.zip
+*Added mekax_v1.zip
+*Added neogenesis_v21.zip
+*Added winuaex_v15.zip
+*Added xboyadvance_v20.zip
+*Added ZsnexBox 1.4
+*Added XBMC-CVS_2006-06-11-T3CH
+*Added popular emulator roms & box art 
+
+
+
+WHY SHOULD I USE THIS INSTALLER?
+--------------------------------
+
+Because other installers like superdisc and chipper has alot of software 
+thats not really needed (bloated). I want to make it as small as possible 
+but still have all the best stuff included and well configured. Xbmc as dash 
+looks and works great! The installer is based on slayers but is very modified. 
+
+
+ 
+HTTP://MANZZON.COM - Låga priser & bra service!

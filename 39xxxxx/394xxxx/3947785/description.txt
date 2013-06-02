@@ -1,0 +1,36 @@
+ http://imdb.com/title/tt0100814/
+
+
+Video
+Format                           : MPEG-4 Visual
+CodecID                          : DIV3
+CodecID/Hint                     : DivX 3 Low
+Duration/String                  : 1h 35mn
+BitRate/String                   : 866 Kbps
+Width/String                     : 576 pixels
+Height/String                    : 304 pixels
+DisplayAspectRatio/String        : 1.895
+FrameRate/String                 : 23.976 fps
+Resolution/String                : 24 bits
+Bits-(Pixel*Frame)               : 0.206
+StreamSize/String                : 594 MiB (85%)
+
+Audio
+Format                           : MPEG Audio
+Format_Version                   : Version 1
+Format_Profile                   : Layer 3
+CodecID                          : 55
+CodecID/Hint                     : MP3
+Duration/String                  : 1h 35mn
+BitRate_Mode/String              : Variable
+BitRate/String                   : 135 Kbps
+BitRate_Minimum/String           : 128 Kbps
+Channel(s)/String                : 2 channels
+SamplingRate/String              : 48.0 KHz
+Resolution/String                : 16 bits
+StreamSize/String                : 92.7 MiB (13%)
+Alignment/String                 : Aligned on interleaves
+Interleave_Duration/String       : 24 ms (0.58 video frame)
+Interleave_Preload/String        : 130 ms
+Encoded_Library/String           : LAME3.91 
+Encoded_Library_Settings         : VBR (rh)

@@ -1,0 +1,74 @@
+Latest version at: 
+http://thepiratebay.org/torrent/4407705
+
+
+Irfan View Version 4.10 +plugins ( - old VERSION - ) (Release date: 2007-10-15)
+
+Free image viewer.
+http://www.irfanview.com/
+
+
+Changelist:
+New PlugIn: Paint (Edit menu, Hotkey: F12, thanks to Matteo Italia!)
+It allows IrfanView to paint lines, circles, arrows, straighten image etc.
+
+Support for embedded color profiles in JPG/TIF (Properties->Viewing)
+LCMS PlugIn, thanks to Marti Maria
+
+New command line option: /advancedbatch (Apply advanced batch options to image)
+Allows many image operations, add text etc.
+
+Lossless JPG Crop added (Menu: Options or Thumbnails (batch mode))
+
+Added option to tag/mark files during browsing (window or fullscreen mode):
+Hotkeys: X = tag file, SHIFT+X = untag file, SHIFT+Q: show tagged files in Thumbnails
+
+Support for FLV format (Flash PlugIn, thanks to Remio)
+
+Histogram feature added (Menu: Image, Hotkey: SHIFT+H)
+
+Zoom calculation changed: relative, based on previous zoom value
+
+Auto adjust colors works with selections (Thanks to Andras Horvath, www.log69.com)
+
+Option to save values from "Enhance Colors" dialog
+
+New effects added: Green and Yellow eye reduction (Effects browser dialog)
+
+Option to keep current scroll position for the next image (Menu: View)
+
+Support for HDP/WDP format (Microsoft HD Photo, PlugIn)
+
+Save support for JNG format (Thanks to Pavel Demchuk)
+
+New GUI for batch/slideshow dialogs
+
+Custom selection dialog uses current selection at start, if available
+
+New compression options in PDF export (Thanks to ComSquare AG)
+
+New loading options for normal RAW files (Thanks to Sergey Fokin)
+
+Fullscreen options can be changed during fullscreen mode
+
+Browsing: if CTRL pressed, the file index increases/decreases by 5 (default: 1)
+
+3 external editors are possible now (Properties->Misc 3)
+
+New option for Import palette: Use nearest color (Properties->Misc 3)
+
+Changes in print option Scale (original image size is used as input)
+
+New print option for multipage images: Print odd or even pages
+
+Some changes/optimizations in HTML templates
+
+CTRL+A selects the whole image in the main window
+
+Several PlugIns are changed/updated, please install the newest versions
+http://www.irfanview.com/plugins.htm
+
+Some bugs fixed (IFF/PCX/JP2 loading, GIF animations, Palette import)
+
+
+Â«rebootÂ»

@@ -1,0 +1,51 @@
+
+
+RPN Engineering Calculator 7.0.1
+
+Released 3/17/07 - 2.07MB
+
+The RPN Engineering Calculator lets you choose between 6 different calculators at the click of your mouse.
+
+This RPN Calculator offers a choice of more than 250 solutions and thousands of conversion possibilities with six unique keypads. A "Tip of the Day" is displayed when you start the program (it can be turned off), It has a complete help system and individual tips for all but the most ordinary functions. The calculator has a Running Tape Display showing all entries and solutions for each session as well as the operation just performed, or the units (Hz, Â°, Hy, etc.) of the result.
+
+You can choose between fixed point, scientific, and engineering notation, and select degrees, radians, or grads as the situation requires. Keyboard entry is optional for most of the common functions.
+
+You are able to save the contents of the calculator, the Running Tape Display, the Register Stack, all necessary data required to be able to take up where you left off prior to saving. You can print the contents of the Running Tape Display and you can double-click on any number in the Running Tape Display or the Stack Display to copy it to the x-register.
+
+The RPN Engineering Calculator uses an entry register (input window), a working register, referred to as the x-register (x-reg) and a holding register, referred to as the y-register (y-reg) and an almost unlimited stack.
+
+The Standard keypadhas many of the standard functions available on most Scientific Calculators, this calculator takes it somewhat further!
+
+The Engineering keypadhas several functions to help the engineer.
+
+The Binary keypadis used to manipulate binary integers of any word size from 4 to 64.
+
+Use the Magnetics keypad to calculate various solutions dealing with the design of transformers and inductors.
+
+The Trig Keypad, as might be expected, most of these functions deal with trigonometry.
+
+The final RPN Engineering Calculator keypad, the Convert Keypadconsists of many different conversions, there is also a Physical Constants ('K') function and a ('val') function that calculates the value of Resistors, Capacitors, and Inductors, based on the color or numeric code on the component.
+
+Some of the functions available while in most keypads are:
+
+View lets you toggle between the standard interface and the enhanced view, Two other views are available, one that lets you view just the y-register and the other that lets you view the memory and lastx registers.
+
+There are many functions that can be accessed using the keyboard.
+
+The Cursor keys offer different methods of changing the active Keypad.
+
+Drop - deletes the current value in the x-reg, placing it in the last x register, and Drops the number in the y-register down into the x-register.
+
+x<>y - exchanges the values in the x and y registers.
+
+Lastx - retrieves the last number that was used in a calculation.
+
+STO (copies the number in the x-register into one of the four memory registers, m), two of the memory registers (m3 and m4) can be used with the math buttons (Ã·, X, -, and +) to perform register arithmetic (m3) or use it (m4) as a constant.
+
+CHS - changes the sign of the mantissa or exponent of the number being entered. (This function is replaced by the Mod function in the Binary Keypad).
+
+EEX - to enter number multiplied by the power of 10.
+
+File Menu
+
+Available, via the File menu, is the ability to copy and paste the x-reg to and from the Windows Clipboard (Ctrl+C and Ctrl+V will also copy and paste). Save your favorite default settings: Keypad; View option; Degrees, Radians, or Grads; display type (FIX, SCI, or ENG) and number of digits, as well as the previously mentioned Save (and Retrieve) Running Tape feature, and Print the contents of the Running Tape Display along with the contents of the Stack.

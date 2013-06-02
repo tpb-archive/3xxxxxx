@@ -1,0 +1,24 @@
+This is SynthetiX`S nice work.
+
+--------------
+[SynthetiX]
+
+This is a vmware virtual machine (appliance) with the lastest and Greatest Mac OS 10.4.10 preinstalled.  This Virtual Machine works in Vmware for Windows, Linux, and VMware FUSION for OS X.  Full networking Support!!!  This VM is MUCH faster than the old 10.4.3 vmware image (deadmoo image) that is still circulating around the torrent networks.
+
+As long as your system is SSE3, it should work fine.  Enjoy.  
+
+---------------- 
+[good4man]
+
+( Hello, nooby question here but what exactly is this? Does it allow you to run OSX 10.4 in a windows enviroment? )
+This is VMware Image(vmx file).
+- Installing VMware in xp or VMware Fusion in leopard =>  Double-clicking FreeBSD.vmx in OSX folder in OSX.rar => Running 10.4.10 in VMware or VMware Fusion
+
+( since you say sse3 i guess this was installed from a uphuck intel version rather than amd? )
+I don`t know if it works or not on ADM System.
+I tried it on my PC ( Intel-sse3) and installed VMware 6 on XPSP2, and it works fine on VMware6. ( Sound and Internet as well )
+
+----------------
+[enclosed]
+
+This does work in an AMD enviroment, and if you upgrade the VMware workstation from 4 to 6 you can add a second processor if you have a dual processor machine like i do. Also you can network this to the host machine and it can read and write to NTFS, so you can add files onto the mac hd(good for adding apps like iLife). Another thing you can do is change the screen resolution by editing a file to add the resolution you want, if you search on google there are some good how-to's about setting up OSx86 in vm. Thanks for the upload. 

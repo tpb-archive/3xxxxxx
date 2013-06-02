@@ -1,0 +1,92 @@
+Dziobas RAR Player 0.007 Portable
+
+0.006.2:
++ obs?uga rarów z nazwami move.001 move.002 itd.
++ poprawiony b??d z odpalaniem programu przez który nie odpala? si? na niektórych 
+   windowsach
++ wy?wietlanie pe?nej ?cie?ki filmu na belce tytu?owej
+0.006:
++ poprawiona zmiana wielko?ci napisów
++ lepsze dopasowanie filmu do okienka (wy?rodkowanie)
++ p?ynne wyostrzanie obrazu (w Eq)
++ zRARowane x264 powinny dzia?a? bez problemu
++ zajmuje mniej miejsca
++ przekompilowano mplayera (wi?c s? poprawione niektóre b??dy, nowych nie powinno by?)
+0.005:
++du?o poprawek 
+
+Czy mia?e? kiedykolwiek problemy z kodekami audio/video? Najpierw szuka?e? odpowiednich, jak w ko?cu znalaz?e? to okaza?o si?, ?e one psuj? co? z innymi kodekami. Ten program rozwi?zuje tego typu problemy potrafi sam z siebie odtwarza? wi?kszo?? spotykanych filmów i nie trzeba nic instalowa?. Po prostu przeci?gasz film na ikon? programu i ju? si? nim cieszysz.
+
+Zalety:
+-odtwarza pliki RAR (spakowane pliki AVI podzielone na cz?stki, NIE dvd)
+-odtwarza pliki RMVB, AVI,  MPGE, MKV, BIN,ISO, IMG bez ?adnych dodatków i packów
+-odtwarza DVD
+-dobrze radzi sobie z niedoci?gni?tymi filmami, mo?na podejrze?, co si? z DC++ ?ci?ga.
+-nie wymaga instalacji
+--wi?c nie namiesza nic w systemie
+--mo?na go nagra? na p?yt? z filmem/Pen drive i b?dzie mo?na go odtworzy? na ka?dym komputerze z zainstalowanym Windowsem.
+-proste dopasowywanie przesuni?ci napisów (za pomoc? klawiszy c/v ustawia si? przesuni?cie na kolejny/poprzedni napis, za pomoc? Z/X zmienia si? przesuni?cie o +/-0,1s, B to wczytanie kolejnego pliku napisu z katalogu).
+
+
+Dziobas Player to zmodyfikowana windosowska wersja programu MPlayer(*). Zosta?a ona dostrojona do naszego kraju, bez problemu odtwarza napisy z polskimi literami, dodano podstawowa obs?ug? z myszki (przewijanie, wczytywanie napisów, pe?ny ekran i start/stop) oraz polsk? instrukcj?.
+
+Klawiatura:
++ - g?o?no??
+/ * - przesuni?cie audio o 100ms
+X/Z ? opó?nienie przy?pieszenie wy?wietlania napisów o 100ms
+c/v ? teraz wy?wietlaj kolejny/poprzedni napis.
+[ ] ? przyspieszenie, opó?nienie tempa filmu.
+Backspace - normalna pr?dko??
+F - pe?ny ekran/okienko
+strza?ki prawo lewo, dó? góra, Page Down, Page Up ? przewijanie o 10sekund, 1minute i 10 minut.
+R/T ? wysoko?? napisów
+B/J ? prze??czanie do kolejnego pliku napisów (je?eli wi?cej ni? jeden zosta? wczytany)
+N - wy??czenie w??czenie napisów
+D ? opuszczanie klatek (przydatne przy s?abych komputerach)
+T ? okienko zawsze na wierzchu
+1-8 ? ustawianie parametrów obrazu.
+
+Program przetestowany na Windows XP(PL).
+
+Je?eli masz dost?p do Internetu na wi?kszo?? pyta? znajdziesz odpowiedz na http://dziobas.no-ip.org
+
+FAQ:
+
+0. Co to s? pliki rar?
+
+Pliki rar to format archiwum w których cz?sto przetrzymuje si? filmy. Pliki tego typu mo?na spotka? na grupach dyskusyjnych (Usenet) lub na stronach typu http://polishtracker.org.
+
+1. Jak odtwarza? plik rar (scenowe) w czasie ich ?ci?gania? 
+
+Najpierw nale?y kompletnie ?ci?gn?? pierwsz? cz??? archiwum(ta z ko?cówk? .RAR, a NIE *.r01) i ostatni? cz??? archiwum (zwykle ma  *.r47). Pierwsza jest niezb?dna do rozpocz?cia ogl?dania, a w ostatnie znajduje si? informacje niezb?dne w celu przewijania ty?/przód.
+Reszta plików to mog? by? pliki nie doci?gni?te. Program radzi sobie z niedoci?gnietymi plikami BitCometa i uTorrenta(koncówka (.bc! i .!ut) i plikami bez ?adnej dodanej ko?cówki.
+Nast?pnie przeci?gamy plik rar na ikone DziobasRarPlayera.
+
+Je?eli mamy szybkie ??cze to w czasie ogl?danie pliki nam si? doci?gn?.
+Ja zawsze robi? tak ?e w BitComet ustawiam najwi?kszy priorytet ?ci?gania dla pliku rar, ostatniego pliu i i kilku pierwszych plików.
+
+2. Co rozumiesz przez scenowe rary?
+
+Pliki rar utworzone metod? kompresji store i bez has?a.
+
+3. Jak odtwarza? pliki rar (niescenowe) z has?em?
+
+Menu File->stream from unrar..
+W tych plikach 
+-NIE dzia?a GUI (Graficzny Interfejs U?ytkownika)
+ -Nie mo?na ich przewija? (mo?na tylko zwi?kszy? pr?dko?? za pomoc? klawisza?]? i zwolni? za pomoc? backspace. Je?eli tak przewijamy to dobrze ustawi? frame drop na hard (klawisz ?d?)
+
+4. Wczytywanie napisów przy filmach rar nie dzia?a?
+
+Dzia?a za pomoc? force subtitle 
+Menu: Subtitle->Force subtitle...
+Po tej opcji film zacznie si? od pocz?tku, nie nale?ny si? tym przejmowa? i zg?asza? tego jako b??du. Zostanie to zaraz poprawione.
+
+5. Jak dostraja? napisy?
+Nale?y wczyta? film poprzez ?Force subtitle...?, prze??czy? na pe?ny ekran i za pomoc? klawiszy c i v dobra? odpowiedni napis. v to natychmiastowe wy?wietlanie napisu dalej. Z x i to przesuwanie napisu o 0.1s. mo?na te? stosowa? SHIFT+klawisz wtedy film nie b?dzie zatrzymywany.
+
+6. Jak odtworzy? DVD?
+
+Menu File i wybieramy nap?d.
+
+(*)MPlayer - Chodzi o odtwarzacz zwany Movie Player for Linux, niema on nic wspólnego z Windows Media Plyer(mplayer.exe) poza skrócon? nazw?.

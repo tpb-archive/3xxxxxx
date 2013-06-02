@@ -1,0 +1,37 @@
+Active@ Partition Recovery for Windows - will help you if non-system partition is lost, i.e. you can boot Windows, install and run the software from under Windows to recover deleted or damaged partitions located on data volumes (D:, E: ...), attached HDDs, as well as on the external USB drives and Memory Cards (SunDisk, MemoryStick, CompactFlash, etc...). BOOT.INI is corrected automatically (if needed) to keep the system bootable, as well as damaged Volume Boot Sectors are corrected to mantain integrity of the partition. 
+Software allows also to fix damaged MBR and to delete invalid partitions. 
+
+Active@ Partition Recovery for DOS is a very small and easy to use DOS utility which recovers deleted partitions or Logical Drives completely and also can backup and restore Master Boot Record (MBR), Partition Table, Boot Sectors.
+
+Active@ Partition Recovery for DOS - is a very small, powerful and easy-to-use DOS program that can help you to:
+
+- Recover deleted partitions (FAT and NTFS). - Restore deleted FAT and NTFS Logical Drives. 
+- Scan hard drives and detect deleted FAT and NTFS partitions or Logical Drives. 
+- Preview files and folders on deleted partition or drive, to recover data. 
+- Backup the Master Boot Record (MBR), Partition Table, Volume Boot Sectors. 
+- Restore the MBR, Partition Table and Volume Boot Sectors from backup if damaged. 
+- Create a drive image. 
+
+Extended Disk Scan may detect partitions being deleted even if you have created new ones instead, formatted and used them !
+It will help you when: 
+
+- Drives or partitions inadvertently deleted (using FDISK or other programs).
+- Hard Disk Logical Structure has been corrupted.
+- Boot sector is damaged by virus.
+
+Active@ Partition Recovery supports:
+- Supports IDE / ATA / SCSI drives.
+- Supports FAT12, FAT16, FAT32, NTFS, NTFS5 file systems. 
+- Supports MS-DOS, Windows 95/98/ME/NT/2000/XP partitions.
+- Detects deleted primary/extended partitions and drives.
+- Scans partitions damaged by virus or with damaged MBR. 
+- Saves detected partition information back to HDD. 
+
+Active@ Partition Recovery can recover deleted partition only if its location on hard disk drive has not already been overwritten. If you wisely created MBR backup using Active@ Partition Recovery you can always restore MBR and partition information.
+
+NEW! Active@ Partition Recovery Enterprise Toolkit - is an ultimate data recovery tool set. In addition to DOS and Windows versions of the software, it contains downloadable Bootable Windows ISO Image that you can burn to CD-ROM and boot Windows from this CD-ROM to recover partitions (including the system ones) as well as to recover particular files and folders from the familiar Windows environment. Active@ File Recovery utility is also included to allow you to save your files and folders in case of unsuccessful partition recovery (for example, the file system itself is severely damaged and Windows is unable to recognize the partition after recovery). 
+
+Active.Partition.Recovery.v5.0.357.Enterprise 
+http://www.partition-recovery.com/partition.htm 
+
+Install and Enjoy...

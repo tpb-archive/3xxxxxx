@@ -1,0 +1,125 @@
+﻿User Type,Username,Date,Text
+,Broodjeman,2007-11-25T20:16Z,"sorry m8, i can only speak english..."
+,Broodjeman,2007-12-03T14:11Z,"really? thats weird. It seems to be working fine, but thanx for taking the effort ;)"
+,dscm,2007-12-30T10:33Z,should i burn it on a dvd and run it on a PS2??
+,dorshar,2008-01-11T09:28Z,"This worked great, it was kinda a hack form to get mine werking before, to eject the disc just as the screen turned black trying to boot any random original Ps2 title, and swappin back in the exploit disc, was some juggling but I made due this is so incredibly simple props to the patch team that started the original patching of this app and now to the ones too complete this great final form of CB"
+,Broodjeman,2008-01-14T09:15Z,"No m8, u can't really burn it, well, u can, but it is an .ELF file, its the same as a .EXE for a PC.
+
+put this program on your PS2 Memory card ( u will need uLaunchelf or any other means to get it there) or put it on your PS2 HDD.
+
+Remember this Patched Codebreaker is only for  ps2's with HDD and HDLoader.
+"
+,Davidbeats23,2008-02-05T15:16Z,could this make me play emulator on ps2???WHat the fuck is hdd???is it hard drive....but i don't have hard drive in ps2 what the fuck!tell me dude cause i was just trying to put usb pen on my ps2 which unfortunately not working...?????Broodjeman...
+,BlizBob,2008-02-06T11:29Z,"Davidbeats23
+Older versions of PS2 have a bay where you can istall an IDE hard drive.
+In slim versions you can use USB hard drive.
+I have an older v5/6 model PS2 with matrix chip and I use (only) 40gb HDD to store my games.
+I also use Ulaunch elf to do some neat stuff on my PS2 like using SMS media player so I can watch *.avi ect. files from my TV.
+If you have an unmodified PS2 you can buy swap magic to boot burned cd's and dvd's.
+I'm not sure but you might be able to use Ulaunch-cd with it and thus any *.elf file you desire.
+How ever getting a mod chip like Matrix infinity is the best choise in my book."
+,tfayeb,2008-03-08T23:25Z,"In english please :P
+Can i put this on a flash drive and plug it into the ps2?
+If not what do I need to make this work.
+This is what I downloaded...
+
+cameron_(everything_unlocked_+_hacks)12_ps2-ntsc.cbs"
+,Gaggarin,2008-04-17T01:10Z,"hope that someone can help me with this. 
+I've put the elfs on my hdd in the _boot folder. In ulaunchelf I then go to hdd0://_boot and start patched_CB9.3.elf, this long it's all good. The prog starts and I select my cheats, but when I press ""play game"" It wants me to insert a DVD so I just press x again and all that happens is that the screen turns black. Nothing happens at all. Shouldn't he start my CB_launch? "
+,Gaggarin,2008-04-17T01:58Z,Nvm. Got it to work. El stupido here pressed update in the menu. I installed a fresh copy and now it works.
+,ludomancer,2008-05-12T12:05Z,"Maybe I'm el Stupido Numero Dos, but I get the same result as your initial post...  I have placed all relevant ELFs and files into their appropriate places, CB boots fine, but when I choose to boot a game my drive ejects expecting a game disc, I press X again anyway and I get a black screen...  What did you do differently exactly?  My CB_launch.elf file is a renamed HDLoader.elf, btw.  Am I misunderstanding the directions?  I assumed my PS2 would boot to my HDLoader list to then select the game that I chose cheats for."
+,HopeAndApathy,2008-06-02T18:16Z,"If any one is looking for Codebreaker because AR and ARMax doesn't have the cheats they want, which is just like AR. AR peeps are lazy or something and dont seem to make many cheats for any games or useless ones. You can convert Codebreaker Codes to AR by useing some programs, just Google CB2crpt v1.3 and MAXConvert v0.71 These programs work great and you can just use your AR to play why useing the Codebreaker Codes. Hope that helps"
+,locknload6,2008-06-30T02:53Z,"ok just a quick question, I put hdloader on the harddrive, but im not sure how to get the games i download to the correct location on the hdd, can anyone help? thanks"
+,KOFwhiz,2008-09-21T22:13Z,"For those of you, dont make the same mistake I did:
+
+I honest thought this was the actual codebreaker itsself, but this is ment for HARD DRIVES ONLY.  Meaning, if you have a ps2 hard drive installed, then it will work.
+
+If you want just CODEBREAKER, then download it from somewhere, but make sure its not patched and that its the original copy.
+
+Good luck and Enjoy :).
+
+See yaz bye.
+"
+,focqueall,2008-09-27T20:53Z,"I have a DMS4 pro with Toxic OS 0.41 and a 300GB HD installed with all of my backups. I renamed the ""PATCHED_CB9.3.ELF"" to BOOT.ELF and copied it to MC0:/BOOT along with the CB_launch.elf file. Upon rebooting, Codebreaker launched, I chose the cheats I wanted and then pressed start. HD Loader loaded as it should BUT the disk was EMPTY (according to the supplied HD Loader). I tried replacing the CB_launch.elf with the TOXIC_OS.elf (renaming it), but this tried to upgrade Toxic OS instead.
+
+I guess a simpler way to put it would be to ask if there is a HD Loader version that will recognize my HDD as ToxicOS 0.41 does?"
+,DireDarknil,2009-01-05T01:41Z,"Works great, it seems like there aren't many apps for the ps2 hdd."
+,doozer0,2009-01-15T22:37Z,This program doesn't load at all for me. It just goes to a black screen and hangs.
+,squallalex,2009-02-14T21:30Z,hmm I put codebraker in my usb external hdd and hdloader in mc0/ boot.... i boot codebraker then it goes to hdloader I chose my game but no cheats wtf pls help
+,Broodjeman,2009-04-10T21:46Z,"OK, for all you peeps out there with black screens or HDLoader NOT booting.
+
+make sure you RENAMED your HDLoader.elf file to ""CB_launch.elf""
+
+when u start a game...the tray opens, and u need to press X.
+
+try closing the tray...or... u can set ""do not open tray after pressing X"" option in the settings menu of codebreaker.
+
+if u have matrix infinity chip, try to turn ""macrovision"" on or off in the matrix menu.
+(press /_\ - triangle and O-circle, while starting the ps2).
+
+u MUST have HDLoader in one of the paths stated in the nfo file above and it MUST be renamed to ""CB_launch.elf"""
+,Broodjeman,2009-04-10T21:48Z,"@ focqueall:
+
+u need to patch the HDLoader u have, with the toxic OS patch to make it work.
+
+toxic os uses different format methode on the ps2 hdd, so HDLoader will not reconize it probably."
+,Broodjeman,2009-04-10T21:53Z,"@squallalex:
+
+codebreaker originaly only works with NTSC games!
+
+u can download PAL cheats from google, and add them manually"
+,jarcarz2,2009-04-17T00:36Z,Do i burn this into a DVD????
+,Broodjeman,2009-05-07T23:08Z,"u can burn this to a dvd, but also to a cd, or u can copy it to your memory card and u can launch it from USB or your HDD (if u have a fat ps2 with hdd)
+
+remember this is a .ELF file (like an .exe file on a pc)
+
+u have to know a little bit about burning elf files to a cd or dvd before u can do this right.
+
+and ofcourse, u must have a modded ps2 or swap magic discs, because this is not an original cd/dvd (duh...) and a ps2 cannot play burned discs (except dvd movies)
+
+in short:
+
+if u want to burn this to a cd and be able to play it, u need a modded console and u need to make a .CNF file wich points to the .ELF file on the cd.
+
+sounds to difficult? its not, but u need to google a little bit.
+
+i have made a guide where everything is explained in details.
+
+http://members.lycos.nl/nachoman/-=%20PS2%20STUFF%20=-/Tutorials/Make%20bootable%20dvd.docx"
+,Broodjeman,2009-05-07T23:12Z,"Oops, wrong link...
+
+this is the correct link form above..
+
+http://members.lycos.nl/nachoman/-=%20PS2%20STUFF%20=-/Tutorials/Make.Bootable.CD.Video.Tutorial.rar
+
+have fun !"
+,XyQo,2009-05-09T16:44Z,"I need some help with this one i dont know what i'm doing wrong.
+I got it running fine from my HDD. but some times i doesn't launch hdloader. I know i have it set up right cause it works sometimes but mostly it just goes black after i choose start game"
+,Broodjeman,2009-05-17T22:22Z,"Does that only happen happen with certain games?
+or does the same game sometimes work, and sometimes not?
+
+I think it might be because if the hdd is old and failing?
+
+u could also try chossing another location of the HDLoader .ELF file or use another (latest update) HDLoader.elf file."
+,LinuxPirate2.6,2009-06-17T23:48Z,"(Do you need a modchip for this?)
+Behรถver du ett modchip fรถr detta?"
+,Broodjeman,2010-01-09T20:24Z,"NO, u dont need too, but it is only cool IF u have a Hard disk installed in your ps2.
+otherwise u wont need this to to use cheats with games in your HDLoader list"
+,chrissuit33,2010-02-25T10:59Z,"I'm having an issue with this. Codebreaker launches but it freezes when it starts 'SETTING UP CHEATS PLEASE WAIT...."" I've tried deleting the CB partition on the HDD, making sure old CB files were cleared from my mem card, i've done everything i can think of to get it to work, no dice. if anyone else had a similar problem with it and got it working let me know how you did it."
+,gahaj123,2010-03-27T20:58Z,"HEY PEOPLE WHO SOFTMOD PS2
+this doesnt necessarily need a hardrive to use cheats for example i loaded this elf, selected cheats for jak 3, hit start game, and i set it to load cogswap, used cogswap to play backup jak 3 and the cheats worked like a charm. I TESTED THIS ON NTSC. i dont know how to make it use pal cheats yet......"
+,Hamayumi,2010-06-05T04:51Z,"Excuse me, please seed, I'm stuck on ""Starting Up"" phase, even though there is 1 Seeder.
+
+I'm gonna seed too when I'm done so don't worry."
+,ocelot_20119,2011-06-05T00:27Z,"Thank you so much,i need this to complete GOW one.haven't tested it yet,will seed and write feedback."
+,mervynsow,2011-08-02T17:28Z,I got Free McBoot with ESR. I put the CB elf on my flash drive. then put a new folder on there called BOOT. i put the ESR elf in the BOOT folder then renamed it CB_launch.elf   i can now use cheats on my ESR patched discs. Guessing this will work with OPL as well. no one was seeding this had to go round and load other trackers.
+,deadsatan,2011-09-11T07:49Z,"Works fine with Matrix Infinity chip, should work
+with other chips such as Modbo 4.0 and Modbo 760.
+ In the Matrix Infinity Configuration Menu (Triangle + Circle at boot of console)
+set PS2 Screen Fix to either OFF or COLOR if you are getting black or blank
+screen after booting Codebreaker.
+ When you boot Codebreaker the screen will go black for a few seconds, the light
+on pen drive will go out, then come back on and Codebreaker will load.
+I've had no problems so far with HD Loader or Open PS2 Loader."
+,phrozenstare,2011-10-22T18:02Z,thanks for this i cant believe it took me this long to figure out something like this. but chalk that up to not reading anything
+,Seasq112,2012-01-10T06:05Z,Only works when I installed the ELF on my memory card and launch it with uLaunchELF. Will not start if any USB devices are plugged in.

@@ -1,0 +1,678 @@
+﻿User Type,Username,Date,Text
+,Zephyroth,2007-11-26T14:04Z,"Darwin bootloader wil not replace the existing one if you have.
+
+If Windows is already installed use easyBCD to add an entry to Windows bootloader.
+
+If Linux is already installed, you must know what to do with Grub or Lilo ..."
+,Derty1,2007-11-26T14:40Z,"good work.
+
+Run in Intel Pc too????
+
+thanks."
+,Zephyroth,2007-11-26T14:43Z,"don't really know ...
+kernel is Intel/Amd but I change some kexts in order to make it running on my PC so I suggest you to test !"
+,Zephyroth,2007-11-26T14:48Z,arf ... i just remember that I have generated cpuid.txt and patcher with Marvin's AMD Utility so I think it will not work on Intel ...
+,pattex67,2007-11-27T10:55Z,"hello thanks for this release but we need seeders please
+salut merci a toi pour cette release mais on a  besoin de seed 
+thanks"
+,Zephyroth,2007-11-27T11:24Z,"Je seed, je seed ... Je suis le seul quoi, enfin pour l'instant !"
+,pattex67,2007-11-27T12:15Z,ouais mais la depuis cette nuit tu seeder plus rien :/ gt bloqué a 55 % mais maintenant t revenu c cool :)
+,catalin1082,2007-11-28T10:43Z,freeze at the end of installation...
+,esty,2007-11-28T14:17Z,"freeze with dark-grey screen just after install...(before reboot)
+no darwin bootloader installed seems=("
+,pattex67,2007-11-28T17:25Z,"re salut g réussi l'install ( g du faire quelque manip car g une carte ati mais j'arrive finalement a le lancer parcontre g le pc qui freeze comme tu l'a dis mais le fait de mettre manuellement ne change rien quand je surfe ca passe mais dès que je dl ca freeze
+
+tchô"
+,Zephyroth,2007-11-28T17:40Z,"C'est la même chose pour moi finalement.
+Bizarrement, çà semblait être réglé mais depuis ce matin, freezes à répétitions.
+Je cherche, je cherche ... Ca te dit pas de chercher avec moi ? :-)"
+,mrmofal,2007-11-29T03:21Z,"I posted this on the other one, too, but this was helpful!
+
+http://letsgoboatin.blogspot.com/2007/11/installing-leopard-on-your-pc.html"
+,pattex67,2007-11-29T14:19Z,t'a trouvé une soluce ? moi rien :(
+,SnipinTerminator,2007-11-29T18:10Z,here's a working install guide: http://osx86.thefreesuite.com/leo_amd.php
+,FreeBetas,2007-12-01T20:56Z,Is anybody seeding!!! I'm using azureus & i get about 20kb/s!!! 
+,[NL]Halo[NL],2007-12-02T20:29Z,"Does it work on AMD Athlon 64 3200+??????
+or u dont know?"
+,[NL]Halo[NL],2007-12-02T20:44Z,PS does it word for ATI all in wonder 9600 series drivers  (my screen's drivers)
+,amdturion529,2007-12-02T21:31Z,"Salut!
+Will it work on a AMD Turion(laptop) x2 1,8 ghz 1024 mb ram with 100 gb harddisk? Please answer I have tried to get answer a hole lot of places. 
+How to burn the iso to dvd?
+aide  s'il te plaît!!!!
+ps. unfortunately i don't speak French jet, but i'm learning."
+,amdturion529,2007-12-02T21:39Z,i have tried to burn two times but when I boot I het missing system files. I burn with nero at 1 x speed. 
+,FreeBetas,2007-12-03T13:26Z,My computer keeps rebooting when i start the cd!!! I got an AMD Athlon 3000+ & an NVidia GeForce 7800. What is the problem??
+,Mr.Greencastle,2007-12-04T06:51Z,"For everyone wondering how to burn this to a DVD:
+In Windows, use a program called ImgBurn, it is free. Google is your friend.
+In Linux, right click the .iso file and click 'Burn to Disc'
+In Mac OS... I don't know, which is why I am downloading this to get better experience in it.
+
+Mr Green"
+,poohead202,2007-12-04T11:04Z,"so u dont think that thisll run on an intel pc? (""I have generated cpuid.txt and patcher with Marvin's AMD Utility so I think it will not work on Intel"")"
+,micato,2007-12-04T17:08Z,nforce 5 support ?
+,djcloud,2007-12-04T18:59Z,"I don?t get it. What?s with this image? Most people have problems with it. There should be a post with instructions for troubleshooting problems that have come up with this image; i have a problem where it boots starts to mount and then spontaneously reboots. This release is full of problems. It say SSE2/SSE3, my system Nforce 3, Amd 64 3400+ SSE2."
+,running0nempty,2007-12-04T19:31Z,there is a post for support on this. check insanelymac.com
+,UberTrickTed,2007-12-06T20:19Z,"Part 071 of this torrent seems to be corrupt - can anyone else verify this or am I just having bad luck? The other parts all check out fine, as verified by 7-Zip's 'Test Archive' function, it's only this last one, and I've re-downloaded this particular file 3 times, each with the same results.  Does anyone have a valid instance of this file they'd be able to upload? I can provide hosting space if you need it.
+
+Thanks!"
+,Krispy.88,2007-12-07T05:03Z,How can I burn a 7.5gb image without a Dual Layer dvd? Is there a way I can burn it to 2 dvd's?
+,whitestudioare,2007-12-08T10:49Z,SEED! I get 10kb/s!
+,[NL]Halo[NL],2007-12-09T18:43Z,i have the .iso file but if i want 2 install it it says that there is an error with FireWire
+,lukealpha,2007-12-10T00:20Z,this doesnt work dont download it says installation failed!!!! 
+,Zephyroth,2007-12-10T10:02Z,"lukealpha 
+---> Don't be stupid. It doesn't work for you ? ok. But it works for a lot of people ... so shut up."
+,trnguyendinh,2007-12-12T13:13Z,"Salut les gars,
+Merci d'abord pour ce magnifique torrent. je confirme encore que ce torrent marche bien. 
+
+Mais j'ai encore un petit prolème sur un autre portable que j'ai testé. En effet l'installer de Léopard ne trouve pas le disque dur IDE qui est en esclave, il ne trouve que le lecteur DVD branché en IDE master. Du coup on est planté là , koi.
+
+Voici la config de ce portable:
+
+- Acer Aspire 7520
+ + bios Phoenix, chipset nVIDIA nForce  7000M-610M, AMD Hammer
+ + Proc. Athlon 64 x2 Tk-55
+ + 2 x 1 GB DDR2 SDRAM
+ + DD WDC 250 IDE
+
+Votre avis sera bienvenu. Merci d'avance."
+,Stork66,2007-12-15T17:43Z,sounds great! thanks for all of your time and effort on this
+,mmouse1234,2007-12-15T19:28Z,"just curious my download's name is 'Documents'...is that right?
+
+Also, someone mentioned this img being 7 GB or so, and this DL is only 3.35. Just wondering if that's right."
+,lukealpha,2007-12-15T23:17Z,amd athlon 6000 sse3 8600 gt oc 1gb ram it installs untill you get to the end and i get an error message telling me cant find partition so shold i try installing 10.4.9 then try installing this one ? would that work ?
+,Jerk990,2007-12-16T00:01Z,"used winrar to extract, install went fine, works with my pavilion a6110n, got QE/CI on my 7300GT with Titan, and editing dev id's great install seems more stable than tubgirl 10.4.10, good job Zep"
+,XeroGlitch,2007-12-16T05:18Z,"Jerk990 i dunno what problem you had with Tubgirls release but Tubgirl 10.4.10 is the most stable release i've ever came across. There's alot others that will vouche for this. Best AMD Version out there. Just wanna make this clear cause it sorta sounds like it's bad with your comment, no way.
+Cheers."
+,amdturion529,2007-12-16T10:14Z,"my problem now is that the instalation freeze when I erase the partition in disk U. and the screen freezes! Can anybody help? 
+AMD Turion x2 (laptop) 1024 ram, 120 gb harddisk(Jas 10.4.8 woundn't find it). "
+,mckooter,2007-12-16T22:14Z,"just so everyone knows, this does NOT support sse2, the kernel is incorrect, post details on insanelymac"
+,lukealpha,2007-12-17T07:53Z,ok i got it to work make 2 partitions on one drive one ntfs windows then make another fat32 primary and make a shared logical name the fat32 LEOPARD and install 10.4.8 then install 10.5.1 over it should allow you to boot windows and leopard thanks to the uploader !!!!!!!!!!!
+,alphawallaby,2007-12-17T08:49Z,"Ah, most perfect install of osx86 I've ever had... I'll be watching this for questions, so shoot!"
+,--DANNY--,2007-12-18T18:14Z,"The download was quick & painless.
+
+I verified the MD5 of the ISO several times and it matched up every time.
+
+But I've burnt 2 DVD's using both Nero and ImgBurn, and they both tell me there's a missing .plist file or some random file in the middle of the installation, like a language file or something.
+
+And when I mount the image in Daemon Tools, MacDrive tells me that the volume is corrupt but it can read other HFS+ volumes just fine, including other OSX DVD images."
+,Qym,2007-12-18T18:49Z,"******** YOU ARE ALL NOOBS!!!!!!    *******
+
+Iv been reading through a lot of these comments only to be surprised by the fact you all think you need DVD DL disks to install this version of leopard, well you don?t.
+
+Have you ever heard of an ipod? How many of you have an ipod or a mass storage device. All of you I bet. This is a SIMPLE guide written by me on how to install this onto your Mac via an ipod or mass storage device!
+
+1) Plug in your ipod or mass storage device via FIREWIRE (must be able to store more than 6.56gb durh)
+
+2) Go into a little application called disk utility (found in the utilities folder in your applications)
+
+3) Click on your ipod or mass storage device in disk utility shown in the left column, go to the erase tab and call it      Mac OS X Leopard Install DVD and erase it (any journal neither matter)
+
+4) Now mount (double click) the leopard disk image that you illegally downloaded.
+
+5) You should now see the mounted Mac OS X Leopard Install DVD in the disk utility. Return to the erased ipod and click the restore tab. drag the image of leopard to the 'source' section. Drag the erased ipod or erased drive to the 'destination'. DONT click 'erase destination'. Hit restore. Leopard will now copy to your drive. It may take up to 15 minutes so make yourself a cuppa tea and have a little rest.
+
+6) Go into system preferences and click 'startup disk' you should see your current OS and a folder that says Mac OS X 10.5 ...etc. select it and hit restart. It will restart into the installer, now install .The installation will happen faster than via a disk because of the direct firewire connection.  I really hope this helps some of you out there. Spread this about on forums if you want, try and help others.
+
+Written by Qym 18/12/07"
+,free2hack,2007-12-18T21:00Z,"I just signed up for a account to confirm that this not only works but is relatively flawless. If anyone needs to know my hardware google a acer aspire 5100-5022, to get exact model specs, do not yet know if wireless works yet as Ive not tried it.
+
+A big thanx to the loader Zyph! Finally Mac OS X without the $$MAC$$"
+,mckooter,2007-12-19T02:08Z,"Qym, 
+
+in case you havent noticed, this iso fits on a standard dvd (Single Layer) so your little tutorial is unnessisary, its literally DOWNLOAD BURN INSTALL
+
+(keep in mind its not SSE2 and if you have problems it could simply be a hardware mismatch, osx86 is still new, as is this kernel)"
+,Lacooda,2007-12-19T15:47Z,Can anyone tell me how to burn this .iso file to dvd disk using nero.. plzz..
+,Lacooda,2007-12-19T16:00Z,"alphawallaby: Ah, most perfect install of osx86 I've ever had... I'll be watching this for questions, so shoot!
+
+
+How did you do it, step by step..."
+,yukasz,2007-12-19T18:15Z,"I wonder if there is an working Mac OS x86:/ I've downloade Tiger 10.4.8, Didn't see may SATA II HDD. Tryied Leo Patched For Intel, doesnt even boot:| And with this? I get an ""error : FireWire Unable to determine security-mode"" And it stops, i can write something in but what??
+My machine:
+AMD X2 4600+
+GEIl Ultra 2x1GB DDR 2 800MHZ
+GIGABYTE GA-M57SLI-S4
+Caviar 250 Gb SATA II
+Geforce 7600GT
+Maybe someone can help??"
+,Lacooda,2007-12-20T00:05Z,"When I boot from DVD I get about 8 Loading lines and then reboot...
+
+Does anyone know what the problem might be?"
+,alphawallaby,2007-12-20T01:06Z,"First of all... proprietary software sucks, people. You wanna burn like a pro, use the simple ImgBurn at imgburn dot com.
+
+Lacooda: It sounds like your hardware just might be incompatible :( list your specs, i'll look over them for you."
+,Lacooda,2007-12-20T01:45Z,"alphawallaby: 
+My specs.. 
+AMD Athlon 64 X2 Dual core 4000+
+4 x 1gb ddr II
+and I'm using ATI Radion X1250 128 mb"
+,alphawallaby,2007-12-20T03:04Z,"Interesting... you're hardware looks good. Try starting in safe mode, when that message comes up saying ""press any key to install or press F8 to enter options"" press F8 then, type ""-x"" (withhout quotes) then hit Enter."
+,Lark_Prof,2007-12-20T19:39Z,Hrm. The installation went well and completed. But i'm having issues with the bootloader. It doesnt want to seem to load after installation. I get a nice big fat black screen with a blinking curser. Which pretty much tells me that the bootloader wasnt installed at all or properly. Anyone else have this issue?
+,alphawallaby,2007-12-20T23:08Z,Give me details on how you have it installed. Is it a dual-boot? How many hard drives? What's on each one? Give me as much info as you can. You might also wanna list your system specs.
+,Lacooda,2007-12-21T00:22Z,"alphawallaby: When I try to use the ""-x"" command I have the same problem as before, only this time I get like 1000 Loading HFS+ ....... "" lines scrolling on the screen for 2 mins.. and then reboot.
+Is it normal to reboot before I get to see some setup window?"
+,alphawallaby,2007-12-21T01:46Z,"No, definitely not.
+
+I have one more suggestion for you. Delay the process of booting off the CD somehow... on my HP, pressing the Esc key once I see the big white HP logo lets me choose what to boot off of... CD, Hard Drive, Network, etc.
+
+It's prolly also Esc on your computer... it could be any of the function keys, too. (F8, F10, etc).
+
+I'm not talking about the BIOS setup... it's a different menu. When you find it, let it stay there for like 5 seconds, then choose the CD option."
+,Lacooda,2007-12-21T01:50Z,"I finaly got into the setup using ""cpus=1"" command, dut another problem, I cant't find my partition..."
+,alphawallaby,2007-12-21T02:21Z,Oh boy... do you have AIM or something? lol
+,Lacooda,2007-12-21T02:23Z,got MSN..
+,alphawallaby,2007-12-21T02:28Z,"alpha2zulu00@hotmail.com
+
+spam it everyone, it's for IM purposes only :D"
+,Lacooda,2007-12-21T02:48Z,ok... accept
+,Lacooda,2007-12-21T03:51Z,"Does anyone here know the reason why I can't see any partition at the install window under ""disk utility""?
+
+b.t.w. I've done this already
+>> List disk
+>> Select disk [disk #]
+>> List partition
+>> create partition primary id=af
+>> active
+"
+,dj2swift,2007-12-21T21:11Z,JUST WANTED TO KNOW IF YOU COULD HELP ME OUT..THIS TORRENT IS AWESOME....IT INSTALLS PERFECT..UNTIL I GET TO SELECT A DESTINATION..WHERE DO WANT TO INSTALL MAC OS X...AND THERE IS NOTHIN IN THE BOX BLOW...IF I DID SOMETHING WRONG PLEASE TELL ME ..WHAT I NEED TO DO...THANK YOU VERY MUCH...DJ.2SWIFT (dj2_swift@yahoo.com)
+,dj2swift,2007-12-21T21:21Z,im in the same boat as lacooda...so if you can help please let me know...i need this to work...please..thx 2swift..dj2_swift@yahoo.com
+,senoracid,2007-12-22T02:18Z,"Guess I'm having the same problems some are. I managed to check the install registry and several files gave an instalation error.
+
+I did the usual, formated disk, hfs+, etc etc but it keeps not working. Basically it freezes when the supposed install finishes. Anyone got any similar thing happening?
+
+Cheers"
+,alphawallaby,2007-12-22T05:26Z,"Make sure wherever you guys are trying to install Mac OS has been untouched by Windows... before you do the id=af trick, that should be unformatted, unallocated  space."
+,Lacooda,2007-12-22T05:29Z,"If you din't see any partitions in the installation window, you may need to Configure the SATA an AHCI (in the BIOS)
+
+But I think I'll never get this to work, when I boot after the Leopard setup I can't boot to Leopard.... It's like the patch was never installed or sum..."
+,alphawallaby,2007-12-22T08:40Z,"You're not trying to boot off the Leopard partition, are you?
+
+That's a no-no."
+,senoracid,2007-12-22T15:30Z,"Well, i followed these steps in order to have this thing booting:
+
+-Started with a clean IDE HD, and after it, 
+I used a mac os extended (W/Journaling) format, and had the Master Boot Record set to that partition.
+-Did the install all again, with the same errors, and it all went ok.
+-Got stuck again on boot; without Leopard's disk, it will crash on boot while looking for the boot from cd option; If i use the dvd, and press the F8  key, it'll load the boot files, and gets stuck at the end with the following:
+
+(/.Spotlight-V100/Store-V1/Stores/0096C776-D8A5-477A-BC97-C60C33BEC3EC)(Error) IndexCI in ContentIndexOpenBulk:No index
+
+Do you guys think I should follow another installing method?
+
+P.S.: I'm only trying to make the install with one HD
+
+Thanks in advance"
+,Lacooda,2007-12-23T00:19Z,"Then how can I start up Leopard?
+
+Starting from end of installing Leopard.... (e. when setup ask me to reboot my pc)"
+,mr_schticker,2007-12-26T18:54Z,"yeah Lark_Prof, I'm having the same problem. I install the dvd fine, everything seems to work, then when it reboots I've got nothing.
+
+It tries to boot from the CD (I've setup the bios to boot from hard drive first, then CD second, so its not picking anything up from the hard drive). 
+
+Apparently its not installing a boot loader? Anyone know how to do this? 
+
+I'm downloading the kalyway disc now, but that torrent is super slow, I'm only pulling an average of 10 Kb/s! So if nothing else, I'll have the kalyway install in a week. But if anyone knows how to get a boot loader with this release please explain!!"
+,nrob2007,2007-12-26T20:45Z,"How are you guys making an ISO out of this? There is no rar000 file, it wont combine the 71 files here and make a complete ISO without that file."
+,nrob2007,2007-12-26T21:24Z,"Tried a few more times,I cannot get a whole iso,winrar makes what it says is an iso file in about 5 minutes,but its 500k,have made two coasters so far. I tried winrar and 7zip.Anyone care to type exact instructions for getting this to work please?"
+,nrob2007,2007-12-26T21:29Z,"sorry to spam but i should have made a more concise post first. On the iso file that winrar is making,there is a 55k iso file inside of the iso image,file properties show the disc at 500k and full."
+,mr_schticker,2007-12-26T21:54Z,"nrob2007, I would double check the MD5 hash (its listed at the beginning of the comments) with the version you've got. It sounds like you don't have all the RAR files there. 
+
+In my case, I just opened the first RAR file and then dragged the ISO file onto my desktop. Winrar did its job and a few minutes later I had an ISO which I burned with nero. 
+
+Other than that, I don't really know whats going on."
+,nrob2007,2007-12-27T14:26Z,"Thanks for the reply.In your set of rar files,did you have a part 000?I have all 1-71 and all verified with winrar."
+,nrob2007,2007-12-27T14:30Z,"And i dont see an md5 hash listed anywhere,i searched all the comments posted."
+,mr_schticker,2007-12-28T06:26Z,"no, I don't have a .000 rar, I've just got 1-71. Did you burn with nero? Also, I've had trouble burning stuff at high speeds, so I just use 4x to burn, even though it takes a little longer. 
+
+And you were right about the MD5, I thought I'd seen one but no. Anyway, I ran winMd5Sum on the extracted ISO and got 
+9fa4a7e1726757b958ce8da3a6fe8187
+
+But as I've posted before on here, I wouldn't really mess around with this one too long, it doesn't install the bootloader (at least for me) properly, so once its installed, it doesn't boot unless you've got another bootloader from an earlier install pointed to it.
+"
+,nrob2007,2007-12-28T14:57Z,"Well i fixed it by using imgburn to burn it instead of poweriso.Boots just fine,now i gotta get it going alongside vista.i will post my results lol"
+,jack701,2007-12-28T16:15Z,"Guys, i dont understand why, but on 2 pc's (sse2 and sse3)its keeps booting. It says loading Darwin/x86, keeps busy for 5 minutes, and boots agian.Ik have a partition of 30 gb free.
+Whats wrong"
+,nrob2007,2007-12-28T16:33Z,"I am officially giving up on this.I get to the language selection screen and the mouse wont move and the keyboard wont work,not sure if its crashed or what,but the kb does work when it asks if you want to install darwin,etc. I have an asus nforce mb."
+,pytqlhga,2007-12-29T01:40Z,"Will this work with dual boot if i just pop it in, install, then reboot with vista disk in to repair. etc. Any Help would be appreciated."
+,nrob2007,2007-12-29T03:32Z,"well i did get the mouse to work on the language select screen,but when i click the arrow to proceed,nothing happens,it appears the keyboard works until i get to that screen, i type -s -x -v after hitting f8 at the prompt."
+,SneakKing,2007-12-31T17:28Z,"nrob2007 at 2007-12-28 16:33 CET: 
+
+I am officially giving up on this.I get to the language selection screen and the mouse wont move and the keyboard wont work,not sure if its crashed or what,but the kb does work when it asks if you want to install darwin,etc. I have an asus nforce mb. 
+
+
+I had the same thing, happen.  Its because your keyboard/mouse is ps/2 where it has to be USB to install it."
+,rezcroll,2007-12-31T21:56Z,"guys please help me!!!!!!!!!!!!!!!!
+
+i ran the install...everything went fine...then it asked me where to install MAC...i saw a cd with a red x...i knew that was my dvd that i'm booting from...and obviously i can't install leapord on that...
+but i saw no hard drive...
+i went to disk utility and on the side where all the disks should be i saw my dvd again (that i'm booting from) but NO HARD DRIVE...
+
+i don't know why...i partitioned it on windows and created a partition for mac...but nothing works...i can't see my hard drive...it's like it doesn't exist in the installation...
+i have a SATA drive, not IDE...
+please please help me guys, please ...i want this to work so badly...
+
+my email = rezcroll99@gmail.com
+please some email me if they know what's wrong...thank you"
+,mr_schticker,2008-01-01T00:53Z,"rezcroll,
+when your at that screen where you need to select the drive to put it on, go up to the top of the screen, and I think click on tools or programs or something and theres an option to open up ""disk manager"" or something like that.
+
+Once in there, you can select your disk, and choose to erase it and format it with mac (journaled) extended. once thats done, close the disk manager program and you'll go back to the install screen. Once there, your disk will show up.
+
+Good luck!"
+,Mac Genius,2008-01-01T09:56Z,"@mr_schticker
+
+rezcroll has already specified that his HD does not show up in Disk utility, so How the Heck will he format it ?"
+,Mac Genius,2008-01-01T10:05Z,"@rezcroll
+
+itz not Just you facing issues with it.
+
+There are quite a few REAL Apple computers that also have been affected with it..
+
+Go to Utilities in the menu bar up there..(To the right of the Black Apple)
+Choose disk utility & type this command
+
+ps auxww | grep fsck
+
+
+Look up more details on - http://docs.info.apple.com/article.html?artnum=307005
+
+Ready to Go ?"
+,Mac Genius,2008-01-01T10:08Z,"@rezcroll
+
+Look up http://docs.info.apple.com/article.html?artnum=307005 for more info"
+,Jerk990,2008-01-01T20:01Z,"I used the disk util to format my drive set to MBR and would show up to install, but wouldn't restart to desktop just black screen, threw my tiger install disk in and my partition showed up as GUID reformated with tiger disk as MBR and everything worked great, great release, NVinject didnt work for my 7300GT, used titan edited dev id got full QE/CI wireless seems kinda buggy though, "
+,rezcroll,2008-01-02T02:03Z,"thanks guys, i'll try this stuff out..."
+,rezcroll,2008-01-02T03:58Z,"um guys...the ps auxww | grep fsck command did nothing at all...
+i hope my HD is compatible to work...
+
+if anyone knows what's wrong...email me
+rezcroll99@gmail.com"
+,Portcitypetino,2008-01-04T05:14Z,"Ok now on my system it has no problem recognizing my partitioned hard drive but when i go to format it to Mac Journalized without disk utility it gives me a error about not being able to find a certain file (forgot the exact name if someone who can help needs the name just let me know and ill go through the process) and when i try to format via disk utility it gives me a timeout error, ive even tried writing zero's to the disk and it gives me the same timeout error. can anyone help me my system specs are: 
+
+AMD Athlon 64 x2 3600+
+896 MB Ram (2* 512 MB sticks but you know how the system is... or could this be a problem... i doubt it though)
+NVIDIA GeForce 6150SE nForce 430
+
+The processor supports: MMX, SSE, SSE2, and SSE3 and from what i read about this mac install it needed SSE2 and/or SSE3 and i have both. Any help would be greatly appreciated!!!"
+,rezcroll,2008-01-04T17:46Z,Mac OSX Leapord is supposed to work on SATA drives too...not only IDE...some people did it with SATA drives. I don't have any IDE drives so can someone please help????????
+,bladehawke,2008-01-05T04:49Z,"@rezcrol: One thing that might help:  On my real iMac Core Duo, I had to open System Profiler before my drive showed up.  Apple -> About This Mac -> More Information -> SATA"
+,Jerk990,2008-01-05T05:31Z,"Hey Portcitypetino, dont know why install failed, but i do know the 6100SE is a bad card to use with OSx86, I never got QE/CI with it, and i think it's on the HCL incompatible list on the wiki at osx86 forums for 10.4, i gave up and just bought a 7300GT works great with tiger and leopard, try a tiger install disk to format, i coundt get the disk util on this to work right either, I used tubgirls 10.4.10 test1 to format and then installed went fine after that."
+,stew.mike,2008-01-06T19:18Z,"It doesn't recognize my harddisk,i have a Laptop FUJITSU SIEMENS Amilo Pa 1510 AMD Turion 64X 1.6Gx2 120G HardDisk name:
+WDC WD1200BEVS-07LAT0 ATA Device i do not have another one for test."
+,dedy66,2008-01-07T08:35Z,"hello my config.it's athlon 64 3800+ soket 939, hd sata 400gb,video agp radeon x1650 pro: Compatible this mac????.thx. "
+,TurnUpTheBass,2008-01-07T20:00Z,Please seed... I am uploading what I got all the time.. but all the others have blocked their upload obviously...:(*
+,rezcroll,2008-01-08T05:10Z,"ok...i installed tried installing on an external drive because i gave up on the internal...
+
+at the end of installation it freezes at ""2 minutes left"" but it's not really frozen...
+the mouse can move and everything...but it's stuck at ""2 minutes left"" forever...can anyone help me with that"
+,rezcroll,2008-01-08T05:18Z,"the installation works fine until at the end where it says ""2 minutes left"" it freezes except the mouse works...but it stays like that forever...anyone got the same problem??"
+,stew.mike,2008-01-08T23:36Z,"for those who have problems not seeing harddisk, there is no controler for your harddisk, you may add manually one or pray in the future there may be support for it."
+,Jerk990,2008-01-09T04:37Z,"hey rezcol have you any luck with installing tiger, then upgrading to leopard, check out Insanelymac.com for more support, the forums really helped me out"
+,micato,2008-01-09T14:34Z,crash
+,kgulaalex,2008-01-09T20:04Z,"DO NOT DOWNLOAD OR INSTALL
+i have succesfully installed leopard on 
+Sempron64 2600 2x512 ram ati9550 256mb
+IT WILL DAMAGE YOUR HARD DRIVE
+IT HAPPENED TO ME. IT IS NOT A JOKE. THIS WILL CRIPPLE YOUR BOOT FILES:
+""invalid partition table""
+WITH LUCK YOU CAN INSTALL VISTA BUT NO XP
+if you have already installed... leopard is stuck on 60hz refresh rate with no ati drivers and it is IMPOSSIBLE OT RUN WINDOWS APPS ON IT. You will get error.
+.
+.
+.
+YOU RISK PERMANENT DAMAGE TO YOUR COMPUTER WITH ANY LEOPARD INSTALLATION.
+I am not a n00b and i will not touch os x again after what happened. I AM STILL UNABLE TO INSTALL XP and writing from vista
+
+""invalid partition table"" at boot. BEWARE AND DO NOT DOWNLOAD. i had a perfect case install and still...
+
+DOWNLOAD OR INSTALL ON YOUR OWN RISK. COMPUTER PERMANENTLY DAMAGED WITH ANY LEOPARD NOT JUST THIS ONE. it`s because of hfs.
+
+YOU HAVE BEEN WARNED.
+i wrote this to prevent otherf from experiencing what i have gone through."
+,Jerk990,2008-01-09T20:40Z,"Your on crack, i deleted my leopard partition 2 weeks ago ran xp and vista on the same drive reformated and went back to mac, WHAT ARE YOU TALKING ABOUT?"
+,Jerk990,2008-01-09T20:43Z,The only problem i had was i needed to use a tiger install disk to format cuz this one refused to format as MBR 
+,D4Drift,2008-01-12T19:35Z,"Installed Successfully on AMD Athlon X2 4200....took me a lot of time and lot of trials to get it to work...but I've got it...I think what happened was I was trying to install it on GUID and not on MBR(Master Boot Record)...very important...because it won't start after installation if not on MBR...and also another thing after successful installation is that it won't start without the DVD...so just leave the DVD when it starts and don't press anything and then WALLA!!! it starts...I almost gave up but kept on reading forums...and also after it starts it won't recognize my keyboard...good thing I have bluetooth keyboard and mouse...because mac is all about bluetooth...but you can go around this by booting from DVD and go to terminal and add ApplePS2Controller.kext to the extensions folder then it should work....Thanks Zephyroth for the upload....any idea how to fix the internet connection,sound, and usb videocam?"
+,Jerk990,2008-01-12T22:53Z,"There are kexts for all those problems it just depends on your hardware, go to insanelymac and read through the forums"
+,hack124,2008-01-13T21:43Z,guys can you please help me??? why does the installation stop working at 2 minutes left???
+,Jerk990,2008-01-14T01:29Z,it's because your computer is ruined because of hfs
+,Jerk990,2008-01-14T01:30Z,make sure you leave a comment in every mac torrent you look at
+,lukealpha,2008-01-14T12:24Z,"kgulaalex you are right about this i had the same problem i think its cause they are ide? i have ide would like to know what you have by the way i fixed that bootloading problem with gparted live cd just simply set the partitions as active and flag it as active and hide, then install xp or vista which ever you prefer from there on remember your going to have to delete the partions first then format it that should fix the problem you are having anyway this works flawlesly with my 8600gt oc only problem im having is setting the DHCP manually i only get 15 min of internet anyone found a solution to this ? "
+,lukealpha,2008-01-14T12:32Z,"im sorry i also forgot to say when you are in gparted live cd first format the partion as ntfs then set it as active then flag it as boot and hide, then you simply go into vista try to install without formating if it doesn't work then delete the partition first then format it should work after that cause im using xp now anyhow this problem right here is a first for me this didn't start happening until i installed acronis disk director ive installed other macosx86 installations and i never had this problem but hope this works system specs : amd athlon 6000 1gb 800 mhz ram 2 ide 80gb hard drives running ubuntu, leopard and xp :)  "
+,Aromatherapy,2008-01-16T00:53Z,bootble is it???
+,Jerk990,2008-01-16T03:20Z,I have this on a IDE disk works fine
+,Tukotih,2008-01-16T15:21Z,"kgulaalex - 2008-01-09 20:04 CET: 
+DO NOT DOWNLOAD OR INSTALL
+i have succesfully installed leopard on 
+Sempron64 2600 2x512 ram ati9550 256mb
+IT WILL DAMAGE YOUR HARD DRIVE
+IT HAPPENED TO ME. IT IS NOT A JOKE. THIS WILL CRIPPLE YOUR BOOT FILES:
+""invalid partition table""
+WITH LUCK YOU CAN INSTALL VISTA BUT NO XP
+if you have already installed... leopard is stuck on 60hz refresh rate with no ati drivers and it is IMPOSSIBLE OT RUN WINDOWS APPS ON IT. You will get error.
+.
+.
+.
+YOU RISK PERMANENT DAMAGE TO YOUR COMPUTER WITH ANY LEOPARD INSTALLATION.
+I am not a n00b and i will not touch os x again after what happened. I AM STILL UNABLE TO INSTALL XP and writing from vista
+
+""invalid partition table"" at boot. BEWARE AND DO NOT DOWNLOAD. i had a perfect case install and still...
+
+DOWNLOAD OR INSTALL ON YOUR OWN RISK. COMPUTER PERMANENTLY DAMAGED WITH ANY LEOPARD NOT JUST THIS ONE. it`s because of hfs.
+
+YOU HAVE BEEN WARNED.
+i wrote this to prevent otherf from experiencing what i have gone through.
+
+
+
+
+You are an Idiot...
+
+If you just installed it plain you WILL fuck up and lock your system, GRUB and Boot Files, If you follow an tutorial, You will get exactly what you want and btw...
+
+It is NEVER impossible to install an operative system after an operativesystem chrash, Linux is always an way out and you can manipulate the BIOS and Boot without an operative system...
+
+
+
+Here is an working Guide: http://osx86.thefreesuite.com/leo_amd.php"
+,juggz143,2008-01-17T03:42Z,"I'm in similar boat as rezcroll I have a sata drive in my laptop which wont show for shyt but I installed everything just fine on a usb drive but I dont really want to HAVE to attatch a usb drive just to be able to even boot my comp, so has anyone came across a fix for the sata drives yet.
+Writing this from vista!"
+,GIbhunter,2008-01-17T20:13Z,"I can get it installed, but as far as getting it to boot, NOTHING.
+
+I can reboot onto the CD afterwards, and goto terminal but when I type the command in the manual:
+""/usr/misc/script.sh Leopard (if you named the partition 'Leopard', if you gave it another name, replace 'Leopard' with your name)""
+It says no such directory.  
+
+/usr/ exists, but anything beyond (/usr/misc/)  does not exist."
+,jackmup101,2008-01-19T00:41Z,u guys are idiots....this isn't the place to ask for help on osx......go to insanelymac.com or http://wiki.osx86project.org/wiki/index.php/Main_Page for help
+,Jerk990,2008-01-19T02:11Z,INSANELYMAC ROCKS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+,tohabibe,2008-01-22T23:40Z,"Having similar problems with Disk Utility - ""Timing out"" specifically after trying to partition an empty disk (SATA) on AMD  X2 4200+...read all posts but do not see specific solution...How do I get over this hurdle ???"
+,huppat,2008-01-26T14:58Z,i think its the best amd/nforce leopard
+,Jerk990,2008-01-26T16:37Z,"I do too, I had Tubgirl 10.4.10 and had alot of problems(alot of other people didn't though) this works great on my Pavilion a6110n"
+,furulundaren,2008-01-27T21:12Z,"Is it just to install? or do I need a patch or something else?
+
+excuse for my english"
+,no_rookies,2008-01-28T21:23Z,"good se/le ratio but i still cant get over 10kbs.....
+ugh"
+,dapilgrim,2008-01-30T18:53Z,"Hmm, there's something strange .. it boots, it gets to the graphical interface where you choose the language, but my PS/2 keyboard and mouse does not work. Do i need USB kbrd/mouse ?
+
+the PC specs are:
+MB ASUS Crosshair
+AMD 64 x2 5600
+2048 DDR2
+Seagate SATA
+Nvidia gforce 8800 GTS 640Mb/320bits
+
+Any hint would be welcomed."
+,no_rookies,2008-01-31T07:03Z,"hey, got a question for anyone. I got it to boot fine, nice n quick, but i always get to juuuust before the installation window comes up. all i get is the galaxy background and the spinning cursor. any ideas?"
+,slinger2g,2008-02-01T04:43Z,PLEEEEEEEEAAAAAAAASE SEED!!!!!!!!!!!!!
+,FoneBone2k,2008-02-02T23:45Z,"It really works on my AMD Sempron 3000+....
+Thanks a lot!
+
+If you have problems with your PS2 keyboard and mouse you only have to copy the ApplePS2Controller.kext to the Extensions folder!!!"
+,c0d3x,2008-02-06T03:47Z,"yo ppl! i thought leopard was 64 bit ??
+Any info please?"
+,Brother Munro,2008-02-06T14:04Z,"@ dapilgrim: A PS/2 keyboard and mouse work fine for me, try putting in -legacy when you boot (though FoneBone2k's solution should also work).
+
+@ c0d3x: Leopard is a hybrid 32/64 bit OS, this kernel is designed for 32 bit AMD chips, something Leopard doesn't do normally ;)"
+,rumplestilts,2008-02-08T15:45Z,"Managed to get it to work on a Compaq Presario SR1834NX (AMD x64 3500+, ATI graphics on the mobo). Had to disconnect the SATA HD and connect a HD to the spare PATA bus as the Installer (and Disk Utility) didn't see the SATA bus). It's also s-l-o-w (3+ hours to install) and hung at 4 minutes remaining. I let it sit overnight and then just cycled power. It came back up and is sitting in the Finder (after the initial reg process).
+
+Obvious now why Macs cost more; without quality hardware to run it on, this is slow.
+
+However, it -is- running on something other than a Mac so, like the dancing mule, the wonder is not how well it dances but that it dances at all.
+
+:D"
+,Jerk990,2008-02-12T05:12Z,ne1 updated this to 10.5.2 yet?
+,GIbhunter,2008-02-12T19:58Z,"Jerk990:
+Yeah, tried several ways of updating this to 10.5.2 and none have done anything but destroy the OS."
+,pete0,2008-02-14T18:03Z,"this release is a crap, i recently found out that this crap release was made specifically for Zephyroth - just for himself only, so there is a great 100% chance it will not work on your calculator not to talk about amd pc. WORD"
+,Jerk990,2008-02-17T20:42Z,"FUCK OFF PETE, worked fine on my AMD, best distro ive tried, but i havent tried yours yet when are we gonna see that coming pete??? Thanks Zeph"
+,Jerk990,2008-02-17T20:44Z,"used http://thepiratebay.org/tor/4027926/10.5.2_update_for_AMD
+to update to 10.5.2, worked, ran graphics update from system update after and that broke install"
+,furulundaren,2008-02-18T14:36Z,"How do I format my harddrive to HFS+ and change the name to Leopard in ""Disk Utility""? I can't find were to do this, please help."
+,furulundaren,2008-02-18T16:21Z,"The ""Partition""-tab in Disk Utility is not there, so I can't format my harddrive to HFS+.
+What shall I do to get this work? Please help."
+,balleron24z,2008-02-28T07:48Z,"dang ppl, please seed this, becuz i am gettin 20kbps max on this :S  and Zephyroth, thnx in advance, even if this iso doesn't work for me.  i see u have put alot of work into it, and i appreciate.  and to all the haters, if u want an iso that works specifially for you, compile one urselfs.  peace"
+,balleron24z,2008-02-28T07:58Z,"furulundaren, i believe you might need to click on the actual hard disk, not the partition.  im not calling u stupid btw :)  just making sure you are doing that.  and possibly, u might need to use the leopard install disk to do this.  im assuming you arent installed on leopard yet thought, so you are using the install disk.  mabey Zephyroth can help you with that one, or anybody else.  but good luck :D"
+,balleron24z,2008-02-29T19:02Z,"i just realized Zephyroth that the board i have is almost exactly the same as yours, except it has an I394 port on the back, and the SPDIF is in a different place, it is separate from the actual board (wires running from motherboard to chip with connectors)  but other than that, its exactly the same.  hope that makes it easier on me XD"
+,kinoli,2008-03-03T22:13Z,"Hi, I am having some difficulty with the Zephyroth setup. It installed without a hitch and I can boot into Leopard without any problems. However, once I'm in a few things seem to not work properly...
+
+1) No sound - I have a Creative Labs 24 bit sound blaster
+2) No internet - Doesn't recognize my gigabit 10/100 ethernet card
+3) Video Card doesn't seem to be working properly I only have 1 resolution option and its really low - I have a 256MB ATI RadeonX 1650 card.
+
+It is almost useless for me to us Leopard without these features.
+
+Here is my profile...
+Model Name:	Mac
+Model Identifier:	System Product Name
+Processor Name:	AMD Athlon(tm) 64 X2 Dual Core Processor 440+
+Processor Speed:	2.2 GHz
+Total Number Of Cores:	2
+L2 Cache (per processor):	1 MB
+Memory:	4 GB
+Bus Speed:	800 MHz
+Boot ROM Version:	Hack.88z.int.0sh.061193037 (American Megatrends Inc.)
+Serial Number:	YM8659M6W0A
+
+More info
+I have a 64 bit AMD processor
+Asus motherboard
+I have looked into the whole kext file thing, but am unsure what exactly how to install them. Do I just drag kext's to the /System/Library/Extensions/ directory and reboot for them to take effect?
+
+One more question
+I had windows installed on the drive, I then made a small partition on the drive for leopard. I'm just wondering how I can boot back into windows if I want to. It does't seem to ask me about that other partition where windows is located. Any ideas? Also, how come I have to have the install cd in to boot into Leopard?
+
+Thanks in advance."
+,dwk-12,2008-03-04T17:04Z,video card drive you need to install tha audio se rch for a drive enthernet you will find how to get it on insanelymac
+,stiansoftcore,2008-03-14T15:16Z,"hmm.. thos doesen't work for me.. Have really been looking forward to this, as I really need OSX, but I can't afford a actual MAC (at least not a fast one)... I get the error ""Error while reading disc, please clean, and then try to reinstall"".. I happens after the installer ""checks the disc for consistency"". 
+
+My spec btw, if that is relevant:
+AMD Athlon 3700+
+Nvidia 7600GT
+MSI K8N Neo4 Platinum
+Felt	Verdi
+nVIDIA nForce4 Ultra, AMD Hammer (chipset)
+---------
+Don't know what you need to know really, tried to post what can be relevant.
+
+Thanks for answers :)"
+,Clark971,2008-04-06T02:03Z,"I don't know if this message will help. Here are every problems I met.
+
+I had an AMD machine but I bought an Intel one (Laptop Toshiba P200-1JZ), and I was really surprised when I saw the installer was working without any -x -v...
+
+Maybe your driver (SATA) won't be recognize, or only a part will be recognize. You need to go in Windows press Windows + R and run ""diskpart"". Type ""list disk"". If the HD where you need to install it is disk0 type ""select disk 0"". After type ""list partition"" and you should see the partitions already present in the disk where you want to install Leopard. If it's not the case, you probably chose the wrong disk, be careful ! Type ""create partition primary size=25600 id=af"" The size is in MB. SizeinGB x 1024 = SizeinMB. Now you're partition should be recognized in DiskUtility, just erase it, Mac OS Extended (Journaled).
+
+Now you can install it, be patient it took 20 minutes for me. (Watch a manga during the installation ^^)
+
+If you have Windows Vista and its bootloader, boot into it download EasyBCD install and open it. Now add a new entry Mac OS X Platform : Generic x86 PC and the name you can remove ""NST"" in front of ""Mac OS X"" and ""Add entry"". Now you can boot into Mac OS X in Windows bootloader.
+
+First boot, first surprise : Before You Begin... There is no keyboard connected to your computer. Please connect your keyboard. Keyboard and touchpad didn't work at all. I didn't understand because in the installer they were working. But I could fix it after hours searching on Google. So you need an USB keyboard and mouse temporaly. Download ApplePS2Controller.kext, copy it in /System/Library/Extensions (to force it click Authenticate enter your account password and OK) ; (don't care about the message saying extension couldn't be load if there is any, just click OK)
+
+Now you need to activate the root account, it's very important. Go to your HD and then Applications/Utilities. Open Directory Utility. Click the lock in the Directory Utility window. 
+Enter an administrator account name and password, then click OK. Choose Enable Root User from the Edit menu and enter the root password you wish to use in both the Password and Verify fields, then click OK.
+
+Let's continue, open Terminal into Applications/Utilities and type :
+su  (press enter)
+Enter your root password and press enter (when you'll enter your password, nothing will happen, it's normal just type it and press enter).
+Now, you're a super user be careful ! Type :
+
+sudo chmod -R -755 /System/Library/Extensions/ApplePS2Controller.kext  (press enter)
+sudo chown -R root:wheel /System/Library/Extensions/ApplePS2Controller.kext  (press enter)
+kextload /System/Library/Extensions/ApplePS2Controller.kext  (press enter)
+kextcache -k /System/Library/Extensions/  (press enter)
+sudo diskutil repairPermissions /  (press enter)
+Be patient for this step, it will take 4 minutes maxi.
+Reboot.
+Now it's OK, your keyboard and touchpad work perfectly.
+
+
+About the sound, I have Intel High Definition Audio. Just install Azalia.pkg, this time it's automatic and when you reboot it's good !
+
+
+Now the WiFi : If you have Intel integrated WiFi card you have to search in Google 
+
+""iwi3945"" or ""iwi4965"" depending of your card. Mine, 4965 doesn't work. But it's not definitive.
+
+PROSet/Wireless 2100 OS X 10.4 SVN latest
+PROSet/Wireless 2200b/g and 2915a/b/g OS X 10.4 SVN latest
+PROSet/Wireless 2200b/g and 2915a/b/g OS X 10.5 SVN latest
+PROSet/Wireless 3945a/b/g OS X 10.5 - not yet
+PROSet/Wireless 4965a/g/n OS X 10.5 - not yet
+
+Visit here : http://code.google.com/p/iwidarwin/
+
+I use an USB dongle for the WiFi.
+
+I had a lot of problems with the graphic card. If you have Nvidia, I think macvidia will be your solution. My ATI Mobility Radeon HD 2600 wasn't recognized. And the monitor displayed 1024x768 resolution. I wanted absolutely 1440x900 Widescreen !! I tested a lot of drivers for my card, some were working, other not but finally I decided to keep the more recent and updated : Natit.kext . 
+
+L"
+,Clark971,2008-04-06T02:17Z,"My previous message doesn't show something !!
+
+""Now your com.apple.Boot.plist file is open and you can modify it as you want.
+You can see a lot of :
+xxx
+xxx
+Copy one of them (with the spaces to respect the alignment) and paste it after the last one replacing :
+
+Graphics Mode
+1440x900x32
+
+Other tip : to speed up Darwin's timeout count-down
+
+Timeout
+25 (replace the 25 by the number of seconds you want)""
+
+I had * in order to allow you to see the code, but these stars don't exist !! If you want to copy paste, remove them.
+
+And I forgot to talk about Update 10.5.2 !!
+I updated to 10.5.2 using Apple Software Update. What can I say... :( 
+Don't install it !! It doesn't work, now I get ""Unable to find driver for this platform ACPI"" message and I can't do anything : I'm gonna erase and re-install everything grrrr...
+
+If you really need to install 10.5.2 :
+-Find an alternative update or PPF as you want and give me it.
+-Try at your own risk and tell me if it worked
+-Be an expert in Mac OS X :P"
+,Clark971,2008-04-06T02:20Z,"Neither this one... Last try :
+
+""Now your com.apple.Boot.plist file is open and you can modify it as you want.
+You can see a lot of :
+< k ey >xxx< /key >
+< s tring >xxx< /string >
+Copy one of them (with the spaces to respect the alignment) and paste it after the last one replacing :
+
+< k ey >Graphics Mode< /key >
+< s tring >1440x900x32< /string >
+
+Other tip : to speed up Darwin's timeout count-down
+
+< k ey >Timeout< /key >
+< s tring >25< /string > (replace the 25 by the number of seconds you want)"""
+,pedjamusic,2008-04-13T11:09Z,"@Clark971:
+I have Duron 900MHz so no OSX-Leo for me, but I admire you. Two thumbs up, m8! ;)"
+,caquito07,2008-04-21T04:09Z,"HELP!!!
+
+System Config:
+Processor Brand AMD
+ProcessorAMD Athlon? 64 X 2
+Processor Speed 1.9GHz
+System Memory (RAM) 2GB DDR2
+GraphicsNVIDIA GeForce Go 7150M (UMA)
+
+I have three days trying to install Zephyroth 10.5.2 v2, but the installation stops between 40 and 50%.
+
+I just read that the 10.5.1 version works, can someone confirm it's going to work for my HP dv6704nr."
+,BlackJedi,2008-06-29T00:57Z,"Hi I was wondering if anyone could seed this torrent. Only 3 people are seeding at the moment, and it will take about 3 days to finish at this rate. I'm at 37%.
+Thanks!"
+,Rudolfo78,2008-07-27T14:04Z,"AMD3000+,Neo4,2GB,Nvidia7300GS
+
+help me someone pls...instalation write ""still waiting for root drive..."" 
+
+what its for problem?
+
+vie niekto poradi?, ke? mi pri za?iatku in?talácie napí?e horeuvedenú hlá?ku?? vrele dik
+
+god bless apple macintosh"
+,leopardtheking,2008-08-17T08:34Z,"Hi, I need the kext for ATI x1150 SATA HDD.  I am trying customize the kext, but its not working. Please let me know where can I find it."
+,balleron24z,2008-09-02T13:10Z,"dude Zeph man i posted on here a while back about my success but i just wanted to thank you again for making this great release.  I have an almost identical setup to yours aside from mine is all Acer!!! lmao  im on a E380 specs are up on the wiki for osx86 but yea dude thank you for this fine release it works well.  only thing that doesnt work at boot is the network and audio, audio is broke because a kext wasnt ""permitted"" and the net doesnt work cuz its the 8056 have to kext edit it.  but yea thnx for the great release!!!"
+,Jerk990,2009-02-19T16:00Z,"why not get a newer distro with newer kernels?
+
+also check out insanelymac.com
+"
+,goinyard,2009-07-17T08:28Z,can someone please help me with the error message i am getting when i try to boot the disc:system config file'/Library/Preferences/SystemConfiguration/com.apple.Boot.plist' not found  
+,meunix,2009-07-31T00:26Z,"Hey!
+my pc is :----
+
+AMD Athlon 7750 Dual Core X64 2.7GHz
+ASUS Motherboard
+GeForce 9500 GT Graphics Card
+Creative Sound Blaster Audigy Sound Card
+
+So, Is this torrent work for me.....through ISO form.
+
+If yes...its ok.....and thanks.
+if no.....then please sugest me which torrent will hel me for Mac OS X Leopard 10.5.5 or above?
+
+Please Reply Soon.......What sshould i do?"
+,xNitetrainX,2009-12-08T09:15Z,"Hey ""rumplestilts"" I have the same exact computer as yours man..everything is defualt and hasnt been changed its Compaq Presario SR1834NX
+Hardware
+Base processor-Athlon 64 (V) 3500+ 2.2 GHz
+Chipset-ATI Radeon Xpress 200
+Motherboard-Manufacturer: Asus
+Motherboard Name: A8AE-LE
+HP/Compaq motherboard name: AmberineM-GL6E
+
+Hard drive-250 GB SATA
+
+Video Graphics-Integrated graphics
+
+Sound/Audio-Controller: AC97 audio
+Location: Integrated
+
+Network (LAN)-Integrated 10/100 Base-T networking interface
+
+Memory card reader-USB interface
+Supports the following cards:
+          o Compact Flash I
+          o Compact Flash II
+          o SmartMedia
+          o Memory Stick
+          o Memory Stick Pro
+          o MultiMediaCard
+          o Secure Digital (SD)
+          o Micro Drive
+          o XD Picture Card (xd = extreme digital
+
+Keyboard and mouse-Compaq home professional keyboard
+
+-Compaq PS/2 scroller mouse"
+,xNitetrainX,2009-12-08T09:17Z,"What do I need to check when it comes to the customize stuff??? would you kindly help me out?? can one kindly help me out?? well if any does you should get at me thru my email or something ""Billykenzy@yahoo.com"""
+,mlr52,2009-12-12T14:40Z,"I download and installed Mac_OS_X_Leopard_10.5.1_for_AMD_SSE2_SSE3_(32bits). It does not see the keyboard or mouse on my laptop.
+It asked for a keyboard, I have a Mac keyboard and mouse which I attached, and the keyboard works, the mouse won't work.
+I am using a HP Pavilion dv3 Notebook PC , AMD Turion(tm) X2 Dual-Core Mobile RM-72 2.10GHz, 4GB Ram, 64-bit OS
+Currently installed OS?s Original OS Vista, GNU/Linux-Debian-5.03, Mac_OS_X_Leopard_10.5.1_for_AMD_SSE2_SSE3_(32bits"
+,mlr52,2009-12-13T00:37Z,"I replaced the mouse and it's working. This great Thanks.
+
+PS. I ran into a problem getting pass the create user account.  I reinstalled and formatted the drive as Enhanced.  It doesn't see free space."
+,mcain7,2009-12-24T13:29Z,what the hell is the admin password!!!!!
+,Amaan007,2010-03-03T10:17Z,"Well I Am Unable To Install It. I Get To The Screen Where We Need To Choose Partition. When I Choose Any Partition It Says Can't Install. When I Use Disk Utility To Delete or create partition It Fails. I used FAT32 , NTFS And Even Un formetted Partition Also. Even I used Disk Part But Still Faced Issue. Can Any One Tell Me A Tool Which I Can Use And Format My Partion In HFS Journalese Format ?
+Thanks"
+,topgear08,2010-03-19T17:05Z,"Hey, do i install the same as windows, e.g. boot disc from bios?"
+,ezelboy1000,2011-03-22T20:04Z,does this support single-boot or only dual-boot?
+,yozzum,2011-06-29T23:41Z,Thanks! Anyway to update to Snow Leopard without being blocked by Apple etc?
+,Poison54321,2011-07-24T13:35Z,"I've maganged to install this on an IDE drive (the SATA drivers did not work)using Motherboard ASUS M2N MX SE Plus, however, after hours ands hours and more hours i never managed to get either graphics drivers (Nvidia Geforce 9600GT) nor sound (Creative Sound Blaster X-FI Fata1ty) to work. The OS was either too old (and updating it caused a kernel panic), or the kextes simply did not work.
+
+This is however the first out of 3-4 distros that i have sucessfully managed to boot, so i will have to give you credit for making a good sucsessful distro.
+
+To everyone who is downloading this, i'd reccomend searching if there are any compatible drivers for you hardware before downloading this."
+,G-skill,2011-09-05T07:16Z,"Can it work on my system :
+ASUS Crosshair IV Formula 
+Phenom x6 1100t
+RAM G-skill 2x4 
+XFX 9600gt 
+ned help thx"
+,SoCalRu,2012-04-26T11:16Z,"!!! AMD BULLDOZER USERS !!!
+
+-THIS IS ABOUT THE BEST DAMN DISTRO YOU CAN FIND FOR AMD SYSTEMS; I EVEN BOOT INTEL SYSTEMS WITH THIS DISC. MY GIGABYTE GA-990FXA-UD3 MOTHERBOARD HAS THE AMD 9XX SERIES CHIPSET.
+-CURRENTLY, THERE ISN'T A KEXT FOR AMD'S NEWEST ACHI/RAID CONTROLLER. (IT'S NOT THAT GREAT ANYWAYS; IT HAS TERRIBLE SATA SPEEDS EVEN WITH LATEST WINDOWS DRIVER)
+-TO BOOT THE INSTALL YOU HAVE TO PUT ONE HARDDRIVE ON SATA PORT 4 AND ONE DVD/BDROM DRIVE ON SATA PORT 5 WHICH ARE THE LEGACY IDE PORTS. MAKE SURE IN THE BIOS YOU SET THE SATA CONTROLLER TO ACHI MODE WITH PORTS 4/5 IN IDE MODE. -YOU CAN ALSO BUY A SEPARATE SAS/SATA CONTROLLER THAT IS COMPATIBLE WITH OSX, OR MOVE THE OSX DRIVE TO THE SECONDARY MARVELL CONTROLLER.
+- KERNEL FLAGS = -V CPUS=? BUSRATIO=20 -F (WORKS GOOD FOR ME ON MOST SYSTEMS)"

@@ -1,0 +1,55 @@
+﻿User Type,Username,Date,Text
+,warez_R_us,2007-12-14T19:25Z,"Funkar bara första ggn, startar man om frågar den efter en annan kod som ingen verkar ha. Detta tycks gälla alla nyare versionerna, har testat typ alla. Den nya koden mailas tydligen till alla registrarade användare. Tillbaka till Trial om man inte har den koden... Skulle nån ha den nya koden vore det en bra ide att posta den här... "
+,iam1ofu,2007-12-21T09:01Z,works fine but asks for upgrade code recieved via email....then reverts back to trail version...can anyone help???
+,chillie2918,2008-02-28T23:04Z,When it comes up to upgrade just paste the serial number in the box an a valid email ..it doesnt matter if its your personal email address they wont trace you or anything like that its just an upgrade ..thats it ..ok? so chillll...
+,Quaker28,2008-08-28T15:51Z,"Easy way to fix the reg issue: Unpluck your internet before you install, after install go to gforce toolbar, uncheck ""check for updates"" close and restart. Worked for me"
+,tranzat,2008-11-23T07:09Z,"av got the same prob where av disconnected the internet wile installin all of em specially g force,n unchecked the fair usage policy,but asa i load it,it says  its a trial version,,n i lose all the visualisation in g force menu bar,and if i put the code to update it wen asked after uploadin it,it says expired,check ur email,wen i avent received nofin!wot r u on about chillie2918,does any1 understand?"
+,tranzat,2008-11-23T07:11Z,"quaker28,that unplugin net fing just dont work wotsoeva!id just love to no wot chillie2918 is on about,pastin the code n ur email address in the box?will it send it?"
+,tranzat,2008-11-23T07:19Z,"now chillie2918,av tried puttin the serial key wit my email ad,tho they avent sent me n email back,it stopped sayin reverted back to free triaL tho it keeps sayin at the bottom to upgrade to gold,does any1 else get that?plz let me no!n thanx chillie2918!wil let u no if any further probs,but so far so gud!"
+,tranzat,2008-11-23T07:24Z,"now i dont get this at all coz it keeps askin for the code wenver u maximize the prog ur usin for it,but the visualisations r still there tho1can nmlascan xplain any of that to us,or even u chillie2918,plz?coz its slitely startin to  drive me insane!"
+,scienceofsound,2009-04-06T01:24Z,"got this info from jody b designs from another torrent site and it works people. (THIS IS FOR 3.7.5 RUNNING ON WINDOWS XP)
+
+First, remove all traces of sound spectrum from your pc (uninstall g force using add/remove programs. Next delete remaining soundspectrum folder from your hard-drive (Usually in C:\ Program files). Next, search for soundspectrum and then gforce using search option in start bar and delete anything that appears in search results. Finally select run in start bar and type REGEDIT and press enter. Then press Ctrl+f and type in soundspectrum and press enter. Delete any highlighted entries. Repeat previous step but type in gforce instead of soundspectrum and delete any highlighted entries. Unplug your internet connection, install gforce program and then input the serial given with the download/program (usually in a wordpad file). Next block all FOUR gforce applications in your firewall.
+
+Next goto C:\program files//soundspectrum/g-force/resources/common/boot start.txt
+
+open this boot start.txt file (opens in notepad) and in the first few lines it has the following (just change it to match what it says here below and save)
+
+BindEvent( SS_KEY_DOWN_EVENT | SS_SHIFT_KEY_CODE | 'C', "" \
+if ( GetPref( PREF_CHECK_FOR_UPDATES ) > 0 ) { \
+SetPref( PREF_CHECK_FOR_UPDATES, 0, false ); \
+print( \""Check for updates OFF\n\"" ); } \
+else { \
+SetPref( PREF_CHECK_FOR_UPDATES, 999, false ); \
+print( \""Check for updates ON (set to every 999 days)\n\"" ); \
+} \
+
+then go to
+C:\Documents and Settings\Admin\Application Data\SoundSpectrum\G-Force
+in here there will be a file called version update info it should be a notepad type file. open this file and go right to the end after the last "";"" copy and paste your product license and save the file. now when you open media player it will ask you to enter the product license enter the same code as you used before and that should be it.
+
+You can also block your computer and realplayer (its the application 'I' use to listen to music) from connecting to the soundspectrum website by pasting the following:
+
+www.realplayer.com
+realplayer.com
+www.real.com
+real.com
+uk.real.com
+www.soundspectrum.com
+soundspectrum.com
+
+into your computers hostfile list located at
+C:\WINDOWS\system32\drivers\etc
+
+the file is called hosts and can be opened using wordpad
+and make sure you copy the numbers that are there next to 'local host' in the host file to begin with, before each of the above web addresses you enter for it to work.
+
+make sure you don't use winamp on your computer because it is mentioned in the wordpad files in the g-force program itself and i think somehow makes it revert to a trial version
+
+have fun"
+,xxmarioxx12,2009-06-04T12:06Z,slow download does it evn work or is it fake 
+,melybo,2012-06-03T20:19Z,"This torrent works fine:
+
+http://thepiratebay.se/torrent/3762320/SoundSpectrum.G-Force.Platinum.3.7.1.Incl.Key-HIDDEN
+
+i posted instructions there."

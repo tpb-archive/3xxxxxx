@@ -1,0 +1,28 @@
+I extracted the MLP files from the dualdisc via dvdexplorer_a7, then converted those to 3 sets of stereo WAV files via SurCode MLP, then merged those into 6-channel WAV files via wavewizard.
+
+
+ENCODER: foobar2000 v0.9.5
+CODEC: FLAC 1.2.0
+PARAMETERS: --ignore-chunk-sizes --best --channel-map=none - -o %d
+
+
+TRACK LIST:
+01.Mr. Self Destruct
+02.Piggy
+03.Heresy
+04.March Of The Pigs
+05.Closer
+06.Ruiner
+07.The Becoming
+08.I Do Not Want This
+09.Big Man With A Gun
+10.A Warm Place
+11.Eraser
+12.Reptile
+13.The Downward Spiral
+14.Hurt
+
+
+
+
+*To those of you who had been downloading my first attempt of this, I deeply apologize. It wasn't until much after I began seeding that I found errors in the FLAC files and had to re-encode them.

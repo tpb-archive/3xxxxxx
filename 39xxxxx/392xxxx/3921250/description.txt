@@ -1,0 +1,67 @@
+avast! 4 Professional Edition is a collection of high-end technologies that work in perfect synergy, having one common goal: to give you the top grade protection against computer viruses. It represents an ideal solution for any Windows-based workstation.
+avast! 4 Professional Edition is a complete ICSA certified antivirus software for your company. It obtained VB100% awards in 2002/4 Virus Bulletin comparative reviews. 
+
+avast! scans for viruses, worms and Trojans: On Demand - with two User Interfaces, On Access, E-mail, during Boot Time, in File Explorer and Screen Saver. It maintains Virus Chest. Protects E-mail, HTTP, NNTP, ICQ, mIRC, Kazaa etc. True incremental updates based on iAVS technology updates twice a week virus definition file. 
+avast! Home/Professional now fully supports the 64-bit Windows and Vista platforms. 
+
+Features:
+- Antivirus kernel 
+- Simple User Interface
+- Enhanced User Interface
+- Resident protection
+- Script Blocker (Professional Edition only
+- P2P and IM Shields
+- Network Shield
+- Web Shield
+- Automatic updates 
+- PUSH updates 
+- Virus Chest 
+- System integration 
+- Command-line scanner 
+- Integrated Virus Cleaner 
+- Support for 64-bit Windows / Vista 
+- Internationalization 
+
+*** Antivirus Kernel 
+New version of avast! antivirus kernel features outstanding detection abilities, together with high performance. You can expect 100% detection of In-the-Wild viruses (the ones what are really spreading amongst people) and very good detection of Trojan horses, all that with only a minimum number of false alarms. 
+The kernel was certified by ICSA; it frequently takes part in the tests of Virus Bulletin magazine, often yielding the VB100 award. 
+*** Simple User Interface
+Simple User Interface is used to start on-demand scanning, work with the results, change various options etc. Basic resident protection settings can be modified here. Simple User Interface is the main applicationof avast! 4 Home Edition. You can start additional avast! modules from here, such as the Virus Chest, Updater or Log Viewer. 
+*** Enhanced User Interface
+Unlike the Simple User Interface, the scanning is performed by so called "tasks". First, you define a task, including various parameters - areas to scan, what to scan, how to scan, etc. Having the task, you can (possibly repeatedly) run it. Each task generates a list of results; you can work with them later. 
+*** Resident protection
+Resident protection, i.e. the real-time protection of the computer, is one of the most important parts of an antivirus program today. avast! features a powerful resident module that is able to detect the virus before it has any chance to infect your computer. 
+E-mail protection consists of two independent modules; first, there is a generic scanner working on the SMTP/POP3/IMAP4 protocol level. It is capable of protecting any existing e-mail client that uses these protocols. Second, there is a special plugin for MS Outlook only; it is completely transparent, requiring no special settings. 
+New feature of version 4 is heuristic analysis of e-mail scanners. It is extremely useful in protecting against new, unknown viruses and worms that are not possible to detect by the usual means. The heuristic module performs a thorough investigation of every e-mail message and watches for suspicious signs that might announce virus presence. When the number of those signs exceeds the user-defined level, the message is considered dangerous and the user is warned. 
+*** Script Blocker
+The resident protection of the Professional Edition includes an additional module, not contained in the Home Edition - Script Blocker. This module watches all the scripts being executed in the operating system (so called WSH scripts - Windows Scripting Host). It also scans all the scripts run as a part of a web page within your web browser (Internet Explorer, Netscape Navigator and Mozilla).
+*** Automatic updates
+Automatic updates are another key point in virus protection. Both the virus database and the program itself can be updated automatically. 
+*** PUSH updates
+A special feature of the Professional Edition are PUSH updates. It is a dramatic change in the philosophy of updates. Usually, every installed program checks every now and then whether a new version is available. PUSH updates, however, are initialized by our server; they result in your computer quickly responding and performing the necessary update. The system is based on the SMTP protocol, i.e. on usual e-mail messages. The updates itself are controlled by the avast! resident e-mail providers (MS Outlook and Internet Mail).
+*** Virus Chest
+The main properties of the Virus Chest are complete isolation from the rest of the operating system (no outside process, i.e. no virus either, may access the files inside) and the fact that the files inside the Chest may not be run (i.e. there is no danger in storing viruses there). 
+*** System integration
+avast! antivirus features outstanding integration into your system. The scanning can be started directly from Windows Explorer, by clicking a folder or a file with your right mouse button and selecting the corresponding choice from the menu. 
+Another interesting feature is a special screen-saver that performs scanning for viruses during its run-time. avast! antivirus works together with your favorite screen-saver, so you don't have to change to anything you wouldn't like. 
+Another new option is the boot-time scan (Windows NT/2000/XP/.NET only). It is important in the case that a virus is suspected to be active on your computer. The boot-time scan is performed before the virus may get activated, so the virus cannot influence the scanning in any way. 
+*** Command-line scanner 
+Experienced users may like another Professional Edition feature - command-line scanner. The scanning can be controlled by many arguments and switches; to use as a pipe filter, a special STDIN/STDOUT mode is available. 
+The module is intended to be used in BATCH programs. Its output is the same as the output from the Enhanced User Interface tasks (including the report files). 
+
+Changes in Version 4.7.1098, December 4, 2007:
+* fixed a vulnerability in TAR unpacker (special thanks to "Sowhat" of Nevis Labs)
+* improvements in various unpackers (winexec, installer, CAB, NTFS Streams)
+* boot-time scanner now functional even with USB keyboards
+* speed improvements in the Outlook plugin (Windows XP+)
+* Web Shield: compatibility improvements
+* Internet Mail provider: improvements on Windows Vista
+* CAB unpacker now working in boot-time scan
+* RAR unpacker modified so that it is now more tolerant to certain corrupted archives (issue reported by Thierry Zoller of n.runs AG)
+* Professional Edition: scheduled scan progress icon now accessible even in Windows Vista
+* Windows 9x/ME: fix in the Mail Protection Wizard (related to Mozilla Thunderbird accounts)
+* fixed a bug in the scan area selection dialog in Windows NT/2000
+* optimizations in the updater
+* removed mail heuristics false alarm (related to TNEF attachments)
+
+have fun and enjoy The Joker

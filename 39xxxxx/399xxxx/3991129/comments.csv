@@ -1,0 +1,45 @@
+﻿User Type,Username,Date,Text
+,ukHooligan,2008-01-22T23:38Z,Please help to seed when your download is complete :) Thanks
+,Winter_cROW,2008-01-24T12:05Z,Thank you for the upload. Will reSeed.
+,brunothetav,2008-01-24T19:46Z,Tks for the upload
+,brunothetav,2008-01-24T20:24Z,Works fine. I will reseed. Now we all can use this fantastic program without this blacklist shit!
+,ndjr,2008-01-26T18:13Z,Does this work on the kaspersky ANTIVIRUS 7.0.0.125 trial ? or does it only work on Internet Security ?
+,ndjr,2008-01-26T18:25Z,there is no read me txt included
+,ndjr,2008-01-27T12:02Z,"I answer my own questions
+
+It works on kaspersky antivirus trial 7.0.0.125
+
+The read me txt is included when you open the exe file
+
+
+"
+,deisdude09,2008-02-05T21:33Z,"THANKA!
+Worked like a charm!
+No more blacklisted keys.
+Highly Recomended."
+,leaferz,2008-02-07T17:35Z,"Works great. Excellent interface.
+
+NOTE: For those users who have any of the newer trial versions installed(and are getting this error message INSTALLATION ENDED PREMATURELY), here's what you need to do first before installing 7.0.0.125:
+
+You need to remove a key ?avp6_post_uninstall? from your registry. This key is created when uninstalling an older version of Kaspersky and somehow it wasn?t removed after restarting the computer. Just follow the simple steps below on how to remove the avp6_post_uninstall key fro your registry.
+
+1. Go to Start -> Run
+
+2. Type regedit and click OK button.
+
+3. Navigate to:
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+
+4. Expand the Run folder by clicking the + sign.
+
+5. Right click on the avp6_post_uninstall key (folder) and select Delete.
+
+6. Install Kaspersky product as normal. You won?t get the error ?You must restart your computer before proceeding with the installation.? and ?Installation interrupted. Installation ended prematurely because of an error.? anymore."
+,McGunnar,2008-02-13T13:22Z,"Works great on xp but i only got 1 day trial on Vista,why is that?"
+,ukHooligan,2008-02-13T19:51Z,"Only tested this on xp but as i believe you can delete these 2 registry keys
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SystemCertificates\SPC\Certificates]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\LicStorage]
+
+Hope this helps and ley me know if it works
+
+ Many Thanks ukHooligan"

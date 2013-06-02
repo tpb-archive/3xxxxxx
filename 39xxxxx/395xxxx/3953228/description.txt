@@ -1,0 +1,10 @@
+  http://events.ccc.de/congress/2007/Fahrplan/events/2393.en.html
+
+Speakers:    	 Dan Kaminsky
+
+DNS Rebinding And More Packet Tricks
+
+DNS Rebinding has proved itself to be an effective mechanism for turning standard web browsers into proxy servers. This talk will go into further depth regarding mechanisms for hijacking browser connectivity, and will illustrate some new tricks for measuring network neutrality.
+
+Having already shown some basic aspects of this attack at previous conferences, we'll be expanding DNS rebinding to show demos not dependent on Flash - specifically, we'll be going after home routers that really, really need to stop having default passwords.
+		

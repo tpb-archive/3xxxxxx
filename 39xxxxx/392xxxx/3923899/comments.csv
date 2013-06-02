@@ -1,0 +1,13 @@
+﻿User Type,Username,Date,Text
+,JJCHM,2009-12-06T15:40Z,"Don't know if it's just me, but the video of Gekisai Dai seems to be corrupt. I can play all the videos except that one...
+
+Or maybe it's some special format?"
+,d4rkf1r3,2010-07-28T04:44Z,"try using a universal player that can be downloaded for free using google. type in haihaisoft universal player, it plays al formats of video. "
+,JJCHM,2012-05-30T14:36Z,"The Gekisai Dai video is indeed recorded using a different codec than the rest. If anybody else has the same problem, this tip helped me:
+
+open a 'command prompt' using a rightclick, select, 'Run as Administrtor'
+type: cd C:WindowsSysWOW64 (32bit users can skip this step) - press enter
+type: regsvr32 ir50_32.dll - press enter
+
+to undo what you have done, type: regsvr32 /u ir50_32.dll
+there is an error during unregistration, but it does remove it from being active"

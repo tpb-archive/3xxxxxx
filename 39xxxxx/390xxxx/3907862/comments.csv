@@ -1,0 +1,122 @@
+﻿User Type,Username,Date,Text
+,downloader2755,2007-11-24T23:32Z,"Some serials:
+
+000e-a1f1-19d7-69f5
+
+F6BF-EE0B-286C-239B
+
+E3F7-7572-A0E3-33ED
+
+5FB5-FC41-ACD7-E9C5
+
+1751-B2ED-EF32-68DF
+
+32ac-2cf5-5555-8a06"
+,downloader2755,2007-11-25T12:43Z,plz seed after download....
+,90daystogo,2007-11-25T22:45Z,sorry I dont know but what kind of game is this anyway  never played war hammer berfore I do know that warhammer is also a board game type of game with figures is the video game like a warcraft type game????
+,voxdissident,2007-11-26T04:42Z,"Thanks for sharing.
+
+Seem to be having a problem with the disk two. Installshield prompts me for the disk Dow_2. When I mount that iso (I also tried the 3rd disk thinking the two might be mislabeled or something), the computer doesn't seem to recognize it as the right disk.
+
+Anybody else having the same problem?"
+,bakaonna,2007-11-26T08:19Z,"@voxdissident
+i was having the same problem ... fixed it by copying all game CDs in one directory and running the setup from there .. "
+,bakaonna,2007-11-26T08:21Z,i.e. : all game CDs' FILES ... not the images themselves but the actual files - so the setup when cheching for next archive will find it in the same dir and not ask for a new CD thus removing the problem with it not recognising the CDs
+,voxdissident,2007-11-26T13:38Z,"Thanks Bakaonna. Worked wonders for me.
+
+Great idea. Funny how simple the solutions to some computer problems can be.
+"
+,90daystogo,2007-11-26T19:22Z,oh sure no body can give me a small description of this game I guess google it is for me  LOL
+,90daystogo,2007-11-28T10:29Z,this game sounds fun so here I go
+,DaniMunz,2007-11-29T01:43Z,"I have installed the game, but when I try to start it say I have the wrong disc. I have tried to mount all 3 images. Plz help. "
+,mcfancher,2007-12-05T06:26Z,"Need some help installing.  I mounted the first image and ran it and then it asked for the second one so I unmounted the first disk and then mounted the second and clicked ok, but it keeps popping up to enter disc 2.  If someone could help me out with some step by steps I'd appreciate it."
+,searing,2007-12-12T18:04Z,"Tells me data.1 is missing, and it is. What do I do?"
+,felixtang338,2007-12-15T05:47Z,"um.....would bakoanna please explain further about how to pit the CDs FILES in the same directory,please!! I try to extract all the CD FILES to one folder which included the data 1.cab,data2.cab and data3.cab and also those MSI and Setup.exe,i don't run the whole folder onthe Power ISO,i run the setup directly in the folder but the 'Insert CD 2' still persist...."
+,nick.vieira,2007-12-18T13:55Z,"NEED SOME HELP PLEASE
+
+So I have downloaded the 3 parts, I try to mount them on Daemon tools but the usual message comes asking me to install the 2nd CD, when I mount the second CD the computer dosen't recognise it.
+
+So how to I play the game, could somebody please explain step by step for a n00b !!!
+"
+,nick.vieira,2007-12-18T14:24Z,SOMEBODY TELL ME HOW TO INSTALL THE GAME STEP BY STEP...
+,bakaonna,2007-12-19T11:19Z,"ok .. so .. the way i did it was:
+
+let's establish some variables:
+F: is the virtual drive where i mounted the CDs
+c:/dowf is the directory i created to copy cd contents
+(also i have file extensions, system files and hidden files visible at all times - it might matter though i am not sure; the mounting software i used was Daemon Tools 3.xxsomething .. having any later version of DT shouldn't matter, or any other mount software - i also ran it from linux using mount -o loop and umount encountering the same problem with the same fix - copy all files to dir - btw works great on recent win emulators)
+
+
+-mount cd1 to F:
+-copy all files from F: to C:/dowf ( box-select them all and copy-paste )
+-unmount cd1 from F:
+-mount cd2 to F:
+-copy all files from F: to C:/dowf ( overwriting as necessary )
+-unmount cd2 from F:
+-mount cd3 to F:
+-copy all files from F: to C:/dowf ( overwriting as necessary )
+-UNMOUNT cd3 from F: ( this might help since the setup MIGHT check cd drives first and local dir second )
+-launch setup from C:/dowf
+-install to where you have enough free space
+
+
+if you followed those exact steps and still haven't succeeded. double check. if not - i don't know how to help you since i haven't encoutered any further problems 
+(PS you MIGHT try, as a last resort, to copy the cd files in different sequences CD1, 3, 2 or  3 2 1 - the overwritten files might be cd descriptors which say:this is cd 2 - highly unlikely and i never had to test this )"
+,tvjohan,2007-12-21T23:28Z,I don't get it. Why don't you just burn the ISO files to separate CD's and go from there? I've never understood the daemon stools... ;)
+,trgtt,2007-12-23T17:27Z,"you dont ned to mount the cds...
+
+This worked 4 me
+
+1. copy all the cds to another folder(dont know if it matter)
+2. extract all cds and then start the setup
+3. install(it should work it did 4 me)"
+,trgtt,2007-12-23T17:30Z,"the install worked like i wrote above but then when i was gonna start the game it says ""wrong disc inserted"""
+,pokegasm,2007-12-24T13:06Z,"I have 1 problem, when i finished installing it it just says wrong disc inserted for when i go to play it, can someone help me?"
+,bakaonna,2007-12-25T09:59Z,"the game has a copy protection ... instead of applying a no-cd patch, i would advise installing the updates for it .. from what i remember Relic made the game run without a CD auth (only key-based auth)"
+,bakaonna,2008-01-05T19:25Z,oh yeah and.. when installing patches most errors are caused by not having enough space on the system drive and the game drive ( if you installed the game on the system drive you will need half the space ... hurray for wind ooze : (.. you might want to try to change the temp folder system variable or something - but only if you know what you are doing) ... basically ensure you have a minimum of 3 GiB of space on those drives ( C: the usual system drive and the drive where you insta.lled the game). Not that hard in this day and age
+,dlcndgh234,2008-01-09T21:48Z,"i installed the latest patch, the v1.41, buti still need the ""correct disk"". Is this really not playable without the real CD? Please someone help...i want to play this game sooo bad..."
+,dlcndgh234,2008-01-15T00:57Z,any help? :(
+,bakaonna,2008-01-15T10:04Z,1.41 is NOT the latest patch - there are still 1.5 and 1.51 patches you need to apply - download them from .. filefront for instance - no memebership required
+,dlcndgh234,2008-01-17T03:14Z,"thanks! wow the game is awesome...thanks bakonna
+
+Ill tell you all how to do this
+
+
+1)unzip/unrar the CD images
+2)install
+3)install patch v1.41
+4)install patch v1.5(patch v1.41 required before installing 1.5) to let you play without a CD
+5)install patch v1.51(optional)"
+,xanarckyx,2008-01-27T19:54Z,"Hiya,
+
+I managed to install and every thing worked. Im not a noob at theeses things i do know quite alot but this stumped me. i run the game and a graphics box thing comes up and says choose your device i do this and finish that. then the gmae starts to load and then comes up with ""faild to initilize video card"" what the hell do i da ive tried the game in safe mode no diffrnt"
+,downloader2755,2008-02-05T19:08Z,"then something maby is wrong on ur video card.
+
+or it could be that u did't run the test.."
+,downloader2755,2008-02-06T17:21Z,just download update for ur graphic card.
+,downloader2755,2008-02-06T17:26Z,"if it says wrong disc inserted,you should download crack from www.gameburnworld.com and replace it with the original file in the game directory
+
+computer>local disc C >program>THQ>dawnofwar>then replace the original file with the one u got from the crack."
+,Vilitu,2008-03-09T18:46Z,Seed plz!
+,summit12,2008-03-10T17:56Z,this dosnÂ´t work!
+,summit12,2008-03-10T17:58Z,"how i do it just cd 1,2 and 3!"
+,Mac_the_best,2008-09-05T20:14Z,"I'm having the same problem, 3 iso files.. and I need to enter CD key... help? "
+,01jporter,2008-09-12T00:07Z,"I've installed the game successfully but when i try to play it, it says insert the cd.
+Can somebody post a link to the no cd patch. and what i need to do once i have installed them."
+,littleblu,2008-09-12T13:07Z,You havn't updated the latest patch without the latest patch you can not play without a CD KEY 
+,Crazy_hobo,2008-09-21T01:43Z,seed please it stopped at 72.4
+,Crazy_hobo,2008-09-21T14:43Z,it's telling me i have to insert disc 1 to complete the setup i'm downloading the patches right now for it will this work? if not please help me overcome this please
+,cky_pancake,2008-09-28T15:58Z,"plz seed, want this game"
+,Crazy_hobo,2008-10-01T23:06Z,it says i cannot connect what am i doing wrong?
+,drumster,2008-11-16T20:46Z,where are the crack!!!???
+,Lacerda,2008-11-29T18:20Z,"Seed now guys, this is the only original DoW 40k Torrent out there with more than 1 seeder, so everybody reading this please help us out here!"
+,Lacerda,2008-11-30T04:48Z,"Im gonna keep seeding for u guys, and gonna try and install it now"
+,darklazer32,2009-01-11T16:53Z,"thanks man btw is it strange that i dident get any immages to mount it automaticly detected that it had a disk inserted...oh well great torrent!
+
+
+                              :)"
+,darklazer32,2009-01-11T16:54Z,i also wish the rest of the dawn of war torrents were as easy as this to install
+,darklazer32,2009-01-11T16:56Z,sorry for the tripple post but i'm gunna seed as well for as long as i can
+,Crackpanda,2009-01-22T11:53Z,how do i mount ?
+,TravkinK,2009-04-19T17:27Z,"Awesome game and an awesome torrent!!! Lovin it, ty!!!"
+,DavalPrestor,2010-06-24T20:44Z,SEED MOTHERFUCKERS!

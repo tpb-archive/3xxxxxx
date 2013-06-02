@@ -1,0 +1,96 @@
+﻿User Type,Username,Date,Text
+,avwtp,2007-12-28T07:48Z,"The initial seed is going to come up pretty slow as I only have a 30kbps upload speed. Be patient, I'll keep it seeded for a few days."
+,saxo08,2008-01-03T22:20Z,"Azureus reported the download as complete, however BitZipper complains about ""PRLib.part2"" as being corrupt (part1 was obviously OK). Any advice? Please don't say that I need to download the full 3 GB stuff again...?"
+,Skala4,2008-03-05T09:12Z,AWESOME!!!  I was wondering about this
+,Skala4,2008-03-06T03:05Z,I wonder what the other 3gb of stuff that people seem to be downloading is.
+,Skala4,2008-03-06T03:08Z,how do I locate the install directory?
+,avwtp,2008-03-18T05:42Z,"Regarding install dir, just right click on Encore shortcut and select properties from the drop down menu.   The ""target"" is the path."
+,Murazor74,2008-04-09T10:51Z,"Help, I just downloaded the whole package, but I dont know where to place the libraries...
+
+I dont see any ""Encore shortcut"" anywhere. Where do I place all the files ?"
+,Murazor74,2008-04-09T11:00Z,I wonder if I'm missing something in this download. I have 15 RAR-archives for the NTCS and there are no install files. Are there supposed to be an Install file or am I supposed to copy all the files myself to the corret directory....which is ???
+[T],lotsoflemon,2008-06-16T00:16Z,"Man, youre the greatest. Ive been looking for this one! And splittet up in PAL and NTSC. This is how a torrent should be uploaded!"
+,Muzz4,2008-07-19T17:45Z,"This is brilliant. Encore is useless without it. Thanks Sooo Much.
+If anybody is wondering... Ther are 3 different rar files base-NTSC- and PAL.  Unrar each as needed and place them in:-
+
+\Documents and Settings\\Application Data\Adobe\Adobe Encore\3.0\Library\
+
+You will see these directories already made... Library-Presets and Styles...but with an empty General File in each... Just copy ur unrar'd files into appropriate file.
+
+You may have to make the Application Data file visible as it's a Hidden File"
+,halfcircles,2008-08-13T19:30Z,Excellent!  Solved my missing libraries problem.  :)  avwtp is teh b0mb
+,tballz,2008-08-23T21:57Z,"Thank you so much avwtp! Great up!
+
+Could someone explain to me Base, NTSC and PAL? Do I use all three or do I pick one? Which should I use?
+
+Thanks!"
+,tballz,2008-08-23T22:01Z,"One more question: Should I extract them with WinRAR as if they were one archive to get the most comprehensive library?
+
+
+Thank you so much avwtp! Great up!
+
+Could someone explain to me Base, NTSC and PAL? Do I use all three or do I pick one? Which should I use?
+
+Thanks!"
+,Guapo81,2008-08-27T19:35Z,This is almost too good to be true!!! Only problem is seeders :( Could somebody please seed?
+,itiscoming,2008-08-28T20:26Z,"Thanks for the quality upload, though when I unrar'ed into the install directory the program didn't really pick them up...I had to do it manually.
+Thanks again."
+,phaze424,2008-10-01T22:43Z,"@saxo08:
+
+You'll need to use WinRAR for multipart RARs. If you don't have it, just search TPB for ""WinRAR Corporate."""
+,mariokb,2008-10-02T13:47Z,It works great! Thanks for this torrent!
+,avwtp,2008-12-15T18:40Z,"Well it is almost the one year anniversary of this upload and the torrent community is still seeding!
+
+This torrent ""happened"" because I owned (paid money) for version X and instead of Adobe properly supporting their user community, they force us to pay for the upgrade (and their bug fixes).  I got ticked and now download/upload torrents.
+
+Back to this library.   There is a readme file in the root directory that should answer a lot of the questions that have been posted.  It reads:
+
+""All but maybe the biggest of the CS3 torrents are missing the Encore DVD library 
+and style directories.  Here are the equivalent Encore DVD 2.0 directories.   Unless 
+you did something funny, just unrar into the Encore install directory and the 
+program will pick it up. 
+
+Since we are talking about 3+ gig here, the lib is divided up into Base, NTSC and PAL 
+archives.   Download and install just what you need.
+
+Also included are the Premiere Pro 2.0 DVD authoring templates.   They are compatible 
+with Encore, just pick and choose as you want.
+
+On first use, Encore will build a separate database for each category (directory).   The
+database resides in 
+
+\Documents and Settings\\Application Data\Adobe\Adobe Encore\3.0\Library\
+
+I haven't played around very much to see what works except that deleting the data file will get
+the program to rebuild on next access.
+
+Enjoy"""
+,remoremo7,2009-01-17T01:39Z,"Ok, where to put these files to get all working in Encore: 
+1) Download just what you need (just PAL for example)
+2) If one folder is named ""ERlib_base"" in the download, take all the subfolders inside and copy them to the ""Library"" folder.
+3) All stuff in the folder called ""Premiere Pro 2.0"": you copy this as well to the ""Library"" folder.
+4) Copy the ""Library"" and the ""Styles"" folder in  the Encore installation directory. It will find all new templates the first time you start it.
+- Note: in the ""Library"" and ""Styles"" you can have several subfolders, but NOT sub-subfolders, these are not seen then in Encore. 
+
+(PS: templates work for CS4 version as well!)
+
+Thanks to the uploader, and shame on Adobe for not delivering these together with the program."
+,Barberic,2009-01-27T23:31Z,"avwtp you did a great job splitting up the file into NTSC and PAL.  I live in Australia and so only needed the PAL files.  I was able to almost half the download size.  Install instructions, installation, files that work, no malware, everything is great about this torrent.  Thanks a lot'"
+,Barberic,2009-01-28T03:48Z,Just one question about downloading this torrent.  Is it necessary to download all 16 parts of the PAL or NTSC files?  Part 2 wants to overwrite part 1 files. part 3 wants to overwrite part 2 files etc.  Are these all the same files or am I missing something?
+,dizzyoperaboy,2009-02-05T04:34Z,Thanks Very Much for This - I had been searching and pulling my hair out (and I havn't got much) for days...Excellent upload...avwtp
+,misterfnygy,2009-03-30T18:12Z,"A note on the install directory-
+In Encore, go to edit/preferences/media and select the directory that your library is located.  It will pick up all the files and your set.
+
+My directory was different than the one listed in the readme but I am using CS4 so they may have changed it with the new version."
+,HugeMullet,2009-04-07T14:39Z,"Help! 
+
+I am running CS4 encore and I can't find the library!? Encore was set to find the library in the following location 'C:\Program Files (x86)\Adobe\Adobe Encore CS4\Library' and yet there is no such file on my system? Any ideas on what I should do? Thanks.
+
+"
+,HugeMullet,2009-04-08T11:07Z,"No worries I've sorted it, just created a Library file where it should have been and dumped the files into it (thanks misterfnygy) . But I'm still not sure where to place the other files in this download (the 'Styles' and 'DVD templates' folders), if anyone has any ideas? I'm still pretty new to torrents. Thanks."
+,mnoona,2009-06-27T22:46Z,"Thanks for the great upload I 've been looking for the libraries for a long time everything works great the Adobe Encore CS3 recognizes the libraries addons ,now I can follow the tutorials.Thanks again for the fast upload."
+,ehspacl,2009-07-21T10:46Z,"Thank  you so very much for this, only downloaded the base and pal part but will upload for a while. Works in CS4, cheers"
+,xefon18,2009-09-25T01:22Z,I assume I'm missing something here but I've just downloaded the files I wanted - and for that many thanks - but looking at the contents of the 16 RAR files -they're all the same?! Checking them through RAR it confirms this. Opening one file and installing (actually just copied it over) seems to work fine. What am I missing?
+,sweetjones,2009-12-30T16:39Z,Does anyone have the CS4 Libraries? I know the CS3 are COMPATIBLE but I'm sure the CS4 are not the same. Thanks
+,venuto,2010-08-06T13:30Z,Hi Guys  Thanks for the download. I do not have the install disks. Can you tell me what directory structure these downloaded files should have? In other words.. where do I put them?
+,shiranavs,2011-04-04T14:46Z,"Plz tell me ,   Is this work with encore CS4 and CS5 ?"

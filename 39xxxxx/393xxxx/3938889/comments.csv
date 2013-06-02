@@ -1,0 +1,385 @@
+﻿User Type,Username,Date,Text
+,travtufts,2007-12-18T19:55Z,Anyone have this for North America?
+,halo1981,2007-12-18T21:55Z,"maybe this one?
+http://thepiratebay.org/tor/3933231/Garmin_MapSource_North_America_Points_of_Interest"
+,atv,2007-12-18T21:58Z,How to install it on an Etrex Vista Cx?
+,Emmertje,2007-12-18T22:57Z,"Yes, how to install this? On a Zumo, or a Vista HCx."
+,Emmertje,2007-12-18T23:13Z,"OK doesn't work on a Etrex
+https://buy.garmin.com/shop/shop.do?pID=8472"
+,Edge77,2007-12-19T00:16Z,"someone tell me step by step how i install this product im a big noob =)
+
+Mvh Todi"
+,Emmertje,2007-12-19T00:55Z,"Didn't get it to work yet. Some explanation would be nice, indeed."
+,gomer1000,2007-12-20T00:01Z,Once I download and install I will be able to get the map code if there is one. Let you guys know if you can use the keygen and hex editor to get working as per other threads. Thxs a lot Burkao!
+,gomer1000,2007-12-20T00:49Z,Did anyone copy the POI directory over to the flash on their Garmin (Or external SD card depending on your unit) and then put the .unl file in the POI directory with the .gpi file yet?
+,gomer1000,2007-12-20T20:30Z,"I am definitely looking for the Garmin Language and the European Travel Guide original loads/install directories from the SD cards.
+
+ There is no map code that I can find in the file and it is a different format from the Garmin maps. I think the keygen is basically worthless at this point if the code supplied does not work.
+
+Could you help upload the original contents of the SD's if you have them Burkao?"
+,gomer1000,2007-12-21T18:06Z,This does not work as of yet.
+,richiMA40,2007-12-23T11:14Z,"Hello! Try this ID Code 974 in keygen.
+Tell me if it works!"
+,gentlee,2007-12-23T23:11Z,"gomer1000, (Did anyone copy the POI directory over to the flash on their Garmin (Or external SD card depending on your unit) and then put the .unl file in the POI directory with the .gpi file yet?)
+
+Its not working
+
+richimr40
+ID Code 974 in keygen, not working"
+,richiMA40,2007-12-27T18:48Z,"Try these ID Code 179 and 395.
+Tell which functions!"
+,egeek1,2007-12-27T20:19Z,"179 & 395 no good!  Tried that gentlee, still not working.  Does not work, either loaded directly onto Nuvi or onto 2GB SD card!  On another note, I got Euro Nav 2008 to be recognized by Nuvi 350, but when it starts calculating for European destinations it stops at 54% stating not enough memory...weird cause I have that installed onto a 2 GB SD card as well."
+,richiMA40,2007-12-28T12:19Z,Thanks for alerting! I will continue looking for the ID code keygen.
+,EZname,2007-12-28T21:56Z,"I tried three codes with no luck...
+
+Do i ""must"" have the Europ maps in order to have the travel giude to work??
+
+Is there any program like (gmaptool.exe) to find out the map id for the travel guide??
+
+Thanks!"
+[T],NightyNinetY,2007-12-28T23:30Z,The Family ID should be 900
+,egeek1,2007-12-28T23:32Z,"To EZname, No!"
+,egeek1,2007-12-28T23:54Z,Travel Guide does not require Euro NT 2008
+[T],NightyNinetY,2007-12-29T00:19Z,"Like i said, Fam. ID is ""900"" but thisone does differ from other maps in Region ID which is set to""1"", normally that is ""0"". This may prevent the Jetmouse kg to work correkt, it assumes that Region ID always is ""0"" for the code calculation
+"
+,richiMA40,2007-12-29T09:52Z,"NightyNinetY Id code must end in 0?
+If someone gets the ID code that would put him here!
+""The version of the travel guide is the 2005"""
+,EZname,2007-12-29T10:52Z,"NightyNinetY:
+
+Can you please drop me an email??
+
+ezname (at) gmail (dot) com
+
+Thanks!"
+[T],NightyNinetY,2007-12-29T18:35Z,"richiMA40: No, Fam. ID or Map ID (same thing) is one of the parameters to calculate the unlock code. Region ID is another parameter,Unit id is another.. well you get the picture?"
+,gentlee,2007-12-29T23:07Z,"NightyNinetY, do u mean that the id 900 would work or not?"
+[T],NightyNinetY,2007-12-29T23:12Z,"gentlee: Yes 900 as mapID works, the problem is the Region ID which is set to""1"" instead of normally ""0""
+
+I dont think Jetmouse kg will work for thisone..
+But you can try it.."
+,richiMA40,2007-12-30T11:06Z,NightyNinetY. Opens the file GPI with UltraEdit-32. To see if you can find more clues. No longer as more help!
+,voyager56,2007-12-30T15:15Z,In gpi file you can find GRMREC01 if Travel Guide is locked. If it's not locked there is a GRMREC00.
+,richiMA40,2007-12-31T13:00Z,"Hello! voyager56. If I change GRMREC01 to GRMREC00 worked?
+
+Thanks!"
+,voyager56,2007-12-31T13:22Z,Changing GRMREC01 to GRMREC00 will not work. The data (or part of data) is encrypted. You need a wright key to unlock it.
+,wvy,2008-01-01T12:22Z,"How is this work on my Nuvi 760?
+I U/L to the Garmin/POI dir only i cannot find it when using the Nuvi.
+
+Also looking for the Garmin Language Guide .. anybody have a full working version of it?
+
+HAPPY 2008 !!!"
+,EZname,2008-01-01T18:16Z,"Guys, try this since i do not have my Garmin with me now..
+
+Insert the SD card the you want to use into your Garmin.
+
+Start your Garmin And touch the Clock (time) for about 10 seconds...
+
+A secret menu will appear..
+
+Click (Next) couple times until you see the menu for the SD card...
+
+Press (Checksum) and then, the unit ID for THAT SD card will appear... Note that this ID is NOT your Garmin's Unit ID.. This ID is just for that SD card.. Every SD card in the world has diffrent number!
+
+Copy that code in the Key Gen and generate a 25-digit code (upper Generate)
+
+Copy the code into the (gmapsupp.unl) file...
+
+Restart your Garmin...
+
+Please report..."
+,Passware,2008-01-01T21:38Z,"Its not working with SD-Card ID!!!
+
+used: MapID 900 and SD-Card ID
+(NOT DEVICE ID)"
+,eriktheheadlouse,2008-01-02T08:22Z,"OK, so I got the Checksum for the SD card, but where is the Key Gen mentioned by EZname? It isn't in the torrent file."
+,Passware,2008-01-02T09:10Z,"I found:
+
+the key need to be generated with the following:
+Unit ID : 
+Region ID : 1 "
+,Passware,2008-01-02T09:11Z,"the key need to be generated with the following:
+Unit ID : sd id
+Region ID : 1 this must be set to 1
+Unknown ID (7) : 1 this must also be set to 1
+
+Someone knows what to do?"
+,eriktheheadlouse,2008-01-02T11:13Z,Where do I find the 'region ID' and 'inknown ID (7)'?
+,eriktheheadlouse,2008-01-02T16:26Z,"Unless someone can write some decent, easy to follow and comprehensive instructions for this torrent then it is about as much use as a chocolate teapot. Need to explain what all the IDs are and where they can be found, e.g. 'Region ID'. Tried many different configurations on my Nuvi 660, but cannot get this Guide to work."
+,smithjohn57,2008-01-06T03:12Z,Maybe JetMouse Keygen v1.1+syzygy patch would unlock it. Just cannot find instructions how to patch.
+,gomer1000,2008-01-06T04:27Z,"check out ppcwarez site as there is now a modified keygen that works for this file.
+"
+,gomer1000,2008-01-06T05:01Z,How to get your SD serial is part of the thread. Plus map ID 900 is there.....plus modified keygen is there.
+,eriktheheadlouse,2008-01-06T10:21Z,"But, where do the region id and unknown id come from?????"
+,eriktheheadlouse,2008-01-06T14:35Z,"None of the keygens work, not even the so-called 'modified' one at ppcwarez, nor does the map id of 900. Tried on Nuvi 660, using SD card id in Nuvi secret menu and Nuvi unit id also. We need a new keygen for this Travel Guide."
+,smithjohn57,2008-01-06T16:34Z,"WOOHOO! Working OK in my Mobile XT (N95).
+Created unlocking code with modded keygen, using mapID 900. Thanks for pointing me in the right direction."
+,Passware,2008-01-06T17:03Z,"Here a Modyfied KeyGen for Travel Guide:
+http://dxp.divxvid.org/b13ffa9a8befa51eeac88bc2040730ed.html
+Use Sd Card ID and Map ID 900
+(Device ID will not work!!!)"
+,gomer1000,2008-01-06T19:12Z,Looking for the language guide. Anyone?
+,eriktheheadlouse,2008-01-06T19:36Z,"Has anyone got this working on a Nuvi? If so, advice would be gratefully received on how to get it working."
+,gentlee,2008-01-06T21:55Z,"When I press the checksum nothing happens, just checking and no id crad is shown, is there any other way to get the id of the card on a nuvi 660?"
+,gentlee,2008-01-06T22:51Z,"managed to get the card ID and tried with 900 and 1 nither works on nuvi 660.
+putting the files in garmin and in gramin\poi, nothing works.
+Do I have to change the file name!"
+,egeek1,2008-01-07T23:54Z,"Gentlee; 
+make sure your files in poi folder are named MPFullEurope.gpi and MPFullEurope.unl and SW.unl  The Map code based on MapID 900 goes in the MPFullEurope.unl file.  I couldn't get this to work until I renamed file gmapsupp.unl to MPFullEurope.unl."
+,gentlee,2008-01-08T03:03Z,"egeek1 whats in the sw file?
+Do I need that on nuvi?"
+,gentlee,2008-01-08T09:22Z,"Its now working on nuvi 660.
+Thanks egeek, no need for the sw file, only MPFullEurope.gpi and MPFullEurope.unl, with card id and 900 on map id, it installed though its self on the nuvi, so one needs to have a little space on nuvi memory."
+,SaKiS_71,2008-01-08T18:54Z,"hej, kan nån beskriva på svenska hur man installerar detta, min engelska är dåligt, jag har också nuvi 660 skulle vara jätte tacksamt om nån skriver det på svenska,"
+,SaKiS_71,2008-01-08T19:31Z,"gentlee 
+kan du skriva det på svenska hur har du instalerat detta, snälla"
+,juanka007,2008-01-08T19:47Z,"I have a nuvi 200W it works only with the gmapsupp.unl and MPFullEurope.gpi in the sd card, I found Marco Polo in extras but when I select destiny the unit turn off, so is it mandatory to make instalation in Garmin? Thanks"
+,netgen,2008-01-08T20:20Z,"gentlee!!!!
+
+i have a nuvi660 too, please tell me whats the solution(step by step)
+i copied the MPFullEurope.gpi&MPFullEurope.unl to the sd card,and after it restart nuvi but nothing what i missed,please help me,as soon as poss.
+thx"
+,kasperly,2008-01-08T21:33Z,gentlee -> which KeyGen did you use? And can you perhaps give us a link to it?
+,netgen,2008-01-08T21:45Z,"i used the garmin unlock generator 1.3,and generate an unlock code,after i copied into the MPFullEurope.unl.but its not working, id dont undersand,because gantlee said: its workin "
+,smithjohn57,2008-01-09T00:26Z,The solution is here. Read the 3 pages and stop asking stupid questions.
+,smithjohn57,2008-01-09T00:30Z,"And while you're at it, go here:
+http://forum.ppcwarez.org/viewtopic.php?f=38&t=36590
+... and read some more."
+,gentlee,2008-01-09T02:46Z,"Här kommer det på svenska, man ska ha sd minneskort id genom att hålla tumman på klockan tio secunder, klickar fram tills man kommer till minnes kort, klick på chksum och vänta tills du får id numret, använd sedan patchad keygen (länk finns här på kommentar sedan 2)
+och få fram koden, lägg in koden i notpad och spara som mpfulleurope.unl
+Spara sedan filen tillsammans med filen du laddat ner i ditt kort under garmin/poi och lägg det sedan i din garmin och starta"
+,gentlee,2008-01-09T02:53Z,"OK, here what I did, I generated a cod with this keygen: http://dxp.divxvid.org/b13ffa9a8befa51eeac88bc2040730ed.html
+Saved it in MPFullEurope.unl and saved bouth MPFullEurope.gpi and MPFullEurope.unl in garmin/poi in my card, put it in garmin and started"
+,gentlee,2008-01-09T03:05Z,"Svartingen, I dont know if it works with internal memory, but I used external, but when u put ur card into ur garmin it installs in internal memory so that u do not always need the external in "
+,juanka007,2008-01-09T07:42Z,"Instructions for Nüvi 200W
+
+1-Insert SD card, touch battery icon for about 5 seconds or so. Eventually you will get into the diagnostic mode of the unit. Once there you will be able to scroll to the SD card and see the unit ID of the SD. The SD ID will be a 10 digit format just like the internal flash ID of the Garmin.
+2-Use key gen generator (gk_mod) http://dxp.divxvid.org/b13ffa9a8befa51eeac88bc2040730ed.html (Use Sd Card ID and Map ID 900).
+3-Copy de generated key gen resulting from MAP ID in the gmasupp.unl (you need only this one).
+4-Restart garmin it will ask to install new extras or not from SD card.
+5-Say NO and look in extras for Marco Polo.
+
+If not - try to make installation but before make a backup from POI folder stored in Garmin for security issues."
+,juanka007,2008-01-09T09:16Z,I will send gk_mod by email (free) contact by email at jcbenitez@terra.es
+,SaKiS_71,2008-01-09T12:21Z,"gentlee
+detta länk funkar inte, file-n är raderad, om du har fil kan du sicka den till min e-mail (msalkic@msn.com) och en sak till id nr.på cheksum hur många nr. finns, jag fick fram 2 id nr. villken ska man använda, om du kan hjälpa skulle vara tacksam"
+,SaKiS_71,2008-01-09T13:08Z,"gentlee 
+så här är det, när jag håller tumman på klockan tio secunder så får jag fram första sidan (SW Ver 4.10 Nuvi 660 1gb+1gb) och så står det USB id och så vidare, sidan 2 (Version Information .......) och så vidare, sida 3 (Data Card Test Page, under står det Size, serial, Read-Only-NO, Cheksum-Fail) när jag startar Cheksum blir det samma fel, jag får inte fram nr. men när jag går till nästa sida där det står (NAND Test Page, cheksum då får jag ett nr. tip 0xC70A.......och så vidare, under detta nr. finns 10 sifriga nr. bara numret utan bokstever,"
+,SaKiS_71,2008-01-09T14:10Z,"kan man använda Garmin Generator v1.3 jag har den på min dator, ska man välja GM XT code eller Map code"
+,gentlee,2008-01-09T15:08Z,"Sakis, det är sida 3 (Data Card Test Page, under står det Size, serial, Read-Only-NO, Cheksum-Fail)
+Det spelar ingen roll om du har cheksum fail, det är serial nummer som kallas kortets ID, Och jag ska försöka ladda upp den fungerande keygen nu och bifogar länken på denna sida"
+,gentlee,2008-01-09T15:25Z,"Im sorry but Im new here and just do not know how to uppload a torrent, when I try to uppload it says the file is not a torrent, if any 1 knows how to uppload that and can help how to do step by step, I can then uppload the mod.keygen"
+,netgen,2008-01-09T19:01Z,"Svartingen
+
+we waiting the modified keygen,please upload it or send me : netgen@freemail.hu 
+
+thx in advise"
+,netgen,2008-01-09T19:52Z,"so
+i have a bad new,i got the gk_mod key generator,but its not working:(
+i dont know why,but if anybody want it i can send.just drop me an email adress."
+,netgen,2008-01-09T20:00Z,"uploaded too
+http://thepiratebay.org/tor/3969193"
+,netgen,2008-01-09T20:01Z,"Svartingen
+
+did you check it??
+worked?"
+,netgen,2008-01-09T20:31Z,"i dont understand,
+what do you think?must we try to copy the nuvi memory,maybe it will be work?
+i have no more idea"
+,netgen,2008-01-09T20:42Z,"good news,we waitin details,
+HELP"
+,netgen,2008-01-09T20:53Z,"yesssss
+working,copy.
+here is the solution,dont rename the gmapsupp.unl,just copy the generated code into,and save."
+,iko_iko,2008-01-09T21:19Z,"You even don't have to install it on device. Just say NO and you can still use it from SD card.
+
+p.s. keygen work fine in Linux with wine :)"
+,rickto,2008-01-10T10:30Z,"Excellent, been battling with this for a while but finally got it working on my Nuvi 370."
+,rickto,2008-01-11T13:52Z,"Don't mean to hijack this thread but I need some help with the Language Guide, available here http://thepiratebay.org/tor/3967590/Garmin_Language_Guide-ShareAll.rar and I think the problem unlocking it is along the same lines as the Travel Guide. I made a comment in the thread (there) regarding ProductId and RegionId:
+
+""Now, I dont know if the keygens are coded specific to ProductId AS WELL AS RegionId, if so that could be the problem, because we dont have one that works with ProductId:1, RegionId:1.""
+
+
+... anyone know if this is true (about the keygen being coded for region and product)??"
+,eriktheheadlouse,2008-01-11T17:49Z,The card ID that you need to enter into the keygen is the 'serial' number underneath the size of your card.
+,Nitrox_Diver,2008-01-11T18:09Z,"Works perfect on my Nüvi 200!
+
+No need to use your SD Card ID because you can use your GPS unit ID if you like. :))
+
+Otherwise I followed these instructions :
+
+1. Get the right ID (GPS ID or SD card ID)
+2. Insert it in the top box of the modded keygen.
+3. Insert the ""map ID"" in the lower box Custom Maps (900 in this case).
+4. Hit ""generate"" to get your Map unlock code.
+5. Copy it into Notepad & save as ""MPFullEurope.unl""
+6. Upload the .gpi file & .unl file to \Garmin\poi on your SD card.
+
+Enjoy and Smile!!"
+,eriktheheadlouse,2008-01-11T19:00Z,"Here is how I eventually installed it on my Nuvi 660 which already has the new City Navigator Europe NT 2008 map on the same SD card:
+
+1.Upload the .gpi (not the .unl file) file to \Garmin\poi on your SD card.
+2. Get SD card ID.
+3. Insert it in the top box of the modded keygen.
+4. Insert the ""map ID"" in the lower box Custom Maps (900 in this case).
+5. Hit ""generate"" to get your Map unlock code.
+6. If you already have the new 2008 map on the same SD card then you'll already have a 'gmapsupp.unl' file in the \Garmin directory on your card. It will have the Map unlock code for the new Europe map in it.
+7. You need to paste the unlock code for the Travel Guide onto the end of the unlock code for the 2008 Europe map. Do not leave any spaces between the two codes.
+
+The travel guide appears in the 'Travel Guide' section and in 'Extras'.
+
+Enjoy!!"
+,Nitrox_Diver,2008-01-11T19:16Z,"A small correction to the post above:
+
+""7. You CAN paste the unlock code for the Travel Guide onto the end of the unlock code for the 2008 Europe map. Do not leave any spaces between the two codes.""
+
+Or you can use my described method as I also have the new NT 2008 Europe) on my SD Card (and NT 2008 Nordic internal in the GPS)."
+,eriktheheadlouse,2008-01-11T19:23Z,"Thanks Nitrox_Diver, but your method didn't work for me. :)"
+,Nitrox_Diver,2008-01-11T19:46Z,"Then you must do something wrong I think? :(
+
+I have unlocked Buechart Atlantic 9.5, NT 2008 Europe, Travel Guide Europe and Friluftskartan Pro Götaland using this method.
+Bluechart + Friluftskartan to my GPSMAP 60 CSX and NT 2008 Europe + Travel Guide Europe to my Nüvi 200."
+,Fido69xx,2008-01-14T14:22Z,"Hej!
+Får det inte att funka med min nuvi 200, vilken keygen ska jag använda?"
+,Fido69xx,2008-01-14T14:24Z,"Hej!
+
+Vilken keygen ska jag använda, har provat 1.2 och 1.3?"
+,Fido69xx,2008-01-15T09:21Z,"Denna keygen fungerar, 
+http://thepiratebay.org/tor/3971153/Modified_JetMouse_keygen_for_Garmin_Language_Guide-ShareAll"
+,Trailerpromo,2008-01-19T12:55Z,"ID from your SD card:  How ?
+
+I read all the instructions, on a Garmin zumo you don't get to acces the hidden menu. 
+
+Can't you just find your Sd serial on a PC ?"
+,leakimb,2008-01-22T18:51Z,"on garmin 760 you should press the batteryinicator no the ""time"" for a few seconds, try that."
+,murdmac,2008-02-01T20:28Z,"Think I might have found the Problem Guys !
+
+I was using a cheap SD Card 
+
+In the etup menu under Ser. it always had a 3 digit code and I had to ""start CHKSUM"" and a 10 digit code was generated -- THIS IS NOT THE CARD ID ???????????
+
+When i put another cheap card in it came up with the same thing and after doing checksum the code generated was the same.
+
+When I put my small camera sandisk branded sd card in and went into the SD card menu it gave a 10 digit code beside Serial :
+
+i.e 
+Ser. 1234567890
+
+before was 
+Ser. 195
+
+Ordered a new 2gb card so hoping this is it - looks promising though
+
+Let me know if this helps anyone ?"
+,funkimonki,2008-02-03T02:27Z,"I would love to see this converted to GPX or some other format for use with non speak-n-spell Garmin GPS's (e.g. the nuvi, streetpilot).
+
+I know it would require being able to load the key in order to decrypt the file and then output the contents... and I think that would be a custom program.
+
+Any takers?"
+,keykeydero,2008-02-03T20:19Z,"All the keygen links are dead, can someone upload a the file again?
+
+If you don't know how to send me the file; 2teker@gmail.com"
+,blueberet,2008-02-06T03:10Z,"The Keygen in the Garmin/Fodors Travel guide for North America is needed to unlock this one. Download it from:
+http://thepiratebay.org/tor/3977007/Garmin_Fodor__s__Travel_Guide_North_America_with_KeyGen "
+,kakata,2008-02-06T17:06Z,"Hi guys, could anybody tell me ID=??? for Garmin Travel Guide Europe ?? I've been trying 900 as for Fodor's (it works for my nuvi350!), but doesn't work for Europe ... Any idea ? Or another KG ? I've been trying with Fodors's one as well as with Mod JM one ...
+Thanks !"
+,Hexen-NI,2008-02-10T03:28Z,It worked - Nuvi 300.  If anyone needs the keygen please PM me (please quote Modified KeyGen for Travel Guide).
+,mestguy182,2008-02-10T18:08Z,"Has anyone gotten this to work on a Nuvi 350?  I tried everything I can think of with no success.  Only thing I can think of is that the map id needs to be different.  
+Justin"
+,mestguy182,2008-02-10T18:13Z,"Also, pardon my ignorance, but how do you PM somebody?  "
+,kakata,2008-02-11T04:21Z,"Hi, as I said before - it doesn't work for my nuvi 350.
+Img file is well in Garmin directory, it has it's unl file based on 900 ID, used Mod KG - everythig is just fine, but it doesn't even start to read it or ask to be loaded, neither daying that sometinig is wrong! Nada !
+On the other hand - Fodor's has executed perfectly."
+,mestguy182,2008-02-12T04:58Z,"Kakata, same thing with mine, doesn't even try and install it.  I installed the garmin language guide no problem so Im not sure whats going on.  Also, the item # for the Garmin travel guide is the same for the Nuvi 350 and other nuvi's that this IS working on, so I'm not sure why it wouldn't be the same for the 350."
+,HermanRSA,2008-02-12T13:14Z,"The question was also asked by mestguy182. How do one 'PM' someone?(As indicated by Hexen-NI). 
+Can someone please help me with the modified keygen for the Garmin Europe Travel Guide.
+The keygen in Travel guide for North America DOES NOT WORK on Europe. Neither does Unlock_Utility_Keygen_Utility_Originals_by_JetMouse (Keygen v1.3.exe).
+Thanks! (from mail@vodamail.co.za)"
+,mestguy182,2008-02-12T23:55Z,"I'm assuming if you are downloading this you have the European maps.  I live in the US and downloaded City guide Europe version 9.  It seems to work perfectly except when I tell it to go from one European location to another, it says it runs out of memory at 52% or something like that.  I'm going to Germany next month and need this to work.  Is it only having this problem because I'm still in the US while trying to route one European location to another?  Thanks"
+,HermanRSA,2008-02-14T06:51Z,"I've solved the Europe Travel Guide installation from an SD card on a Garmin Nuvi 310.
+Step 1. Find the torrent ""[isoHunt]_Garmin_modded_keygen.exe.1403559.SN"" and download it.
+Step 2. Run the Garmin_modded_keygen.exe downloaded file.
+Step 3. Get the SD card ID (NOT the GARMIN ID). To get it, place the SD card in the Garmin, press and hold the time display. Then press next until the SD Card detail is displayed. The card id will be indicated.
+Step 4. In the Garmin_modded_keygen.exe, type in the SD card no in Unit ID. Go down to Select Map Product, select Custom and type in 900. Then click Generate at the bottom right.
+Step 5. Open Notepad software. Paste the generated key in notepad.
+Step 6. Save the notepad file as gmapsupp.unl on the SD Card under the directory \Garmin where the POI folder is with the MPFULLEUROPE file in the POI folder.
+Step 7. Unplug Garmin from PC and let it restart.
+Step 8. The Garmin will then request the option to save the data on the unit Yes/No. The option is yours. Depending on how much space is avialable on the unit. If you select no, the Travel Guide will still work.
+Step 9. On the Garmin, select Travel Kit, Travel Guide. You'll then see Marco Polo Europe.
+ENJOY!!!"
+,mestguy182,2008-02-15T03:00Z,I had no luck finding [isoHunt]_Garmin_modded_keygen.exe.1403559.SN  found a garmin keygen on isohunt but it is the same v1.3 that I've tried and doesn't work on the Nuvi 350.
+,HermanRSA,2008-02-15T13:56Z,"mestguy182, go to http://isohunt.com/torrents/garmin?ihp=1&iht=-1&ihs1=12&iho1=d
+Look for Garmin modded keygen.exe 327.68 KB. (http://isohunt.com/download/31591167/garmin)
+Hope this help."
+,HermanRSA,2008-02-15T13:58Z,"Or try this link:
+http://torrents.suprnova.org/1403559/Garmin_modded_keygen.exe.1403559.SN.torrent"
+,1000V,2008-03-04T16:29Z,"if i use 1G sd card  all ok
+if i use 2G sd card nothing:(("
+,beautyiseternal,2008-04-27T05:58Z,NONE OF THESE WORKS FOR MY NUVI 600...it seems like NUVI 660 is giving a lot of trouble for everyone isn't it?
+,beautyiseternal,2008-04-27T05:59Z,how come i can't see where i typed my comments?
+,atrixy,2008-04-27T18:48Z,"I´ve got a Nuvi 250. Have read Every comment here and tryed everything but it doesnt work. Have found the ip to my sd card, have used the garmin modded keygen and got a code. Put it into a notepad avd named it exactly as you described. Trust me, i´ve really tryed everything. does it mattr what kind of sd card i use ? The current one is a cheap Lexar sd, 1 gb. This just drives my crazy. "
+,ristouille,2008-05-22T15:00Z,"I have the nuvi 760 but it seems that the procedure describe here doesn't work :
+- I check the ID of the SD card in the hidden menu
+- I downloaded garmin modded keygen
+-  I write de SD card ID, the ID map (900) and I generate the 24 key code
+- I save it on the word pad and rename as Mpfulleeurope.unl (size 182 octet) and put in the folder POI
+
+It still doesn't work. Is someone have an idea ? thanks for your help"
+,beautyiseternal,2008-05-24T23:21Z,doesn't work either for me! i am a pretty good with computer knowledge
+,mikasand,2008-05-29T20:12Z,"I use Garmin Nuvi 350 and its works great.
+
+
+1. Get keygen: http://torrents.suprnova.org/1403559/Garmin_modded_keygen.exe.1403559.SN.torrent
+
+2. Hold clock display for 10 seconds and get into Nüvi service mode.
+
+3. Step forward 2-3 times until you see Sucure Digal SD card, then insert SD card.
+
+4. Write down SD card serial number and then restart your Nüvi.
+
+5. Start keygen. 
+
+6. Use SD Card serial number as Unit ID in the keygen.
+
+7. Select map ""MAPID"" and type in 900.
+
+8. Generate code by the generate button (the last one).
+
+9. Paste the generated code in new file, using notepad.exe
+
+10. Create folder Garmin in the SD Card.
+11. Create subfolder POI in the SD card (below Garmin)
+
+12. Save the notepad file as  MPFullEurope.unl  in the POI folder in the SD Card.
+
+13. Extract MPFullEurope.gpi from the Zip file and place it together in same folder  (Garmin\POI) in the SD Card, there are now two files in this folder, both have same name but with different extension.
+
+14 Insert SD Card (if it is not already installed)
+
+15 Restart Nüvi."
+,stacker02,2008-06-24T05:37Z,"I been reading around, it seems the only people to get this working are the Garmins listed on the product compatibility page of the Travel Guide:
+
+the Nuvi 300 series, the 600 series, Street Pilots and Zumo's. I have a 750 and have run into the same issue as many. I have installed other maps, but nothing budges for this one. Can people confirm it works on other models of the garmins???"
+,stacker02,2008-06-24T16:09Z,"I got it to work. Wow.
+
+1. Got SD ID #
+2. Copied gmapsupp.unl and POI folder ( with MPFullEurope.gpi) to SD card under a folder I created called Garmin
+3. Ran modded keygen called: KG MOD 6in1
+4. Click Marco Polo
+5. Copy code to UNL file, put SD card into Garmin 750 
+6. Start Nuvi
+7. Welcome to Installer ;)"
+,lcardoso,2008-07-24T11:20Z,"I have a nuvi310 I follow all steps described and it doesnt work. anyone can help me please?
+
+it woks with nuvi310??"
+,lcardoso,2008-07-24T15:33Z,OKKKK is working! it works with nuvi 310
+,mentallapse,2008-10-26T14:53Z,"Hey !!
+
+For Garmin Nüvi 710 you get into Service Mode by pressing the ""Battery Indicator"" 10 sec. "
+,funk74,2009-03-24T05:36Z,"Works great on a Nuvi 660. Followed mikasand's directions using a Kingston 2GB SD card. Did not work on a Lexar 2GB card as it only had a 9 digit ID number. Works great right off the card without installing onto the unit. I also put the full 2009 City Navigator map on the same card and it just fits.
+
+Is this the most current guide?
+
+Thanks for the upload."
+,Reodor1,2011-02-21T11:02Z,Har en Nuvi 360. Hvordan legge inn på den? Gjerne på norsk eller svensk

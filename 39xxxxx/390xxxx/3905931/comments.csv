@@ -1,0 +1,22 @@
+﻿User Type,Username,Date,Text
+,Bosch1,2007-11-23T20:10Z,"Love me some eschatlogical prophesy. Nice upload, C."
+,gsquared61,2007-11-23T22:43Z,"I can not tell you how much I appreciate this movie, I have been looking for it for ages. thanx."
+,radgegadgee,2007-11-25T23:00Z,"We're all doomed, I tell ye - doooomed!"
+,tko1,2008-05-23T09:57Z,Cool find! Thanks
+,miensch,2009-01-30T03:27Z,"Thanks a lot!
+
+This AVI file has audio/video synchronization error (mouth doesn't match speech). A/V delay adjustment during play doesn't fix it! The problem can be fixed by converting it to a MKV file:
+
+mplayer -dumpaudio ""The Late Great Planet Earth.avi"" -dumpfile audio.ac3
+mkvmerge -o TLGPE.mkv -A ""The Late Great Planet Earth.avi"" audio.ac3
+
+The mkv plays perfect!
+
+Video quality is nice. Audio quality is ok for vocal/narration (most of movie), but during moments of dramatic music the 64kbps audio rate can't reproduce the music well.
+
+Video: DivX 720x480 24bpp 29.97fps 1199.5kbps
+Audio: AC3 2.0 (stereo) 48kHz 64kbps
+Runtime: 1:30:57
+
+Nice old movie. Worth the download. :)"
+,Gnuber,2012-08-06T10:02Z,please seed

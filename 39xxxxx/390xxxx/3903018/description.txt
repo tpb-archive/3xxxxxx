@@ -1,0 +1,173 @@
+Exact Audio Copy V0.99 prebeta 3 from 28. July 2007
+
+EAC extraction logfile from 20. November 2007, 18:56
+
+Unknown Artist / Unknown Title
+
+Used drive  : TSSTcorpCD/DVDW TS-H552U   Adapter: 3  ID: 1
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : No
+Make use of C2 pointers : Yes
+
+Read offset correction                      : 12
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : No
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Not detected, thus appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 768 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:Program FilesExact Audio CopyFLACFLAC.EXE
+Additional command line options : -6 -V -T "ARTIST=%a" -T "TITLE=%t" -T "ALBUM=%g" -T "DATE=%y" -T "TRACKNUMBER=%n" -T "GENRE=%m" -T "COMMENT=%e" %s -o %d
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  3:37.05 |         0    |    16279   
+        2  |  3:37.05 |  3:17.07 |     16280    |    31061   
+        3  |  6:54.12 |  3:48.43 |     31062    |    48204   
+        4  | 10:42.55 |  3:10.30 |     48205    |    62484   
+        5  | 13:53.10 |  4:00.37 |     62485    |    80521   
+        6  | 17:53.47 |  3:03.05 |     80522    |    94251   
+        7  | 20:56.52 |  3:23.40 |     94252    |   109516   
+        8  | 24:20.17 |  3:53.00 |    109517    |   126991   
+        9  | 28:13.17 |  3:17.53 |    126992    |   141819   
+       10  | 31:30.70 |  2:56.20 |    141820    |   155039   
+       11  | 34:27.15 |  2:10.42 |    155040    |   164831   
+       12  | 36:37.57 |  3:59.68 |    164832    |   182824   
+
+
+Track  1
+
+     Filename G:CD RipFLACAvril Lavigne - The Best Damn Thing [Clean] (2007)Unknown Artist - 01 - Track01.wav
+
+     Peak level 98.8 %
+     Track quality 99.9 %
+     Copy CRC FD010261
+     Accurately ripped (confidence 20)  [BDB8276F]
+     Copy OK
+
+Track  2
+
+     Filename G:CD RipFLACAvril Lavigne - The Best Damn Thing [Clean] (2007)Unknown Artist - 02 - Track02.wav
+
+     Peak level 99.8 %
+     Track quality 100.0 %
+     Copy CRC 011AD626
+     Accurately ripped (confidence 19)  [9E84009E]
+     Copy OK
+
+Track  3
+
+     Filename G:CD RipFLACAvril Lavigne - The Best Damn Thing [Clean] (2007)Unknown Artist - 03 - Track03.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Copy CRC 0776479C
+     Accurately ripped (confidence 19)  [50E8A93E]
+     Copy OK
+
+Track  4
+
+     Filename G:CD RipFLACAvril Lavigne - The Best Damn Thing [Clean] (2007)Unknown Artist - 04 - Track04.wav
+
+     Peak level 99.8 %
+     Track quality 100.0 %
+     Copy CRC A817FC2B
+     Accurately ripped (confidence 19)  [DF2AE1D1]
+     Copy OK
+
+Track  5
+
+     Filename G:CD RipFLACAvril Lavigne - The Best Damn Thing [Clean] (2007)Unknown Artist - 05 - Track05.wav
+
+     Peak level 99.8 %
+     Track quality 100.0 %
+     Copy CRC 12511B9B
+     Accurately ripped (confidence 19)  [15260449]
+     Copy OK
+
+Track  6
+
+     Filename G:CD RipFLACAvril Lavigne - The Best Damn Thing [Clean] (2007)Unknown Artist - 06 - Track06.wav
+
+     Peak level 99.8 %
+     Track quality 100.0 %
+     Copy CRC F4298BD6
+     Accurately ripped (confidence 18)  [11269F58]
+     Copy OK
+
+Track  7
+
+     Filename G:CD RipFLACAvril Lavigne - The Best Damn Thing [Clean] (2007)Unknown Artist - 07 - Track07.wav
+
+     Peak level 98.8 %
+     Track quality 100.0 %
+     Copy CRC EA0FE8F4
+     Accurately ripped (confidence 19)  [A51750C7]
+     Copy OK
+
+Track  8
+
+     Filename G:CD RipFLACAvril Lavigne - The Best Damn Thing [Clean] (2007)Unknown Artist - 08 - Track08.wav
+
+     Peak level 98.4 %
+     Track quality 99.9 %
+     Copy CRC 6E221BAC
+     Accurately ripped (confidence 19)  [DAF87EFD]
+     Copy OK
+
+Track  9
+
+     Filename G:CD RipFLACAvril Lavigne - The Best Damn Thing [Clean] (2007)Unknown Artist - 09 - Track09.wav
+
+     Peak level 99.8 %
+     Track quality 100.0 %
+     Copy CRC 2D337FA9
+     Accurately ripped (confidence 20)  [251003F9]
+     Copy OK
+
+Track 10
+
+     Filename G:CD RipFLACAvril Lavigne - The Best Damn Thing [Clean] (2007)Unknown Artist - 10 - Track10.wav
+
+     Peak level 97.7 %
+     Track quality 99.8 %
+     Copy CRC 66A1DDED
+     Accurately ripped (confidence 18)  [D3FEDF7C]
+     Copy OK
+
+Track 11
+
+     Filename G:CD RipFLACAvril Lavigne - The Best Damn Thing [Clean] (2007)Unknown Artist - 11 - Track11.wav
+
+     Peak level 98.8 %
+     Track quality 100.0 %
+     Copy CRC 731545A7
+     Accurately ripped (confidence 18)  [1F5E5420]
+     Copy OK
+
+Track 12
+
+     Filename G:CD RipFLACAvril Lavigne - The Best Damn Thing [Clean] (2007)Unknown Artist - 12 - Track12.wav
+
+     Peak level 98.4 %
+     Track quality 100.0 %
+     Copy CRC 19A2B052
+     Accurately ripped (confidence 18)  [85437AC3]
+     Copy OK
+
+
+All tracks accurately ripped
+
+No errors occurred
+
+End of status report

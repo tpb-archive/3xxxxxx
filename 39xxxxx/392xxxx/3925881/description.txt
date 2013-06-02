@@ -1,0 +1,15 @@
+ConfigMagic-Xbox_v1.6-FINAL
+
+* You can see all content of your EEPROM
+* You can update your Xbox EEPROM in one of three ways
+-Using a valid EEPROM.BIN file 
+-You can "build" a new eeprom image from a configuration file
+-Edit your current, loaded (.bin) or built (.cfg) eeprom data "On-The-Fly" 
+* You Can Lock and Unlock your HDD with the password created from your XBOX EEPROM
+* You can create backup of your current eeprom, HDD password and various other settings.
+* Security features will not allow a "bad" eeprom update, or update eeprom if HDD is still locked..
+
+
+This software is for the original xbox, not the 360. This is especially useful in upgrading/repairing hard drives in softmodded xbox's. For those who don't know what the eeprom is, it's probably best not to mess with this program. you can kill your xbox with this if you don't know what you are doing. This is a super powerful tool and must be used with caution...
+
+Downloaded from Xbins

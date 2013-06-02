@@ -1,0 +1,83 @@
+﻿User Type,Username,Date,Text
+,ricardowingz,2007-12-14T04:07Z,"Is this babie from the same org, namely OSX, which released Leopard?"
+,Wintel1,2007-12-14T04:11Z,"0 seeds...
+Takes forever to get it. lol
+I have very fast net, but it´s slow as hell."
+,blackchungo,2007-12-14T10:24Z,im seeding it regardless what the seed couter says. Theres many peers that already have around 70 percent. By this afternoon is going to speed up
+,Core2All,2007-12-14T18:18Z,"It´s ok.
+Have you tired to update to 10.5, and later 10.5.1, from this 10.4.11 with EFI installed?
+If so, i would really like to know if that works well."
+,bossjjd,2007-12-15T04:46Z,I have a D-Link Network Card. What network driver do I select with this version?
+,Core2All,2007-12-15T22:01Z,"Well, after download, i burned the image with discutility, but when i tried to boot from the dvd, it says.. can´t find boot device and nothing happens.
+Great...
+Any info on this, blackchungo?"
+,blackchungo,2007-12-16T00:40Z,Have you tried any other x86 release? whichone one works with your system?
+,tazmania3,2007-12-16T01:52Z,"so can we upgrade with efi to leo 10.5 to 10.5.1 from 10.4.11 and should i do it with patch 10.5  os or from the retail dvd os
+pls help"
+,Core2All,2007-12-16T08:56Z,"All other releases out there works, and boots fine from dvd and takes me thru install. There must be some error on the image here as it won´t boot and go any further.
+Right now i use Koolkal 10.4.10 from JaS 10.4.9."
+,tazmania3,2007-12-16T09:11Z,core2all ive down it and burn it and it is bootable dvd all works fine so try to burn it with nero no disk uttility
+,blackchungo,2007-12-16T11:50Z,"the image is reported working for many PPL. check yours with the included MD5 checksum, burn angain (slower)... About updating to 10.5, I dont know, never done it."
+,Core2All,2007-12-16T23:20Z,"I used the discutility to burn the image in Koolkal 10.4.10. I always use that for burning images.
+There is no option to set the speed.
+Did you create the .ISO on Windows?
+I got the omage from here, and it had the correct MD5 checksum. Not sure exactly how others that got it working, burned it, or what happened to mine to stop in verbose mode."
+,Core2All,2007-12-16T23:23Z,"I will try again with Toast 8.0.3, and there slow down the burnspeed, and later get back to you if it works that way."
+,blackchungo,2007-12-17T00:41Z,the iso is made on OSX. what are your system specs? PM me to blackchungo@gmail. I think I have a solution 
+,alexandr_,2007-12-17T00:55Z,"Any ideas?
+
+!   D:\Download\XxX_10.4.11_Intel\XxX_OS_x86_10.4.11_Install_Disc_Intel.part13.rar: Packed data CRC failed in XxX_OS_x86_10.4.11_Install_Disc_Intel.iso. The volume is corrupt
+!   D:\Download\XxX_10.4.11_Intel\XxX_OS_x86_10.4.11_Install_Disc_Intel.part17.rar: CRC failed in XxX_OS_x86_10.4.11_Install_Disc_Intel.iso. The file is corrupt"
+,alexandr_,2007-12-17T01:09Z,"forget the previous post, it was corruption on my side. i removed and re-got part13 and it works, md5 checks and all"
+,Core2All,2007-12-17T01:41Z,"I will, blackchungo.
+I use the DP35DP Media Motherboard like many others.
+I appreciate your help."
+,Derty1,2007-12-17T21:01Z,"i have 10.4.10 install, its posible only use package 10.4.11 for actualizate. its package hacked???
+MacOSXUpdCombo10.4.11Intel.pkg or its original from apple.
+
+thanks"
+,blackchungo,2007-12-17T23:35Z,included original/unpatched apple combo update....
+,tazmania3,2007-12-18T07:28Z,"thanks for this great osx86 the best i use so far..
+:)"
+,blackchungo,2007-12-19T00:40Z,Intel only
+,kocoman,2007-12-25T21:02Z,Is this similar to the mac nub 10.4.10?
+,Jerk990,2008-01-14T01:42Z,"mac nubs worked really well with my comp, hope this does too i want .11"
+,rjnicko,2008-02-21T09:03Z,"How do you extract the file so it becomes a .ISO after I use winrar to extract the 17 files in one go a thing appears on my desktop quite massive when I unrar it is like only 142kb in size. I want to run OS X tiger on my macbook in vmware fusion, but my retail copy of tiger will not install, so can someone please get back to me thanks"
+,element_864,2008-04-13T20:48Z,how do you use the MD5 file and the rar files to put them together?
+,inteusc,2008-08-17T04:52Z,didn't download part 1 of rar files
+,inteusc,2008-08-17T05:01Z,but when i redownload the torrent i just picked the part1 rar
+,neilguk40,2008-09-17T14:39Z,"I downloaded what looks like lots of rar files, can nayone explain what I need to do now to create this OS Disk. Thanks"
+,Jts980,2009-04-22T00:51Z,Will I Be Able To Install This On A Compaq Evo n620c ??
+,PROTEOUS271158,2010-06-06T13:10Z,"This works perfect, updates all loaded fine too!
+
+( I had to do them one at a time, in their proper order, rebooting after each one. Starting with the java updates, then iTunes, then Quicktime, then Airport, finally the security last.)
+
+After the updates I had to reload the graphics kext pkg. from the disk, because when I tried to move a window it would show shadow tracers . To do this Place Install DVD in drive,double click to open when it shows up on the desktop.
+
+Go to : system / installation / packages , find what you need and install then reboot and it should work fine.
+
+My specs: Intel D 915PGN / GAV Board
+
+Pentium 4 HT 3.8 Ghz. with sse2, sse3, EMU64T
+
+3GB DDR Ram
+
+NVidia GeForce 9500GT 1GB DDR2 Graphics Card
+
+I chose only: Azalia sound kext,
+
+Apple 10.4.9 stock NVidia kext .pkg,
+
+Apple 8255x Network kext .
+
+Everything else I left as it was.
+
+Pleas note, this took 4 days to download because this is the only source and seeds are rare! The XxX OS X 10.4.11 .02 rev does not seem have the same stock Apple 10.4.9 kext .pkg needed to get the NVidia GeForce 9500 GT up and dancing like this does.
+"
+,PROTEOUS271158,2010-06-06T19:54Z,"I reloaded this 5 more times and each time it updated everything at once just like it's supposed to,and the graphics too! 
+I have no idea what I buggered up the first time but it's working A-1++ 
+
+Many,Many, Thanks blackchungo!
+
+Now I have TIGER, LEOPARD , XP ULTIMATE, VISTA ULTIMATE  AND  7 ULTIMATE ON ONE SYSTEM. 
+Onward to LINUX  I go !"

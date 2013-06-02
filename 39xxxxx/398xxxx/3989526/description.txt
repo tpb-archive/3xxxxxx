@@ -1,0 +1,14 @@
+Artist           : Liz Phair
+Title            : Exile in Guyville
+Genre            : Rock
+Source           : CD 
+Ripper           : EAC 0.99pb3 (Secure mode)
+Codec            : MPC
+Encoder          : mppenc 1.16
+Command line     : --quality 8 --xlevel --artist "%a" --title "%t" --album "%g" --year "%y" --track "%n" --genre "%m" --comment "by MarckoS" %s
+Bitrate          : VBR ~260kbps
+Mode             : Stereo
+Frequency        : 44100Hz
+Tags             : APEv2
+Team             : iPS
+Release Date     : 01/22/2008

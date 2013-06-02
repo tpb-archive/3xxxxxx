@@ -1,0 +1,118 @@
+﻿User Type,Username,Date,Text
+,Annon0,2008-01-04T14:54Z,"http://rapidshare.
+com/files/81180952/Fix.rar.html
+or
+http://www.megaupload.
+com/?d=5MXA9NPL "
+,brelix,2008-01-07T10:20Z,"Thank you sooo much for uploading this. It works perfect -- a 1 minute fix. I haven't tried it for Cubase 4 but it works perfectly for Cubase 3.1 on Windows Xp 64bit.
+
+
+I just switched to windows xp64 and I couldn't get cubase 3.1 working with TruEmu by h20. I swear I searched for at least 3 days before I found this."
+,Alex3305,2008-01-07T15:50Z,"Yes this works, I have it here. It didn't work for Cubase 4.0 for me, but the 4.1.1 update seems to work quite nice :D"
+,geekforever,2008-01-09T10:03Z,"r33p is right, that crack doesn't work so good, all new VST3 plugins don't work and it crashes a lot (much more than the uncracked Cubase)."
+,hamandsmoke,2008-01-09T19:11Z,"I am also running X64 Pro Edition. Tried to get this crack working with Cubase SX version 3.1.1.  Cubase starts up, however as soon as I select the target folder for a new project the program freezes.     I am using a AMD motherboard - I have been into the BIOS to try to turn off relative PowerNow! settings but I can't see them anywhere in the BIOS.   Below is the fault error reported in the Cubase log file.  Any help wo uld be greatly appreciated;
+
+---------------
+
+Exception code: C0000005 ACCESS_VIOLATION
+Fault address:  045A9B04 01:00008B04 C:\Program Files (x86)\Steinberg\Cubase SX 3\audioprimitives.opt
+
+Registers:
+EAX=00000000 ECX=00005620 EDX=19d2891d EBX=0bbefef8 ESI=0b0c3b10 EDI=  19d2891d
+EBP=0bbefebc EIP=045a9b04 ESP=0bbefeb8 CS= 00000023 SS= 0000002b Flags=00010202 
+DS= 0000002b ES= 0000002b FS= 00000053 GS= 0000002b
+
+Float Save:
+Control Word=  0000027f Status Word=   00004020 Tag Word=0000ffff
+Error Offset=  00000000 Error Selector=00000000
+Data Offset=   00000000 Data Selector= 00000000
+Cr0NpxState=   00000000
+
+Bytes at CS:EIP:
+f3 aa 8b 45 08 8b 7d fc 8b e5 5d c3 55 8b ec 6a
+ff 68 38 e2 5a 04 68 60 25 5a 04 64 a1 00 00 00
+
+Call stack:
+Address   Frame
+045A9B04  0BBEFEBC  CheckOptAudioprimitives+89C0
+045A1446  0BBEFF28  CheckOptAudioprimitives+302
+00B2DE18  0BBEFF48  0001:0072CE18 C:\Program Files (x86)\Steinberg\Cubase SX 3\Cubasesx3.exe
+00B75C2B  0BBEFF60  0001:00774C2B C:\Program Files (x86)\Steinberg\Cubase SX 3\Cubasesx3.exe
+00B1A50C  0BBEFFB8  0001:0071950C C:\Program Files (x86)\Steinberg\Cubase SX 3\Cubasesx3.exe
+7D4DFE11  0BBEFFEC  FlsSetValue+136
+
+"
+,mhashc,2008-01-14T02:35Z,"For x86, use this with:
+http://thepiratebay.org/tor/3943557/Cubase_Studio_4_Crack__amp__Update and install only CubaseStudio4.msi
+Get 4.1.1 update from:
+ftp://ftp.steinberg.net/Download/Cubase_Studio_4/4.1.1.749/PC/32_Bit/Cubase_Studio_Update_4.1.1.exe
+Apply the crack and it works fine for me.  Will test x64 when  get the installation files.
+
+Thanks for the upload!!!"
+,brelix,2008-01-14T04:36Z,"Ya hamandsmoke I keep getting the same error too. I thought it worked because it opened up and everything, but now I'm trying to record and am extremely bummed. The error has to do with cubase trying to access the syncrosoft protection. It keeps getting tied up in the asembler code.. its bullshit. This crack wont work properly for cbase 3. I don't know if it will work for cubase 4 though."
+,blaffe,2008-01-17T14:55Z,thank you. this is workin perfect :)
+,blaffe,2008-01-17T15:15Z,i take that back :(
+,mhashc,2008-01-18T03:03Z,"OK, I realize why it worked.  I had the H20 licence emulator installed with Cubae 3.1.1.  That's why when  installed Cubase Studio 4 with the 4.1.1 update and this crack, it worked and still is working.  I will try to create an installation package with all this in it.  In the meantime, you might want to try to find the 3.1.1 H20 version, download and install the files in my previous post above along with this crack.  Good luck!!"
+,blaffe,2008-01-18T09:54Z,"mhashc, any chance you can get it to work with 64 bit systems?"
+,NuDub,2008-01-18T15:15Z,"Thx for the Upload.
+It can works with Nuendo 4 ?
+
+Thank you"
+,chil3no,2008-01-19T18:18Z,Villken pogram ska man ha för o öppna den? what pogram for use that?
+,mhashc,2008-01-20T18:50Z,Forgot to say thanks for the torrent!!
+,mhashc,2008-01-23T02:35Z,"blaffe:  The 64 bit version is not available as I understand, only a preview version is available.  However, to get this to work on a 64 bit machine with Vista you must install Cubase 4 and update it to 4.1 or Cubase Studio and update it to 4.1.1 and put the crack in the respective folders as described below.  Cubase 4.1 works with this patch but crashes often, even when starting the application.  I have not tried Cubase Studio yet but when I do I will post the results."
+,Linkoon,2008-02-05T05:09Z,"Jag kör nu Win XP 64bit med Cubase 4 uppgraderat till Studio 4.1.1. Denna patchen gör sitt jobb. Men man missar alla VST3 pluggar, HALionOne funkar inte och Cubase crashar för ofta för att det ska vara roligt. Jag struntar i denna och går tillbax till SX 3.1.1. Ska bli intressant att se hur SX3:an funkar på XP 64bit."
+,Linkoon,2008-02-07T04:03Z,"Denna patchen funkar faktiskt oxå till Cubase 4 såg jag nu. (Alltså inte light-versionen Cubase Studio 4.) Kör nu Win XP PRO 32bit och Cubase 4 är fruktansvärt instabild. Du kan inte köra det mer än 4 minuter. Precis lika som det var för mig när jag körde Studio 4 på Win 64 bit. Den här patchen var ett gott försök, man kommer ju iaf in i Cubase. Men det är obrukligt! (Har även disabelat ""Intel Speed Step"" som det angavs i instruktionen)"
+,TranceDude,2008-02-17T19:18Z,Please answer me on this:) Theres a newer update for cubase (out two weeks ago)  should i update Cubase to it or should i ust take the one that was released before it?
+,SkippyTheBushLicker,2008-04-21T17:42Z,"@ mhashc: you don't need to install the 3.x version first at all. I installed the 4.0 and updated to latest official update form steinberg...which also answers TranceDude's question.
+
+seems the License Control Center doesn't install by default on the 4.0 version...but it installs with the 4.1.x MAJOR update and i then installed the minor latest updates last night. 
+
+works pretty good. recording without a problem. I'm on vista x64...anyone try the preview version of x64?"
+,SkippyTheBushLicker,2008-04-21T17:44Z,and you most DEFINATELY don't need an emulator running in the background. the synsoacc.dll fixes the license! sweet! :P
+,crazygoat,2008-05-11T15:20Z,you are a KING mate! it totally works!
+,SkippyTheBushLicker,2008-05-24T02:53Z,"@ annon:
+""Error relating to audioprimitives.opt:   Go to bios and disable Intel Speed Step""
+
+this doesn't work for me....i disabled it in bios and still had the audioprimitives.opt error. damn (vista x64)"
+,ApotheoZ,2008-06-04T13:10Z,Works realy great.
+,youshouldhaverun,2008-07-05T17:54Z,i tried this on vista 64 bit and win xp 32bit and it did work for both studio 4 and sx3 but became more and more stable as time went on so i reverted back to the truemu on my xp and still have no working solution for my vista 64 machine...this seems very promising hopefully the cracker makes an updated file ???
+,leonsaba,2008-08-19T18:03Z,"Hi,
+
+guys can you help me to find the crack for cubase SX 3.1.1 under Win XP 64bit? Neverone genius car resolve this problem? ;-) thanks a lot
+
+bye"
+,qkyqky,2008-10-04T21:44Z,"Nice one thank you. It works!! Im usin XP32 Cubase Studio 4. It's sooo coool!
+
+By the way I have metronome problem in Cubase Studio 4! Anyone can help!!!!!!!"
+,ratana,2008-12-05T11:37Z,"the patch worked great.. except i ran into one problem. with the h2o emulator gone, halion 3 wont work anymore for me...  keep getting File SYNSOACC.DLL does not have the expected interface error... anyone know what to do?"
+,Leenix20,2009-03-23T12:13Z,"I finally found the solution guys :) To Vista and XP 64 or 32 bit.
+
+1) Get this torrent. It is Zipped up all it needs is just to extract, and as small as hell, no more downloading those bullshit 1gb Cubase Torrents.
+http://thepiratebay.org/torrent/4212016/Cubase_Studio_4.1.1_by_Antony_GR_(Portable___Non-Install_version
+
+
+Then go here and Download the Asio4all Driver.
+It wil Reduce Latency on Which All Midi Works.
+Meaning if you use Ezdrummer as a trigger for your Electric Drums and have 1 Second delays, this is a MUST. Even if you dont have Edrums YOU MUST INSTALL IT.
+http://www.asio4all.com/
+
+
+Now for Ezdrummer.
+Get this Torrent, it Includes Both the Ezdrummer Installation and the Drumkit from Hell which is 100 times better than the standard Ezdrummer Kit.
+
+http://thepiratebay.org/torrent/4565497/ToontrackEZdrummer1.1.1-Mac-and-PC-with-DKFH-Full_with_Serial
+
+
+
+And Finally update Ezdrummer with this Patch, it will add a couple of new features in Ezdrummer and make a noticable sound fix to your drums.
+
+http://thepiratebay.org/torrent/3815569/EZ-Drummer_Update_1.1.1_-_PC_and_MAC_(Universal_Binary)
+
+
+
+No more need to look here and there for shitty torrents that dont work on Vista. THIS IS THE SOLUTION FINALLY. "
+,jy2009,2009-03-25T13:41Z,"hey guys, great torrent, have got cubase working, however, when i try and use the vst halion instruments, they do not make any sound whatsoever, how can I fix this? please get back to me asap!"
+,bitrich61,2009-12-17T06:10Z,fucking trojan with this file.......please upload clean one.... by the way this works great... thanks... but please upload new without virus....
+,isk2009,2010-01-09T21:25Z,does this work with hypersonic or any other steinberg products?
+,Chasden,2010-02-12T10:57Z,This got Cubase SX3 running on my new Windows 7 64 bit installation. Thanks!

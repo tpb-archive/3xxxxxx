@@ -1,0 +1,42 @@
+﻿User Type,Username,Date,Text
+,Lisa Hotleg,2007-12-27T19:02Z,"KeyGen don't work in Leopard. Someone else? Ides
+Lisa "
+[T],aladin4u,2007-12-28T05:54Z,"Yeah, ur right Lisa. im waitin for any reasonable comment from PROFETAS..."
+,ballju,2007-12-29T05:11Z,"KeyGen doesn't work on tiger (10.4 intel) as well, is it because the KeyGen is corrupted and suppose to be zipped or is it a problem with my computer?"
+,apfelman,2007-12-31T14:13Z,"I agree, keygen doesn't work on 10.5.1!"
+,ballju,2007-12-31T21:22Z,"the keychain works fine its just that you have to make it an executable application 
+
+Show package contents of ""KeyGen"", navigate to Contents -> MacOS ->keygen
+
+Open a terminal type:
+
+chmod +x [ and then path to keygen without the brackets]
+
+you can just copy the keygen file into terminal and it will output the location/path to keygen The Avernum torrent had the same problem http://thepiratebay.org/tor/3953369/Avernum"
+,Lisa Hotleg,2008-01-02T18:01Z,"ballju cool that did it thanks a millon
+Kisses
+Lisa"
+,rbbr17603,2008-04-17T12:20Z,I couldn't get it to work...followed instructions kept saying permission denied !!
+,fins.gd,2008-06-15T17:21Z,"try:
+
+sudo chmod +x path/to/keygen"
+,clark686,2008-09-07T06:46Z,"This DOES work.
+Here are the instructions in total 100% full for anyone struggling with getting it to work. If you like it you should go out and buy it, its worth it.
+
+Once you have copied the VST's/AU's to the Plug-Ins folder go to the keygen, right click and go to 'show package contents' then go to Contents -> MacOS -> Keygen
+
+Then, in a seperate window go to Applications -> Utilities and open the application called 'Terminal'
+
+Once you are in terminal type in chmod +x (followed by a single space) then go back to the window with the keygen file.
+Copy the keygen file and go back to terminal and paste it right where you had finished writing (after the space).
+It should look something like chmod +x User/Documents/Azureus/etc.etc.
+Then, hit ENTER.
+
+The keygen will now be able to generate the registration for you.
+
+Hope this helps anyway that was having any trouble."
+,clark686,2008-09-07T06:47Z,"PS. im running leopard, 10.5.4, logic 8. and it runs perfectly. so make sure you do it properly before you complain about it not working."
+,clark686,2008-09-07T06:50Z,pps. the keygen that you have to go to after you have done everything is the one at contents -> macOS -> keygen
+,ab1985000,2008-11-19T20:16Z,"plz seeed!
+thanks:)"
+,ab1985000,2008-11-20T13:31Z,"Super! after following clark686's instructions it works perfectly, will enjoy playing around with this.. Thanks again:-)"

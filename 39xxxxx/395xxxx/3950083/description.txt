@@ -1,0 +1,113 @@
+PowerArchiver offers hundreds of features, yet remains easy to use, small and fast. Novice users will find a familiar interface complete with tutorial and detailed help, while more experienced users can take advantage of full Explorer integration, multiple encryption methods and advanced compression algorithms.
+
+PowerArchiver is an award-winning archive utility for the WindowsÂ® family that provides support for most compressed and encoded files, as well as access to many powerful features and tools through an easy to use interface that seamlessly integrates with Windows Explorer. PowerArchiver creates and works with unlimited size ZIP archives with enhanced ZIP format speed and compression; a Password Manager stores your frequently used passwords; encrypts your archives using 5 different methods including 256-bit AES; back up your work with PowerArchiver's Auto-Backup tool and FTP support; creates powerful CAB and ZIP self extracting (SFX) archives using a Wizard; a Batch ZIP tool compresses hundreds of files all at once; and a Multi-Extract tool can extract hundreds of archives instantly.
+
+
+
+Complete Feature List:
+
+- Complete built-in support for 7-ZIP, ZIP, CAB, LHA (LZH), TAR, TAR.GZ, TAR.BZ2, BH, RAR, ARJ, ARC, ACE, ZOO, GZ, and BZIP2 file formats
+
+- Support for reading and extracting disc image formats: ISO, BIN, IMG and NRG
+
+- Built-in support for XXE, UUE, and yENC encoded files and full MIME (Base 64) support
+
+- Creating ZIP and CAB and PAE encrypted self-extracting archives using a Wizard interface
+
+- Support for unlimited size ZIP archives, with improved performance when working with 100,000+ files
+
+- Support for Deflate64, providing improved compression results (both size and speed)
+
+- Complete support for PKZIP 4.0 and PKZIP 4.5 disk spanning
+
+- Compression Profiles to store frequently used compression settings
+
+- Full support for ZIP AES encryption, 128-bit/192-bit/256-bit (supports: PKZip 5.1 (full), Secure Zip 8.0 and WinZip 9.0 AE-1 & AE-2) and proprietary PAE format using 5 different methods: Blowfish (128-bit), DES (64-bit), Triple DES (128-bit), AES 128-bit, and AES 256-bit
+
+- Support for AES encrypted 7-Zip archives and multivolume 7-Zip archives
+
+- Uploading archives or backups directly to FTP or SFTP (SSH) sites with multiple profiles supported and timeout option
+
+- Password manager for saving frequently used passwords
+
+- Tool for creating PBS backup scripts and running automated backups
+
+- Internal viewer that supports TXT, RTF, GIF, PNG, BMP, ICO, TIFF, GFI, SGI, EMF, WMF, PPM, Adobe Photoshop, Autodesk, Truevision, - ZSoft Paintbrush, Kodak Photo-CD, JASC PaintShop Pro, and Dr. Halo file formats
+
+- Many powerful archive operations (including: renaming files in archive, spanning archives, testing archives, viewing and writing comments, installing archives, and checking archives for viruses)
+
+- Drag and Drop from/to Windows Explorer and the Desktop
+
+- Two ways of viewing archives (Classic - all files in the same listing; Explorer - browsing through an archive like folders in Windows Explorer)
+
+- Complete integration with Windows (extracting archives and creating archives directly from Windows Explorer using powerful "Explorer Shell Extensions"
+
+- Ability to edit files within an archive using one single operation
+
+- Printing file listing to text file or HTML document
+
+- Tool for repairing corrupted ZIP archives
+
+- Converting between file formats (for example: changing a ZIP archive to CAB archive, or LHA archive to ZIP archive)
+
+- Extracting multiple archives at the same time
+
+- Batch Zip function to create multiple different archives at once
+
+- Favorite Folders to quickly locate archives
+
+- Powerful Find function for searching within an archive
+
+- Auto Update to automatically download and install new versions of PowerArchiver
+
+- Powerful help in HTML and a tutorial with pictures for beginners
+
+- Full skinning support via PSF files - includes interface skins, toolbar skins, icons and customizable application settings
+
+- Customizable toolbar that can be docked to any side of the application or float independently
+
+- Windows XP Theme and ClearType support
+
+
+
+Changes in PowerArchiver 2007 Version 10.11 [June.2007]:
+
+Improvements:
+
+* Added first configuration screen for interface selection
+
+* Added PA Starter option in Configuration
+
+* Changed Configuration interface to tabbed interface for better look and feel for older systems
+
+* Updated 7-zip engine to latest version
+
+* Updated Unrar engine to latest version
+
+* Updated Direct Skin engine to latest version
+
+* Other minor improvements
+
+Bug Fixes:
+
+* Bug #15: AV while closing PA in XP and Vista fixed
+
+* Bug #00: All toolbars being shown in Vista fixed
+
+* Bug #25: AV when doubleclicking on Word file fixed
+
+* Bug #19: Crash when adding hundreds of files to Queue fixed
+
+* Bug #13: D&D from archive to archive fixed
+
+* Bug #21: Error when rearranging columns fixed
+
+* Bug #23: AV when renaming files fixed
+
+* Request #00: Add check box for highlight selected column option
+
+* Request #14: Ability to use files inside PAE archive when we cancel password entry
+
+* Request #28: Added ignoring volume names in paths to fix incompatible zips
+
+* Other minor fixes

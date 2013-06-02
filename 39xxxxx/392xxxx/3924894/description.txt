@@ -1,0 +1,99 @@
+The Haikuware.com (http://www.haikuware.com) Weekly SuperPack is a preconfigured VMware image of the Haiku Operating System with a whole host of software installed on it for testing. 
+
+Haiku OS (http://haiku-os.org) is inspired by BeOS and is intended to be 100% compatible with BeOS when R1 is released. 
+
+***Installation***
+
+All you need to run this are the included files and a VMware product. You can get VMware Player or Server for free from http://vmware.com. 
+
+The apps.7z is the compressed vmware disk in 7-zip format. The haiku.vmx file is the vmware configuration file. Make sure both are in the same directory and double click the haiku.vmx file to run it.
+
+
+The disk image contains the following applications/stuff:
+
+Audio:
+Ai4
+ColdCut
+MeV
+Samplestudio
+Zenebona
+
+Books (PDFs):
+
+Practical File System Design
+Programming the BeOS
+
+Compression:
+Beezer
+
+Develop:
+BeIDE
+CheckItOut
+Clue
+CVS
+GCC-2.95.3-BeOS-061007
+Headers
+Jam
+JamMin
+MeTOS
+PackageBuilder
+PE
+SSH
+SVN
+Yab & YabIDE
+
+Drivers:
+Vlance network driver
+VMWare Graphics Driver
+OSS Sound
+es137x audio driver
+
+Emulators:
+BeQ
+BeYame
+ScummVM
+ZSnes
+
+Games:
+Maelstrom
+2HOT4U
+
+Graphics:
+eXposer
+Exposure
+Mojo (demo)
+Wonderbrush (demo)
+
+Internet:
+BeGet
+BePodder
+BeShare
+Firefox 2.0.9
+Jabber
+Mac File Server for BeOS
+NetPenguin
+Opera (demo)
+RobinHood
+SilverWing
+Transmission
+Vision
+RDesktop with GUI
+
+Office:
+BePDF
+GoBE Productive 2.0 (demo)
+OpenSum-It
+Inline Constructor (demo)
+
+Other:
+Be Converter
+BeeF
+BePC-Info
+Calc
+Filwip
+Graph
+SimpleBackup
+Some extra screensavers
+
+Video:
+VLC 

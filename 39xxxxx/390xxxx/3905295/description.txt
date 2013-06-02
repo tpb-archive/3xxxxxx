@@ -1,0 +1,74 @@
+Found this on usenet.
+Haven't tested it yet!
+
+If anyone knows why my FSX + Accell pack tells me my 8800GTS graphics card isn't compatible, please let me know! 
+
+
+***********************************************************************************
+******************************** PMDG 747-400X Crack ******************************
+***********************************************************************************
+
+Modified from the document provided by Maximus
+		 
+	
+
+How to install:
+
+
+PMDG 747-400X
+
+
+1. First install the PMDG 747-400 Queen of The Skies PMDG747_400_FSX.exe
+
+2. When installation process reaches page with validation button start EnableButton.exe program.
+
+3. Point mouse over "Next" button and click. Finish installation process.(Just wait for 10 to 15 sec before the installation begin)
+
+4. Now run the two files int the regfiles-folder and press "YES" this will add information to the registry.
+   (This regfile will add info to the registry for PMDG747-400X and the new Abraxis AntiTheft)
+
+5. Please do the lines below!
+
+------- PMDG 747-400 Queen Of The Sky ----------
+
+6. Open <FSX>SimObjectsAirplanesPMDG747-400Aircraft.cfg file and search for ---BEGIN SHA1--- string
+
+7. Add the following line: c2e80520102f0800e790160704de90760a1b3801. Now it should looks like:
+
+
+   //Do Not Alter the following line or your 747-400 may cease operating.
+   [AFDSAuth]
+   ---BEGIN SHA1---
+   c2e80520102f0800e790160704de90760a1b3801
+   ---END SHA1---
+   // Do Not Alter the above lines.
+   
+   
+Save Aircraft.cfg
+
+8. Open <FSX>SimObjectsAirplanesPMDG747-400FAircraft.cfg file and search for ---BEGIN SHA1--- string
+
+9. Add the following line: c2e80520102f0800e790160704de90760a1b3801. Now it should looks like:
+
+
+   //Do Not Alter the following line or your 747-400 may cease operating.
+   [AFDSAuth]
+   ---BEGIN SHA1---
+   c2e80520102f0800e790160704de90760a1b3801
+   ---END SHA1---
+   // Do Not Alter the above lines.
+   
+   
+Save Aircraft.cfg
+
+
+10. Finish
+
+
+Fly high & happy landings
+
+If you have any problems (displays are deactivated after about 5 minutes) please check that the authentication code
+is correctly inserted in the two aircraft.cfgs as described above and in the registry under HKLM/SOFTWAREAbraxisTheftTrackingMBXhtvx1
+
+
+

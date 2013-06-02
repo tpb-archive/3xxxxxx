@@ -1,0 +1,38 @@
+﻿User Type,Username,Date,Text
+,DrunkenMonken,2007-12-21T23:11Z,"Actually, the .zip version was downloadable, if slowly. I'll be seeding that one on and off for a while."
+,Devletor,2007-12-22T00:23Z,and you get it to run how without and img ?
+,DrunkenMonken,2007-12-23T13:25Z,"Well, this is why i suggest dling the .zip version, which seemed broken but which actually seeded after i tried dling it for a while.
+
+This is the unpacked files of that, which means that some registry magic or other isnt being done. When i play this, i dont need an image.
+
+I'm trying to hunt down what the difference is between my setup and people who have just copied the files. I'll get back to people. In the meantime, if your want the game, do try the .zip torrent."
+,DrunkenMonken,2007-12-23T13:35Z,"This is the contents of the file: ""setup.bat"" in the ziped torrent:
+
+@echo off
+cls
+mythxuha.exe x -d1 -o+ -y+ -vm+ myth.uha
+del myth.uha
+del mythxuha.exe
+mp3unpak.exe sound.pak
+del sound.pak
+del L3CODECP.ACM
+del mp3unpak.exe
+REPLWAVS.EXE *.(a)
+REPLWAVS.EXE *.he4
+del *.wav
+del REPLWAVS.EXE
+convert.exe moonbase.(a)
+del convert.exe
+del %windir%\hegames.ini
+copy hegames.ini %windir%
+setupreg.exe
+del setupreg.exe
+echo ---------------------------------------------------------------------------
+echo OK, all done. Enjoy another fine MYTH rip :)
+echo ---------------------------------------------------------------------------
+
+So, theres an unkown regestry setup being done, as well as the hegames.ini being copied to the windows dir. 
+
+I don't know how to fix this, so I'm going to stop seeding this torrent. If anyone wishes to get moonbase, there are other reasonably good torrents out there. I will be seeding the .zip one today, but only until tonight, at which point i leave for the duration of the holidays. I will resume seeding when i return."
+,KezOle,2007-12-29T13:40Z,"Could you direct us to this other .zip torrent? 'cos i can't seem to find it. and it'd be nice if someone could help fix this one, since i've already dowcloaded it."
+,KezOle,2007-12-29T13:54Z,"Scrap that. I found that if you copy the hegames.ini and the ""Moonbase"" config setings file to the WINDOWS directory, then run the game, it works fine. "

@@ -1,0 +1,154 @@
+ ____    __       __      __  __  __     
+/  _` /      /   __/ / /     
+  L         /     _    
+   ,__/    __         _    
+    /    L \  _/ _      
+    _    ____/  `___x___/ _ _
+    /_/    /___/   '/__//__/  /_//_/
+                                         
+          The PlastiKe's Wallhack    
+		  	
+?????(-????????????? About ?????????????-)?????  
+
+ Name........: PLWH
+ Real Name...: PlastiKe WallHack
+ Version.....: 1.3.1
+ 
+ Developed by: PlastiKe
+
+ Filesize..: 562595 bytes
+ MD5 Hash..: d534c8d0cd2408e5664b8f211fbb4112
+ SHA1......: e22abcad8f9c9c72d51cddad0c735351e11eda77
+ Encryption: XorSTR
+ Packer....: Yoda's Crypter
+ Protectors: Yoda's Protector
+
+?????(-??????????? Features ????????????-)?????  
+
+ + Menu Interfrace
+   -> have menu for enable/disable features
+
+ + XQZ Wallhack
+   -> wallhack all transwalls
+
+ + ASUS Wallhack
+   -> wallhack percent transwalls/players/wpns
+
+ + Crosshairs (6 differents)
+   -> six differents crosshairs in color
+
+ + LocalGlow
+   -> you playerhand is viewable on blue color
+
+ + NoFlash/NoSmoke
+   -> disable flashbang and smoke grenade effects
+
+ + NoSky
+   -> show sky texture on plain black
+
+ + Custom MenuBind
+   -> select your favorite key for open/close menu
+
+ + Informations
+   -> enable/disable cheat informations on cs screen
+
+ + Save/Load configuration on .ini
+   -> automatic save and load your cheat configuration
+
+ + Auto Update CRC32
+   -> on loader start, automatic CRC32 is changed to new
+
+?????(-????????????? Binds ?????????????-)????? 
+
+ Menu = Supr/Del (Default key)
+ Navigation = Arrows, Mouse Wheel
+ Selection = Arrows or Mouse clicks (Mouse1, Mouse2)
+
+?????(-????????? @ First run ???????????-)????? 
+
+ - Run to enable VAC1 & VAC2 Proof
+
+?????(-????????? Instructions ??????????-)????? 
+
+ - Run PLWH 1.3.1.exe
+ - Join Counter-Strike 1.6
+ - In Game press Supr/Del (Default key) for show menu
+ - Enable your favorites features
+ - Enjoy!
+
+** For edit menubind, open .ini and change value
+   plwh_menubind=148 to your favorite number key
+
+?????(-????????? Informations ?????????-)????? 
+
+ Not rename .exe/.dll/.ini or failed load cheat.
+ 
+ Please, dont edit credits or readme after 
+ cheat upload to your site. Thanks.
+
+?????(-??????????? Changelog ???????????-)????? 
+
+ v1.3.1:
+ added keylist.txt for config menubind on ini
+ added informations
+ added description in features on readme
+ rename executable
+ rename library
+ rename .ini
+ use different protector for library
+ use different packer for loader
+ added new cvars
+ others improvements :)
+ 
+ v1.3:
+ added 5 new crosshairs types
+ added localglow
+ new cvars
+ others improvements
+
+ v1.2.1:
+ added crosshair
+ new loader
+ crc32 autochanger
+ 
+ v1.2:
+ added .ini
+ added author on screen
+ autoenabled features
+ internal encryption
+ change cvars
+
+ v1.1:
+ added ASUS Wallhack
+ added NoFlash/NoSmoke
+ added NoSky
+ added Menu Interfrace
+ change binds
+ change cvars
+ new loader
+
+ v1.0.2:
+ update offsets
+ change cvar name
+ new gfx loader
+ new dll name
+ other improvements
+
+ v1.0.1:
+ plwh name in topscreen
+ change colors
+ new loader
+ new readme
+ fix errors
+ internal encrypt
+ and more...
+
+ v1.0:
+ release hack
+
+?????(-?????????? Disclaimer ??????????-)?????  
+
+ PLWH 1.3.1 has been packed&protected, use
+ different program for not detected by Antivirus
+
+                          

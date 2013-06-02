@@ -1,0 +1,41 @@
+﻿User Type,Username,Date,Text
+,Velibor,2007-12-14T22:20Z,"Nice work ATPLer.
+Everything you said happened to me this morning.
+Now, it works. Thank you for solution.
+In Toulouse, wher I go to simulator,
+Jeppview costs 525 euros, no update.
+By the way, wili you explain what I should
+do after first 50 days with strings in 
+chart.text file and on and on?
+ [CHARTS]
+Database_Begin_Date=2454378.5
+Database_End_Date=2454391.5
+Data_Spec_Version=2.3.1
+and
+[CHARTS]
+Database_Begin_Date=2454378.5
+Database_End_Date=2454498.5
+Data_Spec_Version=2.3.1
+will you explain meaning of figures?"
+,ATPLer,2007-12-15T06:51Z,"There are some numbers on the strings you mention, what is of interest to us is the 2nd line (Database_end_date=blahblah) . These numbers are actuallly days so as you can see i added number 107 (107 days) in the original file. I added this number because you must not go over 50 days to next update cause the program remains locked. So the program locks up if you go either to far into the future (more than 50 days) or if your charts get more than 50 days old. Magic number is 50 so you should update the charts.ini file yourself every roughly 100 days (-50 days  +50 days)
+Hope that helped, thanks for your kind words"
+,yoerilebon,2007-12-15T13:14Z,"Hi ATPLer,
+
+nice job!!
+but can you explain to me  where i have to change the number 50 but i don't understand your previous explaination with the nr 107, i cant see that. thanks in advanced!"
+,ATPLer,2007-12-15T13:34Z,"Velibor has posted the 2 charts.ini files in his comment here. The first one is the original and the 2nd the modified, which unlocks the plates. Notice the numbers in the 2nd line in both the files, the 2nd chart.ini is by 107 higher from the 1st, compare them and you' ll see it. Thats their only difference. That means that the database will expire 107 days later than the original thus avoiding the lock. I added 107 days because the database had expired about 50 days ago and by adding rougly 100, u go from minus 50 days to +50 days into the future. You cant go further into the future because if you add more days and exceed number 50, the plates remain locked. You can see what i mean when you start jeppview, the first message will be the status of you databases, both enroute and terminal, stating when they expired or how long till update etc etc. What is of interest of us is just the terminal database cause thats the one that locks up, thats the one that should now be within the range +- 50 days... Cant be more detailed than that guys, sorry, hope u have figured out what i did..."
+,Velibor,2007-12-15T14:06Z,"Everything understood, thank you.
+So, the best solution is to increase 
+number in the second string by 50.
+on the 03. February 2008. when license
+expires. So, instead of number 2454498.5,
+there would be 245548.5 (+50).For
+example, if I make correction on
+the 13. February 2008, there would be
+245558.5 (+10days for the difference +50
+days for timestopper, all included 60 days). Correct me, if I am wrong, please."
+,ATPLer,2007-12-15T15:13Z,"That's it Velibor, you got it. Although i believe that the charts will be viewable after the database expires for another 50 days after 3d of February. My best guess is that you will need to change the string again, adding 100 days, at the end of March, when it has expired for 50 days. I might upload a new charts.ini file then for those who dont get what needs to be done."
+,yoerilebon,2007-12-16T01:06Z,"Thanks for the good explaination ATPLer, now i got it. ;-) Keep up the good work."
+,rrsousa,2007-12-21T21:44Z,Thank you.
+,rozaniv,2008-02-14T01:28Z,Thank's a lot!!!
+,airlift,2008-02-18T10:20Z,Thanks. 

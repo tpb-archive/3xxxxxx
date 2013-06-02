@@ -1,0 +1,276 @@
+=== eComStation 2.0 RC4 README ===
+
+-=# The Christmas 2007 release #=-
+
+!!! WHEN TESTING BETA SOFTWARE, ALWAYS BE SURE TO HAVE A TRIED AND TESTED
+    BACKUP OF YOUR SYSTEM !!!
+
+Thank you for your interest in testing the latest version of eComStation 2.0.
+A great deal of effort has been made to improve the usefulness to the
+product. Please see the 'WHATSNEW.TXT' document for an overview of all
+changes.
+
+This product is available for download to all registered users of Software
+Subscription Services for eComStation.  For more information, please
+visit:  http://www.ecomstation.com/subscription/
+
+This release offers a number of improvements that we would like to have
+tested on a larger number of configurations.  These are:
+
+
+** Netware installation from CD1 **
+
+It is now possible to add Netware client support to eComStation, straight
+from the installation CD. This is especially important for those customers
+that have a Netware networking environment.
+
+
+** Preboot harddisk integrity check **
+
+There are several situations which may cause installation problems with LVM
+in the install process. In this release, it is possible to disable the
+integrity check at page 2 (miscellaneous) of the eComStation installer
+preboot menu.
+
+- PBR problems:  Set when either the 'hidden sectors' or the geometry fields
+in a bootsector do not match the position of the partition or the used
+disk-geometry.
+
+- CHS problems:  Set when the CHS-values in a partition-table for a
+  partition do NOT match the current disk-geometry used by the operating
+  system.  This may lead to error from (mini)LVM about the disk being
+  'corrupt'.  Another possible cause for this error is that if there are
+  any partitions present on a disk that have NO LVM information at all,
+  and are of a type that gets a default driveletter assigned in that case
+  (by OS2LVM.DMD/OS2DASD.CMD)
+
+- Boot problems:  Set when extended-containers are marked ACTIVE, when
+  multiple primaries are marked ACTIVE, or if any non-standard flagbyte
+  values are used in the partitiontable.  These errors MAY lead to the
+  system failing to boot properly!
+
+These will now be detected before the installer starts and an option to fix
+them is being presented.  If you choose not to fix them, you are not able
+to proceed the installation.
+
+This technology uses a custom DFSee 'engine' and should be safe, however,
+neither Serenity Systems International nor Fsys can be held liable for any
+damages that may occur to the data on your harddrive.
+
+
+** Harddisk volume resizing **
+
+This version has a custom DFSee engine that enables reliable RESIZING of FAT32
+and NTFS filesystems to allow shrinking an existing Windows installation to
+make room for eComStation on the same system.  While this functionality has
+been available in DFSee (and the OEM Engine) for quite a while, it was NOT
+considered reliable enough to offer to end users during eComStation install.
+Starting with DFSee release 7.12, and the OEM Engine based on that, the
+reliability of resizing has improved to the point where it can be used
+without hesitation for this purpose.  A Windows NTFS filesystem resized by
+DFSee will pass a subsequent Windows CHKDSK with NO ERRORS now. The engine
+included in RC4 is at level 9.04.
+
+The GUI to this tool has been updated and is now using a graphical interface.
+To invoke it, please select 'Paritition Resizing Tool' from the Installation
+Volume Manager which can be called during installation (choose 'New Volume'
+to start MiniLVM). It will take a while to complete loading, when done,
+please select Next to show the list of resizable volumes. If the list is
+empty, this means there is no suitable volume detected that has enough free
+space for it to be resized.
+
+The GUI has been updated to be more intuitive to the user and will only show
+resize panes when there is an actual volume available for resizing. If you
+know you have freespace available on your Windows volume, but they do not 
+show up, you can consider running (multiple times) "defrag" under Windows, 
+this will rearrange the file layout on disk and may yield in more space
+that can be actually freed up. The diskresizer now will show a progress 
+bar during resizing.
+
+If the entire disk is occupied by a Windows Vista preload installation,
+installation of eComStation will not be possible and the installer will 
+abort (the preboot integrity check will prevent further booting).
+You can create freespace on the drive by using the tools supplied by Windows 
+Vista to manage your disk. In 'FAQ.TXT' a small howto is included.
+
+
+** Bootable JFS **
+
+This release of eComStation contains the option to install the operating
+system on a JFS volume. The advantage of doing this is that the amount of
+diskcache is only limited by system memory (typically 10% of available
+memory is assigned)
+This increased cache size gives a huge gain in overall system performance.
+To install onto a Bootable JFS volume, you will have to select 'JFS' as
+filesystem type in the 'Format Volume' page of the installer.
+
+A number of analysis tools are available on the install CD:
+
+in ECSBOOTJFS
+
+cachejfs.exe   - query and set parameters of cache
+cstats.exe     - query usage of cache
+
+in ECSBOOTJFSDEBUG
+
+chklgjfs.exe - show results of last chkdsk
+dumpfs.exe   - dump internal structure of JFS
+logdump.exe  - dump current state of log to JFSLOG.DMP
+validfs.exe  - show current state of JFS
+xchkdmp.exe  - show results from chkdsk.new
+xchklog.exe  - dump results of last chkdsk to chkdsk.new
+xpeek.exe    - utility for interactive work with structure of JFS
+
+
+** Genmac 2.20 RC1 **
+
+This package provides generic driver support for several network interface
+cards under OS/2 and eComStation.  Moreover, Genmac is enabled to support WPA
+encryption with the Wireless LAN Monitor 3.x or better.
+
+Genmac and the Wireless LAN monitor will be installed when the appropriate
+hardware is detected by the installer.  If it is not detected, you can
+manually select the driver in the network installation dialog.
+
+Note:  only the selected driver will be copied onto your system, in order to
+prevent problems with the MPTS installer later on.  This may seem confusing,
+when you run MPTS in a later stage, it will not show all Genmac supported
+NICs.
+
+Version 2.20 rc1 of GenMac now supports the NETBEUI protocol.
+
+Version 2.20 rc1 of GenMac now offers suspend & resume on a limited set of network
+adapters (when used in conjunction with ACPI) - this is an *experimental* 
+feature. More details can be found in ecsdocgenmac
+
+Please note that UniAud has known problems with suspend & resume, so if you
+want to use this feature, you should not activate the UniAud driver currently.
+
+A full list of supported NIC chipsets can be found in 'WHATSNEW.TXT'.
+Support has been added to autodetect over 300 NICs that are using one of
+these chipsets.
+
+
+** ACPI & APM **
+
+Support for ACPI is available in this release.  The current version is 3.05.
+ACPI will be automatically enabled if appropriate hardware is detected.
+You can manually enable or disable ACPI support at page 4 (USB & ACPI)
+of the eComStation installer preboot menu.  Even if not installed, the
+corresponding documents are installed on your harddrive. You can find
+detailed information and testdocuments in ECSDOCACPI and ECSDOCAPM
+
+Several tests can be performed, please refer to ECSDOCACPITESTER.DOC
+and ECSDOCAPMTESTER.DOC
+
+When ACPI is installed, there is a number of utilities from the ACPI
+Toolkit you can use, see the list below:
+
+AcpiTree.exe            - Show ACPI tree
+ButtonJin.exe           - Wait press Power Button (as demon), GUI
+WaitButton.exe          - Wait press Power/Sleep button, VIO
+PowerOff.exe            - Power Off (immediate!!)
+SetGetThrtl.exe         - Get/Set throtlling CPU
+UpTime.exe              - Show uptime via PM Timer
+GetValue.exe            - Get current value from PM Timer
+AcpiIRQ.exe             - Show current IRQ routing
+IrqStat.exe             - Show IRQ calling statistics (SMP only)
+SetGetState.exe         - Get/Set frequency/power state
+EmbeddedEvent.exe       - Show events from Embedded controllers
+GetNotify.exe           - Show notify
+Thermal.exe             - Show temperature of thermal zone
+ScanPCI.exe             - Show PCI devices
+TmrTest.exe             - Test working of timer (testing IRQ0 timer 0)
+
+
+** multicore CPU support **
+
+This release supports the installation of eComStation on a MultiCore CPU
+computer. This includes Intel Core Duo , Core2 Duo and AMD 64 X2.
+To enable it, you can do so in the ACPI Wizard that is launched from the
+Post Installation tasks at the end of the installation. Alternatively you
+can start the ACPI Wizard at any time from the install/remove folder in
+the Local System folder on the desktop.
+
+The ACPI Wizard will try to determine your system configuration and set
+parameters accordingly. You can manually change them of course.
+
+Please note: many drivers are not SMP capable, which may cause
+instability or unexpected behaviour on your system.
+
+For more information please refer to ECSDOCACPIACPI_SMP.DOC
+
+
+** SMP support **
+
+It is also possible to install eComStation 2.0 RC4 on a regular SMP
+machine. You will have to activate it with the ACPI Wizard from the
+Post Installation Tasks wizard that is started at the end of the
+installation. This should enable you to properly finish installation,
+before activating the SMP feature.
+
+
+** Uninstall SMP support **
+
+It is possible to undo a SMP installation, for example because your system
+seems unstable or does not properly function with SMP activated. 
+For instructions on how to perform uninstallation, please refer to 'FAQ.TXT'
+in the root of the CD.
+
+
+** eComStation Virtual File System (Samba client support) **
+
+Samba is a SMB/CIFS protocols file and print sharing server/client set
+originally made for UNIX world to cooperate with corresponding Windows and
+OS/2 servers or clients.  eComStation has a native implementation of
+SMB/CIFS server/client set - IBM LAN Manager and IBM Peer.  These products
+have not been recently updated and may have some compatibility issues with
+modern Windows SMB/CIFS implementations.
+
+Serenity Systems International has reached an agreement with Blueprint
+Software Works for the inclusion of the 'eComStation Virtual File System'
+driver which provides support for Samba Client.  Currently a GUI to
+configure it is lacking, but an example of how to mount a Samba resource
+can be found in ECSDOCEVFSREXX
+
+** EVFS GUI **
+
+There now is a GUI that will make it easier to configure network access 
+using the Samba protocol. There is one big limitation though, the tool 
+cannot determine if a network connection was properly created - so it 
+will not provide sensible feedback on that, instead it will always 
+create a mountpoint which may be empty if the actual connection fails.
+The object for this tool is placed in the "Local Network" folder and is 
+called "Virtual Filesystem for SMB"
+
+
+== REPORTING ==
+
+To tell us your findings, please create a report at:
+ 
+http://www.ecomstation.com/support/rc4report/
+
+You are also welcome to join the TestTeam if you want to discuss this beta
+and future developments.  See http://ewiki.ecomstation.nl/TestTeam for
+more details.
+
+
+== DISTRIBUTION / CREATING CDS ==
+
+This product is provided as a downloadable ISO file, this is a raw CD image
+that you can burn on CD-R media.  For instructions on burning the CD image
+to CD please consult the PDF document howtoburncds.pdf in the same
+directory.
+
+The file to download is:  ecs20rc4_cd1_en.zip
+
+
+== REGISTRATION KEY REQUIRED FOR INSTALLING ==
+
+For the time being you can use the eComStation 1.2 (or 1.2R) key to install
+this release candidate of eComStation 2.0.
+
+
+(c) 2001-2007 Serenity Systems International
+
+[eof]

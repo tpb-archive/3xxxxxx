@@ -1,0 +1,13 @@
+﻿User Type,Username,Date,Text
+,Corpse_Inc.,2008-01-11T15:54Z,"WTF!!!????
+could you please tell me wtf is that? in english pleeeease!! cus i really don't know detuch o that langaje german whatever."
+,zeroathome,2008-01-11T19:26Z,"It's a broken Debian Image (not the image is broken, but the debian etch inside), it was made to teach an apprentice how to use linux and learn more about the base of the linux system. There are hardly any tools left, for ex. no init-Script, so it boots into initramfs, no shell...The goal is to make the system usable again: it should boot to a shell console, there should be a ssh server running, and it should deliver a website through a webserver listening on port 80.
+The rules:
+*No repair installation
+*No binaries, if you need tools, compile them from source
+*no debian package management (apt*)
+*you can use a live-cd to download stuff to the machine, not more
+
+i think thats it"
+,rahiim,2008-01-16T17:17Z,"Great idea, thanks. 
+Too bad the site is in German."

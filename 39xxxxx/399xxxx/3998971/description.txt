@@ -1,0 +1,42 @@
+Clean PCLinuxOS 2007 VirtualBox VDI
+
+Info:  
+http://veedee-eyes.homelinux.net:82/veedeeeyes/node/9
+
+[veeDee-Eyes] - More Virtual Machine Images available 
+http://veedee-eyes.homelinux.net
+
+VirtualBox:   
+http://www.virtualbox.org/
+
+
+System username/password:
+username:adminuser
+password:adminuser
+root/su password:adminuser
+
+
+VDI: pclinuxos-2007.vdi
+Source .iso: pclinuxos-2007.iso
+
+Creation Date: 01/27/2008
+VirtualBox Settings:
+version: 1.5.2/1.5.4
+ACPI:enabled
+IO APCI:disabled
+
+
+
+[veeDee-Eyes]   
+http://veedee-eyes.homelinux.net
+
+VDI images of pre-installed "Open Source" Operating System distros.
+
+Instantly run another operation system on your desktop in a window.
+
+
+Installation/Usage:
+-Download and install VirtualBox http://www.virtualbox.org/
+-Create a new Virtual Machine select the VDI file as the virtual disk
+-Start the virtual machine
+-Use the login information

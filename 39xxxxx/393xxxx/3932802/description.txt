@@ -1,0 +1,24 @@
+XxX_OS_x86_10.4.11_Install_Disc_Intel - Rev.1.0
+
+Finally, here is the goodone. Permission bug present in the previous 10.4.11 ISO posted at M.N. (do not download that one) is fixed...
+Added the requested ICH9 support, ALC889a audio, and fix minor bugs here and there...
+test on SSE2: YOU STILL NEED TO USE THE 8.9.1 KERNEL (included) ON SSE2 MACHINES!!!... but maybe sse2 users can find another working combination by themselves.
+
+Repacked for saving some MB downloads (1.5 GB compressed)
+
+
+
+This installer is based on the XxX 10.4.10 release.
+
+[IMG]http://img63.imageshack.us/img63/1984/installerdetailseq2.th.jpg[/IMG]
+
+It includes all the drivers, fixes and PPFs plus the following new features:
+
+-Apple 10.4.11 combo update; as optional choice, so you can still install 10.4.10 if you wish.
+-EFI patches by Netkas & ToH. With this patches and the right hardware you will be able to run
+unmodifyed Apple's stock kernels and most of the original kexts. More info at Netkas.org. Also allow you
+to use GUID partitions (original intel mac's partition scheme).
+-A few more drivers; G80 (nv8x00), NVInject, NVInjectGo, ALC880/850, Yukon 88E8053, etc.
+
+
+OSX hackintosh 10.4.11 x86	

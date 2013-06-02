@@ -1,0 +1,23 @@
+Trye┬┤d and with serial!
+
+And 16 different language!
+
+IMDB/Web Link http://www.cfos.de/speed/whatsnew.shtml/
+
+cFosSpeed 4.06 build 1353 -- 29-Oct-2007
+
++ Variable shaper will regain full speed quicker after it slowed down when
+congestion was detected.
+
++ Certian WLAN line status codes are no longer logged to trace file. This
+should help in keeping the trace file small and readable.
+
++ Some network adapters don't notify cFosSpeed about route changes. You
+can now notify it manually by the new context menu option
+"re-detect routes".
+
+x Historical maximum speeds no longer fall for the moment. It caused too
+much problems.
+
+x cFosSpeed window would stay open on a WAN connection even if you set it
+not to shape the connection. Fixed

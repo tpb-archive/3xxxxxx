@@ -1,0 +1,560 @@
+
+
+
+
+MediaMonkey 3.0.1.1124 RC6
+
+Audio EditorsMediaMonkey is a music manager and media jukebox for serious music collectors and iPod users. It catalogs your CDs, OGG, WMA, MPC, FLAC, APE, WAV and MP3 audio files. It looks up missing Album Art and track information via Freedb and the web, and includes an intelligent tag editor and an automated file and directory renamer to organize your music library. It includes a CD ripper, CD/DVD Burner, and audio converter for saving music, and manual or automated playlist editors for creating music mixes. Its player automatically adjusts volume levels so that you don't have continually fiddle with the volume control and supports hundreds of Winamp plug-ins and visualizations; or if you prefer, it can use Winamp as the default player.It also includes portable audio device synchronization that allows you to synch tracks and play lists with devices such as the iPod and other portable audio devices.
+
+Standard FEATURES:
+- Organize music and edit tags in your audio library with a powerful, intuitive interface
+- Automatically lookup and tag Album Art and other metadata
+- Manage 50,000+ files in your music collection without bogging down
+- Play MP3s and other audio formats, and never again worry about varying volume
+- Record CDs into OGG, MP3, FLAC and WMA files
+- Convert MP3s, OGG, FLAC and WMA files into other formats with the Audio Converter
+- Create playlists and music mixes quickly and easily to suit any occasion
+- Synchronize with iPods / MP3 players effortlessly and convert tracks on-the-fly
+Plus much more...
+
+Gold FEATURES:
+- Find music with advanced search functionality that digs through your collection to find tracks according to almost any criteria that you can think of. Search for Composer, Year, Beats per minute; find Lyrics, etc. and stop pulling your hair out trying to find music you know you have.
+- Customize your library by setting filters to display only Artists or Albums that match criteria that you set. For example, set a filter that causes Artists to appear in the tree only if they contain Albums that are currently available, and are of any genre other than 'Children'.
+- Encode unlimited MP3s without having to manually install a new MP3 encoder (the free version of MediaMonkey includes a time-limited LAME MP3 encoder. If you're so inclined, you can manually replace it with the free LAME encoder, or you can just upgrade to MediaMonkey Gold).
+- Catalog your physical CDs and use the Virtual CD feature to keep track of what CDs you own and at the same time see which subset of tracks from those CDs are copied to your hard drive. Instead of tracking your CDs and tracks separately, the virtual CD function gives you an integrated view..
+- Import and save audio tracks from Audio CDs and MP3 CDs with unprecedented flexibility using the Virtual CD. It allows you to sample tracks from various sources, select which ones you want to import, and then import and save the files in a single operation.
+- Create Previews, short samples of audio tracks, that you can use when trying to decide which audio files you want to add to your collection.
+- Use a Sleep Timer to play your music, gradually fade it over a set period of time, and then turn off your PC -- perfect for listening to tunes before you go to sleep.
+- Burn CDs at the maximum speed permitted by your hardware.
+
+All MediaMonkey Gold Features:
+- Audio / Music Manager
+- Media Player (play MP3, OGG, WMA etc.)
+- Equalizer / DSP Effects / Volume Leveler
+- Party Mode & Auto-DJ
+- CD Ripper: Encode MP3, OGG, WMA, FLAC
+- Audio Converter
+- Auto Renamer / File Organizer
+- Auto Tag Editor with Album Art Lookup
+- Find Duplicate Tracks and Missing Tags
+- Playlist Manager (auto music mixes)
+- Generate reports and statistics
+- Customization via scripts
+- iPod and MP3 Player Synchronization
+- Integrated CD/DVD Burner (Audio & Data) (up to 48x) (up to 4x)
+- File Monitor (automatically updates library)
+- Advanced Searches and AutoPlaylists
+- Advanced Portable Device Synchronization with on-the-fly format conversion
+- Unlimited MP3 encoding
+- Virtual CD / Previews
+- Advanced Filters
+- Sleep Timer
+
+Changes in version 3.0:
+2704 Added Vista compatibility for CD playback
+2754 Added new themeable player (via msz files)
+2389 Added adjustable font sizes in Themes (for Media PC themes)
+2583 Added new status bar framework which conserves space
+2360 Added new client-side framework for easy installation of scripts (via mmip files)
+2399 Added lightweight db (sqlite) for improved performance and reliability
+0848 Added ability to display all fields in the Tracklist
+1856 Added podcast reader (configurable directories and podcasts)
+2253 Added My Documents in the Locations node (needs more work for Vista)
+1313 Added iTunes style browser
+2699 Added in-tracklist editing of ratings
+2524 Added Send-to email
+2366 Added the ability to add new folders via Drag and Drop
+1273 Added ability to sort the Now Playing list
+1273 Added undo capability for changes to the Now Playing list
+1988 Added Files to Edit > Unlevelled tracks
+2623 Added track selection via spacebar to better comply with accessibility requirements
+0104 Added ability to see which playlists a track belongs to
+1797 Added empty winamp.exe file to install directory to facilitate winamp plugin installs
+2614 Added themeable text to better highlight Burn Wizard warnings
+1445 Added ability to burn audio across multiple Audio CDs
+2373 Added auto-conversion for CD Burning (e.g. convert Flac on the fly for an MP3 CD)
+2242 Added optional warnings to appear in burn wizard when when burn path > 64 characters
+2416 Added delete original files option to burn data disc wizard (for archival purposes)
+2374 Added 'cache files from network' option for safer burning of non-local files
+2521 Added ability to delete tracks in audio cd burn wizard
+2173 Added unicode support for disc burning
+2072 Added verify disc function for burning
+2371 Added much faster audio CD burning via on-the-fly track preparation and larger buffer
+1746 Added warning to prevent scanning of a directory containing the Virtual CD
+2772 Added option to add tracks to the library on conversion
+0097 Added automated volume analysis (optional)
+1330 Added Album Gain support
+0849 Added ability to edit volume leveling values
+2659 Added Micro-Monkey player upon minizing to Tray (currently 'MediaMonkey Desk Player')
+0351 Added configurable hotkeys with Global hotkey support
+2476 Added remember last node when closing
+2505 Added hibernate and sleep options to Sleep function
+2180 Added auto-generation of debug logs if MM crashes
+1448 Added AAC playback (requires Quicktime)
+0117 Added native crossfade support
+2545 Added silence removal
+2678 Added playback position is bookmarked based on Genre
+1380 Added advanced search for 'unknown' fields
+2645 Added advanced search for last synched date
+1987 Added advanced search for contained in playlist
+2335 Added logical operators for quicksearch (' '=AND, ""=exact, ';'=OR)
+0096 Added basic logical operators for advanced search ('Any'/'All)
+1449 Added AAC tagging
+1545 Added improved support for classical music (help file to be updated)
+1633 Added global album art configuration settings / improved album art management
+1633 Added support for saving Album Art as folder.jpg globally
+2667 Added Album Art tagging in FLAC files
+2750 Added replay gain support for WMA tags (previously only in DB)
+2730 Added Album Art tagging in OGG files
+2773 Added linked Album Art locations to FLAC tags
+0956 Added WM9 encoding (lossless, Pro, speeach, VBR, CBR-2 Pass, etc)
+2605 Added multiple genres support to ID3 tags
+2440 Added Send-to My Documents
+2147 Added ability to import ratings from jRiver
+2655 Added synch support for iPod Gapless mode
+2231 Added auto-synch should display number of tracks being deleted
+1949 Added synchronization gives more control over auto-generated playlists
+2107 Added synchronization config allows user to define formats supported on a device
+0714 Added support for multiple Genres, Artists, Albums, CDs
+1796 Improved database is stored to Application data instead of My Music
+1627 Improved associated file types are not set to 'MediaMonkey file'
+2490 Improved burn priority set to High for on-the-fly, and uses default thread priority otherwise
+2378 Improved default burn data disk format masks
+2212 Improved CD-text usability in the Audio CD wizard
+1132 Improved configuration in volume leveling screen (needs more work)
+0519 Improved Tooltips behaviour (needs more work)
+2731 Improved layout and icons
+1807 Improved Auto-tag from Amazon to better display changed tags
+2415 Improved Auto-organize with addition masks
+2664 Updated to LAME 3.97
+2737 Updated FLAC to 1.1.3
+2694 Updated Microsoft Windows Media components
+2506 Fixed MediaMonkey doesn't work well in multi-monitor environments
+2377 Fixed Window Positions not persisted when application is closed
+2685 Fixed settings don't persist if application is abnormally terminated
+1437 Fixed switching from Winamp back to MM player should trigger Now Playing list to appear
+2572 Fixed odbc errors when searching using Chinese characters
+2715 Fixed scanning status bar shows track prior to the one actually being scanned
+2760 Fixed MediaMonkey can add duplicate entries when a drive is switched from IDE to USB
+2643 Fixed MediaMonkey isn't correctly associated with tracks in some environments
+2672 Fixed config settings can sometimes be saved to C:\My Music
+2695 Fixed file lengths reported incorrectly when headers are incorrect (e.g. MusicMatch rips)
+2593 Fixed Audio CD is closed even if 'Allow further writing' is enabled
+2575 Fixed if burner/disk fails to initialize, no error message is given
+2560 Fixed progress bar shows 'Burning .m3u file' when burning a Single Data file
+2550 Fixed non-Gold user cannot click burn if CD/DVD isn't inserted
+2549 Fixed Send-to disk has CD/DVD as an available option
+0210 Fixed Drag and Drop / Cut & Paste disabled for virtual CD
+2460 Removed Virtual CD queue (playlists serve the same function)
+2786 Fixed newly added/converted tracks fail to trigger a refresh of the current view
+2751 Fixed leveling RVA2 ID3 tags written incorrectly
+2692 Fixed leveling RVA2 ID3 tags from Foobar not read correctly
+1421 Fixed tracklist scrolls horizontally unnecessarily in some cases
+2280 Fixed focus shifts when tracks are added/removed from the view
+0266 Fixed Location/Network node shouldn't appear unless tracks are contained within
+2526 Fixed wheelmouse works backwards if configured to scroll page at a time
+2512 Fixed tray 'restore' function when MM is in foreground causes 'Now Playing' to become hidden
+0946 Fixed clicking a Tree shortcut sometimes cause node to display at the bottom of the window
+0700 Fixed <Shift><Delete> should trigger permanent deletion without prompting for choice of method
+0021 Fixed empty tree nodes should not have a '+'
+0945 Fixed Now Playing transparency stops working after MediaMonkey is restored
+1127 Fixed Now Playing transparency blocks confirmation dialogs
+0905 Fixed Now Playing doesn't always show the upcoming track
+2767 Fixed folder selection dialog can trigger AV, and is slow
+2489 Fixed usability issues in folder selection dialog
+2548 Fixed invalid MPP files can trigger an access violation
+2815 Fixed track never ends after switching back from party mode/full screen
+2680 Fixed playcount algorithm should only mark tracks as played when fully played
+2726 Fixed playcounts are increased when tracks are paused
+2718 Fixed MP3 input plugin introduces slight gaps
+1670 Fixed editing tag of currently playing track can lead to 5-10 seconds of repetition
+2711 Fixed player timer is stuck at zero if set to count down on a radio stream
+0124 Fixed changes in equalizer setting during playback cause audio artifacts
+2632 Fixed misc issues with MediaMonkey / Winamp integration
+2452 Fixed Auto-DJ performance issues
+2674 Fixed copy & paste of autoplaylists doesn't always work
+1966 Fixed duplicate detection doesn't give any feedback if no duplicates are detected
+2738 Fixed faulty tags in some wave tracks cause them to always remain in unsynchronized tags
+2778 Fixed wave tags written by EAsy CD-DA extractor cannot be modified
+1765 Fixed auto-tag from Amazon generates incorrect artist info for Various Artist CDs
+2165 Fixed My Computer node infers properties of tracks that are already in the DB
+2241 Fixed multiple Album Art windows can open for a single file and retain focus incorrectly
+2696 Fixed File Monitor adds tracks in 8.3 format on FAT filesystems
+2687 Fixed volume leveling information isn't read from LAME info tag
+2434 Fixed Volume leveling peak info not stored to MPC tags
+2621 Fixed auto-organize tries to organize all checked files even when no change is required
+2631 Fixed corrupted MP3 tags are read very slowly
+2499 Fixed tagging of tracks in tagging queue can cause damaged Album art
+2386 Fixed Auto-organize of large number of tracks leads to an apparent UI freeze
+2582 Fixed wording of auto-increment script
+2646 Fixed scripting bug: SDB.UI.NewEdit.ControlName = SDB.UI.NewEdit.Text
+2782 Fixed MTP synchronization: wmdm driver doesn't delete empty directories
+2781 Fixed MTP synchronization: wmdm driver doesn't synch album art from My Computer node
+2276 Fixed synchronization: iRiver H Series inaccurately named
+
+Homepage - http://www.mediamonkey.com
+
+Size: 6.35 MB
+
+Name: CrA86
+Serial: 11112INF33334444555YJB16R6Y7
+
+
+
+
+
+
+Mobile Master Corporate 7.0.1 Build 2699
+
+MiscellaneousMobile Master is a Cell phone and handset manager for Windows and synchronizes with a few mouse clicks your contacts and appointments between the handset and your computer. Edit and synchronize calendar entries (appointments and tasks).
+Send, read, archive SMS Note: the SMS Servant is included in the Mobile Master installation but requires an extra license. Logo-Editor, modify ring tone. Copy Station for transmitting your address book easily from one phone to the other. Mobile Master Agent: reach always the important functions easily and start e.g. Mobile Master automatically as soon as your mobile phone is connected to the PC.
+
+* One click synchronization solution for your mobile phone, edit all you phones data with the computer. Synchronization of contacts and the calendar, Many filter possibilities, AddIns for Outlook, Lotus Notes, Palm Desktop and Thunderbird
+* Mobile Master synchronizes or just copies all data with/to your mobile phone.
+Synchronize with: Outlook, Lotus Notes, Novell Groupwise, Palm Desktop, Thunderbird, Tobit David, Eudora, The Bat, Outlook Express, Google calendar, Windows contacts and calendar, iTunes
+* new cell phone: Mobile Master copies the phone/address book from your old to your new one regardless the manufacturer of the phones new phone number, appointment or note: type it in with your PC and send it easily to the cell phone.
+* Many import and export filters, e.g. one click to export to excel or open office. Can import e.g. vcf file with more than one contact and that has unicode format
+* Connection with the phone: serial or USB cable, infrared or Bluetooth, up to COM Port 300 supported.
+
+Features:
+- Mobile Master is a handset manager to edit manually or synchronize automatically or on demand
+- Quick area for quick and easy access to the main functions
+- Comfortable editing of the phone book, calendar and note items
+- easy to use user interface
+- Setup Wizard for easy configuring
+- Copy files, >music, photos
+- SMS send, archive
+- Copy the address book, calendar from one phone to another
+- At least one update per month for the phones and devices
+- Copy play lists from iTunes and WinAmp to the phone
+
+Supported mobile phones and devices:
+- Apple iPod:iPod Video, iPod nano
+- LG: KG800 Chocolate, KG320S
+- Motorola: RAZR V3r, RAZR V3i, SLVR L7, SLVR L6
+- Nokia: Nokia 6233, Nokia 6270, Nokia 6280, Nokia 6230, Nokia 6230i, Nokia 6220, Nokia 6210, Nokia 6200, Nokia 6100, Nokia 6310, Nokia 6310i, Nokia 6820, Nokia 6822
+- Sony Ericsson: W880i W880 W710i W710 Z710i Z710 Z610i Z610 K800 K800i K800 W900i W900 W850i W850 W810i W810 W800i W800 W700i W700 W550i W550 W500i W500 W300i W300 D750i D750 K750i K750 K700i K700 K610i K610 K600i K600 K510i K510 K500i K500 K300i K300 F500i F500 S700i S700 T610i T610 V800i V800 V600i V600 Z600i Z600 Z550i Z550 Z520i Z520
+- Samsung: Samsung SGH-P310, Samsung SGH-P300, Samsung SGH-D900, Samsung SGH-D830, Samsung SGH-D820, Samsung SGH-D800, Samsung SGH-D600, Samsung SGH-D520, Samsung SGH-D500, Samsung SGH-E900, Samsung SGH-E850, Samsung SGH-E800, Samsung SGH-E770, Samsung SGH-E760, Samsung SGH-E730, Samsung SGH-E720, Samsung SGH-E700, Samsung SGH-E620, Samsung SGH-E610, Samsung SGH-E570, Samsung SGH-E530, Samsung SGH-E500, Samsung SGH-E380, Samsung SGH-E370, Samsung SGH-E350, Samsung SGH-E250, Samsung SGH-X830, Samsung SGH-X820, Samsung SGH-X800, Samsung SGH-X700, Samsung SGH-X670, Samsung SGH-X660, Samsung SGH-X640
+- Siemens BenQ: BenQ Siemens EL71, BenQ Siemens E61 , BenQ Siemens S88, BenQ Siemens S68, BenQ Siemens E61 , Siemens S75, Siemens SL75, Siemens CX75, Siemens CF75, Siemens C75, Siemens M75, Siemens ME75, Siemens CX70, Siemens M65, Siemens M56, Siemens S65, Siemens SL65, Siemens SK65, Siemens CX65, Siemens S56, Siemens S55, Siemens M55, Siemens SL55
+and more...
+
+Changes in Version 7.0.1 build 2699 | 20.12.07:
+* New Features:
+o added support for the Nokia N95, Nokia N81, Nokia N76, Nokia E51, Nokia 6110 Navigator and Nokia 7600 Express Music
+o now 2 addresses are supported for the S60 devices (Nxx, Exx and others)
+o Filter for the calendar:
+- now working when synchronising with Tobit David
+- now working for appointments in the phone that should not be synchronized to the PC.
+o improved serching connected handsets
+* Fixed bugs/solved problems:
+o fixed problem: Analyzer did not work with Nokia phones
+o fixed bug: work phone number was not stored in the Sony Ericsson K850i
+o fixed problem: special filter was not stored for Outlook contactfolders with long paths.
+o fixed problem with tabs in the description or subject in appointments and tasks
+o fixed problem sending SMS with the Nokia 6230i (and others)
+o fixed problem (re)installing the AddIn for Outlook 2007
+o fixed problem with finding the COM port for paired Bluetooth devices
+o fixed crash at the end of the setup wizard
+
+Homepage - http://www.mobile-master.com
+
+Size: 14.2 MB
+
+
+
+
+
+
+
+Norman Malware Cleaner: Built 2007/12/21
+
+Anti-VirusNorman Malware Cleaner is a Norman program utility that may be used to detect and remove specific malicious software (malware).
+Note that it should not be used as a substitute for running normal proactive antivirus protection, but rather as a reactive tool to handle systems that are already infected.
+
+By downloading and running the program below it will clean an infected system completely:
+* kill running processes that are infected
+* remove infections from disk (including ActiveX components and browser helper objects)
+* restore correct registry values
+* remove references created by malware in hosts file
+* remove windows firewall rules for malicious programs
+
+Norman Malware Cleaner covers cleaning of all known variants of the following families up to (2007.09.24) :
+* Agent
+* Bagle
+* Blaster
+* BZub
+* Cimuz
+* Dloader
+* Dumaru
+* Feebs
+* Haxdoor
+* JS/Small
+* Lovgate
+* Mitglied
+* Mydoom
+* Mytob
+* Navipromo
+* Netsky
+* Newdotnet
+* OnlineGames
+* Renos
+* Rootkit
+* Sasser
+* Sdbot
+* Sircam
+* Small.KI
+* Smalltroj
+* Sober
+* Sobig
+* Spyaxe
+* Spybot
+* Spywad
+* Startpage
+* Stration
+* Swen
+* Tibs
+* Yaha
+* Zafi
+* Zlob
+* Zotob
+
+Note:
+- To give Norman Malware Cleaner the best working conditions possible, we recommend that you start the computer in Safe mode before running the program. To do this, tap the F8 key on your keyboard during startup, before Windows starts, and select Safe mode from the menu that appears.
+- Pressing the F8 key at just the right time may be a little difficult (after the firmware POST process completes, but before Windows displays graphical output). If the F8 method does not work, repeat the procedure, but press the F8 key more quickly, or press it several times.
+- On some (older) computers, the F8 key method may not work. In these Windows versions you may also configure your computer to start in Safe mode through the System Configuration Utility (msconfig).
+- In some cases Norman Malware Cleaner may require that you restart the computer to completely remove an infection
+
+Supported operating systems are: Windows 98, Me, NT, 2000, XP and 2003
+
+Homepage - http://www.norman.com/Virus/Virus_removal_tools/en
+
+Size: 13.9 MB
+
+
+
+
+
+PicturesToExe creates slide show in stand-alone EXE file. 
+
+Using a clean-looking, intuitive interface, you select pictures from any combination of folders on your system. Then press the Create button. In just moments, you've produced an .exe file that, when run, displays the images with the options you've selected. Options let you specify automatic or manual sequencing, pick the timer interval, adjust font and background properties, and decide whether you want the sequence to run once and terminate or to repeat continuously. You can also add a MIDI, or MP3-based soundtrack and associate each picture with a .wav file. PicturesToExe is a nice way to share your favorite images with others in a compact, easy-to-email form. Ability to create AVI video file.
+
+PicturesToExe has simple and intuitive interface, so creating of a slide show is very easy. All you have to do is choose some images and add music. Slide show has sharp and clear picture and very smooth playback of Pan/Zoom effects you have ever seen. You can place objects (images, text labels with drop shadow) on a slide and customize complex animation. Moreover, it's possible to use various cinematographic transition effects between slides, add background music, add sound file and text comment to a slide.
+
+And ability to exactly synchronize show of slides to music. VideoBuilder in PicturesToExe Deluxe edition allows quickly and easily burn DVD-Video disc with your slide shows. You can adjust DVD menu and customize many parameters of your DVD disc. Ability to create AVI video file. If it is necessary, you can protect your slide show by password and assign expiration date. No additional programs (including PicturesToExe itself) are needed to run resulting slide showâ??only produced stand-alone EXE file. Slide show will work under Windows XP, Vista, 95, 98, Me, 2000, 2003. Burned DVD-Video disc in PicturesToExe Deluxe can be played on any DVD player, on PC or Mac.
+
+MAIN FEATURES:
+â?¢ PicturesToExe produces single EXE file which contains all pictures and music.
+â?¢ PicturesToExe Deluxe can burn DVD-Video disc with slide shows.
+â?¢ Pan/Zoom/Rotate effects for images.
+â?¢ Powerful editor of objects of a slide with possibility to adjust complex animation.
+â?¢ You can add buttons or text labels with drop shadow and glow to a slide.
+â?¢ Cinematographic transition effects between slides.
+â?¢ Show of slides can be exactly synchronized to music on the timeline with waveform.
+â?¢ Slide show has built-in player for high quality MP3 and OGG playback. Also it supports WMA, WAV and MIDI music playback.
+â?¢ Ability to create screen saver.
+â?¢ Navigation bar in slide show.
+â?¢ Easy solution for creating of greeting cards.
+â?¢ Ability to create AVI video file.
+â?¢ Support of multi-select and visual drag-n-drop between file panel and Slide list.
+â?¢ Support of sound comments to slides (MP3, OGG, WMA or WAV).
+â?¢ Images can be in JPEG, PNG, GIF or BMP format.
+â?¢ Ability to rotate pictures (lossless algorithm).
+â?¢ Every slide can be individually customized with own time, effect, background, and etc.
+â?¢ And a number of another features.
+â?¢ Support for English, Russian, Netherlands, Italian, Swedish, Hungarian, Slovenian, German, Catalan, French, Spanish, Arabic, Romanian, Chinese, Brazilian Portuguese, Danish, Czech, Ukrainian, Slovak languages.
+
+Key features of version 5:
+â?¢ New graphical engine which uses all power of your video card.
+â?¢ Burning of DVD-Video disc with your slide shows right in PicturesToExe.
+â?¢ Pan/Zoom/Rotate effects in real-time with high quality. Sharp picture and smooth animation. Special option â??Perspective correction for Zoomâ?? to reach natural looking zooming.
+â?¢ Completely new editor of objects and animation. Proportionally scalable objects. Improved Text objects, drop shadow or glow can be applied for any object. Seven skins for Button objects.
+â?¢ New cool view of Navigation bar.
+â?¢ Tree of folders in main window of PicturesToExe.
+â?¢ Improved quality of music player.
+â?¢ Improved support of Windows Vista (in main program of PicturesToExe).
+â?¢ PNG images support.
+
+Changes in PicturesToExe Deluxe 5.1:
++ VideoBuilder:
+> Encoding of DVD-Video disc (and AVI) works in 2-4 times faster now due to optimization for dual-core CPUs and using of hardware acceleration for video post-processing (if modern video card installed). Exactly same video quality as in previous version.
+> You can choose a number of items per page in DVD menu.
+> MPEG2 files can be added to a project. For example, you can encode your slideshow(s) to MPEG2 video file(s) and then use it again in new projects without re-encoding of it again.
+> Music for DVD menu (with "Fade in" and "Fade out" parameters).
+> Color adjusting of DVD menu (Hue, Saturation and Lightness). It allows very quickly modify a view of DVD menu and find your own individual style.
+> Adjusting of a background image parameters (Tile, Stretch, Fit)
+> Support of all kinds of AVI files imported to a project (including AVS video file scripts).
+> A new tab in the Project options window - "Program" (customizing of priority mode for encoding and temp folder).
+* More exact calculation of required disc space.
+
++ "Wait for a key press to show next slide" option in Project options available again. You can overwrite global value in a properties of a slide.
++ Adjusting of colors for Text/Button objects in hover and pressed states activated again.
++ PicturesToExe starts much faster now.
++ Timeline window remembers current position of a cursor and selected keypoint when you switch between Timeline window and main window of PicturesToExe.
++ Added support of multi-line default text comment for all slides (Project options | Comments tab).
++ Visual improvements in Music tab of Project options and Customize slide windows. You can visually re-arrange files in the playlist.
++ Slide list shows a hint what to do, when no slides added.
+
++ Added "Offset" parameter to "Advanced hour hand" effect in properties of a slide.
++ Small improvements in Create AVI file window (it displays filename of created AVI and browse button to open folder with AVI).
+* Fixed bug with too large controls in Drop shadow dialog when 120 dpi graphics mode used.
+* Fixed bug of previous versions when you couldn't create AVI file and "catCantCreateFile" error message occured. It happened when name of project contained a dot symbol ("Project 1.1" for example).
+
+* Fixed bug of previous versions with renaming of image filename in Slide list if there are two or more slides with same image file.
+* Fixed bug of previous versions when mouse wheel didn't work in Open/Save dialogs.
+* Fixed bug of previous versions when "Load last used project" option in fact always was enabled.
+
+Homepage - http://www.wnsoft.com
+
+Size: 4.35 MBPicturesToExe Deluxe 5.1
+
+
+
+
+
+
+Abexo Registry Cleaner 5.3
+
+RegistryAbexo Registry Cleaner is a utility software to make your computer run smoother and faster, achieving this by cleaning and compressing the registry. By time Windows registry gathers a lot of invalid entries that cause system complications and slow down your computer significantly. Included in Abexo Registry Cleaner is a registry defragmenter also called compressor which removes the empty spaces after a cleanup and thereby reduces registry size. Registry defragmentation increases the performance of your computer dramatically. Supported platforms: Windows Vista and Windows XP.
+
+Abexo Registry Cleaner Features:
+- Disk cleanup
+- Scan disk
+- Disk defrag
+- Registry backup
+- Registry cleanup
+- Registry defrag
+- Computer shutdown/restart
+
+Registry is a database where Windows and programs store their data. When data changes i.e. you delete a file, the registry doesn't remove the invalid data, thus in this case a reference to a non-existent file remains in the registry.
+As the registry gets filled with invalid data, Windows and programs consume more system resources to search the database for any data. Therefore your computer gets slower and slower. Last but not least, passing invalid data to Windows programs can cause severe system complications resulting in system crash, hang and malfunction.
+
+After a registry cleanup the invalid entries leave empty spaces, which means the size of the registry remains unchanged. It goes without saying that loading a small registry is faster than a big one.
+
+The Auto run feature is a one-click registry backup, registry cleanup and registry defrag.
+
+Furthermore if you own a copy of Abexo defragmenter you can configure them to work together. Just click a button and go to bed. All of the following tasks will be performed while you are asleep.
+
+Changes in Abexo Registry Cleaner 5.3:
+- Scanning of System Services added.
+
+Homepage - http://www.abexo.com/registry-cleaner.htm
+
+Size: 1.18 MB 
+
+
+
+
+
+To iPod Converter 4.78
+
+Video EditorsConvert almost all kinds of video files to ipod !
+â?¢ Let your Apple iPod much super and advanced! With the help of plato video to ipod converter, it can easily make it true!
+â?¢ Do you thinking enjoy the visual feast on your ipod anywherer, anytime? Now, with Plato Video to iPod Converter, you could convert any of your funny and wonderful video clips to your ipod.
+â?¢ It enables you to convert almost all kinds of video files such as rm, divx, xvid, avi, wmv, asf, mpg, mpeg, vob, mov, qt, vcd, svcd to Apple iPod video (mp4) format.
+
+You could convert batch video files with Plato Video to iPod Converter. It is convenient for you to add several video files one time to convert, and then just go to sleep, it could automatically shutdown your computer after all conversion done !!
+
+Key Features :
+1).Support wmv , asf to ipod mp4.
+2).Support mov , qt to ipod mp4.
+3).Support rm , rmvb to ipod mp4.
+4).Support mpg , mpeg , vob ,vcd , svcd to ipod mp4.
+5).Support avi , divx , xvid to ipod mp4.
+6).conversion speed is 2 times of the playback speed.
+7).Set the start position and end position of source file to convert.
+8).Support many predefined profile setting for ipod video.
+9).Customize the quality of output ipod video.
+10).Automatically shutdown your computer after long time conversion , such as for big files conversion at midnight.
+11).Automatically add output ipod files to iTunes after conversion.
+12).Best quality: the support for the latest industry standards ensures the videos you create with best picture and audio quality.
+13).User-friendly interface : without any complicated settings.
+14).Hardware auto-detect: Automatically detect your hardware and decide the best converting speed.
+15).Its preview display enables you to observe the whole converting process, making the Converting time enjoyable!
+
+Homepage - http://www.dvdtompegx.com
+
+Size: 3.99 MB
+
+Registration Codes:
+-
+6776188A7CCD1F486776188A7CCD1F48538AA43CA05A1BF0
+-
+8A97855E2CCA2F208A97855E2CCA2F204027D80A00BE629A
+-
+4E1FBAF0976B549E4E1FBAF0976B549E1BF61C8B8B03B7D7
+-
+33529F50BF54294D33529F50BF54294D6362E920327130CE
+-
+BE88548BFF3A50CABE88548BFF3A50CA61A54B39346DDDC3
+-
+34FCDAB285561B1634FCDAB285561B161A218D0B25C24364
+-
+5A0434963E7B782B5A0434963E7B782B348AE3AD8A292E0A
+-
+736898BFE6409DA1736898BFE6409DA11800E66B01854E43
+-
+151F092CED0ED548151F092CED0ED548952DDD030F2AB713
+-
+54F007C343EE83E754F007C343EE83E764BB9B9E055F3429
+-
+
+
+
+
+
+
+Ashampoo Photo Commander 6.00
+Graphics & DesignAshampoo Photo Commander 6 is a perfect example of a new generation of programs that are genuinely intuitive easy to use. It makes organizing your pictures and getting them to look great as simple as pressing the button on your camera. Youâ??ll save time, have a barrel of fun and your friends and family will be really impressed.
+Ashampoo Photo Commander makes managing and organizing even the largest collections of digital photos easy. Its powerful integrated photo editing tools make it a one-stop solution. Instead of switching to a graphics application you can do all your adjustments and enhancements directly in the organizer. Remove the red-eye effect, adjust colors, contrast, hue and many other parameters, resize, crop, rotate, add a wide range of special effects and more. All without leaving the program.
+
+Almost everything is done with a couple of clicks â?? adding picture frames, correcting your photos, making greeting cards, collages and slide shows, sharing your pictures on CDs/DVDs or your website and much more.
+Ashampoo Photo Commander 6 is a one-stop solution. You organize and view your photo collection, edit and enhance your photos and use creative editing and project tools all in a single program. And it also manages your audio and video files!
+
+New highlights in version 6:
+Intuitive new interface
+The new tabbed ribbon-style interface puts all the functions at your fingertips. You can always see what functions are available and everything is so self-explanatory you will probably never need to consult the manual. Includes elegant Vista-style buttons in Windows XP and very cool transition effects when you switch between photos in full-screen editing mode.
+Quick-Fix Tools
+All the common operations you need to perform on your photos are now available in the Quick-Fix Tools tab: One-click color and contrast optimization, photo straightening (if the camera wasnâ??t straight), red eye correction, cropping, rotating and more â?? all with a couple of clicks.
+Editable objects
+You can add additional photos, text boxes, geometric shapes, arrows and more to your images. And now you can save them in a new file format that lets you go back again edit the objects again later without having to start right from the beginning.
+Powerful new screen capture functions
+The screen capture function now uses the latest technology from Ashampooâ??s award-winning Magical Snap 2. It includes full support for capturing Windows Vistaâ??s transparent Aero Glass effects and capturing on multi-monitor systems. You can also capture free-style shapes as well as the standard rectangular objects and fixed shapes, and apply cool drop shadow, edge and shape effects automatically while capturing.
+Quick 5-star rating system
+Every photo displayed in the Organizer has a line of 5 stars under it. To rate your photo you just click for between 1 and 5 stars. You can then sort by star ratings to quickly find your favorite photos.
+Emailing multiple photos and movies
+Now you can email multiple photos in a single PDF file, which many people like a lot more than mails with a whole list of separate photo attachments. You can also press Ctrl+E to mail one or more photos or other media files quickly. And of course Photo Commander will resize your pictures for you to make them easier to send.
+
+New features at a glance:
+* New interface: Ribbon style tabbed interface with Vista style buttons on XP
+* Adjustable dialog box sizes: user settings are saved
+* Quick-Fix Tools: All common operations with a couple of clicks
+* Editable objects: New file format stores objects you add on editable layers
+* Unlimited Undo/Redo: For all changes
+* Browser EXIF mode: Shows all the photoâ??s EXIF/IPTC information directly under the picture
+* Quick 5-star ratings: Just click to rate photos with 1-5 stars, supports sorting by rating
+* Enhanced thumbnails: Better looking thumbnails stored with lossless compression
+* Enhanced searching: In subfolders and by EXIF and IPTC data
+* New screen capture technology: Capture free-style shapes, Vista Aero Glass effects and more, full multi-monitor support
+* Improved Wizards: Wizards guide you through procedures with a clearer, even more intuitive layout
+* Email to PDF: Mail multiple images in a single PDF file
+* Batch optimization: Apply the new One-Click Optimization tool to all your selected photos in one quick and easy process
+* Slide shows with audio: Add more than one audio track to your slide shows
+* JPEG-XR support: The program supports the new Windows HD Photo format
+
+Other great Photo Commander 6 features:
+* CD/DVD burning tools: Burn your photos and slide shows directly to CDs and DVDs without leaving the program.
+* Batch processing: Convert multiple photos to other formats and apply effects, all at the same time. Saves hours of tedious work.
+* Slide shows: On your computer or on CDs and DVDs, with cool transitions and background music.
+* Web albums: Post your best photos on your website, just choose them, generate the album and upload.
+* Save as PDF: Save single or multiple photos to PDF files.
+* Full-screen editing: Edit photos on your entire screen with the unique Mouse Tools.
+* Merge images: Merge multiple images to create special effects.
+* Collages, calendars, greeting cards, photo frames, collages: Build them all from your photos with a few clicks â?? being creative has never been so easy!
+* Plugins: Extend the programâ??s capabilities with plugins â?? for example for special file formats.
+* Skins: Change the programâ??s appearance with downloadable skins or design your own.
+* Audio and video: Manage and view all your media files and create playlists.
+* Supported formats: Over 60 photo, video and audio formats are supported, including transparent JPEG the new Windows HD Photo format.
+
+Homepage - http://www.ashampoo.com
+
+Size: 17.4 MB

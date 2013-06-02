@@ -1,0 +1,14 @@
+You are looking for a real-time sound (guitar/voice) processor? You need one with very low I/O latency? And to contain excellent quality effects (REAL effects - not just some simple time delay effects like echo, chorus, flanger)? And that is easy to use, and small for download? And that is very affordable? Well, you\'ve come to the right place!!!
+
+What does Guitar FX Box do?
+
+Just plug your guitar into the sound card input, start Guitar FX BOX and your guitar will scream and sing like you are using expensive analog effect pedals. You can apply a wide range of high quality effects to guitar, voice and other inputs. This high quality sound processing program is acting just like a good collection of guitar effects pedals. You can use several of them at the same time, even all if you need so.
+
+Guitar FX BOX does REALLY real-time DSP. Signal is sampled from sound card input, processed and then send to the output with VERY LOW LATENCY. It\'s NOT like all those \"real-time\" DirectX plugins which outputs signal whole second or more after they received it. I/O delay with Guitar FX BOX is extremely low, virtually undetectable! This is achieved using DirectSound (or WDM streaming) for fast access to the hardware (sound card) and fast DSP algorithms optimized for real-time processing. Through DirectSound, latency is about 20ms with most sound cards, or even less. When WDM streaming driver is used, latency can go as low as 5ms! Nevertheless, exact total i/o latency still depends on hardware/drivers.
+
+With program panel very descriptive, user interface intuitive and friendly, this is ultimate application for real-time effects processing. Any program option is just one or two mouse clicks away.
+
+Everything is real-time, every slider move results in instant change of produced sound.
+
+The \"BOX\" currently contains these high quality effects:
+Overdrive/Distortion, Echo, Reverb, Chorus, Wah-wah (AutoWah & EnvelopeWah), Pitch shifter, Tremolo, I/O Bass/Mid/Treble EQ controls, Compression and Phaser. Also, handy guitar tuner included.

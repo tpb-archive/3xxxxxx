@@ -1,0 +1,24 @@
+Hey guys one of my first releases,
+this is an dezender tool i found somewhere on some forums.. 
+Worked a charm only problem was it was per file convert..
+For your ease i wrote a bat file that saves you a lot of work :)
+
+Use as following:
+#1
+Put dezender in
+C:\dezender
+Make sure this README will be in C:\dezender!!! ( Else the dezender root is someplace else and the bat wont work + php config )
+
+#2
+Put the program that needs dezending in _decode ( the whole program is fine ;), it will only parse php files but it will copy all other files to the decoded folder =) ).
+#3
+run decode.bat
+
+Sit back, grab another beer, should be done shortly depending on the size of the program
+
+#4
+take a look in C:\dezender\_decoded\dezender\
+
+Enjoy ;),
+
+" Midget "

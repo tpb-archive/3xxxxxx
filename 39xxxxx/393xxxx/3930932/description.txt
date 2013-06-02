@@ -1,0 +1,41 @@
+Wipeout Pulse for PSP ... Needs firmware 3.71, or above to work.
+----------------------------------------------------------------
+
+The size of the game has been shrunk, by deleting unnecessary files from the .ISO.
+
+--
+--
+
+What's been removed..?
+
+UPDATE folder, and BOOT.BIN.
+
+--
+--
+
+Everything else is left intact, including language files.
+
+-----------------------------
+
+Original .ISO size: 435 MB
+Cleaned .ISO size: 327 MB
+
+Compressed .CSO: 199 MB
+
+-----------------------------
+
+.CSO Level 5 compression was used.
+
+Why not higher, such as Level 9...?
+
+Because: Super-high compression does not always work well for everyone. 
+
+And the size remained at 199 MB, even at Level 9...
+
+--
+--
+
+This game has been confirmed to work. Tested on 3.71-M33-3.
+
+--
+--

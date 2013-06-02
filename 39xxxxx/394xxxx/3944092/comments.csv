@@ -1,0 +1,70 @@
+﻿User Type,Username,Date,Text
+,EZname,2007-12-22T21:32Z,"popej:
+
+Thank you so much for the info.. I don't know if i'm doing something wrong, but, i couldn't find this file:
+(mapset00.mp) for the cgpsmapper command...
+
+Here is what i did:
+1- copy the (gmapsupp.img) file with the (gmaptool.exe) file into a new folder.
+
+2- In CMD, i typed:
+gmaptool -S gmapsupp.img
+
+3- I've got MANY 8digit name .img files.. PLUS, i've got these files:
+00000284.trf
+gmaptool00.unl
+MAPSOURC00.mps
+
+But NO (mapset00.mp)....
+
+
+Am i in the right path??
+
+Thanks again!!"
+,kolsyra5,2007-12-22T22:01Z,I have the same problem...
+[T],NightyNinetY,2007-12-22T23:39Z,"It works for me, i have tested it on the nordic version of CN EU NT 2008 which i have taken from my Nuvi 200. I have the mapset00.mp file.
+
+And yes it sounds like you doing it right..weird"
+[T],NightyNinetY,2007-12-22T23:53Z,"Which mapproduct/version are you guys using?
+
+I can upload the Nordic version of City Nav. Europe NT 2008 if someone wants it.."
+,smithjohn57,2007-12-23T00:13Z,Yes please upload the Nordic version of City Nav. Europe NT 2008.
+,kolsyra5,2007-12-23T10:09Z,"It works with the nordic version, but it is not routable."
+,hpa3,2007-12-23T15:07Z,"Could somebody upload the file with this name:
+( mapset00.mp )
+because I need it, for my Europe Mapsource.
+
+Of cause I can download Nordic but it takes a lot of days, therefore Thank You ! "
+[T],NightyNinetY,2007-12-23T16:40Z,"Kolsyra5: It is fully routable to me in Mapsource
+
+The search adress function is not working, thats about the only error i have."
+,FatFreddy2,2007-12-23T18:35Z,Download latest gmaptool (v0.16) from: http://www.anpo.republika.pl/download.html
+,hpa3,2007-12-23T20:10Z,"This link  http://www.anpo.republika.pl/download.html 
+are FALSE and full of Virus"
+[T],NightyNinetY,2007-12-23T21:09Z,"hpa3: That is not true.. Gmaptool v0.17 is out too i see =) 
+
+And btw you cannot use mapset00.mp from Nordic version on a whole Europe version.. That will not work very well. they differ in number of maps and more."
+,FatFreddy2,2007-12-23T23:53Z,"@hpa3:
+Since the link http://www.anpo.republika.pl/download.html 
+points to the homepage of GmapTool, it is the most trustworthy source for this program. (v0.15 was downloaded from here too) Change your virusscanner!
+
+NightyNinetY:
+thanks for the info on the update"
+,kolsyra5,2007-12-24T12:17Z,"Det fungerar inte längre, det fungerade en gång men när jag skulle göra omdet så fick jag ingen ""mapset00.mp"". Vad kan ha hänt???"
+,hirenkerai,2007-12-24T16:17Z,kan någon vara snäll ock förklara på svenska
+,hpa3,2007-12-24T18:57Z,"You who have put Europe up, have done it in the most unprofessional way. 
+Learn and see how North America has been presented.
+Merry X-mas"
+,hpa3,2007-12-24T19:04Z,"Til svenskerne kan jeg forklare at det lort som der er blevet gjort af folk her, er den mest uprofessionelle måde at gøre tingene på. Se hvordan Nord America er blevet lagt op. Det er gjort korrekt for alle parter. Glædelig Jul"
+,haani,2007-12-24T22:43Z,yeh the address function doesn't work!!!
+,EZname,2007-12-28T22:12Z,"popej:
+
+Maybe you can help us with that... How to find out the map ID for *.GPI files??? This file is for the Travel Guide sold by Garmin... Any help??
+
+Here is the link for the file i'm talking about:
+http://thepiratebay.org/tor/3938889/Garmin_Travel_Guide_Europe_
+
+Please email me if any one have usefull info:
+
+EZname (at) gmail (dot) com"
+,tsdinos,2008-03-10T22:48Z,I found what is going wrong! you need to type -S (capital S not s) because the program does sth different!!!

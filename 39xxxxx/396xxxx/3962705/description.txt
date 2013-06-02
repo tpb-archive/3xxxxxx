@@ -1,0 +1,235 @@
+FÃ¶r hjÃ¤lp, se 
+ 
+http://wiiforumet.se/wiikey-wii-config-uppdaterings-filer-vt1798.html
+
+ |------------------------------------------------------------------|
+ |
+|
+ |          Ã?versatt av Quixton fÃ¶r www.wiiforumet.se               |
+ |
+|
+ |------------------------------------------------------------------|
+ |
+|
+ |------------------------------------------------------------------|
+ |
+|
+ |                    - wiiKey Config v1.3 -                        |
+ |
+|
+ |------------------------------------------------------------------|
+ |
+|
+ | Installation                                                     |
+ |
+|
+ |----------------------                                            |
+ |
+     NÃ¤r du packat upp alla filer ur config.1.3.rar sÃ¥ ska du Ã¶ppna   |
+ |
+     Kommandotolken (gÃ¥ in pÃ¥ startmenyn, klicka pÃ¥ kÃ¶r och skiv cmd) |
+ |
+     nÃ¤r du Ã¤r inne i kommandotolken skriver du cd och sedan sÃ¶kvÃ¤gen |
+ |
+     till mappen dÃ¤r du zippat upp filerna, t.ex om du zippat upp dina|
+ |
+     filer i en mapp som heter blandade filer och ligger i c: sÃ¥      |
+ |
+     skriver du:                                                      |
+ |
+                                                                      |
+ |
+     CD c:\blandade filer\                                            |
+ |
+                                                                      |
+ |
+     (OBS! GlÃ¶m inte att ha ett \ pÃ¥ slutet!)                         |
+ |
+     NÃ¤r du har gjort detta skriver du:                               |
+ |
+                                                                      |
+ |
+     filechop.exe bootdisc.pal.iso 1459978240                         |
+ |
+                                                                      |
+ |
+     Nu borde du ha en fil pÃ¥ 1.4 gigabyte i din mapp som Ã¤r redo     |
+ |
+     fÃ¶r brÃ¤nning!                                                    |
+ |
+|
+ |------------------------------------------------------------------|
+ |
+|
+ | Vad Ã¤r nytt?                                                     |
+ |
+|
+ |----------------------                                            |
+ |
+     Version 1.3 av wiikeys config har tillagda instÃ¤llningar         |
+ |
+     fÃ¶r att uppnÃ¥ full Gamecube regionsfrihet. Den innehÃ¥ller ocksÃ¥  |
+ |
+     en ny version av wiikeys DvdDump applikation.                    |
+ |
+|
+ |------------------------------------------------------------------|
+ |
+|
+ |  Ã?verblick                                                       |
+ |
+|
+ |----------------------                                            |
+ |
+     Wiikeys config kombinerar olika applikationer pÃ¥ en ensam        |
+ |
+     startbar skiva. Det hÃ¤r slÃ¤ppet inkluderar:                      |
+ |
+                                                                      |
+ |
+      - wiikey konfiguration                                          |
+ |
+      - wiikey DvdDump (exporterar skivor till sdkort)                |
+ |
+      - NÃ¥gra av de mest populÃ¤ra gamecube homebrew applikationerna:  |
+ |
+                                                                      |
+ |
+        - "SDLoad 1.0 av Costis"                                      |
+ |
+        - "Snes9x 1.43 GX 0.5 Port" av Softdev                        |
+ |
+        - "GCOs MultiGame Version" av emu_kidid                       |
+ |
+        - "MFE Distro 1.0" av Isobel                                  |
+ |
+                                                                      |
+ |
+     BrÃ¤nn dina imagefiler med vilken kapabel mjukvara som helst t.ex.|
+ |
+     ImgBurn, Nero, CloneCD, Cdrecord, DeepBurner, etc.               |
+ |
+|
+ |------------------------------------------------------------------|
+ |
+|
+ |  Navigation                                                      |
+ |
+|
+ |----------------------                                            |
+ |
+     FÃ¶r de utan gamecubekontroll, fungerar bÃ¥de huvudmenyn och       |
+ |
+     disc dumpers supportnavigation genom reset knappen.              |
+ |
+     Att hÃ¥lla in reset en liten stund kommer att flytta pekaren, och |
+ |
+     genom att hÃ¥lla den inne tvÃ¥ sekunder vÃ¤ljs det nuvarande        |
+ |
+     alternativet. Den inkluderade homebrew applikationen             |
+ |
+     behÃ¶ver en gamecube kontroll.                                    |
+ |
+|
+ |------------------------------------------------------------------|
+ |
+|
+ | Wiikeys konfiguration                                            |
+ |
+|
+ |----------------------                                            |
+ |
+     Av sÃ¤kerhetsskÃ¤l kan inte de nuvarande instÃ¤llningarna lÃ¤sas     |
+ |
+     direkt frÃ¥n chippet. Det Ã¤r dÃ¤rfÃ¶r utgÃ¥ngsinstÃ¤llningarna        |
+ |
+     laddas nÃ¤r du gÃ¥r in i wiikeymenyn oavsett om du har sparade     |
+ |
+     instÃ¤llningar eller inte.                                        |
+ |
+                                                                      |
+ |
+|
+ | InstÃ¤llningar: Region override [ON/OFF]                          |
+ |
+                                                                      |
+ |
+     Att aktivera denna instÃ¤llning gÃ¶r att skivor frÃ¥n en annan      |
+ |
+     region Ã¤n din konsoll beter sig som om de vore frÃ¥n din konsolls |
+ |
+     region. Det kommer att gÃ¶ra att du med en PAL konsoll (Europa)   |
+ |
+     kommer kunna spela de flesta spel som Ã¤r gjorda fÃ¶r NTSC         |
+ |
+     konsoller (USA), och JAP konsoller (Japan), fÃ¶r en komplett lista|
+ |
+     Ã¶ver fungerade spel, se:                                         |
+ |
+                                                                      |
+ |
+     wiki.gbatemp.net/index.php/Wii_Region_Patcher_Compatibility_List |
+ |
+                                                                      |
+ |
+     Observera att du inte bÃ¶r spela spel frÃ¥n frÃ¥n en annan region   |
+ |
+     Ã¤n din konsolls om du inte vet riskerna, att gÃ¶ra det kan i      |
+ |
+     vÃ¤rsta fall innebÃ¤ra en brickad konsoll!                         |
+ |
+                                                                      |
+ |
+|
+ | InstÃ¤llningar: Full GC regionfree [ON/OFF]                       |
+ |
+                                                                      |
+ |
+     Denna funktion Ã¤r inte nÃ¶dvÃ¤ndig iom du har ett PAL Wii.         |
+ |
+                                                                      |
+ |
+|
+ | InstÃ¤llningar: Audiofix [ON/OFF]                                 |
+ |
+                                                                      |
+ |
+     Aktiverar en funktion till gamecube spel som anvÃ¤nder sig av     |
+ |
+     streamat ljud. Om du har backuper som redan Ã¤r patchade med      |
+ |
+     fstfix, kan du stÃ¤nga av den hÃ¤r instÃ¤llningen.                  |
+ |
+                                                                      |
+ |
+|
+ | InstÃ¤llningar: DVDR Discspeed [3x/6x]                            |
+ |
+                                                                      |
+ |
+     StÃ¤ller in hastigheten fÃ¶r att lÃ¤sa brÃ¤nda DVD-Skivor,           |
+ |
+     3x ger tystare skivor Ã¤n 6x, medan 6x ger snabbare skivor Ã¤n 3x. |
+ |
+|
+ |------------------------------------------------------------------|
+ |
+|
+ | LÃ¤nkar                                                           |
+ |
+|
+ |----------------------                                            |
+ |
+     http://www.wiikey.cn   - Wiikeys officiella hemsida              |
+ |
+     http://www.wiinewz.com - Wiikeys officialla forum                |
+ |
+|
+ |------------------------------------------------------------------|
+ |
+|
+ |          Ã?versatt av Quixton fÃ¶r www.wiiforumet.se               |
+ |
+|
+ |------------------------------------------------------------------|
+ |

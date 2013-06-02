@@ -1,0 +1,16 @@
+Look \'n\' Stop is a personal firewall.
+
+Look \'n\' Stop allows you to control all transfers between your computer and Internet in order to stop all suspicious packets and to stop non-trusted applications to connect to Internet.
+
+Look \'n\' Stop provides two levels of filtering. First one is at network level, all incoming and outgoing packets are watched. Second one is at application level, all application trying to connect to internet are watched.
+
+For Internet filtering, a configurable ruleset allows you to define the authorized packets and the packets you\'d like to block. A default ruleset is provided with Look \'n\' Stop. This default ruleset suits for a standard Internet use. This level of filtering is controlled through the \'Internet Filtering\' page.
+
+For application filtering, Look \'n\' Stop maintains a list of applications authorized to connect to Internet. Every time a new unknown application tries to connect, a popup dialog box alerts you. Then you decide to allow or not this new application to connect. This level of filtering is controlled through the \'Application Filtering\' page.
+
+The \'Log\' page maintains the history of events that occurred. An event is either a blocked packet or a blocked application. You can select what you want to see in the log by configuring the Internet Filtering and the Application Filtering.
+
+Finally, the \'Options\' let you to configure Look \'n\' Stop according to your preferences.
+
+ 
+http://www.looknstop.com

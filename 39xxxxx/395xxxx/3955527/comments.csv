@@ -1,0 +1,309 @@
+﻿User Type,Username,Date,Text
+,rstran,2008-01-04T01:57Z,"certificate is expired, and the program won't run"
+,TunnelRats,2008-01-07T21:42Z,"@jokeri1971: Please seed your torrent ""PGP Desktop Professional v9.7.0"" as a rather large bunch of leechers are stuck at 97,4%"
+,jbysmith,2008-01-08T19:56Z,"I downloaded the demo version directly from GPSoft, version 9.1.  The license file included in this torrent worked perfectly -- thanks"
+,REPOM4N,2008-01-13T02:09Z,"It worked for me like a charme.
+
+Seeding"
+,nok32,2008-01-18T09:03Z,"definitely NOT WORKING. i have tried every goddamn version of a crack for every 9.x.x release and NONE of them work anymore!
+
+if anyone finds one that still works PLEASE reply here or upload it yourself. really getting tired of the trial version nag screen. ugh."
+,REPOM4N,2008-01-21T07:27Z,"Opus just stopped working after about 8 days. (Anough time to set it up)
+
+""The certificate as expired""
+
+Seeding no more."
+,rstran,2008-01-24T21:58Z,"I installed and good on one computer. On the other, I inadvertenly let it contact the internet, and now the install on that compouter is no good, even if I uninstall and reinstall. We need a regcleaner or somehting like that, it must be leaving something on the system somewhere about the invalid certificates"
+,rstran,2008-01-26T16:56Z,there seems to be a trojan in that addon/patch.
+,jnd,2008-01-27T03:52Z,"^-- Yep, that is confirmed to be a result of the EXE patching p-Hell's patch does, so it's not perfect either. It was really just made for 8.x, not 9.x. They now switch filenames to DOS format after a while if the EXE is detected as modified. (I think they check against the digital certificate applied to the file, if the file changes, the certificate breaks)"
+,nok32,2008-01-27T07:21Z,"ive been using the 30-day trial license.. but the nag screen pops up enough to be ummm nagging. i am trying out xyplorer today, but i already miss dopus. damn."
+,nok32,2008-01-30T06:44Z,"ok ive gone to this. i like it better than the others (after dopus).
+http://thepiratebay.org/tor/3996576/Xplorer2_Pro_1.7.0.5_cu_Keygen
+
+also cool: after installing xplorer2, check out the registry.txt for how to easily replace explorer as the default folder handler."
+,wilson1375,2008-02-01T00:53Z,"OK, I wasnt able to get this working as I have XP x64. I got x64 version from site but certificate invalid. Did notice some things during install tho. Uninstall failed to delete system32\inf32 which has several key-looking files, try deleting that folder if u wanna try a diferent cert. Also, PG2 caught a Verisign connection attempt, couldnt find which program tho...any ideas?"
+,nok32,2008-02-05T03:57Z,"if you want to replace explorer enitrely with xplorer2, save this to the registry by pasting it to a txt file, changing the extension to '.reg' and double-clicking (its off their forums, and is better than the one the developer added to the install folder. THIS one will replace explorer as seamlessly as dopus does! including all virtual folders, etc.! ;D ):
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell]
+@=""open""
+
+[HKEY_CLASSES_ROOT\Directory\shell\open]
+
+[HKEY_CLASSES_ROOT\Directory\shell\open\command]
+@=""\""C:\\Program Files\\zabkat\\xplorer2\\xplorer2_UC.exe\"" \""%1\""""
+
+[HKEY_CLASSES_ROOT\Drive\shell]
+@=""open""
+
+[HKEY_CLASSES_ROOT\Drive\shell\open]
+
+[HKEY_CLASSES_ROOT\Drive\shell\open\command]
+@=""\""C:\\Program Files\\zabkat\\xplorer2\\xplorer2_UC.exe\"" \""%1\""""
+
+[HKEY_CLASSES_ROOT\Drives]
+
+[HKEY_CLASSES_ROOT\Drives\shell]
+
+[HKEY_CLASSES_ROOT\Drives\shell\open]
+
+[HKEY_CLASSES_ROOT\Drives\shell\open\command]
+@=""\""C:\\Program Files\\zabkat\\xplorer2\\xplorer2_UC.exe\"" \""%1\""""
+
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell]
+@=""open""
+
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\open]
+
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\open\command]
+@=""\""C:\\Program Files\\zabkat\\xplorer2\\xplorer2_UC.exe\"" \""::{20D04FE0-3AEA-1069-A2D8-08002B30309D}\"""" 
+
+[HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}\shell]
+@=""open""
+
+[HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}\shell\open]
+
+[HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}\shell\open\command]
+@=""\""C:\\Program Files\\zabkat\\xplorer2\\xplorer2_UC.exe\"" \""%1\""""
+
+[HKEY_CLASSES_ROOT\CLSID\{208D2C60-3AEA-1069-A2D7-08002B30309D}\shell]
+@=""open""
+
+[HKEY_CLASSES_ROOT\CLSID\{208D2C60-3AEA-1069-A2D7-08002B30309D}\shell\open]
+
+[HKEY_CLASSES_ROOT\CLSID\{208D2C60-3AEA-1069-A2D7-08002B30309D}\shell\open\command]
+@=""\""C:\\Program Files\\zabkat\\xplorer2\\xplorer2_UC.exe\"" \""::{208D2C60-3AEA-1069-A2D7-08002B30309D}\"""" 
+
+[HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\shell]
+@=""open""
+
+[HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\shell\open]
+
+[HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\shell\open\command]
+@=""\""C:\\Program Files\\zabkat\\xplorer2\\xplorer2_UC.exe\"" \""::{645FF040-5081-101B-9F08-00AA002F954E}\"""" 
+
+[HKEY_CLASSES_ROOT\CLSID\{21EC2020-3AEA-1069-A2DD-08002B30309D}\shell]
+@=""open""
+
+[HKEY_CLASSES_ROOT\CLSID\{21EC2020-3AEA-1069-A2DD-08002B30309D}\shell\open]
+
+[HKEY_CLASSES_ROOT\CLSID\{21EC2020-3AEA-1069-A2DD-08002B30309D}\shell\open\command]
+@=""\""C:\\Program Files\\zabkat\\xplorer2\\xplorer2_UC.exe\"" \""::{20D04FE0-3AEA-1069-A2D8-08002B30309D}\\::{21EC2020-3AEA-1069-A2DD-08002B30309D}\"""" 
+
+[HKEY_CLASSES_ROOT\CLSID\{2227A280-3AEA-1069-A2DE-08002B30309D}\shell]
+@=""open""
+
+[HKEY_CLASSES_ROOT\CLSID\{2227A280-3AEA-1069-A2DE-08002B30309D}\shell\open]
+
+[HKEY_CLASSES_ROOT\CLSID\{2227A280-3AEA-1069-A2DE-08002B30309D}\shell\open\command]
+@=""\""C:\\Program Files\\zabkat\\xplorer2\\xplorer2_UC.exe\"" \""::{20D04FE0-3AEA-1069-A2D8-08002B30309D}\\::{21EC2020-3AEA-1069-A2DD-08002B30309D}\\::{2227A280-3AEA-1069-A2DE-08002B30309D}\"""""
+,nok32,2008-02-05T03:59Z,"if you need to undo the reg hack i just posted for xplorer2, use this:
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell]
+@=""open""
+
+[-HKEY_CLASSES_ROOT\Directory\shell\open]
+
+[HKEY_CLASSES_ROOT\Drive\shell]
+@=""open""
+
+[-HKEY_CLASSES_ROOT\Drive\shell\open]
+
+[HKEY_CLASSES_ROOT\Drives]
+
+[HKEY_CLASSES_ROOT\Drives\shell]
+
+[-HKEY_CLASSES_ROOT\Drives\shell\open]
+
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell]
+@=""open""
+
+[-HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\open]
+
+[HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}\shell]
+@=""open""
+
+[-HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}\shell\open]
+
+[HKEY_CLASSES_ROOT\CLSID\{208D2C60-3AEA-1069-A2D7-08002B30309D}\shell]
+@=""open""
+
+[-HKEY_CLASSES_ROOT\CLSID\{208D2C60-3AEA-1069-A2D7-08002B30309D}\shell\open]
+
+[HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\shell]
+@=""open""
+
+[-HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\shell\open]
+
+[HKEY_CLASSES_ROOT\CLSID\{21EC2020-3AEA-1069-A2DD-08002B30309D}\shell]
+@=""open""
+
+[-HKEY_CLASSES_ROOT\CLSID\{21EC2020-3AEA-1069-A2DD-08002B30309D}\shell\open]
+
+[HKEY_CLASSES_ROOT\CLSID\{2227A280-3AEA-1069-A2DE-08002B30309D}\shell]
+@=""open""
+
+[-HKEY_CLASSES_ROOT\CLSID\{2227A280-3AEA-1069-A2DE-08002B30309D}\shell\open]"
+,nok32,2008-02-05T04:02Z,"oops that last bit of the first reg hack got truncated. it should read:
+::{2227A280-3AEA-1069-A2DE-08002B30309D}\""""
+
+anyway, i wish people would stop seeding this and the other NONWORKING dopus torrents."
+,namsupo,2008-02-14T22:14Z,"I know this might be a dumb suggestion but have you thought about buying it? You seem to really like the program, it just seems silly the amount of effort you are spending trying to get it for free. If you bought it you could just stop worrying about it :)"
+,namsupo,2008-02-15T00:07Z,"Heh lol, nah I wasnt trying to get into the ""moral"" thing. It just seemed like you were spending an awful lot of effort on this. While free is always better the program isnt THAT expensive and I know from experience they will give you a discount if you ask nicely for it.
+
+Spending hours trying to get around cracks seems like a big waste of time to me, I have better things to do with my day :)"
+,mj3y,2008-02-15T01:04Z,"I found a working License
+
+http://firewarez.info/warez-download-rapidshare-megaupload-torrent-Directory-Opus-v.9.1.0.1-with-crack-serial-keygen-286121.html"
+,namsupo,2008-02-15T02:27Z,"That RS link doesnt work for me, says File not found ???"
+,namsupo,2008-02-15T02:52Z,Thanks :)
+,nok32,2008-02-18T21:50Z,"lol at namsupo.
+
+hey so you HAVE to use it on a usb drive? is there a way to trick it and run it from my laptop?"
+,nok32,2008-02-18T21:51Z,ahh shit. it got reported! can you up it somewhere else??
+,Slave-Pig,2008-02-19T07:22Z,"I just wish when somebody would put a program on a service like this the mother fucker would work.  If you can't make it work then don't fucking post it.  And BTW Fuck Windows Vista, none of you need to be using it stay with XP, I have put XP on 6 of 6 of the new Vista machines that they say can only take Vista and the DM is just fine with no ?s LMAO.  Catch ya L8rz, and yes the DrK RaVeN lives, I am here and well :J)"
+,Slave-Pig,2008-02-21T10:55Z,"Gobble3666,
+     Hi, thanks for the info on the program.  I just went ahead and did a DL on version 8. something and it did fine.  BTW, I have not had a lot of free time yet to read up on all this app does and was curious if there is a master reset to totally reset everything without having to uninstall and install it over again?
+
+    Also, if you guys like this program there is a totally free program from Google you should love for your pics, once you get the fell for it and use the folder manager in tools you will see what I mean.  The name of the app is Picasa2, totally free and a very kick ass program.  Got to run guys, take care & I didn't mean to bitch but I was having one of those days.  L8rz.........."
+,Slave-Pig,2008-02-21T11:18Z,"Gobble3666,
+
+     Oh yeah, I just tried the last link and it seemed to work fine.  It was for a 10 Meg DL, I am going to do just that LOL, make a fancy lil icon for it and a place in programs for it and a shortcut from quick lanch to it.  Thanks again, take care all."
+,Slave-Pig,2008-02-21T15:24Z,"     Try this link, it is the one that Gobbler3666 sent, it works fine.  When you try to run the *.exe it might ask for a certain *.dll file & say it isn't in the dir.  Don't worry just do a search on your < C > drive for the *.dll it wants, you will see it and then copy and paste it into the directory and have fun :)
+
+     Also, I haven't tested it yet, but if it will run from the flash drive without Windows OS then think of the power you have over Windows LMAO.  Heh, you can make Windows Bow Down and suck your dick if you want it to.
+
+     That reminds me, hey Sydney0668 or Zenny14940, either one of you can suck my dick if you want to.  I am not sure but I think I have fallen for the both of you.  Yeah, I sure have, I love both of you and am inviting you to have sex with me.  I will check back later and we can get this party started if you want to.  If not that is cool to but don't say I didn't try LOL.  L8rs girlz.................."
+,Slave-Pig,2008-02-21T15:27Z,"I forgot to put the link in, I was looking at the pics of those girls LOL.  Here is the link :
+>"
+,Slave-Pig,2008-02-21T15:31Z,http://download.yousendit.com/55175A896B3A3395
+,diamond-optic,2008-02-24T02:05Z,"lol well i was hoping it would work for me.. did for a while.. then it came up expired like everyone else lol.. tried uninstall and went back to 9.0.0.9 (like i did after other failed updates lol) but now my 9.0.0.9 license wont work either lol damn this sucks lol great little app, and i have considered buying it.. but at more then $75 US, thats fucking rediculous.."
+,diamond-optic,2008-02-24T02:16Z,"great.. now after uninstalling i get popup installshield errors everytime i boot and bootup takes like 3 minutes instead of 10 seconds....
+
+looks like i have to format and reinstall xp lol..
+
+
+GG for posting stuff without testing 1st! :-P"
+,diamond-optic,2008-02-24T03:01Z,i did try putting the portable vers on a usb thumbdrive.. but i cant seem to see any difference then the one i put right on my pc.. same version numbers come up.. says its a 30 day trial.. gives nag screens...
+,diamond-optic,2008-02-24T03:21Z,"ok tried it again.. put the portable version right on my pc (internal hd) and it seems to be working fine
+
+tho im still getting popup errors on boot now so im wondering if i should just reformat anyway..
+
+do you think id be able to go back to using 9.0.0.9 after a reinstall of XP? or do you think that would still not work (it worked up till today.. even after updated versions didnt work and i would reinstall 9.0.0.9) or did they do something thats gonna block me from using that version again"
+,diamond-optic,2008-02-24T04:54Z,anyone having trouble with the portable version not saving all the settings? like mainly the colors (for unselected/selected files folders and such..) it keeps reseting to default right in the middle of using it
+,diamond-optic,2008-02-26T19:00Z,"hmm ya reopening it seems to put the colors back to what i set them to....
+
+ive got a new HD coming via UPS today that im gonna dual boot xp and vista on so i'll be reinstalling anyway.. 
+
+and i used 9.0.0.9 for like a year and never had any trouble with it.. plus i like how that can have full integration and windows explorer replacement when the portable one the options are grayed out on the integration option page
+
+and with uninstalling.. i did go thru all the registry searching for dopus and gpsoft and such and removed everything but it didnt seem to make a difference for me"
+,nok32,2008-02-27T07:04Z,"ahh this comment thread.. so nice to see people working together.
+thx for the u/l, i got the portable version, havent tried it yet.
+for the 'explorer replacement' option, i bet the reg patch i posted for xplorer2 would also work for dopus if you change a few things.
+xplorer2 is a bit buggy at times and slower than dopus to start, but i am coping. still recommend it, since dopus still seems pretty to cause issues. i guess it testifies to the skill of their coders, since they have stumped us all for this long! heh."
+,Slave-Pig,2008-02-27T10:22Z,"	Hey guys, this might be stupid but just a thought.  Until they come up with tight 9 the 8 is working great for me, no problems at all with it.
+	Second thing is this, take a copy of Norton ghost 2003 and make up a restore disk.  Then take and use Nero and burn an emulated bootable floppy onto your CD and copy the floppy disk files to the bootable CD.  Finally once you get your system and programs exactly the way you want to make a backup of your primary partition onto a backup partition.  Then proceed to install opus 9 and if the fucker fails just call your old image file with all you perfectly installed software and there will be zero trace of 9 and best of all it only takes about 3 minutes to recover everything.  Just a thought, it is what I do when I am going to test out new shit that I am not sure of.  When I used to program, especially fucking around with API, formating was second nature and the above method turned hours of work into minutes and there is no chance in hell of any trace of version 9 hiding shit when it was not included in the partition backup.  Make sure though you do your format and shit and setup everything but 9 before you make your ghost image using that CD and then use that same CD to restore if and when 9 fails."
+,nok32,2008-02-28T01:36Z,"i got the usb version of dopus to replace explorer!
+1) open the apply.txt and make sure the path is the same as yours. i made it C:\Program Files\dopus\dopus.exe you can either change it to the path you want to use (make sure you replace all instances), or move the dopus folder to match the one above.
+2) once you get that sorted, change the file extension of apply.txt to .reg
+3) double-click and add to the regsitry.
+4) try clicking on 'my computer' or whatever other folder. BOOOO-YAAAHHH!!!! :)
+mf.com/?hyhrjmw2dgt"
+,nok32,2008-02-28T01:45Z,"oops, looks like w/ virtual folders it opens straight to the desktop. aaand the weird colors thing is way too annoying. aargh."
+,nok32,2008-02-28T08:26Z,"lol. as far as i can tell the the usb version of dopus already replaces explorer. mustve been exported when the original user made the usb copy. so my other post is pointless.
+
+i am wondering if we could find someone who has a legit copy to make us a usb version.. i recall someone even posting in the comments here................little help?"
+,jschmoe333,2008-02-28T22:27Z,"Given the extensive amount of traps it's obvious the developer takes protecting his program pretty seriously. And with the short time that the rapidshare and mediafire links get shut down I bet he's keeping tabs on this very thread.
+
+*waves* Lower the fucking cost of your program and the additional users you'll gain will offset the drop in price and we won't have to play this game of cat and mouse anymore. Because it WILL be cracked. Your choice. :)"
+,4QualityControl,2008-02-29T05:45Z,There's a fully working crack at : http://pcbutts1.com/cracks.htm
+,nok32,2008-02-29T21:09Z,"if only ONE of us were to buy the software, that person could make a usb version and we would all be set! i will donate $2 to this fund. anyone else in?"
+,nok32,2008-03-03T02:24Z,nevermind.. i have come to determine that directory opus is unflappable. i recommend buying a license or giving up. unless you really have the l33t skillz.
+,maxdeath,2008-03-03T22:09Z,"this is working fine if you use the hosts file thing suggested by kayali. (xp pro sp2)
+1)i changed my hosts file, 
+2)made my dns service manual start
+3)rebooted
+4)pinged gpsoft to verify resolving to 127.0.0.1
+5)installed this app
+6) applied certificate from this torrent.
+so far so good.  if it messes up i will report back.
+goodluck and thanks kayali."
+,maxdeath,2008-03-03T22:56Z,"update:(later same day)
+it is still working.  i went into pereferences and the misc then options and turned off check for updates and also permanently blocked an access attemp by the program to access dns.(i used zone alarm)."
+,Ceedric,2008-03-09T18:59Z,"wow, it only took me all 30 days to figure it out... Through some strange locked-file complications I couldn't just delete files without having it restart when it wanted me to... 
+
+BUT! I got a JV16 Powertools torrent and CCleaner and ran them both twice when I was in safe mode with its registry finder / cleaner things and it found 9 different files when I searched for any instance of ""opus"". Each time I ran each one it would find more...
+
+I restarted my computer out of safe mode to attempt what will be my last attempt to get this program to work.
+
+During the install it wanted me to paste libeay32.dll into that folder, so I did and then it successfully didn't recognize any of the last 4 times I've tried to re-install it. 
+
+Using the host-file trick and deleting the folder I used to install it really helped.
+
+I also realized that I didn't know where I put my key for the 9.0 version so I just found the one from when I attempted to use the 9.9.0.0.9 license and it's the first time it's ever not continued that countdown to how many days I had left... today would have been my last day."
+,Sl0wAsS,2008-04-06T15:00Z,"uhmm I think i did it - but it's a bitch :S
+
+totally fresh xp install -> installed this file and license (offline ), set so it doesn't start up with windows ( it'll start by a 2xclick on dsktp anyway ) installed netlimiter and activated firewall, did the host thing....
+
+Activated my netcard - and whaddoyaknow - 20 sec's later a dopus tried to axx the internet :S even tho update check has been disabled, Deny the fooker in ya firewall and ya all set ;)
+
+this one's a bitch to handle - i almost bought it :P
+
+
+
+_sl0"
+,jarno_nekdes,2008-04-28T10:27Z,"Hey Kayali, could you repost the images in your previous comments, because the links are broken. And could you tell what ""pinged gpsoft to verify resolving to 127.0.0.1"" means. I really love this software but i can't figure out how to crack it. I allready put this line in my hosts file:
+# 127.0.0.1 www.gpssoftware.com.au.
+
+And one other question.. how do you make your DNS service manual start?
+
+Thanks, Jarno"
+,jarno_nekdes,2008-04-28T10:31Z,"excuse me:
+
+# 127.0.0.1 www.gpsoftware.com.au
+
+But it still is working in it's trial mode..
+
+thanks again"
+,nok32,2008-05-14T02:04Z,"haha, never thought i would be back posting on this old torrent again!
+
+ok, so... i tried a new patched version of dopus over at the d-spot. (you know where i mean)
+i added the following to my hosts file:
+
+127.0.0.1 gpsoft.com.au
+127.0.0.1 www.gpsoft.com.au
+
+it worked for a little while, but now i am getting the 'integrity check' failure, which crashes dopus every few minutes."
+,jarno_nekdes,2008-05-24T18:13Z,"Thanks for the help Kayali, but i didn't get it to work, it probably has made some registry entries i couldn't get rid of by wich it knew the serial was no good.  So i decided to uninstall it. Now i do have version 8 working (by installing a firewall and disabled it from connecting to the internet and doing your host trick) so i'll do with that one untill a new version comes out."
+,OggZ,2008-05-26T21:13Z,"Search for ""Directory.Opus.9.1.0.1.2947.READNFO_KEYGEN+PATCH-FFF""
+
+This is the only keygen I've found. The license it creates is different each time and Directory Opus accepts it as valid, so I don't think the license will wind up blacklisted like the common ones we've all seen.
+
+Of course, this (*&%% program has gone tits up on me out of nowhere before, so what do I know? But so far, so good anyway..."
+,maxdeath,2008-05-30T17:43Z,"i love this torrent, everlasting.
+
+um..
+dns client is set to manual in control panel, administrative tools, services, DNS client
+
+to ping you use the command prompt(start,run, enter CMD is one way)
+then type: ping www.gpsoft.com.au
+you will see the IP
+
+ceedric mentions some ways to clean up a botched install.
+
+peace-out"
+,jarno_nekdes,2008-06-06T12:27Z,"Wow this torrent is indeed everlasting! but i got it to work now, the keygen by FFF works great, and i got www.gpsoftware.com.au in my hosts file, but now it says once in 2 to 30 minutes there has been a program file, and it has to restart. does somebody know how to fix that?
+
+Thanks again!"
+,jarno_nekdes,2008-06-06T12:32Z,"i meant a program error (in ""dopus_main"" if that matters)
+
+And the way i got it to work was by just using another serial provided by the keygen. "
+,jarno_nekdes,2008-06-08T22:12Z,"I fixed it. It turned out to be the .dll file. I didn't replace it properly. but now everything works fine! THAAANKSS, it is a lovely app"
+,milojos,2008-06-13T22:30Z,Where you can download the Directory.Opus.9.1.0.1.2947 installer?
+,mrfrantik,2008-10-02T12:11Z,can someone plz write step by step guide how to get this damn good programme working.I been trying this for so long but no successs.For the sake of mankind :) just can someone write proper guide.
+,3TTE,2009-01-03T04:03Z,"newer and working
+http://thepiratebay.org/torrent/4618977"

@@ -1,0 +1,68 @@
+﻿User Type,Username,Date,Text
+,gwyden,2007-11-23T23:56Z,sorry but since Comcast is a pig of a company i had to enable encryption. So go get a better client that supports encryption if you want to get the file from the seed.
+,gaiaman,2007-11-25T23:32Z,seem to have errors when installing =?
+,gwyden,2007-11-26T01:54Z,i just used the iso on two different computers and it worked fine. What are you using to access to image? have you tried daemon-tools?
+,gaiaman,2007-11-26T03:11Z,"yes i use daemon tools when i install it, it says dat errors, 1 and 11 then tells me that i cant install it, either files are corrupt or not valid =/"
+,gaiaman,2007-11-26T03:54Z,;_; i tryed again shut down all antivirus spywear removers and still getting error cold that the cabinet file data 1.cab required for installation is corrupt and cannot be use. any ideas on what i can do ;_;
+,StolenSoulz,2007-11-26T11:11Z,Worked Like A Charm
+,gwyden,2007-11-26T12:19Z,only thing i can tell you is to try a hash check against it and see if it finds a fault. 
+,gaiaman,2007-11-27T01:57Z,"well i had check on other pcs had my friend download on his pc and try to install it, so far each computer that had all ffxi on it except wings of goddess keep reporting a error in data cab saying it corrupted. =/ did a check on it and error kept poping on the data cab all reports kept pointing to that one specific error. ;_;"
+,gaiaman,2007-11-27T02:12Z,;_; im so happy  we finally was able to get it working seems we had to turn every thing off from not only antivirus protection and spyware sweeper but to the point we we had to close every little thing on the task bar where only dameon tools was the only thing left showing.  wings of goddess seem to fail for any little thing that was on a task bar so shutting down every thing seem to finally let it pass. =3 now i can play it. hehehehe
+,StolenSoulz,2007-11-28T10:41Z,Now All We Need Are Some Reg Codes 
+,gwyden,2007-11-28T21:50Z,"yeah can't help you with those ;)  But according to other sources the xbox360/PS2 keys will work but do not quote me on that,"
+,Ascasir,2007-11-30T06:28Z,"I get the error ""Final Fantasy XI has not been installed. Please install Final Fantasy XI before attempting to install Final Fantasy XI: Wings Of The Goddess""
+
+Could this be because I am running an EU version of the game and this is the NA version? Does it really make that much difference?"
+,Ascasir,2007-11-30T06:39Z,"I managed to fix it! Any EU users that are wishing to download and use this torrent do this:
+
+To use EU Install on US Install, do this:
+
+1. Go to Start->Run: Type 'regedit' and press enter.
+2. Navigate to HKEY Local Machine -> Software > PlayOnlineUS, Right click PlayOnlineUS and click Rename.
+Note: the key name is HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\PlayOnlineUS\ for 64bit systems.
+3. Change the name of PlayOnlineEU to PlayOnlineUS
+4. Run AutoRunEx.exe from the EU files.
+5. Install WOTG.
+6. Back in Regedit, Rename PlayOnlineUS back to PlayOnlineEU.
+7. Open POL and register expansion key, do file check, done. PS2 and XBOX keys WORK ON PC INSTALL!! "
+,gal_name,2007-12-13T14:44Z,WHERE IS THE 360 VERSJON? :P 
+,CreameSupreme,2007-12-14T20:13Z,"Can some1 explain this progress step by step, i cant find a HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\PlayOnlineUS"
+,CreameSupreme,2007-12-14T20:32Z,"I mean, i have the same thing when i run the setup, 
+""Final Fantasy XI has not been installed. Please install Final Fantasy XI before attempting to install Final Fantasy XI: Wings Of The Goddess"""
+,gwyden,2007-12-16T16:17Z,"HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\PlayOnlineUS    Is only used if you are running a 64bit OS. For the normal people out there try these keys
+
+HKEY_LOCAL_MACHINE\SOFTWARE\PlayOnlineUS
+HKEY_LOCAL_MACHINE\SOFTWARE\PlayOnlineEU
+
+"
+,Shoxin,2008-01-06T12:17Z,"Do you rename the US into EU?
+
+Thanks for the upload ^__^"
+,Shoxin,2008-01-06T20:06Z,Alright nevermind found out what I should do.
+,whatkatiedid,2008-03-16T19:54Z,"Ascasir:
+
+I did the two first step.. Navigate to HKEY Local Machine -> Software
+
+But i can't find any ""PlayOnlineUS"" :S ?"
+,gtracer1031,2008-05-16T08:16Z,"im having the same problem as ^ whatkaitedid i found the first part in regedit 
+HKEY Local Machine
+Software
+but cannot find PlayOnlineUS or Wow6432Node
+please help!!! thankyou."
+,gtracer1031,2008-05-17T05:40Z,IT HAS NOT YET BEEN INSTALLED PLEASE HELP!!
+,117,2008-06-22T11:41Z,"I have the same problem. I can find HkeyLOCAL MACHINE->SOFTWARE but NOT playonline US or EU. I find wow6432node but nothinh more in it.
+
+Please someone help what to do if u don't have PlayOnline Us???"
+,NeedHelp057,2008-07-02T08:23Z,"What exactly do i have to do to install this , im new to this stuff"
+,ultramullet,2008-11-16T20:12Z,can someone seed please? I've been able to get 0 seeders for 2 days now
+,krazyrican,2009-01-05T03:05Z,"Great torrent, took a lil while to download but the file is perfect, installed with no problems at all, thanks."
+,koiwai,2011-05-01T03:31Z,"I realize this is a reference to a very old comment, but if there are any other EU users, that have problems installing this due to the ""Final Fantasy XI has not been installed. Please install Final Fantasy XI before attempting to install Final Fantasy XI: Wings Of The Goddess""-issue, do this: 
+
+1. Follow the first two steps of Ascasirs guide. 
+2. Locate the 0001-file in the PlayOnlineEU InstallFolder (the one that ends in '/FINAL FANTASY XI') and double-click on it.
+3. Copy Value data (an install path)
+4. Browse to the InstallFolder in the PlayOnlineUS folder.
+5. Right-click in the folder and select New>String Value and name it 0001.
+6. Paste your copied Value data and click OK.
+7. Install the game"
+,Th3Shad0wHunt3r,2012-05-03T19:53Z,"aww man i was downloading this and the trackers cut out- theres no more connected, so basically the torrent is dead. fuck, i was really looking forward to playing the game (and yh i know its been out a while)"

@@ -1,0 +1,31 @@
+MS WinSP3-RCR2-PREFINAL xpsp.071227-1539 sysfiles patched + MS Deployment - Preinstallation tOllkit *AxMan
+
+Content
+
+patched files:
+
+Disable Windows File Protection: sfc_os.dll (5.1.2600.3282)
+Max. Connection Limit 10 patched to unlimited for P2P TCP/IP Protocol Driver: tcpip.sys (5.1.2600.3282)
+pidgen.dll (Windows CD Key use any VLK Key - Student Edition for example)
+Microsoft UxTheme Library (allow use of unsigned themes): uxtheme.dll (6.0.2900.3282)
+
+Run Replacer, follow the instruction how to replace files by system reboot.
+
+patched cd files:
+
+copy/replace with setup cd /i386
+
+Extras:
+some small sys apps
+
+Themes:
+Windows Vista themes for XP
+(makecab, extract i386 standard files bliss = background,...)
+or using folder $OEM$ on cd
+
+by installed windows just xtract
+
+DEPLOY:
+MS Pre installation toolkit
+
+...

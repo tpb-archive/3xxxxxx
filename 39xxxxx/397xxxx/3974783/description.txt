@@ -1,0 +1,23 @@
+Halite v0.3.0 Final - BitTorrent Client
+
+Halite (named after the mineral) is a open source C++ BitTorrent client based on the excellent libtorrent library from Rasterbar Software. The program also relies on the Boost libraries and in the future on a own libHTTP for the still to be implemented remote control interface from Java enabled (MIDP 1.0) mobile phones. 32 and 64 bit versions are available.
+
+Halite support now 11 Languages
+The Program Halite.exe is only 756 KB upx micro + Language Files
+IP Filter support fixed and many more
+
+Features:
+
+    * Multiple downloads.
+    * Displays more detailed information for the selected torrent.
+    * Connection limits both global and per-torrent.
+    * Transfer rate limits again global and per-torrent.
+    * Trackerless torrents (using the Mainline kademlia DHT protocol).
+    * IP filtering with eMule ipfilter.dat import.
+    * Minimize to tray with transfer rate summary.
+    * Association with ".torrent" files.
+    * Option to limit the number of instances to one.
+    * Estimated time remaining indicator.
+    * Full Unicode support through UTF-8 and native Windows wide-char strings.
+    * Login support where tracker requires it.
+    * Ability to edit trackers specified in the torrent. 

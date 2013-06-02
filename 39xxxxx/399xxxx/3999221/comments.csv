@@ -1,0 +1,46 @@
+﻿User Type,Username,Date,Text
+,ladywink,2008-02-08T00:38Z,How do you use it? I have Fritz and it wont let me load it?
+[T],madman9999,2008-02-08T17:41Z,"First of all you can not load directly WINBOARD engines with Fritz!
+If you want to play WINBOARD engines with Fritz you must use an adaptor(wb2uci).
+See : http://home.online.no/~malin/sjakk/Wb2Uci/
+Fritz is designed to work with UCI engines or Fritz engines.
+See database I made if engine is UCI or WINBOARD compatible.
+
+Fritz was designed as a multi-engine system. This means that the graphical user interface and the actual chess engine (the module that calculates moves) are strictly separated. They use a pre-defined interface to communicate with each other.
+
+
+A UCI Engine is installed in Fritz using the menu ""Engines - UCI Engine"".
+
+Installing a UCI engine
+***********************
+
+Before a UCI engine is displayed in the Fritz engine dialog (F3) it has to be installed. This is done in a few simple steps:
+
+1. Select the option ""Create UCI engine"" in the ""Options"" menu.
+
+2. Next you must tell the program where the UCI engine is located. This is done by point and click in the file selector that appears. Use ""Browse"" and locate the UCI engine on your hard disk.
+
+3. The name of the engine and its author are automatically given. Simply click ""OK"" to install the engine, which will then be displayed in the Fritz engine list.
+
+4. Note that the UCI engine can be stored in any directory on any partition of your hard disk.
+
+
+Modifying engine parameters
+***************************
+
+Many UCI engines allow you to modify a number of search and evaluation parameters which influence the playing style of the engine. To change the parameters proceed as described above. In the ""Create UCI engine"" dialog click on the button ""Parameters"".
+
+Each UCI engine will display the parameters which can be changed, and which vary for different engines. If you change any of the parameters the input fields for ""Name"" and ""Author"" become active and can be modified, within the constraints described above.
+
+After clicking ""OK"" the new engine is registered and will appear in the Fritz engine list, together with the other UCI and native Fritz engines.
+
+Please note: modifying and storing an engine with a different name does not create a new copy of the engine on your hard disk. Only the modified parameters are stored under the new name and applied to the engine when this is started.
+
+If you have problems installing engines wit Fritz try ARENA Chess GUI at : http://www.playwitharena.com/
+It's winboard and UCI compatible."
+,echipvn,2008-02-27T01:44Z,Thanks for this!
+,Moodscapes,2008-08-27T19:29Z,"madman, thanks for the info. However, most of what you stated is explained in the Fritz help menu. What really needs to be adressed is issues that arise when attempting to install engines when running Windows Vista. In this case, be sure to run as Administrator and enable Compatibility Mode for WinXP (service pack 2) when installing. It should also be noted that if you did not install Fritz 10 and/or Chessbase 9 or earlier using the same procedure,  UCI engines will not install. The Rybka engine is an exception, as it won't install under Vista at all at this time."
+,mysticbardin,2008-12-02T20:46Z,"Excellent!...A great labour of love!..Thanks....!!! (Have not tested much but in the Smartthink folder, the patch.exe has a trojan... AVG will automatically delete it when you decompress)
+
+If you are updating it, do please post it. Thanks."
+,bun8daysaweek,2010-06-21T18:36Z,"uploader, thanks alot mate for your time and effort in compiling this torrent - much appreciated."

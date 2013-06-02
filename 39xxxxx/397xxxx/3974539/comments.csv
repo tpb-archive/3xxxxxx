@@ -1,0 +1,66 @@
+﻿User Type,Username,Date,Text
+[T],_Maelstrom_,2008-01-13T04:09Z,It would be nice if you could list the details of this release here or make an nfo we can dl. A program like GSpot (http://www.headbands.com/gspot) or MediaInfo (http://mediainfo.sourceforge.net) can give you the files audio and video information.
+,Carlovr69,2008-03-26T07:10Z,French only
+[V],Kuthumi,2008-10-11T07:48Z,"Thank you, jimhi. 
+Carlovr69, your comment is wrong. The audio is dual track, #1 = English and plays in WMP, #2 = French stereo can be chosen in other players.
+And Mr. Maelstrom, here is your analysis:
+Format/Info                      : Audio Video Interleave
+File size                        : 1.36 GiB
+Duration                         : 1h 43mn
+Overal bit rate                  : 1889 Kbps
+Writing application              : VirtualDubMod 1.5.4.1 (build 2178/release)
+Writing library                  : VirtualDubMod build 2178/release
+IAS1                             : English
+IAS2                             : Franรงais
+
+Video
+Format                           : MPEG-4 Visual
+Format profile                   : Streaming Video@L1
+Format settings, BVOP            : Yes
+Format settings, QPel            : No
+Format settings, GMC             : No warppoints
+Format settings, Matrix          : Default
+Muxing mode                      : Packet Bitstream
+Codec ID                         : XVID
+Codec ID/Hint                    : XviD
+Duration                         : 1h 43mn
+Bit rate                         : 1310 Kbps
+Width                            : 688 pixels
+Height                           : 384 pixels
+Display aspect ratio             : 16/9
+Frame rate                       : 25.000 fps
+Resolution                       : 8 bits
+Colorimetry                      : 4:2:0
+Scan type                        : Progressive
+Bits/(Pixel*Frame)               : 0.198
+Stream size                      : 968 MiB
+Writing library                  : XviD 1.2.0SMP (UTC 2006-01-08)
+
+Audio #1
+Format                           : AC-3
+Format/Info                      : Audio Coding 3
+Codec ID                         : 2000
+Duration                         : 1h 43mn
+Bit rate mode                    : Constant
+Bit rate                         : 448 Kbps
+Channel(s)                       : 6 channels
+Channel positions                : Front: L C R, Rear: L R, LFE
+Sampling rate                    : 48.0 KHz
+Stream size                      : 331 MiB
+
+Audio #2
+Format                           : MPEG Audio
+Format version                   : Version 1
+Format profile                   : Layer 3
+Codec ID                         : 55
+Codec ID/Hint                    : MP3
+Duration                         : 1h 43mn
+Bit rate mode                    : Variable
+Bit rate                         : 115 Kbps
+Minimum bit rate                 : 128 Kbps
+Channel(s)                       : 2 channels
+Sampling rate                    : 48.0 KHz
+Resolution                       : 16 bits
+Stream size                      : 85.2 MiB
+Writing library                  : LAME3.97b
+Encoding settings                : ABR"

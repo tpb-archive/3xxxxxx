@@ -1,0 +1,26 @@
+﻿User Type,Username,Date,Text
+,Da__Fox,2007-12-08T01:18Z,"Hi, has anyone found a key/serial yet? Without one this pretty useless :-("
+,Da__Fox,2007-12-08T02:03Z,"This one worked for me:
+1TMYT-T0L2X-J24FU-4MDZK
+
+You might also try one of these (they were a set of 4):
+M15YR-429DA-YAH6F-4WRX7
+N1HPX-6U248-D206Y-4Y8Z6
+YHE88-5KCDW-C84DF-4YDQ6"
+,techmester,2007-12-11T00:17Z,"hi, I'm quite new to Linux.... so could someone tell me how to install this type of file??!!
+I tried several way but...........:)"
+,Kzin,2007-12-19T05:37Z,"Open a terminal...
+tar -xvzf filename.tar.gz
+cd vmware-distrib
+then as ""root""
+./vmware-install.pl
+or if you dont have root, like ubuntu
+sudo ./vmware-install.pl"
+,techmester,2007-12-23T23:44Z,Thx Kzin!!!!!!!!!!!!!!
+,Rwilds,2008-01-17T00:05Z,Holy Crap seeder!  Fast as hell :D
+,funnyname,2008-01-21T00:27Z,"thanks @ph0eniGZ
+and @Da__Fox @Kzin for coming back to the comments to support other people. that s great. big smile!"
+,soZexy,2008-02-01T06:40Z,"@techmester,  you also have option thru Synaptic package manager in Ubuntu. It's in third party repos for Canonical. (system>admin>software sources) then search for VMware server in Synaptic
+ hope it helps someone :)"
+,maineimis,2008-03-04T20:49Z,Thanks ph0neiGZ for the upload and thanks kzin for the help! ;)
+,gh1r0,2008-03-18T19:10Z,thank you for the effort.

@@ -1,0 +1,185 @@
+Exact Audio Copy V0.99 prebeta 3 from 28. July 2007
+
+EAC extraction logfile from 23. December 2007, 1:06
+
+Mannheim Steamroller / Christmas in the Aire
+
+Used drive  : SONY    DVD RW DW-D26A   Adapter: 1  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : Yes
+
+Read offset correction                      : 12
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : No
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Not detected, thus appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 768 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:\Program Files\Exact Audio Copy\FLAC\FLAC.EXE
+Additional command line options : -8 -A tukey(0.25) -A gauss(0.1875) -V -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  3:39.57 |         0    |    16481   
+        2  |  3:39.57 |  3:10.73 |     16482    |    30804   
+        3  |  6:50.55 |  3:15.40 |     30805    |    45469   
+        4  | 10:06.20 |  3:34.35 |     45470    |    61554   
+        5  | 13:40.55 |  4:50.03 |     61555    |    83307   
+        6  | 18:30.58 |  3:57.22 |     83308    |   101104   
+        7  | 22:28.05 |  3:56.73 |    101105    |   118877   
+        8  | 26:25.03 |  3:02.00 |    118878    |   132527   
+        9  | 29:27.03 |  3:52.33 |    132528    |   149960   
+       10  | 33:19.36 |  4:08.21 |    149961    |   168581   
+       11  | 37:27.57 |  1:48.74 |    168582    |   176755   
+       12  | 39:16.56 |  4:30.27 |    176756    |   197032   
+
+
+Track  1
+
+     Filename Z:\rox\audio\music\flac\Mannheim Steamroller\Christmas in the Aire\Mannheim_Steamroller_-_Christmas_in_the_Aire_-_01_-_Joy_to_the_World.wav
+
+     Peak level 99.9 %
+     Track quality 100.0 %
+     Test CRC 5EC51C5B
+     Copy CRC 5EC51C5B
+     Accurately ripped (confidence 72)  [F9ED83A1]
+     Copy OK
+
+Track  2
+
+     Filename Z:\rox\audio\music\flac\Mannheim Steamroller\Christmas in the Aire\Mannheim_Steamroller_-_Christmas_in_the_Aire_-_02_-_Joseph_Dear_Oh_Joseph_Mine.wav
+
+     Peak level 76.7 %
+     Track quality 100.0 %
+     Test CRC 7678E9E2
+     Copy CRC 7678E9E2
+     Accurately ripped (confidence 71)  [98943593]
+     Copy OK
+
+Track  3
+
+     Filename Z:\rox\audio\music\flac\Mannheim Steamroller\Christmas in the Aire\Mannheim_Steamroller_-_Christmas_in_the_Aire_-_03_-_Rudolph_the_Red_Nosed_Reindeer.wav
+
+     Peak level 100.0 %
+     Track quality 99.8 %
+     Test CRC BD68B5D8
+     Copy CRC BD68B5D8
+     Accurately ripped (confidence 72)  [A484E8CD]
+     Copy OK
+
+Track  4
+
+     Filename Z:\rox\audio\music\flac\Mannheim Steamroller\Christmas in the Aire\Mannheim_Steamroller_-_Christmas_in_the_Aire_-_04_-_Herbei,_oh_ihr_Glï¿½ubigen_(O_Come_All_Ye_Faithful).wav
+
+     Peak level 44.9 %
+     Track quality 100.0 %
+     Test CRC 12F92881
+     Copy CRC 12F92881
+     Accurately ripped (confidence 72)  [3B964019]
+     Copy OK
+
+Track  5
+
+     Filename Z:\rox\audio\music\flac\Mannheim Steamroller\Christmas in the Aire\Mannheim_Steamroller_-_Christmas_in_the_Aire_-_05_-_Pat_A_Pan.wav
+
+     Peak level 98.8 %
+     Track quality 99.9 %
+     Test CRC 74A38E81
+     Copy CRC 74A38E81
+     Accurately ripped (confidence 72)  [4E6EBFEC]
+     Copy OK
+
+Track  6
+
+     Filename Z:\rox\audio\music\flac\Mannheim Steamroller\Christmas in the Aire\Mannheim_Steamroller_-_Christmas_in_the_Aire_-_06_-_O'_Little_Town_of_Bethlehem.wav
+
+     Peak level 79.4 %
+     Track quality 100.0 %
+     Test CRC 0B2A2B51
+     Copy CRC 0B2A2B51
+     Accurately ripped (confidence 73)  [0EDC3268]
+     Copy OK
+
+Track  7
+
+     Filename Z:\rox\audio\music\flac\Mannheim Steamroller\Christmas in the Aire\Mannheim_Steamroller_-_Christmas_in_the_Aire_-_07_-_Angels_We_Have_Heard_on_High.wav
+
+     Peak level 99.9 %
+     Track quality 100.0 %
+     Test CRC 0DF3644D
+     Copy CRC 0DF3644D
+     Accurately ripped (confidence 73)  [09A2E039]
+     Copy OK
+
+Track  8
+
+     Filename Z:\rox\audio\music\flac\Mannheim Steamroller\Christmas in the Aire\Mannheim_Steamroller_-_Christmas_in_the_Aire_-_08_-_Gagliarda.wav
+
+     Peak level 79.4 %
+     Track quality 99.8 %
+     Test CRC B642D4FB
+     Copy CRC B642D4FB
+     Accurately ripped (confidence 72)  [9EAFA1EC]
+     Copy OK
+
+Track  9
+
+     Filename Z:\rox\audio\music\flac\Mannheim Steamroller\Christmas in the Aire\Mannheim_Steamroller_-_Christmas_in_the_Aire_-_09_-_Los_Peces_en_el_Rï¿½o.wav
+
+     Peak level 91.1 %
+     Track quality 100.0 %
+     Test CRC D9E146ED
+     Copy CRC D9E146ED
+     Accurately ripped (confidence 72)  [E5123D00]
+     Copy OK
+
+Track 10
+
+     Filename Z:\rox\audio\music\flac\Mannheim Steamroller\Christmas in the Aire\Mannheim_Steamroller_-_Christmas_in_the_Aire_-_10_-_Christmas_Lullaby.wav
+
+     Peak level 100.0 %
+     Track quality 99.9 %
+     Test CRC A31999BA
+     Copy CRC A31999BA
+     Accurately ripped (confidence 74)  [00B58463]
+     Copy OK
+
+Track 11
+
+     Filename Z:\rox\audio\music\flac\Mannheim Steamroller\Christmas in the Aire\Mannheim_Steamroller_-_Christmas_in_the_Aire_-_11_-_Kling,_Glï¿½ckchen.wav
+
+     Peak level 35.4 %
+     Track quality 99.8 %
+     Test CRC 18287662
+     Copy CRC 18287662
+     Accurately ripped (confidence 74)  [78A9A858]
+     Copy OK
+
+Track 12
+
+     Filename Z:\rox\audio\music\flac\Mannheim Steamroller\Christmas in the Aire\Mannheim_Steamroller_-_Christmas_in_the_Aire_-_12_-_Jingle_Bells.wav
+
+     Peak level 97.8 %
+     Track quality 100.0 %
+     Test CRC 7E21C6C3
+     Copy CRC 7E21C6C3
+     Accurately ripped (confidence 72)  [73E73796]
+     Copy OK
+
+
+All tracks accurately ripped
+
+No errors occurred
+
+End of status report

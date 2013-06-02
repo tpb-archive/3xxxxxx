@@ -1,0 +1,156 @@
+﻿User Type,Username,Date,Text
+,poepschoen,2007-12-01T23:35Z,"Woohoo, Remind me of some good oldskool times!! Thanks for uploading! Bleeeep on!!"
+,BaboucheMan,2007-12-02T05:52Z,"Hi there & thanks again ! Writing grateful comments is one thing, helping to seed these fine torrents is another !  Anyway, if some of my bandwidth is needed for upping Amiga demos videos, its all yours !
+
+By the way, an additional GB of RAM could bring the marginal power your computer needs for a perfect encoding. And when you have the dough, well, go for the Athlon64 platform !
+
+Side note :
+I am still looking for a demo with an animated Magic Bytes logo (golden hands and a blue orb)"
+,J.Tramiel,2007-12-02T11:53Z,"Cheers Babouche,
+
+I'm getting a Dual Core Athlon X6000+ based system with 2GB RAM soon - so future releases should be easier.  Although processing power alone doesn't improve encoding quality, this is a codec/software issue.
+
+Anyhow - regarding your Magic Bytes query - are you sure it's from a demo and not a game, Magic Bytes were a German software developer:
+
+http://hol.abime.net/hol_search.php?N_ref_publisher=143
+
+Or maybe they did some demo stuff too?  I didn't see any reference to Magic Bytes on any scene sites though, so I don't know."
+,J.Tramiel,2007-12-02T12:10Z,"PS regarding seeding -
+
+I seeded the other DVDs for about a month after releasing them.  I can't seed forever you know.  Not my fault there are so many leechers out there. "
+,BaboucheMan,2007-12-02T17:55Z,"mmm...not sure that the audio issue is related to the encoding software. Here are some of my audio settings in WinUAE, they were chosen for maximum compatibility :
+interpolation : disabled
+Channel mode : cloned stereo
+Audio filter : always on
+Sound buffer size : 7
+
+Also, the priority given to WinUAE should be above normal.
+
+Concerning the demo, the Beastie Boys used the logo for one of their intros called the magic intro.
+Also, Magic Bytes were on the C64 market
+but it's another demo I have in mind, more complex, in which the fingers were moving accordingly to the music. (could be from a group with ""bytes"" in it, like Byterapers)
+
+Ah ! how many DVDs like this it would take to exhume all the glory of the Amiga demo scene from the era of 3""5 floppies !"
+,J.Tramiel,2007-12-02T22:42Z,"I didn't use WinUAE for any of these DVDs though.  All videos were grabbed from a real amiga and encoded in realtime using an external video capture device.  Therefore what you see is what you get from running the demo on the real deal.
+
+However MPEG capture devices can throw a right wobbler when they try to 'clean up' interference patterns, etc.
+
+And if anyone has tried to capture Fairlight's Love demo - the constant switching between PAL / NTSC usually totally crashes your computer.
+
+Anyhoo, I will keep a look out for this demo you are after, and if I do find it, I promise it will be on my next release."
+,BaboucheMan,2007-12-03T23:06Z,"That's nice of you.
+
+Here are some of my favorite amiga demos (it's rather classic but might give you some ideas) 
+D is for demo, MD for megademo
+
+MD RSI
+MD Access [AGA] (seems relatively unknown)
+MD Anarchy 3D
+MD Frlt III
+MD Kef. VIII
+MD CryptoBurners II
+MD Rebels II
+D TRSI Boulder
+D Antitrax2010
+D ATZ II
+D Quartex Substance
+D The Special Bros
+MD Dragons
+Prime90
+Synthesis
+Wicked Sensation
+
+
+I noticed the sound recording has vastly improved and that you included the cynical Bidon Dezign demo, obviously made by french people. (funny demo adressed to the sometimes self-indulgent coders, not unlike the Gen4 demo)"
+[T],Ancient_Prime,2007-12-27T23:18Z,"Hi! Amiga fans!!!!
+I'm old school amiga freak
+and i have all amiga demos and games in DMS Arhive.
+but my  amiga don't work any more.
+a1200 with hard disk and extra memory 
+& 60040 chipset. I hate emulators
+and i'll never expect to see any of these
+stuff alive.tnx for this i really respect all amiga scene & i'll never forget old school amiga days.
+can enyone tell me some links of Pc demos similar this amiga demos?"
+,J.Tramiel,2008-01-01T14:29Z,"Hi there Ancient_Prime,
+
+Youtube has quite a few Amiga demos posted - and here's a site that has some nice ones to watch as videos (DivX):
+
+http://www.amigademopodcast.com/category/podcast
+
+Have phun!"
+,J.Tramiel,2008-01-01T14:31Z,"Oh, and for PC Demo stuff try these:
+
+http://www.pouet.net
+
+http://www.scene.org"
+[T],Ancient_Prime,2008-01-07T19:34Z,Tanx! Guys Respect from me!!!!!
+,BaboucheMan,2008-02-29T12:14Z,"@Ancient_Prime :
+I do not see what there is to hate in emulators. Commodore sell PCs these days, they could not maintain proper Amiga hardware operations. So if you really want to blame someone... 
+
+Furthermore, I find emulating computers more challenging than emulating consoles... WinUAE is simply an incredible piece of software, through which you can practise workbenches but also load a full-blown AmigaOS.
+
+@ Tramiel :
+I finally found where it belongs. 
+It is the 3rd part of the DefJam / RedSector first Megademo. 
+
+Before you can play this part, the cursor is stuck, you need to press the mouse button a couple of times... read the scrollings, it really feels like if it was buried under a load of garbage.
+
+This demo rocks big time, no doubt you will have a hard time quitting watching it !"
+,BaboucheMan,2008-03-06T00:50Z,"Here is a story I picked from Amiga Forever web site, to illustrate my point, if needed :
+
+Imagine this... Jay and Tom are two Amiga enthusiasts, and Jay just told Tom that he has ""a portable Amiga"". Of course Tom immediately wants to see it, so he runs to Jay's place.
+
+Jay has no time to explain how this notebook works, because Tom, intrigued by this small wonder, already started experimenting with the device. He types ""Config"" in the Shell, selects ""About"" in the Workbench menu, plays Marble Madness (""An Amiga notebook with stereo sound!""), runs a few other programs (""It even has the custom chips!""), opens different types of screens, drags them, checks the contents of the hard disk partitions, etc.
+
+""Where are the Amiga keys?"", asks Tom. Jay explains that this is a PC keyboard, and that the Amiga keys are mapped to the two Windows keys. Tom goes on, reboots the Amiga, selects the Amiga boot screen, and performs a number of other tests.
+
+""That's cool, I want one too!"", he concludes. At last, Jay has a chance to explain that this is a standard notebook with a 500 MHz Intel CPU running the UAE emulator. ""Oh, no, that's fake, it's not real!"", replies Tom, almost angrily, and physically distancing himself from the notebook.
+
+What happened? We don't know exactly. Everything seemed to be perfect until Tom had the knowledge that he was using a software Amiga, rather than a silicon one."
+,BaboucheMan,2008-03-20T11:43Z,"Hi !
+I mentionned it here already but I was wondering if you could include the First AGA Access Megademo in the next DVD, along with the Defjam / RSI one, plz :)"
+,BaboucheMan,2008-03-20T12:09Z,"
+Also missing, inmho :
+
+- 3D Demo II - Anarchy
+http://kestra.exotica.org.uk/demo.php?id=234
+
+- Fairlight Megademo III
+http://kestra.exotica.org.uk/demo.php?id=1924
+
+- Kefrens Megademo VIII
+http://kestra.exotica.org.uk/demo.php?id=837
+
+- Alcatraz Megademo III
+http://www.pouet.scene.org/prod.php?which=14533
+
+- Rebels Megademo II
+http://kestra.exotica.org.uk/demo.php?id=409
+
+- Cryptoburners Megademo II
+http://kestra.exotica.org.uk/demo.php?id=6399
+
+
+may be a few trackmos to add variety :
+- Rebels ""Megablast""
+- Beastie Boys ""MagicSound""
+- Silents ""Ice""
+
+
+Again, if you need help, you're more than welcome."
+,BaboucheMan,2008-04-16T14:57Z,"@Tramiel
+
+Sory to post again buddy, but I am in the process of capturing some demos videos at this very moment. Could you tell me what you're up to ? 
+
+My idea is to send you videos of demos you haven't dealt with yet, in the correct format. 
+
+Also, it would prevent having duplicates in our collections, if you're planning to continue releasing DVDs.
+
+my email address is wli-dgle (at) iximail.com"
+,BaboucheMan,2008-04-20T11:02Z,"I almost forgot you made those demos from a real Amiga. :-/
+
+I plan to make quality captures, then possibly compile them on a DVD, you'll be the first to know if that happens.
+
+If you need the disks from the demos I enumerated, they are all yours.
+
+Again, you did a great job on those 4 DVDs (the other old school one being my favorite)."

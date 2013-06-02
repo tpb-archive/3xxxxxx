@@ -1,0 +1,57 @@
+Iuli's Unattended Windows XP Unlimited Edition
+
+Hi, 
+After a lot of work, 7 Betas and 3 RCs, i'm happy to announce that Windows XP Unlimited Edition v2 is finally released. So, i'll go directly to the subject ! 
+
+Windows XP Unlimited Edition represents an inovation to Windows XP. It is fast, secure and it comes with updated source (until the release date), drivers(a wide collection of drivers is included,so you won't need to install not even one), regtweaks, applications, shell extensions and many more.
+
+
+Minimum Requirements :
+-192 MB of RAM (256 or more for Vista-Like theme);
+-5 GB Hard-Disk Space;
+-32 MB Video Card (or more for some other Vista-like visual customization);
+-400 Mhz Processor.
+
+Installation :
+-Burn the ISO, after extraction (using any extractor you want), on a DVD. Then it's up to you which installation method you would like to use.
+-Installtion is fully automated (with the exception of attended one).
+-No activation is required. This is built on Corporate Edition of Windows XP SP2. 
+-Both "New Installation" and "Upgrade" one are supported. And attended and unattende as well.
+
+Features :
+-All Post-SP2 Updates are included (until the release date).
+-All common drivers included( CPU, Chipset, Graphics, LAN, Sound, WLAN, MassStorage, Modem, Monitor, TV-Tuner, Scanner, Broadband, USB, Webcam, Additions, Input, Misc, Virtual). You will need to install only Printer drivers, if you have one.
+-Control Panel extensions ( for better use and accesibility) for common daily activities.
+-Registry tweaks for performance.
+-New right-click options, especially for end-users.
+-A huge collection of applications, which cover the needs of all type of users.
+-CPanel (created by me), so you will choose which visual apps to apply. It runs with startup.
+-Vista applications (Vista Movie Maker, Vista Sidebar, Vista Photo Gallery, Vista Paint, Notepad, Calculator, etc).
+-Runtimes for end users (this includes all .NET Framework applications).
+-DirectX 9.0c November.
+-Internet Explorer 7 and Windows Media Player 11.
+-Patched Icons, BootSkin, LogonScreen, TaskManager
+-All bugs reported to the previous version were fixed.
+
+The Unique Vista Interface :
+-Full Transparency supported;
+-Full StartMenu orb;
+-Fully functional StartMenu;
+-Flip-3D (Default keys to switch between apps are : Alt+Tab);
+-Sidebar (the *.gadget files are supported now);
+-Clock;
+-Media Center(Nero Home);
+-Transparent notification pop-up;
+-Calendar;
+-Multiple Desktops (Default keys to switch between desktops : Ctrl+Shift+Alt);
+-Working AdressBar and Search (You have to enable this by yourself. Look in the manual.);
+-Transparent Dock;
+-For slow computers, Vista-like msstyle theme;
+-And many more ...
+
+Known Issues :
+-.NET Framework AIO is installed during setup. It will take a while until it's done, but don't worry, the setup doesn't freeze.
+
+Possible Issue :
+-There may be bugs with CPanel, so report them, if you find any.
+-Crash between application that make UI look like Vista. (ViOrb and TrueTransparency, look for details in the manual)

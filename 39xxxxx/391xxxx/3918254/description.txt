@@ -1,0 +1,23 @@
+JB KeyState v2.1.2.76 - a must have for users of keyboard's with no status led's..
+
+A small application that show the state of the Caps, Scroll & Num using window, trayicon & sound.
+It is customizable with many options, set or force any state is also possible.
+
+languages: English & Norwegian.
+
+JB KeyState er ett lite program som kan vise status på Caps, Scroll & Num. Måten dette gjøres på
+bestemmes individuelt av bruker, og kan tilpasses med lyd, bilde & bruk av systemstatusfelt.
+
+Changelog:
+
+KeyState v2.1.2.76:
+Reenabled theme support lost due to an error editing resources in JbKeyState.exe.
+Removed transparent background on new main startup-screen (ugly on dark backgrounds).
+
+Setup v1.0.1.16:
+Fixed error overwriting files when keystate is closed during installation (i hope).
+It is strongly reccomended that you exit the KeyState program before you start the keystate setup program.
+
+KeyState v2.1.2.75:
+Fixing error on no more responce when showing exit-application question-box.
+Changed startupscreen.

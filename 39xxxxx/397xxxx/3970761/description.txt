@@ -1,0 +1,50 @@
+The Boson NetSim simulates both switching bridge tables and routing protocol tables to allow you to go OUTSIDE the labs. The Boson NetSim makes it possible to design and configure a network with 40 different router models and three different Catalyst switch models to choose from. BSCI, ISCW, BCMSN and ONT labs are available in the current version
+
+# IPv6 addressing
+# OSPFv3 using IPv6 addresses
+# Multicasting configuration 
+# New implementation of OSPF, now with Multi-Area
+# Summarization for RIPv2 and EIGRP
+# New implementation of the routing table
+# Update utility included to download latest files available 
+
+Boson Netsim for CCNP 7 is containing labs that are covering next exams:
+640-802 :: CCNA  	                                                CCNA
+640-816 :: ICND2 (Interconnecting Cisco Networking Devices Part 2) 	CCNA
+640-822 :: ICND1 (Interconnecting Cisco Networking Devices Part 1) 	CCENT
+640-863 :: DESGN (Designing for Cisco Internetwork Solutions) 	        CCDA
+642-901 :: BSCI (Building Scalable Cisco Internetworks) 	        BSCI
+
+also
+
+BCMSN
+ISCW
+ONT
+BCRAN (after update)
+
+Installation Notes
+__________________
+
+1. The very first thing u must to do, its install both simulators Boson Netsim For CCNP 6 Beta 3 (its in archive) and Boson Netsim for CCNP 7
+
+2. Run Boson Netsim For CCNP 6 Beta 3 . when app will ask u for registration simply cancel it. then go to the menu Ordering. There u can find serial number for key generator, for generation the next key u need for complete registration. Okey now i hope u've registered Boson Netsim For CCNP 6 Beta 3.
+
+3. Install Boson Netsim for CCNP 7. Run Demo version once! Wait for lab packages would be extracted! Then u can close this programm and never turn on it again !!!!!!!!
+
+4. Go to the Boson Netsim For CCNP 6 Beta 3 installation folder ( C:Program FilesBoson SoftwareBoson NetSim for CCNP ). There u can find next files and foilders to be deleted.
+There are : LabPacks (folder), MyLabs (folder) and LabSettings.ini (file). (IMPORTANT)
+
+OKEY now we are almost done !!!
+
+5. Extract from "BOSON new LABS" archive files and folders (LabPacks, MyLabs,LabSettings.ini) to the Boson Netsim For CCNP 6 Beta 3 installation folder.
+
+6. After this procedures u can run Boson Netsim For CCNP 6 Beta 3 (shortcuts alredy on your desktop). Now u can see all new LABS for CCNA CCENT CCNP. All comands for all devices and all mods will be fully working.
+
+Also u can run update for Boson Netsim For CCNP 6 Beta 3, for new commands , new LABS like BCRAN etc.
+Everithing will be still working.
+
+After u've done everything, u can forget about installed Boson Netsim for CCNP 7 because no one has crack for it. U need NETSIM 7 installed on your computer becouse NETSIM 6 after procedures listed above would be using NETSIM 7 files. So u can delete NETSIM 7 (Designer & Netsim) shortcuts from your desktop and leave only NETSIM 6 icons there.
+
+
+4 u by DarkSlayer (rhino1988@mail.ru)
+		

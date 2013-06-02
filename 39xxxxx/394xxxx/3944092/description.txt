@@ -1,0 +1,26 @@
+This info is taken from a forum somewhere credits goes to Popej & Fukor..
+The Tools required is baked in with this release.
+You can for exempel import not yet released mapproducts to Mapsource like City Navigator Europe NT 2008 from a gmapsupp.img file.
+This is not a perfect solution but it works. Somehow =)
+
+You need some tools to get the work done. Look for cgpsmapper, MapSetToolKit and GmapTool. Unpack and install all this tools. Cgpsmapper and GmapTool are command line programs, you need to start them from command line window or from any Norton Commander clone like Total Commander. 
+
+I assume that you have Mapsource installed and that your GPS with preinstalled maps is recognised by Windows as a removable drive, for example as drive I: 
+
+Begin with creating an empty directory for your map. Put cgpsmapper and gmaptool in this directory and make it current work directory for subsequent commands. 
+
+Unpack your map with gmaptool: 
+>gmaptool -S I:garmingmapprom.img
+
+You will get several different files in your work directory. These are maps and additional files for Mapsource. You need to compile preview map: 
+>cgpsmapper mapset00.mp
+
+Now you can use MapSetToolKit. Start it and choose "Install A Existing Mapset". You have to point to tdb file mapset00.tdb, preview file mapset00.img and invent a registry name. Install and your map should be visible in Mapsource. 
+
+You have to unlock map in Mapsource. Simply input 25-character unlock code from your device. This can be found on papers attached to your GPS, on mygarmin.com after registration, in file garminGarminDevice.xml or garmingmapprom.unl or in a file gmaptool00.unl in map directory on your PC. 
+
+And as usually: no guarantee, Mapsource may crash, use at your own risk and responsibility. 
+
+If Mapsource crashes use MapSetToolKit to remove new map.
+_________________
+popej 

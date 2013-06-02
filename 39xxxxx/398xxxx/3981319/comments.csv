@@ -1,0 +1,136 @@
+﻿User Type,Username,Date,Text
+[T],NightyNinetY,2008-01-17T12:35Z,"Mjo =)
+
+Har väntat ett tag på denna..
+
+Det ska stå C:\Garmin uppe i texten btw.."
+,zanoi,2008-01-18T12:14Z,"Äntligen! Men.. någon chans att få originalreleasen? Reggad eller inte spelar ingen roll. 
+
+(Alla kör ju inte windows och då har man varken C:\ eller register.)"
+,Ltrex,2008-01-18T15:04Z,Toppen! Thanx! =D
+,snuffe173,2008-01-18T15:40Z,"Tackar så mycket,väntat länge.
+Men som sagt du har inte möjlighet att lägga upp orginalfilerna för en instalation??
+Vore toppen isf"
+[T],NightyNinetY,2008-01-18T16:14Z,"Har inte tillgång till orginalet, denna kommer från ett minneskort från början. Men kartorna är ju dom samma, vilket kanske är viktigast! =)
+
+Det är enkelt att redigera reg filen om man vill ändra sökvägar eller anpassa till något annat operativ.. bara att öppna & ändra/spara med anteckningar el dylikt"
+,zanoi,2008-01-18T17:35Z,"NightyNinetY: Ja, problemet är att det bara är windows som använder registret och därmed registerfiler.
+
+Nåja, det här får funka, jag får se om jag orkar leta reda på en windowsburk och konvertera kartorna. I så fall lägger jag upp dem."
+,zanoi,2008-01-18T17:36Z,"Anyways.. tack för uppladdningen, har väntat länge på den här."
+,snuffe173,2008-01-18T17:38Z,"Nej det viktigaste är att det fungerar och det gör det =)
+Fick trixa lite med reg filen annars fungerar det kanon,provat på min 60CSx utan några problem.
+Än en gång ett stort TACK"
+,Slorv,2008-01-18T18:38Z,"Men tack!!! Äntligen!
+
+Och här en till som inte använder Windows så en komplett ISO image vore mums. Får se om det inte går att skaka fram en sådan på nåt vis..."
+,snuffe173,2008-01-18T18:55Z,"Någon som har Topo Pro Bodø,Tromsø,Kautokeino,Alta,Nordkapp,Kirkeneseller har någon bra länk "
+,zanoi,2008-01-19T01:18Z,"Om man har 64-bitars Windows funkar det med den här registerfilen:
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Garmin\MapSource\Families\FAM_796]
+""ID""=hex:1c,03
+""MDR""=""C:\\Garmin\\FAM_796\\MDRMAP.IMG""
+""IDX""=""C:\\Garmin\\FAM_796\\product.mdx""
+""UnlockURL""=""http://www.garmin.se/friluftskartanpro""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Garmin\MapSource\Families\FAM_796\1]
+""Bmap""=""C:\\Garmin\\FAM_796\\Friluftskartan Pro - Mellersta och Södra Norrland.img""
+""Tdb""=""C:\\Garmin\\FAM_796\\Friluftskartan Pro - Mellersta och Södra Norrland.tdb""
+""Loc""=""C:\\Garmin\\FAM_796""
+"
+,zanoi,2008-01-19T10:36Z,Slorv: OS X? Säg till om du lyckas konvertera denna + FriPro Götaland så de funkar. Jag lyckas bara få Norra Norrland och Svealand att funka när jag har konverterat dem mha MapConverter.
+[T],NightyNinetY,2008-01-19T17:58Z,zanoi: vilket operativ har du? Kör själv win vista x64 och det fungerar perfekt med regfilen som medföljer =)
+[T],NightyNinetY,2008-01-19T22:37Z,Kan lägga till att det är viktigt att man har nån mapsource/kartprodukt installerad innan man försöker lägga in den här! Annars kommer det såklart inte att fungera!
+[T],NightyNinetY,2008-01-24T07:17Z,Det fungerar fint att lägga in flera olíka kartprodukter samtidigt. Överför kartorna med mapsource är väl enklast. Beroende på vilken GPS modell du har så skiftar man mellan olika kartor i den.
+,roathan,2008-01-30T16:42Z,"Någon som har en fungerande mapsource som funkar till denna?
+Skulle vilja ha in denna på min Garmin Mobile XT."
+,roathan,2008-01-30T21:58Z,"Could someone please explain how i can have this works on my Garmin Mobile XT?
+I dont have mapSource. Anybody knows where i can find a mapsource for this.
+Maybe how to guide :-)"
+,roathan,2008-01-31T22:21Z,"Garmin nybörjare här!!
+Hur får jag över denna karta till min Garmin Mobile XT??
+
+Har lagt filen FAM_796 med innehåll i C:\\Garmin.
+Har installerat Mapsource
+
+Men sedan då?
+
+Evigt tacksam för tips.
+
+Har bara använt Tomtom tidigare."
+[T],NightyNinetY,2008-02-01T01:46Z,"anders16000: Det är inte så enkelt att låsa upp en hel orginalversion, det kräver förutom att man låser upp alla kartorna att även andra filer modifieras för att kringå skyddet.. =)
+"
+[T],NightyNinetY,2008-02-01T01:52Z,"roathan: Tja, sett till ditt senaste inlägg så är det bara att köra regfilen för att få det att fungera under windows. Har inte testat med Mobile XT själv så vet inte ifall man föra över kartor/koder från Mapsource. Annars får du skapa en gmapsupp.img fil med dom kartor du vill lägga in. Finns mycke info om det här på TPB. Denna är ju enklare än dom andra då kartorna redan är upplåsta =)"
+,roathan,2008-02-01T07:59Z,NightyNinetY: Hittar inget i Mapsource hur jag för över (Hittar ingen karta att markera) Hur fixar man till en gmapsupp.img fil??
+[T],NightyNinetY,2008-02-01T18:41Z,"roathan: Har du kört regfilen så att den infon ligger i registret? Låter som du inte gjort det då du inte får upp Friluftskartan Pro - Mellersta och Södra Norrland i Mapsource..
+
+Vilket operativ kör du?"
+,roathan,2008-02-01T19:25Z,Det har löst sig nu! Tack för hjälpen!
+,Tompasj,2008-02-06T23:20Z,"Hej Kan någon hjälpa mig att få in Friluft pro Götaland i Mapsource?
+Förklara för en nybörjare. Har lyckats med denna som var suveränt bra."
+,garminfriend,2008-02-29T07:04Z,Is someone here who has a complete image of this cd? Its more easier for installing than manipulating the registry.
+,ss440,2008-03-10T16:27Z,"Funkade klockrent på min Nuvi 200! Denna Torrent var nog en av dom mest efterlängtade ever, Tackar!!"
+,V--STROM,2008-03-31T21:52Z,"Hej alla, måste få fråga en liten sak. Regfilen som är med...får du verkligen kartan att funka i Mapsource? om man tittar på hur den är skriven så undrar jag faktiskt....någon?
+
+v--strom"
+,Labtech,2008-04-05T23:53Z,Efterlängtad och välkommen. Allt funkar klockrent. Stort tack till NightyNinety och STEERIKS.
+,alvarda,2008-04-13T16:35Z,"Helt underbart funkar perfekt, fortsätt så. Har du flera områden?"
+,sven_elken,2008-04-14T21:57Z,"Full version w/ install:
+
+http://thepiratebay.org/tor/4134775"
+,pos59,2008-04-15T12:55Z,tackar!!!
+,NICKE7,2008-07-10T20:43Z,"Jag är nybörjare inom detta område och hade stora problem innan jag fick kartorna över till min Garmin GPS. Men såhär gjorde jag iaf någon undrar:
+1. Ladda hem mapsource. Finns exemelvis i denna. http://thepiratebay.org/tor/3234701/Garmin_-_Friluftskartan_-alla_10_omr__den 
+2. Installera uppdatering Garmin MapSource 6.13.6, exempelvis http://thepiratebay.org/tor/3996318/Garmin_MapSource_6.13.6_Special.zip
+3. Ladda hem Garmin Friluftskartan Pro - Mellersta och Södra Norrland
+4. Packa upp och lägg detta i c:\garmin
+5. Kör reg filen
+6. Starta mapsource
+7. Välj uppe i vänstra rulllisten , Friluftskartan Pro - Mellersta och Södra Norrland
+8. Markera de områden du vill skicka till din GPS
+9. Tryck på skicka till enhet
+10. Sök enhet
+11. Välj antingen inbyggda minnet, eller externa i listan
+12. Tryck sänd.
+13.Klart!"
+,SWEwillow,2008-07-16T08:07Z,"vad menar du med markera,fattar inget hur man för över,står så här när jag testar
+
+to transfer data to yur device select maps
+
+men hur gör man det"
+,NICKE7,2008-07-21T19:52Z,markera på kartan vilka områden du vill överföra genom att trycka ner musknappen på kartan och dra
+,SWEwillow,2008-07-22T06:10Z,tackar nu vet jag hur man gör hoppas det bara funkar i gps:n nu
+,Bitsdu,2008-12-19T15:55Z,"Jag får det inte att funka.
+Är inte så händig med datorer hur kör jag reg filen kan inte hitta den :( "
+,Bitsdu,2008-12-21T18:33Z,"Nu fixade det sig.
+Tacksåhemsktmycke NightyNinetY
+Mvh Bitsdu"
+,Laffeman,2009-02-04T01:21Z,"Ere nån mer än jag som inte kan få FriPro Södra Norrland att funka med nya MapSource 6.15.3 på XP Pro?
+
+Registerfilen ställer bara till det och MapSource vill inte gå igång. Kartan syns inte heller i Kartprodukthanteraren i MapSource.
+
+Kan det vara att MDRMAP.img och product.mdx inte finns med i materialet?
+
+Tacksam för svar och lösningar på problemet
+
+/L"
+,drm4rtin,2009-04-10T10:26Z,"Regfilen verkar inte funka med nyare Mapsource. ändra till dessa värden (om du lagt kartorna i c:\garmin)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_796]
+""ID""=hex:1c,03
+""MDR""=""C:\\Garmin\\FAMILY_796\\MDRMAP.IMG""
+""IDX""=""C:\\Garmin\\FAMILY_796\\product.mdx""
+""UnlockURL""=""http://www.garmin.se/friluftskartanpro""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_796\1]
+""Bmap""=""C:\\Garmin\\FAMILY_796\\basemap.img""
+""Tdb""=""C:\\Garmin\\FAMILY_796\\product.tdb""
+""Loc""=""C:\\Garmin\\Garmin\\FAMILY_796"""
+,torsol,2009-07-08T16:47Z,"There are files missing.  I used to get this working in older version, but this package only has reg entry and a tdb file and doesn't install anything in xp pro with updated MapSource.  There should have been more.  When looking in the registry like said here, in order to change like drm4tin says, there is no such thing in my register as family 796!  There is nothing to change.  Perhaps I could import the registry file, but I am not sure if I should dare...  How do you open to read and change the registration entries file submitted?"
+,torsol,2009-07-09T13:37Z,"Doesn't work together with new maps like topo adventure Norway and the most recent MapSource.  This one, however, works: http://thepiratebay.org/torrent/4134775/Friluftskartan_Pro_-_Mellersta_och_Sodra_Norrland_FULL.zip 
+I never understand the TPB search engine, you can write the name correctly, but some torrents never popup.  This is one of them.  Use the link."
+,Mangaan,2010-06-14T18:08Z,"har testat alla sorters kombinationer ni skriver om men fortfarande står det nere i höger hörn under skalan, ""låst kartdetalj"" i mapsource..
+
+vad kan tänkas vara fel?"
+,torosso,2011-02-24T14:31Z,"Har problemet att Mapsource 6.16.3 inte hittar dessa kartor, fastän jag lagt dem i mappen i C:Garmin.
+
+Vad göra?"

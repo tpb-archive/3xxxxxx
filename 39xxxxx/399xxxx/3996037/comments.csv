@@ -1,0 +1,11 @@
+﻿User Type,Username,Date,Text
+,darkfox404,2008-01-27T01:25Z,THANKS MATE!
+,sunfish1,2008-01-28T05:15Z,"homer:
+any chance of an ads remover patch?"
+,sunfish1,2008-01-28T05:46Z,"one more thing, how do you save the chat view setting (simple/bubbles/playscript) and change your biography to something other than ""Go Trillian! across astra restart."
+,HomerSp,2008-01-28T08:15Z,"The chat view settings should be saved automatically. I'm not sure about the biography, never used it really.
+
+I'll see if I can include an ads remover in next build's patch :)"
+,sunfish1,2008-01-28T18:16Z,"Oh ya, chat view is now saved. Apparently this is a genuine bug in build 68 and not a by-product of the hack. I still couldn't find the line in talk.ini etc. for the chat view though :p
+
+Biography is definately not workng. I suspect that that info is being saved on the Astra server. If so, the only thing that can be done is to replace the ""Go Trillian!"" string locally."

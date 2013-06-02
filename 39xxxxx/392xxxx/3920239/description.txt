@@ -1,0 +1,32 @@
+HTTP File Server (HFS) is an easy to use drag and drop file server for personal file sharing. You can use HFS (HTTP File Server) to send and receive files. It's different from classic file sharing because it uses web technology to be more compatible with today's Internet. Access your remote files, over the network.
+It runs as a standalone executable and does not require any installation. The program is very easy to use, just drag a file into it to share it with the world. You can customize the port it is running on, specify the IP address and monitor connections from the tray icon. HFS presents the shared files on a simple HTML page, that includes the file name and size. With some HTML knowledge, you can completely customize the HTML template to meet your preference. HFS can also integrate into Windows Explorer, allowing you to easily share files from the right-click menu. 
+It has been successfully tested with Wine under Linux. 
+
+Features:
+? Download and upload
+? Virtual file system
+? Highly customizable
+? HTML template
+? Bandwidth control
+? Easy/Expert mode
+? Log
+? Full control over connections
+? Accounts
+? Dynamic DNS updater 
+
+Changes in Version 2.2b:
+[FIX] forged uploads were able to upload outside the assigned folder
+[FIX] sometimes importing an UTF-8 template resulted in an empty text [related forum topic]
+[FIX] files with local characters were not sorted correctly
+[FIX] %item-ext% was not working with enabled "Hide file extension in listing"
+[FIX] folder was left locked after downloading it as archive
+[FIX] incorrect behaviour accessing /~
+[FIX] incorrect handling of // in URI [related forum topic]
+[FIX] incorrect behaviour adding an empty CD drives
+[FIX] bad URL for links with ?recursive [related forum topic]
+[FIX] archive for subfolders of real folders had a wrong path
+[FIX] fixed unicode support for uploading file names
+[FIX] file icons on Windows98 broken in build #123
+[FIX] URLs to folders with no trailing / were not always redirected
+
+have fun and enjoy The Joker

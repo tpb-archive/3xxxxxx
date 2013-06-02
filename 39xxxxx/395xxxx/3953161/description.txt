@@ -1,0 +1,14 @@
+ http://events.ccc.de/congress/2007/Fahrplan/events/2260.en.html
+
+Speakers:    	 Jens Kubieziel
+
+To be or I2P
+
+An introduction into anonymous communication with I2P
+
+I2P is a message-based anonymizing network. It builds a virtual network between the communication endpoints. This talk will introduce the technical details of I2P and show some exemplary applications.
+
+I2P has a different approach than most other known anonymous applications. Maybe you know about the anonymisation network Tor. Here you have central directory servers, onion routers (relaying traffic), onion proxies (send and receive data from the user) and other software roles within the network. I2P calls every software a router and it can send and receive data for the user as well as relay traffic for other users. Furthermore I2P uses no central server for distributing information about routers. You'll get the information from I2P's network database. This is a pair of algorithms which share the network metadata. The routers participate in the Kademlia algorithm. It is derived from distributed hash table.
+
+My talk will tell you in detail how I2P work, what roles routers, gateways, netDb etc. plays. Furthermore I'll show differences and similarities to other anonymizing networks e. g. Tor and introduce some exemplary applications.
+

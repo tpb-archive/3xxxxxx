@@ -1,0 +1,23 @@
+Dark Alex 3.80 m33 with official 3.80 Sony Update 
+
+After a long wait, Team M33 has released the long awaited custom firmware 3.80 M33. This release brings the changes found in the official 3.80 Sony firmware, including internet radio, but it also brings the ability to run homebrew applications and backed up ISO games. One of the coolest features added to 3.80 M33 is the ability to upgrade your PSP using the Network Update functionality of the XMB menu. This means that you will no longer have to follow M33 upgrading guides, as everything will be handled by the automatic system.
+
+
+3.80 M33 Requirements
+
+Memory Stick
+PSP running 3.52 M33-3 or above
+
+
+3.80 M33 Change Log
+
+HEN core: user mode can load now signchecked files from flash.
+Recovery: flash1 format will create flash1 directories after format.
+This could fix some flash1 issues with the previous versions.
+Network update from dark-alex.org page. By default is enabled. You can turn it off in recovery (when off, network update will download sony updates as usual).
+Nids resolver for various kernel libraries.
+
+Add UPDATE file to PSP/GAME/ then go into game on psp and your done 
+
+Enjooy !!!!!!!!!!!!!!!!!
+

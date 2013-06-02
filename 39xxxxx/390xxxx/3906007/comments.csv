@@ -1,0 +1,34 @@
+﻿User Type,Username,Date,Text
+,dfather,2007-11-24T01:17Z,Do people prefer 1 file or a multi-part RAR file? 
+[T],_Maelstrom_,2007-11-24T01:50Z,"Since torrents hash check it doesn't matter if the file is multi-rar or not, but it would be nice of you could download a program like GSpot (http://www.headbands.com/gspot) or MediaInfo (http://mediainfo.sourceforge.net) and use them to list the quality of the file here or make an nfo we can dl."
+,magick93,2007-11-24T14:47Z,http://www.imdb.com/title/tt0404030/
+,dfather,2007-11-24T17:57Z,"Codec                    : XviD
+PlayTime                : 1h 48mn
+Bit rate                  : 1338 Kbps
+Width                     : 720 pixels
+Height                    : 416 pixels
+Display Aspect ratio: 16/9
+Frame rate             : 23.976 fps
+
+Audio 
+Codec                : AC3
+Bit rate mode        : CBR
+Channel(s)           : 6 channels
+Sampling rate        : 48 KHz
+
+No subs on this one. Sorry."
+[T],_Maelstrom_,2007-11-24T20:00Z,Thank You
+[T],_Maelstrom_,2007-11-25T19:17Z,"You asked for comments on you first rip, so here goes.
+First off the audio is 20,000ms off sync. That is an unusual (and excessive) amount of audio skew I am not sure how that number came about. The video quality is very actually good... but it could have been better if you hadn't encoded the piracy warnings at the beginning and the trailer at the end. I would guess that since you used AGK it selected all VOB's in a folder rather than only the movies PGC. If so you can likely fix this by changing your DVD Decrypter Settings to 'Select Main Movie PGC'.
+Over all it was a good first attempt and I have been looking forward to watching this film. Thank You"
+,eerciyas,2007-11-25T21:52Z,"Thank You the video quality is fine but the audio is out off sync , can we fixed it? "
+[T],_Maelstrom_,2007-11-25T23:31Z,"To fix the audio sync download Nandub (http://sourceforge.net/projects/ndub), open the video with the program, select 'Video' -- 'Direct Stream Copy', then select 'Audio' -- 'Interleaving' and set the 'Audio skew correction' to 20000ms, then select 'File' -- 'Save As AVI' and save (Do not overwrite the original file)... File should now be in sync.
+
+Alternately, if you aren't keeping the file you can set audio delay in most video players for the PC (but be sure to change it back to 0 when you are done watching the file or all movies afterwards will be off sync)."
+,natrei,2008-02-15T12:29Z,"Thanks for the upload and thank u _Maelstrom for the sync fix. I did as you said and it worked a treat.
+
+I have English subs for the fixed version but not sure where to post it as one needs to fix the sync problem first."
+,natrei,2008-02-15T12:48Z,The subs for the fixed file are at http://www.opensubtitles.com/en/subtitles/3249853/everything-is-illuminated-en
+[T],my_name_is_bob,2008-04-13T09:54Z,"sometimes when i skew the audio like that with nandub my stand alone divx players also some encoding programs wont open the file if the audio stream is missing from the source, i found cool mp3 splitter and joiner does the trick if you just demux with vdubmod and insert some generic or blank sound, and then skew with nandub"
+,burf,2008-05-03T16:44Z,"Thanks... & thanks to Maelstrom, for the sync tip ;)"
+,Cikkku,2008-06-14T01:48Z,"Hey Maelstrom, I downloaded Nandub and tried to open file as you explained but I keep getting the following error:  COULDN'T LOCATE DECOMPRESSOR FOR FORMAT XVID(Unknown) ;   VIRTUAL DUB REQUIRES A VIDEO FOR WINDOWS (VFW) COMPATIBLE CODEC TO DECOMPRESS VIDEO. DIRECT SHOW CODECS SUCH AS THOSE USED  BY WINDOWS MEDIA PLAYER, ARE NOT SUITABLE.  Any idea what am I doing wrong?...Thanks a lot"

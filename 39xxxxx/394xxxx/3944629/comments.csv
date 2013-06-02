@@ -1,0 +1,68 @@
+﻿User Type,Username,Date,Text
+,FatFreddy2,2007-12-23T18:30Z,"some codes for PC:
+98YBU-QL52Q-XJVYN-P84XH-Y5Z88
+ZSXUW-SJBY7-ESVGQ-NH5YC-EAXLR
+ZW9GY-ZZD5Q-FD99V-TS7LQ-QUUXE
+SAKWP-L5BXN-7K4YR-DM4EE-VTCJC
+ZWDNT-WU7H4-6AAC2-V9EEG-CQEW3
+ZYBZ4-7DVJM-EY2QX-NZWPN-U88FQ"
+,gwaert,2007-12-24T01:18Z,"This do not work in mapsource.
+
+Can you please give us the sd card image? :-)"
+,FatFreddy2,2007-12-25T18:36Z,"If it doesn't work you have to edit the .reg file included in the zip to correspond to your mapsource installation. And of course don't forget to import it.
+If there is any error, please give details."
+,FatFreddy2,2008-01-01T23:51Z,"Forgot to comment, that the Find function is not working with this (yet), but at least you can see this map not only on your GPS, but also in MapSource."
+,wasabi69,2008-01-27T11:21Z,"Hi 
+I am new at this. Can you please indicate what I need to do to upload the maps?"
+,storm_breaker,2008-02-03T19:22Z,"Sorry for asking but when i load at Mapsource it show me few details but when i do zoom the map gone.Then i add all the files in to the reg file-a little different.I can zoom but everything is in black and white.Im trying to select the map but its not selecting nothing.can you give me  solution.And is the FID 880 correct or no?thank you for your answer.
+btw i have the update for it map image if someone its interest it."
+,storm_breaker,2008-02-06T22:30Z,sorry did someone manage to unlock it.i try to my nuvi 350 but no success.is there someone which manage it ? 
+,Blaze1972,2008-02-07T08:14Z,"Hi ppl, I am new here. can anyone give me a step by step guide how to install to my Garmin 350?"
+,storm_breaker,2008-02-07T20:34Z,still no answer :(
+,psovod,2008-02-26T00:11Z,"to storm_breaker> hi, if you have update make torrent and upload this. exe.file or img. file
+
+btw I have the same problem with this one. Black and white map and few detail viewed. "
+,tsdinos,2008-03-04T17:57Z,"Hi again Nincsenez!
+Is it is to get the source of the original .img file like the auto drive greece, so that I can have a version of the map with the find feature working?
+Thanks a lot once again!"
+,ixi65,2008-03-05T00:42Z,"To make this work in MapSource you have to create a regstry entry. First create a folder ""FAM_880"" to C\Garmin
+Type the registry entry in notepad and save it as an reg-file. Save to C\Garmin\FAM_880.
+Dubble click on the FAM_880.reg-file and put it in your register. Opm Mapsource and unluck it. 
+
+For Windows XP it´s:
+
+Windows Registry Editor Version 5.00 (for earlier Windows: REGEDIT4)
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_880]
+""ID""=hex:70,03
+""TYP""=""C:\\Garmin\\FAM_880\\I0000370.typ""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_880\1]
+""Tdb""=""C:\\Garmin\\FAM_880\\mapset00.tdb""
+""Loc""=""C:\\Garmin\\FAM_880\\""
+""Bmap""=""C:\\Garmin\\FAM_880\\mapset00.img""
+
+To unlock it just use any of the codes by ""Nincsenez""."
+,tsdinos,2008-03-06T17:39Z,"ixi65 is this for the ""find feature"" to work or just for the map?
+If you're saying about just for the map to work there is a program called ""mapset toolkit v1.20"" which can be downloaded from this site, and that can do all the ""registry"" work for you!"
+,ixi65,2008-03-07T10:46Z,"tsdinos
+Nop, cant make the ""find feature"" to work, only for d map.
+All d hard work for nothing then :-)
+
+I´ll try d mapset toolkit next time, probably save me some time.."
+,ixi65,2008-03-07T14:05Z,"tsdinos.
+Or...what ""find feature""?
+D only surch I cant do is for street adresses. 
+That, of course, is nice to have!
+There´s a whole lot of outher stuff to search for."
+,tsdinos,2008-03-07T15:56Z,"If somehow we manage to get the original .img file then its a simple copy/paste to the SD card and generating an unlocking code to make it work for the unit. Then all the features will work fine!! This processed format that is offered in this torrent is only usefull to install it to the mapsource PC. but since I cannot drive with the pc in my car, the .img file would have been far more usefull.
+Of course Im not being ungrateful and I think we owe a big thanks to Nincsenez anyway for the torrent!"
+,mp3hot,2008-04-13T13:09Z,"on my Nokia malta maps work fine but on my garmin set im getting the error of Cant unlock maps
+
+i didnt try to use 1 of the codes that nunczenez posted , i tried using codes with keygen .
+
+when i try to open .img map from mapsource it wouldnt let me , it would tell me that i need Mapsource products:Datatrack malta maps
+
+i added info in registry file but to no avail , always same problem "
+,macris86,2008-04-26T10:16Z,Hi there i managed to get these maps in but whenever i select buildings and show on map nothing happens simply the map refreshes and stays the same. Im not sure how the map should be  but mind is simply pink and black coloured
+,rche002,2008-11-07T10:30Z,Hello. I managed to get V23 of the Malta maps to work on my device. I had V21 and updated it (by overwriting the gmapsupp.img in the device).  However I cannot install it on the mapsource! The file I had was only gmapsupp.img. How can this be recognized by mapsource?  - Same product code remained 880.

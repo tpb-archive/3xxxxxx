@@ -1,0 +1,25 @@
+highway 007mech flash pack
+For the original xbox, not the 360
+
+
+A TSOP flash pack based on Evox and Linux. This pack loads evox dashboard and user can select to flash with evox or raincoat 0.5+ (using Linux). This exploit works for xbox version 1.0-1.5, even versions 1.4 & 1.5 with winbond tsop. This package requires that your xbox's hardware be modified for reflashing of the onboard tsop. For those who don't know what a tsop is, go here:
+
+ 
+http://www.xbox-scene.com/articles/tsop-images.php
+
+You need to solder the points in the red boxes in the top 2 pictures if you have a version 1.0-1.2. If you have a version 1.3 or above, you want to solder the points in the red circles in the bottom 2 photos. As for the 3rd picture down with the wire, i've never had to do that, so it's not necessary. you should be able to tell them apart by carefully examining the pictures. Also look at the the tsop chip inside your xbox. If it says winbond you will need to flash with eurasia (yes, it is an option on the main menu of the exploit, so it's easy.) Also if you try to flash bios from the main menu of the hack and it tries but hangs right at the beginning, then try to use flash with eurasia. This is the package I always use to do tsop flashes. Make sure to follow the included directions carefully as this is downloaded directly from xbins and is not pre-configured with a bios, meaning you will have find your own. I will upload some xbox bios files as soon as i can find a few to upload. 
+
+So, I bet you are wondering what the advantages of a tsop flash vs. softmod are. Tsop flash is way better in these ways:
+
+1. you can unlock the hard drive. not a big deal for everyday operation, but can prevent you from killing your xbox. doing this with a softmod means dead xbox.
+
+2. you can build new hard drives. this is great for someone who does mods, because i can make a hard drive for any xbox with one tsop flashed box, even softmods. just lock the hard drive using the softmodded xbox's eeprom and it will work in the softmodded xbox.
+
+3. hard drive failure and lost eeprom doesn't mean dead xbox. just build a new hard drive. yay!
+
+
+Remember, this is a VERY powerful tool, and you can destroy your xbox with this if you don't know what you are doing, so be careful. i recommend an evox m8 bios for use with this exploit. Using the wrong bios can spell disaster.
+
+downloaded from xbins
+
+@(X!_!X)@

@@ -1,0 +1,26 @@
+Iguidance 3.0 by Inav.
+
+Notes:
+
+Ok after downloading this program from a torrent I discovered some annoying bugs. These bugs were caused by the fact that this program was intially on four CD's. One CD had the installation files on it and the other three contained the Mapdata files for generating the maps.
+
+The original uploader packaged the contents of the four CD's into one image file. If you mounted it like that the Iguidance maploader often got confused and could not locate the mapdata files it needs to create your maps.
+
+To solve the issue I made each data CD into a seperate image file which can be mounted whenever the maploader requests it (using daemon tools or similar) or burned to its own CD.
+
+Be aware that if you decide to burn the Data CDs you will have to use CDs which are larger than the standard 700MB CDs you find at your local shop.
+
+Maps in this edition cover the United States,Alaska,Hawaii.
+
+
+Installation:
+
+To install the program once downloaded you open the Iguidance folder and click setup. It does not require a serial number to install.
+
+Once the program installs click on the maploader icon which is now on your desktop. This is the utility you use to create the maps Iguide needs to function. At this point is where you will need to mount the CD images  as virtual drives or insert the CD's you created as asked for by the Maploader.
+
+The maploader creates the maps from the data CD's and saves them into the maps folder in your Iguidance directory. I would recommend only loading one or two states at a time becasue it can take quite a while for the maploader to create them. Loading a new state deletes whatever maps you already had in your maps folder.  
+
+Hopefully this information will help avoid a bunch of "it doesnt work" comments
+
+-sporg

@@ -1,0 +1,117 @@
+﻿User Type,Username,Date,Text
+,Punks_4_Live,2007-12-24T10:07Z,"Are this just the five components of CS3 Design
+Premium or is this the full DVD-Image file?
+--------------------------------------------------------
+Sind das nur die einzelnen Programme oder ist
+das die Retail DVD von der Adobe Creative Suite 3?
+
+greets/lg"
+,Punks_4_Live,2007-12-24T10:10Z,"Sorry, there are six components...
+-----------------------------------------
+Sorry das sind ja sechs Programme..."
+,tads,2007-12-26T16:18Z,"Activation won't work for me... Does it always say ""Repair"" instead of activate? What's my mistake?! I uninstalled everything before...
+-------
+Die Aktivierung funktioniert irgendwie nicht. Sagt er immer ""Reparieren"" statt Aktvieren. Wo liegt mein Fehler? Ich hab vorher alles deinstalliert."
+,tads,2007-12-29T13:12Z,"Wer vorher schon eine CS3-Installation drauf hatte, könnte - genau wie ich - Probleme haben. Daher folgende Erklärung, gleich auf Englisch für die ""anderen"".
+
+Delete ENTIRE registration of Adobe products.
+
+After doing the standard uninstall procedure, get the cleanup script from the Adobe website ( http://www.adobe.com/support/contact/cs3clean.html )
+Run it and if you are asked for the level of clean-up, choose ""4"", although not mentioned as a possibility. Attention: this will delete every Adobe-Product and every registration of those you have on your entire computer (including some Macromedia apps)
+Then, in the terminal, type in ""su"", then your root-password and run the cleanup script again (you can copy the command from the one created by the cleanup script). E.g.: python /Volumes/maccs3clean/MacCS3Clean/CS3Clean.py
+Run it until the log doesn't show any more files that were deleted. (at least 2 times)
+Then go to your user folder and in ~/Library/Application Support and check if the ""Adobe"" folder is gone. If not delete it.
+Then open the root directory of your hard drive and open the Library there and then Application Support (/Library/Application Support). Also check for the Adobe folder, delete it if necessary. Then, delete the folder ""FLEXnet Publisher"". Then go to /Library/Preferences and delete the folder ""FLEXnet Publisher"" (yeah, same name), too.
+This should be everything. I've heard of cases, where something was stored in /var/tmp, too, so if you still can't reinstall your CS3 without being asked to ""repair"" the installation, have a look there (the files may begin with ""lm"")
+
+Good luck! :-)
+
+P.S.: Sorry for the english, hope you understand the important things!
+P.P.S.: Feedback please, if someone tried!"
+,kokosh,2007-12-30T17:27Z,"Nice! Thanx a lot..it is woring finally, even if the clean up script was not a big help. it showed me only the files which supposed to be delete, but there were still ALL in their folders.
+Whatever, I did it manually. The clean up script was good to show me all the folders where Adobe was. I installed CS3 again (english version), I typed the serial number i got (;-)) and it is working!!!  THX!!
+
+----------------
+
+mein englisch ist eine Katastrophe im gegensatz zu dir,aber du hast es schon verstanden,oder:-))..auf jeden Fall funktioniert es endlich und darüber bin ich so froh, weil ich seit Tagen versuche eine vernünftige Lösung zu finden.Jetzt kann ich mir die ganzen Tutoriale auch reinziehen und bald bin ich eine Frau Doktor in Photoshop:))
+Danke,T."
+,Punks_4_Live,2007-12-31T14:59Z,"nett dieser CS3 clean...
+
+mille Grazie."
+,Potzcynski,2007-12-31T16:51Z,"Hallo,
+
+ich bin wohl zu blöd für den Schlüssel - sehe ich das richtig, daß man für den key-gen einen PC benötigt?
+
+Gibt es wohl eine deutsche Anleitung für Dummies?
+
+Das wäre sehr schön, Danke"
+,ben_77,2007-12-31T21:41Z,"hallo habe auch probleme bei der aktivierung von cs3, habe die suite installiert und brauche eine seriennummer hat jemand einen keygen???
+
+hab versucht ihn einzeln runter zu laden geht aber irgendwie nicht........ hab schon im ganzen web nach einem kegen für mac gesucht aber nicht taugliches gefunden..........."
+,Potzcynski,2008-01-01T18:06Z,"Ah!
+
+jetzt hat es geklappt - CS3 installieren, eine der beiden Seriennummern eingeben, alternative Aktivierung wählen, Code aufschreiben, key-gen auf CD, ab zum PC, Aktivierungsschlüssel erzeugen lassen, eingeben, und schon läuft alles bestens, vielen Dank! Sogar das anschließende update hat geklappt ohne registrierung."
+,Teddylein,2008-01-02T10:17Z,"Liebe Leute, vergesst nicht Little Snitch zu aktivieren bevor ihr, nach CS-Aktivierung, CS-Programme zum ersten mal öffnet.
+Hier: http://thepiratebay.org/tor/3909831/Little_Snitch_Final_2.0.dmg
+"
+,zweitagsfliege,2008-01-11T08:31Z,"Brauche Hilfe:
+
+Benötige dringend authcode für
+Adobe CS3 Design Premium for Mac (Ger):
+
+s/n 1326-0110-5569-6121-4741-2255
+a/n 3985-0809-5044-0818-9441-4118-5471
+activation type normal
+
+
+Leider kein PC, deshalb kann ich kein Key Gen benutzen!
+
+Wäre wirklich super hilfreich, muss noch was für die Schule machen :(
+
+Liebe Grüße"
+,anonymx,2008-01-13T14:25Z,"so, mal probieren, ob ich das mit der anleitung zum laufen bringe, bin schon fast am verzweifeln, da immer die aktivierung mit reparieren kommt... in kürze wissen wir mehr :)"
+,anonymx,2008-01-13T14:43Z,ENDLICH!!! Juppie. Vielen Dank für die Beschreibung. Muss wohl am FLEXnet gelegen haben. Das habe ich bis jetzt nicht gelöscht. Nun ist wieder alles tiptop. 
+,kersche,2008-01-14T15:59Z,"bitte seeden!
+
+pleaz more seed!
+
+danke/thanks"
+,hummelhummelmorsmors,2008-02-08T02:48Z,"I am at 30%.. Since 2 Weeks.. Please seed.. This is probably the one and only one out there..
+
+If someone finds it at rapidshare.. I got an Account und could upload it here.."
+,Erfurt83,2008-02-17T13:29Z,"Brauche Hilfe:
+
+Benötige dringend authcode für
+Adobe CS3 Design Premium for Mac (Ger):
+
+s/n 1326-0110-5569-6121-4741-2255
+a/n 3985-0809-5044-0818-9441-4118-5471
+activation type normal
+
+Danke"
+,vanro,2008-04-08T21:08Z,"Hey ich könnt auch den Auth Code gebrauchen ^^ zur obigen Seriennummer am besten 
+
+thx"
+,hellangel13,2008-05-18T01:34Z,"Es ist mir unmöglich, bei den Programmen den Photoshop CS3 mit zu installieren :/.
+Was ist da los ?
+Alles andere funzt einwandfrei !
+
+In der Auswahl am Anfang lässt sich Photoshop  nicht anwählen und erscheint ""grau"". Zudem steht unten im Fenster ""Photoshop CS3 kann nicht installiert werden wegen eines Konflikts"". Was soll das bedeuten ? 
+Was für ein Konflikt ?
+
+Hat irgendwer sonst noch dieses Problem gehabt ? Weiß jemand, was da los ist und wie man es eventuell lösen kann ? Für Hilfe wäre ich echt dankbar."
+,mukelembembe,2008-07-01T16:24Z,"hi dudes,
+
+i have a problem with starting the cleanup of cs3.
+after starting the program downloaded at the adobe site, i see the terminal but i cant write in it!!! any ideas???? thx
+
+hallo leuts,
+ich hab nen riesenproblem!!!! wollte die reinigung durchführen, kann aber wenn ich das ding aktiviere nichts in mein terminal eingeben. hat irgendjemand ne idee???
+"
+,maclover1979,2008-08-23T23:28Z,"Thany so much for seeding!!! This is great and works super!
+
+For activation use http://thepiratebay.org/torrent/3676857/Adobe.CS3.Design.Premium-Keymaker
+
+Type in the activation numbers and click activate!! Type in the activation code and it´s working!"
+,regalis54,2008-11-01T13:17Z,"Hi, check this out for a working Crack (Mac)! Greedings
+www.punkcracks.tk"

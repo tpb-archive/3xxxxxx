@@ -1,0 +1,26 @@
+Please note that this is NOT a standalone package.
+You will need the A330/A340 Basepack, also available at TPB.
+
+Here is what has been fixed/ enhanced with SP2:
+
+- Fixed barometer switch problem
+- Improved clickability on AFS buttons ( although some still report problems I am 
+still looking into this ) 
+- Improved quality on the main panel guages ( HDI, RMI, Brake pressure, Flight 
+director buttons ) They now correctly fit in panel. 
+- Some minor 3D parts added on VC main panel ( HDI, RMI , STBY ALT ) 
+- Improved spoiler deployment handle and flap handle
+- Improved main panel texture in VC
+- Improved main 2D panel BMP
+- Added a new panel light ( the actual light itself )
+- Fixed the VC night texture alpha problem ( textures had different alpha channels )
+- VC guages in pedestal now have back lighting ( I missed that one before ) 
+- Added moving rudder pedals ( oops should have done that in the beginning )
+- VC rain affects are fixed
+- The texture problem with the A332 nose is now fixed. 
+- Also added chrono button to VC
+- More wingflex
+- Adjusted exterior lighting
+
+
+Enjoy.

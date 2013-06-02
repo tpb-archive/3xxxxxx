@@ -1,0 +1,14 @@
+DVDFab Platinum 4.0.3.6 Beta Full Setup - Custom Style GUI REGISTERED
+
+- Hidden Graphic BMP res. #326 added to left program screen background res. #157 [i](diff: + ~ 13 kb installer incl. WizardImage / [+ 7 kb program exe])[/i]
+- Obsolete AS Protect res. #240 sub 297 > 006D24 C8 + D8 cleaned up
+- New reg Value: UpdateCheck & Value: AutoCheckNewVersion disabled in config. + url in exe removed.
+- Last Original Key embedded to ensure compatible with all Windows OS rather than lay out /.../ visual group name ads regkey name to another section.
+- profiles added.
+- Pre config, ask burn speed,... Path Player when needed.
+- Shortcut to internal VSO Patin-Couffin CD-DVD writing engine config and diag tool to program group added (rather than using win hardware system control for Status DMA Drive check and settings,...)
+- setup recompiled. Inno-dev cvs
+
+Size: setup .exe 5,94 MiB (6.236.992 bytes)
+
+Tested on Winxp x86 + 64 bit incl. Vista all 

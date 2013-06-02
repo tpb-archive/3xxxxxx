@@ -1,0 +1,13 @@
+  http://events.ccc.de/congress/2007/Fahrplan/events/2318.en.html
+
+Speakers:    	 Thorsten Holz
+
+Cybercrime 2.0
+
+Storm Worm
+
+Not only the Web has reached level 2.0, also attacks against computer systems have advanced in the last few months: Storm Worm, a peer-to-peer based botnet, is presumably one of the best examples of this development.
+
+Instead of a central command & control infrastructure, Storm uses a distributed, peer-to-peer based communication channel on top of Kademlia / Overnet. Furthermore, the botherders use fast-flux service networks (FFSNs) to host some of the content. FFSNs use fast-changing DNS entries to build a reliable hosting infrastructure on top of compromised machines. Besides using the botnet for DDoS attacks, the attackers also send lots of spam - most often stock spam, i.e., spam messages that advertise stocks. This talk presents more information about Storm Worm and other aspects of modern cybercrime.
+
+The first part of the talk provides a brief history of Storm Worm (Peacomm, Nuwar, Zhelatin, ...), focusing on the actual propagation phase. Afterwards, we describe the network communication of the bot in detail and show how we can learn more about the botnet. We were able to infiltrate and analyze in-depth the peer-to-peer network used by Storm Worm and present some measurement results.

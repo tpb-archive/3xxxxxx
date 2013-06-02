@@ -1,0 +1,43 @@
+after burning the image file to dvd i could not follow the install instructions
+can you
+ 
+1. Install Autodesk's application with Network License Type
+   
+2. Create "c:\flexlm" folder and copy "adesk.dat" there
+
+3. Change "this_host" in "adesk.dat" to your PC host name
+   and path to adskflex.exe
+
+4. Run "lmtools.exe" from Autodesk network license support,
+   check/create and run the service
+
+5. Check/create environment variable ADSKFLEX_LICENSE_FILE:
+
+   Click right mouse button on "My Computer" and choose
+   "Properties". Go to "Advanced" tab and press "Environment
+   variables". Press "New" in system variables, enter variable name:
+
+   ADSKFLEX_LICENSE_FILE
+
+   and variable value:
+
+   c:\flexlm\adesk.dat
+
+   Press "OK", "OK", "OK" and reboot
+
+   Note: if ADSKFLEX_LICENSE_FILE exists in system variables already
+   (when you're opened menu) then just check/correct variable value
+   throw "Edit"
+
+6. Copy "acad2008.exe" to product's folder and use it for start
+   the application each time
+
+7. Don't forget to reboot PC, and use serial 666-66666666
+   for register application "About" -> "Product information..."
+   "Update..." -> menu if needed
+
+PS: If any problem will be exists, overwrite "licpath.lic" to
+    product's folder
+
+
+post back if you get it working 

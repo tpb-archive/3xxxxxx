@@ -1,0 +1,96 @@
+﻿User Type,Username,Date,Text
+,sweet_hannah888,2007-12-27T00:43Z,working or not?
+[T],AxMan2007,2007-12-29T09:31Z,Yes it's working very well with Bitdefender's latest Versions
+,checkmate444,2007-12-30T04:14Z,"This works like a charm. I am very impressed. Many thanks to TT1-Networks.
+Hopefully I'll be able to return the favour someday."
+,Devils_Minion,2007-12-31T04:16Z,"http://www.virustotal.com/analisis/7f24181e065f3ba89a0e3b68b5a3af5d flagged as suspicious file by some AV just because its a bundled exe. Judging by the amount of seeds, this can't be bad, I will make a double post when I get this running!"
+,sweet_hannah888,2008-01-03T17:43Z,thanks i'll give a try when my trial version near to expired.
+,funnyname,2008-01-04T20:52Z,"Got it running today.  
+
+I downloaded from original site,
+ - install as trial,
+ - update,
+ - went offline.
+ - reboot
+When I started AV 2008 -when offline- the trial was expired!! Wow! 
+
+Reason for this may be an expired Bdefender 10 on my system. So be careful about those things.
+
+
+From the instructions I miss the answer,
+if Bdefender Services has to be stopped
+and
+where the patch has to be put when executed.
+
+I could not copy the patch in the Bdefender Installation folder first. The folder was write protected, obviously from a running Bdefender Service.
+
+
+ - Disabled Bdefender Virus Shield Service,
+ - Backup and delete the ""IEshow.exe"" entry from Autorun (registry)
+ - Reboot
+
+ - run the patch in the installation folder
+ - go online
+ - update again
+ - Fine (for today)  ;-) 
+
+Thanks!"
+,Rotworm,2008-01-11T17:29Z,thanks. this works.
+,intrax,2008-01-17T22:19Z,no virus...but doesn't work for me on Bitdefender Internet Security 2008... error: On Click Line 5: attempt to index global attrib' (a nil value)... tied all poss. still this error pops up..shit !!
+,funnyname,2008-01-18T12:26Z,"@intrax : google it! shit
+
+""Yeah i also got: ""On Click, Line 5: attempt to index global 'attrib' (a nil value)"", but this was because i updated first and then used the patch, if you use the patch immediately after install it will work.""
+"
+,intrax,2008-01-19T19:38Z,"@funnyname: don't shout dude! I did.
+
+No update first still error...patch sucks on Bitdefender antivirus 2008 !"
+,funnyname,2008-01-19T21:36Z,@intrax  -ok. I tried to help. Bdefender AV 2008 is running here. I followed the instruction but has to alter it a bit because it did not work (see above). Never seen the error 'line 5'. Get your registry clean from your trials and previous Bdefender installations. Maybe the trial version is changed now? Mine is ver 11.0.15.
+,cohiba83,2008-01-24T02:41Z,"I REALLY DON'T UNDERSTAND YOU PEOPLE U GET A GREAT TORRENT LIKE THIS AND YOU COMPLAIN ABOUT 
+WORKED GREAT FOR ME 
+GREAT WORK
+TT1-NETWORKS
+I WILL BE SEEDING THIS FOR A WHILE"
+,intrax,2008-01-26T19:50Z,"@cohiba83
+He MORON, you also SHOUT at home and BEAT the wife ? Probably do. Can't we complain if it aint working, you worked with Stalin ???"
+,Ocus,2008-01-29T00:06Z,"Worked for me :) thanks allot TT1 , let's hope it will work for some time now."
+,4365nokb6,2008-02-04T07:40Z,"ok folks, this  come from mininova and is correct for me.
+
+If you get this annoying ""On Click, Line 5: attempt to index global 'attrib"" when trying to patch, it's a quite simple solution:
+the patcher is buggy...
+
+It tries to patch the following file: c:\windows\system32\drivers\etc\hosts
+If it doesn't find the file, it aborts with the error message above.
+Just create the directory c:\windows\system32\drivers\etc and copy the hosts file from your *real* system directory (\system32\drivers\etc) there.
+
+Now patching works... ;-)
+Afer patching copy the hosts file back to it's origin and continue with the rest...
+
+The patcher adds the following line to the hosts file:
+127.0.0.1 update.bitdefender.com
+
+If adding this line to the hosts file is *all* the patcher does, you could of course do this by hand...
+
+BTW: the signature update servers of BitDefender are upgrade.bitdefender.com, upgrade1.bitdefender.com and so one..."
+,IIIlllIII,2008-03-06T17:17Z,"FFFFUUUCCCCKKK!!!! im tired of looking at fucked up and suspicious torrents is there ANY good virus scanner (kapersky, nod32) that has been uploaded by a know person???  all the torrents i see have people posting complaints on them like, it doesnt workk, no keygens, black listed keys, virus detected... WTF? i need a viruscanner not a bundle of viruses. "
+,Bumpbeefbeef,2008-03-06T17:19Z,"@IIIlllIII
+
+http://thepiratebay.org/tor/3980109/Kaspersky_AntiVirus_v7.0.1.32._Final(FRESH_KEYS-17.01)
+
+http://thepiratebay.org/tor/4041096/NOD32_AntiVirus_v3.0.642.0_Business_Edition(__2_WORKING_FIXES)
+"
+,funnyname,2008-03-07T01:29Z,"@IIIlllIII
+this BitDefender works here from 2007/12 until now. it s well seeded. go away and cry elsewhere. thanks"
+,INKHRIPTOR,2008-05-28T04:25Z,"It works great,,thanks to you guys"
+,funnyname,2008-11-22T00:34Z,Last week I had to reinstall the Trial Version I picked up in 12/2007. This share is great: still updating here.
+,Jimmythehedgehog,2009-02-04T08:24Z,"This works.
+Sorta stuggled for a bit.
+I got the disk from a friend, Instead of downloading it.
+Thanks."
+,Jimmythehedgehog,2009-02-07T09:12Z,"^ sorry about double posting.
+but this thing gets really annoying.
+When I try to update it says that the key is invalid, so I pull the Internet out and use the keygen.
+after that I can update until restart, but after that I need to do the same thing.
+Its Version 12.0.11.4
+Even though I don't want to sound like a noob that does not know how to pirate but does anyone know what to do?"
+,funnyname,2009-03-28T18:22Z,"@Jimmythehedgehog: You need to follow the instruction, plus: there are some hints in the comments above.
+If you got an unexpected ""license expired"" popup you need to run ""services.msc"" and check if  Bitdefender Communicator Service and BitDefender Desktop Update Service ist set to ""automatic"". Then reboot. "

@@ -1,0 +1,172 @@
+﻿User Type,Username,Date,Text
+,rickto,2008-01-12T21:12Z,Confirmed this works on a Nuvi 370. Thanks.
+,Raiser_Deard,2008-01-13T00:01Z,"I too can confirm that this works on both a nuvi 360 and nuvi 760.
+
+One interesting thing of note. Unlike the maps which all can be set 'unit-specific' using the device's Unit ID, this only works with the SD card's Unit ID.
+
+Thanks for this."
+,gentlee,2008-01-13T02:21Z,"I´ve put the gmapsup in garmin and in lex_pkg, nothing works.
+Can any 1 of you guys that have this working discribe what to do?"
+,DISCO3,2008-01-13T04:38Z,"This Keygen works Just fine on my nuvi 360 
+NightyNinetY
+thanks for fixing it :-)"
+,lemsip2uk,2008-01-13T08:31Z,"gentlee Put gmapsup in garmin folder not lex pkg or at least thats what i done,worked no prob."
+,wvy,2008-01-13T09:57Z,"The key is working only ... when my Nuvi ask to install it and overwrite the DEMO and i confirm ... the Nuvi keeps rebooting and asking the same question :-/ again ... and again ... and again ...
+
+any suggestions???"
+,EZname,2008-01-13T14:23Z,"Works like a charm!!
+
+Many thanks!!"
+,rickto,2008-01-13T17:34Z,"FYI for those who haven't got it working yet, this is what I did:
+
+1. Copied the files from here: http://thepiratebay.org/tor/3967590/Garmin_Language_Guide-ShareAll.rar to an SD card keeping the structure as is.
+2. Inserted the card into the unit and got the serial number of it (touch the battery icon for about 5 seconds or so. Eventually you will get into the diagnostic mode of the unit. Once there you will be able to scroll to the SD card and see the unit ID of the SD. The SD ID will be a 10 digit format just like the internal flash ID of the Garmin.)
+3. Using this keygen, and the serial id from the SD card, generated a key for mapid 900.
+4. Edited the gmapsup.unl file on the SD card and copied the key in there.
+5. Restarted the unit, at which point it asked me to install the language pack.
+
+...and now I will never have to go without beer when traveling in Europe ;)
+"
+,bellymungo,2008-01-13T18:10Z,"i have followed all instructions and this still does not work, does it have to be loaded on a blank sd card, as i have been trying with one with a map on."
+,EZname,2008-01-13T18:52Z,"bellymungo:
+
+When you copy the code into the (gmapsup.unl) file, make sure to delete the old code...
+
+Just to double check, you are clicking the (lower) generate (NOT THE UPPER ONE!)
+"
+,Raiser_Deard,2008-01-14T01:49Z,"NightyNinetY, when you modified this (I'm assuming you modified this?) did you use the source code of the program or did you just hex-edit some values within the original .exe? If source, is there any way I could get ahold of it and if hex-edit is there any way you could give me information on where the values are located?
+
+The reason I ask is it would probably be pretty easy for me to modify the keygen myself for new products/etc so long as I can find the time. I just don't have the time right now to spend trying to figure all the initial stuff out.
+
+There is Garmin Travel Guide, Fodor's North America (SD Card) with:
+
+Lic.iFamilyID: 900
+Lic.iProductID: 5
+Lic.iRegionID: 1
+
+that might be a good place to start.  ;-)"
+,wvy,2008-01-14T06:21Z,"My unit ask me to overwrite the demo version and i confirm this, then is my Nyvi reboots and again ask me tha question ... and reboots .... ask question  ...reboot ....
+
+I have a Nuvi 760 ... any sollution for this because it isn't installing after reboot ...."
+,Raiser_Deard,2008-01-14T07:24Z,Try loading the SD card in *after* the unit is fully booted. It seems the nuvi 760 (and possibly a few other units) have a problem installing it when the SD card is inserted at initial bootup.
+,EZname,2008-01-14T07:35Z,"Raiser_Deard:
+
+Can you please share the (Travel Guide, Fodor's North America) with us??
+
+Most of these codes are modified by people who does not use torrents... check out (http://www.ppcwarez.org/) as a good start..."
+[T],NightyNinetY,2008-01-14T10:34Z,"Raiser_Deard: Hexedit, ill give you the hint i figured it out from =)
+
+With Modified ??yg?n
+
+C:\Key.exe QZGXM9MC37PNRPMK4QBR2FNHP 0D'ItO00c 
+== Unlock 'QZGXM9MC37PNRPMK4QBR2FNHP' is: CORRECT == 
+> Lic.iUnitID: 111 
+> Lic.iTrial: No Trial 
+> Lic.iFamilyID: 1234
+> Lic.iProductID: 1 
+> Lic.iRegionID: 1 !!!!! 
+
+Offset 0 1 2 3 4 5 6 7 8 9 A B C D E F
+00002450 6A 01 6A 01 6A 00 6A 00
+                     pID   rID"
+,Raiser_Deard,2008-01-14T11:42Z,Hmmm. Offset 00002450 doesn't have anything like that and 6A 01 6A 01 6A 00 6A 00 doesn't appear at any offset in any of the versions of the keygen that I can find. It has been WAY too long since I have done any 'tinkering' quite obviously. And other 'hints'? Sadly because I work so much these days I don't really have the time to re-figure everything out.
+[T],NightyNinetY,2008-01-14T12:20Z,"Ok, one last hint: upx =)"
+,Raiser_Deard,2008-01-14T12:46Z,"Duh. Of course. Shows how long I've been out of the game. Silly me. I'm now able to change the pID and rID myself. Thanks.  :-)
+
+It only usually takes a little prodding and practice before the old memory starts working.  ;-)"
+,Raiser_Deard,2008-01-14T12:50Z,It is actually rID pID though. No wonder I was confused! Heh.  ;-0
+,wvy,2008-01-14T14:52Z,"Thanks Raiser_Deard
+Your infor has worked. Insert the card when the Nuvi was already on installed the Language Guide.
+
+Everything is working fine now !!"
+[T],NightyNinetY,2008-01-14T15:35Z,"Raiser_Deard: It was the same struggle for me, it was some time ago a was into reverse engineering..
+
+Yeah, i see now that rID and pID is in wrong order =)"
+,Merkurius66,2008-01-16T02:52Z,"Finns det nån som kan lägga upp Friluftskartan Pro Mellersta & Södra Norrland? 
+Skulle vara grymt schysst!
+
+Det är den enda av de 4 kartområdena som nu saknas..
+
+Can someone please upload 
+Friluftskartan Pro Mellersta & Södra Norrland?
+Thanks! "
+,Dimension72,2008-01-17T16:14Z,"I get a 9 digit number when I check SD card id in a Nuvi 250!? Isn´t it supposed to be ten digits? When I have tranferred the Lang. guide to sd and used keygen to get the code nothing happens. I have edited the .unl file with code from keygen. Does the sd card have to be blank? I have followed all instructions I have found without any luck so far, and it seems easy enough, hmm? "
+,scenerator,2008-01-18T10:44Z,"
+There's a 'gmapsupp.img' file for Friluftskartan Pro Mellersta-Södra Norrland at
+http://forum.ppcwarez.org/viewtopic.php?f=38&t=38331
+"
+,patoalexis38,2008-01-26T12:48Z,"Hi,
+
+I got installed only the demo version.
+I have a Nuvi 660.
+I followed the instruction but nothing , only demo version.
+two questions.
+1. how to unsintall the demo version from the unit?
+2. I copied the all file to SD card as follow, garmin/files.It means I created a folder Garmin and then copied the files there, is this correct?   or I should copied them direct in the root of SD card (not create any  folder ).."
+,moonhat,2008-02-01T03:49Z,"Hi.
+I've downloaded the Garmin Language Guide by ShareAll, as well as this for it. I've got MapSource up and working, etc. However, no matter where I put the files (gmapsupp.unl and LEX_PKG) I can't get it to work. The unit doesn't recognize them, even though through MapSource it says they're unlocked. When I go into the 350 it still shows the same thing it always has under the Travel Kit/Language Guide: ""This is a sample version, etc..etc.."" I don't have an SD card, but I read somewhere that it can still be done without one? Maybe that was incorrect?
+
+I have google'd and scanned forums for literally hours and cannot find what I'm doing wrong. I don't know if I'm doing it backwards or if I'm putting them in the wrong place  But I'm trying every combination of stuff and am now completely at a loss.
+
+If anyone could help at all, I'd be most grateful."
+,murdmac,2008-02-01T20:29Z,"Think I might have found the Problem Guys !
+
+I was using a cheap SD Card 
+
+In the etup menu under Ser. it always had a 3 digit code and I had to ""start CHKSUM"" and a 10 digit code was generated -- THIS IS NOT THE CARD ID ???????????
+
+When i put another cheap card in it came up with the same thing and after doing checksum the code generated was the same.
+
+When I put my small camera sandisk branded sd card in and went into the SD card menu it gave a 10 digit code beside Serial :
+
+i.e 
+Ser. 1234567890
+
+before was 
+Ser. 195
+
+Ordered a new 2gb card so hoping this is it - looks promising though
+
+Let me know if this helps anyone ?"
+,doell,2008-02-02T16:48Z,"I am having troubles as well - have a brand new nuvi 350 - first thing i did was run the auto update and update all the software on the device.
+I have followed the instrutions to the letter, including the serial # of the sd card, the 900 mape id,using the lower generate button nd updating the unl file. I have also tried both keygens, the first one and the fixed one to no avail. My SD card gets a ten digit serial number as it should.
+I am wondering if my problem has something to do with the latest updates from Garmin that I installed?"
+,budest,2008-02-11T05:54Z,"Managed to get Garmin Travel Guide installed to nuvi 360 from my SD card using the units 10 digit ID as I am unable to gather one from my pq1 SD card.  Even following the steps provided and accessing the hiden menu I only get a 4 digit number and after running ""start chksum"" it appears to fail.
+I appreciate that there doesn't appear to be any other method of retrieving an SD ID is this correct?"
+,mrceltic33,2008-02-15T04:23Z,"Hi everyone. I followed the instructions and got to the point where my Garmin 350 prompts ""Are you sure you want to reinstall the Oxford Dictionaries etc..?""  and when I select yes I receive a ""File Copy error, Please Reinstall"". Did anyone have the same issue and if so how did you over come it. Thanks in advance."
+,surforever,2008-02-21T03:36Z,"budest, how did you manage to do that with garmin ID??
+
+""Managed to get Garmin Travel Guide installed to nuvi 360 from my SD card using the units 10 digit ID as I am unable to gather one from my pq1 SD card.""
+
+I cannot get any IDs from 2 of my SD cards using nuvi 650, there is nothing in checksum field and by pressing start checksum button it'd say fail after a while.
+
+Any advice on how budest installed it with a native nuvi ID?"
+,Zorkin,2008-02-27T18:45Z,"NightyNinetY - dude, you rock - working like a cracker.  BTW - followed the rather obscure conversation between you and Raiserdead (also very rusty) - got it - looking forward to new and wonderful combinations of rID and PID...
+
+Thanks again."
+,Zorkin,2008-03-02T19:09Z,"A general call to anybody interested...
+A nuvi 710 is the only 7** series Garmin that does not feature text to speech (TTS) - any yet, myself (and others) figure that the hardware is the same at the other 7's, but feature is specifically firmware'd out by Garmin (google Text to Speech for the C510 & C530 - you'll see my drift).  Been trying to figure out where this restriction resides, or how one could spoof the Nuvi id so it thinks it's a higher unit, but no joy - to any of the big brains out here - any ideas?"
+,innocent123,2008-05-17T23:33Z,Can someone give a step by step process please? I have nuvi 300T
+,innocent123,2008-06-12T19:57Z,"ok finally managed with keygen 1.5, pid 2, rid 0, ver 0...thought it will help someone struggling"
+,marquis60060,2008-07-14T12:09Z,"I have a nuvi 370 and was able to install the ""Europe travel guide"" no problem, however i am having trouble with the language guide.  Can someone tell me what I am doing wrong.
+
+1. decompressed
+2. used garmin unit id (not sd card) and map id code in keygen and got code. 
+3. pasted code in gmapsupp.unl and put file in same folder as LEX_PKG., which is a directory within  a folder I named garmin language guide, which is within the Garmin folder in the units main directory. 
+
+I installed directly to the unit with the europe travel guide so i figure I should be able to do it here.
+
+1. Main directory within garmin
+2. Garmin folder
+3. Garmin language guide
+4. LEX_PKG
+5. gmapsupp.unl & other files from torrent.
+
+do i need to move the files to another part of the garmin?"
+,Newb787,2008-07-26T08:42Z,"Ditto here.  
+
+I have Travel Guide working.  However,  I can't get this bitch to work, can't even get the Nuvi to identify it.  As far as it's concerned it doesnt exist. One would think that if I copied the Lex package, at least it would give me an error saying that it's an invalid code or whatever.
+
+Any insight?"
+,Hatecomplications,2008-07-26T09:43Z,"Dont bother with this one, go here: http://thepiratebay.org/tor/4315551"
+,Lasaruz,2011-08-29T03:47Z,Thank you!

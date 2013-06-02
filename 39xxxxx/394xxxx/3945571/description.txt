@@ -1,0 +1,31 @@
+Opera is a super fast and free-to-use Web browser.
+Designed to make your life easier!
+ 
+http://www.opera.com/products/desktop/
+
+
+Why Opera?
+==========
+Safe, secure, powerful and fully customizable, the Opera Web browser is faster and more secure than other browsers available on the market. Opera delivers robust security and a far-richer feature set than any other Web browser and it's free.
+
+Opera is the Web pioneer that delivered tabbed browsing in 2000, and Opera 9.2 features lots of other great tricks for quick navigation, including Speed Dial, a quick way to put all of your favorite daily sites at your fingertips. You can also take, save and trade Notes attached to any Web site while browsing, or Create Search shortcuts from any search field on the Web. Opera 9.25 is super fast and free, secure and stable, and offers lots of great tools for Web Developers. 
+
+Whether you're going to work, working from home, developing Web sites, or just looking for a quick, solid browser that can help you quickly access the Internet, the free Opera Web browser delivers a superior Internet experience for every aspect of your online life, with lots of extra tech tools for power users!
+ 
+http://www.opera.com/products/desktop/
+
+
+Changes Since Opera 9.24 
+http://my.opera.com/desktopteam/blog/
+=====================================
+
+Security
+--------
+Fixed an issue where plug-ins could be used to allow cross domain scripting, as reported by David Bloom. Details will be disclosed at a later date.
+Fixed an issue with TLS certificates that could be used to execute arbitrary code, as reported by Alexander Klink (Cynops GmbH). Details will be disclosed at a later date.
+Rich text editing can no longer be used to allow cross domain scripting, as reported by David Bloom. See our advisory.
+Prevented bitmaps from revealing random data from memory, as reported by Gynvael Coldwind. Details will be disclosed at a later date.
+
+Miscellaneous
+-------------
+Fixed a problem where malformed BMP files could cause Opera to temporarily freeze.

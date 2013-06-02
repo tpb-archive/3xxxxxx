@@ -1,0 +1,18 @@
+  http://events.ccc.de/congress/2007/Fahrplan/events/2275.en.html
+
+Speakers:    	 Christian Kurtsiefer
+	Antia Lamas
+	Ilja Gerhardt
+	Alexander Ling
+
+Quantum Cryptography and Possible Attacks
+
+Quantum cryptography is the oldest and best developed application of the field of quantum information science. Although it is frequently perceived as an encryption method, it is really a scheme to securely distribute correlated random numbers between the communicating parties and thus better described as quantum key distribution (QKD). Any attempt at eavesdropping from a third party is guarantied to be detected by the laws of physics (quantum mechanics) and shows up as an increased error rate in the transmission (the QBER).
+
+There are two basic families of quantum cryptography schemes, the *rst is based on preparation of a quantum state by one party (Alice) and its measurement by a second (Bob). The most well known example is the Bennett and Brassard protocol (known as BB84 [1]). Another important version was introduced by Ekert (E91 [2]) and relies on quantum correlations of entangled photons to generate the random numbers and to reveal any eavesdropping attempt.
+
+In this talk we will review how a modi*ed version of this protocol works and the type of advantages that it confers over prepare and measure schemes [3]. Additionally, we will demonstrate the hardware of a full working kit [4] developed in the National University of Singapore for entanglement based QKD over a free space channel.
+
+Finally we will review some of the vulnerabilities of practical QKD systems as they currently exist. Although on paper these protocols are perfectly secure, they rely on assumptions about the hardware and the implementation. We will explicitly show how seemingly trivial modi*cation can give rise to information leakage which renders the system insecure [5].
+
+[1] C. Bennett and G. Brassard, Proceedings of IEEE International Conference on Computers Systems and Signal Processing pp. 175{179 (1984). [2] A. K. Ekert, Phys. Rev. Lett. 67, 661 (1991). [3] A. Acin, N. Brunner, N. Gisin, S. Massar, S. Pironio, and V. Scarani, Physical Review Letters 98, 230501 (2007), URL http://arXiv.org/abs/0702152. [4] I. Marcikic, A. Lamas-Linares, and C. Kurtsiefer, Applied Physics Letters 89, 101122 (pages 3) (2006), URL http://arxiv.org/abs/quant-ph/0606072. [5] A. Lamas-Linares and C. Kurtsiefer, Optics Express 15, 9388 (2007), URL http://arxiv.org/abs/0704.3297.

@@ -1,0 +1,38 @@
+Final Fantasy IX (PSX) fully converted to PSP format.  This will only work on PSP's with custom firmware.
+
+
+This has been fully tested on Firmware 3.71 M33 and 3.40 OE and works perfect.  It should work on older
+custom firmware as well, but I have not personally tested it.
+
+
+
+
+Instructions:
+
+
+1.   Unrar images (EBOOT.PBP)
+
+2.   Copy EBOOT.PBP to :\PSP\GAME     If it isn't there, create the directory on your own.
+     (You may put it in a subfolder if you'd like.  e.g :\PSP\GAME\FF9)
+
+3.   Copy KEYS.BIN into the same folder that you put EBOOT.PBP in.  
+     (I've had it work without this file, but you will probably need it. It's not included. Try Google)
+
+3.   Boot your PSP and go to the "Game" folder and choose "Memory Stick"
+
+4.   (Optional)  If you would like to view the instruction manual in-came, copy DOCUMENT.DAT
+     to the same folder mentioned above.  Press the "HOME" button to access it.
+
+5.   (Not optional)  Rock out!
+
+
+
+
+Notes:
+
+
+Keep the same save file when you change disks.  The GameID is already setup.
+
+
+
+HLDS

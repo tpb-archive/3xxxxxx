@@ -1,0 +1,119 @@
+POI FACTORY REDLIGHT CAMERA and SPEED CAMERA POI FILES FOR THE UNITED STATES.   
+----------------------------------------------------------------------------
+Updated January 09 2008
+
+This is a POI File for use in the united states.  It will work without modification on All Garmin GPS units,
+and SHOULD work on other units also.  Some format modification may be required for other brands of GPS.
+
+It contains the location of 2733 Redlight Cameras, and 114 Speed Cameras.
+
+Description of files included.
+
+Redlight-Cameras.csv 		 -- Redlight Camera ONLY POI file (Redlight Camera POI Database)
+Redlight-Cameras.bmp             -- Generic icon of a Red Light
+
+Speed-Cameras.csv   		 -- Speed Camera ONLY POI File    (Speed Camera POI Database)
+Speed-Cameras.bmp                -- Generic icon of a Police car
+
+USAmap.jpg                       -- Areas Covered
+
+Extras\Icons         		 -- (Not Required) Custom ICONS For use on Garmin Units.   
+Extras\Alerts      		 -- (Not Required) Custom Alert Sounds for use on Garmin Units.
+
+
+To upload the units to your garmin unit, Use the Garmin POI loader software available from garmin- 
+http://www8.garmin.com/products/poiloader/
+
+For the Redlight-Camera.csv, If you choose to do a "Manual Install", you can choose to be Alerted--
+	 "When ever you get close to a point within xxx feet".  I go with 1320 Feet.
+
+
+
+If you want to get creative, Go to the extras folder and you can pick your own Icons and Alert sounds.
+
+CUstom Icons:  Same thing, just overwrite the Redlight-Cameras.bmp or Speed-Cameras.bmp file with your own, then upload using POILOADER.
+Custom Alerts: If your GPS Supports mp3 playback, copy your alert sound from the Extras\Alerts folder to the main directory.
+	     You MUST give it the same name as the type of alert.  Such as Redlight-Cameras.mp3 will alert for Redlight cams,
+    	     and Speed-Cameras.mp3 will alert for speed cams.
+
+  
+
+The file currently includes locations in the communitties listed below.
+
+Alabama--Montgomery
+
+Arizona--Avondale, Chandler, Glendale, Goodyear, Mesa, Paradise Valley, Phoenix, Prescott Valley, Scottsdale, Tempe, Tucson
+
+California--Alhambra, Bakersfield, Baldwin Park, Belmont, Berkeley, Beverly Hills, Burlingame, Canoga Park, Canyon Country, Capitola, Carmichael, Cathedral City, Cerritos, Costa Mesa, Covina, Culver City, Cupertino, Cypress, Daly City, Davis, Del Mar, El Cajon, Elk Grove, El Monte, Emeryville, Encinitas, Encino, Escondido, Fairfield, Fountain Valley, Fremont, Fullerton, Garden Grove, Gardena, Grand Terrace, Hacienda Heights, Hawthorne, Hayward, Hollywood, Indian Wells, Inglewood, Laguna Woods, Lancaster, Loma Linda, Long Beach, Los Alamitos, Los Angeles, Lynwood, Marysville, Modesto, Montclair, Montebello, Moreno Valley, Murrieta, Newark, North Hills, North Hollywood, Oceanside, Oxnard, Pacoima, Panorama City, Paramount, Pasadena, Poway, Rancho Cucamonga, Redding, Redwood City, Riverside, Rocklin, Roseville, Rowland Heights, Sacramento, San Bernardino, San Bruno, San Diego, San Francisco, San Juan Capistrano, San Mateo, Santa Ana, Santa Clarita, Santa Fe Springs, Santa Maria, Santa Monica, Solana Beach, South Gate, South Pasedena, Stockton, Sunnyvale, Union City, Upland, Valencia, Valley Village, Van Nuys, Ventura, Vista, West Hollywood, Westminster, Westwood, Whittier, Wilmington, Winnetka, Yuba City
+
+Colorado--Aurora, Boulder, Denver, Englewood, Ft.Collins
+
+Delaware--Bear, Bridgeville, Delaware City, Dover, Millsboro, New Castle, Newark, Rehoboth Beach, Seaford, Wilmington
+
+District of Columbia--Washington DC
+
+Florida--Apopka, Bradenton, Brandon, Clearwater, Englewood, Gulf Breeze, Kissimmee, Lutz, New Port Richey, Orlando, Pensacola, Pinellas, St. Petersburg, Tampa, Tarpon Springs, Trinity, Venice, Vero Beach, Winter Beach
+
+Georgia--Albany, Alpharetta, Atlanta, Auburn, Augusta, Dacula, Decatur, Duluth, Grayson, Griffin, Hopeville, Lilburn, Marietta, Morrow, Norcross, Roswell, Savannah, Smyrna, Snellville, Suwanee, Tucker
+
+Illinois--Bellwood, Berwyn,Bolingbrook, Chicago, Deerfield, Des Plaines, Elmwood Park, Forest Park, Hometown, Lake in the Hills, Melrose Park, Naperville, Oaklawn, Oak Park, Orland Park, Prospect Heights, St. Charles, Tinley Park, Waukegan, Wood Dale,
+
+Indiana--Carmel, South Bend
+
+Iowa--Bettendorf, Clive, Council Bluffs, Davenport, Dubuque, Fort Dodge, Indianola, Iowa City, Marion, Sioux City, Waukee, West Des Moines
+
+Louisiana--Baton Rouge, Gretna, Harvey, Lafeyette, Metairie, Scott
+
+Maryland--Annapolis, Arnold, Baltimore, Bel Air, Bethesda, Bowie, Brandywine, Capital Heights, Catonsville, Clinton, Cockeysville, Columbia, Curtis Bay,District Heights, Ellicott City, Frederick, Garret Park, Glenwood, Greenbelt, Hughesville, Hyattsville, Jessup, Kensington, Laurel, Lutherville, Nottingham, Oxon Hill, Pasadena, Reisterstown, Rockville, Rosedale, Silver Springs, Suitland, Sykesville, Upper Marlboro, Waldorf, Windsor Mill
+
+Massachusetts--North Hampton, Peabody, Salem, Swampscott, Taunton
+
+Minnesota--Minneapolis
+
+Mississippi--Tupelo
+
+Missouri--Arnold, Florissant, Springfield, St. Charles, St. Louis, St. Peters
+
+Nevada--Las Vegas, North Las Vegas, Pahramp
+
+New Jersey--Clark, East Brunswick, Edison, Freehold, Hazlet, Holmdel, Kearney, Lakewood, Lavallette, Metuchen, Morganville, Morris Plains, Newark, Princeton, Ridge Glen, Totowa, Trenton, Verona, Westfield
+
+New Mexico--Albuquerque
+
+New York--Bellrose, Bronx, Brooklyn, Clay, East Elmhurst, Far Rockaway, Flushing, Jamaica, Long Island, Maspeth, New Hyde Park, New York City, Ozone Park, Queens, Staten Island
+
+North Carolina--Cary, Charlotte, Fayetteville, Greenville, Marshville, Monroe, Raleigh, Rocky Mount, Willmington
+
+Ohio--Akron, Canton, Cleveland, Columbus, Cuyahoga Falls, Dayton, Girard, Hinckley, Hudson, Middleton, Northwood, Springfield, Streetsboro, Toledo, Uniontown, Warren, Wooster
+
+Oklahoma--Muskogee
+
+Oregon--Albany, Beaverton, Newberg, Portland
+
+Pennsylvania--Media, Philadelphia
+
+Rhode Island--Providence
+
+South Dakota--Sioux Falls
+
+South Carolina--Charleston
+
+Tennessee--Chattanooga, Cleveland, Gallatin, Germantown, Jackson, Kingsport, Knoxville, Murfreesboro
+
+Texas--Arlington, Austin, Bedford, Bellaire, Cedar Hills, Cedar Park, College Station, Coppell, Corpus Christi, Dallas, Denton, Duncanville, El Paso, Fort Worth, Frisco, Garland, Grand Prairie, Harlingen, Houston, Humble, Hurst, Irving, Kilgore, Lake Jackson, Longview, Lubbock, Lufkin, Marshall, McKinney, North Richland Hill, Plano, Richardson, Richland Hills, Round Rock, Rowlett, San Antonio, Spring, Sugarland, Tomball, White Oak
+
+Virginia--Alexandria, Annandale, Arlington, Centeville, Falls Church, Fairfax, Herndon, Lorton, McLean, Newport News, Oakton, Ruther Glen, Springfield, Vienna, Virginia Beach
+
+Washington--Aberdeen, Auburn, Lakewood, Lynwood, Puyallup, Renton, Seatac, Seattle, Tacoma
+
+Canada
+
+Alberta--Calgary, Edmonton
+
+British Columbia--Abbotsford, Aldergrove, Burnaby, Coquitlam, Delta, Kamloops, Kelowna, Langley, Maple Ridge, Mission, New Westminster, Port Coquitlam, Port Moody, Prince George, Richmond, Surrey, Vancouver, Vernon
+
+Manitoba--Winnipeg
+
+Ontario--Bramalea, Brampton, Burlington, Etobicoke, Hamilton, Kitchener, Mississauga, North York, Oakville, Ottawa, Scarborough, Toronto, Unionville, York
+
+Saskatewan--Regina, Saskatoon

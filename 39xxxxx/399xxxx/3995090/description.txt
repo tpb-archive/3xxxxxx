@@ -1,0 +1,124 @@
+- Jan 25/08 - Updated to Jan19-r23625
+- Jan 7/08 - Updated to Jan06-r23261 - HAPPY NEW YEAR!
+- Dec 14/07 - VMWare Image updated to Dec14th-Rev23122
+- Dec 9/07 - Updated the VMware disk image to Dec8th-Rev23077
+
+
+The Haikuware.com (http://www.haikuware.com) Weekly SuperPack is a preconfigured VMware image of the Haiku Operating System with a whole host of software installed on it for testing. 
+
+Haiku OS (http://haiku-os.org) is inspired by BeOS and is intended to be 100% compatible with BeOS when R1 is released. 
+
+***Installation***
+
+All you need to run this are the included files and a VMware product. You can get VMware Player or Server for free from http://vmware.com. 
+
+The apps.7z is the compressed vmware disk in 7-zip format. The haiku.vmx file is the vmware configuration file. Make sure both are in the same directory and double click the haiku.vmx file to run it.
+
+
+***More Info From Haikuware.com***
+
+This is a 10gb expanding VMWare disk image. I plan to update the operating system on the image weekly so you can gauge Haiku\'s improvements. Bundled with known compatible software, it\'s the perfect way to test out Haiku\'s capabilities!
+
+It contains the Haiku OS (rev23625) vmware graphics, network and sound drivers, all the needed libraries, developer tools, all the menu links for the included applications, desktop background, etc.
+
+There\'s about 9.7 gb free space on it, it\'s bootable, it\'s maximally compressed to a file size of <100mb (decompresses to ~400-450mb) and should be ready to go. Please use 7zip (included in Haiku) to decompress the image.
+
+Here\'s a VMX file in case you need it. Use that file and the disk image and try it with VMWare Player (drop the disk image and vmx in c:/ for windows users).
+
+You can easily convert this into a Parallels disk image using their \'Transporter\' or a disk image for Qemu by placing apps.vmdk in the same directory as (e.g) qemu-img.exe, and then executing this command.
+
+qemu-img convert apps.vmdk -O vmdk apps.img (Windows)
+./qemu-img convert apps.vmdk apps.img -O raw (OS X)
+
+You can also move all your settings, applications, drivers, etc to a new Haiku revision by using Simple Backup on your home directory and then copying it to a new Haiku revision. The Haikuware superpack built everything into the home directory so everything is one place, and you can easily backup and restore your settings on a new Haiku revision.
+
+The disk image contains the following applications/stuff:
+
+Audio:
+Ai4
+ColdCut
+MeV
+Samplestudio
+Zenebona
+
+Books (PDFs):
+
+Practical File System Design
+Programming the BeOS
+
+Compression:
+Beezer
+
+Develop:
+BeIDE
+CheckItOut
+Clue
+CVS
+GCC-2.95.3-BeOS-061007
+Headers
+Jam
+JamMin
+MeTOS
+PackageBuilder
+PE
+SSH
+SVN
+Yab & YabIDE
+
+Drivers:
+Vlance network driver
+VMWare Graphics Driver
+OSS Sound
+es137x audio driver
+
+Emulators:
+BeQ
+BeYame
+ScummVM
+ZSnes
+
+Games:
+Maelstrom
+2HOT4U
+
+Graphics:
+eXposer
+Exposure
+Mojo (demo)
+Wonderbrush (demo)
+
+Internet:
+BeGet
+BePodder
+BeShare
+Firefox 2.0.9
+Jabber
+Mac File Server for BeOS
+NetPenguin
+Opera (demo)
+RobinHood
+SilverWing
+Transmission
+Vision
+RDesktop with GUI
+
+Office:
+BePDF
+GoBE Productive 2.0 (demo)
+OpenSum-It
+Inline Constructor (demo)
+
+Other:
+Be Converter
+BeeF
+BePC-Info
+Calc
+Filwip
+Graph
+SimpleBackup
+Some extra screensavers
+
+Video:
+VLC 
+
+Visit http://www.haikuware.com for more info!

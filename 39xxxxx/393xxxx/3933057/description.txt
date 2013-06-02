@@ -1,0 +1,31 @@
+  
+     Final Fantasy XII USA UNDUB 1.01 PATCH (c) SQUARE-ENIX
+                 hacked by somebody special
+  
+                    --  Information  --
+  
+  Origin:   N/A                      DVD(S):   N/A
+  Released: December 13th, 2007      Format:   xdelta
+  Platform: N/A                      Files:    1 * 50MB 
+  
+                    --  Description  --
+  
+  Seems I overlooked the Quickening special attack voices in the
+  original release.  This patch will replace them with the 
+  Japanese.
+  
+                    -- Release Notes --
+  
+  I didn't realize xdelta (http://code.google.com/p/xdelta) was so
+  robust for patching binary files with structural changes.
+
+  Avoiding such changes used to be a major headache... in fact, I
+  thank that is what caused the temporary voice problem I've seen
+  people complain about in ToA.  I guess a proper patch this way is
+  in order. :)
+     
+  Anyway, the included runme.bat script will invoke xdelta to patch
+  from Final Fantasy XII UNDUB 1.0 to 1.01.
+  
+  Hackers/coders want to contact me?  Look for a fluffy kitty.
+  

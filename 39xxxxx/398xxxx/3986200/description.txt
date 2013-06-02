@@ -1,0 +1,29 @@
+About EXIF ReName 0.0.53
+
+EXIF ReName extracts the photo capture date and time from JPEG and put it into the image file name.
+If there is more then one picture with the same date and time _1, _2, etc. will be appended.
+
+EXAMPLE:
+IMG_0001.JPG transforms to 2005-01-09_02-49-19.jpg
+
+Possibilities
+1. Only date and time
+2. Date and time + old name (before or after)
+3. Date and time + new optional name (before or after)
+4. Copy the original files with new name
+5. Rename the original files
+6. Automatic folder creation. Folder name from year, month and day of file creation
+7. Per user settings
+8. Easy check for updated version: 
+   Click "Help", "Check for updates"
+
+If you uninstall EXIF ReName, please delete your personal settings first. This is not necessary if you upgrade to a newer version.
+Tools -> Delete personal settings 
+
+Contact:
+programmering (at) ceicer.org 
+
+English and Swedish languages
+
+versions for other operating systems than windows are available at 
+http://ceicer.org/ingemar/exifrename/

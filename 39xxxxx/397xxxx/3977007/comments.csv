@@ -1,0 +1,191 @@
+﻿User Type,Username,Date,Text
+,travtufts,2008-01-17T21:29Z,How do you use the keygen?  What map id do you use for the travel guide?
+,EZname,2008-01-19T18:13Z,"Map ID= 900
+
+But note that you need to put your SD card ID (NOT YOUR UNIT ID)
+
+To get your SD card ID:
+
+Insert the SD card the you want to use into your Garmin.
+
+Start your Garmin And touch the Clock (time) for about 10 seconds...
+
+A secret menu will appear..
+
+Click (Next) couple times until you see the menu for the SD card...
+
+Press (Checksum) and then, the unit ID for THAT SD card will appear... Note that this ID is NOT your Garmin's Unit ID.. This ID is just for that SD card.. Every SD card in the world has diffrent number!
+
+Copy that code in the Key Gen and generate a 25-digit code (lower Generate)
+
+Copy the code into the (gmapsupp.unl) file...
+
+Restart your Garmin..."
+,yslbabydoll,2008-01-20T09:28Z,"Could you please help this newbie out? I don't know how to install this onto my gps. I didn't have a poi folder in my nuvi drive, so I made one. I placed the gpi file in there and am now stuck. I was able to generate a key using the instructions previously given (but am confused by map id requirement?) and opened the unl file with notepad to paste the code into the file (saved). Is it possible to get a step-by-step instruction, please? Thanks!"
+,hairback357,2008-01-20T12:47Z,Worked sweet on Nuvi 650. Thanx
+,travtufts,2008-01-22T18:53Z,"Worked fine.  On startup, the nuvi said ""new data available on card"".  I chose Fodors and it then asked me if I wanted to copy this data to the nuvi.
+
+I said no for now, and it works off the sd card, but did anyone copy to the nuvi?  does that allow you use everything without the SD card?"
+,travtufts,2008-01-23T01:14Z,"Nevermind.  Yes, just say copy the files."
+,kakata,2008-02-06T17:05Z,"Hi guys, could anybody tell me ID=??? for Garmin Travel Guide Europe ?? I've been trying 900 as for Fodor's (it works for my nuvi350!), but doesn't work for Europe ... Any idea ? Or another KG ? I've been tryimg with Fodors's one as well as with Mod JM one ...
+Thanks"
+,pg729,2008-02-13T00:18Z,"Heres what got it working for me for those having trouble:
+
+To get your SD card ID:
+
+Insert the SD card the you want to use into your Garmin.
+
+Start your Garmin And touch the Clock (time) for about 10 seconds...
+
+A secret menu will appear..
+
+Click (Next) couple times until you see the menu for the SD card...
+
+Press (Checksum) and then, the unit ID (May appear as SERIAL in your menu)for THAT SD card will appear... Note that this ID is NOT your Garmin's Unit ID.. This ID is just for that SD card.. Every SD card in the world has diffrent number!
+
+Copy that code in the Key Gen where it says: Enter Your Unit Id then go to bottom drop down and select: .... a box will pop up and ask for your MapID code.... enter 900 and click generate at the bottom of the Key Gen right next to the exit (dont worry about top generate)
+
+Copy the map unlock code into the gmapsupp.unl file by opening the file with notepad then save it.
+
+Next step is to copy only the folder titled Garmin to you sd card not the whole folder named garmin fodors.... restart your gps with the sd card in it and you will get a message that theres new data on your card"
+,El_escorpio,2008-02-15T19:56Z,"EZname, please help me...
+I've downloaded Garmin City Navigator Europe Nt 2008(fuck bluebea) from Shareall and i'm having some trouble installing it.
+I've done everything, as everyone says, but my unit is kenwood kna-g520 with preloaded maps city navigator europe nt v8.
+This unit has a sd card slot so i can save the new maps on a sd card right?
+So, my problem is how to get my sd id card number because i thing i have to put him in jet mouse keygen right?
+How can i get this number, it's all in need to know..thank you, and sorry also...:s
+El_escorpio"
+,El_escorpio,2008-02-18T02:44Z,"This is a brief tutorial about to install Garmin City Navigator Europe NT 2008 on Kenwood Kna-g520. All credits goes to lisalovelee33, gphoenix, ed_slv, shareall, cumshotlover, ploff and guten. Thanks to you all guys, i'm extremly greatful...
+First thing to do is to download Garmin City Navigator europe NT 2008 DVD-ShareAll(Fick Bluebeav to your PC, then, extract the files with WinRar or other decompression tool.
+Run ""Setup.exe"" wich is going to install MapSource in your hard drive disk. Don't enter any unblock code in the wizard yet, jump off...
+After that, you have to generate a code with matches with your ID Unit...so, open JetMouse Keygen 1.3 and run ""keygen.exe"". Enter you ID Unit number where it says "" enter your id number here"". ( in garmin deviced, it's very easy to find it. Go to Settings--->System--->About--->Unit ID)
+Next, click ""generate"", it will appear one code...nevermind that.
+In the second blank space, where it says ""select Map Product"" you will have to chosse ""custom mapset"" and then type 284 on ""Map Id Code"". It will appear another code on ""Your Map Unlock Code"".
+Keep this number and write it somewhere!!!
+Next, open MapSource, and go to where it says ""unblock map"". Enter the code that i told you to keep.
+And that's it!!! ( oh, if you have already entered any unblock code, erase them)
+MapSource will let you select the maps you wish...after they're selected, name them...(Map Group Name)
+Then, transfer them to your SD Card. It's the last step.
+MapSource will recognize your SD CARD. You DON NOT NEED, i repeat, DO NOT NEED anything like your SD CARD ID. Forget it.
+I've tryied that too. You DO NOT NEED "".unl"" files wether it is ""GMAPSUPP.unl"" or ""SW.unl"".
+When it's over, remove your SD Card from your SD Card reader and insert him in you KNA-G520 unit.
+It's all set, hope this guide can be useful.
+Once more, thanks to you all...i've said it before but it's never too much to say it again, thank you thank you thank you!"
+,surforever,2008-02-21T03:40Z,checksum field in my nuvi 650 is empty for both of my 2 SD cards and by pressing start checksum button it'd say fail after a while...what should I do?
+,harrowone,2008-02-24T19:01Z,"Hi all
+I've followed the instructions religiously
+found SD card ID
+entered it on top of keygen
+entered 900 for Product ID
+generated a code (bottom of keygen)
+used notepad to write the code to the .unl file
+copied Garmin folder to SD card
+saved it
+rebooted Garmin nuvi 350
+nothing!!!!
+Any suggestions"
+,surforever,2008-03-05T05:45Z,"yes!
+suggestion # 1 - search for a modified keygen named jmgkg13modfix and use that one instead
+
+suggestion #2 - if still unable to do it with a sd card, there is a way! Use your GPS unit's id (not sd), modify file and copy the Garmin folder directly to your unit. It works!"
+,xxhaimbondxx,2008-03-09T18:48Z,"I've tried this loading directly onto my nuvi 660 since I don't have an SD card and it didn't even tell me there was new data available. I placed the file into the Poi folder, even tried renaming it to poi.gpi, also did not help a bit.  Entered my unit ID in KeyGen, still nothing. Any help would be appreciated. Thanks.
+
+P.S. Is there a traffic hack? I tried entering unlock code and received message that subscription was added, however still can't receive any traffic data."
+,xxhaimbondxx,2008-03-10T19:56Z,"ok, never mind got it. Didn't realize that the only way to install this is from any SD card. BTW still looking for a traffic hack. With it I would make my system complete."
+,_TriscuiT_,2008-03-25T02:34Z,"I followed pg729's instructions and it seems to have worked perfectly fine on my Nuvi 370.
+
+I agree that we need a traffic hack for these things.  Anyone have one?"
+,planedude,2008-04-24T01:04Z,"Anyone have any luck loading this on a nuvi 350, I've tried all the instructions with no luck. It like the card is not even in there......Thxs"
+,beautyiseternal,2008-04-27T03:02Z,"i've tried everything and it doesn't work...i have nuvi 660...software version is 4.30 GPS SW version is 2.90
+
+i even follow instruction by:
+
+""surforever"" at 2008-03-05 05:45 CET:
+yes!
+suggestion # 1 - search for a modified keygen named jmgkg13modfix and use that one instead
+
+suggestion #2 - if still unable to do it with a sd card, there is a way! Use your GPS unit's id (not sd), modify file and copy the Garmin folder directly to your unit. It works!""
+
+
+--------------------------------------
+My Travel Guide North America is 20.9 MB and file name is ""D0469000C.gpi"" is this the correct file?"
+,beautyiseternal,2008-04-27T03:09Z,"I was able to get MY SD CARD ID IS: ""0xA81C24AC""
+
+1. INPUT 0xA81C24AC ""ENTER YOUR UNIT ID HERE:""
+
+2. SELECT MAPID: 900
+
+3. GOT THE ""YOUR MAP UNLOCK CODE:"" GGGZ7DEK6JGRZUKNUE7C9VVFQ
+
+4. PUT THAT CODE IN THE ""gmapsupp.unl""
+
+5. COPY Garmin\poi\D0469000C.gpi WHOLE FOLDER TO MY SD CARD ALONG WITH ""gmapsupp.unl""
+
+6. TURN ON DEVICE.... NOTHING WORKS
+
+
+how does ""Travel Guide Europe"" load into our SD card? same procedure?"
+,beautyiseternal,2008-05-24T23:19Z,doesn't work at all!
+,coolspot18,2008-05-31T03:36Z,"WORKS GREAT!
+
+Files go into \GARMIN
+Unlock file (gmapsupp.unl) into \GARMIN
+
+WHEN GENERATING UNLOCK CODE, make sure you use the BOTTOM generate button and the MAP UNLOCK code - not the GM  XT unlock code/"
+,cfd01,2008-06-02T03:24Z,"Can anyone help, I'm trying to get this to work with the NUVI 750. I can't get the SD i.d. number. I did as instructed and nothing works. Any advice???"
+,cfd01,2008-06-02T03:51Z,O.K. I got it. I placed my finger across the batt. indicator and the time where as I was just pressing time earlier. Hope this helps someone.
+,fred123321,2008-08-02T04:06Z,"I have a Garmin 250 and trying to get the SD ID. I can't get to the Debug hidden menu, could it be someplace else for a 250 model?"
+,InfoWarriorMaverick84,2008-10-12T07:29Z,"Instructions that worked on a Nuvi 660 with SD Card:
+
+Get jmgkg13modfix.exe Unlock Generator 1.3 which can be found at http://www.stepanenko.ca/jmgkg13modfix.exe, peer-to-peer networks, or Google (garmin_keygen_North_America_Travel_Guide.exe untested).
+
+
+Find Your SD card serial number by doing the following:
+Start your Garmin and press the time down until a menu appears
+Press NEXT two times until you see the menu for Data Card Test Page
+Press START CHKSU and then make note of the 10 digit serial number
+I had to hard power the unit down to exit the menu
+
+
+Copy the Garmin folder (not Garmin_fodors) to your SD card (I borrowed the one in my digital camera). Note: You can use your Nuvi with your computer as a SD card reader.
+
+
+Use the Unlock Generator by doing the following:
+Enter the SD card serial number under Enter Unit ID Here
+Under the Select Map Product menu, select Fodors [Travel Guide] and click Generate.
+Open the file gmapsupp.unl in your SD card under \\Garmin\gmapsupp.unl with WordPad or Notepad.
+Highlight and copy the unlock code and paste it in the gmapsupp.unl file, then save and close it.
+
+
+With the the Nuvi on, insert the SD card and the following will appear:
+
+******************
+New data found on card
+Cancel / OK
+******************
+Copy this data to your Nuvi?
+Fodor's North America
+(/Garmin/Poi/D046900C.gpi)
+NO / YES
+******************
+
+All done! The use of the SD card is no longer necessary for Fodors Travel Guide to work."
+,Fillupwithsnow,2008-10-31T18:24Z,"it works great, took a while to understand what everyone was saying,  but it worked!!!
+great job guys!!!  what else can we do with these garmins??"
+,Fillupwithsnow,2008-10-31T18:26Z,"Is there any way to hack in to get Bluetooth or Fm tranmitter, I noticed it playing around in the secret menu??"
+,PigVomit,2008-12-30T21:51Z,"Took me a while to figure out.  To access the secret menu, put your finger on the BATTERY LEVEL indicator, not the time.  In the secret menu, go to the CheckSum page for the SD card, but you don't need to run the CheckSum....you only need the SERIAL NUMBER from your SD card, which is listed on this page whether you run the checksum or not (my Checksum check always failed).  Use the SERIAL NUMBER for your SD card with the KeyGen."
+,DragonTattooz,2009-01-27T19:12Z,"Alright, this is embarrassing to admit, but it may help someone.
+
+I thought I did everything right, I was using PowerISO, ect. Um, well, except for the part where I was trying to run the executable from the PowerISO file viewer, i.e., I didn't actually mount it, I was just using P-ISO to look at the ISO.
+
+So, make sure you actually mount the image, then it works like a dream!"
+,goofy_root,2009-02-02T08:41Z,"I got a Nuvi 260, I tried all possible tricks copying Garmin folder to the SD card, inserted SD card to Nuvi 260, powered it ON, touched clock for more than 10 seconds BUT nothin' happened.  I never got to that secret menu.  Are you guys all kidding?"
+,revjlw,2009-02-03T23:55Z,Is there a key gen program that runs on a MAC?
+,realcoolcat,2009-02-06T22:02Z,Worked like a charm on Garmin Nuvi 750. Thanks
+,kuku1375,2009-04-05T04:08Z,"I have a NUVI 250W. I downloaded this torrent file, copied it to an SD card, inserted the card into my NUVI, pressed time but no secret menu appeared. Can it be because I used a 4GB SD card?"
+,vjs658,2009-09-08T20:20Z,"It works on my zumo 660 with the sd card inside, but it will not install the data to the zumo itself."
+,PlzDuntBanMe,2009-09-20T01:04Z,"It works!!!!
+
+Thanks for the instruction guys! 
+
+Im using a nuvi 250W"

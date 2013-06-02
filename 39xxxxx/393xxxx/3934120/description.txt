@@ -1,0 +1,55 @@
+-----------------------
+---Movie Information---
+-----------------------
+title       : Blood Diamond
+runtime     : 143 minutes
+street date : June 05, 2007
+year        : 2006
+----------------------
+---IMDB Information---
+----------------------
+link    : http://www.imdb.com/title/tt0450259/
+rating  : 8.0
+votes   : 36,640
+------------------------
+---Source Information---
+------------------------
+format       : HDDVD
+resolution   : 1080p
+video codec  : VC-1
+aspect ratio : 2.42:1
+-----------------------
+---Video Information---
+-----------------------
+container  : mkv
+codec      : x264
+bitrate    : 6416 kbps
+resolution : 720p (1280x528)
+frames/sec : 23.976
+-----------------------
+---Audio Information---
+-----------------------
+codec     : FLAC 5.1 (from uncompressed 4.6mbps LPCM source)
+bitrate   : 1514 kpbs
+subtitles : None
+-------------------
+---Release Notes---
+-------------------
+To pay back this delicious audio track, enable FLAC decoding
+in the ffdshow audio decoder settings.
+Like all the HD audio codecs, bitrates this high cannot
+be sent over SPDIF to a receiver. If SPDIF is your only option,
+ffdshow allows you to transcode to 640kbps ac3 on the fly.
+Enjoy the film!
+-----------------
+---How To Play---
+-----------------
+mpc       : http://x264.nl/
+cccp      : http://www.cccp-project.net/
+ac3filter : http://ac3filter.net/
+---------------
+---Greetings---
+---------------
+Can not forget our love for VideoCD, Replica and SCREAM.
+And of course, the groups who care about quality and support 720p:
+CTU PROGRESS GOTHiC SEPTiC

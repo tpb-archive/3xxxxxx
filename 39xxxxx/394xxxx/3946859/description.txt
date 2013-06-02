@@ -1,0 +1,39 @@
+
+AutoEmule v1.0 BETA by Yage
+===========================
+
+:::: Introduction
+
+This program is basically an automation tool for the Emule P2P client.  It takes a list of music albums in the format:
+
+<artist> ::: <album>
+
+When fed this list, the program will automatically connect to your Emule client, search for the album and then queue the best search result (highest number of seeds).  This tool will be invaluable for people who
+release their music free via P2P networks, as they can simply give others a text file with the album names
+specified in the format above, and those people can then download the music quickly and easily using AutoEmule.
+
+
+:::: Feature list
+
+
+ * Simple text input
+
+ * Searches for archives only to ensure that albums are retrieved
+
+ * Remembers downloaded albums (stored in history.dat) so the same thing isn't downloaded twice
+
+ * Remembers config settings for simplicity
+
+ * Can search using both ED2K and Kademlia networks (Kademlia is recommended)
+
+ * Could theoretically be used to download files other than music, in basic terms the program searches for archive files (Zip/Rar etc) using all the words in both the artist and album name as the search terms.
+
+
+:::: Additional
+
+
+Merry Christmas RIAA :)
+
+
+
+Yage, 24/12/2007

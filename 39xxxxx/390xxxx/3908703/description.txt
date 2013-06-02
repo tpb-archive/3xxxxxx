@@ -1,0 +1,7 @@
+GMail Drive is a Shell Namespace Extension that creates a virtual filesystem around your Google Mail account, allowing you to use Gmail as a storage medium. 
+GMail Drive creates a virtual filesystem on top of your Google Gmail account and enables you to save and retrieve files stored on your Gmail account directly from inside Windows Explorer. GMail Drive literally adds a new drive to your computer under the My Computer folder, where you can create new folders, copy and drag 'n'drop files to. 
+
+Ever since Google started to offer users a Gmail e-mail account, which includes storage space of 4000 megabytes, you have had plenty of storage space but not a lot to fill it up with. With GMail Drive you can easily copy files to your Google Mail account and retrieve them again. 
+When you create a new file using GMail Drive, it generates an e-mail and posts it to your account. The e-mail appears in your normal Inbox folder, and the file is attached as an e-mail attachment. GMail Drive periodically checks your mail account (using the Gmail search function) to see if new files have arrived and to rebuild the directory structures. But basically GMail Drive acts as any other hard-drive installed on your computer. 
+You can copy files to and from the GMail Drive folder simply by using drag 'n' drop like you're used to with the normal Explorer folders. 
+

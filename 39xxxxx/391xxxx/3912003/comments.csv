@@ -1,0 +1,138 @@
+﻿User Type,Username,Date,Text
+,Mindtraveller,2007-11-28T00:33Z,Thank you.
+,pether,2007-11-28T01:07Z,"The game sucks hard.
+Its not even worth the time to download."
+,noekk,2007-11-28T01:17Z,Where did you get the crack for the latest patch ? Are you sure it works ?
+,bassgoonist,2007-11-28T01:53Z,"I got the crack from gamecopyworld, i have tested it, it works like a charm. I was crashing all the fucking time before. Now it's smooth sailing."
+,bassgoonist,2007-11-28T06:25Z,"aw, crap, this torrent poisoned, watch out for bad bans. I'd reset your ban list regularly if I were you. :-("
+,mingostar,2007-11-29T05:37Z,"Hey...
+The download nevers ends... It stays in 99%...
+What can I do to solve it...???"
+,bassgoonist,2007-11-29T18:31Z,"I'll seed some more, never fear :-p"
+,bassgoonist,2007-11-29T18:34Z,Is anyone having real trouble finishing this torrent?
+,vampyfan,2007-12-01T19:26Z,"i installed it and i put in the patch and followed the directions word for word, i push to play it and a box comes up saying
+
+""Unhandled Exception: Unable to find a valid device
+Type: Class TMill::Common::Exception
+File: C:\sc5Patch\source\engine\dxdevice.cpp
+Function: TMill::Engine::GetBestDeviceId
+Line: 599""
+and if it stays up for to long it freezes and i have to control+alt+delete and end it. can anybody help?"
+,bassgoonist,2007-12-01T21:24Z,What kind of video card do you have? Do you have the latest drivers installed?
+,wool.in.silver,2007-12-01T21:57Z,"I too have an exception thrown from line 599 of dxdevice.cpp.
+
+I'm not a Windows user, but that's fairly obviously where the DirectX engine is initialised and it makes a call to get the Id of the most capable graphics card on the system; it would seem that our graphics cards are just not good enough to run the game.  Somewhere in the official blurb it says:
+
+===
+Supported chipsets :
+nVidia Geforce FX5900 or greater
+ATi Radeon 9600 or greater
+onboard chipsets not supported
+===
+
+That's pretty lame for me, I just spent ages downloading but don't have a computer anywhere in the house that can run it!
+
+Anyway, it's at least amusing that the exception isn't properly caught anywhere, so we can see the directory the programmer has compiled the project from.  (SimCity5 engine ""work""!? How many personal versions did he write?)"
+,vampyfan,2007-12-01T22:17Z,"i have a Radeon 9250, but shouldnt it still be able to play, just not very well?lol"
+,bassgoonist,2007-12-05T23:19Z,"vampyfan, sadly no. The 9250 gets no driver support from ATI anymore, and I doubt it will run at all."
+,lyricalcancer,2007-12-19T11:51Z,"Could i get some 100% seeders on. im stuck at 99.6% 
+
+an question, ive never seen this. it says i had like 1MB left then jump back to 6MB, how is that possible?"
+,bassgoonist,2007-12-19T17:21Z,"It'll download parts of pieces, but then the hash check will fail. If I recall, someone was poisoning this torrent."
+,Pajas1,2007-12-24T08:56Z,"Downloaded this torrent and installed it using the provided instructions. It runs like a charm!
+Only trouble is, the landscape seems to be submerged or heavily fogged. No probs with the graphics card. any suggestions?"
+,hondurod,2007-12-25T03:37Z,"Paja1... thats because you have the graphics at low... check your settings...
+
+Bassgoonist... this game crashes everytime I play it... I have no problems with video card, updated manytimes and reset all drives, including I reinstalles the game many times... I think I need a new crack or a mini image to be able to run the game with no crash... many times the crash is that the display freezes although the game continues... windows operates normally, it is a game problem... any idea for the game display problems?"
+,Pajas1,2007-12-25T15:42Z,"hondurod > tnx for the input!
+i´m afraid it didn´t do any good. i´ve turned the graphic settings up to max - still a supermerged/foggy landscape. anyone experianceing the same problem?"
+,Pajas1,2007-12-25T15:43Z,"hondurod > tnx for the input!
+i´m afraid it didn´t do any good. i´ve turned the graphic settings up to max - still a submerged/foggy landscape. anyone experianceing the same problem?"
+,macrixen,2007-12-28T21:01Z,gar there are so many hash fails... only 30% done and have laready gotten about 200mb wasted because of it.
+,macrixen,2007-12-28T21:01Z,gar there are so many hash fails... only 30% done and have already gotten about 200mb wasted because of it.
+,mweterings,2007-12-30T22:25Z,when i click on autorun he asks for a disc. what should i do now?
+,mordeqai,2008-01-05T13:58Z,"I'm getting crazy, it's stuck somewhere between 99.4 and 99.9 (it's changing all the time) it's been going on like this for hours, pleasepleaseplease seed. ^________^'"
+,OÄ¢Ä¢Î£,2008-01-06T17:52Z,"It says that i need the orginal disk. 
+
+Can you explain nr.4 to me better.
+Cant understand were i shall copy the file SimCitySocieties.exe. to. Just find the file and copy, and copy it to .......?"
+,AlmightyNienaber,2008-01-07T23:19Z,want to go ahead and seed for me?
+,AlmightyNienaber,2008-01-08T05:42Z,"woah,when i started this download it was 
+seed:58
+Leech:3 
+and now its 
+Seed;58
+Leech;139
+what the hell happoned?"
+,AlmightyNienaber,2008-01-11T06:13Z,"fuck, its not working for me, i did everything and i made shures to COPY the file, but its still asking for the CD"
+,chris1989,2008-01-24T21:45Z,Please seed! Thanx
+,butcherbob,2008-02-11T11:29Z,"game works spot on and its ok but the original game was plauged with lockup problems and so is this.Nothing wrong with the download just the original game.
+Thanks for the game anyway."
+,butcherbob,2008-02-11T11:31Z,"Forgot,no cd didnt work got it from gamecopyworld after patching thiswith 1.03 patch.
+FFs moaners if it says insert cd/dvd then get a nocd.exe from gamecopy or somewhere takes 30 seconds instead of moaning at the uploader."
+,brekke99,2008-02-11T21:55Z,"Please is there some one here that can seed the last 0,1% for me  "
+,uberchemist,2008-03-10T07:57Z,"i also get the line 599 error. i guess if the machine can't perform, you're out of luck. lame..."
+,Catalyst666,2008-03-11T03:43Z,Doesn't really work for me. If I try to place anything the game crashes.
+,uberchemist,2008-03-11T06:12Z,"the last comp i tried installing on didn't work, but on my laptop it works fine. the whole game is rendered in 3D, which makes it hard for older computers to process. unfortunately, like others said, the game plays a bit differently, and i'm not too happy with the changes. it could be better if, let's say, they doubled the amount of buildings offered."
+,CoffeeFan,2008-03-17T19:48Z,"I don't really understand one thing - where should I copy the crack file? it's called SimCitySocieties.exe.exe , and I can't find any folder where there could be a file to replace it."
+,bassgoonist,2008-03-18T22:09Z,"Well, remove one of the "".exe""s. That's probably the problem."
+,kev200,2008-05-01T08:58Z,Can somebody tell me plz the key what i most enter i installed it but now there is better uptade and i need register key and i have already deleted that folder
+,hdfanatic,2008-05-01T21:34Z,"Hey guys, seeed, pleeease !!!"
+,Alez08,2008-06-02T22:51Z,"If i get this one fast ill seed for you 5times the file size, and i got 200kb upspeed, so please.. seed"
+,MTV_RoAcH,2008-06-03T16:25Z,"Dang! whats going on, I can see there is like 8people seeding at times, and only me that is downloading, I have a reasonable line speed, and I set it to download at highest priority, yet its stays about 0.5-2kb/s... ad that rate it will take weeks to finish, please tell what I am doing wrong"
+,MTV_RoAcH,2008-06-03T16:25Z,"I am using ""flashget"" to download"
+,jambre,2008-06-04T03:34Z,works for me 
+,MTV_RoAcH,2008-06-04T13:48Z,"Any suggestions on the software your using to download it? 
+
+(guess it might be that ""Flashget"" is not working to well with this torrent, yet is funny as it works well with other downloads :S"
+,dahv,2008-06-17T22:11Z,"plc SEED, it is realy slow :("
+,SilentWulf,2008-06-22T16:12Z,"If your looking for a good ol' SimCity experience found in previous versions, like me, then you will not like this version. The game mechanics are too arbitrary and confusing for players looking for the next great city building game. But that's just my opinion. I deleted it after an hour of gameplay."
+,hery_sp,2008-06-24T01:39Z,Seed please...
+,hery_sp,2008-06-24T05:02Z,The transfer rate's slow. Seed please...
+,hery_sp,2008-06-29T12:39Z,"Thnx.
+I enjoyed the game.
+It worked great."
+,bodyboy,2008-06-30T02:10Z,i have got to step 4 and have do you copy it from winrar and where you gonna copy it to?
+,nickdb93,2008-07-22T06:42Z,says i need a disk. solutions?
+,tumba999,2008-08-25T04:40Z,no one can fucking get a cd key wow am fed up with small fucking idiot not can make a cd key that works 
+,joranpoort,2010-01-20T21:53Z,"Fanx very much!!!
+It is working now!
+
+(sorry for my bad English i'm from holland)
+
+P.S. How can you seed?"
+,joranpoort,2010-01-23T12:30Z,He says that I need a cd! And the crack doen't work!
+,sprf,2010-03-18T21:10Z,Thanks very much.It is working
+,Epedemi1,2010-05-01T11:14Z,"Great DL. seems to work and NO virus!
+Ty for the upload."
+,tukumas,2010-06-06T14:25Z,it needs to be seeded..
+,jj2yo,2011-01-04T03:02Z,to get a cd key run the keygen included in the download
+,boss1988,2011-02-11T11:38Z,CASA-FW3B-A5C5-BA5D-7RLD
+,usahrz,2011-02-19T02:06Z,"I can't get it to install. The setup doesn't works.
+I have read the instructions already but it gives me an error:
+
+""The folder path 'SimCity?Societies contains an invalid character""
+
+Is there any possible way for me to play? Thanks!"
+,usahrz,2011-02-19T02:12Z,"Forgot to say that my operational system is Windows XP, and... well, I have run both Autorun and EA Install and none of them seem to work.
+
+Sorry for my bad english, though. I am not a fluent english-speaker."
+,usahrz,2011-02-19T02:22Z,"Downloaded it for nothing... tried everything and the problem is still there... :|
+damn..."
+,usahrz,2011-02-19T22:33Z,"Sorry, it was my fault... I just looked it up on Google, this problem is somewhat common... The solution is, if you have AppLocale, uninstall it! I had this problem, uninstalled AppLocale, and then BAM! error again, but you just need to remove the ""tm"" at the installation thingy. It works fine now. The game is great. Most old players will find it weird and completely different and extremely similar to City Life/Cities XL. Well, you can make London! Loved it!
+Thanks for the great iso and sorry for the confusion."
+,Barker182,2011-06-30T17:30Z,"Downloaded and installed in about 15 minutes. Works perfectly. Tried and tested.
+
+Thank you, Bassgoonist."
+,almahmood,2012-05-27T05:16Z,He says that I need a cd! And the crack doen't work! 
+,akinoga123,2012-06-19T10:03Z,"please help me i have a problem
+
+
+I do the things in the instructions and after installing i run the patch then copied the crack to the game directory then replace then when i run the game it says
+
+""Program is too big to fit in money""
+
+Please help me i really want to play this game."
+,akinoga123,2012-06-19T10:05Z,"I also download a patch but it says 
+
+""Simcity societies is not installed"""

@@ -1,0 +1,173 @@
+Exact Audio Copy V0.99 prebeta 3 from 28. July 2007
+
+EAC extraction logfile from 30. December 2007, 23:16
+
+Tapping the Vein / The Damage
+
+Used drive  : SONY    DVD RW DW-D26A   Adapter: 1  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : Yes
+
+Read offset correction                      : 12
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : No
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Not detected, thus appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 768 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:Program FilesExact Audio CopyFLACFLAC.EXE
+Additional command line options : -8 -A tukey(0.25) -A gauss(0.1875) -V -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  3:51.17 |         0    |    17341   
+        2  |  3:51.17 |  5:01.40 |     17342    |    39956   
+        3  |  8:52.57 |  4:21.13 |     39957    |    59544   
+        4  | 13:13.70 |  5:00.25 |     59545    |    82069   
+        5  | 18:14.20 |  4:44.57 |     82070    |   103426   
+        6  | 22:59.02 |  4:57.00 |    103427    |   125701   
+        7  | 27:56.02 |  5:01.20 |    125702    |   148296   
+        8  | 32:57.22 |  4:43.00 |    148297    |   169521   
+        9  | 37:40.22 |  4:52.48 |    169522    |   191469   
+       10  | 42:32.70 |  4:06.67 |    191470    |   209986   
+       11  | 46:39.62 |  6:04.33 |    209987    |   237319   
+
+
+Track  1
+
+     Filename Z:roxaudioriptapping_the_veinthe_damageTapping_the_Vein_-_The_Damage_-_01_The_Ledge.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC 7EB2334E
+     Copy CRC 7EB2334E
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  2
+
+     Filename Z:roxaudioriptapping_the_veinthe_damageTapping_the_Vein_-_The_Damage_-_02_Butterfly.wav
+
+     Peak level 97.9 %
+     Track quality 99.9 %
+     Test CRC 338DD782
+     Copy CRC 338DD782
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  3
+
+     Filename Z:roxaudioriptapping_the_veinthe_damageTapping_the_Vein_-_The_Damage_-_03_Sugar_Falls.wav
+
+     Peak level 97.9 %
+     Track quality 99.9 %
+     Test CRC 3497047F
+     Copy CRC 3497047F
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  4
+
+     Filename Z:roxaudioriptapping_the_veinthe_damageTapping_the_Vein_-_The_Damage_-_04_Beautiful.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC 08DCCB1A
+     Copy CRC 08DCCB1A
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  5
+
+     Filename Z:roxaudioriptapping_the_veinthe_damageTapping_the_Vein_-_The_Damage_-_05_Again.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC E95DD53C
+     Copy CRC E95DD53C
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  6
+
+     Filename Z:roxaudioriptapping_the_veinthe_damageTapping_the_Vein_-_The_Damage_-_06_The_Damage.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC 623B6622
+     Copy CRC 623B6622
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  7
+
+     Filename Z:roxaudioriptapping_the_veinthe_damageTapping_the_Vein_-_The_Damage_-_07_Fingertips.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC A690428A
+     Copy CRC A690428A
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  8
+
+     Filename Z:roxaudioriptapping_the_veinthe_damageTapping_the_Vein_-_The_Damage_-_08_Broken.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC F5C0D7E4
+     Copy CRC F5C0D7E4
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  9
+
+     Filename Z:roxaudioriptapping_the_veinthe_damageTapping_the_Vein_-_The_Damage_-_09_Hurricane.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC 34BF932C
+     Copy CRC 34BF932C
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 10
+
+     Filename Z:roxaudioriptapping_the_veinthe_damageTapping_the_Vein_-_The_Damage_-_10_Everything.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC 3911C0EB
+     Copy CRC 3911C0EB
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 11
+
+     Filename Z:roxaudioriptapping_the_veinthe_damageTapping_the_Vein_-_The_Damage_-_11_Falling_In.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC 0E6B8BD7
+     Copy CRC 0E6B8BD7
+     Track not present in AccurateRip database
+     Copy OK
+
+
+None of the tracks are present in the AccurateRip database
+
+No errors occurred
+
+End of status report

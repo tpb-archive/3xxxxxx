@@ -1,0 +1,10 @@
+Windows Service Pack Blocker description
+A blocking tool to prevent installation of Service Pack updates through Windows Update
+A blocking tool is available for organizations that would like to temporarily prevent installation of Service Pack updates through Windows Update.
+
+This toolkit contains three components. All of them function primarily to set or clear a specific registry key that is used to detect and block download of Service Packs from Windows Update. You only need to use the component which best serves your organizationâ??s computer management infrastructure. 
+Â· A Microsoft-signed executable 
+Â· A script 
+Â· An ADM template 
+
+NOTE: This toolkit will not prevent the installation of the service pack from CD/DVD, or from the stand-alone download package. This simply prevents the service pack from being delivered over Windows Update.

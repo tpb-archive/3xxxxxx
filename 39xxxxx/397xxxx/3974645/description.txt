@@ -1,0 +1,17 @@
+Microsoft .NET Framework 3.5
+
+
+Brief Description
+
+Microsoft .NET Framework 3.5 contains many new features building incrementally upon .NET Framework 2.0 and 3.0, and includes .NET Framework 2.0 service pack 1 and .NET Framework 3.0 service pack 1.
+
+
+Overview
+
+.NET Framework 3.5 builds incrementally on the new features added in .NET Framework 3.0. For example, feature sets in Windows Workflow Foundation (WF), Windows Communication Foundation (WCF), Windows Presentation Foundation (WPF) and Windows CardSpace. In addition, .NET Framework 3.5 contains a number of new features in several technology areas which have been added as new assemblies to avoid breaking changes. They include the following: 
+
+Deep integration of Language Integrated Query (LINQ) and data awareness. This new feature will let you write code written in LINQ-enabled languages to filter, enumerate, and create projections of several types of SQL data, collections, XML, and DataSets by using the same syntax. 
+ASP.NET AJAX lets you create more efficient, more interactive, and highly-personalized Web experiences that work across all the most popular browsers. 
+New Web protocol support for building WCF services including AJAX, JSON, REST, POX, RSS, ATOM, and several new WS-* standards. 
+Full tooling support in Visual Studio 2008 for WF, WCF, and WPF, including the new workflow-enabled services technology. 
+New classes in .NET Framework 3.5 base class library (BCL) that address many common customer requests. 

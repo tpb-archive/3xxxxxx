@@ -1,0 +1,341 @@
+﻿Filename,Size,Unit
+/Contents/Frameworks/MOKit.framework/Headers/MOAssertions.h,25.44,K
+/Contents/Frameworks/MOKit.framework/Headers/MOCompletionManager.h,12.61,K
+/Contents/Frameworks/MOKit.framework/Headers/MOCompletionStrategy.h,4.87,K
+/Contents/Frameworks/MOKit.framework/Headers/MODebug.h,5.79,K
+/Contents/Frameworks/MOKit.framework/Headers/MOExtendedMenu.h,1.49,K
+/Contents/Frameworks/MOKit.framework/Headers/MOExtendedMenuItem.h,6.4,K
+/Contents/Frameworks/MOKit.framework/Headers/MOExtendedOutlineView.h,32.6,K
+/Contents/Frameworks/MOKit.framework/Headers/MOExtendedTableView.h,32.1,K
+/Contents/Frameworks/MOKit.framework/Headers/MOFileCompletionStrategy.h,7.63,K
+/Contents/Frameworks/MOKit.framework/Headers/MOFoundationExtras.h,4.97,K
+/Contents/Frameworks/MOKit.framework/Headers/MOKit.h,1.93,K
+/Contents/Frameworks/MOKit.framework/Headers/MOKitDefines.h,2,K
+/Contents/Frameworks/MOKit.framework/Headers/MORESyntaxFormatter.h,3.18,K
+/Contents/Frameworks/MOKit.framework/Headers/MORegexFormatter.h,10.89,K
+/Contents/Frameworks/MOKit.framework/Headers/MORegularExpression.h,14,K
+/Contents/Frameworks/MOKit.framework/Headers/MORuntimeUtilities.h,14.22,K
+/Contents/Frameworks/MOKit.framework/Headers/MOSplitViewController.h,4.3,K
+/Contents/Frameworks/MOKit.framework/Headers/MOTabView.h,9.25,K
+/Contents/Frameworks/MOKit.framework/Headers/MOTabViewController.h,16.7,K
+/Contents/Frameworks/MOKit.framework/Headers/MOViewController.h,79.64,K
+/Contents/Frameworks/MOKit.framework/Headers/MOViewListLabelView.h,2.93,K
+/Contents/Frameworks/MOKit.framework/Headers/MOViewListView.h,33.68,K
+/Contents/Frameworks/MOKit.framework/Headers/MOViewListViewController.h,11.48,K
+/Contents/Frameworks/MOKit.framework/Headers/MOViewListViewItem.h,8.86,K
+/Contents/Frameworks/MOKit.framework/Headers/NSEvent_MOLocationAdditions.h,2.03,K
+/Contents/Frameworks/MOKit.framework/Headers/NSView_MOSizing.h,6.9,K
+/Contents/Frameworks/MOKit.framework/MOKit,622.71,K
+/Contents/Frameworks/MOKit.framework/PrivateHeaders/MOViewControllerView.h,1.83,K
+/Contents/Frameworks/MOKit.framework/Resources/DistributionImages.sh,2.58,K
+/Contents/Frameworks/MOKit.framework/Resources/DocumentationResources/MOViewController_example1.tiff,93.95,K
+/Contents/Frameworks/MOKit.framework/Resources/DocumentationResources/RESyntax.rtf,33.81,K
+/Contents/Frameworks/MOKit.framework/Resources/English.lproj/InfoPlist.strings,2.41,K
+/Contents/Frameworks/MOKit.framework/Resources/English.lproj/MOKit.strings,2.13,K
+/Contents/Frameworks/MOKit.framework/Resources/Info.plist,670,B
+/Contents/Frameworks/MOKit.framework/Resources/README.rtf,39.98,K
+/Contents/Frameworks/MOKit.framework/Resources/ReleaseNotes.rtf,71.1,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOAssertions.h,25.44,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOCompletionManager.h,12.61,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOCompletionStrategy.h,4.87,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MODebug.h,5.79,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOExtendedMenu.h,1.49,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOExtendedMenuItem.h,6.4,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOExtendedOutlineView.h,32.6,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOExtendedTableView.h,32.1,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOFileCompletionStrategy.h,7.63,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOFoundationExtras.h,4.97,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOKit.h,1.93,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOKitDefines.h,2,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MORESyntaxFormatter.h,3.18,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MORegexFormatter.h,10.89,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MORegularExpression.h,14,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MORuntimeUtilities.h,14.22,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOSplitViewController.h,4.3,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOTabView.h,9.25,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOTabViewController.h,16.7,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOViewController.h,79.64,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOViewListLabelView.h,2.93,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOViewListView.h,33.68,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOViewListViewController.h,11.48,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/MOViewListViewItem.h,8.86,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/NSEvent_MOLocationAdditions.h,2.03,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Headers/NSView_MOSizing.h,6.9,K
+/Contents/Frameworks/MOKit.framework/Versions/A/MOKit,622.71,K
+/Contents/Frameworks/MOKit.framework/Versions/A/MOKit_debug,622.71,K
+/Contents/Frameworks/MOKit.framework/Versions/A/MOKit_profile,650.71,K
+/Contents/Frameworks/MOKit.framework/Versions/A/PrivateHeaders/MOViewControllerView.h,1.83,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Resources/DistributionImages.sh,2.58,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Resources/DocumentationResources/MOViewController_example1.tiff,93.95,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Resources/DocumentationResources/RESyntax.rtf,33.81,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Resources/English.lproj/InfoPlist.strings,2.41,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Resources/English.lproj/MOKit.strings,2.13,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Resources/Info.plist,670,B
+/Contents/Frameworks/MOKit.framework/Versions/A/Resources/README.rtf,39.98,K
+/Contents/Frameworks/MOKit.framework/Versions/A/Resources/ReleaseNotes.rtf,71.1,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOAssertions.h,25.44,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOCompletionManager.h,12.61,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOCompletionStrategy.h,4.87,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MODebug.h,5.79,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOExtendedMenu.h,1.49,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOExtendedMenuItem.h,6.4,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOExtendedOutlineView.h,32.6,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOExtendedTableView.h,32.1,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOFileCompletionStrategy.h,7.63,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOFoundationExtras.h,4.97,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOKit.h,1.93,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOKitDefines.h,2,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MORESyntaxFormatter.h,3.18,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MORegexFormatter.h,10.89,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MORegularExpression.h,14,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MORuntimeUtilities.h,14.22,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOSplitViewController.h,4.3,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOTabView.h,9.25,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOTabViewController.h,16.7,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOViewController.h,79.64,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOViewListLabelView.h,2.93,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOViewListView.h,33.68,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOViewListViewController.h,11.48,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/MOViewListViewItem.h,8.86,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/NSEvent_MOLocationAdditions.h,2.03,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Headers/NSView_MOSizing.h,6.9,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/MOKit,622.71,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/MOKit_debug,622.71,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/MOKit_profile,650.71,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/PrivateHeaders/MOViewControllerView.h,1.83,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Resources/DistributionImages.sh,2.58,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Resources/DocumentationResources/MOViewController_example1.tiff,93.95,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Resources/DocumentationResources/RESyntax.rtf,33.81,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Resources/English.lproj/InfoPlist.strings,2.41,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Resources/English.lproj/MOKit.strings,2.13,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Resources/Info.plist,670,B
+/Contents/Frameworks/MOKit.framework/Versions/Current/Resources/README.rtf,39.98,K
+/Contents/Frameworks/MOKit.framework/Versions/Current/Resources/ReleaseNotes.rtf,71.1,K
+/Contents/Info.plist,1.39,K
+/Contents/MacOS/A Better Finder Rename 7,459.41,K
+/Contents/PkgInfo,8,B
+/Contents/Resources/ABFR.icns,41.81,K
+/Contents/Resources/ABF_Series.png,3.18,K
+/Contents/Resources/Action Add Alphabetical Sequence at End.nib/classes.nib,2.1,K
+/Contents/Resources/Action Add Alphabetical Sequence at End.nib/info.nib,829,B
+/Contents/Resources/Action Add Alphabetical Sequence at End.nib/keyedobjects.nib,14.11,K
+/Contents/Resources/Action Add Alphabetical Sequence at Start.nib/classes.nib,2.1,K
+/Contents/Resources/Action Add Alphabetical Sequence at Start.nib/info.nib,872,B
+/Contents/Resources/Action Add Alphabetical Sequence at Start.nib/keyedobjects.nib,14.12,K
+/Contents/Resources/Action Add Date to End.nib/classes.nib,1.31,K
+/Contents/Resources/Action Add Date to End.nib/info.nib,830,B
+/Contents/Resources/Action Add Date to End.nib/keyedobjects.nib,21.32,K
+/Contents/Resources/Action Add Date to Front.nib/classes.nib,1.31,K
+/Contents/Resources/Action Add Date to Front.nib/info.nib,830,B
+/Contents/Resources/Action Add Date to Front.nib/keyedobjects.nib,21.36,K
+/Contents/Resources/Action Add Folder Name to  Front.nib/classes.nib,1.22,K
+/Contents/Resources/Action Add Folder Name to  Front.nib/info.nib,828,B
+/Contents/Resources/Action Add Folder Name to  Front.nib/keyedobjects.nib,3.59,K
+/Contents/Resources/Action Add Folder Name to End.nib/classes.nib,1.17,K
+/Contents/Resources/Action Add Folder Name to End.nib/info.nib,756,B
+/Contents/Resources/Action Add Folder Name to End.nib/keyedobjects.nib,3.58,K
+/Contents/Resources/Action Add Number at end.nib/classes.nib,1.78,K
+/Contents/Resources/Action Add Number at end.nib/info.nib,829,B
+/Contents/Resources/Action Add Number at end.nib/keyedobjects.nib,14.22,K
+/Contents/Resources/Action Add Number at start.nib/classes.nib,1.64,K
+/Contents/Resources/Action Add Number at start.nib/info.nib,829,B
+/Contents/Resources/Action Add Number at start.nib/keyedobjects.nib,14.24,K
+/Contents/Resources/Action Add to End.nib/classes.nib,1.41,K
+/Contents/Resources/Action Add to End.nib/info.nib,828,B
+/Contents/Resources/Action Add to End.nib/keyedobjects.nib,4.12,K
+/Contents/Resources/Action Add to Front.nib/classes.nib,1.52,K
+/Contents/Resources/Action Add to Front.nib/info.nib,828,B
+/Contents/Resources/Action Add to Front.nib/keyedobjects.nib,4.2,K
+/Contents/Resources/Action Change Numbers.nib/classes.nib,1.28,K
+/Contents/Resources/Action Change Numbers.nib/info.nib,823,B
+/Contents/Resources/Action Change Numbers.nib/keyedobjects.nib,13.54,K
+/Contents/Resources/Action Completely Replace.nib/classes.nib,1.33,K
+/Contents/Resources/Action Completely Replace.nib/info.nib,829,B
+/Contents/Resources/Action Completely Replace.nib/keyedobjects.nib,4.59,K
+/Contents/Resources/Action Convert to DOS.nib/classes.nib,1.17,K
+/Contents/Resources/Action Convert to DOS.nib/info.nib,828,B
+/Contents/Resources/Action Convert to DOS.nib/keyedobjects.nib,3.38,K
+/Contents/Resources/Action Convert to Mac OS 9.nib/classes.nib,1.26,K
+/Contents/Resources/Action Convert to Mac OS 9.nib/info.nib,828,B
+/Contents/Resources/Action Convert to Mac OS 9.nib/keyedobjects.nib,3.63,K
+/Contents/Resources/Action Convert to NTFS.nib/classes.nib,1.28,K
+/Contents/Resources/Action Convert to NTFS.nib/info.nib,830,B
+/Contents/Resources/Action Convert to NTFS.nib/keyedobjects.nib,5.14,K
+/Contents/Resources/Action Insert At End of Text.nib/classes.nib,1.48,K
+/Contents/Resources/Action Insert At End of Text.nib/info.nib,823,B
+/Contents/Resources/Action Insert At End of Text.nib/keyedobjects.nib,9.36,K
+/Contents/Resources/Action Insert In Front of Text.nib/classes.nib,1.33,K
+/Contents/Resources/Action Insert In Front of Text.nib/info.nib,821,B
+/Contents/Resources/Action Insert In Front of Text.nib/keyedobjects.nib,9.37,K
+/Contents/Resources/Action Insert Number After Text .nib/classes.nib,1.83,K
+/Contents/Resources/Action Insert Number After Text .nib/info.nib,829,B
+/Contents/Resources/Action Insert Number After Text .nib/keyedobjects.nib,18.52,K
+/Contents/Resources/Action Insert Number At Position.nib/classes.nib,1.64,K
+/Contents/Resources/Action Insert Number At Position.nib/info.nib,829,B
+/Contents/Resources/Action Insert Number At Position.nib/keyedobjects.nib,17.24,K
+/Contents/Resources/Action Insert Number In Front of Text.nib/classes.nib,1.65,K
+/Contents/Resources/Action Insert Number In Front of Text.nib/info.nib,825,B
+/Contents/Resources/Action Insert Number In Front of Text.nib/keyedobjects.nib,18.46,K
+/Contents/Resources/Action Insert at Position.nib/classes.nib,1.27,K
+/Contents/Resources/Action Insert at Position.nib/info.nib,828,B
+/Contents/Resources/Action Insert at Position.nib/keyedobjects.nib,8.42,K
+/Contents/Resources/Action MP3.nib/classes.nib,1.43,K
+/Contents/Resources/Action MP3.nib/info.nib,829,B
+/Contents/Resources/Action MP3.nib/keyedobjects.nib,8.4,K
+/Contents/Resources/Action Make Lowercase.nib/classes.nib,1.17,K
+/Contents/Resources/Action Make Lowercase.nib/info.nib,828,B
+/Contents/Resources/Action Make Lowercase.nib/keyedobjects.nib,3.67,K
+/Contents/Resources/Action Make Propercase.nib/classes.nib,1.17,K
+/Contents/Resources/Action Make Propercase.nib/info.nib,828,B
+/Contents/Resources/Action Make Propercase.nib/keyedobjects.nib,8.46,K
+/Contents/Resources/Action Make Uppercase.nib/classes.nib,1.17,K
+/Contents/Resources/Action Make Uppercase.nib/info.nib,828,B
+/Contents/Resources/Action Make Uppercase.nib/keyedobjects.nib,3.67,K
+/Contents/Resources/Action Manually Rename.nib/classes.nib,1.27,K
+/Contents/Resources/Action Manually Rename.nib/info.nib,828,B
+/Contents/Resources/Action Manually Rename.nib/keyedobjects.nib,5.83,K
+/Contents/Resources/Action Produce Alphabetical List.nib/classes.nib,1.94,K
+/Contents/Resources/Action Produce Alphabetical List.nib/info.nib,829,B
+/Contents/Resources/Action Produce Alphabetical List.nib/keyedobjects.nib,15.79,K
+/Contents/Resources/Action Produce Numbered List.nib/classes.nib,1.64,K
+/Contents/Resources/Action Produce Numbered List.nib/info.nib,829,B
+/Contents/Resources/Action Produce Numbered List.nib/keyedobjects.nib,15.79,K
+/Contents/Resources/Action Reg Ex.nib/classes.nib,1.5,K
+/Contents/Resources/Action Reg Ex.nib/info.nib,828,B
+/Contents/Resources/Action Reg Ex.nib/keyedobjects.nib,6.38,K
+/Contents/Resources/Action Remove Anywhere.nib/classes.nib,1.17,K
+/Contents/Resources/Action Remove Anywhere.nib/info.nib,827,B
+/Contents/Resources/Action Remove Anywhere.nib/keyedobjects.nib,23.79,K
+/Contents/Resources/Action Remove Trailing Spaces.nib/classes.nib,1.37,K
+/Contents/Resources/Action Remove Trailing Spaces.nib/info.nib,828,B
+/Contents/Resources/Action Remove Trailing Spaces.nib/keyedobjects.nib,1.8,K
+/Contents/Resources/Action Remove Vowels.nib/classes.nib,1.17,K
+/Contents/Resources/Action Remove Vowels.nib/info.nib,828,B
+/Contents/Resources/Action Remove Vowels.nib/keyedobjects.nib,1.79,K
+/Contents/Resources/Action Remove at Front.nib/classes.nib,1.42,K
+/Contents/Resources/Action Remove at Front.nib/info.nib,787,B
+/Contents/Resources/Action Remove at Front.nib/keyedobjects.nib,5.91,K
+/Contents/Resources/Action Remove from End.nib/classes.nib,1.56,K
+/Contents/Resources/Action Remove from End.nib/info.nib,787,B
+/Contents/Resources/Action Remove from End.nib/keyedobjects.nib,5.91,K
+/Contents/Resources/Action Rename From List.nib/classes.nib,1.63,K
+/Contents/Resources/Action Rename From List.nib/info.nib,790,B
+/Contents/Resources/Action Rename From List.nib/keyedobjects.nib,11.54,K
+/Contents/Resources/Action Rename to Date.nib/classes.nib,1.17,K
+/Contents/Resources/Action Rename to Date.nib/info.nib,830,B
+/Contents/Resources/Action Rename to Date.nib/keyedobjects.nib,20.89,K
+/Contents/Resources/Action Replace Characters.nib/classes.nib,1.47,K
+/Contents/Resources/Action Replace Characters.nib/info.nib,576,B
+/Contents/Resources/Action Replace Characters.nib/keyedobjects.nib,10.81,K
+/Contents/Resources/Action Replace Text.nib/classes.nib,1.27,K
+/Contents/Resources/Action Replace Text.nib/info.nib,825,B
+/Contents/Resources/Action Replace Text.nib/keyedobjects.nib,9.67,K
+/Contents/Resources/Action Replace at End.nib/classes.nib,1.6,K
+/Contents/Resources/Action Replace at End.nib/info.nib,828,B
+/Contents/Resources/Action Replace at End.nib/keyedobjects.nib,5.87,K
+/Contents/Resources/Action Replace at Front.nib/classes.nib,1.47,K
+/Contents/Resources/Action Replace at Front.nib/info.nib,828,B
+/Contents/Resources/Action Replace at Front.nib/keyedobjects.nib,5.88,K
+/Contents/Resources/Action Truncate.nib/classes.nib,1.41,K
+/Contents/Resources/Action Truncate.nib/info.nib,786,B
+/Contents/Resources/Action Truncate.nib/keyedobjects.nib,6.89,K
+/Contents/Resources/Component Setup.nib/classes.nib,405,B
+/Contents/Resources/Component Setup.nib/info.nib,659,B
+/Contents/Resources/Component Setup.nib/keyedobjects.nib,8.35,K
+/Contents/Resources/Components/A Better Finder Context Menu.plugin/Contents/Info.plist,1.32,K
+/Contents/Resources/Components/A Better Finder Context Menu.plugin/Contents/MacOS/A Better Finder Context Menu,38.36,K
+/Contents/Resources/Components/A Better Finder Context Menu.plugin/Contents/Resources/A Better Finder Attributes 4 not found.html,2.69,K
+/Contents/Resources/Components/A Better Finder Context Menu.plugin/Contents/Resources/A Better Finder Rename 7 not found.html,2.66,K
+/Contents/Resources/Components/A Better Finder Context Menu.plugin/Contents/Resources/English.lproj/InfoPlist.strings,646,B
+/Contents/Resources/Components/A Better Finder Context Menu.plugin/Contents/Resources/Info.plist,1.32,K
+/Contents/Resources/Components/A Better Finder Droplet.app/Contents/Info.plist,1.15,K
+/Contents/Resources/Components/A Better Finder Droplet.app/Contents/MacOS/A Better Finder Droplet,46.04,K
+/Contents/Resources/Components/A Better Finder Droplet.app/Contents/PkgInfo,8,B
+/Contents/Resources/Components/A Better Finder Droplet.app/Contents/Resources/English.lproj/InfoPlist.strings,284,B
+/Contents/Resources/Components/A Better Finder Droplet.app/Contents/Resources/English.lproj/MainMenu.nib/classes.nib,201,B
+/Contents/Resources/Components/A Better Finder Droplet.app/Contents/Resources/English.lproj/MainMenu.nib/info.nib,590,B
+/Contents/Resources/Components/A Better Finder Droplet.app/Contents/Resources/English.lproj/MainMenu.nib/keyedobjects.nib,13.33,K
+/Contents/Resources/Components/A Better Finder Droplet.app/Contents/Resources/Icon.icns,30.54,K
+/Contents/Resources/Components/A Better Finder Droplet.app/Contents/Resources/Settings.plist,573,B
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Info.plist,1.22,K
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/MacOS/A Better Finder Preferences,139.8,K
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/ABF HotKey.app/Contents/Info.plist,1006,B
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/ABF HotKey.app/Contents/MacOS/ABF HotKey,183.36,K
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/ABF HotKey.app/Contents/PkgInfo,8,B
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/ABF HotKey.app/Contents/Resources/English.lproj/InfoPlist.strings,578,B
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/ABF HotKey.app/Contents/Resources/English.lproj/MainMenu.nib/classes.nib,721,B
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/ABF HotKey.app/Contents/Resources/English.lproj/MainMenu.nib/info.nib,510,B
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/ABF HotKey.app/Contents/Resources/English.lproj/MainMenu.nib/objects.nib,8.83,K
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/ABF HotKey.app/Contents/Resources/Info.plist,1.03,K
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/ABF HotKey.app/Contents/Resources/Known Problems-Issues.rtf,2,K
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/English.lproj/ABFSS.searchTerms,739,B
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/English.lproj/InfoPlist.strings,708,B
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/English.lproj/NetPublicSpaceABFPreferencesPanePref.nib/classes.nib,1.08,K
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/English.lproj/NetPublicSpaceABFPreferencesPanePref.nib/info.nib,641,B
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/English.lproj/NetPublicSpaceABFPreferencesPanePref.nib/keyedobjects.nib,34.64,K
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/Info.plist,1.22,K
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/icon.icns,43.77,K
+/Contents/Resources/Components/A Better Finder Preferences.prefPane/Contents/Resources/quitHotKey.sh,794,B
+/Contents/Resources/ConfirmationDialog.nib/classes.nib,643,B
+/Contents/Resources/ConfirmationDialog.nib/data.dependency,278,B
+/Contents/Resources/ConfirmationDialog.nib/info.nib,594,B
+/Contents/Resources/ConfirmationDialog.nib/keyedobjects.nib,10.45,K
+/Contents/Resources/ConflictResolutionDialog.nib/classes.nib,808,B
+/Contents/Resources/ConflictResolutionDialog.nib/data.dependency,278,B
+/Contents/Resources/ConflictResolutionDialog.nib/info.nib,593,B
+/Contents/Resources/ConflictResolutionDialog.nib/keyedobjects.nib,10.5,K
+/Contents/Resources/Conflicts Detected Dialog.nib/classes.nib,425,B
+/Contents/Resources/Conflicts Detected Dialog.nib/info.nib,505,B
+/Contents/Resources/Conflicts Detected Dialog.nib/keyedobjects.nib,6.09,K
+/Contents/Resources/DDtablebackground.png,2.88,K
+/Contents/Resources/DDtablebackground2.png,2.95,K
+/Contents/Resources/Droplet Edit Mode Information.nib/classes.nib,425,B
+/Contents/Resources/Droplet Edit Mode Information.nib/info.nib,457,B
+/Contents/Resources/Droplet Edit Mode Information.nib/keyedobjects.nib,6.31,K
+/Contents/Resources/Droplet Icon.icns,30.54,K
+/Contents/Resources/Droplet Information.nib/classes.nib,425,B
+/Contents/Resources/Droplet Information.nib/info.nib,457,B
+/Contents/Resources/Droplet Information.nib/keyedobjects.nib,6.67,K
+/Contents/Resources/English.lproj/InfoPlist.strings,248,B
+/Contents/Resources/English.lproj/MainMenu.nib/classes.nib,4.24,K
+/Contents/Resources/English.lproj/MainMenu.nib/data.dependency,278,B
+/Contents/Resources/English.lproj/MainMenu.nib/info.nib,1.16,K
+/Contents/Resources/English.lproj/MainMenu.nib/keyedobjects.nib,58.79,K
+/Contents/Resources/FancyViewBackground.png,590,B
+/Contents/Resources/In Application Preference Pane.nib/classes.nib,946,B
+/Contents/Resources/In Application Preference Pane.nib/info.nib,705,B
+/Contents/Resources/In Application Preference Pane.nib/keyedobjects.nib,9.92,K
+/Contents/Resources/Inconsistent Settings Dialog.nib/classes.nib,425,B
+/Contents/Resources/Inconsistent Settings Dialog.nib/info.nib,499,B
+/Contents/Resources/Inconsistent Settings Dialog.nib/keyedobjects.nib,5.55,K
+/Contents/Resources/No Files Selected Info Dialog.nib/classes.nib,425,B
+/Contents/Resources/No Files Selected Info Dialog.nib/info.nib,499,B
+/Contents/Resources/No Files Selected Info Dialog.nib/keyedobjects.nib,5.81,K
+/Contents/Resources/Preview Cutoff Information.nib/classes.nib,425,B
+/Contents/Resources/Preview Cutoff Information.nib/info.nib,457,B
+/Contents/Resources/Preview Cutoff Information.nib/keyedobjects.nib,5.57,K
+/Contents/Resources/RenameProgressPanel.nib/classes.nib,565,B
+/Contents/Resources/RenameProgressPanel.nib/info.nib,499,B
+/Contents/Resources/RenameProgressPanel.nib/keyedobjects.nib,5.12,K
+/Contents/Resources/Save File List Dialog.nib/classes.nib,396,B
+/Contents/Resources/Save File List Dialog.nib/info.nib,707,B
+/Contents/Resources/Save File List Dialog.nib/keyedobjects.nib,13.86,K
+/Contents/Resources/Simple Template File List Information.nib/classes.nib,425,B
+/Contents/Resources/Simple Template File List Information.nib/info.nib,665,B
+/Contents/Resources/Simple Template File List Information.nib/keyedobjects.nib,5.71,K
+/Contents/Resources/actionNameToNibFileMapping.plist,3.24,K
+/Contents/Resources/actionPopUpMenuItems.plist,2.1,K
+/Contents/Resources/context_menu.png,17.74,K
+/Contents/Resources/datePatterns menu.plist,1.36,K
+/Contents/Resources/datePatterns.plist,1.34,K
+/Contents/Resources/datePatterns0.plist,995,B
+/Contents/Resources/empty.gif,832,B
+/Contents/Resources/info.png,1.3,K
+/Contents/Resources/paper_clip1.tiff,410,B
+/Contents/Resources/paper_clip2.tiff,912,B
+/Contents/Resources/popUpIndexToNameMapping.plist,1.8,K
+/Contents/Resources/quitHotKey.sh,794,B
+/Contents/Resources/timePatterns menu.plist,968,B
+/Contents/Resources/timePatterns.plist,759,B
+/Contents/Resources/timePatterns0.plist,379,B
+/Contents/Resources/warning.png,435,B

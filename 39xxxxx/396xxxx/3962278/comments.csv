@@ -1,0 +1,36 @@
+﻿User Type,Username,Date,Text
+,Tompo,2008-03-23T07:55Z,Cracks included?
+,sampan_y_,2008-04-26T16:42Z,do i have to burn it?
+,BelugaHval,2008-06-14T21:12Z,"Click on ""Files: 8"" and you will se there is a crack .moron"
+,ripisi,2008-08-30T14:48Z,"why bin fileÂ´s give me a error , whit nero too - help me please"
+,ripisi,2008-09-01T13:18Z,"is a fake . any file give an error try to open .
+
+chrisamy65  you donÂ´t have a shame to put is files  hear???!!!!!!"
+,cheezcharmer,2009-03-13T06:06Z,"the .cue files dont work
+i had to extract .bin files
+you can do it using MagicISO and follow the instructions given by chrisamy65
+
+works like a charm for me"
+,martinshameti96,2009-04-05T11:45Z,"Look, i found a solution for fixing the burning problem. Follow the steps and you will be able to burn both of the CD's.
+
+1-Open the CD1 cue file with notepad
+2-Now change the first and only line from this:
+FILE ""RAT1-JFKPC.BIN"" BINARY
+  TRACK 01 MODE1/2352
+    INDEX 01 00:00:00
+
+To this:
+FILE ""Ratatouille - CD1.bin"" BINARY
+  TRACK 01 MODE1/2352
+    INDEX 01 00:00:00
+
+3- Now burn the first CD and do the same thing with the CD2 file but in place of: FILE ""Ratatouille - CD1.bin"" put FILE ""Ratatouille - CD2.bin""  "
+,eeowdah,2009-10-25T13:33Z,the files were renamed after they were created so the info in the cue files is wrong...
+,Admin_007,2010-02-07T19:09Z,"Ok Here is the solution, u just need to mount the images to be able to launch the installation, but to do that u need to rename the bin and cue files bcuz the name are corrupted
+Just rename CD1 .cue & .bin to RAT1-JFKPC and CD2 .cue & .bin to RAT2-JFKPC
+Now u can mount them without any error"
+,Steror,2010-10-22T15:43Z,"martinshameti96, thanks so much. I love this game ;)"
+,reden060606,2011-03-07T00:13Z,"@martinshameti96
+
+Thank you! It works"
+,Undergoo,2011-10-29T12:37Z,Can someone please help me. I installed this game but i can't make it work... There is an error that says :'' Please insert the Disney/Pixar Ratatouille game disc''. 

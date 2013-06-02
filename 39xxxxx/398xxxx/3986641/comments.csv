@@ -1,0 +1,51 @@
+﻿User Type,Username,Date,Text
+,atlpoubelle,2008-01-20T17:30Z,Languages supported : English/French
+,Siouxsie871,2008-01-21T00:10Z,"It says DVD boot, but the file is 600 MB - would it work if burned to a CD instead?"
+,atlpoubelle,2008-01-21T00:38Z,It takes around 2go uncompressed. No way to burn it on CD.
+,Siouxsie871,2008-01-21T00:44Z,"Ah, misunderstood. Didn't realize the dmg was just a compression, I mistook it for an actual image.
+My bad."
+,atlpoubelle,2008-01-21T00:50Z,"No you're right : it's an image, but a very tiny image ! You can burn to a dvd by the ""Disk Utility"" on your Mac."
+,Siouxsie871,2008-01-21T01:41Z,"So, when burned to a DVD, does this work with Leopard?"
+[T],CaptainUnderpants,2008-01-21T06:34Z,"Yes, this works in Leopard. This is the latest version.
+
+Thanks for the up."
+,EmmaPeel,2008-01-22T17:02Z,"Unable to burn a working boot DVD.
+"
+,Siouxsie871,2008-01-23T23:24Z,"I've tried burning it to a DVD+RW several times, holding C when starting my MacBook Pro doesn't change a thing. It just won't boot from this DVD."
+,atlpoubelle,2008-01-25T19:05Z,don't have any problem so far :/ All my friends burned it successfully.
+,xy77,2008-01-26T09:55Z,The eDrive does not work on my iMac alu 2007
+,fro532,2008-01-27T15:11Z,Great torrent!   Works great
+,Jerk990,2008-01-27T18:19Z,GO hackintosh !!!!!!
+,magnulu,2008-02-12T15:11Z,"My mac has broken down, and I'm trying to burn this using Linux (Ubuntu 7.10), without much success. 
+
+I tried mounting it with -t hfs -o loop, and get this:
+
+mount: wrong fs type, bad option, bad superblock on /dev/loop0,
+       missing codepage or helper program, or other error
+       In some cases useful info is found in syslog - try
+       dmesg | tail  or so
+
+dmesg says: [163643.340327] hfs: unable to find HFS+ superblock
+
+As far as I remember, I have been able to mount DMG images earlier, using this same command. Is the image corrupt or encrypted? Does anybody have something constructive to say about my trivial problems? 
+
+"
+,greythorne,2008-03-28T16:17Z,"I am  having a similar problems. Able to burn by converting to iso image then burn it in windows. But when starting from the DVD nothing happens after pressing ""C"". All it does is boot to Mac OS X."
+,winexprt,2008-04-22T00:23Z,"@greythorne:
+
+Didn't work for me at first because I wasn't holding ""C"" down for long enough. 
+
+Trust me, it works. Just make sure you hold down ""C"" for quite a while..."
+,winexprt,2008-04-23T06:16Z,"@ pekedel:
+
+THANK YOU for that instruction. Was VERY helpful! "
+,tmote2,2008-05-13T17:22Z,"I have TechTool Pro 4.6.1 already but unfortunately I dled from rapid share, and the guy didn't include a SN, i was wondering if someone would be kind enough to just email it to me? at tmote2@yahoo.com Thank You"
+,Almarenan,2008-06-27T13:12Z,"@ pekedel :
+Is the format for the Image disk ""Read/Write"" or ""DVD/CD Master"" ?"
+,Bertol65,2009-07-22T03:49Z,"@Altpoubelle
+Peux tu m'expliquer comment installer le logiciel.
+Je ne comprends rien.
+Tu fournis un n° de série mais il faut aussi un nom ou une société !
+Je me retrouve avec un fichier TechtoolPro dvd avec tout un tas de dossiers. Que dois je en faire ?
+Peux tu me m'écrire un petit tuto ?
+Merci."

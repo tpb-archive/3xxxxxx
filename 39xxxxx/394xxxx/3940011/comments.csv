@@ -1,0 +1,23 @@
+﻿User Type,Username,Date,Text
+,rosehyman,2007-12-21T18:24Z,"any idea why the film does not start when you klicked on engligsh ort swedish or finish ????
+
+nothing happens!"
+,vaino666,2007-12-21T19:50Z,"I tested this from VIDEO_TS folder with Power DVD 7.3 and burned to disk with stand alone player. It worked fine. Other comments please, I would like to know what is the problem"
+,MagnusRamone,2007-12-22T01:01Z,Hmm den funkade inte för mig...
+,Juu...,2007-12-22T12:22Z,Millä ohjelmalla teet nää ripit?
+,vaino666,2007-12-22T14:21Z,"Juu... asked me what programs I use.
+Dvd Decrypter 
+Dvd Remake Pro 3.53 for editing menus, commands etc.
+Dvd Rebuilder Pro 1.26 for comppressing movie. With Rebuilder there is CinemaCraft encoder 2.72... retail and Avisynth frame server 2.58 beta.
+RbFarm to connect several computers to compress one movie."
+,coprod,2007-12-23T15:38Z,"No, this one is NOT working. Maybe you should check it before uploading. Try to make a fix. The VIDEO_TS.VOB is not there."
+,vaino666,2007-12-24T00:48Z,"You are right. Media player and vlc player does not play it.  I was few days away. Now I'm playing it with PowerDVD 7.3 and it works. I also burned it to disk (5 mins ago) and it works with my old stand alone player. I gave one disk to my friend and her stand alone plaeyr plays it well. I'm wery sorry that I was too lazy to test it all player programs. 
+I opened movie again with Dvd remake pro and run debugger and I found nothing wrong. Why Dvd Remake did not do VIDEO_TS.VOB I don't know. I exported it again and Dvd remake and it does not make VIDEO_TS.VOB. So I can't make a fix. Very sorry again."
+,coprod,2007-12-30T05:08Z,Sometimes there is no VIDEO_TS.VOB. Thanks for the effort anyway and keep up the good work. Maybe you should try Media Player from the VIDEO_TS folder next time to see if it's ok. 
+,vaino666,2007-12-30T23:27Z,"I almost decide to quit releasing movies. My windows made updates and mediaplayer did't work any more. It said that I have pirate XP hah haa.
+If I release some movie you can be sure that I test them all the players and give some copys to my friends to test.
+I updated my programs. Rebuilder pro to version 1.26.5 and Cinecraft Encoder to version SP2 v1.00.00.08. So further testing is more important.
+This movie there is somethin wrong in VTS_08_0.IFO. I can change it. Madiaplayer classic plays it then but VLC player still crashes.
+So no fix. I could have made this easy way, just hide some blocks and compress. I tried to make this hard way without compressing."
+,CinEmaS,2008-01-17T22:31Z,"Tackar! Den funkade perfekt! Analyserade den först med DVDShrink som jag brukar, inga som helst problem med den DVD filmen!"
+,vaino666,2008-02-01T21:27Z,Tack ska du ha själv CinEmas

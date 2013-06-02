@@ -1,0 +1,65 @@
+imdb: http://www.imdb.com/title/tt0056368/
+      - Rating: 6.4/10
+      - Director: Roger Corman
+
+How It was done:
+      - Compression method: MeGUI with H264 AVC "Slowest" profile with average bit rate 1200
+      - 720*304 DAR 2.35
+      - Container: Matroska
+      - Includes: Chapters, Orignal audio
+
+Recommended Hardware/software:
+      - HTPC Friendly: Zalman HD160XT HTPC
+        - Cool 7" LCD touch screen
+      - Player Software: Videolan (VLC) http://www.videolan.org/vlc/
+        - No additional codecs required!
+      - Audio Hardware: bluegears b-Enspirer 7.1 Channels 24-bit 192KHz PCI Interface Sound Card
+        - Gives you DTS 7.1 sound via your existing surround sound system :-) nice.
+
+General #0
+Complete name        : Premature Burial (1962)
+Format               : Mk
+File size            : 811 MiB
+PlayTime             : 1h 21mn
+Bit rate             : 1395 Kbps
+Movie name           : Premature Burial (1962)
+Encoded date         : UTC 2008-01-08 14:19:27
+Writing application  : mkvmerge v2.1.0 ('Another Place To Fall') built on Aug 19 2007 13:45:34
+Writing library      : libebml v0.7.7 + libmatroska v0.8.1
+
+Video #0
+Codec                : MPEG-4 AVC
+Codec/Info           : MPEG4 ISO advanced profile
+PlayTime             : 1h 21mn
+Width                : 720 pixels
+Height               : 304 pixels
+Display Aspect ratio : 2.35
+Frame rate           : 23.976 fps
+Title                : Premature Burial
+Language             : English
+
+Audio #0
+Codec                : AC3
+Codec/Info           : Dolby AC3
+Channel(s)           : 2 channels
+Sampling rate        : 48 KHz
+Title                : AC3 2_0ch 192Kbps
+Language             : English
+
+Chapters #0
+1                    : 00:00:00.000 Main Title/Nailing It
+2                    : 00:04:51.433 Art of Living
+3                    : 00:12:35.167 Wedding Nightmare
+4                    : 00:17:53.500 Long Live the King
+5                    : 00:20:25.400 Forbidden Love
+6                    : 00:22:22.567 Piece de Resistance
+7                    : 00:30:38.133 Worried Sick
+8                    : 00:33:09.233 The Pokey
+9                    : 00:34:26.933 Heaven or Hell
+10                   : 00:42:15.100 Rests in Peace
+11                   : 00:46:24.000 Social Destruction
+12                   : 00:52:08.333 Keys to the Kingdom
+13                   : 00:53:35.667 Shocking News
+14                   : 01:02:19.667 Long Walk Home
+15                   : 01:10:22.133 Betrayal
+16                   : 01:13:40.500 Mud Bath/End Credits

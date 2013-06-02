@@ -1,0 +1,41 @@
+Developer: 	        Alcohol Software
+
+Latest release: 	1.9.6.5429 / July 2, 2007
+
+OS: 	                Microsoft Windows
+
+Genre: 	                CD/DVD emulation, recording software
+
+
+
+Features
+Alcohol 120% can create disk images, either in its proprietary Media Descriptor Image file format, or in a number of other popular formats (listed below). The second popular feature of the program is its capability to emulate up to 31 virtual drives to mount disk images, making it unnecessary to have a physical copy of the disc. Virtual drives can operate at over 200 times[citation needed] the speed of the conventional CD-ROM drive. Alcohol 120% can also be used to burn these images (as well as those created by other software) back onto CDs and DVDs. It supports simultaneous writing to multiple CD/DVD writers.
+
+Supported File Types
+These formats are supported by the image mounting feature of Alcohol 120%:
+
+    * .mds/.mdf, Media Descriptor Image file, (default)
+    * .ccd/.img/.sub, CloneCD Image File
+    * .cue/.bin, CDRWIN Image File
+    * .iso, Standard ISO Image file
+    * .bwt/.bwi/.bws, Blindread Image File
+    * .cdi, DiscJuggler Image File
+    * .nrg, Nero Burning ROM Image File
+    * .pdi, Instant CD/DVD Image File
+    * .b5t/.b5i, Blindwrite V5/V6 Image File (also .b6t/.b6i)
+    * .isz, UltraISO Image File
+
+These formats are supported by the image making tool:
+
+    * .mds/.mdf, Media Descriptor Image file, (default)
+          o When making disk images of DVDs, Alcohol 120% only supports the .mdf/.mds format.
+    * .ccd/.img/.sub, CloneCD Image File
+    * .cue/.bin, CDRWIN Image File
+    * .iso, Standard ISO Image file
+
+Copy Prevention
+Alcohol 120%'s image recording feature is capable of bypassing certain copy prevention schemes, such as Safedisc and SecuROM. It can also create images from Dreamcast, PlayStation, PlayStation 2 file systems. Certain copy protection schemes require burner hardware that is capable of passing along the copy protection.
+
+The program does not back up DVD titles encrypted with the Content Scramble System. Alcohol Soft cites present legal restrictions for the decision not to include this feature.
+
+Some software manufacturers employ software blacklist methods to prevent Alcohol 120% from copying the software. There are third party tools available that attempt to counteract the blacklist methods, such as Anti-blaxx and CureRom.

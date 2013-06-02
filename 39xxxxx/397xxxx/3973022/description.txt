@@ -1,0 +1,864 @@
+Changes for 8.0.1
+
+General
+
+# Supporter spokesperson's nationalities match up to their city of birth.
+# Team-mates will no longer dislike each other for seemingly no reason.
+# Reduced incidents of players having "Worried by lack of discipline" 
+unhappiness.
+# Players more likely to be unhappy at being harshly fined.
+# News is now sent to the human if a reserve team friendly he has arranged is 
+rejected.
+# Supporter Spokespersons don't respond to job adverts anymore.
+# 'Reject all offers' holiday instruction now works for draft pick transfer 
+offers.
+# Players do not gain a year of nation eligibility if they are returned from 
+loan early.
+# Players do not gain extra days of nation eligibility to their main teamâ??s 
+nation when returning from loan.
+# Slight limits on morale of players who havenâ??t been at clubs very long.
+# Non-EU Under 18 players can now move within EU countries if they are already 
+in a EU country.
+# Improved the code which chooses ethnicity of players with dual nationalities.
+# Lowered abilities of virtual players in reserve teams.
+# Stopped exploit which allowed multiple feeder clubs to be gained at once.
+# Fixed "Ends with" Favourites filter on player staff search returning erroneous 
+results.
+# Stop recently retired players becoming part of consortiums in club takeovers 
+at too young an age.
+# Can now fine players for unprofessional behaviour / sending off again within 
+the period of their last fine.
+# Stopped cheat that allowed multiple feeder clubs to be gained at one time.
+# For fixtures at neutral venues, sometimes the match odds would be swapped 
+between the 2 teams.
+# Made morale slightly lower for attacking players who are on a goal drought.
+# Fixed the issue of too many players with just first name as common name (for 
+example Portugal).
+# Adjusted the non-playing attribute distribution for newgen non-players.
+# Adjusted the starting ability and development of non-playing staff.
+# Stopped players from occasionally disliking themselves.
+# Tweaked Feeder Clubs selection (including reducing Irish feeders for British 
+teams).
+# Fixed expansions to stadium capacity being reverted when loading a saved game.
+# Fixed seating expansions for non-professional clubs when requested by the 
+league.
+# Stopped player status getting set to backup from not needed in Spain and other 
+leagues with B teams.
+# Stopped human being able to set the captain and vice-captain to be the same 
+person when replacing an old vice-captain.
+# Fixed bug where captain set via news item would not be used in tactics and 
+therefore in the match, caused by going to the tactics screen before confirming 
+the news selection.
+# Fixed bug where B teams in active leagues were sometimes not giving squad 
+numbers out to enough players.
+# Fixed problem with show recent attribute changes setting not being restored 
+properly when moving between player screens
+# Adjusted the physical attributes decline for older players to start earlier
+
+Board Confidence
+
+# Got long-term expectations to update quicker once a team has effectively 
+finished thier season (e.g team wins league with 10 games to go).
+# Fixed long-term expectations confidence level getting set to zero if team gets 
+to a higher division than it's long-term expectations and stays in that same 
+division the following season.
+# Got the board to offer new contracts to managers around 2 months before the 
+end of thier deals instead of the existing one month, if deals get to that 
+stage.
+
+Finances
+
+# Adjusted transfer income percentages for financially troubled clubs.
+# Adjusted building costs of new stadiums and added possible grants for smaller 
+clubs.
+# Enhanced the chances of a takeover when club is bankrupt for a long period.
+# Fixed amateur team not to pay wages to managers.
+# Fixed new sponsorship news item in some cases showing Â£0 instead of the real 
+value.
+# Fixed support for "remaining wage budget" imported from the database at the 
+start.
+# Fixed support for custom stadium rental fees set in the database at the start.
+# Fixed sponsorships that had no value set in database (fixes saved games at the 
+first monthly financial update).
+# Fixed start and end dates for starting loans read from the database.
+# Fixed club transfer and wage budget given to a new hired manager to match the 
+ones in the news.
+# Fixed transfer budget update with season expectation news when no multiple 
+expectations to choose.
+# Prevented human users from exploiting the budget adjustments and season 
+expectations to boost budgets excessively.
+# Tuned Argentinean ticket prices and general finances for a better balance.
+# Tuned Australian ticket prices and general finances for a better balance.
+# Tuned Brazilian ticket prices and general finances for a better balance.
+# Tuned Colombian ticket prices and general finances for a better balance.
+# Tuned Danish general finances for a better balance.
+# Tuned French general finances for a better balance.
+# Tuned German general finances for a better balance.
+# Tuned Italian general finances for a better balance.
+# Tuned Mexican ticket prices and general finances for a better balance.
+# Tuned Norwegian ticket prices and general finances for a better balance.
+# Tuned Peruvian ticket prices and general finances for a better balance.
+# Tuned Russian ticket prices and general finances for a better balance.
+# Tuned Uruguayan ticket prices and general finances for a better balance.
+# Tweaked feeder club payments for smaller clubs and poorer nations.
+
+Team Selection
+
+# Fixed issue regarding Gk's being picked outfield.
+# Given staff members greater flexibility when rating players for squad 
+selections / teams.
+
+Crashes
+
+# Fixed crash if user retires whilst on the Jobs screen.
+# Fixed possible crash when user accepted job offers from other teams.
+
+Database
+
+# Fixed a problem with Finnish weather, it doesn't always rain now.
+
+User Interface
+
+# Fixed an issue with skins in the user data folder picking up the wrong skin 
+settings in some cases.
+# Make available for reserves menu item was out of line with other options.
+# The "Change User" menu would disappear in hot seat mode until the game was 
+continued.
+# Fixed bug where match split view panels would sometimes both default to Pitch 
+view.
+# Fixed some continue button text issues when a human picks 2 teams for matches 
+at the same time.
+# If a team scores more than 9 goals in a match, the match overview section no 
+longer shows ".." for the goals.
+# You can now view the knowledge sub-section of the scouting panel for teams 
+without scouts
+# Fixed bug where the match screen split view could show 2 pitch panels at the 
+same time.
+# Future squad selection rules which will apply to a team are now shown (greyed) 
+on the team screen.
+# Stopped situation where monthly calendar news would appear even if there were 
+no important dates to be shown.
+# Message saying a player or players couldn't be selected due to travelling to 
+be with 'their squads' now references international squads.
+# Draft allocations panel has now been moved of the Transfers panel on the team 
+screen.
+# Best Eleven screen remembers view when leaving the screen and returning.
+# Fixed a bug in the squad selection rules error message. The list of invalid 
+players was not getting displayed in full.
+# Added status icon "PR" (Player Reaction) for player reacting to collective 
+bonus decisions.
+# Longest time at club record for a manager now shows correctly if the manager 
+has been without a club for a longer time.
+# Assistant manager team talk button is now hidden if a team does not have an 
+assistant manager.
+# Rows no longer disappear from the Award winners screen when players retire.
+# Fixed bug where post match details would not appear properly sometimes when 
+navigating away from the screen and returning.
+# Portuguese players now get shown as being eligible to gain Brazilian 
+nationality.
+# Days to qualify for nationality do not increase for a country the player is 
+not currently in.
+# Fixed a bug where sometimes a cup draw would take place before the user had a 
+chance to draw it themselves.
+# Coach report screen remembers which coach you were using to get reports when 
+moving between players.
+# Fixed bug where user could make a sub during a penalty shootout.
+# Fixed a problem where the user could attempt to create a new folder with 
+illegal filename characters.
+# When user changes the "Show Highlights In" setting in a match when a pitch is 
+already showing, the new pitch panel will now appear properly.
+# Fixed problem with continue game timeouts kicking in before the full time team 
+talk has been given.
+# Fixed problem that could cause new skins to not show up on the preferences 
+screen.
+# Fixed a problem with the injury duration description on the player profile 
+screen for certain pre-game injuries.
+# Players who gave gained a second nationality but remain in that nation no 
+longer have an entry staying on their Days to Gain nationality panel.
+# Added Tight Marking to view menu in the in-match tactics.
+# Can no longer reject transfers that meet minimum fee release clauses via the 
+transfer centre.
+# Fixed a few club kit colours.
+# Fixed a bug where the gk player instructions were getting replaced by an 
+outfield players if a certain series of steps was carried out on the tactics 
+screen.
+# If no highlight is playing, the pitch section on the match screen is disabled.
+# Next match button on match screen when viewing highlights now works correctly 
+each time.
+# Highlighted profile on team and player competition stats overview screen now 
+uses stats for that competition not overall stats.
+# When viewing highlights of a past match, the pitch action is now smoother.
+# Changing "Closing Down" descriptions on player and team instruction panels.
+# Updated horizontal scrollbars visible on Competition Tree view.
+# Man of the Match and Injuries are now highlighted better on Match Overview and 
+Match Stats sections.
+# Fixed a rare problem where match screen would sometimes not allow users to go 
+back into tactics after making a change.
+# Fixed bug where coming out of tactics sometimes wasn't returning the user back 
+to full match highlight mode properly.
+# Improved star graphics to make it easier to tell the difference between each 
+level.
+# When viewing scout reports for specific assignments it now remembers the 
+assignment when returning back from looking at a player profile.
+
+Media
+
+# Golden Boot news is now sent directly to the human if one of his players is in 
+the top three.
+# Monthly player award news uses the correct stadium name if the player moved 
+clubs at the end of the month.
+# Award voting reminder news now states the correct voting deadline for Final 
+Reminders.
+# Total transfer spending record news does not repeat when monthly installment 
+payments are made.
+# Ensured correct stadium is used when news item mentions next fixture in 
+managerial landmark news e.g 1000th game in charge.
+# Can no longer appeal ban for two yellow card sendings off.
+# Lowered threshold for judging cup shocks.
+# Fixed scout next opposition "Comment on Dangerman" button taking you to the 
+interaction screen with no dangerman comments just before the match.
+
+Coach Reports
+
+# Fixed issue where you would receive a news item stating that a player had 
+progressed well and then the coaches wouldn't comment on his progression in the 
+coach report.
+# Fixed issue when assistant highly rates virtually the entire team.
+
+Contracts
+
+# Boosted the squad status expectations and wage requests of players involved in 
+big money transfers.
+# Put in code to help dissuade staff members from moving clubs shortly after 
+signing a new contract.
+# Players signed through a waiver draft do not sometimes reject contracts now.
+
+International Management
+
+# Fixed news item saying player was left out of international fold when he is 
+was injured and unable to be called up anyway.
+# Fixed line saying players coaxed out of retirement were left out of previous 
+squad.
+# Fixed international manager attending the wrong game when a club had another 
+match before the game that he elected to go and watch.
+# Main, U21, U19 text on national pool now hyperlinks to the respective squads.
+# National supporter spokespersons now have cities of birth.
+# Ensure that, in the run-up to an international match, players for clubs who 
+have fixtures re-arranged for the mid-week don't travel until after that match.
+# Stop human international teams organising friendlies against teams who don't 
+currently have a team enabled in the same age group. e.g. Bermuda U20s vs 
+England U20s at game start date.
+# Fixed message relating to player's other nationality when user asks dual 
+nationality player to play more first team football to gain place.
+# Stopped pre-signed players (who are too young to play for a club side e.g. 
+Alexander Pato) being prevented from playing for an international team.
+
+Scouting
+
+# Ensure that the min asking price is going to round greater than 0 before 
+commenting on the likely asking price.
+# Ensured scout's with high judging potential aren't as accurate when rating 
+players for potential.
+# Fixed issue when changing a coach's role to scout and he couldn't perform 
+assignments.
+
+Transfers
+
+# Stopped AI teams attempting to re-new loans when the player is unable to go 
+on-loan to them because of the teamâ??s division loan rules.
+# Players who have incorrect club join dates set in the database are now allowed 
+to go on loan from Premier League teams.
+# Ensured players without work permits will join work permit feeder clubs.
+# Increased the threshold before chairman will accept bids over the head of the 
+manager in charge.
+
+Awards
+
+# Greek Club of the Year award is now given.
+# Cypriots are no longer considered Foreign in Greek awards.
+# Stripped out starting Award History's in games started without real players.
+# Fixed problem where if all your own players dominate an award shortlist you 
+would get stuck on the voting screen.
+
+Competitions
+
+# Stopped games been incorrectly called off due to international call-ups.
+# Fixed clash between Champions League and South American World Cup qualifiers 
+in 2009.
+# Adjusted attendances for small clubs playing in cup competitions.
+# Adjusted long term effects of fan days.
+# Adjusted the attendances in intra-squad friendlies down severely.
+
+International
+
+# Austria and Switzerland now play their group matches in their own country for 
+Euro 2008.
+# Denmark now play their home matches at NRGi Park until the 14th Oct 2007.
+
+Argentina
+
+# Argentine Second Division History now recorded.
+
+Australia
+
+# Improved teams Australian teams play in friendlies.
+# Fixed conflicting squad restriction in 2014 and beyond.
+
+Belgium
+
+# Stopped duplicate transfer round-up news item appearing for Belgian clubs.
+# Belgian Cup Final is played at the Stade Roi Baudouin.
+# Correct Second Division Playoff schedule is now used (all teams play each 
+other home and away).
+# 2nd to 5th position are used instead of the Period winners in the Second 
+Division Playoff stage.
+
+Brazil
+
+# Brazilian National Third Division history is now updated correctly.
+# Added the Brazilian National First Division prize money.
+
+Chile
+
+# Added correct transfer windows.
+
+Czech Republic
+
+# Fixed promoted and relegated teams not matching up between the First and 
+Second Division when a relegation position play-off is needed.
+
+Denmark
+
+# Added 6 points deduction for Boldklubben Frem 1886.
+# Saturday Premier Division game is now shown on TV.
+
+Holland
+
+# Fixed some news item problems to do with the Dutch Premier Division playoffs.
+# Fixed fixtures clashing with European fixtures.
+
+England
+
+# Better TV game selection for FA Cup games.
+# Mid-week games now kick-off at 1945.
+# Updated the Setanta Shield prize money.
+# FA Trophy Final is now televised.
+# Johnstone Paint Trophy games now have games shown on TV.
+
+Europe
+
+# Royal League has now been cancelled.
+# The two legs of the later cup rounds do not both get played on the same day of 
+the week.
+# Champions Cup group stage draw can now be viewed.
+# Changed date of Euro Cup group stage draw.
+# Fixed Champions League group stage win/draw prize money.
+
+Greece
+
+# Fixed back to back squad registration windows around the 17th August.
+
+Hong Kong
+
+# Fixed user being able to sign more than 12 foreigners in Hong Kong First 
+Division.
+# Hong Kong First Division Reserve matches played in neutral stadiums of 4,000 
+or less.
+
+Hungary
+
+# Fixed Hungarian League Cup winners not appearing in competition history.
+
+Indonesia
+
+# Contract end dates are now set as 31st October.
+
+Israel
+
+# Squad numbers now used in all competitions.
+# 5 foreign players can now start in a Israeli Cup match.
+
+Italy
+
+# Added this years Italian Serie C Cup teams.
+# Applied -1 points deduction to 3 Serie C2 teams.
+# Serie A teams that have their match postponed to Sunday should be playing at 
+3pm not 4pm.
+
+Malaysia
+
+# Fixed foreign player rules for some competitions.
+
+Mexico
+
+# Fixed bug where teams would sometimes get a Mexican First Division title added 
+to their achievements for winning the playoff stage.
+
+Norway
+
+# Added correct squad selection rules for the Norwegian Premier and First 
+Division.
+# All clubs in Premier and First division get under-soil heating.
+
+Peru
+
+# Two teams are now relegated from the Peruvian First Division.
+
+Poland
+
+# Cancelled the 10 points deduction applied to Polish Second Division side Odra 
+Opole.
+
+Portugal
+
+# First three rounds of the League Cup now use the correct seedings.
+# Updated TV dates and times for the Portuguese top two divisions.
+
+Scotland
+
+# Trialists can no longer play in cup games.
+# Football League match day squads can only contain 2 trialists.
+# Fixtures are now generated for the second season in all Scottish leagues.
+# Fixed a bug where the league was sometimes not sorted before the split was 
+introduced.
+
+Singapore
+
+# Fixed Singaporean League Cup record not being written in competition history.
+# Add Random draws for Singapore Cup and Singaporean League Cup.
+# Change of transfer windows for Singaporean League.
+# U18 league matches now played at neutral stadiums with 1500 or less capacity.
+# Singapore U18 & U17 team cannot sign foreign players.
+
+South America
+
+# Teams from the same nation play against each other in the Copa Sudamericana 
+Semi Final stage.
+# Uruguayan teams now seeded correctly in the Copa Libertadores.
+# South American Continental Cups now get correct referees for matches.
+
+Spain
+
+# Implemented Cotonou Agreement for Spanish league
+# players from 79 ACP (African, Caribbean and Pacific states) countries no 
+longer considered non-EU.
+# Fixed bug where some players were not getting minimum fee release clauses.
+
+Sweden
+
+# Pre-season no long starts on 24th December for teams involved in the Royal 
+League.
+# Changed the teams which move divisions when the game is started in 2008.
+
+United States
+
+# Foreign developmental players do not count towards the wage cap.
+# Fixed bug where squad selection rules for certain MLS teams were not showing 
+the correct maximum values at all times.
+# Correct 2007 fixtures added.
+# Allowed squad numbers up to 99.
+# MLS teams can no longer sign foreign players from the PDL before they reach 22 
+or enter a draft.
+# Fixed a problem with the American player rule for Toronto. Some players were 
+being wrongly classified as Americans.
+# MLS Rising Stars team is now filled with American players only.
+# Players on free transfer with MLS rights have to be traded instead of being 
+approached directly.
+# Changed stage names of MLS conference playoffs.
+# Virtual players now ask for developmental contracts by default.
+# Improved selection of players from a draft. Teams make fewer passes.
+# Updated maximum allowed wage $325,000 p/a outside of Designated Players.
+# Fixed wrong teams in CONCACAF Champions Cup.
+# Toronto foreigners now gain Canadian nationality not American if they stay for 
+enough years.
+# Fixed bug which was converting future draft allocations offered in transfers 
+to 6th pick draft allocations.
+# Toronto now get Canadian nationality youth players instead of American.
+
+Assets
+
+England
+
+# Fixed Marvin Elliot / Marvin Williamsâ??s picture mix up.
+# Added Bath City badge.
+# Added Solihull Moors badge.
+
+Spain
+
+# Added Athletic Bilbao player pictures.
+# Added Atletico Madrid player pictures.
+# Added Deportivo player pictures.
+# Added Espanyol player pictures.
+# Added Levante player pictures.
+# Added Osasuna player pictures.
+# Added Racing Santander player pictures.
+# Added Real Betis player pictures.
+# Added Real Mallorca player pictures.
+# Added Real Murcia player pictures.
+# Added Real Valladolid player pictures.
+# Added Recreativo player pictures.
+
+Match Engine Version History
+
+# Fixed bug where the match was treating the JTP North/South finals as the main 
+final itself.
+# When an injured player is also sent off, the game won't force the human 
+manager to replace him.
+
+Match v639
+
+# Re-worked marking and closing down to address conflict between the two
+# defenders should now close down better when appropriate.
+# Further improved team reactions to cleared set pieces.
+# Reduced delay between foul and whistle.
+# But...allowed more advantages when prudent.
+# Improved set piece positioning for free kicks and some throws.
+# Fixed keeper occasionally kicking off new match period.
+# Fixed another example of player kicking off to no-one.
+# AI teams now add "back arrow" to def mid position for one MC if needed.
+# AI teams a little more reactive to opposition pace when setting D-line.
+# Small tweak to ease overcautious AI use of mentality slider occasionally.
+# Made players take longer to accelerate all the way to full speed.
+# Made blatant offsideâ??s get called a little quicker.
+# Enhanced effect on flair of "creative freedom" slider slightly.
+# Fixed bug that would stop full back overlapping run prematurely.
+# Improved smoothness of dribbling slightly.
+# Players now look to run into space with ball better.
+# Stopped a few unrealistic examples of poor first touch.
+# Allowed players to take more first time shots when appropriate eg rebounds.
+# Improved attacking positioning for certain formations that use "side arrows" 
+on attacking midfielders.
+# Improved attacking position of central "in hole" player.
+# Stopped certain illogical forward runs being made from deep.
+# Defenders put tackles/clearances in more appropriately.
+# Biased aerial challenges slightly more towards those with higher jumping.
+# Slightly less fouls when jumping for the ball.
+# Reduced keeper effectiveness on close in shots slightly.
+# Low team blend now has more effect on mental attributes.
+# Allow more quick free kicks to be taken.
+# Improved ball receiver AI slightly.
+# Defenders caught wrong side of ball try to get back faster.
+# Fixed defenders pushing up to edge of area when should be dealing with ball 
+player.
+# Improved player ability to deflect shots/crosses.
+# Fixed defenders coming across and heading ball that team mate had covered.
+# Tweaked decision making for ball player.
+# Improved finishing for "bread and butter" chances.
+# Improved accuracy of "bread and butter" passes.
+# Further tweak to keeper kicking distance.
+# Headers from descending balls now more likely to be looping in nature.
+# Improved kicked clearance direction from defenders.
+# Improved "subdued" goal celebration where scorer used to move a bit then stop 
+still.
+# Ball shadow slightly less pronounced in FM.
+
+Match v640
+
+# Improved referee ability to try to "play the advantage".
+# Fixed anomaly causing further problems with kick offs.
+# Fixed AI subs when keeper sent off that could cause 2 goalies to be present.
+# Another tweak to AI mentality setting.
+# Made AI teams try to exploit 3 at the back without wingbacks by getting ball 
+wide more.
+# Improved positions at goal kicks.
+# Improved corners sent to player lurking outside area.
+# Improved use of channels to pass into and move into.
+# Made first touch a little more realistic.
+# Made players even more willing to run with ball into space when possible.
+# And more likely to shoot in good positions.
+# And more likely to cross in good positions.
+# And more likely to turn before hoofing ball clear when necessary.
+# Power shots more likely to go too high.
+# Improved player perception of potential interceptions on pass.
+# Improved direction of "flick on" headers.
+# Improved code that decides whether player should pass ball around and keep 
+possession based on directness, time wasting etc.
+# Made "tackle clearances" more realistic in terms of distance and direction.
+# Fixed anomaly that allowed potential clearance towards own goal when very 
+close to it.
+# Reduced instances of players dribbling ball out of play.
+# Keepers more likely to follow distribution instructions.
+# Keepers more effective on long shots.
+# Fixed rare occurrence of keeper not taking up position for penalty kick.
+# Improve defender marking on ball player running at pace with ball.
+# Made players less likely to leave tactical shape to mark opponents when ball 
+and player not in danger area.
+
+Match v641
+
+# Fixed crash that occurs after player about to kick off gets a red card.
+
+Match v642
+
+# Made sure free kick isnâ??t called back after advantage has been played for a 
+sensible amount of time.
+# Fix to stop players continuing to swap when option removed in tactical change 
+during match.
+# Fixed bug where slight injury isnâ??t reported when watching match in 
+"commentary only" ( FM only ).
+# Improved variety of assistant manager team talk suggestions.
+# Made sure offside always called when player shoots for goal and has team mate 
+standing well offside in ball path.
+# Slight tweak to player match ratings to give them more range.
+# Improved player run with ball AI.
+# Improved full backs overlapping, and made their teammates more likely to try 
+to pass to them.
+# Further change to closing down code, as initial fix wasnâ??t quite coded 
+correctly.
+# Made players clear ball quicker under real pressure.
+# Fixed bug where defenders might pass up obvious interception opportunities.
+# Stopped players moving back into onside positions at unrealistically fast 
+speed.
+# Reduced pointless off ball runs that just made it harder for team mates.
+# Fixed anomaly from pass vs interceptions decision making in 640.
+
+Match v643
+
+# Fixed central defenders sometimes using closing down rather than marking 
+against pace.
+# Stopped AI managers playing too negatively when losing due to their sitting 
+back attribute.
+# Fixed interceptions not being recorded properly in match stats.
+# Made defenders clear ball when under pressure in own area and ball bouncing at 
+awkward height.
+# Improved player decisions on when to tackle when up against player running 
+with ball.
+# Improved short throw ins slightly in terms of direction and speed.
+# Made players a little more willing to shoot first time.
+
+Match v644
+
+# Fixed match score divergence.
+
+Match v645
+
+# Fixed advantage not being always played when fouled player gets clear of his 
+assailant.
+# Further tweak to closing down logic, to make it slightly more accurate vs 
+slider descriptions.
+# Made players work harder to get back to opponents who have gone beyond them.
+# Fixed extremes of players not reacting for ages to ongoing play.
+# Tweaked player choice of opponent to mark to include tactical position more.
+# Improved direction of facing for defenders marking attackers in open play.
+# Fixed bug in defensive line pushing to edge of area for team defending left 
+end of pitch.
+# Improved direction of defender who is chasing down attacker who is running 
+with ball and has got ahead of him.
+# Slight improvements to playerâ??s decisions on whether to clear ball under 
+pressure.
+# Tweaked up pass accuracy a bit, especially when under no pressure.
+# Made lesser players limit pace on pass to increase accuracy ( subject to 
+decisions test ).
+# Changed pass risk assessment to reflect mentality setting and flair a little 
+more.
+# Less hoofs up field to no-one when under no pressure, unless time wasting.
+# Made players cross more willingly and also earlier when possible depending on 
+instructions.
+# More shots when in obvious good positions.
+# Players with decent decision making less likely to dribble into trouble.
+# Players more likely to get ball onto best foot.
+# Improved first touch a little.
+# Fixed bug where player sometimes moves really slowly with ball for ages.
+# Made it harder to cut back ball dramatically when running down wing at pace.
+# Improved logic of bias towards pass focus instruction when assessing passes.
+# Improved off ball movement slightly.
+# Stopped target men moving into channel so often when getting long balls to 
+head.
+# Players come to loose balls more aggressively, and try to intercept earlier in 
+own danger zone.
+# Attacking players also more likely to follow up on shots.
+# Made keepers less likely to let ball go narrowly wide of post, unless extreme 
+time wasting.
+# Improved direction of keeper kicking.
+# Less fouls when going for headers.
+# Further tweak to make more early shots when under pressure or in good 
+position.
+# Made some headers on goal slightly less powerful.
+# Stopped first time shots coming in from ridiculous positions.
+# Made players come shorter at throws when thrower struggling for options.
+# When player is selected to come to collect from keeper he comes deeper.
+# Stopped one man walls on free kicks taken by keeper in deep position.
+# Fixed possibility of play getting stuck when player with ball goes down 
+injured.
+# Tweaked player ratings back halfway towards pre v642 levels.
+
+Match v646
+
+# Reduced shot accuracy slightly.
+# Stopped players dropping deep to mark opponents instead of holding defensive 
+line for an easy offside.
+# Fixed bug where player may not react to short pass from keeper.
+# Reduced players dallying on ball when being closed down.
+# Made keepers more likely to clear lines from back passes.
+# Players get back to kick off position quicker after celebrating goal.
+
+Match v647
+
+# Assistant managers now always give a team talk recommendation when asked.
+# AI now take comebacks from 2 or 3 down into account when deciding team talks.
+# Players also take comebacks into account when reacting to team talks.
+# Stopped centre halves getting dragged out of position too easily when NOT 
+first man behind ball.
+# Slight reduction on lengths of goal kicks.
+# Keepers now more willing to come to collect such long balls into their own 
+area.
+# Further improved defender direction facing when marking non ball player.
+# Fixed issue with defenders dithering over whether to continue marking player 
+with ball.
+# Further fix re confusion between closing down ball player and marking him from 
+a strategic position.
+# Fixed further instance of players taking ridiculous first time shots.
+# Fixed rare occurrence of players controlling ball and moving a few yards with 
+it stuck to their foot.
+# Fixed bug where player who wins aerial challenge always recovers quicker than 
+the player who lost out.
+# Fixed bug where defenders would occasionally get skinned by opponent due to 
+problem in code rather than lack of ability.
+# Fixed bug where keepers occasionally miss saves for no reason.
+# Tweaked number of shots going over bar.
+
+Match v648
+
+# Fixed bug where assistant team talk suggestions may be illogical after a win.
+
+Match v649
+
+# Fixed rare bug where keeper may needlessly miss opportunity to save shot.
+# Improved decision between pass and run depending on player instruction, player 
+tendency and situation.
+# Made wide players get into the box quicker when ball on opposite side.
+# Tweaked average ratings for attacking wide men.
+# Stopped distribution defender coming way too deep to pick up ball at goal 
+kicks.
+# Put a harsher work rate test on tracking back to challenge player already 
+under pressure.
+# Fixed bug where defenders take up identical positions when "doubling up" on 
+attacker.
+# Off ball runs from behind ball now done at higher speed.
+# Fixed unrealistically slow kicked clearances.
+# Fixed advantage being played then play called back a few seconds later.
+# Fixed bug where one player kicks off with no team mate next to him.
+# Slightly toned down effect on ball physics of muddy/wet pitches.
+# Stopped ball that lands on top of net dropping to zero height and making it 
+look like it should be a goal
+# Stopped AI managers in FML changing mentality during match
+# And reduced substitutions by AI managers in FML
+# Fixed players at low levels of football occasionally playing to a stupidly 
+poor standard
+# Toned down defenders occasionally being drawn too far out from defensive line 
+to close down players
+# Stopped strikers trying unrealistic first time shots when very wide or through 
+on goal
+# Slight improvement on first touch and time taken to react after receiving ball
+# Improved likelyhood of attackers "lunging" in to ball running across face of 
+goal
+# Improved positioning of players coming to offer options to throw in taker
+# Tweaked marking positioning and facing direction slightly further
+# Improved shooting accuracy for easier chances
+# Slight reduction in number of "power shots"
+# Improved near post flick ons at corners
+
+Match v650
+
+# Stopped kick off being taken before all players close to their starting 
+positions
+# Fixed bug from v640 that stopped keeper retrieving ball from own net after 
+goal
+# Fixed possibility of negative teamtalk reaction from player when team praised 
+after positive result
+# Reduced strikers taking up wide position and inhibiting the wide midfielder's 
+movement
+# Stopped players taking heavy morale hit after defeat that breaks excellent 
+result sequence
+# Made composed defenders turn on ball before clearing if possible
+# Pushed central midfielders slightly forward when ball wide
+# Fixed "attack near/far post" at corners
+# Fixed poor marking at free kicks close to corner
+# Stopped receiver taking control of ball needlessly early
+# And fixed new bug where receiver dallies on taking control of ball
+# Made keeper offer back pass option more willingly
+# More tweaks to improve goalie positioning and reactions
+# Fixed bug that allows centre halves to go for same ball without failing 
+decision test
+# Made players with tackle easy set stand off more rather than make tackle
+# Players more willing to make themselves available for simple pass
+# Improved marking facing further
+# Stopped player dallying when passed ball from kick off
+# Improved keeper response to distribution instructions further
+# Fixed potential for defenders to score own goal when picking up loose ball on 
+own goal line but facing own goal
+# Fixed referee penalising player for foul when not close enough to opponent who 
+takes a dive
+# Fixed very low condition players not being subbed with knock ons that can mean 
+sent off keeper not replaced
+# Upped midfielder match ratings a tad
+
+Match v651
+
+# Improved rating of goals for awards/FML
+# Fixed half time keeper sub coming on at wrong end
+# Fixed wing back being reported as playing at full back after match
+# Tweaked number of fouls up as it has been dropping
+# Reduced effectiveness of headers slightly
+# Reduced pass completion slightly
+# Fixed corner delivery instructions being ignored
+# Improved penalty scoring rate
+# Reduced use of tall target man for less direct style managers
+
+Match v652
+
+# Fixed rare crash when player heads ball at goal
+# Stopped AI managers giving out run with ball instruction to unsuitable players
+# Improved attacking positioning and delivery at free kicks near opp goal
+# First set of optimisations to reduce recent slowdown
+
+Match v653
+
+# Optimised match engine code to improve speed by around 20%
+# Fixed bug where strikers can play too close together in unusual formations
+# Fixed some run of the mill goals being given very high award ratings
+# Raised number of fouls to more in line with real world data
+# Raised number of penalties and their conversion rate in line with real world 
+data
+# Fixed ball stopping unrealistically quickly on some low passes/shots
+# Improved player judgement of interception possibilities
+# Improved closing down AI yet again, now more aggressive but less unneccesary 
+"doubling up"
+# Made player recovery time after going to ground more realistic
+# Players now clear instead of tackle if it is feasible
+# Fixed some unrealistic instances of poor first touch
+# Players lunge in for loose balls near opposition goal more realistically
+# Defenders now more effective against attackers running at them
+# Defenders now slightly more aware of their dangerman's position when "marking 
+space"
+# Fixed some strange positioning at free kicks inside defending penalty area
+# Players with long shots set to often, or with long shots PPM, now more willing 
+to do so in good positions subject to morale
+
+Match v654
+
+# Fixed players ignoring passes due to bug in optimisation
+# Fixed players sometimes clearing ball instead of converting simple chance
+# Pushed D-line up a tiny bit to reduce defensive teams ability to pass ball 
+around and dominate possession
+
+Match v655
+
+# Reduced no of dangerous challenges
+# Reduced no of professional fouls
+# Fixed player teleporting bug ( from v653 )
+# Fixed bug where defenders stand off and allow players to run through defensive 
+line too easily
+# Improved player finishing when clean through
+# Fixed play being called back after advantage played and shot taken
+# Fixed obscure crash
+
+Data Editor
+
+# Updated award editing to support new award fields.
+# Fixed problem with cursor in number fields on Mac.
+# Fixed some club records not getting saved properly
+
+hi this is my first torrent so dont hate
+
+virus free!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

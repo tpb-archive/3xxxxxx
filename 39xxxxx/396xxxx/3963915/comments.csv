@@ -1,0 +1,312 @@
+﻿User Type,Username,Date,Text
+,dechamp,2008-01-07T01:54Z,"Does this require a Dual Core CPU, or can it run on a fast P4?"
+,ArcaynE,2008-01-07T03:51Z,"You can run it on a fast P4, but you must select SSE2\SSE3 in the menu..  Also, you will have to run patched kexts and kernel updates.
+
+With a Core 2 Duo\Quad, you can run the actual Apple files and updates, without the need for all the hassles..  
+
+SO, you CAN do it on P4, but Core 2 would be MUCH better in performance and usability."
+,shyperson,2008-01-09T03:16Z,(this should also solve the instant reboot problems on non-Intel motherboards) you mean that i can run it on my AMD computer.
+,ArcaynE,2008-01-09T23:01Z,"YES, you can run this on AMD, just make sure NOT to use EFI emulation and choose SSE2/SSE3.  For an install guide, go to http://uphuck.ggrn.de/forum/ , register on the site, and click iATKOS.  in there, there is a stickied post with an install guide. 
+
+Hope this helps =D"
+,Neurocaster,2008-01-11T21:30Z,"FAKE, FAKE, FAKE
+YOU SON OF A B****
+2.44 gb FULL OF NOTHING
+DONT DOWNLOAD THIS"
+,Neurocaster,2008-01-11T21:31Z,"FAKE
+FAKE
+
+
+FAKE
+
+
+FAKE
+
+
+
+FAKE
+
+
+
+FAKE
+
+
+FAKE
+
+
+
+
+FAKE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FAKE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FAKE
+FAKE
+
+
+FAKE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FAKE
+
+
+"
+,Neurocaster,2008-01-11T21:32Z,"DO NOT DOWNLOAD THIS SHIT
+DO NOT DOWNLOAD THIS SHIT
+DO NOT DOWNLOAD THIS SHIT"
+,Neurocaster,2008-01-11T21:50Z,"IT TOOK ME 2 FULL DAYS TO DOWNLOAD THIS 2.44GB
+BUT WHEN I BURN IT IT IS JUST 542 KB
+CANT BELIEVE THE NUMBER OF PEOPLE DOWNLOADING THIS FAKE FILE,
+SOMEONE WRITE SOMETHING OR DO SOMETHING TO STOP THIS"
+,Neurocaster,2008-01-11T22:59Z,"DONT UNDERSTAND WHY, BUT THAT DVD WITH 542 KB IS INSTALLING LEOPARD ON MY DELL INSPIRON PENTIUM 4
+
+THE ONLY EXPLANATION IS THAT IT IS COMPRESSED IN A FORMAT NOT VISIBLE TO WINDOWS (WHERE I BURNT IT)
+
+SEEMS IT WILL WORK"
+,rbsfou,2008-01-11T23:35Z,"I am SICK AND TIRED of ARSEHOLES clogging up the forums with pathetic posts about not being able to extract, burn or run something that is obvious to those with just a LITTLE experience at these things.
+
+Whatever happened to look before you leap? I'm sure the IT department where you work love you. In fact, i bet you are there boss :P
+
+It's a hybrid ISO/HFS+ Filesystem, you will probably NOT see any files from windows, but you would if you had Macdrive installed or had a clue about analysing CD images with Linux.
+
+What is truely sickening however is that after realizing your mistake you didn't even apologise for your earlier tantrum (which in itself was unjustified).
+
+I'd just like some people in the future to TRY THINGS OUT before posting awful messages like this."
+,Yukimo,2008-01-12T07:24Z,Can this dual boot Windows Vista and Leopard on 2 separate Hard Drive?  Can anyone give me some information on how to do this?  I been trying download a ton of OSX86 Leopard that work and can dual boot.
+,Neurocaster,2008-01-17T17:35Z,"OK, THIS REALLY WORKS, I DIDNT KNOW IT HAS DIFFERENT FILE FORMATS THAT WINDOWS COULDNT SEE.
+
+SO I WANT TO APOLOGIZE FOR MY STUPID REACTION.
+BUT TRY TO PUT IN MY SHOES, THIS IS THE FIRST TIME I SEE THIS.
+
+EXCUSE ME
+THIS REALLY WORKS"
+,XeroGlitch,2008-01-17T22:48Z,"Oh please don't tell me yous try to read this disk in Windows...
+
+-_-
+
+It's like trying to decipher a language that you never encountered before."
+,guitarist1,2008-01-18T17:16Z,"I hope ""Neroblaster"" I mean Neurocaster doesn't work anywhere within the military.
+
+I had dismal success with the first IATKOS but will give this a spin soon. Good times in computing."
+,DeathByJayJay,2008-01-30T23:41Z,"Ahh brilliant i dl one from mininova but it was in a zip file and wouldnt extract thanks for taking the time to put this up :P
+
+Cheers"
+,lilbunnifufu101,2008-02-02T20:30Z,"What's the MD5 of this? I downloaded it but I got a MD5 of c028e6ae08073f1a5f0ee846e25fbf08 but isn't it supposed to be 7c63eed3dfb5d17256fc5fd3a16efed1???????
+
+Does any one have this same problem? or is it a corrupt download..."
+,ROUSTAHOY,2008-02-11T02:42Z,"FYI, I tried mounting one of these with magicISO and burning it to DVD w/Nero (all in Win) and wound up with the only boot option being a network boot.
+
+I moved the ISO over to Linux and burned it there, now I have a working installer.  Don't know what caused the error - OS?  Not burning direct from ISO?  - but I thought I'd point out that I had an issue but resolved it.  "
+,snowman1988,2008-02-22T16:57Z,"leopard installed perfectly but when it reboots it ends up missing a file...
+""/library/preferences/systemconfiguration/com.apple.boot.plist""
+
+any one who knows what i have don wrong ?
+i have tried several times and every time this i what i get..."
+,crapthecrocodile,2008-02-25T14:45Z,"so darwin install is automatic? That means you can skip these steps:
+
+12. Now close this disk utility and click on Utilities->Darwin_Boot
+
+13. Click on the terminal, to activate the cursor and type Y.
+
+14. When it asks for disk no press 1
+
+15. When it asked for partition no press x+1
+
+Note: x is the partition no in windows and x+1 is that in MAC OS. So if it was Partition 3 in windows and disk0s4 in MAC OS then you should type 4
+
+16. Click Y and Y. If its succesful, you will get a message saying so.. So and so blocks copied blah blah etc. and Process completed at the end.
+
+17. Close this window and then close the terminal.
+
+right? "
+,compyou,2008-03-03T19:17Z,"Anyone able to diagnose why my download speed is so slow. Shouldn't be since the seeds are good. :(
+
+I need this ASAP. 
+If anyone who's got it already wouldn't mind giving a boost - Thanks."
+,compyou,2008-03-03T22:50Z,"Very close -- yet it drags yet again.
+
+Anyone able to provide a MEGA speed boost for me??? (or an explanation)"
+,jmcrossley,2008-03-07T01:57Z,Fake
+,jayysonz,2008-03-22T15:23Z,"it not freaken fake people.
+
+it real and im telling the truth. 
+
+i burn using imgburn and slowly 
+
+and it works without a problem for me "
+,cider19,2008-04-02T21:22Z,"For Installation Guide ON PC Visit:
+http://rohityadavweb.blogspot.com/2008/04/installing-mac-osx-leopoard-on-your-pc.html
+
+Let me know how useful it was!
+Keep visiting for updates:
+http://rohityadavweb.blogspot.com"
+,makka76,2008-04-10T04:43Z,Thanks!!!!
+,HYPERBAM,2008-04-15T15:59Z,"Hi. I'm hoping someone can help me.  I am trying to install MacOS on a HP NC 6220 laptop and I can't seem to make much progress.  I get to the gray screen with the apple logo and then it goes to a blank blue screen and hangs there.  Can anyone offer advice?  I currently have Windows XP installed on one partition and I have a blank fat32 partition as well.
+
+Thanks"
+,HYPERBAM,2008-04-15T16:23Z,"Ok, i searched around and when I installed with the ""-x"" option I was able to get a little further.  I now have a blue/swirl background image with a rainbow wheel spinning. It's been spinning for a good 10 minutes.  Any suggestions?
+
+Thanks!"
+,boinkytwo,2008-04-21T14:30Z,"i wonder why some people even try to bother to give a comment like the one above, when they don't  even know about partitions and file systems.
+
+uphuck team... great work... you too kalyway"
+,boinkytwo,2008-04-21T14:38Z,"try this hyperbam
+
+-x -v
+
+it will boot into safe mode and text mode."
+,boinkytwo,2008-04-21T14:40Z,"type -x -v
+
+it will boot into safe mode plus text mode.
+
+meaning... you'll have the chance to see any errors  or panic, base from the scrolling texts"
+,andyroberts1993,2008-05-15T23:21Z,"Iatkos Rapidshare links
+
+in every part you'll need to change dot to . for the web page to come up(the reason if did this is because otherewise tpb just says ""database error"" which dot gets round).
+
+Part 1)
+http://rapidshare dot com/files/78207625/iATKOS_v1.0i.part01.rar
+
+Part 2) 
+http://rapidshare dot com/files/78209708/iATKOS_v1.0i.part02.rar
+
+Part 3)
+http://rapidshare dot com/files/78211739/iATKOS_v1.0i.part03.rar
+
+Part 4)
+http://rapidshare dot com/files/78213887/iATKOS_v1.0i.part04.rar
+
+Part 5)
+http://rapidshare dot com/files/78215885/iATKOS_v1.0i.part05.rar
+
+Part 6)
+http://rapidshare dot com/files/78217542/iATKOS_v1.0i.part06.rar
+
+Part 7)
+http://rapidshare dot com/files/78219365/iATKOS_v1.0i.part07.rar
+
+Part 8)
+http://rapidshare dot com/files/78221089/iATKOS_v1.0i.part08.rar
+
+Part 9)
+http://rapidshare dot com/files/78222998/iATKOS_v1.0i.part09.rar
+
+Part 10)
+http://rapidshare dot com/files/78224628/iATKOS_v1.0i.part10.rar
+
+Part 11)
+http://rapidshare dot com/files/78225970/iATKOS_v1.0i.part11.rar
+
+Part 12)
+http://rapidshare dot com/files/78227354/iATKOS_v1.0i.part12.rar
+
+Part 13)
+http://rapidshare dot com/files/78228723/iATKOS_v1.0i.part13.rar
+
+Part 14)
+ttp://rapidshare dot com/files/78230255/iATKOS_v1.0i.part14.rar
+
+Part 15) 
+http://rapidshare dot com/files/78231548/iATKOS_v1.0i.part15.rar
+
+
+Part 16)
+http://rapidshare dot com/files/78232845/iATKOS_v1.0i.part16.rar
+
+Part 17)
+http://rapidshare dot com/files/78234230/iATKOS_v1.0i.part17.rar
+
+Part 18)
+http://rapidshare dot com/files/78235607/iATKOS_v1.0i.part18.rar
+
+Part 19)
+http://rapidshare dot com/files/78236871/iATKOS_v1.0i.part19.rar
+
+Part 20)
+http://rapidshare dot com/files/78238229/iATKOS_v1.0i.part20.rar
+
+Part 21)
+http://rapidshare dot com/files/78239813/iATKOS_v1.0i.part21.rar
+
+Part 22)
+http://rapidshare dot com/files/78241925/iATKOS_v1.0i.part22.rar
+
+Part 23)
+http://rapidshare dot com/files/78242232/iATKOS_v1.0i.part23.rar"
+,DEmaster,2008-06-03T06:25Z,"Just in case your downloading this before you actually read anything, note that this can bomb your computer HDD and possible the hardware.  If you dont know what I am saying go read more."
+,xxsexyxtacoxx,2008-08-22T20:46Z,"lol @ ppl that think they know things.
+
+
+dude, DEmaster...this is an operating system. an operating system cant exactly fry your memory, cpu, or gpu, like you appear to be claiming.
+
+
++ ive run quite a few of these cracked mac versions [[iatkos, leo4all, kalyway, etc etc]] and NEVER had a problem with it ""bombing my hard drive"" or anything.  
+
+and for the record, even if it fucked your hard drive, guess what? simply re-formatting it in the windows xp or vista setup [[or whatever os you want to revert to]], would fix the problem.
+
+
+dont post comments like that when you clearly lack the necessary knowledge."
+,xxsexyxtacoxx,2008-08-22T20:51Z,P.S. - ROFL $3ND N00DZ
+,Darkspy946,2008-11-03T21:13Z,I tried installing this is VMware Workstation 6 on my Dell Optiplex GX280 the operating system is Microsoft Windows XP Professional Service Pack 2 and a got a Processer error right when the Grey with Apple Logo Bootscreen
+,ApanWally,2008-12-03T13:00Z,"do i need to install kalyway first and then this to get things working or is this a full osx leopard? 
+
+but it cant be? right?"
+,taimlar,2011-07-17T16:14Z,SEED!

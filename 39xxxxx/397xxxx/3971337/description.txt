@@ -1,0 +1,23 @@
+1. Install NOD32 2.x. Check "Set update parameters later" to get past
+   the password screen during the commercial installation.
+ 
+   !DO NOT RESTART AFTER INSTALLING!
+
+2. Install NOD32 FiX.
+
+3. Now restart your computer.
+
+4. Enjoy! ;)
+
+Note: If you already have NOD32 fully installed just skip Step #1. 
+But, you'll still need to reboot after applying the FiX 
+to ensure the events get properly placed in the NOD32 Scheduler.
+
+
+--------------------
+-       WTF        -
+--------------------
+
+This basicly makes that 30 day trial for NOD32 last...oh...40,000 YEARS! 
+It also changes the default update server to that of the eval signatures 
+so you no longer need a password to update NOD32.

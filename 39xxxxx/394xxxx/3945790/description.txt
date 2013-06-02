@@ -1,0 +1,30 @@
+This packages contains everything you need to get working with \\\\\\\\\\\\\\\"shorten\\\\\\\\\\\\\\\" and other lossless compressed audio files.
+
+I\\\\\\\\\\\\\\\'m not the author of any of the programs or text, I merely put it all together in one file.
+
+Also I\\\\\\\\\\\\\\\'ve put some helpful screenshoots from various websites. All the files have been downloaded from these websites.
+Shorten files (.shn), are audio files that are compressed, so they can be stored or transfered over the internet. Shorten files are often used by musik-traders because of the significant smaller size and the ability to check the files integrity. Some media players can play .shn files directely with a special plugin.
+The compression is 100% lossless, the output is absolutely identical to the input. 
+You can even make a MD5 Hash fingerprint, so you can see, if the file is either corrupt or has been tampered with. Shorten has naitive support for wav files. If you want to use other lossless format, you may need to install extra addon modules. See shorten.pdf for more info.
+
+Uharc is another high compression packer made for multimedia files by Uwe Herklotz. It is also a command-line utility, but I have included three different GUI in the zip file. Uharc proberly offers the best compression of audiofiles of all packers, but it is not particuliar quick if you are in a hurry. Uharc is great for full CDs.
+
+With these great tools for lossless compression, there are no fucking lame excuses for fooling around with lousy mp3s.
+
+The files:
+shorten.3.6.1.zip
+Shorten is a fast, low complexity waveform coder (i.e. audio compressor), originally written by Tony Robinson at SoftSound. It can operate in both lossy and lossless modes.
+shntool-3.0.6.zip
+Command-line utility to test shn files. Incl. doc.
+Multi_frontend.zip
+Windows GUI for shorten and almost all other consoles, so you don\\\\\\\\\\\\\\\'t have to fool around at the command-line.
+Runtimemodules.zip
+Two special runtime modules, Multi frontend may need in order to work.
+mkw-mfc42.exe
+The mkw Audio Compression Tool (mkwACT) is a free WindowsÃ?ï¿½Ã¯Â¿Â½Ã?Â¯Ã?Â¿Ã?Â½Ã?ï¿½Ã¯Â¿Â½Ã?ï¿½Ã?Â® 95/98/Me and NT/2000
+and XP program created for the easy and convenient conversion of WAV audio files to and from various lossless and lossy compressed formats, including Shorten (SHN).
+mkwACT is simply the easiest utility available for compressing and decompressing Shorten files, and checking and creating MD5 signatures.
+michlossless.zip
+A collection of various lossless codex/programs including wavepack.
+Uharc.zip
+A high performance command-line file archiver created by Uwe Herklotz. This file contains various versions and three different graphical user interfaces.

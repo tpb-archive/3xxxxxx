@@ -1,0 +1,4 @@
+Vista SP1 Beta Registry Hack.  Allows you to be able to download SP1 Beta directly from M$. Run it with the Administrator Privileges (choose â??Run as Administratorâ?? from the right-click menu). You should see a successful message displayed on screen in Command Prompt.
+* Now run Windows Update and Check for updates. It should show you the KB935509 hotfix. Download it and restart your computer.
+* Run Windows Update for the second time and Check for updates. This time around you should find another update called KB937287. After downloading the second update, restart and run Windows Update for the third time. This time youâ??ll download KB938371 hotfix.
+* Restart your computer and run Windows Update for the last time. Windows Update may not show SP1 in the first try, so keep trying until your get it.

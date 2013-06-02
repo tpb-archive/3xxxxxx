@@ -1,0 +1,60 @@
+±      Fixes                                                           ±  Û
+ Û  ²                                                                      ²  Û
+ Û  Û      ~ Fixed: Potential crash in D3D10                               Û  Û
+ Û  Û      ~ Fixed: Orange boxes apearing when hispec savegame loaded      Û  Û
+ Û  Û        into lowspec game.                                            Û  Û
+ Û  Û      ~ Fixed: Inconsistent damage dealt to vehicles  when  shot      Û  Û
+ Û  Û        by LAW.                                                       Û  Û
+ Û  Û      ~ Fixed:  Reflection   resolution   on   D3D10,   MultiGPU      Û  Û
+ Û  Û        reflection update fix                                         Û  Û
+ Û  Û      ~ Fixed: Memory leak with FSAA modes                            Û  Û
+ Û  Û      ~ Fixed: Infinite ammo hacks.                                   Û  Û
+ Û  Û      ~ Fixed: Memory leak in D3D10 when switching screen modes       Û  Û
+ Û  Û      ~ Fixed: Muti optimizations                                     Û  Û
+ Û  Û      ~ Fixed: When player melees during  gun  raise  animation,      Û  Û
+ Û  Û        their gun will be in a permanantly raised position.           Û  Û
+ Û  Û      ~ Fixed: Crash when loading savegame with  level  exported      Û  Û
+ Û  Û        recently by editor                                            Û  Û
+ Û  Û      ~ Fixed: Virtual keyboard does not function properly  when      Û  Û
+ Û  Û        a game pad is connected                                       Û  Û
+ Û  Û      ~ Fixed: Users can lose the ability to  look  around  with      Û  Û
+ Û  Û        the Right Stick                                               Û  Û
+ Û  Û      ~ Fixed: Setting screen resolution to "default" stops user      Û  Û
+ Û  Û        from selecting last resolution                                Û  Û
+ Û  Û      ~ Fixed: Bug when changing resolution in D3D10                  Û  Û
+ Û  Û      ~ Fixed: Issues with Depth of field and water droplets  in      Û  Û
+ Û  Û        D3D10                                                         Û  Û
+ Û  Û      ~ Fixed: Crash on NaN warning                                   Û  Û
+ Û  Û                                                                      Û  Û
+ Û  Û      Updates                                                         Û  Û
+ Û  Û                                                                      Û  Û
+ Û  Û      ~ Added: Motion Blur UI and V.SYNC UI options                   Û  Û
+ Û  Û      ~ Optimized: Motion blur                                        Û  Û
+ Û  Û      ~ Optimized: FSAA (Full Scene Anti-Aliasing)                    Û  Û
+ Û  Û      ~ Optimized sound id implementation                             Û  Û
+ Û  Û      ~ Enabled VSync functionality in D3D10                          Û  Û
+ Û  Û      ~ New benchmarking files for ice CPU benchmark.                 Û  Û
+ Û  Û      ~ http/xmlrpc password protected remote control session         Û  Û
+ Û  Û      ~ Marked debug cvars as cheat                                   Û  Û
+ Û  Û      ~ F12 (screenshot) now works in restricted mode as well         Û  Û
+ Û  Û                                                                      Û  Û
+ Û  Û      Tweaks                                                          Û  Û
+ Û  Û                                                                      Û  Û
+ Û  Û      ~ Reduced   LAW   splash   damage   vs.   infantry   in         Û  Û
+ Û  Û        PowerStruggle mode                                            Û  Û
+ Û  Û      ~ Slowed Rocket projectile speed down in MP slightly            Û  Û
+ Û  Û      ~ Disabled automatic turret bounding boxes on  vehicles         Û  Û
+ Û  Û        to prevent issues with LAW hit detection                      Û  Û
+ Û  Û      ~ Reduced grenade explosion radius in multiplayer               Û  Û
+ Û  Û      ~ Clamped water tesselation to avoid cheating in MP             Û  Û
+ Û  ²      ~ MultiGPU improvements with depth map updates                  ²  Û
+ ²  ±                                                                      ±  ²
+ ±  °                                                                      °  ±
+ °  ÜÜ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²±° INSTALL NOTES °±²²²²ÜÜ  °
+  Ü²²²ßßßßßßß                                                          ßßß²²²Ü
+ Þ²ß                                                                        ß²Ý
+ ÛÝ °                                                                      ° ÞÛ
+ Û  ±      ~ Unpack                                                        ±  Û
+ Û  ²      ~ Install the update                                            ²  Û
+ Û  Û      ~ Copy the crack from the ViTALiTY folder                       Û  Û
+ Û  Û      ~ Rot in heaven                                                 Û  Û

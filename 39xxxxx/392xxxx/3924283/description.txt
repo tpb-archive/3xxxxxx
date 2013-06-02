@@ -1,0 +1,89 @@
+Ultumix2008v0 0 1 0 Pre Release	
+
+     
+Windows Users New To Ultumix Read Below where it says "For Windows Users Read Here"
+
+Ultumix v0.0.1.0 2008 Final Pre Release.
+
+IMPORTANT UPDATE!!! This is a pre-release of Ultumix and may contain a couple bugs so don't be surprised if there is something wrong. Please report all bugs via our forum or bug tracker on sourceforge.net project ultumix. Most people have been directly e-mailing me. Please don't do this in regards to support or bugs. However this version has been stable after many tests so please don't be affraid to try it.
+
+For those of you who want the source code. It all is in the PCLinuxOS repositories with the exception of packman which you can find at sourceforge.net under the packman project.
+
+Welcome to Ultumix Linux OS. The OS designed for Windows users by previous Windows Users.
+
+For the Linux Geeks section.
+
+If your a Linux Geek and you want to know things like what the md5 checksum is then this is the section for you. By the way firefox 3 beta is installed and available in the Internet web browser menu. Don't worry though Firefox 2.0.0.9 is still installed and working by default. :)
+
+Md5 SUM: 9a806382d91c2bd13ff0fc21c94dfaf2
+
+I managed to install packman and gpackman in /usr/share/packman and it installed where it is suppoes to go. Technically you should be able to install debain and RPM packages in this distro now. Proceed with caution as packman can not figure out what packages the synaptic has installed because it's not configured for this distro. Unless someone steps forward and helps me get this done I will release this as the final version of Ultumix Standard Edition 2008.
+
+As stated in previous versions ALSA, JACK, and video drivers have been left alone so that they will work with older systems. If you want to update them then I suggest you do it. The Game edition of Ultumix 2008 will have these updates because if you don't have 3D abilities and a sound card newer than 6 years ago you will have problems anyway most likely.
+
+Your Windows users should have a lot of fun with this OS. Do you like the new Start Kmenu button?
+
+In order to start Compiz-Fusion you will need to enter the administration center and turn it on there and restart your X server. I would try this Live from the DVD first.
+
+----------------------------------------------------------------------
+== For Windows Users Read Here: ==
+
+What is different than Windows?
+
+1.
+
+In Windows you have to defrag, use virus protection, checkdisk all the time, reboot all the time, and you have to learn to cope with errors. In Linux you don't have to do these things. Of course if you fill up the partitions you will experience fragmentation. So don't fill them above 95%. In Linux the start menu will be a little different. Instead of looking threw a programs menu that lists all the programs that are installed at once they are categorized by type. Internet, Multimedia, Office, System, and More Applications.
+
+o
+
+The Internet section includes all programs used for the Internet such as web browsers, chatting, e-mail, and file transfer.
+o
+
+Multuimedia includes everything from picture editing and scanning under graphics, to music editing and media players, and finally video players, recorders, and editors.
+o
+
+Office includes all word processors, spreadsheet (Excel) apps, presentations, databases, and even an HTML editor.
+o
+
+More Applications is just that. It's everything else that you don't actually need. Financial programs, games, emulators like WINE, and Educational programs and literature are included. Under Education and literature you will find a full copy of the Bible by default. Feel free to add other literature at your leisure.
+
+2.
+
+In Linux if you want to install or run a Windows application you will need to use WINE. WINE is already installed in every version of Ultumix. To run or install a Windows program simply stick the Windows CD / DVD into your drive, open it when prompted, find the .exe file (usually install.exe or setup.exe), right click on it and click WINE or open with WINE. If this is not an option click the open with option and type in ?wine? manually. Check the box at the bottom and click ok or apply. In Linux you don't need to use install wizards to install programs and you don't have to worry about what else you might need installed for an application to work as long as it's a Linux application. You will see a Red and Black icon that is 5 icons to the right of the Start menu. Click on this button and put in your root password. (you specified a root password during setup) Click the reload button (make sure your connected to the Internet first). After the reload is complete you can choose to click mark all upgrades or you can manually go threw the list and install packages. It is not recommended to uninstall packages that are installed as part of Ultumix. Read what each package is before you install it and go ahead and proceed. DO NOT INTERRUPT THE INSTALL ONCE IT HAS STARTED! This can result in system failure and then you will need to repair your Ultumix installation.
+3.
+
+How do I get support and ask questions?
+
+There are two basic methods you can use to get help. The first is to just open the icon named Internet on the desktop and it will take you to the Ultumix home page. There you can click forums and sign up for free support and ask questions.
+
+The second way to get support is the instant way. There is a chat open called the IRC chat. The channel we use is #Ultumix. We don't have many moderators yet but if you want to be one please apply in the forums. To get access to the #Ultumix chat just click Online Help on the Desktop. It will have an orange X for an icon. Put in your first name instead of owner and click connect. Use the white box at the bottom to send messages. Press enter after typing the message in the box. It may take a second to connect depending on where you are. Be patient. usacomputertec is the owner of the #Ultumix IRC channel and is the primary moderator.
+
+If you would like me to be available more often on the IRC for free help and quit my day job then please go to www.mindblowingidea.com/Ultumix and donate money or buy an item like a T-Shirt or hat. If enough people do this I should be able to do support full time.
+
+Support Rules:
+
+If you use bad language in the forum or chat room you will be baned. If you decide to get into (non Linux related) politics and are making people mad you will be baned. You may discuss religion on a limited basis. Don't force it down anyone's throat.
+
+The password for the root account is root
+The password for the owner account is owner
+
+To try out Ultumix in live mode use the owner account.
+To install Ultumix on your PC use the root account and click install.
+
+You should leave the owner account alone and use it as is. It's set up for Windows users to feel at home. If you decide to set up a new user account you will need to also click Control Center and change the theme to Ultumix and the window decorator to Crystal. Also you won't have all these nice icons on the desktop by default that I added to the owner account. If you dont like the Glass window decorator and are more use to XP's Red X in the upper right hand corner select AKDC Luna instead of Crystal as your Window Decorator. Don't forget to hit apply to save your settings. Changing simple settings like your desktop screensaver is as easy in Linux as it is in Windows. Just right click on the desktop and click Configure Desktop. From here you can change anything you wish.
+
+Most Windows users seem to have the most problems with logging in to a user account. Just click on owner and type owner for the password. Thats all you need to do.
+
+If you have questions after you use Ultumix please use the Forums at www.mindblowingidea.com/Ultumix or click Online Help on the desktop and see if anyone is online to help you live. :) Enjoy! You can e-mail me at admin@mindblowingidea.com .
+
+
+
+Issues: You may need to add a guest user and select the Ultumix theme from the Control Center in order to get the Vixta interface. If you don't see it click here to download the KDE interface. You can install it in the Control Center. Also we use the Redmond splash screen and the Crystal window decorator just incase you need to know.
+
+If you want an XP environment:
+You should click the Control Center and go to Appearance and Themes, Next go to Window Decorations and select AKDC Luna. Go back to the menu on the left and select Desktop, Panels, Go to the appearance tab, Change the black faded taskbar to a blue color like the XP taskbar. You may need to make a blue .png file. I will work on doing this in future distros. In the mean time if anyone else does this please send the attached theme to admin@mindblowingidea.com. Thanks.
+
+IRC #Ultumix
+
+WARNING! PCLinuxOS Forums and IRC Chat
+The PCLinuxOS community has informed me that they do not want users of Ultumix getting support from their forum or IRC chat. If you want assistance please use the links at the top of this page. Thanks.		

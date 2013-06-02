@@ -1,0 +1,173 @@
+Exact Audio Copy V0.99 prebeta 3 from 28. July 2007
+
+EAC extraction logfile from 22. December 2007, 23:56
+
+Mannheim Steamroller / Christmas
+
+Used drive  : SONY    DVD RW DW-D26A   Adapter: 1  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : Yes
+
+Read offset correction                      : 12
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : No
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Not detected, thus appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 768 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:Program FilesExact Audio CopyFLACFLAC.EXE
+Additional command line options : -8 -A tukey(0.25) -A gauss(0.1875) -V -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  3:43.27 |         0    |    16751   
+        2  |  3:43.27 |  3:44.43 |     16752    |    33594   
+        3  |  7:27.70 |  2:36.72 |     33595    |    45366   
+        4  | 10:04.67 |  2:43.35 |     45367    |    57626   
+        5  | 12:48.27 |  3:34.23 |     57627    |    73699   
+        6  | 16:22.50 |  2:24.25 |     73700    |    84524   
+        7  | 18:47.00 |  2:07.50 |     84525    |    94099   
+        8  | 20:54.50 |  1:29.27 |     94100    |   100801   
+        9  | 22:24.02 |  1:43.60 |    100802    |   108586   
+       10  | 24:07.62 |  4:25.10 |    108587    |   128471   
+       11  | 28:32.72 |  5:26.43 |    128472    |   152964   
+
+
+Track  1
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerChristmasMannheim_Steamroller_-_Christmas_-_01_-_Deck_the_Halls.wav
+
+     Peak level 88.0 %
+     Track quality 100.0 %
+     Test CRC 2D4EDA19
+     Copy CRC 2D4EDA19
+     Accurately ripped (confidence 7)  [52AE7B3A]
+     Copy OK
+
+Track  2
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerChristmasMannheim_Steamroller_-_Christmas_-_02_-_We_Three_Kings.wav
+
+     Peak level 52.4 %
+     Track quality 100.0 %
+     Test CRC 57AAEF61
+     Copy CRC 57AAEF61
+     Accurately ripped (confidence 6)  [1F7AE688]
+     Copy OK
+
+Track  3
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerChristmasMannheim_Steamroller_-_Christmas_-_03_-_Bring_A_Torch,_Jeannette,_Isabella.wav
+
+     Peak level 46.8 %
+     Track quality 100.0 %
+     Test CRC D496A7BC
+     Copy CRC D496A7BC
+     Accurately ripped (confidence 7)  [DB1E1489]
+     Copy OK
+
+Track  4
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerChristmasMannheim_Steamroller_-_Christmas_-_04_-_Coventry_Carol.wav
+
+     Peak level 38.3 %
+     Track quality 100.0 %
+     Test CRC 9CD557C3
+     Copy CRC 9CD557C3
+     Accurately ripped (confidence 7)  [0E6D329C]
+     Copy OK
+
+Track  5
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerChristmasMannheim_Steamroller_-_Christmas_-_05_-_Good_King_Wenceslas.wav
+
+     Peak level 66.7 %
+     Track quality 100.0 %
+     Test CRC D37872B4
+     Copy CRC D37872B4
+     Accurately ripped (confidence 7)  [D45F1226]
+     Copy OK
+
+Track  6
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerChristmasMannheim_Steamroller_-_Christmas_-_06_-_Christmas_Sweet-_Wassail,_Wassail.wav
+
+     Peak level 35.8 %
+     Track quality 100.0 %
+     Test CRC BC762B09
+     Copy CRC BC762B09
+     Accurately ripped (confidence 7)  [89DFA1DD]
+     Copy OK
+
+Track  7
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerChristmasMannheim_Steamroller_-_Christmas_-_07_-_Christmas_Sweet-_Carol_of_the_Birds.wav
+
+     Peak level 22.4 %
+     Track quality 100.0 %
+     Test CRC FDA414FA
+     Copy CRC FDA414FA
+     Accurately ripped (confidence 7)  [3DBB799D]
+     Copy OK
+
+Track  8
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerChristmasMannheim_Steamroller_-_Christmas_-_08_-_Christmas_Sweet-_I_Saw_Three_Ships.wav
+
+     Peak level 30.6 %
+     Track quality 100.0 %
+     Test CRC 8FBE344E
+     Copy CRC 8FBE344E
+     Accurately ripped (confidence 6)  [B80FA844]
+     Copy OK
+
+Track  9
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerChristmasMannheim_Steamroller_-_Christmas_-_09_-_Christmas_Sweet-_God_Rest_Ye_Merry_Gentlemen.wav
+
+     Peak level 34.2 %
+     Track quality 100.0 %
+     Test CRC 0950663E
+     Copy CRC 0950663E
+     Accurately ripped (confidence 7)  [653E7022]
+     Copy OK
+
+Track 10
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerChristmasMannheim_Steamroller_-_Christmas_-_10_-_God_Rest_Ye,_Merry_Gentlemen.wav
+
+     Peak level 94.5 %
+     Track quality 100.0 %
+     Test CRC 7135AD87
+     Copy CRC 7135AD87
+     Accurately ripped (confidence 7)  [8237B67D]
+     Copy OK
+
+Track 11
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerChristmasMannheim_Steamroller_-_Christmas_-_11_-_Stille_Nacht.wav
+
+     Peak level 46.5 %
+     Track quality 100.0 %
+     Test CRC 43A27317
+     Copy CRC 43A27317
+     Accurately ripped (confidence 6)  [7C750340]
+     Copy OK
+
+
+All tracks accurately ripped
+
+No errors occurred
+
+End of status report

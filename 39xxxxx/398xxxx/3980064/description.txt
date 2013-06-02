@@ -1,0 +1,11 @@
+LinuxMCE 0710 beta3 has been released and is available for download now!
+ 
+LinuxMCE is integrated into the KDE desktop and runs on Kubuntu Gutsy 7.10. Major changes:
+- Added support for amd64
+- Added support for mixed amd64/i386 mdâ??s
+- Added support for 1080p resolution. It works great with masked UI2.
+- Upgraded xine to latest version
+- Latest mythtv packages and fixes for lmce mythtv stuff
+- Integrated VDR to LMCE and added support for few dvb-s cards
+- Telecom refactoring, most of the issues fixed (you can now easily create a conference, leave a conference, merge two conferences, use an assisted transfer, etc). Upgraded to asterisk 1.4.10
+- Added latest nVidia drivers (169.07 Dec 20th) 

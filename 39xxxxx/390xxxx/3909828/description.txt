@@ -1,0 +1,27 @@
+That's an iso I made for my own use.
+the kernel is Toh kernel 9.1.0.
+It's 32bits until a kernel allow to boot without "-legacy".
+
+The DVD is patched to run on your PC, all installation packages are originals (except MacOSXUpd 10.5.1 which needed to be repacked) and patched automatically in the end of the installation process. Darwin bootloader is installed at the very end. (See FixLeo.pkg)
+
+Only English and French are available.
+Gutenprint Printers Drivers and drivers for Geforce 8800GTX/GTS(NVinject 0.1.3) are available too. 
+
+It runs fine on the following machine :
+
+- Athlon 64 X2 4200+ S939
+- ASUS A8N5X NForce 4
+- 4 x 512 MB DDR400
+- Maxtor 250 GB Sata2
+- Geforce 8800 GTS
+
+If system freezes when you try to reach the net, deactivate dhcp and configure your interface manually.
+It seems to be because DHCP set 2 DNS servers (your router) instead of one).
+
+1 - Download
+2 - Burn
+3 - Install
+4 - Enjoy
+
+Zephyroth.
+   

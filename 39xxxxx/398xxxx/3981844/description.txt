@@ -1,0 +1,16 @@
+Episode 028: Are 8 Bit enough?
+
+
+
+Meet the Gimp! is a weekly video podcast or tutorial about the Gimp graphics software from the viewpoint of a digital photographer. More information at http://meetthegimp.org
+
+
+This is a new thing on Meet the GIMP!, an interview. I talk to Joel Cornuz from the Linux Photography Blog about the differences in 8 and 16 Bit postprocessing.
+
+But before that you?ll learn a bit about the Confoederatio Helvetica (Latin) Schweizerische Eidgenossenschaft (German) Confédération suisse (French) Confederazione Svizzera (Italian) Confederaziun svizra (Romansh) Swiss Confederation (English) and Geneva, Genève, Genf, Ginevra or Genevra. You?ll learn a surprising fact about how the Swiss cope with living an a country with four different mother tongues and nothing about Chocolate, Cheese and Swiss Army Knifes. Neither about CERN, the Red Cross and all the other institutions in Geneva. As we talk all the time in a video podcast I?ll show you a slide show of Joel?s images from his town and country.
+
+I went into the interview knowing that I am not missing much with 8 Bit only in GIMP. But now I miss the 16 Bit option and hope that GEGL will solve this problem soon. 8 Bit is not a problem with images which contain a lot of colours and which get not much post processing. But if you tweak the curves of a nearly monochromatic image too much you are in trouble because you loose colours by interpolation and rounding errors. And so you end with 100 instead of 256 different shades - and that?s not enough for a smooth image.
+
+As you perhaps recall I have taken ways around this problem by using two differently converted files from one RAW image. This would often not be necessary with 16 Bit.
+
+Joel shows another way around this problem - post processing in cinepaint. That?s a hypertuned image processing engine in an old and a bit rusty GIMP 1.9x chassis. I?ll look into that and do a video about it in the future.

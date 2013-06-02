@@ -1,0 +1,61 @@
+﻿User Type,Username,Date,Text
+,hsuchen,2008-01-27T02:35Z,7KU0H-EV7UC-04LTU-GYZSM-IZ50Y
+,tikitak,2008-01-27T07:58Z,SN posted by hsuchen is from build 5582. I am skeptical that it will work for 5584. Can anyone confirm?
+,magnifica,2008-01-27T09:52Z,there is a serial enclosed in the rar that worked for me on 2 systems.
+,hsuchen,2008-01-27T12:23Z,the serial is working on 5584 on my MBP
+,jone500,2008-01-27T15:55Z,thanks et all
+,DEATHMOVE,2008-01-28T00:33Z,"for those with bootcamp vista bootloader issues here is the solution:
+
+1. uninstall parallels
+
+2. boot from bootcamp
+
+3. install easybcd from  http://www.softpedia.com/get/System/OS-Enhancements/EasyBCD.shtml
+[clamxav users: clamx gives a false positive on easybcd]
+
+4. in easybcd: manage bootloader > reinstall vista bootloader > write mbr
+
+5. in leopard install parallels"
+,sthprkn64,2008-01-28T05:00Z,"Dare I ""contaminate"" my Mac with this?!"
+,senzafine3,2008-01-28T18:58Z,SN posted by hsuchen works for this one. Cheers.
+,Jww72892,2008-02-02T04:53Z,What do i do when it asks for an ISO Image or a CD/DVD?
+,Siouxsie871,2008-02-02T15:29Z,"You give it an iso of the OS install disc, or you give it the actual disc.
+
+This is only a program which allows you to emulate windows, it doesn't include windows."
+,TacoDelPaco,2008-02-26T20:50Z,"Thanks, worked great."
+,amac1222,2008-03-05T14:44Z,"thanks worked like magic!
+"
+,kokonradXD,2008-03-05T16:33Z,where can i find a iso image or cd/dvd for this???
+,ccchrillee,2008-03-05T18:32Z,do i need to have a serial key or is it in the package ?
+,ccchrillee,2008-03-05T18:56Z,WHAT SHALL I DO WHEN TO PICK AN ISO FILE?????
+,scrapetorrent,2008-03-13T15:38Z,Everything I've read indicated vmware fusion is better than parallels - is this true? - is there any reason to install parallels over vmware fusion?
+,SpokeyDokey,2008-03-21T22:41Z,"@ scrapetorrent - After trying both I have to say Parallels is the better option. They're basically the same thing at the core, but Parallels is a lot more customizable and has a lot more features. Here are a few that are available in Parallels Desktop but not in Fusion.
+
+It can automatically adjust the amount of RAM the virtual machine uses, use the Documents folder on your Mac for the My Documents folder (same with Movies, Music, etc.), and share the Mac Desktop and Windows Desktop. Meaning you can download a .exe file to your Mac Desktop, go over to your Windows Desktop, and it will be there for you to open.
+
+I personally find the Desktop sharing to be more annoying than anything but it's nice to have the option to do that if I ever want to. You can share your Mac Applications to your Start menu so that they show up under ""All Programs"". You can also share your Home folder or your entire Mac to your Windows virtual machine, and they'll show up as network drives in My Computer. VMWare lets you share folders, but it's kind of a pain to do. With Parallels you check a box and it's done. A monkey could do it.
+
+Coherence Mode in Parallels is also a lot more intuitive than Unity in VMWare. The Windows taskbar appears at the bottom of your Mac when Parallels is selected (if you switch to any application your running from your Mac, it will disappear). Any application you open from Windows can be switched to using Expose or Cmd-Tab just like a Mac app.
+
+One of the biggest things, though, is keyboard remapping. You can remap the Ctrl-Z, -X, -C, -V, -A, and Ctrl-F so that you can still use the Cmd key for Undo, Cut, Copy, Paste, etc. You can also switch the Cmd and Ctrl keys so that any Ctrl-*key* shortcut will be Cmd-*key*. That way you can still use Cmd-W to close a window while running Windows.
+
+The key remapping does need a little bit of tweaking, but overall they did a pretty good job. Hopefully in the future we'll be able to choose any Windows shortcut to remap (so that Alt-*key* shortcuts can be remapped to Cmd-*key* shortcuts, etc.)"
+,PHu-001,2008-04-12T11:45Z,"Hello folks. Anyone know of a valid version of Windows XP or Vista which I can install to ""support"" this Paralells install. I dont have a original version of windows which I of course will need. "
+,isaacn86,2008-04-13T17:53Z,this is garbage compared to VMware fusion.
+,FuzeTorrents,2008-04-21T05:00Z,Do I have to download windows after i install this?
+,upyours18,2008-04-23T10:03Z,"For you people looking to download Windows that parallels ""supports"". Go here, http://www.meatspin.com"
+,javierbds,2008-05-03T01:08Z,I cannot understand why people say that VMWare is better (maybe in Windows-land VMWare is great but not here ...).
+,Dizaztor,2008-05-11T12:53Z,"This is and old version now, the Newest Torrent can Be Found here:
+
+http://thepiratebay.org/tor/4182715/Parallels_Desktop_v_3.0_(Build_5600)__Latest_Version__Leopard_Co
+"
+,dustypie,2008-06-29T19:39Z,can someone give me a link to one that would work with 10.4.9?
+,gvcandyman,2008-07-15T06:33Z,Thanks worked like a charm
+,C0RPSEGRiNDER,2008-08-03T17:49Z,Installed and downloaded an ISO image for XP SP2 but it won't accept the file type. Any ideas?
+,mac-freak,2008-08-12T22:52Z,noobs u still need a windows cd or is to work it its like boot camp
+,mac-freak,2008-08-12T22:53Z,*iso
+,jasonM23,2008-12-04T13:20Z,"Keep seeding this ... Paralells 4 release is a disaster! Many legit users (like me) will need to get a Paralells 3 install and the dumb asses at Paralells are so freakin' confident of thier 4.0 upgrade there's no way to get hold of the 3.0 installer...
+
+4.0 screws up Win XP VM's and also does VERY stupid shit to the Keyboard (how about no more application switching people?)
+
+F**K!"

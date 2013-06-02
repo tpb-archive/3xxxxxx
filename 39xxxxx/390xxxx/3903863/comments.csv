@@ -1,0 +1,155 @@
+﻿User Type,Username,Date,Text
+,uggenabben,2007-11-22T21:00Z,"Thanks! As Demonoid, where I use to get these, is down, I thank you!!!!"
+,blue_sportz,2007-11-23T04:31Z,"First of All I want to say Excellent Job!
+
+I also want to say you have to correct your NDS Releases Number...
+Below are the one that is not a release number
+463 - Max media Luncher 
+799 - NinjaPass X9TF
+1386 - Bionicle Heroes
+So your numbers are off by two ...
+For Correct Release list of number you can easily check at http://sccheats.co.uk/index.html
+
+Keep up the good work!"
+[T],magumagu,2007-11-23T06:28Z,"@blue_sportz:
+First of all, thanks, but:
+I know that my releases are off by two numbers compared to a few other lists, but as I've always stated, and as mentioned in the info-file, do I use Pocket Heaven's release list. Always have been, and if they don't disappear in a puff of pink smoke, always will.
+
+Pocket Heaven's list contain the mentioned ""not a release number""-roms, and as long as they're still there, I'll keep them in my packs.
+
+With regards to the sccheats-list, I don't see any info on the roms: checksum, releasegroup, comments, release-nfos etc. From their page:
+
+""SCcheats is a supercard cheat database were me (jmr) & meangreenie from scdev have converted all the english cheats from  codejunkies.""
+
+It's not easy making proper packs free from nukes by just picking a rom that seems right and renaming it by hand. You need a proper release list. Pocket Heaven's is one, and a reliable one as well; it has been around since the old days when Game Boy Color was king.
+
+Thing is if I was to actually switch list and redo the roms, I would have to unpack + rename about 1200 roms and repack said roms with 7-zip with the new naming. Since these archives would be different from the old ones, with new checksums and whatnot, would this move render them incompatible with my old torrents, thus making future seeding of those impossible. I do not think that would make anyone happy.
+
+Even worse, if I was to keep on to Pocket Heaven's list but alter the numbering by hand would that double the time which I already do not have for fixing these packs.
+
+Ergo, no, I won't rename and ""fix"" old roms ...
+
+Cheers
+//joda"
+,loubylou,2007-11-25T16:57Z,"hi, im currently using a m3 perect but i cant get any of these realeases to work on it, ive never had a problem befor using jodas rom packs, anyone got any ideas?"
+[T],magumagu,2007-11-25T23:01Z,"@loubylou:
+Check out what was posted in my other torrent
+http://dashroms.com/frm/viewtopic.php?f=4&t=87
+//joda"
+,DoubleJC63,2007-11-28T16:56Z,"Hey, just like to say thanks for the awsome packs.. must of taken you some time and ive seeded each onr for about a day after completeion :)
+
+Just wanted to say keep up the great work & wondered what compression level do you use with 7z? maximum? or Ultra?
+
+
+Joe"
+[T],magumagu,2007-11-28T20:19Z,"@DoubleJC63:
+I use the command line 7-zip with parameters
+7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on -bd "".7z"" "".nds""
+
+Which i assume means ... (Checking the man-pages to remember) ...
+7-Zip archive
+LZMA algorithm
+Ultra compression
+64 Fast Bytes
+32M dictionary size
+Solid archive
+
+//joda"
+,DoubleJC63,2007-11-28T22:08Z,"Awsome ultra it is :) thanks for the speedy reply dude, your a ledg
+
+Joe"
+,remtep,2007-12-01T21:53Z,thanx m8 the kids ha ha will love this
+,gillerbee,2007-12-05T19:14Z,"just in time indeed! so please seed peoples, need to score for xmas!"
+,ConSeannery,2007-12-10T01:09Z,"i want to sex you up joda.
+instead i will seed on gigabit fiber."
+[T],magumagu,2007-12-10T05:52Z,Meesa likes ...
+[T],magumagu,2007-12-10T07:26Z,"Merry Christmas all!
+http://thepiratebay.org/tor/3928427/NDS_verified_rompack_1701-1800_by_joda
+//joda"
+,grr_rotjeknor,2007-12-10T14:06Z,"Hey dudes.
+
+I'm looking for a different series of NDS roms
+
+nobody is releasing these. numbering is outside of normal release lists.
+
+PLZ HELP if you can
+
+especcially wanted :
+
+cats academy
+id 61528
+publisher THQ
+developer Brain Toys"
+,raggamuffe,2007-12-16T21:54Z,"HELP, I tried Mario Party, but I get this message: 
+""Unable to read data. Please turn off the power and reinsert the Game Card.""
+
+What is wrong?
+I use R4......."
+,raggamuffe,2007-12-16T21:57Z,"HELP, I tryed Mario Party, but I get this message: 
+""Unable to read data. Please turn off the power and reinsert the Game Card.""
+
+What is wrong?
+I use R4......."
+,Itsara,2007-12-20T00:06Z,"
+If your games don't work, use that:
+
+http://gbatemp.net/index.php?showtopic=55163&hl=
+
+That worked for me!!!!!!"
+,Itsara,2007-12-20T00:16Z,"THE ARM7-FIX
+
+What?
+A few dumped roms today comes with a new kind of protection, commonly referred to as the ""arm7-protection"". If you try to load a protected rom on some flash carts (R4, DS-X, G6 etc.), you will receive an error that tells you that something went wrong with your save file (or equivalent) and you will not be able to play the dumped rom. In this thread, you'll learn how to crack these roms by yourself, bypassing this protection.
+
+If your game won't start and gives you an error message about saving data, you most likely need the arm7-fix.
+A hacked arm7.bin file can be downloaded http://ds.loathsome.us/files/arm7.bin, and will do the trick for every game (per today) that requires this fix.
+
+Brief tutorial on how to replace the arm7.bin-file:
+
+1. Open up the rom with http://ds.loathsome.us/files/dslazy.zip and click «nds unpack»
+2. A new window will now open, do not close this.
+3. Copy the hacked arm7.bin-file (link earlier in this post) inside the newly opened directory (NDS_UNPACK), and replace the existing arm7.bin-file
+4. Click «nds packer», select where to save the modified file and load the rom up on your flash cart.
+5. Happy gaming!
+
+List of known, protected games:
+
+1158 - Zelda no Densetsu: Mugen no Sunadokei (J)
+1159 - SimCity DS (E)
+1181 - Hoshigami Remix Running Blue (U)
+1183 - Chuukana Janshi Tenhoo Painyan Remix (J)
+1256 - Idol Janshi Suchie Pai III Remix (J)
+1288 - Donkey Kong: Jungle Climber (J)
+1292 - Mega Man Star Force: Dragon (U)
+1293 - Mega Man Star Force: Leo (U)
+1294 - Mega Man Star Force: Pegasus (U)
+1298 - Chameleon: To Dye For (U)
+1417 - MySims (E)
+1319 - Minagara Oreru DS Origami (J)
+1422 - MySims (U)
+1441 - FIFA 08 (E)
+1368 - Worms: Open Warfare 2 (E)
+1398 - Drawn To Life (U)
+1423 - Drawn To Life (E)
+1456 - The Legend of Zelda: Phantom Hourglass (U)
+1458 - ASH: Archaic Sealed Heat (J)
+1475 - Kurupoto Cool Cool Stars (U)"
+,raggamuffe,2007-12-21T10:22Z,"Itsara(or others), will these steps help with my error mesasage: ""Unable to read data""??"
+,kilmus,2007-12-21T10:43Z,hej all can anybody tell me how to play these games when i unpack with 7z and put the game on my super card i only get a black sccen nothing hapen 
+,Itsara,2007-12-21T22:23Z,"raggamuffe!!!
+
+Yes!!! These steps will help you!! They helped me and my friends. I have a ds-extreme card."
+,raggamuffe,2007-12-22T13:50Z,"Itsara the Man(or girl:-), nice, It works, now I can play, cool, and thx a looot!:-))"
+,Itsara,2007-12-24T02:33Z,"raggamuffe!!
+
+thanks!!!!""!!!!!!!"
+,Itsara,2007-12-24T02:35Z,"Itsara means ""freedom"" in Thai"
+,raggamuffe,2007-12-24T11:14Z,"Thx for the info, AND HAPPY CHRISTMAS AND A HAPPY NEW YEAR**********"
+,Itsara,2007-12-25T15:14Z,Same to you raggamuffe!!!!!!!!
+,--Jacob--,2008-01-01T18:39Z,I cant find 1664 - Contra 4?
+,Lostiniraq,2008-01-11T22:13Z,"CoD4 is in spanish :/
+
+Otherwise, great release"
+[T],magumagu,2008-01-25T10:29Z,"New release to prepare for #2000:
+http://thepiratebay.org/tor/3994721/Joda_rompack_for_the_Nintendo_DS_%5B0001-0500%5D
+//joda"

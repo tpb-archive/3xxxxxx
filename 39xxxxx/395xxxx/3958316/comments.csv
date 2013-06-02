@@ -1,0 +1,72 @@
+﻿User Type,Username,Date,Text
+,nyck2007,2008-01-03T21:49Z,eng subb anyone?...damn texan accent...i ain't understand shit....
+,4ziraphale,2008-01-03T22:30Z,english subtitles for this release: http://www.opensubtitles.com/en/subtitles/3174076/no-country-for-old-men-en  thx to asa89
+,The-milkyway_Golum,2008-01-04T05:11Z,"info
+screenshots
+video sample
+ellinikous ipotitlous
+
+http://the-milkyway.blogspot.com/2008/01/no-country-for-old-men-dvdscr-bald.html"
+,ngr71,2008-01-07T12:37Z,"Very very good moovie,excellent release,thank you."
+,Kudretski,2008-01-10T18:51Z,"svenskt text, dvdscr bald http://forum.divxsweden.net/index.php?act=Attach&type=post&id=171505
+svenskt text, dvdscr bald http://forum.divxsweden.net/index.php?act=Attach&type=post&id=171505
+svenskt text, dvdscr bald http://forum.divxsweden.net/index.php?act=Attach&type=post&id=171505"
+[T],LegalTorrents,2008-01-16T00:40Z,"More Info, Movie Trailer & Wallpapers:
+
+http://wallpapers-bla.blogspot.com/2008/01/wallpaper-no-country-for-old-me.html"
+,byverter,2008-01-18T10:59Z,Polski opis i screeny: http://vrt.com.pl/?p=12 (Polish desc. and screens)
+,izigo,2008-01-26T08:31Z,"Trailers for No Country For Old Men:
+http://www.trailergoblin.com/view_video.php?viewkey=f13b3a2df133f073095d
+
+http://www.trailergoblin.com/view_video.php?viewkey=9075b964b07152d234b7
+
+."
+,permand30,2008-01-29T16:48Z,nice. Har fundet dansk tekst til denne ogs책
+,DupeD,2008-02-29T07:32Z,"Quote Doc1978: Good quality, but if you're looking to join these 2 files together(like I was), forget it, the audio stream on the 2 disks are different. Still a good download if you want it on 2 Cd's though.
+
+Might be able to change the audio to match, but I?ve not got a clue how.""
+
+This is very easy, you simply need to redo the audio of each piece to a Constant Bit Rate (CBR) as apposed to the current Variable Bit Rate (VBR) audio and leave the video stream alone (source as direct stream)... basically think of it as if the original file's audio bit rate goes up and down slightly like a wavelength (remember grade 10 physics?) or for you unedgumatacated folks, as if it were a snake moving along the ground (VBR) and then the file was chopped in the middle (because you cheap bastards refuse to by DVD +/- R discs and insist on using up 2-700mb discs instead) leaving the 2 pieces with ever so slightly differing audio bit rates.
+
+To do this you need to grab the great and powerful joiner called VirtualDub (don?t worry you cheap bastards, as amazing as the software is, it remains free) from http://www.virtualdub.org/download.html Then follow these simple steps exactly: 
+
+Step. 1 - File --> Open Video File
+Launch VirtualDub and open the first AVI file in the sequence of videos you want to join by selecting File--> Open video file.
+
+Step. 2 - Open First AVI file
+Find the first AVI file, select it and then click Open. You will now see it open in VirtualDUB.
+
+Step. 3 - Video --> Direct Stream Copy
+Now we have to make sure that you don't end up with decompressed Video (which would probably result in a file 100's of GB's in size). Click Video --> Direct Stream Copy. This is very important, do not forget this.
+
+Step. 4 - Audio --> Full Processing Mode
+We are going to process the Audio to a constant bit rate (CBR) but at the same time we don't want to end up with uncompressed audio (LPCM) so we also need to select a new compression setting. First, Click Audio --> Full Processing Mode. Then Click Audio --> Compression and take your pick of audio formats (example: I commonly use MPEG Layer 3 - 128 KBit/s, 44,100 Hz, Stereo or AC-3 ACM Codec is great too) This is very important, do not forget this compression part or you will have a huge uncompressed audio file (LPCM).
+
+Step. 5 - File --> Save As AVI
+Now you are ready to save an AVI file. Click File --> Save As AVI, select where you want to save a new AVI file (I suggest a temporary working folder of some kind, you will delete this later after joining them) and then it will only take 10 minutes at most to save it (call it something like the name of the movie working part 1, and the following file to come working part 2)
+
+Repeat the steps above with the second half of the file (part 2 or B)
+
+Now you are ready to join the 2 newly created .avi files (with CBR Audio) together... 
+
+Step. 1 - File --> Open Video File
+Launch VirtualDub and open the first AVI file in the sequence of videos you want to join by selecting File--> Open video file.
+
+Step. 2 - Open First AVI file
+Find the first AVI file, select it and then click Open. You will now see it open in VirtualDUB.
+
+Step. 3 - Scroll to the end of the file
+Drag the slider straight to the end of the video stream. Make sure it is set on the very last frame.
+
+Step. 4 - File --> Append AVI Segment
+Now after you have made sure the last frame is selected, click File --> Append AVI Segment and the File Browser will pop up again.
+
+Step. 5 - Open Second AVI file
+Locate the second AVI file, select it and click Open, the second file should now be added to the end of the first file. (Now this is where you will get problems if you have a file with separate frame rates, resolutions or codecs)
+
+Step. 6 - Video --> Direct Stream Copy
+Now we have to make sure that you don't end up with decompressed Video (which would probably result in a file 100's of GB's in size). Click Video --> Direct Stream Copy. This is very important, do not forget this.
+
+Step. 7 - Audio --> Direct Stream Copy
+Just as we had to with"
+,Severian6,2010-04-10T03:27Z,"Thanks, DupeD, for the little masterclass on combining the two files using VirtualDub. Just do as he says, folks, and the process will go without a hitch. :) Cool movie, too, no matter what some people may say about the ending, so thanks too to aitb for uploading it in the 1st place."

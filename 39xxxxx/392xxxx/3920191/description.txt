@@ -1,0 +1,11 @@
+preBuiltToolchain.rar - required for winChain Builder to install the iPhone Toolchain on Windows XP/Vista.
+
+If you don't want to use winChain you can install this manually. Just unRAR to "C:\cygwin" and then install cygwin (basic install) over it.
+
+Follow instructions on http://winchain.googlecode.com to use winChain to install this.
+
+With this iPhone toolchain you can write your own Objective-C applications and compile them (even on Windows!)
+
+It comes pre-built so it only takes minutes to install, as opposed to hours of building llvm from svn, etc. It's still missing some libraries that you can download from wherever, if you need WebKit or stuff.
+
+Send feedback to winchainbuilder@gmail.com

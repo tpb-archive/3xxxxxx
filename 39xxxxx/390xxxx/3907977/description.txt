@@ -1,0 +1,95 @@
+     ##     ##  ######   ######## ########     ###     ######  ##    ##      
+     ###   ### ##    ##     ##    ##     ##   ## ##   ##    ## ##   ##   
+     #### #### ##           ##    ##     ##  ##   ##  ##       ##  ##      
+     ## ### ## ##   ####    ##    ########  ##     ## ##       #####         
+     ##     ## ##    ##     ##    ##        ######### ##       ##  ##       
+     ##     ## ##    ##     ##    ##        ##     ## ##    ## ##   ##       
+     ##     ##  ######      ##    ##        ##     ##  ######  ##    ##   
+ -------------- Join us at MGT-Web.com for more updates ------------------
+
+MGTPack is an easy to use package made by emulation developers worldwide. We aim to bring you the best bugfixes both Core and Database from other open source communities, as well as providing a flexbile and easy way to create your own personal World of Warcraft Burning Crusade Server.
+
+Requirements:
+- enUS/enGB World of Warcraft Client installed, that's patched up to 2.2.0
+- 512mb of ram (min)
+- Pentium 4+ Processor (min)
+
+Release Notes:
+Information:
+"Unlike previous releases and update formats, we've decided to give it our one last stand and try to bring the most stable release for the public once again. The developer team did not feel that MGTPack 1.0 was a hit, and as such, we've gone underground for several weeks, only spilling out very little information, doing rigorous testing and fixing to come to this.
+
+MGTPack 1.2
+
+This post will look much more differently than the traditional update / release post we've had in the past. In order to not confuse any newcomers, we've decided to merge the core, database, and website feature list into one unified changelog. Don't worry, it'll still be in the same order, so you will be able to hint out which is what.
+
+We're glad to present you, and this is coming straight from our testers (a big thanks to them of course, because without them, I don't know in what shape this release would be in), the most stable, working release of MGTPack yet."
+
+So, you must be very eager to hear about the release changelog. Unfortunately, there were some features that were not tested, but had been reported as "working". We'll keep that in the changelog, under a different highlight to inform you about this, but we are not making any promises. Other than that, the dev team is still very glad to present all the fully tested and working features. Again, a big thanks to our testers for making all of this possible.
+
+// Features that haven't been tested, but will be in the future release 
+
+    * Updated to Ascent rev 3203
+    * Updated to NCDB rev 656
+    * Very stable
+    * Website is 100% working, feel free to check out the Website guide on setting it up (thanks to the entire team effort for this)
+    * New Home Station tool
+          o To replace the BAT files, as well as provide easy descriptions for you to understand the files. I hope to improve this tool as we get through the releases
+    * // Warsong Gulch & Arathi Basin 90-99% working!
+    * // Arena's Working! (although not tested, I believe these are working)
+    * 2.1.0 - 2.2.3 support (2.1.0 might not work so well, but it runs fine).
+    * Quest Completion fixed
+    * Graveyards fixed (you need to have your maps installed in Cystem\maps\)
+    * Orb Of Transolcation, Zul'Gurub / Zul'Furak gongs as well as many other gameobjects scripted (by Darkened Fate)
+    * x86 & x64 support (new bins for download)
+    * Trainers fully working
+    * Many creature fixes, item fixes, etc done by the NCDB team
+    * New Command by Darkened Fate: .clearcooldowns -- automatically clears ALL cooldowns for your class.
+    * Pets now receive XP after their owner is max level.
+    * Items such as Devastation, Cosmic Infuser.. will now be removed from a player when they leave the map ID. (GMs not affected)
+    * Pet spell targeting remade. Now spells will try to generate targets instead of always targeting caster or master.
+    * Re-written combat system by Burlex
+          o A mob aggroed by player A, if taken over by player B, player A will remain in combat
+          o Healing in combat will work correctly
+          o 5 Second timeout for PvPing players
+          o Putting a DoT on a target will leave the caster and the target in combat for the duration of the DoT
+          o Outland Greens/Blues working!! That means the random suffixes, such as "of the boar", "of the eagle", and etc.
+          o Halaa Battle Tokens working correctly (I believe tongue.gif)
+    * Spells:
+      This is a SMALL rundown of ALL the spells that were actually fixed up to this point. Shady and Zack, as well as Burlex have done
+          o Mage
+                + Invisibility hack-fixed. There's no 5-second countdown, or a vision change, but you do in fact become invisible tongue.gif
+          o Druid
+                + Improved Mark of the Wild
+                + Predatory Instincts
+                + Improved Leader of the Pack
+                + Faerie Fire
+                + Lifebloom
+                + Primal Fury
+          o Priest
+                + Mana Burn
+                + Reflective Shield
+          o Shaman
+                + Bloodlust / Heroism is applied to the correct targets now.
+    * Items:
+          o Proc Fixes: Dragonspine Trophy, Romulo's Poison Vial, Madness of the Betrayer.
+          o Tier 6 fully working, as well as Black Temple spawned and working (not scripted)
+    * Skills are trainable without interruption
+    * Weapon Masters teach all weapon skills they are supposed to
+    * HunterÎ???s ranged attacks work properly, including damage
+    * Ammo is subtracted properly when used
+    * Quests can be completed as intended
+    * Mage spell effects no longer affect the caster as well (impact and winterÎ???s bite)
+    * Server does not randomly crash, had it up for 12 hours without any interruption
+    * Druid shapechanging is functional (including skills work when shapeshifted)
+    * Rescue the Survivors quest at the Crash Site works properly
+    * Shaman weapon enhancements (like Rockbiter weapon) now show properly
+    * Classes work properly, able to do all abilities (quick test)
+    * Keys are required for instances
+    * Guards now give locations as intended
+    * Combo points reset after a finishing move is executed
+    * Warriors accumulate rage both when hitting, and when being hit
+
+Brought to you by MGT-Web.com
+Please provide bug reporting and support at our site: http://www.mgt-web.com/	
+
+---- PLEASE NOTE* THIS IS THE ADVANCED VERSION, FOR AN EASY - NO HASSLE SETUP, PLEASE DOWNLOAD THE OTHER VERSION OF THE REPACK FROM HERE -> http://thepiratebay.org/tor/3907974 ----

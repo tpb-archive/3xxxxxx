@@ -1,0 +1,101 @@
+Dell OEM Vista Ultimate vlite'd (vlite version 1.1 RC1)--basically only stuff that people never use or need has been removed.
+
+The following have been removed and/or tweaked:
+
+[Components]
+
+;# Accessories #
+Accessibility
+Paint
+Snipping Tool
+Speech Support
+Welcome Center
+
+;# Drivers #
+Display adapters
+Diva Server
+Ethernet network adapters
+Modems
+Printers-Apollo
+Printers-Brother
+Printers-Canon
+Printers-Citizen
+Printers-Dell
+Printers-Diconix
+Printers-Epson
+Printers-Fuji Xerox
+Printers-Fujitsu
+Printers-Generic printer
+Printers-Gestetner
+Printers-HP
+Printers-IBM
+Printers-Infotec
+Printers-Konica
+Printers-Konica Minolta
+Printers-Kyocera Mita
+Printers-Lanier
+Printers-Lexmark
+Printers-Minolta
+Printers-Minolta-QMS
+Printers-NEC
+Printers-NRG
+Printers-Oce
+Printers-Oki
+Printers-Okidata
+Printers-Olivetti
+Printers-Panasonic
+Printers-QMS
+Printers-Ricoh
+Printers-Samsung
+Printers-Savin
+Printers-Seikosha
+Printers-Sharp
+Printers-Sony
+Printers-Star
+Printers-Tally
+Printers-Tektronix
+Printers-Wipro ePeripherals
+Printers-Xerox
+QLogic Fibre Channel Adapter
+Scanners
+Sound controllers
+
+;# Hardware Support #
+Internet Small Computer System Interface (iSCSI)
+Modem Support
+
+;# Languages #
+Japanese
+Korean
+Simplified Chinese
+Table Driven Text Input Processor
+Traditional Chinese
+
+;# Multimedia #
+Music and Video samples
+Sample Pictures
+Shell event sounds
+SideShow
+Sound Recorder
+
+;# System #
+Natural Language
+Parental Controls
+Tablet PC
+
+[Options]
+
+DEP (Data Execution Prevention) = Default
+User Account Control (UAC) = Disabled
+AntiSpyware Realtime Protection = Default
+AutoPlay = Enabled
+Paging Executive = Enabled
+Power scheme = High performance
+Hibernation = Off
+Memory requirement = 256MB
+Control Panel - Classic View = Disabled
+Show hidden files and folders = No
+Show protected operating system files = No
+Show extensions for known file types = No
+IE Phishing Filter = Default
+IE Phishing Verification Ballon Tips = Default

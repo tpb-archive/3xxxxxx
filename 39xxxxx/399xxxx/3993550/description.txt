@@ -1,0 +1,54 @@
+EVEREST Ultimate v4.20.1270 + Corporate Edition v4.20.1269 Beta Registered
+
+- EVEREST Ultimate Edition v4.20.1270 Registered
+- EVEREST Corporate Edition v4.20.1269 Registered
+
+All Everest v4.20.1270 in one
+
+EVEREST Ultimate Edition is the cutting-edge benchmarking and diagnostics tool
+to maximize security, performance and trouble-shooting capabilities for home
+and office PC environments.
+
+EVEREST Corporate Edition is a multi-functional tool for enhancing IT security through instantaneous network audits, network management reports, network security alerts and risk mitigation initiatives.
+
+Latest Changes:
+
+*Intel 45nm processors support
+*Enhanced support for Intel Itanium and Itanium 2 systems
+*Support for the latest ATI and nVIDIA DirectX 10 graphics processors
+*AES multi-threaded data encryption benchmark
+*New bandwidth efficient mode for Remote Control
+*System Stability Test with flexible hardware monitoring
+*Support for the cutting-edge technologies
+*full support for Radeon HD 3850 and 3870
+*labeling temperature readings fixed
+*more motherboards supported
+*implemented Apple SMC support
+*add GeForce 8800 GTS 512 GPU support
+*implemented support for nForce 780i SLI chipset
+*updated the FB-DIMM slots numbering logic, and fixed the +5V reading. 
+*extended the chipset information
+*updated the GeForce 8xxx and 9xxx texel fillrate calculation method
+*added some new Mass Storage and Composite USB device IDs
+*fixed display pages changed after resuming from sleep mode
+*fixed Aux <-> CPU temperature issue
+*added support for 5 pixels fonts
+*fixed logo and product name for Core 2 Duo
+*fixed SPD modules detection and Vcore issue
+*fixed "Thread Creation Error"
+*fixed windows vista report bug
+*improved ISA Sensor Dump for HP DL 32x Mainboards
+...
+
+
+Installer Switches (Setup Command Line Parameters):
+unattended.sourceforge.net/InnoSetup_Switches_ExitCodes.html
+
+Extract on portable devices info:
+Install/extract outside of Program Dir is enabled, allow root dir. None Privileges Required.
+
+@Webhock the "explanation" about all two editions is now in the first extract/install dialog in English. 
+
+I still will appreciated for help comments to complete the "What's new - Changelog"  since last final.		
+
+Registered		

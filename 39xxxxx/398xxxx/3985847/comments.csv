@@ -1,0 +1,41 @@
+﻿User Type,Username,Date,Text
+,Benthol,2008-01-20T13:57Z,"Okay, so it works a bit. It is faaar rom perfect but it's something. Still, though, ven with this fix, i think GTA SA is still pretty much unplayable with the mouse and it'd be a lot easier to use the joypad configuration. So yes it works, but it works very badly."
+,KittyPaw,2008-01-27T17:14Z,"Does any one know how to play it online? 
+Thanks a lot"
+,KittyPaw,2008-01-30T02:50Z,how play this gta sa intel multiplayer? please does anyone know??????????
+,himti,2008-02-03T04:17Z,"@ KittyPaw:
+u probrably have to switch the game over to a windows computer then get the mod for mutiplayer, install it then put bak on ur mac."
+,KittyPaw,2008-02-05T01:04Z,"@ himti, thank you himti, I did as you said, but it I needs to launch the samp.exe which won't launch on Mac..  what should I do?"
+,rspoppi,2008-02-08T13:07Z,it hasn't worked for me. despite all correct.
+,himti,2008-02-27T09:38Z,"ok i found out how to fix it up a lot more:
+find your config files in your GTA San Andreas Preferences folder
+in config search for [sdldrv]
+and add a line after forceVsync
+""MouseWarping"" = ""0""
+
+THen search for   [dinput]
+add a line after defaultdeadzone
+""AbsoluteMouseSensitivity"" = ""1""
+then it should work better"
+,himti,2008-02-27T09:39Z,"@ KittyPaw:
+open samp.exe on a windows computer
+
+btw i actualy have no idea. only trying to help."
+,TKCMullahOmar,2008-03-09T18:05Z,http://www.sa-mp.com/download.php
+,Jezpuh,2008-03-14T14:33Z,"it worked, but it can only turn so much degrees, i think like 400 degrees around or something, which is kind of annoying. but with the fix at least the mouse works and behaves normally, except the 400 degrees thing"
+,sil3nc3,2008-03-24T14:12Z,"Jezpuh Said: it worked, but it can only turn so much degrees, i think like 400 degrees around or something, which is kind of annoying. but with the fix at least the mouse works and behaves normally, except the 400 degrees thing
+
+If you turn the mouse sensitivity up all the way in-game, you get a bit more freedom. But i actually discovered via a glitch of some sort, that the mouse only goes as far as the edge of the screen on the horizontal. "
+,hatae55,2008-03-24T21:09Z,"I tried what himti said and in all my config files, mousewarping were already 0 and absolutemousesensitivity were already 1. the mouse is still super jumpy"
+,timthevries,2008-04-15T08:12Z,how do you install a mod in gta on a intel mac
+,beash,2008-04-22T12:32Z,does anyone know how to make letter keys work?
+,malkeh,2008-05-26T03:48Z,To TKCMullahOmar: Dude thats for windows. stop spamming.
+,alexbesht,2008-06-28T18:05Z,"thanks himti, ur comment made mine totally work!"
+,hatae55,2008-07-07T15:13Z,"http://thepiratebay.org/tor/4217450/GTA_San_Andreas_for_Intel_Mac_Everyting_working_perfect.
+
+Check it out, the spacebar is still ""s"" and the mouse doesn't work is the menu, but the mouse works in game"
+,dale393,2008-07-08T20:02Z,"i cant find the GTA San Andreas config anywhere looked in library, Preferences just cant find can someone say plz?"
+,tou0125,2008-11-28T15:18Z,please seed! 
+,afmelking,2008-12-29T15:56Z,doesn't work for me
+,apetryne,2009-06-23T22:06Z,Pleeease seed! : ) 
+,legals,2010-02-05T19:37Z,please seed this torrent

@@ -1,0 +1,27 @@
+Clean xubuntu-7.10 VirtualBox VDI
+
+
+VirtualBox: 
+http://www.virtualbox.org/
+
+
+[veeDee-Eyes] 
+http://veedee-eyes.homelinux.net
+
+VDI images of pre-installed "Open Source" Operating System distros.
+
+Instantly run another operation system on your desktop in a window.
+
+
+Installation:
+-Download and install VirtualBox http://www.virtualbox.org/
+-Create a new Virtual Machine select the VDI file as the virtual disk
+-Start the virtual machine
+-Use the login information
+
+System username/password:
+username:adminuser
+password:adminuser
+root/su password:adminuser
+
+

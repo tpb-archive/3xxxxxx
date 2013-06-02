@@ -1,0 +1,31 @@
+This file runs under Windows as well as Linux
+
+HOWTO
+
+1. make sure you have java installed (www.java.com)
+
+2. for use under Windows, rename the file i2pinstall.jar to i2pinstall.exe 
+   and run it
+    OR
+   for use under Linux or Windows launch the jar file, either by double-clicking 
+   it or by running   java -jar i2pinstall.jar
+
+3. make sure, your firewall accepts UDP port 8887 from the outside to your computer
+
+4. run the router: ./runplain.sh OR ./i2prouter start
+
+5. after the installation point your browser to http://localhost:7657/ where you
+   find your i2p routers control interface
+
+6. in order to browse the I2P internal web (website URLs ending with ".i2p"),
+   make your browser use the proxy http://localhost:4444/ but mention localhost as
+   exception (bypassing the proxy) in order to be able to reach the control
+   interface.
+   
+Hint: 
+If you want to be able to browse the official internet the same time as the i2p web, use scripts/i2pProxy.pac as automatic proxy configuration URL for your browser.
+
+Hint:
+The I2P router tries to get the current list of nodes from http://i2p.net which seems down since two days. If you are experiencing difficulties with connecting to the I2P network, you can find the current router list here: http://i2pdb.tin0.de/
+
+Download the latest zip-File from that directory and unpack it into the netDB subdirectory of your I2P installation directory. Then restart the I2P router.

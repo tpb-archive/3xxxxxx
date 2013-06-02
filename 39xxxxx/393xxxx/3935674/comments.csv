@@ -1,0 +1,41 @@
+﻿User Type,Username,Date,Text
+,jjaworsk,2007-12-16T13:08Z,"Crack doesn't work, Studio crashes.
+Has ANYBODY downloaded THIS version and got it to work, I need to confirm if the problem is MY pc."
+,yellowgowild,2007-12-16T16:23Z,"I've used the studio without having any issues....
+Are you sure you installed it correctly?"
+,TT8000,2008-01-30T12:26Z,"Hi I have problems making the plugin for rhino 4.0 run. It tells me that the plugin is designed to run in the latest rhino 4.0 service release.
+I have downloaded and installed sr1, but still nothing happens - Any surgentions?
+
+Thanx for great programmes"
+,bloap,2008-01-30T12:58Z,for rhino sr2 is out
+,TT8000,2008-01-30T13:11Z,ahh thats why! - Any ideas on how to get sr2 then
+,slummylord,2008-02-01T06:35Z,i also have problems with this. says the license is invalid.
+,mbching,2008-02-01T07:06Z,"it said my system environment variable is incorrect, i check it for 1000 times and it is right.. i just can't get the rhino plugin done.. :("
+,slummylord,2008-02-02T01:18Z,yes. me too as well as invalid license. this is the same with the 1.5.1 release on the bay too. ALTHOUGH the 1.5 DOES work correctly. just dont use the update cracks.
+,BurnsPres,2008-02-26T17:14Z,From where can I get the OSX Version?!
+,tiredashell666,2008-03-08T10:58Z,"I think im having the same problems as jjaworsk. I can start the material editor, but the studio crashes when I start it. Any ideas? Im very thankful for suggestions. I've even downloade other cracks and tried them but with the same result. Please help."
+,SinrOne,2008-03-20T22:40Z,I got same problem... Studio crashes but editor works.. How to fix it? I really need this one...
+,csesze,2008-03-21T14:12Z,"Everything is working for me, but I cannot make the Rhino plug-in work. I have the same message as mbching. Very sad, because I really need this plug-in to work. Without it this renderer is nothing. Somebody know how to solve the problem?"
+,lotw,2008-05-11T15:28Z,"Works perfectly for me using Vista, Rhino plugin will not install however.  Anyone seen the 64b version?"
+,Wermin,2008-05-22T23:33Z,"Yes, 64bit version would be REALLY nice. It's 21st century now after all..."
+,xyz0001,2008-06-05T19:06Z,anybody got the form z plug-in to work? Cant make it work....
+,xyz0001,2008-06-05T19:08Z,studio works fine tho....
+,jimmiegrunde,2008-08-08T13:00Z,"Is the plugin for Google Sketchup included in this release? 
+Thanks in advance!
+/Jimmie"
+,fuzzoo,2008-11-17T03:06Z,Rhino plug-in works as long as you have a SYSTEM ENVIRONMENT VARIABLE that points to maxwell and not a USER ENVIRONMENT VARIABLE.  Google these terms if you don't know what they are.......
+,sodidrank,2008-11-30T23:59Z,"Anyone have the Solidworks x64 plugin for Vista?  The one i am using is having a problem with the MXI crashing.
+"
+,sbi9,2009-07-27T10:32Z,"@fuzzoo at 2008-11-17 03:06 CET:
+""Rhino plug-in works as long as you have a SYSTEM ENVIRONMENT VARIABLE that points to maxwell and not a USER ENVIRONMENT VARIABLE. Google these terms if you don't know what they are.......""
+
+Don't you think that posting a link related to the subject would be helpful to the non-nerdy people be more effective than asking them to search something they know nothing about????"
+,georgess,2009-10-05T16:19Z,"Hello Yellowgowild, I too can't seem to find any exe files etc as stated in the read me. Any ideas on this, downloaded twice and installed twice but maxwell is a trial version at the mo for me.
+
+Regards,
+G"
+,flipmatik,2009-11-27T23:43Z,"for those having a problem with a plug-in. first make sure that you have the proper service release installed. i believe the newest is SR6. if you dont have it, you can search for it . then to make sure you have the proper SYSTEM ENVIRONMENT VARIABLE follow the instructions on this website. -> http://www.itechtalk.com/thread3595.html . 
+
+fuzzo was right. you have a USER environment  variable. now you have to add a NEW systems environment variable.  the variable & it's value should be the same as the one in the User Environment Variable.
+
+you should be set after that"

@@ -1,0 +1,33 @@
+Tag&Rename is a handy utility designed for music files management. With Tag&Rename you can quickly and easily rename your music collection using the embedded tag data, write new or edit existing tag information, create tags based on file names, get songs information from freedb/amazon.com servers and mach more.
+Tag&Rename supports many additional tag fields including lyrics, cover art, rating, mood, disc #, part of a compilation, album artist, classical music fields (Composer, Conductor, etc.), file related URL's and so on.
+Tag&Rename now support: mp3 (ID3v1, ID3v2.2, ID3v2.3 and ID3v2.4 tags), MusePack mpc/mp+ (APEv1, APEv2 and ID3v1 tags), Windows Media - wma, asf and wmv files, Ogg Vorbis/Flac/Speex (vorbis comments), Apple iTunes and iPod aac (m4a) files including mp4, lossless m4a and protected m4p files, most popular lossless codecs including Monkey?s Audio, Flac, Wav Pack, Optim Frog, True Audio, Apple and Windows Media lossless formats. Tag&Rename include full Unicode support.
+
+Tag&Rename features:
+? Renamer for mp3, ogg, wma, m4a, mp4, flac, ape and wav files: easily rename files individually or whole directories at a time, preview changes before renaming or undo the last renaming process, rename the folder (including sub folders) containing your music files, and manually edit files and folders names.
+? Multi-file or manual tag editors: edit tags for multiple or single mp3/wma/ogg/m4a/mp4/ flac/ape files, fill-in tag fields using the file name.
+? Freedb support: Gets tag information for full music albums in seconds using the freedb Internet server.
+? Amazon.com support: search and import album information and cover art from the amazon.com, amazon.co.uk and amazon.de servers to files tags.
+? Text case conversion functions: convert case or capitalize the first letter of each word within file names or tags.
+? Support for: mp3 (ID3v1, ID3v2.2, ID3v2.3 and ID3v2.4 including ANSI, Unicode and UTF8 encoded tags), MusePack mpc/mp+ (APEv1, APEv2 and ID3v1 tags), Windows Media wma, asf and wmv files, Ogg Vorbis/Flac/Speex (vorbis comments), Apple iTunes and iPod aac (m4a) files including mp4, lossless m4a and protected m4p files, most popular lossless codecs including Wav, Monkey's Audio, Flac, Wav Pack, Optim Frog, True Audio, Apple and Windows Media lossless.
+? Rename folders with music according to it files tag information.
+? Tags synchronization wizard: you can synchronize ID3v1 and ID3v2 tag data.
+? Export wizard can export your music information into any format (csv, xml, html and tab delimited text).
+? M3u playlists: create m3u play lists using the unique Quick Save Playlist feature.
+? Play music files: listen to your music files using your favorite music player.
+? Full support for files drag and drop.
+? Full Unicode support.
+? Explorer shell extensions: Tag&Rename can be added to the context menu of MS Explorer so that you can access T&R faster (right-click mouse) from the MS File Manager.
+
+Changes in Tag&Rename v3.4 (12/05/2007):
+* minor bugs fixed
+
+Changes in Tag&Rename v3.4 beta 2 (10/24/2007):
+* Tag&Rename can work in portable mode now (portable option in installation)
+* some bugs fixed
+
+Changes in Tag&Rename v3.4 beta 1 (10/04/2007):
+* "Rename Actions" added: now both album files and folders can be renamed in one click
+* added ability to import album information from TrackType.org server
+* "Show ID3v1/ID3v2 tag is not present indicator" file list option added
+* minor improvements in ID3v2.4 support
+

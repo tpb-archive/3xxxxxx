@@ -1,0 +1,70 @@
+﻿User Type,Username,Date,Text
+,faibs,2008-02-11T11:18Z,Is this the FULL version or simply an update?
+,quebec001,2008-02-16T17:50Z,just reading description on top
+,da_murphster,2008-02-21T21:09Z,New to this but when installed I get a garmin screen.....then nothing.  Back to the applications screen on my N95
+,Balkar,2008-03-15T02:12Z,"An educated guess from me would be that this is either 
+A: Not for PPC
+B: AN update since the file is only 13.32 mb. I downloaded the full file from a website from megauploads and the file was 50megb... As I said THIS IS JUST A GUESS..."
+,Newb787,2008-05-11T00:54Z,"I am puzzled here.  There are free updates and faster on Garmin's website.  This looks to be the same app. Link to Garmin is here: 
+http://www8.garmin.com/support/download_details.jsp?id=3651
+http://www8.garmin.com/support/download_details.jsp?id=3645
+http://www8.garmin.com/support/download_details.jsp?id=3493"
+,kolev79,2008-05-12T13:04Z,I have downloaded Garmin Mobile XT and installed it on my Nokia N73 as well as on the older N70 but when I load it and try to connect to an external BT-541 or iBT-GPS I get a message saying that no GPS device was found. I have already paired the BT device with the phone and there appears to be no problem with it. I am wondering if anybody can give me an idea how to make the Garmin software detect the GPS device. I would appreciate it! 
+,Hatecomplications,2008-05-14T04:22Z,"Ok, guys.  Please share on how to fix this issues. There are lots of conflicting info floating around on getting the maps installed, largely to do with the different models and many a-holes who don't want to share their info or their how they troubleshooted their problems in getting this to work with the INTERNAL GARMIN GPS.
+
+These are the issues I have come across or read about: I have the N95-4 (8GB):
+
+1. XT Software- 4.60 needs to be installed. Various incomplete versions floating around. The one from Garmin website is an update and as it says, it does not install the voice and other features. The N95 needs the XT software. There are no instructions on how install the XT software or the correct links with the full and updated version of XT. Downloading Garmin XT apps is hit and miss.
+
+2. Although not mentioned in any install.txt or readme file that you may download. You do need an IMEI to card converter if your N95 doesnt have an SD card slot. 
+
+3. Jetmouse aka keygenerator needs the card ID to run to generator unlock codes for both the maps to be transfered and/or for the internal GPS to be unlocked.
+
+4. Help and instructions on how to get these apps to run on the N95-4, the newest N95 to hit North America is scare, confusing, and limited, perhaps in a few months or so, there will be some kind and generous souls to provide complete step by step instructions from downloading and installing the right Garmin XT files and transferring the maps to the N95 including any troubleshooting tips.
+
+If anyone wants to share their info and tips, please do so and help the community out"
+,yurre,2008-06-06T13:08Z,Does anyone know if this program work with my SE w910i ?
+,kapechoo,2008-07-01T03:26Z,"Hey JetMouse,
+Can you make a keygen for AeroPalm? Thx"
+,DeMandolorian,2008-07-15T04:04Z,Has anyone got this to work for N95 yet?
+,MetricRyan,2008-08-24T19:42Z,"can someone please explain how to get started on this, is there someone who has been running it on the phone N95 ther older version ....
+
+Plz share and tell
+
+thanks "
+,endoftheline314,2008-09-24T12:35Z,"1. unzip whatever needs to be unzipped and copy the folder 'garmin' onto your memory card (N95) or copy it via USB directly to the phones mass storage. do not copy this file or the keygen
+
+2. Disconnect phone from pc, or insert the memory card back into the phone then navigate to the garmin folder using the phone's file browser and run the garminxt.sis, this will install the aplication to the applications directory on your phone.
+
+3. when installed (may take a couple of minutes) goto aplications folder and start garminxt.
+
+4. open settings/about
+
+5. Make note of your ""Card ID"" and quit the application.
+
+6. Launch the keygen, and enter the ""Card ID"" you saw on GMXT About page.
+
+7. On the keygen, under 'select map product' chose 'custom map set' with MapID:197 for the UK and IRL maps included here.
+
+8. Hit both generate buttons.
+
+9. Copy the Device unlock code to clipboard. (select the text with the mouse, press Ctrl+C)
+
+10. Now open Notepad and paste (CTRL+V) the key into the window. select Save As...
+
+11. Chose save type as 'All Files' and save the file as SW.UNL, it is important that the file is called SW.UNL and not SW.UNL.txt
+
+12. Open Notepad again and create another file containing the map unlock code, save this as GMAPSUPP.UNL using the same technique
+
+13. Copy both these files to the recently created garmin folder on your phone, overwriting if necessary.
+
+14. The maps should now be unlocked, to get the software to recognise your internal GPS you may have to go to settings\system and choose ""connected gps"" or some such."
+,ScYm,2008-10-02T07:31Z,"To those who has an N95 8GB and cannot unlock the internal gps:
+
+You cannot use the garmin install provided by the torrent.  You'll have to get the most updated S60 version from Garmin and install the application first.  You must have the IMEI to card converter for the card id, the one provided on the about page is wrong.  After you have the id from the converter, simply follow the steps on how to use the code generator and paste the 2 files on the garmin folder after you have done.  You should be able to unlock the internal GPS.  For the maps, simply download them from the torrent and upload it to your phone using map loader.  Hope this helps for N95 8GB users."
+,black.sun.rider,2008-11-01T02:53Z,"Downloaded and unzipped the files but can't find the GarminMobileXT.sis file in any of the folders or sub-folders.
+
+Can anyone help? Thanks!"
+,Shanyiee,2008-11-26T12:28Z,"where tha fakk i see the 
+"" GarminMobileXT.sis ""
+that isn't in the torrent! :@"

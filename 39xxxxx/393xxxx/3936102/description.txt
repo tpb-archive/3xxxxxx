@@ -1,0 +1,53 @@
+Borg Number One's BIOS-Tool-Collection (RELOADED! - After A Year Of Absence!)
+	[BNOBTC] - Version 6.00.01 (Build 20071026)
+
+Changes:
+
+Other (+/-):
+	1-Revamped file structure
+
+	2-Unified many folders
+
+
+Removed (-):
+
+	1-All German files in root directory except important notes one
+
+	2-LogoGenie
+
+
+Added (+):
+
+	1-Phoenix BIOS Editor Pro 2.2
+
+	2-WinPhlash 1.6560
+	
+	3-BIOS Agent 3.66
+	
+	4-ITK (Intel Integrator ToolKit) 3.1.1.136
+		Works only with:
+		-IntelÂ® 915 Express Chipset family (exceptions noted below)
+		-IntelÂ® 875 chipset family
+		-IntelÂ® 865 chipset family
+		-IntelÂ® Desktop Board D955XCS
+		-IntelÂ® Desktop Board D955XBC
+	
+	5-ITK (Intel Integrator ToolKit) 3.3.0.183
+		Works only with:
+		-IntelÂ® 975 Express Chipset family
+		-IntelÂ® 965 Express Chipset family
+		-IntelÂ® 963 Express Chipset family
+		-IntelÂ® 946 Express Chipset family
+		-IntelÂ® 945 Express Chipset family
+		-IntelÂ® G31 Express Chipset family
+		-IntelÂ® G33 Express Chipset family
+		-IntelÂ® P35 Express Chipset family
+		-IntelÂ® Q35 Express Chipset family
+		-IntelÂ® Desktop Board D915GVWB
+		-IntelÂ® Desktop Board D910GLDW
+		-IntelÂ® Desktop Board D201GLY (non-Intel chipset)
+		-IntelÂ® Desktop Board D102GGC2 (non-Intel chipset)
+		-IntelÂ® Desktop Board SE7230-NH (non-Intel chipset)
+
+
+

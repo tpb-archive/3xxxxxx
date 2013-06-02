@@ -1,0 +1,46 @@
+This torrent contains everything you need to get Apache, PHP and MySQL running on Windows.  Both 32 and 64 bit versions of MySQL are included here.
+
+
+Apache, PHP and MySQL (Windows)
+Win32
+|
+--Apache
+    	apache_2.2.6-win32-x86-no_ssl.msi
+	apache_2.2.6-win32-x86-no_ssl.msi.asc
+	apache_2.2.6-win32-x86-openssl-0.9.8e.msi
+	apache_2.2.6-win32-x86-openssl-0.9.8e.msi.asc
+|
+--PHP
+	pecl-5.2.5-nts-Win32.zip
+	pecl-5.2.5-Win32.zip
+	php-5.2.5-nts-Win32.zip
+	php-5.2.5-win32-installer.msi
+	php-5.2.5-Win32.zip
+	php_manual_chm.zip
+	php_manual_en.html.gz
+
+|
+--MySQL
+	mysql-5.1.22-rc-win32.zip
+	mysql-5.1.22-rc-win32.zip.asc
+	mysql-essential-5.1.22-rc-win32.msi
+	mysql-essential-5.1.22-rc-win32.msi.asc
+	mysql-gui-tools-5.0-r12-win32.msi
+	mysql-gui-tools-noinstall-5.0-r12-win32.zip
+	mysql-noinstall-5.1.22-rc-win32.zip
+	mysql-noinstall-5.1.22-rc-win32.zip.asc
+	mysql-proxy-0.6.0-win32-x86.tar.gz
+	mysql-proxy-0.6.0-win32-x86.tar.gz.asc
+	mysql-workbench-oss-5.0.11a-beta-win32-noinstall.zip
+	mysql-workbench-oss-5.0.11a-beta-win32.msi
+	refman-5.1-en.html-chapter.zip
+
+Win64
+|
+--MySQL
+	mysql-5.1.22-rc-winx64.zip
+	mysql-5.1.22-rc-winx64.zip.asc
+	mysql-essential-5.1.22-rc-winx64.msi
+	mysql-essential-5.1.22-rc-winx64.msi.asc
+	mysql-noinstall-5.1.22-rc-winx64.zip
+	mysql-noinstall-5.1.22-rc-winx64.zip.asc

@@ -1,0 +1,28 @@
+﻿User Type,Username,Date,Text
+,olmayanaergi,2008-01-11T07:48Z,@lkt1827 seed pls
+,sharkey147,2008-04-16T07:02Z,"
+What did you create the image with?
+I ask because there are 2 diferent DSR methods.
+
+Check out http://www.goodells.net/dellrestore/fixes.htm
+
+Some systems use a Dell specific restore method and others use a Norton Ghost System. The Ghost based system is tweekable. It seems that the Dell system is not so easy to modify.
+
+cheers"
+,lkt1827,2008-07-06T02:10Z,"sorry about my english.
+
+This image i'm test goodwork on some laptop DELL system.
+
+I'm clone only dellRestore Partition.
+
+To create image for Dellrestore you must use GHOST8.3 for DOS. The name of image ""FI.GHO"".
+
+If dell DSR error. Try search DSRFIX to fix your MasterBoot in your dell system."
+,lkt1827,2008-07-06T02:14Z,"i'm make this image to change old model dell use ghost 8.3 to GHOST10 system restore. 
+
+It same Partition. But Restore ghost 8.3 use 16bit OS for work. Ghost 10 use 32bit OS. And 2 method work good on FAT32 Partition.
+
+But when use this image you can't create restorepoint. "
+,ShareKeys2,2009-08-06T19:25Z,"Please seed..
+
+Thank you"

@@ -1,0 +1,185 @@
+Exact Audio Copy V0.99 prebeta 3 from 28. July 2007
+
+EAC extraction logfile from 23. December 2007, 13:50
+
+Mannheim Steamroller / A Fresh Aire Christmas
+
+Used drive  : SONY    DVD RW DW-D26A   Adapter: 1  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : Yes
+
+Read offset correction                      : 12
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : No
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Not detected, thus appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 768 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:Program FilesExact Audio CopyFLACFLAC.EXE
+Additional command line options : -8 -A tukey(0.25) -A gauss(0.1875) -V -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.32 |  1:26.55 |        32    |     6536   
+        2  |  1:27.12 |  3:32.00 |      6537    |    22436   
+        3  |  4:59.12 |  4:16.70 |     22437    |    41706   
+        4  |  9:16.07 |  3:00.73 |     41707    |    55279   
+        5  | 12:17.05 |  4:12.70 |     55280    |    74249   
+        6  | 16:30.00 |  3:42.67 |     74250    |    90966   
+        7  | 20:12.67 |  2:26.38 |     90967    |   101954   
+        8  | 22:39.30 |  2:46.15 |    101955    |   114419   
+        9  | 25:25.45 |  3:29.30 |    114420    |   130124   
+       10  | 28:55.00 |  3:53.62 |    130125    |   147661   
+       11  | 32:48.62 |  3:36.68 |    147662    |   163929   
+       12  | 36:25.55 |  5:22.57 |    163930    |   188136   
+
+
+Track  1
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerA Fresh Aire ChristmasMannheim_Steamroller_-_A_Fresh_Aire_Christmas_-_01_-_Hark!_The_Herald_Trumpets_Sing.wav
+
+     Peak level 57.6 %
+     Track quality 100.0 %
+     Test CRC 16C5AF1E
+     Copy CRC 16C5AF1E
+     Accurately ripped (confidence 3)  [5E4FF58B]
+     Copy OK
+
+Track  2
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerA Fresh Aire ChristmasMannheim_Steamroller_-_A_Fresh_Aire_Christmas_-_02_-_Hark!_The_Herald_Angels_Sing.wav
+
+     Peak level 71.4 %
+     Track quality 100.0 %
+     Test CRC 796EDCEF
+     Copy CRC 796EDCEF
+     Accurately ripped (confidence 3)  [14BB9200]
+     Copy OK
+
+Track  3
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerA Fresh Aire ChristmasMannheim_Steamroller_-_A_Fresh_Aire_Christmas_-_03_-_Veni_Veni_(O_Come_O_Come_Emanuel).wav
+
+     Peak level 53.3 %
+     Track quality 100.0 %
+     Test CRC 7E48EFD5
+     Copy CRC 7E48EFD5
+     Accurately ripped (confidence 3)  [6DDF3FAA]
+     Copy OK
+
+Track  4
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerA Fresh Aire ChristmasMannheim_Steamroller_-_A_Fresh_Aire_Christmas_-_04_-_The_Holly_And_The_Ivy.wav
+
+     Peak level 45.4 %
+     Track quality 100.0 %
+     Test CRC ACE2FC55
+     Copy CRC ACE2FC55
+     Accurately ripped (confidence 3)  [CE5DFAA2]
+     Copy OK
+
+Track  5
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerA Fresh Aire ChristmasMannheim_Steamroller_-_A_Fresh_Aire_Christmas_-_05_-_Little_Drummer_Boy.wav
+
+     Peak level 92.0 %
+     Track quality 100.0 %
+     Test CRC 1D10507A
+     Copy CRC 1D10507A
+     Accurately ripped (confidence 3)  [00DD79DC]
+     Copy OK
+
+Track  6
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerA Fresh Aire ChristmasMannheim_Steamroller_-_A_Fresh_Aire_Christmas_-_06_-_Still,_Still,_Still.wav
+
+     Peak level 46.4 %
+     Track quality 100.0 %
+     Test CRC DD855F34
+     Copy CRC DD855F34
+     Accurately ripped (confidence 3)  [B05DAEBF]
+     Copy OK
+
+Track  7
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerA Fresh Aire ChristmasMannheim_Steamroller_-_A_Fresh_Aire_Christmas_-_07_-_Lo_How_A_Rose_E'er_Blooming.wav
+
+     Peak level 65.2 %
+     Track quality 100.0 %
+     Test CRC BE65FB71
+     Copy CRC BE65FB71
+     Accurately ripped (confidence 3)  [21D423DC]
+     Copy OK
+
+Track  8
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerA Fresh Aire ChristmasMannheim_Steamroller_-_A_Fresh_Aire_Christmas_-_08_-_In_Dulci_Jubilo.wav
+
+     Peak level 47.8 %
+     Track quality 100.0 %
+     Test CRC 279397EA
+     Copy CRC 279397EA
+     Accurately ripped (confidence 3)  [6130DD36]
+     Copy OK
+
+Track  9
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerA Fresh Aire ChristmasMannheim_Steamroller_-_A_Fresh_Aire_Christmas_-_09_-_Greensleeves.wav
+
+     Peak level 45.4 %
+     Track quality 99.8 %
+     Test CRC C48BC4D6
+     Copy CRC C48BC4D6
+     Accurately ripped (confidence 3)  [233649DF]
+     Copy OK
+
+Track 10
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerA Fresh Aire ChristmasMannheim_Steamroller_-_A_Fresh_Aire_Christmas_-_10_-_Carol_Of_The_Bells.wav
+
+     Peak level 69.6 %
+     Track quality 100.0 %
+     Test CRC 92BD22BF
+     Copy CRC 92BD22BF
+     Accurately ripped (confidence 3)  [E896F0CE]
+     Copy OK
+
+Track 11
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerA Fresh Aire ChristmasMannheim_Steamroller_-_A_Fresh_Aire_Christmas_-_11_-_Traditions_Of_Christmas.wav
+
+     Peak level 32.2 %
+     Track quality 100.0 %
+     Test CRC 72DCA8CF
+     Copy CRC 72DCA8CF
+     Accurately ripped (confidence 3)  [0B15B5B6]
+     Copy OK
+
+Track 12
+
+     Filename Z:roxaudiomusicflacMannheim SteamrollerA Fresh Aire ChristmasMannheim_Steamroller_-_A_Fresh_Aire_Christmas_-_12_-_Cantique_De_Noel_(O_Holy_Night).wav
+
+     Peak level 64.3 %
+     Track quality 100.0 %
+     Test CRC 4CA281CE
+     Copy CRC 4CA281CE
+     Accurately ripped (confidence 3)  [FFD5EEF7]
+     Copy OK
+
+
+All tracks accurately ripped
+
+No errors occurred
+
+End of status report

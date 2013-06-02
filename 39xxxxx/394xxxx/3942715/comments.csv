@@ -1,0 +1,39 @@
+﻿User Type,Username,Date,Text
+,XxRaVeNxX,2007-12-21T17:37Z,"Seems there was a ""problem,"" last time this was uploaded a while back...problem has been resolved...my bad.."
+,chuckstaton,2008-02-06T05:33Z,"I followed the instructions accompanying this EXACTLY and the dvd will not boot.
+
+If anyone HAS got this working. Tell me if I did anything wrong:
+I downloaded the rar. Extracted it. I put Xmugen on my Xbox, under E:/Games/xmugen.
+When I run it (with only one character, Sol), it works fine.
+I add a character (add him to the ""char"" folder, add him to ""select.def""), and it works fine.
+So I copy that exact set-up to the ""datafiles"" folder (and I replace the ""chars"", ""sound"", ""data"" and ""stages"" folders with fully-packed folders) delete ""mugenboot.cfg"" from my old set-up, and move ""default.xbe"" to outside the ""datafiles"" folder, with the new ""mugenboot.cfg"". I add
+So now I run ""xboxmugen.bat"" to create the ISO.
+I creat it, and burn it with IMGBurn to a DVD-R.
+The system reads the DVD-R, loads all the text, goes to the first ""Now Loading"" screen, goes to the ""Electrobytes"" screen"", then gets to the second ""Now Loading"" screen, and I just hear the disk spinning, and spinning, and spinning.
+I followed the directions included with the files EXACTLY. Can anyone tell me what I'm doing wrong?
+
+NOTE: If I keep my E/Games/xmugen set up in my xbox, then run the DVD, it takes me to my E/Games version, and not the DVD version."
+,jeezy103,2008-02-14T21:11Z,"ftp-ed everything to the F:\Games folder,  ....given this wont fit in E:\games due to space constraints....
+But after booting through unleashx i keep getting this whole line of text and an ""Kernel Panic: Attempted to Kill Init!"" error.....
+any insights folks>>>???"
+,jeezy103,2008-02-15T17:12Z,"although i do commend this guy for his effort, a step by step procedure would aswell go a long way....
+ive put this in my f: Games partition but it says
+
+""static/ash : can't access tty, job control turned off
+joy@key -joystick one to keys
+using parameters.
+joy2key2 - joystick two to keys.
+using parameters."" 
+I rebooted with either 1 or 2 joysticks plugged in, but nothing....please it's been 2 days of work, with yet no results...HELP......... "
+,otakujo,2008-03-01T07:40Z,seems like all you may need to edit is one of the .ini files yeah?
+,otakujo,2008-03-02T00:13Z,"Ok i am getting the same error chuckstaton is getting. For xbox 1 search for torrent ""xmugen XTREME EDITION DVD9 and HDD VER"" this one seems to have been tested and comes with instructions."
+,jeezy103,2008-03-02T19:32Z,"yeshuachrist's torrent is the real deal..im happy to confirm that it works...(the hdd pack atleast)
+but why am i the only one(with him) seeding......???  i suggest he pausses DLs above 90% just so many more could seed.....any ideas??"
+,himan95,2008-04-12T23:39Z,yeshuachrist you did a so good job !
+,himan95,2008-04-15T23:18Z,I found  : joy2key
+,Saidor,2008-11-30T00:52Z,You will include distribution please
+,Tox-Icon,2010-06-22T13:06Z,"Thanks .
+
+If anyone can seed it ll be great . 
+
+See you ;)"

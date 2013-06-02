@@ -1,0 +1,21 @@
+RT3 v5.5d b595 cdrom
+
+Use this version only on VAN bus cars (807, C8, Phedra, Ulysse, C5 I, 307 I). Check your current software version. If you're running 5.X than use this cdrom to update.
+
+Steps to install:
+
+    * Unzip the downloaded file. You'll get four files ( rt3595.sub, rt3595.ccd, rt3595.img, rt3595.cue)
+    * As this is a CD image you need to burn the rt3595.img file as an CD image using e.g. Nero. (see here)
+    * Your final CD should conatin 85 files.
+
+Upgrade at your own risk
+
+If you want to update your RT3 yourself, you should follow these simple rules, because else you can damage your RT3:
+
+1. Keep the engine running! A shutdown during update (either due to a low battery and car switching to eco mode) will damage you RT3!
+
+2. Eject the SIM card as an incoming call can do the same!
+
+
+
+Only update within your major version number (5.x/6.x). Never try to update from 5.x to 6.x as you'll damage your RT3!

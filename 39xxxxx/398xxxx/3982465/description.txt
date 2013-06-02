@@ -1,0 +1,1514 @@
+**********************************************************************
+IBM DCE Client including DFS for OS/2 Warp
+
+Licensed Materials - Property of IBM
+(c) Copyright IBM Corp. and others 1980,1996.
+All rights reserved.
+IBM is a registered trademark of International Business Machines Corp.
+
+**********************************************************************
+
+                       OS/2 DCE 2.1 - README
+
+**********************************************************************
+
+Welcome to DCE 2.1 for OS/2!
+
+This file contains information you need to install OS/2 DCE 2.1,
+and additional information not included in the product documentation.
+
+This README file is divided into the following categories:
+   -  Installing and Configuring DCE
+   -  OS/2 Fixpack information
+   -  Configuring DFS on a Slim Client
+   -  Application Development Environment
+   -  Notes for DCE Users
+      -Config/Unconfig/Environment set up
+      -Directory Service
+      -Security Service
+      -Remote Procedure Call
+      -Distributed Time Service
+      -DCED (The Security Client)
+      -DCECP
+      -Distributed File Service (DFS)
+      -Intercell Setup
+      -Start/Stop DCE
+      -Serviceability
+      -Internationalization
+      -MOCL(Management Object Class Library)
+      -EMS (Event Management Service)
+      -DCE Admin GUI
+      -DFS GUI
+      -Others
+   -  Problem Determination
+   -  Limitations
+   -  Publication Information
+
+Installing and Configuring DCE
+==============================
+
+DCE install should setup most of the necessary environment variables
+and paths to allow you to run DCE. Please see the Getting
+Started book (Chapter 7,8) for more detailed information
+about how to install and configure DCE. The Getting Started
+book is located in the /pubs directory (DCEGETST.INF
+and DCEGETST.PS).
+
+There is a variable in your config.sys called "THREADS", whose
+default value is 256. This value needs to be set to at least 1024
+on DCE Clients, and 2048 on DCE Servers. The "THREADS" variable
+tells OS/2 the maximum number of threads that can be created.
+
+If you want to use response files to configure DCE, you should
+include the drive and path when specifying your response file names.
+If you do not include the drive and path specification, you might
+receive an error message that your response files could not be found.
+
+OS/2 DCE supports 3 protocol sequences, ncacn_ip_tcp,
+ncadg_ip_udp, and ncacn_nb_stream.  The first two require
+TCP/IP network interfaces to be configured.
+
+OS/2 DCE fully supports the following TCP/IP network interfaces:
+
+=> lan0 - lan7
+
+This is for TCP/IP over LAN adapters.  Only Token Ring and
+Ethernet adapters have been tested.  The list of tested LAN
+adapters is published separately.
+
+=> sl0
+This is the SLIP interface for TCP/IP over a serial line.
+
+Other TCP/IP network interfaces are not explicitly 
+supported. The RPC_UNSUPPORTED_NETIFS environment variable 
+is to be used in situations where TCP/IP network interfaces are
+configured which you do not want DCE to use.
+
+For example, to exclude the sna0 network interface on a 
+machine which has Sockets over SNA installed and configured, 
+use the RPC_UNSUPPORTED_NETIFS environment variable to cause 
+OS/2 DCE to skip the sna0 network interface.
+
+Another example would be when a server has a second network
+adapter on a isolated LAN.  You do not want that network
+interface to be put into the namespace, since no one can
+reach the server via that interface.
+
+To cause OS/2 DCE to skip a network interface, set the
+RPC_UNSUPPORTED_NETIFS environment variable in CONFIG.SYS
+and reboot the machine, BEFORE installing and configuring
+OS/2 DCE.
+
+Examples:
+SET RPC_UNSUPPORTED_NETIFS=sna0   or
+SET RPC_UNSUPPORTED_NETIFS=lan1:sna0
+
+OS/2 Fixpack information
+========================
+
+In most countries, DCE requires Warp Fixpack 21 or later when you
+install DCE on Warp, Warp Connect or Warp Server. A Fixpack
+21 CD-ROM is included in the box for your convenience. A one page
+insert tells you how to install the Fixpack.
+
+If your country or language is not on the Fixpack 21 CD-ROM, please
+contact your IBM service representative for information.
+
+
+Configuring DFS on Slim Client
+==============================
+
+When your DCE host is configured as a DCE Slim Client, the DFS Client is
+configured through a separate utility.
+
+In the "DCE Services" folder, you can configure the DCE Slim Client
+with "Configure DCE Services."  You can then configure the DFS Client
+by selecting "Configure DFS for Slim Client."  You will be prompted
+for configuration information.  You can accept the defaults for all
+configuration entries.  Help is available for any configuration
+option presented.
+
+"Configure DFS for Slim Client" does not start the DFS Client.
+After DFS for Slim Client configuration is successful, start
+the DFS Client by reselecting "Start DCE" or by running either
+"dcestart" or "dcestart dfs_client" from the command line.
+
+You can unconfigure DFS using the "Unconfigure DFS for Slim Client"
+object.  This option is available unless the full DCE Client is
+configured.
+
+Note: to configure or unconfigure the DFS Client for the full DCE
+Client configuration, use the "Configure DCE Services" object.
+
+
+Application Development Environment
+===================================
+The DCE Toolkit contains the DCE include files, the DCE program
+development tools and  DCE Examples. The DCE Toolkit can be 
+installed via the DSS Toolkit Install Program. You can install 
+the DSS Toolkit as follows:
+
+  1)  Insert the DSS CD-ROM
+  2)  At the OS/2 command prompt, change to the CD-ROM drive
+      and change directory to TOOLKIT
+  3)  Type "INSTALL" and press ENTER.
+
+The DSS toolkit install program will present a menu to guide
+the installation.
+
+The DCE Toolkit and DCE Examples can only be installed on a
+HPFS partition. The installation program will fail when trying
+to install the DCE Toolkit and DCE Examples on a FAT partition.
+
+THE DCE Application Development books can be viewed from the
+DSS CD_ROM by typing  "view file_name" while in the
+TOOLKITPUBS directory.
+
+The following DCE Examples are provided:
+    1) acl manager        --->  optdcelocalexamplesacl_mgr
+    2) bank               --->  optdcelocalexamplesbank
+    3) context_app        --->  optdcelocalexamplesdemocontext_app
+    4) data_test_app      --->  optdcelocalexamplesdemodata_test_app
+    5) sample             --->  optdcelocalexamplesdemogeneric_app
+    6) ems                --->  optdcelocalexamplesems
+    7) binop              --->  optdcelocalexamplespubsbinop
+    8) dts sample         --->  optdcelocalexamplespubsdtssamp
+    9) greet (4)          --->  optdcelocalexamplespubsgreet
+   10) prime              --->  optdcelocalexamplespubsprime
+   11) string-tree        --->  optdcelocalexamplespubsstrtree
+   12) password strength  --->  optdcelocalexamplespwdstren
+   13) hello_svc          --->  optdcelocalexamplessvchello_svc
+   14) timop_svc          --->  optdcelocalexamplessvctimop_svc
+   15) timop              --->  optdcelocalexamplestimop
+   16) type manager       --->  optdcelocalexamplestype_mgr
+   17) xds/xom            --->  optdcelocalexamplesxdsxom
+
+The DCE Examples were tested with the IBM C Set/2 Version
+2.01 Compiler, the IBM VisualAge C++ Compiler, the Borland C++ 2.0
+Compiler and the Watcom C/C++ for OS/2 10.5 compiler. The
+examples were also tested with the IBM Warp 3.0 Toolkit.
+
+Please pay *close* attention to the compiler and linker flags used
+in the examples that are shipped with this product. These are the
+same compiler and linker flags that you should use for your
+application development. One of the compiler flags that MUST be
+specified is -Su4. You may encounter various problems with RPC
+runtime and security APIs if you do not specify this compiler
+option in your Makefile.
+
+For more information on the DCE Examples, please see the main
+DCE Examples Readme located in optdcelocalexamples.
+
+Notes for DCE Users
+===================
+
+Config/Unconfig/Environment Setup
+---------------------------------
+
+*Use the following procedure if you need to change the IP address
+ of a machine configured as a CDS and/or a Security server.
+
+    1) Remove knowledge of the clearinghouse on the machine.  It is
+       reinstated after the IP address is changed.  If you do not know the
+       name, use the cdscp show cell /.: command to get it.
+ 
+       cdscp clear clearinghouse /.:/<host_ch>
+ 
+       Note: If you have difficulty with this command, type the cdscp
+       clearinghouse commands while cdsd is initializing itself.  This is
+       done by using another window to stop the running cdsd.  When you
+       restart the cdsd, type the cdscp command from your authenticated
+       window while cdsd is coming up.
+ 
+    2) Stop all DCE daemons on the machine:
+ 
+       dcestop
+ 
+    3) Remove the endpoint database.  It is recreated on restart:
+ 
+       erase  <x>:optdcelocalvardcedEp.db
+ 
+       where x is the drive where DCE is installed.
+ 
+    4) Remove the clerk cache.  It is recreated on restart:
+ 
+       cd <x>:optdcelocalvaradmdirectorycds
+       erase cdsclerk_*
+       erase cdscache.ver
+       erase cdscache.nnn (nnn is a 3 digits number)
+ 
+    5) Edit the <x>:optdcelocaletcsecuritype_site file to reflect the
+       new address so that security can start.
+ 
+    6) Remove old credentials:
+ 
+       cd <x>:optdcelocalvarsecuritycreds
+       erase *
+ 
+    7) Change the IP address on your system and reboot. Start the DCE daemons:
+ 
+       dcestart
+ 
+       The gdad and dtsd daemons do not come up since CDS is not completely
+       functional yet. Start these daemons after the conversion process is
+       completed.
+ 
+    8) Since CDS is not available, use the BIND_PE_SITE environment
+       variable for security with the following commands:
+ 
+       SET BIND_PE_SITE=1
+       dcelogin cell_admin
+ 
+    9) Identify to CDS the clearinghouse it is to manage (ensure that you
+       use the same name as in the previous 'clear clearinghouse' command ):
+ 
+       cdscp create clearinghouse /.:/<host_ch>
+ 
+       Note: If you have difficulty with this command, type the cdscp
+       clearinghouse commands while cdsd is initializing itself.  This is
+       done by using another window to stop the running cdsd.  When you
+       restart the cdsd, type the cdscp command from your authenticated
+       window while cdsd is coming up.  This command may appear to
+       fail.  Reissue the create command.  If the message "Specified
+       full name already exists" is displayed, the command was successful.
+ 
+   10) Because the CDS server was not aware of its clearinghouse when
+       it was started, the cdsadv process is also unaware of the
+       existence of this clearinghouse.  Rebuild the clerk cache:
+ 
+       dcestop cdsd
+       cd <x>:optdcelocalvaradmdirectorycds
+          /* <x> is the drive where DCE is installed*/
+       erase cds_cache.* cdsclerk_*
+       dcestart cdsd
+ 
+       The CDS and Security servers are now reconfigured to use the new IP
+       address. Type the following commands at the OS/2 command prompt:
+ 
+       SET BIND_PE_SITE=
+       dcelogin cell_admin
+ 
+   11) Verify that you can now successfully access the namespace:
+ 
+       cdsli -o
+       /.:/cell-profile
+       /.:/fs
+       /.:/lan-profile
+       /.:/sec
+ 
+   12) Update the server self entry in CDS:
+ 
+       rpccp unexport -i e1af8308-5d1f-11c9-91a4-08002b14a0fa,3.0 
+                /.:/hosts/<server_name>/self
+ 
+       rpccp export -i e1af8308-5d1f-11c9-91a4-08002b14a0fa,3.0 
+                -b ncadg_ip_udp:<new_ip_addr>[135] 
+                /.:/hosts/<server_name>/self
+ 
+  This completes the server portion of the IP address change procedure.
+
+  Use the following procedure on each DCE client in your cell if
+  the IP address of a machine configured as a CDS and/or a Security
+  server has changed.
+
+    1) Stop all DCE daemons on the machine:
+
+       dcestop
+
+    2) Remove the clerk cache since it has references to the CDS server's old
+       IP address. The cache will be recreated on restart:
+
+       cd <x>:optdcelocalvaradmdirectorycds
+       erase cds_cache.* cdsclerk_*
+ 
+    3) Change the <x>:optdcelocaletcsecuritype_site file so that
+       the security client can find the security server on restart.
+ 
+    4) Remove the security credentials:
+ 
+       cd <x>:optdcelocalvarsecuritycreds
+       erase *
+
+    5) Start the DCE daemons:
+
+       dcestart
+
+    6) Since CDS access is not restored yet, set the BIND_PE_SITE
+       variable:
+
+       SET BIND_PE_SITE=1
+       dcelogin cell_admin
+
+    7) Inform the cdsadv process of the new IP address for the CDS server:
+
+       cdscp define cached server <server_name> tower
+
+    8) At this point, the client is fully aware of the server's new IP address:
+
+       SET BIND_PE_SITE=
+
+    9) Update client's self entry in CDS: (this step not required for slim
+       clients)
+  
+       rpccp unexport -i e1af8308-5d1f-11c9-91a4-08002b14a0fa,3.0 
+                 /.:/hosts/<client_name>/self
+  
+       rpccp export -i e1af8308-5d1f-11c9-91a4-08002b14a0fa,3.0 
+                 -b ncadg_ip_udp:<new_ip_addr>[135] 
+                 /.:/hosts/<client_name>/self
+
+   This completes the client portion of the server IP address change
+   procedure.
+
+*If you change the IP address of your DCE server, the config GUI
+ might think your Security Master Server was a Security Replica Server.
+ The problem is with machines which have TCPIP 2.0 or 2.1.
+ You can use syslevel to see what you have. On machines with TCPIP 2.0
+ SETUP.CMD is kept in 2 places, TCPIPBIN and MPTNBIN. If you had
+ just the TCPIP product installed, it would be TCPIPBIN. Once MPTS
+ is installed and configured, MPTS config will copy SETUP.CMD to
+ MPTNBIN. In this case, MPTS config will not allow you to configure
+ TCPIP addresses through the MPTS GUI but will depend on the TCPIP
+ 2.0 config program (TCPIPCFG) to do it. However TCPIPCFG does not
+ know about the copy of SETUP.CMD in MPTNBIN and will not update it.
+ So the right way to do this IP address update is to
+   1)use TCPIPCFG to update TCPIPBINSETUP.CMD, and
+   2)run MPTS configuration, go into the LAPS panel and choose OK
+     so MPTS config will verify the configuration, including
+     copying TCPIPBINSETUP.CMD to MPTNBIN.
+
+ On TCPIP 3.0 machines (WARP Connect or Warp Server), there should
+ be just one copy of SETUP.CMD in MPTNBIN. the TCPIP config program
+ (TCPCFG) should update everything correctly.
+
+*If you are configuring an HP 1.03 DCE client into an OS/2 DCE
+ server cell, your might find that dce_config script fails on
+ the HP machine.  Failure is due to the fact that the HP attempts
+ to issue the "telnet <host> daytime" command to get the system
+ time off of the OS/2 security server. However the TCPIP 3.0
+ telnet client does not support the daytime extension. The
+ work around is to comment out "telnet <host> daytime" in the
+ script.
+
+*If the command "hostname" is not returning the system name correctly,
+ DCE will not configure.  The hostname command executes the system
+ call "gethostbyname" and so does the DCE configuration routine.
+ Use tcpipcfg to make sure the routes are correct for your subnet.
+ At a minimum you should have:
+   .Default IP for your route
+   .Your local subnet your ip address
+
+   Example:
+   default   9.3.127.1 (router for subnet)
+   9.3.127.0  9.3.127.48 (your ip address)
+
+*'self' principal is denied permissions after security slave unconfig.
+  After unconfiguring a security replica, the permissions added during
+  configuration are removed from the 'hosts/<hostname>/self' entry for
+  the following ACLs.
+
+  /.../<cellname>/sec/replist
+  /.../<cellname>/subsys/dce/sec
+  /.../<cellname>/subsys/dce/sec -io
+  /.../<cellname>/subsys/dce/sec -ic
+  /.../<cellname>
+  /.../<cellname>/sec -e
+  /.../<cellname>/cell-profile -e
+
+  This may result in an ACL entry that looks like this
+      {user host/<hostname>/self -------}
+
+  Which means that 'self' is denied any permission to that
+  object.  The administrator can delete this ACL entry using dcecp
+  which will allow the self principal to inherit permissions
+  from other ACL entries (For example: any_other or unauthenticated).
+
+*When using auto configuration feature, the CDS client machine
+ and CDS server machine have to be on the same LAN segment,
+ otherwise, you will need proxy advertiser feature.
+
+*After DCE cell is unconfigured, please verify that
+ /opt/dcelocal/var/audit/adm/acl file is removed. If not, remove
+ it manually.
+
+*While configuring a CDS client, the configuration program can
+ wait up to an hour to communicate with the CDS server.
+ If the configuration program appears to be hung, make sure that
+ the CDS server is up and running.
+
+*The DCE Configuration program deliberately replicates the
+ /.:/subsys/dce/sec directory when it configures a secondary CDS server.
+ During the configuration of a security replica, entries are created
+ in this directory but may not be propagated to the CDS secondary
+ servers immediately.  Since these entries are referenced during
+ subsequent pieces of the security replica configuration, failures
+ may occur.  Therefore, it is recommended that all cdsd daemons
+ which are running on secondary CDS servers be stopped before
+ attempting to configure a security replica into the cell. After
+ successful configuration of the security replica, the cdsd daemons
+ should be restarted.
+
+*If you are configuring a NETBIOS only slim client in the intercell
+ environment, you need to run "buildwan.cmd" to generate the CDS
+ WAN cache file (cdscache.wan). The usage of the command is described
+ as follows:
+
+   Usage: buildwan
+   The command will prompt " Enter servername protocol"
+   Where servername is the tcpip host name or netbios host name
+         protocol is the protocol used:  tcp | udp | nb
+
+   Example 1: (with tcp)
+
+   C:> buildwan                              /* input */
+   C:> Valid protocols are tcp, udp, nb      /* output */
+        Enter: servername protocol            /* output */
+        linh1 tcp                             /* input */
+
+   Example 2: (with netbios)
+
+   C:> buildwan                              /* input */
+        Valid protocols are tcp, udp, nb      /* output */
+        Enter: servername protocol            /* output */
+        LINH2 nb                              /* input */
+
+*If the CDS secondary server is not running, you might get
+ the following error message while you try to admin unconfig
+ the secondary CDS server:
+ "Not registered in endpoint map."
+
+ To work around this problem, please do the following:
+ If "initial_ch" is the name of the clearinghouse owned by the
+ initial CDS and "second_ch" is the name of the clearinghouse owned by
+ the secondary CDS that we are trying to unconfig, then
+
+ cdscp set directory /.: to new epoch master /.:/initial_ch exclude
+ /.:/second_ch
+ cdscp set dir /.: to skulk
+ cdscp del obj /.:/second_ch
+
+ and then use the administrative unconfiguration to remove the rest of the
+ information about the CDS secondary from the cell.
+
+ You will also see the error message mentioned above if you attempt 
+ to do a full unconfig of the CDS secondary server when it is not 
+ running. Part of the configuration will complete, but you will 
+ not be able to complete the full unconfig. Complete a local 
+ unconfig, then do the above steps to complete the admin unconfig.  
+
+*If you reconfigure the master security server and initial
+ directory server, you MUST reconfigure your DCE clients since
+ the server will no longer have any information about the clients.
+
+*During unconfiguration of a security slave replica, the unconfig
+ process may return with a message that the unconfiguration failed,
+ but there is no evidence of the server on the machine (i.e., the
+ slave security replica entry does not appear in the output of
+ a 'showcfg' command).  This is because one or more administrative
+ cleanup tasks failed, and it will be impossible to reconfigure a
+ security slave replica with the same name unless the administrative
+ cleanup tasks are completed manually.  Follow these steps:
+
+  1) On a machine configured into the cell, dcelogin as the cell
+     administrator.
+  2) Clean up the namespace and the security replica list.
+     dcecp -c object delete /.:/subsys/dce/sec/<replica_name>
+     dcecp -c registry delete subsys/dce/sec/<replica_name> -force
+  3) Remove the replica from the rpc group:
+     rpccp remove member /.:/sec -m /.:/subsys/dce/sec/<replica_name>
+
+ This should be sufficient to allow reconfig of a security replica
+ having the same name as the one unconfigured. Even if you do not plan
+ to reconfigure the system as a security slave replica,  it is advisable
+ to perform this cleanup so the cell-wide information in the namespace and
+ security registry are as up-to-date as possible. Likewise, if any local
+ unconfiguration takes place, the appropriate administrative
+ unconfiguration should also be performed.
+ 
+*If you change the window startmode (single, multiple, none)
+ through the DCE Config GUI, on a machine that is already configured,
+ all components will be reconfigured.  The new setting will be
+ used when the daemons are started, and will be put into config.sys.
+ This value will not override the environment setting (if one had
+ been set (on a reboot after the previous config)). The config
+ engine checks the environment setting first. If you bring up 
+ the config GUI before rebooting, you will see the new start mode
+ setting. You should NOT change this setting on the GUI because that
+ will cause the config code reconfig again. 
+
+*If you unconfigure your initial CDS server (the keeper of the
+ root dir - not necessarily the first CDS Server configured in
+ the cell), you need to unconfigure the entire cell - including
+ the master security server.                                     
+
+*If you are using parenthesis to delimit a value list in your 
+ config response file, please pay special attention to the 
+ following rules:
+
+  1) The left parenthesis needs to be on the same line as the value
+     list keyword and equal sign.
+
+  2) The right parenthesis needs to be on a separate line, since     
+     if it were on the same line as the value, then it would be
+     considered part of the value.            
+
+  The following is an example:
+
+          components=(
+                 sec_cl=(
+                         config_state=configured
+                         unconfig_depend=no
+                         force_unconfigure=no
+                         )
+                 )                   
+
+Directory Service
+-----------------
+
+*The clearinghouse relocation procedure is not exactly correct as
+ documented in the DCE Admin guide, Chapter Cell Directory Service
+ (CDS), section Relocating a Clearinghouse. Following is the correct
+ procedure for relocating a clearinghouse named /.:/my_ch, where
+ <d> is the drive letter on which the dcelocal directory resides.
+
+  1) dcelogin as cell_admin on CDS servers A and B
+  2) dcecp -c clearinghouse disable /.:/my_ch on server A
+  3) cd <d>:optdcelocalvardircds on server A
+  4) Check the cdsfiles.map files for entries associated with
+    /.:/my_ch.  They will look something like the following
+    <d>:optdcelocalvardircdsacell#my_ch.checkpoint001
+     -> <d>:optdcelocalvardircdsAAAAAAAA
+    <d>:optdcelocalvardircdsacell#my_ch.tlog001
+     -> <d>:optdcelocalvardircdsBBBBBBBB
+    <d>:optdcelocalvardircdsacell#my_ch.version
+     -> <d>:optdcelocalvardircdsCCCCCCCC
+  5) Transfer the files that you found in step 4, AAAAAAAA,
+     BBBBBBBB, and CCCCCCCC, to the analogous directory on
+     server B
+  6) Extract and add the map entries you found in server A's
+     cdsfiles.map in step 4 to server B's cdsfiles.map, changing
+     the drive letter if necessary
+  7) On server A, delete the entries you found in server A's
+     cdsfiles.map in step 4 and the files associated with them
+  8) dcecp -c clearinghouse create /.:/my_ch on server B
+
+*If the machines to be used are of different speeds, it is advisable
+ to configure the primary CDS server on a machine which is as fast as
+ or faster than the clients.  If both a primary CDS server and a
+ secondary CDS server are used, the primary CDS server should be as fast
+ or faster than the secondary CDS server and all other CDS clients.
+
+*The cdsdbdmp.exe utility that is used to dump the cds checkpoint/Tlog 
+ file does not work. Please do not attempt to use it. 
+
+ 
+Security Service
+----------------
+*The following options have been added to the dcelogin command:
+
+[-k[eyfile] file_name]  Validates the principal_name identity by using
+                        a password-derived key obtained from a keytable
+                        file identified by file_name (instead of using
+                        a password supplied as a command line option).
+                        The file_name must include full path name of the
+                        file together with the characters FILE: prepended
+                        to path name, for example:
+
+                        FILE:x:optdcelocalkrb5mykeyfile
+                        where x is the drive where DCE is installed
+
+                        This file must have been created by the
+                        appropriate rgy_edit, dcecp, or
+                        sec_key_mgmt_set_key functions.
+                        When using this option, do not
+                        include a password as a command line option.
+                        This option is incompatible with the -n and -c
+                        options.
+
+[-r]                    Results in a refresh of network credentials,
+                        the acquisition of a new Ticket Granting
+                        Ticket (TGT), currently associated with the
+                        process in which this command will be executed.
+                        When using this option, do not include
+                        principal_name as a command line option.
+                        This option is incompatible with the -s
+                        option.
+
+
+*The in-memory database used internally by the security server will grow
+ if entries are repeatedly created and deleted.  This growth is temporary,
+ until the security server is restarted.  If the server is stopped
+ unexpectedly, like in a power loss, it will replay all activity since the
+ last 2-hour checkpoint had occurred, and it will show the same growth as
+ would have been observed when the updates were first done.
+
+*When a user with pwd_val_type 3 (i.e., a user with password generation
+ required) needs to reset their password, he/she cannot use the dcecp
+ program because dcecp does not check the value of the pwd_val_type
+ Extended Registry Attribute (ERA) when performing password changes.
+ The dcecp program offers no opportunity for the user to present a
+ generated password; any password proposed will be rejected because it
+ is not present in the generated password cache.
+
+ For this release, if the cell administrator wants to change the password
+ of a principal with a pwd_val_type Extended Registry Attribute (ERA)
+ of type 3, password generation required, he/she can do so in one of two
+ ways:
+
+ Using  dcecp :
+
+ 1) dcelogin as the cell administrator
+
+ 2) Invoke dcecp
+     /* user supplied values in brackets <like_this> */
+
+ 3) Change the pwd_val_type ERA value from 3 to 0, 1, or 2:
+
+      dcecp>principal modify <principal_name> -change {pwd_val_type 0}
+
+ 4) Set the user password to the new desired value:
+
+      dcecp>account modify <principal_name> -password <new_password>
+      Enter Your Password:  <cell_admin_password>
+
+
+ 5) Change the pwd_val_type ERA value back to 3:
+
+      dcecp>principal modify <principal_name> -change {pwd_val_type 3}
+
+ Using rgy_edit:
+
+ 1) Login as the cell administrator
+
+ 2) Invoke rgy_edit
+
+  rgy_edit=>domain account
+  rgy_edit=> change
+  Change Account=> Enter account id [pname]: <account_name>
+  Enter account group [gname]: <group_name>
+  Enter account organization [oname]: <organization_name>
+  Enter new account id [pname]: (account_name)
+  Enter new account group [gname]: (group_name)
+  Enter new account org [oname]: (organization_name) Change password?
+  [y/n]?  y
+  Generated password is: newly_generated_password, please enter as
+  new password
+  Enter new password:<newly_generated_password>
+  Retype new password:<new_password>
+  Enter your password:<administrator_password>
+  Enter new misc info: ()
+  Enter new home directory: (/)
+  Enter new shell: () Password valid [y/n]? (y)
+  Enter new expiration date [yy/mm/dd or 'none']: (none)
+  Allow account to be server principal [y/n]? (y)
+  Allow account to be client principal [y/n]? (y) Account valid for login
+  [y/n]? (y)
+  Allow account to obtain post-dated certificates [y/n]? (n)
+  Allow account to obtain forwardable certificates [y/n]? (y)
+  Allow certificates to this account to be issued via TGT authentication
+  [y/n]?  (y)
+  Allow account to obtain renewable certificates [y/n]? (y)
+  Allow account to obtain proxiable certificates [y/n]? (n)
+  Allow account to obtain duplicate session keys [y/n]? (n)
+  Good since date [yy/mm/dd.hh:mm or 'now']: (1996/05/25.13:50)
+  Create/Change auth policy for this acct [y/n]? (n)
+  rgy_edit=>exit
+
+*In certain situations, an application server's password key that is
+ stored in the keytab file could become different from the password
+ key that is stored in the DCE registry database.  When this
+ situation occurs, you will not be able to use the application server
+ because it has an invalid password.
+
+ This situation could occur when the DCE security server is brought
+ down while the application server remains up and running and the
+ application server generates a new password key.  In this situation,
+ the application server stores the new password key in the keytab
+ file, but, because the DCE security server is down, the application
+ server cannot store the new password key in the DCE registry
+ database.  Therefore, the two password keys will be different and
+ the application server will have an invalid password.
+
+ To recover from this situation, issue the following command while
+ the application server is down and the DCE security server is up and
+ running:
+
+       dcecp -c keytab add <keytab_name> -member <server_name> -random
+       -registry
+       where:
+          <keytab_name> is the name of the keytab object representing
+                        the keytab file.
+          <server_name> is the principal name, as stored in the DCE
+                        registry database, for the application server.
+
+ After executing this command, you can start the application server.
+ The two password keys will be in synchronization, so you will no
+ longer encounter invalid password problems with the application
+ server.  In the future, be sure to bring down the application server
+ before bringing down the DCE security server.  If the DCE security
+ server goes down from abnormal conditions, bring down the
+ application server immediately.
+
+*This information applies if you are using the password strength
+ component of DCE to require password generation.  If a user performs
+ a dcelogin when password generation is required and the user enters
+ his/her generated password incorrectly, the user will not be able to
+ complete the dcelogin when asked to try again.  This situation
+ occurs even if, when trying again, the user enters the generated
+ password correctly.
+
+ For example:
+
+       dcelogin -n type_3_user type_3_user's password
+        DCE LOGIN SUCCESSFUL
+        Your generated password is ciutgi
+        Type this as your new password.
+        Enter New Password: anything_else_besides_ciutgi
+        Re-enter New Password:anything_else_besides_ciutgi
+        New password was not valid.  Try again? [y/n] (y)  y
+        Enter New Password: ciutgi
+        Re-enter New Password: ciutgi
+        Warning: Cannot update registry password: Data
+         integrity error (invalid
+        password is specified) (dce / sec)
+
+ To recover from this situation, the user needs respond to the "Try
+ again?"  prompt with <n>.  Then, the user can start the entire
+ dcelogin again.
+
+Remote Procedure Call
+---------------------
+
+*You may select particular RPC protocol sequence support by
+ modifying the file "optdcelocaletcprotseqs.rpc", to include only
+ those you wish to use. You need to stop all DCE daemons and restart
+ them to activate the change. You may also change the protocol
+ sequence support in each individual session by setting the environment
+ variable RPC_SUPPORTED_PROTSEQS to the protocol sequences needed.
+ However, please make sure the client session and the server session
+ are both set to the same set of RPC protocol sequences. Otherwise,
+ the communication may not be able to be established. If both the
+ environment variable and the file have been used, the environment
+ variable setting takes precedence.
+
+Distributed Time Service
+------------------------
+
+*Since OS/2 is not timezone aware, while you are switching from day-
+ light saving time to standard time or standard time to daylight
+ saving time, you need to do the following:
+
+ 1) Change the TZ variable in your config.sys to  "TZ=xxx6" or
+    "TZ=xxx5" depending on if it standard time or daylight saving
+    time. xxx represents the timezone. For example, cst6 is
+    the standard central time. Do not use the automatic style
+    timezone (for example, cst6cdt). The automatic style timezone
+    does not work for OS/2.
+ 2) Change the system clocks of all your workstations to
+    reflect the time change.
+ 3) Reboot all your workstations.
+
+DCED (The RPC and Security Client)
+----------------------------------
+
+*If you have a machine which has WARP Server Entry and SystemView
+ installed, you might find that DCED cannot open port 135 and
+ terminates during DCE configuration.  The failure is caused by
+ the execution of i4llbd.exe (LLB daemon). This executable
+ grabs port 135 up on system boot and DCED will be using port 135
+ too. Since LLB support is part of DCED, please rename i4lldb.exe and
+ reboot your system. You will be able to start SystemView Support
+ Program and Software Distribution Agent without problem.
+
+DCECP
+-----
+
+*Running dcecp audevent and dcecp audfilter on FAT system.
+ Since ALL the Event Configuration Files which were installed
+ in /opt/dcelocal/etc/audit/etc are converted to upper cases,
+ event class supplied to dcecp audevent and dcecp audfilter
+ commands MUST be exactly the same names i.e in upper cases.
+
+*If you would like to create multiple entries when issuing
+ DCECP commands, use curly braces around the list of objects
+ For example, you can create two principals with the following
+ DCECP command:
+
+ dcecp
+ dcecp> principal create {foo1 foo2}
+
+
+Distributed File Service 
+------------------------
+
+*DFS on DCE Slim Clients cannot be configured through the DCE
+ configuration GUI (dcecfgg). See the DFS configuration section
+ of this readme.
+
+*To avoid potential data loss and DFS Server performance problems,
+ the following guidelines MUST be observed:
+
+ Always perform an OS/2 "Shut down" to stop or reboot a machine that
+ is running the OS/2 DCE DFS Client.
+
+ If you can't "Shut Down", then first stop DFS ("dcestop dfs_c",
+ or dcestop") before rebooting or stopping the machine.
+
+*The "DCE DFS Client" guide has incorrect examples of the
+ <dcelocal>etcCachInfo configuration file in sections
+ "Displaying the Cache Size form the Cachinfo File" (page 3-3)
+ and "Configuring the dfsd Process with the CachInfo File" (14-3).
+
+ Good examples of the CachInfo file follow:
+
+ ======= example ==============
+
+ e:dfscache*6400*16*20
+ 86400*86400*3600
+ /.../cellname/fs*+
+ /.:/fs/mydir*z
+ /:*r
+
+ The first line sets the DFS disk cache working directory to e:cache,
+ the size of the cache to 6400 blocks of 1KB each, each cache chunk
+ holding 64 KB (2^^16), and the number of OS/2 file handles allowed
+ in the dfsd process to 20.
+
+ ======= example ==============
+
+ MemCache*1000*13*20
+ 86400*86400*3600
+ /.../my.cell/fs*-
+
+ The first line sets the DFS cache to be a Memory Cache,
+ the size of the cache to 1000 blocks of 1KB each, each cache chunk
+ holding 8 KB (2^^13), and the number of OS/2 file handles allowed
+ in the dfsd process to 20.
+
+*The "dfsln" command is available for creating symbolic links within
+ the DFS namespace.  "dfsln" is not documented in the "DCE DFS Client"
+ guide.
+
+   -dfsln: create/delete symbolic link in DFS namespace.
+
+   -Link Creation: dfsln (NewLink) (DFSobject)
+    NewLink   = The pathname of the new symbolic link to create.
+    DFSobject = pathname of existing file/dir to link to.
+
+   -Link Deletion: dfsln -d (OldLink)
+    OldLink   = The pathname of the existing symbolic link to delete.
+
+   -Only pathnames in the DFS namespace are valid as input to
+    this command:
+    - fully qualified DFS style pathnames (begin with "/...").
+    - OS/2 Style pathnames that refer to DFS attached drive letters.
+
+*If you are using DFS with a Disk Cache, the files in the
+ DFS cache directory must not be modified except by DFS itself.
+ Modifying cache files or deleting a subset of the cache files
+ will lead to unpredictable results.  If this happens, you should
+ delete the DFS Cache (see below).
+
+ If you need to start the DFS Client (dfsd) directly to modify the
+ unconfigurable "-files" option, you should delete the DFS Cache
+ (see below) before restarting "dfsd" with a new -files value.
+
+ To delete the DFS cache:
+    - Stop the DFS Client.
+    - You should ensure that the DFS Client terminates successfully
+      before deleting the DFS Cache.  If any modified file data
+      could not be flushed to DFS Server(s), you should not
+      delete the cache; data-loss could result.
+    - Delete all of the DFS Cache files from the currently configured
+      DFS Cache Directory (you can view the first entry of the
+      %dcelocal%etcCachInfo file for cache location).
+    - Restart the DFS Client
+
+*If you have long-running applications launched from a DFS mounted
+ drive, please do a dcelogin before running your program. The ticket
+ lifetime of the account needs to be longer than the duration
+ of the run. If you do not dcelogin or the ticket lifetime is not
+ long enough, you might find your program traps because the
+ access to the DFS mounted drive is lost. When OS/2 tries to
+ swap in some executable pages from the DFS drive and your ticket
+ is expired, OS/2 will fail to bring in the page and your program
+ will trap.
+
+Intercell Setup
+---------------
+
+*If the rgy_edit cell or dcecp registry connect command is issued,
+ but one of the cells still has an existing krbtgt entry for the foreign
+ cell in its registry (from a previous trust configuration), the command
+ will appear to succeed.  However, authenticated intercell access will
+ fail because the keys for the two krbtgt entries are now out of sync.
+
+ This situation can be detected by doing a full view on each of the
+ two krbtgt accounts created for intercell (these are of the form
+ krbtgt/<foreign_cellname>). If the creation time on the krbtgt account
+ for the foreign cell is different from the last change time, it is
+ likely that this entry is not valid.
+
+ To recover from this situation, in each cell, delete the krbtgt entry
+ for the foreign cell  and reissue the rgy_edit cell or dcecp registry
+ connect command.
+
+*If you have established an intercell relationship between two cells and
+ then removed it, you will need to use a full DCE client to perform the
+ following steps for re-establishing the intercell relationship:
+
+  On one machine (preferably the machine running the CDS and/or Security
+  Servers) in each cell:
+
+   * enter rgy_edit and do the following at the rgy_edit command prompt:
+        rgy_edit> do p
+        rgy_edit> del krbtgt/<foreign principal name>
+   * execute dcelgoff -purge at a command line
+   * exit out of any dcelogin sessions
+   * dcestop all DCE daemons
+   * remove the following files:
+         /opt/dcelocal/var/security/rcache/krb5kdc.rch
+         /opt/dcelocal/var/security/creds/*
+   * if you are NOT using GDA to resolve foreign cell names, remove
+     the following files:
+         /opt/dcelocal/var/adm/dir/cds/cdscache.*
+   * dcestart all DCE daemons
+
+
+  You can now re-establish the trust relationship.  In only one of the
+  cells, you can use either the DCE Admin GUI or the command line
+  interfaces to set up the trust relationship (as if it had never
+  been set up originally).
+
+
+  Note: if you supply an incorrect password while setting up the trust
+        relationship either through the GUI or via command line, you
+        will get errors indicating either:
+
+            * a Data Integrity error has occurred
+             * Invalid password was supplied
+
+         To recover from this, you will need to follow all the steps
+         outlined above.
+
+
+
+Start/Stop DCE
+--------------
+
+*In order to insure the integrity of the backing stores used by DCE
+ it is highly recommended that DCESTOP be run prior to restarting or
+ shutting down your system. This is particularly important on any
+ systems which are DCE or application servers.
+
+*If you are having problems of starting DCE daemons using dcestart,
+ you can start the daemons directly at the command line. The
+ following are the commands you need to start DCE daemons
+ at the OS/2 command prompt:
+ -cdsd (CDS Server)
+ -secd (Security Server)
+ -dced (Security Client)
+ -cdsadv (CDS Advertiser)
+ -dtsd -c (DTS Client)
+ -dtsd -s (DTS Server)
+ -dfsd (DFS Client)
+ -auditd -a (Audit Server)
+  -For audit daemon, you also need to make sure that the following
+   environment variables are set in your config.sys
+   -set DCEAUDITON=1 If it is not set in your config.sys
+   -set DCEAUDITOFF= If it was set to 1 before
+ To stop DCE daemons, just hit CTRL+C at the daemon's window.
+
+*If you found that dcestart exited with error messages indicating
+ that some daemons can not be started in five minutes. You can
+ set dcestart time-out period with the MOCLWAITTIME. The
+ default is 300 (seconds) if the environment variable is not
+ set.
+
+*When DCESTART is run on the Master security server machine
+ of a split server setup, the rbuildpe will fail because the CDS
+ Server is not yet running. Please run rbuildpe again when both the 
+ Master security server and Initial CDS server are both running.  
+ When you see the error, DCE has been successfully started on 
+ that machine - unless there were other error failures.
+
+Serviceability
+-------------
+*dce_svc_register() vs. DCE_SVC_DEFINE_HANDLE. If you are using
+ advanced serviceability function, such as filtering with
+ dce_svc_filter(), dce_svc_register() should be used, not
+ DCE_SVC_DEFINE_HANDLE. DCE_SVC_DEFINE_HANDLE does not actually
+ register the handle, it simply defines the data structures.
+
+Internationalization
+--------------------
+*The control programs which have been superseded by dcecp in this DCE
+ release (rgy_edit, acl_edit, secadmin and cdscp) have not been enabled
+ to support multibyte characters. If you are working in a multibyte
+ environment, you should use dcecp.
+
+*The "i18ndir" environment variable contains the path to the
+ DCE-supported locales.  These DLL names, e.g., "enus437", can
+ be used as the second parameter of the dce_setlocale()
+ function, or as the value of the LANG environment variable.
+ For more information about the locales and about the XPG
+ internationalization programming model, see the
+ internationalization documentation included with the Developer
+ Connection for OS/2.
+
+*Characters that are not in the DCE portable character set can
+ be used in DCE passwords.  If these non-portable characters
+ are used, however, the password will not work correctly in
+ system environments that are heterogeneous with respect to
+ code set.  Unless your environment is extremely homogeneous,
+ you should avoid creating passwords that use characters that
+ are not in the portable character set.
+
+*For languages that are using a multibyte character set, which is
+ used in Asian countries, a multibyte_conversion_error is
+ provided.  If you get this error, this means the underlying software
+ is having trouble processing characters in the codeset of your
+ environment.  Check the internationalization environment variables
+ in your config.sys file.  Be sure you have these variables set as
+ instructed in your OS/2 Warp documentation.
+
+ Some environment variables you might need to check are:
+
+       CODEPAGE
+       COUNTRY
+       LANG
+
+
+
+
+*In this release, the code sets attribute should be accessed only via
+ the RPC NSI interface to the Directory Services.  Although the code
+ sets attribute has an ISO Object Identifier (OID), it should not be
+ referenced in the current release.
+
+
+
+*The RPC conversion type can be one of the following values:
+
+ idl_cs_no_convert         No code set conversion is required.
+ idl_cs_in_place_convert   Code set conversion can be performed in a 
+                           single storage area.
+ idl_cs_new_buffer_convert The converted data must be written to a new
+                           storage area.
+
+ The C language representation of a conversion type structure is:
+
+ typedef enum {
+       idl_cs_no_convert,
+       idl_cs_in_place_convert,
+       idl_cs_new_buffer_convert
+       } idl_cs_convert_t;
+
+ DCE RPC supplied stub buffer sizing routines do not support the
+ idl_cs_in_place_convert conversion type.  The reason is
+ that the actual conversion method (RMIR, SMIR, CMIR or UNIVERSAL)
+ used is determined at runtime, there is no guarantee that the 
+ conversion can be performed in a single storage area.
+
+
+*The cs_char Attribute. Arrays of cs_char can be fixed, varying, 
+ conformant, or conformant varying. The treatment of a scalar 
+ cs_char is similar to that of a fixed arry of one element.  
+ In this release only, conformant or conformant varying arrays 
+ can be used without restrictions, because they are designed to allow
+ the data expansion and contraction which can occur during code set
+ conversion. For fixed or varying arrays, the size of the storage 
+ available to hold the local data is determined by the array size 
+ specified in the IDL and the local type specified in the cs_char 
+ attribute.  The array size is fixed and can not be modified during 
+ the RPC marshalling or unmarshalling. For fixed arrays, the number 
+ of bytes of data on the client, the server, and the network
+ must be exactly equal to the number defined in the IDL file.
+
+*Following are the additional restrictions for fixed or varying arrays:
+
+ -For a fixed array, the number of array elements in the local (client 
+  and server) and network representations of the data must be the 
+  same as the array size defined in the IDL.  The following 
+  restrictions apply to the use of fixed arrays:
+
+   .Because the array size is the input length used by the code set
+     conversion, the complete array must be populated with valid data.
+
+   .You must write your own stub buffer sizing routines and code set
+    conversion routines.  The routines provided by DCE RPC do not
+    support the "idl_cs_in_place_convert" conversion type.
+
+   .You may write your own stub tag_setting routines or use DCE RPC
+    provided tag_setting routine rpc_cs_get_tags() to set the
+    sending tag value and the receiving tag value.  You must ensure
+    that the code set conversion between server and
+    client will not result in data expansion or contraction.
+
+   .You may write your own character and code sets compatibility
+    evaluation routines. You must not use the DCE RPC
+    rpc_cs_eval_with_universal() because universal conversion may
+    cause data expansion. You may use the rpc_cs_eval_without_universal()
+    but keep in mind that the conversion model used by
+    this routine is: RMIR, then SMIR, then CMIR.  You have to
+    make sure that the conversion can be performed without data expansion
+    or contraction.
+
+ -For a varying array, neither the number of array elements in the local
+  representation nor the number of array elements in the network
+  representation may exceed the array size in the IDL.
+
+  Restrictions similar to those for fixed arrays also apply
+  to varying arrays.  The value of length_is is the input length used
+  by the code set conversion routine.   Expansion and contraction of data
+  is allowed within the array size defined in the IDL file.
+
+
+*Additional information about code set stub routines consideration for
+ fixed and varying arrays
+
+ cs_byte_from_netcs
+ ------------------
+ Parameters
+   Input
+     Network_data_length
+       The number of idl_byte data elements to be converted.  
+       For a varying array or a conformant varying array, this value 
+       is the local value of the length_is variable. For a conformant 
+       array, this value is the local value of the size_is variable.
+       For a fixed array, the value is the array size specified in 
+       the interface definition.
+   Output
+     local_data_length
+       The length of the converted data, in units of idl_byte.
+       It is a NULL pointer if a fixed array is to be converted.
+ Usage
+     The routine returns the converted data, in idl_byte format. If 
+     the data is a varying, conformant, or conformant varying array, 
+     the routine also returns the length of the converted data, in 
+     units of idl_byte.
+
+ cs_byte_local_size
+ ------------------
+ Parameters
+   Input
+     Network_buffer_size
+       The size, in units of idl_byte, of the buffer that is allocated for
+       the international character data.
+       For a conformant or conformant varying array, this value is the 
+       network value of the size_is variable for the array; that is, 
+       the value is the size of the unmarshalled string if no 
+       conversion is done.
+   Output
+     local_buffer_size
+       This value is to be used as the local value of the size_is variable
+       for the array, and is non-NULL only if a conformant or conformant
+       varying array is to be unmarshalled.  A value of NULL in this
+       parameter indicates that a fixed or varying array is to be 
+       unmarshalled.
+ Usage
+     Client and server stubs specify the network storage size of the 
+     data, in units of idl_byte, if a conformant or conformant varying 
+     array is to be unmarshalled, or they specify NULL if a fixed or 
+     varying array is to be marshalled.
+
+     When called from a client stub, for fixed and varying arrays, the
+     routine assumes that network_buffer_size is sufficient to store the
+     converted data.
+
+ cs_byte_net_size
+ ----------------
+ Parameters
+   Output
+     network_buffer_size
+       This value is to be used as the network value of the size_is 
+       variable for the array, and is non-NULL only if a conformant 
+       or conformant varying array is to be marshalled.  A value of 
+       NULL in this parameter indicates that a fixed or varying array 
+       is to be marshalled.
+ Usage
+     The routine returns the new buffer size in the network_buffer_size
+     parameter. For fixed and varying arrays, the routine assumes that
+     local_buffer_size is sufficient to store the converted data.
+
+ cs_byte_to_netcs
+ ----------------
+ Parameters
+   Input
+     local_data_length
+       The number of idl_byte data elements to be converted. For a varying
+       array or a conformant varying array, this value is the local 
+       value of the length_is variable. For a conformant array, this 
+       value is the local value of the size_is variable.  For a 
+       fixed array, the value is the array size specified in the 
+       interface definition.
+   Output
+     network_data_length
+       The length of the converted data, in units of idl_byte.
+       It is a NULL pointer if a fixed array is to be converted.
+ Usage
+     The routine returns the converted data, in idl_byte format.
+     If the data is a varying, conformant, or conformant varying 
+     array, the routine also returns the length of the converted 
+     data, in units of idl_byte.
+
+
+MOCL(Management Object CLass Library)
+-------------------------------------
+
+*The MOCL stores class definitions that are loadable at run-time using
+ a SOM interface repository file called mocl.ir.  SOM finds these classes
+ at run-time using an environment variable called SOMIR.  Problems can
+ occur if this path is not set correctly and are usually the cause of
+ problems related to loading MOCL classes or MOCL initialization.
+ Some MOCL and SOM recommendations are listed below in case there are
+ problems during initializing the MOCL.
+
+ For example, you would get the following error message,
+
+   Factory for class Base_PolicyRegisons::Base_PolicyRegionIM
+   was not found.
+
+   MOCL.IR file
+
+      -  A file called mocl.ir should have been installed along with
+         the MOCL and should be listed in the SOMIR path when executing
+         MOCL code.   For example:
+
+         SOMIR=D:OS2ETCSOM.IR;D:OPTDCELOCALLIBMOCL.IR;
+               D:OS2ETCWPSH.IR;D:OS2ETCWPDSERV.IR
+
+      -  The mocl.ir file should not be empty (or 32 bytes which is the
+         SOM initial create size for a repository file.)
+
+
+   SOM.IR file
+
+      -  There should be only one som.ir file listed in the SOMIR path.
+
+      -  The som.ir file should not be empty (or 32 bytes which is the
+         SOM initial create size for a repository file.)
+
+      -  The som.ir file should be the latest version that has been
+         installed on the machine to ensure that the SOM reliant software
+         installed on the machine is compatible with the SOM version
+         installed.
+
+      -  The som.ir version should be compatible with the SOM dll's that
+         are being used by way of the LIBPATH environment variable.
+
+      -  It is recommended that the som.ir file is listed first in the
+         SOMIR path.
+
+
+   SOMIR path
+
+      -  SOM uses the last file in the SOMIR path to write to, this file
+         should not be read only.
+
+      -  If the last file is not fully qualified while running in a
+         directory or drive that is read only (particularly a mounted
+         drive), SOM will return an error.  It is a good idea
+         to fully qualified the last file.
+
+EMS(Event Management Service)
+-----------------------------
+*Remote management of application servers can be enabled by using
+ features offered in the current version of DCE.  These features
+ include DCE Serviceability (SVC), Event Management Service (EMS)
+ and DCE Simple Network Management Protocol (SNMP) Subagent.
+ For more information on this, refer to the Developer Connection
+ News (Vol 10) article titled "Enabling DCE Application Servers
+ for System Management".
+
+*Routing messages from DCE core servers to EMS/SNMP is not supported
+ in this release.
+
+*ems_mgmt_list_ems() returns non-zero addr value. The API
+ ems_mgmt_list_ems() is used to list where all the EMS daemons are
+ running in the current cell.  When no daemons are running in
+ the current cell, a zero status code along with a non-zero
+ value for host_list is returned.  Accessing this non-zero
+ host_list array will cause an access violation.
+
+ A work around to this problem is to initialize host_list to
+ NULL and then call ems_mgmt_list_ems(). Before the host_list
+ array is accessed to view the hosts, a check to ensure that
+ the host_list is not NULL can be added.
+
+DCE Admin GUI
+--------------
+*If the GUI has been up and running for some time, use the Refresh
+ menu item to get the most current information for the selected object.
+ The Permission page, however, will not reflect changes made outside
+ the Admin GUI until the next time the GUI is started.
+
+*On a slim client, the GUI supports only GDA to establish intercell
+ communication. Install the full client in order to use either GDA
+ or non-GDA to establish intercell through the GUI.
+
+*Non-OS/2 DCE 2.1 hosts and servers may not return all requested data
+ to the GUI.  In this case the fields will be left blank.
+
+*On the permissions page of an object, the user will need to apply the
+ changes after modifying each ACL entry type, i.e., Object, Entry, 
+ Initial Object, and Initial Container. Not all objects support 
+ all ACL Entry Types.
+
+ To modify more than one ACL entry type:
+     1) Select the ACL entry type
+     2) Modify the ACL entry
+     3) Select the Apply push-button to commit the changes
+     4) Repeat steps 1 through 3 for each ACL entry type to 
+        be modified
+
+
+DFS GUI
+--------
+
+*You should not delete user_obj, group_obj, and other_obj ACLs. If
+ any of these acl_entries are deleted, and the notebook settings
+ are then set or applied, the message "no acl found (dce/sec)" will
+ be posted. To recover the previous settings, select "Reset".
+
+*The mask_obj needs to be manually created prior to adding new
+ acl_entries other than user_obj, group_obj, and other_obj. Note
+ that if using the GUI, the user must create mask_obj and then do
+ a "Set" or "Apply" prior to creating new acl_entries.
+
+*The DCE login will not bring up an error message if the DFS
+ Reset Connection fails.
+
+*DFS Fileset Replication
+  a.) When adding a replica you must first creating a staging
+      replica i.e. a replica on the same server (not necessarily the
+      same aggregate) as the read/write replica
+  b.) Adding a new site only adds an entry in the FLDB.  You must
+      update it for the actual fileset to be created.  If you don't, in
+      many occasions you will get the message "fileset does not exist"
+      although you see it in the GUI, or you will not be able to get to
+      the directory the fileset is mounted to.
+  c.) Do not attempt to successively drag/drop objects from one
+      window, while the previous DD on the same window is not
+      completed.
+  d.) When mounting a fileset, it is advisable to use the regular
+      mount point.
+
+*When running with expired credentials the DFS GUI will hang.
+ To avoid this, login as often as necessary to keep credentials
+ current.
+
+*Local Workstation: The preference page for the local workstation  
+ object has a "Refresh on open" selection available for refreshing 
+ notebooks and folders each time they are open.  This selection 
+ only applies to the DFS GUI objects and NOT to any DCE objects.
+
+*The DFS administration GUI is not supported on a machine 
+ installed with DSS for Lan Server or DSS for DCE slim client.
+                                                         
+Others
+------
+
+*The DCE backing store does not release database pages that
+ become empty by deletion of all items on a page. Instead a list of
+ empty pages is maintained. Later, when a new page is needed, this
+ list is checked first. If there is a page available in the list, it
+ is used.  If not, then a page at the end of the file is allocated.
+ Thus the database files never shrink, but rather remain the maximum
+ size that they ever grew to.
+
+*The "DCE for OS/2 Warp:  Administration Guide--Core" documents the
+ procedures for regularly backing up the Security Service Registry and
+ CDS databases.  In addition to this, as part of your regular backup
+ procedures, it is recommended you make backup copies of all the dced
+ databases.  This will reduce the risk of database corruption when DCE
+ is exited abnormally.
+
+ To make the backup copies, copy all the *.db files from the
+ optdcelocalvardced directory to your backup media.  This must be
+ done while DCE is not running.  If you need to restore a database file
+ (for example if you get an error such as "Cannot open DCED database
+ Keytab.db ...), you can do so by copying the *.db file from your
+ backup media to the optdcelocalvardced directory.
+
+*In an environment which contains systems running multiple releases
+ of DCE, you may periodically see messages of the form:
+
+ (RPC_CN_AUTH_VFY_CLIENT_REQ) on server failed status = 14129090
+
+ These messages are informational and can be ignored.
+
+Problem Determination
+=====================
+
+*If you notice that DCE is not responding, use the following
+ procedure to check that the DCE daemons are up and running:
+ -If the daemons are not detached, switch to the daemon
+  sessions to view their status.
+ -If the daemons are detached, use pstat to check whether
+  the following daemons exist:
+  -secd
+  -dced
+    -cdsd
+    -cdsadv
+
+*The status can also be checked by running "dceos2pq <DCE daemon>".
+ The name of DCE daemons are: secd, dced, cdsd, cdsadv (CDS
+ advertiser), cdsclerk (CDS clerk). If DCE is running
+ correctly, then dceos2pq should show that all daemons are
+ in the "DCEOS2_PROCESS_INITED" state.
+
+ If you find that some of the daemons are not there, use
+ dcestart to start the daemon. The "dcestart -?" command will
+ give you the syntax of dcestart command and the names
+ of the daemons.
+
+*If the OS/2 DCE DFS Client cannot attach a drive at the
+ local cell's FS Junction ("/:"), check the "dfsd" daemon for
+ error messages.  If daemons are running detached, dfsd will
+ log information to the file "<dcelocal>vardfsadmdfsd.log".
+
+ - Check that the DCE Daemons are up and running ("DCED" and
+   "CDSADV" for Full Client, or "Slim DCE Client" for Slim):
+
+ - If all daemons are running correctly, check for the
+   following:
+      - There may be no DFS Server(s) in your local cell.
+      - The DFS Server(s) may be unavailable or may not be
+        fully configured.
+      - CDS or Security state errors may have occurred.  Try:
+          - "cdscp show cell /.:"
+          - "dcelogin"
+      - The clock skew between your client and the DFS Server(s)
+        may be too great. Adjust the system time for your client.
+
+*Client Marshaller Trap. This is most likely caused by an illegal
+ input parameter that contains a pointer with invalid value, or has
+ an invalid union tag. To debug, find out the input parameter and the
+ bad values which the client application passes into the client stub.
+
+*Server Marshaller Trap. This is most likely caused by an illegal
+ output parameter that contains a pointer with invalid value, or
+ has an invalid union tag. To debug, find out the output parameter
+ and the bad values which the manager routine returns to the server
+ stub.
+
+
+*If you suspect a problem from the compact stubs, you may create
+ the regular stubs by not using (removing) the options: -compact_cstub,
+ -compact_sstub, or -compact_stubs of the IDL compiler.
+ If the problem goes away with the regular stubs, it is a problem with
+ the compact stubs. Otherwise, it is not.
+
+*If you are seeing the message "rpc_binding_set_auth_info failed"
+ during configuration, run the following command:
+
+ "cdscp dump clerk cache | more"
+
+ The command will list the cached directories/clearinghouses on the
+ local machine. Usually there are two types of clearinghouse will
+ be cached:
+
+ -Additional CDS server
+  The error happened because you already configured the additional
+  s

@@ -1,0 +1,29 @@
+DvdReMake Pro is a powerful, yet intuitive DVD editor that will let you change content, appearance and navigation of a DVD disk without the need for complete disk re-authoring. Using unique editing features of the DvdReMake Pro you can completely customize your DVD backups, fix authoring errors, merge DVDs or even compile a new DVD from bits and pieces of other DVD disks. DvdReMake Pro will even fix incorrectly authored/edited disks. If mismatch between information in ifo and vob files is found program will try to fix the problem. 
+
+Main DvdReMake Pro features: 
+- Put multiple DVDs together preserving original menus; 
+- Replace menu background with still; 
+- Move and insert new chapters on an existing dvd; 
+- Edit VM commands (all commands and valid combinations are supported); 
+- Edit and create new TitleSets, Titles, Chapters, ProgramChains, Programs; 
+- Delete TitleSets, Titles, Chapters, ProgramChains, Programs; 
+- Move TitleSets, ProgramChains, commands within the disk or between different DVDs; 
+- Find DVD navigation errors; 
+- Reorder menu buttons; 
+- Easily follow DVD navigation using "Goto Destination" and History pane; 
+- Change properties of the video, audio and subpicture tracks; 
+- Modify buttons and color schemes in either still or motion menus; 
+- Easily change highlights colors. 
+
+Changes in Version 3.6.3 - 17 Dec 2007:
+- title operations is not greyd out in VTS titles pop-up menu when no title is selected
+- "move program up/down" action in "PGC programs" pane pop-up menu
+- all but first angles are stripped on export in some cases
+- font size in "button set" tabs
+- "Open Destination" and "Open Destination in new window" are disabled for some commands in Cell Commands pane
+- focus jumps back to the source copied PGC, after editing a PGC which was created using "Duplicate" or Copy and Add copied PGC
+- "Assign to Title" creates record in history log with index of PGC which is off by -1
+- Data Pool dialog is closed when hover over the button with the mouse pointer
+- start X/Y is reset to 0 after editing
+
+have fun and enjoy The Joker

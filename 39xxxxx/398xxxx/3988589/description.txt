@@ -1,0 +1,59 @@
+MPEG Streamclip is a converter, an exporter, a player, an editor, a downloader.
+
+It can open many file formats: muxed files MPEG, MPG, VOB, PS, M2P, MOD, VRO, DAT, DCM, VDR, PVR; transport streams TS, M2T, MTS, MMV, REC, VID, AUD, AVR, TP, TP0, TRP; demuxed files M2V, M1V, MPV, AIFF, AIF, M1A, MP2, MPA, AC3; QuickTime-compatible files MOV, DV, AVI, MP4, DIVX; pictures TIFF, JPEG;
+
+MPEG Streamclip supports MPEG-1 video, MPEG layer 1/2 audio, AC3/A52 audio and PCM audio. MPEG-2 video is supported if you have QuickTime Alternative ($0) and you chose to install the Extra QuickTime plugins.
+If you have Apple QuickTime, and do not want to replace it with QuickTime Alternative, you can buy the MPEG-2 Playback Component ($19.99) from Apple Computer.
+
+
+Converter features:
+? from MPEG, MPG, VOB, PS, M2P, MOD, VRO, DAT, TS, M2T, MMV, REC, VID, AVR
+	to MPEG, TS, REC, VID, M2V, AIFF, MPA, AC3
+? multiplexing of M2V, M1V, MPV files with AIFF, M1A, MP2, MPA, AC3 files
+	to MPEG, TS, REC, VID, M2V, AIFF, MPA, AC3
+	(just open the M2V or M1V file, and the audio file with the same name will be multiplexed on the fly).
+? very fast, no loss of video quality, perfect audio/video sync
+? compatible with DVD authoring applications
+? special Headed format to import unsupported frame sizes in DVD authoring applications
+? special Unscaled demuxed files, for the QuickTime Pro media authoring application
+? can automatically join multiple VOB or TS files
+? manual command to scan the stream and fix timecode breaks
+? batch conversion
+
+Exporter features:
+? from MOV, DV, AVI, DIVX, MP4, MPEG, MPG, VOB, PS, M2P, MOD, VRO, DAT, TS, M2T, MMV, REC, VID, AVR, M2V
+	to MOV, DV, AVI, DIVX, MP4
+? supports any QuickTime-compatible video codec available for Windows, and many audio formats
+? very high quality encoding, all in YUV color space, either unscaled or with 2D-FIR scaling (better than bicubic)
+? motion-adaptive deinterlacing and chroma reinterlacing, with perfect audio/video sync
+? internal high-quality audio resampler
+? batch export
+
+Player features:
+? playback of QuickTime-compatible files
+? playback of muxed/demuxed MPEG/VOB files and transport streams with MPEG, AC3, PCM/AIFF audio
+? playback of MPEG files larger than 4GB, or segmented in many files
+? support for multiple audio tracks in transport streams and MPEG/VOB files
+? full screen playback, zoom with arrow keys
+
+Editor features:
+? cut/copy/paste of MPEG files and transport streams, at keyframe (GOP) level
+? frame accurate cut/copy/paste of QuickTime files
+? trimming function, with unique "revert trimming" feature
+? access to keyframes with arrow keys
+? edit list
+
+Downloader features:
+? playback and download of AVI, DIVX, MOV, MP4 files directly over the Internet
+? in some cases, playback and download of video files by entering the address of the web page in which the file is embedded
+? editing before saving the movie to disk
+? batch download
+
+And many more features are available!
+
+
+
+The program is freeware. Everything what is needed (instructions, QT Lite, MPEG-2 plugin) is included in the package. The program itself does not install in the system, so it does not make any mess in the registry. I use it for transcoding to H.264 and I find it stable. There is a version for Apple platforms.
+
+
+Enjoy!

@@ -1,0 +1,54 @@
+﻿User Type,Username,Date,Text
+,raider56,2007-12-04T00:04Z,Hur bytte du kategori? Re-post av torrenten? Eller fick du göra något mer? Bra att veta när man själv klantar till det :-).
+,lugz,2007-12-04T02:09Z,"trailing sample:
+
+http://www.megavideo.com/?v=8W7DYDAG"
+,beefcafe,2007-12-04T07:31Z,"raider56: gjorde som du sa. Tog bort hela torrenten och postade om den i ny kategori.
+Funkade utmärkt eftersom den fick samma hash."
+,victor__90,2007-12-04T16:15Z,"Haha, Simpsons på svenska :)"
+,lompan,2007-12-06T07:50Z,"Hur tar jag bort engelskt tal? HJÄLP! 
+
+---------------------------------------------
+How do I take of the English sound? HELP"
+,raider56,2007-12-06T18:54Z,"lompan. Tar bort? Vad menar du? Avi-filen har två ljudspår, svenskt och engelskt. Hur man växlar mellan dessa beror på vilken spelare du använder. Högerklicka och välj audio brukar funka i de flesta spelare. I en stand-alone-spelare får man använda fjärrkontrollens knapp för antingen language eller audio. Men ""ta bort"" ett ljudspår fattar jag inte poängen med alls."
+,Mahnas_92,2007-12-08T17:41Z,"hej jag har aldrig fattat vad man gör med torrentrar som inehåller ca 40 rar filer typ, men kan någon hjälpa mig?"
+,beefcafe,2007-12-08T19:18Z,Har du provat att använda WinRAR och öpppna .rar filen? ;)
+,Mahnas_92,2007-12-08T20:07Z,"ja, men jag får upp filmen med svensk OCH engelskt tal på en gång och då menar jag en gång. Hur gör man för att ta bort den ena ljudet (sv eller eng) och hur gör man så att man får text?"
+,Mahnas_92,2007-12-08T20:08Z,BTW jag använder windows media player 11 (med fungerande codecs)
+,raider56,2007-12-08T20:35Z,Aha! Två språk samtidigt :-). Kanske var det det lompan menade också. Var tvungen att testa och mycket riktigt spelade Windows Media Player upp bägge ljudspåren samtidigt. Ännu en bra anledning att aldrig använda skiten. Av alla spelare jag har på datorn är den överlägset sämst till alla ändamål. Men hur väljer man ljudspår i WMP? Hittar inget om det. Det finns ju massor med enbart svenska versioner av filmen här på TPB i värsta fall.
+,beefcafe,2007-12-09T10:36Z,"WMP11 är ju trasig! Det var många år sedan jag använde den. Litte google på WMP11 och dessa förslag på lösning fann jag:
+
+""Three solutions:
+1) Use an AVI splitter that contains a stream switcher. For example Haali Media Splitter
+2) Use a player with an internal stream switcher. For example Media Player Classic.
+3) Use a special DirectShow filter that handles the stream switching. For example Morgan Stream Switcher.
+
+I would recommend #2.""
+
+Jag håller med. #2 är det som är enklast om man inte nödvändigtvis vill klistra sig fast vid den buggiga WMP! Annars kan jag rekommendera VLC. Den är liten och kräver _inga_ externa codecs, vilket ju är utmärkt om man tex vill ta med sig media till någon annan dator där man inte vet om alla codecs finns eller inte. Så, dumpa WMP!"
+,raider56,2007-12-09T11:54Z,"Numera använder jag enbart min Mediagate med 2.5 tums hårddisk för att se på film. Den tar nästan allt man slänger in, även srt-filer. Men inte idx-sub så jag fick rippa ut texten och konvertera den till srt, om någon vill ha den.
+
+Har rippat ett par barnfilmer till dual audio i Auto Gordian Knot men blir inte klok på hur väljer vilket ljudspår som ska bli audio 1 och audio 2. De hamnar i den ordningen de ligger på DVDn. Försökte få svenska att bli audio 1 och norska audio 2 i Lilo & Stitch. Men n kommer före s i alfabetet så det blir automatiskt tvärtom. Har provat att ändra streamingfilen men då hittar programmet inte ljudfilen så klart. Någon som har ett förslag? Rätt kul annars att ändra språk mitt i filmen och se hur länge det dröjer innan ungarna märker något :-)."
+,beefcafe,2007-12-09T12:08Z,Använd virtual dub mod. Avi audio track #1 kommer alltid före #2. Om språken inte ligger i den ordning du vill så separera video + audio x 2 och ändra ordningen. Om det fortfarande inte blir bättre så beror det på att din mediaspelare tycker sig veta bättre ;) 
+,raider56,2007-12-09T13:13Z,"I AGK är det VirtualDubMod som körs i bakgrunden så jag har ändrat lite manuellt i inställningarna. Har även separerat audio video-strömmarna och muxat ihop dem igen. Fast resultatet blir aldrig som jag vill. Får väl rippa två kopior med olika språk tills jag kommer på nåt bättre. Har en film där kommentator-spåret ligger först och en där spanska ligger före engelska, mycket irriterande. För min del spelar det ingen roll men mina systrar lånar Mediagaten ibland och kan tydligen inte trycka på en knapp själva utan gnäller om ""konstiga filer"" i stället :-). Obildbara!"
+,Mahnas_92,2007-12-09T14:59Z,"tack för hjälpen, men jag använde nero showtime tillfälligt (bättre än inget lol), ska prova ovanstående förslag.
+
+Thx for the help, I used Nero showtime (better than nothing), but i'll try out your solutions
+
+BTW: why there aren't no subtitles?"
+,raider56,2007-12-09T15:28Z,Mahnas_92. Svenska undertexten ligger i en rar-fil som måste packas upp separat. Du får en idx-fil och en sub-fil som innehåller en bitmappad text som jag tvivlar Nero kan visa. Jag har konverterat den till en srt-fil som jag kan ladda upp om du vet hur man spelar upp dem. Jag rekommenderar en gratisversion av BS Player som jag tycker är enkel att använda. VLC är lite onödigt krånglig även om den är bra.
+,beefcafe,2007-12-09T20:33Z,"VLC klarar .idx/sub filer. Default inställningarna fungerar fint. BSPlayer är också bra, men jag vet inte om den fixar .idx/sub filer."
+,raider56,2007-12-10T00:34Z,"Jorå, den gamla gratisversion av BS Player jag har tog den här idx-subben om den låg i samma mapp som avi-filen och hade samma namn. Fast det står ""no subtitle"" i spelarfönstret av någon anledning. Fast man fick bocka i ""svenska"" innan den dök upp. Förmodligen finns det info kvar från de rensade subbarna. Men srt-text ser ju så mycket bättre ut än bitmappad text. Det retar gallfeber på mig att så många bäddar in text direkt från DVDn till avi-filen, istället för att rippa den och justera storlek och position innan. Det tar en halvtimme extra men blir mycket mera lättläst. Dessutom gillar jag den steglösa zoomen i BS Player som borde finnas i alla spelare."
+,muaz,2007-12-19T22:24Z,SEED!!!!!!!
+,Rodrigez,2008-01-02T20:50Z,"Please, seed :) I'm stuck at 99,00% :( 
+So please make me happy and seed just a little bit more ^^ Thanks! xD"
+,zenobiten,2008-03-01T01:06Z,"VlC klarar allt!  Jag har inte mött på något format som den inte har rått på. Jag slipper ljudspårsförskjutningar och kan ändra spår med ett högerklick. 
+Den frågar aldrig om format, utan öppnar bara och testar om det funkar...typ.
+Fantaskiskt program!"
+,gobbe100,2008-03-31T18:25Z,denna är typ BALL!
+,gobbe100,2008-03-31T18:25Z,skoj film
+,gobbe100,2008-03-31T19:55Z,T_T jag får inte ens hela filmen jag får en bit av den typ en minut och massa WinRar filerT_T
+,gobbe100,2008-03-31T19:58Z,kan non hjälpa mej
+,Thaige,2008-07-03T19:27Z,hoppas den är bra;) Och jaa VLC äger!^^
+,m4rguy,2008-10-15T15:54Z,tackar nu blir min brossa glad han har sett den många gånger på engelska men för står den inte hoppas att ni seedar
+,alibabafreak999,2009-02-08T09:55Z,SEEEEEEEEEEEEEDA!!!N sNÄLLA!! JAG KOMMER SEEDA I 2 DAGAR DÅ!!!!Q

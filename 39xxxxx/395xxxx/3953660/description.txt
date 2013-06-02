@@ -1,0 +1,21 @@
+Here are the English language files I mentioned in my list in hope to change any versions of Te Witcher to english:
+
+Number 1:
+
+1. Install the game (in Russian).
+
+2. Search in directory "Data" for the files lang_xx.key and voices_xx_00.bif.......(xx stands for a number)
+
+3. Extract files lang_3.key and voices_3_00.bif into "Data" and overwrite the original files
+
+Number 2:
+
+Open the registry> HKEY_LOCAL_MACHINE> SOFTWARE> CD Projekt Red> Click on "The Witcher"> in the right pane change the language value to 3
+
+Number 3:
+
+Open the folder titled "Data", there will be a text file there, rename it to "USA" and open it, write "LANG ID" inside it and save.
+
+Number 4: 
+
+If it still isn't working right click on the "lang_3.key" file and click merge 

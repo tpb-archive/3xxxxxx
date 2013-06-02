@@ -1,0 +1,95 @@
+A Dirty Love 
+[12/18/2007 6:53:52 PM] Output codec: DivX
+[12/18/2007 6:53:52 PM] Audio 1: English AC3 2ch 
+[12/18/2007 6:53:52 PM] Subtitles: none
+[12/18/2007 6:53:52 PM] Format: AVI
+[12/18/2007 6:53:52 PM] Target size: 700Mb
+[12/18/2007 6:53:52 PM] Audio 1 settings: Original
+[12/18/2007 6:53:52 PM] Started encoding.
+[12/18/2007 6:53:52 PM] Demuxing and indexing.
+[12/18/2007 6:55:13 PM] Processing file: C:Dirty Love UnratedVIDEO_TSVTS_01_1.VOB
+[12/18/2007 6:55:13 PM] Processing file: C:Dirty Love UnratedVIDEO_TSVTS_01_2.VOB
+[12/18/2007 6:55:13 PM] Processing file: C:Dirty Love UnratedVIDEO_TSVTS_01_3.VOB
+[12/18/2007 6:55:13 PM] Processing file: C:Dirty Love UnratedVIDEO_TSVTS_01_4.VOB
+[12/18/2007 6:55:13 PM] Source resolution: 720x480
+[12/18/2007 6:55:13 PM] Found NTSC source.
+[12/18/2007 6:55:13 PM] Source aspect ratio: 16:9
+[12/18/2007 6:55:13 PM] Color correction enabled.
+[12/18/2007 6:55:13 PM] Analyzing source.
+[12/18/2007 7:00:14 PM] Source has percentage of interlacing in motion areas: 38.13
+[12/18/2007 7:00:14 PM] Source has percentage of telecined patterns: 96.05
+[12/18/2007 7:00:14 PM] Source has percentage of progressive patterns: 3.81
+[12/18/2007 7:00:14 PM] Source has percentage of interlaced patterns: 0.14
+[12/18/2007 7:00:14 PM] Source is considered to be FILM.
+[12/18/2007 7:00:14 PM] Output will contain 132240 frames
+[12/18/2007 7:00:14 PM] Audio1 size: 132,347,136 bytes (126.22 Mb)
+[12/18/2007 7:00:14 PM] Overhead: 4,162,176 bytes (3.97 Mb)
+[12/18/2007 7:00:14 PM] Video size: 597,493,888 bytes (569.81 Mb)
+[12/18/2007 7:00:14 PM] Target bitrate is: 867kbps
+[12/18/2007 7:00:14 PM] Running compressibility test.
+[12/18/2007 7:00:14 PM] Writing the following script to C:Dirty Love UnratedVIDEO_TSagk_tmpDirty Love Unrated_comptest.avs
+===========================================================
+LoadPlugin("C:PROGRA~1AutoGKDGMPGDecDGDecode.dll")
+LoadPlugin("C:PROGRA~1AutoGKfiltersautocrop.dll")
+LoadPlugin("C:PROGRA~1AutoGKfiltersdecomb.dll")
+LoadPlugin("C:PROGRA~1AutoGKfiltersColorMatrix.dll")
+LoadPlugin("C:PROGRA~1AutoGKfiltersRemoveGrainSSE2.dll")
+
+movie = mpeg2source("C:Dirty Love UnratedVIDEO_TSagk_tmpDirty Love Unrated.d2v")
+cropclip = autocrop(movie,mode=0,wmultof=4,hmultof=4,samples=10,aspect=0,threshold=34,samplestartframe=0,leftadd=0,rightadd=0,topadd=0,bottomadd=0)
+fixed_aspect = 1.18518518518519
+c_width = width(cropclip)
+c_height = round(height(cropclip) / fixed_aspect)
+input_par = float(c_width)/float(c_height)
+input_par = (input_par > 1.4) || (input_par < 1.25) ? input_par : (4.0/3.0)
+out_width = 640
+out_height = round(float(out_width) / input_par)
+hmod = out_height - (floor(out_height / 16 ) * 16)
+out_height = (hmod > 4) ? (out_height + (16 - hmod)) : (out_height - hmod)
+new_aspect = (float(out_width) / float(out_height)) / fixed_aspect
+Telecide(movie,guide=1,post=2).Decimate(mode=0)
+autocrop(mode=0,wmultof=4,hmultof=4,samples=10,aspect=new_aspect,threshold=34,samplestartframe=0,leftadd=0,rightadd=0,topadd=0,bottomadd=0)
+LanczosResize(out_width,out_height)
+RemoveGrain(mode=2)
+ColorMatrix("Rec.709->Rec.601",opt=0,hints=false,threads=0)
+SelectRangeEvery(280,14)
+===========================================================
+[12/18/2007 7:09:08 PM] Duration was: 8 minutes 54 seconds
+[12/18/2007 7:09:08 PM] Speed was: 12.38 fps.
+[12/18/2007 7:09:09 PM] Compressibility percentage is: 31.71
+[12/18/2007 7:09:09 PM] Using softer resizer.
+[12/18/2007 7:09:09 PM] Chosen resolution is: 528x304 ( AR: 1.74 )
+[12/18/2007 7:09:09 PM] Predicted comptest value is: 49.24%
+[12/18/2007 7:09:09 PM] Running first pass.
+[12/18/2007 7:09:09 PM] Writing the following script to C:Dirty Love UnratedVIDEO_TSagk_tmpDirty Love Unrated_movie.avs
+===========================================================
+LoadPlugin("C:PROGRA~1AutoGKDGMPGDecDGDecode.dll")
+LoadPlugin("C:PROGRA~1AutoGKfiltersautocrop.dll")
+LoadPlugin("C:PROGRA~1AutoGKfiltersdecomb.dll")
+LoadPlugin("C:PROGRA~1AutoGKfiltersColorMatrix.dll")
+LoadPlugin("C:PROGRA~1AutoGKfiltersRemoveGrainSSE2.dll")
+
+movie = mpeg2source("C:Dirty Love UnratedVIDEO_TSagk_tmpDirty Love Unrated.d2v")
+cropclip = autocrop(movie,mode=0,wmultof=4,hmultof=4,samples=10,aspect=0,threshold=34,samplestartframe=0,leftadd=0,rightadd=0,topadd=0,bottomadd=0)
+fixed_aspect = 1.18518518518519
+c_width = width(cropclip)
+c_height = round(height(cropclip) / fixed_aspect)
+input_par = float(c_width)/float(c_height)
+input_par = (input_par > 1.4) || (input_par < 1.25) ? input_par : (4.0/3.0)
+out_width = 528
+out_height = round(float(out_width) / input_par)
+hmod = out_height - (floor(out_height / 16 ) * 16)
+out_height = (hmod > 4) ? (out_height + (16 - hmod)) : (out_height - hmod)
+new_aspect = (float(out_width) / float(out_height)) / fixed_aspect
+Telecide(movie,guide=1,post=2).Decimate(mode=0)
+autocrop(mode=0,wmultof=4,hmultof=4,samples=10,aspect=new_aspect,threshold=34,samplestartframe=0,leftadd=0,rightadd=0,topadd=0,bottomadd=0)
+BicubicResize(out_width,out_height,0,0.5)
+RemoveGrain(mode=2)
+ColorMatrix("Rec.709->Rec.601",opt=0,hints=false,threads=0)
+===========================================================
+[12/18/2007 8:53:01 PM] Duration was: 1 hour, 43 minutes 52 seconds
+[12/18/2007 8:53:01 PM] Speed was: 21.22 fps.
+[12/18/2007 8:53:01 PM] Running second pass.
+[12/18/2007 10:32:51 PM] Duration was: 1 hour, 39 minutes 49 seconds
+[12/18/2007 10:32:51 PM] Speed was: 22.08 fps.
+[12/18/2007 10:32:51 PM] Job finished. Total time: 3 hours 38 minutes 59 seconds

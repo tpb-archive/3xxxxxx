@@ -1,0 +1,52 @@
+This is a rendering system for 3D Studio Max. Splutterfish Brazil is an extremly uniqe tool for rendering. The outcome, with right settings, is very good compared to 3ds' own rendering program.
+
+I finally came across this (not the newest version, but still it works fine) working version of brazil.
+
+It works fine with 3ds max 7 on vista. I believe it also works great with 3ds max 8 (as this version also runs on vista). Now. Remeber; when you run the sfmgr, right click on the file and choose "run as administrator". If you don't, the program won't run.
+
+IMPORTANT information about the installation (added information to the original information file in the program):
+
+First remove any old version of the sfmgr you have running on your system.
+
+at a dos promt type:
+
+cd c:sfmgr
+sfmgr -stop
+sfmgr -remove
+
+Then delete both the old sfmgr.exe and brzlic.txt
+
+del sfmgr.exe
+del brzlic.txt
+
+or just copy the 'RemoveOld.bat' file into your sfmgr directory
+and execute it.
+
+Create a new folder called 'sfmgr' in your c: drives root, or use your existing one
+if you already had an older version installed. Make shure you delete the old 'sfmgr.exe & BRZLIC.TXT'
+They will not be required anymore.
+
+Extract the enclosed 'sfmgr1_2_1.zip' folder and it's contents to the new 'sfmgr' directory 
+of the machine you wish to designate as your License Server. 
+It can be your workstation, or another machine on your lan. The choice is yours.
+
+Note:
+These two files.... The license and the sfmgr are linked.
+You cannot use one without the other.
+
+Open a command prompt and cd to the 'sfmgr' folder. e.g. cdsfmgr
+Install the service by typing at the prompt: sfmgr
+The service will install and start without any interaction from you.
+
+sfmgr is now installed and running as a service. The next time you re-boot
+your machine, it will start automatically and there is no need for further intevention.
+
+Make a sub-folder named Brazil inside your Max plugins directory, and copy all the 
+files from the plugins folder contained in the relative archive into it.
+
+Edit your Plugin.ini file to reflect this new path. e.g. Brazil rs=C:3dsmax5pluginsBrazil
+Save it and start max.
+
+Enjoy Any version of Brazil, up to.... and including v1.2.21 for both Max4-5-6 and 7 (probably 8 also)
+
+As a last remark: If 3ds max don't run Brazil in the startup and includes it in the pluginlist, enter manually the plugin menu of max, and import it from there (remember to do the steps mentioned above first). I did, and got it to work.

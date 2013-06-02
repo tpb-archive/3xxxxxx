@@ -1,0 +1,64 @@
+﻿User Type,Username,Date,Text
+,duckling_duck,2007-12-05T18:00Z,I reckon it's useless without the serial!
+,JSIT99,2007-12-05T21:25Z,"WELL if it's not cracked itl'll stop one day
+
+Dont make automatic updates"
+,avincent,2007-12-06T03:47Z,don't bother downloading...the keygen attached is not compiled and thus useless...and the app doesn't start up without a code.
+,jellings,2007-12-06T16:20Z,"i'm pretty sure this is the same as the one as i downloaded from another site.
+
+there were a load of comments saying the keygen needed to be edited to work or something, and then one post that said to use a terminal program called 'iTerm' to open it.
+
+when i used it though it opened up in terminal just fine without any problems. (macbook, os x 10.4.10) don't update to the newer (non-beta) versions as the serials won't work with that."
+,macpro,2007-12-06T21:08Z,"Open the 'Terminal' application and type ""chmod 755 "" (dont miss the final space character) and then drag the keygen 'bluephonekeygen' to the 'Terminal' window.  This should insert the full path to the keymaker file, now press enter to execute the command.
+
+Close the 'Terminal' application and run the keymaker which should now be working ok.
+
+Enjoy!"
+,sabee77,2007-12-07T11:06Z,Someone has done what macpro is saying and confirm that it works?
+,kentsuppi,2007-12-07T16:13Z,"I followed macpro´s directions, using the Terminal application, and it worked like a charm.  (thank you, macpro :-) )"
+,sabee77,2007-12-09T09:48Z,"Is works but then when I download the upgrade to the last stable version, I says the the code is for version 1 and to download the last version from my account (which I don't have....) Anybody found a way around this?"
+,narco82,2007-12-11T21:46Z,Email 4 activation?? please? :(
+,macstiker,2007-12-12T17:37Z,""" narco82 at 2007-12-11 21:46 CET:
+Email 4 activation?? please? :( ""
+
+
+
+YOU NEED ONLY, OPEN THE TERMINAL (THE GRAY BLOCK) AND WRITE YOUR EMAIL.. PRESS ENTER.. AND THAT IS YOUR EMAIL, AND YOUR CODE ACTIVATION...
+
+SEE YOU."
+,EMale1965,2007-12-15T16:27Z,"I have installed this version of BPE2 and used the keygen to get my code. Everything works fine except for the incoming SMS triggers. I can send an SMS just fine, but when I receive one it doesn't activate the triggers or appear on the screen, it just hangs there. When I upgrade to the latest trial version everything works fine. Any suggestions? Previous BETA versions have worked fine, but not this one."
+,EMale1965,2007-12-15T16:58Z,"Never mind, I finally got it to work by using the uninstall script and deleting everything off my system and then re-installing from this .dmg. Thanks so much for this application! "
+,Radballer,2008-01-09T10:25Z,"Hi There.
+
+I´ve installed the BluePhoneElite program of this torrent and everything looks nice. but if I want to start the program it just opens the homepage of the BPE-company... 
+So I thought that I have to download the .dmg at the homepage and use that.
+But when I try to insert the key a message says that I´m using an BPE1 key and I have to loggin to get the new one. 
+
+Can someone help me what to do?"
+,tibianet.com,2008-01-28T12:49Z,"Using the terminal go to the same directory where BluePhoneElite 2.app is and write this command:
+
+printf ""\x31\xc0"" | dd conv=notrunc of=""BluePhoneElite 2.app/Contents/MacOS/BluePhoneElite 2"" seek=0x1B57C bs=1
+
+Unix power :D. "
+,tibianet.com,2008-01-28T12:50Z,The last patch is for BluePhoneElite 2.0.5 (build 1877)
+,jbartos,2008-01-29T05:42Z,"Thanks. I put it in. This makes it so I don't have to activate it, I'm guessing? Will this work for later updates?"
+,tibianet.com,2008-01-29T16:01Z,"@jbartos: Yep, it will work forever without activation. And No, it wont work for a different build."
+,maniaxx,2008-02-02T21:12Z,"Hi,
+I faced the same issue as Radballer, downloaded the build 2.0.5 - 1877, did the patch as suggested by tibianet.com, but still facing the same prob that when i start the application after doing the command line, still it asks for the code, if i enter same issue that it is a code belonging to BPE1.
+
+any help ? sorry, i tried many times, but did not succeed. 
+
+Thanks in advance"
+,tibianet.com,2008-02-10T21:11Z,"@up: you dont need to put any code... download the app from the homepage and execute the command in the Applications directory (or in another place if you dont drag the app to that dir) to patch it.
+
+It wont ask you for anything."
+,kamyk1,2008-02-12T21:07Z,@tibianet.com: is it possible to put torrent (or link) to  BluePhoneElite 2.0.5 (build 1877)? I cannot find this version so i cannot 'do' anything. Thx for your help :)
+,EMale1965,2008-03-15T05:25Z,"I too have downloaded the proper build for this application and installed it. However, when I go to open it, it still says I have only 14 days to try it out. I have tried the patch you suggested, but still no luck. Here are the commands I used: cd /Applications to get me into the proper directory, then I copied and pasted your command in, it looked like it changed something, but when I close Terminal and open BPE2 it still comes up with the 14 day notice. What am I doing wrong? I would really like to get this application to work! Any ideas? Anyone?"
+,kingcrayon,2008-03-25T17:49Z,"I did the same as you EMale, I still get the ""14 days left"" popup when starting the program both following ""macpro"" and ""tibianet.com""s directions."
+,kingcrayon,2008-03-26T03:27Z,"oh, success! you might want to try NOT running the software at all until you've entered that printf Terminal command. that made things work for me. thank you tibianet."
+,Mimes75,2008-04-03T10:29Z,"Hi there..I've been trying all your suggestion but still isn't working.
+When in Terminal I paste the string u gaven and press enter it says that isn't a directory ...
+I don't know where I'm wrong!
+Any suggestion?
+Tx in advance
+"

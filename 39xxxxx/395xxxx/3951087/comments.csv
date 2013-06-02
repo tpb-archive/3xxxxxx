@@ -1,0 +1,73 @@
+﻿User Type,Username,Date,Text
+[T],nobody2007,2007-12-28T17:06Z,"this package contains two installers:
+1. version 6.3 for PPC
+2. version 6.4.1 (from 5-2006) for newer & intel (works well on Leo)
+
+@torrent users: happy new year!"
+,birdmcfc,2007-12-29T18:59Z,"Will this work with QT 7+?
+
+Thanks.."
+,thasro,2007-12-29T19:39Z,"No, this does not work for Quicktime v. 7+. This is for version 6 only."
+,chiappa,2008-01-03T11:21Z,"worked for me. i have quicktime 7.3, mac os x 10.4.11 on a intel macbook"
+,tomsabin,2008-01-03T21:00Z,Just re-downloaded it again because of chippa's comment and it does not work with Quicktime 7.3.1 on an intel iMac (10.4.11).
+,casperboo,2008-01-14T03:06Z,"This will work on ANY Intel Mac with ANY version of Quicktime 6+, that includes ALL versions of Quicktime 7.
+
+For those saying otherwise, your system is screwed.  Try removing the older version from the 716k DMG install that was for PPC only, as that is most likely screwing up your install.  But do NOT lie to people about its support.  This will run and work on ALL versions of QT from 6 and up!"
+,tomsabin,2008-01-26T14:51Z,"When casperboo said that 'this will work on ANY Intel Mac with ANY version of Quicktime 6+, that includes ALL versions of Quicktime 7.' I thought I might give it another go.
+
+This does not work with QuickTime 7+!
+
+The file contains an intel version for Quicktime 6.
+
+Once again this DOES NOT work with Quicktime 7+. I have an intel Mac OS X 10.4.11 and Quicktime version 7.4."
+,sub23-t,2008-01-28T10:07Z,"This works like a charm on OS 10.5.1 with Quicktime 7.4. Thanks a lot!
+
+Btw, the component is also universal and runs natively on Intel-CPUs. You just have to click the right Installer (Quicktime 6.4 and later)."
+,Danlion3,2008-01-28T16:40Z,"I have the New mac pro 2008 and quicktime 7.4 don't work, i reinstall 7.3.1 with Pacifist and this mpeg2 for intel
+Work fine now with all my mpeg movie
+many thanks Merci"
+,martinleonard,2008-03-22T15:12Z,"for all you saying it doesnt work with version it totally does!!
+
+downloaded installed restarted works fine on version quicktime version 7.4.1 im running leopard
+
+so to all you who say things dont work uv prob screwed ur plugins id delete everything in your quicktime folder (library/quicktime) and then reinstall"
+,ronald_poi,2008-04-16T18:27Z,"It didn't work for me so i give up... But for some reason after reading all those ""no, really, it works"" comments, i gave it another try. Downloaded again and this time it worked. So weird... I'm pretty sure i tried the right installer... Again. So weird..."
+,Thilindir,2008-04-23T03:53Z,I'm some sort of noob in this topic. could someone please explain to me what I have to do with the .dmg file. thanks
+,macmini23,2008-08-08T04:39Z,"martinleonard is right! I had to remove all codecs in my library/quicktime folder and then rebooted. Then installed this quicktimeMPEG2 and restarted and now my MPEG streamclip works with Mpeg2 and m2t.
+
+BTW- you can't see the newly installed codec in quicktime folder, interesting! Folder is blank. 
+Now you can drag your previous codecs back into quicktime folder. I found a QuickTimeMPEG2.component file from 2003 was conflicting with the new install because I put it back in and got the update error. You may try to take just this file out and install. 
+
+Good Luck! "
+,brandone,2008-09-18T15:32Z,"-This worked OK on a Powerbook G3 Firewire, OSX 10.4.11, Quicktime 7.5.5.
+-I checked to play a .mpg file I recently recorded (using dvb-t software 'terratec home cinema' on a windows XP machine), and it worked fine. The movie played fullscreen on this powerbook with no single stuttering (400MHz CPU, 8MB Video RAM!) one can experience when using VLC video lan player 0.8.6c. The apple mpeg-implementation is much better than VLC.
+-I'm happy, thanks a lot for providing this torrent!"
+,boneywhalum,2008-12-17T18:00Z,It worked for me... I have an iMac Intel using QuickTime 7.5....Great for mReplay downloads.
+,hardshl,2009-01-31T17:41Z,"Downloaded, installed, restarted and works great!  Thanks!  On Quicktime 7.6 - Intel Mac.  No problems!"
+,cocoknife,2009-04-16T16:53Z,"It worked for me on the first try. I have Quicktime 7 PRO though. Maybe that has something to do with it not working. My computer is a 2 week old Mac Pro. I clicked on the Quicktime 6.4 or later and it worked.
+
+I used it for Mpeg-Streamclip so I could convert videos filmed with my JVC Everio to a format iMovie would recognize. 
+
+Thank God it did work because I was running out of options! "
+,stablehouse,2009-10-15T01:39Z,"Worked perfectly for me [QuickTime Player 10.0 , Snow Leopard, MBP 3.06GHz Intel Core 2 Duo]. MPEG Streamclip fully functional. Many thanks."
+,marcheffe,2009-10-21T19:26Z,"please, i have Qt 10, mac book pro 2,4 ghz, and it doesn't works!!! it start the installer but don't do it till the end! Why? what I have to do??? please somebody may help me?"
+,MrHaroHaro,2010-01-06T03:23Z,"I got it to work fine on a G4 running 10.4.11
+How can I get this to work on an Intel Macbook running 10.6.2? I've also tried an older version of Final Cut Pro 6 but that didn't work either."
+,xofokim,2010-03-26T19:56Z,"Does NOT install or function on Snow Leopard 10.6.2, despite un-installing all previous MPEG2 components from all QT folders.
+If you open the package, double click the Archive.pax and drag the component directly to the Library/QuickTime folder it still shows just a generic file icon instead of the plugin icon. That's also the case right in the installer package. So something IS wrong. Unfortunately the Apple website does not specify if their version works on SL 10.6.2 either. I think it matters what OS is installed not which version of QT."
+,nemosrings,2010-08-23T17:36Z,Works fine for QuickTime 7 on OSX 10.6.4 Snow Leopard on 2007 intel MacPro. MPeg Streamclip no longer complains about no MPeg 2 & plays & exports fine. :) Perhaps a QT 7 version is slightly better but this one is fine it seems.
+,nemosrings,2010-08-23T17:40Z,Two thoughts why it has not worked for some using intel macs. One is they have not rebooted their macs after installing. Second is I'm not sure if this one works if booted into 64 bit mode.
+,nemosrings,2010-08-23T18:16Z,"A third thought is, I have Rosetta installed on my system when I chose install options for OSX, perhaps others should consider the same. ;)"
+,nemosrings,2010-10-04T19:02Z,"Oops irrelevant but I meant i had a 2008 MacPro, not 2007."
+,nemosrings,2010-10-04T19:22Z,"AFAIK, Rosetta is on the 2nd install disk for Snow Leopard, for OSX 10.5 & earlier it should be on the first install disk. Rosetta allows power pc apps to run on later mac computers. Not sure if this is the answer for this QT MPeg 2 playback codec, but works fine for me & sounds like the possible solution for all."
+,nemosrings,2010-10-04T19:28Z,I heard it rumored OSX 10.7 when it is released will not longer have Rosetta support. :( Hope this is not true.
+,aquaticcentre,2011-01-14T02:55Z,"video works for me, but no audio! running OS X 10.5.8 and quicktime 7.6.9. i am trying to play mpeg2 files that were transferred from my sony handycam... a lot of handycam users are having this problem despite apple saying they have a functioning codec.
+
+any suggestions??? "
+,BethLuvsMacs,2011-07-15T09:30Z,"How do I get the actual file? When I click ""download this torrent"" and then double click the file, it says ""no available application can open it."" Please help!"
+,adyhere4u,2011-09-21T00:17Z,"Not working on Intel+Lion, search for mpeg2 and you'll find what you need."
+,nemosrings,2011-09-30T12:08Z,"BethLuvsMacs right-click/Control-click the Download This Torrent link & choose Save As, make sure the name has .torrent at the end of it. :)
+
+adyhere4u, this MPeg 2 component is some years old & requires Rosetta support to run on an intel machine. Lion does not have Roesetta, Apple decided to stop Rosetta support with Lion. That's why I have not upgraded to Lion, otherwise I'd lose ability to use lots of applications that require Rosetta support."
+,themacfan,2011-12-17T06:42Z,"It's not getting sound because you have to download MPEG Streamclip and 3ivx Codec to have sound!:
+always works!"

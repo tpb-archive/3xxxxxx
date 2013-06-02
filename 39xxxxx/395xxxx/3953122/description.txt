@@ -1,0 +1,13 @@
+ http://events.ccc.de/congress/2007/Fahrplan/events/2321.en.html
+
+Speakers: Vladsharp
+
+After C: D, libd and the Slate project
+
+A clean slate for operating systems
+
+We present libd, a high-level runtime for the D programming language and the Slate project, an attempt at a high-level OS and environment built upon libd, as the next major step in improving the state of programming environments and operating systems. With high-level abstractions, and sensible design, the state of implementation of open-source OSes can improve. We leverage existing kernels when implementing Slate, and put an extensive (abstraction-oriented) architecture above the kernel to present the user (or programmer) with a system they can use by having to do less to perform a specific function. Our virtual machine approach also allows for security verification on a level not seen in *nix OSes before.
+
+libd is a high-level runtime library for the D programming language. It is completely independent from existing C code except the *nix kernels it runs on, and of any compatibility issues with legacy code. This enables libd to establish support for various programming models (such as event-driven programming, traditional semi-OO procedural programming), message-passing, object persistence, task load balancing etc. The library has a very pluggable interface, and is therefore customizable.
+
+On the basis of libd, we present the design of the Slate project, an advanced OS and environment. On the most basic level, we have a virtual machine, a vpn and a relational database store (with a unique twist) to enable further system services to build on top...

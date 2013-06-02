@@ -1,0 +1,153 @@
+﻿User Type,Username,Date,Text
+,poepschoen,2007-12-10T11:57Z,Excellent! Thanks dude!
+,DoubleJC63,2007-12-10T13:55Z,"God your quick, just like your torrent speeds :) awsemoness man dont stop"
+,grr_rotjeknor,2007-12-10T14:06Z,"Hey dudes.
+
+I'm looking for a different series of NDS roms
+
+nobody is releasing these. numbering is outside of normal release lists.
+
+PLZ HELP if you can
+
+especcially wanted :
+
+cats academy
+id 61528
+publisher THQ
+developer Brain Toys"
+,grr_rotjeknor,2007-12-10T14:16Z,"AND THX ALOT
+
+for al the ROMS that you do release.
+
+your packs are great !!
+
+I use NDScrc to check en rename my roms.
+So difference in numbering is no biggie
+The fact that they all check correct CRC IS ....!!!!
+
+THX"
+[T],magumagu,2007-12-10T15:18Z,"Of course, they wouldn't be named ""verified"" if not ... =)"
+[T],magumagu,2007-12-11T02:07Z,"For most it's release location:
+(U) The US
+(J) Japan
+(E) Europe (Normally multi-language)
+
+The other ones are single-language translations, like Spanish, German, French, Korean and whatnot"
+,grr_rotjeknor,2007-12-11T02:11Z,What tool en dat file do you use to check your roms ??
+,grr_rotjeknor,2007-12-11T02:13Z,"and someone on a forum 
+answerew my previous question about
+
+CATS ACADEMY
+
+in the rest of world it's called 
+
+PURR PALS 0979"
+[T],magumagu,2007-12-11T07:05Z,"Hey hey, down boy; no need in screaming.
+It's in my old torrent:
+http://thepiratebay.org/tor/3669667/NDS_verified_rompack_0901-1000_by_joda
+//joda"
+[T],magumagu,2007-12-11T07:06Z,"Ooh, and by the way, with regards to what program i use to verify roms - check the info-file included ... Always RTFM! =)
+//joda"
+,Madmaxtiger,2007-12-12T07:31Z,Thx man...
+,catmam,2007-12-14T04:07Z,Great job. Thank you....joda
+,Jagstar32,2007-12-14T22:34Z,"thank you, bedankt, gracias, merci, danke, and all that good stuff!"
+[T],magumagu,2007-12-17T13:50Z,"@OctoGenarian:
+I can't say anything about Rominator since I haven't used it, but since the roms it doesn't recognize are the ones with the highest number, and thus the newest, do I believe that you need to update the program to recognize those as well. I'm playing 1800 - CrossworDS at the moment on my DSLite with G6Flash, so it can't be anything too much wrong with them. (And they do check out right on CRC.)
+
+For the .bat-file: (I'm not sure if it'll show up correct though. Here goes nothing ...)
+@echo off
+dir /B /S *.zip |sed ""s/\.zip//"" |grep -v .tmp >output.tmp
+for /F ""delims=/"" %%a in (output.tmp) do 7z e ""%%a.zip"" && 7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on -bd ""%%a.7z"" ""*.nds"" && rm ""%%a.zip"" ""*.nds""
+rm output.tmp"
+[T],magumagu,2007-12-17T14:02Z,"It seems to show up ok. It uses grep and sed and with those it scans through all available sub directories and repacks any zips found with 7-zip.
+
+It's a reeaaally ugly script which I'm quite ashamed of and probably should remake in perl to make it a cute one liner. It works fine on my windo$e-box though. As always, remember TIMTOWTDI!
+//joda"
+[T],magumagu,2007-12-18T01:42Z,"That's the one repacking zips into 7-zips. The following should scan subfolders for .nds-files and 7-zip them up with the same name:
+@echo off
+dir /B /S *.nds |sed ""s/\.nds//"" |grep -v .tmp >filelist.tmp
+for /F ""delims=/"" %%a in (filelist.tmp) do 7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on -bd ""%%a.7z"" ""%%a.nds"" && rm ""%%a.nds""
+rm filelist.tmp
+
+Not tested, so use at own risk though. Just remembered, this one uses rm as well from unxutils. You could probably change it for del.
+
+//joda"
+,Itsara,2007-12-20T00:18Z,"THE ARM7-FIX
+
+What?
+A few dumped roms today comes with a new kind of protection, commonly referred to as the ""arm7-protection"". If you try to load a protected rom on some flash carts (R4, DS-X, G6 etc.), you will receive an error that tells you that something went wrong with your save file (or equivalent) and you will not be able to play the dumped rom. In this thread, you'll learn how to crack these roms by yourself, bypassing this protection.
+
+If your game won't start and gives you an error message about saving data, you most likely need the arm7-fix.
+A hacked arm7.bin file can be downloaded http://ds.loathsome.us/files/arm7.bin, and will do the trick for every game (per today) that requires this fix.
+
+Brief tutorial on how to replace the arm7.bin-file:
+
+1. Open up the rom with http://ds.loathsome.us/files/dslazy.zip and click «nds unpack»
+2. A new window will now open, do not close this.
+3. Copy the hacked arm7.bin-file (link earlier in this post) inside the newly opened directory (NDS_UNPACK), and replace the existing arm7.bin-file
+4. Click «nds packer», select where to save the modified file and load the rom up on your flash cart.
+5. Happy gaming!
+
+List of known, protected games:
+
+1158 - Zelda no Densetsu: Mugen no Sunadokei (J)
+1159 - SimCity DS (E)
+1181 - Hoshigami Remix Running Blue (U)
+1183 - Chuukana Janshi Tenhoo Painyan Remix (J)
+1256 - Idol Janshi Suchie Pai III Remix (J)
+1288 - Donkey Kong: Jungle Climber (J)
+1292 - Mega Man Star Force: Dragon (U)
+1293 - Mega Man Star Force: Leo (U)
+1294 - Mega Man Star Force: Pegasus (U)
+1298 - Chameleon: To Dye For (U)
+1417 - MySims (E)
+1319 - Minagara Oreru DS Origami (J)
+1422 - MySims (U)
+1441 - FIFA 08 (E)
+1368 - Worms: Open Warfare 2 (E)
+1398 - Drawn To Life (U)
+1423 - Drawn To Life (E)
+1456 - The Legend of Zelda: Phantom Hourglass (U)
+1458 - ASH: Archaic Sealed Heat (J)
+1475 - Kurupoto Cool Cool Stars (U)"
+,TauSigma_TPB,2007-12-23T21:42Z,"Thank you for your recent great work!! Could ne1 please be so kind and do some seeding for the rompacks 1101-1200, 1201-1300 and 1301-1400? I have been on holiday and missed them somehow. 
+
+Thanks in advance!
+TauSigma"
+,DellBoyz,2007-12-24T10:49Z,Merry X-mas Joda.... ho ho ho ! Thanks a lot...
+,raggamuffe,2007-12-29T14:16Z,"These roms need the arm7-fix:
+1705
+1718
+1720
+1743
+1756
+1794
+1796
+
+maybe others also....
+
+Maybe the arm7-fix can bee included in the roms in the future?
+
+Saves a lot of extra.."
+,--Jacob--,2008-01-01T18:38Z,I cant find 1664 - Contra 4?
+[T],magumagu,2008-01-02T08:24Z,"@Saik0Shinigami
+It will be quite soon.
+ Thing is, I'm at my fiancé's place abroad until the fourth, so probably not before then.
+ Also, I'm finally working on a move towards the GBAtemp-list, which will generate som extra work on renumbering/repacking some roms.
+ You'll have it home by this weekend, at worst.
+
+Cheers!
+//joda"
+[T],magumagu,2008-01-03T15:36Z,"Excellent. I'll be home tomorrow evening and look into the next pack as well as doing a major rewamp of the numbering scheme and whatnot.
+//joda"
+,DrUNE,2008-01-04T01:44Z,"@magumagu
+Just dropped to you some ?. Nice work man."
+,DrUNE,2008-01-04T01:49Z,Ups... i mean i dropped to you 10 EUR
+[T],magumagu,2008-01-04T13:22Z,Thanx mate!
+[T],magumagu,2008-01-05T06:26Z,"You could use the stuff in the script, but if you're not repacking you don't need it. Just get WinRar or the 7-Zip package, mark all zips, right mouse button-drag them to another folder, and select extract-to-folder from the context menu. Then when it's done, delete the zips. Piece of cake ...
+//joda"
+[T],magumagu,2008-01-25T10:29Z,"New release to prepare for #2000:
+http://thepiratebay.org/tor/3994721/Joda_rompack_for_the_Nintendo_DS_%5B0001-0500%5D
+//joda"
+,ikakashi,2008-02-01T23:18Z,"I'm sorry, but I'm looking for these two roms, Nazotte Oboeru Otona no Kanji Renshuu Kanzenhan and ageyama Method: Tadashii Kanji Kakitori-Kun - Kondo wa Kanken Taidaku Dayo and I can't find them anywhere, they were released in November. Maybe you can help Joda? "
+,ikakashi,2008-02-01T23:19Z,err Kageyama not ageyama

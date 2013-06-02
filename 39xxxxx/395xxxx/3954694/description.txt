@@ -1,0 +1,236 @@
+Windows XP Post SP2 Updater (x86) - by eXPerience
+
+With this "Windows XP Post SP2 Updater" you can update Windows XP SP2
+Home Edition, Professional Edition or Media Center Edition (x86 only)
+without the need to visit Windows Update.
+
+-=REQUIREMENTS=-
+
+*Windows XP SP2*
+You must be using Windows XP with SP2. DO NOT RUN THIS PACKAGE FOR ANY OTHER
+VERSION OF WINDOWS! Home/Professional/MCE are all fine as long as it is
+Windows XP with Service Pack 2 installed.
+
+*32-Bit (x86) ONLY*
+Windows XP must be the 32-Bit (also known as the "x86" version) NOT FOR x64!
+
+*ENGLISH ONLY*
+Windows XP must be the ENGLISH Version! Only English Hotfixes are supported!
+
+-=YOU HAVE TWO BASIC CHOICES=-
+
+*DOWNLOAD*
+Run the DOWNLOAD.bat file to *JUST* download all hotfixes, without actually
+installing any of them. This DOWNLOAD file downloads every hotfix that could
+possibly be needed, regardless of whether your system needs them or not. This
+is so you can have a fully updated package of hotfixes (if you are running
+Windows XP: see the "XPHF" folder. If you are running Windows Server 2003:
+see the "S2003HF" folder) for future use on other systems that might be offline.
+If you want to burn this package to a CD-R or DVD-R, please make certain that
+you have run the DOWNLOAD.bat file first! Otherwise the INSTALL file will not
+work from a CD/DVD because it would be trying to download missing hotfixes
+(if any) to a read only environment (the CD/DVD).
+
+*INSTALL*
+Run the INSTALL.bat file to download AND install only the hotfixes your system
+needs. Remember, this will NOT download every single hotfix like the DOWNLOAD.bat
+file does. Only the other file (DOWNLOAD.bat) can download all the hotfixes.
+
+-=AUTOMATICALLY CHECKS FOR CORRUPTED DOWNLOADS=-
+
+When you run the DOWNLOAD.bat file and it has completely downloadd all the files,
+a small program will run to check the file integrity (in case there is a corrupt
+or incomplete download).
+
+This check is done automatically at the end of the download process (DOWNLOAD.bat)
+
+If you see any messages at the bottom of the SFV Checker Window saying:
+
+"MISSING" = Re-run the DOWNLOAD.bat file to re-download the missing file(s)
+
+"BAD" = This means you have the file, but it is corrupted or incomplete, if
+this happens - delete that "BAD" file and run DOWNLOAD.bat again.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Remember - you cannot just run the INSTALL.bat file from a CD unless you have
+first ran the DOWNLOAD.bat file on a hard drive to actually get all the hotfixes
+you need. Its no use wasting a CD-R and burning these hotfixes unless you know you
+have a complete set of fully completed downloaded hotfixes. Be warned, WGET does
+sometimes fail to completely download files - this is why I have included the
+file checker, but that runs on its own at the end of the DOWNLOAD.bat file
+automatically, so you do not need to do anything with that SFV Checker, apart
+from just to make sure there are no "MISSING" or "BAD" files when it has checked
+the files for you.
+
+Once you have downloaded all hotfixes and verified that they are all good files,
+you can run the INSTALL.bat file on any system, whether it is online or offline,
+or you can even burn the package to a CD-R and use the INSTALL.bat file that way.
+
+NOTE: You cannot run the Windows XP bat files on Windows Server 2003 and you cannot
+run the Windows Server 2003 bat files on Windows XP!
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+This package is especially useful if you have a system that you absolutely do not
+want to connect to the internet before Windows is fully patched, or maybe you have
+a system with Windows on it that you simply never connect to the internet with, or
+perhaps you can't connect to the internet and never need to. There are many
+situations where an "offline" updater package such as this will save you a lot
+of manually installing all the hotfixes, of course thats after you have also
+spent hours finding out which ones you need and downloading them all, link
+after link after link...
+
+What this package includes:
+
+This package is purposely kept as minimalistic as possible.
+
+The only things this package contains are:
+
+1) cSFV.exe ----------> (to check the integrity of your downloaded hotfixes)
+2) taskkill.exe ------> (required for Windows XP Home Edition)
+3) WGET.exe ----------> (used by the bat files for downloading on the command line).
+4) Two batch files ---> (DOWNLOAD.bat, INSTALL.bat)
+5) This ReadMe.txt file.
+
+The only files you ever need to run are "INSTALL.bat" or "DOWNLOAD.bat"
+
+The way this works is, you can install Windows that does not have any hotfixes
+installed (the only hotfix would be Service Pack 2 itself of course), you don't
+need to have Internet Explorer 7 either, just run the "INSTALL.bat" file and
+thats it - the bat file will check which hotfixes you need and download and
+install only those that you need. If you need Internet Explorer 7 installing,
+it will even check for Internet Explorer 7 and download and install it if you
+need it.
+
+The INSTALL.bat file will always install IE7 first if you need it installing,
+(also Windows Media Player 11 if you're running Windows XP) then all the other
+hotfixes will install, including checks for if you have installed any of the
+components from "Add/Remove Windows Components" and also if you have installed
+the "Microsoft .NET Framework" (all versions). Those items may also need
+hotfixes of their own.
+
+NOTE: If you do need Internet Explorer 7, on the first run of the INSTALL.bat
+file it will download IE7 hotfixes but it will not install them, you will need
+to reboot Windows so that Internet Explorer 7 is fully working, then run the
+INSTALL.bat file again and it will install the already downloaded IE7 hotfixes.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+If your firewall asks to allow wget.exe to connect - allow it.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+-=HERE IS A HELP GUIDE OF FREQUENTLY ASKED QUESTIONS=-
+
+Question: I ran "INSTALL.bat" but it just scrolled
+through really fast and nothing seemed to install?
+
+Answer: Thats because you already have everything
+downloaded and your system is totally up to date!
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Question: I ran "DOWNLOAD.bat" but it just scrolled
+through really fast and nothing seemed to download?
+
+Answer: Thats because you already have everything downloaded!
+You will know this if the SFV check runs at the end of the
+download process and you do not see any "MISSING" or "BAD"
+error messages at the bottom of the SFV Checker window.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Question: I already have a lot of Windows hotfixes, can I just dump
+them all inside the hotfix folder to save having to download them all?
+
+Answer: You sure can! If you already have Windows hotfixes just copy
+them to the folder where all the hotfixes are and then run DOWNLOAD.bat,
+only the missing hotfixes will be downloaded and whatever hotfixes you
+put there will be ignored by the DOWNLOAD.bat file.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Question: What is WGET?
+
+Answer: Its the Windows version of a Linux based app called "wget.exe" that
+downloads all the hotfixes on the command line. Allow it in your firewall
+if your firewall asks! MD5 for wget.exe = 4bf24777ec95dcb3e03769def6816518
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Question: When I ran INSTALL.bat, I got an error saying the hotfix is "not a
+valid Win32 application" and it wouldn't install?
+
+Answer: This happens if your connection drops whilst the hotfix is downloading,
+or if you close DOWNLOAD.bat or INSTALL.bat whilst they are still downloading
+files. Please read this guide again where it has the heading:
+-=AUTOMATICALLY CHECKS FOR CORRUPTED DOWNLOADS=-
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Question: I ran the INSTALL.bat file after downloading all hotfixes with the
+other file (DOWNLOAD.bat) and it did the SFV check, everything is all OK, but
+the INSTALL.bat file did not install any Internet Explorer 7 hotfixes?
+
+Answer: This is because you need to reboot for IE7 itself to be fully working
+if you have gone from IE6 to IE7. So if you have a system that only has IE6
+on it, just run the INSTALL.bat file (or the DOWNLOAD.bat file if you need
+to get the hotfixes downloaded first), then reboot, then run the INSTALL.bat
+file again and the IE7 hotfixes will install.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Question: I ran the INSTALL.bat file, downloaded and installed all updates. Now
+a few hours/days later I visit Windows Update and it says I require the hotfix
+KB917537 even though this hotfix is in the folder of hotfixes and also, I have
+run the INSTALL.bat file again, but Windows Update says I still need KB917537,
+whats going on?
+
+Answer: This happens if you install KB917537 then after that, you install the
+optional component "Internet Information Services (IIS)" from: Control Panel >
+Add/Remove Programs > Add/Remove Windows Components. You should always make
+sure to install any of those optional components from "Add/Remove Windows
+Components" BEFORE updating Windows with these bat files. The only solution
+to this problem is to manually re-install the KB917537 hotfix from the hotfix
+folder *IF* you have installed Internet Information Services (IIS).
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Question: I am running a non-genuine version of Windows XP?
+
+Answer: Naughty. You do realise this package TOTALLY 100% patches XP? Yes that
+includes the dreaded tray notifications (only dreaded if you're running a non
+genuine copy) and all the WGA stuff! If you're running a non genuine copy of
+Windows, sorry I can't help you. I suggest if you have to use a pirated copy
+of XP then look for the one called "Student Edition" which has a generic
+product key thousands of people use but it is meant for students so there
+is no activation and it passes all the Windows Genuine Advantage checks.
+NOTE: If you are running Windows Server 2003 then there are no WGA checks
+or hotfixes to worry about.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Question: What about the future?
+
+Answer: When it gets to the next month (Microsoft releases hotfixes on one
+certain day only, each month - this is informally called "Patch Tuesday"
+and is the second Tuesday of each month.
+
+So, I will always provide an updated package each month ASAP after Patch
+Tuesday. This will be made so you simply unzip the new package into the
+same folder as your old package - this way, you will get brand new updated
+files - "DOWNLOAD.bat" and "INSTALL.bat".
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+UPDATING WINDOWS HAS NEVER BEEN SO EASY!
+
+DOWNLOAD.bat and INSTALL.bat written by eXPerience:
+index.php
+
+WGET.exe for Windows distributed under the GNU agreement: 
+http://pages.interlog.com/~tcharron/wgetwin.html
+
+cSFV by Cruzer: 
+http://cruzer.antispam.dk/csfv/download.php

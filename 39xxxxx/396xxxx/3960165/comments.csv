@@ -1,0 +1,35 @@
+﻿User Type,Username,Date,Text
+,iNzANe1000,2008-01-29T12:29Z,"can someone upload swedish maps? or does anyone know where i find them?
+i have i magellan explorer xl "
+,qvboy,2010-12-08T17:47Z,"To reactivate the DEMO-License:
+
+Delete the file ""control.ini"" in
+c:\windows
+
+(Make backup before, just in case..)
+
+Remove following registry-entry:
+HKEY_LOCAL_MACHINE\SOFTWARE\TTQV\4\Settings
+
+I use a batch file to do this every time I start TTQV:
+Create a batch file ""ResetTTQV.bat"" with the following content: (without quotes)
+
+""@echo off
+del c:\windows\control.ini
+regedit.exe /s ResetTTQV_DemoZeit.reg
+start G:\Programme\TTQV4\Ttqv4a.exe""
+
+replace the ""G:\Programme...."" with the directory-path of your installation directory of TTQV
+
+Create a text file ""TTQV_DemoZeit.reg"" with following content: (without quotes) 
+
+""Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\TTQV\4\Settings]""
+
+Save both files in your root directory on drive c:
+and run the batch file to start TTQV.
+
+This will generate a new trial period every time you start TTQV
+
+Note: this will NOT work with TTQV 5.XXX!!!!"

@@ -1,0 +1,403 @@
+--------------------------------------
+DJRavine's Ascent v2.3.0 Server Repack
+Made For WoWclient v2.3.0.6739
+
+RELEASE URL: http://wowps.org/forum/showthread.php?t=2388
+
+CORE: Ascent Rev2427
+DB: NCDB Rev664
+
+INCLUDED TOOLS:
+	- Ecko Tools
+	- ID Search
+	- NCDB Gui
+	- ad.exe for all locales
+--------------------------------------
+
+---------------------------------------------------------------
+HOWTO SETUP AN ASCENT SERVER by DJRavine @ WoWps.org
+---------------------------------------------------------------
+
+This server repack is designed for use with the client and server on the same machine...
+
+MAKE SURE .NET FRAMEWORK 2.0 IS INSTALLED!!!
+
+1. Extract all the files and folders from Ascent v2.3.0 RePack [COMPLETE].rar into the current directory...
+[Assume the current directory is 'C:/Ascent/']...
+
+2. Use SQLyog, and create 2 new databases on your SQL server call them 'ascent_char' & 'ascent_world'...
+
+3. Import the file '/SQL/database_character.sql' into the 'ascent_char' database...
+
+4. Import the file '/SQL/database_world.sql' into the 'ascent_world' database...
+
+5. Copy 'ad_.exe' into your v2.3.0 wow client installation folder...
+
+6. Create a folder called 'maps' in your v2.3.0 wow client installation folder...
+
+7. Run 'ad_.exe'... This will take sum time to extract all the maps...
+
+8. Place the 'maps' folder from your v2.3.0 wow client installation folder into 'C:/Ascent/'...
+
+9. Now we are going to configure the server...
+
+I WOULD SUGGEST YOU READ EACH CONF FILE THOROUGHLY...
+
+Open up ascent.conf file... and the enter your SQL server login infomation...
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+# Database Section
+#
+# Database.Host - The hostname that the database is located on
+# Database.Username - The username used for the mysql connection
+# Database.Password - The password used for the mysql connection
+# Database.Name - The database name
+# Database.Port - Port that MySQL listens on. Usually 3306.
+# Database.Type - Client to use. 1 = MySQL, 2 = PostgreSQL, 3 = Oracle 10g
+#
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+<WorldDatabase Hostname = "host" Username = "username" Password = "passwd" Name = "database" Port = "3306" Type = "1">
+<CharacterDatabase Hostname = "host" Username = "username" Password = "passwd" Name = "database" Port = "3306" Type = "1">
+
+9. Open up logonserver.conf file... and the enter your SQL server login infomation...
+
+
+Quote:
+# LogonDatabase Section
+#
+# These directives are the location of the `realms` and `accounts`
+# tables.
+#
+# LogonDatabase.Host - The hostname that the database is located on
+# LogonDatabase.Username - The username used for the mysql connection
+# LogonDatabase.Password - The password used for the mysql connection
+# LogonDatabase.Name - The database name
+# LogonDatabase.Port - Port that MySQL listens on. Usually 3306.
+# LogonDatabase.Type - Client to use. 1 = MySQL, 2 = PostgreSQL, 3 = Oracle 10g
+#
+
+<LogonDatabase Hostname = "host"
+Username = "user"
+Password = "pass"
+Name = "dbname"
+Port = "3306"
+Type = "1">
+
+10. LOCAL or LAN or WAN Setup...
+Here is the spot to edit if you want to get your server networking or online...
+Open up realms.conf file... you can modify the names if you like, not important tho...
+
+
+#---------------------------------------------------------------------------
+#
+# -> To set this as a network server set this to ur LAN IP address
+# eg. <LogonServer Address = "192.168.0.5"
+# -> To set this as a online server set this to ur WAN IP address
+# eg. <LogonServer Address = "210.55.66.248"
+#
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+<LogonServer Address = "127.0.0.1"
+Port = "8093"
+Name = "WoWps.org Logon"
+RealmCount = "1">
+
+#---------------------------------------------------------------------------
+#
+# -> To set this as a network server set this to ur LAN IP address
+# eg. Address = "192.168.0.5:8129"
+# -> To set this as a online server set this to ur WAN IP address
+# eg. Address = "210.55.66.248:8129"
+#
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+<Realm1 Name = "WoWps.org"
+Address = "127.0.0.1:8129"
+Icon = "PVP"
+Colour = "1"
+Population = "1.0"
+TimeZone = "1">
+
+11. Load up logonserver.exe and antrix.exe... They should load and stay open...
+
+LOG - ASCENT.EXE
+
+Ascent 2.5-TRUNK r2422/Release-Win32-X86 :: World Server
+Copyright (C) 2005-2007 Ascent Team. http://www.ascentemu.com/
+This program comes with ABSOLUTELY NO WARRANTY, and is FREE SOFTWARE.
+You are welcome to redistribute it under the terms of the GNU General
+Public License, either version 3 or any later version. For a copy of
+this license, see the COPYING file provided with this distribution.
+
+The key combination <Ctrl-C> will safely shut down the server at any time.
+
+14:16 S Rnd: Initialized Random Number Generators.
+14:16 D ThreadPool: Thread 9128 entered the free pool.
+14:16 D ThreadPool: Startup, launched 5 threads.
+14:16 D ThreadPool: Thread 9504 entered the free pool.
+14:16 D ThreadPool: Thread 9620 entered the free pool.
+14:16 D ThreadPool: Thread 8408 entered the free pool.
+14:16 D ThreadPool: Thread 9200 entered the free pool.
+14:16 D ThreadPool: IntegrityCheck: Perfect!
+14:16 N Config: Loading Config Files...
+
+14:16 S Config: >> ascent.conf
+14:16 S Config: >> realms.conf
+14:16 N Database: Connecting to MySQL on ********* with (********* : *********)
+14:16 D ThreadPool: Thread 9128 left the thread pool.
+14:16 D ThreadPool: Thread 9128 is now executing task at 0x01C76CE8.
+14:16 N Database: Connecting to MySQL on ********* with (********* : *********)
+14:16 D ThreadPool: Thread 8408 left the thread pool.
+14:16 D ThreadPool: Thread 8408 is now executing task at 0x01C76E78.
+
+
+
+14:16 N World: Loading DBC files...
+14:16 N DBC: Loading DBC/ItemSet.dbc.
+14:16 N DBC: Loading DBC/Lock.dbc.
+14:16 N DBC: Loading DBC/EmotesText.dbc.
+14:16 N DBC: Loading DBC/SkillLineAbility.dbc.
+14:16 N DBC: Loading DBC/SpellItemEnchantment.dbc.
+14:16 N DBC: Loading DBC/GemProperties.dbc.
+14:16 N DBC: Loading DBC/SkillLine.dbc.
+14:16 N DBC: Loading DBC/Spell.dbc.
+14:16 N DBC: Loading DBC/ItemExtendedCost.dbc.
+14:16 N DBC: Loading DBC/Talent.dbc.
+14:16 N DBC: Loading DBC/SpellCastTimes.dbc.
+14:16 N DBC: Loading DBC/SpellRadius.dbc.
+14:16 N DBC: Loading DBC/SpellRange.dbc.
+14:16 N DBC: Loading DBC/SpellDuration.dbc.
+14:16 N DBC: Loading DBC/ItemRandomProperties.dbc.
+14:16 N DBC: Loading DBC/AreaTable.dbc.
+14:16 N DBC: Loading DBC/FactionTemplate.dbc.
+14:16 N DBC: Loading DBC/Faction.dbc.
+14:16 N DBC: Loading DBC/TaxiNodes.dbc.
+14:16 N DBC: Loading DBC/TaxiPath.dbc.
+14:16 N DBC: Loading DBC/TaxiPathNode.dbc.
+14:16 N DBC: Loading DBC/CreatureSpellData.dbc.
+14:16 N DBC: Loading DBC/CreatureFamily.dbc.
+14:16 N DBC: Loading DBC/ChrRaces.dbc.
+14:16 N DBC: Loading DBC/ChrClasses.dbc.
+14:16 N DBC: Loading DBC/Map.dbc.
+14:16 N DBC: Loading DBC/AuctionHouse.dbc.
+14:16 N DBC: Loading DBC/ItemRandomSuffix.dbc.
+
+14:16 N World: Beginning parallel server startup with 4 threads.
+
+14:16 N ObjectMgr: 1 players loaded.
+14:16 N Storage: 14107 entries loaded from table creature_names.
+14:16 N Storage: 12412 entries loaded from table gameobject_names.
+14:16 N Storage: 710 entries loaded from table areatriggers.
+14:16 N Storage: 912 entries loaded from table itempages.
+14:16 N Storage: 13818 entries loaded from table creature_proto.
+14:16 N Storage: 384 entries loaded from table graveyards.
+14:16 N Storage: 59 entries loaded from table teleport_coords.
+14:16 N Storage: 328 entries loaded from table fishing.
+14:16 N Storage: 2987 entries loaded from table npc_text.
+14:16 N Storage: 61 entries loaded from table worldmap_info.
+14:16 N Storage: 22 entries loaded from table zoneguards.
+14:16 N ObjectMgr: 52 player create infos loaded.
+14:16 N ObjectMgr: 52 level up informations generated.
+14:16 N Storage: 5173 entries loaded from table quests.
+14:16 N Storage: 22217 entries loaded from table items.
+14:16 N ObjectMgr: 107 totem spells loaded.
+14:16 N ObjectMgr: 6659 spell skills loaded.
+14:16 N ObjectMgr: 0 disabled spells.
+14:16 N ObjectMgr: 43 spell overrides loaded.
+14:16 N ObjectMgr: 1386 vendors loaded.
+14:16 N ObjectMgr: 69 spell threats loaded.
+14:16 N ObjectMgr: HighGuid(CORPSE) = 0
+14:16 N ObjectMgr: HighGuid(PLAYER) = 1
+14:16 N ObjectMgr: HighGuid(GAMEOBJ) = 33874
+14:16 N ObjectMgr: HighGuid(UNIT) = 85672
+14:16 N ObjectMgr: HighGuid(ITEM) = 7
+14:16 N ObjectMgr: HighGuid(CONTAINER) = 7
+14:16 N ObjectMgr: HighGuid(GROUP) = 0
+14:16 N ObjectMgr: HighGuid(CHARTER) = 0
+14:16 N ObjectMgr: 981 reputation modifiers on reputation_creature_onkill.
+14:16 N ObjectMgr: 0 reputation modifiers on reputation_faction_onkill.
+14:16 N ObjectMgr: 223 monster say events loaded.
+14:16 N WeatherMgr: Loaded weather information for 51 zones.
+14:16 N ObjectMgr: 0 groups loaded.
+14:16 N ObjectMgr: 89 NPC Gossip TextIds loaded.
+14:16 N ObjectMgr: 40639 waypoints cached.
+14:16 N ObjectMgr: 678 trainers loaded.
+14:16 N ObjectMgr: 456 spell fixes loaded.
+
+14:16 N World: Database loaded in 9312ms.
+
+14:16 N Map: 363 creatures / 2 gameobjects on map 532 cached.
+14:16 N Map: 22 creatures / 51 gameobjects on map 369 cached.
+14:16 N InstanceMgr: Creating static instance 1 on map 369.
+14:16 N Map: 90 creatures / 2 gameobjects on map 34 cached.
+14:16 N Map: 5 creatures / 44 gameobjects on map 249 cached.
+14:16 N Map: 502 creatures / 373 gameobjects on map 229 cached.
+14:16 N Map: 306 creatures / 103 gameobjects on map 469 cached.
+14:16 N Map: 222 creatures / 25 gameobjects on map 48 cached.
+14:16 N Map: 1065 creatures / 432 gameobjects on map 230 cached.
+14:16 N Map: 211 creatures / 26 gameobjects on map 36 cached.
+14:16 N Map: 811 creatures / 90 gameobjects on map 429 cached.
+14:16 N Map: 404 creatures / 89 gameobjects on map 90 cached.
+14:16 N Map: 22515 creatures / 12468 gameobjects on map 0 cached.
+14:16 N InstanceMgr: Creating static instance 2 on map 0.
+14:16 N Map: 182 creatures / 3 gameobjects on map 409 cached.
+14:16 N Map: 611 creatures / 24 gameobjects on map 349 cached.
+14:16 N Map: 206 creatures / 47 gameobjects on map 47 cached.
+14:16 N Map: 272 creatures / 64 gameobjects on map 129 cached.
+14:16 N Map: 25223 creatures / 8327 gameobjects on map 530 cached.
+14:16 N Map: 329 creatures / 90 gameobjects on map 189 cached.
+14:16 N InstanceMgr: Creating static instance 3 on map 530.
+14:16 N Map: 404 creatures / 62 gameobjects on map 289 cached.
+14:16 N Map: 143 creatures / 32 gameobjects on map 33 cached.
+14:16 N Map: 377 creatures / 163 gameobjects on map 329 cached.
+14:16 N Map: 356 creatures / 74 gameobjects on map 109 cached.
+14:16 N Map: 25397 creatures / 10455 gameobjects on map 1 cached.
+14:16 N InstanceMgr: Creating static instance 4 on map 1.
+14:16 N Map: 313 creatures / 76 gameobjects on map 43 cached.
+14:16 N Map: 260 creatures / 55 gameobjects on map 209 cached.
+14:16 N Map: 261 creatures / 180 gameobjects on map 70 cached.
+14:16 N Map: 724 creatures / 125 gameobjects on map 309 cached.
+14:16 N Map: 143 creatures / 11 gameobjects on map 389 cached.
+14:16 N Map: 13 creatures / 20 gameobjects on map 449 cached.
+14:16 N InstanceMgr: Creating static instance 5 on map 449.
+14:16 N Map: 1152 creatures / 136 gameobjects on map 533 cached.
+14:16 N Map: 98 creatures / 16 gameobjects on map 554 cached.
+14:16 N Map: 13 creatures / 0 gameobjects on map 450 cached.
+14:16 N InstanceMgr: Creating static instance 6 on map 450.
+14:16 N Map: 156 creatures / 0 gameobjects on map 547 cached.
+14:16 N Map: 242 creatures / 0 gameobjects on map 534 cached.
+14:16 N Map: 295 creatures / 1 gameobjects on map 564 cached.
+14:16 N Map: 73 creatures / 0 gameobjects on map 543 cached.
+14:16 N Map: 9 creatures / 1 gameobjects on map 557 cached.
+14:16 N Map: 9 creatures / 0 gameobjects on map 30 cached.
+14:16 N Map: 333 creatures / 171 gameobjects on map 560 cached.
+14:16 N Map: 3 creatures / 0 gameobjects on map 562 cached.
+14:16 N Map: 9 creatures / 0 gameobjects on map 529 cached.
+14:16 N Map: 181 creatures / 15 gameobjects on map 553 cached.
+14:16 N Map: 175 creatures / 15 gameobjects on map 545 cached.
+14:16 N Map: 65 creatures / 2 gameobjects on map 269 cached.
+14:16 N Map: 94 creatures / 0 gameobjects on map 542 cached.
+14:16 N Map: 175 creatures / 0 gameobjects on map 550 cached.
+14:16 N Map: 95 creatures / 0 gameobjects on map 540 cached.
+14:16 N Map: 151 creatures / 1 gameobjects on map 555 cached.
+14:16 N Map: 60 creatures / 1 gameobjects on map 552 cached.
+14:16 N Map: 22 creatures / 0 gameobjects on map 565 cached.
+14:16 N Map: 17 creatures / 0 gameobjects on map 544 cached.
+14:16 N Map: 78 creatures / 2 gameobjects on map 548 cached.
+14:16 N Map: 146 creatures / 0 gameobjects on map 509 cached.
+14:16 N Map: 113 creatures / 0 gameobjects on map 531 cached.
+14:16 N Map: 92 creatures / 0 gameobjects on map 556 cached.
+14:16 N Map: 36 creatures / 0 gameobjects on map 558 cached.
+14:16 N Map: 5 creatures / 0 gameobjects on map 546 cached.
+14:16 N Map: 0 creatures / 0 gameobjects on map 568 cached.
+14:16 N Map: 0 creatures / 0 gameobjects on map 489 cached.
+14:16 N Map: 0 creatures / 0 gameobjects on map 35 cached.
+14:16 N Map: 0 creatures / 0 gameobjects on map 169 cached.
+14:16 N InstanceMgr: Creating static instance 7 on map 169.
+14:16 N InstanceMgr: Deleting Expired Instances...
+14:16 N InstanceMgr: Loading 0 saved instances.
+
+14:16 N World: Processing 32833 spells...
+14:16 N World: Starting Transport System...
+14:16 N ObjectMgr: Loading Transports...
+14:16 N World: Starting Auction System...
+14:16 N AuctionMgr: Loading Auction Houses...
+14:16 N World: Backgrounding loot loading...
+14:16 N BattlegroundManager: Starting...
+14:16 N DayWatcherThread: Started.
+Starting network subsystem...
+IOCP: Spawning 2 worker threads.
+Loading External Script Libraries...
+
+GossipScripts.dll : 0x02290000 : v3.0 : loaded.
+InstanceScripts.dll : 0x00A70000 : v3.0 : loaded.
+ServerStatusPlugin.dll : 0x02370000 : v3.0 : loaded.
+SpellHandlers.dll : 0x015E0000 : v3.0 : loaded.
+
+Loaded 4 external libraries.
+
+
+Server is ready for connections. Startup time: 12391ms
+
+14:16 N LogonCommClient: Attempting to connect to logon server...
+14:16 N LogonCommClient: Connecting to logonserver on `127.0.0.1:8093`...
+14:16 N LogonCommClient: Authenticating...
+14:16 N LogonCommClient: Authentication succeeded.
+14:16 N LogonCommClient: Registering Realms...
+14:16 N LogonCommClient: Realm `WoWps.org Realm` registered as realm 2.
+14:16 N LogonCommClient: Build character mapping in 0ms. (1)
+14:16 N LogonCommClient: Logonserver latency is 0ms.
+> DJRAVINE authenticated from 127.0.0.1:56805 [32ms]
+Player Djravine logged in.
+
+LOG - LOGONSERVER.EXE
+
+Ascent 2.5-TRUNK r2422/Release-Win32 (X86) :: Logon Server
+================================================== ============================
+
+The key combination <Ctrl-C> will safely shut down the server at any time.
+
+14:09 N System: Initializing Random Number Generators...
+14:09 N Config: Loading Config Files...
+14:09 S Config: >> logonserver.conf
+14:09 N ThreadMgr: Starting...
+14:09 D ThreadPool: Startup, launched 5 threads.
+14:09 D ThreadPool: Thread 8424 entered the free pool.
+14:09 D ThreadPool: Thread 8868 entered the free pool.
+14:09 D ThreadPool: Thread 7588 entered the free pool.
+14:09 D ThreadPool: Thread 10084 entered the free pool.
+14:09 D ThreadPool: Thread 9172 entered the free pool.
+14:09 D ThreadPool: IntegrityCheck: Perfect!
+14:09 N Database: Connecting to MySQL on ********* with (********* : *********)
+14:09 D ThreadPool: Thread 7588 left the thread pool.
+14:09 D ThreadPool: Thread 7588 is now executing task at 0x02731DE8.
+14:09 N AccountMgr: Starting...
+14:09 N InfoCore: Starting...
+14:09 N PatchMgr: Loading Patches...
+14:09 N AccountMgr: Precaching accounts...
+14:09 N AccountMgr: 1 accounts are loaded and ready.
+
+14:09 D ThreadPool: Thread 8868 left the thread pool.
+14:09 D ThreadPool: Thread 8868 is now executing task at 0x0056A450.
+14:09 D ThreadPool: Thread 9172 left the thread pool.
+14:09 D ThreadPool: Thread 9172 is now executing task at 0x005615D8.
+IOCP: Spawning 2 worker threads.
+14:09 D ThreadPool: Thread 8424 left the thread pool.
+14:09 D ThreadPool: Thread 8424 is now executing task at 0x005650E0.
+14:09 D ThreadPool: Thread 10084 left the thread pool.
+14:09 D ThreadPool: Thread 10084 is now executing task at 0x00560FD0.
+14:09 D ThreadPool: Thread 6888 is now executing task at 0x027309D8.
+14:09 D ThreadPool: Thread 9260 is now executing task at 0x02730B40.
+Hooking signals...
+Authentication request from 127.0.0.1, result OK.
+Key: A3B6B0D4DC50BC5C263EE44F9F9867C4F0B13FBD
+Registering realm `WoWps.org Realm` under ID 1.
+
+12. Open up your SQL Server and create a new entry in the 'accounts' table...
+Check the premade entries if you need help...
+Make sure you set the 'flags' field to '8'... or BC will not be enabled...
+
+13. LOCAL or LAN or WAN Setup...
+Now to setup ur client for connection...
+
+Quote:
+For a Local game only...
+Set your clients realmlist to 127.0.0.1...
+
+----------- OR -----------
+
+For a Network game setup...
+Set your clients realmlist to the server's LAN IP...
+
+----------- OR -----------
+
+For a Online game setup...
+Set your clients realmlist to the server's WAN IP...
+NOTE: You dont have to worry about the patchlist...
+Tho if you want to change it its fine to stop auto updates...
+
+14. Then connect ... Enjoy...
+
+
+--------------------------------------

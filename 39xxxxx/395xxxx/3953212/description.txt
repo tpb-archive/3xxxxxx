@@ -1,0 +1,14 @@
+ http://events.ccc.de/congress/2007/Fahrplan/events/2131.en.html
+
+Speakers:     	 FX of Phenoelit
+	fabs
+
+Port Scanning improved
+
+New ideas for old practices
+
+Port-Scanning large networks can take ages. Asking yourself how much of this time is really necessary and how much you can blame on the port-scanner, you may find yourself integrating your own scanner into the linux-kernel. Or at least we did.
+
+How fast a port-scan can be is largely dependent on the performance of the network in question. Nonetheless, it is clear that choosing the most efficient scanning-speed is only possible based on sufficient information on the network's performance. We have thus designed and implemented a port-scanning method which provokes extra network-activity to increase the amount of information at our disposal in an attempt to gain speed on the long run. Further tweaking the actual implementation by integrating it into the linux-kernel left us with a port-scanner ready to tackle big networks at an impressive speed.
+
+The presentation will also include thoughts and motivations why we decided to work on topics that are largely considered "done" by the community and why such considerations may be interesting to other researchers.

@@ -1,0 +1,8 @@
+changelog for 1.0i to 1.0ir2:
+
+- Intel sse2/sse3 cpu support, this should also solve the instant reboot problems on non-Intel motherboards
+- extended x3100 support
+- more jmicron and one ich9r id added
+- darwin bootloader installation automatized, noone ever had a look at the installation guide that i wrote for darwin_boot.app, so..
+- realtek 8139 added
+- ntfs-3g deleted..

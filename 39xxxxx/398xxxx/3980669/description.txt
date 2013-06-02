@@ -1,0 +1,13 @@
+This is a two-part eBook for Encyclopodia ( http://encyclopodia.sourceforge.net/en/index.html ). It is based off the enwiki dump which started on 3 Jan and finished on 7 Jan.
+
+It is split into two parts because iPodLinux (which Encyclopodia is based on) is incapable of opening files which are larger than 2 GiB in size.
+
+Unfortunately, the XML dumps are NOT sorted in alphabetical order. Therefore, there is no way to know which half has the article you want, other than trial and error.
+
+The second half actually contains more articles than the first. For some reason, it just compressed better.
+
+I made this myself using the project's wiki2ebook tool. Splitting the 14 GiB XML file into two parts was rather time consuming. So please, use this and share it with anyone you want, but please do not try to take credit for it or remove my name from the files.
+
+Once downloaded, I recommend verifying the MD5 checksum. Then, simply copy them to the data/encyclopodia/library folder on your iPod. If you have the space, this can be used side-by-side with the project's official eBooks, since the filenames differ.
+
+MANY THANKS TO ROBERT BAMLER for creating Encyclopodia and giving the community access to tools for creating their own eBooks.

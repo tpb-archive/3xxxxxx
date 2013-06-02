@@ -1,0 +1,9 @@
+﻿User Type,Username,Date,Text
+,shatterdoof,2008-01-03T13:19Z,"I get errors from dpkg when trying to install these packages.  When I try to boot off them, I get stuck at ""Booting system..."".
+"
+,isomyy,2008-01-05T22:14Z,"errors during install are probably due to missing firmware directory in /lib/firmware, there should be at least one directory already from your current kernel. Create a symblic link from that to this new kernel: eg:
+cd /lib/firmware
+ln -s ""current_kernel_ver"" \ 2.6.24-rc6-powerpc64-smp-custom
+
+Boot problem: You need updated boot image, I am using this:
+http://www.kernel.org/pub/linux/kernel/people/geoff/cell/CELL-Linux-CL_20071220-ADDON/PS3/otheros/otheros.bld"

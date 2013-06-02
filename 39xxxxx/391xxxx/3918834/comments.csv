@@ -1,0 +1,49 @@
+﻿User Type,Username,Date,Text
+,rogard,2007-12-03T11:49Z,any comments? Is this real?
+,#LOUDmouth#,2007-12-03T12:25Z,"Oh yeah, as real as it gets"
+,rogard,2007-12-03T13:52Z,"Thx for the answer, but honestly, I was hoping for a confirmation by a successful downloader... :-)
+(No offense intended)"
+,rogard,2007-12-03T14:35Z,"Now I've finished downloading, and yes, it's the real thing. Quality is good, thanks a lot #LOUDmouth#.
+
+Sorry I was being skeptical."
+,cinej,2007-12-03T14:50Z,"Thanks, rogard! I downloaded last week's episode (not by #LOUDmouth#) that had off sync audio so I was concerned abt the quality. Many thanks to you, #LOUDmouth#"
+,rogard,2007-12-03T16:00Z,"I had those problems with episode 5 (remax) too. (again, this one, Ep. 6 is fine!)
+
+In case you did not yet download the fixed version,
+here is one possible solution to fix it:
+
+For this procedure you will need ca. 2 GB free hdd space.
+
+open the avi in virtualdub, save audio as wav (File-> Save WAV).
+
+open wav in an audio editor (Cool edit or audacity) (might be necessary to rename to mp3 before opening)
+Go to 0:40:50,500. insert 0,9seconds (900ms) of silence.
+Save as wav. Important, because virtualdub needs wav, not mp3.
+
+Back in virtualdub, set ""video->direct stream copy"", and audio->WAV Audio (open your wav here),
+set ""Audio->Full Processing Mode"", then ""Audio->Compression"" to mp3 CBR 128kbit 48kHz.
+You can use VBR as well, but CBR is safer.
+
+""File->Save as AVI"". Done. All in all this should take around 15 minutes on a mid range PC.
+
+Hope that helps.
+
+rogard"
+,cinej,2007-12-03T16:23Z,"Thanks for the tip! However, I'm running a Mac so I have to find alternative programs to tweak it with."
+,rogard,2007-12-03T19:09Z,"@cinej
+
+mediapipe or avidemux for OS X
+or
+bootcamp->Windows ;-)"
+,BigDickBubba,2007-12-03T22:42Z,"rogard who is gonna do all that extra work because of a wack release ?? just DL the good copy meng @!  2g hard drive space ppfffftt ! 
+
+
+thanks for ep 6 Loudmouth. "
+,rogard,2007-12-03T23:57Z,"@bigdickbubba
+
+first, because the fixed release took some time (2 days or so) to show up, second, it's still faster than downloading another 700MB for most people. Third, because I could do it, fourth, because it might help other people that fifth are still free and welcome to download the fixed version. :-)"
+,BigDickBubba,2007-12-04T03:32Z,Too bad Ewan's wife has that terrible incident with the baboon ! I hope she feels better after her surgery. 
+,ilive4harleys,2008-08-04T01:48Z,"To all who uploaded and seeded...THANK YOU. I am in NYC and was unaware that this or Long Way Round were even ever on. Thanx for uploadng both, this, the original LWR and the LWR SE. I have been riding for 30+ years and this got my willy stiff. 
+Thank you fellow bikers, non-bikers and all who had anything to do with my being able to see these wonderful programs.
+Ironically, I was just watching something on a reality channel here and what are they now airing...Long Way Down :-)   The motorcycle G-Ds work in strange ways.
+Thanx again to all! Assuming you are a guy, may I say you are a gentleman and a scholar ;-)"

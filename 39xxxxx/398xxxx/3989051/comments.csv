@@ -1,0 +1,7 @@
+﻿User Type,Username,Date,Text
+,bluewinger,2008-01-21T21:40Z,"as a comment: Where it says ""cd c:sfmgr"" it should say ""cd c:\sfmgr"". But you probably know that. At dos prompt it is always ""c:\"" when you refere to a directory after."
+,laponist,2008-01-31T17:46Z,"got it... now waiting for V.2
+thnx"
+,racer23h,2008-02-06T21:49Z,my plug ins fail to initialize and ive followed the instructions like they are.
+,bluewinger,2008-02-14T21:52Z,"Strange. I followed the exact steps in the instruction myself, and I also came across the initialize problem in 3ds max. I then manually opened the plugin modifier in 3ds. It's very important to copy the brazil files in the right directory. To be sure, I copied them to the plugin folder, plugin\brazil folder and the 3ds max sub folder (the last one should'nt really be nesessary). It then worked. Remeber to be offline when you use brazil. It somehow gets that its a copy and not bought product. Got the problem, but reinstalled the sfmgr and made sure my computer was'nt online when I started 3ds. It then worked just ok :)"
+,TJB1188,2008-04-16T16:45Z,"I did the steps as it says, then I followed bluewinger's idea and I still cannot get it to work. I get this error when opening 3DS Max: The procedure entry point??-String@@QAE@PAD@Z could not be located in the dynamic link library MACScript.dll"". If yo could please e-mail me at tyler_burgert@hotmail.com and tell me what I did wrong!! lol thanks for the help."

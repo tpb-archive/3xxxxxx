@@ -1,0 +1,40 @@
+READ ME!
+
+This fix is meant to eliminate any need for syncrosoft software!
+
+Install:
+
+1st
+Update your Cubase Studio 4 to to the latest version.
+
+2nd
+32Bit OS:
+Place synsoacc.dll to system32 directory
+
+64Bit OS:
+Place synsoacc.dll to SysWOW64 directory "Not compatible with Cubase 64bit patch"
+
+And thats it!
+
+Notice!
+Only tested working under XP 32/64bit with Cubase Studio version 4.1.1 and Cubase SX 3.1.1.
+
+Cubase 4.1.1 is still extremely bug filled if you recive any crashes/errors it's not due to this fix!
+
+Heres two most common errors:
+Rewire error:   remove rewire.dll from your system32 directory. this file is installed by gigastudio and for some reason cubase 4 doesn't like it.
+Error relating to audioprimitives.opt:   Go to bios and disable Intel Speed Step, C1E or EIST or relative PowerNow! settings in AMD motherboards.
+
+And please..
+This is for trial/learning purpose only If you like the software then buy it!
+Or in the case you just hate syncrosoft crap...
+
+Enjoy!
+
+---------------
+
+Because the file is so small and I'm not going to seed this forever two "more" permanent links to it:
+
+
+
+---------------

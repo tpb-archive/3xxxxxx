@@ -1,0 +1,72 @@
+﻿User Type,Username,Date,Text
+,sennafan,2007-11-28T12:13Z,Is this for Tiger only? The crack crashes instantly on my system (10.5.1).
+,kelpieman,2007-11-28T12:47Z,Nothing happens when using these cracks
+,sennafan,2007-11-28T13:09Z,It's not working on Leopard. But this one works like a charm : http://thepiratebay.org/tor/3873944/Adobe_Design_Suite_Premium_CS3_[k]_Crack_Leopard.zip
+,younglad,2007-11-28T21:28Z,Anyone know if this patches 10.0.1 (CS3 update)?
+,younglad,2007-11-28T21:29Z,"^^ (Photoshop 10.0.1, that is)"
+,The_S0urce,2007-11-28T21:37Z,"I don't think its patched give it a shot and post results, thanks"
+,The_S0urce,2007-11-28T22:33Z,"Just updated my 10.0 to 10.0.1 and still works, so go ahead and update."
+,The_S0urce,2007-11-28T22:34Z,MY MISTAKE DO NOT UPDATE TO 10.0.1 WANTS A SERIAL
+,younglad,2007-11-28T22:48Z,"thanks for the update... can't be bothered to wait any longer for a 10.0.1 crack, so I'll revert to 10.0
+(I heard the cracker for mac cs3 10.0 has retired, so I don't expect a fix soon)"
+,hockpooh,2007-11-29T01:25Z,"Yes, I'm retired, and tired."
+,_miwo_,2007-11-30T12:08Z,hey! is there a crack for AE CS3? 
+,mr.fera,2007-11-30T21:48Z,"Hi guys ;-) maybe it's not the right place for asking... so sorry in advance...
+Is anyone able to run Acrobat pro cs3 on Leopard 10.5.1? How can I do? thanks a lot ;-)"
+,sdscotti,2007-12-02T19:54Z,"This may not be the right place to ask this, but I have CS3 installed on my Mac, I think Demonoid, and it runs great except for when the automatic updater runs.  Is the updater something that needs to be disabled (meaning I can't update?) or is there a way around that?  I haven't tried updated from updates downloaded from the Adobe website."
+,kripto2k,2007-12-08T07:44Z,"The problem with leopard is the libcrypto.0.9.dylib is built for ppc.. you can move it away and copy libcrypto.0.9.7.dylib to libcrypto.0.9.dylib and your apps will once again run..
+
+Apple sucks.."
+,jersey777,2007-12-18T18:04Z,i love this  
+,scrapetorrent,2007-12-26T18:01Z,Anyone has a crack for Photoshop 10.0.1?
+,gellooo,2007-12-27T14:36Z,"How do I work the crack file? I looked at the video instructions and everything seems clear, but when I click on any icon in the Adobe CS3 [k] window I get an error message that the application quit unexpectedly. In other words, I don't get to the window of the cracked app with a ""drop zone"". Can anyone help?"
+,gellooo,2007-12-27T14:37Z,I forgot to say that I'm using Leopard.
+,jojjeberg,2008-01-13T21:42Z,"Please help! Downloaded and installed CS3 Design Premium successfully. I've tried all the different cracks and patches available on Pirate Bay, but nothing works, so I can't open the apps. I use Leopard (10.5.1).
+
+What I gather the problem is the build of the apps. I've got 20070222. Where can I find a crack for that build?
+
+All assistance appreciated!
+
+/ J"
+,o12steppino,2008-01-27T00:19Z,does anyone know if this works for 10.4.10 intel mac?
+,blueberet,2008-01-28T01:46Z,"If you do update to 10.0.1 you will eventually be asked for a serial. The crack won't work with 10.0.1  My only solution was to uninstall, then reinstall 10.0.0 and apply the crack again"
+,thabrandnew007,2008-02-05T06:42Z,"This crack, along with what seems like countless others, uses old versions of the ssl and crypto libraries, and Leopard apparently only installs PPC versions of these libs. So in your favorite Terminal, move the old versions of these libraries out of the way:
+
+$ cd /usr/lib
+$ sudo cp libcrypto.0.9.dylib libcrypto.0.9.dylib.old
+$ sudo cp libssl.0.9.dylib libssl.0.9.dylib.old
+$ sudo ln -sf libcrypto.0.9.7.dylib libcrypto.0.9.dylib
+$ sudo ln -sf libssl.0.9.7.dylib libssl.0.9.dylib"
+,SyncreticRoots,2008-03-08T18:18Z,"Here's the fix:
+
+After extracting the file. Right click and go into get info. on the file.
+
+Select open file using ""Rosetta""
+
+Done."
+,Bonked,2008-03-11T22:21Z,"I keep downloading all these Torrents and the same problem. I have no problem downloading or extracting the files. When i open the Patcher...i get an error stating ""The application quit unexpectedly"" and it never opens. What should I do?"
+,dani1267,2008-03-18T08:02Z,does any one know how to crack the cs3? i downlad the crack prog  but it doesn't work and it says you can not patch this file. Please can yu help me?
+,eltuko,2008-06-21T01:51Z,"I have reed all the comment in the last 2 pages plus y have download the cracks that the page has reach to us...
+im having the same problem with the cracks that i have download it says that i cant patch this file...
+
+the creative suit that i have instaled is the premium cs3 plus it also says that the 30 days have expired is there a way i could make those program to work????????
+
+"
+,eltuko,2008-06-21T01:52Z,other detail is that im using a mac leopard 
+,montypi,2008-07-17T09:19Z,"Can't anyone here read? Stop bitching about this not working on Leapord. Just go to here:
+
+http://thepiratebay.org/tor/3873944/Adobe_Design_Suite_Premium_CS3_[k]_Crack_Leopard.zip"
+,xtoniziz,2008-09-03T00:36Z,"Universal and ULTIMATE and EASIET WAY TO CRACK ANY CS3... 
+1. get the cracks from http://thepiratebay.org/torrent/3912295/Adobe_Creative_Suit_3_(CS3)_Cracks_for_all_applications_MAC
+
+2. right click on you application (eg Photoshop.app) and select show package content
+
+3. move file MACOS which is in the CONTENTS FOLDER to say the desktop completely 
+
+4. then try to drag the application onto the patcher. dnt worry if it say CANNOT APPLY TO THIS FILE or something.
+
+5 copy the MACOS folder which was on your DESKTOP back into the CONTENTS FOLDER
+
+6 NOW drag the .app file onto the PATCHER.. and wait... thats you!!!!!!!!!!!!
+
+and months of trying all other ways i resolved to trying something stupid which worked...lol goin to do a video on youtube to prove this.. good luck guys"

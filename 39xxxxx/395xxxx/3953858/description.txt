@@ -1,0 +1,101 @@
+For those who are suffering from the zip file, I am uploading only the iso file.
+
+
+-------------
+on December 30, 2007, 02:45:15 PM 
+
+Hey,
+
+I┬┤m still not able to extract the zip.file. I tried any software on Windows and Mac but I only get errors. The files I tried are the ones uploaded on tpb a week ago. Is there any way to download the iso itself, are there other torrents that might work better, could anyone of you maybe upload a new torrent with the iso??
+-------------
+
+
+KALYWAY LEOPARD 10.5.1 intel SSE2 and SSE3 Only (with 512 MB of RAM)!!! efi v8
+
+All IchX and Jmicron compatible !!!
+
+but still problem with ide dvdrom on jmicron controller!
+
+Read carefully !!! 
+ 
+
+designed and repacked by KALYWAY! 
+additionnal scripting and customs drivers by DUNE !
+
+you can try vanilla kernel at dvd boot ! just type vanilla after f8 !!!
+
+you can use Diskutility to format the whole hd as you want ( guid or mbr)! 
+
+then select custom install !!!
+
+this installer will set hd bootable for you !
+
+just have to select boot guid or boot mbr depending on what partition map you have chosen before with diskutility
+!
+CAUTION for mbr choice: we advise you to use an empty disk but if you have no other choice than installing Leo on a disk where windows is already installed, you should be aware of that
+the installer will active the leo partition, so to be able to boot again on your windows,
+you should install a bootloader (eg. Grub) , or you can active back the windows partition with fdisk and
+use chain0 (if your leo partition is under the 200gb of the HD).
+
+FIXES include : x11 update (resolve issue wit gimp and some x11 app! ; directoryservices ; otools (resolve packages maker crashes)
+
+Some drivers extras setting are present (Only select one driver for each section!! ) 
+
+sleep kernel 9.1 install by default ! 
+
+intel sse2 system
+
+video drivers
+audio drivers
+network drivers
+
+Vanilla kernel and acpi vanilla (wit reboot fix and ps2 support) ( you must select both of them)
+
+bootloader (guid or mbr)
+
+Additionnals applications ! 
+
+fairmount (dvd decript that work with vlc)
+VLC (video players for divx and various format)
+perian codec for quicktime (divx and various unsupported quicktime formats)
+Better zip (archive utility)
+Pacifist (pkg extractor and installer)
+kexthelper ( kext installer for noobz)
+transmission ( light weight torrent client)
+Google notifier (menubar notifier for your gmail account)
+PPF-O-Matic ( utility for applying ppf patch)
+stuffit expander ( for extract sit rar and zip archives)
+Change finder ( make visible or invisible system files)
+Colloquy (irc client)
+Solarseek (soulseek client)
+
+
+i have make a restore app ! 
+
+for Restore_Factory_Desktop_finder_settings
+Restore_Factory_Desktop_Finder_settings (default background,icons,dock)
+
+for change orange colour in window finder! right click on orange colour then Show view options and select background white !! use by default !
+
+new users accounts will be virgin ! CAN BE USED ON ALL 10.5.x DISTRO !!!
+
+it's all !!
+
+MD5 for KALYWAY_LEO_10.5.1_intell_SSE2_SSE3.zip
+aff692cfe4daaae471f528974f5bac07
+
+MD5 for kalyway_leo_10.5.1.iso
+f8546bde2a5b3c7dff47f2aab31862a9
+
+THANKS TO ALL OSX86 COMMUNITY and TEAM OF HACKINTOSH !!
+
+Specials thanks to netkas , def , turbo ; asap , jccool ,joblo,dan , rofl , joe75 , kabyl , chival4ry and all the others !!!
+
+To Apple:
+
+Think of this as of a demo version and as of a free marketing campaign. Therefore, let it be
+
+ENJOY ! if you love MacOSX think to buy it !!!
+This DVD should only be used to preview Mac OS X Leopard. If you really like Mac OS X Leopard and you want to use it,
+
+you should get a real Mac. If buying a real Mac is too much, you can, at least, buy a license for Mac OS X Leopard.

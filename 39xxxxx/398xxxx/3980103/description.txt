@@ -1,0 +1,17 @@
+Wow ZoloFighter
+
+ZoloFighter is a world of warcraft bot/javascript platform. The basic mode is easy to use, and for advanced users, zoloFighter has full javascript support to automate all aspect of WOW grinding and fishing. Simple tutorials now available.
+
+    * Click here to go to the download page
+    * Support npc sale waypoints.
+    * You can remotely control your bot now with some script/telnet (Advanced users only). Just set SRVROOT:1234 (or any port number) and telnet to that port to issue commands. Use javascript to get commands and do whatever you want to do to them. Will publish examples later.
+    * Added fishing mode, so you can use profile to run to fishing postion and fish, and if mobs attacking you, it will fight back now (Still in testing). I will put tutorial for how to do it in forum sometime next week.
+    * Supports UNICODE.
+    * Javascript enabled, you can now check your inventory, check players around you, check whispers. Check the script.js file for examples.
+    * Multiple running mode, ability to chain profiles through profile script (see p3.txt)
+    * Warden safe. Please do the following:
+          o Enable guest account. Guest account is used to launch WOW as an extra step to prevent detection.
+          o Run Fisher/Fighter under admin mode, and ONLY lunch WOW with the "Launch WOW" button
+          o If you use non-english version of windows, please modify GUEST: parameter in settings.txt to reflect the Guest user name for your version of windows.
+          o Don't bot in populated areas. Other players will eventually notice you are a bot
+          o Don't be too greedy, only sale small amount of your loot via AH. 

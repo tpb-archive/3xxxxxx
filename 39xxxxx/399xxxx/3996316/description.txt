@@ -1,0 +1,70 @@
+Nowadays nearly every office working place is equipped with a PC. According to several surveys, in 2003 each PC within a network environment was supplied with software of any kind between 9 to 12 times. Facing the fact, that IT staff is reduced more and more due to increasing cost pressure and that at the same time administration and installation tasks become increasingly time consuming, companies with more the 50 PCs cannot do without a system-management-tool.
+
+By baramundi Management Suite the largest part of the total costs of ownership, i.e. 88% of it, will be reduced by minimizing the expenses for initial installations and re-installations as well as maintenance and management of the systems.
+
+baramundi Management Suite
+All features required to ensure a comprehensive life-cycle-management of PCs are integrated in the baramundi Management Suite.
+Due to the modular structure, baramundi Management Suite allows for all sorts of the operational corporate requirements.
+
+According to the requested features, baramundi Management Suite comprises from one or several modules:
+
+    * baramundi OS-Install
+      For the installation of the operating system baramundi OS-Install uses the mechanism (unattended.txt) predefined by Microsoft. Like this you obtain a maximum of flexibility. The maintenance of this control file is done completely by baramundi OS-Install. The basis for the entries is the data administrated in the graphic surface. Each single client is considered individually und receives its own, optimal fitted unattended-file. This enables the automated installation of even difficult hardware.
+
+    * baramundi Deploy incl. HTML- SoftwareKiosk
+      baramundi Deploy simply and reliably installs and uninstalls any software. All settings are made at one central point, so the installation can pass through fully automated afterwards. The supervision of the complete application process is ensured all the time, as all information is reported to the server virtually in real-time.
+
+    * baramundi Inventory
+      baramundi Inventory provides exact information about the status of your client systems. The hardware inventory captures more than 1,000 detail values per client. The software inventory supplies precise information about the software status of each client on the basis of a file analysis and rules.
+
+as well as the AddOns:
+
+    * baramundi Remote Control (remote control of clients)
+
+    * Scripting Studio
+      Nearly all existing setups within an automation environment provide the possibility for automation on the part of the respective manufacturer.
+      Unfortunately not all applications can by automated this way. Depending on the composition of your software portfolio, 5 to 20 per cent of software to be automated is concerned.
+      baramundi Scripting Studio just aims at this case. Parallel to the setup a script is started which controls the setup. By simulating inputs and mouse clicks an installation can be fully automated reliably.
+
+    * Packaging Studio
+      baramundi Package Studio offers system administrators everything needed to successfully and rapidly migrate enterprise software to Windows Installer (MSI).
+      With baramundi Package Studio you take full advantage of all benefits such a migration provides ? auto-repair of installations, installation-on-demand, rollback of abortive installations and clean uninstallation. This translates to immediate cost of ownership savings.
+
+Irrespective of the licensed modules, the scope of delivery includes:
+
+    * baramundi Management Center for administration
+
+    * baramundi Management Server Service and further system components
+
+    * baramundi database (System Repository)
+
+baramundi Management Suite is constituted as a client/server solution. The flexibility and scalability of our products as well as an efficient improvement of your productivity is always in the centre of attention. At several points of our products we offer flexible integration facilities and interfaces. We provide the tools required enabling the operation even in security sensitive areas. The operation in environments which are protected by a firewall is possible. Moreover security relevant information is encrypted.
+
+baramundi Management Center
+Single-Point-Of-Control
+The executive unit (baramundi Management Server Service) and the administration component (baramundi Management Center) are uncoupled from each other. This way the administration and supervision of all processes from every point in the network is possible by the baramundi Management Center.
+
+Simple Handling
+Above all system management and especially automated client management means for us simple handling and economy of working time. These basic thoughts have been realised in our administration surface, which we developed to improve your productivity.
+
+Object-Oriented Structure
+The consequent object-oriented solution is reflected in the surface and shortens and simplifies all working steps. For example objects like components, profiles, groups or software are created once and used several times.
+
+Drag & Drop
+This feature simplifies the administration and thus the daily work (e.g. to allocate a computer to a software distribution job). Furthermore the synchronisation of several servers (e.g. test server and production server) is very easy this way.
+
+Import / Export
+Imports and Exports which can be handled by Drag & Drop, simplify administration to a high extend. Thus, for example, drivers can be downloaded from the website of baramundi software AG and incorporated into the baramundi Management Suite via import. Implementing drivers and components of established hardware is not required any more. Also important service and security packs from Microsoft can be downloaded completely and used without any own installation effort (subject to customers with support contract).
+
+baramundi Database
+All component data ? without any exception - is managed and stored centrally in the baramundi SQL database.
+
+Object-Oriented Structure of Database
+The baramundi Management Suite database looks about the object-oriented structure of the user interface. For instance, components are captured as single objects and can be combined to any hardware profile. The same principle applies to software. Thus a maximum of reusability is realised. The administration is considerably simplified, since the hardware and software are administrated separately in the repository and are only merged during the installation of a system.
+
+Hierarchical Group Structure
+The entire environment, managed by baramundi Management Suite, can be grouped hierarchically. Individual network specifications can be stored at every node, which complement each other from top to bottom, according to the hierarchy. On installation of a client this information is used. So the architecture grows together with your company. New systems and locations can be integrated step by step into the baramundi environment.
+
+Dynamic Groups
+All clients, managed by baramundi Management Suite, an be analysed according to any criteria. These criteria can be deposited, thus you are enabled to filter your clients and to create any distribution job according to your requirements.
+ 

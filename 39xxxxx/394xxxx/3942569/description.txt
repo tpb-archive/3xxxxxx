@@ -1,0 +1,47 @@
+Important Notes for Hollywood FX 4.6.1.  
+
+* Hollywood FX 4.5 Bronze, Silver and Gold users:
+  The Hollywood FX 4.6 installer will automatically look for previous 
+  Hollywood FX 4.5 installations on your system.  If it finds a previous 
+  installation, it will install the equivalent level of Hollywood FX 4.6
+  automatically, according to the following list:
+   - HFX Bronze 4.5 will be upgraded to Hollywood FX Plus
+   - HFX Silver or Gold 4.5 will be upgraded to Hollywood FX PRO
+
+* Studio 7 users:
+  If you are running under Windows 98, and Hollywood FX crashes in Studio 7, you
+  should install DirectX 8.1.  You can download DirectX 8.1 from 
+  http://www.microsoft.com/windows/directx/downloads/drx81.asp
+
+* Studio 8 users: 
+  The online User's Guide is in Adobe Acrobat format (.pdf).  If Adobe Acrobat 
+  reader is not already installed on your system, you can find it on the 
+  Content CD that comes with Studio 8.
+
+  Hollywood FX has been found to lock up in some cases when adding/editing a 
+  large number of effects that have additional video sources (mapped onto Media
+  in the Hollywood FX dialog).  To avoid this problem, turn off 
+  'Background Rendering' in the 'Setup->Edit' dialog in Studio 8.
+
+* Edition users:
+  In certain cases Edition will not close down completely if Hollywood FX is still
+  rendering when Edition is closed.  This usually only happens if the OpenGL Hardware
+  engine is selected and you are using an NVidia graphic card.  In this case you
+  will not be able to run Edition again until you reboot your system.
+  
+* Pro-ONE users: 
+  HFX 4.5.8 is installed with your Pro-ONE software to maintain compatibility 
+  with previous projects.  It is recommend that you use 4.6 for all new projects.
+  
+  Hollywood FX must always be rendered when used as a Filter.  Only HFX Transitions
+  will playback in realtime on the Pro-ONE.
+
+  Hollywood FX Plus 4.6 includes 288 effects, 203 of which will playback in realtime
+
+  You will also see effects with the PRO watermark.  These effects are enabled when
+  you upgrade to Hollywood FX PRO.  All watermarked effects must be rendered, 
+  however, when you upgrade to Hollywood FX PRO, those that are marked 'Yellow' 
+  will playback in realtime.  
+
+  Upgrading to Hollywood FX PRO will give you 96 additional effects, 
+  47 of which will playback in realtime.

@@ -1,0 +1,41 @@
+-----------------------------------------------------------------------
+C4EVA_iXTRM-Benq V1.41
+-----------------------------------------------------------------------
+
+
+
+Media Stealth, Disc-Jitter,Xbox 360 backup firmware modification!
+
+
+Features
+-----------------
+(v1.41) Read Sector fix
+(v1.41) 8x firmware dashboard speed fix
+(v1.4)  Disc jitter fix
+(v1.1)  Extra compatability for some DVD movies
+(v1.0)  Defeats all current Xbox Live detection attempts
+(v1.0)	Boots ONLY Stealth Xtreme Xbox 360 backups
+(v1.0)	Boots ONLY Stealth Xtreme Xbox 1 backups
+(v1.0)	Boots all Xbox 360 originals
+(v1.0)	Boots all compatible Xbox 1 originals on Xbox 360
+
+Use on Xbox Live at own risk
+
+
+
+Technical details
+------------------------
+
+Defeats all current and some future Xbox Live detection attempts.
+
+Thanks to all the beta testers,everyone involved for without their effort this would not have been possible. Schrtom for Dosflash. Caster420 for firmtool. Keep up the good work everyone. 
+
+
+
+Creating Ixtreme Benq firmware
+------------------------------
+
+Copy your orig.bin into the appropriate folder (Fast or Quiet)
+Run the "Make iXtreme firmware" batch file
+This will create a benq-ix.bin file for flashing
+Use the excellent Doshflash program by Schtrom to flash your Benq drive with the benq-ix.bin file

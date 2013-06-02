@@ -1,0 +1,12 @@
+The EverQuest 2 bot has changed name to EverHunt and was just released in its 5th beta version today. Beta tests have been running and most bugs and problems are storted.
+
+The to do-list from Project blogg #3 is almost complete. The class support is the only part not finished yet and i've added a few more things to the list of development:
+# Avoid grouped and/or elite NPCs.
+# Log off (and shut down computer) when a certain level is reached or suspicious players are following you.
+# Saved waypoint profiles.
+# Return to huntingpath if character dies.
+# Loot chests/corpses.
+# Log window.
+# Full class support.
+
+I'll be prioritising the autoloot function followed by the class support. The bot has been tested on Windows 2000, XP and Vista without any compability problems.

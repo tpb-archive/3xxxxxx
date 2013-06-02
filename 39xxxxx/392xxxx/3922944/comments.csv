@@ -1,0 +1,83 @@
+﻿User Type,Username,Date,Text
+,haakonbanken,2007-12-06T17:00Z,would be nice if you can explain what this one does
+,CompTechPro,2007-12-06T23:06Z,"downloaded @ 100 kb/s
+
+no description.
+no nfo.
+but yet there are 28 seeders and 25 peers...
+
+go figure...
+
+Seems to have a couple folders:
+/DELL
+/HPQ
+/IBM
+
+and an executables:
+OSCDIMG
+BUILD
+
+Anyone know anything? what to do? with these files?"
+,todd-h,2007-12-07T00:21Z,"Just run BUILD.CMD or better yet open it in a text editor and see if you can figure out what it does.
+
+If can't figure out what it does then just buy a Mac."
+,ir0nw0lf,2007-12-07T00:26Z,"Took a few minutes to scan the .cmd file, but figured it out.  The PID.inf file contains the key.  Installed/setup/activated just fine for me on a actual Dell Poweredge SC420."
+,CompTechPro,2007-12-07T06:25Z,"Hey ""todd-h"" thanks for the upload. -BUT- next time include instructions and don't be so ignorant as far as to say: ""if you can't figure it out, buy a Mac""...
+
+IMHO... Macs SUCK!
+
+That is all.."
+,CompTechPro,2007-12-07T06:26Z,"""If you build a computer idiots can use...only idiots will use them"" ;-)
+
+-Mac"
+,todd-h,2007-12-07T07:54Z,I'd like to add another detail about this script. If you create a directory called DRIVERS (at the same level of the brand folders) and place your driver files in it (or 1 additional level of subdirectories) the script will slipstream them.
+,Slime_Q_Slimeball,2007-12-07T18:04Z,"Not to crash the party or anything but to use this:
+1. copy folder to a drive w/ a couple gigs free
+2. choose ""DELL, HPQ, or IBM"" and enter it in the ""set brand="" line 
+3. change your DVD drive's letter if it isn't D: on ""set source=""
+4. save file
+5. insert OEM WHS DVD
+6. Double click the script
+7. wait for the command box to close and it should have made an ISO in the same folder
+8. burn w/ your favorite program
+
+I'm installing this right now and the slipstreamed key wasn't inserted automatically but the key in pid.inf was accepted so... fingers crossed.
+
+this is mostly the same procedure that was outlined by analjuggern4ut for the WHS oem torrent (http://thepiratebay.org/tor/3836063/Windows_Home_Server_OEM)"
+,todd-h,2007-12-07T21:20Z,"The key in PID.INF is used if you leave the product key blank, that's why I'm replacing that file."
+,Slime_Q_Slimeball,2007-12-07T23:02Z,"Maybe I'm doing something wrong here but when the install finishes, it says the key is incorrect and still wants to activate with a valid one. I tried putting the key in manually the first time and did a fresh install without the key and letting the installer do it but the same result...
+
+Pushing the date up to 12/08 trips the mandatory activation upon login.
+
+Does it matter which machine type (dell, hpq, ibm) is chosen? I'm installing on an old HP pavilion 2.8ghz p4."
+,todd-h,2007-12-09T22:32Z,"Yes it does matter. The HPQ option will only work if your BIOS has the string ""Hewlett-Packard"". Some Pavilions used the string ""HP PAVILION"" instead. The symptoms you describe are what happens when you install on the wrong brand."
+,Slime_Q_Slimeball,2007-12-10T15:09Z,"I just used flash867.exe to dump my bios and I'm going to change the BIOS string with a hex editor in a couple hours when I have more time. I'll either corrupt the BIOS or be able to install WHS.
+
+Right now, if I open it quick in Notepad and search for ""hp pavillion"" the string shows up with lots of white space to the right... hopefully I can swap this and make it work."
+,todd-h,2007-12-11T06:55Z,"Just use dmicfg. Also you don't need to reinstall, once you've modded the BIOS it will be activated on the next boot."
+,Slime_Q_Slimeball,2007-12-12T15:33Z,"meh... i got tired of screwing with the bios and dmicfg corrupted the DMI information on my bios and then it (dmicfg) refused to load after that - even with a bios reload.
+
+i just gave in and bought the fucking thing... it'll be here tomorrow. 
+
+not to get moralistic but i have a WHS server running and have been using it at home since the beta program started - i figured it was ""time to pay up"". i wish i didn't have to spend $180 for fucking storage pooling, which is really the only feature I use. 
+
+i bought it through my employer so it's really no skin off my nose. :)"
+,ezcheeze,2008-02-02T01:21Z,"How can I use the Dmicfg.exe tool to change my BIOS string to be correct? 
+
+I'm using an older Compaq but usually it works with HP OEM installs.  How can I verify that this should work with it?"
+,todd-h,2008-02-08T08:53Z,"It depends how old it is. If it was built after the merger and has the string ""Hewlett-Packard"" anywhere in segment F000 if should work. If it was build before the merger it needs to have the string ""COMPAQ"" at F000:FFEA."
+,ezcheeze,2008-02-08T21:58Z,"Thanks todd-h
+
+Not sure how to use dmicfg
+
+should I change COMPAQ to Hewlett-Packard?"
+,XweAponX,2008-06-30T22:03Z,"I am taking this to mean that it only works for Dell, IBM or HPQ?
+
+I'll try it anyway, it does nto hurt to download ALL of the Activators, one of them usually works."
+,todd-h,2008-07-18T04:56Z,There are a few problems with the script. I expect to release a modified version soon.
+,XweAponX,2008-07-18T06:12Z,"Hey, you know of any Time-Bomb like TweakNT 1.21 that totally destroyes the Eval 120 Time Bomb on these things?
+
+I have TweakNT 1.21 which works great for a Windows x64 120 eval version that MS mailed to me for free... I got this one sent to me for free too, usually these eval versions are 10 times more solid than the actual releases, so I prefer them actually.
+
+I don't know where to look and it took me about a year to finally find the TweakNT that worked for my XP 64"
+,todd-h,2008-07-19T01:01Z,I've updated this script. The updated version can be found at: http://thepiratebay.org/tor/4303557/Windows_Home_Server_OEM_Activator_V2

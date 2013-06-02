@@ -1,0 +1,12 @@
+  http://events.ccc.de/congress/2007/Fahrplan/events/2247.en.html
+
+Speakers:    	 Roland Lezuo
+	Peter Molnar
+
+Just in Time compilers - breaking a VM
+
+Practical VM exploiting based on CACAO
+
+We will present state of the art JIT compiler design based on CACAO, a GPL licensed multiplatform Java VM. After explaining the basics of code generation, we will focus on "problematic" instructions, and point to possible ways to exploit stuff.
+
+A short introduction into just-in-time compiler techniques is given: Why JIT, about compiler invocation, runtime code modification using signals, codegeneration. Then theoretical attack vectors are elaborated: language bugs, intermediate representation quirks and assembler instruction inadequacies. With these considerations in mind the results of a CACAO code review are presented. For each vulnerability possible exploits are discussed and two realized exploits are demonstrated.

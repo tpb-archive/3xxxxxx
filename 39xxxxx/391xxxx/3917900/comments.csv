@@ -1,0 +1,62 @@
+﻿User Type,Username,Date,Text
+,4X-AXG,2007-12-02T16:12Z,"very nice, thanks"
+,bluecoop73,2007-12-02T17:17Z,"THX Flightsimerr,
+
+but cant install it for fsx ?! Seems like it only worx, if i install the erj 145 before to FS9 ?! But not without FS9 - or doing something wrong ??
+
+regards"
+,FlightSimerr,2007-12-02T18:18Z,"I""ll see if I can figure it out and I'll get back to yah. Sorry for the problems."
+,FlightSimerr,2007-12-02T21:05Z,"First install the base package (FeelThere - ERJ 145 PIC.exe), then all of the service pacls (sp1, sp1a, sp1b) then install the update (picerj145lrxcd-1.2.6.exe). Install the FS9 version onto your FSX folder. Hope this helps"
+,FlightSimerr,2007-12-02T21:05Z,Sorry I didn't put the install info up earlier.
+,FlightSimerr,2007-12-03T01:45Z,"Well I have FS9 so I think it may only work if you have both versions of the game. FS9 and FSX. has anyone got it working that has standalone fsx? let us know how you did it. 
+
+
+Thanks!! "
+,FlightSimerr,2007-12-03T04:50Z,"This is how you install it in the event that you do not have fs9
+
+1: create folder C:\Program Files\Microsoft Games\Flight Simulator 9 
+1a: creat a file fs9.exe in the folder, if you are using vista you may have to go to control panel and folder options to make file extensions visable of known file types in order to change a text file to an .exe (i'm not sure if you need this step i just did it just in case. I beleive the software soley checks the registry)
+
+2: Install FeelThere - ERJ 145 PIC.exe
+3: install all the updates to the FS9 folder you  created.(not the fsx update yet)
+4: Download FS registry Repair http://www.flight1software(dot)com/files/FS_Registry_Repair.exe
+ ""change DOT with ."" duh.. 
+download and run the registry repair for fs9. 
+
+NOW FINALLY!!! when you go to run the FSX update ""picerj145lrxcd-1.2.6.exe"" the software accurately reads the fs9 registry and installs the appropriate files into FSX. 
+
+TADA!!!!! I've tested this and it works perfect GOOD LUCK!!! "
+,palmofsweden,2007-12-03T09:25Z,Easier: http://www.flight1software.com/files/FS_Registry_Repair.exe
+,slugga,2007-12-03T10:58Z,"Ah, finally. Thx a lot for your upload and efforth man!!"
+,FlightSimerr,2007-12-03T14:26Z,no problem. I'm glad I could Get it working. Didn't want to be sharing junk. 
+,FlightSimerr,2007-12-03T15:19Z,"Here is a Link for FSX Liveries for the PIC ERJ 145
+
+http://www.feelthere(dot)com/2005/downloads.html
+"
+,yo7,2007-12-03T21:17Z,"THX!
+request: dreamteam Zurich LSZH"
+,davidlos,2007-12-15T15:27Z,THX a lot it works fine.
+,zeophex,2007-12-20T23:10Z,hmm thanks for the upload btw but it says the fs9 version isnt detected when i try to run the fsx installer interesting.......
+,FlightSimerr,2008-01-01T19:10Z,"Zeophex. Read above for instructions. I had the same problem untill I fixed my registry. It will work. 
+
+THank you. "
+,gheeD,2008-01-23T17:07Z,"Thank you, thank you, thank you! I LOVE YOU (not THAT way thought) Flightsimerr, I love when people brings payware addons to flightsims here. Now i could make one paintkit i wuold like to do for ERJ, becouse i now found it for FSX. Thank you!"
+,SX-II,2008-02-18T01:58Z,"Thanks alot... works great... But can someone please please upload the Twin otter fsx from aerosoft
+
+REQ: Aerosoft Twin Otter
+
+Thanks "
+,aircanada11231123,2008-02-18T17:30Z,"Still cant get this bloody thing to work :( :( please help me flightsimer... i cant do anything i think mostly im stuck on making the EXE for FS9 PLEASE email me bud.. ""aircanada1123@yahoo.ca"" THX
+shawn"
+,Title27GT,2008-02-23T09:21Z,"Guys, when I try to run that final update it says ERJ for FS9 Not installed."
+,trivilincho,2008-03-30T16:48Z,Thanks 
+,Rxnx21,2008-10-17T21:18Z,"It works fine!... where is the ""Easy-to-use PAINT KIT""?, or the paintkit?"
+,ruicp,2008-11-21T23:48Z,"
+Thank you,
+
+The plane works perfectly for the FSX,
+
+My question is: is there any update to the FSX?
+
+Since the plane has no inside and I can not get the ""SELF TROTLE"""
+,andriey87,2009-11-15T22:17Z,"Hello, It doesn't work on Windows 7, I've tried many others ways.... what a pity"

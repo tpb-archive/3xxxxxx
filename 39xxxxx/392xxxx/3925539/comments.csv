@@ -1,0 +1,36 @@
+﻿User Type,Username,Date,Text
+,Fredrika2,2007-12-07T23:51Z,"BTW, I HAD to rejoin the songs after ripping, because there is a 20 second silence after the last track which caused the disc to become too long for burning onto standard cd-r without some overburning feature, which doesn't seem to work on my system. Therefore I had to manually edit out the long silence, which I did using the Nero editor with the appropriate plug-in, to make it fit an ordinary cd-r. "
+,Fredrika2,2007-12-08T10:36Z,"I was asked to provide a track list.
+
+The cd carries CD TEXT so song titles are on the disc.
+
+
+1   Breaking Water
+2   Night of a Thousand Furry Toys
+3   Hidden Fear
+4   Runaway
+5   Unfair Ground
+6   Satellite
+7   Woman of Custom
+8   Interlude
+9   Black Cloud
+10 Far from the Harbour Wall
+11 Drowning
+12 Reaching for the Rail
+13 Blue Room in Venice
+14 Sweet July
+15 Along the Shoreline
+16 Breakthrough"
+,Fredrika2,2007-12-08T10:56Z,"yes, uhmmm, front cover is included but I forgot the back cover..."
+,Ritchiewhite,2007-12-10T14:52Z,Thanks!
+,rendezvous,2007-12-16T15:27Z,"Thanks from SurroundSound!!
+
+http://groups.google.com/group/SurroundSound"
+,mojave.productions,2007-12-17T15:38Z,"I had to use nero to convert the iso file to a nrg and then used UltraISO to unpack the nrg into individual dts wav files so I could shave off the extra 2 sec from the last track using nero. (it has an extra 2 sec on it which makes it too big for a standard CD-R without overburning).  Plays fine... 
+
+Thanks for very much for this - Sinead O'Connor on the last track is added bonus :)"
+,captaink1,2008-01-11T16:52Z,"Mojave, can you detail how you converted the file in Nero?  I am having NO luck with this file and UltraISO won't touch it (calls it invalid file).  Thanks in advance..."
+,Drosselschlichte,2009-03-06T06:56Z,"Am I understood it correctly - I have NO chance to play it by software, without any hw-implementations (or proprietary players like WinDVD)? Looks like DTS, Inc. doesn't share their codecs - googling doesn't help, and no stuff from codec packs seem able to play this.
+A pity, then, as I have no digital hardware :(((
+
+captaink1: Had the same problem, WinXP said ""Cannot read from the disk"" when tried to access mounted ISO. Open Nero, choose Recorder \ Burn Image..., and then flow its contents into .NRG file (write to Nero Image Recorder). This way, the resulting image becomes, at least, recognisable by system."

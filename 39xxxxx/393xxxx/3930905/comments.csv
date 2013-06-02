@@ -1,0 +1,58 @@
+﻿User Type,Username,Date,Text
+[T],cdomeij,2007-12-12T13:51Z,DUE TO HARDISCFAILURE I HAD TO REDO ALL TORRENTS. REALLY SORRY FOR THE INCONVENIENCE. THEY WILL BE COME BACK MOMENTARILY. 
+[T],oddeven,2007-12-12T14:26Z,"Should we be cancelling all the other uploads, or are you going to use the same torrents (this one appears to be different)?
+If you use the same torrents we shouldn't have to bail out on all the data we have downloaded."
+[T],cdomeij,2007-12-12T15:11Z,"YES YOU MUST CHANGE !
+NOT POSSIBLE TO RESTORE
+SORRY ....BUT THATS THE FACT"
+,Karl Mundt,2007-12-12T17:37Z,"cdomeij, 
+
+again, thanks for this great upload. Just to make sure i understand correctly about the reupload: Do i have to cancel and delete data for all 6 dvd's, or is any data retrievable? When i add disc 2 or 3, utorrent rechecks it and keeps most of the data, so i'm hesitant to delete the all gb's before i'm completely certain that it's really gone."
+,fakebjarne,2007-12-12T17:56Z,"Har du Kessler ocks책??
+
+Thanx for uploading"
+[T],cdomeij,2007-12-12T19:06Z,"You have to try , No1 didnt work for me ..I tried retriving , and it did not match. If it works its of course great. Yes I Do Have Kessler and most of Fassbinder"
+[T],cdomeij,2007-12-12T21:45Z,OK ! 
+[T],oddeven,2007-12-12T22:59Z,"In utorrent I see an American flag with 100%, but it was Swedish before the crash.  Doesn't appear to be seeding though.  Should we still be following your instructions to kill all the old data?"
+[T],cdomeij,2007-12-12T23:24Z,"No, Lets see what is happening ! 
+
+Something magic about dvd5 , a lot of people
+still on as nothing happened..seeding as well.
+
+If you coud retrive it..you should.. observe it !
+
+I cannot judge."
+[T],oddeven,2007-12-13T12:44Z,"cdomeij - I have fully downloaded (and am seeding) Discs 1 and 5. 2, 3 and 6 are at a trickle, and 4 a bit more data passing through at the moment, but nothing like yesterday. There seems to be a hidden seeder for 3 and 6.
+
+For anybody reading this, I am refering to the original post of these discs - not the one you are looking at now."
+,Karl Mundt,2007-12-13T20:26Z,"I haven't downloaded any full discs. Before the repost, i downloaded about 10 gb in one day (combined), since readding the torrents (though apart from disc 1, utorrent kept most of the data from discs 2-6) i have only downloaded maybe a couple of 100s of mb, so i'm not sure what i'm downloading anymore: Either i'm downloading the original discs from the hidden seeder (albeit slowly), or i'm keeping the data from the original discs and cdomeij's upload speed has significantly reduces. I've removed disc 2 from utorrent completely and have added the disc from the repost to see how it behaves.
+
+A bit confusing at the moment. If someone has added a reposted disc while keeping the data from the original post and has been able to finish the whole thing, I hope you will let us know if it's working.
+
+Thanks again to claes and oddeven. "
+[T],oddeven,2007-12-14T05:36Z,"me again.  I managed to add discs 2-6 without removing the original torrents, and have brought my data over to the new ones.  In my experience, whenever I have tried to reload an iso, there is always a mysterious 4 mbs difference in the file.  I haven't noticed any trouble with this.  People seem to linger waiting for their 99.9% to pop to 100%, but I have managed to burn those discs just fine. I am trickling a seed to all the old torrents, just in case.  I couldn't move disc 1, for some reason, so cdomeij, you might want to put some extra spin on that, so people can get started with their viewing.
+I'm not sure how this will all work out in the end, as there doesn't seem to be a symmetric growth if I look at the old torrents and the new ones in utorrent, but I am optimistic."
+[T],cdomeij,2007-12-14T17:24Z,I put in a lot more guts now...Cheers
+[T],oddeven,2007-12-14T17:52Z,"I don't appear to be able to pass my added data to the old upload.  My optimism was apparently misplaced.  Hopefully those who have gotten all the data will eventually figure out the trick and move over to the new torrent and finish off the little they have left (62% at the minimum, 80% at the maximum)."
+[T],oddeven,2007-12-15T04:14Z,"All downloaded!  Thanks.  1 and 5 from the original torrent, 2,3,4 and 6 completed through the new torrent."
+,Karl Mundt,2007-12-15T16:31Z,"That's good news, i was concerned this great upload would be wasted, but it seems it's gonna pull through (though i still haven't downloaded any full discs)."
+[T],oddeven,2007-12-16T13:50Z,"Hi, if anybody has the time, the bandwidth or the goodwill, I just figured out how to allow your data to seed both the old and new torrents, if you haven't deleted the torrent file for the old torrent. In utorrent, what you want to do is remove (but don't delete) the torrent.  If you then re-add the torrent, it will recheck the file and come up with 99.9% (the mysterious 4mbs).  I had to restart my computer to get rid of some recurring errors everytime the last 4 megs were downloaded, but now everything is going smoothly. You should then be good to go to seed the poor folks stuck on discs 2,3,4 and 6. 
+ Unfortunately, with all of my experimentation I only succeeded with disc 6.  I deleted the torrent files (as well as the isos, of the others) but disc 6 should be fully seeded shortly."
+[T],oddeven,2007-12-16T13:54Z,"btw, the torrent files should be located in approximately:
+documents and settings/username/application data/utorrent
+or some such place depending on what client or OS you are using."
+[T],oddeven,2007-12-16T17:54Z,All of the old torrents are now seeded. I found the torrent files and remade the isos.  Berlin Alexanderplatz should live long...
+[T],oddeven,2007-12-18T12:04Z,"Last comment - I managed to fully seed everything of the old torrent but the last 0.1 percent of disc 4, if anybody can manage to fix that I'm sure some people would appreciate that.  Hopefully those stuck there will at least try to burn what they've got.   It should work!"
+[T],cdomeij,2007-12-28T20:14Z,Heimat OK ! Give me a couple days 
+,kovesp,2008-01-04T03:16Z,"Piece #51 of disk 4 is the one that is missing. Seems to be crucial as I can neither play the DVD nor use DVD Shrink on it.
+
+Couldn't someone nice please post just the missing piece? Here is a command to extract it under *nix:
+
+dd if=TheDVD.iso of=piece bs=4M skip=51 count=1
+
+and here is the command to insert it into the image:
+
+dd if=piece of=TheDVD.iso bs=4M seek=51 count=1
+
+You can get a dd for Windows at http://www.chrysocome.net/dd; but I  have not tried this."
+,mariannal,2010-11-10T16:35Z,those who have this treasure: please seed please share

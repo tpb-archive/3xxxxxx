@@ -1,0 +1,32 @@
+I like some films from TPB, but the results of encodings in themselves are rather unimpressive. Therefore I decided for gaining all tools you will need for ripping DVDs and encoding them to x264/DivX/XviD. All tools are rather intuitive and freeware (or some even open source), so you can distribute them without fear. Believe me, the results will be much better than using Nero Recode or so. Moreover, I added some guides, so you will need some knowledge, good will, strong CPU and some good DVDs :-) All the tools were tested by me and I find them stable. Some guides are provided in the package - read them please!
+
+The set contains:
+- DVDFab HD Decrypter 4.0.5.0
+- FairUse Wizard 2.6 (compiled by Celtic Druid)
+- Divx 6.6 codec (codec only! without any DivX crap!)
+- XviD 1.2.127-03012008 codec (and some custom matrices for more advanced users who will know what to do with them)
+- x264 build 721 with experimental adaptative quantization (compiled by BugMaster). Adaptative quantization is REALLY cool!
+
+
+Some my thoughts & comments:
+
+- if you rip the DVD with the decrypter rip to ISO file - FairUse Wizard utilizes them only (it does not work with folders)
+
+
+- according to the author of FairUse Wizard the app can: 
+â?¢ Easily create movies that will play on your standalone player with the DivX and XviD codecs
+â?¢ Use cutting edge technology with new codecs like the well-known H.264, VP7, or the ffVFW codec suite (do not bother! VP7 and ffVFW provide only so-so results - z247)	
+â?¢ Store several movies on a single DVD
+â?¢ Protect your expensive DVD collection by letting the children use a backup copy while the original discs stay in a safe place	
+â?¢ Encode tens of episodes of your favourite shows in only a few mouse click
+â?¢ Let the wizard be your guide at every step of the conversion process.	
+â?¢ Encode up to two audio tracks so you can chose between original and dubbed version at playback
+â?¢ Preview subtitles on the preview screen during the encoding setup (and even more, it can rip the subtitles from DVD! really cool feature! - z247)
+
+The app already contains XviD and x264 (build 654) codecs, but it is able to use the external ones (switch them on in "expert mode"), so I provided the newest ones. I also suggest to use Matroska (Mkv) instead of obsolete AVI and Ogg Vorbis (actually Vorbis...) instead of mp3. I also attached DivX 6.6 codec. I did not attached DivX 6.8 codec because it has quite many problems with video flips and program freezes. 
+
+If you do not know what to do with some options leave them default or use Google :-)
+
+I advice to use x264 if your machine is strong enough. If not, use DivX or XviD I find them both pretty good (the results may vary depending on the movie, generally speaking there is no better or worse choice IMO).
+
+Enjoy!

@@ -1,0 +1,37 @@
+﻿User Type,Username,Date,Text
+,ocn,2007-12-21T00:17Z,Anyone have the RC3 release for AMD please?
+,thetimster101,2007-12-21T00:23Z,i beleive hunt has it
+,kgulaalex,2008-01-09T20:10Z,"DO NOT DOWNLOAD OR INSTALL
+i have succesfully installed leopard on 
+Sempron64 2600 2x512 ram ati9550 256mb
+IT WILL DAMAGE YOUR HARD DRIVE
+IT HAPPENED TO ME. IT IS NOT A JOKE. THIS WILL CRIPPLE YOUR BOOT FILES:
+""invalid partition table""
+WITH LUCK YOU CAN INSTALL VISTA BUT NO XP
+if you have already installed... leopard is stuck on 60hz refresh rate with no ati drivers and it is IMPOSSIBLE OT RUN WINDOWS APPS ON IT. You will get error.
+.
+.
+.
+YOU RISK PERMANENT DAMAGE TO YOUR COMPUTER WITH ANY LEOPARD INSTALLATION.
+I am not a n00b and i will not touch os x again after what happened. I AM STILL UNABLE TO INSTALL XP and writing from vista
+
+""invalid partition table"" at boot. BEWARE AND DO NOT DOWNLOAD. i had a perfect case install and still...
+
+DOWNLOAD OR INSTALL ON YOUR OWN RISK. COMPUTER PERMANENTLY DAMAGED WITH ANY LEOPARD NOT JUST THIS ONE. it`s because of hfs.
+
+YOU HAVE BEEN WARNED.
+i wrote this to prevent otherf from experiencing what i have gone through."
+,aquarajustin,2008-01-10T19:28Z,"kgulaalex:
+You sir, are an idiot."
+,Wolver212,2008-01-15T03:56Z,"and if you believe kgulaalex, I've got some swamp land in New Jersey Ill sell ya cheap!"
+,R.Rendall,2008-02-06T20:54Z,Who is kuglaalex? And why is he on the wrong side of the asylum wall ?
+,djrayon,2008-02-26T23:04Z,"Is this the same as this:>
+http://thepiratebay.org/tor/3941880/ToH_x86_Leopard_RC2"
+,djrayon,2008-02-26T23:04Z,"LOL This I meant:
+http://thepiratebay.org/tor/3935144/ToH_x86_9A581_RC2"
+,out there,2008-03-23T08:20Z,"kgulaalex... not a beginner, eh?  and you still fail to understand that windows (post 98, iirc) uses a partition type that nothing else does, ntfs.  it can read/write to fat filesystems, but it can't comprehend anything else.  so... any partitions of xfs, jfs, zfs, reiser, ext2/3/4, etc will return ""unreadable"".
+
+this is where you start exploring the world of linux.  gparted is the best way to partition your drives, and it is used by most distributions of linux.  download ubuntu 7.10 and have a holiday.  stop spreading FUD and learn to use google.
+
+fyi, no ""damage"" was done to your machine; the only problem with it is that you don't understand how to use it.  don't take that as an insult, M$ and apple have trained you well: pay someone else to do difficult things for you - don't ask questions or learn"
+,MacPlus,2009-04-02T21:16Z,"Guess I'm not the only one that's sick of those guys that ASSUME they already know everything. ""it's because of hfs..."" what an F'n idiot. Apple has used HFS/HFS+ for over 10 years you schmuck, MS only recognizes FAT16/32 or NTFS which are the most crippled formats currently used. Maybe you better ask somebody, you really better ask somebody. - BrainStorm"

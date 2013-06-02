@@ -1,0 +1,14 @@
+  http://events.ccc.de/congress/2007/Fahrplan/events/2292.en.html
+
+Speakers: Marek
+	Simon Wunderlich
+
+Wireless Kernel Tweaking
+
+or how B.A.T.M.A.N. learned to fly
+
+Kernel hacking definitely is the queen of coding but in order to bring mesh routing that one vital step further we had to conquer this, for us, unchartered territory. Working in the kernel itself is a tough and difficult task to manage, but the results and effectivity to be gained justify the long and hard road to success. We took on the mission to go down that road and the result is B.A.T.M.A.N. advanced which is a kernel land implementation of the B.A.T.M.A.N. mesh routing protocol specifically designed to manage Wireless MANs.
+
+During the last years the number of deployed mesh networks has increased dramatically and their constant growth drove us around the edge of what we thought was possible. To cope with this rapid development we had to leave the slow and limited track of tweaking existing approaches and take an evolutionary step forward by porting the B.A.T.M.A.N. protocol into the kernel land and going down to layer 2. Using B.A.T.M.A.N. advanced as a showcase we will, in our lecture, deliver a detailed review on how one can go about developing linux kernel modules, give insights in what difficulties to expect and provide practical tips on how to go about this challenge without experiencing a damaging kernel freeze in due process. We will describe what problems we faced migrating down to layer 2 and how we went about solving them for example how we moved away from the kernel routing and handle the actual routing and data transport in B.A.T.M.A.N. itself. Also moving to layer 2 meant to leave IPs behind and solely rely on MAC-routing enabling features like DHCP, IPX, IPv6, etc which up to now was not possible and therefore comes as a big plus. On the other hand there were little if none diagnostic tools at all for routing on that level so we had to go back one step and develop the tools we needed ourselves.
+
+These and other things we will cover in our presentation and also give an outlook into the future of mesh-routing, which will bring it even closer to the source of wifi - the wireless stack and its drivers and thereby improving the overall performance even more.

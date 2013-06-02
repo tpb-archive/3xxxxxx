@@ -1,0 +1,43 @@
+Sadly that I couldn't bundle a user guide of this release together with the product since Maeroris doesn't have much time to work on it and I already promised to release it in middle of this month (which seems to be late already). To be frank, this version is mainly the same to previous ones except "Aero Glass without WindowBlinds" and "WinFlip" featured with overall improvements such as:
+
+-Fixed hotfix issue, no more workaround trick required to avoid that
+-Ability to save transforming information for later uses and unattended transformation
+-Ability to detect the targeted machine and give suggested setup configuration
+-Some transformation procedures refinements you should look at like pre-configure on first run, removed obsolete dialogs and msn skin, etc.
+-New 3rd-party apps and new version of existing apps
+
+And yes, it's free still without paying few hundreds for some certain stuff you like in Vista.
+
+For detailed changes and download , please a look below
+
+Changes in Version 8.0
+-Added CPU Speed information in Welcome Center
+-Added saving setup information file to save setup configuration for later uses with unattended transformation support
+-Added installation background
+-Added "System optimized" in Setup Configuration to configure the user account corresponding to machine's spec
+-Added TrueTransparency 0.8.5 (Glass border with ported AeroStyle skin)
+-Added WinFlip 0.42 (Vista 3DFlip)
+-Fixed KB925902 hotfix issues with file processing animation
+-Fixed Media Center program execution error
+-Fixed rebuilding icon cache bug on non-current users during the processes
+-Fixed Styler's installation checking bug (always set toolbar to styler mode when possible)
+-Fixed failing to apply Vista screensaver
+-Fixed program name in Add/Remove Programs
+-Fixed subscribing Windows X's shrine to be default homepage bug in Welcome Center
+-Fixed visualtooltip's advanced configuration bug
+-Fixed WindowBlinds 6 skin installation compatibility
+-Moved hotfix warning to user guide file to prevent confusion
+-Re-arranged welcome dialog for richer information
+-Replaced Extras in Welcome Center with Community link to forum
+-Removed configuring user account's status report
+-Removed obsolete dialogs (WindowBlinds warning, Before transformation, Donation, FAQ and Q&A)
+-Removed Vista Live Messenger 8.1 skin
+-Updated Setup Configuration in Welcome Center to cover on everything
+-Updated setup transformation to pre-configure current user account before finishing the transformation
+-Updated theming engine configuration
+-Updated Vista Sidebar to version 2.3 Lite
+-Updated Vista Sidebar user account configuration in Welcome Center
+-Updated ViStart to build 2661
+-Updated ViOrb to version 2.0
+-Updated VisualTooltip to version 2.2
+-Updated Welcome Center to pre-configure user account with system optimized option on the first run in that user account

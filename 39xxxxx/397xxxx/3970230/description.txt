@@ -1,0 +1,278 @@
+Ratatouille (2007): 
+http://www.imdb.com/title/tt0382932/
+
+[ About file ]
+
+Name: Ratatouille.mkv
+Date: 10/01/2008 02:47:17
+Size: 4,657,813,934 bytes (4442.038 MB)
+
+[ Generic infos ]
+
+Play duration: 01:50:33 (6632.971 s)
+Container type: matroska
+Creation time: 10/01/2008 08:36:59 UTC
+Number of streams: 5
+Type of stream nr. 1: video (V_MPEG4/ISO/AVC) {Ratatouille 720p (English)}
+Type of stream nr. 2: audio (A_AC3) {Dolby Digital Surround Ex 5.1 (English)}
+Type of stream nr. 3: audio (A_AC3) {Dolby Digital Surround Ex 5.1 (EspaÃ?Â±ol Neutro)}
+Type of stream nr. 4: subtitle (S_VOBSUB) {English}
+Type of stream nr. 5: subtitle (S_VOBSUB) {EspaÃ?Â±ol}
+Audio streams: 2
+Muxing Application: libebml v0.7.7 + libmatroska v0.8.1
+Writing Application: mkvmerge v2.1.0 (\'Another Place To Fall\') built on Aug 19 2007 13:40:07
+
+[ Relevant data ]
+
+Resolution: VERY HIGH (1280 x 528)
+Width: multiple of 32 (GOOD)
+Height: multiple of 16 (GOOD)
+Average DRF quality: VERY HIGH (12.131232)
+Standard deviation quality: HIGH (1.393855)
+Std. dev. weighted mean: HIGH (1.192127)
+
+[ Video track ]
+
+Codec ID: V_MPEG4/ISO/AVC
+Resolution: 1280 x 528
+Frame aspect ratio: 80:33 = 2.424242
+Pixel aspect ratio: 1:1 = 1
+Display aspect ratio: 80:33 = 2.424242
+Framerate: 23.975986 fps
+Stream size: 4,014,300,273 bytes
+Play duration: 01:50:33 (6632.969950 s)
+Bitrate: 4841.632394 kbps
+Qf: 0.298793
+
+[ Audio track nr. 1 ]
+
+Codec ID: A_AC3
+Channels (container): 6
+Sample rate: 48000 Hz
+Stream size: 318,374,400 bytes
+Bitrate (container): 383.990100 kbps
+AC-3 frames: 207275
+Play duration: 01:50:33 (6632.8 s)
+Bitrate (bitstream): 384 kbps CBR
+Mode: 3 front, 2 rear, 1 LFE
+
+[ Audio track nr. 2 ]
+
+Codec ID: A_AC3
+Channels (container): 6
+Sample rate: 48000 Hz
+Stream size: 318,374,400 bytes
+Bitrate (container): 383.990100 kbps
+AC-3 frames: 207275
+Play duration: 01:50:33 (6632.8 s)
+Bitrate (bitstream): 384 kbps CBR
+Mode: 3 front, 2 rear, 1 LFE
+
+[ About H.264 encoding ]
+
+User data: x264
+User data: core 56 svn-680
+User data: H.264/MPEG-4 AVC codec
+User data: Copyleft 2005
+User data: http://www.videolan.org/x264.html
+User data: cabac=1
+User data: ref=5
+User data: deblock=1:-3:-2
+User data: analyse=0x1:0
+User data: me=umh
+User data: subme=7
+User data: brdo=1
+User data: mixed_ref=1
+User data: me_range=16
+User data: chroma_me=1
+User data: trellis=1
+User data: 8x8dct=0
+User data: cqm=2
+User data: deadzone=21,11
+User data: chroma_qp_offset=0
+User data: threads=4
+User data: nr=0
+User data: decimate=1
+User data: mbaff=0
+User data: bframes=3
+User data: b_pyramid=1
+User data: b_adapt=1
+User data: b_bias=0
+User data: direct=1
+User data: wpredb=1
+User data: bime=1
+User data: keyint=250
+User data: keyint_min=25
+User data: scenecut=40(pre)
+User data: rc=2pass
+User data: bitrate=5020
+User data: ratetol=1.0
+User data: rceq=\'blurCplx^(1-qComp)\'
+User data: qcomp=0.60
+User data: qpmin=10
+User data: qpmax=51
+User data: qpstep=4
+User data: cplxblur=20.0
+User data: qblur=0.5
+User data: ip_ratio=1.40
+User data: pb_ratio=1.30
+User data: x264
+User data: core 57 svn-709C
+User data: H.264/MPEG-4 AVC codec
+User data: Copyleft 2005
+User data: http://www.videolan.org/x264.html
+User data: cabac=1
+User data: ref=3
+User data: deblock=1:-3:-2
+User data: analyse=0x1:0x111
+User data: me=umh
+User data: fpel_cmp=sad
+User data: subme=7
+User data: me-prepass=0
+User data: brdo=1
+User data: mixed_ref=1
+User data: me_range=16
+User data: chroma_me=1
+User data: trellis=1
+User data: 8x8dct=0
+User data: cqm=2
+User data: deadzone=21,11
+User data: chroma_qp_offset=0
+User data: threads=1
+User data: nr=0
+User data: decimate=1
+User data: mbaff=0
+User data: bframes=3
+User data: b_pyramid=1
+User data: b_adapt=1
+User data: b_bias=0
+User data: direct=1
+User data: wpredb=1
+User data: bime=1
+User data: keyint=250
+User data: keyint_min=25
+User data: scenecut=40
+User data: rc=2pass
+User data: bitrate=2300
+User data: ratetol=1.0
+User data: rceq=\'blurCplx^(1-qComp)\'
+User data: qcomp=0.60
+User data: qpmin=10
+User data: qpmax=51
+User data: qpstep=4
+User data: cplxblur=20.0
+User data: qblur=0.5
+User data: ip_ratio=1.40
+User data: pb_ratio=1.30
+SPS id: 0
+  Profile: High@L5.1
+  Num ref frames: 8
+  Chroma format idc: YUV 4:2:0
+PPS id: 0 (SPS: 0)
+  Entropy coding type: CABAC
+  Weighted prediction: No
+  Weighted bipred idc: B slices - implicit weighted prediction
+  8x8dct: No
+  Custom intra4X4 luma: 
+      6   7  10  16
+      7   7  11  17
+     10  11  12  20
+     12  13  20  16
+  Custom intra4X4 chromau: 
+     16  16  16  16
+     16  16  16  16
+     16  16  16  16
+     16  16  16  16
+  Custom inter4X4 luma: 
+     10  13  28  41
+     13  14  32  84
+     28  32  41 111
+     41  46 111  16
+  Custom inter4X4 chromau: 
+     16  16  16  16
+     16  16  16  16
+     16  16  16  16
+     16  16  16  16
+Number of frames: 159032
+Drop/delay frames: 0
+Corrupted frames: 0
+
+P-slices: 64089 ( 40.299 %) #####################         
+B-slices: 93302 ( 58.669 %) ##############################
+I-slices:  1641 (  1.032 %) #                             
+SP-slices:     0 (  0.000 %)                               
+SI-slices:     0 (  0.000 %)                               
+
+[ DRF analysis ]
+
+Average DRF: 12.523630
+Standard deviation: 2.014702
+Max DRF: 23
+
+DRF<10:     0 (  0.000 %)                               
+DRF=10: 20736 ( 13.039 %) #############                 
+DRF=11: 27105 ( 17.044 %) ##################            
+DRF=12: 46295 ( 29.110 %) ##############################
+DRF=13: 29434 ( 18.508 %) ###################           
+DRF=14: 17649 ( 11.098 %) ###########                   
+DRF=15:  5856 (  3.682 %) ####                          
+DRF=16:  2615 (  1.644 %) ##                            
+DRF=17:  2328 (  1.464 %) ##                            
+DRF=18:  3268 (  2.055 %) ##                            
+DRF=19:  2431 (  1.529 %) ##                            
+DRF=20:  1082 (  0.680 %) #                             
+DRF=21:   171 (  0.108 %)                               
+DRF=22:    51 (  0.032 %)                               
+DRF=23:    11 (  0.007 %)                               
+DRF>23:     0 (  0.000 %)                               
+
+P-slices average DRF: 11.655354
+P-slices std. deviation: 1.872337
+P-slices max DRF: 23
+
+B-slices average DRF: 13.148206
+B-slices std. deviation: 1.878528
+B-slices max DRF: 23
+
+I-slices average DRF: 10.922608
+I-slices std. deviation: 1.275841
+I-slices max DRF: 21
+
+[ DRF analysis (corrected) ]
+
+End credits time position: 01:42:58 (6178.098162 s) - ignored frames: 10906
+
+Average DRF: 12.131232
+Standard deviation: 1.393855
+Max DRF: 21
+
+DRF<10:     0 (  0.000 %)                               
+DRF=10: 20726 ( 13.992 %) #############                 
+DRF=11: 27103 ( 18.297 %) ##################            
+DRF=12: 46270 ( 31.237 %) ##############################
+DRF=13: 29374 ( 19.830 %) ###################           
+DRF=14: 17524 ( 11.830 %) ###########                   
+DRF=15:  5450 (  3.679 %) ####                          
+DRF=16:  1316 (  0.888 %) #                             
+DRF=17:   264 (  0.178 %)                               
+DRF=18:    62 (  0.042 %)                               
+DRF=19:    31 (  0.021 %)                               
+DRF=20:     5 (  0.003 %)                               
+DRF=21:     1 (  0.001 %)                               
+DRF>21:     0 (  0.000 %)                               
+
+P-slices average DRF: 11.291523
+P-slices std. deviation: 1.202957
+P-slices max DRF: 19
+
+B-slices average DRF: 12.739419
+B-slices std. deviation: 1.188213
+B-slices max DRF: 21
+
+I-slices average DRF: 10.791222
+I-slices std. deviation: 0.996381
+I-slices max DRF: 17
+
+By: Omao86
+
+This report was created by AVInaptic (18-11-2007) on 10 gen 2008, h 03:03:56

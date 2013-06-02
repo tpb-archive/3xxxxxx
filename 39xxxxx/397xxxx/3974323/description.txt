@@ -1,0 +1,54 @@
+Easy WiFi Radar helps you to find and connect to free wireless access points with a single mouseclick. It's WiFi for Dummies. Connect to open hotspots automatically. Get your mail and browse the web without connection charges. The ideal WiFi-tool for frequent travellers and mobile professionals.
+
+NEW Easy WiFi Radar Pro
+
+* Shows more free hotspots in your area on an interactive map
+
+* Lets you set your own landing page (no more ads)
+
+* Automatically gets your email when connected
+
+* Allows you to set a home or office WEP-key
+
+* Get software on CD (optional)
+
+
+1. Installation
+
+Run the Easy WiFi Radar Installer. The application will be installed in the Programs folder. You find it in the Windows XP Start Menu  All Programs  Easy WiFi Radar. There will also be a desktop shortcut.
+ 
+2. Automatic Operation
+
+Start the software and Easy WiFi Radar wil begin scanning for wireless access points. It will give you information about the ongoing process in the floating text box. You may optionally hide that info-window, the scanning will continue. Easy WiFi Radar may find three possible types of access points, indicated by three colors:
+
+┬¬Green squares represent an open access point, not encrypted, with a strong signal. Easy WiFi Radar will try to connect to those first.
+
+Yellow squares represent an open access point, not encrypted, but with a weak signal. Easy WiFi Radar will try to connect to those if it can't connect to a green acces point..
+
+┬¬Red squares represent a closed access point, encrypted with a WEP-key. Easy WiFi Radar will only try to connect to those if you provided a WEP-key in the Options Menu. If you provide an incorrect WEP-key, it will not be able to connect. Currently, Easy WiFi Radar does not support WPA-encryption or other forms of security.
+
+If the radar finds an access point and connects to it, it will automatically try to request an IP-number from the access point. If it succesfully receives the IP-number, it will automatically test the connection. And if that test is positive, it will automatically open your webbrowser and connects to the internet. You will hear a sound effect to indicate a successfull connection.
+
+The Radar will hide in the lower right corner of your screen (the so called ' system tray icon').
+
+If it fails to connect properly, it will jump to the next strongest acces point and tries that one. And so on. Even while driving in your car, you may use Easy WiFi Radar to detect and connect to wireless access points.
+
+3. Tray Menu
+
+You may click on the little icon in the system tray and a pop-up menu will show with several options.
+
+Quit - ends the application and will restore windows default wireless settings
+
+New Scan - will initiate a new search for an internet connection. You may use this if the connection got lost for whatever reason.
+
+Show Radar - will show you the current overview of all access points in reach and the one you're connected to will be displayed in the status box.
+
+About - shows copyright information and allows you to connect to our online Frequently Asked Questions page.
+
+Options (picture left) - brings up the advanced options menu :
+
+a) Radar Sound - allows you to turn off the 'swoosh' sound. Next time you start Easy WiFi radar, it won't play.
+
+b) When connected - This feature is only available in the paid version, not in the free versin. It allows you to set the webpage that Easy WiFi radar opens when it finds and connects succesfully to an access point. If you need this feature, you can buy a version of Easy WiFi Radar that allows that. For example, you can set it to connect to your webmail when it finds a free wifi connection.
+
+c) Home / Office WEP Key - allows you to enter the security code that may have been set on your home or office access point. Easy WiFi Radar will only try to connect to secured access points if you provided a WEP-key in the Options Menu. If you provide an incorrect WEP-key, it will not be able to connect.	

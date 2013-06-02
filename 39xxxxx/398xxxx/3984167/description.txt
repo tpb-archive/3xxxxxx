@@ -1,0 +1,127 @@
+VideoCharge for Professional v3.11.1.02
+
+
+
+Multifunctional application for processing tons of video files by one click.
+The program possesses a wide range of capabilities, which enables to perform any operations with bulk of video files by one click!
+
+It can be used to split audio and video files into smaller parts, join a few media files into a single one, extract or delete scenes, create thumbnails for video files, add watermarks to video and image files, process sequences of images.
+
+VideoCharge enables to process videos on flow (without decompression and successive compression of every frame), supports working via command line, inludes built-in FTP client.
+
+It is optimized for processing vast amount of files and supports all basic video and image formats.
+
+
+
+
+>> Splitting files into parts
+
+VideoCharge enables to split video and audio files into parts:
+
+* Split by time.
+This mode implies splitting video or audio file into parts of equal duration. Duration can be set in seconds, milliseconds or frames. The last part of processed file most probably will have lesser duration - its creation can be enabled or disabled at user's discretion.
+
+* Split by size.
+The present mode implies splitting video or audio file into parts of specified size. Size can be set in KiloBytes or MegaBytes.
+
+* Split into equal parts.
+The given mode implies splitting video or audio file into specified number of parts of equal duration. Duration of each part equals duration of the original file divided by the specified number of parts.
+
+* Split by scene.
+This mode implies splitting video or audio file into component scenes. Unique scenes are determined by means of motion analysis of every frame or by appearance of curtain (completely black frame).
+
+VideoCharge includes flexible mechanism of creation of the produced file name. Name of produced file can include variables that hold original file name, name of the original file's parent folder, sequence number of the produced file, etc.
+
+Built-in Editor provides ability to preview all files that will be produced before splitting and exclude needless files from processing, if any. This enables to save time, since some of the produced files may be found irrelevant later.
+
+One or more thumbnails (small graphics files) can be created for every produced file.
+
+VideoCharge enables to split into parts not only a whole movie, but also its fragments specified by means of the Editor. 
+
+>> Joining several files into a single one
+
+VideoCharge allows to join a sequence of video or audio files into a single file. A sequence of images can be joined into a single video file too. The given functionality provides ability to remove needless scenes from video and audio files. When working in "Without Re-compression" mode, one can remove scenes and join files of the same type instantly.
+
+>> On flow processing
+
+VideoCharge enables to process video and audio files on flow. All operations concerned with processing of video files generally are resource-intensive and take a lot of time since they require decompression and subsequent compression of every video frame. The application includes capability to process video files without re-compression! Thereby a gigabyte video can be processed only in a few minutes!
+Of course, this functionality is unusable when it is necessary to process every frame meaningly, for example, when adding watermarks or applying filters. However all operations that does not require re-compression - splitting files, joining single-type files, extracting scenes, removing scenes - can be performed. 
+
+>> Creation of thumbnails
+
+VideoCharge includes a broad set of capabilities for creation of thumbnails. Thumbnails can be created for both sequences of graphics files and video files (on basis of their frames).
+There are 3 modes of thumbnails creation:
+
+* Automatic mode
+This mode implies creation of thumbnails to be carried out during creation of videos or processing sequences of images. Thumbnails can be created in any quantity. For videos thumbnails can be created out of the first frame, the most static frame (within the specified time span), specified frame, random frame. Here names of thumbnails can be set in special way or depend on the name of the processed file.
+
+* Split mode
+This mode is effective for extracting frames of video files and saving them as graphics files. It enables to extract all frames without exception, extract frames regularly (by setting time intervals) or extract the rigorously defined number of equidistant (by time) frames. Distance between frames is calculated as duration of the processed file divided by the specified number of frames.
+
+* Custom mode
+The present mode implies manual selection of necessary frames by means of the Editor. The process of selection is simplified to the maximum. One can preview all selected frames together and edit each of them separately - for example, crop frame, apply filters to improve image quality, specify custom size in pixels for produced thumbnail, etc.
+
+For every produced thumbnail one can select target graphics format, specify size (in pixels) and color depth, apply filters to improve image quality, crop the original image, add watermark. 
+
+>> Creation of watermarks
+
+VideoCharge enables adding watermark to a movie (to its every frame) or a graphics file. As a watermark one can use:
+
+* Text
+For text one can preset all basic attributes (font, color, size, etc) as well as rotation angle, transparency, stroke color and width. Text may include dynamic variables: name of the original file, name of the produced file, current time, current date. Text background may be transparent or colored (color can be assigned).
+
+* Image
+An image can be resized and rotated 90, 180 and 270 degrees. Also for images one can fix transparency level and transparent color.
+
+Display time can be assigned to any watermark, which enables to add watermark to a movie's interval rather than a whole movie. The beginning and ending of watermark drawing can be protracted for preset time, which produces effect of smooth appearance and disappearance.
+
+>> Command line
+
+VideoCharge can be accessed via command line. Here names of the processed files and config file name are used as command line parameters. 
+
+>> Conversion of video, audio and graphics files
+
+VideoCharge provides ability to convert video, audio and graphics files from one format into another. All parameters of encoding - frame rate, bitrate, aspect ratio and others - can be preset. The program allows to resize image, apply filters to correct appearance of every frame, use external video codecs (DivX, Xvid and others) for video compression. For creation of WMV and AVI files, the program includes a broad set of parameters including "two-pass encoding" feature that enables to produce more qualitative image. Ability to create videos that contain multiple video streams of different bitrate is included as well (for WMV files only).
+
+Some information about the processed video file (author, copyright, etc) can be added to its header provided that target format supports this functionality.
+
+The application is particularly optimized for processing a great number of files (batch processing). It enables to process folders with files and subfolders inside. At that the produced files are saved subject to hierarchy of files and subfolders in the source folders. File mask can be specified here in order to select promptly the necessary files to be processed. 
+
+>> Video editor functions
+
+VideoCharge includes a broad set of tools for video editing. With VideoCharge one can extract the necessary scenes from videos, remove the needless scenes from videos, apply the Crop filter (create video file based on a part of every frame of the original video). The Editor provides ability to select scenes promptly and easily. The selected scenes can be previewed all together or individually.
+VideoCharge enables to insert Header Video and Footer Video into movies. Header Video and Footer Video implicate small video clips that are inserted correspondingly in the beginning and in the end of the processed movie. 
+
+>> Processing of DVDs
+
+VideoCharge can handle DVDs as well as VOB and IFO files. The program allows to parse solitary VOB files, extract chapters from them and save chapters as separate files or join them into a single file. 
+
+>> Player
+
+VideoCharge can play all kinds of video files and DVDs as well as display graphics files.
+
+>> Extra features
+
+The program includes Wizard that helps to use it in full measure without special knowledge and study of the program itself. Wizard provides access to all main functions of the application.
+VideoCharge includes built-in FTP client that enables to upload the produced files to FTP servers. One can also upload a file to several FTP servers at once.
+VideoCharge allows to control file encoding process: when in use, the process can be paused, hidden in system tray or terminated. Closing the application and turning off the computer after completing the process can be enabled by means of the corresponding parameters.
+
+Supported Formats
+VideoCharge enables to convert audio, video and graphics files from one format to another. The program include support of the following formats:
+
+-- AVI - Audio Video Interleave (*.avi). Enables to work with any video codecs installed, decode DivX and XVid files.
+How to create an AVI file
+-- MPEG - Moving Picture Experts Group (*.mpg, *.mpeg). Supports decoding and encoding files into MPEG-1, MPEG-2 (VCD, SVCD) formats. Enables to convert MPEG Transport Stream files (*.ts) into any supported format.
+-- DVD - Digital Video Disk (*.vob, *.ifo). Can handle DVDs. Enables to preview and decode .vob files singly or together, using data derived from .ifo files.
+-- ASF, WMV, WMA - Advanced Streaming Format, Windows Media Video, Windows Media Audio (*.wmv, *.wma, *.asf). Supports processing of files of Windows Media 7/8/9 formats.
+-- MOV - QuickTime Video/Audio (*.mov, *.move, *.qt, *.3gp) *. Provides ability to playback (decode) and create MOV files.
+-- MPEG-4 (*.mp4) *. Enables to playback (decode) MPEG-4 files.
+-- RM - RealMedia (*.rm) *. Allows to convert RealMedia files into any supported format.
+-- FLV and SWF - Flash Video (*.flv) and Small Web Format (*.swf) *. Enables to playback (decode) and create FLV and SWF files.
+-- Wave - Wave (*.wav). Provides ability to work with RIFF audio data. Enables to create WAV files and convert them into other formats, for example, MP3.
+-- Graphic formats: BMP, GIF, PNG, TIFF, JPEG. Provides ability to save video frames into separate graphics files and vice versa, join sequences of images into video clips.
+-- MP3 - Mpeg Audio Layer-3 (*.mp3). Is able to create MP3 files of video and audio files of all supported formats.
+
+* - supported by VideoCharge Pro and VideoCharge Full only.
+
+have fun and enjoy The Joker

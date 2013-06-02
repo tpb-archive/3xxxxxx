@@ -1,0 +1,14 @@
+Computer-Aided Thermodynamic Tables 2 (CATT2) provides you with a means to access various thermodynamic tables.  There is no need to interpolate values from a table.  You simply enter a property value you want to evaluate, and let the computer do the work.
+
+The CATT2 screen is divided into an upper and lower section.  The upper section displays the values last evaluated and, in some cases, a graphical representation of those values.  The lower section contains a spreadsheet-like log of all previous values evaluated for a particular substance.  The sections are separated by a draggable bar, which allows you to view more or less of each section.
+
+You can evaluate all of the tables using one of four predefined sets of units.  You can select units prior to performing any calculations, using Change Units from the menu or clicking the Units button.
+
+The tables are grouped as following.
+
+
+Water	Refrigerants	Cryogenics
+Air	Ideal Gases	Compressibility
+Psychrometrics
+
+You can access each group by clicking on the corresponding tabs,  at the bottom of the display,  or by selecting the group from the Tables menu.

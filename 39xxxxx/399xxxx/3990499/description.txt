@@ -1,0 +1,31 @@
+VSO ConvertXtoDVD 3.0 Prerelease [RC2]
+
+ConvertXtoDVD changes history
+
+ConvertXtoDVD - 2.99.10.600
+===========================
+
+Release Candidate 2:
+solve issues with Burning SDK,
+solve issues with subtitles embedded in Mkv,
+solve issues with menu backgrounds
+solve other minor issues
+add more command line switches for best batch support
+
+- 0001442: [Feature Request] final log sentence 
+- 0001448: [Feature Request] Disable burning by switch 
+- 0001550: [Suggestion] hide 16:9 display in menu text style editor 
+- 0001534: [Bug] Adding a jpg to title menu background, prompts that it also contains audio 
+- 0001553: [Bug] Background Menu / Custom Video Starting Times always starts at 00:00 
+- 0001546: [Suggestion] modify watermark in video 
+- 0001532: [Bug] v2.99.9.416: Access violation trying to convert a specific .MKV file 
+- 0001539: [Bug] can't burn because filename ( unicode pb ? ) 
+- 0001545: [Bug] old link not updated for "_func/upgradeProduct/"
+- Languages added
+
+AxMan Changes:
+- Digital River reg entries from original installer removed
+- Key Embedded
+- Server Lic. Check (Online activation) removed
+
+registered

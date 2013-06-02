@@ -1,0 +1,86 @@
+﻿User Type,Username,Date,Text
+,hac76,2007-12-20T21:35Z,Can somebody confirm that's work ? Because i've just test with my server.
+,Treo,2007-12-21T16:49Z,Yes it seeems to work. 30 day trial message dissapears and the windows update runs ok. No problems so far.
+,moschleff,2007-12-31T01:43Z,Does anyone know what happens to WHS after 30 days with this?
+,junkjono,2008-01-02T16:27Z,"Seems to work fine for me on the server.
+
+Only issue that the connector reports that I have ""O days left to activate the software"", although this has not stopped the server or the connector from working.
+
+Will continue to test for another month..."
+,Oneill5491,2008-01-19T07:46Z,I'm concerned that this crack won't work.  I did apply it and at first it did seem to work.  But then I stated getting a activation countdown about 15 days into it and I'm afraid I'll get locked out when it reaches 0.  I've been reading comments on other cracks for WHS and some say you have to go though a lot of elaborate crap to kill the WPA.  Can anyone confirm that this particular crack works after 30 days of implimenting it?
+,laffer99,2008-01-23T10:04Z,"I am also getting this 15-days activation warning with countdown (now at 13 days) after installing antiwpa3.
+
+Can anyone confirm/deconfirm that this warning is harmless??"
+,jarjarjar,2008-01-27T00:14Z,"I've got the same problem - it hid activation warnings until now, but has popped up with 15 days to activation . . .
+
+gonna move all my stuff off the server before I get locked out!"
+,Oneill5491,2008-01-30T08:00Z,"Ok, my 30 day countdown has expired and the server has locked me out.  I can still access my shared folders from a networked computer, but it won't let me login locally.  So everybody needs to know that ANTI-WPA DOES NOT WORK ON WINDOWS HOME SERVER.  I am going to try and pursue a method mentioned here:
+http://thepiratebay.org/tor/3851601/Microsoft.Windows.Home.Server.OEM-ZWTiSO"
+,Oneill5491,2008-02-01T09:47Z,"Actually, hold the phone.  My server is working!  I'm not sure what happened, but it may have been a coincidence that something unrelated to the activation process prohibited me from loging in at the time I tried to.  But now I can login fine using remote administrator and do whatever.  So it was a false alarm from what I can tell and this WPA hack works.  I will keep you posted if my situation changes."
+,jeepmansro,2008-02-13T02:11Z,"Thanks, gonna give this a try, installing the OS now."
+,alfdog2,2008-02-27T00:27Z,"I also get the 0 days left but things still seem to work, just annoying with the ""critical warning"" to activate."
+,goldenknee,2008-02-28T00:45Z,Will this still work if i have Symantec antivirus installed on the server?  And do I even need it installed?
+,djsavage,2008-03-12T21:16Z,After 30 days I can no longer do backups
+,bikerbish,2008-04-09T17:19Z,"I DON'T KNOW IF THIS WORKS ON SERVER
+
+http://antiwpa.freehostplace.com/index2.php"
+,bikerbish,2008-04-09T17:20Z,"P.S. IF YOU'RE ALREADY LOCKED OUT, BOOT INTO SAFE MODE AND TRY TO APPLY CRACK"
+,pandasrbin,2008-04-25T22:43Z,"I found the way how to remove red healthy indicator on client computers with antiwpa and OEM vers. Just use regedit on WHS, delete keys under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WPAEvents and set apropriate permissions on WPAEvents, so system cannot recreate the keys. After reboot you will see still evalueate version, but Activation msg is gone."
+,jeff_the_ripper,2008-06-07T21:23Z,"*** WARNING ***
+This torrent contains the trojan:
+HACKTOOL
+
+This trojan is not removable, you need to delete the DLL to correct the problem.  Once loaded into memory, you will need to safe-mode boot to clean this problem."
+,XweAponX,2008-06-26T00:54Z,"Hey DICKNOSE:
+
+""HAcktool"" is NOT a fuckin Virus, snotnose.
+
+It is the fuckin code the rips a Product ID straight out of Windows.
+
+Also: *I* can confirm that AntiWPA 3.4 WILL NOT work for Windows Home Server-
+
+Home Server is like Windows Server 2008 which in turn is like VISTSHIT.
+
+So... You gotta use the Vist Shit crack plus the TOKENS.DAT file for Windows 2008."
+,XweAponX,2008-06-30T22:00Z,"OK I just downlaodded this piece of fuck and it is NOT a Windows Home Server Activator OR Antiwpa.
+
+It IS a Windows XP Pro and Windows XP x64 WORAKING AntiWpa, so if anyonw needs AntiWPA, use this link for XP and 64 bit XP-
+
+But this WILL not work for Home Server OR Windows 2008 Server: I fucklinGUARANTEEit"
+,iComputer,2009-01-31T18:20Z,"Some retarded comments... But let me make it clear that IT WORKS!
+
+Unrar, run ANTIWPA3.CMD as Administrator.
+
+When setup completes, it will say ""Installation failed."", but just ignore this.
+
+Reboot, and don't leave any newbie comments here.
+
+
+
+Thanks to uploader for sharing! Cheers!!"
+,halo_nz,2009-02-13T02:24Z,"Hahaha I just ran this, then removed the WHS Activation from add/remove programs, now my Network status is Healthy!"
+,The64BitGeek,2009-05-23T23:53Z,"This AntiWPA works on my Windows Home Server OEM.
+
+I have only been testing it on my WHS in VMware Workststion.
+I wanted to test it in there first just to see if it worked before I install it IRL"
+,The64BitGeek,2009-05-27T18:10Z,"Hmmm, it doesnÂ´t work. I tried to set the date to two months ""in the future"".
+Now I canÂ´t access the shared folders."
+,b_clay,2009-08-02T10:07Z,am downloading both the home server the this activation. im gonna give it try. thnx buddies for seeking and commenting. u guys are awesome.
+,perbotn,2009-09-04T01:18Z,"@XweAponX
+
+Windows home server is based on windows server 2003, and not ""windows 2008"""
+,perbotn,2009-09-04T01:28Z,"This seems to work for me :)
+
+You still get the ""lets activate now before you can continue"", but you can just close it and it works as usual. Updates running as well.
+
+Thx hac76! This was my 3rd attempt!"
+,fgherger,2010-08-09T00:28Z,"I tried it here, and it works just fine.
+The activation icon still appears in notification area, but as soon as you click on it, a window will pop up saying WHS is already activated. Very simple.
+Many thanks to the uploader!"
+,Wi-Foo-er,2010-12-31T23:42Z,"Home server suck ass anyway fuck it, you may as well install vista if you want your pc to run like monkey shit. 
+
+Stick with the old version  ""windows server 2003""
+
+newer is NOT allways better"
+,airbus001,2011-01-09T09:52Z,Does anyone know how I could tell if my Windows Home Server has been sucessfully cracked with AntiWPA?
+,cdc440,2011-02-10T19:43Z,Thank you! You just maked my day

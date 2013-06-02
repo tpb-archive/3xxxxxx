@@ -1,0 +1,73 @@
+ Abyss Web Server is a compact web server available for Windows, Mac OS X, Linux, and FreeBSD operating systems.
+
+Despite its small footprint, it supports HTTP/1.1, secure SSL/TLS connections (HTTPS), dynamic content generation through CGI/FastCGI scripts, ISAPI extensions, native ASP.NET support, Server Side Includes (SSI), custom error pages, password protection, IP address control, anti-leeching, and bandwidth throttling.
+
+It also features an automatic antihacking system as well as a multilingual remote web management interface that makes its configuration as easy as browsing a web site. 
+
+
+
+
+
+Abyss Web Server is a compact web server available for Windows, MacOS X, Linux and FreeBSD operating systems.
+Low requirements for great performance
+
+Abyss Web Server does not require huge memory or excessive computing power to run. That's why it can be used without problems even on small or out-dated systems. It performs at least as well as the common web servers available on the market.
+Easy configuration
+
+An intuitive web management interface called the console makes the web server configuration as easy as browsing a web site. No need to edit configuration files, the console helps you setting the server parameters in an effortless manner and can be accessed from a local or a remote computer. It is available in many languages such as English, French, Arabic, Chinese, and Spanish.
+Fault-tolerant and robust
+
+Abyss Web Server is based on the APX architecture. APX, which stands for Anti-crash Protection eXtension, was created, here at Aprelium, to make the server crash-proof. If it happens that the software causes a critical error and crashes (which is by the way very improbable), a report will be generated if possible and the server is automatically restarted. The downtime in such a case won't exceed 1 second!
+Secure
+
+Security is the #1 priority in Abyss Web Server. In addition to its advanced URL decoding engine which rejects malicious and suspicious requests, it features an efficient anti-hacking system which detects at an early stage hacking attempts or denial of service attacks and bans dynamically their originating IP addresses.
+It is also equipped with an anti-leeching system to automatically prevent other web sites from directly linking to your images or files.
+SSI support
+
+Abyss Web Server supports the standard SSI directives to help you create dynamic HTML pages with the least effort and without requiring the use of a scripting language.
+Unicode compliant
+
+Abyss Web Server supports file names and URLs written in any human language.
+Runs your ASP.NET applications
+
+Abyss Web Server features a native support for ASP.NET 1.1 and 2.0 on Windows NT/2000/XP/2003. You can install your ASP.NET applications and ASPX files and start serving them immediately with no performance loss and no incompatibilities issues.
+Abyss Web Server's ASP.NET support is not limited in anyway and can execute small test scripts written in C# or VB.NET as well as large applications which use the advanced capabilities of ASP.NET such as custom web controls, database access, authentication, web services and XML processing.
+Powers your Ruby on Rails applications
+
+Abyss Web Server can run Web applications based on the Ruby on Rails framework. Their execution speed will be optimal thanks to the use of the FastCGI interface.
+Installing Ruby on Rails has also been made easy on Abyss Web Server: clear instructions and full Ruby + Ruby on Rails packages are provided to make deployment of the framework quick and straightforward.
+Hosts your PHP, Perl, and "Classic" ASP scripts
+
+Abyss Web Server has been specially designed to make using scripts the simplest possible even on Windows platforms. Thanks to its CGI and ISAPI extensions interfaces, Abyss Web Server supports various scripting languages such as PHP, Perl, "Classic" ASP, Python, Ruby, Rebol, and TCL.
+Languages which interpreters are FastCGI-compatible (such as PHP) will even experience a significant processing speed boost on Abyss Web Server while reducing in the same time your system load.
+Whether you are going to test a simple script or install and run a complex database-driven web application, Abyss Web Server is the best choice in terms of ease of configuration and optimal performance.
+Total control over the bandwidth
+
+You can configure the total bandwidth that Abyss Web Server is allowed to use when answering the requests. You can also configure the bandwidth that is allowed for every visitor.
+Finer bandwidth control is also available in Abyss Web Server X2 and can be used to configure the allowed bandwidth per file, per directory, or per group of files or directories.
+Password protection
+
+Password protecting files or directories has never been easier. You can define users and groups of users and create advanced access rules with a few clicks.
+Custom directory listings
+
+With Abyss Web Server, you have a total control over the layout and the look and feel of your directory listings. You can define a template using simple SSI directives or you can write in your preferred programming language your custom directory listing script.
+Virtual hosting
+
+Abyss Web Server can serve more than one web site from the same computer. This is often called virtual hosting or support for multiple hosts. Each defined host has its specific configuration and is completely independent from other hosts. Virtual hosting is only available in the professional edition Abyss Web Server X2.
+SSL/TLS support (HTTPS - Secure connections)
+
+Abyss Web Server supports the SSL and TLS protocols and is able to accept secure connections with strong cryptography (up to 256-bit keys) to protect your visitors' sensitive data from flowing in clear form over the Internet. SSL/TLS support enables you to host E-commerce sites and accept credit card data with the highest level of security available in today's industry standards.
+Comprehensible SSL certificates management interface
+
+Declaring, self-signing, and requesting SSL certificates has never been easier. With Abyss Web Server, you have not to use external tools and type lengthy commands to generate keys, certificates, and CSRs. Every task related to SSL certificates can be carried out using the console (the remote Web configuration interface).
+Easy dual hosts (HTTP+HTTPS) setup
+
+Have you ever wondered how to have the same site available with http:// and https:// URLs at the same time? With Abyss Web Server, such a setup only requires an extra click when declaring your host. You can even configure it to serve some parts of the site (for example login protected areas) only with https://. In such a case, Abyss Web Server will handle automatically the redirection from the http:// to the https:// URL. Dual hosts support is only available in the professional edition Abyss Web Server X2.
+URL Rewriting
+
+Abyss Web Server includes a URL rewriting engine conforming to industry standards. It can help you hide the complex URLs of your Web applications and make them look more user friendly.
+Although URL rewriting is usually considered as an advanced feature, it remains easily controllable in Abyss Web Server through the comprehensible user interface of the console.
+Starts when your computer boots up
+
+Abyss Web Server can be configured to act as a Windows System Service, MacOS X Startup Item, or Linux/FreeBSD daemon. In such a case, you do not have to start it manually. It will be automatically launched immediately after your computer startup, even though no user is logged in, and will operate in the background.
+You do not need to be a system wizard to make Abyss Web Server operate in this mode. A few clicks (on Windows and MacOS X) on a comprehensible dialog window are sufficient. 

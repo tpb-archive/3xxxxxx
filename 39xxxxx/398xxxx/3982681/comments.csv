@@ -1,0 +1,160 @@
+﻿User Type,Username,Date,Text
+,HorseDIC86,2008-01-19T06:43Z,"The only known issue with this release is that the installer does not properly create a shortcut for the game. Simply go to the folder to which you've installed the game and run or create a shortcut to ""Episode Two.exe"".
+
+Sorry, I forgot to include that in the initial information."
+,plattbear,2008-01-24T08:10Z,"i""m having difficulty with the .bin files. i use power iso and its says that they are invalid or unrecognizable 
+any recommendations or other programs to use?"
+,lancerus,2008-01-27T12:59Z,"you don't have to burn or mount this release...
+just run file with .exe extension..."
+,grillinvinny,2008-02-02T11:07Z,then why is my main menu just all white? and i can't see anything after that. i can hear the sound when you scroll over the options but i can't really see it and could never play like that. any suggestions?
+,DuMmBaZz,2008-02-04T20:12Z,"what files are ripped?
+please tellme that you dont have deleted the spanish subtitles xD"
+,HorseDIC86,2008-02-10T08:31Z,"Fix for White Screen Issue
+
+
+If all you get is a white screen and audio when you load the game, you may be able to fix the issue by changing your shortcut to the hl2.exe to look like this:
+""C:\Program Files\Half-Life 2 Episode Two\hl2.exe"" -game ep2 -dxlevel 81 +mat_forcehardwaresync 0
+
+The ""C:\Program Files\Half-Life 2 Episode Two\"" part should of course be the folder to which you've installed the game.
+
+I found this information in the main post on The_Unstopable's Portal release page: http://forum.digitalpowered.info/index.php?showtopic=15612
+
+
+If you have any other questions, perhaps you will be able to find the answers here:
+http://forum.digitalpowered.info/index.php?showtopic=18309"
+,HorseDIC86,2008-02-10T08:33Z,"As a side note, the bin files are compressed archive files containing all of the files included in this rip. When you run the installer it simply extracts everything from the bin files and puts the data into your specified location.
+
+You DO NOT need to manually open the bin files.
+
+Did you really expect a 2.43 MB executable to contain all of the necessary data?"
+,vaibhavtewari,2008-02-10T23:44Z,"This white screen this is still unresolved, changing shortcut thing didnt work.....any suggestions "
+,JOAOJATOBA,2008-02-11T05:39Z,"With any of this command lines you can see something in the main menu, but  it's not a final fix. I'm still working on a fix (I want to play too T_T )
+
+""C:\Program Files\Half-Life 2 Episode Two\hl2.exe"" -game ep2 -mat_dxlevel 70 -window +mat_softwarelighting 1 +mat_forcehardwaresync 0
+
+""C:\Program Files\Half-Life 2 Episode Two\hl2.exe"" -game ep2 -mat_dxlevel 80 -window +mat_softwarelighting 1 +mat_forcehardwaresync 0
+
+""C:\Program Files\Half-Life 2 Episode Two\hl2.exe"" -game ep2 -mat_dxlevel 81 -window +mat_softwarelighting 1 +mat_forcehardwaresync 0
+
+""C:\Program Files\Half-Life 2 Episode Two\hl2.exe"" -game ep2 -mat_dxlevel 90 -window +mat_softwarelighting 1 +mat_forcehardwaresync 0
+
+""""""""The ""C:\Program Files\Half-Life 2 Episode Two\"" part should of course be the folder to which you've installed the game."""""""""
+,L7RRR,2008-02-15T14:18Z,"THIS WORKS! ! ! 
+
+I have tried many HL2 ep 2 and orange box torrents and every single one had some weird problems. Unleashed very buggy. Detonations orange box version of HL2 EP2 were ridiculously buggy because of gordon moves up&down like walking over the rocks all the time.  
+But this really works! I have ATI 2900XT crosfire and I haven't seen that problem mentioned previously posts.
+
+Many, many thanks! Your work is grreatly appreciated."
+,mcmanoos,2008-02-15T19:23Z,Anyone figure out the white screen problem yet?  I'm still having it too.
+,YAeH,2008-02-17T14:08Z,"first my shortcut didn't work to now i changed the shortcut to the hl2 exe then it didn't work either but somehow it did work with those
+links you guys gave me thats fixed... finnaly
+and now i have the white screen to :'("
+,deemonSsS,2008-02-23T11:33Z,i still have the white screen problem.Those commanads don't seem to work for me
+,albertKEMEMARU,2008-03-10T22:09Z,"using the   ""F:\Program Files\Half-Life 2 Episode Two\Episode Two.exe"" -game ep2 -mat_dxlevel 90 -window +mat_softwarelighting 1 +mat_forcehardwaresync 0     command I see rocks and trees and barrels and fences and Alyx(without her eyes, CREEPY!) and trains and such (AND Im getting afterimages like crazy), but no ground or water or sky or any other important textures. Im using a NiVidia GeForce FX5200 PCI w/ 256MB DDR, so idk why the gfx are  buggy. Will the fix be soon?"
+,albertKEMEMARU,2008-03-11T02:00Z,"Is this 
+http://forum.digitalpowered.info/index.php?s=1918a9fe1bde02220dbb3e8d616417ec&showtopic=19515&pid=182371&st=0&#entry182371
+what we should do?"
+,the_crazy_swede,2008-03-25T01:49Z,"everything worked fine trough out the whole game...well, exept for when g-man talked. my computer was frozen on a black screen with nothing but g-mans words comming out of my speakers. great ripp tough."
+,pfq,2008-05-05T00:57Z,"I have NO problem with the menu etc but during the game I get transparent walls, floating trees, rocks and stuff like that. Does anybody get any of these. Any suggestions? 
+
+I get the same problem with the dopeman version as well..."
+,Pimpking,2008-05-15T06:00Z,"This is what got me going:
+http://forum.digitalpowered.info/index.php?s=1918a9fe1bde02220dbb3e8d616417ec&showtopic=19515&pid=182371&st=0&#entry182371"
+,ogipower,2008-06-21T17:02Z,thx but there is one problem . . CHEATS not workink !!!!! ?  ? ?  ?HELP PLEASE
+,aGHATORSfan,2008-06-27T04:13Z,i'm stucked at 64.6%...SEED PLEASE!!!!!
+,staticstc,2008-09-15T09:25Z,please seed i`m at 97.6% and i download with 0.3kb/s and i`m uploading with 23 kb/s
+,staticstc,2008-09-15T09:27Z,"i'm stucked at 98.1 %.and i`m uploading with 20 kb/s , please seed !! I promiss i`ll seed after complete tha download!! PLEASE SEED!!"
+,staticstc,2008-09-15T15:37Z,"wtf when i first start , it appers the background and the menu... and it say`s :procesing files... and it says me this:http://www.photoplesk.com/images/bc9fkuli334803a4zo.jpg"
+,Alex20,2008-09-22T08:34Z,Does anyone know how to get the command line up for cheats?? I`ve tried everything...... 
+,HorseDIC86,2008-10-08T06:53Z,"@staticstc
+
+In order to get rid of the runtime error, try installing these two Visual C++ runtime packages:
+http://www.microsoft.com/downloads/details.aspx?FamilyID=32bc1bee-a3f9-4c13-9c99-220b62a191ee&DisplayLang=en
+http://www.microsoft.com/downloads/details.aspx?FamilyID=a5c84275-3b97-4ab7-a40d-3802b2af5fc2&DisplayLang=en
+
+If that doesn't work, also make sure that you have the all the Windows Updates.
+
+If you have Vista (though it looks like you have XP), try this update specifically as it is part of the Source 2007 Binaries GCF:
+http://www.microsoft.com/downloads/details.aspx?FamilyID=a156e265-40ff-468e-bba2-3d1e1929c416&DisplayLang=en
+
+Let me know if this works and what OS you have. Sorry it took me so long to get back to you. "
+,cheezcharmer,2008-11-08T04:21Z,i have both XP and vista and i'm facing the white screen problem
+,trukkikuski,2008-12-19T17:52Z,This torrent is completely useless and i'm going to delete it if no one has the solution for white screen problem.
+,trojto,2008-12-19T19:59Z,"Does it work and pls pls seed IÂ´am downloading at __5,3 KB pls seed. !!!!__"
+,hdrezz,2009-07-06T19:51Z,"When I open the program it tells me it requires a minimum of direct x 8.0. My direct x is up to date, what's happening?"
+,SuxXarD,2009-12-10T22:47Z,"Installed and worked fine!
+
+I played it before, thinking it was Episode 1, but I was wrong."
+,JimmyDanger,2010-03-01T10:21Z,"Perfect !
+I first played the Orange Box version, which had a bug causing it to freeze at some point in the mines (happened at the same spot on 2 different configurations). This one worked flawlessly. No white screen, texture problems, freeze-ups or script errors.
+Many thanks !"
+,ixianda,2010-05-02T21:49Z,"Has no one found the fix to the ""white screen"" problem yet? That seems to be the only thing wrong with this download."
+,MaxMouseG,2010-08-03T04:27Z,You retards STOP SAYING IT WORKS FINE AND THEN SAYING THE WORD EXCEPT... FUCK YOU 
+,MaxMouseG,2010-08-03T04:28Z,"JUST DON""T BOTHER POSTING AT ALL FAGGOTS"
+,Pouls009,2010-09-15T23:54Z,"Great Torrent lol
+Works fine =D"
+,ZPTheart,2010-10-27T22:25Z,"Does this work fine on Windows 7? Im not sure if i should download or not. Im seeing comments about the white screen but im noticing that its happening on 2000, XP, and Vista. But so far, when ive downloaded something like this, its worked fine on Windows 7. Someone give me an answer please."
+,Evil..Muffin,2011-01-21T17:30Z,"Do you have to install it? Or just download, extract and play?"
+,qayum1616,2011-01-30T11:53Z,Thanks............. It work fine on Windows 7
+,qayum1616,2011-01-30T11:55Z,"Fix for White Screen Issue
+
+
+If all you get is a white screen and audio when you load the game, you may be able to fix the issue by changing your shortcut to the hl2.exe to look like this:
+""C:\Program Files\Half-Life 2 Episode Two\hl2.exe"" -game ep2 -dxlevel 81 +mat_forcehardwaresync 0
+
+The ""C:\Program Files\Half-Life 2 Episode Two\"" part should of course be the folder to which you've installed the game.
+
+I found this information in the main post on The_Unstopable's Portal release page: http://forum.digitalpowered.info/index.php?showtopic=15612
+
+
+If you have any other questions, perhaps you will be able to find the answers here:
+http://forum.digitalpowered.info/index.php?showtopic=18309"
+,qayum1616,2011-02-01T03:53Z,Shit After im restart the game it will be a white screen too ..........This is fucked out    arghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+,Mayuri,2011-02-26T08:20Z,"Does anyone know how to solve the ""This game has a minimum requirement of DirectX 8.0 to run properly."" error? 
+
+Some information about my computer (I know it's not all that great, but it's all I have for right now)
+
+Time of this report: 2/26/2011, 02:10:00
+Operating System: Windows XP Professional (5.1, Build 2600) Service Pack 3
+(2600.xpsp_sp3_gdr.101209-1647)
+Language: English (Regional Setting: English)
+System Manufacturer: HP Pavilion 061
+System Model: DM170A-ABA A350N
+BIOS: BIOS Date: 09/04/03 17:10:30 Ver: 08.00.08 Processor: Intel(R) Pentium(R) 4 CPU 2.80GHz (2 CPUs)
+Memory: 512MB RAM
+Page File: 447MB used, 802MB available
+Windows Dir: C:\WINDOWS
+DirectX Version: DirectX 9.0c (4.09.0000.0904)
+Card name: NVIDIA GeForce4 MX 440 with AGP8X"
+,max4554,2011-03-12T20:15Z,"Hi..
+I wonder .. Do still ""Alice""Do not move to elevator ..
+'Such as [dopeman] version level 'T-MINUS ONE' ....
+and i hob some one told me to be came downloading these torrent . "
+,maggieboo,2012-04-13T09:33Z,"hi im having a problom with the game every time i try to play a box comes up and says 
+
+
+""Can't find background image materials/console/startup_loading.vtf""
+
+
+
+please help me :("
+,worldofwars1,2012-07-28T04:01Z,"Fix for the white screen (checked and it works)
+1. go to: 
+
+And download it and open it but dont touch any thing yet in it (The problem is the shaders)
+
+2. Go to program files (located in your ""computer"" area where you can in the start up... after opening that go to you're hard drive and find program files)
+
+3. Look for ""Half-Life 2 Episode Two"" and open it
+
+4. Then open the file named ""hl2"" Then open the file ""shaders""
+
+5. You should see three files named ""fxc"", ""psh"", and ""vsh"" delete all three of them
+
+6. go back to the .rar file you downloaded and open the ""hl2"" files then the ""shaders"" file (you'll notice they are the same)
+
+7. Drag those files in the .rar into the shaders file (the one that you deleted the files from)
+
+Let them paste and what not and TADA! No more white screen!"
+,worldofwars1,2012-07-28T04:14Z,http://forum.digitalpowered.net/index.php?act=Post&CODE=02&f=51&t=33102&qpid=329879 (This is the white screen fix) x_x wouldn't let me post a different link here
+,worldofwars1,2012-07-28T04:21Z,Yeah my fix is a little complicated >.> if only it let me post the damn link on here but yeah replace the shaders! GO FUCKIN LUCK! >:3 now to go play me some Nightmare house 2

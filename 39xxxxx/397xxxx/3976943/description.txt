@@ -1,0 +1,26 @@
+HijackThisâ?¢
+
+HijackThisâ?¢is a free utility that generates an in depth report of registry and file settings from your computer. HijackThis makes no separation between safe and unsafe settings in its scan results giving you the ability to selectively remove items from your machine. In addition to this scan and remove capability HijackThis comes with several tools useful in manually removing malware from a computer
+
+HijackReader
+
+HijackReader is a free program which reads HijackThis log files and tries to give advice on what to fix. It is based on Merijn's tutorial on the subject, and automatically searches in Pacman's startup list as well as Tony Klein's Browser Helper Object (BHO) list.
+
+It's main features are:
+
+Automatically reads HijackThis logs
+Gives advice on what to fix
+Can output the report to text (txt) or web (html) format
+The web report includes a link, for quick Google searching, based on the object in question
+Requires no installation or DLL files. Does not write any settings to the registry or create any files, unless the user wants it to
+Completely portable. Can be run from a USB-flash drive, CD, etc.
+No internet connection required (unless you want to check things using the Google function)
+Add your own recommendations (since version 1.02)
+Limitations and bugs
+This is a beta version, so it may still contain some bugs. It cannot yet be regarded as a full HijackThis log reader. HijackReader relies mostly on the following sources:
+- Pacman's Startup List
+- Tony Klein's BHO List
+
+Since Castlecops' full list isn't available for download, the program will not recognize all entries (perhaps this will be possible in the future). This is definitely one of the weaknesses of the program. In such instances, however, a (search) link is provided to the Castlecops site in HTML reports.
+
+The current version does not read the "Running processes" list.

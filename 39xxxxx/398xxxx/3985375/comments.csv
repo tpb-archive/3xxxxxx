@@ -1,0 +1,114 @@
+﻿User Type,Username,Date,Text
+,exeon_Zechs,2008-01-21T01:11Z,seed? :(
+,pocketpc2004,2008-01-21T02:37Z,"dont worry i will seed it until theres a few seeds
+
+my friend made the torrent but im the one who seeds it
+
+if you have a question related to this torrent, dont hesitate to ask
+
+and dont forget to seed after youre done thx"
+,pocketpc2004,2008-01-21T16:51Z,"to enable ethernet you will need to follow this tutorial
+
+http://www.paulooi.com/2005/10/15/vmware-network-mac-osx-x86/
+
+the terminal is in applications/utilities/
+
+and use this driver instead of the one in the tutorial
+
+http://video.paulooi.com/Maxxuss-AMDPCNET-v1.0_1043.zip
+
+network will work out of the box after
+
+have a nice day ;)"
+,pocketpc2004,2008-01-21T17:12Z,and btw i think you need a cpu with at least SSE 2 to use this thing
+,iustin85,2008-01-21T22:16Z,"Can anyone post if it works on SSE2, also 512 Ram  for the virtual machine is enough? what version of vmware is recommended... ? thank you"
+,pocketpc2004,2008-01-21T22:33Z,"it will work with almost all SSE2 cpus but my banias laptop doesnt because it doesnt have ''physical adress extension'' thing
+
+512 ram (for the vm) is ok for basic stuff
+
+and it was made with vmware 6 and i personnaly recommend it"
+,bebright,2008-01-22T00:55Z,"what is the password to log in?
+
+and thanks"
+,pocketpc2004,2008-01-22T00:56Z,the pw is warrent for those who are too lazy to read
+,sk8erboi,2008-01-22T02:16Z,"help me!
+i open Apple OSX.vmx with wmware but it's display some tip below.
+""
+Could not open virtual machine: D:\Wmware\Apple OSX\Apple OSX.vmx. This virtual machine appears to be in use.
+
+Configuration file: D:\Wmware\Apple OSX\Apple OSX.vmx"""
+,bebright,2008-01-22T02:39Z,"sorry for being so lazy,
+
+by the way, where was the password.  
+
+still couldn't find it.
+
+again, thanks"
+,sk8erboi,2008-01-22T02:41Z,thank you! i have got it .
+,iustin85,2008-01-22T08:16Z,"help !! i`ve got the same issue as sk8erboi, currently i`m reinstalling vmware in order to fix that. anyone have any suggestion ? thank you"
+,arneno1,2008-01-22T14:44Z,"I've downloaded this release on two different pc's and on both machines I get a CRC error on one file in the zip.
+
+The failing file is ""apple-cl1.vmdk"".
+
+Anyone else had the same problem?"
+,scoz,2008-01-22T15:18Z,"I had the crc error.  In the end I used 7zip which extracted it fine.
+http://www.7-zip.org/download.html"
+,pocketpc2004,2008-01-22T16:26Z,"sry for the pw thing, i think he removed the pw notification by mistake the last time he tweaked the vm image
+
+and if you forget the pw it will show it after a few retries on apple account login"
+,madrang,2008-01-23T04:41Z,if you get an error about vmware img in use it is because of the config file... try to open it in note pad and editing it but the problem is to rewrite it because where you extract the file change some config i make so you can fix it or extract it again in the vmware default folder in my doc/my virtual machine .... but after can still have problem but just try it will not hurt :-)
+,sameo,2008-02-11T18:20Z,I got some wierd error and am now redownloading....  System config file '/com.apple.boot.plist' not found
+,xippie,2008-02-18T02:33Z,"Thanks I give it a try.
+
+Any hope for a new Apple Mac OS X 10.5.2 release?"
+,zeroless,2008-03-10T18:33Z,daaaaaaaaaamn i was looking for this all my life
+,zeroless,2008-03-10T23:42Z,"if you get this error (as skaterboy did) :
+
+opening Apple OSX.vmx with wmware but it's display some tip below.
+""
+Could not open virtual machine: D:\Wmware\Apple OSX\Apple OSX.vmx. This virtual machine appears to be in use.
+
+Configuration file: D:\Wmware\Apple OSX\Apple OSX.vmx"" 
+
+you should normally get a box with two options first : take ownership or cancel 
+press take ownership
+
+after that it will ask you have you copied or moved the source
+press i have copied it 
+
+make sure the applboot.iso is chosen as the cd rom for boot
+
+now start the VM (virtual machine)
+
+at the password station choose either one the pass is warrent (exactly as written)"
+,zeroless,2008-03-11T14:57Z,"I Tested the Ethernet Driver it worked easily just follow the instructions (the pocketpc2004 ilnks a couple of lines above) and it would work like a charm 
+PS : you could either use bridged networking or either Nat , either way it works ! 
+Cheers"
+,TrickyXX,2008-03-20T11:10Z,"Works nicely, had some trouble at the start though but it runs. Just wondering everytime i try to update it fucks up the machine?"
+,lanwarrior,2008-03-24T03:50Z,"What is the ""Madrang"" password?? It is NOT ""warrent"", as I have tried it before.
+
+Why is the WarRent team creates another ADMIN username (Madrang) without telling us the password? I smell something fishy...."
+,lanwarrior,2008-03-24T03:59Z,"BTW, can I install VMWare Tools on it? This tools typically installed within VMWare workstation to speed up the whole thing, including higher resolution display."
+,lanwarrior,2008-03-24T04:19Z,"In my question about the password, also what is the ""su"" password? I cannot install the updated network driver per pc2004 comments above without the ""su"" password.
+
+When I run ""install.sh"" for the network driver (obtained from the link in pc2004 comment), it couldn't find the /system/... folder because I am not ""su"" user."
+,Bry8Star,2008-03-29T05:47Z,"wanted 2 know the version # , thanks to  WwTIPPYwW , its v10.4.8 . 
+Will it work on an installation of Win XP (32bit) with AMD (64bit) processors (with SSE2, SSE3 etc included features) ? has anyone successfully tried that ?
+"
+,VooDooNOFX,2008-05-03T11:32Z,"Nothing ""fishy"" with this torrent. Booted up perfectly in my VMWare Fusion 1.0, and 1.1, as well as my linux VMWare server installs. 
+
+And...""For those of you who can't read..."" refers to the fact that the passwords are given to you as password hints next to the log in tile.
+
+Thanks for this, now I can play around with OSX without messing up my actual macbook. "
+,pimpsauce,2008-06-11T05:49Z,"warrent looks to be the pass for the apple account but it always comes back to the login screen for me. and the madrag account just wont even try to login, wrong pass."
+,mickael2050,2008-07-05T10:00Z,"Hello everybody,
+
+Has someone found the password for ""madrang"" and/or ""apple"" user account ? Cause ""warrent"" doesn't work...
+
+What a shame to make this VM without giving the passwords !"
+,neosaro,2008-08-01T14:05Z,"Downloaded it and extracted with 7zip. Started vmplayer in ubuntu 8.04 and opened the image, I am seeing an apple logo and the cursor spinning as if its booting up but it never finishes booting ! :( Any idea how I could solve this ?
+
+I am running it on ubutu 8.04 on my dell XPS1330"
+,eboye,2010-01-08T21:09Z,"have you tried password as password? :D
+
+It worked for me."

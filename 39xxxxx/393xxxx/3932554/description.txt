@@ -1,0 +1,75 @@
+Private Ascent Server for Patch 2.3.0 = AC Web Ultimate Repack!
+
+I take no credit for this upload/tutorial.. Just uploading for the public request!
+
+
+            ******************************************
+
+  _______   ______         __       __    ______   _______       
+ /\   __ \ /\  ___\  ____ /\ \     /\ \  /\  ___\ /\   __ \      
+ \ \  \_\ \\ \ \__/ /\___\\ \ \  __\ \ \ \ \ \__  \ \  \_\ \     
+  \ \  ___ \\ \ \   \/___/ \ \ \/\ \\ \ \ \ \  _\  \ \   __ \    
+   \ \ \\ \ \\ \ \____      \ \ \_\ \\_\ \ \ \ \____\ \  \_\ \   
+    \ \_\\ \_\\ \_____\      \ \__________\ \ \_____\\ \______\ 
+     \/_/ \/_/ \/_____/       \/__________/  \/_____/ \/______/
+        ___________________________________________________
+       /\_________________www.ac-web.org___________________\
+       \/___________AC Web Ultimate Repack 7.3_____________/
+                          
+
+            ******************************************
+
+
+
+*********************************
+*             Setup             *
+*********************************
+
+First extract the map extrator (either enUS or enGB depending on wow version) to your wow directory.
+
+Then run ad.exe
+
+When it has finished place the maps folder into C:/AC Web Ultimate Repack/ascent
+
+Then start up the control panel (C:/AC Web Ultimate Repack/Control Panel.exe)
+
+Click the "Launch Server" Button.
+
+Now change your realmlist (realmlist.wtf located in your wow directory) to 127.0.0.1
+
+login with user: admin pass: admin
+
+Now play!
+
+*********************************
+*           Other Things        *
+*********************************
+
+MySQL info is -
+User: root
+Pass: ascent
+
+I recommend using heidiSQL (http://www.heidisql.com) to browse your sql files.
+
+You must spawn the vendors manually, the ids are 50000 - 50080 (command is ".npc spawn 50000" or whatever)
+
+
+*********************************
+*           Website             *
+*********************************
+
+To get the website to work publically, open 
+C:/AC Web Ultimate Repack/Server/htdocs/configuration.php with notepad, 
+search for live, and replace http://localhost with your site. 
+Also you will need to go into the forum admin cp and change the board directory from http://localhost to your site.
+The Joomla control panel is found at http://localhost/administrator, user=admin pass=admin
+
+*********************************
+*            Thanks             *
+*********************************
+
+Thank you for using AC Web Ultimate Repack 7.3
+Visit www.ac-web.org
+
+--------BEST TUTORIAL EVER!--------- 
+http://www.centaur-gaming.net/archive/index.php/t-58.html

@@ -1,0 +1,236 @@
+credit to soporific!
+ 
+http://sharethefiles.com/forum/viewtopic.php?t=49284
+
+for those that dont use ed2k
+
+November 2007 contents:
+
+DVD BOOT MENU:
+
+* 6 different flavours of Windows XP Professional SP2 to choose from - a \'More Info\' option is also available that will tell you what each option installs.
+- the choices involve whether you want:
+> to use the driverpacks
+> to automatically launch the post-install menu (and thus install the default apps)
+> to install the WinBorg theme which is the logon screen (just like in the August release) and the name of \'My Computer\' is renamed to \'The Collective\' (easily renamed back). THe alternative is to install the OS without these \'Borg\' elements.
+
+* a Tools menu is now available with a \'More Info\' option for all the tools.
+- the menu is:
+> HD Clone Professional 3.2
+> Hiren\'s Boot CD 9.2
+> Partition Magic 8.05
+> Bart\'s Ram Tester 1.4
+
+* my version of Windows Pre-install Environment - this option is available from the Boot Menu and when chosen, Windows XP loads up (ie like a \'Windows on a CD\') using a RAM disc to store all the temporary OS files, 33 apps are installed and its just like the normal Windows XP interface - this means you can play around with an old hard disc that has a stuffed OS (ie won\'t boot up) -- even Burning to DVD is available. IF you run this inside a VM (either VMWare or Virtual PC) you can also connect to your network and to the internet if you\'re connected.
+
+DRIVERPACKS:
+
+* Added 13 new packs - Broadband, Input, Misc, Modem, Monitor, PrintersCanonLaserjet, Scanner, SmartCardReader, TouchScreen, TV, USB, Virtual machine, WebCam
+* 2 of the 6 options for the OS don\'t use the driverpacks, the other 4 do. See above for more info.
+* The full list of included driverpacks is:
+- Broadband 7.04.16
+- Chipset 7.10.1
+- CPU 7.04.1
+- Graphics A 7.10
+- Graphics B 7.10
+- Graphics C 7.09.1
+- Input 7.09.23
+- LAN 7.10.1
+- MassStorage 7.09.2
+- Misc 7.11.23
+- Modem 7.09.22
+- Monitor 7.11
+- PrintersCanonLaserjet 6.10.20
+- Scanner 6.08.31
+- SmartCardReader 7.09
+- Sound A 7.11
+- Sound B 7.10.1
+- TouchScreen 7.08
+- TV 7.09
+- USB 6.08.31
+- Virtual 7.08
+- WebCam 7.02.18
+- WLAN 7.09.2
+
+SETUP THEMES:
+
+* There are 5 different setup themes. Each option refers to the OS menu options available from the boot menu. Only the WinBorg XP setup theme has billboard text. The rest are just pictures.
+
+* The list is:
+- option 1: Blue Sky
+- option 2: Infinite Improbability Drive
+- option 3: Panic Attack
+- option 4: Panic Attack
+- option 5: Stream of Beauty
+- option 6: WinBorg XP
+
+These have no effect on the final resulting OS - i thought i\'d add some variety to the install screens. I like the panic attack one the best.
+
+THE OPERATING SYSTEM:
+
+* The OS is Windows XP Professional with SP2, IE7, and WMP11 integrated. You should not need to download any further hotfixes, and you should be able to \'validate\' at any time with any OS you install from this DVD.
+
+* The list of integrated hotfixes is extremely long and there\'s so many there\'s little point wading through them all, it would be tedious in the extreme! But.... if you must know the list, click here: hotfix list
+
+* Pre-installed apps and updates:
+- Java Runtime Environment 6 update 3
+- MS .Net Framework 2.0
+--- note: the reason for forcing this installation on you is that a fix has been installed called the Tool-Tip-Fixer 1.0.1 (see addons) - it requires Net Framework 2.0 for it to work. And so do many other applications. Every OS option on this DVD installs this so i\'m sorry if this isn\'t a good thing for you - it is for me!
+- Mozilla Firefox 2.0.0.10 with the latest version of flash
+- the SPTD driver v1.50
+- User Profile Hive Cleanup Service
+- Kel\'s Visual Styles Pack
+- VMware Tools
+- Virtual PC Additions
+- XVID 1.1.3
+
+* Your control panel will have 56 objects after install, and the apps are all current as of November 20, 2007.
+- The full list of addons slipstreamed into this release:
+
+LuZR4Life\'s Black Theme
+Kel\'s CMD anywhere
+Kel\'s CPL-Bonus v7.2 - ( containing the following:
+- BootSafe v1.0.1002
+- Bootvis
+- ClearType PowerToy
+- CPU-Z v1.42
+- Dial-a-Fix v0.60.0.24
+- DirectX 9.0c CPL
+- Expired Cookies Cleaner v1.02
+- GPU-Z v0.1.1
+- HD Tune v2.54
+- MemTest v3.6
+- Microsoft AutoPlay Repair Wizard
+- Microsoft TimeZone <-- Requires .NET Framework
+- Microsoft Virtual CD-ROM Control Panel v2.1
+- MSI CleanUp Utility 4.4
+- Nero Info Tool v5
+- New MSConfig
+- Regedit
+- Startup v2.8 CPL
+- Services and Devices v2.7
+- TweakUI PowerToy v2.10.0.0
+- Windows Task Manager
+- WinUpdatesList v1.21
+- User Accounts 2 CPL )
+Kel\'s Hoster v3.1
+Kel\'s JRE6 update 3
+Kel\'s Runtimes v3.7
+Kel\'s SafeXP v1.5.7.14
+Kel\'s UniversalSilentSwitchFinder v1.4.1.1
+Rick\'s Post SP3 UpdatePack v1.0.5
+Rick\'s NR Prio v1.9.7
+Rick\'s Genuine-Advantage 7.11.07
+Rick\'s DriverBackup CPL v0.79b
+Rick\'s Vista Sounds Replacement
+Rick\'s Vista Aero Cursors v7.07.03
+Rick\'s Tool-Tip-Fixer 1.0.1
+RyanVM\'s WGA-Notifications 1.7.18.5a
+
+ESSENTIAL TWEAKS:
+
+* To find out what essential tweaks will be installed, click here: Essential Tweaks
+
+POST-INSTALL APPLICATIONS MENU:
+
+Acropad 1.3.2
+400 TrueTypeFonts
+*7-Zip 4.56
+Addon Installer 1.0
+*Adobe Shockwave 10.2.0.23
+Alcohol-120 1.9.6.5429
+AnyDVD 6.1.6.7
+ASPI 4.6.1021
+ATI Tray Tools 1.3.6.1042
+Avicodec 1.2.113
+Bulk Rename Utility 2.5.4.3
+CDCheck 3.0.1.43
+*ClipName 1.2.3
+Clock Tray Skins 3.8
+CloneCD 5.3.0.1
+*Crap Cleaner 2.03.532
+Cute PDF Writer 2.7
+CWShredder 2.19
+PowerDVD 5.0
+Data Recovery Toolbox November 2007
+Disk-Temperature 1.00.34.RC8
+Dot Net Framework 1.1
+DVD-Idle-Pro 5.9.8.5
+DVD-2-One 2.1.3
+DVD-Shrink 3.2.0.15
+eMule-MorphXT 10.5
+Everest-Ultimate-Engineer-Edition 4.10.1134b
+ffdshow rev1431
+File Restore 1.0
+FlashGet 1.9.6.1073
+*FoxIt Reader 2.0.1414
+FTP-Wanderer 2.8.1
+GPass 2.0.30.0
+GSpot 2.70a
+Hard Disk Toolbox November 2007
+*HashTab 2.0.5
+HDD-Regenerator 1.51
+Hide-IP-Platinum 3.43
+Image Format Converter 2.0
+Inno-Setup 5.2.2
+*Irfan View 4.00
+JV16-Power-Tools-2007 1.7.0.405
+Media-Player-Classic 6.4.9.1
+Media Files Toolbox August 2007
+mIRC 6.3
+Multi Res 1.58
+Nero Burner Suite 6.6.1.6
+Net-Limiter Pro 2.0
+NOD32-Antivirus 2.70.39
+NotePad++ 4.6
+Opera 9.24
+PEExplorer 1.99
+PerfectDisk 8.0.64
+PikyBasket 2.0
+PowerDesk 6.0.4.2
+PowerISO 3.8
+*PowerMenu 1.51
+Registry-Pruner 2.5
+Registry Repair Wizard 4.31
+Registry Toolkit 3.5
+Rightmark CPU Clock Utility 2.30.1
+RivaTuner 2.06
+Rootkit-Revealer 1.7.1
+Save-My-Work 1.0.45
+ShellExView 1.17
+SpyBot Search & Destroy 1.51 (Halloween edition)
+Statbar 2.406
+Stress Test Toolbox August 2007
+Sunbelt Kerio Personal Firewall 4.5.916
+TopDesk 1.5.3
+Trillian-Pro 3.1.7.0
+TrueCrypt 4.3a
+TuneUpUtilities2007 6.0.2311
+Unlocker 1.8.5
+Unstoppable-Copier 3.12
+UTorrent 1.7.5
+Vista-Drive-Indicator 1.8
+*VLC Media Player 0.8.6d
+WinRAR 3.71
+WinSnap 2.07
+XP-AntiSpy 3.96.6
+xvi32 2.5.1.0
+Zoom Player 5.0
+
+Note: titles with * before their name are considered ESSENTIAL apps and are installed by default by the post-install apps program. They are all un-installable and can also be de-selected from the menu. Don\'t forget you can also choose to by-pass the post-install menu altogether.
+
+BUGFIXES since the last release:
+
+* fixed: bug in code that adds Device Manager to Right-Click context menu
+* fixed: bug where you get two \"Cmd Prompt here\" entries in the right-click menu
+
+
+And finally the link:
+
+WinBorgXP_Nov07_DVD.version.iso (1.51 GB) :: Check Sources
+
+Hope you like. Feedback is always good.
+
+
+Problems with the release:
+- there was a mistake made with reference to input languages, unfortunately, some were removed from the OS. For those who are missing languages from the BASIC group (ie any languages that aren\'t right-to-left, and aren\'t East Asian), please download and install the following fix: 

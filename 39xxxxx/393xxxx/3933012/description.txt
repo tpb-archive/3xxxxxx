@@ -1,0 +1,81 @@
+SiSoftware has announced the availability of SiSoftware Sandra 2008, the latest version of its award-winning utility which includes remote analysis, benchmarking and diagnostic features for PCs, servers, PDAs1, Smart Phones1, small office/home office (SOHO) networks and enterprise networks. 
+
+SiSoftware Sandra (the System ANalyser, Diagnostic and Reporting Assistant) is an information & diagnostic utility. It should provide most of the information (including undocumented) you need to know about your hardware, software and other devices whether hardware or software. It works along the lines of other Windows utilities, however it tries to go beyond them and show you more of what's really going on. Giving the user the ability to draw comparisons at both a high and low-level. You can get information about the CPU, chipset, video adapter, ports, printers, sound card, memory, network, Windows internals, AGP, PCI, PCI-X, PCIe (PCI Express), database, USB, USB2, 1394/Firewire, etc.
+
+Native ports for all major operating systems are available:
+* Windows 2000, XP, 2003, Vista*, Longhorn* (x86)
+* Windows x64 Edition XP/2003/Vista*/Longhorn* (AMD64/EM64T)
+* Windows 64-bit Edition 2003/Longhorn* (IA64)
+* Windows Mobile 2003/2003SE (ARM CE 4.20)
+* Windows Mobile 5 (ARM CE 5.01)
+* Windows Mobile 6 (ARM CE 5.02) 
+
+All major technologies are supported and taken advantage of:
+* SMP - Multi-Processor
+* MC - Multi-Core
+* SMT/HT - Hyper-Threading
+* MMX, SSE, SSE2, SSE3, SSSE3 - Multi-Media instructions
+* Wireless MMX - Mobile multi-media instructions
+* NUMA - Non-Uniform Memory Access
+* AMD64/EM64T/x64 - 64-bit extensions to x86
+* IA64 - Intel* Itanium 64-bit 
+
+Key features:
+* 4 native architectures support (x86, x64/AMD64/EM64T, IA64/Itanium3, ARM).
+* 3 native platforms support (Windows, Windows Mobile, Windows CE4).
+* Additional platforms supported through Java RE (e.g. Linux, FreeBSD, Mac OSX, Solaris5).
+* Additional platforms supported through .NET CLR (e.g. Mono/Linux5).
+* 19 established benchmarking modules, 4 new to this version.
+* 38 detailed information modules, 4 new to this version.
+* Huge official hardware support through technology partners (Intel, AMD/ATI, SiS, VIA)
+* Future instructions set support (Intel SSE46, AMD SSE4A6) on x86 and x64/AMD64/EM64T platforms.
+* 6 charting options: combined, detailed, differences, components, performance vs. speed charts.
+* 5 language versions (English, German, French, Italian, Russian) in a single installer.
+* Enhanced Sandra Lite version (free for personal/educational use) 
+
+Notes:
+1 .NET (Compact) Framework 2.0 and later supported.
+2 Sun Java SE 6 (1.6.x) and later supported.
+3 By special arrangement.
+4 By special arrangement; device SDK required.
+5 By special arrangement; Applet version only.
+6 Unreleased, next-generation pre-release platforms at publication time. 
+
+New in SiSoftware Sandra XII (2008):
+London, UK, August 15th 2007 - We are pleased to launch SiSoftware Sandra XII (2008), the latest version of our award-winning utility, which includes remote analysis, benchmarking and diagnostic features for PCs, servers, PDAs, smart-phones and networks.
+Over time, there has been a continued and sustained growth in software portability and the development of software that can ultimately be executed on multiple platforms without recompilation. With the use of the software virtual machine (SVM) growing, be that .NET1 or Java2, the importance of offering a benchmark that measures their performance has grown.
+The introduction of these benchmarks will soon allow the complete suite to be available on other operating systems - not just on Microsoft Windows, as we expanded into non-x86 architectures (IA64/Itanium3, x64/AMD64/EM64T, ARM) in the previous years. We have also added additional support for Virtual Machine and Runtime Engines to open up this information now to the our users.
+Not everything in this release is virtual: as with all releases there is something very real in adding more and more support and trying to predict the new needs of our users as we achieved with each release. Support for digital certificates and cryptography, detailed information of the security settings, policies, users and groups of your computer, wireless networks and advanced charting.
+
+This version adds the following new modules and functionality:
+* .NET Benchmarking1
+o .NET Arithmetic: Shows how well the system handles .NET arithmetic operations through the .NET CLR in comparison to other typical .NET CLRs.
+o .NET Multi-Media: Shows how well the system handles .NET multi-media operations through the .NET CLR in comparison to other typical .NET CLRs. 
+
+* Java Benchmarking2
+o Java Arithmetic: Shows how well the system handles Java arithmetic operations through the Java Runtime Engine (JRE) in comparison to other typical Java Virtual Machines.
+o Java Multi-Media: Shows how well the system handles Java multi-media operations through the Java Runtime Engine (JRE) in comparison to other typical Java Virtual Machines. 
+
+* Information and Diagnostics
+o Virtual Machines and Runtime Engines: Information about the software Virtual Machines (VM), Runtime Engines (RE) and software engines installed on your computer.
+o Cryptography and Certificates: Information about the cryptographic providers, algorithms and security certificates installed on your computer.
+o Sessions: Information about the client sessions hosted by your computer under Terminal Services.
+o Users and Groups: Information about the users and user group accounts registered on your computer and on your domain. 
+
+* Wireless Support: Information about the wireless (802.11a/b/g/n) networks and devices in addition to the Bluetooth, IrDA (Infrared) and networking capabilities.
+
+* Enhanced Network (LAN/WAN) Capabilities
+o Bluetooth Devices and Networks
+o Wireless Devices and Networks
+o Terminal Servers
+o Universal Plug & Play (UPnP) Devices and Networks 
+
+* New Advanced Charting Capabilities
+o Differences Chart: view the differences between the tested device and reference devices.
+o Components Chart: contrast the indexes against one another for both current and reference device.
+o Performance vs. Speed: contrast the results against device speed (MHz, bps, etc.); how much more performance do you get from a faste device?
+o Performance vs. Power: contrast the results against device power (TDP); how much more power does a faster device consume? 
+
+With each release, we add new support and compatibility for the latest hardware, architectures and operating systems, and this is no exception. SiSoftware continues to work with hardware vendors to ensure the best support for new emerging hardware.
+
+have fun and enjoy The Joker (Have a mery X-Mass)

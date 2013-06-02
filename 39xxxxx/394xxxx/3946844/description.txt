@@ -1,0 +1,34 @@
+ Earthsiege 2 is a mecha-style simulation game developed by Dynamix and released in 1995. Earthsiege 2 is set the Earthsiege universe, which contains its predecessors Earthsiege (1994) and Battledrome (1995), as well as action game Hunter Hunted (1996), strategy games Cyberstorm (1997) and Cyberstorm 2 (1998), simulation Starsiege (1999), and first-person shooters Starsiege: Tribes (1999), Tribes 2 (2001), and Tribes: Vengeance (2004).
+
+ As a simulation, Earthsiege 2 gives players the opportunity to pilot massive bipedal war machines known as HERCULANs (Humaniform-Emulation Roboticized Combat Unit with Leg-Articulated Navigation) (or 'HERCs' for short). Set in the 26th or 27th century, Earthsiege 2 features advanced weapons and technology for raging war. Earthsiege 2 takes place across North America, South America, Antarctica, Asia, Australia, Europe, and the moon.
+
+ Earthsiege 2 features a more advanced engine than Earthsiege, increasing the game's maximum resolution to 640*480. Additionally, the game features much more detailed terrain than its predecessor. Earthsiege 2 has 3D rolling terrain rather than the flat landscape of Earthsiege. Furthermore, video briefings and debriefings, along with included squadmate voices, add to the atmosphere of the game.
+
+ Instructions for XP SP2 users
+Get the compatibility Administrator here:  
+http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en
+
+1. In the compatibility Administrator, right-click on "Custom Databases" and select new.
+
+2. right-click on the newly-created database and select "create new" and then "compatibility mode".
+
+3. Find "EmulateJoystick" and "GlobalMemoryStatusLie", and add them (by double-clicking)
+
+4. Enter a name for the compatibility mode (I used "ES2") and click on "OK"
+
+5. Right-click on the database you created in step 1 and select "Create new" then "Application Fix"
+
+6. Enter the name of the application ("Earthsiege 2") and the vendor ("Sierra")
+
+7. Click the "browse" button next to the program file location field, and find the ES.exe file (on my system, it's at c:sierraes2es.exe).
+
+8. Click on "next", then check the "256Color" and "ES2" compatibility modes. Also, if the "Microsoft Windows 95" radio button is selected, change it to the "None" radio button.
+
+9. Click "next", then "next" again, and then click the "auto-generate" button.
+
+10. Finally, click on "Finish". At this point, you should name your database something (right-click and select "rename"), and then save it (save button in the toolbar).
+
+11. Now you should be able to right-click on the database and select install. Windows will now watch for you to execute the ES.exe program and apply the fixes automatically. On my system, it performed perfectly joystick and all.		
+
+
+

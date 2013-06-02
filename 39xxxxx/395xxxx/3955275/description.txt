@@ -1,0 +1,23 @@
+Instructions on how to convert Nitro Stunt Racing Stage 1 from German to English.
+
+
+1.) Install the game using the serial key located in the "Postmortem" directory on the disc. If you do not have the serial key, use the following.
+
+*****-*****-*****-*****-*****-***** (Key does not work for English demo)
+
+
+2.) Go to "C:\Program Files\NSR_Stage_1\System\Resources" and make a backup of the folders with the following names.
+
+TextureBanks
+Scripts
+
+Renaming them would be the easiest way. e.g. TextureBanks_bak & Scripts_bak
+
+
+3.) Copy the "TextureBanks" and "Scripts" folders from this package into the same directory where you made backup folders. If you've closed the folder, read step number two.
+
+4.) Run the file titled "Game_Seed.reg" and click yes to add the information to your registry.
+
+5.) Play the game.
+
+-Organ_Shifter-
