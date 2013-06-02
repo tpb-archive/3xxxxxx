@@ -1,0 +1,28 @@
+TEAM-AXPI     --    Half-Life_2.WORKING-AXPi
+ReLeaSe     :    Half-Life 2
+CoMPaNy     :    Valve
+TyPe        :    Game
+LaNGuaGe    :    English (Only)
+RiPPeR      :    Team-aXpi
+MeTHod      :    15mb x 112 RAR files
+DaTe           :    11/17/04
+
+
+ Credit goes to Seraph, Jammer, Regotka and Deathcore. TeaM-aXpi for this rls.
+
+    Intructions:  Create a shortcut of hl2.exe on the desktop using the -steam command. 
+
+                    (eg. "C:HL2hl2.exe" -steam -console) 
+
+                          SPECIAL THANKS GOES OUT TO EMPORIO AND MADDOX!
+                   THIS WAS MADE FOR YOU AND YOUR WORK
+                        This was possible thanks to: 0r3[o]M4n and PIMPY!!
+                                       Rizon.net #aXpi
+
+En ny release som förhoppningsvis fungerar bättre än Emporios.
+Jag har testat nu och den fungerar!
+I have tested it now and it DOES WORK!
+
+Update:
+För att fixa  "AI_DISABLE" och "NODE GRAPH REBUILD"
+editera x:your_hl_dirhl2cfgautoexec.cfg och lägg till detta sist i filen: ai_norebuildgraph "1" 

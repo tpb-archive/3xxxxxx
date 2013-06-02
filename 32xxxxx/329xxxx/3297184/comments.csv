@@ -1,0 +1,46 @@
+﻿User Type,Username,Date,Text
+,fr33r,2005-03-05T13:59Z,"MKV superior container, MY ASS! Maybe if it frikkin' worked, but it doesn't. I've tried just about everything (Zoom Player, WMP10, original Matroska Pack, bundled codec packs in different combos and so on) but simply won't get any picture (sound and switching between audiotracks works fine but what does that help if you can see a thing). Hints, anyone?"
+,fr33r,2005-03-05T14:54Z,"And might I add, Yes, I have (or should I say had) AVC h264 installed."
+,ozername,2005-03-06T17:06Z,"You have to have avc filters (or ffdshow) to decode avc, and matroskasplitter.ax registered, at least version 1.0.0.25...
+If you don't want to install all things manually, install satsuki decoder pack:
+http://satsuki.yatoshi.free.fr/Satsuki.Decoder.Pack.2.0.0.0.RC3.exe"
+,fr33r,2005-03-07T23:56Z,"'Registred', brrrr. And how come you link to a ver 2.0.0.0 when the one on their site is just 1.0.5.6?"
+,ozername,2005-03-08T08:07Z,"Because Satsuki post it on unite-video :)
+http://www.unite-video.com/phpbb/viewtopic.php?t=3483&start=585"
+,fr33r,2005-03-08T18:36Z,"Oh no! It's all in 'frog'. Well, guess I'll have to take a crash course then (or maybe that's what my puter will do when I start clicking blindly:-). Thx m8. Let's hope it works (and don't  mess with or overlook any other videoformat)."
+,ozername,2005-03-08T23:06Z,I don't understand your last post (I'm not english)
+,fr33r,2005-03-09T20:05Z,"Oh nej. Allt e på grodätarspråket franska. Nå väl, jag får väl ta en intensiv/krasch kurs då (eller så blir det väl min dator som kraschar när jag börjar klicka runt i blindo). Tack, polar'n. Hoppas att det kommer funka (och att den inte sabbar eller förbiser några andra vanliga format).
+
+Översatt på en höft, typ."
+,fr33r,2005-03-09T20:09Z,"Or perhaps you're French, but then I won't translate ;-)"
+,fr33r,2005-03-14T18:02Z,"Now I've evaluated the decoder pack for a couple of days and I must say I'm pretty impressed. It plays everything I throw at it without any hassle or conflicts and I like their choice of filters. So, thanks a lot. 
+
+Couldn't get the subs to work on this torrent though ;-) But that probably doesn't have anything to do with the decoder pack, so..."
+,ozername,2005-03-14T18:26Z,"The official version 2.0.0.1 is out :)
+http://yatoshi.com/fr/index.php"
+,loffe6,2005-03-18T08:22Z,"klockren kvalite, rekomenderas"
+,the_titan,2005-04-15T00:30Z,"ehh codecs? vilket codec ska jag ha? testat med jävla matroska funkar ju inte.. inte ens med ffdshow senaste versionen.. kom inte med någe jävla fransk skit! // What codec do I need ? Tried with newest ffdshow and matroska, it ain't working. Don't get me any french shit!"
+,ozername,2005-04-17T16:39Z,"lol
+
+already answered"
+,dressing73,2005-04-21T16:35Z,"Det här dekoder paketet funkade bra för att få det här å spela.
+Dock installerade den sina egna fula iconer på alla berörda format och numera kraschar Shareaza när den ska visa förstabilden på mpeg filer.
+Ganska irriterande."
+,ozername,2005-04-26T00:32Z,I don't understand your language...
+,mistry121,2005-06-12T19:56Z,it aint wrkin
+,Lé Mötrick,2005-06-17T23:58Z,"Now I might be an Idiot.
+
+But i've tried everything (also using the bloody satsuki), and it just won't work.
+
+It did change all my files to an different player than wanted, but it didn't play the MKV. Normally mplayer takes everything including MKV, but this time it says theres no video and then play the sound.
+
+Is it me who are f*ed up or...  and please keep the tone in english or scandinavian, I doesn't understand french."
+,Lé Mötrick,2005-06-18T00:45Z,"Okey I made it :D
+
+I've installed The cole 2k codecpack. 
+U can find it at: http://www.cole2k.net/?display=CP-A
+
+And I must say... the quality were worth the trouble ;o)"
+,rolok884,2006-09-23T14:33Z,"please seed, i'm stuck at 99.3%
+
+thanks!"

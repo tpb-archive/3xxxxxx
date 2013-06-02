@@ -1,0 +1,51 @@
+
+Note:  Please read the Qwix_FAQ.htm file included with
+       Qwix!  Even with that file included in the RAR,
+       many of those questions come up all the time.
+
+This is a bugfix release and adds no new features.
+
+Qwix 1.01 fixes:
+
+ - Reworked FTP transfer buffers for improved Windows
+   performance during and after transfers, which can
+   also increase transfer speeds (especially boost mode).
+
+ - Changed default transfer buffer size from 512KB to 1MB.
+
+ - Fixed a transfer thread leak which caused various
+   problems with Qwix after transferring an ISO.
+
+ - Fixed a problem that prevented game icons from being
+   downloaded after transferring an ISO.
+
+ - Fixed a problem that prevented batch properties from
+   taking effect if you pushed a button on the toolbar
+   before clicking in any other control first.
+
+ - Made the XBE rename case-sensitive when deciding
+   whether it should rewrite the XBE file or not.
+
+ - Disabled the "Use advanced Avalaunch features" option
+   in the connection editor until the SITE REFRESH
+   command is fixed in Avalaunch.  Yes, that's all that
+   the option does.  No, it doesn't make transfers slower.
+
+ - Fixed the taskbar disappearing act and an occasional
+   OLE32.DLL access violation, both on Win98/WinME.
+
+ - Fixed a few font and color issues, making things a bit
+   more consistent with certain themes and platforms.
+
+ - Fixed a problem that prevented a transfer to the
+   root directory of an Xbox drive.
+
+ - Fixed a random access violation that was caused by
+   the component used for all the lists and trees in
+   the Qwix user interface.
+
+ - Made the local PC folder browser show the proper folder
+   name for shortcut items like My Network Places shares.
+
+ - Fixed the Rename ISO feature from the Scan Folders
+   right-click (from the Load ISO screen, not Scan Titles).

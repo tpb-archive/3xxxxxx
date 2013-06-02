@@ -1,0 +1,42 @@
+31-01-2005 fixed: Screenshot mem is freed correctly in overlays mode
+31-01-2005 fixed: Some defaults for movie viewing + "subs delay" message no longer shows on movie start.
+31-01-2005 fixed: Incorrect webrequest HEAD sent when a value was entered for HTTP Proxy Host but HTTP proxy was disabled.
+31-01-2005 fixed: videos (in certain resolutions) crash on subtitle/osd display, more commonly reported as "MPEG2 files don't play".
+31-01-2005 added: Representative screenshot for overlay modes.
+31-01-2005 added: SF patch from kraqh3d enhancing the music title format: %N = tracknumber, %T = title, %A = artist, %B = album, %G = genre, %Y = year, %% for a % sign.
+31-01-2005 updated: German (Austrian) language file (Thnx to CEOMR)
+30-01-2005 updated: libcdio to version 0.71
+30-01-2005 updated: German language file
+30-01-2005 updated: Finnish language file (Thnx to jutski)
+30-01-2005 updated: Norwegian language file (Thnx to vnmartinsen)
+30-01-2005 added: Auto gui resolution, sets highest enabled resolution, Settings->Appearance->Look and Feel->Resolution
+30-01-2005 added: Music listing style can be specified in options (in place of the Hide Track Numbers option)
+30-01-2005 fixed: Now Playing in My Videos goes to playlist view even if nothing is playing.
+30-01-2005 fixed: Canceling scan of videos causes freeze.
+30-01-2005 changed: Reboot from FatalErrorHandler works on all buttons now (thanks Fulg!)
+30-01-2005 fixed: Screensaver dims videos in ComboRenderer.
+30-01-2005 fixed: crash when leaving kai window
+30-01-2005 fixed: [ 1107267 ] CRC32::Compute needs to be case insensitive (All thumbs need to be recreated)
+30-01-2005 added: file manager, show free disk space for hdd and total size for DVD
+29-01-2005 fixed: 1080i aspect ratio in ComboRenderer
+29-01-2005 added: Pictures auto-rotate using EXIF information
+29-01-2005 fixed: Zoom in pictures should pause slideshow till unzoomed
+29-01-2005 added: Video database update code
+29-01-2005 added: Video settings are saved per-file to the video database.
+29-01-2005 added: [ 1111870 ] Blue Screen of Death (which isn't blue), thanks to Fulg
+29-01-2005 fixed: textsubtitles were being rendered in sourceresolution instead of outputresolution causing larg(er) subs and >2 lines on low(er) resolution videos.
+29-01-2005 fixed: vobsubs were being clipped instead of scaled unless displayresolution matched the vobsubresolution and no overscan was set. (only with mplayer pre6)
+29-01-2005 fixed: subtitle files with uppercase extension were not loaded
+28-01-2005 fixed: attempting to change audio track locks up xbmc.
+28-01-2005 added: [ 1102392 ] XLink, support for multiple games dirs (Thanks to scampa123) Use a ; to separate them (example: f:games;g:games)
+26-01-2005 changed: free a little more memory when leaving kai window
+26-01-2005 fixed: my programs, last focused control is not remembered
+26-01-2005 changed: Merged audio/video/dvd cachesize settings for harddisk to 1 setting. Added cachesize setting for unknown types on the internet (url's without a known audio or video extension). Allow cache sizes of 0.
+26-01-2005 fixed: ID3 tags with UTF16 fields show strange characters
+26-01-2005 updated: Polish language file (Thnx to napek)
+26-01-2005 updated: German (Austrian) language file (Thnx to CEOMR)
+26-01-2005 updated: Norwegian language file (Thnx to vnmartinsen)
+26-01-2005 added: Options to disable looking for custom thumbs on remote shares (folder.jpg/folder.tbn/<filename>.tbn), Will speed things up on a slow connection and/or slow server and/or you have many folders. Settings -> My Videos/My Music -> Library
+24-01-2005 changed: Default IMDb url is now akas.imdb.com for alternative title support.
+24-01-2005 added: [1105853]Added locks & context menu to My Programs, fixed some bugs - thanks to slacker!
+24-01-2005 fixed: Screensaver could show music info - thanks to kraqh3d!

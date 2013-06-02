@@ -1,0 +1,9 @@
+Description
+This patch will fix the following issues with Colin McRae Rally 2005 PC. 
+Any instances of seeing white grass on tracks should now be gone 
+There should be no more flashing sun textures when using "Handicap" on splitscreen games 
+There is now an option to turn off sun effects within the game, this is achieved my running the game from a command prompt with the "NOSUN" command line option 
+All engine tests now give you the same amount of time to complete them 
+You can now go straight back from High texture quality to Medium texture quality 
+There should be no more flashing sun effects when driving around tracks 
+The random weather in online races will now correctly be random, and not taken from the previous race

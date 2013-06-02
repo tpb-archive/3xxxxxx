@@ -1,0 +1,21 @@
+<strong>Plot Outline:</strong> A couple (Jim Carrey and Kate Winslet) undergo a procedure to erase each other from their memories when their relationship turns sour, but it is only through the process of loss that they discover what they had to begin with.
+
+<strong>Movie specs:</strong>
+- video: XviD 1.0.3
+- audio: Vorbis 96 kbps
+- Length: 1h 48m
+- Size: 700 mbs
+
+<strong>IceEncoding Notes:</strong> Ok, i put together the swedish subs to go with it. However, to preserve all your funny characters, i had to save it in Unicode. Which will make almost every subtitle capable player not display it. There are 2 steps to make it work though (if you are that non-english savvy).
+
+1) Download the <a href="http://www.plankdoo.com/pics/svenska.srt">sub</a>, open it in notepad, go to file --> save as, for the Encoding choose ANSI and overwrite. This will lose all the special chars, which in these subs consist only of Å, å and ñ.
+
+2) Download the <a href="http://www.plankdoo.com/pics/svenska.srt">sub</a>, then download the windows port of the bestest linux video player: <a href="http://www1.mplayerhq.hu/MPlayer/releases/win32-beta/MPlayer-mingw32-1.0pre6.zip">mplayer</a>. It doesn't require installing, just extract it somewhere. Then you'll need to start cmd.exe, work your way to where mplayer.exe is and type in this:
+
+"mplayer.exe path/eternal.sunshine.of.the.spotless.mind.dvdrip.xvid-ice.ogg -sub path/svenska.srt -utf8" without the quotes.
+
+This will open the movie with the new player and display the subs correctly.  The just press F and enjoy.
+
+<strong>IMDB:</storng> <a href="http://www.imdb.com/title/tt0338013/">http://www.imdb.com/title/tt0338013/</a>
+
+<center><img src="http://www.plankdoo.com/pics/eternalsunshine.jpg"></center>

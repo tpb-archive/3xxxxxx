@@ -1,0 +1,27 @@
+Senaste updaten från Emporio:
+
+
+Release Notes:
+Û  This update will fix the temp version out of date error and
+Û  such things like that
+Û  Get update 5, 6, 7 and 8 first. After that add this update!
+Û  Use Online Play from this update if you want to play online!
+Û   
+Û  Steam fixes:
+Û  Updated the Game Launcher
+Û  Added Counter-Strike bots. 
+Û  Added new bomb defusal map de_tides
+Û  Updated version of de_cbble to allow bots to navigate ladders
+Û  Updated version of cs_office. Fixes minor issue with projector 
+Û  Updated version of de_dust2 to allow 40 players
+Û  Optimization to the way that dynamic props are checked. On higher end CPUs,
+Û  this can result in more than a 5% total frame rate increase
+Û  Fixed bug where players would get twice the normal money at the start 
+Û  of a round
+Û  Weapon models are now checked at startup to make sure they
+Û  are within limits for size
+Û  Fixed a bug that would allow a player to throw two flashbangs at once
+Û  Added "motdfile" cvar, which sets the filename for the message of the day
+Û  on the server
+Û  Fixed logic that will automatically kick players for killing hostage or
+Û  being idle for a long time

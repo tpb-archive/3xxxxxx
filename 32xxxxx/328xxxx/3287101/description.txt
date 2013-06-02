@@ -1,0 +1,11 @@
+As I promised:
+
+This is the same City Select 7 Europe Update as before but now on three disc images - as it comes from Garmin. I have made the images with CloneCD so you can make CD-discs with Alcohol or CloneCD.
+
+Note 1: I attached a reg-file (*.reg) in the root-folder. You can use this file before the installation too fool MapSource that you allready have an old version of City Select installed. After the installation I advise you to delete this line from the registry to avoid conflicts:
+
+[HKEY_LOCAL_MACHINESOFTWAREGarminMapSourceFamiliesEuropean City Select Version 5]
+
+Note 2: MapSource will probably ask you to enter a code (25-character) to unlock the maps. I tried this code: HXU65-4JEC4-AH7MC-C2F2H-2ZF4N. It seemed to work but it did not unlock the map details.
+
+I believe there is a lot of different solutions to the mentioned problems but the main problem still exists: How to have the MapSource program to accept  transfering of maps to any Garmin GPS-receiver without a serial number? Does anybody have any suggestions?

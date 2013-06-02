@@ -1,0 +1,142 @@
+﻿User Type,Username,Date,Text
+,Aequitas,2004-11-03T15:14Z,MegaGames har väl bara en svensk och han fixar spelfusk?
+,BandC,2004-11-03T15:56Z,"Megagames har cracks också under kategorin ""trainers""
+
+där finns det något som heter gamefixes, det är oftast no-cd cracks."
+,Todenkopf,2004-11-04T13:00Z,hur bränner man spelet i vilket Program
+,mind_warps,2004-11-04T16:51Z,Var vänliga & seeda
+,BandC,2004-11-04T19:44Z,"håller på att seeda, vet du hur lång tid det tar när man har ett 2mbits telia felia som bara har 50kbps i upload?
+
+Mvh Cyrus"
+,mind_warps,2004-11-04T20:04Z,"Sorry, menar inte dig.
+Menar de som stängt av när de fått ner spelet
+Sitter & delar med mig i max & tar ner i 0.5kB/s
+eller inget alls. :-(
+Du ska ha stort tack."
+,nash,2004-11-04T22:08Z,Thirteen för oss som inte förstår romerska siffror...
+,BandC,2004-11-05T01:35Z,"japp nash helt korrekt :P
+
+menar dock inget illa så ta inte åt er ni som inte förstår :P
+
+Alkohol 120% funkar att bränna ut spelet med dock så tror jag att en *.cue fil fattas till en utav skivorna men är inte säker, men i så fall är det bara söka på dc så hittar ni nog en cue fil som funkar men testa först innan ni bränner så cue filen funkar ihop med bin filen (glöm inte att ändra namnet på cue filen till samma som bin filen dock, annars blir det problem :/)"
+,GudZen,2004-11-05T11:42Z,"Så här ligger det till grabbar...
+
+SKa ni bränna spelet och det saknas en cue fil, gör på följande sätt:
+
+1. kopiera en *.cue ifrån nån annan av skivorna.
+2. Öppna *.cue filen med anteckningar, se till så att ""Använd alltid detta program till den här filtypen"" inte är ikryssad,
+3. Inne i cue filen kommer det se ut ungefär såhär:
+
+FILE ""XIII-CD1.BIN"" BINARY
+  TRACK 01 MODE1/2352
+    INDEX 01 00:00:00
+
+Detta ska ändras till detta:
+
+FILE ""XIII-CD2.BIN"" BINARY
+  TRACK 01 MODE1/2352
+    INDEX 01 00:00:00
+
+Gör nu detta till alla *.bin filer som saknar en *.cue
+Ett förslag är ju att använda en *.cue fil ifrån samma spel/release.
+
+Observera att 1an i *.bin filens namn är ändrat till en 2a.
+Sen är det bara att bränna utan att vara rädd... därför att skivorna till spelen har samma ""kod"" i sina *.cue filer
+
+Lycka till !"
+,BandC,2004-11-09T11:52Z,tnx 4 the help gudzen :D
+,Hallstrom_J,2004-11-12T20:30Z,coolt gammalt serie spel från 2002 :thumbsup::D har haft det sen det kom ut .. men tankar iaf.. :D 
+,Rexicon,2004-11-13T08:46Z,Har kört det på xbox och där sög d :( men kan ladda ner d iaf :)
+,SundiN,2004-11-13T23:01Z,Fett coolt spel...speciellt när man kastar knivar lr skjuter någon med pilbåge ;)
+,RosT3n,2004-11-18T17:24Z,Kan nån lägga upp cracken här på piratebay så blir det lättare för alla
+,BandC,2004-11-18T22:13Z,finns redan crack med i nerladdningen
+,Mask-en,2004-12-12T00:39Z,nån som kan seeda? de drar på i 0-1kb/s här :P
+,Niinen,2004-12-16T01:17Z,"Hrm... har stannat på 88.6%
+"
+,Mask-en,2004-12-17T22:48Z,"Kom igen, jag är uppe i 94,8% och ingen seedar... snälla?!"
+,Mask-en,2004-12-23T02:58Z,Äntligen fick jag igång det! Super spel! tack för att du la ner tid med att fixa det :)
+,BandC,2005-01-02T02:13Z,np
+,tetrish,2005-01-13T19:33Z,thx. I've been loking for this ;P
+,tetrish,2005-01-13T19:33Z,damn typos...
+,BandC,2005-01-15T06:39Z,?
+,ZooZ,2005-02-09T00:21Z,HåLL UPPE SEEDEN NU ! !
+,Thurman,2005-03-02T17:35Z,"Tack för spelet ! Hur många cue-filer skall det va ? Jag jar bara 1 (en)
+Så här ser det ut: xiii-cd1.cue  xiii-cd3  xiii-cd4  xiii-cd1  xiii-cd2
+Nån som kan förklara ?"
+,Thurman,2005-03-02T21:43Z,"Det fixa sig. Hur enkelt som helst att kopiera nya cue-filer och ändra dom. Cracken funka utmätkt. Tack BandC !
+Spelet verkar hur coolt som helst. :-)"
+,BandC,2005-03-03T12:58Z,Varsågod :D Kul att folk uppskattar det jag slänger upp. Gör mig till en gladare människa ;)
+,Harvman,2005-04-04T17:30Z,"Hur får man spelet att fungera efter att ha installerat det?? [ när ja trycker på "" play "" så kommer d inte upp till spelet utan det kommer bara upp en svart ruta med XII i det händer inget!!?? ] "
+,Colt_45_swe,2005-04-05T07:38Z,Hello em a litul noob so can you tell me what to do i havto have all xiii-cd1.cue the cue thing ther i need to have to all cds 2 3 4 how do i get dos pls set upp som so i kan download from piratebay PLS help me set som upp
+,in_cold,2005-05-03T21:26Z,jag super-seedar en stund nu...100 peers får dela på 5000 kb/s
+,jembo,2005-06-16T09:20Z,seeda alla
+,Mr_Gachnar,2005-07-06T23:27Z,"Jag spelar ett litet tag sedan när det står i en liten blå ruta ""You're feeling faint"" så stänger spelet ner sig. Nån som vet varför?"
+,guris,2005-07-20T13:22Z,seeda please ! ;)
+,dragonist,2005-07-22T05:15Z,Why doesnt my bin for disc 3 work it says invailed
+,BandC,2006-02-10T18:56Z,"It isnt invalid, just check so ur deamontools has its Securerom and Safedisk inactivated. That was the problem for me when i got the game for some yrs ago"
+,Sarioncorps,2006-03-21T14:06Z,plz im stuck on 93.8 % plz seed
+,Sarioncorps,2006-03-22T19:26Z,vart ligger cracken?
+,Jerka,2006-03-27T20:04Z,"Kanon, min grabb ville gärna ha detta.
+Fortsätt att seeda så tar jag över ett tag sen."
+,WoZu,2006-05-29T14:08Z,Asså fan jag fattar inte hur man ska installera spelet för det finns ingen install med och när man högerklickar på nån av filerna så står det att rekomenderat program att öppna filen med är Vlc media player och jag fattar inte??? nån som kan hjälpa mej eller? min msn e Oink_oink_92@hotmail.com
+,Bagaren__,2006-06-12T05:31Z,"PLEASE SEED! STUCK AT 99,7 % !:P COME ON! I WILL SEED LATER!"
+,Engen666,2006-07-15T20:21Z,CAN ENYONE SEED IT PLEASE!!!
+,Engen666,2006-07-16T20:34Z,"Please... I`m stuck on 71.1% (1969.72 MiB) 
+i need 769 MiB...
+
+So Seed it Please"
+,Engen666,2006-07-17T12:11Z,"Seed it... im stuck on 98,7%"
+,Engen666,2006-07-18T13:52Z,"FY FAEN TÆL IDIOTER.... NÅ HAR JEG LASTET OPP 4578 MiB MEN JEG ER FOR FAEN IKKE FERDIG ENDA.... HVORFOR DET.... FORDI INEGN HER HAR HØY NOK IQ TIL Å SEEDE DENNE HER.... JEG STÅR FORTSATT FAST PÅ 98,7%..."
+,Andiii88,2006-07-18T16:07Z,seed please ?????  99.9 % !!...
+,Engen666,2006-07-18T23:28Z,"yes...seed im stuck on 99,9 too!!!!!!!"
+,remixxan,2006-07-27T19:20Z,SEED THIS BITCH! i need this bad!
+,T1GER,2006-08-31T18:49Z,"Kan någon seeda XIII till XBOX /
+Can somebody sees XIII for XBOX"
+,TangaTore,2006-10-16T22:01Z,men seeda för fan har fastnat på 99.4 komigen!!!
+,hazean,2006-11-22T22:21Z,"Seeda, sitter fast på 99.7%"
+,2 fast 4 you,2006-11-23T14:55Z,sedda? fastnat på 99.7%
+,mrsnuggel,2006-11-26T15:45Z,"Please seed, stuck at 99,7% :'("
+,asdaad,2006-11-29T14:44Z,PLX SEED STUCK AT 99.7%! urg urg wanna play today!
+,asdaad,2006-12-03T16:54Z,"seed it's been in 99,7 for 4 days!!!"
+,Alpha-32,2006-12-31T16:47Z,Seeda ja vill ha ner de idag :P
+,Alpha-32,2007-01-01T21:59Z,imed att de e nerladdat nästan 5000 gånger kan väl mer än 2 st seeda tack :D
+,Alpha-32,2007-01-02T20:15Z,"ja sa inte att de skulle minska i seeders. ""Öka"" sa ja XD"
+,Alpha-32,2007-01-03T14:02Z,"Ok nu e de så här ja älskar spelet men har lite problem :\ Efter Man har kommit till andra laddnings scenen så avslutar spelet (WTF) Och så undrar ja om man kan få så att man styr siktet med musen för de värkade inte som om de funkar :\ 
+Tack för spelet Btw"
+,Alpha-32,2007-01-03T14:21Z,"Nu funkar laddnings scen felet men fortfarande detta styrande med pilarna blir lite action dödande
+
+skicka gärna svar hur man fixar de. Tack"
+,SuperFly2000,2007-01-08T11:24Z,"The installation program for XIII proceeds to CD2 and then asks if all save games should be deleted.
+
+Answering yes or no deletes the game completely, so it can not be installed ?
+
+System is:
+
+Windows XP x64
+Deamon Tools 4.03HE
+
+???"
+,NuKe__,2007-03-26T13:05Z,seeda please fastnat på 98.9% 
+,xusernamex,2007-03-27T19:20Z,Please seed! stuck at 99.3 %
+,xusernamex,2007-03-28T19:57Z,During the installation it tells me to insert disc 2 with data3.cab...help pleaaaazeeee
+,Xeato,2007-04-12T18:44Z,Seed stuck at 99.7 please
+,scorey89,2007-05-02T22:38Z,"Fan Fast på 99.7 %
+Snälla SEEDA"
+,zwammerdijntje,2007-06-10T12:12Z,"all i get are a bunch of bin and cue files , dont see any exe files, what to do???"
+,laarsson,2007-07-18T20:16Z,hey guys! i have this game (accually BOUGHT it;)) but i have lost the first cd and i don't want to download the whole fucking game just the first cd but does it work to install the game with the downloaded cd and then continueing with my own cd's? 
+,meow.mix,2007-09-14T00:44Z,anyone know the actual games name? i tried to find it and had no luck. if i can find the name i can make a request on usenet for it.
+,Evil_Twin_1,2008-01-27T00:41Z,"tja... har laddat ner detta spel men har problem som fan.... spelet går svin snabbt vet inte varför... har lirat det förut å då gick det inte så här snabbt =/
+
+det går så snabbt att det inte går att spela typ trycker man frammot ibörjan så springer han fram till den gula pickup trucken på typ 3 sekunder när det ska ta typ 10 sekunder så det är så uppspeedat att det inte går att lira =/"
+,WolfDK1984,2008-05-13T12:49Z,"Best regard/ Cyrus??
+Is that Cyrus The Virus???
+
+
+If u don't get it, watch CONAIR..."
+,WolfDK1984,2008-05-13T12:55Z,"laarsson at 2007-07-18 20:16 CET: 
+
+hey guys! i have this game (accually BOUGHT it;)) but i have lost the first cd and i don't want to download the whole fucking game just the first cd but does it work to install the game with the downloaded cd and then continueing with my own cd's?
+
+Why do u want to use ur own CD's??
+If u download a game, allways use ur Orginal Serial's
+They Work better(Like giving internet multiplayer acces);-)"

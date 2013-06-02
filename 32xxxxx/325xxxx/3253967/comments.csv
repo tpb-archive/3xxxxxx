@@ -1,0 +1,213 @@
+﻿User Type,Username,Date,Text
+,MonkeyMan,2004-11-07T01:09Z,Snabbt och fint jobbat. Hjälper till att seeda om en minut. :)
+,Dawa,2004-11-07T01:13Z,"Fan va shysst!!! :D
+
+Tog ett tag men äntligen en torrent"
+,Princevegeta,2004-11-07T01:21Z,cs ä dött
+,RaZor_Xenom,2004-11-07T02:27Z,Fan va GÖTTTT!!!!! Äntligen!:D
+,jocke__89,2004-11-07T03:37Z,seeda på grabbar :)
+,otgm,2004-11-07T06:22Z,"Thanks a bunch, dudes."
+,OuzO,2004-11-07T08:38Z,Ja den fungerar :)
+,Xorlon,2004-11-07T11:50Z,"Hmm, nja. Jag får den inte att fungera.
+Jag kommer in i spelet och hittar servers och allt sånt.
+Men det går inte att joina en server. den kommer förbi alla checkar och så, men cs ""svarar inte"" när man i princip är färdig med laddningen av banan.
+Jag kanske var lite otydlig nu...
+
+Är det nån mer som har det problemet?
+ps. Det krånglade aldrig innan för mig, så jag tror inte jag har lagt in cracken fel, då borde jag inte ens komma in på spelet, eller så skulle den sagt nåt om protocoll 6."
+,sodan88,2004-11-07T12:29Z,behöver man dom tidigare uppdatens också lr räcker det med den här?
+,sturemin,2004-11-07T12:54Z,fungerar perfekt
+,cocke_,2004-11-07T13:02Z,"Jag har exakt lika problem som dig ovan, den går igenom alla checkar mm men den hänger sig när den skall retrieva den sista server infon. Eller spelet hänger sig inte man kan cansla om man vill. Men som sagt inget mer händer den står still där, och försköker ladda. Skriv gärna om du kommit på hur man gör."
+,Itzhak,2004-11-07T13:08Z,"Release Notes:
+You don't need our previous updates, they're included in this one!   This update will fix all your protocol problems etc..."
+,cocke_,2004-11-07T13:37Z,"Kan tilläggas att jag har provat att installerat om spelet.
+Ingen som har nått förslag?"
+,trX,2004-11-07T13:48Z,"alltså, de funkar inte för mig :( när jag försöker starta det, så kommer det upp ett felmedelande där det står ""Det går inte att hitta procedurstartadressen _f DLL-filen Steam.dll."" det är konstigt för att allt funka bra förut innan man var tvungen uppdatera... :S"
+,Headhunter26,2004-11-07T13:48Z,"hmm istället för att spelet fryser med updateringarna så tvärdyker spelet direkt när spelet ""retrieving server info"" så det verkar som om det blivit nåt fel som sagt.. :("
+,Headhunter26,2004-11-07T13:50Z,trX fick samma problem men det löste jag genom att plocka steam.dll filen från online play mappen i updaten. För det visade sig att jag hade deletad den filen från cs source root mappen. så lägg in den på nytt så kommer du inte få det felmeddelandet...
+,Xstioph,2004-11-07T14:14Z,Det va fan va dåligt packad filen var... Packade om den och då blev den ju fan bara 67.4mb.....
+,Headhunter26,2004-11-07T14:18Z,Xstioph och?? Vad har det för relevans till problemen vi alla upplever med den nya uppdateringen?
+,Xorlon,2004-11-07T15:13Z,"Mitt problem med att det låste sig när jag valde ""retreiving info"" löstes efter jag ominstallerat spelet.
+Bara extracta den första releasen, och skit i att lägga in den cracken som följer med där.
+Lägg in denna nya cracken och ställ in steamapp.cfg.
+Då funkade det. för mig iaf.
+
+Alltså 
+
+Extracta: 
+Counter-Strike_Source_FINAL_READ_NFO-EMPORiO
+
+Ta bort mappen ""Crack"" där du extractade filerna.
+
+Extracta:
+Counter-Strike_Source_UPDATES_5-EMPORiO
+Till CSS mappen. ersätt alla filer.
+Lägg in den nya ""online"" cracken, och editera i steamapp.cfg.
+Det som skall skrivas in där är genvägen till spelmappen, ditt steam account, och ditt steam lösenord.
+Sen skall det fungera. Hoppas ni förstår ;)
+"
+,Wexz,2004-11-07T15:32Z,Har förvisso kvar mappen crack och det fungerar ändå
+,Xorlon,2004-11-07T15:33Z,"Ehm, ja. ""Crack"" mappen i sig gör ju inget, men det är för att förtydliga att man inte skall lägga in de crackar som ligger där i. :P"
+,Headhunter26,2004-11-07T16:58Z,"Xorlon tack för förklaringen mitt spel fungerar utmärkt nu... :D 
+
+Hade enorma problem med spelet innan men när jag gjorde om det sådär gick det utmärkt.. ;)"
+,flanker27,2004-11-07T17:10Z,"jag har lite problem med editeringen, när jag e klar kommer n ruta upp som det står
+""MountAppfilesystem failed"" failed to create directory in d:counter-strike-source, win 32 error 5 ""åtkomst nekad""
+
+wtf jag har inte ens installerat på D: !?
+
+måste man skriva in ett steamapp id eller räcker 92?"
+,trX,2004-11-07T17:12Z,"Headhunter26, hehe självklart :P thx dude"
+,flanker27,2004-11-07T17:13Z,"så här e min config:
+SteamAppId=92
+#SteamAppVersionId=0
+SteamInstallPath=""c:programCSS""
+# [as is clearified later on, this should be your email address/steam username:]
+SteamAppUser=adambremholm@hotmail.com	
+SteamUserPassphrase=""xxxxx"""
+,crejbi,2004-11-07T18:06Z,funkar denna update till Luzifers version?
+,MaYFly,2004-11-08T12:11Z,"Är detta den ända uppdatering man behöver nu eller måste man lägga in alla andra uppdateringar oxå om man ska installera om source? Jobbigt å lägga in alla hela tiden, bättre om alla finns i denna, någon som vet?"
+,p.i.m.p.,2004-11-08T13:29Z,"Har sagts förut men blir sagt igen: Detta är enda uppdateringen du behöver, de andra är inbakade i denna uppdatering, o den funkar bra, tack! Så vid ominstallation av CsSource behöver du grund filen på 460 mb + denna torrent, inget annat!"
+,MaYFly,2004-11-08T13:57Z,"Okej, men hur kan det fungera då?  Det finns ju ingen hl2.exe fil och ingen steamengine fil.  Den ända som finns i crack mappen i denna uppdatering är steamapp.cfg.  Hur ska jag kunna köra spelet utan en hl2.exe fil och utan en steamengine fil? Jag har installerat Counter-Strike_Source_FINAL_READ_NFO-EMPORiO och sedan denna uppdateringen, men jag har fortfarande ingen hl2.exe?"
+,OuzO,2004-11-08T14:13Z,"Har läskunnigheten minskat på sista tiden, för det verkar inte som nångon läser nfo filer utan frågar istället om sånt som står redan, skärping ffs :(
+
+Vad snackar du om MayFly, hl2.exe finns ju redan från början i Counter-Strike_Source_FINAL_READ_NFO-EMPORiO releasen,  Steamengine.exe finns ju i Online Play mappen i uppdateringen. Övrig information kan du ju läsa vad Xorlon har skrivit."
+,MaYFly,2004-11-08T15:06Z,Jag läser alltid .nfo filerna. Men det finns ingen Hl2.exe i min Counter-Strike_Source_FINAL_READ_NFO-EMPORiO. Den enda som finns är den som finns i crack mappen men den har jag ju läst här att den ska man inte lägga in.
+,MaYFly,2004-11-08T15:30Z,"Jag har gjort exakt som Xorlon skrev där uppe:
+
+Bara extracta den första releasen, och skit i att lägga in den cracken som följer med där.
+Lägg in denna nya cracken och ställ in steamapp.cfg.
+Då funkade det. för mig iaf.
+
+Alltså 
+
+Extracta: 
+Counter-Strike_Source_FINAL_READ_NFO-EMPORiO
+
+Ta bort mappen ""Crack"" där du extractade filerna.
+
+Extracta:
+Counter-Strike_Source_UPDATES_5-EMPORiO
+Till CSS mappen. ersätt alla filer.
+Lägg in den nya ""online"" cracken, och editera i steamapp.cfg.
+Det som skall skrivas in där är genvägen till spelmappen, ditt steam account, och ditt steam lösenord.
+
+Men då har jag fortfarande ingen hl2.exe och ingen steamengine. Det finns ingen hl2.exe i Counter-Strike_Source_FINAL_READ_NFO-EMPORiO förutom den som ligger i crack mappen men den ska man ju inte ta. Och det finns ingen hl2.exe i denna uppdateringen, så vart fan ska jag få hl2.exe ifrån? Och steamengine antar jag att jag behöver med, men den finns inte heller."
+,Headhunter26,2004-11-08T16:16Z,MaYFly Hl2.exe filen liger i uppdateringen i files mappen.. och du ska ta alla filerna i files mappen samt online mappen och overwrite existing files i cs source root mapp...
+,MaYFly,2004-11-08T17:03Z,"Fy fan det var det jävligaste. Jag hittade hl2.exe i denna updateringen nu. Innan har jag extraherat alla filerna i files mappen direkt till min cs source mapp å då kom hl2.exe och ett par andra filer inte med av någon anledning. Men nu extraherade jag upp filerna å la dom på ett annat ställe först å lade sedan in dom i min cs source mapp å då jävlar följde allt med.  Tack ska du/ni ha, nu ska det nog fungera."
+,MaYFly,2004-11-08T17:11Z,"Nu dök även Steamengine.exe och Steam.dll upp i online play mappen i denna uppdateringen, den kunde jag inte se innan i winrar fönstret, skumt. Men extraherade man mappen å la den nånstans innan å går sedan in i den så ligger allt med.  Tack!"
+,MaYFly,2004-11-08T17:12Z,"Nu dök även Steamengine.exe och Steam.dll upp i online play mappen i denna uppdateringen, dom kunde jag inte se innan i winrar fönstret, skumt. Men extraherade man Counter-Strike Source UPDATES 5-EMPORiO mappen å la den nånstans innan å går sedan in i den så ligger allt med.  Tack!"
+,Itzhak,2004-11-08T18:34Z,"har lagt in d nya cracket i både steam mappen och spel mappen samt skrivit -steam i genvägen. men ändå startar inte steamengine.exe när jag startar cs.... har testat skriva platserna för båda av steamenigine.exe i steamApp.cfg, men inget funkar... ingen som har samma problem??
+Några tips???"
+,Itzhak,2004-11-08T18:54Z,"Såja...nu har jag fixat d.. kopierade alla crackfilerna till spelmappen precis som MaYFly skrivit tidigare, thx.. SRY för ett onödigt inlägg :|"
+,Paulie_90,2004-11-08T19:02Z,"så denna ska alltså funka till luzifer oxå..
+de e iaf vad jag har hört men hur gör man då?..kompisen frågar!"
+,rillebanck,2004-11-08T23:40Z,man måste ha ett account för att spela va? kan man köpa nån cd-key från internet o vad kostar dem isf?
+,Nemicus,2004-11-09T18:25Z,"det e bra att ni har fixat så att det går att köra gratis på internet men varför gjorde ni inte så har med c-s 1.6?
+lr finns det?"
+,go0gle,2004-11-09T20:55Z,bekräftar att den fungerar med luzifers release också ;)
+,Zainter,2004-11-09T21:00Z,"måst bara fråga e denna den senaste lr?? 
+
+ Ps. sry för ett mkt onödigt inlägg!! Ds."
+,Fisshy,2004-11-10T17:37Z,"By rillebanck at 2004-11-08 23:40:03 GMT  
+man måste ha ett account för att spela va? kan man köpa nån cd-key från internet o vad kostar dem isf? 
+
+Svar:nej, man behöver inte en cd key, man behöver bara ett konto, först laddar du hem steam på http://www.valvesoftware.com/SteamInstall.exe
+sen tar du bara ""creat new account"" skriver in username, password, sen när du accepterat kan du kasta möget om du inte behöver det.. :)"
+,Paulie_90,2004-11-10T20:02Z,"jo de går som du sa..på luzifers asså
+
+de jag råder är
+
+
+ladda luzifers här på pb sen laddar du denna patch vilket ger inga fel!!"
+,PeeJay,2004-11-10T23:39Z,"Har luzifers version. sletta akkurat hele mappen og instalerte det på nytt og la inn emprio 5 cracken,
+men det henger seg fortsatt rett før spillet starter 
+(ved retriving server info or somfin) 
+
+noen tips til en u-vitende nordbagg?
+
+Tack sâ mychet!"
+,Hampe,2004-11-11T00:01Z,"okey, exakt vad ska man göra med alla filer som ligger i ""Files"" mappen? Jag provade o kopiera in alla filer i CSS mappen men de funka inte.. lite hjälp kanske? :)"
+,PeeJay,2004-11-11T00:43Z,"Ja det er det du skal gjøre. extracte alle filene der de skal være (/bin i /bin . osv osv) men du må informere mer, hva fungerer ikke?
+med meg låser css seg under retreving server info..
+Surt =(
+
+men men.
+fyra bugg och en coccacola!"
+,nibbe_flame,2004-11-12T15:01Z,Tjenare ^^. En fråga bara =/ Behöver man nåt speciellt program för att föra över allt osv.. ? För ja fick 7 st Zip filer i mappen o ja undra om ja skulle behöva ett speciellt program för att kunna föra över..=/ Tack
+,nibbe_flame,2004-11-12T15:10Z,Tjaba ^^ Needar man nå speciellt program för att få in alla grejjer i css mappnen ? för de funkar inte..=/ den skriver ju abra över filerna om man zipar upp dom ich för in i css mappne..irriterande har testat flera ggr...Needar man nå speviellt program ? de vorre fett schyst om ja kunde få information om vad de skulle va för program..Tackar än så länge ^^
+,Talaturen,2004-11-12T22:28Z,"Hej, jag har 2 frågor.
+
+Den första är fungerar det att använda EMPORiO's update med LuZiFeR's css?
+
+Andra frågan är om det fungerar så behöver jag ersätta online saken på denna update, för att LuZiFeR's hade ingen onlineplay grejjs?"
+,hez,2004-11-14T18:22Z,steam har ju blockat så de inte går att köra gratis längre
+,wipal001,2004-11-15T18:45Z,vet någon hur man får upp console fönstret?
+,draxxan,2004-11-17T00:42Z,för mycket idioter här
+,crillsner,2004-11-17T22:23Z,"vaffan menas med ""Could not load library client"" ?"
+,Nemicus,2004-11-18T15:48Z,när  du starta spelet kommer console fönstret upp då ska du inte trycka bort det utan låta det vara kvar sen när du behöver den trycker du på escape då kommer den upp
+,Erfa,2004-11-25T08:08Z,Otroligt att det funkar online...
+,HIDocq,2004-11-25T16:56Z,"det är nåt cp med mitt, står ""unable to init shaders system"" vet nån vad det rä för fel?"
+,Erfa,2004-11-25T18:26Z,"""shader"" finns det nåt om i grafikinställningarna. Ta en titt på dem..."
+,KaiZer,2004-11-26T23:56Z,mm.. det är helt sjukt att det fungerar.. Det är ju ingen som knäckt CS 1.6 så att man då kan cracka det nya CS source på under 2 veckor är en fruktansvärt bra prestation!!! Tack så hemskt mycket.. Nu ska det spelas
+,MahatmaFrans,2004-11-27T22:36Z,Måste man sitta och kopiera varenda filjävel för att det ska fungera online?
+,Salman_889,2004-11-28T01:49Z,kommer detta att fixa This server is using a newer protocol ( 6 ) than your client ( 5 ). elr ?
+,Gelegrodan,2004-11-29T16:46Z,seeda plz
+,Gelegrodan,2004-11-29T21:46Z,"Hejsan!
+
+jag får denna updatering inte o funka..
+spelet funkar när jag bara kör Counter-Strike_Source_FINAL_READ_NFO-EMPORiO utan updateringar..
+
+jag har gjort så här:
+packa upp Counter-Strike_Source_FINAL_READ_NFO-EMPORiO till c:cs
+
+packa upp Counter-Strike_Source_UPDATES_5-EMPORiO till c:cs (inte online pathen)
+
+tog bort steam.dll
+
+gjorde en genväg till hl2.exe med mål:
+""C:cshl2.exe"" -steam -console -game cstrike
+
+starta genvägen och bakrunden till menyn kommer upp och de står loading nere i högra hörnet..
+
+loading skylten försvinner och allt hänger sej, man måste stänga av datorn med hjälp av ""knappen""/strömbrytaren
+
+vad har jag gjort för fel?"
+,Erfa,2004-11-30T15:29Z,"Testa LuZiFeRs version i stället. Jag tycker i alla fall att den är bättre, även om den är nukad..."
+,Gelegrodan,2004-11-30T15:39Z,funkar dom här uppdateringarna till LuZiFeRs verison?
+,PeeJay,2004-12-01T11:12Z,Noen som vet hva man gjør for å få taki Protocol 7?
+,jgthemaster,2004-12-01T13:14Z,finns update 6 redan eller?
+,Krueger,2004-12-01T13:55Z,vart får man tag på update 7?
+,korkis,2004-12-01T19:18Z,"har det kommit en ny uppdateringen igen? nu står det ""the server is using a newer protocol than you (7)""
+Fråga: när kan man tanka den nya uppdateringen?"
+,Erfa,2004-12-01T20:00Z,Det finns ju en risk att Valve har bannat de som har LuZiFeR lr EMPORiO i det nya protokollet. Men vi får hoppas på att EMPORiO ger oss mer information och kommer med en ny update (6)... för den finns inte än.
+,teddyb,2004-12-01T21:55Z,Jag har oxå samma problem med protocol 7...man får juh hoppas på en update så snart så möjligt :) än finns den iaf inte....jag har dock fått tag på en mindre lista med servrar som fortfarande kör protocol 6 :) så man kan köra ändå...men en update hade juh inte suttit fel..
+,Krueger,2004-12-01T22:29Z,Nej fan.. nu köper jag skiten.. får abstinens av att vänta på den nya updaten.. :)
+,CArL-13,2004-12-02T07:31Z,Ska fan ta och göra samma sak! :p
+,Hampe,2004-12-02T15:03Z,Kan man få sig en lista på dem servrar som fortfarande kör protocol 6 kanske? :) tack på förhand
+,CArL-13,2004-12-02T15:46Z,ne men asså steam upptaderas atomtiskt för alla så det finns nog ingen:(
+,micho,2004-12-02T15:56Z,"alltså.. det kommer aldrig sluta komma nya protocoll.. ni som ska spela i klaner o sånt lär köpa spelet. och ni andra som inte orkar vänta på ny updatering, köp spelet ffs! Jag ska köpa det.. har tänkt det redan från början.. ville bara testa och se om min dator får bra fps och så, så man kan lira det problemfritt när man köpt det. Och har man över 200fps så antar jag att de e helt ok så ja ska köpa spelet strax ^^ amd64 3400+ ^^"
+,Erfa,2004-12-02T16:28Z,Det finns fortfarande några crackade servrar som kör med protocol 6 tills det kommer en ny update. Google...
+,obbin,2004-12-08T07:44Z,"har update 6 och 5 men det står ""unable to init shader system"" HJÄLP!"
+,Erfa,2004-12-11T16:31Z,obbin: Du måste ha senaste DirectX och senaste drivrutinerna till grafikkortet. Då ska det fungera...
+,Pelletz,2004-12-15T21:43Z,Hmm en fråga. Hur fasen får man igång skiten? :P
+,SePe.,2004-12-21T10:31Z,Kanske litee seg men VART SKA MAN LÄGGA ALLA UPDATES???
+,SePe.,2004-12-23T16:13Z,"om man frågar så här dåå : 
+
+när jag startar css så stängs d av automatiskt direkt..  vad har jag gjort fel ? Snälla HJJJJÄÄÄLPPPP"
+,BasketKungen,2005-01-01T15:26Z,"Jag har också problem med protocol 7...
+Kan man spela med den här updaten??
+
+Svara Snälla:D"
+,BasketKungen,2005-01-01T20:29Z,"HUR GÖR MAN DÅ???
+SKA MAN INTE STÅPPA IN FILERNA NÅNSTANS???
+PLZZZZ HJÄLP MIG.."
+,J10,2005-01-11T22:41Z,Är detta cs source eller bara uppdateringen till cs source???
+,dantrickster,2005-01-26T05:20Z,"For alle der ikke har forstået hvad det her er!
+Det er en update til Source, hvor der ligger update 1, 2, 3, 4 og 5 ! Gør det sådan her: gå ind i en af rar filerne og når den har ""loaded"" går du 1 gang TILBAGE, så du kan åbne filen der slutter med .RAR og IKKE .r01, r02 etc.. Så pakker du filerne ud i din Source mappe og siger JA til al overskrivelse! Husk at gå ind i ""steamapp"" og ændre det til dit steamid og password! Gør det samme med cracken!
+
+og I skal osse have resten af updates'ne der kommer efter #5 med! Håber alle har forstået det her!"
+,fluffdenna,2005-02-04T18:50Z,SEEDA!!!
+,spadeko,2005-02-23T15:01Z,"Der er kommet mange updates. men de er alle nemme at finde for the EMPORiO crew, er altid klar med en crack release. der er ozz steam down og six-steam som er crackede versioner af steam, men der har været få problemer med de stads!"
+,super123super123,2008-02-15T09:25Z,vilken uppgradering kan nogon seja pls...
+,super123super123,2008-02-15T09:25Z,men jag laggar ner den:D

@@ -1,0 +1,43 @@
+The client works with the i2Pexternal link (cache) anonymous network, which means that you can now run bit torrent with nary a worry. Seeds, trackers, bit torrent search engines, clients, you name it. Read on for more information about how to install it and get up and running. 
+
+
+- HOWTO!
+
+Configure your firewall
+
+i2p requires that if you have a firewall (And who doesn't?) that you configure it to allow TCP traffic on port 8887 in through your firewall to the host running the i2p software. It will not work correctly without it. So, double check your stand alone firewall, and if you're running a client firewall make sure that is also configured to allow traffic in on TCP port 8887. You can also configure I2P to run on another port, but we suggest you stick with the default.
+
+Install the software
+
+Note: You must have Java installed on your system to run i2p. If you do not have Java installed, go to this URL and download a copy for your Operating System:
+
+http://www.java.comexternal link
+
+Once you have Java installed on your system, run this command:
+
+java -jar i2pinstall.jar
+
+OR
+
+You can just double click on the i2pinstall.jar file if your system is setup to understand what a .jar file is (on Windows, this is almost always the case if you have Java installed.)
+
+Start the services
+
+Normally the install will startup the i2p services automatically, but in case they don't, or if you shut them down and want to start them up again, run these commands (from the directory you install i2p in):
+
+./i2prouter start
+
+Point your browser to this URL
+
+http://localhost:7657/index.jsp
+
+This is the i2p router interface, your gateway to the software, documentation, and lists of sites on the network. Before you can do anything, you need to "seed" your router. No worries, it very very simple to do, just look on the left hand side of the "Router Console" page and click the "reseed" link. It should change to "reseeding"
+
+To start access sites via your browser, you need to take one more step.
+
+Change your proxy
+
+Change your browsers proxy to point to localhost port 4444. We also recommend you add "localhost" to your list of excluded sites, otherwise you won't be able to use the Router Console anymore (http://localhost:7657/index.jsp) 
+
+
+GLHF!

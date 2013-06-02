@@ -1,0 +1,29 @@
+﻿User Type,Username,Date,Text
+,Sanity,2004-11-23T01:45Z,Are you going to seed anymore? Seems tobe a few leachers out there with just a tiny bit left...they surely would appreciate it!
+,Benni,2005-01-18T19:07Z,hadde noen orket å seede denna eller?
+,Grillbritt,2005-02-02T19:28Z,"Jag får inte igång det här. Enligt infofilerna ska det inte vara några problem att köra det här programmet. Jag kör det på win2000 och det ska inte vara något problem? Måste man mounta det i daemon tools? Jag brände ut skivan och det fungerar uppenbarligen inte, är det bränningen som är felet?
+"
+,cheesman,2005-02-18T09:09Z,I can only answer questions posed in English!!
+,psychoma,2006-09-19T11:24Z,any chance of getting some more seeders for this?
+,Katrilleren,2007-03-22T10:06Z,please seed!
+,razur,2007-10-08T22:06Z,Don't waste your time dealing with these dictionary  app's the have been upped by the software writers.
+,monkeystuff68,2008-03-01T14:37Z,"thanks for the upload, cheesman! The OED works perfectly.
+
+all i needed to do was to dump the OEDXP.exe into the Program Files/OED directory, make sure that the oed.iso was mounted in the deamon drive from which i installed the dictionary, and use the OEDXP.exe to run the program!
+
+the OEDXP.exe can be found on the website mentioned in the torrent description"
+,cheesman,2008-06-10T22:29Z,The supplied oed program (v1.14) allows the db (oed.dat) to be mounted on the root directory of any drive.  To achieve this you need to set environmental variable OED to the drive letter (no colon) as it says in the  serve.com howto.  cheesman
+,Vikingman1111,2008-08-30T18:12Z,"I know this sounds like the dumbest person on the earth, but I have tried in vain to kick in the oed as described and explained. Let me get this straight:
+Install the program-I did. Copy the oed data file to the C: root drive--I did. Run the program--I did. Crashes!
+
+I tried the Alcohol route as described but it does not create .mdf files, only .mds files. Huh?
+
+Why cannot someone in clear unambiguous language describe step 1, step 2, etc. and save all of us from pulling our hair out. Sorry cheesman for the complaint."
+,Vikingman1111,2008-09-01T21:00Z,"OK, I finally got it going. download this, install it from Daemon or a burned disk. Download the zip file from smurfettes link. Also, download the available OED2exe file. This jump starts the program without the startup screen. Overlay those unzipped files into the OED directory. Install the fonts in the font folder into windows. Burn the OED data file onto a disk, which you keep in your drive. Run OED2EXE. Enjoy. Still can't get the data file to be read on the hard drive, though."
+,santaccc,2009-01-01T00:12Z,"Who wants to shell out the cash for OED 3.1 or 3.1.1?  Somebody's gotta, 'cause of the Vista problem.  Mad props to whoever does."
+,speedypear,2009-05-22T09:24Z,Works and installs like a dream on Windows XP. Much faster to load and easier to search/browse for words (especially when unsure of spelling) compared to newer Version 3. Thank you cheesman for sharing!
+,1hasoo,2009-06-23T03:25Z,"This OED is a Godsend! Thanks cheesman.
+
+Only problem I have is that I cannot scroll with my mouse wheel (this app only). "
+,mastakln,2009-11-05T08:49Z,"I find it perplexing that we are told to use cd, .iso, daemon and the whole arsenal of mind-boggling techniques to install this thing. It doesn't have to be such a rigmarole. I just clicked setup, copied OED2.dat to C drive, replaced the installed files with those that i found from the net (don't remember where), installed the fonts, & voila! It is good to go by clicking oedxp.
+The beauty of it is that no iso image or cd is needed & you can run it straight from your hard disk."

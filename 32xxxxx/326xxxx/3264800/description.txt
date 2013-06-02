@@ -1,0 +1,88 @@
+<p>
+<h1 align="center">Garfield The Movie</h1>
+<hr>
+<img src="http://www.discshop.se/LIVE/shop/img/omslag/front_large/41431.jpg" width="374" height="532">
+<a href="http://www.imdb.com/title/tt0356634/"> Garfield imdb</a>
+<hr>
+
+Aspect ratio:
+[ ] Fullscreen 4:3 
+[x] Widescreen 16:9
+[X] Anamorphic Widescreen 1.85:1
+
+
+Standard:
+[ ] NTSC
+[ ] NTSC9
+[ ] PAL
+[X] PAL9
+
+
+Audio language:
+[x] English: 5.1
+[x] Finnish: 2.0
+[x] Danish 2.0
+[x] Swedish: 2.0
+[x] Norwegian: 2.0
+[x] Directors Commentary
+    
+
+Subtitles:
+[x] English
+[x] Finnish
+[x] Danish
+[x] Swedish
+[x] Norwegian
+    
+
+Video:
+[x] Untouched
+[ ] Re-encoded
+[ ] Re-encoded with:  
+[ ] Re-encoded at: 
+
+
+Menu:
+[x] Untouched
+[ ] Partial Strip 
+[ ] Stripped
+
+
+Extras:
+[x] All included
+[ ] Partial Strip
+[ ] Fully Stripped
+
+Other:</p>
+<p align="center"><font size="6">Don´t forget to seed the movie when you´r done</font></p>
+<p align="center"><font size="6">I´m not seeding it forewer!!!</font></p>
+<p>
+Other:
+Problem med dvd-menyn som blir när man shrinkat filmen löser du på detta vis: 
+
+Jag löste det i progget DvdRemake ...
+Börja med att dra in den redan shrinkade filmen och gå över i advanced mode 
+..sen klickar du på krysset video manager 
+då kommer first play upp... markera den och titta i rutan till höger ...
+där hittar du 6 rader ...
+ta bort alla rader utom rad 5... högerklicka och välj edit command .. 
+ta sedan den 2´a rull-listen och ändra den till "jump vts menu"
+
+skriv sedan in i rutorna under :
+Titleset 1
+Menu type 3
+Title 1
+då ska det stå " Jump VTS 1"root menu (title 1)" överst i fönstret
+Klart !! spara och bränn filmen
+
+Import the dvd in dvdremake, and open the Video Manager folder to the left.
+Click on First Play and look to the right.
+there are 6 rows, remove all of them except the 5th one, right click and edit.
+Pick Jump VTS menu from the second drop down menu and enter the following:
+
+Titleset 1
+Menu type 3
+Title 1
+
+Save and burn"
+</p>

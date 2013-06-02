@@ -1,0 +1,124 @@
+requestad..
+
+
+===============================================================================
+                         Avalaunch v0.49.1 (build 62) Release Notes
+===============================================================================
+
+
+Yepp.. Somehow we figured we'd fix a lot of problems and send out another one =)
+Many things works better now, and some things now works which never did before.
+
+Overall, we're very happy with this version. Gueux'net guys have been helpful
+in every way they have been able to, testers have skipped sunbathing to nail 
+the last bugs on the list and just a few of our programmers know that it's 
+summer at all... (Don't tell them)
+
+We are aiming high on the dotfifty engine now tho. 2 coders are putting in all 
+their spare time into some massive UI system, 1 coder went to a monastery in tibet 
+for meditation and to find himself. ( altho someone said he went to Thailand instead )
+and a couple others are working on what ended up here with this textfile.
+Either way... what I mean with all this is that these releases is just our 
+steppingstone to what we really want. 
+
+
+
+About video mode switching
+--------------------------
+To avoid confusion, the runtime modeswitch changes EEPROM values, and 
+reinitializes screen - then to overwrite with the previous values,
+leaving the screenmode as you selected till reboot).
+
+===============================================================================
+                                     NOTE
+===============================================================================
+The EEPROM is an essential part of your Xbox. It contains all the information
+the hardware needs to initialize properly. Manipulating the data contained in
+this chip always involves a certain risk, as bad data, power failures and other
+elements beyond Avalaunch's control can interfere. Although Avalaunch creates
+backups, and does everything in its power to ensure that your EEPROM is not
+corrupted, we cannot and will not take responsibility for the data contained in
+your EEPROM. Please use all EEPROM-manipulating features at your own risk.
+===============================================================================
+
+
+We'd like to thank all our users, you've done a great job reporting those bugs,
+and keeping us on our toes with new feature requests :-)...
+
+Special thanks fly to bmbr for hosting and maintaining our web site, to D-Blood
+for hosting and maintaining our bug tracker and the whole testing team for so
+much dedication to help us deliver a great release of Avalaunch!
+
+Also thanks to modchipman for the logo contest prizes and no_remorse for the
+great Avalaunch jewels. You guys rock!
+
+- Team Avalaunch
+      (The Joker (TJ_CRS), ^Blazed^, lys, jjsmither (Devenic),
+                                      JbOnE, r0wdy, A_Snowman)
+
+
+===============================================================================
+                                   CHANGELOG
+===============================================================================
+
+Audio
+-----
+Removed SDL
+Made OGG/Vorbis decoder codec.
+Fixed the WMA codec so you can skip songs here now without having it change on it's own
+
+Core 
+----
+Yow can boot as a single file, little crashbug there
+Cleared some xbe flags that allows ava to boot on empty hdd
+Keyboard up disables music control
+Keyboard doesnt mix in with settings menu
+videomode/videoflags/audioflags/parental settings uses nothing but kernel calls now, still leaving in all security
+eeprom key to unlock some keys tended to get zero'ed out after IGR on some bioses, so we put in the default one
+Added a hddlock feature that keeps a secure backup of the keys, comparing them so it will only lock if keys match
+Fixed so warning/info boxes can contain more than one line - esp made for eeprom warning and KAI onjoin
+remade the default bootlogo to a higher res so it looks a tad more slick
+
+Filemanager
+-----------
+fixed the weird shade on most resolutions
+
+KAI
+---
+Fixed crashbugs when joining rainbow 6 and halo + more
+Fixed the crashbug that occurs when you try to attach to KAI while it's already started at boot
+
+Languages
+---------
+Added Portugese language file (by GamerBR).
+
+QuickStart
+----------
+Changed path handling. QuickStart shouldn't be quite as picky on how you specify the paths anymore.
+
+Screensaver
+-----------
+screensaver-x both loads and stays loaded now - as opposed to loads and being overwritten in memory as it used to
+changed to reflection type mapping on the texture to make it a bit nicer-looking
+
+Settings
+--------
+Fixed the IDE Master/Slave typo.
+Fixed a keyboard priority error making keyboard look funny
+Fixed XBFTP keyboard thumbstick by disabling music control if keyboard is up
+Fixed the KAI username/password keyboard bug
+Fixed KAI password/username info disappearing
+
+skins
+-----
+fixed a few allxboxskins-bugs in those archives where skins aren't compressed with dir
+Moved screensaver.x to skins ( but will still read the xbe-one/in the xbe-dir if nothing is located with skin )
+
+Telnet Client
+-------------
+Kicks user to menu instead if entertaining it in an eternal loop if an error occures
+
+Updater
+-------
+Fixed a major problem within updating that would pretty much render it useless. ( make sure it really got updated to this one )
+( old updater might require you to delete olddash.xbe )

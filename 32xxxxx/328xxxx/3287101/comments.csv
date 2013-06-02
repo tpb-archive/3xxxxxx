@@ -1,0 +1,121 @@
+﻿User Type,Username,Date,Text
+,invitro,2005-02-08T23:52Z,Måste man ha City Select 6.0 eller går det att uppdatera från 5.0 till 7.0?
+,kaffekopp,2005-02-09T01:22Z,Det går att uppdatera från 5:an eller 6:an till version 7 men det krävs i bägge fallen en 25-teckens kod för att låsa upp detaljerna på kartan. En fungerande sådan kod efterlyses!
+,oskar_asson,2005-02-19T00:49Z,vart kan man hitta upplåsnings koder??????
+,roningr,2005-02-23T03:43Z,Is there a way to unlock map details?  Thanks for the upload.
+,micleg,2005-02-25T16:16Z,"""Vart kan man hitta upplåsnings koder?""
+
+Där lyckades två tidstypiska språkfel nästla sig in...
+
+Som alla frågar här så är problem nummer 1 att få igång Garmins kartor utan kod. Jag har inte sett någon som lyckats, men miljontals har frågat. Kartmaterialet är ganska lätt att få tag på, speciellt uppdateringsskivorna som är fria. Det är just upplåsningen som är kruxet. 
+"
+,evilhacker,2005-03-15T00:31Z,"Är det någon som känner till något ""riktigt"" navigationsprogram för live-användning i bil? Alltså liknande de som följer med nyare bilar - med pilar och röstanvisningar samt. omberäkning av vägen om man kör fel. Skulle vara kanon.."
+,Better,2005-03-22T21:54Z,"Det går inte att låsa upp de här för användning i GPS:en. Du måste få en kod från Garmin som passar till GPS:ens serienummer. Det här programmet har ingen lyckats hacka än, måste köpas."
+,alltidonline,2005-05-10T11:46Z,"After this step, we have installed version 7, but there still is a part of version 6 present (the part the update needed). Mapsource will still not start at this point. We are now going to remove the last part of version 6 (which is causing Mapsource to fail). WARNING! This step will need you to edit the Windows Registry, which is potentially lethal for your computer! Deleting (or editing) anything other than mentioned below can cause all sorts of serious things to happen and might require a reinstallation of Windows. Again: this is all done at your own risk! Don't do this unless you are comfortable with the procedure. Done properly, the risk is minimal though, I have done this dozens of times without any problems... but I'm a computer expert (at least my boss thinks so). =8-)
+
+    *
+      We are starting the Regedit program (by clicking the Start button, then Run, then typing regedit inside the text field and pressing Enter).
+    *
+      click on the little [+] sign left of HKEY_LOCAL_MACHINE, this opens a lot of ""folders"" under that key.
+    *
+      next click on the little [+] sign left of SOFTWARE, this opens a lot of ""folders"" under that key.
+    *
+      now click on the little [+] sign left of Garmin, this opens a bunch of ""folders"" under that key.
+    *
+      next click on the little [+] sign left of Mapsource, this opens the ""folders"" under that key.
+      click on the little [+] sign left of Families, this opens a lot of ""folders"" under that key.
+    *
+      Find the European City Select v6 key and click it so it becomes blue and selected. This key in the registry is the place where Mapsource looks for info about City Select version 6, without it it won't know it ever existed.
+    *
+      Now delete this key and close Regedit.
+
+Now you should be able to start Mapsource without any errors. European City Select v6 will be replaced by City Select Europe v7.
+
+"
+,hailey,2005-05-11T18:14Z,i dont speak swedish so can someone tell me in english if i need to have a previous version installed to use this? or can i just install v7 from scratch?
+,Rassmussen,2005-05-15T18:26Z,"Yes you will be able to install, but you may need to alter the registry to make it work properly.
+
+However, you will not be able to use it on your GPS without registering both the serial of your GPS at
+garmin.com and also the program in mentioned."
+,trace,2005-06-17T15:35Z,"Skulle vara väldigt intresserad av TopSuomi kartorna över Finland. Speciellt delarna 7, 1, 4, 5, 10 samt alla övriga. :-)
+
+Eli TopSomi kartat kiinnostaisi. Löytyykö kenelläkään?"
+,je61,2005-07-30T10:54Z,Hallå är det någon som har upplåsningskoden ?
+,nicost,2006-02-26T09:38Z,"This is how to upload locked maps to any compatible garmin gps:
+
+You will need the following programs:
+Sendmap20
+http://cgpsmapper.com/download/sendmap20.zip
+GPSMapEdit
+http://www.geopainting.com/en/#last
+Winrar or Winzip
+
+It is not very difficult to do, but still it has some complications.
+Forgive me my english, im learning it!
+
+1)Download the maps (Mapsource City select North America, or Europe, or Metroguide, or City Navigator or similar)
+2)Install it
+3)Download Sendmap20 and GPSMapedit and extract the zips to any folder you want.
+4)Open Mapsource and choose the maps you need and remember more or less on which part of the big map they are.
+5)Open GPSMapedit and go to the file menu and select open."
+,nicost,2006-02-26T09:40Z,"6)Open xxxxxx.tdb located were mapsource is installed. Usually C:Program FilesMapsource.
+The xxxxxx.tdb are different for the differents versions of maps. For example for North America City Select version 5 
+the file name is nacsv5.tdb"
+,nicost,2006-02-26T09:40Z,"7)When you open this file you will see vaguely the shape of, for example, USA in the case of North America maps, or
+you will see vaguely the shape europe in the case you are using maps form this continent."
+,nicost,2006-02-26T09:40Z,"8)Zoom the area you are interested and compare it with the maps in mapsource. You should start seeing some numbers, 
+for example 00063856.img "
+,nicost,2006-02-26T09:41Z,10) Copy on a piece of paper the numbers of the maps you are interested on sending to the gps (this part is boring)
+,nicost,2006-02-26T09:41Z,"11)Now open sendmap20.
+12)Press the Add Maps button, and browse to the mapsource directory. There you will see a some files and 2 or more folders.
+One of the folders is USB_Drivers, the other would be the folder containing the maps files. In the case of North America City 
+Select is NACSV5. Open this folder and you will see a lot of files. The files you should see should be something 
+like 00063856.img Select from the list the files with the numbers you wrote before, and click open. 
+13)Plug your gps to the computer. Then click the Upload maps to Gps, and thats it."
+,nicost,2006-02-26T09:41Z,"Note: You may need yor gps drivers. Download them from www.garmin.com
+
+In the case of the iQue, instead of pressing the upload maps button, click on the Create GPSMAPSUPP.img A file will be 
+crated. Save this file on C:Program FilesPalmXXXXXCardInstSlot-SD. The xxxxx is a folder that varies. The next time
+you make a Hotsync, it should upload your maps. I never tried this last thing, but i think it works."
+,nicost,2006-02-26T09:45Z,add this guide on the future
+,Jbrunno,2006-03-02T23:51Z,"HI, I HAVE UNLOCK MAP DETAILS CITY NAVIGATOR V6 WITH THE CODE RW43TKR3CR5FFPWRC5SH4VX9D
+
+BUT WHEN I TRANSFER TO GPS, I GOT THE MASAGE ""THE FOLLOWING MAPS HAVE NOT BEEN UNLOCK FOR YOUR GPS"" WHAT SHOULD I DO? WHO CAN HELP ME... THANKS"
+,BellyOfTheDragon,2006-03-06T23:15Z,"Have anybody tried ""nicost"" solution to the problem??? Does it work?? I really hope so, or else I will surely go insain..."
+,mooritze,2006-03-18T20:57Z,"So has anyone tested nicost solution? I real want to know if it works....
+From nicost solution here is any easier way to figure the maps you have to upload:
+in gpsmapedit open the CVS6Nav.img file. Zoom in an pick the region you want to upload with the Trim tool (Tools/Trim the right click inside the selected region and hit trim outside).
+Save Map as say map1 in polish format, which is a text format. This one liner (use cygwin) will extract all the unique file name:
+grep ""[0x1d]00"" map1.mp | perl -lpe 's/.*~(.*)/$1/' | perl -lpe 's/.*(00.*)/$1/' | sort | uniq
+
+Then follow nicost steps to upload."
+,roboknave,2006-04-12T00:48Z,"That solution probably works great for the iQUE.  Guess if you have something else you're screwed... well, that is if you can't gen the key ;)  ... good luck  folks."
+,roboknave,2006-04-12T00:51Z,"Didn't notice the previous solution.  Clever, but painful.  I'll have to try it and see how well it works.  Might just stick to gen'ing the key..."
+,mooritze,2006-04-15T21:17Z,What do you mean whith gen'ing the key? I've seen lots of people pretending they had a real keygen for mapsource but I yet have to see it.
+,Tiitaanik,2006-06-08T06:38Z,"I have all the old Topo Suomi maps, but now the incredible new Topo Suomi PLUS maps are for sale, does anyone have them...
+
+http://www.eratukku.fi/garmin/topo/topo_intro.htm"
+,blazerman75,2006-07-17T17:40Z,"To unlock the map.
+serial: VS8EN-FEK9E-HX33S-QB7PS-5URVM"
+,foldog22,2007-07-05T16:55Z,"I can unlock maps on my PC but when I go to unlock them on the Garmin unit it says ""Can't Unlock Detailed Maps"". Does anybody know why? I am sure it is because the unlock codes I am using don't match the Unit ID / Serial number but is there a work around? I tried using MapEdit and mapsend20 but this didn't work. Again, these programs got the maps onto my card, but they still need to be unlocked. "
+,foldog22,2007-07-05T16:57Z,Help
+,markzeed,2009-08-04T06:51Z,"This is not for total nebie!!!
+
+If yourmap image file won't open on your unit, and you got ""can't unlock with device id:xxxxxx, or similar messege. There is a solution.
+The problem is the unlock code stored in the map image was not specificly created for your unit id.To solve this you have 1) change or add the code(you can generate with the  garmin *keygen) into the map, 2) Create gmapsupp.unl file contained the code, and put it in your garmin folder in your sd card.
+
+How to:
+1.Add new code to map image:
+a. Using gmt( a command tool you can download from tpb), command: gmt -w -u xxxxxxxxxxxxxxxxxxxxxx gmapsupp.img
+(xxxx=the generated code)
+b. Or Use ""gmaptool"" graphic version of gmt.
+Select join option, remove or add new unlock key.
+
+2)how to create gmapsupp.unl?
+use note pad, paste the code you generate for your unit, and save as gmapsupp.unl.
+
+All the tool are available in tpb, just search it.
+
+How to generate the unlock code: Use the garmin 1.5  keygen, enter your device ID, select your map id, or your map Family id. Put the code in gmapsupp.unl.
+
+You're done."

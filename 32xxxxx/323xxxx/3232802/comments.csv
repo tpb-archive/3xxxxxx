@@ -1,0 +1,50 @@
+﻿User Type,Username,Date,Text
+,soppan,2004-08-21T06:28Z,"spelet funkar  ju inte,även fast att man crackar,lägger av när man ska börja spela.Hjälp någon....."
+,superklasse,2004-08-21T14:58Z,Har man laggt ut ett spel som inte funkar så får man fasen ta konsikvensen och svara och hjälp till lite....
+,thotim,2004-08-21T20:30Z,Det är ett skitspel ändå...
+,Zahra,2004-08-21T20:58Z,"Fungerar helt okej. Däremot verkar det vara fel på cue-filen. Går att redigera den så den blir okej.
+
+När det gäller cracken vet jag inte vad du gjort? Har du kopierat in filerna i rätt katalog? Vet själv inte om bägge filerna i crack-mappen behövs, men det antar jag. Jag kopierade helt enkelt in både gamemodule och revolt till spelmappen och kör.
+
+Kanske inget helfräckt spel, men 6-åringen tyckte det var helball :)"
+,superklasse,2004-08-22T09:09Z,jaha??? och vad fasen menar du me redigera cue filen??? svara
+,Zahra,2004-08-22T20:28Z,"Öppna cue-filen med Notepad/Anteckningar och kika vad som står i den. Fel filnamn. Så här (ungefär) ska det vara:
+
+FILE ""ASTERIX AND OBELIX XXL.BIN"" BINARY
+  TRACK 01 MODE1/2352
+    INDEX 01 00:00:00
+
+Nu kan du bränna en skiva eller köra Daemon tools på cue-filen.
+
+Man kommer längre här i livet genom att vara en aning trevlig, hörru. Det var inte ens jag som la upp liret, tyckte bara det var ganska okej."
+,mrpeter,2004-08-24T20:55Z,"Laddat där här jävla spelet i 3 dagar nu (1-3KB/s)
+När jag äntligen fått hem det och skall bränna fungerar det inte. Fel på rad 1 bla bla...
+Kyss mig i röven...."
+,boogey,2004-08-29T19:09Z,"Lösningen på det diskuteras precis ovan.
+
+Så lösningen är antingen;
+
+1. Editera Cue-filen.
+2. Döp om BIN-filen till ""RLD-ASTX.BIN""
+
+Personen som har lagt upp har tagit releasen från Reload, döpt om BIN-filen, och sedan inte editerat cue-filen.
+Funkar inte så bra."
+,cic,2004-11-01T21:41Z,tack!
+,Pasta-Man,2005-01-11T22:22Z,"det ska jag komma ihåg... hoppas skiten funkar nu, finns ju knappt några seeders
+
+tjolahopp"
+,Finger_best,2005-01-29T21:20Z,Det är inte så svårt att få det att funka jo om man inte har något i hjärnan hehehehehe men det är bara att läsa vad det står på alla införmaskon saker så hittar man alltid rätt sak!!!
+,nicke89,2005-02-13T01:48Z,Jag har brovat allt möjligt men ingenting fungerar
+,Mr.calle,2005-06-13T19:55Z,HUR FIXAR MAN DET HÄR DÅ HUR REDIGERAR MAN CUE FILEN JAG FATTAR INGENTING
+,kadubb,2006-12-29T19:55Z,please tell me in english how to install this game
+,Lord_Mz,2007-02-04T00:02Z,"har du deamon tools
+
+det brukar funka för det mesta med det programet;D"
+,Old KnotVillage,2007-03-20T12:52Z,"Error in Cammanline, kanske Vistas fel..."
+,Dados22,2008-01-31T18:55Z,aha coolt xD 1 - 2 mb/s hahahahaah fasst det e bara 6 seeders =O men hoppas spelet funkar skit bra :D cya!
+,mahomedas,2009-08-19T17:07Z,good arcade game ;)
+,adi94100,2010-05-13T16:07Z,Use daemon tools mount this file install the game and play have fun :)))))
+,termite43,2010-09-28T02:45Z,"This game don't work.  It installs fine (Win 7 x64) but run it and the screen goes black.  Error module 50279 - googled it - says something about AVG antivirus and elbdrivers.  I use Trend Micro.  I tried disabling TM - same thing.  I tried running in XP mode - nope.  I read the readme.  This game has A LOT of issues.  Probably my GeForce 9800 GTX+ video card (my guess is this game requires a crappy card to run).  At Gamecopyworld the crack says it's for Windows 98.  This game was released in 2004.  There's no patch available.  I'm sorry folks, but Windows XP is dead and gone and when Windows 8 comes out, it's the last version - ever - to support 32-bit software.  Windows 7 is a fantastic OS and if it won't run on it, it ain't worth shit.  Too bad, I love Asterix.  "
+,Lbbb,2011-08-23T14:53Z,"To termite43
+This game is from 2004 and it's not fault of this fantastic game that fucking microsoft can't maintain compatibility between it's crappy windows. You needn't be sorry about ""folks"" that have played this beautiful gem. Be sorry about yourself  that you`d missed it."
+,Teuton97,2012-01-07T12:05Z,Just delete second CUI file and mount the bin file with DEAMON Tools PRO and the game will be install without problems.

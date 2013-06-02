@@ -1,0 +1,99 @@
+﻿User Type,Username,Date,Text
+,krutan,2004-07-22T01:23Z,ändra kompatibilitetsläge till win95/98
+,spyvingen,2004-07-22T12:02Z,Har detta redan kommit ut på marknaden eler är det en fake??
+,Lodjuret,2004-07-22T12:35Z,Gammal klassiker..tankar ner denna därför att min original cd är lite knäpp
+,Tulip,2004-07-22T20:18Z,hur ändrar man till 95/98 i xp då?
+,spyvingen,2004-07-23T13:29Z,Jag kan inte installera det det kommer upp en install grej och så hör man lite musik men sen händer ingenting kan nån hjälpa mej??
+,versago,2004-07-23T14:46Z,jag får ett fel medelande när jag försöker att installera de Setup orsakade ett allmänt skyddsfel i modul _setup.exe pt 0004:6357. vad är det för fel då??? kommer inge längre än så i installationen Plz hjälp mig
+,afeman,2004-07-23T18:22Z,"Jag hittade ett litet fixprogram som gör att det går att installera LSL7 i Windows XP. Det finns på http://ayumi_chan15.tripod.com/soft/lsl7setup.html
+
+Jag behövde inte köra i kompatibilitetsläge efter installationen."
+,zasabi9,2004-07-24T12:23Z,förstår inte riktigt hur man ska installera spelet... jag har inte fått hem nån setup fil (bara en 710 mb stor bin fil) nån som kan förklara hur man ska göra?
+,Tulip,2004-07-24T20:24Z,"jag får ett fel medelande när jag försöker att installera de Setup orsakade ett allmänt skyddsfel i modul _setup.exe pt 0004:6357. vad är det för fel då??? kommer inge längre än så i installationen Plz hjälp mig
+
+Jag får detta också....
+Vad för fel
+
+"
+,hamberg,2004-07-25T22:27Z," zasabi9 tanka hem ett program som heter daemon tool!
+med den så kan du öppna filen och installera från disk.
+annars kan du bränna ut den med nero eller alcohol 120%"
+,macke,2004-07-29T11:16Z,Skol spel eller??
+,macke,2004-07-29T11:16Z,skoj*
+,BesteN1337,2004-08-19T14:07Z,får det inte att funka:( det kommer fram en sån där ruta där man får välja mellan att stänga och ignorera:'(
+,svartis,2004-09-16T16:33Z,afeman: tackar så hjärtligt för länken..!! :)
+,p0lak,2004-09-17T11:10Z,"Funkar inte för mig heller o jag har WIn ME
+nån som vet hur man löser det..install gejen kommer o musik men sen så händer det inget..help?!"
+,TrueRiot,2004-10-01T22:19Z,Har precis samma problem som Besten1337 :(
+,tovleander,2004-10-14T02:59Z,"for dere som får error beskjed at autoexec.nt bla bla bla.. 
+
+klipp og lim dette på en notepad inne i c:/windows/system32
+
+@echo off
+
+REM AUTOEXEC.BAT is not used to initialize the MS-DOS environment.
+REM AUTOEXEC.NT is used to initialize the MS-DOS environment unless a
+REM different startup file is specified in an application's PIF.
+
+REM Install CD ROM extensions
+lh %SystemRoot%system32mscdexnt.exe
+
+REM Install network redirector (load before dosx.exe)
+lh %SystemRoot%system32redir
+
+REM Install DPMI support
+lh %SystemRoot%system32dosx
+
+REM The following line enables Sound Blaster 2.0 support on NTVDM.
+REM The command for setting the BLASTER environment is as follows:
+REM SET BLASTER=A220 I5 D1 P330
+REM where:
+REM A specifies the sound blaster's base I/O port
+REM I specifies the interrupt request line
+REM D specifies the 8-bit DMA channel
+REM P specifies the MPU-401 base I/O port
+REM T specifies the type of sound blaster card
+REM 1 - Sound Blaster 1.5
+REM 2 - Sound Blaster Pro I
+REM 3 - Sound Blaster 2.0
+REM 4 - Sound Blaster Pro II
+REM 6 - SOund Blaster 16/AWE 32/32/64
+REM
+REM The default value is A220 I5 D1 T3 and P330. If any of the switches is
+REM left unspecified, the default value will be used. (NOTE, since all the
+REM ports are virtualized, the information provided here does not have to
+REM match the real hardware setting.) NTVDM supports Sound Blaster 2.0 only.
+
+REM The T switch must be set to 3, if specified.
+SET BLASTER=A220 I5 D1 P330 T3
+
+REM To disable the sound blaster 2.0 support on NTVDM, specify an invalid
+REM SB base I/O port address. For example:
+REM SET BLASTER=A0
+
+-------------------
+
+og ""lagre som"" autoexec.nt
+
+
+funker da :D 
+
+
+kan hende XP SP2 som fucker opp *.nt filen
+
+
+så kan dere laste ned filen som står adr på oppi her og innstalere spillet :D 
+
+JIPPI"
+,krinkenstein,2004-11-21T00:44Z,vad menas när det står att det inte går att hitta GDI.DLL??? vad har gått snett?
+,krinkenstein,2004-11-21T00:45Z,vad ska man välja som Setup Path??
+,Pezetas_the_boeg,2006-05-02T20:56Z,seed mer
+,twinklay,2006-05-16T15:26Z,http://thepiratebay.org/details.php?id=3484037
+,cloudmckane,2006-06-21T09:56Z,"""Det går inte att hitta GDI.DLL"" är det enda meddelande man får upp när man ska installera genom LSL7Setup. Hur ska man göra? afeman, snälla svara"
+,snithicar,2006-06-27T08:25Z,seed plz!!!
+,eXtroZa,2007-04-06T02:35Z,Snela seeda xD
+,derryck123456789,2007-07-08T03:14Z,"Hallo. Norsk tulling her!
+Skjønner ikke en dritt, eller skit, som man sier på svensk tror jeg.
+Vil noen være greie og forklare mer hva man skal gjøre? Steg for steg? Bit for bit?"
+,kata2620,2007-11-28T12:39Z,måste jag extrahera alla filer i mappen innan jag använder daemon tool?
+,spartan0790,2009-05-09T02:38Z,Would be nice if we had some ENGLISH COMMENTS!

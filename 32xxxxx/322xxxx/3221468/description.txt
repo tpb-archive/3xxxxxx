@@ -1,0 +1,58 @@
+*******************************************************************************
+                      Ipswitch WS_FTP Server v5.0 retail
+*******************************************************************************
+
+-------------------------------------------------------------------------------
+                              General Information
+-------------------------------------------------------------------------------
+Type.................: Application
+Platform.............: Windows NT/2000/XP
+Serial...............: None
+Releaser.............: F.O.S.I. 27 Jun 2004
+
+
+-------------------------------------------------------------------------------
+                                 Release Notes
+-------------------------------------------------------------------------------
+       Ipswitch WS_FTP Server is an RFC 959/1123 compliant FTP server for
+                       Windows NT/2000/XP that provides: 
+
+       - Virtual host support (multiple logical hosts on a single 
+         physical system). 
+       - Ability to use users from a Windows NT/2000/XP or IMail Server
+         (Ipswitch's mail server) user database.
+       - Quota support per user.
+       - Mapped shared directories (virtual folders) with permission 
+         support.
+       - Group support, add users to groups and set folder permissions
+         by group.
+
+       Ipswitch WS_FTP Server can be installed wherever needed, does not
+           require expensive, dedicated hardware, and can run in the
+       background on your PC. WS_FTP Server works with any 32-bit TCP/IP
+         stack, such as those bundled with Windows NT/2000/XP. You can
+          configure WS_FTP Server and start distributing files on your
+                     network without any special training. 
+
+                                   New in 5.0
+
+       - Ipswitch Notification Server - Setup Pager, SMS, Email, or 
+         program notifications for rule violations and/or adherance
+       - Expanded Rule capability adding login attempt limit and Quota 
+         actions and the ability to attach multiple notifications to
+         a rule.
+       - Universal Naming Convention (UNC) Support
+       - Clear Command Channel (CCC)
+       - Settable Home Folder
+       - Updated graphical user interface with new icons
+       - Ability to duplicate users, folder, virtual folders, rules,
+         notifications, and groups
+       - Bandwidth Management
+       - Disk Quota Management
+       - Setup SSL options for virtual hosts
+
+
+
+					tHe_sWeePer 28 June 2004
+
+					   Thx to: F.O.S.I.

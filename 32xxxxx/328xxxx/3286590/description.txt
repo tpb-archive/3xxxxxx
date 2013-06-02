@@ -1,0 +1,225 @@
+Superdisc 3.7.8 2003-01-11
+
+	Changes since superdisc 3.7
+		- Avalaunch 0.484
+		- Evolution-x 3935
+		- dvd2xbox 0.5.3
+		- Bios X2 4980 (live safe)
+		- UnleashX 0.25.1224_interim
+		- Complex Tools 1.50
+		- XBOX Media Center 2004-01-07
+		
+	New/Updated Emus:
+		- Xboy Advance v9 (GBA)
+		- KegsX v3 (Apple II)
+		- Surreal64 1.0 (N64, includes pj64, ultrahle, pj64)
+		- Pcsxbox v11 (PSX)
+		- Vicepetx v2 (PET)
+		- Vice20x v3 (VIC-20)
+		- Vice64x v4 (C64)
+		- Atarixlbox v5 (Atari 800-5200)
+		- NeopopX v4 (Neo Geo Pocket)
+		- AdamX v2 (Colecovision Adam)
+		- Xenesis 0.97b (Sega Genesis)
+		- NeoGenesis v15 (Sega Genesis)
+		- Z26 v4 (Atari 2600)
+		- Smsplus v9 (Sega Master System)
+		- HUGO v10 (PCE-TG16)
+		- Fmsxbox v6 (msx)
+		- Bliss v5 (Intellivision)
+		- WinstonX v5 (Atari ST)
+		- WonderswanX v2 (Wonderswan)
+		- FCEUltraX v16 (NES)
+		
+		
+		
+
+Superdisc 3.7 2003-11-02
+
+  Changes since superdisc 3.6
+    - Avalaunch 0.482
+    - Evolution-X 3921
+    - Bios Evo-X M7, including versions with LBA48 patch
+    - Bios X2 4979 (LBA 48 native)
+    - dvd2xbox 0.5.0 replaces xbcopy
+    - MediaXMenu 0.9n.6
+    - XBOX Media Player
+    - XBOX Media Center
+    
+  - New/Updated Emus:
+  	UAEX 0.81 (Amiga)
+  	Kawa-X 0.11 (neogeo cps cps2)
+	Frodo-X Beta 5 (c64)
+	U64-x (arcade)
+	Koleko-X 0.06 (colecovision)
+	sc3x 0.05 (sega sg-1000)
+	vicepetx v1 (commodore pet)
+	vice20x v2 (commodore vic-20)
+	vice64x v3 (c64)
+	smsplusx v7 (sega master system)
+	neopopx v4 (ngp)
+	bliss v4 (intellivision)
+	neogenesis v11 (sega genesis)
+	z26 v3 (2600)
+	pcsxbox v10 (psx)
+	xboyadvance v8 (gba)
+	hugo_xbox v9 (pce-tg16)
+	atarixlbox v4 (atari 800 5200)
+	winston-x v4 (atari st)
+	fmsxbox v5 (msx)
+	MAMEox 0.76.1b (Arcade)
+	Wonderswan V1 (wonderswan)
+	KegsX v2 (Apple II)
+	DOSXBox v3 (pc)
+	AdamX v1 (colecovision adam)
+	FCEUltraX v14 (nes)
+	
+
+ - Games (Only on DVD version)
+ 	MaelstromX
+ 	StepmaniaX v5
+ 	BlasteroidsX
+ 	BreakoutX3d
+ 	Centipede
+ 	Connect4
+ 	DuckShoot
+ 	MineXweeper
+ 	PacMan3DX
+ 	Rott
+ 	SensitiveX
+ 	WormS
+ 	xBomberbox
+ 
+ Removed 007stuff
+ Added/updated the pc tools in pc stuff	
+	
+
+Superdisc 3.6 2003-06-18
+    
+  Changes since superdisc 3.5
+   - Avalaunch 0.46.3 Dashboard with ftp, irc and more
+   - Misc. useful stuff for your pc in instfpcstuff
+   - Updated xbtool (to make colored bios etc) in pcstuff to version 0.8.25
+   - Updated xlink messenger in pcstuff to version "rc1"
+   - Changed IGR to NO in evox.ini
+   - Added X-ecuter 2 4977 bios (regular and with blue logo)
+   - Updated XBOX Media PLayer to 2.4 cvs 6-15-03 (Added CDDA support, now you can play regular music cd:s in xbmp!)
+   - Added XBConnect 3.0 in pcstuff directory
+   - Added "007stuff" in pcstuff, with this you can run evo-x and xbmp on an unmodded xbox using 007 agent under fire
+   
+  - Updated Emus:
+  	FBAx B3 (Capcom CPS1 and CPS2)
+  	NesterX 023 (NES)
+  	HU-GO! v7 (PCE)
+  	Snes 9x-x 0.23 (SNES)
+  	UAEX 0.8 (Amiga)
+  	
+  - Added Emus:
+	UltraXLE 1.0b (N64)
+  	z26 v1 (Atari 2600)
+  	MAMEoX 0.67 (Multiple Arcade Machine Emulator)
+  	Winston v2 (Atari ST)
+  	Daphne 0.96 (LaserDisc Arcade Machine Emulator)
+  	VBAx 0.21 (GameBoy Advance)
+  	Gens_hikaru 1.0 (Sega Genesis)
+  	Gens Xport v3 (Sega Genesis)
+  	Gens X 9 (Sega Genesis)
+  	Xenesis 0.93 beta (Sega Genesis)
+  	Bliss v1 (Intellivision)
+  	fmsxbox v2 (MSX)
+  	PJ64-X 0.70 (N64)
+  	Neopop_hikaru 1 (Neo Geo Pocket)
+  	pcsxbox v3 (PSX)
+  	SarienX 1 beta (Sierra Adventure) (Must have keyboard to use)
+  	x-pcex (PCE)
+  	DegaX 0.10 [SMS]
+  	
+  	
+ Added since superdisc 3.4
+  - Updated XBOX Media player to 4-7-03 cvs build
+  - Updated Evolution-X Dashboard to 1.8.3752
+  - Updated evo-x bioses to 4976.02
+ 
+  Added since Superdisc 3.3
+  - Updated XBOX Media Player to 2-27-03 cvs build because
+  the version in superdisc 3.2 was using a filezilla that could not
+  change between c:, d:, e:, f: etc.
+  - Updated relax to 0.75 in pcstuff
+	
+  Added since Superdisc 3.2
+  - Updated some emus
+  - Updated Config Magic
+  - Updated XBOX Media Player
+  - Updated XToolbox
+  - Updated XBFTP
+  - Updated some tools in pcstuff
+
+  Added since Superdisc 3.1:
+  - X-ecuter 4974 bios with blue xbox logo
+  - Updated some emulators
+  - Updated XBFTP
+  - Added XTOOLBOX (another ftp client)
+  - Added Config Magic (hd unlock tool etc)
+  - Upgraded XBOX Media Player to 2003-01-25 compile
+  - XBOX Media Player defaults to SWEDISH, edit config.xml if you want...
+  - Added some apps in PCSTUFF
+  - Removed the linux .xbe, it was really not useful
+  
+
+  Added since Superdisc 3.0:
+  - XBOS Media Player 2.1
+  - Emulators
+  - Updated evox.ini files to enable flashing of X-ecuter 2 modchips
+  - Added menu option to format F drive, useful if you got one of the xboxes with 20GB drives
+  - Added XBOX Saves Manager Beta 3 in the pcstuff directory.
+  
+  This is a nice utility disc for your XBOX.
+  
+  With this disc you can boot your xbox into Evolution-X,
+  flash its BIOS and move files around w/o the need for
+  a PC and a network connection.
+  
+  Enter the "www.psxcare.com" menu and you will find ready made scripts
+  to install EVO-X and all utitities to your E: or F: drive.
+  
+  There is also a script that will partition and format just about any hard drive w/o
+  any need for preparation.
+  
+  Tools included:
+  
+  Evolution X Beta 1.8.3285
+  BoXplorer 0.96 Beta
+  XBCopy 0.25
+  XCommander
+  X-Ecuter dvd-x installer
+  X-Ecuter DVD-X version 2.0
+  Video_Select_V2
+  Dysfunctions X-flash with both Hynix/Hyundai and ST support
+  Some BIOS images
+  Original XBOX Dash (3944 version only) as msxboxdash-unpatched.xbe
+  DVD-X Region Free (1-4) Patched XBOX Dash (3944 version only) as msxboxdash.xbe
+  Linux 0.1
+  XBOX Media Player 2.0
+  XBFTP 0.58.1
+  A collection of Emulators
+  
+    
+  I have also put some PC tools in a subdirectory:
+  XBOX HD Prepare 1.3
+  XBOX ISO TOOL 1.1
+  Relax _v06
+  XBOX Saves Manager Beta 3
+  
+  For Evolution-X information and support, visit
+  http://www.valholl.org
+  #evolution-x on EFNET
+  #evo-x-support on EFNET (Type ?? HELP and the info-bot will list all commands)
+   
+  
+  For XBOX modchips/installation help in Sweden, visit
+  http://www.PSXCARE.com
+  #psxcare on EFNET
+  
+  Big thanks and respect to all skilled hackers who have developed
+  the tools in this collection. Making this collection was easy,
+  but I hope it will be of use for someone.

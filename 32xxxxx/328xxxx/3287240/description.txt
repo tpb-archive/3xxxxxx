@@ -1,0 +1,109 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="AFSS HTML Designer 2.3 (http://www.afss.de)">
+<TITLE></TITLE>
+</HEAD>
+<BODY bgColor=#cfcfcf>
+<DIV align=center>
+<TABLE border=1 borderColor=#808080 borderColorDark=#404040 
+borderColorLight=#c0c0c0 style="HEIGHT: 443px; WIDTH: 551px">
+  
+  <TR>
+    <TD><h2 align=center>
+<script language="JavaScript1.2">
+
+var message="The Simpsons - The Simpsons Sing the Blues (1990) Album "
+var neonbasecolor="red"
+var neontextcolor="yellow"
+var flashspeed=80  //in milliseconds
+
+///No need to edit below this line/////
+
+var n=0
+if (document.all||document.getElementById){
+document.write('<font color="'+neonbasecolor+'">')
+for (m=0;m<message.length;m++)
+document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+document.write('</font>')
+}
+else
+document.write(message)
+
+function crossref(number){
+var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+return crossobj
+}
+
+function neon(){
+
+//Change all letters to base color
+if (n==0){
+for (m=0;m<message.length;m++)
+//eval("document.all.neonlight"+m).style.color=neonbasecolor
+crossref(m).style.color=neonbasecolor
+}
+
+//cycle through and change individual letters to neon color
+crossref(n).style.color=neontextcolor
+
+if (n<message.length-1)
+n++
+else{
+n=0
+clearInterval(flashing)
+setTimeout("beginneon()",1500)
+return
+}
+}
+
+function beginneon(){
+if (document.all||document.getElementById)
+flashing=setInterval("neon()",flashspeed)
+}
+beginneon()
+
+
+</script>
+</h2></TD></TR>
+  <TR>
+    <TD>
+      <P><FONT face="MS Sans Serif" size=4>Här kommer ytterligare ett album från våra kära 
+      vänner från Springfield. Detta album släpptes 1990 och innehåller 10 st 
+      låtar och som framförs av de kända fejsen i The Simpsons. Albumet från -99 
+      "The Simpsons - Simpsonic" finns också ute på PirateBay, det är bara att 
+      söka...!! Tracksen är alla kodade i 192 kpbs. Troligtvis kommer något mer 
+      album ut senare. Har du själv något Simpsonrelaterat lägg ut det 
+      också!!</FONT></P>
+      <P><FONT face="MS Sans Serif" size=4></FONT> <IMG align=left alt="" border=0 hspace=0                             src="http://www.animatedcentral.com/albums/Cartoons/Simpsons/Homer/simpson11.gif"       ></P>
+      <P align=center><FONT face="MS Sans Serif" size=4> 
+                 
+                   
+                  
+                   
+          Mycket Nöje! & Seeda väl!!!     
+                 
+                    
+                  
+                 </P></FONT>
+      <P align=center><FONT face="MS Sans Serif" size=4><STRIKE><FONT 
+      face="MS Sans Serif" size=4> 
+      </FONT></STRIKE></FONT> </P>
+      <P align=center><FONT face="MS Sans Serif" size=4><STRIKE><FONT 
+      face="MS Sans Serif" size=4> 
+      </FONT></STRIKE></FONT> </P>
+      <P align=center><FONT face="MS Sans Serif" size=4><STRIKE><FONT 
+      face="MS Sans Serif" size=4>:<U>~</U>:   
+      </FONT></STRIKE>Låtlista<STRIKE>   
+:<U>~</U>:</STRIKE></P></FONT>
+      <P align=center><FONT face="MS Sans Serif" size=4>01 - Do the 
+      Bartman02 - School Day03 - Born Under a Bad Sign04 - Moanin' 
+      Lisa Blues05 - Deep, Deep Trouble06 - God Bless The Child07 - 
+      I Love To See You Smile08 - Springfield Soul Stew09 - Look At All 
+      Those Idiots10 - Sibling Rivalry<FONT face="MS Sans Serif" size=4><STRIKE><FONT 
+      face="MS Sans Serif" 
+      size=4>:<U>~</U>:                                           
+      </FONT></STRIKE><STRIKE>  :<U>~</U>:</STRIKE></FONT><IMG align=absMiddle alt="" border=0 hspace=0                                                                                                                               src="http://www.lifeisajoke.com/Simpsons/elbarto.gif"       ><FONT size=3><U><b>[Brought to U bY 
+      PassI]</b></U></FONT><FONT size=1>ursäkta om det blev plottrigt 
+      :-)</FONT></P></FONT></TD></TR></TABLE></DIV>
+</BODY>
+</HTML>

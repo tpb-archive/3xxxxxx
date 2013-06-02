@@ -1,0 +1,16 @@
+<strong><font color="green">NewsReactor is a tool to download binaries from usenet newsgroups. NewsReactor scans, combines and downloads files from selected newsgroups.</font color></strong>
+<p>
+<li>Simple userinterface
+<li>Multigrouping, similar files are grouped together
+<li>Highspeed multithreading downloading with low level socket technology
+<li>Advanced error correction on a message part based algorithm. This ensures (almost) no incomplete parts
+<li>Built in smart UU, Base64 and yEnc decoding with error correction 
+<li>Selecting up to four active threads
+<li>Multiple server scanning and combining 
+<li>Incremental scanning (only scanning of new articles)
+<li>Adjustable download speed to give other applications bandwidth 
+<li>Selectable download directories for each newsgroup
+<li>Responsive Pause and Stop processing 
+<li>Filters (with regular expressions) 
+
+<p><strong>Note:</strong> Remember to check out <font color="blue">NFONews.com</font color>

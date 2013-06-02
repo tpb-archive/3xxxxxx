@@ -1,0 +1,34 @@
+﻿User Type,Username,Date,Text
+,Cosmo4,2004-10-05T12:36Z,"Wow, vilken nyhet...
+""AVI-Fix"" det låter ju snarare löjligt mer än rätt. Det har med att XP cachar och läser från filen för att visa i thumbnailen. Den här ""Fixen"" tar det bort det bara, sätter ett värde från 1 till 0. "
+,sliktdB,2004-10-05T12:41Z,"japp det stämmer. Hade själv mycket problem med det för ett tag sedan. Jag kodade en egen variant först, men den ställde till en massa andra problem..:| "
+,nomennescio,2004-10-05T12:48Z,"Det finns en workaround som är genialisk i sin enkelhet.
+
+Säg att du har en fil Matrix.avi som du inte kan ta bort.
+
+Gör då så här:
+
+[1} Starta Notepad[2] Du behöver inte skriva någon text...
+[3] Spara filen med samma namn som den låsande AVI:n. Tex. Matrix.avi
+[4] Programmet varnar och frågar om du vill ersätta den befinliga filen.
+[5] Svara ""Ja""
+[6] Du kan nu radera Matrix.avi"
+,TheNinth,2004-10-05T12:48Z,www.tweakxp.com
+,sliktdB,2004-10-05T13:00Z,mhm. det går ju också bra..eller så formaterar man bara hårdskivan   The Hard Way    :)
+,miljpewe,2004-10-05T15:24Z,"Samma här!
+I SP-1 var buggen inte fixad."
+,Dee_Jay,2004-10-05T20:17Z,"Skriv: ""REGSVR32 /U SHMEDIA.DLL"" i Kör och tryck OK...KLART!! :D"
+,rob123,2004-10-07T05:45Z,"""hårdskivan""??
+
+:shutup:
+
+Sorry, va tvungen...
+
+:P"
+,swedevil,2004-10-11T14:14Z,Buggen är kvar i SP2 oxå.  M$ har inte fixat den
+,tuppen2000,2006-05-12T10:55Z,"To correct this misbehavior in Windows XP, remove the following
+registry key.
+
+HKEY_LOCAL_MACHINESOFTWAREClassesCLSID{87D62D94-71B3-4b9a-9489-5FE6850DC73E}InProcServer32
+
+This will prevent Explorer from loading shmedia.dll in response to file property queries on these files. källa vcd help"

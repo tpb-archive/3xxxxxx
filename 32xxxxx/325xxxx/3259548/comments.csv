@@ -1,0 +1,207 @@
+﻿User Type,Username,Date,Text
+,Dr.ThraX,2004-11-27T00:38Z,hmm Ladda Up Cracken Så Man Slipper bränna Ner Det helt i onödan och har redan försökt bränna funkar ej :S
+,Cypexx,2004-11-27T11:55Z,Spelet fungerar utmärkt om man gör som det står i beskrivningen.
+,Cam,2004-11-27T12:16Z,fan cd 2 går ju inte köra med daemontools d blir bara ett error meddelande
+,Cypexx,2004-11-27T12:52Z,Testa med 3.47 funkar fint för mig ;)
+,Cam,2004-11-27T17:47Z,ok får ta å prova
+,TeeHawk,2004-11-28T19:20Z,Rullar ej för mig heller klagar på DLL-fil
+,Cypexx,2004-11-29T08:21Z,Testa mounta bin filerna.. och läs installationsbeskrivningen NOGGRANT! :P
+,Metallica_89,2004-12-01T18:56Z,Snälla seeda 
+,Bodha,2004-12-02T17:42Z,"Jag har provat det mesta och det går inte att starta programmet.
+
+Nån som har lust att förklara på...ren svenska hur man ska göra? Är inte så haj på dataspråk..."
+,mike.S,2004-12-08T19:39Z,"Hej, har gjort allt som man skall rätt, men när jag är i programet så är det segt som klister å funkar inte alls bra:( Någon som vet varför??????????"
+,electr1c,2004-12-12T15:18Z,Det är ju fel på cue filen till cd2 men som tur var kunde man mounta nli-de6b.bin direkt med daemon tools...
+,Sinergy,2004-12-15T12:08Z,"huhumm glömde lägga dit cracken.. =) 
+undra varför det inte funka så bra att starta de..."
+,Adam09,2004-12-23T11:53Z,"Det funkar inte för mig, har installerat och allt och försöker öppna spelet med cracken. Jag har lagt cracket i C:EjayDance6. Är inte det rätt eller? Det går inte öppna i alla fall. 
+
+Sen, vilken skiva ska man ""ha i"" (mounta), cd1 eller cd2. Tacksam för direkt hjälp över msn gärna. Adam_9_9_9@hotmail.com 
+
+Snälla hjälp mig."
+,Adam09,2004-12-26T12:31Z,"Ehm, när jag ska starta via cracket så kommer det upp att eJLiveAct.dll inte kunde hittas. Vad kan det bero på, tacksam för snabb hjälp. ^^"
+,Egphacess,2004-12-27T18:34Z,"Nån som vill ge mig cracket över msn? Jag glömde nämligen cracka innan jag tog bort binfilen ^^ 
+
+Egphacess@hotmail.com"
+,Draco,2004-12-29T14:27Z,"allt gick fint. Jag installerade kopierad cracken allt. men det fungerar inte. Så fort jag starta spelet genomcrackat så säger den att nån DLL fil saknas.  (eJayLiveAct.dll)  
+
+Vet nån hur man löser detta iriterande grej?"
+,Foretto,2005-01-13T21:21Z,Är det någon som över huvudtaget fått programmet att funka? 
+,Bean87,2005-01-14T16:21Z,Snälla seeda någon!!!
+,free,2005-01-16T11:43Z,Ingen mening att seeda skit som inte funkar...varför lägga upp det överhuvudtaget ?
+,Hardtrance,2005-01-18T15:25Z,"Tried to make it work for 20 min now, but every time it stops when trying to mount cd2. Wierd stuff.."
+,The-mAdmAn,2005-01-18T23:14Z,"quote: Det är ju fel på cue filen till cd2 men som tur var kunde man mounta nli-de6b.bin direkt med daemon tools...
+---------------------------------------------------------------------------
+
+Sånt löser man enkelt genom att öppna cue filen i tex. notepad.
+
+Ändra
+FILE ""NLI-DE2B.BIN"" BINARY
+  TRACK 01 MODE1/2352
+    INDEX 01 00:00:00
+
+till NLI-DE6B.BIN
+
+vips problemet löst."
+,The-mAdmAn,2005-01-19T05:37Z,"Och ni som inte fått det att funka... ni måste läsa bättre vad som står på beskrivningar.
+---------------
+4. Kopiera över cracken från CD2 och skriv över den gamla filen i (OBS!) eJayeJay
+--------------------
+
+Det betyder alltså sökvägen till där ni lagt programetejayejay
+
+Är ni uppmärksamma så ser ni att cracken heter ejay60.exe det gör inte exe filen i ""huvudmappen"" men däremot i mappen ejayejay.
+
+Kopiera över det dit och tada gör er musik å se glada ut.
+"
+,stibre,2005-01-19T13:00Z,jeg har gjort akkurat som du har sagt men det går forsatt ikke.... noen ideer på hva jeg kan gjøre?
+,The-mAdmAn,2005-01-19T13:10Z,om du har laggt cracken i rätt mapp så ska det funka. Har suttit hela natten och gjort 2 låtar + en video nu.
+,Bean87,2005-01-22T00:21Z,funkar fin fint för mig tack så mycke.
+,trashcan,2005-01-22T02:18Z,i vilken mapp?
+,The-mAdmAn,2005-01-22T08:22Z,"i mappen dance6 ligger en mapp som heter ejay och även i den finns en mapp som heter ejay.
+Det är in i DEN mappen cracken skall.
+
+Om ni är lite fantasifulla så använd sökfunktionen och sök efter dance60.exe så ser ni vart den finns.
+
+Lycka till. 
+Sista kommentaren i ärendet från mig."
+,glenn098,2005-01-28T15:23Z,"jeg er ganske ny i dataverdenen, så jeg spør dere: hvordan åpner man Dance.Ejay.6.ENGLISH-NLiSO filen??"
+,glenn098,2005-01-28T16:25Z,skal d bare være en bin-fil????
+,lagtea,2005-02-16T21:13Z,"asså... svårt eller?? jag undrar varför det verkar kräva typ all cpu kraft från min dator - i hiphop 5 oxo - datorn uppfyller systemkraven asbra, å en kompis med sämre dator kan köra det...  kan det vara för att han har p4 prescott, och jag har athlon64? ngn annan med liknande prob?"
+,dj_fresh_boy,2005-02-19T03:45Z,"hej jeg har løsningen på problemet i har med at gør først tager i og åbner i deamon tool og ændre filtype til ""ALLE FILER"" så åbner i ""NLI-DE6B.BIN"" også virker cd 2. bagefter går i ind i start og i denne computer og klikker 2 gange på DANCE_EJAY6_CD2 og så gå ind i mappen crack og kopier ""DANCE60"" og så går i ind i Dance eJay 6Dance6eJayeJay og højer klikker og ""SÆT IND""  og vupti så virker dance ejay 6...(;"
+,Cidran,2005-02-19T11:10Z,SEEDA!!
+,shkumbin19,2005-03-11T22:41Z,"Lagtea ! :
+Jag hade likadana problem me Ejay techno 4 asså att de
+laggade o sånt! vet ejj varf o min dator uppfyller
+oxå alla krav jävligt bra! :S"
+,L1ie,2005-03-15T15:41Z,jag har ett problem med installationen.. när jag ska börja installera så stannar det på 0.4 %.. varför blir det så.. hjälp plz..
+,L1ie,2005-03-15T18:04Z,skit i mitt förra inlägg. fixade problemet.. men jag undrar en annan sak.. skillnaden mellan full installation och minimal..? 
+,Grisknorre,2005-03-18T14:38Z,Yeah... ive tried 2... whats wrong with the second cue file?
+,J_Lindeberg,2005-03-19T16:02Z,du har inte dance ejay 7 på g lr?
+,Henrikdahl,2005-03-21T21:25Z,Jag hade lite Problem i början med typ 0 i Uppload.. men det rättade till sig... Kul att nån laddar upp detta prog!  TOPPEN
+,Henrikdahl,2005-03-22T08:49Z,"Faan.. åsså?! CD-2 funkar inte..
+
+Det står att den inte är Accessable.. alltså inte tillgänglig
+men vad ska jag göra åt det?"
+,Henrikdahl,2005-03-22T09:14Z,"Har provat med att uppgradera min Daemon men det vill inte funka endå? Stör mig nått så in i helvete...
+
+Ladda inte ner.. Funkar EJ!"
+,Pebb3,2005-03-26T15:54Z,"vart hittar man cracket?
+
+om det nu heter ""Dance60.exe"" så var det där redan när jag instalerade det.."
+,w4llin,2005-03-29T22:21Z,"funkar mkt bra lyssna inte på noobs som inte vet hur man gör :D det e skit skoj , tack så mkt"
+,w4llin,2005-03-31T09:42Z,"Seeda,jag e tvungen att ladda ner det igen pga att jag försökte fixa cd2 men jag vet hur man ska göra nu ;)"
+,trance_rulez,2005-03-31T14:30Z,fungerar ej när man ska mounta cd2... inte med daemon tools v3.47 iaf HJÄLP!!!:(
+,miloboy,2005-04-05T19:35Z,"Efter lite trixande så kom jag på
+lösningen på erat problem grabbar!!
+Gör så här:
+
+1. Döp om ""nli-de6b.cue"" till ""nli-de6b.txt"", alltså byt filändelse!
+2. Öppna nu ""nli-de6b.txt""
+3. Ta bort det som står å byt till:
+FILE ""nli-de6b.bin"" BINARY
+  TRACK 01 MODE1/2352
+    INDEX 01 00:00:00
+
+4. Spara allt och byt tillbaka till ""nli-de6b.cue""
+
+Nu ska allt funka, det gjorde det för mig!
+
+/Milo"
+,ZnajPeN,2005-04-16T10:29Z,Det går sakta att tanka hem!! varför? typ 7 kbit/s
+,The_Heretic,2005-04-16T16:27Z,"
+4. Spara allt och byt tillbaka till ""nli-de6b.cue""
+
+jag skulle vilja veta hur fan du får tillbaka den till .cue format? min behåller .txt formatet och byter bara namn :S"
+,stayen,2005-04-17T17:28Z,"når jeg skal starte programmet får jeg en feil melding om at den mangler ejLiveaAct.dll :(
+nogen andre som får den feil meldingen?"
+,roy31,2005-04-18T00:37Z,funkar skit bra tack så mycket...fattar inte dom som inte får det att funka hmmm hjärnsläpp
+,wertio,2005-04-25T16:33Z,"jag lyckas starta det efter installation, bakrunden blir svart o det kommer up en liten loading grej som laddar och laddar men det händer inte mer sen???? nån med samma problem??"
+,tobb628,2005-05-06T11:45Z,snälla jag ber seenda!
+,tobb628,2005-05-06T11:46Z,plllzzz seend!
+,knivenlady,2005-05-06T15:24Z,är det överhuvudtaget någon ide att tnka hem detta prog? funkar det nu då?
+,knivenlady,2005-05-07T19:57Z,seeda please...
+,knivenlady,2005-05-07T23:52Z,"okej nu är jag klar...
+seedar så länge jag pallar"
+,pony,2005-05-15T13:03Z,DETA ROCKAR!!!! YAHOO!!!! 1Kb/s UBBERFART!!!! =( hoppas ni fattar att jag skojar.
+,w4llin,2005-05-17T19:57Z,Do anyone got the ejay dance 6 club crack
+,Ludde86,2005-05-22T00:17Z,Allt med installationen har funkat för mig. Är ju bara använda Daemon Tools och mounta .bin filen istället. Men det enda som jag undrar över är ifall någon annan råkat ut för att programmet alltid hänger sig när man håller på och skapar musik. Man kan sitta i en halvtimme och så helt plötsligt kommer det upp ett felmedelande och allt försvinner... INTE så roligt! Någon som känner igen det?
+,Cadiper,2005-05-23T21:31Z,ingen som vet när Dance 7 kommer??
+,orkar,2005-05-25T20:18Z,Skiten funkar inte
+,Dawg2002,2005-05-28T10:03Z,Seeda snälla!!!
+,elvir_88,2005-06-11T14:26Z,asså den här cracken vägrar funka förfan..blir så jävla irriterad..finsn det ingen annanstans cracken finns så ge mig en länk plzz
+,jonas---89,2005-06-17T17:22Z,Jag har fått igång programet men så fort jag trcker bort eller väntar bort introt så får jag ett fel medelande!!! Är det någon här som vet hur fan man ska fixa till det?!
+,jn72,2005-06-18T01:08Z,there was no crack in this download. can someone please tell me where i can find / download it? Cheers.
+,jn72,2005-06-18T01:44Z,please disregard my last 2 posts. i found it :-)
+,Hood,2005-06-21T17:56Z,"Fick allt att fungera - nästan. Introt är väl nån flash sak som kan ställa till det om man har för gammal verre eller så. Programmet startar som det ska, men sedan. Den sabbade mina ljuddrivar totalt. Datorn bara ""skrek som en gris"" ur högtalarna. Även om jag startade om utan att köra ejay. Den bara lät ILLA. Avinstallerade ejay. Samma fel fortfarande. Blev tvungen att manuellt ta bort ljuddrivarna och installera om dom. Vågar inte installera detta igen."
+,jimbo85,2005-07-09T15:19Z,hej finns det nån som vet vart man kan få tag på nocd crack till dance ejay 6??? laddade hem från isohunt och fick inte med nåt... min mail e you_suck_85@hotmail.com
+,BOBemil_ice,2005-07-19T00:07Z,Varför går det så sakta? de e första gången jag håller på med det här :P kan du beskriva hur man kan göra det fortare min går bara i 5kb/s om du skulle kunna förklara kan du skicka det till BOBemil_ice@hotmail.com skulle vara evigt tacksam! :)
+,gitS2505,2005-07-20T22:21Z,SEED!!! FFS!!!
+,DrunkDriver,2005-07-21T19:50Z,"About the Dance Ejay 6 crack...you're all trying too hard :D...if you look in the dance ejay 6 directory when you've installed both cd's, don't just stop in that main directory thinking you have to replace the 'Dance6.exe' file...you have to infact go into the 'eJay' dirtecory, and then into the next 'eJay' sub folder, hopefully you'll see that there's a 'Dance60.exe' file there, so just replace that one, and the program will now start up fine"
+,Relel,2005-08-10T18:22Z,efter 20-30 minuter lägger programmet av.. nån som vet va de e för fel då?? skitdrygt..
+,Xm330,2005-08-14T17:44Z,"kan nån lägga upp själva dance06.exe-filen (cracken, alltså) nånstans? Jag kan nämligen inte ta ut den ur imagen av nån anledning. Då stannar datorn..."
+,Samu_90,2006-02-21T15:03Z,"varför fungerar inte cd2?
+why isn't cd2 working???????????????
+Miksi cd2 ei toimi????"
+,Hempa112,2006-03-06T19:25Z,"Citerar en :
+
+
+Är ni uppmärksamma så ser ni att cracken heter ejay60.exe det gör inte exe filen i ""huvudmappen"" men däremot i mappen ejayejay. 
+
+
+Kopiera över det dit och tada gör er musik å se glada ut
+
+Ni som inte har fått eran crack att funka det hr funkar."
+,RiZkko,2006-04-01T10:17Z,cd2 does'nt work?!
+,ynischa,2006-04-22T22:37Z,can someone please seed this i'm stuck at 96%
+,fatbastard,2006-06-12T22:54Z,"open the cue file on cd 2 white word
+delete and put
+
+FILE ""NLI-DE6b.BIN"" BINARY
+  TRACK 01 MODE1/2352
+    INDEX 01 00:00:00"
+,heeringson,2006-06-19T12:37Z,Ball att cracken inte fungerar.... Programmet stängs ner efter ett tag. Har 2 datorer och den funkar itne på nån av dem.
+,JereTHEend,2006-06-22T15:26Z,"Thanx 4 this! could you still update this with fixed .cue for b cd? hope that as burned this works... just downloaded. good, Thanks!"
+,sence,2006-07-18T13:37Z,"kan man lägga in låtar som t.ex da buzz har gjort o sedan redigera dem till techno version?
+
+för det kan man inte på dance ejay 7"
+,LataajaX,2006-08-14T20:59Z,"SEED!!!
+
+SEED!!!
+
+SEED!!!
+
+SEED!!!
+
+
+I'am 9,3% !!!"
+,nesfreak,2006-09-10T04:10Z,"Många tycks ha haft problem, många noobs som har skrivit också. Skit i denna och tanka den nyare istället: http://thepiratebay.org/tor/3520181/Dance.Ejay.6.ENGLISH-NLiSO"
+,Tiburka,2007-01-16T21:10Z,"This is a shit!
+I can't mount cd2.
+Rohadjon meg aki ilyen szarul töltötte fel hol van a CRACK?????
+Where is the CRACK???????????"
+,Masternitro,2008-04-18T23:44Z,"I installed it with daemontools.
+I paste the crack in /ejay/dance6
+and overwrite it with the other file.
+but I cant open the program. it says 'eJliveAct.dll' cant be found. "
+,Oleandy,2008-04-28T17:06Z,"Hei Jeg er fra norge, håper dere forstår hva jeg skriver..
+
+Jeg Installerte spillet og når jeg skulle starte det, fikk jeg en ""insane Ping"".. det gikk ikke ann å spille det fordi det var sånn ""insane ping"".. 
+hvordan for man Pingen lavere? (jeg har Vista)
+håper noen har funnet ut hvordan å fikse dette.."
+,Devils_Lawyer,2008-05-15T20:58Z,"Ill probebly sound like a major noob right now but then again...i am.
+
+Im not wery good at computers but as i downloaded i ended up whit the 4 files (2 bins and 2 cue).
+
+Installation goes fine and all that but i dont know how to get the crack from whereever i get it from so if anywon would like to explain it, it would be much appreciated."
+,appelex,2009-03-26T12:23Z,"kan ingen forklare skikkelig fra start til slutt, og hvor man finner de forskjellige filene ?"
+,expertvk17,2012-01-06T02:56Z,"Saving the guys here.
+
+THUMBS UP ON YOUTUBE !!! ;]
+Downloads of eJays here:
+On Youtube:
+/watch?""v=D9FUAAokvus
+
+REMOVE THE QUOTE IN (WATCH?)
+
+(Everything in the description)"

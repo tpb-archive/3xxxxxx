@@ -1,0 +1,41 @@
+Just released today, the best application for allowing you to speed up your net surfing and downloading.  No more slow access speeds when you are running a Peer to Peer application.
+
+CFosSpeed, faster Internet access with Traffic Shaping.
+
+
+
+    * Improved Traffic Shaping
+    * For DSL modems and routers
+    * Fully compatible with conventional PPPoE drivers
+    * Automatic router detection
+    * Self-calibrating
+    * Highly responsive when used with online games
+      and Peer-to-Peer networks like eMule or Kazaa
+    * Freely configurable priority classes
+
+
+
+Only the application with 30 day trial.
+
+
+************************************************
+
+Extra info found ;)
+
+You must deinstall your older version of      
+cfosspeed, NO UPDATE!                         
+                                               
+ Go in to Registry                             
+ (Start, Run, type "regedit")                  
+ First, after uninstall the older Version      delete                                        
+ --> HKEY_LOCAL_MACHINESOFTWAREcFos         
+ cFosSpeed                                     
+                                               
+ And Second, after install the new Version     ³ (if not made)                                 
+ --> HKEY_LOCAL_MACHINESOFTWAREMicrosoft    
+ WindowsCurrentVersionRun                    
+ Rename the entry "cFosSpeed" from "...       
+ cFosSpeedcfosspeed.exe" into                 
+ "...cFosSpeedcfos_speed.exe"                 
+                                               
+ That's all ;)

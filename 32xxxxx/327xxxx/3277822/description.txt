@@ -1,0 +1,35 @@
+Today is a big day for GC owners, as one of the best rated games (RE4)  
+for the system was just released. To celebrate with you, we decided we  
+would give you a new version of our Cobra BIOS. It allows PAL users     
+to play their RE4 import, which was not possible with Cobra 0.2 !       
+                                                                        
+What's the Cobra BIOS ? A special BIOS specially tailored for your      
+Viper GC that allows yo to run your backups (and now homebrew code!)   
+from the GC drive using DVD(-/+)R or Mini-DVD(+/-)R!                    
+                                                                        
+So what do you need exactly ?                                           
+   - A Viper GC chip                                                    
+   - This very flash file                                               
+   - Some Compatible Media and a DVD-burner                             
+                                                                        
+                                                                        
+WHAT'S NEW ?                                                            
+                                                                        
+The software part was improved a lot while our low-level hackers had    
+some great time in vacation :-)                                         
+                                                                        
+- NTSC Regionfix issue on PAL systems is fixed!                         
+- Wireless controller is now supported!                                 
+- Added a real GUI                                                      
+- The following Cobra options can be changed (stored in Viper flash):   
+    - Default boot action                                               
+    - Boot action when the X-key is hold at boot time                   
+    - Video mode of the Cobra GUI (doesn't change Games' video mode)    
+    - Behaviour of the lid sensor when booting Original BIOS            
+- You can get detailed GC Version Info                                  
+- You can explore the content of your GC discs (original and backups)   
+  and even DVDs with ISO9660 filesystem!                                
+- You can flash your Viper GC by burning the flash file on a DVD        
+  (but don't throw away your programmer in case of a bad flash! :-)     
+- You can execute homebrew programs (.DOL) from DVD, and enjoy many     
+  already-released homebrew productions!

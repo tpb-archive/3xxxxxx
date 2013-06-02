@@ -1,0 +1,213 @@
+﻿User Type,Username,Date,Text
+,Only-C,2005-02-14T02:53Z,what is the language on win xp? 
+,bartofborg,2005-02-14T03:15Z,Default English set up and all language packs are intact...
+,Giorgos,2005-02-14T03:51Z,"Is this an .iso, .img, .bin file when it is unpacked or what? Is this copy autobooting or what? "
+,bartofborg,2005-02-14T07:21Z,Hey a-hole....if you wnt your questions answered - ask nicely - or what?
+,Ficklampa,2005-02-14T12:41Z,Is this a bootable cd? Thanks for answering.
+,oktan,2005-02-14T14:54Z,so this one can not select swedish as default language?
+,bartofborg,2005-02-14T15:55Z,This is a Bootable DVD - Default language cannot be changed from English
+,quber,2005-02-16T21:40Z,"Thanks a lot Bartofborg,  brilliant release"
+,halelolia,2005-02-18T19:24Z,hey all but haw do i do 2 instal it ?
+,gorbigxxx,2005-02-19T06:01Z,This is quite possibly the Greatest piece of software i have downloaded to date. Thank you Very much for this post . :D
+,mredvin,2005-02-21T17:27Z,koolt
+,sajon,2005-02-22T14:13Z,"How to open the img file and add more program?
+Or how did you make this release?
+Thanks alot btw."
+,dvb,2005-02-24T02:15Z,"My life as it has been is over.  From this time forward, I will service . . . Bart."
+,mattepunk,2005-02-26T16:25Z,"""Welcome to Microsoft WinBorg XP
+
+Don't use this, it won't work!""
+
+WTF????
+
+Funkar inte skivan, eller har nån Microsoft-loser
+sabbat denna .torrent???
+
+Eller är det bara jag som är kass?"
+,mattepunk,2005-02-26T16:27Z,"alltså, det går ju att få igång setupen,
+men knappen syns inte, man får klicka alldeles under
+texten ""it won't work"" så kommer setupen igång.
+
+men törs man försöka installera ändå?"
+,Zebb2000,2005-02-26T19:25Z,You say the default language is english. Is there an option during or after the installation where you can change the language? (swedish in my case) Really nice initiative :)
+,Zebb2000,2005-02-26T19:37Z,"by the way, can you access windows update?"
+,bartofborg,2005-02-27T00:27Z,"Yes you can use windows update
+
+As for the AC97 driver- go into your Bios and disable the onboard sound until after installation is complete. "
+,bartofborg,2005-02-27T00:29Z,All the language files are there but i don't think you can manually change it. The language files are for keyboard layout and such....
+,Zaliek,2005-02-27T01:14Z,"Thanks goes to bartofborg for this awesome torrent!
+Too bad there's some leechers out there that aren't uploading anything. I've already got a 2.0 ratio and aren't even done downloading yet!"
+,mattepunk,2005-02-27T12:07Z,"okej.. så man ska boota med skivan för att installera?
+och inte köra den från xp..?
+
+sorry, men jag är slö i hjärnan."
+,sandraandjay,2005-02-27T12:14Z,"ok great, thanks, will give it a go. thanks again"
+,Ragbunny,2005-02-28T18:39Z,"Matte: Ja=P
+Ändra I BIOS så du kan boota med cd-rom först bara."
+,bartofborg,2005-03-01T15:49Z,I don't think there is a way to change the install language.....i don't really know though....
+,sandraandjay,2005-03-01T21:53Z,"disabled sound in bios, worked great - thanks again, one more question? do you know of any iso editing tools or anything like that, as i would like to edit the image when new versions of the various software titles are released. I put the image onto a dvdrw and  plan to copy it back to hdd and edit the program folder etc, that way if i have to reformat i can keep on using the same disc without having to spend ages updating my software etc. im in the middle of reading the pdf about making these kinds of installation discs, but again, any advice would be a great help. thanks a lot. Jay B"
+,bartofborg,2005-03-02T03:27Z,Your better off just extracting the contents of the DVD to a folder - say - XPCD  and then you can edit away and use cd image pro to redo the iso.....
+,sandraandjay,2005-03-02T12:54Z,"Ok, will give it a go. thanks. by the way, have you made any other releases, other than the previous versions of xpborg? Well, thanks again have been a great help. Jay B"
+,bartofborg,2005-03-02T15:39Z,"Vidration and others, It is not just a matter of adding stuff to the software folder and it will work....you need to learn how to make an unattended disk too.....read the PDF I have included...."
+,Supremacy2K,2005-03-03T03:58Z,"When i mount the iso file, and the autorun kicks in, i get a nice window saying:
+
+Welcome to Microsoft WinBorg XP
+
+      Don't use this, it won't work!
+
+
+Is this some sort of bad joke, that indicates that i just wasted 26 hours downloading this, or is it a message that the windows installer on the disc dosent work, and I have to do a clean install from comp startup?"
+,Supremacy2K,2005-03-03T17:55Z,"hey calm down, it was just a question.
+
+I'm used to check things in windows before burning them out.
+
+that's all."
+,Supremacy2K,2005-03-03T19:36Z,"when i boot on the dvd i get this error:
+
+An internal Setup error has occurred.
+Could not find a place for a swap file.
+
+Setup cannot continue. Press ENTER to exit.
+
+
+anyone know what's wrong?"
+,bartofborg,2005-03-04T01:27Z,"A few possibilities......your harddrive is too small.......or you are pointing setup at one of your optical drives to install. Or your pointing windows to a drive letter that is not a Harddrive, like a memory key....."
+,stripnwild,2005-03-04T03:16Z,"Hey thanks again for BORG!!!Its really great to have someone like you making stuff like this! Cheers.
+Perhaps you will make other versions also...like maybe one for 64 bit XP  or just a newer version wil alternate programs etc?  
+Anywyas thanks again...you rock!"
+,Supremacy2K,2005-03-04T13:42Z,"bartofborg ->
+
+I do nothing.
+
+I boot on the dvd, go to i386, and run winnt, that's all.
+
+is there an ""action"" to the winnt install, that can define the swap drive??
+
+like ""winnt -swap:c"" ??"
+,bartofborg,2005-03-04T15:26Z,"Viration, Use the M$ Group Policy to reactivate the Recycle Bin. Run gpedit.msc and scroll down to user confif>desktop. I don't recommend using ""bloatware"" from Norton either as it will slow down your computer by about 25 Percent."
+,bartofborg,2005-03-04T15:31Z,"S2K, DO NOT Try to run the DVD via the Winnt route - that is bypassing the the boot process -  Boot the DVD, allow setup to run and install windows - it doesn't get any simpler....why would you screw around with the boot process and then whine about it not working?????"
+,Supremacy2K,2005-03-04T22:04Z,"because you just comfirmed one of me greatest fears about this DVD. :P
+
+I saw some other users talking about making the dvd bootable.
+
+so i created a bootable DVD in nero, and mounted the iso, and copy'ed it over.
+
+I figured the iso is bootable by it self?? :D"
+,bartofborg,2005-03-04T22:14Z,Of course the DVD is bootable by itself.......why would I call it a bootable DVD if it wasn't one?
+,Supremacy2K,2005-03-05T21:07Z,"You dosent, but never mind, my mistake. :D
+
+I just saw on one of the other pages, some people talking about making it bootable?"
+,sandraandjay,2005-03-05T22:45Z,"For anyone wondering, most computers search for boot files either from cd/dvd or hd, you can set the primary and secondarys of this in your bios, but why bother? a lot of the time pc's are set to either have cd/dvd as the first boot device or they have an F(1,2,3 etc) option, mine is hd primary and f11 for boot device.best to leave bios alone, as its slighty hidden for a good reason? its there to let your pc START without it your computer would be crap and worthless. also, the aurorun on this disk has been disabled for a good reason, it needs to be a fresh install, at a guess i would say that its to do with all the 'extras' on it, also, mcaffee and so would go nuts at all the cracks and hacks on the disc,plus you might give windows a bit of a say when it comes to things that are copied over. The good thing about this dvd is that when you boot to it, you get one main advantage, the option of where to install. if you are using partitions or more than one disk, you can choice where to put it, where as with some of these types of unattended discs it just flicks past it and then there goes goes your 2003 server or what ever. saying all this,id recomend if you aint to good at all this, then leave the multi os stuff be and dont use stuff like style xp that plays about with your kernal and ini etc, as it can be a big loading your os's when it starts, plus if you reset them, you tend to block the borg version and all sorts. well hope it was all a help?"
+,muncher,2005-03-05T22:51Z,"Spax man for creating this for the ""Lazy"" community =)
+
+""Only"" had one BSOD when installing it, Somthing with PCIXXX.dll being fucked up...Reboot solved it."
+,muncher,2005-03-05T22:56Z,"One more thing...Is the ""Max 10 connection limit"" fixed in this release?"
+,sandraandjay,2005-03-05T23:20Z,"One more thing if anyone wants to know? did you know thata you can install more or less all the stuff on the diss without having to actually install xp? If you make a folder in you system drive called install (eg, c:install) and then copy all contents of the softwareapplications folder to there run the command that start the install process and there you go, after all, the software folder is almost 1.7gig in size so its a hell of a lot of the dvd. I'm not saying that it will work for everyone but worked for me!! But saying that i only did it because i wanted to try iy, you might not, up to you!!"
+,bartofborg,2005-03-06T00:11Z,"Max limit has been fixed, of course"
+,bartofborg,2005-03-06T00:11Z,"An even easier way to just use the applications, without installing XP is to copy the DVD Drive Letter:$OEM$$1install folder to the hard drive and leave everthing else on the dvd. Then double click the WPI.hta file in the install foder you just copied over and the menu will appear and you can install all the apps you want - without copying all of them to the hard drive first"
+,gearoid111,2005-03-06T01:01Z,"thanks for this looks great!
+I followed your instructions and burnt onto a  DVD using magic iso. I tried installing it onto my spare hard drive (40gb). I partitioned the drive and windows started copying the installation and finally rebooted. I took my dvd out of the drive and when it tried to bootup I got this message'Windows could not start because the following file is missing system 32ntoskrnl.exe'. I had no floppy or dvd in the drive and I checked the bios boot settings and they were set to IDE 0,IDE1, cd room. Could anyone help me out here???"
+,Supremacy2K,2005-03-06T01:04Z,"Is there any way, to strip down this dvd to CD size???
+
+f.eks by coping $OEM$ and install to harddisk, and install it after winxp have been installed??
+
+I'm kinda short of DVD discs, and i REALLY REALLY wanna try this XP Version. :D"
+,sandraandjay,2005-03-06T13:26Z,"Good idea, i never thought of that. Hey you guys (and girls) out there, read the pdf on all this making unattended cd/dvd's, it's really good! You will all learn a lot i would say. It's one of the best in its field, and remember, the more you learn, the less you ask and the more you can teach!"
+,Supremacy2K,2005-03-06T16:48Z,sandraandjay --> I read that file. :D But im still unsure if $OEM$ and software is the only thing to remove?
+,sandraandjay,2005-03-06T23:12Z,"supremacy - all i can say is....when i got my pc about a year a go, i knew sod all about it, but now, slowly but certainly, im getting round it really well, the main reason is because when i bought it i had a four year warranty added, it cost me 200 notes but i thought it was worth it. Anyway because of that i felt that  if i nackered it, id be ok because they would fix it, but to date ive never had to get in touch with them (just luck!). So just give your ideas a go? you never know. As for the xp standard version, why not just download a standard xp pro disc, use that to install. Then use the other disc to install all the software? OR, if its a question of no dvd's why not just split the folder and stick on a couple cd's, you will have to do a load of double clicks though. "
+,Supremacy2K,2005-03-06T23:32Z,"yeah i know, i have tons of cd's, but used my last one on borgxp, and messed it up bigtime. :D
+
+I'll give it a try, i have nothing to loose anyway, it's a diffrent harddrive, it's just annoying to all the time, unmount all the cables, and remove a harddisk ect. *LOL* :D"
+,sandraandjay,2005-03-06T23:44Z,"As a point of interest, I just did what bartofborg said about not having to copy over all the software but just copying the one folder ((drive letter)$OEM$$1install) and then running the $OEM$$1installwpi file and it worked. I only selected a couple of programs cuz ive already got them all installed on here, but wanted to test it and yeah, worked great! :-)"
+,sandraandjay,2005-03-07T00:02Z,"Quick work around for missing recycle bin icon:
+
+
+Click Start, and then click My Computer.  
+2. On the Tools menu, click Folder Options.  
+3. Click the View tab, and then click to clear the Hide protected operating system files (Recommended) check box. Click Yes when the warning message appears. 
+4. Click Folders on the toolbar. 
+5. In the left pane, under Folders, locate the Recycle Bin folder, and then drag the Recycle Bin folder to the desktop. 
+6. Rename the folder to Recycle Bin"
+,bartofborg,2005-03-07T01:19Z,easy way to reapply the recu=ycle bin is - Use the Microsoft Group Policy to reactivate the Recycle Bin. Run gpedit.msc and scroll down to user config>desktop.
+,Supremacy2K,2005-03-07T13:50Z,"damn... the key to UltraISO dosent work. :(
+
+I tryed serials2000... no luck. :("
+,sandraandjay,2005-03-07T14:24Z,"supremacy - Limewire is a good place to find serials etc, i used it for avast, if its just a text serial you want i would just click search, document then enter the program name and version number. Works for me every time. If it's a patch, click programs instead of documents and then enter key words there."
+,Supremacy2K,2005-03-07T22:01Z,"i didnt know limewire was such a program. :D
+
+thanks. :D"
+,BoredJedi,2005-03-09T11:35Z,"sandraandjay,  when you initiate gpedit.msc you will see Computer Configuration and User Configuration. User config is what you want. Click on Administrative Templates and there you will see a bunch of things the one we want for the recycle bin is DESKTOP. Double click on Desktop and more items will appear. Click on REMOVE RECYCLE BIN FROM DESKTOP.  You will now see a Recycle Bin Properties. Select DISABLE then click on APPLY.   Hope this helps others."
+,BoredJedi,2005-03-09T11:43Z,About the .NET install issuing a Roll Back Prompt. Again use gpedit.msc select USER CONFIG click Admistrative templates (do not click on DESKTOP this time) you want the first option WINDOWS COMPONENTS click on that and then select WINDOWS INSTALLER you will now see a list of items double click on PROHIBIT ROLLBACK and click DISABLE and apply.  When you go to the do the .NET install it works fine. I also ran into that problem. Hope this also helps others.
+,BoredJedi,2005-03-09T11:46Z,Damn looks like I'll need to change my name to BORGJEDI since I've just been assimilated. GREAT RELEASE bartofborg and thanks.
+,Jugger,2005-03-11T10:37Z,"Ok, this thing installs just fine, but after the last restart it just wont boot into windows, just keeps rebooting the computer...
+
+Any ideas?
+
+/J"
+,Miqer,2005-03-13T16:29Z,"Question... NERO does not have a serial inc. 
+The serials prog... does not install... you click it and nothing happens... 
+Anyone have a nero key for  NERO6606.exe?
+
+thanx
+m."
+,ljack,2005-03-29T11:18Z,"Ok, how do i get this thing working? I know i have to burn it on a dvd. But, i have burned the content on a dvd and made ""first boot"" cdrom, and it wont boot on the dvd. Do i have to do anything special? Sry for beeing a noob :)"
+,EmuHeretic,2005-03-29T20:31Z,"Jeez Guys, Google This If You Need Serials:
++Serial
+Ex:
+Nero 6.6.0.6+Serial"
+,bartofborg,2005-03-30T03:49Z,ljack....it is already a bootable dvd....do not burn it as a bootable disk. I recommend using Alcohol to burn the iso file
+,Tcip,2005-04-09T06:11Z,How did you include the software in the windows ?? Please email me: tcip_se@yahoo.se 
+,bartofborg,2005-04-20T03:31Z,Magic! LOL
+,peck666,2005-05-02T00:34Z,"the windows installed ok thanks, to bypass the missing bin i just made myself a log in name when i logged in it was there, the only probs i got was half the stuff was demos and had expired and its registered in the name ""we are borg"" i like to have my name there i hate star trek and its full of the stuff"
+,bartofborg,2005-05-02T01:53Z,LOL....It's not called Borg edition for nothing ya moron! If you don't like Star trek why did you download it? There's lots of other versions on the net! I'm sooooooo sorry I didn't tailor the DVD to you exact specs! lol
+,bartofborg,2005-05-02T01:55Z,"By the way....did you bother to check the root of your hard drive? Like it says in the Description.....there is a folder called ""serials and cracks"" for the software that could not be pre cracked or registered......"
+,fretsonfire2,2005-05-02T16:20Z,"thanks so much for this dowload!!! awsome. question- I would like to install this windows xp onto another mahine(this one already has windows xp) THe system I want to install to is a a windows 2000. is this possible? also, just to clerify things....I shoud unzip the files and burn them on a dvd to install right?(sorry im new to this? and will the dvd work on the older 2000 system(it doesnt ahve a dvd drive) thanks again. I appreciate the help GREATLY"
+,fretsonfire2,2005-05-02T20:47Z,me again.....I discovered that my win 200 machine cant and wont detect dvds. Is there any possible way that the files can be put on multiple cds? or maybe only necessary data can be put on cds(like without all the extra programs?) I really want this to work and I would appreciate your help.  IF you want you can email me at fretsonfire2@yahoo.com. thanks alot..again..you rock!
+,bartofborg,2005-05-02T22:18Z,This release is an actual Image file of a DVd....it cannot be used if you do not have a DVD reader.....it cannot be split up into multiple cd's either....sorry.
+,peck666,2005-05-05T07:57Z,"you can take off some programs and put them to disc i did it with the ones that do have codes for them, like i said half of the programs dont have codes, you need to search the net for them and yes i have looked in the folder called serials and cracks, i even opened the serials2000 program but they are not there, and serials2000 does install you just need to go in program files and its there, this windows borg would be great if it works ive had programs that come with it crash all the time, ive had to format again because it crashed that bad my pc would not boot up, the programs that do have codes in that folder that work are great, shame the others dont come with codes they do look good programs"
+,bartofborg,2005-05-06T04:06Z,"Well peck........it's funny that out of the thousands of downloads of this version, you and about a dozen others are the only ones complaining?  Grow up....cracks get fixed,  Hell maybe I missed a few......get off your lazy ass and find em yourself.  As for crashing.....I have had Borg Edition on my comp for 5 months...no crashes at all... Most of the peeps on my board have too.....no crashes for them either......I think your just a lousy computer operator...LOL...."
+,peck666,2005-05-06T05:04Z,"your funny i've just wet myself, i dont get probs with normal windows"
+,ftpXIII,2005-05-14T11:31Z,"WOOOOW !
+This release is GREEEEEEAT !!! 
+The best XP I've seen so far !
+
+I have a stupid question : Can we use windows update with this version ?
+
+And keep up the excellent work Borg !! "
+,ethernet,2005-05-16T11:17Z,"I have two HDs on my computer. One has a virus that has destroyed my boot up possibilities. I can use the drive as storage, but not anything else. If I burn the image to a DVD can I install this XP withourerasing my HD?.
+Thanks in advance"
+,bartofborg,2005-05-18T03:47Z,Why don't you format both drives and get rid of the viruses? Then install Borg edition fresh!
+,bartofborg,2005-05-18T03:47Z,Windows update works fine....
+,Iceczd,2005-05-19T05:20Z,"All I can say is, this looks amazing, I bow before you, oh and something to help with partitioning is partition magic, its great stuff :)"
+,AndersOlsen,2005-06-06T01:37Z,Fantastic work! I need moore seeders!
+,pras1011,2005-06-06T16:35Z,"Hi Borg. Brilliant dvd! just wondering. can i update some of the programs on the disc?? like nero, avast etc. and also can i delete ones i dont want?"
+,chetanhooli,2005-06-10T15:51Z,"Heh bart 
+
+Just want to say its a fantastic piece of software,just love it...waiting for the new one ...
+Can u please add in SOME SKINS FOR falsh get winamp and stuff or can we make Our own skin for it?A borg Skin to be used with either windows blinds or just make a theme ....what say"
+,covo87,2005-06-26T22:46Z,sorry im new to this just installed the windows borg but its asking for a password before the installation is complete where do i find this
+,mirceaciobanu,2005-06-29T01:38Z,i thank you from my soul bartofborg.y try manny win xp versions but none is lyke this one.you shuld work for microsoft and show these morons how to do it
+,grappler,2005-06-30T03:05Z,"I totally agree, LOL"
+,zocal,2005-07-01T22:58Z,"Anyone know how to get the fast switch between multiple accounts working? Also for some reason I am not able to run a screen saver with borg version? Any fixes, otherwise an awesome version! "
+,grappler,2005-07-07T00:30Z,"Do you have an idea why it would NOT boot in some computers, even do they boot with a regular cd but not with this dvd????
+Any help would be HIGHLY appreciated.
+by the way I tried this version in many pc's and it's GREAT."
+,eagleseye,2005-07-17T17:27Z,Installed and working perfectly. thanks to Borg. But i have a small problem i cant find the recyvle bin lol. Can anyone please help me out
+,bobafett14,2005-07-19T07:42Z,Awesome! What does AMD reg fix do exactly?
+,jontopia,2005-07-23T21:41Z,What about a product key?Does it need one?Is there one available?
+,grappler,2005-07-27T00:57Z,"No serial needed and this is highly recommended, tried in over 70 machines."
+,twinkee,2005-08-10T04:11Z,"why do i get this message?
+
+""Don't use this, it won't work!""
+
+could somebody explain why?  It took me forever to dl it."
+,tredfxman,2005-08-15T22:44Z,"It couldent copy about 5 files to my disk, and when install program shoud begin i get the following message: ""The file aec6280 could not be found.""
+Setup Failed. Im using NEC CD drivers on a Sony DVD Rom. Anyone who knows what the hecks wrong coud mess me, or mess here about this please?"
+,bartofborg,2005-08-16T00:27Z,"I have been asked a few questions about 4.0 but, 4.1 is now out...this version is no longer being supported, please stop messaging me....."
+,D3xsT3r,2006-06-08T19:14Z,what does borg mean??
+,The_Omega,2006-12-22T03:56Z,Can you please seed this file? Thanks
+,Vulcan262,2008-03-17T23:47Z,"Thanks for the torrent borg, it is pretty good, I have hacked in one of my windows myself and did some heavy mods similar to yours, I may put it on here soon, as soon as I am done testing it to make sure it is stable.
+
+D3xsT3r, to answer your question, borg is a Star Trek next Gen term they come up with to mean Cyborg, a cybernetic and organic lifeform."
+,fixolated,2009-02-15T20:10Z,"please please seed me i have been downloading for two weeks
+thanks in advance"

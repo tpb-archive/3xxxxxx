@@ -1,0 +1,49 @@
+21-02-2005 fixed: Yet another weather localization fix. Thanks KoTiX!
+21-02-2005 fixed: Updated system/players/mplayer/mplayer.dll to current CVS (includes flac fix + crash fix)
+21-02-2005 fixed: Music Database Cleanup would remove all songs from database.
+21-02-2005 fixed: iTunes sharing caused crash if no connection (or iTunes sharing) was available.
+21-02-2005 added: More weather localization thanks to Kotix. Busy is also localized (string 503).
+21-02-2005 added: Writing files returns false if unable to do so. Means that moving files will only allow the source file to be deleted if the copy was successful - thanks to modplug.
+21-02-2005 fixed: Highlight sometimes didn't go away in filemanager when doing popup menu stuff.
+21-02-2005 fixed: Destination files weren't deleted if copy/move was cancelled.
+21-02-2005 added: Option to enable fatal error handler on fatal errors in XBoxMediaCenter.xml. Defaults to false (off).
+21-02-2005 added: ButtonScrollers with <wraparound> off can move to a different control off the top + bottom (or left + right for horizontal scrollers).
+21-02-2005 fixed: OSD audio menu lockup
+20-02-2005 changed: Enlarge Vobsubs changed to Resize Vobsubs. Percentage runs from 30% -> 200%. Defaults to 100%. If you don't reset your settings on upgrade (which there is no need for) it will be initally set to 30%, which you may wish to change.
+20-02-2005 fixed: Buttonscroller focus from another control didn't update background images correctly.
+20-02-2005 fixed: OSD crashes when filling listcontrols.
+20-02-2005 fixed: Noise level was not used correctly for video filters.
+20-02-2005 fixed: various info related things (eg music current pos could show negative times)
+20-02-2005 fixed: Kai avatar on toast dialog wasn't shown in correct position.
+20-02-2005 changed: Improved handling of resolution switching in GUI->Fullscreen video.
+20-02-2005 fixed: Comborenderer small window in different resolution.
+19-02-2005 added: System.CPUTemperature, System.GPUTemperature, and System.FanSpeed to the infoManager.
+19-02-2005 changed: audiobuffer sizes for smoother pal video
+19-02-2005 added: Option to disable thumbnail generation during picture viewing.
+19-02-2005 fixed: LCD: last bar of the progress is now shown
+19-02-2005 fixed: LCD: execution-timing for the LCD and SmartXX (sometimes the display crashs, hope it's fixed now)
+19-02-2005 fixed: LCD: backlight-fix for the X3-LCD (thnx to GreenGian and SniperKil for testing)
+19-02-2005 added: Smooth progress bar for the HD44780 (stop-symbol was not used) (thnx to GreenGian and SniperKil to make it smooth)
+19-02-2005 cleanup: LCD progress bar code moved to LCD class
+18-02-2005 fixed: <allowoverlay> doesn't work in music songs
+18-02-2005 fixed: Localization of UV data in weather.
+18-02-2005 fixed: crash bug in thumbpanels when switching from large->small without resetting current focus.
+18-02-2005 added: progress bar for the LCD (smooth on KS0073, on HD44780 later)
+18-02-2005 added: LCD option for HD44780/KS0073 controllers
+17-02-2005 fixed: dialog select doesn't free its items when it is closed
+17-02-2005 fixed: black screen when going from visualisation -> other window -> press stop -> press back 
+17-02-2005 updated: Finnish language file (Thnx to jutski)
+16-02-2005 updated: German language file
+16-02-2005 updated: Norwegian language file (Thnx to vnmartinsen)
+16-02-2005 updated: Italian language file (Thnx to kotix)
+16-02-2005 updated: German (Austrian) language file (Thnx to CEOMR)
+16-02-2005 fixed: Crash when going from FullScreenVideo -> other window -> press stop -> press back twice.
+16-02-2005 fixed: Crash bug in Thumbpanels + page number display.
+16-02-2005 cleanup: Video time/duration is all calculated in the infoManager now.
+16-02-2005 fixed: Lockups in blank dirs when hide parent folder item is on.
+15-02-2005 fixed: possible lock ups in video playlist and my programs when no ThumbnailPanel present
+15-02-2005 fixed: [ 1122417 ] Pressing pause after playing finished results in an exception
+15-02-2005 fixed: enable/disable "Repeat Folders" option only works after restart
+15-02-2005 fixed: More weather localization stuff. New ids need translating: 388-393. Thanks to vnm.
+15-02-2005 fixed: [ 1122791 ] LCD: no display of current playbacktime while videoplayback
+15-02-2005 fixed: wrong display in the lcd of following asci characters: _ [ ] 

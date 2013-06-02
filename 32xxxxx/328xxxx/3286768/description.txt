@@ -1,0 +1,38 @@
+TEAM YAG presents:
+                                mIRCStats 1.21
+
+
+Release-Date: 2004-04-26
+Program Typ : State of the Art IRC Channel Statistics
+URL         : http://www.nic.fi/~mauvinen/mircstats/
+
+
+
+Release-Notes:
+==============
+
+- URL Tracking - Recent, most used and random URL tables
+- Pipe Lab - Create custom pipe images for your stats easily
+- Personal Stats upgraded (Latest lines etc.)
+- and tons of other improvements!
+
+mIRCStats is an easy-to-use IRC log analyzer for channel log files created with an IRC client,
+for example with mIRC. It creates graphical HTML pages consisting of channel activity statistics,
+user reports, tables about changed channel topics and all kinds of miscellaneous information
+extracted from the log files. It can also upload the pages to your WWW server to be viewed by
+your channel mates.
+
+mIRCStats key features:
+-Configured with an easy Windows user interface 
+-mIRCStats can be easily adapted to understand logs created with any IRC client 
+-Outputs over 20 different stats sections (full version) in selected language 
+-Multiple-page html layouts can be freely configured 
+-Built-in FTP client takes care of uploading the fresh stats to your web page 
+-mIRCStats can also send messages about updated stats to your channel through mIRC 
+-Stats updates can be easily automated. See help file for more info. 
+
+
+Install-Notes:
+==============
+
+Copy the license.txt (from crack dir) into your mircstats directory

@@ -1,0 +1,63 @@
+The following items have been fixed or improved:
+
+     
+
+     * Fix for the nVidia 66.93 drivers. The game no longer crashes when a race
+
+       is started. The game has also been tested up to the 67.03 drivers
+
+       with no problems found.
+
+       
+
+     * Engine fire burns aligned to the car's coordinates, e.g. when the car is
+
+       upside down, flames go down.
+
+       
+
+     * Tuning menu: BHP meter and colors randomly switch when changing profile.
+
+     
+
+     * Flip back and forth to statistics screen and the BHP grows bug.
+
+     
+
+     * Force feedback slows game in some cases.
+
+     
+
+     * 5.1 sound support is not working on some setups.
+
+     
+
+     * Disconnects when returning to the lobby in multiplayer games.
+
+     
+
+     * When the game briefly minimizes before starting a multiplayer game,
+
+       sometimes gives a blue screen (this is quite rare,
+
+       but it does happen sometimes)
+
+        
+
+     * Only 2 players can play if NetLimiter is installed.
+
+     
+
+     * Bug with public ip detection, if the commandline 
+
+       network options are used.
+
+     
+
+     * Enabled a switch to allow the player to turn off ragdoll in single
+
+       player (located in the Options Menu).
+
+       
+
+     * Enabled multiplayer destruction derby.

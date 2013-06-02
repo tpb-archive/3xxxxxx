@@ -1,0 +1,41 @@
+Den nya releasen av det bästa online spelet  Americasarmy.
+det är hela spelet och det är bara att installera och köra.
+Men ni måste registrera er på www.americasarmy.com 
+
+What's Fixed 
+
+Client: 
+
+- Fixed various client crashes 
+-&quot;'JRTC Farm Raid&quot; filters correctly in server browser 
+- Running in 16-bit windowed mode no longer has render errors 
+- Fixed reflex sight accuracy 
+- Fixing &quot;ROE&quot; URL on support page and new-map URL 
+- Disable &quot;set&quot; command for non-config variables (devmode exploit) 
+- Fix Auth Failure messages that have a URL 
+
+Server: 
+
+- Minor memory fixes 
+- Fixed various server/client crashes 
+- Remove &quot;query&quot; exploit 
+- Fixed server stability issues 
+- Fixed Admin spectate command 
+- Memory Leak fixes 
+- Fixed pb admin commands 
+
+
+What's Changed 
+
+- Admin kicks no longer give ROE 
+- Admins can join Min/Max Honor servers 
+- Admin text is displayed as red 
+- Allow normal user to be admins on Leased servers 
+- Disable player color codes 
+- Add option to restrict by groups 
+- GameSpy: Display third-party icon 
+- GameSpy: Display groups field in server info 
+- Allow Auth to set third-party flag 
+- Added &quot;Invalid Group&quot; failure message 
+- Save Group information to savefile 
+- Notify the player before joining a server that has Group restrictions 

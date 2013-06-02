@@ -1,0 +1,136 @@
+WoW Server Filer Gör Din Egna WoW Beta Server
+
+How To Make a Working Server (all Files Included already Witout Step 1 and Step 2)
+
+Step 1 : Download the client :: 
+http://www.digitald3vil.net/files/torrents/WoW010.torrent 
+
+Step 2 : Download the patch :: 
+http://www.digitald3vil.net/files/torrents/WoW011patch.torrent 
+
+Step 3 : Install the client 
+
+Step 4 : Install the patch 
+
+Step 5 : Download & Install Mysql Version 4.0 :: 
+http://dev.mysql.com/downloads/mysql/4.0.html 
+
+Step 6 : Download & Install Navicat :: 
+http://www.navicat.com/download.php3 
+
+Step 7 : Download WoW DB & Server Files :: 
+**i gotta find the links again** 
+
+Step 8 : Extract the db and server to it's own folder. 
+
+Step 9 : Using Navicat Click on Connection, make it look like this :: 
+
+
+localhost 
+localhost 
+3306 
+root 
+
+test connection (x)
+
+
+Step 10 : Right click anywhere below localhost on the left column :: 
+Select New Database, name it wow, right click on the newly created wow database and select : 
+
+>> Execute Batch File 
+
+Search and select the wow sql file in the extracted folder (where you extracted step 8 ). 
+
+*This should execute without an error. If error occurs, you probably have a max packet allowed error, continue with this step, otherwise skip* 
+
+------------------------------------------------------------------------ 
+**If max packet allowed error occured - fix with the following.** 
+------------------------------------------------------------------------ 
+
+Step 1 : ctrl alt delete. look in your processes and kill off anything that's sql related. just fucking do it. 
+
+Step 2 : go to start / run / cmd . hit enter. 
+
+Step 3 : at the command promt, continue to type in "cd..", minus quotes, till you get to the c: drive. 
+
+Step 4 : type - cd mysql 
+
+Step 5 : type - cd bin 
+
+Step 6 : type - mysqld --set_variable=max_allowed_packet=32M 
+
+** The title bar should change. Close the command window ** 
+
+Step 7 : Go to C:mysqlbin 
+
+Step 8 : Run winmysqladmin (you only need to do this once) 
+
+--------------------------------------------------------------------- 
+You are now done with the error fixing 
+--------------------------------------------------------------------- 
+
+>> Execute Batch File 
+>> I said Execute the fucking Batch File!!! 
+
+Step whatever we're by now : So you ran the batch file.. good. no errors? good!! 
+
+Step this one : Hit the manage users tab, add a user, fill it in like this (or however you see fit) : 
+
+wow 
+localhost 
+root 
+root 
+
+say ok and then highlight it on the left column and grant all. 
+when it says that it has to flush whatever, say yea. 
+
+*Glances over at the tv.. Scare Tactics.. "Wow those two dudes are so fuckin gay"* 
+
+What the hell was I saying? Fuck.. 
+
+OK. Say ok to everything. 
+
+We're almost done. 
+
+In Navicat click on the wow database, then when the right column loads, double click on the accounts table. set up ur shit. account can be whatever number, make it 1. make your user name, password, real password, if you want this character to be a gm then set the gm thing to 127. ok. save it. ** by the way, to add entries, click the little + thing. and then click the check thing to save** 
+
+Go to that folder from Step 8, 
+now run the wowpython.exe 
+
+type the following in, don't make me kill you.. ok? 
+
+
+host localhost 
+db localhost wow root wow (or whatever you set it to) 
+start
+
+
+ok, run WoW. at the log on screen, do this - 
+hold down ~ and time it so when you let go, console is still showing. 
+once its up, type the following - realmlist localhost 
+
+hit enter, and then esc. 
+
+now you can log in! 
+
+to use gm/admin commands write "!login xyz" without the " in the chat window....
+you can change the gm/admin password in the account table in navicat
+
+and !help to see commands.....
+
+enjoy. 
+
+more later. 
+
+P.S - thanks to teampython for their mighty server as well to the men and women currently working on making this server super awesome rocking good fun pimptacular!! 
+
+Servers That i Have to share....
+
+World Of Warcraft EU 0.11.05s
+
+Lineage2 Ch1 server
+
+Servers Indevelopment *not by me but maybe in the future*
+MxO Emu (The Matrix Online)
+......................
+If you guys want an online mmorpg private server put the name and ill check =D

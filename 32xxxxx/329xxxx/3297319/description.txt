@@ -1,0 +1,265 @@
+*****************************************************
+     Backyard Baseball(r) 2005   -   README.TXT
+*****************************************************
+
+Welcome to Backyard Baseball(r) 2005!
+
+This file contains helpful information, late-breaking news and a description of certain functions which were not implemented when the manual was created.
+
+TABLE OF CONTENTS
+I. INSTALLING THE GAME
+II. SYSTEM REQUIREMENTS
+III. INSTRUCTION MANUAL
+IV. VIDEO AND SOUND
+V. DISK CAPACITY AND SWAPFILE SPACE
+VI. CONTROLLER SET UP
+VII. SUPPORT
+VIII. LICENSE AGREEMENT
+
+
+I. INSTALLING THE GAME
+
+Windows(r)
+1. Start Windows(r) 98/2000/Me/XP.
+2. Insert the Backyard Baseball(r) 2005 CD-ROM game disc into your CD-ROM drive.
+3. If AutoPlay is enabled, a title screen should appear. If AutoPlay is not enabled, double-click on the "My Computer" icon on your Windows(r) desktop. Next, double-click on your CD-ROM icon to install the game. If the install screen still does not appear at this point, locate the AutoRun.exe file in the install folder of the game disc (usually D:Backyard Baseball 2005) and double-click on it. Click on the INSTALL button when it appears.
+4. Follow the remainder of the on-screen instructions to finish installing the Backyard Baseball 2005 CD-ROM game.
+5. Once installation is complete, make sure the "Here Comes Backyard Baseball 2005" box is checked, and click on Finish to start the game.
+6. Any time you want to play the game, click on the Start button on the Win98/2000/Me/XP taskbar and choose Programs/Atari/Backyard Baseball 2005 to start the game. Alternately, you can double-click on your "My Computer" icon, double-click on the icon for your CD-ROM drive, then double-click on the AutoRun.exe file. Once the AutoRun menu appears, click on PLAY. NOTE: For games with some video card problems, you can start the game running a special executable located in the Start Menu at: Programs > Atari > Backyard Baseball 2005 > Backyard Baseball Software Rendered.
+
+Installing DirectX(r) (Windows(r) Users Only)
+The Backyard Baseball 2005 CD-ROM game requires DirectX(r) 9.0b or higher in order to run. If you do not have DirectX(r) 9.0b or higher installed on your computer, you will be prompted to install DirectX(r) 9.0b. Note: Some systems may require that you install DirectX(r) 9.0 manually from the game disc by launching the dxsetup.exe file inside the GameDirectX folder.
+
+Note:  The Backyard Baseball 2005 CD-ROM should be in your computer’s CD-ROM drive at all times while Backyard Baseball 2005 is running.  The absence of the Backyard Baseball 2005  CD-ROM in the computer’s CD-ROM drive while the game is running may cause the Backyard Baseball 2005 to not run properly or to crash.
+
+NOTE: Real-time Virus Scanning can cause framerate drops. If you are experiencing framerate issues, disabling virus scan software can create better performance.
+
+Note: For Windows 2000/XP users, you must have Administrator rights to install and save files in the game. Afther the game is installed, the Administrator can give saving rights through File Sharing within the Context Menu. 
+
+Known Issue:
+Windows 98 First Editions Machines:
+SYMPTOMS: When you start the application on a Microsoft Windows 98-based computer, you may receive the following error message: 
+A required dll oleacc.dll was not found
+CAUSE: This issue only occurs on Windows 98 First Edition machines. This issue may occur if the Oleacc.dll file is missing or is the incorrect version. 
+RESOLUTION: 
+To resolve this issue use either of the following methods. 
+Method 1: Use Windows Update
+Windows Update can be accessed online. To access Windows Update, visit the following Microsoft Web site: 
+<http://windowsupdate.microsoft.com>
+Microsoft Active Accessiblity 2.0 software should be available as upgrades to the system. 
+Method 2: Install Microsoft Active Accessibility 2.0
+To install Microsoft Active Accessibility 2.0, visit the following Microsoft Downloads Web site: 
+<http://microsoft.com/downloads/details.aspx?FamilyID=3755582a-a707-460a-bf21-1373316e13f0&DisplayLang=en>
+
+UNINSTALLING THE GAME
+
+Windows(r)
+From the Start button on your Windows(r) taskbar, select Settings, then Control Panel, then double-click Add/Remove Programs. In the drop-down menu, highlight Backyard Baseball 2005, then click on Change/Remove. Follow the on-screen instructions to finish uninstalling the Backyard Baseball 2005 CD-ROM game.
+
+It is possible a few small files will remain after you've uninstalled the product. If you wish to clear these few remaining files, you will need to navigate to the Atari folder location and hand delete them.
+
+
+
+II. SYSTEM REQUIREMENTS
+
+Windows(r) Minimum System Requirements
+--------------------------------------
+Operating System:	Windows(r) 98/Me/2000/XP
+Processor:	Pentium(r) III 500 MHz (Pentium(r) III 800 MHz recommended)
+Memory:		64 MB RAM (128 MB recommended);
+			128 MB RAM (256 MB for XP recommended)
+Hard Disk Space:	700 MB Free
+CD-ROM Drive:	8X Speed or faster
+Video:	8 MB Windows(r) 98/Me/2000/XP-compatible 3D video card*; 
+(32 MB Windows(r) 98/Me/2000/XP-compatible 3D video card** recommended)
+Sound:			Windows(r) 98/Me/2000/XP-compatible sound card*
+DirectX(r):		DirectX(r) version 9.0 (included) or higher 
+* Indicates device should be compatible with DirectX(r) version 9.0 or higher.
+** Excludes the Matrox G200, 3DFX Voodoo 2, any 3DLabs Permedia, Nvidia Riva 128, Radeon 7500 and the SiS 315.
+
+III. INSTRUCTION MANUAL
+Included on this product's game disc is an electronic version of the game's Instruction Manual in .pdf format, Adobe Acrobat Reader 6.0 (which enables you to view the manual in .pdf format), and an Install Guide file explaining how to access and use these features. Please refer to the Install Guide file by clicking on the Start button on your Windows® taskbar and then selecting Programs > Atari > Backyard Baseball 2005 > Install Guide.
+
+
+INSTALLING ADOBE® ACROBAT® READER™ 6.0
+After the game installer finishes copying files to your hard drive, you may wish to install Adobe® Acrobat® Reader™ 6.0. This program is needed to read the electronic game manual.
+
+Adobe Acrobat Reader 6.0 requires the following:
+* Intel® Pentium® processor
+* Microsoft® Windows 98 Second Edition, Windows Millennium Edition, Windows NT® 4.0 with Service Pack 6, Windows 2000 with Service Pack 2, Windows XP Professional or Home Edition, Windows XP Tablet PC Edition
+* 32 MB of RAM (64 MB recommended)
+* 60 MB of available hard-disk space 
+* Internet Explorer 5.01, 5.5, 6.0, or 6.1
+
+To install Acrobat Reader, double-click on the icon labeled My Computer. Then right-click on the icon for your CD-ROM drive (which is usually D:) and choose Explore from the pop-up menu. If the AutoPlay menu is visible, you may simply explore the CD by clicking on the Explore CD button. Double-click on the Manual folder. Then double-click on the AdbeRdr60_enu.exe file to install Acrobat Reader. Click on the Finish button to exit the Acrobat Reader installer.
+
+
+Insert the Backyard Baseball 2005 disc into your CD-ROM drive (close the program window if the AutoPlay window appears). Next, double-click on the icon labeled My Computer on your desktop. Then right-click on the icon for your CD-ROM drive (usually D:) and choose Explore from the pop-up menu. Double-click on the Manual folder and then double-click on the BYBaseball2005.pdf file to view the manual.
+
+To print the game manual select "Print" from the File menu. Choose the pages you wish to print and click on the OK button.
+
+For more instruction on using Acrobat Reader, you can read the help file that comes with the program. Select "Reader Guide" from the Help menu.
+
+OTHER ACROBAT TIPS
+* You can move through a document one page at a time by pressing the right arrow key to advance to the next page or the left arrow key to back up one page.
+* You can move through a document one screen at a time by pressing the Page Down key to scroll down one screen or the Page Up key to scroll up one screen.
+* To increase text visibility, click on the magnifying glass in the toolbar.
+
+
+
+IV. VIDEO
+VIDEO CARD CAPABILITY
+Backyard Baseball 2005 must be played on a video card capable of 640x480 screen resolution at a bit depth setting of 16 bits. The card and software drivers must be DirectX 9.0 (or higher) compatible. If you experience problems or difficulty with graphics, contact your card manufacturer for the latest documentation and drivers.
+
+DISPLAY SETTINGS
+The game will launch and lock your resolution to 640x480 with a bit depth of 16 bits.
+
+For users with better video cards, you can adjust graphical settings like Anti-Aliasing or Gamma Correction in your Control Panel.
+E.G. Right Click DesktopPropertiesSettingsAdvanced(Video Card)(Performance and Quality)
+
+SOUND AND VIDEO DRIVERS
+If you are experiencing any difficulties running the game, be sure that your sound card drivers and video drivers are up to date. 
+
+KNOWN ISSUES: 
+* Backyard Baseball 2005 does not run on a Radeon 7500, Matrox G200, NVidia Riva 128, 3DFX Voodoo 2, Sis 315, and any 3DLabs Permedia video card.
+* Some Matrox cards have had some graphical issues in Darts and other areas in the game.
+* Some ATI cards have had games launch with missing fields after extended play. You can fix this problem by Alt-Tabbing to the desktop and back to the game or by restarting the application.
+* On some slower machines, audio can cut out during the intro movies. There is no known fix for this issue.
+* The XPERT@WORK AGP 2X 8MB ATI Rage Pro card might crash on launch. Other tested 8MB ATI Rage Pro cards seemed to run without issue.
+
+SOFTWARE RENDERED VERSION:
+*For games with some video card problems, you can start the game running a special executable located in the Start Menu at: Programs > Atari > Backyard Baseball 2005 > Backyard Baseball Software Rendered. This mode works better on machines with faster CPUs. Movies and scoreboards may have artifacts around them when played in this mode. NOTE: Software Rendering mode doesn't run on the ATI Radeon 7500 or 8500. 
+
+NOTE: Real-time Virus Scanning can cause framerate drops. If you are experiencing framerate issues, disabling virus scan software can create better performance.
+
+
+V. DISK CAPACITY AND SWAPFILE SPACE
+
+Backyard Baseball 2005 requires approximately 750MB of hard drive space.
+
+A swap file (virtual memory) is temporary storage space on your hard drive which programs use for 
+temporary storage of data.  Backyard Baseball 2005 will use this space when it is running, then it will free this space when the game is terminated.
+
+To view swap file information, from the desktop, click the Start button / select Settings / select 
+Control Panel / select System / select Performance tab / select Virtual Memory Button.  For best results, you should let Windows Manage the Virtual memory for you.
+
+VI. CONTROLLER SET UP
+
+You have to make sure your controllers are connected and properly configured before you start Backyard Baseball 2005.  Please go to Start button on the taskbar and find the appropriate application.  Below we list the path you need to follow to access the needed application.  Please follow the on-screen prompts to make sure your connected device is working correctly.
+
+Windows 98/ME/XP
+StartSettingsControl PanelGame Controllers
+ 
+Windows 2000
+StartSettingsControl PanelGaming Options
+
+StickyKeys
+If using the keyboard as a controller - the windows StickyKeys may be activated - to disable this, go
+to the control panel, Activate the Accessibility Options icon - click the "Settings" button in the "StickyKeys" group - remove the check from "Use Shortcut" and press OK.
+
+Note:  Gamepad button location and subsequent configuration may differ from the shown game configuration per product.
+
+GAMEPAD
+If you are experiencing difficulties navigating through the menus with a gamepad, first make sure all of your drivers are up to date. If after that you are still experiencing difficulties navigating the menu using a gamepad, use the mouse to navigate through the menus.
+
+
+
+VII. SUPPORT
+For additional information, please refer to the Backyard Baseball 2005 manual.
+
+To get the most out of your new game, visit us at:
+
+http://www.atarikids.com
+
+To send e-cards to your friends, download wallpapers, or get access to other free stuff, visit our Freebies section at:
+
+www.us.atari.com/freebies
+
+If you would like to chat with other gamers, as well as developers, visit our Community Forum area at:
+
+www.atari-community.com
+
+Kids, check with your parent or guardian before visiting any web site.
+Chat Messages: Atari does not monitor, control, endorse, or accept responsibility for the content of chat messages. You are strongly encouraged not to give out identity or other personal information through chat message transmissions. Kids, check with your parent or guardian if you are concerned about any chat you receive.
+Use of Atari web sites is subject to terms and conditions, which you can access at:
+
+www.us.atari.com/terms_of_service.asp
+
+
+
+TECHNICAL SUPPORT (U.S. & Canada)
+
+Help Via the Internet
+Up-to-the-minute technical information about Humongous Entertainment products is generally available 24 hours a day, 7 days a week via the Internet at:
+http://www.atari-support.com
+Through this site you’ll have access to our FAQ (Frequently Asked Questions) documents, our FTP (File Transfer Protocol) area where you can download patches if needed, our Hints/Cheat Codes if they’re available, and an E-Mail area where you can get help and ask questions if you do not find your answers within the FAQ.
+Note: In the event we must send you a Hint Sheet, FAQ document, patch or update disc via E-mail, we may require verifiable consent from a parent or guardian in order to protect children’s privacy and safety online. Consent Forms are available at the web site listed above.
+Help Via Telephone/Fax or Mail in the United States & Canada
+For phone assistance, call Humongous Entertainment Tech Support at (425) 951-7108. Our Interactive Voice Response and Faxback system is generally available 24/7, providing automated support and allowing FAQ documents to be faxed to you immediately.
+Great News! We’ve improved our Automated Systems so that you can get product-specific Troubleshooting help more quickly. All you need to do is enter the product’s Part # when prompted to do so. This will take you directly to all of our known issues and solutions for this title. The product’s Part # is located in several places (on the CD label, package and/or plastic disc case) and is usually identified by a number such as 04-12345. When prompted by the Automated System, enter the last five digits of your product’s Part #. (For example, Part # 04-12345 would require that you enter the “12345” portion of the number for that product.) Note: Some products simply feature a five-digit Part # without an “04-” prefix.
+Live support is generally available Monday through Friday, 8:00 AM until 6:00 PM (Pacific Time). Note: We may be closed on major holidays.
+Before making your call, we ask that you be at your computer, have the following information available, and be ready to take notes:
+·	Computer Type (PC or MAC)
+·	System Make and Model 
+·	Processor Type
+·	Operating System, including version number if possible (such as Windows® 98, Windows® Me, Macintosh® OS 9.1, etc.)
+·	RAM (Memory)
+·	Video and sound card data and drivers
+·	Any screen or error messages you’ve encountered (and where)
+You may also fax in your Technical Support questions or problems to: (425) 806-0480, or write to the address below.
+Product Return Procedures in the United States & Canada
+In the event our technicians at (425) 951-7108 determine that you need to forward materials directly to us, please include a brief letter explaining what is enclosed and why. Make sure you include the Return Merchandise Authorization Number (RMA#) supplied to you by the technician, and your telephone number in case we need to call you. Any materials not containing this RMA# will be returned to you unprocessed. Send your materials to the following address:
+Humongous Entertainment
+Attn: TS/CS Dept.
+13110 NE 177th Place
+Suite # B101, Box 180
+Woodinville, WA  98072-9965
+RMA #:
+
+
+
+VIII. LICENSE AGREEMENT
+
+Atari, Inc. General End-User License (United States & Canada)                          June 28, 2001
+
+END-USER LICENSE AGREEMENT
+IMPORTANT — READ CAREFULLY:  Please be sure to carefully read and understand all of the rights and restrictions described in this End-User License Agreement (“EULA”).
+AGREEMENT
+This document is an agreement between you and Atari, Inc. and its affiliated companies (“Company”). The enclosed software game disc(s), cartridge or Game Pak (“Software”) and any accompanying printed materials are licensed to you only on the condition that you accept all of the terms contained in this EULA.
+By opening this package and installing or otherwise using the Software you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA you may not install or use the Software and within 15 days of purchase you must call the Tech Support telephone number listed in the manual accompanying the Software (the “Manual”). Select the Automated Phone System’s Main Menu option for Consumer Services and follow the prompts.
+You will be given a Return Merchandise Authorization number (RMA #) by the technician. You then have 15 days from the date of this contact to return the Software in its protective covering, the Manual and the original sales invoice to the address supplied to you.
+If this is a PC product, when you install the Software you will be asked to review and either accept or not accept the terms of the EULA by clicking the “I Accept” button. By clicking the “I Accept” button you acknowledge that you have read the EULA, understand it and agree to be bound by its terms and conditions.
+COPYRIGHT
+The Software is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. All title and copyrights in and to the Software (including but not limited to any images, photographs, animations, video, music, text and “applets” incorporated into the Software) and any printed materials accompanying the Software are owned by the Company or its Licensors.
+GRANT OF LICENSE
+The Software is licensed and not sold to you and its use is subject to this EULA. The Company grants you a limited, personal, non-exclusive license to use the Software in the manner described in the user documentation. The Company reserves all rights not expressly granted to you in this EULA.
+PERMITTED USES
+1.	If the Software is configured for loading on a hard drive, you may install and use the Software on a single computer.
+2.	You may make and maintain one copy of the Software for backup and archival purposes, provided that the original and copy of the Software are kept in your possession.
+3.	You may permanently transfer all your rights under this EULA, provided you retain no copies, you transfer all of the Software (including all component parts, the media and printed materials and any upgrades) and the recipient reads and accepts this EULA.
+RESTRICTIONS
+1.	You may not delete or obscure any copyright, trademark or other proprietary notice on the Software or accompanying printed materials.
+2.	You may not decompile, modify, reverse engineer, disassemble or otherwise reproduce the Software.
+3.	You may not copy, rent, lease, sublicense, distribute, publicly display the Software, create derivative works based on the Software (except to the extent expressly permitted in the Editor and End-User Variation section of this Agreement or other documentation accompanying the Software) or otherwise commercially exploit the Software.
+4.	You may not electronically transmit the Software from one computer, console or other platform to another or over a network.
+5.	You may not use any backup or archival copy of the Software for any purpose other than to replace the original copy in the event it’s destroyed or becomes defective.
+EDITOR AND END-USER VARIATIONS
+If the Software includes a feature that allows you to modify the Software or to construct new variations (an “Editor”), you may use such Editor to create modifications or enhancements to the Software, including the construction of new levels (collectively the “Variations”), subject to the following restrictions. Your Variations: (i) must only work with the full, registered copy of the Software; (ii) must not contain modifications to any executable file; (iii) must not contain any libelous, defamatory or other illegal material, material that is scandalous or invades the rights of privacy or publicity of any third party; (iv) must not contain any trademarks, copyright-protected work or other property of third parties; and (v) may not be commercially exploited by you, including but not limited to making such Variations available for sale or as part of a pay-per-play or timesharing service.
+TERMINATION
+This EULA is effective until terminated. You may terminate this EULA at any time by destroying the Software. This EULA will terminate automatically without notice from the Company if you fail to comply with any provisions of this EULA. All provisions of this EULA as to warranties, limitation of liability, remedies and damages will survive termination.
+LIMITED WARRANTY AND DISCLAIMER OF WARRANTIES
+You are aware and agree that use of the Software and the media on which is recorded is at your sole risk. The Software and media are supplied “AS IS.” Unless otherwise provided by applicable law, the Company warrants to the original purchaser of this product that the Software storage medium will be free from defects in materials and workmanship under normal use for ninety (90) days from the date of purchase. The warranty is void if the defect has arisen through accident, abuse, neglect or misapplication. If the Software fails to conform to this warranty, you may at your sole and exclusive remedy, obtain a replacement free of charge if you return the defective Software. Follow the Product Return Procedures described in the Manual. The Company does not warrant that the Software or its operations or functions will meet your requirements, or that the use of the Software will be without interruption or error.
+TO THE FULLEST EXTENT PERMISSIBLE UNDER APPLICABLE LAW, EXCEPT FOR THE EXPRESS WARRANTY SET FORTH ABOVE, THE COMPANY DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING AND WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. EXCEPT FOR THE EXPRESS WARRANTY SET FORTH ABOVE, THE COMPANY DOES NOT WARRANT, GUARANTEE OR MAKE ANY REPRESENTATION REGARDING THE USE OR THE RESULTS OF THE USE OF THE SOFTWARE IN TERMS OF ITS CORRECTNESS, ACCURACY, RELIABILITY, CURRENTNESS OR OTHERWISE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF OR LIMITATIONS ON IMPLIED WARRANTIES, SO THE ABOVE EXCLUSIONS AND LIMITATIONS MAY NOT APPLY TO YOU.
+LIMITATION OF LIABILITY
+
+IN NO EVENT WILL THE COMPANY OR ITS EMPLOYEES OR LICENSORS BE LIABLE FOR ANY INCIDENTAL, INDIRECT, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR INJURY TO PERSON OR PROPERTY, FOR LOSS OF PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, LOSS OF PRIVACY, FAILURE TO MEET ANY DUTY AND NEGLIGENCE) ARISING OUT OF OR IN ANY WAY RELATED TO THE USE OR INABILITY TO USE THE SOFTWARE, EVEN IF THE COMPANY OR AN AUTHORIZED REPRESENTATIVE OF THE COMPANY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE EXCLUSION MAY NOT APPLY TO YOU.
+IN NO EVENT WILL THE LIABILITY OF THE COMPANY FOR DAMAGES WITH RESPECT TO THE SOFTWARE EXCEED THE AMOUNTS ACTUALLY PAID BY YOU FOR THE SOFTWARE.
+CHOICE OF LAW AND VENUE
+This EULA is governed by the laws of the United States of America and the State of New York, exclusive of its conflicts of law provisions. The exclusive venue for litigation regarding or arising from this EULA is New York County, New York and you agree to submit to the Jurisdiction of the courts of New York County, New York for any such litigation.
+MISCELLANEOUS
+If any provision or portion of this EULA is found to be unlawful, void, or for any reason unenforceable, it will be severed from and in no way affect the validity or enforceability of the remaining provisions of the EULA.
+This EULA constitutes the entire agreement between you and the Company regarding the Software and its use.
+
+
+
+

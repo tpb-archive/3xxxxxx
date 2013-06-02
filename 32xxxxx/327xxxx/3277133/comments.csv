@@ -1,0 +1,38 @@
+﻿User Type,Username,Date,Text
+,HildurViking,2005-01-15T17:46Z,Thanx been waiting for this one
+,bjorpe,2005-01-15T18:41Z,Thank you .
+,insaney,2005-01-15T19:19Z,So this is no english audio i presume?
+,thelemite,2005-01-15T19:40Z,Probably persume correctly. A french movie and in the info it says french audio...
+,bbking,2005-01-15T19:40Z,No. It wasn't on the Original. And no English Subs either!
+,s13,2005-01-16T14:05Z,Kan nåon av er som tankar den här rippa den svenska texten när ni får ned den och posta den på undertexter.se. Den enda text som finns där är en horribel fansub som är helt oanvändbar.
+,rost-,2005-01-16T16:45Z,"iND? Detta är inte release-scenen, du måste ha hittat fel."
+,HildurViking,2005-01-16T22:05Z,Shit vad segt det går
+,Cine666,2005-01-17T10:55Z,"Jag är inte så bra på det här, men den här är en .img som inte går att bränna direkt med CloneDVD eftersom jag får felmeddelandet ""Källdatan är för stor"". Mycket riktigt genererar .img-filen strax över skivans kapacitet. Således måste jag processa .img filen till s.k. DVD-filer på hårddisken och därefter reducera kvaliteten. Dessvärre kan jag inte göra detta med varken CloneDVD eller DVDShrink. Förslag???"
+,C-Man,2005-01-17T11:03Z, Cine666  >> Rekommenderar dig nero som klarar bränna .img direkt då.
+,Cine666,2005-01-17T17:00Z,"Jag har Nero också, men det kvittar eftersom även det programmet upptäcker att img-filen genererar mer än de 4.7GB som finns på skivorna.
+
+Alltså: problemet är att förvandla img-filen till filer på hårddisken, varken Nero, DVD-decrypter eller DVDShrink verkar klara detta...
+
+Jag antar att det inte finns något program där man kan titta på filmen direkt, genom att använda img-filen?"
+,F03tus,2005-01-17T21:49Z,".img file is too big to fit on DVD+R. I think it wouuld fit to DVD-R?
+With DVD-Shrink i could resize it but it doesn't work because one file is missing (badly ripped?)
+
+Any ideas how to get it fit to +R?"
+,bbking,2005-01-17T22:45Z,ANVÄND DVDDECRYPTER !!!
+,F03tus,2005-01-17T22:50Z,"I have dvddecrypter and at 1:st i tried to burn with that.. result was that image is too large to fit to DVD-R.
+So give other ideas and don't YELL!!
+
+This is first DVD of about 600 i got with this problem, so you really should behave even you've done good job with releaser!"
+,bbking,2005-01-17T22:59Z,"Fungerar Utmärkt här iaf!
+Nån annan som har problem att bränna ut det ??"
+,Cine666,2005-01-17T23:28Z,"DVDDecrypter can't fix it since it can't convert the .img to any other source than a record.
+
+Rightclicking on the imagefile, choosing ""Properties"", gives the information ""Size (4 702 443 520 byte)"". And thats too much...
+
+Also, why provide anything if it's useful only to -R? I don't think thats the problem though, but i can't fix it."
+,bbking,2005-01-17T23:49Z,"Jag ger upp! Orkar inte sitta här och hjälpa varenda individ som har problem :/ Även om filen skulle vara för stor, så finnss det ALLTID nåt att göra för att göra den mindre, (vilket inte är fallet iofs!). Mounta .img filen med Daemon Tools t.ex .. o kör en dvdshrink eller dvd2one eller whatever, för att minska det något ... Jag tror att felet ligger nånstans i era hårdvarubegränsningar.. testa med detta ... det skall funka!"
+,dea,2005-01-18T18:25Z,"Problemet är att extra materialet är bortaget utan att man kodat om .ifo filerna, därav hägningarna i vissa dvd spelare som refererades till i info texten. Eftersom ifo filerna hänvisar till filer som inte längre finns blir det problem att reducera storleken i samtliga rippningsprogram för att de anser att  det saknas filer och vägrar fortsätta rippningen.
+Vad man möjligtvis kan göra, viket jag håller på att testa nu, är att editera berörda ifo filer i ifoEdit, därefter när allt är korrekt ska det nog gå bra att reducera storleken på filmen i tex dvdShrink eller liknande."
+,uaofc,2005-01-19T17:09Z,"Tycker han som lagt upp torrenten borde kasta upp en fix till filmen,inte alla som klarar fixa till filmen i ifoedit =/"
+,HildurViking,2005-01-20T22:05Z,"Jag brännde filmen i dvd decrypter, fick att det var fel men brännde än då.
+Och sen testade jag filmen i dvd spelaren och den funkade fint"

@@ -1,0 +1,119 @@
+For all non-swedish speakers: information in English is aviable at the bottom of this document. PLEASE READ IT; IT CONTAINS IMPORTANT INFORMATION ON HOW TO GET THE GAME RUNNING.
+
+Note: I've played through roughly half of the game, and nothing seems to be ripped out. This is very probably a full version - the reason for the small filesize is that the entire install file is heavily compressed.
+
+===============INFORMATION PÅ SVENSKA====================
+
+Final Fantasy VII till PC, som requestat. Inte en "riktig" scenerelease, men nästan. :P
+Spelet är patchat och klart till senaste versionen och crackat med No-CD-crack.
+
+VIKTIG INFORMATION OM HUR MAN FÅR SPELET ATT FUNGERA ORDENTLIGT:
+1. Packa upp .rar-filen med WinRAR. (duh)
+2. Kör installationsfilen. VIKTIGT: se till att installera Goodies, den mappen innehåller en del intressanta saker samt ett par patchar du kan behöva.
+3. Om installationen verkar fastna under "Finishing installation", så försök stänga/minimera alla öppna fönster - det är sannolikt en ruta som frågar om du vill installera något videotjosan - svara ja, annars fungerar inte filmerna.
+4. När spelet är installerat, kör FF7Config.exe och ställ in allt som du vill ha det. Observera att rutan med "Nvidia-fixar" vid grafikinställningarna BARA är till för dem som faktiskt HAR ett RIVA 128 eller TNT - på andra kort ställer det bara till problem.
+5. Kör spelet (FF7.exe). Om du får problem (kraschar och liknande) och kör Windows XP, hoppa till punkt 6. Om du kör Windows 2000, hoppa till punkt 7.
+6. Om spelet inte fungerar som det ska under WinXP, prova installera "Animevamp's (controversial) XP patch" ur /goodies/FFVII Patches.rar/Animevamp's (controversial) XP patch.zip. När du gjort detta är spelet inte längre No-CD-crackat, så du kommer att behöva mounta de "FFVII Dummy Image (CD x).iso" som också ligger i FFVII Patches.rar med Daemon Tools.
+7. Om spelet inte fungerar som det ska under Win2k (det kraschar i strider eller när man går in/ut ur rum/områden), följ dessa instruktioner (saxat från ffseven.com's FAQ) - läs noteringarna efter metod 1 innan du försöker:
+
+ Method 1:
+
+   1. Install Service Pack 3 for Windows 2000
+   2. Download and install the Windows Application Combatibility Toolkit 2.6
+   3. Run the Compatibility Administration Tool from the toolkit.
+   4. Click the 'Fix' button. In the dialog that appears, enter the name of the program (FF7), vendor (SquareSoft), browse to ff7.exe and then click 'Next'.
+   5. Select 'None' for Operating System modes and click 'Next'.
+   6. Under Fixes, check the boxes: EmulateWriteFile, Shrinker, VirtualRegistry and then click 'Next'.
+   7. Click 'Select all' then 'Finish'.
+   8. Click 'Run' and see if it works.
+
+-------------------
+(Notera att "1. Install Service Pack 3 for Windows 2000" inte behövs om du redan har SP3 eller senare. Notera också att Windows Application Compatibility Toolkit 2.6  inte finns längre, senaste är 3.0 - den finns att ladda ner här:
+http://www.microsoft.com/downloads/details.aspx?FamilyID=7fc46855-b8a4-46cd-a236-3159970fde94&DisplayLang=en
+Om den här metoden fungerar, tryck "Save" och spara .sdb-filen på ett lämpligt ställe. När du vill köra FF7 i fortsättningen startar du Compatibility Admin Tool, öppnar din .sdb-fil, markerar ff7.exe i listan till höger och väljer "Run". Notera att du måste välja sökväg varje gång - tryck bara på Browse så bör du vara i rätt katalog på en gång.)
+-------------------
+
+Method 2:
+
+   1. Install the March 2001 Compatibility Update for Windows 2000 (reboot). Get it here
+   2. Download and install the Windows 2000 Application Compatibility Toolkit 1.5. This is no longer available to download from Microsoft. You may be able to get hold of a copy somewhere
+   3. Enable Compatibility Mode Technology:
+          * Go to Start -> Run...
+          * Type the following: regsvr32 %systemroot%apppatchslayerui.dll
+      (See Microsoft Knowledge Base Article - 279792 for more details)
+   4. Install Final Fantasy VII (reboot)
+   5. Run QFixApp from the toolkit
+          * Use the browse button to select ff7.exe as the program to run
+          * Under Layers, choose Win2000
+          * Under Fixes, check the boxes: EmulateWriteFile, Shrinker, VirtualRegistry
+          * Finally, hit 'Run...' and see if it works!
+
+(Notera att denna metod INTE är testad av mig, alltså har jag ingen aning om den fungerar. Om metod 1 inte fungerar så kan man prova den här... inte annars.)
+
+Dessa båda metoder kan eventuellt också fungera för Windows 2003. Om du kör 2003 och får det att fungera, posta gärna hur du gjorde här.
+
+8. Läs readme:n eller manualen om du inte spelat spelet förut, annars kan det bli lite svårt att lära sig. Kontrollerna är lite underliga, bland annat.
+9. Spela spelet och ha kul! :D
+10. Om du fortfarande har problem, fråga mig så kan jag försöka hjälpa dig att få det att fungera.
+
+=================INFORMATION IN ENGLISH==================
+(For all you German and French guys - I know you're out there somwhere ;P)
+Please read the following, it contains important information on how to get the game running, especially under Windows 2000.
+
+Final Fantasy VII for PC, as requested.
+Almost a scene release, but not really. :P
+The game comes pre-patched with all the official patches and a No-CD crack.
+
+Installation notes/how to get it working if it crashes:
+1. UnRAR the .rar file with WinRAR. (duh)
+2. Run the installation file - be sure to install the "goodies" as it contains many interesting things as well as important patches you may need.
+3. If the installation seems to be stuck at the "Finishing installation" part, it's probably a question box asking you if you want to install some video-stuff (click yes or the in-game movies won't work) hidden somewhere under another window.
+4. When the installation is complete, run FF7Config.exe (if you didn't tell the installation to do it for you) and set everything up as you want it. Note that the "Nvidia" checkboxes in the "Graphics" tab is ONLY meant for people that actually HAVE a RIVA 128 or TNT - they just mess the game up on all other cards.
+5. Run the game (FF7.exe). If it crashes or behaves strangely and you're running Windows XP, please continue reading at "6.". If it crashes or behaves strangely and you're running Windows 2000 (or Windows 2003), please continue reading at "7.".
+6. If the game crashes or goes all evil on you under Windows XP, you can try to solve the problem by installing the "Animevamp's (Controversial) XP patch" from the /goodies/FF7 Patches.rar/Animevamp's (Controversial) XP patch.zip directory in your FF7 folder. Note that when (if) you install this patch, the game isn't No-CD-cracked anymore, and since there are no working No-CD cracks to this particular patch, you'll have to mount the "FFVII Dummy Image (CD x).iso" CD images with Daemon Tools to get the game running. The dummy images are also in the /goodies/FFVII Patches.rar archive.
+7. If the game crashes under Windows 2000 (in the beginning of a battle or when entering/exiting rooms or areas), try this solution ("stolen" from ffseven.com's FAQ) - please read the notes below Method 1 before trying it:
+
+ Method 1:
+
+   1. Install Service Pack 3 for Windows 2000
+   2. Download and install the Windows Application Combatibility Toolkit 2.6
+   3. Run the Compatibility Administration Tool from the toolkit.
+   4. Click the 'Fix' button. In the dialog that appears, enter the name of the program (FF7), vendor (SquareSoft), browse to ff7.exe and then click 'Next'.
+   5. Select 'None' for Operating System modes and click 'Next'.
+   6. Under Fixes, check the boxes: EmulateWriteFile, Shrinker, VirtualRegistry and then click 'Next'.
+   7. Click 'Select all' then 'Finish'.
+   8. Click 'Run' and see if it works.
+
+--------------------
+Notes on method 1: This method is tested by me and WORKS (at least for me).
+The step "1. Install Service Pack 3 for Windows 2000" won't be needed if you already have SP3 or later (duh). Also note that the Windows Application Compatibility Toolkit 2.6 is outdated. The latest version, 3.0 at the time of writing, is aviable at:
+http://www.microsoft.com/downloads/details.aspx?FamilyID=7fc46855-b8a4-46cd-a236-3159970fde94&DisplayLang=en
+If this method works, press "Save" and save the .sdb file in some appropriate place. When you want to run FF7 later on, you'll have to start the Compatibility Admin Tool, press "Open", open your .sdb file, highlight the "FF7.exe" entry in the tree on the right, and press Run. Note that you'll have to specify the path each time - just press "Browse" and you should be in the right directory at once.
+----------------------------
+
+Method 2:
+
+   1. Install the March 2001 Compatibility Update for Windows 2000 (reboot). Get it here
+   2. Download and install the Windows 2000 Application Compatibility Toolkit 1.5. This is no longer available to download from Microsoft. You may be able to get hold of a copy somewhere
+   3. Enable Compatibility Mode Technology:
+          * Go to Start -> Run...
+          * Type the following: regsvr32 %systemroot%apppatchslayerui.dll
+      (See Microsoft Knowledge Base Article - 279792 for more details)
+   4. Install Final Fantasy VII (reboot)
+   5. Run QFixApp from the toolkit
+          * Use the browse button to select ff7.exe as the program to run
+          * Under Layers, choose Win2000
+          * Under Fixes, check the boxes: EmulateWriteFile, Shrinker, VirtualRegistry
+          * Finally, hit 'Run...' and see if it works!
+
+------------------
+Notes: this method is NOT tested by me and I have no idea if it works. Try method 1 first, and if that doesn't work, you may try this one - it seems much more diffcult, though.
+-------------------
+
+8. If you haven't played the game before, I suggest you read the manual and/or the readme first, or the learning curve may be very steep.
+9. Run the game and have fun! :D
+10. If you still have problems, contact me here and I'll try to help you out.
+
+===================================================
+
+HAVE FUN PLAYING THIS GREAT GAME!

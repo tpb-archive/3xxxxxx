@@ -1,0 +1,42 @@
+﻿User Type,Username,Date,Text
+,PerwerstSvin,2004-12-23T10:59Z,Först tanka jag 52 kb/s  men nu ligger jag på 3 kb/S och har en upload på 9kb/s
+[T],Peterq,2005-01-04T07:28Z,"Can someone PLEASE tell me how to get this release to run! every time I try to start the game it gives me a ""protection error"" dialogue in the taskbar, restarts my system and then I'm told ""the system has recovered from a serious error"" I've removed the image from my ""downloads"" folder until it's sorted. No point in sharing something that doesn't work and wasting other peoples bandwidth!!"
+[T],Peterq,2005-01-04T08:08Z,"Further to my comment above, I've finally found a working fix courtesy of ""Spacebot"" and posted as a comment re another version of the same file. I repeat it here:
+
+Download this software :
+http://www.dvbviewer.com/forum/index.php?s=c0fd3ba11a090463c245af036ca7b383&act=Attach&type=post&id=15232
+
+And go to on ""DirectShow filters"" and ""nero video decoder"" and click on unregister
+and the game will never crash anymore ! 
+
+Thanks to Spacebot!
+Peter"
+,tu-borg,2005-01-05T00:40Z,"Sorry, Peter! Didnät help me: No Nero video decoder in the list. Do you know of any other filters that need to be unregistered?
+
+Darn... I havenät been able to really enjoy Colin since the first game! Always something weird (mostly my logitech wheel - doesn't work well with 2, 3 and 4 - or rather too well - *full* force feedback, all the time.)"
+,tu-borg,2005-01-05T22:52Z,"YES! I did it!
+I -killed- the DSFilters folder in Zoom Player, that did the trick! (There's a ""nero"" video filter there too)
+...but I'm not very impressed by the game so far. Doesn't really seem worth all the hysterical effort! :-)"
+,Tyreline,2005-02-11T12:26Z,What is this??  error:Could not found GraphicsSS_SetupRender Adapter
+,max__,2005-02-19T10:40Z,funkar den???
+,chemicalw,2005-03-18T20:42Z,"Here is how it goes:
+1) Edit your Colin McRae Rally 2005 Windows shortcut (found on the desktop and/or the start menu) by right clicking on it and selecting properties.
+2) In the target box, add NOVIDEO after the target entry, so the target looks like this
+
+""C:Program FilesCodemastersColin McRae Rally 2005CMR5.exe"" NOVIDEO
+
+3) Click on OK or Apply and now try running the game again""
+
+For fixing the car setup crash bug just download this fix and apply:
+http://www.gameburnworld.com/gp/gamefixes/colinmcraerally2005.htm"
+,chiccoli,2005-06-15T13:14Z,seeda PLEASE!
+,nickedi,2005-08-11T11:54Z,When I try to run the game I get this error message: GraphisSS_SetupRender Adapter has no modes! Can anyone please tell me what to do?!
+,Arakno,2006-01-07T11:26Z,"i try all but doesn't work this game..
+now i try to uninstall nero..
+i have do like chemicalw but dont work
+with the crack don t work..
+bah"
+,ilyn,2006-02-26T13:56Z,Asså man stannar På 98.2% SEEDAA FÖR Fa*
+,bigboi207,2006-05-25T00:26Z,"Is it just me??
+Ljudet är helt off. Det bara brummar o har sig. Är det ngn inställning som måste justeras eller lever vi med denna ljdu bug???
+Tacksam för hjälp!"

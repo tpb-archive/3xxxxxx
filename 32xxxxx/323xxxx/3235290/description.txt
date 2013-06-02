@@ -1,0 +1,26 @@
+Mathcad is an integrated environment for performing and communicating math-related work. A summary of key features, including improvements new to Mathcad 11, are summarized. To compare Mathcad 11 with earlier versions, see the feature comparison table.
+Calculate and model your ideas
+
+Mathcad computational abilities
+
+Mathcad provides hundreds of operators and built-in functions for solving technical problems. Use Mathcad to perform numeric calculations or to find symbolic solutions. It automatically tracks and converts units and operates on scalars, vectors, and matrices.
+
+New for Mathcad 11Important new math functionality:
+
+    * New partial differential equation solve blocks for parabolic (heat) and hyperbolic (wave) equations in one dimension
+    * New complex arguments and fractional order for Bessel functions, and new Hankel functions
+    * Improved fitting routines for general and exponential fitting
+    * improved Trace Error tracks the sources of errors in complicated worksheets
+    * New support for complex arguments to floor, ceil, round, and trunc
+    * New sinc function
+
+Here is an overview of Mathcad's computational capabilities:
+
+    * Numeric operators perform summations, products, derivatives, integrals and Boolean operations.
+    * Numeric functions apply trigonometric, exponential, hyperbolic and other functions and transforms.
+    * Symbolics simplify, differentiate, integrate, and transform expressions algebraically. Mathcad's patented live symbolics technology automatically recalculates algebraic solutions.
+    * Vectors and Matrices manipulate arrays and perform various linear algebra operations, such as finding eigenvalues and eigenvectors, and looking up values in arrays.
+    * Statistics and Data Analysis generate random numbers or histograms, fit data to built-in and general functions, interpolate data, and build probability distribution models.
+    * Differential Equation Solvers support ordinary differential equations, systems of differential equations, and boundary value problems both at the command line and in solve blocks that use natural notation to specify the DiffEQs and constraints.
+    * Variables and Units handle real, imaginary, and complex numbers with or without associated units.
+    * High-performance calculation engine provides speed and sophisticated memory management to help you find solutions faster.

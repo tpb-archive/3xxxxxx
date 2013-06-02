@@ -1,0 +1,25 @@
+På fleras begäran kommer här fixad verision av EMPORIOS cs source..
+
+-------------------------------------------------------------------------------------------
+
+Alla har ni nog någon gång tänkt tanken att få spela Counter-strike med half-life2 s senaste teknik source. nu är det möjligt:D Och här får ni också FULL GUIDE till hur ni instalerar
+
+-------------------------------------------------------------------------------------------
+
+1. ladda ner torrenten
+2. skapa en mapp i C: som heter CSSource
+3. Nu bör det allså se ut så här: "C:CSSource"
+4. Extracta alla filer i .rar mappen till CSSource mappen (detta kan ta sin tid, ha tålamod!!)
+
+5. Nu när du har extractat klart allt, gå till "Crack" mappen, det första ni ser är en bin map. Kopiera alla filer där och gå tillbaka till CSSource mappen tryck på bin och klistar in filerna. (skriv över alla filer som datorn säger till om) 
+
+6. gör nu exakt likadant som steg 5 bara att du tar C:CSSource/crack/cstrike/bin filerna och klistrar in i C:CSSourcecstrikebin
+
+7 Nu går du till ditt crack directory högerklicka på hl2 iconen och tryck på: Skapa genväg. När du gjort genvägen högerklicka på genvägen, sedan egenskaper, genväg och lägg till det här efter C:CSSourceCrackhl2.exe 
+-steam -console -game cstrike    Altt som allt skall det alltså se ut så här: C:CSSourceCrackhl2.exe -steam -console -game cstrike
+
+8. Nu när du gjort detta kopiera  hl2 srcds och din genväg och lägg det i "C:CSSource" nu gå till genvägen och ta bort: Crack allt som allt skall det alltså se ut så här: C:CSSourcehl2.exe -steam -console -game cstrike
+
+9. Klicka på genvägen, och njut:D
+
+10. vill du spela på steam servrar måste du ladda ner en onlinepatch. (i denna kan man spela på crackade servrar)

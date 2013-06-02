@@ -1,0 +1,69 @@
+﻿User Type,Username,Date,Text
+,bt86bt,2004-10-12T20:10Z,"Om detta är den där filen som de flesta skickar runt på internet så kommer inte spelet kunna starta, men var inte rädda för att testa, kom bara ihåg att ta kopia i reserv först!"
+,Doobeedoo,2004-10-12T20:42Z,"denne patchen forandrer en ""0"" til ""1"" i iso filen.
+det er alt som skal til.
+
+for dere som vil forandre iso filen selv med hex edit.
+gå til 7C5A99CA i ett hex edit program å forandre ""0"" til ""1""
+
+det forandrer teksten i AppInit.JAM filen som er i isofilen fra 
+""set this value to 1 to remove censor 
+bars....etc....DataLink { Name ""NudityMode"".Type Boolean.Data 0 }""
+til 
+""set this value to 1 to remove censor 
+bars....etc....DataLink { Name ""NudityMode"".Type Boolean.Data 1 }""
+"
+,Ghaleon,2004-10-12T21:58Z,"om någon testar denna så berätta om den funkar, jag vill inte slösa dvd skivor"
+,cdrom,2004-10-13T06:51Z,tror inte den funkar  eftersom patchen inte finns på nforce.nl
+,Doobeedoo,2004-10-13T15:24Z,"babysteps
+
+1. Download Leisure.Suit.Larry.Magna.Cum.Laude.USA.PS2DVD-DAGGER_NudePatch.rar
+2. Download Leisure.Suit.Larry.Magna.Cum.Laude.USA.PS2DVD-DAGGER release
+3. Extract them to the same directory (with winrar)
+4. In that directory you should now have the ""llmp-dgr.iso"" file + all files from this rar file
+5. Run ""lslmcl_Nudepatch.bat""
+6. If you have done everything right you should get a new iso file named ""Leisure.Suit.Larry.Magna.Cum.Laude.USA.PS2DVD-DAGGER_NudePatched.iso""
+7. Burn and run
+
+
+and for the people who want to change your iso file without this patch.
+open your ""llmp-dgr.iso"" in a hex edit program and go to 7C5A99CA and change the ""0"" to a ""1""
+
+it should read ""set this value to 1 to remove censor 
+bars....etc....DataLink { Name ""NudityMode"".Type Boolean.Data 0 }""
+it is this ""0"" you change to a ""1"""
+,goodyear,2004-10-13T17:45Z,"Jag får ett felmeddelande när man kör detta. Den säger att min .iso fil är paj. Är det någon som har en fungerande Larry? Hur svårt kan det vara att bränna ett PS2 spel på rätt sätt, när vi har DVD Decrypter och allt.
+Det funkar nästan jämt för mig.
+Lägg inte upp saker som inte är testade."
+,Jones130,2004-10-13T19:58Z,Kan nån förklara hur man ska göra på svenska?? fattar ju inte ett ord av va doobeedoo säger....
+,Jones130,2004-10-13T21:17Z,När jag söker på 7C5A99CA kommer 7C5A99C0 upp... ska det vara så?? isåfall... hur fasicken ändrar ja den??
+,donthomasso,2004-10-18T11:56Z,kan bara säga att det funkade bra här ;O) patchen är alltså riktig nu får man se rumpan på larry lol o förhoppningsvis lite på flickorna med
+,Jolaki,2004-10-19T18:33Z,"hur ska man öppna iso filen om man ska göra på det andra sättet, det funkar inte med winISO :S"
+,bogani,2004-10-19T21:46Z,jag laddade ner och patchade iso-filen.. men nu startar inte spelet.. =(
+,lukas,2004-10-25T16:48Z,"mitt spel funkar fint!!
+
+Vem behöver ta bort censuren?
+
+är ni bögar eller?
+
+:P"
+,finsk_finne,2004-10-26T15:09Z,"Hur ska man göra!? ska man göra nått med dem 45 filerna man laddar ner när man laddat ner spelet!? vilken är ISO filen?? för jag extractade nude patchen till den mappen där dom 45 filerna fanns, och sen körde jag igång lslmcl_Nudepatch men den säger att den inte hittar llmp-dgr.ISO!?!?!?!?!?!?!?! hur gör man?"
+,burka1,2004-10-29T14:58Z,jag ladade ner hella spel men ingeting är iso vad ska jag gjora
+,Shadoph,2004-11-12T22:05Z,Använd WinRAR för att extrahera iso filen.
+,Elpalo,2004-11-26T14:18Z,seeda för i h-vete!!
+,W.A.R.,2004-12-02T10:05Z,"Doobeedoo: Thank you werry mutch, havent tested it yet but im sure it will work ;)"
+,W.A.R.,2004-12-02T10:08Z," cdrom if its a relese thats not on nforce it gotto be fake YEAH RIGHT HAHAAHA. Nforce dont get everything, they usluy only get the large grupe releses. a small IND relese like this most likely wont show up there, but it dossent mean it dont work"
+,W.A.R.,2004-12-02T10:09Z,lukas det är ju inte larry man vill see det är ju alla nakna brudar ;D
+,Krille_e,2004-12-21T17:31Z,Snälla ... seeda *ler.
+,Krille_e,2004-12-21T19:38Z,Patchen funkar .. även spelet .. och ingen cencur längre :) .. Tackar.
+,apignarb,2005-01-05T10:02Z,kan noen som allerede har lasta ned denne seede den pånytt? jeg finner ikke noe om denne fila noen annen plass enn her på pirate bay.
+,apignarb,2005-01-05T10:15Z,"Glem det, med litt detektivarbeid fant jeg et forum Doobeedoo frekventerer, og lasta ned patchen!
+
+For dere 10-12 som har venta på den noen dager, så seeder jeg nå. Enjoy!"
+,Riki,2005-01-19T19:14Z,hur gör jag så att patchen funkar?
+,baloo86_86,2006-05-27T19:04Z,"PLEASE can someone seed, i'm at 99.3%..."
+,CaptainsHead,2006-06-24T00:54Z,Kan du Hexe PC versjonen?
+,rafirafael,2010-09-11T09:51Z,"Can it seed someone?
+
+Pls seed"
+,LoganLadue,2012-08-11T03:44Z,"you can do this on any PS2 Leisure Suit Larry Uncut as I can tell so if you can download that, you will not need the patch nor this download since no one is seeding."

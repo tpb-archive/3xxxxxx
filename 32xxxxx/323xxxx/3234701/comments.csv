@@ -1,0 +1,81 @@
+﻿User Type,Username,Date,Text
+,Trekker,2004-08-27T17:52Z,"Jag tackar och bugar för denna. :thumbsup:
+Någon som har MetroGuide?"
+,Skagge,2004-08-27T18:24Z,"Metroguide V 6  ligger och spinner på hårddisken.
+
+Seedar den i kväll........
+
+Skagge"
+,Skagge,2004-08-27T20:06Z,Just remember to edit the regfile so it have the correct path before you dbl-click on it.
+,Ehlana,2004-08-27T22:56Z,Tack även för denna.
+,lax,2004-08-28T00:15Z,"Går det att titta på kartorna i PC:n, i så fall hur?"
+,Skagge,2004-08-28T05:55Z,"Man måste ha Garmin MapSource installerad på datorn.
+
+Sedan lägger man in hela katalogen för ett område där du installerade MapSource, editera regfile med anteckningar så att sökvägarna stämmer där du installerade kartan, Spara , Dubbelklicka på filen så att  den läggs in i registret.
+
+Hoppas att det ska fungera nu .  "
+,Naesstrom,2004-08-28T10:37Z,ingen som har mapsource liggande... hade behövt även det...
+,Naesstrom,2004-08-28T11:53Z,"Ok...
+Jag hittade en gammal version av mapsource med svenska och danska vägnätet jag hade liggande...
+Kopierar över mappen med området jag vill ha till mapsource mappen, ändrar reg filen och den lägger till den i registret. Men när jag startar mapsource finns det ingen annan än den vägkartan att välja bland ändå.
+Kollar jag i registret finns inte informationen om sökvägarna med i registret ändå"
+,Nilsen,2004-09-04T06:17Z,"Missing files!!! basemap.img in both omr06 and omr09
+
+/Nils"
+,gost,2004-09-26T09:25Z,"Kan någon vara hygglig och berätta vilken regfil som avses i comments ovanför. Jag har laddat ner det hela men är faktiskt helt lost nu. Jag antar att man kan importera detta till MapSource för att sedan ladda det till GPSen. 
+
+Mycket tacksam för mer input."
+,sgt_hal,2004-12-14T23:24Z,Behövs det ingen UnlockCode?
+,krigspitten,2005-01-03T07:18Z,Är det här någon karta som går att få in på en bärbar gps eller är det bara för datorn? Och hur beter man sig för att få in den om det går?
+,gNuSoftWare,2005-01-03T09:02Z,Buhhow.. Behöver Speed..
+,gNuSoftWare,2005-01-03T09:03Z,krigspitten : Ja det fungerar bra.. 
+,krigspitten,2005-01-05T13:28Z,gNuSoftWare: har du lust att berätta hur man gör också? :)
+,orjanfff,2005-01-18T11:15Z,Hur får man över dessa till GPS´en utan registrering!?
+,Vegviseren,2005-01-19T20:03Z,"Hei Alle
+Nå ligger endelig friluftskartan utpakket og klar på harddisken (takk Skagge), men jeg har problemer med å editere path`en korrekt i .reg filene. 
+
+Skal teksten HKEY og parentesene også være med? Har forsøkt flere varianter, men mapsource vil inte åpne pga feil i registreringene. Kan noen gi et eksempel på en vellykket endret .reg fil???
+
+Hilsen Tor-Henrik i Jokkmokk"
+,Vegviseren,2005-02-08T02:54Z,"Denne funka ikke for meg!
+Last heller ned den andre som finnes her på PB!
+Den fungerer perfekt!"
+,ElRoccster,2005-02-26T13:18Z,Seeda på nu då :)
+,ElRoccster,2005-02-28T20:14Z,Finns det nåt sätt att få in dem på GPSen?
+,oddvarr,2005-03-04T01:03Z,"Noen av CD`ene mangler installasjonsfilen.
+
+Har ikke klart å installere kartene på maskinen min. Vet ikke til hva jeg skal endre banen i regnøkkelen.
+Noe forslag?"
+,gogolgoth,2005-04-01T18:35Z,"Does anyone know which GPS models from Garmin, that these .IMG files work with? Or is some Windows application missing from the torrent? (to move the .IMG files to GPS)"
+,StefanB,2005-06-20T20:00Z,Funkar denna torrent fortfarande? Har försökt flera gånger utan att något händer?
+,jahaja3,2006-04-29T10:57Z,"Är det någon som har ""Friluftskartan Pro"" som är en mer detaljerad och fin karta. Här kan ni se lite bilder hur den ser ut http://www.garmin.se/productpage_tab1.aspx?pageid=1191 
+"
+,Wodie,2006-08-10T22:14Z,"Thx, Funka fint för mig, har en gspmap 60 c. men ingen som har PRO versionen av friluftskartan????"
+,gargammell,2006-08-21T15:58Z,"Håller med, Friluftskartan Pro är precis vad jag letar efter."
+,elin482,2006-10-24T20:53Z,"Till de som i likhet med nielsen saknar basemaps i Omr_06 och Omr-09; Goggle ""basemap.img garmin friluftskartan"" and Ye shall find :-) /elin
+"
+,hfw,2006-10-24T21:05Z,"Nu har jag läst 4 eller var det 5 frågor om HUR man skall editera den där registerfilen, men inga svar.
+Vi gör ett nytt försök. Såhär ser det ut :
+
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_563]
+""ID""=hex:33,02
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_563\1]
+""Bmap""=""C:\\Garmin\\FAMILY_563\\basemap.img""
+""Tdb""=""C:\\Garmin\\FAMILY_563\\product.tdb""
+""Loc""=""C:\\Garmin\\FAMILY_563""
+
+Då är frågan VAD skall ändras ?
+Jag hittar ingen ""MapSource""-mapp under mitt ""Garmin""-bilbliotek. Däremot har jag installerat grejjorna direkt i roten under C:, men en kille som inte kan DOS begriper inte vad det skall vara dubbla backslash - ""\\"" - för ?
+
+Nu hoppas hfw på ett klargörande svar :-)"
+,Kimzza,2007-06-26T10:32Z,Köp PRO verisonen istället ;-P
+,Dennis_74,2007-11-25T19:22Z,vad för program måste ja ha för att kunna öppna kartor som friluftskartor i dator och få över dom i gpsn nuvi 200
+,sanojnosslin,2007-11-27T10:45Z,"Dennis_74 !!
+Jag har samma problem, det borde gå att lägga dom på ett SD-kort och få det att funka den vägen... Jag har pro.n nerladdad men får inte nuvin att läsa den från kortet. vilka filer ska man ta med förutom .img filerna? nån som kan så svara snälla... :)"
+,superken,2008-01-04T18:51Z,"jag har en Garmin Nüvi 200!!!
+
+Nån som vet om jag kan trycka in friluftskartan i den??"
+,unreal,2008-09-02T20:50Z,hur i Hel**** ska man göra för att få upp kartorna i mapsource?? är dom låsta eller funkar de inte med senaste MS versionen??

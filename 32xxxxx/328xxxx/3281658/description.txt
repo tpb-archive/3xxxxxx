@@ -1,0 +1,4 @@
+i SP2 har m$ satt en limit på TCPIP.SYS till 10 tcp anslutningar då uplever du att bittorent går segt så kör dena patch öppnar upp till 50 anslutningar
+läs mer på http://www.lvllord.de/ 
+har testat och den funkar fint ökade från 30kb/s till 150kb/s i snitt
+från utlänska trackers

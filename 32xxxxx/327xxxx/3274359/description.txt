@@ -1,0 +1,25 @@
+07-01-2005 changed: cdrip encoders moved into dll's, this should result in a smaller executable and a bit faster cd ripping (don't forget to copy the new system folder!)
+07-01-2005 fixed: music playlist, all cue items show the tag info of the first file 
+07-01-2005 updated: Spanish language file (Thnx to anghlar)
+07-01-2005 updated: Italian language file (Thnx to kotix)
+07-01-2005 fixed: filemanager, lock mode wasn't updated in both panes
+06-01-2005 fixed: filemanager, "Please insert disc" message on local shares
+06-01-2005 changed: New pixel shader output does YV12->RGB in one pass (using Butcher's old code).
+06-01-2005 removed: guide mapping from MCE remote in keymap.xml - was an unnecessary double up.
+06-01-2005 fixed: [ 1088812 ] Onscreen Keyboard fails when editing shares.
+06-01-2005 fixed: [ 1094724 ] Fan speed display bug
+06-01-2005 fixed: IMDb didn't filter HTML codes if a single match was found.
+06-01-2005 fixed: Texel alignment in video playback.
+06-01-2005 fixed: default.tbn sometimes did not get generated in proper directory.
+05-01-2005 fixed: [ 1094725 ] Getting stuck on system info screen
+05-01-2005 updated: Polish language file (Thnx to napek)
+05-01-2005 fixed: possible problems with progress dialogs
+05-01-2005 fixed: slow startup with DVD in drive
+04-01-2005 fixed: music/video info hang
+04-01-2005 fixed: [ 1092849 ] Cancel saving profile freezes the xbox
+04-01-2005 fixed: [ 1092854 ] Music slide/shutdown menu freeze
+04-01-2005 changed: modal dialogs are completely rendered by the window manager now
+04-01-2005 fixed: play a song in a folder, goto videos, start a movie, when movie ends the songs is played again
+03-01-2005 updated: Chinese (Simple) language file (Thnx to iikii)
+02-01-2005 changed: my music, background scanner can be canceled during its first operations 
+02-01-2005 updated: sqlitedataset to 0.60 (now in namespace dbiplus)

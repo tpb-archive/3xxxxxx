@@ -1,0 +1,15 @@
+Arcade emulator
+
+ * Added Progear driver
+* Upgraded CPS sources with FBA PC new ones, Progear now works and some bugs are now corrected (vampire savior's intro)
+* Many minor bugs fixed (savestates, version ...)
+* Rom counter bug fixed
+* Select and Start mappable option corrected, it will normally work fine now
+* Autofire will normally work on all games now
+* Added a shortcut to enable/disable autofire (right stick to the top)
+* Corrected some drivers (CRC) and re-included some strangely missing (cps changer)
+* Added possibility to show or not games not working (in the ini file) 
+
+http://xbox.udp.at
+
+http://fbaxxx.fr.st/

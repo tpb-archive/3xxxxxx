@@ -1,0 +1,17 @@
+Nexus Mainframe Terminal 4.986 This is a Winsock telnet, SSH, SSL, 3270, 5250, VT and ANSI terminal and printer client. It also includes a FTP client. It has support for recording, script and HLLAPI, and the LPD protocol is supported by the printer emulator. The printer emulator hase also support for SSL.
+The SSH implementation is based on version 2 with password and key authentication is based on OpenSSH (www.openssh.org) and OpenSSL (www.openssl.org).
+Version 4.986 features:
+· Added a new ftp client.
+· Added support for the Citrix's MetaFrame Password Manager.
+· Added support for HLLAPI in VT/ANSI emulation mode.
+· Added support for SSH, Secure Shell, (based on OpenSSH).
+· Added support for SSL, Secure Socket Layer, (based on OpenSSL).
+· Added support for HTTP and mailto URL detection and operation in the screen view.
+· Added support for tab separated copy to clipboard.
+· Improved server installation.
+· Added 5250 character separator options: none, line or dot.
+· Added mouse cursor detection and operation on attention keys.
+· New EBCDIC translation tables: Thai and Turkish.
+· NMP has been extended with firewall authentication in Tn3270/5250 print mode.
+· Extended NMP with the Line Printer Daemon (LPD) protocol.
+· Extended with VT/ANSI (aix/ansi/scoansi/linux/vt52/vt100/vt102/vt220 /vt320/vt420) emulation.

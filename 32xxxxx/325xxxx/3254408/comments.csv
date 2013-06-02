@@ -1,0 +1,114 @@
+﻿User Type,Username,Date,Text
+,goZ,2004-11-10T08:08Z,Finns det någon som har denna på nordisk DVDr?
+,rost-,2004-11-19T18:24Z,"Snabb fråga, vad f*n är problemet med den _tröga_ seedningen?"
+,Polgara,2005-01-06T16:03Z,"skulle bli väldigt glad om någon kunde seeda.Sitter fast på 77,6%.
+har väntat länge på att få sen den här.
+tack på förhand..."
+,Hexy,2005-01-16T19:03Z,Varför sub!??! cp.
+,BrianBeru,2006-05-01T13:40Z,"just a note to others downloading, the english subs are for the whole movie and not just the parts in spanish..   I'm no expert on sub editing but i havnt found a why to cut the subs so only spanish to english part show.. can anyone help?"
+,KaliZka,2006-06-30T23:49Z,www.videohelp.com 
+,sirraffael,2006-08-27T23:37Z,the subs are part of the movie.
+,A.B.,2007-02-20T00:05Z,"The following is a replacement idx file
+that only translates the Spanish (and
+not also the English as in the original
+idx file).
+
+# VobSub index file, v7 (necessary line)
+size: 720x480
+org: 0, 0
+scale: 100%, 100%
+alpha: 100%
+smooth: OFF
+fadein/out: 50, 50
+align: OFF at LEFT TOP
+time offset: 0
+forced subs: OFF
+#The comma-separated list of numbers
+#after ""palette:"" should be on one line.
+palette: 0000e1, e83f07, 000000, fdfdfd, 11eb10, ea12eb, faff1a, 095d76, 7c7c7c, e0e0e0, 701f03, 077307, 00006c, cc0ae9, d2ab0f, 730972
+#From ""custom colors:"" up to ""7c7c7c""
+#should be on one line.
+custom colors: OFF, tridx: 0100, colors: faff1a, e0e0e0, 000000, 7c7c7c
+langidx: 0
+id: en, index: 0
+timestamp: 00:07:52:605, filepos: 000049800
+timestamp: 00:07:59:479, filepos: 00004a800
+timestamp: 00:08:01:747, filepos: 00004b800
+timestamp: 00:10:41:407, filepos: 00004c800
+timestamp: 00:10:45:611, filepos: 00004d800
+timestamp: 00:10:54:720, filepos: 00004f000
+timestamp: 00:11:03:796, filepos: 000050000
+timestamp: 00:12:07:693, filepos: 000051000
+timestamp: 00:12:12:531, filepos: 000052000
+timestamp: 00:12:21:774, filepos: 000053800
+timestamp: 00:13:08:187, filepos: 00005a800
+timestamp: 00:13:13:125, filepos: 00005c000
+timestamp: 00:13:19:365, filepos: 00005d800
+timestamp: 00:14:02:441, filepos: 000060000
+timestamp: 00:14:06:145, filepos: 000060800
+timestamp: 00:14:16:021, filepos: 000061800
+timestamp: 00:14:25:598, filepos: 000062800
+timestamp: 00:18:49:595, filepos: 0000b1000
+timestamp: 00:18:53:632, filepos: 0000b2000
+timestamp: 00:19:00:072, filepos: 0000b3000
+timestamp: 00:19:02:941, filepos: 0000b4000
+timestamp: 00:19:07:112, filepos: 0000b5800
+timestamp: 00:19:11:016, filepos: 0000b7000
+timestamp: 00:19:13:218, filepos: 0000b8000
+timestamp: 00:19:16:255, filepos: 0000b9000
+timestamp: 00:19:18:290, filepos: 0000ba000
+timestamp: 00:19:21:360, filepos: 0000bb800
+timestamp: 00:32:21:572, filepos: 000130800
+timestamp: 00:32:23:875, filepos: 000132000
+timestamp: 00:32:25:643, filepos: 000133000
+timestamp: 00:32:27:645, filepos: 000134000
+timestamp: 00:32:34:419, filepos: 000135000
+timestamp: 00:32:36:821, filepos: 000136000
+timestamp: 00:32:39:057, filepos: 000136800
+timestamp: 00:44:41:378, filepos: 0001c4800
+timestamp: 00:44:42:613, filepos: 0001c5800
+timestamp: 00:44:49:887, filepos: 0001c6000
+timestamp: 00:44:53:991, filepos: 0001c7000
+timestamp: 00:44:58:062, filepos: 0001c8000
+timestamp: 00:45:01:298, filepos: 0001c9000
+timestamp: 00:46:15:839, filepos: 0001cb800
+timestamp: 00:46:18:375, filepos: 0001cc800
+timestamp: 00:46:20:511, filepos: 0001cd800
+timestamp: 00:46:23:747, filepos: 0001ce800
+timestamp: 00:46:58:248, filepos: 0001d5000
+timestamp: 00:56:30:487, filepos: 00023e000
+timestamp: 00:56:34:724, filepos: 00023f000
+timestamp: 00:56:39:062, filepos: 000240000
+timestamp: 00:56:53:443, filepos: 000241000
+timestamp: 00:56:56:513, filepos: 000242000
+timestamp: 00:58:33:309, filepos: 000255800
+timestamp: 01:00:25:555, filepos: 000256800
+timestamp: 01:00:30:560, filepos: 000257800
+timestamp: 01:00:38:301, filepos: 000258800
+timestamp: 01:00:58:655, filepos: 000259800
+timestamp: 01:01:03:359, filepos: 00025b000
+timestamp: 01:01:06:429, filepos: 00025b800
+timestamp: 01:01:11:701, filepos: 00025c800
+timestamp: 01:01:15:004, filepos: 00025e000
+timestamp: 01:01:17:807, filepos: 00025e800
+timestamp: 01:01:34:357, filepos: 00025f800
+timestamp: 01:01:47:470, filepos: 000260800
+timestamp: 01:01:49:272, filepos: 000261000
+timestamp: 01:01:54:143, filepos: 000262000
+timestamp: 01:02:13:963, filepos: 000262800
+timestamp: 01:02:17:333, filepos: 000264000
+timestamp: 01:11:58:947, filepos: 0002aa000
+timestamp: 01:12:02:117, filepos: 0002ab000
+timestamp: 01:13:49:391, filepos: 0002be800
+timestamp: 01:13:59:368, filepos: 0002c1800
+timestamp: 01:14:08:076, filepos: 0002c5000
+timestamp: 01:14:29:598, filepos: 0002cc000
+timestamp: 01:15:29:157, filepos: 0002d3800
+timestamp: 01:17:51:133, filepos: 0002e1800
+timestamp: 01:18:03:979, filepos: 0002e2000
+times"
+,wideworldofwhatever,2007-09-21T01:52Z,"Could someone seed this please?
+
+I'm at 86%, and with a decent upload connection, could finish the download in 15-20 minutes, tops.
+
+Thanks in advance!"

@@ -1,0 +1,14 @@
+= Castlevania Rondo of Blood =
+
+Grabbed this off of Winny after wasting too much time with the stupid mp3 method.
+This should be everything you need to play Rondo of Blood with no fuss.
+Just load the iso with Virtual Daemon or something. I tested it and everything should work fine.
+
+You may need to edit Magic Engine's PCE.INI file to get it to recognize whatever CD drive you are using.  Specifically, the "drive=" line.  Like this:
+
+drive=d:
+
+Go ahead and purchase a copy of Magic Engine here if you want:
+http://www.magicengine.com
+
+Special thanks to Hisato Takejima.

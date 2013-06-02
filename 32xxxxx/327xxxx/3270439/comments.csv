@@ -1,0 +1,74 @@
+﻿User Type,Username,Date,Text
+,SussieLover,2004-12-30T11:35Z,Tycker bara att firefox går en aning segare :/
+,damnstraight,2004-12-30T11:38Z,"Detta är vad som står i filen:
+
+How To Speed Up Firefox (Helpful Vanity)
+
+Posted on 12/12/2004 12:45:50 PM PST by KoRn
+
+Here's something for broadband people that will really speed Firefox up:
+
+1.Type ""about:config"" into the address bar and hit return. Scroll down and look for the following entries:
+
+network.http.pipelining network.http.proxy.pipelining network.http.pipelining.maxrequests
+
+Normally the browser will make one request to a web page at a time. When you enable pipelining it will make several at once, which really speeds up page loading.
+
+2. Alter the entries as follows:
+
+Set ""network.http.pipelining"" to ""true""
+
+Set ""network.http.proxy.pipelining"" to ""true""
+
+Set ""network.http.pipelining.maxrequests"" to some number like 30. This means it will make 30 requests at once.
+
+3. Lastly right-click anywhere and select New-> Integer. Name it ""nglayout.initialpaint.delay"" and set its value to ""0"". This value is the amount of time the browser waits before it acts on information it recieves.
+
+If you're using a broadband connection you'll load pages MUCH faster now!
+
+http://www.freerepublic.com/focus/f-news/1299854/posts"
+,FleXNiP,2004-12-30T11:41Z,Tack för att du la upp detta.. det funkar perfekt för mig och sidan laddas DIREKT ! .. stort tack
+,fattony,2004-12-30T11:42Z,"Märker ingen skillnad... med det kanske funkar för andra, vem vet."
+,krat,2004-12-30T11:43Z,works like a charm.. cheers
+,hoffback,2004-12-30T11:46Z,"works fine, thanks!"
+,pubbie,2004-12-30T11:48Z,"Funkar, men det är nog inte bra för webservrarna..."
+,miffo2000,2004-12-30T12:03Z,Jag kan intyga att alla sidor laddas betydligt fortare. Det här är ingen scam - det fungerar verkligen. Däremot är jag inte tillräckligt kunnig för att riktigt begripa VARFÖR det går fortare.  Sedan kanske någon expert här kan se om inställningarna påverkar säkerheten på något sätt. Men betydligt snabbare går det. Ytterligare ett skäl att skippa Internet Explorer alltså. Gott nytt år alla trevliga seedare! :-)
+,Selph,2004-12-30T12:10Z,funkar...men varför...:p ?   
+,daddycool,2004-12-30T12:23Z,"Jag skulle nog inte sätta maxrequests till så mycket som 30...  Det borde finnas en övre gräns när antalet requests på en gång ger mer overhead än vad som är nyttigt. Mozilla har 4 som default.
+
+Bra tips annars!"
+,adeee,2004-12-30T12:52Z,Funkar fint...men... går det inte att få det att funka i Opera? 
+,oscar_88,2004-12-30T12:55Z,Tack så myket funkar fint ....:) 
+,z_a_p_p_a,2004-12-30T13:00Z,"Hmmm, min firefox hade visst redan dessa inställningar.  Kanske beror på att jag köra MOOX som är optimerad för A64?
+
+http://www.moox.ws/tech/mozilla/
+"
+,franqieboy,2004-12-30T13:04Z,Nu känns det ju som om man har bredband på riktigt
+,Hannibal2,2004-12-30T13:07Z,Funkar mycket snabbare nu...skillnaden var enorm. Ett stort tack för tipset.
+,max123,2004-12-30T13:24Z,jävlar vad snabbt det plötsligt blev! tackar
+,affect,2004-12-30T13:30Z,"""Lastly right-click anywhere and select New-> Integer. Name it ""nglayout.initialpaint.delay"" and set its value to ""0"". This value is the amount of time the browser waits before it acts on information it recieves.""
+
+betyder det här att man ska skapa en ny sträng, booelsk eller heltal? vet inte vad som menas med ""Integer""?
+
+tack för tipset. hoppas det funkar!"
+,Hannibal2,2004-12-30T13:36Z,Det betyder ny sträng
+,packbox,2004-12-30T13:37Z,Det betyder heltal.
+,packbox,2004-12-30T13:38Z,"Enligt Nordsteds ordbok:
+integer •[´IntIdzhe] s
+	1	matem. helt tal, heltal
+	2	enhet, helhet"
+,affect,2004-12-30T13:40Z,"ok, tack. får ändra lite då..."
+,Zenzei,2004-12-30T14:08Z,seeda då :/
+,Zenzei,2004-12-30T14:11Z,tankjo! =)
+,oktan,2004-12-30T14:18Z,kanon......tackar...funkar ju jäkligt bra...
+,Klumm3n,2004-12-31T16:37Z,takker for denne godbiten.. :D
+,Bupp,2005-01-01T20:11Z,"jag råkade välja sträng istället för heltal, hur ändrar man? jag lyckas inte"
+,Bupp,2005-01-01T23:53Z,nvm hittatde..
+,jamfingers,2005-01-02T01:49Z,"toppen, tårtkalas och annat trevligt.
+boing! vad det går."
+,Sumpthing,2005-01-02T02:37Z,Schysst seed.. Funkar klockrent för mig..
+,Lightning,2005-01-12T23:26Z,"Sitter med Telia ADSL Gruppanslutning och den brukar vara riktigt seg att surfa med. Men efter att ha testat dessa trix någon halvtimme nu så tycker jag faktiskt att det går fortare. 
+
+Ställde tillbaka värdet till tio och testade men då kände kag inte att det gick slöare direkt. Så jag vet inte. Men varför inte. =)"
+,rauz,2005-01-14T19:44Z,"Om man inte känner för att ladda ner en textfil över BT...
+http://www.freerepublic.com/focus/f-news/1299854/posts"

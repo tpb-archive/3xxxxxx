@@ -1,0 +1,108 @@
+The latest version of Magic Engine, fully registered.
+
+    What's new?
+    ----------
+
+    v1.0.0 PR 8:
+
+          - added a 'frameskip' option in the pce.ini file and
+            in the gamepad/keyboard misc config menu
+          - added a 'slideshow' option for the 'load ROM' menu
+          - re-organized the video driver code; in planning of DirectX support
+          - added an icon to the .exe :)
+          - fixed a bug in the gamepad code (directions could get stuck)
+          - fixed Steam Heart's crash
+          - fixed Jantei Monogatari III crash
+          - fixed Gunbuster ADPCM looping bug
+          - fixed Yuna HuVideo movie
+          - fixed Exile
+          - adjusted Loom screen centering
+
+    v1.0.0 PR 7:
+
+          - added Game Express CD detection
+          - improved the 'boot cd' menu; it can now list up to 4 drives
+            and a file selector was added to set the system cards path
+          - fixed Populous
+          - fixed Dracula X graphics bug
+          - fixed Spriggan crash
+          - fixed music speed problem in Cross Wiber and Nazo no Masquerade
+          - changed the turbo mode button behavior
+          - added back the 'drive' and 'drive_letter' options
+            in the pce.ini file
+          - added back the sprite and background layer switches
+          - added more options in the gamepad/keyboard misc config menu
+          - added auto fire options
+          - added back the option to display ROMs filename in the load menu
+          - fixed the font size bug in the main menu
+
+    v1.0.0 PR 6:
+
+          - improved the CD audio emulation (the PCE CD player is fully
+            functionnal now)
+          - fixed Street Fighter 2' crash
+          - fixed Snatcher
+          - fixed It Came From The Desert
+          - fixed sound problems in Bloody Wolf, Photograph Boy and
+            The Lost Sunheart
+          - fixed flashy screen bug in Kabuki Den and a few other games
+          - changed the default sound settings (lowered noise volume)
+          - fixed the 'backup_ram' option in the pce.ini file
+            (old mode was not enabled) 
+
+    v1.0.0 PR 5:
+
+          - fixed the fullscreen bug of PR 4
+          - added little state boxes in the gamepad config menu;
+            you can now press a control on your gamepad and get
+            a visual feedback of its state, this will make easier
+            to match a control to its name in the list :)
+          - changed the boot cd menu so that you can also use
+            your gamepad to select the cd-rom drive
+          - fixed Final Match Tennis graphics bug
+          - improved the sound emulation (implemented an
+            undocumented noise mode)
+          - added new buttons in the video config panel to
+            configure the vsync and windowed options
+
+    v1.0.0 PR 4:
+
+          - new options to control the gamepad calibration
+          - ajusted the gamepad default calibration
+          - fixed a little bug in the sound emulation
+          - fixed a bug in the video emulation that could freeze
+            or crash the emulator
+          - fixed a bug in the cd-da player
+          - fixed a bug in the pce cd-rom detection
+          - improved the windowed mode (auto centering,
+            remember window pos, etc...)
+          - doesn't exit anymore if you don't have a cd-rom drive
+
+    v1.0.0 PR 3:
+
+          - changed gamepad code
+          - fixed a crash bug in the load menu
+          - fixed cd-da looping
+          - hide/show the cursor
+          - tiny fixes/improvements here and there
+
+    v1.0.0 PR 2:
+
+          - new cdda buffer code
+          - new options in the pce.ini file to control cdda playing
+          - new options to enable/disable the FPS counter and
+            the volume meter
+          - new option to enable/disable vsync, and a special vsync
+            mode when running in windowed mode
+          - cleaned up gamepad code
+          - additionnal gamepad debugging infos in the log.txt file
+          - quick and dirty fix for the boot cd menu bug
+          - enabled turbo mode
+          - saves rom directory path
+
+    v1.0.0 PR 1:
+
+          Oh, too many things to list them all! :)
+
+          This version is a preview release, the final 1.0 version
+          will be released very soon!

@@ -1,0 +1,52 @@
+20-12-2004 fixed: Crash in Pictures context menu.
+20-12-2004 fixed: Text glitches in some IMDb lookups
+19-12-2004 added: If the <home> tag does not work, XBMC looks in: E:AppsXBMC, E:XBMC, F:appsXBMC, F:xbmc to find it's home dir.
+19-12-2004 added: Auto-detect of F and G. <useFdrive> and <useGdrive> should be no longer needed (and are now ignored)
+19-12-2004 fixed: buttonscroller - some images were shown when they shouldn't have been.
+19-12-2004 fixed: Some of the timings for the slideshow weren't quite accurate
+19-12-2004 changed: Incremented video database version number.
+19-12-2004 fixed: Runtime is saved to the video database.
+19-12-2004 changed: Image loader now scales jpgs while they load (Now uses only the memory needed for the screen image). Only working for jpgs.
+19-12-2004 fixed: Password could not be set blank for webserver
+19-12-2004 added: Settings option for skin shows all skins, regardless of version. Old version skins (which are incompatible with XBMC) are shown greyed out, and do not load when selected. Message is shown on the bottom of screen.
+16-12-2004 fixed: Karaoke background alpha
+16-12-2004 added: Context menu to My Music
+16-12-2004 fixed: Corrupt picture files could cause endless loops in slideshow/picture viewer
+16-12-2004 updated: German (Austrian) language file (Thnx to CEOMR)
+16-12-2004 fixed: background media scanning was not canceled on shutdown
+16-12-2004 updated: German language file
+16-12-2004 updated: Spanish language file (Thnx to elotrolado)
+16-12-2004 updated: Norwegian language file (Thnx to vnmartinsen)
+16-12-2004 updated: Korean language file (Thnx to mania12)
+16-12-2004 updated: French language file (Thnx to modhack)
+16-12-2004 updated: Dutch language file (Thnx to joepmeloenx)
+16-12-2004 updated: Italian language file (Thnx to kotix)
+15-12-2004 fixed: modeless dialogs are not rendered when modal dialog is shown
+15-12-2004 changed: skin version to 1.22
+15-12-2004 added: Scan for music info in the background, diabled by default, to enable use settings
+15-12-2004 updated: SQLite to version 3.0.8, File Format changed, all databases have to be recreated
+15-12-2004 fixed: id3 tag reading broken, when file has no genre
+15-12-2004 fixed: autoswitch view, last control isn't remembered when pressing B on controller
+13-12-2004 added: Context menu to my videos.
+13-12-2004 fixed: Strange pause thing shown during slideshows.
+13-12-2004 added: Off mode added to LED colour options.
+13-12-2004 fixed: View as method was loaded incorrectly in Videos->Files.
+13-12-2004 fixed: Karaoke display should be nicely up to speed again. Not sure about A/V sync (though it stays in sync once set).
+13-12-2004 changed: Small nicety added: Navigate left to menu then immediately right and it remembers the control you were at.
+13-12-2004 fixed: Rendering of dialogs in Full Screen Video.
+13-12-2004 changed: Settings menus: Categories change on focus, rather than on click.
+13-12-2004 changed: GUIMessages to controls have changed - all messages from windows to controls on that window use OnMessage() rather than g_graphicsContext.SendMessage(). This should stop the clashes between controls with common ids on different windows.
+13-12-2004 fixed: 12 hour LCD related crash
+13-12-2004 fixed: Vis crash + keymap.xml (white button) problem
+12-12-2004 added: dialogButtonMenu.xml - currently used as a shutdown menu. id is 111. Assigned to Right Thumb Button.
+12-12-2004 fixed: <align>center for labelcontrols.
+12-12-2004 fixed: Couple of issues with the buttonscroller.
+12-12-2004 changed: Behaviour of icons/thumbs in listview. Only use thumb if it's a real thumbnail.
+12-12-2004 updated: Hebrew language file by okets
+12-12-2004 changed: Skin version incremented (as dialogNumeric.xml and dialogGamepad.xml are necessary skin files)
+12-12-2004 fixed: Bug in custom window code (custom windows persisted when changing skins)
+12-12-2004 fixed: Various bugs found here and there :)
+12-12-2004 added: [ 1079275 ] Add share locking ability, thanks to slacker.
+12-12-2004 fixed: Various settings screen issues (including http proxy, hopefully!)
+12-12-2004 added: New dialog GUIDialogButtonBar for a graphical button bar with optional label
+12-12-2004 changed: Slideshow now uses the video filters settings instead of the GUI settings. (for sharper pictures)

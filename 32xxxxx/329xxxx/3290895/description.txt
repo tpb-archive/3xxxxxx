@@ -1,0 +1,41 @@
+What is Style XP?
+Style XP is not a skinning engine. It uses Microsoft's built-in visual style engine, but enhances it by providing many useful tools. Style XP can import, select, rotate, and manage themes, visual styles, wallpapers,  logons, bootscreens, icons, and explorer bar. Future versions may support sounds, cursors, screensavers, and packages of all the above. How does it work? Instead of lines and gradients, the XP user interface natively supports the use of skinned bitmap controls (a visual style). This is Microsoft's own innovation. Style XP includes its own visual styles.
+
+
+Zero-Footprint Operation
+Choose to have Style XP run in the system tray for easy management and selection of new styles, or turn Style XP off for zero-footprint operation. No additional memory will be utilized unless you desire it.
+
+Native
+
+
+Style XP skins are zero-footprint because they use the same Visual Style Source that is built into XP. XP's Visual Style Engine will load and draw our start button with the exact code used to load and draw the infamous green start buttons of the original Blue, Olive Green, and Silver skins.
+
+This is done by performing an in memory patch to XP's Visual Style Engine. Style XP does not use SetWindowsHookEx, which can noticeably slow system performance. Nor does it hook the "Appearance" tab on the Display Properties property sheet.
+
+
+New Visual Styles, Wallpapers, Logons, and Themes
+Try out our new "CoughDrop" visual style and color schemes. "Toothpaste" and a community skin pack are also included. You can download more visual styles for free from ThemeXP.
+
+Accessibility & High-Resolution Functionality
+
+
+Does your monitor operate at 1600x1200? How about 2048 x 1536? Perhaps you have a new LCD display.
+
+At these finer pixel resolutions, the display can exceed 100 DPI. StyleBuilder is designed to build skins which support the higher DPI resolutions so that window controls are easier to see.
+
+Since Style XP skins are native source styles, this useful XP functionality is present in its original and familiar form.
+
+Application Compatibility
+
+
+
+Our native design allows us to enjoy the thousands of hours of work put in by Microsoft's UI team to ensure application compatibility.
+
+There is no list of incompatible applications to keep track of.
+
+Font Sizes
+
+
+Like the original Microsoft Blue, Olive Green, and Silver Visual Styles, StyleBuilder & Style XP skins support three font sizes Normal, Large, and Extra Large.
+
+These larger font sizes are important, because they are used by the elderly and visually impaired.

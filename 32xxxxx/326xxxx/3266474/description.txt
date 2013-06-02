@@ -1,0 +1,132 @@
+NOTES:
+Denna update är både för provision Half-Life 2 releasen och Emporio.
+Alltså Half.Life.2.UPDATE.1-PROViSiON .a.k.a "CSS-update8-Emporio" typ!!
+-----------------------------------------------------------------------------------
+             ___         ___           ___                               
+            /         /           /            ___                 
+           /::       /::         /::          /          ___     
+          /:/:__   /:/:__     /:/:         :        /__    
+         /:/ /:/  /  /:/ /:/  /    /:/  :         :      /:/__/    
+        /:/_/:/  /  /:/_/:/__/___ /:/__/ :__  ___  :__  /::      
+        :/:/  /   :/:::::/  / :   /:/  / /   |:|  |  /:  __ 
+         ::/__/     ::/~~/~~~~   :  /:/  /  :  |:|  |   ~~:/__
+          :        :~~        :/:/  /    :__|:|__|      ::/  /
+           :__      :__        ::/  /      ::::/__/       /:/  / 
+            /__/       /__/         /__/        ~~~~           /__/  
+
+                     ___  ___  ____ _   ___ _____ ____  _  __
+                    / _ / _ / __  | / (_) __(_) __ / |/ /
+                   / ___/ , _/ /_/ / |/ / / / / /_/ /    / 
+                  /_/  /_/|_|____/|___/_/___/_/____/_/|_/  
+                   ___                       ___           ___     
+                  /__                     /           /      
+                 /:/ _/_       ___         /::          :     
+                /:/ /       /__       /:/:          :    
+               /:/ /::     /:/__/      /:/  :     _____:   
+              /:/_/:/:__ /::       /:/__/ :__ /::::::::__
+              :/:/ /:/  / /:  __  :   /:/  / :~~~~/__/
+               ::/ /:/  /   ~~:/__  :  /:/  /   :        
+                /_/:/  /       ::/  /   :/:/  /     :       
+                  /:/  /        /:/  /     ::/  /       :__    
+                  /__/         /__/       /__/         /__/    
+
+                                    Presents 
+                          Half-Life 2 Update #1 <c> VALVe
+ÉÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»»
+ºº    Release Date  :  08-18-2004               Protection  :  Securom / Steamºº
+ºº    File Count    :  13x15 MB                 Game Genre  :  Action / FPS   ºº
+ÌÌÍ°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°RELEASE NOTES°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°Í¹¹
+ºº                                                                            ºº
+ºº  This update will update all your games you installed ;)                   ºº
+ºº  Online play works again after this update!                                ºº
+ºº                                                                            ºº
+ºº  Half-Life 2:                                                              ºº
+ºº  Solved disc in drive incompatibility error                                ºº
+ºº  Optimization to the Steam filesystem to reduce game launch and level      ºº
+ºº  transition time                                                           ºº
+ºº                                                                            ºº
+ºº  Half-Life 2 Deathmatch:                                                   ºº
+ºº  Fixed players entering the game with a score of -1                        ºº
+ºº  Fixed combine ball tracking teammates                                     ºº
+ºº  Fixed not being able to grab level designer placed combine balls with     ºº
+ºº  the physics cannon                                                        ºº
+ºº  Fixed players randomly spawning without physcannons                       ºº
+ºº  Fixed multishot pistol exploit                                            ºº
+ºº  Fixed wrong footstep sounds while in team mode                            ºº
+ºº  Fixed last RPG shot not tracking                                          ºº
+ºº  Added cl_defaultweapon -- defaults to weapon_physcannon but can be        ºº
+ºº  changed to any other weapon you spawn with                                ºº
+ºº  Added HUD string to print team name                                       ºº
+ºº  Added model specific death sounds                                         ºº
+ºº  Switching to the physcannon is now instantaneous                          ºº
+ºº  Toned down 357 damage                                                     ºº
+ºº  Updated dm_overwatch                                                      ºº
+ºº                                                                            ºº
+ºº  Counter-Strike:Source:                                                    ºº
+ºº  Added map: de_prodigy                                                     ºº
+ºº  Improved player movement against walls                                    ºº
+ºº  Improved choppy player movement when bouncing down slopes                 ºº
+ºº  Purchase icon for defuser is shown                                        ºº
+ºº  Physics prop avoidance is scaled by the object's mass                     ºº
+ºº  Detail prop fade distance can be controlled on a per-map basis with       ºº
+ºº  env_detail_controller                                                     ºº
+ºº  Spectator GUI last mode is saved                                          ºº
+ºº  Added spectate player by name                                             ºº
+ºº  Grenades, weapons, etc., splash when they land in water                   ºº
+ºº  Frag grenade deafness is delayed so the explosion is heard                ºº
+ºº  Fixed viewmodel lag                                                       ºº
+ºº  Added consistency checking player model bounds                            ºº
+ºº  Weapon reloads finish when the round restarts                             ºº
+ºº  Autobuy and rebuy trigger a reload if you don't buy a primary weapon      ºº
+ºº  Rebuy doesn't drop pistols the player has picked up                       ºº
+ºº  Dropped weapon ammo isn't lost if the player has another weapon using     ºº
+ºº  that ammo                                                                 ºº
+ºº  Re-added hostage hint messages                                            ºº
+ºº  Smoke grenade canisters fade out and are removed when smoke is dense      ºº
+ºº  Breakable glass is blown outward proportional to the damage recieved      ºº
+ºº  Soundscapes update for observers                                          ºº
+ºº  Fixed not being able to attach to ladder tops                             ºº
+ºº  Misc fixes to spray import                                                ºº
+ºº  Enabled bots for LINUX & WIN32                                            ºº
+ºº                                                                            ºº
+ºº  Engine:                                                                   ºº
+ºº  Fixed crash when trying to play an MP3 that doesn't exist or is an        ºº
+ºº  invalid format                                                            ºº
+ºº  Fixed a crash when playing MP3 files with ID3 tags                        ºº
+ºº  Fixed network being started early enough so UDP remote logging works      ºº
+ºº  World rendering optimizations                                             ºº
+ºº  Fixed problems with demo recording                                        ºº
+ºº  Added command "setinfo " to allow clients to add custom user info fields  ºº
+ºº  (creates a new cvar flagged as FCVAR_USERINFO)                            ºº
+ºº  Enable sv_downloadurl & sv_consistency on dedicated servers               ºº
+ºº  Fixed "kick " command via rcon if the name is surrounded by quotes        ºº
+ºº  Fixed bug in "logaddress_add" that wouldn't add the correct port if the   ºº
+ºº  port and address were surrounded by quotes                                ºº
+ºº  Added "player_say" event for 3rd party plugins                            ºº
+ºº  Fixed crash in dedicated servers when issuing a say before the map is run ºº
+ºº  Fixed +ip not being applied when given on the command line                ºº
+ºº  HL2 depot fix for upcoming SDK update                                     ºº
+ºº  Fixed "failed to load server.dll" error with 3rd party mods               ºº
+ºº  Fixed linux dedicated server crash on some GLIBC versions                 ºº
+ºº  Fixed dedicated server error in certain localized languages               ºº
+ºº                                                                            ºº
+ÌÌÍ²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²INSTALL NOTES²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²Í¹¹
+ºº                                                                            ºº
+ºº  1. Unpack the update with WinRAR or WinACE                                ºº
+ºº  2. Remove Steam.dll/Steam.dll.off in your install dir                     ºº
+ºº  3. Copy updated files from /Update to your install dir                    ºº
+ºº  4. Enjoy!                                                                 ºº
+ºº                                                                            ºº
+ÌÌÍ°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°Í¹¹
+ºº                 Game developers deserve what they can get.                 ºº
+ºº                   We know you like this game, so buy it!                   ºº
+ÈÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼¼
+
+
+INSTALLERA SÅ HÄRA:
+*Lägg över update filerna..
+*Ta bort din gamla steam.dll
+*Rename Steam.dll.off till Steam.dll
+*go and kick some ass!
+
+http://www.bf2.se  plz visit

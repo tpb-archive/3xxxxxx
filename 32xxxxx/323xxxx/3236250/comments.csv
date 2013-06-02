@@ -1,0 +1,22 @@
+﻿User Type,Username,Date,Text
+,Forser,2004-09-03T21:16Z,"Vad är nytt i den?
+
+/Forser"
+,Zetard,2004-09-03T21:40Z,"added/fixed: (dd-mm-yyyy) (please specify date in CET)
+  - 03-09-2004 fixed: SMB did not handle files with non ASCII names properly (got NT_OBJECT_NOT_FOUND)
+  - 03-09-2004 fixed: eliminate crash that occurs when loading wma files which have non ASCII characters in its tags
+  - 02-09-2004 fixed: eliminate crash that occurs when loading m3u which have weird characters
+  - 02-09-2004 added: grouping of controls
+  - 02-09-2004 added: virtual keyboard now supports data entry with the numbers just like a cell phone. Also pressing ""back"" is same as backspace.
+  - 02-09-2004 added: network settings in the GUI and remove them from XBoxMediaCenter.xml
+  - 29-08-2004 added: applied patch for LCD-MOD contrast changes with minor modification.
+  - 28-08-2004 changed: removed the need to restart because of audio channel mappings
+  - 28-08-2004 changed: removed the need to restart because of hw ac3/dts output
+
+typ...."
+,jeanmarc,2004-09-03T23:50Z,finns det nån sajt för xbmc så man kan kolla news där?
+,MattiasJ,2004-09-04T07:32Z,"Funkar inte för mig, blir helt svart när jag startar XBMC.....Hjälp?"
+,MattiasJ,2004-09-04T10:46Z,vart hittar jag xbmc.log????
+,sajon,2004-09-08T18:07Z,"Hur e det med Python, finns det med i paketet?
+För senast jag försökte updatera xbmc så funkade de inte att köra Python script.. Även fast jag installerade så som jag hade gjort förut..
+Använder xboxen för att tanka hem spel via torrents filer med script så =P"

@@ -1,0 +1,89 @@
+﻿User Type,Username,Date,Text
+,tomorre,2004-10-10T20:44Z,"Counter-Strike_Source_FINAL_READ_NFO-EMPORiO - Hur du får spelet att fungera.nfo
+
+
+Hur du får Counter-Strike_Source_FINAL_READ_NFO-EMPORiO
+att fungera.
+
+!! DU MÅSTE REGISTRERA EN NY STEAM ACCOUNT !!
+OM DU INTE HAR STEAM PÅ DATORN SÅ KAN DU LADDA NER DET HÄR:
+http://www.valvesoftware.com/SteamInstall.exe (600kb)
+
+
+Vad för saker du behöver:
+Counter-Strike_Source_FINAL_READ_NFO-EMPORiO
+Counter-Strike_Source_ONLINEPLAY-EMPORiO
+
+
+
+1. Unrar alla filer.
+2. Gå in i den mappen där du la alla filerna
+   och gå in i mappen Crack och kopiera filerna
+   och gå tillbaka till den mappen där du la alla filerna
+   och kopiera in filerna ifrån crack mappen (det kommer
+   att komma upp Ersätt alla filerna tryck på den).
+3. Sen måste du ha Counter-Strike_Source_ONLINEPLAY-EMPORiO
+   ifrån den mappen ska du kopiera alla filerna till counter-strike source mappen.
+   Alltså dessa filer ska kopieras till mappen: Steam.dll, SteamApp.cfg,
+   Steamengine.exe.
+4. Gå nu in i Counter-Strike Source mappen och Ta SteamApp.cfg till Textdokument.
+
+5. I SteamApp.cfg ska du gå längst ner till det här:
+SteamAppId=92
+#SteamAppVersionId=0
+SteamInstallPath=""X:Your CSS Folder""
+# [as is clearified later on, this should be your email address:]
+SteamAppUser=YOUR ACCOUNT
+SteamUserPassphrase=""PASSWORD""
+
+På SteamInstallPath=""X:Your CSS Folder"" ska du skriva vart
+mappen med counter-strike source ligger, exempel c:/spel/css.
+SteamAppUser=YOUR ACCOUNT <= där ska du skriva det namnet du har registrerat
+i Steam exempel SteamAppUser=Jag_ar_bast  ...
+Sen SteamUserPassphrase=""PASSWORD"" <= där ska du skriva vad för lösenord du har.
+exempel: SteamUserPassphrase=""mittlosen"" ...
+
+när du har gjort det här är det bara att spara och trycka exit.
+
+6. Nu ska du göra en genväg av hl2.exe i Counter-strike source mappen,
+när du har gjort genvägen höger klickar du på den och skriver in det här i
+mål: -steam -console -game cstrike .
+det står redan något där, typ de här: c:spelcsshl2.exe <- där skriver du in
+-steam -console -game cstrike ..
+Alltså de ska se ut så här: c:spelcsshl2.exe -steam -console -game cstrike
+Sen trycker du bara OK.
+
+7. Nu är du klar :D
+nu är det bara och börja spela.
+Tänk på att du alltid måste klicka på genvägen till hl2 när du ska spela.
+
+
+När du gjort allt det här så kommer spelet funka till 100%.
+Misslyckas du med det här så kommer du aldrig få igång spelet."
+,tomorre,2004-10-10T20:46Z,"Det blev en smiley på ett konstigt ställe. Så här skall det stå:
+
+mappen med counter-strike source ligger, exempel c:spelcss"
+,Zapto,2004-10-10T21:14Z,"Vad står det då?
+Kommer det upp någe fel meddelande?"
+,tyrranic,2004-10-11T02:43Z,Bra för dem som inte kan öppna .nfo filer o läsa engelska. :-)
+,MisterKiller,2004-10-11T03:10Z,jag får fan inte skiten att funka gör exakt som det står men den vill inte !
+,Dayton,2004-10-11T03:25Z,Det finns en annan release där ni slipper alla dessa problem och varningar om att ljud-filer saknas. Ladda ner den istället ;)
+,molecule,2004-10-11T03:53Z,anledningen till att ingen får det att fungera är för att alla glömmer/skiter i att säga att man skall köra steamengine.exe som man får med i online packet från Emporio innan man kör igång spelet... 
+,Zapto,2004-10-11T06:30Z,ja den körde iallafall inte jag och fick spelet att funka!
+,acidgen,2004-10-11T08:43Z,hade folk gjort EXACT som det står så hade de funkat.
+,Zapto,2004-10-11T14:37Z,Ja!
+,Zapto,2004-10-11T16:43Z,"acidgen:
+
+Eller hur så är det här rätt?
+Gör man som de står får man det att funka.."
+,KingHippo,2004-10-11T17:43Z,Japp filerna ska till samma map där steam.dll låg från början. Kan även nämnas att Steam inte får köra när man startar genvägen. Kolla så det inte ligger igång i systray (där nere till höger).
+,matrix3000,2004-10-11T20:20Z,"är ""Counter-Strike Source mappen"" samma map som ""där du la alla filerna""-mappen???"
+,nemini,2004-10-11T22:28Z,"förstår inte vad som är problemet :p ... funkade första gången jag installerade, följde beskrivningen o startade spelet. Men en hel del verkar ju ha seriösa problem att få igång det... köp det kanske ;)"
+,matrix3000,2004-10-11T23:18Z,"jag har ett svenskt XP, och när jag la CSS-mappen i Program files, så fungerade det inte... men när jag la mappen istället i Program och gjorde om installationen så fungerade det. 
+
+kortfattad teori: Svensk XP = lägg CSS-mappen Program. Engelskt XP = lägg CSS-mappen i Program Files.
+
+detta är bara en teori, men det fungerade för mig, så pröva ifall in vill"
+,Daveman,2004-10-27T17:28Z,"I'll be damned. Wanted to play the game with emporio's updates so I downloaded thier newest release and the newest fix.....Shit doesnt work on MY computer at least. And it's not like it's difficult to follow the instructions of the people who've been nice enuff to upload them. 
+
+Its just fucked up!"

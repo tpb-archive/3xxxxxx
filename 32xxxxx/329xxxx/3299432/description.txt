@@ -1,0 +1,94 @@
+07-03-2005 fixed: dvd overlay alignment problem.
+07-03-2005 changed: max. 10 exceptions in a row instead of endless logging of exceptions
+07-03-2005 fixed: Screen ratios were not computed correctly on start of playback when file had already been played once.
+07-03-2005 fixed: "View: ..." settings are not applied when <default> path is empty
+07-03-2005 updated: German language file
+07-03-2005 updated: Norwegian language file (Thnx to vnm)
+07-03-2005 updated: Chinese (Traditional) language file (Thnx to woozc)
+07-03-2005 updated: Korean language file (Thnx to akoako)
+07-03-2005 updated: Finnish language file (Thnx to jutski)
+07-03-2004 updated: Polish language file (Thnx to napek)
+06-03-2005 added: Voice support for Karaoke mode (SF Patch #1114097) - thanks stcogolin!
+06-03-2005 fixed: Music thumbs previously scanned on smb shares were not shown in music overlay or filelists in Music->Files view.
+06-03-2005 changed: keymap.xml updated to allow skip and ffw/rew when in vis.
+06-03-2005 fixed: my music Nav window: play action works again, and artists list now sorts excluding "the"
+06-03-2005 added: New built-in command XBMC.PlayMedia(filename). For instance to map a radiostation to a key in keymap.xml
+06-03-2005 fixed: HttpApi crash if webserver not enabled
+06-03-2005 added: HttpApi patch as described here http://www.xboxmediaplayer.de/cgi-bin/forums/ikonboard.pl?s=227ea528324363fb8af20c24d5ff3ddd;act=ST;f=5;t=9397
+05-03-2005 added: thumbAlign tag for thumbnailpanel controls, only supports center so far which centers the thumbs on the texture <thumbAlign>center</thumbAlign>. thumbPosX/thumbPosY will bump it out of center.
+05-03-2005 added: ActivateWindow() function now accepts a path parameter or bookmark name for bookmark jumping. Valid windows ID's for this are 1,2,3,6,501.  Example: ActivateWindow(6,F:Videos) or ActivateWindow(501,Music Server). Valid windows ID's for this are 1,2,3,6,501
+05-03-2005 added: the default tag for the each section's bookmark can now be a bookmark name
+05-03-2005 changed: minor gui rendering tweaks
+05-03-2005 fixed: playback from any source when cache dialog was visible locks xbmc up (internet streams)
+04-03-2005 added: my music nav window now supports files with tagged with multipe artists and genres
+04-03-2005 changed: my music nav window artists, albums, and song titles sort without "the " prefix
+04-03-2005 fixed: my music, no thumbs for songs in database views when coverart is loaded from tags
+04-03-2005 fixed: thumb cache in musicdatabase is not cleared after scanning
+04-03-2005 added: wma tag loader, support for multiple artists and genres
+04-03-2005 changed: Reversed Clear() change as it caused graphics leak through when UI calibration was not at 0,0.
+04-03-2005 added: Thumbs table clean up on cleanup of the music library.
+04-03-2005 fixed: Small thumbs in list controls weren't centered + other small graphical glitches here and there.
+04-03-2005 changed: Zoom in my pictures now goes in steps of 1.0, 1.2, 1.5, 2.0, 2.8, 4.0, 6.0, 9.0, 13.5 and 20.
+04-03-2005 changed: Pictures have more scope for being larger.  Previously they were limited to 2048 in either direction.  The limitation now is 4096 in either direction, with the number of pixels being less than 4Mp (can't have more than this without rewriting the imagelib due to RAM constraints).  Should give better detail when zoomed.
+04-03-2005 fixed: Volume amplification setting for videos was applied to music as well.
+04-03-2005 enabled: autosync=30 by default
+04-03-2005 fixed: using autosync caueses problems when resuming from pause. (updated mplayer.dll again)
+03-03-2005 updated: mplayer.dll to current cvs (final real fix + autosync fix)
+03-03-2005 changed: background music info scanner is default now (setting removed)
+03-03-2005 added: Cached thumb location is now stored in the database.  Music database SHOULD auto-update when you first access My Music.
+03-03-2005 removed: old mplayer use.  We now only use the system/players/mplayer directory.
+03-03-2005 fixed: music overlay sometimes shows no default thumb, eg. when starting a http stream with python
+03-03-2005 changed: GUIButtonControl and GUIToggleButtonControl send their click message before executing a action or a hyperlink
+02-03-2005 fixed: screensaver preview sometimes crashes
+02-03-2005 fixed: screensaver preview button is enabled when screensaver is off
+02-03-2005 changed: folders and files from smb will be sorted by modification date now
+02-03-2005 added: Screensavers from the competition.
+02-03-2005 changed: Rendering of CGUIImage -> big boost in gui framerate (most noticeable in 1080i)
+02-03-2005 fixed: [ 1155038 ] "Video calibration" error
+02-03-2005 changed: moved cdda reading to CFileCdda class
+02-03-2005 fixed: cdda player, couldn't seek to the start of a track
+02-03-2005 fixed: cdda player, gui was choppy when seeking
+02-03-2005 added: new infofadelabel control.  Works like infolabel, except you can have multiple <info> tags.  See the PM MusicOverlay.xml files for an example.
+02-03-2005 updated: German language file (Thnx to klapperx)
+02-03-2005 updated: Norwegian language file (Thnx to vnm)
+02-03-2005 updated: Italian language file (Thnx to kotix)
+02-03-2005 updated: German (Austrian) language file (Thnx to CEOMR)
+02-03-2005 updated: Finnish language file (Thnx to jutski)
+02-03-2004 updated: Polish language file (Thnx to napek)
+02-03-2004 updated: Dutch language file (Thnx to tijmengozer)
+01-03-2005 added: Screensaver screenshot ability.
+01-03-2005 fixed: Changed Karaoke default delay from 80 to -80 as per SF bug report [1101736].
+01-03-2005 added: Patches [1153934] and [1153884] thanks to MrC.
+01-03-2005 fixed: flashing screen when viewing pictures
+28-02-2005 changed: some gui rendering optimization
+28-02-2005 added: More DirectX exports for screensavers, thanks to SiW + MrC
+28-02-2005 fixed: Kai window showed incorrect image in Friends view.
+28-02-2005 fixed: Possible crash bug when dialog in Fullscreen video is closed.
+28-02-2005 fixed: 100k or so memleak in Settings screens.
+27-02-2005 fixed: switching between list/thumbs/bigthumbs in Music->Nav root window (& corrected date for the last few items added today to this changelog!)
+27-02-2005 change: Use alternate mplayer location now means old mplayer.dll location, and not setting it means new mplayer.dll. Remember to verify your settings to make sure you are using the proper dll (ie for most disable Use alternate mplayer location)
+27-02-2005 update: mplayer.dll to current cvs version. (final flac fix + realvideo 10 fix)
+27-02-2005 fixed: progbar/subtitles display chopped of when starting a new movie while one is already running
+27-02-2005 removed: YUY2 Overlays and LQ Pixel shader render modes have been removed.  Combo renderer has been renamed to "Hardware Overlays" and MQ Pixel shader is now LQ pixel shader.  Default is Combo renderer which is the best all-round.
+27-02-2005 added: IMDb scraping moved into system/HTMLScraper.dll.  You must have this in order for IMDb lookups to function!
+27-02-2005 added: Source for IMDb scraping dll + a windows test application (useful in it's own right). See ToolsHTMLScraperIMDbLookup.
+26-02-2005 cleanup: moved (most) Is..(), SetThumb()... functions from CUtil to CFileItem, different other cleanups
+26-02-2005 fixed: stacked video freezes on start of second video
+26-02-2005 changed: gui presentation interval + removed blocking wait for vertical blank from gui thread
+26-02-2005 fixed: DVDImage/Folder playback could fail on remote drives (smb,ccx..) if password set with new player
+25-02-2005 fixed: My Music view resets to file view on restart if it was set to navigator view.
+25-02-2005 fixed: Stack overflow in ActivateWindow if it's called with an invalid window from a windows OnInit message handler.
+24-02-2005 added: My Music iPod-style Navigator. (Initial commit. Support for multiple artists and genres coming SOON!)
+24-02-2005 fixed: Timing Issues: Printing XBE Title To LCD On Launch
+24-02-2005 fixed: Some long-lined vobsubs were not displayed. Fixed in alternate mplayer only.
+24-02-2005 changed: Delay audio output until video is ready to play
+24-02-2005 fixed: [ 1093336 ] MusicInfoTagLoaderWMA.cpp string conversion resulted in double length strings
+23-02-2005 changed: Get available subtitle fonts and sizes from alternate mplayer path if alternate mplayer is enabled
+23-02-2005 updated: Polish language file (Thnx to napek)
+23-02-2005 updated: Norwegian language file (Thnx to vnm)
+23-02-2005 updated: Italian language file (Thnx to kotix)
+23-02-2005 updated: German (Austrian) language file (Thnx to CEOMR)
+23-02-2005 updated: Finnish language file (Thnx to jutski)
+23-02-2005 fixed: Switching from Fullscreen Video -> GUI now looks more professional (blank screen rather than stalled/mangled video)
+23-02-2005 added: [ 1149558 ] Printing XBE Title To LCD On Launch.  Thanks sniperkilla!
+22-02-2005 fixed: Crash when Kai is re-entered after a skin/font/etc. change.

@@ -1,0 +1,30 @@
+08-02-2005 added: Two new gui control types: infolabel and infoimage.  Identical to label and image except they come with an additional tag <info> with one of the 5 strings below.  More stuff to be added later. Example code in Home.xml in Project Mayhem.
+08-02-2005 added: New InfoManager class for allowing specific info/images to be displayed anywhere in the GUI. Initially added 4 labels: Weather.Conditions, Weather.Temperature, System.Time and System.Date and 1 image: Weather.Conditions
+08-02-2005 changed: Weather is now obtained in a background thread on demand.
+06-02-2005 added: new control ids 51-54 to MusicOverlay.xml for Title, Artist, Year + Album labelcontrols.
+06-02-2005 fixed: 12 hour clock display on homepage - thanks to Nuka1195 
+06-02-2005 fixed: Thumbnail is erronously set when last entry in comma separated <path> is an XBE.
+05-02-2005 fixed: Info on parent folder (..) in my music crash + some contextmenu are now disabled on parentfolder items.
+05-02-2005 changed: High quality pixel shader uses less memory.  Drops down to medium quality shader in GUI mode.
+05-02-2005 added: New medium quality Pixel shader.  Uses only 1 pass, and very little memory
+04-02-2005 fixed: added font files that was missing in new mplayer directory (thx to Diontae16)
+04-02-2005 added: windows media player playlists
+04-02-2005 fixed: subtitle/osd crash with high quality pixel shader
+04-02-2005 added: High quality pixel shader YV12->RGB method :)  Known issues with switching to/from GUI
+03-02-2005 changed: delay when changing resolution in settings (easier resolution selection)
+03-02-2005 fixed: sometimes unreadable discs will be detected as audio cd's
+03-02-2005 fixed: [ 1095048 Part 2 ] Icon for folder displayed using XBE's icon (also fixed some stupidities).
+02-02-2005 updated: Italian language file (Thnx to kotix)
+02-02-2005 updated: German language file
+02-02-2005 updated: Finnish language file (Thnx to jutski)
+02-02-2005 updated: Norwegian language file (Thnx to vnmartinsen)
+02-02-2005 changed: removed libcdrip from project, libcdio replaces it
+02-02-2005 changed: cd ripper now uses libcdio for ripping
+02-02-2005 changed: cdda player is now based on libcdio 
+02-02-2005 updated: libcdio to version 0.72
+02-02-2005 added: Profile overwrite + context menu in profilewindow for overwrite/rename/delete.
+01-02-2005 added: mplayer support for new systemplayers directory structure, enable Alternate mplayer core in settings to use it. Requires new compiled mplayer.dll, old dll's still needs to be in old mplayer dir.
+01-02-2005 fixed: [ 1113362 ] Selecting "All songs" in Artist view takes awfully long time
+01-02-2005 fixed: Slow music search
+01-02-2005 fixed: [ 1095048 ] If no DVD is in the drive, do not use cached thumbnail.
+01-02-2005 added: My Programs option to cache thumbnails.  HDDLoader users will want to turn this off.

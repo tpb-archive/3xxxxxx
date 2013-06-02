@@ -1,0 +1,116 @@
+﻿User Type,Username,Date,Text
+,dAMIEN666,2005-02-18T20:18Z,"Om du lägger upp en torrent, pröva att seeda tills ett par stycken fått ner den innan du stänger av....."
+,BOAN_Orignal,2005-02-18T20:45Z,"dAMIEN666
+:stupid:
+Ännu ett citat från första sidan:
+""Note: If a torrent has very few peers, it may take up to 15 minutes for your client to start the transfer. This is normal.""
+:lol:"
+,Seederking,2005-02-18T20:58Z,"PeerGuardian 2.0 är ju inte klar än. Är detta en betatest ??
+http://methlabs.org/methlabs.htm"
+,BOAN_Orignal,2005-02-18T21:07Z,"Som det står i beskrivningen är detta betan.
+
+Får folk inte lära sig läsa i skolan längre? ;)"
+,Oxcide1337,2005-02-18T21:13Z,"Hihi, tankar hoppas det funkar också :) Någon som har lite andra skumma ip nummer man kan blocka? Tex som antipiratbyrån :>"
+,gammelkorv,2005-02-18T21:15Z,ja de är betan ..men den funkar klockrent ..har inte haft ett enda problem me den ..fattar inte varför den inte går publik
+,BOAN_Orignal,2005-02-18T21:16Z,"Men nu måste jag komma med en fundering, fungerar denna bara på WinXP?
+Får felmeddelande när jag drar igång din PG2 på min W2k-advanced server.
+Filen ""MSVCDP71.dll"" saknas.
+Krävs det att man installerar VBRUN7 eller liknande för att denna ska gå på W2k? Enligt Afterdawn stödjs inte Win9x, men W2k nämns inte.
+Tacksam för svar, för den PG jag använder nu är lite väl resurskrävande."
+,Oxcide1337,2005-02-18T21:16Z,Det funkade inte att installera för mig :S Ska mna installera Det vanliga sen bara lägga in dessa filer eller? :S
+,gammelkorv,2005-02-18T21:18Z,Oxcide1337: om du kollar screenen så ser du att antipiratbyråns hemsida blockas så ja e rätt säker på att deras vanlia ipn blockas också (har ju inte blive utsatt för dom än så :P ) ..just nu (som du kanske ser) så e de ju över 640miljoner ips som blockas :D
+,gammelkorv,2005-02-18T21:30Z,"glömde bort o säga, denna beta version e endast för Win XP ..de finns även version för Win 9x o Win Nt men eftersom ja har XP så ..aa ..sorry till er som inte har Win XP isf :("
+,BOAN_Orignal,2005-02-18T21:31Z,"Hittade de filer som fattades här:
+
+http://www.dll-files.com/dllindex/dll-files.shtml?msvcp71
+http://www.dll-files.com/dllindex/dll-files.shtml?msvcr71
+
+:)"
+,BOAN_Orignal,2005-02-18T21:33Z,"Nu drog programmet igång...får se om det hämtar och laddar listan som det ska...och om det går på min W2k-server sedan också.
+
+:)"
+,gammelkorv,2005-02-18T21:34Z,"BOAN_Orignal: hoppas du får de o funka fast du har NT ..hör av dej o sej hur de går så de som också har NT kan få den o funka (elle också skita i o ladda ner den, beroende på hur de går för dej)"
+,Seederking,2005-02-18T21:44Z,Ber om ursäkt. Slarvade med läsningen av texten. 
+,friendly,2005-02-18T21:47Z,"Har kört peer guardian lite sedan några månader. Den och detta är bra och nyttiga program för oss som laddar ner.
+Laddar ner denna nu. Ger en ""recention"" när jag testat denna.
+Tackar!"
+,afholstein,2005-02-18T22:05Z,"Hmmm kör med er gammla PeerGuardian innan ni laddar ner denna.Finns endel problem.Vidare råder jag er att ladda ner PeerGuardian från deras egen hemmsida då det tyvärr finns många lycksökare i branchen som stoppat in div otrevliga saker.
+ETT GOTT RÅD!"
+,afholstein,2005-02-18T22:11Z,"Jag menar inget illa mot dig Gammelkorven:)
+Förrstår du menar väl.OK:)"
+,Oxcide1337,2005-02-18T22:13Z,"Om jag kör de från deras hemsida får jag inte upp den lilla rutan, det ligger bara där nere som en tray någon som vet why? "
+,Seederking,2005-02-18T22:15Z,"Den fungerar utmärkt även till w2k med dom dll som BOAN_Orignal länkar till.
+Blockera IP som den skall och den slukar inte all min CPU. Precis vad jag behöver.
+Tack Gammelkorv. :)"
+,BOAN_Orignal,2005-02-18T22:22Z,"Det fungerar klockrent på min W2k-server när jag lade till de saknade DLL-filerna i programmets mapp, även med den största listan:
+http://www.methlabs.org/sync/guarding_all.p2p.zip
+:)
+En helt osannolik skillnad i uppstart av PG, den gamla versionen sänkte nästan servern vid uppstart. Men nu smög bara programmet igång och märks knappt när det blockar!
+:):):)
+Serverdata: 
+CPU: PIII 1GHz
+RAM: 1GB PC133
+OS: W2k Advanced Server"
+,Oxcide1337,2005-02-18T22:24Z,"Hihi boan, tänkte me länka den :P Jag tankade me den o la över din guarding.p2p, Det funkar väll lika bra? Eller ska man Lägga till den i hantera listor? _:S"
+,Oxcide1337,2005-02-18T22:30Z,"Min blockat någon som heter Falk eSolutions AG,
+Någon som vet va det kan vara? "
+,BOAN_Orignal,2005-02-18T22:47Z,"Har man den stora listan jag länkade till bör man inte ladda några andra listor, onödigt med dubletter eftersom den är en sammanslagning av samtliga.
+
+Länka till den i hantera listor, ta bor de andra länkarna....radera även listorna ur ""lists-mappen""
+
+Och Falks eSulutions AG låter som om något i Danmark."
+,gammelkorv,2005-02-18T23:15Z,afholstein: förstår precis va du menar :) ..har sett diverse peerguardian program som haft mycke hemst i sej ..denna e dock utan allt detta hemska ..så ni kan alla känna er helt säkra att använda den ..finns bergis nåra buggar men ja har då inte märkt av nåt än iaf ..önskar dock att ja hade lagt upp den lite senare då ja nu har gjort loggan större (ser mycke finare ut nu) ..men ..aaa :o/
+,Oxcide1337,2005-02-18T23:20Z,"ähh upp med by gammelkorv 2.0 :D Btw: University of Pittsburgh, spammar sönder mig :S ska man akta sig ? :S"
+,Pinheed,2005-02-19T00:34Z,Är det bara mig som den startar om datorn för?
+,Pinheed,2005-02-19T00:49Z,Varje gång jag ska startat så startar datorn om!
+,BOAN_Orignal,2005-02-19T00:53Z,"Pinheed: Jepp...för mig är det micron som startar om ;)
+
+Hmm...om man ska vara allvarlig så låter det där lite mysko....du har inte fått nån trist trojan i din burk?
+Sådana kan få för sig det mest underliga saker när man bland annat drar igång okända brandväggar eller gör sökningar efter dem."
+,gammelkorv,2005-02-19T00:58Z,"håller med Boan .rekommenderar att du startar i felsäkert läge o kör en ad-ware, spyware o en virus scan ..för de låter verkligen som du åkt på någe skit"
+,Pinheed,2005-02-19T01:01Z,För NOD32 och den har inte hittat nåt och windows inbyggda brandvägg peerguardian fungerade ett tag tills jag skulle ladda ner den stora filter filen
+,Pinheed,2005-02-19T01:04Z,Körde spybot s&d förut och den hittade bara några cookies som den tog bort
+,Oxcide1337,2005-02-19T02:00Z,Någon som vet varför den blockar www.fragbite.com ? :>
+,gammelkorv,2005-02-19T08:37Z,"stäng av http blockern så funkar de ..någon tyckte att den sidan (finns fler, anntar att de har o göra med Ads på sidorna) skulle blockas kanske"
+,BOAN_Orignal,2005-02-19T10:42Z,"Det är bara en liten detalj jag saknar i denna version och det är statistiken.
+Att se hur många blockningar som är gjorda är alltid trevligt ;)"
+,gammelkorv,2005-02-19T11:49Z,du kan ju spara alla blockeringar via en .log fil ..sen får du väll räkna dom själv ;)
+,Oxcide1337,2005-02-19T12:50Z,"Ibland kommer det upp fel medelande för mig, sen stängs programet bara av :(((("
+,gixxer,2005-02-19T13:00Z,"Gammelkorv,du kan väl lägga upp din ""nya"" version av PG2.0!?Varför installerar sig inte PG2.0 i programmappen,som PG1,99 gjorde?
+:unsure: :unsure:"
+,Oxcide1337,2005-02-19T14:22Z,"Gixxer, är kanske för det är en beta, är dock inte säker :) Håller med! Upp med den nya versionen! :>"
+,gixxer,2005-02-19T15:36Z,"Hur kan man kolla att den blockar???Inte ett enda försök på flera timmar........... blocklistan (4mb)va´fan lägger jag den lämpligast???
+:bike: :bike: :unsure: :thumbsup: :bike:"
+,BOAN_Orignal,2005-02-19T17:20Z,"gammelkorv: Jo det kan man ju göra...men jag brukar tappa bort mig efter 12391...nåt mystiskt med den siffran tror jag  :lol:
+Men statistikfunktionen kanske kommer i den skarpa versionen...den som väntar bidar sin tid och överraskar inte räven med rönnbär ;)"
+,BOAN_Orignal,2005-02-19T17:44Z,"gixxer: Länka till den i hantera listor, ta bort de andra länkarna....radera även listorna ur ""lists-mappen""...onödigt med dubletter, eftersom den listan innehåller alla andra.
+
+Klicka sedan på ""Sök efter Uppdateringar"" eller starta om PG.
+
+Sedan bör du se blockningarna i fönstret när du laddar hem något"
+,BOAN_Orignal,2005-02-20T01:23Z,"Om någon är intresserad har jag fixat iordning installationsprogram för denna PG2beta. 
+Både för WinXP och W2k.
+
+Settingsfilen är även ändrad till att använda den ""största"" listan från Methlabs.
+
+Finns intresse så postar jag dessa verisoner här på PB.
+
+Och gammelkorv, du är givetvis omnämnd som översättare i installationsprogrammet  ;)"
+,gixxer,2005-02-20T02:18Z,"Självklart är vi  intresserade av att lägger upp den!!!!!!!
+BOAN Orignal,du är grym!!!!!
+:thumbsup: :thumbsup: :thumbsup:
+:bike: :bike: :bike:"
+,BOAN_Orignal,2005-02-20T02:42Z,"Om gammelkorv godkänner det så kommer de upp, man måste ju respektera copyrighten...eller hur var det?  :lol:"
+,BOAN_Orignal,2005-02-20T03:27Z,"Nu är de upplagda med installationsprogram
+
+XP: http://thepiratebay.org/torrents-details.php?id=3292442
+
+W2k: http://thepiratebay.org/torrents-details.php?id=3292445"
+,gammelkorv,2005-02-20T08:48Z,tackar Boan :)
+,cuplex,2005-02-20T20:31Z,"is there a way to make it english? maybe you can post the english version?
+
+i can use it in swedish but it would be great in english! thx in advance"
+,gammelkorv,2005-02-21T01:16Z,"english version:
+http://thepiratebay.org/torrents-details.php?id=3292894&hit=1"
+,mikee_75,2005-02-23T17:48Z,ingen som kan seeda den här lite till?
+,bebban,2005-02-25T17:11Z,fattar inte hur man laddar ner den bara....

@@ -1,0 +1,68 @@
+﻿User Type,Username,Date,Text
+,Woyzeck,2004-09-21T20:09Z,"Nej, för mig funkar det icke med senaste Alcohol 120%, och inte med Daemon Tools heller. Disk verification error med båda. Nån annan som haft bättre tur?"
+,Aragoorn,2004-09-22T02:54Z,nope samma fel för mig. kanske kommer nån crack eller så
+,einstein,2004-09-22T06:59Z,"Great game! Strategy, management and adventure. Pity it does not have any LAN possibilities."
+,Aragoorn,2004-09-22T10:00Z,nån som fått igång spelet än??
+,fruktjuice,2004-09-22T10:54Z,"funkar ju inte med senaste Alcohol. 
+kan nån berätta vart mankan få tag på ett crack?"
+,Krisiun,2004-09-22T12:22Z,"Bra att folk lägger upp saker, men att lägga upp en fil som bara går att bränna med en viss version av ett visst programm...? Varför inte bara köra bin/cue eller iso-filer?"
+,Mejsan,2004-09-22T19:20Z,"Spelet fungerar för mig, jag avinstallerade Daemon-tools. 
+
+Installerade Alcohol 120% nedladdad från www.alcohol-soft.com Brukte expert läget under installation och döpade om namnet på driverne till cgbus og cgscsi.
+
+Sen brukte jag default inställningarna på emulering. Inget tjafs. Märk att du måste nog avinstalllera all clonecd programvara för att få den till att fungera. :)
+
+Good Game
+
+Mejsan"
+,vyhulsson,2004-09-23T23:21Z,I'm trying to run it from alcohol and daemontools and there is the same problem: CD VERIFICATION ERROR. Got any ideas? Please write in english if it's possible. Thanks.
+,Aragoorn,2004-09-24T19:23Z,ingen som vet om det finns nån crack än??
+,Coffe_H,2004-09-25T12:20Z,"så länge man väntat på detta spel och när man väl fått ner det så funkar det inte , gissa om man blev förbannad.. 
+
+har testat  på alla sätt o vis med  alcohol 120%  och får det ändå inte att funka , så du som löste det med alcohol 120%  kan du inte ge en närmare beskrivning hur du gick till väga för att lösa det ..  
+
+Får upp  Disc verification error hela tiden ,   har ändå  avinstallerat  alla  Stealth cd/dvd program som finns på datorn .. 
+Mvh"
+,Mejsan,2004-09-25T18:16Z,"Do like this :
+
+Install version 1.9.2 of Alcohol. Make sure you rename the driver files it install. I think you need to install in Expert mode to be allowed to rename em. (Im guessing since i always do custom installs and expert modes :)
+
+Make sure that the emulated drive has a higher ranked letter than your real cd-dvd drive. I got my Alcohol drive as letter D: and my Nec 2510 as letter F:
+
+Make sure you dont have CDCLone or any other suspicious clone/emulation program installed.
+
+Thats all info i can offer you :)
+
+Have Fun
+
+Mejsan"
+,Coffe_H,2004-09-26T14:40Z,"thanks  m8 i got it to work now ..  so everybody else with this same question    IT DOESNT  WORK .. 
+
+just do like this and it will work without no problem at all.. 
+
+/Coffe H"
+,wickerman,2004-09-27T14:35Z,"förstår inte varför ni gnäller , funkar ju skitbra med alcohol 120 %"
+,Sousuke,2004-10-05T15:23Z,"I got other problems when i try to install the game using Al 120%. When i mount the file the music starts but nothing happends. U can isntall it by open the file setup.exe but after i chose where i want to install it and the installation starts the program crach :(  I tried the same on my old computer and it work, but then again, the game wont run on my old computer... some help??"
+,rialin,2004-10-06T13:38Z,"Vet inte om man får referera till andra torrent sajter men jag har hittat en del bra tips på hur man ska kunna dra igång detta spel så jag kommer att klippa och klistra lite från den sajten
+
+Quoted from SUFLE - ""I made it work, so how;
+
+I used latest version of Alcohol 120%.
+I enabled RMPS emulation option.
+With burn image wizard I burned the image file of the game.
+Before burning;
+!!!I checked RMPS emulation also which is shown before burning and I think most importantly changed  ""customized"" to ""VOB V5"" which is below of the same screen!!! (This must be the trick...)
+Game is protected by VOB copy protection so why I selected ""VOB V5"".
+Alcohol must be installed and RMPS emulation must be turned on if you do not want a problem in order to play the game
+Installed it and game works great with the CD like an original copy.
+
+Good luck!""
+
+Det fanns en del andra tips om t.ex. hur man ändrar i registret för att kunna mounta med daemon tools. Jag ska prova detta iaf
+
+;)"
+,galand,2004-10-09T09:41Z,"unfortunately this don't work.also RMPS emulation didnt resolved the problem,all the time port royale says CD verification error.so what can i do to play this game at least??"
+,wickerman,2004-10-09T19:18Z,finns det nått fusk eller trainer till spelet än ? 
+,Wobin,2004-10-23T22:53Z,"Fy fan vilket ruttet spel! Ärligt talat! Jag spelade ett nästan identiskt spel (Patrician 3 tror jag det var) för typ 4 år sen, och det var för att jag hade brist på annat.
+
+Ett tips, ladda inte hem det här om ni inte gillar UBER sega spel!"

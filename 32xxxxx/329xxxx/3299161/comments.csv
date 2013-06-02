@@ -1,0 +1,46 @@
+﻿User Type,Username,Date,Text
+,cccccc,2005-03-07T17:23Z,Does the game work ???
+,torvalds,2005-03-08T11:00Z,"yes, I have played it very often. Do NOT forget to apply the patch/update tho..."
+,hakkster,2005-03-09T17:22Z,"Does it work with windows?
+"
+,torvalds,2005-03-10T09:11Z,"Of course NOT! why do you think it says ""Linux"" ? it is a LINUX ONLY game cd, released by LokiGames (www.lokigames.com)."
+,pidge,2006-02-10T13:01Z,Any chance of someone seeding this???
+,fluffyrandom,2006-03-05T03:37Z,1550 downloads and only 1 seed. Darn thats sad.
+,sgarnev,2006-05-20T01:52Z,Thanks ;)
+,twatley,2006-06-25T15:10Z,guys i'm trying to download it. someone please seed. when i get it i will keep seeding it for a week on a 155M line so you can all go crazy.
+,Zoolie,2006-08-12T22:00Z,someone pls seed i cant download.......pls....
+,Thorsi,2007-01-18T17:28Z,"Har lastet ned, installert og testet, funker bedre enn å spille Windowsversjonen i Cedega. :-) Deilig å se at noen spill faktisk blir gitt ut også til Linux etterhvert. Tusen takk, torvalds, denne skal jeg seede mye på i tida framover.
+
+I've downloaded, installed and tested, it runs perfectly. :-) One of the best games ever made! I will seed this for some time."
+,ja bo niby kto,2007-01-25T16:52Z,Working perfectly. I would seed for some time.
+,Slasktask,2007-05-18T17:11Z,"Is this fast?
+
+
+Can someone tell me how I download and install"
+,Volatile,2007-06-10T23:47Z,Yay! \o/ Finally!
+,Volatile,2007-08-27T15:00Z,"Patchen verkar inte funka på nyare system, då den är beroende av en arkaisk tarväxel som inte stödjs längre... Finns det någon möjlighet att nån kan lägga upp spelet patchat och klart?"
+,gaisboy,2008-03-02T15:57Z,"förlåt, men som ny linux (ubuntu) har jag noll koll på hur man installerar homm3 haft den i win i 7 år, och älskar spelet. Hur installerar jag den? Gärna i från scrats å på ""bäbis språk"""
+,mdkaneda55,2008-03-27T20:46Z,"got this installed in Ubuntu Gutsy, here's the breakdown of what i had to do...
+
+sudo apt-get install ksh
+sudo ksh setup.sh
+
+after it's installed.. when trying the update, it fails, so do this:
+
+cd heroes3-1.3.1a-unified-x86/bin/Linux/x86/
+sudo rm loki_patch
+wget http://icculus.org/~msphil/loki/x86/loki_patch
+chmod +x loki_patch
+cd ../../../
+sudo sh update.sh
+
+after that, it runs, but i had a problem with permissions for the conig files... so make sure you have write-access to your ~/.loki/ directory and all sub directories .. then it works flawlessly! =)"
+,irgumburgum,2008-05-18T14:23Z,"Im trying to play the game in full screen mode, but it doesn't seem to work. Why?
+
+I use the full screen argument: .../path_to_the_game/heroes3 -f
+but running always in windowed mode. :(
+
+Please help me :)"
+,traxtenberg,2009-07-26T19:42Z,It's such a huge pity that random map doesn't work
+,linux1234,2011-09-18T21:01Z,"hello, i have downloaded this game and i do not know how to install it...i am new to linux (actually i have no more than 10 hours on linux) and i am lost in this... can anybody please help me and  show me the whole installation prosess, step by step..you konw, like ""for dummies""...i would be very generous..."
+,BlackNoxis,2011-11-02T20:44Z,"Linux1234 I'll tell you how :D, give me a private message and we will talk on some messenger."

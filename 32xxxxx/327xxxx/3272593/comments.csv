@@ -1,0 +1,34 @@
+﻿User Type,Username,Date,Text
+,MaXZooM,2005-01-04T11:07Z,Ska man typ lägga dehär på XboXen eller???:/
+,Drizzel,2005-01-04T11:22Z,??? I do not understand what you ask because I only Speak English.
+,Selph,2005-01-04T12:08Z,hahaha
+,Ssargon,2005-01-04T12:56Z,Varför har denna fått en etta i betyg? Är det för att någon inte kan få den att fungera eller är det någon som gett den etta för att dom inte vet vad dom ska göra med filerna?
+,matzh,2005-01-05T08:46Z,I dont think there is any problem.  People tend to forget to also clear the Albums/.* files. Until I found that out I had problems with versions newer than 12th Dec..
+,matzh,2005-01-05T08:47Z,Should be Albums/*.db files
+,kalmar5,2005-01-05T09:20Z,"My Webradio doesn´t work, but everything else is running smooth....
+What should i do ??"
+,DOS4GW,2005-01-05T11:21Z,"ronnyr: Ingen verdens ting feil med menyene. Bruk en oppdatert xml, og konfigurer den. Det er ikke harddisken som går i hvilemodus, det er Xboxen som henger og viften som endrer hastighet."
+,skrikspya,2005-01-05T12:12Z,"matzh:
+Vart ligger Albums/*.db filerna? i xbmc mappen? för jag tar alltid bort den gamla helt och även face mapparna i udata/tdata innan jag lägger in en ny version?"
+,kev0n,2005-01-05T19:35Z,Jag fattar inte är d här typ ett progg till xboxen lr tytp som en hd loader?!
+,Brodda,2005-01-06T12:28Z,"Kan nån skicka en snabb guide hur man gjör för att lägga in den nya versionen på boxen,om nån har lust alltså.
+broddman@hotmail.com   Peace,,"
+,FAK7OR,2005-01-06T22:49Z,"1. Starta Xboxen med Evolution X eller något annat som har en FTP-server funktion. Boota t.ex. med en EvoX CD. 
+
+2. Ladda upp filerna till valfri partition och mapp. Exempelvis F:AppsXBMC om du har en stor HDD.
+
+3. Klart! Du startar XBMC på samma sätt som du startar andra applikationer på Xboxen. 
+
+
+Du kan även boota direkt till XBMC, du måste då döpa om default.xbe till evoxdash.xbe och lägga unden roten på C: partitionen. Samt göra lite ändringar i xml-filen med inställningar (peka på mappen där XMBC ligger).
+
+Glöm inte att ta backup på allt du skriver över
+"
+,Dustie,2005-01-07T16:28Z,"Why don't you guys just use Avalaunch as dashboard?
+
+It can both download the newest xbmc and install it or download the latest xbmc update and patch the xbe.
+
+Its not like anyone still uses crappy old EvoX right...RIGHT? ;-)
+
+I can't see any reason to not update to a better dashboard. Especially when it got features like download xbmc (and other programs), update itself, faster FTP and so on.
+"

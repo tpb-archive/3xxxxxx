@@ -1,0 +1,18 @@
+Pippi Langstrømpe - dansk, norsk, svensk, finsk (suomi) - skønt børnespil, især for de mindste (selv 2-årige kan så småt begynde at lære det).
+
+bzip2-compressed ISO-file
+Works in GNU/Linux using Wine
+
+If using GNU/Linux (requires wine):
+bunzip2 pippi_langstrompe.iso.bz2 #(bzip2 is very thorough, this may take a LOT of time)
+mkdir /mnt/pippi
+mount -o loop pippi_langstrompe.iso /mnt/pippi
+cd /mnt/pippi
+cd [mit sprog]
+wine Pippi.exe
+At this point it might ask if you want to install QuickTime. Just press yes, and follow the guide (no changes needed actually, you can just press "next" all the way through).
+
+If using Windows:
+Get bzip2 from http://gnuwin32.sourceforge.net/packages/bzip2.htm - i'm not sure if WinRAR can do the job too
+Decompress (bzip2 is very thorough, this may take a LOT of time)
+Mount iso with Daemon Tools or similar program

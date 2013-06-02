@@ -1,0 +1,55 @@
+RELEASE.DATE: 08/08/2003
+DVD.DATE...: 14/10/2003
+RELEASE.NAME: es-matre.partxxx.rar
+IMDB.RATING: 7.3
+RELEASE.TYPE: WS PAL DVDR
+LIMITED....: No
+RELEASE.YEAR: 2003
+SIZE........: 96x50megs
+[IMDB URL]
+http://us.imdb.com/Title?0234215
+
+[GENRE]
+Sci-Fi / Action / Thriller
+
+[PLOT OUTLINE]
+Neo and the rebel leaders estimate that they have 72 hours until
+250,000 probes discover Zion and destroy it and its inhabitants. 
+During this, Neo must decide how he can save Trinity from a dark
+fate in his dreams
+
+[ENCODING]
+VIDEO: Downsampled
+AUDIO: DD 5.1 (German 5.1 had to go)
+IMAGE: .gi
+SUBS: English, Danish, German, Suomi, Swedish, Iceland, Norwegian
+MENU: Yes
+
+
+som ni ser så är detta en regelvidrig .gi-image, så därför medföljer;
+The.Matrix.Reloaded.PAL.DVDR.NFO.Addendum.For.Gi.Wankers-ESVCD
+
+denna innehåller;
+Okay.. Appears that we broke some rules...
+
+For the guys who does'nt know howto work around .gi
+images, here's a "fix"
+Start with renaming the files like this :
+matrel.gi     = delete it.. Not to be used
+matrel(11).gi = matrel1.gi
+matrel(12).gi = matrel2.gi
+matrel(13).gi = matrel3.gi
+ 
+Fire up your commandpromt and do a:
+copy /b matrel1.gi+matrel2.gi+matrel3.gi <outputname>.iso
+This will create a working .iso file for you to burn/mount/whatevah'
+
+Big Thanks to a couple of special lads.
+You know who you are ofcourse...
+
+Now STOP WHINING FFS!
+
+Och, så medföljer;
+The.Matrix.Reloaded.PAL.DVDR.REAL.PROPER.Fix.For.ESVCD-NiSSE
+
+antagligen nåt windowsjox för att slå ihop dem till en .iso - inte testat.

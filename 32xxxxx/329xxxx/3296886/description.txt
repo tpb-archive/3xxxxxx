@@ -1,0 +1,93 @@
++-------------------------------------------------------------------------------+
+
+                            Xbox-Hq BIOS CD Pack v2.0!
+
++-------------------------------------------------------------------------------+
+
+          Created by: DJB                      Created on: 2004-03-02
+
++-------------------------------------------------------------------------------+
+
+RELEASE NOTES:
+--------------
+
+This pack was specifically made for Auto-Installer Deluxe v2.0, however I decided
+to release it a little bit earlier so that you all can take advantage of it.
+
+As previous users would have noticed, there are not so many different variations
+of the BIOS files this time around, however I have made up for that by including
+Debug BIOSes and the X3 BIOS. Please note in order for the Debug BIOS to work
+properly you need the Xbox Development Kit (XDK) installed on your Xbox. 
+
+Always remember to check what size BIOS your Modchip requires before choosing a
+ISO image to burn to CD / DVD, as the wrong choice can damage your Modchip.
+
+Enjoy this nice little release from Team Xbox-Hq.
+
++-------------------------------------------------------------------------------+
+
+INCLUDED BIOS CDS:
+------------------
+
+-- 256k BIOS Boot CDs --
+
+256k.evox.m8plus.fc.137         * Evox M8Plus 1.0-1.5 w/ FC Boot + 137gb Support
+256k.evox.m8plus.v16.fc.137     * Evox M8Plus 1.6 w/ FC Boot + 137gb Support
+256k.x2.4981.06.fc.ef           * X2 4981.06 1.0-1.5 w/ FC Boot + EjectFix
+256k.x2.4981.67.fc.ef           * X2 4981.67 1.0-1.5 w/ FC Boot + EjectFix
+debug.256k.yoshi.k2005          * Debug BIOS 1.0-1.5
+debug.256k.yoshi.k2005.v16      * Debug BIOS 1.6
+
+-- 512kb BIOS Boot CDs --
+
+512k.evox.m8plus.fc.137         * Evox M8Plus 1.0-1.5 w/ FC Boot + 137gb Support
+512k.evox.m8plus.v16.fc.137     * Evox M8Plus 1.6 w/ FC Boot + 137gb Support
+512k.x2.4981.06.fc.ef           * X2 4981.06 1.0-1.5 w/ FC Boot + EjectFix
+512k.x2.4981.67.fc.ef           * X2 4981.67 1.0-1.5 w/ FC Boot + EjectFix
+debug.512k.yoshi.k2005          * Debug BIOS 1.0-1.5
+debug.512k.yoshi.k2005.v16      * Debug BIOS 1.6
+
+-- 1mb BIOS Boot CDs --
+
+1mb.evox.m8plus.fc.137          * Evox M8Plus 1.0-1.5 w/ FC Boot + 137gb Support
+1mb.evox.m8plus.v16.fc.137      * Evox M8Plus 1.6 w/ FC Boot + 137gb Support
+1mb.x2.4981.06.fc.ef            * X2 4981.06 1.0-1.5 w/ FC Boot + EjectFix
+1mb.x2.4981.67.fc.ef            * X2 4981.67 1.0-1.5 w/ FC Boot + EjectFix
+1mb.x3.3029                     * X3 3029 1.0-1.5
+1mb.x3.3029.v16plus             * X3 3029 1.6
+debug.1mb.yoshi.k2005           * Debug BIOS 1.0-1.5
+debug.1mb.yoshi.k2005.v16       * Debug BIOS 1.6
+
+NOTES:
+
+* 1.0-1.5 means the BIOS is for Xboxes 1.0-1.5, while 1.6 is for 1.6 and higher.
+
+* FC Boot means your Xbox will look for F:evoxdash.xbe before looking
+  on your C Partition for your evoxdash.xbe file.
+
+* X2.4981.06 is good for 120gb HDDs and smaller, 4981.67 is needed for HDDs that
+  are larger than 120gb.
+
+* Debug BIOSes are used by developers and are not needed for normal users. Only
+  use a Debug BIOS if you know what you are doing!
+
++-------------------------------------------------------------------------------+
+
+INSTALLATION NOTES:
+-------------------
+
+1) Find out what size BIOS you require for your Modchip, as flashing it with the
+   wrong size can/will damage your Modchip.
+
+2) Use WinRAR to extract the ISO image from it's RAR file. The ISO image will be
+   around 300mb when extracted.
+
+3) Burn to a CD / DVD using DVD Decrypter, Nero, or your fave burning program.
+
+4) Read the instructions provided by your Modchip manufacturer on how to flash
+   your BIOS after you have burned this CD before attempting anything.
+
++-------------------------------------------------------------------------------+
++-                        Xbox-Hq NFO File 0.2 by DJB                           +
++                               www.xbox-hq.com                                -+
++-------------------------------------------------------------------------------+

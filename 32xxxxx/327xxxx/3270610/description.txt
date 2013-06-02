@@ -1,0 +1,15 @@
+Mounting images as virtual drives gives you some interesting benefits: 
+   
+  -You can test your image files before burning them to CDs 
+  -You can copy your original software as image file and run it from it. This improves usage speed a LOT and this way your orginal CD doesn't get worned out 
+  -You can keep important CDs handy as image files for exp. in your laptop. 
+   
+  Daemon Tools is able to emulate most copy protections, so they won't keep you from taking the advantage of virtual drives. 
+   
+  I have worked with this tool a little and I must say that I am quite impressed. 
+------------------------------------------------------------------------------------------------
+Changes from Daemon Tools v3.46 to Daemon Tools v3.47 
+Fixed lockup with some images containing bad sectors made by Alcohol (MDS) 
+
+Fixed Nero InCD formatting problem with DAEMON Tools present 
+Fixed atapi.sys locking problem (as a result, some emulation ability is removed for PCD5 until new release) 

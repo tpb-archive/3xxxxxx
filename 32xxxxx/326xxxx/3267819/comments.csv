@@ -1,0 +1,9 @@
+﻿User Type,Username,Date,Text
+,c_berglu,2004-12-24T17:45Z,how do i convert this to avi or dvd????
+,SHIRASE,2004-12-26T02:34Z,"Converting to AVI is easy:
+Open the files with VirtualDubMod
+Extract the audio stream (OGG format), and convert to MP3, AAC, or what ever you want.
+Add the recompressed audiostream and deselect the exsisting OGG encoded audio.
+Save as AVI
+
+Making a MPEG or DVD version (MPEG2) is a bit more involved, and the video quality will be degraded. The recompression of the audio also means that the quility is degraded, however I included that stage as my guess is you want the movie to play on a standalone player, and most of the time these devices does not support OGG."

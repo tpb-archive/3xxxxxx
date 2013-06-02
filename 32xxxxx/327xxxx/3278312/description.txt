@@ -1,0 +1,19 @@
+AnyDVD.v4.5.5.1.Final
+
+- New: Added support for a new version of the "Sony ARccOS
+protection" as found on "The Forgotten" (US) to the option
+to remove "Protection based on unreadable Sectors"
+- New: Added support for the "Settec ALPHA-DVD protection"
+as found on "Old Boy - Final Edition" (Korea) to the option to
+remove "Protection based on unreadable Sectors"
+- New: Added names of protection (Arccos, Puppetlock, ALPHA-DVD)
+to information window.
+- New: Added Video Standard to information window
+- New: Added option to deactivate the CSS key archive
+- Change: Filesystem locking, to fix problems with autoplay
+- Change: Background of settings dialog
+- Fix: Information window could show garbage characters
+- Fix: Possible program hang
+- Fix: Uninstaller could display corrupt strings
+- Some minor fixes and improvements
+- Updated languages

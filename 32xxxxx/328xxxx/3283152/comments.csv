@@ -1,0 +1,84 @@
+﻿User Type,Username,Date,Text
+,dreamhax0r,2005-01-29T23:44Z,"hmm...the program works just fine for me.
+Did you follow the steps described in the .nfo file, and do you get any error messages or so at all?"
+,Creammannen,2005-01-30T01:26Z,"Add this 2 lines to your HOSTS file (search for it in the windows dir):
+
+Ive searched but couldnt find a map named hosts. "
+,Urban,2005-01-31T09:26Z,"thanks, i have wanted this :D"
+,Urban,2005-01-31T10:54Z,"i too get the same error message:
+Application update check failed (DownloadErrorUnrecoverable, HTTP code 404) Please check your internet connection and restart this application."
+,makishima,2005-01-31T14:21Z,Finns det någon som har fått spelet att funka och som är villig att förklara på svenska hur man ska gå till vägas. Jag har följt info men får inget resultat.
+,dreamhax0r,2005-01-31T20:46Z,"1. Kolla brandvägg. Filen 'iws.exe' får ej vara blockerad trots att att programmet endast körs lokalt.
+
+2. Om du har (eller har haft) demot installerad, ta bort den. Jag var tvungen att rensa bort 'thriXXX' associationer i registret för att få dennna hackade version att fungera.
+
+Ser att den har tankats ner rätt så många gånger, så jag hoppas att de flesta har fått det att fungera:)"
+,BlizzardIce,2005-02-01T05:45Z,"Yeah did program did not work at all, I got to the part where it says Application Update Check Failed"
+,dreamhax0r,2005-02-02T01:00Z,"Thx for the help Muggebigge :thumbsup: , that solution did not even cross my mind, maybe because i never had that problem for some reason...
+
+Anyway...I am glad you got it working Dusty."
+,Mitch,2005-02-02T15:30Z,"doesent work.. 
+""enter code for full access:"" 
+what code?"
+,dreamhax0r,2005-02-02T15:58Z,"You can type in anything you like in that code box, it is a cracked version..."
+,Alfolav,2005-02-02T20:48Z,"can anyone explain the procedure? I downloaded the file.. extracted it. added the two lines.. clicked on the 3dplugin file, and installed it, then on the launcher file.. now what? where is the exe file for the game? "
+,hardkore,2005-02-03T09:34Z,"For me, it loads up fine and everything but the girl keeps asking for a code. I type in whatever and it says...
+
+""Error.
+
+No internet connection for verifying your test access could be established.
+Please try again or check your internet connection""
+
+Anyone else have this issue? Any way around it?"
+,BlizzardIce,2005-02-03T10:24Z,"Yeah, I got past the Update bug, now its saying cant access the internet and it wont let me play....."
+,GiDi,2005-02-03T18:51Z,"I've got an apache webserver running on my CPU that is interfering with the app, anyone got a solution to this except shutting it down?"
+,ftlftllm,2005-02-05T09:49Z,"how do you change the video memory to 16mb?
+and do we know for sure this wont work on firefox?"
+,Civeta_Dei,2005-02-08T15:13Z,"Jag får samma felmeddelande.
+
+
+""Error.
+
+No internet connection for verifying your test access could be established.
+Please try again or check your internet connection""
+
+Någon måste ha kommit på ett sätt att klara av det här!"
+,Civeta_Dei,2005-02-10T18:37Z,"Kom igen!
+
+Jag har letat efter detta hur länge som helst, hjälp mig!"
+,dreamhax0r,2005-02-12T13:10Z,"hmm...jag har försökt att återskapa det där ""...test access.."" felmeddelandet utan resultat, så jag vet inte hur ni har lyckats få det.
+
+Så här har jag iallafall installerat 'spelet', och det har alltid fungerat:
+1. Packa upp zippen.
+2. Lägg in raderna '127.0.0.1   www.3dbilling.com' och '127.0.0.1   www.hentai3d.com' längst ner i HOSTS filen (C:windowssystem32driversetc...)
+3. Klicka på filen '3Dplugin.exe' och installera den.
+4. Starta programmet med '3DLLauncher.exe' och välj normal eller hentai mode.
+5. Skriv vad du vill i password rutan och det skall vara klart!
+
+En aktiv brandvägg kan blockera programmet så att det inte startar, om jag spärrar 'iws.exe' så startar inte programmet...
+Jag fick även problem efter ha laddat ner och kört demot från den officiella hemsidan...förmodligen så skriver den ThriXXX versionen över någonting från den crackade versionen.
+
+Allt jag kan komma på just nu...ska fortsätta testa lite till...hör av mig om jag komer på nåt mer, lycka till!"
+,TerraFirma,2005-02-12T14:32Z,When I try to type in anything in the code box. It says that I don´t have any internet connection. I hav not installed any demo versions before. So how will I make this game work. Please help me.
+,Civeta_Dei,2005-02-12T18:49Z,"Det här suger! :(
+
+Jag har testat det mesta nu..
+Plus att jag inte kan avinstallera det på normalt sätt för att den klagar på att Install.log inte är rätt."
+,coccozz,2005-02-22T23:17Z,"Det fungerar juh inte alls.
+Kommer inte förbi application update buggen :("
+,jokkon,2005-03-17T00:17Z,"It doesn´t work in firefox for me, but it firsts opens up in it.. so, ctrlc+v in explorer, then shut down the firefox window before it loads..
+
+Works for me anyhow. :)"
+,pissemugg,2005-03-29T01:02Z,"helskummt, spelet funkade utmärkt för mej när ja körde det i IE, sen avinstallerade jag spelet, och installerade det igen, och gjorde EXAKT som ja gjorde första gången, men nu står det nåt me ""check internet connection"" :/"
+,akla,2005-04-14T23:04Z,"Ingen som råkar sitta på en kod som fungerar, inte heller jag kan skriva vilken kod som helst."
+,cpunk,2005-05-13T11:50Z,"hehe, era stackare
+
+Alltså gör följande istället, tanka ner orginal demot, installera och kör en gång normalt som bara test, ta sedan nån p2p klient och sök upp 3d sexvilla.rar som ska ligga runt 9 mb. Tanka ner och kör den, den patchar sedan registret efter installationen. När du startar den fortsättningsvist så kör du den nya länken cracket skapat, trycker på SPACE efter en liten stund och väljer bara demo i kommande fönster. Nu kan du köra med 3 olika tjejer och en massa ""verktyg"" + en man.
+
+Om ni frågar mig så är det här jävligt fult och roligt ;D
+
+Happy wanking"
+,Tom2510,2005-08-10T23:22Z,seed?
+,Joaqii,2005-08-17T17:09Z,"Anybody who knows some way to update this, since it's not exactly up to date with the version out now?"
+,Gwaaarrrrrrrggghhhh,2007-12-30T06:34Z,"""Could not bind socket. Port and address already in use""  Thats all i get even though i got nothing else running.ive fone the firewall and everthing in the info but still doesnt work...what a peice of shit game.....all tho i dont fully understand the "" add these lines to the host something something.....how the fuck to u add 2 lines of text inside a folder?? or do u rename the file called ""host"" or what?tried it still dont work....fuck this shit and its hocus pocus tricks to make it work.....from here on in im sticking games with cracks or mounting...go die"
+,LardDude,2009-06-12T18:13Z,seed

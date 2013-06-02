@@ -1,0 +1,41 @@
+Sid Meier's Pirates 
+
+Test your skills as a sea captain exploring the high seas and exotic 
+ports in a richly detailed 3D world. Overtake the enemy and seize 
+valuable booty. Exchange plank-shattering broadsides in fierce naval 
+battles, and engage in duels with worthy opposing captains. 
+
+* Experience an all-new story built upon the most fun and compelling 
+  features of the original Pirates! game 
+
+* Live out multiple quests through a non-linear, open life timeline 
+  where every decision poses distinct challenges and possibilities 
+
+* Witness the consequences of your actions in current events throughout 
+  the Pirates! world Battle, overtake and command 27 different ship 
+  types, enhanced with assorted ammo, cannon and other upgrades 
+
+* Take on various foes including merchant and military captains, 
+  ferocious pirates, evil gentry and even rival suitors - each with 
+  different skills and abilities 
+
+Use serial: ********************************* 
+
+Alcohol 120% detection Note: 
+
+Current Alcohol 120% version (1.9.2) is detected by newest Securom, 
+and therefore game doesn't launch. Until an updated Alcohol version 
+is released you can bypass this detection by following those simple 
+steps: 
+
+1. Launch regedit.exe from "Start Menu/Run dialog" 
+2. Locate the following key: 
+    "HKEY_LOCAL_MACHINEHARDWAREDEVICEMAPScsiScsi Port 2" 
+    The port number may vary, look for key with reference to 
+    "a347scsi" 
+3. Right click on this key and choose "Permissions..." 
+4. Select the "Administrators" group 
+5. Check the "Deny" box on second permission row ("Read") 
+6. Validate by "Ok" 
+7. Answer "Yes" to the confirmation dialog 
+8. Close the Registry Editor window and enjoy this nice game.

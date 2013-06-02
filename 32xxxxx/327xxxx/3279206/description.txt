@@ -1,0 +1,14 @@
+Discworld Noir 
+
+Ok, as far as we know:
+Image1 is CD3
+Image2 is CD2
+Image3 is CD1
+CD1.cue is pointing to image1
+CD2 points to where it is supposed to
+CD3.cue is also pointing to image1
+
+So either change the names of image1 and image3 (in which case you also need to edit CD3.cue and have it pointing to image3 )
+Or simply edit CD1.cue and have it point to image3, in which case at least the cue-files will represent the correct CD#.
+
+And please seed some after you're finished downloading.

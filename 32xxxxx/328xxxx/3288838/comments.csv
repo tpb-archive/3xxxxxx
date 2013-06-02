@@ -1,0 +1,13 @@
+﻿User Type,Username,Date,Text
+,PolSkie,2005-02-12T08:14Z,funkar verkligen sånna här program för jag har hört att visa säger att det e bara skit snack med sånna här program som fixar till minnet...
+,triangle,2005-02-12T10:52Z,"Skitsaker imo.
+RAM-minne är till för att användas. Windows använder RAM för t.ex. filsystemscache. Om något program behöver minnet så slängs delar av filsystemscachen.
+Andra saker är processer som ligger i minnet och som sådana här program tvingar ut i växlingsfilen, vilket bara ger trubbel när man ska använda dem igen när de ska läsas in igen.
+När det är ont om fritt fysiskt minne så kan VMM (Virtual Memory Manager) själv skicka ut det som inte behövs.
+Det enda sådana här program skulle kunna vara bra för, men jag tror det är extremt osannorlikt att något av dem kan göra det, är att ""täppa"" minnesläckor hos processer. En minnesläcka är ju när en process konstant drar mer minne pga en bugg. Dock så kan ""ingen"" se att det är wasted, processen måste stängas först.
+
+På windows 95/98/ME så kan sådana här varit befogade, men 2000,XP och 2003 har bra minneshantering."
+,BOAN_Orignal,2005-02-13T13:22Z,"Jag själv har använt detta program i några år på min W2k-advancedserver för att inte sänka den när jag kör olika p2p-klienter.
+Vet inte om klienterna är dåligt skrivna eller vad det beror på, men minnet äts upp relativt snabbt och servern kraschar utan detta program.
+Så för mig fungerar det ypperligt och är ett måste för att köra p2p, men på andra OS kanske det inte behövs."
+,kungensbror,2005-02-27T19:48Z,"Jag använder TuneUp Utilities 2004, som innehåller en sån här funktion... Jag vill faktiskt påstå att det funkar! Iallafall med TuneUp."

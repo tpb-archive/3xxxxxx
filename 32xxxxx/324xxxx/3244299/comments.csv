@@ -1,0 +1,27 @@
+﻿User Type,Username,Date,Text
+,kami,2004-10-03T16:15Z,"hum, inte synlig... illa"
+,paesan,2004-10-03T16:37Z,"Jag får en sån här fil (thepiratebay.org) som inte kopplar med Bittorrent-programmet. Det verkar inte vara en torrent-fil. Hur gör jag??
+
+
+Danke…"
+,paesan,2004-10-03T21:43Z,"Det händer inget när jag klickar på filen. Och döper jag om den till .torrent så startar den programmet, men det börjar inte att ladda. Helskumt!!"
+,Jaernregn,2004-10-04T02:26Z,"Ni som har problemet, kör ni Windows? Jag kör OSX och kan inte ladda ned torrentfiler som inehåller - eller vars innehåll - innehåller å,ä och ö. Gäller samma sak med NeoModus DC för OSX. Outvecklade applikationer..."
+,paesan,2004-10-04T10:14Z,"Jag kör också mac, det kanske är det som är problemet…"
+,xiroc,2004-10-04T13:05Z,"Problemet med åäö etc i OSX är att HFS+ sparar filnamn i UTF-8, och om filnamnen består av tecken utanför ASCII blir det ""nästan alltid"" ogiltig UTF-8, vilket gör att filen inte kan sparas.
+
+För att fixa det här kan man göra något av följande:
+1, Använda en klient som fungerar som den ska, till exempel Azureus, om man har dator nog för java.
+
+2, Själv fixa klienten, är inte så svårt att patcha original-BT eller BitTornado så att den konverterar till UTF-8
+
+3, Spara till en volym som inte lagrar filnamnen i UTF-8. Till exempel kan man skapa en UFS eller HFS (ej plus) diskimage och spara till denna. Man kommer dock behöva döpa om filerna själv efteråt."
+,paesan,2004-10-04T14:10Z,"Que…
+
+Lite för avancerat för mig, tyvärr. Men tack ändå!"
+,xiroc,2004-10-05T18:22Z,"(1) var väl knappast avancerat? Gå till http://azureus.sourceforge.net/ och ladda hem, klart. (3) är inte heller så svårt, använd ""Disk Utility"" och skapa en image bara."
+,evil-eye,2004-12-24T21:05Z,Seda please 98% sen händer inget !!!! 
+,legumes,2005-01-01T20:01Z,"plz seed, 98,1% "
+,sefem,2005-03-08T00:23Z,Fyfan vilken värdelös jävla seed !! ta bort skit filen !! tar ju fan 100000 år att tanka skiten !!! 99.97%!!!
+,onklhans1,2005-05-17T11:32Z,"hvorfor stopper den paa 98%
+jævla irriteranes"
+,AJOVISST,2009-06-08T23:50Z,seed?

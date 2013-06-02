@@ -1,0 +1,57 @@
+Quick 'n.Easy.FTP.Server.2.42 är ett enkelt program för dig som vill lägga upp en FTP server. Bara o packa upp o köra!
+
+
+-------------------------------------------------------------
+
+FTP Server by Pablo Software Solutions Version 2.4.2
+
+Introduction
+Quick 'n Easy FTP Server is a multi threaded FTP server for Windows 98/NT/XP.
+It comes with an easy to use interface and can be accessed from the system tray. 
+The server handles all basic FTP commands and offers easy user account management and support for virtual directories.
+
+Installation
+Installing FTP Server is as simple as unzipping the executable in a folder of you choice, 
+for example C:Program FilesFTP Server.
+Create a shortcut on the Start Menu of on your desktop and the FTP Server will be ready to use.
+
+Short description of the available options:
+
+Server Log
+In this screen can keep an eye on all the things that are going on, on the server. 
+It shows you detailed information about all communication between the server and connected FTP clients. 
+The number between the brackets [ ] is the thread id, which helps you to track all communication messages 
+for a specific connection. Everything you see in this window can also be logged to a file.
+
+Online Users 
+Displays a list of users that are currently online. Including there IP address and login time.
+
+Configuration
+Here you can configure all settings of the FTP Server.
+
+Statistics
+Shows a few interesting statistics of the server like the number of uploads/downloads.
+
+Security
+The security page makes it possible to block/allow certain IP addresses to connect to your FTP server. 
+
+User Accounts
+Add, Edit and Delete User Accounts. Specify passwords, directory permissions and assign virtual directories.
+To help you make it easier to configure a new account you can also use the User Account Wizard.
+
+Incoming Messages
+The Incoming Messages window displays all the messages that have been sent to you by users.
+
+User Account Wizard
+To easily add a new account to the server click the User Account Wizard, and then follow the instructions. 
+
+
+For more detailed information read the help file.
+
+
+Credits
+This program was originally (partially) based on and inspired by FileZilla Server (http://filezilla.sourceforge.net/). 
+ 
+© Copyright 2004 Pablo Software Solutions
+http://www.pablovandermeer.nl
+------------------------------------------------------------------------------------

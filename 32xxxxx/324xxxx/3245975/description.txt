@@ -1,0 +1,10 @@
+RealFlight addon #2
+
+Some people are having problems with the drive letter when intstalling.
+This can easily be solve be changing the drive letter realflight asks for
+in the file C:Program FilesRealFlightfileread.ini 
+
+Change the row:
+InstallDir=d:
+
+to the drive letter to what you want to install from

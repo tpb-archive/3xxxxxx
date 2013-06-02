@@ -1,0 +1,152 @@
+What is new in 0.48? [Changelogg]
+
+Silentheroes 0.48
+================= 
+
+Major Changes:
+- 1 New map, Flisa.
+- 2 new weapons, several new kits.
+- New version of Tiger added: Hydra-pods and .50 cal MG-pods.
+- New sounds for weapons chambering 7.62 and 5.56.
+- All armoured vehicles had their damagelevel from water tweaked heavily.
+
+Small Changes:
+- New little effect for when soldiers die...
+- Coop-support added to Aberdeen and Narvik.
+- Bullet-count in magazines are shown visual now, textcounter removed.
+- Engineers repair-bar shows the same color as the health of the vehicle he is working on.
+- Fourth health-level added to vehicle-GUI.
+- New startingpoint for Norwegians on Dalen and other fixes.
+- Many explosions and hit-effects updated.
+- All large-caliber guns now properly shows hiteffects when hitting trees.
+- Many soundscripts tweaked and improved.
+
+Known issues:
+- The ships are not available on any maps - yet - and therefor not fully included in update.
+
+
+Included SilentHeroes maps [16]:
+- Aberdeen*
+- Engerdal
+- Engerdal Day2*
+- Flisa
+- Ingenmansland
+- Kongsheim
+- LingonStigen
+- Myren
+- Narvik*
+- SH Dalen*
+- SH Hillside
+- SH Rennesoy Island
+- SH Wake*
+- Skogsvag*
+- Svinesund
+- Tallskogen*
+
+* = Also has Coop-support!
+
+Included BF42-maps with COOP and Conquest-support [16]:
+- Battle of the Bulge
+- Battleaxe
+- Berlin
+- Bocage
+- El Alamein
+- Gazala
+- GuadalCanal
+- Iwo Jima
+- Kharkov
+- Kursk
+- Market Garden
+- Midway
+- Omaha Beach
+- Stalingrad
+- Tobruk
+- Wake
+
+
+Full Change-logg:
+
+-=[ 0.48 ]=- {Public Beta Build: 2004-11-26 02:05}
+- Fixed: Damage from water against all armoured vehicles heavily tweaked.
+- Fixed: Visual range of particles slightly increased.
+- Fixed: Lod-ranges for soldier-models increased.
+- Fixed: New ammo-icons for 7.62 and 5.56 weapons.
+- Added: Simpelmesh for Kpist M45.
+- Fixed: New ammo-icons for PSG90 and AG90.
+- Fixed: MBT LAW-skin updated - still WIP though.
+- Added: Structure Timmer_1-house.
+- Fixed: Transparency-issue with TGB20s windows.
+- Added: More winter-versions of textures added.
+- Fixed: Map Flisa updated.
+
+-=[ 0.47c ]=- {Internal Beta Patch}
+- Added: Map Aberdeen now supports COOP.
+- Added: Winter-textures to some static objects.
+- Added: More versions of sounds for when capturing flags.
+- Fixed: Several kit had their weapon-priority corrected.
+- Added: More kit-variations with m45.
+- Added: Repair-bar now shows health-status on the vehicle through color.
+- Fixed: Map Dalen was AI-updated to take advantage of the new start-location and heli.
+- Fixed: Flare-effect tweaked and the weaponhandling altered.
+- Added: Icon for Kpist m45.
+- Fixed: Map Dalen updated with new kits and all flags got bigger capture-zones.
+- Fixed: Map Flisa updated, spawntables, fogsetting and now uses the new AT-kits.
+- Fixed: Map SH Wake updated, fogcolor corrected, dual AI-maps removed and boats are locked.
+- Fixed: Map Rennesoy Island updated, new kits and HKP14_drop is no longer left with the keys in it.
+
+-=[ 0.47b ]=- {Internal Beta Patch}
+- Added: Map Flisa.
+- Fixed: Texture and model for MBT LAW updated.
+- Fixed: Ammo-limit on refillboxes in CVs and HKP14 removed.
+- Fixed: Some entrys in lexicon-file corrected.
+- Fixed: Flare-effect tweaked.
+
+-=[ 0.47 ]=- {Internal Beta Patch}
+- Fixed: Flare-effect updated.
+- Fixed: Reworked sound-files for helicopters - more global handling.
+- Fixed: Helicopter warning-sound is no longer heard over a distance.
+- Fixed: SH_dalen updated with another start-position and vehicle for Norwegian side.
+- Fixed: Reworked menu-code for damage-levels. Should remove any (rare) cases of incorrect level being shown.
+- Fixed: Added 'EVACUATE!'-status level to burning vehicles.
+- Fixed: AI for Hauk and Tiger_B added.
+- Fixed: Finally solved DICE-bugg with sniperoverlay appearing when using camera in an artillery.
+- Fixed: Recovery for machineguns when walking and turning increased with 25%.
+- Fixed: Machineguns deviance-penalty for standing position decreased with 6.9%.
+- Fixed: KSP90 deviance-buildup when firing reduced with 4.7%.
+- Added: M45 to Swedish side.
+- Fixed: 9x19mm Parabellum base-damage increased with 20%.
+- Added: MBT LAW added.
+- Fixed: Map Aberdeen slightly updated. Centerflag has bigger cap-zone and several MBT-kit is added.
+- Added: New sounds for when capturing flags.
+- Fixed: Skymap on SH_Wake corrected.
+
+-=[ 0.46 ]=- {Internal Beta Patch}
+- Fixed: Rewrote some of DICEs menu-kod to reduce load for some clients. (released as quick.fix)
+- Fixed: CVs not spawning correctly on western flag on Aberdeen.
+- Added: PreCache-file for Aberdeen.
+- Fixed: Changed back to snow from snowy grass on Aberdeen.
+- Fixed: All BFs soldier-models heavily lod-tweaked.
+- Added: PreCache-file added to all 16 BF-maps.
+- Added: Tiger_B to Norwegian side.
+- Added: PreCache-file added to SH_Wake.
+- Fixed: Mouselook removed from NM142 TOW.
+- Added: The ship Hauk to Norwegian side.
+- Added: Coop-support for map Narvik.
+- Fixed: AI-behaivor updated.
+- Fixed: KSP58 had wrong sounds at High-quality-setting. 6 months and not a single bug-report... :]
+- Added: New sounds to AK5.
+- Fixed: Handguns chambering 5.56 heard over 33% longer distance.
+- Fixed: Machineguns now heard over 66% longer distance.
+- Fixed: Redone effects for grenades, M203 and M203 on ground-effects.
+- Fixed: Redone and added effects to tank-cannons 120mm and 105mm shell-explosions.
+- Fixed: Now all vehicles weapons should now have visual hitindication on trees, as handguns has.
+- Added: New effects for when soldiers die.
+- Fixed: Tweaked life-time for CVs 30/40mm ejected shells.
+- Fixed: AI-code for soldiers updated - should increase bots aggression towards helicopters.
+- Added: New damagetable for Mistral-missile.
+- Added: New sound to AG3.
+- Fixed: Soundscript for MSG90.
+- Fixed: Trail-effect for Pskott/AT-4 tweaked.
+- Added: Background battlenoise to map SH_Wake.
+
+Homepage: http://www.silentheroes.se

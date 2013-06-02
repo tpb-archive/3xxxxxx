@@ -1,0 +1,38 @@
+11-12-2004 fixed: LCD time and date obey the GUI settings.
+11-12-2004 added: XBMC.ActivateWindow() can now activate dialogs.
+11-12-2004 changed: various strings to make them more obvious.
+11-12-2004 fixed: Various settings issues (subtitles etc.)
+10-12-2004 fixed: [ 1080520 ] web interface: unqueing doesn't work - thanks to re.solve + BombrMan
+10-12-2004 updated: German (Austrian) language file (Thnx to CEOMR)
+10-12-2004 updated: Italian language file (Thnx to kotix)
+10-12-2004 fixed: [ 1069833 ] white no longer triggers osd.
+09-12-2004 added: [ 1063544 ] Full LED Controll within the xbmc GUI, thanks to GeminiServer.
+09-12-2004 added: [ 1067203 ] GUI Contrast Control for Xenium-LCD, thanks to GreenGiant.
+09-12-2004 added: [ 1065952 ] Disable Internet Lookups option, thanks to kraqh3d.
+09-12-2004 added: [ 1081938 ] Updated strings.xml files to single-line format, thanks to slacker.
+09-12-2004 fixed: Issue with autorun videos/music (strings mix up)
+09-12-2004 added: Skin language version. Currently set at v1.2. XBMC will not load any skin that doesn't have a <version>1.2</version> tag in it's skin.xml. It will also not allow such skins in the settings spin control. If a current skin is not of the required version on bootup, it will use the default (Project Mayhem) skin, and if this is also not suitable, it will invoke the Fatal Error Handler.
+09-12-2004 fixed: Small graphical glitch in the Fatal Error Handler (it wasn't rendering all the text available)
+09-12-2004 added: SF patch for mouse + keyboard in gamecontroller ports
+08-12-2004 changed: settings, added category "View Options" for my programs
+08-12-2004 changed: a dummy time is displayed in the video osd when calibrating
+08-12-2004 added: option to show time as 12 hour clock
+08-12-2004 added: option to swap day and month in home screen
+08-12-2004 changed: my music albums, recent albums can now be displayed
+08-12-2004 updated: Polish language file (Thnx to napek)
+08-12-2004 updated: German (Austrian) language file (Thnx to CEOMR)
+08-12-2004 updated: German language file
+08-12-2004 changed: playlist windows, items are now played shuffled instead of shuffleing playlist items
+07-12-2004 changed: settings, made units in spin controls localizeable
+07-12-2004 fixed: my pictures, View by button broken
+07-12-2004 fixed: Upscale to GUI res should now be working.
+06-12-2004 fixed: Various settings options weren't being displayed correctly.
+06-12-2004 fixed: LCD Off mode was missing.
+06-12-2004 fixed: Problem with Autoswitch to Big Icons in Video Files view.
+06-12-2004 fixed: LaunchXBE/Reboot XBMC didn't work.
+06-12-2004 added: option to autoshutdown xbox while playing
+06-12-2004 fixed: my pictures, recursive slideshow was played unsorted
+06-12-2004 fixed: my videos, items where added unsorted to the playlist
+05-12-2004 updated: Romanian language file (Thnx to bompy)
+05-12-2004 updated: German (Austrian) language file (Thnx to CEOMR)
+05-12-2004 fixed: my music albums, music.jpg is not shown when no thumb is available

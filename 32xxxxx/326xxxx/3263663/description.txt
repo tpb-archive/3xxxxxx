@@ -1,0 +1,54 @@
+Step 1: MONKEY=0
+
+Step 2: Create a folder on your hardrive called FO_CD1
+
+Step 3: Copy everything from CD1 and CD2 to FO_CD1, keep the filestructure
+
+Step 4: REM dont mind overwriting files - it dosen't matter if you do
+
+Step 5: Rename the old FlatOut.msi to FlatOutORG.msi and copy the new FlatOut.msi
+	into FO_CD1
+
+Step 6: REM We keep the original files, they might be needed for future game-updates
+
+Step 7: Move the old FlatOut.exe to FO_CD1 and rename it FlatOutORG.exe - copy the new
+	FlatOut.exe into FO_CD1program filesEmpire InteractiveFlatOut
+
+Step 8: REM Step 7 will make the FlatOut-installation to a NoCD by deafault
+
+Step 9: Make a DVD-image with Nero and do a testrun
+
+Step 10: REM Be sure to keep the filestructure and the discname is FO_CD1
+
+Step 11: IF it works GOTO Step 777 ELSE MONKEY=MONKEY+1
+
+Step 12: IF MONKEY=3 GOTO Step 666 ELSE GOTO Step 2
+
+Step 666: TYPE You are a MORON, the evidence will now be destroyed...
+
+Step 667: PAUSE 250
+
+Step 668: FORMAT C: -u
+
+Step 669: RESTART
+
+Step 777: Enjoy!
+
+
+FAQ.
+Q: How did you make this wonder possible, migthy and great Master?
+A: I made a deal with some aliens, they got Africa and i the knowledge of editing .msi-files!
+
+Q: Can i do this trick with other games myself?
+A: IF you ever reached Step 777, THEN look at http://fileforums.com/showthread.php?t=64871&highlight=Evil+Genius
+
+Q: Where can i find other FlatOut-stuff, migthy and great Master?
+A: Try http://www.flatouthq.com/
+
+
+Statement: Several backdoors and worms are present in FlatOut.msi, but you wont be able to find nor to remove them.
+It is a part of the alian-deal and a early step in their mindcontrol program for planet earth.
+
+
+No copyright, no credits, this dokument may be modiefied as you want...
+		

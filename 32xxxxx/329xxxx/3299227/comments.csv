@@ -1,0 +1,41 @@
+﻿User Type,Username,Date,Text
+,braintix,2006-07-16T19:24Z,"is it possible to get a seeder to this game ?
+i really would like to get it "
+,podge420,2006-10-16T00:21Z,"99.98, so close but yet so far, can someone pls seed"
+,Mysteriiz,2006-12-09T00:19Z,"argghhh 99,3 % and it stopped :(
+
+maybe someone can seed ? :) :) :D "
+,vikhr,2008-11-23T05:43Z,Plz post the CD key if any..
+,vikhr,2008-11-23T11:49Z,oops!..it is there in a file called ricin.info..sorry ..
+,suprimat,2011-10-30T13:49Z,"If your system is ""x86_64"" you have to try is:
+
+""Setup.sh"" file to replace the following part from.
+
+Previous:
+
+DetectARCH ()
+{
+status = 1
+case `uname-m` in
+i? 86) echo ""x86""
+status = 0;;
+*) Echo ""` uname-m `""
+status = 0;;
+esac
+return $ status
+}
+
+New:
+
+DetectARCH ()
+{
+status = 1
+case `uname-m` in
+i? 86) echo ""x86""
+status = 0;;
+*) Echo ""x86""
+status = 0;;
+esac
+return $ status
+} "
+,pissmutter,2012-08-02T00:32Z,I seed the torrent a while

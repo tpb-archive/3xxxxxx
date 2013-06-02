@@ -1,0 +1,80 @@
+﻿User Type,Username,Date,Text
+,Theremin,2005-01-20T06:35Z,tack!
+,NeoAnt,2005-01-20T06:43Z,"vassego, har sett att det var en hel del som letade efter det."
+,NeoAnt,2005-01-20T06:44Z,"hoppas bara det funkar med, har inte fått tummarna loss att testa det själv än :)"
+,gardhau,2005-01-20T12:21Z,THNX!!
+,TheAbsorbant,2005-01-20T13:36Z,Grymt spel... Du har inte de tidigare?
+,NeoAnt,2005-01-20T16:47Z,Tyvärr inte. :(
+,Nogoboy,2005-01-20T16:47Z,Ville bara berätta att en av .cue filerna innehåller felaktig information och alltså måste ändras innan ni bränner ner skivorna. Tror det var cue-filen för cd1 som pekade på image-filen för cd3 eller nått sånt. Enkelt att ändra i notepad hur som helst och sen är det bara att tuta och köra.
+,misiekpoland,2005-01-20T17:56Z,this is english version?
+,NeoAnt,2005-01-20T21:08Z,"I think so, I haven't had time to actually try it myself."
+,misiekpoland,2005-01-21T07:17Z,but great upload txh
+,BLIXEN,2005-01-21T23:56Z,takk denne har jeg sett etter lenge:)
+,BLIXEN,2005-01-22T18:17Z,hvor er cd 1 har brent det 4 ganger og deromen leser bare cd 3 på cd1 og cd 2 på cd 3 hva er dette savner cd 1
+,NeoAnt,2005-01-23T01:13Z,"det är tydligen cue-filen för cd3 för är fel, den pekar på image-filen för cd1, öppna CD3.cue i notepad eller något sånt och ändra raden FILE ""Discworld noir CD1.img"" BINARY till FILE ""Discworld noir CD3.img"" BINARY"
+,DrThodt,2005-01-23T07:52Z,"Måste jag bränna ut spelet?
+får det inte att funka med deamon tools 3.47"
+,DrThodt,2005-01-23T08:08Z,"fick det att funka genom att välja full installation.
+ett tips till er andra att pröva."
+,DrThodt,2005-01-23T08:32Z,"bah för att folk ska veta.
+CD3 är cd1.
+cd 1 är cd 3.
+cd 2 är cd 2."
+,NeoAnt,2005-01-24T00:36Z,"Då vore det ju igentligen bättre om man lät bli CD3.cue och istället ändrade cue-filen för CD1 till att hänvisa till CD3, så stämmer ju allt sen. :)"
+,BlueGrot,2005-01-26T15:43Z,English.idx cannot be read på disc 3. :S
+,BlueGrot,2005-01-28T15:33Z,I'm re-downloading now.
+,SpinnDoc,2005-02-04T22:12Z,"Är det någon mer en jag som inte komer in otiens menyn?
+När jag försöker gå in där så stängs spelet ner."
+,NeoAnt,2005-06-07T09:40Z,Unfortunately I don't have the game any more so I can't help with the seeding. I'll try to get it again withing the next couple of days tho.
+,swYck,2005-06-12T19:20Z,I am also having problems with the file English.idx on disc 3... it is broken.. also unseplea.mus is in error..
+,Arthemax,2006-08-18T21:03Z,Can anyone post a full writeup and explain how I install this? Much appreciated.
+,katykat1975,2006-09-06T11:22Z,"I'd appreciate someone to explain how to get the game set-up too. I've tried everything, even burnt the files to disc (after unpacking obviously). They STILL come up as image files on the cd's, when I click on them they want my pc to burn them again..... ??
+
+ I'm guessing that because my pc's windows xp this game is windows 98?!
+
+Help i've wanted this game again for ages."
+,yakuzaboy,2006-09-11T23:55Z,thank you!!!! at last one I can play! thank you
+,Arthemax,2006-10-05T15:48Z,"Ok, I managed to figure it out. 
+First you need to fix the image problems. That is explained above. 
+Then mount CD1.cue in Deamon Tools and open it. Then you should be able to install the game (choose full installation).
+It is possible to play in XP, but it has a few bugs. The most important bug is that you can't continue a game from the main menu. You'll have to start a new game and press F1 when you can control your character (there's a cinematic and some talking first).
+Also, the sound is turned off in the beginning (at least it was for me), so you'll have to turn it on (through F1) to hear the voices and music.
+
+This is by far the best Discworld game, enjoy it. Glad to see the torrent well and alive again, with 3 seeders and 12 leechers.
+If you have any other questions, just ask."
+,luxfere,2007-08-11T12:55Z,"First, thanks for this awesome game.
+Second, if you have problems (i mean crash in game and brutal return on windows), make ""tin3_dxd"" (it's the .exe) compatible with 640x480 (in the properties or ""propriété"")
+There will be no more chrash! At least for me..."
+,1badmofo,2008-09-14T17:51Z,can some-one please explain how to get this torrent to work ive downloaded and i want a full explanation of how to get it workin i dont no what the things ive got to rename and make it point to image 3 and all that im lost and really want to play on this blast from the past thanks alot i will reall appreiciate it 
+,princeslolypop,2008-10-30T02:48Z,"You don't have to change the file names.  I used Alcohol 120%.  I placed the files onto Alcohol in this order:
+CD3.IMG
+CD2.IMG
+CD1.IMG
+
+Next right click on CD3.IMG and click mount on device.  Do the Full instilation and when it prompts you for disc two right click on CD2.IMG and click mount on device.  Then when it ask for disc 3 right click on CD1.IMG and click mount on device.  That is all I had to do and it installed it succesfully onto my computer which is XP.
+
+When you click on it to play it will ask you to insert disc one.  Just remember to right click on CD3.IMG  and click mount on device and give it a second to load it up then click ok to play.  "
+,mizuhe,2008-12-10T15:50Z,"Vista has more problems, 
+so you need a trick to get past intros:
+
+Using REGEDT32, locate the Discworld Noir registry key at ""HKEY_LOCAL_MACHINE\SOFTWARE\Perfect Entertainment\Discworld Noir"". Under it there should be a value called ""Start Windowed"", which is set to ""No"" by default. Change it to ""Yes"".
+and after intros go back to fullscreen (alt+enter)"
+,DonReek,2009-03-15T08:28Z,"why bother with the registry when you can just right click on the shortcut and put "" -w"" after the target to change it to a window view?"
+,Markzero,2009-08-18T16:49Z,Nice to see this game still here. Thanks for upload it's a great game.
+,donald047,2010-08-10T15:22Z,"Or simply edit CD1.cue and have it point to image3, in which case at least the cue-files will represent the correct CD#.
+
+This might seem like a noob question, but how do i this??"
+,b0rt,2010-10-10T17:34Z,".cue files contain plain text with the image name 
+you can change them with notepad or your favourite text editor"
+,frdctn,2011-01-23T16:18Z,"I have windows 7 and ax64 machine. Installing worked fine but now it doesnt work. i allready tried most compatibility settings but it keeps crashing. how do i get this game to work?
+thx"
+,Jam1e66,2011-05-30T14:42Z,I tried all advices from the comments and I still can't play the game. It always crashes after the intro video.
+,shikivile,2011-10-02T14:21Z,Torrent is good but the game is real shit...The whole game is based on speech...just clicking MB1...for thousand times...nah
+,hgrryu,2012-01-05T20:49Z,"well son, this is what we, old people, call an ""adventure"" game. You see, long long time ago computers was mostly for enthusiasts and those people, well... i don't know how to put it to you, well they are intelligent, so games like this one, where you don't need to kill everyone left and right, was quite popular. Now days, however, when computers hit the mainstream and any average (not intelligent) person, like you for example, have a computer, or the most unholiest of the microsoft's abominations called xbox, the demand for games that does not require a lot of thinking was greatly increased, and they has flooded the market, pushing adventure games to the dark corner, thus does not leaving the younger generations a chance to see that there could be another ways of having fun besides mindless running an shooting. This is why you did not understand and do not like this game."
+,mudi89,2012-08-16T05:15Z,"To everybody who can't get past the first intro due to crashing problems. Here is the solution:
+
+Start up the game, press ALT + Enter before the game usually crashes and stay windowed until you can move Lewton for the first time in his office. Now you can switch back to fullscreen (again ALT + Enter)  and enjoy the game ;)
+
+Sidenote: You can only go to Options ingame ( F1) and if you wanna load the game you'll also have to do that ingame in the options menu. Have a nice day."
+,danskbrit,2012-08-31T19:20Z,"For some reason, every time i try to access the journal(quite essential), the game crashes.
+Im running win 7, and i am using all the compability settings"

@@ -1,0 +1,220 @@
+﻿User Type,Username,Date,Text
+,XaNoR,2004-11-27T20:01Z,Verkar vara nåt strul... :( Jag försöker seeda ivf...
+,tpauwel,2004-11-28T00:42Z,"Ohh noo, it's stuck on 99.9%!!!
+What to do?"
+,misiekpoland,2004-11-28T03:04Z,In what language is that game english or deutsch?
+,XaNoR,2004-11-28T10:44Z,Its in german but the Language Pack is included...
+,betty,2004-11-28T13:26Z,"The Game is in  deutsch version 
+There is a language fil in english for dos ho dont understand deutsch Language "
+,wiggles,2004-11-28T13:30Z,"Yes there is a language file.
+
+Noken andre enn meg som har problem med cd-keyen som fulgte med?"
+,aliveathome,2004-11-28T16:29Z,Use starfuck with this game. Works perfectly!
+,kke,2004-11-28T18:01Z,Is there crack avaliable for download? Anywhere? If not do i need every time to disconnect all of my cd/dvd-drives or is there an easier way?
+,XaNoR,2004-11-28T23:12Z,"Hopefully there will be a crack shortly... I agree, it sucks to remove DVD, CDs just to play :("
+,kke,2004-11-30T21:55Z,Thanks! It works with starfuck!?!?
+,peterka,2004-12-01T23:55Z,Korleis pakker eg ut cd1 og cd2
+,oden44,2004-12-02T20:50Z,Någon annan som har problem med CD-key:n som var med???Snälla Plz HJÄLP
+,XaNoR,2004-12-02T21:45Z,"Finns Key i Languagepacken, den funkar... Jag använder den... Och starfuck funkar klockrent"
+,joe_boy,2004-12-03T13:14Z,Hur gör man för att öppna cd1 och cd2 ??????
+,Ylke,2004-12-03T15:07Z,"So, Can anyone help me with this, I have installed GTR and it didn´t work, then i got the starfuck, it works and i can now open GTR but it says that ""cd-key is wrong and it is not the same that is on the disc what means the mds file"" Help, i can understand swedish because i am from Finland but help me please on English :D Thanks!"
+,ssgreen,2004-12-03T18:06Z,"Finns det nån som kan skriva hur man startar spelet med starfuck. Jag är nollad när det gäller sånt.
+
+Tack på förhand."
+,minapengar,2004-12-09T07:51Z,"jag får inte igång det
+jag har 
+a) en gtr image
+b) starfuck
+c) en nocd pack med kod o speciell mds fil att mounta
+
+Jag gör 
+1. mountar gtr skivor o installerar via daemon
+2. startar starfuck och disablar cd spelare, det motsvarar väl allt det där man annars får göra med behörigheter i regedit.
+3.mountar den mts som följde med nocd paketet
+4.  startar gtr o kommer till cd-nyckel
+5. skriver den cd-key som står i readmen till nocd pakete
+resultat error put cd in another cd drive and try again.
+
+hittar ingen readme till starfuck "
+,minapengar,2004-12-09T07:53Z,"ber om ursäkt för trippeln, min browser fastnade hela tiden"
+,Brass,2004-12-09T20:11Z,"Så blir det för mig med.
+Snälla hjälp..."
+,Topp,2004-12-10T23:04Z,"Nu drar jag detta för alla. 
+Att det ska va så svårt att förklara riktigt för oss alla andra som inte fått igång spelet?? På det här sättet behöver ni inte koppla ur cd enheter o dylikt. Höll på 1 timma sen fick jag det att funka...så håll till godo :)
+
+1) Ladda ner GTR Langue pack!
+
+2) Mounta ""BARA"" CD1.MDS Filen från ""langue pack"" i Deamon tools. 
+Ha inte GTR cd1 lr cd2 mountade i deamon för då funkar det inte!!!
+
+3) Ladda ner Starfuck v0.81
+http://www.piratebay.se/download.php/3262586/StarFuck%20v0.81Full.rar.torrent
+
+4) Kör starfuck! Välj Starforce 3.4.49.
+Välj sedan ""Links Generator"" 
+
+5) I det nya fönstret som kom upp, 
+välj ""Specify EXE File"" (välj GTR.exe filen där ni installerat spelet)
+
+6) Välj sedan ""Specify Image""  Som Image tar ni MDS filen GTR CD1 ""Langue pack"" som ni laddat ner tidigare.   
+
+7) När ni gjort allt detta trycker ni på ""Create a Link"" Välj ett ställe där ni kan hitta ""genvägen"" lätt.
+
+Nu letar ni upp genvägen som skapades (ser ut som en NUKE ikon) & dubbelklickar på den så startar spelet.
+
+KÅD: F84GX-WK9MB-VDBG3-S9VSH-Q6D3N"
+,Alpha-X,2004-12-11T22:33Z,"Suveränt Topp!
+Men när ja skall extracta cd1 o cd2 så e det fel på dem, antingen skadade eller i nåt konstigt format står det! Vad är fel då? Ja kan alltså inte ens installera via Deamon Tools!!"
+,picolina1,2004-12-12T00:53Z,"spelar det någon roll vad det är för mount program, jg använder alcohol 120% och, när jag skriver in cd keyn så överens stämer den inte med GTR_CD1 från language packen"
+,Alpha-X,2004-12-12T12:35Z,"Glöm mitt förra inlägg!
+Men hur sparar man Linken? Har provat lite överallt, men den vill ju inte sparas nånstans? Man kan väl lägga den var man vill eller?"
+,Topp,2004-12-12T13:30Z,"Om du gjort rätt så ska du kunna lägga ""linken"" var du vill!"
+,Topp,2004-12-12T13:33Z,"Picolina_1
+
+Har inte använt Alcohol. Testa med Deamon Tolls. Ha bara MDS filen från ""langue pack"" mountat när du skriver in koden. Givetvis så måste du ha instalerat spelet innan."
+,Topp,2004-12-12T13:51Z,"Så att alla förstår:  MDS filen från Languepack måste vara mountad i deamon lr dylikt för att spelet ska kunna funka när ni klickar på ""linken"". 
+
+Endast då fungerar koden!!"
+,Alpha-X,2004-12-12T14:36Z,"Har mds filen mountad, öppnar link-genvägen, då skall man väl skriva i kåden eller? 
+Ja får upp Error med en gång... o så Retry, Exit o nåt annat uppe i hörnet! Då e väl nåt galet eller?"
+,Fugitive,2004-12-13T20:14Z,e detta spelet som kmr ut ibörjan av februari 2005?:D:D
+,manta_c20let,2004-12-13T23:28Z,"Jeg har samma problemet som Alpha-X eller hva han het.
+Det funker ikke selvom jeg gjør alt det du sier."
+,manta_c20let,2004-12-15T07:23Z,Noen som vet hva vi må gjøre??? vær så snill
+,stuphat,2004-12-15T14:43Z,"jag har fixat med starfuck och allt det där. men när spelat ska starta så kommer det upp ""Insert the GTA-FIA GT Racing Game disc into another drive then press 'retry"". någon som har samma problem och har löst det? tacksam för svar. "
+,Alpha-X,2004-12-15T15:24Z,stuphat: har samma prob som du.. blir gaolen! Kan fan inte fatta va det är!
+,sstivan,2004-12-16T15:21Z,"om ni kör sfclean.exe under gtr/Support, trycker ok och startar om. mountar mds o kör. trycker ok för omstart. 
+sen mounta mds igen o kör. då funkar det. 
+
+det skiter sig dock för mig så fort jag startar om datorn :("
+,manta_c20let,2004-12-16T16:01Z,"sstivan, har gjort det du sa, men det fungerer fortsatt ikke kommer bare error med en gang så fort jeg åpner spillet også står det: insert disk......................and press retry"
+,manta_c20let,2004-12-16T16:04Z,Det kan ikke ha noe med det og gjøre at jeg har konvertert harddisken til NTFS filsystem?? åsen konverterer jeg tilbake til FAT32??
+,Topp,2004-12-18T01:35Z,"Skumt! 
+funkade inte när jag hade fler än ""1 drives i deamon""
+Satte tillbaka deamon på ""set number of devices"" o valde ""1"". sen mounta mds o spelet funka!
+
+Kan tyvärr inte hjälpa er mer än det... Sry!!"
+,manta_c20let,2004-12-18T10:09Z,"OK takk men det funka desverre ikke nå heller, men når jeg mounter mds filen som kommer det bare en tom cd opp eller hva jeg skal kalle det, det kommer opp et tomt vindu."
+,Topp,2004-12-19T04:40Z,"precis! det ska d göra! Ha bara den mountad, inget annat Sen klickar du på ""nuke"" ikonen som starfuck skapat.. "
+,Grondil,2004-12-20T11:58Z,"Hejsan
+Får den att funka utan problem, mycket bra beskrivning hur man ska använda sig av starfuck, men.... när det kommer till menyerna så är de fortfarande på tyska.
+Nån annan som får det också?"
+,Frobs,2004-12-22T10:12Z,"Could someone explain in English how to use starfuck, my swedish is nog so good...."
+,Grondil,2004-12-26T16:45Z,"In English:
+1. Download the GTR language pack.
+2. Just mount the CD1.MDS file from language pack in Daemon Tools. Do not have GTR cd1 or cd2 in deamon, then it just wont work!!!
+3. Download Starfuck v0.81
+http://www.piratebay.se/download.php/3262586/StarFuck%20v0.81Full.rar.torrent
+4. Run Starfuck! Choose Starforce 3.4.49.
+Then choose ""Links Generator""
+5. In the new window, choose,  ""Specify EXE File"" (find the  GTR.exe file where you installed the game)
+6. Choose ""Specify Image"". As image you use the MDS file from GTR cd1 language pacik you downloaded with the language pack earlier.
+7. After you done this, choose ""Create a Link"". Specify where you want the shortcut so you can easily find it.
+Find the shortcut and doubleclick it, voilá, the game starts."
+,Judefarfar,2004-12-27T11:18Z,"installationen fixen behövs står att filen e skadad på cd 1 och cd 2 kan nån länka var man kan ladda installations fixen
+// judefarfar"
+,Johl,2004-12-27T15:06Z,"Fastnat på 97% :(
+
+vad gör man åt det?"
+,CloX89,2004-12-31T20:08Z,funkar inte :S ska jag ha .mds filen mountad när jag startar spelet ??? det står att jag ska testa en annan cd om jag då mountar cd1.iso funkar inte cd keyns :p
+,Judefarfar,2005-01-01T16:41Z,"Jag har gjort allt det där Topp har skrivit 2 gånger till och med men när jag trycker på nuke ikonen som ska starta spelet så händer inget..
+
+Varför??"
+,golfnut,2005-01-05T19:27Z,Hej har haft samma problem som många andra med att den vill man ska ändra cd läsare.Jag löste det med att gå in i starfucker välja preferences. sedan under cdroms location välja both. sedan funkade det fint.
+,tpauwel,2005-01-08T12:02Z,Who can play with 1.2 patch? Mini image doesn't work anymore :( Neither starfuck..
+,billeswe,2005-01-12T16:06Z,"Tjena.
+
+Jag har tankad ner GTR och installerat det. Kört Starfuck och fått en ny startfil. Spelet går igång och letar efter CD-keyn (den som medföljer) som jag skriver in. Spelet fortsätter ladda och meddelar sedan att serial key'n är felaktig.
+
+Vad har jag gjort fel ?
+
+PS: Jag har gjort precis som det står i hjälpfilerna som medföljer Bit.Torrent filen med spelet och Languagepacken. Jag har även provat andra serial-key's med samma resultat: Felaktig CD-key.
+
+        // Bille, Sweden"
+,Hax0r,2005-01-12T16:25Z,"Hi
+
+I got same problem what Billeswe have...:)
+Does anyone here have a solution this problem?
+I´ve tryed this a newest starfuck 0.83."
+,Ylke,2005-01-13T17:38Z,"Please help me in English, please....so, I have tried to do the icon with starfuck and it works, but when its check disc it always said that the cd-key doens't match with the cd....error Some help in English..! Thanks!"
+,El_Narizon,2005-01-17T19:13Z,"Hmm. When I use the link created by starfuck then I get the message from GTR to restart for copying the protection drivers. Blah. So what. No ""Voilá it works"". Shit."
+,JaZzYZ,2005-01-18T16:14Z,varför tankar jag bara 0.1-1.5 kb/s ???? det e juh 80 seeders så jag tycker jag borde kunna tanka lite fortare..... tar juh 2 veckor i denna tackt..... 
+,Topp,2005-01-20T17:35Z,"Följ råden jag gett innan...
+Jag mountar enbart dms filen i deamon tools v.3,47
+Testa detta...
+
+Högerklicka på deamon ikonen i högra hörnet.
+Välj ""Emulation""
+Välj ""Safedisc""
+
+Nu är deamon ikonen grön
+testa klicka på nuke ikonen starfuck skapat.
+
+Om ni inte får d o funka lr om ngn annan får igång spelet, kommentera gärna här.
+
+Det här spelet saknar motstycke i realism o känsla av allt jag tidigare testat   ;)"
+,milfhunter,2005-01-20T21:03Z,"går i 6,3 kb/s som max.. snälla.. några som kan seeda? plzz längtat efter detta spel länge.. :D puss på förhand ;)"
+,patte68,2005-02-01T13:11Z,jippi jag fick spellet att funka den är GRYMMMMM jag uppdaterade den även till ver 1.230 :)
+,dragz,2005-02-02T08:42Z,"finns det någon snäll som kan förklara hur man får engelsk text i spelet med medföljade språkpack???
+
+
+MVH Dragz"
+,puma99dk,2005-02-08T01:46Z,:( this sucks i can't get it to work with DAEMON Tools or Alcohol 120%
+,puma99dk,2005-02-08T09:29Z,"after trying the starfuck guide i still get this message: Error
+Insert the GTR-FIA GT Racing Game disc into another drive then press ""Retry""
+anyone can help me???"
+,vale46,2005-02-09T22:31Z,"jag har gjort som du beskrev Topp men jag får bara upp error please insert disc in another drive and try again.
+Jag kan inte ens skriva in koden.Finns det någon som har en bra lösning på problemet."
+,Sui_Juris,2005-02-10T16:49Z,For those who don't even know how to burn and play the disc's should stick to PS2 or xbox.
+,dajoman,2005-02-12T21:24Z,"Problem.
+När jag ska köra starfuck-programmet står det ""your languge settings are wrong!!!""  Jag har kopierat ett antal filer till /UIDATA folder som det står i readmefilen... men längre kommer jag inte.
+
+Några tips!??
+//dajo"
+,xrayeyes,2005-02-13T16:10Z,Har hatt 99.9 % i flere dager nå!!!!!! hva er feil? er det mulig og gjore om bitorrent fila om til den den skal være? i dette tilfellet ISO. 
+,ex0rzizz,2005-02-21T11:45Z,Asså ja får inte igång det!!?? Finns det inget annat simplare crack på internet??..Det blir Error hur man än gör :(
+,TurboSaab,2005-03-05T22:10Z,"Ok i cant get this game work. I have tried many times to get it work with these notes here. I used starfuck 82b and did that link but it wont lauch the game succesfully.
+
+Just couple of questions....
+
+A) Do i have to mount that mini-image when laughing the game?
+
+B) Does it matter if i use alcohol or daemon tools?
+
+It gives me an error that u have incorrect disk inside. I really wanted to take a look of this game before i buy it, thanks."
+,hioctane,2005-03-09T16:56Z,Speak english...fuck damn!!!
+,Stekarn,2005-03-11T00:51Z,"lo, i whant to play but when i start it says error....and i cant do anything..whants my prog?? i have written in the serial and all ;("
+,Degas,2005-03-11T08:34Z,Funka för mig när jag koppla bort min Cd-läsare helt från computern...märkligt
+,Kaizoon,2005-03-13T09:08Z,Det går inte att hitta procedurstartadressen DdEntry1 i DLL-filen GDI32.dll ???
+,Kaizoon,2005-03-13T10:09Z,"Var mitt DirectX som strulade, nu ska jag bara försöka få fart på den där sk. cracken...
+Önskar det fanns en riktig crack så man slapp slita ur CD enheterna och ragga ikring i regedit som ett billigt l*der..."
+,MMV,2005-03-14T16:03Z,"Ok. Got my hands on StarFuck and the game works now.
+
+Anyone know of a better translation because the one available is really worthless, didn't help at all. I know VERY little german..."
+,Mrtwize,2005-03-14T21:55Z,SKIT bra spel värsta grafiken thx so much
+,Kaizoon,2005-03-16T11:31Z,"Är det någon som har fått det att funka online ??
+Om ni nu har lyckats, hur har ni gått tillväga för att signa upp ett konto ?"
+,dalton911,2005-03-18T18:20Z,"Någon som kan skicka starfuck över msn?
+får inte ner det härifrån,ingen som seedar juh"
+,NuppenSWE,2005-03-21T10:19Z,Kan någon seeda på Starfuck lr?? 
+,dalton911,2005-03-23T15:47Z,"någon som kan förklara vad som behövs göra när man laddat hem ver.1300,funkar det över huvudtaget? annars kan man väl inte ha spa 24h loppet?
+Tacksam för svar!"
+,dasket5,2005-03-23T23:29Z,Seddddddaaaaaaaa
+,Storsnusaren,2005-04-14T09:17Z,Ahh 99.7%.....
+,Storsnusaren,2005-04-14T21:06Z,99.7% fortfarande...........
+,krutan,2005-04-27T16:27Z,Funkade perfekt för mig med Alcohol men det funkar inte med daemon tools
+,KungLenksjo,2005-04-29T00:06Z,"Det finns inget enklare sett att cracka det?
+Vad är starfuck, som alla pratar om?"
+,Qvisten,2005-05-04T23:21Z,"Tackar `topp` dina instruktioner fungerar utmärkt  
+Qvisten "
+,Falt,2005-05-28T14:02Z,"Min har fastnat på 99.9 % och har stått så nu i flera dagar, kan inte nån seeda bara den lilla sista biten`? SNÄLLA"
+,mixim,2005-06-16T02:59Z,"Det här är den bästa Racingsimulatorn jag någonsin provat, en forcefeedback ratt är ett måste =). Köp det ffs, äntligen får man en anledning till att köpa, det är jobbigt att blockera upp =) Testa annars demot. Även om det är lite sämre på alla plan än det färdiga spelet.
+
+This is the best Racingsimulator hands down, a forcefeedback wheel is a must =), Buy it FFS, finally you've got a reason, it's a pain in the ass to crack, otherwise test the demo, even if it's a little worse than the complete version...
+
+http://www.gtr-game.com/"
+,mixim,2005-06-16T03:02Z,http://www.10tacle.com/gtr-game/en/index.php?Downloads
+,Arize,2005-07-02T21:43Z,"99,9%,,,,,,,,,"
+,zubutix,2005-07-11T17:05Z,Har laddat ner spelet och testat det nu. Vore dock bra att få testa det med engelskt språk! omöjligt att testa tuna bilen. Varför finns det ett language pack till engelskt språk om det inte fungerar? spelet fungerar perfekt och jag kopierade filerna till UI katalogen. men fortfarande tyska i spelet. Har nån lyckats få det till engelska?
+,zubutix,2005-07-11T17:06Z,Jag kommer garanterat köpa detta lir. Fy fan va shysst det är!!
+,LionSword,2005-07-26T13:18Z,"Flera - inklusive jag själv - som ligger på 99,9%...."

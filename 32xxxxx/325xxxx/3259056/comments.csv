@@ -1,0 +1,61 @@
+﻿User Type,Username,Date,Text
+,Zlatan09,2004-11-25T14:51Z,Tack så mkt.
+,segast,2004-11-26T01:24Z,"funkar bra än så länge, den förra rellen funkarde inte alls för mig. så jag antar att denna är bättre. 
+nä, nu ska jag kriga vidare, ska bara starta upp seeden :)"
+,Erfa,2004-11-26T18:57Z,"Den här releasen har ingen kontakt med Internet, eller?"
+,Deadfish,2004-11-27T06:47Z,Så nu ska bara ladda ner och se om det funkar på min före detta grymma bärbara dator (som e crap nu)....om det funkar så går pch köper imorgon..det e de värt... HL äger!! :drunk: men :smart:
+,Deadfish,2004-11-27T06:54Z,Det var pch jag ville skriva utan och men jag e ju :axe: just nu har vart lite mycket :beer: ikväll... :yay:
+,marine,2004-11-27T09:11Z,"Denna fungerar ända tills man laddar ett sparat spel första gången då blir det den vanliga AI felet, men efter att ha fixat det så verkar den fungera helt OK
+Väldigt många och långa laddningstider i det här spelet dock tycker jag
+Tack iallafall :)"
+,the_rabbit_,2004-11-27T11:02Z,"Jag behöver hjälp! För mig funkar spelet perfekt förutom en grej! När man kommit till elis labb så ska man ju åka me en hiss, Men den där tjejen vägrar gå in i hissen!
++ att jag har inte fattat hur man får fram konsolen... Har gått in i options och tryckt på ~ Enable devoloper console , och det funkar inte när jag trycker §... (vill verkligen komma vidare!!)"
+,Krisso,2004-11-27T13:09Z,"Hallå. har ett litet problem, spelet funkar och är skit kul.. men när jag sparar ett spel och ska ladda det sen så står det AI-disable, hur gör jag för att få bort det? Och hur fan kommer man till consolen? nån som kan hjälpa mig skicka ett PM!! "
+,marine,2004-11-27T16:55Z,"the rabbit: Spara spelet när tjejen talat färdigt och bara står där, när du sen laddar in det sparade spelet så funkar det ! Är tydligen samma bugg även i originalspelet !!"
+,marine,2004-11-27T17:00Z,Krisso: Jag har skickat ett PM till dig
+,marine,2004-11-27T17:06Z,"Angående problem att komma åt konsolen,
+lägg till följande i  autoexec.cgf:
+
+con_enable ""1""
+bind ""c"" ""toggleconsole""
+
+då kommer man åt konsolen med c (man kan ju förstås använda vilket tangent man vill) :wave:"
+,Chokehold,2004-11-28T02:59Z,"*SPOILERVARNING*
+
+Jag själv har stött på ett problem, att när man kommit till en punkt i spelet som heter Black Mesa East säger spelet till om att det är dålig connection till Steam och självstänger, sedan kan man inte öppna spelet ens.
+Har provat att reboota, gick inget vidare det heller.
+Någon som helst hjälp fick jag ingen i supportkanalen på IRC heller, men om någon vet något om detta kan man gärna nå mig via PM eller svar på kommentar."
+,vicco,2004-11-28T12:16Z,"Jag har ett litet problem. ibland så blir allt å alla frysta å man springer omkring å ingen gör något.
+någon annan som har stött på samma problem?"
+,the_rabbit_,2004-11-28T13:04Z,tack för det marine! Ska testa nu!
+,endless-pain,2004-11-28T16:22Z,HElp me plz i beg u!!!... how do i get this started.... yes iam a newbie....but plz help me.....write in english....Iam sry but i cant understand swe....i have downloaded the version and .rar it ....what now??...
+,endless-pain,2004-11-30T14:42Z,how do i turn AI on again??
+,Mini-U,2004-11-30T16:04Z,Hej kan någon hjälpa mig när jag ska starta mitt hl2 så står det faild to load filesystem Snälla hjälp??
+,Technical-J,2004-12-06T18:36Z,"Kan någon vara så snäll att Seeda??? Plz???
+
+-_- -_- -_-"
+,blackgrass,2004-12-07T03:08Z,"Type ""ai_disable 0"" in console to fix the problem.
+
+(You could need to reload the save once more, by typing ""reload"" in console. If you still can´t react with some AI, I found that they´re most likely done with their task and you don´t need them.)"
+,grodzilla85,2004-12-09T20:32Z,"jag saknar launchern! tankade det, zippa upp rar filerna o fick då bara 4 mappa (bin, hl2, platform, reslists) har kollat mapparna men ingen launcher...kan nån hjälpa mig"
+,join,2004-12-13T14:58Z,FAN VAD SÄMST HAN AVBRÖT DEN JU:(
+,join,2004-12-13T15:04Z,SORRY såg inte att den hade satt sig i hörnet:d
+,Riggan,2004-12-21T19:10Z,"Asså kan nån lägga upp iso filerna till half-life 2, dom här färdig instalerade uppladningarna tycks ju inte fungera specielt bra!"
+,TweaK,2004-12-21T20:48Z,"Jag hittar ingen .exe fil att starta spelet med, någon som kan hjälpa mig med hur jag skall gå till väga?"
+,Riggan,2004-12-21T21:52Z,"Nej det finns nog ingen .exe fil till det här, detta är den andra skiten jag laddar ner som inte funkar, tacka gud för att betan finns, den ha man ju mkt mer nytta av! "
+,spoxX,2004-12-22T02:05Z,ALLA NI SOM HAR LAUNCHER.EXE PROBLEM (ALLA?) KAN PRIVVA MIG DÄR JAG FÖRKLARAR HUR NI LÖSER PROBLEMET.
+,Riggan,2004-12-22T07:29Z,jo det finns launcher till den här versionen kolla alla .rar filerna det ligger typ olika i alla men ni behäver bara den med launchern och några andra mappar. funkar jättebra=)
+,xowani,2004-12-24T22:52Z,"Seeda please
+
+Snääääälla ^^"
+,xowani,2004-12-25T02:03Z,We need more seeders
+,Riggan,2004-12-25T11:28Z,"är det nån som fattar slutet på hl2, dog man eller vafan hände?"
+,CpSigne,2004-12-29T00:02Z,Exakt vart finns Launch.exe? 
+,josef90,2004-12-31T11:20Z,Tjena hur gör man i slutet på? Jag vet att man ska förstöra det där skeppet lr va de är. Men sen då?!?!?! PS Det här fungerar utmärkt
+,huskvinnan,2005-02-16T14:02Z,tack marine
+,pederkli,2006-03-11T12:02Z,kom igen grabbar seeda!!!
+,pederkli,2006-03-13T17:13Z,"när jag skulle starta spelet och skulle ladda ett sparat spel så står det Al disable,och det är ingen som rör sig nån som vet vad man ska göra?"
+,viva la roos,2006-04-10T11:04Z,seeda plz i really want this game:(
+,gurra89,2006-07-05T11:18Z,"How do you come to chapter 2 by just playing and without start from the second chapter from the beginnig????? 
+I know there is a way so you come to chapter 6, but i dont't want to go to the 6th chapter before the others!! PLEASE HELP!!!"
+,blanklikeahell,2007-07-04T21:38Z,please seed!:( 

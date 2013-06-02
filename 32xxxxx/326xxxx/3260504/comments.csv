@@ -1,0 +1,10 @@
+﻿User Type,Username,Date,Text
+,MrAcavano,2004-11-29T12:40Z,"Har använt WinLock tidigare, o det funkar bra! Finns det nån som vet om något program där man kan begränsa tiden på hur länge varje användare kan vara inloggad, t.ex. att varje användare kan vara inloggad i 1 h/dag, varefter användaren blir utloggad och kan inte logga in förrän nästa dag?"
+,beril,2004-11-29T13:44Z,"Microsoft har ett Resource Kit verktyg som heter LimitLogon. Har för mig att den är fortfarande i beta stadiet.
+
+http://www.msfn.org/comments.php?shownews=7601"
+,okaaay,2004-11-29T16:38Z,"Begränsa användares inloggningstider är enkelt gjort i Active Directory, om du kör med det. Öppna bara ett användarkonto i ""active directory users and computers"", så ser du enkelt.
+
+Om du tänker köra lokalt på vanliga klienter, utan en server, så blir det svårare.. Känner inte till något smidigt och bra program för sådant. 
+Du får la koda själv. (:"
+,Stilnoct,2005-02-26T14:42Z,snälla seeda nån

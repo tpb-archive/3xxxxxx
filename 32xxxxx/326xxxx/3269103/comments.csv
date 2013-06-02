@@ -1,0 +1,18 @@
+﻿User Type,Username,Date,Text
+,Hmmkk,2004-12-26T14:41Z,Frågan är ju bara; Varför lägga upp flera månader gamla filmer hela tiden?
+,LheRoX,2004-12-26T16:05Z,Seeda please...
+,Midknight,2004-12-27T01:53Z,"55 seeders,331 leechers....och ändå frågar Einstein varför man lägger upp rullen...:)...förmodar att det inte lönar sig att svara....Tack för en just kopia...;)"
+,OPTIVID,2004-12-27T11:30Z,"Varsågod! Ja, vissa förstår man bara inte."
+,Mr_B,2004-12-27T23:56Z,Jag får inte den att funka.... När jag spelar upp dne så kommer bara en massa oljud och ingen bild. Vet nån vad det är för fel?
+,OPTIVID,2004-12-28T03:17Z,Använder du senaste vlc så SKA det fungera.
+,tarsta,2005-01-14T13:47Z,Hur bränner man en *.mkv-fil så den ska funka i DVD'n?
+,trashstar,2005-01-14T22:34Z,"tarsta: verkar funka att k0da om m med  tmpgenc - http://www.pegasys-inc.com/en/product/te3xp.html
+
+såväl till dvd (mpeg2) som .avi
+
+då måste du ha lazy man's mkv ( http://www.free-codecs.com/download/Lazy_Man_MKV.htm ) eller liknande installerat.
+
+egentligen borde det väl gå att rippa ut ljudet och koda om till mp3, för att slippa kvalitetsförlusten (och omaket) att koda om bilden som ju redan är i xvid, men jag har inte   orkat räkna ut hur man gör det...
+
+(jo det gjorde jag visst) 
+virtualdubmod för att plocka ut bilden, tmpgenc för att spara ljudet till en .wav-fil, din favvo-mp3-encoder för att koda .wav till mp3 ( tänk på att bitraten blir låg, kanske 96 kb/s, om allt ska få plats på en cd) och virtualdub för att sätta ihop bild och ljud igen (vdub kan iofs ta hand om mp3-enkodningen också)."

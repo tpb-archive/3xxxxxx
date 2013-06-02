@@ -1,0 +1,17 @@
+Digital signal processing (DSP) refers to anything that can be done to a
+signal using code on a computer or DSP chip. To reduce certain
+sinusoidal frequency components in a signal in amplitude, digital filtering
+is done. One may want to obtain the integral of a signal. If the signal
+comes from a tachometer, the integral gives the position. If the signal is
+noisy, then filtering the signal to reduce the amplitudes of the noise
+frequencies improves signal quality. For example, noise may occur from
+wind or rain at an outdoor music presentation. F iltering out sinusoidal
+components of the signal that occur at frequencies that cannot be
+produced by the music itself results in recording the music with little wind
+and rain noise. Sometimes the signal is corrupted not by noise, but by
+other signal frequencies that are of no present interest. If the signal is an
+electronic measurement of a brain wave obtained by using probes applied
+externally to the head, other electronic signals are picked up by the
+probes, but the physician may be interested only in signals occurring at a
+particular frequency. By using digital filtering, the signals of interest only
+can be presented to the physician.

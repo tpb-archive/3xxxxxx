@@ -1,0 +1,57 @@
+Here is a quick v1.01 version of Softmod Installer Deluxe.
+
+There were a few bugs found regarding installing the dashboards, so I have fixed this quickly before too many more people get their hands on v1.0.
+
+My apologies to everyone who has already downloaded this, from memory the only gamesave that will actually sort of work (still won't install Unleashx because of a bug) is the 007 gamesave.
+
+Thank you everyone for all your support and feedback too, you don't know what it means to me. And if it wasn't for feedback I'd never know it was broken in the first place.
+
+
+Release Notes:
+
+Since I've seen so many of these being released, I decided to have a go at putting one together myself. The main thing that inspired me to do this was the fact that I had trouble with my MechAssault original, and I had to mod a 1.6 Xbox. Therefore, I decided to compile my own.
+
+It is also the perfect partner for Auto-Installer Deluxe v1.01 and later, as you can update your dashboard (which will be located at C:evoxdash.xbe or E:evoxdash.xbe as default). You can also install more apps and emulators to boost up your Xbox a little more.
+
+I hope you enjoy this little release...
+
+
+What does it include?
+
++ Softmod Exploit Packages for 007 Agent Under Fire, MechAssault, and Splinter Cell.
+
++ bert-generic.xtf, ernie.xtf, s.xtf, s2.xtf, and s3.xtf hacked fonts.
+
++ Signed Phoenix BIOS Loader, with Dual Boot function.
+
++ Evox M8+ 1.6 BFM BIOS (with G Drive Support for HDD Upgrades).
+
++ Unleash 0.37.1218 Build 543 and Evolution X 1.8.3935 for Dashboards.
+
++ Dvd2Xbox 0.6.3 (to rip smaller games and Audio CDs to your HDD).
+
++ DVD-X to watch DVDs (without the remote).
+
++ Backup / Recovery functions.
+
+
+What does it do?
+
+Softmod Installer Deluxe is similar to other various gamesave exploit installers such as lTools, SIN, and WaffleTools. Once this gamesave is on your Xbox HDD and you have booted your game of choice, you can softmod your Xbox. The installer will even make a backup of your C Partition just in case it doesn't work, just in case.
+
+It will install a Dashboard at C:evoxdash.xbe (or E:evoxdash.xbe if you prefer), Font Exploits, DVD-X (for watching movies), and a BIOS Loader (PBL) to load the hacked bios.
+
+This installer should work on ALL current Xboxes to this date.
+
+What does Softmodding do? It allows you to run a Dashboard and play burned discs with an Xbox that doesn't have a Modchip. It is the easiest and quickest ways to mod your Xbox, wihout having to pull it apart. You can however go one step further and replace your stock HDD and softmod, but as of yet I haven't done this.
+
+
+What do I need?
+
++ This Softmod Installer (obviously).
+
++ Latest MS Dash (version 5960), just run a newish game with Xbox Live support (Burnont 3,   Need for Speed Underground 2, etc.) and this will update your MS dash to the latest one.  Alternitavely, you can extract it from Auto-Installer Deluxe v1.0 and higher. Extract  the Auto-Installer Deluxe ISO and go to FilesDash. You'll see a ms-c.zip file here,  which contains the MS Dash 5960. Use either FTP or other means to transfer it over to  E:BackupMS once the Softmod has been installed. You can also just Format C, install the new MS Dash, then re-apply the Softmod.
+
++ An Xbox Memory Card, Action Replay, Mega X-Key, or a compatible USB Memory Stick (you will need a USB Adapter cable for this) to store the gamesaves so that you can load them on to your unmodded Xbox.
+
++ An Original of either 007 Agent Under Fire, Mechassault, or Splinter Cell. Please note that the Xbox Classics range WILL NOT work, it must be the older versions.

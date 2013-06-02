@@ -1,0 +1,119 @@
+INFO: 
+1º) Tiene una Sección de Información en donde podrás entender más o menos el funcionamiento del ZXBInstaller y sobre lo que instala. 
+
+2º) Menú de Formato: 
+
+a) Formatea completamente el HD (útil para HD nuevos). 
+b) Puedes elegir qué partición formatear por si alguna te da problemas. 
+
+3º) 2 Secciones: "Sólo XBOX Chipeadas..." y "Solo XBOX con Exploit..." en donde cada una de ellas tiene lo mismo pero modificado para las necesidades de cada XBOX. En estas secciones encontrarás: 
+
+3.1) Dashboards. 
+
+a) Avalaunch 0.49.1 
+b) BlackStormX 
+c) EvoX 3935 
+d) MediaXMenu 0.9n6 
+e) NexGen 16.02.04 
+f) tHc LITE 
+g) UnleashX 0.36.0620A 
+h) Dash Original (v5960 para XBOX chipeadas y v4920 para XBOX con Exploit). 
+
+3.2) BIOS. 
+
+3.2.1) XBOX Chipeadas. 
+
+a) Se ejecuta el AutoFlash que contiene las BIOS X2 4983.06, X2 4983.67, EvoX M8 y EvoX M8 1.6. Las BIOS X2 4983 hay de 256k, 512k o 1Mb; La EvoX M8 sólo de 256k. 
+
+3.2.2) XBOX con Exploit. 
+
+a) BIOS X2 4983.06 BFM. 
+
+3.2.3) Exploit Completo + 1 Dash (sólo XBOX con Exploit). 
+
+a) Exploit Completo + EvoX 3935 
+b) Exploit Completo + tHc LITE 
+c) Exploit Completo + UnleashX 0.36.0620A 
+
+4º) Cualquier XBOX... 
+
+4.1) Aplicaciones. 
+
+a) boXplorer 0.96 
+b) ConfigMagic FINAL 
+c) Dvd2Xbox 0.5.8 
+d) DVDx2 
+e) Enigmah 
+f) LinksBoks 0.92 
+g) Px HDD Loader 1.3 
+h) Xbftp 0.62 
+i) XBMC v1.0 
+j) XBMP 2.4 
+k) Xcommander R2 
+l) xPad Alpha 2 
+m) Xtoolbox v0.41 
+
+4.2) Emuladores 
+
+a) FBA-XXX 04/06/2004 
+b) FCEUltra v16 
+c) Kawa-X 0.11 
+d) Kawa-X Plus 
+e) Kawa-X SE 
+f) Mame-X b6 
+g) MAMEoX 0.79.1b 
+h) NeoGenesis v16 
+i) pcsxbox v11 
+j) ScummVMx 0.6.0 
+k) SMSPlusX v9 
+l) SpeXtrum 0.01 Alpha 
+m) Surreal64 1.0 
+n) U64-X Beta 1 
+ñ) XboyAdvance v15 
+o) xSnes9x v1.42 
+
+4.3) Juegos Homebrew 
+
+a) AtomX 
+b) Baku Baku 2 
+c) BlasteroidsX 
+d) Breakout3D 
+e) Bubble Trouble SX 
+f) DeadBabiesx 
+g) Dodgin Diamond 2X 
+h) DoomX 
+i) MiniMario 2D Demo 
+j) Mirror Magic 
+k) PacmanX 
+l) Pig-X 
+m) QuakeX 
+n) Star Wars 
+ñ) Stepmania v5 
+o) Super Mario War 
+p) WormS 
+q) xRick 
+
+5º) Opciones de EEPROM y HD (ConfigMagic). 
+
+6º) Cambiar de NTSC a PAL y viceversa (Enigmah). 
+
+7º) XBOX como de Fábrica (Formatea todo el HD e instala el Dash Original v5960). 
+
+8º) Menú de Configuración del ZXBInstaller. 
+
+9º) Explorador de Archivos. 
+
+Instrucciones: El ZXBInstaller tiene la información de la configuración de FTP de los Dash y del mismo ZXBInstaller y otras cosas más en la Sección "1) Información". Todos los Dash que se instalen en C/ lo harán como evoxdash.xbe, si tienes una BIOS antigua que busca como Dash sólo al xboxdash.xbe, puedes usar el Explorador de Archivos para modificar lo que necesites. 
+
+El ZXBInstaller tiene la habilidad de instalar el Exploit de las fonts usando el método de Hot Swap, les recuerdo que antes de instalar el Exploit se debe formatear por completo C/ y luego instalar el Exploit. Recuerden revisar si su Kernel admite este Exploit. 
+
+Las aplicaciones, emuladores, juegos homebrew y Dashboards al instalarlos en E/, F/ o G/ se crearán las siguientes carpetas: 
+
+Aplicaciones -> Apps 
+Emuladores -> Emulators 
+Juegos Homebrew -> Games 
+Dashboards -> Dashboards.
+
+P.D: GRACIAS A FERNAS X ESTE TRABAJO
+
+SALU2

@@ -1,0 +1,61 @@
+Counter-Strike: Source Updates Patch 8
+
+  Release Date  :  24-12-2004            Protection  :  Custom Steam Crap 
+  File Count    :  12x15MB                Game Genre  :  Action / FPS       
+
+
+  Release Notes:                                                             
+  This update will fix all your protocol problems <again>                   
+  Get update 5, 6 and 7 first after that add this update!                   
+  Use Online Play from this update if you want to play online!               
+                                                                             
+  Steam Fixes:                                                               
+  Fixed sound stuttering problems caused by thread contention in sound system
+  Solved disc in drive incompatibility error                                 
+  Optimization to the Steam filesystem to reduce game launch and level       
+  transition time                                                           
+  Fixed missing models when running the Video Stress Test                   
+  Added map: de_prodigy                                                     
+  Improved player movement against walls                                     
+  Improved choppy player movement when bouncing down slopes                 
+  Purchase icon for defuser is shown                                         
+  Physics prop avoidance is scaled by the object's mass                     
+  Detail prop fade distance can be controlled on a per-map basis with       
+  env_detail_controller                                                     
+  Spectator GUI last mode is saved                                           
+  Added spectate player by name                                             
+  Grenades, weapons, etc., splash when they land in water                   
+  Frag grenade deafness is delayed so the explosion is heard                 
+  Fixed viewmodel lag                                                       
+  Added consistency checking player model bounds                             
+  Weapon reloads finish when the round restarts                             
+  Autobuy and rebuy trigger a reload if you don't buy a primary weapon       
+  Rebuy doesn't drop pistols the player has picked up                       
+  Dropped weapon ammo isn't lost if the player has another weapon using     
+  that ammo                                                                 
+  Re-added hostage hint messages                                             
+  Smoke grenade canisters fade out and are removed when smoke is dense       
+  Breakable glass is blown outward proportional to the damage recieved       
+  Soundscapes update for observers                                           
+  Fixed not being able to attach to ladder tops                             
+  Misc fixes to spray import                                                 
+  Enabled bots for LINUX & WIN32                                             
+  Fixed crash when trying to play an MP3 that doesn't exist or is an         
+  invalid format                                                             
+  Fixed a crash when playing MP3 files with ID3 tags                         
+  Fixed network being started early enough so UDP remote logging works       
+  World rendering optimizations                                             
+  Fixed problems with demo recording                                         
+  Added command "setinfo " to allow clients to add custom user info fields   
+  (creates a new cvar flagged as FCVAR_USERINFO)                             
+  Enable sv_downloadurl & sv_consistency on dedicated servers               
+  Fixed "kick " command via rcon if the name is surrounded by quotes         
+  Fixed bug in "logaddress_add" that wouldn't add the correct port if the   
+  port and address were surrounded by quotes                                 
+  Added "player_say" event for 3rd party plugins                             
+  Fixed crash in dedicated servers when issuing a say before the map is run 
+  Fixed +ip not being applied when given on the command line                 
+  HL2 depot fix for upcoming SDK update                                     
+  Fixed "failed to load server.dll" error with 3rd party mods               
+  Fixed linux dedicated server crash on some GLIBC versions                 
+  Fixed dedicated server error in certain localized languages

@@ -1,0 +1,21 @@
+Specificationer:
+ IMDB..................: http://www.imdb.com/title/tt0325655/
+ källa.................: PAL DVD
+ format................: PAL SVCD
+ speltid...............: 96 minuter
+ språk.................: Kinesiska
+ text..................: Svenska
+ video.................: PAL SVCD (MPEG-2 25fps HxB=576x480), 2024kb/s avg, 2520kb/s max, 300kb/s min, 2-pass VBR
+ audio.................: mpeg1 audio - layer II, 224kb/s, 44,1kHz
+
+Program: 
+ rip...................: dvddecrypter
+ frameserving..........: dvd2avi->vfapi->virtualdub
+ subs..................: vobsub(rip), vobsub-plugin för virtualdub
+ audio.................: vobedit(ac3rip), besweet(mp2-konvertering)
+ encoder+multiplexer...: TMPGEnc
+ cd-image..............: VCDEasy
+
+Rar-filer:
+ cd1: 51x15mB
+ cd2: 54x15mB

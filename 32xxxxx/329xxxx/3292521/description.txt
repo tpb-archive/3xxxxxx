@@ -1,0 +1,21 @@
+Denne disk har jeg lavet efter en vejledning jeg fandt i et ps2 forum. Den er relevant for folk med harddisk og hdloader, og særlig relevant for folk som mig med en gammel slidt neo4 bootchip.
+
+Disken booter op med noget der ligner en dos-skærm med ftpadgang. Derefter kører du hdl_dumb programmet og installerer fra din pcs dvddrev eller fra en isofil til ps2 harddisken via lan.
+
+Ipadressen er 192.168.0.10, subnet 255.255.255.0, default gateway 192.168.0.1. Så sørg for at dit netværk er sat op så det kan kommunikere med ps2en. Ønsker du at ændre ipadressen kan du jo altid selv prøve at følge den vejledning jeg benyttede:
+
+http://forums.psxforum.com/viewtopic.php?t=23567&start=135
+
+Hvorfor er den specielt relevant for Neo4 brugere?
+
+- det er den fordi at Neo4 er en swap chip. Dvs du skal altid have et originalspil med større TOC, dvs. et større spil for at swappe med et brændt. Har du ikke et større originalspil end det brændte kan du IKKE køre det brændte. Men med denne løsning kan du installere hvad som helst.
+
+Er der andet spændende jeg kan bruge denne spændende løsning til?
+
+- Ja. Jeg har læst mig til at man kan installere DVD9 spil til sin ps2hd når man installerer gennem lan. Jeg har dog ingen af sådanne spil så det har jeg ej testet. Men det kan man ikke med hdloader. Dette giver jo perspektiver til F.eks. Gran Turismo 4 (upload gerne hvis du har!!), som udkommer på DVD9.
+
+Håber der er nogen der kan bruge dette til noget.
+
+ps. diskens ftpserver skulle understøtte hd større end 120GB. Men min er 120 så det kan jeg ikke teste
+
+Brug på eget ansvar.

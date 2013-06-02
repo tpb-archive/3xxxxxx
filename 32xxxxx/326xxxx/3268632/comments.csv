@@ -1,0 +1,36 @@
+﻿User Type,Username,Date,Text
+,bla,2004-12-24T22:55Z,"Tackar
+
+Dom senaste jag har provat har tagit en evighet att starta:("
+,reefer45,2004-12-24T23:20Z,Provat radera xbmc savegamet?
+,cobraeyes,2004-12-25T12:53Z,"lasershock.... här hittar du nog allt du behöver veta och lite till... :D
+http://manual.xboxmediacenter.de/wakka.php?wakka=Index"
+,Hammaren,2004-12-25T16:33Z,Undertexterna funkar inte för mig... Har bara provat .srt filer. Är det nägon som har en lösning?
+,LiNiC,2004-12-25T17:43Z,"Undertexterna ( .srt ) Funkar fint för mig.
+ La dom i samma mapp som filmen ,
+ ""med_samma_namn_som filmen.str""
+
+Därimot får jag inte webradion att funka. var iofs inte med så jag la in den själv men den vill inte köras ändå tyv.
+
+God fortsättning föresten"
+,k1t,2004-12-25T19:48Z,"undertexter virker ikke her heller, samme gjelder for web-radioen :("
+,Bruket,2004-12-25T20:55Z,"Undertexterna fungerar inte heller för mig :-(
+
+Scripten för Webradio har inte fungerat i dom 
+senaste 5-10 kompil..."
+,xboxtok,2004-12-26T01:35Z,undertexterna blir helt osynkroniserade.. nån som vet felet?
+,k1t,2004-12-26T11:14Z,noen som vet hvilken er den minst ustabile den senere tid?
+,skrikspya,2004-12-26T19:15Z,"Någon som vet vart man kan ladda ner alla nya ""builds"" alltså om det finns nån sida?"
+,FAK7OR,2004-12-27T01:25Z,"No subtitles for me either, tried srt in same dir as movie and in another specified folder. :/"
+,General_Dark,2004-12-27T09:50Z,Ni som har problem; jag antar att ni har deletat save-filerna för xbmc?
+,Bruket,2004-12-27T10:24Z,"Felet på undertexterna är fixat, se changelog nedan.
+
+cvs: xbmc/XBMC/Changelog.txt
+
+added/fixed: (dd-mm-yyyy) (please specify date in CET)
+ - 25-12-2004 changed: removed specification of first subtitle to allow new mplayer.dll to function properly."
+,skrikspya,2004-12-27T11:12Z,"Jag har deltetat 0face008 i TDATA och UDATA men det funkar ändå inte. Det finns ju en mapp som heter 0face007 i samma mappar, ska den bort också eller? 
+
+Bruket: Denna release är ju från 24/12 och den loggen du citerade är ju från 25 så det måste väl vara en nyare relase? Om det är det vart får man tag på den?"
+,skrikspya,2004-12-27T11:22Z,Provade att ta bort 0face007 men det blev ingen skillnad
+,j0ntE,2004-12-30T00:35Z,har du .idx filen kvar?

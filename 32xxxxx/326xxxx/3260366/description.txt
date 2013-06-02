@@ -1,0 +1,61 @@
+The program is made by Duja, Torlen.Net Software!
+You can share the program as you want, but dont sell it dude ;)
+I made it for private use, so dont blame me if it doesn't work.
+
+The program is made in Sweden ;)
+But i made it in English to make it more easy to understand for everyone!
+
+Files needed:
+
+COMDLG32.OCX
+
+Good For:
+
+Strongly recommend Azureus for this!
+
+I use it to copy a .torrent file from my computer to a
+shared location on my server!
+I configure Azureus to open .torrent files every 1 minute from
+the dir from were my torrents have been copied!
+When a download is finsihed azureus copy the file that is finished to
+another dir.
+
+I think this is a very and good way to use a server as
+an download machine + you dont need to have your computer on
+over the night, just let the server do the job!
+
+IMPORTANT!
+To make the BitTorrent network stay alive!
+Set your share ratio to min 1.5 in Azureus!
+
+installation:
+
+Just copy the files to a location were it can stay
+i recommend that you create a directory in
+"/Program Files" ex. "/program Files/tss"
+and then start the program to config it!
+
+Associate with .torrent!  (Recommended)
+Makes the programauto. open a torrent when 
+you download it!
+
+Copy file directly when opened! (Recommended)
+Makes the program copy the .torrent file directly
+to the given location instead of waiting!
+
+Delete source then Finished! (Recommended)
+Just like it says, deletes the source when the
+.torrent file is copied!
+
+Save As. !
+This must be the shared folder on your server
+all your .torrent files will be copied there!
+
+Browse!
+Only if you have a .torrent file on the computer 
+and want to copy it from there!
+
+
+Greets to friends and TPB, best site 4 torrents!
+
+/ Duja

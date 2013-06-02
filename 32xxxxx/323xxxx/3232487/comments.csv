@@ -1,0 +1,73 @@
+﻿User Type,Username,Date,Text
+,TheCendion,2004-08-18T13:57Z,Thx! Har letat efter denna..
+,Naje,2004-08-18T14:13Z,Tack tack tack!
+,Ice-Man,2004-08-18T14:42Z,Det är lugnt! Bara till att bjuda igen :)
+,UnknownSheep,2004-08-18T15:41Z,Sluta inte seeda bara =D
+,Ice-Man,2004-08-18T17:41Z,"Ingen risk att jag slutar seeda, jag HATAR halvfärdiga downloads själv...."
+,mannolito,2004-08-19T21:33Z,det står not found :( sorry pal när jag försöker ladda ner den.. lite störande.. nån som har samma problem?
+,Ice-Man,2004-08-20T14:38Z,"mannolito: Konstigt med tanke på att det just nu finns 18 seedare och 91 leechare... 
+Troligen något problem hos dig eftersom det fungerar för alla andra...."
+,UnknownSheep,2004-08-20T19:17Z,"Så! Man tackar! 
+
+Men hur packar jag upp den! Har provat på alla möjliga och omöjliga sett.. Men det blir fel.. Det brukar gå bra o packa upp rar arkiv men detta va tamigfan svårt!"
+,Rosebud,2004-08-21T08:42Z,"Samma sak här,kan ej packa upp rarfilen  den andra gången.Har ngn lyckats?"
+,Rosebud,2004-08-21T08:42Z,"!   D:doavb.r00: Du måste starta uppackningen från en tidigare volym för att packa upp px-doavb.iso
+!   D:doavb.r00: Inga filer att packa upp"
+,Ice-Man,2004-08-21T14:28Z,"Alltså, att det skall vara så svårt att läsa en .nfo-fil fast jag till och med skrivit READ NFO!!!
+
+Well, för de som inte orkar titta i .nfo-filen kommer här då ett utdrag som löser problemen med uppackningen:
+
+  Note2: There are two sets of rars (blame M$ filesystems!).  Unrar
+         px-doav1.rar and then px-doav2.rar (order doesn't matter) and
+         you are left with doavb.rar and doavb.r00.  Unrar those two 
+         files (uncompressed so shoud be fast) and burn the .iso as usual. 
+
+Jag testade just för att försäkra mig om att inget hade strulat till sig och det funkade hur bra som helst!
+
+Alltså, på ren svenska:
+1. Packa upp px-doav1.rar-r34
+2. Packa upp px-doav2.rar-r43
+Detta har resulterat i två filer, nämligen doavb.rar och doavb.r01.
+3. Packa upp doavb.rar-r01
+Nu har du en packat upp en fil som heter px-doavb.iso som du kan göra vad du vill med (bränn, extracta eller vad du känner för).
+
+Funkar det fortfarande inte så bör du nog kolla att din download är komplett. Kör en SFV-check på filerna du laddat ner."
+,Rosebud,2004-08-21T19:43Z,"Sorry Iceman.
+Jag borde läst nfon,nu packade jag upp det till en rar men jag har så ont om plats så jag var tvungen att kasta de andra rarfileran så nu har jag en fil på 4.3 gig som jag inte kan göra ngt med ...Jag går och ställer mig i hörnet och skäms"
+,UnknownSheep,2004-08-22T17:28Z,"Okok ;)
+
+Jag lyckades faktiskt få upp den utan att läsa nfo filen efter ett tag men det var ren tur.
+
+Ska komma ihåg och läsa .nfo filer i forsättningen!"
+,IcoNe,2004-08-23T08:58Z,Varför så komplicerat att man måste packa upp 2 ggr ... vore d inte mkt enklare att göra som man brukar göra ... eller ... men men d e ju inte du som rippat spelet väll så ... tack tack för du lägger upp iaf
+,Ice-Man,2004-08-23T21:11Z,"IcoNe: Well, så här står det ju i nfo´n: Note2: There are two sets of rars (blame M$ filesystems!).
+Jag antar att det är anledningen :)"
+,pontan,2004-12-26T10:42Z,"FIFAN!!
+Skulle du vatt ett pök hade ja fan kysst dej"
+,BBJB,2004-12-30T14:01Z,"Jag har fått hem allt nu
+Jag har kört rar på filern och har då dess 2 som ni beskriver.
+
+Packade upp ena, efter 50% så frågade rar efter den andra filen, valde den platsen den låg på och dom kördes samman nu.
+filen e på 4.2gb
+
+Men när jag försöker ladda den i tex MagicISo så klagar den på att en fil e skadad, samma om jag testladdar den i Deamontools. den vill helt enkelt inte, kan inte se vilken fil som e skadad heller tyvärr
+
+Nån som har stött på samma problem ?"
+,frasse11,2005-01-14T11:24Z,"Nä, nu ger jag upp denna nerladdning. Har laddat ner spelet två gånger och får upp samma fel båda gångerna. Isofilen är skadad efter 99 % är upp-packat. Suck...."
+,Davve_99,2005-01-14T20:46Z,Seeda mera! tack.:)
+,Grooblewas,2005-04-12T00:58Z,"< Får inte spelet o fungera! Efter att varningstexten har visats blir bilden bara svart, inget händer? Konstigt som fasen.. Har aldrig haft problem med spel som inte startar upp förut.. Ska testa o bränna igen. Nån som får igång spelet eller? >
+
+Prøv og forandre instillingene dine. Om jeg ikke tar feil står in Video-Mode på PAL-60. Sett den til PAL eller NTSC. Dashboardet burde forandre standard av seg selv når den står på en av de to. "
+,Remslem,2005-08-04T19:32Z,Seed plz!
+,SuXeS,2005-08-09T19:21Z,"Jag förstår inte riktigt hur man ska göra! Har laddat ner alla filer osv (självklart) och ska un-rara. Får då upp detta error: px-doav1.r00: The archive is either in unknown format or damaged
+VAD SKA JAG GÖRA??"
+,smultronet,2005-08-11T23:13Z,"Funkade kanon bra för mig, gjorde precis som Ice-Man hade skrivit längre ned!
+Mycket underhållande spel! Tackar!"
+,tirapalla,2006-04-05T20:08Z,"It's NTSC.
+
+Here you can view the nfo file:
+http://www.theisonews.com/release.php?releaseid=70264"
+,MrPuffyJacketMan,2006-05-18T03:29Z,can anyone help me i opend everything and put the image onto a dvd with alcohol 120% i also tried it with nero both times the xbox gives me an error message.
+,Smash75,2006-08-11T21:40Z,"Snälla kan någon seeda!!! Fastnat på 99,3 Tack!!!"
+,JesusEatsBabies,2007-02-14T10:21Z,works so far
+,wombat0893,2007-09-13T18:00Z,seed please!!!!

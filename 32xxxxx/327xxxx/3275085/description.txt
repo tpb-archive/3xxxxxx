@@ -1,0 +1,73 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content="
+  HTML Tidy for Windows (vers 1st September 2004), see www.w3.org" />
+
+  <title>Arctic Torrent</title>
+  <link rel="stylesheet" type="text/css" href="default.css" />
+</head>
+
+<body>
+  <h1>Arctic Torrent</h1>
+
+  <p>Arctic is a minimal BitTorrent client. It wont have all the pretty features that other Torrent
+  apps have, but focuses on low memory and cpu usage. Because it was written in C++, you dont get
+  the high memory requirements of Java or high CPU usage of Python.</p>
+
+  <div>
+    <h2>Files</h2>
+
+    <table summary="Files">
+      <tr>
+        <th>Version</th>
+
+        <th>File</th>
+
+        <th>Description</th>
+
+        <th>Size</th>
+      </tr>
+
+      <tr>
+
+        <td>1.1</td>
+
+        <td><a href="
+        http://prdownloads.sourceforge.net/int64/arctic-1.1-setup.msi?download">arctic-setup.msi</a></td>
+
+        <td>Arctic setup</td>
+
+        <td>611KiB</td>
+      </tr>
+
+      <tr>
+        <td>1.1</td>
+
+        <td><a href="
+        http://prdownloads.sourceforge.net/int64/arctic-1.1-src.zip?download">arctic-src.zip</a></td>
+
+        <td>Arctic source</td>
+
+        <td>346KiB</td>
+
+      </tr>
+    </table>
+  </div>
+
+  <div>
+    <h2>Platform Support</h2>Arctic is tested on Windows XP and should work on 2000, XP, and 2003.
+    It uses Unicode for easier internationalization and thus will not run on Windows 9x.
+  </div>
+
+  <div>
+    <h2>Language Support</h2>Arctic will try to use the same language Windows uses. Currently it
+    supports English and French. If you would like to translate, <a href="
+    mailto:phrosty@gmail.com">contact me</a>.
+  </div>
+
+  <div>
+    <h2>Screenshot</h2><img src="http://dev.int64.org/arctic.jpg" alt="Arctic" />
+  </div>
+
+</body>
+</html>

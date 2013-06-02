@@ -1,0 +1,66 @@
+﻿User Type,Username,Date,Text
+,meastro,2004-10-08T23:55Z,"Register an account on it. (don't use one with games on it!) 
+
+
+vad menas med det???"
+,sirk,2004-10-09T00:13Z,"Vad som menas är att du ska skapa ett nytt account på steam och använda dom uppgifter för CS: Source.
+
+Kan nämna också att den här fungerar prima.. Inga som helst problem =D"
+,joimy,2004-10-09T04:00Z,men kan du vara så snäll och berätta hur man gör för att få det att funka plx :D
+,Yohomies,2004-10-09T10:08Z,"Install Notes: 
+1. Unpack the patch with WinRAR or WinACE 
+2. Copy over the files located in the /Files directory to your 
+installation directory 
+3. Download Steam from www.steampowered.com 
+4. Register an account on it. (don't use one with games on it!) 
+5. Edit SteamApp.cfg in your CSS Directory to your account settings etc. 
+6. Launch the shortcut, play the game..(make sure steam is exitted) 
+*If this is not working for you keep playing on cracked servers. 
+"
+,Yohomies,2004-10-09T10:10Z,Gratis Och spela på internett?
+,person,2004-10-09T12:45Z,kan någon snäll översätta hela redme txt plz!
+,Dawa,2004-10-09T15:37Z,"Jag följer allt väldigt noga men får bara ett Error meddelande: ""SteamSetup() failed: SteamStartup(0xf,0x12e648) failed with error 108: The local Steam Service is not running""
+
+Hjälp!"
+,wall,2004-10-09T16:58Z,om jag har fattat det rätt får jag inte ha steam redan på datorn sen så måste jag fixa ett nytt steam account sen efter det fattar jag inte vad jag ska göra någon som kna hjälpa?
+,fnisse,2004-10-09T17:02Z,"Läs NFO-filen till original-releasen och följ den till punkt och pricka, sedan läser du den NFO-fil som följer med denna release och följer de instruktioner som står där."
+,Faiden,2004-10-09T17:55Z,vilka problem folk har alltså.. Varför inte ta sig tiden att läsa readme och *.nfo filer
+,IscariotSwe,2004-10-09T18:23Z,"Får jäkla skit här, står nått i stil med.
+
+284bdksd2639wsdiw34 This user does not excist or password is wrong.
+
+Hjälp..."
+,bronx,2004-10-09T20:20Z,"Ohh jag har gjort om det två gånger nu, följt .NFO filerna bägge gångerna, men det fungerar inte! Sen blir det även lite snett när jag följer det till .NFOn till själva spelet. Där står: ""delete/rename the Steam.dll in your root directory of CS:Source"" Där finns ju ingen steam.dll i den mappen? Men jag har hoppat över det bägge gångerna och när jag ska starta genvägen så kommer det upp ""SteamStartup() failed: SteamStartup(0xf, 0x12e648) failed with error 108: The local Steam Service is not running"" Testat både med steam igång och avstängt. Help me :|"
+,erkiii,2004-10-09T21:44Z,"Gör ett nytt konto och ha det igång.. Gå in i katalogen där du har lagt css och öppna SteamApp.cfg med tex anteckningar.. Gå ner längst ner där det står typ bla@bla.se eller nåt och skriv där istället namnet på det nya kontot du gjort. där det står typ C:spelCounter-Strike Source .. skriver du istället in platsen där du har lagt ditt css. Starta vanliga steam och ha det igång och starta sen med genvägen du har gjort..
+
+Detta har jag gjort för att få det att funka att starta och börja connecta till servrar men mitt i slutar det ladda, vet ej varför .. min dator kan vara för kass.. va som helst.. pröva ni och säg hur det går"
+,wall,2004-10-09T23:26Z,"funkade tidigare idag men nu har det slutat funka, när jag ska gå in på en server kommer det upp Steam Validation Rejected någon som har stött på samma problem?"
+,macke,2004-10-10T13:54Z,alla (inkl mig) verkar få det..
+,Ruchmedin,2004-10-10T15:58Z,Ej vad e Steam validation rejected
+,tyrranic,2004-10-11T02:50Z,"Cant find backrounds..... bla bla bla, testa med att leta reda på dem filerna o flytta dom till en annan mapp vid namn console, jag gjorde det tror jag. fick igång skiten efter det. ;)"
+,rexas,2004-10-11T21:54Z,Att ni inte kan ladda någn BG-bild är för att ni har valt fel spel i genvägen (-steam -console -game cstrike)
+,Leoone10,2004-10-16T17:56Z,"jag har gjort allting rätt tror jag. men när jag ska starta får jag bara upp felmedelandet 
+
+""Failed to load the launched dll
+det går inte att hitta den angivna modulen""
+
+
+
+fan behöver hjälp jag är desperat"
+,attur,2004-10-17T22:02Z,"Jag behöver hjälp. Jag har gjort allt d där skitet som det stog med att skriva in sin mail å skit i den där cfg filen eller va d va... Men när jag startar css så kommer d där skitet med ""No account exists or your password is incorrect"" Och Jag vet mkt väl att mitt acc och pass stämmer så där är det inget fel.. kan det vara fel med var jag har lagt den ? när jag gjorde steam acc så fick jag ingen sån map med ""minmail@dknasd.sad så jag gjorde en egen å slängde in cs source å allt där.. sen la jag den där ""steam apps.cfg'n"" där och utanför bland dem andra cfg filerna.. det går inte.. jag hade d fungerande ett tag när jag ej rörde ngt och bara extractade.. sen kickades jag och d funkade ej mera.. Snälla hjälp mig ! om ni ej orkar skriva i forum adda mig gärna på msn å förklara ;) a77ur@hotmail.com"
+,Henkwich,2004-11-03T13:24Z,Skiter i å fixa d här nu.. väntar tills ja får originalet istället. Har förbeställt HL2... finns ändå alltid en crackad server uppe som man kan spela på. GL till er andra.
+,shkumbin19,2004-11-09T15:09Z,"Wazupp? I get this error message when i start css.exe, It says a lot of things at first and Error 5: No steam application! or something like that....wtf?!"
+,Tamm,2004-11-20T15:22Z,Nån som fått den här och funka ???? eller e den helt värdelös ;)
+,smasher1987,2004-12-13T07:41Z,"cs är bara ett problem spel, förstör era liv"
+,gummiboll,2004-12-15T00:44Z,...inte mer än alla andra spel
+,GildorMiriel,2005-02-25T22:05Z,hmmm... verkar fan inte ens värt att ladda ner... verkar krångla för jävla mycke...
+,Tjorven__,2007-01-02T16:15Z,Hur kör man på dom crackade servrarna??
+,Simon94,2007-02-01T19:27Z,jag fattar 0 av vad fan den här killen fredma snackar om nån som kan hjälpa så skulle ni vara snälla.Tack 
+,Sven.no1,2007-06-30T18:09Z,vafan tar ni er inte tid att köpa det jävla spelet för 200 kr bara?
+,Downloader++,2007-07-02T15:30Z,But how do i know if a server is cracked and were can i get the IP:s to cracked servers???
+,Krolth,2007-08-18T04:11Z,Source is fuck!!!CS 1.6 nonsteam is best!!!!!!!!!
+,mellstam,2007-12-08T19:16Z,"This works ! just follow the instructions :)
+thanks fredma !"
+,pepinhooo,2007-12-19T18:52Z,"I still get Steam validation rejected.. If I do as it says at the bottom of page 1, I just get some error because of the .dll-file...What to do?
+
+Jag får fortfarande Steam Validation rejected.. Om jag gör som det står längst ner på sida ett så får jag bara något error pga den där .dll filen... Vad ska jag göra?"

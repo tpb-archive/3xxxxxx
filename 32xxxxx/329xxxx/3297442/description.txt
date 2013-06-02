@@ -1,0 +1,47 @@
+The torrent includes a sample.
+I chose matroska as a container to be able to use Ogg Vorbis for sound (which is proven to be much better and higher quality than mp3 for a much smaller size).
+
+1 note, the subs are included in the files (aka they are there, you just need to enable them from the player to be able to see them).
+
+Leave some feedback about the quality (in english please), if you guys like it i can rip other movies.
+
+nfo :
+Ripper...........: OneOfOne
+
+Release date: 28 Feb 2005
+Retail date...: 1999
+IMDB url......: http://www.imdb.com/title/tt0133093
+Genre...........: Action/Thriller/Sci-Fi
+Runtime.......: 130.7m (2:10:46)
+
+Format.........: Matroska (mkvmerge v1.4.0 ('Cornflake Girl') / libebml v0.7.3 + libmatroska v0.7.5)
+
+Video...........: XviD (MEncoder dev-CVS-050228-04:24-3.4.3 / xvid v1.1.-126)
+Source...: PAL ( Aspect : 1.78:1 / Res : 720x576)
+Aspect...: 2.35:1 (Cropped)
+Res........: 640x272
+Details...: 2pass using SixOfNine matrix with final size set to 1274880kb ( bitrate : ~1326kbit )
+
+Audio...........: Ogg Vorbis (OggEnc v1.0.1 (libvorbis 1.1.0))
+Lang......: English
+Source...: Dolby Digital 5.1 (48000Hz/6ch)
+Details...: 44100Hz/2ch/ quality @ 6 (~192kbit)
+
+Subs.............:
+Lang.......: English
+Source...: VobSub
+Details...: Converted to srt
+
+Misc............: Chapters are included (CD1 : 1-22, CD2 : 1-16)
+Files............: matrix-ooo.cd1.mkv (701MB) / matrix-ooo.cd2.mkv (700MB)
+Rars............: CD1 : matrix-ooo.cd1.part01.rar - matrix-ooo.cd1.part49.rar / CD2 : matrix-ooo.cd2.part01.rar - matrix-ooo.cd2.part49.rar
+
+Q&A............:
+Why matroska? Because it's a very flexible format with amazingly low overhead and avi must die.
+How to play this? the matroska codec pack @ http://packs.matroska.org/ or VLC @ http://www.videolan.org
+Why not AC3? Because I don't have 6 speakers.
+Why not mp3? Because Ogg Vorbis is higher quality  for less size, aka more bits for the video.
+How to go through chapters? Not sure on windows, maybe with ZoomPlayer or VLC.
+Why re-release? Bordom, I love this movie and most 2CD releases didn't do the video quality right because of the AC3 sound which makes video smaller.
+Does this work on mac? i'm not sure, 90% sure it works with VLC, please tell me if not.
+Why downsampling the audio? because the human-ear can't notice the difference at that quality.

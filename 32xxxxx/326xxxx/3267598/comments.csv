@@ -1,0 +1,19 @@
+﻿User Type,Username,Date,Text
+,TheSilencer,2004-12-21T22:19Z,Tackar!
+,Arucard,2004-12-21T23:37Z,"kan inte se undertexter med denna release... kan inte ens ändra eller sätta på dem genom att tryck på ""Y"" medan en film spelar för då låser boxen sig och jag tvingas att starta om... 
+
+någon som kan hjälpa?"
+,HomerDK,2004-12-22T00:12Z,"You tried to delete the folder ""0face008"" on the E drive under TDATA and also under UDATA ?
+Just to delete old settings.
+
+HomerDK"
+,bla,2004-12-22T08:05Z,Nån som har koll på vad man skall ta bort av det gamla för om jag bara tar bort xbmc mappen så tar det evigheter att starta programmet?
+,acidgen,2004-12-22T15:59Z,"Prova avalaunch med updater, lätt bäst
+
+Men om ni inte kör de, länsa e's xmbc datafiler och lägg in de på nytt"
+,reefer45,2004-12-22T18:23Z,Ville bara passa på att tillägga att dessa builds är att betrakta som UNSTABLE då dom byggs från CVS source som uppdateras med såväl nya funktioner som nya buggar. Om ni har en xbmc som fungerar för er och inte är speciellt intresserade utav nya funktioner rekommenderar jag er att hålla er till dom officiella buildsen som byggs när man anser att sourcen är något stabil. Dessa builds är för er som gillar att utforska det ständigt nya funktionerna i xbmc. Och som någon tidigare sa så ska man delete:a 0face007 mappen i e:udata o e:tdata eller gå in i ms dashboarden och ta bort xbmc savegamet. Detta är mycket viktigt!
+,bla,2004-12-22T20:16Z,"Tackar för infot :thumbsup:
+
+Vilken är den senaste officiella xbmc? "
+,reefer45,2004-12-22T20:29Z,"Jag tror att den senaste officiella ""stabila"" builden är 1.1.0 dock så har jag haft builds efter den som har fungerat bättre. Men har tyvärr inga ""guld datum"" uppskrivna."
+,reefer45,2004-12-22T20:38Z,Just wanted to confirm that subtitles are broken in this build and also in todays build. I'll release a new build as soon as this problem is solved.

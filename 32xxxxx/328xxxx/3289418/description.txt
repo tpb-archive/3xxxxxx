@@ -1,0 +1,8 @@
+OpenXDK is a kit for developing applications that will run on the Microsoft XBOX. It has the following features:
+
+* Compilable using a GCC-based toolchain. It now compiles using the Cygwin GCC compiler. Unfortunately, as much as it would have been desirable to support both MS and GNU toolchains, the practicalities are such that the MS compilers are no longer supported. Sorry! (Although, theoretically, you should be able to compile your application using the MS compilers and link in the GCC-compiled OpenXDK libraries.)
+* It now contains a complete libc replacement (thanks to newlib.) This means that 99% of the normal stdio, memory, sprintf, et al routines are available.
+* Multimedia support is provided using the Simple DirectMedia Layer (SDL) and supports video, audio, joysticks and event handling. Video is currently limited to 640x480 or smaller. Only one joystick/pad is supported (but that is expected to be fixed soon.)
+* To demonstrate the capabilities of the current OpenXDK framework, the SDL port of Doom (without sound or networking) is able to be compiled and executed. You will need to find a DOOM1.WAD (shareware) and put it in the root of your XBOX's C drive.
+* Networking is currently not supported. If you have experience in interfacing with the NVidia nForce MCP-D chip at the hardware/driver level, please get involved!
+* Now with both Windows and Linux support!
