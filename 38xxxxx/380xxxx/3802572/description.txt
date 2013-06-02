@@ -1,0 +1,5 @@
+Windows Live Messenger (MSN) Ad Removal (8.5.1288.816)
+
+Exactly what it says.  It's a patched and recompiled DLL that omits the banner ads from said version of Messenger.  Written and tested myself, and it won't screw up anything else.
+
+Simply close Messenger, ensure it's not running in the system tray, and extract this to the program's directory. (Example:  C:Program FilesWindows LiveMessenger)

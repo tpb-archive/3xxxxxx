@@ -1,0 +1,82 @@
+﻿User Type,Username,Date,Text
+,nisse_123,2007-10-28T01:09Z,"Då jag bara kan skicka ut i max 50k/s utan att dräpa min uppkoppling kommer det säkert ta ett tag innan nån har fått ner hela filen. Fortsätt seeda (och gör inte som vanligt, dvs plocka bort torrenten direkt när ni är klara), så blir det säkert lite bättre fjutt på denna för andra intresserade.
+
+Jag återkommer med bättre instruktioner ifall det är nåt som inte stämmer eller funkar + ev de patchfiler jag använder.
+
+Funkar utmärkt att köra i VMWare, så man slipper stöka ner i sin vanliga installation (och ev krascha pga dåliga patchningar).
+
+Funkar ej i Virtual PC (2007), utan där får den hela windows att kejka ihop när man installerat."
+,nisse_123,2007-11-06T10:06Z,"Hittade via eMule (och fick till slut ner) en torrent-fil med 01.2007
+
+Finns numera på
+http://81.235.36.78/t.o.r/
+
+tills jag bytt IP (laddar ner i nära 700k/s på en (Mbit ADSL lina)..
+
+Hinner mest troligt inte kollla om den funkar idag, så om nån annan kunde göra det vore det ju toppen..
+
+
+/N"
+,nisse_123,2007-11-08T00:30Z,"01.2007 funkar med inkluderad patch (MG16.DLL), så jag slutar seeda 01.2005 nu pga det.
+
+Hittade även 08.2007 på den där ryska siten, och har på köpet blivit en fena på ryska :)
+
+08.2007 inkluderar inte den nödvändiga MG16.DLL filen, men den från 01.2007 (och alla tidigare) fungerar bra.
+
+08.2007 finns också på URLen i förra kommentaren"
+,mysko grej,2007-12-11T20:17Z,"Vilket hack har mg16.dll filen?
+Och vart hittar man programmet för att ställa tillbaka klockan i 20 sekunder?
+
+Frågor som önskar svar"
+,23301,2007-12-17T20:34Z,Var hittar ni 01.2007?
+,nisse_123,2008-01-04T19:59Z,"01.2007 och 08.2007 finns på
+http://81.235.36.21/t.o.r/"
+,23301,2008-01-05T19:41Z,"Begriper inte något, kan du förklara lite mer."
+,23301,2008-01-08T21:23Z,"Fattade nu, med programmet med klockan var hittar man det?"
+,23301,2008-01-13T17:39Z,"Är det någon som får det att funka? Berätta i så fall hur, tack. "
+,nisse_1234,2008-03-04T23:52Z,".. det verkar som om nyare versioner inte innehåller service-menyn (där man kan se tider m.m för arbeten).. Provar installera 01.2007 på en virtuell dator för att se om den kanske är den senaste med service..
+
+Återkommer med vilken patch som funkar"
+,nisse_1234,2008-03-04T23:54Z,intressant.. kommentaren jag skrev tidigare har hamnat sist.. och tiden står på 00:50.. (dvs om 50 min)..
+,nisse_1234,2008-03-05T00:45Z,"Instruktionerna..
+För 01.2007 så fungerar inte ""ställa tillbaks klockan programmet"". Lösningen är att manuellt ställa klockan på ex. 5 jan 2007 och starta programmet.
+
+1. stoppa i CD-skivan
+2. avbryt autorun (stäng fönstret)
+3. explora skivan och starta ""load.exe""
+4. välj vilket installationsspråk du vill (svenska funkar)
+5. licens m.m, välj sen ""full install""
+6. ""välj ett land"" (Germany)
+7. installera, starta inte om efter (det gör inget, men behövs inte)
+8. ta bort alla mg16.dll som finns på disken (sök, eller chansa att filen bara finns i c:\microcat och c:\windows\system32)
+9. lägg den som finns med på cdn i c:\microcat
+10. starta om
+
+
+11. efter omstart, ställ klockan till 5 jan 2007
+12. starta microcat
+13. tryck på ""nyck""
+14. tryck på ""Eaiioeaiaaou"" (2 ggr) (vänstra knappen)
+15. tryck på ""Uidaeåieå"" (vänstra)
+16. tryck på ""iiaue iieuc iaaouåeu"" (högra)
+17. fyll i ""A"", ""B"", ""C"" och ""D"" i fälten, tryck på ""ie"" (högra)
+18. logga in med ""A"" och ""B"" (enter)
+19. välj nån bil, tryck höger knapp i rutan som kommer upp
+20. byt språk med drop-downen i vänstra kanten (om du inte är en fena på ryska)
+
+01.2007 har en fungerande servicemeny. I menyn ""service"", alternativ ""serviceadministration"", flärpen ""arbetstyper i lts"" kan du skriva in priser för olika jobb.. Fyll i ex. 1 euro för alla så att det går att lista ut hur många timmar jobben ska ta, eller kolla på nån verkstadsfaktura och matcha mot servicemenyn för att räkna ut en riktig timkostnad.
+
+"
+,nisse_1234,2008-03-05T00:50Z,"jag delar ut den för fullt.. dessvärre pajade tydligen min gamla användare, och jag har ingen lust att börja på en ny..
+
+http://81.235.36.30/t.o.r/
+
+På den ryska siten finns även 11.2007 och 01.2008, men dom lägger jag inte upp under t.o.r, detta för att det verkar som om det sabbar min ratio"
+,nisse_1234,2008-03-05T19:53Z,01.2007 = sista versionen med fungerande servicemeny (service/rep tider m.m)
+,nisse_123,2008-03-05T23:48Z,"Jag har lagt upp 01.2007...
+
+http://thepiratebay.org/tor/4065173
+
+seeda när ni är klara.. jag kör denna bara tills ratio >= 2.0 (sen får ni leta på den ryska siten)"
+,Tangleray,2008-06-23T21:26Z,and now in English nisse_123?
+,rabbakkkk,2008-11-10T12:34Z,Seeeed

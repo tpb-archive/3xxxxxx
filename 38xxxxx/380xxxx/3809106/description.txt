@@ -1,0 +1,11 @@
+The Silent Hill Origins Demo Autopatch Tool is a very small and simple program to help users automatically patch a copy of the leaked SH0 Demo .cso files.
+
+Please be aware that this still does not (and will not) unlock the entire game â?? nor does it fix any of the existing bugs and other glitches in the demo (a result of the pre-release status of the demo â?? not the patches themselves). This is intended merely to give fans a more in-depth look at the upcoming game â?? not to replace an actual retail copy.
+
+Features:
+
+- Automatically detects and replaces the original (encrypted) eboot.bin file with the (unencrypted) boot.bin file (included in the original demo .cso file).
+- Automatically patches eboot.bin to allow longer zone and filter names to be used without corrupting the file (essentially allowing any starting location to work properly)
+- Allows users to select from 89 different starting locations (via a simple list)
+- Allows users to choose any of the 14 secret costumes or revert back to the original Travis costume (via a simple list)
+- Rarely crashes for absolutely no reason

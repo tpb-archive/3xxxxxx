@@ -1,0 +1,20 @@
+C4EVA iXtreme Benq V1.1
+>> A iXtreme firmware installment for the BENQ VAD6038 drive ..
+Features:
+(v1.1) Extra compatability for some DVD movies
+(v1.0) Defeats all current Xbox Live detection attempts
+(v1.0) Boots ONLY Stealth Xtreme Xbox 360 backups
+(v1.0) Boots ONLY Stealth Xtreme Xbox 1 backups
+(v1.0) Boots all Xbox 360 originals
+(v1.0) Boots all compatible Xbox 1 originals on Xbox 360
+
+Use on Xbox Live at own risk
+
+Technical details
+------------------------
+Defeats all current and some future Xbox Live detection attempts.
+
+Thanks to all the beta testers,everyone involved for without their effort this would not have been possible. Schrtom for Dosflash. Caster420 for firmtool. Keep up the good work everyone.
+
+Note: The version is 1.1 due to internal changes, there was no public 1.0.
+Dosflash: The only way to read and flash a Benq drive is with DosFlash(info) 1.3. There is a support thread here to help with users experiencing problems. It is recommended to try the dos16 version first. It ONLY supports VIA and NFORCE sata chipsets. When using a VIA card, please be sure to disable both your IDE and/or SATA chipsets as they usually interfere with dosflash.

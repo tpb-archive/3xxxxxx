@@ -1,0 +1,21 @@
+﻿User Type,Username,Date,Text
+,jgnp15333,2007-11-13T03:59Z,"I don't know what the deal is w/ the tracker, but there are definitely seeders for this torrent.  Fear not!"
+,godsmack98,2007-11-16T00:12Z,"
+I have a big problem with the game when I am ready to play a song the games running firm and wrote dx8 framework. All I try to run the games to the letter as he said at the site of GZ and I look at all the forums and I can not find anything. Help someone quickly I look forward to playing !!!!!"
+,Snaredrummmer,2007-11-24T19:53Z,"Hey guys, I would also like to bring up a small flaw with this torrent. I'm assuming it is because of the ripping/encoding process these tracks went under, changing formats once or twice...There is about a .10 second delay of the song vs the notes shown to play on the scrolling fretboard. You see the notes a smidge before they are supposed to be played. Im a musician and it sort of bugged me that I was missing notes whilst playing with the same tempo as the music, and then I saw the delay. I used audacity on a few of the tracks, jordan, sweet child of mine, etc, cut off the first .10 secs of the guitar track, and the song track, and re exported them ass ogg vorbis files. I went to play the specific songs I edited and sure enough, they play like real time now :-). I've thought about releasing my own torrent with these things fixed, however there doesn't seem to be a tremendous demand, nevermind the fact that anyone intelligent enough to set up guitar zero is most definately capable of shaving a tenth of a second off of some of or all of the songs."
+,jgnp15333,2007-11-30T06:55Z,"Hey, I'm sure if you released the fixed tracks, there would be some demand!"
+,DarkMadder,2007-12-02T01:13Z,"A few days ago I set this up on my own computer and all of the songs are perfectly in sync with the notes scrolling down the fretboard. Earlier today I set it up on my girlfriend's computer and found that the music is out of time with the visuals just as described by Snaredrummer. However, this timing problem does not come from the music tracks!!... It is a problem with the game engine drawing the visuals.
+
+I strongly recommend NOT adjusting your songs. Instead try changing the render settings. There is a file called config.dat in the Guitar Zero folder. Open it in wordpad, and look for anything that contains any of these words: MAPPING, SPECULAR, REFLECTION or SHADOW and if it is set to 1 change it to 0
+
+for example, change:
+DYNAMICREFLECTIONS:1
+to:
+DYNAMICREFLECTIONS:0
+
+You probably wont need to switch off *all* of these things to get the game back in sync, but I couldn't be bothered to change them one-by-one, so I just turned them all off and now the game plays perfectly synchronised (and still looks fairly good too)
+
+Hope this helps ;)"
+,JamesBash,2008-01-07T23:17Z,I am going to cry.
+,bytor55110,2008-10-21T09:08Z,"I have been dyin' to get at least the songs from GHII in my game... Rush's ""YYZ"" is one of my favorites from there. Hope it downloads good!"
+,bytor55110,2008-10-21T09:16Z,"Actually, now that I'm downloading this thing, what is Guitar Zero anyway? I could probably guess, but would this thing actually work for Guitar HERO???"

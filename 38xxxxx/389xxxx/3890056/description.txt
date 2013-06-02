@@ -1,0 +1,23 @@
+
+Debian Linux Transparent Web Proxy Virtual Machine
+
+VMWare image of Debian Etch, running, Squid, Dansguardian & ClamAV setup as a Transparent web proxy. This proxy server was
+created with parents, schools & small business in mind as there really isn't a solution at this price range.
+
+Extract the 7Z file using 7Zip (http://www.7-zip.org) and WinRAR. Open the vmx file in VMWare Player/VMWare Workstation/VMWare Server
+
+Login with the following:
+
+user: sysadmin
+password: sysadmin
+
+or 
+user: root
+password: debianrocks
+
+Dansguardian is listening on port 8080. Type ifconfig to see your IP Address and configure your browsers to use a proxy at that IP, port 8080
+
+More information: http://www.outsidaz.org/
+
+Compressed Size : 218MB
+Uncompressed Size : 923MB		

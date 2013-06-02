@@ -1,0 +1,13 @@
+MAC OS X86 XxX 10.4.10 with PPF1 Patched
+
+
+This PPF has to be applied to the original XxX_OS_x86_10.4.10_Install_Disk.iso
+posted on Friday, Sep 14, 2007.
+
+
+It fixes the Jmicron devices support when booting from the DVD.
+
+It fixes the corrupted 8.10.3 System.kext.
+
+It hides the AMD kernel option, usless without AMD binaries.
+

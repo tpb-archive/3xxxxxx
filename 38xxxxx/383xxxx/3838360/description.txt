@@ -1,0 +1,22 @@
+Magento (open source ecommerce platform) installed as a VMWare Image in Ubuntu Server 7.04.
+
+Extract the Zip file and open the vmx file in VMWare Player/VMWare Workstation/VMWare Server.
+
+When you see the message "* Running local boot scripts (/etc/rc.local)" then click in e.g. VMWare Player to give it focus. Then press ENTER. Now the login screen appears.
+
+Login with the following:
+
+user: magento
+password: magento
+
+Type ifconfig to see your ip address. If e.g. you ip address is 192.168.1.33 then open http://192.168.1.33/magento in your browser. Magento is installed in /var/www/magento/. 
+
+If you want to use a sudo command, then use the password "magento".
+
+-- MySQL --
+You can use "mysql -u root" to login to mysql. The root account has no password.
+I've created a mysql user "magentouser" with the password "magentopasswd".
+
+Login a magentouser with: mysql -u magentouser -p
+
+The database name is "magentodb".

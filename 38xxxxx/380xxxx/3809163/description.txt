@@ -1,0 +1,7 @@
+Qemu Image of windows xp.. fully installed and updated. Validates WGA.
+
+Start with simple bash script in linux:
+#!/bin/bash
+sudo modprobe kqemu
+sudo qemu -hda qemu.img -no-acpi -m 512
+pause

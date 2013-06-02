@@ -1,0 +1,30 @@
+Ziperello is a program to recover lost or forgotten passwords to zip archives.
+
+Have you ever used encrypted zip archives? Perhaps you received such kind of files with important data from your business partner by e-mail or may be you keep data in encrypted zip archives to prevent an illegal access.
+
+If so, then you happened probably to forget or to be incapable to find a password to one of these zip files. It becomes a more trouble if you need files stored in the archive immediately.
+
+This is not a problem any more!
+
+
+
+
+Key Features of Ziperello
+
+> Ease of use
+Ziperello user interface is created as a wizard and contains a lot of contextual prompts. That allows you to be well informed about what is going on and what you should do in every step of password search process.
+
+> Support for different encryptions
+Besides "Standard Zip 2.0" encryption, Ziperello supports Advanced AES encryption with the different key length: 128-, 196- and 256-bit.
+
+> Accept Zip-archives created using different software
+Ziperello supports zip archives, created using WinZip, PKZip, WinRAR, 7-zip etc.
+
+> Support for Self-Extracted archives
+Ziperello accepts SFX-archives.
+
+> High effectiveness
+Ziperello supports the following effective methods of password search: 
+- Brute-Force Attack with the ability to determine a custom set of characters (charset) 
+- Dictionary Attack with the word mutation option 
+- Template-based Attack with flexible charset settings for every symbol in password template

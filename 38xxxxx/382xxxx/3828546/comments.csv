@@ -1,0 +1,136 @@
+﻿User Type,Username,Date,Text
+,Thomas07,2007-10-06T23:51Z,IS IT WORKING ?
+,abaka,2007-10-07T23:39Z,yes it work for mw
+,slipknot515,2007-10-11T14:24Z,who the fuck wants a Dell copy  !? :S
+,MilleniumMark,2007-10-14T19:59Z,"I want a Dell copy!  They work, especially if you have Dell systems."
+,cutlassmurderer,2007-10-15T13:56Z,"Don't download.  Downloads at great speed but when you auto-start from it, the ""setup.exe"" file is corrupt."
+,clkgtr,2007-10-17T07:19Z,"""cutlassmurderer"".........Dont u dare spam this site u mother****er..
+It works fine.....What do u get outta going this...
+It is sick people like U who tarnish the torrent world.... "
+,StingZ,2007-10-20T00:34Z,"@ clkgtr:
+We obviously have different views on what trashes the internet. For instance, I think people who don't know how to spell, or don't know how to use proper grammar trash the internet.
+
+There are always going to be new people - Perhaps he doesn't know you can repair downloaded files if they show as corrupt. Stop cutting down new people, you fuck up.
+
+__
+
+Anyhow.."
+,clkgtr,2007-10-20T10:30Z,"StingZ...I dont intend to cross the line of fire over here dude...So why dont u suck on ur dick and shut the fuck up!!
+
+Nobody needs ur fucked up advice anyway....."
+,clkgtr,2007-10-20T17:16Z,"N hey StingZ..one more thing...
+
+YOU think you're so smart, you dumb bitch,If you were in front of me I'd shove my foot up your ass,You bitch, I fuck your kind a people all the time, How about I fuck you and then Fuck your whole family, I bet your mother is a whore, and your sister have intercourse almost with every person she sees.Your whole family is a bunch whore society,If I find you I'm gonna fuck your ass so bad that you'll be in comma for days to come, YOU fucking stupid Bitch. PEACE"
+,valashu9,2007-10-20T22:36Z,Hey how's it going people? anyone know if this can be used on a non dell pc
+,SmashApple,2007-10-22T02:25Z,And it says I have 15 days to activate because...?
+,clkgtr,2007-10-22T10:35Z,u know the answer...:-)
+,valashu9,2007-10-27T02:35Z,"well ok it works on my HP with no problems,I used IMGBURN,to copy the ISO image to a DVD,that worked very well,once it had finshed burning the windows vista upgrade screen came up, and i was way."
+,davep1010,2007-11-09T15:21Z,"It's Important to know that DELL and other manufacturers use a simple activation script that will access the motherboards BIOS chip.
+
+So if you do not have a dell that was built after a certain date (not sure what date) you will be asked to activate your copy. Try it anyway, it can't hurt to try.
+
+PS. Why all the tension"
+,snowhow,2007-11-14T02:03Z,"I tested this on both an HP 2.2 GHz and a Dell Pentium III 1 GHz. It worked fine on both, no activation problems. I also discovered somthing really cool -- you can move the hard drive from one computer to another! I did that just to see what it would do - NO BSOD!! Vista simply redected all the hardware and away it went.
+A note about drivers - XP drivers won't always work especially with video drivers. I ran into that on the Dell. Other than that, it ran surprisingly well. If your video isn't supported but is at least VESA compliant it will load a VESA driver that will give you 16 bit high color, but the resolution is only 640 x 480 making navigation difficult.
+Overall, I was very impressed and exceptionaly pleased with this file. It required no key and was already activated. Perfect!
+Thanks Attreyu for the upload. It was worth it.
+
+SnowHow"
+,snowhow,2007-11-14T02:18Z,"Oh, I almost forgot - it does upgrades also as far back as Windows 2000. If you try it on 9x/ ME, it complains you need to upgrade your system! LOL
+
+That's beyond hilarious!
+
+SnowHow"
+,DolphWulff,2007-11-17T15:15Z,"JUST TO CLARIFY: THIS IS NOT LIKE THE XP DELL OEM CDs THAT NEVER WANTED TO BE ACTIVATED REGARDLESS OF THE HARDWARE THEY WERE INSTALLED ON. THIS OEM DVD WILL ONLY BE AUTO-ACTIVATED IF YOUR BIOS HAS A DELL OEM CODE IN THE SLIC TABLE OF YOUR BIOS.
+
+If you're feeling adventurous, you can patch a BIOS image yourself. There are tools for AMI bioses (like most ASUS motherboards use, for example), and Award BIOSes, probably more. For AMI, you need the AMIOEMSLIC program. There's a small howto here, with links:
+
+http://stevejobs.blogs.keznews.com/2007/05/24/ami-bios-tool-by-gkend/
+
+The howto is not entirely complete though, I'll write one at the bottom of this message.
+
+A lot of people put out patched BIOSes for different motherboards. Try doing a Google search for ""vista slic bios "" and see if something doesn't show up.
+
+Anyway, here's a more accurate howto on the AMIOEMSLIC procedure. Please note that the ""original BIOS .ROM"" file I'm talking about should be downloaded from the website of your motherboard manufacturer, look under downloads or updates or something like that. Okay, here's my modified howto:
+
+======
+
+Okay, make sure the original BIOS .ROM file is not writeprotected, and 
+
+back it up or work on a copy.
+
+Then open MMTOOL, click ""Load ROM"", select the .ROM BIOS file, in the 
+
+list at the bottom select the line with ID ""1B"", click the ""Extract"" 
+
+tab, click ""Browse"", choose the name ""1B.rom"" for the file, then click 
+
+""Extract"".
+
+Close the program and open up AMIOEMSLIC, for ""1B????"" browse and 
+
+select the 1B.rom file you just extracted, for ""SLIC????"" browse and 
+
+select the SLIC you want from the ones that are included in the 
+
+AMIOEMSLIC package (they're inside the SLIC subfolder), for ""??BIOS??"" 
+
+browse and select the original BIOS .ROM file we extracted the 1B.rom 
+
+from, then click ""??1B??"", click ""OK"", then click ""???BIOS"", click 
+
+""Yes"".
+
+Close the program and open up the MMTOOL program once more, click ""Load 
+
+ROM"", select the original .ROM BIOS file, again in the list at the 
+
+bottom select the line with ID ""1B"", click the ""Replace"" tab, click 
+
+""Browse"", choose the name ""1B.rom"" file that is now patched, then click 
+
+""Replace"". Finally click ""Save ROM"", and the BIOS should be patched 
+
+with the SLIC of your choice. Check the ""Date Modified"" of the .ROM 
+
+file in Explorer to confirm that it has indeed been modified.
+
+Of course, you have to actually flash your motherboard's BIOS with the 
+
+new ROM before installing Vista. Consult your manual or motherboard 
+
+manufacturer's website on how to do that. ;)
+
+Install Vista."
+,snowhow,2007-11-19T20:24Z,DO NOT UPDATE YOUR BIOS UNLESS YOU KNOW WHAT YOU'RE DOING!!! ONE WRONG MOVE AND YOU WILL RENDER YOUR COMPUTER UNBOOTABLE!!!! YOU WILL HAVE TO REPLACE YOUR MOTHERBOARD!!!!!
+,snowhow,2007-11-19T23:34Z,"If you are having activation problems, go here:
+
+http://thepiratebay.org/tor/3632101/Paradox_Vista_Crack
+
+This is much safer than playing with your BIOS - which is extremely dangerous! - and is known to work. Complete instructions are posted.
+
+By the way, I tried this on a non-Dell system and never had any activation problems. I think your BIOS has to be newer than 2000, but I don't know that for sure. If I'm wrong someone please post a correction......."
+,sonice75,2007-11-23T21:52Z,채r\is det \this \swedisch\svensk
+,robio376,2008-02-12T20:41Z,"Does have Vistaloader or some other bios crack incorperated in it. I have a dell XPS and would like to install SP1. But have read if you are using a loader, bios, hack/crack it will deactivate Vista. I have downloaded a few Dell OEM Vista DVD's and all seem to have some type of Bootloader at startup that I do not have with my retail version (want to go to Ultimate Edition, have Home Prem now). Thanks to anyone who has tried this DVD. please let me know/
+Thanks Agian"
+,hrdnoclfe,2008-03-05T22:21Z,plz seed!!!! i beg of u
+,keyzerjose,2008-03-09T01:06Z,"( clkgtr at 2007-10-20 17:16 CET:
+N hey StingZ..one more thing...
+
+YOU think you're so smart, you dumb bitch,If you were in front of me I'd shove my foot up your ass,You bitch, I fuck your kind a people all the time, How about I fuck you and then Fuck your whole family, I bet your mother is a whore, and your sister have intercourse almost with every person she sees.Your whole family is a bunch whore society,If I find you I'm gonna fuck your ass so bad that you'll be in comma for days to come, YOU fucking stupid Bitch. PEACE)
+
+
+you'll put him in a comma? lol wow. dont u mean coma? just thought that was pretty amusing. ya'll can carry on ur pissing contest now "
+,MISTA_VISTA,2008-04-29T18:47Z,"slipknot at 2007-10-11 14:24 CET:
+who the fuck wants a Dell copy !? :S 
+
+
+I want a Dell Copy , why what are you going to do about it ... ? hit me with your handbag...eh sweet boy pmsfl"
+,johnnysagu,2008-05-26T11:35Z,"Hey Thanxs attreyu i have a dell optiplex 170L that it came with original windows xp home sp2 then download this vista ultimate torrent and upgrade it via a mounted iso & it works like a charm dude i checked on control panel  system and it says that its activated, cool!! also have downloaded upgrades with no problems !! i recommend this to dell owners whom want to upgrade cheers!!!!"
+,romoas,2008-07-04T00:21Z,i have used this a few times and have had NO issues with it i just wish ther wher more seeders and i understand ther is a way to remove the DELL logo if anyone knows how to do this i hopw they please make a comment on how to thank you for this torrent.
+,sexyjvs,2009-05-26T15:32Z,Does it include all Dell drivers ???
+,augiem94,2009-07-18T11:11Z,please seed!!!!!!!!!! 120 kb/ps but i want this done soon please!!!
+,augiem94,2009-07-19T04:33Z,dude seed please!!!! stuck at 78% this really sucks! seed!!!!!!!
+,augiem94,2009-07-20T02:48Z,Seed!!!!! stuck at 90%.please for the love of..... wait im athiest :). whatever please seed!!!!
+,Hernalglutez,2009-07-31T13:10Z,"Can you install this on a dual boot? I know you can normally, but this is not like officiall from Microsoft or anything so it might not install on a partition."
+,l2tha,2010-03-21T17:12Z,i am installing it now on my other laptop... old torrent but still only took 4 hrs with clearwire!

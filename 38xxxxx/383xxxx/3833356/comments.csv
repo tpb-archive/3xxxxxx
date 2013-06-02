@@ -1,0 +1,190 @@
+﻿User Type,Username,Date,Text
+,daystogo90,2007-10-15T06:00Z,I might want to play this but you need to seed your own fucking torrent for a while so some body can download it 
+,antehell,2007-10-21T12:12Z,"seeed, we are stuck at 6,4%"
+,iamabomination,2007-11-10T15:46Z,SOMEONE SEED THIS SHIT GOD DAMN
+,CASTOR13,2007-11-11T12:27Z,"seed plzzz! 
+stuck at 55.8
+plzzzzzzzz"
+,CASTOR13,2007-11-16T23:27Z,"its been stuck for weeks now!!!
+someone please seed-
+i really want this gamme..."
+,Sempai_x,2007-12-12T20:33Z,"I've downloaded this torrent and can't get it to work.
+
+Installing it worked fine.
+
+I tried mounting it and burning it to CD but both times when I hit play it just shuts down."
+,suz1130,2007-12-16T20:21Z,Is there any chance someone could seed this pls
+,Olsein,2008-01-03T18:45Z,"Förlåt ifall jag inte har seedat! 
+har varit i Kina i några månader, men nu ska jag seeda sönder er! ;)"
+,ibzzzzz,2008-02-04T13:42Z,"after downloading the file,how do you install and play the game??
+there are no installers or any executable files..
+hOW??
+plsssss help!
+badly needed!!"
+,wiretappedscars,2008-03-28T15:31Z,"one you have burned both images to seperate dvds, then you need to install zeus, then install poseidon, "
+,smguy,2008-04-06T22:44Z,Downloaded fine. Mounted fine. Installed fine. Plays perfectly. Great job.
+,cloud101,2008-04-27T23:06Z,Install for Zeus doesnt work..... Maybe its just me
+,nwasong,2008-05-14T07:10Z,My install for Zeus did not work ... and when I tried installing poseidon it says zeus was not found. This means I need to install zeus before i can install poseidon ... but zeus does not install. Any ideas please? I used daemon tools to install.
+,drazzil,2008-05-18T18:57Z,"Sorry, can someone give me a hand? Downloaded it fine but have no clue how to burn it. Am using Nero, thanks."
+,Anttimus,2008-06-17T14:48Z,Use Alcohol 120%.
+,nefaust,2008-06-23T22:19Z,for me it downloaded fine and burned and appeared to install fine but when i try to play the disk spins and nothing opens
+,fire92,2008-07-08T19:17Z,"when I start the game I get this message: 'The file ''Zeus_Interface'' contains 240 tags, whereas the program expected 222 tags'. Then I click ok, but this message comes up:'ERR: Building model has incorrect no. of lines (235), expected 212. Would you still like to continue?'. I click yes and then the game shuts down. Somebody please help."
+,zalle_swe,2008-07-20T17:18Z,e detta olympens härskare + expansion elr bara expansion?
+,pspxen,2008-07-24T20:15Z,"can you guys put a small tutorial on how to install, mount, and do whatever we must do to make this game work? thanks!  I love this game, it will bring me back to my grade school years! please.. .thanks!  just a tutorial ok? thanks"
+,LionHeart8669545,2008-08-11T13:30Z,Somebody help me...I downloaded it and I burn it to CD and the only install when I start to play this game it doesn't work....Is because I'm using Windows Vista?
+,Gaijen,2008-08-22T02:28Z,"Looks like I'm in the same boat, has anybody been able to get this to work recently?  (Say, within the year of 2008, on Windows XP/Vista?)
+
+Either this file itself is corrupt (unlikely) or Zeus (a 2001 game) doesn't run on these new OS's.
+
+But my issue's the same as all the others above:   Mount the image with Daemon, the Autorun starts fine, click ""Install"", *crash*.  
+
+Tried running setup after exploring the mounted image:  *crash*.
+"
+,Gaijen,2008-08-22T05:11Z,"Found it.   Couple of things to do:
+
+1.)   Make a shortcut to SETUP.EXE on your desktop.  Go to the shortcut's Properties / Compatibility, and turn it all on.   (Windows 95 compatibility, 256 colors, 640x480, disable visual themes, turn off advamced text.)
+
+2.)   Go here:   http://www.geekstogo.com/forum/Zeus-Master-Olympus-t11365.html  and follow the link to xp_fix.exe.   Run the fix.
+
+3.)  A change I did, but no idea if it made a difference:  My Computer / Properties / Advanced / Environment Variables /  Change ""temp"" to c:\temp.  (Found that suggestion in an earlier thread.)
+
+I have mine installed and running, thanks for the blast from the past Olsein!"
+,smiggger,2008-11-02T09:13Z,"hello, i downloaded the the torrent, and when it had finished i tried to get it to work and it doesn't recognise Poseidon.mdf OR Poseidon.mds. this goes for Zeus also. it asks which program to run it from and i don't know so can someone tell me please?"
+,Edi_CJ,2008-11-29T16:28Z,SEED PLS I HAVE NO INTERNET IM USING MY COUSINS AND Stuck at 96% WITH 8KBS SECONDS i really need this game cause i have no internet and im leavin in half an hour and it takes 1 hour to download PPPPLLLLLLLLLLLLLS ill let it seed if u help me!!!!ive installed other master of olympus games so when i download it if u need hellp im here with my cousins
+,italybane,2008-12-03T22:41Z,Thankz i love this game and resently i stepped on my original disk and broke it in half. so i praise you for gettin this up
+,fogpatch,2008-12-08T07:27Z,"for anyone who has trouble with getting the install to run on it's pc (double click setup.exe and nothing happens) here's the fix:
+
+1. go to the system32 folder in the windows directory
+
+2. open notepad and copy the following:
+dos=high, umb
+device=%SYSTEMROOT%\system32\himem.sys
+files=40
+
+3. save as: ""config.nt"" in the system32 directory (be sure to check that it's *.nt file and not a notepad file)
+
+4. close notepad and reopen it for a new file
+
+5. copy the following:
+@echo off
+    lh %SYSTEMROOT%\system32\mscdexnt.exe
+    lh %SYSTEMROOT%\system32\redir
+    lh %SYSTEMROOT%\system32\dosx
+    SET BLASTER=A220 I5 D1 P330 T3
+
+6. save as: ""autoexec.nt"" in the system32 folder
+
+7. download command.com in the system32 folder from this website:
+http://www.techadvice.com/specs/files_dl.asp?fnid=241
+
+8. restart your computer and retry the setup.exe ==> it should launch without a problem now.
+
+good luck"
+,fogpatch,2008-12-08T07:30Z,"*** edit for the last post:
+at point 5 you need to place 4 spaces at the beginning of the last 4 lines (somehow, posting has messed up lay-out) or copy it in one time correct from: http://support.microsoft.com/default.aspx?scid=kb;en-us;305521
+
+fogpatch"
+,sergeanthomer,2009-01-17T20:30Z,how do install...i see a Zeus.mdf and a Zeus.mds file.... how do i install... plz help plzzzz
+,sergeanthomer,2009-01-18T15:34Z,for me it downloaded fine and burned and appeared to install fine but when i try to play the disk spins and nothing opens
+,j.a.m.b.o.,2009-03-03T13:36Z,"I just downloaded the expansion pack and it works perfectly with my existing copy of zeus.  Running it via Daemon tools lite, if that's any help to those of you experiencing disc problems....
+
+Thanks Olsein for a great torrent!"
+,DragoonEnder,2009-03-31T05:46Z,A notepad in game on how to install would be GREAT.....I'll let you know if I get it working and how.
+,cowslayer,2009-04-15T20:00Z,"A little help please.
+
+I downloaded only the expansion Poseidon. So i got Poseidon.mdf And Poseidon.mds How the F*** Do i install??? ( If i mount with alcohol 120% nothing happends.)"
+,ZeroVirusXIII,2009-05-26T06:50Z,"Hey, can you upload just the Uninst.isu or something, cause I had this game but it didn't work on my pc and then I sold it and now I can't unisstall it cause it says the uninstall file is corrupt."
+,cardopj,2009-06-14T16:10Z,it works fine. you just need to mount the downloaded files using something like daemon tools.
+,sincere_spite,2009-08-08T15:11Z,Works great; thanks for the dl.
+,pcgamelover,2009-08-09T10:59Z,can some one help me i have down loaded it but it dont know how to instal it 
+,hirimba,2009-08-31T10:12Z,thankz.......its a grate game. 
+,Olsein,2009-09-24T15:18Z,"For those who have issues, the only thing you have to do is to mount the files with daemon tools and install it, there shouldn't be any problem, you dont need any crack ;=)"
+,ozudia,2010-01-08T15:50Z,i downloaded this and installed it but when i tried to play it..............it said insert disc........is it meant to say this??? REPLY PLEASE!!!!!
+,ozudia,2010-01-08T15:51Z,FOR THOSES OF YOU COMPLAINING ABOUT THE mdf file...............ALL U GOTTA DO IS CONVERT IT TO iso and EXTRACT USING WINRAR
+,Killmonk,2010-02-13T00:38Z,I got this to install perfectly and when i try to play it it keeps saying wrong disc inserted no matter what i do PLEASE help.
+,OGDoe,2010-03-06T13:00Z,"TO ALL THOSE HAVING PROBLEMS:
+
+1. convert .mdf files to .iso (i use 'any to iso')
+2. mount and install images (i use 'deamon tools pro')
+3. once installed, remount the .mds files and play using them.
+
+thanks for the upload olsein, works perfect"
+,Suus1990,2010-03-09T12:41Z,"first off, thank you for posting this lovely torrent! works great.
+
+second: tutorial on how to install and play.
+1. download Utorrent from: http://www.utorrent.com/
+you need this program to actually download these files.
+2. download and install daemon tools from: http://www.daemon-tools.cc/eng/home
+you can get a trial version for free.
+3. download WINRAR. you will need it to unpack files from ISO. can be downloaded here: http://www.rarlab.com/
+4. find the directory to which Utorrent downloaded the torrent files. usually that's your ""downloads"" folder.
+5. open deamon tools. click and drag the MDS and MDF files from the downloaded torrentmap, into DeamonTools.
+6. right mouse click on Zeus icon and press ""mount image"". this icon will now appear in the ""virtual devices"" box below.
+7. right mouse click that virtual device and press ""make disc image"". go to the Image Catalog tab and select your preferred directory. this is where the program will install the files.
+8. wait until the program is done installing files. then go to the folder it created. there should be a large disclike looking icon. it's an ISO file.
+9. right mouse click the iso file and press ""unpack files"". Choose the directory you wish to unpack all files to.
+10. repeat step 6 to 9 for the Poseidon expansion, using Daemontools.
+11. restart your computer. it helped me get through the problem that it wouldnt start my setup.
+12. once restarted, go to the directory where you installed Zeus. Press autorun. Press Install. it should now install properly.
+13. do the same for Poseidon expansion.
+14. restart computer again. it is needed to be able to play.
+15. find the initial directory where this torrent was downloaded to -> the one containing the MDS and MDF files.
+16. run the Poseidon MDS file. the game will be run.
+17. press start to begin :)
+
+enjoy!"
+,Elvis_Yeah,2010-03-15T16:45Z,PLEASE SEED!
+[V],azizex666,2010-04-15T07:53Z,"Thanks for the great upload olsein!
+and thanks for the detailed install info Suus1990!"
+,LeaT,2010-05-03T13:03Z,Loving the 1.5mb speed! Thanks for the upload. I can't believe I deleted this game off my harddrive...
+,jape446,2010-05-23T00:51Z,seed plz...
+,Tealeaf86,2010-06-30T11:08Z,"I seem to have a problem, I can install it and it runs just fine but it doesn't seem to remember any saves. I can open the directory and see the files in it but from the load menu's they don't exist."
+,kiba166,2010-10-18T16:52Z,"HOW TO INSTALL WITHOUT MOUNTING TO DISK!
+seeing as no one is helping people with this matter i have found out how for myself.
+
+1. Right click Zeus.mdf > rename > delete .mdf replace with .bin
+2. download MagicIso and WinRAR
+3 open Magic Iso and navigate to tools > convert
+4. select zeus.bin and convert to iso
+5 once converted, find in your folder, and with winrar, right click, and extract to zues...
+6. open folder. run setup
+:D :D
+repeat for poseidon"
+,kiba166,2010-10-18T17:12Z,"ignore rename to bin you can just convert the mdf file on magic iso, then extract with winrar"
+,kiba166,2010-10-19T17:00Z,"kiba here!
+the next problem is insert disc error
+download deamon-tools lite
+then, once downloaded and opened, double click the hard drive picture in the bottom window and open the MDS file for the game you want to play
+either one is the same Zeus + Posiedon (if installed)
+happy gaming! :D"
+,821509,2010-12-14T18:31Z,"If anyone else with a 64bit system couldn't install, I finally found a way.
+
+Download Universal Extractor or any alternative to Installshield. 
+
+Extract data1.cab to wherever you want the game. Done, now Zeus is working. 
+
+Install Poseidon on top of it - if you had the same problem as me, the installer for Poseidon should work fine. Just tell it the directory of Zeus when it asks.
+
+Bam, done. PHEW."
+,NovakVSM,2010-12-18T11:55Z,Help me...i have Win7 64-bit...and when i start daemon tools he won't to open Zeus.iso...what to do?...
+,NovakVSM,2010-12-18T14:25Z,i install now...but it can't run...i have download No CD crack but it can't run...????
+,loloss,2011-01-13T01:58Z,"i've mounted both, installed succesfully, restarted multiple times, but every time i click play for zeus or for poseidon  (in the window that says extras, uninstal etc) or i click on the autorun file, nothing happens. the loading pointed appears for a few seconds but then dissapears. IDEAS?"
+,Peregrine2976,2011-03-28T21:10Z,"Fucking fail torrent. There's no No-CD patch and Poseidon asks you to insert disc 2 while installing despite the fact that there is clearly no disc 2 included in the torrent.
+
+Fail."
+,binyo66,2011-05-04T01:16Z,thx
+,cobra678,2011-07-17T02:10Z,"i finally got it installed and running, but when it loads, it keeps crashing and saying ""error: building model has incorrect no of lines"". please tell me the fix! :("
+,Corbul,2012-01-25T18:05Z,"Help
+I had no problem with installation.
+but why my pc restarts after I started playing???"
+,RDT111,2012-04-09T22:45Z,"Working No CD
+http://bayfiles.com/file/7r1X/pTD1K3/Zeus.exe
+
+or 
+
+http://dl.gamecopyworld.com/?c=725495341&d=2007&f=mcz-zeuscrk!rar
+
+Thanks Uploader ;) "
+,Dark_Fields,2012-05-01T23:11Z,"Has worked absolutely perfect whenever i have downloaded it, and mounts fine with both Daemon Tools and Power ISO, and i have never had any issues with it, apart from small ones which are actually issues with the game itself eg. Lava Glitch.
+
+Thank you Olsein for your perfect upload, and to everyone that has provided instructions and stuffs for the newbs out there :)"

@@ -1,0 +1,86 @@
+﻿User Type,Username,Date,Text
+,CaptainKirkard,2007-11-02T16:28Z,Much appreciated !
+,McPorra,2007-11-02T16:34Z,Thanx a lot
+,padfest,2007-11-02T17:35Z,Thanks!!!!!!!!!!! 
+,BritneysOrifice,2007-11-02T18:39Z,Hmmm... does this little diddy need to be cracked? Or does it already work fine?
+,belltaco,2007-11-02T18:56Z,With old Enable Button crack from Maximus it work fine (till now).Thanks for upload!
+,BritneysOrifice,2007-11-02T19:08Z,"BellTaco: really? That would be great if it does. Did you test it? Do all the MFDs show up? I've heard that the EnableButton crack will work, but the MFDs are all blank. Can you verify?"
+,belltaco,2007-11-02T21:14Z,"So,maybe is not so simple,some work ,some not,all MFDs (PFD,ND,EICAS)are o.k.,but i have no digits in radios,ATC display,pushback panel,clocks.Maybe this need still something else,except Enable button. "
+,CaptainKirkard,2007-11-02T23:43Z,"bt,
+
+Have you tried a reboot ? Some have this issue with a legit install also, fonts need to re-register or something..."
+,belltaco,2007-11-03T08:18Z,"Good idea,after reboot is everything fine,my bad."
+,MrAnthonyWong,2007-11-06T02:21Z,is this the latest patch? the one that was released in additon with 744x?
+,e_pimp,2007-11-06T14:38Z,Can someone please upload and seed the new PMDG 747-400X (Updated full version) + crack?
+,e_pimp,2007-11-08T11:57Z,"Okay guys. I installed this FS9 update and all seemed well, but after a about half a minute into flight my PC froze completely. This issue persisted every time I flew again, even in other non pmdg aircraft. Uninstalled this update and all is fine again. I post this just in case it happens to you and you can't figure out where the fault lies. Belive me its not funny trying to discover a fault like this. However, this issue might not happen to everyone, so let us know if yours works."
+,FuckingAirplanes,2007-11-08T14:52Z,"Where do I get the ""enable button"" crack my maximus? I remember using it, but i've looked all over for it and cannot find it again....."
+,frazer84,2007-11-08T23:56Z,"Doesn't work for me, all the displays are black. Doesn't matter if i reboot :("
+,maxthrust,2007-11-09T17:47Z,Hey guys pls continue seeding this :)
+,FuckingAirplanes,2007-11-10T01:24Z,"Yo, Belltaco, could you please tell me where I can find the sweet ""enable button"" fix? I really looked everywhere, and I cannot find it. Anyone wish to send it to me, my email is max@skymaxaviation.com . that would be AWESOME. thanks guys."
+,zyx321,2007-11-16T10:07Z,"hi,
+
+if you can, plz upload the LATEST update, dated 03NOV. AFAIK some small improvements are included.
+
+thanks!"
+,xmagnus1,2007-11-16T15:11Z,request PMDG 747-400X FSX version
+,Capt.Jambo,2007-12-03T19:41Z,HI
+,Capt.Jambo,2007-12-03T19:41Z,"Hi, Requesting SEEDS...Thanx!"
+,Nassikastike,2007-12-30T10:45Z,"""Doesn't work for me, all the displays are black. Doesn't matter if i reboot :( ""
+
+You must do this to get it work:
+
+1. First install the PMDG 747-400 Queen of The Skies (file: 1.PMDG747_400_v.1.10.exe)
+
+2. When installation process reaches page with validation button start EnableButton.exe program.
+
+3. Point mouse over ""Next"" button and click. Finish installation process.(Just wait for 10 to 15 sec before the installation begin)
+
+4. When the installation are finish, do the same with PMDG 747 400F Queen of the Skies CARGO (file: 2.PMDG747_400F_v.1.01.exe), Step 2 and 3.
+
+5. When you are 100% complete to install both PMDG 747-400/F go to step 6
+
+6. Now run the PMDG744_744F_Maximus-.reg file and press ""YES"" this will add information to the registry.
+   (This regfile will add info to the regsirty for PMDG747-400 and PMDG 747-400F)
+
+7. Please do the lines below!
+
+------- PMDG 747-400 Queen Of The Sky ----------
+
+8. Open \Aircraft\PMDG747-400\Aircraft.cfg file and search for ---BEGIN SHA1--- string
+
+9. Add the following line: c2e80520102f0800e790160704de90760a1b3801. Now it should looks like:
+
+
+   //Do Not Alter the following line or your 747-400 may cease operating.
+   [AFDSAuth]
+   ---BEGIN SHA1---
+   c2e80520102f0800e790160704de90760a1b3801
+   ---END SHA1---
+   // Do Not Alter the above lines.
+
+
+Save Aircraft.cfg
+
+
+
+------- PMDG 747-400F Cargo ----------
+
+10. Open \Aircraft\PMDG747-400F\Aircraft.cfg file and search for ---BEGIN SHA1--- string
+
+11. Add the following line: c2e80520102f0800e790160704de90760a1b3801. Now it should looks like:
+
+//Do Not Alter the following line or your 747-400 may cease operating.
+[AFDSAuth]
+
+---BEGIN SHA1---  c2e80520102f0800e790160704de90760a1b3801---END SHA1---
+
+// Do Not Alter the above lines.   
+Save Aircraft.cfg
+12. Finish"
+,marabi2,2008-06-25T05:08Z,"I have a problem with PMDG 747
+when i start flying 747 it only follows the programmed waypoints for a bit and then it starts to turn...can  anyone help? contact me at marabi4@gmail.com"
+,K1L0GR4m,2008-12-23T23:13Z,"""I have a problem with PMDG 747
+when i start flying 747 it only follows the programmed waypoints for a bit and then it starts to turn...can anyone help? contact me at marabi4@gmail.com ""
+
+
+u have to setup VNAV  for it to track correctly. (on INIT page add the weights ...)"

@@ -1,0 +1,19 @@
+﻿User Type,Username,Date,Text
+,evilgrill,2008-06-16T20:54Z,"thanx! 
+
+this is interesting but the seed is mega-slow. been downloading for 2 weeks and gotten 65%. "
+,miensch,2009-01-29T15:31Z,"Thanks a lot! :)
+
+The quality is old video tape but nice to watch. Video is interlaced and blocky. Audio comes out of mostly the left side and has high frequency tape hiss.
+
+To make it significantly more watchable, you can try deinterlacing/deblocking the video and centering and equalizing the audio to remove the upper frequency hiss. For example, with mplayer:
+
+mplayer ""Mysteries of the Gods.avi"" -af center,equalizer=0:0:0:0:0:0:0:0:0:-12 -vf pp=fd/ac
+
+Thanks again! :)
+
+Video: DivX5 720x480 24bpp 29.97fps 2635kbps
+Aspect: 1.50:1 (3:2) [looks correct]
+Audio MP3 44.1kHz 224kbps Joint-Stereo
+Runtime: 1:27:12"
+,arias-ru,2009-02-10T05:23Z,thanx

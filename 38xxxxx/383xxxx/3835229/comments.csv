@@ -1,0 +1,47 @@
+﻿User Type,Username,Date,Text
+,Zoracic,2007-10-09T10:30Z,"VideoRedo 2.5.4.507 http://thepiratebay.org/tor/3785792
+
+VideoRedo 2.5.3.500 http://thepiratebay.org/tor/3664558"
+,Zoracic,2007-10-10T06:48Z,"BTW, after using CCleaner (which you don't HAVE to use) you should only be removing 5 or 6 items in Trial-Reset once scanned for Armadillo. If there's more there (like that image I posted) then they will belong to another Armadillo (like Nero) app. So if you get an error on Nero (or whatever) just reinstall. nothing is broken just a reinstall required.
+
+And keep a note so you'll know next time.
+"
+,Uncle_Fucker,2007-10-16T19:24Z,Could someone please seed this? Thanks!
+,Uncle_Fucker,2007-10-16T23:56Z,"Zoracic -- this worked perfectly! I had the newest trial version of VideoReDo installed and today it expired. Unistalled it. Although I used JV16 registry cleaner (deep scan), Amust Registry Cleaner and another generic reg cleaner to root out all old VideoReDo entries before running the Armadillo scan. Once all of that was done I installed VideoReDo version 2.5.4.507 and used the name and key provided. Thank you very much for this!"
+,Uncle_Fucker,2007-10-17T00:02Z,"Just wanted to also add that anyone with a TV tuner card (Hauppauge, ATI AIW, etc.) which outputs MPEG-2 format video files definitely needs VideoReDo. It is easy, fast, and really is frame accurate. Audio/Video sync problems will rarely (if ever) happen if you use VideoReDo instead of some of the other crap out there (NanoPeg for example). Thanks again for this ""fix."" :)"
+,dONche,2007-12-25T00:16Z,"Hello i am wondering something and that is if somebody could help me out to trial reset ""NG Tibiabot"" you can find it at www.tibiabot.com
+I dont have a clue how this works but i would be happy if somebody could help me out.
+You can post me :)
+
+Kindest Regards, 
+
+dONche"
+,aam101,2008-01-14T19:27Z,"Hi Folks - this program, name & # work great!
+I had 500 seies and updated - wrong thing to do - and it went back to trial :>(
+Used Crap Cleaner, reinstalled videoRedo & ran new #'s etc and it works great - Thanks"
+,fabribek,2008-01-31T23:44Z,"Thanks Zoracic!
+
+(This is a copy from one of your other posts... but here it is anyway!)
+
+
+I installed the 2.5.4.544 version and my registry looks different from what you have listed.
+
+If anyone is going to install VideoRedo for the first time, I would suggest you use the Trial-Reset utility Zoracic referred to in his post above, to take a before picture of the Armadillo entries in your registry. This way you have something to compare to *IF* you run into any trouble further down the road.
+
+One thing I did notice though is that certain registry keys had a date next to them in the Trial-Reset utility. I am assuming that is the date of install. That may be another pointer to which keys need to be looked at closely.
+
+PS>Zoracic, how do you include a link in the comments? Last time I tried I got ""database error""...
+
+Peace!"
+,fabribek,2008-01-31T23:47Z,"Hey Jimbob
+
+I used AVG anti-virus and anti-spy and both showed nothing.  What did you use?
+
+If you don't trust it run it within Sandboxie!"
+,royphil345,2008-04-12T14:53Z,This is GREAT!!! I used it for VideoReDo TVSuite. Just scanned for Armadillo files and removed all the files from the date I installed it on. Success!!! Thanks much!!!
+,cj321,2008-10-17T04:11Z,Both AVG and avast say this is a virus !!
+,Zoracic,2008-10-31T05:53Z,"I'm not sure I can gurantee this is clean (almost never possible with stuff you download I'd say) but I've not found anything. WHat I have found is if you have an app that does things like TrialReset it is seen as suspicious.
+
+If unsure don't use and buy the genuine product (which may also have malware, backdoors, trojans etc -such is life!)."
+,xxWinnOweRxx,2009-11-28T09:35Z,"Didn't initially work for me. Had VideoRedo Plus installed with 15 day trial key. Key expired. Installed VideoReDo.TVSuite.v3.1.4.549-YAG. Then downloaded newer version from VideoRedo site. Then couldn't use reg. it just errored saying key had expired or couldn't use key see support. Installed this app. Did as stated but still same error saying 15 day trial expired so.... Did as stated by Zoracic. Then manual search register for ""videoredo"". Deleted a couple entries that appeared (back up your registry before doing this!!!! just in case). Restarted computer. Installed TV suite again. This time watched Commodo and when VideoRedo tried to install checkpreviousversion.dll (sorry can't remember exact name but this is close) I blocked installation. When error window came up just selected ""ignore"". Then when it tried to run upgradetoV3.exe (again not sure of exact name). Block and ignore it. Installation finished ok. When started, said I had 15 days left. I then used reg info and it registered ok. However, not sure which step did the trick."
+,wvyno,2012-07-29T07:24Z,This doesn't seem to work with Windows 7. I get the message: Component 'MSCOMCTL.OCX' or one of its dependencies not correctly registered: a file is missing or invalid

@@ -1,0 +1,8 @@
+﻿User Type,Username,Date,Text
+,eKIK,2007-09-23T02:59Z,"Just a little heads up. This version does not work with XP 64-bit edition, and probably not with Vista 64 either I suppose.
+
+The installer says ""1628: Failed to complete installation"" and ""The program or feature cannot start or run due to incompatibility with 64-bit versions of Windows"" appears in the event log."
+,Artilerie,2008-02-17T11:57Z,"It's working in XP x64 version, but a trick must be performed:
+
+The program decompress in C:\Documents and Settings\Administrator\Local Settings\Temp\7zS20E.tmp folder , give that nasty error, and i close running installation.
+After that i replace ISSetup.dll from another release(PowerDVD Ultra Deluxe v7.3.3304)  in that temp folder.I run the setup and without any window or prompt the program install in the ""Program Files (x86)"" folder. Probably ISSetup.dll is corrupted in this release."

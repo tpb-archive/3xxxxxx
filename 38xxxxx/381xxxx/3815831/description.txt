@@ -1,0 +1,16 @@
+So what is it about?
+Well it will extract the AutoIt3-script(*.au3) from any AutoIt3-Installations(*.exe)
+--> http://www.autoitscript.com/autoit3/
+To see if some file is a AutoIt3-Installations watch the file properties version information.
+
+Yeah i know there is also a decompiler included in AutoIT3. But this has some minor improvements.
+
+So What has improved? 
+
+To make things easier there is no need to enter the pass phrase anymore to make exetoau3 to decompile the script - it is auto filled for you during decompiling in the pass phrase textbox
+The pass phrase is stored inside the script anyway so why enter it again? 
+Just of the case you forgot to check the 'allow decompilation checkbox' or the pass phrase.
+
+You get not only the source but with it comes also more functionallity like debofuscation, support for >modified Script Exe's< and incase something don't work DIY-fixing, all you need is M$Word+some basic programming skills to debug/Code in Visual Basic.
+
+And it has support for AutoIT v3.2.6 files that the normal exeaut3 don't support because it uses tokens.

@@ -1,0 +1,100 @@
+﻿User Type,Username,Date,Text
+,bertholl,2007-10-16T00:43Z,Thanks a lot. 
+,ObbiObbi,2007-10-16T06:00Z,"So uh
+
+How do I get this to go, because I'm super dumb over here"
+,ObbiObbi,2007-10-16T06:26Z,"Hell, nevermind, got it to go
+
+a friend of mine got it and is havin' some trouble with it, just kinda act like it boots up and then exits to desktop again.
+
+Don't really know what in God's name is going on with that."
+,chantman,2007-10-16T13:00Z,"I've seen it not start on one pc..  It's running vista with a sound blaster audigy.  X1950 pro..  Starts, then just kicks back to desktop with no error message.  I'll post if I figure it out."
+,Falcobage,2007-10-17T20:26Z,"Yeah, I have the same problem. It goes black but then goes to the desktop with no warning. I'm running XP."
+,stbd,2007-10-17T20:28Z,yep my game wont start at all when i double click puzzle quest.exe... erro error... im runnin XP!
+,Falcobage,2007-10-17T20:51Z,I tried the uninstall for shits and giggles and got an error about how it can only be uninstalled on 64-bit windows. Is this version for Windows XP x64? That could be part of the problem.
+,Lvcooks13,2007-10-18T09:42Z,"Hey, this thing ain't workin for me so i was wondering if there is somthing ""secret"" that i need to be doing to make it work...
+
+I click on the Puzzle Quest.exe n i get a message that says ""application has failed to start because MSVCP71.dll was not found.""
+
+I also tried the oalinst but that didnt seem to help anything.
+So if im just dumb and doing something wrong please tell me otherwise im assuming that this thing just doesn't work. 
+P.S. im running vista 32bit, no sound card, 8800GTX just incase there are known bugs with this setup..."
+,Ezel,2007-10-18T21:59Z,Is there ANYONE who has succeeded in installing this release. Or is it a TROJAN??? 
+,psychosmurf,2007-10-19T01:05Z,"Guys & gals, I've notice on some games, especially in machines that run Audigy cards or external sound devices, that if you have on board sound (i.e., a sound card built into the motherboard); the games exhibit this very behaviour. 
+
+It seems like the cause is conflicting sound drivers which remains a problem even after you've disabled the onboard sound.  I have an Audigy.  I have a sound blaster external and my games were running fine until I accidentally left my on board sound active when I ran a BIOS update.  Once XP (no Vista here; that OS is a dog with mange) installed the generic sound drivers; that was all she wrote.  
+
+If this sound like your system; you might try cleaning your on board drivers out, i.e., the generic sound drivers that XP installs.  Unfortunately; how to do that is going to depend on what the drivers are.  You'll need to Google the motherboard and find out what the chipset is and then find out what files XP and/or Vista installs for that particular chipset and remove them.  Sorry I can't be more specific but with the number of motherboards out there; it's almost impossible to give explicit directions.
+
+Hope this helps."
+,neftaly,2007-10-19T02:48Z,"I ran the game straight from EXE (I dont see an installer) on WinXP. Have gotten my char to level 13 without a single issue. 
+
+Just your standard 32 bit XP system, with DX9c. I'm using a Creative X-Fi, not an onboard sound card."
+,chantman,2007-10-19T05:42Z,"Guys, the release is fine..  You don't have to uninstall the game because you never have to install the game to begin with.  There is no difference in versions...  
+
+Lvcooks, just do a search for MSVCP71.dll and you'll find it's a microsoft C runtime library file that your system is missing..  
+
+Finally, there's an official fix for the black screen and then kick back to the desktop from, just go to the official forums..  Again, this release works fine..  "
+,Batgra,2007-10-19T15:42Z,"thanks Chantman, 
+The torrent works, but i dont think it will work for everyone.  Im running windows xp pro. i downloaded the torrent, unrar'red it, and moved the entire folder within to ""my programs"" folder, took the exe file and created a shortcut to my desktop, and everything ran fine.  
+
+a friend of mine downloaded this, and used the same process above, and he got a missing dll error.  he was able to download the missing dll file and put it into the puzzle quest folder, and suprisingly that worked.
+
+I tried the same process on my wifes laptop, and it gets a different missing dll file error.  Ive tried a couple of ""fixes"" but each ""fix"" resulted in a new/different error.  shes running xp home.  
+
+The rar is good.  Its not a trogan or anything hostile, but for some it might not work, for others it might require a little bit of work, and for the unfortunate... youll probably have to put in to much time to figure out how to get it to work.  
+
+for me and my buddy it was worth it, thanks again Chantman, my wifes laptop however could have benefited from an install process."
+,Ezel,2007-10-19T17:45Z,"Since there are a unins000.exe file but no install.exe or setup.exe tt seems this ""release"" is just the directory of an installed game. Therefor there are a lot of .dll-files that's been installed in other system-directories that isn't included in this torrent. I'd REALLY like to see a real installable release of this thing. "
+,Matindo,2007-10-20T03:15Z,"- Unrar Puzzle Quest folder anywhere
+- Unrar Assets into the Puzzle Quest folder
+- Then double Click the OpenAL Installer
+- Play
+
+LOL at ezel the idiot, mate this is an installable and perfectly playable release.
+Sadly for you it just ain't idiot proof."
+,Ezel,2007-10-20T14:07Z,"Matindo: Ok, then why is there a unins000.exe file but no install or setup.exe? If you open the file uninstall.xml in the directory Uninstall you can even find where the user has installed it before raring it and what the username is on his computer (""Ulf""). By looking at the installdirectory, ""C:\Program"", and where the shortcut is, ""Start-meny"", I would even go as far as saying that this is a rared installed directory from a Sweden (or other nordic country). . . So Mantindo. . Just shut up!! This is NOT a proper release. . Yes, it probably works for most ppl, but it is JUST AN INSTALLED DIRECTORY!!!"
+,chloe560,2007-10-21T15:46Z,"For all who have error on running game, download fix, http://www.filefactory.com/file/92ac27/, and game run perfectly ^_^"
+,Dondada7,2007-10-22T14:24Z,"Chloe thanx for the fix, you saved me ALOT of trouble with this flawed release."
+,sirka123,2007-10-22T19:59Z,work great :) great game
+,traveling_east,2007-10-23T14:20Z,"First of all thank you for sharing this Chantman. For those folks that cannot make this work on their pc no matter what, like myself, there is a torrent of this game at http://isohunt.com/ , the one by DeLEGiON. It works on my pc fine.
+
+Sharing is in your best interest in the long run, remember that."
+,CodeZer0,2007-10-29T03:21Z,"Works great for me, thanks Chantman and Phero."
+,SuperPunch,2007-10-29T15:28Z,Thank you.
+,chantman,2007-11-03T15:53Z,"I like how people say it's a flawed release and that there is a ""fix"" to get it working.  Just to let everyone know, that ""fix"" is actually an official fixed .exe from the game's developer..  So technically it's a patch....  This goes for my version or any other version out there..  SO enjoy this working release."
+,Vinnsent,2007-11-17T19:27Z,???????! Thanks!
+,marcus_ivo,2008-01-04T09:52Z,thankyou!
+,Lustikurre,2008-01-07T23:56Z,"This is one of the most addictive games i've played for a long time now :)
+
+Size doesn't always matter (~80Mb in size)
+
+Thanks for the upload, this game is great and works perfectly."
+,shinigami,2008-01-08T10:35Z,"Puzzle Quest > ""The application failed to initialize properly (0xc0000142)."" 
+
+oalinst gives me this message: ""Some OpenAL files were in use - a reboot will be required to complete instalation"". Rebooting didn't help.
+
+Any suggestions?"
+,ssnake42069,2008-01-09T02:12Z,"I followed what matindo did exactly and it worked perfectly. the first time i installed the game a few weeks ago it gave me several errors. i decided to take a second shot. now im glad i did. if your having problems, try what matindo said to do. Worked for me and im running vista."
+,shinigami,2008-01-14T10:51Z,Solved the OpenAl issue by overwritting the dll in the Windows folder. Still getting the 0xc0000142 error. 
+,YC_Fan88,2008-02-17T07:02Z,"GO HERE FOR BLANK OUT: http://www.filefactory.com/file/92ac27/
+
+GO HERE FOR ERROR: http://www.dll-files.com/dllindex/dll-files.shtml?d3dx9_28"
+,Brujah85,2008-05-20T16:09Z,Thanx alot from that Blank link.. started to work immedietly :D Finally I can start playing this :D
+,fairyboi88,2008-06-24T12:41Z,"Ezel, you are an idiot, I did exactly what Matindo said to do and had ABSOLUTELY NO TROUBLE with the game. 
+
+Matindo, thank you for explaining how to do it. Got it going perfectly fine, I have the game on DS, it is sooo addicting.
+
+Refresher on what to do, as said by Matindo:
+-Extract Puzzle Quest anywhere
+-Extract Assets in Puzzle Quest folder
+-Open OALInstaller (filename = oalinst.exe)
+-Play!
+
+This game is awesome. Had no troubles at all, and I have a built in sound card. HAHA!"
+,corleybun,2009-01-20T16:55Z,"I also tried to:
+-Extract Puzzle Quest anywhere
+-Extract Assets in Puzzle Quest folder
+-Open OALInstaller (filename = oalinst.exe)
+
+didn't work for me however. just saying it might not work for everyone."

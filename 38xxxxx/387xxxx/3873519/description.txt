@@ -1,0 +1,100 @@
+1.As most of you know that I sell ALBot at mmobot.com I have decided to give the bot to all Thepiratebay members for free! Thats right for FREE!!! Its the full featured bot. Buff timers, can use all attacks, do gathering and even has a return to town timer, yes ALBot uses passports.
+
+2.No messing with your installed game files. Simple to set up and easy to use. ALBot can help you level, collect production materials. Read a book or watch a movie while ALBot plays your character for you.
+
+
+How do I set up ALBot?
+
+Here we are going to show you how to set up ALBot. We will start by unzipping the ALBot file. Once it has been unzipped it will have created a folder called ALBot where ever you extracted the zip file to.
+
+If you open the ALBot folder you will see the following files.
+
+    * ALBot.exe is the bot program
+    * ConfigALBot.exe is the set up program to configure your character/toon you want to bot. 
+
+ 
+
+Lets run the ConfigALBot.exe program to set up our toon for botting.
+
+ 
+
+Once you run the file ConfigALBot.exe you will see a form like the one below.
+ 
+http://i168.photobucket.com/albums/u200/mmobot/Archlord/attacks-1.jpg
+
+We have our Attack Skill settings, Buff settings, and  our Craft settings
+
+and last our Save, Exit and Run ALBot buttons.
+
+ 
+
+Now we are going to look at each section of the form and walk you through on setting it section up.
+
+ 
+
+Lets go ahead and start from  the top with our Attacks
+ 
+http://i38.photobucket.com/albums/u200/mmobot/Archlord/attacks.jpg
+
+ 
+
+ALBot attacks in a continous order of 3,4,5,6,7,8,9 etc. But only uses the attacks you check for it to use. Trying different combos of normal attacks then AoE attacks; if you have them, work very well.
+
+Here we have our bot set to use it's attacks on Action Bar # 1. Lets look at this with the Action Bar #1 in the game interface. You will notice in the above configuration screen we have our Action Bar set to 1. It matches our Action bar in the game. We have our attacks in the game action bar # 1 with our attacks in the hotkeys 3 - 0. Now you will notice that in hotkey 3 we have the default attack. This is optional, but it great to fire for your first attack. Once again I did NOT need to place the default attack in the action bar for the bot to work correctly.
+ 
+http://i38.photobucket.com/albums/u200/mmobot/Archlord/actionbar1.jpg
+
+Now you may notice one skill is not an attack it is really a buff. That is the hotkey 8 (Vitial Charge) I have placed it here on my attacks since at stage 1 it only lasts for 12 seconds and if you have putting it on your attack action bar works great to fire it off while fighting. This can save you some on HP pots (For you class look up the buff that takes damage and converts it to health). If you have it place it in your attacks. Once again this is just one way to set up your attacks. Experiment with your set up for attacks. Also once you have a chance to get any AOE attacks, I would recommend it. In the above action bar the hotkeys 7,9 and 0 are AoE attacks and work great on groups of mobs.
+
+You will also notice a slider bar labeled (Time delay between attacks) This setting is in milliseconds and it controls the delay between the firing of each attack. The lowest being 1000 = 1 second and the highest being 2000 = 2 seconds.
+
+ 
+
+Now we will look at setting up the buffs for the bot.
+ 
+http://i168.photobucket.com/albums/u200/mmobot/Archlord/buffs-1.jpg
+
+Here you will notice we have our Action bar set to # 2 and our  buffs on hotkeys 3,4,6,7, and 8. You will notice they are set to match our Action bar # 2 in the game, see below.
+ 
+http://i38.photobucket.com/albums/u200/mmobot/Archlord/actionbar2.jpg
+
+If you notice we did not set the buff on hotkey 5 in our bot buffs set up. This is because it is greyed out and cannot be used at this time. I also choose not to include Vitial Charge at this time. Since it has a fast cool down time, I use it during my attacks instead. The set up is up to you.
+
+Remember you can use other items as a buff also like speed poitions and shop items. Just drag your stack of items to the bar and include it in as a buff and enter the cool down time for the item. But remember some items have a time limit for reuse also. At this time ALBot doesn't calculate reuse times, only cool down times.
+
+Check off the buttons you have your buffs/class protection on and enter their respected cool down time for each buff.  (Cool down times are in seconds) You can find your skill cool down times by hanging your mouse pointer over the skill in game.
+
+You will also notice a slider bar labeled (Time delay between Buffs) This setting is in milliseconds and it controls the delay between the firing of each buff. The lowest being 1000 = 1 second and the highest being 4000 = 4 seconds. Some buff animations in certain classes take longer and need a longer delay between them. This is something you may need to play with for your class / toon.
+
+ 
+
+Now lets look at setting up our bot to do crafting. Crafting is optional and can be turned on and off.
+ 
+http://i38.photobucket.com/albums/u200/mmobot/Archlord/crafts.jpg
+
+Ths Doing Crafting? option is what tells the bot yo craft or now. Yes = on and No = off.
+
+ 
+
+You select the action bar the craft skills are on. Here we have them on action bar # 3. Now you will notice one difference about the set up for the craft skills. You are not givin a option to select the hotkeys they are one.
+
+What ever action bar you select your crafts skills must be placed in the hotkeys 0 for Ransack, (-) minus for Carve and (=) for Skin. Then you need to tell the ALBot what skill you want to perform. Since you can only us one craft skill on a mob. The above set up shows we have crafting turned off (Grind mode only) But you will see that Ransack is ticked. This means if Doing Crafting was set to Yes/on the bot would Ransack each mob its defeats.
+
+ 
+
+Remeber, crafting is not a great idea when hunting/training on mobs that are higher level than your character/toon. It will cause you to eat up more pots.
+
+ 
+
+Well that is our set up and once we have everything set, we can click on the Save button. and then click on the Start ALBot button as seen in the image below.
+ 
+http://i38.photobucket.com/albums/u200/mmobot/Archlord/buttons.jpg
+
+Once you click on the Start ALBot button the form will close and the bot program will run and sit in your task tray as see in the image below.
+
+Once you see the little bot cosmo man in your tray the bot program is ready and listening. Run Archlord and make sure to set up your client to run with the screen size of 1024x768 x 32 bit. Once you find a good place to hunt/grind/train. Hit the HOME key to start the bot. Hit the END key to pause and un-pause the bot. SHIFT+END will tell the button program to exit/close.
+
+  
+http://i38.photobucket.com/albums/u200/mmobot/Archlord/ALBot_intray.jpg
+
+Well that is it. Pretty simple, huh? If you have any more questions look for them in our FAQ's section of the website or head on over to our forums and register to join the ALBot community!

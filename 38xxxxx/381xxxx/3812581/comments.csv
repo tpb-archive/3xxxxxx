@@ -1,0 +1,10 @@
+﻿User Type,Username,Date,Text
+,bhobson333,2008-08-15T00:01Z,Does anyone know how to handle this mkv file?  MKVToolnix only wants to save a mkv file.  ???  Winrar won't touch it.
+,bhobson333,2008-08-15T00:14Z,NM - ConvertXtoDVD does it.  :-)
+,bhobson333,2008-08-15T01:41Z,"Well, ConvertXtoDVD gave me a 30 second DVD.  As far as I can tell this is a wasted DL.  Why would anyone convert a movie to this horribly unfriendly Matroska?"
+,caseyjones,2008-09-17T23:22Z,"bhobson333:
+
+Sorry about your problems. I use the .mkv-format, because it is the best and easiest way to mux several audio-tracks into the same movie.
+
+I use Linux, so it may be a bit different from windows, but there is a command-line tool in MKVToolNix, called mkvextract, that will extract the files from the mkv.-file. Read the help-text for details, but it has several modes, and the ""tracks"" mode is probably the best for the job.
+I only watch the files on mu computer (the screen is better than my small 20 years old TV), and it is more convenient."

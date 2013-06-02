@@ -1,0 +1,6 @@
+Mac OS X Leopard GM Final 9A581 Kernel Patch (INTEL/AMD/NO-HPET/NO-NX/SSE2) and Source Code for OSx86 Hackintosh
+
+This kernel patch will allow you to run the newest leopard build (10.5 final or 9a581) on your (non apple) Intel or AMD pc.
+
+
+Also included is the source code that was originally written by Lorem (oui, socket), Maxxuss, and Rufus for SSE3 emulation, the CPUID_SET_INFO patch that allows it to run on non Intel, and also several other tweaks and patches that allows all of this to work.  This should be open to the world to have, so that others may be able to pick up where they left off and make their own kernels, and not just a few select people to have.  The author of the source code has given me permission to post it here.

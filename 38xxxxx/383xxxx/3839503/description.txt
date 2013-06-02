@@ -1,0 +1,169 @@
+Game Prelauncher ver.: 1.00
+===========================
+
+
+Introduction
+===========================
+
+Games are very difficult and ramified programs which simultaneously do several tasks at once, not on each computer it is possible to play comfortably. 
+General optimization of your system is very important thing, any game would be feel itself uneasy in an environment of resident programs and  utilities which take off so precious RAM and processor resources. 
+This simple idea is a basis of GP. 
+Disabling almost all programs and services (except for critical), on the most computers it is possible to free near 80 mb of memory! 
+Let alone processor resources. Telling rejoinder.
+On standardly adjusted system, GP disables near 50 - 70 programs and services! 
+Besides, it is possible to start the game with the increased priority.
+All this allows to use the computer practically on a maximum for high-end PC games.
+It is clear that disabling everything, - there would be no neither network, nor Internet. 
+Therefore  who plays network games GP does not approach. Though in most cases it also is not necessary. 
+In the next versions it will be possible to play with enabled network.
+
+So, Game Prelauncher prepares system only for gaming, disabling all unnecessary and focus the system "attention" only on the game (priority).
+
+Installation
+===========================
+The program does not depend on installation.
+Just copy the GP in any place, in the separate folder,
+For example in ' C:\Program Files\Game Prelauncher\' 
+
+
+
+Using Game Prelauncher
+===========================
+GP is only for Windows XP!
+Other operation systems are not supported at the moment.
+
+Game Preluncher has easy-to-use interface and the wizard for fast profile adjustment, 
+however, if you are not sure, here the detailed description.
+
+So, beginning from button "Wizard". 
+
+
+
+
+o Game Prelauncher Wizard.
+
+  Step 1. Programs paths 
+  ~~~~~~~~~~~~~~~~~~~~~~~
+Click button " Browse " and add programs you want to run after Windows would be loaded. 
+Set starting order (mouse dragging), game should be at the end of the list.
+
+Also you can  set CPU priority for each, but it is not necessary.
+To delete item - select it and press 'Del'.
+
+Maybe you need to start 5.1 sound driver or need to insert ISO so add this apps to list. 
+If you don't know what must be started just add the path of the game.
+
+E.g: Winamp (playlist) - normal priority, Doom3 - normal priority.
+
+If you need some autorun programs click "Show Startup App[lications]" button.
+
+
+  Step 2. Unloading Explorer from memory.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+ Explorer really takes some CPU resources (especially under XP without any installed service packs) and  memory. 
+ But some games like Silent Hill 3 cannot start without running Explorer cause of using Explorer's    multimedia features.
+ In this case - uncheck it.
+ Most games can start without running Explorer.
+  
+  * If this checkbox was checked and the game do not start try following:  
+   In profile disable the option of Explorer terminating 
+   (In the main window of the program click "Edit" button, uncheck "Terminate Explorer" checkbox), 
+  
+   Then start Explorer manually 
+   (button Options in the main window >> item menu "Run" and type "Explorer")
+
+
+ Step 3. Profile Name 
+ ~~~~~~~~~~~~~~~~~~~~
+Specify the profile filename.
+
+Profile with the same name will be overwritten. 
+
+ Step 4 and 5.
+ ~~~~~~~~~~
+ Reports.
+
+
+Fast start
+===========================
+So, for example,you want to start Half-Life 2 or Doom 3.
+
+1. Button " Wizard " > > to specify a way of the game ("C:\Doom3\Doom3.exe", set high priority.
+2. Check "Terminate Explorer", to unload it.
+3. Name - "Doom 3",  " Run profile " - checked status), and press button " Restart ".
+
+After Windows would be restarted game will be started automatically.
+
+After you exit from the game press Restore and then restart.
+
+
+Contacts
+~~~~~~~~~
+For software updates please visit :
+  GamePrelauncher.ho.com.ua 
+   ~~~~~~~~~~~~~~~~~~~~~~~
+The program is very small (e.g version 1.00 - 72.4 kilobytes)
+
+Feel free to contact me. Any comments, offers on improvement would be very appreciated.
+  GPsupport@f-m.fm
+   ~~~~~~~~~~~~~~
+
+===========================
+Â©  2006 Daemon-E Networking.
+All rights reserved 2oo7. 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Game Prelauncher: End-User License Agreement
+======================================
+
+LICENSING
+~~~~~~~~~
+GAME PRELAUNCHER SOFTWARE PRODUCT ("SOFTWARE") IS LICENSED
+AS "FREEWARE". IT MEANS, YOU CAN USE THE SOFTWARE
+AT NO COST.
+
+
+DISCLAIMER OF WARRANTY
+~~~~~~~~~~~~~~~~~~~~~~
+THIS SOFTWARE AND ACCOMPANYING FILES IS PROVIDED
+"AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS
+OR IMPLIED. IN NO EVENT SHALL THE AUTHOR BE LIABLE
+FOR ANY DAMAGES WHATSOEVER INCLUDING DIRECT, INDIRECT,
+CONSEQUENTIAL, LOSS OF BUSINESS PROFITS.
+THIS INCLUDES, BUT IS NOT LIMITED TO, MERCHANTABILITY 
+AND FITNESS FOR A PARTICULAR PURPOSE. 
+
+
+CONFIDENTIAL PROPERTY
+~~~~~~~~~~~~~~~~~~~~~
+THE SOFTWARE IS CONFIDENTIAL PROPERTY OF THE 
+AUTHOR. REVERSE ENGINEER (DECOMPILE) OR DISASSEMBLE
+OF THE SOFTWARE IS STRICTLY PROHIBITED.
+
+CHANGING THE SOFTWARE, THE DOCUMENTATION, THE 
+DISTRIBUTION FORM IN ANY WAY IS STRICTLY PROHIBITED.
+
+
+DISTRIBUTION
+~~~~~~~~~~~~
+IT IS ALLOWED TO DISTRIBUTE THIS SOFTWARE AND 
+ACCOMPANYING FILES IN ITS UNMODIFIED DISTRIBUTION
+FORM, PROVIDING THAT NO FEE IS CHARGED, EXCEPT FOR ANY 
+FEES NECESSARY TO COVER THE COST OF DISTRIBUTION MEDIA.
+INFORMING AUTHOR ABOUT CD-ROM DISTRIBUTION WOULD BE
+APPRECIATED BUT IS NOT REQUIRED.
+
+
+COPYRIGHT
+~~~~~~~~~
+ALL RIGHTS RESERVED BY THE AUTHOR - ALEX. SHYSHKO.
+
+
+TRADEMARKS
+~~~~~~~~~~
+ALL BRAND AND PRODUCT NAMES MENTIONED ARE PROPERTIES
+OF THEIR RESPECTIVE OWNERS.

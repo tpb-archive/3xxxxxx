@@ -1,0 +1,76 @@
+﻿User Type,Username,Date,Text
+,meatee,2008-05-08T01:58Z,"A quick note for anyone planning to burn this to disc and play it on a real Sega CD system: there's not a CUE sheet pacekd with this release, so you need to open up Notepad and paste in the following code:
+
+FILE ""Snatcher.iso"" BINARY
+  TRACK 01 MODE1/2048
+    INDEX 01 00:00:00
+FILE ""Snatcher 02.mp3"" MP3
+  TRACK 02 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 03.mp3"" MP3
+  TRACK 03 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 04.mp3"" MP3
+  TRACK 04 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 05.mp3"" MP3
+  TRACK 05 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 06.mp3"" MP3
+  TRACK 06 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 07.mp3"" MP3
+  TRACK 07 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 08.mp3"" MP3
+  TRACK 08 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 09.mp3"" MP3
+  TRACK 09 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 10.mp3"" MP3
+  TRACK 10 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 11.mp3"" MP3
+  TRACK 11 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 12.mp3"" MP3
+  TRACK 12 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 13.mp3"" MP3
+  TRACK 13 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 14.mp3"" MP3
+  TRACK 14 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 15.mp3"" MP3
+  TRACK 15 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 16.mp3"" MP3
+  TRACK 16 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 17.mp3"" MP3
+  TRACK 17 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 18.mp3"" MP3
+  TRACK 18 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 19.mp3"" MP3
+  TRACK 19 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 20.mp3"" MP3
+  TRACK 20 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 21.mp3"" MP3
+  TRACK 21 AUDIO
+    INDEX 01 00:00:00
+FILE ""Snatcher 22.mp3"" MP3
+  TRACK 22 AUDIO
+    INDEX 01 00:00:00
+
+then save the file as ""Snatcher.cue"" in the same directory as all the other files, then open this file in your CD burning software instead of the iso file in order to burn both the data and the audio tracks.
+
+Hope this helps!"
+,expediter,2009-06-08T02:21Z,Thanks for the cue file. It helped big time :-)
+,Rusty_Rake,2010-08-20T13:25Z,Please seed...i beg you dude:D
+,mutekiazy,2011-08-19T17:14Z,"The .CUE was helpful, but don't you need to convert the MP.3's to .WAV's before you can burn them to a Sega CD compatible disk?"

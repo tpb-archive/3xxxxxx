@@ -1,0 +1,26 @@
+﻿User Type,Username,Date,Text
+,Chris_Kadaver,2007-11-20T15:37Z,okey... we've seen lots of SSE3 version so screw that?! whats the deal? post a working SSE2 instead!!!
+,docjones83,2007-11-22T08:27Z,"OR, get a SSE3 CPU  :-D"
+,kgulaalex,2008-01-09T20:09Z,"DO NOT DOWNLOAD OR INSTALL
+i have succesfully installed leopard on 
+Sempron64 2600 2x512 ram ati9550 256mb
+IT WILL DAMAGE YOUR HARD DRIVE
+IT HAPPENED TO ME. IT IS NOT A JOKE. THIS WILL CRIPPLE YOUR BOOT FILES:
+""invalid partition table""
+WITH LUCK YOU CAN INSTALL VISTA BUT NO XP
+if you have already installed... leopard is stuck on 60hz refresh rate with no ati drivers and it is IMPOSSIBLE OT RUN WINDOWS APPS ON IT. You will get error.
+.
+.
+.
+YOU RISK PERMANENT DAMAGE TO YOUR COMPUTER WITH ANY LEOPARD INSTALLATION.
+I am not a n00b and i will not touch os x again after what happened. I AM STILL UNABLE TO INSTALL XP and writing from vista
+
+""invalid partition table"" at boot. BEWARE AND DO NOT DOWNLOAD. i had a perfect case install and still...
+
+DOWNLOAD OR INSTALL ON YOUR OWN RISK. COMPUTER PERMANENTLY DAMAGED WITH ANY LEOPARD NOT JUST THIS ONE. it`s because of hfs.
+
+YOU HAVE BEEN WARNED.
+i wrote this to prevent otherf from experiencing what i have gone through."
+,dustmanrocks,2008-02-12T23:00Z,"kgulaalex is an idiot.. Of course you cant open windows programs you fucking dumbass, its because its MAC OS! :O what a shocker! And I've yet to see software cause physical damage to a hard drive. You are a MORON! Get a life, or an education."
+,bungiefan,2008-02-14T04:58Z,"Rewriting of the drive to a different filesystem isn't damage to the hard drive itself. If you need to put Windows back on the drive, you need to change the bootloader in the MBR, and FDisk can do that with the proper command line functions, and Windows install CDs have FDisk on them. Boot sectors contain data, like any other sectors, and it's not ROM, so the change can be changed again. That hardly qualifies as ""permanent damage""."
+,yadayadaya,2008-03-29T16:21Z,"kgulaalex...only a noob claims not to be a noob.  Installing OSX, or any for that matter that doesn't expect a Windows installation will not know the Windows partition exists, so therefore it will not be bootable from the boot loader of that OS.  It set the partition OSX was installed to active.  Now assuming you aren't a total idiot and didn't overwrite your XP partition with OSX, it's still there and the data is still there, just your partition table is messed up.  My guess is you probably partitioned OSX into an extended partition, which creates a partiton within a partition, (the extended partion itself counts as a partition in the partition table even though you cannot write data to it unless you create a partition within it) and for these purposes isn't bootable.  Whatever the case, the bootloader you are running (Grub I assume) isn't reading you partition table correctly, or you screwed it up partitioning.  Windows can recover a partition table from a boot CD as mentioned above.  You should refrain from spreading mis-information.  The problem you are having exists ON YOUR COMPUTER, NOT WITH THIS METHOD!  In short, user error.  If you weren't a noob, you'd know how to recover a partition.  Noob."

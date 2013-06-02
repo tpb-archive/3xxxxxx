@@ -1,0 +1,40 @@
+Elcomsoft Distributed Password Recovery
+
+Description:
+The Elcomsoft Distributed Password Recovery is designed for distributed recovery of forgotten or lost passwords of different documents.
+It allows to:
+* restore passwords of different documents by means of distributed processing
+* work in local and global networks
+* administer the password recovery server remotely
+* install and uninstall agents to remote computers
+* manipulate agents' work time and priority
+* launch the agents and the server as system services
+* keep count of machine time
+* keep track of one's own actions and look through the log if necessary
+
+
+Supported applications and document formats
+* Microsoft Word/Excel/PowerPoint 2007 (.DOCX, .XLSX, .PPTX) (password recovery - "open" password only)
+* Microsoft Word/Excel/PowerPoint XP/2003 (.DOC, .XLS, .PPT) (password recovery - "open" password only)
+* Microsoft Word/Excel 97/2000 (.DOC, .XLS) (password recovery - "open" password only)
+* Microsoft Word/Excel 97/2000 (.DOC, .XLS) (guaranteed decryption)
+* Microsoft Money (password recovery)
+* Microsoft OneNote (password recovery)
+* PGP zip archives (.PGP) (password recovery)
+* PGP secret key rings (.SKR) (passphrase recovery)
+* PGP disks with conventional encryption (.PGD) (password recovery)
+* PGP self-decrypting archives (.EXE) (password recovery)
+* PGP whole disk encryption (password recovery)
+* Personal Information Exchange certificates - PKCS #12 (.PFX, .P12) (password recovery)
+* Adobe Acrobat PDF with 128-bit encryption ("user" and "owner" password recovery)
+* Adobe Acrobat PDF with 40-bit encryption ("user" and "owner" password recovery)
+* Adobe Acrobat PDF with 40-bit encryption (guaranteed decryption)
+* Windows NT/2000/XP/2003/Vista logon passwords (LM/NTLM) (password recovery)
+* Windows SYSKEY startup passwords (password recovery)
+* Windows DCC (Domain Cached Credentials) passwords (password recovery)
+* Intuit Quicken (.QDF) (password recovery)
+* Lotus Notes ID files (password recovery)
+* MD5 hashes (plaintext recovery)
+
+More Info: 
+http://www.elcomsoft.com/edpr.html

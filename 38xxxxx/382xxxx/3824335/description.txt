@@ -1,0 +1,98 @@
+Dell Portables System BIOS Upgrade CD
+Version:        A26
+Release Date:	10/6/2005
+
+Supported Systems:
+System		  BIOS		Filename
+---------------------------------------------------------------------
+Latitude  CP	  A16           LCP_A16.EXE
+Latitude  CPi	  A12           LCPi_A12.EXE
+Latitude  CPi A	  A15           CPiA_A15.EXE
+Latitude  CPi R	  A14           CPCR_A14.EXE
+Latitude  CPt C	  A14           CPCR_A14.EXE
+Latitude  CPt V	  A14           CPTX_A14.EXE
+Latitude  CPx H	  A14           CPTX_A14.EXE
+Latitude  CPt S	  A16           CPSJ_A16.EXE
+Latitude  CPx J	  A16           CPSJ_A16.EXE
+Latitude  CS	  A13           LCS_A13.EXE
+Latitude  CSx	  A13           LCS_A13.EXE
+Latitude  C400	  A12           C400_A12.EXE
+Latitude  C600	  A23           C600_A23.EXE
+Latitude  C610	  A16           C610_A16.EXE
+Latitude  C640	  A10           C640_A10.EXE
+Latitude  C800	  A23           C800_A23.EXE
+Latitude  C810	  A12           C810_A12.EXE
+Latitude  C840	  A13           C840_A13.EXE
+Latitude  V710	  A11           V710_A11.ROM
+Latitude  V740	  A13           V740_A13.ROM
+Latitude  X1	  A03            LX1_A03.EXE
+Latitude  X200	  A09           X200_A09.EXE
+Latitude  X300    A09		X300_A09.EXE
+Latitude  D400    A08		D400_A08.EXE
+Latitude  D410    A04		D410_A04.EXE
+Latitude  D500    A10		D500_A10.EXE
+Latitude  D505	  A09		D505_A09.EXE
+Latitude  D510	  A02		D510_A02.EXE
+Latitude  D600	  A16           D600_A16.EXE
+Latitude  D610	  A05           D610_A05.EXE
+Latitude  D800	  A13           D800_A13.EXE
+Latitude  D810	  A03           D810_A03.EXE
+Latitude  100L    A08		100L_A08.EXE
+Latitude  110L    A05		110L_A05.EXE
+Inspiron  1100	  A32           I1100A32.EXE
+Inspiron  1150	  A07		I1150A07.EXE
+Inspiron  1200	  A05		I1200A05.EXE
+Inspiron  2200	  A05		I2200A05.EXE
+Inspiron  2600	  A11           I2600A11.ROM
+Inspiron  2650	  A13           I2650A13.ROM
+Inspiron  3700	  A17           I3700A17.EXE
+Inspiron  3800	  A17           I3800A17.EXE
+Inspiron  4000	  A23           I4000A23.EXE
+Inspiron  4100	  A13           I4100A13.EXE
+Inspiron  4150	  A06           I4150A06.EXE
+Inspiron  5150	  A38		I5150A38.EXE
+Inspiron  5160    A08		I5160A08.EXE
+Inspiron  6000    A08		I6000A08.EXE
+Inspiron  8000	  A23           I8000A23.EXE
+Inspiron  8100	  A15           I8100A15.EXE
+Inspiron  8200	  A11           I8200A11.EXE
+Inspiron  8500	  A08           I8500A08.EXE
+Inspiron  8600    A14		I8600A14.EXE
+Inspiron  9100	  A06		I9100A06.EXE
+Inspiron  9200	  A01		I9200A01.EXE
+Inspiron  9300	  A04		I9300A04.EXE
+Inspiron  XPS	  A06		IXPS_A06.EXE
+Inspiron  XPS2	  A04		IXPS2A04.EXE
+Inspiron  300m    A08		300m_A08.EXE
+Inspiron  500m    A08		I500mA08.EXE
+Inspiron  510m    A11		I510mA11.EXE
+Inspiron  600m	  A17           I600mA17.EXE
+Inspiron  630m	  A00           I630mA00.EXE
+Inspiron  700m    A05		I700mA05.EXE
+Precision M20	  A05           M20_A05.EXE
+Precision M40	  A11           M40_A11.EXE
+Precision M50	  A12		M50_A12.EXE
+Precision M60     A09		M60_A09.EXE
+Precision M70     A02		M70_A02.EXE
+SmartStep 100N	  A11           100N_A11.ROM
+
+
+Utilities: 
+        Dell Diagnostics version 1102.
+        Dell Diagnostics version 1205.
+        Dell Diagnostics version 1208.
+	Dell Diagnostics version 1240.
+
+*********************************************************************
+Notes:
+1. For systems using Windows 98 version 4.10.1998, the RUN_ME.REG
+   utility available on this CD should be installed before
+   upgrading the BIOS. Installing this utility will prevent
+   Windows 98 version 4.10.1998 from converting to ACPI mode when
+   hardware detection is performed. See ACPI.TXT, included on this
+   CD, for more details.
+   *** Please Note ***
+   This utility has been updated. All Windows 98 version 4.10.1998
+   users are encouraged to install this utility, even if they have
+   previously installed an earlier version.
+*********************************************************************

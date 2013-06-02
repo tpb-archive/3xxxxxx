@@ -1,0 +1,191 @@
+Copyright (c) 1996 - 2007 Kaspersky Lab
+
+RELEASE NOTES
+
+Kaspersky Internet Security 8.0 (Alpha 1)
+Build 8.0.0.33 (31.10.2007)
+
+INTRODUCTION
+SUPPORTED OS
+INSTALLATION
+FUNCTIONAL SPECIFICATIONS
+UNIMPLEMENTED FUNCTIONALITY
+MAIN KNOWN BUGS
+OPEN QUESTIONS
+WHAT TO DO, IF ERRORS FOUND
+ADDITIONAL INFORMATION RESOURCES
+
+
+INTRODUCTION
+
+1. Primary goals of public beta testing for this product 
+
+	The product is currently in - alpha/pre-alpha stage. Publishing an early build at this stage - will enable any interested party to start participating in beta testing of new Kaspersky Labs products. At this stage we are not focusing on small bugs, but rather the commentary about functional richness of the product, product component content distribution across subsystems and new product design including visual product forms. Critical error reports such as crashes/hangs of an operating system or the product itself will be invaluable to the developer team.
+
+	Primary commentary that we are waiting for:
+	1) reports about errors,
+	2) argumentative suggestions about product functionality and subsystem component allocation,
+	3) product results after testing on well known programs such as leak tests.
+	
+	WARNING: installing this version for protection of regular workstations is strongly discouraged. This build did not pass testing procedures and quality assurance. Please use it at your own risk!
+
+
+2. General Description
+	Kaspersky Internet Security 8.0 ? is a new line of Kaspersky Labs products, which is designed for the multi-tiered protection of personal computers. This product is based on in-house protection components, which are based on variety of technologies for maximum levels of user protection regardless of technical competencies. This product utilizes several technologies, which were jointly developed by Kaspersky Labs and other companies; part of them is implemented via online-services.
+
+	During product preparation several competitor offerings were considered and analyzed - firewalls, security suites systems, which position themselves as proactive in defence and HIPS systems. Combination of in-hosue innovative developments and results from analysis gathered through the industry allowed to jump onto a new level of protection for personal users, whereby offering even more hardened and less annoying computer protection from all types of electronic threats ? malicious programs of different types, hacker attacks, spam mailings, program-root kits, phishing emails, advertisement popup windows etc.
+
+SUPPORTED OS
+
+	1. Microsoft Windows 2000 Professional (SP4 and higher),
+	2. Microsoft Windows XP Home/Professional (SP2 and higher) 32-bit
+	3. Microsoft Windows XP Home/Professional (SP2 and higher) 64-bit Edition
+	4. Microsoft Windows Vista 32-bit
+	5. Microsoft Windows Vista 64-bit Edition
+
+Towards the final release the support for Microsoft Windows XP SP3 and Microsoft Windows Vista SP1 is possible.
+
+
+INSTALLATION
+
+First build supports only english localization and only full installation mode
+This build does not support installing on top of current Kaspersky Labs products and also security products of other vendors (antivirus, firewalls, and security suites).
+The installation must be performed on a "clean OS" or remove potentially incompatible products manually.
+For product installation simply launch a distributive and follow on screen wizard prompts.
+Activation code: TO-DO
+
+
+FUNCTIONAL SPECIFICATIONS
+	
+In this section preliminary subsystem names are utilized, they can be changed later in the future.
+
+	1. Product components
+		Product contains 6 main subsystems, and each of those includes basic protection components:
+		1) System watch
+			System watcher (all-in-one system for registering events)
+			HIPS (host intrusion prevention system - proactive defense, which is based on limiting application actions on a system) 
+			PDM (system of proactive defense, which is based on application behavior analysis for malicious/suspicious activities)
+			Firewall (personal protection screen)
+		2) Malware protection
+			Protection of files and memory (File-Antivirus)
+			Protection of email and IM (Mail-Antivirus)
+			Protection of WEB (Web-Antivirus)
+		3) Online Security
+			Protection from Phishing (Anti-Phishing)
+			Protection against network attacks (IDS)
+			Protection from auto-dialers (Anti-Dialer)
+		4) Content Filtering
+			Spam Filtering (Anti-Spam)
+			Banner Filtering (Anti-Banner)
+			Parental Control
+		5) On Demand Scanning (Scan tasks)
+		6) Updater
+			
+		Aggregated protection system status is displayed on a separate screen, from which modifications can be made to allow for ?Your computer is protected". 
+		
+		Several parts of product functionality are implemented using special tasks, which are on separate tabs for following components:
+		1) Window displays an overall system status
+			Analyzer of current system protection (heuristically)
+			Master to create RescueCD
+			Master of configuration problems troubleshooting
+		2) System Watch
+			Monitor of connected networks (with support for Wi-Fi and IPv6)
+			Monitor of network activities of applications
+			Packet sniffer (analysis of network packets)
+		3) Online Security
+			Master of Internet browser setup (Browser tweaker)
+			Master of system cleanup (Privacy tweaker)
+			Virtual Keyboard, protected against screenshot captures
+		4) Content Filtering
+			Anti-Spam training wizard		
+
+	2. Graphical Interface
+		Product's graphical interface was again written "from scratch". With goals of code optimization and simplification, with dialogs some dialogs borrowed from 6.0/7.0. Main window changed considerably: to allow easier comprehension of longer lists the main window became resizable, to decrease the number of separate dialogs, which opened in separate windows before, the main structure became table like - in addition navigator in the left side is combined with upper tabs; by grouping several elements together main navigator is not tree like anymore.
+		All-in-one settings window of v7.0 is now a much simpler (Options) window, whereby only the main product settings remained, with some new additional options. All settings which are component specific are directly linked and changed through the main window. The support for more contextual menu system, which was previously available, makes it more scalable.
+		Alerts (dialogs for user actions) are changed to include more information and simplification for correct actions for non-savvy users.
+		To enhance readability and flexibility of controlling multiple lists a new control method was developed, which replaced all default windows listing controls. It allows to do sorting, grouping (by multiple fields) and data filtering. Scheme of control using external buttons in such controls is replaced with "in-place" editing possibility.
+	
+	3. Antivirus Protection
+		This build utilizes a new AV core engine, developed by Kaspersky Labs specialists. It allows to improve protection levels and speedup scanning through optimization of object handling and maximum utilization possibility of the hardware platform.
+		Technologies for object detection added with suspicious packers and multi-layered packing, which can be another characteristic for malware.
+		Possibility for granular threat type detection, including such category as "mostly unwanted software applications".
+
+	4. Content Filtering
+		In Anti-Spam new technologies will be integrated, which are now in use in server products, and showed consistent efficiency (some of them will appear as early as KIS 7.0 MP1)
+
+	5. Scan Tasks
+		One of the tasks will be a vulnerability scanner of the user using an external updatable threat database.
+		Mechanism for earlier scan storage reports is changed to avoid problems, which were encountered with chkdsk utility.
+	
+	6. System Watch
+		Main protection component of a new product, based on combination of reactive and proactive technologies. Main task of this component is to control the rights of active system applications, behavioral analysis, and also logging critical events, occurring in the system - for later analysis, for example to handle occurred incidents 
+		Control of application rights is based on a system of rules and application resources which are available on the system and execution environment. Resources can be of different types, including file system objects, system registry, hardware devices, rights (interception of keyboard entry etc.), access operations, which was previously controlled by "Confidential Data" 
+ 		Firewall is now logically part of System Watch, since its rules are part of application rights, in which the resource is network interactions. By default the product will pass all year end 2007 leaktests.
+
+	7. Additional Technologies:
+		Technologies based on AVZ engine: detailed computer analysis with a possibility of scripted disinfection; troubleshooting masters, browser settings configuration and system cleanup.
+		System to report detected objects onto a centralized KL database. This database will allow for better protection for most apparent threats and to notify users faster about epidemics. This feature can be switched off, although confidential data is never sent anyways. 
+		Base driver klif.sys on all supported OS is replaced with a new version, which is not vulnerable to current known exploits.
+	
+
+UNIMPLEMENTED FUNCTIONALITY
+
+	1. Vulnerabilities scanner wizard 
+	2. Detailed computer analysis (security analyzer based on AVZ)
+	3. All part of network Firewall, including (network monitor)
+	4. Rules for HIPS on applications and resources , except file and registry
+	5. Partial self-defense functionality on x64 OS and Vista x32 (improvements based on Vista SP1)
+	6. All "Statistics" tabs of the main window (statistical tabs and chats)
+	7. System of reporting about suspicious objects (participation in Kaspersky Network)
+	8. New Anti-Spam plug-in for Eudora and Thunderbird
+	9. New logic for Anti-Spam email markings
+	10. Reports and their settings.
+	11. Receiving extended information through an IP address in both alerts and settings.
+	12. Support for most of the application protocols in the packet sniffer.	
+	13. Filtering of data in the listings, descending grouping in the listings sorted by time.
+	14. Notifications (balloons) and hints.
+	15. Object actions in the threat types parameters.
+	16. Additional functionality, as planned for KIS 7.0 MP1.
+
+
+MAIN KNOWN BUGS
+
+	1. OS loading time will be highly increased after installing of this build
+	2. The product and OS can hang in case if "Ask" option is set in HIPS component
+	3. Th product can crash when Packet sniffer is active
+	4. It is impossible to make any actions in Threat list
+	5. Installation on Windows 2000 is NOT supported
+	6. Installation on top of current Kaspersky Labs products will cause serious problems.
+
+
+OPEN QUESTIONS
+
+On all subject matters listed here we would like to hear your feedback, if possible with detailed descriptions.
+	1. Graphical Interface
+		An idea about a mini-interface is currently under review for the main window, and also Vista Widgets. What shall we keep?
+	        Possibility of a "simple" alert to appear for non-savvy users. What should be on it?
+		Centralized settings pane for all components vs. or settings in separate window per component. 
+	2. Subsystems
+		Removal of the (Anti-Popup) subsystem. Reason- almost all modern browsers already have this present.
+		Which subsystem is lacking in the product?
+
+
+WHAT TO DO, IF ERRORS FOUND
+
+Steps to follow when an error is found: 
+	1) Take a look at the official forum http://forum.kaspersky.com/index.php?showtopic=11188 - it is possible that the problem already being discussed,
+	2) Collect maximum amounts of information, based on the error symptoms.
+	3) Send the collected information, and if needed, upload crash dump files onto the respective FTP server.
+
+Detailed instructions on 2 and 3 can be located at http://forum.kaspersky.com/index.php?showtopic=37629 of the forum.
+It is also useful to refer on how to generate full crash dumps, see. http://support.kaspersky.ru/kis6mp2/error?qid=180593374.
+
+WARNING: instead of a specialized Kaspersky Trace Utility it is possible to use that functionality within the product, Please see Troubleshooting of the window Options. When an appropriate option is enabled the log files will automatically be generated in the installed directory upon startup and add-on during the product main operation.
+
+
+ADDITIONAL INFORMATION RESOURCES
+
+    1. Use an appropriate product forum (http://forum.kaspersky.com/index.php?showtopic=11188) for latest news exchanges and product errors discussions.
+    2. Check back to see news and announcements on (www.kaspersky.ru)
+
+{ Translated by Whizard - thank you from all KAV 8.0 team }

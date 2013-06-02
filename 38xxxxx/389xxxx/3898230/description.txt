@@ -1,0 +1,12 @@
+NoIntro patch by Vincent Viau (BurningSheep)
+Special thanks to NetSpider for the Idx decrpytion logic
+
+1) Go to your hg:l data folder (usually C:\Program Files\Flagship Studios\Hellgate London\Data)
+2) Backup these files:
+	hellgate_movies000.idx
+	hellgate_movieslow000.idx
+	hellgate_movieshigh000.idx
+3) Replace the old files with the ones in the archive.
+
+This will remove the intro videos without affecting the rest of the game's videos.
+I'm working on cool tools for the game... stay tuned! (BurningSheep)

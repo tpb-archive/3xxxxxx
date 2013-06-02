@@ -1,0 +1,111 @@
+My final version .
+Dont use version 2 it had a very big bug. This version works with all the shows and 
+
+It's quite easy for you to add more.
+
+Requires a php server installed. check http://www.wampserver.com/en/ if you dont have it already.
+
+Gets episode names from tv.com.
+
+It automatically renames the files with a nice formatting and the episode name
+instead of the usual technical descriptions.
+
+It also moves the files to the correct folder at your choice.
+
+It is important that you edit line 11 to the folder that contains your files.
+Check the source code if you want to add more shows.
+
+Currently supported shows are:
+30 Rock
+Alias
+American dad
+Angel
+Arrested Development
+Battlestar galactica
+Big love
+Boston Public
+Bones
+Buffy the Vampire Slayer
+Californication
+Charmed
+Csi
+Coupling
+Criminal Minds
+Dark Angel
+Dead Like Me
+Deadwood
+Desperate housewives
+Dexter
+Dirt
+Entourage
+ER
+Eureka
+Everybody hates chris
+Everybody Loves Raymond
+Family guy
+Firefly
+Five days
+Frasier
+Friday night lights
+Friends
+Futurama
+Ghost whisperer
+Gilmore Girls
+Greys anatomy
+Heist
+Heroes
+Hidden palms
+House
+How Its Made
+How i met your mother
+Invasion
+Jackass
+Jay Leno
+Jericho
+Joey
+Kidnapped
+Kyle XY
+Las vegas
+Lost
+Medium
+Monk
+My name is earl
+Naruto
+Nip Tuck
+Numb3rs
+One tree hill
+Oz
+Painkiller jane
+Prison break
+Psych
+ReGenesis
+Robot chicken
+Rome
+Scrubs
+Sex and the city
+Seinfeld
+Shark
+Smallville
+Sopranos
+South park
+Stacked
+Supernatural
+That 70s Show
+the 4400
+The Boondocks
+The class
+The Fresh Prince of Bel-Air
+The IT Crowd
+The King of Queens
+The L Word
+The Nine
+The O.C
+The office
+The Shield
+The simpsons
+Thief
+Twin Peaks
+Ugly betty
+Vanished
+Veronica mars
+Weeds	

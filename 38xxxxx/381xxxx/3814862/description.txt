@@ -1,0 +1,124 @@
+What's New in MAtlab Release 2007b
+
+R2007b includes Simulink 7, new features in MATLAB, two new products released since R2007a, and updates and bug fixes to 82 other products. Subscribers to MathWorks Software Maintenance Service can download R2007b product updates. 
+
+R2007b introduces a major new feature: C code generation from Embedded MATLAB functions directly at the MATLAB command line, using Real-Time Workshop. In addition, Embedded MATLAB Function blocks in Simulink support algorithms in multiple M-files.
+New capabilities for the Simulink product family include: 
+Simulation accelerators in Simulink provide compiled simulations and dual-core or dual-processor operation
+Normal mode model reference for component-based modeling in Simulink 
+Bidirectional tracing and new target-specific code optimization architecture in Real-Time Workshop Embedded Coder and embedded target products 
+Code generation for Simscape and SimHydraulics
+HDL code generation from Embedded MATLAB Function blocks and support for multirate designs in Simulink HDL Coder 
+Continuous time support in Stateflow, with zero crossing detection and differential equation authoring 
+Support for parallel computing in SystemTest using Distributed Computing Toolbox
+Simulink Design Verifier, a new product for test generation and property proving
+New capabilities for the MATLAB product family include: 
+Support for numerical arrays >2x109 elements on 64-bit operating systems for many MATLAB functions
+Ability to read MPEG, WMV, and other video formats on Windows platforms in MATLAB 
+Video viewer and ROI tools for polygon, ellipse, and freehand selections in Image Processing Toolbox 
+Interleaving of parallel and serial code with the parfor function in Distributed Computing Toolbox
+Interactive graphics for the Web, using AJAX to enable rotate, zoom, and pan in 
+MATLAB Builder for Java 
+Support for Reuters Market Data System in Datafeed Toolbox 
+MATLAB Product Family
+MATLAB 7.5
+ 
+New products
+Key features and Release Notes below. 
+ Link for Analog Devices VisualDSP++ 1.1 * 
+
+Updates and bug fixes
+Release Notes by product linked below. 
+
+Indicates major update
+Aerospace Toolbox 2
+Bioinformatics Toolbox 3
+Communications Toolbox 4
+Control System Toolbox 8.0.1
+Curve Fitting Toolbox 1.2 
+Data Acquisition Toolbox 2.11
+Database Toolbox 3.4
+Datafeed Toolbox 3 
+Distributed Computing Toolbox 3.2 
+Excel Link 3
+Extended Symbolic Math Toolbox 3.2.2
+Filter Design HDL Coder 2.1 
+Filter Design Toolbox 4.2
+Financial Derivatives Toolbox 5.1 
+Financial Toolbox 3.3 
+Fixed-Income Toolbox 1.4
+Fixed-Point Toolbox 2.1 
+Fuzzy Logic Toolbox 2.2.6 
+GARCH Toolbox 2.3.2
+Genetic Algorithm and Direct Search Toolbox 2.2 
+Image Acquisition Toolbox 3 
+Image Processing Toolbox 6 
+Instrument Control Toolbox 2.5
+Link for Cadence Incisive 2.1
+Link for Code Composer Studio 3.1 
+Link for ModelSim 2.3
+Link for TASKING 1.2
+Mapping Toolbox 2.6 
+MATLAB Builder for .NET 2.2.1
+MATLAB Builder for Excel 1.2.9
+MATLAB Builder for Java 2
+MATLAB Compiler 4.7
+MATLAB Distributed Computing Engine 3.2 
+MATLAB Report Generator 3.2.1
+Model-Based Calibration Toolbox 3.3
+Model Predictive Control Toolbox 2.3 
+Neural Network Toolbox 5.1
+OPC Toolbox 2.1
+Optimization Toolbox 3.1.2 
+Partial Differential Equation Toolbox 1.0.11 
+RF Toolbox 2.2
+Robust Control Toolbox 3.3
+Signal Processing Toolbox 6.8
+SimBiology 2.1.2
+Spline Toolbox 3.3.3
+Statistics Toolbox 6.1 
+Symbolic Math Toolbox 3.2.2
+System Identification Toolbox 7.1
+SystemTest 2
+Wavelet Toolbox 4.1
+	 		Simulink Product Family
+Simulink 7.0 
+ 
+New products 
+Key features and Release Notes below. 
+ Simulink Design Verifier 1.1 * 
+ 
+Updates and bug fixes
+Release Notes by product linked below.
+Indicates major update
+
+Aerospace Blockset 3
+Communications Blockset 3.6
+Real-Time Windows Target 3
+Real-Time Workshop 7
+Real-Time Workshop Embedded Coder 5
+RF Blockset 2.1 
+Signal Processing Blockset 6.6 
+SimDriveline 1.4 
+SimEvents 2.1 
+SimHydraulics 1.2.1 
+SimMechanics 2.7 
+SimPowerSystems 4.5 
+Simscape 2 
+Simulink Control Design 2.2
+Simulink Fixed Point 5.5
+Simulink HDL Coder 1.2 
+Simulink Parameter Estimation 1.2.1
+Simulink Report Generator 3.2.1
+Simulink Response Optimization 3.1.2
+Simulink Verification and Validation 2.2
+Stateflow 7
+Stateflow Coder 7
+Target for Freescale MPC5xx 2.2 
+Target for Infineon C166 1.5
+Target for TI C2000 2.3 
+Target for TI C6000 3.3 
+Video and Image Processing Blockset 2.4
+Virtual Reality Toolbox 4.6
+xPC Target 3.3
+xPC Target Embedded Option 3.3

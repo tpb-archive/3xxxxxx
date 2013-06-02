@@ -1,0 +1,15 @@
+Ever forgot your windows login password or needed to get it from an
+computer. This is the easiest way to crack it.
+
+Ophcrack is a Windows password cracker based on rainbow tables.
+It is a very efficient implementation of rainbow tables done by the inventors of the method.
+It comes with a GTK+ Graphical User Interface and runs on Windows, Mac OS X (Intel CPU) as well as on Linux.
+
+How to use:
+1. Mount with Daemon-tools.
+2. Burn a copy of the mount to a cd.
+3. Boot the computer you want to get the windows password from with the cd.
+4. Follow the directions (very simple).
+5. Whait for it to crack all windows login accounts (can take 1 - 20 min).
+6. Write down the password for each account and you have them.
+7. Login and be happy =)

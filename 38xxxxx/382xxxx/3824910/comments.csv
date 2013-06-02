@@ -1,0 +1,111 @@
+﻿User Type,Username,Date,Text
+,atv,2007-09-30T18:41Z,"Hi, Nincsenez
+Wie sieht's mit Frankreich aus? 1:25000?
+Wäre schön!"
+,atv,2007-09-30T21:50Z,"Hmm,
+Bei D-Nord fragt er nach einem Freischaltcode
+For the North he asks for a key... D-south no problem.
+What happens and where is ze key???
+
+atv"
+,FatFreddy2,2007-10-02T23:09Z,"@atv:
+Frankreich sieht schön aus. Jetzt sogar in 1:1.
+Bin in ca. 1 Woche zurück, dann schau ich mal nach."
+,atv,2007-10-03T07:50Z,"Hehe, bonnes vacances!"
+,Rob Mulder,2007-10-06T12:54Z,"When you try to install it it say's you need a registration key. 
+
+Does anybody has it?"
+,Rob Mulder,2007-10-07T18:14Z,Couldt someone please help me with the key?
+,atv,2007-10-07T20:05Z,"We wait all for our friend Nincenez.
+When there is a solution for the South, there will also be one for the north... don't worry, it's only a question of honor and time :-)
+atv"
+,atv,2007-10-07T20:13Z,"Perhaps u should try this 1 (found on emule):
+""
+ed2k://|file|Topo%20Deutschland%20Map%20Source%20Reg%20Garmin.rar|413527943|AA23F644EE10AF8F5EF8FD270B77F593|/
+
+Complete CD-Content without any Activationkey.
+Key is necessary to activate product online.
+So this version is for Backup-purposes only.
+
+Please share all installed IMG-Files and the PRODUCT.TDB located in the Family_535 directory,
+i.e. c:\Programme\Garmin\Mapsource\FAMILY_535 (Not the files located on disk). Then it's possible
+to integrate the unlocked files in Mapsource.
+
+Editing the Registry in this way should work.
+
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_535]
+""ID""=hex:17,02
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_535\1]
+""Bmap""=""C:\Programme\Garmin\FAMILY_535\basemap.img""
+""Tdb""=""C:\Programme\Garmin\FAMILY_535\product.tdb""
+""Loc""=""C:\Programme\Garmin\FAMILY_535""
+
+Bullshit!!!!!!!!!!!!!!!!!!!!!!!!!
+Files are coded!!!!!!!!!!!!!!!!!!
+
+No Bullshit!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+The files finding at the Harddisk are not encrypted. 
+
+
+Bullshit!!!! It dos´t work -  no, no, no ------ Why?????????
+
+UPDATE 13.05.05
+It works!
+Check the registry!
+
+
+Ihr müsst die beigefügte datei der registry beifügen und über
+Ausführen Regedit die Links in der Registrierung anpassen.
+
+""
+If it works, let us know plz
+atv"
+,Rob Mulder,2007-10-10T21:25Z,Thanks ATV but it does not work for me. Can you share the emule version on this torrent site?
+,atv,2007-10-11T21:59Z,"I'll try. But I'll dl and test first. Meanwhile have care for your girls... :-)
+atv"
+,orcofthedarkness,2007-10-13T09:13Z,"Hi, Nincsenez
+
+is there any other way to install it?
+´cause: i installed it as you said (with registry entries and so on) but mapsource crashed, if i started it.
+or is there anything else to keep in mind (like install pathes)"
+,orcofthedarkness,2007-10-13T21:33Z,"btw, files are encrypted ( u can see this if you load the img files into img2gps )"
+,atv,2007-10-13T23:54Z,"I've fond and installed 1 on my PC and Vista Cx.
+Germany North and South.
+Will ul it tomorow.
+Bye babes...
+urs atv"
+,zwergen,2007-10-16T23:15Z,"I had the same problem. Sud works and North doesn't.
+I tried to do the editing of the registry but Mapsource crashes, if I choose the North maps from the menu.
+I notided that in the North file list, there's a file: mpc_id.dat which is not in the Sud collection.
+Is this file in the way somehow?"
+,Rob Mulder,2007-10-20T14:41Z,"I?ve done the job. Everything works with this version. 
+
+http://thepiratebay.org/tor/3850149/Garmin_Mapsource_TOPO_collection_by_RobMulder
+
+Please share!
+"
+,Rob Mulder,2007-10-20T15:09Z,"Error, please try this one:
+
+http://thepiratebay.org/tor/3850183/Garmin_Mapsource_TOPO_collection_by_RobMulder
+
+Or this one:
+
+http://thepiratebay.org/user/Rob%20Mulder
+
+PLEASE HELP ME SEED!!"
+,Pattoi,2008-05-20T20:48Z,"REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_535]
+""ID""=hex:17,02
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\MapSource\Families\FAMILY_535\1]
+""Bmap""=""C:\Programme\Garmin\FAMILY_535\basemap.img""
+""Tdb""=""C:\Programme\Garmin\FAMILY_535\product.tdb""
+""Loc""=""C:\Programme\Garmin\FAMILY_535""
+
+dont'work....................!!!!!!!
+Mapsource goes in crash..!!!!!!!!!!!!!!!!!
+Any news.....?????????"

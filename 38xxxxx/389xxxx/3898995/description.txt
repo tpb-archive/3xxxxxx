@@ -1,0 +1,74 @@
+skAI Traffic v2.3 - Introducing the Airbus A380 - Effective September 2007
+==========================================================================
+
+
+Please uninstall any other version of skAI Traffic running on your computer before installing this package!
+
+Free diskspace needed: appr. 5 GB.
+
+
+Changes
+=======
+
+In short, what has changed:
+
+- Many old Tantris flightplans have been deleted
+- Many new or updated flightplans (490 in total!)
+- Added some new models, including the Airbus A380
+- Updated various models and liveries
+- All VTBD flights are now redirected to VTBS (as in real life)
+- Parking radius has been fine tuned
+- Overall "look and feel" of the package
+- Added some GA traffic
+- And much more...!
+
+Please read the other documents for more information!
+
+Airports
+========
+
+Flight Simulator 2004 does not include RJGG and VTBS by default, but these airports are used in skAI Traffic v2.3.
+
+RJGG --> I recommend installing the RJGG scenery from http://www.bekkoame.ne.jp/i/m28hama/rjgg.htm.
+
+VTBS --> I recommend installing the VTBS2006 scenery from http://www.siamavsim.com and using Eric Thornton's AFCAD, which can be found on Avsim under the filename af2_vtbs.zip.
+
+If the VTBS2006 scenery is bleeding (grass coming through the runways), use this flatten switch in your scenery.cfg:
+
+Flatten.0=5.0,N13 39.15,E100 45.32,N13 39.55,E100 43.65,N13 42.90,E100 44.76,N13 42.54,E100 46.30
+
+It should look something like this:
+
+[Area.047]
+Title=vtbs2006
+Local=Addon Scenery\vtbs2006
+Remote=
+Active=TRUE
+Required=FALSE
+Layer=47
+Flatten.0=5.0,N13 39.15,E100 45.32,N13 39.55,E100 43.65,N13 42.90,E100 44.76,N13 42.54,E100 46.30
+
+It was impossible to include these sceneries in the installer, as I don't know what is installed by whom.
+To prevent scenery conflicts I leave this decision up to you.
+
+Release Info
+============
+
+skai Traffic v1.0		Public release / January 2007
+skAI Traffic v1.1		Public release / January 2007 (bgl patch)
+skAI Traffic v2.0		Personal release (major update)
+skAI Traffic v2.1 		Personal release (small update)
+skAI Traffic v2.2		Personal / Beta-tester update
+skAI Traffic v2.3		Public release / November 2007 (major update)
+
+Future Releases
+===============
+
+skAI Traffic v2.4		Personal release (small update)
+skAI Traffic v2.5 / 3.0		Public release / April 2008 (major update)
+
+These dates are just indications.
+
+
+Happy landings,
+PopArt :-) / WingZ of Silence

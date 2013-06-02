@@ -1,0 +1,18 @@
+September 25th, 2007
+DVDFab Platinum 3.2.0.0 Updated! 
+
+New: Brand new \"PathPlayer\" technology to remove latest DVD copy protection. 
+
+\"PathPlayer\" gives DVDFab the ability to copy DVD content only allowed to be played on a real DVD player. In this way, DVDFab will ignore unplayable content which may contain copy protection. 
+
+Please note when \"PathPlayer\" is enabled, opening a DVD may need up to several minutes, which is much longer than before. 
+New: Added setting options for \"PathPlayer\". 
+New: Added support for a new copy protection as found on \"Blade: House of Chthon\", (US). 
+New: Added support for a new copy protection as found on \"88 Minutes\", (R2, German). 
+New: Added support for a new copy protection as found on \"Bridge to Terabithia\", (R2, German). 
+New: Added support for a new copy protection as found on \"Curse of the Golden Flower\", (R2, UK). 
+New: Removed unreferenced VTS and PGC for cleaner DVD structure and better compression. 
+New: Brand new \"DVD to Mobile\" framework which gives DVDFab the ability to take the power of dual core (or more cores) CPU. Our test shows the H.264 encoding on dual core system speeds up to 200%. 
+New: \"DVD to Mobile\" feature uses a lot of of open source libraries, like FFmpeg, x264, xvid, liba52, faac, lame, etc. DVDFab is compatible with open source GPL/LGPL license, and thanks for the help of open source community. 
+New: Program and installer are signed now for security. 
+New: Updated language files. 

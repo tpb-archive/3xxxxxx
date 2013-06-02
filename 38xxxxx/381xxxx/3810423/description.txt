@@ -1,0 +1,19 @@
+UnZixWin 0.0.9 - Extracts contents of ZIX archives
+===============================
+
+NEW: Now handles the new ZIX 2.0 file format currently ciruclating. Even those containing multiple files and folders. It decompresses and even decrypts the  content.
+
+NEW: Now decodes 3w-encoded AVI files, so you don't have to install the spyware-infested 3wPlayer either
+
+NEW: Now requires an installer (supplied). Sorry folks! Some third-party components need to be installed. But nothing nasty, I promise!
+(Don't take my word for it! Scan with your antivirus software of choice)
+
+This utility is handy for when you encounter files with the ZIX extension. As you know, the WinZix application "required" to unpack them is infested with spyware, so shouldn't be installed or even considered. This utility is all you need.
+
+Source code (VB6) is included, so you can poke around and see how it does what it does.
+
+Sorry for dragging my feet with this one, guys. It took me a while to get it right.
+
+Don't seed torrents containing ZIX archives! Be a good Netizen and don't expose one another to the risk of becoming infected. Help keep the net clean of spyware.
+
+Cheers!! //NeverShaveYourDuck

@@ -1,0 +1,7 @@
+This PPF will patch the Uphuck v. 1.3 installation DVD to be fully compatible with the ASRock 775Dual-VSTA motherboard. When the ASRock 775Dual-VSTA motherboard package is selected in the drivers section, all necessary drivers will be loaded for 100% support of motherboard chipsets after installation. All other Uphuck installation options are still functional.
+
+Fixes:
+
+SATA - Installation disc recognizes SATA, patched kext installed
+Network - Installs support for VIA Rhine
+Audio - Skippyretard ALC 888 kext installed for full input and output support

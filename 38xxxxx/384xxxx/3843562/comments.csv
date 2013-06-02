@@ -1,0 +1,60 @@
+﻿User Type,Username,Date,Text
+,snornegern,2007-10-17T00:47Z,installer doesnt work
+,beefinish,2007-10-17T03:20Z,"asks to insert Adobe Photoshop CS3 cd, tried to bypass by copying mounted image information to hard drive and running the setup in the copy, but it still asks for the cd. Does anyone know how to get by this?"
+,jayyers,2007-10-17T08:04Z,"Quick fix:copy contents out of iso or off disc and put in folder on hard drive and then you will be able to install. 
+
+Good Fix: xml file that installer refrences (disc:/payloads/setup.xml) wants the disc to have other disc name. if someone else wants to rename the the disc label name to the correct name which is ""AdobePhotoshop10en_US_volume"" (i believe that is correct) and then redistribute. I wont be able to get around to it for a few days so if someone else is ambitious enough to verify that that is the actual name and that fix will work then go for it otherwise i will fix by next week and redistribute the image."
+,dimausas,2007-10-17T23:21Z,"Quick fix worked perfectly. Thanks Jayyers.
+I'll try the CD name you've suggested."
+,partyman,2007-10-18T01:53Z,"I use trend micro, and I get a warning about troj generic virus hidden in keygen.exe placed inside this iso-image. the installation itself seemed fine enough."
+,dimausas,2007-10-18T09:19Z,"My Free Avast didn't report any viruses. But then again it's free version. However, for me Avast have been prity goog so far for a few years now.
+The generated key worked fine. Good luck."
+,piratebay84,2007-10-18T14:24Z,"check for a file on your system chxjgi.exe (it calls itself Microsoft Update).  After running the keygen, it loads as part of windows.  It was nasty to get rid of."
+,heypony,2007-10-19T04:43Z,"sorry im new
+the keygen thing isnt working, i screwed something up
+
+can someone give me one of the codes for it?
+thanks"
+,florian2,2007-10-20T14:19Z,delete keygen.exe and use 1045-1090-6246-8353-3166-2968
+,c0nroy,2007-10-21T11:19Z,Thanks to the great torrent and thanks to Jayyers for the great Quick Fix! Worked Perfect! I will seed this for 2 weeks now! 
+,c0nroy,2007-10-21T11:20Z,also used florian2's key.. didn't work :(
+,dimausas,2007-10-22T10:01Z,"Facts:
+1. 1045-1090-6246-8353-3166-2968 has expired
+2. chxjgi.exe not found on my system after using keygen.
+3. AdobePhotoshop10en_US_volume label didn't work neither with Nero 6 nor with UltraISO
+
+Guys, just follow the 'quick fix' and use the keygen."
+,Activezero,2007-10-23T06:00Z,"I got a trojan when I was trying to do the ""Quick fix"".
+Name was - ""trojan-dropper.gen.x"""
+,Activezero,2007-10-23T06:00Z,"I don't know if it was serious though, entire application seems to be working fine."
+,Activezero,2007-10-23T06:05Z,"Wait, after doing the quick fix I still get the message ""Please insert Photoshop CS3 to continue installation"", I know this is a really big noob question, but, Is your Local Disk C: your hard drive? Any help would be appreciated."
+,jayyers,2007-10-23T07:41Z,"i scanned keygen with latest clamwin virus deffs and did not find anything? 
+
+Activezero: for the quick fix either burn the iso to disk or use daemon tools to mount the iso and then create a folder on your desktop called ""PS"" and copy entire contents of disc/iso mount to the folder ""PS"" . then run the setup found in the folder on your desktop, you may or may not need to eject disc or unmount iso, i cant remember what i did.
+
+beefinish: i dont know xml that well, is it possible that you would need to leave off ""_volume"" ? ive still not had time to mess with it but i promise i will sooner or later if no one else gets it working"
+,dimausas,2007-10-23T10:02Z,"my System disk is F:
+The disk letter dosn't matter."
+,Gulge,2007-10-24T22:53Z,"""please install Adobe setup using setup.exe instead. mine is windowsbotstrapper! what am i doing wrong?"
+,lps41,2007-10-25T19:10Z,"Gulge there is another file there called ""Setup"" with a different icon than your normal .msi file. Use that one to install."
+,Krulligahorn,2007-10-26T23:26Z,1045-1756-0999-0999-3438-3575
+,kaktus4,2007-10-27T17:17Z,works fine. thx very much... =)
+,Sevi.,2007-10-29T08:48Z,"i need help...when i activate setup.exe it always says ""SETUP HAS ENCOUNTERS AN ERROR AND CANNOT CONTINUE.CONTACT ADOBE CUSTOMER SUPPORT FOR ASSISTSNCE.
+INTERNAL ERROR 2739. can somebody plz tell me wat to do!"
+,Gulge,2007-10-29T17:01Z,WTF!.What am i supose to do when it asks for e-licens.? does it work any way ore just for 30days?
+,JesseSch007,2007-10-29T19:52Z,"Worked like a charm with saving to the hard drive and the keygen worked great also.
+
+Very easy and pain-free download.
+
+Thanks gorillapappa!"
+,KarinaGlamorous,2007-12-07T18:02Z,"I don't get the quick fix.
+Can someone please explain
+it to me?"
+,Tremme118,2008-01-16T14:20Z,bout freakin' time i got a good keygen. thanks gorillapappa. i owe you one
+,ND3G,2008-01-17T03:35Z,"Wait a second, this version does not allow you to update!  
+
+I have a different version of Photoshop CS3 installed on another computer and it lets me download the updates.  
+
+Oh well, I guess this is the tard version for those you cannot figure out how to activate there copy...."
+,ND3G,2008-01-17T03:36Z,"Oops, sorry this is not the tard version, but the so called clean version Cod4z is whoring."
+,Technqe,2008-07-15T01:30Z,where is the keygen

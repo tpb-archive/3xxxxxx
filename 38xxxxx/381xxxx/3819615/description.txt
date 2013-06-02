@@ -1,0 +1,13 @@
+This is the VMware of the free QNX Operating System from qnx.com.
+
+You can get this zip file, unzip onto your machine, and use VMware to open and boot it. Once it\'s up inside vmware, you can login as \"root\" with no password (just hit enter for password). Now you have a full QNX 6 environment.
+
+You can get a free license from http://www.myqnx.com
+
+To Enter your license key, run:
+finstall -l (it\'s letter L)
+To launch the photon gui, run:
+ph
+
+If you are happy with the Photon GUI and want the system to boot automatically into Photon, run:
+rm /etc/system/config/nophoton 

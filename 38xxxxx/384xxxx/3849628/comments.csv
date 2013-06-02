@@ -1,0 +1,113 @@
+﻿User Type,Username,Date,Text
+,lassebl,2007-10-22T23:00Z,No seeds at all?
+,Agnelli,2007-10-23T09:31Z,"Since 10.4.9 I get the Messsage:
+Disk image you are opening may be damaged.
+The Game works, and I really dont know what it means. (I played it on my PB with 10.3.x and I never had Problems with it. I also got it on my G5 with 10.4.10. 
+Anyway:
+If u re not sure, read the article and repair the DMG File.
+------------------------------------------------------
+Issue or symptom
+
+Mac OS X 10.4.9 improves the ability of Mac OS X to detect damaged or corrupted disk images before mounting them. Mounting a damaged or corrupted disk image can result in data loss or corruption. This alert appears when you try to open or (mount) a damaged disk image:
+
+""The disk image you are opening may be damaged and could damage your system. Are you sure you want to open this disk image?""
+
+Products affected
+
+Mac OS X 10.4.9
+Solution
+
+If you have another copy of the files that are on the affected disk image
+
+Make a new image in Disk Utility and copy the original files to the new image.
+Discard the original, affected image.
+As a precaution, open (mount) the new image, open Disk Utility, and repair the new image. Continue to repair until no issues are found. 
+
+If you have no other copy of the files on the affected disk image
+
+Try repairing the directory structure of your disk images with Disk Utility.
+
+Make a copy of the affected image in the Finder (select it, then from the Finder's File menu choose Duplicate). A duplicate image whose name ends with ""copy"" will be created (you will need sufficent free disk space).
+Open (mount) the copied disk image file in the Finder. When the alert appears, click ""Open"". 
+
+Important: If you are unable to mount the image in the Finder, the image may be unusable. If you are able to open the image in a previous version of Mac OS X, some data may be damaged. Use the data with caution. 
+
+Open Disk Utility (located in the Utilities folder, within the Applications folder).
+Select the copied disk image's icon in the left side of the Disk Utility window, then click Repair Disk. A verification will be performed and, if necessary, repairs. 
+Click Repair again. Repeat this step until no issues are found on the image. 
+
+Note: If repairs cannot be performed because the image is read-only, convert the image to a read/write format with a new name (don't replace the existing image with a same-named image). Then perform step 4 and 5 on the converted image. After repairs are complete, you can convert the image back to a read-only format and rename it if desired.
+You should now be able to use the disk image without any issues. 
+
+Additional information
+
+It is possible for a damaged disk image to cause directory issues to your Mac OS X volume.
+----------------------------------------------------
+"
+,wurstfinger,2007-10-23T11:26Z,Seeding has slowed down extremely at 78.56% for me. Let's see if we still get a complete seed.
+,Agnelli,2007-10-24T11:14Z,"I just have an upload-Rate from 25 kbs. So u  need pation. Btw: I had over 50 leechers, and now there are 2 Seeders. That's a bit sad."
+,068752m,2007-10-25T11:42Z,"When i try and repair the disk image, i get the message ""1 HFS volume checked
+	1 volume could not be repaired because of an error""
+
+what does that mean?"
+,068752m,2007-10-25T11:44Z,"i also get this message, which says why it can't be repaired....""Error: The underlying task reported failure on exit
+"""
+,Agnelli,2007-10-25T16:41Z,"I really don't know. All what I can tell you is:
+I installed it for 2 Years on my PB G4 and Imac G5, and never had Problems with my System. The Message came with 10.4.9. So i reinstalled THIS file without repairing, and it still works."
+,Mikesh,2007-10-26T11:28Z,"works!!! but sn for multiplayer game missing. but single player working perfect!
+
+thanks"
+,Blizteck,2007-11-29T13:52Z,works perfectly ;) thanks man! :P
+,lchtangen,2008-01-24T07:19Z,I can't play Multiplayer. I can't play on the servers.... what can i do?  It was a super downloading!!! Thanx Agnelli
+,Dwarming,2008-03-25T18:25Z,"How do i get this game to run?
+I use Mac OS X.
+
+When ever i try to run the ""wolfenstein installer"" it says ""The item Wolfenstein SP cannot be found, the installation cant continue""
+
+thank you."
+,alexeiisma,2008-04-08T17:57Z,Is this work on standart Intel Macbook                 
+,rex_altitudo,2008-05-10T15:12Z,"Seed, please?"
+,Phraz,2008-07-23T06:05Z,"please seed again, thanks!"
+,WrYpoRrY,2008-10-01T07:51Z,"I'm on 10.4.11 and it works fine. Downloaded in one day, thanx seeders!"
+,kingVader,2008-11-11T03:08Z,"Tried running this on an Intel-based Mac and didn't have much luck. Not worth it now, even Aspyr notes its only for PPC systems."
+,e-zero,2008-11-30T06:47Z,"I have a MacBook Pro.  The game opens up but as soon as I try to start playing it says:
+
+""Could'nt start OpenGL""
+
+any reasons why?"
+,e-zero,2008-12-03T05:52Z,This game does not work for Intel Mac!
+,Frozen-ice,2008-12-07T08:59Z,i cant seem to repair the disk
+,Frozen-ice,2008-12-07T09:02Z,how to use disk utility???
+,Frozen-ice,2008-12-07T09:31Z,"when i tried to repair i got a ""Disk Utility stopped repairing ?Wolfenstein? because the following error was encountered:
+
+Filesystem verify or repair failed."""
+,aberkman,2008-12-24T16:36Z,"Works PERFECTLY for me on a MacBook Pro running 10.4.11 and 2.2 GHz dual Intel.
+
+Thank you Agnelli for uploading and thanks to all the seeders. This game is great!"
+,ben_nobre,2009-02-12T17:44Z,"I can't get to run this game in Leopard: I updated to 1.4.1, went to the main folder, opened the autoexec.cfg and added the line ""set r_fullscreen ""1"""" but no changes."
+,nickthenack99,2011-12-06T15:25Z,"Thnx man works like a charm! =D
+
+only problem I had was that if you try to use a resolution that is bigger than your screen you will get the error ""Couldn't start OpenGL"" so open Main/wolfconfig.cfg and lower the resolution by looking for the line:
+
+seta r_mode
+
+and change the value to 3 and when you start it up it will work but will be 640x480.
+
+
+I did a hack to get widescreen working properly so open Main/wolfconfig.cfg and look for the lines:
+
+seta r_customheight
+seta r_customwidth
+seta r_fullscreen
+seta r_mode
+
+change it to:
+
+seta r_customheight ""x""
+seta r_customwidth ""x""
+seta r_fullscreen ""1""
+seta r_mode ""-1""
+
+set the height and width to the native resolution of your monitor.
+
+and enjoy widescreen!!! =D"

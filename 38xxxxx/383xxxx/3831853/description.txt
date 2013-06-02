@@ -1,0 +1,40 @@
+Title: Number Seventeen AKA Number 17
+Director: Alfred Hitchcock
+Year: 1932
+IMDB: http://www.imdb.com/title/tt0023285/
+
+Source: Cheap NTSC DVD
+Language: English
+Subtitles: None
+Extra: None (Not Included on DVD)
+Frame Rate: 23.976 FPS
+Length: 1h06min (Movie)
+Container: Matroska/MKV (http://www.bunkus.org/videotools/mkvtoolnix/index.html)
+
+Video Codec: x264 !!!
+Resolution: 448 x 336
+Video Bitrate: ~ 600 kbps
+Quality: 0.164 bits/pixel
+Quantization Matrix: -
+Quantization Range, Average: 12-31, 21.5 (OBS! Different scales for x264 and XviD Q) 
+
+Audio Source: 2.0 AC3 192kbps
+Audio Codec: MP3 Lame 3.97
+Settings: VBR Quality 4 (-V 4 --vbr-new) Joint Stereo
+Normalized: No
+
+Size: 350 MB
+
+Comments:
+The source is a really cheap NTSC DVD. It claims to be "Digitally Remastered", but the transfer looks really cheap with lots of
+white dots and other artifects. The movie was encoded in 29.97 fps hard-dropdown, so I had to do a manual IVTC and then dropping
+the duplicate frames. The DVD had a lot of light background to dark background effects, like as it wanted to look like it was really
+shown in a 1932 cinema, but this annoying effect is somewhat less prone in the encoded version, not sure if it's because of the
+Fluxsmooth filter or the encoder or what. I darkened the brightness slightly, so that the result would look less gray and worn out.
+
+The movie is stored in a 1.7 GB VOB-file, and I doesn't really want to use much space for the encoded version (because the source isn't
+good), hence the 350 MB encode. I used the x264 video codec, because I believe that it is relatively better than XviD at low bitrates.
+x264 takes more processor power than XviD to decode, but I don't think that it will be an issue at this small size.
+
+The movie itself is probably mostly for those of us that already likes Hitchcock's movies. The plot is at times a bit too confusing, and
+you can see that the final chase is a model (but is still pretty amazing for its time). Enjoy!

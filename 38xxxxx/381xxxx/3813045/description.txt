@@ -1,0 +1,50 @@
+Process Explorer shows you information about which handles and DLLs processes have opened or loaded.
+The Process Explorer display consists of two sub-windows. The top window always shows a list of the currently active processes, including the names of their owning accounts, whereas the information displayed in the bottom window depends on the mode that Process Explorer is in: if it is in handle mode you'll see the handles that the process selected in the top window has opened; if Process Explorer is in DLL mode you'll see the DLLs and memory-mapped files that the process has loaded. Process Explorer also has a powerful search capability that will quickly show you which processes have particular handles opened or DLLs loaded.
+
+The unique capabilities of Process Explorer make it useful for tracking down DLL-version problems or handle leaks, and provide insight into the way Windows and applications work.
+
+What's new in Version 11.0:
+
+* New treelist control for better UI responsiveness
+* Asynchronous thread symbol resolution on threads tab of process properties
+* More flags on groups in security tab and SID display
+* Thread IDs on threads tab
+* On-line search uses default web browser and search engine
+* Vista ASLR column for processes and DLLs
+* Vista Process and thread I/O and memory priorities in process and thread properties
+* Vista Process and thread I/O and memory columns
+* PROCESS_QUERY_LIMITED_INFORMATION support on process permissions on Vista
+* Run as limited user runs with low IL on Vista
+* Reports information for all object types on Vista
+* Show details for all processes elevation menu item on Vista
+* Supports replacement of task manager on Vista
+* /e to launch elevated
+* /s switch to select a process at startup
+* Compiled w/ASLR, DEP
+* Faster startup
+* Miscellaneous bug fixes and minor improvements
+
+
+
+
+
+-LEGAL TORRENTS
+
+Purpose:
+
+create a balance, share the already free stuff,
+public domain works, freeware, free music,
+free ebooks, articles, manifestos, movie trailers, and more.
+
+show the copyright owners that torrent
+websites shouldn't bear the responsibility
+of what their users upload, torrent websites
+are very much similar to google..
+
+users upload what they want to upload,
+download what they want to download,
+and search for what they want to search..
+
+by creating this balance and sharing the already free
+stuff, we hope to take the pressure of torrent websites..
+

@@ -1,0 +1,32 @@
+--= The What =--
+
+The bare bone MagicISO/PowerISO application needed to convert proprietary *.uif/*.daa files to ISO.
+
+
+--= The How =-- (for *.uif)
+
+0. If you are converting *.uif bigger than 300MB run MagicISO_Install.reg to register MagicISO.
+1. Start MagicISO.exe
+2. Tools > Convert
+3. You'll figure out the rest :)
+4. Optionally run MagicISO_Uninstall.reg to remove entries added by MagicISO_Install.reg
+
+
+--= The How =-- (for *.daa)
+
+0. If you are converting *.daa bigger than 300MB run PowerISO_Install.reg to register PowerISO.
+1. Start PowerISO.exe
+2. Tools > Convert
+3. You'll figure out the rest :)
+4. Optionally run PowerISO_Uninstall.reg to remove entries added by PowerISO_Install.reg
+
+
+--= The Why =--
+
+For a simple reason really. Yet another proprietary *.uif/*.daa format makes everyone's life harder.
+
+
+--= The Caution =--
+
+I've only tested converting since this was my whole and only purpose. Other operations might fail or
+maybe even damage your system. Don't use this for anything other than converting.

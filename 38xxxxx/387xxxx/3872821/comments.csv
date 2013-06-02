@@ -1,0 +1,48 @@
+﻿User Type,Username,Date,Text
+,Z3R0OneOneSe7en,2007-11-07T17:45Z,does not work on XP. When i tired to mount the iso file it comes up damaged. It Might work for someone else but it did not work for me.
+,rub17,2007-11-08T12:37Z,indeed does not work. I have vista. Man mounted with daemon tools but is damaged. Has somebody better experience when it is bburned?
+,KMarch,2007-11-08T16:57Z,"WORKS!!!!!
+
+Do not mount with Daemon Tools! Does not work
+
+You need to use MagicISO
+
+
+Tested with Windows XP SP2
+
+Works fine"
+,BabyAap,2007-12-17T22:59Z,Yup! MagicISO did the trick!! Thanks!! ^^
+,p0larb3ar,2007-12-18T21:30Z,"Does not seem to work when burned to disc, have tried twice now without any luck (both PC and Mac). Will try MagicISO as mentioned above and see if that does the trick."
+,p0larb3ar,2007-12-20T06:20Z,"Works with MagicISO. Note: I only used MagicISO to extract the files to my harddrive, I didn't try to burn a disc straight from it so I don't know if that works."
+,CrankyBird,2008-05-16T01:14Z,"Hi,
+
+Since you are using MagicISO could you please tell me how you got it to expand. I downloaded it from their site but can't expand it.
+I'm using a MAC intel running OS 10.5.2
+
+Thanks very much,
+Kunga"
+,platypus01,2008-06-24T06:48Z,"I'm running xp sp2 and it worked with PowerISO 3.8. It says it's an HFS+ image (which makes sense) which might be why it's not working with a bunch of the other programs out there. Just putting that out there.
+
+BTW didn't work with winrar 3.42."
+,Sphinxx187,2008-07-28T14:33Z,"HI, I was wondering if someone can tell me how to unzip and where to install them after? thanx in advance."
+,rei0,2009-04-08T06:09Z,"If you try to burn this image I don't think your PC will recognize the disk. This is an Apple HFS+ image so evidently it was meant for use with a Mac computer. PC users should just mount the iso file with PowerISO (or MagicISO), copy the contents to your hard drive and burn a data disk of the copied files instead. It's pretty simple. Thanks, sotis."
+,LMNML,2009-08-22T14:12Z,"I have extracted the files so far. I used MagicISO which can be found here: 
+
+http://thepiratebay.org/torrent/3917782/Magic_ISO_Maker_5.4_with_serial
+
+then I click  on File>Open, find the ISO, click on EXTRAC... at the top, and that was it.
+
+I'm not really sure about the next step. I'm supposed to burn a data disk of the extracted files and then run the disk?
+
+Thank a lot sotis!"
+,AvocadoCake,2009-12-06T01:34Z,"SO i have the files, ow do i get the all into my list of font (i know its C:/WINDOWS/fonts) but do i really drag em all there? there are HEAPS"
+,cnjmorris,2009-12-14T16:16Z,"Download and install this:
+http://thepiratebay.org/torrent/4658622/FontExpert_2009_Version_10_Release_1
+
+Click ""Tools"" and then ""Find Fonts"".  It will show all fonts on your selected drives.  
+Select all fonts, right click, and choose ""Add all items to worklist.
+Click close and go back to the main program.  From here you can scroll down the list of fonts and either use 'delete' or right click and install the font.   If you use the 'Install..."" option you can choose to move the selected font to the windows font directory or install it from where it is.
+I found FontExpert very useful, went from 2266 fonts down to 811."
+,Sneaky_B,2010-11-10T03:25Z,"This isn't Adobe FontFolio. It has the original RELEASE FONTS in it. The rest is garbage. No actual program, guys. Sorry."
+,kuknisti,2011-12-10T19:08Z,"Here there is a guide how to convert DMG files to ISO images.
+http://www.magiciso.com/FAQ/FAQ0011.htm"

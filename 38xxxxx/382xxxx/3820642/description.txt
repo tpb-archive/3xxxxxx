@@ -1,0 +1,17 @@
+The Cisco VPN Client for Windows is software that runs on a Microsoft
+  Windows -based PC. The VPN Client on a remote PC, communicating with a
+  Cisco Easy VPN server on an enterprise network or with a service provider,
+  creates a secure connection over the Internet. Through this connection you
+  can access a private network as if you were an on-site user. Thus you have
+  a Virtual Private Network (VPN). The server verifies that incoming
+  connections have up-to-date policies in place before establishing them.
+  Cisco IOS, VPN 3000 Series Concentrators, and PIX central-site servers can
+  all terminate VPN connections from VPN Clients. As a remote user (low speed
+  or high speed), you first connect to the Internet. Then you use the VPN
+  Client to securely access private enterprise networks through a Cisco VPN
+  server that supports the VPN client.
+
+
+***Installation Instructions***
+
+Unpack and Install

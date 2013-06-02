@@ -1,0 +1,11 @@
+﻿User Type,Username,Date,Text
+[T],brycetheman1,2007-11-11T01:30Z,The best iPod movie I ever downloaded. What program do you use?
+,NeverEnuf80,2008-04-12T02:40Z,"I can re-encode movies for iPod that are watchable on my 50"" (and i'm a really really anal jerk about video quality) with Handbrake (or, if I want to spend the encoding time: Final Cut Studio Compressor...you can take a blu-ray rip down to 1.5Mbps iPod and barely be able to tell the difference between that and a retail DVD...Compressor is unbelievable, but $$$$).
+
+If you use Handbrake, the BEST settings are 1500kbps (or 4500kbps for itunes/appletv), 2 pass, detelecine with VFR, loose anamorphic full size, 5 reference frames, mixed references, 3 b-frames, direct prediction, weighted b-frames, b-frame rate distortion, bidirectional refinement, uneven multihexago motion estimation, 32 pixel motion estimate range, 7 subpixel motion estimation, ""all"" analysis, 1 trellis, no fast p skip, CABAC entropy...
+people ALWAYS screw up the settings in here and have crappy videos...if you don't know about video in depth and exactly WHAT each setting does during the encoding process and how that will affect the output, stop playing with settings
+5 reference and 3 b-frames are ideal..do not go ""more"" because more will reduce quality, not improve it...less will not have enough to go on for the bitrate and reduce quality....trellis 2 is BAD...you will lose detail for the sake of ""optimizing"" the bitrate...CABAC takes a while, but gives you 15% better compression...you can do ""some analysis"" to save time and probably not notice it except on a large TV if you're looking for it
+
+pay attention to these settings and you'll get a PHENOMINAL looking, iPod compatible video...play it on your ipod/iphone, plug it into your tv
+
+audio doesn't need to be over 128kbps..this isn't windows/microsoft BS codec, or some no-name internet codec nightmare..it's Apple...the best...you don't need 320kbps for it to sound perfect...just make sure you're using the apple codec in handbrake (""AVC/H.264 Video/ AAC or AC3 Audio""...your choice on the audio) to make an MP4 file"

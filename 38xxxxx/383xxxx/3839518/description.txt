@@ -1,0 +1,214 @@
+Comet Busters! Version 1.3
+Comet Busters! Version 1.4 WinG
+Nuclear Winter Version 1.2
+
+Full Registered Versions, Source Code Included!
+
+A Preserved for Posterity Release
+October 12, 2007
+
+All Preserved for Posterity Releases prior to
+October 1, 2007 have been scrapped. I have decided
+to create everything anew. If you have any
+Preserved for Posterity releases prior to that date,
+be aware that they will soon be replaced with much
+cleaner and bug-free code, so keep a look-out :-)
+-- PfP 10/12/2007
+
+This software will be installed, by default, into:
+Program FilesHAMCO Games
+The program group will be:
+Start>Programs>Games>Hamco
+
+
+
+
+                      COMET BUSTERS! v1.4 README
+
+
+* JOYSTICK - Comet Busters! now comes with the standard Windows Joystick
+  driver for Windows 3.1.
+
+  To install, just go to the Control Panel and click on "Drivers"
+  and then "Add...", then "Unlisted or Updated Driver". All the files
+  you need are in the JOYSTICK subdirectory off of the COMET directory.
+  Then you'll need to copy the JOYSTICK.CPL file to your WINDOWSSYSTEM
+  directory. Next time you start up Control Panel, you should have a
+  little icon that lets you calibrate your joystick. You need to do
+  this for Comet to run properly.
+
+* You can easily translate Comet Busters! to other languages by
+  adding additional COMETxxx.DLL files. The default is COMETENU.DLL,
+  for American English. Just copy this file to another COMETxxx.DLL
+  file where "xxx" is the Windows Language Code for your country.
+  For example, German would be COMETDEU.DLL, French would be
+  COMETFRN.DLL, and so on. Then translate the strings in the
+  alternate file with a resource editor.
+
+* Nuclear Winter can be a much more exciting game -- set your
+  screen resolution to 1024x768, open four instances of NUCLWINT at
+  once, and start them all. Keep the Valium handy.
+
+********************** REGISTERED USERS ONLY ****************************
+
+* !!!CHEATS!!! The registered version now has a few cheat codes. Just
+  type them on the keyboard during the game -- case is not important.
+  You can't use them during a network game :-( and using them
+  forfeits your chance at a high score.
+
+  PHASEOUT - makes you invulnerable -- you must turn it off and
+             hyperspace to return from the phased state.
+
+  JUGGER   - makes your ship destroy everything it comes in contact
+             with!
+
+  NUKE     - destroys all the rocks on the board.
+
+  AUTOFIRE - gives your ship auto-fire capability. Just hold down the
+             fire button! Still only 4 at a time, tho.
+
+* To use the Comet Busters! Screen Saver, go to Control Panel | Display
+  and change to the Comet screen saver.
+
+* To use the source code, you will need Delphi 1.0 installed.  Type
+  "cometbld" and it should compile OK.
+
+* If you have problems with music, look at your Midi Mapper settings.
+  Make sure you pick "General MIDI" or "General FM".
+
+*************************************************************************
+
+TROUBLESHOOTING
+---------------
+
+* No music: if you have the shareware version, you'll have to find
+  your own MIDI files.  Registered users, see above.
+
+* If you are having trouble playing Comet over a network,
+  Go to http://www.windows95.com/connect/tcp.html
+  to answer all of your Windows 95 TCP/IP questions.
+
+* Modem play is verrrrry tricky to get working.  Grab a copy of DOOM
+  or other modem game to find a good initialization string for your modem.
+  The default one should work in most cases.  For Windows 3.1 users,
+  be sure to set your COM3-COM4 IRQ's and port addresses.
+
+* Joystick doesn't work -- for Windows 3.1 users, see above.
+  For Windows 95 users, make sure the Joystick icon appears in the
+  Control Panel. For all users, make sure you press the Setup button after
+  choosing the joystick to center it!
+
+* If you're using the PC speaker sounds, you may notice that they tend
+  to die from time to time, and you have to restart Windows to get
+  them to come back. The PC speaker functions, alas, are buggy, and
+  have not been officially supported since Win 3.0. Petition Microsoft
+  if you want it fixed.
+
+NEW IN VERSION 1.4
+------------------
+
+* WinG support!! This makes the game verrry pretty and gets rid of
+  those ugly rectangles around everything!!
+
+* We now have a full-screen mode!
+
+* More tournament modes -- you can now choose to play with no rocks,
+  or where asteroids blow up when you hit them. You can also pick the
+  number of lives and number of levels you want to play in a tournament.
+  Also, there are now tiebreakers.
+
+* Cloaking device now has a time limit.
+
+* Disruptor now acts sort of like a brake.
+
+NEW IN VERSION 1.3.4
+--------------------
+
+* Minor code changes, fixed screen saver.
+
+NEW IN VERSION 1.3.3
+--------------------
+
+* Don't need to have a WINSOCK.DLL in order to start the game.
+* Don't need SNDLIB.DLL either.
+* Changed a bunch of code around in preparation for the next version,
+  so it should crash a lot.
+
+NEW IN VERSION 1.3.2
+--------------------
+
+* Minor bug fixes; more error messages for modem play; changed address.
+
+NEW IN VERSION 1.3
+------------------
+
+* NETWORK/MODEM SUPPORT!!! Finally got around to figuring it out.
+  You know, you just can't write a network game without a network...
+
+* Your ship is invulnerable for a short period after it
+  materializes.
+
+* New rock-busting sounds!
+
+* Upped the frame rate to 24 FPS, which can also be changed.
+
+* Added context-sensitive help.
+
+* Made an optimization to the collision code so that everything
+  will be faster.
+
+* An option for random music selection! See the help file under the
+  "INI file" section for details.
+
+* New sound & music for Nuclear Winter!
+
+NEW IN VERSION 1.2
+------------------
+
+* Now works with Windows 95!
+* Used the WAVEMIX version 2 library. Hopefully, this'll fix problems
+  with the SB16. Sounds really good in Win 95 too.
+* Fixed a bug which made the window very teeny when you restore from
+  an icon.
+* Squeezed the button bar a little more to fit on 640x480.
+* Added About box.
+* Secret stuff!
+
+NEW IN VERSION 1.1
+------------------
+
+* This version uses the WAVEMIX.DLL library, which allows multiple
+  sounds to be played simultaneously -- sort of. If you have a slow
+  computer (even 486-33's are prone to this) you may hear skipping
+  during some of the sounds. This is because Windows is STILL not
+  a true multitasking environment. But hey, it's all worth it, right?
+* SUPER-COOL new sounds! Shield-crackling and popping, thruster sounds,
+  and all sortsa goodies waiting for you.
+* Circumvented the Windows bug which caused small explosions to draw
+  with the wrong palette in 256-color mode.
+* Finally, the joystick bug has been fixed! It seems to have affected
+  fast computers with slow joysticks. How amazing is the difference
+  between signed and unsigned integers!
+* The disruptor now exerts an equal and opposite force on your ship
+  when you use it. This makes it a lot more useful as a defensive
+  weapon. The higher the Special Ability, the more force.
+* I took out the "feature" where when you hyperspaced you would come
+  back giant-size. Windows didn't map the colors correctly, so the
+  ship looked all funky when you returned. But I HAVE improved the
+  hyperspace so that it pops you back in a safe place MOST of the
+  time (determined by the Special Ability attribute).
+* New "Tournament Mode" where the object is not to blast rocks,
+  but to waste the other players. Pretty fun...
+* "Deadly Bullets" option, which makes your bullets, well ...
+  deadly to other players.
+* New CLOAK ability which is pretty much useless without remote play!
+  (Sorry again...)
+* Awesome looking flames out of the back of your ship!
+* More realistic collisions.
+* Other misc. bug fixes which I don't remember because OS/2 ate
+  my "to-do" list.
+
+-------------------------------------------------------------------------
+Steven Hugg
+hugg@pobox.com
+5/7/96

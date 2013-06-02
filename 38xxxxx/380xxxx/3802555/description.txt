@@ -1,0 +1,13 @@
+A patched and recompiled DLL which removes the ad from the main display window in Windows Live Messenger (MSN Messenger).  It does NOTHING malicious.  NO other changes were made.
+
+NOTICE: For version 8.1.0178.00.  View Help -> About to check yours.  Not tested on any other version, and may prevent other versions from running.  If you want to try it anyway, make a backup of your "msgsres.dll" file to restore, just in case.
+
+-----
+
+1. Make sure Messenger is closed completely and not running in the system tray.
+
+2. Extract to the program directory (ex: C:\Program Files\MSN Messenger\), overwriting the original "msgsres.dll".
+
+3. Enjoy your freedom from ads.
+
+4. If a new version comes out, email me and I'll make a new patched DLL.

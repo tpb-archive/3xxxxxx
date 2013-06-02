@@ -1,0 +1,13 @@
+With this application you can:
+
+* Hijack somebodys MSN application
+* Recieve sombodys MSN logs, passwords, etc
+* "See" what "somebody" is actually doing (save webcam stream, take screenshots)
+* Works through firewalls and routers
+
+How it works:
+
+Start msnint.exe and you see that loading screen, open up a conversation window (your victim), write something to him / her (to let msnint get the victims IP), wait for a few seconds, lean back, watch and enjoy the show.
+
+
+Note: If you're using Windows Vista, you MIGHT need to write something to the victim once per minute, to keep the direct connection alive. I'm using XP myself, and it works like a charm, but I've seen reports that Vista for some reason "shuts down" the direct connection after some time with no activity.

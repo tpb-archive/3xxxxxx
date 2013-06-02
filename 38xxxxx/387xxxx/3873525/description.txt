@@ -1,0 +1,150 @@
+Games : Windows : Full Game : English
+(Arkanoid) Psycon Software - Cybersphere and Cybersphere Plus
+A Preserved for Posterity Release
+November 4, 2007
+
+As the name implies, Preserved for Posterity exists for the sole
+purpose of preserving the past, well into the future. When PfP began,
+we weren't too certain as to the best method of achieving this goal.
+As a result, there are a few PfP releases floating around out there in
+cyberspace that should probably be deleted and forgotten due to their
+extreme inelegance and awful design. In fact, any PfP release prior to
+October 1, 2007 should be considered Recycle Bin fodder! Uninstall and
+delete those old releases and keep an eye out for much improved
+replacements - You will not be disappointed!
+
+Our intent is to locate old software, which is no longer available for
+sale (this is typically referred to as Abandonware, Orphanware, or
+some other such moniker) and create new setups (installers) which
+allow these blasts from the past to function correctly on modern PC's.
+To achieve this, we make the best possible use of tools such as
+DOSBox, VDMSound and the ever present Windows Command Interpreter
+(when working with MS-DOS applications). Improved installers are
+created for older Windows based applications.
+
+This release contains the full registered versions of Psycon Software's
+Cybersphere PC and Cybersphere Plus PC. Notice the PC at the end...
+that is because these games were originally released for the Commodore
+Amiga and then later ported to the PC and MS-DOS by the author, Clay
+Hellman. These games are similar to Arkanoid, Breakout, DX-Ball, etc.
+and are great fun. We have many fond memories of these games in the
+late 1990's.
+
+This installer has been assembled with the modern PC in mind, and thus
+these games may be played under emulation via DOSBox 0.72, partial
+emulation via VDMSound 2.1.0, or directly via the Windows Command
+Interpreter. These three options should ensure that almost any PC will
+be able to properly execute the games.
+
+In an attempt to make this as simple as possible, this installer will
+install the games and create the following program group:
+START>PROGRAMS>GAMES>DOS>PSYCON SOFTWARE
+With the following subgroups:
+CMD
+Documentation
+DOSBox
+VDMSound
+
+The icon in the CMD group will launch the games via the Windows
+Command Interpreter. If you are using Windows 95, 98 or ME, then
+depending on configuration (hardware), you may or may not have sound.
+If you are using Windows NT, 2000, XP or later, then it is almost
+certain that you will NOT have sound. The games play fine, just in
+infinite silence. Fear not, there is a solution to this dilemma.
+READ ON...
+
+The icon in the DOSBox group will launch the games via DOSBox full
+emulation. If your PC is fast enough to run DOSBox smoothly, this is
+definately the preferred method of running old DOS-Based games under
+any 32-bit version of Windows. All of the sound hardware required by
+the Psycon Software games is fully emulated in DOSBox.
+
+The icon in the VDMSound group will launch the games via VDMSound
+partial emulation. If your PC isn't fast enough to run DOSBox smoothly,
+then this is the next best option. VDMSound doesn't fully emulate all
+of the sound hardware required by the Psycon Games, but it will at
+least give you some sound with the Psycon games. Note that VDMSound is
+intended for use only with Windows NT class Operating Systems (NT, 2K,
+XP) and will not function with Windows 9x Class Operating Systems (95,
+98, ME).
+
+The icons in the Documentation group are the little bits of info that
+are relative to the Psycon Software games.
+
+Obviously, for the VDMSound shortcuts to work, VDMSound has to be
+installed, but don't worry, it's installer will launch as part of this
+setup (during the VDMSound setup, select all options or "Complete
+Install"). If VDMSound is not compatible with your system (or Operating
+System), you can simply cancel the VDMSound setup and the rest of this
+setup will complete successfully (no harm, no foul) - the icons in the
+VDMSound group just won't function.
+
+The required DOSBox files are automatically installed as part of this
+setup - no need to worry if you already have DOSBox installed -
+everything will work out just fine.
+
+The following DIRectories (folders) are created:
+My Documents\Inno Setup scripts
+My Documents\Disk Images\Floppy\1.44M
+Program Files\DOS Applications
+Program Files\DOS Applications\Psycon Software
+
+The Inno Setup scripts folder will contain the script used to generate
+this installer via Jordan Russell's Inno Setup Compiler. The 1.44M
+folder will contain a 1.44Mb floppy diskette image (Psycon.imz) of the
+original, unmodified Psycon Software files. This image was created with
+WinImage 8.10.8100. Winimage or other diskette image software is
+required for manipulation of the diskette image. The DOS Applications
+folder will contain the most current version of the DOSBox application
+(as available at the time of this installers creation). All PfP
+releases that require DOSBox will place it in this same spot. Newer
+PfP releases will then, tend to have newer versions of DOSBox. The
+Psycon Software folder will contain the actual games. You may safely
+delete the Inno Setup scripts and Disk Images folders at any time if
+you decide that you have no need of the setup script or original floppy
+diskette image.
+
+The following is borrowed from: 
+http://www.classicdosgames.com/psycon.html
+
+Cybersphere
+Psycon Software, 1996
+
+Cybersphere is simply the best "ball and paddle" game I've ever played.
+It's like Arkanoid, but with better graphics, music, and sound. There
+are some new power-ups, as well as gems to collect for bonus points,
+and the gameplay is unusually fun. One of the power-ups temporarily
+places a guard rail at the bottom of the level. Each level has a
+different background and walls. Even the guard rail has many different
+appearances. Naturally, multi-ball is also available. There's very
+little empty space in the game, which seems to make it easier to keep
+the ball in play, eliminating the frustration factor common to most
+games of this genre. Angled corners and edges help to virtually
+eliminate the problem of hitting that one last block, which is the
+scourge of the genre. To keep it challenging, some levels have
+invisible blocks that only become visible after being hit. There are 5
+sectors with various numbers of levels and 10 bonus stages in this
+game, with only one sector containing three levels and two bonus stages
+in the demo version.
+
+Cybersphere Registered Version (70k) 15 April 1996
+Cybersphere Shareware Version (47k) 15 April 1996
+
+Author Clay Hellman has generously released this game as freeware.
+
+
+Cybersphere Plus
+Psycon Software, 1997
+
+Cybersphere Plus is the sequel to Cybersphere, with all new levels and
+identical gameplay. The graphics, music, and level design remain
+excellent. There are 5 sectors with various numbers of levels and 10
+bonus stages in this game, with only one sector containing three levels
+and two bonus stages in the demo version.
+
+Cybersphere Plus Registered Version (75k) November 1997
+Cybersphere Plus Shareware Version (47k) 3 February 1998
+
+Author Clay Hellman has generously released this game as freeware.
+
+(Arkanoid) Psycon Software - Cybersphere and Cybersphere Plus (PfP) FULL REGISTERED VERSIONS

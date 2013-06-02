@@ -1,0 +1,231 @@
+﻿User Type,Username,Date,Text
+,Glibe,2007-10-12T04:45Z,"I'm seeding this, by the way...don't pay attention to the 0 seeders thing..."
+,Sun-Cobra,2007-10-12T05:12Z,"Seeding as well, thanks"
+,Glibe,2007-10-12T06:34Z,"No problem.
+
+And don't try to play Portal (pirated) while running Steam, it will most likely crash."
+,jinamuro,2007-10-13T04:37Z,"I get a ""MountAppFilesystem() failed:"" error. What's wrong?"
+,Glibe,2007-10-13T04:49Z,You shouldn't be getting that. Make sure that you have replaced SteamEmu.ini in your portal directory with the one included in the torrent.
+,jinamuro,2007-10-13T09:52Z,i have done all the stuff people have said to do and i get that error
+,jinamuro,2007-10-13T09:57Z,nevermind. i got it to work. had my folders all wrong.
+,Xerv,2007-10-13T11:52Z,ok u know what? i get errors to .. just buy the game its worth it and stop using time on this shit..
+,FTW2000,2007-10-13T13:09Z,thanks!!!!
+,mark.taiwan,2007-10-13T16:43Z,"can someone help plz? I also got the ""MountAppFilesystem() failed:"" error, i already replaced the SteamEmu.ini and the start.bat.
+or did i unpacked the game itself wrong?"
+,Glibe,2007-10-13T23:45Z,"Yeah, you may want to try unpacking the game again. That seems to be the common trend."
+,deoxx,2007-10-14T10:47Z,"it just won't work!
+can sombody tell me how i should unpack en stuff?
+i got the fix and everything, but it wont work >."
+,delebre,2007-10-15T23:07Z,"Honestly, this fix DOES work with the Portal-Unleashed release. Just copy the contents of this torrent into the directory of the hl2.exe file, run the BAT file, and it will play.
+
+Thanks Glibe!"
+,just_greger,2007-10-16T18:58Z,"yeap, it works perfectly for me as well. Great job Glibe! and a very cool game, even tho i suspect it'll drive me insane before this week ends ^^"
+,Spiderspaz,2007-10-16T20:05Z,WOO PLAYING NOW!!!!!
+,balleand,2007-10-19T16:07Z,"i did everything right but when i click on the start file i see the valve thing at the beginning but when it begins loading i crashes to desktop.
+
+Whats wrong?"
+,bobilob,2007-10-20T19:27Z,seed plz i need this
+,raimps,2007-10-21T08:21Z,ppl seed plz.. 
+,raimps,2007-10-21T08:46Z,k im gonna seed this
+,Hei_p책-deg,2007-10-21T12:24Z,"I also get this error message:
+""MountAppFilesystem() failed:"" 
+
+I'm usually pretty good at cracking games and software. but I didn't get this one.
+
+Did everything according to the guides floating around.
+"
+,Radiation1991,2007-10-22T17:43Z,"Ok, so here's what I did:
+
+1. I downloaded the torrent Portal.Unleashed
+2. I downloaded this torrent
+3. I unRared the files from Portal.Unleashed to ""C:\Program Files\Portal
+4. I created a shortcut and added -steam -game portal
+5. I added the files from this torrent
+6. I started the game from the file: Start.bat
+7. Still the same damn error!!!"
+,Radiation1991,2007-10-22T18:47Z,"Gues what!??
+It works :D I just did all the steps over :)"
+,knkypunk,2007-10-24T07:41Z,I was having problems before but this fixed everything!
+,Kinderellazero,2007-10-24T13:47Z,"Hey please could somebody help me whit this?
+I have same problem as Jinamuro did... It says something like this if I run portal; MountAppFilesystem() failed:
+
+Please help, my msn is: kinderellazero@hotmail.com"
+,Glibe,2007-10-28T17:05Z,"FOR THE LAST TIME:
+
+YOU DO NOT NEED TO DO ANYTHING WITH A SHORTCUT. THIS FIX CIRCUMVENTS THAT. EVERYONE I HAVE TALKED TO HAS HAD THE ERROR FIXED.
+
+Ok. Steps.
+
+1. Replace SteamEmu.ini in the original torrent's Portal directory with the one found in my torrent. SteamEmu.ini should be in the SAME FOLDER as hl2.exe.
+2. Move the start.bat from my torrent into the Portal directory. Again, it should be in the same folder as hl2.exe and SteamEmu.ini.
+3. Start the game by double clicking on start.bat, nothing else. Don't bother with creating a shortcut like the original torrent tells you to."
+,Glibe,2007-10-28T17:09Z,"This fix is intended to fix two errors:
+
+-MountAppFilesystem() Failed
+If you're still getting this, then you did not replace SteamEmu.ini.
+
+-The game starts up, then crashes.
+You aren't starting the game with Start.bat (double click on it, don't bother with a shortcut) OR you did not put Start.bat in the right place. It NEEDS to be in the same folder as hl2.exe and SteamEmu.ini.
+
+SteamEmu.ini should look like this:
+
+[Options]
+SteamAppsDir = ..\
+; Used if UseCacheFileSystem = True
+
+UserName = Unleashed
+; This will be returned on SteamGetUser.
+
+EmailAddress = Unleashed@owned-steam.org
+; This will be returned on SteamGetCurrentEmailAddress.
+
+Language = english
+; Default language, if none is entered will be english.
+; This entry can be used if the game is multilanguage!
+
+MountOptionalCache = False
+; This will mount optional cache files (Most likely these are low violence gfx)
+
+MountCacheManual = 405
+;With this you can manually mount cache files, but you will need the CacheID to mount optional caches.
+
+CurrentAppId = 400 //Portal
+
+SubscribedSubIds = 0, 503 //Steam, Portal Retail
+"
+,Glibe,2007-10-28T17:10Z,"If you are getting any errors OTHER than the ones above, I doubt that this will fix them. This is a boot fix, nothing else."
+,Kalle-Kabel,2007-10-29T23:12Z,"i had the same problem as you guys, my solved my problem by unpacking Unleasheds .rar files again.
+OPEN THE FILE THAT SAYS .RAR NOT .R00! (that's r-zero-zero)!"
+,Glibe,2007-11-02T04:49Z,"Mejmoon: I'm afraid that this isn't the silver bullet. This is supposed to fix the following:
+
+-MountAppFilesystem() Failed
+If you're still getting this, then you did not replace SteamEmu.ini.
+
+-The game starts up, then crashes.
+You aren't starting the game with Start.bat (double click on it, don't bother with a shortcut) OR you did not put Start.bat in the right place. It NEEDS to be in the same folder as hl2.exe and SteamEmu.ini."
+,Glibe,2007-11-02T04:49Z,"Ah, and your BSOD...that's not my problem, sorry. Not to sound arrogant or anything, it's just that this isn't going to fix that."
+,ruodo,2007-11-03T16:34Z,"Reinstalled the whole thing twice and put everything where you told me to, but still getting the whole blue screen crash thing.  I have start.bat in the same folder as the other two but after playing for about 10 mins it just crashes."
+,Koyangi,2007-11-04T15:55Z,"Whatever, guy. Dunno what they're complain about. Thanks for the easy fix. Enjoying my game. :]"
+,zig553,2007-11-07T03:58Z,"ok ive done everything everyone has told me to do, i replaced the .ini file, i put the batch file in the portal directiory. BUT IT STILL DOES THE SAME DAMN MountAppFilesystem() Failed I HATE IT!! WHAT DO I DO!?!?!"
+,pravoslavnie,2007-11-11T22:49Z,"I have followed these directions and triple checked to make sure everything is in the right folder.  I still get the Valve splash screen and then the source splash screen.  Then, it crashes and goes back to the desktop.  I have un-rar'd everything from the portal unleashed .rar file (not the .r00 file).  I have no idea why this is happening.  Is anyone else seeing this?  Please help."
+,superj358,2007-11-12T15:18Z,"""ok ive done everything everyone has told me to do, i replaced the .ini file, i put the batch file in the portal directiory. BUT IT STILL DOES THE SAME DAMN MountAppFilesystem() Failed I HATE IT!! WHAT DO I DO!?!?!""
+
+
+same here
+
+
+i played for an hour closed the game and the next day it stoped working !!!!!"
+,Frikalika,2007-11-13T21:30Z,i can start the game but when a portal appears it crashes WTF?
+,TheMeatMallet,2007-11-18T04:05Z,ok so ive got everything set up with the portal boot fix and it still wont work. it goes to the loading screen and then back to the desktop after a few seconds every time. does anybody know how to fix this? also it shows an error that says i need directx 8.0 to run it but i have 9.0 so why wouldnt it work?
+,Pyatin,2007-11-18T07:43Z,"This doesn't work well with Vista.  Looks like the boot program is meant for XP.  However, Vista with and ATI card works quite nicely.  nVidia cards can work well too, but there's a codec or specific driver update you need to have for it to work properly.  Not sure which one, but the nVidia's are the ones that are having the most problems. 
+
+This fix works great with: http://thepiratebay.org/tor/3837572/Portal-Unleashed
+
+loder is a bot noob and constantly has glitched crap.  It's what you expect with torrents originating from moviex.   
+
+With the Portal Unleashed program extraced from RAR, Open the folder and remove the 'SteamEmu' and 'hl2' files (DO NOT REMOVE THE 'hl2' FOLDER).  I usually recommend placing them in a separate folder until you're done, and delete them later if all works well.  Go into the Boot Fix folder and copy all the files, and paste them into the Portal folder.  Click the 'Start.bat' file when you want to play the game.
+
+Game plays great.  However, once you finish the game and try to play the advanced rounds, you WILL get an error every time you win an advanced round and the game will need to be restarted.  Glibe might be working on that fix.  Not sure though."
+,Klagnor,2007-11-22T14:39Z,I have the excact same problem as Mejmoon. I have followed all of the instructions here (several times) but when I try to load the game I get the the blurry screen then get a blue screen and reboot :(
+,CriticalDesign,2007-11-25T22:44Z,How come my floor and wall textures are missing?
+,DarkRiegeSen,2007-11-30T07:14Z,"Sadly, the cake is not a lie.... bastards -.-. CriticalDesign, that is because you fucked something up or you have a shitty computer or when you downloaded it something got corrupted. I posted a detailed walkthrough on the Portal Unleashed torrent download. Follow it and the game should work perfectly. It did for me."
+,Camru,2007-12-02T14:25Z,"Nothing works... I don't even get an ERROR....
+I've done everything EXACTLY as it says! I've done it over, and over, and over, and over, again! Read everything! Neewbie guide to advanced... EVERYTHING!! :O"
+,D2666,2007-12-04T12:40Z,"It worked great for me, i got the ""MountAppFilesystem() Failed"" but this fix... well, fixed it!"
+,_Bk,2007-12-23T21:43Z,"Ok, so here's what I did:
+
+1. I downloaded the torrent Portal.Unleashed
+2. I downloaded this torrent
+3. I unRared the files from Portal.Unleashed to ""E:\Program Files\Portal
+4. I created a shortcut and added -steam -game portal
+5. I added the files from this torrent
+6. I started the game from the file: Start.bat
+7. Still the same damn error!!!"
+,Zawa92,2007-12-26T23:31Z,Nice!!!
+,keijot,2007-12-30T22:00Z,"everything is it should be, but still getting the error ""MountAppFilesystem() Failed""
+i once played this trough and now im getting that error.... :/ didnt fix it"
+,Scray,2008-01-11T02:27Z,"You idiots who are getting the MountAppFilesystem() error have your .gcf files in the wrong place.  DO NOT PUT THEM WITH THE OTHER .GCF FILES.  Instead, put them right outside the portal folder.  You do not need to place these files and folders in the Program Files, but the .gcf files need to be outside the portal folder for it to start.
+
+Nice torrent.  Plays the game fine, but the visual effects are stuck at low quality and when an achievement is completed, the game can no longer be used and it crashes every time loaded after that.  Worth it to buy, but this isn't bad to download and test out.  Thanks for the file!"
+,Papa_Midnite,2008-01-20T07:10Z,"Works fine.
+
+Dl'ed the original torrent and unpacked.
+
+Dl'ed this fix, applied the 2 fixes as per included instructions, then ran the bat file.
+
+Just follow instructions, simple as that. "
+,MarlinspikeSailor,2008-01-27T04:48Z,"So, I've tried three different Portal torrents, and none of them have worked, and I've gotten the same result from all of them.
+
+Whether I'm clicking on start.bat, hl2.exe, a shortcut on the desktop, or launching it from the command prompt, the same thing happens. Absolutely nothing. With slight variations.
+
+When launching in command prompt, I got a ""launching game..."" and nothing else.
+
+In one of the cases where I launched some bat file, a command prompt would open and close in a second.
+
+I'm stumped.
+
+Any advice, guys?"
+,neobadandy,2008-02-21T11:04Z,"**********************
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**********************
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**********************
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+the trick is changing the line
+MountCacheManual = 405
+
+cuz in mine it said a different number, who knows why. not me, but it worked.
+
+**********************
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**********************
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**********************
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+,Inter4ction,2008-02-22T11:20Z,"What The Fuck Should i do. i Dl Portal Unleshd, Portal Fix Unleashd and this and aint working so wtf should i do ???"
+,mrman2787,2008-02-24T01:27Z,Works great thanks! GJ!
+,Demosthenes1443,2008-03-03T02:20Z,"It's telling me i need directx 8.0 or higher...
+i have directx 9 and directx 8.1
+can anyone tell me what's going on?"
+,TolSatha,2008-03-08T21:54Z,"I did completely everything and i still get the ""MountAppFilesystem() failed"" error. i checked my SteamEmu.ini. what the hell am i supose to do?????"
+,GolemdX,2008-03-21T14:12Z,"I have it working! Well, I think everything but the textures are working... When I look around, it leaves traces (or smudges), like when you drag a window across a non-responing program in Windows XP...
+
+I can't explain but textures are not appearing."
+,1bigoliviste,2008-03-27T06:55Z,seed please
+,druss666uk,2008-04-01T12:15Z,"Great fix, works great."
+,ZhangKhaiEn,2008-05-07T03:06Z,"fix worked perfectly, thanks"
+,RoUgHEdUpTeMpLaR,2008-05-07T08:48Z,"====
+Error
+====
+""MountAppFilesystem() failed""
+
+======
+THE FIX
+======
+Moved the .gcf files inside the portal directory, then changing ""SteamAppsDir = ..\"" to ""SteamAppsDir = .\"" in SteamEmu.ini 
+
+And 
+
+Changed ""MountCacheManual = 405"" also in SteamEmu.ini "
+,AsianBorat,2008-05-26T03:22Z,"I didn't even need to click on the batch file!
+
+Despite the fact that the background menu and pictures are half-life 2 ones for some reason, thanks a lot :D"
+,DarthClide,2008-07-16T21:26Z,"thank you so much, even if the levels themselves don't work I am glad the game got past the ""MountAppFilesystem() failed""
+the post by RoUgHEdUpTeMpLaR helped me."
+,johnsonp,2008-07-18T23:20Z,"for anyone having problems with the game crashing on launch.try this,this works on the modified shortcut
+hl2.exe -steam -game portal
+
+make it look like
+K:\temp\portal\hl2.exe -steam -game portal -dxlevel 81
+
+obviously the first bit will depend where you extracted it to,.
+all this is doing is forcing the game to run directx 8.1.  this has worke don three seperate machines for me.im not much of a gamer so never expected portal to run at all, but so far no probs, at least it works.
+
+"
+,guitarherohero10,2009-01-28T20:16Z,yay it works fine now thnx
+,slizerone,2009-02-02T22:38Z,"Can it be, that if you're running Vista it will crash no matter how proper your intallation skills are?
+
+Couse I worked out all the glitches, and in the beginning the game seems to start, but than my screens start to flicker, and the app. crashes.
+
+Anyone with the same problem? or even better... a solution?
+
+
+Cheers"
+,neox987,2011-07-02T13:05Z,THX a lot :)

@@ -1,0 +1,26 @@
+﻿User Type,Username,Date,Text
+,wankan,2007-11-15T18:13Z,"Bummer , can't get the vp7 codec to work . Bloody thing times out after 10 days anyway according to the instructions . Anyone have an unlock code ?"
+,snashuk,2007-11-15T21:00Z,"This is a waste of bandwith, just installed the vp7 codec and it does not play back."
+,wankan,2007-11-15T21:09Z,"I've only downloaded the sample for film 3 and film 3 itself . I can't get video (get audio) even though the VP7 codec is installed okay . The sample is 0:1:01 minutes long and the film is 7:49:39 ie over 7 hours long according to Vlc . 
+Me thinks something may not be right here :-(((
+Any comments marckos ?"
+,wankan,2007-11-15T21:39Z,"Video parses into Virtualdubmod okay . Can't get sound now though :-)
+Giving up ."
+,wankan,2007-11-15T22:04Z,AlltoAvi at http://sourceforge.net/projects/alltoavi will convert this film to a normal xvid mp3 video . I just converted the sample I have and I have audio and video now .
+,wankan,2007-11-15T23:49Z,"The sample converted okay to xvid but the whole film for JP3 didn't at all .
+
+A lemon .
+Totally giving up . "
+,marckos,2007-11-16T05:38Z,"I muxed the files with mkvmerge and took off sample with the VirtualDubMod.
+
+The container in the truth is the Matroska with the extension .avi. The container AVI (Audio Video Interleave) is incompatible with the AAC codec?  for the correct visualization of the videos i recommend to install K-Lite Codec pack: http://www.free-codecs.com/download/K_Lite_Codec_Pack.htm"
+,wankan,2007-11-16T12:21Z,"Thanks marckos , got JP3 working now using the full codec pack . What a palavar . Thanks again ."
+,wankan,2007-11-16T13:25Z,"A note to others , Vlc (Videolan client) won't play VP7 files . WMP will though ."
+,wankan,2007-11-16T21:20Z,"A further note to others regarding JP3 .
+
+THE AUDIO GOES OUT OF SYNCH AT 1:06:05
+
+I'm deleting my copy .
+"
+,Zetareticuli,2008-03-07T18:41Z,"Yeah, I just watched an hour and ten minutes and the movie's almost over, but I can't bear to watch it when the audio is out of sync. On another negative note, the captures are embedded in the video and can't be disabled. Very annoying to see portuguese at the bottom of the screen the whole time. I don't recommend these copies."
+,onett_home,2012-05-09T20:11Z,BONERS

@@ -1,0 +1,41 @@
+These are the files needed to run the game Curse of Monkey Island with ScummVM.
+
+You also need some cutscene sound files (~6.6MBbs):
+http://thepiratebay.org/torrent/3925152/comi-cutscene-mp3s
+
+For those of you who don't know what ScummVM is (I was one of them!), It's a free program to run the game using it's data files.
+
+Here's an extract from their website:
+
+ScummVM is a program which allows you to run certain classic graphical
+point-and-click adventure games, provided you already have their data
+files. The clever part about this: ScummVM just replaces the
+executables shipped with the game, allowing you to play them on
+systems for which they were never designed!
+
+Some of the adventures ScummVM supports include Adventure Soft's Simon
+the Sorcerer 1 and 2; Revolution's Beneath A Steel Sky, Broken Sword 1
+and Broken Sword 2; Flight of the Amazon Queen; Wyrmkeep's Inherit the
+Earth; Coktel Vision's Gobliiins; Westwood Studios' The Legend of
+Kyrandia and games based on LucasArts' SCUMM (Script Creation Utility
+for Maniac Mansion) system such as Monkey Island, Day of the Tentacle,
+Sam and Max and more. You can find a thorough list with details on
+which games are supported and how well on the compatibility
+page. ScummVM is continually improving, so check back often.
+
+Among the systems on which you can play those games are Windows,
+Linux, Mac OS X, Dreamcast, PocketPC, PalmOS, AmigaOS, BeOS, OS/2,
+PSP, PS2, SymbianOS/EPOC and many more.
+
+
+...so this zip file has all the files required. I also compressed the *.bun and *.san files using scumm-tools; this version is a fraction of the original size.
+http://wiki.scummvm.org/index.php/The_Curse_of_Monkey_Island
+
+You can get scummvm here (~2.5 mb download)
+http://www.scummvm.org/downloads.php
+
+To get scummvm for Ubuntu Linux users:
+sudo apt-get install scummvm
+
+To run the game using scummvm, run scummvm and click "Add Game...".
+Then choose the directory "comi" where you extracted this zip file.

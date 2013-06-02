@@ -1,0 +1,97 @@
+__________________________________________
+
+__
+
+INFO: 
+Files: 1
+compression - SFX
+________________________
+
+UPLOAD........:: R2LoL
+
+_____________________________________________________
+
+
+Media Stealth, Disc-Jitter,Xbox 360 backup firmware modification!
+
+
+Features
+-----------------
+
+(v1.1)  Extra compatability for some DVD movies
+(v1.0)  Defeats all current Xbox Live detection attempts
+(v1.0)	Boots ONLY Stealth Xtreme Xbox 360 backups
+(v1.0)	Boots ONLY Stealth Xtreme Xbox 1 backups
+(v1.0)	Boots all Xbox 360 originals
+(v1.0)	Boots all compatible Xbox 1 originals on Xbox 360
+
+Use on Xbox Live at own risk
+
+
+
+****************************************************
+****************************************************
+
+DosFlash and DosFlash32 V1.3 Beta
+-----------------------------------
+- BenQ optimization in unlocking the flash chip, it should now be possible to read/write/erase
+  the flash without any soldering or wire tricks, the drive is polled for the correct mtk
+  unlocking status after power on, this only works for VIA cards and NForce boards atm
+- DosFlash32 has one additional parameter, if you start it with the parameter "EnableDrives"
+  all the DVD-ROMs are enabled in device manager after flashing, this could give BSOD on some
+  systems, therefor you need to create a DosFlash32 link and add that parameter manual to use it
+- DosFlash16 has one additional parameter "Send ATAPI Device Reset" in manual mode, this could
+  give better chances for soft flashing on some VIA - motherboard combinations
+- better support of Intel chipsets, drives can now be flashed if the controller is not set to
+  native mode in the BIOS
+- the following controller list includes vendor and device IDs that are hardcoded to identify
+  the controller type (IDE or SATA), this is needed if the BIOS uses IDE ports like 0x01F0 or
+  0x0170 as SATA and not as IDE channels, this list is NOT related to soft flashing
+- the following chipset support is added
+  - VIA cards
+    - all VIA cards with a 6420 chipset
+  - IDE Controllers
+    - NVIDIA nForce 2 IDE Controller
+    - NVIDIA nForce 4 IDE Controller
+    - Intel ICH9
+    - Intel ICH (i810,i815,i840)
+    - Intel ICH0
+    - Intel ICH2M
+    - Intel ICH2 (i810E2,i845,850,860)
+    - Intel C-ICH (i810E2)
+    - Intel ICH3M
+    - Intel ICH3 (E7500/1)
+    - Intel ICH4 (i845GV,i845E,i852,i855)
+    - Intel ICH5
+    - Intel ESB (855GME/875P + 6300ESB)
+    - Intel ICH6 (and 6) (i915)
+    - Intel ICH7/7-R (i945, i975)
+    - Intel PIIX3 for the 430HX etc
+    - Intel PIIX4
+    - Intel PIIX4 for the 430TX/440BX/MX chipset
+    - Intel PIIX
+  - SATA Controllers
+    - NVIDIA nForce 4 SATA Controller
+    - NVIDIA nForce 2 SATA Controller
+    - NVIDIA nForce 3 SATA Controller
+    - NVIDIA nForce MCP04 SATA Controller
+    - NVIDIA nForce MCP51 SATA Controller
+    - NVIDIA nForce MCP55 SATA Controller
+    - NVIDIA nForce MCP61 SATA Controller
+    - Intel 82801EB (ICH5)
+    - Intel 6300ESB (ICH5)
+    - Intel 82801FB/FW (ICH6/ICH6W)
+    - Intel 82801FR/FRW (ICH6R/ICH6RW)
+    - Intel 82801FBM ICH6M
+    - Intel Enterprise Southbridge 2 (631xESB/632xESB)
+    - Intel 82801GB/GR/GH (ICH7, identical to ICH6)
+    - Intel 2801GBM/GHM (ICH7M, identical to ICH6M)
+    - Intel SATA Controller IDE (ICH8)
+    - Intel Mobile SATA Controller IDE (ICH8M)
+    - Intel SATA Controller IDE (ICH9)
+    - Intel SATA Controller IDE (ICH9M)
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+
+Download = SeeD ! ! !

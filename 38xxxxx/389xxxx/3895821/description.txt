@@ -1,0 +1,27 @@
+Instructions for hacking/bypass Leopard Install Disk for installation on unspported mac
+
+Links >
+ 
+http://blog.kupferman.net/
+ 
+http://www.macosxhints.com/article.php?story=20071026083746346
+ 
+http://forums.macrumors.com/showthread.php?t=371302
+
+
+The zipped OSInstall.mpkg file is basically hacked/bypassed
+
+
+All you need to do is go to /Volumes/XXX/System/Installation/Packages
+
+and replace the \"OSInstall.mpkg\".
+
+
+** Where XXX is the name of your External HD or Image Disk of your Leopard Mac OSX 
+Install Disk.
+
+** It apply to SL DVD or Full DL DVD.
+
+
+Note: For Best min performance, use min 512mb of ram / G3 mac totally not supported.
+

@@ -1,0 +1,19 @@
+30/10/2007 - Transformers SE.m4v
+
+Transformers SE DVD Rip
+
+container:	.m4v/MPEG-4
+file size:	1.94 GB
+duration:	2:23:19
+anamorphic:	716x358 -> 848x358
+AVC video:	x264 @ 1850 kbps
+AAC audio:	faac @  160 kbps
+subtitles:	NONE
+chapters:	YES
+
+DETAILS:
+Two rips were made using Handbrake: both set to fit within 1.94GB, a Matroska/.mkv and an MPEG-4/.m4v. The .mkv has DD5.1/ac3 audio at 448 kbps; this .m4v has AAC stereo audio at 160 kbps. The surround capabilities are noteworthy, but not always at the expense of video quality (the MP4 has more room for video). Chapters markers are included in both, but the .mkv may contain incorrect data; neither contain subtitles of any kind.
+
+For PS3/360 playback use the MP4 and change the file ext to .mp4; they are not compatible with the .m4v extension. Also, chapters are hit or miss on these devices.
+Quicktime (including iTunes and AppleTV, iPhone and iPod touch) should play the .m4v file flawlessly.
+MPlayer, VLC, etc. should all handle the file without issue.

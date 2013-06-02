@@ -1,0 +1,40 @@
+﻿User Type,Username,Date,Text
+,cybercitizen,2007-12-27T19:52Z,Obrigado wiltonramon!
+,cybercitizen,2007-12-28T11:32Z,"Ow cuidado ae gente. Tentei installar esse Office, mas quando ele ta metade installado, ele pede ""O CD do Windows Office 2003 Professional"". E a unica alternativa eh cancelar a instalação."
+,LMaster,2008-07-06T05:47Z,"mto bom cara!
+
+vlw wiltonramon pelo torrent
+
+aki funfou 100%, no neura...
+
+jah baxei e toh usando blz...
+
+[]'s
+
+seed, seed & seed: don't you ever forget!"
+,felizini,2008-07-21T16:10Z,"NUKED
+
+Está faltando:
+
+- FrontPage 2003 
+- OneNote 2003
+- Visualizador do PowerPoint 2003
+"
+,demondras,2008-08-14T18:23Z,vlw pelo torrent kra
+,Spawn_666,2008-08-29T05:08Z,"Muito bom, funcionou perfeitamente!
+
+cybercitizen, caso tenha gravado os arquivos em uma midia, copie os arquivos de instalação para seu HD e tente instalar normalmente."
+,bicada,2008-10-02T22:45Z,"eu tive o msm pro do 'cybercitizen', no meio da instalaçao pediu o cd da versao pro... mas ai descobri q tem o instalador pro dentro da img ae q o cara fez... pra o autorun ler o instalador da versao pro assim q vc colocar p instalar pelo cd eh so alterar o 'autorun.inf'
+
+paga oq tem nele e bota isso:
+
+[autorun]
+OPEN=INSTALAR.EXE /AUTORUN
+ICON=INSTALAR.EXE,1
+
+shell\configure=&Configurar...
+shell\configure\command=PRO11.MSI
+
+shell\install=&Instalar...
+shell\install\command=PRO11.MSI"
+,flaviofrancofilho,2008-10-22T21:52Z,"Nossa, no meio da instalação pede um monte de arquivos .gif, está incompleto esse pacote!!!!"

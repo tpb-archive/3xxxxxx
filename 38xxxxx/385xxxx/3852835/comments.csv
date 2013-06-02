@@ -1,0 +1,151 @@
+﻿User Type,Username,Date,Text
+,DogNo7,2007-10-22T02:55Z,"Also included are compression utilities for rar, tar, sit, hqx files, etc., Adaptec Toast, Norton Utilities, and even though you currently can't use them on a PC, basic network utilities like fetch for ftp, and macping for, well, pinging.
+
+Hope this helps.
+
+-DogNo7"
+,DogNo7,2007-10-22T19:13Z,"No I couldn't have.
+
+ISO's do not retain the resource forks that Macintoshes use in their HFS file system.  That is why it is .nrg.
+
+In any case, most Macintosh users use Toast, and the latest version of Toast for OS X recognises .nrg's.
+
+-DogNo7"
+,DogNo7,2007-10-23T00:24Z,"I did not know that.
+
+I was working on experiential information, and when I tried to convert to .iso from .nrg, and then mount the image with Daemon tools, and then [phew] run Softmac, with the Daemon Tools virtual SCSI cdrom drive mounted on one of the Softmac Quadra SCSI lun's, the resource forks disappeared.
+
+I try to test things before I upload them, and since I did not know if the problem was from Daemon tools, or UltraISO, or from Daemon tools connecting through to Softmac, I did not know.  [FYI:  The iso I created ended up looking like an audio track in SoftMac.  Not good!]
+
+I knew that the .nrg file had the forks, and so I aired on the side of caution.  If I had my Performa where I could get to it, I would have burned the iso and tried it on a real Mac, but alas, it is in storage bliss.
+
+-DogNo7"
+,godzil,2007-10-23T20:23Z,"You should never mount your ISO like this, and SoftMac is a very old and buggy product. If you want a real mac emulator, you should try BasiliskII, it's really better than SoftMac, and you didn't have to do tricks like using daemon and others nasty this to mount your iso, juste tell Basilisk that you want to use the ""iso"" file as a CD-ROM.
+
+By the way a (real) ISO file is a byte per byte copy of a CD-ROM so it's totaly independant of the filesystem used on it or anything ""nasty"" that you can find on a cdrom (that's why some nasty game protection aren't copied with an ISO)"
+,godzil,2007-10-23T20:24Z,"(but anyway, thanks for the torrent ^^)"
+,DogNo7,2007-10-23T22:14Z,"Thanks for the info.
+
+I will give Basilisk a try.
+
+All of this ended up being the result of dinking around with the Mac on a Stick project, and deciding, well, if I am going to emulate something, can't I emulate something a little more useful, like a 68040 or Power PC, with a bigger screen, and more software?
+
+I am trying to find old legacy Mac software, but have not found anything of note on the PirateBay that is analogous of the Dos Games archive on the PC, or something that has some software for the classic MacOS on a 68K style processor.
+
+An old copy of a Word Processing program, and some programming utilities/languages for the Mac would be nice...
+
+In any case, thanks for the info.  Maybe some day, I will find an emulator that can support networking as well, as I have found that networks are kind of useful in this day and age.
+
+Darek says the new version of Softmac, when it ever comes out, will support MacOS 8.5 and 9, but I am not holding my breath.
+
+-DogNo7"
+,unrar,2007-10-24T21:53Z,"how am i supposed to get this to work? i used isobuster to extract the contents, but none of the img files or the smi files will mount on a mac file system. sheepshaver has no option to boot from an image, and none of the burning programs i have tried will work on these files. do i have to use nero to burn this .nrg first? i wouldn't think so..."
+,unrar,2007-10-24T23:09Z,"i have tried:
+
+on an ibook g3
+
+1-extracting the .nrg file using nrg2iso then trying to use the images inside. they fail to mount with the reason ""not recognized""
+2-burning the resulting iso with disk utility. Unable to burn with same error.
+
+on a windows pc:
+
+3-burning the .nrg with nero and imgburn, then moving the disc to the mac. it really does not this disc. os x slows down to an almost standstill while reading, but it does read. same problem as #1. images fail to mount with the error ""not recognized""
+4-extracting the .nrg using isobuster, then moving the files to a flash usb then moving the files to the mac. same problem.
+
+thank you for the upload, but unless someone can figure this out, this torrent isn't worth downloading."
+,DogNo7,2007-10-25T04:01Z,"Umm, read all the comments above yours, unrar.
+
+You can burn this with Nero on a PC and use the disk from a Mac.  Apparently, according to other people, you  can convert it to .iso.  Also, as I have said previously in the comments, the current versions of Toast for the Mac support reading and burning Nero .nrg files.
+
+The .nrg in the torrent has been verified to work.  One or two utilities are for powermac, but all the Operating Systems and the majority of the utilities are for 680x0 Macs, but will run on PowerMacs as well.
+
+Don't know what the issue would be under MacOS X, as I don't have it.  Since the disk image is mainly files, I can't see why you would have slow reads trying to pull files from a disk burned from this image, unless you were having cdrom problems.
+
+My recommendation would be to try other CDROM media, as that is the only thing I can think of that would cause the behaviour you are describing.
+
+The only other cause I can think of is a corrupt file.  If you want to check the md5 hash of the file, the md5 hash on my side is:  b3265bb6ede0cf660ea58642a5e250fe
+
+Good luck.
+
+-DogNo7"
+,unrar,2007-10-25T07:23Z,"well, i can see all the files just fine. i need a disk image for the os 8.1 installer. this is my purpose for downloading, since there are no other sources for that os on torrent as far as i know. i need this disc to restore a bunch of powerbook g3 wallstreets which i recently inherited. i can't seem to get them to boot from anything else, and that was the os that was shipped with the system. my cd rom is fine, and as i stated above, i also extracted all of the files on the image using isobuster then transferred the raw files to the mac as well. i see a bunch of .img files and a bunch of .sea and a bunch of .smi files. mixed in there somewhere are the files labled ""Mac OS 8.5 Install.img"" and ""Mac OS 8.img"". But there is no end to the errors i get when trying to use these files. from my understanding the os 8 installers should be distributed as cd images such as .dmg, .img, .iso, .nrg, etc. the os 7 installers where probably floppies. i don't care for os 7. i want os 8.1 as a cd image. there is no end to my sadness. i have been trying to fix these damn things for over 2 months now, all of them doa with the blinking ""?""  disk. all of the hard drives are obsolete or dead, and all of them have already been formatted. as far as the system restore discs, i don't have any. i used the ibook to install os 9 and os 10 to the tagret hard drive, and swapped the drive back into the wallstreet. now i get the happy mac at boot, but then it goes right back to the flashing question mark. i know about formatting the drive, making the first partition less than 8 gigs. i am at my wits end with these machines."
+,unrar,2007-10-25T07:26Z,"hey, uploader....
+
+do you have a .dmg or .iso of the of the os 8.1 installer? one that mounts and burns within os x?"
+,rockland2,2007-10-25T11:14Z,"If any of u Mac familiar friends out there could help me I'd be for ever grateful! Here's my query; I have a PowerBook G4 in which the hard drive was removed, I went to Fry's and got a 80 gig hd, and since I have no rescue disc or such, I ""torrented"" the Mac OS, but I cant get the machine to recognize it. Just that crappy, happy, question mark! Help! What2Do?"
+,unrar,2007-10-25T19:47Z,"ok, i found my solution. the wallstreet will boot from os 8.5. installed 8.5, then installed 9.2.1. updated to 9.2.2, and now i'm going to use xpostfacto to upgrade to 10.3. i already have 10.3 on  the wallstreet's hard drive, but every time i use the startup disk in os 9 to try to boot it, i have to re-install os 8 and do it all over again because it gets stuck in a loop. happy mac, then reboot.
+
+rockland2, the restore discs for the powerbook G4 use os x 10.2. what os did you get? i would try 10.4. i have used it to restore many ibook's/powerbooks. also, make sure to hold down the ""c"" key at the startup chime until you see the grey apple screen. you probably already knew that, but just covering all the bases."
+,rockland2,2007-10-26T11:37Z,"I'm not sure what operating system the powerbook had originally, it was given to me with the hope that I could restore it. I did have the restore discs, but when I used them I had an error that went along the lines that I had to have the previous operating system installed first before the machine would upgrade to the discs that I had, so I got the previous versions discs and when I went to install, I got an error message that went along the lines that a newer version had already been installed, and that I couldn't downgrade! I'm assuming that enough of the ""Panther"" ""Lion"" or ""Tiger"" whatever it was had put its imprint on the hard drive to make it reject a downgrade. So I stuffed the thing in the closet and forgot about it. Well, the original owner is back in town, I have no idea where the discs are, I moved twice, so here I am stuck! So what your saying is all I have to do is download version 10.3, burn it to a disc, pop it in the machine, restart it whilst I hold the ""C"" button down and the the machine will start the restore process? Sounds too simple, this thing doesn't seem to like me! I'm used to working with Windows, this is the first Mac I've worked with, and it's like trying to learn Japanese! All the keystrokes, the ejection of the cd, everything is different! I'll look for a torrent of 10.3 or higher and give it a try, thanks so much for your help!"
+,rockland2,2007-10-26T11:40Z,"Oop's, I meant ""download version 10.4"" not 10.3, I must seem like a real idiot now!"
+,Samedi610,2007-10-28T05:25Z,"can u plz seed?
+i really need this shit
+o and heres a good link 4 a good classic game
+http://thepiratebay.org/tor/3463187/Unreal_Tournament_OS_X"
+,unrar,2007-10-28T06:42Z,"i never got these images to work. still unsure about how to use these. how did the 10.4 work, rockland? should work like a charm. =-)"
+,zaron5551,2007-11-02T18:31Z,please seed
+,refeft,2007-11-03T23:15Z,System 7.1 isn't on this image?
+,analman1,2008-11-08T19:54Z,Is this image bootable from a Quadra?
+,bobsobol,2008-12-24T11:55Z,"Err... Okay, I've not got thru all the comments left here, I'm looking forward to this d/l... thanks for posting.
+
+I have Basalisk II set up on Vista, but I'm using 0.9 more than 1.0 because of the SDL modes problems on some newer cards (like mine) I've seen this ""black screen"" problem posted by Vista, Red Hat and Ubuntu users... so it's not just me.
+
+iso files SHOULD be iso9660 format, which doesn't support resource forks, or long file names for that matter... but as most of us have used iso files which have long file names, I'm sure you will realise that the file gets bastardised a lot.
+
+The other popular format is the .cue .bin file combination... this was popular for games for a while, as many stored multiple tracks on the disc, so they could play music strait from CD while the game is running or just as a mild copy-protection... this too is a basterdisation, as .bin & .cue should be used for CDDA discs... but it works.
+
+If you dd from \dev\cd0 (in GNU *nix) to a file and call it mydisc.iso you will have a direct image of the CD, regardless of what filesystem or form of data is on it... and this (essentially) is what most .iso files are.
+
+You can mount it with Deamon Tools or Alchohol or whatever.
+
+It would be more appropriate to call it .ima or .img but such files are more commonly floppy or hard disk images... so the extension is ambiguous. You could call it .bin as a .bin without a .cue as there is only 1 track, but .bin files are usually MacBinary in the Mac world... so this too becomes ambiguous.
+
+.nrg files are nero proprietary however, and much harder to use if you are emulating classic 680x0 macs on linux or such.
+
+BTW, Basalisk connects to the internet beautifully, so there's no problems there.
+
+I have some versions of Word, Excel, Claris Works and such that I found floating around the web, but most are not generic English versions (French or German language only)... I'm looking to translate them, and possibly allow patching to other languages... mostly it's just a matter of ResEditing the programs.
+
+Remember that Corel released Word Perfect 3.5 Mac as freeware, which is awesome news.
+
+The mac section of Home of the Underdogs is still available, but they lost the domain name mac.underdogs or what-ever, so you need to find the server IP... there are many abandoned 680x0 Mac games there.
+
+Again, thanks DogNo7. Hope some of the info here is helpful to you, and others using your upload. ;)"
+,bobsobol,2008-12-29T10:25Z,"Right... so having utterly ripped this image to bits, I can say a number of things about it.
+
+1) Nice collection of bits, many I've not seen ANYWHERE else.
+2) Very hard to use... Insert the disk in a 680x0 Mac and it asks you if you want to format it or eject it... Not sure what that's all about. Best solution so far has been to:-
+  a) mount the NRG in Daemon on a PC
+  b) rip an ISO from it
+  c) mount the iso file as a 650Meg floppy in Basalisk
+This preserves the HFS resource forks all right, but destroys the file names, turning them into DOS 8.3 names... funny as Vista gets the correct Mac names. *sigh*
+3) Good luck booting it on *ANYTHING* anaman1. No it's not a boot disk, it's just a collection of installers and disk images in many and varied formats.
+4) Most of it works on 68k Macs, but some of it is PPC only. (boo hiss)
+5) Some of these files (Mac OS 8.5.img, Timbucktu Pro 5.0 CD.smi etc) I cannot get to work no matter what I do with them, the Mac just insists they are corrupted.
+6) The desktop file defiantly needs refreshing, many icons are broke.
+
+Things tried. I've burned this NRG, converted it to iso, mounted it and inserted it in Macs and PeeCees alike with MacOS 7.0.0-8.1 and Windows NT4 to Vista x64... run it through hfv explorer in almost every incarnation I can think of (to no avail at all), run it into emulated macs, run the files through type/creator changers, resource editors, hex editors on Mac and WinBlows, moved around and renamed (corrupted 8.3 named) files.
+
+What I've got to work I've put on a safe HFS (not HFS+ or MacHybrid {hfs/hfs+ and ISO} filesystem) that can be read by any Mac from System 6-Leopard, along with various Mac based tools I found I needed to work with them. I've changed Disk Copy images to Self-Mounting Images so they don't need any particular Disk Copy version to work... when I'm ABSOLUTLY convinced I've got everything I can to work, I will redistribute the collection as either a .iso or a .smi.hqx (self-mounter)
+
+What I have not yet tried... is moving resources from the HFS image to the correctly named but resourceless Joliet catalogue. Reading the disc in a newer OS X (PPC or Intel) Mac, since my MacMini(iNTEL) was in repair which is what sent me on this Mac Emulation quest in the first place. (I skipped PPC Macs)
+
+My suspicion is that this disc image was created with some (slightly odd) MacHybrid file system, using ISO names (8.3) for the hfs portion, and Joliet (256 character) names in platform independent (no resource forks) catalogue. I'm sure that somewhere out there, there is a system extender which DogNo7 has in his Classic Mac which enables it to use Joliet names with hfs file systems on CDs... But I don't have it, and I can't make it work CORRECTLY without this. Possibly this is normal for OS X Macs, I'm not sure, as I don't usually move OS X stuff to CD / DVD till it's in a DMG and I know the resources are safe.
+
+Please respond here if you have any other suggestions as to how I should make my ""EZ"" equivalent of this disk."
+,bobsobol,2008-12-29T20:57Z,"Update: Stuck the disk in an OS X Mac (Tiger) and low and behold, everything was just dandy... made a CDR of the HFS partition on it there, and that mounts fine on the 8.1... many Icons are fixed, but some programs still don't work.
+
+I wish I could have done that sooner."
+,c58,2009-01-08T19:07Z,Seed PLEASE!!!!
+,Bigjake52,2009-08-21T09:07Z," I will try this with my LC575, But I will put a real Mac os 8.0 disk on the net soon , like in a few days"
+,Bigjake52,2009-08-21T09:10Z,"BTW Unrar I am making a Os8 Disk in at about 5insh my time I will post the link to it, I was also looking for mac os 8 its is very hard to find, system 7 just sucks ass I think "
+,DiscoPirate,2010-06-05T01:40Z,"I've been trying to get anything to work on PearPC, but it keeps asking for the second disc, which you can't eject... so I tried a single disc, converted to ISO because it was a DMG... and it wouldn't boot. How do I get pearpc to work? "
+,matchstalkman,2011-02-06T22:23Z,"Thank you for this image.
+
+I started Nero on my PC (Vista), selected 'Burn Image to Disk', inserted a blank CD and set it to burn at the lowest speed (16x in this case).
+
+Stuck the burned disk in my iBook G4 running Tiger (.11) and the files were copied to a CF card for distro over my AppleTalk network via a PB1400.
+
+Lovely icons and the entire copy took about 3 minutes.
+
+Excellent!"

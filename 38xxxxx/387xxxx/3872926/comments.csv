@@ -1,0 +1,1052 @@
+﻿User Type,Username,Date,Text
+,kijulama,2007-11-04T23:15Z,"i'll seeding this torrent as long as possible.... i hope you'll enjoy!
+
+it's pretty heavy,but don't discourage. is worth it!"
+,2funky4u,2007-11-05T17:20Z,so you're seeding?
+,Karsten85,2007-11-05T18:42Z,No seeding? SUX!
+,kijulama,2007-11-05T22:21Z,"i'm seeding as I write this comment
+
+sorry, was out.. with my computer today... and no internet where I was!"
+,Libertius,2007-11-08T07:41Z,"To get the cracks/patches working on leopard (same procedure on both patches):
+
+Copy the patch from the .dmg to your harddrive so they can be modified
+
+Download the latest iPatch (3.7.1) from ipatch.org
+
+Rightclick on patch, choose ""Show package contents"", locate the file ""Contents/MacOS/iPatcher"" (208 K)
+
+Mount iPatch dmg, rightclick iPatch app, choose ""Show package contents""
+
+Locate ""Contents/Resources/iPatcher"" (448 K), rightclick it and choose ""Show package contents""
+
+Locate ""Contents/MacOS/iPatcher"" (212 K)
+
+Replace the file ""iPatcher"" (208 K) in the patch with ""iPatcher"" (212 K)."
+,J0NAZ,2007-11-08T16:35Z,"I have follow all the instructions that ""Libertius"" gave, but this thing does not work for me. Because I keep getting errors when I patching the original files... help please!"
+,BerTorrent,2007-11-11T13:50Z,"Could you just post the crack, please. Thanx."
+,Ruben-mac,2007-11-13T22:21Z,"hey, I downloaded it, but I cant install.
+first I do CIV_iv.cdr and all is fine, but then the updates..... I get a folder, ""Civ IV updates"".
+In that folder are two folders called updat 1 and 2. IN update 1 there is an installer, but when I type in my name and password it says wrong password.... I used the right password... believe me :p Ive been trying to enter it for a long time now.
+
+am I doing something wrong?"
+,vermeer1,2007-11-18T17:57Z,"Libertius  --thanks so much. 
+
+The changes/instructions for worked perfectly.
+"
+,macmaniac1983,2007-11-20T20:24Z,"it always says that there are so many seeders, but my client always says that there are not peers or seeders.  WTF?"
+,Pisventje,2007-11-23T02:36Z,"Hi, I've downloaded the files.. but when I'm try to open the Instructions file I'm getting an error.? Can someone please help me with this..?
+
+THNX!!
+
+Error Message: The file ""instruction.rtf"" can't be opened."
+,Phaedrus3500,2007-11-23T15:23Z,"awesome! thanks Libertius.
+to those who are getting an error message when trying to apply patch, it seems that the patcher might have a problem setting permissions correctly. Try ""Show Package Contents"" on the Civilization executable and setting permissions to Read & Write for all enclosed items. that worked for me, after getting an error message.
+cheers again, Libertius"
+,rizzo41999,2007-11-24T14:07Z,Could you seed please? Thank you. It's a really great game
+,metalbaby,2007-11-26T01:51Z,What about a no cd patch for 1.74?
+,chrissick,2007-11-28T02:12Z,"Anyone give me a little help with this, I've got it installed fine, and all the cracks work after manually changing all the permissions.  However when trying to run Warlords I get no error message but wind up having to force quit, it doesn't want to launch.  For some reason even though I applied all the cracks, I also can't run Civ IV by itself since it seems to require a CD.
+
+All my system requirements meet the minimums, for the recommended I'm a little under the VRAM, but I can't figure out why it refuses to launch.
+
+Any advice?"
+,demodonk08,2007-11-30T16:58Z,"OK I'm using a brand new intel MacBook with leopard and its just not working for me. I've tried Libertius' methods, but when it is patching, it asks for permission changes, where I enter my password, but then comes back with an error. Then I checked all the permissions and they are set to read&write like phaedrus suggested. I'm stumped. PS I'm new to mounting and cracking on Macs, it might be something very obvious... I've tried using all the updates and cracks, I don't know which one to start the game with there are so many... But none seem to work... Any help would be greatly appreciated..."
+,zeyeepeeman,2007-12-02T00:01Z,"I everyone!
+I'm on leopard to an finally, I've made the game work!
+You must do all the ""Libertius part"" in the root part, and then it works.
+Finally!"
+,yaffnc,2007-12-03T21:40Z,"I still can't get the cracks to work.  Whenever I try it says that I can't apply the patch on the Civ4 file.
+
+Any help would be greatly appreciated, thanks."
+,bigfatdinq,2007-12-06T09:48Z,"I'm with segersta!! I get similar problems.  
+
+Error
+
+/Civilization IV/Civilization IV.app/Contents/Info.plist
+/Civilization IV/Civilization IV.app/Contents/MacOS/Civilization IV
+/Civilization IV/Civilization IV.app/Contents/Resources/English.lproj/ASLCore.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/English.lproj/InfoPlist.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/French.lproj/ASLCore.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/French.lproj/InfoPlist.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/German.lproj/ASLCore.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/German.lproj/InfoPlist.strings
+
+ANY HELP WOULD BE GREAT!!!!!!"
+,quilmesone,2007-12-08T11:51Z,"Hi!
+
+Thx Libertius works great for me!!! But what is update 2 for?
+
+I'll try to seed as long much as possible!"
+,elsuperpipe,2007-12-08T18:18Z,"The solution for
+Any solution on this:
+Examining File : /Contents/Info.plist -> SHA1 Error
+Examining File : /Contents/MacOS/Civilization IV -> SHA1 Error
+Examining File : /Contents/Resources/English.lproj/ASLCore.strings -> SHA1 Error
+Examining File : /Contents/Resources/English.lproj/InfoPlist.strings -> SHA1 Error
+Examining File : /Contents/Resources/French.lproj/ASLCore.strings -> SHA1 Error
+Examining File : /Contents/Resources/French.lproj/InfoPlist.strings -> SHA1 Error
+Examining File : /Contents/Resources/German.lproj/ASLCore.strings -> SHA1 Error
+Examining File : /Contents/Resources/German.lproj/InfoPlist.strings -> SHA1 Error
+
+is just change the file permision. "
+,funkpatrol,2007-12-12T23:22Z,"I have the same problem, where the patches ask for permission, then gives the error message elsuperpipe wrote above me.  I went through all of the Civ IV package contents and turned everything I could to ""Read and Write"".  I also put the updated version of iPatcher (212k) into the proper place.
+
+How else do you change file permission other than [file>get info>ownership and permission]?
+
+Also, I'm still on tiger, OS 10.4.11 (fully updated tiger).
+
+Any suggestions guys?  It took 6 days without turning off my computer to download it, and I for sure want to be able to use it."
+,chs76945,2007-12-13T18:47Z,"Can someone just post the cracks?  I've got the Warlorda and Civ IV  games (paid for 'em!), but I desperately want the no-dvd patches...."
+,gameman15,2007-12-16T02:24Z,"To fix the permissions problems you guys are having you need to go to each individual file listed here and manually set it so everyone can read & write
+
+/Civilization IV/Civilization IV.app/Contents/Info.plist
+/Civilization IV/Civilization IV.app/Contents/MacOS/Civilization IV
+/Civilization IV/Civilization IV.app/Contents/Resources/English.lproj/ASLCore.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/English.lproj/InfoPlist.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/French.lproj/ASLCore.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/French.lproj/InfoPlist.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/German.lproj/ASLCore.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/German.lproj/InfoPlist.strings
+
+to get into the contents folder control click on the Civilization IV.app and select ""show package contents"" from the menu that appears"
+,hymerschmidt,2007-12-16T04:56Z,"someone help please. i can't change the ipatcher part in the patch that libertius said to do. i'm not allowed to modify the patch and can't change its permissions. i'm running leopard on an intel mac if that makes a difference... or maybe if someone has gone through these steps successfully and patched theirs on leopard, they could post the created patch?"
+,trenoadfasd,2007-12-16T17:46Z,"The crack just doesn't work for me either I can an amorph iPath window that sits around and does nothing.
+
+I'm on Leopard / Case-sensitive hfs, that might be the issue."
+,polyglot,2007-12-17T17:14Z,"Got the thing to work on 10.5.1 .. finally. The hitch is the patch installers from Firaxis doesn't support Leopard, but a DEV post on their forum states that the package can be run if removed from installer.
+I did change permissions on the Civilization IV install folder using the Info pane making sure to ""Apply to enclosed items"". I am not sure if it had any impact.
+
+Here is the complete list of things I did:
+1. Mount CIV.iv.cdr and drag CIV4 folder to harddisk.
+2. Unpack CIV IV updates.zip
+3. Right click CIV IV updates/Update 1/Civilization IV Installer and choose 'Show Package Contents'
+  3a. Drag Contents/Resources/Civ4.pkg to desktop and run it.
+4. Mount Civilization_IV_1-2.61.dmg and drag Civilization IV Installer to desktop or elsewhere
+  4a.Right click Civilization IV Installer and choose 'Show Package Contents'
+  4b. Drag Contents/Resources/Civ4.pkg to desktop and run it.
+
+Civilization 4 is now fully patched and we move onto installing Warlords:
+
+5. Mount Civilization IV Warlords.dmg and run installer
+  5a. Mount Civ4.Warlords.Crack.dmg and drag Civilization IV Warlords UBCrack to your Civ4 install folder and run it. Remember to 'Select Civilization_App' to make sure it patches the right file.
+
+And presto, Warlords will now launch without CD.
+
+I imagine that vanilla Civ 4 can be made to work by applying the updates and then cracking the .app with the file supplied with the update."
+,itsahotdog,2007-12-19T05:01Z,"ok, i'm about to give up...followed polyglot's instructions hoping this was the thing i needed, seeing as i'm on 10.5.1 as well, but when i'm right at the end installing the warlords crack i get an error (using ipatch 3.7.1).  i thought it was detailed enough but i don't know....i'm about ready to return to civ iii.  anyone please post a very detailed step-by-step process to make it work on 10.5.1.  i'm sure i'm not the only one lost out here."
+,cr0wtr0b0t,2007-12-20T00:37Z,"Would it be possible for someone to create a torrent of the patched app files since so many Leopard users are having trouble with the no-disc patches? Either Make a torrent or post a comment with a link to the files somewhere. They are each less than 100 MB.
+
+Thanks."
+,lazlazlaz,2007-12-20T05:08Z,"for those got an error about the no DVD patch, this is what I did.
+
+1) following libertius said to change the ""iPatcher"" file (212k) into the crack patch.
+2) right click the ""Civilization IV"" file or ""Civilization IV Warlords"" inside Warlords folder and get info.
+3) Make sure you have read and write permissions, even you have only one account and you are admin do not mean that you should have that permission right.
+4) try to apply the patch, you may still possible to get error messages, look at the error message that is showing the path of location that fail, use show package method to select that exact location and change the permission.
+5) after you change all permission, the patch should successfully apply!!!
+
+enjoy.
+
+my Mac: MBP, C2D, 10.5.1"
+,itsahotdog,2007-12-20T15:05Z,"yep, figured it out no problem after about a week....first do what liberitus does to tell ya before ya do anything else....go ahead and install the files, stopping at whatever version you want to run the game with.  then run the crack...make sure you are running the correct crack version (check your civ app info to make sure the correct version of the app coincides with your crack version [and if you have any problems opening the crack make sure to open it usin rosetta {found in the info panel}]).  
+
+now it's really all about your read write permissions.  that's the one glitch most people seem to be having.  as lazlazlaz stated, you MUST enable read write for everyone for each file (can't just do it for the folder).  so when ou get that error when you're patching giving you the lists previously stated in this post, follow those paths to the correct files.  yes, do them one by one.  get info on the file, change permissions and set each one to read and write and presto!
+
+if you keep getting errors follow the path that the error tells you to.
+
+(remember to right-click and stuff to get into the package contents)  game works great on my MB 10.5.1"
+,nicooo85,2007-12-21T17:13Z,"It works perfectly for me, thanks a lot. What files can i delete to make some space in my hard drive (excluding the torrent file)?"
+,villagejoker,2007-12-21T17:20Z,"Hey guys thanks for all the advice. 2 Things:
+
+1) I guess the consensus is that you have to change the version of ipatch in the crack to the new version. Its just that I don't have the rewriting privilages to do that. How would I do that on my Mac 10.5.1?
+
+2) Would anyone be so kind as to upload the Leopard crack torrent, or better yet, post a rapidshare link on the forum?
+
+Happy Holidays Mac users!"
+,nicooo85,2007-12-21T20:23Z,"I'm not an expert but I think that in order to work any patch has to rewrite the code of the game (i think that it works more or less like that). If you have not the permission to do so, whatever patch you can find it won't work."
+,brungus,2007-12-30T23:29Z,"i keep getting this error, causes  me to restart. any ideas?
+
+
+
+[Dec 30, 2007 - 17:24:11] Messages while processing 'Resource/Themes/Civ4.thm'
+
+
+
+Error   : Decl - ('Civ4Theme_Common.thm', Ln:401, Col:13) Assignment source propertyId 'SF_CtrlTheme_Civ4_Control_Font_Size3_Italic' not found
+
+Error   : Decl - ('Civ4Theme_Common.thm', Ln:402, Col:13) Assignment source propertyId 'SF_CtrlTheme_Civ4_Control_Font_Size3_BoldItalic' not found
+
+Error   : Decl - ('Civ4Theme_Common.thm', Ln:408, Col:13) Assignment source propertyId 'SF_CtrlTheme_Civ4_Control_Font_Size1_Bold' not found
+
+Error   : Decl - ('Civ4Theme_Window.thm', Ln:3048, Col:9) Assignment source propertyId 'SF_CtrlTheme_Civ4_Control_Font_Size1_Bold' not found"
+,nPx01,2008-01-01T12:18Z,"Installed game and both updates and crack. When i now start the game I get the following error:
+Failed Initializing Python
+Does anyone know how to solve this probem"
+,djw66,2008-01-02T11:15Z,"Everything installed, unpdated and patched perfectly, but the Civ IV app won't launch without a CD. I thought the noCD patch was supposed to take care of that.
+Running OS 10.4.11. Anyway around the need for CD thing?"
+,spideru,2008-01-05T02:17Z,"Hallo guys
+
+I have tried all the solutions showed here, but none of them have worked. I don't know what to say. I have done it just like you guys said point by point. I have an Intel base Imac.
+In God's name why don't you upload some cracks that really works, so us, the guys with two left hands can really download and enjoy the game? Please!"
+,olibinwy,2008-01-05T14:57Z,"Leopard 10.5.1
+  Modellnavn:	MacBook
+  Modellidentifiserer:	MacBook3,1
+  Prosessornavn:	Intel Core 2 Duo
+
+Hi. For those who are having issues after trying the tips on this site I would recomend trying:
+ps: this is only for update 1...
+
+1
+a) Delete all installed files (What you dragged and dropped). Only spare the original downloaded files.
+
+b) Open the torrent again.
+
+c) Recheck existing files.
+
+d) Wait for the torrent to be fully downloaded (if parts are missing)
+
+2
+a) Open ""CIV_iv.cdr""
+
+b) Drag to HD
+
+3
+a) Click on ""Civilization IV"" folder on your HD (where the app is) and open info (type cmd+I). Change all to read and write and choose ""Apply to enclosed items""
+
+b) Unpack ""CIV IV updates.zip""
+
+c) Right click CIV IV updates/Update 1/Civilization IV Installer and choose 'Show Package Contents'
+
+d) Drag Contents/Resources/Civ4.pkg to desktop and run it.
+
+4
+a) Right click ""Civilization IV.app"" and choose 'Show Package Contents'
+
+b) Locate /Civilization IV/Civilization IV.app/Contents/Info.plist
+
+c) Open info and change permission to ""read and write"" for all
+
+d) Repeat step 4c for all the below listed files
+/Civilization IV/Civilization IV.app/Contents/MacOS/Civilization IV
+/Civilization IV/Civilization IV.app/Contents/Resources/English.lproj/ASLCore.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/English.lproj/InfoPlist.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/French.lproj/ASLCore.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/French.lproj/InfoPlist.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/German.lproj/ASLCore.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/German.lproj/InfoPlist.strings
+
+5
+a) Mount CIV IV updates/Update 1/Civ4.v1.61Beta[9022]UBCrack.dmg
+
+b) Drag ""Civilization IV NoDVD & NoCPU.app"" to desktop.
+
+c) Download the latest iPatch (3.7.1) from ipatch.org
+
+d) Rightclick on patch, choose ""Show package contents"", locate the file ""Contents/MacOS/iPatcher"" (208 K)
+
+e) Mount iPatch dmg, rightclick iPatch app, choose ""Show package contents""
+
+f) Locate ""Contents/Resources/iPatcher"" (448 K), rightclick it and choose ""Show package contents""
+
+g) Locate ""Contents/MacOS/iPatcher"" (212 K)
+
+h) Replace the file ""iPatcher"" (208 K) in the patch with ""iPatcher"" (212 K).
+
+i) lunch ""Civilization IV NoDVD & NoCPU.app"" which now is modified for leopard.
+
+j) Pach and play.
+
+(k) if you get an error while patching, repeat step 4c for the items in the error)
+
+Thanks to gameman15, Libertius and polyglot whose Info i have shamelessly ripped..."
+,olibinwy,2008-01-05T15:18Z,"Edit:
+Ps: In theory, if you what to use update 2 you should do the following after step 3:
+
+3
+e) Delete desktop/Civ4.pkg
+
+4
+a) Click on ""Civilization IV"" folder on your HD (where the app is) and open info (type cmd+I). Change all to read and write and choose ""Apply to enclosed items""
+
+b) Mount CIV IV updates/Update 2/Civilization_IV_1-2.61.dmg
+
+c) Drag Civilization IV Installer to desktop or elsewhere
+
+d) Right click Civilization IV Installer and choose 'Show Package Contents'
+
+e) Drag Contents/Resources/Civ4.pkg to desktop and run it.
+
+f) Delete desktop/Civ4.pkg
+
+5
+a) Right click ""Civilization IV.app"" and choose 'Show Package Contents'
+
+b) Locate /Civilization IV/Civilization IV.app/Contents/Info.plist
+
+c) Open info and change permission to ""read and write"" for all
+
+d) Repeat step 4c for all the below listed files
+/Civilization IV/Civilization IV.app/Contents/MacOS/Civilization IV
+/Civilization IV/Civilization IV.app/Contents/Resources/English.lproj/ASLCore.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/English.lproj/InfoPlist.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/French.lproj/ASLCore.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/French.lproj/InfoPlist.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/German.lproj/ASLCore.strings
+/Civilization IV/Civilization IV.app/Contents/Resources/German.lproj/InfoPlist.strings
+
+5
+a) Mount CIV IV updates/Update 2/Civ4.v1.61(9565)UBCrack.dmg
+
+b) Drag ""Civilization IV 1.61 NoCPU & NoDVD.app"" to desktop.
+
+c) Download the latest iPatch (3.7.1) from ipatch.org
+
+d) Rightclick on ""Civilization IV 1.61 NoCPU & NoDVD.app"", choose ""Show package contents"", locate the file ""Contents/MacOS/iPatcher"" (208 K)
+
+e) Mount iPatch dmg, rightclick iPatch app, choose ""Show package contents""
+
+f) Locate ""Contents/Resources/iPatcher"" (448 K), rightclick it and choose ""Show package contents""
+
+g) Locate ""Contents/MacOS/iPatcher"" (212 K)
+
+h) Replace the file ""iPatcher"" (208 K) in the patch with ""iPatcher"" (212 K).
+
+i) lunch ""Civilization IV 1.61 NoCPU & NoDVD.app"" which now is modified for leopard.
+
+j) Pach and play.
+
+(k) if you get an error while patching, repeat step 4c for the items in the error)
+
+l) You can now delete any file that is not in the ""/Civilization IV"" game folder unless you also will install warlords.
+Its probably the same prosedure.
+
+Thanks to gameman15, Libertius and polyglot whose Info i have shamelessly ripped..."
+,olibinwy,2008-01-06T00:07Z,"My apology. I was wrong about the update 2
+You must install it first (and only) if you want to use it, and there is no installer trick. Can be installed from diskimage. You must however change game permission as described.
+
+If you shall install warlords. Just install from disk image. Change the iPacher file in the warlords crack as described. Change permission for Civilization IV Warlords.app/Contents/MacOS
+Civilization IV Warlords.app/Contents/Info.plist
+
+and any other file coming up in the error when patching."
+,Lifestyle91,2008-01-07T19:08Z,"Hey!
+Plz can somebody help me out here??
+I have followed polyglot's and so many others descriptions, but I can not seem to run the game, it keep sayin' ""please insert original disc"".
+I have downloaded the latest ipatch, but do not understand how do run the freakin game ""without a CD""...Please, somebody heelp on this one!!"
+,Lifestyle91,2008-01-07T19:15Z,"How do I patch?
+What am I supposed to put into the two separate squares???"
+,Lifestyle91,2008-01-07T19:16Z,"Oh and I do not have leopard, I have 10.4 or someting"
+,fgtr,2008-01-09T16:23Z,"followed the instructions but fails while patching:
+""You can't apply patch on this file !""
+
+I even tried:
+bash-3.2# chmod -R 777 Civilization\ IV/
+
+but the error prevails.
+
+I'm on a MacBook Pro with Mac OS 10.5.1
+I really wanted to have this working but i can't find anything done wrong since i followed the instruction very carefully."
+,fgtr,2008-01-09T16:27Z,Isn't there any nice guy that made this game work in Leopard that could create a torrent with its folder for normal people do a normal drag and drop and... that's it! play!
+,seedthatweed,2008-01-09T19:10Z,can anyone seed! I am stuck on 60% since two days. Thanks!
+,Solistus,2008-01-17T00:14Z,"This torrent DOES work with Leopard, with just a few minutes of work required to get the no dvd crack working properly.  Yes, Warlords works too!
+
+Big thanks to polyglot and libertius.  I almost skipped this one based on peoples' troubles with installing on Leopard, but combining their advice worked perfectly.  I wrote up my own version of Leopard install instructions, drawing heavily on these two and their excellent advice.  I hope this clears things up a bit for people.  Without further ado, my step-by-step guide:
+
+Installing Civ IV + Warlords on Leopard:
+
+1. Mount CIV.iv.cdr and drag the Civ IV folder to Applications (or wherever) to install.
+
+2. Unzip CIV IV updates.zip.
+
+3. Right click CIV IV updates/Update 1/Civilization IV Installer and choose 'Show Package Contents.'  This will open a new Finder window for the package contents.
+
+4. In this new window, go to Contents/Resources/ and find Civ4.pkg.  Drag it to the desktop (or anywhere else that you'd prefer) and run it.
+
+5. Mount Civ IV updates/Update 2/ Civilization_IV_1-2.61.dmg and drag Civilization IV Installer to the desktop.
+
+6. Show package contents on the Civilization IV Installer (see step 3 if you don't know how).
+
+7. Drag Contents/Resources/Civ4.pkg to the desktop and run it.  It's fine if you overwrite the old Civ4.pkg; we're done with it.
+
+8. Mount Civilization IV Warlords.dmg and run the installer.
+
+9. Mount Civ4.Warlords.Crack.dmg and drag Civilization IV Warlords UBCrack to your Civilization IV folder.
+
+10. Download the latest iPatcher from www.ipatch.org (3.7.1?).  It comes on a .dmg; mount it and copy the app to the desktop to install it.
+
+11. Show package contents for both UBCrack and iPatcher.  Make sure to keep these package content windows straight!  If you forget which is which, you can use the back button on the Finder window to figure it out.
+
+12. Find the file ""Contents/MacOS/iPatcher"" in the UBCrack package contents (it should be 208kb).  This is the 'problem' file that doesn't work in Leopard.  We're about to replace it with the newest version, which does work in Leopard
+
+13. Find the file ""Contents/Resources/iPatcher"" in iPatcher's package contents.  Show package contents again for this file (should be 448 K).  You can close the original iPatcher package contents if you want to avoid confusion.
+
+14. In this new package contents window, find ""Contents/MacOS/iPatcher"" (should be 212 K).  Drag it over to the crack's package contents to overwrite the outdated 208 K version.
+
+15.  Get Info on the Civilization IV directory.  Open the bottom tab (Sharing & Permissions).  You should have to click the lock in the bottom right and enter your system password to be able to change these.  Once you've done this, change the Privilege entry for each group to Read & Write.  Then, click the icon that looks like a gear (left of the lock icon) and choose ""Apply to enclosed items.""  This should resolve any permissions issues.
+
+16. Run the UBCrack.  Make sure that you select the right app (it's in Civilization IV/Warlords).  If you get an error message about permissions, it should tell you the files it's having trouble with.  Find these files in the Finder (they may be within the package contents for another file) and repeat step 15 for each one.
+
+17. Enjoy!  If you've done everything correctly and didn't run into some problem that I didn't have, you should be able to play Warlords without a disc now.  If you do have problems, even if you manage to solve them, please post a comment here so that others can benefit from your knowledge or help you solve the problem."
+,spideru,2008-01-18T00:02Z,It worked perfectly. I'll try to do that again and then seed the cracks working. Many didn't explain the problem correctly and I didn't manage to succed but now it's really ok. Thank you Solistus.
+,TheAmazingRando,2008-01-18T04:28Z,"I'm using dusty old OSX3.9 and every time I try to run either of these cracks on the appropriate application file, it tells me ""You can't apply the Patch on this file!"", with no further explanation of any kind.  Wtf mates?"
+,DanyaRomulus,2008-01-18T14:43Z,"Ok, I ran the UBCrack and it said Warlords was patched successfully, but now when I try to open Warlords it gives me this message:
+
+XML Load Error
+Failed Loading XML file XML\GameInfo/CIV4PlayerOptionInfos.xml.
+
+I'm running Leopard. I'm also brand new to this so I might be doing something totally stupid and wrong-- can anyone help?"
+,garrettmit,2008-01-18T16:42Z,"I'm getting the same error as Damya, it says XML Load Error like he said, but then after I click ok, it brings up another XML load error saying 
+
+LoadXML call failed for Gameinfo/CIV4PlayerOptioninfos.xml.
+Current XML file is:
+
+and thats all, I'm lost here any help would be appreciated!
+
+Thanks"
+,lonestar97,2008-01-25T15:23Z,"Here is how I got it to run, I think this could be very helpful:
+
+I ran into the permissions problem, and was able to get past that hurdle thanks to comments. After installing both updates and Warlords, I still could not play the game (it wanted the CD).
+
+I reasoned that the Warlords update had messed up the copy-protection circumvention from the update 2 crack, so I decided to run the update 2 crack again and it worked!
+
+I have not tried Warlords yet, but I am currently playing a Civ IV game (second turn).  The game is amazing so far.
+
+I am running Tiger (10.4)
+
+Thanks to all who have commented or seeded."
+,lonestar97,2008-01-25T15:24Z,"Oh and because I am running Tiger, I did not mess with iPatch.  So for all you OS X Tiger folks.. don't update iPatch."
+,ralleraaz,2008-01-28T00:19Z,"Hey..
+I have done everything that people says and everything works but after the patch and i try to start the game it says:
+
+XML Load error
+Failed loading XML file Assets//XML/gameinfo/CIV4PlayerOptioninfos.xml.
+
+and when I press ok it says:
+
+XML Error
+loadXML call failed for Gameinfo/CIV4PlayerOPtionINfos.xml
+current file is:
+
+but then it doesn't say anything more all I can do is press ok..
+
+please help me!!!!!"
+,Bergmaster,2008-01-30T18:45Z,"HELP!
+
+What about a no cd patch for 1.74?"
+,Bergmaster,2008-01-30T18:47Z,What about a no cd patch for 1.74?
+,gregthesquare,2008-02-03T19:30Z,"Hi, I've downloaded it okay, but when I try to copy the civ IV folder from the CDR, i get a ""the alias .BC.ho3sWN cannot be copied to the destination, perhaps becuase the destination does not support this type of alias"".  This occurs no matter where I move it.  I have verified and repaired all my permissions and made sure the destination is unlocked.
+
+After copying all the folders individually, I have discovered that this alias is in the Civ IV application.  I looked up the problem, and found a way around it through stuffing the file from the mounted image onto my HD, then unstuffing it.  This allowed me to move it to the appropriate folder.  However, when I try to install the first patch, it says my copy of CIV IV has been installed incorrectly and that I should reinstall.
+
+Thoughts?   Thanks for any help people may be able to offer.
+
+Greg"
+,gregthesquare,2008-02-03T19:32Z,"oh crap, just thought I'd let people know...I'm running OS X 10.4.11 on a 1.42 PowerPC G4, 1 GB Ram."
+,Davedoom,2008-02-18T14:09Z,Can someone tell me if this game is worth downloading?..
+,MACinized,2008-02-22T18:27Z,tnx for the share kijulama but what a waste it has been for me. won't work w/ 10.5.2!
+,Dientologo,2008-02-23T11:47Z,"Thanks for the torrent! Warlords Works great on a Macbook Intel C2D 2.0 GHz 2Gb Ram on Mac OX 10.4.11!
+At minimum resolution though; my kid wanted to play this game soooo bad!
+Just follow the instructions on the download and you'll be fine."
+,wesny,2008-02-24T02:53Z,"Please seed this. for some reason i am getting very slow speeds i have been dowloading for over a week and will seed for a month after downloading
+please!!!!!!!"
+,rabarbraboy,2008-02-24T15:37Z,"This works fine, thanx to solistus great comment, on leopard, mac book pro, i am enjoying the game"
+,quetranza,2008-02-27T20:16Z,"Hey - I got everything to work - iPatcher went through & patched the app just fine.  Now, however, when I run the app, it just quits immediately.  Macbook pro, 10.5.2, etc, etc.  anyone know what the problem is?"
+,Gorillamime,2008-02-28T22:10Z,"whats with the days of downloading?
+can anyone seed, help a nigga out
+
+and will it work with 10.4.11"
+,bigbigswampy,2008-02-29T20:36Z,"I'm running Mac OS 10.5.2 (Leopard) and thanks to the great instructions on here I can get  Warlords going, but I can't run the original Civ IV game - where the in-game tutorial is and I've never played Civ before so I'm kind of desperate to access it.  When I try to run Civ IV, it asks for a cd.  The instructions I followed on the previous page didn't mention what (if anything) to do with the cracks included in the Updates 1&2 folders - but either way, when I've attempted to run them, they crash.  Any ideas?  Thanks a lot - I'm new to all this and any input is appreciated."
+,bigbigswampy,2008-02-29T20:58Z,"Crap, nevermind! - I applied the newer ipatch (as instructed for the Warlords crack) to the Update cracks and now the regular Civ IV works fine. Thanks again for the great instructions."
+,renholder3,2008-03-08T16:28Z,"i followed the instructions of Solistus and now im a happy boy who enjoys Civilization. =P
+thanks!"
+,roma_sholk,2008-03-10T22:56Z,it doesn't work! i've downloaded it like two days ago and followed the instructions (((((((
+,roma_sholk,2008-03-10T23:15Z,guys^ i'm seedin in 500 kb/s! help me please. when i run the crack it tells me : mac os and other applications are not afftcted
+,[[[[djinn]]]],2008-03-12T20:10Z,"USE THIS IF YOUR ARE RUNNING LEOPARD, TIGER SOULD BE OK....if tiger is having the same admin privileges goto step 14.
+
+Here is how you fix patches that are version 3.7!!!!! I found this instructions on the web under doom 3, but it worked for The Sims 2 and Civ IV. It worked for all the ipatches for leopard so far. 
+
+
+1) Download the latest iPatch (3.7.1) from ipatch.org, macupdate, or where ever...
+
+2) Mount iPatch.dmg, copy the ipatch app to your desktop.
+
+3) rightclick iPatch app, choose ""Show package contents""
+
+4) Locate ""Contents/Resources/iPatcher"" (448 kb), rightclick it and choose ""Show 
+    package contents""
+
+5) Locate ""Contents/MacOS/iPatcher"" (212 kb)
+
+6) Drag-drop onto desktop - iPatcher (212 kb)
+
+7) Now Mount the ""ipatch NODVD crack"" or any ipatch that is v.3.7.
+
+8) Copy the ipatch v.3.7 file to desktop
+
+9) Right click -> Show package contents
+
+10) Go from Contents > MacOS you have found the old ipatcher file (208kb)
+
+11) Replace the ipatcher file (208k) with the ipatcher file (212k) from your desktop
+     close all windows.
+
+12) right-click the modified ipatch v.3.7, and make sure the ""run in rosetta"" is   
+     unchecked.
+
+13) run ipatch and enjoy!
+
+
+THIS IS IMPORTANT!!!!!
+
+14) If you are running into problems (you will in sim 2 and civ IV, you must download this to    
+     work!) with admin privileges download Pseudo 1.2.3 at
+http://www.versiontracker.com/dyn/moreinfo/macosx/9608
+
+or any where you can find it. 
+
+Drag-Drop the modified ipatch v.3.7 onto Pseudo(these are the cracks). Pseudo will ask for you password
+
+Press OK and the modified ipatch will self-open.
+
+FYI- The reason we are going thru these steps because the ipatch is v3.7 and is not leopard ready and will require privileges that rosetta will not allow!
+
+
+HINT: if you make a copy of the pulled ipatcher (212 kb). You will always have a quick fix for this problem...
+
+Thanks Blade and villiagejoker and everyone I forgot for this workaround!
+
+Djinn
+
+
+"
+,[[[[djinn]]]],2008-03-12T20:15Z,"BTW...
+
+install per instructions with torrent, then install in this order:
+
+civIV update 1
+civIV update 2 then
+
+crack the normal civIV with ipatch.
+
+enjoy.
+
+if you still have a problem, just repatch should do the trick.
+
+I can verify this works on intel and ppc w/ leo 10.5.2
+"
+,pinger1981,2008-03-18T13:15Z,Is there any Chinese language patch for this game?
+,Pizbo,2008-03-18T22:50Z,"For some reason it will not allow me to ""show folder contents"" on the civ4warlords.ub.crack. can someone please help me?"
+,[[[[djinn]]]],2008-03-19T06:44Z,"Pizbo
+
+I doubled checked to see why it would not allow you to see the ""show package content"". you might need to unlock it. right click>get info, click on the pad lock on the very bottom right corner, enter password, then change all privilege to ""read & write"". then click pad lock again.
+
+I hope this helps.
+
+djinn"
+,[[[[djinn]]]],2008-03-19T06:45Z,"BTW...
+
+make sure you drag the crack to the desktop first"
+,Tomartin,2008-03-25T21:26Z,"I try to copy the new ipatcher file over the old file, but it keeps telling me that ""MAC OS cannot be modified"". 
+I tried downloading Psuedo, but it won't mount for some reason. Suggestions as to what I should do?"
+,Zemran,2008-04-08T07:56Z,"Installed game and both updates and crack. When i now start the game I get the following error:
+Failed Initializing Python
+Does anyone know how to solve this probem
+
+This is normally caused by using a case sensitive file system.  Most games are just ports of the Windows version and fall over on a decent file system.  The game makes a call to Python but does not get the case right in the call, in windows there is no problem but if you have formatted your file system in the case sensitive version the call cannot be recognised.  
+
+There is an error with Warlords where it cannot get the XML file for the same reason.  The only anser is to re-install Leopard with the standard file system."
+,Praveen0403,2008-04-09T12:44Z,could someone pls comment on why the hell the tutorial is missing in warlords.i desperately need it cause i m playing civilization for the first time.i found the tutorial in the manual.pdf but its not a great help.
+,zephirus53221,2008-04-20T12:05Z,"Thank you very much. More seeding would be useful, though. I have hopes of finishing downloading this torrent before the end of the month."
+,Seontehtyjo,2008-04-20T21:02Z,Seed people! SEED...SEED....SEED!!
+,Andyr005,2008-04-20T21:05Z,"This is a repost that works for leopard. Steps 10-16 work for any problem on the CIV package set as well. Make sure You copy and not drag though.
+This torrent DOES work with Leopard, with just a few minutes of work required to get the no dvd crack working properly. Yes, Warlords works too!
+
+Big thanks to polyglot and libertius. I almost skipped this one based on peoples' troubles with installing on Leopard, but combining their advice worked perfectly. I wrote up my own version of Leopard install instructions, drawing heavily on these two and their excellent advice. I hope this clears things up a bit for people. Without further ado, my step-by-step guide:
+
+Installing Civ IV + Warlords on Leopard:
+
+1. Mount CIV.iv.cdr and drag the Civ IV folder to Applications (or wherever) to install.
+
+2. Unzip CIV IV updates.zip.
+
+3. Right click CIV IV updates/Update 1/Civilization IV Installer and choose 'Show Package Contents.' This will open a new Finder window for the package contents.
+
+4. In this new window, go to Contents/Resources/ and find Civ4.pkg. Drag it to the desktop (or anywhere else that you'd prefer) and run it.
+
+5. Mount Civ IV updates/Update 2/ Civilization_IV_1-2.61.dmg and drag Civilization IV Installer to the desktop.
+
+6. Show package contents on the Civilization IV Installer (see step 3 if you don't know how).
+
+7. Drag Contents/Resources/Civ4.pkg to the desktop and run it. It's fine if you overwrite the old Civ4.pkg; we're done with it.
+
+8. Mount Civilization IV Warlords.dmg and run the installer.
+
+9. Mount Civ4.Warlords.Crack.dmg and drag Civilization IV Warlords UBCrack to your Civilization IV folder.
+
+10. Download the latest iPatcher from www.ipatch.org (3.7.1?). It comes on a .dmg; mount it and copy the app to the desktop to install it.
+
+11. Show package contents for both UBCrack and iPatcher. Make sure to keep these package content windows straight! If you forget which is which, you can use the back button on the Finder window to figure it out.
+
+12. Find the file ""Contents/MacOS/iPatcher"" in the UBCrack package contents (it should be 208kb). This is the 'problem' file that doesn't work in Leopard. We're about to replace it with the newest version, which does work in Leopard
+
+13. Find the file ""Contents/Resources/iPatcher"" in iPatcher's package contents. Show package contents again for this file (should be 448 K). You can close the original iPatcher package contents if you want to avoid confusion.
+
+14. In this new package contents window, find ""Contents/MacOS/iPatcher"" (should be 212 K). Drag it over to the crack's package contents to overwrite the outdated 208 K version.
+
+15. Get Info on the Civilization IV directory. Open the bottom tab (Sharing & Permissions). You should have to click the lock in the bottom right and enter your system password to be able to change these. Once you've done this, change the Privilege entry for each group to Read & Write. Then, click the icon that looks like a gear (left of the lock icon) and choose ""Apply to enclosed items."" This should resolve any permissions issues.
+
+16. Run the UBCrack. Make sure that you select the right app (it's in Civilization IV/Warlords). If you get an error message about permissions, it should tell you the files it's having trouble with. Find these files in the Finder (they may be within the package contents for another file) and repeat step 15 for each one.
+
+17. Enjoy! If you've done everything correctly and didn't run into some problem that I didn't have, you should be able to play Warlords without a disc now. If you do have problems, even if you manage to solve them, please post a comment here so that others can benefit from your knowledge or help you solve the problem."
+,philo99,2008-04-21T17:57Z,"So on step 7 I cannot locate ""Contents/Resources/Civ4.pkg""  Not sure what is happening here.
+"
+,coni00,2008-04-26T16:24Z,Seed please!!!! downloading at less than 1ko/s.....
+,Edzard,2008-04-28T13:46Z,"I'm downloading it now, will it work on my G5 with 10.3.9 ?
+
+Cheers, and happy seeding :)"
+,nellie13,2008-04-30T10:38Z,"I get to step 8 and when I try to mount Civilization IV Warlords.dmg I get a warning box that says ""the following disc images failed to mount"" and it says Civilization IV Warlords; reason: not recognized.
+
+I am running OS X Leopard 10.5.2"
+,AdamJay,2008-05-01T19:22Z,"Hey folks,
+
+Anyone tell me how this might work on an eMac? It's a little archaic, I know. (I'm still running Panther.) I followed Andyr005's directions to the letter and both programs still require a CD. What do you reckon?
+
+Jay"
+,postalingaround,2008-05-05T03:16Z,why is it so fucking hard to install a simple game on mac?
+,waykurat,2008-05-08T09:41Z,"Hi!
+
+I made a compilation of the cracks to make this really great game work on Leopard 10.5.2
+
+Please check it out here:
+
+http://thepiratebay.org/tor/4177914/Civ_IV___Warlords_Exp_Cracks_Leopard_10.5.2
+
+I was able to make all work (including the expansion) on my iMac 24"" 2.4 with Leopard 10.5.2 on all max settings.
+
+Hope this helps! It's my first upload on bittorrent.
+
+Thanks!"
+,ladyfnug,2008-05-13T15:21Z,"Andyr005, thank you so much
+
+Such hassle to get the game to work!"
+,Panruru,2008-05-17T07:35Z,"I was having problems so I tried uninstalling and starting over. Now when I try to install Update 1 it says that the install failed because it ""ran out of space during the installation"" which is, of course, impossible. Please help..."
+,jjulya,2008-05-18T19:09Z,"Plz, seed!
+Speed is about 1kb/s!
+Tnx!"
+,saaddiinn,2008-05-26T00:44Z,"Hi all, I have followed every advice and I still have problem running the game. I changed the iPatcher and did everything advised. however, when i try to run either of the cracks, a window pops up saying
+This crack works only with
+Civilization 4 v1.61 [build 9220] Beta
+
+1. Make sure the Civ 4 application is the original from the retail DVD (and not the cracked one)
+
+2. Apply the 1.6.1 [9220] Beta update
+
+3. Run this patch
+
+Am I missing something? Do I have to do anything else with the crack after I change the iPatch? Please help."
+,vinnytothec,2008-05-26T20:57Z,Everytime I try to install it says I've run out of space ... I have plenty of space left (100gb) and it says it's only like 60mb ... what's the deal here?
+,sjkiss,2008-05-26T22:33Z,"Hi there,
+Is it possible just to install the original Civ IV and not the warlords"
+,sjkiss,2008-05-26T22:38Z,This always seems to demand that I install the original CD.  How do I get around this?
+,sjkiss,2008-05-26T22:49Z,"This is frustrating, it's not working.  I tried to run the regular Civ IV, without the warlords and it says I need to have the original cd..."
+,Dizaztor,2008-05-30T20:56Z,did yo apply e crack?
+,stendec123,2008-06-05T06:02Z,"acn this cracks, crack the warlords v2.13 patch?"
+,printydavinci,2008-06-05T18:46Z,"hey my ipatch doesn't allow to patch on this file, when the file I am trying to patch is supposed to be the write one civIV.app at 35 MB or whatever.  isn't this the write file to patch, I'm stuck."
+,printydavinci,2008-06-05T18:49Z,"there is an error from ipatch that says ""you can't apply the Patch on this file!"""
+,candy666,2008-06-05T20:09Z,"hey can som1 give me step by step instruction im a bit of a newb at this iv donloaded the files and have them on a memory stick into my mac what do i do know?
+
+everything i try goes wrong in a way so bit of assitance if u will? =]"
+,candy666,2008-06-05T20:20Z,"okay heres what it says when i try to put it in applications : the alias ""headers"" cannot be copied be copied to the destination, prehaps because the destination does not support this type of alias.
+
+any help?"
+,jaruh,2008-06-05T21:57Z,"Imac 2.0 Intel, Leopard 10.5.2
+
+Dear All, I am very very new to Imac as well internet as well, ah well never mind i am a nobody.. I tried to install CivIV according to the schem of Andyr005... 
+
+At step 8, when i have to Mount Civilization IV Warlords.dmg and run the installer..., i get a message saying there is no content in this all and it can't be activated because of it. Would anyone perhaps know any about this? Is it somehow possible to leave the Warlords extra and just run the main game? I have a warlords seperate crack for leopard version 10.5.2 as well, should i do something with it in stead of running the warlords? 
+
+Thanks in advance very much, i know i'm stupid.."
+,candy666,2008-06-06T15:11Z,"need some help
+the civ file wont mount or somthing it says
+image : civilization IV. dmg 
+reason :not recognized
+
+any help iv look though the comments and i cant see any help.
+
+cheers"
+,theevenblu,2008-06-07T11:53Z,"hello, all.  I'm seeding this file unlimited for all of you, whenever I've got my cpu on.  So... I've done it all, and finally when I open the crack and select Civilization IV Warlords.dmg I get the error, ""You Can't Apply The Patch On This File!""  with, like, an exclamation point for added humiliation.  Any ideas?  Running 10.5.2"
+,Uberpete,2008-06-11T17:32Z,thnx sulistus it works great really thnx!!!
+,Tridentgnome,2008-06-16T01:30Z,"everytime i try and install update 2 it tells me the source media you are installing from is damaged and it tells me to try installing from a different copy of the media  but i have been following andyr005 word for word and cant get it to work
+someone please help"
+,agentstig,2008-06-18T10:56Z,"to Andyr005:
+
+Thanks for the instructions and I have followed everything up until #16.  Sorry im sorta new and lost.  Can you or anyone else give me just a little bit more step by step detail for that step?  Thanks in advance"
+,samueljacintho,2008-06-28T20:11Z,"ok. the game is running, but i have a problem:
+
+the state chiefs (Elizabeth, Ramesses, all of them) are not appearing. Some times is just a hat, or necklace... what should I do?"
+,cottenc,2008-06-29T07:15Z,"Hey all! I've posted a new torrent compiling two working cracks for Leopard users. There is one for CIV IV as well as Warlords.
+
+http://thepiratebay.org/tor/4266637/CIV_IV_Mac_OSX_Leopard_Crack"
+,dustypie,2008-06-30T19:04Z,so does this torrent give me all the files needed to run this puppy on my 10.4.9 tiger intel macbook pro?
+,NoFreakinTorious,2008-07-03T07:17Z,hm
+,dhrocks4life,2008-07-05T11:15Z,is this civilization beyond the sword?
+,killagainz,2008-07-18T18:54Z,PLEASE INCREASE UPLOAD. I HAVE MINE AT 300 kb/s CONSTANT. I'm doing my part please do yours.
+,killagainz,2008-07-19T22:09Z,Agh! Please put more upload. I'm downloading so slow
+,A_minor,2008-07-23T05:02Z,"I'm not new to torrents but this one is acting really funny.  The torrent says 162 seeders here, but I am only connecting to an average of 6 people.  At the 75% completed mark, the torrent started to go very slowly.  Now it is crawling.  Downloading .3 kb/sec.  Is this because noone is seeding?  Is this because noone on this torrent has the complete files?
+
+This is driving me crazy."
+,A_minor,2008-07-25T22:23Z,"please seed
+"
+,caine3320,2008-07-26T03:36Z,"2.2 Ghz Intel MacBook, 2Gb, 10.5.4
+
+ok, downloaded, followed Andyr005's instructions to the letter, twice
+
+still getting the ""need original disc"" error
+
+it did occur to me that in his instructions, andy chose not to run the installer .app from the 'update 1' folder the way he did for 'update 2'; didn't try that yet, but i may if there's no response here for a while
+
+any suggestions that aren't questions like, ""did you apply the cracks?"" i'm looking for help, not smug and arrogant sarcasm"
+,y0hnzdelor,2008-07-26T21:26Z,"works perfectly. just gotta mess around with the patchers a few times. about ten minutes tinkering around, and it'll work. 
+
+i'm on Tiger and all i downloaded was the files from this torrent. trust me. it works."
+,caine3320,2008-07-27T03:34Z,"y0hnzdelor:
+
+no, see, that's the problem: you're on tiger; i'm on leopard, which was specifically mentioned in andy's directions as being problematic. that was the whole reason for having to mess with the cracks, instead of just applying them normally.
+
+i've started the process over four times now, all with the same result. can anyone email me or something? a little one on one would really help out, if that's possible.
+
+email is caine3320@hotmail.com"
+,shins89,2008-07-27T06:59Z,"everything works fine until I try running the game then it ""quits automatically""... anybody know what's going wrong?"
+,mozg1977,2008-08-02T09:20Z,as far as i see it doesn't work on leopard?
+,SyluxReaper,2008-08-21T05:39Z,"Works great with tiger, i've had it crash once and rarely buildings will turn black and I need to restart civ to fix this, but these are relatively small problems. thanks"
+,aragorn12386,2008-08-29T02:31Z,"Alright mates I have found a sweat free solution to all of your worries:
+After you mount the main game files, now what is left to do is to apply the updates and warlords patches. The cracks that are included with them arent the ones that are the drag, drop and replace.   These are applications that ""patch"" the existing executable files. So in order that these ""patches"" can work, you need to give them permission to fuck around:
+-right click on the civ4 executable and choose show package contents
+-right click on contents and choose get info
+-at the bottom of the panel should be a lock. click the lock, type in the password, and then change all of the options to read and write
+-then click the gear-like tool on the very bottom and choose apply to enclosed. then click ok
+So NOW, after following Libertius's instructions, apply the cracks and you're set to go. cheerio!"
+,W0utR,2008-09-03T19:34Z,"Can somebody tell me how i need to get this game to work?
+
+I installed the game, installed the 2 updates, but it always say i need to insert the CD
+
+what do i need to do to get it to work?"
+,caseynw,2008-09-10T23:03Z,"when I try to run the game, it asks me for the original disk. whay should I do???
+
+Im using OS X leopard. "
+,Kizzer,2008-09-11T06:56Z,"Can someone please tell me how to get rid of the XML Error that keeps popping up. I was able to run it once, the very first time that I patched everything up. But after I exited the game for the first time, and tried to boot it up later, I ended up with this error. I would really appreciate some input. Thank you."
+,leechoid,2008-09-15T23:56Z,"To make things easier, a compiled list of how to make this work on Leopard:
+
+After you mount the main game files, now what is left to do is to apply the updates and warlords patches. The cracks that are included with them arent the ones that are the drag, drop and replace. These are applications that ""patch"" the existing executable files. So in order that these ""patches"" can work, you need to give them permission to fuck around:
+
+1. Right click on the civ4 warlords executable and choose SHOW PACKAGE CONTENTS
+2. Right click on CONTENTS and choose GET INTO
+3. At the bottom of the panel should be a lock. click the lock, type in the password, and then change ALL of the options to READ AND WRITE
+4. Then click the gear-like tool on the very bottom and choose apply to enclosed, then click OK in the confirmation dialog.
+
+Now, the patches themselves need to be edited to properly execute. We need to update their iPatcher to fix them. To fix the crack patchers so they work on Leopard (same procedure on both patches):
+
+1. Download the latest iPatch from ipatch.org.
+2. Mount the downloaded iPatch dmg, right-click the iPatch app, choose ""SHOW PACKAGE CONTENTS"".
+3. Locate ""Contents/Resources/iPatcher"" (448 K), right-click it and choose ""SHOW PACKAGE CONTENTS"".
+4. Locate ""Contents/MacOS/iPatcher"" (212 K).
+5. COPY it.
+
+6. Copy the patches from the .dmg to your harddrive so they can be modified. I keep them with the executables they are going to patch.
+7. Right-click on a patch, choose ""Show package contents"", locate the file ""Contents/MacOS/iPatcher"" (208 K)
+8. Replace (PASTE) the file from the iPatch download ""iPatcher"" (212 K) over the ""iPatcher"" (208 K) in the crack patch.
+9. Launch the crack, it should not crash if you did it right (obviously).
+10. Run the crack and drag the warlords game executable into the crack to patch it.
+11. Run the game
+"
+,schefdogg94,2008-09-20T05:25Z,"hi. i have tried this all freakin day. can someone please help me. i have leapord 10.5.4 and i downloaded the file. i know how everone is talking about patching problems. my problem is that when i try to install the civ 4 file it keeps saying ""please insert original disk"" i mounted it with toast and i see the disk on my desktop but it still doesnt work. please help me!!!"
+,jrodas753,2008-09-21T11:00Z,"This is a repost of what worked for me. It took me FOREVER to do but you have to do EXACTLY what it says here...I know it sucks but there is no other way around it. You gotta have alotta patience with this one cause its a BITCH!!!
+
+REPOST:
+
+Installing Civ IV + Warlords on Leopard:
+
+1. Mount CIV.iv.cdr and drag the Civ IV folder to Applications (or wherever) to install.
+
+2. Unzip CIV IV updates.zip.
+
+3. Right click CIV IV updates/Update 1/Civilization IV Installer and choose 'Show Package Contents.' This will open a new Finder window for the package contents.
+
+4. In this new window, go to Contents/Resources/ and find Civ4.pkg. Drag it to the desktop (or anywhere else that you'd prefer) and run it.
+
+5. Mount Civ IV updates/Update 2/ Civilization_IV_1-2.61.dmg and drag Civilization IV Installer to the desktop.
+
+6. Show package contents on the Civilization IV Installer (see step 3 if you don't know how).
+
+7. Drag Contents/Resources/Civ4.pkg to the desktop and run it. It's fine if you overwrite the old Civ4.pkg; we're done with it.
+
+8. Mount Civilization IV Warlords.dmg and run the installer.
+
+9. Mount Civ4.Warlords.Crack.dmg and drag Civilization IV Warlords UBCrack to your Civilization IV folder.
+
+10. Download the latest iPatcher from www.ipatch.org (3.7.1?). It comes on a .dmg; mount it and copy the app to the desktop to install it.
+
+11. Show package contents for both UBCrack and iPatcher. Make sure to keep these package content windows straight! If you forget which is which, you can use the back button on the Finder window to figure it out.
+
+12. Find the file ""Contents/MacOS/iPatcher"" in the UBCrack package contents (it should be 208kb). This is the 'problem' file that doesn't work in Leopard. We're about to replace it with the newest version, which does work in Leopard
+
+13. Find the file ""Contents/Resources/iPatcher"" in iPatcher's package contents. Show package contents again for this file (should be 448 K). You can close the original iPatcher package contents if you want to avoid confusion.
+
+14. In this new package contents window, find ""Contents/MacOS/iPatcher"" (should be 212 K). Drag it over to the crack's package contents to overwrite the outdated 208 K version.
+
+15. Get Info on the Civilization IV directory. Open the bottom tab (Sharing & Permissions). You should have to click the lock in the bottom right and enter your system password to be able to change these. Once you've done this, change the Privilege entry for each group to Read & Write. Then, click the icon that looks like a gear (left of the lock icon) and choose ""Apply to enclosed items."" This should resolve any permissions issues.
+
+16. Run the UBCrack. Make sure that you select the right app (it's in Civilization IV/Warlords). If you get an error message about permissions, it should tell you the files it's having trouble with. Find these files in the Finder (they may be within the package contents for another file) and repeat step 15 for each one.
+
+17. Enjoy! If you've done everything correctly and didn't run into some problem that I didn't have, you should be able to play Warlords without a disc now. If you do have problems, even if you manage to solve them, please post a comment here so that others can benefit from your knowledge or help you solve the problem."
+,theameraguy,2008-09-23T23:25Z,wow. im downloading 1mb every 5 seconds! thanks guys
+,rykus77,2008-09-29T16:27Z,"Stuck at 12% 
+Could someone seed please."
+,siggeyxa,2008-10-14T20:54Z,Works great. Followed jrodas753 instructions.
+,MorbidKoala,2008-10-21T17:10Z,"Mac OSX 10.4.11, can't even install the CIV IV folder because the message the alias .BC.1AT StH cannot be copied because the destination does not support this type of alias. 
+
+No locks on the files, all ownership is fine. Just won't transfer the executable file. "
+,soshoutori,2008-10-30T15:13Z,SEED GODDAMMIT.
+,soshoutori,2008-10-30T16:33Z,:'(
+,E_Dagger,2008-10-31T01:22Z,please seed. only have 0.59% to go.
+,poroto69,2008-10-31T19:52Z,"I'm a new Mac user, what do you guys use to mount a .cdr file? "
+,poroto69,2008-10-31T22:07Z,"jrodas, I'm still having permission issues, when a try to drag the ipatcher (14 on instructions) it says ""MACOS can't be modified"". I give permission on all the folders and still says ""read only"", any thoughts?"
+,kurt6,2008-11-20T17:27Z,"Hi guys, can you help me out on this please? Well I managed to install the Civ IV part and it runs fine on my Powerbook/Leopard 10.5.5. But for some reason I cannot proceed and install the Warlord expansion. I mount it and click the installer and it comes up with the message that ""Civilization IV does not appear to be installed correctly and that the installation of Civ IV located at /Civ4Game Folder is not valid."" I do not know what to to...I copied the Warlords installer under Applications and tried it then and copied it under Civ folder but still the same error. And I followed all the instructions up to the letter when I installed the Civ IV. Any ideas anyone? Thanks."
+,Alllexxx,2008-11-20T21:48Z,"Hey there. I am soon going to buy a Mac. I have been looking for some mount program for Mac on the internet with no result.
+
+If YOU/anybody could help me i would be so happy about it.
+
+Please reply.
+
+Thanks. "
+,Steadyp,2008-11-25T04:01Z,how do you do it on tiger
+,rhouen,2008-12-06T10:01Z,SEED pls!!!!
+,amn108,2008-12-14T17:48Z,"Updates to instructions of jrodas753:
+
+Instructions worked perfectly, however step 8 required some changes on my part, since just mounting and attempting to install Warlords resulted in an error message saying my Civ IV install appeared to be incorrect. What I did however is to copy the Warlords installation app to the desktop, show contents, and run the application in Contents/MacOSX folder, which worked fine. The rest of instructions as written by jrodas753. The game works."
+,penhead,2008-12-29T05:13Z,http://thepiratebay.org/torrent/4266637/CIV_IV_Mac_OSX_Leopard_Crack !!!
+,callmesuraly,2008-12-31T05:12Z,it just says please insert the original disk what do I do !!!!! please help!
+,testes1234,2009-01-01T00:49Z,"Please someone start seeding this again... 20mb to go, and sitting with one seeder! PLZHLP! Will seed for days and days when complete! "
+,callmesuraly,2009-01-04T10:32Z,"i downloaded it (2 days) i could not get it to work (2 days ) i deleted it 1 day later i figure out how to get it to work and now i am downloading it again    ( 2 days )
+... oh irony "
+,m0refaya,2009-01-16T06:41Z,what happened to ipatch.org? cant find it anymore...
+,bjjfiter,2009-01-17T17:32Z,"I'm getting a really weird error when I copy the original full game to my hard drive.  It says the alias "".bc.4WASg7"" cannot be copied because the destination doesn't support that kind of alias.  I've never seen this before, ever.  I'm running on a G5, OS 10.4.11."
+,ren8,2009-01-22T00:04Z,SEEEEEEED
+,cameldub,2009-01-22T08:32Z,Thanks solistus for the step by step
+,bjjfiter,2009-01-24T13:49Z,"Well I got the game to run just fine on my G5/10.4.11, but I just ran the latest QuickTime update and now it doesn't work at all.  The icon jumps up and down a couple of times, and then does nothing.  I hate QT updates."
+,mr-MooMoo,2009-01-26T02:58Z,"bjjfiter:   I have had EXACTLY the same issue since my Quicktime update, any ideas so far?_?  It just won`t open now, but worked fine before...I tried re-install but to no avail."
+,bjjfiter,2009-01-27T05:15Z,"Nothing yet, but I've had Quicktime updates kill some of my games in the past (most recently Pirates).  
+
+I have no idea what to do.  "
+,mr-MooMoo,2009-01-27T06:49Z,"bjjfiter: We `re just have to sit tight and wait for a patch either from Aspyr or Apple Quicktime 7.6a. I tried re-installing Quicktime 7.5.5. using a software called Pacifist. Quicktime seemed to revert to the previous version, but whatever the 7.6 update did to Tiger, it was permanent (the game still doesn`t open.)  You can find info on the web (tons of it) by Googling:  Quicktime 7.6 Update Tiger Civ IV Issues. Those on Leopard seem unaffected!! >>IF ANYONE FINDS ANY IDEAS PLEASE POST"
+,teetb,2009-01-27T10:03Z,"bjjfiter - i'm still having the same problem you had originally, getting some strange alias that cannot be copied - how did you solve that?"
+,bjjfiter,2009-01-28T01:46Z,"About the strange alias...I think I have it narrowed down to having installed the game twice on the same hard drive.
+
+You'll have to delete all the installed files, including the ones in your User directories.  Then restart, remount the images and install again.
+
+Not sure if you really have to take all these steps (restart, etc.) but I wanted to be on the safe side.  When I did all of this, it worked again.  It has something to do with trying to reinstall it on the same drive without cleaning the original off.
+
+That may not make any sense, but it's what I have deduced because it took me several hours to work through it."
+,bjjfiter,2009-01-28T02:02Z,"MrMooMoo--
+
+I have a hunch it has something to do with permissions.  I just don't know enough about permissions to determine this for certain."
+,mr-MooMoo,2009-01-28T05:44Z,The best website on this issue is here. It seems most are resigned to wait for a patch from Aspyr. I`m just worried that a patch will not work with this cracked version.  http://discussions.apple.com/thread.jspa?messageID=8881928
+,Fresnel149,2009-01-29T04:43Z,"Aspyr has a 1.74 patch for Mac, but I'm worried that it'll break the crack. Guess it's worth a try though.
+
+http://www.macgamefiles.com/detail.php?item=19218"
+,mr-MooMoo,2009-01-29T05:09Z,"Hi Fresnel149, the 1.74 patch dates back to 2007 and is unrelated to the current crash issues for Quicktime 7.6/Tiger users (assuming that`s what you wanted it for...)"
+,fatalfrancis,2009-01-29T10:18Z,"I have a question, I'm new to civilization so I want to watch a couple of tutorials first. They say the tutorials are in the original game but I need the cd to run it. so exactly how do i burn a cd copy? which files etc.? or is their any other method to run the original game?"
+,Fresnel149,2009-01-29T15:33Z,"@Moomoo: Yeah, you're right. I installed it, it broke the crack, and the game still won't start up at all. All we can do is wait?"
+,imabigkid,2009-01-30T18:46Z,holy cow 100+kb/s KEEP IT UP I WILL SEED TOOO
+,mr-MooMoo,2009-02-02T04:56Z,"bjjfiter, Fresnel149  and anyone else with Tiger/Quicktime issues, go here: http://discussions.apple.com/thread.jspa?messageID=8881928 and follow   PtboMac `s instructions. You have to downgrade Quicktime from 7.6 to 7.3.1 (no, 7.5.5 is NOT enough) and CIV IV will work. Caveat emptor, as Quicktime 7.6 changes that you will lose have to do with security. HAPPY TIMES TO ALL!!   "
+,slicksully,2009-02-03T19:50Z,"Any instructions for us OS X 10.4.11 users out there?
+"
+,slicksully,2009-02-04T01:02Z,seeeeeeed give me your seeeeeeed aaaaahhhh!
+,FourAces,2009-02-04T10:49Z,seed!
+,slicksully,2009-02-04T16:41Z,wow 14 hrs have passed and i'm still at 99.9%
+,slicksully,2009-02-04T20:26Z,FINALLY its complete!!! hope it works ok.
+,XxXxXxEmOxXxXxXxBoYxXxXxX,2009-02-05T17:57Z,"Fuck this shit. It says I have successfully run the patch, yet I still cannot open the game without an ERROR. What the FUCK do I do now. "
+,jf8558,2009-03-08T05:20Z,Continue to Cuss and act a Foo!
+,mattman22,2009-03-27T17:37Z,"I've a lot of messing around with it I finally got it to work. iPatcher didn't work for me so what you have to do is when iPatcher gives you the errors, go to every file that it lists in the error message, right click it, get info, go to sharing and permission tab and change everything under that to Read and Write, same with the error message given with Warlords..then it should work fine!
+I'm running Leopard 10.5.6"
+,ezwider,2009-03-29T23:25Z,"azureus stopped it and said it had a disk read error, it also made my mac run slower than it ever has, so i deleted it from my computer and dont want to fuck around with it anymore lol, im about to check out supernova, i just want a really good space turnbase strategy game"
+,mikevans,2009-04-05T04:40Z,"i just downloaded the torrent and installed the game and the crack files, but the patch doesnt seem to work. whenever i try to open the game it asks for the origional cd and shuts down. what else am i supposed to do. Running on OSX 10.5.6"
+,sickaroll,2009-04-10T13:13Z,"Follow Leechoid's instructions on page 6, update the cracks with the new iPatch, it works a treat.
+Leechoid is now my hero btw, I LOVE this game."
+,Rullett,2009-04-12T01:05Z,Thanks jrodas753!
+,sujmano,2009-04-12T07:47Z,am gonna be seeding this 24/7 basically have capped to 100kb/s though had ISP give me some crap abt excessive usage
+,flydpnkrtn,2009-04-13T01:20Z,"OK on Leopard I've gotten the error after applying the patches and following the prodecure. As soon as I did the following Civ IV opens!
+
+You can use Terminal.app to make these changes. It is in your Applications folder. (and yes this is ""Unixy stuff"" folks... the real reason I love OS X :)
+
+cd /usr/lib
+sudo cp libcrypto.0.9.dylib libcrypto.0.9.dylib.old
+sudo cp libssl.0.9.dylib libssl.0.9.dylib.old
+sudo ln -sf libcrypto.0.9.7.dylib libcrypto.0.9.dylib
+sudo ln -sf libssl.0.9.7.dylib libssl.0.9.dylib
+
+
+As soon as I'd run those command Civ IV opened perfectly and I was greeted with a ""Cracked By:"" banner"
+,kjbe26,2009-04-14T05:10Z,its still prompting me to insert original disc even after i've installed the crack. and when i try to open the crack it unexpectedly quits. wtfffff
+,piccolovenezia26,2009-04-15T07:22Z,"Anybody know why this torrent is sooooo slow to download. There are plenty of seeders and leechers so I would have thought it would be pretty quick but, after a day, I am still at 2.5% and I have a connection which generally averages in excess of 300kbs download speeds.  "
+,piccolovenezia26,2009-04-18T14:28Z,"Well somewhere along the line it speeded up and  I have successfully installed it and got Warlords to run. What doesn't run is the base Civ IV. Anyone know how to make that work? And does it matter? If Warlords is basically the same as Civ IV, then it won't matter much if the base Civ IV works as long as Warlords works."
+,juicyrick,2009-04-19T07:37Z,"The download went quickly, but when I try to install it tells me I don't have enough space on my hard drive, when I clearly do. Help?"
+,cooljedi,2009-04-19T14:53Z,please seed
+,civtard,2009-04-22T11:10Z,"I am using 10.4.11 and have completed download. Thanks for seeding.
+I installed civ and civ warlords with updates and cracks. Cracks and updates installed without problems, but when i double click on either application it looks like it will open but nothing happens. My console log says:
+
+crashdump[944]: Civilization IV crashed
+
+Please help i just wanna play."
+,juicyrick,2009-05-04T19:17Z,"HOLY CHRIST BALLS. This is way too hard. I've tried everything, from Libertius's to polyglot's instructions but nothing works. The cracks quit and it asks me if I want to relaunch.
+
+Can someone tell me what the issue is here?"
+,juicyrick,2009-05-04T19:18Z,I'm using version 10.5.5 btw
+,Eejay.Jauregg,2009-05-04T23:16Z,"thanks for this torrent, dl went quite fast and now, finally, the game works. i used jrodas753's instructions (page six) to get warlords running and the updated crack (http://thepiratebay.org/torrent/4266637/CIV_IV_Mac_OSX_Leopard_Crack) maked the original civ 4 work for me as well.
+anyways, i still have one problem:
+since i'm new to civilization i'd like to go through the tutorials. whenever i try to start them, the game crashes. does anybody have an idea why this happens?"
+,Jocomotion,2009-05-09T15:17Z,"Thanks to jrodas753 very detailed instructions on page 6, installs and runs very fine. Good job kijulama and jrodas753!"
+,lockles,2009-05-18T10:15Z,"Eejay.Jauregg: To Get the Tutorial you must do this:
+
+1: Copy the tutorial file in the Civ 4 'Mods' folder into the Warlords 'Mods' Folder.
+2: open Warlords and select Load / Custom Mod somewhere.
+3. now it will run the tutorial.
+
+Sorry about #2, i forgot which option to select, BUT it works."
+,tou0125,2009-05-26T18:20Z,"The game works perfectly (I use a macbook with GMA 950). 
+
+The INSTRUCTIONS on PAGE 6 by jrodas753 HELPED! Really!
+
+Two things that might be confusing (since I'm a bit of a mac-idiot I comprehend this kind of confusion!)
+
+Referring to point 15 of jrodas753 instructions on page 6. Change the permissions of the whole civilization IV folder. It's the folder you find under applications (~/applications/civilization IV). In fact, if you go to information (apple + I) you'll know that you're on the right track if in the information window it says Kind: Folder. And the rest is like jrodas753 explains. 
+
+And, when you run both updates, it's enough if you only run the crack for update 2. And yes, make sure that you overwrite the old ipatcher version with new one. 
+
+All INSTRUCTIONS are here, just read the comments..."
+,the_MIG,2009-05-30T01:49Z,"I tried to follow jrodas753's instructions but had the same problem in step 8 as amn108.  The alternate method suggested by amn108 got me the same error.  Can anyone help?
+
+p.s. D/led the whole thing in "
+,the_MIG,2009-05-30T20:58Z,"nevermind! IT WORKS! it works it works it works!
+
+so to fix my (above) problem i moved the package onto the desktop and ran that instead. i.e., for step 8 (a la jrodas753) move civ 4 warlords installer to desktop, show package contents, and move contents/resources/civ4warlords.pkg to desktop and run.
+
+the other hard part was changing the permissions (step 14-ish). when you run the patch (last step), it will ask if you want to change them. you can say yes, enter your passoword and THIS DOES NOT WORK.  you'll get an error, and you have to change the permissions for the files that it points out. tricky.
+
+very well done  for the instructions.  sick torrent .  thanks to all who seeded (got it in less than 90 min).  good show. i'm out."
+,mikelangalo,2009-06-12T18:22Z,"erm i followed all of the instructions from jordas753  and it still wont let me play without a cd please can someone help me.... i have been looking forward to this for a long time 
+
+any help will be appreciated"
+,lotancio,2009-06-12T18:45Z,"i have a problem. i've installed civ 4 without the warlords expansion yet and have done everything indicated in the threads. when i try using the crack, it shows error and identifies tje civilization 4 file under contents. when i tried changing the permission settings into ""Read &Write"" as indicated in the instructions and then try using the crack, it now shows an error message that says this file could not be patched this time. what should i do? heeelp!"
+,lotancio,2009-06-12T18:53Z,"and tdavie, i tried leaving the window open then tried changing permissions one by one but it's still the same shit for me. what's wrong with what i'm doing?"
+,znoop07,2009-06-13T01:22Z,"I've Leopard 10.5.7 and this worked for me:
+
+Original post by 
+leechoid at 2008-09-15 23:56 CET:
+
+To make things easier, a compiled list of how to make this work on Leopard:
+
+After you mount the main game files, now what is left to do is to apply the updates and warlords patches. The cracks that are included with them arent the ones that are the drag, drop and replace. These are applications that ""patch"" the existing executable files. So in order that these ""patches"" can work, you need to give them permission to fuck around:
+
+1. Right click on the civ4 warlords executable and choose SHOW PACKAGE CONTENTS
+2. Right click on CONTENTS and choose GET INTO
+3. At the bottom of the panel should be a lock. click the lock, type in the password, and then change ALL of the options to READ AND WRITE
+4. Then click the gear-like tool on the very bottom and choose apply to enclosed, then click OK in the confirmation dialog.
+
+Now, the patches themselves need to be edited to properly execute. We need to update their iPatcher to fix them. To fix the crack patchers so they work on Leopard (same procedure on both patches):
+
+1. Download the latest iPatch from ipatch.org.
+2. Mount the downloaded iPatch dmg, right-click the iPatch app, choose ""SHOW PACKAGE CONTENTS"".
+3. Locate ""Contents/Resources/iPatcher"" (448 K), right-click it and choose ""SHOW PACKAGE CONTENTS"".
+4. Locate ""Contents/MacOS/iPatcher"" (212 K).
+5. COPY it.
+
+6. Copy the patches from the .dmg to your harddrive so they can be modified. I keep them with the executables they are going to patch.
+7. Right-click on a patch, choose ""Show package contents"", locate the file ""Contents/MacOS/iPatcher"" (208 K)
+8. Replace (PASTE) the file from the iPatch download ""iPatcher"" (212 K) over the ""iPatcher"" (208 K) in the crack patch.
+9. Launch the crack, it should not crash if you did it right (obviously).
+10. Run the crack and drag the warlords game executable into the crack to patch it.
+11. Run the game"
+,iwanami,2009-06-26T08:46Z,worked for me with jrodas753's method (page 6). Had to use the Leopard cracks torrent though. ( http://thepiratebay.org/torrent/4266637/CIV_IV_Mac_OSX_Leopard_Crack ). thanks a lot for the upload. ;)
+,wmark17,2009-07-11T23:25Z,"Couldn't get it to work. My fault, but I've given up. Good luck to everyone else."
+,conexionz,2009-07-13T23:47Z,"Hi, I'm new to this. What does it mean ""to mount""?"
+,Hypn0s1s,2009-07-28T17:30Z,"so far so good
+i got warlords to work, took some time lol
+
+but i cant run from the main game... any help?
+solutions would  be greatly appreciated :D"
+,Hypn0s1s,2009-07-28T17:33Z,nvm... im an idiot... hehe
+,shikkok,2009-07-28T22:46Z,"Hey, 
+so i follow the intructions and the dmg mounts fine, but when i click on the installer it says that the application quits unexpectedly, :(
+any help?"
+,jayk1982,2009-07-29T11:24Z,"I'm new to all this. I have downloaded the files but don't know how to get the thing started. When I click on the CIV 4 icon, it says to insert the original disc. Sorry for being a complete muppet, but help!"
+,faber32,2009-07-30T09:54Z,Works nice! Thanks for detailed instructions leechoid!
+,faber32,2009-07-30T10:21Z,Good game indeed. I'm going to buy this game on next week!
+,theskinniesthippo,2009-08-09T12:03Z,It takes about a gajillion steps but I got it to work.  Thanks for the up.
+,Dash_Merc,2009-08-16T20:23Z,"At first I was pissed because this torrent was full of patches that didn't work.  I looked through my torrent folder to find out where I got the link from, and it turned out I got it from here.  I came here to rant about how useless the torrent was because it was full of un-working patches...but then I read the comments and znoop 07 (page 9) saved me.
+
+Thanks for re-posting leechold's post.  It's 100% accurate for leopard users.  Worked perfectly, if quite time-consuming.
+
+Basically, re-patch the patches.  Install Civ IV, install the first official patch, then use the Blade patch you just fixed, install the second official patch, and repeat with the matching Blade patch, then install Warlords, and repeat with the fixed Blade Warlord patch.  Perfect.
+
+Thank you."
+,vyassaran,2009-08-23T02:31Z,"I followed jrodas' steps and managed to get WARLORDS to work,
+but how do i get CIV itself to work? as in, not this expansion game, but the regular version??
+(as you can tell i'm new to this)"
+,nose13,2009-08-31T21:31Z,"I need help I can get the normal civ 4 2 work but the warlords thing says i don't have the right hardware, I have done the patch but cant get it to work? help please"
+,splatt_,2009-09-09T13:19Z,"I'm on Mac OS X 10.6
+
+Should I be aware of anything else to do aside from the instructions listed in the comments?
+
+Also, I saw that when I try copying iPatch (from the Website), it's around 601KB. "
+,splatt_,2009-09-09T15:44Z,"PS
+
+and the package contents of the latest iPatch (3.7.1) in the Contenst/MacOS/ folder, the filename is ""iPatch"" not ""iPatcher""
+
+should i just rename it so that it replaces the :problematic: file?"
+,aceofthesky,2009-09-14T11:32Z,"OK PEOPLE, for those who use OSX 10.5 and have NO IDEA HOW TO INSTALL, GO TO page 2 of the comments page, READ AND DO what ""Solistus"" wrote. 
+
+A special thanks to Solistus works like a charm on my macbook"
+,cadbarker,2009-09-26T05:36Z,"Awesome torrent! I used jrodas753's method on page 6. I have 10.5.8, and it worked beautifully. Have patients though! It takes time!"
+,alphamach,2009-10-04T14:01Z,"what shall I do if it says 
+""Please insert the original disc"""
+,Juan_Mitosis,2009-10-06T23:37Z,"Ok I downloaded this and it worked perfectly after following the detailed instructions ( on my mac mini) The problem is. . . I got a call from my ISP claiming that a company called them accusing me of downloading illegally and distributing a product ( CIV IV ), Copyright infringement. The thing is. . . did they find out about this because I seeded the game for too long? Or what? I'm kinda confused about what to do, do I delete the entire game from my computer or just remove from torrent program? Thanks! Great upload!"
+,hotspur0,2009-10-08T01:54Z,"finally, thanks for the up! took a while had to update and replace ipatcher, then change permission settings for all the error codes, just as leechold, libertius, gameman 15 and jrodas753 have all mentioned in this thread! works perfectly after that. Have patience. Im a noob but I eventually figured it out!"
+,RixxxOne,2009-10-08T19:16Z,"Hi people.... someone can help me.... how do I mount or unstuff this file ""civ4.cdr""???? when I double click on it, it opens corel draw!!!!"
+,SpudsBM,2009-10-23T00:59Z,"""Ok I downloaded this and it worked perfectly after following the detailed instructions ( on my mac mini) The problem is. . . I got a call from my ISP claiming that a company called them accusing me of downloading illegally and distributing a product ( CIV IV ), Copyright infringement. The thing is. . . did they find out about this because I seeded the game for too long? Or what? I'm kinda confused about what to do, do I delete the entire game from my computer or just remove from torrent program? Thanks! Great upload! ""
+
+HOLY SHIT MAN WHAT DID YOU DO? SHOUT FROM THE ROOFTOPS ""I PIRATED CIVILIZATION"" ID JUST IGNORE IT, ITS PROBABLY A PRANK
+HAPPY CAPS LOCK DAY!!"
+,OozyDelphi,2009-10-31T03:51Z,"Following the instructions on page 6 by jrodas753, it is now working for me. Thx everyone"
+,uwcheese,2009-11-13T12:08Z,"I did all the dirty work and uploaded a new patch for Leopard+ users.  Here you go:
+http://thepiratebay.org/torrent/5159954/Civilization_IV___Expansions_Crack_Patch__Leopard
+
+Includes patch for Beyond the Sword as well."
+,blackvalentine,2009-11-28T20:42Z,donÂ´t download this shitty torrent
+,lepid,2009-12-07T04:40Z,"There have been a bunch of instructions for Leopard, but none for Tiger, probably because it should be simple for Tiger. I keep running into the same issues as others have had and I'm new to torrents. When I try installing the first part on the list, it says please try again. So please, could someone help me make this work?"
+,djoshua,2009-12-16T05:24Z,first off thanks to uwcheese for doin all the hard work to make it work 4 all us users of leopard and snow leopard....and @ Iepid....wat exactly is the problem?? did u wait until the torrent finished downloading completely?? What torrent downloader are you using? COz sumtimes sum downloaders mght break the torrent and wont download it completely until the entire torrent has completed downloading. So give sum more info about all dis and also you system an i mght be able 2 help you out....
+,ionlyknow,2009-12-20T20:31Z,"I followed the instructions on page 6 and got the expansion to work, but not the vanilla CIV -.- Damn"
+,619KK619,2009-12-29T05:22Z,"I get the same error for both the original and the expansion:
+
+""Failed Loading XML file Assets//XML\GameInfo/CIV4PlayerOptionInfos.xml"" 
+
+then directly after it says that it says:
+
+""LoadXML call failed for GameInfo/CIV4PlayerOptionInfos.xml. Current XML file is:                "" 
+
+someone please help! this is the last error i have before it starts! please please help!"
+,uwcheese,2010-01-21T00:40Z,"Thanks djoshua.
+
+ionlyknow, supposedly if you reinstall the original after you patch the second two it will work.  Nice trick!
+
+http://thepiratebay.org/torrent/5159954/Civilization_IV___Expansions_Crack_Patch__Leopard"
+,utron11,2010-03-29T17:28Z,Work wellllllll!!! Thank you very much. Just use some trick and all will be fine. Awesome strategy game that one should have in our game lists!
+,cosmicbdog,2010-04-11T17:36Z,"looking for the 1.74 patch?
+
+I couldn't seem to find it here but came across it over @ picktorrent dot com "
+,cosmicbdog,2010-04-11T17:37Z,i think you need the current updated version to play with randoms online..
+,jaycoyoyo,2010-10-21T05:46Z,Great torrent! I followed the instructions on page 6 written by jrodas753 and it worked perfectly! I am running Snow Leopard. Cheers kijulama!
+,baghdaddy,2011-02-06T02:35Z,"i followed the instructions on page 6 and the game works great, but I can't load my saved games! The save files don't appear when i go to load them. Any ideas??"
+,leea1,2011-05-17T21:41Z,Amazing it works!!!
+,matskeman,2011-12-30T11:35Z,eei guys it says that i need the CD
+,sanes495,2012-01-25T21:13Z,"I downloaded and everything but I can't seem to get it working. It tells me to insert the CD. I mounted everything but it never let me install the game only the updates and cracks. Please help, I am new to this."
+,spaz92693,2012-02-13T23:42Z,Cannot install updates on Lion because you cannot open PowerPC programs.
+,guyver145,2012-05-21T20:11Z,"Works fine Lion, really smooth on my macbook pro mid 2009, all you need is to copy the everything out to a folder, preferably applications, find a no-cd crack for 1.74, and voila."

@@ -1,0 +1,11 @@
+The latest patch from theStevo for allowing OS X to be installed on the ASRock 775Dual-VSTA motherboard. This will eventually be superseded by v3.1 which is currently in the making. This requires a post-patch still!
+
+This PPF must be applied to the ISO file generated directly after a BrazilMac patch. That works fine for now especially because of the fact that this still needs post-patching. Post-Patch as normal, and remember you can do it off the install DVD without another partition.
+
+Soon I will release v3.1 which will have no post-patch needed. I'm just having troubles getting the kinks worked out. 
+
+As usual this patch contains all the fixes for this motherboard. The sound might require you to delete AzaliaAudio after the install so that AppleHDA loads, but other than that it should work just fine.
+
+As an added bonus this also boots on the Dell E520. I had to work with the AHCI a little to get it to boot. Some people have been having a hard time with AHCI and Leopard. I don't know if this has something unique or not, but it works fine for that computer too. No network, no GMA X3000.
+
+theStevo

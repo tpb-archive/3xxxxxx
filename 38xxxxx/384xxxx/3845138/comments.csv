@@ -1,0 +1,621 @@
+﻿User Type,Username,Date,Text
+,Aller1208,2007-10-17T02:44Z,"Yeah, but what's your point? "
+,Aller1208,2007-10-17T03:15Z,"True, except I'm not using .rar files - as I write, it contains the .mdf and .mds files. Perhaps I should have compressed it - but done is done ;-)"
+,Aller1208,2007-10-17T03:31Z,"Haha, true... Should have done that :S"
+,jacoblo33,2007-10-17T03:37Z,Any chance for anyone to upload the entire game or the mac files that should be on the same hybrid disc...?
+,Aller1208,2007-10-17T03:39Z,Mac-files are also on the disc.
+,benfran,2007-10-17T03:46Z,"Thanks alot aller1208.
+Hope to finally see the real one (after seeing so many fakes lately).
+Im downloading it right now, and i'd like to know if it's possible to copy it on a cd (in order to install it on a mac) or i have to use it only with daemon and yasu like rizl4 (so it would only be in windows) ?
+
+"
+,Legenden_,2007-10-17T03:48Z,where did you found this one?
+,Aller1208,2007-10-17T03:53Z,"With the right tool, you should be able to burn the image to a disc and install it on a MAC - I haven't tried burning it to a CD yet, so can't tell... Can't see why it shouldn't work though."
+,benfran,2007-10-17T03:55Z,"Thanks for the quick answer, i'll try to burn it tomorrow when hopefully it'll be downloaded.
+
+The only pb right now is that nobody is seeding in yours (there are 18 seeds in rizl4's...im downloading and be seeding both).
+"
+,Aller1208,2007-10-17T03:57Z,"Good good, I'm seeding for as long as possible and hopefully those that do download the entire file from me will see too... You can also burn RizL4's edition to disc, it should be the same one."
+,benfran,2007-10-17T04:02Z,"Ok, i'll try it tomorrow then. And let mac users know how it went.
+Thanks again"
+,max937,2007-10-17T04:20Z,does this work?? is the patch in it
+,Aller1208,2007-10-17T04:25Z,"The patch that arrives on friday? Wouldn't count on it, mate ;-)
+
+But it works fine, it's the same files that I'm using to play it with now...."
+,dr_horse,2007-10-17T04:26Z,"It installs, can't find my way round safedisc yet though. That's prolly my ineptitude rather than anything else. Nice job Aller, thanks for the effort. I'll do some seeding tomorrow."
+,max937,2007-10-17T04:27Z,thanks aller.. how do u get around safedisk?
+,Aller1208,2007-10-17T04:29Z,"Safedisc? It uses SecuROM, and instructions are in the .txt file that was in the torrent."
+,Aller1208,2007-10-17T04:33Z,"1) Use the following tools: 
+   - Daemon Tools 4.09 (4.10 is reported to NOT work)
+   - YASU (Yet Another SecuROM Utility) 1.4.7080 - get it here: http://www.cdmediaworld.com/hardware/cdrom/cd_utils_8.shtml#Y.A.S.U
+
+2) First, mount the .mds file in Daemon Tools. Install the game and choose to not run the game after installation has completed.
+
+3) Copy the YASU.exe file to the path where Daemon Tools is installed. Doubleclick the YASU.exe file to start the cloaking of Daemon Tools.
+
+4) Find the location where you installed Football Manager 2008 to. Rightclick the .exe file, and set it to run as Administrator and set compatibility 
+mode to Windows 2000 or Windows XP (Windows 98-mode returned an ""System does not meet the system requirements""-error when starting the game)
+
+5) It should now bypass the security check when starting the game. If not, make sure you've read this file again - it worked for me using this procedure.
+
+// Aller"
+,max937,2007-10-17T04:33Z,can you burn this and make it work... or does it require deamon tools
+,Aller1208,2007-10-17T04:35Z,Will most likely work when burned. Can't see why it shouldn't.
+,denilson,2007-10-17T04:35Z,"First of all, tanks aller for the upload!
+
+I have two questions:
+does it come a patch with updates on friday or around friday?
+
+if so, and you add the patch, is it compatible with a saved game (can you continue a saved game with a new patch)?"
+,Aller1208,2007-10-17T04:37Z,"As far as I know, a patch is due to arrive on the official releaseday (friday).
+
+It should be compatible with savegames, although I would create a new game after the patch has been installed."
+,denilson,2007-10-17T04:39Z,"ok, but that leaves me curious on why you then would create a new game?"
+,Aller1208,2007-10-17T04:42Z,"A patch changes some things in the game, and if you save a game in 8.0, apply the patch (8.0.1?) and just continue with the savegame, it might interfere with your old savegame - so a general rule is to always create a new game when applying a patch.
+
+Football Manager is a very complex game (codewise), and it's very easy for some new code to change existing code for the worse - without the programmers being aware of it."
+,setzel,2007-10-17T04:44Z,i cannot run the game i dont understand what to do in point 4 :(:(
+,Aller1208,2007-10-17T04:48Z,"Find your FM.exe file - if necessary use Windows' Search-tool to find it.
+
+Then click once on it with your right mouse button, and goto properties. There should be a tab called Compatibility (i suppose, I'm not on an English Windows). Tick off the first item (""Compatibilitymode""), and from the dropdown select either Windows 2000 or Windows XP.
+
+This step was necessary for most users on FM 2007 - however, it might not be necessary on FM 2008, have I found out after having written the .txt file. Try without this step first. If it works for you, hey... Enjoy."
+,denilson,2007-10-17T04:48Z,satisfying answer. cheers!
+,setzel,2007-10-17T04:50Z,Still cannot play can somebody explain me via MSN ???
+,max937,2007-10-17T04:51Z,alller ur brilliant
+,setzel,2007-10-17T04:52Z,Anybody wants to explain to me via msn ?:(
+,Aller1208,2007-10-17T04:52Z,"setzel: Sure thing, what's your msn ?"
+,dr_horse,2007-10-17T04:53Z,"Yea sorry I meant securom, am trying to do 2 things at once. Got it working now, just needed to update my versions of daemon tools and yasu. thanks again."
+,setzel,2007-10-17T04:53Z,"setzellos@hotmail.com
+thx aller:)"
+,Aller1208,2007-10-17T04:57Z,"Those of you that finished downloading off me, remember to seed it too!"
+,danielbiel,2007-10-17T05:26Z,"saudaçoes do brasil!
+
+comunidade do fm em peso baixando a parada 
+ehaueaueauea
+
+tomara que seja real...
+
+
+thank you for share, aller!"
+,JungelMannen,2007-10-17T07:02Z,"You Aller1208 are the man..:)
+
+Brilliant stuff \o/
+
+Also tnx for te good read me file, works perfect so far!"
+,Dagazzz,2007-10-17T09:42Z,"what are I´m doing wrong?? I can't play it... when I start it, it says that I should put in the orginal disc...
+
+have used YASU and it took the first warning message away that ssaid that I was using Deamon tools...
+
+anyone know what to do???"
+,Dagazzz,2007-10-17T09:51Z,have windows vista...
+,Dagazzz,2007-10-17T09:55Z,find the problem hade the v4.08 of deamon tool...
+,Cata2009,2007-10-17T10:00Z,is this the full version or the demo!!!
+,fakenbrokva,2007-10-17T10:02Z,finally. respect aller1208!
+,Mazwor,2007-10-17T10:08Z,"can i play this game on windows vista
+?"
+,Neuromancer1,2007-10-17T10:39Z,"Sorted nm. Nice one ;D
+
+Just had to give the computer a good old restart and turn off compatibility as that cause it to give me a message saying that system requirements were not met :P"
+,Sjiro,2007-10-17T10:42Z,When i select the .mds file nothing happens? Should I mount the .mdf file manualy?
+,planne,2007-10-17T10:47Z,"Vet någon hur man får detta att fungera till mac?
+
+/
+
+Does anybody know how to get this working on a mac?"
+,Sjiro,2007-10-17T11:28Z,"No one can help me out. Simply can't mount the .msd.. wont get any installing files. When I mount the .mdf with MagicISO though I can Install it but game won't start.
+
+Help me out please :)"
+,jacoblo33,2007-10-17T12:08Z,"Anyone managed to fix the securom protection on your mac?
+
+Using vmware and alcohol, I can burn the image and install it. But get an error message about inserting the original disc once I try to play it.
+
+Just having switched a few months ago, I am not that experienced with games on my mac. So anyway to fix this?
+
+I have tried to burn the game with all three securom settings in Alcohol, but neither seem to work..."
+,Cellador,2007-10-17T12:15Z,"Thanks Aller, will seed once downloaded. :)"
+,Dagazzz,2007-10-17T12:16Z,"works great on vista...
+
+thanx dor the upload aller1208"
+,tha_king,2007-10-17T12:21Z,i have tried about 5 times but it dosen't work. i hope  there will be a ny crack soon as possible
+,Aller1208,2007-10-17T12:23Z,tha_king: What are your system specs?
+,tha_king,2007-10-17T12:28Z,here is my msn. selver_kabiljagic@hotmail.com
+,Aller1208,2007-10-17T12:38Z,"That thing with not being able to run as administrator is a f*cked up thing on Vista. Hate it personally.
+
+Have you tried running without compatibility mode enabled? That worked for a few of my friends....
+
+Is that ""UAC""-thing (User Access Control) enabled or disabled on your system. Google for how to either turn it off or on."
+,d14z,2007-10-17T12:42Z,"we need more people like Aller in this world, btw where do u get this game"
+,d14z,2007-10-17T12:45Z,"i do not found any problem in vista, "
+,Aller1208,2007-10-17T12:45Z,"@d14z: Thanks ;-) And you don't think I'd tell you where I got it from, do you? :)"
+,Aller1208,2007-10-17T12:52Z,"One solution *might* be to disable your DVD/CD-ROM drive while playing - that proved to work for a friend of mine on XP... I'm on Vista myself, so hadn't had a chance to test it."
+,Qpad2,2007-10-17T12:56Z,"Dosent work for me, my deamon tools and yasu didnt find it its saids put in the direct cd!!!"
+,Qpad2,2007-10-17T12:58Z,Aller can you help me plz?
+,Aller1208,2007-10-17T13:02Z,"Note: Apparently Daemon Tools 4.08 won't work with it. As stated in the textfile, use ver 4.09... 
+
+Check your version of DT to eliminate that as a problem."
+,Qpad2,2007-10-17T13:02Z,Think my deamon tools cant read the mdf file!!
+,Qpad2,2007-10-17T13:03Z,i use version 4.09!!
+,Aller1208,2007-10-17T13:03Z,"Another note: If you have multiple CD/DVD-ROM drives in your system, and it doesn't work after having disabled the first one (get a message about System does not meet the minimum requirements), simple enable it again, and disable the remaining drives. That should do the trick..."
+,Aller1208,2007-10-17T13:04Z,"Qpad2: I did write: ""Mount the .mds file""... Not .mdf because that won't get you anywhere."
+,DeboO,2007-10-17T13:07Z,"Seed 4 speed
+
+
+Seed
+Seed
+Seed
+Seed"
+,Qpad2,2007-10-17T13:08Z,"how do i do when i have installed it, btw thnx for ul!"
+,Aller1208,2007-10-17T13:09Z,Qpad2: Read the .txt file ;-)
+,Qpad2,2007-10-17T13:22Z,Have done what you told me to do! but its says i should put in the correct cd:S
+,clapton_,2007-10-17T13:22Z,"Thank you VERY much!!! I've been looking forward to this in several months!
+
+One problem though! There is no speed!!! :( "
+,Aller1208,2007-10-17T13:25Z,"With 269 seeders, there's bound to be some speed soon, clapton."
+,Qpad2,2007-10-17T13:32Z,"Aller please can you told me what do , have read your readme ten times, have installed it, put yasu exe in deamon tools, and when i take run as and select admin i cant come in!:S
+"
+,dobberman88,2007-10-17T13:35Z,någn från sverige som har lyckats?
+,Qpad2,2007-10-17T13:36Z,Nej håller på förfullt!! Funkar fan inte!
+,Aller1208,2007-10-17T13:37Z,"Qpad2: Have you clicked on the ""Cloak""-button in YASU? :)"
+,Sjiro,2007-10-17T13:38Z,"Unfortunately, It just won't work for me. When I open .msd file in Daemon Tools, nothing happens :).
+
+I'll just have to wait till NO-CD crack. Freakin Vista :(."
+,Aller1208,2007-10-17T13:39Z,Perhaps you have to manually start the installation program. I had to do that ;-)
+,Qpad2,2007-10-17T13:43Z,Yes i have do that!! Its says wrong cd only:S
+,dobberman88,2007-10-17T13:50Z,orka lägga ut grejer som inte funkar ! :(
+,Aller1208,2007-10-17T13:51Z,Well it's working for most of us - there can be a few users who cannot get it to work. They simply have to wait for a no-cd crack or a *real* scenerelease.
+,valentiino,2007-10-17T13:54Z,asså jag förstår inte  .... kan nån säga hur man gör det här  !  nån som har gjort o det funkar kan väl skriva ner hur han gjorde det lr hur !
+,clapton_,2007-10-17T14:19Z,unbeliveble that i only reach 1/4 of my speed on this torrent when it's so manty seeders! anyone with a tip who to make it go faster? :) I use uTorrent.
+,planne,2007-10-17T14:23Z,Anybody who's got it working on mac?
+,Solarstorm,2007-10-17T14:24Z,"Konflikt med en emuleringsprogramvara som körs.
+
+Jag gör allt som står men detta kommer hela tiden"
+,sirsmarder,2007-10-17T14:26Z,"Come on please... Seed...
+I have 0 kb/s at the moment.. WTF....
+
+Help me guys, must play...."
+,dobberman88,2007-10-17T14:31Z,samma problem här Solarstorm  om du löser detta kan du skriva här hur du har gjort?
+,Crimson_Thunder_RLD,2007-10-17T14:51Z,Why are so many complaining? I just mount the file in Daemon Tools 4.10 and cloaks in yasu and had no problem. 
+,dobberman88,2007-10-17T14:59Z,"Crimson_Thunder_RLD  let us know if u use VIsta ? version of YAsu?
+how did u do?"
+,Cata2009,2007-10-17T15:20Z,"Is this the full normal version that supossed to appear friday ,19 because it downloads really slow and i wouldn't want to waste my time.Someone please give me an answer!!!;-)"
+,dobberman88,2007-10-17T15:22Z,"this shit doesnt work!!
+
+it so simple"
+,2gether4ever,2007-10-17T15:27Z,seed seed seed seed seed
+,planne,2007-10-17T15:29Z,Does anybody got any clue how to get this working on a mac?
+,Aller1208,2007-10-17T15:30Z,dobbermann: Works just fine.
+,dobberman88,2007-10-17T15:37Z,"Aller1208  i have done like u write but nothing works?
+
+have tried with dt 4.09 4.10 YasuYASU_1-4-7080 and YASU_1-4-7070 nothing works can u help me?"
+,Aller1208,2007-10-17T15:39Z,"Sure thing. What system are you on? XP or Vista ? If on XP, remember to disable your DVD/CD-ROM drives except one, if on Vista remember to set it to run as administrator.
+
+No matter what OS you are on, always restart your computer."
+,2gether4ever,2007-10-17T15:42Z,seed seed come on
+,pampiermole,2007-10-17T15:43Z,"how to disable cdrom drives?
+
+Will it work with the exe of the demo? That one didn't ask for a dvd"
+,Cata2009,2007-10-17T15:45Z,"Aller1208 i this the real deal which will be officialaly launch on friday,19 octomber?!! Pls give me some nfo "
+,dobberman88,2007-10-17T15:47Z,have restartet still not working seems that ill have to wait for a crack :P
+,Jab-Drinker,2007-10-17T15:49Z,Yihaaa!! Thanks!! :D
+,paltbo,2007-10-17T15:54Z,"I have the same problem as Dobbermann. Aller 1208 wrote: remember to disable your DVD/CD-ROM drives except one. Where will I do that?
+I have XP."
+,Cata2009,2007-10-17T15:54Z,Seeed seed seed
+,pampiermole,2007-10-17T15:55Z,"I had a perfect solution: copy the fm.exe from a demo (i did vanilla) to this game and it will work! The other things didn't work for me either, this did!"
+,Aller1208,2007-10-17T15:55Z,"Of course did the demo not ask for a DVD. If you use the .exe from the demo, you will only get a demo version. 
+
+It's the real deal which will come out on friday.
+
+Rightclick on My Computer if you're on XP, if you're on Vista goto your Control Panel to disable the drives."
+,Aller1208,2007-10-17T15:57Z,pampiermole: Please tell me when you get past the 6 months in the game then.... 
+,pampiermole,2007-10-17T15:58Z,"Damn, your right.. i was too happy!"
+,Aller1208,2007-10-17T16:02Z,It's obvious! They just don't put out a full .exe with a demo version... They're not completely stupid @ SI (although it's close sometimes)
+,pampiermole,2007-10-17T16:03Z,"Yeah, it's a side-effect from my addiction to this game... i'll have to go to re-hab"
+,morfar_,2007-10-17T16:03Z,"try this
+
+http://www.disc-tools.com/download/yasu"
+,sani13,2007-10-17T16:04Z,"Kan nån förklara för mig på svenska hur man ska få igång spelet???
+
+Har win xp
+har deemon tool"
+,paltbo,2007-10-17T16:04Z,I give up. I just cant get it to work. I have to wait till the next version that comes out.
+,Cata2009,2007-10-17T16:04Z,"Aller1208 i mus thank you indeed for releasing this one of a hell game.You are my hero, it would be nice if all dude on TPB could be as good as you ;-)"
+,sani13,2007-10-17T16:05Z,"svara gärna till mitt mail
+sani13@hotmail.com"
+,dan3000,2007-10-17T16:08Z,when does the crack come out
+,d14z,2007-10-17T16:10Z,"o yeaah I almost forget, today is ANAKATA b'day isnt it?HAPPY BDAY !!"
+,morfar_,2007-10-17T16:16Z,"THIS IS WORKING!
+
+DAEMON TOOLS ONLY 1 DEVICE
+
+Please copy YASU.exe to your DAEMON-Tools directory).
+open the program and click only 1 time at cloak.. then click on fm.exe and it work.. if not.. retry..close the program down and so on :) 
+
+gl hf"
+,dobberman88,2007-10-17T16:19Z,det fungerar inte helt enkelt varför ger det ut sånt skit som inte funkar ..som tar så jävla lång tid o till slut blir man tvungen o skriva ner det här fixa riktiga grejer ungar! 
+,pampiermole,2007-10-17T16:19Z,it's not working
+,morfar_,2007-10-17T16:21Z,if u have antiblaxx remember to close it.. and if u have other crap program to crack games and stuff close it.. only DT and YASU
+,Aller1208,2007-10-17T16:22Z,"dobbermann88 & pampiermole:
+
+I uploaded the torrent because it worked for me. Judging from many of the comments in here and from my friends, who are also playing the game now, it's works just fine. As with everything, it cannot work on *all* computers. I'm sorry if it doesn't work for you, but to your help, there's probably a crack out soon.... To summarize: IT WORKS."
+,dobberman88,2007-10-17T16:23Z,nu får jag medelande Fel CD/DVD skiva i läsaren hur gör man då?
+,pampiermole,2007-10-17T16:25Z,I'm happy with it aller1208! There there will be a crack soon (anyone knows how to make one?)
+,dobberman88,2007-10-17T16:29Z,"Aller1208  thanks but its borring when its not working on ""aLL"" computers and only in some cause as u can read there are more people who has problm to start the game?!
+
+have to wait for crack "
+,disriel,2007-10-17T16:34Z,"done everything in readme, and this is the error message i get:
+
+Please remove disc from current CD/DVD drive and insert the original ""Football Manager 2008 SKU03 - Benelux"" disc
+
+now.. what to do? :o"
+,khano,2007-10-17T16:47Z,"when i try to ekstrakt the file, it says the file is currupt, any body els with this problem?
+
+Can some one please help me"
+,Aller1208,2007-10-17T16:49Z,"Don't extract, just mount the .mds file in Daemon Tools."
+,khano,2007-10-17T16:57Z,you have to upen/ekstrakt the rar file? 
+,Cellador,2007-10-17T17:00Z,156 seeds but the speed is real slow. 1 of you must have a good upload speed surely!
+,Aller1208,2007-10-17T17:03Z,Khano: There's no .rar file when downloading this torrent. Surely you're thinking of RizL4's upload?
+,hicham_avara,2007-10-17T17:08Z,10x
+,khano,2007-10-17T17:15Z,"No i have downloaded this, When i download I get a rar. When i try to ekstrakt i can se there is to file :mdf and mds. But the problem is when i ekstrakt, it says the file i kurrupt. "
+,khano,2007-10-17T17:18Z,"which file do I need to open with daemon tools, is it mdf or mds"
+,Aller1208,2007-10-17T17:21Z,"Trust me, Khano. You did not download files with this torrent, if you see some .rar file. Rizl4 uploaded a .rar file which contains the same files.
+
+Mount the .mds file."
+,SonieBoy,2007-10-17T17:22Z,Are There Anybody there can help me on Danish ? Plzzz
+,knyken,2007-10-17T17:25Z,"thx dude Its works ! :D
+
+spelar nu :)"
+,SonieBoy,2007-10-17T17:27Z,WHERE IS directory?
+,khano,2007-10-17T17:31Z,"Aller1208 @ sorry and thanks for your help, you are right."
+,SonieBoy,2007-10-17T17:31Z,"How did I do when there stay Copy the YASU.Exe to your Deamon-Tools Directory , then rune the application again ? "
+,Kaplan86,2007-10-17T17:32Z,"Hi, Aller1208 I've done everyting u ask me for.. can u help me on msn messenger ? add me anybody who knows how 2 work this game.. Onur_kaplan_@hotmail.com"
+,SonieBoy,2007-10-17T17:39Z,"ALLER1208 , PLZ HELP ME ! :)
+
+Please copy YASU.exe to your DAEMON-Tools directory ? Tell Me how I do "
+,SonieBoy,2007-10-17T17:54Z,"ALLER1208 , PLZ HELP ME ! :)
+
+Please copy YASU.exe to your DAEMON-Tools directory ? Tell Me how I do"
+,nandorpall,2007-10-17T18:00Z,can i do something if i don't meet the minimum requirements ? other then buying some rams ? thanks 
+,Endymion86,2007-10-17T18:02Z,It says I don't meet the system requirements - which I most certainly do :P - why is that?
+,iranpuur,2007-10-17T18:07Z,l'm downloading this..l really hope it's work..and l trust aller so hope it works :)
+,SonieBoy,2007-10-17T18:17Z,"
+3) Copy the YASU.exe file to the path where Daemon Tools is installed. Doubleclick the YASU.exe file to start the cloaking of Daemon Tools.
+
+I DIDENT UNDERSTAND THAT ? ENYBODT THERE CAN HELP ME , ? "
+,nandorpall,2007-10-17T18:20Z,you just copy the file ( .exe ) in the directory where daemon is installed ( usually c:program files : daemon tools ) and before you open the game you double click YASU and you press cloak ;) 
+,SonieBoy,2007-10-17T18:24Z,"Yes, and when i click on the file there come an pop-up where there star : Unable to locate the file ""daemon.dll""and/or""dtpro"".dll"" . PLease Copy ""YASU.exe"" to yout Daemon Tools Directory , then run the application again ? 
+
+What did I do Now ? "
+,missse,2007-10-17T18:32Z,"Sonieboy: 
+I had the same prob. Your Daemon-Tools version is too old. Download the newest version."
+,boekouw,2007-10-17T19:37Z,"for people who have trouble getting the game to work, remember to disable other virtual drives like nero imagedrive or alcohol 120%"
+,iranpuur,2007-10-17T19:43Z,meet the system requirements??? please help
+,Dhill0n,2007-10-17T19:47Z,How do i find password of that Administrator shit?
+,Cellador,2007-10-17T20:01Z,"Stuck at 42.8% 
+
+Downloading at 0kb/s :("
+,Dhill0n,2007-10-17T20:06Z,can i have a answer?
+,khano,2007-10-17T20:10Z,"working perfekt, thankyou aller1208.
+
+download the crack those who have problem.
+
+loder have uploudet the torrent.
+http://thepiratebay.org/tor/3846118/Football_Manager_2008.CRACK-HATRED"
+,khano,2007-10-17T20:12Z,"Dhill0n @ administrator is computer owner, if its your computer then you must be the admin, and then you must know the password. if its not your computer then ask the admin... for the pass."
+,benfran,2007-10-17T20:19Z,"Hi, im using a mac, i could install it perfectly, but when i start the game it says ""insert original disc"".
+
+For windows there is yasu, but anyone has an idea of how to do it on a mac? 
+
+I burnt the mdf file on a cd."
+,Cata2009,2007-10-17T20:21Z,The crack was just released 30 minutes ago so stop worring!!!
+,benfran,2007-10-17T20:25Z,Does the crack work for mac also ?
+,khano,2007-10-17T20:34Z,"benfran @ the crack is only 5mb, you ca download and try it"
+,benfran,2007-10-17T20:44Z,"I did but it doesen't work on mac, as both files are .exe "
+,Qpad2,2007-10-17T21:12Z,"Ty aller get it work!!
+
+
+For all!!!!
+
+Install deamon tools 4.09 and yasu, put yasu exe file in deamon tools. open deamon tools click virtual cd/dvdrom, go down to set number of deviance to 1! Mount the mds file. Then it comes up in ""my computer"" like you have a cd! Install it! When you have done that open yasu in deamon tools and cloak. Then you go to football manager folder and double click on exe and wippps it works!!"
+,reyder,2007-10-17T21:43Z,Thank you Aller1208! It is great work!
+,Mattdp,2007-10-17T22:48Z,"If somone have a Danish Language File, to Football Manager 2008.., Plz Link it.. 
+
+Nice :)"
+,Totto2209,2007-10-17T23:51Z,"hello aller1208. i was just wandering. I have xp and i get the system dont have the requirements thtas needed. I saw you had written that on you instruction that this might happende, but what am i going to do about it?  i have tryed it all, belive me! please help me."
+,reyder,2007-10-18T00:08Z,"Totto2209. 
+Delete compatibility 
+mode to Windows 2000 or Windows XP!"
+,Totto2209,2007-10-18T00:23Z,but how and where do i do that? please help me again...... im desperat!!!
+,reyder,2007-10-18T00:36Z,"In fm.exe file. Run game with yasu and tools all options without compatibility! Virtual DVD-rom must be next after hard drive and one!
+It is work!"
+,tha_king,2007-10-18T00:39Z,I have Danish language file
+,Hellfire-Dreadnought,2007-10-18T00:40Z,tha_king can u seed your danish language then?
+,Hellfire-Dreadnought,2007-10-18T00:41Z,Also to everyone .. Make sure that your YASU is the newest version. ETC IT DOESNT MATTER WHAT VERSION DT IS. Mine is 4.10 and its working like a charm.
+,Qpad2,2007-10-18T00:56Z,"Totto get deamon tools run 1 deviance and get yasu latest and get the yasu file i deamon tools folder, mount mds file you get when you installed football manager,install it, open yasu cloak, and then it will work!!"
+,Mylbas,2007-10-18T11:09Z,I cant find the daemon tool ver. 4.09 anywhere. Can someone give me a link to it? 
+,hawk^,2007-10-18T11:55Z,"Tha_King > Upload lige den danish language pack plz. 
+
+Evt. på peecee.dk eller lign. :)"
+,psytrance88,2007-10-18T12:05Z,http://www.filehippo.com/download_daemon_tools/
+,tha_king,2007-10-18T12:46Z,"Her er linket til den Danske language pack..
+http://peecee.dk/?id=73540"
+,iranpuur,2007-10-18T13:10Z,hah...thhank you aller..now it's work finally :D::D
+,PF85,2007-10-18T13:16Z,"Heres a little help for those who cant get it to work.
+
+I havent scrolled the pages, so if anyone already have come with this solution, then sorry, I dont mean to rip your solution.
+
+Download game
+
+Mount file with Daemon Tools
+Go to: www.gamecopyworld.com - Search for Football Manager 2008 - Get the exe swap file and copy it into your FM2008 directory and overwrite your original fm.exe file.
+
+---
+
+Language:
+
+You can simply use the languages from the FM2008 demo. Just copy it into the excact same directory as in the demo.
+
+Have fun."
+,Mysticus,2007-10-18T13:33Z,"If anyone finds a solution for the mac-version, please share it with us."
+,benfran,2007-10-18T14:23Z,"There's still no solution for mac...im playing the game on an intel imac, but with vmware fusion (and windows xp), thanks to the hatred crack, but can't do it directly on mac os, waiting for a crack for mac.
+
+So mac users, if you want to play, just install vmware (or parallels) with win xp and play it, it goes very smooth."
+,aimr,2007-10-18T14:24Z,someone who now how i get norwegian language?
+,PF85,2007-10-18T15:00Z,aimr - Read my post. Theres a guide how to get it
+,SonieBoy,2007-10-18T15:34Z,System does not meet minium requrirements ? What should I do now ? 
+,SonieBoy,2007-10-18T15:49Z,System does not meet minium requrirements ? What should I do now ?
+,Mattdp,2007-10-18T16:43Z,"You are the best tha_king !!!!
+Thx."
+,Bjoar,2007-10-18T17:24Z,"hi, can sombody help?`can't find any fm.exe Files! Only rar...
+i dont know what to do"
+,Jab-Drinker,2007-10-18T18:05Z,"Works great with Yasu..
+Remember to use Daemon tools 4.09. Daemon tools 4.10 won't work.. So I've heard..
+
+Thanks for a beautifull game! :D"
+,Bjoar,2007-10-18T18:18Z,"okei, i have deamon tools 4.10... so than i have to install 4.09 instead?
+never used yasu;S tried 5 minutes ago, but didn't understand how it's work?;S heh
+Don't u need crack when u use yasu?
+hmmm...."
+,Osterhus,2007-10-18T18:48Z,seed!
+,valantis_n,2007-10-18T20:45Z,"Azzå, jag misstänker att det här e bara skit, jag har testat 100 ggr, men inte fått det att funka, jag har nyligen installerat windows xp och har inte angett nån password för admin, hur fan kan den begära password?"
+,rob1408,2007-10-19T11:55Z,"Sonieboy-re: does not meet system requirements.
+
+Right click on FM2008 icon
+Select compatibility
+Set compatibility mode to OFF
+run the game.
+I had the same problem and this worked for me."
+,marcelnederland,2007-10-19T14:23Z,"hello
+
+i did everything what i must do but at the end i can't find fm exe file(or the exe file is the thing with the fm logo). if I click the fm logo(and i got him on windows 2000) than i get something with the emulator software??? what can i do to let the game work? someone help me pleasseee????"
+,bcking6913,2007-10-19T16:00Z,"SI modded the game to include bugs for pirated copies. Hopefully it won't take long to fix.
+http://community.sigames.com/eve/forums/a/tpc/f/521102691/m/2262078153
+http://footballmanagerportal.co.uk/blog/football-manager-football-manager-2008-is-unplayable-without-a-patch/
+"
+,holtheyo,2007-10-19T17:25Z,bcking6913 it's not a problem with this version
+,valantis_n,2007-10-19T17:37Z,Thanks man it worked!!!!!
+,warden90,2007-10-19T19:07Z,"This works great! Just do exactly as told in the guide. You don't have to wonder of it's the real thing or not, because it IS real. Great upload:)"
+,reyder,2007-10-19T21:07Z,"bcking6913
+No, it is false from SI!
+I was downloading from this torrent and in my game it is not this bugs!
+they do not know that bug is true or no in license!
+
+probably this bugs makes CRACK fm.exe file!
+if use YASU WITHOUT crack it works GREAT!
+This version works!"
+,gunni4,2007-10-20T03:02Z,"Ok this is how i understand this...
+The torrent itself is basically the cd that u buy in stores.... now i don't believe i can follow the instructions to bypass the cd check thing but i did find a nocd .exe file at megagames
+
+Can someone with knowledge tell me if this is real and if so don't i just have to download the torrent, install fm08 and then switch the .exe files??"
+,gunni4,2007-10-20T03:04Z,"and aller, why do i need a patch from today(friday) if this is the real full game??
+Respect....  :)"
+,colorscrazed,2007-10-20T04:39Z,"why does it takes so long to donload this file... im on my second day alreasdy... huh..
+everyone, please seed this at a higher speed... please"
+,reyder,2007-10-20T14:20Z,"1) Use the following tools: 
+- Daemon Tools 4.10
+- YASU (Yet Another SecuROM Utility) 1.4.7080 - get it here: http://www.cdmediaworld.com/hardware/cdrom/cd_utils_8.shtml#Y.A.S.U
+
+2) First, mount the .mds file in Daemon Tools. Install the game and choose to not run the game after installation has completed. Only ONE! Virtual in Daemon!
+
+3) Copy the YASU.exe file to the path where Daemon Tools is installed. Doubleclick the YASU.exe file to start the cloaking of Daemon Tools.
+
+4) Start the game"
+,reyder,2007-10-20T14:22Z,"1) Use the following tools: 
+- Daemon Tools 4.10
+- YASU (Yet Another SecuROM Utility) 1.4.7080 - get it here: http://www.cdmediaworld.com/hardware/cdrom/cd_utils_8.shtml#Y.A.S.U
+
+2) First, mount the .mds file in Daemon Tools. Install the game and choose to not run the game after installation has completed.Only one virtual in daemon!
+
+3) Copy the YASU.exe file to the path where Daemon Tools is installed. Doubleclick the YASU.exe file to start the cloaking of Daemon Tools.
+
+4)Start the game"
+,Ludders,2007-10-20T19:00Z,"Very good game!!! =) 
+But can anyone give me the swedish language??
+Please!! please!!!!! 
+
+Add: Ludde-of-Life@hotmail.com"
+,reyder,2007-10-21T06:07Z,You have find swedish language in FM2008 DEMO.Copy file and play! It is full.
+,nielszz22,2007-10-21T16:09Z,Im downloading .. i hope it works !!!
+,marvedyret,2007-10-21T17:09Z,how do i set compatibility after rightclicking on the exe-file??
+,emmet14,2007-10-21T19:10Z,iam ata loss here i cant get it to ork. i use daemon version 9. i triedd that YASU thing and it came back that i was using that straight away then i did that system compatibilty thing to windows xp and it had no effect. i use vista anyone any solutions?? aller plz help!!!!
+,emmet14,2007-10-21T19:34Z,forget dat last comment what happenend was i downloaded the wrong copy of yasu. i got 4 instead of 4-7080. thanks for great upload aller works great now!!!
+,vadÃ¶,2007-10-21T20:21Z,"""did not find fond resource: fonts/vera"" What does this ean and what do i do about it?"
+,TajKyH,2007-10-21T23:52Z,"can somebody explain me how to install this game...?
+I don't understand a part with YASU
+
+my msn:   sveta_va@hotmail.com
+
+pls..."
+,scovern,2007-10-22T01:18Z,"Works Great For me Thanks aller, If the instrustions dont make sense to you then install the game then go on www.gamecopyworld.com and download the crack from there, then replace it for the fm.exe image found in the program files. thank you once again aller :) "
+,RaWKRoN,2007-10-22T14:48Z,"Hi there,
+Just to let you know, YASU DOES work with DEAMON 4.10 ! (In the README file it says it doesn't) Thanks a lot for this !
+In the previous version I couldn't buy Torres for Liverpool and now he comes free with the game. Thruth is stranger than fiction sometimes !
+Thanks again !"
+,Huxi88,2007-10-22T21:49Z,plz seed!!! I LOVE THIS GAME!!!
+,CreativeHenke,2007-10-22T21:50Z,seeda please
+,Mehdii,2007-10-22T23:20Z,"IT WORKS FOR ME!
+thank you very much aller1208 your the man!
+Dedicated for those who have failed!
+Just follow Aller1208s guide in the pack you have downloaded!
+
+THANKS ALLER1208!"
+,rikdegraaff,2007-10-23T23:40Z,I can't get it faster then 1KB/s
+,electric69,2007-10-24T04:17Z,"need help!
+(1) i accidentally set the ""fm2008.mdf"" file to open with daemon.do i have to download the game again or how can i get it back
+
+(2) i mounted the .mds file in daemon...but where do i install the game? :S i dont see any .exe file and when i double click on either of the 2 files i downloaded they just ask me to select a programme to open with, or else use the net.
+
+Thanks for your help :)"
+,Syla90,2007-10-24T21:08Z,what is the password???
+,devineaidan,2007-10-25T00:27Z,"I have done everything I was told but when I try to open the game, oe even copy the crack this msg appears: Conflict with emulation software!
+
+What do I do? Someone please help!!"
+,addre99,2007-10-25T17:29Z,Anybody who knows why my game crashes everytime i click on continue ? plz answer
+,LiCk_ShOtZ,2007-10-25T18:21Z,"ok im a complete noob at this... ive downloaded the daemon tools, its the correct version and everything... but.. now im lost!!! how do u mount the files onto daemon tools? :$"
+,LiCk_ShOtZ,2007-10-25T18:32Z,"ok nvm, ive figured out how to mount it and installing it now... i'll probably get stuck on the next stage knowing me tho!"
+,devineaidan,2007-10-25T21:49Z,Please can someone help with my above q?!!!
+,alex019,2007-10-26T03:13Z,works fine to me great game !
+,electric69,2007-10-26T04:35Z,Can anyone please help me with the installation? please?!
+,Lillstjerna,2007-10-26T11:54Z,Who do i download the YASU file?
+,2gether4ever,2007-10-26T14:33Z,i have done everything but it just stand when i open the .exe file it sais : putt in another cd in the other drive wtf is that suppost to mean????
+,vabamark,2007-10-26T14:52Z,Hello!what is the password for unpacking
+,vabamark,2007-10-26T14:52Z,password please
+,popnizzen,2007-10-26T19:58Z,"Hi
+Can some1 plz make a new crack, so we can play with the beta patch????? Need it for tomorrow"
+,_Daviid_,2007-10-27T02:02Z,password please ?
+,tubber,2007-10-27T10:08Z,Password?? Anyone...
+,tmeamy,2007-10-27T13:16Z,please please tell me know the password to unzip. please i'm counting on you! thanks......
+,christoff2007,2007-10-27T13:43Z,works perfectly when you download a different crack
+,tmeamy,2007-10-27T14:06Z,i got rar file from this download but it asks for a password for unzip. please... 
+,TommyUnited,2007-10-27T23:15Z,"Where do I get the fucking YASU program/file?? I clicked on the link, and selected YASU 1.4.7080, and a window with Mirror's came up. I clicked on Mirror #1, and I came to another site... what now??? Please!
+
+Waiting for an answer."
+,TommyUnited,2007-10-27T23:28Z,"ok.. Now Im finally installed the YASU. I cloaked DT, and now I am supposed to rightclick on the fm.exe file... I cant find it.. in the folder where I downloaded Football Manager 2008, is there only mds and mdf files... and ""How to run"" offcourse... Can you help me, Aller?? Or someone else?? "
+,cr17port,2007-10-28T06:28Z,"password is ec0525047b9ceb2232463e232e23504f62635e3c
+
+Here you go guys
+these people arnt kind enough to answer a simple question"
+,OlaNordman,2007-10-28T11:25Z,"Here is a link for MAC users. How to make this cd work
+http://www.neowin.net/forum/lofiversion/index.php/t407092.html"
+,heroman1,2007-10-28T14:01Z,"hello.
+i don't understand number 4?
+where do i find the fm.exe file?
+i have searched on windows search tools but i dont find it there, just help me with this, please.
+
+help me on msn : julia_halvorsen@hotmail.com"
+,heroman1,2007-10-28T14:03Z,"hello.
+i don't understand number 4?
+where do i find the fm.exe file?
+i have searched on windows search tools but i dont find it there, just help me with this, please.
+
+help me on msn : julia_halvorsen@hotmail.com "
+,heroman1,2007-10-28T16:34Z,"how do i have another language, i want a norwegian language what do i have to do to get it?
+
+tell me please by steps"
+,TommyUnited,2007-10-28T21:34Z,Nice Game ALLER!! It works Perfect! But where shall I place the Norwegian.ltc file for norwegian language?? Pleace help me!!! 
+,Killerbean513,2007-10-29T17:11Z,"hey .. I´ll done how it stands i shall do. but when i start Fm2008 icon there comes "" Conflict with Emulation Software detected.
+Please have a look at http://www.securom.com/message.asp?m=emu&c=2500 for further, more detailed information.""  what shall i do?"
+,eirikflostrand,2007-10-29T19:48Z,"Hei. Where or what is the YASU.exe? I have installed the game, but i dont understand the next step. I know that i should copy the file to the path where the daemon tools is installed. Can someone help me?"
+,kallesnopp,2007-10-29T23:20Z,http://thepiratebay.org/tor/3850297/Football_Manager_2008_Including_Crack_And_Language_Pack-Fisk This can u install like oldtimes! :)
+,Eddyboy26,2007-10-31T00:17Z,dsdsd
+,the_legend_killer,2007-11-01T16:53Z,"I've followed the exact guidelines, even down to reinstalling my Daemon to make it 4.09. 
+
+And it still doesn't work!"
+,the_legend_killer,2007-11-01T16:53Z,It gives the system doesn't meet minimum requirements-explanation...
+,henkie88,2007-11-02T11:41Z,seed please
+,henkie88,2007-11-02T14:58Z,"thx, works fine for my.. just read the file and use your brains"
+,djpat99,2007-11-05T15:01Z,"Works great, clear instructions.  Thank you very much Aller"
+,Dainho,2007-11-06T23:41Z,"This doesnt work, football manager 08 have blocked the Daemon-tools!
+
+It means we cant use daemon-tools to play!
+
+Not either alcohol..
+
+SAD!"
+,Matthewjohnson,2007-11-13T19:54Z,"hey .. I have followed every step by the instructions. but when i start Fm2008 icon there comes "" Conflict with Emulation Software detected.
+Please have a look at http://www.securom.com/message.asp?m=emu&c=2500 for further, more detailed information."" what shall i do?"
+,P-smurf,2007-11-14T22:26Z,"Hey Ive followed the steps as far as Rightclicking the .exe file, and setting it to run as Administrator but whats the password, it wont allow a blank space?? plz help if u can"
+,luiztuf,2007-11-15T17:21Z,"People, I also was having problem to play it whitout crack, but it works when I downloaded the last version of daemon (4.10) here http://baixaki.ig.com.br/download/Daemon-Tools.htm and YASU here http://yasu.copybase.org/ and followed the instructions in the .txt archive.
+If U still have problem, contact me by the msn: luizcavalcanter@hotmail.com
+Ps.: Pessoal do Brasil pode falar em português mesmo hehehe"
+,Kungen1904,2007-11-15T18:13Z,can i delete the .mdf and .mds files? can i delete those without problems with the game?
+,addre99,2007-11-16T14:57Z,"any1 got this problem ?
+Ive played 1 season and on 18:th of June the game stops and i cant continue?
+plz help me somehow some1"
+,-pingo-,2007-11-17T16:00Z,funker det på vista??
+,Kungen1904,2007-11-18T20:39Z,ja det ska funka på vista
+,betamix,2007-11-20T02:33Z,"plaes help me, i get this massage every time:  Please remove disc from current CD/DVD drive and insert the original ""Football Manager 2008 SKU03 - Benelux"" disc
+in drive E:.
+what can i do????????"
+,hcbenites,2007-11-20T11:34Z,"Como q faço pra instalar, baixei este link, abre uma pasta e naum tem nenhum instalador. Obrigado"
+,Sharimi,2007-11-27T14:04Z,"LOLS !!!!
+
+Burn this on alcohol 120 %
+
+If u wanna to have other language go to your directory install folder click data folder then click folder language and copy your file of language"
+,jeke_fire,2007-11-29T12:21Z,seed plz
+,thacheboy,2007-12-07T18:03Z,good game!
+,Kungen1904,2007-12-21T01:52Z,betamix did u follow the instructions?
+,Kreston,2008-01-02T01:01Z,Works perfect! i had some problem first but after making it run as XP SP2 + restart it worked great. v4.09 Deamon tools! vista
+,Dazuel,2008-01-16T19:35Z,Please seed
+,Dazuel,2008-01-16T19:36Z,"Anybody there?
+
+Max your upload please"
+,Dazuel,2008-01-16T19:41Z,"forget it
+
+not enough seeders"
+,xebz,2008-01-24T10:56Z,Uppdatera till 8.01 (fm2008) kör sen med yasu och deamon tools 4.12 (senaste) works like a charm :)
+,devtrax,2008-03-03T21:59Z,ok i followed his steps but i cant seem to run the game in admin mode cause idk my admin pass anyone know wher ei can find it? =/
+,devtrax,2008-03-03T22:07Z,"Please remove disc from current CD/DVD drive and insert the original ""Football Manager 2008 SKU03 - Benelux"" disc
+in drive E:.
+Please have a look at http://www.securom.com/message.asp?m=other for further, more detailed information.    .....what am i suppose to do?????????????????????/"
+,devtrax,2008-03-03T22:08Z,"Please remove disc from current CD/DVD drive and insert the original ""Football Manager 2008 SKU03 - Benelux"" disc
+in drive E:.
+Please have a look at http://www.securom.com/message.asp?m=other for further, more detailed information.   ...what am i suppose to do?"
+,krisyrfc,2008-03-05T00:12Z,is this the version with the bug that eveytime you score from a corner its disallowed?
+,holly21t,2008-03-11T18:03Z,hi i manage to install game played on it for 1 night and now when i try to get on the game it say please remove disc from current cd/dvd drive and insert the original football manager 2008 sku03-benelux disc. can anyone help me? dont no what to do. thanks
+,Shadowlyfe16,2008-03-14T23:00Z,"Where do you lot find that YSU.exe file?
+
+Help please"
+,J1veBunny,2008-03-27T01:07Z,keeps telling me wrong disk... followed all instructions... how do i get it to work??
+,spraggy2,2008-03-27T13:34Z,if you can't get it to work type in google football manager 2008 NO CD CRACK then start downloading it once it has downloaded extract the file it will then have the same icon as football manager the game itself. open my computer and go to the hard drive u have installe football manager on now click program files and you will then find a folder named sports interative that is where football manger is saved now the drag the NO CD CRACK file into that folder and in will say overwipe click yes and once it has complete the game will run very nice
+,ollak35,2008-04-06T19:39Z,"Till alla svenskar som inte kan få igång det; Jag har Windows XP och har fått igång det utan problem. Se till att du har skaffat Daemon tools 4.09, och YASU 1.4.7080. Använd bara en drive, och mounta FM2008.mds som ligger i mappen du laddat ner. Efter du mountat så kopiera YASU.exe filen som du laddade ner och lägg den i den mapp där du installerat daemon tools. Dubbelklicka på YASU.exe och tryck på ""cloak"". Stäng inte YASU efter detta utan minimera det! Om du nu dubbelklickar på fm-skivan på din ""den här datorn"" så ska det börja installera eller om du redan installerat, börja köras. Detta är precis vad jag gjort och det funkar bra för mig."
+,jarekbanan88,2008-04-11T10:36Z,seed please!
+,jayscot,2008-04-13T13:48Z,"how do you copy the YASU.exe to DAEMON-Tools directory ? Please help me, i will be very grateful"
+,not.so.whiz.kid,2008-04-29T17:33Z,"i hope this works!
+anyone know tell me how i can put it onto disc? would xilisoft dvd creator work?"
+,not.so.whiz.kid,2008-04-29T18:40Z,"CAN ANYONE TELL ME HOW TO MOUNT THE MDS FILE IN DEAMON TOOLS?
+"
+,not.so.whiz.kid,2008-04-29T19:01Z,"ok sorry about all the comments, but im really not too good at this.
+
+I can't do point three. copy the YASU.exe file to the path where deamon tools is installed.
+
+i dnt understand that, how would i go about doing that?
+
+thanks in advance!"
+,not.so.whiz.kid,2008-04-29T20:31Z,"ok so ive heard somthing about a crack?
+(as you might have guessed i dnt have a clue what it is...)
+
+anyway, i downloaded one from alink and it said to coppy the fm.exe file and put it into the folder i installed FM to, but when the crack has downloaded onto my computer, it doesnt open or anything! it just sits there on my desktop :("
+,inwinter,2008-05-29T00:29Z,Seed please...........
+,kronk2000,2008-07-28T18:58Z,"THANKS ALLER1208!! Great upload. Works perfekt once I un-installed DaemonTools 4.11 and installed v.4.09... As u instructed!!
+
+//
+kronk"
+,soccerskillz30,2008-08-15T00:42Z,"does the daemon tools thing work for vista?  cuz whenever i mount it, it says the file can not be accesed?"
+,soccerskillz30,2008-08-15T01:15Z,"PLEASE HELP!
+ for tthose who know how to install it and works perfectly for them please help me install by msn:D
+
+manchester.united9@hotmail.com
+
+PLEASE!! and THANK YOU!"
+,bananattack,2008-08-15T16:40Z,"ollak35:
+Tror jag lagt YASU.exe-filen i mappen där jag installerat Daemon Tools. Men när jag dubbelklickar på YASU-filen så står det: Unable to locate the file ""daemon.dll"" and/or ""dtpro.dll"". Please copy ""YASU.exe"" to your Daemon Tools-directory, and then run the application again."
+,bananattack,2008-08-15T17:22Z,"I will post my previous comment in english too.
+I think i've put the Yasu.exe-file in the right path but when i doubleclick on the YASU-file it says: Unable to locate the file ""daemon.dll"" and/or ""dtpro.dll"". Please copy ""YASU.exe"" to your Daemon Tools-directory, and then run the application again.
+
+Please help, i really wanna play this game!"
+,Bajskorven25,2008-08-29T12:42Z,please I can't find the daemon tools file..please help mee!!
+,deson2k8,2008-12-29T01:24Z,this is what you need ha
+,thesnack,2009-03-14T21:46Z,"Hey Aller, thanks for a great torrent and wonderfull follow-up work! There's just one thing: I followed the instructions in the readmefile and i successfully mounted and cloaked etc, but when I run the game I get the error ""system does not meet minimum requirements. I know the readme file said I should change compatibility mode to 2000/XP, but it still doesn't work? Can you help me?"
+,upreshpal,2009-03-28T15:43Z,im downloading..i will seed to 1.0.... 

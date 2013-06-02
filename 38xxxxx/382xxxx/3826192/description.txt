@@ -1,0 +1,81 @@
+-----------------------------------------------------
+This is the original 9A559 dmg file, but I renamed.
+
+leopard_9a559_osx86scene.dmg(6.55GB)
+MD5 : EADB8ED5437B2A6A26C712CF50C6E115
+------------------------------------------------------
+
+
+[FavleX`s Info]
+
+
+Mac OS X Leopard build 9A559 Seed Note
+
+System Requirements
+To run Mac OS X Leopard, you must have a Macintosh computer with:
+- An Intel processor or a PowerPC G4 (800 MHz or faster) or G5 processor 
+- A DVD drive 
+- Built-in FireWire 
+- At least 512 MB of RAM (additional RAM is recommended for development purposes) 
+- A built-in display or a display connected to an Apple-supplied video card supported by your computer 
+- At least 7 GB of disk space available, or 12 GB of disk space if you install the developer tools
+
+If you see a message in the Mac OS X Installer stating you do not have enough disk space to install Mac OS X, you can deselect items to save space. To deselect items, click Custom Install in the Easy Install panel.
+
+Important Installation Instructions
+This seed cannot be installed directly from the disk image, you can either 1) burn the disk image to a double layer DVD disc (recommended method) or 2) restore the disk image to a hard disk partition to install the build on another partition. Details below.
+
+Procedure to burn bootable DVD for installation:
+
+Requirements:
+1. A DVD drive capable of burning double layer DVDs
+Here's how to check to see if you have such a drive:
+- Launch "Systems Profiler" in the Utilities folder in the Applications folder
+- Under Hardware, click on "Disc Burning"
+- If you see Under "DVD-Write", "+R DL" is listed then your machine has the ability to burn double layer DVD discs.
+2. A blank DVD+R DL media
+
+Procedure:
+1. Launch Disk Utility (found in /Applications/Utilities/)
+2. Click the Burn button in the Toolbar 
+3. Navigate to and select the disk image then click the Open button
+4. Insert a blank DVD+R DL disc into your DVD burner
+5. Click the Burn button
+
+Procedure to install Leopard using hard disk partitions:
+
+Requirements:
+1. Three hard disk partitions internal or external (you could use 2 but 3 recommended)
+NOTE: For Intel Macs, your "Partition Map Scheme" must be "GUID Partition Table". For Power PC Macs, your "Partition Map Scheme" must be "Apple Partition Map". Check by doing this: In Disk Utility, click on the volume, click on Partition, See "Partition Map Scheme" listed at the bottom.
+
+2. The "Leopard_Client_9A559.dmg" disk image (on partition 1)
+
+Brief summary:
+1. Booted into partition 1, using Disk Utility, restore the "Mac OS X
+Installer Disk Image" onto partition 2
+
+2. Boot into partition 2 and install Mac OS X on partition 3
+
+Procedure:
+1. Setup:
+- partition 1: Your current boot up volume, also containing the downloaded "Leopard_Client_9A559.dmg" disk image
+- partition 2: Ready for the Leopard install disk image to be restored on
+- partition 3: Ready for the Leopard OS to be installed on
+
+2. Launch Disk Utility and do the following:
+- Click on the partition 2
+- Click on the Restore tab
+- Drag the "Leopard_Client_9A559.dmg" onto the Source field
+- Drag partition 2 onto the Destination field (Note: partition 2 will be erased.) (Note: Drag the partition from the disk list in Disk Utility and not Finder.)
+- Click on Restore
+
+3. Boot into partition 2, you will be booted into Mac OS X installation process
+
+4. Install Mac OS X onto partition 3
+(If you have only 2 partitions, you will have to erase and install onto partition 1)
+
+Known Issues
+- Archive installs from Tiger to Leopard sometimes will not succeed on Power PC systems if you try to preserve user settings. Please perform an upgrade install or clean install or opt out of preserving user settings to work around this. Intel systems are unaffected.
+- If you have HP printers connected to your system or are upgrading from a Tiger system with HP printers already configured, please perform a custom install and de-select the HP printer drivers in the installer. The HP printer drivers will be delivered post-install via Software Update.
+
+[ My friend`shot : http://img114.imageshack.us/img114/7366/9a559success1bkz8.jpg ]

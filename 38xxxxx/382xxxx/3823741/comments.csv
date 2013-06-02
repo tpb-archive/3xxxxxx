@@ -1,0 +1,97 @@
+﻿User Type,Username,Date,Text
+,Hexxen,2007-09-29T16:34Z,Hoppas detta fungerar på xp har detta spel sedan tidiagre 
+[T],Knaster,2007-09-29T16:48Z,lol denna får mig att tänka på en gammal Ultima Thule låt :)
+,Izarf,2007-09-30T05:06Z,"Ja det fungerar till XP och vista. 
+För att lösa instabilitetsproblem kan det vara att notera kan vara att man i dosbox.conf ska ställa 
+
+cycles=auto ---> till ---> cycles=23300.
+
+Då slipper man hängningar som ibland kan vara till problem för vissa användare. Detta tros gälla alla vista-användare."
+,pojo,2007-10-03T22:18Z,"mitt spel typ flimrar:S man kan itne röra musen, då blir det ""överstruket"":S Nåt tips:(
+har win xp"
+,njure,2007-10-04T01:38Z,"Så här gjorde jag för att få spelet att fungera.
+packade upp och kopierade mappen ""HAVETS"" till h:\dos\gme\ där jag har mina dos spel.
+
+Sedan ändrarde jag dosbox.conf  (jag har dosbox version 0.71 btw)
+
+cycles=auto -> cycles=23300
+
+Sedan startade jag dosbox och skrev:
+
+1.""mount d n:\ -t cdrom"" (min enhet till den mountade skivan i DT)
+
+2.""mount c h:\dos\gme\havets"" (där jag har lagt spelet)
+
+3.""c:\""
+
+4.""Havets.bat""
+
+Det funkar utmärkt att spela på windows XP sp2 med NTFS filsystem.
+Har dock inte provat att göra någon sparning och ladda ännu men det ska nog inte vara några problem."
+,njure,2007-10-04T01:50Z,"Ett tips till er som gillar detta spel så finns det ett liknande spel som jag brukar nöta som heter Patrician 2 och 3.. rätt så lika spel, kanske inte lika mycket krig och sånt men ändå rätt så bra. :)"
+,pojo,2007-10-04T08:40Z,"Det står ""du måste ange ett giltigt fil namn"", vart skriver man i det ?"
+,Dafuz,2007-10-04T11:06Z,"Tjena!
+
+Fan jag har letar i år och dar efter det här spelet. Och nu äntligen har nån lagt upp det. Tack så mycket! Ett problem bara, jag har aldrig använt dosbox innan så jag förstår inte riktigt hur jag gör för att få igång det. Och vilken av filerna ska jag öppna med Daemon Tools? Hjälp mig gärna! Tack på förhand!"
+,njure,2007-10-04T12:28Z,"Du ska öppna ""havets_vargar.iso"" i daemon tools.
+
+1.packa upp ""Havets_Vargar.7z"" till tex c:\dos\havets\
+2.installera dosbox till c:\dos\dosbox
+3.mounta skivan i daemon tools ""havets_vargar.iso"" (kom ihåg vilken enhet den mountas som, tex H:\ )
+4.starta dosbox
+5.skriv följande i dosbox:
+
+a. ""Mount c c:\dos\havets\hdmeere""
+b. ""Mount d h:\ -t cdrom"" (ifall nu h:\ är enheten där du mountat havets_vargar.iso)
+c.  ""c:\"" (byter mapp till c:\ i dosbox, den är inställd till att vara c:\dos\havets\hdmeere)
+d. ""havets.bat""
+
+Nu kommer spelet att försöka hitta skivan som du mountat i daemon tools och om du följt guiden så kommer det fungera bra och spelet kommer att starta. :)
+
+Om ni har problem med prestandan i spelet så kan in ändra i dosbox.conf som ligger i samma mapp som dosbox är installerat i.
+öppna dosbox.conf med tex notepad och ändra raden ""cycles=auto"" till ""cycles=23300"" (eller eventuelt ett högre tal)"
+,Dafuz,2007-10-04T14:22Z,"Tack det funkar! Men nu kom ett annat problem upp. Jag fick 5 varningar och 2 errors som gör att det inte kan starta, vad beror det på? jag gjorde exakt som du skrev"
+,Dafuz,2007-10-04T14:32Z,Jag fixade det nu! Tack så jättemycket! Går det att få fullscreen på något sätt? Ett stort tack än en gång!!
+,njure,2007-10-04T15:00Z,alt+enter så får du fullskärm ;)
+,war3z,2007-10-08T17:32Z,"hah, om du hade delat med dig med va du gjorde för o få bort demdär 5 varningarna o 2 errorsarna, så hade de hela vart mycke smidigare för mig^^... står massa fel med att han inte kan öppna filerna i ""text"" mappen som inte finns där.. :/"
+,martinio9292,2007-10-16T09:27Z,"Jaha, vill gärna ha spelet men jag fattar ingenting när det gäller DOSbox, när jag ska skriva t.ex en : så blir det kanske en (, sen när jag lyckats skriva det såtrycker den enter automatiskt och byter rad, hur gör jag?!"
+,S.U.E.,2007-11-06T19:19Z,"TACK TACK TACK!!!
+bästa svenska spel som någonsin gjorts!
+
+har letat i flera år efter detta spel. har t.o.m. letat rätt på företaget som äger rättigheterna till det nu och kontaktat dom för att få tag i det igen men har inte lyckats.
+
+jag tackar dej åter igen Izarf."
+,Izarf,2007-12-03T16:16Z,"S.U.E:
+Håller fullständigt med dig. Det är grymt! Ungefär som ignition ;).
+Har själv letat efter spelet i ca 3-4 år innan en vän slutligen hittade det lite undangömt i en gammal spelbutik. =D"
+,uniteD4evaH,2007-12-07T14:39Z,"seed plz! :)
+
+Beste spill ever ! "
+,uniteD4evaH,2007-12-07T22:25Z," Dafuz at 2007-10-04 14:22 CET:
+Tack det funkar! Men nu kom ett annat problem upp. Jag fick 5 varningar och 2 errors som gör att det inte kan starta, vad beror det på? jag gjorde exakt som du skrev
+
+HVORDAN gjorde du dette?
+får exakt samme varningar"
+,ormenproc,2007-12-11T12:16Z,"seeda, snälla"
+,Izarf,2007-12-13T12:57Z,"Ta det lugnt, jag seedar så ofta jag kan. Kom dock ihåg att öppna eran torrentport så ni kan connecta till mig."
+,Zarmitar,2007-12-14T15:54Z,"haha, fan vad gött att någon äntligen har lagt upp det :D
+
+Tackar och bugar :)"
+,vodka23dk,2007-12-15T20:44Z,hvilken fil er det man skal mounte i dm???
+,strongmilk,2007-12-16T00:17Z,Grymt! Har också jagat detta spel i många år! Grymt stort tack!
+,strongmilk,2007-12-16T00:18Z,Är det någon som kan seeda!? Fan måste ha detta spel! 
+,Izarf,2008-01-23T16:02Z,Jag seedar fortfarande. Öppna din port så du kan connecta till mig. Seedboxen är brandväggad.
+,vulwes,2008-03-06T16:38Z,"änu en som har letat efter spelet ett bra tag så jag kan bara tacka.
+Skälv har jag orginal cd men den har slutat funka så jag är bra tacksam att den har kommit upp nu :D"
+,vulwes,2008-03-06T16:40Z,missade att det är riktig bra seed på den för tillfellet ligger konstant på 1mb/s ner
+,Woolerty,2008-03-19T18:14Z,"Jag får 5 errors och 2 varningar, hur fixar jag det? Snälla hjälp:("
+,ralle_66,2008-03-30T11:59Z,"Om det kraschar efter strid så prova att inte köra med helskärm under slagen då funkar det för mig iaf. 
+
+Tack för ul! :D"
+,rootie_the_man,2008-09-27T12:22Z,"snälla seeda denna, lovar att seeda detta spel vidare =)"
+,arzel,2008-10-28T10:58Z,plz seed ppl!!!! my speed download speed is 500 b/s so it will take a long time but i must have this game !!
+,RazeTheRuler,2009-06-17T19:41Z,"Kan inte någon seeda, snälla! Stuck at 50% ;o"
+,thehol,2009-07-19T19:17Z,om det finns nån kvar som kan seeda kom igen nu! jag kan döda för det här spelet
+,axxis32,2009-08-20T17:27Z,snälla rara söta med massor av socker på ... seeda?! Jag har tappat bort min orginal cd ... och det är ju hur jävla svårt som helst att hitta detta spelet!
+,Simex,2009-09-06T13:08Z,"98,3 % klart..... Plzz snälla om nån har den får de gärna seeda lite"
+,keffis_,2009-11-24T22:07Z,snälla seeda!! ligger på 95%! tack!!!

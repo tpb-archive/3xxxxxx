@@ -1,0 +1,13 @@
+What is changed in London Heathrow V1.1?
+
+- main buildings don┬┤t appear at once anymore. Now they are loaded "one after the other" to smoothen the approach/scenery loading 
+
+- both texture sets (normal and HighRes) have been reworked to provide a smooth approach without stuttering and loading times during approach
+
+- the high resolution textures should now also run on average systems 
+
+- small update on the AFCAD file: Gates at T1 were corrected to match with AES 
+
+- faster download: The file size of the downloadable full version decreased from 148 to 60 MB 
+
+- blue runways changed to greyer ones.

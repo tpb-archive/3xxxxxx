@@ -1,0 +1,15 @@
+A year has past, and the time has come for a small maintenance release. While the V0.81 release has performed rather well, there's always room 
+for improvements, even though most of them are well hidden and probably won't be noticed by most people. 
+
+
+Changes/fixes in this release..
+--------------------------------
+- Major cleanup of code - the SH-D162C and SH-D163A now share the same code. This has been a painful job to do, but will make future updates so 
+  much easier to handle. 
+- The firmware is now based on the official TS05 firmware as opposed to TS04 for earlier releases.
+- Fixed a potential problem with the way that the RPC patching was done.
+- The laser head is now parked in a known and safe position following SS extraction. This should fix the clicking noise, that some people 
+  experienced from time to time.
+- RPC settings stored in flash mem of the drive is now reset. This is not important for the patched firmware, but will leave the RPC settings as 
+  they came from the factory, if someone, for some strange reason, should decide to go back to a non patched firmware.  
+- The feature list has been expanded to hold seperate feature entries for XBOX and XBOX360

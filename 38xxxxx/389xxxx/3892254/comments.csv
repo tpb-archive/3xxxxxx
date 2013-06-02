@@ -1,0 +1,304 @@
+﻿User Type,Username,Date,Text
+,Tech-Noir,2007-11-22T09:20Z,"A general thanks to any seeders who stick around and help me seed this. I know it is kind of big but seeding to atleast a 1 ratio is very appreciated.
+
+Once you are done seeding, you can just copy the Library files, the ""Instruments"" folder and the setup files from the iso and delete it if you don't want both the .iso and the installed library files to take up space on your Hard Drive (since you need to have the Library files on a harddrive for the program to be able to use them, thus having them both in the .iso file AND by themselves in another location). Just stating the obvious. :)"
+,Kojones,2007-11-25T23:46Z,"Thanx for this great torrent Tech-Noir. I hope this one gets the chance to go around. I can see that al lot of leechers don't seed once they have downloaded. This also happened with the same torrent on the net. We got 76,3% after 2 weeks(!) These guys should be banned for their selfish behaviour. Note their IP and watch out for them.
+In any case, I WILL seed. You can count on that."
+,Tech-Noir,2007-11-26T00:46Z,"Yeah, I think I was on that torrent aswell. Though I think I was on for 3.5 weeks or something. It was HORRIBLE!!!! ;)
+
+Seriously though, cheers for the kindness, much appreciated. With torrents this size they are bound to scare seeders away, but atleast seeding to 0.5 or smtn would be great. That's about the size of a big xvid movie, hardly 1080P 30GB ""seed-for-3-months"" stuff. :)"
+,Leviset,2007-12-03T14:27Z,"Thanks for an excellent download - well worth the wait. I'm afraid to have to admit that I don't know what seeding is or how you go about - can you explain?
+Leviset"
+,Tech-Noir,2007-12-04T10:16Z,"Hey Leviset. :)
+
+""Seeding"" is basically just another word for ""uploading"", aswell as being a term for someone who has 100% of the data (someone who has downloaded the entire torrent file(s)).
+
+Once your torrent application has finished downloading all data (100% completion), you have become a ""seeder"".
+If you do not remove the torrent from your torrent application, it will continue to upload and share your data with others who do not have all of it yet (""leechers"").
+
+Since torrenting depends completely on people seeding after they have downloaded 100%, it is very important so seed alot (especially if the files are very large, or if there are alot more leechers than seeders).
+
+Most (All?) torrent applications have a ""ratio"" number for each torrent in the main window. It specifies how much you have uploaded in relation to how much you have downloaded.
+
+In this torrent's case, it is 3.67GB large. Since you have completed the download, you have downloaded 3.67GB of data. Looking at your ratio will reveal how much you have uploaded. For example, a ratio of ""0.5"" shows that you have uploaded, or shared with others, 0.5 times the amount you have downloaded (~ 1.8GB of data).
+
+The goal is almost always to atleast stay and upoad until you have a ""1.0"" ratio (1GB down, 1GB up, 3.67 GB down, 3.67GB up, etc).
+
+Exceptions can be torrents that are completely dead or ""uninteresting"" without leechers for a long time. And I generally just seed to 0.5 on very popular torrents with more than 500 seeders already. I would rather spend my upload on less popular torrents that are harder to download since they have less seeders.
+
+So seeding is very important for the torrents to stay alive. No seeders = Noone will be able to download. Few seeders = Long time to download in most cases.
+
+
+That's the basics, hope it helped. And glad you liked the torrent. :)"
+,PaladinBlanc,2008-01-02T15:06Z,"Hi!
+Thanks for your torrent!! Thanks to all the seeders (I'll be one soon, and I will seed =) )
+But I've a problem, the folder with the keygen is already downloaded, so I tried to generate a key but it tells that the system-ID I've entered is invalid!! I don't understand !! I took the system-ID in the window ""system properties"" (is it that?) but it doesn't work!!
+Please helpe me!!! Please!!
+Thanks! =)"
+,Tech-Noir,2008-01-03T01:26Z,"Hey Paladinblanc. :)
+
+
+If you don't have the whole torrent downloaded yet, you won't be able to generate a key.
+
+The ""System ID"" will be displayed in the ""Registration Tool"" program after you have installed the software. You copy that to the keygen, and then you generate a serial with the keygen, that you then copy into the Registration tool.
+
+So:
+
+1. System ID from ""Reg Tool"" after install.
+2. The ""System ID"" numbers is used by the Keygen to generate a valid serial that matches the System ID.
+3. The serial the keygen gives you is then inputed into the ""Reg Tool"" application, which will accept it. :)
+
+
+Hope it helps, and thanks for the thanks. :)"
+,PaladinBlanc,2008-01-03T09:12Z,"So nice to answer me =)
+Okay! Thanks for the instructions :)
+I'm impatient to roll and roll again !
+I would like to put Quantum leap RA but my connection is too low for updating at the moment (I can seed only 33Kb/s :(  )
+Hail and cheers!"
+,uhmlolz,2008-01-17T03:24Z,"hey tech this seems very usefull, although excuse me for my stupidity, im new to virtual instruments, and im buying a midi controller friday, mainly for drumkits, just to make sure, if i dl this and mount will i be able to  to install i and hook it up to my midi controller and assign each drum hit to a key or pad ? or is this just like samples and what not..i know i apologize in advanced haha"
+,Tech-Noir,2008-01-17T16:44Z,"Hey umhlolz. :)
+
+I am not sure how drumpads or such work on MIDI controllers, I just have a MIDI keyboard on mine (no touchpads for using drumsamples or such).
+
+But, if you have a MIDI controller and you can control VSTs with it (meaning, you have installed it so that your sequencer like Cubase or such recognizes it), then you can use it for this purpose here.
+
+
+When you have installed the program and you launch it inside your VST host program/sequencer, an interface will appear (In this case, they have licenced the ""NI Kompakt"" engine for the drums).
+Once launched, you have several slots you can use to load different drum ""sets"". For example you can load a drum set kit on one, and some bongos on another or such.
+Once you have done that, you can assign, for each of those different ""sets"", what MIDI channel they will respond to (1 - 16).
+
+Then you just create some MIDI tracks in your sequencer, make sure they play the Stormdrum VST, and then you select the MIDI channel they should use.
+
+So in other words you can load alot of drums in different slots in the program (without needing to add several instances of the program), and then you create a corresponding amount of MIDI tracks that you set to play each slot part.
+
+In Cubase, a MIDI track can be played when you select it with the mouse. So once everything is set up, all you would need to do in this example is to mouse click the MIDI track with the insturment set you want to play, and then you can play it with the keys on the keyboard, and record the playing of course. As long as your Keyboard supports Velocity (almost all do), you will be able to press the keys with different speeds to get softer or louder hits from the drums.
+
+I am not sure, and I somewhat doubt, that you can select individual ""hits"" from a ""set"" and assign them to a specific key on the kayboard. You are limited to using whole sets to get access to specific drum sounds. So if you would want one bongo drum sound, you would need to load the set that contain all the bongos. So there aren't freely assignable samples available.
+
+And like I said, if you have drum pads on the keyboard, I am not sure how you could go about using them for any drum hit you would want. It would probably be easiest to just use the kayboard instead unless your keyboard has some easy to use MIDI editor that allows you to map the drumpads to any MIDI key so that you can control any drum sound.
+
+
+Anyways, hope I gave you some idea of how it works. :)
+
+http://www.traxmusic.org/TraXmusic_files/stormdrum/sdkom.jpg
+
+This image should be helpful for you. You can see the ""Thunderensemble"" set is selected in slot 1, and the blue-colored keys on the keyboard shows what keys have a drumsound on them. There is built-in reverb and effects if needed as you can see bottom left-hand side.
+The midi port the ""set"" uses is selected in bottom lane of the little ""control-panel"" on the top left side (where it says ""CPU usage"" etc). It is the ""1"" number to the left of the ""1 / 2"" number, just above the ""Group Edit"" button."
+,musicman_360,2008-01-17T21:50Z,I will definitely seed this. Seems like a fantastic upload. is there anymore?
+,uhmlolz,2008-01-18T05:52Z,"hey tech, wow quick response your the only person who has replied to one of my comments on here haha
+and not only that, gave me a tutorial, well ill leave this downloading tonight and seeding while im at school tomorrow and such then i should be picking up my controller tomorrrow, yeah i wasnt sure about hte pads but it has built in ones on axiom by m audio which im buying but either way the keys are just the same, i sort of understand your comment and its very usefull i will re read it tomorrow when im more awake haha
+i seen a video online of someone using it but i think it was reason which i have but east west has a reputation for their quality so im sure this has alot better sounds, anywho
+not only you are a great uploader but a great person haha
+good up cant wait till its finished to figure it out 
+
+thanks"
+,Tech-Noir,2008-01-18T11:55Z,"No problem mate. Any problems or such, just ask here and I'll try and help best I can. :)"
+,mspider,2008-01-25T01:11Z,"Thanks for the Torrent.
+Tech-Noir, any knowledge of an East West 
+Fab Four torrent ?
+I've been searching for months.
+
+"
+,Tech-Noir,2008-01-26T00:02Z,"Sorry mate, I'm not into VSTs and such as much as me uploading torrents of them might make me seem.
+
+Hope you find it though. DC++ can be an alternative if it is rare and elusive stuff."
+,chetreznick,2008-02-23T06:44Z,hey thx tech-noir. your a good guy/ or girl. ill seed this bitch for everyone. i hate fuckin the net being overrun by leechers! THANKS AGAIN!
+,chetreznick,2008-02-23T23:28Z,"hey tech-noir, i dunno if anyone else has had a problem loading the instruments into kompakt? i reinstalled it twice, no dice , everything else has worked. im kind of stumped??ive looked all over the net for a solution, nada. hope you can help me."
+,chetreznick,2008-02-24T02:11Z,i figured it out it was th dfd. sorry thx.
+,Phntom,2008-02-27T05:02Z,"when i try 2 load the samples it's says somthing about registering the product that came with it, but i already registered the pro."
+,mistervane,2008-02-27T06:27Z,"Hey, I can't load any instruments. Install seems fine, everything's where it should be, but when I choose an instrument, nothing happens. I use EWQL Gold Orchestra as well, which is virtually identical in design, and it works perfectly. I can't figure out how to get this working. Any ideas?"
+,Tech-Noir,2008-02-27T14:15Z,"Hmmm, I can't really say what might be the problem.
+
+As long as you have both the library files and the ""instrument"" files (the library files are the big files, "".nks"", that contain basically all the GBs of data from this torrent, the instrument files are the very small patch files, "".nki"",  in the ""instruments"" folder that tell the instrument where in the library files certain insturments and samples are located) in the correct places it should work.
+
+If you are having problems with no samples being loaded after selecting an ""instrument patch"" file, that would suggest the program doesn't know where the big ""library files"", "".nks"", are located. Check the settings and make sure the program has a proper file path pointing to the library files. If the program doesn't know where the lib files are located, it cannot load any samples when a patch is selected. THis could most likely happen if you install the software and don't include the ""Library"" option. Since the software doesn't then install the library to a location, it won't make a reference to the location of the library on the harddrive, and it has to be inputted manually.
+
+Hope it helps, otherwise just write back with some more info telling me exactly what you are doing, and hopefully I can help. :)
+
+Also if you are having more problems try uninstalling and then re-installng and doing exactly what the instructions on the top is saying, if you didn't already. ;)"
+,mistervane,2008-02-27T18:34Z,"Thanks for the reply! Anyway, I have done the installation properly, i.e. the library is all there, and the path is correct. All the instruments show up in Kompakt, but when I select them nothing happens. I don't get any messages telling me the program can't find the library, etc. And as I said, I use the Gold Orchestra, using the exact same installation, interface, etc. and it loads perfectly. I tried the software reinstall, but it didn't work, so I guess I'll take everything off and try again from scratch, but I'm skeptical it will make a difference! 
+I have no other ideas how to make it work!
+Thanks again for your help."
+,Phntom,2008-02-27T22:03Z,"Yo this is great true fascinating, but i got a small question: i was running my ableton 7 (AIR) and i get a message saying i'm using a pirated version and prompt me 2 close it. ANy suggestions?"
+,Tech-Noir,2008-02-28T02:44Z,"mistervane: No problems mate, sorry it didn't help any. I hope you somehow figure out a solution. :/
+
+
+Phntom: I suppose you mean that you get a message saying that Stormdrum is not licensed, or something like that?
+A message like that would most likely mean that you haven't done the registration procedure properly. You need to use the keygen included to register Stormdrum.
+
+Sorry if you already have done that, but that's all I can think of that might be causing your error. Make sure you followed step 3 in the torrent description, the registration process, carefully.
+
+Sorry I can't be more helpful. If there is anything else I can do just say so. :)"
+,gjikla,2008-05-07T14:52Z,"Any1 knows where I can find ""East West Quantum Leap Gypsy""? 
+
+Thnx."
+,idrone42,2008-05-21T11:33Z,You have served great justice.
+,NURIYEPOCORNI,2008-05-27T17:30Z,hey does anyone know if there is an h20 for nuendo 4 yet seed plzzzz. 
+,Atletico.jai,2008-05-29T06:59Z,"Really Really nice torrents!:)just wanted to thank the people that,makes it all possible!!:)
+im a big fan of NI and East West!  voices of passion and Gypsi would be AWESOME!!take care,and thx again for the job!!!"
+,Royalwitcheeez,2008-06-04T18:54Z,"Thanx Tech...
+
+And for the record, AORN Gypsy is uncrackable/unavailable. 
+"
+,drax12,2008-06-18T15:17Z,"Thanks Tech-Noir & seeders. Shame you can't load the nkis into kontakt because I keep getting a corrosive noise like a buffer or ram issue.
+Any one have the same problem?
+Might have to render every sample and make my own instruments... but it's still a great torrent."
+,patbr,2008-07-02T11:08Z,"Thanks Tech-Noir and seeders for this release :)
+Has someone tried to launch 2 instances (in order to use more than the 8 available slots for one instance) of the KompaktVST in Cubase SX3 or Nuendo 3? I encounter an issue when playing 2 instances of the Stormdrum KompaktVST at the same time : either the sound crackles and disappears totally, or Cubase/Nuendo crashes. I don't have any problem when using a single instance of the VST. Do you know something about this? Thx :)"
+,Tech-Noir,2008-07-02T22:08Z,"Hey the last 2 guys. :)
+
+
+Sorry I can't help with your problems, but tbh I don't use this at all lately. I just uploaded it since I knew others really wanted it. ;)
+
+So I'm afraid others will have to help with those types of questions. Just wanted to let you know I read them atleast.
+I can't seem to remember if I was able to run several instances in Cubase3, but somehow I think I can recall doing that. I suppose it isn't as easy a thing as too short audio buffer or too little RAM? Try loading two empty Stormdrumz at the same time, and then load each one with the lightest sample kits you can find, and see if it still gives you problems (since you should select 2 very small drumkits or such, that should tell you if there is an inherent problem with running two instances, or if the problem arises just when loading 2 or more high-load patches). Hope I make sense. :)"
+,patbr,2008-07-03T13:43Z,"Thanks Tech-Noir.
+Unfortunately, even light sample kits have the same issue. Even using the DFD extension, 2GB RAM, without any other VSTs else. My problem almost disappears when I uncheck the ""multi processing (CPU)"" option in ""Cubase>Device>..>VST Audiobay>Expert Settings"". Nevertheless I do have a AMD dual core and the sound quality is rather dirty. I have the same results with any ASIO settings (from my soundcard or virtual ones), on 2 different computers... Anyway... :p Thanks"
+,patbr,2008-07-03T13:50Z,"Ooh, i forgot. When using Stormdrum as standalone (launching the .exe - not using any host) I don't have any problems playing on 2 instances at the same time... strange. Also, I don't meet these problems when using muplti instances of the Stormdrum VST in a non steinberg host (FL, Audition...). Strange isn't it? :D"
+,Tech-Noir,2008-07-03T18:37Z,"Yeah, seems strange. It's obviously a Cubase-related issue. I only have a single-core CPU which might be why I don't recall encountering this issue in Cubase3.
+
+Good luck with finding a solution though. Be sure to post back if you do. ;)"
+,patbr,2008-07-09T10:48Z,"Tested with other EWQL VSTis. Apparently, this issue is specific to Stormdrum (even updated) =)"
+,bowseroffun,2008-08-03T15:05Z,"Served good justice THanks all seeders ive been dl this for 7 hours now at a good 100 to 200 mostly 140 mid kB/sec Speed ;Dive uploaded about close to 2GIG at a ""caped"" upload of 64KB/sec :D so the availibility should be growing =D woot"
+,Jaffamarken,2008-08-12T04:42Z,Does anyone know where I can find the Quantum Leap Ra?
+,Jaffamarken,2008-08-12T04:42Z,Does anyone know where I can find the Quantum Leap Ra?
+,bowseroffun,2008-08-21T03:22Z,had installed this works perfect but i need help i can run it in FL studio 7 but like any copied installed or inputed Midi channels i use it for i replace with this and the thing gives no sound with playing the notes yet when i play the piano's notes themselves stormdrum responds with the samples but doesnt with in preinputed midi files i am using them for the drum tracks i need helP!
+,Tech-Noir,2008-08-21T10:19Z,"If you are trying to use pre-made MIDI tracks, make sure that all the notes for the specific drum parts are on the corrrect midi note. Some drum kits and such only occupy a certain area, like from C1 to C3 or something like that. So when you import the premade MIDI files, you need to go in and click the piano roll to find where what drum instrument is placed where, and then move the imported MIDI notes to the correct note in the piano roll.
+
+Also make sure that the MIDI tracks are setup properly so that they are connected to Stormdrum and are able to play it. You can select which MIDI ""port"" (out of 16 I believe) that Stormdrum will output on, and your MIDI tracks you import need to match that port number to get the note data to Stormdrum properly.
+
+Hope I could be of some help. :)"
+,Derlis,2008-08-30T00:46Z,"Hello Technoir,
+
+I'm thinking about dowloading from this torrent so thanks a lot in advance. Does this include both the Intakt loops and the Kompakt samples?
+
+Thanks a lot again
+
+Derlis"
+,Tech-Noir,2008-08-30T15:40Z,"This only contains the Kompakt edition, which is the individual instrument hits. No loops in this one, I'm afraid. :/"
+,Derlis,2008-08-30T17:50Z,Excellent! Thanks a lot for your reply! 
+,bowseroffun,2008-09-02T21:58Z,"o thanks noir Man u helped Just got to read carefully I hope it works :)
+cause the HQ drums of stormdrum will help in my HQ orchestrals :)"
+,bowseroffun,2008-09-02T22:16Z,sucks see i already knew that part i know fl studio good its just even with storm drum has the vsti host in the track with the drum line midi even with the piano roll receiveing the data of the drums which i of course have in the right place the notes to the drum patches yet when played stormdrum responds with the same sounding notes but the factor is No sound comes at all when i play it in fl the notes even in the right place and stordrum has that individual track host its in the right port D:
+,Tech-Noir,2008-09-03T10:18Z,"Well, then I've no idea what could be causing it hehe.
+
+
+If I understand you correctly, you get sound from Stormdrum when you use for example the mouse or a hardware piano keyboard and play the samples from Stormdrum.
+
+But then I'm not sure what you mean (maybe a slight language barrier).
+
+
+I only use Cubase SX, but since the VST protocol is a fairly standardized way to work as far as I know, it should be sort of the same.
+
+
+1. Open Cubase
+2. Open the VST manager window
+3. Click an empty VST synth slot, and select Stormdrum to start/load it.
+4. With the Stormdrum main window now open, select the first instrument slow in Stormdrum, and load a simple drum kit.
+5. With the drumkit loaded, use the mouse to press the (now differently colored, to indicate that samples are loaded on those keys) keys on the piano section in Stormdrum, to make sure you get sound.
+6. If you get sound in step 5, then open a new MIDI channel.
+7. Open the piano roll window for that channel in the sequencer, and use the mouse to play all the keys and see if you get any sounds from Stormdrum.
+8a. If you do get sound when you click in the MIDI track in the sequencer, then you should just be able to input MIDI notes into that MIDI clip, and have them be played by Stormdrum when you press Play in the sequencer.
+8b. If you don't get any sounds when you click the sequencer track with the mouse, that means that the MIDI track isn't being routed to the correct part of Stormdrum. Selecting the proper MIDI port (usually 1 of 16 available) will usually correct that.
+
+
+Other than this description, I'm not sure I can be more helpful.
+If possible, could you perhaps write down a detailed description of what exactly is wrong, preferably similar to the one I posted above. I am still not completely sure where in the process the error occurs. :)"
+,djdemlot,2008-09-09T13:12Z,"hi Tech-Noir, how do you fill out the reg form, once in the start menu with the keygen provided, as there doesn't seem to be enough numbers?"
+,Tech-Noir,2008-09-09T13:22Z,"djdemlot:
+
+Hey there. :)
+
+To be honest, been so long since I did the registration I've forgotten how exactly.
+
+I've detailed all the steps to the registration in the torrent description. Those are all the steps you need to do. You don't need to ""fill out"" anything in that sense, you just need to go back and forth between the KeyGen and the Reg Tool and copy the Machine ID and the code that you are given when you've inputted the Machine ID. No need to fill out name, address etc, or anything like that.
+
+
+Any further questions just ask and I'll help best I can. :)"
+,yanizle,2008-09-14T02:24Z,"What can we do about getting updates and what not. One of the problems Im having I believe is, Im running Intel Mac and we need updates for intel. Also, Im using Logic 8, I've been reading about updates that exists for Logic users. 
+
+I've installed stormdrum and all is well as a standalone. But when I launch Logic, it doesn't show up as an Audio Unit. Is anyone else having this issue?"
+,ic_814,2008-10-27T04:24Z,does this work on OSX??
+,Tech-Noir,2008-10-27T23:09Z,"I am unsure, I've never used OSX/MAC or such. I suppose if WIndows programs don't usually work in OSX, this won't, because it has no special setup files or such.
+
+Sorry I can't be more specific or helpful. :)"
+,yanizle,2008-11-17T09:41Z,Hey does anyone know how to get the storm drum loop files?
+,symp22,2008-12-15T12:30Z,"I don't know why, but I can't find the keygen from this :/"
+,symp22,2008-12-15T13:06Z,Oh sry. I did find it but it didn't extrct it because there's a trojan.
+,raxxroth,2008-12-26T00:24Z,"Thanks for this torrent, can't possibly wait.
+Does it work properly and is it virus-free though? Or is it just a package full of trojans?"
+,KingOfDrumAndBass,2008-12-26T16:48Z,"The crack .rar is full of viruses! 
+
+FUCKING RETARD GO FUCK YOURSELF! "
+,fjg,2008-12-30T04:53Z,Thanks for staying around to all you SEEDERS
+,fjg,2008-12-30T04:53Z,im at ten percent but its better than nothing
+,DD_BadChild1,2008-12-31T06:58Z,"I have EWQL Ministry of Rock and wish to seed, but I want to know how to create a keygen or at least get in contact with a team that makes cracks such as H20 first. Can anyone help me?"
+,gyroscopic,2009-01-04T06:33Z,"Don't forget that many keygens and cracks use code similar to virus code, and so will be flagged as virus, even though it may not be. "
+,Tech-Noir,2009-01-17T10:21Z,"Yeah, Avast for example does warn if you try to extract the keygen.
+
+Since I didn't create the keygen, I cannot completely say there isn't anything malware hidden there. But I have installed it OK on my computer, and as gyroscopic says, it is very possible that virus programs might give false warnings.
+
+I can however say definitely that I myself have not tampered with this file in any way. That's the best guarantee I can give. :)"
+,Tech-Noir,2009-01-17T10:22Z,"Also thanks for keeping this alive for so long, and it's still popular aswell. :)"
+,FTI,2009-01-19T21:59Z,"Thanks man really appreciated!
+
+Btw, kudos for awnsering questions and reading the comments, really nice of you, you're a quality uploader.
+
+Thanks again."
+,GaMeRdesh,2009-01-20T20:36Z,"DD_BadChild1 - geee dude, contact me here: meshsel@yandex.ru or here: 192459705.
+
+Ive got the team, they work fast! If you got those 18 exicitng Gb, I`d be the happiest person in the world!!!"
+,Bkkgnar,2009-03-15T00:52Z,"So I DLed this torrent a few months ago, and used it a bunch on my pc. I have now switched to Mac, and I still have the sample library for this on my external drive. Does anyone know where/how I can get the plugin itself in AU/Mac VST so I can continue to use this? Thanks!"
+,Tech-Noir,2009-03-15T14:05Z,"Not having alot of experience with MAC or AU plugins, I would wager that you simply would need to find the plug-in install in that format. I'm not sure if the sample library is different between the VST and AU/whatever formats.
+
+Can't be more helpful I'm afraid. :/"
+,riokama,2009-03-17T22:52Z,"Where can I find more East West torrents ?
+
+Seems that this is the only one available."
+,kissturtle76,2009-03-27T16:13Z,"DD_BadChild1 If u upload EWQL Ministry of Rock, i'll suck your dick man!! Please been looking this for a long time....Don worry about the Keygen.Let nature take its own course
+"
+,crofid,2009-06-26T19:25Z,"The keygen appears as a MSInfo file, and when I click on it it says it can't be opened because it's damaged.
+
+Any suggestions?"
+,crofid,2009-06-29T14:55Z,"Sorry, found it, had forgotten to deactivate my anti-virus."
+,crofid,2009-06-29T14:56Z,Thanks for putting this up and seeding!
+,TaalaVidya,2009-08-21T13:47Z,"having trouble to register, i know nothing so please help me out.. cheers"
+,Tech-Noir,2009-08-22T20:12Z,"TaalaVidya: Sorry you have problems. The registration should work as long as you follow the steps outlined in the torrent description. How long have you managed to follow the steps until you run into problems, or where specifically do you need help? :)"
+,the5count,2009-08-26T22:06Z,"Thanks- I've wanted to test these sounds for a while. If people are concerned about Keygens getting flagged as viri, use Sand Boxie and run the keygen in the virtual world. No problems this way with errant bugs."
+,xexoticmr2x,2009-10-31T20:24Z,"Hi i have the library of this and no player. Can somebody link me to the player itself or do i have to download this torrent?
+
+Thanks"
+,ninjadrive,2009-11-28T16:26Z,"xexoticmr2x: If you have Kontakt you can load the library there. I use Kontakt 4 and it works perfectly, I recommend using it instead of the Kompakt Player. It's more stable and since it's the full version of this great sampler you have a lot more possibilities. I uploaded Kontakt v4 here on TPB if you're interested."
+,ScoreGods,2009-12-17T10:20Z,"**
+
+WANTED:
+East West Quantum
+Voices of Passions
+
+**
+
+Does anybody know where to find this?
+
+Please let me know! Thank you! "
+,djstone_1,2009-12-19T22:39Z,"there is no serial no ,please send the serial no "
+,theguy129,2010-01-02T18:19Z,SD2 (stormdrum 2) anyone? plzzzzzz
+,kinkymint,2010-01-07T09:54Z,"hey! nice dowload. jet still im havin a problem with registration.. after copy from clipboard it says- succesfully registrated etc... but after opening the vst it gives me- system configuration has changed you can use this copy for 5 days, please use the registration tool.. done the registration over and over now.. cant figure out where i've gone wrong. ANY IDEAS??"
+,theguy129,2010-01-08T02:16Z,"Hi, does anyone have Stormdrum 2? It's been out for quite a while"
+,dowism,2010-02-13T03:23Z,"So this upload all seems legit and clean...
+only, i am unable to locate any ""loop"" samples, as mentioned in the DELiRiUM.nfo
+
+Someone mind telling me how to load these up?
+Thanks in advance!"
+,Metaludo,2010-02-15T23:04Z,"Avast has detected a torjan...
+does i instal it anyway?i'm afraid because i don't want to lost my precious files from mininova which is now ""dead"" T_T"
+,kreatureofky,2010-03-08T18:26Z,"Metaludo, most likely your anti-virus is wrong. They always report keygens as viruses but here I've used 50+ different types of keygens and my computer is still clean. I don't have any protection either."
+,Locrian78,2010-04-30T19:57Z,"Hello all I have downloaded and installed and everything authorizes as said in the instructions, but when I load Protools and activate my contact player on an insert it is asking me to `authorize the library again through the plugin.  what am I missing or doing wrong?  Please help.  Thanks"
+,Locrian78,2010-04-30T20:48Z,In the Service Center it is saying No Binary Found.  Could this have anything to do with Kontakt Player 4? PLEASE HELP!  Thanks
+,mikehatesit,2011-06-25T16:20Z,"The download went fine, but the keygen won't work for me. Whenever I run it, I get an error saying: Windows cannot access the specified device, path, or file. You may not have the appropriate permissions to access this item.
+
+...What do?"
+,PIANO81Fastkeys,2011-08-09T10:20Z,"I""m still very confused on finding the Machine ID.  I have the program installed.  I open the registration tool, and i get a small window that pops up asking for me to input the Serial Number.....but no where in the window does it say any numbers?  Where do you find the Machine ID then?!?!  PLZ HELP :C"
+,mascheros,2012-04-25T03:18Z,"Hi everyone !
+Got a problem too ! I would like to use Stormdrum on CUBASE, and I have only the library. Do you know where I could find the player/installer ?
+Thanks :)"
+,InsName,2012-07-08T19:45Z,SOMEONE PLEASE HELP: The registration thing keeps telling me that my serial number is not valid!

@@ -1,0 +1,72 @@
+This is the upcoming OpenBSD 4.2/i386
+
+Built from CVS release sources. Official release date is 2007-11-01.
+
+ISO File size: 477360128 bytes
+MD5 (openbsd-4.2-i386.iso) = 477884c65b95eb981fe875c6f0ae9e44
+
+CD is bootable and contains the entire x86 distribution + complete sources.
+
+New features in OpenBSD 4.2: see http://www.openbsd.org/42.html
+
+CD contents (or see ls-alR in CD root directory):
+---
+00_OpenBSD-4.2
+CKSUM
+INSTALL.i386
+INSTALL.linux
+MD5
+SHA256
+ls-alR
+ports.tar.gz
+src.tar.gz
+sys.tar.gz
+xenocara.tar.gz
+4.2/i386/CKSUM
+4.2/i386/INSTALL.i386
+4.2/i386/INSTALL.linux
+4.2/i386/MD5
+4.2/i386/SHA256
+4.2/i386/base42.tgz
+4.2/i386/bsd
+4.2/i386/bsd.mp
+4.2/i386/bsd.rd
+4.2/i386/cd42.iso
+4.2/i386/cdboot
+4.2/i386/cdbr
+4.2/i386/cdemu42.iso
+4.2/i386/cdrom42.fs
+4.2/i386/comp42.tgz
+4.2/i386/etc42.tgz
+4.2/i386/floppy42.fs
+4.2/i386/floppyB42.fs
+4.2/i386/floppyC42.fs
+4.2/i386/game42.tgz
+4.2/i386/man42.tgz
+4.2/i386/misc42.tgz
+4.2/i386/pxeboot
+4.2/i386/xbase42.tgz
+4.2/i386/xetc42.tgz
+4.2/i386/xfont42.tgz
+4.2/i386/xserv42.tgz
+4.2/i386/xshare42.tgz
+doc/OpenBSD_FAQ.pdf
+doc/OpenBSD_FAQ.txt
+doc/OpenBSD_PF_FAQ.pdf
+doc/OpenBSD_PF_FAQ.txt
+doc/Whats_new_OpenBSD_42.pdf
+tools/README
+tools/fdimage.exe
+tools/gzip.exe
+tools/index.txt
+tools/ntrw.c
+tools/ntrw.exe
+tools/os-bs.doc
+tools/os-bs135.exe
+tools/pfdisk.doc
+tools/pfdisk.exe
+tools/pfdisktc.zip
+tools/rawrite.c
+tools/rawrite.doc
+tools/rawrite.exe
+---

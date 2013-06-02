@@ -1,0 +1,18 @@
+What is FollowMe? 
+
+FollowMe is an FSX Add-on that will allow you to request a 'Follow me car' that will guide you from the gate to the runway, or from the runway to the gate. It will work for every airport as long as the standard ATC of FSX is able to assign a taxiroute to you. 
+
+If ATC tells you to 'Taxi to Gate X' without specifying a route (via taxiway ...) then unfortunately FollowMe is not able to guide you. 
+
+Taking off
+Upon confirming the route to the runway ATC assigns you, you can request a 'Follow me car' that will guide you to the runway. 
+
+Landing
+After you land and clear the runway ATC from the Tower will hand you off to Ground, where you can request a taxi route. After confirming the route you can request a 'Follow me car'. The car will guide you along the assigned route to your gate.
+
+Compatibility 
+* FollowMe is compatible with all default airports in FSX.
+* FollowMe has not been tested with add-on airports but should be compatible with all airports that have proper taxiways defined.
+* FollowMe will not work with ATC add-ons that do not use the FSX assigned taxiroutes.
+* FollowMe will not work in online modes where a human controller assigns you a taxiroute.
+* FollowMe will only work for the user's plane.

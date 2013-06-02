@@ -1,0 +1,150 @@
+﻿User Type,Username,Date,Text
+,Seboz,2007-10-14T12:33Z,"....after install  ya get thid error when trying to run the game: Conflict with Emulation Software detected.
+Please have a look at http://www.securom.com/message.asp?m=emu&c=5000 for further, more detailed information.
+
+....whats going on ......!!!!! "
+,svojtot,2007-10-14T15:01Z,"If you get the: Conflict with Emulation Software detected.
+Please have a look at http://www.securom.com/message.asp?m=emu&c=5000 for further, more detailed information.
+Text you have to shut down all cd emulation programs like Daemon tools and such, it have worked for me many times."
+,skamfer,2007-10-16T02:50Z,"How do one install this programme. I know it is a dumb question but have never downloaded games before
+Thanks"
+,fc_turner,2007-10-16T11:13Z,"@skamfer
+
+Dumb? Of course not! New downloaders/gamers are always welcome!
+
+First: you take a look at the file names, by clicking the 'Files: 4' in this torrent (beneath title of torrent). You see a RAR-file. That's enough to know.
+
+Then: download winRAR to open .RAR-files, www.rararchiver.com/.
+Open the .rar-file and extract, en then install.
+
+Hmm, maybe you know all this and you mean how to DOWNLOAD, not to install :).
+
+Allright, download MicroTorrent: http://download.utorrent.com/1.7.5/utorrent.exe
+This is one single file, one single executor. No install or anything, just open utorrent.exe.
+
+Then: set .torrent-files as default opening by utorrent, in utorrent options.
+
+After that, you can click the 'Download this Torrent' link of this page, and you start downloading the torrent! 
+Just as simple as that...
+
+FC Turner"
+,skamfer,2007-10-16T15:06Z,"@fc turner
+thanks for helping. I have downloaded it and my problem is to install the game for playing. This is what i have done/got so far:
+i used winrar and extracted the file. When i doubble click on ""monopoly icon' i got one more folder (together with the other winrar archieves) which i think is normal since this so far is the same as for movies.
+The name of the ""new"" folder is ""zry-monopoly2008"".
+When i doubble click on this folder a new screen comes up with only 2 files (folders) on it. 1st folders name is ""zry-monopoly2008.mdf and under it says MDF FILE and under there again it says 245.063 KB
+Second file (folder) says ""zry-monopoly2008.mds, MDS FILE and 9 KB. When doubble clicking on the mdf file  i get a new screen where at the top it says""zry-monopoly2008.mdf-ACDSee 6.0
+On the bottom of the screen it says ""zry-monopoly2008.mdf | 239.3 MB| | | 0%| This is where i am now, totaly confused. I remember a year ago i downloaded a trial game (pearl harbour) and that was totally different and very easy/straight forward but now i'm lost. I'm living now in SE Asia and there is no way for me to get this game exept from internet
+If you understand of what i have written and think that maybe you could help me i would be forever grateful.
+ACDSee 6.0 what its used for. As far as i can understand one dosen't use it with movies or games????
+Again whatever you or anyone canb do to help i will be grateful
+Best regards
+Skamfer"
+,Callius,2007-10-16T16:55Z,"@skamfer
+ACDsee is a program for viewving images and photos.
+
+Mdf/Mds files are images of a CD wich you need a program as Daemon tools (found and downloaded at http://www.daemon-tools.cc). Then use this program to open one of the files and it will start just like when you insert a cd/dvd.
+I hope this will help you."
+,fc_turner,2007-10-17T17:51Z,"He is right. After you downloaded both files, you should open them with Daemon Tools (let's say DT).
+
+I did it myself, and played allready 4 times (almost 6 hours).
+
+Good to know:
+DT 'creates' a new DVD-rom drive, a virtual one. If you have installed DT, open it and a red icon will appear at your taskbar. Rightclick at it, and select ""Select number of virtual drives"". Of cource selecting 'one Virtual Drive' will do.
+
+Then: click 'Mount image' after again clicking rightmouse button on your taskbar-icon.
+Search for the file **.mds. He will mount it as a real DVD in the virtual DVD-rom drive he made himself.
+
+If you have Autorun enabled in Windows, he will react as if it was a normal DVD, so the autoun of Monopoly starts, and you can install it.
+
+You will find a crack on the virtual DVD, which you need to overwrite in the directory where you installed Monopoly. The crack is a single executor (*.exe-file).
+
+When everything is done, you can close Daemon Tools. Remind that the virtual drive will still exist, even after closing DT. You need to rightclick the taskbar icon again and select for 'Select vitual drives' 'Zero drives' now.
+And you might to click Autostart off, since DT will start when Windows does.
+
+All clear? Don't mind my English, I'm Dutch..."
+,skamfer,2007-10-17T17:58Z,"Thanks for the advice callius.
+i installed daemon tools and it looked as it worked. when i wanted to play i got the same message as some others: ""conflict with emulation..........
+I then tried ""svojtot's"" advice and took away daemon tools (deleted). The message i got then was ""No disk inserted. Please insert the original monopoly cd/dvd.
+Now i'm more than lost, I'm about to give up if not anybodyhave ""an ace up their sleeve"" so i can get it to work.
+Anyway thanks for trying to help me.
+Best regards"
+,skamfer,2007-10-17T18:04Z,"ok fc_turner i got some more info now.
+.........You will find a crack on the virtual DVD, which you need to overwrite in the directory where you installed Monopoly. The crack is a single executor (*.exe-file)...... How to overwrite?"
+,skamfer,2007-10-17T18:41Z,"i have done what you wrote but cannot find the ""exe"" file.
+The directory where i installed monopoly has as follows:
+game gcf. GCF FILE, 14372 KB.
+MonopolyPB exe. TikGames....
+Read me text.
+Install log.
+monplg dll and UNWISE.EXE
+Sorry about all the troubble i make.
+
+best regards"
+,BuggyDays,2007-10-25T16:36Z,"Can I get some help. I have 4 files.
+
+GamesTorrents.url
+zry-monopoly2008.r00
+zry-monopoly2008.r01
+zry-monopoly2008.rar
+
+I have magic iso, power iso, and alcohol %120 installed. Daemon won't install, so i can't use that. Monopoly is installed, but it needs a cd to run. What do I do? Thanks for any help."
+,Palle-Pirat,2007-10-25T19:59Z,"Hi there.
+There's a missing file.
+Follow this link: http://dl.gamecopyworld.com/?d=2007&f=tds-mbp!rar
+It's a crack'ed file.
+
+Overwrite the original one with this.
+Mount the image, using Daemon Tools.
+Run the game."
+,Palle-Pirat,2007-10-25T20:05Z,"Sorry about the link, it's a wild goose chase.
+Anyway, checkout www.gamecopyworld.com and search for ""Monopoly"".
+Get the No-CD file and follow the instructions."
+,MaBros,2007-10-27T17:08Z,"palle-pirat, there are many to choose from on gamecopyworld is this the one you are talking about ""Monopoly v1.0 [ENGLISH] No-CD/Fixed EXE"" ?"
+,revenantgdl,2007-11-24T21:55Z,"This is a waste of damn time.
+
+Download the game to find its an ISO which isn't in the torrent file name. Time wasted +
+
+Mount it and install it using PowerISO only it wont recognise the mounted poweriso image and wont load. Time wasted ++
+
+PowerISO wont open .mds file. Try to download DT only their website isn't responding. Time wasted +++
+
+Try to find a nocd crack on gamecopy world and after download several different versions cannot find one that works with this version. Time wasted ++++
+
+Maybe next time just slip your cracked exe into the torrent? Maybe that would alleviate peoples problems with trying to run it? Pretty simple hey."
+,revenantgdl,2007-11-24T22:14Z,"Ok. Done.
+
+1. Download torrent and extract files.
+2. Mount .mdf file and install from mounted drive.
+3. Go to gamecopy world http://m1001.gamecopyworld.com/games/pc_monopoly_by_parker_brothers.shtml and download this crack. For some reason this wont show up using a search for monopoly. Have to go through the directory to find it.
+4. Play using the crack."
+,Brentan,2007-12-04T22:18Z,"Hi there! just browsed in, downloaded and followed above instructions, Boom, works like a charm ;)
+Spank U dude ;P"
+,pripmail,2007-12-06T11:13Z,can i play this game online ?
+,redimus,2007-12-08T05:38Z,revenantgdl you are the man!!!
+,Red-Balls,2007-12-08T09:56Z,Worked great for me.  Thanks revenantgdl.
+,TubbeKarlsson,2007-12-08T17:42Z,"hej när jag försöker starta kommer texten 
+
+
+Konflikt med en emuleringsprogramvara som körs.
+Se http://www.securom.com/message.asp?m=emu&c=2500&l=sw för mer information..
+
+men det stog så stänge jag ner DT men då kommer det upp att jag ska sätta i CD skivan... men jga hittade inge crak så behöver man craka de?"
+,MASTERBAITER,2007-12-15T18:44Z,"Umm where do you dl at this link http://m1001.gamecopyworld.com/games/pc_monopoly_by_parker_brothers.shtml
+
+theres no dl button anyone no where to get the file?"
+,djtdon,2007-12-16T21:45Z,":O
+
+SecuROM? has determined that emulation tools like 'Alcohol l20%' or 'Daemon Tools' are running. Please be informed that SecuROM? protected applications will not work with such tools
+
+
+lol bastards ill try power iso"
+,djtdon,2007-12-16T21:52Z,so yeh power iso installed it fine but it was still asking for the disc but the link revenantgdl left worked great
+,charlydagos,2007-12-27T22:50Z,"when I click to download the torrent, I get a 503, anyone else getting this?"
+,mayfield4,2007-12-28T22:23Z,"It all works fine for me, thanks to the instructions you guys left. However, its a USA crack not a UK version, so there is no Park Lane or Mayfair, you get Boardwalk instead and the currency is in dollars. Not what i hoped for - i wanted the UK version."
+,synchro_w,2008-01-05T21:40Z,"mayfield4, i totally agree. i have dl'd this 'english' version twice now and it is in dollars with US places. i would liek to play with UK version. you know of any UK versions of this game cos 'english' isn't american to me? shame the devs couldnt have made a multi national option."
+,hazel76,2008-01-15T07:42Z,thanks revenantgdl for the simple instruction. it worked for me! now im not gonna get bored waiting for someone to go online. hehehe.. 
+,dotcomvictom,2008-06-03T03:27Z,Excellent! I will gladly add this to my seedlings once I have obtained it... hook me up guys and I'll return the favor :)>
+,CJ_HNO,2008-07-04T22:51Z,"Small and easy to install version:
+http://thepiratebay.org/tor/4016216/Monopoly_2008_(Installer___No_CD_Patch)_ONLY_25_MB_"
+,benikens,2009-11-13T03:02Z,"[English] refers to the language the game is made in, not that it specifically relates only to the British, a lot of country's outside UK speak English"

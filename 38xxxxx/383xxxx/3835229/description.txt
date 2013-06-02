@@ -1,0 +1,29 @@
+[This is really only for VideoRedo]
+
+
+OK, solved reinstalling/updating so it always works as I've tested it plenty. This also works with newer versions where you don't have the key (see below) but that's a different thing to what I'm doing here. If your VideoRedo works fine I wouldn't bother with this but it's handy to keep the notes.
+
+
+
+Tested on 2.5.4.507 and back to 2.5.3.500 and then back to 2.5.4.507 with Trial-Reset v3.0 RC9. I used CCleaner http://www.ccleaner.com first and again after you uninstall.
+
+VideoRedo 2.5.4.507 key:
+
+Name: Udo Engelhardt
+Key : 000017-VC53P3-ZWKYVM-68RAFG-QZ90P2-W41ANQ-8VB336-EZJ2YD-0EWUFW-EC4EX7
+
+
+1) Uninstall any VideoReDo version installed on your computer
+
+2) Run Trial-Reset, scan for Armadillo
+
+How it looks (you may get 6-8 registry keys) http://image.bayimg.com/fahnmaabh.jpg  (copy of this in the folder for download)
+
+NOTE: If you download a new version of Trial-Reset make sure you scan it. AVG anti-virus allows you to right click and scan files for free 
+
+
+First time you use Trial-Reset it may reset your Microsoft Word by asking you to accept the licence once again. Doesn't change settings or anything else.
+
+Backup your registry and don't fuck around with this if you don't. 
+
+XP tested only. 

@@ -1,0 +1,27 @@
+﻿User Type,Username,Date,Text
+,cronos12,2007-10-07T05:34Z,PLease seed..... Thanks
+,Security718,2007-10-12T11:35Z,"This shows up as v.4 on my PC (zomgwtflolbbq). And since my phone will only work with v.4 and newer, why would you think that this if v. 3.22??"
+,aaron780,2007-10-14T18:53Z,this program won't install English version on  my pc
+,suzystabalot,2007-11-02T23:28Z,"Supposedly this works but I'm still having troubles (got the info from somewhere else) ...
+
+I had the same problem as all of you, but with a little bit of trial and error, I have found a work around that will let you install the English version of the MPT software. The problem lies in a few corrupted files that are located in the ""\mptools\US"" folder of the install CD. The known corrupted files from my CD were:
+
+\mptools\US\Setup.INX
+\mptools\US\Setup.BOOT
+\mptools\US\titlebit.bmp
+
+What I did to resolve the problem was create a new modified MPT CD.
+
+1) Insert your MPT CD. Cancel the autoload screen that comes up.
+
+2) Open up My Computer/Windows Explorer and go to your CD drive. Copy all files located in the CD EXCEPT FOR THE CORRUPTED FILES and store them somewhere on your hard drive.
+
+3) Go into the ""\mptools\French"" folder and copy Setup.INX, Setup.BOOT, and titlebit.bmp to the ""\mptools\US"" folder.
+
+4) Rename the original ""French"" folder as the ""US"" folder and rename the original ""US"" folder to ""French""
+
+5) Use Nero (or any other burning software) and burn the new ""modified"" CD contents on your hard drive to a new CD.
+
+6) Put in the newly created CD into the CD-rom drive and run its setup. When asked, select ""Francais"" as the language you wish to install. When this language is selected, ONLY THE INSTALLATION IS IN FRENCH. The actual MPT program itself is in English! "
+,stev0bevo54,2007-11-12T04:54Z,zomgwtfolobbq is right.  It is definitely v. 3.22.  It does not recognize my krzr because it is too new.
+,stev0bevo54,2007-11-13T02:37Z,"In case you were wondering, I could not get it to do a live update either, so i was stuck on v.3.22."

@@ -1,0 +1,39 @@
+Install:
+--------
+- Extract the archive to a temporary folder.
+- Right click the "Install.inf" file and click on "Install"
+- Choose the cursorset in the control panel mouse applet
+  It appears as "Aero Cursors (Alphablended)"
+
+Troubleshooting:
+----------------
+When the shadow on the cursors look like crap (which can happen on
+some systems) you should turn 2D hardware acceleration a nod down.
+You can do that this way:
+- Display Properties -> Settings -> Advanced -> Troubleshoot
+- Set "Hardware Acceleration" one nod down
+
+
+
+aero_alt.cur
+aero_arrow.cur
+aero_busy.ani
+aero_ew.cur
+aero_helpsel.cur
+aero_link.cur
+aero_move.cur
+aero_nesw.cur
+aero_ns.cur
+aero_nwse.cur
+aero_pen.cur
+aero_prec.cur
+aero_select.cur
+aero_unavail.cur
+aero_up.cur
+aero_working.ani
+Install.inf
+Readme.txt (copied/pasted above)
+
+
+
+Scanned using Avast 4.7 Home Edition

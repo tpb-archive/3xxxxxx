@@ -1,0 +1,27 @@
+Title: Unreal Tournament 2004
+Developer: Epic Games
+Genre: First-Person Shooter
+Release Date: Mar,2004
+Supplier: GodFearMe
+Supply Date: Feb,2007
+Rar Count: 48 x 50MB
+
+Release Note: This is the windows version, with installed linux binaries, all wrapped up together and ready to go. If you want to play online, get an unique CDkey (placed in System/CDkey).
+
+Game information:
+FPS where you can play against AI bots or other players.
+
+Minimum Requirements:
+Operating System: 2.2.x or better Linux kernel with glibc-2.1 or later and X-Windows
+Processor: 1.0 GHz x86 Processor
+Memory: 128 MB
+Disc Space: 3.5 GB
+Graphics Card: Hardware Accelerated 3D Graphics card with 16 MB video memory
+Sound Card: OSS Compatible
+
+For review,screenshots etc: http://www.tuxgames.com/details.cgi?&gameref=122
+
+Install Notes:
+Unpack in the dir you want it
+Make sure symlink to System/libSDL is correct.
+Run System/ut2004-bin (or the bin for amd64) to play

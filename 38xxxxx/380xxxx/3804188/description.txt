@@ -1,0 +1,39 @@
+Thank you MajorDork for the great Theme
+
+Here is the demo
+
+powerupload.cn
+user: demo
+pass: demo
+
+Admin Control Panel
+powerupload.cn/admin
+user: demo
+pass: demo
+
+Password:
+phpmonks.net
+install directions are in the readme file. Remember, share share share :)
+
+To change the max upload
+
+*Linux*
+Filename:
+.htaccess
+
+Contents:
+php_value upload_max_filesize 200M
+php_value post_max_size 200M
+
+
+*Windows*
+
+Filename:
+php.ini
+
+Contents:
+upload_max_filesize = 1000M
+post_max_size = 1000M
+
+Tech Support is Live 
+phpmonks.net

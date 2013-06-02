@@ -1,0 +1,185 @@
+Commander Keen Complete PC Collection Version 1.1 FIXED
+A Preserved for Posterity Release
+October 4, 2007
+
+This is a bug-fixed release of Version 1.0. Originally
+the installer created shortcuts to the documentation
+files as: FILENAME.DOC.PIF. The proper method is to
+create these files as: FILENAME.PIF. An oversight on
+my part, as having two known extensions back to back
+can cause certain virus scanners to complain of a
+"hidden extension" (and YES - you should be very WARY
+of hidden extensions - they are potentially dangerous,
+especially if they are .vbs, .exe, .com, etc.). I hope
+that I have rectified all of the problems, if not,
+leave me a comment describing any problems you may
+encounter, and I'll mention your "username" in the
+next version ;-) Also, to fully uninstall version
+1.0, after using the ADD/REMOVE programs CONTROL PANEL
+APPLET to remove version 1.0, manually delete the folder:
+Program FilesDOS ApplicationsApogeeCommander Keen Complete
+if it is still there. This version (1.1) should do a proper
+uninstall as well.
+Thanks - PfP
+
+
+This is a collection of all seven of the original
+Commander Keen PC Games, PLUS the GameBoy Color
+version, titled simply "Commander Keen". This
+collection has been assembled with the modern PC in
+mind, and thus the first seven games may be played
+under emulation via DOSBox 0.72, partial emulation
+via VDMSound 2.1.0, or directly via the Windows
+Command Interpreter. These three options should
+ensure that almost any PC will be able to properly
+execute the games. The eighth game in the series
+is playable on the PC via the included GameBoy
+Color Emulator. In an attempt to make this as simple
+as possible, this installer will install the games
+and create the following program group:
+START>PROGRAMS>GAMES>DOS>APOGEE>
+COMMANDER KEEN COMPLETE
+With the following subgroups:
+CMD
+Documentation
+DOSBox
+GBC
+VDMSound
+The icons in the CMD group will launch the games via
+the Windows Command Interpreter. The icons in the
+DOSBox group will launch the games via DOSBox emulation.
+The icons in the GBC group will launch the GameBoy Color
+version via a GBC emulator. Note that the original and
+two hacked versions are included for the GameBoy Color
+emulation. The icons in the VDMSound group will launch
+the games via VDMSound partial emulation. The icons in
+the Documentation group are the little bits of info that
+were included with the files that I used to create this
+installer. Obviously, for the VDMSound shortcuts to work,
+VDMSound has to be installed, but don't worry, it's
+installer will launch as part of this setup (during the
+VDMSound setup, select all options or "Complete Install").
+If VDMSound is not compatible with your system (or
+Operating System), you can simply cancel the VDMSound
+setup and the rest of this setup will complete - the icons
+in the VDMSound group just won't function. The required
+DOSBox files are automatically installed as part of this
+setup - no need to worry if you already have DOSBox
+installed - everything will work out just fine.
+
+
+
+The following text is "borrowed" from: 
+http://en.wikipedia.org/wiki/Commander_Keen
+
+Commander Keen is a series of video games developed
+by id Software in the early 1990s, which was successful
+at replicating the side-scrolling action of the NES
+Super Mario Bros. games in MS-DOS. The cartoon-style
+platformers are notable for their pioneering use of EGA
+graphics and shareware distribution, and because they
+were the first games by id Software (which went on to
+develop blockbusters like Doom and Quake). The games were
+also exciting to the PC gaming community of the time
+because of John Carmack's revolutionary smooth-scrolling
+graphics engine. Although developed by id, most of the
+Commander Keen games were published by Apogee Software,
+an already established MS-DOS shareware game publisher.
+Tom Hall is Commander Keen's designer and the creator of
+Keen's universe.
+
+Episodes:
+Seven official Commander Keen games were released for the
+PC under MS-DOS. They are divided in mini-series, and are
+considered "episodes" of the full series. Under the Apogee
+version of the shareware model, usually the first episode
+of a series was available at no charge. The eighth game in
+the series is available exclusively for the Game Boy Color.
+
+
+Commander Keen in Invasion of the Vorticons
+
+1. "Marooned on Mars"
+(first released as shareware on December 14, 1990).
+While Commander Keen is exploring Mars, the Vorticon steal
+four vital components of his ship and hide them in Martian
+cities, each guarded by a Vorticon soldier. In this episode,
+Keen acquires his trademark pogo stick and meets a variety
+of Martian aliens and robots. 
+
+2. "The Earth Explodes" 
+Keen returns to Earth only to find the Vorticon mothership
+hovering above, with its ray cannons locked on to eight of
+Earth's greatest wonders, including the Egyptian pyramids and
+the Sydney Opera House. Keen has to find and deactivate each of
+the cannons to save Earth. Unlike the first game which had a
+happy and friendly atmosphere, almost everything in this game
+is hostile towards Keen, from the floating machine gun robots
+to the electrified floors. The engine has a couple of extra
+features such as light switches and moving platforms, making
+this game the hardest of the trilogy. 
+
+3. "Keen Must Die!" 
+Keen travels to the Vorticon homeworld in search of the
+mysterious Grand Intellect that has directed the Vorticons
+toward Earth. The game features the cities, parks, and suburbs
+of the Vorticons, and their women, children, pets, and mechanical
+toys make up the enemies. The Vorticon alphabet is also decoded
+in a school house, allowing for the player to travel to the other
+in-game locations and read the Vorticon signs. 
+
+Interlude
+
+3.5. "Keen Dreams" aka The "Lost Episode"
+(published as shareware by Softdisk) 
+After refusing to eat his vegetables, Billy is sent to bed by
+his parents. He falls asleep, only to awaken in a strange
+vegetable kingdom led by the evil potato king Boobus Tuber,
+who has imprisoned other sleeping children there. In the dream
+world, Keen does not have his trademark raygun and pogo stick,
+but has to defend himself with "Flower Power" seeds that
+temporarily turn enemies into flowers. 
+
+Commander Keen in Goodbye Galaxy!
+
+4. "Secret of the Oracle"
+(first released as shareware on December 15, 1991) 
+Keen's newly finished homemade faster-than-light radio picks up
+a plot by the Shikadi to destroy the galaxy. He rushes to the
+planet Gnosticus IV to consult the Keepers of the Oracle, but
+discovers that they have been taken captive. Thus, the gameplay
+centers on Keen finding and rescuing the eight elders. This
+episode features huge levels and a wide variety of enemies,
+such as rocks that only move when your back is turned, and
+improved game mechanics. 
+
+5. "The Armageddon Machine" 
+After getting information from the Oracle, Keen lands on a
+massive Shikadi space station, the Omegamatic, nicknamed the
+Armageddon Machine, and seeks out the mysterious Gannalech.
+The gameplay centers on Keen advancing through the Omegamatic
+to deactivate it. 
+
+Commander Keen in Aliens Ate My Babysitter!
+
+6. Aliens Ate My Babysitter!
+(published commercially only by FormGen,
+who resold it to Apogee; now discontinued) 
+When Keen's babysitter Molly is abducted by the Bloogs, Keen
+must come to her rescue by fighting his way through the
+inhabitants of the planet Fribbulus Xax. This is the last
+episode of the original Keen series. 
+
+Commander Keen (GBC)
+
+In 2001, Activision published a completely new Commander Keen
+game for the Game Boy Color, simply titled Commander Keen. The
+game, although developed with id's permission, did not involve
+any of the original Keen developers, but was instead a David A.
+Palmer Productions game. Most fans of the original games found
+this game to be a disappointment, as it strayed from the
+original gameplay and looks. Tom Hall, creative director and
+designer of the original Commander Keen series, does not
+consider this game to be a sequel. 
+
+PfP - October 4, 2007

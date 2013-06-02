@@ -1,0 +1,18 @@
+(same as before with newer build)
+Ok I wanted another Xbox And I wanted to use a 250 Gig Harddrive and i wanted XBMC as A Dash I have Used Modchips and Softmods In The Past. So how hard would it be to set up a 250 gig harddrive with XBMC as the DashÃ¢ï¿½Â¦.. well I had to use the Ndure 3.0 to get more that 137 gigs to the F and I didnÃ¢ï¿½ï¿½t want unleash X or EvoxÃ¢ï¿½Â¦. So I set up this Version using of XboxHDM 1.9 and NDure 3.0 and XBMC ver 10675 so that when you set up a new Harddrive and pop it in the Xbox it boots it straight to XBMC here are the 13 steps below that you need to do if you already have your eeprom 
+
+This will set up XBMC as the Default Dash and support a Harddrive Greater Than 137 gigs 
+
+1. Unzip and Place your Eeprom in the Epprom Folder (short version of the instructions are in the EEprom Folder) 
+2. Now double click MAKEISOWIN 
+3. That will run and make a ISO File 
+4. Burn That Image to a DVD 
+5. Hook Up The New Hard drive to a Computer (as the only drive and as the master drive) pop in the disk and boot from the Disk 
+6. Click number 1 then after Linux loads 
+7. Enter 1 make a new hardrive from scratch 
+8. Follow instructions type Ã¢ï¿½ï¿½yesÃ¢ï¿½ï¿½ on everything not Ã¢ï¿½ï¿½yÃ¢ï¿½ï¿½ 
+9. When it is done reboot from the CD 
+10. Go to step 3 to lock the hardrive 
+11. Type lockhd Ã¢ï¿½ï¿½a Ã¢ï¿½ï¿½ -a tells it to look in the EEprom folder to make the passwordÃ¢ï¿½ï¿½ 
+12. It will ask you if you want to lock it type y 
+13. Shutdown and put the hardrive in the xbox and boot 

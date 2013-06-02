@@ -1,0 +1,22 @@
+PES 2008 Final Widescreen Resolution fix By Z
+
+- Extract the resolution you wante (xxxxsettings.exe) to your PES2008 directory 
+and then delete the origeonal one and rename the one you put in there.
+then run it, choose the resolution and your done :).
+
+
+For example
+"if you want 1360x768"
+copy '1360settings' to pes folder, delete 'settings' then rename '1360settings' to 'settings'.
+
+
+PES Rules
+
+Supports
+
+1152settings = 1152x864
+1360settings = 1360x768
+1440settings = 1440x900
+1680settings = 1680x1050
+
+if you cant figure it out you dont deserve a pc

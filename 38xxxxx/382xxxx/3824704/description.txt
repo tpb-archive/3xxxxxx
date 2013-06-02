@@ -1,0 +1,58 @@
+How Computers do Math.
+
+Clive Maxfield,Alvin Brown
+
+Wiley 2005
+
+
+
+Chapter 0 Why This Book Is So Cool                                     1
+  This is where we discover just why this book is so cool, and
+  also why this chapter is numbered ?0.?
+Chapter 1 Introducing Binary and Hexadecimal Numbers                   7
+  In this chapter we introduce the concepts of the binary and
+  hexadecimal number systems (but in a much more interesting
+  manner than most computer books).
+Chapter 2 Computers and Calculators                                   23
+  Here we rampage through the insides of a simple computer
+  and calculator, and we also meet our virtual DIY Calculator.
+Chapter 3 Subroutines and Other Stuff                                 35
+  In this smorgasbord of a chapter, we first discuss logical, shift,
+  and rotate instructions; then we plunge headfirst into the
+  stack, subroutines, recursion, and the concept of self-
+  modifying code.
+Chapter 4 Integer Arithmetic                                          69
+  This is where we learn the concepts of signed and unsigned
+  binary arithmetic, and multibyte data representations. In the
+  labs associated with this chapter we create some integer-based
+  math subroutines for use in Chapter 5.
+Chapter 5 Creating an Integer Calculator                             123
+  This is where things really start to get interesting because we
+  use the subroutines we developed in Chapter 4 to implement
+  a simple four-function integer calculator.
+Chapter 6 More Functions and Experiments                            135
+  This may be the last chapter, but turn that frown upside down
+  into a smile because this is where we discover additional
+  projects you can undertake, and also how you can compete
+  with other readers to create better math routines for your
+  DIY Calculator.
+Interactive Laboratories                                        155?412
+  This is where you will find the interactive laboratories
+  associated with Chapters 2 through 5 (see more details
+  on page ix).
+Appendix A Installing Your DIY Calculator                           413
+  In this appendix, we learn how to install the virtual DIY
+  Calculator presented on the CD-ROM accompanying
+  this book.
+Appendix B Addressing Modes                                         417
+  Here we learn about the various addressing modes supported
+  by the virtual microprocessor powering the DIY Calculator.
+Appendix C Instruction Set Summary                                  429
+  The tables in this appendix are useful for quickly determining
+  which instructions are available with which addressing modes.
+Appendix D Additional Resources                                     433
+  There is a wealth of additional resources for individual
+  readers and educators on the CD-ROM accompanying the
+  book and from the DIY Calculator?s website. Also, there are
+  lots of other really interesting books to read. This appendix
+  explains it all.

@@ -1,0 +1,121 @@
+﻿User Type,Username,Date,Text
+,tazx,2007-10-06T21:40Z,"Why Cider this when there's a native port that's been around for years?
+
+How about Morrowind, Oblivion, or Jade Empire instead? :)
+"
+,Timewizard,2007-10-08T23:01Z,"As far I know the native version of this game is only for ppc, I have intel, otherwise, I wasn't able to found the native version, however the windows version was much more easy to find. This is a help for those that have my situation.
+
+
+
+Sorry for my english."
+,boriscrispin,2007-10-09T20:38Z,"Please do continue to seed, I will as soon as I can get it!"
+,ReturnoftheRat,2007-10-10T10:01Z,Please seed. I've only got incomplete sources. And I ree-he-heeally want this game.
+,Timewizard,2007-10-11T01:12Z,"I'm still seeding this torrent, but my conexion isn't very good, be patient please"
+,boriscrispin,2007-10-11T10:40Z,"Well, i have downloaded it, mounted it, dragged the Baldurs Gate II icon into my applications, when I double click on the icon it won't do anything, I am running 10.4.10 on an Intel mac.......can anyone help?"
+,Timewizard,2007-10-11T13:05Z,"For me it takes a few seconds with a black screen before it start to run, have you tried wait?"
+,boriscrispin,2007-10-11T14:17Z,"it doesnt give time to wait really, it just trys to load it - you see it come up in the menu bar, then it goes as if it has suddenly closed"
+,ReturnoftheRat,2007-10-11T20:31Z,"It's the same thing for me, Boris. It bugs the crap out of me. "
+,Timewizard,2007-10-12T00:58Z,"Really I have no idea of why happened that, maybe it works only on Leopard but I don't think so. I don't know, for me it works."
+,Jon_F_B,2007-10-13T12:24Z,Has any of you who has this problem figured out a way to correct it? Does one have to burn a hard copy of the game or is it sufficient to mount it with Toast?
+,jetlag4321,2007-10-17T15:49Z,keep seeding
+,ken694,2007-10-20T19:44Z,"To Timewizard
+
+Hi, I'd like to do my own version of BG2 cider, because I don't want to download 2.5GB of a game I already own (PC and Mac PPC, the latter sports horrible speed on Core2Duo).
+
+How did you do this succesfully? I mean, I tried with my PC copy, installed everything and ported to mac with cider, but I must be doing something wrong because only the audio works, graphics are black-screened.
+
+I'm on a system similar to yours:
+MacBook Core 2 Duo 2.16 Ghz
+2GB RAM
+Intel GMA 950
+Mac OS X 10.5 (9a559)
+
+Did you modify ini files of the game before copying into cider? Did you copy registry info too?
+
+Tnx 4 any answer!"
+,Timewizard,2007-10-21T03:28Z,"Hi ken694, I made this with a downloaded copy for windows, I installed the game into a vmware fusion virtual machine and start the game once for any settings screen, I think i know what's your problem, in the info.plist make sure that you use BGMAIN.exe, instead of baldur.exe, using the last one you get a launch window that cider can't show. Sorry for my english"
+,ken694,2007-10-21T11:40Z,"Thanks for the quick answer! Your english is very good anyway! I will try what you said and post here any comments, keep up the good work dude"
+,Ssargon,2007-10-22T02:06Z,It just crashes for me. It makes a crash log in library/logs/crashlogs and then quit.
+,Ssargon,2007-10-22T02:12Z,Have anyone else but Timewizard actually got it to work? If it just quits right away its because it crashes.
+,ken694,2007-10-23T15:28Z,"Timewizard, I followed your advices and created my own version of BG2 cider.
+Results: cider quits immediately after opening. The same error everybody's experiencing.
+Now I'm trying to download this torrent to see if you have done something differently, but it's gonna take quite a few days. Anyway it really seems like you are the only one who can get it to work.. how did you do it? bye"
+,Timewizard,2007-10-23T19:02Z,"I don't know why happened this, it works for me, but I didn't do anything especial to make it works, I only made the port, run it, and worked. About your port, I forgot advice you to use a crack, otherwise maybe don't work"
+,Ssargon,2007-10-23T19:04Z,Perhaps the version you made can´t work for anything but the Intel GMA 950 graphics?
+,Timewizard,2007-10-25T15:22Z,"Oops!, Yesterday my Leopard crashed and I return to Tiger, now I can't play the game too, same problem, the app start but quits inmediatly, maybe it only works with leopard, but there is a problem that have a easy solution since tomorrow...."
+,ken694,2007-10-25T18:13Z,"Yes, I used a no-cd crack. By the way I was using the same system as Timewizard (same MacBook, same OS Leopard 9a559, and same video card GMA 950). With the new Leopard coming out tomorrow we will se if it is a matter of OS or not!"
+,ken694,2007-10-25T18:16Z,"By the way, Leopard 9a559 is behaving very well for being a temporary beta. Faster and slicker than Tiger (and no crashes) (crosses fingers!)"
+,Naroon,2007-10-30T02:09Z,"Yes, it works in Leopard. To bad its in Italian(?). I think you should point this out when posting even thou you write the info in both Italian(?) and English. Can you switch language?"
+,aliassmalias,2007-10-30T06:36Z,Is there a way to get the text in the game into English?  I  no hablo español
+,Timewizard,2007-10-31T15:13Z,"I have no idea, maybe a patch can do it."
+,ken694,2007-10-31T18:17Z,There is no way to convert the game into english or any other language with patches. You should take an english copy of the game and manually substitute the files in this spanish version. That's what I'm gonna do as soon as I find the time.
+,ken694,2007-11-01T11:34Z,"To Timewizard:
+wow you must be someone like a programmer because your version really DO works in Leopard! I still can't cider this game by myself but that's another story ;)
+
+On a side note this version works much faster than the PPC one, but I have to admit that loading and saving times are still shorter on PC (Boot Camp). However this is the best way to play Baldur's Gate II on a Intel Mac so far!
+
+To Naroon and aliassmalias:
+I merged my english PC installation with this one. To do this I had to replace inside this package the dialog.tlk file (it's the file containing every single dialog and menu word of the game) and the override directory (this is a long story, suffice it to say that you have to do this if you want the game to run without bugs).
+This is the confirmed way.
+
+For those of you that don't have the PC version, you could try to go to
+http://alas.matf.bg.ac.yu/~mr02117/bgdlgs/
+and download the language you need.
+This is the unconfirmed way (I don't think the game will run without replacing the override directory, you should encounter countless bugs), but at least the game will be in english."
+,Naroon,2007-11-03T18:13Z,ken694: Perhaps you could upload the files needed for the conversion?
+,MACinized,2007-12-09T15:48Z,"before anything else, tnx Timewizard for taking time to share. but i just can't make it work too. is there anything else that needs to be done before installing it?
+hopefully there's a fix for this coz i would not want my one FULL day downloading it be a total waste. btw, i plan to run it in my osx86 leopard."
+,phanax,2008-03-22T04:54Z,Anybode got a fix for this yet? I have the same problem on Tiger as everybody else has. 
+,artiste28,2008-04-27T21:29Z,Pleeeassee Seed!
+,tschain,2008-06-01T14:54Z,"erm sorry, im noob with mac.. where is the folder to chance the dialog.tlk for switch the game to another language?"
+,pastavibes,2008-07-02T21:05Z,"@Timewizard: hey dude! thanks for porting this amazing game! I thought I'd never play BG again.
+
+@tschain: right-click on the app, click ""Show Package Contents""
+dialog.tlk is in Contents > Resources > transgaming > c_drive > Archivos de Programa > Black Isle > BGII - SOA
+I have converted mine, and have only noticed the one ""This program may be buggy"" dialog at the beginning (though it's blank, and I haven't yet ventured past the character creation menu)
+
+--
+Macbook 2.16 GHz Core 2 Duo
+2 GB 667 DDR2
+Leopard 10.5.4"
+,uroidoshi,2008-07-19T15:51Z,"Hi everybody!!
+I'm trying to download that game but speed is awful((( Is it possible to do smth with that?
+
+Thx"
+,uroidoshi,2008-07-21T08:42Z,"Wow!!! It works!!! As i understand i'm the only one here now))) Do anybody have english file for that? (Or may be russian?))
+
+Timewizard - you are cool!!)) Thnx!"
+,GeneralQ,2008-08-14T11:27Z,"how exactly do i install this do i use toast or can i just double click the .dmg  
+
+i tryed to unpack and then just click the icon but nothing happens. im runing of a 10.4.10 mac with intel."
+,Raph_Funk,2008-09-19T09:56Z,to the ones who already downloaded it successfully ... could you seed please?
+,Raph_Funk,2008-09-26T22:12Z,"Time Wizard, Muchas Gracias Hombre, por este juegazo... 
+
+i will continue seeding for some time, im not sure if im doing it right but i will keep limewire open for few days.
+
+but i got a request, there seems to be prolems with some of the area files... when i go to nalias castle second floor the game starts getting slow untill it crashes... 
+
+any help anyone? thanks in advance"
+,SamBumboStrikesBack,2008-12-07T05:06Z,"Please Seed! stuck at 87.7% No peers, no seeds, no nothing! Go Go Go! everyone loves RPGS!"
+,DagonTheRed,2009-04-20T20:32Z,"The cider port on this is working, but we have some areas not working correctly.  
+
+Nadia's Castle 2nd floor will slow down until it crashes.  
+The Planar Sphere does this also upon entry.  The engine room will also do it.
+
+I have noticed a pattern.  Monsters such as golems that need to load might cause this.  
+
+A possible work around.  If cheats enabled and debug mode on -  Using the CLUAConsole:MoveToArea ...instead of loading it through stairs - seems to work sometimes, but only if you move the entire BG 2 folder out of the cider port shell and to Windows using Bootcamp side - and redirect all the CD files in the baldur.ini file for the change. 
+
+I do not know if it is corrupt area files or a part of the ciders graphic settings.  I have been unable to move a clean new copy inside the cider shell and get it to work like the person that distributed this.
+
+In the end, I am forced to install a fresh copy and use Windows to really enjoy these areas.
+
+Hopefully someone will make progress on fixing this."
+,snailboy38,2009-05-04T08:24Z,"copied over the .tlk files (at least the ones that I could find), but some of the text is still in Spanish, especially during character conversations, which is frustrating considering I've never played the game before, and still some of the text has completely vanished.
+
+not sure if I'll find the patience to completely convert this back into English, but I'll seed for a few days anyways because I'm a nice guy like that. :)"
+,tom042,2009-09-25T03:39Z,"I'd just like to say that the English conversion seems to work fine just by downloading the dialog.tlk files from the link that ken posted, renaming them and placing them inside the package. I also tried downloading a PC copy of the game to get the override directory mentioned, but since I can't run the installer I couldn't do that, but there are few problems without it. Some of the dialog boxes in the menus show up with no text on the buttons, but there've been no problems in the game itself in the 20+ hours I've played."
+,Mikhos,2009-12-09T18:26Z,"Need a seed. Stuck at 94% with .941 availability D:
+
+Thanks in advance."
+,Buduel,2012-08-16T20:58Z,"Hola, tengo una pregunta, ¿cómo hago para poner las voces en Español? Están en inglés. Muchas gracias por el aporte."

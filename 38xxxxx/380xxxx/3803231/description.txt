@@ -1,0 +1,17 @@
+movie thumbnailer (mtn) -- saves thumbnails (screenshots) of movie or video files to jpeg files. It uses ffmpeg's libavcodec as its engine, so it supports all popular codecs, e.g. divx h264 mpeg1 mpeg2 mp4 vc1 wmv xvid, and formats, e.g. .3gp .avi .dat .mkv .wmv. mtn is open source software. It should run on all operating systems which have gcc, ffmpeg, and GD, for example, linux and windows. 
+ 
+http://moviethumbnail.sourceforge.net/
+
+mtn comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to redistribute it under certain conditions; for details see file gpl-2.0.txt.
+
+Features:
+* Super fast! Thanks to ffmpeg's libavcodec.
+* Command line program: can be used on remote connections to co-location servers, or used in scripts.
+* Batch mode: recursively search directories for movie files.
+* Run at lower priority (nice 10 on linux, idle on windows) by default. 
+* Thumbnails are group together in one jpeg file and can be saved individually too (-I option).
+* Unicode filenames now work fine in Windows. (It works in Linux since the beginning.)
+* Blank screen detection & evasion: no blank shots in the thumbnails!!
+* Edge detection & blur evasion: no blur (without edges) shots (not perfect yet)
+
+This file can also be downloaded at: http://downloads.sourceforge.net/moviethumbnail/mtn-0.61-linux.tgz

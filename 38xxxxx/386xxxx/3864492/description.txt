@@ -1,0 +1,28 @@
+Make ANY USB Stick Drive Bootable!!*fresh upload*
+
+Ever had the problem of having a computer without a floppy drive and needing to boot into DOS?
+
+This file will turn a USB Storage device into the equivalent of a bootable floppy, with also the added extra of having the DOS interactive version of Norton Ghost
+
+Instructions:
+
+1.Please note that when extracting files from the zip to make sure you have the "Use Folder Names" option Checked
+
+2.Install SP27213.exe
+
+3.Run the installed application
+
+4.Select apporpraite device, file system and volume label
+
+5.Check Create DOS Startup Disc and then click sub option of "Using Dos System Files Located at"
+
+6.Select the folder DOS System Files (These are for Win XP Only, for all other OS you will need to download the files from somewhere)you just extracted from the zip
+
+7.Click Start
+
+8.Copy Folder GBDF over to USB Device To have Norton Ghost Installed
+
+Warning: This Process will format your USB Device
+
+
+

@@ -1,0 +1,16 @@
+﻿User Type,Username,Date,Text
+,miensch,2009-01-24T08:02Z,"Thank you!
+
+The file has a small problem at time 44:30: the video size changes and there is a second of audio noise. The problem is easily ""fixed"" by splitting the file into 2 parts using mencoder:
+
+mencoder -ovc copy -oac copy -force-avi-aspect 4:3 -endpos 00:44:30 ""file.avi"" -o pt1.avi
+mencoder -ovc copy -oac copy -force-avi-aspect 3:2 -ss 00:44:31 ""file.avi"" -o pt2.avi
+
+The parts need different AVI aspect ratios set to display correctly. The second starting at 44:30 and ending at 44:31 is cut. That second contains a glitch in the audio and video where it switches video in a strange way. The 2 file parts can play one after the other and look and sound fine, nearly perfectly continuous.
+
+Video: DIVX 720x480 24bpp 29.970fps 2000.2kbps
+Audio: MP3 44.1kHz 2ch s16le 128kbps
+Runtime: (if you split it like I did)
+ Pt1: 44:29
+ Pt2: 07:03
+      51:32"

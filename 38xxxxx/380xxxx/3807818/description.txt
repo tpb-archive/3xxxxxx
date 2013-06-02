@@ -1,0 +1,40 @@
+The Venture Brothers
+	Season 2 
+http://www.imdb.com/title/tt0417373/ 
+http://www.adultswim.com/shows/venturebros/
+
+Source: Retail DVDs
+
+Video:
+	Codec:		XviD - 2 Pass
+	Resolution:	576 x 432
+	
+Aduio:
+	Codec:		LAME VBR MP3
+	
+	Episode Commentaries On All Episodes By
+		Doc Hammer & Jackson Publick
+		James Urbaniak & Michael Sinterniklaas (on selected episodes)
+
+Note About Dual Audio Tracks
+	These .AVIs are all Dual Audio. To properly play them, I reccommend
+	Video Lan Client (VLC). All videos have been tested using that program.
+	If you choose to use mplayer, use the -aid 2 to listen to the second
+	audio track.
+
+Note About Audio Tracks Regarding File-Sizes
+	Scene rules say that these file sizes are not right... They aren't... 
+	However, if you want to make them right, use a program and 
+	disable the second audio stream in each AVI, then re-save the 
+	.avi copying the video and audio stream. If you do that, all episodes
+	fit to 172 MB. 
+	
+	Reason why it's encoded that way?: 172 MB AVI with 2 audio streams
+	means degraded video quality to fit in 172 MB. The way it's been 
+	encoded is that the video and audiotrack1 together are a 172 MB AVIs, 
+	and there's no video quality loss with the adding of the second audio 
+	track.
+
+Speical Thanks Go Out To Tanstaafl for his help on the subtitles!
+
+~HGomez

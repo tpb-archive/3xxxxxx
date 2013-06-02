@@ -1,0 +1,176 @@
+Games : Windows : Full Game : English
+Microsoft Entertainment Pack for Packard Bell (PfP)
+Windows Entertainment Pack for Packard Bell (WEPPB)
+A Preserved for Posterity Release
+November 5, 2007
+
+As the name implies, Preserved for Posterity exists for the sole
+purpose of preserving the past, well into the future. When PfP began,
+we weren't too certain as to the best method of achieving this goal.
+As a result, there are a few PfP releases floating around out there in
+cyberspace that should probably be deleted and forgotten due to their
+extreme inelegance and awful design. In fact, any PfP release prior to
+October 1, 2007 should be considered Recycle Bin fodder! Uninstall and
+delete those old releases and keep an eye out for much improved
+replacements - You will not be disappointed!
+
+Our intent is to locate old software, which is no longer available for
+sale (this is typically referred to as Abandonware, Orphanware, or
+some other such moniker) and create new setups (installers) which
+allow these blasts from the past to function correctly on modern PC's.
+To achieve this, we make the best possible use of tools such as
+DOSBox, VDMSound and the ever present Windows Command Interpreter
+(when working with MS-DOS applications). Improved installers are
+created for older Windows based applications.
+
+This release contains the original Entertainment Pack for Packard Bell.
+The original setup (installer) for WEPPB, unlike the earliest
+Entertainment Packs for Windows, actually installs perfectly on later
+versions of Windows. We have, however, created a 32-bit installer for
+WEPPB, just as we have with Entertainment Packs 1-4. This installer
+should be compatible with most 32-bit versions of Windows (untested on
+Vista). Remember, this is 16-bit software, even though our installer is
+32-bit. This may prevent the software from being compatible with Vista,
+as we have heard that Vista doesn't support legacy 16-bit sofware,
+however, we are at present unsure of this. We don't currently use
+Vista, and have no immediate plans to migrate to it. This software
+should function with Windows 9x, ME, NT and XP without problems.
+Eventually, we will support Vista. In fact, we could launch DOSBox
+within Vista, Install Windows for Workgroups 3.11 (or other 3.x
+Windows) into DOSBox and install the original Windows Entertainment
+Pack for Packard Bell into that environment and it would work. We have
+tested this method with DOSBox on Windows XP and it works well and
+should also work with Vista as DOSBox is a 32-bit application (this
+method is also possible within Linux using the Linux version of
+DOSBox). Just thought we would give you a few hints on using legacy
+16-bit Windows software with Vista and Linux, in case the use of
+DOSBox to run Windows 3.1 had not occurred to you.
+
+This setup creates the following DIRectories (folders):
+My Documents\Inno Setup scripts
+My Documents\Disk Images\Floppy\1.44M
+Program Files\Microsoft Games\WEPPB
+
+The WEPPB folder is the folder where the Windows Entertainment Pack for
+Packard Bell is installed. The 1.44M folder exists as part of our goal
+of preserving the original software for posterity. Within the 1.44M
+folder is a floppy diskette image of the original Windows Entertainment
+Pack for Packard Bell that we have. It was created using WinImage
+8.10.8100 directly from the original floppy diskette, and requires
+WinImage or other diskette image tool for manipulation. The diskette
+image is named WEPPB.imz. The Inno Setup scripts folder will contain
+the script used to generate this installer via Jordan Russell's
+Inno Setup software. This installer has been designed to completely
+remove itself when uninstalled, with the exception of the Disk Images
+and Inno Setup scripts folders. These folders may be safely deleted at
+any time, should you have no need or desire for the diskette images of
+the original 16-bit installer and/or setup scripts.
+
+
+The following program group will be created:
+START>PROGRAMS>MICROSOFT GAMES>WINDOWS ENTERTAINMENT PACK>PB
+which will contain the following icons (games):
+Chess
+Dr. Black Jack
+Fuji Golf
+JigSawed
+Life Genesis
+Rattler Race
+Rodent's Revenge
+SkiFree
+
+We are certain that it will probably annoy some people that we are
+including original disk images with these distributions. Other people
+will be ecstatic. We would just like to say that in order to fulfill
+our goal, the diskette images MUST be included. Certainly, some may be
+annoyed that we are including the Paint and Reversi applications from
+Windows 1.01, Windows 2.03, Windows 3.0 and Windows 3.1. ToastyTech.com
+succeeded in patching the Windows 1.01 and 2.03 applications so that
+they would function with later versions of Windows. The Windows 3.x
+applications work with all later versions of Windows out of the box. We
+decided it would be cool to include the Paint 1.01 and Reversi 1.01
+with Entertainment Pack 1, Paint 2.03 and Reversi 2.03 with
+Entertainment Pack 2, Paint and Reversi from Windows 3.0 with
+Entertainment Pack 3 and Paint and Reversi from Windows 3.11 with
+Entertainment Pack 4 (Note: Reversi 3.11 was NOT included with Windows
+3.11, but was offered as a download from Microsoft, which is where we
+got it). We have decided to include Solitaire from Windows 3.0 with
+Windows Entertainment Pack : Volume Three.
+
+Install and Enjoy these classic games on your modern PC! Look for more
+PfP releases, with Entertainment Pack #4 following next.
+(Entertainment Packs 1-3 are already available, 4 is in the works.)
+PfP - November 5, 2007
+
+The following information is from WikiPedia:
+
+Microsoft Entertainment Pack
+From Wikipedia, the free encyclopedia
+
+Developer(s) Microsoft
+Publisher(s) Microsoft Game Studios
+Distributor(s) Microsoft
+Designer(s) Robert Andrews
+Series Entertainment Pack
+Release date(s) 1990
+Genre(s)
+Mode(s) Single-player
+Platform(s) Windows 3.x
+
+The original Microsoft Windows Entertainment Pack (WEP) was a
+collection of simply-designed computer games for Windows. These games
+were somewhat unusual for the time, in that they would not run under
+MS-DOS. Many of the games were later released in the Best of Windows
+Entertainment Pack. There were four Entertainment Packs in the original
+series.
+
+List of games
+Here is a complete list of the original Microsoft Windows Entertainment Pack titles:
+* Chess
+* Chip's Challenge
+* Cruel (a card game)
+* Dr. Black Jack
+* FreeCell (a card game)
+* Fuji Golf
+* Go Figure!
+* Golf (a card game)
+* IdleWild (a screensaver program)
+* JezzBall
+* Jigsawed
+* Klotski
+* Life Genesis (based on the Life simulation by John Horton Conway)
+* Maxwell's Maniac
+* Pegged
+* Pipe Dream (by LucasArts)
+* Rattler Race
+* Rodent's Revenge
+* SkiFree
+* Stones
+* Taipei
+* Tetravex
+* Tetris (Windows version)
+* Tic Tac Drop (basically a Connect Four clone)
+* TicTactics
+* TriPeaks (a card game)
+* Tut's Tomb (a card game)
+* WordZap
+
+GameSampler
+A version of the Entertainment Pack called the Gamesampler, small
+enough to fit on a single high-density disk, was shipped as the 11th
+disk in a ten-pack by Verbatim for much of the early 1990s, allowing
+many users to acquire them as a freebie. Games on the sampler included
+Jezzball, Rodent's Revenge, Tetris, and Skifree. A "Best of" disk of
+several of the games was also available at times as a mail-in premium
+from Kellogg's cereals.
+
+* Microsoft Entertainment Pack: The Puzzle Collection - a later
+collection for Windows 95: 
+http://en.wikipedia.org/wiki/Microsoft_Entertainment_Pack:_The_Puzzle_Collection
+* Microsoft Arcade 
+http://en.wikipedia.org/wiki/Microsoft_Arcade
+* Best of Microsoft Entertainment Pack 
+http://en.wikipedia.org/wiki/Best_of_Microsoft_Entertainment_Pack
+
+
+Entertainment Pack for Packard Bell (PfP) a.k.a. Windows Entertainment Pack PB (WEPPB)

@@ -1,0 +1,46 @@
+﻿User Type,Username,Date,Text
+,honkytonck,2007-11-28T15:24Z,"hi there, I downloaded the torrent(SafeDisc3.x.ccp), so what do I do know? 
+you say ""put it in the profile folder"", how does that work? when in the CloneCD program I tried to select the file 'cd2-MRE_2007-2008_DXv1.img' but the program gives an error by opening (says that the system can't find this file). HOW CAN THIS BE SOLVED?
+
+PS I didn't have any problems burning the Benelux-version (no extra torrents needed there)
+thank you in advance for your help!"
+,Eotaxin,2007-11-30T11:03Z,"To put the file into the CloneCD profiles folder, simply copy the file, and go to e.g. Program Files->Slysoft->CloneCD->Profiles and paste the file. If you open the CloneCd program, the profile should be there when you want to burn something.
+
+For your other problem, I don't know, are you sure your file 'cd2-MRE_2007-2008_DXv1.img' is in the right location?
+
+If you did not have problems burning the Benelux version, maybe you do need this profile at all? I just posted it because it appeared to help me out after burning a lot of CDs that did not work...
+
+Good luck"
+,honkytonck,2007-12-01T00:20Z,"thanks, adding to profile succeeded!
+BUT, still no luck with opening the MRE-file :o(
+what location are you referring to?
+it doesn't matter to what location I unpack the WINRAR-file, or does it?
+maybe something wrong with the torrent?
+
+would almost ask you to burn me the freaking cd..."
+,Eotaxin,2007-12-01T11:59Z,"I do not know which file you are trying to burn but try this:
+
+Choose the option """"burn from image file"" (or something similar) when the program starts up.
+
+Select the .ccd file (should be in the same folder as your .img file) with CloneCD."
+,honkytonck,2007-12-02T10:41Z,"the file is named:
+'cd2-MRE_2007-2008_DX v1.ccd'
+the other 2 files have the MDF or MDS extention..."
+,honkytonck,2007-12-02T22:46Z,"""should be in the same folder as your .img file""?
+this is how my folder -after unpacking- looks like"":
+- branden met Clone-cd (text-document)
+- cd2-MRE_2007-2008_DX v1 (CCD-file)
+- cd2-EUR-MRE_2007-2008_DX v1.mdf (mdf-file)
+- cd2-EUR-MRE_2007-2008_DX v1.mds (mds-file)
+
+when I use CloneCD it selects the ccd-file and then its says the system can't find that file ...
+driving me nuts!
+- "
+,honkytonck,2007-12-02T22:48Z,"textfile = 1kb
+ccd-file = 1kb
+mdf-file= 531.442 kb
+mds-file=20kb"
+,Eotaxin,2007-12-03T07:44Z,"Honkytonck: I cannot help with you with this, I suggest you google yourself to the solution..."
+,honkytonck,2007-12-03T23:48Z,"ok, don't sweat it
+I've just bought a perfect copy
+so fuck this torrent afterall!"

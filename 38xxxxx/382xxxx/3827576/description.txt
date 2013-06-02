@@ -1,0 +1,94 @@
+Preserved for Posterity
+Restore CD Creator
+Version 3.0
+October 1, 2007
+
+A PfP Release
+October 2, 2007
+
+This utility disk was created over three
+years ago (Version 1.0 and 1.1), and
+modified to Version 2.0 on the 26th
+of November 2006. This Version (3.0)
+was created October 1, 2007. Originally,
+the disk made use of MS-DOS 6.22 (1.0),
+and DR-DOS 7.03 (1.1), with the DR-DOS
+FAT-32 descriptor. Version 2.0 utilized
+FreeDOS, and this was carried over to
+the current version (3.0). Note that
+even though DOS is used, this utility
+has ZERO problems imaging NTFS volumes.
+It handles FAT16, FAT32 and NTFS with
+ease. I haven't tested it with any other
+file systems, such as Linux, but I think
+it should work. It was created to give
+me an easy method of imaging the drives
+of my Windows 98 and ME systems - After
+Microsoft announced that support for
+these Operating Systems would no longer
+be available after a certain date, I
+needed a way to image my drives with the
+last available updates for those Operating
+Systems, and this utility filled the bill
+quite nicely. I have yet to find a system
+that this utility doesn't work with, as
+long as you have a bootable floppy diskette
+drive, then you are good to go.
+
+To use this utility, place the floppy
+diskette in your drive and re-boot or
+boot your system, making sure that it is
+set to boot from floppy. FreeDOS will
+load, create a RAMDisk, decompress the
+support files to the RAMDisk and execute
+the utility, which will present a menu
+as follows:
+SELECT A TASK TO PERFORM?
+1] IMAGE PRIMARY HARD DRIVE
+2] IMAGE SECONDARY HARD DRIVE
+3] RESTORE PRIMARY HARD DRIVE
+4] RESTORE SECONDARY HARD DRIVE
+5] VERIFY IMAGE INTEGRITY
+6] EXIT THIS UTILITY
+PLEASE SELECT (1-6).
+
+Options 1 and 2 will image your primary
+and secondary hard drives, respectively,
+including all partitions, to either CD,
+DVD or both. I have tested it with many
+brands of CD and DVD burners, and it
+has never failed to work.
+
+Options 3 and 4 will restore your primary
+and secondary hard drives, respectively,
+from a previous backup. Note that a
+restore can be made regardless of whether
+the original drive has been replaced or
+not - as long as the drive is at least as
+large as the image to be restored, it will
+work.
+
+Option 5 will allow you to verify the
+image file disc set - YOU SHOULD ALWAYS
+verify the integrity of the image, just
+to be sure it worked! I use Re-Writable
+media, but it has never failed to generate
+a successful image (there's always a
+first time though).
+
+Option 6 will exit the utility at which
+point, you may remove the diskette and
+re-boot your machine.
+
+NOTE 1: Your primary and secondary hard
+drives are determined by your BIOS.
+
+NOTE 2: The utility will use the first
+recordable drive in your system. There are
+no provisions for changing this. In my
+system, this is a DVD Burner, which is
+much more useful for imaging than a CD
+Burner.
+
+The first CD/DVD of a restore set is bootable, allowing a restore
+to be performed without needing the floppy.

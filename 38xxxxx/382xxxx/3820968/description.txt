@@ -1,0 +1,151 @@
+                   :::    :::     :::     :::::::::     :::     
+                   :+:   :+:    :+: :+:   :+:    :+:  :+: :+:   
+                   +:+  +:+    +:+   +:+  +:+    +:+ +:+   +:+  
+                   +#++:++    +#++:++#++: +#++:++#+ +#++:++#++: 
+                   +#+  +#+   +#+     +#+ +#+       +#+     +#+ 
+                   #+#   #+#  #+#     #+# #+#       #+#     #+# 
+                   ###    ### ###     ### ###       ###     ### 
+
+                        <Keep AutoPatcher Alive> Presents:
+
+
+                       AutoPatcher_Vista_Sep07_Update-KAPA
+
+                                     22/09/2007
+
+----------------------------------------------------------------------------------
+-------------------------------------- Info --------------------------------------
+----------------------------------------------------------------------------------
+
+On 29/08/2007, the world stood still while M$ made AutoPatcher take down 
+their downloads links. Sad isn't it... to have to distribe M$ patches like 
+this...
+
+Not to worry, we save the day by packing AutoPatcher with the latest M$ updates.
+
+
+----------------------------------------------------------------------------------
+--------------------------------- September Updates ------------------------------
+----------------------------------------------------------------------------------
+
+- Critical -
+
+# Windows Malicious Software Removal Tool - September 2007 (KB890830) 
+http://support.microsoft.com/kb/890830/
+
+The Malicious Software Removal Tool helps remove specific, prevalent malicious 
+software.
+
+
+# Security Update for Windows Vista (KB939778) 
+http://www.microsoft.com/technet/security/bulletin/ms07-053.mspx
+
+A security issue has been identified in Subsystem for UNIX-based Applications 
+that could allow an attacker to compromise your Windows-based system and gain 
+control over it.
+
+
+- Recommended / Others -
+
+# Update for Windows Mail Junk E-mail Filter [September 2007] (KB905866) 
+http://support.microsoft.com/kb/905866
+
+Install this update for Windows Mail to revise the definition files used to 
+detect e-mail messages that should be considered junk e-mail or that may 
+contain phishing content.
+
+
+# Update for Windows Vista (KB929547) 
+http://support.microsoft.com/kb/929547
+
+Install this update to resolve an issue where after installing the Windows 
+Filtering Platform (WFP) driver, applications and services appear to stop 
+responding for approximately 15 seconds.
+
+
+# Update for Windows Vista (KB930194) 
+http://support.microsoft.com/kb/930194
+
+Install this update to resolve an issue where an attached optical drive 
+utilizing a SiI Parallel Advanced Technology Attachment (PATA) chip from 
+Silicon Image is not recognized as a recordable drive on a computer running 
+Windows Vista.
+
+
+# Update for Windows Vista (KB936004) 
+http://support.microsoft.com/kb/936004
+
+Install this update to resolve an issue where a USB telephony device (USB 
+telephone, handset, headset and so on) is unexpectedly set as the default audio 
+device on a computer running Windows Vista.
+
+
+# Update for Windows Vista (KB936710) 
+http://support.microsoft.com/kb/936710
+
+Install this update to help resolve a secondary graphic card operability issue 
+when running DirectX 10 applications on multiple graphics cards.
+
+
+# Update for Windows Vista (KB938952) 
+http://support.microsoft.com/kb/938952
+
+Install this update to resolve a display issue that occurs during language pack 
+installation and when accessing the Regional and Language Options control panel.
+
+
+# Update for Windows Vista (KB939159) 
+http://support.microsoft.com/kb/939159
+
+Install this update to resolve an issue in the Background Intelligent Transfer 
+Service (BITS).
+
+
+# Update for Windows Vista (KB939165) 
+http://support.microsoft.com/kb/939165
+
+This update configures the Windows Customer Experience Improvement Program to 
+improve the quality of software information sent to Microsoft.
+
+
+# Update for Windows Vista (KB940105) 
+http://support.microsoft.com/kb/940105
+
+Install this update to resolve potential Graphics Virtual Address problems that 
+may occur when running Windows Vista.
+
+
+# Update for Windows Vista (KB940646) 
+http://support.microsoft.com/kb/940646
+
+Install this update to resolve an issue where the throughput of a 3G Wireless 
+Wide Area Network (WWAN) Data Card is reduced on a computer running Windows Vista.
+
+
+# Update for Windows Vista (KB941090) 
+http://support.microsoft.com/kb/941090
+
+Install this update to resolve an issue where messages become stuck in the 
+Outbox and cannot be deleted when using Windows Mail.
+
+
+- Components -
+
+# BITS Repair Tool for Windows Vista (KB940520) 
+http://support.microsoft.com/kb/940520
+
+The BITS Repair Tool will help you fix a problem caused by the corruption of BITS 
+state files.
+
+
+----------------------------------------------------------------------------------
+-------------------------------------- Notes -------------------------------------
+----------------------------------------------------------------------------------
+
+# Core_Stand_Alone-KAPA
+Our own stand alone version of AutoPatcher which only contains the monthly updates
+
+# Update-KAPA
+Updates the original AutoPatcher (Aug 07 Core) with the monthly updates
+
+See you next month...

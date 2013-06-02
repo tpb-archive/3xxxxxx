@@ -1,0 +1,18 @@
+Guitar.Hero.III.USA.FIX.READ.NFO.XBOX360-iND
+
+This PPF patch is for Sniperkil's usenet release as well as Guitar_Hero_III_USA_XBOX360-GUITAR
+which is a repack of Sniperkil's release. The CRC of the iso file in both releases is 7F129CAD.
+
+This patch fixes 16 sectors of bad data in the game partition at offset 0x17B3C8000.
+There are no files in this area, however the bad data could serve as a marker for XBL backup detection.
+This patch also changes data in the DMI and SS to match a known good rip of GH3.
+
+
+
+instructions:
+
+1. Open ppf-o-matic3.exe
+2. Select ISO File GH3-SK.iso or GH3-GUITAR.iso
+3. Select Patch GH3.ppf
+4. Apply!
+5. Burn using the .dvd file as normal

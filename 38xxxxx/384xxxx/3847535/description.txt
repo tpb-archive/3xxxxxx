@@ -1,0 +1,13 @@
+ACDSee 3.10 image viewer, possibly the best image viewer ever made when all you want is to view images. Much faster than its later versions and more stable than other 3.x versions of ACDSee. Also noticably faster than for instance the popular freeware IrFanView image viewer. Tested under Vista 32 and 64bit without problems.
+
+Quick install instructions.
+1. Scan files for viruses. Even if I know that there aren't any viruses here you should always scan everything you download. I highly recommend Kaspersky over Norton/Symantec. Avast and AVG have decent free editions.
+2. Install the program.
+3. Run the patcher and direct it to the file acdsee.exe in the folder where you chose to install it, usually "C:\Program Files\ACD Systems\ACDSee".
+4. Start using the program. Whenever ADCSee In Touch online asks you about participating just state that you do not agree and it will not bother you again.
+5. (TIP)If you direct the database to some directory that you later remove, or specify a non existant location in the ACDSee registry settings (regedit) the database will never actually store any files on your system. Thumbnails will regenerate every time if you use them.
+
+* Update February 2010*
+I've had a lookaround for some speedy alternative, something I do about once a year to keep updated. The regular alternatives that people think are fast still just aren't. One commercial option is Fast Picture Viewer, a modern project that even has a 64bit version. It's really fast especially at large images, and almost fast enough to replace ACDSee 3.10, almost. Unfortunately Fast Picture Viewer is a bit odd in that it doesn't have a folder/file view but instead by default reads all pictures from within the current folder and its subfolders. Can make for a confusing first encounter, but probably great for photographers needing to look through tons of images in search for a specific. It's the best out there that I could find, and in the end it's almost good enough to replace ACDSee 3.10.
+
+That's kinda sad in the year of 2010 when this program is ten years old(!), but there it is.

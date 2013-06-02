@@ -1,0 +1,55 @@
+Apple iPod is the greatest MP3 player. It offers quality sound, ease of use, and doubles as a mobile hard disk drive - USB and FireWire.
+
+Everything is easy for Windows 2000 and Windows XP - iPod comes with proper drivers which makes it fully functional, but without them you can still use iPod as a removable disk drive.
+
+Problem starts with Windows 98 and Windows 98 SE - iPod can be used only as FireWire device. No USB support.
+
+The developer modified the Microsoft driver for USB Mass Storage Drive, added some keys into .inf file and that was it! iPod download for windows 98 is ready.
+
+The driver has been tested with following devices:
+
+* 2G iPod Shuffle ("the clip") NEW!
+* 2G iPod Nano (the one with a metal case)
+* 5G iPod ("with video")
+* iPod Nano
+* iPod Shuffle
+* 4G iPod ("with ClickWheel")
+* iPod Mini
+* 3G iPod
+
+Setup
+1. Open win98-iPod-PSP-v25-847836.exe
+2. Unpack it. win98-iPod-PSP directory will be created
+3. Connect iPod to your computer. If nothing happens check your cabling or reboot
+4. When prompted, select "Search for updated driver (recommended)"
+5. Check "Specific location" and uncheck remaining checkboxes
+6. Select location you have unpacked driver
+7. Wait for a while. Now you should have additional drive visible on your system.
+8. Before unplugging iPod you should always eject it. To do that, double-click My Computer icon, right-click iPod disk drive and select Eject on pulldown menu.
+
+Uploading Music
+
+Unfortunately, you cannot use Windows 98 with Apple iTunes software, but there are alternatives:
+
+* YamiPod - simple and multiplatform.
+* Winamp with iPod Plugin - supports Shuffle! (Remark: Winamp 5.22 has iPod support built-in, but it seems to be incompatible with Windows 98 - do not enable it during installation!
+* RealPlayer v. 10.5 and newer. Free version is OK.
+* SharePod - a great program for downloading mp3 back from iPod to other computer
+* EphPod - doesn't work with 5th generation iPods (those with video)!
+* vPod (old versions)
+
+Important Remarks
+
+Regarding iPod Shuffle
+
+If you need to initialize your iPod Shuffle and you cannot use iTunes - now you can use iPod shuffle Database Builder: http://shuffle-db.sourceforge.net/.
+
+Regarding all iPods
+
+If your iPod was never used before you can get "Drive not formatted" message. Don't try formatting iPod with Windows tools! To format iPod correctly you have to use Apple iPod Updater software. This software works only under Windows 2000 or Windows XP.
+So you'll have to find some Windows 2000/XP machine, install software from CD you got with your iPod (or download it from here:and Update (or Restore) your iPod.
+After that you can uninstall software and enjoy iPod under Windows 98.
+
+Above information suits Windows 98 and Windows 98 SE. If you have Windows ME, there's a page devoted to using iPod: Guide to iPod and Windows ME
+
+If you are happy with this driver, feel free to donate: http://www.98-drivers.com/ipod.html 

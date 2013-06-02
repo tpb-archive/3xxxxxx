@@ -1,0 +1,156 @@
+﻿User Type,Username,Date,Text
+,c72k72,2007-10-30T14:16Z,How?
+,newflemmli,2007-10-30T21:22Z,"We don't know how.
+We need a good cracker."
+,newflemmli,2007-11-03T01:44Z,"Some guys told me that they are able to run the first few courses without entering a ac.code. Are you able to install the app and the language and do anythongĂ&#x;
+
+I get when I try to start the installed language a SpeechInputEr"
+,wildjoker2k,2007-11-13T22:00Z,"This does NOT need to be cracked, all you need is the Rosetta Stone App Version 3. its works fine"
+,wildjoker2k,2007-11-13T22:04Z,"sorry for the previous post, it now requires me to put in an activation code."
+,maceon,2007-11-15T11:02Z,how do you install this?
+,piraninja,2007-11-16T01:58Z,"Activation ID: 6DAS5G-6K654-H4R6T-4GSG6-H54DSV (I did this randomly pressing keys and got it on the first try.  So I have no idea on how its generated.)
+
+Have a firewall up to block the Rosetta Stone application.  and choose to activate by phone.
+
+Request Code: Gives a different code each time you restart Rosetta.  8 groups of four digit numbers.
+Response Code: Looks like its 6 groups of four digit numbers.
+
+Beyond that, no clue.  Shouldn't be that much further from a number generator."
+,CK.p-nis,2007-11-18T02:21Z,So how would I install this? I tried using a virtual drive but it just doesn't work for me.
+,CK.p-nis,2007-11-18T08:47Z,"Download this other file if you want to install the russian cd's first
+
+http://thepiratebay.org/tor/3852202/The_Rosetta_Stone_Application_(Version_3)"
+,The_Gamer294,2007-11-20T01:51Z,hmm... for the phone activation code would artmoney work? I tried but I have no experience with artmoney and didn't get very far lol
+,CK.p-nis,2007-11-21T17:44Z,"piraninja is there no other way to activate? I tried your code to no avail, and I was unable to find a crack for the software. Any help?"
+,piraninja,2007-12-15T01:27Z,"@CK.p-nis:
+unfortunately if you try to activate by internet, Rosetta will undoubtedly deny the activation by comparing it to a list of product IDs already sent out for sale.  So phone activation is the only way.  Unless you feel like paying for it.  
+
+artmoney won't work. that program is no good for this type of thing.  I still have no idea on how it generates the response codes.  A reverse engineering of the program would work, but I have no idea on how to do that type of stuff."
+,piraninja,2007-12-15T01:31Z,"part of the request code stays the same, I noticed.  so that is a start.  its possible that part of it is a hardware ID and the other part is a random hash.  anyone else notice that part of it stays the same?"
+,theshinsaregood,2007-12-19T17:41Z,"I just finished a fake phone activation, but I had to do a TON of b.s.ing to get it to work (because when you call, you give them the activation ID AND the request code, then they give you a response code...similar to windows xp phone activation).
+
+Since the activation ID is fake, it gives their system an error message and they had to figure out why (well, i know exactly why, it's because it's fake) but eventually their systems gave them enough help to hacktivate my product.
+
+but, i don't recommend this method, especially once they start catching on....we need a crack fast"
+,Gallah_Brains,2008-01-03T12:05Z,"You need version 3 of the application. The Language CDs require activation and as far as I can tell there is no crack for them yet. 
+
+Also, this Russian one is the first and only version 3 language I have seen available for download so far. So I guess stick with version 2 until a crack becomes available.
+
+(PS I have downloaded it and it definitely is the v3 Russian CD. Works fine on my Mac with the v3 App, just needs activation.)"
+,AlomaTherapy,2008-01-29T18:35Z,"There's a Rosetta Stone crack out, as of January 16th. Currently tested on Russian and Spanish Version 3. Haven't tried it yet, however. According to other users it's working properly. "
+,Teddylein,2008-01-31T09:19Z,"AlomaTherapy, can you drop a link in order to get the cracked version?
+T."
+,YoshiLee,2008-02-07T07:23Z,"The crack for version 3: http://thepiratebay.org/tor/3980482/Rosetta_Stone_Version_3_crack.zip
+
+I haven't tried it myself yet, but I'm waiting in anticipation. haha."
+,3mzZ5KQ83cHS,2008-02-16T00:00Z,"patch for all builds of version 3:
+http://nopaste.info/618d74ef4b.html
+(there you see the download link)"
+,3mzZ5KQ83cHS,2008-02-16T00:01Z,"patch for all builds of version 3:
+http://nopaste.info/618d74ef4b.html"
+,cizzameron,2008-02-29T20:59Z,why did did it download as an 'Easy CD Creator Image File'? Do I have to burn it to a disc first? Somebody please help me out.
+,WhaleEye,2008-03-03T12:21Z,"Thanks Criten for sharing this!
+
+Could someone please SEED?"
+,SumeklamKidd,2008-03-10T04:49Z," YoshiLee at 2008-02-07 07:23 CET:
+The crack for version 3: http://thepiratebay.org/tor/3980482/Rosetta_Stone_Version_3_crack.zip
+
+I tried this crack and it works.
+
+Copy and paste it into the directory, replace the license.
+
+BTW, I'm running the main program from my hard drive, and the language CD from the free download of MagicISO.
+
+I don't know why people complain about this free program, it ROCKS. Just mount the image on one of the virtual drives. Saves wear and tear on the real hard drive."
+,henzyjuh,2008-03-21T22:50Z,"RosettaStoneVersion3.exe has encountered a problem and needs to close.  We are sorry for the inconvenience.
+
+Error signature
+AppName: rosettastoneversion3.exe	 AppVer: 1.0.0.1	 ModName: ntdll.dll
+ModVer: 5.1.2600.2180	 Offset: 00010f29
+
+Help! Thanks!"
+,TDCinprc,2008-03-28T12:17Z,"I can't get Rosetta to recognize this. 
+First I mount the iso file. Next I open Rosetta and go to Add Languages.  Next it comes up with one option in the drop down menu except the line is blank.  Then I click there, click install.  Then the program says: Now installing """"  
+As far as I can tell the information is installed for Russian, only Rosetta doesn't see it. 
+I did check out C:/ProgramData/Rosetta...
+and there was a .txt file unlike the others, so I changed it so it said Rus...like the other language files. But that didn't help.
+
+So, Has anyone had this problem/know how to fix it?"
+,anarchydeluxe420,2008-05-08T00:03Z,"A few simple (revised) steps to get this Awesome Program Working!
+
+1.Download Virtual CloneDrive (this automatically will recognize the files above and more) Also make sure when installing you choose all possible file extensions.
+When you mount a file using this program it opens a folder containing what is on the CD close and ignore until I tell you not to.
+
+2.Double click the ""Rosetta Application"" it is an .iso file it should pop-up a menu as if you put the cd in. (imagine that) Click Setup.Exe and Install.
+
+3.Now that the Rosetta Application is opened minimize it and go to ""Spain 1"" which was in the file you downloaded. double click ""Spain 1"" It is automatically mounted when 
+you clicked on it. Ignore folder that opens. If you want to see the mounted image go to ""MY COMPUTER"" and look at your drives it will be there.
+
+4.So now that ""Spain 1"" is mounted Luanch the Rosetta Program. click on ""Add A Language Level"". It will say insert CD you already did by mounting it. so click on ""continue"".
+
+5.""Install selected Language"" it will be ""Spanish (spain) Level 1"". It will calculate time to install the language it took me around 3 minutes.
+
+6.Now that the language has been successfully installed click ""continue"" Skip this by clicking on ""REMIND ME LATER""
+
+7.So now the ""Product Registration"" Screen pops-up. Close this down. Make sure Rosetta Stone is not running. The Patch will not work if it is. Now go to Program files - Rosetta Stone - Rosetta Stone V3. Run ""Rosetta Stone.V3.Patch"". Click Patch should be real quick. It will say Patching Done.
+
+8.Now run Rosetta Stone again. When it ask you for the key just fill it with X's and be done.
+
+9.You Have Succesfully Installed ""Rosetta Stone"" Congrats!
+
+I know this will help. This is an awesome program!"
+,Bammersx,2008-05-10T06:20Z,Come now guys i would love it if you would seed
+,Bammersx,2008-05-10T08:45Z,SEED PLEASE I AM REALING LOOKING FORWARD TO LEARNING THIS LANGUAGE!!!!
+,travick,2008-05-17T15:27Z,"Hi all,
+
+I thing I managed to find a way to have that thing working.
+1. Download proper Rosetta Stone Application not necessary the latest one but 3.0 and have it updated with ?3.0.57? Update http://thepiratebay.org/tor/4095208/Rosetta.Stone.3.0.57.UPDATE
+2. Make sure that firewall you have is applied on Rosetta Stone at all time therefore you will not be upgraded or loose the license.
+3. Install Russian Language (this is the one that I testes) and before you run program again place the crack file in the folder http://thepiratebay.org/tor/3980482/Rosetta_Stone_Version_3_crack.zip
+
+I hope that this will work for everyone. Please have our forum updated in case I am wrong. 
+
+Regards,
+Jackal"
+,travick,2008-05-17T23:42Z,"This is me again. I have successfully tested my idea with Spanish (Latin America) and English (American). All languages packs were for version V3. I must assume that as long as you are fire-walled and do not upgrade to any higher version you can carry on installing other languages as well. Whenever asked for activation via phone I put AAAA?.. for each of the products and to encode it type 1111?. . I recon this is going to work for all of us. 
+
+Best regards,
+Jackal"
+,chefman448,2008-06-07T04:07Z,i can't find a setup.exe how the hell do i install?!
+,Demosthenes928,2008-06-18T14:03Z,Did four trojans pop up for anybody else when installing? Using Eset NOD32.
+,UnbeatableRash,2008-06-24T01:31Z,"Demosthenes928: I had this problem too but fixed it very easily. 
+
+Go into the advanced setup tree and go to 'exceptions'. Click Add... and select the file C:/Documents and Settings/All Users/Application data/Rosetta Stone. This will stop it from adding it to quarantine.
+
+Hope this helped."
+,ozz2008,2008-07-02T20:06Z,"ok i have downloaded this file and virtual clone drive. Virtual clone drive mounted 3 files labled ru-RU L1, ru-RU L2, ru-RU L3. There is no .iso file or exe file. Nothing to extract or anything like that. When i click on one of those 3 files all i get is error: can't Init VCCD. Is there some other file i should have downloaded, a patch or something? Is this a patch for the original program and i need to download an original program or what?"
+,esq1031,2008-07-05T19:15Z,"I followed the directions(except) I added all 3 lessons at once) I downloaded the v3 patch, got the ""done"" response, loaded up Rosetta Stone, put all x's in all 3 lessons and it says ""activation id was not recognized"" Im new to this can anyone tell me how to fix this?"
+,esq1031,2008-07-05T19:21Z,"When I go to use the v3 patch I click patch it says can not find, and when I close where the computer wants me to look, it says nothing patched then patching done. Am I doing something wrong?
+
+Bill"
+,ozz2008,2008-07-06T03:51Z,"ok i have 4 files here Rosetta Stone- Russian - Level 1, 2, and 3. also Rosetta Stone_version_3 Crack. also RS.3.0.57.UPDATE also Rosetta V3 Spanish (Spain)iso. What do i have to do STEP BY STEP to get the russian part working. I DO NOT have any part of the program installed or working all i have is these files downloaded off of bitcomet. i do not have an iso file in Rosetta Stone - Russian - Level 1, 2 and 3. so i cannot install it out of there."
+,grey_mouser,2008-08-25T17:01Z,"Does Anyone Have Irish (Gaelic) for V3? All these languages and no Irish   If anyone has it please upload!! That would be greatly appreciated.
+IRISH!!!
+Thanks."
+,morrison0880,2008-10-30T21:49Z,"Hey all. Go to 
+http://thepiratebay.org/torrent/3865583/Rosetta_Stone_Ultimate_Language_Disk_v2.iso
+You get every language in an iso file. No Extracting, all you have to do is burn it to a disc with PowerISO or Alcohol and it autostarts when you load it. You can also mount it to your virtual drive. It comes with all the help files, language sheets, and even a bonus language program. Works perfectly. I got this about a year ago and I love it.
+Oh, and only 3.62 GB, so it fits perfectly on a DVD, or takes up as little space on your HD as possible. Trust me, this is the easiest way to go. I tried torrents like this, and the set up and installation alone was the biggest pain in the a...With this, no installation is needed.
+
+The file is in ISO format. You don't have to install the program to your computer. You can use PowerISO to burn it to a disc, and it will autorun on your computer anytime after you put the disc in. Or, if you don't want to burn it, simply use the ""Mount"" option in PowerISO and choose to mount image to drive [E]. It should then open up the file folder with RS in it. If it doesn't, go to ""My Computer"", right click on your new (E) drive, and click run. That's all you have to do. Rosetta Stone will run on its own, no installation needed, no extracting files, it is all self-contained. You will see every language, all you have to do is choose one and off you go."
+,Momlolo,2008-11-22T02:33Z,cant find sources :-$
+,Momlolo,2008-11-22T02:35Z,"Nvm got em.
+
+6 Hosts - 20 kb/sec
+
+20 hours =D"
+,Momlolo,2008-11-23T01:32Z,"Is the version 3 like the one on the demo at Rosetta Stone's site?
+
+V.2 seems to be very old and ugly =/"
+,walsashi,2008-12-04T00:20Z,"it works great, but some of the lessons are taken out because it's not ""registered""
+i already had rosetta stone spanish (actually bought these) so all i had to do was ""add a language"" while mounting one of the iso's"
+,zarnek,2008-12-05T02:38Z,wait spain? i thought this was for russian im confused..better be russian
+,paganjew,2010-03-14T14:10Z,"this torrent is bullshit. after it finishes it give you 3 folder and 3 adobe pages to match it. no programs to load, nothing. and virtual drive mounts dont recognize the folders so it wont mount to a ""hard drive"" so enless someone puts on here fool proof directions on how to fix that. dont waste your time."
+,honunet,2010-05-09T08:28Z,"wow dude this is fking amazing.  It is dling at nearly 600 kbs only an hour and a half it says to finish if it keeps up.  I bought the arabic cds for 400 dollars, got posted to guantanamo bay, actually had an arabic dude help me with it then lost it.  Only prob I had was the why and what precisely the words mean (nunaces, exceptions etc) and conjugations.  Other than that was great, I guess if you complete the whole prog it sorts it out.  Thanks a million if this works dude"
+,Willow129,2010-09-09T02:43Z,"Activation code please please please? I really want to learn this language.  Or at least how I can get one, or where I can find one? PLEASE?"
+,Willow129,2010-09-11T08:05Z,Anyone? Please?

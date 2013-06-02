@@ -1,0 +1,48 @@
+vBULLETIN 3.6.8 Patch level 1 included with other mods
+
+vBulletin 3.6.8 Patch Level 1
+
+This release is a patch to the 3.6.8 to fix a security issue reported to us this morning. Only 3.6.8 is affected by this issue. The only changes in this release are for this security issue.
+
+The changed files are:
+
+    * includes/class_bbcode.php
+    * includes/version_vbulletin.php
+
+
+There are no template changes.
+
+What is a Patch Level? How does it differ from a full release?
+
+A patch level release contains fixes for only the most critical issues in the previous release. In this case, this means the only changes are to address a security issue.
+
+It is designed to be installed directly over top of your 3.6.8 installation, with no other action. You do not need to run any upgrade scripts.
+
+
+MODS AND HACKS ADDED:
+
+Activity Modification
+AJAX REG
+AnyMedia BBCode
+Atakan Marquee Text
+Cyb - Advanced Forum Rules
+Cyb - Advanced Forum Statistics
+Cyb - Attention Zero-Posters
+Cyb - Check If Already Posted
+Cyb - PayPal Donate
+Cyb - PM System Enhancements
+Cyb - Sub-Forum Manager
+Cyb - Top Posters In Month X
+Guest Tracking
+ibProArcade for vBulletin
+Inactive User Reminder Emails
+Inferno vBShout
+Members who have Visited
+Post Thank You Hack
+psiStats 2006
+sids hide hack
+Username Request
+vBCredits
+VBulletin Torrent Tracker (VBTT) 3
+View threads started on postbit
+Welcome Headers

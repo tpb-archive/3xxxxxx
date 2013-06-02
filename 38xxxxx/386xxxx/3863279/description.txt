@@ -1,0 +1,411 @@
+Applications : Windows : English
+LAMEWIN32 (PfP) - LAME V3.97, RazorLAME 1.1.5a, CD Wave 1.96.1 (October 28, 2007)
+
+Lame 3.97, RazorLame 1.1.5a, CD Wave 1.96.1
+A Preserved for Posterity Release
+October 28, 2007
+
+It used to be that you could download a file called LAMEWIN32.EXE
+from the Gold Wave website. This was an installer distribution of
+RazorLAME and LAME (pre-compiled binaries of both, combined in a
+neat little installation package by mp3-tech.org). This is,
+however, no longer the case. Apparently, the IP holders for the MP3
+format like to bitch about binary distributions of any software that
+supports their format. MP3-TECH.ORG doesn't need the hassle,
+so they don't provide the installer with the pre-compiled binaries anymore
+and the versions that I was able to find, are out-dated, so I decided
+to create a binary installation, based on the currently available
+builds of LAME and RazorLAME (I've even used the icon from the last
+available mp3-tech.org distribution). Also included is the installer
+for CD Wave 1.96.1 (It is integrated into this installer and will
+launch as part of this install process, however, you may choose not
+to install CD Wave, although I find it quite useful.) This is the
+shareware version of CD Wave, but it is FULLY FUNCTIONAL WITH NO
+USEAGE RESTRICTIONS - If you find it useful, I would recommend that
+you register it and support Mike, but that's between you and whatever God
+(if any) that you believe in (I borrowed that line from Q [a.k.a.
+Que a.k.a. Queue], from the final episode of Star Trek : The Next Generation).
+Mike seems to think that you'll go to Hell if you
+continue to use CD Wave without registration (yes, I know he's joking).
+In any event, enjoy this fine release from PfP and look for more
+GREAT releases soon.
+
+***
+
+All of the information that follows is from the various ReadME type
+files provided with LAME, RazorLAME and CD Wave, you might want to
+waste a little time reading it -- or not. It's up to you.
+
+***
+
+Readme file for RazorLame 1.1.5a
+================================
+
+What is RazorLame?
+------------------
+RazorLame is a so-called front-end for use with LAME.
+
+LAME is a great MP3-Encoder: it's very fast, it produces
+high-quality files, has many advanced features (like
+Variable Bitrates and Joint-Stereo), and it's open source.
+
+Unfortunately, it is a command line utility, and that is
+where RazorLame comes in: it provides an easy-to-use
+graphical user-interface which makes MP3-encoding even
+easier!
+
+You can find more about LAME at http://www.mp3dev.org/
+
+==========================================================
+Holger Dors, 12.02.2006
+E-Mail: Razor [dot] Blade [at] gmx [dot] net
+Web: http://www.dors.de/razorlame/
+==========================================================
+
+
+Release History
+---------------
+
+Legend:
+(+) Added feature
+(*) Improved/changed feature
+(-) Bug fixed (hopefully)
+
+Version 1.1.5a (12. February 2006)
+(-) fixes problems with newer LAME versions through
+a RazorLame.dat update
+(*) Removed outdated r3mix presets
+
+Version 1.1.5 (12. December 2001)
+(+) some GUI features: font selection, XP-like
+menus and toolbars, support for XP Themes
+(*) enhanced & nicer histogram display
+(*) progress dialog remembers if histogram was shown
+(+) double click on listview entries starts
+associated program
+(*) Application Title now shows batch progress
+(*) Status Bar shows current LAME setting
+(*) added more option files which are similar
+to the presets of LAME 3.90
+(-) yet another try to fix the "average value missing" bug
+(-) should fix problems with large fonts
+(-) fixed decimal-point problem for rlo files
+(-) some smaller changes and bug fixes
+
+Version 1.1.4 (12. April 2001)
+(+) Added some option files. Thanks to Gabriel Bouvigne
+of http://www.mp3-tech.org for providing them!
+(-) Now handles the "use source" checkbox for the
+output directory correctly
+(-) histogram is now displayed correctly for all
+VBR/ABR modes
+(-) Summary line for ABR/VBR ("average bitrate") is finally
+added to log for all cases. (I hope...)
+(*) Files > 2 GB are correctly displayed now, however,
+progress isn't displayed on large file for now
+(-) some smaller fixes
+
+Version 1.1.3
+was an internal-only release and is now the base
+for 1.2.0, which is currently developed. Current source
+of 1.2.0 can be obtained through CVS at 
+http://www.sourceforge.net/projects/razorlame
+
+Version 1.1.2a (26. March 2001)
+(-) Added some messages to RazorLame.dat, as there was trouble
+with some popular compiled versions of lame 3.88 beta
+
+Version 1.1.2 (21. January 2001)
+(+) If LAME outputs a histogram during encoding, RL can now display
+this histogram graphically as well.
+(+) You can now set the default priority of the encoding thread.
+(+) You can now choose what RL should do if "shutdown Windows when
+done" is checked. Options include Hibernate, Suspend, Log Off,
+Just close RL, Reboot, and of course, shutdown.
+(+) You can now save option settings in a file. And of course
+load them again ;-)
+(*) The progress window is now resizable.
+(*) The option dialog is now splitted in a "program" options and a
+"LAME" options dialog.
+(*) The LAME options dialog now always show the resulting LAME
+switches without the need for pressing a "show" button.
+(*) You can now move columns of the listview.
+However, layout of listview isn't stored yet.
+(*) "View Log" window now has a "delete log" button.
+(*) added support for "--athshort" and "-q" switches.
+Added a "default" mode for the channel modes.
+(*) hopefully the output directory option is now more intuitive.
+(-) RL now uses less CPU time (i.e. it updates the progress window
+only once in a second, when in tray it updates it only every
+ten seconds.)
+(-) fixed problems with some mp3 files (e.g. "trimmed")
+when decoding or re-encoding
+(-) Probably more smaller fixes I cannot think of right now.
+
+
+Version 1.1.1 (29. October 2000)
+(*) better handling of LAME 3.87 beta
+(*) Nicer application icon and toolbar images,
+thanks to Jan Hryz <jan [dot] hryz [at] email [dot] cz>
+(*) You can now delete files after decoding as well!
+(*) Improved listview, shows associated icon and type
+(*) Improvements for handling a lot of files
+(*) some smaller, rather cosmetic changes
+(-) "-B" option was ignored for ABR
+
+
+Version 1.1.0 (20. August 2000)
+(+) You can now decode mp3 files using LAME!
+(Needs at least version 3.84!)
+(+) added support for --abr
+(average bitrate aka Safe VBR)
+(*) Some system stuff is now read from a *.dat file
+This allows for a bit more flexibility in regard
+of future LAME versions.
+(*) Hints are now visible for 10 seconds so those
+in the options dialog can be better read
+(*) When sorting paths, use filename as second sort
+criteria
+(*) Same small, rather cosmetic changes
+(-) fixed a bug when entering an output directory
+without a trailing backslash lead to unexpected
+results
+
+
+Version 1.0.2 (02. July 2000)
+(+) new advanced option: delete file after encoding
+(+) When VBR is used, show bitrate histogram on log
+(if encoder version outputs it!)
+(*) Progress dialog now also shows elapsed time for batch
+(-) when no output directory is given, encoded file
+is stored where input file is
+(-) making it impossible to set the quality in the
+VBR tab of the options higher than 9
+(-) Delete 0 byte output files after an error occurred
+
+
+Version 1.0.1 (25. June 2000)
+First public release.
+Some bug fixes, some improvements.
+
+
+Version 1.0.0 (06. June 2000)
+First semi-public beta release
+
+***
+
+Can I use LAME in my commercial program?
+
+Yes, you can, under the restrictions of the LGPL. In particular, you
+can include a compiled version of the LAME library (for example,
+lame.dll) with a commercial program. Some notable requirements of
+the LGPL:
+
+1. In your program, you cannot include any source code from LAME, with
+the exception of files whose only purpose is to describe the library
+interface (such as lame.h).
+
+2. Any modifications of LAME must be released under the LGPL.
+The LAME project (www.mp3dev.org) would appreciate being
+notified of any modifications.
+
+3. You must give prominent notice that your program is:
+A. using LAME (including version number)
+B. LAME is under the LGPL
+C. Provide a copy of the LGPL. (the file COPYING contains the LGPL)
+D. Provide a copy of LAME source, or a pointer where the LAME
+source can be obtained (such as www.mp3dev.org)
+An example of prominent notice would be an "About the LAME encoding engine"
+button in some pull down menu within the executable of your program.
+
+4. If you determine that distribution of LAME requires a patent license,
+you must obtain such license.
+
+
+*** IMPORTANT NOTE ***
+
+The decoding functions provided in LAME use the mpglib decoding engine which
+is under the GPL. They may not be used by any program not released under the
+GPL unless you obtain such permission from the MPG123 project (www.mpg123.de).
+
+LAME has built-in support to read raw pcm and some wav and aiff files. More
+robust file I/O can be handled by compiling in LIBSNDFILE.
+
+***
+
+LICENSE AGREEMENT FOR CD WAVE
+
+----------------------------------------------------------------
+Summary:
+----------------------------------------------------------------
+
+CD Wave is shareware, you can try it out at no charge for a period of 30 days. After this period you must either register or stop using the program. There is no limitation to the use of CD Wave even in commercial applications like commercial radio stations, other than (local) legal restrictions. It is also allowed to distribute copies of this program, provided that the copy is complete. It is prohibited though to sell CD wave without prior permission from the author.
+
+Included in the CD Wave package is the OGG Vorbis encoder DLL (vorbis.dll) and the FLAC encoder DLL (libFLAC.dll). This is software released under LGPL and as such is free for your use. Many thanks to the Free Software Foundation for supplying this great piece of software. These libraries are excluded from this licence, and provided as an extra service. Please see the Free Software Foundation website at www.fsf.org for details, soure code and licensing information.
+
+
+----------------------------------------------------------------
+License agreement for CD Wave:
+----------------------------------------------------------------
+
+This license agreement is a legal agreement between you (either an individual or a company) and the author of this software package,
+
+MiLo Software
+Ospel, The Netherlands
+
+
+By installing or otherwise using this software you agree to be bound by this agreement. If you do not agree to be bound by the terms of this agreement, you may not install or use this software.
+
+All intellectual and other rights to this software are owned by the author of this software.
+
+You may give copies of this software package to anyone, copy it to any media, distribute it by any means, and upload it to shareware sites on the Internet, as long as the original package remains unmodified.
+
+The registration may either be used by a single person who uses the software personally on one or more computers, or installed on a single workstation used nonsimultaneously by multiple people, but not both. This is not a concurrent use license.
+
+
+This is not free software. Subject to the terms below, you are hereby licensed by the auhor to use this software for evaluation purposes without charge for a period of 30 days. If you use this software after the 30 day evaluation period a registration fee is required. See the MiLo Software web site atfor information about online ordering and quantity discounts.
+
+You may, without making any payment:
+- give exact copies of the software personally to anyone, except for the purpose of extending their evaluation period;
+- distribute exact copies of the software, if done exclusively through electronic channels;
+- make as many exact copies of the software as you wish, for purposes of distribution as described above.
+
+YOU ARE SPECIFICALLY PROHIBITED FROM CHARGING, OR REQUESTING DONATIONS, FOR ANY COPIES, HOWEVER MADE, AND FROM DISTRIBUTING SUCH COPIES WITH OTHER PRODUCTS OF ANY KIND, COMMERCIAL OR OTHERWISE, WITHOUT PRIOR WRITTEN PERMISSION FROM THE AUTHOR. THE AUTHOR RESERVES THE RIGHT TO REVOKE THE ABOVE DISTRIBUTION RIGHTS AT ANY TIME, FOR ANY OR NO REASON.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE AND DOCUMENTATION ARE PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES AND CONDITIONS, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, CONFORMANCE WITH DEscriptION, TITLE AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES OR LOST PROFITS WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE PRODUCT, EVEN IF THE AUTHOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+Should any term of these terms and conditions be declared void or unenforceable by any court of competent jurisdiction, such declaration shall have no effect on the remaining terms hereof.
+
+***
+
+Audio recording
+I can hear sound, but nothing is recorded and the LEDs don't light up
+Most probable cause is the volume setting.
+
+There should be a "speaker" icon next to your clock on the task bar. (If not, use Start/Programs/Accesoires/Multimedia/Volume). Double click it to pop up the mixer panel. Choose Options, Properties, and select "Recording" for "Adjust volume for". Then, make sure all the volume controls in the bottom box have been checked. Click OK. The panel now allows you to select recording volumes and sources. Make sure that "Line in" (or Auxiliary) is checked and used as only input. Now it should work.
+
+How can I adjust (raise/lower) input levels?
+You'll have to do this with the mixer program for your soundcard. It is hiding under the speaker icon next to the clock (see the previous question).
+
+How do I schedule a recording?
+Easiest way is to just use the "Start recording at" value in the Record dialog. This requires the machine to remain powered on until the recording starts. If the machine needs to be turned off in between, you can use the following method.
+
+You can schedule a recording by using the Task Scheduler of Windows. You can find it under the MyComputer icon (in Windows 98 and 2000). Add a new item, and point it to the CD Wave program (usually "C:Program FilesCD WaveCDWAV.EXE"), which should be listed already. Use the "Advanced" scheduling settings to supply the extra configuration data.
+
+As commandline parameters, use the following:
+...CDWAV.EXE /R "C:My MusicMyRecording.wav"
+This will start recording at the given time to the MyRecording.wav file. The settings will be used from your last recording settings, including the format, voice-activated start, stop on silence, and maximum recording interval. You can change some of the parameters using the following switches:
+
+/R Recording mode, records to the given file (which will be overwritten if it exists)
+/S Stop-on-silence, suppy /S to switch on, /S- to switch it off
+/V Voice activation, suppy /V to switch on, /V- to switch it off
+/Q Quit after recording, exits CD Wave immediately after recording stops
+/T Time. Specify hours:minutes (or just minutes) for the recording duration
+Example: This starts recording to "C:My MusicMyRecording.wav", for one and a half hour, starting immediately and continue recording even if silent, and will quit CD Wave when it is done:
+...CDWAV.EXE /R "C:My MusicMyRecording.wav" /T1:30 /S- /V- /Q
+
+Recording produces occasional skips
+There can be several causes for this. Let me name a few.
+
+Most likely some problem in the soundcard driver. Make sure you have the latest drivers for your card. If you have a Creative card like the soundblaster 16 or any of the AWE series, use Microsoft's built-in drivers. They're better than the ones Creative supplies. If this doesn't help, go to File, Preferences and set the slider labeled "Recording Mode" to the middle position. This solves the problem for some of the driver compatibility problems.
+You're getting buffer overruns. The help file explains what this is, and how you can solve it.
+The audio is clearly clipped, but the red LED never lights up
+Some soundcards are incapable of delivering "full scale" samples. This means that analogue parts will clip the sound before they get to the A/D convertor. An example is Creative's AudioPCI card with the 1373 chip. This section of the LP to CDR tips page contains some more information on this topic.
+
+Can I merge files with CD Wave
+Merging is not yet possible, this is on the wish-list for version 2.0. You can download a freeware program to do the merge quite easily. You can find "WavMerge" on Mike Richter's CDR Resources, files page, under the "Audio files" section.
+
+24-Bit audio
+I get a "No Driver" error?
+This happened when you try to convert from 24 bit or multichannel audio to other formats (16 bit). For some reason, Microsoft's built-in sample rate converter cannot handle 24-bit audio yet. There is a better converter in CD Wave, which does all the resampling and conversions by itself, in 1.93 so you should no longer see this error. Internally, CD Wave uses 32-bit processing for all tasks.
+
+Should I always record at 24 bits?
+Definitely not. Many CD recording programs are unable to process 24-bit audio at all. On most systems, CD Wave cannot convert to 16 bit either. The quality difference between 24 and 16 bit is not as much as hardware vendors will want you to believe, the gain is mostly in allowing more room for processing the audio and for more dynamic range, the difference between soft and loud passages. So if your target is to record a CD, use 16 bit.
+
+Other programs cannot open CD Wave's file
+Microsoft defined a new standard for 24-bit and multichannel audio. The rule is that any format that either uses more than 2 channels or more than 16 bit must use the new standard. CD Wave is following on this rule, and writes out WAV files this way. The new format allows to describe what speakers are being used, and how the data bits are ordered.
+
+Many programs do not understand the new format, but use the old format descriptor for a 24-bit WAV file. CD Wave will take an educated guess at the bit ordering and channel assignments, and open the old format. However, it will always write out files in the new format. The effect is that you can playback the files that CD Wave produces with Media Player, but you cannot open these 24-bit files in Sound Forge, for example.
+
+When writing a 24 bit file (without conversion), there is a setting to force CD Wave to write out a "backwards compatible" WAV file for 24-bit stereo files.
+
+Converting compressed audio
+How can I open a MP3 file?
+MP3 files hold audio in a comressed format. CD Wave currently cannot handle compressed audio data. In order to use CD Wave on the files, you will have to convert them first. Note that the decoded files will be much larger than the compressed versions.
+
+How do I convert files to standard WAV files for CD Wave?
+A freeware program that will let you play and convert various formats is WinAmp. To convert a file, playback the file using the WAV file writer as output device (instead of the sound card). To do this, do the following:
+
+Download and install the WinAmp program
+Run WinAMP, pop-up the menu
+Choose Options, Preferences
+Go to "Plug-ins", "Output"
+Select the "Disk writer" plug-in. Now press "configure" to select the output directory. If you now play an MP3 file, the program will write a WAV file to the selected directory.
+
+Burning
+The CD(R) I created has two seconds pause between each song.
+You probably burned the CDR in Track-At-Once mode. In this mode, you can append each track individually, but as the recorder turns off and on between writing each track, it also inserts a pause in between.
+
+To get a continuous live recording, use Disc-At-Once mode while recording. All tracks on the CD will be written in a single pass, and no pause is inserted between them. Drawback is that you cannot append any more data or audio after a DAO recording.
+
+What program should I use to burn the Audio CDR?
+In general, you will have received some CD authoring program along with the CD recorder. These usually can burn audio CDs as required.
+
+Technical stuff
+Why is splitting on 2352 byte/588 sample borders so important?
+A CD audio disc is divided into sectors. Each sector holds 1/75 seconds of audio, or 588 samples at 44100 samples per second, or 2352 bytes. If the size of a WAV recording is not a multiple of 588 samples, the recording software will fill the remainder of the sector with zeroes. If you have a continuous recording (live), you?ll hear a short click in between two songs, as a result of the padding zeroes. To prevent this, the program always cuts on 588 sample borders, so two adjacent songs will have no clicks in between.
+
+But the wave files are not a multiple of 2352 bytes in size?
+The reason is that each wave file also contains a header with information on the type of encoding used, the sample rate, the number of samples in the file, the number of channels, etcetera. This header is about 52 bytes in size, but may vary. The last file of a set may also be not aligned, because the original data wasn't, and CDWave does not add extra padding data to the file.
+
+Must I clip all my files to 2352 borders? Do you have a utility for this?
+No (2x). Splitting on 2352 borders makes sense, just clipping does not.
+If the tracks have no relation, i.e. their sound is not continuous, the only way to avoid a click is to make sure that the first track ends in silence and the next starts with silence. You do not have to clip the wave, because the CDR software will pad the remainder of the last sector with silence.
+
+Other systems
+Is there a Macintosh version for CD Wave?
+No, there's no Mac version of CD Wave. Since the application was written in Delphi, and is also closely coupled to the Windows API, it will be very hard to port to begin with. Currently, porting would mean completely rewriting the whole program.
+
+However, I received reports that the program runs fine under a Windows emulator on the Macintosh, called Virtual PC, made by Connectix.
+
+Will there be a Linux version?
+First, we'll need Delphi to become available on Linux. That'd be great. After that, there might be some possibilities to port it. So, basically, it might be some day, but chances are small. Currently, it's Windows-only. Maybe it runs under WINE.
+
+Registration
+I lost my registered version, how can I get it back?
+Donwload the shareware version of CD Wave, it won't expire or so. Contact me, and mention your name and city where you live (or lived, if you moved after registering). It may take a few weeks to process your request. You will receive a registration key.
+
+Am I entitiled to free upgrades?
+Yes, if you register any 1.xx version, you are allowed to upgrade to any 1.xx version at no charge. Thus, if you registered 1.56 one day, you can download and use 1.62 and continue using it without having to reregister.
+
+If you register (and pay) online, you will be able to download a registered copy (it mentions this fact in the About box). Your registration information will be forwarded to me, so for future versions I know that you're entitled to use them. Starting with version 1.73 you receive a registration key. With this key, you can change the shareware version into a registered version. If you registered a previous version, contact me, provide the name, place and e-mail that you used for registration and you'll receive a key in a few weeks.
+
+I will register if that and that function is available.
+You must be a very well educated person to make this not sound like a threat. Basically, you cannot bend the rules. You can register the program "as is", which entitles you to a number of free upgrades. If you do not like the program, or feel that some key function is lacking, do not hesitate to write me. But please do not use the above wordings, even if your intentions are good. Actually sending the registration fee does a lot more to encourage me to further develop this product than a promise of sending me money only if I spend some time building a function.
+
+I sent you my registration weeks ago, but haven't received a reply.
+Apart form the CD Wave project, I have a full-time job, a house to take care of, various pets, a girlfriend, and I play in a percussion group, a sort of brassband, i sport a little too. So that means that there are times that I cannot reply in time to each and every request. If you feel I've forgotten you, just drop me an e-mail, and i'll let you know as soon as possible if i can find you in my database.
+
+***
+
+CD Wave is a program designed to aid in CD-Recordable mastering.
+It was built for splitting WAV files from any source, like LP,
+tape or even CD. After recording, you can let CD Wave automatically
+calculate split points, or you can manually add and delete split
+points. After this, you can write out the tracks as individual wave
+files and use any CDR mastering program to write a disc that has no
+clicks or pops in between tracks. Also supports 24-bit and surround
+audio.
+
+CD Wave can also act as a simple audio recorder and editor, allowing
+you to record and playback audio, and cut out parts that you want to
+keep.
+
+Since CD Wave can read and write CUE sheets, you can also use it as a
+CUE sheet editor for CDRWin.
+
+CD Wave (1.92) can write files in OGG Vorbis format, in FLAC (lossless
+compression) audio and in MP3 format (if you have the LAME encoder)
+directly.

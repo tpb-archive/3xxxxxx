@@ -1,0 +1,58 @@
+VirtualDJ es el mejor programa para mezclar MP3 (y también acc, ogg, wma, avi, mpeg, etc), cubriendo a todo DJ, desde DJs caseros hasta estrellas profesionales como Carl Cox.
+
+Con su magnífico motor de bloqueo de golpes (BeatLock), sus canciones siempre se mantendrán en el beat, y usted será capaz de manejar sus mixes increíblemente más rápido de lo que otro DJ podría.
+
+El manejo automático de loops síncronos y recien salido sampler sincrónico le permitirán hacer remixes asombrosos en Vivo, sin necesidad de tener una preparación previa.
+
+La presentación visual del producto y el manejo marcas (cues) le permiten ver claramente la estructura de la canción, para que nunca vuelva a tomarle por sorpresa un silencio o break en medio de la mezcla.
+
+El control con Vinilos (con TimeCoded Vinyls o TCVs)le permitirán hacer scratch como lo hacen con tornamesas o platos, excepto que esta vez con el manejo del bloqueo de golpes(beatlock), sus scratches nunca estarán fuera de beat.
+
+Agrege a eso la posibilidad de poner un número infinito de marcas (o puntos cue) que puede salvar en cada canción, además de un montón de maravillosos efectos que se sincronizan con el golpe (beat) automáticamente.
+
+Incluye también varias interfaces que se ajustan a todos, desde el principiante hasta el DJ profesional, La posibilidad de grabar sus mezclas y quemarlas en CDs, de hacer broadcast transmitiendo en el Internet y tener su propia estación de radio, de guardar sus CDs directamente en MP3, de usar audífonos para preescuchar sus canciones o conectar una mezcladora ( o mesa de mezclas) presentándose usted en un club.
+
+Por último, entre a la nueva era de la mezcla de video clips (DVD, DivX, MPEG...) que usted puede enviar a un proyector de pantalla gigante para el asombro del la concurrencia.
+
+v5.0.rev5
+
+    * Players gemelos independientes de latencia cero con:
+          o controles estandard (play, pause, stop, cue)
+          o Control de Volumen
+          o Control de Velocidad (Pitch)(desde -34 hasta +34% o +12% a 12% o el clásico -8% a +8%)
+          o Ecualizador de 3 bandas con botones de Kill + ganancia
+    * Sincronización e igualación de beats (golpes) a un click (nuevo algoritmo FAME)
+    * Motor de bloqueo de Beats (golpes): your songs will always stay in time, and you can work your mixes incredibly faster than any other DJ could
+    * Automatic beat-matched crossfading
+    * On-the-fly automatic BPM calculation
+    * Automatic pitch matching
+    * Automatic level matching
+    * Automatic beat matching
+    * Dynamic beat visualizer for easy "drag'n'drop" beat-matching
+    * Real scratch simulation
+    * Virtual scratch: Scratch your mp3 with your bare hand
+    * Automatic beat-aware LOOP function
+    * Synchronised sampler with 12 instant slots
+    * Master Tempo pitch algorithm
+    * Automatic first beat and last beat detection
+    * Automatic 4/4 phase detection
+    * OSC network synchronisation
+    * Infinite number of beatlocked desks (local multi-instance or network)
+    * Infinite number of cue points saved per songs
+    * 3 beat-aware effects slots per deck (included: brake, backspin, flanger, flippin, vocal remover, filter, ...)
+    * VST Effects Compatibilidad
+    * Karaoke effect with TV output
+    * Mezcla Video y da salida por TV-out (¡mezcle canciones y/o video clips!)
+    * Playlist (M3U or PLS compatible) and workcase
+    * Song database engine with easy-to-use search feature and automatic HD or CD scan
+    * Le ofrece un archivo listo para quemar y asi haga sus propios CDs mezclados
+    * Transmite por Internet o una red local(Broadcast)
+    * Codificador (encoder) de CD a MP3
+    * Uso opcional de tarjetas o placas de sonido 3D (o 4.1 o mayores), 2 tarjetas de sonido o un Y-splitter para un monitoreo en tiempo real o el uso de una mezcladora o mesa de mezclas externa
+    * Compatibilidad con tarjetas o placas de sonido que soportan el modo ASIO
+    * Totalmenet configurable (skin engine y shortcut macro enngine)
+    * Compativilidad para atajos pata un teclado MIDI externo
+    * Compatibilidad con los controladores remotos DMC1, DAC2 y DAC3
+    * Compatibilidad con la controladora DVinyl y los Vinilos de código de tiempo (TCVs)
+    * Compatibilidad con la Hercules' DJConsole
+    * Modo totalmente Automático de mezclas (Full automatic mixing mode): Virtual DJ reconoce el tipo de música (techno, hip hop, lounge) y por tanto adapta su mix por si necesita tomar un descanso

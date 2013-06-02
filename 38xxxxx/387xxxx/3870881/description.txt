@@ -1,0 +1,16 @@
+100.0% complete
+Name        : Sienna_West_-_BigTitsAtWork__5_14_07_-piger.free.fr-x264.mp4
+Length      : 2279.98
+Resolution  : 480x320
+Screenshots : 
+http://mpggalaxy.mine.nu/www/screenshots/Sienna_West_-_BigTitsAtWork__5_14_07_-piger.free.fr-x264
+Audio       : 48000
+Channels    : 2
+Video Codec : h264
+Audio Codec : mp3
+BPS         : v-500016 a-96000
+Command     : mencoder -ovc x264 -x264encopts pass=1 -nosound -o tmp.mp4 in_file.avi
+            : mencoder -ovc x264 -x264encopts bitrate=600:pass=2 -oac faac -faacopts br=128 -o out_file.mp4 in_file.avi
+
+        http://piger.free.fr/
+        http://piger.free.fr/mindex.html for mobile phones

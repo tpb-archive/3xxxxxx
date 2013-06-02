@@ -1,0 +1,165 @@
+Cross-platform engine of virtual worlds, standing on the bleeding edge of technology.
+Main fields of application are cross-platform games and virtual reality systems.
+Engine provides magnificent 3D graphics and outstanding physics.
+There are also flexible GUI, scripting system, sound support and much more.
+
+Features:
+
+Render
+
+* Lighting
+o PRT (Precomputed Radiance Transfer, spherical harmonics)
+o per-pixel lighting
+o light maps
+o gloss maps
+o omni light, omni with cubemap modulation
+o directional light with 2D texture modulation
+o sky skattering
+* Shading
+o per-pixel shading
+o stencil shadow
+o depth shadows
+o soft stencil shadows
+o GPU shadow volume extrusion
+* Texturing
+o normal mapping
+o DXT compression
+* Special effects
+o particles with different types of emitter
+o explosions
+o water
+o volume directional lights
+o decals
+o flares
+o per-pixel radial linear fog for the whole scene
+o volumetric fog
+o mirrors (2D/cubemap, with customizable refresh interval)
+o Fresnel refraction
+o customizable set of shaders (lava shader, detail normalmaps)
+* 64-bit color HDR (High Dynamic Range rendering)
+o bloom
+o glow
+o flare chromatic aberration
+o adaptive exposure
+* Postprocessing
+o refraction
+o motion blur
+* Scene management
+o portal rendering (indoor)
+o quad-tree subdividing (outdoor)
+o seamlessly interconnected indor and outdoor
+o occlusion culling
+o LOD (Levels of Detail)
+* Base objects
+o mesh
+o skinned mesh (for animation)
+o terrain - regular mesh of heights with 4 LODs and hardware morphing
+o GUI object (monitor, camera, user interface)
+o player (including spectators)
+* Optimizations
+o different codepath for different card generations (nv30, nv40, glsl)
+o work at nv10 and nv20 with full deactivation of the effects in singlepass mode
+o matrix palette skinning
+o GPU calculation of shadow volumes
+o SSE/3DNow! optimizations
+o performance profiling
+
+Physics
+
+* collision detection
+* comprehensive set of geometric primitives:
+o sphere
+o capsule
+o cylinder
+o box
+o mesh (AABB tree for per-triangle culling)
+o terrain (regular height map)
+o compound collider
+* rigid body
+* rag doll
+* vehicle physics
+* ray car
+* various joints:
+o fixed
+o ball
+o hinge
+o wheel
+o slider
+o universal
+o spring
+* joints destruction
+* particle physics
+* fluid buoyancy
+* water flow
+* performance profiling
+
+Sound
+
+* 3D sound
+* streamed sounds
+* entirely loadable sounds
+* binding sounds to objects
+* impact sounds
+* Doppler effect
+
+scripting system
+
+* fast bytecode compiler
+* C/C++ like scripts syntax
+* threads with fixed FPS
+* engine API repetition
+* object-oriented programming
+* performance profiling
+
+Graphic User Interface
+
+* various widgets:
+o sprite
+o viewport
+o drop-down menu
+o button
+o check box
+o radio button
+o slider
+o label
+o edit line
+* containers:
+o window
+o group box
+o tab box
+o scroll box
+o vertical/horizontal box
+* dialogs:
+o message box
+o file selector
+o color selector
+* activation animation
+* 3D effects
+* easy-to-use UI files format
+* True Type fonts support
+* Unicode support
+
+System
+
+* supported platforms:
+o MS Windows
+o Linux
+* supported file formats:
+o 3D objects - mesh, 3ds, lwo
+o images - tga, jpg, png, dds, xpm
+o sounds - wav, ogg
+* data compression
+* data encryption
+* Unicode support
+* CPU optimizations (SSE2, SSE3, 3DNow!)
+* flexible C++ API of the engine
+
+Tools
+
+* material editor with support of mesh, 3ds, lwo files
+* tool for normal map generation for low-poly models
+* data archiver
+* distributed PRT calculation tool
+* 3DStudio mesh export/import plugin
+* Maya mesh export/import plugin
+* 3DStudio skinned mesh export plugin

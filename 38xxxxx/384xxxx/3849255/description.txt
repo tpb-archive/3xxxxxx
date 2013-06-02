@@ -1,0 +1,21 @@
+I think this one might be useful for all of us here. It have kinda innovative approach. Read on?
+
+Tired of dealing with rogue software, spyware and malware? Tired of spending countless hours removing unsolicited software?
+Try Sandboxie.
+
+When you run a program on your computer, data flows from the hard disk to the program via read operations. The data is then processed and displayed, and finally flows back from the progam to the hard disk via write operations.
+
+For example, if you run the Freecell program to play a game, it starts by reading the previously recorded statistics, displaying and altering them as you play the game, and finally writing them back to disk for future reference.
+
+Sandboxie changes the rules such that write operations do not make it back to your hard disk.
+
+The illustration shows the key component of Sandboxie: a transient storage area, or sandbox. Data flows in both directions between programs and the sandbox. During read operations, data may flow from the hard disk into the sandbox. But data never flows back from the sandbox into the hard disk.
+
+If you run Freecell inside the Sandboxie environment, Sandboxie reads the statistics data from the hard disk into the sandbox, to satisfy the read requested by Freecell. When the game later writes the statistics, Sandboxie intercepts this operation and directs the data to the sandbox.
+
+If you then run Freecell without the aid of Sandboxie, the read operation would bypass the sandbox altogether, and the statistics would be retrieved from the hard disk.
+
+The transient nature of the sandbox makes it is easy to get rid of everything in it. If you were to throw away the sandbox, by deleting everything in it, the sandboxed statistics would be gone for good, as if they had never been there in the first place.
+
+Release Name: Sandboxie.v3.02.Incl.Keymaker-EMBRACE
+Links: Homepage, NFO, Download RS.com

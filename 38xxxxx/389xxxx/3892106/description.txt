@@ -1,0 +1,33 @@
+Steinberg Wavelab 5.01b FIX for Windows VISTA
+============================================
+
+* Warning! Will only work with version 5.01b
+
+
+Just copy the comdlgxp.dll and the CommonVcPh.dll to
+your Wavelab folder. Overwrite existing files.
+
+Enjoy!
+
+
+More info for those interested...
+-----------------------------------
+Like many others, I was frustrated when I found out that
+Wavelab 5 did not run on Vista. Even more frustrated when
+Steinberg said that they would not fix the problem for version 5.
+Instead, one had to buy the new version 6. Yeah right!
+
+Well good news! I happen to be good at reverse engineering and
+I have a solution for you all. I was very curious on finding why
+in hell Wavelab crashed when trying to "Open" or to "Save As..."
+a file. Well, it looks like the problem comes from some changes in
+the comdlg32.dll in Vista. Some wavelab variable gets overwritten
+by the GetOpenFilename function inside comdlg32.dll. That causes
+the application to crash. By debugging the disassembled code, I was
+able to realize that Steinberg could have easily fixed the bug. They only 
+had to make a minor change in the source code. They wont fix it because
+they want to make more money off you! 
+
+
+
+By The Black Numenorean

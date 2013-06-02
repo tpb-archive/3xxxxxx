@@ -1,0 +1,28 @@
+Sta4CAD is a software developed for structural engineering to determine the safety and design of a building under dead load, seismic, temperature, wind and lateral soil effects. The software can run static and RC analysis with taking into account several Turkish and international codes.
+The program applies matrix-displacement method with 6 unknowns for each node in 3D space. It applies rigid floor diaphragms also.
+The structure geometry is commonly defined in story plan and instantly shown in plan and 3D view. With the help of smart menus in data input, the geometry, load and code information can be entered by mouse easiliy.
+
+Sta4CAD automatically models the structure in 3D space and solves/designs with relevant codes. The drawings automatically generated after design process. After analysis; member optimization, cost analysis and code checks are available.
+
+SLAB MEMBERS :
+Concrede : Slab, ribbed (one dir./two dir.), column drops.
+Bar : Standar bar, ribbed bar or grid bar.
+
+BEAM MEMBERS :
+Concrede : Rectangle (T or Rect.),haunched and
+        pinned beams. Vertically slant and circular beams.
+Bar : Standar bar or ribbed bar.
+
+COLUMN MEMBERS :
+Concrede : Rectangular, circular or polynomial
+        columns and panel members.
+Bar : Standar bar, ribbed bar or grid bar.
+
+FOUNDATION MEMBERS :
+Concrede : Continuos and single f. with tie beams,
+        contour tie and mat f.
+Bar : Standar bar or ribbed bar.
+
+SEISMIC ISOLATORS :
+Rubber isolators.
+

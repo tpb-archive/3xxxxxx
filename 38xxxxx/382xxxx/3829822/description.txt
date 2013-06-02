@@ -1,0 +1,43 @@
+You need the Ultimate Boot CD if you want to: 
+
+Run floppy-based diagnostic tools from CDROM drives. More and more PCs are shipped without floppy drives these days, and it is such a royal pain when you need to run diagnostic tools on them. 
+
+Free yourself from the slow loading speed of the floppy drive. Even if you do have a floppy drive, it is still much much faster to run your diagnostic tools from the CDROM drive, rather than wait for the tool to load from the floppy drive. 
+
+Consolidate as many diagnostic tools as possible into one bootable CD. Wouldn't you like to avoid digging into the dusty box to look for the right floppy disk, but simply run them all from a single CD? Then the Ultimate Boot CD is for you! 
+
+New! Run Ultimate Boot CD from your USB memory stick. A script on the CD prepares your USB memory stick so that it can be used on newer machines that supports booting from USB devices. You can access the same tools as you would from the CD version. 
+
+When you boot up from the CD, a text-based menu will be displayed, and you will be able to select the tool you want to run. The selected tool actually boots off a virtual floppy disk created in memory. 
+
+May 8, 2007 Version 4.1.0 
+
+ADDITIONS/CHANGES
+
+Make FreeDOS default DOS disk (instead of LZ-DOS) for better compatibility. 
+Updated Super Grub Disk to V0.9590. Thanks to SebastienG for the update. 
+Updated ASTRA to V5.31. Thanks to Infector for the update. 
+Updated memtest86 to V3.3. Thanks to Infector for the update. 
+Updated memtest86+ to V1.70. Thanks to Infector for the update. 
+Updated ESTest to V4.20. Thanks to kof94 for the update. 
+Replaced SATA Tool V1.10 with ESFeat V2.10. Thanks to kof94 for the suggestion. 
+Updated HDClone to V3.2.6. Thanks to SebastienG for the update. 
+Updated IBM Feature Tool to V2.05. Thanks to SebastienG for the update. 
+Updated Drive Fitness Test to V4.09. Thanks to SebastienG for the update. 
+Updated Partition Saving to V3.40. Thanks to Constance for the update. 
+Updated Fujitsu Diagnostic Tool to V6.90. Thanks to essaion for the update. 
+Updated MBRtool to V2.3.100. Thanks to SebastienG for the update. 
+Updated Gujin to V1.9. Thanks to SebastienG for the update. 
+Updated Offline NT Password & Registry Editor to 070409. Thanks to SebastienG for the update. 
+Updated GAG to V4.8. Thanks to SebastienG for the update. 
+Updated KillDisk to V4.1. Thanks to SebastienG for the update. 
+Added SeaTools for DOS V1.09, which replaces SeaTools Desktop and PowerMax. Thanks to SebastienG for the update. 
+Updated Avira NTFS4DOS Personal to V1.9. Thanks to SebastienG for the update. 
+Added HDDErase V3.1. Thanks to Iceman for the suggestion. 
+Updated MaxBlast to V5.0. Thanks to SebastienG for the suggestion. 
+Removed Avast! V7.7 for DOS, since virus definition is hopelessly out-of-date and does not appear to be updated anymore. 
+Updated F-Prot virusdef files to 4 May 2007. 
+Updated McAfee virusdef to 3 May 2007.
+
+ 
+http://www.ultimatebootcd.com/index.html

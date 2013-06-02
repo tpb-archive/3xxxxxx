@@ -1,0 +1,9 @@
+Meet the Gimp! is a weekly video podcast about the Gimp graphics software from the viewpoint of a digital photographer. More information at http://meetthegimp.org
+
+Episode 4: A Ship in the Fog (2) - Correcting Colours
+
+In this episode of my video podcast I show how to correct colours with layers in the GIMP.
+
+For reducing the green tint of the image I add a layer filled with a bright magenta (white minus a bit green) and set the layer mode to ?multiply?. This reduces the green in the image proportional to the amount of green in each pixel. The amount of the effect can be adjusted by changing the opacity of the layer or changing the colour of the layer.
+
+Then I add a bit of blue with a layer filled with a very dark blue (black plus a bit blue) and set the layer mode to ?screen?. Now the blue in each pixel is enhanced proportionally. This can also be adjusted.

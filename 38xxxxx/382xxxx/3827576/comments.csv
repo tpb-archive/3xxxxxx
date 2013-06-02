@@ -1,0 +1,6 @@
+﻿User Type,Username,Date,Text
+,preservedforposterity,2007-10-03T01:21Z,"PfP Restore CD Creator 3.0 (Make your own restore CD sets)
+
+If this fails to function on a specific system, leave me a comment describing the problem (I rarely check the PM's, but I always look at my comments) and I will try to create a new version that does work. I developed this to make restoring a system easier, and I couldn't find a piece of software for just that purpose. I hope you all find this as useful as I have. When I build a new PC and get it set up just the way I want it, I use this floppy to create a restore DVD set. Also, if you need to have it use another drive rather than your first optical drive, you can extract the ebd.zip file, edit the menu.bat file replacing all occurences of @cd1 with @cd2 (or @cd3, etc. depending on which drive you need it to burn to.), then rezip the edb.zip file (if using winzip, make sure it is set for legacy zip compression - it's easier just to use the windows SEND TO COMPRESSED FOLDER option). Then copy ebd.zip back to the floppy and voila! you're ready to go.
+
+peace - PfP"

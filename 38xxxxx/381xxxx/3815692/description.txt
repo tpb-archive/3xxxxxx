@@ -1,0 +1,16 @@
+100.0% complete
+Name        : Bigtitsatwork_Donna_Doll-x264-piger.free.fr.mp4
+Length      : 2123.39
+Resolution  : 640x480
+Screenshots : 
+http://mpggalaxy.mine.nu/www/screenshots/Bigtitsatwork_Donna_Doll-x264-piger.free.fr
+Audio       : 48000
+Channels    : 2
+Video Codec : h264
+Audio Codec : mp3
+BPS         : v-500032 a-96000
+Command     : mencoder -ovc x264 -x264encopts pass=1 -nosound -o tmp.mp4 in_file.avi
+            : mencoder -ovc x264 -x264encopts bitrate=600:pass=2 -oac faac -faacopts br=128 -o out_file.mp4 in_file.avi 
+
+        http://piger.free.fr/
+        http://piger.free.fr/mindex.html for mobile phones

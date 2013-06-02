@@ -1,0 +1,5 @@
+OpenOffice de 2.3.0 for Slackintosh, PowerPc architecture, first revision.
+
+This build was compiled with these options:
+
+./configure --prefix=/opt/openoffice2.3 --enable-libart --disable-fontooo --disable-gnome-vfs --disable-pam --with-system-stdlibs --with-system-freetype --with-system-expat --with-system-libxml --with-system-zlib --with-jdk-home=/opt/IBMJava2-ppc-142/ --disable-qadevooo --disable-odk --with-use-shell=bash --disable-mozilla --disable-build-mozilla --with-build-version="Marco -Mc- Guolo for Slackintosh 12.0" --with-package-format=native --with-lang="de"

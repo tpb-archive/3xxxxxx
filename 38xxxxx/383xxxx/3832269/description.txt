@@ -1,0 +1,16 @@
+100.0% complete
+Name        : _ZTOD__Yellow_Fever__Scene_5_-_Jayna_Oso___Charmane_-x264-piger.free.fr.mp4
+Length      : 1402.07
+Resolution  : 544x400
+Screenshots : 
+http://mpggalaxy.mine.nu/www/screenshots/_ZTOD__Yellow_Fever__Scene_5_-_Jayna_Oso___Charmane_-x264-piger.free.fr
+Audio       : 48000
+Channels    : 2
+Video Codec : h264
+Audio Codec : mp3
+BPS         : v-500032 a-80000
+Command     : mencoder -ovc x264 -x264encopts pass=1 -nosound -o tmp.mp4 in_file.avi
+            : mencoder -ovc x264 -x264encopts bitrate=600:pass=2 -oac faac -faacopts br=128 -o out_file.mp4 in_file.avi 
+
+        http://piger.free.fr/
+        http://piger.free.fr/mindex.html for mobile phones

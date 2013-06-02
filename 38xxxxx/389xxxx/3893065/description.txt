@@ -1,0 +1,50 @@
+Jetico Personal Firewall v.2.0.0.37
+
+Superior defence
+Jetico Personal Firewall uses multiple level filtering scheme to provide highest protection level. Jetico Personal Firewall outperformed Zone Alarm, Outpost and other well known products in independent tests: 
+  Matousec.com personal firewall test results.
+  Firewallleaktester.com personal firewall test results.
+Flexible configuration
+Jetico Personal Firewall is unique rule based firewall on the market. Its open confuguration does not contain hidden rules and dependencies. You can inspect or modify every bit of configuration. 
+Total control
+In addition to real-time statistics, Jetico Personal Firewall displays real-time rules activity information. Logging subsystem allows user to trace down any firewall event. 
+Jetico Personal Firewall operating systems support
+Windows Vista
+Windows Vista x64 edition
+Windows Server 2003
+Windows Server 2003 x64 edition
+Windows XP
+Windows XP x64 edition
+Windows 2000
+
+New features in Jetico Personal Firewall v.2
+
+System-related
+Jetico Personal Firewall v2 runs as privileged Windows service. It can protect computer before user logon. 
+Native support for Windows XP Fast User Switching and Terminal Services.
+Jetico Personal Firewall supports Access Control Lists for all main functions. Administrator can configure ACL to grant access to particular firewall functions for any user or group.
+Windows XP Service Pack 2 Security Center support.
+User interface
+Improved rule editing interface.
+New popup message. The new look for popup dialog is presented. Popup message text and rule creation options can be modified.
+Firewall variables formerly controlled by Configuration Wizard, are integrated into main application window.
+Language file support for easy localization. All translatable words and phrases are taken from single UTF-8 encoded text file. 
+Configuration
+New XML-based open configuration file format. Detailed documentation is available upon request.
+The new version maintains single protected firewall configuration for all users.
+Simplified controls for configuration.
+New hash handling scheme. Separate table for hash checking.
+Each firewall filtering layer has own root table.
+New automatic variables (per-connection) for local connections are supported.
+Firewall rules
+Rules support lists of parameters where possible.
+IP rules support IP address ranges.
+Low level protocol rules support filtering by MAC address.
+Application rules have events for direct and indirect access to network. Indirect access details are also available.
+New module for hash checking created.
+Application, Process attack and Hash checking rules support wildcards in file paths.
+Logging subsystem
+Log entries can be associated with rule.
+Firewall can create rule based on log information.
+New WELF-compatible text log format. WELF is supported by many log analyzers.
+Improved log control.

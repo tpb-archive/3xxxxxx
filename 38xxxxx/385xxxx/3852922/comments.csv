@@ -1,0 +1,149 @@
+﻿User Type,Username,Date,Text
+,missionman51,2007-12-09T00:02Z,downloaded less than 3 mins
+,darklightmonkey,2008-01-10T09:23Z,there's no way maya is a huge program this is obviously a virus
+,jrudesh,2008-01-21T16:17Z,How to use???
+,Zervon,2008-01-24T22:37Z,maybe some how to in english would be in order.  halp!
+,krinkkrinkkrink,2008-01-30T22:55Z,"Wow!!!! Thank you so much (muchas gracias?) 5 hours trying to get the ""other"" (awkeygen.exe)  crack 2 work, following directions to a T, every cobination of possible interps of globetrotters instructions, I was almost ready to give up.  2 mins 1 click and this prog puts a aw.dat on your desktop. simply create a folder called FLEXLM on your c:\ drive( i guess u cld call it anything?),drag the file his prog made from your desktop to the new C:\Flexlm (none of that DOS command-line *!%) into in your FLEXLM folder. try to start 8.5; when it complains about not being reged, select i d like to enter my info/then..from file\-- direct maya to ur c:\flexam\aw.dat maya made a happy face, so did I all works well!! . his [her?]program created a perfect dat file!!!
+
+You could also select id like to entr reg info / copy and paste from the aw.dat on desktop, and i think ---select paste or type reg  information/ paste it and maya will do the rest.. not sure, but i think thats how it would work as an simpler,alternate mthd. 
+
+ANYWAY____THANKS< Nobody, you really should take credit for that one- made a lot of peeps happy!"
+,tfrazer,2008-02-09T17:26Z,In english... simply run the filegen.bat file which creates a file named aw.dat in your desktop. Then open Maya and select the register from a file option. Select the previously created file then it's done!
+,Trackstar721,2008-02-21T15:14Z,"After I downloaded this, my friend tried to use it on a Mac and it said that there is a trojan in this crack. I didn't get any warnings from my anti-virus though. Info would be appreciated."
+,SCA_Kaiser,2008-03-19T23:42Z,"I can't get any keygen / crack to work. Is it absolutely necessary to have it on a C: drive? All my computer has is F:, and I can't find a free partition software to make a C:. is there something else I'm missing? I follow every set of instructions and modified instructions I find, but it always comes up with ""There are no appropriate licenses installed on your computer"". SO LAME!! Someone please give me a suggestion that works..."
+,vinc3nt1n0,2008-03-21T21:14Z,"Ok friends this trick is for who have the FFFFFF address (like me :P)
+
+Install vmware server
+http://register.vmware.com/content/download.html
+When vmare askes serial number click on skip button...and that's it!
+Now if you go on Autodesk-->common utilities-->FlexLM license utilities you'll see a new ethernet address.
+
+So now you can follow the cracking-guide posted some thread ago!
+
+ENJOY!! "
+,xenunymous,2008-04-04T21:15Z,"If you're on a MacBook and are using Parallels to run Windows for the crack, but installing Maya on the OS X side, remember that your Ethernet address is different in Parallels. Go to 
+System Preferences/Network
+click the Built-In Ethernet
+click on Advanced
+go to the Ethernet tab, and there you will find your ethernet address.
+When you type this into your aw.dat file, remove any "":"" between numbers. "
+,gl23,2008-04-15T04:06Z,"I have a Mac pc G5 and but when installing Maya 2008 unlimited it says that it needs to search for prekey license. Could some help me. I install Maya 8.5 with no problem and it didn't ask for an prekey before installing it. It just in stall, and they i just simply follow the instructions that was give by the user who upload software."
+,blimeyoriley,2008-04-26T16:08Z,"ok after spending quite a while trying to figure this out myself, i feel it would be helpful if i described what i did.
+i have a mac running leopard, and xp installed via boot camp.
+i used the awkeygen.exe method.
+first get your ETHERNET address. i am using airport, and tried my airport address but it didnt work, so copy and paste your ethernet address into aw.dat (replacing ""your_host"")
+this can be done by opening aw.dat in textedit.
+then copy the edited aw.dat and awkeygen.exe to windows.
+drag aw.dat onto awkeygen.exe.
+then double click awkeygen.exe.
+this will edit aw.dat
+copy aw.dat ONLY back to your mac to /var/flexlm/
+to get to this location open finder and press shift, command, g
+then type /var/flexlm/
+and copy aw.dat to that location
+there should only be one copy of aw.dat there, so if one already exists, replace it
+open maya, and voila!
+hope this helps"
+,TypoDemon,2008-04-30T02:38Z,THANK you!
+,openingfuel,2008-06-07T09:46Z,"will it work on this torrent?
+
+http://thepiratebay.org/tor/4089776/Maya_2008_Unlimited_Portable_Edition"
+,vivasvan,2008-11-10T18:52Z,nope it didnt help..i ve tried it with both my ethernet adresses and with this crack still it dont find any license says instalation incopplete:(
+,arseface1985,2008-11-13T05:21Z,"Well... I was having a lot of trouble trying to activate this too...
+I took a shot with the automated crack with no luck also... so i got maya working doing the manual keygen aw.dat stuff as described from de torrent but using a different number for my ethernet: 
+
+at FlexLM License Utility I was getting for my Ethernet this kind of number: 0015af237f3d 001bfcedbe53 001bfcedbde0
+
+The number will change from computer to computer, but it was that long...
+I tried everything: adding ""-"" between the number groups, adding "":"", removing the spaces... but it would generate an ""wrong syntax"" or ""invalid parameter"" error in every attempt.
+
+So, if you are experiencing the same problem as mine, try the following:
+
+1) go to run and type ""cmd"".
+2) in the prompt, type ""cd\""
+3) type ""getmac /v""
+
+a short list of your conections will show up, with a bunch of numbers, some of them will look like the one displayed in the FlexLM License, for they are as big as the one that showed up.
+
+BUT thats the trick: do not use none of them, instead use the shorter ones that comes before the long ones. They will appear in this kind of syntax: ""00-00-00-00-00-00"" using letters and numbers.
+
+copy this fella (you gotta chose wich one is from your active conection I think, but thats ok, I just got 3 of these in my attempt, and the first one was the correct) to your aw.dat and replace the ""your_host"" with it (don't forget to remove the ""-"", so that the number will be in this syntax: ""0000000000"", a 10 digit number and, of course, without the quotes).
+
+Now you can do the mumbo jumbo described above or simply drag the aw.dat to your keygen... and VOILA. install the license and go get yourself a beer.
+
+At least it worket for me.
+
+Hope I have helped. "
+,blovcandy,2009-03-16T23:51Z,"Thank you so much dude ! vinc3nt1n0..
+
+Now Maya 2008 works excellent in My system. 
+
+Actually i got a fuckin problem with Maya 08 for a long time. I could not install the ""FlexLM keygen.exe and aw.dat"" because my ethernet ID was fffffff some thing, that's why  i didn't run maya. 
+
+
+After your instruction i installed the ""VMware server console"" from 
+
+http://register.vmware.com/content/download.html
+
+
+i installed it and i got new ethernet ID, now maya working perfectly. Thank you dude.
+
+If any one having problem with FFFFFFF ethernet ID please visit above mentioned website and download ""VMware server 1.0.6"" it is the ""EXE"" file, it will come around 140 MB size
+
+1.download it and setup. it will take some time
+   Keep wait... at end of installation it will ask  you register number you just press ""skip"" button. 
+
+2. Your system will restart
+
+3. Now Go to Start ----> All Prog. -----> Auto   desk ---- Common utilities ----> flexLM utility
+
+4. Under ""system settings"" find Ethernet Address. it will be like this """"001cc07b85c8 005056c00001 005056c00008"""".
+
+5. Be careful while copying this address, please copy the last no, i mean ""005056c00008"", dont copy whole number (without quotes) 
+
+6. Now open aw.dat (C:/FlexLM/aw.dat) with wordpad and replace ""your host ID"" save and exit.
+
+7. drag this aw.dat file on the awkeygen.exe
+
+8. It is almost finished now. do  the remaining procedure... Maya will work... Gud luck dudes 
+
+
+"
+,piyush2patel,2009-04-13T13:50Z,"1.Run LMTOOLS, get your ""ethernet address"" from system settings & copy.
+2.Run TOTALCMD, in right pane edit aw.dat, replace ""your_host"" with ""ethernet address"".
+3.Run Maya and Select I Have a Livense that i need to Install > Next
+4.I would like to install my license from a File > Next
+5.Browse >C:/Maya/Bin and Selcet prekey.dat > Select > Next
+6.Done
+7.And Enjoy With Maya 2008"
+,Zephyrox,2009-04-14T16:46Z,"Problem solved:
+I did exactly as explained here, in the install.txt and everywhere else.
+When I choose the aw.dat from the license tool I got the message everything was okay. However when I tried to start Maya, I still got the message ""no valid license..."".
+Tried over and over agian, even reinstalled Maya nothing worked! 
+Finally I tried to disable my network card, rebooted and enabled it again. Then it worked! Don't ask me why, just wanted to share how I finaly got i to work.."
+,ramagya,2009-09-16T12:27Z,will it work on this torrent? thank so much..............
+,roimage,2010-04-01T07:05Z,"Somebody please explain how to crack Maya portable version 2008.  I have been trying, still no success."
+,devilz_07,2010-04-03T18:27Z,"ok i got the steps..!
+
+1.DOUBLE CLICK ON THE ""filegen""
+
+2.IT WILL CREATE A FILE NAMED ""AW.DAT"" ON YOUR DESKTOP
+
+3.GO TO START-AL PROGRAMS-AUTODESK-COMMON UTILITES-AND CLICK ON FLEX LM LICENSE
+
+4.NOW IN FLEX LICENSE SELECT SYSTEM SETTINGS AND NOTE DOWN YOUR ETHERNET ADRESS (WITOUT IVERTED COMMAS)
+
+5.NOW OPEN THE FILE AW.DAT WITH WORDPAD AND REPLACE THE ID IN INVERTED COMMAS WITH YOUR ETHERNET ADRESS.
+
+6.NOW OPEN MAYA IT WILL ASK U FOR THE LICESNSE PART 
+
+7.SLECT LICENSE FRM A FILE 
+
+8.THEN INSTAL FRM A FILE
+
+9.THE CLICK ON BRWSE AND SLECT THE ""AW.DAT""
+
+10.CLCIK ON NXT AND UR DONE//
+
+cheers.!"
+,stalin0077,2010-08-27T07:42Z,seed please

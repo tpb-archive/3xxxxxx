@@ -1,0 +1,901 @@
+﻿Filename,Size,Unit
+/copying.txt,24.72,K
+/data/2x.svg,21.35,K
+/data/3x.svg,21.17,K
+/data/4x.svg,22.37,K
+/data/amanith.dll,1.07,M
+/data/ball1.svg,2.52,K
+/data/ball2.svg,4.11,K
+/data/base.pyd,15.5,K
+/data/cassette.dae,209.22,K
+/data/cassette.svg,28.49,K
+/data/cdrom.pyd,19.5,K
+/data/constants.pyd,14.5,K
+/data/crunch1.ogg,13.05,K
+/data/crunch2.ogg,13.04,K
+/data/crunch3.ogg,11.67,K
+/data/default.ttf,62.29,K
+/data/display.pyd,32.5,K
+/data/draw.pyd,34,K
+/data/editor.svg,98.63,K
+/data/event.pyd,25,K
+/data/fastevent.pyd,12,K
+/data/fiba1.ogg,18.25,K
+/data/fiba2.ogg,18.37,K
+/data/fiba3.ogg,17.84,K
+/data/fiba4.ogg,15.7,K
+/data/fiba5.ogg,18.06,K
+/data/fiba6.ogg,18.44,K
+/data/font.pyd,18.5,K
+/data/ghmidimap.txt,5.04,K
+/data/glow.svg,6.04,K
+/data/icon.png,4.36,K
+/data/image.pyd,23,K
+/data/imageext.pyd,8,K
+/data/in.ogg,30.53,K
+/data/international.ttf,64.39,K
+/data/joystick.pyd,17.5,K
+/data/jurgen1.ogg,75.94,K
+/data/jurgen2.ogg,58.07,K
+/data/jurgen3.ogg,42.15,K
+/data/jurgen4.ogg,64.35,K
+/data/jurgen5.ogg,54.79,K
+/data/key.dae,20.39,K
+/data/key.pyd,9.5,K
+/data/keyboard.svg,187.11,K
+/data/label.dae,11.9,K
+/data/left.svg,2.71,K
+/data/library.dae,41.47,K
+/data/library.zip,2.36,M
+/data/library_label.dae,4.53,K
+/data/loading.svg,19.77,K
+/data/logo.svg,107.11,K
+/data/menu.ogg,403.13,K
+/data/mixer.pyd,30,K
+/data/mixer_music.pyd,15,K
+/data/mods/Chilly/flame1.svg,6.56,K
+/data/mods/Chilly/flame2.svg,8.73,K
+/data/mods/Chilly/logo.svg,116.99,K
+/data/mods/Chilly/neck.svg,10.25,K
+/data/mods/Chilly/theme.ini,81,B
+/data/mods/LightGraphics/2x.png,13.92,K
+/data/mods/LightGraphics/2x.svg,21.35,K
+/data/mods/LightGraphics/3x.png,15.42,K
+/data/mods/LightGraphics/3x.svg,21.17,K
+/data/mods/LightGraphics/4x.png,14.93,K
+/data/mods/LightGraphics/4x.svg,22.37,K
+/data/mods/LightGraphics/ball1.png,4.48,K
+/data/mods/LightGraphics/ball1.svg,2.52,K
+/data/mods/LightGraphics/ball2.png,5.21,K
+/data/mods/LightGraphics/ball2.svg,4.11,K
+/data/mods/LightGraphics/cassette.png,11.58,K
+/data/mods/LightGraphics/cassette.svg,28.49,K
+/data/mods/LightGraphics/editor.png,48.23,K
+/data/mods/LightGraphics/editor.svg,98.63,K
+/data/mods/LightGraphics/flame1.png,71.23,K
+/data/mods/LightGraphics/flame1.svg,6.55,K
+/data/mods/LightGraphics/flame2.png,82.19,K
+/data/mods/LightGraphics/flame2.svg,8.72,K
+/data/mods/LightGraphics/glow.png,9.95,K
+/data/mods/LightGraphics/glow.svg,6.04,K
+/data/mods/LightGraphics/keyboard.png,51.58,K
+/data/mods/LightGraphics/keyboard.svg,187.11,K
+/data/mods/LightGraphics/left.png,1.5,K
+/data/mods/LightGraphics/left.svg,3.52,K
+/data/mods/LightGraphics/light.png,11.14,K
+/data/mods/LightGraphics/light.svg,7.82,K
+/data/mods/LightGraphics/loading.png,20.48,K
+/data/mods/LightGraphics/loading.svg,19.77,K
+/data/mods/LightGraphics/logo.png,69.69,K
+/data/mods/LightGraphics/logo.svg,107.11,K
+/data/mods/LightGraphics/neck.png,10.79,K
+/data/mods/LightGraphics/neck.svg,11.77,K
+/data/mods/LightGraphics/pose.png,33.82,K
+/data/mods/LightGraphics/pose.svg,63.72,K
+/data/mods/LightGraphics/right.png,1.56,K
+/data/mods/LightGraphics/right.svg,3.18,K
+/data/mods/LightGraphics/stage.ini,724,B
+/data/mods/LightGraphics/star.png,24.8,K
+/data/mods/LightGraphics/star.svg,6.44,K
+/data/mods/LightGraphics/star1.png,6.25,K
+/data/mods/LightGraphics/star1.svg,3.11,K
+/data/mods/LightGraphics/star2.png,6.21,K
+/data/mods/LightGraphics/star2.svg,4.58,K
+/data/mouse.pyd,12.5,K
+/data/multiarray.pyd,25.5,K
+/data/myhero.ogg,34.28,K
+/data/neck.svg,11.77,K
+/data/note.dae,45.79,K
+/data/out.ogg,14.47,K
+/data/overlay.pyd,9,K
+/data/perfect1.ogg,30.67,K
+/data/perfect2.ogg,26.89,K
+/data/perfect3.ogg,31.99,K
+/data/pose.svg,63.72,K
+/data/pyexpat.pyd,132,K
+/data/rect.pyd,26,K
+/data/right.svg,2.75,K
+/data/rwobject.pyd,10.5,K
+/data/SDL.dll,284,K
+/data/SDL_image.dll,229,K
+/data/SDL_mixer.dll,408,K
+/data/SDL_ttf.dll,395.5,K
+/data/select.pyd,8,K
+/data/sndarray.pyd,9,K
+/data/songs/3 Doors Down - Duck And Run/guitar.ogg,5.19,M
+/data/songs/3 Doors Down - Duck And Run/notes.mid,19.39,K
+/data/songs/3 Doors Down - Duck And Run/notes.mid.old,3.93,K
+/data/songs/3 Doors Down - Duck And Run/song.ini,63,B
+/data/songs/3 Doors Down - Duck And Run/song.ogg,5.19,M
+/data/songs/AC DC/AC DC - Back in Black/guitar.ogg,4.43,M
+/data/songs/AC DC/AC DC - Back in Black/notes.mid,9.75,K
+/data/songs/AC DC/AC DC - Back in Black/Readme.txt,408,B
+/data/songs/AC DC/AC DC - Back in Black/song.ini,484,B
+/data/songs/AC DC/AC DC - Back in Black/song.ogg,4.43,M
+/data/songs/AC DC/AC DC - Hell Ain't A Bad Place To Be/ac.sng,38.44,K
+/data/songs/AC DC/AC DC - Hell Ain't A Bad Place To Be/guitar.ogg,3.42,M
+/data/songs/AC DC/AC DC - Hell Ain't A Bad Place To Be/label.png,83.92,K
+/data/songs/AC DC/AC DC - Hell Ain't A Bad Place To Be/notes.mid,4.95,K
+/data/songs/AC DC/AC DC - Hell Ain't A Bad Place To Be/song.ini,108,B
+/data/songs/AC DC/AC DC - Hell Ain't A Bad Place To Be/song.ogg,3.42,M
+/data/songs/AC DC/AC DC - Hell Ain't A Bad Place To Be/Thumbs.db,5.5,K
+/data/songs/AC DC/AC DC - Hells Bells/guitar.ogg,5.48,M
+/data/songs/AC DC/AC DC - Hells Bells/notes.mid,15.64,K
+/data/songs/AC DC/AC DC - Hells Bells/song.ini,281,B
+/data/songs/AC DC/AC DC - Hells Bells/song.ogg,5.48,M
+/data/songs/AC DC/AC DC - High Voltage Rock N Roll/guitar.ogg,3.61,M
+/data/songs/AC DC/AC DC - High Voltage Rock N Roll/notes.mid,10.08,K
+/data/songs/AC DC/AC DC - High Voltage Rock N Roll/song.ini,61,B
+/data/songs/AC DC/AC DC - High Voltage Rock N Roll/song.ogg,3.61,M
+/data/songs/AC DC/AC DC - Highway to Hell/guitar.ogg,3.01,M
+/data/songs/AC DC/AC DC - Highway to Hell/Leeme.txt,574,B
+/data/songs/AC DC/AC DC - Highway to Hell/notes.mid,6.87,K
+/data/songs/AC DC/AC DC - Highway to Hell/song.ini,436,B
+/data/songs/AC DC/AC DC - Highway to Hell/song.ogg,3.01,M
+/data/songs/AC DC/AC DC - Highway To Hell v2/guitar.ogg,3.54,M
+/data/songs/AC DC/AC DC - Highway To Hell v2/notes.mid,11.21,K
+/data/songs/AC DC/AC DC - Highway To Hell v2/song.ini,281,B
+/data/songs/AC DC/AC DC - Highway To Hell v2/song.ogg,3.54,M
+/data/songs/AC DC/AC DC - T.N.T/guitar.ogg,3.26,M
+/data/songs/AC DC/AC DC - T.N.T/label.png,34.59,K
+/data/songs/AC DC/AC DC - T.N.T/notes.mid,4.22,K
+/data/songs/AC DC/AC DC - T.N.T/song.ini,779,B
+/data/songs/AC DC/AC DC - T.N.T/song.ini.bak,758,B
+/data/songs/AC DC/AC DC - T.N.T/song.ogg,3.61,M
+/data/songs/AC DC/AC DC - Thunderstruck/guitar.ogg,4.41,M
+/data/songs/AC DC/AC DC - Thunderstruck/label.png,44.93,K
+/data/songs/AC DC/AC DC - Thunderstruck/notes.mid,16.65,K
+/data/songs/AC DC/AC DC - Thunderstruck/song.ini,92,B
+/data/songs/AC DC/AC DC - Thunderstruck/song.ini.bak,71,B
+/data/songs/AC DC/AC DC - Thunderstruck/song.ogg,4.41,M
+/data/songs/AC DC/AC DC - You Shook Me All Night Long/credits.txt,205,B
+/data/songs/AC DC/AC DC - You Shook Me All Night Long/guitar.ogg,3.37,M
+/data/songs/AC DC/AC DC - You Shook Me All Night Long/label.png,9.66,K
+/data/songs/AC DC/AC DC - You Shook Me All Night Long/notes.mid,6.63,K
+/data/songs/AC DC/AC DC - You Shook Me All Night Long/notes.mid.old,6.63,K
+/data/songs/AC DC/AC DC - You Shook Me All Night Long/song.ini,619,B
+/data/songs/AC DC/AC DC - You Shook Me All Night Long/song.ogg,3.13,M
+/data/songs/AC DC/acdc - hell bad/ac.sng,38.44,K
+/data/songs/AC DC/acdc - hell bad/guitar.ogg,3.42,M
+/data/songs/AC DC/acdc - hell bad/label.png,83.92,K
+/data/songs/AC DC/acdc - hell bad/notes.mid,4.95,K
+/data/songs/AC DC/acdc - hell bad/song.ini,108,B
+/data/songs/AC DC/acdc - hell bad/song.ogg,3.42,M
+/data/songs/AC DC/acdc - hell bad/Thumbs.db,5.5,K
+/data/songs/Aerosmith/Aerosmith - Last Child/guitar.ogg,3.14,M
+/data/songs/Aerosmith/Aerosmith - Last Child/label.png,50.21,K
+/data/songs/Aerosmith/Aerosmith - Last Child/label2.png,42.74,K
+/data/songs/Aerosmith/Aerosmith - Last Child/notes.mid,18.2,K
+/data/songs/Aerosmith/Aerosmith - Last Child/song.ini,440,B
+/data/songs/Aerosmith/Aerosmith - Last Child/song.ogg,3.26,M
+/data/songs/Aerosmith/Aerosmith - Last Child (Rhythm Guitar)/guitar.ogg,3.14,M
+/data/songs/Aerosmith/Aerosmith - Last Child (Rhythm Guitar)/label.png,50.21,K
+/data/songs/Aerosmith/Aerosmith - Last Child (Rhythm Guitar)/notes.mid,19.6,K
+/data/songs/Aerosmith/Aerosmith - Last Child (Rhythm Guitar)/song.ini,74,B
+/data/songs/Aerosmith/Aerosmith - Last Child (Rhythm Guitar)/song.ogg,3.26,M
+/data/songs/Aerosmith/Aerosmith - Walk This Way/Aerosmith_-_Walk_This_Way.sng,58.81,K
+/data/songs/Aerosmith/Aerosmith - Walk This Way/guitar.ogg,3.05,M
+/data/songs/Aerosmith/Aerosmith - Walk This Way/label.png,85.6,K
+/data/songs/Aerosmith/Aerosmith - Walk This Way/notes.mid,8.75,K
+/data/songs/Aerosmith/Aerosmith - Walk This Way/song.ini,86,B
+/data/songs/Aerosmith/Aerosmith - Walk This Way/song.ogg,3.05,M
+/data/songs/Aerosmith/Aerosmith - Walk This Way/Thumbs.db,5,K
+/data/songs/Alice Cooper - Poison/guitar.ogg,2.7,M
+/data/songs/Alice Cooper - Poison/label.png,11.45,K
+/data/songs/Alice Cooper - Poison/notes.mid,9.53,K
+/data/songs/Alice Cooper - Poison/song.ini,444,B
+/data/songs/Alice Cooper - Poison/song.ini.bak,421,B
+/data/songs/Alien Ant Farm - Smooth Criminal/guitar.ogg,4.06,M
+/data/songs/Alien Ant Farm - Smooth Criminal/notes.mid,6.3,K
+/data/songs/Alien Ant Farm - Smooth Criminal/song.ini,85,B
+/data/songs/Alien Ant Farm - Smooth Criminal/song.ogg,3.95,M
+/data/songs/All That Remains - Six/guitar.ogg,2.36,M
+/data/songs/All That Remains - Six/notes.mid,75.43,K
+/data/songs/All That Remains - Six/rhythm.ogg,1.8,M
+/data/songs/All That Remains - Six/song.ini,100,B
+/data/songs/All That Remains - Six/song.ogg,2.59,M
+/data/songs/Amon Amarth/Amon Amarth - Cry Of The Black Birds/guitar.ogg,4.59,M
+/data/songs/Amon Amarth/Amon Amarth - Cry Of The Black Birds/notes.mid,13.39,K
+/data/songs/Amon Amarth/Amon Amarth - Cry Of The Black Birds/song.ini,61,B
+/data/songs/Amon Amarth/Amon Amarth - The Pursuit Of Vikings/guitar.ogg,5.09,M
+/data/songs/Amon Amarth/Amon Amarth - The Pursuit Of Vikings/notes.mid,22.69,K
+/data/songs/Amon Amarth/Amon Amarth - The Pursuit Of Vikings/song.ini,74,B
+/data/songs/Atreyu/Atreyu - Becoming The Bull/guitar.ogg,3.98,M
+/data/songs/Atreyu/Atreyu - Becoming The Bull/notes.mid,10.05,K
+/data/songs/Atreyu/Atreyu - Becoming The Bull/song.ini,63,B
+/data/songs/Atreyu/Atreyu - My Fork in the Road/guitar.ogg,3.76,M
+/data/songs/Atreyu/Atreyu - My Fork in the Road/notes.mid,11.23,K
+/data/songs/Atreyu/Atreyu - My Fork in the Road/song.ini,1.83,K
+/data/songs/Atreyu/Atreyu - Our Sick Story/guitar.ogg,3.71,M
+/data/songs/Atreyu/Atreyu - Our Sick Story/notes.mid,8.87,K
+/data/songs/Atreyu/Atreyu - Our Sick Story/song.ini,2.13,K
+/data/songs/B16 Minus Celsius â Backyard Babies/guitar.ogg,4.01,M
+/data/songs/B16 Minus Celsius â Backyard Babies/notes.mid,34.88,K
+/data/songs/B16 Minus Celsius â Backyard Babies/rhythm.ogg,3.33,M
+/data/songs/B16 Minus Celsius â Backyard Babies/song.ini,56,B
+/data/songs/B16 Minus Celsius â Backyard Babies/song.ogg,3.78,M
+/data/songs/B17 My Curse â Killswitch Engage/guitar.ogg,4.5,M
+/data/songs/B17 My Curse â Killswitch Engage/notes.mid,42.56,K
+/data/songs/B17 My Curse â Killswitch Engage/rhythm.ogg,4.02,M
+/data/songs/B17 My Curse â Killswitch Engage/song.ini,55,B
+/data/songs/B17 My Curse â Killswitch Engage/song.ogg,4.58,M
+/data/songs/B18 Nothing for Me Here â Dope/guitar.ogg,3.09,M
+/data/songs/B18 Nothing for Me Here â Dope/notes.mid,35.84,K
+/data/songs/B18 Nothing for Me Here â Dope/rhythm.ogg,3.21,M
+/data/songs/B18 Nothing for Me Here â Dope/song.ini,53,B
+/data/songs/B18 Nothing for Me Here â Dope/song.ogg,3.03,M
+/data/songs/Billy Talent/Billy Talent - Devil In A Midnight Mass/guitar.ogg,2.65,M
+/data/songs/Billy Talent/Billy Talent - Devil In A Midnight Mass/notes.mid,8.13,K
+/data/songs/Billy Talent/Billy Talent - Devil In A Midnight Mass/song.ini,283,B
+/data/songs/Billy Talent/Billy Talent - This Suffering/guitar.ogg,4.71,M
+/data/songs/Billy Talent/Billy Talent - This Suffering/notes.mid,10.66,K
+/data/songs/Billy Talent/Billy Talent - This Suffering/song.ini,863,B
+/data/songs/Billy Talent/Billy Talent - This Suffering/song.ogg,3.81,M
+/data/songs/Billy Talent/Billy Talent - This Suffering/thissuffering.sng,84,K
+/data/songs/Blink 182/Blink 182 - Dammit/guitar.ogg,4.06,M
+/data/songs/Blink 182/Blink 182 - Dammit/notes.mid,6.22,K
+/data/songs/Blink 182/Blink 182 - Dammit/Readme.txt,475,B
+/data/songs/Blink 182/Blink 182 - Dammit/song.ini,761,B
+/data/songs/Blink 182/Blink 182 - Dammit/song.ogg,4.06,M
+/data/songs/Blink 182/Blink 182 - What's My Age Again/guitar.ogg,3.05,M
+/data/songs/Blink 182/Blink 182 - What's My Age Again/notes.mid,6.8,K
+/data/songs/Blink 182/Blink 182 - What's My Age Again/song.ini,56,B
+/data/songs/Blink 182/Blink 182 - What's My Age Again/song.ogg,3.05,M
+/data/songs/Bloodhound Gang - Foxtrot Uniform Charlie Kilo/guitar.ogg,3.89,M
+/data/songs/Bloodhound Gang - Foxtrot Uniform Charlie Kilo/notes.mid,7.62,K
+/data/songs/Bloodhound Gang - Foxtrot Uniform Charlie Kilo/song.ini,84,B
+/data/songs/Bloodhound Gang - Foxtrot Uniform Charlie Kilo/song.ogg,3.89,M
+/data/songs/Bon Jovi - It's My Life/Bon_Jovi_-_It_s_My_Life.sng,14.06,K
+/data/songs/Bon Jovi - It's My Life/guitar.ogg,3,M
+/data/songs/Bon Jovi - It's My Life/notes.mid,2.06,K
+/data/songs/Bon Jovi - It's My Life/song.ini,72,B
+/data/songs/Bon Jovi - It's My Life/song.ogg,3,M
+/data/songs/Breakdown/Breaking Benjamin Label.PNG,8.04,K
+/data/songs/Breakdown/guitar.ogg,4.23,M
+/data/songs/Breakdown/label.png,8.04,K
+/data/songs/Breakdown/notes.mid,14.54,K
+/data/songs/Breakdown/song.ini,300,B
+/data/songs/Breakdown/song.ogg,1.37,M
+/data/songs/Breaking Benjamin/Breaking Benjamin - Blow Me Away/guitar.ogg,4.33,M
+/data/songs/Breaking Benjamin/Breaking Benjamin - Blow Me Away/notes.mid,14.99,K
+/data/songs/Breaking Benjamin/Breaking Benjamin - Blow Me Away/song.ini,704,B
+/data/songs/Breaking Benjamin/Breaking Benjamin - Blow Me Away/song.ogg,3.54,M
+/data/songs/Breaking Benjamin/Breaking Benjamin - Sooner Or Later/guitar.ogg,4.4,M
+/data/songs/Breaking Benjamin/Breaking Benjamin - Sooner Or Later/label.PNG,8.94,K
+/data/songs/Breaking Benjamin/Breaking Benjamin - Sooner Or Later/notes.mid,13.67,K
+/data/songs/Breaking Benjamin/Breaking Benjamin - Sooner Or Later/song.ini,138,B
+/data/songs/Breaking Benjamin/Breaking Benjamin - Sooner Or Later/song.ogg,3.98,M
+/data/songs/Breaking Benjamin/Breaking Benjamin - The Diary Of Jane/guitar.ogg,4.32,M
+/data/songs/Breaking Benjamin/Breaking Benjamin - The Diary Of Jane/Label.PNG,8.04,K
+/data/songs/Breaking Benjamin/Breaking Benjamin - The Diary Of Jane/notes.mid,3.8,K
+/data/songs/Breaking Benjamin/Breaking Benjamin - The Diary Of Jane/song.ini,74,B
+/data/songs/Breaking Benjamin/Breaking Benjamin - The Diary Of Jane/song.ogg,4.32,M
+/data/songs/Bullet For My Valentine/Bullet For My Valentine - Hand Of Blood/df.sng,47.51,K
+/data/songs/Bullet For My Valentine/Bullet For My Valentine - Hand Of Blood/guitar.ogg,4.01,M
+/data/songs/Bullet For My Valentine/Bullet For My Valentine - Hand Of Blood/notes.mid,6.52,K
+/data/songs/Bullet For My Valentine/Bullet For My Valentine - Hand Of Blood/song.ini,287,B
+/data/songs/Bullet For My Valentine/Bullet For My Valentine - Hand Of Blood/song.ini.bak,231,B
+/data/songs/Bullet For My Valentine/Bullet For My Valentine - Hand Of Blood/song.ogg,4.01,M
+/data/songs/Bullet For My Valentine/Bullet For My Valentine - Suffering Under Words Of Sorrow/guitar.ogg,4.67,M
+/data/songs/Bullet For My Valentine/Bullet For My Valentine - Suffering Under Words Of Sorrow/notes.mid,23.4,K
+/data/songs/Bullet For My Valentine/Bullet For My Valentine - Suffering Under Words Of Sorrow/song.ini,93,B
+/data/songs/Bullet For My Valentine/Bullet For My Valentine - Suffering Under Words Of Sorrow/song.ogg,4.67,M
+/data/songs/Daft Punk - Aerodynamic/guitar.ogg,3.53,M
+/data/songs/Daft Punk - Aerodynamic/label.png,56.12,K
+/data/songs/Daft Punk - Aerodynamic/notes.mid,15.88,K
+/data/songs/Daft Punk - Aerodynamic/song.ini,82,B
+/data/songs/Daft Punk - Aerodynamic/song.ini.bak,61,B
+/data/songs/Daft Punk - Aerodynamic/song.ogg,2.64,M
+/data/songs/Demon Hunter - The Soldier's Song/guitar.ogg,6,M
+/data/songs/Demon Hunter - The Soldier's Song/notes.mid,20.08,K
+/data/songs/Demon Hunter - The Soldier's Song/song.ini,68,B
+/data/songs/Disturbed/Disturbed - Land Of Confusion/Disturbed_-_Land_Of_Confusion.sng,56.88,K
+/data/songs/Disturbed/Disturbed - Land Of Confusion/guitar.ogg,5.15,M
+/data/songs/Disturbed/Disturbed - Land Of Confusion/label.png,21.78,K
+/data/songs/Disturbed/Disturbed - Land Of Confusion/notes.mid,5.96,K
+/data/songs/Disturbed/Disturbed - Land Of Confusion/song.ini,91,B
+/data/songs/Disturbed/Disturbed - The Game/guitar.ogg,4.34,M
+/data/songs/Disturbed/Disturbed - The Game/notes.mid,5.85,K
+/data/songs/Disturbed/Disturbed - The Game/song.ini,1.15,K
+/data/songs/Disturbed/Disturbed - The Game/song.ogg,4.08,M
+/data/songs/Disturbed/Disturbed- Mistress/guitar.ogg,3.85,M
+/data/songs/Disturbed/Disturbed- Mistress/notes.mid,24.01,K
+/data/songs/Disturbed/Disturbed- Mistress/song.ini,98,B
+/data/songs/Disturbed/Disturbed- Mistress/song.ogg,3.85,M
+/data/songs/Disturbed/Disturbed- Stricken/guitar.ogg,4.7,M
+/data/songs/Disturbed/Disturbed- Stricken/label.png,66.68,K
+/data/songs/Disturbed/Disturbed- Stricken/notes.mid,29.86,K
+/data/songs/Disturbed/Disturbed- Stricken/song.ini,102,B
+/data/songs/Disturbed/Disturbed- Stricken/song.ogg,4.7,M
+/data/songs/Disturbed/Disturbed- Want/guitar.ogg,3.96,M
+/data/songs/Disturbed/Disturbed- Want/label.png,71.05,K
+/data/songs/Disturbed/Disturbed- Want/notes.mid,22.23,K
+/data/songs/Disturbed/Disturbed- Want/song.ini,98,B
+/data/songs/Disturbed/Disturbed- Want/song.ogg,3.96,M
+/data/songs/Disturbed/Down With The Sickness/guitar.ogg,5.02,M
+/data/songs/Disturbed/Down With The Sickness/label.png,29.31,K
+/data/songs/Disturbed/Down With The Sickness/notes.mid,35.83,K
+/data/songs/Disturbed/Down With The Sickness/song.ini,97,B
+/data/songs/Disturbed/Down With The Sickness/song.ogg,5.02,M
+/data/songs/Disturbed/Down With The Sickness/Thumbs.db,5.5,K
+/data/songs/Europe - The Final Countdown/guitar.ogg,5.67,M
+/data/songs/Europe - The Final Countdown/label.png,85.1,K
+/data/songs/Europe - The Final Countdown/notes.mid,9.76,K
+/data/songs/Europe - The Final Countdown/notes.mid.old,9.72,K
+/data/songs/Europe - The Final Countdown/song.ini,131,B
+/data/songs/Europe - The Final Countdown/song.ogg,5.67,M
+/data/songs/Europe - The Final Countdown/Thumbs.db,5.5,K
+/data/songs/Evanescence/Evanescence - Bring Me To Life/guitar.ogg,2.71,M
+/data/songs/Evanescence/Evanescence - Bring Me To Life/label.png,50.47,K
+/data/songs/Evanescence/Evanescence - Bring Me To Life/notes.mid,9.52,K
+/data/songs/Evanescence/Evanescence - Bring Me To Life/notes.mid.old,16.53,K
+/data/songs/Evanescence/Evanescence - Bring Me To Life/song.ini,131,B
+/data/songs/Evanescence/Evanescence - Bring Me To Life/song.ini.bak,108,B
+/data/songs/Evanescence/Evanescence - Bring Me To Life/song.ogg,2.71,M
+/data/songs/Evanescence/Evanescence - Going Under/guitar.ogg,1.66,M
+/data/songs/Evanescence/Evanescence - Going Under/notes.mid,7.87,K
+/data/songs/Evanescence/Evanescence - Going Under/notes.mid.old,8.38,K
+/data/songs/Evanescence/Evanescence - Going Under/song.ini,427,B
+/data/songs/Evanescence/Evanescence - Going Under/song.ogg,1.66,M
+/data/songs/Guns N' Roses - Welcome To the Jungle/guitar.ogg,5.01,M
+/data/songs/Guns N' Roses - Welcome To the Jungle/lable.png,28.3,K
+/data/songs/Guns N' Roses - Welcome To the Jungle/notes.mid,13.93,K
+/data/songs/Guns N' Roses - Welcome To the Jungle/readme.txt,2.12,K
+/data/songs/Guns N' Roses - Welcome To the Jungle/song.ini,1.53,K
+/data/songs/Guns N' Roses - Welcome To the Jungle/song.ini.bak,1.18,K
+/data/songs/Guns N' Roses - Welcome To the Jungle/song.ogg,3.6,M
+/data/songs/H.I.M. - Rip Out the Wings Of A Butterfly/guitar.ogg,3.16,M
+/data/songs/H.I.M. - Rip Out the Wings Of A Butterfly/notes.mid,8.55,K
+/data/songs/H.I.M. - Rip Out the Wings Of A Butterfly/song.ini,333,B
+/data/songs/H.I.M. - Rip Out the Wings Of A Butterfly/song.ogg,3.16,M
+/data/songs/Hoobastank - The Reason/guitar.ogg,3.97,M
+/data/songs/Hoobastank - The Reason/notes.mid,2.51,K
+/data/songs/Hoobastank - The Reason/song.ini,57,B
+/data/songs/Hoobastank - The Reason/song.ogg,3.97,M
+/data/songs/In Flames/In Flames - Come Clarity/comeclarity.sng,41.09,K
+/data/songs/In Flames/In Flames - Come Clarity/guitar.ogg,5.32,M
+/data/songs/In Flames/In Flames - Come Clarity/notes.mid,5.63,K
+/data/songs/In Flames/In Flames - Come Clarity/song.ini,560,B
+/data/songs/In Flames/In Flames - Come Clarity/song.ogg,5.32,M
+/data/songs/In Flames/In Flames - Only For the Weak/guitar.ogg,5.2,M
+/data/songs/In Flames/In Flames - Only For the Weak/notes.mid,11.16,K
+/data/songs/In Flames/In Flames - Only For the Weak/OFTW.sng,39.09,K
+/data/songs/In Flames/In Flames - Only For the Weak/song.ini,871,B
+/data/songs/In Flames/In Flames - Only For the Weak/song.ogg,5.2,M
+/data/songs/Iron Maiden/Iron Maiden - Aces High/guitar.ogg,4.01,M
+/data/songs/Iron Maiden/Iron Maiden - Aces High/label.png,76.13,K
+/data/songs/Iron Maiden/Iron Maiden - Aces High/notes.mid,17.27,K
+/data/songs/Iron Maiden/Iron Maiden - Aces High/Readme.txt,402,B
+/data/songs/Iron Maiden/Iron Maiden - Aces High/song.ini,467,B
+/data/songs/Iron Maiden/Iron Maiden - Aces High/song.ogg,4.01,M
+/data/songs/Iron Maiden/Iron Maiden - Caught Somewhere In Time/guitar.ogg,7.89,M
+/data/songs/Iron Maiden/Iron Maiden - Caught Somewhere In Time/label.png,78.23,K
+/data/songs/Iron Maiden/Iron Maiden - Caught Somewhere In Time/notes.mid,11.2,K
+/data/songs/Iron Maiden/Iron Maiden - Caught Somewhere In Time/song.ini,903,B
+/data/songs/Iron Maiden/Iron Maiden - Caught Somewhere In Time/song.ini.bak,882,B
+/data/songs/Iron Maiden/Iron Maiden - Caught Somewhere In Time/song.ogg,7.76,M
+/data/songs/Iron Maiden/Iron Maiden - Hallowed Be Thy Name/guitar.ogg,6.66,M
+/data/songs/Iron Maiden/Iron Maiden - Hallowed Be Thy Name/label.png,75.24,K
+/data/songs/Iron Maiden/Iron Maiden - Hallowed Be Thy Name/notes.mid,28.68,K
+/data/songs/Iron Maiden/Iron Maiden - Hallowed Be Thy Name/song.ini,574,B
+/data/songs/Iron Maiden/Iron Maiden - Hallowed Be Thy Name/song.ogg,6.66,M
+/data/songs/Iron Maiden/Iron Maiden - Ides of March-Wrathchild/guitar.ogg,4.48,M
+/data/songs/Iron Maiden/Iron Maiden - Ides of March-Wrathchild/label.png,59.9,K
+/data/songs/Iron Maiden/Iron Maiden - Ides of March-Wrathchild/notes.mid,7.51,K
+/data/songs/Iron Maiden/Iron Maiden - Ides of March-Wrathchild/song.ini,101,B
+/data/songs/Iron Maiden/Iron Maiden - Ides of March-Wrathchild/song.ogg,4.48,M
+/data/songs/Iron Maiden/Iron Maiden - The Trooper/guitar.ogg,3.71,M
+/data/songs/Iron Maiden/Iron Maiden - The Trooper/label.png,76.42,K
+/data/songs/Iron Maiden/Iron Maiden - The Trooper/notes.mid,11.69,K
+/data/songs/Iron Maiden/Iron Maiden - The Trooper/Readme.txt,455,B
+/data/songs/Iron Maiden/Iron Maiden - The Trooper/song.ini,63,B
+/data/songs/Iron Maiden/Iron Maiden - The Trooper/song.ogg,3.71,M
+/data/songs/Iron Maiden/Iron Maiden - The Wicker Man/guitar.ogg,5.23,M
+/data/songs/Iron Maiden/Iron Maiden - The Wicker Man/label.png,44.29,K
+/data/songs/Iron Maiden/Iron Maiden - The Wicker Man/notes.mid,20.21,K
+/data/songs/Iron Maiden/Iron Maiden - The Wicker Man/song.ini,107,B
+/data/songs/Iron Maiden/Iron Maiden - The Wicker Man/song.ogg,5.23,M
+/data/songs/Iron Maiden/Iron Maiden - Wasting Love/guitar.ogg,6.06,M
+/data/songs/Iron Maiden/Iron Maiden - Wasting Love/label.png,63.54,K
+/data/songs/Iron Maiden/Iron Maiden - Wasting Love/notes.mid,7.76,K
+/data/songs/Iron Maiden/Iron Maiden - Wasting Love/song.ini,307,B
+/data/songs/Iron Maiden/Iron Maiden - Wasting Love/song.ini.bak,284,B
+/data/songs/Iron Maiden/Iron Maiden - Wasting Love/song.ogg,6.06,M
+/data/songs/KISS/KISS - Detroit Rock City/guitar.ogg,3.59,M
+/data/songs/KISS/KISS - Detroit Rock City/Kiss_-_Detroit_Rock_City.sng,33.92,K
+/data/songs/KISS/KISS - Detroit Rock City/label.png,60.57,K
+/data/songs/KISS/KISS - Detroit Rock City/notes.mid,3.23,K
+/data/songs/KISS/KISS - Detroit Rock City/song.ini,83,B
+/data/songs/KISS/KISS - Detroit Rock City/song.ogg,3.59,M
+/data/songs/KISS/KISS - Detroit Rock City/Thumbs.db,5.5,K
+/data/songs/KISS/KISS - Strutter/guitar.ogg,2.38,M
+/data/songs/KISS/KISS - Strutter/label.png,45.66,K
+/data/songs/KISS/KISS - Strutter/notes.mid,22.09,K
+/data/songs/KISS/KISS - Strutter/notes.mid.old,77.29,K
+/data/songs/KISS/KISS - Strutter/song.ini,600,B
+/data/songs/KISS/KISS - Strutter/song.ini.bak,577,B
+/data/songs/KISS/KISS - Strutter/song.ogg,2.54,M
+/data/songs/KISS/KISS - Strutter v2 (Rhythm Guitar)/guitar.ogg,2.38,M
+/data/songs/KISS/KISS - Strutter v2 (Rhythm Guitar)/label.png,45.66,K
+/data/songs/KISS/KISS - Strutter v2 (Rhythm Guitar)/notes.mid,19.38,K
+/data/songs/KISS/KISS - Strutter v2 (Rhythm Guitar)/song.ini,302,B
+/data/songs/KISS/KISS - Strutter v2 (Rhythm Guitar)/song.ini.bak,279,B
+/data/songs/KISS/KISS - Strutter v2 (Rhythm Guitar)/song.ogg,2.54,M
+/data/songs/Limp Bizkit - Break Stuff/guitar.ogg,2.84,M
+/data/songs/Limp Bizkit - Break Stuff/notes.mid,7.72,K
+/data/songs/Limp Bizkit - Break Stuff/song.ini,477,B
+/data/songs/Limp Bizkit - Break Stuff/song.ogg,2.84,M
+/data/songs/Linkin Park/Linken Park - Papercut/guitar.OGG,4.4,M
+/data/songs/Linkin Park/Linken Park - Papercut/notes.mid,8.17,K
+/data/songs/Linkin Park/Linken Park - Papercut/notes.mid.bak,2.4,K
+/data/songs/Linkin Park/Linken Park - Papercut/notes.mid.old,8.17,K
+/data/songs/Linkin Park/Linken Park - Papercut/ReadMe.doc,226,B
+/data/songs/Linkin Park/Linken Park - Papercut/song.ini,272,B
+/data/songs/Linkin Park/Linken Park - Papercut/song.ini.bak,726,B
+/data/songs/Linkin Park/Linken Park - Papercut/song.OGG,4.4,M
+/data/songs/Linkin Park/Linkin Park - In The End/guitar.ogg,4.56,M
+/data/songs/Linkin Park/Linkin Park - In The End/label.png,38.33,K
+/data/songs/Linkin Park/Linkin Park - In The End/notes.mid,3.38,K
+/data/songs/Linkin Park/Linkin Park - In The End/song.ini,73,B
+/data/songs/Linkin Park/Linkin Park - In The End/song.ogg,4.56,M
+/data/songs/Linkin Park/Linkin Park - Lying From You v1/guitar.ogg,3.47,M
+/data/songs/Linkin Park/Linkin Park - Lying From You v1/notes.mid,5.6,K
+/data/songs/Linkin Park/Linkin Park - Lying From You v1/song.ini,306,B
+/data/songs/Linkin Park/Linkin Park - Lying From You v1/song.ogg,3.47,M
+/data/songs/Linkin Park/Linkin Park - Lying From You v2/guitar.ogg,4.57,M
+/data/songs/Linkin Park/Linkin Park - Lying From You v2/notes.mid,5.6,K
+/data/songs/Linkin Park/Linkin Park - Lying From You v2/song.ini,66,B
+/data/songs/Linkin Park/Linkin Park - Lying From You v2/song.ini.bak,65,B
+/data/songs/Linkin Park/Linkin Park - Lying From You v2/song.ogg,4.57,M
+/data/songs/Lordi/Lordi - Hard Rock Hallelujah/guitar.ogg,4.85,M
+/data/songs/Lordi/Lordi - Hard Rock Hallelujah/label.png,60.18,K
+/data/songs/Lordi/Lordi - Hard Rock Hallelujah/notes.mid,15.03,K
+/data/songs/Lordi/Lordi - Hard Rock Hallelujah/notes.mid.old,29.56,K
+/data/songs/Lordi/Lordi - Hard Rock Hallelujah/readme.txt,2.25,K
+/data/songs/Lordi/Lordi - Hard Rock Hallelujah/song.ini,637,B
+/data/songs/Lordi/Lordi - Hard Rock Hallelujah/song.ini.bak,616,B
+/data/songs/Lordi/Lordi - Hard Rock Hallelujah/song.ogg,3.4,M
+/data/songs/Lordi/Lordi - Monsterman/guitar.ogg,2.9,M
+/data/songs/Lordi/Lordi - Monsterman/notes.mid,2.64,K
+/data/songs/Lordi/Lordi - Monsterman/song.ini,281,B
+/data/songs/Lordi/Lordi - Monsterman/song.ogg,2.9,M
+/data/songs/megaman_-_elecman/guitar.ogg,2.05,M
+/data/songs/megaman_-_elecman/notes.mid,2.68,K
+/data/songs/megaman_-_elecman/song.ini,853,B
+/data/songs/megaman_-_elecman/song.ogg,1.17,M
+/data/songs/Metallica/Metallica - Enter Sandman v1/guitar.ogg,4.78,M
+/data/songs/Metallica/Metallica - Enter Sandman v1/label.png,50.44,K
+/data/songs/Metallica/Metallica - Enter Sandman v1/notes.mid,21.85,K
+/data/songs/Metallica/Metallica - Enter Sandman v1/Readme.txt,499,B
+/data/songs/Metallica/Metallica - Enter Sandman v1/song.ini,322,B
+/data/songs/Metallica/Metallica - Enter Sandman v1/song.ogg,4.78,M
+/data/songs/Metallica/Metallica - Enter Sandman v2/guitar.ogg,5.34,M
+/data/songs/Metallica/Metallica - Enter Sandman v2/label.png,50.44,K
+/data/songs/Metallica/Metallica - Enter Sandman v2/notes.mid,65.63,K
+/data/songs/Metallica/Metallica - Enter Sandman v2/song.ini,1.19,K
+/data/songs/Metallica/Metallica - Enter Sandman v2/song.ogg,5.34,M
+/data/songs/Metallica/Metallica - Fade To Black/guitar.ogg,8.14,M
+/data/songs/Metallica/Metallica - Fade To Black/label.png,50.63,K
+/data/songs/Metallica/Metallica - Fade To Black/notes.mid,19.03,K
+/data/songs/Metallica/Metallica - Fade To Black/Readme.txt,414,B
+/data/songs/Metallica/Metallica - Fade To Black/song.ini,517,B
+/data/songs/Metallica/Metallica - Fade To Black/song.ini.bak,494,B
+/data/songs/Metallica/Metallica - Fade To Black/song.ogg,8.14,M
+/data/songs/Metallica/Metallica - For Whom the Bell Tolls v2/guitar.ogg,4.63,M
+/data/songs/Metallica/Metallica - For Whom the Bell Tolls v2/label.png,70.52,K
+/data/songs/Metallica/Metallica - For Whom the Bell Tolls v2/Metallica_-_From_Whom_The_Bell_Tolls-h.sng,64.7,K
+/data/songs/Metallica/Metallica - For Whom the Bell Tolls v2/Metallica_-_From_Whom_The_Bell_Tolls-m.sng,49.92,K
+/data/songs/Metallica/Metallica - For Whom the Bell Tolls v2/Metallica_-_From_Whom_The_Bell_Tolls.sng,65.65,K
+/data/songs/Metallica/Metallica - For Whom the Bell Tolls v2/notes.mid,20.04,K
+/data/songs/Metallica/Metallica - For Whom the Bell Tolls v2/song.ini,96,B
+/data/songs/Metallica/Metallica - For Whom the Bell Tolls v2/song.ini.bak,75,B
+/data/songs/Metallica/Metallica - For Whom the Bell Tolls v2/song.ogg,4.63,M
+/data/songs/Metallica/Metallica - For Whom the Bell Tolls v2/Thumbs.db,5.5,K
+/data/songs/Metallica/Metallica - For Whom the Bells Tolls v1/guitar.ogg,4.8,M
+/data/songs/Metallica/Metallica - For Whom the Bells Tolls v1/notes.mid,12.55,K
+/data/songs/Metallica/Metallica - For Whom the Bells Tolls v1/Readme.txt,553,B
+/data/songs/Metallica/Metallica - For Whom the Bells Tolls v1/song.ini,897,B
+/data/songs/Metallica/Metallica - For Whom the Bells Tolls v1/song.ogg,4.8,M
+/data/songs/Metallica/Metallica - Fuel v1/guitar.ogg,3.75,M
+/data/songs/Metallica/Metallica - Fuel v1/notes.mid,7.47,K
+/data/songs/Metallica/Metallica - Fuel v1/Readme.txt,452,B
+/data/songs/Metallica/Metallica - Fuel v1/song.ini,54,B
+/data/songs/Metallica/Metallica - Fuel v1/song.ogg,3.75,M
+/data/songs/Metallica/Metallica - Fuel v2/guitar.ogg,4.62,M
+/data/songs/Metallica/Metallica - Fuel v2/notes.mid,7.47,K
+/data/songs/Metallica/Metallica - Fuel v2/song.ini,67,B
+/data/songs/Metallica/Metallica - Fuel v2/song.ogg,4.62,M
+/data/songs/Metallica/Metallica - Kenny Goes to Hell/guitar.ogg,1.26,M
+/data/songs/Metallica/Metallica - Kenny Goes to Hell/label.png,27.12,K
+/data/songs/Metallica/Metallica - Kenny Goes to Hell/notes.mid,13.62,K
+/data/songs/Metallica/Metallica - Kenny Goes to Hell/song.ini,109,B
+/data/songs/Metallica/Metallica - Kenny Goes to Hell/song.ogg,1.26,M
+/data/songs/Metallica/Metallica - Master of Puppets v1/guitar.ogg,5.5,M
+/data/songs/Metallica/Metallica - Master of Puppets v1/label.png,52.27,K
+/data/songs/Metallica/Metallica - Master of Puppets v1/Leeme.txt,541,B
+/data/songs/Metallica/Metallica - Master of Puppets v1/notes.mid,22.65,K
+/data/songs/Metallica/Metallica - Master of Puppets v1/song.ini,456,B
+/data/songs/Metallica/Metallica - Master of Puppets v1/song.ini.bak,433,B
+/data/songs/Metallica/Metallica - Master of Puppets v1/song.ogg,5.5,M
+/data/songs/Metallica/Metallica - Master of Puppets v2/guitar.ogg,7.97,M
+/data/songs/Metallica/Metallica - Master of Puppets v2/label.png,52.27,K
+/data/songs/Metallica/Metallica - Master of Puppets v2/MasterOfPuppets_Medium.mid,45.68,K
+/data/songs/Metallica/Metallica - Master of Puppets v2/notes.mid,41.23,K
+/data/songs/Metallica/Metallica - Master of Puppets v2/README!!!.txt,1.08,K
+/data/songs/Metallica/Metallica - Master of Puppets v2/song.ini,886,B
+/data/songs/Metallica/Metallica - Master of Puppets v2/song.ini.bak,863,B
+/data/songs/Metallica/Metallica - Master of Puppets v2/song.ogg,7.97,M
+/data/songs/Metallica/Metallica - Nothing Else Matters v7/guitar.ogg,11.61,M
+/data/songs/Metallica/Metallica - Nothing Else Matters v7/leame.txt,94,B
+/data/songs/Metallica/Metallica - Nothing Else Matters v7/leame.v3.txt,115,B
+/data/songs/Metallica/Metallica - Nothing Else Matters v7/notes v3.mid,7.4,K
+/data/songs/Metallica/Metallica - Nothing Else Matters v7/notes.mid,8.69,K
+/data/songs/Metallica/Metallica - Nothing Else Matters v7/song v3.ini,878,B
+/data/songs/Metallica/Metallica - Nothing Else Matters v7/song.ini,950,B
+/data/songs/Metallica/Metallica - Nothing Else Matters v7/song.ogg,11.61,M
+/data/songs/Metallica/Metallica - One/guitar.ogg,7.93,M
+/data/songs/Metallica/Metallica - One/label.png,44.46,K
+/data/songs/Metallica/Metallica - One/notes.mid,27.54,K
+/data/songs/Metallica/Metallica - One/song.ini,118,B
+/data/songs/Metallica/Metallica - One/song.ogg,7.93,M
+/data/songs/Metallica/Metallica - Seek and Destroy v1/guitar.ogg,7.48,M
+/data/songs/Metallica/Metallica - Seek and Destroy v1/notes.mid,15.83,K
+/data/songs/Metallica/Metallica - Seek and Destroy v1/song.ini,1.07,K
+/data/songs/Metallica/Metallica - Seek and Destroy v1/song.ogg,7.48,M
+/data/songs/Metallica/Metallica - Seek and Destroy v2/guitar.ogg,8.13,M
+/data/songs/Metallica/Metallica - Seek and Destroy v2/notes.mid,15.83,K
+/data/songs/Metallica/Metallica - Seek and Destroy v2/song.ini,76,B
+/data/songs/Metallica/Metallica - Seek and Destroy v2/song.ogg,8.13,M
+/data/songs/Metallica/Metallica - Unforgiven/guitar.ogg,8.61,M
+/data/songs/Metallica/Metallica - Unforgiven/notes.mid,12.5,K
+/data/songs/Metallica/Metallica - Unforgiven/readme.txt,396,B
+/data/songs/Metallica/Metallica - Unforgiven/song.ini,474,B
+/data/songs/Metallica/Metallica - Unforgiven/song.ogg,8.61,M
+/data/songs/Metallica/Metallica - Whiskey In the Jar/guitar.ogg,5.04,M
+/data/songs/Metallica/Metallica - Whiskey In the Jar/label.png,37.62,K
+/data/songs/Metallica/Metallica - Whiskey In the Jar/notes.mid,17.59,K
+/data/songs/Metallica/Metallica - Whiskey In the Jar/readme.txt,2.03,K
+/data/songs/Metallica/Metallica - Whiskey In the Jar/song.ini,1.17,K
+/data/songs/Metallica/Metallica - Whiskey In the Jar/song.ogg,3.85,M
+/data/songs/Millencolin - No Cigar/guitar.ogg,2.75,M
+/data/songs/Millencolin - No Cigar/notes.mid,13.03,K
+/data/songs/Millencolin - No Cigar/song.ini,297,B
+/data/songs/Millencolin - No Cigar/song.ogg,2.73,M
+/data/songs/My Chemical Romance/My Chemical Romance - Cemetry Drive/guitar.ogg,2.86,M
+/data/songs/My Chemical Romance/My Chemical Romance - Cemetry Drive/label.png,27.64,K
+/data/songs/My Chemical Romance/My Chemical Romance - Cemetry Drive/notes.mid,7.11,K
+/data/songs/My Chemical Romance/My Chemical Romance - Cemetry Drive/song.ini,455,B
+/data/songs/My Chemical Romance/My Chemical Romance - Cemetry Drive/song.ogg,2.86,M
+/data/songs/My Chemical Romance/My Chemical Romance - Helena/guitar.ogg,3.11,M
+/data/songs/My Chemical Romance/My Chemical Romance - Helena/notes.mid,3.6,K
+/data/songs/My Chemical Romance/My Chemical Romance - Helena/song.ini,719,B
+/data/songs/My Chemical Romance/My Chemical Romance - I'm Not Okay/guitar.ogg,3.92,M
+/data/songs/My Chemical Romance/My Chemical Romance - I'm Not Okay/notes.mid,11.74,K
+/data/songs/My Chemical Romance/My Chemical Romance - I'm Not Okay/song.ini,437,B
+/data/songs/My Chemical Romance/My Chemical Romance - I'm Not Okay/song.ogg,3.7,M
+/data/songs/My Chemical Romance/My Chemical Romance - Teenagers/guitar.ogg,2.3,M
+/data/songs/My Chemical Romance/My Chemical Romance - Teenagers/label.png,14.35,K
+/data/songs/My Chemical Romance/My Chemical Romance - Teenagers/My Chemical Romance - Teenagers.sng,29.75,K
+/data/songs/My Chemical Romance/My Chemical Romance - Teenagers/notes.mid,4.1,K
+/data/songs/My Chemical Romance/My Chemical Romance - Teenagers/song.ini,90,B
+/data/songs/My Chemical Romance/My Chemical Romance - Teenagers/song.ini.bak,69,B
+/data/songs/My Chemical Romance/My Chemical Romance - Teenagers/song.ogg,2.3,M
+/data/songs/My Chemical Romance/My Chemical Romance - To the End/guitar.ogg,3.4,M
+/data/songs/My Chemical Romance/My Chemical Romance - To the End/notes.mid,14.54,K
+/data/songs/My Chemical Romance/My Chemical Romance - To the End/song.ini,737,B
+/data/songs/My Chemical Romance/My Chemical Romance - To the End/song.ogg,3.34,M
+/data/songs/NickelBack/NickelBack - How You Remind Me/666.sng,3.27,K
+/data/songs/NickelBack/NickelBack - How You Remind Me/guitar.ogg,3.34,M
+/data/songs/NickelBack/NickelBack - How You Remind Me/notes.mid,357,B
+/data/songs/NickelBack/NickelBack - How You Remind Me/song.ini,79,B
+/data/songs/NickelBack/NickelBack - How You Remind Me/song.ogg,3.34,M
+/data/songs/NickelBack/Nickelback - Side of a Bullet/guitar.ogg,3.26,M
+/data/songs/NickelBack/Nickelback - Side of a Bullet/notes.mid,7.12,K
+/data/songs/NickelBack/Nickelback - Side of a Bullet/Readme.txt,456,B
+/data/songs/NickelBack/Nickelback - Side of a Bullet/song.ini,56,B
+/data/songs/NickelBack/Nickelback - Side of a Bullet/song.ogg,3.26,M
+/data/songs/NightWish - Wish I Had An Angel/guitar.ogg,2.77,M
+/data/songs/NightWish - Wish I Had An Angel/label.png,46.56,K
+/data/songs/NightWish - Wish I Had An Angel/notes.mid,11.86,K
+/data/songs/NightWish - Wish I Had An Angel/readme.txt,58,B
+/data/songs/NightWish - Wish I Had An Angel/song.ini,81,B
+/data/songs/NightWish - Wish I Had An Angel/song.ogg,2.77,M
+/data/songs/Nirvana/Nirvana - Come As You Are/guitar.ogg,4.24,M
+/data/songs/Nirvana/Nirvana - Come As You Are/notes.mid,8.07,K
+/data/songs/Nirvana/Nirvana - Come As You Are/Readme.txt,491,B
+/data/songs/Nirvana/Nirvana - Come As You Are/song.ini,462,B
+/data/songs/Nirvana/Nirvana - Come As You Are/song.ogg,4.24,M
+/data/songs/Nirvana/Nirvana - Smells Like Teen Spirit/guitar.ogg,5.61,M
+/data/songs/Nirvana/Nirvana - Smells Like Teen Spirit/label.png,64.59,K
+/data/songs/Nirvana/Nirvana - Smells Like Teen Spirit/notes.mid,14.72,K
+/data/songs/Nirvana/Nirvana - Smells Like Teen Spirit/song.ini,134,B
+/data/songs/Nirvana/Nirvana - Smells Like Teen Spirit/song.ini.bak,111,B
+/data/songs/Nirvana/Nirvana - Smells Like Teen Spirit/song.ogg,5.61,M
+/data/songs/Papa Roach/Papa Roach - Blood Brothers/guitar.ogg,4.55,M
+/data/songs/Papa Roach/Papa Roach - Blood Brothers/notes.mid,10.73,K
+/data/songs/Papa Roach/Papa Roach - Blood Brothers/Readme.txt,411,B
+/data/songs/Papa Roach/Papa Roach - Blood Brothers/song.ini,320,B
+/data/songs/Papa Roach/Papa Roach - Blood Brothers/song.ogg,4.55,M
+/data/songs/Papa Roach/Papa Roach - Last Resort/guitar.ogg,4.36,M
+/data/songs/Papa Roach/Papa Roach - Last Resort/notes.mid,21.81,K
+/data/songs/Papa Roach/Papa Roach - Last Resort/song.ini,127,B
+/data/songs/Papa Roach/Papa Roach - Last Resort/song.ogg,4.03,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Californication/guitar.ogg,4.36,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Californication/notes.mid,17.77,K
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Californication/song.ini,973,B
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Californication/song.ogg,4.41,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Dani California/guitar.ogg,4.26,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Dani California/label.png,52.03,K
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Dani California/notes.mid,8.99,K
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Dani California/notes.mid.old,10.68,K
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Dani California/song.ini,73,B
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Dani California/song.ogg,4.26,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Higher Ground/guitar.ogg,2.38,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Higher Ground/notes.mid,32.35,K
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Higher Ground/song.ini,285,B
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Higher Ground/song.ogg,2.8,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Scar Tissue/guitar.ogg,3,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Scar Tissue/notes.mid,9.5,K
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Scar Tissue/song.ini,73,B
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Scar Tissue/song.ogg,2.89,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Tell Me Baby v1/guitar.ogg,3.5,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Tell Me Baby v1/notes.mid,9.2,K
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Tell Me Baby v1/readme.txt,2.23,K
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Tell Me Baby v1/song.ini,1.01,K
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Tell Me Baby v1/song.ogg,4.12,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Tell Me Baby v2/guitar.ogg,4.44,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Tell Me Baby v2/notes.mid,5.48,K
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Tell Me Baby v2/song.ini,85,B
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Tell Me Baby v2/song.ogg,4.44,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Under the Bridge/guitar.ogg,5.11,M
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Under the Bridge/notes.mid,24.91,K
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Under the Bridge/song.ini,118,B
+/data/songs/Red Hot Chilli Peppers/Red Hot Chili Peppers - Under the Bridge/song.ogg,5.11,M
+/data/songs/Sum 41/Sum 41 - 88/88-e.sng,41.17,K
+/data/songs/Sum 41/Sum 41 - 88/88.sng,55.91,K
+/data/songs/Sum 41/Sum 41 - 88/guitar.ogg,4.36,M
+/data/songs/Sum 41/Sum 41 - 88/label.png,30.05,K
+/data/songs/Sum 41/Sum 41 - 88/notes.mid,11.64,K
+/data/songs/Sum 41/Sum 41 - 88/song.ini,85,B
+/data/songs/Sum 41/Sum 41 - 88/song.ini.bak,62,B
+/data/songs/Sum 41/Sum 41 - 88/song.ogg,4.36,M
+/data/songs/Sum 41/Sum 41 - Fat Lip/guitar.ogg,2.43,M
+/data/songs/Sum 41/Sum 41 - Fat Lip/label.png,20.96,K
+/data/songs/Sum 41/Sum 41 - Fat Lip/notes.mid,30.02,K
+/data/songs/Sum 41/Sum 41 - Fat Lip/song.ini,293,B
+/data/songs/Sum 41/Sum 41 - Fat Lip/song.ini.bak,94,B
+/data/songs/Sum 41/Sum 41 - Fat Lip/song.ogg,2.4,M
+/data/songs/Sum 41/Sum 41 - Hell Song/Guitar.ogg,3.01,M
+/data/songs/Sum 41/Sum 41 - Hell Song/label.PNG,136.83,K
+/data/songs/Sum 41/Sum 41 - Hell Song/notes.mid,18.22,K
+/data/songs/Sum 41/Sum 41 - Hell Song/readme.txt,361,B
+/data/songs/Sum 41/Sum 41 - Hell Song/song.ini,312,B
+/data/songs/Sum 41/Sum 41 - Hell Song/Song.ogg,3.04,M
+/data/songs/Sum 41/Sum 41 - Over My Head/Guitar.ogg,2.32,M
+/data/songs/Sum 41/Sum 41 - Over My Head/label.PNG,101.36,K
+/data/songs/Sum 41/Sum 41 - Over My Head/notes.mid,8.13,K
+/data/songs/Sum 41/Sum 41 - Over My Head/readme.txt,363,B
+/data/songs/Sum 41/Sum 41 - Over My Head/song.ini,1.08,K
+/data/songs/Sum 41/Sum 41 - Over My Head/Song.ogg,2.3,M
+/data/songs/Sum 41/Sum 41 - Pain For Pleasure/guitar.ogg,2.12,M
+/data/songs/Sum 41/Sum 41 - Pain For Pleasure/notes.mid,2.33,K
+/data/songs/Sum 41/Sum 41 - Pain For Pleasure/song.ini,64,B
+/data/songs/Sum 41/Sum 41 - Pain For Pleasure/song.ogg,2.12,M
+/data/songs/Sum 41/Sum 41 - We're All To Blame/Guitar.ogg,2.49,M
+/data/songs/Sum 41/Sum 41 - We're All To Blame/Guitar.ogg.sfl,32,B
+/data/songs/Sum 41/Sum 41 - We're All To Blame/notes.mid,4.7,K
+/data/songs/Sum 41/Sum 41 - We're All To Blame/song.ini,283,B
+/data/songs/Sum 41/Sum 41 - We're All To Blame/Song.ogg,2.45,M
+/data/songs/Sum 41/Sum 41 - We're All To Blame/Song.ogg.sfl,30,B
+/data/songs/Sum 41 - Fat Lip/guitar.ogg,2.47,M
+/data/songs/Sum 41 - Fat Lip/notes.mid,30.02,K
+/data/songs/Sum 41 - Fat Lip/song.ini,94,B
+/data/songs/Sum 41 - Fat Lip/song.ogg,2.4,M
+/data/songs/System Of A Down/System Of A Down - ATWA/guitar.ogg,3.72,M
+/data/songs/System Of A Down/System Of A Down - ATWA/notes.mid,5.13,K
+/data/songs/System Of A Down/System Of A Down - ATWA/song.ini,61,B
+/data/songs/System Of A Down/System Of A Down - ATWA/song.ini.bak,49,B
+/data/songs/System Of A Down/System Of A Down - ATWA/song.ogg,3.72,M
+/data/songs/System Of A Down/System Of A Down - B.Y.O.B/BYOB.sng,81.46,K
+/data/songs/System Of A Down/System Of A Down - B.Y.O.B/BYOB_original_.sng,141.13,K
+/data/songs/System Of A Down/System Of A Down - B.Y.O.B/guitar.ogg,3.89,M
+/data/songs/System Of A Down/System Of A Down - B.Y.O.B/label.png,50.91,K
+/data/songs/System Of A Down/System Of A Down - B.Y.O.B/notes.mid,10.31,K
+/data/songs/System Of A Down/System Of A Down - B.Y.O.B/song.ini,90,B
+/data/songs/System Of A Down/System of a Down - Boom!/guitar.ogg,2.91,M
+/data/songs/System Of A Down/System of a Down - Boom!/notes.mid,38.85,K
+/data/songs/System Of A Down/System of a Down - Boom!/song.ini,464,B
+/data/songs/System Of A Down/System Of A Down - Chop Suey/guitar.ogg,3.18,M
+/data/songs/System Of A Down/System Of A Down - Chop Suey/notes.mid,1.69,K
+/data/songs/System Of A Down/System Of A Down - Chop Suey/notes.mid.old,4.99,K
+/data/songs/System Of A Down/System Of A Down - Chop Suey/song.ini,119,B
+/data/songs/System Of A Down/System Of A Down - Chop Suey/song.ini.old,80,B
+/data/songs/System Of A Down/System Of A Down - Chop Suey/song.ogg,3.18,M
+/data/songs/System Of A Down/System Of A Down - Highway/guitar.ogg,3.29,M
+/data/songs/System Of A Down/System Of A Down - Highway/HighWaySong.sng,62.65,K
+/data/songs/System Of A Down/System Of A Down - Highway/label.png,77.95,K
+/data/songs/System Of A Down/System Of A Down - Highway/notes.mid,8.56,K
+/data/songs/System Of A Down/System Of A Down - Highway/song.ini,105,B
+/data/songs/System Of A Down/System Of A Down - Highway/song.ogg,3.29,M
+/data/songs/System Of A Down/System Of A Down - Highway/Thumbs.db,5.5,K
+/data/songs/System Of A Down/System of A Down - Holy Moutains/guitar.ogg,5.81,M
+/data/songs/System Of A Down/System of A Down - Holy Moutains/Holy_Mountains_Expert_.sng,94.07,K
+/data/songs/System Of A Down/System of A Down - Holy Moutains/label.png,68.69,K
+/data/songs/System Of A Down/System of A Down - Holy Moutains/notes.mid,11.4,K
+/data/songs/System Of A Down/System of A Down - Holy Moutains/song.ini,93,B
+/data/songs/System Of A Down/System of A Down - Holy Moutains/song.ogg,5.81,M
+/data/songs/System Of A Down/System Of A Down - Hypnotize/guitar.ogg,4.16,M
+/data/songs/System Of A Down/System Of A Down - Hypnotize/label.png,72.18,K
+/data/songs/System Of A Down/System Of A Down - Hypnotize/notes.mid,7.53,K
+/data/songs/System Of A Down/System Of A Down - Hypnotize/song.ini,87,B
+/data/songs/System Of A Down/System Of A Down - Hypnotize/song.ini.bak,62,B
+/data/songs/System Of A Down/System Of A Down - Hypnotize/song.ogg,4.16,M
+/data/songs/System Of A Down/System Of A Down - Johnny/guitar.ogg,1.58,M
+/data/songs/System Of A Down/System Of A Down - Johnny/label.PNG,10.45,K
+/data/songs/System Of A Down/System Of A Down - Johnny/notes expert.sng,49.56,K
+/data/songs/System Of A Down/System Of A Down - Johnny/notes hard.sng,35.66,K
+/data/songs/System Of A Down/System Of A Down - Johnny/notes med.sng,22.98,K
+/data/songs/System Of A Down/System Of A Down - Johnny/notes.mid,11.19,K
+/data/songs/System Of A Down/System Of A Down - Johnny/notes.sng,49.56,K
+/data/songs/System Of A Down/System Of A Down - Johnny/song.ini,985,B
+/data/songs/System Of A Down/System Of A Down - Legend of Zelda Theme/guitar.ogg,3,M
+/data/songs/System Of A Down/System Of A Down - Legend of Zelda Theme/label.png,28.53,K
+/data/songs/System Of A Down/System Of A Down - Legend of Zelda Theme/Leeme.txt,580,B
+/data/songs/System Of A Down/System Of A Down - Legend of Zelda Theme/notes.mid,7,K
+/data/songs/System Of A Down/System Of A Down - Legend of Zelda Theme/song.ini,100,B
+/data/songs/System Of A Down/System Of A Down - Legend of Zelda Theme/song.ini.bak,97,B
+/data/songs/System Of A Down/System Of A Down - Legend of Zelda Theme/song.ogg,3,M
+/data/songs/System Of A Down/System Of A Down - Lonely Day/guitar.ogg,3.95,M
+/data/songs/System Of A Down/System Of A Down - Lonely Day/notes.mid,4.46,K
+/data/songs/System Of A Down/System Of A Down - Lonely Day/song.ini,63,B
+/data/songs/System Of A Down/System Of A Down - Lonely Day/song.ini.bak,51,B
+/data/songs/System Of A Down/System Of A Down - Lonely Day/song.ogg,3.95,M
+/data/songs/System Of A Down/System of a Down - Radio-Video/guitar.ogg,4.66,M
+/data/songs/System Of A Down/System of a Down - Radio-Video/notes.mid,7.46,K
+/data/songs/System Of A Down/System of a Down - Radio-Video/notes2.mid,8,K
+/data/songs/System Of A Down/System of a Down - Radio-Video/radiovideo.sng,39.52,K
+/data/songs/System Of A Down/System of a Down - Radio-Video/radiovideo2.sng,78.97,K
+/data/songs/System Of A Down/System of a Down - Radio-Video/readme.txt,103,B
+/data/songs/System Of A Down/System of a Down - Radio-Video/song.dat,120.73,K
+/data/songs/System Of A Down/System of a Down - Radio-Video/song.ini,1.1,K
+/data/songs/System Of A Down/System Of A Down - Revenga/guitar.ogg,3.51,M
+/data/songs/System Of A Down/System Of A Down - Revenga/label.png,49.19,K
+/data/songs/System Of A Down/System Of A Down - Revenga/notes.mid,31.23,K
+/data/songs/System Of A Down/System Of A Down - Revenga/notes.mid.old,31.26,K
+/data/songs/System Of A Down/System Of A Down - Revenga/rev-amaz_.sng,97.86,K
+/data/songs/System Of A Down/System Of A Down - Revenga/Revenga_md_.sng,54.31,K
+/data/songs/System Of A Down/System Of A Down - Revenga/song.ini,310,B
+/data/songs/System Of A Down/System Of A Down - Roulette/guitar.ogg,2.94,M
+/data/songs/System Of A Down/System Of A Down - Roulette/notes.mid,5.06,K
+/data/songs/System Of A Down/System Of A Down - Roulette/song.ini,76,B
+/data/songs/System Of A Down/System Of A Down - Roulette/song.ogg,2.94,M
+/data/songs/System Of A Down/System Of A Down - Spiders/guitar.ogg,3.85,M
+/data/songs/System Of A Down/System Of A Down - Spiders/label.png,59.11,K
+/data/songs/System Of A Down/System Of A Down - Spiders/label2.png,45.29,K
+/data/songs/System Of A Down/System Of A Down - Spiders/notes.mid,7.57,K
+/data/songs/System Of A Down/System Of A Down - Spiders/notes2.mid,20,K
+/data/songs/System Of A Down/System Of A Down - Spiders/song.ini,633,B
+/data/songs/System Of A Down/System Of A Down - Spiders/song.ogg,3.68,M
+/data/songs/System Of A Down/System Of A Down - Spiders/song2.ini,139,B
+/data/songs/System Of A Down/System Of A Down - Sugar/guitar.ogg,4.52,M
+/data/songs/System Of A Down/System Of A Down - Sugar/label.png,85.17,K
+/data/songs/System Of A Down/System Of A Down - Sugar/notes.mid,2.73,K
+/data/songs/System Of A Down/System Of A Down - Sugar/song.ini,1.08,K
+/data/songs/System Of A Down/System Of A Down - Sugar/song.ini.bak,50,B
+/data/songs/System Of A Down/System Of A Down - Sugar/song.ogg,4.52,M
+/data/songs/System Of A Down/System Of A Down - Toxicity/guitar.ogg,4.76,M
+/data/songs/System Of A Down/System Of A Down - Toxicity/notes.mid,11.09,K
+/data/songs/System Of A Down/System Of A Down - Toxicity/Readme.txt,491,B
+/data/songs/System Of A Down/System Of A Down - Toxicity/song.ini,320,B
+/data/songs/System Of A Down/System Of A Down - Toxicity/song.ogg,4.76,M
+/data/songs/System Of A Down/System Of A Down - Toxicity v2/Copie de tox-e.sng,45.15,K
+/data/songs/System Of A Down/System Of A Down - Toxicity v2/guitar.ogg,3.22,M
+/data/songs/System Of A Down/System Of A Down - Toxicity v2/label.png,82.36,K
+/data/songs/System Of A Down/System Of A Down - Toxicity v2/notes.mid,17.81,K
+/data/songs/System Of A Down/System Of A Down - Toxicity v2/song.ini,84,B
+/data/songs/System Of A Down/System Of A Down - Toxicity v2/song.ogg,3.22,M
+/data/songs/System Of A Down/System Of A Down - Toxicity v2/tox-m.sng,51.37,K
+/data/songs/System Of A Down/System Of A Down - Toxicity v2/tox.sng,59.81,K
+/data/songs/System Of A Down/System Of A Down - Violent Pornography/guitar.ogg,3.75,M
+/data/songs/System Of A Down/System Of A Down - Violent Pornography/notes.mid,6.72,K
+/data/songs/System Of A Down/System Of A Down - Violent Pornography/notes2.mid,5.93,K
+/data/songs/System Of A Down/System Of A Down - Violent Pornography/SOAD_violent_pornography.chart,14.45,K
+/data/songs/System Of A Down/System Of A Down - Violent Pornography/song.ini,483,B
+/data/songs/System Of A Down/System Of A Down - Violent Pornography/song.sng,46.4,K
+/data/songs/Tenacious D/Tenacious D - Fuck Her Gently (Instrumental)/fhg credits.txt,113,B
+/data/songs/Tenacious D/Tenacious D - Fuck Her Gently (Instrumental)/guitar.ogg,589.12,K
+/data/songs/Tenacious D/Tenacious D - Fuck Her Gently (Instrumental)/guitar.ogg.old,557.08,K
+/data/songs/Tenacious D/Tenacious D - Fuck Her Gently (Instrumental)/Leame.txt,258,B
+/data/songs/Tenacious D/Tenacious D - Fuck Her Gently (Instrumental)/notes.mid,3.92,K
+/data/songs/Tenacious D/Tenacious D - Fuck Her Gently (Instrumental)/notes.mid.old,4.72,K
+/data/songs/Tenacious D/Tenacious D - Fuck Her Gently (Instrumental)/README,85,B
+/data/songs/Tenacious D/Tenacious D - Fuck Her Gently (Instrumental)/song.ini,739,B
+/data/songs/Tenacious D/Tenacious D - Tribute v1/guitar.ogg,4.54,M
+/data/songs/Tenacious D/Tenacious D - Tribute v1/label.png,35.61,K
+/data/songs/Tenacious D/Tenacious D - Tribute v1/label2.png,32.7,K
+/data/songs/Tenacious D/Tenacious D - Tribute v1/notes.mid,14.91,K
+/data/songs/Tenacious D/Tenacious D - Tribute v1/song.ini,279,B
+/data/songs/Tenacious D/Tenacious D - Tribute v1/song.ogg,3.41,M
+/data/songs/Tenacious D/Tenacious D - Tribute v2/author.txt,14,B
+/data/songs/Tenacious D/Tenacious D - Tribute v2/guitar.ogg,4.59,M
+/data/songs/Tenacious D/Tenacious D - Tribute v2/label.png,35.61,K
+/data/songs/Tenacious D/Tenacious D - Tribute v2/label2.png,32.7,K
+/data/songs/Tenacious D/Tenacious D - Tribute v2/notes.mid,11.74,K
+/data/songs/Tenacious D/Tenacious D - Tribute v2/song.ini,112,B
+/data/songs/Tenacious D/Tenacious D - Tribute v2/song.ogg,4.59,M
+/data/songs/The Ramones - I Wanna Be Sedated/guitar.ogg,2.07,M
+/data/songs/The Ramones - I Wanna Be Sedated/label.png,20.72,K
+/data/songs/The Ramones - I Wanna Be Sedated/label2(CassetteColor = #6A1A1A).png,7.01,K
+/data/songs/The Ramones - I Wanna Be Sedated/notes.mid,33.69,K
+/data/songs/The Ramones - I Wanna Be Sedated/song.ini,481,B
+/data/songs/The Ramones - I Wanna Be Sedated/song.ini.orig,282,B
+/data/songs/The Ramones - I Wanna Be Sedated/song.ogg,2.34,M
+/data/stage.ini,4.15,K
+/data/stage_audience1.svg,5.83,K
+/data/stage_audience2.svg,3.95,K
+/data/stage_background.svg,4.43,K
+/data/stage_bassdrum.svg,29.68,K
+/data/stage_drums.svg,28.16,K
+/data/stage_light.svg,7.69,K
+/data/stage_lights1.svg,13.88,K
+/data/stage_lights2.svg,14.56,K
+/data/stage_speakers.svg,13.43,K
+/data/stage_speaker_cones.svg,7.92,K
+/data/star1.svg,3.11,K
+/data/star2.svg,4.58,K
+/data/start.ogg,26.52,K
+/data/surface.pyd,42,K
+/data/surfarray.pyd,22,K
+/data/surflock.pyd,7,K
+/data/time.pyd,13,K
+/data/title.ttf,104.54,K
+/data/transform.pyd,24,K
+/data/translations/brazilian_portuguese.mo,14.91,K
+/data/translations/french.mo,15.68,K
+/data/translations/german.mo,14.67,K
+/data/translations/hebrew.mo,3.86,K
+/data/translations/polish.mo,13.39,K
+/data/translations/russian.mo,18.29,K
+/data/translations/spanish.mo,14.98,K
+/data/translations/swedish.mo,14.69,K
+/data/umath.pyd,51,K
+/data/unicodedata.pyd,396,K
+/data/vorbis.pyd,1.16,M
+/data/zlib.pyd,64,K
+/data/_amanith.pyd,1.93,M
+/data/_dotblas.pyd,1.72,M
+/data/_GLU__init__.pyd,96,K
+/data/_GL__init__.pyd,268,K
+/data/_imaging.pyd,308,K
+/data/_multisample.pyd,40,K
+/data/_numpy.pyd,66.5,K
+/data/_ogg.pyd,26,K
+/data/_psyco.pyd,238,K
+/data/_socket.pyd,48,K
+/FretsOnFire.exe,20,K
+/FretsOnFire.exe.log,2.33,K
+/msvcp71.dll,488,K
+/MSVCR71.dll,340,K
+/python24.dll,1.78,M
+/readme.txt,8,K
+/Uninstall.exe,52.33,K

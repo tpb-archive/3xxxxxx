@@ -1,0 +1,16 @@
+100.0% complete
+Name        : Realitykings_-_Round_And_Brown_1_Cd1-piger.free.fr-x264.mp4
+Length      : 4772.24
+Resolution  : 544x400
+Screenshots : 
+http://mpggalaxy.mine.nu/www/screenshots/Realitykings_-_Round_And_Brown_1_Cd1-piger.free.fr-x264
+Audio       : 48000
+Channels    : 2
+Video Codec : h264
+Audio Codec : mp3
+BPS         : v-500032 a-32000
+Command     : mencoder -ovc x264 -x264encopts pass=1 -nosound -o tmp.mp4 in_file.avi
+            : mencoder -ovc x264 -x264encopts bitrate=600:pass=2 -oac faac -faacopts br=128 -o out_file.mp4 in_file.avi 
+
+        http://piger.free.fr/
+        http://piger.free.fr/mindex.html for mobile phones

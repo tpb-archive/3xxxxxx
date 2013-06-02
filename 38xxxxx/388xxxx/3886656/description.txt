@@ -1,0 +1,6 @@
+Applications : Macintosh : English
+
+If you keep getting the Licensing Dialog that asks you to input your serial everytime you start an application, this should help. You just have to navigate to
+/Library/Application Support/ProApps/
+
+and then replace the FINAL CUT STUDIO SYSTEM ID file with the one in the folder. I would suggest you backup you original file first	

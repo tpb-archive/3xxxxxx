@@ -1,0 +1,37 @@
+This is the installer for version 1.1b of the Half-life 2: Deathmatch modification The Battle Grounds 2. For more information, see http://www.bgmod.com
+
+This installer will work for windows client and servers. For Linux server, please see the site for .zip mirrors (this installer doesn't contain server_i486.so).
+
+Changelog:
+1.1b - 20070928
+ fixed various bugs
+ new voicecomms, some old ones replaced for a total of 19
+ all voicecomms rerecorded
+ voicecomm sounds are class- and team-specific (infantry and riflemen on each team share comms atm)
+ battlecry is not in the voicecomm menus (Z and X) but bound alone to C by default
+ weapons now have proper draw sounds
+ improved network performance (removed unused vars)
+ new melee code
+ increased crouch player hull - crouched players can now be headshot from a distance
+ readded hl2dm weapons and hl2 npcs to make linux compile work..
+ fixed bg2 options menu - settings now save to config.cfg
+ all maps updated or new
+ new maps:
+  bg_foothills
+  bg_freemans_farm
+  bg_snowlake
+  bg_dusk_patrol
+  bg_plateau
+  bg_pine_lms
+  bg_pinebarrens
+ removed maps:
+  bg_new_england
+  bg_skirmish_lms
+  bg_koth
+  bg_snowlake2
+ added cvars:
+  cl_winmusic		- play the win music on round restarts?
+  cl_hitverif		- display text saying who you hit and where?
+  sv_retracing_melee	- toggles the new melee code (somewhat experimental)
+ added entities:
+  mapfilter_excluder	- used to specify which entities to keep on round restart. see fgd

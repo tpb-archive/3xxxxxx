@@ -1,0 +1,30 @@
+Applications : Windows : English
+Microsoft Small Business Server
+2003 Premium Edition With SP1
+SUPPLiER....: TEAM TBE DATE ...: 13.07.2006
+LANGUAGE ...: english SiZE ...: 5 CDs+Premium Technologies CD Rip
+
+SP1 is already installed after you install sbs, I also copied the files on the sbs premium technologies cd and rar\'d them up it has isa server 2004 and sql 2000 with sp4. Serial is located in the .nfo file to get around activation use reset 5 
+
+
+SBS includes Windows Server and additional technologies aimed at providing a small business with a complete technology solution. The technologies are integrated to enable small business with targeted solutions such as the Remote Web Workplace, and offer management benefits such as integrated setup, enhanced monitoring, a unified management console, and remote access.
+
+The Standard Edition of SBS includes Windows SharePoint Services for collaboration, Microsoft Exchange server for e-mail, Fax Server, and the Active Directory for user management. The product also provides a basic firewall, DHCP server and NAT router using either two network cards or one network card in addition to a hardware router.
+
+The Premium Edition of SBS includes the above plus Microsoft SQL Server 2000 and Microsoft Internet Security and Acceleration Server 2004.
+
+SBS has its own type of Client Access License (CAL) that is different and costs slightly more than CALs for the other editions of Windows Server 2003. However, the SBS CAL encompasses the user CALs for Windows Server, Exchange Server, SQL Server, and ISA Server, and hence is less expensive than buying all the other CALs individually.
+
+SBS server has the following design limitations:[14]
+
+* Only one computer in a domain can be running Windows Server 2003 for Small Business Server.
+* Windows Server 2003 for Small Business Server must be the root of the Active Directory forest.
+* Windows Server 2003 for Small Business Server cannot trust any other domains.
+* Windows Server 2003 for Small Business Server is limited to 75 users or devices depending on which type of CAL.
+* Windows Server 2003 for Small Business Server is limited to 4GB of memory.
+* A Windows Server 2003 for Small Business Server domain cannot have any child domains.
+* Terminal Services only operates in remote administration mode on the server running SBS 2003, and only two simultaneous RDP sessions are allowed. (Change from SBS 2000 policy)[15]
+* To remove the limits from SBS server and upgrade from Small Business Server to regular Windows Server, Exchange Server, SQL and ISA server versions there is a Windows Small Business Server 2003 R2 Transition Pack.
+
+
+Dont Forget To Seed When Finished

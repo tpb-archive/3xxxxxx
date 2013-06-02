@@ -1,0 +1,40 @@
+vLite is a tool for customizing the Windows Vista installation before actually installing it. Windows Vista from Microsoft takes a lot of resources, we all know that. vLite provides you with an easy removal of the unwanted components in order to make Vista run faster and to your liking. This tool doesn't use any kind of hacking, all files and registry entries are protected as they would be if you install the unedited version only with the changes you select. It configures the installation directly before the installation, meaning you'll have to remake the ISO and reinstall it. This method is much cleaner, not to mention easier and more logical than doing it after installation on every reinstall.
+
+Features:
+
+    * component removal
+    * driver integration
+    * unattended setup
+    * split/merge Vista installation CDs
+    * tweaks
+    * bootable CD/DVD
+
+
+Changelog:
+
+    * new: 'Select this version on install' Unattended option
+    * new: 'WebDAV (WebClient)'
+    * new: 'IP Helper'
+    * new: 'File and printer sharing (Server)'
+    * new: 'DNS Client'
+    * new: 'Windows Time'
+    * new: 'Modem Support'
+    * new: 'Remote Differential Compression'
+    * new: 'Dynamic Volume Manager'
+    * new: 'QLogic Fibre Channel Adapter'
+    * new: 'Windows Color System'
+    * new: 'Beep'
+    * new: Integration failure report
+    * new: 'unwim' switch for uninstalling the WIM Filter
+    * upd: Computer Name synthax validation
+    * upd: KB941649 integration workaround
+    * fix: Finish before ISO page was shown
+    * fix: Error Reporting removal breaking Compatibility Tab and MCE Reciever service
+    * fix: Merging CDs
+    * fix: Help was needed for IIS
+    * fix: KB932596 install failure
+
+
+
+
+100% clean. No garbage. Enjoy :)

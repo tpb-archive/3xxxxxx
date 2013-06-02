@@ -1,0 +1,40 @@
+﻿User Type,Username,Date,Text
+,PelleSvensk,2007-11-18T16:51Z,"Yeah..! 
+
+I am now installing 10.5 via a Single Layer 4,3 Gb DVD onto a Tibook G4 500Mhz.
+
+The following works if you have an old Motorola G4 400Mhz and up. Min 500Mb RAM. 6Gb free space.
+
+.. Whats the trick? I hear you ask..
+
+Recepie:
+1: 6,6Gb DVD Image of Leopard
+2: An empty 32MB sparseimage (call it backup)
+made with Leopards DiskTool.
+3: Use Syncronize Pro. Select Bootable copy
+4: Unselect all /System/Installation/Packages/ > printerdrivers (can be installed separatly afterwards). Don't use, Carbon Copy 3.0.1, it still has issues, maybe next version?
+4: Unselect the XCode folder
+5: Unselect some language packets Japanese & Chinese you donÂ´t care about.   
+6: Replace the OSInstall.mpkg - this torrent has a working version for basically all G4's. Forget any G3. This step can easily be done via the Terminal.
+7: Check the size of the sparseimage. It should now be less than 4,3 GB in size.
+8: Burn the 4,3Gb SL-DVD-image with DiskTools, NOT Toast. 
+9: Press the alt-key during startup on your old G4 Mac. Select the DVD.
+10. Your DONE! 
+
+Hint.
+For a fast install / No Hazzle.. 
+Reboot your old G4, press Shift. This way the DVD will WORK and Install correctly, even if in Safe-start mode. No network during install will be needed anyway. 
+
+Naturally all this is totally outside Apples support. Don't forget to buy your original DVD-Installer. Don't Copy that Floppy!!
+
+pellesvensk"
+,the_nakaii,2008-02-16T03:26Z,"God lets make everything real technical shall we? Just download Leopard Assist from http://www.mac.profusehost.net/leopardassist/ 
+This is a free download and will enable install of )SX 10.5 onto unsupport machines. DUH?"
+,macmad14,2008-04-03T02:31Z,"I am running an eMAC PowerPC G4 700 MHz and I can't seem to get this to work.
+
+I will try Pellesvensk's method though.
+
+Wish me Luck
+
+MACs 4eva!!!! :)"
+,nquoo,2009-01-18T09:39Z,"after replacing the file, I still get the same ""Mac Os x cannot be installed on this computer"" error message after I choose the language.  any help please?"

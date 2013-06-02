@@ -1,0 +1,115 @@
+﻿User Type,Username,Date,Text
+,bluete56,2007-11-16T17:59Z,Funktioniert einwandfrei!!!!!!
+,MrMansson,2007-11-16T18:45Z,"Doesn't work for me, I'm sorry to say. I really got my hopes up...
+
+I'm on Vista x64. I get 'activation failed' but the logos still says 'patched by Mtech' (or something similar), indicating that I copied to the right location (program(x86) in my case)."
+,jerzmob,2007-11-17T05:28Z,"@MrMansson 
+
+i don't know but you can try using killbox (killbox.net) in order to replace the file on reboot. =)"
+,xmassnow,2007-11-17T12:28Z,how do i open this dll?
+,MrMansson,2007-11-17T22:30Z,"@jerzmob
+
+What do you mean I should gain by that? I replaced my file successfully already. 
+It just doesn't stop Nero from nagging about patent file download... Thanks for the tip, though."
+,pyuFF,2007-11-18T01:12Z,"Doesn't work for me as well... Except the logo uglifying, nothing else changed really much..."
+,buford_buford,2007-11-18T06:54Z,"the activation is no big deal - it's a timed event - so, when the installation reaches a certain age - it installs an activation check - ALL YOU NEED TO DO...is open your firewall software and go to your programs permissions and now block the activation entry.
+THEN, use your keygen again to clean up the keys, and generate a new key - run Nero and ""ADD"" the new key.
+Now you have a key that won't expire and the software is blocked from checking it.
+Hope this helped..."
+,pyuFF,2007-11-20T19:01Z,Now is this a tested method for Nero 8 Ultra? And what if I hate using firewall appz?
+,vh14a,2007-11-21T07:14Z,"Delete the patent activation exe. located in c:/program files/comon files/nero/shared/NL3.......
+All SET!!!!!"
+,Stond8,2007-11-22T06:29Z,That does not work. 
+,djtdon,2007-11-23T18:09Z,"Dont work it just makes ure logo uglier 
+
+"
+,emjaysea,2007-11-25T15:49Z,"This is the most fucked up Nero release yet.  Went through quite an ordeal to replace the dll with the one in this post (managed to delete the original with hijackthis, but every time I clicked on the patched dll--single click, mind you--I got This File cannot be found on this system, and then Explorer would crash followed by the Dr. Watson debugger.  Finally got around that by extracting right from the zip file).  Long story short, after all the rigmarole, Nero crashes when I try to add vids in Nero Vision.  Back to Nero 7, fuck all."
+,vdrsystems,2007-11-26T18:31Z,"You can  delete nero patent activation exe. which is in: 
+c:\programfiles\comonfiles\nero/shared/NL3
+Also delete the upgrade exe file also. IT IS EASY AND IT DOES WORK! THERE IS NO NEED TO USE ANY KEY!
+Happy Holidays"
+,vdrsystems,2007-11-26T18:49Z,"This is a good working d/l! A little patients is all it takes after all it's free! Follow the simple instructions above as far as deleting the activation patent exe. PEOPLE HERE ARE TOO FAST TO BE RUDE AND JUMP THE GUN.
+
+just a little patients and things work....................."
+,severed006,2007-11-27T04:33Z,vdrsystems... i did what you said and it did take the patent screen but when i use nero vision and actually start the burning process it still shows a bunch of shit on the bottom half of the preview screen... i dont know if you understand what im saying cause im bad with words...but somebody.... how the fuck do i get nero to work
+,nymthehavoc,2007-11-27T10:10Z,"the aforementioned method DOES work actually (I was surprised how lame the protection is actually)
+Thanks also for the torrent
+regards
+nym "
+,cravenmoorhead,2007-11-30T06:21Z,"Simple fix is to use ""gpedit.msc"" and set a software policy that bans ""NeroPatentActivation.exe"" from running on the system. The file then stays preserved were it should be but can't run."
+,Kdude90,2007-12-10T21:45Z,Deleting the neropatentactivation.exe file only works for about a month & a half. Then it bugs you 2 connect 2 the internet to download it.
+,mook300,2007-12-15T15:35Z,"It doesn't let you remove the demo serial ?
+You have to add another serial first....
+This is driving me nuts."
+,BRB-BBS,2007-12-16T15:26Z,It comes back because you have not unticked the aouto update box in Nero controlcenter.
+,ioniancat21,2007-12-21T15:10Z,This method doesn not work. Neither does the newer Nero Activator/Keygen either. All these non-working keygens should be removed from The Bay until something is verified working.
+,ioniancat21,2007-12-22T04:20Z,"HOW TO INSTALL NERO 8 AND GET PAST PATENT ACTIVATION
+
+FOLLOW THESE STEPS TO:
+ - REGISTER NERO
+ - STOP THE PATENT ACTIVATION/PIRATED KEY ERROR MESSAGES WITHOUT PROBLEMS
+
+NOTE: Uninstall currently installed Nero applications before beginning this process.
+
+1. Download and Install Nero Trial or Update v8.2.8.0. During setup Enter name and leave Demo license key in place. Do not replace demo key with full license key. Do Not Reboot after setup completes.
+
+2. Remove all Nero startup files from these locations in the registry:
+ - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+ - HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+
+3. Reboot Now
+
+4. Run one of the Nero Applications that set off the Patent Activation screens, some of these 
+
+applications are:
+
+ - Nero Vision
+ - Nero Showtime
+
+Using Showtime proves easiest; Run Showtime and open a DVD as using the DVD Plugin sets off a license check. During this process you should be prompted with a Patent Activation window requesting you to go online to verify your license. Say ""Yes"" and go online, in a moment you'll get a response that Patent Activation is acknowledging your trial license and is giving you 15 Days to check out Nero, Click ""OK"" and play a couple of seconds of the movie to verify the trial license key is working then quit Showtime.
+
+5. Open Nero ControlCenter. On the Update Tab uncheck the ""Check for Updates"" option turning this feature off. Now click the License Tab then click ""Add"" to enter a new license key. Run the Activator KEYGEN (Keygen_mtct.exe) and click the ""Generate"" button and create a new full license key. Copy and Paste the new license key into Nero ControlCenter. You should notice the new license added to your list of licenses with an expiration date of ""None"". Do not remove the trial license key, you should have two licenses, one full and one trial. Click OK to close Nero ControlCenter.
+
+6. Complete Step 4 again to verify Showtime can still play DVD's with both license keys. You should get a new window that asks if you want to upgrade your features since you added your new license, say yes or no and check the ""do not remind me again"" checkbox. You should not get any Patent Activation screens and the DVD should Auto-play. Quit Showtime.
+
+7. Make sure all Nero Applications are closed and not in use. Now go back to the KEYGEN and click ""Activate"", the KEYGEN will display an ""Activation successful"" message. Click OK and reboot.
+
+8. Go to Nero ControlCenter and click the License Tab then click the mouse to highlight the Trial License key. Click ""Remove"" to delete the Trial key. You should now only have the full license key remaining in Nero ControlCenter. Click OK to close.
+
+9. Complete Step 4 again and verify Showtime is still working, if it is you are permanently activated."
+,ioniancat21,2007-12-22T04:21Z,"The problem was the instructions, not the keygen......"
+,lwilli1026,2007-12-23T01:14Z,"To ioniancat21:
+
+how do i reset the nero trial expiration. I keep getting a message stating that my trial period has expired, keepinig me from following your instructions on installing nero."
+,partyboy911,2008-01-05T09:05Z,"ioniancat, apparently my ""MPEG-4 Video Decoding support"" has expired. So it tells me I have to buy Nero.. Do you know how to clear that?"
+,konmaan,2008-01-14T01:43Z,"What I did is working. Thru the post I've read, i downloaded the Trial or Update v8.2.8.0. and saved. Installed the first- 8./W keygen . As it came in I used the new generated key upon installation. OK. Then installed the update on top of the other. Total access firewall. Befor running I simply delete the two items discussed.(patent activation exe & upgrade exe file also). Havent seen the first BS Message yet. Over a month now. I use it all the time. Exept vid play I use VLC player for the reason it pulls less CPU & I through the vid on the HDTV while operating the helm of the PC and Flat LCD monitor. Great combo of tools.   "
+,jahighold14,2008-02-02T18:03Z,"I don't know if this will help anyone, but I just changed nero patent activation.exe to .bac."
+,Blunted_Wizard_Asshole,2008-02-03T18:12Z,this torrent is trash
+,Gui-God,2008-02-16T03:43Z,"dudes i did it and it totally works.
+Great up"
+,spawner1798,2008-02-26T21:54Z,"It doesnt work, it shows a Fatal Error message everytime I try to open any nero aplication. ""Installation corrupted, please reinstall NERO!"""
+,Gui-God,2008-03-28T18:58Z,"ok for all who are having problems installing: turn your clock to before January of 08. as the key is valid only for a certain time.
+
+if you have install problems then you used an installer that was contaminated. there is an installer floating around(not the keygen) that installs a very nasy virus. chances are your anti virus auto killed the contamination which breaks the install. find another one and turn of the ani virus, then scan afterward (if your not up to date this is risky) after that apply the dll file and change the extension of the updater so i won't work"
+,FieroGT42,2008-06-27T20:17Z,"Do not delete or move the ""NeroPatentActivation.exe"" and ""NeroUpgrade.exe"" files.  It accomplishes nothing except making Nero insist that you must reinstall due to a corrupt installation.  That's ridiculous - copy protection is never that easy to circumvent.
+
+Replacing the file included in this torrent on it's own (AdvrCntr3.dll) also seems to do nothing but corrupt the installation.
+
+Replacing the file and entering a new key with no expiration also did not work.  This is probably only for a specific version of Nero, and someone needs to make a real activation crack."
+,franfred11,2008-07-01T21:21Z,"Delete the patent activation exe. located in c:/program files/comon files/nero/shared/NL3
+bdw, vh14a was the one who actually helped me and where i got my info from"
+,clarkeisme,2008-10-07T19:35Z,"This worked for me, I have version 8.0.3.0 Ultra.  You have to boot into safe mode, replace the file, make it read only, then delete the patentactivation and upgrade.  Mine stopped working and had the message that I have a dodgy serial, now it is ok again.  Thanks to the uploader, the only difference is that the logo now says patched by M-Tek."
+,AV8R-82,2008-12-07T11:53Z,"Hi guys.
+
+Give this a try:
+
+http://thepiratebay.org/torrent/4469775/Nero_8_Ultra_(Full_Retail)_KeyGen_Instructions-Shadeyman.iso"
+,freewillly,2008-12-18T07:09Z,"Lame!!!! Use this
+http://thepiratebay.org/torrent/4381850/Nero_8.3.6_Activator_(Activate_any_Nero_Product)"
+,downloadingvirus,2009-01-17T19:28Z,this torrent fucks up your install of nero!
+,freakclub,2009-07-09T10:09Z,magnificent!
+,devilyouknow,2009-12-26T04:37Z,"located in c:/program files/common files/nero/shared/NL3  delete the last letter from upgrade=upgrad and the last letter from patent activation file names, patent check dies and nero sails on... works for me"
+,Dav333,2010-11-11T03:58Z,biggest pile of shit. 
+[T],liluser,2011-11-06T17:17Z,"a newer version would be good
+
+Nero 11 Patent Activation Fix"

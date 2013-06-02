@@ -1,0 +1,191 @@
+LEGO Racers 2 - Readme.txt			 01 / 08 / 2001
+_________________________________________________________________
+┬⌐ 2001 LEGO Media
+
+Thank you for purchasing LEGO Racers 2 ...........!
+This Document contains all the latest information concerning LEGO
+Racers 2 and lists the requirements for the product.
+
+INDEX:
+
+	1.0 - SYSTEM SPECIFICATIONS
+		
+		1.1 MINIMUM SYSTEM SPECIFICATIONS
+		1.2 RECOMMENDED SYSTEM SPECIFICATIONS
+
+	2.0 - TECHNICAL DETAILS
+
+		2.1  OPERATING SYSTEM
+		2.2  PROCESSOR
+		2.3  MEMORY REQUIREMENTS
+		2.4  VIDEO ADAPTER
+		2.5  CD/DVD DRIVE
+		2.6  SOUND ADAPTER
+		2.7  DIRECTX
+		2.8  INPUT DEVICES
+		2.9  INSTALLATION
+		2.10 OUTPUT
+
+	3.0 - TROUBLE SHOOTING
+		
+		3.1 FUNCTIONALITY ISSUES
+		3.2 PERFORMANCE ISSUES
+		3.3 RECOMMENDED SETTINGS
+
+	4.0 - TECHNICAL SUPPORT
+
+_________________________________________________________________
+| 1.0 - SYSTEM SPECIFICATIONS |
+_________________________________________________________________
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- 1.1 MINIMUM SYSTEM SPECIFICATIONS
+
+LEGO Racers 2 requires the following system specification as the 
+absolute minimum, for the game to function correctly and at a 
+playable level.
+
+ - PROCESSOR        >	Pentium II 266MHz
+
+ - MEMORY           >   64MB System RAM
+
+ - VIDEO            >	16MB Display Memory / Direct3D Compatible
+
+ - SOUND            >	100% Windows(R) 95/98/ME - DirectX(R) 8.0
+			compliant.
+
+ - CD-ROM           >	12X or Greater CD-ROM / DVD Drive
+
+ - HARD DRIVE SPACE >	200MB / 450MB [Free and uncompressed*]
+
+ - INPUT DEVICE/S   >	Windows 95 / 98 / ME - 6+ Button-Joystick
+			6+ Button-GamePad and Keyboard.
+
+ - DIRECTX          >	LEGO Racers 2 requires the installation 
+			of DirectX(R) 8.0a
+			[This is provided on the Racers 2 CD....]
+
+* - Uncompressed means that the hard drive space has not been
+    subjected to compression methods to increase capacity.
+
+Note: If your system does not conform to the above minimum
+      requirements, LEGO Racers 2 will not function correctly on
+      your system.
+
+_________________________________________________________________
+-_-_-_-_-_-_-_-_-_-_-_-_-_- 1.2 RECOMMENDED SYSTEM SPECIFICATIONS
+
+LEGO Racers 2 contains some stunning visual effects and high
+levels of detail.
+The following specification is recommended for optimal
+performance and visual quality while playing LEGO Racers 2.
+
+ - PROCESSOR        >	Pentium II 400MHz
+
+ - MEMORY           >   128MB System RAM
+
+ - VIDEO            >	32MB Display Memory / Direct3D Compatible
+
+ - SOUND            >	100% Windows 95 / 98 / ME - Direct-X 8.0 
+			compliant
+
+ - CD-ROM           >	16X or Greater CD-ROM / DVD Drive
+
+ - HARD DRIVE SPACE >	450MB [Full Installation Option]
+
+ - INPUT DEVICE/S   >	Windows 95 / 98 / ME - 6+ Button-Joystick
+			6+ Button-GamePad and Keyboard.
+
+ - DIRECTX          >	DirectX 8.0a
+
+_________________________________________________________________
+| 2.0 - TECHNICAL DETAILS |
+_________________________________________________________________
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-  2.1 OPERATING SYSTEM
+
+LEGO Racers 2 has been designed to operate on Microsoft Windows
+95/98 and Windows ME. The game has been tested for functionality
+on the following operating systems:
+
+	> Microsoft(R) Windows 95A [Retail]
+	> Microsoft(R) Windows 95B [OSR/2]
+	> Microsoft(R) Windows 98 First Edition
+	> Microsoft(R) Windows 98 Second Edition
+	> Microsoft(R) Windows Millennium Edition
+
+LEGO Racers 2 will also function on the following operating 
+systems:
+
+	> Microsoft(R) Windows 2000 Professional [NT5]
+	> Microsoft(R) Windows XP
+
+The game was not designed to run on the following operating
+systems:
+
+	> Windows(R) NT4 OR LOWER
+	> OS/2
+	> Linux
+	> Emulated Windows Environments
+_________________________________________________________________
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- 2.2 PROCESSOR
+
+Performance levels will vary depending on the manufacturer of
+your Processor.
+
+The following information should be used as a 'guidline':
+
+   INTEL
+
+> PENTIUM(R) II - It is recommended that LEGO Racers 2 is run on
+                  a 266Mhz processor or above.
+		                [266Mhz - Minimum Specification]
+
+  *PII Range - [Range 233Mhz - 450Mhz > Slot1]
+
+> PENTIUM(R) III - The Pentium III range offers excellent 
+		   performance.
+		
+  *PIII Range - [Range 450Mhz - 1130Mhz > Slot1]
+	        [Range 500Mhz - 1200Mhz > PGA370]
+
+> PENTIUM(R) 4 - Recently introduced and offering high-end
+		 performance.
+
+  *P4 Range - [Range 1300Mhz - 1800Mhz+ > 423Pin Package]
+		
+> CELERON(TM) - It is recommended that LEGO Racers 2 is run on
+		a 400Mhz Celeron processor or above.
+
+  *Celeron Range - [Range 266Mhz - 766Mhz > 66Mhz FSB Various]
+	           [Range 766Mhz - 900Mhz > 100Mhz FSB FC-PGA]
+
+AMD
+
+> K6(R)-II - It is recommended that LEGO Racers 2 is run on a
+             400Mhz processor or above.
+
+  *K6-II Range - [Range 266Mhz - 550Mhz > Socket 7]
+
+> K6(R)-III - The AMD K6-III generally offers good performance.
+
+  *K6-III Range - [Range 400Mhz - 450Mhz]
+
+> K7 [Athlon(TM)] - The K7[Athlon] range offers excellent /
+		    high-end performance.
+		   	
+  *K7 Range - [Range 500Mhz - 1400Mhz+ > 200Mhz FSB]
+	      [Range 1000Mhz - 1400Mhz+ > 266Mhz FSB Socket]
+
+> K7 [Duron(TM)] - The K7[Duron] range offers excellent
+                   performance.
+			
+  *K7 Range - [Range 800Mhz - 950Mhz+ > 200Mhz FSB SocketA]
+	
+* Indicates the range of processors that are AVAILABLE in
+  that class.  >                CORRECT AS OF 01 / 08 / 2001
+			
+OTHER:
+   
+   CYRIX  > It is recommended that a MIII 500Mhz Processor is 
+            used, together with a hardware accelerator.
+
+
+_________________________________________________________________

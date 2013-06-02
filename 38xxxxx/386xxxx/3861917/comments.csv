@@ -1,0 +1,114 @@
+﻿User Type,Username,Date,Text
+,jojo545,2007-10-28T12:28Z,seeda!!!
+,jojo545,2007-10-28T17:38Z,seeda
+,szpero,2007-10-29T07:19Z,"Kรถszรถnรถm cholo24!
+PLZ stay seed!"
+,szpero,2007-10-29T18:10Z,Is it working???
+,Denis227,2007-11-03T19:47Z,"This upload is pure shit ... When I install it, it says sum file is missing I mean msi crap"
+,vampyre404,2007-11-10T19:30Z,"1. Mount image with daemontool
+2. Creat a folder on your HDD and rename it to ""ZT2EXD1"" and then copy the entire cd content to this folder.
+3. After end of copy go to the folder and rename the file named ""Zoo_Tycoon_2_-_Extinct_Animals"" to ""Zoo Tycoon 2 - Extinct Animals""
+4. Then install the game from Autorun.exe.Do not install the game from Setup.exe otherwise it will show an error message.
+5. Burn the Content of the folder as data CD [As CD label name ""ZT2EXD1""]
+6. Play and Enjoy ;) """
+,fiercepoptart,2007-11-17T21:16Z,When i try to install i get an error that says Failed to get setupENU.dll language code.  I already ran the fix hoping this would help.  Does anyone know how to fix this? Thanks.
+,Chione,2007-11-22T22:16Z,"There is no file named ""Zoo_Tycoon_2_-_Extinct_Animals"""
+,Chione,2007-11-22T23:36Z,"God I feel stupid -.-;;
+
+TO anyone else that's 'slow' like me, here's what you do:
+
+1. Mount .cue with daemontools
+2. Go to 'My Computer' and right click on the expansion pack.
+3. Select 'Open'
+4. Copy everything in there and put it in a new file in your C:Drive
+5. Rename the msi file named ""Zoo_Tycoon_2_-_Extinct_Animals"" to ""Zoo Tycoon 2 - Extinct Animals""
+6. Install from the 'Auto Run' file.
+7. Enjoy =p"
+,elle856,2008-01-03T16:50Z,"followed all the instructions.. but when i try to install through autorun, it just goes straight to this message 'zoo tycoon 2 is not installed. please install zoo tycoon 2, and then install the game.'"
+,OmegaRed1190,2008-01-29T18:54Z,"just change the   PackageName  field in the 'Setup' config settings file from 
+""Zoo Tycoon 2 - Extinct Animals.msi"" 
+to
+""Zoo_Tycoon_2_-_Extinct_Animals.msi"""
+,bigrouge,2008-02-23T22:25Z,"It is easier to DL this fix and apply it to the bin file:
+http://thepiratebay.org/tor/3848516/Zoo.Tycoon.2.Extinct.Animals.Fix-RELOADED
+
+1. DL the fix
+2. Unzip the fix files to desktop.
+3. launch ""ppf-o-matic3.exe""
+4. for the iso file field, locate ""rld-z2ea.bin""
+5. for the patch field, locate ""rld-zeaf.ppf"" that you dl'd with the fix
+6. Click on apply
+7. mount the rld-z2ea.bin with Daemon tools.
+
+thats it your done."
+,nejiz,2008-03-15T04:00Z,"my speed download is very slow
+don't know why 
+can anybody tell me"
+,mash1ey,2008-03-17T01:04Z,DO NOT DOWNLOAD! VIRUSED AND FECKE MY MACHINE!!!!!
+,danuck,2008-04-23T12:23Z,"I have installed the game but when I try to play it just come up put in your Zoo Tycoon 2: Extinct Animal disc
+how do i fix it?"
+,lady_scots09,2008-06-11T19:51Z,ok i did everything that Chione said but it wont let me run autorun.exe  when i click on it it does nothing. 
+,buddydog194,2008-06-22T21:54Z,how do you unra this  i feel quite stupid but im not very smart
+,drsmartazze,2008-09-04T00:34Z,need more seeds guys
+,000xxxmillyxxx000,2008-11-24T15:29Z,"I'm a bit stuck and would like to know how do i Mount image with daemontool? 
+
+Thats the only problem i have.
+
+"
+,HELLFIRE22,2009-03-25T16:58Z,i cant find the msi file to rename could somebody help me?
+,KevinAndHollie,2011-06-21T07:54Z,I would really like to have this exp. pack but with all these comments it justs looks like its not even worth the trouble. Congrats to anyone who actually got this to work.
+,melloorr,2011-07-02T15:26Z,"If you can still not get it working, i have found a way that has worked for me.
+
+1. Open the autorun configuration file in notepad
+2. Change 'icon=zt2ex.ico' to 'icon=autorun.exe'
+
+And save it and run autorun.exe. and done! This worked for me"
+,Assault591,2011-07-21T02:04Z,"Got it to install here is what I did
+
+Mounted it like normal then created a folder on the desktop and copied all the files that were mounted into the folder then you need to rename
+'Zoo_Tycoon_2_-_Extinct_Animals.msi'
+to
+'Zoo Tycoon 2 - Extinct Animals.msi'
+
+Works like a fucking charm thank you will seed"
+,Razr92,2011-08-02T02:13Z,"Some people need to learn to use a computer, i am serious, if you argue to it you are simply dumb."
+,chivar,2011-09-15T17:45Z,can anyone place a good zoo tycoon 2 extinct animals download file .. pleaseeeeeeeeeeeeeeeeeeeeeeeeee
+,MasterTyr,2012-01-18T19:29Z,"zoo tycoon 2 all patches installed
+only extract and run game
+
+http://thepiratebay.org/torrent/6965650/Zoo_Tycoon_2___all_patches_(portable)"
+,arturot21,2012-01-24T07:07Z,"I can't install it, it says ""Error 1309. Error reading from file C:\Program Files (x86) \Microsoft Games\Zoo Tycoon 2\ZT2EXD1\Files\DLC\zootycoon_com_zt2_1033\1015_1.0.dl. Verify that the file exists and that you can access it.""
+
+What should i do? Please help me, I really want to play this :("
+,Nattycat13,2012-03-02T19:38Z,"I don't understand at all. I know how to mount an image but there is no image. There are .cue files but there's one in every ""rld"" file. The instructions make sense but I don't know what to do with all the ""rld-z2ea"" files first. And where is this image I'm suppose to mount? :( I just wanna play the game, please help."
+,Nattycat13,2012-03-02T22:21Z,I finally got it. Wow
+,herogamerz091,2012-03-03T07:59Z,"Thank you so much!!! For all those who don't know:
+1. Open the containing folder
+2. Mount image file
+3. Go to your local drives
+4. Locate ZT2EXD1 on the drives
+5. Open it 
+6. Run Installer from autorun, do nut run installer on setup"
+,Juggalett420,2012-08-11T10:34Z,"ok FINALLY figured out how to get this freakin thing to work! its actually a very good torrent just a few things u gotta do first so here is how i did it and it worked!
+
+STEP 1: us winrar to unrar the torrent. if you dont know how google how to unrar file.
+
+STEP 2: after torrent is unrared, mount (i used daemon tools. when auto run pops up DO NOT AUTORUN!
+
+STEP 3:while in daemon tools double click on the mounted image, it should open it file location, copy ALL files. (after double clicking image you should see files such as crack,setup,autorun etc.)
+
+STEP 4:go to your desktop right click select NEW and paste everything into the NEW folder.
+
+STEP 5: go into the new folder you created and open the setup file that looks like a piece of paper with a gear on it (do not open the regular setup) it should open up in notepad.
+
+STEP 6:on the setup notepad go down to where it says PackageName=Zoo Tycoon_2_-_Extinct_Animals.msi and change to PackageName=Zoo_Tycoon_2_-_Extinct_Animals.msi and save.
+
+STEP 7: open the new folder you created on the desktop and right click on the autorun then select open. Follow the installation process. 
+
+STEP 8:after install is done go into new folder copy the crack, go to my computer>program files>microsoft games>zoo tycoon2 once there paste the crack. copy and replace when asked.
+Once youve pasted the crack close out of program files and open the new folder on desktop right click on autorun and select open. (make sure zt2 extinct animals i still mounted) and it should let you play it
+
+sorry if this is a little out drawn but i made it simple for people who dont know how to do all this shit! HOPE IT HELPS!"
+,Juggalett420,2012-08-11T10:53Z,ok y bad but to be able to play the game after you do all the steps i provided go to mycomputer>program files>microsoft games>zoo tycoon 2 then scroll down till you see a image that has the name ZT and you should be able to double click it or right click and open it. it may say your color scheme has changed and the visuals arnt compatible just ignore and continue. and youll b play zt2 extinct animals hope thats better :)
+,Lkitten,2012-08-14T02:17Z,"whenever i click autorun nothing happens, did exactly what jugalett said too"
+,Lamalas1,2012-08-16T19:10Z,every time i go to install i get an error message. i have followed all the steps and even renamed the things that needed to be renamed.  the error message says: 1628: Failed to Complete Installation.  how the hell can i fix this? thanks in advance 

@@ -1,0 +1,116 @@
+﻿User Type,Username,Date,Text
+,greywolfe1960,2007-11-15T19:28Z,Has anyone tried this yet? Wondering if the enterprise key is still good or has it been blacklisted?
+,sleepy9090,2007-11-20T20:52Z,http://www.microsoft.com/windowsserver2008/audsel.mspx
+,StefanPeterson,2007-12-11T20:56Z,"I have no idea, does it work ?"
+,omgwtfpiratebay,2008-01-05T00:32Z,"you can get this for free from Microsoft, they'll even give you up to 5 product keys! Why bother with the torrents?"
+,ByteHacker,2008-03-01T13:15Z,is this an trial?
+,pokersucs,2008-03-02T17:54Z,"How to manually extend the evaluation period 
+When the initial 60-day evaluation period nears its end, you can run the Slmgr.vbs script to reset the evaluation period. To do this, follow these steps:
+1. Click Start, and then click Command Prompt. 
+2. Type slmgr.vbs -dli, and then press ENTER to check the current status of your evaluation period. 
+3. To reset the evaluation period, type slmgr.vbs ?rearm, and then press ENTER. 
+4. Restart the computer.
+This resets the evaluation period to 60 days."
+,pokersucs,2008-03-05T07:28Z,"You can also do this to reset to 60 days. 
+
+Go to your system 32 folder and find your ""slmgr"" script file.  Send a shortcut to desktop or wherever.  Right click on slmgr shortcut>properties and in the target window add -rearm so it should look like this.
+"" C:\Windows\System32\slmgr.vbs -rearm "" click ok and your set.  Just double click on your slmgr shortcut and you reset your computer to 60 days then restart your computer.  "
+,pokersucs,2008-03-06T05:34Z,"How to automate the extension of the evaluation period
+You may want to set up a process that automatically resets the evaluation period every 60 days. One way to automate this process is by using the Task Scheduler. You can configure the Task Scheduler to run the Slmgr.vbs script and to restart the server at a particular time. To do this, follow these steps: 1.	Click Start, point to Administrative Tools, and then click Task Scheduler.
+2.	Copy the following sample task to the server, and then save it as an .xml file. For example, you can save the file as Extend.xml. 
+
+
+
+    2007-09-17T14:26:04.433
+    Microsoft Corporation
+
+
+
+
+        P59D
+        false
+
+      2007-10-05T02:23:24
+      2008-09-17T14:23:24.777
+      true
+
+
+
+
+      domain\alias
+      Password
+      HighestAvailable
+
+
+
+
+      PT10M
+      PT1H
+      true
+      false
+
+    IgnoreNew
+    true
+    true
+    true
+    false
+    false
+    true
+    true
+    false
+    false
+    true
+    P3D
+    PT0S
+    7
+
+      PT1M
+      3
+
+
+
+
+      C:\Windows\System32\slmgr.vbs
+      -rearm
+
+
+      C:\Windows\System32\shutdown.exe
+      /r
+
+
+
+
+3.	In the sample task, change the value of the following ?UserID? tag to contain your domain and your alias:
+domain\alias
+4.	In the Task Scheduler, click Import Task on the Action menu. 
+5.	Click the sample task .xml file. For example, click Extend.xml. 
+6.	Click Import. 
+7.	Click the Triggers tab. 
+8.	Click the One Time trigger, and then click Edit. 
+9.	Change the start date of the task to a date just before the end of your current evaluation period. 
+10.	Click OK, and then exit the Task Scheduler. 
+
+The Task Scheduler will now run the evaluation reset operation on the date that you specified. 
+
+Back to the top
+APPLIES TO?	Windows Server 2008 Enterprise
+?	Windows Server 2008 Standard
+?	Windows Web Server 2008
+?	Windows Server 2008 Datacenter
+?	Windows Server 2008 Datacenter without Hyper-V
+?	Windows Server 2008 Enterprise without Hyper-V
+?	Windows Server 2008 for Itanium-Based Systems
+?	Windows Server 2008 Standard without Hyper-V
+
+
+Back to the top"
+,pokersucs,2008-03-06T05:36Z,"Sorry about the paste and copy guys: 
+Direct link:
+http://support.microsoft.com/?kbid=948472"
+,pokersucs,2008-03-06T05:43Z,"That would be copy and paste.  Long day!
+Is there an edit button around here."
+,brainpower,2008-04-26T19:25Z,"no the tags are stript(with for example strip_tags() in php)
+
+so anything inside >< will be removed
+thats why you wint se anyhing here:  "
+,brainpower,2008-04-26T19:26Z,wint = wont sorry

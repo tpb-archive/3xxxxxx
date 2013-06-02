@@ -1,0 +1,24 @@
+﻿User Type,Username,Date,Text
+,myamid,2007-11-12T18:11Z,"Place apps in /Applications
+GMM.framework in /Library/Frameworks
+
+If you've copied MobileMail, plance the included preferences bundle in /System/Library/PreferenceBundles"
+,gism82,2007-11-13T05:05Z,"heh..very fast post, but wheres the seed? thanks."
+,myamid,2007-11-13T05:15Z,It's seeding...  I see 7 seeds right now.  Don't know why it isn't showing up here though.
+,gism82,2007-11-13T05:16Z,"ah yea thanks, I just got it. Mail seems to work now :)
+I'll seed as well."
+,myamid,2007-11-13T05:17Z,"yes, this fixes the crashing bug with the 1.1.1 version.  I've tried mail, maps, notes & Weather and all work perfectly."
+,Thaaz0,2007-11-13T18:31Z,"I've downloaded the file now. Im using Windows and have a ipod toch 1.1.2 unhacket ( cant find out how to jailbreak ).
+
+But what do i do now? Where do i put these files?
+Any help would be nice!"
+,gism82,2007-11-13T20:45Z,check touchdev.net's jailbreak guide for detailed info on how to do this
+,Thaaz0,2007-11-13T22:03Z,"I have jailbreaked my ipod. But i still dont know how i can get those apps to my ipod. Its not in my apps list on the installer i get from the jailbreak.
+
+What can i do?"
+,Thaaz0,2007-11-13T22:21Z,Can you type the command i need to write in iphuc please?
+,myamid,2007-11-14T04:57Z,"Hey,
+
+On windows, when you hack 1.1.2, make sure you install SSH with it...
+
+Then, use WinSCP to SSH into the ipod (on Wi-Fi), and copy the files as needed.  Easy as pie."
