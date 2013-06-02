@@ -1,0 +1,144 @@
+
+    ÈË¼               ExtremeTech - Special Spring 2005 Volume 1, Issue 3                ÈË¼
+     ºÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄº
+     º    Description:                                                                    º
+     ºÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄº
+     º                     A SPECIAL PUBLICATION FROM:  PC MAGAZINE                       º
+     º                                                                                    º
+     º                                                                                    º
+     ºÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄº
+     º       CONTENTS:                                                                    º
+     ºÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄº
+     º                                                                                    º
+     º                                                                                    º
+     º 08............................... FROM the Editor                                  º
+     º                                                                                    º
+     º 13............................... Hot News                                         º
+     º   NBC's ENIACs, PC meets refrigerator, lasers in silicon,                          º
+     º nanotech for LCDs, and other unlikely pairings.                                    º
+     º                                                                                    º
+     º 16............................... UNDER THE HOOD:DVD CONTENT FILTERING             º
+     º   It makes sense to censor the profanity in daytime talk                           º
+     º shows, but how about potentially offensive material in a                           º
+     º movie you rented? We weigh the pros and cons of                                    º
+     º ClearPlay's controversial filtering technology.                                    º
+     º                                                                                    º
+     º 17............................... INSIDE TECH:SMART GUNS                           º
+     º   Bringing new meaning to the term "fatal execution error,"                        º
+     º researchers from the New Jersey Institute of Technology                            º
+     º have found a great new way to secure handguns. Hint: It's                          º
+     º not fingerprint identification.                                                    º
+     º                                                                                    º
+     º 19............................... TECH INSIDE: PLASMA TVs                          º
+     º  If you've ever secretly wondered why the plasma doesn't                           º
+     º leak out of your large-screen television, we've got a big                          º
+     º surprise for you. Read on.                                                         º
+     º                                                                                    º
+     º 24............................... CHIPSET HEAD-TO-HEAD                             º
+     º                                                                                    º
+     º 27............................... MOTHERBOARD FORM FACTORS: COMPARED               º
+     º                                                                                    º
+     º 29............................... MOTHERBOARD ROUNDUP                              º
+     º                                                                                    º
+     º 33............................... HOW-TO: BASIC BENCHMARKING WITH HALF LIFE 2      º
+     º                                                                                  
+     º                                                                                    º
+     º                                 CPU Bible                                          º
+     º                                                                                    º
+     º                                                                                    º
+     º        Sure, you're the processor master. But a refresher course now and           º
+     º     again is how you keep that black-belt status. With that in mind, we've         º
+     º       created an in-depth analysis at how CPUs work and what the future            º
+     º     holds. We also asked a former editor of The Microprocessor Report to           º
+     º            explain how they manufacture these tiny little things.                  º
+     º                                                                                    º
+     º                                                                                    º
+     º                                                                                    º
+     º 38.............................. Tomorrow's CPUs                                   º
+     º                                                                                    º
+     º 46.............................. Tour a fabrication plant                          º
+     º                                                                                    º
+     º 50.............................. CPUs Up Close                                     º
+     º                                                                                    º
+     º                                                                                    º
+     º                          The Science in Science Fiction                            º
+     º                                                                                    º
+     º          58 Some movies use such unrealistic technology that we burst out          º
+     º       laughing in the theater. If you saw Sandra Bullock in The Net, you know      º
+     º         what we mean. But in reality, many seemingly wacky science fiction         º
+     º              stories are based on more than just one grain of truth.               º
+     º                                                                                    º
+     º                                                                                    º
+     º                                                                                    º
+     º                                       BUILD IT                                     º
+     º                                                                                    º
+     º                                                                                    º
+     º 69............................... A Windows Media Center 2005 PC                   º
+     º   It hurts to admit it, but Microsoft has a real hit on its hands in Media         º
+     ºCenter Edition 2005. The new OS runs well, looks great, and costs no                º
+     ºmore than a standard copy of Windows XP. If you've ever struggled                   º
+     ºwith PVR software—and who hasn't?—take the time to read this story.                 º
+     º                                                                                    º
+     º                                                                                    º
+     º 76............................... Your Own Render Farm                             º
+     º   If you're anything like us, you've got a closet full of leftover computer        º
+     º crap—outdated systems, spare parts, and so on. Put that closet to                  º
+     º good use! A little network configuration and a queue management                    º
+     º application, and you'll be rendering 3D graphics in no time flat.                  º
+     º                                                                                    º
+     º                             Appliances: More DfY Projects                          º
+     º                                                                                    º
+     º                                                                                    º
+     º 85............................... Add a DVD player to your car                     º
+     º   Why drop a few hundred bucks having some other guy install a DVD                 º
+     º player in your car? Just like the family vacation, half the fun is getting         º
+     º there. We walk you through buying a player, dropping a screen on your              º
+     º dashboard, and routing wires from the stero to the player.                         º
+     º                                                                                    º
+     º                                                                                    º
+     º 90............................... Make Your Own Mega GPS Receiver                  º
+     º   Getting the best reception from your GPS unit depends on the antenna's           º
+     º orientation, the battery's power, and even the weather. You can cut                º
+     º to the head of the class by building a mega-power receiver, with just a            º
+     º few lengths of copper wire and a PVC pipe.                                         º
+     º                                                                                    º
+     º                                                                                    º
+     º 93............................... Build an 8-Bit Atari Laptop                      º
+     º   The old Atari 130XE was a great gaming system—and a full-fledged                 º
+     º computer to boot. After dreaming for years of playing Jungle Hunt and              º
+     º Q-Bert again, we decided to rehabilitate the system. After a trip to the           º
+     º LCD store, a custom steel case, and a stop by mom's old attic, we've               º
+     º come up wrth the ultimate portable gaming machine.                                 º
+     º                                                                                    º
+     º                                                                                    º
+     º 97............................... From the Forums                                  º
+     º   Folks chat about so many things in our forums. We've gathered up a               º
+     º few of the best tips and suggestions from the site, including the best             º
+     º way to clean components, fixing up virtual memory, and the ultimate                º
+     º answer to the LCD vs. CRT debate.                                                  º
+     º                                                                                    º
+     º                                                                                    º
+     º                                                                                    º
+     º                                 Last Page                                          º
+     º                                                                                    º
+     º 100............................. Geek meets Geek                                   º
+     º                                                                                    º
+     º                                                                                    º
+     º                              TONS MORE ONLINE!!                                    º
+     º                  Featured now at   http://www.extremetech.com                      º
+     º             Huge IDF roundup: Featuring early photos of Yonah, Dell                º
+     º              dual-core gaming systems, and Intel's 945/955 chipset.                º
+     º               HDTVs galore: Olevia LT32HV, Dell W4200HD, tons more                  
+    Included are:                                                                          
+      (1) Optimized .pdf file with full (un-edited) OCR                                    
+                                                                                           
+                                                                                           
+                        Unpack, UnRar, and read, view, or whatever the rest                
+                                                                                           
+                                                                                           
+                                                                                           
+                                                                                           
+                                            :-)                                            
+                                           ThanX,                                          
+                                                                                           
+                                           -WiV-

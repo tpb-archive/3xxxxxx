@@ -1,0 +1,7 @@
+MusePack is free, open-source, and arguably the best lossy codec currently available for music.
+
+Please be aware that it has been specifically designed for HIGH-BITRATE encoding, and that little or no tuning has been done on its low-bitrate modes. For this reason, we recommend you do NOT use it to encode audiobooks, or other material consisting entirely of speech (Speex, which we also have released as a torrent, is the best codec to use for speech endoding).
+
+Musepack plug-ins are available for most popular audio players, including Foobar2000.
+
+If you dislike using command-line encoders, a couple Windows frontends are available, and the excellent CD ripper EAC can also be configured to use MusePack.

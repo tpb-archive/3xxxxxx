@@ -1,0 +1,30 @@
+Using unique editing features of the DvdReMake Pro you can completely customize your DVD backups, fix authoring errors, merge DVDs or even compile a new DVD from bits and pieces of other DVD disks.
+
+Main DvdReMake Pro features
+
+In addition to the DvdReMake capabilities DvdReMake Pro provides all the functionality needed to edit DVDs:
+Put multiple DVDs together preserving original menus;
+Replace menu background with still;
+Move and insert new chapters on an existing dvd;
+Edit VM commands (all commands and valid combinations are supported);
+Edit and create new TitleSets, Titles, Chapters, ProgramChains, Programs;
+Delete TitleSets, Titles, Chapters, ProgramChains, Programs;
+Move TitleSets, ProgramChains, commands within the disk or between different DVDs;
+Find DVD navigation errors;
+Reorder menu buttons;
+Easily follow DVD navigation using "Goto Destination" and History pane;
+Change properties of the video, audio and subpicture tracks;
+Modify buttons and color schemes in either still or motion menus;
+Easily change highlights colors.
+
+Version 3.1.4 pro - 20 Sep 2005
+
+FIX select PAL/NTSC format of VTS with start-up menu in merged disk coherent with the rest of the disk
+NEW LinkTailPgc commands in all commands in start-up menus pool
+FIX reused cells are counted more then once when PGC size is computed
+NEW correct destination of "goto" in inserted command if it points to command after inserted
+FIX importing DVD from folder above VIDEO_TS gives errors
+NEW modify destination of "goto" when pasting/adding/inserting copied commands
+FIX editing mode is not preserved between sessions
+NEW "Delete all PGCs" action to Program Chains item in DVD Tree
+

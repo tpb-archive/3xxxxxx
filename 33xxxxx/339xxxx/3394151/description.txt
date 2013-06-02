@@ -1,0 +1,58 @@
+
+ Release.............: XBox Media Center 1.1.0
+ CVS/Compile Date....: 2005-10-09
+ Compiler Versions...: XDK 5933, Visual Studio .NET 2003
+
+ Skins...............: Project Mayhem III
+                       Project Mayhem III style webserver interface by KanadaKid
+
+ Visualisations......: ~1500 G-Force and ~7000 Milkdrop
+
+ Scripts.............: Aftonbladet, Changelog, FlexiBrowser v1.4, Flickr,
+                       GameSpotPlus, Global Alternate News, KMLBrowse,
+                       LaunchBrowser v1.7, Notepad, Ooba v1.1, QuickTimeBrowser,
+                       Stupidvideos, TV.com and XBMCScripts.
+                       (All installed in the scripts menu)
+  
+ Custom Mods.........: Added custom mplayer.dll compiled from latest CVS with GCC
+                       3.4.4 using --disable-libavformat. This reduces memory
+                       usage at the cost of not being able to demux a few obscure
+                       formats.
+                       Added Linksboks 0.99 (Compiled with XDK 5933).
+                       Included weather display in home screen and changed
+                       weather entry in main menu to web browser.
+
+ Notes...............: If you're having problems with a release, press and hold
+                       down both thumb sticks during boot. Press A when asked to
+                       restore default settings.
+
+ XBMC Changelog......:
+
+ - 09-10-2005 added:   video mode override in my programs.
+ - 08-10-2005 fixed:   dvdplayer would be associated with any files on udf discs.
+ - 08-10-2005 added:   rename xbe in my programs.
+ - 08-10-2005 added:   Playlists to My Music Library, also directly accessible
+                       via XBMC.ActivateWindow(MyMusicLibrary,Playlists)
+ - 08-10-2005 fixed:   some navigation problems with My Music Library sometimes
+                       returning the full album listing for recent and top100
+                       albums
+ - 08-10-2005 fixed:   the "All" items are removed from the object count in My
+                       Music Library
+ - 08-10-2005 fixed:   blank and missing title, artist, album, and genre tags
+                       are set to "unknown"
+
+ MPlayer Changelog...:
+
+ - 04-10-2005 updated: ffmpeg to mplayerhq cvs version as of now. fixes a few
+                       avi's that where causing problems + a few other stuff
+ - 06-09-2005 changed: when resuming normal playback speed, video would jump
+                       ahead a couple of seconds. didn't work well
+ - 22-08-2005 updated: libvorbis interface to mplayer cvs (ad_libvorbis.c:1.18),
+                       fixes vorbis decoding in both matroska and ogm containers
+
+ PM III Changelog....: 
+
+ - 2005-10-09 fixed:   some alignment issues in the OSD subscreens
+ - 2005-10-03 fixed:   new dvd button all good now (what a mofo :P )
+ - 2005-10-03 fixed:   xbmctex.exe couldnt handle the no-focus textures of the
+                       new dvd buttons - made them *.png

@@ -1,0 +1,73 @@
+The companion CDROM for the book Game Programming Gems 5 (ISBN 1584503521)
+
+http://www.amazon.com/exec/obidos/ASIN/1584503521
+
+Note: It's the CDROM only, not an OCR of the book itself. Even so, I thought some might find it interesting.
+
+I've stripped out most of the redistributable stuff (DirectX, GLUT, Java)
+
+Contains accompanying code, examples, demos and/or videos for the following articles:
+
+Section 1: General Programming
+
+1.1 Context-Sensitive HUDs for Editors
+1.2 Parsing Text Data in Games
+1.3 Component Based Object Management
+1.4 Using Templates for Reflection in C++
+1.5 Sphere Trees for Speedy BSPs
+1.6 Improved Frustum Culling
+1.7 Generic Pager
+1.8 Large-Scale Stack-Based State Machines
+1.9 CSG Construction Using BSP Trees
+1.10 Building Lua into Games
+1.11 Improving Freelists with Policy Based Design
+1.12 A Real-time Remote Debug Message Logger
+1.13 A Transparent Class Saving and Loading Trick
+1.14 An Effective Cache-Oblivious Implementation of the ABT Tree
+1.15 Visual Design of State Machines
+1.16 A Generic Component Library
+1.17 Choose Your Path – A Menu System
+
+Section 2: Mathematics
+
+2.3 Spline-Based Time Control for Animation
+2.4 Faster Quaternion Interpolation Using Approximations
+2.6 Oblique View Frustums for Mirrors and Portals
+
+Section 3: Artificial Intelligence
+
+3.2 Fast Target Ranking Using an Artificial Potential Field
+3.8 Advanced Path-Finding with Minimal Re-Planning Cost: Dynamic A* (D*)
+
+Section 4: Physics
+
+4.1 Back of the Envelope Aerodynamics for Game Physics
+4.2 Dyamic Grass Simulation and Other Natural Effects
+4.4 Practical Animation of Soft Bodies for Game Development
+4.5 Adding Life to Ragdoll Simulation Using Feedback Control Systems
+4.6 Designing a Prescripted Physics System
+4.8 Realistic Camera Movement in a 3D Car Simulator
+
+Section 5: Graphics
+
+5.1 Realistic Cloud Rendering on Modern GPUs
+5.3 Widgets: Rendering Fast and Persistent Foliage
+5.4 Dimensional Impostors for Realistic Trees and Forests
+5.5 Gridless Controllable Fire
+5.6 Powerful Explosion Effects Using Billboard Particles
+5.7 A Simple Method for Rendering Gemstones
+5.8 Volumetric Post-Processing
+5.9 Procedural Level Generation
+
+Section 6: Networking and Multi-player
+
+6.4 Fast and Efficient Implementation of a Remote Procedure Calls System
+6.5 Overcoming Network Address Translation in Peer-to-Peer Communications
+6.7 Safe Random Number Systems
+
+Section 7: Audio
+
+7.1 MultiThreaded Audio Programming Techniques
+7.3 Using 3D Surfaces as Audio Emitters
+7.4 Fast Environmental Reverb Based on Feedback Delay
+7.5 Introduction to Single-Speaker Speech Recognition

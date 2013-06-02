@@ -1,0 +1,51 @@
+The Spanshit Inquisition extension for Mozilla Firefox
+
+Version history:
+--------------------------------------------------------------------------------------------
+0.2
+--------------------------------------------------------------------------------------------
+
+Version 0.2 filters automatically on page load. No need for double-clicking anymore.
+
+Extended list of filtered words to: 'pctorrent', 'limitedivx', 'limitevcd', 'espa', 'firedivx', '[french]', 'torrentazos', 'tensiontorrent', 'todovcd', 'zonadivx', '(spanish)', '[spanish', 'spanish]'
+-----------------------------------------------------------------------------------------
+0.1
+--------------------------------------------------------------------------------------------
+
+The Spanshit Inquisition extension for Mozilla Firefox was written to address the large amount of spanish spam-torrents on The Pirate Bay. After a quick installation, torrents with titles matching a set of keywords can be filtered by double-clicking in the torrent-table frame area.
+
+In this first (and maybe only) version, the filter is triggered on the following words:
+
+'[spanish]', 'pctorrent', 'limitedivx', 'limitevcd', 'espa', 'firedivx', '[french]'
+
+which are the ones I personally would rather not see usually.
+
+The matching is case insensitive. Next version may have functionality for adding/removing words, but until then it's possible to unzip the .xpi, changing the words and rebuild. DONT ask me how to do this. roachfiend.com has a how-to on Firefox extensions with all you need to know - follow that ==> http://roachfiend.com/archives/2004/12/08/how-to-create-firefox-extensions/
+
+Anyone who would like to do further work - please do! Then tell me about your much-better-version so I don't have to update mine ;) A script that triggers on page load would be nice for example.
+
+To The Pirate Bay admins: Wake the f*** up and get that dubbed section going!
+
+Compatibility:
+
+Mozilla Firefox. Only tested with 1.0.3.
+
+Installation instructions:
+1. Open tsi.xpi with Firefox.
+2. Close Firefox and reopen.
+3. Done
+
+Update instructions:
+1. Uninstall previous version (Tools menu ==> extensions ==> select extension ==> uninstall).
+2. Follow the installation instructions above.
+
+Usage:
+Toggle filter ON/OFF by right-clicking followed by TSI, or click TSI in the Tools menu. It's recommended that you surf all other sites with the filter turned off as it does consumes some CPU while filtering.
+
+--------------------------------------------------------------------------------------------
+TODO:
+Runtime configuration GUI.
+--------------------------------------------------------------------------------------------
+
+
+Cheers

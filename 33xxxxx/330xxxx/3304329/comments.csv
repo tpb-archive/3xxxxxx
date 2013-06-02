@@ -1,0 +1,575 @@
+﻿User Type,Username,Date,Text
+,Lyrisius,2005-03-21T18:17Z,"En kul grej med denna är att man lätt kan spela online med den. Alltså deathmatch o dylikt.
+Bara att ladda hem den nyaste patchen(update) sen en falsk iso. "
+,schillmaster,2005-03-21T18:20Z,"måste man inte ha en fungerande cd key???
+ps snälla seeda.."
+,TheHooligan,2005-03-22T11:30Z,nej man behöver ingen cd-key.
+,ZeloN,2005-03-24T11:31Z,e det som dom vanliga jedi spelen !?
+,TheHooligan,2005-03-24T14:25Z,ja det är det..
+,tofe,2005-04-03T02:20Z,"När jag ""mountar"" med cd 1 frågar den ändå efter cd 1. Nån som har en problemlösning?"
+,krille.91,2005-04-03T14:10Z,Hur ska jag göra för att det ska funka att starta och börja spela
+,tofe,2005-04-03T17:07Z,"Skaffa D-tools! www.daemon-tools.cc
+Sen är det bara att installera och spela. Fast jag kan bara köra multiplayer, inte solo!"
+,TheHooligan,2005-04-03T19:58Z,jag kan köra solo...hmm....vad kan det var för fel?
+,Willzor,2005-04-16T21:02Z,"Jag har samma problem som Tofe... jag kan inte spela solo player
+
+Jag har disc 1 mountad men ändå säger den Wrong Disc insertet... 2an funkar inte heller men kan spela multiplayer...multip äger vill spela single oxå så TheHooligan svara snälla :D"
+,TheHooligan,2005-04-17T18:23Z,"det finns en mapp på CD1 som heter Razor1911, i den finner ni en fil vid namn ""jasp"". den ska ligga i Jedi Acadamy mappen. i mappen gamedata. (ertsätt filen som redan finns där). sen är det bara att spela på.
+;)"
+,Vunoo,2005-04-25T13:31Z,"Det går inte att få igång den, för det står bara: Assertion Failed: ""clt_IsDirectoryPresent(g_Env[""DataDir""])""!
+File:    sourceIfx_system.cpp
+Line:   173
+
+Abnormal Termination
+
+Select Retry for an environment dump...
+
+Sen trycker jag på försök igen mend e funkar inte..."
+,andjesje,2005-05-06T14:25Z,Hvordan skal jeg åpne den?
+,TheHooligan,2005-05-15T22:52Z,"Tar då detta en gång för alla. 
+
+Installation Guide for Jedi Acadamy:
+
+1. Begin with mount the first ""image"" file: rzr-ja1, with deamon tools (a.k.a. D-Tools).
+
+2. When the installtion begins just follow the instructions (as usual).
+
+3. When the installation asks for CD2, mount rzr-ja2 instead and continue the installation.
+
+4. When the insatllation is finish, mount CD1 again (rzr-ja1). Then open that CD with Explorer (utforskaren). On the disc there  is an directory named Razor1911. Inside that directory there is a file (the crack file). Copy that file and put it in the ""GameData"" directory in /installdir/Jedi Acadamy and overwrite the existing file. 
+(Default SWE: C:ProgramLucasArtsStar Wars Jedi Knight Jedi AcademyGameData )
+(Default ENG: C:Program FilesLucasArtsStar Wars Jedi Knight Jedi AcademyGameData)
+
+5. Then start the game! CD1 should always be mounted in order to play the game. The game crack isn't a ""NO-CD Crack""."
+,Enorshar,2005-05-28T10:36Z,"Va i??? det funkar ju inte! den säger ""Wrong disc inserted"" asså, jag har installerat det EXAKT som du sa i guiden, jag har lagt cracket där det ska, och jag har kopierat alla filer och lagt det i en mapp på skrivbordet för att alla filer var skrivskyddade, så man blir tvungen att kopiera alla filer och lägga dom nånstans, för det går inte lägga in filer eller kopiera in cracket till database där cd1 ligger mountad..."
+,Mr_Pr0n,2005-05-31T21:06Z,"Knäcker er nog alla i att ha mest fel med denna fil, mountar med D-tools, dubbelklick @ cd 1 i enhet E
+Den startar upp, klickar på Singel Player Game
+Då står det: Unable to open game folder, If you are logged in with limited privilegies, please logg off, logg back on as Administrator and try again.
+CEPE!"
+,Djo,2005-06-08T22:25Z,Jag kan inte byta till cd 2. det står setup could not find file bla bla bla... vad gör jag nu .. jag mounta alla platser på d-tools
+,Djo,2005-06-08T22:28Z,eller glömm det
+,braskamin1,2005-06-16T15:19Z,Gå gärna med i min Star Wars clan på www.theacients.cjb.net (Join my star wars clan at www.theacients)                   
+,C-O-L-D,2005-06-17T02:53Z,HUR i helvet* fixar jag bin så det blir till fler filer så man sen kan köra spelet?........ blindwriter kopierar bara från cd till cd eller cd till filer eller filer till d.................... daemon tools läser inte bin. HJÄLP!
+,C-O-L-D,2005-06-17T02:53Z,HUR i helvet* fixar jag bin så det blir till fler filer så man sen kan köra spelet?........ blindwriter kopierar bara från cd till cd eller cd till filer eller filer till cd.................... daemon tools läser inte bin. HJÄLP!
+,xxxdevilxxx,2005-06-30T21:03Z,det var en väldigt bra guide som thehooligan skrev men ja hittar inte Razor1911 ... jag har gjort som guiden säger men ja fastnar vid den där Razor1911 å crackningsgrejerna ... snälla hjälp !  
+,xxxdevilxxx,2005-06-30T21:29Z,det var inget.. funkar nu.. sökte på razor1911 å så hittade jag jasp filen :D tack TheHooligan för spelet 
+,Cirtaboy,2005-08-04T12:47Z,"Spelet fungerar hur bra som helst :)
+Tack TheHooligan."
+,aim_here,2005-08-11T19:26Z,Kom igen nu!!! Växlar mellan 0-1 KB per sekund ju :( seeda nu da :(
+,narr,2005-08-14T22:58Z,410 - 440 kb/s :D! rullar på förfullt!
+,bjorn_THE_man,2006-01-22T10:26Z,Hur tar jag bort skrivskyddet från cd-romen ???????????????
+,clashman,2006-01-26T09:52Z,"I only get: Wrong disk inserted...
+WTF should I do??"
+,larslarsen,2006-01-27T00:35Z,"To clashman (and others who have problems with getting CD2 to work): only mount one image at a time. To install the game and not get errors with CD1 or CD2 do this:
+- mount image 1
+- start install
+- unmount image 1
+- mount image 2 at same drive letter as image 1 was mounted
+- continue installation
+- unmount image 2
+- mount image 1 again at same drive letter as image 1 was first mounted
+
+and then use the crack file."
+,doctor_abbe,2006-01-28T22:54Z,snälla hjälp mig va betyder mounta?hur gör man det?
+,ParaziteX,2006-01-29T16:20Z,"uhh, what am i really supposed to do? since the files are Nero Disk Images, am i supposed to ""convert"" them with i.ex Alcohol to mdf/mds files, and then mount them, or what should i do!?!
+
+Please Help!"
+,doctor_abbe,2006-02-10T22:50Z,"behöver ,man mounta ps2 spel me???"
+,kris kuk,2006-04-26T13:07Z,"okey, im whery pist right now:@, ive found the crack, copyed the mounted cd 1 into a folder on the desk, and then copyed the crack into the the folder: game data, and replaced the old ""jasp"" with the crack ""Jasp"" form the separate folder razor 1911. but when i try to run the game by clicking on ""jasp"", i only get a small black window with lots of yellow typing in it. at the top it says: ""couldnt load default.cfg"" WTF am i going to do to play ?"
+,Marcus_nr1,2006-06-30T11:09Z,"ja kan juh inte spela , kan nån hjälpa mig ?"
+,Marcus_nr1,2006-06-30T20:52Z,de funkar juh inte hjälp mig !
+,Shargy,2006-07-24T19:37Z,"seeda mer, ja kommer bara upp i 13 kb/s"
+,carter2241,2006-08-02T16:42Z,"I have an Error with Disc 2 still
+
+It reports that it is not a formatted drive
+
+So i cant continur my Installation"
+,thenet,2006-09-06T02:33Z,"Im having the same prob as kris kuk, i installed the game, found the crack and followed your installation guide but i get a black window with yellow type and says GLW_StartOpenGL() - could not load OpenGL subsystem. i have no idea what to do now, plz help i really wana play this game!"
+,superbaard,2006-09-09T11:05Z,"Seed Please, i have been stuck on 5kb for a week now, please seed it i cannot find it in my stores as i live in kaz
+Plzzz"
+,superbaard,2006-09-09T11:06Z,Actually is stands fuing still...
+,superbaard,2006-09-09T21:45Z,OMFG SEED
+,superbaard,2006-09-09T21:47Z,"im stuck on 99,7% omfg please seed it have been on for a week n noone seeds please ill seed 24/7 cmooon plz"
+,superbaard,2006-09-09T21:54Z,im seeding 90max plz cmon someone with 100 SEED
+,superbaard,2006-09-09T21:55Z,"Seeda mer, jag kommar bare opp i 0 kpbs..."
+,superbaard,2006-09-09T21:59Z,grr...seed
+,0scar,2006-09-19T06:58Z,"i cant understand where the crack is.
+i have been looking for a while now in the cd, but i cant find it. how can i get the crack and how do i open the files?"
+,0scar,2006-09-19T15:09Z,"jag har installerat spelet och försökt köra det men man ser inga gubbar sen i själva spelet!
+det är helt skummt vad är det för fel?"
+,Linde12,2006-10-17T16:57Z,"Ty so much! i really love this game STAR WARS but i havent installed it yet
+im not so good at that"
+,Hampfzter,2006-10-18T14:20Z,hur gör man om man inte ser gubben i single player?
+,LFC Gutt,2006-10-25T14:50Z,SEED!!!! 
+,juhki15,2006-11-17T12:51Z,Do i have to burn this or can i mount? :o
+,kremtopper,2007-01-08T19:37Z,tjenare asså jag undrar hur man kan kopiera razor1911 till gamedata bara för att när man ska kopiera filen så stor de att det inte gick eftersom den är skivskyddad så jag behöver verkligen hjälp på hur man kan kopiera den snälla skriv till mig och säg hur man ska göra!!!!!!
+,Not_1,2007-01-12T19:27Z,"I need help/Behöver hjälp...
+
+Har installerat spelet och har kopierat cracken och allting, men får inte igång spelet. Får upp en svart ruta med diverse meddelanden i gul text, varav det allra sista som dyker upp är ""GLW_StartOpenGL() - could not load OpenGL subsystem"". Någon idé?"
+,fuzzydude45,2007-02-13T22:17Z,thx:-)
+,JOEYdropkick,2007-02-18T01:48Z,singleplayer game will not work. it keeps saying wrong disc even after i mount it on daemon tools. help!
+,_kvisten,2007-04-29T19:58Z,SEEDA! 
+,gusnor123,2007-04-29T20:04Z,det går otroligt sakta nu..
+,Pommern,2007-05-01T22:45Z,"When you try to play single it asks for a disc, thats cause you need to download the last patch.
+
+You can get it on Jk2files.com
+
+Just download the patch and it works."
+,caj81,2007-05-27T13:11Z,bra guide men det är vissa som inte fattar hur man kopierar cracket alltså det irriterar mig ingen vet fan men jag vet  xD
+,caj81,2007-05-27T13:12Z,det går väldigt snabbt ni som säger att det är segt skaffa nytt nätverk eller dator xD
+,caj81,2007-05-27T13:14Z,fan va snabbt de ttar 1 procent på en minut fett bra seednig
+,Reidarm,2007-07-01T02:05Z,"Jeg har mounted det.. Men der står wrong disk når jeg trykker på singleplayer !! Hvor finder jeg crack filen ? Where do I find the crack file ? It said ""Wrong Disk"""
+,rickardmifo,2007-08-08T19:28Z,"Guyys plz seed, I realy wants this game .. :S !! :)
+
+Guuys snälla seeda, Jag vill verkligen ha detta spel !!!! :)"
+,Dudud,2007-08-10T18:45Z,SEEDA FFS!
+,spleak,2007-08-13T22:27Z,jag ska seeda som fan ... så länge ni vill ha seed ligger här på .. ca 4 mbit ...... ska fixa bättre men det är iaf nått !!
+,spleak,2007-08-13T22:30Z,och om nån behöver hjälp sej ba till ...... The Hooligan ..... dude ..... why u dont put the multi player crack in too !?  its just anoying  to serach in another map tht got booth look cd 1 then game data then its another map with game data ..... there booth crack are ... to booth to single and multi !!! 
+,Taggerman,2007-09-06T18:11Z,"Seed please! download with 8KB/S!!
+please!"
+,Taggerman,2007-09-09T21:55Z,please seed just a little more! im at 73%!
+,BobbisX,2007-09-14T20:07Z,Vart är cracken?
+,sweatyrich,2007-09-27T12:26Z,"Guys Guys Guys,
+Mount the FIRST image using some freeware program.
+Install it.  It'll get half way thru and ask for the 2nd disk.
+Now mount the 2nd image on the same drive.
+It'll complete the install, and then ask for the first disk again.
+
+Then in Windows Explorer, goto the mounted drive and copy jasp.exe from the Crack directory, and use it to replace the file in the GameData install directory
+e.g.
+C:\Program Files\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData
+
+Then it will all work fine.
+
+If your machine is hanging at the command line black window after starting the game, then you probably don't have the right version of Direct X.
+
+Choose HELP from the main menu and then click ""Analyze Your Computer"".  this will tell you if your machine has whatever is required to run the game.
+
+Just installed it and it's working a treat!"
+,lepun,2007-10-17T20:22Z,"Thank you, Sweatyrich, and of course TheHooligan.
+Anyways it is a really great and exciting game!
+
+(I'll Seed for a while when my DL is complete.)"
+,kcsx,2007-10-29T05:06Z,"sweatyrich, you are a god among men. it's always nice when someone cares enough to give a little helpful instruction here and there."
+,Zion993,2007-11-13T19:10Z,Seed please 
+,DizzNinja,2007-11-17T05:24Z,"How do I ""mount an image"" with daemon tools? It didnt tell me to insert any CDs when i was installing, just when I clicked Play Singleplayer"
+,VDNT,2007-12-22T14:15Z,seed plz....:D
+,VDNT,2007-12-22T14:20Z,bara i 50 kb/s...:S snälla seeda!!!:S
+,born2rule-matte,2008-01-04T22:01Z,Don´t get the game work multiplsyer works fine but not singleplayer :o please help somebody
+,born2rule-matte,2008-01-04T22:01Z,sry for my bad English
+,robban_lol,2008-01-09T18:22Z,"Plz seed!! plz seeed.
+
+come on i really want this game
+
+"
+,De_jan,2008-01-12T13:50Z,Where is the crack??
+,Gshit,2008-01-15T12:45Z,"instalationen stoppar på 46% och ett errormeddelande poppar upp, det står
+
+Component: Game 1
+File Group: Game 1 Files
+File: F:\GameData\GameData\base\assets0.pk3
+Error: Datafel (CRC-fel, Cyclic Redundancy Check)
+
+Vad e felet???"
+,Ghost.,2008-01-20T12:26Z,"Hey guys, i was curious to see if anyone can help me with my problem: i have the game installed everything was running smoothly
+
+until i restarted my computer and(you know opened DAEMON and made sure that everything was loaded in the CORRECT drive)
+
+ now my question is, why is it when i click""play singleplayer"" it says
+""Please insert Disk/cd 1""
+i've tried remounting it, unmounting it etc
+
+nothing. can anyone render assistance?"
+,lanarn99,2008-01-20T16:56Z,"Ja får också upp en skylt...
+fasst vid 41% där det står 
+
+Component: Game 1
+File Group: Game 1 Files
+File: F:\GameData\GameData\base\assets0.pk3
+Error: Enheten är inte klar
+
+D-tools slutar mounta automatiskt och spelet vill inte byta cd än...
+jag har försökt med massor snälla hjälp någon"
+,_the_ink_man,2008-01-24T11:01Z,I need some help and thats now!!! when i play in singleplayer i cant see any people in the game. i only see the other stuff. Not my weapons or people. its rather enoying. PLEASE someone help me with this. i love this game really. Thanks
+,_the_ink_man,2008-01-24T11:02Z,I need some help and thats now!!! when i play in singleplayer i cant see any people in the game. i only see the other stuff. Not my weapons or people. its rather enoying. PLEASE someone help me with this. i love this game really. Thanks 
+,kristensen93100,2008-01-29T16:02Z,plx seed (:
+,J_Walk,2008-02-13T19:24Z,"there are 4 files in this. maby its just me but anybody thats having problems make sure your installing the two files that ay 1kb. that solved my problem. also if you need to, download that patch from jk2files.com but make ure you install the 1kb file. it worked for me anyway."
+,luleaking,2008-02-22T21:16Z,"JA: v1.0.0.0 win-x86 Aug  5 2003
+Initialising zone memory .....
+----- FS_Startup -----
+Current search path:
+C:\Program\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData\base\assets2.pk3 (62 files)
+C:\Program\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData\base\assets1.pk3 (8320 files)
+C:\Program\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData\base\assets0.pk3 (15346 files)
+C:\Program\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData/base
+
+----------------------
+23728 files in pk3 files
+execing default.cfg
+couldn't exec jaconfig.cfg
+couldn't exec autoexec.cfg
+...detecting CPU, found Intel Pentium IV
+
+------- Input Initialization -------
+Skipping check for DirectInput
+Joystick is not active.
+------------------------------------
+----- Client Initialization -----
+----- Initializing Renderer ----
+-------------------------------
+----- Client Initialization Complete -----
+--- Common Initialization Complete ---
+Working directory: C:\Program\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData
+Initializing OpenGL subsystem
+...initializing QGL
+succeeded
+...setting mode 4: 800 600 FS
+...using desktop display depth of 32
+...calling CDS: ok
+...registered window class
+...created window@0,0 (800x600)
+Initializing OpenGL driver
+...getting DC: succeeded
+...GLW_ChoosePFD( 32, 24, 8 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...GLW_ChoosePFD( 32, 24, 0 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...failed to find an appropriate PIXELFORMAT
+...restoring display settings
+...WARNING: could not set the given mode (4)
+...setting mode 3: 640 480 FS
+...using colorsbits of 16
+...calling CDS: ok
+...created window@0,0 (640x480)
+Initializing OpenGL driver
+...getting DC: succeeded
+...GLW_ChoosePFD( 16, 16, 0 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...GLW_ChoosePFD( 16, 16, 0 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...failed to find an appropriate PIXELFORMAT
+...restoring display settings
+...WARNING: could not set the given mode (3)
+...shutting down QGL
+...unloading OpenGL DLL
+----- CL_Shutdown -----
+-----------------------
+GLW_StartOpenGL() - could not load OpenGL subsystem
+
+vad ska jag göra för att fixa det här? "
+,luleaking,2008-03-02T08:39Z,"JA: v1.0.0.0 win-x86 Aug 5 2003
+Initialising zone memory .....
+----- FS_Startup -----
+Current search path:
+C:\Program\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData\base\assets2.pk3 (62 files)
+C:\Program\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData\base\assets1.pk3 (8320 files)
+C:\Program\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData\base\assets0.pk3 (15346 files)
+C:\Program\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData/base
+
+----------------------
+23728 files in pk3 files
+execing default.cfg
+couldn't exec jaconfig.cfg
+couldn't exec autoexec.cfg
+...detecting CPU, found Intel Pentium IV
+
+------- Input Initialization -------
+Skipping check for DirectInput
+Joystick is not active.
+------------------------------------
+----- Client Initialization -----
+----- Initializing Renderer ----
+-------------------------------
+----- Client Initialization Complete -----
+--- Common Initialization Complete ---
+Working directory: C:\Program\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData
+Initializing OpenGL subsystem
+...initializing QGL
+succeeded
+...setting mode 4: 800 600 FS
+...using desktop display depth of 32
+...calling CDS: ok
+...registered window class
+...created window@0,0 (800x600)
+Initializing OpenGL driver
+...getting DC: succeeded
+...GLW_ChoosePFD( 32, 24, 8 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...GLW_ChoosePFD( 32, 24, 0 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...failed to find an appropriate PIXELFORMAT
+...restoring display settings
+...WARNING: could not set the given mode (4)
+...setting mode 3: 640 480 FS
+...using colorsbits of 16
+...calling CDS: ok
+...created window@0,0 (640x480)
+Initializing OpenGL driver
+...getting DC: succeeded
+...GLW_ChoosePFD( 16, 16, 0 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...GLW_ChoosePFD( 16, 16, 0 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...failed to find an appropriate PIXELFORMAT
+...restoring display settings
+...WARNING: could not set the given mode (3)
+...shutting down QGL
+...unloading OpenGL DLL
+----- CL_Shutdown -----
+-----------------------
+GLW_StartOpenGL() - could not load OpenGL subsystem
+
+vad ska jag göra för att fixa det här??
+jag har GeForce 4 ti"
+,h4lly,2008-03-07T20:55Z,Where the **** is the ******* crack!!!!
+,h4lly,2008-03-07T22:03Z,where do i put the crack?
+,h4lly,2008-03-15T12:57Z,"JA: v1.0.0.0 win-x86 Aug  5 2003
+Initialising zone memory .....
+----- FS_Startup -----
+Current search path:
+C:\Documents and Settings\Administrator\Skrivebord\SWJA\GameData\GameData\base\assets2.pk3 (62 files)
+C:\Documents and Settings\Administrator\Skrivebord\SWJA\GameData\GameData\base\assets1.pk3 (8320 files)
+C:\Documents and Settings\Administrator\Skrivebord\SWJA\GameData\GameData\base\assets0.pk3 (15346 files)
+C:\Documents and Settings\Administrator\Skrivebord\SWJA\GameData\GameData/base
+
+----------------------
+23728 files in pk3 files
+execing default.cfg
+couldn't exec jaconfig.cfg
+couldn't exec autoexec.cfg
+...detecting CPU, found Intel Pentium IV
+
+------- Input Initialization -------
+Skipping check for DirectInput
+Joystick is not active.
+------------------------------------
+----- Client Initialization -----
+----- Initializing Renderer ----
+-------------------------------
+----- Client Initialization Complete -----
+--- Common Initialization Complete ---
+Working directory: C:\Documents and Settings\Administrator\Skrivebord\SWJA\GameData\GameData
+Initializing OpenGL subsystem
+...initializing QGL
+succeeded
+...setting mode 4: 800 600 FS
+...using desktop display depth of 32
+...calling CDS: ok
+...registered window class
+...created window@0,0 (800x600)
+Initializing OpenGL driver
+...getting DC: succeeded
+...GLW_ChoosePFD( 32, 24, 8 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...GLW_ChoosePFD( 32, 24, 0 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...failed to find an appropriate PIXELFORMAT
+...restoring display settings
+...WARNING: could not set the given mode (4)
+...setting mode 3: 640 480 FS
+...using colorsbits of 16
+...calling CDS: ok
+...created window@0,0 (640x480)
+Initializing OpenGL driver
+...getting DC: succeeded
+...GLW_ChoosePFD( 16, 16, 0 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...GLW_ChoosePFD( 16, 16, 0 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...failed to find an appropriate PIXELFORMAT
+...restoring display settings
+...WARNING: could not set the given mode (3)
+...shutting down QGL
+...unloading OpenGL DLL
+----- CL_Shutdown -----
+-----------------------
+GLW_StartOpenGL() - could not load OpenGL subsystem
+"
+,hosmy,2008-03-18T21:58Z,"RS Mirror:
+h**p://romaniainedit.us/star-wars-jedi-knight-jedi-academy-t-23589.html"
+,Zero313,2008-03-22T11:40Z,what does he mean with roast the file????
+,ak6an,2008-03-24T19:22Z,use winrar instead of deamontools deamontools sucks... just a suggestion
+,ak6an,2008-03-27T13:53Z,HOW FUCK DO I DO WITH DEAMONTOOLS??
+,AirMax360,2008-04-02T20:28Z,"Okey, its nice and how do after i downloaded???
+
+Bra jobbat!"
+,Pemba_5,2008-04-23T17:08Z,"eyy, när ja har stängt av datorn o de, och sens ka spela igen senare så går det inte! Det står att CD 1 inte är i! "
+,Garfiield123,2008-04-28T13:57Z,thx thank you game works great thx i like the game hehe:D
+,karre_95,2008-05-01T21:48Z,plz seeed
+,karre_95,2008-05-01T21:48Z,can somebody                 seed snälla seeda
+,wakoo94,2008-05-02T23:35Z,"what do you mean by seed?
+im new here..."
+,tjabo_,2008-05-04T20:12Z,plz seed 
+,robban_lol,2008-05-14T07:02Z,"Heej ja har en lösning för er alla som det kommer upp en svart ruta med gul text i o i slutet av den rutan så står det så här GLW_StartOpenGL() - could not load OpenGL subsystem 
+
+då ska ni gå in på internet och googla på opengl.dll sen laddar ni ner den och sen så är det bara ni kopierar det in till C:\WINDOWS\system   och en till C:\WINDOWS\System32 sen så funkar det o köra spelet
+funkar jättebra för mig just nu:P"
+,L0L3R,2008-05-15T20:10Z,ok plz seed ppl want this nice game :D
+,EradanIngolemo,2008-05-25T16:25Z,There's CRC error on the second disc while installing or copying 'assets1.pk3'. So the game setup can't install the game. Is it a common problem with this torrent?
+,motots250,2008-06-01T02:11Z,can some1 help plz? ive got the game all downloaded. but i cant find the crack anywear. ive looked all over for Razor1911. i cant even open the rzr-ja1 file b/k it says its a BIN file. i can however open it in winRAR. but i dont see anyother directory. but i can get the single player mod to start. but the multi always crashes about 5 sec. after i lode the servers. its says somthing like connection interrupted. any1 got a clue? 
+,Jamnet70,2008-06-05T21:28Z,"Please Seed! i rly want this game
+
+Snälla Seeda jag vill värkligen ha detta spelet!"
+,Jamnet70,2008-06-06T08:02Z,"When im gonna play the game at Singleplayer The Game starts to Lag as Hell , Can anyone Help me with this prob ? Got Windows Vista and got 1024x768 , 32-bit"
+,BackWithVengeance,2008-06-06T19:48Z,I finally got this torrent downloaded. The installation notes do not math up with the files i got... Has anyone else had this problem and How do i install it?
+,BHT88,2008-06-10T07:23Z,"CRACKS
+
+http://www.gameburnworld.com/gp/gamefixes/starwarsjediknightacademy.shtml
+
+http://www.gameburnworld.com/gp/gamefixes/jediknight2jedioutcast.shtml"
+,pullo-man,2008-06-19T19:36Z,"woah nice seedin  but comin only 40 to 50 kb/s
+hope its gonna work"
+,Iszzy123,2008-07-03T22:27Z,"Thehooligan tack för info , hjälpte mig skit mkt !"
+,Longbow544,2008-07-11T21:21Z,"Nice, alot of seeders, im downloading at 175-250kb/s"
+,bb_gd,2008-08-01T06:21Z,"Why the f**k do i not see people and sprites and stuff when the game starts...  This is annoying i finally get the bloody game to work, and the ass face donkey shit buffalo shizz windows vista can't even fucking load the damn sprites"
+,bb_gd,2008-08-01T06:23Z,"I cant' see any people or sprites in the gameplay and stuff.  wtf?!  
+
+
+Fuck vista  
+
+can anybody help or anything?"
+,WhiteSnow,2008-08-02T15:58Z,"the speed is pretty slow on this...
+any way you can speed it up? (4-6k/s)"
+,majf0h,2008-08-14T17:17Z,"PLz seed, LOVE STAR WARS :D"
+,wentwog,2008-08-28T11:46Z,"        Hi I've got this problem :
+
+Initializing OpenGL driver
+...getting DC: succeeded
+...GLW_ChoosePFD( 32, 24, 8 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...GLW_ChoosePFD( 32, 24, 0 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...failed to find an appropriate PIXELFORMAT
+...restoring display settings
+...WARNING: could not set the given mode (4)
+...setting mode 3: 640 480 FS
+...using colorsbits of 16
+...calling CDS: ok
+...created window@0,0 (640x480)
+Initializing OpenGL driver
+...getting DC: succeeded
+...GLW_ChoosePFD( 16, 16, 0 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...GLW_ChoosePFD( 16, 16, 0 )
+...35 PFDs found
+...GLW_ChoosePFD failed
+...failed to find an appropriate PIXELFORMAT
+...restoring display settings
+...WARNING: could not set the given mode (3)
+...shutting down QGL
+...unloading OpenGL DLL
+----- CL_Shutdown -----
+-----------------------
+GLW_StartOpenGL() - could not load OpenGL subsystem
+
+       Can someone help me please, thanks."
+,hacker-nacker,2008-10-08T17:41Z,"Thanx for the upload!
+
+But i do have a little problem... When i play the single player game the first mission starts... I go to a place where a beast screams... I defeat it and after that another beast screams... after i defeat them i am going to knock down a tree so my partner can come with me but he allways jumps and when he lands he is dead... Mission failure... Plz help what should i do in that situation? Ive tried many times but without luck... Little help thanx...
+
+You can wright in swedish if you want..."
+,hacker-nacker,2008-10-08T17:51Z,Sorry! I know what to do now... No problems... My partner had a too little life...
+,Gibson18,2008-10-19T12:13Z,"I cant install the game :X when i'm installing at the 47% appear to put the 2nd cd and appear something like:""asset3.pk""or something, that says to me to put the assse... but i cant find him, and i cant put the crack on the install stuff, but isnt installed lol! plezz help!"
+,akademi5,2008-11-07T12:47Z,"Why only multiplay works ? When I but disck one it says wrong disc! But when I but Dick 2 it says but dick one WTF!!!!!
+
+
+
+HELP !"
+,frasuger,2008-11-08T18:38Z,seeda seeda
+,vondony,2008-12-03T19:03Z,funkar om detta ska jag mounta både cd skivorna sen installera och kopiera crack från cd 1 ? 
+,vondony,2008-12-03T19:11Z,tack thehooligan om detta går att spela :D
+,Randerssonx,2009-01-01T20:53Z,"OMG NOOB it's beacuse you only can play Online but buy the game if u wanna play offline^^ 
+
+
+:)"
+,Randerssonx,2009-01-01T23:52Z,"asså det funkar skit bra när du precis installerat det men sen kan jag fan inte spela andra gången jag ska spela
+står ngt om en ui fil :S"
+,aliceinblunderland,2009-01-02T04:45Z,"worked perfect for me. took a few hours to get it working, had problems to contiune on cd2 during install but it always works in the end. will be seeding for a while. thanks!"
+,Randerssonx,2009-01-03T23:46Z,"lol jag kan spela utan att ha kopierat in cracket^^ bara så ni vet ...
+
+lol i can play without have copy the crack just that u guys now"
+,Randerssonx,2009-01-03T23:48Z,"JAmp: v1.0.0.0 win-x86 Jul 21 2003
+----- FS_Startup -----
+Current search path:
+C:\Program Files\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData\base\assets2.pk3 (62 files)
+C:\Program Files\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData\base\assets1.pk3 (8320 files)
+C:\Program Files\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData\base\assets0.pk3 (15346 files)
+C:\Program Files\LucasArts\Star Wars Jedi Knight Jedi Academy\GameData/base
+
+----------------------
+23728 files in pk3 files
+execing mpdefault.cfg
+execing jampconfig.cfg
+couldn't exec autoexec.cfg
+...detecting CPU, found AMD w/ 3DNow!
+
+------- Input Initialization -------
+Skipping check for DirectInput
+Joystick is not active.
+------------------------------------
+...initializing QGL
+succeeded
+...setting mode 8: 1280 1024 FS
+...using desktop display depth of 32
+...calling CDS: ok
+...created window@0,0 (1280x1024)
+Initializing OpenGL driver
+...getting DC: succeeded
+...GLW_ChoosePFD( 32, 24, 8 )
+...65 PFDs found
+...hardware acceleration found
+...PIXELFORMAT 2 selected
+...creating GL context: succeeded
+...making context current: succeeded
+Initializing OpenGL extensions
+...GL_EXT_texture_compression_s3tc available
+...no tc preference specified
+.....using GL_EXT_texture_compression_s3tc
+...using GL_EXT_texture_env_add
+...GL_EXT_texture_filter_anisotropic available
+...using GL_EXT_texture_filter_anisotropic
+...Using GL_EXT_texture_edge_clamp
+...using WGL_EXT_swap_control
+...using GL_ARB_multitexture
+...using GL_EXT_compiled_vertex_array
+...using GL_EXT_point_parameters
+...GL_NV_register_combiners not found
+
+GL_VENDOR: ATI Technologies Inc.
+GL_RENDERER: RADEON X700/X550 Series (Microsoft Corporation - WDDM)
+GL_VERSION: 2.1.8304 Release
+GL_EXTENSIONS: GL_AMD_performance_monitor GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_shader_objects GL_ARB_shading_language_100 GL_ARB_shadow GL_ARB_shadow_ambient GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_mirrored_repeat GL_ARB_texture_non_power_of_two GL_ARB_texture_rectangle GL_ARB_transpose_matrix GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_envmap_bumpmap GL_ATI_fragment_shader GL_ATI_meminfo GL_ATI_separate_stencil GL_ATI_texture_compression_3dc GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_copy_texture GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_object GL_EXT_gpu_program_parameters GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_EXT_subtexture GL_EXT_texgen_reflection GL_EXT_texture3D GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_vertex_array GL_KTX_buffer_region GL_NV_blend_square GL_NV_texgen_reflection GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_WIN_swap_hint WGL_EXT_swap_control
+GL_MAX_TEXTURE_SIZE: 2048
+GL_MAX_ACTIVE_TEXTURES_ARB: 8
+
+PIXELFORMAT: color(32-bits) Z(24-bit) stencil(8-bits)
+MODE: 8, 1280 x 1024 fullscreen hz:60"
+,darth17,2009-03-20T18:59Z,does it work on vista 
+,Shankly92,2009-06-07T19:11Z,Does this work?
+,adesas99,2009-06-23T20:33Z,akademi5 put dick instead of disk!!!
+,Hawkeye_45,2009-09-09T03:08Z,"""akademi5 put dick instead of disk!!!""
+
+OMG NO WAY!!!!!
+
+I'm 13 too! so that means that I'm gonna laugh and giggle and tell all of my friends!
+          (Sarcasm)
+
+
+No one older than 15 would care about that enough to post a comment about it -.-"
+,harper9393,2009-11-30T05:38Z,just started the download so dont know if it works yet but i have been looking for this for a while i useto e addicted to this game also i will bee seeding it for about a month i all ways do thanks
+,callum99,2010-06-05T11:25Z,Slow download if you have bad internet connection at like 70kb per second but... WORTH IT!

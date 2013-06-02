@@ -1,0 +1,133 @@
+﻿User Type,Username,Date,Text
+,Juttan,2005-04-26T12:47Z,Skulle vilja bränna ut detta. Viket program behövs?
+,berno,2005-04-26T16:26Z,"samma fråga som Juttan, blacksabbath grunkan funka juh finfint me nero"
+,juggleruk,2005-04-26T19:41Z,"How do I burn this to CD?
+Wish people who do DTS cds would just do a Nero image.
+Everyone knows how burn an image."
+,bigguy-1,2005-04-27T01:09Z,"thanks love dts ,you burn this like any oyher music cd,but it plays only on a dvd player whit digital theater systeme."
+,harvey28,2005-04-27T10:03Z,"How do you 'burn this like any other music cd' ?
+
+Nero won't recognise .dts. Does it need a plug-in? If so, where can I find it?
+
+Or do I copy it as a data file to a CD? [CD-ROM (ISO)]
+
+Thanx"
+,dredawg,2005-04-28T00:43Z,"sorry guys...  D/L this:
+
+http://hypercubemx.free.fr/html/download.php?download_id=2
+
+convert the DTS back to wav (DTSWAV) and burn that.
+
+I encoded them to DTS as they get smaller but suffer no quailty loss.
+
+Cheers!  :)"
+,qtx999,2005-04-28T02:29Z,"this is great, but what about the track info?
+"
+,harvey28,2005-04-28T10:22Z,"Thanx, but using dts2wav, I get a .wav file of 438,254 KB which Nero still won't recognise.
+
+Any ideas?"
+,bigguy-1,2005-04-29T03:40Z,"i just found a way to burn this using alcohol 120%,select image burning load your dts audio file,in the file type select all file,in the track format select audio file and ok you can burn it and play it on your home theater dvd system voila!"
+,harvey28,2005-04-29T18:06Z,"Tried it.
+
+All I hear is static from the .dts file.
+
+The converted .wav file burned the same way plays silently.
+
+Thanx for the effort."
+,bigguy-1,2005-04-30T16:57Z,"you need a 6 speaker sound card or a home theater system ,if you play it on a regular 2 speaker sound card or stereo you will hear static"
+,dredawg,2005-04-30T18:58Z,"to play the DTS file on your PC use a DVD player like PowerDVD.
+
+To Play the DTSWAV on your PC use VLC Player:
+
+http://www.videolan.org/vlc/
+
+To play in your home theater system (standalone DVD player), burn the DTSWAV using Alchohol.  This will NOT work with regular CD players, or progams like Winamp, etc."
+,biggest_163,2005-05-02T13:03Z,"has anyone managed to get this to work.... i've tried everything with alcohol 120, nero and dts2wav.exe, and still i cant get it to work.... i do have compatable dts player so that not theproblem!!!
+
+IF YOU HAVE PLS PLS PLS CAN YOU POST HERE HOW TO GET THIS TO PLAY AS A DTS AUDIO CD..... thanks in advance!!!!!"
+,dredawg,2005-05-02T19:57Z,"try besplit:
+
+http://dspguru.notrace.dk/BeSplitv0.9b6.zip
+
+usage:
+
+besplit.exe -core ( -logfile besplit.log -input robot.dts -output robot.dtswav -type dts -fixcrc )
+
+more info on BeSplit here:
+
+http://besplit.doom9.org/"
+,cedemera,2005-05-03T09:32Z,"Hello! Why not just fix it to DTSWve and put the ""new"" one out and seed it again - Thank You in Advance!"
+,harvey28,2005-05-03T09:34Z,"Not a bad idea. 
+
+I still get static (white noise) using besplit.
+
+Help!!!!
+
+Is there really anyone who has made this work?"
+,biggest_163,2005-05-03T12:13Z,".nrg file would also be very good as everyone knows how to sort them out...... i realy would like this and it would be so appeciated if you could sort it mate.
+
+THANKS IN ADVANCE"
+,harvey28,2005-05-05T10:18Z,"here is the log from my besplit session:
+
+BeSplit v0.9b6 by DSPguru.
+--------------------------
+
+Logging start : 05/05/05 , 09:15:49.
+
+besplit.exe -core ( -logfile besplit.log -input aqualung.dts -output a.dtswav -type dts -fixcrc ) 
+
+[00:00:00:000] +------- BeSplit -----                          
+[00:00:00:000] |  Input : aqualung.dts
+[00:00:00:023] Stream error : Sync found after 2261 bytes
+[00:00:00:000] |  Source Sample-Rate: 44.1KHz
+[00:00:00:000] |  Channels Count: 5.1, Bitrate: 1411.2kbps
+[00:00:00:000] |  Output : a.dtswav
+[00:00:00:000] +---------------------                          
+[00:00:00:023] Stream error : Sync found after 2261 bytes
+[00:42:23:978] |  Writing a.dtswav
+[00:42:23:978] +---------------------                          
+[00:42:23:978] Operation Completed !
+[00:00:29:000] <-- Process Duration
+Logging ends : 05/05/05 , 09:16:18.
+
+
+Stream error? WTF? Is something wrong with the original .dts file?"
+,biggest_163,2005-05-05T19:52Z,"THIS TORRENT IS BOLLOXED, DONT WASTE YOUR BANDWIDTH DOWNLOADING IT!!!!! 
+
+HOWEVER THANX TO ORIGINAL POSTER FOR TRYING, BUT TRY NEXT TIME  PLS CHECK ITS IS WRITABLE TO DISC PAL, AS SOME OF US ONLY HAVE A LIMITED BANDWIDTH!!!!"
+,harvey28,2005-05-07T10:10Z,"Yes, I can play the dtswav using VLC, but as I don't have 5.1 on my PC it's pretty pointless.
+
+I do have a 5.1 DVD home cinema system and I was hoping to be able to burn and play on that.
+
+If you do have a CD or DVD that plays properly on an 5.1 DVD player, PLEASE can you make an image that we can download?
+
+You imply that you have a disc and the dts was ripped from it and that it's easy to burn. If you don't have a disc that works, please say so. Let's stop wasting our time making countless coasters."
+,juggleruk,2005-05-12T18:01Z,"If your having trouble burning after using dts2wav you just have to change the filename extension from 
+
+Aqualung.dts.wav
+
+to
+
+Aqualung.dtswav
+
+(removing the dot between dts and wav
+
+then burn using Alcohol"
+,harvey28,2005-06-13T00:32Z,"Jesus, people are still downloading this.
+
+Anyone manage to play it on a home 5.1 system?
+
+I think you're all wasting your time. 
+
+The original poster won't answer anymore queries and no one can get this to work."
+,schelmpie,2006-03-06T20:46Z,"Can someone please reseed this post - Would be great - Thx in adv.
+
+Schelmpie."
+,vidarsmith,2006-04-22T03:59Z,"If I, may ask. why make it more difficult then their is. Why did´nt you make a ""cd dts.wav,file from the begining, if you used ""surcode dvd pro"", but you did´nt, did you? However, do not download shit from people does´nt know what they are uploading."
+,marblesmike,2006-05-01T02:58Z,I figured out what to do with this dts file and made a wav that is burnable into a dts audio cd.  I'm seeding it now and here's the link http://thepiratebay.org/details.php?id=3478371
+,vinylking,2006-05-02T16:22Z,I have recently made a new upload from the other upload and made eleven dts 5.1 tracks of it. It's easy to burn it with Nero and make an audio cdr out of it. It's playable in any dvd- och cd-player connected via the digital output to a surround amplifier that can handle dts!
+,gusse57,2006-09-11T16:59Z,"Seeds please!
+Stuck in 99.8%"
+,seikopaad,2006-10-08T20:25Z,"its a waist of time what in the world do this
+its a pitty"
+,muse.mann,2008-02-20T19:41Z,Don't waste your time...this dts file does not work.  Period.

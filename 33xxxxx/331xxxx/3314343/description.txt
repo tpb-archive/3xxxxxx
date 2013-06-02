@@ -1,0 +1,20 @@
+Serv-U 6.0.0.2 was released January 5, 2005. 
+A complete list of changes and upgrades follows:
+ 
+Changed default socket buffer sizes from 8K to 32K to improve server throughput. 
+
+Bug Fixes: 
+Fixed bug causing compressed uploads to fail occasionally. 
+
+Serv-U Corporate addresses the need for a business-class FTP server with no limitations and the ability to grow with your business. With this in mind, Serv-U Corporate allows the following: 
+
+*ODBC database support 
+*Integrated SSL Support 
+*Unlimited domains with an unlimited number of concurrent connections 
+*Unlimited number of user accounts 
+*Support for directory mapping and links 
+*Support of UL/DL ratios and quotas 
+*Support for remote administration 
+*Windows User NT-SAM / Active Directory Support 
+
+Enjoy!

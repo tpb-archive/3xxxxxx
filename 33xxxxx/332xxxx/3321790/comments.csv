@@ -1,0 +1,78 @@
+﻿User Type,Username,Date,Text
+,Mr.Cheese,2005-04-26T09:51Z,DTS betyder Digital Theatre System och är ett konkurrerande företag till Dolby. 
+,Juttan,2005-04-26T12:50Z,Hur kan jag bränna ut detta? Vilket program behövs?
+,bigguy-1,2005-04-27T04:57Z,"can we burn this to a cd and play it on are home systeme,how do we do it"
+,dredawg,2005-04-27T10:48Z,use Sony DVD Studio to burn dts files to DVD
+,berno,2005-04-27T16:55Z,"dredawg wrote 
+""use Sony DVD Studio to burn dts files to DVD""
+
+I dl'ed that and it won't even recognize the file type
+:(
+
+the BlackSabbath dtswav has very easy to burn, thanks for that but this one seems to be inpossible"
+,younso,2005-04-27T21:51Z,hur kan drygt 300 MB ge en dts skiva? Någon har lagt en Mike Oldfield skiva med dts och den är 2.6 GB!
+,dredawg,2005-04-28T00:40Z,"sorry guys...  D/L this:
+
+http://hypercubemx.free.fr/html/download.php?download_id=2
+
+convert the DTS back to wav (DTSWAV) and burn that.
+
+I encoded them to DTS as they get smaller but suffer no quailty loss.
+
+Cheers!  :)"
+,qtx999,2005-04-28T04:50Z,"dts2wav crashes before the file is finished :(
+"
+,dredawg,2005-04-28T08:59Z,"Get This:
+
+http://dspguru.notrace.dk/BeSplitv0.9b6.zip
+
+i tested it.. :) and it works!  the usage is:
+
+besplit.exe -core ( -logfile besplit.log -input robot.dts -output robot.dtswav -type dts -fixcrc )
+
+more info on BeSplit here:
+
+http://besplit.doom9.org/"
+,qtx999,2005-04-28T12:12Z,TANKS
+,dredawg,2005-04-28T19:25Z,HORRRAY!!!   I was staring to feel guilty...  ;)
+,bigguy-1,2005-04-29T03:53Z," just found a way to burn this using alcohol 120%,select image burning load your dts audio file,in the file type select all file,in the track format select audio file and ok you can burn it and play it on your home theater dvd system voila! 
+"
+,Lord_M,2005-04-30T22:40Z,"Wow. I realy like this kind of stuff. I'll seed some DTSAUDIO in future.
+
+For you that are making some rips at home, for everybodys convinience, rather use [URL=http://www.dvddecrypter.com/index.php?act=download]DVDdecrypter[/URL] for .iso-files or [URL=http://www.thepiratebay.com/torrents-details.php?returnto=%2Faccount-cp.php&id=3323749]Stomp RecordNowMax[/URL] for .gi-files"
+,Lord_M,2005-04-30T23:06Z,Please.    8=)
+,kneckedeck,2005-05-13T17:02Z,"dredawg, after you've run the conversion with BeSplit, how do you actually burn the file on a cd? Nero said it doesn't recognise the file format (.dtswav), so I renamed to .wav, but still no luck...
+
+Any ideas?"
+,gnill,2005-05-22T18:32Z,Where do these posts that are in DTS actually come from? Is it ripped from a CD but then converted to DTS? Or are these albums actually released in DTS format from the beginning and just ripped straight off the album?  As far as i know Paranoid has not been releaead as a DVD-Audio for example and with a DTS on it. I might be wrong but whats the source of the file? 
+,probest,2005-06-17T20:17Z,"I try all...and i can´t reproduce the disk.....all the hardware are ok, and probed.
+
+Please someone can help...i have the robot.dts file...and....
+
+Thanks"
+,callet09,2005-06-24T21:23Z,"Use Ultraiso to convert the file(s) to an ISO image, then burn the ISO-image with Nero or whatever burner prog you're using. I used this for other DTS (Metallica) files that has the *.gi extension.. works great on my standalone DVD-player :) Don't know if it works on this torrent, but worth a try perhaps?"
+,larsmt,2005-07-26T20:10Z,"You receive this error because you use an older version of BeSplit. Download BeSplitv0.9b6, and you should be fine ;-)"
+,meks,2005-08-04T01:18Z,"Hmm. Got the same error as ""jmabromata - 2005-07-16 17:33 GMT"" wrote with BeSplitv0.9b6. There isn´t anyone who can recreate  this one to an image (.nrg) or something, so ít would be much easier for the most of us. If someone has burnt this successfully, just make a image and reseed. PLEASE"
+,FatFreddy247,2006-07-08T21:33Z,"This is sooooo easy guys!
+
+1. Download dts2wav.exe from
+http://hypercubemx.free.fr/html/dts_wav_filter.html 
+
+Copy the .exe to the directory where the torrent is and from a command/dos prompt type dts2wav irobot.dts"
+,FatFreddy247,2006-07-08T21:33Z,"2. Now open Nero and create a new Audio CD adding the newly created irobot.dts.wav file and click burn
+
+If you are all still struggling I will seed a Nero Image (.nrg) of it.
+
+Regards,
+Andrew"
+,FatFreddy247,2006-07-09T18:10Z,"Nero Image file created:
+
+http://thepiratebay.org/details.php?id=3501916
+
+Please seed otherwise it won't be around for long!
+
+Regards,
+Andrew"
+,muse.mann,2008-02-20T19:54Z,Has anyone actually done a successful disc that produce dts sound?   I suspect nobody has...cos this torrent and the Jethro Tull's Aqualung is from the same contributor and everybody there is having the same problems - unable to get dts sound.   Think the original encoding is faulty.   
+,konking,2010-06-26T15:59Z,I agree. The Stereotomy & Turn Of A Friendly Card DTS torrents work just fine but this one is completely f**cked.
+,konking,2010-06-26T16:01Z,The Stereotomy & Turn of a Friendly Card DTS torrents work just fine but this one is just a disaster.

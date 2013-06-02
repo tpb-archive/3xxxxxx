@@ -1,0 +1,88 @@
+FlashBoot is a tool to create bootable USB disks, USB               ÛÛ 
+ ²²     Flash Memory keys and cards mainly. What are the                    ²² 
+ °°     benefits of such devices for you? Let's see: unlike the             °° 
+        most bootable medias, bootable USB Flash keys are                      
+        very handy: compared to floppies, they have much                       
+        bigger size, speed and reliability, compared to                        
+        CD-ROMs, they are random write access devices, so                      
+        you can backup your data to the same media where you                   
+        booted from, without need to reformat (reburn) the entire              
+        media. Again, the cost per megabyte for them continues                 
+        to cut down, which is not the case for CD-ROMs and                     
+        floppies.                                                              
+                                                                               
+        And the most important thing is that you can use                       
+        bootable USB Flash Disk almost everywhere, on any                      
+        PC that has USB port. Are you going to repair your PC                  
+        at your work without CD-ROMs, floppies or other                        
+        media? No problems anymore. Or you have a laptop but                   
+        without a CD-ROM drive? Even if with a CD-ROM                          
+        drive, you can't work with it for a long time: boot device             
+        is accessed quite often, and battery power is obviously                
+        not enough to supply laser for a long time. Perhaps you                
+        are home user with a desktop PC. And you are ready to                  
+        repair it with your favorite bootable CD-ROM, OK. But                  
+        what if CD-ROM drive fails? Will you be able to boot or                
+        to get your backup data back?                                          
+                                                                               
+        With bootable USB Flash Memory key, you may boot                       
+        every PC with USB ports, regardless of non-present or                  
+        broken devices, because there's no need for any extra                  
+        devices. You don't have a media size limit of 700 or 800               
+        MB anymore, and buy a big or a small disk depending                    
+        on your needs. Just after boot, on every PC, you may                   
+        save your files to the same device from which you                      
+        booted, or restore them back. There's no need to                       
+        reformat (reburn) the boot disk, you just copy files and               
+        folders, and there's no need for extra hardware for such               
+        operations. Of course you may do some things you can't                 
+        do under your OS: copy/modify system files (they are                   
+        busy when OS is running), reinstall OS, repartition your               
+        main hard disk etc.                                                    
+                                                                               
+        FlashBoot is a tool that makes USB disks bootable. It                  
+        was specially designed to work with USB Flash devices.                 
+        It is used to reformat flash disk (that's optional) and                
+        transfer system files to it. You have many options for                 
+        your choice:                                                           
+                                                                               
+        convert BartPE bootable CD-ROM to bootable USB disk                    
+        transfer DOS kernel only (you may get the files from                   
+        installed Windows 9x, from Windows 9x setup folder, or                 
+        use built-in FreeDOS)                                                  
+        convert floppy disk to USB Flash disk (a diskette or an                
+        image file may be used)                                                
+        convert a bootable CD-ROM to USB Flash disk (again                     
+        images are supported). There are some technical                        
+        difficulties with supporting any type of CD-ROM here,                  
+        see details below. But there should be no troubles with                
+        the most real cases. You may convert Knoppix and                       
+        EBCD, for instance.                                                    
+        create Windows NT/2000/XP password recovery disk                       
+        create disk with NT/2000/XP bootloader. It would be                    
+        useful when you have mistakenly configured it, and                     
+        boot.ini file was left on unreachable disk (NTFS).                     
+        duplicate USB flash disk. Just creates a copy of existing              
+        disk USB flash disk, different sizes of source and                     
+        destination medias are OK.                                             
+        Types of convertible CD-ROMs include so-called                         
+        1.44-floppy emulation bootable CD-ROMs and                             
+        no-emulation CD-ROMs based on ISOLinux.                                
+                                                                               
+        FlashBoot is designed to be compatible with all types of               
+        bootable USB Flash disks, i.e. it is not binded to                     
+        Transend, Kingston, HP, or to any other particular                     
+        manufacturer of USB Flash disks.                                       
+                                                                               
+        FlashBoot is designed to be compatible with most of the                
+        BIOSes. Some of them require USB disk to be                            
+        partitioned (USB-HDD mode), some of them require                       
+        superfloppy format (USB-ZIP mode). You may choose                      
+        disk format type between partitioned disk and                          
+        superfloppy, when formatting your USB Flash disk with                  
+        FlashBoot (if you choose to reformat). You may write                   
+        the output to image file, transfer it to another PC and                
+        write it to physical device there (either with FlashBoot or            
+        with any other suitable tool, for example, with Linux dd               
+        command).                                                              
+                                                             http://www.prime-expert.com/flashboot

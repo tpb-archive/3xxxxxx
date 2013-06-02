@@ -1,0 +1,18 @@
+To download media files streamed through mms/rtsp, you need to know the URL (server address, file name) of a stream you want to download. 
+
+Unfortunately, some links to streaming audio and video that you come across on the web are hidden behind JavaScript, Flash or ActiveX. So it is sometimes very difficult to figure out the actual URLs that correspond to the streams being played.
+
+What is URL Helper
+
+URL Helper provides a one-step solution to finding the URLs for all streams. It does this by searching files and watching network traffic and identifying potential urls. 
+URL Helper uses WinPcap, free packet capture library for Windows. 
+
+How does URL Helper work
+
+Click "Select adapter" button, then select the adapter which connect to Internet 
+Click "Sniff Network" button 
+OK, Now "URL Helper" starts watching the network traffic, you can go to the page and start playing your stream. The results list will show all URLs found. 
+Main Features of URL Helper
+
+One-step solution to find the URLs 
+Get MMS, RTSP and other streams full URLs 

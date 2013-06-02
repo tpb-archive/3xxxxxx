@@ -1,0 +1,19 @@
+WinImage is a powerful disk utility that enables users to create disk images from flopp disks, extract files from image files, create empty image files, write the image files on blank floppy disks, and more! WinImage also supports many different standard and non-standard image formats, including the Microsoft DMF format.
+
+WinImage has many cool features!
+-Create a disk image from a floppy,
+-Extract file(s) from a disk image,
+-Create empty disk images,
+-Inject files and directories into an existing disk image,
+-Change a disk image format,
+-Defragment a disk image,
+-Support for non-standard disk formats (DMF, 1.68MB...),
+-A powerful "Batch assistant" mode that lets you automate many operations,
+And many more!
+
+
+New for version 8.00
+Compatibility with Virtual Hard Disk image (used by Microsoft® Virtual PC and Virtual Server), in both read only or read/write mode.
+Support of NTFS and Linux EXT2FS/EXT3FS image (only in read only mode)
+Connecting on Linux partition (to view content of Linux partition on connected hard disk)
+Speed improvement in read of write password encrypted file

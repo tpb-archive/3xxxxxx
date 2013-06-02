@@ -1,0 +1,25 @@
+15th June 2005 - Fraps 2.6.0 Released
+
+This major update adds a much requested feature to directly specify the video capture frame rate. You can now enter any value from 10 fps up to 100 fps with three decimal places of precision. Great for capturing directly to many common video formats including 23.976, 29.97, and 59.94 fps.
+
+Hardware mouse cursors are a feature in many modern games and you now have the ability to capture the screen with or without the cursor overlay. Simply select the No Cursor option to prevent the HW cursor from being saved in your film.
+
+We've introduced a new 64-bit video capture engine for games such as Far Cry and Chronicles of Riddick now available in native Windows x64 format. 64-bit code offers many performance advantages and we will be continuing to optimize in this area with future releases.
+
+A brief reminder to please ensure that your video drivers are up to date. This means at least the 71.89 Forceware drivers available from nVidia, or the 5.6 Catalyst drivers from ATI. The 5.6 Catalysts fix a lot of issues with OpenGL and are highly recommended for Radeon owners.
+
+
+Changelog
+
+2.6.0 - 15th Jun 2005
+- Added custom movie frame rate selection (record from 10 to 100 fps)
+- Added option to capture video with or without hardware mouse cursor
+- Added support for 1-bit Windows hardware cursors
+- New 64-bit video capture engine under Windows x64
+- Improved performance capturing half-size video on most systems
+- Fixed PNG and JPG screenshots for native 64-bit games
+- Fixed detailed benchmark statistics not saving for native 64-bit games
+- Fixed OpenGL error raised when capturing with Radeon graphics card
+- Fixed horizontal graphic noise in video capture of old DirectX titles
+- Fixed graphic corruption capturing Winamp AVS plugin
+- Fixed codec playback crash when out of memory

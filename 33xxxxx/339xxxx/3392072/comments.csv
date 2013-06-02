@@ -1,0 +1,29 @@
+﻿User Type,Username,Date,Text
+,seekn_destroy,2006-01-22T13:02Z,"I dont get it work:( problems with licens, dident work copying the file from CD to mathcad folder... please help"
+,mixim,2006-01-24T22:52Z,"Yeah, same problem here dude.ö. are you trying to X us all?"
+,D0nZiero,2006-01-25T17:34Z,"sorry cant help you =( but i think im downloading this =P
+
+someone help them ? ^^"
+,xero54x,2006-01-26T14:16Z,"it worked fine for me, after asking where license was i pointed at c:program filesmathsoftmathcad13mathcad13.dat and it works perfectly fine."
+,kcjitro,2006-04-05T15:38Z,"""Problem connecting to tracker""-('url error', 'unknown url type' etc. now WTF does this mean? I use BitTornado and this problem is actually quite rare but I still would want a good explanation to this shit"
+,ZeeBo,2006-10-08T15:43Z,Seed please (:
+,spyhak,2006-11-06T13:34Z,i can't get the program work perfect.for example square root's lines are too thick some of the other symbols are shown weird?????
+,perojon,2007-01-24T12:03Z,"Får bara ""Unable to create 12.0 engine factory"" när jag försöker köra programmet. Vad g'r man åt det???"
+,ClydeXL,2007-02-28T13:33Z,"If you receive the error: ""Unable to create 12.0 engine factory"", then you need to install Microsoft .Net framework 1.1. It's included on the CD.
+
+/ J"
+,perojon,2007-03-08T17:30Z,"Sorry ClydeXL, I have net.framework 1.1 and 2.0 installed, but nevertheless I get the same error message ""Unable to create 12.o engine factory"".
+Thanks for trying to help anyhow.
+More suggestions anyone?"
+,fox3r,2008-01-16T02:31Z,Having same problem with licenses.  Didn't work copying them from cd.
+,Vikingman1111,2008-07-14T18:58Z,"Yup,
+
+This one is tricky, and the shallow instructions don't fly. Answering yes, etc., then got me answering questions about a server, which I could not answer. The data file is there where it should be, so what is to be done with it? Also, I had to use Daemon tools to install. The CD I burned would not allow a boot."
+,soulz9,2009-02-25T08:08Z,"Here are the steps that worked for me, and I am using Vista 64X.
+
+1. Use Daemon Tool (to mount) or Burn on CD using Nero Express (Choose burn image).
+2. Run AutoRun Mathcad 13 and click on ""Mathcad 13"", a message should pop up asking you to install ""Framework 1.1"", click on ""English Install"" and after installing Framework 1.1, cancel the Mathcad 13 install when a message pops up and Reboot, then after reboot start Autorun again and choose ""Mathcad 13"", follow the steps and press ""NEXT"" at product key window. Everything should work flawlessly."
+,intlidave,2010-03-19T23:50Z,"To people having problems with license:
+You need to run regedit and change the license path data key in 
+HKEY_CURRENT_USER\Software\Mathsoft\Mathcad 13\FLEXlm
+to where mcad13.dat is on your computer."

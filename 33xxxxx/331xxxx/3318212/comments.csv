@@ -1,0 +1,70 @@
+﻿User Type,Username,Date,Text
+,Frezzno,2005-04-17T20:49Z,I also need to express that I got this file from another place. Who ever did this one is a great and helpful guy.
+,Frezzno,2005-04-17T22:09Z,"LE bonus disk has 2Gb of data but you only need 16 Mb to get your monk. Not even that, 200kb is all that unlocks the monk."
+,n20,2005-04-18T04:30Z,can this be burned or something for the people without the ftp
+,teppy,2005-04-18T07:11Z,"Can someone help me? I u/l the jademonk folder to my apps folder... i have a jade gamesave.... but when i run the jademonk program, it says ""Error! No definition file (b:cdxmediacdx_7.inx). What should I do? I'm running the jade off a burned dvd - the game runs fine - is that a problem?"
+,Frezzno,2005-04-18T08:46Z,"Then you faild to tranfer the files properly because some files are missing.
+
+This rar contains two folder and a xbe file. These files needs to be in its own folder on the Xbox.
+
+If you can't FTP it to the xbox then burn these files directly to the root of a CD-RW. Then it can be executed just like an ordinary game disc."
+,n20,2005-04-18T09:34Z,i did burn these files directly onto a cd (burned as data disc) when i start my xbox with the cd in it tho it just goes to the dash doesnt say or do anything
+,Frezzno,2005-04-18T09:39Z,"n20, now go to my files on XBMC and run default.xbe from the cd. I don't know if this works but give it a shot."
+,teppy,2005-04-18T15:22Z,"No, all of the files ARE extracted properly. I've done stuff like this all the time. I SFV checked the RAR and it was all in-tact.  There is no cdx_7.inx in the RAR. I will give the CDRW a try."
+,Frezzno,2005-04-18T16:01Z,"I'm sorry Teppy but I'm out of ides here and faild to help a brother.
+
+There is no cdx_7.inx file ever, not even on the original disc. So I don't have a clue why it's calling for this file.
+
+Before I'm total beyond point of no helping you try this.
+
+Go to MS dash and delete some save games you never gonna use again. Specially if you have Forza trial and Mach Assault 2 demo save, delete them at once.
+
+Do not use EvolutionX game save manager. My experience is that it only delete from UDATA and not from TDATA.
+
+Good luck."
+,n20,2005-04-18T17:29Z,"dam it wont read it from xbmc either..  =( 
+
+did i burn it  correctly as a data disc with everything from the rar as the root (2 folders 1 file) ?"
+,n20,2005-04-18T18:33Z,"naw i cant see the files. im using memorex as well.. but its cdr not cdrw.. should i convert it to xiso format or something or dont even bother since its cdr. btw the cd can be read by my computer when i put it back in and i heard thats a bad thing since whatever the pc can read the xbox cant.. 
+
+i dont know man im outta ideas"
+,Frezzno,2005-04-18T20:58Z,"Converting to XISO will not make any difference when your x-drive can't recognise the disc. There are two solutions I can think of:
+
+1. Change media brand.
+
+2. Get a crosslink cable and hook your Xbox with your PC. This way you will also get the advantage of Xlink Kai, and use your Xbox to the maximum.
+
+Good luck."
+,crynar,2005-04-19T00:20Z,"I was getting the ""Error! No definition file (either b:cdxmediacdx_7.inx or b:cdxmedia"" when I tried to load up the bonus disk as well. I was able to fix it by changing my pbl from nkpatcher to pblmetoo and changing my bios from evox m8 to x2. Then I burned a cd of the monk content and booted it up w/o error.
+
+It should be noted that I was still unable to run the bonus content from my HD."
+,Frezzno,2005-04-19T01:21Z,"Finally some expert help, thank you Crynar.
+
+I didn't know that this kind of trouble exists. My xbox is softmodded and every thing works fine. I can even run the bonus disc from my HD. So I really didn't have a clue on how to help.
+
+I hope the rest of you guys can fix it now."
+,teppy,2005-04-19T03:26Z,"First off, a thank you to Frezzno for giving me some ideas to think about. I was receiving the same error ""b:cdxmediacdx_7.inx or b:cdxmedia"" that Cynar got... so I thought I'd download the full Jade Empire Bonus DVD and give it a whirl (only took an hour or so to d/l) and sure enough it worked. Who knows why, but others might wanna give it a try if they can't get the 7mb file to work."
+,TheDamned,2005-04-19T12:46Z,"Well i havent had any problems with this so it cant be the file it must be the different xbox mods and configs,Anyway one question i got the monk to show up and he plays ok but whrs his new fighting style ? does it show up later? anyhelp thnx."
+,Frezzno,2005-04-21T19:40Z,"You need to use this monk as he is, not customized."
+,Frezzno,2005-04-21T19:43Z,I think? I have never seen one begin the game with claws and smash peeps to other side of the screen in a blow.
+,Dragonite_9,2005-04-22T23:12Z,"Hi
+I wounder if you have to burn it out on a cd or if you just could ftp:a it over?
+If you ftp:a it over how should you do?
+Thank you
+Buy tha way I am from Sweden if you are from Sweden could you answer in swedish.
+DS"
+,Frezzno,2005-04-23T07:55Z,"Visserligen har vi redan gått igenom detta, men vi kan ta det igen.
+
+Man kan FTPa eller bränna på cd. CD-RW hälst, så slipper man slösa på CD. Denna fil är bara 16Mb.
+
+FTP:
+Extrahere dessa filer till sin egen map. FTPa denna map till xboxen i antigen Apps eller games. Det spelar ingen roll vilken som.
+
+CD:
+Bränn dessa filer så att default.xbe hamnar på roten.
+
+Notera, se till att du reda har en sparfil på xboxen."
+,Gladiatorxxx,2005-07-30T05:35Z,Rename cdx_4 to cdx_7 fixes it
+,Fum3tsu,2005-08-04T17:21Z,"The new martial arts style is there to the best of my knowledge. However i havent played the game since i beat it as Scholar Ling with the Open Palm so i cant quite remember. And you can costumise the monk as much as you want to because if there is a new style then it HAS to be in the menu of usable styles on creation just like you can costumise any other character to use a different ""class?' style."
+,p44tt15,2006-04-07T20:28Z,"I know this is old, but would really appreciate it if somebody could seed it!"
+,countxero,2006-09-18T15:32Z,Seeding would be greatly appreciated.  Thank you

@@ -1,0 +1,69 @@
+﻿User Type,Username,Date,Text
+,JakeGuy1219,2006-02-06T18:10Z,"Is there something I'm doing wrong ? I mounted it in a CD emulator and installed it just fine, but it keeps asking for a cd...  Help ?"
+,KarlB-17,2006-03-19T01:23Z,"This thing won't run! It installed and everything but keeps asking for cd,even WITH no-cd crack! What am I doing WRONG?"
+,KarlB-17,2006-04-17T03:17Z,"OK, L2 will run if you start the game by using the L2D prompt in the game files as a shortcut. But Siege Pack won't install or only partially installs. you can start the Map Editor, but the expansion maps aren't on the menu in the game. Tried running SETUP for Siege Pack, and it gives this message: INTEGER DIVIDE BY 0, and fails out of the setup. Can ANYONE Help?"
+,oliv3r,2006-05-03T18:51Z,Lords 2 for Win XP is there? plzzzzzzzzzzzzzzzzzz
+,KarlB-17,2006-05-07T03:17Z,"LORDS 2 works fine in WIN XP but you have to set COMPATABILITY for the program. Right click on your game icon and select PROPERTIES, then COMPATABILITY. Select compatability for WIN 95. Should work OK. "
+,OmegaDragon,2006-07-01T03:31Z,"http://forums.vugames.com/thread.jspa?threadID=3809&tstart=0
+
+Search for ""Lords of the Realm 2"" to find the part of the site regarding getting Lords 2 to run right in WinXP.... hope this helps :)"
+,reurink123,2007-06-05T06:37Z,"Joshua_Hibbard - 06:14pm Jan 28, 2003 PST (8.)  Mark  Reply  FlagMessage  FastFlag
+ 67.250.223.254
+What was the alteration to the .INI file was to make newer CD's play LORT2 and Siege Pack?
+
+go to: Start>Run>sierra.ini place this under the [Config] CDRomDrives=x (X being the drive the CD-Rom is in) CDROM=4
+
+"
+,ayes91,2007-08-10T13:38Z,How do i make this work with xp? i tried to change the compatability but still not working...keeps asking for a cd even though i have my original cd in there
+,skuldoon,2008-08-04T16:48Z,"Mine kept asking for a cd as well but the way i fixed it was, i extraced the iso onto a burnable cd. And it has worked for me so far."
+,WTFISTS,2008-08-07T03:52Z,"Right this is how I got the game to work.
+(Game installed)
+
+1- burn the game to a cd. (I think mounting will work as well)
+2- set the compatibility of the game to - 95 and run in 256 colour and 640x480
+3- then altering the .INI files to the correct cd path. 
+
+Now those steps in more detail.
+1- is obvious.
+
+2- Create a short cut of the game .exe and put it in your desktop (if you haven't already done so). Right click and go into properties then compatibility. From here the necessary changes can be made. 
+
+3- Go to folder where you have installed the game in there should be a file named LORDS2.INI. Open it, somewhere in there should be ""cdpath=..."" Change the information which is after the = to where your cd is e.g. cddrive F then just put F after the =. This should work for mounting as well. 
+
+I also used this 
+""go to: Start>Run>sierra.ini place this under the [Config] CDRomDrives=x (X being the drive the CD-Rom is in) CDROM=4""
+
+I am not sure if it made a difference but if your game still doesn't work then use that aswell its pretty much the same as step 3."
+,Ssj_SWE,2008-11-26T20:42Z,"Snälla seeda. Skulle verkligen vilja ha hem detta spelet. Gammla minnen ;) 
+
+Tack på förhand"
+,Squez007,2009-12-06T01:01Z,It going to ask you for the CD because you need to use a no-CD crack on it.
+,gitsune,2010-05-07T23:46Z,"I entered sierra.ini and this is the text I find:
+
+[Setup]
+Presetup=
+Purge=
+[Last Test]
+Product=The Lords 2 Siege Pack
+WAVE Test Result=Heard
+CDRomDetected=TRUE
+CDRomTest=Failed
+[Config]
+SoundBitSupport=16
+SoundChannels=2
+CDROM=0
+[Sierra]
+SierraDir=C:\DREAMFOX\GAMES\SIERRA
+[SierraDirs]
+C:\DREAMFOX\GAMES\SIERRA=
+[Misc]
+ProductDir=C:\DREAMFOX\GAMES\SIERRA\Lords2
+Language=ENGLISH
+
+No CDRomdrives to be seen. What do I change and should I save afterwards? Where should I place the saved file?"
+,prome,2010-06-04T17:48Z,"If you are running any x64 system and having problems either installing or running the game, I suggest you try this: http://www.squirtthecat.com/games/lords_of_the_realm_2/index.html
+
+A x64 friendly installer, and inside it you choose where your CDROM is. So if you are using dameontools or anything like that you dont need a crack, it will run flawless instantly."
+,Metalsucks,2010-08-28T23:35Z,"When I'm using the Map Editor, the scroll speed is EXTREMELY fast, it jumps from one edge to the other, any solution to this?"
+,bobkillingtim,2011-03-07T19:23Z,SEED PLZ! 
+,bobkillingtim,2011-03-07T23:00Z,"Works like a charm on my XP! all i needed to do was run with demon tools, set computability to 256 colors and win 95, and do what reurink123 said! THX!"

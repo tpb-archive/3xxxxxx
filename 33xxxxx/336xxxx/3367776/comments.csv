@@ -1,0 +1,43 @@
+﻿User Type,Username,Date,Text
+,Rickie05,2005-08-10T02:06Z,"And i only just set up your release from last month :p, thanks man :)"
+,BenKenobi,2005-08-10T04:46Z,Thx Gas...when XBMC allow long filename?
+,GasGiver4711,2005-08-10T05:12Z,@BenKenobi: I´m no developer - so i don´t know. I´m pretty sure that as long as a partition is still fat-x formatted its just not possible. If u want longer filenames maybe try Gentoox or another xbox linux distribution on a seperate partition. They surely have mplayer or some equivalent. I never tried linux on xbox but i (again can only suppose) that they dont have filename limitations because they use another filesys. But then again i could be totally wrong - just some thoughts ;-)
+,spyke,2005-08-10T16:50Z,"@xboxme: The Xbox only supports running one application at a time, so it would have to be the BIOS writers who write code to enable long filename support. However, they would all have to get together and agree a common specification, which I can't see happening, so I don't think we'll ever get longer filenames."
+,ZENDO,2005-08-11T14:13Z,Everytime i install a XBMC of you non of my keys work. I cant do anything. And yes ive deleted my UDATA and TDATA 08 shizzle. Anbody got an idea why?
+,ZENDO,2005-08-11T16:50Z,"Ok thx, ill try that. I'm using XBMC as dashboard so i hope it wil word what you said."
+,GasGiver4711,2005-08-11T17:04Z,"@ZENDO: ""To avoid problems you should also check  -  with every new release  -  if the included XboxMediaCenter.xml has been changed significantly.  -  You should then update your own customized XboxMediaCenter.xml accordingly.""  -  Yeps, this is important - It won´t always give you problems but depending on what is missing or wrong in your own XML file - it can seriously fuck up XBMC ;-)"
+,ZENDO,2005-08-11T17:09Z,"Thx its working now, but one question. Ive changed allot in my XboxMediaCenter.xml from my last XBMC build. Can i keep that one or will that give some problems?"
+,ZENDO,2005-08-11T17:14Z,strange that my messages keep coming twice. With several minutes between.
+,ZENDO,2005-08-11T19:52Z,"question:  when im playing music, for example a CD. Then ill set the screen on the menu. But after a while playing it goes to the full screen vusualisation. But i really dont want that, i want to keep the menu instead. And if i put the visualisation of ill get a black screen after a while as screen. Is there a possible to handle that?"
+,Quickstrike,2005-08-12T00:12Z,"""strange that my messages keep coming twice. With several minutes between.""
+
+You are probably refreshing this page, right after you make a comment. Everytime you refresh, your original comment will be posted over again.
+
+--------------------------------------------------
+
+On another note, thnx for this release! I always go for your releases over others now because it provides only what I need. I don't need multiple skins and dozens of scripts. This compilation provides the best of both.
+
+Thanks again,
+-Quickstrike"
+,Quickstrike,2005-08-12T00:47Z,"I just gave it a whirl and all I can say is OMFG!!
+
+I have always wanted RAR support. Now I can stream all my movies that I haven't un-rared yet off my pc drive in a matter of seconds. 
+
+F'ing amazing if you ask me!"
+,GasGiver4711,2005-08-12T14:55Z,"@Quickstrike: Yep, this is just too cool ;-)  -  Not even VLC can play from MULTIVOLUME Rar Sets ... This feat might even be an industry first  -  at least i dunno of another app that does it, maybe mplayer ?"
+,disobedient,2005-08-14T03:31Z,"Thanks for keeping the releases coming, GG!  Last update screwed up the remote control, so I had to revert.  Sounds like this one is a winner from the feedback so far."
+,disobedient,2005-08-14T04:43Z,Remote works fine... unfortunately you didn't pack the PM3 NTSC skins with this one.  Off to hunt 'em down...
+,disobedient,2005-08-14T05:04Z,"Wierd.  I must have something wrong in a config file, because the skin's just not working for me.  I can see all the options, even navigate through the menus and play things, but no button overlays and no backgrounds.  Any clues?  "
+,GasGiver4711,2005-08-14T14:10Z,"@disobedient: Thats really weird, the NTSC skin is in there as this is the complete CVS code  -  Did u try the usual troubleshooting stuff ?  -  deleting xbmcs savegame  -  tried to use the included xboxmediacenter.xml  -  if using xbmc as dash updated files on ""C"" ?  -  U really sure you deleted the whole xbmc folder and everything related to it and started from scratch ?  -  the remote in the last release worked for me, too  -  hmmm otherwise i have no ideas"
+,GasGiver4711,2005-08-14T14:17Z,"@disobedient: Maybe theres files missing after unpacking ? -  This is a Multi-Volume RAR Archive [Compressed with WinRAR 3.50]
+    To unpack it you need to have all files in the same folder and start
+    extraction from the first volume. Please use an UP-TO-DATE WinRAR or any
+    other Program that correctly handles Multi-Volume RAR Archives.  -  This release definately works and it should work for you, too  -  after all we all share the same xbox system ;-)"
+,GasGiver4711,2005-08-14T14:22Z,@disobedient: After unpacking you should have 780 files in 124 folders  -  the complete xbmc folder should have an exact size of 111.187.052 Bytes  -  all this info is from windows explorer if u right click on the xbmc folder and click on properties
+,disobedient,2005-08-14T18:27Z,"GG - Thanks for your help... I realize you have to go over the ""basics"" because you're not aware of what my skill level is.  I've already done everything properly--unrar'd, 124 folders, 780 files; nuked the old XBMC dir, uploaded the new files (except xboxmediacenter.xml and default.xbe, which are on my C drive--I renamed default.xbe to evoxdash.xbe so it loads directly, and already directed the XML file to look in the E drive where my XBMC directory is); I also deleted the 0face directory in T/UDATA.  I tried a couple another 8.7.05+ skin (Proj. Mayhem 3LE) and noticed most of the files were in the PAL/PAL6x19 dir as well, so I guess this is normal.  Can you think of anything else?  FYI, the background images actually work, it's the menu system on the left that's just black BG.  The buttons' text is there, but no highlighting when I scroll over--they do work, but I can't tell by looking which button I'm over.  Additional info: xbox 1.6, BIOS X2 5035."
+,GasGiver4711,2005-08-14T19:24Z,"@disobedient: you say ""uploaded the new files (except xboxmediacenter.xml and default.xbe, which are on my C drive""  -  do i understand you correctly  -  you did not update your default.xbe on your ""C"" Drive ??????  - but you  absolutely have to use the provided default.xbe, too. Why did u skip it ?"
+,disobedient,2005-08-14T20:20Z,"No, I have my xbox set up to load X2 at startup, which loads evoxdash.xbe by default.  You can rename XBMC's default.xbe to evoxdash.xbe and the X2 bios will automatically load XBMC at startup.  I copied the new XBMC's default.xbe to C:evoxdash.xbe, and put the new xboxmediacenter.xml file into the C: root as well, then editted the XML file (the  tags) to point to E:APPSXBMC, which is where all the rest of the XBMC files are located.  Anyway, new update: I thought perhaps the file transfer over SMB might have been corrupted, so I transferred the files again, this time one directory at a time.  All the files are there, only now when I try and boot, it says it can't find Q:keymap.xml.  But my config XML file is pointed to the right drive.  ARGH!  Gremlins in my machine!"
+,disobedient,2005-08-14T20:32Z,"Another question for you: I was checking my error logs and noticed XBMC dumps me at the point when it loads /system/players/mplayer/ISO639-2.xml.  I took a look at those XML files, and noticed three strange ASCII characters at the start (before the [?XML 1.0 etc.] declaration).  They don't seem like they should be in a standard XML file.  Do you have these characters in your copies of ISO639-1.xml and ISO639-2.xml?"
+,disobedient,2005-08-14T20:45Z,"Aww, Jesus H. Tapdancing Christ, I finally got it.  Note to future installers: SMB is a VERY UNRELIABLE method of file transport.  I just FTP'd the files over instead and it worked right off the bat.  Thanks for your troubleshooting help, GasGiver, and thanks for the awesome release!"
+,GasGiver4711,2005-08-14T21:15Z,"@disobedient: live and learn ;-) never tried that, always ftp´d everything ..."
+,links,2005-08-15T15:31Z,"I have newly upgraded and since most of my movies plays in black and white. However, if I press the ""X"", blue-button, to go to the main meny, the little square is showing the movie in color. Anyone who have seen anything similiar?"

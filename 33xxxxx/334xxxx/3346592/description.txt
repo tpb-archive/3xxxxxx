@@ -1,0 +1,66 @@
+Hello.
+
+I really enjoy listening to music while watching the G-Force visualizations in Xbox Media Center.  I think the effects are amazing and just can't get enough, so I've become sort of obsessive about finding as many additional configs as possible.  I went thought all of the postings on the bulletin board at the old G-Force web page.  That original board is gone now, but a newer one is located at the current G-Force site:
+
+http://www.soundspectrum.com/
+
+It's a good place to go to find out what is currently happening with the PC and Mac versions of this plug-in.  Unfortunately, the version we have of G-Force for XBMC is based on the old 1.0 version.  I believe that this is the only version that the author has released the source code for.  Hopefully this will eventually change.
+
+I figured I would share all of the configs I've found on various forums and other sites.  This is a great program that is worth spending $10 to support.  I know I have.  I'm assuming that the author would not want me to share the 25 extra configs that are in the Gold version, so they are not here.  There are some really high quality configs here and some of the effects are unbelievable.
+
+It's been almost 3 months since my last Update Pack.  In that time, the G-Force web page has been updated with an Extras section that includes several zipped multi-packs of additional configs.  This makes life much easier!  So, this update includes the configs from:
+
+DaveF 0.1.0.zip
+demonseed 0.1.0.zip
+DT 0.1.0.zip
+EDP 0.1.0.zip
+EK 0.1.0.zip
+ER 0.1.0.zip
+ethan 0.1.0.zip
+HAL 0.1.0.zip
+JayPro 0.1.0.zip
+JB 0.1.0.zip
+misc 0.1.0.zip
+RE 0.1.0.zip
+Rovastar 0.1.0.zip
+Ted 0.1.0.zip
+TP 0.1.0.zip
+Uber 0.1.0.zip
+
+As G-Force for XBMC doesn't scan folders for configs, I've lumped all of the configs into their proper folders and made sure no filenames ran over 42 or contained any invalid characters.  There were some duplicates, so I always careful to only overwrite older versions with newer versions.  I also took the time to compare the 419 configs I had found that were in the previous Update Pack and cross-checked them to the contents of the new Extras multi-packs.  After a fun three hours, I was left with 126 configs not in the Extras multi-packs.  There were also 25 or so configs in the Extras multi-packs that are included in the normal G-Force build for XBMC.  I've removed those as well.
+
+I've also included an updated "G-Force.xml".  I've changed the syncdelay to zero and increased the resolution to 800x600.  This looks much better and still runs at a nice speed.  For those with widescreen TVs, I've included a duplicate "G-Force.vis" file renamed to "G-Force 16x9.vis" and a corresponding "G-Force 16x9.xml" with syncdelay set to zero and the resolution set to 960x540.  This is a good compromise resolution for HDTV and besides, 1280x720 runs too slow :-(  I'm sure this situation will improve when Xbox 2 comes out ;-)  This adds a compressed 36K or so to the pack, but I think it's better (and easier for the end-user) to do it this way, instead of including directions on how to edit "G-Force.xml" and what to change the numbers to.  Just remember to select "G-Force 16x9" as your visualization if you have a widescreen TV.
+
+**UPDATE 2005-03-16:
+
+It's been a few months and there have been a couple of updates on the Extras page at the G-Force site:
+
+gacton 0.1.1.zip (New pack with 16 new DeltaFields)
+Rovastar 0.2.0.zip (Update with 7 new DeltaFields)
+
+In addition, Rovastar posted a "Rovastar Mix" three pack on the bulletin boards, only one of which ended up in his 0.2.0 update.  So, that gives us a total of 25 new configs for this update!
+
+ChokeManiac, the designer of the brilliant Project Mayhem skin series for XBMC, was kind enough to inform me that changing the <showfreemem> option in the XboxMediaCenter.xml to "true" will not only show you the amount of free memory, but also give a frame rate counter!  Using this, I decided to experiment with the resolution settings in an attempt to gain a higher framerate without sacrificing too much quality.  My goal was to get to 30 fps.  In 4x3 mode, I found when comparing my current 800x600 to 640x480 that the quality and speed seemed identical.  It occurred to me that because the TV and XBMC resolution was set at 640x480 (480p) that G-Force is most likely only allowing a max resolution of 640x480.  HDTV is a different story.  Because the TV and XBMC resolution is now 1280x720 (720p), G-Force seems to allow any resolution up to that.  Trying to run at 1280x720 produces a beautiful but incredibly slow-moving image.  I decided previously to go with the resolution exactly between 1280x720 and 640x360, namely 960x540.  I've never been totally happy with the framerate that resolution produced, and probably should have done more experimenting.  Now that I can see framerate for testing, I've found that this resolution only gives 14-17 fps.  640x360 runs over 30 fps, but produces (at least of my Panasonic 50" DLP HDTV) a really course and grainy image.  800x450 ran a bit faster at 18-21 fps, but 720x405 seems the best compromise as it still looks really nice and gets us a consistent 23-29 fps.  We have a winner!  So, "G-Force.xml" is now set to 640x480 and "G-Force 16x9" is now set to 720x405.
+
+One quick note about another discovery made during testing.  Using filters for the GUI also affects G-Force.  On the XBMC home screen, select Settings and then Appearance.  Choose GUI Filters, set Flicker Filter to 0 and make sure Soften is not selected.  This will sharpen up the graphics in G-Force and also seems to add about 3 fps to the speed!
+
+**UPDATE 2005-04-08:
+
+How visualizations work on XBMC has been changed on 2005-04-06 and so has the g-force.vis file.  So, for any XBMC builds after that date, you'll need the new updated .vis file.  Ythan, aka [Y], compiles the best builds of XBMC and he gave me a great idea when he used this Update Pack in one of his builds.  He left the original "g-force.xml" alone, renaming mine to "G-Force High.xml" for 640x480 (along with adding a corresponding "G-Force High.vis").  This is nice because it makes available to the user the original unmodified 360x288 resolution as an option.  So, I've renamed my updated "g-force.xml" to "G-Force High.xml". Although this adds another compressed 36K to the Update Pack, I've included the corresponding "G-Force High.vis" along with my original "G-Force 16x9.vis", both updated from the latest build.  This just makes more sense.  Thanks Ythan!
+
+**UPDATE 2005-06-17:
+
+A lot has changed with how XBMC handles the various visualizations.  The big change is that there is now zip support for configs.  The g-force.vis file has also changed again.  I decided that I should package one final Update Pack.  Why the last?  Well, the big reason is that G-Force for XBMC is based on the old G-Force 1.0 from 2000.  This apparently is not going to change.  The very latest configs were designed for the newest version of G-Force, which has many more sophisticated effects and settings that sometimes just don't create an effect at all with the version for XBMC.  Rovastar and Violet both put out some new configs that when put on XBMC create no effect at all.  So I just don't see the point of updating the Pack to add configs that don't do anything.  There are several configs in the Pack already that don't do anything.  When you see the off-white circular effect with a black background, you're seeing what this old version of G-Force for XBMC does with a new config it doesn't understand.  Unfortunately, there is no easy way to go through the configs one-by-one to remove the ones that don't work.  It's a shame, really.  I still enjoy G-Force for XBMC sometimes, but in a nostalgic "old school" way.  MilkDrop for XBMC is just so much faster and more varied that comparing it to the five-year-old version of G-Force we are stuck with (without any hardware acceleration), is really not fair.
+
+I decided that I should start over with this Update Pack to do it right.  Because the 42 character limitation doesn't apply to files in a zip archive, I wanted all of the names of the configs to be correct.  I took all of the old configs I had collected along the way and separated them into the correct folders.  Then I extracted all of the configs from the Extras page into these folders, overwriting duplicates.  Finally, I copied the configs included in the G-Force for XBMC build into these folders, again allowing overwrites.  Then I went through and found three duplicates and fixed a few goofy filenames.  This gave us a total of 1507 configs.  I zipped the files into their proper archives using "store" mode for faster XBMC access.
+
+Eventually Andy O'Meara will complete the new vis he's working on and then maybe we'll see an open source release of the latest version of G-Force.  I would love to see the latest state-of-the-art G-Force with beat detection and effect combinations (FlowField Unions) on XBMC.  Maybe someday...
+
+INSTALLATION:
+
+Extract the "visualisations" folder into your Xbox Media Center directory using whatever method you used to get it there in the first place.  This will triple the number of configs from the default 490 to 1507!  You will be replacing ColorMaps.zip, DeltaFields.zip, Particles.zip and WaveShapes.zip, but the new zip archives include all of the original configs, plus the new ones.  On the home screen of XBMC, select Settings, then My Music and at Visualisation, choose "G-Force High" if you have a regular 4:3 TV or "G-Force 16x9" if you have a widescreen TV.
+
+If any of the folks who compile the various builds of XBMC want to include these configs in their builds, help yourself!  Just please remember to include the two "G-Force High" files and the two "G-Force 16x9" files.  Running G-Force at the default 360x288 looks pretty awful!
+
+Enjoy!
+Kevin Sartori

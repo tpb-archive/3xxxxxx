@@ -1,0 +1,123 @@
+.                    .
+                     . ..:. .SCRiPTMAFiA. ....:.  .
+                 . ......:..... .      . .. ..:...:.... .
+    .__________. ...:.. .  .___________ _______.  :  ._____________.
+  ___\       (_.       :            //       | .:.___//   _  __//
+ /____   _____/_______._____\_.     \      .|______.     ______ ._______.
+          /____)    //             ___/     \    (_.     _((___) \    (_.
+ /________//    ____/.______.\__.    /_._______   /     /      /____   /
+  .____     //    / ___)   //                  _  /     /      /     _  /
+      //x_ /______/    ___/___         ./________//.   (______\________.
+        .____     /    / _((___)__)______.Proudly.(_______.Presents. .. .  
+            //x__//___///      /________. _ __ _____________________________ 
+              .____    /      //      //                                    |
+                  //x_/______\ .__) ____.    Invision Power Board 2.0.4    |
+ ..._______                  /    ___   |__.                      .___     |
+          //x____ _ __ _____/____/  |   ___(       (c) IPS, Inc      //_____|
+                                    |    |                    ....     
+                                    |    |               .___
+     .R e l e a s e . i n f o.    .//_______________________\
+
+                                            __ _____________________________
+ SUPPLiER......: TeaM SCRiPTMAFiA                                   ....... |
+ cRaCkER.......: TeaM SCRiPTMAFiA                                      :::: |
+ pAcKeR........: TeaM SCRiPTMAFiA                                       ::: |
+ ReLeAsE dAtE..: 05/06/2005                                                 |
+ Language......: PHP/MySQL                                               :: |
+ TyPe..........: Forum System                                               |
+ PROTECTiON....: CallHome, HotLinks, License                              : |
+      _______...     ..._______                                             |
+ ___x\.D e s c r i p t i o n.//x____ _ __ ________________________________//
+                                                                             
+Invision Power Board, an award-winning scaleable bulletin board system, allows
+you to effortlessly build, manage and promote your online community. Advanced
+yet intuitive features like multi-moderation allow you to focus on developing
+your community, rather than wrestling with complex settings.
+
+NOTE: You probably saw this release by LOGiC earlier this day:
+Invision.Power.Board.v2.0.4.PHP.NULL-LOGiC
+This release is based on a stolen web-release called:
+IPB.2.0.4.nulled.by.Tails.w********ce.net
+The included nfo says:
+[cut]
+This copy of Invision Power Board 2.0.4 has been nulled by Tails (aka mjalan)
+from w********ce.net
+
+Protection removed: Version Checking
+Other notes: I have changed the version from 2.0.4 to 2.0.0(Trial) so that
+people in IPB still thinks u r using legal version.. :) but dun worry, it is
+still version 2.0.4
+[/cut]
+LOGiC just changed the version back to 2.0.4 and removed some Hotlinks, License
+Info and included their serial (info.txt). Read about this horrible security 
+risk later.
+But they made some mistakes:
+/upload/retail/regkey.php
+<?php
+$customer_reg_key = '1114318800-24407-171-44844-LIFE';
+$customer_copy_key = '';
+?>
+They left the key from the web-release there.
+
+The idea of the web-release was to let the 2.0.4 look like a Trial version - so
+they added a "(Trial)" in the copyright tag. LOGiC also have this tag in their
+release and it is NOT included in the non-Trial version (yeah, we even have a
+legit source!). Here are the proofs:
+uploadsourcesadminadmin_skin.php (line 1050)
+
+<div class='copy' align='center'>Powered by Invision Power Board(Trial) &copy ".date("Y")." IPS, Inc.</div>
+
+uploadskin_cachecacheid_2
+This folder would only be created if you run it on a webserver and it is only
+included in the web and LOGiC release - it is NOT included in the fresh legit
+version you can get from the developer because it was never installed before.
+
+uploadstyle_imagescss_2.css
+This file would be created too if you run it on a webserver - there is also a
+message in line 7:
+/* CACHE FILE: Generated: Thu, 05 May 2005 16:42:07 GMT */
+this file either only is included in the web and LOGiC release!
+
+Now lets get to the important point:
+The developers IPS included a lic check function so they can check every online
+Invision Power Board if it has a valid license by adding this:
+?ipscheck=1 (example: http://www.domain.com/forum/?ipscheck=1)
+If you use this on the LOGiC release you get this:
+0000000000-0000-000-00000-REGD
+If you use it on a legit forum you get a 10 digits number like on:
+http://www.winfuture-forum.de/?ipscheck=1 you get this:
+14857,26160
+So IPS can easily get you if they see you use the LOGiC serial.
+
+We bring you a Incl.Keygen Release which automatically generates a key and
+includes it in your Invision Power Board - no activation in the Admin CP
+needed.
+
+                    _________...   . ..._________            
+   ___ _ __ ______________________x\. I n s t a l l a t i o n .//x_________.
+ //                                                                          
+ | 1) Unpack
+ | 2) Read Documentation/Installation Guide/install_guide.html
+ | 3) Enjoy
+ |
+ \_x\.W A N N A . J O i N ?.//x____ _ __ _________________________________ 
+                                                                    ....... |
+ TeAm SCRiPTMAFiA is currently looking for :                           :::: |
+                                                                        ::: |
+  + Suppliers                                                               |
+  (Retail PHP/CGI/ASP scripts)                                           :: |
+  + Experiednced Coder                                                      |
+  (ASM/C++/Delphi)                                                        : |
+  + Dump suppliers [10 MBit+]                                               |
+  (Legit ones, for internal use only)                                       |
+  + HQ Sites [10 MBit+]                                                     |
+  (EU/ASIA/WORLD)                                                           |
+                                                                            |
+  Contact us : scriptmafia[at]hush[dot]com                                  |
+                                                                            |
+    _________________________ _ __ ________x\. G R E E T i N G S .//x_____//
+   //
+   |                                      CHT - LiNE - SSG - WDYL - ZWT
+   |                                 .___
+ .//__________.:k!ND:.__________________\
+            ./________.

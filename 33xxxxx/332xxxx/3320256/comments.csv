@@ -1,0 +1,25 @@
+﻿User Type,Username,Date,Text
+,Mr_Modern,2005-04-22T21:21Z,"thank you sooo much..this was needed, I fucking hate that ""span"", make your own site you lazy pieces of SHIT.....
+
+ehrm sorry got a little carried away there..good job once again.... "
+,Brandis,2005-04-22T21:22Z,Thank you!!! :P
+,Scifi,2005-04-22T21:32Z,"Får det inte att funka.
+
+Jag dubbelklickar i mitten på sidan med torrentsen, sen högerklickar och väljer TSI [H] ..spanshitFilterON is True
+
+Men jag ser fortfarande all spansk skit..
+Använder svensk v1.0.3.
+
+Gör jag fel?."
+,mog,2005-04-23T01:01Z,this should be intresting! thanx!
+,Scifi,2005-04-23T03:47Z,"Nä, det funkar fint nu, fattade inte att jag var tvungen att dubbelklicka på varje sida utan jag trodde den skötte det automatiskt bara du hade gjort det en gång.
+Bra jobbat.."
+,woosh1,2005-04-23T11:45Z,"Scifi: Det hade varit bekvämt om man slapp dubbelklicka, men  jag kan inte Javascript och fick det inte att funka ""automatisk"", så det blev såhär så länge. Den som vet hur man får tag i rätt ""document"" utan att behöva klicka i det får gärna höra av sig: antispanshit@hotmail.com"
+,Scifi,2005-04-23T15:12Z,"Tänkte jag skulle ändra lite av orden som ska triggas. Jag ville ha med ""[w ww.torrentazos.com]"" och ""spannish"", men jag hittade inte filen som dom tidigare orden var med i (kollade igen om alla filerna)."
+,woosh1,2005-04-23T16:13Z,"Scifi: 
+Kort svar:
+.xpi-filen är en omdöpt zip. Packa upp med winrar. I det uppackade finns en .jar som också är en omdöpt zip. Packa upp med winrar. Variabeln med bannade ord ligger i tsioverlay.js. Ändra där och packa ihop allt igen som det låg. Avinstallera och installera på nytt.
+Om nåt är oklart, se denna guide: http://roachfiend.com/archives/2004/12/08/how-to-create-firefox-extensions/"
+,woosh1,2005-04-24T21:13Z,"bajsakissa:
+Du kan hämta den härifrån också.
+http://www.dtek.chalmers.se/~johnk/TSI/"

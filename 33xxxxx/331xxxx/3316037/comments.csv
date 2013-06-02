@@ -1,0 +1,73 @@
+﻿User Type,Username,Date,Text
+,freecity,2005-04-13T03:18Z,"hey thanks man, i just got 1 question. i got the surreal xxx instaled onto my xbox now, but now how do i play the roms from the iso i downloaded before from u using the new emulator. "
+,PerPonken,2005-04-13T07:53Z,You will have to move all your roms on your XBOX-HDD under Project X to SurrealXXXRoms etc.
+,StonerMan,2005-04-13T09:28Z,"You don´t have to move all the roms to your HDD
+What you can do is to enter BoXplorer, insert the Dvd
+press start, choose DeviceCdrom0, open up the Roms folder, and copy the games you want to the SurrealXxX folder..
+Or you can just repack the iso before you burn it,
+And replace the PJ64X Emulator with SurrealXxX.
+
+
+If you need help copying stuff with boXplorer let me know."
+,jeanchris,2005-04-14T01:03Z,"Anibody know if i can burn it on a DVD and play it on 
+my XBOX? because the other version of surreal i try, have don't work!
+
+Thank you! and sorry for my english, Im a Québécois! 
+"
+,StonerMan,2005-04-14T12:10Z,"@micvel	
+No need to. Just press the Right Thumbstick on your Xbox Controller,
+And choose ""Save State 1"" or ""2"" or whatever.
+Then you can save whenever, just remember what game you saved where.
+Cause i´m not sure if every game has 5 save states or if there´s 5 save states in the emulator.
+Am i making any sense??"
+,StonerMan,2005-04-14T12:13Z,"@ jeanchris
+Yeah you can use it from a disc.
+I haven´t tried it though."
+,Frezzno,2005-04-15T12:00Z,"I gonna try to help the best I can here, but I'm a rookie as many of the rest. Here it goes:
+
+1. There're 5 save states per game.
+2. If you run Surreal from DVD put all its files and sub folders on the root directory.
+3. Put all the roms in the roms folder.
+
+Before you burn the disc check surreal.ini under settings so that it says:
+[Settings]
+Rom Path=D:Roms
+Media Path=D:Media
+
+D in this case doesn't mean the DVD drive. It is the root directory where you ran default.xbe.
+
+That means even if you ran Surreal default.xbe from f:emulatorsSurreal64 it will search ...Sureal64roms for roms.
+
+I hope you'll get any sence from this. If you need more help just ask, or you want me to shut up just say so."
+,Frezzno,2005-04-15T20:01Z,"You still got it wrong you... But I don't mind, glad I could help.
+
+I also want to recommend you use Surreal64XXX beta 2 Installed on the HD instead. And copy the roms you wanna play to the roms folder.
+
+No offence Stonerman but your iso is still great."
+,Frezzno,2005-04-16T00:27Z,"I finally got it! You can run eather Surreal64 or Beta2 from HD and use StonerMans iso in the DVD-drive.
+
+Edit surreal.ini
+Change rom path to a:...->where StonerMan put the roms folder, eg a:roms .
+
+If you gonna compile a new iso then do NOT put roms on the root directory. It will NOT work. You must put them in a folder.
+
+If you run Surreal64 then the folder must be named ""roms"".
+
+If you run Beta 2 then the folder can be named anything.
+
+Hope this helped."
+,ElRoccster,2005-04-16T16:29Z,"Well i got the Surreal installed on my drive, I have some roms in the roms folder and the EMulator finds it just fine but I can play maybe 10-20% of the games. Any ideas?
+
+When I choose a game I get to choose from 3 different emulators. Which one is the best?
+
+rgds
+
+/ Richard"
+,Frezzno,2005-04-16T21:03Z,"Remember to be patient when you load a rom. Sometime it takes a while before the intro shows up.
+
+The best one in my opinion is the middle one, almost all my roms works there. In some cases like Zelda Majoras mask it only works with 1964. Mario cart with PJ64 so you can play 4 players."
+,spydex_7,2007-09-22T15:31Z,"plz seed i really need this
+
+snälla seeda jag behöver denna
+
+eller visa en annan bra n64 emulator"

@@ -1,0 +1,9 @@
+﻿User Type,Username,Date,Text
+,kcjitro,2006-04-08T18:07Z,A simple question; does this work or not?
+,beekes,2006-09-10T12:53Z,Hi anybody can help me with installation...when I run installation it is ok but when I run the program it asks about server or file and I donot know what to do..if somebody can help please
+,sorisltd,2009-11-25T23:46Z,"Installation process is fine, but the license file is missing, so doesn't work"
+,intlidave,2010-03-19T23:51Z,"To people having problems with license:
+You need to run regedit and change the license path data key in
+HKEY_CURRENT_USER\Software\Mathsoft\Mathcad 13\FLEXlm
+to where mcad13.dat is on your computer. "
+,kn3man,2011-07-04T16:42Z,Hi!where can I find the regedit?and this HKEY_CURRENT_USER\Software\Mathsoft\Mathcad 13\FLEXlm??somebody please help me..i needed your answer a lot.thanks!

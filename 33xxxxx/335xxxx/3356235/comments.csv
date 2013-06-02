@@ -1,0 +1,14 @@
+﻿User Type,Username,Date,Text
+,margu,2005-08-01T01:59Z,"Tack grisnit. 
+Tomas Bolme brukar vara väldigt bra som uppläsare så jag ser fram emot att lyssna på denna ljudbok."
+,margu,2005-08-01T16:10Z,"Litet skript för den som hellre vill ha sina ljudfiler i mp3-format: 
+
+#!/bin/bash
+for i in *.wma ; do ffmpeg -i ""$i"" -acodec mp3 ""$i.mp3""; done"
+,Timvinkel,2006-03-31T18:52Z,"Mycket bra och givande bok, har det faktiskt som orignal :), fick den gratis"
+,IanZ,2006-12-25T12:13Z,"Jag hade varit tacksom om någon skulle kunna seeda denna igen, tack!"
+,AloeVera,2007-11-11T11:51Z,Tack för boken. Hoppas jag hinner få hem den innan den ende seedaren hoppar av.
+,AloeVera,2007-11-18T11:30Z,Hjärtligt tack till de som hjälpte mig med seedningen
+,HKFKM,2008-12-27T18:54Z,"tomas bolme är en underbar uppläsare så jag ser fram emot denna bok.
+tack"
+,epicfail2u,2010-01-08T18:39Z,"ngn som vet hur jag öker hastigheten på berättaren. måste ""läsa"" ut den rätt snart :P"

@@ -1,0 +1,19 @@
+﻿User Type,Username,Date,Text
+,GasGiver4711,2005-07-04T19:23Z,"generalleoff:
+
+Generally ;-)
+the right place to post bugs is here:
+http://sourceforge.net/tracker/?atid=581838&group_id=87054&func=browse
+
+But if it is a severe bug that keeps u from using XBMC you might try to post it here, too.
+1. You might be lucky, the developers fixed it soon after my release
+2. You might be very lucky, i get my ass up and post an update before the week is over ;-)
+
+I cant do anything about the scripts, i try to always get the latest ones, but they have bugs.
+QuickTimeBrowser crashing on exit is such a confirmed bug!
+Stupidvideos just lags like hell when starting it, be patient.
+I did not experience severe bugs with the other scripts so far, but as always your mileage may vary
+
+GasGiver"
+,The Raf Man,2005-07-05T15:01Z,Thanks again for another release GasGiver. I previously send you a message in regards to a problem I was having with Milkdrop hanging and not changing at all. I found out in XBMC forums that there is a bug where the mildrop.xml file is overwritten when you change the settings while using Milkdrop as your visualization or stop playback and the reboot. I simply transfer back the original milkdrop.xml and now is working fine. For more info go to: http://www.xboxmediaplayer.de/cgi-bin/forums/ikonboard.pl?s=5e6c3cb3bf0afa1f2987149253ba94e6;act=ST;f=3;t=13645;hl=milkdrop+hangs
+,generalleoff,2005-07-06T03:10Z,hmm that milkdrop bug might explain why out of the blue I keep losing the presets. Milkdrop will just say no presets are available and will only show a simle generic black and white preset. This seems to happen almost 100% of the time when I play a CDDA disc.

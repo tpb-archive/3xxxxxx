@@ -1,0 +1,25 @@
+UnleashX V0.38.0508A Build 564
+>> A new version of the UnleashX(info) Xbox dashboard has been released.
+What's new/fixed:
+* Fixed Ambient sound stopped working.
+* Fixed C:xboxdash.xbe is used/inserted automatically when the Audio CD player is blank and you modified the Autoplay option.
+* Fixed Screen flashes when transferring files to/from the xbox.
+* Fixed SITE FreeSize is reporting a wrong value if the free HD space on the target drive is more than 3.5GB (approx.).
+* Fixed Extracting Rar files was very slow. 
+* Fixed Auto-shutdown was not functioning properly.
+* Fixed Playlist does not display the name of song when played using the file explorer.
+* Fixed Removing the language file causes the xbox to reboot, but changes are still saved.
+* Added Auto-log off of FTP users after 5 minutes of inactivity.
+* Added "Relative" attribute to the MusicPlayer section. This will cause the coordinates of the items to be relative to the top-left coordinate of the player window, rather than the screen. Default value is False.
+Ex: [MusicPlayer Left="10" Top="96" Width="308" Height="288" Relative="True"]
+This means that an item with (0,0) coordinate will be shown at (10,96).
+Note: Playlist window is still absolute.
+* Added "Direction" attribute to the "Progress" and "Volume" element of the music player, which controls the way these element are drawn. Acceptable values are "Up", "Left", "Right" and "Down" with "Left" being the default.
+* Added The button ("Element" element) sequence is now honored by the player, meaning you can re-order them and the control sequence will follow that order. It is also possible to omit a button and still keep the sequence intact.
+Note: For music player related skinning, take a look at OrangeShapes_ConstantineMP.zip. This is a skin based on OrangeShapes with Constantine music player theme.
+* Changed ScreenSaver will default to Text mode if Slideshow path or video file is not found.
+*Changed On screensaver text mode, the "tick" sound is suppressed if background music is playing.
+*Changed All fonts has been modified to include characters above ASCII 127. Hence, the caption should also display accented characters.
+
+Official Site: http://www.unleashx.com/
+Official Forums: http://forums.xbox-scene.com/index.php?showforum=63

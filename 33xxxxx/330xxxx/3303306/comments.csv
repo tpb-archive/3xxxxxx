@@ -1,0 +1,177 @@
+﻿User Type,Username,Date,Text
+,FAK7OR,2005-03-18T18:44Z,"Tja, den fungerade inte på min PAL-box i alla fall. "
+,Sleazy-T,2005-03-18T18:46Z,Kör man enigma videomode switchgrejen borde det väl gå? Då säger den ju till eeprom att det är en ntsc box.
+,DAsH,2005-03-18T19:21Z,"Ska säkert funka då
+Tack för att någon äntligen la upp detta lir.. väntat som fan på det"
+,Bat21UK,2005-03-18T19:27Z,Hi Guys Just got hope of a xbox can anyone tell me the best way to get download games to work or the best mod chip to use web site would be good
+,ChNa,2005-03-18T19:36Z,Funkar inte ens om man ställer om till ntsc i boxen :-( Releasen borde nukas !!
+,krimson2004,2005-03-18T20:39Z,"First it did not work for me on my PAL xbox, but after i installed/copied UnleashX_0_37_1218A to my HD and changed the video settings to NTSC J or M it runs very well !!! :-) GREAT GAME!!!!"
+,Sheept,2005-03-18T21:32Z,"TACK, har väntat på den, ska tanka den nu på direkten, hoppas bara den funkar."
+,crille30,2005-03-18T22:43Z,"Denna release fungerar helt perfekt på min PAL Xbox. Inga problem alls.
+
+Jag har ett X-ecuter-chip med Evolution-X.
+
+Notera till att börja med, jag bränner ut spelet på DVD-skiva och kör från den. Jag lägger INTE in spelet på HD'n.
+
+Det jag sedan gör är enkelt, nämligen följande:
+
+1. Går in i ""System Settings"" och ändrar ""Game Region"" till AUTO.
+
+2. Sedan kör jag igång spelet från menyn, genom att välja ""Launch DVD"".
+
+Och voila!
+Och ja, jag vet att det här är högst individuellt, beroende på vilket chip och vilket OS man kör.
+Men så här enkelt är det för mig, när jag startar det direkt från skiva.
+
+Jag testade först även att ändra till NTSC i ""Enigma Videomode"", vilket senare visade sig vara helt onödigt.
+
+Så fort jag ändrade ""Game Region"" till AUTO, då startar det varje gång.
+
+Kanske hjälper det någon annan... vad vet jag?
+Men den här releasen fungerar, bara man gör rätt inställningar och förändringar."
+,crille30,2005-03-18T23:02Z,"Skulle det nu inte vara så enkelt, som det var för mig (då jag bara behövde ändra EN inställning), så kommer här ett citat ur ett inlägg från sidan TorrentBytes -->
+
+
+""
+Switch videomode with enigma videomode switchdisc to NTSC.
+
+Then switch video setting to auto in evox settings.
+
+Lastly change video to normal in MS Dash.
+
+
+Works from both DVD and HDD using this method.
+""
+
+
+Det här kanske kan hjälpa resterande som har problem med att få igång det här spelet. :)"
+,Ceril,2005-03-18T23:23Z,"Det e INGA problem med att få igång denna release. Det e bara att sett till så att din xbox är ställd på region USA/NTSC och videomode USA/NTSC. Lättaste lösningen som bör funka för alla är Videomode disk. Men dom som har Xenium chip kan byta båda inställningarna i intällningarna på själva chip, i menyerna altså. Lycka till! :p Mycket trevligt spelade väntar!"
+,Kazekage,2005-03-19T00:12Z,"Thank you very much, I've been waiting for this. ;)"
+,adnil96a,2005-03-19T09:32Z,"Drog hem denna torrent från en annan sida, men kunde ej  få igång den :( 
+
+väntar hellre på den europeiska versionen.. :p"
+,DAsH,2005-03-19T11:54Z,"Fungerar fortfarande inte för mig, trots denna hemliga tuturial som Crille30 gav oss.. någon annan som har något tips?"
+,archape,2005-03-19T12:06Z,jag har flashat bios och har ändrat videomode switchdisc till ntsc men funkar inte.. och jag har inte den där andra grejen ni snackar om.. kan inte ändra region på något sätt
+,Sheept,2005-03-19T14:33Z,Jag körde på 70 kbits/s rakt igenom =)
+[T],trollfan,2005-03-19T15:46Z,Tog bort lite andra torrents. Nu seedar jag i 900kb/s. Hoppas det hjälper. :)
+,DAsH,2005-03-19T18:18Z,Weheyyuu.. nu fick jag det att fungera.. men till vilken nytta då? Tyckte inte alls det var speciellt roligt - det har höjts så mkt till skyarna på Gamecube.. men nu när jag väl får prova det blir jag inget annat än besviken.. =(
+,adnil96a,2005-03-19T19:29Z,dash hur gjorde du? säg inte att du bara bytte game region till auto för det funkar inte för mej :( inte heller att byta till ntsc i enigma switch :(((((((
+,archape,2005-03-19T19:35Z,hur gör vi  som har flashade boxar då?
+,Sheept,2005-03-19T21:22Z,"Jag kan heller inte få det att funka, hur jag än gör har fixxat
+
+NTCS, i Video Switchen
+Game Region Auto, i settings
+Video Normal, i Microsoft Dashbord
+Ställt klockan rätt.
+
+Allt det och testat en miljon gr, men det funkar inte =(  "
+[T],trollfan,2005-03-20T11:38Z,"Det funkade inte till en början, men vi fick igång det till slut efter att ha lekt runt lite med de där inställningarna. Vet inte varför vi just fick igång det, men det gjorde vi. :S"
+,mindstone,2005-03-20T14:32Z,Fungerade direkt för mig när jag satte game region på auto.. däremot så får jag svartvit bild då min tv tydligen inte klarar av ntsc signaler ;) ska testa med min projektor ikväll om det blir lite bättre då! Tackar för ett bra spel! Äger både 1an och 2an till ngc ;)
+,colinwatson1,2005-03-20T15:22Z,"This is what worked for me
+
+EvoX 3935
+Region = PAL
+Game Region = AUTO
+TSR = NORMAL
+Saved changes
+
+M$ Dashboard 
+Video = NORMAL
+PAL60 = Yes
+
+Put DVD in drive and it worked, ad works from hdd to."
+,Softbomb,2005-03-20T18:18Z,"Jag använde samma inställningar som i det förra inlägget. Spelet fungerar som det ska men är i svartvitt eftersom min TV inte stödjer PAL 60 tror jag. 
+Har XBOX chrystal 1.6 + Aira 2 om någon undrar
+
+Bara till att hoppas på att det kommer en fix snart."
+,brass6,2005-03-20T19:26Z,"det enda ni behöver göra är att sätta TSR = Normal , Region = Auto och starta spelet via Evox (senaste.) 
+då funkar det."
+,Sheept,2005-03-20T20:44Z,"Gött, det funkar nu =D=D
+
+Allt som jag behövde ändra var TSR till Normal från Disabled =)
+
+Vad står det för egentligen förresten?"
+,Shio,2005-03-20T22:06Z,Noen som har en lignende løsning for Avalaunch? Har ikke Evox inne :(
+,Noilfish,2005-03-20T22:28Z,vad är TSR?
+,cryptonic,2005-03-21T10:37Z,"tråkigt att behöva köpa ny tv som har stöd för ntsc, men men.."
+,the_rooster,2005-03-21T10:50Z,Yeah didnt work for me. Pal system on pal settings. When turned to ntsc still didnt work
+,Fredde69,2005-03-21T11:14Z,var hittar man TSR inställningen..??
+,t.b.l,2005-03-21T14:32Z,"Har oxå testat allt men det fungerar inte ändå.
+Det kommer inte någon typ av ""patch"" som kan fixa detta?"
+,Sheept,2005-03-21T15:49Z,"Fredde69,
+
+Under Settings."
+,Genezis-,2005-03-21T18:08Z,"Evox didn't work for me, this is what did though:
+
+:: Evox ::
+
+Game Region: Default (I'll say why later)
+
+:: UnleashX ::
+
+Auto switch: Yes
+Multi region mode: NTSC M
+
+Save, reboot. Then boot up the game and save the game data (at the start).
+
+Now your Xbox is locked in NTSC, and Enigmah videoswitch won't work. Evox also forced my Xbox to use NTSC mode, therefore I took off the auto there. 
+
+Now, to get my Xbox to work in both modes again I simply took off the multi region mode in UnleashX. After that Enigmah could switch between PAL and NTSC like usually and Super Monkey Ball DX works (in NTSC mode as usual)! After saving the game data once it works for some reason
+
+Just thought I'd share this in case any of you were having trouble with it, even after trying Evox... like me."
+,achbullen,2005-03-21T20:22Z,vad e tsr för något? jag har evolutionx jag kan inte hitta det någon stans? snälla hjälp mig jag e klar med spelet fast får ej i gång det
+,CompuTerror,2005-03-21T20:58Z,"Jag fick den att funka iallafall utan problem, fast jag ställde in till NTSC i Xeniumets EEPROM Meny (Där man även ställer in gaming region)"
+,adnil96a,2005-03-21T21:40Z,"lite OT här men vad gör flash bois i xboxen? råkade ändrade dem (bytte till en annan som fanns och nu gr det ej att byta tebax :?) 
+
+Gör det nått? eller måste man ha den senaste biosen för att få igång monkey? :?
+
+Vart kan man få tag i nya bios eller måste man ej bry sej om dem?"
+,gogo,2005-03-22T11:24Z,om det blir svartvitt på rutan  behöver ni inte köpa en helt ny tv det räcker att ni köper en RGB kabel.. det fungerade iallafall på min ps2 när jag hade samma problem.
+,achbullen,2005-03-22T20:59Z,vart kan man hitta TSR i settings? och vad är det för något?
+,dannep87,2005-03-22T21:53Z,System utils / setting å så längst ner hittar man TSR. Funkade inte för mig med dom här inställningarna men ist för att ha på auto så tog jag på NTSC då då funkade det sen... :)!
+,abox,2005-03-23T09:13Z,hur kommer det sej att när jag brännt ut spelet på en dvd+r cd och sätter i det i xboxet och direkt när spelet é insatt går xboxet direkt till saved games on hard disk menyn??
+,ReweN,2005-03-23T19:47Z,"nån som kan hjälpa mig vart jag kan hitta TSR??
+har letat i settings o ja hittar inte. vart exakt är det?"
+,bork_ne41,2005-03-25T12:14Z,"Ok,
+I downloaded the game, I have a PAL xbox, so i changed all the settings and stuff, and changed it to ntsc and everything...still didnt work. But then i realized that when i sent the game over to the HDD, it wouldnt send over a couple of files, namely:
+
+""maÿ"" , ""ngon_sl.gmaÿ"" and ""s.mtaÿ""
+
+These are the three biggest files, and it wouldnt transfer them over because of the character ""ÿ"" (two dots above the y) in the filename. When i changed it to a normal ""y"" it transfered, but i think that is why its not working, cause ive changed the original names of the files.
+The xbox doesnt allow those characters on it,what I was wondering is there any way around this problem (getting the original file names onto the HDD), without burning the game onto a DVD.
+
+Any advice would be greatly appreciated cause this game rocks.
+Cheers."
+,bork_ne41,2005-03-25T12:15Z,Has any one else had the same problem as me? 
+,snusaren.94,2005-03-28T11:10Z,Har bränt ison på en dvd-r när jag stoppar in den i xboxen så startar inte spelet utan det börjar söka efter savad data och mer än så blir det inte.Någon som vet varför??
+,saintsmatt,2005-03-30T13:04Z,"I just changed M$ dash video to normal and pal 60 to yes, works fine now with evo x on auto."
+,smuffe,2005-03-31T13:05Z,"hmm, när jag packar upp filerna får ja en iso som e på 2.75 gig eller nåt..när ja sen ska skicka över den med xfer står det att pelet e på 9 MB, något som inte stämmer här va?? 
+
+nån med samma problem??"
+,m.jo,2005-04-06T17:47Z,"det fungerar inte över huvudtaget för mig. har försökt med en fix och med båda ava och evox. testat med alla möjliga inställningar, men inget fungerar. ava bara startar om sig och evox låser sig i loading läget. :(
+
+några tipps?
+
+jag vill spela!"
+,en_and,2005-04-26T11:38Z,"System Utilis/ Settings, sedan ändra Game Region till Nordamerika!"
+,Frozt88,2005-05-10T17:33Z,"Funkar inte för mig heller... :(
+Ändå har Jag ändrat till Nordamerika på ""Game Religion"". Jag har en ganska gammal version av Evolution X kan det vara det som gör att spelet inte funkar? Jag har inte lagt in spelet på min hd Jag kör alltd från skiva är det där problemet ligger?"
+,blomväxter,2005-05-16T13:34Z,"Om inte detta spel funkar varför ligger det då på 4.3 av 5 för???
+
+kan nån förklara....  och är det någon som har fått detta spel att fungera så kan han väl berätta hur han gjorde"
+,m3rcc,2005-07-11T01:59Z,"Hej
+Jag har en gammal version av evoX. Jag ser ingenting som heter ""Game Region"" eller ""TSR""(vad står TSR för) eller något annat som flera andra beskrivit här de senaste kommentarerna. Någon som vet var jag hittar det? Om jag ens kan hitta det."
+,kempa21,2005-08-07T14:25Z,Bara jag som kan ha atomatiskt regions byte ????!?!:D
+,unholy1,2006-03-26T22:19Z,Need some seeds here PLEASE!!
+,1alttab,2006-03-27T19:33Z,"thanks to those who are seeding, and those peers who are sharing there pieces of the torrent"
+,1alttab,2006-03-30T00:12Z,"stuck on part 1035, thats a piece of gmz-monkey.r43. doing a google search of ""gmz-monkey.r43"" should return some usenet/newgroup downloads, but i cant go and donwload that right now, maybe someone else can if they wont wait till the piece comes from a seeder"
+,1alttab,2006-03-31T17:53Z,only worked when i burned the dvd of the iso image. using c xbox tools did not work. can play from the burned dvd and harddrive if you use dvd2xbox
+,pasiQue,2006-06-22T02:38Z,OMG!!! Seeda! xD
+,nxc,2006-11-28T20:06Z,"Okay so I have tried everything to get this game to work:
+
+TRS, Enigmah, all video modes in EvoX, NTSC in UnleashX and I even tried changing my eproom to NTSC Region 1. NOTHING seems to work, had the same problem with Psychonauts NTSC release.
+
+Is it so that some Xbox's / TV's just can't handle NTSC games and won't even boot them? All I get is being kicked back to EvoX dash. Any suggestions?"
+,drparanoid,2007-02-21T21:32Z,Anyone care to seed this? Stuck at 91.1%. It's amazing how everyone manages to seed the non working version of this game and the only working one is nearly dead...
+,skitza,2007-09-19T23:18Z,thanks for the upload but could someone seed this please
+,rbsfou,2008-04-01T04:13Z,@drparanoid : me too! :(

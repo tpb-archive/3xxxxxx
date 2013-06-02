@@ -1,0 +1,54 @@
+New and improved, packed with features, BSplayer is the best media player on the market today. Main advantages of the player are high quality playback, support for wide range of media files and it is low in CPU and memory consumption.
+
+Main Features:
+- Display subtitles - Support custom subtitles position, color, font, transparency,... Supported formats: MicroDVD, Subviewer, SubRip
+- Fully skinnable - Any shape, transparent skins...
+- Resizable movie window
+- Multilingual
+- Drag & drop support
+- Command line support
+- Pan-scan and custom pan-scan option
+- Custom aspect ratios
+- Playlist support
+- Resolution changing
+- Frame capture
+- AVI files with more than 2 audio streams supported (multilanguage)
+- Support for OGM files, including more then 2 audio/video tracks, supports embeded subtitles/chapters
+- External audio file supported
+- S/PDIF output supported for AC3 files (with Intervideo audio decoder)
+- INI files
+- Remote control support - WinLIRC
+- Bookmarks
+- Simple equalizer (DirectX 8 required)
+- Playback rate (1/2x, 1x, 2x) and custom
+
+Pro version has all the great functions of 1.3 plus new great features such as:
+- Customizable Equalizer
+- Support for Capture/Tuner devices
+- Capture Video to file
+- Integrated subtitle editor
+- Network file buffering
+- Improved subtitles
+- Improved VMR9 support
+- Technical email support
+
+BSplayer Pro version 1.36 (b825) (5 Sep 2005)
+reorganized rendering modes
+added basic support for VMR7
+better support for locked files (files that are still downloading)
+player will now stay in desktop mode after movie is finished
+in frame step mode aspect ratio won't change anymore
+external subtitles will now work when embedded are present
+player will now come to foreground when new movie is started
+fixed CDDB problem
+fixed crash when close or minimize button was clicked
+fixed bug with subtitles in TMPlayer format, last line was not displayed
+fixed problems with some VobSub subtitles
+ar command line option was broken, fixed
+some bugs with .bsi files fixed
+more compatible with Haali splitter
+audio input for TV tuner is now properly remembered (Pro only)
+some other bug fixes
+
+
+2.65 MB

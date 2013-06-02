@@ -1,0 +1,8 @@
+﻿User Type,Username,Date,Text
+,MrPeePeeHead,2005-04-20T22:37Z,"Is there any way to re-encode this? I have DL'ed it, but it will not play in my stand alone DIVX player. It skips on my computer as well. I want to be able to test out my HD projector but I need to get it onto a dvd disc to do that. My Divx/xvid/mpeg capable DVD player will not read it. Would reencoding it in DIVX ruin it??"
+,Norvegia,2005-04-21T19:23Z,"You can encode it using this tutorial http://www.samek.neostrada.pl/hdtv/hdtv2xvid.htm, but I don't think you are gonna be able to play it on your player, unless it supports high definition resolutions. If it doesn't, you can resize the video to 720x576, for example, and that way your player would play it, but your HD projector would not show its best with this low resolution.
+
+The best solution would be to hook up the HD projector to your PC, but don't know if that is possible in your case. And if it skips on your PC while playing, try the above mentioned codecs and try to enable the hardware acceleration in the Cyberlink codec if you have an ATI card.
+
+Hope this helps."
+,sainthalo,2005-07-15T23:51Z,Ultimately depends on your processor to play HD clips well but play it with VLC player  http://www.videolan.org/  and it should work. Videolan player is free and the best. 

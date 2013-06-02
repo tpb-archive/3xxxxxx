@@ -1,0 +1,289 @@
+
+                                °         °             °
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ±² ÄÄÄÄÄÄ ±² ÄÄÄÄÄÄÄÄÄÄ ±² ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³X           °ÛßÜÜ  °Ûßß ÜÛßß ²Ûß   ßßÜ ²Û  °ÜßÛ °Ü Û ²ÛßÛ °Ûßß           X³
+ ³            ÛÛ Û Û ÛÛß  ÛÛ Û ÛÛ   ²ÛßÛ ÛÛ  ÛÛ Ü ÛÛ Û ÛÛ Û ÛÛß             ³
+ ³    ° ± ² Û ²Û ² Û ßÛ²Û ÛÛ ² ßÛ²± ßÛÛ² ßÛÜ ßÛ²Û ßÛ²Û ÛÛ²ß ßÛ²Û Û ² ± °    ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³                                                                          ³
+ ³                                                                          ³
+ ³                        - COBRA FOR VIPER GC V1.1 -                       ³
+ ³                                                                          ³
+ ³                            14th of april, 2005                           ³
+ ³                                                                          ³
+ ³                                                                          ³
+ ³  WHAT'S NEW ?                                                            ³
+ ³                                                                          ³
+ ³  - Built-in Audio Fix, that could be Enabled/Disabled in the Config      ³
+ ³    Menu for full backward compatibility with your old backups.           ³
+ ³  - Music Player in Disc Explorer! Select an audio file to play it. For   ³
+ ³    now only ADPCM audio streams are supported (*.ADP, *.PCM, *stream*,   ³
+ ³    etc.), the GC streaming format. Support for more formats, including   ³
+ ³    MP3, is coming in a next release.                                     ³
+ ³  - Optimal DRE Handling, read more below.                                ³
+ ³  - Improved Direct Boot mode Compatibility, now it should be compatible  ³
+ ³    with every good media, including DVD+R.                               ³
+ ³  - No need to enter Disc Explorer anymore to boot MultiBoot discs, just  ³
+ ³    select Direct Boot Disc and the Cobra BIOS will detect automatically  ³
+ ³    if you inserted a GC Original, DVD-R, DVD+R or MultiBoot Disc !       ³
+ ³  - Fixed a MultiBoot compatibility problem. Now it should work properly  ³
+ ³    with every images.                                                    ³
+ ³  - Upgrade with the Disc Explorer from Cobra 1.0 if you want to keep     ³
+ ³    your AR codes and configuration intact.                               ³
+ ³  - And some more bugfixes/changes                                        ³
+ ³                                                                          ³
+ ³  About Disc Read Error handling, we can't help you if you use a bad      ³
+ ³  burner, media or if your laser is not tweaked correctly. But we've      ³
+ ³  improved the error handling code A LOT. Here is a small experiment      ³
+ ³  we don't recommend trying at home, except if you know what youre doing: ³
+ ³  You can remove the spinning disc for one second while it's playing a    ³
+ ³  movie or loading data. This will trigger some serious read error with   ³
+ ³  any other BIOS :-) Now put the disc back in quickly and it will         ³
+ ³  continue loading, without a crash!                                      ³
+ ³                                                                          ³
+ ³                                                                          ³
+ ³  FEATURES                                                                ³
+ ³                                                                          ³
+ ³  - Direct boot of all media, without swapping!                           ³
+ ³  - Automatic Media Detection: Insert disc, turn on GC and play!          ³
+ ³  - Supports all regions PAL / USA / JAP                                  ³
+ ³  - Play originals or backups from any region, thanks to the built-in     ³
+ ³    region-free feature                                                   ³
+ ³  - Built-in Audio Fix, that could be Enabled/Disabled in the Config      ³
+ ³    Menu for full backward compatibility with your old backups.           ³
+ ³  - Idle-bug free (no more Disc Read Errors when the drive is resting :-) ³
+ ³  - Unique MultiBoot feature: put several games on one single disc!       ³
+ ³  - Disc Explorer to browse the content of original GC discs or DVDs and  ³
+ ³    that allows you:                                                      ³
+ ³      - To flash your Viper GC by burning the flash file on a DVD         ³
+ ³      - To execute homebrew programs (.DOL) from DVD, and enjoy many      ³
+ ³        already-released homebrew productions!                            ³
+ ³      - To play music, for now only ADPCM files aligned on a 32kb         ³
+ ³        boundary are accepted. This is the format of all GC games that    ³
+ ³        are using audio streaming, so listen to those games songs!        ³
+ ³      - To run the game you want from a MultiBoot compilation             ³
+ ³      - To load cheat codes from disc into Viper GC Memory                ³
+ ³  - Powerful Cheat Code System compatible with Action Replay codes,       ³
+ ³    codes are stored in the Viper GC Flash so no memory card is needed!   ³
+ ³  - Cheat codes can be either entered using Cobra Menus or loaded from    ³
+ ³    a file using the Disc Explorer                                        ³
+ ³  - BIOS Configuration stored into the Viper GC Flash                     ³
+ ³  - Selectable default boot action (Main menu, Boot disc, Original BIOS,  ³
+ ³    Disc Explorer) and special boot action (when the X key is held)       ³
+ ³  - Calls Original BIOS Game Loader for 100% compatibility                ³
+ ³  - Supports all hardware revisions (including DOL-101 units)             ³
+ ³  - User-Friendly GUI                                                     ³
+ ³                                                                          ³
+ ³  A Swap disc option was left in (called "Change Disc" as you could also  ³
+ ³  replace a backup with another backup) to be totally backward            ³
+ ³  compatible. Read more below                                             ³
+ ³                                                                          ³
+ ³  So what do you need exactly ?                                           ³
+ ³     - A Viper GC chip                                                    ³
+ ³     - This very flash file                                               ³
+ ³     - Some Compatible Media and a DVD-burner                             ³
+ ³                                                                          ³
+ ³                                                                          ³
+ ³  USER MANUAL                                                             ³
+ ³                                                                          ³
+ ³   - If you want to use full-size DVD-R you can remove the top of the     ³
+ ³     console. Team Xtender will be releasing replacement lids compatible  ³
+ ³     with full DVD-R within two week. Best of all, we learned this week   ³
+ ³     that they will be officially Viper GC branded!                       ³
+ ³                                                                          ³
+ ³   - Flash the Viper GC with this BIOS then remove the parallel port      ³
+ ³     connector from the programmer. If you prefear you can flash this     ³
+ ³     BIOS from DVD if you have Cobra 0.3+ already running on your chip.   ³
+ ³     We've heard Viper Team will release an USB programmer for the chip   ³
+ ³     soon if you prefear USB.                                             ³
+ ³                                                                          ³
+ ³   - Turn on your GC with the disc you want to run. It can be an          ³ 
+ ³     original or a backup, but if it's a backup it should be filled with  ³ 
+ ³     1.3GB of data at least (for now). If you have a black screen coming, ³
+ ³     it's probably beause your Viper installation is not clean.           ³
+ ³                                                                          ³
+ ³   - While turning on your GC:                                            ³
+ ³        - Hold Y to go to Main Menu (if it's not your Default Boot mode)  ³
+ ³        - Hold X for the other boot mode (can be set in Config Menu)      ³
+ ³        - Don't hold anything for Default Boot Action                     ³
+ ³                                                                          ³
+ ³   - Select "Direct Disc Boot" if you want to play a backup or homebrew   ³
+ ³     program from DVD. If you have problems using the Direct Disc Boot    ³ 
+ ³     method with your media, you can still use the Swap trick.            ³
+ ³                                                                          ³
+ ³   - If you want to use the old Swap Trick Method (for discs that are     ³
+ ³     not full or that have problems to sync with the Direct Disc Boot)    ³
+ ³     boot your GC with an original disc. Then choose the "Change Disc"    ³
+ ³     option and follow the instructions. After the swap is done, you      ³
+ ³     can select Direct Disc Boot option again.                            ³ 
+ ³                                                                          ³
+ ³   - Select "Original BIOS" if you want to play an original Game          ³
+ ³     compatible with your GC region, or if you want to go into the        ³
+ ³     Original BIOS menus.                                                 ³
+ ³                                                                          ³
+ ³   - Select "Configuration Menu" if you want to change your Cobra BIOS    ³
+ ³     configuration. The options are quite self-explanatory.               ³
+ ³                                                                          ³
+ ³   - Select "Disc Explorer" to enter to browse the content or your        ³
+ ³     original GC discs or DVDs. Supported file systems are FST            ³
+ ³     (GC File System) and ISO9660. Joliet encoding is not supported in    ³ 
+ ³     ISO mode.                                                            ³
+ ³                                                                          ³
+ ³   - Enter "Cheat codes" to select, enable, disable and edit cheat codes  ³
+ ³                                                                          ³
+ ³   - Enter "Disc Explorer" and select a .VGC file if you want to reflash  ³
+ ³     your Viper GC without the need of the Parallel port programmer!      ³
+ ³                                                                          ³
+ ³   - Enter "Disc Explorer" and select a .DOL file if you want to run      ³
+ ³     a homebrew program! (You can put up to 1.4 GB of homebrew things on  ³
+ ³     a disc. We hope this will give some inspiration to emu authors :-)   ³
+ ³     Our DOL loader is not perfect for now and works for around half of   ³
+ ³     the public homebrew programs. Here are some of the programs booting  ³
+ ³     successfully:                                                        ³
+ ³     GC-Linux, Ascii Fighter, DVD Browser, CTR_GCS, CTR_SND, GBQ Gameboy  ³
+ ³     emulator, PSOLoader "It's working" demo, Maze, Nitrorally,  Yeti 3D  ³
+ ³     3D engine, Chip8 emulator, Snowlords game, Terranigma, XRick and     ³
+ ³     probably many we missed!                                             ³
+ ³                                                                          ³
+ ³   - Enter "Disc Explorer" and select a .VGC file if you want to reflash  ³
+ ³     your Viper GC without the need of the Parallel port programmer!      ³
+ ³                                                                          ³
+ ³   - Enter "Disc Explorer" and select a .COD file if you want to add      ³
+ ³     cheat codes for a game without the need to enter it using the pad!   ³
+ ³                                                                          ³
+ ³   - Make sure that the "lid passthru" wires of the Viper GC are          ³
+ ³     installed correctly or the disc won't spin.                          ³ 
+ ³                                                                          ³
+ ³                                                                          ³
+ ³  DIRECT BOOT LIMITATIONS                                                 ³
+ ³                                                                          ³
+ ³  THE MEDIA                                                               ³
+ ³                                                                          ³
+ ³  The GC drive in its default state only eats high-quality DVD-R and      ³
+ ³  a few MINI-DVD-R. But a couple of weeks ago, speedi from the afterdawn  ³
+ ³  forums found a nice way to tweak the laser so it reads almost any burned³
+ ³  media including some DVD+Rs. We recommend doing this laser tweak if you ³
+ ³  have any problems reading your DVDs. We are no laser experts, in fact   ³
+ ³  we think it would be more appropriate to just lower the value of the    ³
+ ³  variable resistor instead of setting it to an absoulte given value,     ³
+ ³  but lots of people including us have been using this laser tweek for a  ³
+ ³  couple of weeks without any problem reported so far. For more info on   ³
+ ³  laser tweaking please read this forum post:                             ³
+ ³     http://forums.afterdawn.com/thread_view.cfm/138930                   ³
+ ³                                                                          ³
+ ³  You don't need to encrypt the disc or use a special burner firmware     ³
+ ³  to write the disc. Just burn your ISO/GCM (rename it to .ISO) with      ³
+ ³  Nero (or any other tool).                                               ³
+ ³                                                                          ³
+ ³                                                                          ³
+ ³  CHEAT CODES                                                             ³
+ ³                                                                          ³
+ ³  If you want to use cheat codes, enter Cheat Codes menu,select a game,   ³
+ ³  check the codes you want to use, exit the cheat selector and enable     ³
+ ³  cheats.                                                                 ³
+ ³                                                                          ³
+ ³  To add new codes follow on-screen instructions. The codes are           ³
+ ³  compatible with decrypted AR codes. You can decrypt AR codes using      ³
+ ³  the great GCNCrypt by Parayste. Never enter the first code of a given   ³
+ ³  cheat code (validator code). You can also put .COD files on a DVD and   ³
+ ³  load cheat codes from there, each file corresponds to one game.         ³
+ ³                                                                          ³
+ ³  Cheat codes are working for backups and original games.                 ³
+ ³                                                                          ³
+ ³  For now we've reserved 4kb in Viper GC Flash memory to store cheat      ³
+ ³  codes, that should be enough to store a few hundred of codes.           ³
+ ³                                                                          ³
+ ³                                                                          ³
+ ³  TROOBLESHOOTING                                                         ³
+ ³                                                                          ³
+ ³  - If the disc stops spinning in the menu it means that the drive can't  ³
+ ³    sync with your media, or that there are not enough data on your disc. ³
+ ³    In direct boot mode the GC is very selective about the media it       ³
+ ³    takes. If you have any problem please try the swap trick. If you      ³
+ ³    still have problems try with different media/burner. Make sure your   ³
+ ³    laser is correctly tweaked! We strongly recommend NEC burners, they   ³
+ ³    produce really good discs that won't give you any DRE.                ³
+ ³                                                                          ³
+ ³  - Audio Streaming: Some games use a special audio streaming mode        ³
+ ³    that can be compared to CDDA. For now, the ISO of the file needs to   ³
+ ³    be patched with 0rbital's great ViperTemporaryAudioFix 1.1+. If the   ³
+ ³    ISO is not patched you'll have noise instead of music. We will try to ³
+ ³    fix this issue so no patching is required. But in case we do, YOUR    ³
+ ³    PATCHED ISOS WILL BE FULLY COMPATIBLE and still work with music!      ³
+ ³    (so forget what is written in the fixer nfo file). Don't run the fix  ³
+ ³    on ISOs that don't need fixing as it will only destroy them :-)       ³
+ ³                                                                          ³
+ ³  - Most multi-discs games are working, just play with Disc 1 until       ³
+ ³    you're asked to change disc and make a save here. Then boot with      ³
+ ³    Disc 2 instead. We started working on code to allow disc-change,      ³
+ ³    and we'll integrate it in a new release.                              ³
+ ³                                                                          ³
+ ³  All those problems could be fixed in a next update.                     ³
+ ³                                                                          ³
+ ³  Before burning an image, makes sure it is 1459978240 bytes long else    ³
+ ³  you may need to use the swap trick method.                              ³
+ ³                                                                          ³
+ ³  To know what's your GC Version code (2 digit number) go into Config     ³
+ ³  Menu, then Version Info, 2nd page. First digit corresponds to GC        ³
+ ³  mobo version, 2nd digit corresponds to drive version.                   ³
+ ³                                                                          ³
+ ³  IF YOU MAKE BACKUPS, DON'T USE ANY "WIPE" TOOLS TO SAVE SPACE. Unless   ³
+ ³  you know it's REALLY working. Most of thoses tools only work because    ³
+ ³  the current pso loaders patch libraries routines to emulate DVD. But    ³
+ ³  on REAL HARDWARE, each file/fst has to be aligned on a 4-byte boundary! ³
+ ³  Else nothing will work. Audio Files (for audio streaming) even need     ³
+ ³  to be aligned on a 32kb-boundary ! So forget current "WIPE" tools until ³
+ ³  they are fixed. But note that Garbage is NOT NEEDED by the GC. The      ³
+ ³  files must be correctly aligned that's it. So if your "WIPE" tool is    ³
+ ³  not changing the image size (meaning there's no relocation) then it's   ³
+ ³  probably fine. Use FSTFIX by LOONYCUBE to fix bad rips.                 ³
+ ³                                                                          ³
+ ³                                                                          ³
+ ³  TECHNICAL INFO                                                          ³
+ ³                                                                          ³
+ ³  We'll release a command-line MultiBoot Disc maker next week if nobody   ³
+ ³  releases a better one before we do :-) Here are the specs for Multiboot ³
+ ³  discs. Note that every image should be aligned on a 32kb boundary.      ³
+ ³  At offset 0x00: 43 4F 42 52-41 4D 42 31                                 ³
+ ³            0x40: Position of the 1st image in bytes (Big endian)         ³
+ ³            0x44: Position of the 2nd image in bytes (Big endian)         ³
+ ³            ....: ...etc...                                               ³
+ ³            ....: 00 00 00 00                                             ³
+ ³                                                                          ³
+ ³  The MultiBoot feature is stealth for the GC so it's 100% compatible     ³
+ ³  with homebrew images. If you want to put several backups on one disc    ³
+ ³  you'll have to remove the garbage at first.                             ³
+ ³  The maximum size of a MultiBoot disc is 1459978240 bytes.               ³
+ ³                                                                          ³
+ ³  You can use Viper_Multi_Boot_ISO_Creator by LoonyCube to create         ³
+ ³  MultiBoot discs easily.                                                 ³
+ ³                                                                          ³
+ ³                                                                          ³
+ ³  THE FUTURE                                                              ³
+ ³                                                                          ³
+ ³  Much more to come :-)                                                   ³
+ ³                                                                          ³
+ ³                                                                          ³
+ ³  CLOSING WORDS                                                           ³
+ ³                                                                          ³
+ ³  Special thanks to E*Flash for his help, RoM for the early units,        ³
+ ³  Melan for the /48 GC and to everybody that tried Cobra V1.0 and posted  ³
+ ³  constructive feedback.                                                  ³
+ ³                                                                          ³
+ ³  You are free to redistribute this package as long as it's not changed,  ³
+ ³  patched, ported, or whatever.                                           ³
+ ³                                                                          ³
+ ³  Our code is free of any copyrighted code from third party.              ³
+ ³  It is also free of any GPL licensed code, we have strong respect for    ³
+ ³  other people's hard work. We only ask you to show similar respect       ³
+ ³  toward our work. To put it in other words, if you are in the "right"    ³
+ ³  side, draw the line between learning and stealing. Thank you.           ³
+ ³                                                                          ³
+ ³  Enjoy!                                                                  ³
+ ³                                                                          ³
+ ³                              °         °             °                   ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ±² ÄÄÄÄÄÄ ±² ÄÄÄÄÄÄÄÄÄÄ ±² ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³            °ÛßÜÜ  °Ûßß ÜÛßß ²Ûß   ßßÜ ²Û  °ÜßÛ °Ü Û ²ÛßÛ °Ûßß            ³
+ ³            ÛÛ Û Û ÛÛß  ÛÛ Û ÛÛ   ²ÛßÛ ÛÛ  ÛÛ Ü ÛÛ Û ÛÛ Û ÛÛß             ³
+ ³X   ° ± ² Û ²Û ² Û ßÛ²Û ÛÛ ² ßÛ²± ßÛÛ² ßÛÜ ßÛ²Û ßÛ²Û ÛÛ²ß ßÛ²Û Û ² ± °   X³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ

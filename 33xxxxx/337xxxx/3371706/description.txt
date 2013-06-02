@@ -1,0 +1,11 @@
+This is the original SSE3 capable CoreGraphics file.
+
+It needs to go in:
+
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A
+
+Although thats just a Symlink. You can find out whre that points to using the os.
+
+Make sure you note the original owner and access rights for the file (Do this by typing ls -l at the command prompt).
+
+I did this using single user mode (boot using the -s action).

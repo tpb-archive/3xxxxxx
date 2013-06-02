@@ -1,0 +1,64 @@
+Copyright 2005 BlooWarez Team
+
+http://bloo.fw.hu
+
+
+Invision Power Services is proud to announce that new versions of Invision Power Board and Invision Community Blog have been released. Please see the reply to this topic for information about the Invision Community Blog release
+
+Invision Power Board (IPB) 2.1.2 is a maintenance release which fixes several bugs which are listed further down this announcement.
+here are two important changes in IPB 2.1.2.
+
+The "conf_global.php" file has been removed from the distribution and replaced with "conf_global.php.dist". This is to ensure that you don't accidently overwrite your existing conf_global.php file when upgrading. If you are installing IPB for the first time, you will need to rename the 'conf_global.php.dist' file to 'conf_global.php' as noted by the installer.
+
+The skin cache system has changed slightly so that the PHP cached files (found in cache/skin_cache/cacheid_x) have a class name in the following format: {file_name}_{cache_id}. This means that you MUST perform an upgrade to allow the cached templates to be rebuilt. If you do not allow the upgrader to rebuild your templates or don't manually rebuild your templates then you will receive PHP parse errors.
+
+
+
+
+Bug fixes for this release
+Please note that these bug fixes are only relevant to update from the last release.
+
+
+
+#0 [RSS] MSSQL incompatability with import routine
+#0 [CAL] Single day events not displayed depending upon time zone offset used
+#0 [Portal] Attachments are parsed twice on the portal
+#0 [CAL] Ranged/Single day events not displayed depending upon time zone offset used
+#0 Top 10 posters link gives SQL error under certain configurations
+#0 [SSI] Extra guest always returned when viewing active user count
+#5 [LOFI] HTML posts not showing correctly
+#9 [REG] Member not logged out before reg form shown; causes AJAX issues
+#16 [CAL] Export shows parse error
+#27 Custom BBCode, empty tags not parsed out
+#28 [UCP] Pay subs nav link incorrect
+#32 [ACP] Perm masks, pop up edit member not working
+#34 [RTE] IE, smilies added to end of post
+#53 [Registering] Only one email set to strtolower()
+#68 [ACP] Editing members email address changes email regardless of dupe in DB
+#72 [ACP] Editing members email address not updating through converge class
+#88 Quoting member with apos in name breaks quote tag
+#90 [PM] RTE + Quoted PMs; show incorrect line breaks
+#100 [CAL] Rec/Ranged events showing a day ahead/behind, not showing in forthcoming events, private events not displaying
+#101 [CAL] Editing event takes ownership
+#118 [ACP] Admin can pre-register a username that another user is using for their display name
+#126 [ACP] Removing a group does not update the group cache, does not remove group as a secondary group
+#127 [ACP]Non-English language packs exporting set to ISO char set even when overriden in configuration
+#128 [JS] Javascript errors for guests viewing V-Card
+#132 [RTE] Old color tags not being removed
+#133 [Portal] Attachments are parsed twice on the portal
+#137 Dailycleanout task has a syntax error causing tracker table not clearing out
+#154 [ACP] Reording components/calendars does not update position properly
+#157 Changed verbiage on Moderators warn setup for clarity
+#160 Bots in online list have extra space after their name
+#173 [Global] Fixed issue with AJAX/RTE Editor and UTF-8 Character Sets
+#177 [CAL] Users cannot delete their own calendar events
+#184 [RTE] List problems with IE6
+#187 Fixed Several hardcoded texts /Abstracted text for lofi page
+#192 [post] Clarified remaining file storage space left for posts
+#210 Code box retains tabs and duplicate spacing
+#217 func_mod.php not returning TRUE per function documentation
+#218 [ACP] Only pull one pid/attach_id for the rebuild function to verify if any are remaining
+#220 [ACP] Unable to delete attachments from ACP
+#205907 [ACP] Show Forum Short List setting in ACP has no effect
+#206251 [ACP] HTML in Bulk Emails not formatted properly in preview/confirmation pages
+#210717 Most Online count updating can reset board statistics under certain circumstances

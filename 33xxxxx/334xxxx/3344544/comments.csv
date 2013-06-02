@@ -1,0 +1,38 @@
+﻿User Type,Username,Date,Text
+,GasGiver4711,2005-06-15T16:21Z,Please gimme some feedback ;-)
+,ppasanen,2005-06-15T23:00Z,"It doesnt' work. It gives this error message ""XBMC Fatal Error: No suitable skin version found. We reguire at least version 1.3000"""
+,GasGiver4711,2005-06-16T05:14Z,"ppasanen:
+
+Let me guess :
+You are trying to use a Skin that is too old for this Release.
+You copied your old skin into this new Releases Skin Directory to keep using it - and you did not delete your old XBMCÂ´s settings ?
+What happens is : Fresh XBMC starts - using your old Preferences and tries to load the too old skin. 
+Delete the XBMCÂ´s SaveGame using the Micro$oft Dashboard !!!
+Alternatively you can just delete the E:TDATA face008 and E:UDATA face008 directories !!!
+
+XBMC will then use the Provided PMIII skin and all will be fine.
+Get a newer Version of your favorite skin.
+Be careful if you want to use your old XboxMediaCenter.xml
+Read my NFO !!! ;-)
+Hope this helps"
+,Arnax,2005-06-16T17:42Z,"I like your build GazGiver, no unnecessary stuff in it and working just great.
+Thx for your work!"
+,GasGiver4711,2005-06-16T20:40Z,"Aaahhh, Thx - I needed that ;-)
+Finally someone took the time to write me a line."
+,GasGiver4711,2005-06-17T01:19Z,"kasperok:
+From XBMC Changelog @
+http://cvs.sourceforge.net/viewcvs.py/xbmc/XBMC/Changelog.txt?view=markup
+
+- 14-06-2005 fixed: home.xml, urlset was 0, changed to 1, RSS should work now again
+
+This came just after my Release ...
+fix it yourself in home.xml or just dl a new one @
+
+http://cvs.sourceforge.net/viewcvs.py/xbmc/XBMC/skin/Project%20Mayhem%20III/PAL/Home.xml?rev=1.12&view=auto
+
+This should work"
+,Porkster,2005-06-17T08:34Z,"Great black theme.  I hadn't updated for ages, but really like the improvements.
+
+Thanks for the build, Gasgiver.
+
+."

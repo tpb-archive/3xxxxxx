@@ -1,0 +1,33 @@
+		Maxuss's Rosetta SSE3 to SSE2 stuff.
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+		Note From The Archive @ http://osx86project.org
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+These patches must be used in conjunction if Rosetta is to work. 
+
+New version v0.2 of Maxxuss' Rosetta SSE3 -> SSE2 kernel patch. (Kernel included) 
+
+All inclusive SSE3 -> SSE2 patches (kernel v0.2 as above, CoreGraphics, libSystem.B.dylib, oah750) 
+
+Maxxuss' CoreGraphics patch only, use with the above mach_kernel patch 
+
+A better TPM patch for oah750d (better than from deadmoo's vmware image)
+
+Maxxuss' mach_kernel patch v0.1 for SSE2 system for running Rosetta
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+				Contains:
+All of Maxuss's new and old patches for those who want them all. All Files listed 
+in The Archive notes above are in the Maxuss Stuff.tar.bz2
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+			Install notes
+1. Extract to Where ever.
+2. Extract the sub archives depending on which you want to use.
+3. go to http://osx86project.org for the rest of the info on how to 
+    install the rest of the stuff.

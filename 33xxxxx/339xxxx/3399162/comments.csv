@@ -1,0 +1,94 @@
+﻿User Type,Username,Date,Text
+,Nachtworst,2006-03-28T04:13Z,thanx!
+,shoeshoe,2006-10-19T09:09Z,"Just a tip: This movie uses that weird DivX/MSAudio codec for sound, so keep that in mind if you're going to try and play this movie on a standalone (won't work on the Philips DVP642)."
+,malkut,2006-10-19T13:29Z,could you gentle torrent creators of FREAKYFLICKS inserto the torrent comment in a text file with the film? it would be very nice of you! :)
+[T],FaeGiN,2006-11-09T14:02Z,"Here is a tip for those who want to play this on a divX standalone player:
+
+Get virtualdubMOD (google search, it is freeware!). Open the movie into the program. Now, go to 'STREAMS/STREAM LIST'. there you will see the audio stream that is in the movie.  what we want to do is remove this, re-encode it to MP3 and then re-add it again. It is VERY SIMPLE OK!.  Now, press the SAVE WAV button.  This will bring up a dialogue for you to select where to save the WAV file to. Save it. OK Done?
+Now, press the DISABLE button. You should see the audio stream go darker, meaning it is disabled. Now, minimise the program.
+I will assume you have installed some kind of wav>mp3 convertor program in your PC? If not go and download/install DbPoweramp. It is free too!  Ready?
+Convert the WAV file you made into an MP3.  DO NOT USE VBR(variable Bitrate!!) It is important ok!! I suggest the following for quality:
+44,000Hz, Stereo, at at least 160K/bps bitrate!
+So, got your MP3 done right?
+Now go back into the VirtualDubMOd window. Back to the available streams list you were at already. OK?
+Good.
+Press the ADD button and...you guessed it, find the MP3 you made and add it.
+So now you see you have TWO audio streams in the file window. But one of them should be disabled...ie. the original one. To make sure it is disabled, click on it, pres DISABLE and see if it gets highlighted(actually goes darker with thin stripes over it) then it is disabled.
+Now it is simply a matter of saving your work..
+Press ok to close the streams window.
+Now in main window, go to FILE/SAVE AS..
+When this saving dialogue pops up, one VERY important thing here: In the dropdown list at the bottom (@where it says 'VIDEO:') you MUST select 'DIRECT STREAM COPY' - This means it will not try to re-encode the whole movie file!! just change the audio you changed.
+And erm...that is it. Save it and play it back. voila!
+Now test on a DVDRW on your DivX player. I do this all the time and it works. If you get any problem in the WAV file you saved earlier, being recognised by a convertor then you could try a different option at that stage and that is to press the DEMUX button instead of SAVE WAV. Then you save the demuxed file as MP2. then try converting that. Works for some...I won't attempt to go into the details..
+Good luck!"
+,shoeshoe,2006-11-12T02:10Z,Thank you very much for that information FaeGiN. I will definitely try it and see how it works.
+,godspeedyoujustin,2006-12-01T14:59Z,How do you get the english subtitles to work?  Having a little difficulty and any help would be appreciated.  Thanks!
+,eclecticus,2006-12-12T11:15Z,"for making the subs work on a standalone player:
+simply burn them on your cd or dvd; if you insert the dvd, go to the subtitle file in the list, select this one (on my player, a text 'subtitle selected' appears'), then chose the movie file, select to play, and the subtitles appear.
+
+on pc: just install VobSub http://www.videohelp.com/tools?tool=VobSub or VSFilter/DirectVobSub http://www.videohelp.com/tools?tool=VSFilter_DirectVobSub, rename the subtitle file to the same name as the video file but with the extension .srt(or.sub). Example:
+video.avi
+video.srt
+Play the AVI with your favorite software video player and the subtitles should appear. You should also see a green arrow in the system tray, right click on it to change subtitles settings. 
+
+more info and other tech tips on www.videohelp.com"
+,EmptyDoor,2007-02-13T15:40Z,"How long is this edition? There appear to be several versions, and the one I have is 169 minutes (Criterion Collection)."
+,btop,2008-04-08T10:55Z,"IggyPop, can you PLEASE PLEASE get a rip of ""Le Retour de Martin Guerre (1982)""? I will thank and worship you forever if you do. Thanks!"
+,ceilingtracer,2008-06-06T22:40Z,"BOOOOOOoooooooooring.  Except for one line ""Shame, the emotion that will save humanity"" this movie is a real snooze.   And before you say anything against me, even Stanislaw Lem didn't like the movie. "
+,rogerpP,2008-09-25T20:43Z,"Many thanks for this, d/l now."
+,QuantumDriven,2008-10-24T16:18Z,"Well, shit, I'll give it a go!
+I am wary, though, of these 1+ GiB sized
+files, but beggars can't be choosy, and
+gawd knows I wouldn't know how to
+format it down to 760 MiB.
+
+I'm just freaking about how my PC is down to 12 1/2 % free space and only 5.75 GiB left to play with, lol.
+I'll get back with you mofos and report if this fucker worked for me, and I'll post my estimated maximum Kib/second loading speed, and with all these ""Seeders"" I'm hoping to FINALLY crack the holy 150 Kib/second barrier that's dogged me and my lame PC here at the Pirate, lol.
+Good-bye for now mofos!
+
+--Sonney  "
+,jaedmaT,2008-12-31T22:20Z,"Subtitulos en espa単ol. (traducidos con google)
+http://www.opensubtitles.org/es/download/sub/3397607"
+,way2go,2009-04-14T08:40Z,"Full specs:
+
+File Name .............: Solaris (1).avi
+File Size (in bytes) ..: 732,520,448 bytes
+Runtime (# of frames) .: 1:15:49 (113724 frames)
+
+Video Codec ...........: DivX 3 Low-Motion
+Frame Size ............: 608x272 [=2.235]
+FPS ...................: 25.000
+Video Bitrate .........: 1215 kb/s
+Bits per Pixel ........: 0.294 bpp
+B-VOP, N-VOP, QPel, GMC ......: []...[]...[]...[]
+
+Audio Codec ...........: 0x0161 (WMA v2)
+Sample Rate ...........: 44100 Hz
+Audio bitrate .........: 64 kb/s [2 channel(s)]  audio
+Interleave ............:  ms
+No. of audio streams ..: 1
+
+--- 
+
+File Name .............: Solaris (2).avi
+File Size (in bytes) ..: 732,954,624 bytes
+Runtime (# of frames) .: 1:23:56 (125879 frames)
+
+Video Codec ...........: DivX 3 Low-Motion
+Frame Size ............: 608x272 [=2.235]
+FPS ...................: 25.000
+Video Bitrate .........: 1091 kb/s
+Bits per Pixel ........: 0.264 bpp
+B-VOP, N-VOP, QPel, GMC ......: []...[]...[]...[]
+
+Audio Codec ...........: 0x0161 (WMA v2)
+Sample Rate ...........: 44100 Hz
+Audio bitrate .........: 64 kb/s [2 channel(s)]  audio
+Interleave ............:  ms
+No. of audio streams ..: 1"
+,Pooturds,2009-12-01T01:14Z,Thanks! Great torrent and I can't wait to watch this movie. Will continue seeding! Thanks
+,tinny112,2010-04-19T11:12Z,good quality. good movie. +1
+,nlmi,2010-11-15T17:19Z,please seed guys
+,GubGub1234,2010-12-31T04:05Z,hope this will help me learn russian.
+,corinthianblue,2011-02-21T18:44Z,"Okay, I keep getting a 353 error in the dix player.
+When I try to play it in Windows Media or RealPlayer, no subtitles come up. What gives?"

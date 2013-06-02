@@ -1,0 +1,56 @@
+07-05-2005 updated: Italian language file (Thnx to kotix)
+07-05-2005 updated: Norwegian language file (Thnx to vnm)
+07-05-2005 fixed: m3u's with album and artist info (#EXTART and #EXTALB) loads them as songs
+07-05-2005 changed: cdda track filenames start at 1 instead of 0
+07-05-2005 fixed: wrong vorbisfile.dll in repository
+07-05-2005 changed: nav sounds respect volume settings
+07-05-2005 added: SF patch [1196982] make sidplayer respect volume at start - thanks to spiff
+07-05-2005 added: Threaded FileReader class to mp3 codec (paplayer) to allow file readahead caching.
+07-05-2005 fixed: keymap.xml had wrong id's for Library and Top 100 views which did not allow to queue up songs or switch to playlist menu.
+06-05-2005 fixed: Analog buttons sticking with new action system and updated keymap.xml for visualisation window.
+06-05-2005 added: SF patch [1194146] video mode switch based on game region - thanks to spiff
+06-05-2005 added: SF patch [1196174] make trailing fill characters be part of tag in music template - thanks to spiff
+06-05-2005 added: SF patch [1188623] Hides the .py extension when HME is checked - thanks to Nuka1195
+06-05-2005 added: SF patch [1196172] remove trailing dash for rss-feeds - thanks to spiff
+06-05-2005 changed: OnAction() now returns a bool. It should be true if the action has been dealt with and needs no further processing, and false if it hasn't been handled.
+06-05-2005 added: Check Xbox System-Clock at Startup (GeminiServer)
+05-05-2005 fixed: smoothness of NTSC video stored using 3:2 pulldown. Still plays at 24fps.. (dvdplayer)
+05-05-2005 fixed: aspectratio selection for dvdplayer
+05-05-2005 added: adjustable audio/video delay in dvdplayer
+05-05-2005 changed: Better discontinuity handling in dvdplayer
+05-05-2005 changed: Seek moved onto the right thumb stick - less clashes.
+05-05-2005 added: Code support for volume bar in video OSD audio submenu - needs skinning.
+05-05-2005 fixed: Videos Original Size view wasn't initialized properly.
+05-05-2005 changed: Scripts/Programs windows now use ViewControl.
+05-05-2005 added: Musepack codec to paplayer.
+05-05-2005 fixed: .m3u was detected as a valid underlying media file for .cue sheets
+05-05-2005 added: Seek bar enabled - move left/right on left thumb stick.
+05-05-2005 updated: Chinese (Simple) language file (Thnx to iikii)
+05-05-2005 updated: Polish language file (Thnx to napek)
+05-05-2005 updated: German (Austrian) language file (Thnx to CEOMR)
+05-05-2005 changed: temp filename for audio scrobbler cache
+05-05-2005 fixed: archive class couldn't save very long strings
+05-05-2005 added: ogg codec for paplayer
+05-05-2005 fixed: subtitle/audiostream stream selection from xbmc osd in dvdplayer should now be working and remembered. 
+05-05-2005 changed: dvd audiostream selection from dvdmenu reworked. more stable than last solution.
+04-05-2005 changed: SectionLoader can now load/unload dll's on demand - for preloading dlls that will be needed repeatedly.
+04-05-2005 added: APEv2 tag reading in APE/MP3 files, including ReplayGain info. Requires MACDll.dll to be present.
+04-05-2005 fixed: APE wasn't part of the default music extensions.
+03-05-2005 added: basic authentication support to http reader. means authed rss feeds, authed internet playlists (thou the streams themself might not be authed). 
+03-05-2005 changed: Get/SeekPercentage now take floats.
+03-05-2005 added: Initial seek bar support - not currently implemented at the skin level.
+03-05-2005 changed: Increased PAPlayer output buffer size + added debug output if it drops down.
+03-05-2005 changed: moved cdda playback into paplayer
+02-05-2005 changed: music info scanner now only processes files matching the music extensions
+02-05-2005 updated: German language file
+02-05-2005 updated: Finnish language file (Thnx to jutski)
+02-05-2005 updated: Chinese (Traditional) language file (Thnx to dog099)
+02-05-2005 updated: Norwegian language file (Thnx to vnm)
+02-05-2005 updated: Korean language file (Thnx to akoako)
+01-05-2005 fixed: some more highlighting issues for dvdplayer
+01-05-2005 added: codec factory for paplayer
+01-05-2005 added: enabled pcm passthrough in paplayer
+01-05-2005 fixed: ac97 sound device has not counted total bytes added
+01-05-2005 fixed: pcm passthrough was not working using mplayer
+01-05-2005 fixed: some mp3's may hang when playing with paplayer
+29-04-2005 added: support for .tbn and folder.jpg images for music .pls and .strm files

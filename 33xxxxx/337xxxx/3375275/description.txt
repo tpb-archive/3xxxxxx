@@ -1,0 +1,156 @@
+.:............................................................................:.
+  ^                                                                            ^
+  :        ________                   ________ .__                             :
+  :       /  _____/ _____     ______ /  _____/ |__|___  __  ____ _______       :
+  :      /     ___ __     /  ___//     ___ |  |  / /_/ __ \_  __       :
+  :          _   / __ _ ___      _  |  |    /   ___/ |  | /      :
+  :       ______  /(____  //____  > ______  /|__|  _/   ___  >|__|         :
+  :              /      /      /         /                 /              :
+  :                                                                            :
+  :  /|_)|/|/   __  /|_)/ \/  |/| _  _|o _.  /  _ ._ _|_ _ ._  /| /| /   :
+  :  /|_)|  |_      /|_)_//  |  |(/_(_||(_|  _(/_| | |_(/_|    |o |o_/  :
+  :                                                                            :
+ .:............................................................................:.
+  ^                                                                            ^
+                          XBMC - XBOX Media Center 1.1.0
+
+                        Release Date............27.08.2005
+                        Release Size................3x15MB
+                        Release Language.....Multilanguage
+                        Operating System...........M$ XBOX
+
+ .:............................................................................:.
+  ^                                                                            ^
+    INFORMATION:
+
+    This package is my little "contribution" to the scene.
+    Hope you like it ... !! Comments & Suggestions are always welcome !!
+
+    Releases will be made available on a weekly basis, unless a serious bug
+    is found, or something else important happens that justifies an Update.
+
+    ALWAYS REMEMBER:
+
+    This is software in development - You should regard yourself as a BetaTester!
+    Please read the complete Changelogs to keep yourself informed.
+    Some features might be in their initial development stages ...
+
+    You can find some Troubleshooting Tips further down this document.
+    Please read this .nfo - it has some useful information, really ;-)
+
+    Keep a tried and trusted XBMC Version handy, incase you need to go back !
+
+ .:............................................................................:.
+  ^                                                                            ^
+    SKINS INCLUDED:
+
+    Original Project Mayhem III skin from CVS only.
+    It guarantees everything works perfectly and keeps Releases Small & Clean.
+    This skin is constantly changed and updated. I you want to use other skins,
+    make sure they are updated for this particular CVS Version of XBMC.
+    Don´t ask me about problems with 3rd Party Skins - You´re on your own here !
+
+    The only thing that´s changed is the look of the Webserver Interface.
+    I replaced the Original with the Project Mayhem III Style Webserver Interface
+    from KanadaKid (Scott). Looks very nice ´coz it perfectly fits the PM3 style.
+    This also adds some small, but cool Functions to the Webserver Interface.
+
+    You can get more Skins here:
+    http://www.xbox-skins.net/forums/index.php?dlcategory=7
+    http://www.allxboxskins.com/skins/index.php?app=XBMC&cat=0
+
+ .:............................................................................:.
+  ^                                                                            ^
+
+    SCRIPTS INCLUDED:
+
+    FlexiBrowser / GameSaves / GameSpotPlus / GameTrailers / iFilmBrowser
+    StupidVideos / QuickTimeBrowser (Movie Trailers) / simpleKML V2 (WebRadio)
+    XBMCLyrics
+
+    All Scripts suit the Project Mayhem III style.
+
+    I modified the SkinProject Mayhem IIIPALDialogSubMenu.xml so that all
+    of the Scripts appear in the Scripts Submenu. If you don´t like this, or
+    some of the Scripts, you should edit this file to your personal preferences.
+    The original file from CVS is also still present as DialogSubMenu.xml.ORG.
+
+    Get more Scripts @ http://www.xbmcscripts.com 
+
+ .:............................................................................:.
+  ^                                                                            ^
+
+    VISUALISATION ADDONS INCLUDED (All Zipped):
+
+    G-Force:  1507 total (including the 490 CVS supplied ones)
+    Milkdrop: 7068 total (including the 436 CVS supplied ones)
+              
+    Just in case, the Original CVS Presets are backed up to the folders
+    visualisationsG-ForceOriginal Files from CVS
+    visualisationsMilkdropOriginal Files from CVS         
+
+ .:............................................................................:.
+  ^                                                                            ^
+    RELEASE NOTES:
+
+    None.
+           
+ .:............................................................................:.
+  ^                                                                            ^
+    CHANGELOG:
+
+    To keep this .nfo shorter, I only list the topmost 3 lines here, so you can
+    see what´s included here. You can view the official XBMC Changelog at  
+    http://cvs.sourceforge.net/viewcvs.py/xbmc/XBMC/Changelog.txt?view=markup
+    You can also find it in docsChangelog.txt
+
+    26-08-2005 added: httpapi exposed more values to GetGuiStatus
+    26-08-2005 fixed: dvdplayer wouldn't play fightclub r1. now sets region mask
+                      to what disc reports it's from if available
+    26-08-2005 chaged: httpapi to be more thread safe
+
+.:............................................................................:.
+  ^                                                                            ^
+    TROUBLESHOOTING TIPS:
+
+    If you are experiencing all kinda weird problems using an updated version
+    of XBMC it is always a good idea to delete the XBMC´s "SaveGame"
+    using the Micro$oft Dashboard.
+    Alternatively, just delete the E:TDATA face008 and E:UDATA face008 dirs.
+    This is especially important if you are updating from quite an old version.
+
+    To avoid problems you should also check - with every new release - 
+    if the included XboxMediaCenter.xml has been changed significantly.
+    You should then update your own customized XboxMediaCenter.xml accordingly.
+
+    If using XBMC as Dashboard, don´t forget to update the files on DRIVE ´C´.
+
+
+    IMPORTANT UNPACKING INFORMATION:
+
+    If (after unpacking) you think this Release is missing files READ THIS !
+    This is a Multi-Volume RAR Archive [Compressed with WinRAR 3.50]
+    To unpack it you need to have all files in the same folder and start
+    extraction from the first volume. Please use an UP-TO-DATE WinRAR or any
+    other Program that correctly handles Multi-Volume RAR Archives.
+
+ .:............................................................................:.
+  ^                                                                            ^
+    THANKS:
+
+    All the XBMC developers !!
+    Your program makes the XBOX worth soOo much more for all of us !
+    Everyone contributing to the scene !
+
+ .:............................................................................:.
+  ^                                                                            ^
+    PS:
+
+    Enjoy & Please Seeeeed !
+
+ .:............................................................................:.
+  :                                                                            :
+  :For Budget Reasons the Light at the End of the Tunnel had to be switched Off:
+  :                                                                            :
+ .:............................................................................:.
+  ^GasGiver                       °27.08.2005°                         GasGiver^

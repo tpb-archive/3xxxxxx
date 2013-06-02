@@ -1,0 +1,29 @@
+﻿User Type,Username,Date,Text
+,petn,2005-04-13T09:36Z,"You know, some people tend to search before they post dupes."
+,strips,2005-04-15T09:10Z,"Well... I searched for ""vmware"", and this is the only Linux - VMWare 5 that came up. "
+,strips,2005-04-15T10:48Z,"Works great in my Ubuntu install :)
+
+Just use wine to run the key generator."
+,nissepisse99,2005-04-17T20:29Z,Thanx a bunch!
+,zippoh,2005-05-07T21:11Z,"This release worked very well for me. 
+I use suse 9.2 amd64 and had to to this before running vmware-config.pl. (from the vmware knowledge base):
+This section has the following instructions to make kernel source files usable so vmware-config.pl can compile the kernel modules. 
+Install kernel-source.$ARCH.rpm. 
+Change to the /usr/src/linux directory. Run the following command:
+make cloneconfig 
+Run the following command:
+make modules_prepare
+
+This is probably only needed if vmware dont have precomplied modules for your kernel (which was the case for me).
+
+"
+,jumba,2005-05-14T15:10Z,"Working serial:
+
+FTXFR-GD2FD-L8M4G-4PDZ2"
+,Samda,2005-06-02T22:11Z,Tackar!!
+,ruskie,2005-06-16T18:04Z,"http://sunet.linux.tucows.com/files/VMware-workstation-5.0.0-13124.tar.gz
+you only need the keygenerator"
+,appeal,2005-08-06T23:23Z,"I recommend to everyone to download from here: http://tucows.com/preview/397828 , select a platform there, then you will be able to select a mirror, which will make download very fast. After install use jumba's serial and you're all done, with very nice and nifty vm.
+
+Btw, I'm on slack, and had problems with all previous releases of vmware, but not with this one (except that it seems so at vmware they still haven't heard about bsd style init, but that's not a big deal.)"
+,Junx,2006-07-11T18:11Z,Would anyone recommend buying this?  Sometimes I like to buy software since I haven't had to do so for quite a long time ever since I started using Linux exclusively.

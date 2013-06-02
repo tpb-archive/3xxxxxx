@@ -1,0 +1,14 @@
+Foobar2000 is an advanced audio player for the Windows platform. Some of the basic features include ReplayGain support, low memory footprint and native support for several popular audio formats.
+
+Features
+
+    * Open component architecture allowing third-party developers to extend functionality of the player
+    * Audio formats supported "out-of-the-box": WAV, AIFF, VOC, AU, SND, Ogg Vorbis, MPC, MP2, MP3, MPEG-4 AAC
+    * Audio formats supported through official addons: FLAC, OggFLAC, Monkey's Audio, WavPack, Speex, CDDA, TFMX, SPC, various MOD types; extraction on-the-fly from RAR, 7-ZIP & ZIP archives
+    * Full Unicode support on Windows NT
+    * ReplayGain support
+    * Low memory footprint, efficient handling of really large playlists
+    * Advanced file info processing capabilities (generic file info box and masstagger)
+    * Highly customizable playlist display
+    * Customizable keyboard shortcuts
+    * Most of standard components are opensourced under BSD license (source included with the SDK)

@@ -1,0 +1,24 @@
+﻿User Type,Username,Date,Text
+,atlasrepza,2005-04-20T13:38Z,And what does that mean in english?
+,SirHansen,2005-04-20T14:51Z,"That this patch let you play GT4 on the harddrive, or something like that.."
+,Rayskull,2005-04-20T16:39Z,"It says: instruction and Patch, on how to play GT4 from HDD"
+,mrsronaghi,2005-04-21T22:54Z,Thats cute... its whritten in dutch........ Can someone translate??? :)
+,OldiezMaDDoG,2005-04-22T02:17Z,"1. Create a image of your GT4 DVD using DVDdecrypter
+
+2. Start apache.exe - open the image you just created (file --> open )- Right click on the IMG file in the left window and extract all. ! Save on c: ! *
+
+3. Start apache.exe - open the same file as above - Right click on the IMG file in the left window and change layer. Extract the singel file on the other layer to the same directory as above.
+
+4. Unpack this zip and overwrite all files in (c:GRANTURISMO4)* move gt4_hdd.iml and gt4_hdd.ims to c:
+	 If you have used any other directory or HDD you have to change the path in the file gt4_hdd.iml using a text editor
+	 so it points to the right path and file. RECOMENDED USING THE DIRECTORY STRUCTURE SUGGESTED
+
+5. Now use gdvd4-iml2iso.exe to create a new ISO. Click the dots (....) open the gt4_hdd.iml then click start. Wait and then you will have a 5,25Gb file.
+
+6. Copy the new file gt4_hdd.iso to your ps2 
+
+7. Have fun.
+
+* When i used DvDDecrypter it automaticly created the directory GRANTURISMO4 on my c: drive."
+,OldiezMaDDoG,2005-04-25T05:37Z,"This one realy works, did it to my ps2 no problems at all. Only problem was that the iml2iso didn't start om my comp. And it took a while to find a newer version that worked."
+,vwgti16v,2005-07-12T15:20Z,Well this almost work :-P How do I create an image of my GT4 dvd when the torrent file I have downloaded from here is on my harddrive? And in apache I can`t open any IMG file because I can`t find it next to the other file in my GT4 folder

@@ -1,0 +1,12 @@
+﻿User Type,Username,Date,Text
+,crazy82,2005-07-16T11:45Z,"what codec or program do I need to play this file?
+Ive tried windows media player (no picture, but sound) vlc media player (picture but it flashes), media player classic (only audio). damn.. i really wanna know how I can play this format. 
+Help!"
+,bmcm,2005-07-21T13:14Z,"The movie is not great but enjoyable watching. Good sound and picture quality. ###To play it you need: MPlayer (http://www.mplayerhq.hu) and FFDShow with ffmpeg support###.
+MPlayer is a command line utility, to play a movie you need to type a command like ""c:mplayer.exe -fs c:unleashed.mp4"".
+That is all. I'm gonna seed the movie for a while now.
+(PO POLSKU: do obejrzenia filmu potrzebny jest MPlayer (http://www.mplayerhq.hu) oraz zainstalowany FFDShow z obsługą ffmpeg. Tylko taka kombinacja pozwala obejrzeć film, a jest on niezłej jakości pomimo niewielkich rozmiar贸w. Polecam!)"
+,atarilover,2005-08-09T00:47Z,"play mp4 with nero, with codecs"
+,SJ44,2005-08-16T03:49Z,"Simply use VLC media player 0.8.2
+
+Work like a charm"

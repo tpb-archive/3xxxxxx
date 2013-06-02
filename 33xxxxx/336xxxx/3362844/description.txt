@@ -1,0 +1,19 @@
+Speex audio compressor
+
+Windows encoder version: 1.1.10
+Windows decoder version: 1.1.10
+
+
+Speex is free, open-source, and arguably the best lossy codec currently available for audiobooks, or other material consisting entirely of speech. The format supports taggging (Vorbis comments format, also used by Ogg and FLAC) and replay gain.
+
+Speex plug-ins are available several popular audio players, including Foobar2000.
+
+If you dislike using command-line encoders, a couple Windows frontends are available.
+
+Speex was NOT designed to compress music, and should not be used to do so. However, audiobooks containing short segments of background music, or live speeches with periods of applause can be nicely encoded---we recommend using the --comp switch (complexity) with a value between 4 and 10, for such material.
+
+Speex will work at sampling rates up to 44.1kHz, but is optimized for 32, 16, and 8 kHz, and therefore the files it produces from 44.1kHz sources tend to be unnecessarily large.
+
+It is also recommended for use in VoIP applications.
+
+I am not affiliated with Speex.org or Xiph.org. I distribute Speex only because I use it and really like it.

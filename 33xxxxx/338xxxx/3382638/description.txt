@@ -1,0 +1,109 @@
+I downloaded this app the other day, loaded it on my XBOX and now I can play the
+Psychonauts USA game no sweat... works for me...
+will it work for you ... who knows
+
+I have XBOX with Xecuter and EvolutionX.
+When I tried to play Psychonauts USA, it just dropped back down to dashboard.
+Tried changeing NTSC/PAL video mode in settings, same thing happened.
+
+Loaded this little app, set to NTSC, rebooted and Psychonauts USA loads fine.
+
+I put the app in eapps and edited evox.ini, added this line so it shows as last item on menu.
+Item "NTSC-PAL","e:appsNTSC-PALdefault.xbe"
+
+>>>>>>>>>>>>>>>>>
+menu section from evox.ini with NTSC-PAL added shown below...
+..I also have added XBOX.Media.Center as the first item on my dashboard menu, so when hooking up to pc (no wifi) i can load MediaCentre and ergo ftp without having to hook up a tv also.
+>>>>>>>>>>>>>>>>>
+
+[Menu]
+
+Section "Root"
+{
+Line "-------------------------------------",2
+Line "http://thepiratebay.org",2
+Line "-------------------------------------",2
+	Item "Xbox Media Centre","e:appsXBOX.Media.Center.v1.0default.xbe"
+	Section  "Main Launch Menu"
+	{
+	Line "-------------------------------------",2
+	Line "http://thepiratebay.org",2
+	Line "-------------------------------------",2
+ 		Section "Games"
+		{
+		Line "-------------------------------------",2
+		Line "http://thepiratebay.org",2
+		Line "-------------------------------------",2
+			Line "- Games On Hard Drive -",2
+			SortStart
+			AutoAddItem "e:games"
+			AutoAddItem "f:games"
+			AutoAddItem "g:games"
+			AutoAddItem "e:HDDLoader"
+			AutoAddItem "f:HDDLoader"
+			AutoAddItem "g:HDDLoader"
+			SortEnd
+#			SortAll
+		Line "-------------------------------------",2
+		Line "http://thepiratebay.org",2
+		Line "-------------------------------------",2
+		}
+		Section "Apps"
+		{
+		Line "-------------------------------------",2
+		Line "http://thepiratebay.org",2
+		Line "-------------------------------------",2
+			Line "- Apps On Hard Drive -",2
+			SortStart
+ 			AutoAddItem "e:apps"
+ 			AutoAddItem "f:apps"
+			AutoAddItem "g:apps"
+			SortEnd
+#			SortAll
+		Line "-------------------------------------",2
+		Line "http://thepiratebay.org",2
+		Line "-------------------------------------",2
+		}
+		Section "Emulators"
+		{
+		Line "--------------------------------------------------",2
+		Line "http://thepiratebay.org",2
+		Line "--------------------------------------------------",2
+			Line "- Emulators On Hard Drive -",2
+			SortStart
+ 			AutoAddItem "e:emulators"
+ 			AutoAddItem "f:emulators"
+			AutoAddItem "g:emulators"
+			SortEnd
+		Line "--------------------------------------------------",2
+		Line "http://thepiratebay.org",2
+		Line "--------------------------------------------------",2
+		}
+	Line "-------------------------------------",2
+	Line "http://thepiratebay.org",2
+	Line "-------------------------------------",2
+	}
+	Item "Xbox Media Player","e:appsxbmp-2.4default.xbe"
+	Item "Ms Dashboard + Region FREE DVD Playback Kit",@3
+	Item "Trainers",ID_trainer
+	Item "Reboot",@5
+	Item "Power Off",@10
+	Section "System Utils"
+	{
+	Line "-------------------------------------",2
+	Line "http://thepiratebay.org",2
+	Line "-------------------------------------",2
+		Item "Settings",@9
+		Item "Flash BIOS",@1
+		Item "Save BIOS & EEPROM (to C:backup)",@11
+		Item "Skins",@13
+	Line "-------------------------------------",2
+	Line "http://thepiratebay.org",2
+	Line "-------------------------------------",2
+	}
+	Item "Launch DVD",@14
+	Item "NTSC-PAL","e:appsNTSC-PALdefault.xbe"
+Line "-------------------------------------",2
+Line "http://thepiratebay.org",2
+Line "-------------------------------------",2
+}

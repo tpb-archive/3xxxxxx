@@ -1,0 +1,27 @@
+﻿User Type,Username,Date,Text
+,nomods,2005-04-30T01:12Z,Genialt bra! Tusen takk! :-)    About time something like this came along... admins and mods aint doing s**t about this spam problem. There are however a few more things you should include in this plug-in...   I still get some Spanish spam stuff. But The Pirate Bay is again usable. (y)
+,woosh1,2005-04-30T01:33Z,"Jag hade skrivit en jäääättelång kommentar med svar på era frågor, men så dog givetvis datorn. Lika bra vi kör på svenska eftersom alla tycks kunna det här. Blir kortare denna gången.
+
+bajsakissa:
+Anledningen till att jag inte har med 'spanish' bara är för att risken är mycket större att en film-titel eller nåt annat faktiskt har spanish i namnet utan att vara dubbad. Även om det inte är många... så vill jag inte sortera bort sånt som inte är dubbat / spammat. Hur som helst kan varje användare göra som den vill när konfig-GUI:t är implementerat.
+
+Scifi:
+Anledningen till att CPU-konsumtionen är såpass hög beror främst på två saker.
+1) Varje gång en frame laddats klart så söks alla frames igenom efter tabeller (som rensas om några hittas). Det görs oavsett om tabellen redan är rensad eller ej, vilket innebär att varje frame söks igenom flera ggr varje gång man går till en ny sida. Jag har några idéer om hur man kan minska CPU-användning här, men inte hunnit implementera. Problemet är att man inte kan markera någon frame som ""intressant"", för om tabellen sedan dyker upp i en annan så finns det inget sätt att känna av det.
+2) När man letar efter tabeller i HTML-koden söker man först efter en specifik FONT-tag. Om man vet att det bara finns EN tabell i sidan kan man efter att ha hittat den första avbryta vidare sökning. ca 1 på 450 är den man söker, men alla andra måste också letas igenom, eftersom sidan kan innehålla fler tabeller. Så som TPB ser ut nu är detta dock bara på första-sidan (inkl top-listan). Att begränsa till bara en tabell skulle alltså bara drabba första-sidan, MEN antagligen skulle 50% av alla användare klassa min extension som 'icke fungerande' och dissa den när de inte ser skillnad på första-sidan. GUI-konfiggen kommer kanske innehålla en ""max antal tabeller per sida"" som man kan ställa in själv, som man sätter till 1 om man inte tycker första-sidan är prioriterad.
+
+Antalet sökord är egentligen inte lika viktig när det kommer till CPU-tid.
+CPU-konsumtionen är inte nåt jag kommer lägga någon större energi på att fixa antagligen. Detta för att:
+* CPU-tiden tas bara när man laddar sidan, och är inte under speciellt lång tid. Innan man har kollat igenom träfflistan och är redo att surfa vidare så har scriptet sökt klart sedan länge. 
+* Förhoppningsvis så kommer snart en uppdelning med en dubbad-sektion på TPB, och då finns det inte något behov för en extension längre. Jag har redan lagt MÅNGA timmar på plug-in:en och jag haaatar JavaScript :D"
+,Mr_Modern,2005-04-30T13:09Z,"this is great, but why oh why include torrenzatos, the music they share are by english artists, and not dubbed in spanish :).....  ?!?!"
+,Scifi,2005-04-30T15:17Z,"Du gör ett superjobb woosh1..
+Jag hade gärna erbjudit min hjälp, men jag mina js kunskaper är ytterst begränsade ;-).
+Något som slog mig är att du kanske kan sno lite idéer från den eminenta FF plug-in'n ""Adblock"" (http://adblock.mozdev.org/)
+Jag hoppas du fortsätter i samma stil..
+/scfi"
+,woosh1,2005-06-11T22:44Z,This version is obsolete. Please use http://thepiratebay.org/details.php?id=3339736 instead.
+,kopycd,2005-07-24T09:11Z,Chupalo :)
+,kopycd,2005-07-24T09:12Z,a ide paso te lo tiro en el hociko asi te cayas hijo de la maraca mas puta q exista
+,dunay,2006-06-15T15:26Z,seed please...
+,jsmk,2008-10-24T04:31Z,mama la pinga hijo de la gran puta

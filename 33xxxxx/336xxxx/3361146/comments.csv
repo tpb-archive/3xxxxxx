@@ -1,0 +1,12 @@
+﻿User Type,Username,Date,Text
+,macvoodoo,2005-07-26T06:07Z,"Looks very interesting. Great collection, wee."
+,macvoodoo,2005-07-26T06:09Z,Please seed.
+,NewGod,2005-07-26T10:50Z,I get an error message when I try to start this torrent. It's because you are not supposed to use : in filename! But thanx anyway. 
+,wee,2005-07-26T12:52Z,"Sorry, in linux a : in a filename works just fine so didn't think of how windows would handle it..:) Though it worked to download i guess?"
+,jam.pony,2005-07-27T03:45Z,"Windows users, you can get it with the command line.  This was my command for bittornado: 
+
+btdownloadgui --saveas npws.avi --max_upload_rate 13 e:npws.torrent
+
+The client already kept all my previous settings from before; and specifying the download name avoids the dialog that crashes."
+,jam.pony,2005-07-27T03:54Z,"COrrection, that should be .pdf.
+ wee, thanks for the upload."

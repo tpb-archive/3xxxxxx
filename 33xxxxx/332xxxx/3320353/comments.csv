@@ -1,0 +1,15 @@
+﻿User Type,Username,Date,Text
+,Celloooo,2005-04-23T00:47Z,En newbie fråga: Hur installerar man detta på xboxen?
+,f1tt0,2005-04-23T00:52Z,varför kommer aldrig dessa releaser upp på nforce .. ?
+,f1tt0,2005-04-23T00:54Z,Du drar över mappen från datorn till xboxen via flashfxp till mappen Apps i xboxen .
+,saintsmatt,2005-04-23T00:58Z,"Hi , sorry i only speak english, can you tell me where i put this, i have flashfxp but i just want to know if i overwrite the old XBMC when transferring"
+,KnHawke,2005-04-23T02:14Z,"First off SaintMatt:
+You have to boot up SOME other DashBoard temporaily, since ya have to delete ALL the files in the XBMC folder (except the ""XboxMediaCenter.xml"" file, you need that one.), then you FTP upload all the new files (again, except the ""XboxMediaCenter.xml"" file) to that folder...
+
+BUT, yer not done! You have to send the Default.XBE to the root of the C: Drive and rename it to EvoXDash.XBE (or whatever you are using), then yer DONE, reboot the 'Box and yer all set."
+,Faquid,2005-04-23T10:07Z,Acually you don't have to use a diffrent daschbord when upgrading xbmc. I allways start with xbmc and delet everything in the folder before trabsfering and I have never hade any problems what so ever...
+,KnHawke,2005-04-23T17:57Z,"well...It is the easiest way that I know of personally to get a fully clean install with the minimum of headaches on the interim.
+I just fire up an old EvoX Installer DVD and just go from there :) (Or in some cases, Complex Tools or EvoX already on the system)"
+,gr8r-x,2005-04-24T08:17Z,"You can delete files currently in use on the Xbox, so it is perfectly safe to boot to XBMC, delete the entire folder, then copy it all again..  It doesn't leave any files, it's all executed from memory. =)"
+,Frezzno,2005-04-24T10:15Z,I can't delete media folder in PMIII skin folder if I update via XBMC.
+,divinelykeyed,2012-02-05T05:23Z,does this work on original xbox???

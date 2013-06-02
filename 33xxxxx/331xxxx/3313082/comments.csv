@@ -1,0 +1,47 @@
+﻿User Type,Username,Date,Text
+,Nerzul,2005-04-06T23:51Z,CD2 will be uploaded on request
+,mog,2005-04-07T08:27Z,"*sigh*
+
+uploading cd 1 but cd 2 witch is needed is ""uploaded on request""...
+
+how ****** can that be...*sigh*...some ppl..."
+,Nerzul,2005-04-07T18:42Z,the torrent for cd2 it now up!
+,reflipp84,2005-04-12T15:55Z,"where do i find nocd patch for this game? i dont fint it?
+lockt every where."
+,Nerzul,2005-04-12T21:14Z,"i don't think you'll need one, at least i didn't and i don't use an original copy"
+,kartritaren,2005-04-14T14:29Z,"It won't work for me! The screen goes black as if the game would start, but after a few seconds it exits and goes back to the desktop... Is there a patch somewhere?"
+,DKL,2005-04-17T00:51Z,"När jag startar spelet blir det svart och efter en stund kommer skrivbordet tillbaka. Jag har testat att ändra kompatblitet till win9x men samma resultat.
+Vet någon hur man fixar det?"
+,Nerzul,2005-04-19T00:01Z,spelet fungerar inte i WinXP endast med win95/win98
+,Jibberish,2005-04-20T02:40Z,"För att köra spelet på XP, kolla in: http://www.thediscworld.co.uk/d2prob.htm"
+,Mad_Sin,2005-05-21T15:44Z,"Jag gör det lätt för er istället. För att få spelet att fungera, gör följande.
+
+1. Ladda hem dosBox och installera det.
+
+2. Välj Egenskaper på genvägen till dosbox och ändra ""mål"" till följande:
+C:ProgramDOSBox-0.63dosbox.exe -conf ""C:ProgramDOSBox-0.63dosbox.conf"" -c ""mount L D:  -t cdrom -usecd2"" -c ""mount c c:""
+
+""mount L D:  -t cdrom -usecd2"" ändra d: till önskad cd spelare, om du har t.ex. F: som cd-enhet skriver du istället ""mount L F:  -t cdrom -usecd2""
+
+3. Starta dosbox, installera spelet, kör! Funkar för mig!
+
+
+
+Till er som inte vet hur dos fungerar. Skriv detta för att installera/köra spelet. (inne i dosbox)
+
+Installation:
+L: (i dosbox är det amerikanskt tangentbord, "":"" sitter på shift+ö)
+Install
+
+Köra spelet:
+C:
+cd DW2
+DW2
+
+
+Varsågod..."
+,johansson80,2005-06-17T01:48Z,Does any one have the first game?
+,H0ppla,2005-07-08T02:52Z,Mad_Sin din förklaring till hur dosbox funkar suger
+,cfe,2006-03-20T01:48Z,"Seed plz
+Cd1&2"
+,tomainen,2006-04-01T21:15Z,"Mad_Sin --> du får gärna förtydliga dig lite.. Vad menar du med att man ska öppna nån genväg och skriva i? vilken genväg då? exakt vilken sträng är det man ska skriva? Någon som vet en enkelt snabbt sätt att få det här spelet att funka i XP? fattar inte det här med dosbox riktigt, nån som kan förklara på ett lättbegripligt sätt?"

@@ -1,0 +1,71 @@
+
+ Release.............: XBox Media Center 1.1.0
+ CVS/Compile Date....: 2005-10-10
+ Compiler Versions...: XDK 5933, Visual Studio .NET 2003
+
+ Skins...............: Project Mayhem III
+                       Project Mayhem III style webserver interface by KanadaKid
+
+ Visualisations......: ~1500 G-Force and ~7000 Milkdrop
+
+ Scripts.............: Aftonbladet, Changelog, FlexiBrowser v1.4, Flickr,
+                       GameSpotPlus, Global Alternate News, KMLBrowse,
+                       LaunchBrowser v1.7, Notepad, Ooba v1.1, QuickTimeBrowser,
+                       Stupidvideos, TV.com and XBMCScripts.
+                       (All installed in the scripts menu)
+  
+ Custom Mods.........: Added custom mplayer.dll compiled from latest CVS with GCC
+                       3.4.4 using --disable-libavformat. This reduces memory
+                       usage at the cost of not being able to demux a few obscure
+                       formats.
+                       Added Linksboks 0.99 (Compiled with XDK 5933).
+                       Included weather display in home screen and changed
+                       weather entry in main menu to web browser.
+
+ Notes...............: If you're having problems with a release, press and hold
+                       down both thumb sticks during boot. Press A when asked to
+                       restore default settings.
+
+ XBMC Changelog......:
+
+ - 09-10-2005 removed: my music top 100 window (use the library).
+ - 09-10-2005 fixed:   dvds wouldn't play.
+ - 09-10-2005 changed: some layout stuff regarding video mode override.
+ - 09-10-2005 fixed:   "bad authorization" message from audioscrobbler on every
+                       songsubmission (timed out session).
+ - 09-10-2005 fixed:   bugs with video mode override.
+ - 09-10-2005 fixed:   charset converter may waste a byte here and there when
+                       converting
+ - 09-10-2005 updated: German language file (Thnx to deezle)
+ - 09-10-2005 updated: Hungarian language file (Thnx to tcsizmadia)
+ - 09-10-2005 updated: Norwegian language file (Thnx to vnm)
+ - 09-10-2005 updated: Finnish language file (Thnx to jutski)
+ - 09-10-2005 updated: Korean language file (Thnx to AkoXko)
+ - 09-10-2005 added:   Nav view, recently played albums (musicdatabase will be
+                       updated to version 1.3)
+ - 09-10-2005 changed: Nav view, the empty database message is only displayed
+                       when there are no scanned items
+ - 09-10-2005 changed: added databaseviews for albums and songs to the
+                       musicdatabase
+ - 09-10-2005 changed: minor speedup of nav view database queries
+ - 09-10-2005 updated: sqlite to version 3.2.7
+
+ MPlayer Changelog...:
+
+ - 04-10-2005 updated: ffmpeg to mplayerhq cvs version as of now. fixes a few
+                       avi's that where causing problems + a few other stuff
+ - 06-09-2005 changed: when resuming normal playback speed, video would jump
+                       ahead a couple of seconds. didn't work well
+ - 22-08-2005 updated: libvorbis interface to mplayer cvs (ad_libvorbis.c:1.18),
+                       fixes vorbis decoding in both matroska and ogm containers
+
+ PM III Changelog....: 
+
+ - 2005-10-09 fixed:   solved the floating button problem on the OSD without
+                       !Control.HasFocus() tags
+ - 2005-10-09 added:   conditional OSD buttons to record web radio / go to DVD
+                       menu
+ - 2005-10-09 changed: the topmost button in both fullscreen OSDs leads to the
+                       Now Playing window now
+ - 2005-10-09 removed: xmls for Music Top 100 view as this is included in the
+                       library view anyways

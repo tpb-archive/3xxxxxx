@@ -1,0 +1,33 @@
+﻿User Type,Username,Date,Text
+,mardon2k5,2005-07-26T12:39Z,excellent download i suggest everyone who wants now 61 to download this one
+,SeK612,2005-07-26T15:20Z,"Download is Now 61. As mentioned no tracks named by easily sorted manually.
+
+I'm only getting that the files are 128 kbps (not 192)."
+,numpty,2005-07-26T15:32Z,"SeK612: Erm yeah you are right (blushes), it is 128kb/s when i did nfo file i had had a bottle of schapps and various lagers...so apologies...it is 128kb/s but it is real and from the original CD and i have included the covers...:-) Sorry about that!"
+,numpty,2005-07-26T16:34Z,"PS, i did it at 128kb/s to keep the file smaller, and thus easier to download, also mp3 @128kb are fine...if you make CDA from 128kb/s Mp3's the CD's will be no differant to original..using 192kb (joint stereo) in my opinion #(limited lol) doesnt make any differance ! :-) peace all :-)"
+,mardon2k5,2005-07-26T17:41Z,excellent download copied it to disc and plays great
+,wobinb,2005-07-26T22:11Z,"those of you wanting to put the id3 tags on, i just used MP3 tag studio: www.magnusbrading.com/mp3ts/ you can specify a text file with the names, and it will automatically put the tags on (and rename the file if you want).
+
+Thanks for this one"
+,nice_nicola30,2005-07-30T22:18Z,hi first time i have ever downloaded how long does this take i dont know any thing about it please reply with help it seems very slow
+,queen chick,2005-08-01T18:20Z,"wow this download is great i loved it its brillant 
+:)"
+,nice_nicola30,2005-08-03T00:11Z,great download recommended
+,fuzzyka,2005-08-09T14:14Z,"Wow WOBINB, that mp3 tag studio works well, might even end up replacing mp3 tag scanner on my pc! Thanks!"
+,dj_chewmacca,2005-08-14T09:59Z,Check out these mixes!!! - http://thepiratebay.org/details.php?id=3360834
+,Osaka,2006-11-05T17:57Z,"""PS, i did it at 128kb/s to keep the file smaller""
+
+You should use LAME and VBR Joint Stereo with the V 0 switch and rip always in EAC (Exact Audio Copy) and always have Secure Mode enabled. 
+
+Here's the command line I use for lame:
+
+-V 0 --vbr-new --add-id3v2 --pad-id3v2 --ta ""%a"" --tt ""%t"" --tl ""%g"" --ty ""%y"" --tn ""%n"" %s %d
+
+Or you could always go to Doom9's forum and read up on various compression methods.
+
+(On a slight side note, you may want to consider using MPC (Musepack) instead of MP3, it compresses MUCH better than MP3 and sounds better. MP3 is very old and LAME has already stretched the format to its limits, so in other words, MP3 is sort of dead, in the sense that it will never get better)"
+,ha11oga11o,2008-09-08T09:19Z,"Haha,
+
+This you call music... 
+
+I am sad, ... :("

@@ -1,0 +1,27 @@
+X3 Config Live Build 3294
+
+Make sure you read the changelog.txt, scriptlanguage_doc.txt & x3skins.txt
+
+Even though we have worked hard to test this ass out of this please remember there is a HELL of a lot of code here and there will always be bugs - but as you guys know we always listen and do our best to fix as fast as possible.
+
+The v1.6plus version of this bios is now compatible with v1.6b Both versions have been tested and fully working on all versions / regions of Xbox.
+
+X3 3294.bin is for v1.0 - v1.5 Xbox Versions
+X3 3294 v16plus.bin is for v1.6/v1.6b Xbox Versions.
+
+For Support help and advice please visit www.teamxecuter.com/forums
+
+Make sure you read all included info on x3_script.ini and also x3skin.ini
+
+We will not reponsible if you mess up your Xbox - always read instructions
+
+06/01/2005
+Team Xecuter
+
+[3294]
+	- fixed: Forgot to remove some lframe stuff in 3293, this is now completely removed again (should fix reboot 
+          issues in evox and xbmc)
+	- fixed: Removed vga stuff again, found the problems (YUV instead of RGB) but will be re-added and working fully 
+          on ALL Xbox versions shortly - thanks for those who gave feedback on our last build - the results were as expected.
+	- notes: MAKE SURE YOU RESET THE X3 TO DEFAULT SETTINGS BEFORE USING - OR SOME THINGS LIKE BOOT FROM DISC WONT WORK
+	- notes: Support thread - http://www.teamxecuter.com/forums/showthread.php?t=32144

@@ -1,0 +1,112 @@
+﻿User Type,Username,Date,Text
+,mrTLU,2005-04-01T14:13Z,"Är antagligen bullshit, men prova den som vill...
+
+PS2Scene förnekar att de har släppt progget, men saker kan ju läcka."
+,AssMaster,2005-04-01T14:24Z,"Hmm..skulle gissa på att det är ""april fools""-skämt...roligt eller inte? Well, jag tror iaf inte på det..."
+,mrTLU,2005-04-01T14:34Z,"Mmm, med tanke på datumet är det säkert fejk... 
+
+Läste dessutom nånstans att det finns text inlagt i ELF-en, där man dissar nån i PS2-hacker-branschen...
+
+Och om inte det skulle vara nog så vill man ju tydligen att det ska se ut som om filen kommer ifrån PS2Scene, kanske för att misskreditera dem...?"
+,AssMaster,2005-04-01T14:45Z,"...men å andra sidan är det isåf ett väldigt ambitiöst försök till ett aprilskämt, allt ser iaf ut att vara ok? Jag kan ingen programering, men det _borde_ ju vara fullt möjligt att låta PS2:an läsa från en USB-HD. Men om PS2Scene har förnekat all inblandning och ett så här revolutionerande program släpps just idag så kan det ju egentligen inte vara annat än fejk. Tyvärr så kan jag inte prova om det funkar eller ej."
+,mrmonkeyboy,2005-04-01T15:25Z,"There is a software called ""USB Extreme"" that can actually do this so it might not be a april-fools joke. However, if it is a joke - Its a damn cold one, cause my mouth is watering just thinking about connecting my usb-hdd to my new slim ps2!"
+,Skevast,2005-04-01T18:38Z,"Verkar vara ok, Dos Proggen som hängde med är juh dom riktiga som man kan tanka från HDDAdvance hemsida. Om Elf filen i Bin filen verkligen är den rätta vet jag inte eftersom jag inte har några skivor som min ps2 tar. Det kan juh vara en HDDAdvance Elf fil som är omdöpt, så det gäller juh att någon testar att bränna ut det liksom... Om det är ett Aprilskämt så är det ett avancerat skämt. Kanske April April kommer upp på ps2an när du kör skivan... fel datum idag för att inte spekulera"
+,ps2asker,2005-04-01T19:14Z,"Inte ett skämt...funkar bra enligt mina källor...
+------------------------------------------------
+for those who wondered who cracked this............(jacked from ps2scene website)
+
+Thanks to the work of kiyo, the identity of the cracker has been confirmed to be none other than former homebrew coder and now DMS4 coder and resident code theif sjeep/filterX. It has long been known since the fraudulent interview given by maxconsole that he has had a longstanding feud with success. You can view his interesting statement in this hidden text packed inside the elf 
+
+
+USBadvance - cracked, hacked and re-packed for all
+you leechers out there! Thats right Paul and Tompson
+ala success-hk/FCD.. its payback time you thieving,
+lying scumbag motherfuckers. It did come as a
+surprise that you actually managed to produce
+something *ORIGINAL* for once but this does not mean
+shit considering all the people you have screwed
+over in the past. Now its time to face the music and
+get a taste of your own medicine.
+
+The lame protection system included with the software
+was very disappointing, with us cracking it all in
+under a day - we really were hoping for more of a
+challenge! Amateur obfuscation might keep out the
+kiddies but it is not going to stop anybody with a
+bit of experience, especially people who have ramdump
+tools  Oh and next time you might want to strip the
+symbols from the main ELF file as leaving them in
+made your ""sbv_cdvdman_patch"" function really stand
+out making it laughably easy to obtain the real ELF
+file. Including a skinned copy of HDLoader as a
+dummy was anice touch but isnt fooling anybody. You
+may also want to test the software in a few
+different television sets next time as we found the
+vertical position of the display to be out on all
+TV's we tried. Luckily we fixed the y-position
+values for this release so people can enjoy a
+properly centered display.
+
+There is a lesson to be learned here: dont mess with
+the best, or you'll die like the rest. Continue to
+fuck people over and it will come back to bite you
+in the ass - we guarantee it!
+
+One last thing - I know a certain somebody who is
+going to be annoyed that you've STOLEN his
+""patented"" GUI layout! Must be the second time its
+happened now, that poor fucker *G*
+-----------------------------------------------------
+Nån som har en extra usb hdd att sälja? "
+,jockas_,2005-04-01T23:04Z,april april.. .bin filen är korrupt så sorry..
+,manzon,2005-04-02T18:15Z,"den funkade fint för mig ivf. så det är inget skämt.
+packade upp bin/cue filen i ultra iso, la elf filen på mitt fickminne, drog igång elfluncher och bootade upp usbadvance.  programet hittade till och med mitt usb fickminne jag hade elf filen på, så nog funkar det.
+:)"
+,mrmonkeyboy,2005-04-02T19:42Z,Är PS2 enheten usb2 kompatibel? Om den använder sig av usb1 borde väl laddningarna gå hyfsat långsamt?
+,mrTLU,2005-04-02T22:00Z,"ps2 är INTE usb2-kompatibelt, så hastgheten blir lidande, ja."
+,VonPluring,2005-04-03T20:11Z,Kan nån förklara för mej hur man får den här att funka?
+,mrTLU,2005-04-04T01:15Z,"VonPluring: vad finns att förklara? bränn skivan, plugga in hdn och starta playstationet."
+,Mike4,2005-04-05T04:33Z,"This worked perfectly.  I used Daemon Tools to mount the image and extracted the .elf file.  Then I transferred it onto my memory card and booted it from KeyLauncher.  The only thing I didn't do is attach an external HDD, but the program itself booted up with no problem - and pretty quick too."
+,Gjallar,2005-04-06T12:34Z,"Hallo Everyone,
+
+this is NO fake and the archive is not broken !
+
+I downloaded and installed the image of USBAdvanced via hdl_dump on hdd (for use with HDDLoader).
+Then I formatted an external 10GB HDD with the tools
+provided (ul_format.exe). Third I mounted a game image
+with the deamon tools and used the second provided tool (ul_*) to tranfer the game to the 10Gig HDD. The only
+problem occured was the time it took (about 3h !!!).
+The tool creates an iso-image of the CD/DVD and separetes
+it into several files (because of an 1GB limit).  The last things to do were;  startup HDDLoader, select USB Advenced and plugin the USB HDD. All worked surprisingly perfect.
+Try at your own and you will see it works !"
+,TJOHO1999,2005-04-07T05:13Z,"Sorry if this is a retarded question, but does this enable you to play import games, too?
+Once you have ripped games and put them on your HD does regions still matter?
+
+Thanks."
+,Mesut,2005-04-09T01:50Z,HAR TESTAT DEN FUNKAR 100%
+[V],Yeshim,2005-05-02T17:49Z,This maybe a stupid question i don't know. I wonder if the PS2 has to be modded with a chip for this to work. 
+,mrTLU,2005-05-02T22:21Z,"Yeshim: no, but it makes things easier. MUCH easier."
+,slayerx,2005-05-06T14:50Z,Måste man formatera sin usb disk till Ps2 formatet?
+,mrTLU,2005-05-06T15:53Z,"slayerx: prova.
+men antagligen ja."
+,Kirinkov,2005-06-13T20:05Z,"Problem connecting to tracker...someone wanna fix this? Also, someone in english please, explain to me if this is fake or not?"
+,Gollf,2005-07-15T20:34Z,"Has any one tested this with a PAL PS2 and wiht NO mod chip installed? Have burnt various copys in various speeds to try to make this work, but it does not. To me it seams like it is an NTCS version that is not compatible with PAL machines."
+,snake70,2006-01-15T10:10Z,Think you must have a chipped PS2 to run it.
+,bundle,2006-03-22T11:56Z,"it might be really useful when working without mod chip. 
+but i guess it is for devices with mod chip..."
+,Bocom,2006-04-19T08:39Z,"Klart man måste ha en moddad PS2, ingen vanlig  PS2 utan moddning spelar spel man laddat ner. Iallafall vad jag vet."
+,teo42,2006-05-20T10:59Z,"Denna release SUUUGER!!!
+
+Inte nog med att PS2:an skall vara chippad el. ngt liknande. Du MÅSTE ha ett äkta chip. Du måste tillhöra de COOOLA nördarna som har ett äkta chip och inte ett piratat. Jävla idioder är de som har gjort denna release. Se för helvete till att få denna att fungera på en maskin med ett chip där du inte kan stänga av MACROVISION helevets skiten. Kan ni inte detta så är ni inte på något sätt värda att kallas hackers eller vad nu ni vill kalla er för."
+,Davidbeats23,2008-01-26T04:22Z,"Do i need to download this in order for my modified ps2 to work usb ports in it?What will I do to make a 
+it read th usb stick plug in it?"
+,polymatt,2008-01-28T11:20Z,"PEOPLE I WOULD NOT EVEN ATTEMPT THIS. PLUGGING USB DIRECT INTO ANY PS2 FAT OR SLIM WILL 90% OF THE TIME RE-FORMAT THE ENTIRE PS2 TO A NON WORKING ORDER..
+
+THIS MAY WORK BUT WORD HAD IT THAT YOUR PS2 WILL NEVER WORK THE SAME IF YOU ATTEMPT TO PLAY WITH BUILT IN MEMORY"
+,Davidbeats23,2008-02-06T07:39Z,"polymatt is a fucking shit!based on a logical thinking this will pop up to your mind..""what the fuck 
+did my ps2 have usb ports in it if it's for nothing!"""
+,Davidbeats23,2008-02-06T07:48Z,pls seed!
+,i_am_sid,2010-05-13T20:43Z,i want to use my 8 gb pendrive. Will it work on it?(I think it should) 
+,i_am_sid,2010-05-13T20:46Z,one more important question. Model of my ps2 is PAL scph 90004. Will it wrk on PAL system.
+,i_am_sid,2010-05-13T20:49Z,one more important question. Model of my ps2 (modded) is PAL scph 90004. Will it wrk on PAL system.
+,jakkeke,2010-07-06T19:58Z,"Thanks, dude! Just needed a new version of this!"

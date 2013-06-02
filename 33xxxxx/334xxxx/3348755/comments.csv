@@ -1,0 +1,54 @@
+﻿User Type,Username,Date,Text
+,srajnu,2005-07-07T23:18Z,is it return to castle wolfenstine??    
+,vivalafritobaby,2005-08-16T21:49Z,no its the first wolfenstein. the one that was made before the original doom
+,labanane,2007-08-17T01:45Z,does this work on windows xp?
+,blemishednicely,2007-11-17T12:58Z,"I can't get this to work, when I take it out of BitTorrent, it goes into rar (my comp. has WinRar) but I have a total bastard of a time with rar shit...just don't seem to get it."
+,blemishednicely,2007-11-17T12:58Z,"in other words, what do you do to unpack this correctly?"
+,blemishednicely,2007-11-17T12:59Z,"in other words, what do you do to unpack this correctly?"
+,blemishednicely,2007-11-17T13:27Z,"Sorry, sent one X2, my bad...I really hate rar, as it seems to confuse me easily, but I seem to have FINALLY managed to get something to run with winrar---'bout fucking time!! BTW I've only played a bit so far but I LOVED the old Wolfenstein since I first played it on a Jaguar--looks good, like seeing an old friend. And then shooting him in the face. Achtung, Baby!!!"
+,eXg.SunTzu,2009-01-15T12:57Z,"How do i get this to work?
+
+TIA"
+,Hayzi,2010-01-20T05:13Z,"@ eXg.SunTzu
+download dos-box
+its a dos emulator and makes the games run perfectly
+unpack the game, and put it in C:
+find the filename of the installer
+
+start up dos-box and enter this:
+>MOUNT C C:/
+>C:
+>CD ""FOLDER"" (this opens the game's folder)
+>""FILENAME""
+
+so when i run wolfenstein 3d, i type:
+>MOUNT C C:/
+>C:
+>CD WOLF3D
+>WOLF3D
+
+hope this helps!!!!"
+,ElitesamuraI26,2010-05-03T16:07Z,Where is Spear of Destiny?
+,ElitesamuraI26,2010-05-03T16:14Z,I'm not gonna download this again because Spear of Destiny is missing.
+,gtam21,2010-09-18T15:14Z,"@hayzi might be stupid but where can i find the dos-box u say?
+i have already installed the game but cannot play"
+,summonedtitan,2010-10-20T07:11Z,"Bout to hit this up and scan it wit the Norton... not to worried about the spear of destiny, just worried about the first Wolfenstein.
+
+Will post later."
+,summonedtitan,2010-10-20T07:45Z,"This is fuckin' bullshit....
+
+C:\WOLFSRC\WOLF3D.EXE
+The NTVDM CPU has encountered an illegal instruction.
+CS:0100 IP:0346 OP:fe 50 06 df 02 Choose 'Close' to terminate the application.
+
+BULLSHIT, DO NOT DOWNLOAD.  
+Scanned with NORTON amillion times, no viruses popped but this program just does not work."
+,peeebody,2012-05-18T03:17Z,"works great, extract the rar file, get a virtual drive such as virtual clone drive, mount the iso image in your virtual drive
+
+explore the 'cd' and look for the setup up application, install it into an easily typed location on your hard drive, I put mine in c:wolfenstein3d (note the original file name is wolfenstein 3d, but i couldn't get my dosbox to mount it with the space)
+
+get your dosbox program running and enjoy.
+
+for help with using dosbox just check their site.
+
+Thank you Nemesis6434"

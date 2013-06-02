@@ -1,0 +1,185 @@
+﻿User Type,Username,Date,Text
+,srlem,2005-06-18T17:56Z,"well nice edition, but how much space it take in hdd?"
+,n20,2005-06-18T18:40Z,are you still able to update thru the website?
+,voodochild,2005-06-18T18:43Z,Yes you can update and it doesnt take much space at all. Since it isnt bloated with a bunch of crap you dont need or even use.
+,jmx,2005-06-18T18:52Z,Can you add visual styles (themes) to it when it's installed or is themes not an option at all?
+,v-rex,2005-06-18T19:59Z,"Just a tip: anyone installing this thing needs to be very, very careful. A customized operating system downloaded from an anonymous source might contain all sorts of nasty surprises in the form of backdoors and spyware. Do you trust ""voodoochild""? 
+
+And forget about software like Ad-aware and Spybot - they cannot detect some of the nastier stuff out there. I wouldn't install this without comparing each and every file with an original copy of WinXP Pro SP2."
+,voodochild,2005-06-18T20:13Z,Dude I can tell you right now it has no such things on here. I am not one of those people and if you dont trust me then dont D/L it. Anyone who D/L's this feel free to posrt if there are any spyware/viruses.
+,n20,2005-06-18T20:26Z,"v-rex, i dont know if this makes you feel better but i scanned this with kaspersky (clean)  and will install this later tonight. will post if its all good. "
+,jmx,2005-06-18T21:29Z,"wodochild.. how was it with the themes thing?
+Can you add visual styles to it later?"
+,Saikano,2005-06-19T01:59Z,A Swedish version of this would've been the bomb ;)
+,brandonlink,2005-06-19T19:24Z,i had trouble with this so i installed winrar to open it and extracted it and copied the extracted files to cd. Is this how you are suppose to do it because i rebooted my pc with cd in drive and nothing happened?...or do i just copy the xp to cd just like it is? what do i do to install xp?
+,splur,2005-06-20T18:59Z,"takes up about 800mb on the hdd.
+
+you can windows update, but you need to make a few tweaks before you can.  you'll run into 2 errors, i can lead you through them if you want.
+
+first problem is an installation error of windows update.  [Error number: 0x8DDD0003]
+
+http://www.dougknox.com/xp/scripts_desc/xp_winupd_netpolicy.htm 
+(install that to get rid of that error)
+
+then you'll get a second error when windows update searches for updates. [Error Number: 0x8007043B]
+
+http://www.geekstogo.com/forum/index.php?act=ST&f=5&t=30481
+(scroll down to Post: #9.  follow those instructions)"
+,splur,2005-06-20T19:01Z,"brandonlink
+
+you're suppose to burn the iso.  not extract it.
+
+try using alcohol 120%, dameon or roxio.  they all work fine."
+,bosslipxx,2005-06-20T23:44Z,It work perfect. I only miss keyboard layout for my launguage / slovenian. Can anyone help fix this
+,brandonlink,2005-06-21T05:26Z,"i have to extract it to burn it or else nero will not recognize it, and when i extract it to empty file i burn the image, not the iso-cd. when i rebooted pc with cd in drive nothing hapend. i need advice on what to do?"
+,bosslipxx,2005-06-21T11:13Z,"I made slovenian keyboard layout with Keyboard layout manager from here:
+http://www.klm32.com/Download.html
+Then just import layout to win xp. Works!"
+,lornloxor,2005-06-22T01:28Z,Hmm anyone managed to get this to work on a S-ATA hard drive?
+,eug2k,2005-06-24T02:03Z,Great xp version fast as hell. but i can't get dv capture working in pinnacle or any program for that matter. the scanner and camera wizard is too ripped apart to work so cant use that
+,casual84,2005-06-26T11:35Z,"I managed to get this installed on my S-ATA HD with the VIA controller .
+
+Firstly , I copied the contents of the iso file ( mounted with daemon tools ) to a folder on my desktop .
+Secondly , I proceeded this way :
+
+1.Go to this folder ""i386"" on yer CD
+2.Open the file called ""TXTSETUP.SIF""
+3.Add the following lines respectively :
+  Under [SourceDisksFiles]
+        viasraid.sys = 1,,,,,,4_,4,1,,,1,4
+4.Under [HardwareIdsDatabase]
+  PCIVEN_1106&DEV_3149 = ""viasraid""
+5.Under [SCSI.Load]
+        viasraid = viasraid.sys,4
+6.Under [SCSI]
+        viasraid = ""VIA Serial ATA RAID Controller(Windows XP)""
+
+Save and close ""TXTSETUP.SIF""
+
+-------------------------------------
+
+1.Open the file called ""DOSNET.INF""
+2.Add the following line :
+  Under [Files]
+        d1,viasraid.sys
+
+Save and close ""DOSNET.INF""
+
+-------------------------------------
+
+1.Open the file called ""DRVINDEX.INF""
+2.Add the following line :
+  Under [driver]
+        viasraid.sys
+
+Save and close ""DRVINDEX.INF""
+
+-------------------------------------
+
+Now , just copy the file ""viamraid.sys"" from yer floppy to the folder ""i386"" and rename it to ""viasraid.sys""
+
+-------------------------------------
+
+Finally I burned the new created folder as a bootable CD-ROM using nero ."
+,casual84,2005-06-26T11:40Z,"Blimy ! This looks like a big mess , sorry but I didn't know it would look this way . Alrighty , if anyone is interested in this , just give me a hint .
+Cheers."
+,Daven,2005-06-26T15:46Z,"Stupid to remove the keyboard layouts, anyone knows how the get swedish keyboard?"
+,kinghajj,2005-06-28T02:11Z,"I tried it on Virtual PC on my mac, and it works. It boots much faster than regular WinXP."
+,munchtornado,2005-06-28T13:23Z,"To get a swedish keyboard download and install ""Microsoft .NET Framework Version 1.1 Redistributable Package"". Then download and install    "" Microsoft Keyboard Layout Creator (MSKLC) Version 1.3.4073 "". Start MSKLC and create a swedish layout. You will find that the swedish characters are already in the english layout so you just reasign the keys. You can also find the unicode charts at http://www.unicode.org/charts/. Install your new 
+layout and then go to ""regional and language options"" in the controll panel. click the languages tab and then click the details box. click the add button and chose your new keyboardlayout/IME in the dropdown menu. Do not change the input language, leave it to english. Good luck
+as it is ("
+,munchtornado,2005-06-28T13:30Z,"The downloads can be found at http://www.microsoft.com/downloads/thankyou.aspx?FamilyId=fb7b3dcd-d4c1-4943-9c74-d8df57ef19d7&DisplayLang=en&Hash=HCCL6D8
+http://www.microsoft.com/downloads/ThankYou.aspx?familyId=262d25e3-f589-4842-8157-034d1e7cf3a3&displayLang=en"
+,xACiD,2005-06-28T16:06Z,This is a great strip. The only problem i have with it is i cant use my ATI All In Wonder Capping card. Voodoo do you have any idea how i can use it?
+,casual84,2005-06-28T20:38Z,"Virtual printer ( Acrobat printer ) cannot be installed. According to some sources this occures whenever ""System Restore"" has been removed .
+Any workaround would be appreciated ."
+,[server],2005-06-29T06:52Z,I used the basic disc burner that comes with Win XP Pro and then tried to boot from the cd without any luck. DO you have to use nero in order to get an iso to burn properly?
+,bongachalla,2005-07-01T12:33Z,"Funny thing.
+I could make the keyboard and win update work, but the little shortcut icon is gone.
+
+This means that all my shortcuts look like normal files, which is quite unconveniant.
+
+Any solutions?"
+,homescrub,2005-07-02T12:29Z,Forget this torrent....its a waste.
+,grappler,2005-07-02T23:58Z,"Voodochild or anybody who can help me. 
+I downloaded this xp version and it works GREAT, the only problem that I'm having is that once I turn my pc on I get to the desktop but NO icons, so I'm forced to press Ctrl Alt Del , Log off and then Log on again and once I do that I get my icons and everything works perfect , fast and reliable, I tried this xp version in 4 different pc's and is the same problem?????  :(
+Any Idea how to fix this????????"
+,dannyiscool101,2005-07-06T23:19Z,"Alright guys, I dl'ed this and I found it no problem to burn and then install. I used Roxio Toast and burned the .ISO. The only thing that I dont like is that all the themes are missing. Other than that it is great and this is a download that I recommend every gets. However, this says corporate, it is only Windows XP Pro sp2. If you have any questions, please ask them as I am sure voodochild or someone else will answer it."
+,casual84,2005-07-07T16:55Z,You can get yer themes back . Download some and put 'em here : X:WINDOWSResourcesThemes and apply 'em just the way you're pretty used to .
+,grappler,2005-07-07T21:52Z,"Voodochild or anybody who can help me. I downloaded this xp version and it works GREAT, the only problem that I'm having is that once I turn my pc on I get to the desktop but NO icons, so I'm forced to press Ctrl Alt Del , Log off and then Log on again and once I do that I get my icons and everything works perfect , fast and reliable, I tried this xp version in 4 different pc's and is the same problem????? :( Any Idea how to fix this???????? 
+"
+,brandonlink,2005-07-08T11:35Z,"its a really good version but i had trouble so i finally got it to work by restarting my pc then going into setup by pressin delet then i went to cbios setup and enabled cdrom boot for first boot. so i booted my pc with this version and i cant update it, i cant change the shitty themes from windows classic to xp default,and system restore is gone, even the way to delet programs is messed up, it doesnt copy it to recycling bin it just delets immediatly. but my main question is how can i update it because when i go to microsoft.com to update it gives me some error bullshit and do you know where i can get my xp default theme view back from?????????"
+,brandonlink,2005-07-08T11:37Z,"and for u comfused people, all u do is burn the file once downloaded u dont have to extract it, i used nero and i just opened the rar file and it extracts it and burns it for u then u reboot the disc with pc."
+,Memememememe And ME!,2005-07-09T19:29Z,Please remove this torrent...
+,brandonlink,2005-07-19T20:43Z,download and use the royale theme
+,ra7eeel,2005-07-20T10:41Z,"plz i need your help anyone knows how the get Arabic keyboard?
+coz every time i tryed to add arabic language i got massege "" ask the addministrator to solve this problem"" althogh i am using an administrative account ?? any solotion"
+,grappler,2005-07-21T01:28Z,"Thanks for your time in explaining all that.
+
+:)"
+,ra7eeel,2005-07-21T10:17Z,no one here can help me to fix my language and keyboard to support arabic ??? its great windows but its not support my language :( just english
+,DJ Smiley,2005-08-12T00:29Z,"Correction of my last comment, Voodochild only disabled the shortcut arrows. They can be enabled by editing your registry... I don't know how, but maybe some one else knows..."
+,DJ Smiley,2005-08-12T00:30Z,"For those who wonder why they can't apply themes, can't find their shortcuts and other things... read the description of this torrent. Shortcuts are still on your desktop, but the SHORTCUT ARROW HAS BEEN REMOVED. Voodochild has also removed the themes. He or she, also removed the language pack, therefore, you can't apply other languages. If you mis those, and/or other things, stop whining ang install a full copy of Windows XP!!!"
+,mÃ¥negahl,2006-01-24T23:32Z,"why dosent it start???
+""finding trackers""...
+been like this for 2 days!!!"
+,voodoo-3,2006-03-03T19:10Z,JUST TELL ME HOW TO GET THIS TO DOWNLOAD I CANT GET IT TO DOWNLOAD HAVE TRIED SEVERAL THINGS EVEN INSTALLED  WIN RAR NO LUCK ONLY THING IT DOES IS DOWNLOAD THE 19.75 SOMETHING AND THATS IT I NEED HELP I WANT THIS PROGRAM BAD please help  ME PLEASE IM BEGGIN  ON MY KNEES NERVES TORN UP DONT MAKE ME DO IT PLEASE HELP ME 
+[T],bi20,2006-04-23T20:08Z,"http://www.mai9.net/blog/prog/stripped-bone/
+
+I explained there how to add keyboards and show the shortcut icon. It can't be done in this little comment window"
+,Kluster418,2006-05-05T03:18Z,"Nice, but here's a smarter way to use Windows in two easy to follow  steps so it can be more efficient, more secure, more stable and better looking:
+
+step 1 - Partition your hard drive
+step 2 - install the linux (or bsd) distro of your choice"
+,Winter_cROW,2006-06-30T08:58Z,Thank you Vertigo173!
+,spetznatz,2006-08-31T07:13Z,"Voodoochild -- Thanks for taking the time to put this together. It works like a charm. Installed it on my Quad Mac Xeon, no problems.
+
+One q: is it possible to install the help files (cuz I'm a bit of a dolt) separately from any other WinXP disk?
+
+Thanks again. "
+,SCAM0102,2006-09-28T19:55Z,"Downloaded and burned the iso with Alcho 12% and will not boot in DOS or from inside Win.
+
+The virtual drive with the mountable ISO is still in windows though ?"
+,CpxAzn,2006-10-01T17:48Z,"I got mine to boot from DOS, you sure you got your BIOS boot priority configed right?
+
+
+anyways. im having problems with MIDI playback. i cant play midi files at all. i cant even set the Device for midi playback in my sound and audio device properties. if i try to set it to my audigy 4 and click apply, it sets back to nothing. anyone have a solution?"
+,sbv3,2006-12-17T09:53Z,did anyone get the video capture of USB cams to work?
+,damelicious,2007-02-18T23:55Z,"This is the best windows xp i ever had. Unfortunately i have a huge problem with it ;( And i mean language pack. The solution given before doesnt work, because this windows doesnt go thru validation proccess.
+
+voodochild could you please issue this windows with keyboard layouts not erased? :)"
+,damelicious,2007-02-18T23:56Z,"This is the best windows xp i ever had. Unfortunately i have a huge problem with it ;( And i mean language pack (keyboard layouts). The solution given before doesnt work, because this windows doesnt go thru validation proccess.
+
+voodochild could you please issue this windows with keyboard layouts not erased? :)"
+,apkonster,2007-03-10T15:50Z,Windows xp sp2 do not contain alexa. It is only part of ie6 up to sp1 so you did not remove it. If you dont belive me try a clean original install of xpsp2 and run your favorite spyware program.
+,ojve,2007-04-03T12:05Z,"damelicious: You can do it manually. use:
+http://www.klm32.com/"
+,kacey_45,2007-04-04T07:36Z,Hell of a lot of good this is if you can't download it
+,sajtam,2007-06-25T15:13Z,"Is it possible to get windowsupdate working? Is so, how?"
+,GTI888,2007-07-24T05:25Z,"Virtual printers like Acrobat PDF and Foxit PDF Creator don't install because the system restore service is missing.
+
+To install you need to copy sr.inf (not sure if sr.pnf needed as well) from another windows installation (located in c:\windows\inf)
+
+Right click on sr.inf and then choose install. Point to your 'Stripped to the Bone' cd or a full blown XP SP2 disc and it will install the service. 
+
+I don't think it really installs it properly but it will show up in the services list which should satisfy the installers.
+
+Reboot and install your virtual printers.
+
+When done you can disable the system restore in the service list.
+
+For updates just use http://www.autopatcher.com/ and forget about windows update."
+,vattenskalle89,2007-08-30T18:11Z,can I use this on a IBM Thinkpad Laptop?
+,redox1,2008-04-07T14:58Z,Excellent version. Been using it on all my machines for many months. Installs in less than 500Mb. Recommended for experienced users
+,Smith_2006,2008-07-08T12:44Z,DO NOT USE THIS!!!!!!! THERE IS SPYWARE IN THIS WITCH CAN NOT BE FOUND! WHEN YOU DO ANY KINDA OF BANKING ONLINE IT TAKES YOUR CARD NUMBERS AND BITS AND ASKES FOR YOUR ATM PIN!!!! EVEN ON SITES LIKE PAYPAL EVEN THO IT SHOWS PAYPAL.CO.UK THE SPYWARE IS SHOW A FAKE PAGE ASKING YOU DIFFERENT THINGS AND ASKING FOR YOUR ATM! IF YOU ARE USING THE VER OF WINDOWS ON YOU PC GET RID NOW!!!
+,ph7ryan,2008-08-04T23:09Z,how would you know there is a virus if you can't find it.....
+,ph7ryan,2008-08-04T23:41Z,"2 things:
+Is there a way that I can change the max connection limit
+
+Is there a way that I can get the service that has the ""XP look"" service in it....thanks...."
+,linuxwin,2008-08-12T21:03Z,"Com1 does not work!!
+Don't plan on using Dial-up!
+
+Luckily I dual boot linux, so I can use linux for internet :P
+
+If anyone has a fix for this, please post a comment!"

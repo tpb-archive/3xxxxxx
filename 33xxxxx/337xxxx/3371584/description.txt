@@ -1,0 +1,2 @@
+MANGA 2.4.31 kernel, init ramdisk, and Debian Sarge root file system.
+Untar on to /dev/sda2, use ethloader to flash zImage and rdisk in /kernel+rdisk.

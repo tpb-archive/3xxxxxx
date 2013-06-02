@@ -1,0 +1,20 @@
+﻿User Type,Username,Date,Text
+,riokalle,2005-04-15T11:07Z,"Ursäkta mig men jag lyckas inte att få min version att fungera efter de 21 dagarnas prövotid!
+Jag rensar i alla register avinstallerar men då jag installerar på nytt står det att min tid har gått ut!
+Jag ser på andra sajter att man skall gå tillväga enligt nedan  !!!
+
+Min fråga är hur man gör det steg för steg!
+Så här långt fattar jag att jag skall göra!
+start => run => regedit => HKEY_LOCAL_MACHINESoftwareSlysoftAnyDVD
+
+Men sedan vet jag inte hur jag gör altså??
+Skall skapa en KEY  vilket jag gör med att högerklicka välja new och sedan key !
+Men det blir då en mapp till istället vilket verkar helt fel! 
+Hoppas att någon kan förklara EXAKT hur man väljer och trycker för att få det rätt tror att det är många med mig som undrar hur det skall gå till.
+
+S/N: Save this in a ""Key.anydvd"":
+
+REGEDIT4
+
+[HKEY_LOCAL_MACHINESoftwareSlySoftAnyDVDKey]
+""Key""=""0AkJip01ymytBX5NWBZpKEpG0xUbaenpaBzQsimXHieR8YOO/t3REIhhDP3FthyStm9H0XTeiAcGRdBdpe8u9PPzUpVcp/WszPUid9udxD6Z6xGjfHGwJN1McdnhTJDtAWgXak1pN9rn10gZ3HTPbHCS6a"

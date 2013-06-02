@@ -1,0 +1,429 @@
+F.E.A.R. - First Encounter Assault and Reconnaissance
+English (North America) Single Player Demo 
+Readme File
+July 29, 2005
+
+***************************************************
+About This Document:
+
+Thank you for playing the F.E.A.R. Single Player Demo.
+
+This README file includes information that pertains to general problems
+and questions you may have concerning the game or your computer. 
+
+************************************************
+
+TABLE OF CONTENTS
+
+I.	INTRODUCTION
+II.	SYSTEM REQUIREMENTS
+III.	INSTALLATION INSTRUCTIONS
+IV.	NOTES ON COMPATIBILITY
+V.	KNOWN ISSUES
+VI.	PERFORMANCE
+VII.	F.E.A.R. SITES
+VIII.	DEDICATIONS, CREDITS AND SPECIAL THANKS
+IX.	END-USER LICENSE AGREEMENT (EULA)
+
+	               
+I. INTRODUCTION
+===============
+
+You must be the new guy. I hear you?re one tough son of a bitch.  I hope 
+it?s true, because we could really use the help.  Finding the right people 
+for this team isn?t easy, especially with the kind of crap we?re been running 
+into lately. 
+
+Any special ops team needs to prepare for the unexpected, but with F.E.A.R., 
+you?d better learn to expect the unexpected, and more importantly, believe 
+the unbelievable.  You?re going to come across stuff you can?t explain, and 
+you?ll need to be ready to deal with whatever it throws at you. Your own life,
+
+as well as the lives of your teammates, will depend on it.
+
+The information you'll get in this document will supplement and update the 
+information you'll have received so far to run F.E.A.R..  If you're having a 
+technical problem, look here for the most recent troubleshooting answers.
+
+We're expecting great things from you.  Good luck!
+
+
+II. SYSTEM REQUIREMENTS AND SUPPORTED CHIPSETS
+==============================================
+
+In order to install and play F.E.A.R., your system must meet or exceed
+the following minimum system requirements:
+
+
+?US version of Windows(R) 2000/XP with latest service pack installed
+?DirectX(R) 9.0c June Edition (Included) or higher
+?Pentium(R) 4 1.7 GHz or equivalent
+?512MB RAM
+?64MB DirectX(R) 9.0 compliant video card with pixel shader support
+?A Monitor that can display in 4:3 aspect ratio
+?1.4GB free hard drive space for installation
+?Additional hard drive space for a Windows(R) swap file and saved game files. 
+?CD-ROM or DVD drive
+?100% Windows(R) compatible computer system (including compatible 32-bit
+drivers for CD-ROM, video card, sound card, and input devices)
+?16-bit DirectX(R) 9.0 compliant sound card with support for EAX 2.0
+?Windows(R) compatible Mouse and Keyboard
+
+In order to play the game at the recommended resolution, detail and 
+performance levels, your computer should meet or exceed the following 
+specifications:
+
+?US version of Windows(R) XP with the latest service pack installed
+?Pentium(R) 4 3.0 GHz or equivalent
+?2GB of RAM
+?256MB DirectX(R) 9.0 video card with pixel shader 2.0 support
+
+SUPPORTED VIDEO CARD CHIPSETS WITH LATEST DRIVER VERSION INFO:
+
+ATI(TM)
+  
+  Catalyst(TM) Drivers (Windows(R) 2000/XP): v5.6
+  
+  Radeon(R) 9000 Series
+  Radeon(R) 9500 Series
+  Radeon(R) 9600 Series
+  Radeon(R) 9700 Series
+  Radeon(R) 9800 Series
+  Radeon(R) X600 Series
+  Radeon(R) X700 Series
+  Radeon(R) X800 Series
+  Radeon(R) X850 Series
+
+NVIDIA(R)
+
+  ForceWare(TM) Drivers (Windows(R) 2000/XP): v77.72
+
+  GeForce(TM) 4 Ti Series
+  GeForce(TM) FX 5900 Series
+  GeForce(TM) 6600 Series
+  GeForce(TM) 6800 Series
+
+Please note that attempting to play the game using video hardware that is
+not listed here may result in reduced performance, graphical anomalies,
+or both.
+
+
+III. INSTALLATION INSTRUCTIONS
+==============================
+
+To begin, double-click the installation file icon. Within a few seconds, the
+setup
+application should start. Once the installer is running, just follow the
+on-screen
+prompts to complete the installation. 
+
+NOTE:  During installation you will be prompted to install Microsoft's
+DirectX(R).
+DirectX(R) version 9.0c June Edition must be installed before playing. If you
+elect
+not to install this version, the game will not be installed.
+
+To launch the game once installation has finished, double click the FEAR SP
+Demo
+icon on your desktop, or:
+
+1) Click on the Windows(R) Start button
+2) Select Programs
+3) Select Sierra
+4) Select FEAR SP Demo
+5) Click on the FEAR Sp Demo icon
+
+
+IV. NOTES ON COMPATIBILITY
+==========================
+
+FUNCTIONALITY
+
+F.E.A.R. is designed to function with Windows(R) 2000/XP-compatible
+graphics and sound cards. Drivers for these devices are provided
+by Windows(R) itself or the respective card manufacturers and may
+occasionally result in compatibility problems beyond our control.
+
+F.E.A.R. does not support Windows(R) 95, Windows(R) 98, or Windows(R) ME
+since the application requires proper installation and functionality
+of DirectX(R) 9.0c or higher. Microsoft does not provide or support
+DirectX(R) 9.0c for these operating systems. 
+
+If you experience any problems, it is always recommended that you
+obtain the latest drivers for your hardware. Driver updates resolve
+the overwhelming majority of compatibility issues. Most hardware
+vendors make their drivers available on their web site.  If you are
+unsure of a web site URL for a particular hardware vendor, you may
+want to try accessing one of the popular Windows(R) software update
+sites such as:
+
+  http://www.windrivers.com
+
+Additionally, a brief list of manufacturer web sites appears below
+for your reference.
+
+WEB LINKS
+
+  ATI: http://www.ati.com/support/driver.html
+  Creative: http://us.creative.com/support/downloads/
+  NVIDIA(R): http://www.nvidia.com/content/drivers/drivers.asp
+  Turtle Beach: http://www.turtlebeach.com/site/support/ftp.asp
+
+
+V.  KNOWN ISSUES
+================
+
+The following items are known issues with the current beta version of the
+game.
+
+GLOBAL:
+
+* Users playing on Windows(R) XP Pro X64 Edition may encounter a
+  "Windows Media Technologies" error during install. 
+
+* If you notice intermediate framerate hitching when running in High detail
+  setting, try turning texture resolution down to Medium.
+
+* The Soft Shadows option will not work if Full-Screen Anti-Aliasing (FSAA)
+  in enabled through the Windows Control panel. If you want to play with
+  both Soft Shadows and FSAA enabled, please use the in-game FSAA Controls.
+
+* It has been reported that the game may not uninstall from partitioned
+  hard drives if installed to anything other than the "C" drive
+  partition.
+
+* Please download the latest service pack before playing. 
+
+* If you attempt to run the game on a system with a missing or out-of-date
+  version of DirectX(R) installed, then an error message will appear on
+  launch that mentions "The dynamic library d3d9.dll could not be found
+  in the specified path". To fix the problem, re-install the application
+  and elect to install DirectX(R) 9.0c.
+
+* Make sure that all applications that are running in the background such as
+  virus scanners, desktop Utilities (menus/toolbars), media players, and
+  chat programs are disabled before running F.E.A.R.
+
+* Selecting a display resolution that is supported by your video card but
+  not your monitor will result in a black screen. If this occurs, use
+  ALT-F4 to quit the application, and then use the display option in the
+  configuration utility (CONFIG.EXE) to select a resolution supported by
+  your monitor.
+
+* Task-switching with ALT-TAB or the Windows(R) Key back to the desktop while 
+  running the game is not recommended.
+
+* Striking the Shift key five times may cause the 'Sticky Key' feature to
+  become enabled in Windows(R). If this happens, the feature will task
+  switch to a desktop dialogue box with options related to this feature,
+  including one to disable it entirely.
+
+
+GRAPHICS:
+
+ General: 
+
+* Launching the game in Windows(R) XP 64-Bit Edition with ATI Radeon
+Windows(R)
+  64-Bit edition Beta Drivers 3 may result in a black screen on launch. To
+work
+  around this issue, toggle your color quality settings in Windows(R) from 32
+  to 16-bit (or vice-versa) and then back again. This should allow the game to
+  launch normally. 
+
+ ATI Radeon:
+
+* Enabling FSAA and Pixel Doubling at the same time will result in a black
+screen. 
+  This appears to be a driver issue. 
+
+SOUND:
+
+  General:
+
+* Ambient sounds may stop playing after a certain amount of time. We are
+  still looking into this. 
+
+  If the in-game sounds and dialogue (voices) do not play, or there are
+  problems with the quality of these sounds, then please try each of the
+  following steps (in order) before playing again. Note that you should only
+  try one solution at a time, since trying them all can greatly reduce the
+  overall sound quality of the game.
+ 
+  1. Make sure that you have the latest drivers available for your sound
+     hardware installed. These can usually be found on the manufacturer's
+     website. Before installing the driver, uninstall the audio device
+     using the Device Manager. If possible, run a "driver cleaner"
+     application to fully clean out any extra pieces of the driver and/or
+     leftover files of another sound card's drivers. Do NOT allow Windows
+     to install its default driver when asked. Instead, only install the
+     driver you downloaded from the manufacturer's website.
+
+  2. From your main installation folder (the default is 
+     C:Program FilesSierraFEAR SP Demo), double-click on the
+     file named WMFADist.exe, and then follow the on-screen instructions.
+     This will manually install the audio codec that is required by the
+     game. 
+    
+  3. From the in-game sound options menu, disable EAX and Hardware Sounds.
+
+  Please note that since this game uses an MP3 codec for sound, 3rd party
+  codec packs may cause speech and sound to drop out completely. If you have
+  a codec pack installed and still have sound issues after trying all of 
+  the steps listed above, then you'll need to uninstall both the codec
+  pack(s) and the game and then re-install F.E.A.R.
+
+  If 3d sounds seem to be change volume wildly (i.e. looking directly at an
+  object will make it sound quieter than when it is to the side), then
+  you may have your speaker configuration set up incorrectly. For instance,
+  if you're listening in headphones but have the speaker configuration set
+  to Surround 5.1, then a lot of sounds will be sent to speakers that don't
+  exist. You can change the speaker configuration in your sound card's
+  applications (such as Creative's AudioHQ or Surround Mixer) or in the
+  Control Panel.
+    
+  If sounds that are originating in front of you sound as if they are coming
+  from behind, and if these sounds seem distorted, and you are playing in
+  5.1, 7.1 or any other Surround Configuration, then you may need to turn off
+  CMSS in your EAX console. CMSS is used to create a multi-channel version of
+  a stereo source. Unfortunately, it can cause issues like this when using it
+  on sounds that are already designed to be in Surround. Note that sometimes
+  you can choose not to install the EAX Console when installing your sound
+  card, so you may have to reinstall the driver in order to get this
+application.
+
+  If you are using a Creative brand sound card and get poor framerates when
+  sound hardware acceleration is enabled, then check for a process called
+  "CtHelper"in the Windows(R) task manager. If it's there, terminate it and
+  try the game again.  If this works, please contact Creative to learn
+  how to permanently disable CTHelper. If CTHelper is not present in the list
+  and the problem occurs anyway, then you will need to disable sound hardware
+  acceleration in the Sound section of the game's options menu, or in the
+  Windows control panel, or in DxDiag.
+
+
+PERIPHERALS:
+
+  Logitech MX510
+
+  Users of this mouse may find it to be extremely sensitive in-game. Please
+use
+  the software supplied with your mouse to correct this issue.
+
+  Saitek ST90
+
+  There have been reports of problems with mapping the buttons on this 
+  joystick to the fire key in the game.  
+
+ADVANCED OPTIONS
+
+  If you're encountering problems running the game, you can try
+  tweaking some advanced settings in the configuration utility
+  (config.exe). Please note that this is for advanced users only,
+  since tweaking these settings could very well create other problems
+  in the game.
+
+  DISABLE SOUND
+    If this box is checked, there will be no sound effects in the game.
+    Also, dialogue and lip-synching will not play correctly, but music
+    will still play.
+
+    If you are experiencing problems running the game and suspect your
+    sound card may be the cause, you might check this box and see if
+    the problem goes away. If it does then the problem may be due to
+    a problem with your sound hardware or drivers.
+
+  DISABLE MUSIC
+    If this box is checked, there will be no dynamic DirectMusic in
+    the game. Please use this option for troubleshooting purposes only.
+
+  DISABLE JOYSTICKS
+    Disables input from joysticks and game pads. Certain joysticks
+    and game pads may interfere with normal mouse or keyboard
+    control in the game. If you suspect this is occurring, checking
+    this box before running the game may resolve the problem.
+
+  DISABLE MOVIES
+    If this box is checked, the intro logo movies will not be
+    shown. Use this if your system is having trouble playing these
+    movies.
+
+  DISABLE SOUND FILTERS
+    If this box is checked, sound filtering effects (reverb) will be
+    disabled. Only cards with EAX 2.0 support will benefit from this
+    feature. If you experience problems such as static when firing a
+    weapon in a particular area within a level, then you may need to
+    play with sound filtering disabled. 
+
+  DISABLE HARDWARE SOUND
+    If this box is checked, this will disable DirectSound 3D sound support
+    and could cause performance issues.
+
+  RESTORE DEFAULTS
+    If this box is checked, all in-game options will be restored to the
+    default values. This can be useful if a particular option setting
+    is preventing you from restoring the defaults from the menu system.  
+
+
+VI. PERFORMANCE
+================
+
+DETAIL SETTINGS and DISPLAY RESOLUTION
+
+  In order to get the best game play experience, it is not recommended to
+  run F.E.A.R. at high resolutions. You should avoid resolutions above
+  1024x768 on any current generation card. Instead, you can use the
+  full-screen anti-aliasing (FSAA) option under Graphics in the advanced
+  options menu. This helps improve the visual quality of the final scene
+  without dramatically increasing the amount of work that must be performed.
+
+  Most players will also notice a significant increase in frame rate by
+  disabling the Vsync option in the display options screen. If this doesn?t
+  make enough of a difference, your next step should be to lower your
+  screen resolution to 800x600 or 640x480. 
+
+  If performance is still a problem at this stage, try these additional
+  steps:
+
+  ? Disable FSAA and Soft Shadows in the advanced options under Graphics.
+  ? Use Trilinear Texture Filtering instead of Anisotropic.
+
+  If your system does not meet the requirements as listed at the top
+  of this document, you may still be able to play with reasonable
+  performance by following these steps:
+
+  ? If your video card doesn't meet the requirements, enable Pixel Doubling.
+  ? If you are using a GeForce(TM)FX card, set ?Force DX8 Shaders? to on.
+  ? If you have less than 512MB of RAM or a video card with less than
+    128MB of RAM, use low or medium Texture Resolution. 
+
+UPGRADING
+
+  If you are dissatisfied with the level of detail that your system can
+  handle, then you may wish to consider upgrading. F.E.A.R.'s
+  performance is most affected by your video card, followed closely by the
+  CPU speed and the amount of installed memory in your machine. A high end
+  video card and CPU will usually result in considerable frame rate
+  improvements, while installing more RAM will result in shorter load times
+  and less hitching during game play.
+
+
+VII. F.E.A.R. SITES
+====================
+
+WEBSITE LINKS
+
+  For more information on F.E.A.R. and additional options for 
+  technical support, and the latest updates please visit the following web
+  sites:
+
+    The Official Site
+    http://www.gameoftheyear.com/us/
+
+    Sierra Entertainment
+    http://www.sierra.com
+
+    Monolith Productions
+    http://www.lith.com
+
+RELEASE FROM MERIDA CITY

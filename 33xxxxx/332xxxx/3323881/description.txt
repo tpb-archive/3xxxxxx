@@ -1,0 +1,74 @@
+xecuter 2 5031 build
+
+Features Summary
+
+Works on all modchips (that support 512k Bios)
+Works on Xbox versions v1.0 - v1.6b
+Boot All Originals
+Boot All Unsigned Code
+Boot All Backups
+Boot Debug XBE's
+Macrovision Protection Disabled
+No Patch Hack
+No Reset On Eject
+Hard Drive Swap Hack
+LBA48 Hack*
+Custom Partition Hack (Auto Detects!)
+In Game Reset (EMBEDDED) (IGR)
+- (LT+RT+BACK+START) or (LT+RT+BACK+BLACK)
+- Use IGR after pausing the game for best results
+Customized Error Screens **
+No DVD Rom Hack ***
+No AV Cable Hack
+Media Flag Auto-Patcher (All Versions)
+Conexant / Focus / Xcalibur Video Support
+Clock Check Skipped / Error 16 Fix / Boot to DVD ROM even if clock is corrupt
+Disable Access to Xbox Live ****
+Disable Access to Xbox Live (Extended Version) ****
+
+*New* X2 Config Live Features
+- Set debug mode enable / disable
+- Set IGR enable / disable
+- Set boot path of dashboard
+- Display Flubber Animation enable / disable
+- Check for DVD Rom enable / disable
+- Rest Xbox on Pressing Eject enable / disable
+- Set Dashboard Priority (5 Options)
+- Set Xbox Logo Colors (Xlip,XlipHighlights,InnerWalls,InnerGlow,XboxText)
+- Xbox Live Mod Enabled Connect Protection enable / disable
+- Check system clock for errors enable / disable
+- Set Flubber Colors (Blob,BlobGlow,GreenFog,FlubberScene,FogGlowStart,FogGlowEnd)
+- Set Random Flubber Animation enable / disable
+- Set Flubber Animation Sequence (15 Options)
+- Set Xbox Fan Speed
+- Set Flubber in wireframe mode enable / disable
+- Display the TM logo enable / disable
+- Set the Flubber / Xbox Logo background color
+- Stop bios from booting DVD's (d:default.xbe) enable / disable
+- Customize DVD xbe boot name (default.xbe)
+- Set Xbox LED Color (green,red,orange,cycle)
+- Custom Boot Logo (180x50 256 Color BMP stored on E: drive as x2logo.bmp)
+
+LBA48 Partition Modes:
+This value is now taken from patched byte at offset 0x1b04
+
+0 = standard partitions
+1 = F: gets all (Default)
+2 = F: up to 137gb, G: gets rest
+3 = F: up to 137gb, no G:
+
+Changelog [5031]:
+- fixed: x2logo.bmp display bugs solved
+- fixed: the wild rings game was not booting again ... fixed now (this game blows)
+- fixed: made dash pathes a litte more tolerable, drive character is no longer case sensitive
+- note: LedColor also supports other values than the ones listed - check out nghtshd's x2ool for more versatile led modes!
+
+And for those that suck melons for breakfast Razz .......
+
+x2_5031_vOLD_512k.bin - older xbox versions v1.0 - v1.5 ONLY
+x2_5031_v16plus_512k.bin - xbox versions v1.6 and v1.6b ONLY
+
+Rom = "X2 5031 vOLD",0x7007ccc64406042f16c5b2dc7e9c7b9d
+Rom = "X2 5031 v16plus",0xa2a865546ea405f4d3b6448625d306f5
+
+And no this bios cannot be split in half to be 256k and flashed to TSOP

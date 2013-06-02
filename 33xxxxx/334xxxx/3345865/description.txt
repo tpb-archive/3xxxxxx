@@ -1,0 +1,10 @@
+Microsoft Windows AntiSpyware (Beta): Release notes
+Published: January 6, 2005
+
+Known issues
+
+• Potential issues with enterprise administration tools
+There is a potential issue with computers managed in an enterprise. Windows AntiSpyware (Beta) can potentially prompt the end user to make decisions to allow or block administrative actions that originate from a central management tool. For example, users may be prompted to allow or block a Systems Management Server (SMS) script. To avoid potential issues with end users blocking administrative actions, please turn off the active protection feature of Windows AntiSpyware (Beta). Read the related Microsoft Help and Support article to get more information about this issue.
+
+• Incompatibility with Windows Media Center Extender
+There is a known incompatibility between Windows AntiSpyware (Beta) and Windows Media Center Extender. If you install Windows AntiSpyware (Beta) on a computer running Windows XP Media Center Edition 2005, Windows Media Center Extender will not be able to establish a remote connection. Read the related Microsoft Help and Support article to get more information about this issue.

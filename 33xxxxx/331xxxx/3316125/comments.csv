@@ -1,0 +1,133 @@
+﻿User Type,Username,Date,Text
+,MadEsc,2005-04-13T15:16Z,"Takk!
+
+Thanks!"
+,NeedMachine,2005-04-13T23:19Z,"Tackar, mycket bra!!!"
+,neoguy,2005-04-25T16:54Z,"Warning!
+
+This ""tweaked"" installation program for VMWare tries to install following trojans:
+
+http://download.abetterinternet.com/download/cabs/PYNXDLL/polall1p.exe 
+Win32/Agent.AY trojan
+
+http://www.slotch.com/ist/softwares/v4.0/istdownload.exe
+Win32/TrojanDownloader.IstBar trojan
+
+http://static.abetterinternet.com/download/cabs/MM5101/farmmext.cab
+Win32/TrojanDownloader.Stubby.C trojan
+
+Source: NOD32 Network Proptection (IMON)"
+,ballie102,2005-05-11T10:19Z,"Thanks for posting this - but I don't like the fact it has Trojans! >(
+
+Please can someone post a clean version?
+
+Thanks ;)"
+,neoguy,2005-05-25T10:41Z,"That's correct, it doesn't NOT contain, 
+but the installation program DOWNLOADS these and probably infects your system, if not protected."
+,pushf12,2005-05-25T16:35Z,Troll.
+,Zephyre,2005-06-04T13:04Z,"Easy to work arround, Start the installation with the supplied exe, wait until msi unpacking is done, then you will find two msi directorys under your current temp folder, copy those two another place, and exit the installation.
+Then in one off the folders you will have the original VmWare isnatallation msi, just install that, and skip registration when done. In the other folder you will have a license.zip in that there is a license-ws-50.reg, double click that and you are ready to run. 
+:)"
+,Shapemaker,2005-06-08T01:11Z,"What the fuck is it with you people? pushf12, you're an asshole if you uploaded a friggin' trojaned version (if only by accident). Now come out and say if you did so others can steer clear of this if needed."
+,General_Dark,2005-06-10T14:20Z,"Someone knows where to get hold of VMware Tools? It´s, what I´ve understand, needed to run the OS in high resolution"
+,TheSilencer,2005-06-15T08:27Z,"This one does NOT contain spyware. I installed it and scanned every part of my computer. scanned with AdAware and NOD32, both updated today.
+I don't know about you guys (the ones complaining) but I surley have enough security not to let my computer download things when ever it want's to. :P Keep your firewalls and viris up to date.
+
+//TS"
+,piraten.,2005-06-16T20:57Z,"The workaround Zephyre posted worked for me. I did exactly what he said (without moving the MSI from its Temp dir) with an industrial-class network packet sniffer on (NAI Sniffer 4.7) and I saw no HTTP packets whatsoever, or file data. Good work pushf12. I've downloaded your Linux version too, VMware is awesome. I've done a full system scan with many AV's and spyware detectors and nothing at all. Have fun people. Another great release."
+,piraten.,2005-06-16T21:00Z,"Sorry for double posting, but just to warn you guys who don't do some sort of workaround, (I'm not sure if it contains malware at all since I didn't check, why put my security at risk?), pardon my french but ISTbar blows. It took me 3h to remove the little bitch along with Internet-Optimizer and some other crap. Avoid at all costs."
+,kolsyra,2005-06-29T13:08Z,"Ladda ner programmet här:
+http://download3.vmware.com/software/wkst/VMware-workstation-5.0.0-13124.exe
+Keygen här:
+http://www.keygen.us/get.shtml?1140253
+Jag tar inget ansvar för ev. trojaner"
+,swe_Fredro,2005-07-29T09:59Z,Tack för denna =)
+,h4xz0r,2005-08-04T23:47Z,This is the best program to instal Windows Vista if you want to keep the old windows =)
+,Jeffimmelt,2005-08-11T14:49Z,"I've got a small problem with the Vista (Microsoft.Windows.Vista.Codename.Longhorn.Beta.1.32Bit.DVD.READ.NFO-WinBeta) installation.
+
+At ""Where do you want to install Windows?"" the disc is ""Unavaliable"" with the message ""the partition you selected is not ready for installation"".
+
+Any suggestions?"
+,nikIta_s,2005-08-12T00:09Z,"During Installation of VISTA on the first graphical screen press Shift F10 then
+
+write the folowing on the DOS box
+
+diskpart
+select disk 0
+create partition primary
+
+Now, you can choose between formatting the partition straight away, by using the following commands (still inside diskpart).
+
+
+select volume 1
+format
+
+
+then reboot  ( you might have to set the boot device in virtual machine BIOS to boot from CD first )"
+,jcmatrix,2005-08-14T22:27Z,"Thanks to nikIta_s for their answer to installing Windows Vista Beta 1 Longhorn onto VMware. I have written a step by step guide of what to do because I had some trouble installing too.
+
+=============================
+
+The first graphical screen should be prompting you to click 'Install now' after you have clicked this when the next
+screen appears press Shift+F10 and type the following in the DOS box
+
+notepad
+
+
+
+This should bring up the Windows Notepad, now type as follows
+
+select disk=0
+create partition primary
+
+
+
+Now select 'File' and 'Save As' and locate the 'X' Drive and save the file as 'part.txt'.
+Note: You may encounter an error when saving, just ignore this and click 'Cancel'.
+
+
+
+Close the Windows Notepad and go back to the DOS box and type
+
+diskpart /s x:part.txt
+
+
+
+After this the partition should be created.
+
+
+
+Now type the following into the DOS box
+
+notepad x:part.txt
+
+
+
+Now remove all of the lines of text and type the following
+
+select volume=1
+format
+
+
+
+Now select 'File' and 'Save'.
+
+Go back to the DOS box and type the following
+
+diskpart /s x:part.txt
+
+
+
+Once the formatting has finished close the DOS box and reset the Virtual Machine.
+
+Now start the Virtual Machine again and on the VMware boot screen press 'Esc' to get into the the boot menu.
+Now select CD-ROM and press 'Enter' to boot up the WIndows Vista installtion again.
+"
+,jcmatrix,2005-08-14T22:31Z,"Theres no damn formatting on these comments So here it is again but changed slightly...
+
+Thanks to nikIta_s for their answer to installing Windows Vista Beta 1 Longhorn onto VMware. I have written a step by step guide of what to do because I had some trouble installing too. ============================= The first graphical screen should be prompting you to click 'Install now' after you have clicked this when the next screen appears press Shift+F10 and type the following in the DOS box...  notepad then hit enter. This should bring up the Windows Notepad, now type as follows on line 1...  select disk=0  and on line 2...  create partition primary     Now select 'File' and 'Save As' and locate the 'X' Drive and save the file as 'part.txt'. Note: You may encounter an error when saving, just ignore this and click 'Cancel'. Close the Windows Notepad and go back to the DOS box and type...  diskpart /s x:part.txt        After this the partition should be created. Now type the following into the DOS box...  notepad x:part.txt      Now remove all of the lines of text and type the following on line 1...  select volume=1 and on line 2...  format     Now select 'File' and 'Save'. Go back to the DOS box and type the following...   diskpart /s x:part.txt      Once the formatting has finished close the DOS box and reset the Virtual Machine. Now start the Virtual Machine again and on the VMware boot screen press 'Esc' to get into the the boot menu. Now select CD-ROM and press 'Enter' to boot up the WIndows Vista installtion again."
+,Anton N,2007-06-30T21:54Z,"vmware er bra
+
+vmware is good"
+,fahrenheitcore,2008-03-29T18:14Z,"SEED plsss....
+Thanks ^^"

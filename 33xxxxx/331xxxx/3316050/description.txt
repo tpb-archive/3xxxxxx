@@ -1,0 +1,41 @@
+Hello, my fellow pirate, PeerGuardian 2.0 Beta 5 has arrived.
+
+Do only use this information if you know what you are doing or if you trust it.
+Remember PG will not protect you 100 %, it is only one piece in a puzzle.
+
+I prefer the GUI from Beta4, It was more handy to use.
+Beta5 is a little tricky, so i made this very small crash-course.
+I tell how i use PeerGuardian, you may use it as you want.
+This was made in a hurry, so pls dont't flame me...
+
+Uninstall earlier PG, and make sure the PG-folder is deleted.
+Install PGbeta5 and add the URL's to the blocklists you want (ClipBoard-4.gif).
+
+I use:
+http://lists.blocklist.org/ads.p2b.gz
+http://lists.blocklist.org/gov.p2b.gz
+http://lists.blocklist.org/p2p.p2b.gz
+http://lists.blocklist.org/spy.p2b.gz
+
+I don't use:
+http://lists.blocklist.org/edu.p2b.gz
+
+Have a look at the .gif's, you should get a clue of what i am doing.
+If you don't understand, let me know. I shall then contact your local Zoo and ask them to bring a monkey to assist you.
+You could copy the pg2.conf -file to your install-folder, it will import the settings i am using.
+
+I'am using WinME right now cos i lost my harddrive (in the subway, lol), otherways i would use WinXP SP2.
+I only got an old 3 GB(!) harddrive at the moment.
+
+I hope this has helped you.
+
+EDIT:
+I autostart PG through the registry:
+[HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindowsCurrentVersionRun]
+"ScanRegistry"="C:\WINDOWS\scanregw.exe /autorun"
+"SystemTray"="SysTray.Exe"
+"AVGCtrl"="C:\PROGRAM FILES\AVPERSONAL\AVGCTRL.EXE /min"
+"PeerGuardian2"="C:\PROGRAM FILES\PeerGuardian2\pg2.exe"                                                                                                                  <-- *HERE*
+"TotalCommander"="C:\PROGRAM FILES\totalcmd\Totalcmd.exe"
+"DU Meter"="C:\PROGRAM FILES\DU METER\DUMETER.EXE"
+

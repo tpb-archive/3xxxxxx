@@ -1,0 +1,140 @@
+Initial seed & release provided by AntinousK.
+
+Centropy - Finest VCD/DVD release crew :
+
+Title.............: Ocean's Twelve      
+Ripper...........: Brad Pitt
+Date.............: 09-03-2005
+Supplier.........: George Clooney
+Quality..........: DVDR
+Archives........: 95*50
+Genre...........: Comedy/Crime/Thriller
+Rating..........: 6.1/10
+
+First of all :
+
+We're sorry the real deal took this much time, but we
+weren't sure IF we should bring out a real proper, while we had every
+right to do so in the first place.                                    
+
+We discussed it alot amongst ourselves and came to the conclusion that  
+
+1-click-rips shouldn't be celebrated as they are nowadays in the scene.
+We always tried (and still do) to bring the scene the best possible    
+releases in the best possible quality, and it may be silly, but that's  
+what we expect from other crews too.                                    
+
+What we are trying to say is that we don't mind being beaten if it is  
+by a quality crew with a quality product. If you are faster than us,  
+and deliver quality : respect. But nowadays sites, in the struggle to  
+be regarded as a topsite, take on riffraff groups who have no intention
+of bringing quality, but just to rush out stuff to pimp their groupname.
+It might be nice they have a supply.. but does that mean the scene      
+should allow crap to be pre'd? Should the scene even allow these groups
+the light of day?
+
+There was a time groups like this were dealt with,  
+swiftly.. but alas - those days seem long past.                        
+
+Since we believe things can still change for the better, we decided to  
+bring the scene a quality rip of this dvd.                              
+And oh.. we even have proper reasons ! Here we go:                    
+
+MPTDVD release                                                    
+
+* Subs                                                                  
+English subs are on by default. Foreign subs are unusable while I      
+tested by using daemon/mpc. There are also 2 substreams specified as    
+chinese which contain nothing. While using my standalone they work from
+menu, but trying the subtitle button on my remote english is the only choice.                                                                                                                                      
+* Menu                                                                  
+Tried to strip out the french LU's, but managed to keep the french      
+subtitle menu. Examining it in ifoedit shows complete disarray when    
+comparing to original. All in all.. menu is raped. There's no nice word
+for it.                                                                
+
+* Missing Scenes                                                        
+Missing 18 seconds of footage at around 1:08:20 (MPT dvdr time). For  
+some reason this is exactly where BRUTUS xvid has its CD change.      
+
+* Picture Quality                                                      
+Blur-o-matic.                                                          
+
+*Interlacing                                                          
+Examining the sample I found one single frame that shows interlacing.  
+Not really a worthy reason we think but kept in for completeness sake.  
+I wouldn't be suprised if there were more interlaced frames, but it    
+already was obvious that this was a 1-clicker, so no point on checking  
+it all.                                                                
+
+* VIDEO_TS.VOB                                                          
+There is none on the original DVD9 - there is one in this release.      
+1-clickers tend to create these files for you.. and thus leave a trace.
+
+* DVDInfo Pro                                                          
+Implementation id DVD Shrink                                            
+
+
+SHINBET release                                                        
+
+* Audio Tracks                                                          
+Kept both 5.1ch and 2.0ch english. Also didn't remove the ID's for the  
+stripped tracks (french and reserved) not included.                    
+
+* Menu                                                                  
+Kept all of the french LU's and reencoded the english ones to save      
+space. Didn't menu-edit audio menu so stripped audios are selectable    
+and point to non-existant audio tracks.                                
+
+* Picture Quality                                                      
+Poor at best.                                                          
+
+* Extra                                                                
+Although the original DVD9 doesn't carry many extras, they HAVE to be  
+ripped on this one to preserve watchable dvd-bitrate. ShinBet didn't    
+bother to remove neither the trailers in front of the movie, nor the    
+company-logo, nor the copyright notices, nor the trailer of the movie  
+itself. Which brings us to :                                            
+
+* Bitrate                                                              
+Specified bitrate in nfo is 4700 kbit/s. Extracting the .m2v yields a  
+file thats 3.607.116.434 bytes. Runtime is 125 minutes.                
+Calculating 3607116434 / (125 * 60) / 1024 * 8 gives us 3757 kbit/s.    
+Compare that to our 4205. But i'm sure that was just a typo tho, right?
+
+* DVDInfo Pro                                                          
+Implementation id DVD Shrink                                            
+
+
+Which brings us to our own stats :
+
+Video: 6-pass CCE reencode @ 4205 kbps.                              
+Audio: 5.1 English.                                                  
+Subs: English, Spanish, French.                                      
+Ripped: Extras, logo's, rest of the audio, and french menu to get      
+bitrate at a decent level.                                    
+Source: WS. Retail R1
+
+In conclusion we thank you for reading this far and sincerely hope      
+that you don't have to read another one like it as much as we hope      
+another one like it doesn't have to be written.                        
+
+P.S.                                                                    
+Remember who released Ocean's Eleven DVDR almost 3 years ago?      
+
+*Movie Cast
+
+Imdb :  Check out -> http://www.imdb.com/title/tt0349903/
+
+Centropy Information
+
+Please remember: we do this for FUN. We do not make money        
+off this whole business. If people tell you                          
+they're in Centropy, they're lying.We do not condone            
+people selling illegal copies of movies for profit.              
+In fact, all of us go to the movies regularly and pay for        
+our tickets just like everyone else.                            
+If everyone only watched illegal copies, there would be          
+no money to make new movies.                                      
+
+Greetings to our fellow release crews..

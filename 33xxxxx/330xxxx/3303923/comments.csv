@@ -1,0 +1,115 @@
+﻿User Type,Username,Date,Text
+,proekaan,2005-03-20T01:37Z,"Remember people,this is an addon,it requires the original Spellforce: Order of the Dawn to work."
+,huldu,2005-03-20T14:01Z,"Hade varit kewl om nån kunde fixa fram en fungerande clone-cd eller liknande av spellforce order of dawn. Tankade hem ""SpellForce"" tidigare som va gjord av en amatör vilket visade sig INTE fungera (från den här siten).
+
+Har nån kvar FLT releasen av spellforce eller den nya Carbon (order of dawn)?"
+,proekaan,2005-03-20T14:19Z,"If you have problems,please state it in english,because my swedish is very rusty.And people,once you dl the game,rate and comment it,this will help other users."
+,GaffelN,2005-03-20T19:12Z,I think he means that you need to have the order of the dawn install before you install the expansion.
+,AnticZ,2005-03-23T19:00Z,"cant get this version to work. Reason is that the FLT version of Order of Dawn is cracked at the CD so if you install that one Shadow of the Phoenix and breath of winter expansions wont install as they sense its a cracked version :(
+
+Anyone able to dump a clone CD version or the Cyclone version of order of dawn on Pirate bay?"
+,proekaan,2005-03-24T04:44Z,"Try this and if this doesn't work,let me know.
+
+1) Installed FLT release of Spellforce - Order of Dawn
+2) Go to the spellforce directory and delete spellforce.exe
+3) Rename spellforce.dat to spellforce.exe
+4) Open Install.log and remove the reference to spellforce.dat
+5) Installed BWclone of Spellforce - Breath of Winter
+6) Installed BWclone of Spellforce - Shadow of the Phoenix
+7) Copy crack
+8) Start game and use CD-Key from new release info
+9) Play. Game fully functional at Version 1.52"
+,AnticZ,2005-03-25T23:38Z,"Thanks for the excellent step by step procedure :)
+
+However i get as far as i suceed to install Breath of winter but when i directly after that try to install shadow of phoenix i get the ""illegal or modified version detected"" again. This time theres no DAT file for me to rename and no mention in the install.log of it since i removed it for the first install :/¨
+
+any ideas?"
+,proekaan,2005-03-27T17:46Z,"The installer of the original spellforce installs the cracked exe,you have to copy the files from cd2 into hardrive and from the folder where you put it and go to the folder bin example c:program filesspellforceinstallbin and delete the cracked files,but don't delete the videos.Then install the original and when the installer asks for cd2,type the directory where you copied the files,after the install you can install either addon normally,but I can't remember if the installer of either addon asks for the .exe file,if it does,then copy the exe from either addon to the spellforce folder,if that doesn't work,then get the original exe from somewhere or try update,that is what i did just now,I used v 1.38 exe and it worked fine,sorry I can't help more,it was long time since I figured that one out and now it finally paid out.If someone has any better ideas,then I'm all ears.
+
+This worked for me,sorry for the confusing explanation,but I can't remember the exact step by step procedure.
+Tell me if it works...:)"
+,Zigna,2005-03-29T16:21Z,"Thanks for this!
+
+And I got it to work to witch I didn't whit Breath of Winter :-/ ...  I used the nine steps you gave, thoug I'm unsure whitch version I have of Order of Dawn..."
+,Mörkö,2005-04-04T14:35Z,what that FLT means?
+,proekaan,2005-04-04T15:45Z,"The FLT version is the one where the original .exe file has been replaced with a cracked one,so you can't install any of the addons,because the installer complains about ""modified .exe file"" or something like that.So if you have that version,then follow the instruction above.:)"
+,Mörkö,2005-04-04T19:19Z,"Can someone paste that new order of the dawn cd-key becouse i dont have it. my cd-key works great with breath of winter but when i try to install this shadow of the phoenix it says wrong cd-key pla pla pla.........
+:)"
+,proekaan,2005-04-04T20:03Z,I used a keygen and it worked fine.
+,Mörkö,2005-04-04T20:35Z,"i do everything like u say but when i have installed the shadow of the phoenix it says ""error when verifying cd"" when i try play the game. i dont know what to do :,("
+,proekaan,2005-04-04T21:55Z,"Okay, install the order of dawn,then breath of winter,but don't play neither one of them before installing shadow of phoenix,meaning don't apply any cd key,only the one I gave you and use that after you have installed all three of them.This is what I did.
+
+Is your order of dawn and breath of winter original copies or did dl them?"
+,neenee,2005-04-19T18:05Z,"Did everything ...
+
+Installed Order of Dawn
+Renamed .dat --> new .exe, modified .log
+Installed Breath of Winter
+Installed Shadow of the Phoenix
+Copied all Files (crack Dir)
+
+Started new .exe 
+
+but: Get Initiating Error Code (0x0000005)  ????
+
+(Same with or without Patch 1.52)
+
+
+Someone any idea ? 
+
+Thx
+"
+,proekaan,2005-04-20T04:58Z,"Is your order of dawn the FLT version?
+I can't think of anything that would cause that,maybe you somehow messed up modifying the log and you deleted something important,try to install the the games the other way(not the nine step procedure) I have written above,copy the spellforce.exe to some folder.Delete spellforce and so on.(read the instruction above.:)"
+,neenee,2005-04-20T13:03Z,"Its the FLT Version, but I didn´t mess up the log. ;-)
+Only deleted that one line.
+
+Installed all Addons worked fine for me. ^^ Did not play them, or enter any key. 
+After overwriting the files the .exe brings up this error message. 
+(Did the same procedure with spelleforcecleaner.exe to solve the FLT prob. -- Installation of all Addons ok, overwriting and .exe brings up the error) ??
+
+Don´t know what is the problem, since all installations worked without having any probs at all.
+
+
+Thx for answering, maybe another clue? "
+,proekaan,2005-04-23T15:36Z,"I'm sorry,I don't know what to do with your problem,been looking for a solution,but nothing so far.No one else has encountered the same problem,maybe it has something to do with you computer,try a different crack if you find one.Sorry again.:( "
+,morfar_,2005-04-26T16:53Z,"Confilct: plz deactivate or uninstall blindwrite/copytocd partin-couffin drivers
+
+any got this error?"
+,proekaan,2005-04-26T19:55Z,"I guess you want to burn the game to a cd,I have never done that,I always play them on daemon tools.
+I think it detects something,so my bet is,you have to uninstall blindwrite and try again.But not knowing what you were doing when it gave you the error message,I can't exactly give you a solution."
+,morfar_,2005-04-27T17:54Z,"when i delete the exe fil and rename the dat file to exe file is said, 
+
+Error:spellforce.exe could not be located in c:gamessp. plz reinstall the game and restart the update intaller...
+
+??????? i have the FLT version"
+,proekaan,2005-04-27T22:17Z,"You mean,the error message comes up after you have renamed the file or when you try to play the game?
+Did you alter the install.log and delete any reference to the .dat file?"
+,morfar_,2005-04-30T13:28Z,"iam trying to install the bow, i delete the exe file and make the spellforce.dat to a spellforce.exe file then it say "" the file spellforce.exe could not be located in C:blaspellforce. plz reinstall the game and restart the update installer.
+
+in the install.log file there is only 
+
+""File Copy: C:GamesSpellForceSpellForce.dat"" to delete.. "
+,Gurthang,2005-06-10T19:17Z,is this just expansion??!!??
+,dungeon86,2005-06-21T02:25Z,"i got spellforce: the order of dawn cd which i bought it from a shop~ 
+i try installing the rest expansion pack her but it doesn't work for me~ it always show tht i have wrong cd key before installing it? 
+can somebody solve this problem to me??
+please~~~"
+,dungeon86,2005-06-21T02:26Z,ops....is a pirated cd too~~
+,eadead,2005-06-21T08:56Z,"can someone tell me from where i can get that spellforceclean.exe???
+everytime i get a message like that:""illegal version of the game and need the original cd""......
+i have all the patches and only can install 1.02,1.03.
+isn' t a site to download this spellforceclean???"
+,topgunn888,2005-06-27T11:13Z,"Hey all. Has anyone run into the problem regarding an electronic CDkey? I have a legit OoD CD, downloaded the BoW BW image and found a topology file from GomeCopyWorld to get that working, and now am trying to get SoP to work. Everything has installed just fine but when I try to run the game, it trips out saying there was an error and to search the readme for a section regarding the electronic CDKey. I only get this error with the SoP expantion so it is highly unlikely that the Problem is steming from BoW... Any Ideas?"
+,topgunn888,2005-06-27T11:13Z,oops... sorry about the double post! :-D
+,sirbao,2005-07-13T18:18Z,"Is this release Multilanguage , I mean can you change the language into German ??"
+,bighiphop,2005-07-22T20:57Z,need cd key any one have it
+,bighiphop,2005-07-22T20:58Z,or just tell me where to get it and ill find it my self
+,Mörkö,2006-02-18T21:43Z,"is this bwclone version ?
+
+my problem is when trying to star shadow of the phoenix it says ""error while veryfing cd"
+,P_Soares,2008-05-26T01:57Z,while installing when the setup asks for cd2 what should i do 
+,Anonymous13,2008-08-09T05:22Z,Someone seed please.
+,Verunchik,2009-06-03T15:53Z,Seeeed plz!
+,cyraxjr,2010-12-18T09:50Z,Do you have some piers ?
+,cyraxjr,2010-12-18T09:51Z,I'm sorry. Give me some seed's ?

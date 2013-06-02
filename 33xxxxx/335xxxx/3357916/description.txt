@@ -1,0 +1,15 @@
+Winamp 5.094
+New: in_wm now handles bitrate and length extended info
+New: New random number generation for playlist shuffle
+Fixed: Security vulernability in id3v2 tags
+Fixed: Winamp now shuffles playlists larger than 32,768 songs
+Fixed: Fade on start now behaves properly
+Fixed: separate directsound settings with multiple instances
+Fixed: Winamp now supports adding URLs longer than 260 characters.
+Fixed: Editing files created in iTunes no longer causes corruption.
+Fixed: Length of long mp3's now reported properly
+Fixed: gen_jumpex no longer crashes when DEP is enabled
+Fixed: Sort selections in media library are now remembered.
+Fixed: Album names with non-alphanumeric character behave better
+Fixed: Fixed intermittent crash on seeking for some users
+Updated: new libmp4v2.dll

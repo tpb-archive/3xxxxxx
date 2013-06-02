@@ -1,0 +1,152 @@
+﻿User Type,Username,Date,Text
+,gertinge,2005-03-15T01:24Z,e du säker på att det e den riktiga releasen?
+,rastabengen,2005-03-15T01:38Z,"Du var mig en smart rackare som tror att spelet är på 200 mb....
+
+Tror dom har ambitioner som går över 200 meg....därför releasen dröjde dom skulle göra det pisslitet...   :_(
+
+
+Suger fett när folk inte har mer innanför pannbenet"
+,JoeyT,2005-03-15T01:41Z,enligt nforce ligger den på 14*15mb vilket skulle bli 210 mb
+,Akisbye,2005-03-15T01:51Z,det er den udpakket version af den der ligger på nforce der til har jeg added deres Nfo da den ikke var med. for at spille spillet SKAL du følge Nfo'en ellers virker det ikke
+,city123,2005-03-15T06:28Z,"somebody seed this please? is this in English ??
+
+
+Thanks "
+,lingra,2005-03-15T07:27Z,"Lite tungt att man har legat stabilt på 97,5 % alldeles för längde nu..."
+,Bollnas80,2005-03-15T09:05Z,"snälla seeda ligger på 97,5 %"
+,dannejuve77,2005-03-15T09:31Z,hur får man i gång d sen då??
+,Bollnas80,2005-03-15T10:25Z,"Jag har lyckats installera det men får inte igång den sen, nån som har lyckats"
+,Emiil_,2005-03-15T10:28Z,Äntligen! om det är rätt spel!
+,Akisbye,2005-03-15T10:32Z,"Install Notes (Please follow these instructions IN ORDER)
+
+       1. Unpack the release with WinRAR or equivalent
+       2. Burn using BlindWrite 4.5.7.92 for best results uncheck 
+          'Autoplay support' and 'Enhance weak sectors' in BlindWrite
+          Config menu, verify image, burn DAO+PW at 10-12x and click
+          'YES' when asked if you want to burn the BWA Physical information.
+       3. Install.
+       4. Play!"
+,nallebjornen,2005-03-15T11:32Z,"Någon som kan lägga upp BlindWrite 4.5.7.92 för jag hittar den inte någonstans att ladda hem :(
+har ju väntat på detta spelet länge och jag får inte rätt på det med Blindwrite 5 :("
+,hackson,2005-03-15T11:34Z,finns att ladda hem på blindwrites officiella hemsida
+,dannejuve77,2005-03-15T11:39Z,funka inte ändå!!!!!
+,hackson,2005-03-15T11:48Z,"får aldrig upp:
+""click ""'YES' when asked if you want to burn the BWA Physical information"" :(
+
+
+funkar inte"
+,bobbycat,2005-03-15T11:57Z,"Download Daemon tools, Moun bwt file. install and play... SImple!"
+,hackson,2005-03-15T12:00Z,"Emulator detected!
+Please deactivate virtual drive and emulation software."
+,nallebjornen,2005-03-15T12:35Z,Inget litet geni som kan fixa en crack fil så man kan få spela detta efterlängtade spel........
+,Baard_spl,2005-03-15T12:47Z,Is there a crack for this game?  When I start to play there comes a message!  original disc could not be found or authenticated
+,stenbrott1,2005-03-15T12:57Z,Det hoppar inte igång när jag dubbelklickar på ikonen =(
+,lixen,2005-03-15T13:23Z,"
+
+http://www.vso-software.fr/download.php?url=http://vso.nerim.net/blindwrite_full_setup.exe
+"
+,daveywestham,2005-03-15T13:40Z,"I am also getting ""orginal disc could not be found or authenticated"". Is there a crack for this? I didn't get the option click 'YES' when asked if you want to burn the BWA Physical information as I never got this prompt. Is this why??? 
+
+Please help anybody??"
+,Dennisio,2005-03-15T14:25Z,är det nån som fått igång det än?
+,Emiil_,2005-03-15T14:37Z,inte jag
+,nicolaia91,2005-03-15T14:42Z,takk! du er en engel!!!!
+,Gondul,2005-03-15T14:44Z,Nope
+,Mingo,2005-03-15T15:00Z,"For those of u who have problems with BWA is here the HowTo use guide:
+
+The BWA format describes the media’s local density, which is roughly how many sectors fit in a given diameter.
+
+The variation of that density is used by some copy protection schemes to detect the difference between an original cd and the backup.
+
+Blindwrite Suite is the first copy tool able to fully extract and reproduce that density variations - thus is the first tool able to produce 1:1 copies of the most recent protection schemes.
+
+
+!!! CAUTION !!!
+
+Reproducing density variation on CD uses actually a technique that is VERY OUTSIDE the CD specs. Thus, in most CD readers, the resulting CD is recognized as the original CD, but is likely to contain errors. So, it is wiser to burn a CD WITHOUT the reproduced physical density (to install the game), and to burn a CD with it (to be identified by the protection as the original CD)
+
+
+How to:
+
+1 - Extract the image of an original CD - subcode extraction is not mandatory 
+2 - Extract the media density table with the provided tool “BWABuilder”
+
+Please note:
+* BwaBuilder is a tool with a timing precision of about 6 µS, which makes it VERY sensitive to CPU load. When BwaBuilder runs, avoid any other operation on your computer!
+* BwaBuilder works better with SLOW extraction speeds and without the screen refresh during extraction.
+* BwaBuilder may fail completely on some drives - and produce wrong curves. Usually, a nice looking hyperbolic portion with up to 4 zones of ""square waves"" areas are a good sign. A few glitches are still acceptable.
+* Dumping the table may take a long time, up to 2 hours.
+
+3 - In BwaBuilder, save the BWA file to the same folder as the Blindwrite image file (BWI), and use the same base name. For example: if you have extracted SAMPLE.BWI with Blindwrite, save the density table as SAMPLE.BWA in the same folder.
+
+4 - Write the image file with Blindwrite, use a DAO PW writing mode (preferred), or DAO PQ (not extensively tested to date)
+
+5 - Insert the burned cd into a CD READER unit (not a writer, or use an ATIP hiding driver, like Insektors or CloneCd tray). The cd shall be identified as the original.
+
+And don't forget to play only copies of CD’s you have legally purchased....
+
+"
+,ahhaba,2005-03-15T15:03Z,"pleaasse help in english. i tried every possible way: daemon tools doesnt work bcs the game can catch ""emulator"", blindwrite, i used, when i try using the cd, it says ""original cd not authenticated"", i tried alcohol120%, and even disabled some options(if u remember wen sid mier's pirates was first launched, some pple recommended to deny permissions of read in regedit) this also didnt work!!! WHAT TO DOOOO??PLZ HEL ASAP"
+,cuuper,2005-03-15T16:08Z,Värdelöst spel. FM2005 är miljarder gånger bättre. ingen känsla alls.
+,Akisbye,2005-03-15T16:20Z,you can't use deamon or alco you need 2 follow the nfo or it won't work
+,musten,2005-03-15T16:46Z,Går det att spela detta utan att bränna det ??
+,Spikes,2005-03-15T17:18Z,behöver man inte en fil med fil-ändelsen .BWA för att kunna bränna detta så att det funkar?
+,musten,2005-03-15T17:21Z,WHAT THE F*CK?! I burned the game with both nero and BWA and it still wont work ? :S what am i doing wrong ? 
+,Baard_spl,2005-03-15T17:21Z,"When I'm burning the image in blindwrite I follow every step that the nfo says,  but I never get a question if i want to burn the BWA physical Information!
+
+Am I missing a file?"
+,vxd,2005-03-15T17:47Z,Has anyone gotten it to work ?
+,Zlatko88,2005-03-15T18:13Z,någon som vet hur man får igång spelet?? Testat många saker men det funkar inte...behöver hjälp..
+,fredda_gruff,2005-03-15T18:32Z,"Varför lägga ut skiten om det inte funkar !!!! ""typ""
+Skriv hur man får igång det istället!!!!!"
+,Stringy,2005-03-15T18:38Z,When it tests mine it says theres no physical data found so i guess thats the problem
+,cuuper,2005-03-15T18:55Z,"Jag använde deamon för att installera det. sedan så kopierade jag ""imagen"" till en vanlig cd, sedan startade jag spelet från cd:n och allt funkade perfekt... synd bara att spela var riktigt värdelöst."
+,Felgard,2005-03-15T18:56Z,This torrent are missing a file (.bwa) i have upploaded another torrent wich includes this file hope fully i havent donw anything wrong with that
+,fishcake77,2005-03-15T20:34Z,"any chance you could just post the .bwa file?
+
+save everyone having to download it all again"
+,Felgard,2005-03-15T21:01Z,i could if i had some space to post it but in anyway you dont need to re download it since it is the same release the only differenc is in the new *.bwa file and the mistake i did with the nfo file the rest is identical
+,Stringy,2005-03-15T21:22Z,Mine still says authentication not within time limit or sumthing
+,edw1n87,2005-03-15T21:53Z,I think we just need a crack.. i can't fix this.. i already burned 5 cd's and none of them worked.. i did it like they told me too but.. So please i need a crack so i can play this game!!
+,ahhaba,2005-03-16T02:09Z,"this is rediculous, i was able to play the game after 3 times burning the cd... finally, i closed the game, now it goes back to saying ""original disk could not be found or authenticated""!! i cant believe this!!! damn it, did the new torrent work?"
+,Stringy,2005-03-16T09:22Z,Rite i was having the same problem. I just reticked autoplay support and enhance weak sectors. burnt on DaoPW at 1x (it went mre like 30tho) I tried it 3 times n its worked everytime by putting it in my dvd-rewriter and clikin on autoplay then play
+,kenshuwen,2005-03-16T10:43Z,"I've tried 3 times and finally got it to play
+Follow strictly
+1. Burn using BlindWrite 4.5.7.92 only.
+2.Uncheck ""Autoplay support"" and ""Enhance weak sectors""  
+3.Verify image
+4.Burn DAO PW at 10-12x 
+5.You will be asked if you want to burn the BWA Physical information.(BWA file required)
+6.For best performance, play the disc in CD-Rom and not CD-Writer"
+,ahhaba,2005-03-16T16:59Z,"guys, ive managed to run the game twice so far...ive made 4 copies, i dont think this is a 100% always work way...wat im doing is always keep on ""autoplaying"" from the cd, and keep on trying to make it run.90% of the times it will not work, but i was lucky that it worked twice so far. so my only advice is keep on trying....:'( :("
+,sailab,2005-03-17T08:31Z,ÄR det värt o ladda ner spelet??? :)
+,sailab,2005-03-17T10:10Z,"IS IT WORTH DO DOWNLOAD THIS GAME??¨
+
+I Mean Does it work?
+Have the game got all the materials it need to play it??"
+,utsilainen,2005-03-18T07:01Z,Vad e den där blind write tillför?
+,alemdar,2005-03-18T16:06Z,ja försöker att öppna den med deamon tools men det händer ingenting vad är det för fel varför kommer den inte upp???
+,utsilainen,2005-03-18T17:15Z,"Spelet fungerar ju inte...
+Inte med daemon tools lr när man bränt det...
+Jävla skit
+Fast kanske går om man crackar den men får inte tag på nå crack.."
+,ch_h,2005-03-18T18:38Z,"Ladda hem det senaste Blindwrite 5 från denna adressen så borde det funka
+
+http://fileforum.betanews.com/detail/BlindWrite/971418981/1
+
+När ni ska bränna spelet ska ni välja Profil ska ni ha automatic. Jag testade en annan version innan av blindwrite och då fick jag slänga 2 skivor."
+,utsilainen,2005-03-18T19:16Z,"Ska det funka då?
+Har ingen lust å slösa skivor..."
+,ch_h,2005-03-19T00:02Z,"Det funkade för mig men slösa inte skivor på spelet för det är riktigt kasst. Det liknar de gamla cm spelen ganska mycket, men det går iaf snabbare att spela jämnfört med FM."
+,Zlatko88,2005-03-19T03:26Z,"d bästa cm spelet som gjorts är cm 01/02...punkt slut..jag är mycket missnöjd med cm 5....och fårstår inte vafö dom bytt till utgivare till bgs, dom skulle hålt sig sig till Sports Interactive då hade spelet lyckats ännu mera!!"
+,haawk,2005-03-19T18:13Z,"kan nån skicka crack eller ge länk till var man kan hitta de?! 
+
+
+finns i #d6aa @ quakenet"
+,clarkgable,2005-03-20T00:46Z,"download the patch from cm5patch.com, and it should work (you'll need the burned cm5 cd though)"
+,brunell,2005-03-20T22:15Z,Jävla skit-release!!! Har försökt med allt möjligt men det funkar fan inte! Nån som kan fixa en crack till spelet? Måste testa och se om det är värt att köpa.
+,Nonchez,2005-03-22T17:48Z,"It's a stupid way it's made this time.. I really don't understand why it's not like it always been made. It's to complicated, and I don't know how to make it work. Shit game.. :("
+,Ice_Blade,2005-05-04T10:31Z,"sluta och lägga upp spel när det är filer som saknas, era jävla nötter..!!!!!"
+,phant0m7,2005-06-09T21:00Z,"Does it have a working s/n? I downloaded it and can't install it (not this one, but this would be good, instead of downloading it again)"
+,Eckerdal,2005-06-17T00:00Z,"När jag försöker öppna spelet, efter installationen, står det: ""Emulator detected. Please deactive virtual drive and software"".
+Hur gör man för att göra sig av med den varningsrutan och spela speler? ps. detta e första gången jag laddar ner.. så frågan kan tyckas busenkel:S"

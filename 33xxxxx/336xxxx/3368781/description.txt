@@ -1,0 +1,286 @@
+[FOR THOSE WHO WHERE NOT LUCKY]
+
+
+Krayzie_SC-NTSC_Ndure_Installer_v1.0
+
+
+This installer installs the Ndure exploit along with nkpatcher 10 and the Evolution x or UnleashX dashboard. There will also 
+be an install of a complete Virtual C drive and a virtual Eeprom. The virtual C will be set up with an unmodded MSdashboard 
+so it can be used without problems. The Virtual files are hidden on the real C drive and cannot easily be altered or deleted.
+The Ndure exploit has the ability to load up to a stock state by using the eject button from where you could launch a retail
+game and access live. However you will have no access to any network settings or the live dashboard in this state.
+If you do want Live dashboard access you can switch the mod off temporary using this exploit.
+You could also launch retail games by loading them from bootup and access live that way. 
+Either way of going live you are always able to receive game updates.
+
+http://forums.xbox-scene.com/index.php?showtopic=430898&view=findpost&p=2842362
+
+
+I can understand this readme is a bit long so I will put *****'s above and beneath the lines EVERYBODY should read before 
+using this installer.
+
+
+
+
+First:
+*****************************************************************************************************************************
+The installer only works on dashboard version 5960 (current latest dashboard). You can check your dashboard version by going
+into the settings tab and select system info. Watch the D: number on the bottom of the screen beneath the scrolling text.
+If the dashboard is too low you can upgrade by accessing the live tab in a recent Xbox live game or by connecting to the live
+server.
+
+Also the installer might not function properly if there are leftovers from previous exploits on the C partition. It will 
+however not interfere with folders like apps and games.
+
+The Installer will backup the C partition of your Xbox in the installation process. Therefore it's needed to have at least
+200 MB of free space on the E partition (12,800 blocks). This should normally be available with any Xbox but some people like
+to fill up their entire harddrive with songs or downloadable content. When doubting check the memory tab.
+*****************************************************************************************************************************
+
+
+
+Installation:
+
+Installation:
+The saves come zipped up for direct use on Action Replay devices. If you don't use Action replay you need to unzip first.
+Note that many Action Replay cards corrupt large saves which results in a black or error 21 screen. Solution would be to use
+a small gamesave exploit to grant access to the hd and copy this save to the E:UDATA folder via ftp. Or use another memory
+card.
+
+Copy the save to the Xbox HD using the known ways. (via memory unit, USB device or hotswap) 
+Load the save through the exploited game and follow the on screen instructions.
+The user is forced to first select the eeprom backup function prior to the installation.
+
+
+
+Main setup screen:
+These options become available by entering the installer the first time:
+
+
+Backup eeprom:
+
+You can use this to create an eeprom backup without having to install the whole softmod. Remember in order to return the Xbox
+to its original state you need to remove the eeprom backup. You can use the remove eeprom backup function to do this.
+*****************************************************************************************************************************
+!!!You need to backup the eeprom before you install the softmod!!!
+*****************************************************************************************************************************
+
+Install Softmod:
+
+This is the option to install the Ndure softmod. You will be prompted throughout the install to select whether to install 
+Nkpatcher.06 or .67 (select the help file in case you don't know what this means). Also a choice of dashboard has to be made
+Choices are Evolution X or UnleashX. The dashboard can be replaced afterwards to any dashboard you like.
+
+
+Restore from rescue disc:
+
+You can use this option if the Xbox won't boot up properly anymore without retail discs inside and you want to restore. You
+need to enter your kernel version to use this option. If you don't know your kernel you should choose "generic".
+More information about the rescue disc later on in this readme.
+
+
+Switch menu:
+
+This option is for those that removed or messed up their save after installing the softmod and want to return to the modded
+menu. This should not be used if you didn't already install this softmod.
+
+
+Settings:
+*****************************************************************************************************************************
+This is for people who would like to adjust their network settings or screen calibration. Remember when you ftp in from this
+screen there are no virtual protections so be aware.
+*****************************************************************************************************************************
+
+
+*****************************************************************************************************************************
+Modded menu:
+These options become available after the mod. You need to load this through your exploitable game if you want to enter this
+menu for the first time.
+*****************************************************************************************************************************
+
+Switch softmod on/off:
+
+With this option you can switch the softmod off so you boot to a retail state. In this state you have full live dashboard
+options. There will still be modded files on the hd so don't use this if you want to revert your Xbox to stock.
+
+
+Remove softmod:
+This option is divided in two:
+
+-Restore from HD backup:
+This will restore your system from a backup made automatically in the install process. This backup is located in 
+E:backupsC drive
+*****************************************************************************************************************************
+DO NOT SELECT THIS OPTION IF NO SUCH DIRECTORY EXITS ON YOUR E DRIVE OR YOU CHANGED THE CONTENTS.
+*****************************************************************************************************************************
+
+-Restore from Rescue disc:
+This will restore from a pre-made rescue disc. e.g. when the HD backup is missing. You need to enter your kernel version to 
+use this option. If you don't know your kernel you should choose "generic". 
+More information about the rescue disc later on in this readme.
+
+
+Restore MSdash after dashupdate:
+
+This option will restore your MSdash after a dashupdate in dual-retail or in switched off mode. Only use this if your
+MSdash is infunctional in dual-retail or switched off mode.
+
+
+Extras:
+This option has all the goodies inside which you could optionally use to personalize/configure your softmod.
+
+Multiboot:
+There are several multi boot options. I will explain each one of them.
+--dual retail: This will let you boot to your MSdash when powering on with the eject button. In this state you can safely 
+  access live.
+--dual save: This will let you boot to this menu when powering on with the eject button.
+--dual altdash: This will let you boot to an alternative dashboard when powering on with the eject button. After selecting
+  You can put a dashboard inside E:dashboardaltdash (folder is created automatically). 
+--tri save: same as dual save but now with tri boot. Tri boot let's you insert a disc after powering on with the eject button
+  and automatically closes the tray. If there's a disc in it will boot the disc. If not it will boot the save.
+  The disc must be signed with the habibi key. The rescue disc is pre- signed. Remember that when accessing the Xbox from 
+  within the disc or the save there are no virtual protections.
+--tri altdash: same as dual altdash but this time with tri-boot. (see option above).
+
+Install DVDX2:
+This will install an Xbox DVD movie player. The dashboard is preconfigured to use it right away.
+
+VGA options:
+Three options are available:
+--SoG: This patches the kernel video output to VGA SoG signal.
+--Progressive: This patches the kernel to change video mode to 480p whenever application requests 480i mode.
+--Disable VGA: This will return the video output to normal.
+The VGA will work on both the normal and the alternative dashboard. Be aware that this functions might not work with some 
+games.
+
+Format F drive:
+This formats the f partition. 
+
+Tweak fonts:
+If you sometimes experience boot problems (stuck at logo screen with white text) you could fix that by setting a kernel
+specific font. This requires you to select the right kernel version.
+
+Clear cache:
+Sometimes the cache can't do its job anymore cuz it's filled with interfering and/or write protected files.
+This will result in games not loading or hanging. This option will take care off that.
+(cache is cleared automatically while installing also)
+
+end of extras
+
+
+
+Settings:
+
+This is for people who would like to adjust their network settings or screen calibration. Remember when you ftp in from this
+screen there are no virtual protections so be aware.
+
+end of modded menu
+
+
+
+Couple of things you should know:
+
+*****************************************************************************************************************************
+The default network settings is set to DHCP (automatic receive IP from router). If you don't have a router or just wish to 
+have a static IP you need to adjust that in BOTH the dashboard and the installer menu otherwise it won't be active on retail
+(cold)boots and you won't be able to log into live.
+
+The exploited save itself belongs on the hd at any time. It's an important safety backdoor for when anything goes wrong and 
+it will save you from (hot)swapping your hd. So therefore it's recommended to not delete it.
+
+It is very recommended to copy the eeprom backup to the pc and keep it safe as soon as possible.
+*****************************************************************************************************************************
+
+You can replace the dashboard to any dash you like by replacing the files in the E:dashboard folder. Make sure its xbe is
+named default.xbe. In case this goes wrong it will boot to the installer's menu instead. In case that isn't present also it
+will boot to a rescue dashboard located on the real C (thus hidden). In this dashboard you have very limited options.
+(only a launch disc and settings options to adjust ftp settings).
+
+
+
+
+Rescue Disc:
+
+This may be nice to recover from messed up systems (or even to set up bigger hd's). 
+In your rescue disc folder you will find three folders which you can use to put files in:
+
+C drive: In this folder you should put the files you wish to use to replace the C contents. This could either be stock files
+(from HD backup, slayer's AID disc etc.) or it could be modded files (gathered from pc backups in modded state).
+
+E drive: In this folder you should put the files you wish to use to replace the E contents. This could either be stock files
+(savegame folders: TDATA and UDATA) or it could be modded files (gathered from pc backups in modded state).
+
+Dashboard: In this folder you could put a dashboard in case the dashboard on the Xbox is gone or damaged. the dashboard 
+folder on E will be replaced by the dashboard folder on this disc. You can put any dashboard in here as long as it's 
+executable is named default.xbe
+
+
+So basically:
+
+
+To recover to stock:
+
+Put stock files in C drive folder.
+
+Fill the E drive folder with the UDATA and TDATA backups from your Xbox. If you didn't back them up you could try to get ftp 
+access prior to using this option and ftp over the UDATA and TDATA folder from your Xbox. If you don't have or want any 
+backups you could just leave the UDATA and TDATA folders empty. There should be no folders other then TDATA and UDATA present
+if you are reverting to stock.
+
+In the disc menu choose the restore system option.
+
+
+To recover to modded state:
+
+Put full C drive backup from modded unprotected state in C drive folder. (You can get the full C drive files by ftping in 
+from the gamesave installer's menu).
+
+Put full E drive backup in E drive folder.
+
+In the disc menu choose the restore system option.
+
+
+To recover dashboard
+
+Put dashboard in dashboard folder. (dash's xbe named default.xbe)
+
+In the disc menu choose the restore dashboard option.
+
+
+Setting the network settings: (in case you want ftp access)
+
+You will have to do this prior to burning the disc because they can't be edited while running from disc. Default is set to DHCP.
+To do this open the xml file and edit the network settings to your likings.
+
+
+
+Burning the disc:
+
+Make an Xbox iso from the Rescue disc folder. You can use any Xbox image creator app for this. 
+I prefer Qwix (http://www.teamavalaunch.com/qwix/).
+Then burn the iso as an image using any disc burning app.
+!!!Make sure you use discs you know your Xbox can read!!!
+
+
+
+That?s all ;)
+
+
+Thanks to everybody supporting me and my previous installers. If it wasn't for the great responses I wouldn't have made this
+one. 
+
+Special thanks to the coders, tools producers and other people involved in making the exploits to the stable standard of 
+modding it is now.(The xbox-linux crew, Rmenhal, Angerwound, Pedrospad, Devz3ro, ldots, dr oldschool, xman954, DaddyJ, 
+Triggernum5, kingroach, Eh, Cio and anyone else I might have forgotten).
+
+More thanks to all the peeps visiting the Exploits forums on a regular base and share their knowledge with others.
+
+
+
+Have fun
+
+
+
+-Krayzie-
+
+

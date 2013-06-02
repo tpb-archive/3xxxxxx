@@ -1,0 +1,311 @@
+
+                                ?         ?             ?
+ ?ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ ±? ƒƒƒƒƒƒ ±? ƒƒƒƒƒƒƒƒƒƒ ±? ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒø
+ ?X           ?€?‹‹  ?€?? ‹€?? ?€?   ??‹ ?€  ?‹?€ ?‹ € ?€?€ ?€??           X?
+ ?            €€ € € €€?  €€ € €€   ?€?€ €€  €€ ‹ €€ € €€ € €€?             ?
+ ?    ? ± ? € ?€ ? € ?€?€ €€ ? ?€?± ?€€? ?€‹ ?€?€ ?€?€ €€?? ?€?€ € ? ± ?    ?
+ ?ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ¥
+ ?                                                                          ?
+ ?                                                                          ?
+ ?                        - COBRA FOR VIPER GC V1.0 -                       ?
+ ?                                                                          ?
+ ?                            1st of april, 2005                            ?
+ ?                                                                          ?
+ ?                                                                          ?
+ ?  So, you were wondering what was the surprise in Cobra 1.0 ? Well...     ?
+ ?  We are proud to give you the very first Gamecube BIOS that works        ?
+ ?  Without swap. Seems that the Viper GC was unwittingly 2nd Generation    ?
+ ?  from the very  beginning, since we made nice use of the lid switch      ?
+ ?  sensor cable designed by the Viper Team. Thanks guys you made it easy   ?
+ ?  with your foresight, for us to make the Cobra BIOS swapless. Don't      ?
+ ?  mess with the disc & lid anymore. Turn on your console and play.        ?
+ ?                                                                          ?
+ ?  FEATURES                                                                ?
+ ?                                                                          ?
+ ?  - Direct boot of all media, without swapping!                           ?
+ ?  - Automatic Media Detection: Insert disc, turn on GC and play!          ?
+ ?  - Supports all regions PAL / USA / JAP                                  ?
+ ?  - Play originals or backups from any region, thanks to the built-in     ?
+ ?    region-free feature                                                   ?
+ ?  - Idle-bug free (no more Disc Read Errors when the drive is resting :-) ?
+ ?  - Unique MultiBoot feature: put several games on one single disc!       ?
+ ?  - Disc Explorer to browse the content of original GC discs or DVDs and  ?
+ ?    that allows you:                                                      ?
+ ?      - To flash your Viper GC by burning the flash file on a DVD         ?
+ ?      - To execute homebrew programs (.DOL) from DVD, and enjoy many      ?
+ ?        already-released homebrew productions!                            ?
+ ?      - To flash your Viper GC by burning the flash file on a DVD         ?
+ ?      - To run the game you want from a MultiBoot compilation             ?
+ ?      - To load cheat codes from disc into Viper GC Memory                ?
+ ?  - Powerful Cheat Code System compatible with Action Replay codes,       ?
+ ?    codes are stored in the Viper GC Flash so no memory card is needed!   ?
+ ?  - Cheat codes can be either entered using Cobra Menus or loaded from    ?
+ ?    a file using the Disc Explorer                                        ?
+ ?  - BIOS Configuration stored into the Viper GC Flash                     ?
+ ?  - Selectable default boot action (Main menu, Boot disc, Original BIOS,  ?
+ ?    Disc Explorer) and special boot action (when the X key is held)       ?
+ ?  - Calls Original BIOS Game Loader for 100% compatibility                ?
+ ?  - Supports all hardware revisions (including DOL-101 units)             ?
+ ?  - User-Friendly GUI                                                     ?
+ ?                                                                          ?
+ ?  So what do you need exactly ?                                           ?
+ ?     - A Viper GC chip                                                    ?
+ ?     - This very flash file                                               ?
+ ?     - Some Compatible Media and a DVD-burner                             ?
+ ?                                                                          ?
+ ?                                                                          ?
+ ?  WHAT'S NEW ?                                                            ?
+ ?                                                                          ?
+ ?  Well, as you can see from the feature list, there are a lot of new      ?
+ ?  features we introduced in this release.                                 ?
+ ?  - Direct boot of all media, without swapping !                          ?
+ ?  - Fixed compatibility problem with DOL-101 units                        ?
+ ?  - Automatic Media Detection: Insert disc, turn on GC and play!          ?
+ ?  - Fixed Idle bug, you won't have any DRE if the drive is resting :-)    ?
+ ?  - Powerful Cheat Code System compatible with Action Replay codes,       ?
+ ?    codes are stored in the Viper GC Flash so no memory card is needed!   ?
+ ?  - Cheat codes can be either entered using Cobra Menus or loaded from    ?
+ ?    a file using the Disc Explorer                                        ?
+ ?  - Unique MultiBoot feature: put several games on one single disc!       ?
+ ?  - A lot of fixes and low-level changes                                  ?
+ ?                                                                          ?
+ ?  A Swap disc option was left in (called "Change Disc" as you could also  ?
+ ?  replace a backup with another backup) to be totally backward            ?
+ ?  compatible. Read more below                                             ?
+ ?                                                                          ?
+ ?                                                                          ?
+ ?  USER MANUAL                                                             ?
+ ?                                                                          ?
+ ?   - If you want to use full-size DVD-R you can remove the top of the     ?
+ ?     console. Team Xtender will be releasing replacement lids compatible  ?
+ ?     with full DVD-R within two week. Best of all, we learned this week   ?
+ ?     that they will be officially Viper GC branded!                       ?
+ ?                                                                          ?
+ ?   - Flash the Viper GC with this BIOS then remove the parallel port      ?
+ ?     connector from the programmer. If you prefear you can flash this     ?
+ ?     BIOS from DVD if you have Cobra 0.3+ already running on your chip.   ?
+ ?     We've heard Viper Team will release an USB programmer for the chip   ?
+ ?     soon if you prefear USB.                                             ?
+ ?                                                                          ?
+ ?   - Turn on your GC with the disc you want to run. It can be an          ? 
+ ?     original or a backup, but if it's a backup it should be filled with  ? 
+ ?     1.3GB of data at least (for now). If you have a black screen coming, ?
+ ?     it's probably beause your Viper installation is not clean.           ?
+ ?                                                                          ?
+ ?   - While turning on your GC:                                            ?
+ ?        - Hold Y to go to Main Menu (if it's not your Default Boot mode)  ?
+ ?        - Hold X for the other boot mode (can be set in Config Menu)      ?
+ ?        - Don't hold anything for Default Boot Action                     ?
+ ?                                                                          ?
+ ?   - Select "Direct Disc Boot" if you want to play a backup or homebrew   ?
+ ?     program from DVD. If you have problems using the Direct Disc Boot    ? 
+ ?     method with your media, you can still use the Swap trick.            ?
+ ?                                                                          ?
+ ?   - If you want to use the old Swap Trick Method (for discs that are     ?
+ ?     not full or that have problems to sync with the Direct Disc Boot)    ?
+ ?     boot your GC with an original disc. Then choose the "Change Disc"    ?
+ ?     option and follow the instructions. After the swap is done, you      ?
+ ?     can select Direct Disc Boot option again.                            ? 
+ ?                                                                          ?
+ ?   - Select "Original BIOS" if you want to play an original Game          ?
+ ?     compatible with your GC region, or if you want to go into the        ?
+ ?     Original BIOS menus.                                                 ?
+ ?                                                                          ?
+ ?   - Select "Configuration Menu" if you want to change your Cobra BIOS    ?
+ ?     configuration. The options are quite self-explanatory.               ?
+ ?                                                                          ?
+ ?   - Select "Disc Explorer" to enter to browse the content or your        ?
+ ?     original GC discs or DVDs. Supported file systems are FST            ?
+ ?     (GC File System) and ISO9660. Joliet encoding is not supported in    ? 
+ ?     ISO mode.                                                            ?
+ ?                                                                          ?
+ ?   - Enter "Cheat codes" to select, enable, disable and edit cheat codes  ?
+ ?                                                                          ?
+ ?   - Enter "Disc Explorer" to select a game from a MultiBoot disc         ?
+ ?                                                                          ?
+ ?   - Enter "Disc Explorer" and select a .VGC file if you want to reflash  ?
+ ?     your Viper GC without the need of the Parallel port programmer!      ?
+ ?                                                                          ?
+ ?   - Enter "Disc Explorer" and select a .DOL file if you want to run      ?
+ ?     a homebrew program! (You can put up to 1.4 GB of homebrew things on  ?
+ ?     a disc. We hope this will give some inspiration to emu authors :-)   ?
+ ?     Our DOL loader is not perfect for now and works for around half of   ?
+ ?     the public homebrew programs. Here are some of the programs booting  ?
+ ?     successfully:                                                        ?
+ ?     GC-Linux, Ascii Fighter, DVD Browser, CTR_GCS, CTR_SND, GBQ Gameboy  ?
+ ?     emulator, PSOLoader "It's working" demo, Maze, Nitrorally,  Yeti 3D  ?
+ ?     3D engine, Chip8 emulator, Snowlords game, Terranigma, XRick and     ?
+ ?     probably many we missed!                                             ?
+ ?                                                                          ?
+ ?   - Enter "Disc Explorer" and select a .VGC file if you want to reflash  ?
+ ?     your Viper GC without the need of the Parallel port programmer!      ?
+ ?                                                                          ?
+ ?   - Enter "Disc Explorer" and select a .COD file if you want to add      ?
+ ?     cheat codes for a game without the need to enter it using the pad!   ?
+ ?                                                                          ?
+ ?   - Make sure that the "lid passthru" wires of the Viper GC are          ?
+ ?     installed correctly or the disc won't spin. 
+ ?                                                                          ?
+ ?                                                                          ?
+ ?  DIRECT BOOT LIMITATIONS                                                 ?
+ ?                                                                          ?
+ ?  THE MEDIA                                                               ?
+ ?                                                                          ?
+ ?  The GC drive in its default state only eats high-quality DVD-R and      ?
+ ?  a few MINI-DVD-R. But a couple of weeks ago, speedi from the afterdawn  ?
+ ?  forums found a nice way to tweak the laser so it reads almost any burned?
+ ?  media including some DVD+Rs. We recommend doing this laser tweak if you ?
+ ?  have any problems reading your DVDs. We are no laser experts, in fact   ?
+ ?  we think it would be more appropriate to just lower the value of the    ?
+ ?  variable resistor instead of setting it to an absoulte given value,     ?
+ ?  but lots of people including us have been using this laser tweek for a  ?
+ ?  couple of weeks without any problem reported so far.                    ?
+ ?                                                                          ?
+ ?  You don't need to encrypt the disc or use a special burner firmware     ?
+ ?  to write the disc. Just burn your ISO/GCM (rename it to .ISO) with      ?
+ ?  Nero (or any other tool).                                               ?
+ ?                                                                          ?
+ ?                                                                          ?
+ ?  CHEAT CODES                                                             ?
+ ?                                                                          ?
+ ?  If you want to use cheat codes, enter Cheat Codes menu,select a game,   ?
+ ?  check the codes you want to use, exit the cheat selector and enable     ?
+ ?  cheats.                                                                 ?
+ ?                                                                          ?
+ ?  To add new codes follow on-screen instructions. The codes are           ?
+ ?  compatible with decrypted AR codes. You can decrypt AR codes using      ?
+ ?  the great GCNCrypt by Parayste. Never enter the first code of a given   ?
+ ?  cheat code (validator code). You can also put .COD files on a DVD and   ?
+ ?  load cheat codes from there, each file corresponds to one game.         ?
+ ?                                                                          ?
+ ?  For now we've reserved 4kb in Viper GC Flash memory to store cheat      ?
+ ?  codes. If that's not enough we'll add some more space in next release.  ?
+ ?                                                                          ?
+ ?                                                                          ?
+ ?  TROOBLESHOOTING                                                         ?
+ ?                                                                          ?
+ ?  - If the disc stops spinning in the menu it means that the drive can't  ?
+ ?    sync with your media, or that there are not enough data on your disc. ?
+ ?    In direct boot mode the GC is very selective about the media it       ?
+ ?    takes. If you have any problem please try the swap trick. If you      ?
+ ?    still have problems try with different media/burner. Make sure your   ?
+ ?    laser is correctly tweaked!                                           ?
+ ?                                                                          ?
+ ?  - Audio Streaming: Some games use a special audio streaming mode        ?
+ ?    that can be compared to CDDA. For now, the ISO of the file needs to   ?
+ ?    be patched with 0rbital's great ViperTemporaryAudioFix 1.1+. If the   ?
+ ?    ISO is not patched you'll have noise instead of music. We will try to ?
+ ?    fix this issue so no patching is required. But in case we do, YOUR    ?
+ ?    PATCHED ISOS WILL BE FULLY COMPATIBLE and still work with music!      ?
+ ?    (so forget what is written in the fixer nfo file). Don't run the fix  ?
+ ?    on ISOs that don't need fixing as it will only destroy them :-)       ?
+ ?                                                                          ?
+ ?  - Most multi-discs games are working, just play with Disc 1 until       ?
+ ?    you're asked to change disc and make a save here. Then boot with      ?
+ ?    Disc 2 instead. We started working on code to allow disc-change,      ?
+ ?    and we'll integrate it in a new release.                              ?
+ ?                                                                          ?
+ ?  All those problems could be fixed in a next update.                     ?
+ ?                                                                          ?
+ ?  Before burning an image, makes sure it is 1459978240 bytes long else    ?
+ ?  you may need to use the swap trick method.                              ?
+ ?                                                                          ?
+ ?  To know what's your GC Version code (2 digit number) go into Config     ?
+ ?  Menu, then Version Info, 2nd page. First digit corresponds to GC        ?
+ ?  mobo version, 2nd digit corresponds to drive version.                   ?
+ ?                                                                          ?
+ ?  IF YOU MAKE BACKUPS, DON'T USE ANY "WIPE" TOOLS TO SAVE SPACE. Unless   ?
+ ?  you know it's REALLY working. Most of thoses tools only work because    ?
+ ?  the current pso loaders patch libraries routines to emulate DVD. But    ?
+ ?  on REAL HARDWARE, each file/fst has to be aligned on a 4-byte boundary! ?
+ ?  Else nothing will work. Audio Files (for audio streaming) even need     ?
+ ?  to be aligned on a 32kb-boundary ! So forget current "WIPE" tools until ?
+ ?  they are fixed. But note that Garbage is NOT NEEDED by the GC. The      ?
+ ?  files must be correctly aligned that's it. So if your "WIPE" tool is    ?
+ ?  not changing the image size (meaning there's no relocation) then it's   ?
+ ?  probably fine. Use FSTFIX by LOONYCUBE to fix bad rips.                 ?
+ ?                                                                          ?
+ ?                                                                          ?
+ ?  TECHNICAL INFO                                                          ?
+ ?                                                                          ?
+ ?  We'll release a command-line MultiBoot Disc maker next week if nobody   ?
+ ?  releases a better one before we do :-) Here are the specs for Multiboot ?
+ ?  discs. Note that every image should be aligned on a 32kb boundary.      ?
+ ?  At offset 0x00: 43 4F 42 52-41 4D 42 31                                 ?
+ ?            0x40: Position of the 1st image in bytes (Big endian)         ?
+ ?            0x44: Position of the 2nd image in bytes (Big endian)         ?
+ ?            ....: ...etc...                                               ?
+ ?            ....: 00 00 00 00                                             ?
+ ?                                                                          ?
+ ?  The MultiBoot feature is stealth for the GC so it's 100% compatible     ?
+ ?  with homebrew images. If you want to put several backups on one disc    ?
+ ?  you'll have to remove the garbage at first.                             ?
+ ?  The maximum size of a MultiBoot disc is 1459978240 bytes.               ?
+ ?                                                                          ?
+ ?                                                                          ?
+ ?  THE RUMORS & EVENTS                                                     ?
+ ?                                                                          ?
+ ?  Lately there has been a few events we'd like to comment. First,         ?
+ ?  congratulation to Utopia for the deobfuscation work you did and the     ?
+ ?  release of Anaconda. We like your style :-) Except maybe for the        ?
+ ?  "Mentalcube [...] did a well job while choosing the neccessary patches" ?
+ ?  we find that "choosing" is not exactly the right term, as this patch    ?
+ ?  is the results of tousands of lines of firmware code and several months ?
+ ?  of hacking and debugging. And thanks for the obfuscation tips :-)       ?
+ ?  Anaconda led to a lot of stuff from the best (GCOS) to the worst        ?
+ ?  (people selling our code without authorisation). Anaconda code is       ?
+ ?  a 1:1 rip of our code, except for the loading part running on the GC    ?
+ ?  CPU that was rewritten by Utopia (they made it clear but some people    ?
+ ?  just didn't get it).                                                    ?
+ ?                                                                          ?
+ ?  Now about GCOS. We like what you're doing, even if up until now you're  ?
+ ?  using our code without authorisation. But we're releasing Cobra 0.4     ?
+ ?  drivecodes under GPL license so it matches the license of other files   ?
+ ?  you're using. Feel free to use, abuse it and improve it! ;-)            ?
+ ?  Cobra 1.0 drivecode might follow in the future, but for now we chose    ?
+ ?  closed source.                                                          ?
+ ?                                                                          ?
+ ?  It appears that one of our beta-testers leaked a beta of Cobra 1.0 one  ?
+ ?  month ago. We'll do all beta testing by ourselves now. We find it's an  ?
+ ?  amazing coincidence that a swapless chip was announced two weeks after  ?
+ ?  the leak. Please don't support thieves.                                 ?
+ ?                                                                          ?
+ ?  Oh and about Idle-bug, it was a BUG, yes a BUG of our old cobra         ?
+ ?  code in the way we were handling a protection. The bug is now fixed     ?
+ ?  and now the laser won't go out of the data area anymore, causing idle   ?
+ ?  DREs when it couldn't focus.                                            ?
+ ?                                                                          ?
+ ?                                                                          ?
+ ?  THE FUTURE                                                              ?
+ ?                                                                          ?
+ ?  There's MUCH more to come, you'll see soon :-)                          ?
+ ?  And our low-level hackers are currently working on the disc calibration ?
+ ?  code to improve Direct Boot Media compatibility. We'll mess with that   ?
+ ?  only when we are certain that the code won't hurt your console!         ?
+ ?                                                                          ?
+ ?                                                                          ?
+ ?  CLOSING WORDS                                                           ?
+ ?                                                                          ?
+ ?  Special thanks to E*Flash for his help, RoM for the early units,        ?
+ ?  Melan for the /48 GC and to everybody that tried Cobra V0.4, posted     ?
+ ?  constructive feedback. Thanks a lot for your patience. You'll never     ?
+ ?  wait that long anymore for future release, this was a very special      ?
+ ?  milestone :-)                                                           ?
+ ?                                                                          ?
+ ?  You are free to redistribute this package as long as it's not changed,  ?
+ ?  patched, ported, or whatever.                                           ?
+ ?                                                                          ?
+ ?  Our code is free of any copyrighted code from third party.              ?
+ ?  It is also free of any GPL licensed code, we have strong respect for    ?
+ ?  other people's hard work. We only ask you to show similar respect       ?
+ ?  toward our work. To put it in other words, if you are in the "right"    ?
+ ?  side, draw the line between learning and stealing. Thank you.           ?
+ ?                                                                          ?
+ ?  Enjoy!                                                                  ?
+ ?                                                                          ?
+ ?                              ?         ?             ?                   ?
+ ?ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ ±? ƒƒƒƒƒƒ ±? ƒƒƒƒƒƒƒƒƒƒ ±? ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ¥
+ ?            ?€?‹‹  ?€?? ‹€?? ?€?   ??‹ ?€  ?‹?€ ?‹ € ?€?€ ?€??            ?
+ ?            €€ € € €€?  €€ € €€   ?€?€ €€  €€ ‹ €€ € €€ € €€?             ?
+ ?X   ? ± ? € ?€ ? € ?€?€ €€ ? ?€?± ?€€? ?€‹ ?€?€ ?€?€ €€?? ?€?€ € ? ± ?   X?
+ ¿ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒŸ

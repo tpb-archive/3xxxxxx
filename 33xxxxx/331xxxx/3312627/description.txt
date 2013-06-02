@@ -1,0 +1,6 @@
+Mac OS X Tiger 10.4 8A425 GM???
+DVD-boot untested, out of DVDs installed from harddrive.
+Burn this image only using Disk Utility!
+Toast or any other burning software won't work.
+
+Howto install from Harddrive: 1. Start /Applications/Utilities/Disk Utility.app. 2. Select second harddrive/partition. 3. Click Restore. 4. Drag tiger.iso to Source. 5. Drag ur partition to destination. Erase Destination is NOT necessary 6. Click the Restore button. 7. Goto Finder and rename your Destination-drive to Mac OS X Install DVD Change startup disk to Mac OS X Install DVD. Reboot.

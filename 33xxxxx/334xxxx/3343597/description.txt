@@ -1,0 +1,7 @@
+Changes from AnyDVD v5.2.3.1 to AnyDVD v5.2.4.1 
+
+New: Added support for a new version of the "Sony ARccOS protection" as found on "Closer" R2 (UK, German, Italian) to the option to remove "Protection based on unreadable Sectors" (it should really work now) 
+Fix: If AnyDVD was disabled, the "no drive" dialog could be displayed 
+Fix: If AnyDVD was first disabled and then enabled within the settings dialog, disc changes were no longer correctly detected 
+Fix: Bug which could prevent correct backup of early Arccos protected titles, e.g. Wrestlemania 3 (UK) 
+Some minor fixes and improvements 

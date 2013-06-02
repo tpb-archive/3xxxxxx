@@ -1,0 +1,42 @@
+Release Candidate 1 brings vBulletin 3.5 a step closer to becoming our main supported release. Note, however, that this is still not considered a stable release, though we hope it will become so.
+
+What is a Release Candidate?
+A release candidate differs from a beta release in that there are no known bugs. However, this does not mean that there aren't any bugs. A release candidate represents a version of the software that we believe is ready for release, but requires some more testing before we're sure.
+
+How many release candidates will there be?
+We can't accurately answer this question, due to the nature of release candidate software. After RC1 is released we will wait a while to see if any new problems are discovered. If bugs are found, they will be fixed and after a period of time we will release the fixed version as RC2. The cycle then begins again - if bugs are found they will be bundled into an RC3 release. However, if no bugs are found, or the bugs found are extremely minor and require only trivial fixes, the current RC version will be renamed 3.5.0 and released. This is the 'gold' or 'stable' release.
+
+For previous major releases like this one, we have usually required three release candidates.
+
+Notes:
+Like previous 'unstable' versions, this release is primarily for bug fixes. However, there are some changes of interest:
+
+* Product management system (see below)
+* Hooks in several places in both admin and moderator control panels
+* Some new hooks in the front-end (particularly for the showthread and forumdisplay queries)
+
+As this is still not considered a stable release, the same caveats from previous beta releases still apply:
+* Pre-release software is unsupported. You should install pre-release versions at your own risk.
+* You should always back up your database fully before attempting to install pre-release software.
+* If you choose to install this version, you should be aware that there may be a new version released within a very short period of time. Do not install this version if you are not willing or able to keep up-to-date with new releases.
+* ImpEx does not support the 3.5 code yet, and will not support it until the release of 3.5.0 (stable).
+
+Product Management System
+vBulletin 3.5 Release Candidate 1 includes the first public outing of the vBulletin product management system. The purpose of this system is to interlink the setting, template, phrase, and plugin systems for plugin products into a single import/export manager.
+
+From a user perspective, all you need to do is import a product's XML file to create the settings, templates, phrases, and plugins. Uninstallation is handled by simply clicking an "uninstall" link. From a developers' perspective, you should attach the various parts of your modification to the product you create. When you're ready to release it, simply export the product's XML file.
+
+There are a few things worth mentioning to developers:
+1. You will probably want to develop in debug mode if you're not already. The product system allows you to place items into the various "master" sets (master templates, master phrases, etc) that aren't erased when you upgrade vBulletin. The product export system expects your settings, templates, and phrases to be in the master set, like any other standard vBulletin option. This includes marking settings as "volatile".
+2. You can specify code to run during installation and uninstallation of your product, even tying code to specific versions. By tying code to a specific version, you can handle upgrades with the same code that you use for new installs. When a user imports a new version of your XML, it detects that a previous version was installed and does not run any code attached to that version or less since it has already been executed.
+
+Javascript Issues
+Release Candidate 1 contains changes to various javascript systems. Should your users complain about issues such as quick reply not working or other javascript-related problems, you should inform them that they probably have old javascript files cached in their browser. A hard refresh or clearing the browser cache or even turning on the 'no cache' headers in your admin control panel will ensure that they have the latest javascript code.
+
+Installation / Upgrade
+These use the same process as all previous vBulletin 3 releases. Please refer to an earlier release announcement for full instructions.
+
+Changed Files
+As this is still not a stable release, full changed file lists will not be provided.
+
+More Info: /http://www.vbulletin.com/forum/showthread.php?t=148275

@@ -1,0 +1,44 @@
+This patches are for: Apple.OS.X.x86.Developer.Kit.Install.DVD-deadmoo
+
+There are 2 patches combined, that together bring:
+
+        * Removes TPM chip check
+        * Support for Generic ATA chipsets
+        * Support for PS2 Mouse&Keyboard
+        * Support for AC97 Codecs
+        * Preliminary support for SSE2 (we still recomend a SSE3 enabled CPU)
+        * All the extensions from Darwin
+        * IOHDIXController.kext
+        * DS.bundle
+
+Requirements for the patch:
+
+        * A linux box (ubuntu, fc4, etc.)
+        * bash
+        * gzip
+        * root priviledges
+        * hfsplus FS support
+        * loopback module support
+        * The original Marklar-Tiger.iso (md5: e78fe52e30a1f8c5b29d4b7932a16c5e)
+        * patience...
+
+For those who need SSE2, you should patch the bootloader not to check for SSE3.
+You will have to do that manually:
+
+        * Get a hexeditor
+        * Find the location 0x7D64C0
+        * Replace the value 53B801 with 33C0C3
+        * Save the file
+
+If you need the original CoreGraphics, with SSE3, put back the original CoreGraphics
+using:
+        ./sse3
+
+More info can be found on the forums:
+
+        http://www.concretesurf.co.nz/osx86/
+
+Greets fly out to the author, deadmoo.
+I'm just the packager.
+
+                Znuff

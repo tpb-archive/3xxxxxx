@@ -1,0 +1,110 @@
+################################################################################
+#-------------------------------------------------------------------------------
+#   /   ___       ___       ___       ___       ___       ___  <>   ___      
+#   o   /       /   <>  /       /__     /       /       /__     
+#  /   :     /::     /::     /::L_L_   /::  <>  :     /:/__    
+#       /::__ /:::__ /:::__ /:/L:__ /:/:__   /::__ /:/:/__   
+#      /://__/ ::/  / /::/  / /_/:/  / :/:/  /  /://__/ ::/:/  /   
+#      /__/  <> :/  /    /:/  /    /:/  /   ::/  /   /__/     ::/  /    
+#    <>           /__/<()> /__/     /__/     /__/               /__/     
+#                                                      <>                     
+#        <>               ..::=Tolpero - Z/-ng0at=::..            <>         
+#                                                                               
+################################################################################
+############################.::http://bloodyx.net::.############################
+############################.::team_dtw@walla.com::.############################
+#                                                                               
+#  Team-DTW Proudly presents.                                                   
+#  Client 1.6.0 compatible World of Warcraft Server Simulator                   
+#                                                                               
+################################################################################
+#                                                                               
+#  Please remember to read the ReadMe included carefully.
+#
+################################################################################
+#
+#  As greedy-wad has based his server software on RunUO, he should have released  
+#  the source code, since it's based on something with a GPL license.
+#  We could not get the source-code, but giving a working 'emulator' to the
+#  public is the next best thing Team-DTW can do.. So here you go, all you 
+#  wow-freaks out there...
+#
+#  -This release would not have been possible without combination of work done
+#   by various groups and individuals in the WoW-Scene, as this release has
+#   incorporated many vital and necessary aspects of work described mostly in
+#   the features part.
+#  -Also the individuals and groups in the greetings part have played a role in
+#   making this package possible.
+#  -Remember; work together and anything can be accomplished, flaming each other
+#   and bitching in the forums only to wait for a release will get the scene
+#   nowhere, everyone can do their part for the WoW-Scene, no matter how small
+#   or insignificant the contribution may seem at the time, but it will all add
+#   up eventually :D
+#
+################################################################################
+#
+#  Features: 
+#  -WoWEmu 4500.1.9
+#  -IRPG (Quest Database) Plug-in 
+#  -World.save from WDDG database development forums (starkiller)
+#  -database files from WDDG database development forums (thx to Cain_Wong,
+#   Blacki and all others)
+#  -WWW (account creation and player stat) interface from Yozy
+#  -Mounted NPC (world.save patcher) from community release (kenny66)
+#  -Initial FuckWad loader by Team-DTW
+#  -Original WoWEmu loader by OldOne (modified by DTW to comply with this
+#   release)
+#
+################################################################################
+#
+#  DTW Greetings:
+#
+#  -DataBase:
+#   Blacki, Cain_Wong, Neo2003, Starkiller 
+#   (And all others who have contributed in developing database files)
+#
+#  -Development:
+#   Anakin, Bloody, CatVir, cOrrup7, IRPG Group, IconoclastX, Lafa, Mastag17,
+#   OldOne, PavKam, viat-on, Vlad, WDDG 
+#
+#  -Tools:
+#   AgentData and eMiNENCE (Princess_Sandy), Dark Byte (Cheat Engine)
+#
+#   ...and all those who we have forgotten.
+#
+################################################################################
+#
+# Issues:
+# -If you are going to use your old accounts you can convert them with
+#  DbUtil.exe. Old mounts purchased during 1.5.0 (using earlier database files)
+#  might have to be re-purchased.
+# -Some items in user?s bags may turn to question marks if using old accounts.
+# -Other issues will surely be there using old accounts as the database has
+#  undergone many changes compared to 4442.1.1 release by WDDG. (Which most are
+#  probably using prior to this) 
+# -These database files are by no means perfect, although they are improvement
+#  over the previous releases, many corrections must still be made.. Hopefully
+#  releasing this to the public will speed up that process, as if we had waited
+#  for the DB to be "perfect" it would have been a while.
+#
+################################################################################
+#
+# Install:
+# -Read the ReadMe included..
+# -Generate your values needed
+# -load the patcher
+# -use your newly created loader!
+#
+# NOTE:  If you get an error about "missing VB6FR.dll" then copy that file from
+#        the LoaderMaker folder to your System32 directory.
+#
+################################################################################
+#
+# Coming Soon:
+#
+# - Automatic restarter in case the server shuts down for any reason
+# - Regular DB updates
+#
+################################################################################
+###########################.::Community -- Respect::.###########################
+################################################################################

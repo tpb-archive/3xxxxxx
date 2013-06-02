@@ -1,0 +1,54 @@
+﻿User Type,Username,Date,Text
+,MrTelemark,2006-10-05T10:57Z,"Brilliant!
+Perfect, installs smoothly (at least on Mac). All toolboxes available. Thanks!"
+,landdonau,2006-10-13T10:46Z,Can get the program to start up. Can anyone help ??
+,Teratsidia,2006-10-18T01:09Z,"MrTelemark, could you please explain what you did in order to get this thing work? Mine does not :(
+YOur help would be GREATLY appreciated! "
+,shakalys,2006-11-22T14:21Z,someone has  7.3 beta for intel?? 
+,aureusaurora,2008-01-14T04:39Z,When i try to install i get a fatal error saying that a .trashes file cannot be read. Any ideas? 
+,LaPage,2008-01-18T09:10Z,"I also had .Trash errors when attempting to install this torrent.  After some searching, I found this solution.
+
+1)  Renamed ""matlab_installer Folder"" to just ""matlab_installer"", since Unix commands will not recognise the space between installer and Folder.
+
+2) Open Scrpit Editor, and type the following commands :
+
+do shell script ""chmod a+rwx /Volumes/matlab_installer/.Trashes""
+do shell script ""rm -r /Volumes/matlab_installer/.Trashes""
+
+Be careful of caps, spaces and such, or the script will not work.
+
+3) Run Script Editor
+
+You should now be able to run the install program.
+
+Note:  You can also open a Terminal and directly type the Unix commands (the part of the script in quotation marks).  However, this method is generally for those who are familiar with Unix commands.
+
+Well, that was a mouthful, lol.  I hope this helps. :)"
+,kninepuppie,2008-02-25T23:21Z,"yeah I was just seeing If I can get some help, I get the program installed but once I try to run it... it won't open up, license files and everything correct
+some help would be greatly appreciated 
+kninepuppie@gmail.com
+"
+,emitor,2008-02-26T06:32Z,"How do I open the license.lic file?   I have the program all installed but can't open it.  I wasn't able to change the ""your_host_name"" part.  because I wasn't sure what to open it with.  "
+,manhck,2008-05-03T16:32Z,Let's seed!
+,geekwad,2008-05-28T10:24Z,does it work if i dont download license manager?
+,yivo,2008-10-08T19:56Z,?????
+,macforlife,2009-01-22T02:41Z,"How do I open the .lic file? It shows has a windows file. I have Mac OSX 10.5
+Thanks"
+,p_lo1,2009-01-28T03:28Z,"Great Torrent, thks!! Smooth install on Powerbook g4!!
+Had the .Trash error but solution from LaPage worked perfectly!!Thanks"
+,keepinitraw,2009-02-05T06:05Z,"stuck on 99.78%, please seed for like 2 seconds.. i'll seed to 3:1 ratio"
+,Lanseloet,2009-04-21T13:24Z,"Please seed!! I'll seed to 2:1.
+
+Thanks guys"
+,jballa21,2010-01-12T08:44Z,"how do i get the activation key? do i even need it? I was able to download the torrent, i just want to know how I can install MATLAB on my mac (10.4.11 Tiger) . can anyone help me?"
+,shoafm10,2011-12-26T17:58Z,"I need help i get the .trashes error and have tried the script editor and terminal commands, i am running snow leopard thanks!"
+,kipzoftehmudz,2012-08-01T16:21Z,"Great torrent, but the license key included expired last year.
+
+To get it working for me, I had to go into terminal, and symlink ""matlab_installer Folder"" to ""matlab_installer"", then rm -rf the .Trashes. Once the .Trashes are dealt with, it works fine.
+
+When it comes to copying the file over with your hostname in it, that has expired. Download this one instead, and it works out of the box, without any changes needing to be made.
+http://thepiratebay.se/torrent/6230945/MATLAB_R2010b_License"
+,Anondody,2012-08-31T19:29Z,"When I try to run the installation file following message comes up: ""You can't open the application ""InstallForMacOSX"" because PowerPC applications are no longer supported.""
+What can I do? Do I have to download a new program or is there some way that I can overcome this problem?
+BTW. I now tried with 2 different downloaded Matlab programs and they both say the same thing...
+I have a Macbook air and on witch I'm running Mountain-Lion."

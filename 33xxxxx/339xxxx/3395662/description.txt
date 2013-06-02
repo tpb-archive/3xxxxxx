@@ -1,0 +1,105 @@
+http://www.lizardtech.com/products/doc/
+
+LizardTech Document Express with DjVu Enterprise 5.1.0 build 946
+
+201,161 KB
+
+Serial For DjVu Editor 5.1 (Enterprise):
+
+305-050-1364-138-860
+179-050-2714-511-463
+212-051-1866-337-472
+516-051-5611-099-295
+
+also includes
+
+- Virtual Printer Pro (converts anything to .djvu)
+- pdf to djvu converter
+- IE/Netscape Browser plugin
+- IFilter (indexing & search engine using MS Index Server)
+
+DjVu typically achieves compression ratios about 5 to 10 times better
+than existing methods such as JPEG and GIF for color documents, and 3 to
+8 times than TIFF for black and white documents. Scanned pages at 300
+DPI in full color can be compressed down to 30 to 100KB files from
+25MB.. Black-and-white pages at 300 DPI typically occupy 5 to 30KB when
+compressed.
+
+This puts the size of high-quality scanned pages within the realm of an
+average HTML page (which is typically around 50KB).
+
+For color document images that contain both text and pictures, DjVu
+files are typically 5 to 10 times smaller than JPEG at similar quality.
+
+For black-and-white pages, DjVu files are typically 10 to 20 times
+smaller than JPEG and five times smaller than GIF. DjVu files are also
+about 3 to 8 times smaller than black and white PDF files produced from
+scanned documents (scanned documents in color are impractical in PDF).
+
+In addition to scanned documents, DjVu can also be applied to documents
+produced electronically in formats such as Adobe's PostScript or PDF. In
+that case, the file sizes are between 15 to 20KB per page at 300 DPI.
+
+The DjVu plug-in is available for standard Web browsers on various
+platforms. The DjVu plug-in allows for easy panning and zooming of
+document images. A unique on the fly decompression technology allows
+images that normally require 25MB of RAM to be decompressed to require
+only 2MB of RAM.
+
+Conventional image viewing software decompresses images in their
+entirety before displaying them. This is impractical for high-resolution
+document images since they typically go beyond the memory capacity of
+many PCs, causing excessive disk swapping. DjVu, on the other hand,
+never decompresses the entire image, but instead keeps the image in
+memory in a compact form, and decompresses the piece displayed on the
+screen in real time as the user views the image. Images as large as
+2,500 pixels by 3,300 pixels (a standard page image at 300 DPI) can be
+downloaded and displayed on very low-end PCs.
+
+The DjVu format is progressive. Users get an initial version of the page
+very quickly, and the visual quality of the page progressively improves
+as more bits arrive. For example, the text of a typical magazine page
+would appear in just three seconds over a 56Kbps modem connection. In
+another second or two, the first versions of the pictures and
+backgrounds will appear. Then, after a few more seconds, the final
+full-quality version of the page is completed.
+
+One of the main technologies behind DjVu is the ability to separate an
+image into a background layer (i.e., paper texture and pictures) and
+foreground layer (text and line drawings). Traditional image compression
+techniques are fine for simple photographs, but they drastically degrade
+sharp color transitions between adjacent highly contrasted areas - which
+is why they render type so poorly. By separating the text from the
+backgrounds, DjVu can keep the text at high resolution (thereby
+preserving the sharp edges and maximizing legibility), while at the same
+time compressing the backgrounds and pictures at lower resolution with a
+wavelet-based compression technique.
+
+DjVu is used by many commercial and non-commercial web sites on the Web
+today. AND, Yes, You can view djvu-documents with the professional
+version, but also with a (free) plugin within the enterprise version.
+Prof. version is also capable to edit the files and sometimes ebooks
+can't be opened with free plugin, just with prof. version, so I would
+recommend to install both.
+
+The enterprise version is just for those who want to CONVERT to djvu,
+e.g. from pdf, psd(photoshop), tif, jpg or whatever. But You have to
+have a fast machine, or the time for conversion will tend to infinity or
+even break down (like on my old PIII).
+
+So I rcommend to install all three versions, together with virtual
+printer and to read the help files and learning by doing. DJVU is a nice
+format and makes files very small and handle-able, compared to other
+formats, like pdf.
+
+For best success, install all three versions. One for the browser, one
+for opening & possibly converting pictures and the complete set to
+convert anything (The entreprise edition contains a virtual printer,
+same serial as ent. edition).
+
+I have reduced my HD space by 3 by converting my pdf-textfiles and by up
+to 20 (normally 10) on jpg-files.
+
+BTW, djvu is also supported by IRFANVIEW (freeware), with the filter
+pack. Djvu is a great format that ought to replace pdf if you could find
+a way to spread the browser plug-in in an efficient way....

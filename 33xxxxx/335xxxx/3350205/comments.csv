@@ -1,0 +1,52 @@
+﻿User Type,Username,Date,Text
+,rci,2005-06-29T19:15Z,"i'm so happy this one works well, i want to share it ! :)"
+,hertwig,2005-06-29T19:37Z,"The point is. No F* mediaplayer no F* messenger, no F* Alexa spycrap ( shiped with windows. Thanks BG )
+and no F* nothing exept for a well running win xp, the way it should. Thanks to uploader"
+,iop<,2005-06-29T21:11Z,thX good job
+,X,2005-06-30T03:22Z,Not good job....why isn't at an ISO ???
+,pearson,2005-06-30T03:25Z,Thanks A Lot Nice Upload
+,zaptorrent,2005-06-30T09:43Z,Could anyone tell me how much disc space this version uses when installed?
+,trammy,2005-06-30T20:09Z,"My apologies for being retarded but having downloaded it, how do I use it pls?"
+,SomeGuy1999,2005-07-01T01:20Z,"Hmmm, must confess i am at a loss too, how is this to be used, there is no installer, is this supposed to be simply copied to disk??? a little help or a link to more info would be greatly appreciated, since i would just love to use this instead of microsofts bloatware!"
+,bongachalla,2005-07-01T12:33Z,"Funny thing.
+I could make the keyboard and win update work, but the little shortcut icon is gone.
+
+This means that all my shortcuts look like normal files, which is quite unconveniant.
+
+Any solutions?"
+,rci,2005-07-03T05:33Z,"with your burning software just drag and drop these files on a blank cd, and reboot :)"
+,rci,2005-07-03T05:54Z,err extract first ! (sorry i could have made an iso instead ^^)
+,janmo,2005-07-04T02:55Z,is this the whole OS or just the service pack?  will i need a serial or anything?
+,cros,2005-07-04T12:59Z,"ok I spent a lot of time on this one so I figured I would contribute.  I had an idea that I figured should work, and it did.  What I did was I used an original Win XP install CD with a boot up installer.  This is how I did it:
+
+At first I had some problems getting the boot image to work, so I ended up using MagicISO and it worked fine after that.
+
+First, Take your original CD and create an ISO image of it called WinXP.iso.  Next, use MagicISO and open the WinXP.iso file and go into the directory WinXP.isoi386 and delete all the files in this directory (just select all and hit del).  It will take a few minutes because you have to delete over 5000 files.
+
+Second, use the files from this download and copy all of them directly into your WinXP.iso.  It will ask if you want to overwrite some files.  Click YES TO ALL.
+
+Finally, save your new ISO file and burn it.  Place the CD in and boot up and it should install fine.  BTW, don't bother trying to use windows update cuz it won't work. :)
+
+----------------------------------------------------------------------------------------------------------------
+
+Translated to Swedish Via SYSTRAN language tranlation services(R).
+
+ok I spenderade mycket av tid på denna, så jag figured att jag skade bidrar.  Jag hade en idé som jag figured bör fungera, och den.  Vad jag, var jag använde en original- seger XP installerar CDEN med en känga upp montör.  Detta är hur jag gjorde den:
+
+Först hade jag några problem att få kängan för att avbilda för att fungera, så jag avslutade upp att använda MagicISO, och den fungerade fint after det.
+
+Ta din original- CD och skapa en ISO avbildar av den kallade WinXP.iso, först.  Därefter öppnar bruk MagicISO och WinXP.isoen sparar och går in i arkivet WinXP.iso  i386  och tar bort all sparar i detta arkiv (välj precis alla och att slå del).  Den skar takefåtalminuter, därför att du måste att ta bort över 5000 sparar.
+
+Använd sparar från denna nedladdning och kopierar alla dem direkt in i din WinXP.iso, Second.  Den skar frågar, om du önskar att överskriva något sparar.  Klicka JA TILL ALLA.
+
+Slutligen räddning som din nya ISO sparar och bränner den.  Förlägga CDEN in och starta upp, och den bör installera fint.  BTW besvärar inte pröva för att använda fönsteruppdateringcuz som den skar inte arbete. :)"
+,grappler,2005-07-07T09:06Z,"rci, for some of us even thou it sounds very good , it's hard to follow your instructions :(
+Why don't you upload it again in .iso format ???
+thanks for your answers and time."
+,brandonlink,2005-07-14T05:40Z,"IF YOUR SURE U WANT XP WITH NO -SYSTEM RESTORE, NO UPDATE, NO SCREENSAVER, NO WINDOWS XP THEME, NO DEFAULTS FOR ANYTHING, NOTHING. THEN DOWNLOAD THIS SHIT. ITS A GOOD VERSION BECAUSE IT WORKS BY BOOTING IT UP BUT YOU WILL BE PISSED AT ALL THE SHIT GONE. U CANT EVEN INSTALL A PRINTER USING XP ADD HARDWARE BECAUSE THATS GONE TO. SO U BETETER KNOW WUT UR DOIN."
+,brandonlink,2005-07-14T05:42Z,WARNING----->>>. ITS SERIOUSLY WAS A WASTE OF TIME FOR ME BECAUSE I HAD TO REDOWNLOAD THEMES AND SHIT BUT IT WORKED SO IM NOT SAYIN DONT GET IT JUST GET IT IF YOUR REASONS FOR IT ARE IMPORTANT.
+,brandonlink,2005-07-14T05:47Z,THIS DOESNT TAKE MUCH DISK SPACE LIKE LESS THAN A GIG AND ITS THE WHOLE XP SYSTEM(OS) AND ALL I DID WAS USE NERO I DOWNLOADED FROM ARES(P2P) AND IT WILL EXTRACT ISO FOR U AND BURN IF U OPEN IT IN NERO EXPRESS/OPEN IMAGE. NERO IS THAT GOOD! THEN BURN ONTO DISC AND ONLY BOOT PC UP WITH IT IN. IT MIGHT NOT WORK BUT IN KNOW Y JUST C WUT HAPPENS.
+,popz,2005-08-13T11:29Z,I'm downloading! Thank you! ;)
+,iDemonix,2006-04-12T12:46Z,This needs a DVD-RW right ?
+[T],bi20,2006-04-23T20:03Z,"to show the shortcut icon: open Regedit, go to ?HKEY_CLASSES_ROOTlnkfile? and in that branch create a string called ?IsShortcut?, leave it empty, and reboot."
+,jockOtomen,2007-02-15T16:46Z,Cant get swedish keyboard/layout to work. Anyone have the same problem? Anyone got a solution?

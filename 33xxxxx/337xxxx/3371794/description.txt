@@ -1,0 +1,104 @@
+Pinnacle recommends installing the 9.4.3 patch for all previous Studio 9 and Studio 9 Plus versions. Studio 9.4.3 is the latest version of Studio 9 to be released. Click here to go to the 9.4.3 download page. Make sure you look at the fix list below before downloading and installed the patch.
+
+The history of fixes in ALL previous Studio 9 patches is listed below. All of the fixes below are also incorporated into the latest version of Studio 9.
+
+Fixes in 9.4.3 from 9.4.2
+# AV Synch (audio drift) with 32KHz-12bit audio DV AVI captures is fixed
+# DC10+ scene detection is no loneger off by two frames
+# Several DVD Import issues fixed
+# Import of AVI files with MP4S CODEC (MS MPEG4 flavor) is now properly supported
+# Overlay image transparency in Picture in Picture no longer appears washed out
+# Fixed interlacing problem with HFX transitions on DV output
+# Improved edit performance and responsiveness
+# High memory utilization and CPU utilization issuess fixed
+# Crash when accessing SmartSound/Sound Effects is fixed
+# Guided tour prompt is available at startup
+# Uninstall now uninstalls patch and base installation properly
+# Corrected problems with Output to tape with h DVC150b and Moviebox USB
+# Fixed jittery output of some MPEG files with Moviebox DV
+# Fixed problem with mixed MPEG types hanging DVD playback after burning
+
+Fixes in 9.4.2 from 9.4.1
+# Fixed 2 issues where trimming didn?t work correctly in 9.4.1
+
+Features in 9.4.1 from 9.3.5
+# Import, edit and export of DivX files
+# Import, edit and export of progressive scan MPEG-2 files
+# Import and edit video from DVD's created by Studio, DVD camcorders or set top DVD recorders
+# Video Codecs wrapped in AVI files will be supported on import: DIVX Codec (upto DIVX 5.22), XVID Codec & ISO MPEG-4 Codec(3 flavors MPEG4, MPEG43 & MPEG4s). Note that ISO MPEG4 import works only if the user already has the codec or downloads it from Microsoft
+# Audio Codecs wrapped in AVI files that will be supported on import: MP3 Codec (CBR), AC3 Codec (CBR).
+# Audio Codecs wrapped in MPEG2 Program Stream files that will be supported on import: LPCM Codec, AC3 Codec (CBR
+
+NOTE: DivX import requires Pinnacle Advanced Codec Pack, available for $9.99. DivX export require existing DivX codec, or Pinnacle Advanced Codec Pack, available for $9.99
+
+Capture Mode Improvements and Enhancements in 9.4.1 from 9.3.5
+# DV-1394 Captures now maintain their aspect ratio regardless of analog capture settings
+# Studio MPEG captures now contain aspect ratio info in file header for better import into other applications
+# Can now capture pre-defined length MPEG-1 over 1394
+# Fixed problem with MJPEG captures being shifted up by a few lines
+# DV Camera forward/reverse cueing now works as expected
+# Fixed DVC 120- crash w/Pcleutil.dll error when setting to PAL
+# Fixed problem with noise at the bottom of DVC 120 captures
+# Fixed DVC 120 capture hangs
+
+Edit Mode Improvements and Enhancements in 9.4.1 from 9.3.5
+# Can now apply speed effects to multiple clips
+# Fixed crashes and error messages when using video effects
+# Can now adjust length of multiple stills simultaneously
+# Improved timeline editing of titles and transitions on OVT and PVT
+# Enhanced undo/redo functionality
+# Default length for PAL titles and transitions now have logical values
+# Framegrabber now inserts into the correct timeline position with locked tracks
+# Can now import MP3s from CD
+# Enhanced support for variable bitrate MP3 files
+# Dissolves now work correctly on the overlay track
+# Improved performance during timeline scrubbing of MPEG files
+# Can now cut and paste multiple clips from Album to Timeline or Storyboard using standard shortcut keys
+
+Make Movie Mode Improvements and Enhancements in 9.4.1 from 9.3.5
+# Fixed size estimation problems when making movie/DVD
+# Its is now possible to create 8.5GB DVD images on hard disk even if there is no disc/burner in the system
+# Fixed occasional crash when burning a second DVD
+# VIDEO_TS folder name is now capitalized
+# Fixed some hangs on rendering
+# Removed superfluous messages in message.log file
+# Fixed AV synchronization problems resulting from use of MPEG files with internal timing errors
+
+Other Improvements and Enhancements in 9.4.1 from 9.3.5
+# Fixed problems upgrading from Quickstart and SE
+# Version checker no longer erroneously reports missing files after upgrading to Plus
+# Fixed uninstall/reinstall problems
+# Fixed DVC150b driver installation problem
+
+
+
+Fixed in 9.3.5 from 9.3.0
+# Significant improvement in ChromaKeyer quality
+# DV camcorders are now initialized properly on French systems.
+# Can no longer trim multiple-selected clips (this caused clips to disappear)
+# Improved performance with cutting and pasting clips and transitions together.
+# DC10+ Custom settings are properly retained after selecting SECAM
+# DC10+ Capture settings and preset options are now displayed properly
+# Slow-mo effects on the overlay track are now rendered properly
+# Undoing changes to motion menus now works correctly
+# Trimming clips on the primary video track now updates linked clips correctly
+# Improved preview of Smartmovies
+# Improved DV editing performance
+# No longer creates DVD layer break in single-layer projects
+# Setting a chapter link in the same clip to multiple menus in Storyboard mode works properly
+# After undo of SmartMovie, "Create SmartMovie" button is no longer disabled
+# Preview for generic YUV capture devices now works properly
+# HFX transitions are properly installed locked/unlocked as applicable; previously installed HFX transitions are properly accessible in the album and in saved projects
+# Applying a time effect to a clip now works properly for all effect settings
+# Supports Dual layer DVD image creation even if the system does not have a Dual Layer burner
+# Several Operation failed errors with transitions, trimming and clip insertion addressed
+# ?J? and ?L? cuts and transitions are now handled correctly
+# Performance improvement in insertions of large number of clips from the tape album
+# UI clean up for audio and video tool boxes
+# Performance enhancements in menu, graphic and title display in the album
+# Performance enhancement in timeline playback of the project
+# Can now copy selected clips if first clip in selection is a Fade In/Out transition
+# Split clip in Storyboard and Text view now updates correctly
+# Can now export project using smart sound or CD audio
+# Fade transition is now applied correctly on audio
+# HFX filter now applies correctly

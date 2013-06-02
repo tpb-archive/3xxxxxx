@@ -1,0 +1,139 @@
+﻿User Type,Username,Date,Text
+,ShutIT,2005-06-18T10:31Z,What quality is this??
+,ChipTune2,2005-06-18T10:59Z,"Sorry, I forgot to put a sample in this release, but I have added one here: http://thepiratebay.org/details.php?id=3345928"
+,regular_john,2005-06-18T11:31Z,"the sample seems dvd quality, isnt it?
+i mean its the highest quality ive seen so far"
+,team_satan666,2005-06-18T12:19Z,kan inte packa upp den vad e det för skit 
+,sgt_hardon,2005-06-18T16:34Z,"There's something missing in this torrent, WinRAR says that ""oaksw4.rar"" is needed to unstuff the rar files..."
+,ChipTune2,2005-06-18T18:30Z,does everybody has this problem? i suck...
+[T],BULK,2005-06-18T19:02Z,u must download all files before u can unzip them......
+,sgt_hardon,2005-06-18T19:48Z,"I've downloaded the complete torrent file and WinRAR can't unstuff 'cause files are missing, as I've said in earlier comment..."
+,Gwar,2005-06-18T20:42Z,"Laddade ner den här, men alla filer är sönder, det går inte att packa upp dom."
+[T],BULK,2005-06-18T20:57Z,"det stämmer nog. några som fattas ser det ur som om man gämför med andra......
+"
+,phs2004,2005-06-19T00:05Z,Det är ju 78 st som har fått ner den och bara ett par som har klagat så det är nog inget fel på den ChipTune2. Ta det lungt :D
+,ChipTune2,2005-06-19T00:37Z,konstigt.. jag har winrar 3.30 och jag kunde packa upp dom.. jag tror jag vet vad som är fel iofs.. men den buggen ska vara fixad i 3.30
+,francescaliz,2005-06-19T10:30Z,when I try to unrar it says file corrupt although I downloaded full torrent can anyone help?
+,Kolgrim,2005-06-19T10:34Z,Är det här en dvd rip?
+,JoeyT,2005-06-19T12:38Z,"Mycket lustigt, enligt sfv checken verkar alla filer vara okej men det verkar ändå vara nåt som fattas. enligt infon ska img filen vara 4.49 gb, denna är bara 4.18 gb. "
+,faur,2005-06-19T15:20Z,"Har någon fått nån ordning på denna releasen/nån som vet hur man får det att funka, eller vad det är som strular för vissa?"
+,ChipTune2,2005-06-19T15:58Z,med 4.49Gb menar jag 4490000000 bytes. Och med 90x50Mb menar jag 90x50000000 bytes. Kanske skulle jag skrivit 4.49Gib och 90x50Mib. Ska jag lägga ut en fix som byter namn på rar-filerna så att dom går att packa upp för alla?
+,ChipTune2,2005-06-19T16:01Z,"nej vänta en MiB är ju 1048576 bytes och en GiB är ju 1073741824 bytes, så jag har nog skrivit rätt ändå ;), nästan i alla fall, skulle skrivit MB och GB istället för Mb och Gb."
+,JoeyT,2005-06-19T16:48Z,"har  ingen aning om vad som just hände men nu verkar den gå att packa upp, skumt. Försökte förvisso reparera rar filerna tidigare i winrar men det verkade inte funka, eller så funkade det trots allt. måste varit nåt skit på nån av filerna som försvann. "
+,stained,2005-06-20T05:29Z,"don't waste your time, this doesn't work"
+,ChipTune2,2005-06-20T21:13Z,"if you can't extract the rar archive put this in a .bat file in the same directory as the rars and run.
+
+ren oaksw3.rar oaksw3.part001.rar
+ren oaksw3.r00 oaksw3.part002.rar
+ren oaksw3.r01 oaksw3.part003.rar
+ren oaksw3.r02 oaksw3.part004.rar
+ren oaksw3.r03 oaksw3.part005.rar
+ren oaksw3.r04 oaksw3.part006.rar
+ren oaksw3.r05 oaksw3.part007.rar
+ren oaksw3.r06 oaksw3.part008.rar
+ren oaksw3.r07 oaksw3.part009.rar
+ren oaksw3.r08 oaksw3.part010.rar
+ren oaksw3.r09 oaksw3.part011.rar
+ren oaksw3.r10 oaksw3.part012.rar
+ren oaksw3.r11 oaksw3.part013.rar
+ren oaksw3.r12 oaksw3.part014.rar
+ren oaksw3.r13 oaksw3.part015.rar
+ren oaksw3.r14 oaksw3.part016.rar
+ren oaksw3.r15 oaksw3.part017.rar
+ren oaksw3.r16 oaksw3.part018.rar
+ren oaksw3.r17 oaksw3.part019.rar
+ren oaksw3.r18 oaksw3.part020.rar
+ren oaksw3.r19 oaksw3.part021.rar
+ren oaksw3.r20 oaksw3.part022.rar
+ren oaksw3.r21 oaksw3.part023.rar
+ren oaksw3.r22 oaksw3.part024.rar
+ren oaksw3.r23 oaksw3.part025.rar
+ren oaksw3.r24 oaksw3.part026.rar
+ren oaksw3.r25 oaksw3.part027.rar
+ren oaksw3.r26 oaksw3.part028.rar
+ren oaksw3.r27 oaksw3.part029.rar
+ren oaksw3.r28 oaksw3.part030.rar
+ren oaksw3.r29 oaksw3.part031.rar
+ren oaksw3.r30 oaksw3.part032.rar
+ren oaksw3.r31 oaksw3.part033.rar
+ren oaksw3.r32 oaksw3.part034.rar
+ren oaksw3.r33 oaksw3.part035.rar
+ren oaksw3.r34 oaksw3.part036.rar
+ren oaksw3.r35 oaksw3.part037.rar
+ren oaksw3.r36 oaksw3.part038.rar
+ren oaksw3.r37 oaksw3.part039.rar
+ren oaksw3.r38 oaksw3.part040.rar
+ren oaksw3.r39 oaksw3.part041.rar
+ren oaksw3.r40 oaksw3.part042.rar
+ren oaksw3.r41 oaksw3.part043.rar
+ren oaksw3.r42 oaksw3.part044.rar
+ren oaksw3.r43 oaksw3.part045.rar
+ren oaksw3.r44 oaksw3.part046.rar
+ren oaksw3.r45 oaksw3.part047.rar
+ren oaksw3.r46 oaksw3.part048.rar
+ren oaksw3.r47 oaksw3.part049.rar
+ren oaksw3.r48 oaksw3.part050.rar
+ren oaksw3.r49 oaksw3.part051.rar
+ren oaksw3.r50 oaksw3.part052.rar
+ren oaksw3.r51 oaksw3.part053.rar
+ren oaksw3.r52 oaksw3.part054.rar
+ren oaksw3.r53 oaksw3.part055.rar
+ren oaksw3.r54 oaksw3.part056.rar
+ren oaksw3.r55 oaksw3.part057.rar
+ren oaksw3.r56 oaksw3.part058.rar
+ren oaksw3.r57 oaksw3.part059.rar
+ren oaksw3.r58 oaksw3.part060.rar
+ren oaksw3.r59 oaksw3.part061.rar
+ren oaksw3.r60 oaksw3.part062.rar
+ren oaksw3.r61 oaksw3.part063.rar
+ren oaksw3.r62 oaksw3.part064.rar
+ren oaksw3.r63 oaksw3.part065.rar
+ren oaksw3.r64 oaksw3.part066.rar
+ren oaksw3.r65 oaksw3.part067.rar
+ren oaksw3.r66 oaksw3.part068.rar
+ren oaksw3.r67 oaksw3.part069.rar
+ren oaksw3.r68 oaksw3.part070.rar
+ren oaksw3.r69 oaksw3.part071.rar
+ren oaksw3.r70 oaksw3.part072.rar
+ren oaksw3.r71 oaksw3.part073.rar
+ren oaksw3.r72 oaksw3.part074.rar
+ren oaksw3.r73 oaksw3.part075.rar
+ren oaksw3.r74 oaksw3.part076.rar
+ren oaksw3.r75 oaksw3.part077.rar
+ren oaksw3.r76 oaksw3.part078.rar
+ren oaksw3.r77 oaksw3.part079.rar
+ren oaksw3.r78 oaksw3.part080.rar
+ren oaksw3.r79 oaksw3.part081.rar
+ren oaksw3.r80 oaksw3.part082.rar
+ren oaksw3.r81 oaksw3.part083.rar
+ren oaksw3.r82 oaksw3.part084.rar
+ren oaksw3.r83 oaksw3.part085.rar
+ren oaksw3.r84 oaksw3.part086.rar
+ren oaksw3.r85 oaksw3.part087.rar
+ren oaksw3.r86 oaksw3.part088.rar
+ren oaksw3.r87 oaksw3.part089.rar
+ren oaksw3.r88 oaksw3.part090.rar"
+,ChipTune2,2005-06-20T21:17Z,whops! the break rows dissapered.. and it seems that i can't put it in a torrent right now. server difficulties!
+,c0n04,2005-06-21T19:22Z,"Winrar 3.42 works just fine with this torrent.
+
+Really shows that it is ntsc on a pal tvplasma."
+,Brorsan99,2005-06-21T20:34Z,"winrar skriker efter oaksw4.r01, var fan är den?????"
+,ChipTune2,2005-06-21T23:20Z,"if you don't seem to be able to extract this archive, then download ""oaksw3fix.zip"" at http://hem.passagen.se/krullo2"
+,McIke_Bleking,2005-06-23T11:29Z,"kör oaksw3.rar med winrar 3.50 ,inga problem."
+,chevelle88,2005-06-25T23:26Z,Tack :)
+,Heidrich,2005-06-26T11:44Z,Funkar utmärkt. Tack så mycket! :-)
+,neslepax,2005-06-27T02:55Z,This release has choppy sound on my JVC dvdplayer. Any ideas/suggestions?
+,ChipTune2,2005-06-28T02:30Z,"the sound is untouched from the internal release, i have no idea."
+,matte_fcb,2005-06-30T00:32Z,"tack för allt, denna funkade perfekt...med fixen och allt...du ska ha 2000 tack."
+,jone_lhf,2005-07-01T13:27Z,SEEDA ni har ju vatt så duktiga på de innan!!
+,duaneadrian65,2005-07-02T06:31Z,"If anyone want this movie on DVD-R. I can sell you a copy for $10 includes shipping. Why waist time on DOWNLOADING. I have the movie ready for DVD player. If interested, email me at: DuaneAdrian65@Yahoo.com"
+,jone_lhf,2005-07-02T16:33Z,"problem---> den där isofilen som man gör av dom andra rarfilerna försöker jag göra till iso i qwix för det går inte å bara dra över den direkt till xboxet, så står de att den är 180mb stor när den är 4gb, men de går att göra den till iso. sen när jag sak dra över den till xboxet går det på nårra sek men å dra 4gb brukar ta typ en kvart! nån som kan hjälpa mej?? tacksam för svar!!"
+,ol-korv,2005-07-14T14:42Z,jag behöver lite hjälp..det står så här på nästan allting jag laddar hem men bara när jag har fått hem mer än 3 gig:S..I O error:[errno13]permission denied...vad är det som är fel?...är ganska ny med bitorrent så blir glad om jag kan få lite hjälp:D
+,blackZzter,2005-07-23T20:35Z,"Är detta en DVD-rip?? Har filmen en meny, där man kan välja språk??"
+,ChainsawDude,2005-07-23T21:12Z,This has worked well for me with high quality results.
+,blackZzter,2005-07-24T09:42Z,Seeda snälla..ligger på 27%
+,loxx012,2005-08-05T22:34Z,"seeda snälla, ligger på 68,6%"
+,DennisZ_,2005-08-08T00:29Z,seeda... plz
+,Fidolin,2005-08-11T12:04Z,Tack för denna Chiptune fungerade perfekt med fixen du ska ha tusen tack
+,persson.,2005-08-16T01:48Z,"har försökt ladda upp filerna, men det står att filen blir för stor... nått med NTFS att göra! Får tydligen inte bli större än 4 gb... vad ska man göra ?:S"
+,olmedaul,2008-05-05T17:17Z,seed

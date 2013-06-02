@@ -1,0 +1,54 @@
+
+            FlashFXP v3.4 Beta 3 (3.3.3 build 1100)
+
+            This is a BETA release.  It contains experimental code
+            that may be unsuitable for production environments.
+            If you are dependent upon FlashFXP in a production
+            environment, but still want to test the beta, we recommend
+            you install to a new directory.
+
+            Updates since FlashFXP v3.2.0.1080
+
+            New Features
+
+            - The graph font can now be changed seperately from the
+              application font.
+            - Global "Bind Socket to IP" setting.
+            - Per-Site "Bind Socket to IP" setting.
+            - Multi-language support. See the translation forums
+              (http://www.inicom.net/forum/forumdisplay.php?f=160)
+              for more information.
+            - Added new status msg "Listening on PORT: X, Waiting for
+              connection." to help troubleshoot PORT mode connections.
+            - If Passive mode fails two times in a row, FlashFXP will
+              switch to PORT mode or vis versa.
+            - If the connection is lost to the ftp site you can
+              continue to browse cached folders and queue files,
+              if a task is performed that requires a connection
+              flashfxp will reconnect back to the ftp site and then
+              perform that task.
+	
+	          Changes
+	
+            - Syncronized Browsing. When browsing remotely the local sync
+              now occurs after the change dir, rather than after the list
+              complete.
+            - Rename will now cancel out if the folder/file name only
+              contains spaces.
+
+            Fixes
+
+            - When selecting files in the local browsing the selection size
+              isn't updated probably due to a syntax error.
+            - If FlashFXP was locked with a password and on transfer
+              complete triggers it was unable to close properly.
+            - If the connection is lost during a delete operation and
+              the user clicks yes to the a reconnect prompt, after connecting
+              FlashFXP sometimes ended up in the wrong folder.
+            - Once the connection retry count was reached the 'Go' and 'stop
+              after current transfer' buttons states weren't updated properly.
+            - If you connect to a site and while that connection is still
+              being attempted click 'go' the connection attempt isn't
+              properly reset prior to connecting to the site in the queue.
+            - Other minor fixes.
+

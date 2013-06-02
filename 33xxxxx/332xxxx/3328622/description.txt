@@ -1,0 +1,379 @@
+   / / | ____| /  ___| | | | | |_   _| | ____| |  _    
+      / /  | |__   | |     | | | |   | |   | |__   | |_| |  
+      }  {   |  __|  | |     | | | |   | |   |  __|  |  _  /  
+     / /   | |___  | |___  | |_| |   | |   | |___  | |    
+    /_/  _ |_____| _____| _____/   |_|   |_____| |_|  _ 
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ Xecuter Proudly Presents: X2 5032                             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³ Format: XBOX BIOS                                             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³ Date: May 2nd 2005                                            ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+>> !!!!!!!!!!!! READ THIS FIRST !!!!!!!!!!!!
+>> !!!!!!!!!!!! READ THIS FIRST !!!!!!!!!!!!
+
+First of all if you post questions on the forums that answered are in this 
+file but are offended by someone telling you to read the instructions first
+before posting - then you should send a PM to a mod or admin - just so
+they can reply "RTFM NOOB" or something to that effect. If you are too lazy
+to read about how something works then dont be surprised if people are too
+lazy to help.
+
+Hacked bios's or any software for that matter will always have a bug or two.
+We can make them as rock solid as you like but there is always one common
+denominator that we cannot solve - the guy who has done everything correctly
+and his Xbox no longer works - so naturally the bios sucks and we should
+either fix it or prepare to be flamed to his/her last breath. Hint - don't
+blame the tools (and/or use common sense and always have a recovery plan)
+
+The words knob jockey come to mind.
+
+In a nut shell read the info below - its all pretty basic. THE ONE SIMPLE RULE
+we ask of you is to MAKE SURE YOU USE THE X2CONFIG.INI THAT COMES PACKED WITH 
+EACH NEW RELEASE. FAR TOO MANY PPL IGNORE THIS THEN BITCH AT US WHEN THEIR SHIT 
+DOES NOT WORK CUS THEY USED A 5028 INI FILE ON 5031 - OR THEY USED A 3RD PARTY
+INI FILE CREATOR THAT WAS NEVER DESIGNED FOR THE LATEST BIOS. I know there are
+a few ppl out there reading this right now and feeling your ears burning right?
+
+THIS RELEASE IS SOLID. ITS A CHAMP. WE ARE REAL HAPPY WITH IT. I AND MANY MANY TESTERS
+HAVE KNOCKED THE SHIT OUT OF IT IN EVERY CONFIGURATION POSSIBLE - ERRORS ARE USER
+ERRORS OR NOT FOLLOWING INSTRUCTIONS - THATS IT. PERIOD.
+
+IF THERE ARE BUGS THEY WILL BE SIMPLE ONES THEY WILL NOT FUCK YOUR XBOX UP.
+
+On another note - reports from some DUOX2 users saying this bios doesn't work on 
+your chip. Solution: get them to fix the problem - it's hardware not the bios.
+i'm sure there is a moral to that somewhere ?
+
+>> !!!!!!!!!!!! READ THIS FIRST !!!!!!!!!!!!
+>> !!!!!!!!!!!! READ THIS FIRST !!!!!!!!!!!!
+
+>> Release Information
+
+Well, we're back. Its been just over a year since we last worked 
+on the X2 Bios series and what a year it's been. With the phenominal 
+success of the X3 Mod hardware and software now on the market we felt
+that it was about time we went back to visit an old freind.
+
+We figured we should give the scene a boost with the release of a 
+decent bios that works on ALL chips (that support a 512k bios at least).
+So you see, Xecuter even has some love for Xenium & Smartxx users :p
+
+As usual this is a work in progress - we think we nailed all bugs this
+time but someone will find something somewhere ;)
+
+Enjoy yet another fine Xecuter Bios Release.
+
+Thanks to Nghtshd & Klutsh for their work on X2 config apps - check them out !
+(MAKE SURE THEY SUPPORT THIS BIOS VERSION FIRST - THEY ALSO PATCH YOUR LBA48 
+PARTITION SETTINGS - SEE LBA48.TXT FOR MORE INFO
+
+http://home.alltel.net/nghtshd/x2ool.html
+http://x-projects.xbox-scene.com
+
+And for those that suck melons for breakfast :p .......
+
+x2_5032_vOLD_512k.bin - older xbox versions v1.0 - v1.5 ONLY
+x2_5032_v16plus_512k.bin - xbox versions v1.6 and v1.6b ONLY
+
+And no this bios cannot be split in half to be 256k and flashed to TSOP
+If you find a way to do it pls send an email to wtf@noobville.com - thanks
+
+>> EvoX MD5 Hashes
+Just use X2 Bios Manager to get the correct ini for your default/patched bios
+
+>> Features Summary
+
+Works on all modchips (that support 512k Bios - sorry cheapmods and 256k tsop's)
+Works on Xbox versions v1.0 - v1.6b
+Boot All Originals
+Boot All Unsigned Code
+Boot All Backups
+Boot Debug XBE's
+Macrovision Protection Disabled
+No Patch Hack
+No Reset On Eject
+Hard Drive Swap Hack
+LBA48 Hack*
+Custom Partition Hack (Auto Detects!)
+In Game Reset (EMBEDDED) (IGR)
+- (LT+RT+BACK+START) or (LT+RT+BACK+BLACK)
+- Use IGR after pausing the game for best results
+Customized Error Screens **
+No DVD Rom Hack ***
+No AV Cable Hack
+Media Flag Auto-Patcher (All Versions)
+Conexant / Focus / Xcalibur Video Support
+Clock Check Skipped / Error 16 Fix / Boot to DVD ROM even if clock is corrupt
+Disable Access to Xbox Live ****
+Disable Access to Xbox Live (Extended Version) ****
+
+*New* X2 Config Live Features
+- Set debug mode enable / disable
+- Set IGR enable / disable
+- Set boot path of dashboard
+- Display Flubber Animation enable / disable
+- Check for DVD Rom enable / disable
+- Rest Xbox on Pressing Eject enable / disable
+- Set Dashboard Priority (5 Options)
+- Set Xbox Logo Colors (Xlip,XlipHighlights,InnerWalls,InnerGlow,XboxText)
+- Xbox Live Mod Enabled Connect Protection enable / disable
+- Check system clock for errors enable / disable
+- Set Flubber Colors (Blob,BlobGlow,GreenFog,FlubberScene,FogGlowStart,FogGlowEnd)
+- Set Random Flubber Animation enable / disable
+- Set Flubber Animation Sequence (15 Options)
+- Set Xbox Fan Speed
+- Set Flubber in wireframe mode enable / disable
+- Display the TM logo enable / disable
+- Set the Flubber / Xbox Logo background color
+- Stop bios from booting DVD's (d:default.xbe) enable / disable
+- Customize DVD xbe boot name (default.xbe)
+- Set Xbox LED Color (green,red,orange,cycle)
+- Custom Boot Logo (180x50 256 Color BMP stored on E: drive as x2logo.bmp)
+
+LBA48 Partition Modes: 
+This value is now taken from patched byte at offset 0x1b04
+
+0 = standard partitions 
+1 = F: gets all (Default)
+2 = F: up to 137gb, G: gets rest
+3 = F: up to 137gb, no G:
+
+Custom partition sizes are auto detected (as per Nghtshd's Xbpartitioner tool)
+
+
+* Thanks to OzPaulb
+** Thanks to Superfr0
+*** Thanks to Santmat
+**** Thanks to Smo
+
+See http://www.teamxecuter.com/forums/forumdisplay.php?f=64 for more bios help and support
+
+Thanks to Nghtshd & Klutsh for their work on X2 config apps
+
+http://home.alltel.net/nghtshd/x2ool.html
+http://x-projects.xbox-scene.com
+
+
+>> Changelog
+
+[5032]
+- added: if ini file becomes corrupt (resulting in dvd boot filename to be empty) then this value is reset to "default.xbe"
+- added: if nothing could be booted (no dvd and no dash) then an XBE called "rescue.xbe" is run from DVD drive, 
+  so, if nothing else boots, THIS XBE WILL BOOT !! :)
+-  note: So just in case the ini file gets fucked up and the xbe boot name gets erased/whatever, then it's reset to 
+   "default.xbe" so you'll be able to boot evoXdash or whatever.... (if disableCdromBoot is switched off)
+   If you switch on the disableCdromBoot setting and got no frigging single working dash on your harddrive then the 
+   system now does a fallback boot and tries to boot "rescue.xbe" from dvd - so this will ALWAYS enable you to boot 
+   an avalaunch/evoxdash/whatever from dvd to fix your ini!
+
+[5031]
+- fixed: x2logo.bmp display bugs solved
+- fixed: the wild rings game was not booting again ... fixed now (this game blows)
+- fixed: made dash pathes a litte more tolerable, drive character is no longer case sensitive
+-  note: LedColor also supports other values than the ones listed - check out nghtshd's x2ool for more versatile led modes!
+
+[5030 BETA]
+- added: now can add full paths to dashboards in x2config.ini (e.g. c:dashesevoxevoxdash.xbe), 255 chars max here
+- added: x2config.ini now first searched on F: and, if not found, on E: - if again not found then defaults are used
+- added: dvd boot xbe filename can be changed now, 16 chars max for this setting - change boot xbe to e.g. "boot.xbe"
+- fixed: fan speed setting
+- fixed: eject led color settings
+- fixed: x logo colors
+- fixed: wireframe flubber setting
+-  note: if you have no .ini on hdd then the bios runs in default mode and default mode is NO DEBUG therefore it won't 
+         boot to xshell even if xdk installed!
+-  note: setting "xLogoBackgroundColor" is for x logo background only - no setting for flubber scene bg color (yet)
+-  note: always use the latest (included) .ini file!
+
+[5029 INTERNAL]
+- fixed: incorrect detection of lba48 parameters if bios not flashed to bank 0
+- fixed: all games should boot again (quite handy workaround)
+- fixed: default settings (e.g. wrong colors) working again if no .ini file present
+
+[5028 GOLD]
+- fixed: fan no longer defaults to 0 when no .ini found
+- fixed: led color defaults now to green when no .ini found
+
+[5027 BETA - NON PUBLIC]
+- fixed: halo/halo2 now booting again
+- fixed: no longer interferes with x3 mods (eeprom stored settings)
+- fixed: now loads x2logo.bmp from E: instead of x3logo.bmp :)
+- fixed: now correctly describes boot partitions in x2config.ini
+- fixed: wild rings (jap) now boots - fixed some weird (and rare!) bug that fucked up the first section header of an XBE
+- added: partition table on disk is now used if found on hdd (auto-detection, .ini parameter removed)
+- added: hdd partitioning mode can be set by setting byte 0x1b04 in bios.bin (get possible values from lba48.txt file)
+
+[5022 BETA]
+- We now use the completely overhauled X3 Bios backbone
+- Countless changes and bug fixes over the last 12 months since 4983
+- Now parses x2config.ini from the hard drive to give multiple bios customizations (Copy to root of E:)
+- The first Bios based on the Original Source Tree to work on v1.6
+
+[4983]
+- Fixed X2 Lite Bank 1 XBE Crash Bug
+- 4983.06 = LBA48 6
+- 4983.67 = LBA48 6+7
+
+[4982]
+- Fixed boot order and dash names
+- Made igr, xbl hack, clock check hack and no reset on eject hack configurable with files
+- Added x2config.xbe configuration app
+- Added app to verify if release is genuine (md5)
+- Some minor fixes done
+- 4982.06 = LBA48 6
+- 4982.67 = LBA48 6+7
+                                                            
+[4980]
+- Disabled Connecting to Xbox Live
+- 4980.06 = LBA48 6
+- 4980.67 = LBA48 6+7
+
+[4979]
+- Added Focus Video Encoder Support
+- Embedded OzPaulb's LBA48 Hack
+- Added MS Dash clock check skip
+- Removed embedded FTP (was simply a proof of concept anyway)
+- Resized and optimized back to 256k
+- Clean up of code and some general bug fixes
+- 4979.06 = LBA48 6
+- 4979.67 = LBA48 6+7
+
+[4978.03]
+- Fixed IGR function which made 4978.2 hang on game startup
+- Tested on pro & lite with evoX and a couple of games
+- Maybe drink less coffee next time before releasing :-p
+
+[4978.02]
+- Squeezed to 512k with FTP server still functional (this is done by implementing heavy compression algorithms)
+- no functional changes
+
+[4978 Bug Fix]
+- Fixed 1MB incompatibility problem with X2.x Lite
+
+[4978]
+- Added FTP server, IP: 192.168.10.123, Mask: 255.255.0.0, login/password: x3/x3
+- FTP server starts up if you keep the 'A' button pressed on bootup, otherwise the dashes are run
+- Dashboard sequence changed to: evoXdash.xbe, avadash.xbe, mxmdash.xbe, xboxdash.xbe
+
+[4977]
+- Permanent No Reset On Eject - Finally got around to adding this - HATED to have it reset in xbox media player :-)
+
+[4976.02]
+- Unfortunately the 4976 hangs if people have a "debug" xbox and the default dash is set to launcher (xbsetcfg /l),
+  this release fixes this problem
+
+[4976]
+- Disable IGR Feature
+- Removed No AV Cable Check (for Lan whores etc - Requested Feature)
+- Superfr0 Nice Error Screens (Credits to Superfr0 - should have added this as default a long time ago)
+
+[4975]
+- Auto Patcher for new media flag on new games - no need for patching !
+- No DVD Drive Check - no longer throws Error 11 (Credits to SantMat)
+
+[4974]
+- ROM is now compatible to v1.0 and v1.1 Xboxes in one 256K image
+
+[4973]
+- Fixed "Non-Boot" Problem (tested on Silent Hill 2)
+- Fixed "only needed one trigger for reset" bug
+- Added S-Type IGR Reset (LT+RT+BA+BL)
+
+
+
+Visit our forums for help and tutorials:
+
+http://www.teamxecuter.com/forums
+
+
+>> Recommended By Xecuter
+
+We Encourage you to use the lastest Avalaunch Dashboard along with
+the fantastic Qwix Windows App.
+
+http://www.teamavalaunch.com/qwix/
+
+Of course you should also be using XBMC (Xbox Media Center)
+
+http://www.xboxmediacenter.de/
+http://www.xbmc.org
+
+For all Xbox homebrew downloads
+
+EFNET: #xbins
+WEB: http://www.xbins.org
+
+For the latest Scene news and support
+
+http://www.xbox-scene.com
+
+For all your Xbox skins & Models
+
+http://www.allxboxskins.com
+
+For Xbox Linux Support
+
+http://www.xbox-linux.org/
+
+For homebrew online gaming
+
+http://www.teamxlink.co.uk/
+
+For All Your Xbox Game Trainers (NO NEED TO USE EVOX !)
+XORED - http://forums.maxconsole.net/forumdisplay.php?s=&forumid=77
+
+>> Notes
+
+
+You should be made aware of some issues that we discovered and
+has probably had some of you tearing your hair out.
+
+If you have games like GTA, GTA Vice City and Fifa 2004 etc and 
+they are crashing during the game then you will find they operate 
+and AUTOSAVE check which uses your system clock. Now if your system 
+clock is corrupt then it will crash a number of titles which use 
+AUTOSAVE. One clock we found corrupt had a date/time setting of
+15/11/8097. The second the clock was fixed in the MS Dash all the 
+games that crashed worked just fine with no problems whatsoever.
+
+You should also be aware that some apps especially FlashX v1.2 are
+also crashing - this is down to the EVOX IGR / TSR. You should disable 
+all EVOX IGR / TSR and this will get things moving nicely.
+
+Also in case you didn't know X2 Bios Manager v2.3 was also released.
+It's now extremely reliable and supports flashing both the Lite and 
+Pro X2 mods. It even has a new Internet Updatable MD5 bios listing.
+Another extra is to be able to flash the X2 pro using a lite programmer 
+if you ever needed to. Get it from here:
+
+http://www.teamxecuter.com/downloads/x2bm_v23.rar
+
+
+
+
+>> Disclaimer
+
+
+This piece of software will most likely destroy your XBOX if you 
+don't now what you are doing! We will not be held responsible for 
+any damage or screw ups. Do not whine or bitch if you cant get shit to work
+this bios is free - we are not interested in your complaining.
+
+This bios is not released with any warranties of any kind. Although we 
+do test our asses off we cannot guarantee it will be bug free. If you have
+any problems or issues please post to the forums and we will either tell
+you what you are doing wrong or thank you for spotting a bug that needs
+fixing :)                      
+                
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ[XeCuT0R]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ Thanks to #xbins, #teamxecuter and xbox-scene.com for their   ³
+³ support. Special thanks to Team Avalaunch and Worldxbox.co.uk ³
+³ maxconsole.net, allxboxskins.com & www.xboxmediacenter.de     ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+         
+ -/- Xecuter : The Original Crew Rocking the box since 2002 --

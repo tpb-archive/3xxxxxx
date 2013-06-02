@@ -1,0 +1,563 @@
+ÜÜÜÜÜÜÜÜ                                               
+                      °ÜÛ  °±° ° ÛÜ°                                            
+ ÜÜÜÜÜ °ÛÛÛÛÛÛÛÛÛÛÛ²°°Û  ß±°° °±ß  Û°° ÛÛÛÛ°  Ü  ÛÛÛÛ  ÛÛÛ² Ü   °ÛÛÛÛÛÛÛÛ°      
+   ²±  °ÛÛÛÛÛÛÛÛÛÛÛÛ°Û ° °° °  °  ° Û° °ÛÛÛÛ°   °ÛÛÛ°  ÛÛÛÛ  °ÛÛÛÛÛÛÛÛÛ²ÛÛ      
+   ±       °²ÛÛÛ°   Û °±°  °° °  °±° Û  °ÛÛÛÛ° °ÛÛÛ°   ÛÛÛÛ °ÛÛÛÛÛÛ° °ÛÛÛÛ°     
+        °   ²ÛÛÛ    Û  ° °±    ±° ° °Û   °ÛÛÛÛ°ÛÛÛÛ    ²ÛÛÛ ÛÛÛÛÛ°              
+    ° °±±°° ÛÛÛÛ   °Û°°±   °  °  °±° Û°   °ÛÛÛÛÛÛÛ°    ²ÛÛÛ ÛÛÛÛ°     °°°°      
+     °±²±±° ÛÛÛÛ ° °Û±° ° °±°°± °° °±Û° °  °ÛÛÛÛÛ°  °  ÛÛÛÛ ²ÛÛÛ   °±±±±°±°     
+  ° °±²²±   ÛÛÛÛ    ßÜ°    °±±°    °Üß  °  °ÛÛÛÛÛ°  ±° ÛÛÛÛ ²ÛÛÛ    °°±°±±±     
+   °±²±±²°  ÛÛ²Û °  °Û ßÛÛÜ °° ÜÛÛß Û° ±  °ÛÛÛÛÛÛÛ°    ÛÛÛÛ ÛÛÛÛ°  °  ° °±±     
+   °°°°±°±° ÛÛÛÛ    Û  °ÛÛÛÛ  ÛÛÛÛ°  Û   °ÛÛÛÛ°ÛÛ²Û° ± ÛÛ²Û ÛÛÛÛÛ°  °    °°     
+   ±   ° °  ÛÛ²Û  °  Ûß     ÛÛ     ßÛ   °ÛÛÛÛ° °ÛÛÛÛ°  ÛÛÛÛ °ÛÛÛÛÛ°             
+   Û  °     ÛÛ²Û °±° ° Û° °ßßßß° °Û °  °ÛÛÛÛ°   °Û²ÛÛ° ÛÛ²Û `ÛÛÛ²ÛÛÛ°°ÛÛÛÛ°     
+  ±Û±       ÛÛ²Û °±±°  °Û° °±±° °Û°    ÛÛÛÛÛ  °  ÛÛ²ÛÛ ÛÛ²Û  °ÛÛÛ²²ÛÛÛÛÛÛÛ      
+ ±ÛÛÛ±      ÛÛÛÛ  °±±°  Û±° °° °±Û     ÛÛÛÛ° °±° °ÛÛÛÛ ÛÛÛÛ    °ÛÛÛÛÛÛÛÛÛ°      
+  ±Û±                   °ßßÛßßÛßß°           ²                                  
+   Û        ±±±±                   °  °±±²±°²Û² °±±±±±° °±±    °±±±±±±±±±°      
+   ±       °°²±°°       °±±±±±±±°      °±Û±±°² °±²±±±° °°²±   °±±²±° °          
+         °±±±±²±±±° ° ±°±±²²±±²±±°±°    ²Û²±±±±±²±°     ±²°° °±±²²±±   °        
+     °±°°±±±²²²²±±±°±°  °±±±²±±±°     °²ÛÛÛ²°  °±±±±±°  ±±°   °±±±±±±±±±±°°     
+ ÜÜÜÜÜÜ  °°°°°°°°°° Ü °  °°°°°°°   ° Ü  ²Û±   ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ±ÜÜÜÜÜÜÜÜÜÜÜ  
+                                                               °±²Û²±°          
+                  -= ToxicOS v0.3 Release =-                    °±²±°          
+                                                                 °±°
+Introduction
+============
+
+ToxicOS is a third party flash upgrade for the DMS4 Pro modchip by Team Toxic.
+While providing all the features of ToxicBIOS, it also provides a host of
+innovative new features such as the ability to run games from the HDD.
+
+So, whats new in this release?
+
+- It is now possible to launch your PS2/PSX games and DVD movies off disc
+  directly from within ToxicOS, bringing ToxicOS one step closer to being a
+  full OS replacement for the standard PS2 browser.
+- DVD-9 games such as Gran Turismo 4 are now playable from the HDD.
+- 48-bit LBA support added, while keeping support for 28-bit applications
+  on the same HDD (such as the Sony browser upgrade).
+- Many compatibility fixes for playing games from the HDD have been included.
+- Support has been added for DVD+R dual layer media, making DMS4 the worlds
+  first modchip to support dual layer backups.
+- Support for the V12 IDE HDD hack for those daring enough to attempt it :)
+- Configuration screen added to ToxicOS where both modchip and OS settings
+  can be manipulated. This has made the standard Toxic config menu obsolete.
+- Games installed via ToxicOS now show an icon in the updated PS2 browser.
+- Fixed Devolution mode with unlicensed memory cards (MM16 etc).
+- Many other miscellaneous changes and fixes.
+
+Unfortunately due to lack of time we had to leave out the integrated cheat
+device as development has not been completed, however this will be included
+with the next release of ToxicOS along with some other very cool features.
+
+ToxicOS feature list
+====================
+
+OS features:
+
+- Run PS2 games directly from a _IDE_ HDD. This leads to decreased loading
+  times and makes gaming so much more convenient. Never again will you need
+  to endure those painfully slow loading times!
+- Boot standard discs (PS2, PSX, DVD) from inside ToxicOS (so you dont need
+  to boot movies etc through the native PS2 browser).
+- Run DVD-9 games from the HDD.
+- 48-bit HDD support to enable the use of larger drives.
+- V12 IDE HDD support.
+- Configuration screen where various settings relating to both the BIOS and
+  OS software can be configured.
+
+BIOS features:
+
+- Auto-detect and non-swap booting of all disc types (PS2, DVD, PSX, etc)
+- Support for DVD+R dual layer media
+- Compatible with all PS2 models V1-V12
+- Dev.olution mode (from memory card and HDD)
+- DVD region free, Macrovision removal and green screen fix for the DVD player
+- Auto-ATAD patching for HDD-enabled games
+- Fast boot mode for PS2, PSX and DVD movies
+- Support for the HDD browser upgrade on a non-Sony HDD
+- Set default boot mode to: Normal, MC/HDD Dev.olution, Fast Boot
+- Playstation 2 game video fix (Colour Carrier, PAL, NTSC, PAL60), with
+  automatic y-position correction
+- Playstation 1 game video fix
+- Enable MegaMemory memory cards without the need for the boot disc
+- Configuration menu where various settings can be manipulated
+- "Toxic" logo displayed at the PS2 logo screen
+- When booting from Dev.olution mode or Fast Boot, games use correct language
+- Modchip disable mode, for online gaming
+- Support for the Codebreaker cheat device
+- 100% boot rate
+
+Features planned for future releases include:
+
+- Integrated cheat device, allowing you to use cheats while playing games
+  from the HDD or CD/DVD without requiring a 3rd party cheating product.
+- The ability to manipulate console settings such as screen size, date/time
+  from inside of ToxicOS.
+- Support for installing homebrew applications to the HDD or memory card. This
+  will provide similar functionality to DMS Explorer/CC BootManager etc.
+- Some suprises which we know you'll love!
+
+Detailed Feature Overview
+=========================
+
+-> ToxicOS
+
+   When booting into ToxicOS you will be presented with the main menu which
+   lets you navigate through the various sections of ToxicOS.
+
+   * Load Disk     - selecting this will load the disc currently inserted in 
+                     the CDVD drive. This can be a PS2 game, PSX game or DVD 
+		     movie.
+   * HDD Games     - selecting this will bring you to the HDD game menu, as
+                     described in more detail below.
+   * Select Cheats - Currently not available, but in a future release will
+                     take you to the cheat code menu.
+   * Settings      - Takes you to the settings screen where the various
+                     settings relating to both the OS and BIOS software
+		     can be manipulated.
+
+   You can boot into ToxicOS either by holding down R1 while the console
+   is booting or setting the default boot mode to "ToxicOS".
+
+-> Run games from the HDD!
+
+   Using ToxicOS you can install and run games directly from an IDE HDD
+   connected to your PS2. To do this, navigate to the 'HDD games" screen
+   from the main menu. From here you can:
+
+   a) Play games already installed on your HDD
+   b) Install a new game to your HDD
+   c) Remove a game from your HDD
+   d) Rename a game on your HDD
+   e) View information for a specific game and change game settings
+   f) Return to the main menu
+
+   At the main screen either the game list or toolbar is in focus at any one
+   time. You can alternate focus with the LEFT and RIGHT buttons on the D-pad.
+   When the game list is in focus the key mapping is as follows:
+
+   UP/DOWN	- Select game
+   CROSS	- Start playing the selected game
+   TRIANGLE	- View info/settings for selected game
+   L1		- Scroll page up
+   R1		- Scroll page down
+
+   When the toolbar is in focus, use the LEFT/RIGHT buttons to select an
+   action and CROSS to choose that action. If you select install you will
+   be taken to the installation screen. Here you will be asked to insert a 
+   CD or DVD and then enter a name for the game using the onscreen keyboard.
+   While at the onscreen keyboard the key mapping is as follows:
+
+   D-pad	- Move selection
+   CROSS	- Make selection
+   START	- Shortcut for ENTER key
+   CIRCLE	- Shortcut for CANCEL key
+   L1		- Move cursor left
+   R1		- Move cursor right
+   L2		- Shortcut for BACKSPACE key
+   R2		- Shortcut for SHIFT key
+
+   Enter the name of the game then select ENTER to continue. Now the game
+   will be installed to the HDD - and this can take a while, so be patient :)
+
+   The rename and remove options in the toolbar are self-explanatory so no
+   need to cover them here. The settings option will bring up the game info/
+   settings dialog. From here you can see game information and change the
+   compatibility mode settings. Some games require special compatibility modes
+   to be set in order for those games to work correctly. More information
+   regarding these compatibility modes will be made available shortly.
+
+-> DVD+R dual layer media support
+
+   Until now it has been impossible to play DVD9 games backed up onto dual
+   layer media on the PS2 due to a problem with reading from the second layer
+   because the data format on burnt DL discs is different than on pressed
+   discs (burnt = OTP, pressed = PTP). However, we have discovered a software
+   hack which enables the PS2 to read even burnt OTP discs meaning it is now
+   possible to make backups of dual layer games such as GT4. ToxicOS includes
+   an "auto-patching" mechanism which applies this patch on the fly. The
+   auto-patcher is disabled by default, to enable set "DVD+R DL Support" in
+   the settings menu.
+
+   NOTE: Unfortunately due to software restrictions the auto-patching will
+         not work if you boot your DL backup from the updated Sony browser
+	 stored on the HDD. If you are using the updated browser then in
+	 order to play your DL backups you must boot them either with
+	 fastboot or from inside ToxicOS ("Launch Disc" from main menu). If
+	 you are not using the browser update then there are no limitations
+	 regarding how you can boot DL backups.
+
+-> 48-bit HDD support
+
+   ToxicOS has now broken the 28-bit barrier, making it possible to fully
+   utilise HDD's with their capacity larger than 128GB. If you are using such
+   a HDD you also have the option of using the Toxic Extened APA partition
+   format on your HDD which has many advantages over the standard APA
+   partition format, used by all other current PS2 HDD aplications (ie: homebrew
+   software).
+
+   MAKE SURE that you read the section relating to the two different partition
+   formats below since it contains some VERY IMPORTANT information, especially
+   relevant to those who wish to use homebrew software with "48-bit HDD support".
+
+-> V12 IDE HDD support
+
+   With the release of schematics by "automan" it has become possible to connect
+   a standard IDE HDD to the V12 "pstwo" however all the current HDD
+   applications have problems, forcing you to re-format the drive on each boot.
+   ToxicOS has overcome this limitation and offers full V12 HDD support for
+   those that are daring enough to wire up the IDE interface ;)
+
+-> Dev.olution mode
+
+   Using Dev.olution mode you can boot applications from either the memory
+   card or hard disk drive. When booting in MC Dev.olution mode, the ELF file
+   "mc0:/BOOT/BOOT.ELF" is launched. This ELF file can be anything you want, 
+   such as DMS Explorer, PS2Menu, PS2OS etc. To boot in MC Dev.olution mode
+   either hold down TRIANGLE on controller 1 while the PS2 is booting, or
+   set default boot mode to MC Dev.olution in the configuration menu. Currently
+   the only application which can be launched with HDD Dev.olution mode is
+   DMS HDD Explorer. Once HDD Explorer is installed, you may boot in HDD
+   Dev.olution mode by either holding down START on controller 1 while the PS2
+   is booting, or set default boot mode to HDD Dev.olution in the configuration
+   menu.
+
+   NOTE: From ToxicOS v0.2 and up you must use DMS HDD Explorer v1.3 or
+         greater. Older versions are no longer supported.
+
+-> ATAD auto-patching
+
+   When ATAD auto-patching is enabled, you can connect a non-Sony HDD to your
+   PS2 and use it as though it was an official Sony drive. You will be able
+   to install and use the HDD browser update (found on the HDD utility disc) on
+   a non-Sony HDD, and you will be able to partially install some games with
+   HDD support to improve performance.. even though this is a bit pointless
+   with the existence of ToxicOS ;)
+
+-> Fast boot mode
+
+   Fast boot mode allows you to skip the redundant "swirling electrons" and
+   various logo screens and directly load your PS2/PSX game or DVD movie as 
+   soon as you turn on the console, saving valuable time which would be better 
+   spent gaming. To use fast boot mode, either hold down SELECT while the PS2 
+   is booting or set default boot mode to fast boot in the configuration menu.
+
+-> Default boot mode
+
+   Using the configuration menu you can set the default boot mode to one of the
+   following: Normal, ToxicOS, Fast Boot, MC Dev.olution, HDD Dev.olution. If 
+   you do not manually specify a boot mode while the PS2 is booting by holding 
+   down a button on controller 1, the default boot mode will be used. For 
+   example if the default boot mode is set to MC Dev.olution, when you turn on 
+   the PS2 without holding down any buttons on the controller, your MC Dev.olution
+   application will be loaded from the memory card. If you then wish to boot
+   normally (i.e.: boot through standard browser) hold down CROSS on controller
+   1 while booting to over-ride the default boot mode.
+
+-> Playstation 2 game video fix
+
+   There are 4 different modes for the PS2 video MODE fix, as described below:
+
+   - Colour Carrier: The colour carrier of the video signal is changed to
+     match the region of your console.
+   - Force PAL: Video mode forced to PAL (50hz), regardless of what video mode
+     games try to set.
+   - Force NTSC: Video mode forced to NTSC (60hz), regardless of what video
+     mode games try to set.
+   - Force PAL60: Video mode forced to PAL60, which is 60hz with PAL colour
+     carrier.
+
+   In addition to the PS2 video MODE fix, you can also enable the PS2 video
+   Y-POS fix. The y-position fix is used in conjunction with the PS2 video
+   MODE fix in order to correct the vertical position of the display. For
+   example, simply focing PAL when a NTSC game is running will generally result
+   in the display being far off center. The y-position fix corrects this and
+   centers the display. Please note that the y-position fix is not available
+   when the PS2 video MODE fix is off or set to Color Carrier, since in these
+   cases the video mode is not forced so the display position will not need
+   to be corrected. Please note that the y-position fix feature should still
+   be considered EXPERIMENTAL and has been known to cause problems with a few
+   games. If a game isnt working, disable the y-position fix and see if this
+   helps.
+
+   You can configure the PS2 video MODE and PS2 video Y-POS fixes in the
+   configuration menu.
+   
+-> Settings Menu
+
+   The configuration menu is used to manipulate various ToxicOS settings, for
+   example enabling or disabling ATAD auto-patching. The configuration menu also
+   displays useful information about your PS2 system and DMS4 modchip. To enter
+   the settings menu, boot into ToxicOS then at the main menu select "Settings".
+   
+-> Disable Mode
+
+   When playing online games it is often necessary to disable the modchip so you
+   do not get a DNAS error while connecting to the online game server. To
+   disable DMS4, hold down L1 on controller 1 as the PS2 is booting. You will
+   see a message saying that the modchip has been disabled. Insert your game and
+   reset the console - the modchip will not be disabled and will stay disabled
+   until the PS2 is placed in standby.
+
+-> Codebreaker cheat device support
+
+   The more recent codebreaker cheat devices include a protection system which
+   is designed to detect the presence of modchips and prevent the application
+   from working on a modified system. ToxicOS bypasses this protection and
+   allows codebreaker to work properly, however you must first set
+   "Auto Tray Eject" to OFF in the options menu.
+
+HDD partition format information - ALL READ!
+============================================
+
+If you are using a 48-bit compatible HDD (ie: a HDD that has a capacity greater
+than 128GB) ToxicOS gives you the option of either using the Toxic Extneded
+APA format (abbreviated "APAEXT") or the standard APA partition format
+(abbreviated "APA"). If your HDD is not formatted then you will be asked
+if you wish to use APAEXT or APA. If your HDD is already formatted but you
+have not used data past the 128GB boundary then you will be asked if you
+wish to update to APAEXT (please note that you will not lose any data during
+this process). APAEXT is better than APA in many ways and in general we
+recommend that you use this, however there are some people who will want to
+stick with the standard APA format as we will describe further down.
+
+The reason why the two different formats are needed can get rather technical
+and allough we recommend that you read all the information before making your
+decision as to which format you use, we realise that the information is a lot
+to take in and can be hard to understand so we will provide a simple set of
+guidelines you can use to make your decision if you wish, and then following 
+that some detailed information explaining the differences between the two
+formats in more detail.
+
+Simple Guidlines
+----------------
+
+ - If your HDD capacity is less than 128GB then APAEXT is not supported so the
+   standard APA format will be used.
+ - If your HDD capacity is greater than 128GB and you NEVER used or intend to
+   use homebrew applications patched with 48-bit LBA support such as patched
+   HDLoader, patched DMS Format Tools, 48-bit PS2OS etc then you should use
+   APAEXT. This will allow you to completely fill the HDD with games for
+   ToxicOS while maintaining compatibility with 28-bit HDD software (such as
+   Sonys upgraded browser). THIS IS THE RECOMMENDED OPTION!
+ - If your HDD capacity is greater than 128GB and you have used or intend to 
+   use homebrew applications patched with 48-bit LBA support such as patched
+   HDLoader, patched DMS Format Tools, 48-bit PS2OS etc (even though there is
+   no point in using 48-bit versions of these applications if you intend to 
+   use ToxicOS) then you should choose standard APA.
+
+WARNING: Using 48-bit patched applications such as 48-bit HDLoader when the HDD
+         has been formatted with APAEXT can cause HDD corruption! We recommend
+	 that you simply avoid 48-bit patched HDD software and simply use the
+	 standard 28-bit versions.
+
+Technical information regarding the different formats
+-----------------------------------------------------
+
+NOTE: Here we assume that 1 gigabyte = 1024 megabytes, not 1000 megabytes. This
+      makes the maximum capacity for a 28-bit HDD 128GB and not 137GB.
+
+APAEXT essentially breaks the HDD into 2 parts, the first part being 128GB
+large and the second part taking up the remaining space on the HDD. The first
+part has the same format which current 28-bit HDD enabled homebrew software 
+applications use. This makes it so that any such applications can utilise the
+first 128GB of the HDD, and the applications will only see the first 128GB of
+the HDD so they will not interfere with the game data stored on the second
+part. The second part of the HDD *should* only be accessed by ToxicOS or
+software which can recognise the format of the second part (at the time of
+writing, ToxicOS is the only application which can do this).
+
+The problem comes when you want other homebrew applications to be able to see
+past the 128GB barrier. Some people have patched commonly used homebrew HDD
+applications such as the DMS format tool etc to be able to utilise area past
+the 128GB barrier, however these applications do not know about the APAEXT
+format and if you use them on an APAEXT formatted HDD then if they write data
+past the 128GB barrier YOUR HDD WILL BECOME CORRUPT! If you wish to use such
+applications then you must tell ToxicOS to use the standard APA format - 
+however if you have data written past the 128GB barrier using the standard APA
+format you will not be able to use standard HDD enabled applications that
+have not been patched to see past the 128GB barrier (such as the updated 
+PS2 browser software)!
+
+So, its all a bit of a mess really. If you format with APAEXT then you cannot
+use homebrew applications with 48-bit HDD support. If you format with standard
+APA you cannot use applications with only 28-bit HDD support once there is
+data past the 128GB barrier. Keep in mind, that most applications only support
+28-bit INCLUDING the updated PS2 browser which runs from the HDD. Therefore it
+is our opinion that copies of homebrew software which have been patched to 
+support 48-bit HDD's are generally bad news and you should try and avoid such 
+software, ESPECIALLY IF YOUR HDD IS FORMATTED WITH APAEXT.
+
+OUR RECOMMENDATION IS:
+
+That you format with APAEXT and avoid homebrew applications with 48-bit support. 
+There really is no need to use such applications anyway since ToxicOS will 
+install games to the second part of the HDD first until it contains no more 
+free space and only then will it start installing games to the first part. So, 
+for most people you will have lots of space for homebrew applications to use 
+on the first part of the HDD eliminating the need for homebrew applications
+to see past the first 128GB.
+
+Boot-time controller mapping
+============================
+
+When the console is booting, holding down certain buttons on controller 1 will
+activate certain modes/features. These are listed below:
+
+   CROSS    - Use standard boot (over-ride default boot mode setting)
+   R1       - Boot into ToxicOS
+   TRIANGLE - MC Dev.olution mode
+   START    - HDD Dev.olution mode
+   SELECT   - Fast boot mode
+   L1       - Disable modchip
+
+How to Install
+==============
+
+Installation directions vary depending on boot method:
+
+- ELF boot: Simply execute the ELF using your favorite loader application 
+  (PS2Menu, PS2Link, Naplink, PS2OS, LaunchELF etc) and follow the on-screen 
+  directions.
+
+- CD boot: Simply burn the BIN/CUE provided, boot the disc and follow the
+  on-screen directions.
+
+Frequently Asked Questions
+==========================
+
+Q: How do I boot into ToxicOS?
+A: Hold R1 while booting the PS2 or set the default boot mode to "ToxicOS".
+
+Q: Can I disable the "Toxic" logo displayed under the Playstation 2 logo when
+   booting PS2 games?
+A: Yes. Set "Display Toxic Logo" to NO in the configuration menu.
+
+Q: Why do I get the "TV system doesn't match" error while trying to play a
+   DVD movie?
+A: You will be presented with this error if you attempt to play a PAL movie on
+   a NTSC console. This is due to a limitation in the DVD player software and
+   currently there is no way around this. We are looking into ways to fix this
+   and hopefully a fix will be included in a future ToxicOS release.
+
+Q: I have a feature request or bug report for Team Toxic. How can I contact you?
+A: We do not provide any contact details such as e-mail addresses etc, however 
+   we do monitor various "scene" forums so if you have a request or a problem
+   then just make a post and there is a good chance we will see it and take note
+   of it :)
+
+Q: I have a game which isnt loading or working prorperly. What can I do?
+
+   1) Disable y-position fix if it is enabled. This is still experimental and
+      has been known to cause problems with a few games.
+   2) Make sure that the game is burnt on good quality media at an appropriate
+      speed. If your PS2's laser cannot read from your disc, the game will
+      obviously not work.
+
+Q: I have heard that some code was "stolen" in order to create ToxicOS, is this
+   true?!
+A: NO NO NO! People who say this are just trying to brainwash you in a sad
+   attempt to hurt Team Toxic. The TRUTH is NOTHING was stolen, as I will explain.
+   Its true that ToxicOS contains code from the open source projects ps2lib, 
+   ps2drv and libhdd however this DOES NOT mean that we have stolen any code! 
+   These open source projects are licensed in such a way that anybody can use 
+   them for anything they want be it commercial projects, freeware projects, 
+   open source or closed source! The only requirement is that the copyrights 
+   of the original authors remain intact, this requirement has been met with 
+   the license file supplied with this release. Other than the projects 
+   mentioned above, ALL OTHER CODE in ToxicOS was developed by Team Toxic - 
+   its our code, it belongs to us, and we can do with it as we see fit.
+
+Q: Will the source code for ToxicOS ever be released?
+A: No. We dont feel it would be a good idea to release source code since then
+   it would make it far too easy for certain groups to use our software for 
+   their own financial gain by including it with their own products. Certain 
+   HK companies will rip just about anything if they get a chance (even stuff 
+   like Naplink.. "bootable Naplink CD's" anyone?) - so lets not give them 
+   that opportunity :)
+
+Version Information
+===================
+
+ToxicOS consists of ToxicBIOS at its core (which means it has all the same
+features as ToxicBIOS) and the actual OS application. The version numbers 
+for these components in this ToxicOS build are as follows:
+
+BIOS v1.3
+OS software v0.3
+
+Change Log
+==========
+
+ 0.3 Release:
+ ------------
+
+ * Updated core BIOS to ToxicBIOS v1.3, which includes the following changes:
+   - Added support for DVD+R dual layer media, making DMS4 the worlds
+     first modchip to support dual layer backups.
+   - Fixed devolution mode with MM16 cards
+   - Fixed booting PSX games which do not have SYSTEM.CNF
+ * It is now possible to launch your PS2/PSX games and DVD movies off disc
+   directly from within ToxicOS, bringing ToxicOS one step closer to being a
+   full OS replacement for the standard PS2 browser.
+ * DVD-9 games such as Gran Turismo 4 are now playable from the HDD.
+ * 48-bit LBA support added, while keeping support for 28-bit applications
+   on the same HDD (such as the Sony browser upgrade).
+ * Many compatibility fixes for playing games from the HDD have been included.
+ * Support for the V12 IDE HDD hack for those daring enough to attempt it :)
+ * Configuration screen added to ToxicOS where both modchip and OS settings
+   can be manipulated. This has made the standard Toxic config menu obsolete.
+ * Games installed via ToxicOS now show an icon in the updated PS2 browser.
+ * Many other miscellaneous changes and fixes.
+
+ 0.2 Release:
+ ------------
+
+ * Updated core BIOS to ToxicBIOS v1.2, which includes the following changes:
+   - Fastboot can now also load PSX games and DVD movies
+   - Improved authentication logic which leads to significantly improved boot 
+     rates on consoles with poor lasers
+   - Codebreaker cheat devices are now supported
+   - Manual y-position fix toggle and gui enhancements added to configuration menu
+   - Progressive scan while PS2 video fix enabled is now working
+   - Added support for DMS HDD Explorer v1.3. Older versions are no longer 
+     supported.
+   - Other minor bugfixes and code cleanup
+ * Fixed a bug which caused a black screen on reset after playing PSX games
+ * There have been no changes to the OS software in this build
+
+ 0.1 Release:
+ ------------
+
+ * Initial release!
+
+Group News
+==========
+
+Team Toxic is also working on a patcher for DVD9 games which will allow you
+to patch the disc image so it can be burnt onto DVD+R DL media and used with
+any modchip. The effect is similar to the auto-patcher already integrated
+into our flash except the patch is applied before the disc is burnt and not
+as it is loaded.
+
+However, we had to question if this was a good idea when we learnt that
+certain modchip manufacturers have been planning to rip our DVD+R DL patching
+code since it was originally announced, long before the actual ToxicOS release.
+We have decided to still release this for the good of the scene however - but
+if you see DVD+R support appear in other modchips in the near future please
+keep in mind where this came from originally :)
+
+On another note, we would like to send out a big "thank you" to the people
+involved in beta testing this ToxicOS release (you know who you are). You
+guys rule! :)
+
+Miscellaneous
+=============
+
+ToxicOS may be hosted by anybody, anywhere - PROVIDED that the archive
+remains unaltered and that it is not used in ways its not supposed to be!
+
+Oh, and props to the DMS team for making such a nice modchip - even though
+the flash they ship with the chip sucks and cant do much of anything :P

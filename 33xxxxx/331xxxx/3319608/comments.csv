@@ -1,0 +1,63 @@
+﻿User Type,Username,Date,Text
+,McKack,2005-04-21T09:29Z,Nice takk!
+,pgeric,2005-04-25T10:10Z,"sorry, bad link :)"
+,stmux,2005-04-28T05:03Z,Serial/Activate does not work
+,gurgel,2005-05-02T00:50Z,"Lots of people have told me that the serial doesn't work. It's the serial from my original, and it surely does work.
+
+But still, if it doesn't, try this:  Enter 111-111111111 (i.e. just 1's) when installing and after the program has launched, open the registration-wizard (or whatever it was called, I'm not gonna reinstall just to check), there should be a button called ""change serial-id"" along with an ""enter an activation code"". In there, change the serial to the one I've added in the iso, and then enter the activation code.
+
+The language/country should not matter, but try ""United states"" (as it is for me) in case you still run into trouble."
+,gurgel,2005-05-02T00:51Z,"Clarification: The change serial button can be found _IN_ the program after it has _LAUNCHED_ properly. 
+
+You can run the program up to 15 days grace period without a valid serial."
+,k8_fan,2005-05-11T17:28Z,"Thank you Gurgel! Very neat program, and you included both disks. Thanks also to everyone who stuck around to seed."
+,MangeMouse,2006-03-04T10:02Z,i entered the serial but i still only have 15 days left.. .why?
+,sleser,2006-05-04T21:41Z,"I have the same problem, I entered the serial, but still have only 15 days.
+When I click Licensing Wizard an error occurs, that a file is missing. I installed it again and the same story????"
+,bergamote,2006-08-08T17:09Z,Thanhs a lot
+,dougie42,2006-08-17T21:33Z,"Bah - what a bunch of complainers...!
+It works fine, serial, activation code - like a glove...
+It couldn't be easier!
+What's the problem? When it asks for serial - enter the provided serial. When it asks for activation code - enter provided activation code. Impossible to fail.
+It worked fine here. No 15 days trial at startup or anything. I'm up and running baby!
+
+Big thanks to u gurgel!"
+,DrivenMad,2006-08-18T17:09Z,"Alrighty kids, I have figured out a way around the ""no activation problem"" Get the torrent and install it like usual using the keygen provided. Goto discreets site and pull the 4.03 update for combustion and apply. when you run combustion again it will accually pop up the activation screen! I applied this after my 15 days were up and it worked awsome!!! enjoy :)  DM"
+,dc33,2007-03-01T01:12Z,"I had the same problem where it told me I had a bad activation code; install version 4.03 first and then have your firewall block combustion's access to the internet - that or just unplug your ethernet cable.  Either way, it'll prevent the software from referencing autodesk's records, which means you'll be set unless there's some kind of update in the future."
+,s3nya,2007-05-03T05:50Z,"Hi guys, I figured out why some of you couldn't enter activation code, that is because your PeerGurardian is active. Disable them when you do the activation code. I had this problem before too but it works now. Have fun!"
+,AMD freak,2007-08-27T05:56Z,"* works 100%
+Installed on WinXP Pro SP2
+
+This is the ""Real Deal"" peeps Combustiion 4 Full Retail on 2 CD's.
+I burned these two .iso images to CD and Installed, activated and it all worked 100%.
+I also downloaded and installed the 4.0.5 update.
+
+Thanx again gurgel
+
+\,,/ d^.^b \,,/ "
+,black-panther,2007-11-03T21:11Z,"works
+@ s3nya thanks for the tip"
+,ooaar,2007-11-27T00:57Z,"doesn't work for me 
+tried every possible way of installing but just won't take the activation code
+serials fine
+but maybe something to do with running *cough* vista
+..... now... where did i put that ubuntu disk"
+,bazdmegmar,2008-11-22T04:52Z,"Had the activation problem too. Uninstalled, reinstalled with 111-111..., then changed as said earlier, and worked well with the activation code."
+,jd_skillz,2008-12-08T23:23Z,"it dint work with me.. i dowloaded it and burned the images to a cd. then installed them to ""program files"" then i ran the ""combustion exe."".. 
+after it tells me that its finished installing i open it and when its uploading the plugins it gets to the paint plugins and a pop-up comes up telling me an error has occured and combustion its closing!!!!
+
+it dnt even give me a chance to put the activation/serial 
+
+SOMEONE HELP :*("
+,DJnees,2009-09-18T09:18Z,"Installed properly but i got problem activating it....
+still running 15 days trail...."
+,Foxly,2010-12-15T00:47Z,"Even with all updates installed from Discreet's site, it still wouldn't accept the auth code. Here's the workaround: When you try to enter the auth code, it states it saved your reg info into an .htm and shows the addy for where. Go there and delete the 2 reg .htm's you find there. Try to auth again, thereafter it changes from Grace Period 15 days to Grace Period 25544 days left. LOLz, but better than 15."
+,Foxly,2010-12-15T10:12Z,Update: the next day I restarted my pc and tried to run Combustion and it was back on 15 day trial. The auth code DOESN'T work. The instructions were followed to the letter. I also didn't allow access to Combustion through Windows Firewall when it asked. I tried it by allowing it as well. Nothing works. I hear version 2008 is floating around out there and it works.
+,Bematli,2011-04-28T21:18Z,"My fix to the ""Activation code"" problem:
+1. Open RegEdit
+2. Globally search for ""discreet""
+3. After looking through your whole registry, you should have found 2 folders that have your current Serial stored. Delete them.
+4. Open Combustion again
+5. Provide the Serial again
+6. The activation key should now work"
+,tee_bee,2011-11-04T19:52Z,"Worked like a charm on windows 7 64.  I just installed with the serial number and selected US. Reopened, hit the Wizard, added the activation code, full funtion."

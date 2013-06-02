@@ -1,0 +1,124 @@
+ScummVM Games Collection, no Humongous - PC & FMTOWNS - English 
+
+This torrent includes all of the PC & FMTOWNS (English language) adventure games playable with the ScummVM emulator, excluding the Humongous Entertainment titles.  The ScummVM emulator can be found here:
+
+http://www.scummvm.org/
+
+
+Here is a list of the games in this torrent:
+
+Beneath a Steel Sky
+Broken Sword  - The Shadows of the Templars
+Broken Sword 2 - The Smoking Mirror
+Day of the Tentacle
+The Dig
+Flight of the Amazon Queen
+Full Throttle
+Gobliiins
+Indiana Jones and the Last Crusade (Indiana Jones 3)
+Indiana Jones and the Fate of Atlantis (Indiana Jones 4)
+Inherit the Earth
+Loom
+Maniac Mansion
+Passport to Adventure (Indy3, Monkey and Loom demos)
+The Secret of Monkey Island (Monkey Island 1)
+Monkey Island 2 - LeChuck's Revenge
+The Curse of Monkey Island (Monkey Island 3)
+Sam & Max Hit the Road
+Simon the Sorcerer
+Simon the Sorcerer 2 - The Lion, the Wizard & the Wardrobe
+Zak McKracken and the Alien Mindbenders
+
+All of the games are either DOS or FMTOWNS versions, except "Simon the Sorcerer 1 Talkie (VGA-CD)(Win)" and "Simon the Sorcerer 2 Talkie (VGA-CD)(Win)" which are Windows versions.
+
+All game files are stored in their own solid RAR archives, minus CD audio tracks, which are stored in separate RAR archives.
+
+Only those files necessary to play the games with ScummVM are included in this release so you must use ScummVM to play them.  The original command interpreters aren't included.
+
+ScummVM now supports Roland MT-32 emulation.  However, only select games have MT-32 tracks.  To use MT-32 sound you must extract both files in the "Roland MT-32 ROMs" RAR archive into the game's directory or extras path.  Then, you need to select MT-32 music driver from the Audio tab under the games configuration.  MT-32 midi is an improvement over general midi so I recommend using it for the games that have MT-32 tracks.  Here are the games that held up under minimal testing with MT-32 sound (the compressed versions of these games should also work):
+
+"Beneath a Steel Sky (VGA-CD)"
+"Beneath a Steel Sky (VGA-Floppy)"
+"Day of the Tentacle (VGA-CD)"
+"Flight of the Amazon Queen (VGA-CD)"
+"Flight of the Amazon Queen (VGA-Floppy)"
+"Indiana Jones 4 (VGA-CD)"
+"Indiana Jones 4 (VGA-Floppy)"
+"Inherit the Earth (VGA-CD)"
+"Inherit the Earth (VGA-Floppy)"
+"Monkey Island 1 (VGA-Floppy)"
+"Monkey Island 2 (VGA)"
+"Monkey Island 2 (FMTOWNS)"
+"Sam & Max (VGA-CD)"
+"Simon the Sorcerer 1 (VGA-Floppy)"
+"Simon the Sorcerer 1 Talkie (VGA-CD)"
+"Simon the Sorcerer 1 Talkie (VGA-CD)(Win)"
+"Simon the Sorcerer 2 (VGA-Floppy)"
+"Simon the Sorcerer 2 Talkie (VGA-CD)"
+"Simon the Sorcerer 2 Talkie (VGA-CD)(Win)"
+
+
+There are six separate subfolders in this release.  For most people, it will not be necessary to download the contents of all six folders.  If you only want a specific game make sure you check the ScummVM Games CD Audio subfolders to see if your game uses CD audio.  If you want the complete set of games, I recommend you download all of the folders minus "ScummVM Games CD Audio - Uncompressed - wav" unless you want to customize the audio encoding of the CD audio tracks.  Here's a description of each sub-folder:
+
+
+"ScummVM Games - Compressed"
+
+This folder contains compressed versions of all of the games that can be compressed with the current ScummVM tools.  The tools used were from the September 10, 2005,  CVS build of ScummVM.  I ran into a problem with one of the wavs in Broken Sword 1 (6M13.WAV) but corrected it manually.  Other than that one hitch, the tools seemed to work properly and the compressed games held up under some brief testing with ScummVM.  Oggenc v1.1.1 was used to compress the audio at VBR quality 4 (nominal bitrate of 128kbps).  I'm fairly confident that all of these games are playable, but given the beta nature of some of the tools used I recommend downloading the Uncompressed set in this torrent in addition to this one.  If you run into any issues with corrupted sound or the game crashing playing the uncompressed version of the game is likely to resolve the problem.
+
+
+"ScummVM Games - Not Compressible"
+
+Here are the games that are not compressible with the current ScummVM tools.  The game files are in their original state.
+
+
+"ScummVM Games - Uncompressed"
+
+"Uncompressed" means the game files have not been tampered with by ScummVM compression tools.  The audio contained within specific files for these games can be compressed to mp3, ogg, or flac using ScummVM tools (the ScummVM website and readme docs have details on how to do this).  SANs multimedia files can also be compressed.  The games can be played as they are, but if you want to reduce their size the option is there.  Be aware beforehand, though, that transcoding the audio for better compression may result in a loss in quality depending on what settings you use.  If you use the correct settings, you can greatly reduce the size of some games with a loss in audio quality that's completely imperceptible.  Several of the ScummVM tools are still considered to be in a beta state and may produce unpredictable results.  Even if you choose to compress the games using the ScummVM tools I recommend you keep a copy of the uncompressed game files in this folder.  The "ScummVM Games - Compressed" folder in this torrent has all of these games already compressed with ogg audio.  
+
+
+"ScummVM Games CD Audio - Compressed - ogg"
+
+This folder has the CD audio tracks (in ogg format) for 
+
+"Gobliiins 1 (VGA-CD)"
+"Indiana Jones 3 (FMTOWNS)"
+"Loom (FMTOWNS)" 
+"Loom (VGA-CD)"
+"Monkey Island 1 (VGA-CD)"
+"Zak McKracken (FMTOWNS)".  
+
+The audio tracks for "Monkey Island 1 (FMTOWNS)" are not included, but the audio tracks from "Monkey Island 1 (VGA-CD)" seem to work for the FMTOWNS version (although I'm not sure, it's possible that the audio tracks for the original releases on both platforms are identical).  These ogg tracks were transcoded using Oggenc v1.1.1 at VBR quality 4 (nominal bitrate 128kbps) and are very close in quality to the original wav files.  While listening to these tracks with high quality headphones, I could not distinguish the difference between them and the original wav tracks.  
+
+
+"ScummVM Games CD Audio - Uncompressed - wav"
+
+Here are the CD audio tracks (in uncompressed wav format) for 
+
+"Gobliiins 1 (VGA-CD)"
+"Indiana Jones 3 (FMTOWNS)"
+"Loom (FMTOWNS)" 
+"Loom (VGA-CD)"
+"Monkey Island 1 (VGA-CD)"
+"Zak McKracken (FMTOWNS)".  
+
+The audio tracks for "Monkey Island 1 (FMTOWNS)" are not included, but the audio tracks from "Monkey Island 1 (VGA-CD)" seem to work for the FMTOWNS version (although I'm not sure, it's possible that the audio tracks for the original releases on both platforms are identical).  ScummVM will not use wav audio, so don't bother downloading this folder if you don't know how to (or don't want to) transcode the audio tracks to mp3, ogg, or flac.  The "ScummVM Games CD Audio - Compressed - ogg" folder in this torrent contains these same tracks but they're already transcoded to ogg and therefore ready to use with ScummVM.
+
+
+"ScummVM Manuals"
+
+Here are scans of game manuals for every game except Flight of the Amazon Queen (which I could not find the manual for).  The manuals are in Adobe Acrobat PDF format.  The Zak McCracken manual is for the Amiga version of the game, but most of what's included is applicable to the PC & FMTOWNS versions.
+
+
+Notes:
+
+Many of the SCUMM game files were taken from PASSIGAR v0.5.  This version of PASSIGAR replaced the original dates of the files with the date December 24, 1996, 11:32pm.  This does not cause any problems whatsoever; I mention it only so you won't get confused if you compare the file dates with any original copies of these games.
+
+When setting up ScummVM to play Broken Sword 1 or 2 make sure you point the path for Extras to the respective Extras folder for each game.  If you don't do this you won't see any of the intro/cut-scene material for either game when you play them.
+
+If you played Indiana Jones 3 back in the day on the PC (as I did) I recommend you check out the FMTOWNS version.  It plays the same as the PC VGA version but has CD audio that is a lot nicer than the midi us PC users were stuck with.  Same goes for Zak McCracken; the FMTOWNS version is an enormous improvement over the PC version.
+
+At the time of this posting, the latest stable release of ScummVM (v0.7.1) doesn't properly support the compressed version of  "The Dig"(Dig) or "The Curse of Monkey Island"(Monkey Island 3); v0.7.1 doesn't support compressed BUN audio files so most sound won't play and you'll get subtitles in place of speech.  You should use the latest CVS build of ScummVM to play the compressed version of these two games.
+
+At the time of this posting, "Gobliiins" and "Inherit the Earth" are not supported by the latest stable release of ScummVM (v0.7.1).  You must use a CVS build of ScummVM to play these games.  Currently, I have to skip past the intro in "Inherit the Earth (VGA-CD)" (it won't play).  I'm guessing this issue will be resolved in a future release of the emulator.  You can expect this same issue when trying to start this game.  If you want to view the intro for Inherit the Earth, try "Inherit the Earth (VGA-Floppy)" which doesn't seem to have this problem and plays the intro normally.  You can always just watch the intro for the floppy version and then exit and play the CD version to get the full experience.
+
+Happy adventuring!  : )

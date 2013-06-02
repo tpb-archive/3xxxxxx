@@ -1,0 +1,43 @@
+﻿User Type,Username,Date,Text
+,MrMann,2005-03-18T17:41Z,"Whoops, I didn't know that. I really should get into the habit of looking before uploading."
+,obit,2005-03-20T06:02Z,anyone know where to find a nocd Crack for this game ?
+,MrMann,2005-03-21T22:52Z,"Afraid not. Anyways, you need the CD to play the game, that's where the Movie files and such are. It is an old game after all. The next best thing is using a Virtual CD Drive like Daemon-Tools or the one with Alcohol 120%. And there is the option of getting a RIP version of the game, but that is only if you don't mind not having the full Voice and FMVs of the game."
+,obit,2005-03-22T14:13Z,if i remember correctly there was a rip version released of this game by razor1911 i think.. the cracked exutable from that release can be used.. and by copying the entire cd to installation folder u get the voice and fmv.
+,MrMann,2005-03-22T19:46Z,"That's actually an interesting method, I've actually applied that method for other games but not for this one. Guess I'm just too lazy to try. Anyways, I remember finding a RIP version at some Warez site. But I think it was by CLASS, not sure because I didn't even test out the game. But I did download it, and will test out that the EXE from that game and see what happens. Assuming I can find the RIP that is..."
+,MrMann,2005-03-22T21:11Z,"Well, the RIP really is available at the same Warez site that I got Solar Winds 1 and 2 from. And the RIP I got was from CLASS, but I deleted it quite awhile ago. I think there was another RIP available by some other group. Anyways, the RIP I found was for the DOS version. The NoCD trick does not work for the Windows 95 version, only the DOS version. And here is the trick, edit the first line in your ""LOSTV.CFG"" file after a Maximum Installation. For example, change ""D:"" to """" without the quotation marks. Or change it to ""."". The first method worked for me, the second did not. I found the second method when looking for cracks of this game. And you have to copy over the FMV and SPEECH files from the CD to get those files to work.
+
+If you know how to make NoCD cracks and stuff, then you can probably apply it to the Windows 95 version of the game. But you can always use Daemon-Tools though. That depends on your preference, of course."
+,fengie,2005-06-15T11:23Z,Downloaded this game but it only seems to include images? but it says that it´s 265 mb!? Am I crazy? 
+,Ziggy_1983,2005-07-26T13:23Z,"I´ve downloaded this game and i just love The Lost Vikings, but i can´t get to play it because it want´s a CD.
+Does Anyone know where i can get a NO CD file?
+Hope someone can help me."
+,k0pp,2006-12-22T23:03Z,why wont the installation start :S
+,Krijztian,2007-12-02T16:43Z,Is it possible to get a few more to seed it?
+,tremor221,2009-07-11T15:43Z,"Yo! This is how I got this game to work in my PC:
+
+Installation Guide for Lost Vikings 2 [Win 95 Version through DOSBox]
+
+1. Mount image file or insert CD [burned from image] to your CD Drive.
+2. Right-click on the drive the game is in and select ""Explore"".
+3. Copy everything to C:\Games\The Lost Vikings 2\
+4. Go to the folder and look for ""SETUP.EXE""
+5. Drag the file to the DOSBox icon in your Desktop
+6. Once the setup screen pops up, type in these settings:
+	Language: English
+	CD-Drive letter: Letter of the drive files were copied to
+	Complete Installation
+	Destination Path: Change ""INTERPLAY"" to ""Games""
+	Confirm Install Info by choosing Yes
+7.Right after installation, type ""lv2.bat"" straight away
+
+Playing the Game in DOSBox:
+
+Open DOSBox and type the following*:
+	mount c c:\Games\TheLos~1
+	c:\
+	cd games\lv2
+	lv2
+
+* You have to mount the folder where you copied the files to enjoy the music,
+  effects, voice and cinematics this Win95 Version has to offer."
+,koppster,2010-01-06T22:35Z,anyone know how to get the speeches to work

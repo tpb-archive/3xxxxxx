@@ -1,0 +1,403 @@
+Mac version of the WoW-1.6.1.4544-to-1.7.0-enGB-patch
+-----------------------------------------------------
+
+World of Warcraft Client Patch 1.7.0 (2005-09-14)
+
+Zul'Gurub
+
+      Hidden within the jungles of Stranglethorn, an ancient Troll city full of peril has been uncovered. Do you have what it takes to delve into its mysteries with a band of hardy explorers? There's only one way to find out! Zul'Gurub is a high-level, 20-man raid instance with 120 new rare and epic items to uncover. Adventure awaits! 
+
+Arathi Basin
+
+      Join the League of Arathor or the Forsaken Defilers as they battle for the precious resources stockpiled within the latest Battleground, Arathi Basin! Pitting 15 members of each faction against each other, the race is on to be the first to 2000 resources, capturing strategic landmarks around the Basin to increase your team's gain and cripple the enemy. With an all-new set of reputation-based rewards, there's never been a better time to join the war! 
+
+Stranglethorn Fishing Extravaganza
+
+      The Stranglethorn Fishing Extravaganza is a grand new event set along the coasts of Stranglethorn Vale. Early on the appointed day, friendly neighborhood goblins will visit Ironforge and Orgrimmar to inform aspiring anglers of the grand tournament and give instructions. At the appropriate time, the shout will ring out across Stranglethorn to bait your hooks and cast your lines! 
+
+General
+
+    * The debuff limit has been increased to 16 (from 8). In addition, the client will now display all 16 debuffs.
+    * Switching weapons in combat triggers a 1 second global cooldown for all abilities for rogues and a 1.5 second global cooldown for everyone else.
+    * Possessed units (e.g. Mind Control, Eyes of the Beast etc...) can now cancel combat mode by clearing your current target. In addition, the UI will have a gold border when the possessed unit is actively in combat mode with the target.
+    * Several stun spells and abilities that were previously unresistable can now be resisted as was always intended.
+    * Damage absorption no longer protects against falling, drowning, or fatigue damage.
+    * The targeting circles for area effect spells will no longer be cancelled when the caster moves.
+    * Absorbed and resisted environmental damage is now shown in the combat log.
+    * If an attack deals non-physical damage, the type of damage is now reported in the combat log.
+    * Fixed bug where you could kill someone in a duel with spell reflection.
+    * Auras and shapeshift forms can be cancelled while you are fleeing or confused.
+    * Fixed bug where you couldn't right click to attack a hunter who is feigning death.
+    * You can no longer unequip weapons while they are disarmed.
+    * Debuffs and area effect spells now use their actual cast level rather than effective cast level for calculating periodic resistance.
+    * Escape Artist works with Frost Nova and Frost Trap again.
+    * Damage absorption is now applied before damage splitting effects.
+    * Casting spells on your pets and summons will no longer cause guards in neutral towns to attack you.
+    * Fixed a bug where mana was being regenerated while channelling spells that use mana.
+    * Fixed a bug where the Dazed ability used by creatures when attacking targets from behind was countered/dispelled by some spells (e.g. Blessing of Freedom).
+    * Fixed a bug where area of effect periodic damage spells were being resisted more frequently than they should have been when casting lower level ranks of the spell (affected spells were Blizzard, Consecration, Explosive Trap, Flamestrike, Hurricane, Rain of Fire and Volley).
+    * Effects that make players immune to physical will no longer be immune to the "Recently Bandaged" effect from First Aid.
+    * Made general improvements to the camera.
+    * You are no longer able to kill players in duels with reflected DoT spells
+    * When you swap weapons in combat, you start your swing again, instead of continuing your last swing.
+    * Fixed bug where self-inflicted damage, like Poisonous Blood, wouldn't break stealth.
+    * When an attribute increasing effect (e.g. Arcane Intellect) is refreshed on a target, it will no longer reset the target's health or mana and then increase the total.
+    * Spells and effects that reduce attack speed will no longer stack with each other. Some spells this change effects include Thunderclap, Frost Armor, the Doomguard's Cripple spell, the Icy Chill enchantment, and Hurricane.
+    * Players who have died can now view the contents of their bags and view menus (ie the character sheet, quest log, etc). This change also applies to Hunters that are using Feign Death.
+    * Pets now switch to a new target if possible when their current target is polymorphed.
+    * Meeting Stones
+          o A number of miscellaneous improvements have been made that should allow for better group forming when using the meeting stones.
+          o You will no longer be kicked from the meeting stone queue when a player declines a group invite or when inviting someone that is already in a group.
+          o You will now be informed that you have left the meeting stone queue when the group leader logs out.
+          o Tanks and Healers will now be immediately added to the group by the meeting stone when they are the 5th member of the group.
+          o You can now be added to a group by the meeting stone when that group contains characters that have disconnected. 
+
+PvP
+
+    * Battlegrounds
+          o Battleground "holidays" have been added to Warsong Gulch, Alterac Valley and Arathi Basin. Holidays occur during most weekends, starting on Thursday night at midnight and continuing until Tuesday morning. During a holiday, emmissaries from that Battleground will be found in the major cities, and honor/faction rewards for performing objectives in that battleground are increased.
+          o Warsong Gulch and Arathi Basin will now be level-banded as follows: 20-29, 30-39, 40-49, 50-59, 60
+          o System Messages have been added to Warsong Gulch to replace the heralds.
+          o Battleground queue functionality has been improved to eliminate certain types of "traffic jams" that could prevent instances from starting
+          o Losers of Warsong Gulch are now given a "Ribbon of Sacrifice" which they may turn in to Captain Shatterspear or Sentinel Farsong for a faction reward.
+          o Offensive use of damage immunities no longer causes the flag to drop in Warsong Gulch.
+          o In the Battlegrounds, you will now automatically be resurrected by Spirit Healers unless you choose to decline.
+          o A bug that allowed ghost players to pass through the Warsong Gulch starting gate has been fixed.
+          o Alterac Valley now correctly rewards honor for owning graveyards at the end of the game.
+          o Characters that use the Battlemaster to enter a Battleground will now port back to that Battlemaster when they leave the Battleground for any reason.
+          o Fixed range check for removing insignia from players in Battlegrounds.
+          o Fixed a bug that would cause players to stand up when a turnin was made in Alterac Valley.
+          o Players will no longer be able to gain health by repeatedly entering and leaving the effect of a Battle Standard.
+          o Entering a battleground now resets the timer for the AFK flag. This should prevent players being kicked by the AFK timer moments after they enter the Battleground instance.
+          o Using the /who command while in a Battleground instance will now only display players in your instance.
+          o The requirement to purchase special Food and Bandage consumables for Warsong Gulch and Arathi Basin has been lowered; they are now available for use at Friendly and Honored, respectively. 
+    * Consecration and other similar spells can no longer be used by non-PvP flagged players to damage PvP flagged enemies.
+    * Racial "Leaders" have been strengthened, and are now worth slightly less honor.
+    * Players may no longer purchase items that require a PvP rank unless they meet the rank requirement at the time of purchase. 
+
+Druids
+
+    * Improved Starfire - The stun effect can now be resisted.
+    * Druids should now be able to shapeshift back into caster form while Feared.
+    * Cat Form - The base weapon damage of the form has been increased.
+    * Cat Form - Each point of agility now adds 1 attack power.
+    * Cat Form - Rip's damage per combo point has been increased.
+    * Cat Form - Ferocious Bite's damage per combo point has been increased. In addition, extra energy now converts to damage at a higher rate.
+    * Cat Form - Replaced global cooldown on Tiger's Fury with a 1 second self cooldown. In addition, its duration has been increased to 6 seconds.
+    * Cat Form - Rake's damage has been increased.
+    * Entangling Roots now shares the same duration in pvp as other long-duration forms of crowd control (ie: polymorph, fear, sap). 
+
+Hunters
+
+    * Due to significant talent changes, Hunters will have all talent points refunded and can be respent. Training costs for all talent spell/ability replacements have been significantly reduced.
+    * Survival and Beast Master talent trees have undergone major revisions in an effort to give Hunters additional, viable choices when selecting talents.
+    * Deterrence - Will now increase parry chance when using Fist Weapons.
+    * Deflection - Will now increase parry chance when using Fist Weapons.
+    * Improved Concussive Shot - The stun effect can now be resisted.
+    * Trueshot Aura - Attack Power and Ranged Attack Power bonus increased, mana cost decreased, area of effect increased.
+    * Frost Trap - Updated tooltip to reflect duration of the Frost Trap Effect.
+    * Aimed Shot - Fixed tooltip to correctly display shot time.
+    * Auto Shot - Fixed a bug where switching targets would cancel Auto Shot. Switching targets should now continue firing on the newly acquired target.
+    * Scatter Shot - Should now cancel combat mode when used.
+    * Eyes of the Beast - Cast time reduced.
+    * Flare - Fixed the tooltip to accurately reflect the actual radius of the effect.
+    * Ranged Weapon Specialization - Now affects all ranged weapon attacks (e.g. Arcane Shot).
+    * Improved Concussive Shot - Will now have a chance to stun targets that are afflicted with other slowing effects (e.g. Wing Clip).
+    * Hawk Eye and Barrage have swapped locations, and we added 1 more rank to Barrage.
+    * Freezing Trap now shares the same duration in pvp as other long-duration forms of crowd control (ie: polymorph, fear, sap).
+    * The resist rate for hunter traps is now based on the hunter's skill rather than the level of the trap.
+    * Pet Abilities
+          o Hunters now have the first round of pet customization available. New passive abilities include increased armor, stamina, Fire resistance, Frost resistance, Nature resistance, Shadow resistance, and Arcane resistance.
+          o All Hunter pets have their abilities unlearned. Training points have been fully refunded. (Abilities the Hunter has learned to teach their pets have not been lost. For example, if you have the ability to teach your pets "Claw 3", you will still be able to do so in this patch. However, your pet will have to be taught this ability again by using the Beast Training interface.)
+          o Hunter pets can now be untrained of all their skills from any beast trainer in the major cities. Similar to talents, untraining a specific pet scales up as you do it more times: 10 silver, 50 silver, 1 gold, 2 gold, 3 gold, etc., eventually stopping at 10 gold.
+          o Training point costs for all abilities have been rebalanced. You'll now be able to use all your pet's training points with meaningful choices. To help make "hunting" pets more viable in more situations, the Growl ability is now free to all pets.
+          o Hunter pets can now learn a maximum of four active abilities. Active abilities include Claw, Bite, Dash, Dive, Cower, Prowl, Screech, Scorpid Poison, Growl, and Furious Howl.
+          o Bats, owls, and carrion birds can now learn the Screech ability, a fast single-target attack that also lowers the attack power of all enemies within melee range of the pet.
+          o Cats can now learn Stealth. In addition to being unseen, they receive a damage bonus for their first attack coming out of stealth.
+          o Scorpids can now learn Scorpid Poison. The poison deals Nature damage over time and stacks up to five times on a single enemy.
+          o Wolves can now learn Furious Howl. The howl adds a flat amount of damage to all nearby party member's next attack (within 15 yards). 
+    * Hunter pets now gain experience based on the level difference between them and their target rather than the difference between the Hunters and their target. This will make it much easier to level up a low level pet. Keep in mind that the Hunter must still kill creatures from which he/she will gain experience.
+    * The tooltips for quick Hunter shots have been updated to show them as instant abilities.
+    * Feign death is no longer resisted by players.
+    * Hunters are now able to name their pets while mounted.
+    * Hunter's pets will be smarter about when to use Dash/Dive.
+    * Fixed bug where Aimed Shot wouldn't cancel properly when the target moves out of range.
+    * Fixed a bug where lower level versions of Immolation Trap and Explosive Trap were being resisted more than they should be. 
+
+Paladins
+
+    * New Spell: Hammer of Wrath (Level 44) - Hurls a hammer that strikes an enemy for Holy damage. Only usable on a wounded target.
+    * Blessing of Sacrifice no longer shares damage with dead Paladins (You can no longer kill Paladin Ghosts).
+    * Paladins can no longer activate Divine Favor on the previously cast healing spell.
+    * Seal of the Crusader - Fixed a bug that displayed the incorrect amount of attack power increased by ranks 2, 3 and 5 of the spell. 
+
+Priests
+
+    * Focused Casting - Mana cost removed. Now no longer triggers the global cooldown on all other spells.
+    * Vampiric Embrace - Now heals 20% of the damage actually caused (including critical hits, buffs etc...) but now only heals when shadow spells cause the damage.
+    * Switching to Shadow Form no longer cancels Holy buffs on a priest.
+    * You can cancel melee combat while mind controlling by clearing the target, like you can normally.
+    * Blackout - Fixed a bug where rank 2 of the talent wasn't giving a chance to stun. 
+
+Rogues
+
+    * Riposte - Will now initiate combat when used.
+    * Deflection - Will now increase parry chance when using Fist Weapons.
+    * Mace Specialization - The stun effect can now be resisted.
+    * Shoot Bow/Gun/Crossbow - Should no longer cause a global cooldown on all other abilities.
+    * The fire damage from the Blazefury Medallion and the Gutgore Ripper's effect should no longer immediately break Gouge.
+    * Riposte - Fixed a bug where the ability was not usable when a special attack (e.g. Gouge) is parried. 
+
+Warlocks
+
+    * Inferno - The stun effect can now be resisted. Tooltip updated to reflect enslave duration after the initial summon.
+    * Spell Lock (Felhunter) - In addition to interrupting spellcasting, it will now silence the target for a short duration.
+    * Benefits received from the old Master Conjuror talent should now be removed on all Warlocks.
+    * Firestone - When a Firestone is equipped, it should no longer interrupt tradeskill creation.
+    * Demonic Sacrifice - All effects gained from sacrificing the pet should no longer be dispellable.
+    * Conflagrate - The Conflagrate spell is now instant cast. The damage and mana cost has been raised on all ranks of the spell.
+    * Fear will now cause creatures to flee immediately, even if they are already moving.
+    * Succubus pets will be smarter about when to use Seduction.
+    * Succubus pets can now autocast Lesser Invisibility.
+    * Fixed a bug where Fear and Curse of Recklessness, when used together, would prevent targets from casting spells.
+    * Fixed a bug where Soul Link and Power Word: Sheild, when used together, would heal the Warlock instead of splitting or absorbing damage.
+    * Demon Armor - The armor increase will now stack together with Scrolls of Protection.
+    * The Improved Drain Mana talent no longer does additional damage from plus damage items. This bonus damage was unintended and was a bug. 
+
+Warriors
+
+    * Deflection - Will now increase parry chance when using Fist Weapons.
+    * Retaliation - Will now cause a maximum of 30 retaliatory strikes in 15 seconds. In addition, retaliatory strikes will not be possible while stunned.
+    * Improved Revenge - The stun effect can now be resisted.
+    * Mace Specialization - The stun effect can now be resisted.
+    * Retaliation, Recklessness and Shield Wall will no longer be cancelled if you switch stances while the effect is active.
+    * Shield Slam - Threat caused increased.
+    * Shoot Bow/Gun/Crossbow - Should no longer cause a global cooldown on all other abilities.
+    * Sweeping Strikes will now ignore dead targets, and will ignore PvP enabled targets if you are not PvP enabled 
+
+Items
+
+    * We have determined that the defense statistic was being applied to items too liberally, causing those items to be stronger than they should have been relative to other items of the same level with different effects. As a result, we have reduced the amount of defense points on all items with bonuses to defense by approximately 33% in order to bring those items in line with other similar items.
+    * Proficiency Bonuses have been added to the game. Some sets of equippable items have been added that will give bonus effects to the player only if they have a specific skill, such as Leatherworking.
+    * With the new ability to train Hunter pets with considerable magical resistance, the amount of pet resistance granted by the set bonuses for the Giantstalker's and Dragonstalker's has been reduced while the pet health granted has been increased.
+    * The Earthfury set bonus that increases the range of totems now works with the Mana Tide Totem.
+    * The Giantstalker's set bonus that increases Volley damage now works properly.
+    * The Lawbringer Paladin Set's Healing Circle effect now only affects your party, but the range of the heal has been increased to 30 yds.
+    * The pants and gloves for the Dreadmist, Magister's and Devout sets have had their Agility removed, and other statistics slightly increased.
+    * The free mana cost buff provided by the Mage's Netherwind armor set is now called "Netherwind Focus" and will be noted in your combat log.
+    * The effect of the Judge's Gavel has been changed to a stun.
+    * Flarecore Gloves now bind when equipped.
+    * Flarecore Leggings and Robe now provide a damage bonus to all spells, not just fire spells.
+    * The duration of the Bonereaver's Edge weapon debuff has been lowered, but the frequency of the effect has been raised.
+    * The Polychromatic Visionwrap is now a cloth item with durability.
+    * The Searing Needle's proc will now do the listed damage of the tooltip.
+    * The Unstoppable Force now has a short duration stun instead of a knockback effect, and the stun will occur less frequently.
+    * Changing stances no longer removes the Orb of Deception effect.
+    * When you have more than one transformation aura (Orb of Deception, Noggenfogger, etc.), the last one applied is the one that is shown.
+    * Several of the Molten Core Epic Weapons have been updated with new weapon glows.
+    * Totems affected by the Earthfury set bonus no longer have their effect flicker when players are outside their normal radius.
+    * Fixed bug preventing several items, such as the Goblin Jumper Cables, from being gift wrapped.
+    * Fixed bug where equipping and unequipping set items and other items with the same bonus as the set bonus could reduce the affected stats twice until logout.
+    * Sayge's Dark Fortune of Resistance now adds +25 to all schools instead of +10%.
+    * PvP reward gloves that grant stealth detection have had the detection reduced somewhat.
+    * There are now items in the game that have a duration on them that is measured in real time. For instance, there are fish that have a four-hour duration; they only last four hours regardless of whether or not the character is logged in.
+    * Alterac Valley Spring Water now has a minimum level of 55.
+    * The Lobotomizer's proc name has been changed to "Brain Damage".
+    * Corrected the art for the Nether-lace Tunic.
+    * The Marshal's Lamellar Legplates now have the proper strength bonus.
+    * The Fire Runed Grimoire and Darkmoon Card: Heroism are now properly considered armor items.
+    * The spirit buff from Bottled Alterac Spring Water should now work for shapeshifted druids.
+    * The Marshal's Silk Gloves now has the Mana Shield improvement effect.
+    * The effect tooltips for The Black Book, Gutgore Ripper, and Natural Alignment Crystal now properly list their duration.
+    * Scout's Blade now properly sheathes at the hip.
+    * A few items in the Alliance PvP Rogue and Druid sets were previously misnamed, this has been corrected.
+    * The Cenarion and Earthfury Vestments now have proper durability values.
+    * The Sergeant Major's Silk Cuffs and First Sergeant's Silk Cuffs now have the same amount of stamina.
+    * The stun from the Tidal Charm trinket no longer breaks when damage is dealt to the stunned target.
+    * The Fade effect on the Stealthblade will no longer trigger the cooldown for the Rogue's Feint ability.
+    * The effect of Black Amnesty will now be noted in the combat log.
+    * Rethban Ore, Black Diamonds, and Pristine Black Diamonds may now be found in the Miscellaneous Junk category of the Auction House.
+    * Blue Wedding Hanbok name changed to reflect the actual color of the dress.
+    * The minimum level 48 Lorekeeper's Ring and Advisor's Ring now properly consider their effects to be passive.
+    * Hair should no longer stick through the Helm of Endless Rage.
+    * Key to the City is now considered Uncommon loot.
+    * The Amulet and Orb of the Darkmoon have had their stats improved and are now Epic (purple).
+    * Fishing poles which provide the same bonuses as lures now get the extra bonus from the lure when it is applied.
+    * Fixed bug where moving enchanted weapons from one hand to the other would remove the equipped enchantment benefit.
+    * Fixed bug where swapping two equipped trinkets would remove one of the trinket's passive effects.
+    * Night Dragon's Breath can now be used while silenced.
+    * Texture for the Dragon's Touch wand corrected.
+    * Bind on Equip Bracers and Belts in Molten Core now drop more often.
+    * Cenarion Helm texture fixed.
+    * Invulnerable Mail changed to a lower duration effect, but your own melee swings will not interrupt the invulnerability.
+    * All item based self heals will no longer be effected by equipment that provides bonuses to healing. This change affects both the Arcanite Champion and the Crusader Enchantment. 
+
+Pets
+
+    * You can now modify the auto-cast status of pet spells in the pet spellbook. 
+
+Professions
+
+    * New crafted sets have been added that require reagents found only in Zul'Gurub or through the reputation gained from adventuring therein.
+    * Only spells and abilities that target enemy units will cancel the World Enlarger effect.
+    * Black Lotus is no longer soulbound.
+    * Blackfury and Black Amnesty now bind when equipped.
+    * Catseye Goggles have had their stealth detection increased somewhat.
+    * The Mooncloth Robe pattern changed so it displays as white quality instead of blue since it is vendor purchased.
+    * The Effects of Flasks will now persist through death.
+    * Free Action potions can now be dispelled.
+    * Wildvine potions have been improved.
+    * Dreamless Sleep potions now take full effect in 12 seconds instead of 15.
+    * There is now a Horde cooking recipe that uses Tender Crocolisk Meat found at Brackenwall Village.
+    * Dark Iron Boots have been added as Blacksmithing plans that require Exalted reputation with the Thorium Brotherhood.
+    * Timbermaw Reputation Recipes are no longer sold in limited quanities with a restock time. If you have the reputation, you will always be able to buy the recipe.
+    * Significantly more Stranglekelp has started washing ashore to the beaches of the world.
+    * Dark Iron mineral nodes will now sometimes appear in the Burning Steppes and Searing Gorge.
+    * Enchanting an item with an enchantment that will cause the item to become soulbound will now prompt the enchanter with a warning message before the enchantment is cast.
+    * The Gnomish Death Ray now only can be cast if the target is within 20 yards. Previously you could cast this on players outside that range, even though the spell immediately failed.
+    * Cured Rugged hides now stack to 10 instead of 5. 
+
+Quest
+
+    * A great number of quests and events added to Zul'Gurub.
+    * A level 50 class quest has been added for the Rogue (Lord Ravenholdt in Ravenholdt Manor), Priest (Ogtinc in Azshara), Mage (Archmage Xylem in Azshara), and Hunter (Ogtinc in Azshara).
+    * Reputation gains given to a player on the Alliance, Horde, or Steamwheedle Cartel factions directly will now cascade down to member factions through the middle of the Exalted reputation level.
+    * The summoning crystals of Andorhal have been removed; as a result, Araj the Summoner will behave like a normal spawn. The respawn time on Araj once he is slain is 10-15 minutes. It should be noted that the spawns surrounding where he holds dominion have been maintained; players seeking to defeat him should not be shy about bringing friends with them.
+    * Araj the Summoner now has increased hit points and does increased melee damage.
+    * Araj the Summoner no longer drops a Corruptor's Scourgestone 100% of the time when killed.
+    * The text for the Horde and Alliance versions of "Araj's Scarab" now reflect the changes done to the Araj encounter.
+    * The text for the Horde and Alliance versions of "Alas, Andorhal" now reflect the changes done to the Araj encounter.
+    * The Argent Dawn quest "The Active Agent" now offers a choice of rewards: Seal of the Dawn and Rune of the Dawn. Both may be used just like an Argent Dawn Commission.
+    * Players seeking to replace their Seal of the Dawn (or get a Rune of the Dawn instead) once they've finished "The Active Agent" quest should speak with Betina Bigglezink in Eastern Plaguelands.
+    * The Seal of the Dawn is now unique, no longer has any cash value, and is no longer disenchantable.
+    * The level 5 quests had the ranged weapon removed from their reward options. This was done to make sure hunters upgrade their melee damage in the levels before obtaining a pet.
+    * Added text to the Test of Endurance quest to indicate you might need to bring some friends along.
+    * The amount of XP and Stormwind reputation has been increased for completing "Hilary's Necklace" quest.
+    * Torek in Ashenvale (the questgiver for Torek's Assault) is now PvP enabling.
+    * Important Blackrock Documents for the Horde quest, "Warlord's Command," no longer despawn. They can still randomly spawn at one of four locations.
+    * Two new quests have been added to Thorium Point in the Searing Gorge for Thorium Brotherhood reputation turnin for players with neutral faction. You will now be able to turn in Iron and Heavy Leather to increase your reputation with the Brotherhood.
+    * "The Darkreaver Menace" quest has had its reward improved; any Shaman who has already completed the quest should speak to Sagorne Creststrider in Orgrimmar to get their new reward.
+    * The Boulderslide Ravine quest in Stonetalon Mountains now more clearly points players to the Boulderslide Ravine.
+    * The original Hakkar quest (the one that involved killing Hakkar's Avatar in the Sunken Temple) has been extended, and now offers a reward.
+    * Completing the initial Magram or Gelkis quest in Desolace now gives appropriate positive and negative reputation gains.
+    * The completion dialogue for the "A Rogue's Deal" quest has been clarified.
+    * All 8 versions of the "A Donation of Runecloth" quest have had their quest text clarified.
+    * Certain mobs and NPCs that erroneously had plus or minus reputation gains on kills for Horde or Alliance have been corrected.
+    * Various quest typos fixed. 
+
+Raids and Dungeons
+
+    * Characters will now receive an error when attempting to enter a raid dungeon if the reason they cannot enter is because they are not in a raid group.
+    * Fixed a bug that was preventing Rallying Cry of the Dragon Slayer to fire when Onyxia's head was turned in (assuming a head was not already up).
+    * You can now no longer avoid Onyxia's confuse effect by jumping or moving erratically.
+    * Death Knight Darkreaver in Scholomance shouldn't be so noisy anymore.
+    * The Ogre Tannin Basket in Dire Maul should stick around longer if someone opens it and does not initially loot the tannin from it.
+    * A few Molten Core bosses now drop Fiery or Lava Cores. 
+
+User Interface
+
+    * New "Dressing Room" Interface now available! If you control-left click on any item, item reference (vendors, quests) or item link (chat), a UI panel will appear showing your character wearing that item. You can then use the same command (control-left click) on additional items to add to the preview appearance. In addition, the Auction House now has a checkbox in the upper right-hand corner; if checked, any item you click on within the Auction House will automatically be previewed on your character.
+    * Need Before Greed and Group Loot options have been improved. The rolling window that appears when an item of the threshold and above is looted now has three buttons: a Need button (the dice), a Greed button (the coin), and a close button. Any players who select Need will get a chance to roll first for the item, with the high roller winning. If no one selects Need, all characters who selected Greed will then roll, with the highest roll winning the item. If everyone closes the window, the item becomes lootable by anyone in the group.
+    * You can now disable the slow scrolling of text when you are receiving a new quest.
+    * Opening the overhead map will now "ping" your location your map (to make it easier to notice your location when there are many friendlies nearby on the overhead map).
+    * The overhead map now displays a directional icon for your character.
+    * Spell effects that stack multiple times on a character will now display a number in the bottom corner indicating how many times the effect has stacked. For example, if a player has had the Sunder Armor ability used on them three times, the Sunder Armor effect icon will display a 3 in the corner.
+    * A confirmation dialog is now shown when you choose to make an Inn your home.
+    * The tooltip for spells like Seal of the Crusader correctly reflects the benefit of the spell, instead of occasionally being off by one.
+    * Using /random will now send the text to your party or raid wherever they are instead of the local area around the player that used /random.
+    * When in a raid group, the group you are in will now appear above your name next to your portrait.
+    * Mail recipient name completion now works with offline guild members even if you are not showing them in the guild UI.
+    * Guild ranks and player notes are now filtered by the profanity filter.
+    * The temporary mana cost reduction of Burst of Knowledge and similar effects is now reflected in tooltips.
+    * Quest rewards are now linked in chat like other items gained.
+    * You can auto-equip items while in flight by right clicking on them, as you would normally.
+    * You can now use the Escape key to exit out of pop up dialogues.
+    * Fixed bug preventing the Release Spirit dialog from showing if you die while jumping in lava.
+    * Fixed lua error when relinking poor and standard quality items from loot messages.
+    * Consumable items on the action bar will now always show the number remaining, even if there are none in your inventory.
+    * You can create the directory InterfaceIcons, and any 32x32 .blp or .tga files you put in there will be available in the icon list for your macros.
+    * Pet spells in macros are now supported, both using /cast and using CastSpellByName().
+    * If you omit the rank of a spell in /cast or CastSpellByName(), it will use the highest rank of the spell which you know.
+    * While it will still be possible to override files in Interface/FrameXML, doing so is discouraged (and is likely to become impossible in a future release). Significant API additions are being made to eliminate the need for such direct FrameXML changes.
+    * You will now be able to list .lua files directly in the addon .toc file.
+    * The SetPoint() and SetAllPoints() script functions can take an actual frame instead of a frame name.
+    * TargetNearest* script functions will only work in response to a button click or a key binding, to discourage addons which scan the battlefield for targets.
+    * Addon-specific Saved Variables!
+          o Each addon's saved variables will be saved in the file WTFAccount{accountname}SavedVariables{addonname}.lua, and will only be loaded when the addon is loaded.
+
+            IMPORTANT: The first time you enter the game with this change, you must make sure all your addons are enabled, or their saved variables will be lost! If you accidentally do this once, you can recover by quitting the game, moving your backup SavedVariables.lua into place and restarting the game with addons enabled.
+
+    * Addon Loading On Demand!
+          o If you add the following line to your addon's .toc file, it will not be loaded at the normal load time, it will instead be dynamically loaded upon request:
+
+            ## LoadOnDemand: 1
+
+            You can query to see if an addon is loaded by using the new IsAddOnLoaded("addonname") function, and you can load an addon dynamically using the LoadAddOn("addonname") function. This function returns true if the addon is loaded successfully, and can be safely and efficiently called even if the addon is already loaded.
+
+            For your convenience, the function UIParentLoadAddOn("addonname") is provided which will attempt to load the addon and pop up an error message if it failed to load for any reason.
+
+            Once an addon is loaded, the ADDON_LOADED event is sent, with arg1 set to the name of the addon. An addon can listen for that event, and when it recieves that event with it's own name, it can safely access its saved variables.
+
+            An important thing to note is that when an addon is loaded dynamically, it doesn't have access to any of the virtual frame templates that are defined by FrameXML, including font definitions.
+
+    * New Scripting Functions
+          o debugprofilestart() - starts a timer for profiling during debugging.
+          o millis = debugprofilestop() - return the time in milliseconds since the last call to debugprofilestart() 
+    * New UI Element Member Functions
+          o handlerFunction = Frame:GetScript("handler") - (for handlers like "OnShow", "OnEnter", etc) which returns the current event handler for a frame.
+          o Frame:SetScript("handler", function) - sets the action/event handler for a frame (or removes it with a nil function)
+          o Frame:SetBackdrop(nil) / Frame:SetBackdrop({bgFile = "bgFile", edgeFile = "edgeFile", tile = false, tileSize = 0, edgeSize = 32, insets = { left = 0, right = 0, top = 0, bottom = 0 }}) (Note: This is a table argument)
+          o FontString:SetFont("font", size [, "flags"]).
+          o StatusBar:SetStatusBarTexture("file" [, "layer"])
+          o lines = ScrollingMessageFrame:GetMaxLines()
+          o ScrollingMessageFrame:SetMaxLines(lines)
+          o ScrollingMessageFrame:EnableFading([isEnabled]) (Defaults to true)
+          o ScrollingMessageFrame:SetFadeDuration(seconds)
+          o ScrollingMessageFrame:SetTimeVisible(seconds)
+          o ScrollingMessageFrame:Clear()
+          o lines = EditBox:GetHistoryLines()
+          o EditBox:SetHistoryLines(lines)
+          o EditBox:SetIgnoreArrows([isIgnored]) (Defaults to true)
+          o r,g,b,a = FontString:GetTextColor()
+          o Frame:SetParent(nil, or "parent" or parentFrame)
+          o numChildren = Frame:GetNumChildren()
+          o child1, child2, child3, ... = Frame:GetChildren() 
+    * Addon Saved Variables
+          o SavedVariables will no longer drop stored numbers to single precision.
+          o Infinite/Nan values no longer cause corrupted SavedVariables.lua file. (Written as nils with comment) 
+    * Chat and Combat Logging
+          o The script functions ChatFrameLog() and ToggleCombatLogFileWrite() are obsolete.
+          o Added script function: isLogging=LoggingChat([newState]) (Returns new state (or current state if no argument))
+          o Added script function: isLogging=LoggingCombat([newState]) (Returns new state (or current state if no argument))
+          o New slash command /chatlog toggles chat logging (/combatlog toggles combat logging)
+          o The file for the chat log is LogsWoWChatLog.txt and the file for the combat log is LogsWoWCombatLog.txt
+          o Chat and combat log files will be appended to rather than overwritten.
+          o You now receive combat log messages and damage feedback when you are being attacked by creatures you can't see.
+          o If you call a tamed Deepmoss Hatchling, you are no longer notified that you hatched.
+          o Fixed disconnection caused by relinking an item in a different locale than that of your client.
+          o Looted items now always show their names in the appropriate quality color.
+          o You now get combat feedback when you take damage from unseen opponents, like the Unseen in Raven Hill.
+          o Fixed damage display on the character sheet when you have Fury of the Frostwolf or Stormpike's Salvation. 
+
+World Environment
+
+    * The Ranazjar Isle sub-area has been added off the northwest coast of Desolace. The Ranazjar Isle puzzle piece now properly pops when you venture there.
+    * Entering the zeppelin towers at Durotar and Grom'gol Base Camp no longer incorrectly flags you as being in the Valley of Strength.
+    * Argent Dawn, Timbermaw, Zandalar and Arathi Basin vendors now show you their entire inventory regardless of current reputation, allowing players to peruse their full range of wares. The items in question now require the appropriate reputation level to make use of them.
+    * Some of the ship and zeppelin paths have been modified.
+    * Gor'tesh and Grol the Destroyer should no longer stay in evade mode indefinitely.
+    * A new inn has been added to the Grom'gol Base Camp in Stranglethorn Vale at the base of the zeppelin tower.
+    * The Champion's Hall and the Hall of Legends have new load screens.
+    * Some Horde quest NPCs were moved to new locations to promote more intuitive quest flow: Storm Shadowhoof who was previously at Bloodvenom Falls in Felwood has been moved to Everlook. Witch Doctor Mau'ari who was previously in Orgrimmar has been moved to Everlook.
+    * Scorpids above level 10 now drop more valuable parts than they did previously.
+    * Rare Felwood creatures should now have loot.
+    * Twilight's Hammer creatures in Silithus can now be pickpocketed.
+    * Zone bound items, such as the Gordok Courtyard Key, will no longer leave your inventory if you are a ghost outside their intended zone. Reviving in a zone outside the item's listed zone binding will still cause the item to disappear, however.
+    * Pelturas Whitemoon's faction has been fixed; the NPC is now properly associated with Darnassus.
+    * Narm Faulk is now a part of the Ironforge Faction.
+    * Hadoken Swiftstrider now has gossip text.
+    * Ferra can now be skinned.
+    * Fixed a typo in Ogunaro Wolfrunner's greeting to those who are not yet friendly with Orgrimmar.
+    * Fixed a typo on a signpost in Western Plaguelands.
+    * Sayge's buffs at the Darkmoon Faire are now exclusive to one another.
+    * Onyxia no longer teleports from point to point while flying. 

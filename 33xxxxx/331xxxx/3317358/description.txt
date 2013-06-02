@@ -1,0 +1,20 @@
+How does it works:
+
+It cheats (hooks user32.dll! GetSystemMetrics(SM_CLEANBOOT) & ntdll.dll!NtLockProductActivation)
+winlogon.exe to make it believe it was booted in safemode and so winlogon skips
+the WPA-Check.
+The patch is 'autorun' on eachs start before the WPA-check via
+HKLMSOFTWAREMicrosoftWindows NTCurrentVersionWinlogonNotifyAntiWPA
+
+The hooks are applied when AntiWPA.dll!onLogon was load by winlogon.exe
+Winlogon.exe is not altered anymore. Patching (API-Hooking) is done in Memory.
+So there are no problems with the windows System File Protection anymore.
+
+Installation is performed via AntiWPA.dll!DllRegisterServer ("regsvr32 AntiWPA.dll").
+The file is copied to systemdir and the registrykeys are added.
+(Note: AntiWPA.dll is no ActiveX selfregisterdll.)
+Uninstallation is performed via AntiWPA.dll!DllUnRegisterServer ("regsvr32 -u AntiWPA.dll").
+
+************************
+
+Den skall fungera att ta bort aktiveringen på Windows XP x64, alltså det som EcHos "crack" inte gjorde.

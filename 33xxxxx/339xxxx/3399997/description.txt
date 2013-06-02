@@ -1,0 +1,16 @@
+Advanced ZIP Password Recovery (or simply AZPR) is a program recover (break) lost or forgotten passwords for a ZIP/PKZip/WinZip archives. Unfortunately, there is no known method to extract the password from the compressed file; so the only available methods are brute-force, dictionary-based and known-plaintext attacks. Here is a brief list of AZPR's advantages:
+
+    * The program has a convenient user interface
+    * The program is very fast: on 1GHz CPU, it tests about fifteen million passwords per second (or about a billion passwords per minute) -- according to independent reviewers and experts, the fastest ZIP cracker in the world!
+    * Very fast and effective known plaintext attack is available
+    * The program can work with archives containing only one encrypted file
+    * All compression methods (storing, imploding, shrinking, inflating) are supported
+    * Self-extracting archives are supported
+    * The program is customizable: you can set the password length (or length range), the character set to be used to generate the passwords, and a lot of other options
+    * You can select the custom character set for brute-force attack (non-English characters are supported)
+    * Dictionary-based attack is available
+    * The "brute-force with mask" attack is available
+    * No special virtual memory requirements
+    * You can interrupt the program at any time, and resume from the same point later
+    * The program can work in the background, using the CPU only when it is in idle state
+

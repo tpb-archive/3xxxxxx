@@ -1,0 +1,117 @@
+
+Humma Kavula & Friends present :
+
+PSP UMD Emulator V0.8 for PSP V1.50 only
+----------------------------------------
+
+Following in the footsteps of the Fastloader, here is another fine
+homebrew app for your pleasure. This time we present you a full featured
+UMD emulator, reboot & exitgame tight - you have to turn off your PSP completely 
+(or crash it :p ) to get it back to original state. This is a semi-final version,
+some things are known not to work properly for now (see below).
+
+- play your favourite LEGIT backuped ISOs from the main menu of your PSP !
+- full UMD emulation via selected ISO, either for game, video and audio !
+- possibility to bypass updater check within the menu
+- possibility to remove/redirect updater icon
+- possibility to set any regioncode, even for games ...
+- CPU speed setup (currently for ISOs only)
+- sleepmode works within games now ! See "ToDo" for more
+- possibility to redirect flash0: (user config) and flash1: (kernel data)
+  to memorystick (and no, this is NOT a rip of the lately released MPH application)
+- USB is automatically activated within the emulator config
+- configuration will be automatically saved and reloaded on app restart
+- reload the ISO list by pressing SELECT button
+- restart emulator config by pressing START button
+- maybe some more which i just forgot to mention :) ...
+
+
+***** This application DOES NOT write to the flash, everything is done in RAM only ! *****
+
+
+Now you can use all the nifty functions like versionchanger, pmf replacer or button changer
+but you dont need to write to the flash anymore ! Just replace the necessary files on your
+memstick while using flash emulation. Hope some ppl will find this useful :D ...
+
+
+Copy all the files from this drawer onto your memstick to use this app, should look like
+this after :
+
+PSP/
+|
++--- GAME/
+|	|
+|	+--- UMDEMULATOR/
+|	|		|
+|	|		+--- EBOOT.PBP
+|	|
+|	+--- UMDEMULATOR%/
+|			|
+|			+--- EBOOT.PBP
+UMDEMULATOR/
+|	|
+|	+--- ISO/
+|	|	|
+|	|	+--- < place your ISOs here >
+|	|
+|	+--- core.bin
+|	+--- menu.bmp
+|	+--- config.dat
+|	|
+|	/
+|	/
+|	|
+|	+--- UPDATEICON		<-- optional, create for updater icon replacement
+|		|
+|		+--- EBOOT.BIN	<-- started when updater icon selected (0146 error currently)
+|		+--- PARAM.SFO	<-- updater param.sfo
+|
+F0/				<- optional, flash0: replacement drawer
+|
+F1/				<- optional, flash1: replacement drawer
+
+
+
+
+Config information
+------------------
+
+CPU/Bus speed		- 222/111 , 266/133 , 333/166 MHz speed setup
+ISO mode		- turn the iso emulation on or off (off : original inserted UMD is used)
+Disctype ISO		- the type of the UMD your selected ISO represents (game, video or audio)
+Disctype UMD		- the type of the really inserted UMD in the drive (game, video or audio)
+Updater icon		- original : Update icon will be displayed if ISO/UMD contains UPDATE/ drawer
+			- memstick : PARAM.SFO and EBOOT.BIN are taken from memstick path
+			  UMDEMULATOR/UPDATEICON/ (app wont start properly currently)
+			- remove   : remove the updater icon completely
+Regioncode game		- region code jap/us/eur/regionfree for games
+Regioncode video	- region code jap/us/eur/regionfree for video
+Regioncode audio	- region code jap/us/eur/regionfree for audio
+Flash0 emulation	- on: redirect all flash0: accesses to memstick path F0/
+Flash1 emulation	- on: redirect all flash1: accesses to memstick path F1/
+
+Flash redirection function
+--------------------------
+- if the file is present on memstick it gets loaded from there
+- if the file is not present, original flash file gets loaded
+- if the file IS present on memstick, and just contains the word "NOLOAD" (uppercase !)
+  the file isnt loaded at all !
+
+ToDo
+----
+- CPU speed for original UMD does not work for now
+- Main menu crashes when put into sleepmode ! Dunno why, for now go into a game for sleepmode ...
+- Regioncode setup is somewhat strange, works fine for ISOs, but not on original audio/video UMDs
+- For the techies : flash0:/vsh/module redirection doesnt work for now, all the rest is redirected
+- Updater icon replacement to memstick doesnt start the app currently (0146 - prohibited load)
+- Autodetect disctype for inserted UMD and ISO
+- Much nicer GUI :D
+
+Hope you will enjoy this latest piece of homebrew ...
+
+Humma Kavula !
+
+
+P.S.: Dunno if the newest games will work, dont have access to them i'll keep watching the
+forum ...
+

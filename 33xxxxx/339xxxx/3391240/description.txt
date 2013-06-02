@@ -1,0 +1,16 @@
+:: Mini-image for I-Ninja.SFClone-MiRROR ::
+
+Since i had problems to make mini-image from the original iso
+('invalid image file' error), i've made new iso with Alcohol 120%,
+cut out the contents of newly created .mdf file with UltraISO,
+made new mini-image and to my surprise, it works perfectly.
+
+
+Instructions:
+1. Install the game
+2. Run SFNightmare.exe located in /SFNightmare dir and:
+   - Disable your CD/DVD drives (read StarForce readme for help)
+   - Disable Node
+3. Mount the mini-image (ININJA_1.mds) with Daemon Tools
+4. Run the game, use serial 7U9L5U-VZYE3C-NJ4ZF3-LWY69A
+5. Have fun ;)

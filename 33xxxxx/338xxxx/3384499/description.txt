@@ -1,0 +1,36 @@
+TEAM YAG presents:
+                     Advanced RAR Password Recovery v1.53
+
+
+Release-Date: 2005-09-03
+Program Typ : password recovery
+URL         : http://www.elcomsoft.com
+
+
+Release-Notes:
+==============
+
+
+Advanced RAR Password Recovery (or simply ARPR) can be used to recover the lost password for a
+RAR archive. At the moment, there is no known method to extract the password from the compressed
+file; so the only available methods are "brute force" and dictionary-based attacks. Here is a brief
+list of ARPR's advantages:
+
+* ARPR has a convenient and easy to use user interface;
+* ARPR works with one protected file at a time (multiple uses of ARPR is possible);
+* all compression methods are supported;
+* self-extracting archives are supported;
+* you can select the custom character set for "brute-force" attack
+* you can interrupt the program at any time. Resuming is supported;
+* ARPR can work in the background, using the CPU only when it is in an idle state;
+* ARPR can utilise either a customizable "brute-force" approach, or an effective dictionary-based
+  approach. The different approaches can be used for all RAR types and compression methods
+  using AES (Rijndael) 128-bit encryption, e.g., set the password length (range) of the character set
+  used to generate the passwords, and many other options;
+* A multilingual interface is provided.
+
+
+Install-Notes:
+==============
+
+install & check crack dir

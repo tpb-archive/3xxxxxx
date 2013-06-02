@@ -1,0 +1,178 @@
+﻿User Type,Username,Date,Text
+,Miklos.dk,2005-03-20T14:45Z,What's the deal with FM 2005 / CM5?
+,s0116890,2005-03-20T15:01Z,"Two different games. FM 2005 is the evoluton of the old championship manager series, whereas CM 5 is a new game constructed by Eidos.
+
+Eidos and SI worked together before, now they are producing competing football manager games. That's the story in brief."
+,Saikouro,2005-03-20T15:05Z,How is this one different from the other release that has been uploaded here? Seems like they are identical...
+,s0116890,2005-03-20T15:15Z,"It is a completely different game than FM 2005 made by Eidos.
+
+FM 2005: www.sigames.com
+
+CM 5: www.eidos.com"
+,s0116890,2005-03-20T15:19Z,"I have tried the game now. 
+
+I can confirm that it works. I have just created my first save game with my beloved Liverpool.
+
+Try it and compare it to FM 2005."
+,BollramBulle,2005-03-20T15:45Z,it is better than Football manager????
+,Saikouro,2005-03-20T16:21Z,I'm not talking about the difference between FM05 and CM5! i'm talking about the release (CM5) that was uploaded here on Pirate Bay. It's the exact same one! Try using the search function once in a while...
+,s0116890,2005-03-20T16:36Z,"Oh sorry. I made searches for ""championship manager 5"" and ""cm5"" and no torrents came up. 
+
+Sorry about that"
+,Saikouro,2005-03-20T16:50Z,"I apologize for being rude in the last comment. Just wanted to know if this one differs from the other one...
+
+It's great that you upload! keep up the good work."
+,ricke_17,2005-03-20T18:48Z,"får detta meddelande när jag startar ""Emulator detected! Please deactivare virtual drive and emulation software!!"" va är de för fel?"
+,Wrathchild,2005-03-20T21:13Z,finns det ingen data-snille på PB ? som kan fixa crack
+,ricke_17,2005-03-20T21:25Z,kan man få att de är svenska eller?
+,brunell,2005-03-20T22:16Z,Jävla skit-release!!! Har försökt med allt möjligt men det funkar fan inte! Nån som kan fixa en crack till spelet? Måste testa och se om det är värt att köpa.
+,donpatricio,2005-03-20T23:07Z,"Tar det på svenska hur man då fixar det här spelet utan att bränna det.
+
+Det du behöver är:
+
+Daemon tools v.3.47
+subinacl  Här är länken : http://download.microsoft.com/download/1/7/d/17d82b72-bc6a-4dc8-bfaa-98b37b22b367/subinacl.msi 
+
+När du har dessa program installerade så börjar du med att göra 2 genvägar till subinacl. Höger klicka på den ena genvägen och ta sen ""egenskaper"". Ta bort länken som står i mål och klistra in den här länken: 
+
+""C:ProgramWindows Resource KitsToolssubinacl.exe""  /keyreg ""HKEY_LOCAL_MACHINEHARDWAREDevicemapSCSISCSI Port X"" /deny=administratörer=r
+
+OBS! För att kolla vilken port din daemon använder så går man in på ""Kör"" och skriver ""regedt32"". Bläddra er fram till ""HKEY_LOCAL_MACHINE/Hardware/Devicemap/Scsi"" under mappen kommer ni hitta ett antal mappar där det kan står ""Scsi Port 0"" osv. Klicka på en av mapparna tills ni hittar det här:
+
+http://club.cdfreaks.com/attachment.php?attachmentid=12889&stc=1 på vänstra sidan. Gör ni det så har ni hittat Daemons port nr som ni ska ersätta ""X"" med.
+
+Nästa steg är att gå in på den andra genvägens egenskaper och klistrar in den här texten under ""Mål"":
+
+""C:ProgramWindows Resource KitsToolssubinacl.exe""  /keyreg ""HKEY_LOCAL_MACHINESYSTEMMountedDevices"" /deny=administratörer=r
+
+Verkställ!!
+
+Nu är det bara att klicka på båda genvägarna en gång sen e det klart att mounta cdn med daemon och spela."
+,donpatricio,2005-03-20T23:10Z,"Blev något fel med första länken!
+Det ska stå under ""mål"":
+""C:Program FilesWindows Resource KitsToolssubinacl.exe""  /keyreg ""HKEY_LOCAL_MACHINEHARDWAREDevicemapSCSISCSI Port 1"" /deny=administratörer=r"
+,Saikouro,2005-03-20T23:43Z,OMFG! Det funkade tamefan!! Du är ett geni Don! 
+,thol,2005-03-21T09:02Z,blindwrite is not free for fuck
+,Kurd__G,2005-03-21T09:51Z,"den här 
+http://club.cdfreaks.com/attachment.php?attachmentid=12889&stc=1
+hittar jag inte nånstans kan du säga mer exakt var den ligger jag har gått in på allt men jag hittar inte den
+kan du va snäll och svara så snabbt som möjliggt var den ligger 
+
+tack"
+,Wrathchild,2005-03-21T13:43Z,"tamefan det funka!! donpatricio du är min hjälte, tack tack"
+,brunell,2005-03-21T15:15Z,"donpatricio du är fan ta mig mannen! Det funkar! Underbart, helt underbart..."
+,CrashMash,2005-03-21T21:26Z,"min p347scsi ligger ej i den mappen du visat..å i den mappen du har screen på så har jag bara Scsi port 0, Scsi port 1 och Scsi port 2 fattar inte vad det är för fel..tacksam för svar"
+,zapster,2005-03-21T21:31Z,"jag kan inte få det o funka, och jag använde också deamon tools. står bara ""emulator detected please deactivate virtual drive and emulation software"" och när jag gör det står det typ""stoppa in rätt skiva"". "
+,jokersthlm,2005-03-21T21:59Z,Tack Donpa....   asså har ingen aning om va jag gjorde följde bara din beskrivning sen funkade allt HELT OTROLIGT du e nått geni lr nått :D:D Thx man Å tackar för detta roliga men lite krångliga lir !:D:D
+,Anders_79,2005-03-21T23:08Z,"Funkar detta även om jag laddar ner senaste patchen från eidos hemsida?
+"
+,Manuchamps1,2005-03-22T00:14Z,"This Does work!!!  Remember if you have an english version of windows xp you've got to change the shortcuts to english.  Thankyou for uploading.
+
+(1) ""C:Program FilesWindows Resource KitsToolssubinacl.exe""  /keyreg ""HKEY_LOCAL_MACHINEHARDWAREDevicemapSCSISCSI Port 1"" /deny=administrators=r
+
+(2) ""C:Program FilesWindows Resource KitsToolssubinacl.exe""  /keyreg ""HKEY_LOCAL_MACHINESYSTEMMountedDevices"" /deny=administrators=r"
+,LazyRas,2005-03-22T00:16Z,"I am trying to get Championship manager 5 to work, i have followed the instructions above and i no longer get the ""virtual drive detected"" message. However now I get the ""Original disk could not be authenticated.""   I'm mouting the BWT-file, Is that the right one? Does anyone know how to solve this problem.
+Would appreciate some help on this asap.
+
+Cheers"
+,Kurd__G,2005-03-22T00:38Z,"ska man lägga ""x"" där det står data "
+,Kurd__G,2005-03-22T00:41Z,var står daemons port där det står under data eller?
+,phunkie,2005-03-22T01:07Z,I can't play it.. :/ 
+,danny98,2005-03-22T09:03Z,Synd att spelet verkar vara helt värdelöst. Extremt segspelat och inaktuella(!!!) lag. Illa!
+,Kurd__G,2005-03-22T11:05Z,var ligger daemons port nummer
+,Kurd__G,2005-03-22T12:39Z,kan nån svara??????????????????????????
+,Wrathchild,2005-03-22T14:47Z,"laddar man ner pacthen så är det aktuella lag.
+
+min deamon tools hade port 1"
+,Nonchez,2005-03-22T15:12Z,Anybody who can write a description how to install with Daemon Tools on english or danish? I don't understand anything of your swedish! :D
+,Nonchez,2005-03-22T15:31Z,"It won't start at all. A window just pops up and says ""Emulator found""! "
+,L4L,2005-03-22T22:05Z,Do I  have to delete uaservice.exe or just end the process?
+,Kurd__G,2005-03-23T00:08Z,men var ligger daemons port nummer jag hittar den inte ?
+,Manuchamps1,2005-03-23T16:03Z,"You dont need to find out the port number, just create the 2 shortcuts to the program downloaded, change the target in both to what I described earlier, and the mount the image."
+,L4L,2005-03-23T16:57Z,"When you delete the UAService7.exe file you have to delete the .pf file as well!! The files are found in the WINDOWS/system32 and WINDOWS/Prefetch direcories respectively
+
+L4L"
+,dolppen,2005-03-23T19:39Z,"I have deleted the two files and ended the process but it wont load... pls, can someone wriht so I (dont understand so mutch...) can play the game..."
+,L4L,2005-03-24T02:35Z," Manuchamps1 what are you talking about? What downloaded programs? The links in the post with the Swedish/Danish? Could someone translate it for me please? Also, don't blame my ignorance to other languages on me, blame it on the fact I'm British:D
+
+L4L"
+,L4L,2005-03-24T02:41Z,"I now believe it to be in Danish, due to me running it through a translator and getting a few words out of it. BTW whoever uploaded the torrent, Thanks!
+
+L4L"
+,TonyClifton,2005-03-24T11:11Z,"I´ve played all the CM for the last 8 years. CM has always been the king of the manager games. No other game has evan been near. Was confused when FM came but FM IS THE REAL CM. 
+This game CM 5 IS NOTHING what CM used to be.
+The people who made CM5 can not be the people who used to do CM.
+
+I somehow maneged to do what don said and got it to work but after checking around I will not play CM5 anymoore.
+
+The game started 1 februari 2005, the game came out this week and they still dont have my favoriteteam Häcken in the right leauge! (we won promotion in oct 2004!!!)
+
+The players in the reserves and youth team are fukkin ""non-real-players"" haha. Real CM, now FM, would never embarres themselves like that.
+
+My financial status was 10% of Häckens in real life. One of the most important players (in real life) Dioh Williams was a youngster haha.
+
+But the thing that made it most B, was that it said that the transfer deadline had passed. Haha evan an amateur can find out that Swedens transfer deadline is 31/3...
+
+Dont bother downloading this game, download or buy FM instead!
+
+But thx anyways!!!"
+,Eastgrove,2005-03-24T12:44Z,Its Alive =) Go Donpatricio
+,mo7amEd,2005-03-24T13:05Z,"Vad egentligen ska man göra? 
+
+Jag har laddat ner Blindwrite, och sen mountat .BWT filen, installerat spelet, sne försökt starta spelet som det står, alltså att avsluta UAService.exe, det funkade inte, nu har jag flyttat på filen från WINDOWSSystem32 o bytt namn, o det funkade itne heller.
+
+o jag hittar ingen .pf fil....
+
+sen har jag laddat ner subinacl.msi och installerat det.
+
+jag har skapat två genvägar, men hittar inte porten till Daemon...
+
+vad ska jag göra ?"
+,Eastgrove,2005-03-24T13:33Z,I agree whith Tonyclifton. The team in my heart IFK Göteborg is also in the highest league in sweden. There where four first team players in that game that had either retired or changed team. And that is just bad that they have missed to check something that easy. And that is after i had installed the patch. I dont know if it is the same whith all the smaller leuges. I havent tryed Fotball manager yet. But i just want to inform everyone that is trying to get this game working so hard.
+,mo7amEd,2005-03-24T13:38Z,"Aa nu funkar spelet, efter att man fått lov att slösa en jävla skiva....
+"
+,Kurd__G,2005-03-24T23:47Z,jag har installerat spelet men när jag trycker på cm 5 ikonen så händer inget?
+,Kurd__G,2005-03-24T23:47Z,måste man va medlem i game shadow för att spela spelet?
+,staub,2005-03-25T00:21Z,"Tonyclifton -> Herregud, har du spelat spelet i 8 år så klarar du väl ändå av att ladda ner en database update!
+
+Tänk på att spelet släpps mitt i säsongen i England, Italien, Spanien osv. Så alla övergångar från nyår är väl inte helt klara här hemma heller.
+
+Och varför spela med Häcken när man har Dag & Red?"
+,drowtfs,2005-03-25T00:31Z,"Since you speak english and you have been able to do what donpatricio said, it would be very nice if would translate it so that we can all try the game too. Thanks"
+,Kurd__G,2005-03-25T11:55Z,kan nån svara jag har installerat men sen när jag trycker på cm 5 ikonen så händer inget?????????
+,Tonytno,2005-03-26T23:53Z,Works just fine for me when i followed the instructions..... But the game is not even close too what the earlier futures of cm was.....
+,Kurd__G,2005-03-27T12:00Z,jag har installerat spelet men sen när jag trycker på ikonen så händer inget
+,PanoS,2005-03-27T19:17Z,"var kan man hitta cd crack ?? 
+kan nån hjälpa
+mig :) "
+,gasngtah,2005-03-28T00:10Z,"Tonyclifton your right
+the game isn't what i expected at all
+i think CM 03/04 is better
+so if you dont want to go to any toruble save you breath and download CM 03/04 or FM 2005"
+,turken91,2005-03-28T20:55Z,den andra genvägen går inte det står att jagg ska söka o kolla om det var rätt eller något??? kommer det komma ny torrent o ladda cm5 med crack??? Och kan någon förklara ordentligt hur man ska fixa cm5??? ctrl alt delete funkar inte har tagit bort pf filerna och uasservice  står att jag ska stoppa in rätt skiva HJÄP ETT GENI TACK
+,turken91,2005-03-28T20:56Z,någon som kan bidra ett bra spela i piratebay som man kan ladda ner???
+,pimpster,2005-03-30T23:32Z,"Yarr!
+När jag ska fixa genväg nummer 2 står det (när jag ska verkställa) att ""det angivna namnet, C:ProgramWindows är ogiltigt"". 
+
+Nån som kan ge lite pointers? F.ö blir 1:a genvägen efter ett tag en genväg till programmappen! Nånting jävligt fel måste jag ju ha gjort. Så om nån vet vad det kan vara för fel, hjälp mig gärna."
+,PirrePrivat,2005-04-01T02:42Z,"Har testat fan allt som står här, inget funkar.. jävla skitrelease..."
+,Nono1,2005-04-03T11:51Z,Tack! Allt fungera perfekt!
+,hundralapp,2005-04-04T19:50Z,"Gött, tack så mycket. Men är det nån som vet hur man spelar flera personer samtidigt (eller 2)? Det gick ju på CM4 iaf så det ska väl gå på detta med eller?
+
+Vore tacksam om nån kunde förklara för mig :)"
+,Zoran82,2005-04-11T11:31Z,"Jag kan inte ladda hem, fattas typ en halv MB men den går till slutet sen går den om o om igen"
+,gjutarn,2005-05-21T06:16Z,Hejsan! Nån som vet hur man lägger in patchen när man installerat Cm5 på sin dator? Tacksam för hjälp? :D
+,sailrboy,2005-06-14T16:19Z,seeda.. please..
+,mr_pink444,2005-06-20T19:04Z,"För mig fungerade det på en gång.
+installerade med deamon tools bara
+brände inte en skiva eller nått"
+,i__k__o__r,2005-06-23T00:06Z,"jag vill gärna få hjälp om det är nån som kan?
+när jag installerade spelet med daeemon tools så funkade det när man hade engelska språket och så. men när jag använde  patchen 5.02 så när jag tryckte på spelet så kom det upp en ruta som det stod error på och nå mer.
+kan inte nån säga hur gör man gör?
+och en sak till patchen 5.02 får man svenska språkfilen med dÅ?
+"
+,Sulfo,2005-06-24T16:51Z,hvordan får man dansk sprog i spillet ? 
+,gazzamurp101,2005-07-13T14:24Z,plz some 1 help me it saying incert the real cd and i emulated it with daeom tools help
+,gazzamurp101,2005-07-13T14:24Z,it say when i click play that its detects an emulater
+,mete,2005-08-10T10:25Z,hur ser jag resten av kommentarerna?
+,Thepaperboy,2006-02-05T13:30Z,SEED PlEASE

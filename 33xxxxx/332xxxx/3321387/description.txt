@@ -1,0 +1,21 @@
+Here are instructions on how to play Stronghold 2 without a crack!
+Works for both version 1.0 and 1.1!!
+
+
+If you don't want to make any misstakes, I have written it all down in a textfile, where everything is written down correctly!!!!!
+
+You need to make two shortcuts.
+
+In the "target" for shortcut 1, you write:
+
+"C:ProgramWindows Resource KitsToolssubinacl.exe"  /keyreg "HKEY_LOCAL_MACHINEHARDWAREDevicemapSCSISCSI Port 1" /deny=administratörer=r
+
+You may need to change the portnumber from 1.. try using 0, then 1, then 2, then 3... etc..
+
+In the "target" for shortcut 2, you write:
+
+"C:ProgramWindows Resource KitsToolssubinacl.exe"  /keyreg "HKEY_LOCAL_MACHINESYSTEMMountedDevices" /deny=administratörer=r
+
+To play the game, you need to open both shortcuts, and then start the game from the original exe!
+
+(you need to do this after every reboot of the system)

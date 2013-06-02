@@ -1,0 +1,38 @@
+﻿User Type,Username,Date,Text
+,dx-,2005-03-20T23:30Z,Lol a txt file... you could have posted it in the forum or as description of this file..
+,donpatricio,2005-03-20T23:32Z,Yeah I know but it esier to se this!
+,dx-,2005-03-20T23:35Z,"Put the txt in the description then :)
+
+Then people can choose if they want to download it"
+,donpatricio,2005-03-20T23:37Z,"It's just 1.3kb, maybee to much for u?"
+,donpatricio,2005-03-20T23:49Z,skriv om ni behöer hjälp!
+,dx-,2005-03-20T23:52Z,"Tar det på svenska hur man då fixar det här spelet utan att bränna det.
+
+Det du behöver är:
+
+Daemon tools v.3.47
+subinacl  Här är länken : http://download.microsoft.com/download/1/7/d/17d82b72-bc6a-4dc8-bfaa-98b37b22b367/subinacl.msi 
+
+När du har dessa program installerade så börjar du med att göra 2 genvägar till subinacl. Höger klicka på den ena genvägen och ta sen ""egenskaper"". Ta bort länken som står i mål och klistra in den här länken:
+
+""C:ProgramWindows Resource KitsToolssubinacl.exe""  /keyreg ""HKEY_LOCAL_MACHINEHARDWAREDevicemapSCSISCSI Port X"" /deny=administratörer=r
+
+OBS! För att kolla vilken port din daemon använder så går man in på ""Kör"" och skriver ""regedt32"". Bläddra er fram till ""HKEY_LOCAL_MACHINE/Hardware/Devicemap/Scsi"" under mappen kommer ni hitta ett antal mappar där det kan står ""Scsi Port 0"" osv. Klicka på en av mapparna tills ni hittar det här:
+
+http://club.cdfreaks.com/attachment.php?attachmentid=12889&stc=1 på vänstra sidan. Gör ni det så har ni hittat Daemons port nr som ni ska ersätta ""X"" med.
+
+Nästa steg är att gå in på den andra genvägens egenskaper och klistrar in den här texten under ""Mål"":
+
+""C:ProgramWindows Resource KitsToolssubinacl.exe""  /keyreg ""HKEY_LOCAL_MACHINESYSTEMMountedDevices"" /deny=administratörer=r
+
+Verkställ!!
+
+Nu är det bara att klicka på båda genvägarna en gång sen e det klart att mounta cdn med daemon och spela.
+
+B"
+,donpatricio,2005-03-21T00:04Z,Go find something u like to do DX...wierdooo
+,stenbrott1,2005-03-21T09:17Z,"Fan vad omständigt... det måste väl komma ett crack snart *hoppas*
+
+Funkar detta verkligen?"
+,donpatricio,2005-03-21T10:37Z,Japp det gör det. Den här metoden fungerar med Project_Snowblind_DVD-VNGCLONE också.
+,donpatricio,2005-03-21T18:57Z,Ni alla som tror att det kommer en crack så kan redan säga att de finns ingen grupp som har kunnat cracka spel som har Securom 7 skydd.

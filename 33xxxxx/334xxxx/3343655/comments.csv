@@ -1,0 +1,17 @@
+﻿User Type,Username,Date,Text
+,brakjoller,2005-06-12T14:26Z,"Första minuterna/sekunderna saknas, men det är inte viktigt för  att kunna följa med i programmet."
+,MPI2,2005-06-12T18:12Z,Vad är det för codec till detta?
+,brakjoller,2005-06-12T18:31Z,"Bra fråga :) 
+
+Jag kodade den med mecnoder och följande parametrar:
+
+mencoder VR_MOVIE.VRO -ffourcc dx50 -vop crop=320:180:0:30,scale=320:240 -o test.avi -of avi -oac mp3lame -ovc xvid -xvidencopts fixed_quant=4 && mplayer test.avi
+
+Dvs bilden med xvid, eller iallafall vad mencoder tycker är xvid, och ljudet i mp3-format."
+,brakjoller,2005-06-12T20:30Z,"Tack hellgun, du är underbar!"
+,hellgun,2005-06-12T20:31Z,Faan brakjoller! Jag har seedat din fil hela kvällen nu och jag har inte ens fått ett litet tack!
+,Panorama,2005-06-12T23:48Z,ett mycket intressant TV-program. Om det kunde visas fler sådana här allmänbildande program på TV vore jag mycket tacksam. 
+,Linuus,2005-06-13T23:38Z,kom igen o seeda lite va :-P
+,Ixion_,2005-06-25T01:11Z,Nån som vill seeda en kväll plz?
+,fizken,2005-07-04T13:12Z,"snälla söt rara, kan någon seeda?"
+,Gildarius,2005-08-10T07:58Z,"I think I am up to 85 % and I really would like to watch this video. Please, please seed for us."

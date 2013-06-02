@@ -1,0 +1,31 @@
+What is DIKO?
+
+DIKO is an automation tool: it command many other software to get the best result in this conversion. DIKO allows you to get up to two hous in 1 SVCD or 10 hours in 1 DVD with good quality, depending on the content, thanks to the compression of BVCD techniques. DIKO is freeware, and everything it needs is also freeware and bundled in the install package. To allow more time to be dedicated to the development of DIKO, a commercial version has been created, called DIKO Gold. DIKO Gold has a few extra advanced features for those who want to support development.
+
+What are DIKO features?
+-Video Encoding via One Pass VBR Size prediction fully integrated, using CinemaCraft Encoder 2.66 or 2.67, ou using 1 or  2 Pass VBR throught FreeEnc (bundled in DIKO installation package).
+- Does automatically all bitrate calculation needed.
+- Convert audio to 48000 Hz automatically if needed.
+- Do automatically framerate conversions from 23.976 to 25 fps and 25 fps to 23.976, including audio and subtitles. This feature also works with 5.1 audio.
+- Automatic DVD authoring with user-created menu via linux ported DVDAuthor or leave video audio and subs ready to be imported to other authoring packages.
+- Automatic DVD image creating via MKISOFS and burning in a DVD+R / DVD-R / DVD+RW / DVD-RW blank disc via DVDDecrypter if dvdauthor authoring is selected.
+- Creates switchable subtitles from commom srt and sub files.
+- Join subtitles for originally 2-CD DivX / XVid movies on the fly.
+- Stops if Q Factor is too low (over 40), avoiding bad quality encodes.
+- Automatically checks and fixes AC3 errors via AC3FIX
+- Enables pulldown flag via Pulldown.exe automatically.
+- It can fully work in background.
+- Do AC3 audio encoding via SoftEncode or MP2 audio encoding via BeSweet
+- Full avisynth script support, comes with latest Dialhot Script V4 for DivX.
+- Takes care of the annoying Softencode dying bug.
+- DVD support via D2V projects and Full DVD support with DVD Decrypter ripping in DIKO Gold.
+- Crash Recovery
+
+What are DIKO Gold additional features?
+- complete DVD support with automatic rip via DVDDecrypter and D2V creation. Just put the disc, click on Rip, choose the audio and subtitle track, and that's it.
+- Support for non-standard AVI framerates
+- Subtitle customization.
+- Automatic Support for interlaced DVD Sources.
+- Support for interlaced AVI sources
+- Crash Recovery Customizer 
+- support for sub/idx subtitles in D2V mode.

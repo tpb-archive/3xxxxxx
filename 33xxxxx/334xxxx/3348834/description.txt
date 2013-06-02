@@ -1,0 +1,11 @@
+DOSBoot
+
+Contains only the minimum files needed to boot any Windows PC from a floppy diskette into a pure DOS environment. Total used space on floppy will be 121KB.
+
+Insert a blank floppy. Run DOS_FLOPPY.EXE. Once flopppy is created you can add any files that are capable of running in DOS.
+
+Use the IMG file if you need to create a bootable DOS CD or DVD.
+
+Perfect for firmware updates, BIOS flashing, small DOS games etc.
+
+Guides at http://www.network54.com/Forum/336827

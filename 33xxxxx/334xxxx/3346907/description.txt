@@ -1,0 +1,123 @@
+.:............................................................................:.
+  ^                                                                            ^
+  :        ________                   ________ .__                             :
+  :       /  _____/ _____     ______ /  _____/ |__|___  __  ____ _______       :
+  :      /     ___ __     /  ___//     ___ |  |  / /_/ __ \_  __       :
+  :          _   / __ _ ___      _  |  |    /   ___/ |  | /      :
+  :       ______  /(____  //____  > ______  /|__|  _/   ___  >|__|         :
+  :              /      /      /         /                 /              :
+  :                                                                            :
+  :  /|_)|/|/   __  /|_)/ \/  |/| _  _|o _.  /  _ ._ _|_ _ ._  /| /| /   :
+  :  /|_)|  |_      /|_)_//  |  |(/_(_||(_|  _(/_| | |_(/_|    |o |o_/  :
+  :                                                                            :
+ .:............................................................................:.
+  ^                                                                            ^
+			  XBMC - XBOX Media Center 1.1.0
+
+		        Release Date............20.06.2005
+		        Release Size................4x15MB
+		        Release Language.....Multilanguage
+		        Operating System...........M$ XBOX
+
+ .:............................................................................:.
+  ^                                                                            ^
+    INFORMATION:
+
+    This package is my little "contribution" to the scene.
+
+    Hope you like it ... !! Comments & Suggestions are very welcome !!
+
+    If ppl find this useful, im gonna try releasing on a weekly basis.
+
+    I only included the Original Project Mayhem III skin from the CVS to
+    keep the Release Size small and to make sure everything works perfectly.
+    If you wanna use other skins make sure they are at least Version 1.3 !
+
+    Scripts included:
+    FlexiBrowser / GameSaves / GameSpotPlus / GameTrailers / iFilmBrowser
+    StupidVideos / QuickTimeBrowser (Movie Trailers) / simpleKML V2 (WebRadio) 
+
+    I modified the SkinProject Mayhem IIIPALDialogSubMenu.xml so that all
+    of the Scripts appear in the Scripts Submenu. If you don´t like this or
+    some of the Scripts, you should edit this file to your personal preferences.
+    The original file from CVS is also still present as DialogSubMenu.xml.ORG.
+
+    Visualisation addons included:
+    G-Force: 1507 total (including the 490 CVS supplied ones)
+    Milkdrop: 5031 total (including the 436 CVS supplied ones)
+    Just in case, the Original CVS Presets are backed up to the folders
+    visualisationsG-ForceOriginal Files from CVS
+    visualisationsMilkdropOriginal Files from CVS         
+
+ .:............................................................................:.
+  ^                                                                            ^
+    RELEASE NOTES:
+
+    Integrated the MilkDrop and G-Force addon Packs that Kevin Sartori released.
+    You finally can see the real names of the MilkDrop Presets again !
+    THX for your hard work Kevin !
+    Deleted some double and triple occurring MilkDrop Presets. [80 files]
+    Again, I added numbers in the format [XXXX] to the MilkDrop Presets.
+    If you happen to see the most BrainSmashing MilkDrop Vis ever produced
+    - while smoking your favorite shit - you can remember it by its number ;-)
+
+    The Project Mayhem Webserver V1.1 is now included too.
+    Sorry for that, I just forgot to add the Files coz I´ve never used it ...
+
+    The problem with videos not playing using the "Film Grain Effect" is fixed.
+    THX to the Devs! - i missed this - on that single Day it was broken ;-)
+    They also fixed the "RSS Newsfeeds not working" issue. (changed home.xml)
+
+ .:............................................................................:.
+  ^                                                                            ^
+    CHANGELOG:
+
+    To keep this .nfo shorter, I only provide you with the last 3 lines here
+    so you can see what´s included. You can find the official XBMC Changelog at  
+    http://cvs.sourceforge.net/viewcvs.py/xbmc/XBMC/Changelog.txt?view=markup
+    It is also included in docsChangelog.txt
+ 
+    - 20-06-2005 updated: [ 1215375 ] Newest BiosIDs.ini (Thnx to bubbadood)
+    - 16-06-2005 changed: 'the' is ignored during sorting in my videos as well.
+    - 16-06-2005 added: aac codec for paplayer
+                 (needs aaccodec.dll in systemplayerspaplayer)
+
+ .:............................................................................:.
+  ^                                                                            ^
+    Some TIPS:
+
+    If you are experiencing all kinda weird problems using an updated version
+    of XBMC it is always a good idea to delete the XBMC´s SaveGame
+    using the Micro$oft Dashboard. Alternatively you can just delete the
+    E:TDATA face008 and E:UDATA face008 directories.
+    This is especially important if you are updating from quite an old version.
+
+    To avoid problems you should also check - with every new release - 
+    if the included XboxMediaCenter.xml has been changed significantly.
+    You should then update your own customized XboxMediaCenter.xml accordingly.
+
+ .:............................................................................:.
+  ^                                                                            ^
+    THANKS:
+
+    All the XBMC developers !!
+    Your program makes the XBOX worth soOo much more for all of us !
+    Everyone contributing to the scene !
+    This would not have been possible without some guy (he didn´t leave a name)
+    releasing the "MakeXBMC Essential Files Package". Thanks Mate !
+
+ .:............................................................................:.
+  ^                                                                            ^
+    PS:
+
+    By now, everyone and his grandma should know that the Milkdrop
+    and the G-Force presets too, can (and really should !) be zipped up ;-)
+    If they aren´t, your beloved XBOX will eat your HDD and slow to a crawl
+    when using all the available "Milkdrop addon" presets.
+
+ .:............................................................................:.
+  :                                                                            :
+  :For Budget Reasons the Light at the End of the Tunnel had to be switched Off:
+  :                                                                            :
+ .:............................................................................:.
+  ^GasGiver                       °16.06.2005°                         GasGiver^

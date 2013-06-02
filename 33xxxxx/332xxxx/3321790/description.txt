@@ -1,0 +1,15 @@
+Playable with any DVD Player like PowerDVD on your PC.
+
+To play in a DVD player, convert to WAV (DTSWAV) and burn as audio CD. 
+
+To do that download BeSplit here:
+
+http://dspguru.notrace.dk/BeSplitv0.9b6.zip
+
+usage:
+
+besplit.exe -core ( -logfile besplit.log -input robot.dts -output robot.dtswav -type dts -fixcrc )
+
+more info on BeSplit here:
+
+http://besplit.doom9.org/

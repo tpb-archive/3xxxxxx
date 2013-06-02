@@ -1,0 +1,136 @@
+24-06-2005 fixed: Small width anim-gif loading crash.
+24-06-2005 fixed: wav header parsing in wavcodec is incorrect
+24-06-2005 fixed: Small issue in FileHD (reading of weather .rar file triggered it)
+24-06-2005 fixed: Transistion on press of left/right in my pictures faded incorrectly.
+24-06-2005 changed: aaccodec now uses mp4ff to read m4a files (aaccodec.dll in systemplayerspaplayer got updated)
+24-06-2005 updated: Norwegian language file (Thnx to vnm)
+24-06-2005 updated: German language file
+24-06-2005 changed: dll's loaded via section loader are unloaded with a 30 secs delay when unreferenced -> more freemem when using my music
+22-06-2005 fixed: some nav sounds are not played correctly
+22-06-2005 added: New MasterLock option: Settings & Filemanager & Home Media [GeminiServer]
+Now you can define a MasterLock also for Settings, Filemanager, My Video, My Music, My Pictures, My Programms
+Location: SettingsAppearanceMaster Lock: Lock Filemanger, Lock Settings and Lock Media!
+These settings are also setable via xboxmediacenter.xml: <LockFilemanager>0</LockFilemanager>, <LockSettings>0</LockSettings>, <LockHomeMedia>0</LockHomeMedia>
+21-06-2005 added: use of combined conditional visibility is now supported in skin.
++ is logical AND, | is used for logical OR. ie VideoPlayer.IsFullscreen + !Player.Caching, will display when fullscreen and not rebuffering
+21-06-2005 added: progress bar / slider can use info values. ie <info>Player.Progress</info> will make progressbar/slider display current progress
+valid commands are so far only: Player.Progress, Plyayer.Seekbar (Seekbars current location), Player.Caching (Progress of caching)
+21-06-2005 added: sliders now respect <height> and <width>, scaling will be based on background image
+21-06-2005 fixed: aaccodec, return value of AACOpen is not always AAC_INVALID_HANDLE when open fails
+21-06-2005 fixed: audiomanager (nav sounds) could crash on an invalid wav file, second try ;)
+21-06-2005 changed: added more chars (éèçàùêÅåÂñáåÄÜüÖ) to the allowed for fatx limits 
+20-06-2005 fixed: [ 1223555 ] Case sensitiveSubtitle files where case sensitive.
+20-06-2005 fixed: ogg playback
+20-06-2005 fixed: unneeded logs from track_realloc when mem with 0 bytes size is reallocated
+20-06-2005 fixed: mem leak in mp3 tag loader
+20-06-2005 fixed: audiomanager (nav sounds) could crash on an invalid wav file
+20-06-2005 added: replay gain support for aaccodec (aaccodec.dll in systemplayerspaplayer was updated)
+20-06-2005 updated: Spanish language file (Thnx to unknown)
+20-06-2005 updated: Korean language file (Thnx to AkoXko)
+20-06-2005 updated: Italian language file (Thnx to kotix)
+20-06-2005 updated: German language file
+20-06-2005 updated: German (Austrian) language file (Thnx to CEOMR)
+20-06-2005 updated: Finnish language file (Thnx to jutski)
+20-06-2005 updated: Norwegian language file (Thnx to vnm)
+20-06-2005 updated: [ 1215375 ] Newest BiosIDs.ini (Thnx to bubbadood)
+16-06-2005 changed: 'the' is ignored during sorting in my videos as well.
+16-06-2005 added: aac codec for paplayer (needs aaccodec.dll in systemplayerspaplayer)
+16-06-2005 added: Startup Window now setable via GUI! SysteminfoAppearanceLook and FeelStartup Window! [GeminiServer]
+It will set the XBMC Startup Window [Manual Settings, Home, Programms, Pictures, Music, Videos, Music, ] default it Home Window!
+Manual Settings will not touch the Settings and you can define your own Startwindow in xbmc xml.
+16-06-2005 fixed: sf.net Bug [1220193]. if Date and Time Set Hour is 0 (24), it will add. + 1day [GeminiServer]
+14-06-2005 fixed: home.xml, urlset was 0, changed to 1, RSS should work now again
+14-06-2005 changed: Milkdropnow renders with correct aspect ratio.
+14-06-2005 added: Pixel ratio parameter added to the visualisation Create function and more Direct X exports.
+14-06-2005 changed: added option in build.bat to unrar web stuff (Thanks to Aasum)
+14-06-2005 changed: build.bat now RAR's weather gfx and puts it in media/ folder (required for gfx to show)
+14-06-2005 fixed: rar code had problems with multiple volumes.
+14-06-2005 updated: mplayer.dll (fixes crash with noise filter)
+14-06-2005 changed: weather pictures can be in a rar as well.
+14-06-2005 added: CGUIListControl::SetPageControlVisible() exposed to python.
+14-06-2005 fixed: Navigation off the right of list/thumb controls was not functioning.
+14-06-2005 changed: Spin control only shows in thumb/list controls if more than 1 page exists.
+14-06-2005 changed: All controls now check for conditional visibility.
+14-06-2005 changed: Moved fading code into the base control class.
+14-06-2005 changed: Removed ability to alter Brightness/Gamma/Contrast from video OSD during Hardware Overlays rendering.
+14-06-2005 added: Visualisation settings, and ability to show, select and lock vis presets.
+14-06-2005 added: Nicer music OSD during visualisation (thanks to Chokeman for all the nice graphics)
+14-06-2005 updated: mplayer.dll (fixes 2x playback speed when volumn amplification was enabled)
+14-06-2005 fixed: possible crash in zip file handler.
+14-06-2005 changed: weather pictures now in weather.zip (currently disabled).
+14-06-2005 added: rar support. since it has to extract the files to disc, it is currently only available for: 
+.cbr/.rar in my pictures. 
+compressed (vob)subs (supports a rar within a rar etc)
+my music.
+13-06-2005 changed: fat-x limit setting also affects filemanager.
+13-06-2005 fixed: cosmetic problem introduced by previous commit.
+13-06-2005 added: ability to select rss feeds update interval.
+13-06-2005 fixed: the option to enable autosync in mplayer (smooth audio clock) wasn't taking affect
+12-06-2005 added: readstring method to zip file class.
+12-06-2005 fixed: seeking after selecting time using seekbar was very slow
+12-06-2005 changed: HttpApi: re-enabled database lookup
+11-06-2005 updated: mplayer.dllabout 1 meg smaller than old (saves mem).
+has been compiled with gcc.3.4.4 and has some unneeded filters removed
+11-06-2005 fixed: HttpApi internal logic bug
+10-06-2005 added: Master Code Control: XBMC Startup Lock! [GeminiServer]
+XBMC Startup Lock will use the Master Lock Settings and if Startup Lock is enabled:
+On XBMC Startup, the XBMC Startup Lock will ask you the predefined Master Code in 
+addition with the Max Retry. If you enter the correct MasterCode, XBMC will start as used
+But if you enter the Wrong Master Code in addition with the Max Retry:
+Then XBMC switches off! if you restart XBMC it will ask the Master Code again!
+10-06-2005 added: Master Code control within the GUI! [GeminiServer]
+This will make it easy to set the Master Code handling, instead of XboxMediaCenter.xml 
+editing to set the <masterlock> settings. It will set the Master Code, Retry, Enable Shutdown, 
+Protect Shares, Master Mode, automatic, with MasterCode detection and also the conditions to use it!
+Master Lock will use the Max Retry condition, to prevent the infinite tries on the Settings
+Screen! It will ask you the Master code on: Entering a New Master Code, Disabling Master Mode
+and also it will ask on hit Applying Changes! The Master Code Remember is not used here, to prevent not intended changes
+10-06-2005 added: more extensive RSS comments & changed the id method in xboxmediacenter.xml
+10-06-2005 changed: rss sets use an id attribute rather than separate tag + updated skin.
+10-06-2005 fixed: GUIThumbnailPanel graphical glitches (focused item while scrolling + page number glitch on last page).
+10-06-2005 fixed: List/Thumb controls spin control didn't use relative coordinates correctly.
+10-06-2005 changed: rss sets must be tagged with a <id>#</id> now.
+10-06-2005 fixed: [ 1218199 ] Fix for Bug 1216728 (hardware panel on systeminfo) thanks to Mr_Muh.
+10-06-2005 changed: IMDb lookups (and Scanning) now threaded. Now easily cancellable.
+10-06-2005 fixed: Crossfadeinitial volume of new track could spike to max volume.
+10-06-2005 removed: unneded function call to mplayer.dll
+08-06-2005 fixed: OutputToAllSpeakers didn't work with when AC3 Output was enabled on 2ch AC3 files
+06-06-2005 changed: VSync now always on.
+06-06-2005 added: dll_fprintf() initial code for writing text files from dll's.
+06-06-2005 changed: Updated OpenForWrite() to open with overwrite if requested.
+06-06-2005 fixed: FileZip Read() missed last chunk if read chunksize was small.
+06-06-2005 updated: Hungarian language file (Thnx to tcsizmadia)
+06-06-2005 fixed: mplayer may crash when playback ends (updated again)
+06-06-2005 fixed: item is highlighted as playing when the start of a song fails
+06-06-2005 fixed: .cue sheets would loop indefinitely on the last two tracks.
+06-06-2005 fixed: Source of the below crash (urlset out of range in rsscontrol), + updated PM3 to suit the new system.
+06-06-2005 fixed: added missing !--> to the rss comments in Xboxmediacenter.xml (fixes serious crash)
+06-06-2005 fixed: some legal fat-x chars were not in the listthanks to yoci!
+06-06-2005 changed: moved rss specifications to xboxmediacenter.xml and added url sets.
+06-06-2005 changed: removed libmp4 linkage. reduces xbe with ~ 110kb
+06-06-2005 added: sf.net patch [1215111] Fast AAC/MP4 tag retrievalthanks to arnie pie!
+05-06-2005 changed: Cleaned up use of CUtil::cmpnocase, replacing with strcmpi throughout.
+05-06-2005 added: Combined spectrums into a single .vis with presets, changeable on the fly.
+05-06-2005 fixed: dvdplayer would fail to play from scrambled disc untill mplayer had once played it
+05-06-2005 fixed: XBMC would sometimes lockup during FF/RW when using Hardware Overlays
+05-06-2005 added: Write to log when memory allocation failes in a dll
+05-06-2005 fixed: memory overrun when reading EEPROM (not as bad as it sounds). HalReadSMBusValue() allways touched 4bytes on each call.
+05-06-2005 added: Faster path lookups in CFileItemList (for DirectoryCache mainly) thanks to desertbear.
+05-05-2005 fixed: minor crash fix when switching between gui and fullscreen
+05-06-2005 fixed: PAPlayer correctly handles track changes where the number of channels changes + handles 6 channel tracks correctly.
+04-06-2005 added: sf.net patch [1209466] Multiple RSS feeds concatenatedthanks to desertbear!
+04-06-2005 fixed: long rss feeds could crash xbmc when using ttf fonts.
+04-06-2005 added: All Winamp milkdrops "Winamp-presets(436).zip", no shortened filenames. Zip 'normal' compression used.
+04-06-2005 changed: Ogg codec now uses the FileReader.
+04-06-2005 changed: Updated MPCCodec.dll so that MPC files use the FileReader.
+04-06-2005 updated: [ 1212669 ] Newest BiosIDs.ini (Thnx to bubbadood)
+04-06-2005 changed: added zipped G-Force presetfiles.
+04-06-2005 updated: Dutch language file (Thnx to tijmengozer)
+04-06-2005 updated: German language file
+04-06-2005 updated: German (Austrian) language file (Thnx to CEOMR)
+04-06-2005 updated: Finnish language file (Thnx to jutski)
+04-06-2005 updated: Norwegian language file (Thnx to vnm)
+04-06-2005 added: HttpApi Slideshow commands
+04-06-2005 fixed: File manager, context menu option "select all" does not select all items
+04-06-2005 changed: unified dll load/unload in paplayer codecs by using the section loader
+03-06-2005 added: G-ForceAbility to select a folder or a zip file for presets from the xml config.

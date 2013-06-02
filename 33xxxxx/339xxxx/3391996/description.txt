@@ -1,0 +1,41 @@
+
+ Release...........: XBox Media Center 1.1.0
+ CVS/Compile Date..: 2005-10-04
+ Compiler Versions.: XDK 5933, Visual Studio .NET 2003
+
+ Skins.............: Project Mayhem III
+                     Project Mayhem III style webserver interface by KanadaKid
+
+ Visualisations....: 7068 Milkdrop Presets
+
+ Scripts...........: Aftonbladet, Changelog, FlexiBrowser v1.4, Flickr, 
+                     GameSpotPlus, Global Alternate News, KMLBrowse,
+                     LaunchBrowser v1.7, Notepad, Ooba v1.1, QuickTimeBrowser,
+                     Stupidvideos, TV.com and XBMCScripts.
+                     (All installed in the scripts menu)
+
+ Notes.............: Some might appreciate the fact that the NSIS installer
+                     makes a few components optional.
+                     Either way the LZMA compression reduced the size of your
+                     download. ;)
+
+ XBMC Changelog....:
+
+ - 02-10-2005 fixed: my music keeps its settings.  (buttons need to reference
+                     ID 5, not 501.)
+ - 02-10-2005 added: Video items found in locked bookmarks are hidden from My
+                     Videos database views (Title, Genre, Actor, Year) until
+                     the bookmark is unlocked from My Videos Files view or by
+                     Master User Mode
+
+ PM III Changelog..: 
+
+ - 2005-10-03 fixed: new dvd button all good now (what a mofo :P )
+ - 2005-10-03 fixed: xbmctex.exe couldnt handle the no-focus textures of the
+                     new dvd buttons - made them *.png
+ - 2005-10-02 fixed: my music keeps its settings.  (buttons need to reference 
+                     ID 5, not 50)
+ - 2005-10-02 added: removed no-focus textures from thumbnailpanels and lists
+ - 2005-10-02 added: some other minor homescreen changes
+ - 2005-10-02 added: made the DVD launcher in the homescreen a button since
+                     there were no good buttons free on the remote control

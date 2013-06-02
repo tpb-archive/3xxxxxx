@@ -1,0 +1,38 @@
+22-04-2005 fixed: Location of Kai Thumbs didn't use the thumbs folder configured.
+22-04-2005 added: gapless mp3 playback.  Files should be encoded with LAME (>3.90.3) in order to be truly gapless.
+22-04-2005 changed: Enable Visualisation combined into vis spincontrol (first option is Off).
+22-04-2005 changed: my music, adding songs to existing, stopped playlist will start the first song added
+22-04-2005 added: audioscrobbler now saves a cache if no server is available or connection failed
+22-04-2005 fixed: audioscrobbler tried to submit songs, before the initial handshake with the server succeeds
+19-04-2005 changed: increased thumb cache to 64K thumbs (from 4K) thumbs will need to be recreated or use tools/UpdateThumbs.py from the scripts dialog to update your old thumb cache
+19-04-2005 fixed: create thumbs in my pictures now skips files that already have thumbs
+19-04-2005 changed: settings where 0 indicates off show "Off" as text now
+19-04-2005 fixed: audioscrobbler status notification is shown every 30 sec. if no network connection available
+19-04-2005 updated: Spanish language file (Thnx to jose_t)
+19-04-2005 updated: German language file
+19-04-2005 updated: Polish language file (Thnx to napek)
+19-04-2005 updated: Norwegian language file (Thnx to vnm)
+19-04-2005 updated: Finnish language file (Thnx to jutski)
+18-04-2005 added: option to disable music visualisation (localized string instead of using disabled.vis)
+18-04-2005 added: Support for AC3/DTS passthrough for dvdplayer and partly fixed audiostream selection from dvdmenu.
+17-04-2005 fixed: PAPlayer seeking was way too fast.
+17-04-2005 fixed: Time display in VBR files after seeking is now more accurate.
+17-04-2005 fixed: .Cue sheet sort order in sort by files.
+17-04-2005 added: Better VBR seeking for PaPlayer.
+17-04-2005 fixed: AudioScrobbler submission on .cue sheet items was wrong.
+17-04-2005 changed: Skin version hits v1.3.
+17-04-2005 fixed: .Cue sheet media file finding.
+17-04-2005 fixed: Timeoffset in PAPlayer (.cue sheets).
+17-04-2005 fixed: More universal remote double tap fixes.
+17-04-2005 fixed: Version is derived internally (top of GUIInfoManager.cpp) instead of relying on strings.xml.
+16-04-2005 fixed: duplicate and phantom entries in Video Actors, Genres, and Years views.
+16-04-2005 fixed: PAPlayer FF/RW when id3 reading is turned off. Opening to timeoffset initial code.
+16-04-2005 fixed: Left + Down on left thumb stick wasn't working correctly.
+16-04-2005 changed: SetViewPort()/RestoreViewPort() done in the control rather than by the visualisation.  Should hopefully eliminate the "flickering screen on homepage" issue.
+16-04-2005 fixed: Possible crash in Video database views if the listcontrol had the wrong id.
+16-04-2005 fixed: audioscrobbler status was only updated when restarting after settings change
+16-04-2005 updated: Norwegian language file (Thnx to vnm)
+16-04-2005 fixed: Mute dialog was not allocated, and thus not rendered.
+16-04-2005 fixed: [ 1182782 ] Default mode for Digital output should be Stereo
+15-04-2005 updated: Norwegian language file (Thnx to vnm)
+15-04-2005 fixed: CUtil::URLEncode ignored '&' and '='

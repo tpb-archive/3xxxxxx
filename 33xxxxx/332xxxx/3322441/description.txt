@@ -1,0 +1,110 @@
+<html><body text="#333333" link="#FF0000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2" bgcolor="#999999"><p align="center"><strong><a name="firstrule" id="firstrule"></a>vBulletin 3.0.7 (c) Jelsoft Enterprises Ltd.</strong>
+    </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>SUPPLiER.........................: tEaM SCRiPTMAFiA
+  NullifiER........................: tEaM SCRiPTMAFiA
+  pAcKeR...........................: tEaM SCRiPTMAFiA
+  ReLeAsE dAtE.....................: 03/16/2005
+  Language.........................: PHP/MySQL
+  TyPe.............................: Forum System
+  PROTECTiON.......................: License  Check, Callhomes, Refferer
+  Personal Rating.......................: <img src="http://static.thepiratebay.org/theme/02/images/ratings/5.gif" width="55" height="11">
+    </p>
+      <p> </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" bgcolor="#999999"><div align="center"><strong>Bugs Fixed from 3.0.6 to 3.0.7</strong></div></td>
+  </tr>
+  <tr>
+    <td colspan="2"><p></p>
+      <p><font color="red">*</font> 3675 - Mozilla WYSIWYG editor eats spaces
+  <font color="red">*</font> 3678 - % in custom BB codes causes problems
+  <font color="red">*</font> 3683 - Importing XML in PHP5 defaults to UTF-8 encoding
+  <font color="red">*</font> 3685 - Multiple Choice vs Multiple-Choice
+  <font color="red">*</font> 3687 - Redundant code in poll.php
+  <font color="red">*</font> 3691 - CSS Selector can't be translated
+  <font color="red">*</font> 3695 - URLs with parentheses not auto-parsed
+  <font color="red">*</font> 3696 - BB codes with options not stripped by strip_bbcode()
+  <font color="red">*</font> 3697 - Can't close thread while creating
+  <font color="red">*</font> 3699 - User titles not wordwrapped
+  <font color="red">*</font> 3703 - 0 not accepted as phrase text
+  <font color="red">*</font> 3708 - Extra column displayed in PM list if icons off
+  <font color="red">*</font> 3710 - Missing semicolon in HTML entity in memberlist.php
+  <font color="red">*</font> 3714 - Smilies don't upload properly
+  <font color="red">*</font> 3724 - Typo in Message Attachment Options
+  <font color="red">*</font> 3725 - Redirected to wrong page after removing moderator
+  <font color="red">*</font> 3730 - Attachment.php doesn't check can view others
+  <font color="red">*</font> 3731 - Calendar moderator queue broken
+  <font color="red">*</font> 3733 - Rebuild post cache results in empty cached post
+  <font color="red">*</font> 3737 - URLs not auto-parsed in signatures
+  <font color="red">*</font> 3738 - Editpost.php does not auto-parse links in preview
+  <font color="red">*</font> 3739 - Call to non-existing template in register.php
+  <font color="red">*</font> 3746 - Event ending at midnight spans two days in calendar
+  <font color="red">*</font> 3748 - Unreachable code in functions_bbcodeparse.php
+  <font color="red">*</font> 3749 - Inconsistent phrase in BB code manager
+  <font color="red">*</font> 3751 - Smilies parse as IMG tags with Mozilla WYSIWYG
+  <font color="red">*</font> 3754 - Uncached template in joinrequests.php
+  <font color="red">*</font> 3763 - Bad chdir in modcp/deletedposts.php
+  <font color="red">*</font> 3765 - Poll icon visible even when poll not posted
+  <font color="red">*</font> 3772 - URLs not parsed immediately after closing BB code tags
+  <font color="red">*</font> 3780 - Spacing issue with reply button and legacy postbit
+  <font color="red">*</font> 3785 - Uncached templates in profile.php
+  <font color="red">*</font> 3787 - Variable globalized twice in register.php
+  <font color="red">*</font> 3788 - Unreachable code in register.php
+  <font color="red">*</font> 3793 - Redirects in moderator.php don't respect admin perms
+  <font color="red">*</font> 3796 - Can't delete profile picture from ModCP
+  <font color="red">*</font> Potential security issue in misc.php
+  <font color="red">*</font> Significant improvements to attachment.php (Etag support, ability
+  to send signficantly larger attachments, ability to cancel sending attachment
+  if user cancels)</p>
+      <p>NOTE: We decided to release this because the CAT version was badly nulled.</p>
+      <p> </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" bgcolor="#999999"><div align="center"><strong>Install instructions</strong></div></td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>1) Unpack
+  2) Read vb3_readme.html/txt
+  3) Enjoy</p>
+      <p>Includes all Language Packs available:
+  - Arabic
+  - Chinese
+  - Danish
+  - Dutch
+  - Español
+  - French
+  - German
+  - Greek
+  - Hebrew
+  - Italian
+  - Norwegian
+  - Portuguese
+  - Romanian
+  - Russian
+  - Swedish
+  - Thai
+  - Turkish</p>
+      <p> </p></td>
+  </tr>
+  <tr>
+    <td colspan="2"><div align="left">If you like this you will probably like my following other uploads
+        <a href="http://thepiratebay.org/torrents-details.php?id=3321883">Extremepixels.Boards.Skins.Pack-WDYL
+        </a><a href="http://thepiratebay.org/torrents-details.php?id=3325535">Invision Power Board v2.0.3 (Nulled) + Invision Community Blog v1.1.1</a>
+      <a href="http://thepiratebay.org/torrents-details.php?id=3322441">VBulletin v 3 0 7 (NULL) + Language Packs-SCRiPTMAFiA</a>
+          <a href="http://thepiratebay.org/torrents-details.php?id=3328696&hit=1">Invision Power Board v2.0.4 (Nulled)</a></div></td>
+  </tr>
+  <tr>
+    <td width="97%" bgcolor="#999999"><div align="center">>><a href="http://thepiratebay.org/download.php/3322441/VBulletin%20v.3.0.7%20%2B%20Language%20Packs-SCRiPTMAFiA.torrent">Download this .torrent</a><<</div></td>
+    <td width="3%" bgcolor="#CCCCCC"><div align="right"><a href="#firstrule">TOP</a></div></td>
+  </tr>
+</table>
+</body>
+</html>

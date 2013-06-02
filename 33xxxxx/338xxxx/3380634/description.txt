@@ -1,0 +1,151 @@
+#########################
+# StepMania 3.9 RC2a X1 #
+# Xbox Compiled Version #
+# Compiled by: Alex3305 #
+#########################
+
+------
+About:
+------
+
+This version is based on the StepMania 3.9 rc2a release and includes most of its features. Keep in mind that
+this is a Work In Progress (WIP) version. This version is compiled with Visual Studio .net 2003 and the XDK.
+Further some files didn't transfer here but I didn't have any problems with StepMania. These files are still
+included but aren't transfered cause of the FatX system that only supports filenames upto 40 characters. If
+anyone find a solution for this that would be great !
+
+(sidenote by Iriez) I've included the supported files provided by tvstatic so that no files should error when
+transfering. I also added the sample song from Xport's previous build to get you new stepmania users going.(/sidenote)
+------------------------------------------------------------------------
+Known issues, limitations and differences from the PC/Linux/Mac version:
+------------------------------------------------------------------------
+
+ - Characters don't seem to be appearing
+ - Movie and Visualisation support has not been implented
+ - Packages implentation is broken
+ - No USB keybourd support
+
+---------------------------------------
+Advantages of StepManiaX (by Xport) v5:
+---------------------------------------
+
+ - Virtual Memory Managment has been implented
+ - Profile names can be typed with the Xbox controller
+ - IP Adresses (for SMLan) can be typed in with the Xbox controller
+ - Controls can now be mapped using the Xbox controller
+ - Limited song editing is now supported with the Xbox controller
+ - Themes are working ? (see below)
+ - Faster loading
+ - Possible 128MB RAM fix (needs testing)
+
+-------------------------
+Virtual Memory Managment:
+-------------------------
+
+Virtual Memory Managment (VMM) has been implented on this version with on-demand paging. This should solve
+most but not all out of memory problems that occur. Out of memory errors can still occur becuase textures
+loaded by StepMania (using Direct3D) are not loaded into the virtual memory and thus cannot be managed by
+the Virtual Memory Manager. So, if too many textures are loaded you can still get out of memory errors.
+
+You can edit the settings of the VMM in the file: Stepmania.ini that is found in /data/. This file is created
+when Stepmania first run. Here is where the settings are:
+
+Under [Options]:
+ EnableVirtualMemory	- Enabled by default; set it to 0 to disable, 1 to enable
+ PageFileSize		- default is 384; this is the size of the file in MegaBytes
+ PageSize		- default is 16; this is the file of a single page in KiloBytes
+ PageThresHold		- default is 8; this is the minimum size in KiloBytes for an allocation to be 
+					managed by the Virtual Memory Manager
+
+Under [Debug]:
+ LogVirtualMemory	- disabled by default; when enabled it writes to the log every allocation, 
+					       deallocation and page swap during execution. Set to 0 to
+					       disable, 1 to enable
+
+-------------------------------
+Xbox Controller keyboard input:
+-------------------------------
+
+StepMania is now accepting keyboard input using the Xbox controller. This allows you to create profiles, 
+connect to SMLan servers and to map the controls. The controls for input are as follows:
+
+Typing (Profile names, IP Adresses):
+ D-Pad up/down 	- Select next/previous character in the right most place
+ D-Pad left	- Deletes most right character
+ D-Pad right	- Move cursor right, by default creates a space (Profile) or zero (SMLan) character
+ B		- Set most right to space (Profile) or . (SMLan)
+ Y		- Select next character to type in order of lower-case, uppercase, digits, symbols (Profile)
+ A		- Select previous character
+ Start		- Accept input
+ Back		- Go back
+
+Mapping Controls:
+ D-Pad		- Select control to map
+ Start		- Choose the control to map and then press the button you want to assign to it
+ Select		- Go to the previous screen
+ A,B,X,Y	- Clear the control
+
+You can only map controls with the first controller ! So if you want to map the Player 2 buttons you will
+have to go to the control on the first controller, press Start and then on press the button you want to
+assign on the second controller.
+
+--------------
+Theme Support:
+--------------
+
+When I installed KatzeExtreme (StepManiaX Xbox version) it didn't work but maybe you will get it to work.
+The next part is directly copied of the Source Package Readme:
+
+	"Limited theme support is available in this version. Themes work the same way as in the PC version. 
+A problem that is evident with the Xbox version is the FatX filename length limitation. A workaround has 
+been developed for this, thanks to the addition of the Class metric for screens in themes. This solution 
+assumes you have the java virtual machine on your PC.
+
+To add a theme to the Xbox version of Stepmania, you must first have it unpacked on your PC. First, attempt 
+to transfer the theme files to the appropriate folder on the Xbox. Remember which files did not transfer 
+correctly. Accompanying this distribution is a java program called RenameScreen. This can be found in the 
+Utils folder. Now, each file that did not transfer correctly should have a screen name prefix 
+ie. ScreenEndlessBreak. To reduce the length of this file, we can rename this screen to something else. 
+I'd suggest something intuitive like "SEB".
+
+So, for each screen name that needs reducing, do the following:
+
+1. Go to the command prompt and get to the path where the java program (RenameScreen.class) is. By default 
+this is Utils in this distribution, but you may wish to move it somewhere easier like where you keep your 
+themes.
+
+2. Type "java RenameScreen [theme path] [screen name to change] [what to change to]". So, if you were 
+changing ScreenEndlessBreak to SEB in the KatzeExtreme folder, you would type "java RenameScreen KatzeExtreme 
+ScreenEndlessBreak SEB". This will go through the theme and change all the filenames that start with the 
+screen name you specified to the new name. It also goes through the ini and redir files and fixes references 
+made to those files.
+
+3. Now all you have to do is open the metrics.ini file, look for the renamed screen name header (eg [SEB]), 
+and, if the class element is not already there, add "Class=[original screen name]" 
+(eg "Class=ScreenEndlessBreak").
+
+Once all the problem screen names have been dealt with, remove the files you transferred to the Xbox before, 
+and transfer the new version, and you're done!
+
+The following limitations apply to themes:
+
+ - png files that are not png files (as in gif files that are named as png files) will cause Stepmania to 
+   crash on the XBox
+ - Techno Fiend will play, but the fonts are completely screwed, and some of the images (most notably on 
+   the menu screen) are very distorted"
+
+------------------------
+Additional Song Folders:
+------------------------
+
+In Stepmania.ini in the data folder, there is an optional element AdditionalSongFolders. 
+You can enter in a path where songs are kept in this field. The drive letter for the DVD-ROM is A:. 
+All hard disk partitions have their usual drive letters.
+
+----------
+Have fun !
+----------
+
+I hope you will enjoy this new StepMania version as much as I do. So have fun with it !
+										Yours Sincerly,
+										       Alex3305

@@ -1,0 +1,86 @@
+15-04-2005 added: selectItem method to ControlList for python, thanks to sambarza.
+15-04-2005 updated: German language file
+15-04-2005 updated: German (Austrian) language file (Thnx to CEOMR)
+15-04-2005 fixed: Double linebreak in TextBox caused repeated lines.
+15-04-2005 added: New built in function XBMC.EjectTray for opening/closing the dvd tray.
+15-04-2005 fixed: Adjust Frame Rate and PAL60 clash on 25fps files. 
+15-04-2005 added: audioscrobbler support
+15-04-2005 fixed: kai, crash when friend has no avatar
+15-04-2005 added: patch [ 1178392 ] Proxy support for shoutcast thanks to soepy.
+15-04-2005 fixed: bug [ 1180705 ] Empty Files and illegal fatx file names on SMB Server stops copy Process.
+15-04-2005 fixed: Togglebuttons weren't scaled on the fly correct (VideoOSD in PAL60 mode).
+15-04-2005 updated: libdvdnav.dll and libdvdcss-2.dll with support for largefiles (>2gb, using our custom headers)
+15-04-2005 added: added workround for next chapter/prev chapter which reuse global action_codes
+15-04-2005 fixed: Seeking didn't work at all in dvdplayer when playing dvd's
+15-04-2005 fixed: Initial highlight was displayed immidiatly when found instead of delayed as it should.
+15-04-2005 updated: Korean language file (Thnx to akoakoako)
+15-04-2004 updated: Dutch language file (Thnx to tijmengozer)
+14-04-2005 added: Music is muted 9dB on ffwd/rewd with mp3 player.
+14-04-2005 fixed: Fadelabels didn't fade out in visualisation on press of white.
+14-04-2005 fixed: Switching from GUI<->fullscreen video when paused could result in black screens or blank video controls.
+14-04-2005 added: #define in Util.h to specify whether to build for skin version 1.3 or not.  Uncomment this line if you want to test for 1.3 compatibility.
+14-04-2005 fixed: bug [ 1182993 ] My Pictures - View As button could get stuck on List or Big Icons.
+14-04-2005 added: Python bindings for built in XBMC functions. Based on SF patch [ 1175015 ] thanks to thor918.
+14-04-2005 added: InfoManager labels: System.BuildDate and System.BuildVersion.
+14-04-2005 added: Built-in functions XBMC.SlideShow(dir) and XBMC.RecursiveSlideShow(dir).
+14-04-2005 added: patch [ 1182692 ]: Fix XBMC lockup with empty python list control selection, thanks to gimblefoot.
+14-04-2005 fixed: Weather.Location wasn't working.
+14-04-2005 fixed: bug [1182765] : Playlist – too many ‘/’.
+14-04-2005 fixed: More Visz <-> GUI crashes.
+14-04-2005 fixed: Texture allocation thread-clash on windows/dialogs opened from fullscreen video.
+13-04-2005 fixed: PaPlayer FF/RW now works perfectly
+13-04-2005 fixed: PaPlayer audio device starving by increasing buffer size
+13-04-2005 fixed: highlighting in dvdmenu failed if an menu with different highlighting scheme had been displayed before
+13-04-2005 fixed: universal remote double taps (Sony universal)
+13-04-2005 fixed: controlbutton python docs.
+13-04-2005 fixed: label/image <info> showed wrong info if no valid info was available.
+13-04-2005 changed: My Pictures uses GUIViewControl to handle views.
+13-04-2005 fixed: Remote double tap (universal remotes)
+13-04-2005 fixed: Crash/exception in Visualisation control (caused render issues)
+13-04-2005 fixed: Spectrum analyser didn't free memory correctly.
+13-04-2005 fixed: dvdplayer didn't work at all as it's pixelshader source had been removed
+13-04-2005 added: new virtual window for dvdplayer when in menu mode. allows nicer keymappings.
+13-04-2005 updated: German language file
+13-04-2005 updated: French language file (Thnx to modhack)
+13-04-2005 updated: Italian language file (Thnx to kotix)
+13-04-2005 updated: Polish language file (Thnx to napek)
+13-04-2005 updated: Norwegian language file (Thnx to vnm)
+13-04-2005 updated: Finnish language file (Thnx to jutski)
+13-04-2005 fixed: ff/rw/play buttons on remote didn't work in fullscreen
+13-04-2005 added: Support to toggle new time/progbar display in fullscreen (default mapped to white button)
+12-04-2005 changed: Textures are only loaded as needed if the are specified as dynamic in OnWindowLoaded().
+12-04-2005 fixed: PaPlayer cue sheet based mp3 playback could crash at time 0.
+12-04-2005 added: Support for <width> tag in label controls.
+12-04-2005 added: navigation sounds
+11-04-2005 fixed: FullscreenVideo wasn't rescaled correctly to PAL60.
+11-04-2005 changed: GUIInfoManager if/else blocks to switch (faster)
+11-04-2005 fixed: Buffering text wasn't displayed during buffering
+11-04-2005 fixed: Selected item in My Videos wasn't remembered.
+11-04-2005 fixed: Double tap remote bug.
+11-04-2005 changed: Removed duplicate code from Video OSD/Fullscreen.
+11-04-2005 fixed: Context menu didn't popup in empty dirs if "Hide Parent Items" was turned on.
+11-04-2005 fixed: GUI Filters were not used correctly when returning from Slideshow.
+11-04-2005 changed: Removed duplicate code from the Video Playlist window
+11-04-2005 changed: Removed all info* controls as it was just duplicate code.
+11-04-2005 changed: Optimised lookup of info from GUIInfoManager.
+10-04-2005 added: Progressbar control now obey's width/height. Background texture is used as reference to calculate scaling of other textures.
+10-04-2005 added: the following api to HttpApi: config (access the configuration commands previously only available through ASP)
+10-04-2005 fixed: Crash in home on PM3 during video playback with UI off-center due to SetViewWindow() not correctly bounds checking.
+10-04-2005 changed: Cleaned up progressbar display during fullscreen and added two new conditional visibilty strings for skinning. Player.DisplayAfterSeek : Displays for 2.5 seconds after a seek has finished and during ff/rw. Player.IsCaching : True when the player is paused and recaching data.
+10-04-2005 updated: mplayer.dll to current cvs (support for full recaching of internet stream before resuming)
+10-04-2005 added: Harddisk spins up just before the end of the movie so that transistions during stacking is faster.
+10-04-2005 changed: Switching views issues in My Music Top 100 view.  Big list view has changed id to 52.
+10-04-2005 changed: Removed unnecessary code from My Music + changed videoPlaylists window to use CGUIViewControl.
+09-04-2005 fixed: Default control can now be focused on the list/thumb in music + video views.
+09-04-2005 fixed: Some 3rd party AV packs report as being "VGA" adapters incorrectly.  XBMC now supports this mode and enables Digital output for it.
+09-04-2005 changed: Analog ffwd/rewd mapped to triggers in Vis, and dpad left/right is skip previous/next.
+09-04-2005 added: WHITE hides/reveals controls on musicVisualisation screen.  Two options: either on or off.  When off, the song is faded in + out at beginning and end.
+09-04-2005 fixed: Redid the video output startup/texture management.  Prevents crashes when starting when minimized.
+09-04-2005 fixed: Spurious error message caused by empty infoImages.
+09-04-2005 added: Video playlists will cause the video to remain minimized when switching videos if it is already minimized.
+09-04-2005 fixed: IMDb info that failed showed "My Programs" string on the error dialog.
+09-04-2005 changed: Project Mayhem III is new default skin
+09-04-2005 added: directory tokens which reference XBMC's special directories for use as bookmark paths: $HOME, $SUBTITLES, $THUMBNAILS, $SHORTCUTS, $ALBUMS, $RECORDINGS, $SCREENSHOTS, $PLAYLISTS
+09-04-2005 fixed: music database cleanup with LARGE song table (SF bug 1172234)
+09-04-2005 added: support for pausing and rebuffering completly before continuing playback when running out of data
+09-04-2005 added: support for using a skinned progress control in fullscreen video to display current position.

@@ -1,0 +1,305 @@
+﻿User Type,Username,Date,Text
+,deadmoo,2005-08-12T09:34Z,change the root password in single user mode.
+,qazwsx123454,2005-08-12T11:34Z,Is this the real working cracked version that is only to install on any PC?
+,ClarkCable,2005-08-12T12:43Z,Is this just to install or do you need to work it with Darwin? 
+,steno,2005-08-12T12:58Z,is it only me that get read-errror when extracting the file? :( 
+,Jeffimmelt,2005-08-12T13:14Z,So this is a ready-to-run VMware Workstation clone that will run on VMware Workstation 5.0.0?
+,elibano_13,2005-08-12T14:21Z,nån som vet hur man lägger upp under texter på en film från www.undertexter.se  adda mig elibano_13@hotmail.com
+,Jeffimmelt,2005-08-12T14:50Z,"Winrar 3.2 gives me ""The archive is corrupt"" when it tries to extract tiger-x86-flat.img.
+
+Any suggestions?"
+,Sixer,2005-08-12T16:17Z,"- Extract the .tar.bz2 using a tar -jxf
+- Take the tiger-x86-flat.img from the directory
+- Forget about VMware
+- Write the img to a 6 GB partition using dd bs=1048576 if=./tiger-x86-flat.img of=[your 6gb partition devicenode]
+- Boot into your OSX.
+
+Also see http://www.360hacker.net/forums/viewtopic.php?t=158"
+,shoek,2005-08-12T16:45Z,"Get a kernel panic on boot under vmWare in both safe mode and regular.  
+
+""Unable to find driver for this platform: ACPI""
+
+Any ideas?  Been reading on www.concretesurf.co.nz and see other reports of this, but no solutions!"
+,Jeffimmelt,2005-08-12T17:01Z,So I have to install linux to extract the files?
+,papa_6,2005-08-12T17:42Z,Have tried this on three machines (2 p4 and 1 celeron) works great. My Radeon9000AIW in the Celeron machine made it even faster... 
+,papa_6,2005-08-12T18:09Z,"Kör OSX på din dator (inte VMWare)
+
+1. ladda ner imagen
+2. packa upp med winrar
+3. ladda ner dd for windows från http://users.erols.com/gmgarner/forensics/forensic%20acquisition%20utilities-bin-1.0.0.1034%20(beta1).zip 
+4. flytta dd filerna till mappen där du har imagen
+5. tryck win+R och skriv Diskmgmt.msc. Kolla vilken nummer din hd har. Imagen skall skrivas till en egen hd. 
+6. Starta dos
+7. gå till mappen med imagen
+8. skriv:
+dd if=tiger-x86-flat.img of=\.PhysicalDriveX
+X är nummern för din hd. (använd 1 MB buffer så går det snabbare)
+9. vänta 5 - 20 minuter
+10. Koppla in hdn som bootdisk (ide0:0)
+11. Säg hejdå åt Windows
+
+"
+,ClarkCable,2005-08-12T19:03Z,"papa_6:
+
+Grymt.
+Synd att jag bara har 2 macar och en PC, som jag även i fortsättningen vill ha XP på..
+Tänkte fråga om du har installerat några andra OSX program, typ FCP eller Photoshop?? 
+Funkar det tex att tanka bilder till iPhoto ifrån en digitalkamera, funkar skrivare som vanligt?
+
+Har du hittat några buggar för övrigt?
+
+**"
+,papa_6,2005-08-12T19:25Z,"I tried it on my main PC now, but it didn't start there. Asus P4PE, P4 2,4 Northwood.
+
+But on my HTPC it works pretty fast.  Asus P800something, Celeron 2,4, ATI AIW9000. Rosetta doesn't work for some reason (the celeron has SSE3) so I havent got itunes and dvdplayer to work yet....Quartz extreme isn't supported too, so maybe I must change graphic card.
+
+USB-memory worked right away so i think my Ixus50 will work also..."
+,ClarkCable,2005-08-12T19:36Z,"Okej,,
+So still there is a bit of a fuzz and fight to make it work."
+,papa_6,2005-08-12T19:45Z,"It was no problem at all to boot it. It booted directly  after I dd'ed the image to the hd. Ofcourse there is some minor problems now in the OS, byt hey, I have a Mac now!!! And it didn't cost me more than the price for the clonePC. 
+
+Suug på den ni som har kastat bort 2000 ? på en G5:a."
+,papa_6,2005-08-12T19:46Z,...2000 euro...
+,Jeffimmelt,2005-08-12T19:51Z,"Winrar 3.2 was to old, 3.3 could unpack it. And OSX worked right of the bat, good job."
+,Jeffimmelt,2005-08-12T20:16Z,"But it's unbelievably slow on this Northwood Celeron 2.4 through VMware Workstation.
+
+I pressed ""Go"" on the top menu and have been looking at the spinning umbrella for 10 minutes. CPU Time for the VMware session is 30 minutes and I haven't managed to get anywhere."
+,papa_6,2005-08-12T20:19Z,Forget VMWare and run it directly in your PC!
+,ClarkCable,2005-08-12T20:38Z,"
+Papa:
+Du har ingen MAC! Du har en PC med en krackat dev version av OSX. ;)
+Men jag ska nog lägga in detta i min morsas PC så jag slipper att serva den varje vecka,, men det verkar inte vara stabilt nog för det ännu, har snackat med min brorsa och flera av hans vänner har fuckat upp sina maskiner big time!!.."
+,shevek,2005-08-12T20:50Z,"help!
+
+I can't connect to either tracker - 
+
+tracker.prq.to times out and demonoid reports not in the pool...
+
+what am I doing wrong? "
+,papa_6,2005-08-12T21:49Z,"Rosetta is working now! Installing apps right now... The info for the rosettafix is found here: http://www.concretesurf.co.nz/osx86/viewtopic.php?t=345
+
+JAG HAR EN MAC...JAG HAR EN MAC....JAG HAR EN MAC...LIVET ÄR UNDERBART"
+,ClarkCable,2005-08-13T00:08Z,"Nej Papa du har en PC med en stulen Apple själ..
+:)
+Blir dock lite peppad att trycka in detta i min PC, dock så har jag redan både en powerbook och en G5 så jag frågar mig själv varför?? Jag svarar mig själv, varför inte.. "
+,devnevyn,2005-08-13T00:18Z,"FYI, this won't work at all on a computer without SSE2. This means AMD64 is a go, but older AMDs aren't."
+,kinghajj,2005-08-13T01:20Z,"Older AMDs don't have SSE2 (Athlons, for example).
+
+You don't need Linux to install this on to your hard drive. Just search around http://www.concretesurf.co.nz/osx86 and you'll find plenty of info on how to write this to a hard drive/boot in VMware."
+,deadmoo,2005-08-13T05:16Z,also look at this --> http://thepiratebay.org/details.php?id=3368802
+,Jeffimmelt,2005-08-13T11:25Z,What's the root password?
+,Jeffimmelt,2005-08-13T11:31Z,I could use the administrator password for the NetInfo Manager.
+,outofthebox,2005-08-13T17:49Z,pw SHOULD be 'deadmoo' as he is the origional creator of this image....but thats not confirmed...
+,zdeqb,2005-08-13T18:24Z,"you can change the password if you start it in single user mode (-s) and then enter the following commands:
+mount -uw /
+passwd root"
+,Musei,2005-08-13T19:18Z,"This site has a guide on how to install this and run it natively (without VM Ware):
+
+http://www.uneasysilence.com/os-x-proven-hacked-and-running-on-an-ordinary-pc/"
+,deadmoo,2005-08-13T22:44Z,dual booting is possible
+,ferdie,2005-08-13T23:09Z,"I'm missing #776, has been trying for 5 hours now. Anyone who knows why? (Newbee)"
+,momocq,2005-08-14T11:26Z,"so can I dual boot if I use only one hard disk? 
+how can i setup a new hard disk on my laptop"
+,Theoretic,2005-08-14T13:15Z,"How does this run on Linux, with VMware?"
+,ferdie,2005-08-14T15:25Z,"Finally, after 12 hours! 100%."
+,ctnerrot,2005-08-14T18:10Z,"This is Darwin, not OS X. And Darwin is the worst pile of shit operating system ever compiled."
+,papa_6,2005-08-14T21:04Z,This is TIGER OSX 10.4.1 Intel Developer version. I'm using it on my ClonePC right now!!!
+,ZitraZnr666,2005-08-14T22:00Z,va e de för skit? :D... men säg va de gör så e ni snälla
+,Thrillseeker,2005-08-14T22:01Z,"i have the real thing, dont need to boot up mac os x on a shitty windows pc"
+,gopiratebaygo,2005-08-15T02:20Z,PASSWORD IS : bovinity
+,Weiman,2005-08-15T10:01Z,I've tried both WinRAR and (GNU) tar.exe but I can't extract the image properly. Any tips?
+,Musei,2005-08-15T17:54Z,WinRAR 3.3 was able to extract it just fine for me.
+,jbnetarr,2005-08-15T17:56Z,"Posting this from OSX on my Dell 700m :) I just used the dd method from my Ubuntu partition to overwrite my XP partition, had to boot in safe mode though... but looks really good!"
+,ataensic,2005-08-15T20:30Z,It keeps asking me to reboot as soon as it gets up and running...
+,Foelz,2005-08-15T21:47Z,"Same here, ataensic... I'm sorta lost here. Help?"
+,parkvej,2005-08-15T23:08Z,"Yes , i did it. I just followed this http://www.uneasysilence.com/os-x-proven-hacked-and-running-on-an-ordinary-pc/"
+,parkvej,2005-08-15T23:10Z,"Have any of you inst. Final Cut pro, DVD studio pro and so on on tiger-x86?"
+,mattb,2005-08-16T00:56Z,For a sec it was using a Demonoid tracker there...
+,mattb,2005-08-16T01:19Z,"Error (torrent not in pool...)
+
+anyone else getting this?"
+,hdavy2002,2005-08-16T03:25Z,I am getting the same Error (torrent not in pool...) Any solution to it.
+,mattb,2005-08-16T13:31Z,"nope, but mine finished fine anyways.  now WinRAR won't open it..."
+,The-Duck,2005-08-16T15:44Z,add a new tracker (http://tracker.prq.to/announce)
+,Darthosx86,2005-08-16T22:19Z,"Here are guides for VMWare / Native installation. Also guide for dual booting on 2 HDD or 2 partitions - Everything you ever need is on this page:
+
+http://wiki.osx86project.org/wiki/index.php/Installation_Guides
+
+WinRar extraction problems:
+
+Fix1: If you're getting the corrupt archive error when attempting to extract the tiger-x86.tar.bz file, consider upgrading to the latest version of WinRar. It worked for me, it may very well work for you, too. -MadFunk
+
+Fix2: I used the following command within cygwin to extract the file successfully after WinRar failed: tar jxvf tiger-x86.tar.bz -bighoffa
+
+Dual boot 1 HDD with 2 partitions: http://wiki.osx86project.org/wiki/index.php/Simple_Dual_Boot
+
+VMWare installation: http://wiki.osx86project.org/wiki/index.php/Vmware_how_to
+
+Compatible Hardware
+Se this page: http://wiki.osx86project.org/wiki/index.php/HCLPart
+
+Just check http://wiki.osx86project.org/wiki/index.php/Main_Page for help."
+,Darthosx86,2005-08-16T22:21Z,"Here are guides for VMWare / Native installation. Also guide for dual booting on 2 HDD or 2 partitions - Everything you ever need is on this page:
+
+http://wiki.osx86project.org/wiki/index.php/Installation_Guides"
+,Darthosx86,2005-08-16T22:23Z,"WinRar extraction problems: 
+Fix1: If you're getting the corrupt archive error when attempting to extract the tiger-x86.tar.bz file, consider upgrading to the latest version of WinRar. It worked for me, it may very well work for you, too. -MadFunk 
+******************************************************************************
+Fix2: I used the following command within cygwin to extract the file successfully after WinRar failed: tar jxvf tiger-x86.tar.bz -bighoffa "
+,Darthosx86,2005-08-16T22:24Z,Dual boot 1 HDD with 2 partitions: http://wiki.osx86project.org/wiki/index.php/Simple_Dual_Boot
+,Darthosx86,2005-08-16T22:24Z,VMWare installation: http://wiki.osx86project.org/wiki/index.php/Vmware_how_to
+,Darthosx86,2005-08-16T22:25Z,Compatible Hardware Se this page: http://wiki.osx86project.org/wiki/index.php/HCLPart
+,Darthosx86,2005-08-16T22:32Z,Just check http://wiki.osx86project.org/wiki/index.php/Main_Page
+,Foelz,2005-08-17T03:06Z,So this wont work on an AMD Athlon? That suuuucks... well I guess i can't try this then =(
+,desiaznwitekid,2005-08-17T03:22Z,"This uses a Demonoid tracker, which wont let me download it with bittornado or bittorrent"
+,rainx,2005-08-17T04:02Z,"Doesnt work for me in vmware, when I try to load it just says something about vmdk not being a valid virtual disk, I downloaded twice too, so its not corrupt"
+,frogeye,2005-08-17T09:11Z,"when I typr dd bs=1048576 if=./tiger-x86-flat.img of=/dev/hda. I get this ""hda read only"". How to change this? Maby i need a su password to chane premission?"
+,Darthosx86,2005-08-17T12:12Z,"Yes of cause you need su password.
+
+Type: sudo dd bs=1048576 if=./tiger-x86-flat.img of=/dev/hda"
+,GregorBug,2005-08-17T13:31Z,"This cannot be extracted on Win9X/ME since FAT32 cannot handle such big files. For Windows an NTFS file system is required. Also, make sure that you use an up to date version of your unrarer. Some versions will extract only the first 2GB and then VMWare will complain that vmdk isn't a valid virtual disk."
+,hdavy2002,2005-08-17T15:43Z,"I succesfully installed in a spare HD using a guide posted on http://www.uneasysilence.com/os-x-proven-hacked-and-running-on-an-ordinary-pc/ 
+ I used windows to do it, no need of Ubuntu. I download a dd port for windows, you can google it and search. I had a spare HD and it's up and running, the only problem is that I have a dell dimension 3000 and it has an intel graphic controller, it's Intel 82845G build into the pc, now i have 4 bit graphic and it's grey and i can herdly read anyhting, the mouse looks buggy to use.
+
+Any ideas or help with the graphics on my pc!!!"
+,rainx,2005-08-17T19:43Z,"Its funny, I have tried 4 different archiving programs, and none of them work, it still says its not a valid virtual disk
+
+How big is the final .img file anyway?"
+,reggimental,2005-08-17T19:52Z,does amd cpu work with this
+,schumi1971,2005-08-17T20:04Z,Thanxz
+,Darthosx86,2005-08-17T22:51Z,"The final tiger-x86-flat.img file is 6 GB (6.441.910.272 byte), that is why you need your disk to be NTSF or HFS+ as FAT 32 does not support files bigger than 4 gb - people just keep asking the same questions, read the comments before you ask also see http://wiki.osx86project.org/wiki/index.php/Main_Page"
+,Darthosx86,2005-08-17T22:55Z,Again for all the people who have questions about Compatible CPU's/Hardware see: http://wiki.osx86project.org/wiki/index.php/HCLPart
+,auto237193,2005-08-18T02:01Z,"Want to speed up the performace under vmware? 
+1) Use ""Linux, Other Linux"" as the Guest OS type, not Other or FreeBSD.
+
+2) From inside the VM's BIOS, disable the floppy controller and the two serial ports. "
+,dwinterslalsd,2005-08-18T03:50Z,bovinity does not seem to work for me does anyone no the password at the login screen
+,dwinterslalsd,2005-08-18T03:57Z,srry scratch my last post I was wrong bovinity works just fine (ift have caps lock on) duh my bad :)
+,dwinterslalsd,2005-08-18T03:58Z,(if you do not have caps lock on) miss type
+,barbobot,2005-08-18T04:06Z,"well this almost worked using the dd method, however it freezes as soon as i use my ps/2 keyboard, im grabbing a usb keyboard tonight
+ill report back then"
+,creen,2005-08-18T06:39Z,"check out http://osxonpc.com
+
+they took installation notes from other sites, but I think it's a lot easier to read."
+,blue_tomato,2005-08-18T06:48Z,Anyone successfully installed this using iPod as the install harddisk?
+,zietbukuel,2006-02-04T11:05Z,"I DOES work on AMD Athlon, you need SSE3 or SSE2 at least... A64 Venice cores do have sse3 :)"
+,Jeffimmelt,2006-02-19T22:19Z,"Is this still the 10.4.1 version? Any way to get a 10.4.3 version so I can use the new Maxxuss patches?
+
+
+Thanks"
+,BillB0B,2006-03-04T16:29Z,This Works Find on my system. First the archive bz2 is Unix/Linux standard. I'm able to run this software on a shiiy 2.4 intel running Suse and vmware 5.5 workstation software. Mac OS is based on BSD OS. You might want to dump Windows and switch to Linux or a BSD base software running VMWare.
+,legend-Mac,2006-03-18T03:04Z,Will boot PC with dual core
+,HOSSAM,2006-03-20T23:42Z,"so, how can i get online with this vm? no ether card driver?"
+,HOSSAM,2006-03-21T11:58Z,how can i get online??
+,daniel 11,2006-05-04T14:59Z,Please SEED!
+,The Creator,2006-07-28T02:55Z,There is also another awsome guide at http://osxx86.orgfree.com and http://osxx86.tk . There are also awsome forums there that have tricks like getting your wireless card and sound to work! If you are having trouble check out those sites. And big thanks for the upload!
+,marc_hugs,2006-07-29T12:22Z,"how do i unzip the rar file when i use winrar, doesnt work says iso is invalid..."
+,Mr Riddler,2006-08-20T10:06Z,"winrar says ""tiger-x86.tar.bz2: The archive is corrupt"" so umm....  help? have i got to download yet another tiger osx? this is the 2nd one i have tryed"
+,me769,2006-10-01T20:23Z,how do i burn this image ?? the dvd is not big enough !! The image is over 6 GB . please help !
+,bradallen,2006-10-05T23:52Z,"I used VMware, and didnt burn it to a dvd. 
+i dont think its possible to install.
+its an already created and working mac os.
+you just have to run the image"
+,mtzmtulivu,2006-11-14T00:10Z,"i am using this on a vmware server 1.0.1 running linux 2.6.16.27 ..it boots up right but its waaay too slow, there is a process called kernel something(it has a pid no. of 0), i have no idea why but it takes around 90% CPU time and it slows down the wholse system. Any ideas why this happens?..i have tried everything i can think of and nothing has worked
+
+ ..how do i change the password, nothing worked so far"
+,redwyvern,2006-11-18T17:44Z,"about the slow speed: from Tech|ZONE;
+A problem has been noted that some computers run very sluggishly with Mac. In Mac, go to: System/Library/Extensions and remove AppleTPMACPI.kext and then restart Mac. Mac should now run MUCH faster."
+,pankajbavare,2006-11-23T10:58Z,thanks
+,mtzmtulivu,2006-11-23T22:56Z,"thanks, that tricked worked, now its much more responsive ..( the system cpu % is around 5% now) ..
+
+the password is bovinity ..i should have read all the posts :-)"
+,Ricky1996,2007-01-08T21:58Z,How to get tiger-x86-flat.img in this file can someone help me?
+,znoopy2k,2007-01-30T01:02Z,"What ist the ROOT password? ""deadmoo"" and ""bovinity"" don't work.
+
+Changing the password in the single user mode doesn't work too.
+----------------
+mount -uw /
+passwd root 
+---------------
+""passwd root"" quits without asking me for a new password. "
+,mesterS,2007-02-18T14:13Z,"Does anyone know if OS X's internet registration feature has been hacked in this release? Wondering if loading a NIC in VMWare will cause the OS to ""phone home"" and thereafter render the OS useless?
+
+Booted right away after opening it in VMWare. Cool. Now I can mess around with Entourage and test its compatibility with Exchange :-)"
+,afilliated,2007-02-19T19:38Z,"To get the Ethernet to work try this website.
+VMWare Network on Mac OS X x86
+
+http://www.paulooi.com/2005/10/15/vmware-network-mac-osx-x86/"
+,Dust_X,2007-02-26T18:22Z,I dont understand VMware...???? What is that and how do I use that???
+,Dust_X,2007-02-27T16:51Z,"Works like a charm.....
+Now I ownly have ONE problem....:
+What should i call my computer: PC or Mac??? ;)"
+,Mac Genius,2007-03-13T11:43Z,"Hi PPL, Seed as much as possible....we can update the Pc turned MAC later ;D"
+,superhypercrazycow,2007-04-08T06:36Z,"Ok I need help. I have the 6 gig image. I have Norton Partition Magic. I have daemon tools.. I don't know what to do. Please somebody give me step by step instructions..  
+
+I already have vista and xp in dual boot. Can I triple boot? What do I do with the 6 gig Image? I don't plan in buy a 6gig USB drive for it. Thanks."
+,superhypercrazycow,2007-04-12T11:37Z,"Thanks, I got it to work. Now I'm just left with the tweaking to make my Mac run better."
+,stigie78,2007-05-09T23:58Z,"About the slow speed. I cant seem to find the extension which I have to remove to increase the CPU usage.
+
+just in case I have a laptop w/ amd turion 2 processor.
+
+thanks for any help."
+[T],wacko506,2007-05-22T19:30Z,hey guys im in a pickle i only have 948 mbof spare harddisk to donwload on i have no dvds or how much i need can anyone have any ideas
+,Ludde.,2007-08-23T17:07Z,"fan, ja kan inte packa upp filen.
+har ngn nån idé?"
+,Espionage724,2007-09-06T01:25Z,I hope this works :)
+,Espionage724,2007-09-06T20:24Z,"Heres what you do to use this
+
+1. Download VMware Workstation 6 (Torrent)
+2. Download tiger-x86.tar.bz2 (Here Of Course)
+3. Install VMware
+4. Reboot
+5. Unzip tiger-x86.tar.bz2 (WinZip or WinRAR)
+6. Go To The Folder Where Ever You Put Your Virtual Machines In VMware
+7. Make A New Folder Called ""Mac OS X86 Tiger""
+8. Transfer All Files You Unzipped To This Folder
+9. Go Into VMware
+10. Make A New Virtual Machine
+11. Workstation 6, Other, FreeBSD
+12. For Hard Drive, Select A Existing ONe
+13. Find The Folder With The Mac Stuff
+14. Click The File That SHows Up
+15. Thats It I THink"
+,Espionage724,2007-09-06T20:44Z,This is SOOOOO slow on my computer. Acer TravelMate 2480-7669 1.5GB Ram (512MB for VMware) 1.6ghz intel celeron m. IDK whats up. I tried deleting the one file mentioned but its was soo slow i only got to the extension folder before i gave up. Im not saying don't download this but if you have a computer like mine it is quite slow.
+,Espionage724,2007-09-06T20:57Z,GREAT SPEED UP TIP FOR VMWARE USERS! Change the BIOS settings. Large Disc Acces should be other. its dos by default
+,vistalover,2007-09-12T21:20Z,"This is way to slow download from:http://www.filewatcher.com/
+type in tiger-x86.tar.bz2 there will be one entry"
+,ohno..,2007-09-18T18:39Z,"does anyone know how this was created?
+guess u have to use qemu-img but im not sure of how to use it..
+thanks in advance."
+,drunkrd,2007-10-25T23:14Z,"Works fine!
+Installed in VMWare under Ubuntu 7.04.
+
+Hints:
+1 - Remove the fileAppleTPMACPI.kext in the folder System/Library/Extensions (great speed change)
+2 - Change the VMWare BIOS setting ""Large Disc Access"" to ""Other""
+3 - Disable Floppy disk, Parallel and Serial ports (VMWare BIOS).
+4 - install VMWare network drivers from 
+http://www.paulooi.com/2005/10/15/vmware-network-mac-osx-x86/
+
+That's it... 
+
+HTH
+
+
+
+
+
+
+"
+,amdturion529,2008-01-02T13:52Z,Please help a noob. What should I do with the img file?
+,amdturion529,2008-01-03T11:22Z,"Gider I ikke lige hjælpe? Nu har jeg fået en fil der hedder F i mappen hvor imaget ligger. Jeg tastede dd bs=1048576 if=./tiger-x86-flat.img of=F (min fat32 partition hedder F:). Hvad gør jeg med det?
+Now I got a file called F in the folder where the image is. I wrote dd bs=1048576 if=./tiger-x86-flat.img of=F in dos and F is a fat32 partition for OSX.  What do I have to do? PLEASE HELP!!"
+,amdturion529,2008-01-03T11:23Z,The F file is 6 gb. F filen er 6 bg.
+,truthseekers,2008-01-19T13:48Z,Torrent is corrupt. Ive downloaded twice and it wont untar or unrar. 
+,djfrancis,2008-01-30T14:26Z,what the current password so i can add users
+,155bpmikey,2008-02-15T19:49Z,"works, but is very slow!"
+,kobuxton,2008-12-31T08:47Z,PASSWORD-bovinity
+,123_123,2009-02-07T18:29Z,"i have mac os tiger 10.4 retail cd , i converted it to iso , patched using Maxxuss_Patch_Tiger_10.4.4_osx_x86_v1.0_8g1165 also added paevm=""true"" to vmware , also disabled i/o and diskette in vmware bios
+
+but i am still getting operating system not found message , please help"
+,GreyZer0,2010-01-28T21:50Z,"Thanks ,Please Seed!"
+,tcf38012,2012-05-05T14:50Z,"I know this is weird for 2012 (this is the only thing my old 2002 computer can hold) but could somebody seed?
+
+I have %99.6 but the seeder is not connecting"
+,tcf38012,2012-05-05T15:01Z,"We've unchocked this peer, but there not interested?"

@@ -1,0 +1,233 @@
+Copyright (c) 1996 - 2005 Kaspersky Lab
+
+RELEASE NOTES
+
+Kaspersky Internet Security 2006 (Prototype) build 6.0.9.96 (05.03.2005)
+
+
+INTRODUCTION
+
+1. Scope
+	The Kaspersky Internet Security 2006 (Prototype) technological prototype 
+represents a new generation platform for creating applications specifically 
+designated for complex protection of personal computers and workstations.
+	Uniting the substantially improved functional abilities of version 5.0 
+Kaspersky Lab protection products with the latest technological innovations 
+introduced by the company the Kaspersky Internet Security 2006 solution secures 
+the most effective and complete protection of a computer from all sorts of 
+electronic threats - malicious programs, hacker attacs and spam.
+
+2. Main targets of this prototype:
+	Functional solution improvements
+	Testing of brand new technologies	
+	Data and statistic collecting		
+	Search of problematic configuration	
+	User Interface improvements	
+
+
+KEY FEATURES
+
+1. Main new features, included in this prototype:
+
+	Integrated Anti-Hacker component, consisting of 3 subsystems: IDS, 
+Firewall, and Stealth Mode
+	Integrated Anti-Spam component, which utilizes self-learning Bayes and 
+Robinson-Fisher algorithms
+	Proactive protection (the basic module for automatic detection of new 
+threats)
+	Proactive protection (restore of changes option)
+	Real Fast Scan Mode
+	New streamlined interface, with selectable skins
+	Conception of states/advices helps understand overall protection status 
+	Differences technology - reduction size of updates
+	Component architecture – the option to choose components during the 
+installation process
+	Option to allow the user to remove competitor's products during the 
+installation process	
+	TheBat! mail client support (antivirus and antispam plug-ins)
+
+2. Additional new features:
+
+	Link to viruslist.com directly from the threat detection dialog box
+	"system areas scanning" task
+	Proactive protection (anti-worm - detects worm-peculiar activities)
+	"Login Show" technology
+	Internet Explorer plug-in
+	Comprehensive list of the threats found
+	Live and persistent reports: an ability of treatment in reports after 
+product restart
+	Simplified method of specifying which logical groups of threats to deal 
+with without the need to specify each kind of threat manually
+	Common list of exceptions with the option to define exceptions (a) by a 
+path, a verdict or both, (b) by a concrete protection component
+	The option to enable/disable the real-time protection by a schedule
+	Simplified method of specifying which actions should be taken when a 
+specific threat is detected
+	An advanced report-by-object statistics for all protection components
+	An advanced syntax of the command line utility
+	The UI-to-Help links allowing the user to activate the corresponding UI 
+elements using hyperlinks in the documentation.
+	An ability to specify which objects to scan at startup
+	
+
+KNOWN BUGS AND LIMITATIONS (NOT IMPLEMENTED FUNCTIONALITY)
+
+1. Main functionality planned for Beta:
+	Anti-Spy component
+	Parental Control component
+	Rescue disk components (with treatment on NTFS)			
+	Anti-Hacker statistics						
+	Automatic Updates
+	Outlook Express, Eudora plug-ins
+	Self-Protection
+	Own skinned balloons
+	Advanced disinfection
+	Skipping specific files or directories during the scan process
+	Monitoring the Windows registry
+	Product password protection
+	The option to import and export all settings for the product
+	IMAP and NNTP mail protocol support
+	An integration of the AH and AV components for traffic checking in spite 
+of which ports are actually specified for monitoring
+	Chats and graphics which ensures more clear understanding of the product 
+state and activity
+	A special flash-movie explaining how to use the program
+	A ScreenSaver which can perform scanning
+	Sounds
+
+2. Known bugs:
+	Full list - 347; 10 high priority ones.
+
+	on slow computers the "Your licence will expire in 0 days" message is 
+shown
+	the MS Outlook XP may crash at the first start after the KAV has been 
+installed
+	the outlook.exe process may fail to unload at MS Outlook shutting down 
+when the [application] is running
+	the my computer scanning process may hang when scanning mail databases
+	a net resource, which requires authorization, is not added to the list 
+of scan objects
+	user interface prints invalid characters on the Russian NT 4
+	in certain situations user interface elemets painting bugs are reported
+	the "acquire proxy settings from IE" setting does not work in Windows 98
+	skipping system reload after an AH component's bases update leads to 
+exceptions in applying the settings 
+	the help is not complete
+	click on the "Test Connection" in the Updater settings take a very long 
+time (up to 5 minutes) if "cannot establish conection" case
+
+	other (see product forum - link in the bottom of the main window)
+
+
+IN CASE OF EMERGENCY:
+
+Q:	After the product is installed the OS fails to load.
+A:	Restart your OS in the safe mode, remove the product. 
+	Please, send us your feedback with description of the problem supplied 
+your hardware/software computer configuration.
+
+Q:	The OS throws the blue screen when the product is running
+A:	Tune your OS to write debug dumps (for detail instructions, please see 
+below); restart your OS and repeat the actions known to lead to the failure; 
+please, send us your feedback with the memory.dmp (resided in the %WindowsRoot% 
+directory) and minidump<datetime>.dmp (resided in the %WindowsRoot%/Minidump) 
+attached.
+
+Q:	The application fails at the start time, or when it is running.
+A:	When the "Send feedback" dialog is displayed click the "Send report" 
+button; describe the problem happened and attach the 
+AVP.exe_6.0.9.95_hour.minute.second_processid_hosttype.dmp resided in the home 
+directory of the product (by defalt - %Program files%/Kaspersky Lab/AVP6); set 
+your OS to write debug dumps (see below) and repeat the steps known to lead to a 
+failure and send feedback having the the 
+AVP.exe_6.0.9.95_hour.minute.second_processid_hosttype.dmp file attached.
+
+Q:	The application throws errors at the start-up time or when it is 
+running.
+A:	Switch on the option of the application to write debug logs (see below), 
+repeat the steps leading to an error message and send your feedback with the 
+description of hardware/software info and having  the 
+AVP.exe_6.0.9.95_hour.minute.second_processid_hosttype.dmp file attached (the 
+file resides in the program working directory)
+
+Q:	An error in the application's settings, localization mistakes, mistakes 
+in reports, etc.
+A:	Set the option to write the application debug logs on (see below), 
+repeat the steps lead to the error, send us a feendback about the error having 
+the 6.0.9.95_hour.minute.second_processid_hosttype.dmp file attached resided in 
+the working directory of the program; send us a postback with a description of a 
+mistake in the program with hardware/software of your computer information 
+supplied.
+
+
+PERFOMING CERTAIN TASKS
+
+1. 	How to send feedback.
+	There are 2 ways to send feedback:
+
+	 1) automatic sendings of wishes and error messages from the interface 
+of a product (use "Send feedback" link in the left bottom part of the main 
+window of the product)
+		
+	 2) send e-mail message to the kav2006@kaspersky.com address (we 
+recommend to send responses on the given address, using the corresponding link 
+in the top part 
+	 of the "Services" tab of the program's main window as thus the file 
+with the description of a hardware-software configuration of a computer will be 
+automatically attached to the letter)
+
+2.	How to make your OS write debug dumps.
+
+	Concise description: 
+		1) click right mouse button on My computer
+		select Properties/Advanced 
+		click "Setting" button in the "Startup and Recovery" group; 
+		change value in the "Write debugging information" group to 
+"Kernel memory dump".
+		restart Windows.
+
+	For details, please visit http://www.kaspersky.ru/faq?qid=156361377
+
+3.	How to restart your computer in the safe mode.
+
+	Consise description: 
+		1) restart the computer (click the "Start" button, select the 
+"shut down" menu item then select the "Restart" item in the combobox of a dialog 
+displayed)
+		2) at the very beginning of your computer restarting press F8 
+until the menu is shown
+		3) select the "Safe Mode" item in the menu
+		4) after your finish your work in the safe mode you should 
+simply restart your computer
+
+		NB: in the case of Windows 2000 or Windows XP you should know 
+the password of the Administrator
+
+	For details, please visit http://www.kaspersky.ru/faq?qid=145282672, 
+http://www.kaspersky.com/faq?qid=3606209
+ 
+4.	How to check the operational capability of the program.
+
+	Download the eicar.com test virus from 
+ftp://ftp.kaspersky.com/utils/eicar/ and save it somewhere on your disk. 
+	If the file anti-virus is running you will get a warning message.
+
+5.	How to switch on the tracing functionality in the product.
+
+	Create the "Trace" key under HKLMSoftwareKasperskyLabavp6 and restart 
+the product. The product will automatically create the following sub-keys and 
+values in the HKLMSoftwareKasperskyLabavp6TraceDefault sub-key:
+		TraceFileEnable      = 0      // cFALSE
+		TraceConsoleEnable   = 0      // cFALSE
+		TraceDebugEnable     = 0      // cFALSE
+		TraceUseDbgInfo      = 0      // cFALSE
+		TraceFileMaxLevel    = 500    // prtNOTIFY
+		TraceConsoleMaxLevel = 300    // prtERROR
+		TraceDebugMaxLevel   = 400    // prtIMPORTANT
+		TraceFileMinLevel    = 0      // prtMIN_TRACE_LEVEL
+		TraceConsoleMinLevel = 0      // prtMIN_TRACE_LEVEL
+		TraceDebugMinLevel   = 0      // prtMIN_TRACE_LEVEL
+
+	Change the TraceFileEnable's value to 1. Restart the product once again. 
+The product will create the 
+AVP.exe_6.0.9.95_hour.minute.second_processid_hosttype.log file.

@@ -1,0 +1,14 @@
+Studio Clean is a DirectX compatible plug-in suite for use in host applications
+such as audio editing or processing software. It consists of four plug-ins for
+noise reduction and quality enhancements:
+
+- StudioDenoiser is a plug-in for broadband noise reduction. Because the
+  algorithm takes the perceptual properties of the human hearing into account it
+  achieves a high level of noise reduction with a minimum of artifacts. 
+- StudioDeclicker contains two different algorithms. The actual click filter
+  eliminates larger clicks and pops in the recording, while the crackle filter
+  eliminates very frequent, but short clicks. 
+- StudioDeclipper restores recordings that suffer from analog or digital
+  clipping. 
+- StudioRebirth adds synthesized high frequency harmonics to give life to old
+  and dull sounding recordings.

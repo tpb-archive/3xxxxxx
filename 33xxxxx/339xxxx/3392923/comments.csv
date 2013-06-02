@@ -1,0 +1,132 @@
+﻿User Type,Username,Date,Text
+,markild,2006-02-13T01:45Z,"Hm.. I thought about discontinuing this, but seeing as it still is active, I'll keep it up."
+,illusiondweller,2006-02-13T14:20Z,hell yea ill seed this!
+,michan,2006-04-12T14:59Z,Glad you didn't consider removing it. This is the only Win 3.11-rls at TPB that works for me.
+,lvz,2006-04-21T18:37Z,Noen som gidder 책 seede noen timer til? Trenger DOS for 책 f책 i gang en gammel laptop igjen. Takk for upload!
+,wezyap,2006-05-03T22:28Z,just wanna say thank you.
+,ConorThePerv,2006-05-06T02:17Z,"I've been looking for this for a while, Thanx!"
+,Tombe^,2006-06-28T17:29Z,"Well, i made your MS-Dos 6.22 boot from cd. Everything works great, but it boots to Caldera DR-Dos 7.03 what the hell???"
+,judas6000,2006-07-23T10:45Z,Yeah it asked me for disk 1 too.  I'm not quit sure how I'm supposed to give it disk 1 though.
+,swatmajor1,2006-10-20T15:51Z,thanks for the old school windows its fun to get back to basics... and back some
+,bdkennedy,2006-11-03T20:49Z,"judas6000 you have to format the drive first then DOS will install.  But after installation, I get an error 17 when DOS tries to boot from the hard disk."
+,HoKo,2007-03-14T23:11Z,please insert disk 1 in e:.. deam!! any1 help please
+,charonn0,2007-03-19T12:56Z,You need to boot from a DOS floppy and use FDISk to set the partition as active before installing DOS
+,argus5000,2007-03-21T14:53Z,"When it asks for Disk 1, hit F3 to exit.  At the prompt, type ""fdisk"" and create Primary partition.  You will need to reboot. Again, F3 to exit, then type ""format c:"" .  After another reboot install should work fine."
+,zhou.fei.fei,2008-03-15T17:38Z,"this is DAZ shit man! brings back fond memories of my childhood, hahahahah :)"
+,zhou.fei.fei,2008-04-09T00:25Z,"how to install dos (vmware):
+
+Here is the correct procedure to install MSDOS 6.22
+
+1. Setup VM to boot from the MSDOS CD/Floppy/ISO.
+2. After the machine as booted exit the setup program (F3).
+3. Type fdisk and create a partition and make it active.
+4. Reboot again with the CD/Floppy/ISO.
+5. After the machine as booted exit the setup program (F3).
+6. Type format c: /q /s
+7. Reboot again with the CD/Floppy/ISO.
+8. The setup program will now allow you to install MSDOS.
+9. Reboot again with the CD/Floppy/ISO.
+10. Select option 2 to install the CDRom drivers.
+
+You can now boot MSDOS from the harddisk."
+,zhou.fei.fei,2008-04-09T00:35Z,"this torrent works perfectly!
+
+
+
+install dos 6.22 first
+then install windows 3.11"
+,Squire101,2008-04-17T01:22Z,"Fantastic! Just what I was looking for. Also thanks to zhou.fei.fei, I could not have done it without his instructions!
+
+Will seed till I die! Fantastic!"
+,joshua8790,2008-05-20T06:09Z,how do you install 3.11 after dos plz help!!
+,joshua8790,2008-05-21T01:23Z,is seeding :D
+,pirunnyrkki,2008-06-16T03:51Z,"Huh. I can go up to making a partition, but I can't make it active because I get the error ""Missing operating system""."
+,pirunnyrkki,2008-06-16T04:07Z,"Heheh, nevermind, I forgot to adjust the BIOS start-up config."
+,mosh_monkey,2008-07-04T18:29Z,"Thanks man, i'm goin old skool! ^^"
+,Racecar56,2008-07-29T23:42Z,It isn't bootable :( but it's a good addition to my giant collection of .iso's.
+,totths06,2008-07-31T19:48Z,"Hi There Does Anyone Have Windows 1 or 2.0 Out There As I Would Love To Try Them
+
+If So Plaese Upload Thanks"
+,Darkspy946,2008-08-11T14:12Z,I tried to install MS-DOS but it says insert startup disk #1
+,yoyojordan,2008-08-21T22:21Z,hi i have it working but i need to go back to windows 95 and i do not have a cd drive and when i put a windows 95 on a floppy disk it dos not work or i need a bigger floppy disks some one help me
+,neil101,2008-10-17T04:41Z,how to install i tryed to install but it maks a beep and say insert disk 1
+,arikyeo,2009-04-03T13:43Z,how do i install dos??????????
+,vastlk,2009-04-06T20:07Z,"Great torrent, installed in minutes, thanks!"
+,cbtech,2009-06-11T18:52Z,Very handy torrent. Saved me from driving all the way back to my house and bringing my original 95 disks back to the shop. I'm seeding for a while.
+,Azpire,2009-07-30T00:54Z,"works just fine, thanks a lot! :D"
+,fox9aj7,2009-12-10T03:41Z,I can't install dos in virtual box
+,seedfo3,2009-12-18T00:54Z,"You kids...
+
+Here's a little howto:
+1) Boot up your VM with the MS-DOS ISO loaded.
+2) Exit the install (F3 twice)
+3) Use ""fdisk"" to create a partition
+4) format your newly created C: partition with ""format C:""
+5) Reboot and install DOS
+6) Change the disk to Windows 3.11
+7) Install
+8) Enjoy
+
+Thanks, Markild! "
+,samljer,2009-12-20T20:38Z,"@ TOTTHS06
+
+your probably long gone considering the time stamp.
+But as for windows 1 and 2 they are not windows at all, but a UI program for dos, in dos.
+i dont think it even has a kernel. not sure.
+but i remember it stayed in dos. basically added a few functions to look at your drive and drivers didnt exist. to some extent"
+,seedfo3,2010-02-02T12:03Z,"samljer, you mean back when the CPU was actually central? :) Yes, those were the days! And the OS (DOS) didn't have these background daemons always writing to the disk... And the filesystem was a lot less featured... And the thing booted RIDICULOUSLY quickly and you could just power it off when you were done writing your changes :)
+
+Those were the days! But I still love Windows 7 :)"
+,Bigjake52,2010-07-09T01:39Z,"you know alot od people dont use vm software, and legacy users like my self want a way to move this over to a floppy disk"
+,supanut2000,2010-08-18T10:45Z,"How can I make it see my CD?
+I tried it and it throw up a bomb and yelled ""Insert disk 1"""
+,barkerbob26,2010-09-04T03:50Z,"If you're having trouble with the install of DOS or the copy of windows it's because they're set to install from drive d: 
+
+You also need 2 make a dos partition, a 999mb fat 16 partition, set is as active and it'll install fine. After that, you can dual boot or whatever, right now my lappy boots dos/win31, debian, vista, and osx on just one hd.
+
+If you have more than 1 HD, and more than 1 cdrom, you just need to temporarily unplug them so that your HD is your c: drive and your ONE cd-drive is your d: drive. 
+
+This will fix all the probs I'm reading about here, really an ez fix. 
+
+No reason to run memoryhog dosbox, just install this iso and run all your fav dos games. After you install you can hook your drives back up and everything is fine. 
+Enjoy this shit and keep seeding. "
+,Outlawed_biker,2010-09-07T19:40Z,"I installed the dos and these drivers work greatly. And after messing with the config.sys to bypass the conventional memory limitations, I managed to install win 3.11 but it always crashes my virtual machine. I also tried another version (Win 3.1). I'm wondering if that's happens because of the drivers included in this torrent mention freedos, but since no one else mentioned this problem, I'm asking for a tip. I'm using the last release of VirtualBox."
+,carpii,2011-01-25T02:16Z,"After installing DOS, I had problems getting it to recognise my CDROM under Parallels 5 (mac).
+
+Heres how I fixed it
+
+1) Download the NEC cdrom driver (probably lots of others would work too)
+http://www.scarlet.nl/~one2one/s2.html
+
+2) Get it onto your DOS drive somehow (onto root of C drive). 
+
+For this I mounted a virtual floppy drive in another Parallels VM, and copied it from there onto the virtual floppy. Then mounted the virtual floppy in my DOS VM.
+
+3) Add this to autoexec.bat 
+MSCDEX.exe /D:cdrom001
+
+4) Add this to CONFIG.SYS
+device=nec_ide.sys /D:cdrom001
+
+Reboot, and you now have a D: cdrom. You can then mount the windows ISO and start installing glorious 3.11 :)"
+,LMtheGreat,2011-05-02T22:37Z,will this work with an old computer
+,kiknarse,2011-05-19T02:24Z,Serial KEY??
+,mr_foofer,2011-05-25T23:59Z,>>will this work with an old computer>Serial KEY??
+,T3HPH03NIX,2011-06-10T14:59Z,"A guide on installation in VirtualBox:
+
+1. Mount MSDos iso.
+2. Boot Virtual Machine.
+3. Hit F3 twice.
+4. Type: 'fdisk' and create a 'primary partition' then exit out.
+5. Once at the command line type 'format C:'.
+6. Type 'setup'.
+7. Go along with installation.
+8. ????
+9. PROFIT!"
+,ISAYNO,2011-07-07T08:51Z,"dosen't work when installing it in VMWare Workstation. Says ""Insert Setup Disk #1 into drive E:"". HELP"
+,HaloFreak657,2011-08-04T19:29Z,Looks promising.... I'll seed when I'm done downloading.
+,HaloFreak657,2011-08-04T19:39Z,"When I get to the formatting part, It says to insert startup disk #1. ?!"
+[T],n2kmaster,2011-09-30T13:46Z,"so the windows 3.11 will install say from cd? I have original diskettes here and just built a dos box with dos 5.0 and my windows 3.11 disks were corrupt and i didnt get a full install, will it work off a cd?"
+[T],n2kmaster,2011-09-30T13:49Z,oh and here peeps http://blogs.msdn.com/b/virtual_pc_guy/archive/2004/10/28/248940.aspx guide to setting up windows 3.11 with networking to XP HA HA ! love me some retro coding
+,jc,2012-03-03T04:01Z,"Hey guys, if anyone is having a problem installing the CD rom drivers under Virtual Box, just reset the machine with the DOS CD rom installed. It will give you two options, reinstall DOS, and install CD rom drivers. Just choose the second option and you're good to go."
+,code-37,2012-05-07T15:32Z,I am going to use this in one way or another to get the old FLASHER.EXE working..by Robert Zimmerman...

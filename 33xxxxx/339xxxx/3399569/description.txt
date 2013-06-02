@@ -1,0 +1,25 @@
+Nullsoft Winamp is a fast, flexible, high-fidelity media player for Windows. Winamp supports playback of many audio (MP3, OGG, AAC, WAV,MOD, XM, S3M, IT, MIDI, etc) and video types (AVI, ASF, MPEG, NSV),custom appearances called skins (supporting both classic Winamp 1.x/2.x skins and Winamp 3 freeform skins), audio visualization and audio effect plug-ins (including two industry dominating visualization plug-ins), an advanced media library, Internet radio and TV support,
+CD ripping, and CD burning.
+
+
+Changes in 5.11:
+Updated: LAME 3.96.1 (sorry, but 3.97 will need to lose its beta tag before we upgrade)
+Fixed: playlist focus issue after adding files to playlist
+Fixed: crash on multichannel songs with EQ enabled
+Fixed: internet connection detection not working when set to "dial-up"
+Fixed: manual playlist advance with winamp videos
+Fixed: EQ text display glitch
+Fixed: video not filling up video window
+Fixed: black bars in fullscreen video
+Fixed: [gen_ml] crash with no write access
+Fixed: [gen_ml] CDDB Dialog Media Library drawing glitch
+Fixed: [in_dshow] seeking on files with no video or no audio
+Fixed: [in_cdda] aspi ripping crash
+Fixed: [ml_wire] "my music" folder creation
+Fixed: [ml_wire] Podcasts with dates before 1970 handled properly
+Fixed: [ml_wire] Downloading of podcasts with parameters in URL
+Fixed: [out_ds] fade-on-seek settings
+Fixed: [in_wm] pause glitch
+Fixed: [in_mp4] view-file-info filename not scrolling
+New: 'Station Info' Prefs page (for configuring radio browser)
+New: Password protection for Shoutcast TV ratings

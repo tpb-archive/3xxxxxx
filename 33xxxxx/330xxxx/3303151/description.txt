@@ -1,0 +1,43 @@
+°  Release Notes:                                                              °
+*  This update will fix the temp version out of date error and                 *
+*  such things like that!!!                                                    *
+*  This update includes all updates from 5 - 11                                *
+*  We also added an new Dedicated Server emulator, if you run a dedicated      *
+*  server; legal & cracked can join! This is not yet working for Listen Servers*
+*  Half-Life 2 Deathmatch is also included and should work fine without errors *
+*                                                                              *
+*  Reminder:                                                                   *
+*  Online play will not be working anymore (It DOES work with HL1 accounts)    *
+*  So you have to play on cracked servers... (There are enough)                *
+*  Playing with HL1 accounts is not smart, they might get banned in the future *
+*  if they notice it! You have been warned!!!                                  *
+*  Run in Offline-Mode to join cracked servers. (Default settings are offline) *
+*                                                                              *
+*  Steam fixes:                                                                *
+*  Fixed an issue which was affecting player movement prediction               *
+*  Stopped players on de_dust2 being able to hide inside of rocks              *
+*  Added clipbrushes to de_train to prevent players from reaching certain areas*
+*  Enabled bots to navigate their way out of the carts in cs_compound          *
+*  Added "stats" command to print the current cpu usage, players               *
+*  and net bandwidth in use                                                    *
+*  Fixed rcon responses to properly reflect request id's                       *
+*  Added rate-limiting to connectionless queries to prevent flooding           *
+*  (as in HL1, the rate-limiting is controlled via the cvars:                  *
+*  sv_max_queries_sec, sv_max_queries_sec_global, and sv_max_queries_window)   *
+*  Removed sv_allowlocalquery cvar                                             *
+*  Fixed server browser not displaying favorites in game                       *
+*                                                                              *
+*                                                                        ENJOY!*
+
+ Install Notes:                                                              °
+*                                                                              *
+*  1. Unpack the updated Files with WinRAR or WinACE                           *
+*  2. Copy over the files located in the /Files directory                      *
+*  -. OPTIONAL: Add Online Play if you have an HL1 Account.                    *
+*  3. Delete the files & folders listed in important.txt                       *
+*  4. Have fun!                                                                *
+*  (Make sure you have Steam.dll renamed to Steam.dll.off for offline play)    *
+
+                   Report bugs to gaben@valvesoftware.com                    
+                   Thanks to all! (You know who you are!)                    
+                                                                      nico!NoGrp

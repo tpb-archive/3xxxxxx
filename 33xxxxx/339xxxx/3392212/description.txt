@@ -1,0 +1,180 @@
+================================================== ======================
+Patch v1.03
+================================================== ======================
+
+
+NEW FEATURES
+
+- Wake Island Map
+
+Included a remade version of this popular BF1942 map.
+Battlefield 2 version includes a 64 player layout and is
+configured for multiplayer only.
+
+- Server Favorites / History
+
+There is a new tab in the MULTIPLAYER menu that holds a list of
+the last 20 internet servers you have connected to, plus a list
+of servers you have selected as favorites.
+
+* Added a button to the other multiplayer tabs that adds the
+currently highlighted server to your favorites list.
+* Added buttons in the in-game server info menu (press TAB to
+access) that will add or remove the server you are currently
+playing on to / from your favorites list.
+
+- Account Login Welcome Screen
+
+After you login to an online account, a message appears that
+contains BF2 news and information which updates periodically.
+
+- Stat Compare
+
+By clicking the COMPARE button in BFHQ, you can search for another
+players name and load their current stats into BFHQ. Using the
+arrow buttons next to the name in the top-left corner of the menu,
+you can toggle between your stats and their stats.
+
+You can also load a player's stats by double-clicking on their
+name in any leaderboard.
+
+- Nickname Prefix
+
+You can add a 6-character prefix (such as a clan tag) to your
+account nickname which will be displayed in-game next to your
+nametag in the score menu, in game messages, and above your player
+in the game world.
+
+* This prefix does not change your account name or statistic
+information (e.g. the prefix does not appear next to your name
+on the leaderboards).
+* You can change this prefix at any time at the account login
+menu.
+
+- Server Reserved Slots
+
+You can define a list of player nicknames that will act as a
+"reservation list" for your server.
+
+* The list is located in modsbf2settingsReservedSlots.con
+* You can add player names to the list by editing the file and
+adding the following text for each player :
+
+reservedSlots.addNick
+
+where is the player's registered account name,
+not including a nickname prefix (see above).
+* You can define the number of slots to set aside for reserved
+players in the dedicated server launcher, or with the setting
+sv.numReservedSlots in your serverSettings.con file.
+* The number of players on the list and the number of reserved
+slots does not necessarily have to be the same.
+
+- Mod Support
+
+There are several new changes that improve support for mods.
+
+* When connecting to a server that is running a mod that you have
+installed but not activated, it will be automatically activated
+and you will load into the server.
+* Added a filter on the server browser for servers running the
+currently activated mod.
+* Fixed dedicated server launcher to properly handle launching mods.
+* Improved support for mods sharing archives with bf2
+
+- Improvements to in-game HUD / Map
+
+* The viewable area of the spawn menu / commander map is now scaled
+based on the out-of-bounds area so that only the playable area
+takes up the majority of viewable map space.
+* The names of CPs are now displayed on the spawn menu / commander
+map and minimap
+* The minimap zoom level now changes dynamically depending on the
+type of vehicle you are in. If you zoom in or out manually, that
+zoom level is remembered for that vehicle type next time you use
+it.
+* The names of players in your vehicle are displayed in the HUD
+when someone enters the vehicle or switches positions.
+* There is a new element in vehicle HUDs that displays the reload
+time for countermeasures (smoke and flares).
+* Flags for each team are now displayed below their ticket count
+on the minimap to make it easier to tell what team you are assigned to.
+
+
+GAMEPLAY CHANGES
+
+- Many criteria for ranks and awards have changed. If you are immediately
+eligible for a new promotion, unlock, badge, award, or ribbon, it will
+be awarded the next time you receive points on a ranked server.
+- Only 1 player in a vehicle will get credit for or speed up capturing
+a flag at a CP. The other passengers must exit the vehicle to increase
+the speed of capture or receive capture score.
+- Commanders no longer accrue a TK when artillery hits
+teammates.
+- The commander's supply drop now has an icon on the minimap and a 3D-
+map icon in the world.
+- Auto team balance no longer moves players to the other team if they
+are a team commander or a squad leader.
+- The wrench repair rate on helicopters has been decreased.
+- You now receive 1 support point for destroying an enemy commander's
+artillery, UAV or Radar station.
+- If you have received a point for healing, repairing, or resupplying
+a teammate, you will not receive another point from them for the same
+action for a set period of time.
+- Singleplayer enemies use the knife more effectively.
+- New engine sounds for the T98 tank.
+- New engine sounds for the China/MEC light jeep.
+- New cannon sounds on APCs.
+
+
+BUG FIXES
+
+- Fixed physics of vehicles against soldiers so that soldiers are not
+killed so easily by moving vehicles.
+- Fixed a physics issue that can cause you to be stuck when falling into
+shallow water
+- Fixed an issue with soldier armor when spawning on a squad leader in a
+vehicle
+- Fixed some objects that caused vehicles to take massive collision damage
+- Fixed erroneous message stating that you punished a TK when auto-
+punish is OFF on the server.
+- When a vehicle explodes due to external forces, the driver is no longer
+mis-credited for the kills.
+- Added turret movement sounds to several vehicles.
+- Fixed an issue that caused crosshairs to stay on the screen when
+switching camera views.
+- Fixed an issue that caused the time limit status of the server not to be
+sent to clients when it is changed by the server.
+- Fixed server setting sv.allowExternalViews. Setting this to 0 will
+disallow external views.
+- Added setting for interfaceIP to the server launcher
+- Changed automatic TK banning to ban by cd-key instead of IP address
+- Improved the stability of secondary position turrets to reduce jerkiness
+during movement.
+- Fixed spawning on squad leaders to prevent players from spawning where
+they should not.
+- Fixed issue with auto team balance not sending new players to the team
+with less players.
+- Set T90 top hatch armor to "Front Armor".
+- Set some wheels on jets and helpcopters to stronger armor to prevent
+them from being destroyed instantly by AT missiles.
+- Adjusted wheeled vehicle engines on hills to improve climbing.
+- Changed the Commo-rose behavior so that player does not leave crouch
+when using it.
+- Passwords entered to join password protected servers are now cleared
+after use.
+- Improved PLAY NOW functionality.
+- Fixed some memory usage issues in the front end.
+- Fixed an issue allowing color changes in player name text.
+- When you click on a server in the server browser, the information
+from that server is updated to be more accurate.
+- Fixed a crash in the Ranked Linux server when communication with stats
+back-end ceased.
+- Improved the behavior of AA missiles when locked on an enemy.
+- Fixed an issue where parachuting soldiers could not be healed.
+- Added the server port to the SERVER INFO tab.
+- Removed the SERVER INFO tab when playing singleplayer
+- Fixed an issue causing some soldier & vehicle control keys to be used
+for in-game menus.
+- Added new soldier artwork in BFHQ
+- Added name of video director to credits

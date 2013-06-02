@@ -1,0 +1,26 @@
+Use this bot with rsc(runescape classic) to auto your way to riches, exp, ect. It is very easy to use, find the script you want to run, and while you have Sbot open(note: you must have latest version of java installed) type /run sriptname. In the DOS-like screen it shows a list of scripts (note:if the list gets to long you won't be able to see the top) and the command you use for them.
+
+hints:
+
+for autofighter type: "/run fight fightmode(0-controlled, 1-strength, 2-attack,  3-defence)@NPCID"
+
+**example for zombies using str: /run fight 1@41
+
+F12 turn autologin on so it logs back on if you lose connection
+            ^^for a list of npc id's goto http://ti2d.com/list.htm it has items and      objects too
+
+
+to get PID type: "/run pid numbertogetunder@charname
+
+**example: "/run pid 10@zezima
+
+
+
+********TO SET UP OCR TO READ SLEEPWORD VERY IMPORTANT********
+extract AROCR.zip and open executable. find the folder that sbot is in, and add it. Selext bot, not client, minimize and it will write sleep word for you
+
+
+
+
+
+any add support goto either http://sythe.org forums and i will help you as well as others, or e-mail me at alexr13@gmail.com

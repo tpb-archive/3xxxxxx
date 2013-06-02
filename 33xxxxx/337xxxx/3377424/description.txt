@@ -1,0 +1,26 @@
+Okay.
+
+This is the -first- installable DVD release of OSX for Intel Machines. This DVD *should* install on most any modern x86 machine.
+
+This ISO is for -TESTERS- and has not been widely tested accross different system configurations. 
+So, your job is to report success or failure involving the install process.
+
+Please report your problems and or success stories to: generic.dvd.install@gmail.com
+
+
+If needed, you can find bender12 and br0adband at irc.osx86project.org in the
+#osx86 channel or maybe #osx86.dvd also.
+
+Also, you MUST have an SSE2 or SSE3 Processor. 
+
+Before proceeding, it might be wise to check your system specifications against *Known Working* configurations.
+This information may be found on the OSX86Project.org wiki.
+Specifically:
+http://wiki.osx86project.org/wiki/index.php/HCL - Whole Systems
+http://wiki.osx86project.org/wiki/index.php/HCLPart - Specific components
+
+This release includes the following
+
+* TPM (Trusted Platform) Crack
+* Maxxuss v0.4.1 mach_kernel SSE3 emulation
+* Modified boot files so installation can happen on most Generic x86 PCs

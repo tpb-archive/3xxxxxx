@@ -1,0 +1,22 @@
+Once again we are pleased to demonstrate the continued and unflinching support of our bios releases with the completion of X3 Config Live Bios Build 3029.
+
+There are many many fixes and improvements in this release including a completely overhauled ftp and http system giving a sustained average speed of at least 10mb/s in all our bench tests. As you can see from the changelog there are many improvements to the skinning system and also various fixes and changes as requested by our users.
+
+The X3 bios is the most powerful available in the scene today and we will further reiterate that fact with the release of X2 Config Live in the next week or so.
+
+For now here is the changelog of 3029
+
+- fixed: DVD model ID
+- fixed: Selecting empty skindir no longer crashes
+- fixed: Speeded up ftp uploads by quite a bit, averages over 10mb/s on large files
+- fixed: Made entering the bios a bit more flexible so it has more time to init the controller
+- fixed: menu color is now correct according to skin assignments
+- fixed: tuned some XICS BIOS flashing timings to avoid frags.
+- fixed: Made the skinloader a bit more forgiving and informative on what's wrong
+- fixed: Many different script http-download issues, also made it capable of speeds up in the 10mb/s area
+- fixed: Speeded up scripting-unzip by deprioritizing display output
+- added: Added + and ' to the not approved filename characters in ftp.
+- added: New skin alignment 'N' ( means do not show )
+- added: "hddCstatus" "hddEstatus" "hddFstatus" and "hddGstatus" skinsettings for individual drive display
+- added: Screenshot in fanspeed setup
+- added: Made a way around the filesystem limitation regarding renaming files with only case-differences ( Help => help )

@@ -1,0 +1,49 @@
+
+ Release............: XBox Media Center 1.1.0
+ CVS/Compile Date...: 2005-10-01
+ Compiler Versions..: XDK 5933, Visual Studio .NET 2003
+
+ Skins..............: Project Mayhem III
+ Visualisations.....: 7068 Milkdrop Presets
+ Scripts............: XBMCScripts (Graphical Script Installer)
+
+ Notes..............: File size has gone up a bit because of the fresh PM III
+                      update and it's worth it!
+                      Also included the PM III web styles.
+
+ Changelog..........:
+
+ - 30-05-2005 added: WA51-presets(265).zip, now default Presetpack in Milkdrop.
+                     Contains presets 20fps > faster (tested in PAL720x576)
+ - 30-05-2005 added: Milkdrop - can now select different preset packs from the
+                     settings menu. (Defaults to looking in 
+                     visualisationsMilkdrop for zips and folders)
+ - 30-05-2005 fixed: Milkdrop - xml settings file was getting corrupted.
+ - 30-05-2005 fixed: Problem reading some compressed zip files.
+ - 29-05-2005 added: START on the controller or PLAY on the remote now plays
+                     media from DVD-ROM if present (home screen only)
+ - 29-05-2005 fixed: subtitles in subtitles/ wouldn't work on hdd.
+ - 28-09-2005 added: new buildin function: <execute>XBMC.PlayDVD()</execute>,
+                     will play/run a CD/DVD if a media is present in the
+                     DVD-Drive! [GeminiServer]
+ - 28-09-2005 added: Home window: DVD-Drive button [icon] will appear if a
+                     media is present! On click it will play the inserted
+                     media disc! in addition with new Infomanager:
+                     system.hasmediadvd [GeminiServer]
+ - 28-09-2005 added: new Infomanager: system.hasmediadvd will be true if a
+                     media is present in the DVD-Drive [GeminiServer]
+ - 28-09-2005 added: Play CD/DVD function to the DVD-Drive context menu in all
+                     sections! Play CD/DVD function is availible if a CD/DVD
+                     is inserted else no play item in context menu vailible!
+                     [GeminiServer]
+ - 28-09-2005 added: Eject and Load Tray function to DVD-Drive context menu in
+                     all sections! [GeminiServer]
+ - 27-09-2005 fixed: nsf/spc/gym codecs. last song in a directory would play
+                     forever.
+ - 27-09-2005 fixed: bugs in cachepath handling.
+ - 26-09-2005 fixed: when adding a music folder to playlist, extensions are
+                     removed if hide media extensions is enabled (atleast until
+                     the background loader renames the item)
+ - 26-09-2005 fixed: DVDPlayer playback failed on DreamX 1480. (Also more
+                     early/late using mplayer on those boxes) (updated)
+ - 26-09-2005 fixed: GYM should play now and not crash xbox.

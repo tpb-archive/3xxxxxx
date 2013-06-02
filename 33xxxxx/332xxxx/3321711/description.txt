@@ -1,0 +1,30 @@
+Playable with any DVD Player like PowerDVD on your PC.
+
+Apparently no one can burn the converted DTSWAV file from BeSplit or DTS2WAV...  however I can listen to the DTSWAV using VLC Media Player:
+
+http://tracker.piratbyran.org/torrents-details.php?id=3271307
+
+---------------------------------------------------------------------------------------------
+To expiriment with playing in a DVD player download DTS2WAV here:
+
+http://hypercubemx.free.fr/html/download.php?download_id=2
+
+or
+
+http://tracker.piratbyran.org/torrents-details.php?id=3322627
+
+convert to WAV (DTSWAV) and burn as audio CD.
+
+if DTS2WAV doesn't work for you try BeSplit:
+
+try besplit:
+
+http://dspguru.notrace.dk/BeSplitv0.9b6.zip
+
+usage:
+
+besplit.exe -core ( -logfile besplit.log -input robot.dts -output robot.dtswav -type dts -fixcrc )
+
+more info on BeSplit here:
+
+http://besplit.doom9.org/

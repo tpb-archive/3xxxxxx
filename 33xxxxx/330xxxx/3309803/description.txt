@@ -1,0 +1,24 @@
+1.5 Gb of rlz for a 1Mb crackfix .................................
+
+some ppl should buy a brain 
+
+More specific:
+
+Proper Reason: Hoodlum's crack has some mistakes. Many people will get the
+error message mentioned below when starting the game.
+
+Error Message:
+
+AppName: coldfear_retail.exe AppVer 1.0.0.0 ModName: ~df394b.tmp 
+ModVer: 0.0.0.0 offset: 000c486b
+
+Mistakes in Crack:
+
+Cold.Fear.DVD-HOODLUM:
+.text:00698CB6 call ds: DestroyCursor
+.text:0069CF37 call ds: DestroyCursor
+
+Correct Way:
+.text:00698CB6 call ds: DestroyIcon
+.text:0069CF37 call ds: DestroyIcon
+

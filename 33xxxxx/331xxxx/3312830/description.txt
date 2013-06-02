@@ -1,0 +1,31 @@
+Description: DAEMON Tools is a virtual cd/dvd-rom emulator. It is able to emulate nearly all known copy protections on the market today.
+
+DAEMON Tools supports the following image files:
+
+    * cue/bin
+    * iso
+    * ccd (CloneCD)
+    * bwt (Blindwrite)
+    * mds (Media Descriptor File)
+    * cdi (Discjuggler)
+    * nrg (Nero)
+    * pdi (Instant CD/DVD)
+    * b5t (BlindWrite 5)
+
+
+See http://www.daemon-tools.cc/ for more info.
+
+INFO:
+There's a new Daemon Tools-Version out now, V 3.47
+
+It is a hotfix-version to adress the latest issues
+(especially the atapi.sys-lock with XP SP2).
+
+
+The changelog for V3.47:
+
+* Fixed lockup with some images containing bad sectors made by Alcohol (MDS)
+* Fixed Nero InCD formatting problem with DAEMON Tools present
+* Fixed atapi.sys locking problem (as a result, some emulation ability is removed for PCD5 until new release)
+
+we greatly suggest to upgrade to V3.47 !

@@ -1,0 +1,25 @@
+R e a l C r y p t
+
+Chiffrement de disque libre et gratuit pour Windows XP/2000/2003
+
+RealCrypt est une traduction française de TrueCrypt.
+Actuellement TrueCrypt Foundation, concepteur de TrueCrypt, ne supporte aucune traduction, ni modification ou adaptation de son code source comme le stipule sa licence.
+
+
+Caractéristiques:
+
+    * Permet de créer un disque virtuel chiffré dans un fichier et de le monter comme s'il s'agissait d'un disque réel.
+
+    * Peut chiffrer une partition de disque dur ou un périphérique comme une clé USB, une disquette, etc...
+
+    * Fournit deux niveaux de déni plausible, au cas où vous seriez forcé de révéler votre mot de passe:
+
+      1) Volume caché (plus d'informations à ce sujet ici).
+
+      2) Aucun volume RealCrypt ne peut être identifié (les volumes RealCrypt ne sont pas distinguables des données aléatoires).
+
+    * Algorithmes de chiffrement: AES-256, Blowfish (clé de 448 bits), CAST5, Serpent (clé de 256 bits), Triple DES et Twofish (clé de 256 bits). Supporte certains algorithmes en cascade (ex: AES-Twofish-Serpent, etc...).
+
+    * Basé sur le logiciel Encryption for the Masses (E4M) 2.02a.
+
+      Plus d'informations concernant les caractéristiques du logiciel sont disponibles dans la documentation.

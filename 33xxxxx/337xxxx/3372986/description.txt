@@ -1,0 +1,17 @@
+V0.7
+----
+- no longer need of removing UMD while selectiong ISO - just insert any UMD at startup and play around !
+- even more compatible (RR works now, others possibly too ...)
+- Possibility to start inserted UMD from selection menu (to allow overclocking)
+- New backpic ("V0.7") for ISOMISC/
+- integrated UMD dumper with splitting, pausing and USB function !
+  - Dumps the inserted UMD into the ISO/ drawer ("My latest Dump") if no splitting is selected
+  - Dumps to ISOSPLIT/ drawer ("My latest Dump_Part #") on splitting
+    - Splitting of the files can be in 10 MB, 20 MB, 50MB, 100MB, 200MB, 400MB and 800 MB chunks
+    - Auto pause mode ("*autopause*") : Pauses the dumping once a splitpart reached the selected size,
+      so you can turn on USB (triangle), save the part to the PC, delete from MemStick after and
+      go on with the dumping of the next part (resume with square)
+    - Splitted parts can be concated together with "copy /b" for example
+  - ***** Warning : The dumper DOESNT check the free space on Memstick for now ! *****
+          (Make sure it fits before, either splitted or unsplitted !)
+  - ***** Make sure you add a drawer ISOSPLIT/ on the root of your MemStick ! *****

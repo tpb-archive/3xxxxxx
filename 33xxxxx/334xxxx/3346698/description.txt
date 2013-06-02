@@ -1,0 +1,911 @@
+Cedega 4.3.2
+
+It can be used for all kind of linux even gentoo [can be inserted in portage tree]. Here's a howto for 4.3.1 [sry, I haven't fount newer]:
+
+
+                 TransGaming Cedega HOWTO Guide 4.3-1.1.1.1.en
+                 ===============================================
+
+This guide provides an overview of how to use TransGaming's Cedega to run your 
+favorite games on Linux.  If you have any questions about how to use Cedega, or 
+if you have other support issues, please use TransGaming's web-based support 
+system at http://www.transgaming.org/forum/
+
+===================
+System Requirements
+===================
+
+The following are the minimum requirements for Cedega 4.3:
+
+Operating System
+----------------
+Core requirements are: 
+- Linux Kernel 2.2 or higher. Stock Kernels recommended over RedHat 
+  7.x/8.x/9.x kernels. 2.6 kernels are not recommended due to stability
+  issues.
+- XFree86 4.0 or higher (4.2 and above recommended) 
+- glibc 2.2 or higher 
+- working hardware accelerated OpenGL video card
+
+CPU Type and Speed
+------------------
+Recommended minimum hardware is 
+- 500 MHz or faster Pentium or Athlon CPU 
+- 64MB of memory; 128 MB or higher recommended
+- 1-2 GB free hard disk space for games 
+- Linux Supported 3D graphics card with 16MB of video RAM is required.  
+  Nvidia GeForce-class GPU recommended. ATI Radeon 8500 or higher with
+  working ATI FireGL drivers should work for many (though not all) games, 
+  but will not perform as well for the moment.
+
+Please note: individual requirements may be higher for certain games.
+
+====================================
+Configuring Your Computer for Cedega
+====================================
+
+Make sure that your video card has working 3D acceleration 
+----------------------------------------------------------
+Make sure that the latest drivers for your video card have been installed on 
+your system, and that OpenGL is working properly.  (NVidia card owners, please 
+visit http://www.nvidia.com.  ATI card owners, please visit http://www.ati.com)
+
+To test your graphics card for OpenGL support execute the following command:
+
+  $ glxinfo | grep #direct rendering#
+
+output will return "direct rendering:"
+
+If this is 'Yes' or 'Enabled' then OpenGL is likely set up correctly.  If it is 
+listed as 'no' or 'disabled' then double-check your 3D setup.
+
+You may also want to try a performance test.  Execute the following to run a 
+simple benchmark included on most popular Linux distributions:
+
+ $ glxgears
+
+The glxgears program will output an FPS (Frames Per Second) rating to the 
+command line.  If 3D acceleration is correctly enabled for your video card,
+then the reported FPS should be well over 500 FPS at the default window size.
+If the output shows less than 500 FPS then you should double check your 3D 
+setup.
+
+In some cases it is possible to have multiple OpenGL libraries
+installed on your system.  If you are having problems with Cedega, you may 
+wish to check whether this is the case for your system.  You can easily 
+do so by executing:
+
+ $ locate libGL
+
+This will display any OpenGL libraries you have on your system.  In 
+particular, you should be cautious of having libGL in both /usr/lib 
+as well as in /usr/X11R6/lib.  Sometimes, the software-only Mesa OpenGL 
+libraries are installed in /usr/X11R6/lib and hardware accelerated drivers 
+are installed elsewhere.  We do not recommend removing the Mesa libraries 
+from /usr/X11R6/lib unless you are seeing slow rendering in games running 
+under Cedega.
+
+Check your cd devices and mount points for permissions
+------------------------------------------------------
+Many Windows games use copy protection systems that requires Cedega to have 
+'read' access to your CD-ROM device, as well as 'read' and 'execute' access 
+to your CD-ROM mount point.  Check your CD-ROM devices and mount points to 
+ensure that Cedega has appropriate permissions. 
+
+If you do not know what devices and mount points are being used by your 
+system, you can read the /etc/fstab file for more information using the 
+following command:
+
+ $ less /etc/fstab
+
+To change the permissions on your CD-ROM device and mount points, execute the 
+following commands as 'root':
+
+ # chmod a+r [CD-ROM Device]
+ # chmod a+rx [CD-ROM mount point]
+
+Many distributions of Linux use symbolically linked devices.  You will also
+need to change permissions on the linked devices as well.  To see if a device
+is linked, run the following command:
+
+ $ ls -la [CD-ROM Device]
+
+This command will return information that may resemble the following:
+
+lr-xr-xr-x    1 root     root           13 Aug 21 14:45 /dev/cdrom -> cdroms/cdrom0
+
+If the output displays a -> then this device is linked.  In the above output the
+device /dev/cdrom is symbolically linked to the device /dev/cdrom/cdroms/cdrom0.
+Be sure to change the permissions on all linked devices.
+
+Under some circumstances, you may need to edit your /etc/fstab file to ensure
+that all users have access to the CD-ROM mount point.  
+
+
+Check your X configuration file
+-------------------------------
+Depending on your distro this may be called either XF86Config, XF86Config-4 
+or xorg.conf. 
+
+Games often attempt to change your screen resolution to fit their needs.
+Make sure that the 'Screen' section of your X config file has a number 
+of resolutions.  The most common resolutions are: 1600X1200,  1280X1024,
+1024X768, 800X600, 640X480. If the game is not running at fullscreen properly,
+check the game settings to see what resolution it is attempting to use and 
+make sure that resolution is listed in your X config file.  	
+
+Note:  You may experience improved performance with some games when running 
+the X server at 16 bit color depth.
+
+Disable Sound Servers
+---------------------
+Many Linux desktop systems such as KDE and Gnome run sound servers such as 
+'ARTS' or 'esd'.  These sound servers can cause sound problems within Cedega 
+by reserving exclusive access to the sound device.  If you are having sound 
+problems make sure to disable any sound servers or other applications that 
+may be using sound, such as 'xmms'.
+
+Check free space limitations
+----------------------------
+Some systems may be set up with restrictive space quotas on the /home 
+directory.  These limitations can cause Cedega to incorrectly report available 
+free space.  You may experience problems installing games if the 
+available space is reported incorrectly, or if there is not enough space
+available on your system.  If you experience any error messages reporting
+that there is not enough hard drive space to install a game, disable quotas, 
+or symbolically link to a device with more free space available.
+
+Prelink, Exec-Shield and VA Layout
+----------------------------------
+As of Cedega 4.3, there are no longer any compatability issues between prelink, 
+exec-shield, the new VA layout and Cedega.  These features can be left enabled 
+and will work seamlessly with Cedega.
+
+For versions of Cedega older than 4.3 please refer to the Prelink, Exec-Shield, 
+and VA Layout section in the 4.2.1 Release Notes or HOWTO Guide.
+
+Exec (error = 21)
+-----------------
+Some distributions' versions of mount now run with the noexec option unless 
+otherwise specified.  Running games from a partition mounted with noexec can 
+cause an error = 21 message.
+
+To fix this issue, edit /etc/fstab and modify the partition line by 
+changing 'noexec' to 'exec' in the mount options.  
+
+For example, change:
+ /dev/hda1 / ext3 errors=remount-ro,no-exec,defaults 0 1
+to:
+ /dev/hda1 / ext3 errors=remount-ro,exec,defaults 0 1
+
+If neither "exec" nor "no-exec" appears in the line it is recommended that you
+add "exec" to ensure that the partition can be used by Cedega.
+
+To remount the partition run:
+ $ mount -o remount /
+
+
+======================
+How To Install Cedega:
+======================
+
+Cedega is available in a variety of pre-built binary packages designed to 
+suit your Linux distribution.  Please note that TransGaming does not provide 
+official support for packages built from source. 
+
+First select the package that is right for you:
+
+rpm - RedHat Package Management (RedHat Linux, Mandrake Linux, etc)
+
+ To install the Cedega rpm package open a console/terminal window and execute 
+ the following command as 'root':
+
+   # rpm  -ivh  cedega-[version].rpm
+
+deb - Debian Package (Debian GNU/Linux, Corel/Xandros Linux, Lindows, etc)
+
+ To install the Cedega deb package open a console/terminal window and execute 
+ the following command as 'root':
+
+   # dpkg  -i  cedega_[version].deb
+
+tgz - Tar GZipped Package (Slackware Linux, etc)
+
+ To install the Cedega tgz package open a console/terminal window and 
+ execute the following commands as 'root':
+
+   # cd /
+   # tar -xvzf  cedega-[version].tgz 
+
+Some distributions use their own package management tools, such as Gentoo and 
+Slackware.  If this is so the tgz package of Cedega can be used with most of 
+these tools.
+
+
+Installing the Font Installer Package:
+--------------------------------------
+The font installer package is a convenience script provided by TransGaming 
+for the purposes of downloading and installing the Microsoft Core Fonts.  Please 
+note that you must accept a licencing agreement with Microsoft as part of 
+the process in installing this package.
+
+If you've already installed Cedega using the steps in the previous section, 
+then this part should be familiar.  Otherwise, please review the steps above. 
+Select the proper package for your distribution, and install it.
+
+After the package is installed, each user who wishes to use the fonts will need 
+to run the installer script.  At the command line, type:
+
+  $ tg-font-install
+
+From there, follow the on-screen instructions to complete the install.  This 
+will install the fonts in that user's ~/.transgaming_global/Fonts/ directory.
+
+
+Installing the Mozilla ActiveX Control Installer Package:
+---------------------------------------------------------
+The Mozilla ActiveX Control installer package is a custom win32 mozilla package 
+provided by TransGaming for the purposes of providing support for HTML content 
+to games inside of Cedega.  Please note that you must accept a licencing 
+agreement with Mozilla and its developers in order to download and use this 
+product.
+
+If you've already installed Cedega using the steps listed above, then this part 
+should be familiar.  Otherwise, please review the steps above.  Select the 
+appropriate package for your distribution, and install it.
+
+After the package is installed, each Linux user who wishes to use the Mozilla 
+ActiveX Control will need to run the installer script.  At the command line, 
+type:
+
+  $ tg-mozctl-install
+
+From there, follow the on-screen instructions to complete the install.  This 
+will install the Mozilla ActiveX Control in that user's 
+~/.transgaming_global/mozcontrol directory.
+
+Once installed as directed above, Cedega will by default use the Mozilla 
+ActiveX control to render HTML content, as appropriate.  If desired, it can
+be disabled in the [wine] section of the config file by setting:
+"MozillaControl" = "N"
+
+==============================
+Installing a Game Using Cedega
+==============================
+
+To install a game using Cedega open a console/terminal window, and follow 
+the following procedure:
+
+1) Insert and mount your cdrom drive.
+
+    For the following examples we will be assuming a CD-ROM mount point 
+    of /mnt/cdrom; your setup may be different, depending on your Linux 
+    distribution.  The mount point for your cdrom can be found in 
+    the /etc/fstab file.
+
+2) Once the cd has been mounted check the contents of the disc.
+
+   $ ls /mnt/cdrom
+
+   Most installers will be named 'setup.exe' or 'install.exe'.  If this is 
+   not the case, you may need to locate the install executable; it is often 
+   listed in the documentation for the game, or you may need to check the 
+   game information page on the TransGaming website. 
+
+3) When you have located the correct installer executable, install the 
+   game using:
+
+   $ cedega  /mnt/cdrom/setup.exe  
+
+   Then, follow the install instructions for the game you are installing.  
+   You may experience some graphical errors during the copying 
+   process.  These are generally not harmful.  
+
+Some games require special install instructions or methods.  If you are having
+problems installing a game please check the games database and forums found on 
+the TransGaming Website.
+
+Multi-Disc Installers:
+----------------------
+Some games that have multiple discs to install may not allow for unmounting
+a CD-ROM as it may register as busy.  If this is the case, you should run the
+installer with the -monitor-cdrom-eject option, and then you may press the eject
+button on CD-RW or DVD drives and the disc will unmount and eject automatically.
+For non RW/DVD cdrom drives you will need to run: killall -USR2 wineserver
+This command will unmount and eject all CD-ROMs. Please note this command could 
+also cause problems if there are multiple copies of the wineserver running.
+
+This useful functionality is off by default due to the fact that the drivers for 
+some hardware could cause problems with flash cards or degrade performance.
+
+For more information, please see the "CD/DVD Ejection System" section below.
+
+===========================
+Playing a Game Using Cedega
+===========================
+
+There are three methods for starting a game once it has been installed.
+
+Using the Desktop Icon:
+-----------------------
+ Some (but not all) games will create a desktop icon during the installation 
+ process.  To start the game, simply open this icon using a click or 
+ double-click, depending on your window manager settings.
+
+ If you wish to pass special options to Cedega or the game edit the desktop 
+ shortcut and add in the appropriate options.
+
+Using the Start Menu:
+---------------------
+ Some games, on some Linux distributions will add a link to the start 
+ menu on your desktop.  Simply click the start menu, go to TransGaming -> Programs
+ and then the game name/vendor and select the game icon.  
+
+ Again, if you wish to pass special options to Cedega or the game edit the menu 
+ item shortcut.
+
+Using the Command Line:
+=======================
+
+ Open a console/terminal window and change into the game directory using the
+ following commands:
+
+ $ cd ~/TransGaming_Drive/Program Files/[Game Directory]
+ $ cedega [wine options] game.exe [game options]
+
+Options can be passed both to Cedega and the game using the command line.
+
+The options for Cedega are:
+
+ -bigexe  
+	As of Cedega 4.3 this option is now the default behaviour, and is only 
+	accepted for backwards compatibility.
+
+ -use-pthreads
+        A way to override the use of pthreads. This option should be
+        automatically set by Cedega, however, if problems exist it may be useful 
+        to change the pthreads option.  Acceptable values are yes or no.
+
+ -winver
+        Specify the version of Windows Cedega will report: win95, win98, winme, 
+        nt351, nt40, win2k, winxp, win20, win30, win31
+        The default setting is win98.
+
+ -debugmsg
+        Display error information/output:
+        +all, -all, +relay, +dsound, +err are the most common options
+        -all is the default option, and will suppress any errors
+
+ -use-dos-cwd
+        Specifies the Cedega working directory.  The default is the current 
+        directory.   Directories may be specified using either DOS or Linux 
+        filenames.
+
+ -monitor-cdrom-eject
+        Enables the CD eject polling functionality.  This option is off by 
+        default and typically only needs to be enabled for some multidisk 
+        installers.  When enabled, the CD-ROM drives are periodically checked to 
+        see if the CD-ROM's eject button has been pressed.  Even when disabled, 
+        the eject can be forced by sending the USR2 signal to the wineserver 
+        process.  Care should be taken when enabling this option on systems 
+        which have compact flash drives.
+
+ -version
+        Report the version of Cedega that you are using
+
+Options for individual games can usually be found in the game's 'README' file.
+
+
+==================
+Configuring Cedega
+==================
+
+Cedega configuration options are located in the '.transgaming' directory found 
+in your home directory. The main configuration file is '.transgaming/config'.  
+This is an ASCII text file. The first time you run Cedega, the '.transgaming' 
+directory will be automatically created for you, in a default preconfigured 
+state.  The default preconfigured state is copied from the 
+/usr/lib/transgaming_cedega/.transgaming directory. 
+
+To edit the Cedega configuration settings open '~/.transgaming/config' in your 
+favorite text editor.
+
+Drives Section
+--------------
+This section defines the drives that Cedega will use. New drives can be 
+specified here if necessary. Any CD-ROM or DVD drives connected to your system 
+will be automatically detected by Cedega at runtime, and new drive letters will 
+be dynamically assigned to them. You should not need to add CD-ROM or DVD drives 
+manually unless you are having configuration problems.
+
+The format for this section is as follows:
+[Drive LETTER]     - The drive name, where LETTER is the DOS/Windows drive letter 
+                     i.e. c, d, e, z
+Path = LOCATION    - The location for the drive root.
+Type = TYPE        - Specifies drive type; supported types are: floppy, hd, cdrom 
+                     and network
+Label = XXXX       - Drive label, max 11 characters
+Serial = XXXX      - Drive serial number, max 8 characters hexadecimal
+Filesystem=TYPE    - Filesystem type supported file systems are: dos, fat, win95, 
+                     vfat, and unix
+Device=/dev/DEVICE - Allows you to specify a specific device if raw access is
+                     required.  It is recommend that if the device is symbolically
+                     linked than you should use the device that is not a link (the
+                     originator).
+
+wine Section
+------------
+This section is for general options.
+
+"MozillaControl" = "Y"
+This option defines whether or not Cedega will use the Mozilla ActiveX control 
+if it is available.  The default is on.
+
+DLL Section
+-----------
+This section defines which DLLs are used by Cedega.  The syntax is as follows:
+"dllname"       = "builtin, native"    or
+"dllname"       = "native, builtin"
+
+The order defines which is used first. If builtin is listed first it will use 
+the Cedega builtin dll, if native is listed first Cedega will use a native 
+Windows dll if it is present in the configured system directory. Occasionally,
+using a native Windows may improve compatibility with some programs.
+
+x11drv Section
+--------------
+This section contains the settings for interaction between Cedega and the X 
+server.  Some of the most commonly used options are: 
+
+"Managed" = "Y"
+This option changes whether the Cedega window is a managed window.  The 
+default is yes.  Managed windows are managed by the Window Manager rather 
+than Cedega.
+
+"Desktop" = "800X600"
+This option allows you to run Cedega within a window of the specified size.  
+This line is commented out by default, thus allowing games to create a 
+top-level X Window for each window that is opened.  
+
+"DXGrab" = "Y"
+This option turns mouse grab on/off.  The default is on.  When mouse grab 
+is on, the application may lock the mouse cursor within a window, typically
+when the application wants to take over the full screen of your system.
+
+"XVidMode" = "Y"
+This option allows applications to resize the resolution of your display.  
+By default, this option is on, allowing applications to switch between 
+resolutions listed in the XF86Config file.
+
+"UseXRandR" = "N"
+Use XRandR extension, if present, to resize the resolution of your display.
+This option is similar to XVidMode but may provide additional functionality 
+in some cases.
+
+"ShowFPS" = "N"
+This option turns the TransGaming HUD that displays the in game FPS on/off.
+Default is off.
+
+"ShowMEM" = "N"
+This option toggles to display of memory statics on the TransGaming HUD.  
+You must have ShowFPS activated for this to take effect.  Default is off.
+
+"VideoRam" = "32"
+This is the amount of video RAM your video card has (in megabytes).
+
+"AGPVertexRam" = "32"
+This is the amount of memory (in megabytes) that can be allocated for use 
+with accelerated vertex buffers when using NV_VAR.  A good value for this 
+typically half of your AGP aperture size. For best results using Cedega you 
+should set your AGP aperture to at least 128MB (this can be done in your 
+bios) and set AGPVertexRam to 64.
+
+"NV_VAR" = "Y"
+Enable usage of the NVidia Vertex Array Range extension for Accelerated Vertex 
+Buffers.  This extension is only available on NVidia cards.  The default is on.  
+This option has precedence over the ARB_VBO option, if both are available and 
+enabled. 
+
+"ARB_VBO" = "Y"
+Enable the usage of the OpenGL ARB Vertex Buffer Object extension for 
+Accelerated Vertex Buffers.  This extension is available on both NVidia and ATI 
+cards, although support for it is still experimental at this stage and is not 
+as mature or fully featured as NV_VAR.  The use of NV_VAR is recommended if 
+available, and has precedence if both are enabled.  The default is on.
+
+
+d3dgl Section 
+-------------
+This section contains the settings for advanced graphical functionality.
+
+"AnisotropicTextureFiltering" = "N"
+Enable anisotropic texture filtering, which is a method of improving the look 
+of textures when viewed from an angle.  This may result in visual improvements 
+in some cases, but may cause a considerable drop in FPS (up to 50%).  The 
+default is off.
+
+"VertexShaders" = "Y"
+Vertex shaders are used to add complex-to-compute graphical routines that are 
+often optional. While the Cedega implementation of vertex shaders is hardware 
+accelerated when the underlying OpenGL driver supports it, it may be implemented 
+in software emulation on some cards.  It is impossible for Cedega to determine 
+if software or hardware vertex shaders are available. When enabled, Cedega 
+reports hardware vertex shaders support to applications, if the 
+ARB_vertex_program extension is available.  When disabled, some applications may 
+rely on their own optimized software fallbacks.  Default is on.
+
+"PixelShaders" = "Y"
+Pixel shaders are used to compute complex per-pixel lighting and coloring.  In 
+some games the use of pixel shaders is optional, and disabling it can result in 
+faster gameplay, although at the expense of lower quality graphics.  When 
+enabled Cedega reports pixel shaders support to applications, if the 
+ARB_fragment_program extension is available.  When disabled, some applications 
+may rely on their own fallbacks.  Default is on.
+For more information on this option, please see later in this document.
+
+"PixelShadersLevel" = "1.3"
+Which version of pixel shader support to report to applications.  Valid options 
+are "1.0", "1.1", "1.2", and "1.3".  The default is "1.3".  Note that this has 
+no effect if pixel shaders are disabled, or not supported by hardware.
+
+"ClipSpaceFix" = "Y"
+This option allows Cedega to better emulate the differences in the graphical 
+depth component (z) between D3D and OpenGL.  As of version 4.0, this option can 
+safely be enabled at all times.  However in previous versions, it should be 
+disabled when applications make use of vertex shaders as this can result in 
+incorrect graphics.  The default is on.
+
+"FixedProgram" = "Auto"
+This option contols whether the fixed function over vertex shaders path is 
+enabled or if the legacy fixed function path is used.  The use of Fixed 
+Programs requires the OpenGL ARB_vertex_program extension to be present,and
+for optimal performance, must be implemented in hardware. Valid options are 
+Yes/No/Auto. The default value is Auto, which auto-detects the type of 
+graphics card used, and enables fixed programs if appropriate.  Set this 
+option to "No" to use the legacy fixed function path.  Set this option to 
+"Yes" to use the fixed function over vertex shader technology.
+For more information on this option, please see later in this document.
+
+"RectangleTextures" = "Auto"
+Most recent hardware has support for non-power of two (NPOT) textures, and 
+this is exposed under OpenGL using either the XXX_rectangle_texture or 
+ARB_texture_non_power_of_two extensions.  This option deals with the former, 
+and is used to enable/disable support under Direct3D.  Older cards are not 
+capable of handling these textures and vertex shaders at the same time, due 
+to limitations of the vertex shader hardware, so if you wish to use npot 
+textures here, you may need to disable VertexShaders.  Set this option 
+to "Yes" to use npot textures.  Set this to "No" to disable them.  The 
+default is "Auto", which auto-detects whether your system has sufficient 
+capabilities in the VertexShaders, and if not, disables it.
+
+"FragmentOffset" = "Auto"
+The semantics of the the FragmentOffset option have changed in Cedega 4.3, 
+with the addition of a new type of offset.  Possible values are "No", "Tex", 
+"Auto", and "Pos".  The default is "Auto" which automatically selects the 
+correct type of offset depending on the game and your video card. "Tex" 
+applies the fragment offset to the texture coordinates (this was the default 
+in previous versions). "Pos" applies the fragment offset to the vertex 
+position (this is currently the default for most games).  "No" disables 
+the fragment offset for all games.
+
+
+dinput Section
+--------------
+This section contains options that control how dinput behaves.
+
+"DefaultDeadZone" = "1000"
+This option allows you to define the default dead zone for your joystick 
+expressed as a number between 0 and 10000. The default is 1000 which is 
+10% of the range of your joystick.
+
+
+joystick Section
+----------------
+This section contains the configuration for how joysticks should be treated 
+under Cedega.
+
+"Logitech Inc. WingMan RumblePad" = "X,Y,slider,Z,RZ,hat,none"
+Controls the configuration of the function of joystick axes.  The joystick name 
+and axis functions can be determined with the program 'jstest'.  The available 
+axis types are:
+"none", "X", "Y", "Z", "RX", "RY", "RZ", "slider", "hat", "POV", and "ball"
+"hat" and "POV" are synonymous. Hats use two axes.
+The name on the left should correspond to that reported by the actual joystick 
+installed.
+
+opengl Section
+--------------
+This section contains options that control how Windows OpenGL (WGL) behaves.
+
+"FixedGLExtensionBuffer" = "N"
+This option present a truncated list of OpenGL extensions to the application 
+rather than the full list of extensions supported by the drivers. This is useful 
+in cases where the application cannot handle extremely long options. If you need 
+to be able to offer specific options, rather than the fixed list that this 
+offers, then you want to also the GLExtensionBuffer option. This option will 
+probably only need to be used for Medal of Honor.
+
+"GLExtensionBuffer" = ""
+This option is a comma-separate list of extensions prefixed with + or - that 
+turns on or off the reporting of individual extension to the application. This 
+gives the user complete control over what extensions are enabled/disabled so 
+they can tweak/tune as necessary. Turning an option on here does not magically 
+give the card the capability to do it. The options for the list follow the 
+standard OpenGL naming convention (ie "+GL_ARB_imaging,-GL_ARB_depth_texture"). 
+You should only need to use this option in very extreme cases. 
+If "FixedGLExtensionBuffer" = "N" then this option will be ignored.
+
+Wineserver Section
+------------------
+This section contains options that controls how the WineServer process is run.
+
+"SHMWineserver" = "Y"
+This option indicates if Cedega should accelerate interprocess communication (AIC) 
+between the client and server. This value can be either "Y" or "N" and defaults 
+to "Y". It is suggested that you set it to "Y" as for some titles it can have a 
+very positive impact on performance.
+
+WinMM Section
+-------------
+This section controls the systems that are used for sound play back.
+
+"Drivers" = "wineoss.drv"
+Controls whether the Open Sound System (OSS) or Advanced Linux Sound Architecture 
+(ALSA) sound system is used.  Specify "wineoss.drv" to use the OSS sound system 
+and "winealsa.drv" to use the ALSA sound system.  The default is "wineoss.drv".  
+Note that if neither is specified, Cedega will produce no sound.
+
+"WaveMapper" = "msacm.drv"
+"MidiMapper" = "midimap.drv"
+
+wineoss Section
+---------------
+This section controls how the Open Sound System (OSS) system is used for sound 
+playback, if enabled appropriately in the WinMM section.
+
+"UseMMap" = "N"
+This option allows you to configure Cedega to write directly to memory on the 
+sound card rather than having to use the slower route through the kernel. This 
+can be set to either "Y" or "N"; the default is "N".  Can improve performance, 
+but is not available with all sound cards.
+
+"FullDuplex" = "N"
+Allows sound to be recorded and played back at the same time. Not available on 
+all sound cards.  The default is off.
+
+"dsp0" = "/dev/dsp0"
+"mixer0" = "/dev/mixer0"
+Specify a mapping for which digital audio device to use for OSS sound playback.  
+The default for "dps0" is "/dev/dsp0" and for "mixer0" is "/dev/mixer0"
+
+winealsa Section 
+----------------
+This section controls how the Advanced Linux Sound Architecture (ALSA) system is 
+used for sound play back, if enabled appropriately in the WinMM section.
+
+"UseMMap" = "Y"
+This option allows you to configure Cedega to write directly to memory on the 
+sound card rather than having to use the slower route through the kernel. This 
+can be set to either "Y" or "N"; the default is "Y".  Cann improve performance, 
+but is not available with all sound cards.
+
+"pcm0" = "hw"
+"ctl0" = "hw"
+These options allow you to specify what ALSA sound devices Cedega should use. 
+The default values are "hw" for pcm0 and "hw" for ctl0. Appropriate selection of 
+these options can allow you to select a secondary sound card or a plugin. It 
+should be noted that most ALSA plugins seem to be quite buggy and will not work 
+with "UseMMap" = "Y".
+
+
+==============================================
+Sharing a .transgaming Directory Between Users
+==============================================
+
+To make your .transgaming directory available to all users on your computer, 
+you will need to create a 'transgaming' group and assign all users who will 
+be using the shared directory to this group.
+
+As root, execute the commands described below:
+
+Copy a clean .transgaming directory to the share location.
+
+ # cp  -R  /usr/lib/transgaming_cedega/.transgaming  /SHARE_LOCATION
+
+Change the ownership of this folder to the group transgaming.
+
+ # chgrp  -R transgaming  .transgaming 
+ # chown  -R g+srwx  .transgaming
+
+Make a backup of the original .transgaming directory 
+
+ # mv  -R  /usr/lib/transgaming_cedega/.transgaming  /usr/lib/transgaming_cedega/.transgaming.backup
+
+Create a logical link to the new .transgaming directory.
+
+ # ln  -s  /SHARE_LOCATION/.transgaming  /usr/lib/transgaming_cedega/.transgaming
+
+Edit the /usr/bin/cedega script to take into account the new link.
+Open /usr/bin/cedega with your favorite text editor and find the line:
+
+ export WINEPREFIX="$HOME/.transgaming"
+
+and change it to
+
+ export WINEPREFIX="/SHARE_LOCATION"
+
+If a user on your computer has already run Cedega and has a .transgaming 
+directory in their home directory it will need to be moved or deleted before 
+they may use the shared directory.
+
+Please note if your shared .transgaming becomes corrupted and needs to 
+be deleted you can delete it (this will cause all installed games to be lost) 
+and then copy the backup .transgaming to the share as follows:
+
+ # cp  -R  /usr/lib/transgaming_cedega/.transgaming.backup  /SHARE_LOCATION/.transgaming
+
+
+
+=======================================
+Configuring Cedega differently per Game
+=======================================
+
+You may wish to have different Cedega settings for each game that you have 
+installed.  This can be easily done by editing your Cedega config file, 
+~/.transgaming/config
+
+To add per game settings open this file in your favorite text editor and 
+move to the end of the file.  At the end of the file add a line:
+
+[AppDefaults\EXECUTABLE.EXE\SECTION]
+  AppDefaults     Sets the following as default for the application
+  Executable.exe  The game executable that is run to start the application
+  SECTION         The section you wish to modify the settings for.
+                  IE: x11drv, fonts, Drive name/locations.
+
+For Example, Max Payne has a game executable called 'Max Payne.exe'
+If you wish to have custom settings for Max Payne you would require 
+an entry as follows:
+
+[AppDefaults\Max Payne.exe\x11drv]
+"Desktop" = "1024X768"
+"DXGrab" =  "N"
+
+This would force Max Payne to run in a 1024X768 Desktop window with the 
+Mouse Grab feature disabled. 
+
+
+
+=============================
+Understanding Cedega Features
+=============================
+
+Fixed Function over Vertex Shaders
+----------------------------------
+Fixed Function over Vertex Shaders (also called Fixed Programs) is an
+implementation of the Direct3D fixed function vertex processing pipeline
+using programmable vertex shaders.  There are two main benefits of this 
+technique.  First, we can utilize the vertex data in the format as provided 
+by Direct3D without the need to convert it into a format that is suitable for 
+the OpenGL fixed function pipeline.  This allows us to eliminate the copy 
+and conversion overhead and store the vertex data directly in accelerated
+(AGP or video) memory.  Second, this approach allows us the flexibility of
+implementing Direct3D functionality that is not available in, or has different 
+semantics from, the OpenGL fixed function APIs.  
+
+Fixed Programs are currently auto-detected based upon the type of video card
+that your system is running.  It is possible to override the auto-detection
+process with the use of the "FixedProgram" option in the [d3dgl] section of 
+the config file (this option is unavailable in Point2Play at this time).  
+Advanced users may wish to experiment with this option to determine the optimal 
+setting for their system and games. In order to use Fixed Programs your graphics 
+drivers must support the OpenGL ARB_vertex_program extension. 
+
+To enable Fixed Programs, place the line:
+"FixedProgram" = "Yes" 
+in the [d3dgl] section of your config file.
+
+To disable Fixed Programs, place the line:
+"FixedProgram" = "No" 
+in the [d3dgl] section of your config file.
+
+To have Fixed Programs auto-detected based on your graphics card, place the line:
+"FixedProgram" = "Auto" 
+in the [d3dgl] section of your config file (this is the default setting).
+
+Currently Fixed Programs are enabled by default on NVIDIA GeForce FX and 
+later graphics cards, and disabled for earlier cards.  Fixed Programs do not 
+currently work on ATI cards due to driver issues. See below 
+for the recommended settings for specific graphics cards.
+
+GeForce, GeForce2, GeForce4 MX, and GeForce4 Go series cards:
+While the drivers for these cards do support the ARB_vertex_program extension,
+these cards do not have hardware support for vertex programs and as such they 
+are emulated in software by the driver, resulting in very poor performance.  
+It is STRONGLY recommended that Fixed Programs be disabled for these cards.
+
+GeForce3 and GeForce4 series cards:
+These cards do support hardware vertex programs, but high resource requirements
+for some games may prevent Fixed Programs from working correctly. However many
+games are fully functional and gain a significant performance boost by using 
+Fixed Programs.  It is recommended that you enable Fixed Programs on a game-
+by-game basis. If you experience missing or corrupt geometry in a specific title, 
+you should disable Fixed Programs for that game.
+
+GeForce FX and later cards:
+Fixed Programs can safely be enabled on these cards.
+
+
+Pixel Shaders
+-------------
+Pixel Shaders are a DirectX 8 and higher feature that are used by many 
+games for graphical effects. Cedega's Pixel Shaders are built on top of 
+the OpenGL ARB_fragment_program extension. ARB_fragment_program is
+more powerful than Pixel Shaders versions 1.0-1.3, but is only
+supported on a higher class of graphics card. Thus, while Pixel Shaders 
+are available on Windows systems starting with GeForce 3 or Radeon 8500, 
+ARB_fragment_program is only available starting with GeForce FX and 
+Radeon 9500 cards.
+
+What this means is that a game which may have a minimum requirement
+of a GeForce 3 may actually be making the assumption that Pixel Shaders
+are available. In these situations the game may not function correctly
+without them.  For example, Battlefield Vietnam requires Pixel Shaders
+to play at higher detail levels. While a GeForce 3 is capable of 
+playing the game on a Windows system, a GeForce FX is required to play
+the game under Linux, as only the FX series supports ARB_fragment_program
+on Linux.
+
+
+CD/DVD Ejection System
+----------------------
+In the past, games that came on multiple CD-ROMs posed a problem for
+Cedega users, since the Linux OS would 'lock' the CD-ROM tray in some
+cases, preventing users from ejecting a disk and inserting the
+next disk.
+
+Cedega 4.0 included a new feature that eliminated this problem in
+many cases. Simply by pressing the eject button on one's CD-ROM drive 
+and waiting a few seconds (ejecting may take as long as 10 seconds), 
+the disk would automatically be unmounted and ejected.  Then one could 
+insert a new disk, perform whatever mounting step was required by the 
+Linux distribution, and seamlessly continue with an install.
+
+Beginning with Cedega 4.0.1, automatic monitoring of CD-ROM drive eject 
+buttons is off by default due to reported problems with some hardware
+such as compact flash readers and certain CD-ROM drive brands.  It can 
+be manually enabled by passing --monitor-cdrom-eject on the command line.  
+When using Point2Play, the eject monitoring feature is by default enabled
+while running installers, and disabled at other times to prevent in-game 
+performance problems.  It may be forced on or off in Point2Play by going 
+into Configure -> CDROM Eject Monitoring and setting Always ON or 
+Always OFF
+
+When the monitoring option is active, it should work on most recent
+model CD-RW and DVD drives.  With older drives, or with the monitoring
+option disabled you can still force the ejection of an otherwise in-use
+disc by using the Point2Play 'Unmount' button, or by manually sending a 
+SIGUSR2 signal to the wineserver process using a command such as:
+
+ $ killall -USR2 wineserver
+
+Of special note, please be warned that while Point2Play will unmount and 
+eject only the drive in question, using the command line above will unmount 
+and eject all of the drives in your system.  If you have other Wine based 
+software running, such as CodeWeavers CrossOver Office product, you may wish 
+to avoid the use of the unmount button or the killall command mentioned 
+above, as they will cause any non Cedega 4.0 based Wine process to halt.
+In all other respects, using the Point2Play unmount feature should act the 
+same as hitting the drive's eject button.
+
+Some installers may require you to re-insert the first CD-ROM to complete 
+your install.  Depending on the title, this may not yet work successfully.
+
+Please contact TransGaming support if you have any issues relating to CD-ROM 
+eject support, so that we can continue to improve this feature.
+
+
+------------------------------------------------------------------------------
+This document, TransGaming Cedega HOWTO Guide 4.3-1.1.1.1.en,
+is Copyright(c) 2002-2005, TransGaming Technologies Inc.  
+Redistribution is permitted for non-commercial use only.

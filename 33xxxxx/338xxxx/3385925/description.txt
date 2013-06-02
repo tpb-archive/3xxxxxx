@@ -1,0 +1,30 @@
+Release Note
+
+This release is a recommended security upgrade. 
+
+At a Glance
+Advertisement banner removed
+Registration options removed
+Updated end-user license agreement
+Browser JavaScript fixes broken Web sites on the fly
+
+Changes since 8.02
+
+User interface
+
+Removed advertising banners and all dialogs and menus related to advertising, registration, and license codes.
+Solved issue with Opera reverting explicit user setting to use program as handler rather than plug-in.
+Removed support for branded banners.
+
+Security
+
+Fixed issue reported in Secunia Advisory 16645: Attachment URLs now used instead of cache URLs for viewing attachments.
+Fixed drag-and-drop vulnerability allowing unintentional file uploads. Issue reported by mikx.de.
+Improved handling of must-revalidate cache directive for HTTPS pages.
+Fixed display issue with cookie comment encoding.
+
+Miscellaneous
+
+Included Browser JavaScript by default. On first run after install/upgrade, Opera will fetch a fresh browser.js file and start using it.
+Multiple stability fixes.
+

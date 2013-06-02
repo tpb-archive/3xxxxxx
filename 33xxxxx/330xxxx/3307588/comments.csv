@@ -1,0 +1,36 @@
+﻿User Type,Username,Date,Text
+,Aldi,2005-03-27T20:47Z,Annars finns det här http://www.microsoft.com/downloads/details.aspx?FamilyID=321cd7a2-6a57-4c57-a8bd-dbf62eda9671&displaylang=en&Hash=97CLVPC att ladda ner ;-)
+,radiodept,2005-03-27T21:35Z,"använder man uttrycket ""lol"" är man, per definition, en idiot.
+
+men iaf, för oss som inte hänger på sweclockers, microsofts hemsida eller liknande - och inte får reda på att såna här grejer är släppta - är det riktigt schysst att någon lägger upp det här på pirat bay!
+
+tackar!"
+,pluntax,2005-03-27T21:52Z,"En liten varning att detta MS prog gör hackebiff
+av populära p2p progs mappar. Finns många Kazaa användare som bittert installerat MSAS och blåst sina filer.
+
+Säkrast så flyttar man sina alster till en ny mapp. 
+
+Från release notes:
+* Windows AntiSpyware may prompt you to remove some peer-to-peer (P2P) file sharing programs. If you choose to remove such a program, Microsoft Windows AntiSpyware deletes the entire contents of the Program Files directory that relates to the P2P program. Because some P2P programs store downloaded files in a default directory under Program Files, this might remove all files downloaded through the file-sharing program. For example, KaZaA stores .exe and .dll files at C:Program FilesKazaa. Downloaded files are stored at C:Program FilesKazaaMy Shared Folder. If you use Windows AntiSpyware to remove KaZaA, all files and folders under C:Program FilesKazaa are removed. If you have installed any P2P file sharing programs, we recommend that you make a backup copy of your downloaded files before running Windows AntiSpyware.
+
+"
+,pluntax,2005-03-27T22:08Z,"MSAS är egentligen en redan färdig porodukt från Giant.
+
+Kör man kombinationen:
+Lavasofts Adaware
+MSAS
+samt
+Ccleaner (tar bort alla junkfiler), www.ccleaner.com
+
+så har man ett bra skydd mot spyware.
+"
+,pluntax,2005-03-27T22:09Z,"MSAS är egentligen en redan färdig produkt från Giant.
+
+Kör man kombinationen:
+Lavasofts Adaware
+MSAS
+samt
+Ccleaner (tar bort alla junkfiler), www.ccleaner.com
+
+så har man ett bra skydd mot spyware.
+"

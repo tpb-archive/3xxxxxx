@@ -1,0 +1,83 @@
+﻿User Type,Username,Date,Text
+,Habbeliha,2005-04-25T16:51Z,onödigt och ladda ner då allt som står i filen finnsi infon där uppe :)
+,Kalliban,2005-04-25T17:15Z,"sant :P ändrade på beskrivningen ovan, så allt står där nu!
+
+kom ihåg att ni måste testa er fram till rätt port.. jag exempelvis har port 3...
+
+ni kan kolla det i regedit också...
+om ni kör alcohol som jag gör.. kör ni deamon så finns det en risk för att det ser annorlunda ut, men det borde vara samma...
+
+kör REGEDIT
+gå in på HKEY_LOKAL_MACHINE
+gå in på HARDWARE
+gå in på DEVICEMAP
+gå in på Scsi.
+
+sedan kollar ni under vilken Scsi port som:
+Driver = a347scsi
+finns
+
+jag tror att det är samma för deamon tools, men jag är lite osäker..
+
+när ni har hittat vilken Scsi port det är så skriver ni bara in det nummret i genvägen.
+
+
+Sedan kan ni självklart göra en batfil som kör allting i rätt ordning. =) det har jag gjort..
+
+För att göra en batfil kan ni göra såhär:
+Öppna notepad
+namnet på första genvägen.lnk
+namnet på andra genvägen.lnk
+stronghold2.exe
+
+spara som play.bat eller vad ni tycker som.. det är "".bat"" som är det viktiga.
+sedan är det bara att köra den filen när ni vill spela spelet!!
+
+hoppas det inte blev för snurrigt...
+
+enjoy"
+,ozzlss,2005-04-25T19:42Z,"well. isnt working here.. said that the EMULATION IS ENABLE....
+
+:(  :("
+,Nexinnel,2005-04-26T14:22Z,"coz it's good to learn another way anyway, just an option, it's good to learn something new, always =)"
+,gurgel,2005-05-05T01:49Z,"Pretty interesting that the info is written in english, albeit the method only works for scandinavians...
+
+Hint: ""deny = administratörer"""
+,Kalliban,2005-05-14T13:13Z,"haha true.. I guess that all you guys with an english version of you windows will have to change that part to
+
+deny=administrators
+
+otherwise it wouldn't work, now would it?
+
+:P"
+,Chimera,2005-05-19T19:32Z,"Antingen så har jag bantat mitt windows lite för mycket eller så har inte Windows 2003 Server detta...
+
+I vilket fall så finns den att ta hem
+
+http://www.microsoft.com/downloads/details.aspx?FamilyID=E8BA3E56-D8FE-4A91-93CF-ED6985E3927B&displaylang=en
+
+Så om man har klantat sig så finns den där...
+
+och om maninte vill ha en massa onödiga genvägar så finns det en lösning för det med...
+Man lägger allt i *.bat filen
+
+Skriv in detta:
+
+@echo off
+echo Fixing registrykeys...
+start /D""C:Program FilesWindows Resource KitsTools"" subinacl.exe /keyreg ""HKEY_LOCAL_MACHINEHARDWAREDevicemapSCSISCSI Port 0"" /deny=administrators=r
+start /D""C:Program FilesWindows Resource KitsTools"" subinacl.exe /keyreg ""HKEY_LOCAL_MACHINESYSTEMMountedDevices"" /deny=administrators=r
+echo Registrykeys fixed!!!
+echo Press a key to start the game!
+pause
+Stronghold2.exe
+
+
+Var noga med att ändra ""Program Files"" till eran program mapp och andmonostrators till administratörer
+(Jag kör engelskt Windows)
+
+;)"
+,Nevrhax,2007-11-01T13:56Z,"chimera 
+subinacl.exe kan inte hittas
+
+har du skrivit fel eller måste jag byta ut den till nåt som passar svensk windows?"

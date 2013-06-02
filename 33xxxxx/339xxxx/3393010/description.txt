@@ -1,0 +1,31 @@
+
+ Release.............: XBox Media Center 1.1.0
+ CVS/Compile Date....: 2005-10-06
+ Compiler Versions...: XDK 5933, Visual Studio .NET 2003
+
+ Skins...............: Project Mayhem III
+                       Project Mayhem III style webserver interface by KanadaKid
+
+ Visualisations......: ~1500 G-Force and ~7000 Milkdrop presets
+                       
+ Scripts.............: Aftonbladet, Changelog, FlexiBrowser v1.4, Flickr, 
+                       GameSpotPlus, Global Alternate News, KMLBrowse,
+                       LaunchBrowser v1.7, Notepad, Ooba v1.1, QuickTimeBrowser,
+                       Stupidvideos, TV.com and XBMCScripts.
+                       (All installed in the scripts menu)
+
+ Custom Mods.........: Added Linksboks 0.99 (Compiled with XDK 5933)
+                       Included weather display in home screen.
+                       Changed weather entry in main menu to web browser. 
+
+ Notes...............: Went back to regular rar format per request, so no
+                       fancy installer this time ;)
+
+ XBMC Changelog......:
+
+ - 04-10-2005 changed: default interlaced handling is now none.. ie it doesn't
+                       try to do anything. changed due to the many times it
+                       starts to deinterlace when not needed.
+ - 04-10-2005 fixed:   clockspeed used for DreamX 1480 was somewhat of. Correct
+                       value is 1481.20000Mhz as per FriendTech info. (updated
+                       with forgotten file for mplayer)

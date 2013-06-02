@@ -1,0 +1,7 @@
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+I've collected a set of files that can be used to install Debian GNU/Linux from DOS. Just extract and run install.bat. Loadlin will then erase DOS from memory and overwrite it with the linux kernel, booting linux without even rebooting.
+
+This can't be run from windows, or XP's rescue-CD-DOS-prompt. If using XP you can start DOS with a bootdisk. If linux.tar.gz is extracted to a NTFS-partition you'll have to use some ntfs4dos prog for reading.
+
+During the installation you'll have to start a shell and mount the partition which linuz.tar.gz has been extracted to, to be able to install the drivers and base-system from it. The rest will be downloaded from the net.

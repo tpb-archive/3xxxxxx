@@ -1,0 +1,9 @@
+Toast 6 allows the user to mount a disk image (.iso /.toast) on the desktop as if a cd is in the drive. All application then think a real cd was inserted.
+
+ToastMount uses some parts of Toast to do all this with a simple drag-n-drop (or double-click) instead of launching Toast, select the Menu and choose the image.
+
+Note: This is NOT the same thing that Disk Image Helper does!
+
+Product Requirements:
+Mac OS X 10.3 or higher
+Roxio Toast 6

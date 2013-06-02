@@ -1,0 +1,63 @@
+08-04-2005 changed: <visible> tag in image controls is now a boolean conditional. eg <visible>Player.HasMedia</visible> will cause the image to be rendered only if the player has something playing (or paused). 
+08-04-2005 changed: Z-buffer now used throughout the GUI (more mem usage, but it's needed for the visz)
+08-04-2005 changed: Hardware overlays renderer drops down to low quality pixel shader for the GUI. Means we have more mem free + the use of alpha.
+08-04-2005 fixed: Fullscreen Visualisation render order if no visualisation control present.
+07-04-2005 changed: alpha-numeric sorting is now case-insensitive.
+07-04-2005 changed: Reduced Karaoke settings considerably.
+07-04-2005 fixed: SetViewPort() crash if given out of range values.
+07-04-2005 added: Support for <execute> tag in keymap.xml
+07-04-2005 added: More subtitle colours (Blue, Bright Green, Cyan + Yellow Green)
+07-04-2005 added: Visualisation now runs in a control. See musicVisualisation.xml for an example. Some visz's (Boxalizer) probably need redoing.
+07-04-2005 fixed: Keymap for numeric + gamepad dialogs.
+06-04-2005 fixed: Python checkmark controls.
+06-04-2005 added: Left thumbstick individual direction keymappings.
+06-04-2005 changed: Visualisations now accept a position on screen parameter. !!XBMC WILL CRASH IF YOU DON'T UPDATE YOUR VISUALISATIONS!!
+06-04-2005 fixed: Stack overflow in volumebar/playcontrol combination.
+06-04-2005 updated: Italian language file (Thnx to kotix)
+05-04-2005 removed: My Music Albums, Artists, and Genres views. Use My Music Library instead.
+05-04-2005 updated: Norwegian language file (Thnx to vnm)
+05-04-2005 updated: German (Austrian) language file (Thnx to CEOMR)
+05-04-2005 added: Python patches [ 1166891 ] and [ 1176789 ] from gimblefoot.
+05-04-2005 fixed: List/thumb controls couldn't move right off the spincontrol.
+05-04-2005 fixed: Search for home dir checks for keymap.xml as well as the skin folder.
+05-04-2005 fixed: Video Genre/Actors now show only those that are associated with a valid movie.
+05-04-2005 changed: Video views now use the CGUIViewControl to handle the views.
+05-04-2005 fixed: problems with alphanumeric sorting (numbers came after characters)
+05-04-2005 fixed: IMDb problem (memory overflow with huge numbers of returned movies).
+05-04-2005 changed: Nav view now uses alphanumeric sorting.
+04-04-2005 fixed: re-scanning music dirs and music thumbnail caching
+04-04-2005 fixed: Scissors clipping crash in FullscreenVideo->GUI switch.
+04-04-2005 changed: DVD/Video off DVD/LAN cache defaults to 4Mb.
+04-04-2005 changed: Default regexps for filestacking.
+04-04-2005 changed: Sort orders when sorting by Artist + Album now also include the album + artist + tracknumber info so everything is easier to find.
+04-04-2005 added: Skin files for popup player controls. Mapped to START by default. Users of other skins may want to remap START back to the stop action.
+04-04-2005 changed: IMDb lookups return the list of found movies even if there is only 1 (allows manual lookup if it got it wrong.)
+04-04-2005 changed: Improved the analog stick + trigger response + allowed analog ffwd and analog rewd to be mapped globally (eg Right thumb stick left and right works nicely.)
+04-04-2005 added: Search for .cue sheet underlying media checks for cuesheetname.mp3 and the dropping of the .cue extension.
+04-04-2005 added: support for smb://username@server/share (ie no password set no longer requires the colon.)
+04-04-2005 fixed: Typos in source.
+04-04-2005 changed: Volume bar is now modeless.
+04-04-2005 changed: Render order is now: Window, Overlays, Dialogs. (was Window, Dialogs, Overlays).
+04-04-2005 added: <useAltTexture> tags to togglebutton + removed duplicate code (now derives from GUIButtonControl). The <useAltTexture> tag specifies a condition under which the toggle button should show the altTextures. Current valid conditions are: Player.Paused, Player.Rewinding, Player.Forwarding.
+04-04-2005 added: Execute functions: XBMC.PlayerControl(action), where action can be: Play, Stop, Rewind, Forward, Next, Previous. Useful for OSD stuff.
+04-04-2005 added: New dialog window PlayerControls.xml. id is 114. Can be anything you like, but I suspect you'll want to use it for actual playercontrols, as it is only displayed while something is playing! Suggest mapping to pop this window up on START. Does not display on the FullScreenVideo screen as we have an OSD for that anyway.
+04-04-2005 updated: Finnish language file (Thnx to jutski)
+04-04-2005 updated: German language file
+03-04-2005 added: a couple of emulated functions for dll loading
+03-04-2005 fixed: missing or empty <value> or <id> tags in strings.xml.
+02-04-2005 fixed: Stacked files on iso9660 didn't work.
+02-04-2005 fixed: vcd's/svcd's autostart doesn't start the video on disc if a stacked video was played before
+02-04-2005 fixed: Some stacked files weren't "cleaned up" correctly.
+02-04-2005 fixed: Queuing a folder of music to a shuffled playlist doesn't shuffle the first song.
+02-04-2005 fixed: Queuing albums from Nav view.
+01-04-2005 removed: mplayerdebug is no longer needed. Just setting loglevel to 0 will enabled mplayer logs.
+01-04-2005 removed: Old (not working) method of stopping ffwd + rewd on trigger release. 
+01-04-2005 changed: Renamed "Nav" view to "Library".
+01-04-2005 added: Big List to the Nav Music view at the albums level.
+01-04-2005 fixed: vcd's/svcd's autostart only the first movie on a cd
+01-04-2005 fixed: [ 1171973 ] visualisations and screensaver xml have missing end tags (Thanks to jaap3)
+01-04-2005 fixed: crash when <value> of a <string> tag in a language file is empty
+01-04-2005 updated: Finnish language file (Thnx to jutski)
+01-04-2004 updated: Polish language file (Thnx to napek)
+01-04-2005 updated: Norwegian language file (Thnx to vnm)
+01-04-2005 updated: Chinese (Traditional) language file (Thnx to dog099)

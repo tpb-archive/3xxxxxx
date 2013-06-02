@@ -1,0 +1,24 @@
+﻿User Type,Username,Date,Text
+,reichert,2005-06-30T12:23Z,"Problem: 	Error: ""Director Player 6.0 - This Program Needs 3MB of Virtual Memory To Run"" (Windows XP)
+Solution: 	
+
+From the Windows desktop, select the Start button, right-click on the My Computer icon, and select Properties from the resulting menu.
+
+Click on the Advanced tab to bring it forward, and then select the Settings button within the Performance section.
+
+In the Performance Options window, click on the Advanced tab to bring it forward, and then select the Change button in the Virtual Memory section.
+
+Perform one of the following setting changes to resolve this issue:
+
+Select the button next to System managed size.
+
+Select SET to accept the change, which will close the Virtual Memory window. Select OK to close the Performance Options window. And select OK to exit the System Properties window.
+
+Attempt to play the game. If you continue to receive the error message, repeat the above Steps, but select the button next to No paging file in Step 4.
+NOTE: If making the change to ""No paging file"" causes memory issues in other areas of your computer's operation, change the setting back to System managed size. "
+,Biffo,2005-06-30T21:05Z,"Unfortunately, this isn't an English dictionary at all. It's an American dictionary."
+,sums,2009-04-21T22:35Z,Thanks a ton for the share....i really appreciate it !!
+,ahmedam,2011-04-07T10:01Z,"work perfect 
+no need for CD player 
+can direct work form (opdi.exe)
+thanks"

@@ -1,0 +1,15 @@
+This works as an Update for the full Release -  You do not need the first Update, its included. But it is no problem if you installed the first one.
+See you next Week, no more Updates, if they broke other important stuff please revert to the last fully working Release. *Updates suck*
+GAS
+
+
+
+!! - 17-08-2005 fixed: ccx+builtin rar support was broken. !!
+
+ - 17-08-2005 fixed: cdrom gui status. this also fixes add/remove share and
+                     autodetect.
+ - 17-08-2005 added: if a incomplete rarset is detected, we hand mplayer the
+                     '-noidx' switch.
+ - 17-08-2005 added: progressbar to rar caching.
+ - 17-08-2005 added: Recent Albums to Music Library, presents a list of the
+                     last 25 albums scanned into the database

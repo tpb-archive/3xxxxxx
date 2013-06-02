@@ -1,0 +1,47 @@
+﻿User Type,Username,Date,Text
+,Croydon,2006-01-05T22:20Z,Spelet tjatar om original CD. Vad är problemet?
+,Socrates,2006-01-07T19:17Z,"En CD innehåller flera lager. En vanlig iso-fil tar bara med översta lagret. Så det kan tänkas att det ligger ytterligare filer på CDn som inte kommit med.
+
+Men tanken var ju god.
+
+Fejset, du kan möjligen inte skapa en bin-fil av CD. Då kan man åtminstånde köra dn felfritt i, typ Deamon-tools eller liknande."
+,fejset,2006-01-24T18:35Z,"har testat att göra bin fil av skivan men den vill inte vet inte varför för det går med alla andra,,,,,,,,,,,, arghhhhhhhh"
+,Tigger87,2006-02-02T22:58Z,Snälla Seeda!!
+,micke_stark,2006-02-07T11:05Z,"Vad är labeln (namnet) på CD'n?
+
+I filen control.txt i katalogen Data görs en koll om cdname = ""Bondgården"", vet inte om det har någon betydelse.
+
+Vad jag vet har en CD bara ett lager, startprogrammet kanske däremot checkar värdet på ett hårdadresserat block på CD'n och om inte det stämmer = ingen original CD."
+,bacano,2006-02-10T22:55Z,det går inte att spela
+,SIRMASTERD.J,2006-02-13T17:53Z,ÅÅÅ små snoriga fjortisar....varför ens ladda ner när ni bara kan gnälla...DET ÄR ALDRIG I REGEL fel på spelen det är fel på er.....Mounta med DAEMON Tools och välj Emulation..välj All options on.....funkar
+,biglierman,2006-02-19T09:28Z," å du som e så duktig, kan du då också tala om vilken fil som ska mountas för att det ska fungera?"
+,micke_stark,2006-02-21T21:43Z,"Får exakt samma fel med Daemon Tools, några fler smarta idéer ""Mr Besserwisser""?"
+,SIRMASTERD.J,2006-02-22T03:38Z,"Re:micke_stark ..har du ställt in  Daemon Tools på..All options on....(har v.3.47)
+
+Re:biglierman..mounta iso filen du har ju bara den om du inte ""packat"" upp den med annat prog. då krånglar du bara till det.....Ja jag är en hjälpsam Besserwisser och duktig.....474 st har laddat denna mindre än 10 har Kommenterat såå felet ligger i er okunnighet tyvärr......"
+,Copiad,2006-02-28T18:10Z,Hasr packat upp med winrar får då en massa mappar som heter tex. data m.m. Kan någon vänlig själ beskriva exakt hur man ska göra för att få det att funka. Är ingen snorunge men tydligen väldigt sopig på detta. Min dotter hälsar och tackar på förhand (väldigt spelsugen).
+,SIRMASTERD.J,2006-03-01T08:16Z,"RE:Copiad ..Det som landat på din hårdisk ska ligga där.Det är en ISO fil av spelet Bondgården..d.v.s en image/spegelbild av orginal spelet.Orginal spelet innehåller kopierings skydd.....Det måste ""filtreras"" bort..då använder man ett prog. som heter:  Daemon Tools .....det finns att ladda ner gratis....bränn inte ut spelet på skiva om så görs måste spelet behållas som ISO fil annars går det inte att använda Daemon Tools..iaf starta Daemon Tools... nere i högra hörnet på skärmen 1:h klicka på ikonen välj Emulation välj All options on....2:v klicka på ikonen välj device 0 och leta upp ISO filen...och Öppna den...simm sala bimm..så har du fått en mountad ISO fil och kan börja installera från den virituella cd läsaren som du fått på ""Enheter""...PACKA INTE UPP MED WINRAR..det är ingen Winrar fil fast ikonen ser ut så....hoppas det går nu så dotter inte blir förbannad o vägrar göra som du säger o börjar supa när hon är 13 o blir på smällen när hon är 15 o arbetslös 18-28 år och på sin 29.e dag blir utbränd och förtidspensionär....det vill vi ju inte så fixa spelet nu..LOL"
+,Copiad,2006-03-01T20:55Z,"Tack så jätte mycket SIRMASTERD.J, jag ska försöka (bäst jag skyndar mig). Jag gjorde felet att packa upp filen. Tack Tack!"
+,agb007,2006-03-05T18:24Z,"Hej!
+
+Jag fattar bara inte detta... filen är mountad via deamon tools. Programet installerat och det skiter sig ändå. Windows bråkar något om drivisar till grafikkortet. Jag har en mobil pc som är 2 månader. Förstår inte hur ett spel från 2002 kan protestera.
+
+Någon som har ett tips? Suck..."
+,bluehair,2006-04-10T15:57Z,Det räckte inte enbart med att använda Daemons tool. Jag var också tvungen att köra programfilen i windows 98 kompatibelt läge. Då först slutade den tjata om originalcd och spelet gick igång
+,Tinsa,2006-05-21T10:24Z,"Kan inte någon vara snäll å seeda lite till..!? Är fast på 79,6..."
+,Tinsa,2006-05-21T20:50Z,Tack!
+,oggez,2006-07-09T15:49Z,"Snälla seeda någon, ligger på 96,5%..."
+,dopelover94,2006-07-12T21:10Z,du SIRMASTERD.J om man inte ska paka upp filen med winrar vad ska man då paka upp den med?
+,SIRMASTERD.J,2006-07-28T03:43Z,"starta Daemon Tools... nere i högra hörnet på skärmen 1:h klicka på ikonen välj Emulation välj All options on....2:v klicka på ikonen välj device 0 och leta upp ISO filen...och Öppna den...simm sala bimm..så har du fått en mountad ISO fil och kan börja installera från den virituella cd läsaren som du fått på ""Enheter""...PACKA INTE UPP MED WINRAR..det är ingen Winrar fil fast ikonen ser ut så.......
+dopelover94... jag tror du är dopelover i så fall ska du sluta ta mer ""shit""  eftersom du inte fattar vad jag skrivit tidigare...DET ÄR INGEN PACKAD RAR/ZIP fil det är en ISO fil...."
+,Hammer9600,2006-08-12T02:09Z,Anyone who can seed this?
+,halotronic,2006-08-15T11:46Z,"Bra release! 
+Man behöver inte alls ha ""all on"" på daemon tools. Det räcker med safedisc.
+Tyvärr får jag ett runtime error när jag kör det precis efter start.
+
+Det hjälper inte att sätta så den körs med windows 98-kompatibilitet eller någon annan kompatibilitet.
+Jag funderar på om det kan ha att göra med att jag kör SP2 och nyaste uppdateringarna för windows. Nåväl... några andra av ""fejset""-spelen här fungerar utmärkt för mig."
+,halotronic,2006-08-15T11:53Z,"det var nog fel på min sida, av denna luddiga beskrivning att dömma:
+http://www.levande.se/o.o.i.s?id=338&supportid=666847&func=show"
+,lindis7000,2009-02-10T17:04Z,"Funkar utmärkt, tack för perfekt guide! Packade oxå upp med Winrar o satt o kliade mig i huvudet :)
+Bock o tack!"

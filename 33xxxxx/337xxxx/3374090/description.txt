@@ -1,0 +1,281 @@
+Copyright (c) 1996 - 2005 Kaspersky Lab
+
+RELEASE NOTES
+
+Kaspersky Internet Security 2006 (Beta) build 6.0.13.183 (28.07.2005)
+
+
+Contents
+
+Introduction
+Minimal Configuration
+Installation
+New key features
+Known bugs
+What to do in case of a bug found
+Additional resources
+
+
+INTRODUCTION
+
+1. Scope
+	The Kaspersky Internet Security 2006 represents a new generation platform 
+	for creating applications specifically designated for complex protection of 
+	personal computers and workstations. United in one product the substantially 
+	improved functional abilities of version 5.0 Kaspersky Lab protection products 
+	with the latest technological innovations introduced by the company the 
+	Kaspersky Internet Security 2006 solution secures the most effective 
+	and complete protection of a computer from all sorts of electronic 
+	threats - malicious programs, hacker attacs and spam.
+
+2. Main targets of this beta release:
+	Testing of the product on a wide range of soft- and hardware configurations.
+	Identifying problematic soft- and hardware configurations.
+	Identifying all kinds of bugs, including BSoD faults as well as user interface inaccuracy.
+
+3. Following is a concise changelog. Complete list of changes listed in the "Product all features list.HTM".
+
+MINIMAL CONFIGURATION
+
+For adequate performance of Kaspersky Internet Security 2006, your computer must meet the following minimum requirements: 
+
+1. General Requirements: 
+	50 MB available space on your hard drive 
+	CD-ROM drive (for installation of Kaspersky Anti-Virus from CD) 
+	Microsoft Internet Explorer 5.5 or higher (for updating the anti-virus database and application modules via the Internet)
+2. Microsoft Windows 98 (SE): 
+	Intel Pentium 133 MHz processor 
+	32 MB RAM
+3. Microsoft Windows ME: 
+	Intel Pentium 150 MHz processor 
+	32 MB RAM
+4. Microsoft Windows NT Workstation 4.0 (Service Pack 6a): 
+	Intel Pentium 133 MHz processor 
+	32 MB RAM
+5. Microsoft Windows 2000 Professional (Service Pack 2 or later): 
+	Intel Pentium 133 MHz processor 
+	64 MB RAM
+6. Microsoft Windows XP Home Edition or XP Professional (Service Pack 1 or later): 
+	Intel Pentium 300 MHz processor 
+	128 MB RAM
+
+
+INSTALLATION
+
+In order to setup the product run the setup.exe, choose the installation interface language and follow the instructions of the setup programm. Upon completion of the installation the program may or may not request you to restart your computer, which depends on the set of the components you may have selected. In order to add additional components provided or remove installed ones, you should uninstall the product and run the setup.exe once more specifying the desired set of the components.
+
+1. The product can be installed over the following applications:
+	Kaspersky Anti-Hacker 1.5 (4.1.100.1332)
+	Kaspersky Anti-Hacker 1.7 (1.7.130.0)
+	Kaspersky Anti-Virus Lite 4.5 (4.5.0090)
+	Kaspersky Anti-Virus Personal 5.0 (5.0.227.0)
+	Kaspersky Anti-Virus Personal Pro 5.0 (5.0.20)
+	Kaspersky Anti-Virus for Windows Workstation 5.0 (7.4.262.0)
+	Kaspersky Anti-Virus 5.0 for Windows File Servers (5.0.41)
+
+2. In the process of installation the Kaspersky Internet Security 2006 detects the following products and allows to uninstall them. Side-by-side execution with the products enlisted below may lead to computer functioning deceleration and even to its complete inoperability:
+	Norton AntiVirus Corporate Edition 7.5 (v761)
+	Norton AntiVirus Corporate Edition 8 (v8.1.0.821)
+	Symantec Client Security 9 (v9.0.0.338)
+	Symantec Norton AntiVirus 2004 Professional
+	Symantec Norton AntiVirus 2005 (11.0.2)
+	Norton Internet Security 2005 (8.0.0.64)
+
+	McAfee Desktop Firewall 8.0 (2004)
+	McAfee Desktop Firewall 8.5 (2005)
+	Security Center + McAfee VirusScan Professional v8 (2004)
+	McAfee VirusScan Enterprise (ver 8.0i) (2004)
+
+	Trend Micro PC-cillin Internet Security 2005
+
+	Agnitum Outpost Firewall 1.0 (1.0.1817.1645)
+	Outpost Firewall 1.0 SDK (1.0.1202.0558)                
+	Agnitum Outpost Firewall Pro 2.1 (2.1.303.314)
+	Agnitum Outpost Firewall 2.5 (2.5.369)
+	Agnitum Outpost Firewall 2.6 (2.6.452)
+
+	ZoneAlarm Security Suite 5.5 (5.5.94)
+	ZoneAlarm Wireless Security 5.5 (5.5.094.000)                
+	ZoneAlarm Pro 5.5 (5.5.094.000)
+	ZoneAlarm with Antivirus 5.5 (5.5.094.000)
+	ZoneAlarm 5.5 (5.5.094.000)                            
+	(For this software group it is required to confirm deinstallation of a product and system restart by clicking two times on the OK button.)
+
+	IMsecure (1.5.0.39)
+
+
+NEW KEY FEATURES
+
+(1) General features
+
+	Check new and changed files option
+	Advanced Damage clean-up (the windows registry, command files, *.lnk files, hosts)
+	Proactive defense module with history and roll-back option
+	HTTP traffic checking (AV)
+	Outlook Express (AS) and TheBat! plugins (AS,AV)
+	Anti-Rootkit technology (Anti-Rootkit)
+	E-Mail IMAP and NNTP protocol checking support (AV,AS)
+	Registry Monitor with preinstalled and updatable database 
+	Anti-Phishing module
+	Anti-Dialer module
+	Anti-Popup module
+	Stateful Firewall 
+
+(2) Anti-Virus new features
+
+	Advanced damage clean-up (against Spyware)
+	Check new and changed files option
+	HTTP, IMAP, NNTP traffic check
+	ODS Scan suspend technology (when user-activity is detected)
+	Startup Scan with updateable database
+	Differential update (further reduction of the AV database update size)
+	Script-Checker with Internet Explorer GUI plug-in
+	New Scan scope (Scan Critical Areas task)
+	Scan Startup Objects ? full control of the task execution
+	TheBat! plugin
+
+(3) Anti-Hacker new features
+
+	Stateful Firewall
+	Extended pre-defined database of know network applications (>250)
+	Anti-Hacker Rules extended views (sorting, grouping, etc)
+	Extended statistics per connection (connection time, sent/received data) 
+	List of available networks (ability to specify different modes for different networks)
+	Export/Import for Rules and Settings
+	Effective operational time range can be specified for every rule
+	Ban-list of blocked computers (with un-block feature)
+
+(4) Anti-Spam new features
+
+	Mail dispatcher (advanced option to remove e-mail messages from POP3 server)
+	Improved Bayesian filtering
+	SMTP, POP3, IMAP4, NNTP protocol support
+	Outlook, Outlook Express, and TheBat! plugins
+	Senders Whitelists and Blacklists
+	Phrases Whitelists and Blacklists
+	AS education based on the reports
+	Using Anti-Phishing database for Anti-Spam training
+	Training Wizard for Outlook and Outlook Express
+
+(5) New technologies
+
+	Proactive Defense module with history and roll-back option
+	Anti-Rootkit technology
+	Registry monitor with preinstalled database 
+	Anti-Phishing module
+	Anti-Dialer module
+	Anti-Popup module
+	Tracking of an application?s component structure; runtime module intrusion detection
+	E-Mail event notification option
+	Enhanced notification settings
+	GUI Skin technology
+
+
+KNOWN BUGS
+		
+	The main known bugs:
+	1.  Context sensitive help has not yet been completely implemented.
+	2.  Some subsystems may work incorrectly under Windows 9x.
+	3.  Some subsystems may work incorrectly when using Fast User Switching.
+	4.  White list in Proactive defence module is not completed yet so it is possible that alerts will appear during work of non-malicious applications.
+	5.  Certain bugs regarding the Windows Server 2003 are reported.
+	6.  Self-protection module has been implemented with certain limitations.
+	7.  Licensing policy has been partially implemented.
+	8.  Stop of the Anti-hacker component and it's further restart results in the "failure" status if alert is opened.
+	10. Technology of incremental updates (differences) can fail in certain conditions.
+	11. AntiSpam plugin in the MS Outlook may not start checking letters, if in properties of mail account a "save password" flag is set to off. the problem can be fixed by turn this flag on and restart Outlook.
+	12. Flag "enable Outlook/Outlook Express/The Bat! plugins" does not affect the mechanism of moving a letters in the Outlook Express. Select "keep as is" option in the OE plugin's settings window if this behaviour is undesirable.
+	13. Anti-Hacker alerts may appear for non-existent applications "HardDiskVolume1", "C:".	
+	14. Incorrect concurrent work with personal firewalls Outpost 2.6, 2.7, ZoneAlarm 5.5.
+	15. Partial work with Sygate Personal Firewall Pro (build 2710).
+	16. Unstable work with Norton System Works: Norton Utilities 2005 at the same time.
+	17. Help file may not open under limited user.
+	18. After Protection tasks are stopped all established connections are being broken (programs like ICQ).
+	19. Masks does not work in the Anti-Dialer white list.
+	20. Attacker computers may not be blocked in some cases.	
+
+WHAT TO DO IN CASE OF A BUG FOUND
+
+In case of a new bug found you are encouraged to take the following steps:
+	1) Please, refer to the official product's forum located at the http://forum.kaspersky.com/index.php?showforum=16. Perhaps, the same problem is already being discussed.
+	2) Please, collect the maximum amout of information about the bug. Refer to the Bug Symptoms below.
+	3) Please, post you Bug Report (for a sample see below), and if it is required, upload your dump files to the corresponding FTP server (see below).
+
+(1) BUG SYMPTOMS
+
+Q:	After the product is installed the OS fails to load.
+A:	Restart your OS in the safe mode, remove the product. 
+	Please, send us your feedback with description of the problem supplied your hardware/software computer configuration.
+
+Q:	The OS throws the blue screen when the product is running
+A:	Tune your OS to write debug dumps (for detail instructions, please see below); restart your OS and repeat the actions known to lead to the failure; please, send us your feedback with the memory.dmp (resided in the %WindowsRoot% directory) and minidump<datetime>.dmp (resided in the %WindowsRoot%/Minidump) attached.
+
+Q:	The application fails at the start time, or when it is running.
+A:	When the "Send feedback" dialog is displayed click the "Send report" button; describe the problem happened and attach the AVP.exe_build_hour.minute.second_processid_hosttype.dmp resided in the home directory of the product (by defalt - %Program files%/Kaspersky Lab/AVP6); set your OS to write debug dumps (see below) and repeat the steps known to lead to a failure and send feedback having the the AVP.exe_build_hour.minute.second_processid_hosttype.dmp file attached.
+
+Q:	The application throws errors at the start-up time or when it is running.
+A:	Switch on the option of the application to write debug logs (see below), repeat the steps leading to an error message and send your feedback with the description of hardware/software info and having  the AVP.exe_build_hour.minute.second_processid_hosttype.dmp file attached (the file resides in the program working directory)
+
+Q:	An error in the application's settings, localization mistakes, mistakes in reports, etc.
+A:	Set the option to write the application debug logs on (see below), repeat the steps lead to the error, send us a feendback about the error having the AVP.exe_build_hour.minute.second_processid_hosttype.dmp file attached resided in the working directory of the program; send us a postback with a description of a mistake in the program with hardware/software of your computer information supplied.
+
+(2) PERFOMING CERTAIN TASKS
+
+1. 	How to send feedback.
+	There are 2 ways to send feedback:
+
+	1) automatic sendings of wishes and error messages from the interface of a product (use "Send feedback" link in the left bottom part of the main window of the product)
+		
+	2) send e-mail message to the kav2006@kaspersky.com address (we recommend to send responses on the given address, using the corresponding link in the top part 
+	 of the "Services" tab of the program's main window as thus the file with the description of a hardware-software configuration of a computer will be automatically attached to the letter)
+
+2.	How to make your OS write debug dumps.
+
+	Concise description: 
+	1) click right mouse button on My computer
+	2) select Properties/Advanced 
+	3) click "Setting" button in the "Startup and Recovery" group; 
+	4) change value in the "Write debugging information" group to "Kernel memory dump".
+	5) restart Windows.
+
+	For details, please visit http://www.kaspersky.ru/faq?qid=156361377
+	
+3. How to send you dump files to the developers
+
+	There are two ways to send your dump files::
+	1) via FTP (preferable in archives). ftp://data.kaspersky.ru (login: kav2006dump, password: zpJRMUmvpJUdKnYq),
+	2) via E-Mail. Send your mail to kav2006@kaspersky.com (this is discouraged due to rather huge dump files)
+
+4. How to switch on the tracing functionality in the product.
+
+  	1) Create the "Trace" key under HKLMSoftwareKasperskyLabavp6 and restart the product. 
+	2) The product will automatically create a set of sub-keys in the HKLMSoftwareKasperskyLabavp6TraceDefault sub-key. 
+	3) Change the TraceFileEnable's value to 1. 
+	4) Restart the product once again. 
+	The product will create the AVP.exe_build_hour.minute.second_processid_hosttype.log file.
+
+5.How to restart your computer in the safe mode.
+
+	Consise description: 
+	1) restart the computer (click the "Start" button, select the "shut down" menu item then select the "Restart" item in the combobox of a dialog displayed)
+	2) at the very beginning of your computer restarting press F8 until the menu is shown
+	3) select the "Safe Mode" item in the menu
+	4) after your finish your work in the safe mode you should simply restart your computer
+
+	NB: in the case of Windows 2000 or Windows XP you should know the password of the Administrator
+
+	For details, please visit http://www.kaspersky.ru/faq?qid=145282672, http://www.kaspersky.com/faq?qid=3606209
+
+ 
+6. How to check the operational capability of the program.
+
+	1. Download the eicar.com test virus from ftp://ftp.kaspersky.com/utils/eicar/ and save it somewhere on your disk. 
+		If the File monitor is running you will get a warning message.
+	2. Open web page http://www.eicar.com/anti_virus_test_file.htm and try to download eicar.com.txt file using a link at the bottom side of the page.
+		If the Web monitor is running you will get a warning message.
+
+
+ADDITIONAL RESOURCES
+	1. Visit the product dedicated forum at http://forum.kaspersky.com/index.php?showforum=16 to share your knowledge and participate in discussions.
+	2. Post your bug reports to kav2006@kaspersky.com. Should need arise, Kaspersky Lab personnel will contact you for more details.
+	3. Watch announcements at www.kaspersky.ru

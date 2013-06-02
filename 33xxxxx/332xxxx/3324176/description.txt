@@ -1,0 +1,13 @@
+As many of you are probably aware, the PS2 has problems running DVD9 games
+backed up onto dual layer media due to to problems reading from the second
+layer. This is because the data format on burnt DL discs is different than on 
+pressed discs (burnt = OTP, pressed = PTP). However, we have discovered a 
+software hack which allows the PS2 to read even burnt OTP discs resulting in
+working dual layer backups! Our Toxic firmware for DMS4 chips already includes
+auto-patching functionality which applies our software hack on the fly when
+booting games on dual layer media. For those without a DMS4, we present the
+Toxic Dual Layer Image Patcher! The patcher works by applying our software
+hack to the game image (.iso, .gi etc) before burning. Once the hack has
+been applied by our patcher, burn the modified image to dual layer media
+and play! This method will enable anybody with a modchip capable of booting
+DVD9 media to backup and _play_ DVD9 games such as Gran Turismo 4.

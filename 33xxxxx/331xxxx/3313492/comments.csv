@@ -1,0 +1,22 @@
+﻿User Type,Username,Date,Text
+,RedSaint,2005-04-17T07:18Z,"It's really a shame you absolutely ned a transgaming account to use this program for anything at all :(
+
+Luckily Grapevine works just as well ;) just a tip.."
+,Edd00001,2005-06-14T13:47Z,"Well you dont need a transgaming account to use this, you just need to make a .point2playrc file in youre home directory, an example of this file is listed below, edit where needed:
+
+_________________________________
+
+ [transgaming]
+gamedir=$HOME/.point2play/
+username=
+password=
+proxy_check=0
+proxy_host=
+proxy_port=3128
+accept_license=1
+pthreads_forced=auto
+cdrom_eject_monitoring=0
+
+
+[winex] "
+,Edd00001,2005-06-14T13:51Z,"lol looks like the whole file isnt there, you can take a look here for the whole file: http://forums.tuxwarez.com/viewtopic.php?p=105#105"

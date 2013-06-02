@@ -1,0 +1,54 @@
+31-03-2005 fixed: kai, crash when removing newly added contact when "just signed in" toast message is still on screen
+31-03-2005 fixed: kai, crash when removing last contact
+31-03-2005 fixed: kai toast dialog only shows the last notification in the queue
+31-03-2005 added: New built-in command XBMC.ReloadSkin()
+31-03-2005 fixed: Several translation strings in My Weather.
+31-03-2005 added: support for MusicBrainz id's from ogg and mp3 tags
+31-03-2005 added: Initial support for SMB share username/password prompting if it's not set in XBoxMediaCenter.xml.  Thanks to BillJam for the patch.
+30-03-2005 fixed: Webserver password reset to No Pass did not reset correctly.
+30-03-2005 fixed: Srt subtitles out of sync with framerateadjuster enabled after last fix
+30-03-2005 changed: Stacking now uses Regular Expressions for finding where to stack.  They're specified in XBoxMediaCenter.xml.  Most people probably don't need to change the defaults.
+30-03-2005 changed: Sorting in Video views is a little more intelligent.  Sorts numbers separately (eg Disk 1... Disk 10) are sorted correctly).
+30-03-2005 fixed: Correctly retrieve movie title + movie writing credits from IMDb.
+29-03-2005 fixed: duplicate album entries in My Music Nav window for Various Artists albums when no artist filter is applied
+29-03-2005 fixed: Videodatabase wasn't retrieving boolean values from database correctly (ex. FrameRateAdjustment wherent being restored)
+29-03-2005 fixed: Incorrect options given to mplayer when framerateadjustement was enabled. Could have been cause of problems with autosync and subtitles.
+28-03-2005 updated: Chinese (Traditional) language file (Thnx to woozc)
+28-03-2004 updated: Polish language file (Thnx to napek)
+28-03-2005 added: user-agent to mplayer.conf, "MPEG" needed for old SHOUTcast-servers. Please leave intact.
+27-03-2005 changed: Made sure triggers submit a keypress wen released. Makes sure ff/rw resumes properly on trigger release
+27-05 2005 updated: mplayer.dll, fixes rewind jumps back to beginning when resuming playback.
+26-03-2005 changed: UseTags and FindRemoteThumbs are automatically enabled when a music scan starts, and restored when completed
+25-03-2005 fixed: tbn thumbnails on iso9660 discs
+23-03-2005 updated: Korean language file (Thnx to akoako)
+23-03-2004 updated: Polish language file (Thnx to napek)
+23-03-2005 fixed: ".." item was always hidden in DVD folders.
+22-03-2005 fixed: [ 1095213 ] Error handleing of xboxmediacenter.xml.
+22-03-2005 added: VideoPlayer.Cover infoimage to the infomanager.
+22-03-2005 fixed: Harddisk spin up when fast fowarding (or display of any control in full screen video).
+22-03-2005 fixed: The settings table in the video database needs clearing out for audio stream problems.
+21-03-2005 changed: dvd thumbs are no longer considered remote so they are cached regardless of the FindRemoteThumbs setting 
+21-03-2005 fixed: correct album thumbs are displayed when multiple albums are in the same directory (be sure to enable ID3 tag reading before scanning)
+21-03-2005 changed: network.ipaddress infolabel prefixes "IP: " to the ip address.
+21-03-2005 fixed: Audio stream settings caused problems on saving video info if the audio stream was  stereo.  Plus, the stereo/left/right setting was not saved on a per-video basis.  Caused no audio on playback after the Audio options from the OSD had been accessed last time the video was played.
+21-03-2005 added: Options in settings.xml to adjust the max A/V and subs delays.
+21-03-2005 changed: Autorun priority runs: DVD->(S)VCD->PICTURE disc->Video->Music->Pictures.
+21-03-2005 fixed: [ 1165273 ] Resume Play doesn't work on stacked items.
+21-03-2005 fixed: Only the first item in a stacked video appeared in the database views.
+21-03-2005 removed: Fuzzy stacking.
+21-03-2005 fixed: Slideshow on a dir with just 1 item in it would cause a crash.
+21-03-2005 fixed: Homepage buttonscroller images were deallocated and reallocated every frame.  No decent workaround available at present, so they are always allocated.
+21-03-2005 fixed: After seek or ff/rw in music, first 1/4 of a second of audio is from another part of the file.
+21-03-2005 changed: Removed autosync=30 from mplayer.conf as it shouldn't be needed with the better audiorender accuracy.
+21-03-2005 changed: Improved xbmc's audio renderers accuracy in reporting correct amount in buffers. 
+20-03-2005 fixed: Htmlparser didnt account for a true ampersand (example: genre 'R&B' from allmusic.com was parsed as 'R')
+20-03-2005 fixed: [ 1166726 ] Playback of some AVI files is corrupted.
+19-03-2005 added: <keepaspectratio> tag to images + infoimages.  Fixes SF bug 1162592.
+19-03-2005 changed: Games bookmark defaults to F: now (so that the <default> tag works correctly)
+19-03-2005 fixed: Progress control didn't offset from the window's <posx>, <posy> coordinates.  Skins that have worked around this bug need fixing.
+19-03-2005 fixed: Subtitle size in Hardware overlays mode.
+19-03-2005 added: <autodetectFG> tag to XBoxMediaCenter.xml.  Set to false if you have an old bios that causes a crash on autodetection.
+19-03-2005 fixed: Overlays dim on screensaver activate while video is paused.
+19-03-2005 fixed: MusicPlayer and VideoPlayer labels only return something if there is the appropriate media type playing.
+18-03-2005 fixed: Play action in My Music Nav does not interfere with unpausing, or returning playback speed to 1
+18-03-2005 added: When music is paused, the play button will unpause

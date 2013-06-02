@@ -1,0 +1,18 @@
+The default security settings in Internet Explorer are more
+restrictive in the Windows Server 2003 family than in earlier versions
+of Windows. When you upgrade, any settings that do not match the new
+default settings are overwritten. These changes decrease the exposure
+of your servers to attacks that are launched through Web content.
+However, users will not be able to view many Web pages correctly when
+using the default security settings. To allow users to see these Web
+pages correctly, you must explicitly grant access. In addition, users
+will not be able to run executable files from Universal Naming
+Convention (UNC) shared folders until you or the users have added the
+shared computer to the Local intranet security zone in Internet
+Explorer. 
+
+For more information about security settings and how to change them,
+see relnotes.htm in the Docs folder on the operating system disc.
+
+======================================================================
+3.0 Copyright

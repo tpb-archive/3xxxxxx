@@ -1,0 +1,31 @@
+IBM pc-dos ver. 4.01 swe
+
+Systemkrav:
+IBM Personal System/2
+Modell 25, 30 ,50 .60, 70 or 80,
+IBM Personal Comuter,
+Personal Computer XTtm,
+Personal Computer XT 286,
+Personal Computer AT, 
+eller PC Convertible
+
+IBM Bildskärm eller motsvarande
+
+minst 256 KB minne (minimum)
+
+3.5"  720KB eller 1.44MB diskettenhet
+
+under installation behövs också en tom diskett 
+i samma fysiska storlek som
+installaionsdisketterna märkt "installationskopia"
+
+använd resptektive batchfil
+för att skapa 2 st 3.5" 720 Kb diskar
+i enhet ansluten som A:
+disk1.bat 	= installationsdiskett 1 + 2
+disk2.bat 	= Dos-diskett
+
+(om 3.5" 720Kb ej finns att få tag på kan man använda 1.44Mb
+diskett och teja det ena hålet, det hål som saknar flyttbar plupp
+(avkänningshålet för 1.44MB disk)
+och formatera om dem med doskommandot "format a:/f:720/u" )

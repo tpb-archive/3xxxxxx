@@ -1,0 +1,32 @@
+This is Final Fantasy 8 (VIII) for PSX, enjoy it and here is a guide on how to play it on your computer:
+
+if u have anyproblem with setting up your video configuration here is a GREAT site that tells u what config u should have on a specific game: http://www.lordkane.co.uk/
+
+1. To unzip the 7z file download the 7-Zip here http://www.7-zip.org/
+
+2. Now you can either burn it or mount it. I will describe how u can mount it. If you want to burn it u need to do it on your own.
+
+3. When it is unziped u need to get Daeomon Tools so u can mount the image, get it here http://www.daemon-tools.cc/dtcc/portal/download.php
+
+4. When the image is mounted u need to play it in a PSX emulator, i suggest ePSXe, thats the best one, get it here http://www.epsxe.com/download.php
+
+5. To use the PSX emulator u need to get a BIOS file, search the internet or other p2p networks to find it, it is called SCPH1001.BIN and is about 0,5 MB big
+
+6. In order to play this game u need to install some plugins, download and install/extract these plugins in the plugins folder:
+	
+	6.1 Pete's Video plugin, for best video, get it here http://www.ngemu.com/download.php?action=plugin&id=7
+	6.2 Pete's Sound plugin, for best sound, get it here http://www.ngemu.com/download.php?action=plugin&id=23
+	6.3 Pete's CD plugin, get it here http://www.ngemu.com/download.php?action=plugin&id=35
+	6.4 Input plugin, get it here http://www.ngemu.com/download.php?action=plugin&id=52
+
+7. After installing the plugins start up ePSXe go through the install wizard step by step
+	
+	7.1 Video, choose Pete's video plugin for your graphic card, then press Config and then press the "Nice" button at the button to get good settings that works good with these FF games
+	7.2 if u dont want to play in full screen u can change that at the top by choosing window mode
+	7.3 Choose Pete's Sound plugin and press next, dont need to change any config.
+	7.4 Choose Pete's CD plugin (P.E.Op.S. CDR Driver 1.4) and press config, Select your interface at the top, if u have W2K or XP choose the raw reading one. then select what drive the game is mounted in and press ok
+	7.5 finally change the controllers or keep them as they are, u decide..
+
+8. To load the mounted image just press File and then Run CDROM. if u want to load a real ps cd that u have in your drive u need to change the drive in Pete's CD plugin (P.E.Op.S. CDR Driver 1.4) to the specific drive.
+
+9. thats all, hope it works, if u bump in to any problems, just post it here and ill try to help.

@@ -1,0 +1,138 @@
+﻿User Type,Username,Date,Text
+,apb,2005-08-11T03:31Z,"Oh, forgot to write: If you get strange ""permission denied"" errors about relocation, type ""setenforce 0"" as root (disables SELinux)."
+,Sith1ord,2005-08-11T07:10Z,these command lines work on os x?
+,malevolent,2005-08-11T12:36Z,"Mac OS X has the linux kernel and graphical Interface (X.org i guess), hence it should work"
+[T],DasBot,2005-08-11T12:57Z,Mac OS X does not have a Linux kernel! Its Darwin kernel is based on FreeBSD and Mach technologies.
+,Petter73,2005-08-11T18:19Z,"Will it work on x86_64...?! Really hope so, for after I ditched 32bit and went 64, I've been screwed wrt. matlab... Works without graphics, but what fun is that?! Oh, well... We'll see..."
+,Petter73,2005-08-12T09:08Z,"No glnxa64 there, unfortunately... Does the 64bit version of Matlab come in a package of it's own?"
+,unitel,2006-03-10T20:40Z,Which toolboxes are included? And how is the problem with the license manager solved?
+,me_himself,2006-05-23T18:30Z,CD2 and CD3 content ureadable data (e.g. chinese (?) file names). Has someone else this problem? Is it reasoned by fault cdrecord(k3b)?
+,me_himself,2006-05-23T19:30Z,"It works well with mount -o loop .iso /mnt/
+
+Licensed tools:
+MATLAB
+MATLAB Toolbox
+MATLAB Kernel"
+,me_himself,2006-05-23T19:31Z,"Simulink
+Bioinformatics TB
+CDMA Reference Blockset
+Communications Blockset
+Communications TB
+Control System TB
+Curve Fitting TB"
+,me_himself,2006-05-23T19:31Z,"Database TB
+Filter Design TB
+Financial TB
+Fixed-Point TB
+Fuzzy Logic TB
+Image Processing TB
+Instrument Control TB
+LMI Control TB
+Mapping TB
+MATLAB Compiler
+MATLAB Web Server
+Mu-Analysis and Sythesis TB
+Neural Network TB
+Optimization TB
+Partial Differential Equation TB
+Real-Time Workshop
+Robust Control TB
+Signal Processing TB
+Signal Processing Blockset
+Simulink Control Design
+Simulink fixed Point
+Spline TB
+Stateflow
+Statistics TB
+Symbolic Math TB
+System Identification TB
+Wavelet TB
+License Manager"
+,gugamare,2006-08-19T01:50Z,Does any one have just the license file for this torrent?
+,michaeka,2006-09-30T11:50Z,The license.lic file does not contain your_host_name as stated in readme_lic.txt. Why? Could anyone give a extremely detailed explanations on how to use the included license files?
+,MrTelemark,2006-10-03T16:14Z,"Thanks! Installation is not trivial on Mac OS X. Eventually though... However, I cannot get any of the toolboxes to load.
+
+Matlab will start fine without the license manager, but without toolboxes. A few times I've gotten the lm to start (using ./lmstart -c license.dat) but it hasn't really helped. Any ideas on how to get the toolboxes working?"
+,james957,2006-10-04T09:29Z,"Basic Matlab works fine, but the toolboxes don't work.  I have to run:
+$  sh /usr/local/matlab7/etc/lmstart
+$  matlab
+
+and the toolboxes will load, but they will crash when you try to actually use them.
+
+Any suggestions?  license problems perhaps?
+
+thanks"
+,MrTelemark,2006-10-05T10:55Z,"Thanks!
+However, I had a hard time installing this on my mac (PB15), after much ado I got it working, but without the toolboxes... Perhaps it's easier on linux, perhaps it's just me? I would suggest downloading a more recent version, say R14sp2, which installs very smoothly, including toolboxes and all."
+,xthepoet,2006-11-10T06:16Z,"I'm trying to install it on FC4 and am getting a weird error:
+Setup aborted..
+The installer cannot be run when your current directory is on the CD. Change to the target MATLAB installation directory and rerun the installer.
+
+The steps I took were:
+1) copied the 3 .iso files to the computer, mkdir the /usr/local/matlab7/, copied license.dat to it
+2) did: mount -o loop -t iso9660 disk1.iso /mnt/iso/
+3) tried variations of install, ./install, sh install* &
+and got that error message
+4) did: install * /usr/local/matlab7 to copy over the files with changed permissions -rwxr-xr-x  (it for some reason didn't do the directories, so I copied those manually and chmod it)
+5) in /usr/local/matlab7/ I tried to run variations of ./install, sh install* &  but still got the same error as above.
+
+Any ideas? I'd really appreciate some help."
+,anuragsobti,2006-11-27T08:21Z,"Hey ! I accidently deleted the license.lic file. Could anyone supply me that please....I could have got it from the original .zip file that I downloaded from another website but I don't have that 1.11 GB file because I deleted that as well because my disk space is limited....I have MATLAB 7.0 for Mac OS X.....
+
+Thanks a lot in advance for the file and your time !"
+,anuragsobti,2006-11-27T08:22Z,"Forgot to write my email, here it is:
+
+anuragatames@yahoo.com
+
+Thanks !"
+,deadmoo,2007-05-19T01:45Z,"For a open source alternative to this, you should check out ""octave"".  It is mostly compatible with matlab."
+,deadmoo,2007-05-19T01:47Z,"download:
+http://www.gnu.org/software/octave/"
+,drorata,2007-07-04T00:32Z,"I didn't manage to install the software - any help will be great.
+
+drorata@gmail.com
+
+Thanks in advance,
+Dror."
+,tomciaaa,2008-02-11T17:57Z,"In case you guys are experiencing problems with simulink and alike, check this out: http://ubuntuforums.org/showthread.php?t=625939 P.s. I hate ubuntu but sometimes they throw good in info in their forums."
+,ktalebian,2008-05-14T16:50Z,"I install Matlab, but I can't run it! More specificly, it does not start, and it would not give any errors either!
+Im running it on Mac OS X 10.5.2
+
+Thanks!"
+,lmyao,2008-08-13T20:19Z,i also can not start matlab. anybody can give answers?
+,a_jani,2008-09-11T09:25Z,"After copy-pasting license.lic's contents and pressing Next, Installer crashes unexpectedly. Any ideas?"
+,petrache.alin,2008-10-24T11:50Z,Is there anyone here to tell me from where I can get the license.dat file?
+,quake1792,2009-03-17T20:59Z,I had to rebuild and can't find my license.lic file from the original zip file. Can someone send it to quake1792@hotmail.com. Thx.
+,LNX7,2010-09-27T03:55Z,"here is what I did (on Ubuntu 10.04); it works for my dell insiron laptop, although toolbox is not fully working still:
+"
+,LNX7,2010-09-27T04:04Z,"@xthepoet:
+
+for step 3), just to to /usr/local/matlab7 without copying any files to it except the license.dat, then use (for ubuntu 10.04)
+xxx:/usr/local/matlab7$ sudo /mnt/iso/install
+
+it works for me"
+,thelastblack,2010-10-08T16:23Z,"hi
+i have downloaded this and i have a question:
+do i have to write the 3 images on cd? cant i use ""mounter"" programs?
+i have ubuntu lucid(10.04) if it helps
+thx "
+,thelastblack,2010-10-08T16:49Z,"i have run installation but it gives error about license.dat
+it says :
+
+The TMW_Archive INCREMENT line in /home/vahid/matlab/etc/etc/license.dat license file is incorrect.
+Please make sure the TMW_Archive INCREMENT line is complete and accurate.
+
+so whats the problem?"
+,sknight,2011-09-18T18:51Z,"hi, the license file has expired on 21-jun-2011. anyone has a new one?"
+,f_2_o,2011-10-24T12:27Z,"@skinight
+i had the same problem but unfortunately nobody helped :(
+
+good news is i found out this one works with R14 under unix:
+http://thepiratebay.org/torrent/6230945/MATLAB_R2010b_License
+
+download it and put it under etc/ folder inside the main Matlab folder. it works!"
+,dldl2002,2011-11-13T19:45Z,"Hi  sknight  &  f_2_o,
+
+I am having the same problem with the license.dat. 
+It said the license expired.  I am using Mac OS and I don't know how to get it work on my Mac.  Would you help me please.  Thanks a lot."
+,n370n370,2012-03-28T23:31Z,greetings!

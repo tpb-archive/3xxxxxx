@@ -1,0 +1,22 @@
+Release...........: XBox Media Center 1.1.0
+ CVS/Compile Date..: 2005-10-02
+ Compiler Versions.: XDK 5933, Visual Studio .NET 2003
+
+ Skins.............: Project Mayhem III
+ Visualisations....: 7068 Milkdrop Presets
+ Scripts...........: XBMCScripts (Graphical Script Installer)
+ Other.............: Project Mayhem III style webserver interface by KanadaKid
+
+ Notes.............: Some might appreciate the fact that the NSIS installer
+                     makes a few components optional.
+                     Either way the LZMA compression reduced the size of your
+                     download. ;)
+
+ Changelog.........:
+
+ - 02-10-2005 added: Movies & Genres found in Locked bookmarks are hidden from
+                     My Videos Genre View until unlocked from My Videos Files 
+                     view
+ - 02-10-2005 added: Movies found in Locked bookmarks are hidden from My Videos
+                     Title view until the bookmark is unlocked from My Videos
+                     Files view

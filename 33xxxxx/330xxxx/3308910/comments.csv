@@ -1,0 +1,137 @@
+﻿User Type,Username,Date,Text
+,connykanon,2005-03-30T11:07Z,"hur gör man för att installera denna xp på en amd2600+ barton med 2*80gb sata?blir nåt error..har sata och raid driver på diskett..ska den sitta i samtidigt som man bootar om med dvdn?eller hur gör man?
+mvh från en som inte e ett datageni :("
+[T],TheSkaffer,2005-03-30T11:15Z,".
+När setup börjar (xp-setup) tryck ner F6, det står att du kan göra det. Men var beredd för Du har bara sekunder på dig.
+
+När F6 väl är nertryckt känner Windows av att du vill mata drivisar, så du får upp möjlighet att göra det. Lite senare.
+
+Kommer nog själv att få göra det strax...;)"
+[T],TheSkaffer,2005-03-30T11:16Z,"Tack Delta...nog hängde jag med, men förenklingar är välkomna..."
+,DeltaTeam,2005-03-30T12:34Z,"Har bara fixat iso'n så den får plats på en DVD,resten är nowarez bit...det fattar jag inte ett skvatt av..
+"
+,Zlap,2005-03-30T17:10Z,"DeltaTeam, en fråga, har du/ni tagit bort några program eftersom du har sänkt från  ~4.8 till lite drygt ~3.6 GB? Låter som du har gjort mer en bara komprimerat? Kan säga att ""ED"" står för Editon va?"
+,Zlap,2005-03-30T17:12Z,förlåt 3.12 GB. :)
+,DeltaTeam,2005-03-30T18:09Z,"
+Tjossan alla !!
+
+Nej jag har inte tagit bort några program alls från denna version som sagt då kanske inte installationen funkar som den ska... Optimerade den med UltraIso..som är väldigt enkelt..
+
+Har själv testat denna DVD o den funkar SUPER.
+
+Tacka nowarez inte mej.. Har bara packat denna !!
+
+DeltaTeam Corp Sweden"
+,Zlap,2005-03-30T20:03Z,"Men hur har du fått ner den över 1.5 GB, nått måste väll ha försvunnit eller är den bara super komprimerad?"
+,inges,2005-03-30T21:54Z,"Kommer du å lage denne i Windows XP Pro SP2 i en NORSK version,???"
+,rakadtjej,2005-03-30T22:34Z,Seeda snälla :D
+,connykanon,2005-03-31T00:18Z,"okej..men ska man ha sata driverdisketten i från början då eller,när man startar datan?ska man sen sätta i xp skivan och boota om igen,eller mrnar ni att man ska trycka f6 när man satt i xpskivan,då den kollar maskinkonfig.....  :)  jag e som sagt helt borta vad gäller datorer,men kul att lära sig nytt....
+tack för att du/ni tar er tid..."
+,Zlap,2005-03-31T10:39Z,Nu har fått ner iso filen - Funkar det klockrent?
+,cdx873v,2005-03-31T11:09Z,kewl med xp och alla fina program på en dvd!
+[T],TheSkaffer,2005-03-31T15:47Z,".
+Där e en grej som verkar knepig
+
+WXP Setup hittar diskar och allt (SATA) så det verkar ju funka, men sen verkar den hänga sig med rutan 
+""Unattended DVD...etc"" -
+--Följande objekt installeras:
+> Reg Tweak (går igenom)
+> Välj ut dina program som skall...
+...där står den, och dialogrutan är inte större än att texten nätt och jämt får plats...
+Har stått så nu i en timme...he...
+
+Nån aning någon...?
+
+(skall testa med att slänga in SATA drivisarna i alla fall, de kanske behövs när gränssnittet går igång)"
+,zewmah,2005-04-01T01:34Z,"conny: det står i installationen när du ska trycka på F6 (precis i början av DOS-läget iaf). Tänk på att det inte ""syns"" om du tryckt på F6! Tryck sedan i disketten, när Windows uppmanar dig trycker du ""S"" för att installera en SCSI/RAID/SATA-drivrutin, trycker retur (när disketten är i floppyn) för att installationsprogrammet ska läsa av disketten. Sedan väljer du RÄTT drivrutin (OBS! Kontrollera NOGA!), och sedan retur igen för att fortsätta installationen.
+
+Det är lite taget ut minnet - och jag har hunnit få i mig 6 öl eller så, men jag är rätt säker på att det stämmer ;).
+
+Lycka till, det är djävligt lätt bara man trycker på F6.
+
+Jajustdetja, ska du installera på en RAID så måste naturligtvis RAID-arrayen vara skapad installationen kan påbörjas, men det är ju rätt självklart."
+,zewmah,2005-04-01T01:36Z,"Ett litet snabbt tillägg bara, du bootar SJÄLVLART med WinXP-dvd'n (hur hade du tänkt du få igång en windowsinstallation från en drivrutinsdiskett? hihi ;) ).
+
+Du kommer bli uppmanad att stoppa i disketten med drivisarna på av installationsprogrammet, stoppa i den när du får den anvisning för att undvika trubbel."
+[T],TheSkaffer,2005-04-01T08:14Z,..
+[T],TheSkaffer,2005-04-01T13:49Z,".
+OK fel på EN fil i mappen wpi nämligen wpi.cmd.
+Den är OK i ISO:n så det är väl bara att skylla på ""freak incident"" att den blev korrupt på skivan. Faen, vilket besvär.
+
+Bränner med Nero 6, i fall det nu skulle ha nån betydelse..."
+[T],TheSkaffer,2005-04-01T17:59Z,"Gjorde om skivan. Tycks ha varit min ""noname"" dvd som strulade. Tog en TDK och nu fungerade det."
+,OlCo,2005-04-01T21:26Z,"går ej att instalera, efter jag instalerat SATA-RAID drivisar från disketten. Installationsprogrammet seger:se till att Windows-skiva i cd-läsare och det går inte att läsa från diskettlässaren, men det fungerar med alla andra Windows-utgåvor, varför går inte med dena DVD-utgåva????
+Blir galen snart HJELP någon snälla."
+,connykanon,2005-04-02T00:20Z,"hej igen!
+bara jag igen som hade problem med sata..testade att trycka F6,blev ombedd att sätta i disk och installera sata/Raid..gjorde det...men det gick inte ändå...kommer upp Si3112r.sys går ej att kopiera eller nåt sådant..testade med enter igen,men samma meddelande..och man kunde hoppa över den filen genom att trycka esc,så jg gjorde det,då kom det upp går ej kopiera SiwinAcc.sys    tog då esc igen och då kom det går ej kopiera Si3112r.inf
+när jag hoppat över dessa 3 filerna började filer kopieras till installationsmapparna,sen när allt va kopierat klart så skulle man vänta medan windows intieteras och datorn startades om,och när den startat upp så kom det ett meddelande direkt som löd:
+ett fel uppstod och windows har stängts för att förebygga problem med din dator,är det första gången det händer så testa starta om datorn,händer det igen så bör du utföra följande steg.
+kolla om datorn har virus.ta bort alla hårdiskar eller hårdiskstyrenheter som nyligen installerats.kolla att hd är rätt konfiguerad och  monterad.kör CHKDSK/F för att kolla om hd är skadad,starta sedan om datorn.
+Teknisk info:0*0000007B(0*F894D528,0*0000034,0*00000000,0*00000000)
+så vad kan det vara för fel?
+jag har inget virus,har rätt drivers till min sata,hd är inget fel på och ej nyinstallerad..
+Min xp jg laddat hem funkar klockrent på min bärbara,men får inte in det på denna datorn.jag har nu fått köra in en ren xp pro och det fungerar..
+men vill ju ha denna special xp istället..
+
+mvh"
+,DeltaTeam,2005-04-02T12:21Z,"Till alla er som laddar denna (fixade iso) iso..stoppa det..
+blev några error i installationen som ni kanske har sett/märkt...
+
+Gjorde ett försök i alla fall..
+
+[nowarez] får nog fixade det där till nästa gång så vi slipper (J****s) han som kan o vet !!!
+
+
+"
+,OlCo,2005-04-02T13:58Z,Hej CONNYKANON jag har samma fell med diskettstationen och drivisar bara du beskrev de bättre en jag TACKAR så har någon en bra svar hur man fixar det ???????????????????????????????????????????????????????????????????????????????????????????????????
+,OlCo,2005-04-02T14:02Z,"Har testat både Novarez-vertionen och den-fixade åkså, men sama fell händer hella tiden.... Vad är fellet?????????????????????????????"
+[T],TheSkaffer,2005-04-03T10:28Z,".
+@Delta...1...>>>
+
+Jo det kan nog stämma. I mitt fall tror jag att en billig DVD ställde till det, men sedan såg jag bland annat at Adaware fanns 3-4 gånger i Kontrollpanelen, och lite annat.
+
+SATA(ans) STRUL ?
+Om Ni aldrig behövt mata drivisar vid XP-setup tidigare är det kanske inte så konstigt att det strular. LÄS tidigare poster för de skriver (hyfsat) rätt.
+
+@ DELTA...2...>>>>
+Ni skall veta att mitt system är uppe och kör, med er iso. Utan alltför stora problem än de jag kanske vållat själv.
+
+Det är alltså inte en kass distro...:D"
+[T],TheSkaffer,2005-04-03T10:34Z,".
+Vill förresten bara lägga till att Acronis TrueImage som medföljde är en riktig HÖJDARE. Nästintill perfekt gränsnitt och faen va enkelt att följa.
+
+Tål att upprepas :
+@Delta, er iso är INTE helt kass."
+,DeltaTeam,2005-04-03T21:20Z,Hehe det värmde gött !!!
+,sonett84,2005-04-05T14:30Z,"hejsan! ja e svag på sånt här men har hållt på me datorer litta savlnat kunnande nu, hur fanken bränner man nu denna?! och hur startar man den i en dator som saknar oprativsystem, man kunde skriv typ d:setup.exe o trycka enter men de står cdboot failed insert system disk and press enter... e min flikkas dator ja ska fixa... e de nåt speceiellt man ska göra.... please hjälp en här.... //mvh marcus"
+,chefren,2005-04-05T23:37Z,"Har ett annat problem. Försöker installera på en bärbar Acer Aspire 1362LC. XP börjar installationen men det hänger sig snabbt då den inte hittar usbehci.sys, sen kan inte installationen fortsätta. Filen finns som usbehci.sy_ i I386-mappen som den ska så det verkar märkligt. Kollat lite på nätet men inte hittat en lösning än. Någon som vet något?"
+,Blex,2005-04-09T00:07Z,"Det här är nog det bästa jag laddat ner på sistone.
+Fungerar helt suvärent.
+
+Tyvärr inte lyckats boota det som RIS instalation på Server2003. Vet någon hur fixa detta?"
+,DeltaTeam,2005-04-11T09:55Z,"
+Hejsan pojkar o flickor !! :)
+
+Jag försöker att komma till rätta med denna iso,och letar fel på denna.. !!
+
+Dessa fel har jag hitta hittils..
+
+1.Fanns 2 st Adobe/setup filer som den klaga på(så 1 ska bort.
+-----------------------------------------------------------------------
+
+Till er som inte får denna att boota
+
+Har ni kollat i ert bios så cd'n läser först ?? F2 under uppstarten av burken.... kolla sedan under Boot i menyn ovan..
+
+Har ni rätt CD i ??
+
+------------------------------------------------------------------------
+DeltaTeam Corp.
+
+THE END
+:CONSOLE"
+,teea,2005-08-12T23:14Z,fungerar uppdate på den här 
+,Exentrik_,2006-03-28T15:17Z,Nowarez: herligt om du kan lage Norsk versjon.  
+,Shadow4ever,2006-04-10T14:33Z,"HERREGUD!
+jag installerade precis v.6.02 built 18 (nowarez)
+Herregud säger jag bara, nowarez du är KUNG!"

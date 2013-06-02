@@ -1,0 +1,42 @@
+Nyeste Executer 3 bios, kan se den er efterspurgt nemlig..;)
+
+X3 3108 v16plus.bin is for v1.6/v1.6b Xbox Versions.
+
+For Support help and advice please visit www.teamxecuter.com
+
+Make sure you read all included info on x3_script.ini and also x3skin.ini
+
+We will not reponsible if you mess up your Xbox - always read instructions
+
+04/11/2005
+Team Xecuter
+
+
+[3108]
+	system:
+	-------
+	- fixed: Debug mode problems
+	- fixed: Faulty titles on the keyboard on some places
+	- fixed: DVD firmware output
+	- fixed: Changed default keyboard colors to something more attractive
+	- fixed: Keyboard font colors
+	- fixed: Keyboard placement when menu has a noncentered location
+	- fixed: Quicklaunch bugs 
+	- fixed: Video mode quick change
+	- added: Made background transparent while keyboard is enabled 
+	- added: Kernel build into x3data.txt
+	- added: MacAddress to xbox info (for testing x3 doesn't change mac on the xbox)
+	- added: Screenshot capabillities now in all areas
+	- added: 3 New Default Skins in the rar file
+	
+	skins :
+	-------
+	- fixed: Skinbug that caused skin to crash if it couldn't find ini file
+	- fixed: Skinbug that occured if skin was packed inside a subdir
+	- fixed: Crashbug if space after ; in skin's ini file
+	- fixed: Bug where last line of skin.ini doesn't get read if no enter to terminate the line
+	- added: Default X3 skin to skinlist
+
+	ftp:
+	----
+	- fixed: Some PASV issues, should solve a lot of crashing experiences.

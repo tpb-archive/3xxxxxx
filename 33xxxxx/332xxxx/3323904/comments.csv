@@ -1,0 +1,27 @@
+﻿User Type,Username,Date,Text
+,FloggerX,2005-05-01T13:27Z,"vilket skämt ?
+
+Mös och modem funkar okey på serie-portar 0.112Mbit och usb1 är 12Mbit och usb2 480Mbit så som nån överklockning skulle behövas.
+
+Virus / Trojan / fake ware / spy ware
+Nåt av detta är troligen detta program. "
+,tinywiz,2005-05-01T13:33Z,"Inte för att jag har prövat just detta programet.
+
+Men du borde kolla upp fakta innan du skriver något sådant.
+
+Utan att kunna exakta siffror så är följande fakta.
+En normal USB porto pollar ""kollar"" efter musrörelser max 120 ggr / sekund. En överklockning gör att du kan komma upp VÄLDIGT högt... kanske runt 200 ggr/sekund.
+Detta ger en jämnare musrörelse än annars, dvs en överklockning med positivta effekter. Dock så är det inte alla moderkort som klarar av detta och i värsta fall så kan det gå riktigt illa ;)
+
+-> Teknikfreaks kan korrigera siffrorna <-"
+,FloggerX,2005-05-01T14:00Z,"Om detta program gör vad du säjer. Så handlar det långt ifrån att överklocka nåt, Man korrigerar drivrutiner hur ofta den läser av usb porten.   12Mbit som Usb1 har bandbredd skulle räcka att läsa av musen hundra tusen gånger i sekunden om så skulle behövas.
+
+Sen vad USB2 som har 480Mbit i bandbredd klarar kan du ju gissa. Finns nog knappt folk kvar med usb1. 
+
+Enda förklaring till att nåt sånt här skulle funka skulle vara att USB standaren innehåller några rikigt grova buggar. Vilket den kanske gör vad vet jag.
+
+Men på pappret så finns det absolute inget behov av och överklocka usb portarna."
+,demme,2005-05-02T05:12Z,"Skippa högstadie datalektionerna nu va ;P Nej man ÖVERKLOCKAR inte usb-porten. Detta program gör att man kan ändra lite på antal läsningar / sekund precis som någon sa. Och det har inget med mbit/s att göra, det är precis lika många läsningar / sekund på usb1/2."
+,NeZzDK,2005-05-04T19:03Z,Normally windows is set to 125 FPS on  the USB port with some tweaking you kan bring it up to 500 FPS and that gives a sensative mouse and that makes it easy'er to do the Pixel aiming :-) 
+,Verdenz,2005-05-16T13:28Z,that's what I mean.. Normally in windows the usb samplerate is limited to 125Hz and this tool tweaks it to max 1000Hz :) And it doesn't absolutely contain any fakes or viruses/malware or that kind of sh*t..
+,cooolsoon,2011-05-03T13:37Z,din fitta varför ni ljuger när ladda ner den det va bara vir

@@ -1,0 +1,69 @@
+﻿User Type,Username,Date,Text
+,edelhert,2005-07-23T07:59Z,"Hi! Nice torrent.
+Have you got an unlock code?"
+,Nilsen,2005-07-23T14:06Z,You don't need a unlock key to Metroguide.
+,consensus,2005-07-24T12:58Z,"Thanks, but when I try to burn the ISO file #1 to a CD I get an error message stating that the disk does not match the source disk. When I try to burn it on a DVD I get the same thing.
+
+Any solution?"
+,Atomas,2005-07-26T04:38Z,"I can burn no problem using NERO .On my side the instalation bugs when need inserting disk 2 , it does'nt reconise disk 2 , it keep asking PLEASE INSERT DISK 2.     Any idea anyone"
+,jelaitin,2005-07-30T15:06Z,"This covers whole Finland?
+Not only southern areas?"
+,jelaitin,2005-07-31T17:24Z,"I try to burn ISO-image file with Nero, I get only message: ""Sorry, This is not a valid Nero disc image file""
+Solutions?"
+,Nilsen,2005-08-01T20:00Z,"If you have problem with burning this ISO image, use : http://www.daemon-tools.cc/dtcc/portal/portal.php"
+,kurtkow,2005-08-02T13:13Z,so i downloaded alcohol and daemon tools and im trying everything but im kind of new at this can you please post the steps after you download the isos thanks nilsen
+,roelbiker,2006-01-23T21:37Z,"Im also ha the problem
+
+"" the instalation bugs when need inserting disk 2 , it does'nt reconise disk 2 , it keep asking PLEASE INSERT DISK 2.""
+ Any idea anyone 
+roelbiker"
+,gotglasses,2006-01-24T13:53Z,Same problem -2nd disc not recognized. These are not ISO files.  Something missing in Disc2?
+,gotglasses,2006-01-26T06:05Z,"OK - now I got it - Do not UNRAR the RAR files, just open / mount them up in Alcohol120 and it will burn the disc properly."
+,nicost,2006-02-26T09:17Z,eh
+,nicost,2006-02-26T09:18Z,"This is how to upload locked maps to any compatible garmin gps:
+
+You will need the following programs:
+Sendmap20
+http://cgpsmapper.com/download/sendmap20.zip
+GPSMapEdit
+http://www.geopainting.com/en/#last
+Winrar or Winzip
+
+It is not very difficult to do, but still it has some complications.
+Forgive me my english, im learning it!
+
+1)Download the maps (Mapsource City select North America, or Europe, or Metroguide, or City Navigator or similar)
+2)Install it
+3)Download Sendmap20 and GPSMapedit and extract the zips to any folder you want.
+4)Open Mapsource and choose the maps you need and remember more or less on which part of the big map they are.
+5)Open GPSMapedit and go to the file menu and select open."
+,nicost,2006-02-26T09:20Z,"6)Open xxxxxx.tdb located were mapsource is installed. Usually C:Program FilesMapsource.
+The xxxxxx.tdb are different for the differents versions of maps. For example for North America City Select version 5 
+the file name is nacsv5.tdb"
+,nicost,2006-02-26T09:22Z,"7)When you open this file you will see vaguely the shape of, for example, USA in the case of North America maps, or
+you will see vaguely the shape europe in the case you are using maps form this continent."
+,nicost,2006-02-26T09:23Z,"8)Zoom the area you are interested and compare it with the maps in mapsource. You should start seeing some numbers, 
+for example 00063856.img "
+,nicost,2006-02-26T09:23Z,"10) Copy on a piece of paper the numbers of the maps you are interested on sending to the gps (this part is boring)
+11)Now open sendmap20."
+,nicost,2006-02-26T09:23Z,"12)Press the Add Maps button, and browse to the mapsource directory. There you will see a some files and 2 or more folders.
+One of the folders is USB_Drivers, the other would be the folder containing the maps files. In the case of North America City 
+Select is NACSV5. Open this folder and you will see a lot of files. The files you should see should be something 
+like 00063856.img Select from the list the files with the numbers you wrote before, and click open. "
+,nicost,2006-02-26T09:24Z,"13)Plug your gps to the computer. Then click the Upload maps to Gps, and thats it.
+
+
+Note: You may need yor gps drivers. Download them from www.garmin.com"
+,nicost,2006-02-26T09:24Z,"In the case of the iQue, instead of pressing the upload maps button, click on the Create GPSMAPSUPP.img A file will be 
+crated. Save this file on C:Program FilesPalmXXXXXCardInstSlot-SD. The xxxxx is a folder that varies. The next time
+you make a Hotsync, it should upload your maps. I never tried this last thing, but i think it works."
+,nicost,2006-02-27T01:04Z,"***************************************
+SORRY, THIS WORKS FOR OLDER VERSIONS OF METROGUIDE. 
+****************************************"
+,SunyJim,2006-04-28T01:19Z,"This was really good, also had nero burn trouble. Worked fantastic with Alcohol 120%
+http://thepiratebay.org/details.php?id=3468294"
+,kanderas,2006-11-05T05:19Z,"Pleas post the complete Registry Key for
+Mapsource.Metroguide.Europe.7
+
+thx
+K."

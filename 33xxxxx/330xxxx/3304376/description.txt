@@ -1,0 +1,9 @@
+BitComet is prolly the best bittorrent client around but has recently been
+banned from many private bittorrent trackers for sharing peers over them.
+Is it justified ? prolly yes. We hope BitComet author will try to combine
+both efficiency and security in future BitComet versions. 
+
+But in the meanwhile we want to go on using our beloved BitComet. So here
+are some peerID spoofing patches that make BitComet announce itself as
+other famous bittorrent clients : Azureus v2.2.0.2, BitTornado v0.3.7 or
+official BitTorrent v4.0.0 -> No more ban for BitComet!

@@ -1,0 +1,13 @@
+﻿User Type,Username,Date,Text
+,Myusername,2005-07-21T00:52Z,"Sounds cool, thanks."
+,Frank_Bach,2005-07-22T04:02Z,Please seed this one!
+,BeOSDano0,2007-10-11T04:29Z,"This is one of the ""must have"" UFO documentaries. The background behind the making of it is unusual, in that the US Air Force and the Pentagon were the ones who approached the producer to make it for them, and allowed unprecendented access to government personel during filming. There is a short clip at the end that supposedly is real footage of a UFO that landed at Holloman AFB in 1971. Google ""Holloman UFO"" for a most intriguing story!"
+,shuffler,2008-08-09T15:49Z,"Don't agree with everything Vallee says -  although many in the UFO/exopolitics community worship him for some reason, but this is well worth a watch.
+"
+,miensch,2009-01-28T12:47Z,"Video: DIVX 576x432 24bpp 29.97fps 1260kbps
+Audio: MP3 44.1kHz 2ch s16le 128kbps
+Runtime: 1:30:07
+
+Not the best quality but watchable. The video should have been deinterlaced and maybe deblocked before encoding (e.g., mencoder -vf pp=fd/ac). The audio has a constant and irritating noise at some frequencies above 8kHz that maybe should be been filtered out, but if your playback software includes an equalizer, the noise can be muted (e.g., mplayer -af equalizer=0:0:0:0:0:0:0:0:-12:-12).
+
+Thanks a lot! :)"

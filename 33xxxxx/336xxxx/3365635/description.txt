@@ -1,0 +1,18 @@
+DVD REBUILDER v0.93
+DVD Rebuilder is designed to be used as a method of backing up DVDs. This program was built to bridge the gap between the incredibly easy but limited 'one-click' solutions and the incredibly complex but high-quality methods of DVD ripping and backup.Another advantage of DVD-RB when compared to older methods is that it doesn't require access to an expensive authoring package. DVD-RB includes its own reauthoring engine that reconstructs the DVD in a way compatible with its original design.
+---
+additional description:
+What's new
+? Found and corrected a long-time vexing error that could cause "Buffer Overflow...0003" and "Buffer Overflow...0004". This is very likely the root of some of the "preprocessing" errors that have been reported -- and was accentuated in DVD-RBs "Movie and Menus Only" mode. This one was truly difficult to pin down. My thanks to Carpo, t3rror, and Numer0bis for helping to nail this elusive error.
+? Fixed an error in which the TMAP tables were not being updated correctly for Interleaved and/or Angled sources. This may have caused errors in random access into those sections.
+? Corrected a source of possible "Runtime Error 9" that could happen when IFO and VOBs aren't in agreement about ILVU. This conflict may happen during PREPARE when certain types of preprocessing have been done).
+? Changed output directory format. Now in the designated output dirctory a subdirectory is created called "DVDFILES". The AUDIO_TS and VIDEO_TS folders are created under that name. This is meant to help avoid confusion and assist in future enhancements by consolidating all files that should be written to the DVD within a single directory.
+-----------------------------------------------------------------------------------
+Cinema.Craft.Encoder.V2.70.02.00-Crd
+Cinema Craft Encoder is a fast, production level software MPEG-1/-2 encoder developed for the non-linear editor. AVI and QuickTime files are quickly compressed to high quality, MPEG-1 for CD-ROM or internet or MPEG-2 for DVD. Supports Constant Bitrate (CBR) and Variable Bitrate (VBR) encoding, inverse 3:2 pulldown and much more! Plug-in for Premiere.
+-----------------------------------------------------------------------------------
+Video Guide
+Step by step instalation + configuration (DVD REBUILDER & CCE) + encoding DVD9 to DVD5.
+-----------------------------------------------------------------------------------
+Guide
+Guides form doom9.org & dvdguides.trilight.net

@@ -1,0 +1,29 @@
+﻿User Type,Username,Date,Text
+,Hednoize,2005-04-12T22:15Z,e denna mycket bättre än vanliga surreal64? har du märkt skillnad? hörde att de va annat gui?
+,PerPonken,2005-04-13T07:55Z,"Ska seeda denna då jag kommer hem för Piratebay var grymt slött igår kväll...
+
+Provade en hel del spel från StonerMan´s release *tackar* och fann att de flesta spelen funkar bra. I denna har du 3st emulatorer i en. Bra va? =)"
+,Frezzno,2005-04-13T09:11Z,"Much better even if it's only beta.
+
+You need to run it from HD to get these features:
+
+1. Remembers the last emu you used per game.
+2. Controller settings saved per game.
+
+Other then that you get better graphics and sound. "
+,wilner,2005-04-15T14:39Z,Does anyone know how to get Zelda: Majoras Mask to work on this emulator? If it's even possible.... =(
+,Frezzno,2005-04-15T19:51Z,"Yes I play it a lot. Use 1964 or the first emulator on the menu. First I thought it didn't work but it takes a while before the intro shows plus the intro is black at the beginning with some mystic sound.
+
+Also some roms can have broken zips so if you can unzip then at least you know there's nothing wrong with the rom."
+,Frezzno,2005-04-16T00:29Z,"I finally got it! You can run eather Surreal64 or Beta2 from HD and use StonerMans iso in the DVD-drive.
+
+Edit surreal.ini
+Change rom path to a:...->where StonerMan put the roms folder, eg a:roms .
+
+If you gonna compile a new iso then do NOT put roms on the root directory. It will NOT work. You must put them in a folder.
+
+If you run Surreal64 then the folder must be named ""roms"".
+
+If you run Beta 2 then the folder can be named anything.
+
+Hope this helped."

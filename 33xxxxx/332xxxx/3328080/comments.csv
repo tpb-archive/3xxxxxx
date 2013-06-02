@@ -1,0 +1,48 @@
+﻿User Type,Username,Date,Text
+,Ssargon,2005-05-09T12:26Z,Om denna kommer upp på top fem så ska jag dansa naken utomhus! :-)
+,rjwman,2005-05-09T17:08Z,Excellent . . . ran the bugfix and working beautifully! 3 cheers from downunder!
+,mog,2005-05-09T19:31Z,is something similar availble for the PC owners??
+,Ssargon,2005-05-09T19:43Z,"mog: Not as such, but you should have no trouble adapting this to Konfabulator (http://www.konfabulator.com/)with a little javascript knowledge :-)"
+,Ssargon,2005-05-09T19:43Z,"mog: Not as such, but you should have no trouble adapting this to Konfabulator ( http://www.konfabulator.com/ ) with a little javascript knowledge :-)"
+,ses,2005-05-09T21:05Z,"how about making a widget that gives the results in the dashboard (like the wikipedia widget), and filters out everything but the results (the ads and that big ship)"
+,Ssargon,2005-05-09T21:11Z,"ses: Interesting idéa. I´ll look into it!
+
+I dont know how hard it is or how long it will take but its a nice idéa. :-)
+
+Let me see if I can make it first."
+,ses,2005-05-09T21:41Z,I'll race you ;)
+,Ssargon,2005-05-09T22:42Z,"ses: then you will probably win since I need to make another widget first :-P
+
+Good luck if you decide to :-)
+
+If not I will begin later in the week."
+,bugmenot1,2005-05-10T10:56Z,You guys phricken rock! Thanks!
+,Ssargon,2005-05-12T00:16Z,"Okay, the new widget is comming along. I have the results of a search displayed almost like I want them. :-P
+
+Alot of work still needs to be done thou and after that I need to redo the graphics as well. :-)"
+,Ssargon,2005-05-12T15:18Z,"Så här ser det ut just nu: http://img14.imgspot.com/u/05/131/08/Bild1.png
+
+Första versionen blir nog en sån stor widget tyvärr! Jag är ingen hejjare på att parsa html mha regex i javascript tyvärr...
+
+Jag har fortfarande lite problem med att få länkarna man klickar på att gå till extern webbläsare (pga att jag måste parsa dom mha regex i javascript, inte kul alls).
+
+Någon med lite erfarenhet i regex som känner för att hjälpa till lite? Skicka ett meddelande bara."
+,fjerkon,2005-05-12T16:10Z,Ser mycket lovande ut! har tyvärr inga skills på... det du sa... men jag hjälper gärna till om det är nåt. bara o fråga. =)
+,ses,2005-05-13T16:40Z,"looks real good
+I'll stop trying now since you are doing it much better :)"
+,Ssargon,2005-05-13T16:56Z,"If anyone have any idéas of making it better than the image I posted just post and tell me about it.
+
+I am making progress in understanding regex, but now I need more skills in making the widget work the way I want it, so now its purely a javascipt problem. It seams like the widget system have some limitations in calling the webbrowser from a built-in browser window (such as the one in the widget).
+
+I´ll keep on working on it as I have now solved a bunch of problems realting to searches when dealing with several pages of results. :-)"
+,Ssargon,2005-05-14T13:00Z,"Its comming along nicely!
+
+I have almost finished now and there seams to be no bugs left, but I have to test some more. I am thinking about the next update and wondering if you have any new idéas?
+
+The feature I am planning is making it an option whether to display the full search result or just the filenames in the widget. This is mainly because the widget is a bit large now and widgets should be small and streamlined.
+
+What are your opinions?"
+,shypys,2007-05-02T19:16Z,"seed please, ffs its been downed 1378 times, and got 5 stars too."
+,Ssargon,2007-11-02T00:51Z,"The reason its not seeded is that it stopped working when they remade the page two years ago.
+
+If I get some time over Ill fix it."

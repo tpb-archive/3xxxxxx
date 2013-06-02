@@ -1,0 +1,19 @@
+iPod shuffle Database Builder
+=============================
+
+This release contains multiple versions of the program:
+  rebuild_db.py     - a Python script for almost any platform (RECOMMENDED)
+  rebuild_db.exe    - a standalone Win32 console application (DEPRECATED)
+
+Please use the Python version, because it is the only one that is actively
+developed, and it has a lot more features compared to the Win32 version.
+
+To use the Database Builder, copy rebuild_db.py to your iPod's root directory
+and start it, e.g. with a double click in Explorer or Finder.
+
+Additionally, this archive contains rebuild_db-win32.src.zip, which is an
+archive of the C source code for the Win32 version (compile with lcc-win32).
+
+
+For any other details regarding the software, please visit the webpage at
+  http://shuffle-db.sourceforge.net

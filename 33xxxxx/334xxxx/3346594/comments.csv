@@ -1,0 +1,109 @@
+﻿User Type,Username,Date,Text
+,GasGiver4711,2005-06-20T18:36Z,"""Based on how much effort it would be to find and eliminate these duplicate presets, I decided to leave them.  If someone wants to try to hunt them down, they are welcome to!  Just let me know which ones they are ;-)""
+
+Hi Kevin
+first of all THX for these and the G-Force presets!
+They both will be incorporated in my next build.
+
+Here are the Presets that should be deleted because they appear 2 or even 3 times (based on a CRC32 binary comparison.
+
+If you delete these files there will still remain the 1 ""correct"" Preset. Hope u understand what i mean, Im German ;-)
+
+How it was done (if you care):
+Made an SFV of all Presets
+Made small changes to SFV file
+Imported SFV file into Excel
+Saved as SFV#1.csv
+Killed all duplicates or ""triplicates"" with a Macro
+Saved as SFV#2.csv
+Generated a DIFF file with WinMerge
+Cleared up the DIFF file a bit
+
+There you have it:
+
+-Aderrasi - Contortion (Egg of Time)
+-Aderrasi - Deathstar (Stardeath)
+-Aderrasi - Ghast (Quarter-Ghast)
+-Aderrasi - Anomalous Material Science (Pure Splinter Mix)
+-Aderrasi - Contortion (Escher's Tunnel)
+-Aderrasi - Storm of the Eye (Thunder)
+-Pinbi7 & Fvese - Unknown 
+-Pinbi7 & Rovastar - Liquid (De-Orbit Remix)
+-Rovastar & Illusion - Grand Odyssey Mod
+-Pinbi7 & Fvese - Definitly Not For The Epileptic 1
+-Aderrasi - Ashes Of Air
+-Aderrasi - Aimless (Gravity Directive)
+-Aderrasi - Aimless (Spirogravity Mix)
+-Aderrasi - Causeway of Dreams (Point Mix)
+-Aderrasi - Ghast (Fabrication)
+-Aderrasi - Anchorpulse (Pulse of a Ghast)
+-Pinbi7 - Rock Around The Clock
+-Aderrasi - Wavechaser (Winter)
+-Aderrasi - Monoid
+-Eo.S._Phat Whale_soul
+-Aderrasi - Where Wind Weaves (Slow Mix)
+-Unchained - This Time With Feeling
+-Aderrasi - Snowstorm Dimension (Colored Mix)
+-sysRq & Idiot24-7 - Rotor Attempt (Remix)
+-Idiot24-7 - Alternating Wave (Border Mix 1)
+-Pinbi7 & Idiot24-7 - Rock Around The Clock (The Hands Of Time Mix)
+-Esotic - Raven Myst
+-Fvese - Split
+-Aderrasi - Discordia (Orbkin)
+-Aderrasi - Aimless (Unique and Beautiful)
+-Pinbi7 & Che - Definitely Not For The Epileptic (Inner Perspective Of Life Mix)
+-Esotic - Slit
+-Aderrasi - Wavechaser (Summer)
+-Idiot24-7 & Rovastar - Better Off Alone 2
+-Aderrasi - Demon Light (Reverse Prime 7)
+-Aderrasi - Matter Heart (Slowed Mix)
+-MStress & Lightspeed - Flying Dandelions
+-Aderrasi - Arise! (Padded)
+-Unchained - Tricks Gone Psycho
+-Aderrasi - Stranded (Melee)
+-Aderrasi - Ghast (Wall)
+-Unchained - Mental Hemlock
+-Aderrasi - Negative Sun III
+-Unchained - Freefall Multiplexing
+-Aderrasi - Quantum Variants
+-Aderrasi - Snowstorm Dimension (Around the Fire)
+-Aderrasi - Turning Form
+-Krash - interwoven (nightmare weft)_Phats_Maybe_Ill_Go_To_A_Party
+-Pinbi7 & Fvese - Definitly Not For The Epileptic 3
+-Aderrasi - Arcade Planet (invisible twin)
+-Aderrasi - Antidote (Aqualung)
+-Aderrasi - Wanderer In The Snow
+-Aderrasi - Storm of the Eye (Fog)
+-Aderrasi - Bound Sound (Second Round)
+-Aderrasi - Ashes Of Air (Strings Mix)
+-Aderrasi - Wavechaser (Fall)
+-Aderrasi - Snowstorm Dimension (Shatter Mix)
+-Aderrasi - Snowstorm Dimension (Shatter)
+-Aderrasi - Ghast (Rigged Mix)
+-Aderrasi - Aimless (Unique and Beautiful Glazier) 
+-Aderrasi - Negative Sun IV
+-Aderrasi - Ghost Empire
+-Aderrasi - Variants of Eternity (Slow Dance)
+-shifter - escape the worm - Eo.S. + Phat More responsive edit blarg
+-Bmelgren - Hmmm
+-Aderrasi - Negative Sun II
+-Aderrasi - Elastoid
+-Esotic - Purple Restarting
+-Spookytay - Flames
+-Aderrasi - Ghast (Full Circle Mix)
+-Aderrasi - This is not my Shift (spheroid)
+-Aderrasi - Brakefreak (Scream)
+-Rovastar - Omnipresence Resurrection (Raw Mix)_Phat_test
+-Aderrasi - Wavechaser (Spring)
+-Aderrasi - Bitterfeld (Condensation)
+-Aderrasi - Bitterfeld (Crystal Border)
+-Aderrasi - Brush (It's just your Eyes)
+-Aderrasi - Brush (You're Seeing Things)
+-Aderrasi - Nightscape
+-Aderrasi - Brakefreak (Cry)
+
+There also is a ""file.dat"" file in your release which seems to be a Preset without a correct name.
+
+GasGiver"
+,KevinSartori,2005-06-20T19:49Z,"Wow, nice work!  In my next update, I'll definitely delete those duplicates.  It never occurred to me to use .sfv to find them.  Awesome job, dude.   You rule!"
+,GasGiver4711,2005-06-21T23:12Z,@Kevin & All - http://thepiratebay.org/details.php?id=3347187

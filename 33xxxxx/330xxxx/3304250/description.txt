@@ -1,0 +1,45 @@
+Saft is a Safari plugin to extend its features with sidebar, searchable history and bookmarks, full-screen browsing, type-ahead searching, customized Google Search field, URL shortcuts and kiosk mode. Features include:
+• Add bookmark folder here and add bookmark here in every bookmark menus
+• Add title, timestamp, URL and page number when printing
+• Always open browser window in tab
+• Auto save and restore opened browser windows at quitting and start
+• Block HTML refreshing in front-most browser
+• Back/Forward in contextual menu
+• Block images and plugins
+• Bookmark search
+• Bookmark this group of tabs
+• Control-1 to 9 to popup bookmark menu or open bookmark
+• Control-drag page
+• Crash protection
+• Customizable HTTP timeout
+• Customized Google search field
+• Do not allow scripts to bring tab to front
+• Enter/ctrl-enter to go to next/previous links (like in Google)
+• Extended search from contextual menu
+• External text editor support for TextArea
+• Full-screen browsing
+• Growl support
+• History search
+• Install debug menu
+• Kiosk mode
+• Max screen for normal browser windows
+• One-page PDF export
+• Open tab in new window
+• Option to use Aqua interface
+• Original URLs in Finder comments of downloaded files, exported PDFs and saved pages
+• Save and load browser windows
+• Separator in bookmark menu
+• Sidebar
+• Sort bookmarks in every bookmark menus
+• Type-ahead searching
+• Undo support in HTML TextArea and TextField
+• URL shortcuts
+• URL traverse with return-key
+• Workaround of click-through bug in WebKit
+
+What's New:
+Version 7.6:
+• Improvement: Search set to group shortcuts and search multiple search engines at same time
+• Improvement: Make Growl sticky flag customizable
+• Bug fix: Crash in rare conditions related to many undoes and switching on/off undo support
+• Bug fix: Problem with Reset Safari button in kiosk mode

@@ -1,0 +1,114 @@
+﻿User Type,Username,Date,Text
+,sonofdogboy13,2006-02-07T10:33Z,bag a' shite demo
+,JenaP,2006-02-21T19:22Z,This doesn't work any more.  Is there a new version or workaround?
+,Mikill,2006-03-23T00:37Z,"Does anyone know how to get this to work? It worked like the full version before I updated my mac os x software, but only to 10.3.9."
+,dijohn,2006-04-10T23:46Z,"The ""violation"" message is inevitable with this release (the result of very complex copy protection courtesy of ableton, which has frequent and random checks)--os version not a determinant. 
+
+Once the force quit is imposed, it's defunct.  As far as I know the only stable release of 5 on any platform thus far has been from H20, whom have not yet tackled an osx version.  :("
+,xenlab,2006-05-10T02:48Z,enter any serial and any response code to unlock.
+,GreyMatters,2008-05-28T00:46Z,"Ok, i just got the Copy Violation Error about the illegal key.  Seems to be an inherent problem, as I was surprised at first that my 5.2 UB was getting busted when 7 has been out for ages it seems.  Although this is how I got my 5.2 back up and running, it might/should work (except for the different serial #'s) for newer and older versions.   This is for Mac, no idea about PC except that you need to clean the registry.
+
+Ableton runs a checksum when you're computer is connected to the internet (must be fairly random b/c I've been running Live for 6 months and I'm always connected via wireless).  Ableton has sneaky Advanced TCP/IP.plist files hidden in the Preferences folder, and they are zero length too.  This is how i got it working again using info from various forums on the web.  Thanks to the genius of Voidet, Entomologist and PUNK-ska I got Live back fully running (and for good!) and hopefully you can too. 
+
+It should be noted that Ableton, when connected to the web, will catch the invalid key if the script is not correctly written.  To be sure you can always disconnect from the web before using Live, but that;s a hassle so the script is a perfect solution.  Following the other steps correctly will get Live up and running again, but it will only be a matter of time before Ableton runs a checksum and finds that its using an invalid key, yet again giving the  Copy Violation Error, crashing Live, and ruining the track you were currently working on.  Locking the ""unlock.cfg"" doesn't work, as it reports an error if you try to save a file.  But if the script is working, then the script will then stay open and every five minutes will call the Unix copy command 'cp' to overwrite 'Unlock.cfg' with the working cracked one, thus for that file defeating any counting/flagging mechanism.  I have it permanently running to re-copy the working cracked 'Unlock.cfg' file every 5 minutes - extremely low CPU usage too.  Make sure you are not connected to the internet.  After its working again, If you load files that have been saved with a (detected) cracked version, it will report back a Copy Violation Error and crash Live.  New files should work fine.
+
+1. First open up Terminal, found in your applications folder/utilities. Type (or copy/paste:
+
+defaults write com.apple.finder AppleShowAllFiles TRUE
+killall Finder
+
+*that is two commands*
+(this shows all files, including the hidden files, in each folder)
+
+2. Go to your home directory, then click on library, then Preferences.
+~/Library/Preferences/
+
+3. Look for a file that looks like ""Advanced TCP:IP 0000blahblahblah.plist"" and delete it.
+
+4. Delete the folder Ableton in the Preferences folder.
+
+5. Go back into Terminal and type (or copy/paste) these two commands:
+
+defaults write com.apple.finder AppleShowAllFiles FALSE
+killall Finder
+
+(this hides all the hidden files in each folder again)
+
+******Alternatively to #1-5:
+Run Terminal and type: 
+cd Library 
+cd Preferences "
+,GreyMatters,2008-05-28T00:49Z,"ls -al   (this will give you a directory listing of your preferences directory including hidden files)
+rm ""Advanced TCP/IP.plist""  (or whatever the files name is, to delete these, for as many files there are of that type as necessary, but it should be a maximum of two.  Make sure you have the double quotes for the file name as Unix takes names with spaces as parameters if unquoted).
+
+6. Go to ~/Library/Application Support/Ableton/Live 5.2/Unlock/Unlock.cfg
+and delete the file and the Unlock folder.
+
+7. Open Live. The procedure above should have reset your Ableton.  It should ask if you want to proceed in demo mode or enter a valid key. Choose to enter key.
+-enter this serial:
+
+4008-7527-B461-5C69-8A88-C075
+
+8. Choose ""Enter unlock code"" and enter the following code (yes, there are strange characters in there):
+
+link to unlock code because pirate bay won't allow special characters:
+http://forum.funkysouls.com/dump/f65t106012.html
+
+9. To unlock Operator, enter this serial:
+
+A407-7107-A71D-5764-5106-A196
+
+10. Again, select ""Enter unlock code"" and enter the following code:
+
+http://forum.funkysouls.com/dump/f65t106012.html
+
+11. There, so Live should now open fine.  A new ""unlock.cfg"" has been input and the dreaded Advanced TCP/IP.plist file(s) has/have been removed.  However, when connected to the net, Live is still susceptible to the Ableton checksum in the future.  
+
+***The only problem at this point will be that any Live files that are infected with the copyright file will not open correctly.  
+
+12.  Somehow the Copy Violation Error checksum also modifies the 'Unlock.cfg' when it saves files, possibly a counter.  I found an Applescript which copies over the 'cracked' Unlock.cfg back in every five minutes, thus resetting it.  The script will stay open and every five minutes will overwrite 'Unlock.cfg' with the cracked working version, thus defeating any counting/flagging mechanism.
+
+13. First of all, make a copy of the original cracked 'Unlock.cfg' file that is working fine to open Live, and paste it to any location other than Ableton's directory (I used my documents folder for simplicity).
+
+14. Open script Editor and enter this:
+
+on idle
+tell application ""Finder""
+do shell script ""cp '/{PATH TO THE COPY OF UNLOCK.CFG}/Unlock.cfg' '/Users/{YOUR USERNAME}/Library/Application Support/Ableton/Live 5.2/Unlock/Unlock.cfg'""
+
+end tell
+return 300   'Application' and set the checkboxes for 'Run Only', 'Stay Open' and if desired 'Startup Screen' (or choose to run script automatically on login, up to you, but I recommend for extra insurance).
+
+15.  Run the script to ensure it works.  Double-click the file where it was saved.  Select ""run,"" and if it doesn't report back any errors but remains open, it should be working properly.  "
+,GreyMatters,2008-05-28T22:46Z,"From the Ableton Website Forums
+Topic:  Copyright Protection Can't Use Live 7 but I Paid!
+
+Tue Mar 25, 2008
+User1: "" Since 2 months now I a have a problem with Ableton 7 that I purchased
+from the Ableton Website. Everytime I start the Program I get Message from Live saying ''A Copyprotection Violation has been identified. Please
+contact...'' and I cant use the program!  I tried reinstalling and installing Live 7.2 with a new Unlock Key and it worked for about 2 weeks. Now again the Message comes and I cant use Live. I tried the same again but it still doesnt work.  Thats really bad since I use Live for producing, djing and many more...
+and I paid for the Software! Ableton support doesnt even know what to do and leaves me with the problem.Thats not fair!!!""
+
+
+User2: ""So what did Ableton support say, specifically?""
+User3:  ""A couple of weeks ago I started live after a crash I think and it came up in demo mode!!!!  I had to authorize it again which worked but WTF?
+
+User1:  ""To User2: The support asked me for the serial number, what they can check on my acount all the time if they want Confused
+and then they said that I should use the beta version.
+But it didnt fix the problem!!!  To User3:  Same here, it happend after a crash and since then its fucked!  I think everyone should know that with Ableton there are many problems like that!""
+
+User4:  ""Im having the same problem. Support gave me a new serial to use after telling me to trash the unlock file and reinstall, which fixed it for a few days. It started happening soon after i started using a plugin called Lucifer by Devine machine. Are you using the same plugin by any chance?""
+
+User5:  ""The same thing happened to me with Live 7.0.3 and 7.0.2 during a basic session. A window poped up Ă  la ""a copy protection violation has been detected"". After some email correspondence with the support I deleted all the preferences and unlocked Live 7 again. Since then it worked without a problem, although i am still feeling very uncomfortable about this whole thing.
+
+The biggest problem is the way the copy protection worked (at least in my case): With the copy protection message coming up the audiostream IMMEDIATELY stopped and there was no way to save the current set. Imagine this to happen during a gig, what a horror. You have to fiddle for over half an hour to get things running again -> a night/business ruined.
+
+This never happend with Live 6 which i am still using to play live. No way i am using Live 7 for live action if Ableton can not guarantee that the copy protection works as it should.""
+
+User4:  ""This also happens on Live 6 im afraid. I was advised by support to do the same ""delete preferences and unlock file, delete and reinstall Live"". The problem returned within an hour. The latest thing i've been told is to reinstall Leopard doing an ""archive and install"" as it might be related to a corrupt user profile. I gig every week so im screwed if this doesn't solve it.
+
+the people its happen to are you all on Mac's? What version OS are you using? I was on 10.5.2 when this was happening. i've since heard there's issues with 10.5.2. Back to 10.5 at the minute. fingers crossed.""
+
+User5:  ""happened with winxp sp2 and live 7.0.3 & 7.0.2
+
+i did swap the cpu 2 months before it happend but neither did i have to reauthorize nor did the the challenge code change so it can't be the cause of the copy protection error."""

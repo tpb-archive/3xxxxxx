@@ -1,0 +1,79 @@
+UnleashX V0.38.0501 Build 562
+Version:	0.38 Build 562
+Status		Alpha
+Release Date:	05/01/2005
+
+*Fixed	Freezing in Game Saves Manager when downlading or trying to download a game
+	save file.
+*Fixed	Can't transfer 0 Byte to/from FTP Server
+*Fixed	Can't trasfer to/from FTP Server any filename with unicode characters
+*Fixed	File manager and FTP client doesn't correctly display filenames containing
+	characters above ASCII 127.
+*Fixed	FTP Server halts to a slow when more than one client is transferring files
+*Fixed	FTP client can now connect to EvolutionX FTP Server
+*Fixed	FTP Site editor only accepts/stores up to 20 characters for the address.
+
+*Fixed	Bug in ISO9660 Disc parsing routine
+*Fixed	Booting the dash from Drive G over writes its configuration file
+*Fixed 	Xml parser fails to parse an xml document if a comment element contains ">"
+
+
+
+*Added 	Formating option directly from the file manager. Just highlight the drive
+	then select Format. Disabled for Drive C, E, F & G. Use an script for that.
+*Added	Formating of Memory Unit. Use the file manager to do this. Uninitialized 
+	memory unit, including those FAT/FAT32 formatted MU, can now be formatted.
+*Added	Audio CD playback capability. Leave the Audio CD Software Player option 
+	blank to use the dash for playback.
+*Added	Ability to play MP3 and WAV (wma is still experimental) files directly from
+	an ISO9660 disc. Use the file manager to select your audio file.
+*Added	Fully skinable Music Player front end. See this XBS link for more info:
+		http://forums.xbox-scene.com/index.php?showtopic=382746#
+*Added	Capability to localize some text and messages via external xml file. This 
+	means that a lot of text can now appear in your favorite language.
+	See this XBS link for info: 
+		http://forums.xbox-scene.com/index.php?showtopic=335352&st=16#
+	Note: Not 100% of strings are localizable, yet.
+*Added 	Xbox soundtrack manager. The same usual stuff found in MS Dash. Copy, edit, 
+	rename, delete...etc, except CDDA to WMA or CD ripping.
+*Added	LED settings -See under system settings. You can now assign LED color 
+	when the following events occur: ScreenSaver, File copying, FTP Send, 
+	FTP Receive, FTP Boost, and when the system is busy doing background tasks. 
+	All LED combinations are available, flashing and alternating.
+
+*ADDED	Mapped right thumbstick to lower-right portion on screen calibration.
+
+*Changed	Picture slideshow screensaver is now random
+*Changed	Upgraded UnRar engine to 3.40
+
+
+
+
+-Improved Skinning support. 
+*Screen	items can now be stacked/ordered by adding the zIndex attribute, i.e., 
+	zIndex="5". Items with the same zIndex value will be drawn in the order they
+	are found. zIndex don't have to be sequential or continuous, meaning you can
+	use 1,2,3,5,8,10...n. This means that you can now draw in this manner: 
+		text, image, shape, text, text, image...etc. 
+	However, menu item is still on top of everything else.
+*Added	Fonts collection. You can now have a fonts collection and use them where 
+	they're possible. So, it is now possible to display Text items using different fonts. 
+	The Format is:
+		<Fonts>
+			<Font Name="MyFont">mycoolfont.xpr</Font>
+			<Font Name="MyOtherFont">whatever.xpr</Font>
+		</Fonts>
+
+	Then use them like this:
+		<Text Left="180" Top="142" Source="SongTime" Font="MyFont" zIndex="2" />
+
+*Added 	a few more items for text source
+	-SongTrack - concatenation of song and soundtrack 
+	-SongBitRate - Ex: 128 KBPS...etc
+	-SongLength - Ex: 5:12
+	-SongFrequency - Ex: 44.1KHz (Almost always)
+	-SongChannel - Audio CD, Stereo or Mono
+
+
+Live Update Server: 209.225.8.65/unleashx. Use this for the Server option as an 
+alternative server.

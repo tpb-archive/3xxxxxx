@@ -1,0 +1,86 @@
+Prop´n Speed 2005
+
+Prop´n Speed är ett Excelbaserat beräkningsprogram för båtar. Formelna är framtagna för båtar med en längd av ca: 4-7 meter.
+Att göra formler som stämmer för alla sorters båtar är en omöjlighet och därför fungerar det bäst på standard båtar(ej tävligs eller extrema båtar).
+Tänk på att det är ett teoretiskt resultat du får fram. Formlerna är baserade på uträkningar gjorda med standard aluminium propellerar.
+Programmet tar ingen hänsyn till om du har en stålpropeller eller har hissat motorn. 
+Formeln kan modifieras genom att ändra i PnS FTS. 
+
+Nyheter i Prop´n Speed 2005
+
+Start 2 är ett blad som kommit till för att du skall kunna fylla i data på din båt och motor, för att sedan kopiera det till alla beräkningar.
+En ny funktion för att söka vikt och utväxling finns också på denna sidan.
+
+PnS FTS låter dig manipulera formeln så att den bättre passar din båt. I dom flesta fall behöver man inte göra det, men skiljer sig din båt från
+ standardbåten, så finns möjligheten.
+
+Calculation sheet kan hjälpa dej att se var du har mest slipp eller förbrukar mest bränsle, beroende på propeller. Kräver egna uppmätningar.
+
+Databladet har fått ännu en funktion. Nu kan du se hur farten påverkas av antal personer i båten. Ett diagram finns också för detta.
+
+Oilmixing guide räknar ut hur mycket olja som skall i tanken vid olika % blandning. Räkna i US gallon eller liter.
+
+I Nautical Converter har Massa lagts till i konverteringen.
+
+Nu är det lättare att söka efter din motor i vår stora databas. Sök i den nya funktionen Gear Ratio searcher. Finns inte motorn där så leta i Gear ratio finder.
+
+-Propcalculator V4.2
+
+Gör enkla teoretiska uträkningar av fart,stigning på propeller och slipp.
+Fyll i dom gula fälten för att få fram resultatet.
+Om du inte vet vad din motor har för utväxling kan du leta i "Gear Ratio Finder/Gear Ratio Searcher"
+Ett stort antal nyare motorer finns listade där.
+
+
+-Speedcalculator V4.5(swe) V4.3(eng)
+
+Här fyller du i info om båtlängd, motoreffekt, vikt, slipp och vartal i dom gula fälten.
+Du får en beräkning av teoretisk toppfart och lämplig propellerstigning.
+En ny funktion är "motorstyrka max eller under". Har du max rek. motorstyrka på båten skall
+rutan vara ikryssad. Om du däremot har 10-20% under båtens max rek. motorstyrka så klickar du ur den.
+
+
+-Power Needed 1.1
+
+Här kan du se hur mycket effekt du behöver på din båt för att uppnå en viss fart.
+Fyll i dom gula fälten eller tryck på knappen "kopiera från Speedcalculator"
+Obs! Utväxling, slipp och varvtal kopieras inte!
+Du får nu fram hur mycket effekt som din båt behöver för att uppnå X antal knop.
+I rutan under är en uträkning med +/- 10% på HP gjord.
+
+Vill du få fram en teoretisk stigning på propellern fyller du i varvtal, slipp och utväxling.
+
+-Nutical Converter
+
+Omvandlar ett antal olika enheter. T.ex Meter till Feet, knop till miles mm.
+
+-Gear Ratio Finder
+
+Här hittar du data på ett stort antal utombordare.
+Vet du inte vikt eller utväxling på din motor skall du leta här.
+Börja med att leta upp ditt märke genom att klicka på pilen under rubriken "märke".
+Fortsätt senare med typ av motor, fyrtakt, tvåtakt osv.
+
+OBS! Har du data på motorer som inte finns listade i Gear Ratio Finder? 
+Skicka dom till oss, helst i en Excel fil. Så lägger vi in dom.
+
+-Gear Ratio searcher har samma funktion som "finder", men det är lättare att söka och data kopieras in i alla beräkningar om så önskas
+
+-Datablad
+
+Här har vi försökt att få en bättre överblick hur motorstyrkan påverkar farten. Du kan se vad farten blir om
+ du drar ner på effekten ett visst antal %. Du kan även snabbt se vad en större motor skull ha för påverkan på farten.
+ Tänk på att ta med den eventuella ökande motorvikten i beräkningen för att få ett så korrekt resultat som möjligt.
+Naturligtvis kan man köra formeln neråt också, minska motorvikten och du ser hur farten påverkas.
+
+-Skriv ut
+
+Inte mycket att tillägga. Vill du skriva ut resultatet finns det en sida för detta.
+
+Ev. felaktikheter i t.ex "Gear Ratio Finder", buggar eller tips på förbättringar tas
+tacksamt emot.
+
+Förhoppningsvis kommer filen att ligga på en hemsida inom en snar framtid.
+Vill du lägga upp filen på din hemsida, kontakta oss först.
+
+E-post:propn_speed@hotmail.com

@@ -1,0 +1,16 @@
+﻿User Type,Username,Date,Text
+,nitdawg1,2006-01-22T22:57Z,I'm having trouble opening this file and I have win-RAR. can i have instructions?
+,chitonj,2007-07-24T15:36Z,"Stupid question, but I've been scouring looking for this and can't find it. Even though it is old, can someone post an Exchange 2000 ISO? 
+
+No crack or serial needed, I have that, just need the install media to reinstall. Thanks!"
+,share2,2008-01-17T16:15Z,Kan anywone upload Microsoft Exchange Server 2003 Sweduish??
+,Milice,2008-05-09T19:27Z,is this x32 or x64?
+,cryptor7,2008-12-18T16:07Z,"Its for x86, it will _NOT_ install properly under x64, even with WOW64. Exchange needs to install a 32bit driver (IFS)."
+,abletonlive05,2009-01-10T11:32Z,"if its for Its for x86, doesnt that refer to the type of processor. i havent installed it, said i need windows 2000 or better. "
+,NightWing{s},2009-02-10T16:55Z,"x86 refers to the 80x86 family of processors; all of which are 32 bit. This probably will not install on any windows older than 2000 pro, it should be good on 2K(pro, server), xp (possibly all), server 03 and 08 as well as possibly all flavors of vista "
+,cryptor7,2009-06-26T22:15Z,"Mmh, x86(87) refers to an instruction set. It is implemented in hardware (processor) AND ""talked"" by software (Windows and Exchange Server in this case). Indeed, many 64bit capable processors provide an x86 mode. But the clou is, HOW the ""OS configures the processor"" ! So all inferior code shall meet the requirements for the current mode (aside from configurable special capabilities like virtualization). It will be x86 on an AMD64 capable processor if you boot a 32bit Windows setup. Especially, the drivers compatibility to the OS is mandatory (IFS in this case).
+Conclusion: The IFS driver binary consists of x86 instructions."
+,razu2444,2009-09-06T16:36Z,"can some1 tell me if this is the standard edition?
+
+btw, i will be seeding this if all goes well."
+,ex_pat3,2010-04-30T10:04Z,And the point of password protecting the file is?

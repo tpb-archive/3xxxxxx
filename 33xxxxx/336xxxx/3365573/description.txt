@@ -1,0 +1,47 @@
+FoR Those Who Has Playstation 2,Turn It Into  A Audiovideo Jukebox
+
+
+08.02.05 - The PS2Reality Media Player Pro has been released!!
+
+
+Quicklist of new features: HDD, MASS, CDDA, and MP3Station integration,networkstream(mp3,avi,internet radio,jpg)
+
+A very nice surprise, and it seems that I once again have the job of updating the site. (After thinking that the player was dead....man we all got Punk'd.) During the next week or so, I will try to be updating all the necessary parts of the site, but it may take longer due to my busy schedule. If you guys have anything to submit for the MPPRO, go ahead and do it. For help for the new player, please visit our forums. Thanks for visiting, and remember to keep checking back for more updates!
+
+
+Supported format
+Video Mode
+
+Video MPEG4-ISO (like xvid)
+Audio MP3, OGG (mode 1, mode 1+), PCM and AC3
+
+Audio and video should be in AVI format. (Don't Work with OGM)
+
+Audio Mode
+
+Audio files : MP3,MP2,CDDA.
+
+Image Mode
+
+Image files: JPG
+
+
+
+Visit English Site : http://www.ps2r.tk/
+Visit Spannish Site:http://www.ps2reality.net
+
+
+
+This is package include(It's all you need)
+1.)include usbd.irx from naplink so that usbmass support is turn on
+2.)mcloader_1.35 +cdgenPS2 3.0(iso creation cdda ...etc)
+3.)MPEG4Modifier-To modify avi movie of  high resolution 640x480,730x400, kindly tick unpack bitstream(disable B-frame ) to avoid jerky or lagging movie.
+                           After that save the modified avi file.
+                          -This application is good  to modify your avi, without rencoding 
+                          -Recently I was able to play " Hitch " (730x400) without lagging or jerky....I have experimented more than 30 title of movie
+                          which concluded that Ps2realitypro Mediaplayer does not support with b-frame very well on high resolution.
+4.)CDMAGE- Cdimage checking Tool
+5.) 2 cd-image ready to burn for use
+    a) Normal ps2realityproFull- Strip off version without mcloader 1.35  and ogg player .
+    b.)ps2realityprofull+Mcloader1.35- Full + mcloader 1.35 
+

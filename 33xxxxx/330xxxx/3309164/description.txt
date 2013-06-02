@@ -1,0 +1,295 @@
+			 ÜÜÜÜÜÜÜÜ                                               
+                      °ÜÛ  °±° ° ÛÜ°                                            
+ ÜÜÜÜÜ °ÛÛÛÛÛÛÛÛÛÛÛ²°°Û  ß±°° °±ß  Û°° ÛÛÛÛ°  Ü  ÛÛÛÛ  ÛÛÛ² Ü   °ÛÛÛÛÛÛÛÛ°      
+   ²±  °ÛÛÛÛÛÛÛÛÛÛÛÛ°Û ° °° °  °  ° Û° °ÛÛÛÛ°   °ÛÛÛ°  ÛÛÛÛ  °ÛÛÛÛÛÛÛÛÛ²ÛÛ      
+   ±       °²ÛÛÛ°   Û °±°  °° °  °±° Û  °ÛÛÛÛ° °ÛÛÛ°   ÛÛÛÛ °ÛÛÛÛÛÛ° °ÛÛÛÛ°     
+        °   ²ÛÛÛ    Û  ° °±    ±° ° °Û   °ÛÛÛÛ°ÛÛÛÛ    ²ÛÛÛ ÛÛÛÛÛ°              
+    ° °±±°° ÛÛÛÛ   °Û°°±   °  °  °±° Û°   °ÛÛÛÛÛÛÛ°    ²ÛÛÛ ÛÛÛÛ°     °°°°      
+     °±²±±° ÛÛÛÛ ° °Û±° ° °±°°± °° °±Û° °  °ÛÛÛÛÛ°  °  ÛÛÛÛ ²ÛÛÛ   °±±±±°±°     
+  ° °±²²±   ÛÛÛÛ    ßÜ°    °±±°    °Üß  °  °ÛÛÛÛÛ°  ±° ÛÛÛÛ ²ÛÛÛ    °°±°±±±     
+   °±²±±²°  ÛÛ²Û °  °Û ßÛÛÜ °° ÜÛÛß Û° ±  °ÛÛÛÛÛÛÛ°    ÛÛÛÛ ÛÛÛÛ°  °  ° °±±     
+   °°°°±°±° ÛÛÛÛ    Û  °ÛÛÛÛ  ÛÛÛÛ°  Û   °ÛÛÛÛ°ÛÛ²Û° ± ÛÛ²Û ÛÛÛÛÛ°  °    °°     
+   ±   ° °  ÛÛ²Û  °  Ûß     ÛÛ     ßÛ   °ÛÛÛÛ° °ÛÛÛÛ°  ÛÛÛÛ °ÛÛÛÛÛ°             
+   Û  °     ÛÛ²Û °±° ° Û° °ßßßß° °Û °  °ÛÛÛÛ°   °Û²ÛÛ° ÛÛ²Û `ÛÛÛ²ÛÛÛ°°ÛÛÛÛ°     
+  ±Û±       ÛÛ²Û °±±°  °Û° °±±° °Û°    ÛÛÛÛÛ  °  ÛÛ²ÛÛ ÛÛ²Û  °ÛÛÛ²²ÛÛÛÛÛÛÛ      
+ ±ÛÛÛ±      ÛÛÛÛ  °±±°  Û±° °° °±Û     ÛÛÛÛ° °±° °ÛÛÛÛ ÛÛÛÛ    °ÛÛÛÛÛÛÛÛÛ°      
+  ±Û±                   °ßßÛßßÛßß°           ²                                  
+   Û        ±±±±                   °  °±±²±°²Û² °±±±±±° °±±    °±±±±±±±±±°      
+   ±       °°²±°°       °±±±±±±±°      °±Û±±°² °±²±±±° °°²±   °±±²±° °          
+         °±±±±²±±±° ° ±°±±²²±±²±±°±°    ²Û²±±±±±²±°     ±²°° °±±²²±±   °        
+     °±°°±±±²²²²±±±°±°  °±±±²±±±°     °²ÛÛÛ²°  °±±±±±°  ±±°   °±±±±±±±±±±°°     
+ ÜÜÜÜÜÜ  °°°°°°°°°° Ü °  °°°°°°°   ° Ü  ²Û±   ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ±ÜÜÜÜÜÜÜÜÜÜÜ  
+                                                               °±²Û²±°          
+                 -= ToxicBIOS v1.3 Release =-                   °±²±°          
+                                                                 °±°                                                                             
+Introduction
+============
+
+ToxicBIOS is a third party flash upgrade for the DMS4 Lite and Pro modchips by
+Team Toxic. Our goal is to provide a host of features which DMS4 owners deserve,
+but are sadly lacking in the factory default "legal" flash. Thanks to the 
+superior hardware design of the DMS4 series chips, we have been able to create 
+a freeware flash replacement which will unlock your modchips full potential 
+and enable your console to do things you have only dreamed of :)
+
+Current features provided by ToxicBIOS are as follows:
+
+- Auto-detect and non-swap booting of all disc types (PS2, DVD, PSX, etc)
+- Support for DVD+R dual layer media
+- Compatible with all PS2 models V1-V12
+- Dev.olution mode (from memory card and HDD)
+- DVD region free, Macrovision removal and green screen fix for the DVD player
+- Auto-ATAD patching for HDD-enabled games
+- Fast boot mode for PS2, PSX and DVD movies
+- Support for the HDD browser upgrade on a non-Sony HDD
+- Set default boot mode to: Normal, MC/HDD Dev.olution, Fast Boot
+- Playstation 2 game video fix (Colour Carrier, PAL, NTSC, PAL60), with
+  automatic y-position correction
+- Playstation 1 game video fix
+- Enable MegaMemory memory cards without the need for the boot disc
+- Configuration menu where various settings can be manipulated
+- "Toxic" logo displayed at the PS2 logo screen
+- When booting from Dev.olution mode or Fast Boot, games use correct language
+- Modchip disable mode, for online gaming
+- Support for the Codebreaker cheat device
+- 100% boot rate
+- Much, much more to come!
+
+*****************************************************************************
+NOTE: All HDD related features are unsupported on the PStwo (V12) console for
+      obvious reasons ;)
+*****************************************************************************
+
+Detailed Feature Overview
+=========================
+
+-> Dev.olution mode
+
+   Using Dev.olution mode you can boot applications from either the memory
+   card or hard disk drive. When booting in MC Dev.olution mode, the ELF file
+   "mc0:/BOOT/BOOT.ELF" is launched. This ELF file can be anything you want, 
+   such as DMS Explorer, PS2Menu, PS2OS etc. To boot in MC Dev.olution mode
+   either hold down TRIANGLE on controller 1 while the PS2 is booting, or
+   set default boot mode to MC Dev.olution in the configuration menu. Currently
+   the only application which can be launched with HDD Dev.olution mode is
+   DMS HDD Explorer. Once HDD Explorer is installed, you may boot in HDD
+   Dev.olution mode by either holding down START on controller 1 while the PS2
+   is booting, or set default boot mode to HDD Dev.olution in the configuration
+   menu.
+
+   NOTE: From ToxicBIOS v1.2 and up you must use DMS HDD Explorer v1.3 or
+         greater. Older versions are no longer supported.
+
+-> ATAD auto-patching
+
+   When ATAD auto-patching is enabled, you can connect a non-Sony HDD to your
+   PS2 and use it as though it was an official Sony drive. You will be able
+   to install and use the HDD browser update (found on the HDD utility disc) on
+   a non-Sony HDD, and you will be able to partially install some games with
+   HDD support to improve performance.. even though this is a bit pointless
+   with the existence of HDLoader ^_^
+
+-> Fast boot mode
+
+   Fast boot mode allows you to skip the redundant "swirling electrons" and
+   various logo screens and directly load your PS2/PSX game or DVD movie as 
+   soon as you turn on the console, saving valuable time which would be better 
+   spent gaming. To use fast boot mode, either hold down SELECT while the PS2 
+   is booting or set default boot mode to fast boot in the configuration menu. 
+
+-> DVD+R dual layer media support
+
+   Until now it has been impossible to play DVD9 games backed up onto dual
+   layer media on the PS2 due to a problem with reading from the second layer
+   because the data format on burnt DL discs is different than on pressed
+   discs (burnt = OTP, pressed = PTP). However, we have discovered a software
+   hack which enables the PS2 to read even burnt OTP discs meaning it is now
+   possible to make backups of dual layer games such as GT4. ToxicBIOS includes
+   an "auto-patching" mechanism which applies this patch on the fly. The
+   auto-patcher is disabled by default, to enable set "DVD+R DL Support" in
+   the settings menu.
+
+   NOTE: Unfortunately due to software restrictions the auto-patching will
+         not work if you boot your DL backup from the updated Sony browser
+	 stored on the HDD. If you are using the updated browser then in
+	 order to play your DL backups you must boot them with fastboot. 
+	 If you are not using the browser update then there are no
+	 limitations regarding how you can boot DL backups.
+
+-> Default boot mode
+
+   Using the configuration menu you can set the default boot mode to one of the
+   following: Normal, Fast Boot, MC Dev.olution, HDD Dev.olution. If you do not
+   manually specify a boot mode while the PS2 is booting by holding down a
+   button on controller 1, the default boot mode will be used. For example if
+   the default boot mode is set to MC Dev.olution, when you turn on the PS2
+   without holding down any buttons on the controller, your MC Dev.olution
+   application will be loaded from the memory card. If you then wish to boot
+   normally (i.e.: boot through standard browser) hold down CROSS on controller
+   1 while booting to over-ride the default boot mode.
+
+-> Playstation 2 game video fix
+
+   There are 4 different modes for the PS2 video MODE fix, as described below:
+
+   - Colour Carrier: The colour carrier of the video signal is changed to
+     match the region of your console.
+   - Force PAL: Video mode forced to PAL (50hz), regardless of what video mode
+     games try to set.
+   - Force NTSC: Video mode forced to NTSC (60hz), regardless of what video
+     mode games try to set.
+   - Force PAL60: Video mode forced to PAL60, which is 60hz with PAL colour
+     carrier.
+
+   In addition to the PS2 video MODE fix, you can also enable the PS2 video
+   Y-POS fix. The y-position fix is used in conjunction with the PS2 video
+   MODE fix in order to correct the vertical position of the display. For
+   example, simply focing PAL when a NTSC game is running will generally result
+   in the display being far off center. The y-position fix corrects this and
+   centers the display. Please note that the y-position fix is not available
+   when the PS2 video MODE fix is off or set to Color Carrier, since in these
+   cases the video mode is not forced so the display position will not need
+   to be corrected. Please note that the y-position fix feature should still
+   be considered EXPERIMENTAL and has been known to cause problems with a few
+   games. If a game isnt working, disable the y-position fix and see if this
+   helps.
+
+   You can configure the PS2 video MODE and PS2 video Y-POS fixes in the
+   configuration menu.
+   
+-> Configuration Menu
+
+   The configuration menu is used to manipulate various ToxicBIOS settings, for
+   example enabling or disabling ATAD auto-patching. The configuration menu also
+   displays useful information about your PS2 system and DMS4 modchip. To enter
+   the configuration menu, hold down SQUARE on controller 1 while the PS2 is
+   booting.
+
+-> Disable Mode
+
+   When playing online games it is often necessary to disable the modchip so you
+   do not get a DNAS error while connecting to the online game server. To
+   disable DMS4, hold down L1 on controller 1 as the PS2 is booting. You will
+   see a message saying that the modchip has been disabled. Insert your game and
+   reset the console - the modchip will not be disabled and will stay disabled
+   until the PS2 is placed in standby.
+
+-> Codebreaker cheat device support
+
+   The more recent codebreaker cheat devices include a protection system which
+   is designed to detect the presence of modchips and prevent the application
+   from working on a modified system. ToxicBIOS bypasses this protection and
+   allows codebreaker to work properly, however you must first set
+   "Auto Tray Eject" to OFF in the options menu.
+
+Boot-time controller mapping
+============================
+
+When the console is booting, holding down certain buttons on controller 1 will
+activate certain modes/features. These are listed below:
+
+   CROSS    - Use standard boot (over-ride default boot mode setting)
+   TRIANGLE - MC Dev.olution mode
+   START    - HDD Dev.olution mode
+   SELECT   - Fast boot mode
+   SQUARE   - Load configuration menu
+   L1       - Disable modchip
+
+How to Install
+==============
+
+Installation directions vary depending on boot method:
+
+- ELF boot: Simply execute the ELF using your favorite loader application 
+  (PS2Menu, PS2Link, Naplink, PS2OS, LaunchELF etc) and follow the on-screen 
+  directions.
+
+- CD boot: Simply burn the BIN/CUE provided, boot the disc and follow the
+  on-screen directions.
+
+Frequently Asked Questions
+==========================
+
+Q: Can I disable the "Toxic" logo displayed under the Playstation 2 logo when
+   booting PS2 games?
+A: Yes. Set "Display Toxic Logo" to NO in the configuration menu.
+
+Q: Why do I get the "TV system doesn't match" error while trying to play a
+   DVD movie?
+A: You will be presented with this error if you attempt to play a PAL movie on
+   a NTSC console. This is due to a limitation in the DVD player software and
+   currently there is no way around this. We are looking into ways to fix this
+   and hopefully a fix will be included in a future ToxicBIOS release.
+
+Q: I have a feature request or bug report for Team Toxic. How can I contact you?
+A: We do not provide any contact details such as e-mail addresses etc, however 
+   we do monitor various "scene" forums so if you have a request or a problem
+   then just make a post and there is a good chance we will see it and take note
+   of it :)
+
+Q: I have a game which isnt loading or working prorperly. What can I do?
+
+   1) Disable y-position fix if it is enabled. This is still experimental and
+      has been known to cause problems with a few games.
+   2) Make sure that the game is burnt on good quality media at an appropriate
+      speed. If your PS2's laser cannot read from your disc, the game will
+      obviously not work.
+
+Change Log
+==========
+
+ 1.3 Release:
+ ------------
+
+ * Added support for DVD+R dual layer media, making DMS4 the worlds first
+   modchip to support dual layer backups.
+ * Fixed devolution mode with MM16 cards
+ * Fixed booting PSX games which do not have SYSTEM.CNF
+
+ 1.2 Release:
+ ------------
+
+ * Fastboot can now also load PSX games and DVD movies
+ * Improved authentication logic which leads to significantly improved boot 
+   rates on consoles with poor lasers
+ * Codebreaker cheat devices are now supported
+ * Manual y-position fix toggle and gui enhancements added to configuration menu
+ * Progressive scan while PS2 video fix enabled is now working
+ * Added support for DMS HDD Explorer v1.3. Older versions are no longer supported.
+ * Other minor bugfixes and code cleanup
+
+ 1.1 Release:
+ ------------
+
+ * Progressive scan is now working in games and the DVD player
+ * Macrovision removal is now working properly
+ * Fixed problems with some games caused by the y-position fix
+ * Fixed problem preventing applications being loaded from within DMS Explorer
+ * Fixed problem preventing some recent games such as Athens 2004",
+   "Spyro: A Hero's Tail" from working.
+ * Disable screen is now displayed correctly when using component video cables
+
+Group News
+==========
+
+Team Toxic is also working on a patcher for DVD9 games which will allow you
+to patch the disc image so it can be burnt onto DVD+R DL media and used with
+any modchip. The effect is similar to the auto-patcher already integrated
+into our flash except the patch is applied before the disc is burnt and not
+as it is loaded.
+
+However, we had to question if this was a good idea when we learnt that
+certain modchip manufacturers have been planning to rip our DVD+R DL patching
+code since it was originally announced, long before the actual ToxicOS release.
+We have decided to still release this for the good of the scene however - but
+if you see DVD+R support appear in other modchips in the near future please
+keep in mind where this came from originally :)
+
+Miscellaneous
+=============
+
+ToxicBIOS may be hosted by anybody, anywhere - PROVIDED that the archive
+remains unaltered and that it is not used in ways its not supposed to be!
+
+Oh, and props to the DMS team for making such a nice modchip - even though
+the flash they ship with the chip sucks and cant do much of anything :P

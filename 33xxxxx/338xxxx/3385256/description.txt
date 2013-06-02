@@ -1,0 +1,19 @@
+A small Java program for editing GIF file frame rate and loop number.
+
+USAGE:
+
+1 Make sure you have Java installed.
+
+2 Download gifeditor.jar
+
+3 Run command:
+
+	java -Xmx200m -jar gifeditor.jar <your_gif_file> <new frame delay in ms> <animation loop count>
+
+
+Example: java -Xmx200m -jar gifeditor.jar test.gif 10 1
+This will loop "test.gif" once when played, and show each frame for 10 ms.
+
+Note:
+	-Loop count 0 means that the animation will loop forever.
+	-If you get Java heap size error, allow more memory by the option -Xmx<java memory size in MB>m

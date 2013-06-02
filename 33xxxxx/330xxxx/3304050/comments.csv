@@ -1,0 +1,17 @@
+﻿User Type,Username,Date,Text
+,s_w_k,2005-03-20T19:55Z,"Hur gör jag för att installera?
+När jag trycker på setup så står det bara att systemfilen inte är lämplig för att köra DOS- och Microsoft Windows-program. Please help me :)"
+,ge5239,2005-03-20T21:52Z,"exakt meddelande ? testade precis min eget för att se så det inte var ngn korrupt sheit, fast det funkade finer.. :) 
+
+testa att högerklicka på setup.exe, välja egenskaper längst ner, kompatiblitetfliken där uppe och välja ngt os där, ska väl dock inte behövas, men testa duga.. 
+
+annars vet jag tyvärr inte.. förmodar att du kör winxp ? "
+,s_w_k,2005-03-20T23:22Z,"ja, jag har xp, och jag gjorde det du sa fast det funkar ändå inte. får väl ta att nöja mig med den gamla hederliga ordboken sok är tryckt på papper"
+,s_w_k,2005-03-20T23:29Z,"och det exakta meddelandet är:
+16-bitars Windows-undersystem
+C:/WINDOWS/SYSTEM32/AUTOEXEC.NT. Systemfilen är inte lämplig för att köra DOS- och Microsoft Windows-program. Välj stäng för att avlsuta programmet"
+,smygfot,2005-03-23T20:29Z,Sök efter filen AUTOEXEC.NT. den finns nånstans...kopiera sen in den i system32 mappen så funkar det gallant
+,naaleee,2007-08-16T19:53Z,"Men lösenorden i txt-filen är till andra program?!
+
+en stilla undran"
+,azi_khaq,2008-08-04T14:31Z,Seed plz!!

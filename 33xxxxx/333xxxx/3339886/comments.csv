@@ -1,0 +1,18 @@
+﻿User Type,Username,Date,Text
+,grifter_,2005-06-05T05:00Z,"if you used lavc, then you can include -lavcopts autoaspect"
+,majick_,2005-06-05T08:05Z,"I was using avidemux2.  Didn't know about lavc specifically.  Thanks.  I'll give that a shot next time.  I tried using mencoder and transcode, but the results were pretty bad.  My fault I'm sure, but there it is."
+,grifter_,2005-06-05T19:45Z,"aha, i thought you used mencoder for it, well after I had downloaded it I noticed it was xvid, so instead of -lavcopts you'd have to use -xvidencopts autoaspect
+
+i'm certainly no pro myself at encoding, i've shied away from it several times and let others handle it, do you know of a quick mencoder line to put in aspect scaling in your rip, and perhaps add a filter to deinterlace it aswell, it works on playback with -vf pp=fd, but i'd like to have the file itself deinterlaced"
+,majick_,2005-06-06T09:05Z,"I'm in the same boat as you.  It would have made my life so much easier if I could have used mencoder, but it and transcode have so many damn options I have trouble find the right settings.  In the end, avidemux2, with its gui was the only thing I could get any kind of reasonable output from."
+,grifter_,2005-06-06T09:55Z,"Well one way to fix the aspect is
+
+mencoder -oac copy -ovc copy -force-avi-aspect 16:9 -o newfile.xvid Charlie_Jade_108.avi
+
+But I don't know how to get it deinterlaced :("
+,Assion,2005-06-08T00:43Z,can somebody please post the last episode which has been broadcasted last saturday (109 - betrayal)?
+,yabosid,2005-06-09T14:49Z,"This one got the correct aspect ratio:
+
+[url=http://thepiratebay.org/details.php?id=3338655]http://thepiratebay.org/details.php?id=3338655[/url]"
+,yabosid,2005-06-09T14:49Z,"This one got the correct aspect ratio
+"

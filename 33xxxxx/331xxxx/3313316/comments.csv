@@ -1,0 +1,29 @@
+﻿User Type,Username,Date,Text
+,FBK_Ace,2005-04-07T22:02Z,"Nödvändigt att lägga upp, 4st kopier"
+,kug,2005-04-08T18:28Z,"Jag får detta meddelande ibland när jag spelar!!:
+
+No Label
+
+Crash Time: 04/08/05 18:21:58
+
+OS: Windows XP 5.1 (Build: 2600)
+CPU: GenuineIntel Unknown processor @ 3609 MHz with 2GB RAM
+Video: RADEON XT SERIES 
+
+UserName: **********
+ComputerName: *********
+Application location: C:GamesSierraSWAT 4ContentSystem
+
+SWAT Build Number: 31973
+
+Access Violation caused General protection fault!
+
+History: ULevel::MoveActor [SwatPlayer1 ] <- APawn::stepUp [(controller 1)] <- APawn::physWalking <- APawn::performPhysics <- AActor::Tick [Actor: 'SwatPlayer1' Actor->bDeleteMe: FALSE] <- ASwatRagdollPawn::Tick <- TickAllActors <- ULevel::Tick [(NetMode=0)] <- TickLevel <- UGameEngine::Tick <- UpdateWorld <- MainLoop->GenerateExtraCrashInfo [(GLevel: 'myLevel' PendingLevel: '(NULL)' NetMode: 'NM_Standalone'] <- MainLoop  
+
+hmmm??
+"
+,dicken,2005-04-09T15:36Z,Behöver hjälp kan inte ställa in språket på eng det är på spanska.........vad ska jag göra?
+,gurgel,2005-04-10T00:35Z,"För att ställa in språket till engelska så laddar du fördelaktligen ner den engelska versionen, och inte den spanska."
+,Gangster_G,2005-04-16T16:39Z,spelet lagger i bana 6 :S någon som har tips?
+,Vicke24,2010-05-07T14:33Z,Kug i know this problem.
+,Vicke24,2010-05-07T14:33Z,Kug i know this problem

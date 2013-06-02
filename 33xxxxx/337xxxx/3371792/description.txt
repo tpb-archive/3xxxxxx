@@ -1,0 +1,28 @@
+Fraps is a universal Windows application that can be used with all games
+using DirectX or OpenGL technology. In its current form Fraps performs
+manytasks and can best be described as:
+  
+Benchmarking Software - See how many Frames Per Second (FPS) you are
+getting in a corner of your screen. Perform custom benchmarks and
+measurethe frame rate between any two points. Save the statistics out to
+disk and use them for your own reviews and applications.
+  
+Screen Capture Software - Take a screenshot with the press of a key!
+There's no need to paste into a paint program every time you want to
+capture the screen. Your screen captures are also automatically named and
+timestamped.
+  
+Realtime Video Capture Software - Have you ever wanted to record video
+while playing your favourite game? Come join the Machinima revolution!
+Throw away the VCR, forget about using a DV cam, game recording has never
+been this easy! Fraps can capture audio and video up to 1152x864 at 60
+frames per second!
+
+2.6.4 - 15th Aug 2005
+- Fixed custom movie fps reverting to 29.97 after multiple restarts
+- Fixed sound not being captured in all movies under Windows 2000 
+- Fixed error message when running Fraps under limited user account
+- Fixed settings not being saved for limited users
+- Fixed Risk Your Life and Lineage 2 not capturing for some users
+- Added warning message if Direct3D debug runtime active
+- Installer will now update codec if it's being used at the time

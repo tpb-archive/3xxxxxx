@@ -1,0 +1,24 @@
+﻿User Type,Username,Date,Text
+,Corelian,2005-07-24T14:02Z,"Debian binaries would be nice! Providing all the binaries shouldn't be a problem these days. 100 MB ain't that much, you know. Besides every decent BitTorrent client let's you choose which files to download, so people would normally grab just the packages they need."
+,lleb,2005-07-24T19:03Z,"next time there is an upgrade to either cedgea or p2p ill make a new torrent and make sure it is clean.  sorry for the mulitple copies in the cedega2 torrent.
+
+still dont know why it did that.  oh well.  you can grab the .deb from that torrent."
+,Corelian,2005-07-24T21:21Z,"Oh, sorry, I didn't notice this is the same version. Already got that."
+,Rittsel,2005-07-25T00:33Z,"Well i find the Debians binaries useless.
+The tgz works on every dist, all you need to do is:
+cd / && tar zxvf /path/to/cedega_4.4-1.i386.tgz"
+,barz,2005-07-26T13:59Z,If you think .deb packages are useless you clearly don't see the point of apt. Unpacking a .tgz clutters you system. Installing the .deb lets you remove and upgrade the package easily without any risk of leaving files behind.
+,Rittsel,2005-07-26T15:03Z,"True, and still NOT true ;)
+
+There are alot of times when you remove something with ""apt-get remove"" that it leaves files after it. Second, i would never want to remove cedega, so again. I find it useless for ME anyway :p"
+,Corelian,2005-07-27T15:11Z,"You mean 'dpkg --remove'?
+That's why you use 'dpkg --purge' to uninstall something completely. 'dpkg --remove' is supposed to leave configuration files and similar stuff in case you reinstall the application and don't want to lose previous settings."
+,orv,2005-07-28T00:23Z,"Yes. point2play-small is what I've been hunting for, since that's what Gentoo portage wants. :) Thanks, and keep 'em coming :D"
+,ohne89,2005-08-08T03:31Z,"Thank you for sharing. Downloaders: Consider paying for Cedega, it doesn't cost much and they are keeping gaming on Linux alive. Think about it!"
+,ohne89,2005-08-08T03:40Z,What happened to the debs and rpms?
+,Tempoe,2005-08-09T16:18Z,Are this fullversion?
+,Rittsel,2005-08-16T06:28Z,"ohne89 - I didnt want them so i removed them.
+
+Tempoe - Yes it is the full version. Thou you cant use P2P without an account. But i only use Cedega."
+,_pingu_,2005-08-16T11:05Z,What is cedega??? sorry for asking.I know itÂ´s for linux.
+,_pingu_,2005-08-16T11:08Z,OK I KNOW WHAT IT IS NOW... I REALLY NEED THIS... TNX

@@ -1,0 +1,70 @@
+﻿User Type,Username,Date,Text
+,tuner8,2005-04-08T14:16Z,Hey great! Thanks!
+,tuner8,2005-04-08T14:33Z,"Btw, how much did you compress? I checked dvd-9 version with dvd shrink and got 61.7 ratio for the film with only 1 subs and if menus were dropped ."
+,gizmoez,2005-04-10T16:15Z,thanks
+,smurffen,2005-04-11T00:37Z,Kanon tackar o bugar..............
+,hug0,2005-04-11T21:54Z,stanna på 98.6% whhyyy :S
+,hug0,2005-04-12T02:08Z,hur kul är det när den stannar på 99.9% :S:S nån som kan seeda?
+,Andrzn,2005-04-12T21:22Z,"Jag fick ner
+7st .VOB filer
+2st .BUP
+2st .IFO
+
+De andra gångerna jag tankar film får jag img filer.. Altså Bin eller .img och det är bara att bränna med nero... Hur gör jag nu för att bränna på en 4.7giggs dvd skiva????"
+,mflson,2005-04-12T22:20Z,"Till Andrzn
+Du använder Nero för att bränna dessa filer.
+Starta Nero med wizarden. Välj att skapa en ""DVD-Video""
+I den katalogstrukturen som Nero skapar för DVD-skivan (en AUDIO_TS & en VIDEO_TS katalog), lägger du alla filer du fick hem. Sen är det bara att bränna."
+,Andrzn,2005-04-12T22:46Z,"Det som finns för mig är, Nero burning rom, nero express och nero smart start, När jag startar smart start finns det 2 flikar i rutan, CD/DVD... Jag väljer dvd sedan är alternativen.
+Data/audio skiva... Och *kopiera & backup* Där finns det Bränn image till skiva är det denna jag skall starta? =)"
+,myway,2005-04-13T01:58Z,"Du öppnar nero smart start. 
+När den kommer upp så har du uppe i högra hörnet en DVD och en CD flik. 
+Välj DVD.
+Sen tar du photo and video, klicka på burn DVD-video.
+Nu ser du fyra ruter. De två första (på vänster sida)är för DVD och de två andra (på högersidan) är din dator där du ska leta upp filerna som du ska bränna.
+När du har hittat alla filerna. dubbelklicka på VIDEO_TS (som ligger under audio_ts) nu är den öppen och det är här
+ .VOB .BUP .IFO filerna ska in.
+Nu markerar du alla filerna och sen högerklicka på dom, välje ""Copy To Compikation""
+och nu ligger dom filerna under Video_TS mappen.
+
+Nu är det bara att: Burn this mother fucker =)
+
+Lycka Till"
+,Paakari,2005-04-13T08:50Z,I have problem with this release. I have burned Alexander.iso with Nero Burning Rom but I can't hear voices (with dolby digital 5.1 or DTS) in the movie. DVD burned succesfully without errors.  In start up and set up screens i hear voices. Have anyone else this kind of problem with this dvd release?
+,Falle,2005-04-13T10:23Z,"en fråga, vad är audio_ts till för? och i så fall när ska man använda det?"
+,myway,2005-04-13T14:33Z,Jag tor att man ska använda den mappen när man gör en DVD-audio. och det är helt annat format mot DVD-video.
+,Bjorken,2005-04-13T17:23Z,Vad är det för skilnad på DVD5 och DVD9?
+,Falle,2005-04-13T17:35Z,tack myway!
+,Falle,2005-04-13T17:41Z,"DVD5: Är en disk typ som kallas för singel layer disk dvs. en disk på 4,7 GB
+
+DVD9: Även kallad dual layer disk, här bränner du 8,5 GB på en sida fast i dubla lager (dvs. två stycken singellayer skivor på en skiva) 
+
+så enkelt är det :)"
+,Bjorken,2005-04-13T20:10Z,Tack för det Falle! :)
+,rudmark,2005-04-14T18:25Z,"AUDIO_TS mappen är nödvändig när man bränner en DVD, om man också har en VIDEO_TS mapp, där alla vobfilerna etc ligger. AUDIO_TS mappen är sgs alltid helt tom (!) och finns den inte, gör en själv (dvs mapp som heter AUDIO_TS     ja stora bokstäver och inget mellanslag.)"
+,SoBBe_,2005-04-17T15:30Z,Är det text med? Ja har ingen text fil med bland mina filer ja laddar ner....!!! =(
+,warez_R_us,2005-04-21T01:30Z,om man inte vill bränna utan bara kolla från HD:n då (kör Windvd)? Man kan förstås öppna vobfilerna men då kan man ju inte använda menyerna. Hur gör man?
+,bigpigg,2005-04-24T12:39Z,jag kan inte (trycka) på menyerna i min dvd-spelare:S hur gör jag? har jag jgort ngt fel? vänligen svara! mvh
+,carcass,2005-04-30T21:40Z,hur bränna jag alla dessa vob och sub filer??
+,AlThaMan,2005-05-01T10:37Z,"noobs, använd dvd decrypter"
+,AlThaMan,2005-05-01T10:38Z,"noobs, det finns alltid en snabbknapp på din fjärrkontroll som det står subtitles på.. testa den så skall det nog funka.. ;)"
+,Jojsan,2005-05-04T09:59Z,"Hejsan.
+Laddade hem denna och BitComet sa att det var 100% skulle nu bränna och upptäcker att ""VTS_01_2.VOB""- filen ej var fulltnedladdad.  Hmmm...
+Jag är helt novis på detta och skulle då gissar jag behöva denna igen... för att få den komplett, kan jag få den av någon eller måste jag ladda hem hela filmen igen? T
+ack på förhand."
+,Lecza,2005-05-15T21:49Z,can someone tell me how to burn this whole thing? I dont know a lot of these kind of things
+,DaVidZ75,2005-05-17T15:21Z,"burn with nero, video t_s"
+,DaVidZ75,2005-05-17T15:33Z,"althaman, fan du har väl själv vart noob eller.... pucko"
+,TuX_XuT,2005-05-26T17:33Z,Du packar upp filmen till .img mounter med Deamon Tools. Sen nere vid filformat trycker du alla filer! då ska du kunna se filmen. om du har ett program som du kan se i det vill säga.. och då finns alltid Power DVD.. Lycka till! =)
+,TuX_XuT,2005-05-26T17:37Z,"Om jag har förstått allt rätt nu så är allt i .VOB filer, då gör du så att använd PowerDVD, i programet väljer du att spela film från Hårddisk, sen väljer du den mapp där alla .VOB filer ligger. sen är det bara titta och njuta av rullen! hoppas du lyckas! "
+,earni,2005-06-14T10:44Z,Jag har laddat ner filmen alexander men jag har fått ner några filer som heter vidoe_TS och några vob filer och VTS_01_0 men jag kan inte extreckta dem och bränna filmen skulle uppskatta jätte mycket i fall någon kunde förklara för mig hur jag extrecktar den och brännde filmen??mvh robin
+,lemy,2005-06-14T20:52Z,Jag använder DVD_santa för att bränna VOB-video ts mm- set är bara kopiera och lägg alla filer i dvd santa dvd.burning.
+,mattelo91,2005-08-04T11:17Z,MORE SPEED !?!?! THANSKSK
+,elibano_13,2005-08-12T14:06Z,kan ni seda(((((((((((((((((((((((( seda))))))))))))))))))))))))))))))
+,SuperTedNorway,2006-01-11T20:09Z,"Ikke last ned denne filmen den stopper på 99,8% bedre at hele Torrent fjernes hvis ingen kan seede den. :-("
+,pelle_theking,2006-05-02T16:22Z,"Har någon kunnat använda sig av menyn?? För jag kan nämligen inte göra det, snälla, berätta!"
+,gargeran,2007-08-26T14:08Z,Seed please!!!
+,siron,2008-06-27T15:21Z,"Ok, thanks for the up but could someone please seed?? it say one seeder but it´s really none...."
+,hensag,2008-06-29T01:36Z,pleace seed:) thank you very much:) seems there are several stuck on 99%:S
+,Torium,2008-07-01T01:45Z,"Please seed! I'm stuck on 99,37%"
+,Torium,2008-07-04T20:57Z,"Still stuck on 99,37%. PLEASE SEED!"

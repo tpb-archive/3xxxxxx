@@ -1,0 +1,45 @@
+This program reports the current state of your disks: Total MegaBytes, GigaBytes, the amount of space used and free, and the useable swap space (or memory usage). Furthermore, one can browse through the folder structure with an intuitive pie chart showing relative folder space used.
+
+DiskState can also eliminate space wasted after program crashes or by temporary files no longer needed.
+
+The Duplicate Finder of DiskState uses a powerful 128-bit MD5 technology to track down redundant files. CRC32 is also available. Even if the file names are different, DiskState identifies duplicates by content and displays duplicates in a comprehensive list.
+
+Got a lot of MP3s, image files and other multimedia duplicates? Then DiskState can help you with an easy-to-use wizard to remove those hogging duplicate multimedia files!
+
+Next, DiskState can capture the state of all files recursively in a folder tree. This enables the user to compare old states with newly captured ones. Ideally for detecting changes in files, deleted and added files in a given folder structure.
+
+Reports can be generated to find the oldest files, archive files etc. on a disk volume. Find files edited within a specified time period, files with given attributes like compressed, read-only, hidden and so forth. The whole report generator is fully user-customizable. Adding new reports is simple.
+
+DiskState provides a deletion engine for scheduling cleanups regularly.
+
+A notification can be given, either by a popup window or email, when a volume has reached its level of capacity.
+
+File deletions are SAFE. DiskState can easily restore back the state of cleaned file entries.
+
+A cool tool to extract boot blocks in a multi-boot environment. This is useful if e.g. the Windows 2003 Server installer has erased your Linux boot block. Add Linux, BeOS, OS/2 and over 200 known boot blocks to your Windows NT/2000/XP boot menu in a breeze.
+
+DiskState has various cleanup tools. One example is the "Cover Your Tracks" to remove traces you leave after surfing the web. You can remove traces of your browsing from Internet Explorer, Netscape and Opera web browsers. Valuable information can be left intact for malicious users to see and abuse. DiskState can remove this information for you.
+
+
+Version 3.00.1099 released (Oct 21st 2005)
+
+
+What is new in v3.00
+
+Added UNC support for drives.
+Added full support for file system reparse points. Volume mount points and symbolic links with circular detection algorithm.
+Rewritten duplicate base select engine.
+Added new option to Base Select: Keep longest name.
+Added new context menu item for duplicate result window: Deselect all files in this folder.
+Improved the Deletion Engine by adding automatic log and zip archive rotation. Furthermore, the engine is better suited for archival purposes (e.g. archive files older than 5 years).
+New core data structures are in place. Faster and more maintainable.
+UI Tweaks: Add/Remove programs remembers last selected item after refresh.
+UI Tweaks: About dialog includes button to check for program updates.
+UI Tweaks: Added warning when closing result windows that took a while to gather.
+UI Tweaks: Dupes Results Delete now remembers last selected file. Also highlights portion of result list that contain problems/questions.
+Minor bugfixes: Deletion engine zip safety path.
+Minor bugfixes: When files are already deleted in a result list, no error condition is thrown now.
+PerfectDisk 7 support added.
+Opera 8 support added.
+Firefox support added.
+Miscellaneous fixes and cosmetic touchup.

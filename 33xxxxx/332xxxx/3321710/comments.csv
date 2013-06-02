@@ -1,0 +1,85 @@
+﻿User Type,Username,Date,Text
+,Juttan,2005-04-26T12:48Z,Hur ska jag kunna bränna detta? Vilket program behövs?
+,juggleruk,2005-04-26T18:00Z,"Gotta feeling previous post is the same as this.
+What do I do to get this on CD?"
+,bd40,2005-04-26T22:55Z,Typ Nero bränn audio precis som när du bränner mp3 till wave ljud inga konstigheter.
+,dredawg,2005-04-27T10:52Z,"Use Sony DVD Studio:
+
+http://tracker.piratbyran.org/torrents-details.php?id=3251484"
+,dredawg,2005-04-29T07:26Z,"actaully you'll need to use alchohol to burn this...
+
+burn as audio cd... and play in your dvd player.
+
+see comments on this torrent:
+
+http://tracker.piratbyran.org/torrents-details.php?returnto=%2Faccount-cp.php&id=3321790"
+,gnill,2005-05-22T18:31Z,Where do these posts that are in DTS actually come from? Is it ripped from a CD but then converted to DTS? Or are these albums actually released in DTS format from the beginning and just ripped straight off the album?  As far as i know Paranoid has not been releaead as a DVD-Audio for example and with a DTS on it. I might be wrong but whats the source of the file? 
+,mjtannin,2005-07-12T11:30Z,"In case someone is interested: I created a cue file to get those tracks out of this single dtswav in nero. Just create a .cue file containin following lines and open it with nero to burn. Note names and or track positions may not be exactly correct, but I'm happy with it.
+
+PERFORMER ""Black Sabbath""
+TITLE ""Paranoid DTS""
+FILE ""Black.Sabbath.-.Paranoid.dtswav"" WAVE
+  TRACK 01 AUDIO
+    TITLE ""01. War pigs / Luke's Wall""
+    PERFORMER ""Black Sabbath""
+    INDEX 01 00:00:00
+  TRACK 02 AUDIO
+    TITLE ""02. Paranoid""
+    PERFORMER ""Black Sabbath""
+    INDEX 01 07:49:70
+  TRACK 03 AUDIO
+    TITLE ""03. Planet Caravan""
+    PERFORMER ""Black Sabbath""
+    INDEX 01 10:39:30
+  TRACK 04 AUDIO
+    TITLE ""04. Iron Man""
+    PERFORMER ""Black Sabbath""
+    INDEX 01 15:20:40
+  TRACK 05 AUDIO
+    TITLE ""05. ELectric Funeral""
+    PERFORMER ""Black Sabbath""
+    INDEX 01 21:11:40
+  TRACK 06 AUDIO
+    TITLE ""06. Hand of Doom""
+    PERFORMER ""Black Sabbath""
+    INDEX 01 25:59:60
+  TRACK 07 AUDIO
+    TITLE ""07. Rat Salad""
+    PERFORMER ""Black Sabbath""
+    INDEX 01 32:58:70
+  TRACK 08 AUDIO
+    TITLE ""08. Fairies Wear Boots / Jack the Stripper""
+    PERFORMER ""Black Sabbath""
+    INDEX 01 35:28:40"
+,mjtannin,2005-07-12T11:36Z,"Damn, this commentfield doesn't display linebreaks.  If you view page source there linebreaks are just fine (linebreak before every PERFORMER, TITLE, FILE, TRACK and INDEX)."
+,jampam,2005-07-16T13:40Z,"just in case, some tries to burn it in toast (os x). you need to rename the file to .wav, and also do that in the .cue file et voila, you can burn this disc too.. i just haven't managed yet, to burn the .gi (other dts-releases) files, anyone can help?"
+,dredawg,2005-07-19T07:41Z,"Great CUE Sheet!  That works awesome!  Now I just mount the the .CUE using Daemon Tools and play it with PowerDVD. Here's that CUE again with  substituted for line breaks, search and replace on those with n in a decent txt editor..cue follows here:
+PERFORMER ""Black Sabbath""
+TITLE ""Paranoid DTS""
+FILE ""Black.Sabbath.-.Paranoid.dtswav"" WAVE 
+TRACK 01 AUDIO TITLE ""01.War pigs / Luke's Wall"" 
+PERFORMER ""Black Sabbath"" 
+INDEX 01 00:00:00
+TRACK 02 AUDIO TITLE ""02. Paranoid"" 
+PERFORMER ""Black Sabbath"" 
+INDEX 01 07:49:70 
+TRACK 03 AUDIO TITLE ""03. Planet Caravan"" 
+PERFORMER ""Black Sabbath"" 
+INDEX 01 10:39:30 
+TRACK 04 AUDIO TITLE ""04. Iron Man""
+PERFORMER ""Black Sabbath"" 
+INDEX 01 15:20:40 
+TRACK 05 AUDIO TITLE ""05. ELectric Funeral"" 
+PERFORMER ""Black Sabbath"" 
+INDEX 01 21:11:40 
+TRACK 06 AUDIO TITLE ""06. Hand of Doom"" 
+PERFORMER ""Black Sabbath"" 
+INDEX 01 25:59:60 
+TRACK 07 AUDIO TITLE ""07. Rat Salad"" 
+PERFORMER ""Black Sabbath""
+INDEX 01 32:58:70 
+TRACK 08 AUDIO TITLE ""08. Fairies Wear Boots / Jack the Stripper"" 
+PERFORMER ""Black Sabbath"" 
+INDEX 01 35:28:40"
+,dredawg,2005-07-19T07:42Z,BLARG!!!! DARN COMMENT FIELD OUTSMARTED BOTH OF US!!!  
+,r_feynman,2006-11-11T10:21Z,Somebody please seed it...

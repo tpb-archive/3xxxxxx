@@ -1,0 +1,23 @@
+Invision Power Services is pleased to announce the release of Invision Power Board 2.1.0 FINAL
+
+Invision Power Board 2.1.0 FINAL is the first full, stable and supported release of the IPB 2.1 series. IPB 2.1.0 is ready for download in your client center (which is near the bottom of the download manager after logging in).
+
+This release fixes up over a dozen bugs identified in the last release (full list at the end of this post).
+
+Invision Blog and Invision Gallery owners will be able to upgrade to IPB 2.1.0 compatible stable versions next week.
+
+IPB 2.1.0 FINAL BUGS FIXED
+
+ACP: Settings: Build FT indexes link incorrect
+MSG: Add to buddies link from profile uses name not display name
+API: Several errors
+ACP: Pagination links incorrect for IP Member Tools
+Poll filter not showing all polls
+ACP: IE bug with templates editor
+AJAX: Search with less than X chars returns incorrect error display
+ACP: Missing files from language export
+ACP: Some log pop-ups missing title
+ACP: Manage forums "Skin set" not showing correctly
+UPGRADE: PHP 5.0.5 bug with references
+Resend Validation page uses display name not username
+ACP: Incorrect use of $this->root_path

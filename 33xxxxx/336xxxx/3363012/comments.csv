@@ -1,0 +1,64 @@
+﻿User Type,Username,Date,Text
+,Jumex,2006-01-03T04:32Z,"Everything ok to install.
+Only one problem. When I run for first time Pro/E I have an error message who says : "" 
+
+License request failed for feature PROE_200: -9: 
+Invalid host ""
+
+And then Pro/E is closing....
+
+I build the license as shown in the readme.txt...
+and my physical address represents the connection I am using right now...??!!??!!??
+
+Any help ???
+
+Bye
+
+Jumex"
+,Jumex,2006-01-03T05:11Z,"It finally worked but I dont understand why.
+
+I have two lines who leave my router. First is for USB and second for ethernet Cable.
+
+My CPU is connected to the router via the USB. The ethernet is disabled and not connected.
+But I had to enter the address of the ethernet line to activate Pro/E. The USB one was not working !!??!!??!!??
+
+Thx Zuumo.
+
+Bye
+Jumex"
+,Zuumo,2006-01-03T19:57Z,I know that the license is the big issue when installing this program. The hardware address used by ProE is the address shown in the lower-left corner when starting the installation. This SHOULD also be same as the one found when executing 'ipconfig /all' in a command window. At least that's how it works for me. I hope you'll manage to get it running on your computer! Good luck!
+,ipod,2006-01-20T13:06Z,"Hi!
+great upload. but how do i start the program after i installed it?
+
+Nice if someone could help me. 
+Many thaks"
+,Zuumo,2006-01-22T20:55Z,Hi! You should find the ProEngineer shortcut under PTC in the Startmenu. Any error messages is probably due to a faulty hardware address in the license file. Please check the comments beneath. Good hunting!
+,bONEZ_09,2006-02-08T16:54Z,I am having the same problem as Jumex with License request failed for feature PROE_200: -9: as an error message.  I created a fake license but with no luck.  Any suggestions?
+,admandude,2006-02-14T06:14Z,"hey zuumo, i've tried everything you said, no working.  so when i set it up, i should make the host my physical address?  thanks dude"
+,.BAD. Knox,2006-02-26T22:01Z,"ok... i got error 8 looked after... now i'm getting the standard -9 error, Invalid Host
+
+my address in the license file is the same as the one when i start the installation. (and the same as one of the ones when I type ipconfig/all)"
+,Zuumo,2006-03-05T14:19Z,"Hi! The address used for generating the license file should be the same that can be found in the lower-left corner of the installation window. However, if you're 100% certain that you have followed my directions, and still it doesn't work; then the installation may be too old. I don't know if the software has a 'best before date', but since a new version 'datecode' is released every now and then, this could be an effective way to remove old software from the market. Good luck!"
+,newb_vu,2006-03-16T21:58Z,"i installed but it needed cd2 and 3 so i hit cancel, but it installed it all the way. now when i try to open it does nothing.
+
+help please"
+,Zuumo,2006-03-19T11:07Z,"Well, you have to use all three CD's when installing the application. Please consult the readme file and the comments above to solve your problems. I know it can be a bit troublesome to get it working with licenses and so on, but with 1800+ downloads, you should be able to get it working on your computer. Good luck!"
+,bschroering,2006-04-12T22:26Z,"does anyone know how to insert cd 2 or 3 in installation. i have unpacked the files from winrar and also tried using daemon tools with this but i cant figure it out.
+ help please"
+,zdar,2006-05-04T11:37Z,"3) after install, open the ""license.dat"" from your
+   license server install dir ""licensing"" and
+   edit the Daemon path on second line to reflect
+    your installed path. 
+
+what does these sentences actually means?
+the daemon path on my licensing is ""C:Program Filesflexlmi486_ntobjptc_d.exe"". Do i have to change it at all??"
+,danzdanz,2006-05-12T19:11Z,"how the heck do u solve the ""-8 problem""? its the invalid (inconsistent) license key. i changed all of the 11-22-33 bla bla to my physical address. anyone noe the solution? help!"
+,oerkus,2006-08-30T09:52Z,how can i download this files
+,litta!,2006-09-26T22:20Z,"someone who can tell me were i can find the readme.txt file :S
+
+cd 1 cd2 cd3 ?"
+,x3mrage,2006-11-13T22:11Z,"oerkus! There's the tricky part - you can't!
+Try press ctrl+alt+del and jump up and down a couple times, i bet it all works out for you."
+,alllleeee,2006-11-23T22:38Z,I have read the readme file. But i doesn't help me. I can't find cd 2 and 3. please help me someone. G채rna svenska :)
+,erik007tm,2008-09-22T19:37Z,"this torrent is still working, i recommend it.
+thx Zuumo"
